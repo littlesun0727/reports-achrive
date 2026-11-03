@@ -1,0 +1,223 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "poster_base",
+    "description": "全画布为连续的深灰设计底图，带细微横向明暗纹理、斜向浅灰人物承托区及底部红色弧形收边；这些固定图形延伸至画布边缘并在人物后方连续可见。保留底图设计，独立替换人物照片。"
+  },
+  "objects": [
+    {
+      "id": "photo_left_man",
+      "kind": "photo",
+      "bbox": [
+        56,
+        627,
+        437,
+        1248
+      ],
+      "description": "左侧成年男性半身抠图，短发、戴眼镜，穿深色格纹西装和蓝色衬衫，正面朝向；人物轮廓完整显示，覆盖灰色斜向承托区。"
+    },
+    {
+      "id": "photo_upper_woman",
+      "kind": "photo",
+      "bbox": [
+        583,
+        546,
+        926,
+        1004
+      ],
+      "description": "上方偏右成年女性半身抠图，短发、戴眼镜，穿浅蓝灰色西装外套，正面朝向；下身被斜向灰色区域边缘遮住。"
+    },
+    {
+      "id": "photo_right_man",
+      "kind": "photo",
+      "bbox": [
+        668,
+        961,
+        1080,
+        1446
+      ],
+      "description": "右侧成年男性半身抠图，短发、戴圆框眼镜，穿黑色西装并以手托下巴，正面朝向；人物覆盖中部斜向区域，右侧身体延伸至画布边缘。"
+    },
+    {
+      "id": "photo_center_woman",
+      "kind": "photo",
+      "bbox": [
+        382,
+        1078,
+        731,
+        1596
+      ],
+      "description": "画面中央成年女性半身抠图，短发，穿灰蓝色西装外套和白色上衣，正面朝向；下身被前方斜向灰色承托区域局部遮挡。"
+    },
+    {
+      "id": "photo_lower_left_woman",
+      "kind": "photo",
+      "bbox": [
+        17,
+        1264,
+        334,
+        1770
+      ],
+      "description": "左下成年女性半身抠图，深色头发后束，穿黑色外套和花纹上衣、戴珍珠项链，双臂交叠，略朝画面右侧；人物轮廓覆盖斜向灰色区域。"
+    },
+    {
+      "id": "photo_lower_right_woman",
+      "kind": "photo",
+      "bbox": [
+        674,
+        1480,
+        1047,
+        1880
+      ],
+      "description": "右下成年女性半身抠图，长黑发，穿深蓝西装和白衬衫，正面朝向；下身被底部红色弧形收边部分遮挡。"
+    },
+    {
+      "id": "overlay_header",
+      "kind": "overlay",
+      "bbox": [
+        539,
+        43,
+        1035,
+        108
+      ],
+      "description": "右上方红白胶囊形活动横幅，包含白字“标杆案例分享”和红字“公益活动”；文字、底色、圆角边缘及整体排版作为一个固定设计单元保留。"
+    },
+    {
+      "id": "overlay_headline",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        177,
+        1009,
+        539
+      ],
+      "description": "上半部大型手写风格标题组合，包含白色中文笔画、红色强调字、白色引号与“HR”字样，以及下方黑色斜体英文“Case sharing”；特殊笔形、颜色和错落排布作为完整艺术字设计保留。"
+    },
+    {
+      "id": "overlay_upper_left_mark",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        42,
+        313,
+        117
+      ],
+      "description": "左上方两组浅色模糊横向标记，字样无法辨认；保留其原有模糊字形效果和位置。"
+    },
+    {
+      "id": "text_left_man",
+      "kind": "text",
+      "bbox": [
+        37,
+        623,
+        155,
+        732
+      ],
+      "text": "梁家广\n安踏人才发展\n研修院院长",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_upper_woman",
+      "kind": "text",
+      "bbox": [
+        508,
+        658,
+        656,
+        774
+      ],
+      "text": "Margaret\n人力资源高级总监",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_right_man",
+      "kind": "text",
+      "bbox": [
+        631,
+        1014,
+        789,
+        1120
+      ],
+      "text": "孟伟\n博世中国培训中心\n学习团队负责人",
+      "color": "#66676C",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_center_woman",
+      "kind": "text",
+      "bbox": [
+        317,
+        1247,
+        414,
+        1340
+      ],
+      "text": "朱春红\n某快消品企业\nHRVP",
+      "color": "#66676C",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_lower_left_woman",
+      "kind": "text",
+      "bbox": [
+        319,
+        1501,
+        528,
+        1625
+      ],
+      "text": "高蓓华\n万国数据人力资源副总裁，\n前强生、可口可乐等知名\n500强企业HR高管",
+      "color": "#66676C",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_lower_right_woman",
+      "kind": "text",
+      "bbox": [
+        580,
+        1650,
+        736,
+        1732
+      ],
+      "text": "姚芳\n沃尔沃集团高管",
+      "color": "#66676C",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_upper_left_mark",
+    "photo_left_man",
+    "photo_upper_woman",
+    "photo_right_man",
+    "photo_center_woman",
+    "photo_lower_left_woman",
+    "photo_lower_right_woman",
+    "overlay_header",
+    "overlay_headline",
+    "text_left_man",
+    "text_upper_woman",
+    "text_right_man",
+    "text_center_woman",
+    "text_lower_left_woman",
+    "text_lower_right_woman"
+  ]
+}

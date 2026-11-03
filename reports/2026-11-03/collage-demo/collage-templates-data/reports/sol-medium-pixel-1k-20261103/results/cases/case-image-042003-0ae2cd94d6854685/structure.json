@@ -1,0 +1,301 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "plaid_background",
+    "description": "连续的暗红色与浅红色格纹布面覆盖整个1080×2400画布，格线和轻微织物质感在四周及前景对象间隙中保持一致；中央圣诞树、猫咪照片、玩偶、礼物和装饰均为独立前景单元。"
+  },
+  "objects": [
+    {
+      "id": "overlay_tree",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        542,
+        888,
+        2025
+      ],
+      "description": "由深绿色手绘枝条、红色斜向装饰带和底部绿色笔触构成的中央圣诞树主体，作为固定装饰整体保留，部分枝条被猫咪照片、玩偶和礼物遮挡。"
+    },
+    {
+      "id": "overlay_tree_lights",
+      "kind": "overlay",
+      "bbox": [
+        319,
+        601,
+        752,
+        1618
+      ],
+      "description": "散布在中央树枝上的彩色圆点、黄色星星和小型装饰光点，作为同一组固定树上装饰保留。"
+    },
+    {
+      "id": "photo_cat_top",
+      "kind": "photo",
+      "bbox": [
+        390,
+        252,
+        668,
+        626
+      ],
+      "description": "上方独立猫咪摄影主体，猫头从红色圆形抱枕或坐垫中探出，朝向左侧，周围为透明去背景区域；照片边缘沿猫咪与红色坐垫组合显示，并带有柔和轮廓过渡。"
+    },
+    {
+      "id": "overlay_top_star",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        253,
+        625,
+        395
+      ],
+      "description": "位于上方猫咪照片顶部的黄色手绘星形装饰，带短绿色连接笔触，作为独立固定贴纸保留。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        314,
+        558,
+        470,
+        694
+      ],
+      "description": "树左上方的浅绿色手绘蝴蝶结及长飘带，覆盖部分绿色树枝，整体作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_text_top",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        468,
+        784,
+        605
+      ],
+      "description": "上方猫咪右侧的黄色手写中文祝福字样，字形倾斜并带有装饰性笔画，作为固定艺术字整体保留。"
+    },
+    {
+      "id": "overlay_teddy_upper",
+      "kind": "overlay",
+      "bbox": [
+        588,
+        652,
+        815,
+        1054
+      ],
+      "description": "戴红色圣诞帽、红色围巾和红色靴子的浅棕色泰迪熊插画，位于树的右上区域，包含耳朵、身体、四肢、帽子和服饰细节，整体作为固定贴纸保留。"
+    },
+    {
+      "id": "overlay_candy_cane",
+      "kind": "overlay",
+      "bbox": [
+        485,
+        646,
+        587,
+        808
+      ],
+      "description": "树中央偏上的红白条纹糖果拐杖，带黄色蝴蝶结和白色装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text_center_upper",
+      "kind": "overlay",
+      "bbox": [
+        274,
+        627,
+        655,
+        739
+      ],
+      "description": "位于树上部的浅黄色手绘中文祝福字样和短装饰笔画，字形不规则并与树枝交叠，作为一组艺术字装饰保留。"
+    },
+    {
+      "id": "photo_cat_left",
+      "kind": "photo",
+      "bbox": [
+        187,
+        795,
+        564,
+        1145
+      ],
+      "description": "左侧中部独立猫咪摄影主体，猫头从红色圆形坐垫中探出并朝向右侧，红色坐垫和猫咪共同构成完整抠图组合，周围透明；下缘和右侧局部覆盖中央树枝。"
+    },
+    {
+      "id": "photo_cat_right",
+      "kind": "photo",
+      "bbox": [
+        620,
+        1041,
+        925,
+        1340
+      ],
+      "description": "右侧中部独立猫咪摄影主体，猫咪正面略朝左，置于红色圆形坐垫内，周围为透明去背景区域；照片组合覆盖树枝和部分树上装饰。"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        1191,
+        1022,
+        1336
+      ],
+      "description": "右侧猫咪旁边的米白色手绘对话气泡，带黑色粗轮廓和黑色抽象符号，作为独立固定贴纸保留。"
+    },
+    {
+      "id": "overlay_stocking",
+      "kind": "overlay",
+      "bbox": [
+        242,
+        1177,
+        355,
+        1308
+      ],
+      "description": "树左下部的小型圣诞袜插画，白色袜口带彩色点状装饰，袜身为红白配色，作为固定装饰整体保留。"
+    },
+    {
+      "id": "overlay_wreath",
+      "kind": "overlay",
+      "bbox": [
+        422,
+        1197,
+        558,
+        1354
+      ],
+      "description": "树中央下部的绿色圆形圣诞花环，带红色蝴蝶结、黄色边缘和多色圆点装饰，作为完整固定单元保留。"
+    },
+    {
+      "id": "overlay_text_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        1228,
+        252,
+        1342
+      ],
+      "description": "树左下方的浅黄色倾斜手绘中文祝福字样，带独立短笔画和装饰性间距，作为固定艺术字保留。"
+    },
+    {
+      "id": "overlay_text_center_lower",
+      "kind": "overlay",
+      "bbox": [
+        384,
+        1159,
+        563,
+        1270
+      ],
+      "description": "花环上方和树中央的浅黄色手绘中文装饰字样，笔画不规则并与树枝交叠，作为艺术字整体保留。"
+    },
+    {
+      "id": "overlay_text_right_lower",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        963,
+        944,
+        1096
+      ],
+      "description": "右侧猫咪上方和树枝旁的浅黄色手绘中文祝福字样，包含倾斜笔画和部分被猫咪遮挡的关系，作为固定装饰保留。"
+    },
+    {
+      "id": "photo_cat_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        47,
+        1344,
+        489,
+        1952
+      ],
+      "description": "左下方大型猫咪摄影主体，猫咪为坐姿并朝向左侧，身体和红色圆形坐垫共同构成完整抠图组合，保留猫咪毛发、坐垫和下方身体；其右侧被水果与树枝装饰局部遮挡。"
+    },
+    {
+      "id": "overlay_gift_box",
+      "kind": "overlay",
+      "bbox": [
+        476,
+        1458,
+        805,
+        1811
+      ],
+      "description": "右下区域的大型黄色礼物盒，带宽大的棕红色十字缎带和蝴蝶结，后方部分被泰迪熊遮挡，整体作为固定插画保留。"
+    },
+    {
+      "id": "overlay_teddy_lower",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        1486,
+        1065,
+        1945
+      ],
+      "description": "右下方浅棕色泰迪熊插画，戴红色小帽并系棕红色蝴蝶结，坐在礼物盒前方，包含完整身体、四肢和阴影细节，作为固定贴纸保留。"
+    },
+    {
+      "id": "overlay_fruit",
+      "kind": "overlay",
+      "bbox": [
+        287,
+        1667,
+        681,
+        1960
+      ],
+      "description": "底部中央的水果装饰组合，包括红色苹果、苹果切片和浅色圆形水果块，成员彼此紧贴并共同压住树枝，作为一个固定食物插画单元保留。"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        1778,
+        238,
+        1954
+      ],
+      "description": "左下角的奶油蛋糕插画，带单根点燃蜡烛、黄色分层蛋糕体和棕色盘托，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_text",
+      "kind": "overlay",
+      "bbox": [
+        386,
+        1408,
+        741,
+        1510
+      ],
+      "description": "树下部中央的浅黄色手绘中文祝福字样，内容呈横向分组并带不规则艺术笔画，作为固定艺术字整体保留。"
+    },
+    {
+      "id": "overlay_bottom_hat",
+      "kind": "overlay",
+      "bbox": [
+        811,
+        1432,
+        918,
+        1557
+      ],
+      "description": "右下泰迪熊头顶的红色节日帽及白色帽沿，作为与泰迪熊相连的固定服饰装饰整体保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_tree",
+    "overlay_tree_lights",
+    "overlay_text_top",
+    "overlay_text_center_upper",
+    "overlay_text_left_lower",
+    "overlay_text_center_lower",
+    "overlay_text_right_lower",
+    "overlay_bottom_text",
+    "overlay_bow",
+    "overlay_top_star",
+    "overlay_candy_cane",
+    "overlay_stocking",
+    "overlay_wreath",
+    "overlay_gift_box",
+    "overlay_fruit",
+    "overlay_cake",
+    "photo_cat_top",
+    "photo_cat_left",
+    "overlay_teddy_upper",
+    "photo_cat_right",
+    "photo_cat_bottom_left",
+    "overlay_speech_bubble",
+    "overlay_bottom_hat",
+    "overlay_teddy_lower"
+  ]
+}

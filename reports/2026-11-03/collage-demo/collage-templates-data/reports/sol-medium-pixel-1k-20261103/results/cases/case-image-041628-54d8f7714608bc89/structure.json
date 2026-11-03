@@ -1,0 +1,186 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的户外摄影画面覆盖整张画布，包含坐在台阶中央的单人女性全身、浅蓝色服装、墙面、地面和台阶；环境内容延伸至四条画布边缘。右上方独立照片和固定装饰遮挡局部，但不改变底图的全画布范围，人物及其环境作为整体供客户素材替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        643,
+        40,
+        1039,
+        533
+      ],
+      "description": "右上方独立矩形人物照片，显示同一女性坐在户外台阶上的全身或接近全身姿态，人物位于画面中央偏右，保留照片内的墙面、台阶和地面环境；该照片覆盖全画布底图的右上区域，边缘为独立矩形裁切。"
+    },
+    {
+      "id": "overlay_music_player",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        128,
+        366,
+        445
+      ],
+      "description": "左上方蓝色音乐播放器界面装饰，包含深蓝圆角面板、歌曲信息、播放控制图标、进度条和底部设备行，作为独立固定图形保留，不承担照片承载功能。"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        61,
+        76,
+        81
+      ],
+      "description": "画布左上区域的小型白色十字闪光贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_outline_large",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        94,
+        136,
+        153
+      ],
+      "description": "音乐播放器左上方的大型白色空心五角星贴纸，包含完整描边和不规则手绘轮廓，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_small_left",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        148,
+        150,
+        168
+      ],
+      "description": "播放器左上侧的小型白色十字闪光贴纸，独立叠加在墙面区域。"
+    },
+    {
+      "id": "overlay_star_outline_lower",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        218,
+        165,
+        261
+      ],
+      "description": "音乐播放器左侧的白色空心星形贴纸，保留完整手绘描边和尖角轮廓。"
+    },
+    {
+      "id": "overlay_star_player",
+      "kind": "overlay",
+      "bbox": [
+        177,
+        189,
+        204,
+        218
+      ],
+      "description": "叠在音乐播放器左上部的小型白色实心星形装饰，覆盖播放器局部内容。"
+    },
+    {
+      "id": "overlay_cloud_upper",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        104,
+        744,
+        161
+      ],
+      "description": "右上独立照片上方偏左的白色云朵与蓝色雨滴贴纸，包含云体、下方小水滴和蓝色阴影，作为一个完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_drop_upper",
+      "kind": "overlay",
+      "bbox": [
+        863,
+        103,
+        887,
+        149
+      ],
+      "description": "右上人物照片上方的蓝色水滴贴纸，独立叠加在照片区域内，保留高光和渐变外观。"
+    },
+    {
+      "id": "overlay_sparkles_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        936,
+        26,
+        1028,
+        148
+      ],
+      "description": "右上照片右上侧成组的白色星光和菱形闪烁贴纸，包含多个不同大小的闪光轮廓，作为同一组固定装饰保留并覆盖照片及画布底图。"
+    },
+    {
+      "id": "overlay_cloud_center_left",
+      "kind": "overlay",
+      "bbox": [
+        286,
+        509,
+        351,
+        569
+      ],
+      "description": "中央人物左侧的浅蓝白色云朵贴纸，带有横向拖影和柔和阴影，独立叠加在底图摄影环境上。"
+    },
+    {
+      "id": "overlay_vertical_label",
+      "kind": "overlay",
+      "bbox": [
+        697,
+        605,
+        744,
+        752
+      ],
+      "description": "中央偏右的窄幅蓝灰色竖向标签卡，带有分行黑色小字“you are the best of the best ...”及轻微阴影，文字与卡片共同构成固定装饰单元。"
+    },
+    {
+      "id": "overlay_cd_case",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        721,
+        838,
+        824
+      ],
+      "description": "竖向标签右下方的透明光盘盒装饰，包含浅色方形盒体、圆形光盘、中心孔和底部条码细节，作为独立固定图形保留。"
+    },
+    {
+      "id": "text_backpacker",
+      "kind": "text",
+      "bbox": [
+        757,
+        829,
+        1013,
+        870
+      ],
+      "text": "#Back packer.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_upper_right",
+    "overlay_music_player",
+    "overlay_star_top_left",
+    "overlay_star_outline_large",
+    "overlay_star_small_left",
+    "overlay_star_outline_lower",
+    "overlay_star_player",
+    "overlay_cloud_upper",
+    "overlay_drop_upper",
+    "overlay_sparkles_upper_right",
+    "overlay_cloud_center_left",
+    "overlay_vertical_label",
+    "overlay_cd_case",
+    "text_backpacker"
+  ]
+}

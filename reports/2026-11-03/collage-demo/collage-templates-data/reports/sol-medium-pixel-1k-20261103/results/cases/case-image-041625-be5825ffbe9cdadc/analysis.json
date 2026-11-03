@@ -1,0 +1,615 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    949,
+    1265
+  ],
+  "objects": [
+    {
+      "id": "pink_paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        949,
+        1265
+      ],
+      "description": "连续的浅粉色固定底图覆盖整张画布，照片拼贴之间及四周保留同一粉色底面；右下角可见淡色固定水印字样，因此保留为设计底图。所有照片独立替换。",
+      "background_type": "reference_clean",
+      "label": "连续的浅粉色固定底图覆盖整张画布，照片拼贴之间及四周保留同一",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        126,
+        702,
+        193
+      ],
+      "description": "顶部红色手写书法标题“2024专辑照片墙”，作为独立固定艺术字整体保留。",
+      "label": "顶部红色手写书法标题“2024专辑照片墙”，作为独立固定艺术",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_subtitle",
+      "kind": "overlay",
+      "bbox": [
+        299,
+        211,
+        654,
+        247
+      ],
+      "description": "标题下方红色手写副标题“一年又一年 我们还是我们”，作为独立固定艺术字整体保留。",
+      "label": "标题下方红色手写副标题“一年又一年 我们还是我们”，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gray_caption",
+      "kind": "overlay",
+      "bbox": [
+        269,
+        274,
+        681,
+        311
+      ],
+      "description": "中上方浅灰色手写文字“这一年又要接近尾声了”，保留原有手写字形和整体排版。",
+      "label": "中上方浅灰色手写文字“这一年又要接近尾声了”，保留原有手写字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_black_caption",
+      "kind": "overlay",
+      "bbox": [
+        290,
+        345,
+        658,
+        390
+      ],
+      "description": "照片墙上方黑色手写文字“来做个照片墙留念吧”，作为固定装饰文字整体保留。",
+      "label": "照片墙上方黑色手写文字“来做个照片墙留念吧”，作为固定装饰文",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        235,
+        429,
+        351,
+        602
+      ],
+      "description": "顶部中央竖向人物照片，主体为穿白色上衣、举手比姿势的女生，保留照片内环境，矩形照片边缘清晰。",
+      "label": "顶部中央竖向人物照片，主体为穿白色上衣、举手比姿势的女生，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_left_small",
+      "kind": "photo",
+      "bbox": [
+        64,
+        495,
+        149,
+        558
+      ],
+      "description": "左上侧小幅人物近景照片，主体为使用夸张滤镜的女生，保留摄影画面和矩形显示范围。",
+      "label": "左上侧小幅人物近景照片，主体为使用夸张滤镜的女生，保留摄影画",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_left_flash",
+      "kind": "photo",
+      "bbox": [
+        150,
+        454,
+        231,
+        558
+      ],
+      "description": "左上侧竖向夜间人物照片，人物在闪光或灯光环境中拍摄，保留完整摄影内容。",
+      "label": "左上侧竖向夜间人物照片，人物在闪光或灯光环境中拍摄，保留完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_center_filter",
+      "kind": "photo",
+      "bbox": [
+        352,
+        474,
+        431,
+        601
+      ],
+      "description": "顶部中部竖向滤镜人物照片，包含同一画面中的夸张表情人物，保留完整照片窗口。",
+      "label": "顶部中部竖向滤镜人物照片，包含同一画面中的夸张表情人物，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_mid_small",
+      "kind": "photo",
+      "bbox": [
+        435,
+        537,
+        510,
+        601
+      ],
+      "description": "中上方小幅户外人物照片，人物站在道路或户外场景中，保留摄影环境。",
+      "label": "中上方小幅户外人物照片，人物站在道路或户外场景中，保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_blue",
+      "kind": "photo",
+      "bbox": [
+        515,
+        475,
+        596,
+        600
+      ],
+      "description": "中上方竖向照片，主体为坐姿或动作中的人物，画面带明显蓝色服装和室内环境。",
+      "label": "中上方竖向照片，主体为坐姿或动作中的人物，画面带明显蓝色服装",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right_pair",
+      "kind": "photo",
+      "bbox": [
+        597,
+        430,
+        715,
+        600
+      ],
+      "description": "右上方较大人物照片，包含两位女生及室内背景，人物在同一连续摄影画面中。",
+      "label": "右上方较大人物照片，包含两位女生及室内背景，人物在同一连续摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right_sunset",
+      "kind": "photo",
+      "bbox": [
+        716,
+        454,
+        800,
+        600
+      ],
+      "description": "右上方竖向逆光照片，包含两位站立人物和夕阳环境，保留完整摄影窗口。",
+      "label": "右上方竖向逆光照片，包含两位站立人物和夕阳环境，保留完整摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_far_upper_right",
+      "kind": "photo",
+      "bbox": [
+        800,
+        499,
+        883,
+        559
+      ],
+      "description": "最右上方横向小照片，包含户外人物和浅色建筑或背景，独立矩形显示。",
+      "label": "最右上方横向小照片，包含户外人物和浅色建筑或背景，独立矩形显",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_mid_mask",
+      "kind": "photo",
+      "bbox": [
+        35,
+        558,
+        119,
+        639
+      ],
+      "description": "左侧中部竖向人物照片，包含戴帽或遮挡面部的女生及室内环境。",
+      "label": "左侧中部竖向人物照片，包含戴帽或遮挡面部的女生及室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_mid_faces",
+      "kind": "photo",
+      "bbox": [
+        119,
+        558,
+        231,
+        639
+      ],
+      "description": "左侧中部横向人物合照，包含两位使用滤镜或遮挡脸部的女生，保留完整环境。",
+      "label": "左侧中部横向人物合照，包含两位使用滤镜或遮挡脸部的女生，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_lower_faces",
+      "kind": "photo",
+      "bbox": [
+        9,
+        639,
+        119,
+        716
+      ],
+      "description": "左侧下方横向女生合照，人物面部带有柔化或夸张滤镜，保留矩形摄影区域。",
+      "label": "左侧下方横向女生合照，人物面部带有柔化或夸张滤镜，保留矩形摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_lower_dark",
+      "kind": "photo",
+      "bbox": [
+        119,
+        639,
+        231,
+        716
+      ],
+      "description": "左侧下方人物照片，包含两位女生和较暗室内背景，摄影环境随照片替换。",
+      "label": "左侧下方人物照片，包含两位女生和较暗室内背景，摄影环境随照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_landscape",
+      "kind": "photo",
+      "bbox": [
+        34,
+        717,
+        132,
+        779
+      ],
+      "description": "左侧下方横向户外或风景照片，包含人物和自然环境，完整显示范围为矩形。",
+      "label": "左侧下方横向户外或风景照片，包含人物和自然环境，完整显示范围",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_vertical_park",
+      "kind": "photo",
+      "bbox": [
+        133,
+        717,
+        230,
+        875
+      ],
+      "description": "左侧下方竖向户外照片，包含人物、树木和道路场景，保留完整摄影环境。",
+      "label": "左侧下方竖向户外照片，包含人物、树木和道路场景，保留完整摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_small_people",
+      "kind": "photo",
+      "bbox": [
+        70,
+        779,
+        133,
+        843
+      ],
+      "description": "左侧小幅横向人物照片，包含坐姿或靠近地面的两位人物，独立矩形窗口。",
+      "label": "左侧小幅横向人物照片，包含坐姿或靠近地面的两位人物，独立矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_left_pair",
+      "kind": "photo",
+      "bbox": [
+        230,
+        601,
+        390,
+        760
+      ],
+      "description": "中央左侧较大照片，包含两位女生在室内靠近镜头或相互依靠，保留室内摄影环境。",
+      "label": "中央左侧较大照片，包含两位女生在室内靠近镜头或相互依靠，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_silhouettes",
+      "kind": "photo",
+      "bbox": [
+        390,
+        601,
+        553,
+        760
+      ],
+      "description": "中央较大逆光照片，包含两位人物的背影或剪影及浅色背景，保留完整矩形画面。",
+      "label": "中央较大逆光照片，包含两位人物的背影或剪影及浅色背景，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_sky_pair",
+      "kind": "photo",
+      "bbox": [
+        553,
+        601,
+        713,
+        760
+      ],
+      "description": "中央右侧较大户外照片，包含两位背对镜头的人物和蓝天树木环境。",
+      "label": "中央右侧较大户外照片，包含两位背对镜头的人物和蓝天树木环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_filter_stack",
+      "kind": "photo",
+      "bbox": [
+        713,
+        600,
+        799,
+        719
+      ],
+      "description": "右侧中部竖向滤镜人物照片，包含上下排列的夸张表情人物，作为一张连续照片替换。",
+      "label": "右侧中部竖向滤镜人物照片，包含上下排列的夸张表情人物，作为一",
+      "method": "local"
+    },
+    {
+      "id": "photo_far_right_plaid",
+      "kind": "photo",
+      "bbox": [
+        799,
+        559,
+        883,
+        639
+      ],
+      "description": "最右侧中部横向人物照片，包含站立人物和户外背景，保留完整照片范围。",
+      "label": "最右侧中部横向人物照片，包含站立人物和户外背景，保留完整照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_far_right_backpack",
+      "kind": "photo",
+      "bbox": [
+        799,
+        639,
+        883,
+        719
+      ],
+      "description": "最右侧中部竖向人物照片，主体为背着红色背包的人物，保留摄影环境。",
+      "label": "最右侧中部竖向人物照片，主体为背着红色背包的人物，保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_shop",
+      "kind": "photo",
+      "bbox": [
+        230,
+        760,
+        351,
+        878
+      ],
+      "description": "中央偏左竖向照片，女生站在商店或货架环境中，保留人物和室内摄影内容。",
+      "label": "中央偏左竖向照片，女生站在商店或货架环境中，保留人物和室内摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_masked_pair",
+      "kind": "photo",
+      "bbox": [
+        351,
+        760,
+        472,
+        922
+      ],
+      "description": "中央下方竖向照片，包含两位坐姿人物及明显的遮脸或星形滤镜，保留完整画面。",
+      "label": "中央下方竖向照片，包含两位坐姿人物及明显的遮脸或星形滤镜，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_close_pair",
+      "kind": "photo",
+      "bbox": [
+        472,
+        760,
+        591,
+        922
+      ],
+      "description": "中央下方人物近景照片，包含两位女生靠近镜头比姿势，保留室内背景和完整窗口。",
+      "label": "中央下方人物近景照片，包含两位女生靠近镜头比姿势，保留室内背",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_right_seated",
+      "kind": "photo",
+      "bbox": [
+        591,
+        760,
+        711,
+        880
+      ],
+      "description": "中央右侧户外照片，包含两位坐在草地或自然环境中的人物，保留完整摄影场景。",
+      "label": "中央右侧户外照片，包含两位坐在草地或自然环境中的人物，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_backpacks",
+      "kind": "photo",
+      "bbox": [
+        711,
+        719,
+        811,
+        879
+      ],
+      "description": "右侧竖向照片，包含两位背着白色背包的女生及户外背景，人物和环境共同替换。",
+      "label": "右侧竖向照片，包含两位背着白色背包的女生及户外背景，人物和环",
+      "method": "local"
+    },
+    {
+      "id": "photo_far_right_upper_small",
+      "kind": "photo",
+      "bbox": [
+        811,
+        719,
+        878,
+        783
+      ],
+      "description": "最右侧小幅人物照片，包含一位浅色服装人物和室内或浅色背景。",
+      "label": "最右侧小幅人物照片，包含一位浅色服装人物和室内或浅色背景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_far_right_lower_small",
+      "kind": "photo",
+      "bbox": [
+        811,
+        783,
+        878,
+        844
+      ],
+      "description": "最右侧小幅户外人物照片，包含两位人物和绿色背景，独立矩形显示。",
+      "label": "最右侧小幅户外人物照片，包含两位人物和绿色背景，独立矩形显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left_pair",
+      "kind": "photo",
+      "bbox": [
+        188,
+        879,
+        275,
+        938
+      ],
+      "description": "左下方横向小照片，包含两位人物的户外或生活场景，保留完整显示范围。",
+      "label": "左下方横向小照片，包含两位人物的户外或生活场景，保留完整显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left_hand",
+      "kind": "photo",
+      "bbox": [
+        276,
+        879,
+        351,
+        996
+      ],
+      "description": "左下方竖向近景照片，主体为人物手部比姿势并带有部分人物和室内背景。",
+      "label": "左下方竖向近景照片，主体为人物手部比姿势并带有部分人物和室内",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_center_face",
+      "kind": "photo",
+      "bbox": [
+        351,
+        922,
+        472,
+        1044
+      ],
+      "description": "中央下方竖向人物自拍，主体为女生近景，保留室内背景和完整摄影窗口。",
+      "label": "中央下方竖向人物自拍，主体为女生近景，保留室内背景和完整摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_center_back",
+      "kind": "photo",
+      "bbox": [
+        472,
+        922,
+        591,
+        1044
+      ],
+      "description": "中央下方竖向背影照片，包含两位穿外套或背包的人物，保留完整环境。",
+      "label": "中央下方竖向背影照片，包含两位穿外套或背包的人物，保留完整环",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right_hands",
+      "kind": "photo",
+      "bbox": [
+        591,
+        880,
+        711,
+        998
+      ],
+      "description": "中央偏右竖向人物照片，包含人物手部构成的爱心姿势及摄影背景。",
+      "label": "中央偏右竖向人物照片，包含人物手部构成的爱心姿势及摄影背景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_lower_outdoor",
+      "kind": "photo",
+      "bbox": [
+        711,
+        879,
+        787,
+        998
+      ],
+      "description": "右下方竖向户外人物照片，包含人物和草地或树木环境，保留完整照片范围。",
+      "label": "右下方竖向户外人物照片，包含人物和草地或树木环境，保留完整照",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_pair",
+      "kind": "photo",
+      "bbox": [
+        390,
+        1045,
+        465,
+        1110
+      ],
+      "description": "底部上方横向小照片，包含两位站立人物和户外背景，独立矩形显示。",
+      "label": "底部上方横向小照片，包含两位站立人物和户外背景，独立矩形显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right_seated",
+      "kind": "photo",
+      "bbox": [
+        465,
+        1045,
+        551,
+        1110
+      ],
+      "description": "底部上方横向小照片，包含户外坐姿人物和草地环境。",
+      "label": "底部上方横向小照片，包含户外坐姿人物和草地环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_single",
+      "kind": "photo",
+      "bbox": [
+        440,
+        1111,
+        500,
+        1174
+      ],
+      "description": "最底部竖向小照片，包含一位人物在户外环境中的全身或半身画面，保留完整摄影内容。",
+      "label": "最底部竖向小照片，包含一位人物在户外环境中的全身或半身画面，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "pink_paper_base",
+    "photo_upper_left_small",
+    "photo_upper_left_flash",
+    "photo_top_center",
+    "photo_upper_center_filter",
+    "photo_upper_mid_small",
+    "photo_upper_blue",
+    "photo_upper_right_pair",
+    "photo_upper_right_sunset",
+    "photo_far_upper_right",
+    "photo_left_mid_mask",
+    "photo_left_mid_faces",
+    "photo_center_left_pair",
+    "photo_center_silhouettes",
+    "photo_center_sky_pair",
+    "photo_right_filter_stack",
+    "photo_far_right_plaid",
+    "photo_left_lower_faces",
+    "photo_left_lower_dark",
+    "photo_far_right_backpack",
+    "photo_left_landscape",
+    "photo_left_vertical_park",
+    "photo_left_small_people",
+    "photo_center_shop",
+    "photo_center_masked_pair",
+    "photo_center_close_pair",
+    "photo_center_right_seated",
+    "photo_right_backpacks",
+    "photo_far_right_upper_small",
+    "photo_far_right_lower_small",
+    "photo_lower_left_pair",
+    "photo_lower_left_hand",
+    "photo_lower_center_face",
+    "photo_lower_center_back",
+    "photo_lower_right_hands",
+    "photo_right_lower_outdoor",
+    "photo_bottom_left_pair",
+    "photo_bottom_right_seated",
+    "photo_bottom_single",
+    "overlay_title",
+    "overlay_subtitle",
+    "overlay_gray_caption",
+    "overlay_black_caption"
+  ]
+}

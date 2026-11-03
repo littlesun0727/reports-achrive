@@ -1,0 +1,156 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        345,
+        0,
+        1053,
+        1414
+      ],
+      "description": "大型竖向时装人像照片，单人近景至半身，女性面向画面左侧，穿黑色束腰外套，位于画布右侧；保留浅灰摄影环境，照片显示区域从顶部延伸至下方并在左下方展开，部分被纸带、标签和条形码装饰遮挡。"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        31,
+        27,
+        424,
+        640
+      ],
+      "description": "左上方竖向时装照片，单人全身至大腿景别，女性正面站立，穿米色外套、黑白条纹上衣和棕色裤装；保留浅灰摄影背景，矩形照片下缘被横向纸带局部遮挡。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        89,
+        958,
+        326,
+        1233
+      ],
+      "description": "左下方小幅竖向人像照片，单人半身，女性面向画面，穿深灰色上衣并佩戴项链；保留浅灰摄影背景，照片位于纸卡和粉色表单上方区域。"
+    },
+    {
+      "id": "overlay_note_card",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        794,
+        307,
+        932
+      ],
+      "description": "左侧独立的白色手绘记录卡片，包含虚线边框、手写符号和两行笔记，位于小幅人像照片上方并被横向纸带局部压住，作为完整固定纸张保留。"
+    },
+    {
+      "id": "overlay_green_vertical",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        250,
+        506,
+        426
+      ],
+      "description": "竖向浅绿色标签纸，包含竖排中文手写字样和黑色箭头符号，位于两张上方照片交界附近，底部被横向绿色标签覆盖。"
+    },
+    {
+      "id": "overlay_green_collection",
+      "kind": "overlay",
+      "bbox": [
+        282,
+        393,
+        506,
+        447
+      ],
+      "description": "横向浅绿色标签纸，印有黑色大字“Collection”，与竖向绿色标签相交，覆盖左上照片和主照片边缘，保留纸张轮廓及文字整体。"
+    },
+    {
+      "id": "overlay_white_tape",
+      "kind": "overlay",
+      "bbox": [
+        265,
+        554,
+        675,
+        612
+      ],
+      "description": "横向撕边白色纸带，印有手写风格文字“2025 A/W Collection”，跨在主照片和左上照片前方，保留不规则纸边与完整字样。"
+    },
+    {
+      "id": "overlay_left_2025",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        676,
+        326,
+        802
+      ],
+      "description": "左侧横向米白色手写纸带，包含大号手写“2025”和右侧细线框，延伸至画布左边缘，覆盖主照片与下方记录卡片的一部分。"
+    },
+    {
+      "id": "overlay_center_aw",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        646,
+        781,
+        789
+      ],
+      "description": "中部横向撕边浅色纸带，包含大号手写“A/W”及零散笔记，覆盖主照片左下区域，并与左侧年份纸带和右侧笔记纸带交叠。"
+    },
+    {
+      "id": "overlay_right_notes",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        622,
+        1080,
+        760
+      ],
+      "description": "右侧横向浅色手写纸带，包含多行细小手写记录和下方横线，延伸至画布右边缘，压在主照片及中部纸带上方。"
+    },
+    {
+      "id": "overlay_pink_form",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        1232,
+        593,
+        1375
+      ],
+      "description": "左下方独立粉色表格纸，包含分栏线、标题和手写记录，覆盖主照片左下区域并位于小幅人像照片下方，保留完整纸张和印刷结构。"
+    },
+    {
+      "id": "overlay_barcode",
+      "kind": "overlay",
+      "bbox": [
+        772,
+        1270,
+        1018,
+        1382
+      ],
+      "description": "右下方白色条形码标签，包含黑色条码和数字“5 2325 1672”，覆盖主照片右下区域，作为独立固定标签保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_upper_left",
+    "photo_lower_left",
+    "overlay_note_card",
+    "overlay_green_vertical",
+    "overlay_green_collection",
+    "overlay_white_tape",
+    "overlay_left_2025",
+    "overlay_center_aw",
+    "overlay_right_notes",
+    "overlay_pink_form",
+    "overlay_barcode"
+  ]
+}

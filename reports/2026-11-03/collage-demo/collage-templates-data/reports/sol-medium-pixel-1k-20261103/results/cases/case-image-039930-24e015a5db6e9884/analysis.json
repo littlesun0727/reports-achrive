@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        470
+      ],
+      "description": "顶部横幅远景照片：一名穿浅色长外套、戴棕色围巾的女子位于中央偏左，侧身朝左低头站在草地中；右侧有高大的风力发电机，远处可见树带和电线，上部是蓝色天空。完整保留摄影环境，照片横贯画布，上缘及左右缘抵达画布边界，下缘为水平裁切。",
+      "label": "顶部横幅远景照片：一名穿浅色长外套、戴棕色围巾的女子位于中央",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        491,
+        1080,
+        950
+      ],
+      "description": "中部横幅人物近景照片：一名黑发女子位于右半部，身体侧转，回头看向镜头，戴棕色围巾、穿浅色外套；头发有随风散开的细丝，肩部和衣服被照片下缘裁切。左侧及人物身后保留蓝色天空，显示窗口横贯画布，与上下照片的景别和姿态不连续。",
+      "label": "中部横幅人物近景照片：一名黑发女子位于右半部，身体侧转，回头",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        971,
+        1080,
+        1440
+      ],
+      "description": "底部横幅人物中景照片：一名穿浅色外套、戴棕色围巾的女子位于右侧，侧身朝左并仰头，长发被风吹向右侧，身体下部由画布底边裁切。保留大片蓝色天空和下方远处树带、电线等摄影环境，照片左右缘及下缘抵达画布边界，与中部照片为独立取景。",
+      "label": "底部横幅人物中景照片：一名穿浅色外套、戴棕色围巾的女子位于右",
+      "method": "local"
+    },
+    {
+      "id": "overlay_upper_divider",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        470,
+        1080,
+        491
+      ],
+      "description": "位于顶部照片与中部照片之间的独立黑色水平分隔条，左右贯穿画布，边缘平直，不承载照片窗口。",
+      "label": "位于顶部照片与中部照片之间的独立黑色水平分隔条，左右贯穿画布",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_divider",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        950,
+        1080,
+        971
+      ],
+      "description": "位于中部照片与底部照片之间的独立黑色水平分隔条，左右贯穿画布，边缘平直，与上方分隔条分开保留。",
+      "label": "位于中部照片与底部照片之间的独立黑色水平分隔条，左右贯穿画布",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_upper_divider",
+    "overlay_lower_divider"
+  ]
+}

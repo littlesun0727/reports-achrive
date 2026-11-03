@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅米白纸张纹理覆盖整张画布，顶部纹理被横向食物照片遮挡，照片下方露出完整纸面并承载下部插画、彩色装饰条和文字；纸张质感保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_food",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        698
+      ],
+      "description": "横向餐桌美食照片，包含火锅、肉片、蔬菜、面食、烤制菜品、寿司样式拼盘、饮料和餐具；多人不可见，景别为桌面近景，摄影环境完整保留并覆盖画布顶部全宽，底边为明确的矩形照片边界。"
+    },
+    {
+      "id": "overlay_yellow_bar",
+      "kind": "overlay",
+      "bbox": [
+        323,
+        910,
+        475,
+        942
+      ],
+      "description": "下部插画左上方的浅黄色横向纸带状装饰，位于面食插画上方，作为独立固定色块保留。"
+    },
+    {
+      "id": "overlay_pink_bar",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        1166,
+        386,
+        1191
+      ],
+      "description": "下部插画左下侧的粉红色短横条装饰，部分位于食物插画和盘子下方，保留其纸张质感与矩形轮廓。"
+    },
+    {
+      "id": "overlay_red_bar",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        1003,
+        880,
+        1080
+      ],
+      "description": "下部插画右侧靠近杯具的竖向红色装饰条，部分被插画内容遮挡，作为独立固定图形保留。"
+    },
+    {
+      "id": "overlay_beige_bar",
+      "kind": "overlay",
+      "bbox": [
+        754,
+        1209,
+        809,
+        1249
+      ],
+      "description": "饮料下方偏右的浅米色短矩形装饰，贴近下部插画底缘，作为独立固定图形保留。"
+    },
+    {
+      "id": "photo_lower_food_print",
+      "kind": "photo",
+      "bbox": [
+        211,
+        825,
+        884,
+        1260
+      ],
+      "description": "下方独立的食物组合图像，将火锅、面食、蔬菜、烤制菜品、饮料、杯具和盘中食物以浅色褪色颗粒与版画质感重新呈现；完整显示范围包含顶部蒸汽、左右餐具、底部盘子和饮料，摄影环境被处理为留白纸面中的不规则图像区域，彩色装饰条与其分离记录。"
+    },
+    {
+      "id": "text_good_food",
+      "kind": "text",
+      "bbox": [
+        467,
+        1293,
+        616,
+        1346
+      ],
+      "text": "Good Food\nBetter Days",
+      "color": "#6B5347",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_food",
+    "overlay_yellow_bar",
+    "overlay_pink_bar",
+    "overlay_red_bar",
+    "overlay_beige_bar",
+    "photo_lower_food_print",
+    "text_good_food"
+  ]
+}

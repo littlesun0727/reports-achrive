@@ -1,0 +1,87 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    736,
+    1104
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        736,
+        1104
+      ],
+      "description": "浅蓝白色摄影棚地面与背景连续覆盖画布四边，人物、笔记本电脑和散落的文具属于同一张全幅摄影画面；一名金发女性戴眼镜，身穿黑色服装，仰卧于画面下半部，双腿向左上方抬起并穿黑色高跟鞋，一只手臂伸向右上方。上方文字遮挡部分背景，摄影环境整体作为可替换底图保留。",
+      "background_type": "photo",
+      "label": "浅蓝白色摄影棚地面与背景连续覆盖画布四边，人物、笔记本电脑和",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        298,
+        220,
+        479,
+        299
+      ],
+      "description": "Transition\n& Revival",
+      "label": "Transition\n& Revival",
+      "method": "local",
+      "text": "Transition\n& Revival",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        298,
+        310,
+        481,
+        468
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#333333",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        467,
+        18,
+        688,
+        571
+      ],
+      "description": "大型黑色衬线艺术字“Fashion”，以错落、重叠的字母纵向排列，从画面上部延伸至右侧中部；字形与位置构成独立标题设计，整体保留。",
+      "label": "大型黑色衬线艺术字“Fashion”，以错落、重叠的字母纵向",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_heading",
+    "text_body",
+    "overlay_title"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        0,
+        601,
+        1080,
+        1440
+      ],
+      "description": "横向铺满下方区域的花丛摄影画面，包含密集的深绿色叶片、枝茎及多朵紫色和粉色小花，保留完整摄影环境；上缘为清晰的水平裁切边界，未见去背景或透明渐隐。"
+    },
+    {
+      "id": "overlay_mauve_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        601
+      ],
+      "description": "覆盖画布上方区域的均匀灰紫色固定面板，与下方花卉照片在 y=601 处形成清晰水平分界；作为独立局部底板保留。"
+    },
+    {
+      "id": "overlay_handwritten_phrase",
+      "kind": "overlay",
+      "bbox": [
+        262,
+        279,
+        808,
+        344
+      ],
+      "description": "位于上方灰紫色面板中央的深色手写中文艺术字“恰到好处，描述这个。”，笔画形态不规则并带有独立的手绘字形效果，作为完整固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_flowers",
+    "overlay_mauve_panel",
+    "overlay_handwritten_phrase"
+  ]
+}

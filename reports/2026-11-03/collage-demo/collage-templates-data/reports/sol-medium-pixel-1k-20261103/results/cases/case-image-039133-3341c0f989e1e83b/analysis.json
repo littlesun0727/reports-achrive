@@ -1,0 +1,239 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立俯拍照片：一只手从左下伸入，拿着摊开的英文书页，书页上有彩色人物图案和秋叶，右上有亮着的黄色蜡烛。保留书页、手、烛台及暗色桌面和地面环境。照片完整显示于左上矩形区域，与右侧及下方照片存在明确接缝；白色短句和紫红圆点是另列的叠加设计。",
+      "label": "左上独立俯拍照片：一只手从左下伸入，拿着摊开的英文书页，书页",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立桌面俯拍照片，无人物；木桌上有托盘和两杯带品牌印字的冰饮，后方摊着书，左下放绿色黑色相机，右下有紫色折页，托盘前方有小人物纸制摆件。保留这些实拍物件、木桌及上方灰色地面环境。完整照片窗口为右上矩形，底部被独立英文排版覆盖。",
+      "label": "右上独立桌面俯拍照片，无人物；木桌上有托盘和两杯带品牌印字的",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立近景照片，无人物；蓝色竖向告示牌立在柜台上，白色中文为“在我看来，我们人类有两件要紧事：履行职责与享受快乐！”，下方署有《散步》及罗伯特·瓦尔泽。告示牌、夹子、支架、柜台和后方木门均属于实拍内容，随照片替换。保留完整矩形摄影环境，与上方照片视角和内容不连续。",
+      "label": "左下独立近景照片，无人物；蓝色竖向告示牌立在柜台上，白色中文",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立俯视人物照片：一名长发女性戴红色棒球帽和黑色墨镜，穿黑色上衣及浅蓝牛仔裤，抬头噘嘴，左侧手举冰饮，右侧手拿小人物纸片。人物、饮料、纸片及灰色石板地面共同保留，身体下缘和右侧手臂被画布裁切；右上白色爱心气泡为另列装饰。",
+      "label": "右下独立俯视人物照片：一名长发女性戴红色棒球帽和黑色墨镜，穿",
+      "method": "local"
+    },
+    {
+      "id": "dot_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        139,
+        68,
+        179,
+        109
+      ],
+      "description": "左上照片靠上方的紫红色实心圆点，边缘平滑，无文字，独立叠加于暗色摄影画面。",
+      "label": "左上照片靠上方的紫红色实心圆点，边缘平滑，无文字，独立叠加于",
+      "method": "extract"
+    },
+    {
+      "id": "dot_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        457,
+        57,
+        485,
+        86
+      ],
+      "description": "左上照片右上方的小紫红色实心圆点，独立叠加于摄影画面。",
+      "label": "左上照片右上方的小紫红色实心圆点，独立叠加于摄影画面。",
+      "method": "extract"
+    },
+    {
+      "id": "dot_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        285,
+        68,
+        325
+      ],
+      "description": "左上照片左侧中部的紫红色实心圆点，位于书页左侧的暗色区域。",
+      "label": "左上照片左侧中部的紫红色实心圆点，位于书页左侧的暗色区域。",
+      "method": "extract"
+    },
+    {
+      "id": "dot_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        366,
+        489,
+        395
+      ],
+      "description": "左上照片右侧中部的小紫红色实心圆点，叠在暗色木质边缘附近。",
+      "label": "左上照片右侧中部的小紫红色实心圆点，叠在暗色木质边缘附近。",
+      "method": "extract"
+    },
+    {
+      "id": "dot_bottom",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        670,
+        151,
+        700
+      ],
+      "description": "左上照片靠下方的紫红色实心圆点，位于手部右下侧的地面区域。",
+      "label": "左上照片靠下方的紫红色实心圆点，位于手部右下侧的地面区域。",
+      "method": "extract"
+    },
+    {
+      "id": "text_moments",
+      "kind": "text",
+      "bbox": [
+        43,
+        180,
+        207,
+        197
+      ],
+      "description": "Moments like these.",
+      "label": "Moments like these.",
+      "method": "local",
+      "text": "Moments like these.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_little_things",
+      "kind": "text",
+      "bbox": [
+        312,
+        642,
+        507,
+        658
+      ],
+      "description": "Little things make life big.",
+      "label": "Little things make life big.",
+      "method": "local",
+      "text": "Little things make life big.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_autumn",
+      "kind": "text",
+      "bbox": [
+        726,
+        503,
+        896,
+        655
+      ],
+      "description": "A\nblissful\nautumn\nafternoon",
+      "label": "A\nblissful\nautumn\nafternoon",
+      "method": "local",
+      "text": "A\nblissful\nautumn\nafternoon",
+      "text_status": "known",
+      "style": {
+        "fill": "#40392D",
+        "font": "serif",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_heart_bubble",
+      "kind": "overlay",
+      "bbox": [
+        997,
+        828,
+        1073,
+        899
+      ],
+      "description": "右下人物照片右上方的白色圆形对话气泡，内含横排三颗黑色小爱心，下方带短小尖尾及柔和阴影。气泡、爱心、尾部和阴影作为一个完整固定装饰保留。",
+      "label": "右下人物照片右上方的白色圆形对话气泡，内含横排三颗黑色小爱心",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "dot_upper_left",
+    "dot_upper_right",
+    "dot_middle_left",
+    "dot_middle_right",
+    "dot_bottom",
+    "text_moments",
+    "text_little_things",
+    "text_autumn",
+    "overlay_heart_bubble"
+  ]
+}

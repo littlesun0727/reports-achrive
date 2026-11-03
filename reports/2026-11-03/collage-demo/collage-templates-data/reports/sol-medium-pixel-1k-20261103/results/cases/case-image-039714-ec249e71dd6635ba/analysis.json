@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1562
+  ],
+  "objects": [
+    {
+      "id": "newspaper_page",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1562
+      ],
+      "description": "整页中文报纸版面作为连续固定模板保留：白色纸面、蓝灰色圆角栏框与左侧标签、左上花枝插画、报头、标题、正文及印刷装饰共同延伸至画布边缘。四个人物为独立可替换的抠图照片，覆盖其所在版面；不将人物摄影内容并入底图。",
+      "background_type": "reference_clean",
+      "label": "整页中文报纸版面作为连续固定模板保留：白色纸面、蓝灰色圆角栏",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_man_upper_left",
+      "kind": "photo",
+      "bbox": [
+        145,
+        435,
+        320,
+        608
+      ],
+      "description": "左上文章旁的老年男性抠图半身像，白发，穿深色外套，身体略朝右并手持葫芦状物件；无可见摄影环境，人物与手持物作为一个完整主体组合显示，覆盖报纸固定版面。",
+      "label": "左上文章旁的老年男性抠图半身像，白发，穿深色外套，身体略朝右",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_upper_right",
+      "kind": "photo",
+      "bbox": [
+        609,
+        453,
+        744,
+        582
+      ],
+      "description": "右上文章旁的中年女性抠图半身像，正面朝向，穿浅色外套并手持红色物件；无可见摄影环境，完整人物组合覆盖报纸固定版面。",
+      "label": "右上文章旁的中年女性抠图半身像，正面朝向，穿浅色外套并手持红",
+      "method": "local"
+    },
+    {
+      "id": "photo_man_lower_left",
+      "kind": "photo",
+      "bbox": [
+        145,
+        1002,
+        316,
+        1145
+      ],
+      "description": "左下文章旁的男性抠图半身像，短发，穿横纹上衣，低头阅读手中的红色书册；无可见摄影环境，人物、座椅局部及书册作为一个主体组合显示，覆盖报纸固定版面。",
+      "label": "左下文章旁的男性抠图半身像，短发，穿横纹上衣，低头阅读手中的",
+      "method": "local"
+    },
+    {
+      "id": "photo_man_lower_right",
+      "kind": "photo",
+      "bbox": [
+        615,
+        986,
+        733,
+        1145
+      ],
+      "description": "右下文章旁的男性抠图半身像，短发，正面朝向，穿深色外套与蓝色衬衫；无可见摄影环境，完整人物覆盖报纸固定版面。",
+      "label": "右下文章旁的男性抠图半身像，短发，正面朝向，穿深色外套与蓝色",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "newspaper_page",
+    "photo_man_upper_left",
+    "photo_woman_upper_right",
+    "photo_man_lower_left",
+    "photo_man_lower_right"
+  ]
+}

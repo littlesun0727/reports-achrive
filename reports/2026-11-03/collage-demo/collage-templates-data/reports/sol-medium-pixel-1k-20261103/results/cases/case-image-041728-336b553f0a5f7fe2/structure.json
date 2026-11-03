@@ -1,0 +1,204 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        540
+      ],
+      "description": "上方横向摄影画面，仰视茂密树冠，深色树干和横伸枝条穿过画面，枝叶间露出灰白天空，无人物。完整照片窗口覆盖画布顶部至第一条水平接缝，保留全部摄影环境；左下局部被月相装饰和文字覆盖。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        540,
+        1080,
+        1080
+      ],
+      "description": "中间横向风景照片，蓝天与大片白云占据主要区域，下沿为连绵山脊，中央山峰较突出，无人物。完整显示窗口位于两条水平接缝之间，摄影环境保留；左侧被淡黄色弧线、月相及标签覆盖，与上下照片的场景和取景不连续。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1080,
+        1080,
+        1620
+      ],
+      "description": "下方横向摄影画面，仰拍山顶路牌与多云天空，无人物。中央偏左有立柱、黑色标识盒和两块白色牌板，上牌写“我在银瓶山很想你”，下牌可见“海拔898m”等印字，底部被画布裁切。这些实拍物件、系带和印字均随照片替换；左上月相与标签为后加装饰。"
+    },
+    {
+      "id": "overlay_orbit",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        536,
+        269,
+        1081
+      ],
+      "description": "位于中间照片左侧的淡黄色细弧线，带轻微柔光，从左边界靠近上接缝处向右弯曲，再返回左边界下接缝处。完整可见弧线独立保留，不包含旁边的月相和文字。"
+    },
+    {
+      "id": "overlay_first_quarter",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        393,
+        199,
+        525
+      ],
+      "description": "上方树冠照片左下的淡黄色上弦月图形，亮部集中在左侧，右侧暗淡并透出下方摄影内容，外围带宽而柔和的黄色光晕；完整月形和光晕作为一个固定装饰保留。"
+    },
+    {
+      "id": "overlay_waxing_moon",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        519,
+        355,
+        651
+      ],
+      "description": "第一条照片接缝附近、偏左上方的淡黄色凸月图形，月面大部分明亮，右侧柔暗，外围有模糊光晕。完整月形跨接缝显示，叠在摄影画面上，不含下方标签。"
+    },
+    {
+      "id": "overlay_full_moon",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        740,
+        449,
+        881
+      ],
+      "description": "中间天空照片左部的淡黄色满月圆形，圆面明亮，边缘柔化并带黄色光晕，下部与白云叠合；完整圆形及光晕独立保留，不包含标签。"
+    },
+    {
+      "id": "overlay_waning_moon",
+      "kind": "overlay",
+      "bbox": [
+        231,
+        953,
+        360,
+        1080
+      ],
+      "description": "中间照片左下、山脊上方的淡黄色残月图形，左侧亮部明显，右侧柔暗，外围有宽泛光晕。完整可见月形位于第二条照片接缝上方，文字另列。"
+    },
+    {
+      "id": "overlay_last_quarter",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        1088,
+        200,
+        1211
+      ],
+      "description": "底部照片左上天空中的淡黄色下弦月图形，左侧较亮，右侧暗淡，月面和外围光晕边缘柔和；作为独立固定装饰覆盖照片，不包含下方标签。"
+    },
+    {
+      "id": "text_first_quarter",
+      "kind": "text",
+      "bbox": [
+        98,
+        522,
+        163,
+        547
+      ],
+      "text": "上弦月",
+      "color": "#FFF7BC",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_waxing_moon",
+      "kind": "text",
+      "bbox": [
+        280,
+        649,
+        326,
+        675
+      ],
+      "text": "凸月",
+      "color": "#FFF7BC",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_full_moon",
+      "kind": "text",
+      "bbox": [
+        353,
+        875,
+        400,
+        901
+      ],
+      "text": "满月",
+      "color": "#FFF7BC",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_waning_moon",
+      "kind": "text",
+      "bbox": [
+        279,
+        1087,
+        326,
+        1113
+      ],
+      "text": "残月",
+      "color": "#FFF7BC",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_last_quarter",
+      "kind": "text",
+      "bbox": [
+        94,
+        1214,
+        164,
+        1242
+      ],
+      "text": "下弦月",
+      "color": "#FFF7BC",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_orbit",
+    "overlay_first_quarter",
+    "overlay_waxing_moon",
+    "overlay_full_moon",
+    "overlay_waning_moon",
+    "overlay_last_quarter",
+    "text_first_quarter",
+    "text_waxing_moon",
+    "text_full_moon",
+    "text_waning_moon",
+    "text_last_quarter"
+  ]
+}

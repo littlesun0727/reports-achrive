@@ -1,0 +1,321 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的海边摄影画面覆盖整个画布，包含坐在海岸石墙上的一名女性侧身人物、手持相机的姿态、左侧临海山坡与建筑、远处灯塔、天空和海面；人物位于下方偏左并面向右侧，摄影环境延伸至四条画布边缘。白色人物轮廓线及上层手绘装饰覆盖局部，但不改变底图的完整显示范围。",
+      "background_type": "photo",
+      "label": "连续的海边摄影画面覆盖整个画布，包含坐在海岸石墙上的一名女性",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        338,
+        347
+      ],
+      "description": "左上角黄色笑脸太阳及周围橙黄色短放射线，部分线条贴近或延伸出画布边缘，作为一组完整手绘装饰保留。",
+      "label": "左上角黄色笑脸太阳及周围橙黄色短放射线，部分线条贴近或延伸出",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_blue",
+      "kind": "overlay",
+      "bbox": [
+        383,
+        70,
+        558,
+        278
+      ],
+      "description": "画面上方偏中的蓝灰色手绘花朵，中心为黄色圆点，带白色粗描边和不规则涂鸦质感。",
+      "label": "画面上方偏中的蓝灰色手绘花朵，中心为黄色圆点，带白色粗描边和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title_cloud",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        0,
+        1047,
+        310
+      ],
+      "description": "右上方蓝色云朵形手绘标签，包含白色中文手写字样“照片变成\n童趣手账”和右侧白色爱心，整体作为带字固定装饰保留。",
+      "label": "右上方蓝色云朵形手绘标签，包含白色中文手写字样“照片变成\n童",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_gray",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        351,
+        389,
+        529
+      ],
+      "description": "左侧中部的浅灰蓝色手绘云朵，内部带密集的白色和灰色涂鸦纹理，外圈有白色描边。",
+      "label": "左侧中部的浅灰蓝色手绘云朵，内部带密集的白色和灰色涂鸦纹理，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rainbow",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        345,
+        1040,
+        557
+      ],
+      "description": "右上中部彩虹手绘装饰，由多色弧线、两侧蓝灰云朵和白色描边组成，整体作为独立固定图案保留。",
+      "label": "右上中部彩虹手绘装饰，由多色弧线、两侧蓝灰云朵和白色描边组成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_pink",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        272,
+        607,
+        325
+      ],
+      "description": "画面上方中央偏右的小型粉色手绘爱心，带浅色涂抹和白色边缘。",
+      "label": "画面上方中央偏右的小型粉色手绘爱心，带浅色涂抹和白色边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_yellow",
+      "kind": "overlay",
+      "bbox": [
+        957,
+        303,
+        1005,
+        360
+      ],
+      "description": "右上中部的小型黄色四角星手绘装饰，带白色边缘。",
+      "label": "右上中部的小型黄色四角星手绘装饰，带白色边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_route_upper",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        327,
+        813,
+        650
+      ],
+      "description": "从左侧云朵附近延伸至中下部的白色虚线手绘路线，包含弯曲线段、箭头和三角形标记，跨越天空区域并覆盖摄影背景。",
+      "label": "从左侧云朵附近延伸至中下部的白色虚线手绘路线，包含弯曲线段、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_go_cloud",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        543,
+        223,
+        664
+      ],
+      "description": "左侧中部蓝色云朵形标签，内部有白色手写字样“Go!”及白色描边，整体为独立固定装饰。",
+      "label": "左侧中部蓝色云朵形标签，内部有白色手写字样“Go!”及白色描",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        698,
+        283,
+        861
+      ],
+      "description": "左下方天空与山坡交界处的黑白手绘相机图标，带黄色闪光短线和白色粗描边，作为独立贴纸式装饰保留。",
+      "label": "左下方天空与山坡交界处的黑白手绘相机图标，带黄色闪光短线和白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_yellow",
+      "kind": "overlay",
+      "bbox": [
+        349,
+        579,
+        428,
+        673
+      ],
+      "description": "画面中央偏左的小型黄色手绘花朵，带蓝色短茎和白色描边。",
+      "label": "画面中央偏左的小型黄色手绘花朵，带蓝色短茎和白色描边。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_nice",
+      "kind": "overlay",
+      "bbox": [
+        809,
+        690,
+        1014,
+        829
+      ],
+      "description": "右侧中部黄色云朵形标签，包含白色手写字样“nice”和白色不规则描边，整体作为固定装饰保留。",
+      "label": "右侧中部黄色云朵形标签，包含白色手写字样“nice”和白色不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sailboat",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        822,
+        851,
+        946
+      ],
+      "description": "海面右侧的彩色手绘小帆船，包含蓝色船体、白色船帆、红色小旗和白色水纹，作为独立装饰保留。",
+      "label": "海面右侧的彩色手绘小帆船，包含蓝色船体、白色船帆、红色小旗和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_route_lower",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        677,
+        1011,
+        1057
+      ],
+      "description": "右下区域围绕帆船和海面延伸的白色虚线手绘路线，包含弯曲线段和箭头，覆盖摄影背景并与其他标签保持独立。",
+      "label": "右下区域围绕帆船和海面延伸的白色虚线手绘路线，包含弯曲线段和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_yellow_lower",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        954,
+        234,
+        1036
+      ],
+      "description": "女性左侧附近的黄色星形手绘贴纸，带白色描边和不规则涂抹边缘。",
+      "label": "女性左侧附近的黄色星形手绘贴纸，带白色描边和不规则涂抹边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_blue",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        1122,
+        234,
+        1198
+      ],
+      "description": "左下方山坡区域的蓝色星形手绘贴纸，带白色描边。",
+      "label": "左下方山坡区域的蓝色星形手绘贴纸，带白色描边。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_blue_lower",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        1019,
+        718,
+        1114
+      ],
+      "description": "海面中央偏右的小型蓝黄色手绘花朵，包含蓝色花瓣、黄色花心、绿色花茎和白色描边。",
+      "label": "海面中央偏右的小型蓝黄色手绘花朵，包含蓝色花瓣、黄色花心、绿",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_sea",
+      "kind": "overlay",
+      "bbox": [
+        802,
+        1066,
+        1018,
+        1184
+      ],
+      "description": "右下海面上的蓝色椭圆云状标签，包含白色手写字样“Sea”和右侧爱心，带白色不规则边框。",
+      "label": "右下海面上的蓝色椭圆云状标签，包含白色手写字样“Sea”和右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_relax",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        1260,
+        211,
+        1368
+      ],
+      "description": "左下角黑色云状标签，包含白色手写字样“relax”和白色手绘描边，部分靠近画布左侧边缘。",
+      "label": "左下角黑色云状标签，包含白色手写字样“relax”和白色手绘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tulip",
+      "kind": "overlay",
+      "bbox": [
+        838,
+        1234,
+        945,
+        1419
+      ],
+      "description": "右下方粉色郁金香手绘装饰，包含粉色花朵、绿色茎叶和白色描边，底部接近画布边缘。",
+      "label": "右下方粉色郁金香手绘装饰，包含粉色花朵、绿色茎叶和白色描边，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_peach",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        1361,
+        226,
+        1440
+      ],
+      "description": "左下角被画布底边裁切的橙黄色花朵或花饰，带白色描边和绿色细节，仅保留画布内可见范围。",
+      "label": "左下角被画布底边裁切的橙黄色花朵或花饰，带白色描边和绿色细节",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_route_upper",
+    "overlay_route_lower",
+    "overlay_sun",
+    "overlay_flower_blue",
+    "overlay_title_cloud",
+    "overlay_cloud_gray",
+    "overlay_rainbow",
+    "overlay_heart_pink",
+    "overlay_star_yellow",
+    "overlay_go_cloud",
+    "overlay_camera",
+    "overlay_flower_yellow",
+    "overlay_label_nice",
+    "overlay_sailboat",
+    "overlay_star_yellow_lower",
+    "overlay_star_blue",
+    "overlay_flower_blue_lower",
+    "overlay_label_sea",
+    "overlay_label_relax",
+    "overlay_tulip",
+    "overlay_flower_peach"
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1055,
+    1491
+  ],
+  "objects": [
+    {
+      "id": "background_collage",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1055,
+        1491
+      ],
+      "description": "全画布连续的固定拼贴底图，以红色做旧纸面为主，边缘有深红网点纹理，下部及右侧叠有撕边蓝色纸面、白色点阵和细小星形印刷。四边及对象间隙均露出固定纸面结构，保留其纹理与撕纸层次；人物照片、照片卡、文字纸条及独立装饰分别清除，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的固定拼贴底图，以红色做旧纸面为主，边缘有深红网点",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1035,
+        359
+      ],
+      "description": "横跨顶部的倾斜米白色撕边长纸，带纸纹、磨损及深蓝色高大压缩字样“ZHANGYUAN”；左侧红色手绘星形属于纸面设计。纸张与特殊字形整体保留。",
+      "label": "横跨顶部的倾斜米白色撕边长纸，带纸纹、磨损及深蓝色高大压缩字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title_tape",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        10,
+        214,
+        181
+      ],
+      "description": "左上斜贴的深蓝色胶带，带不规则端头、浅色磨损和细碎纹理，覆盖标题纸左上边缘。",
+      "label": "左上斜贴的深蓝色胶带，带不规则端头、浅色磨损和细碎纹理，覆盖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_date",
+      "kind": "overlay",
+      "bbox": [
+        753,
+        178,
+        1035,
+        349
+      ],
+      "description": "右上倾斜的蓝色撕边日期标签，白色纸边及做旧纹理完整保留，内有白字“1985.6.2”，压在大标题纸下缘附近。",
+      "label": "右上倾斜的蓝色撕边日期标签，白色纸边及做旧纹理完整保留，内有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_date_clip",
+      "kind": "overlay",
+      "bbox": [
+        934,
+        143,
+        1006,
+        240
+      ],
+      "description": "夹在日期标签上沿的金属长尾夹，包含蓝色夹体、金属线圈和阴影，跨越日期纸与标题纸边界。",
+      "label": "夹在日期标签上沿的金属长尾夹，包含蓝色夹体、金属线圈和阴影，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_crown",
+      "kind": "overlay",
+      "bbox": [
+        960,
+        320,
+        1051,
+        424
+      ],
+      "description": "右上红色纸面上的独立蓝色手绘皇冠，包含尖角轮廓及上方小圆点，整体保留。",
+      "label": "右上红色纸面上的独立蓝色手绘皇冠，包含尖角轮廓及上方小圆点，",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        7,
+        288,
+        348,
+        629
+      ],
+      "description": "左上倾斜的白色照片纸框，窄白边围绕单张照片，底边部分被“Bird”纸条遮住；保留完整纸框及轻微阴影。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "左上倾斜的白色照片纸框，窄白边围绕单张照片，底边部分被“Bi",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        25,
+        306,
+        326,
+        607
+      ],
+      "description": "左上独立倾斜照片，一名黑发男子穿蓝白运动外套，低头朝前看，呈胸部以上近景，手臂靠近脸侧。红色摄影背景保留，完整范围为白色纸框内口，不按人物轮廓缩小。",
+      "label": "左上独立倾斜照片，一名黑发男子穿蓝白运动外套，低头朝前看，呈",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bird",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        584,
+        308,
+        695
+      ],
+      "description": "照片下方倾斜叠贴的米色短纸条，带撕边、纸纹及蓝色手写“Bird”和下划线，覆盖左上照片纸框底部，作为完整带字装饰保留。",
+      "label": "照片下方倾斜叠贴的米色短纸条，带撕边、纸纹及蓝色手写“Bir",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_small_star",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        624,
+        98,
+        681
+      ],
+      "description": "“Bird”纸条左侧的独立蓝色手绘五角星，包含重叠线条和内部红色透底，保留完整星形。",
+      "label": "“Bird”纸条左侧的独立蓝色手绘五角星，包含重叠线条和内部",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        649,
+        271,
+        1015,
+        742
+      ],
+      "description": "右上独立人物照片，一名黑发男子穿蓝白运动外套，正面半身，抬起一只手臂，手掌从头顶上方向下弯曲。摄影环境沿人物和衣服轮廓移除，完整主体边缘有白色描边；下方躯干被中央大人物和右侧近景遮挡，与其他人物姿态不同。",
+      "label": "右上独立人物照片，一名黑发男子穿蓝白运动外套，正面半身，抬起",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_pose",
+      "kind": "photo",
+      "bbox": [
+        0,
+        687,
+        436,
+        1210
+      ],
+      "description": "左侧独立人物照片，一名穿蓝白运动外套的男子仰头侧看，双臂抬起向左上伸展，包含双手、头部和上半身。背景沿完整主体组合轮廓移除并带白色描边；左端手部贴画布边缘，右侧和下方部分被中央及左下人物遮挡。",
+      "label": "左侧独立人物照片，一名穿蓝白运动外套的男子仰头侧看，双臂抬起",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        328,
+        314,
+        861,
+        1234
+      ],
+      "description": "中央最大的人物近景，一名黑发男子穿蓝白运动外套，正面低头凝视，蓝色织物覆盖画面左侧肩臂并贴近脸颊。主体、衣服和织物作为完整组合，摄影背景沿外轮廓移除，边缘带白色描边；下部被文字纸条、底部照片卡及红色标语纸遮挡。",
+      "label": "中央最大的人物近景，一名黑发男子穿蓝白运动外套，正面低头凝视",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        751,
+        601,
+        1055,
+        947
+      ],
+      "description": "右侧独立人物近景，一名黑发男子侧向左看，用手拉起蓝色衣领遮住部分下脸，显示头部、手和蓝白外套上半身。背景沿主体轮廓移除，带白色外描边；覆盖右上人物下部，右边被画布裁切，下部被长文字纸条遮挡。",
+      "label": "右侧独立人物近景，一名黑发男子侧向左看，用手拉起蓝色衣领遮住",
+      "method": "local"
+    },
+    {
+      "id": "overlay_right_tape",
+      "kind": "overlay",
+      "bbox": [
+        966,
+        703,
+        1055,
+        828
+      ],
+      "description": "右侧人物肩部斜贴的米褐色胶带，粗糙纸纹、锯齿状端头和阴影整体保留，右端延伸至画布边界。",
+      "label": "右侧人物肩部斜贴的米褐色胶带，粗糙纸纹、锯齿状端头和阴影整体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_can_fly",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        902,
+        1047,
+        1057
+      ],
+      "description": "横跨中央与右侧人物下部的米白色撕边横线纸条，写有深蓝手写“Bird can fly”和右侧空心爱心。保留纸面横线、折痕、撕边及特殊手写字形，局部覆盖底部照片卡上缘。",
+      "label": "横跨中央与右侧人物下部的米白色撕边横线纸条，写有深蓝手写“B",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_can_fly_tape",
+      "kind": "overlay",
+      "bbox": [
+        587,
+        875,
+        724,
+        960
+      ],
+      "description": "压住长文字纸条左上沿的斜向深蓝胶带，带不规则边缘和做旧斑点，上部贴在中央人物衣服上。",
+      "label": "压住长文字纸条左上沿的斜向深蓝胶带，带不规则边缘和做旧斑点，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        25,
+        1005,
+        445,
+        1491
+      ],
+      "description": "左下独立人物近景，一名黑发男子低头，以手拉起蓝色衣领贴住嘴部，显示头部、手、蓝白外套及肩臂。摄影背景沿完整主体轮廓移除，外缘有白色描边；覆盖左侧抬臂人物，下方被画布裁切，右侧部分被红色标语纸遮挡。",
+      "label": "左下独立人物近景，一名黑发男子低头，以手拉起蓝色衣领贴住嘴部",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        603,
+        1018,
+        1028,
+        1385
+      ],
+      "description": "右下倾斜的米白色复古照片卡，具有单张矩形照片内口，纸边印有小型棕色字样和符号，包括“KODAK PORTRA 400”。上边部分被长纸条覆盖，下边被红色标语纸遮挡，框体印字与纸纹整体保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "右下倾斜的米白色复古照片卡，具有单张矩形照片内口，纸边印有小",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        620,
+        1038,
+        1002,
+        1344
+      ],
+      "description": "右下照片卡内的独立倾斜照片，一名黑发男子穿蓝白运动外套，低头朝前看，手在嘴边做双指姿势，呈胸部以上近景。保留红色摄影背景，显示范围为照片卡内口，下缘部分被前方红色纸条遮挡。",
+      "label": "右下照片卡内的独立倾斜照片，一名黑发男子穿蓝白运动外套，低头",
+      "method": "local"
+    },
+    {
+      "id": "overlay_all_for_love",
+      "kind": "overlay",
+      "bbox": [
+        326,
+        1203,
+        945,
+        1484
+      ],
+      "description": "底部大块红色撕边标语纸，外围露出不规则白色纸层，带做旧纹理、白色特殊手写“All for love”和长下划线，右侧有蓝色空心爱心。整体覆盖中央人物、左下人物及右下照片卡的下部。",
+      "label": "底部大块红色撕边标语纸，外围露出不规则白色纸层，带做旧纹理、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_clip",
+      "kind": "overlay",
+      "bbox": [
+        607,
+        1222,
+        684,
+        1304
+      ],
+      "description": "红色标语纸上沿的黑色金属长尾夹，包含黑色夹体、银色线圈及投影，夹在纸边并跨过其上方区域。",
+      "label": "红色标语纸上沿的黑色金属长尾夹，包含黑色夹体、银色线圈及投影",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_star",
+      "kind": "overlay",
+      "bbox": [
+        938,
+        1289,
+        1055,
+        1395
+      ],
+      "description": "右下独立红色手绘五角星贴纸，带多重星形线条、米白色不规则外边和轻微阴影，叠在照片卡右下侧及蓝色底纸之上，右端贴近画布边界。",
+      "label": "右下独立红色手绘五角星贴纸，带多重星形线条、米白色不规则外边",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_collage",
+    "overlay_title",
+    "overlay_title_tape",
+    "overlay_date",
+    "overlay_date_clip",
+    "overlay_crown",
+    "frame_top_left",
+    "photo_top_left",
+    "overlay_bird",
+    "overlay_small_star",
+    "photo_upper_right",
+    "photo_left_pose",
+    "photo_center",
+    "photo_middle_right",
+    "overlay_right_tape",
+    "photo_bottom_left",
+    "frame_bottom_right",
+    "photo_bottom_right",
+    "overlay_can_fly",
+    "overlay_can_fly_tape",
+    "overlay_all_for_love",
+    "overlay_bottom_clip",
+    "overlay_bottom_star"
+  ]
+}

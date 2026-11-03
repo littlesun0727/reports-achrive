@@ -1,0 +1,112 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "graphic_base",
+    "description": "黑色全画布底上方有一块从约 x=25、y=35 延伸至 x=1055、y=817 的深灰至浅灰渐变矩形；黑色区域在其下方及两侧连续可见。保留底色与渐变结构，独立标题、人物和纸艺马不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "title_display",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        136,
+        999,
+        751
+      ],
+      "description": "占据上半部的大号浅灰色窄体全大写标题，分上下两行，第一行可辨为“BLACK”，第二行被人物及纸艺马遮挡，仅露出部分字形；保留其特殊字形、排版与颜色，作为一组固定标题设计。"
+    },
+    {
+      "id": "photo_subjects",
+      "kind": "photo",
+      "bbox": [
+        25,
+        180,
+        1055,
+        1410
+      ],
+      "description": "女性与大型纸艺马组成的前景摄影主体组合。女性一人，近全身站姿，位于画面中央偏右，戴眼镜，穿黑色皮夹克、白衬衫和黑色百褶裙，手提酒红色手袋，另一只手扶在马背上；纸艺马横跨左侧及下方，头部在左侧、身体和马鞍延伸至右下。摄影背景未见，主体沿轮廓独立显示；纸艺马局部被女性遮挡，组合下缘在画面底部附近裁切。"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        87,
+        86,
+        173,
+        105
+      ],
+      "text": "#OOTD",
+      "color": "#E6E6E6",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_top_center",
+      "kind": "text",
+      "bbox": [
+        474,
+        86,
+        612,
+        105
+      ],
+      "text": "NEW WAVE",
+      "color": "#E6E6E6",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        906,
+        86,
+        992,
+        105
+      ],
+      "text": "#STYLE",
+      "color": "#E6E6E6",
+      "font": "sans",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        1366,
+        131,
+        1382
+      ],
+      "description": "左下黑色区域上的白色小型手写风格签名标记，字样带装饰性笔画，作为完整固定标记保留。"
+    },
+    {
+      "id": "overlay_platform_badge",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1417,
+        1072,
+        1435
+      ],
+      "description": "画布右下角的深灰色小圆角胶囊徽标，内部有浅色小字与图形，整体作为固定平台标记保留。"
+    }
+  ],
+  "layer_order": [
+    "title_display",
+    "text_top_left",
+    "text_top_center",
+    "text_top_right",
+    "photo_subjects",
+    "overlay_signature",
+    "overlay_platform_badge"
+  ]
+}

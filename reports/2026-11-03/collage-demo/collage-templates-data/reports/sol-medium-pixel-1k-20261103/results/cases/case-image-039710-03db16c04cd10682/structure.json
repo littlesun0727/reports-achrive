@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "page_base",
+    "description": "整页连续的浅白报纸纸面，底部带淡蓝渐变，延伸至画布边缘；照片、蓝色图形和印刷内容为独立单元，纸面底色与渐变保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_crowd",
+      "kind": "photo",
+      "bbox": [
+        137,
+        160,
+        708,
+        519
+      ],
+      "description": "上方中部大型展会人群与展馆内部的广角照片，包含人群、摊位和场馆环境，沿不规则轮廓显示；局部被蓝色图形和白色手势状装饰遮挡。"
+    },
+    {
+      "id": "photo_exhibition_sign",
+      "kind": "photo",
+      "bbox": [
+        494,
+        106,
+        1072,
+        367
+      ],
+      "description": "右上展馆外墙及大型蓝色展览标识的斜向近景照片，保留建筑结构和标识所在环境；下缘被蓝色图形遮挡。"
+    },
+    {
+      "id": "photo_robot",
+      "kind": "photo",
+      "bbox": [
+        835,
+        568,
+        1018,
+        736
+      ],
+      "description": "右栏展台内的人形服务机器人与旁侧工作人员照片，保留展台及背景环境，矩形照片区域。"
+    },
+    {
+      "id": "photo_expo_exterior",
+      "kind": "photo",
+      "bbox": [
+        707,
+        1198,
+        1070,
+        1508
+      ],
+      "description": "右下展馆外部及大型蓝色展览装置的斜向广角照片，包含场馆、人群和装置环境，照片下部与右侧延伸至画布边缘。"
+    },
+    {
+      "id": "overlay_blue_shapes",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        106,
+        1080,
+        1532
+      ],
+      "description": "报纸版面上的大型浅蓝与中蓝抽象波形和块面：左上蓝色块、上部围绕展会照片的粗描边曲线、右侧蓝色边栏、左下至中下的浅蓝弧形底纹，以及照片上方的白边蓝色手势状图形；作为连续的固定印刷图形保留。"
+    },
+    {
+      "id": "overlay_masthead",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        13,
+        1070,
+        98
+      ],
+      "description": "报纸顶部完整报头单元，包括左侧二维码与报名字样、中部大型“东莞观察”标题及小字标识、右侧版次；字形、图标与排布作为固定报头整体保留。"
+    },
+    {
+      "id": "overlay_left_headline",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        431,
+        160,
+        1177
+      ],
+      "description": "左侧竖排大型标题“近220家莞企提供近8000个岗位 广东最强春招 东莞马力全开”，黑色与蓝色字交错排布，属于版面艺术字设计，整体保留。"
+    },
+    {
+      "id": "overlay_news_layout",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        384,
+        1023,
+        1380
+      ],
+      "description": "报纸主体印刷版面单元，包含展会数据标题与项目符号、正文多栏、小标题、右栏相关报道标题与说明文字、图片说明及署名等；保留原有栏网、字块、分隔线和印刷层级，不将小字逐项拆分。"
+    },
+    {
+      "id": "overlay_bottom_teasers",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        1445,
+        561,
+        1523
+      ],
+      "description": "页面底部两组横排导读标题及红色版次提示，分别位于左侧与中部，作为固定报纸导读版式整体保留。"
+    },
+    {
+      "id": "overlay_footer",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        1532,
+        1059,
+        1551
+      ],
+      "description": "页面最下缘的细小报纸出版、编辑及联系方式等横向印刷信息，作为一条固定页脚保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_crowd",
+    "photo_exhibition_sign",
+    "photo_robot",
+    "photo_expo_exterior",
+    "overlay_blue_shapes",
+    "overlay_masthead",
+    "overlay_left_headline",
+    "overlay_news_layout",
+    "overlay_bottom_teasers",
+    "overlay_footer"
+  ]
+}

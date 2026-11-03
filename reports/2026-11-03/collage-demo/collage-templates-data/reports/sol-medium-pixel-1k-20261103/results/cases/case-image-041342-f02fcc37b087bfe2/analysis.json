@@ -1,0 +1,170 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "暖色餐厅环境的连续全画布摄影底图：上方为横向木墙，中央及右侧可见桌椅、柜台和餐厅陈设，下方延伸至桌面区域。画面边缘与场景相连，局部被相机、餐盘、人物、蛋糕及装饰遮挡；这些独立单元不属于底图。",
+      "background_type": "photo",
+      "label": "暖色餐厅环境的连续全画布摄影底图：上方为横向木墙，中央及右侧",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_camera_screen",
+      "kind": "photo",
+      "bbox": [
+        128,
+        151,
+        500,
+        432
+      ],
+      "description": "相机屏幕内的横向近景照片：一名穿浅色花边上衣的女性坐在餐桌旁，画面裁至上身，桌上有多盘食物。保留屏幕内摄影环境，显示范围为矩形。",
+      "label": "相机屏幕内的横向近景照片：一名穿浅色花边上衣的女性坐在餐桌旁",
+      "method": "local"
+    },
+    {
+      "id": "frame_camera",
+      "kind": "frame",
+      "bbox": [
+        72,
+        102,
+        690,
+        457
+      ],
+      "description": "银白色数码相机机身，包含屏幕边框、镜头外的按键、转盘、文字和整体金属质感；屏幕照片单独替换，机身遮挡其边缘。",
+      "photo_id": [
+        "photo_camera_screen"
+      ],
+      "label": "银白色数码相机机身，包含屏幕边框、镜头外的按键、转盘、文字和",
+      "method": "extract"
+    },
+    {
+      "id": "photo_pasta",
+      "kind": "photo",
+      "bbox": [
+        0,
+        333,
+        364,
+        778
+      ],
+      "description": "左侧大型浅色盘中的意面餐食近景，包含盘沿、面食、配料和垫纸，沿餐盘与食物外缘不规则显示，摄影背景未完整保留；右侧及上缘与其他画面元素相接。",
+      "label": "左侧大型浅色盘中的意面餐食近景，包含盘沿、面食、配料和垫纸，",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        778,
+        447,
+        979,
+        1080
+      ],
+      "description": "右侧全身女性抠图，穿浅色花卉长裙并手持手机遮住部分面部，站立面对画面；鞋部延伸至画布下缘。沿人物组合轮廓显示，未保留原摄影环境，局部被右侧蕾丝遮挡。",
+      "label": "右侧全身女性抠图，穿浅色花卉长裙并手持手机遮住部分面部，站立",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        263,
+        823,
+        530,
+        1035
+      ],
+      "description": "下方偏左的一块多层巧克力蛋糕近景，包含顶部巧克力装饰及完整切面，沿蛋糕和碎屑外缘不规则显示，摄影背景未保留。",
+      "label": "下方偏左的一块多层巧克力蛋糕近景，包含顶部巧克力装饰及完整切",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lace",
+      "kind": "overlay",
+      "bbox": [
+        931,
+        0,
+        1080,
+        1080
+      ],
+      "description": "沿画面右侧延伸的白色镂空蕾丝布，带完整花边与网状织纹；从右上延续至右下，部分覆盖餐厅背景和女性人物。",
+      "label": "沿画面右侧延伸的白色镂空蕾丝布，带完整花边与网状织纹；从右上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        0,
+        815,
+        258
+      ],
+      "description": "画面上方中央偏右的大型浅米色半透明花朵装饰，花瓣与花心纹理作为同一固定单元保留，覆盖木墙及相机上缘附近。",
+      "label": "画面上方中央偏右的大型浅米色半透明花朵装饰，花瓣与花心纹理作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        194,
+        857,
+        1080
+      ],
+      "description": "散布于画面中下部的半透明浅色圆点与点阵图案，包含左侧疏密变化的点纹及下方偏右的白色点阵装饰；作为固定印刷叠加效果整体保留，不并入照片。",
+      "label": "散布于画面中下部的半透明浅色圆点与点阵图案，包含左侧疏密变化",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_checkered_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        801,
+        1080,
+        1080
+      ],
+      "description": "画面底部横向延伸的棕、米白格纹纸面，保留完整可见图案与边缘，覆盖下方背景；蛋糕及左下标签压在其上。",
+      "label": "画面底部横向延伸的棕、米白格纹纸面，保留完整可见图案与边缘，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        808,
+        286,
+        1008
+      ],
+      "description": "左下方深棕色不规则椭圆标签，带浅黄色手写中文装饰字样，左侧文字部分出画；标签轮廓、字形和整体质感作为一个固定设计单元保留。",
+      "label": "左下方深棕色不规则椭圆标签，带浅黄色手写中文装饰字样，左侧文",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_checkered_paper",
+    "photo_pasta",
+    "overlay_dots",
+    "photo_camera_screen",
+    "frame_camera",
+    "overlay_label",
+    "photo_cake",
+    "photo_woman",
+    "overlay_flower",
+    "overlay_lace"
+  ]
+}

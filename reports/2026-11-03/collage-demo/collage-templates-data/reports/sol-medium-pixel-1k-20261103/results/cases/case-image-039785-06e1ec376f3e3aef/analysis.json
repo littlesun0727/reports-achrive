@@ -1,0 +1,454 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "textured_brown_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "连续覆盖全画布的棕褐色粗粝纸张纹理底图，边缘、照片间隙和文字周围均保持同一颗粒与斑驳质感；人物照片、拼贴图像、文字和标志均为其上的独立设计单元。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的棕褐色粗粝纸张纹理底图，边缘、照片间隙和文字",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "logo_m_plus",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        39,
+        190,
+        131
+      ],
+      "description": "左上角白色 M+ 标志，包含粗体字母 M 与加号，作为具有独立字形造型的固定标志保留。",
+      "label": "左上角白色 M+ 标志，包含粗体字母 M 与加号，作为具有独",
+      "method": "extract"
+    },
+    {
+      "id": "top_award_text",
+      "kind": "text",
+      "bbox": [
+        215,
+        42,
+        605,
+        128
+      ],
+      "description": "China Top Interior\nDESIGN AWARD",
+      "label": "China Top Interior\nDESIGN AWAR",
+      "method": "local",
+      "text": "China Top Interior\nDESIGN AWARD",
+      "text_status": "known",
+      "style": {
+        "fill": "#F7F1DE",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "top_chinese_title",
+      "kind": "text",
+      "bbox": [
+        43,
+        151,
+        606,
+        200
+      ],
+      "description": "中国高端室内设计大赛",
+      "label": "中国高端室内设计大赛",
+      "method": "local",
+      "text": "中国高端室内设计大赛",
+      "text_status": "known",
+      "style": {
+        "fill": "#F7F1DE",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_main_portrait",
+      "kind": "photo",
+      "bbox": [
+        302,
+        252,
+        809,
+        733
+      ],
+      "description": "中央上方黑白男性近景肖像，人物正面偏右侧朝向，手托下巴并横向含着一支笔；头发、面部、手部和肩部共同构成完整摄影区域，矩形显示范围被金色分割线穿过，摄影环境不明显。",
+      "label": "中央上方黑白男性近景肖像，人物正面偏右侧朝向，手托下巴并横向",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_upper_collage",
+      "kind": "photo",
+      "bbox": [
+        57,
+        650,
+        250,
+        952
+      ],
+      "description": "左侧上方的不规则黑白拼贴照片，显示白色马匹或动物轮廓及其上的人物和服饰局部，沿外部轮廓裁切并被中央人物拼贴和网格遮挡。",
+      "label": "左侧上方的不规则黑白拼贴照片，显示白色马匹或动物轮廓及其上的",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_upper_collage",
+      "kind": "photo",
+      "bbox": [
+        708,
+        666,
+        1051,
+        952
+      ],
+      "description": "右侧上方的不规则黑白摄影拼贴，包含人物肩部、服装和局部装饰，沿右侧斜切轮廓显示，部分被网格照片覆盖。",
+      "label": "右侧上方的不规则黑白摄影拼贴，包含人物肩部、服装和局部装饰，",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_jin",
+      "kind": "photo",
+      "bbox": [
+        250,
+        728,
+        478,
+        952
+      ],
+      "description": "第一排左侧男性黑白肖像，短发、正面看向镜头，位于独立矩形照片格内，摄影背景为浅灰色。",
+      "label": "第一排左侧男性黑白肖像，短发、正面看向镜头，位于独立矩形照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_li",
+      "kind": "photo",
+      "bbox": [
+        479,
+        728,
+        707,
+        952
+      ],
+      "description": "第一排中间女性黑白近景肖像，长发侧分、正面朝向镜头，位于独立矩形照片格内，保留照片中的深浅背景。",
+      "label": "第一排中间女性黑白近景肖像，长发侧分、正面朝向镜头，位于独立",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_shi",
+      "kind": "photo",
+      "bbox": [
+        708,
+        728,
+        938,
+        952
+      ],
+      "description": "第一排右侧男性黑白肖像，短发、正面朝向镜头，穿着正式服装，位于独立矩形照片格内。",
+      "label": "第一排右侧男性黑白肖像，短发、正面朝向镜头，穿着正式服装，位",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_middle_collage",
+      "kind": "photo",
+      "bbox": [
+        26,
+        953,
+        249,
+        1182
+      ],
+      "description": "左侧中部黑白图像，显示带长耳朵的驴或动物插画式摄影纹理，作为独立矩形拼贴区域，被相邻人物照片和金色分割线包围。",
+      "label": "左侧中部黑白图像，显示带长耳朵的驴或动物插画式摄影纹理，作为",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_yu",
+      "kind": "photo",
+      "bbox": [
+        250,
+        953,
+        478,
+        1182
+      ],
+      "description": "第二排左侧男性黑白肖像，戴圆框眼镜、短发、正面朝向镜头，位于独立矩形照片格内。",
+      "label": "第二排左侧男性黑白肖像，戴圆框眼镜、短发、正面朝向镜头，位于",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_feng",
+      "kind": "photo",
+      "bbox": [
+        479,
+        953,
+        707,
+        1182
+      ],
+      "description": "第二排中间女性黑白肖像，长发、面向镜头并略微侧身，位于独立矩形照片格内。",
+      "label": "第二排中间女性黑白肖像，长发、面向镜头并略微侧身，位于独立矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_yuan",
+      "kind": "photo",
+      "bbox": [
+        708,
+        953,
+        938,
+        1182
+      ],
+      "description": "第二排右侧男性黑白肖像，戴黑框眼镜、穿深色服装，正面朝向镜头，位于独立矩形照片格内。",
+      "label": "第二排右侧男性黑白肖像，戴黑框眼镜、穿深色服装，正面朝向镜头",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_middle_collage",
+      "kind": "photo",
+      "bbox": [
+        939,
+        953,
+        1052,
+        1183
+      ],
+      "description": "右侧中部窄幅黑白拼贴照片，显示抽象人物或雕塑般的局部形态及纹理，作为独立矩形区域被网格边线包围。",
+      "label": "右侧中部窄幅黑白拼贴照片，显示抽象人物或雕塑般的局部形态及纹",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_lower_collage",
+      "kind": "photo",
+      "bbox": [
+        26,
+        1184,
+        250,
+        1365
+      ],
+      "description": "左下角深色弧形黑白图像，呈现近距离材质或物体表面，底部为圆弧裁切，作为独立拼贴照片显示。",
+      "label": "左下角深色弧形黑白图像，呈现近距离材质或物体表面，底部为圆弧",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        687,
+        1184,
+        945,
+        1365
+      ],
+      "description": "下方中央偏右的黑白男性躯干照片，显示深色西装、白色衬衣和胸腹部，人物头部被上方网格区域裁掉，矩形区域被金色边线分隔。",
+      "label": "下方中央偏右的黑白男性躯干照片，显示深色西装、白色衬衣和胸腹",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_lower_collage",
+      "kind": "photo",
+      "bbox": [
+        946,
+        1184,
+        1052,
+        1365
+      ],
+      "description": "右下角窄幅黑白图像，显示斜向条纹与浅色材质的局部，作为独立矩形拼贴区域保留。",
+      "label": "右下角窄幅黑白图像，显示斜向条纹与浅色材质的局部，作为独立矩",
+      "method": "local"
+    },
+    {
+      "id": "collage_grid_lines",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        250,
+        1052,
+        1365
+      ],
+      "description": "覆盖中央人物与多格肖像拼贴的细窄金色横竖分割线，形成十字和矩形网格，并包含外部切割边缘的固定设计线条。",
+      "label": "覆盖中央人物与多格肖像拼贴的细窄金色横竖分割线，形成十字和矩",
+      "method": "extract"
+    },
+    {
+      "id": "main_title",
+      "kind": "overlay",
+      "bbox": [
+        330,
+        1205,
+        685,
+        1367
+      ],
+      "description": "中央下方大号米白色中文艺术字“戴昆”，字形粗重并带有特殊切割造型，属于固定标题装饰而非普通排版文字。",
+      "label": "中央下方大号米白色中文艺术字“戴昆”，字形粗重并带有特殊切割",
+      "method": "extract"
+    },
+    {
+      "id": "main_subtitle",
+      "kind": "text",
+      "bbox": [
+        225,
+        1383,
+        855,
+        1451
+      ],
+      "description": "大漠英“撩”战队",
+      "label": "大漠英“撩”战队",
+      "method": "local",
+      "text": "大漠英“撩”战队",
+      "text_status": "known",
+      "style": {
+        "fill": "#F7EBC8",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "slogan_text",
+      "kind": "text",
+      "bbox": [
+        229,
+        1497,
+        850,
+        1542
+      ],
+      "description": "大漠英“撩”，撩！撩！撩！",
+      "label": "大漠英“撩”，撩！撩！撩！",
+      "method": "local",
+      "text": "大漠英“撩”，撩！撩！撩！",
+      "text_status": "known",
+      "style": {
+        "fill": "#F2E9D2",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "mentor_name",
+      "kind": "text",
+      "bbox": [
+        728,
+        501,
+        790,
+        650
+      ],
+      "description": "戴\n昆\n导\n师\n）",
+      "label": "戴\n昆\n导\n师\n）",
+      "method": "local",
+      "text": "戴\n昆\n导\n师\n）",
+      "text_status": "known",
+      "style": {
+        "fill": "#F7F0D9",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "member_names",
+      "kind": "text",
+      "bbox": [
+        263,
+        764,
+        758,
+        1138
+      ],
+      "description": "金\n永\n生\n（队长）\n\n李\n娜\n\n石\n海\n峰\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n由\n伟\n壮\n\n冯\n莎\n\n袁\n珂",
+      "label": "金\n永\n生\n（队长）\n\n李\n娜\n\n石\n海\n峰\n\n\n\n\n\n\n\n",
+      "method": "local",
+      "text": "金\n永\n生\n（队长）\n\n李\n娜\n\n石\n海\n峰\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n由\n伟\n壮\n\n冯\n莎\n\n袁\n珂",
+      "text_status": "known",
+      "style": {
+        "fill": "#29251F",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "bottom_logos",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        1647,
+        799,
+        1859
+      ],
+      "description": "底部多组主办、合作、媒体与设计机构标志及小字信息，包含白色标签、品牌名称、细线和排列成组的标识，作为一个固定宣传信息单元整体保留。",
+      "label": "底部多组主办、合作、媒体与设计机构标志及小字信息，包含白色标",
+      "method": "extract"
+    },
+    {
+      "id": "qr_code_panel",
+      "kind": "overlay",
+      "bbox": [
+        838,
+        1614,
+        1038,
+        1817
+      ],
+      "description": "右下方带白色细边框的模糊二维码面板，二维码图像与下方中文提示语作为固定投票信息单元保留。",
+      "label": "右下方带白色细边框的模糊二维码面板，二维码图像与下方中文提示",
+      "method": "extract"
+    },
+    {
+      "id": "qr_caption",
+      "kind": "text",
+      "bbox": [
+        835,
+        1824,
+        1041,
+        1854
+      ],
+      "description": "长按二维码投票",
+      "label": "长按二维码投票",
+      "method": "local",
+      "text": "长按二维码投票",
+      "text_status": "known",
+      "style": {
+        "fill": "#E9E2CF",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "textured_brown_paper",
+    "photo_left_upper_collage",
+    "photo_right_upper_collage",
+    "photo_main_portrait",
+    "photo_portrait_jin",
+    "photo_portrait_li",
+    "photo_portrait_shi",
+    "photo_left_middle_collage",
+    "photo_portrait_yu",
+    "photo_portrait_feng",
+    "photo_portrait_yuan",
+    "photo_right_middle_collage",
+    "photo_left_lower_collage",
+    "photo_bottom_center",
+    "photo_right_lower_collage",
+    "collage_grid_lines",
+    "logo_m_plus",
+    "top_award_text",
+    "top_chinese_title",
+    "mentor_name",
+    "member_names",
+    "main_title",
+    "main_subtitle",
+    "slogan_text",
+    "bottom_logos",
+    "qr_code_panel",
+    "qr_caption"
+  ]
+}

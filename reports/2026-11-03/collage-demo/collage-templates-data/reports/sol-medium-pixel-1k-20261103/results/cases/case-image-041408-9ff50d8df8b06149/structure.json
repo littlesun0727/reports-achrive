@@ -1,0 +1,75 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        67,
+        119,
+        670,
+        962
+      ],
+      "description": "左侧独立竖幅照片，一名深色长发女子穿白色印花宽松上衣，面向镜头微笑并向两侧展开双臂，下半身被照片下缘裁切。保留垂柳、彩色树叶、池水及石栏等完整摄影环境；左臂在左缘裁切，右手伸向窗口右侧。左下的黄色日期字样随原照片替换，照片边缘被黑色胶片框遮住。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        785,
+        123,
+        1395,
+        968
+      ],
+      "description": "右侧独立竖幅照片，一名深色长发女子穿黑色开衫和浅色花纹裙，面向镜头站在池边，双臂向两侧伸展，右手搭在石栏柱上，下半身在下缘裁切。完整保留垂柳、池水、树木、石栏及左下桌面饮料杯；黄色日期字样随照片替换。与左图姿态和取景不同，属于另一照片窗口，四周被胶片框压住。"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        1441,
+        1080
+      ],
+      "description": "覆盖画布的黑色双窗口胶片框体，两个竖向照片内口之间有宽黑色隔栏。完整保留上下两排白色圆角齿孔、黑色边沿的磨损颗粒、顶端黄色“FUJI RDPⅢ”印字及左下黄色箭头。框沿遮住两张照片的边缘；中间手写字与太阳图案不属于框体印刷，另列装饰。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "overlay_weather",
+      "kind": "overlay",
+      "bbox": [
+        674,
+        98,
+        785,
+        597
+      ],
+      "description": "叠加在两张照片之间黑色隔栏上的手绘装饰：浅蓝色粉笔质感文字“遇上好天气”逐字纵向排列，下方附黄色手绘太阳圆圈和放射短线。文字笔画大小、位置不规则，与太阳作为完整装饰保留，最右侧笔画接近右图边缘。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1380,
+        1044,
+        1432,
+        1072
+      ],
+      "description": "右下角独立的深灰色小椭圆标记，内部为低对比度“小红书”字样，保留其整体轮廓与原有字形，位于胶片框右下黑色区域之上。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "frame_film",
+    "overlay_weather",
+    "overlay_watermark"
+  ]
+}

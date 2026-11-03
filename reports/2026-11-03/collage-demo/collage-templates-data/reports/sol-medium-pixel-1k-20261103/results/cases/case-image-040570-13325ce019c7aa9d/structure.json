@@ -1,0 +1,248 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_phone_tripod_scene",
+      "kind": "photo",
+      "bbox": [
+        42,
+        160,
+        444,
+        969
+      ],
+      "description": "左侧竖向圆角场景照片，包含暖色山地、天空与岩石平台；背景环境保留在照片窗口内，窗口上缘被手机三脚架主体跨出遮挡，下部叠有白色产品标签。"
+    },
+    {
+      "id": "photo_phone_tripod_product",
+      "kind": "photo",
+      "bbox": [
+        64,
+        64,
+        396,
+        852
+      ],
+      "linked_to": "photo_phone_tripod_scene",
+      "description": "手机与伸缩三脚架的完整产品主体组合，手机位于顶部，三脚架展开支脚落在岩石上；沿产品轮廓显示并跨出左侧场景照片上缘，覆盖场景，摄影环境仍由底图照片保留。"
+    },
+    {
+      "id": "text_phone_tripod",
+      "kind": "text",
+      "bbox": [
+        112,
+        896,
+        376,
+        937
+      ],
+      "text": "Phone Tripod",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_top_right_panel",
+      "kind": "overlay",
+      "bbox": [
+        455,
+        69,
+        1045,
+        437
+      ],
+      "description": "右上浅灰色圆角矩形局部面板，作为产品与文字的固定承载底板保留。"
+    },
+    {
+      "id": "photo_top_right_tripod",
+      "kind": "photo",
+      "bbox": [
+        530,
+        94,
+        594,
+        355
+      ],
+      "description": "右上面板内的黑色手持三脚架产品近景，竖直展示于面板左侧，浅灰摄影背景与产品一同位于面板范围内。"
+    },
+    {
+      "id": "text_headline",
+      "kind": "text",
+      "bbox": [
+        632,
+        181,
+        957,
+        222
+      ],
+      "text": "One is Enough",
+      "color": "#080808",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_subheadline",
+      "kind": "text",
+      "bbox": [
+        634,
+        254,
+        945,
+        312
+      ],
+      "text": "Creative Photography\nIn a Single Step",
+      "color": "#080808",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "photo_camera_scene",
+      "kind": "photo",
+      "bbox": [
+        455,
+        452,
+        1047,
+        969
+      ],
+      "description": "右侧中部圆角海滩照片，画面中一家四口背向镜头站在海边岩石与沙地上，蓝天、海面和云层构成摄影环境；照片窗口上缘被相机三脚架主体跨出遮挡，下部叠有白色两行标签。"
+    },
+    {
+      "id": "photo_camera_tripod",
+      "kind": "photo",
+      "bbox": [
+        737,
+        437,
+        1019,
+        946
+      ],
+      "linked_to": "photo_camera_scene",
+      "description": "相机与展开三脚架的完整产品主体，位于画面右侧，机身越过海滩照片上缘，支脚延伸至照片下部并覆盖海景；沿主体轮廓显示，底图中的摄影环境保留。"
+    },
+    {
+      "id": "text_camera_tripods",
+      "kind": "text",
+      "bbox": [
+        502,
+        853,
+        699,
+        931
+      ],
+      "text": "Camera\nTripods",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "photo_selfie_scene",
+      "kind": "photo",
+      "bbox": [
+        42,
+        980,
+        639,
+        1342
+      ],
+      "description": "左下横向圆角户外照片，一名女性坐姿倚靠并操作自拍三脚架，周围可见绿树、天空与地面；摄影环境保留在窗口内，白色标签叠在画面下部。"
+    },
+    {
+      "id": "photo_selfie_tripod",
+      "kind": "photo",
+      "bbox": [
+        27,
+        1058,
+        455,
+        1387
+      ],
+      "description": "前景中的手机夹、手机与自拍三脚架主体组合，沿产品轮廓显示，覆盖左下照片左侧及下缘并延伸到照片窗口外；照片中的女性和户外环境仍保留。"
+    },
+    {
+      "id": "text_selfie_mode",
+      "kind": "text",
+      "bbox": [
+        357,
+        1271,
+        603,
+        1313
+      ],
+      "text": "Selfie Mode",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_bottom_right_panel",
+      "kind": "overlay",
+      "bbox": [
+        649,
+        980,
+        1045,
+        1342
+      ],
+      "description": "右下浅灰色圆角矩形局部面板，为遥控器、收纳袋和黑色产品文字提供固定承载底板。"
+    },
+    {
+      "id": "photo_remote",
+      "kind": "photo",
+      "bbox": [
+        674,
+        983,
+        859,
+        1101
+      ],
+      "description": "右下面板左上方的黑色无线遥控器产品近景，斜向摆放，遥控器及其可见表面细节作为可替换摄影内容。"
+    },
+    {
+      "id": "photo_storage_bag",
+      "kind": "photo",
+      "bbox": [
+        856,
+        1202,
+        1069,
+        1363
+      ],
+      "description": "右下面板右下方的黑色收纳袋产品，斜向横置，袋体一端越过面板右缘和下缘，作为独立产品主体显示。"
+    },
+    {
+      "id": "text_remote_storage",
+      "kind": "text",
+      "bbox": [
+        694,
+        1135,
+        1002,
+        1212
+      ],
+      "text": "Wireless Remote\n& Storage bag",
+      "color": "#080808",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_phone_tripod_scene",
+    "overlay_top_right_panel",
+    "photo_top_right_tripod",
+    "text_headline",
+    "text_subheadline",
+    "photo_camera_scene",
+    "photo_selfie_scene",
+    "overlay_bottom_right_panel",
+    "photo_remote",
+    "text_remote_storage",
+    "photo_phone_tripod_product",
+    "text_phone_tripod",
+    "photo_camera_tripod",
+    "text_camera_tripods",
+    "photo_selfie_tripod",
+    "text_selfie_mode",
+    "photo_storage_bag"
+  ]
+}

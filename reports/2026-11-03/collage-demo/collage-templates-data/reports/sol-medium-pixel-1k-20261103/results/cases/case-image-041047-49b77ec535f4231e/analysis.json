@@ -1,0 +1,373 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1000,
+    1000
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_lullaby",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        414,
+        584
+      ],
+      "description": "左上独立照片，熟睡的幼儿侧脸躺在白色枕被上，近景取景；照片被斜向边界裁切，右下方部分被中央白色圆形面板和标签区域遮挡。",
+      "label": "左上独立照片，熟睡的幼儿侧脸躺在白色枕被上，近景取景；照片被",
+      "method": "local"
+    },
+    {
+      "id": "photo_yoga",
+      "kind": "photo",
+      "bbox": [
+        242,
+        0,
+        727,
+        459
+      ],
+      "description": "顶部中央独立照片，户外荒漠灌木环境中的人物倒立瑜伽姿势，完整保留人物与地面环境；左右边缘呈向下收窄的斜向裁切，下缘被中央面板遮挡。",
+      "label": "顶部中央独立照片，户外荒漠灌木环境中的人物倒立瑜伽姿势，完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_wave",
+      "kind": "photo",
+      "bbox": [
+        617,
+        0,
+        1000,
+        561
+      ],
+      "description": "右上独立海浪照片，近距离白色浪花和蓝绿色海水构成完整摄影画面；左下方被中央白色面板及标签区域遮挡，显示窗口沿斜边裁切。",
+      "label": "右上独立海浪照片，近距离白色浪花和蓝绿色海水构成完整摄影画面",
+      "method": "local"
+    },
+    {
+      "id": "photo_stream",
+      "kind": "photo",
+      "bbox": [
+        0,
+        423,
+        281,
+        1000
+      ],
+      "description": "左侧独立溪流照片，岩石间流动的白色水流和周围石壁构成摄影环境；照片沿扇形斜边显示，右侧及上方部分被中央面板遮挡。",
+      "label": "左侧独立溪流照片，岩石间流动的白色水流和周围石壁构成摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_forest",
+      "kind": "photo",
+      "bbox": [
+        729,
+        431,
+        1000,
+        1000
+      ],
+      "description": "右侧独立森林照片，彩色小鸟近景位于绿色自然环境中；照片沿斜向扇形边界显示，左侧和下方部分被中央白色面板遮挡。",
+      "label": "右侧独立森林照片，彩色小鸟近景位于绿色自然环境中；照片沿斜向",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lullaby_band",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        353,
+        414,
+        584
+      ],
+      "description": "覆盖在左上幼儿照片下方区域的半透明灰色斜向标签底板，延续照片扇形边界并承载标题文字。",
+      "label": "覆盖在左上幼儿照片下方区域的半透明灰色斜向标签底板，延续照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yoga_band",
+      "kind": "overlay",
+      "bbox": [
+        399,
+        352,
+        582,
+        459
+      ],
+      "description": "顶部中央瑜伽照片下缘的半透明灰色标签底板，位于照片与中央白色面板交界处。",
+      "label": "顶部中央瑜伽照片下缘的半透明灰色标签底板，位于照片与中央白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wave_band",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        357,
+        828,
+        561
+      ],
+      "description": "右上浪花照片下缘的半透明灰色斜向标签底板，随照片窗口边界延伸并承载标题文字。",
+      "label": "右上浪花照片下缘的半透明灰色斜向标签底板，随照片窗口边界延伸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stream_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        568,
+        280,
+        833
+      ],
+      "description": "左侧溪流照片上的半透明灰色扇形标签底板，位于中央白色面板外侧并承载标题文字。",
+      "label": "左侧溪流照片上的半透明灰色扇形标签底板，位于中央白色面板外侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_forest_band",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        545,
+        1000,
+        809
+      ],
+      "description": "右侧森林照片上的半透明灰色扇形标签底板，覆盖鸟类照片局部并承载标题文字。",
+      "label": "右侧森林照片上的半透明灰色扇形标签底板，覆盖鸟类照片局部并承",
+      "method": "extract"
+    },
+    {
+      "id": "text_lullaby",
+      "kind": "text",
+      "bbox": [
+        247,
+        457,
+        379,
+        482
+      ],
+      "description": "LULLABY",
+      "label": "LULLABY",
+      "method": "local",
+      "text": "LULLABY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_yoga",
+      "kind": "text",
+      "bbox": [
+        449,
+        389,
+        545,
+        416
+      ],
+      "description": "YOGA",
+      "label": "YOGA",
+      "method": "local",
+      "text": "YOGA",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_wave",
+      "kind": "text",
+      "bbox": [
+        650,
+        459,
+        730,
+        484
+      ],
+      "description": "WAVE",
+      "label": "WAVE",
+      "method": "local",
+      "text": "WAVE",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_stream",
+      "kind": "text",
+      "bbox": [
+        136,
+        652,
+        223,
+        677
+      ],
+      "description": "STREAM",
+      "label": "STREAM",
+      "method": "local",
+      "text": "STREAM",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_forest",
+      "kind": "text",
+      "bbox": [
+        759,
+        661,
+        850,
+        686
+      ],
+      "description": "FOREST",
+      "label": "FOREST",
+      "method": "local",
+      "text": "FOREST",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_center_panel",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        451,
+        1000,
+        1000
+      ],
+      "description": "中央大型白色圆弧形固定面板，覆盖周围五张照片的内侧区域并向画布底部延伸，形成产品与主标题的留白承托区域。",
+      "label": "中央大型白色圆弧形固定面板，覆盖周围五张照片的内侧区域并向画",
+      "method": "extract"
+    },
+    {
+      "id": "photo_diffuser",
+      "kind": "photo",
+      "bbox": [
+        286,
+        582,
+        682,
+        746
+      ],
+      "description": "中央白色面板上的独立产品照片，展示黑色上盖、木纹圆形机身及前侧控制按键的桌面香薰或声音设备；产品主体居中，周围为白色摄影背景。",
+      "label": "中央白色面板上的独立产品照片，展示黑色上盖、木纹圆形机身及前",
+      "method": "local"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        348,
+        783,
+        659,
+        879
+      ],
+      "description": "5 SOOTHING\nSOUNDS",
+      "label": "5 SOOTHING\nSOUNDS",
+      "method": "local",
+      "text": "5 SOOTHING\nSOUNDS",
+      "text_status": "known",
+      "style": {
+        "fill": "#805B3D",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_title_rule",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        904,
+        524,
+        912
+      ],
+      "description": "主标题下方的短棕色横线装饰，作为独立固定图形保留。",
+      "label": "主标题下方的短棕色横线装饰，作为独立固定图形保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        294,
+        935,
+        707,
+        963
+      ],
+      "description": "HIGH QUALITY SOUND",
+      "label": "HIGH QUALITY SOUND",
+      "method": "local",
+      "text": "HIGH QUALITY SOUND",
+      "text_status": "known",
+      "style": {
+        "fill": "#805B3D",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_lullaby",
+    "photo_yoga",
+    "photo_wave",
+    "photo_stream",
+    "photo_forest",
+    "overlay_lullaby_band",
+    "overlay_yoga_band",
+    "overlay_wave_band",
+    "overlay_stream_band",
+    "overlay_forest_band",
+    "text_lullaby",
+    "text_yoga",
+    "text_wave",
+    "text_stream",
+    "text_forest",
+    "overlay_center_panel",
+    "photo_diffuser",
+    "text_title",
+    "overlay_title_rule",
+    "text_subtitle"
+  ]
+}

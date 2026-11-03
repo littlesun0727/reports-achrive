@@ -1,0 +1,416 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的竖幅人物摄影承载全画布：一名粉色短发人物面向镜头，穿黑色西装、浅色上衣与花纹长围巾，身体略侧转，右臂伸向右侧，手搭在蓝绿色雕花立柱上，下方露出腿部。背景为昏暗建筑环境，立柱、人物服装和左侧暗景在装饰间隙及画布边缘连续可见。顶部大字、斜向涂写和多枚贴纸遮挡局部；人物及完整摄影环境一起替换。",
+      "background_type": "photo",
+      "label": "一张连续的竖幅人物摄影承载全画布：一名粉色短发人物面向镜头，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_top_title",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        0,
+        973,
+        245
+      ],
+      "description": "顶部超高窄体粉红色英文标题，可辨为“ARRIVEDERCI”，上缘贴近并部分超出画布。保留极度压窄的字形、紧密排列及人物头部周围的原有可见形态，不吞入人物摄影。",
+      "label": "顶部超高窄体粉红色英文标题，可辨为“ARRIVEDERCI”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        307,
+        151
+      ],
+      "description": "左上角斜放的银白色数码相机贴图，机身从画布上边及左边裁切，保留屏幕、圆形控制键、小按钮、机身印字和外缘阴影，压住顶部粉色标题。",
+      "label": "左上角斜放的银白色数码相机贴图，机身从画布上边及左边裁切，保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tube",
+      "kind": "overlay",
+      "bbox": [
+        811,
+        64,
+        1035,
+        283
+      ],
+      "description": "右上方斜放的白色软管贴图，开口朝左下，尾端朝右上；包含黑色标签文字、条码、折皱、金属管口及边缘阴影，整体作为固定装饰保留。",
+      "label": "右上方斜放的白色软管贴图，开口朝左下，尾端朝右上；包含黑色标",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_devil_heart",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        255,
+        657,
+        363
+      ],
+      "description": "人物头部右侧的黑色立体爱心装饰，上方带两只弯曲尖角，包含白色高光与灰黑外缘，完整保留。",
+      "label": "人物头部右侧的黑色立体爱心装饰，上方带两只弯曲尖角，包含白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_trish_label",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        293,
+        988,
+        362
+      ],
+      "description": "右上方日文“トリッシュ”标题，粉色粗字配厚白色外轮廓，字形具有定制的圆润转折与紧凑排列，整体作为艺术字装饰保留。",
+      "label": "右上方日文“トリッシュ”标题，粉色粗字配厚白色外轮廓，字形具",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spice_label",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        414,
+        991,
+        436
+      ],
+      "description": "日文标题下方的亮青色细长矩形标签，内部粉色文字“スパイス・ガール”；底板与印字共同构成一枚固定标签。",
+      "label": "日文标题下方的亮青色细长矩形标签，内部粉色文字“スパイス・ガ",
+      "method": "extract"
+    },
+    {
+      "id": "text_small_white",
+      "kind": "text",
+      "bbox": [
+        54,
+        255,
+        126,
+        279
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#D9D9D3",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_small_pink_left",
+      "kind": "text",
+      "bbox": [
+        55,
+        284,
+        186,
+        411
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#E9537A",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_beating",
+      "kind": "text",
+      "bbox": [
+        88,
+        472,
+        247,
+        561
+      ],
+      "description": "BY\nBEATING\nOBJECTS,",
+      "label": "BY\nBEATING\nOBJECTS,",
+      "method": "local",
+      "text": "BY\nBEATING\nOBJECTS,",
+      "text_status": "known",
+      "style": {
+        "fill": "#ED5480",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_left_spaced",
+      "kind": "text",
+      "bbox": [
+        88,
+        575,
+        191,
+        831
+      ],
+      "description": "THE\nAPPEARANCE\nOF THE\nSTUNT\nDOUBLE IS\nSOMEWHAT\nSIMILAR\nTO THAT\nOF THE",
+      "label": "THE\nAPPEARANCE\nOF THE\nSTUNT\nDO",
+      "method": "local",
+      "text": "THE\nAPPEARANCE\nOF THE\nSTUNT\nDOUBLE IS\nSOMEWHAT\nSIMILAR\nTO THAT\nOF THE",
+      "text_status": "known",
+      "style": {
+        "fill": "#E9E6E0",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_small_una_label",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        750,
+        109,
+        767
+      ],
+      "description": "左侧竖排英文段落中间叠放的粉色小矩形标签，内部白色日文“ウナ”及括号样符号，保留底板和印字，覆盖下层文字的局部。",
+      "label": "左侧竖排英文段落中间叠放的粉色小矩形标签，内部白色日文“ウナ",
+      "method": "extract"
+    },
+    {
+      "id": "text_soft",
+      "kind": "text",
+      "bbox": [
+        88,
+        842,
+        378,
+        931
+      ],
+      "description": "THEY CAN BE\nMADE AS\nSOFT AS RUBBER",
+      "label": "THEY CAN BE\nMADE AS\nSOFT AS RU",
+      "method": "local",
+      "text": "THEY CAN BE\nMADE AS\nSOFT AS RUBBER",
+      "text_status": "known",
+      "style": {
+        "fill": "#ED5480",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_small_pink_right",
+      "kind": "text",
+      "bbox": [
+        779,
+        476,
+        991,
+        565
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#E9547E",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_small_japanese",
+      "kind": "overlay",
+      "bbox": [
+        862,
+        558,
+        1021,
+        583
+      ],
+      "description": "右侧粉色小字段落下方的一行日文小装饰字，粉色内字配白色厚外轮廓，带圆润手绘感。原文不能可靠辨认，按完整字样保留，不重排。",
+      "label": "右侧粉色小字段落下方的一行日文小装饰字，粉色内字配白色厚外轮",
+      "method": "extract"
+    },
+    {
+      "id": "text_right_spaced",
+      "kind": "text",
+      "bbox": [
+        783,
+        708,
+        939,
+        1092
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#F0EEE7",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_spice_girl_script",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        696,
+        1080,
+        1248
+      ],
+      "description": "横跨画面中下部的亮青色大型斜向手写“Spice Girl”艺术字，包含左侧超出画布的字笔、下方长弧形回环、中央向右上扬的粗笔画及右侧裁切字尾。保留刷痕、飞白、细线和字间独立位置，作为同一完整涂写设计；局部被磁带贴图遮住。",
+      "label": "横跨画面中下部的亮青色大型斜向手写“Spice Girl”艺",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cassette",
+      "kind": "overlay",
+      "bbox": [
+        168,
+        984,
+        438,
+        1223
+      ],
+      "description": "左下方斜放的浅灰白色磁带贴图，完整包含外壳、两个卷轴孔、中央磁带窗口、下缘圆孔与标签印字，可辨“Arctic Monkeys”“Do I Wanna Know?”。压在青色手写字上，整件固定保留。",
+      "label": "左下方斜放的浅灰白色磁带贴图，完整包含外壳、两个卷轴孔、中央",
+      "method": "extract"
+    },
+    {
+      "id": "text_una",
+      "kind": "text",
+      "bbox": [
+        779,
+        1134,
+        869,
+        1172
+      ],
+      "description": "ウナ",
+      "label": "ウナ",
+      "method": "local",
+      "text": "ウナ",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        75,
+        1258,
+        947,
+        1279
+      ],
+      "description": "THE FEMALE PROTAGONIST OF THE FIFTH INSTALMENT",
+      "label": "THE FEMALE PROTAGONIST OF THE ",
+      "method": "local",
+      "text": "THE FEMALE PROTAGONIST OF THE FIFTH INSTALMENT",
+      "text_status": "known",
+      "style": {
+        "fill": "#10E5E4",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bottom_title",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        1328,
+        951,
+        1440
+      ],
+      "description": "底部粉红色超高窄体“TRISH UNA”大标题，字母下部被画布底边裁切，右侧部分被报纸装饰遮挡。保留特殊压窄字形及整行排列。",
+      "label": "底部粉红色超高窄体“TRISH UNA”大标题，字母下部被画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_handbag",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        1306,
+        162,
+        1440
+      ],
+      "description": "左下角黑白菱格手提袋贴图，包含弯曲细提手、白色袋口、黑白棋盘状袋身及下缘阴影；袋底贴近画布底边，压在底部粉色大字上。",
+      "label": "左下角黑白菱格手提袋贴图，包含弯曲细提手、白色袋口、黑白棋盘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_newspaper",
+      "kind": "overlay",
+      "bbox": [
+        916,
+        1100,
+        1080,
+        1440
+      ],
+      "description": "右下角斜向叠入的米白色报纸剪贴，右侧与下侧超出画布，包含纸边、背后露出的另一层纸沿、黑色大标题及多段衬线小字。可见标题开头“Lo”，其余内容随报纸整体保留，覆盖摄影立柱、底部标题及页脚右端。",
+      "label": "右下角斜向叠入的米白色报纸剪贴，右侧与下侧超出画布，包含纸边",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_top_title",
+    "overlay_bottom_title",
+    "text_small_white",
+    "text_small_pink_left",
+    "text_beating",
+    "text_left_spaced",
+    "text_soft",
+    "text_small_pink_right",
+    "text_right_spaced",
+    "overlay_spice_girl_script",
+    "overlay_camera",
+    "overlay_tube",
+    "overlay_devil_heart",
+    "overlay_trish_label",
+    "overlay_spice_label",
+    "overlay_small_una_label",
+    "overlay_small_japanese",
+    "overlay_cassette",
+    "text_una",
+    "text_footer",
+    "overlay_handbag",
+    "overlay_newspaper"
+  ]
+}

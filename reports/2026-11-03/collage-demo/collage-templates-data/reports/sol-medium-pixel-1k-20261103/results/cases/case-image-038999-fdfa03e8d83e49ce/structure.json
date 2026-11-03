@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_base",
+    "description": "固定的双色画布底图：上部为深蓝灰色横向色块，下部为深棕色横向色块，分界约在 y=668；中央照片遮住部分底图，露出的区域保持原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_doll",
+      "kind": "photo",
+      "bbox": [
+        94,
+        127,
+        982,
+        1310
+      ],
+      "description": "中央竖向矩形实拍照片：一只穿蓝色与红黄条纹服装、扎条纹蝴蝶结的玩偶坐在木长椅上，背景是浓密绿植，后方有带中文字样的浅色长椅靠背。保留完整摄影环境和画面内的中文、木椅及白色粉笔圈；照片边界清晰，未见固定照片框。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        230,
+        339,
+        843,
+        397
+      ],
+      "text": "Letting myself be this current version of me\nincomplete, unsure, but still trying.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_dot_blue_top",
+      "kind": "overlay",
+      "bbox": [
+        440,
+        3,
+        551,
+        109
+      ],
+      "description": "画布上方中央的蓝色不规则手绘圆点，带深色短划纹理，独立叠在深蓝灰底色上。"
+    },
+    {
+      "id": "overlay_dot_yellow_upper",
+      "kind": "overlay",
+      "bbox": [
+        245,
+        168,
+        329,
+        244
+      ],
+      "description": "照片上方偏左的黄色不规则手绘圆点，带深色短划纹理，叠在照片上。"
+    },
+    {
+      "id": "overlay_dot_red_right",
+      "kind": "overlay",
+      "bbox": [
+        994,
+        296,
+        1037,
+        336
+      ],
+      "description": "画布右侧上方的小型红色不规则手绘圆点，位于照片外的深蓝灰底色上。"
+    },
+    {
+      "id": "overlay_dot_green_left",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        518,
+        81,
+        561
+      ],
+      "description": "画布左侧中部的绿色不规则手绘圆点，位于照片外的深蓝灰底色上。"
+    },
+    {
+      "id": "overlay_dot_orange",
+      "kind": "overlay",
+      "bbox": [
+        775,
+        490,
+        838,
+        545
+      ],
+      "description": "照片右上区域的橙色不规则手绘圆点，独立叠在绿植摄影画面上。"
+    },
+    {
+      "id": "overlay_dot_pink_right",
+      "kind": "overlay",
+      "bbox": [
+        939,
+        741,
+        1014,
+        815
+      ],
+      "description": "画布右侧中部的粉色不规则手绘圆点，跨在照片右边缘与深棕色底图上。"
+    },
+    {
+      "id": "overlay_dot_blue_lower",
+      "kind": "overlay",
+      "bbox": [
+        901,
+        1079,
+        1039,
+        1211
+      ],
+      "description": "画布右下区域的大型蓝色不规则手绘圆点，带深色短划纹理，跨在照片右下边缘与深棕色底图上。"
+    },
+    {
+      "id": "overlay_dot_yellow_bottom",
+      "kind": "overlay",
+      "bbox": [
+        653,
+        1266,
+        757,
+        1362
+      ],
+      "description": "照片下方偏右的黄色不规则手绘圆点，带深色短划纹理，跨在照片下边缘与深棕色底图上。"
+    }
+  ],
+  "layer_order": [
+    "photo_doll",
+    "text_quote",
+    "overlay_dot_blue_top",
+    "overlay_dot_yellow_upper",
+    "overlay_dot_red_right",
+    "overlay_dot_green_left",
+    "overlay_dot_orange",
+    "overlay_dot_pink_right",
+    "overlay_dot_blue_lower",
+    "overlay_dot_yellow_bottom"
+  ]
+}

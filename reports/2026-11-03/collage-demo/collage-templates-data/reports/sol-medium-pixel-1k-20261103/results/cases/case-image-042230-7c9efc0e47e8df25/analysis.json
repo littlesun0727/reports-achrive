@@ -1,0 +1,251 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "wood_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "深色木纹连续铺满画布四边，并在照片与贴纸之间的空隙中保持一致；作为固定纹理底图保留，独立照片和装饰清除后保留木纹。",
+      "background_type": "reference_clean",
+      "label": "深色木纹连续铺满画布四边，并在照片与贴纸之间的空隙中保持一致",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        165,
+        106,
+        915,
+        672
+      ],
+      "description": "上方横向照片，呈现木托盘上的抹茶蛋糕、苹果饮料、餐具和小型动漫周边，保留完整摄影场景。照片窗口四周有细白色矩形线框，随照片一同记录；下缘局部被前景猫咪贴纸遮挡。",
+      "label": "上方横向照片，呈现木托盘上的抹茶蛋糕、苹果饮料、餐具和小型动",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        157,
+        767,
+        925,
+        1346
+      ],
+      "description": "下方横向近距离照片，展示同一托盘场景中的蛋糕、盘子、餐巾、勺子及动漫周边，取景与上方照片不同，作为独立可替换照片保留完整环境。四周有细白色矩形线框，随照片一同记录。",
+      "label": "下方横向近距离照片，展示同一托盘场景中的蛋糕、盘子、餐巾、勺",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_drink",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        47,
+        224,
+        160
+      ],
+      "description": "左上方绿色星形贴纸，内部有卡通饮品图案，压在上方照片左上角之外。",
+      "label": "左上方绿色星形贴纸，内部有卡通饮品图案，压在上方照片左上角之",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_top",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        27,
+        931,
+        157
+      ],
+      "description": "右上方白色黑边卡通猫贴纸，身体带弯曲尾巴，跨在上方照片的上边缘并遮挡部分画面。",
+      "label": "右上方白色黑边卡通猫贴纸，身体带弯曲尾巴，跨在上方照片的上边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl_left",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        243,
+        141,
+        359
+      ],
+      "description": "画布左侧白色手绘旋涡线条及周围小星点，作为一个独立装饰保留。",
+      "label": "画布左侧白色手绘旋涡线条及周围小星点，作为一个独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_bubble",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        177,
+        485,
+        293
+      ],
+      "description": "上方照片内的浅绿色圆角对话框贴纸，带边框、尾巴及多行表情符号字样，整体作为固定图形单元保留。",
+      "label": "上方照片内的浅绿色圆角对话框贴纸，带边框、尾巴及多行表情符号",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_upper",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        261,
+        809,
+        359
+      ],
+      "description": "上方照片右侧叠加的浅色音符与闪光装饰，独立于摄影场景。",
+      "label": "上方照片右侧叠加的浅色音符与闪光装饰，独立于摄影场景。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bunny_chalk",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        457,
+        872,
+        576
+      ],
+      "description": "上方照片右下区域的粉色线描兔子涂鸦，叠在深色桌面上。",
+      "label": "上方照片右下区域的粉色线描兔子涂鸦，叠在深色桌面上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_cake",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        511,
+        247,
+        733
+      ],
+      "description": "左侧白色黑边卡通猫贴纸，双手捧着蛋糕，跨在上方照片左下边缘并遮挡照片及其白边。",
+      "label": "左侧白色黑边卡通猫贴纸，双手捧着蛋糕，跨在上方照片左下边缘并",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_korean_caption",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        716,
+        735,
+        760
+      ],
+      "description": "两张照片之间的白色手写韩文短句及右侧小闪光、装饰符号，字形具有手写造型，整体作为艺术字装饰保留；可辨文字为“매일 넘쳤으면 좋겠어요”。",
+      "label": "两张照片之间的白色手写韩文短句及右侧小闪光、装饰符号，字形具",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drips_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        897,
+        132,
+        1231
+      ],
+      "description": "画布左侧纵向排列的白色手绘水滴线稿，作为一组独立装饰保留。",
+      "label": "画布左侧纵向排列的白色手绘水滴线稿，作为一组独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_lower",
+      "kind": "overlay",
+      "bbox": [
+        421,
+        922,
+        590,
+        972
+      ],
+      "description": "下方照片中部上方叠加的彩色音符与小闪光装饰，独立于照片中的餐具和周边。",
+      "label": "下方照片中部上方叠加的彩色音符与小闪光装饰，独立于照片中的餐",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_lower",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        823,
+        809,
+        1004
+      ],
+      "description": "下方照片右上区域的白色竖向对话框贴纸，带黑色描边、尾巴和多行表情符号字样，整体保留。",
+      "label": "下方照片右上区域的白色竖向对话框贴纸，带黑色描边、尾巴和多行",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hearts_right",
+      "kind": "overlay",
+      "bbox": [
+        884,
+        909,
+        1049,
+        1083
+      ],
+      "description": "画布右侧两个白色黑边卡通心形贴纸，大小不同，分别位于下方照片右边缘外侧并局部压住照片白框。",
+      "label": "画布右侧两个白色黑边卡通心形贴纸，大小不同，分别位于下方照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        1266,
+        957,
+        1372
+      ],
+      "description": "下方照片右下角的浅绿色圆形四叶草贴纸，带点状边缘和绿色卡通叶片，压住照片右下区域。",
+      "label": "下方照片右下角的浅绿色圆形四叶草贴纸，带点状边缘和绿色卡通叶",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mountain",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        1347,
+        570,
+        1425
+      ],
+      "description": "画布底部的白色手绘山脉线稿及内部短线细节，横向延展于木纹底图上。",
+      "label": "画布底部的白色手绘山脉线稿及内部短线细节，横向延展于木纹底图",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "wood_background",
+    "photo_upper",
+    "photo_lower",
+    "overlay_swirl_left",
+    "overlay_green_bubble",
+    "overlay_music_upper",
+    "overlay_bunny_chalk",
+    "overlay_drips_left",
+    "overlay_music_lower",
+    "overlay_speech_lower",
+    "overlay_mountain",
+    "overlay_korean_caption",
+    "overlay_star_drink",
+    "overlay_cat_top",
+    "overlay_cat_cake",
+    "overlay_hearts_right",
+    "overlay_clover"
+  ]
+}

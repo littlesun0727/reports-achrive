@@ -1,0 +1,316 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "collage_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的固定拼贴底图覆盖整个画布，包括左上白色百合、顶部乐谱纸、两侧黑白钢琴键、下半部粉白横条纹及其印刷质感；人物照片、文字、翅膀和星形装饰独立叠加在其上，底图本身保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的固定拼贴底图覆盖整个画布，包括左上白色百合、顶部乐谱纸",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_pink_panel",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        385,
+        1004,
+        1128
+      ],
+      "description": "中央偏粉色的半透明矩形拼贴底板，带柔和粉色边缘和轻微图案质感，承托中部人物照片但不形成明确照片窗口。",
+      "label": "中央偏粉色的半透明矩形拼贴底板，带柔和粉色边缘和轻微图案质感",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower_girl",
+      "kind": "photo",
+      "bbox": [
+        0,
+        874,
+        879,
+        1360
+      ],
+      "description": "下方横向偏淡的独立人物照片，金色卷发女孩穿粉白服装并向左侧延伸，照片环境与浅粉色调仍然可见；显示区域从左画布边缘延伸至下方，局部被中央翅膀装饰和上层照片遮挡，边缘带明显柔化与半透明叠印效果。",
+      "label": "下方横向偏淡的独立人物照片，金色卷发女孩穿粉白服装并向左侧延",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_girl",
+      "kind": "photo",
+      "bbox": [
+        128,
+        544,
+        520,
+        1099
+      ],
+      "description": "左侧竖向人物照片，金色卷发女孩佩戴粉色花朵头饰并面向前方，身穿浅粉色服装；保留照片内的浅色环境，整体呈半透明柔焦效果，下部和右侧被其他照片及装饰遮挡。",
+      "label": "左侧竖向人物照片，金色卷发女孩佩戴粉色花朵头饰并面向前方，身",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_girl",
+      "kind": "photo",
+      "bbox": [
+        491,
+        331,
+        972,
+        975
+      ],
+      "description": "右侧主要人物照片，金色卷发女孩佩戴大型粉色花朵头饰，面向镜头并手持粉色Hello Kitty包，穿浅粉色服装；照片显示为近似矩形区域，人物和浅色摄影环境完整保留，左下方与左侧照片相交。",
+      "label": "右侧主要人物照片，金色卷发女孩佩戴大型粉色花朵头饰，面向镜头",
+      "method": "local"
+    },
+    {
+      "id": "overlay_decorative_title",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        301,
+        627,
+        524
+      ],
+      "description": "中央偏上的大型黑色描边白色装饰字样及其波浪线、圆形符号等一体化排版元素，字形特殊并带独立笔画造型，作为完整艺术字装饰保留。",
+      "label": "中央偏上的大型黑色描边白色装饰字样及其波浪线、圆形符号等一体",
+      "method": "extract"
+    },
+    {
+      "id": "text_poem_title",
+      "kind": "text",
+      "bbox": [
+        164,
+        278,
+        471,
+        314
+      ],
+      "description": "Poem of White Water",
+      "label": "Poem of White Water",
+      "method": "local",
+      "text": "Poem of White Water",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_wings_medallion",
+      "kind": "overlay",
+      "bbox": [
+        204,
+        973,
+        891,
+        1264
+      ],
+      "description": "横跨下方人物照片的白色天使翅膀与中央粉色圆形蝴蝶结徽章，具有完整的羽毛轮廓、阴影和装饰细节，作为独立固定贴纸压在照片上方。",
+      "label": "横跨下方人物照片的白色天使翅膀与中央粉色圆形蝴蝶结徽章，具有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        39,
+        193,
+        137
+      ],
+      "description": "左上区域的粉色五角星贴纸，压在百合花摄影底图上方，保留不规则柔和边缘。",
+      "label": "左上区域的粉色五角星贴纸，压在百合花摄影底图上方，保留不规则",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink_left",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        78,
+        164,
+        138
+      ],
+      "description": "靠近左上百合花的第二枚粉色星形贴纸，独立叠加在底图上。",
+      "label": "靠近左上百合花的第二枚粉色星形贴纸，独立叠加在底图上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink_top",
+      "kind": "overlay",
+      "bbox": [
+        773,
+        33,
+        828,
+        81
+      ],
+      "description": "顶部乐谱区域的粉色五角星贴纸，位于乐谱纸和人物照片上方。",
+      "label": "顶部乐谱区域的粉色五角星贴纸，位于乐谱纸和人物照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink_right",
+      "kind": "overlay",
+      "bbox": [
+        941,
+        252,
+        1000,
+        310
+      ],
+      "description": "右上人物照片附近的粉色星形贴纸，独立压在乐谱及照片区域上方。",
+      "label": "右上人物照片附近的粉色星形贴纸，独立压在乐谱及照片区域上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_white_top",
+      "kind": "overlay",
+      "bbox": [
+        422,
+        178,
+        474,
+        230
+      ],
+      "description": "顶部中央偏左的白色五角星贴纸，叠在花朵与乐谱交界区域。",
+      "label": "顶部中央偏左的白色五角星贴纸，叠在花朵与乐谱交界区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_white_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        421,
+        65,
+        475
+      ],
+      "description": "左侧画布边缘的大型白色星形贴纸，部分越出画布边界并压在中部构图上。",
+      "label": "左侧画布边缘的大型白色星形贴纸，部分越出画布边界并压在中部构",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_white_center",
+      "kind": "overlay",
+      "bbox": [
+        240,
+        530,
+        301,
+        590
+      ],
+      "description": "中央左侧人物照片上方的小型白色星形贴纸，覆盖照片与装饰字区域。",
+      "label": "中央左侧人物照片上方的小型白色星形贴纸，覆盖照片与装饰字区域",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_white_upper_center",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        346,
+        579,
+        386
+      ],
+      "description": "大型装饰字右侧、人物照片上缘附近的白色星形贴纸。",
+      "label": "大型装饰字右侧、人物照片上缘附近的白色星形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_white_right",
+      "kind": "overlay",
+      "bbox": [
+        990,
+        388,
+        1075,
+        472
+      ],
+      "description": "右侧画布边缘的大型白色星形贴纸，部分被画布裁切并压在主照片上方。",
+      "label": "右侧画布边缘的大型白色星形贴纸，部分被画布裁切并压在主照片上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_white_face",
+      "kind": "overlay",
+      "bbox": [
+        899,
+        444,
+        947,
+        488
+      ],
+      "description": "右侧人物照片中的小型白色五角星贴纸，位于人物肩部附近并独立覆盖照片。",
+      "label": "右侧人物照片中的小型白色五角星贴纸，位于人物肩部附近并独立覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_gray_bottom",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        1276,
+        473,
+        1320
+      ],
+      "description": "下方粉白条纹区域上的灰色星形贴纸，带轻微阴影和印刷感。",
+      "label": "下方粉白条纹区域上的灰色星形贴纸，带轻微阴影和印刷感。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_gray_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        936,
+        1335,
+        985,
+        1404
+      ],
+      "description": "右下区域的灰灰色折纸感星形装饰，部分位于画布边缘，作为独立固定贴纸保留。",
+      "label": "右下区域的灰灰色折纸感星形装饰，部分位于画布边缘，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_gray_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        529,
+        1403,
+        579,
+        1440
+      ],
+      "description": "底部中央靠近画布边缘的灰色小星形装饰，部分被画布下边缘裁切。",
+      "label": "底部中央靠近画布边缘的灰色小星形装饰，部分被画布下边缘裁切。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "collage_base",
+    "overlay_pink_panel",
+    "photo_lower_girl",
+    "photo_left_girl",
+    "photo_right_girl",
+    "overlay_star_pink_upper_left",
+    "overlay_star_pink_left",
+    "overlay_star_pink_top",
+    "overlay_star_pink_right",
+    "overlay_star_white_top",
+    "overlay_star_white_left",
+    "overlay_star_white_center",
+    "overlay_star_white_upper_center",
+    "overlay_star_white_right",
+    "overlay_star_white_face",
+    "overlay_star_gray_bottom",
+    "overlay_star_gray_lower_right",
+    "overlay_star_gray_bottom_center",
+    "overlay_wings_medallion",
+    "overlay_decorative_title",
+    "text_poem_title"
+  ]
+}

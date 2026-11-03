@@ -1,0 +1,171 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "浅灰白色、带细小斑点与纸面颗粒的连续底图，露出于左上空白区、下方左侧大留白及照片之间，纹理一致并延伸至画布边缘；保留底图纹理，独立替换各照片与文字。",
+      "background_type": "reference_clean",
+      "label": "浅灰白色、带细小斑点与纸面颗粒的连续底图，露出于左上空白区、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        360,
+        0,
+        720,
+        480
+      ],
+      "description": "上方中央竖幅时装照，一名长发女性穿黑色西装、白衬衫与领带，近全身站立并略微侧头，人物居中；保留浅色室内摄影环境，矩形画面延伸至画布上边。",
+      "label": "上方中央竖幅时装照，一名长发女性穿黑色西装、白衬衫与领带，近",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        720,
+        0,
+        1080,
+        480
+      ],
+      "description": "右上产品照片，黑色皮革高跟鞋及细长鞋带置于浅灰白背景上，鞋体斜向摆放并带柔和投影；完整矩形画面延伸至画布上边和右边。",
+      "label": "右上产品照片，黑色皮革高跟鞋及细长鞋带置于浅灰白背景上，鞋体",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        360,
+        960
+      ],
+      "description": "左侧中部竖幅时装照，一名戴眼镜的长发女性穿深棕色宽松套装与白上衣，站立，一手抬至头部、另一手插袋，人物全身可见；保留浅色摄影棚环境，画面贴合左边。",
+      "label": "左侧中部竖幅时装照，一名戴眼镜的长发女性穿深棕色宽松套装与白",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_center",
+      "kind": "photo",
+      "bbox": [
+        360,
+        480,
+        720,
+        960
+      ],
+      "description": "中央中部时装近景，一名戴眼镜的长发女性穿浅灰色西装坐姿面对镜头，双手置于身前，腿部延伸至画面下缘；保留浅色室内环境，矩形画面贴合下边。",
+      "label": "中央中部时装近景，一名戴眼镜的长发女性穿浅灰色西装坐姿面对镜",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        720,
+        480,
+        1080,
+        960
+      ],
+      "description": "右侧中部竖幅时装照，一名戴眼镜的长发女性穿浅灰色套装，低头站立并将手放入口袋，人物全身可见；保留浅色摄影棚及地面，画面贴合右边。",
+      "label": "右侧中部竖幅时装照，一名戴眼镜的长发女性穿浅灰色套装，低头站",
+      "method": "local"
+    },
+    {
+      "id": "photo_bag",
+      "kind": "photo",
+      "bbox": [
+        720,
+        960,
+        1080,
+        1440
+      ],
+      "description": "右侧中下部产品照片，一只深棕色软质皮革手提包置于浅灰色台面，双提手竖起，包体居中偏下；保留灰白室内背景及台面，矩形画面贴合右边。",
+      "label": "右侧中下部产品照片，一只深棕色软质皮革手提包置于浅灰色台面，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        720,
+        1440,
+        1080,
+        1920
+      ],
+      "description": "右下竖幅时装照，一名长发女性穿黑色西装站在棕色沙发前，人物靠画面右侧并略微侧身，呈全身景；保留明亮室内、沙发与地面，矩形画面延伸至画布右边和下边。",
+      "label": "右下竖幅时装照，一名长发女性穿黑色西装站在棕色沙发前，人物靠",
+      "method": "local"
+    },
+    {
+      "id": "text_year",
+      "kind": "text",
+      "bbox": [
+        82,
+        1584,
+        193,
+        1647
+      ],
+      "description": "‘26",
+      "label": "‘26",
+      "method": "local",
+      "text": "‘26",
+      "text_status": "known",
+      "style": {
+        "fill": "#29272A",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        69,
+        1700,
+        547,
+        1837
+      ],
+      "description": "Campaign photoshoot\nfor a clothing\nbrand",
+      "label": "Campaign photoshoot\nfor a clot",
+      "method": "local",
+      "text": "Campaign photoshoot\nfor a clothing\nbrand",
+      "text_status": "known",
+      "style": {
+        "fill": "#29272A",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_top_center",
+    "photo_top_right",
+    "photo_mid_left",
+    "photo_mid_center",
+    "photo_mid_right",
+    "photo_bag",
+    "photo_bottom_right",
+    "text_year",
+    "text_caption"
+  ]
+}

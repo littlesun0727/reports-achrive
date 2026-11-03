@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_aircraft",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        480
+      ],
+      "description": "上方横幅照片：一架蓝白色水上飞机停靠在海面码头，数人在机旁登机或站立，背景有海天与右侧礁岸。飞机、人物和海岛环境共同属于该照片，矩形画面完整显示至画布左右边缘及上缘，下缘与下方照片在 y=480 处直接拼接。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        1080,
+        960
+      ],
+      "description": "中间横幅照片：泳池边石质台面上摆着两杯透明饮品、一片绿色叶片垫和一颗苹果，背景为蓝绿色泳池。物品与泳池环境共同属于该照片，矩形画面完整显示至画布左右边缘，在 y=480 和 y=960 处分别与相邻照片直接拼接。"
+    },
+    {
+      "id": "photo_resort_dining",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        1080,
+        1440
+      ],
+      "description": "下方横幅照片：度假餐饮空间的桌面前景摆有玻璃瓶、蓝色玻璃杯及部分餐食，立柱与绿植位于中景，窗外可见沙滩、海面和蓝天。桌面物品与海岛环境共同属于该照片，矩形画面完整延伸至画布左右边缘及下缘，上缘在 y=960 处与中间照片直接拼接。"
+    }
+  ],
+  "layer_order": [
+    "photo_aircraft",
+    "photo_drinks",
+    "photo_resort_dining"
+  ]
+}

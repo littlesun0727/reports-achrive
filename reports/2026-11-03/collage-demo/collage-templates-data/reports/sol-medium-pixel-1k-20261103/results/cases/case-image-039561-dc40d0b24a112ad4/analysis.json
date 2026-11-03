@@ -1,0 +1,293 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为复古旅行拼贴纸底，米黄色旧纸、褶皱纸纹、蓝色撕纸区域及浅色云状纹理连续分布至四边，底部还有深蓝色纸面。保留纸张纹理、色彩变化和撕裂边缘；长城摄影、地图纸、邮票、标牌、文字及贴纸分别作为独立对象清除，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为复古旅行拼贴纸底，米黄色旧纸、褶皱纸纹、蓝色撕纸区域",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "stamp_beijing",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        26,
+        265,
+        329
+      ],
+      "description": "左上倾斜的米白色齿孔邮票，包含天坛建筑图、纸面旧化纹理及“中国邮政”“CHINA”“1.20元”印字，完整邮票作为固定装饰保留。",
+      "label": "左上倾斜的米白色齿孔邮票，包含天坛建筑图、纸面旧化纹理及“中",
+      "method": "extract"
+    },
+    {
+      "id": "postmark_beijing",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        87,
+        541,
+        237
+      ],
+      "description": "蓝色圆形北京邮戳及向右延伸的多条波浪邮政线，包含“BEIJING”“北京”等字样。圆印与波浪线构成一个完整盖印装饰，左缘叠在邮票附近。",
+      "label": "蓝色圆形北京邮戳及向右延伸的多条波浪邮政线，包含“BEIJI",
+      "method": "extract"
+    },
+    {
+      "id": "travel_label",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        17,
+        1080,
+        162
+      ],
+      "description": "右上斜贴的棕黄色旧纸标签，带相机图标及“旅行日记”字样，保留纸边、磨损和整体倾斜排版，右端抵达画布边缘。",
+      "label": "右上斜贴的棕黄色旧纸标签，带相机图标及“旅行日记”字样，保留",
+      "method": "extract"
+    },
+    {
+      "id": "balloon_sticker",
+      "kind": "overlay",
+      "bbox": [
+        739,
+        120,
+        854,
+        270
+      ],
+      "description": "红米色竖条纹热气球贴纸，包含球囊、吊篮及外围不规则白边，作为完整固定装饰保留。",
+      "label": "红米色竖条纹热气球贴纸，包含球囊、吊篮及外围不规则白边，作为",
+      "method": "extract"
+    },
+    {
+      "id": "badaling_route",
+      "kind": "overlay",
+      "bbox": [
+        829,
+        197,
+        1080,
+        326
+      ],
+      "description": "右上蓝色弯曲虚线路线、红色地点图钉及“八达岭长城”手写字组成的路线装饰，线路向右延伸至画布边缘，下端绕向标题附近。",
+      "label": "右上蓝色弯曲虚线路线、红色地点图钉及“八达岭长城”手写字组成",
+      "method": "extract"
+    },
+    {
+      "id": "departure_title",
+      "kind": "overlay",
+      "bbox": [
+        294,
+        191,
+        735,
+        366
+      ],
+      "description": "斜置深蓝色长条标题贴纸，带粗糙白色边框及白字“出发去看长城”，右下附有白蓝双线手绘箭头。字形、底板、边框与箭头整体保留。",
+      "label": "斜置深蓝色长条标题贴纸，带粗糙白色边框及白字“出发去看长城”",
+      "method": "extract"
+    },
+    {
+      "id": "main_title",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        275,
+        1080,
+        626
+      ],
+      "description": "横跨画面中上部的红色艺术字“北京·长城”，采用粗大不规则笔画、磨损纹理及连续米白色剪纸外缘。左右字组和中央圆点共同构成主标题完整单元，右缘抵达画布边界。",
+      "label": "横跨画面中上部的红色艺术字“北京·长城”，采用粗大不规则笔画",
+      "method": "extract"
+    },
+    {
+      "id": "english_title",
+      "kind": "overlay",
+      "bbox": [
+        438,
+        562,
+        860,
+        698
+      ],
+      "description": "黄色粗糙纸条上的蓝色手写英文“Great Wall Escape”，带斜向排版、下划线和白色撕纸外缘，整体作为固定标题装饰保留。",
+      "label": "黄色粗糙纸条上的蓝色手写英文“Great Wall Esca",
+      "method": "extract"
+    },
+    {
+      "id": "airplane_route",
+      "kind": "overlay",
+      "bbox": [
+        241,
+        602,
+        410,
+        681
+      ],
+      "description": "小型蓝白手绘飞机与向右上弯曲的蓝色虚线航迹，位于主标题左下、长城照片上方，保留飞机轮廓、白边及完整可见航迹。",
+      "label": "小型蓝白手绘飞机与向右上弯曲的蓝色虚线航迹，位于主标题左下、",
+      "method": "extract"
+    },
+    {
+      "id": "map_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        550,
+        286,
+        1359
+      ],
+      "description": "左侧不规则撕边旧地图纸，向下延伸到相机及底部卡片后方。包含地图细线、蓝色虚线路径、节点、延庆、怀柔、密云、雁栖关、昌平等地名及北京红星标记；下方纸面上的“不到长城非好汉!”和小心形随该纸张保留。右部被长城照片、相机及卡片遮挡。",
+      "label": "左侧不规则撕边旧地图纸，向下延伸到相机及底部卡片后方。包含地",
+      "method": "extract"
+    },
+    {
+      "id": "photo_great_wall",
+      "kind": "photo",
+      "bbox": [
+        111,
+        639,
+        1080,
+        1320
+      ],
+      "description": "一张无人物的长城山景照片，前景石墙与城垛由左下蜿蜒至右上山脊，左中有大型敌楼，远处还有城楼、蓝色层叠群山，山坡覆盖绿色树林。保留完整摄影环境，不仅保留建筑主体；上缘及左侧沿山景和城墙外形呈不规则白色剪纸边，局部被英文标题、地图纸、相机、纪念卡和路牌遮挡。右缘延伸至画布边界，底部被贴纸遮住的窗口范围依据连续森林判断。",
+      "label": "一张无人物的长城山景照片，前景石墙与城垛由左下蜿蜒至右上山脊",
+      "method": "local"
+    },
+    {
+      "id": "camera_sticker",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        991,
+        300,
+        1225
+      ],
+      "description": "左下黑银色复古相机固定贴纸，包含镜头、机身、顶部按钮、侧面金属环及外围白色剪纸边和浅阴影。相机整体压在地图纸及长城照片上，不作为客户摄影替换位置。",
+      "label": "左下黑银色复古相机固定贴纸，包含镜头、机身、顶部按钮、侧面金",
+      "method": "extract"
+    },
+    {
+      "id": "memorial_card",
+      "kind": "overlay",
+      "bbox": [
+        264,
+        1141,
+        659,
+        1404
+      ],
+      "description": "底部斜放的米黄色长城纪念纸卡，包含“长城主题纪念票”“CHANG CHENG”“登城纪念”“GOOD JOURNEY”、红色竖排编号、长城线描及印刷分隔线。卡片纸边、旧化、线描和印字整体保留，覆盖照片下部。",
+      "label": "底部斜放的米黄色长城纪念纸卡，包含“长城主题纪念票”“CHA",
+      "method": "extract"
+    },
+    {
+      "id": "signpost",
+      "kind": "overlay",
+      "bbox": [
+        721,
+        859,
+        1080,
+        1332
+      ],
+      "description": "右下完整木质旅行路牌贴纸，一根竖向木柱承托四块错落箭头牌，依次为红棕色“好汉坡”、蓝色“烽火台”、土黄色“敌楼探秘”、绿色“见证历史”，附相机、心形、箭头和山峰图标。保留木纹、字体、粗白剪纸轮廓及整组结构，叠在长城森林上。",
+      "label": "右下完整木质旅行路牌贴纸，一根竖向木柱承托四块错落箭头牌，依",
+      "method": "extract"
+    },
+    {
+      "id": "heritage_postmark",
+      "kind": "overlay",
+      "bbox": [
+        611,
+        1284,
+        758,
+        1437
+      ],
+      "description": "底部棕色圆形长城文化遗产盖印，包含双圈、星形、中央长城建筑及环绕文字，部分可辨“世界文化遗产”。它跨过纪念卡右下边缘，作为独立盖印保留。",
+      "label": "底部棕色圆形长城文化遗产盖印，包含双圈、星形、中央长城建筑及",
+      "method": "extract"
+    },
+    {
+      "id": "great_wall_stamp",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        1287,
+        997,
+        1440
+      ],
+      "description": "右下倾斜的浅色齿孔长城邮票，含“万里长城”字样、复古长城插画和纸面旧化纹理，下部在画布底边裁切。保留完整可见邮票，不将印刷插画作为客户照片窗口。",
+      "label": "右下倾斜的浅色齿孔长城邮票，含“万里长城”字样、复古长城插画",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_postal_lines",
+      "kind": "overlay",
+      "bbox": [
+        940,
+        1358,
+        1080,
+        1440
+      ],
+      "description": "右下多条深色波浪邮政盖印线，横向跨过长城邮票右侧并延伸至画布边缘，保留线条的旧化与不规则印迹。",
+      "label": "右下多条深色波浪邮政盖印线，横向跨过长城邮票右侧并延伸至画布",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_slogan",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        1332,
+        346,
+        1425
+      ],
+      "description": "深蓝色纸面上的白色手写字“山河壮阔 步履不停”，字词具有独立倾斜和错落位置，左侧附手绘长下划线，作为完整艺术字装饰保留。",
+      "label": "深蓝色纸面上的白色手写字“山河壮阔 步履不停”，字词具有独立",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_english",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        1400,
+        647,
+        1440
+      ],
+      "description": "纪念卡下方沿画布底边略倾斜的细小白色英文装饰字，部分可辨“The Great Wall is really…”，余字不清晰。保留原有字形和排布，不推测补写内容。",
+      "label": "纪念卡下方沿画布底边略倾斜的细小白色英文装饰字，部分可辨“T",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "stamp_beijing",
+    "postmark_beijing",
+    "travel_label",
+    "balloon_sticker",
+    "badaling_route",
+    "map_paper",
+    "photo_great_wall",
+    "departure_title",
+    "main_title",
+    "english_title",
+    "airplane_route",
+    "camera_sticker",
+    "memorial_card",
+    "signpost",
+    "heritage_postmark",
+    "great_wall_stamp",
+    "bottom_postal_lines",
+    "bottom_slogan",
+    "bottom_english"
+  ]
+}

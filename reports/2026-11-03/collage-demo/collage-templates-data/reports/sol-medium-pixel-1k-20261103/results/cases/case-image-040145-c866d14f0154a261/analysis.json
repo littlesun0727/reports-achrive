@@ -1,0 +1,336 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的白色拼贴纸底覆盖全画布，露出的空白处可见轻微纸张纹理、折痕与浅灰阴影；所有照片、纸片和装饰均为独立单元，底纸保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的白色拼贴纸底覆盖全画布，露出的空白处可见轻微纸张纹理、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        63,
+        36,
+        562,
+        462
+      ],
+      "description": "左上横向时装摄影，画面中两名深色服装模特分处左右，中央白衣模特所在区域被前景抠图人物遮挡；保留照片内环境，显示为矩形窗口。",
+      "label": "左上横向时装摄影，画面中两名深色服装模特分处左右，中央白衣模",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_middle",
+      "kind": "photo",
+      "bbox": [
+        63,
+        481,
+        212,
+        693
+      ],
+      "description": "左侧中部竖向时装照，一名穿黑色长外套的模特站在绿植与红白条纹背景前；保留摄影环境，矩形照片边缘局部被中央人物遮挡。",
+      "label": "左侧中部竖向时装照，一名穿黑色长外套的模特站在绿植与红白条纹",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_lower",
+      "kind": "photo",
+      "bbox": [
+        63,
+        712,
+        562,
+        891
+      ],
+      "description": "左下方横向时装摄影，展示穿深灰长外套的模特及室内陈列环境，照片上方和右侧部分被前景人物与标签遮挡；保留完整矩形显示范围。",
+      "label": "左下方横向时装摄影，展示穿深灰长外套的模特及室内陈列环境，照",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_white",
+      "kind": "photo",
+      "bbox": [
+        600,
+        92,
+        795,
+        453
+      ],
+      "description": "右上偏中的竖幅全身时装照，一名穿白色长裙的女性站在海边，天空、海面与岸边均属于照片；保留矩形窗口内的摄影环境。",
+      "label": "右上偏中的竖幅全身时装照，一名穿白色长裙的女性站在海边，天空",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_brown",
+      "kind": "photo",
+      "bbox": [
+        808,
+        92,
+        1045,
+        455
+      ],
+      "description": "右上角竖幅全身时装照，一名穿棕色套装的女性面向镜头站立，手持棕色手袋，背景为浅灰摄影棚；保留矩形窗口内的摄影环境。",
+      "label": "右上角竖幅全身时装照，一名穿棕色套装的女性面向镜头站立，手持",
+      "method": "local"
+    },
+    {
+      "id": "photo_group_midright",
+      "kind": "photo",
+      "bbox": [
+        601,
+        598,
+        1046,
+        891
+      ],
+      "description": "右侧中部横幅时装摄影，三名模特处于室内场景，中央前景为长卷发女性，左右各有一名深色着装模特；保留完整摄影环境，矩形窗口上方被纸条部分遮挡。",
+      "label": "右侧中部横幅时装摄影，三名模特处于室内场景，中央前景为长卷发",
+      "method": "local"
+    },
+    {
+      "id": "photo_cutout_main",
+      "kind": "photo",
+      "bbox": [
+        111,
+        36,
+        563,
+        1212
+      ],
+      "description": "由左上照片延伸出的中央全身女性抠图，浅色短上衣、黑色宽腿长裤和厚底鞋，正面略转向画面左侧，双臂自然下垂；沿人物及鞋的完整轮廓显示并跨出底图下缘，摄影背景不随此前景层显示，轮廓旁可见细黑线与局部红色手绘线。",
+      "linked_to": "photo_top_left",
+      "label": "由左上照片延伸出的中央全身女性抠图，浅色短上衣、黑色宽腿长裤",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape_teal",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        18,
+        111,
+        116
+      ],
+      "description": "左上角半透明蓝绿色斜贴胶带，包含不规则撕切边缘，独立压在纸底上。",
+      "label": "左上角半透明蓝绿色斜贴胶带，包含不规则撕切边缘，独立压在纸底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_yellow",
+      "kind": "overlay",
+      "bbox": [
+        516,
+        6,
+        693,
+        124
+      ],
+      "description": "上方斜贴的浅黄色半透明胶带，长条不规则裁边，压住左上照片右上区域及其附近纸底。",
+      "label": "上方斜贴的浅黄色半透明胶带，长条不规则裁边，压住左上照片右上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_microcopy",
+      "kind": "overlay",
+      "bbox": [
+        847,
+        38,
+        1042,
+        77
+      ],
+      "description": "右上方数行极小的深灰色印刷说明字，作为固定版面印刷内容保留，文字无法可靠辨认。",
+      "label": "右上方数行极小的深灰色印刷说明字，作为固定版面印刷内容保留，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_handwritten",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        472,
+        1026,
+        577
+      ],
+      "description": "横向撕边浅色纸条，带两行深色手写批注，整体作为带字纸片保留，压在右侧中部照片上方；字迹不作独立文字排版。",
+      "label": "横向撕边浅色纸条，带两行深色手写批注，整体作为带字纸片保留，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_looks",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        583,
+        721,
+        655
+      ],
+      "description": "倾斜的黄色标签，印有黑色粗体字样“LOOKS”，作为完整贴纸保留，覆盖右侧中部照片左上角。",
+      "label": "倾斜的黄色标签，印有黑色粗体字样“LOOKS”，作为完整贴纸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_slanted",
+      "kind": "overlay",
+      "bbox": [
+        876,
+        577,
+        1058,
+        646
+      ],
+      "description": "压在右侧中部照片上缘的浅灰色倾斜纸条，带细边框及手写批注，包含不规则文字和笔迹，整体作为独立纸片保留。",
+      "label": "压在右侧中部照片上缘的浅灰色倾斜纸条，带细边框及手写批注，包",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_collection_label",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        829,
+        378,
+        931
+      ],
+      "description": "横向倾斜的浅色撕边纸条，黑色手写字样“2025 A:W Collection”，连同纸条边缘与字迹作为一个固定标签保留，覆盖左下照片和前景人物下部。",
+      "label": "横向倾斜的浅色撕边纸条，黑色手写字样“2025 A:W Co",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        1145,
+        85,
+        1254
+      ],
+      "description": "左下方黑色金属回形针，带细线轮廓和浅色投影，作为独立装饰压在纸底上。",
+      "label": "左下方黑色金属回形针，带细线轮廓和浅色投影，作为独立装饰压在",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chart_paper",
+      "kind": "overlay",
+      "bbox": [
+        532,
+        949,
+        1036,
+        1368
+      ],
+      "description": "右下区域的浅色印刷表格纸，包含多列网格线、行线及细小印刷文字，整体为固定纸张设计；上部和左侧被撕边纸片及模特抠图遮挡。",
+      "label": "右下区域的浅色印刷表格纸，包含多列网格线、行线及细小印刷文字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_torn_graph_paper",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        898,
+        970,
+        1373
+      ],
+      "description": "覆盖表格纸的大片不规则撕边浅色方格纸，带淡淡横向纸纹，作为固定纸片保留；纸上承载一名黑衣女性模特抠图。",
+      "label": "覆盖表格纸的大片不规则撕边浅色方格纸，带淡淡横向纸纹，作为固",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cutout_lower_right",
+      "kind": "photo",
+      "bbox": [
+        700,
+        941,
+        851,
+        1418
+      ],
+      "description": "右下方全身女性时装抠图，穿黑色外套与长裙、白色袜子和黑鞋，正面站立并略朝左，人物轮廓完整显示在方格纸及表格纸前方；摄影背景不显示，轮廓有细线描边。",
+      "label": "右下方全身女性时装抠图，穿黑色外套与长裙、白色袜子和黑鞋，正",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title_label",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        1233,
+        546,
+        1317
+      ],
+      "description": "下方横向浅色撕边纸条，黑色手写大字“2025 A:W”，保留纸片、字迹及轻微阴影作为整体标签。",
+      "label": "下方横向浅色撕边纸条，黑色手写大字“2025 A:W”，保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_barcode",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        1317,
+        166,
+        1390
+      ],
+      "description": "左下方黑色条码及其下方微小数字印字，作为完整的固定印刷单元保留。",
+      "label": "左下方黑色条码及其下方微小数字印字，作为完整的固定印刷单元保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_checker_strip",
+      "kind": "overlay",
+      "bbox": [
+        179,
+        1315,
+        562,
+        1395
+      ],
+      "description": "底部横向红白棋盘格纸带，包含完整矩形色块图案与纸张边缘，作为独立装饰保留。",
+      "label": "底部横向红白棋盘格纸带，包含完整矩形色块图案与纸张边缘，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gray_strip",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        1365,
+        1080,
+        1420
+      ],
+      "description": "右下画布边缘的灰色斜向纹理纸带，部分延伸出画布边界，保留可见范围与纸面纹理。",
+      "label": "右下画布边缘的灰色斜向纹理纸带，部分延伸出画布边界，保留可见",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_top_left",
+    "photo_left_middle",
+    "photo_left_lower",
+    "photo_portrait_white",
+    "photo_portrait_brown",
+    "photo_group_midright",
+    "overlay_chart_paper",
+    "overlay_torn_graph_paper",
+    "photo_cutout_main",
+    "photo_cutout_lower_right",
+    "overlay_tape_teal",
+    "overlay_tape_yellow",
+    "overlay_top_microcopy",
+    "overlay_note_handwritten",
+    "overlay_looks",
+    "overlay_note_slanted",
+    "overlay_collection_label",
+    "overlay_paperclip",
+    "overlay_title_label",
+    "overlay_barcode",
+    "overlay_checker_strip",
+    "overlay_gray_strip"
+  ]
+}

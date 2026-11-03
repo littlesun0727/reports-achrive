@@ -1,0 +1,471 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "bg_forest",
+    "description": "蓝灰色冬日树林与枝干构成连续的全画布摄影底图，树林纹理延伸至四边，并在拼贴照片、纸片及装饰之间的空隙持续可见；以树林环境为整体替换范围，上层元素遮住局部。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        300,
+        44,
+        1020,
+        450
+      ],
+      "description": "上方横向矩形照片，室内暗色窗景与右侧绿色植物构成连续画面；窗口内可见完整摄影环境，照片上叠有白色诗句及星点连线。"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        349,
+        181,
+        494,
+        284
+      ],
+      "text": "I kept all my unsent\nwords in a blue\nenvelope, waiting for\nwinter to understand\nthem.",
+      "color": "#F4F1E9",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_top_center",
+      "kind": "text",
+      "bbox": [
+        514,
+        296,
+        662,
+        397
+      ],
+      "text": "I thought growing up\nwould feel louder,\nbut it arrived like\nsnow falling behind\nthe curtains.",
+      "color": "#F4F1E9",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        744,
+        141,
+        871,
+        263
+      ],
+      "text": "My seventeen-year-\nold heart is still\nhiding somewhere\nbetween a letter,\nribbon, and the\nmoon.",
+      "color": "#F4F1E9",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_constellation",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        79,
+        897,
+        435
+      ],
+      "description": "覆盖上方照片的白色星座装饰，由多枚实心星形和细线连接组成；整体作为一组固定图案保留。"
+    },
+    {
+      "id": "overlay_left_title",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        24,
+        243,
+        461
+      ],
+      "description": "左上至左侧的白色竖向手写英文装饰字样“The night before adulthood”，字形为高对比斜体书写风格，整体作为艺术字保留。"
+    },
+    {
+      "id": "overlay_right_title",
+      "kind": "overlay",
+      "bbox": [
+        961,
+        165,
+        1010,
+        408
+      ],
+      "description": "右上照片边缘外侧的白色竖向衬线装饰字样“handwritten script”，沿竖向排列，作为固定艺术字保留。"
+    },
+    {
+      "id": "overlay_hanging_stars",
+      "kind": "overlay",
+      "bbox": [
+        276,
+        0,
+        1080,
+        155
+      ],
+      "description": "画布顶部悬挂的多枚金属质感星星及细线，包含被顶部边缘截断的星形，整体为一组悬挂装饰。"
+    },
+    {
+      "id": "overlay_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        981,
+        412,
+        1066,
+        538
+      ],
+      "description": "右侧照片边缘附近的白色系带蝴蝶结与长飘带，作为一个独立固定装饰保留。"
+    },
+    {
+      "id": "photo_middle_back",
+      "kind": "photo",
+      "bbox": [
+        56,
+        495,
+        890,
+        965
+      ],
+      "description": "中部横向矩形照片，蓝灰天空、开花树枝及远处树林构成连续的户外画面；保留完整摄影环境，部分被中央照片及标签遮挡。"
+    },
+    {
+      "id": "photo_middle_window",
+      "kind": "photo",
+      "bbox": [
+        223,
+        533,
+        683,
+        934
+      ],
+      "description": "中部偏左的矩形室内照片，窗边垂落的浅色窗帘、玻璃与室内暗部构成完整摄影画面；白色细线沿矩形窗口边缘，照片环境保留。"
+    },
+    {
+      "id": "frame_middle_back",
+      "kind": "frame",
+      "bbox": [
+        56,
+        495,
+        890,
+        965
+      ],
+      "description": "承托中部户外照片的浅色矩形纸面边框，带细白边及轻微阴影；边框完整可见处围绕照片，局部被上层物件遮挡。",
+      "photo_id": [
+        "photo_middle_back"
+      ]
+    },
+    {
+      "id": "overlay_star_clip",
+      "kind": "overlay",
+      "bbox": [
+        324,
+        415,
+        487,
+        589
+      ],
+      "description": "跨在中部照片上缘的银色金属线星形回形针，线条形成完整空心星形轮廓，作为独立夹饰保留。"
+    },
+    {
+      "id": "overlay_dear_label",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        567,
+        304,
+        600
+      ],
+      "description": "压在中部照片左上区域的白色小纸标签，印有深蓝色衬线字“Dear seventeen”，保留纸片与印字为同一设计单元。"
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        249,
+        628,
+        482,
+        797
+      ],
+      "text": "I keep remembering that winter\nnot because it was perfect, but\nbecause it was almost gone.\n\nSome memories do not disappear,\nthey only become quieter, waiting\ninside the folds of old paper.",
+      "color": "#F2F0E9",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        428,
+        753,
+        506,
+        830
+      ],
+      "description": "中部室内照片上的蓝灰色五角星贴纸，边缘略不规则并有柔和阴影，作为独立贴纸保留。"
+    },
+    {
+      "id": "overlay_flower_square",
+      "kind": "overlay",
+      "bbox": [
+        632,
+        663,
+        799,
+        824
+      ],
+      "description": "中部偏右的白色细线方框及其中一朵白色五瓣花图像，花心与花瓣细节清晰；方框和花朵共同构成独立装饰单元。"
+    },
+    {
+      "id": "overlay_words_label",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        805,
+        198,
+        890
+      ],
+      "description": "中部左下的透明浅色小标签，白色细线方框内分三行印有“All my / unsent / words”，整体保留为带字标签。"
+    },
+    {
+      "id": "overlay_softly_label",
+      "kind": "overlay",
+      "bbox": [
+        516,
+        855,
+        793,
+        910
+      ],
+      "description": "压在中部照片下缘的白色横向纸条，印有蓝色手写斜体字“the last bell rings softly”，纸条、字样及轻微阴影作为一个单元保留。"
+    },
+    {
+      "id": "overlay_lace_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        590,
+        58,
+        726
+      ],
+      "description": "沿画布左侧横向穿过的白色蕾丝花边带，含重复的镂空花纹和波浪边缘，部分超出画布边缘。"
+    },
+    {
+      "id": "overlay_lace_right",
+      "kind": "overlay",
+      "bbox": [
+        888,
+        590,
+        1080,
+        726
+      ],
+      "description": "沿画布右侧横向穿过的白色蕾丝花边带，重复镂空花纹与左侧相接续，右端被画布边缘截断。"
+    },
+    {
+      "id": "overlay_vertical_lace",
+      "kind": "overlay",
+      "bbox": [
+        1045,
+        829,
+        1080,
+        1452
+      ],
+      "description": "贴近画布最右边缘的纵向白色镂空蕾丝装饰，沿右侧延伸并在画布上下边缘被截断。"
+    },
+    {
+      "id": "overlay_vertical_label",
+      "kind": "overlay",
+      "bbox": [
+        962,
+        720,
+        1021,
+        966
+      ],
+      "description": "右侧竖向白色纸标签，深蓝色衬线字“@Pixel meow”沿纵向排布；纸边和字样为同一固定标签。"
+    },
+    {
+      "id": "overlay_star_pattern_panel",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        965,
+        442,
+        1371
+      ],
+      "description": "左下至中下的浅蓝半透明矩形纸面，满布小型蓝灰五角星及少量白色花形图案，作为一块完整印花纸片保留。"
+    },
+    {
+      "id": "overlay_flower_doodles",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        963,
+        328,
+        1297
+      ],
+      "description": "左侧与中左散布的白色线描花朵装饰，包含大小不同的空心五瓣花与小型花形点缀，作为一组手绘装饰保留。"
+    },
+    {
+      "id": "overlay_binder_rings",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1138,
+        94,
+        1436
+      ],
+      "description": "画布左边缘露出的四枚横向金属活页环，带深色内侧与高光，环体被画布左边缘截断，整体作为装订结构保留。"
+    },
+    {
+      "id": "overlay_bottom_star",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        1312,
+        246,
+        1406
+      ],
+      "description": "左下方较大的银色立体五角星贴纸，带金属描边和投影，完整作为独立装饰保留。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        303,
+        1010,
+        1026,
+        1417
+      ],
+      "description": "下方横向矩形户外照片，蓝灰树林、浅色开花树枝及天空构成连续摄影画面；照片保留环境，中央信封造型覆盖其主要区域。"
+    },
+    {
+      "id": "frame_envelope",
+      "kind": "frame",
+      "bbox": [
+        362,
+        1010,
+        971,
+        1417
+      ],
+      "description": "覆盖下方照片的浅蓝灰色信封式纸卡，具有折叠三角形封口、白色内页、纸张纹理及下方封蜡；作为承载中央花朵图像和标题的完整固定载体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "overlay_part_title",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        1109,
+        848,
+        1206
+      ],
+      "description": "下方白色信封内页上的蓝灰色大型书法艺术字“Part 01”，带优雅连笔与装饰性笔画，保留为完整艺术字设计。"
+    },
+    {
+      "id": "overlay_subtitle",
+      "kind": "overlay",
+      "bbox": [
+        498,
+        1241,
+        839,
+        1283
+      ],
+      "description": "下方信封内页上的蓝灰色衬线字样“Youth in low resolution”，与信封和花朵共同构成版面，作为印刷文字保留在信封设计中。"
+    },
+    {
+      "id": "overlay_large_flower",
+      "kind": "overlay",
+      "bbox": [
+        476,
+        1033,
+        887,
+        1323
+      ],
+      "description": "信封中央覆盖的大型白色五瓣花图像，花瓣跨越白色内页与蓝灰纸面区域，保留花瓣纹理及花心细节。"
+    },
+    {
+      "id": "overlay_wax_seal",
+      "kind": "overlay",
+      "bbox": [
+        607,
+        1275,
+        732,
+        1403
+      ],
+      "description": "信封下部的圆形古铜色封蜡，中心压印兔形图案并带立体边缘，高光与阴影均属于该独立装饰。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        1324,
+        851,
+        1370
+      ],
+      "description": "封蜡右侧贴在信封上的浅灰色半透明短胶带，边缘不规则并略倾斜，作为独立纸胶带装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_clip",
+      "kind": "overlay",
+      "bbox": [
+        858,
+        1043,
+        959,
+        1128
+      ],
+      "description": "下方信封右上区域的银色金属线星形夹饰，空心轮廓带高光并跨压信封边缘，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_small_hearts",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        1164,
+        414,
+        1194
+      ],
+      "description": "下方信封左侧附近的浅蓝色小心形贴纸，轮廓简洁，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle_back",
+    "frame_middle_back",
+    "photo_middle_window",
+    "text_top_left",
+    "text_top_center",
+    "text_top_right",
+    "overlay_constellation",
+    "overlay_left_title",
+    "overlay_right_title",
+    "overlay_hanging_stars",
+    "overlay_ribbon",
+    "overlay_lace_left",
+    "overlay_lace_right",
+    "overlay_vertical_lace",
+    "overlay_vertical_label",
+    "overlay_star_pattern_panel",
+    "overlay_flower_doodles",
+    "overlay_binder_rings",
+    "overlay_star_clip",
+    "overlay_dear_label",
+    "text_middle",
+    "overlay_blue_star",
+    "overlay_flower_square",
+    "overlay_words_label",
+    "overlay_softly_label",
+    "photo_bottom",
+    "frame_envelope",
+    "overlay_large_flower",
+    "overlay_part_title",
+    "overlay_subtitle",
+    "overlay_small_hearts",
+    "overlay_wax_seal",
+    "overlay_tape",
+    "overlay_bottom_clip",
+    "overlay_bottom_star"
+  ]
+}

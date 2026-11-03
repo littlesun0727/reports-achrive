@@ -1,0 +1,169 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        188,
+        0,
+        1080,
+        718
+      ],
+      "description": "上方大幅家具场景照片，无人物。粉紫色软包椅以正面略侧视角完整展示，椅背、坐垫及四根木色椅腿位于中左部；右侧可见被画布裁切的黑色椅子、木面桌和杯碟。浅灰墙面、踢脚线及花纹地毯均属于照片，保留摄影环境。照片延伸至画布上缘和右缘，左下显示边界呈圆角，不沿椅子轮廓去背景。",
+      "label": "上方大幅家具场景照片，无人物。粉紫色软包椅以正面略侧视角完整",
+      "method": "local"
+    },
+    {
+      "id": "overlay_vertical_title",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        13,
+        107,
+        688
+      ],
+      "description": "左侧竖向粉灰色圆角长标签，左缘被画布裁切，右上和右下为圆角。白色粗体字“Elegant and Stylish Design”整体转向竖向阅读，与色块共同构成固定设计单元，保留字形、方向及完整标签。",
+      "label": "左侧竖向粉灰色圆角长标签，左缘被画布裁切，右上和右下为圆角。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_detail_back",
+      "kind": "photo",
+      "bbox": [
+        27,
+        773,
+        360,
+        1015
+      ],
+      "description": "左下独立细节照片，无人物，近距离展示粉紫色软包椅背的弧形顶部、包边和织物表面，椅背在左侧及下侧被窗口裁切，后方浅灰墙面仍可见。完整显示区域为横向圆角矩形，与上方场景照片取景不连续，不沿椅背去背景。",
+      "label": "左下独立细节照片，无人物，近距离展示粉紫色软包椅背的弧形顶部",
+      "method": "local"
+    },
+    {
+      "id": "photo_detail_seat",
+      "kind": "photo",
+      "bbox": [
+        374,
+        773,
+        707,
+        1015
+      ],
+      "description": "中下独立细节照片，无人物，以侧前方近景展示粉紫色坐垫、部分椅背以及坐垫下的木色支架和椅腿，主体在上、右及下缘被窗口裁切。保留浅灰摄影背景，显示区域为横向圆角矩形，不沿主体轮廓去背景。",
+      "label": "中下独立细节照片，无人物，以侧前方近景展示粉紫色坐垫、部分椅",
+      "method": "local"
+    },
+    {
+      "id": "photo_detail_legs",
+      "kind": "photo",
+      "bbox": [
+        721,
+        773,
+        1054,
+        1015
+      ],
+      "description": "右下独立细节照片，无人物，近景展示坐垫下沿、木色连接结构和数根椅腿，中央椅腿突出，右侧斜腿及下部被窗口裁切。保留浅灰摄影背景，完整显示区域为横向圆角矩形，不沿椅腿轮廓去背景。",
+      "label": "右下独立细节照片，无人物，近景展示坐垫下沿、木色连接结构和数",
+      "method": "local"
+    },
+    {
+      "id": "text_detail_back",
+      "kind": "text",
+      "bbox": [
+        56,
+        1028,
+        324,
+        1055
+      ],
+      "description": "Comfortable Armrest",
+      "label": "Comfortable Armrest",
+      "method": "local",
+      "text": "Comfortable Armrest",
+      "text_status": "known",
+      "style": {
+        "fill": "#B58C99",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_detail_seat",
+      "kind": "text",
+      "bbox": [
+        410,
+        1028,
+        661,
+        1055
+      ],
+      "description": "Strong Metal Frame",
+      "label": "Strong Metal Frame",
+      "method": "local",
+      "text": "Strong Metal Frame",
+      "text_status": "known",
+      "style": {
+        "fill": "#B58C99",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_detail_legs",
+      "kind": "text",
+      "bbox": [
+        737,
+        1028,
+        1032,
+        1055
+      ],
+      "description": "Rose Golden Metal Legs",
+      "label": "Rose Golden Metal Legs",
+      "method": "local",
+      "text": "Rose Golden Metal Legs",
+      "text_status": "known",
+      "style": {
+        "fill": "#B58C99",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_main",
+    "photo_detail_back",
+    "photo_detail_seat",
+    "photo_detail_legs",
+    "overlay_vertical_title",
+    "text_detail_back",
+    "text_detail_seat",
+    "text_detail_legs"
+  ]
+}

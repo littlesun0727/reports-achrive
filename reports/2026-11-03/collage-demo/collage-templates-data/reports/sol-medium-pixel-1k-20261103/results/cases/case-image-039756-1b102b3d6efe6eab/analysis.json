@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1007,
+    1343
+  ],
+  "objects": [
+    {
+      "id": "collage_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1007,
+        1343
+      ],
+      "description": "全画布固定拼贴底图，包含深色斜向道路及白色线条、上方键盘与纸张、两侧和底部的报纸与杂志碎片；不同印刷内容在边缘和间隙连续露出，作为整体固定底层保留，不并入前景人物照片。",
+      "background_type": "reference_clean",
+      "label": "全画布固定拼贴底图，包含深色斜向道路及白色线条、上方键盘与纸",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left_woman",
+      "kind": "photo",
+      "bbox": [
+        0,
+        348,
+        742,
+        1211
+      ],
+      "description": "左侧大型人物剪贴照片：一名戴银色耳机、穿浅色连帽衫的年轻女性正面近景，双手托脸，前方举着展开的报纸；保留人物、报纸及其组合的完整轮廓，摄影背景不见，外沿有宽浅米色手撕纸状描边。",
+      "label": "左侧大型人物剪贴照片：一名戴银色耳机、穿浅色连帽衫的年轻女性",
+      "method": "local"
+    },
+    {
+      "id": "photo_butterfly",
+      "kind": "photo",
+      "bbox": [
+        487,
+        359,
+        801,
+        554
+      ],
+      "description": "画面中央偏上的黑白蝴蝶剪贴图，双翅展开，沿主体外形保留浅色纸状边缘；背景不见，位于右侧人物后方。",
+      "label": "画面中央偏上的黑白蝴蝶剪贴图，双翅展开，沿主体外形保留浅色纸",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_woman",
+      "kind": "photo",
+      "bbox": [
+        576,
+        332,
+        1007,
+        1311
+      ],
+      "description": "右侧全身人物剪贴照片：一名长发女性穿宽松浅色连帽衫、黑色下装、白袜和棕色短靴，正面站立，双手插在衣袋中；背景不见，完整人物外沿带浅米色纸状描边，并遮住蝴蝶一部分及后方拼贴。",
+      "label": "右侧全身人物剪贴照片：一名长发女性穿宽松浅色连帽衫、黑色下装",
+      "method": "local"
+    },
+    {
+      "id": "overlay_headline",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        35,
+        1007,
+        345
+      ],
+      "description": "横跨画面上方的浅米色颗粒纹理不规则纸牌，带棕色描边和投影；牌面为大号粉色与黑色中文艺术字“618 嗨购上场”，文字造型及牌体作为一个完整设计单元保留。",
+      "label": "横跨画面上方的浅米色颗粒纹理不规则纸牌，带棕色描边和投影；牌",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_quote_strip",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        1048,
+        746,
+        1217
+      ],
+      "description": "从左下斜向右上的浅木纹长条，印有黑色英文“YOU'RE THE BEST”；整体覆盖在下方人物拼贴和报纸前方，保留木纹、边缘及印字。",
+      "label": "从左下斜向右上的浅木纹长条，印有黑色英文“YOU'RE TH",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_time_label",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        1162,
+        455,
+        1319
+      ],
+      "description": "左下角粉色阶梯状双层标签，白色无衬线字“TIME”和白色斜体数字“6.18 11:00”；文字、色块和整体排版作为一个固定设计单元保留。",
+      "label": "左下角粉色阶梯状双层标签，白色无衬线字“TIME”和白色斜体",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "collage_base",
+    "photo_left_woman",
+    "photo_butterfly",
+    "photo_right_woman",
+    "overlay_quote_strip",
+    "overlay_headline",
+    "overlay_time_label"
+  ]
+}

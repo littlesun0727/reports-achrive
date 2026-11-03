@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "striped_pink_background",
+    "description": "覆盖整张画布的粉色与米白色竖向条纹纸张底图，带有明显的纸张纹理和不规则色差；边缘四周及中央纸张外露区域保持连续，独立照片、文字和贴纸均位于其上方。"
+  },
+  "objects": [
+    {
+      "id": "paper_panel",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        378,
+        916,
+        1587
+      ],
+      "description": "中央偏米白色的矩形粗糙纸张面板，带有细密纸纹和轻微阴影，作为文字与人物贴纸的承托底板；四角和边缘完整保留，底部被装饰贴纸部分遮挡。"
+    },
+    {
+      "id": "star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        344,
+        261,
+        496
+      ],
+      "description": "位于中央纸张左上方的金色五角星贴纸，带有手工质感、深色边缘和轻微阴影，部分压住纸张左上边缘。"
+    },
+    {
+      "id": "paperclip",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        379,
+        859,
+        647
+      ],
+      "description": "中央纸张右上区域的黑色金属回形针，细长弯曲轮廓清晰，固定装饰形式独立保留并压在纸张表面。"
+    },
+    {
+      "id": "star_right",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        682,
+        1008,
+        814
+      ],
+      "description": "位于纸张右侧边缘附近的金色五角星贴纸，带有不规则手绘轮廓、纹理和阴影，部分跨出纸张区域。"
+    },
+    {
+      "id": "star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        1294,
+        219,
+        1435
+      ],
+      "description": "中央纸张左下侧的金色五角星贴纸，保留其手工压印纹理、深色轮廓和投影。"
+    },
+    {
+      "id": "star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        809,
+        1515,
+        950,
+        1642
+      ],
+      "description": "纸张右下方的金色五角星贴纸，位于纸张边缘与条纹背景交界处，完整保留其纹理、轮廓和阴影。"
+    },
+    {
+      "id": "quote_text",
+      "kind": "text",
+      "bbox": [
+        273,
+        679,
+        875,
+        1474
+      ],
+      "text": "I don't have a\nfavorite place,\nI have my\nfavorite People\nand whenever\nI'm with my\nfavorite people,\nthat place becomes\nmy favorite.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        101,
+        541,
+        579,
+        1045
+      ],
+      "description": "女孩头像贴纸，人物戴白色太阳镜并留有双辫，面向镜头做眨眼和张嘴表情；摄影背景被去除，仅保留完整头部、头发、眼镜及辫子组合，外沿带不规则撕纸形白色边框和浅灰阴影。该贴纸位于文字上方，遮挡文字左侧部分内容。"
+    },
+    {
+      "id": "photo_boy",
+      "kind": "photo",
+      "bbox": [
+        590,
+        982,
+        987,
+        1470
+      ],
+      "description": "男孩近景头像贴纸，人物戴黑色太阳镜并面向镜头，表情平静，保留头发、耳饰、脸部和眼镜的完整组合；摄影背景被去除，外沿带不规则撕纸形白色边框和浅灰阴影。该贴纸位于文字上方，遮挡文字右下区域。"
+    },
+    {
+      "id": "character_sticker",
+      "kind": "overlay",
+      "bbox": [
+        247,
+        1490,
+        557,
+        1681
+      ],
+      "description": "底部横向卡通角色贴纸，由戴粉色帽子的企鹅、穿绿色衣服的棕色小熊和一只白色小动物组成，三者被统一的不规则白色贴纸边缘包围并带有阴影；贴在中央纸张下边缘附近并覆盖其底部。"
+    }
+  ],
+  "layer_order": [
+    "paper_panel",
+    "quote_text",
+    "star_top_left",
+    "star_right",
+    "star_lower_left",
+    "star_lower_right",
+    "paperclip",
+    "photo_girl",
+    "photo_boy",
+    "character_sticker"
+  ]
+}

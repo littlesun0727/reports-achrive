@@ -1,0 +1,184 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        538,
+        536
+      ],
+      "description": "左上独立汽车内饰照片，展示安装在车内的手机导航面板、出风口和棕色内饰，手机朝向画面右上方；完整照片窗口延伸至左上画布边缘，右缘和下缘由白色分隔线及中心圆形设计遮挡。",
+      "label": "左上独立汽车内饰照片，展示安装在车内的手机导航面板、出风口和",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        544,
+        0,
+        1080,
+        536
+      ],
+      "description": "右上独立汽车内饰照片，展示挡风玻璃附近的黑色支架和数字显示装置，棕色仪表台与明亮车外环境作为摄影背景保留；完整照片窗口延伸至右上画布边缘，左缘和下缘由白色分隔线及中心设计遮挡。",
+      "label": "右上独立汽车内饰照片，展示挡风玻璃附近的黑色支架和数字显示装",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        544,
+        536,
+        1080
+      ],
+      "description": "左下独立汽车内饰照片，展示安装在仪表台上的手机及支架，手机背面朝向画面，棕色座椅和车内环境可见；完整照片窗口延伸至左下画布边缘，上缘和右缘由白色分隔线及中心设计遮挡。",
+      "label": "左下独立汽车内饰照片，展示安装在仪表台上的手机及支架，手机背",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        544,
+        544,
+        1080,
+        1080
+      ],
+      "description": "右下独立汽车内饰照片，展示挡风玻璃前方的横向屏幕、支架和下方车辆仪表，车外道路与天空作为摄影环境保留；完整照片窗口延伸至右下画布边缘，上缘和左缘由白色分隔线及中心设计遮挡。",
+      "label": "右下独立汽车内饰照片，展示挡风玻璃前方的横向屏幕、支架和下方",
+      "method": "local"
+    },
+    {
+      "id": "overlay_vertical_divider",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        0,
+        544,
+        1080
+      ],
+      "description": "贯穿画布的窄白色竖向分隔带，将四张独立汽车照片分开；中心圆形设计覆盖其中部。",
+      "label": "贯穿画布的窄白色竖向分隔带，将四张独立汽车照片分开；中心圆形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_horizontal_divider",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        536,
+        1080,
+        544
+      ],
+      "description": "贯穿画布的窄白色横向分隔带，将四张独立汽车照片分开；中心圆形设计覆盖其中部。",
+      "label": "贯穿画布的窄白色横向分隔带，将四张独立汽车照片分开；中心圆形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_center_badge",
+      "kind": "overlay",
+      "bbox": [
+        359,
+        359,
+        720,
+        720
+      ],
+      "description": "位于四张照片交界处的白色圆形中心徽章，包含绿色的360度环形箭头图形以及黑色两行字样“ANY ANGLE”；作为带有固定图形和艺术排版的完整设计单元保留。",
+      "label": "位于四张照片交界处的白色圆形中心徽章，包含绿色的360度环形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_label",
+      "kind": "overlay",
+      "bbox": [
+        294,
+        312,
+        439,
+        477
+      ],
+      "description": "左上方倾斜的白色胶囊形标签，内含黑色竖向旋转字样“Panel”，跨在左上照片与中心徽章边缘附近，作为带字固定装饰保留。",
+      "label": "左上方倾斜的白色胶囊形标签，内含黑色竖向旋转字样“Panel",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_windshield_label",
+      "kind": "overlay",
+      "bbox": [
+        653,
+        312,
+        788,
+        488
+      ],
+      "description": "右上方倾斜的白色胶囊形标签，内含黑色旋转字样“Windshield”，叠放在右上照片与中心徽章边缘附近，作为带字固定装饰保留。",
+      "label": "右上方倾斜的白色胶囊形标签，内含黑色旋转字样“Windshi",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dashboard_label",
+      "kind": "overlay",
+      "bbox": [
+        304,
+        618,
+        459,
+        766
+      ],
+      "description": "左下方倾斜的白色胶囊形标签，内含黑色旋转字样“Dashboard”，叠放在左下照片与中心徽章边缘附近，作为带字固定装饰保留。",
+      "label": "左下方倾斜的白色胶囊形标签，内含黑色旋转字样“Dashboa",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_screen_label",
+      "kind": "overlay",
+      "bbox": [
+        607,
+        627,
+        766,
+        775
+      ],
+      "description": "右下方倾斜的白色胶囊形标签，内含黑色旋转字样“Screen”，叠放在右下照片与中心徽章边缘附近，作为带字固定装饰保留。",
+      "label": "右下方倾斜的白色胶囊形标签，内含黑色旋转字样“Screen”",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_vertical_divider",
+    "overlay_horizontal_divider",
+    "overlay_center_badge",
+    "overlay_panel_label",
+    "overlay_windshield_label",
+    "overlay_dashboard_label",
+    "overlay_screen_label"
+  ]
+}

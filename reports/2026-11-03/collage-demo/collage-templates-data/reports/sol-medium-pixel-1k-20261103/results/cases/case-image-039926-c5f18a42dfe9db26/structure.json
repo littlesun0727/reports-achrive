@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        542,
+        816
+      ],
+      "description": "左侧独立户外照片，男孩穿红褐色外套，俯身坐在金色折叠椅上，手中拿着物品；背景保留树木、草地和蓝色设施等摄影环境，照片完整显示至画布上缘、左缘和下缘，右缘与另一张照片形成清晰接缝。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        542,
+        0,
+        1080,
+        816
+      ],
+      "description": "右侧独立户外照片，男孩穿红褐色外套，坐在折叠椅上并面向镜头，手中拿着物品；背景保留树木、草地和蓝色设施等摄影环境，照片完整显示至画布上缘、右缘和下缘，左缘与左侧照片存在独立裁切接缝。"
+    },
+    {
+      "id": "text_article_upper",
+      "kind": "text",
+      "bbox": [
+        435,
+        883,
+        918,
+        1084
+      ],
+      "text": null,
+      "color": "#333333",
+      "font": "cjk",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_article_title",
+      "kind": "text",
+      "bbox": [
+        920,
+        882,
+        952,
+        1052
+      ],
+      "text": null,
+      "color": "#222222",
+      "font": "cjk",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_article_lower",
+      "kind": "text",
+      "bbox": [
+        435,
+        1100,
+        950,
+        1289
+      ],
+      "text": null,
+      "color": "#333333",
+      "font": "cjk",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_product_list",
+      "kind": "text",
+      "bbox": [
+        91,
+        1134,
+        207,
+        1288
+      ],
+      "text": null,
+      "color": "#444444",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_page_mark",
+      "kind": "text",
+      "bbox": [
+        989,
+        1345,
+        1037,
+        1362
+      ],
+      "text": "mina 20",
+      "color": "#222222",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "text_article_upper",
+    "text_article_title",
+    "text_article_lower",
+    "text_product_list",
+    "text_page_mark"
+  ]
+}

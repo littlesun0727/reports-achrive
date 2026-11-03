@@ -1,0 +1,170 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        58,
+        41,
+        553,
+        372
+      ],
+      "description": "横向海边树枝照片，画面中一男一女分别坐在树枝上，人物位于中央偏右，保留海面、树木和天空等完整摄影环境；左下角的红色字样属于照片内容。",
+      "label": "横向海边树枝照片，画面中一男一女分别坐在树枝上，人物位于中央",
+      "method": "local"
+    },
+    {
+      "id": "overlay_panel_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        393,
+        379,
+        715
+      ],
+      "description": "左上方竖向米白色纸面面板，印有深蓝灰色树枝与叶片纹理，保留完整矩形边界和纸张质感。",
+      "label": "左上方竖向米白色纸面面板，印有深蓝灰色树枝与叶片纹理，保留完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        398,
+        393,
+        1023,
+        715
+      ],
+      "description": "上方横向米白色纸面面板，印有深蓝灰色树枝、叶片和水面纹理；人物前景覆盖其中部和右侧，面板本身作为固定设计保留。",
+      "label": "上方横向米白色纸面面板，印有深蓝灰色树枝、叶片和水面纹理；人",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        734,
+        379,
+        1053
+      ],
+      "description": "中左竖向米白色纸面面板，主要印有大面积深蓝灰色水面纹理，保留完整纸面和不规则印刷边缘。",
+      "label": "中左竖向米白色纸面面板，主要印有大面积深蓝灰色水面纹理，保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_middle_center",
+      "kind": "overlay",
+      "bbox": [
+        398,
+        734,
+        679,
+        1053
+      ],
+      "description": "中间竖向米白色纸面面板，印有稀疏水面纹理，人物男性的腿部和鞋子跨在其上方，固定面板保留原有纸张与印刷效果。",
+      "label": "中间竖向米白色纸面面板，印有稀疏水面纹理，人物男性的腿部和鞋",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        697,
+        734,
+        1023,
+        1053
+      ],
+      "description": "中右竖向米白色纸面面板，印有深蓝灰色树枝、叶片与局部水面纹理，女性人物覆盖其上方区域。",
+      "label": "中右竖向米白色纸面面板，印有深蓝灰色树枝、叶片与局部水面纹理",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        1073,
+        379,
+        1380
+      ],
+      "description": "左下竖向米白色纸面面板，顶部和左侧带有连续的深蓝灰色水面纹理，下方留有大面积纸面。",
+      "label": "左下竖向米白色纸面面板，顶部和左侧带有连续的深蓝灰色水面纹理",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_lower_center",
+      "kind": "overlay",
+      "bbox": [
+        398,
+        1073,
+        679,
+        1380
+      ],
+      "description": "下中竖向米白色纸面面板，印有从左下向右上延伸的深蓝灰色树枝或水岸纹理，保留完整矩形纸面。",
+      "label": "下中竖向米白色纸面面板，印有从左下向右上延伸的深蓝灰色树枝或",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_panel_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        697,
+        1073,
+        1023,
+        1380
+      ],
+      "description": "右下竖向米白色纸面面板，印有稀疏深蓝灰色树枝和叶片纹理，保留完整纸张范围及印刷质感。",
+      "label": "右下竖向米白色纸面面板，印有稀疏深蓝灰色树枝和叶片纹理，保留",
+      "method": "extract"
+    },
+    {
+      "id": "photo_foreground_couple",
+      "kind": "photo",
+      "bbox": [
+        574,
+        302,
+        1019,
+        982
+      ],
+      "description": "同一张去除摄影背景的双人主体照片：男性位于左侧，穿红色上衣和白色长裤，屈腿坐姿并面向右侧；女性位于右侧，穿浅色短袖上衣、花纹长裙和黑色长靴，坐姿面向略向左下。两人完整身体、头发、手臂、鞋子与靴子均包含在范围内，主体跨越并遮挡后方多个固定纸面面板。",
+      "label": "同一张去除摄影背景的双人主体照片：男性位于左侧，穿红色上衣和",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_panel_upper_left",
+    "overlay_panel_upper_right",
+    "overlay_panel_middle_left",
+    "overlay_panel_middle_center",
+    "overlay_panel_middle_right",
+    "overlay_panel_lower_left",
+    "overlay_panel_lower_center",
+    "overlay_panel_lower_right",
+    "photo_top_left",
+    "photo_foreground_couple"
+  ]
+}

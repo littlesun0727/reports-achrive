@@ -1,0 +1,89 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        527,
+        563
+      ],
+      "description": "左上独立矩形照片，年轻女性戴草帽、穿浅色条纹服装站在邮箱旁并拉开邮箱抽屉，保留邮箱、建筑入口和地面等完整摄影环境；照片下缘与右缘在白色间隙处结束。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        530,
+        0,
+        1080,
+        563
+      ],
+      "description": "右上独立矩形照片，年轻女性戴草帽和圆框眼镜，手持彩色团扇站在户外草地与建筑前，保留树木、晾晒物、建筑和地面等摄影环境；左缘与下缘在白色间隙处结束。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        840,
+        527,
+        1403
+      ],
+      "description": "左下独立竖向照片，年轻女性戴宽檐草帽坐在户外台阶上，手持黑色物件，身旁有白色衣物和绿色植物，保留深色门廊、栅栏、台阶和地面等摄影环境；上缘与右缘在白色间隙处结束。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        530,
+        840,
+        1080,
+        1403
+      ],
+      "description": "右下独立竖向近景照片，年轻女性戴草帽呈侧面朝左，双手触碰帽檐，保留帽子、头发、树木和蓝天等完整摄影环境；上缘与左缘在白色间隙处结束。"
+    },
+    {
+      "id": "overlay_title_graphic",
+      "kind": "overlay",
+      "bbox": [
+        435,
+        514,
+        817,
+        758
+      ],
+      "description": "中央白色版面上的固定标题图形，包含大号蓝灰色“04”、细线、PERFECT TRAVEL、“-point-”、手写风格“About fantasy”及其下方弧形装饰线；特殊字形、描边和整体排版作为一个独立设计单元保留。"
+    },
+    {
+      "id": "text_japanese_caption",
+      "kind": "text",
+      "bbox": [
+        305,
+        767,
+        777,
+        807
+      ],
+      "text": "私が眠って夢見ている時、世界は目が覚めています。\n私は会議を探しています。教えてください私はちょうどあなたに秘密を伝えた",
+      "color": "#666666",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_title_graphic",
+    "text_japanese_caption"
+  ]
+}

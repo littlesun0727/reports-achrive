@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "白色画布上有一块从顶部延伸至右侧的深红色大弧形与竖向区域，构成连续的固定底层设计；照片、目录文字和装饰覆盖其上，保留白底及红色形状。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        224,
+        312
+      ],
+      "description": "左上方倾斜的复古时尚杂志剪页，包含印刷文字、插图和数位女性时尚影像，作为一整块带有摄影与印刷内容的剪贴画面替换；边缘被画布裁切。"
+    },
+    {
+      "id": "photo_model_center_left",
+      "kind": "photo",
+      "bbox": [
+        375,
+        0,
+        495,
+        238
+      ],
+      "description": "上方中央偏左的女性时装照片，人物近全身，穿黑白华丽短裙并戴大型头饰，身体朝向画面前方；周围留有少量原图碎片，背景未见完整场景。"
+    },
+    {
+      "id": "photo_model_center_right",
+      "kind": "photo",
+      "bbox": [
+        467,
+        0,
+        584,
+        238
+      ],
+      "description": "上方中央偏右的女性全身时装照片，穿黑色薄纱服装，站姿面向前方；与左侧模特照片相互覆盖，周围带少量原图碎片，摄影环境不可见。"
+    },
+    {
+      "id": "photo_hat_woman",
+      "kind": "photo",
+      "bbox": [
+        543,
+        172,
+        748,
+        489
+      ],
+      "description": "右上区域一位戴宽檐帽的女性时装照片，近全身站姿，穿黑色上衣和浅色裙装，双手叉腰；人物边缘可见剪切轮廓，摄影背景不可见，部分被旁边人物及下方肖像遮挡。"
+    },
+    {
+      "id": "photo_blonde_woman",
+      "kind": "photo",
+      "bbox": [
+        690,
+        94,
+        869,
+        486
+      ],
+      "description": "画面右侧一位浅色卷发女性的时装照片，近全身站姿，穿黑色外套与闪亮长裙；主体沿轮廓显示，摄影背景不可见，右缘被画布裁切，下部被大型肖像遮挡。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        575,
+        422,
+        869,
+        822
+      ],
+      "description": "右侧大型黑白女性肖像，头肩近景，人物头部略向画面左侧并抬眼看向左上；矩形摄影内容保留，右缘延伸至画布边缘，覆盖目录文字及上方人物照片的下部。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        817,
+        208,
+        1227
+      ],
+      "description": "左下方倾斜的复古印刷剪贴画面，包含一位年轻男性黑白照片及多块杂志或印刷图像，整体作为一块摄影与印刷内容组合替换；部分越出左侧和下侧画布边缘。"
+    },
+    {
+      "id": "text_contents",
+      "kind": "text",
+      "bbox": [
+        153,
+        489,
+        683,
+        994
+      ],
+      "text": "001 \\\\ A brief introduction to the designer\n002 \\\\ Designer's philosophy\n003 \\\\ The influence and contribution of\ndesigners in the fashion industry\n004 \\\\ Brand introduction\n005 \\\\ The evolution of the brand\n006 \\\\ The logo of the brand\n007 \\\\ A classic design of the brand\n008 \\\\ The significance of the brand's design, etc\n009 \\\\ What celebrities in the fashion\nindustry say about the designer and the brand\n0010 \\\\ The future development of the brand\n0011 \\\\ Classic design appreciation",
+      "color": "#111111",
+      "font": "mono",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_red_rule",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        496,
+        148,
+        988
+      ],
+      "description": "目录左侧的一条窄深红色竖条，独立固定图形，沿目录文字左边延伸。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        478,
+        656,
+        869,
+        823
+      ],
+      "description": "斜置的浅灰白手写艺术字“Punk Godmother”，带深色阴影，跨在大型黑白肖像下部并延伸至画面右侧边缘；作为整体字形装饰保留。"
+    },
+    {
+      "id": "overlay_red_pill",
+      "kind": "overlay",
+      "bbox": [
+        139,
+        1065,
+        727,
+        1140
+      ],
+      "description": "画面下方的深红色长圆角横条，独立固定装饰，右端为圆弧形。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_model_center_left",
+    "photo_model_center_right",
+    "photo_hat_woman",
+    "photo_blonde_woman",
+    "photo_bottom_left",
+    "overlay_red_rule",
+    "text_contents",
+    "photo_portrait",
+    "overlay_title",
+    "overlay_red_pill"
+  ]
+}

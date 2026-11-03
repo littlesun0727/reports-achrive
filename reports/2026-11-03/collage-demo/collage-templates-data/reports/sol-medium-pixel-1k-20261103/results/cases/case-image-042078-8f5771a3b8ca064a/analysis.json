@@ -1,0 +1,156 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1882
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1882
+      ],
+      "description": "连续的浅粉色粗糙纸张纹理铺满1080×1882画布，四周和各独立拼贴素材之间露出一致纸纹；照片、纸卡、丝带、报纸和乐谱均为独立对象，背景纹理保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的浅粉色粗糙纸张纹理铺满1080×1882画布，四周和各",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "newspaper_clipping",
+      "kind": "overlay",
+      "bbox": [
+        751,
+        0,
+        1080,
+        917
+      ],
+      "description": "右上角竖向旧报纸剪报，包含浅褐色印刷文字、蝴蝶线稿和纸张边缘，右侧延伸至画布边界；作为固定纸质装饰保留。",
+      "label": "右上角竖向旧报纸剪报，包含浅褐色印刷文字、蝴蝶线稿和纸张边缘",
+      "method": "extract"
+    },
+    {
+      "id": "quote_card",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        169,
+        675,
+        415
+      ],
+      "description": "左上方浅灰白色圆角纸卡，带蓝色手写英文句子和轻微纸张阴影；整张卡片及其手写内容作为固定设计单元保留。",
+      "label": "左上方浅灰白色圆角纸卡，带蓝色手写英文句子和轻微纸张阴影；整",
+      "method": "extract"
+    },
+    {
+      "id": "ribbon_back",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        403,
+        625,
+        1219
+      ],
+      "description": "从左侧进入并向上方中央展开的米色复古花纹缎带后段，包含褶皱、卷曲和印花细节；部分被中央白色照片卡及主体遮挡，保留完整可见范围。",
+      "label": "从左侧进入并向上方中央展开的米色复古花纹缎带后段，包含褶皱、",
+      "method": "extract"
+    },
+    {
+      "id": "music_sheet",
+      "kind": "overlay",
+      "bbox": [
+        582,
+        1345,
+        1080,
+        1711
+      ],
+      "description": "右下方倾斜放置的浅褐色乐谱纸，带多行五线谱、音符和纸张阴影，右侧与下侧延伸至画布边界；作为固定纸片保留。",
+      "label": "右下方倾斜放置的浅褐色乐谱纸，带多行五线谱、音符和纸张阴影，",
+      "method": "extract"
+    },
+    {
+      "id": "stamp_postcard",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        1368,
+        686,
+        1882
+      ],
+      "description": "左下方倾斜的齿孔边缘邮票或明信片纸片，带棕色边框、黑色渐变圆点图案和右下角可辨文字“warm idle”；下缘被画布裁切，整体作为固定装饰保留。",
+      "label": "左下方倾斜的齿孔边缘邮票或明信片纸片，带棕色边框、黑色渐变圆",
+      "method": "extract"
+    },
+    {
+      "id": "polaroid_frame",
+      "kind": "frame",
+      "bbox": [
+        182,
+        626,
+        945,
+        1381
+      ],
+      "description": "中央竖向白色拍立得式照片卡，包含撕裂纸边、内侧浅色承托区域、底部阴影和黑色中文手写字样“谢谢你 我阴暗世界里的小太阳”；承载中央猫咪主体，完整框体保留。",
+      "photo_id": [
+        "photo_cat"
+      ],
+      "label": "中央竖向白色拍立得式照片卡，包含撕裂纸边、内侧浅色承托区域、",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        366,
+        529,
+        824,
+        1218
+      ],
+      "description": "一只面向镜头、略微侧头的长毛双色猫咪半身主体，位于中央照片卡内，蓝色眼睛和粉色鼻子清晰可见；摄影背景已去除，仅保留完整猫咪轮廓，并沿主体外缘保留白色撕纸状描边和浅灰边缘效果。",
+      "label": "一只面向镜头、略微侧头的长毛双色猫咪半身主体，位于中央照片卡",
+      "method": "local"
+    },
+    {
+      "id": "emoji_note",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        557,
+        1048,
+        951
+      ],
+      "description": "覆盖在中央照片卡右上侧的浅灰蓝色倾斜便签，包含三个黑色手绘圆形表情符号及纸张阴影；作为独立贴纸固定保留。",
+      "label": "覆盖在中央照片卡右上侧的浅灰蓝色倾斜便签，包含三个黑色手绘圆",
+      "method": "extract"
+    },
+    {
+      "id": "ribbon_front",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        841,
+        333,
+        1413
+      ],
+      "description": "同一条米色花纹缎带在中央照片卡左侧和下方形成的前景卷曲段，包含折叠、卷边和阴影，覆盖照片卡左缘并在底部形成卷筒；因其跨越照片卡前后关系独立记录。",
+      "label": "同一条米色花纹缎带在中央照片卡左侧和下方形成的前景卷曲段，包",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "newspaper_clipping",
+    "ribbon_back",
+    "quote_card",
+    "music_sheet",
+    "stamp_postcard",
+    "polaroid_frame",
+    "photo_cat",
+    "emoji_note",
+    "ribbon_front"
+  ]
+}

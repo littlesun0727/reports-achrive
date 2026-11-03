@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        86,
+        31,
+        610,
+        711
+      ],
+      "description": "左上独立照片，一名长发双发髻女性穿白色与粉色服装，手持红色糖葫芦，面向镜头微笑并眨眼，呈半身近景。保留身后的石板地面，完整显示窗口为右边倾斜的四边形，窗口外沿有细黑线；右下部分被下方出框主体遮挡。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        422,
+        31,
+        995,
+        711
+      ],
+      "description": "右上独立照片，同一女性以不同姿态正面望向镜头，双手举着红色糖葫芦和透明包装的彩色糖果，呈半身景别。保留黑色栏杆、植物和砖墙环境。完整窗口为左边倾斜的四边形，外沿有细黑线；左下角被下方照片的出框主体遮挡，与左侧照片之间留有白色斜向间隔。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        86,
+        735,
+        995,
+        1414
+      ],
+      "description": "下方横向矩形照片，一名女性面向镜头微笑，一只手向镜头伸出并举着红色糖葫芦，另一只手持彩色糖果，保留身后失焦的绿色植物和暗色环境。完整摄影窗口延伸至左右及下方黑色边线，上方部分被关联的出框主体覆盖；人物、糖果和服装上的实拍文字均属于照片内容。"
+    },
+    {
+      "id": "photo_lower_foreground",
+      "kind": "photo",
+      "bbox": [
+        86,
+        584,
+        811,
+        1414
+      ],
+      "description": "延伸自下方照片的同一女性及双手所持糖果，沿完整人物、袖口、手臂和糖果组合轮廓去除摄影背景，外沿附有宽白色描边。头顶与斜举的红色糖葫芦越过下方窗口上边，跨过白色间隔并遮住两张上方照片的下缘；左侧伸出的手臂和底部衣裙仍受画面边界裁切。服装上的红色FUYAN随摄影主体保留。",
+      "linked_to": "photo_lower"
+    },
+    {
+      "id": "overlay_japanese",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        744,
+        984,
+        1110
+      ],
+      "description": "下方照片右上方的白色日文竖排字样，五列从右向左排列，各列长短不同，作为完整固定文字设计保留。可辨内容为「探しているのが、誰かなのか、どこかなのか、それともただ単に就職先なのか、自分でもよくわからない。」无独立底板，不属于实拍环境。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower",
+    "photo_lower_foreground",
+    "overlay_japanese"
+  ]
+}

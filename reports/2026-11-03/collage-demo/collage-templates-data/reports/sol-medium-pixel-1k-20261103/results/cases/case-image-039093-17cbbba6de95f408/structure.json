@@ -1,0 +1,35 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_birthday_cake",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        812
+      ],
+      "description": "上方独立横向摄影画面，显示昏暗环境中的生日蛋糕局部、燃烧的蜡烛、火焰上方的白色星点涂鸦，以及带有“Happy Birthday”和爱心图案的橙色生日插牌；摄影画面完整延伸至画布左右边缘和上边缘，下缘在约812像素处与下方照片形成明确水平接缝。画面中的蛋糕、蜡烛、插牌、灯光和手绘装饰均随照片替换，保留原有朦胧发光效果。"
+    },
+    {
+      "id": "photo_birthday_card",
+      "kind": "photo",
+      "bbox": [
+        0,
+        812,
+        1080,
+        1440
+      ],
+      "description": "下方独立纵向摄影画面，显示倾斜摆放的浅色生日卡片或纸张，纸面中央印有“生日愿望”及多行中文祝福文字，左侧可见纸张边缘和阴影，右侧边缘有少量纸面细节；摄影画面从约812像素处开始并完整延伸至左右边缘和画布底边。卡片材质、透视、印刷文字和光照均属于该照片并随照片替换。"
+    }
+  ],
+  "layer_order": [
+    "photo_birthday_cake",
+    "photo_birthday_card"
+  ]
+}

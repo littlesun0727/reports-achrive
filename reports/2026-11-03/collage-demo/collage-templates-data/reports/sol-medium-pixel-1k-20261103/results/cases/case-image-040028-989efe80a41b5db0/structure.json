@@ -1,0 +1,843 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "全画布固定海报底图，近黑色底面连续延伸至四边；右半部为紫色与珊瑚红色交替的曲边菱形结构，并围出黑色圆形信息区域。保留底色、细微纹理及连续几何结构；独立圆形照片、标题、文字、标志和分隔线另列，不随底图保留。"
+  },
+  "objects": [
+    {
+      "id": "overlay_heading",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        66,
+        611,
+        134
+      ],
+      "description": "大写标题“MUSIC EVENTS”，粗厚无衬线字形，字面由珊瑚红向紫色渐变，作为完整艺术字保留。"
+    },
+    {
+      "id": "text_subheading",
+      "kind": "text",
+      "bbox": [
+        63,
+        151,
+        525,
+        183
+      ],
+      "text": "UPCOMING ON MARCH »",
+      "color": "#EEEEEE",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_brand_top",
+      "kind": "overlay",
+      "bbox": [
+        741,
+        48,
+        865,
+        178
+      ],
+      "description": "右上角白色品牌标志，耳机线描图标与沿圆弧排列的“YOUR BRAND PRESENTS”共同构成一个完整设计单元。"
+    },
+    {
+      "id": "overlay_divider_1",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        218,
+        433,
+        225
+      ],
+      "description": "第一条细水平分隔线，左端灰白，向右经过暗红色并逐渐融入黑底。"
+    },
+    {
+      "id": "overlay_divider_2",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        444,
+        485,
+        451
+      ],
+      "description": "第一与第二场活动之间的细水平分隔线，灰白与暗红色线段向右逐渐变暗。"
+    },
+    {
+      "id": "overlay_divider_3",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        674,
+        483,
+        682
+      ],
+      "description": "第二与第三场活动之间的细水平分隔线，左侧灰白，右侧暗红并逐渐融入底色。"
+    },
+    {
+      "id": "overlay_divider_4",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        904,
+        306,
+        912
+      ],
+      "description": "第三与第四场活动之间的短水平分隔线，灰白至暗红色渐变，右端逐渐变暗。"
+    },
+    {
+      "id": "overlay_divider_5",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        1136,
+        461,
+        1144
+      ],
+      "description": "活动列表与页脚之间的细水平分隔线，左侧灰白，向右转为暗红并融入黑底。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        446,
+        215,
+        677,
+        447
+      ],
+      "description": "上方圆形照片，酒吧或音乐活动室内场景，右侧一名穿红色上衣的短发男子侧身坐着看向左方，左侧还有一名卷发人物及后方局部人影。保留桌面、设备和室内摄影环境，整张照片在圆形区域内显示，没有沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        674,
+        444,
+        908,
+        678
+      ],
+      "description": "右侧第二个圆形照片，一名戴黑色针织帽、穿深色外套的男子低头，右边缘另露出一人的部分脸部。保留暖色室内背景，照片完整圆形窗口与上方照片独立，人物在圆形边界处裁切。"
+    },
+    {
+      "id": "photo_saxophone",
+      "kind": "photo",
+      "bbox": [
+        446,
+        677,
+        678,
+        910
+      ],
+      "description": "中部偏左圆形照片，一名穿白衬衣和深色背带的男子吹奏萨克斯，身体略朝右，呈半身至腰部景别。保留身后的多盏暖黄色圆灯及暗色舞台环境，乐器与人物共同属于照片，圆形窗口裁切而非主体去背景。"
+    },
+    {
+      "id": "photo_singer",
+      "kind": "photo",
+      "bbox": [
+        674,
+        909,
+        908,
+        1143
+      ],
+      "description": "右侧下部圆形照片，一名长发、有胡须的男子张嘴演唱，头部朝右，穿黑色无袖服装，呈上半身近景。保留浅暖色舞台背景，身体与照片在圆形边缘裁切；与下方吉他近景为独立显示位置。"
+    },
+    {
+      "id": "photo_guitar",
+      "kind": "photo",
+      "bbox": [
+        674,
+        1141,
+        908,
+        1298
+      ],
+      "description": "最下方圆形照片，主要显示演奏者的深色衣服、手臂及棕黄色电吉他，吉他琴颈斜向右上，人物脸部不在可见区域。保留暗色摄影环境，圆形窗口下部被画布底边截断，不是上方演唱者照片的连续出框层。"
+    },
+    {
+      "id": "text_date_20",
+      "kind": "text",
+      "bbox": [
+        68,
+        286,
+        147,
+        342
+      ],
+      "text": "20",
+      "color": "#F65E59",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_day_fri",
+      "kind": "text",
+      "bbox": [
+        82,
+        359,
+        130,
+        388
+      ],
+      "text": "FRI",
+      "color": "#EEEEEE",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_event_1",
+      "kind": "text",
+      "bbox": [
+        159,
+        288,
+        430,
+        357
+      ],
+      "text": "BLUES & BREWS\nFESTIVAL",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_description_1",
+      "kind": "text",
+      "bbox": [
+        160,
+        371,
+        416,
+        387
+      ],
+      "text": "Soulful sounds and smooth rhythms",
+      "color": "#A6A6A6",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_date_21",
+      "kind": "text",
+      "bbox": [
+        69,
+        519,
+        144,
+        573
+      ],
+      "text": "21",
+      "color": "#F65E59",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_day_sat",
+      "kind": "text",
+      "bbox": [
+        76,
+        590,
+        138,
+        618
+      ],
+      "text": "SAT",
+      "color": "#EEEEEE",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_event_2",
+      "kind": "text",
+      "bbox": [
+        158,
+        520,
+        381,
+        589
+      ],
+      "text": "INDIE MUSIC\nSHOWCASE",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_description_2",
+      "kind": "text",
+      "bbox": [
+        159,
+        600,
+        406,
+        618
+      ],
+      "text": "An intimate evening of indie music",
+      "color": "#A6A6A6",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_date_22",
+      "kind": "text",
+      "bbox": [
+        68,
+        745,
+        148,
+        800
+      ],
+      "text": "22",
+      "color": "#F65E59",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_day_sun",
+      "kind": "text",
+      "bbox": [
+        75,
+        812,
+        140,
+        840
+      ],
+      "text": "SUN",
+      "color": "#EEEEEE",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_event_3",
+      "kind": "text",
+      "bbox": [
+        159,
+        747,
+        368,
+        817
+      ],
+      "text": "JAZZ IN THE\nPARK",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_description_3",
+      "kind": "text",
+      "bbox": [
+        159,
+        824,
+        375,
+        859
+      ],
+      "text": "Come together with other jazz\nenthusiasts and celebrate",
+      "color": "#A6A6A6",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_date_23",
+      "kind": "text",
+      "bbox": [
+        73,
+        973,
+        150,
+        1028
+      ],
+      "text": "23",
+      "color": "#F65E59",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_day_mon",
+      "kind": "text",
+      "bbox": [
+        75,
+        1041,
+        148,
+        1069
+      ],
+      "text": "MON",
+      "color": "#EEEEEE",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_event_4",
+      "kind": "text",
+      "bbox": [
+        161,
+        974,
+        347,
+        1044
+      ],
+      "text": "ROCK THE\nBLOCK",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_description_4",
+      "kind": "text",
+      "bbox": [
+        162,
+        1050,
+        354,
+        1085
+      ],
+      "text": "Experience the power and\nintensity of rock music",
+      "color": "#A6A6A6",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_placeholder",
+      "kind": "text",
+      "bbox": [
+        700,
+        277,
+        858,
+        381
+      ],
+      "text": "Lorem ipsum 'dolor\nsit amet, consectetur\nadipiscing elit, sed diam\nnonummy euismod\ntincidunt.",
+      "color": "#B3B3B3",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_play_1",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        520,
+        510,
+        540
+      ],
+      "description": "珊瑚红色小圆形播放图标，中央为深色向右三角形，位于09:00左侧。"
+    },
+    {
+      "id": "text_time_1",
+      "kind": "text",
+      "bbox": [
+        513,
+        521,
+        563,
+        538
+      ],
+      "text": "09:00",
+      "color": "#AAAAAA",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_artist_1",
+      "kind": "text",
+      "bbox": [
+        513,
+        540,
+        645,
+        556
+      ],
+      "text": "ROBERT WILLIAM",
+      "color": "#F3F3F3",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_play_2",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        571,
+        510,
+        591
+      ],
+      "description": "珊瑚红色小圆形播放图标，中央为深色向右三角形，位于10:30左侧。"
+    },
+    {
+      "id": "text_time_2",
+      "kind": "text",
+      "bbox": [
+        513,
+        572,
+        563,
+        589
+      ],
+      "text": "10:30",
+      "color": "#AAAAAA",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_artist_2",
+      "kind": "text",
+      "bbox": [
+        513,
+        591,
+        607,
+        608
+      ],
+      "text": "NELLY DEAN",
+      "color": "#F3F3F3",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_play_3",
+      "kind": "overlay",
+      "bbox": [
+        708,
+        750,
+        728,
+        771
+      ],
+      "description": "珊瑚红色小圆形播放图标，中央为深色向右三角形，位于20:30左侧。"
+    },
+    {
+      "id": "text_time_3",
+      "kind": "text",
+      "bbox": [
+        731,
+        752,
+        782,
+        769
+      ],
+      "text": "20:30",
+      "color": "#AAAAAA",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_artist_3",
+      "kind": "text",
+      "bbox": [
+        731,
+        774,
+        854,
+        790
+      ],
+      "text": "HENRY WOTTON",
+      "color": "#F3F3F3",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_play_4",
+      "kind": "overlay",
+      "bbox": [
+        708,
+        801,
+        728,
+        821
+      ],
+      "description": "珊瑚红色小圆形播放图标，中央为深色向右三角形，位于22:10左侧。"
+    },
+    {
+      "id": "text_time_4",
+      "kind": "text",
+      "bbox": [
+        731,
+        803,
+        782,
+        820
+      ],
+      "text": "22:10",
+      "color": "#AAAAAA",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_artist_4",
+      "kind": "text",
+      "bbox": [
+        731,
+        823,
+        820,
+        839
+      ],
+      "text": "SIBYL VANE",
+      "color": "#F3F3F3",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_play_5",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        981,
+        509,
+        1002
+      ],
+      "description": "珊瑚红色小圆形播放图标，中央为深色向右三角形，位于17:00左侧。"
+    },
+    {
+      "id": "text_time_5",
+      "kind": "text",
+      "bbox": [
+        512,
+        983,
+        561,
+        1000
+      ],
+      "text": "17:00",
+      "color": "#AAAAAA",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_artist_5",
+      "kind": "text",
+      "bbox": [
+        512,
+        1004,
+        618,
+        1021
+      ],
+      "text": "PATRICIA DOE",
+      "color": "#F3F3F3",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_play_6",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        1032,
+        509,
+        1053
+      ],
+      "description": "珊瑚红色小圆形播放图标，中央为深色向右三角形，位于22:10左侧。"
+    },
+    {
+      "id": "text_time_6",
+      "kind": "text",
+      "bbox": [
+        512,
+        1034,
+        562,
+        1051
+      ],
+      "text": "22:10",
+      "color": "#AAAAAA",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_artist_6",
+      "kind": "text",
+      "bbox": [
+        512,
+        1055,
+        640,
+        1072
+      ],
+      "text": "BASIL HAILWARD",
+      "color": "#F3F3F3",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_contact_label",
+      "kind": "text",
+      "bbox": [
+        63,
+        1180,
+        157,
+        1198
+      ],
+      "text": "Contact us:",
+      "color": "#EEEEEE",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_contact_phone",
+      "kind": "text",
+      "bbox": [
+        160,
+        1180,
+        266,
+        1198
+      ],
+      "text": "012-345-6789",
+      "color": "#CCCCCC",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_contact_address",
+      "kind": "text",
+      "bbox": [
+        63,
+        1202,
+        259,
+        1240
+      ],
+      "text": "123 Your Location place\nStreet Name, City Name",
+      "color": "#CCCCCC",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_sponsored",
+      "kind": "text",
+      "bbox": [
+        363,
+        1178,
+        476,
+        1198
+      ],
+      "text": "Sponsored By",
+      "color": "#EEEEEE",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_logo_your",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        1213,
+        425,
+        1248
+      ],
+      "description": "页脚第一枚白色标志，上部为连笔手写“your”，下部为小号大写“BRAND”，特殊字形与两层布局整体保留。"
+    },
+    {
+      "id": "overlay_logo_sponsor",
+      "kind": "overlay",
+      "bbox": [
+        438,
+        1214,
+        510,
+        1237
+      ],
+      "description": "页脚第二枚白色赞助标志，圆形内的S字母与右侧小号“SPONSOR”字样组成一个完整单元。"
+    },
+    {
+      "id": "overlay_logo_major",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        1214,
+        591,
+        1237
+      ],
+      "description": "页脚第三枚白色标志，左侧方形图标与右侧小写“major”字样整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_upper_right",
+    "photo_saxophone",
+    "photo_singer",
+    "photo_guitar",
+    "overlay_divider_1",
+    "overlay_divider_2",
+    "overlay_divider_3",
+    "overlay_divider_4",
+    "overlay_divider_5",
+    "overlay_heading",
+    "text_subheading",
+    "overlay_brand_top",
+    "text_date_20",
+    "text_day_fri",
+    "text_event_1",
+    "text_description_1",
+    "text_date_21",
+    "text_day_sat",
+    "text_event_2",
+    "text_description_2",
+    "text_date_22",
+    "text_day_sun",
+    "text_event_3",
+    "text_description_3",
+    "text_date_23",
+    "text_day_mon",
+    "text_event_4",
+    "text_description_4",
+    "text_placeholder",
+    "overlay_play_1",
+    "text_time_1",
+    "text_artist_1",
+    "overlay_play_2",
+    "text_time_2",
+    "text_artist_2",
+    "overlay_play_3",
+    "text_time_3",
+    "text_artist_3",
+    "overlay_play_4",
+    "text_time_4",
+    "text_artist_4",
+    "overlay_play_5",
+    "text_time_5",
+    "text_artist_5",
+    "overlay_play_6",
+    "text_time_6",
+    "text_artist_6",
+    "text_contact_label",
+    "text_contact_phone",
+    "text_contact_address",
+    "text_sponsored",
+    "overlay_logo_your",
+    "overlay_logo_sponsor",
+    "overlay_logo_major"
+  ]
+}

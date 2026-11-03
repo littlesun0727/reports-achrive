@@ -1,0 +1,180 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    955,
+    677
+  ],
+  "objects": [
+    {
+      "id": "book_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        955,
+        677
+      ],
+      "description": "展开的白色双页书册固定底图覆盖全画布，页内有轻微灰白纸纹与明暗变化，中央约x=480处可见连续书脊折缝，四周保留纸页边缘和细微阴影。六张照片及独立排版文字另列，清除后保留纸张、折缝与页边原貌。",
+      "background_type": "reference_clean",
+      "label": "展开的白色双页书册固定底图覆盖全画布，页内有轻微灰白纸纹与明",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_man_upper",
+      "kind": "photo",
+      "bbox": [
+        292,
+        53,
+        460,
+        275
+      ],
+      "description": "左页上方竖幅照片，一名黑发男子穿黑色礼服、白衬衫与黑领结，半身侧向右方，身体略向前探。左侧浅色墙面遮住部分身体，右侧为灰蓝色纹理摄影环境，均随照片替换。完整矩形窗口四周有细黑色轮廓线，依附照片边缘。",
+      "label": "左页上方竖幅照片，一名黑发男子穿黑色礼服、白衬衫与黑领结，半",
+      "method": "local"
+    },
+    {
+      "id": "photo_man_lower",
+      "kind": "photo",
+      "bbox": [
+        23,
+        332,
+        264,
+        654
+      ],
+      "description": "左页下方竖幅照片，一名穿黑色礼服、白衬衫和领结的男子全身站立，双手插袋，抬头望向高处镜头。灰色地面铺满照片背景，完整保留摄影环境。照片四周为依附矩形窗口的细黑线。",
+      "label": "左页下方竖幅照片，一名穿黑色礼服、白衬衫和领结的男子全身站立",
+      "method": "local"
+    },
+    {
+      "id": "photo_bride_upper_left",
+      "kind": "photo",
+      "bbox": [
+        527,
+        146,
+        711,
+        330
+      ],
+      "description": "右页四宫格左上照片，一名穿长款婚纱、披长头纱的女子站在灰色楼梯或斜向通道中，人物较小，裙摆向下展开，顶部及两侧保留深色扶手和灰色墙面环境。画面左侧有小型白色摄影署名字样，随原照片替换。矩形窗口带细黑色边线。",
+      "label": "右页四宫格左上照片，一名穿长款婚纱、披长头纱的女子站在灰色楼",
+      "method": "local"
+    },
+    {
+      "id": "photo_bride_upper_right",
+      "kind": "photo",
+      "bbox": [
+        725,
+        146,
+        909,
+        330
+      ],
+      "description": "右页四宫格右上照片，一名披头纱、穿浅色抹胸婚纱的女子中近景，低头看向左下方，双臂向两侧下垂。背景为昏暗室内，右侧有明亮窗光，摄影环境完整保留；下方裙身被照片窗口裁切。矩形边缘带细黑线。",
+      "label": "右页四宫格右上照片，一名披头纱、穿浅色抹胸婚纱的女子中近景，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bride_lower_left",
+      "kind": "photo",
+      "bbox": [
+        527,
+        344,
+        711,
+        529
+      ],
+      "description": "右页四宫格左下照片，一名婚纱女子站在室内明亮门窗前，人物呈侧向的深色剪影，长裙延伸至画面下缘。倾斜的门框、窗帘和暗色室内共同属于该照片，保留完整摄影环境与原有斜向取景。矩形窗口四周有细黑线。",
+      "label": "右页四宫格左下照片，一名婚纱女子站在室内明亮门窗前，人物呈侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_bride_lower_right",
+      "kind": "photo",
+      "bbox": [
+        725,
+        344,
+        909,
+        529
+      ],
+      "description": "右页四宫格右下照片，一名披头纱、穿浅色婚纱的女子以横斜方向出现在暗色室内画面中，脸朝上，一只手抬起，裙身向左侧延伸并被窗口截断。右下方保留明亮窗户与室内结构；倾斜摄影内容不与相邻照片连续。矩形窗口带细黑边线。",
+      "label": "右页四宫格右下照片，一名披头纱、穿浅色婚纱的女子以横斜方向出",
+      "method": "local"
+    },
+    {
+      "id": "text_edition",
+      "kind": "text",
+      "bbox": [
+        263,
+        20,
+        326,
+        30
+      ],
+      "description": "/Flipin Edition/",
+      "label": "/Flipin Edition/",
+      "method": "local",
+      "text": "/Flipin Edition/",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_number_13",
+      "kind": "text",
+      "bbox": [
+        444,
+        281,
+        461,
+        291
+      ],
+      "description": "(13)",
+      "label": "(13)",
+      "method": "local",
+      "text": "(13)",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "sans",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_number_14",
+      "kind": "text",
+      "bbox": [
+        23,
+        316,
+        40,
+        326
+      ],
+      "description": "(14)",
+      "label": "(14)",
+      "method": "local",
+      "text": "(14)",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "book_base",
+    "photo_man_upper",
+    "photo_man_lower",
+    "photo_bride_upper_left",
+    "photo_bride_upper_right",
+    "photo_bride_lower_left",
+    "photo_bride_lower_right",
+    "text_edition",
+    "text_number_13",
+    "text_number_14"
+  ]
+}

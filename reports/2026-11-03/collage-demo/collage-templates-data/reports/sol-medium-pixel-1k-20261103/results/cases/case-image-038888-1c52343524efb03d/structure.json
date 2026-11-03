@@ -1,0 +1,74 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的户外摄影画面铺满画布：背景为虚化的建筑、树木与草地，前景一只手从左下方伸入，捏持中央的星巴克主题小拖车贴饰。手和环境属于同一张照片；贴饰及手绘字样遮挡局部，照片环境保留并替换。手在贴饰下方及左侧可见，局部压住贴饰，另以关联前景层表达遮挡。"
+  },
+  "objects": [
+    {
+      "id": "overlay_trailer",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        565,
+        925,
+        972
+      ],
+      "description": "手持的独立拖车造型贴饰，浅色车身、绿色波纹下部、双轮、窗口、星巴克标志与字样，以及窗口内戴帽子的熊和两侧小熊、饮品杯等印刷细节均为同一完整设计单元；下缘左侧被手指遮挡，整体位于摄影背景之上、手的前景层之下。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        164,
+        1080,
+        650
+      ],
+      "description": "右上方从拖车顶部附近向画布右上延伸的数条白色手绘曲线，连同沿线分布的彩色音符和小音符装饰，作为一个连续的音乐涂鸦单元保留；部分线条和图案延伸出画布右边缘。"
+    },
+    {
+      "id": "overlay_cheers",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        536,
+        322,
+        914
+      ],
+      "description": "拖车左侧倾斜排列的白色手绘空心英文“Cheers!!”，包含字母和两个感叹号，保留原有不规则字形、倾斜方向与轮廓效果，作为完整装饰字样。"
+    },
+    {
+      "id": "overlay_chinese",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        1098,
+        1023,
+        1256
+      ],
+      "description": "右下方两行白色手写中文装饰字样：“还好，这世界到处 / 都是充电站。”保留原有手写笔画、分行与不规则排布，作为整体设计单元。"
+    },
+    {
+      "id": "photo_hand_foreground",
+      "kind": "photo",
+      "bbox": [
+        0,
+        856,
+        574,
+        1440
+      ],
+      "linked_to": "photo_base",
+      "description": "来自全画布摄影底图的前景手部，拇指与其他手指从左下方伸入并捏住拖车贴饰；仅沿手部轮廓显示，不保留独立环境背景。手部在贴饰下方及左缘前景遮挡贴饰，部分手指延伸并裁切于画布左边和下边。"
+    }
+  ],
+  "layer_order": [
+    "overlay_trailer",
+    "overlay_music",
+    "overlay_cheers",
+    "overlay_chinese",
+    "photo_hand_foreground"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "textured_red_base",
+    "description": "连续覆盖全画布的橙红至深红渐变纹理底图，表面带有明显颗粒和纤维质感；两张独立照片悬置其上，照片之间及四周均露出同一连续底纹，底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_wedding_portrait",
+      "kind": "photo",
+      "bbox": [
+        426,
+        68,
+        1048,
+        1000
+      ],
+      "description": "竖向婚礼室内合影照片，画面中一男一女身穿中式礼服面对面站立，男方位于左侧、女方位于右侧，两人共同手持鲜花；室内门框、墙面和背景环境随照片替换。照片底部可见白色中文小字及“SSYI.”字样，均属于照片内容。"
+    },
+    {
+      "id": "photo_window_portrait",
+      "kind": "photo",
+      "bbox": [
+        56,
+        795,
+        405,
+        1318
+      ],
+      "description": "竖向婚礼人像照片，单人女性穿红金色中式礼服站在窗边，身体朝向右侧并伸手触碰窗框；背景保留室内深色窗框、户外城市天际线和远景环境。照片底部可见白色中文小字及“SSYI.”字样，均属于照片内容。"
+    }
+  ],
+  "layer_order": [
+    "photo_wedding_portrait",
+    "photo_window_portrait"
+  ]
+}

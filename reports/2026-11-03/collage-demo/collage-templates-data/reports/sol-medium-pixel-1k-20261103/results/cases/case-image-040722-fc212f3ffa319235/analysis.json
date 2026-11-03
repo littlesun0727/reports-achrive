@@ -1,0 +1,199 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1621
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1621
+      ],
+      "description": "连续的室内生活方式摄影画面覆盖整张画布，包含临窗绿植、展陈桌面、灯具、人物及下方布面环境，并延伸至四条画布边缘；三张独立矩形照片、文字和星形装饰遮挡局部，底层环境整体作为客户摄影素材替换。",
+      "background_type": "photo",
+      "label": "连续的室内生活方式摄影画面覆盖整张画布，包含临窗绿植、展陈桌",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left_interior",
+      "kind": "photo",
+      "bbox": [
+        107,
+        163,
+        585,
+        778
+      ],
+      "description": "左侧竖向室内展陈照片，完整显示窗边绿植、纸张展签、吊灯、桌面物件和暖色灯光，保留照片内摄影环境；矩形边界被顶部胶带和右侧照片局部遮挡。",
+      "label": "左侧竖向室内展陈照片，完整显示窗边绿植、纸张展签、吊灯、桌面",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_cup",
+      "kind": "photo",
+      "bbox": [
+        623,
+        578,
+        1027,
+        1080
+      ],
+      "description": "右侧竖向静物照片，显示黑色容器中的浅色液体、木质背景和前景蕨叶，保留完整摄影环境；矩形照片压在左侧照片及全画布底图之上。",
+      "label": "右侧竖向静物照片，显示黑色容器中的浅色液体、木质背景和前景蕨",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_exterior",
+      "kind": "photo",
+      "bbox": [
+        347,
+        965,
+        738,
+        1410
+      ],
+      "description": "下方竖向户外建筑照片，显示树木、白色建筑、屋檐和墙面光影，保留完整摄影环境；矩形区域与右侧静物照片相交并覆盖其下部局部。",
+      "label": "下方竖向户外建筑照片，显示树木、白色建筑、屋檐和墙面光影，保",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        143,
+        241,
+        252
+      ],
+      "description": "贴在左侧照片上沿的米色半透明纸胶带，带有撕裂边、褶皱和阴影，作为独立固定装饰保留。",
+      "label": "贴在左侧照片上沿的米色半透明纸胶带，带有撕裂边、褶皱和阴影，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        882,
+        97,
+        960,
+        175
+      ],
+      "description": "画布右上区域的白色不规则五角星贴纸，独立覆盖底层摄影画面。",
+      "label": "画布右上区域的白色不规则五角星贴纸，独立覆盖底层摄影画面。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        590,
+        86,
+        657
+      ],
+      "description": "画布左侧中部的白色不规则星形贴纸，独立覆盖底层摄影画面。",
+      "label": "画布左侧中部的白色不规则星形贴纸，独立覆盖底层摄影画面。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_symbol_row",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        869,
+        591,
+        925
+      ],
+      "description": "横跨画面中下部的一组白色手绘装饰符号，由空心星、实心星、圆点和菱形点组成，成员共同构成一条固定装饰带。",
+      "label": "横跨画面中下部的一组白色手绘装饰符号，由空心星、实心星、圆点",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_bottom",
+      "kind": "overlay",
+      "bbox": [
+        926,
+        1307,
+        1003,
+        1392
+      ],
+      "description": "右下区域的白色不规则五角星贴纸，独立覆盖底层摄影画面。",
+      "label": "右下区域的白色不规则五角星贴纸，独立覆盖底层摄影画面。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        1499,
+        194,
+        1621
+      ],
+      "description": "左下角的大型白色不规则星形贴纸，部分延伸至画布下边界，独立覆盖底层摄影画面。",
+      "label": "左下角的大型白色不规则星形贴纸，部分延伸至画布下边界，独立覆",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote_right",
+      "kind": "text",
+      "bbox": [
+        630,
+        364,
+        1017,
+        514
+      ],
+      "description": "Enjoy the little things,\nfor one day you may look\nback and realize they were\nthe big things.",
+      "label": "Enjoy the little things,\nfor o",
+      "method": "local",
+      "text": "Enjoy the little things,\nfor one day you may look\nback and realize they were\nthe big things.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_quote_bottom",
+      "kind": "text",
+      "bbox": [
+        215,
+        1447,
+        650,
+        1511
+      ],
+      "description": "Live simply, love generously,\ncare deeply, speak kindly.",
+      "label": "Live simply, love generously,\n",
+      "method": "local",
+      "text": "Live simply, love generously,\ncare deeply, speak kindly.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_left_interior",
+    "photo_right_cup",
+    "photo_bottom_exterior",
+    "overlay_tape",
+    "overlay_star_top_right",
+    "overlay_star_left",
+    "overlay_symbol_row",
+    "overlay_star_right_bottom",
+    "overlay_star_bottom_left",
+    "text_quote_right",
+    "text_quote_bottom"
+  ]
+}

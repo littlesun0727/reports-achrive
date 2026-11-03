@@ -1,0 +1,330 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_night",
+    "description": "深藏蓝色的连续纸质夜空底图覆盖全画布，带颗粒、磨损纹理和散布的细小白色星点，四边及拼贴间隙均可见同类底纹。保留此固定设计底图；月球、人物、海岸照片、纸片、较大的星形装饰和独立字样另列，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_moon",
+      "kind": "photo",
+      "bbox": [
+        356,
+        233,
+        1023,
+        909
+      ],
+      "description": "一轮巨大的月球近景，右侧明亮、左侧阴暗，表面陨石坑与灰白纹理清晰，独立圆形显示于夜空上。左上被标题覆盖，左下被人物遮挡，右侧被纸质字条遮挡；保留完整月球显示范围，不包含下层星空。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        3,
+        716,
+        479
+      ],
+      "description": "奶油白色大幅刷笔艺术字“MOON NOTES”，上下两行错落排列，字形倾斜且有粗糙飞白、毛边和不规则笔画，整体保留，部分覆盖月球上缘。"
+    },
+    {
+      "id": "overlay_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        51,
+        890,
+        230
+      ],
+      "description": "右上粉红色多尖放射星贴纸，内部有浅色纹理和白色细线星形，作为完整独立装饰保留。"
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        934,
+        46,
+        1032,
+        135
+      ],
+      "text": "SAME\nSKIES\nDIFFERENT\nDREAMERS",
+      "color": "#EEEBDC",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_caption_line",
+      "kind": "overlay",
+      "bbox": [
+        934,
+        150,
+        976,
+        155
+      ],
+      "description": "右上四行小字下方的一条短奶油白色横线。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        976,
+        228,
+        1033,
+        295
+      ],
+      "description": "右侧独立的奶油白色四尖闪光星，纵向尖角较长，带细小横向放射线。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        323,
+        432,
+        370,
+        507
+      ],
+      "description": "月球左侧、人物上方的奶油白色四尖闪光星，保留细长尖角及交叉光线。"
+    },
+    {
+      "id": "overlay_comet",
+      "kind": "overlay",
+      "bbox": [
+        434,
+        469,
+        548,
+        534
+      ],
+      "description": "一枚向左下落下的细线流星，奶油白色圆点与向右上延伸的弧形尾迹共同组成一个完整装饰。"
+    },
+    {
+      "id": "overlay_blue_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        376,
+        66,
+        507
+      ],
+      "description": "左边缘露出的浅蓝色撕纸小片，带斜向细密纹理和不规则纸边，下部被粉红便签遮挡。"
+    },
+    {
+      "id": "overlay_pink_note",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        447,
+        274,
+        758
+      ],
+      "description": "左侧粉红色不规则撕纸便签，带黑色颗粒纹理；其上有倾斜手写字“IDEAS / TRAVEL / FURTHER / AT NIGHT”及空心爱心。字样与纸片共同保留，右下边缘被人物覆盖。"
+    },
+    {
+      "id": "overlay_blue_lower",
+      "kind": "overlay",
+      "bbox": [
+        534,
+        951,
+        826,
+        1128
+      ],
+      "description": "人物鞋后方的浅蓝色撕纸片，带细密斜纹及宽窄不一的奶油白纸边，轮廓起伏不规则；下部被粉红长纸片覆盖。"
+    },
+    {
+      "id": "overlay_pink_lower",
+      "kind": "overlay",
+      "bbox": [
+        523,
+        1060,
+        1080,
+        1223
+      ],
+      "description": "横贯右下区域的粉红色长条撕纸，带颗粒印刷纹理和奶油白色毛边，上边起伏，下边被海岸照片的山岩轮廓覆盖，左侧被前景岩石遮挡。"
+    },
+    {
+      "id": "photo_coast",
+      "kind": "photo",
+      "bbox": [
+        218,
+        1118,
+        1080,
+        1440
+      ],
+      "description": "下方独立海岸照片，保留远处黑色山岩、海面明亮反光、白色浪花和近处礁石的完整摄影环境。照片向右及下方延伸至画布边缘，上边沿山岩形成不规则显示边界，左侧被浅色纸片和前景岩石覆盖；边缘可见浅色撕纸式轮廓。"
+    },
+    {
+      "id": "overlay_paper_corner",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1109,
+        364,
+        1440
+      ],
+      "description": "左下角奶油白色纹理纸片，右边是不规则撕裂边，覆盖部分海岸照片并伸至画布左边、下边。纸上印有黑色经纬线地球图标及“MUSIC / IDEAS / PLACES / PEOPLE / POSSIBILITIES”和短横线，作为纸片的一体印刷设计保留；上部被岩石遮挡。"
+    },
+    {
+      "id": "photo_cliff",
+      "kind": "photo",
+      "bbox": [
+        0,
+        817,
+        546,
+        1270
+      ],
+      "description": "左下独立黑白岩石近景，大片深黑岩壁带白色裂纹，顶面向右下倾斜，构成人物坐姿下方的前景悬崖。沿不规则岩石外缘可见奶油白色撕纸式边缘；上部被人物遮挡，下缘覆盖左下纸片与海岸照片。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        145,
+        563,
+        625,
+        1063
+      ],
+      "description": "一名长发女子的黑白全身坐姿侧面，朝右上仰望，双臂抱住屈起的膝盖，穿针织上衣、浅色长裙、袜子及高帮帆布鞋。沿人物、衣裙和鞋的完整组合轮廓去除摄影背景，外缘有奶油白色轮廓边；身体坐在岩石上，鞋向右伸出并覆盖蓝色纸片。"
+    },
+    {
+      "id": "overlay_curiosity",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        1000,
+        235,
+        1138
+      ],
+      "description": "岩壁上的浅色手写字“CURIOSITY / KEEPS / US HUMAN”，各行倾斜且位置错落，下方附有斜向短线；作为完整手写装饰保留，不属于岩石摄影内容。"
+    },
+    {
+      "id": "overlay_more_dreams",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        902,
+        1037,
+        1074
+      ],
+      "description": "右下夜空中的奶油白手写装饰“MORE / DREAMS / A KINDER / TOMORROW”，行间位置与角度不规则，附有下划线和右侧空心爱心，整体保留。"
+    },
+    {
+      "id": "overlay_label_a",
+      "kind": "overlay",
+      "bbox": [
+        935,
+        567,
+        980,
+        610
+      ],
+      "description": "月球右侧略倾斜的浅色小纸标签，黑色字母“A”，保留纸边、纹理及轻微阴影。"
+    },
+    {
+      "id": "overlay_label_quieter",
+      "kind": "overlay",
+      "bbox": [
+        940,
+        594,
+        1052,
+        639
+      ],
+      "description": "浅色长方形纸标签，印有黑色窄体大写“QUIETER”，稍有倾斜并叠压上方小标签，纸边和阴影整体保留。"
+    },
+    {
+      "id": "overlay_label_world",
+      "kind": "overlay",
+      "bbox": [
+        943,
+        632,
+        1039,
+        677
+      ],
+      "description": "浅色纸标签，印有黑色大写“WORLD”，与上下字条错位叠贴，保留边缘和阴影。"
+    },
+    {
+      "id": "overlay_label_helps",
+      "kind": "overlay",
+      "bbox": [
+        945,
+        672,
+        1037,
+        714
+      ],
+      "description": "浅色纸标签，印有黑色大写“HELPS”，位于月球右缘，作为独立叠贴字条保留。"
+    },
+    {
+      "id": "overlay_label_brighter",
+      "kind": "overlay",
+      "bbox": [
+        931,
+        705,
+        1056,
+        750
+      ],
+      "description": "向左右伸出的浅色纸标签，印有黑色大写“BRIGHTER”，略倾斜并压住相邻字条边缘，保留纸纹和阴影。"
+    },
+    {
+      "id": "overlay_label_ideas",
+      "kind": "overlay",
+      "bbox": [
+        944,
+        744,
+        1036,
+        789
+      ],
+      "description": "浅色纸标签，印有黑色大写“IDEAS”，与上方长字条叠贴，保持独立纸片轮廓。"
+    },
+    {
+      "id": "overlay_label_grow",
+      "kind": "overlay",
+      "bbox": [
+        949,
+        780,
+        1035,
+        818
+      ],
+      "description": "字条组最下方的浅色纸标签，印有黑色大写“GROW”，保留纸边及轻微阴影。"
+    },
+    {
+      "id": "overlay_label_scribble",
+      "kind": "overlay",
+      "bbox": [
+        959,
+        829,
+        1022,
+        847
+      ],
+      "description": "右侧纸质字条组下方的奶油白色折返短划线，作为独立手绘点缀保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_moon",
+    "overlay_blue_left",
+    "overlay_pink_note",
+    "overlay_blue_lower",
+    "overlay_pink_lower",
+    "photo_coast",
+    "overlay_paper_corner",
+    "photo_cliff",
+    "photo_woman",
+    "overlay_title",
+    "overlay_pink_star",
+    "text_top_right",
+    "overlay_caption_line",
+    "overlay_star_right",
+    "overlay_star_left",
+    "overlay_comet",
+    "overlay_curiosity",
+    "overlay_more_dreams",
+    "overlay_label_a",
+    "overlay_label_quieter",
+    "overlay_label_world",
+    "overlay_label_helps",
+    "overlay_label_brighter",
+    "overlay_label_ideas",
+    "overlay_label_grow",
+    "overlay_label_scribble"
+  ]
+}

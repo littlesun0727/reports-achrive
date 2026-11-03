@@ -1,0 +1,172 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的高山草甸风景摄影覆盖全画布，无人物；上部为大片蓝天与白云，中部为积雪山脉，下部为起伏绿坡和深绿色针叶林。四边及照片之间露出的天空、山地和草坡连续，上层四张照片、文字与星形装饰仅遮挡局部。完整摄影环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        187,
+        178,
+        564,
+        554
+      ],
+      "description": "左上方独立方形风景照片，无人物；蓝天占据上半部，下半部为绿色丘陵、散布树木及斜向延伸的浅色木栈道。保留完整摄影环境，四边为清晰裁切边界。"
+    },
+    {
+      "id": "photo_oval",
+      "kind": "photo",
+      "bbox": [
+        582,
+        352,
+        951,
+        889
+      ],
+      "description": "右上偏中的竖向椭圆照片，一名戴针织帽的长发女子站在草坡上，穿浅色上衣、短裙和深色长靴，一手靠近脸部，另一手向画面右上方伸展。蓝天、白云、远山与树林保留在椭圆显示范围内，顶部天空可见斜向光线；人物未单独去除摄影背景。"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        110,
+        757,
+        489,
+        1042
+      ],
+      "description": "左侧中下部横向矩形照片，一名戴针织帽、穿浅色衣服的女子躺在草地中，身体由左下向中部延伸，一只手臂伸向右上方。近处草叶、黄色小花、远处树林、雪山和蓝天均属于照片，人物部分身体被照片左边与下边裁切。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        574,
+        932,
+        959,
+        1319
+      ],
+      "description": "右下方独立方形照片，一名戴针织帽、穿浅色宽松上衣及深色靴子的女子躺在绿草坡上，双臂展开，身体位于照片下半部；上半部显示蓝天、白云、雪山与树林。保留完整摄影环境，右侧手臂和下方衣袖到达裁切边缘。"
+    },
+    {
+      "id": "text_upper",
+      "kind": "text",
+      "bbox": [
+        665,
+        232,
+        863,
+        282
+      ],
+      "text": "Record the details\nof my life",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        188,
+        677,
+        545,
+        702
+      ],
+      "text": "Every day brings something new",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_lower",
+      "kind": "text",
+      "bbox": [
+        161,
+        1128,
+        497,
+        1177
+      ],
+      "text": "Add some sweetness to life\nwith a serving of afternoon tea",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        355,
+        73,
+        402,
+        119
+      ],
+      "description": "画布上部、左上照片上方的一枚白色实心五角星，保留原有尖角轮廓。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        932,
+        323,
+        972,
+        364
+      ],
+      "description": "上方文字右下侧、椭圆照片右上方的一枚白色实心五角星。"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        627,
+        389,
+        664
+      ],
+      "description": "左侧中部单行文字上方的一枚白色实心五角星，独立叠加在风景底图上。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        937,
+        838,
+        978,
+        882
+      ],
+      "description": "椭圆照片右下侧、右下方形照片上方的一枚白色实心五角星。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        202,
+        1249,
+        239,
+        1288
+      ],
+      "description": "左下方两行文字下方的一枚白色实心五角星，独立叠加在绿色草坡上。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_oval",
+    "photo_middle_left",
+    "photo_lower_right",
+    "text_upper",
+    "text_middle",
+    "text_lower",
+    "overlay_star_top",
+    "overlay_star_upper_right",
+    "overlay_star_middle",
+    "overlay_star_right",
+    "overlay_star_bottom"
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1524
+  ],
+  "objects": [
+    {
+      "id": "background_hearts",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1524
+      ],
+      "description": "亮黄色底面上规律散布绿色小爱心，图案在画布顶部、左右边缘及方格间隙连续出现，构成全画布固定设计底图。下部被绿色装饰横栏遮挡，九宫格、顶部装饰及摄影头像均独立处理，底色与爱心纹样保留。",
+      "background_type": "reference_clean",
+      "label": "亮黄色底面上规律散布绿色小爱心，图案在画布顶部、左右边缘及方",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        94,
+        282,
+        281
+      ],
+      "description": "顶部左侧粉色爱心贴纸，中央有红色五角星，外围为青绿与浅黄色多重轮廓，包含完整边缘和柔和阴影。",
+      "label": "顶部左侧粉色爱心贴纸，中央有红色五角星，外围为青绿与浅黄色多",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lovely",
+      "kind": "overlay",
+      "bbox": [
+        309,
+        35,
+        758,
+        337
+      ],
+      "description": "顶部中央绿色尖角爆炸星与浅蓝色手写艺术字“Lovely”组成完整标志，保留黑色外缘、白色字边及字间绿色爱心，不拆为普通文字。",
+      "label": "顶部中央绿色尖角爆炸星与浅蓝色手写艺术字“Lovely”组成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        786,
+        94,
+        990,
+        294
+      ],
+      "description": "顶部右侧青蓝色多瓣花朵，浅绿色花心，外围有蓝紫色柔化轮廓，作为完整固定装饰保留。",
+      "label": "顶部右侧青蓝色多瓣花朵，浅绿色花心，外围有蓝紫色柔化轮廓，作",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        26,
+        343,
+        361,
+        677
+      ],
+      "description": "左上方蓝紫渐变方形照片载体，包含星点、斜向色带、绿色环绕曲线及白色闪光图案。完整方格设计保留，中央头像及依附头像的轮廓线不属于载体。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "左上方蓝紫渐变方形照片载体，包含星点、斜向色带、绿色环绕曲线",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        65,
+        359,
+        314,
+        663
+      ],
+      "description": "一名年轻男性的头部近景，黑发向两侧分开，脸朝画面右侧，露出少量颈部。原摄影环境不显示，沿完整头发、面部与颈部轮廓显示；外围有白色和亮绿色轮廓，置于蓝紫方格前。",
+      "label": "一名年轻男性的头部近景，黑发向两侧分开，脸朝画面右侧，露出少",
+      "method": "local"
+    },
+    {
+      "id": "overlay_hair_heart",
+      "kind": "overlay",
+      "bbox": [
+        121,
+        403,
+        158,
+        438
+      ],
+      "description": "贴在左上头像头发上的小粉色爱心装饰，带浅色外缘，独立覆盖摄影内容。",
+      "label": "贴在左上头像头发上的小粉色爱心装饰，带浅色外缘，独立覆盖摄影",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top_middle",
+      "kind": "frame",
+      "bbox": [
+        373,
+        343,
+        707,
+        677
+      ],
+      "description": "上排中央红色方形照片载体，包含青色几何碎片、小点、彩色音符和左右下方字母式图形；中央为独立头像位置，头像外侧黄色轮廓随照片处理。",
+      "photo_id": [
+        "photo_top_middle"
+      ],
+      "label": "上排中央红色方形照片载体，包含青色几何碎片、小点、彩色音符和",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_middle",
+      "kind": "photo",
+      "bbox": [
+        415,
+        368,
+        665,
+        662
+      ],
+      "description": "一名年轻男性正面头部近景，黑色蓬松短发，额前有散落发丝，面向镜头。摄影背景不显示，完整头部与短颈沿轮廓呈现，外侧为明亮黄色描边。",
+      "label": "一名年轻男性正面头部近景，黑色蓬松短发，额前有散落发丝，面向",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_middle_star_pink",
+      "kind": "overlay",
+      "bbox": [
+        484,
+        404,
+        506,
+        427
+      ],
+      "description": "上排中央头像左上头发处的小粉紫色五角星贴饰。",
+      "label": "上排中央头像左上头发处的小粉紫色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_middle_star_green",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        430,
+        615,
+        454
+      ],
+      "description": "上排中央头像右上头发处的小黄绿色五角星贴饰。",
+      "label": "上排中央头像右上头发处的小黄绿色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_middle_star_blue",
+      "kind": "overlay",
+      "bbox": [
+        472,
+        581,
+        496,
+        608
+      ],
+      "description": "上排中央头像左下脸缘处的蓝紫色小五角星，覆盖照片及黄色轮廓附近。",
+      "label": "上排中央头像左下脸缘处的蓝紫色小五角星，覆盖照片及黄色轮廓附",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        716,
+        342,
+        1051,
+        678
+      ],
+      "description": "右上粉紫色方形照片载体，带密集彩色圆点、顶部装饰字“Dreamland”、左下分行的“LOVE”、底部条纹和红色小图案。字体与底板共同构成固定设计，中央头像独立替换。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "右上粉紫色方形照片载体，带密集彩色圆点、顶部装饰字“Drea",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        748,
+        389,
+        1006,
+        664
+      ],
+      "description": "一名年轻男性正面头部近景，黑色中分蓬松发型，神情平静，露出下巴及少量颈部。摄影环境已不显示，头部沿轮廓呈现，外侧有较宽白色描边，左下局部被黄色爱心覆盖。",
+      "label": "一名年轻男性正面头部近景，黑色中分蓬松发型，神情平静，露出下",
+      "method": "local"
+    },
+    {
+      "id": "overlay_yellow_heart",
+      "kind": "overlay",
+      "bbox": [
+        751,
+        565,
+        819,
+        622
+      ],
+      "description": "右上照片左下方的亮黄色爱心贴纸，覆盖头像左侧下颌附近及方格文字，保留完整爱心造型。",
+      "label": "右上照片左下方的亮黄色爱心贴纸，覆盖头像左侧下颌附近及方格文",
+      "method": "extract"
+    },
+    {
+      "id": "frame_middle_left",
+      "kind": "frame",
+      "bbox": [
+        26,
+        688,
+        361,
+        1026
+      ],
+      "description": "中排左侧绿色方形照片载体，带浅色网格、顶部花形连续花边、横贯中部的粉色色带及四角星形图案。中央男性头像独立，顶部LOVE艺术字和下方领结另列。",
+      "photo_id": [
+        "photo_middle_left"
+      ],
+      "label": "中排左侧绿色方形照片载体，带浅色网格、顶部花形连续花边、横贯",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        68,
+        743,
+        321,
+        993
+      ],
+      "description": "一名年轻男性微笑头部近景，露齿，黑色卷发并佩戴黑色印花头巾。头巾属于摄影内容一起替换；摄影背景不显示，头部和短颈沿轮廓显示，外围有浅黄色描边。",
+      "label": "一名年轻男性微笑头部近景，露齿，黑色卷发并佩戴黑色印花头巾。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_middle_left_love",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        713,
+        295,
+        789
+      ],
+      "description": "中排左侧头像上方的彩色LOVE艺术字，各字母以错落的两层位置排列，带粉色横向线条，部分压住头像上缘，作为完整装饰字样保留。",
+      "label": "中排左侧头像上方的彩色LOVE艺术字，各字母以错落的两层位置",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bowtie",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        972,
+        242,
+        1016
+      ],
+      "description": "中排左侧头像下方的紫色波点领结，中央结与左右翼构成一个完整贴饰，覆盖头像颈部下缘。",
+      "label": "中排左侧头像下方的紫色波点领结，中央结与左右翼构成一个完整贴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_center_tile",
+      "kind": "overlay",
+      "bbox": [
+        372,
+        688,
+        707,
+        1026
+      ],
+      "description": "九宫格中央完整文字装饰方块，深蓝外区带黄白色星星，亮绿色内区带细小彩色边饰，中间两行彩色花体字“Johnny”和“Depp”。底板、字形及周围花纹整体保留，不拆成普通文字。",
+      "label": "九宫格中央完整文字装饰方块，深蓝外区带黄白色星星，亮绿色内区",
+      "method": "extract"
+    },
+    {
+      "id": "frame_middle_right",
+      "kind": "frame",
+      "bbox": [
+        716,
+        688,
+        1052,
+        1027
+      ],
+      "description": "中排右侧彩虹渐变方形照片载体，含白色点滴、斜向闪电形色带、星形线条及上下两处彩色短线装饰。中央头像独立，头像外沿的蓝紫与粉色描边随照片处理。",
+      "photo_id": [
+        "photo_middle_right"
+      ],
+      "label": "中排右侧彩虹渐变方形照片载体，含白色点滴、斜向闪电形色带、星",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        776,
+        712,
+        991,
+        994
+      ],
+      "description": "一名成年男性正面头部近景，黑发向后梳起，略带微笑，露出颈部。摄影环境不显示，完整头部沿轮廓独立呈现，外围有蓝紫色及粉红色轮廓，右下缘附近叠有载体短线装饰。",
+      "label": "一名成年男性正面头部近景，黑发向后梳起，略带微笑，露出颈部。",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        26,
+        1031,
+        361,
+        1369
+      ],
+      "description": "左下橙黄色方形照片载体，包含黄色音符、角落细小图案及围绕头像的粉紫色网点衬形。中央帽子男性照片独立替换，照片白色外轮廓不并入固定载体。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "左下橙黄色方形照片载体，包含黄色音符、角落细小图案及围绕头像",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        61,
+        1058,
+        322,
+        1339
+      ],
+      "description": "一名成年男性戴灰褐色高顶宽檐帽的头肩近景，长黑发、细胡须，脸略朝左而目光朝镜头。帽子、头发、面部和衣领属于完整摄影主体组合，背景不显示，沿组合外缘有白色描边。",
+      "label": "一名成年男性戴灰褐色高顶宽檐帽的头肩近景，长黑发、细胡须，脸",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_middle",
+      "kind": "frame",
+      "bbox": [
+        372,
+        1031,
+        707,
+        1369
+      ],
+      "description": "下排中央青蓝色方形照片载体，带彩色圆点、音符、星星和淡黄色图案，中央为戴眼镜男性头像。完整方格图案保留，头像外侧粉色与黄色轮廓随照片处理。",
+      "photo_id": [
+        "photo_bottom_middle"
+      ],
+      "label": "下排中央青蓝色方形照片载体，带彩色圆点、音符、星星和淡黄色图",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_middle",
+      "kind": "photo",
+      "bbox": [
+        397,
+        1060,
+        669,
+        1342
+      ],
+      "description": "一名成年男性正面头部近景，黑色中长发垂至两侧，戴黑框圆眼镜，有胡须和小山羊胡。摄影环境不显示，完整头发与面部轮廓独立呈现，外侧有粉红和亮黄色描边。",
+      "label": "一名成年男性正面头部近景，黑色中长发垂至两侧，戴黑框圆眼镜，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bottom_middle_yellow",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        1106,
+        591,
+        1140
+      ],
+      "description": "下排中央头像右上头发上的黄色小蝶形贴饰，独立叠在摄影内容上。",
+      "label": "下排中央头像右上头发上的黄色小蝶形贴饰，独立叠在摄影内容上。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        716,
+        1031,
+        1051,
+        1369
+      ],
+      "description": "右下紫色方形照片载体，包含密集星形、彩色环绕弧线、右侧四块彩色底上的“叫我帅哥”及底部花体“Star Sea”。文字、色块和图案整体保留，中央男性头像独立替换。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "右下紫色方形照片载体，包含密集星形、彩色环绕弧线、右侧四块彩",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        755,
+        1069,
+        949,
+        1308
+      ],
+      "description": "一名年轻男性正面头部近景，黑色短发向后梳，额前一缕头发垂下，留细胡须，目光朝镜头。摄影背景不显示，完整头部沿轮廓呈现，外围有绿色及粉色轮廓。",
+      "label": "一名年轻男性正面头部近景，黑色短发向后梳，额前一缕头发垂下，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bottom_bar",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1391,
+        1080,
+        1524
+      ],
+      "description": "画布底端横贯全宽的亮绿色固定装饰栏，中央为蓝紫色细线、圆端点、菱形星与尖角放射星，两侧各有红、蓝及浅黄色泪滴状图案。底板与对称装饰构成一个完整横栏，遮住黄色爱心底图。",
+      "label": "画布底端横贯全宽的亮绿色固定装饰栏，中央为蓝紫色细线、圆端点",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_hearts",
+    "frame_top_left",
+    "frame_top_middle",
+    "frame_top_right",
+    "frame_middle_left",
+    "overlay_center_tile",
+    "frame_middle_right",
+    "frame_bottom_left",
+    "frame_bottom_middle",
+    "frame_bottom_right",
+    "photo_top_left",
+    "photo_top_middle",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_middle",
+    "photo_bottom_right",
+    "overlay_hair_heart",
+    "overlay_top_middle_star_pink",
+    "overlay_top_middle_star_green",
+    "overlay_top_middle_star_blue",
+    "overlay_yellow_heart",
+    "overlay_middle_left_love",
+    "overlay_bowtie",
+    "overlay_bottom_middle_yellow",
+    "overlay_heart",
+    "overlay_lovely",
+    "overlay_flower",
+    "overlay_bottom_bar"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        44,
+        44,
+        1036,
+        466
+      ],
+      "description": "顶部横向夜景花树照片，右侧和上方是盛开的白色花枝，左侧为深色天空与枝条，画面内保留完整摄影环境及照片边界。",
+      "label": "顶部横向夜景花树照片，右侧和上方是盛开的白色花枝，左侧为深色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_caption",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        263,
+        501,
+        354
+      ],
+      "description": "叠加在顶部照片左侧的白色手写风格中文说明字样，作为独立固定装饰保留，不承担照片承载功能。",
+      "label": "叠加在顶部照片左侧的白色手写风格中文说明字样，作为独立固定装",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        44,
+        509,
+        1036,
+        930
+      ],
+      "description": "中部横向庭园湖景照片，前景有粗壮树干和横向枝条，背景为湖面、山林及红绿色树叶，右下区域被白色说明字样覆盖。",
+      "label": "中部横向庭园湖景照片，前景有粗壮树干和横向枝条，背景为湖面、",
+      "method": "local"
+    },
+    {
+      "id": "overlay_middle_caption",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        800,
+        1025,
+        884
+      ],
+      "description": "叠加在中部湖景照片右下方的白色手写风格中文说明字样，覆盖部分树枝和水面，作为独立固定装饰保留。",
+      "label": "叠加在中部湖景照片右下方的白色手写风格中文说明字样，覆盖部分",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        44,
+        974,
+        1036,
+        1397
+      ],
+      "description": "底部横向室内角落照片，左侧是带唱片图案的海报，中部是写有紫色字样的墙面，右侧有墙面照片、卡片和小物件，右下有白色说明字样。",
+      "label": "底部横向室内角落照片，左侧是带唱片图案的海报，中部是写有紫色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bottom_caption",
+      "kind": "overlay",
+      "bbox": [
+        616,
+        1317,
+        943,
+        1365
+      ],
+      "description": "叠加在底部室内照片右下方的白色手写风格中文说明字样，作为独立固定装饰保留。",
+      "label": "叠加在底部室内照片右下方的白色手写风格中文说明字样，作为独立",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "overlay_top_caption",
+    "photo_middle",
+    "overlay_middle_caption",
+    "photo_bottom",
+    "overlay_bottom_caption"
+  ]
+}

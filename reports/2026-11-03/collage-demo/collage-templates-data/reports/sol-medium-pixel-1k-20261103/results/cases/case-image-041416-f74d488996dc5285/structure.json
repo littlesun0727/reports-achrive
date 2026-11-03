@@ -1,0 +1,99 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        66,
+        117,
+        667,
+        963
+      ],
+      "description": "左侧竖幅照片，年轻女性穿白色图案上衣和深色长裤，站在树木、建筑与道路护栏前，身体正面朝向镜头，双手靠近身前；完整保留照片内的树、建筑和地面环境，窗口边缘被胶片边框遮住。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        784,
+        120,
+        1392,
+        966
+      ],
+      "description": "右侧竖幅照片，同一年轻女性穿白色图案上衣和深色长裤，双腿分开站立并双手举起比手势，面向镜头；保留树木、建筑、护栏和地面等摄影环境，完整窗口边缘受胶片边框遮挡。"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        1441,
+        1080
+      ],
+      "description": "贯穿画面的黑色胶片框体，含上下两排白色圆角齿孔、中央分隔黑带、边缘细小标记及黄色印字“FUJI RDP III”和底部箭头；中央黑带上还有黄色手写字样及白色笑脸，均作为胶片上的固定印记保留。框体围绕左右两个独立照片窗口。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "overlay_center_note",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        142,
+        853,
+        772
+      ],
+      "description": "中央竖向黑色分隔带上的黄色手写批注，分行纵向排列并略微延伸至两侧照片上方；保留原有手写笔画与不规则排布，不能拆成普通文字。"
+    },
+    {
+      "id": "overlay_right_note",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        251,
+        968,
+        344
+      ],
+      "description": "右侧照片上方偏左的白色手写批注，横向分成两行，叠在建筑背景区域；保留手写字形和原有位置。"
+    },
+    {
+      "id": "overlay_left_note",
+      "kind": "overlay",
+      "bbox": [
+        509,
+        507,
+        612,
+        549
+      ],
+      "description": "左侧照片中部靠右、建筑墙面上的白色手写短字样，作为独立叠加批注保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1380,
+        1045,
+        1431,
+        1071
+      ],
+      "description": "画面右下角黑色胶片边缘上的小型灰色平台水印标记，作为独立固定图形保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "frame_film",
+    "overlay_center_note",
+    "overlay_right_note",
+    "overlay_left_note",
+    "overlay_watermark"
+  ]
+}

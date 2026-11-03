@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的室内摄影画面覆盖全画布：木地板、桌面与桌腿、棕色手提包及包上的两只毛绒挂件构成同一场景；包和挂件位于画面中央，桌面与蓝白盘子露在上方，地板延伸至下方边缘。右上方表情贴图和底部文字遮挡局部，摄影环境仍作为整体替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_ok",
+      "kind": "overlay",
+      "bbox": [
+        835,
+        132,
+        990,
+        195
+      ],
+      "description": "右上方独立的彩色手绘字样“OK!!”，粉色、蓝色与绿色笔画组成，保留原有字形和位置。"
+    },
+    {
+      "id": "overlay_onion_emoji",
+      "kind": "overlay",
+      "bbox": [
+        805,
+        286,
+        995,
+        482
+      ],
+      "description": "右上方独立卡通贴图：戴眼镜的洋葱形表情角色，一手比出手势，另一手靠近咖啡杯；完整贴图压在包和背景摄影画面之上。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        196,
+        1243,
+        519,
+        1298
+      ],
+      "description": "底部偏左的浅黄色横向标签，内有黑色粗斜体字样“Haaaaaaaappy!  !”；文字与底色构成一个完整固定设计单元。"
+    },
+    {
+      "id": "overlay_daily_blog",
+      "kind": "overlay",
+      "bbox": [
+        582,
+        1264,
+        969,
+        1324
+      ],
+      "description": "底部偏右的白色装饰字样“#Daily blog”，采用粗重衬线展示字形，下面带一条白色横线；作为整体固定文字设计保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_ok",
+    "overlay_onion_emoji",
+    "overlay_caption",
+    "overlay_daily_blog"
+  ]
+}

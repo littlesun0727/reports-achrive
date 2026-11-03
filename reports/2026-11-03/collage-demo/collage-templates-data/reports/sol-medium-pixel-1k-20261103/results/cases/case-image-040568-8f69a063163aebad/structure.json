@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_base",
+    "description": "连续的浅蓝灰渐变广告底图，包含下方深灰透视台面、蓝色发光圆形结构及四周的柔和蓝色光晕；三张独立照片、中央产品和文字叠加在其上，底图固定保留并覆盖整个画布。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_stand",
+      "kind": "photo",
+      "bbox": [
+        247,
+        75,
+        850,
+        456
+      ],
+      "description": "上方弧形照片窗口，显示一名男子在室内桌面前操作橙色手机及桌面支架，人物位于中央偏左并面向镜头；完整摄影环境保留在窗口内，照片沿弧形和下方尖角裁切，边缘带蓝色描边。"
+    },
+    {
+      "id": "photo_left_car_mount",
+      "kind": "photo",
+      "bbox": [
+        16,
+        192,
+        489,
+        720
+      ],
+      "description": "左侧倾斜圆角照片窗口，显示汽车座舱、座椅和手机车载支架，车内环境完整保留；窗口右下区域被中央产品遮挡，外轮廓带蓝色描边。"
+    },
+    {
+      "id": "photo_right_powerbank",
+      "kind": "photo",
+      "bbox": [
+        593,
+        201,
+        1065,
+        732
+      ],
+      "description": "右侧倾斜圆角照片窗口，显示一名穿棕色衣服的人手持黑色移动电源，人物和室内摄影环境保留；左下区域被中央产品遮挡，窗口外轮廓带蓝色描边。"
+    },
+    {
+      "id": "overlay_top_label",
+      "kind": "overlay",
+      "bbox": [
+        438,
+        345,
+        695,
+        411
+      ],
+      "description": "叠加在上方照片下部的白色标签单元，包含支架图标和文字“Tischständer”，整体作为带图标的固定标签保留。"
+    },
+    {
+      "id": "overlay_left_label",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        566,
+        303,
+        626
+      ],
+      "description": "叠加在左侧汽车照片下部的白色标签单元，包含圆形图标和文字“Autohalterung”，整体作为固定标签保留。"
+    },
+    {
+      "id": "overlay_right_label",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        566,
+        1042,
+        630
+      ],
+      "description": "叠加在右侧照片下部的白色标签单元，包含电池图标和文字“Powerbank”，整体作为固定标签保留。"
+    },
+    {
+      "id": "photo_main_charger",
+      "kind": "photo",
+      "bbox": [
+        278,
+        447,
+        805,
+        965
+      ],
+      "description": "画面中央的独立产品摄影主体，显示圆形金属无线充电底座、透明蓝色发光圆柱结构及向前延伸的白色支臂；主体周围呈抠图式显示并覆盖后方照片与底图，产品的完整可见轮廓和底部光效均保留。"
+    },
+    {
+      "id": "text_headline",
+      "kind": "text",
+      "bbox": [
+        103,
+        1044,
+        1000,
+        1122
+      ],
+      "text": "Andocken. Einrasten. Sicher",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_comparison_graph",
+      "kind": "overlay",
+      "bbox": [
+        204,
+        1150,
+        887,
+        1330
+      ],
+      "description": "底部固定数据图形单元，包含向右上方延伸的白色箭头、蓝色曲线和文字“Verbesserte 7X Saugkraft”，以及三组对比数据“340gf / N36 Sonstige”、“1200gf / N48 Offiziell”和“2400gf / N52 LISEN”；保留其中的白蓝混排、字号层级和整体排版。"
+    },
+    {
+      "id": "overlay_magnetic_label",
+      "kind": "overlay",
+      "bbox": [
+        214,
+        1177,
+        322,
+        1226
+      ],
+      "description": "底部左侧的两行白色说明文字“Magnetische Kraft (9f)”，作为数据图形中的固定文字单元保留。"
+    },
+    {
+      "id": "overlay_bottom_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1381,
+        1072,
+        1402
+      ],
+      "description": "右下角极浅色小型品牌或水印标记，内容难以辨认，作为固定装饰整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_stand",
+    "photo_left_car_mount",
+    "photo_right_powerbank",
+    "overlay_top_label",
+    "overlay_left_label",
+    "overlay_right_label",
+    "photo_main_charger",
+    "text_headline",
+    "overlay_comparison_graph",
+    "overlay_magnetic_label",
+    "overlay_bottom_watermark"
+  ]
+}

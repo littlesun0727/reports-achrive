@@ -1,0 +1,235 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "poster_base",
+    "description": "全画布为泛黄浅米色旧纸底，四边、照片之间及标题区域可见连续的斑驳颗粒、轻微污痕和磨损质感。保留固定纸底原貌，独立人物照片、标题、宣传文字和片尾信息不归入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        57,
+        82,
+        335,
+        1265
+      ],
+      "description": "左侧通高竖向人物画面，一名戴浅色棒球帽、留胡须的男子穿深色牛仔外套与长裤，身体略侧转，面向镜头，左手垂在身前。黑白人物与鲜红背景构成完整矩形显示区域；帽子和头部连续越过右边界，另由关联前景表达。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        357,
+        82,
+        635,
+        656
+      ],
+      "description": "上方中央竖向照片，一名短卷发中年男子穿浅色外套、浅色衬衫和深色裤子，正面站立，头略转向左，显示至大腿上部。黑白人物背后保留鲜红背景；肩部和外套连续越过左右边界，另由关联前景表达。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        658,
+        82,
+        934,
+        726
+      ],
+      "description": "右上独立竖向照片，一名深色短发男子穿黑色西装、白衬衫及斜纹领带，身体略偏转，面向镜头，显示头部至腰腹附近。人物为黑白色调，背景鲜红；完整窗口延伸至矩形四边，人物在左右及下缘被窗口裁切。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        357,
+        1041,
+        934,
+        1265
+      ],
+      "description": "右下横向双人照片，左侧为灰白头发、穿花纹衬衫的中老年男子，右侧为深色齐颈短发、穿深色上衣的女子，两人正面看向镜头。黑白人物与鲜红背景属于同一连续画面，显示头肩及部分胸部，顶部和下缘有裁切，不按两个人物拆分。"
+    },
+    {
+      "id": "photo_center_foreground",
+      "kind": "photo",
+      "bbox": [
+        333,
+        125,
+        659,
+        656
+      ],
+      "description": "延伸自中央照片的同一名男子，沿完整可见人物轮廓显示，不保留其周围红色背景。浅色外套两肩及两侧衣袖越过中央窗口左右边缘，覆盖米色照片间隔；下缘仍与原照片底边齐平裁切，与底层共用同一摄影内容。",
+      "linked_to": "photo_center"
+    },
+    {
+      "id": "photo_left_foreground",
+      "kind": "photo",
+      "bbox": [
+        57,
+        91,
+        383,
+        1265
+      ],
+      "description": "延伸自左侧照片的同一名戴帽男子，沿帽子、头部及身体的完整可见轮廓显示，周围摄影背景不保留。帽檐和脸部越过左侧窗口右边缘，覆盖米色间隔并进入中央红色窗口左上角；身体左缘和下缘仍被原窗口裁切。",
+      "linked_to": "photo_left"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        183,
+        40,
+        817,
+        63
+      ],
+      "text": "“KILLER ONE LINERS... A WICKED LITTLE PICTURE”",
+      "color": "#171C1D",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_quote_source",
+      "kind": "text",
+      "bbox": [
+        470,
+        67,
+        535,
+        75
+      ],
+      "text": "SCREEN DAILY",
+      "color": "#57584C",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_tagline",
+      "kind": "text",
+      "bbox": [
+        355,
+        679,
+        577,
+        728
+      ],
+      "text": "FAMILY FEUDS\nARE A KILLER",
+      "color": "#D92920",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        353,
+        743,
+        938,
+        914
+      ],
+      "text": "DARK LIES\nTHE ISLAND",
+      "color": "#182029",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_billing",
+      "kind": "overlay",
+      "bbox": [
+        417,
+        924,
+        938,
+        1031
+      ],
+      "description": "标题下方完整的电影片尾信息设计块，包含多行极细、窄体的制作人员与公司信息，以及底部一排发行和资助机构标志。可辨标志包括RTE；其余微小文字不强行转录。保留原有紧密排布、不同字形和标志轮廓，不并入纸底或照片。"
+    },
+    {
+      "id": "text_hashtag",
+      "kind": "text",
+      "bbox": [
+        57,
+        1289,
+        156,
+        1305
+      ],
+      "text": "#DARKLIES",
+      "color": "#C62D22",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_website",
+      "kind": "text",
+      "bbox": [
+        168,
+        1289,
+        335,
+        1305
+      ],
+      "text": "WWW.DARKLIES.IE",
+      "color": "#192020",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_release_label",
+      "kind": "text",
+      "bbox": [
+        443,
+        1274,
+        681,
+        1306
+      ],
+      "text": "IN CINEMAS",
+      "color": "#172632",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_release_date",
+      "kind": "text",
+      "bbox": [
+        691,
+        1274,
+        935,
+        1306
+      ],
+      "text": "OCTOBER 18",
+      "color": "#D62920",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "photo_bottom",
+    "photo_center_foreground",
+    "photo_left_foreground",
+    "text_quote",
+    "text_quote_source",
+    "text_tagline",
+    "text_title",
+    "overlay_billing",
+    "text_hashtag",
+    "text_website",
+    "text_release_label",
+    "text_release_date"
+  ]
+}

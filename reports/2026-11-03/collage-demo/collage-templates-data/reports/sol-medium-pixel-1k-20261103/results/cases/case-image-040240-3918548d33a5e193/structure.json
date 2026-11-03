@@ -1,0 +1,228 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "连续的浅米色至浅绿色渐变底图，保留贯穿全画布的绿色环形线条、柔和光晕及边缘叶片装饰；这些固定设计延伸至画布四边，独立照片和文字叠加其上并遮挡局部。"
+  },
+  "objects": [
+    {
+      "id": "photo_central_development",
+      "kind": "photo",
+      "bbox": [
+        0,
+        520,
+        614,
+        826
+      ],
+      "description": "中央大型地产开发场景照片，包含高层住宅、商业建筑、园区道路、绿化景观、中央建筑及前景行人，保留完整摄影环境；照片边缘以柔和渐隐融入浅色底图。"
+    },
+    {
+      "id": "photo_hospital",
+      "kind": "photo",
+      "bbox": [
+        344,
+        124,
+        630,
+        347
+      ],
+      "description": "上方偏中的医院建筑照片，包含高层医院、低层建筑、树木与天空，显示为向右倾斜的弧边窗口，并带依附照片边缘的绿色描边。"
+    },
+    {
+      "id": "photo_vinwonders",
+      "kind": "photo",
+      "bbox": [
+        563,
+        287,
+        847,
+        548
+      ],
+      "description": "右上方主题乐园宣传照片，包含橙黄色背景、游乐设施、人物和装饰性景观，显示为不规则弧边窗口，沿窗口边缘保留绿色描边。"
+    },
+    {
+      "id": "photo_megamall",
+      "kind": "photo",
+      "bbox": [
+        582,
+        587,
+        859,
+        884
+      ],
+      "description": "右侧下方商业综合体夜景照片，包含现代商场建筑、灯光、棕榈树和前景行人，显示为倾斜的不规则窗口，带依附窗口轮廓的绿色描边。"
+    },
+    {
+      "id": "photo_vinschool",
+      "kind": "photo",
+      "bbox": [
+        10,
+        778,
+        308,
+        1055
+      ],
+      "description": "左下方学校建筑与运动场俯视照片，包含校园楼体、红色跑道、绿色球场及周边景观，显示为倾斜的弧边窗口，沿照片边缘保留绿色描边。"
+    },
+    {
+      "id": "photo_ring_road",
+      "kind": "photo",
+      "bbox": [
+        364,
+        784,
+        676,
+        1065
+      ],
+      "description": "下方偏中的城市规划俯视照片，包含住宅组团、道路、湖泊和绿化景观，照片中可见白色字样，显示为倾斜的不规则窗口并带绿色边缘描边。"
+    },
+    {
+      "id": "overlay_brand_logo",
+      "kind": "overlay",
+      "bbox": [
+        419,
+        27,
+        511,
+        115
+      ],
+      "description": "画布顶部的 Vinhomes Grand Park 品牌标志，包含彩色抽象树形图案与两行品牌字样，作为完整固定标识保留。"
+    },
+    {
+      "id": "text_hospital_label",
+      "kind": "text",
+      "bbox": [
+        175,
+        168,
+        328,
+        228
+      ],
+      "text": "BỆNH VIỆN\nVINMEC",
+      "color": "#28663B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_vinwonders_label",
+      "kind": "text",
+      "bbox": [
+        637,
+        216,
+        835,
+        273
+      ],
+      "text": "CÔNG VIÊN GIẢI TRÍ\nVINWONDERS",
+      "color": "#28663B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_main_title",
+      "kind": "text",
+      "bbox": [
+        82,
+        323,
+        507,
+        433
+      ],
+      "text": "5 CÔNG TRÌNH\nTRỌNG ĐIỂM",
+      "color": "#19743B",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_script_slogan",
+      "kind": "overlay",
+      "bbox": [
+        286,
+        431,
+        510,
+        487
+      ],
+      "description": "主标题下方的绿色手写体标语“Tạo sức bật lớn”，具有独立的书写笔画和艺术字形，作为固定艺术字整体保留。"
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        172,
+        491,
+        529,
+        524
+      ],
+      "text": "Cho VINHOMES GRAND PARK",
+      "color": "#28663B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_megamall_label",
+      "kind": "text",
+      "bbox": [
+        793,
+        900,
+        921,
+        955
+      ],
+      "text": "VINCOM\nMEGA MALL",
+      "color": "#28663B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_vinschool_label",
+      "kind": "text",
+      "bbox": [
+        73,
+        1065,
+        293,
+        1121
+      ],
+      "text": "HỆ THỐNG TRƯỜNG\nVINSCHOOL",
+      "color": "#28663B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_ring_road_label",
+      "kind": "text",
+      "bbox": [
+        500,
+        1074,
+        741,
+        1109
+      ],
+      "text": "ĐƯỜNG VÀNH ĐAI 3",
+      "color": "#28663B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_central_development",
+    "photo_hospital",
+    "photo_vinwonders",
+    "photo_megamall",
+    "photo_vinschool",
+    "photo_ring_road",
+    "text_hospital_label",
+    "text_vinwonders_label",
+    "text_megamall_label",
+    "text_vinschool_label",
+    "text_ring_road_label",
+    "text_main_title",
+    "overlay_script_slogan",
+    "text_subtitle",
+    "overlay_brand_logo"
+  ]
+}
