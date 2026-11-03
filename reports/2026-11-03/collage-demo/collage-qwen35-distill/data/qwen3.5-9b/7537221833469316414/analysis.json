@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1120
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1120
+      ],
+      "description": "木质墙面、地板、门框、挂钟、电话、花瓶与花束构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "木质墙面、地板、门框、挂钟、电话、花瓶与花束构成连续摄影底图",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        81,
+        103,
+        405,
+        543
+      ],
+      "description": "左上人物侧卧照片，人物穿灰白拼接上衣，保留人物及身后的摄影环境，显示区域为矩形。",
+      "label": "左上人物侧卧照片，人物穿灰白拼接上衣，保留人物及身后的摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        374,
+        398,
+        846,
+        745
+      ],
+      "description": "中间右侧人物吃苹果特写照片，保留人物面部及苹果，显示区域为矩形。",
+      "label": "中间右侧人物吃苹果特写照片，保留人物面部及苹果，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        135,
+        694,
+        778,
+        1064
+      ],
+      "description": "下方人物躺卧照片，人物穿灰白拼接上衣和蓝色短裤，保留人物及身后的摄影环境，显示区域为矩形。",
+      "label": "下方人物躺卧照片，人物穿灰白拼接上衣和蓝色短裤，保留人物及身",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        554,
+        238,
+        778
+      ],
+      "description": "橙色百合花，带水珠，作为独立固定装饰保留，位于左下照片左侧。",
+      "label": "橙色百合花，带水珠，作为独立固定装饰保留，位于左下照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        90,
+        495,
+        174
+      ],
+      "description": "白色星形装饰，位于左上照片右上方。",
+      "label": "白色星形装饰，位于左上照片右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        269,
+        558,
+        330
+      ],
+      "description": "白色星形装饰，位于中间电话右侧。",
+      "label": "白色星形装饰，位于中间电话右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        258,
+        747,
+        319
+      ],
+      "description": "白色星形装饰，位于花瓶左侧。",
+      "label": "白色星形装饰，位于花瓶左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        358,
+        846,
+        448
+      ],
+      "description": "白色星形装饰，位于中间照片右上方。",
+      "label": "白色星形装饰，位于中间照片右上方。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper_left",
+    "photo_middle_right",
+    "photo_lower",
+    "overlay_lily",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4"
+  ]
+}

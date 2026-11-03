@@ -1,0 +1,292 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#240913"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        50,
+        68,
+        252,
+        294
+      ],
+      "description": "特写照片，展示一只画有浓重眼妆的眼睛，周围装饰着花朵和蝴蝶贴纸。",
+      "label": "特写照片，展示一只画有浓重眼妆的眼睛，周围装饰着花朵和蝴蝶贴",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        28,
+        46,
+        274,
+        350
+      ],
+      "description": "红色拍立得相纸边框，表面带有涂鸦文字和图案，包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "红色拍立得相纸边框，表面带有涂鸦文字和图案，包裹着内部的照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        330,
+        58,
+        551,
+        294
+      ],
+      "description": "特写照片，展示一只眼睛和部分面部，光影斑驳。",
+      "label": "特写照片，展示一只眼睛和部分面部，光影斑驳。",
+      "method": "local"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        308,
+        40,
+        573,
+        350
+      ],
+      "description": "黑色拍立得相纸边框，表面带有白色涂鸦线条和文字（如TARTOWN RECORD CO），包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "黑色拍立得相纸边框，表面带有白色涂鸦线条和文字（如TARTO",
+      "method": "extract"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        616,
+        58,
+        836,
+        294
+      ],
+      "description": "特写照片，展示鼻子和嘴部，发丝散落在脸上。",
+      "label": "特写照片，展示鼻子和嘴部，发丝散落在脸上。",
+      "method": "local"
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        593,
+        40,
+        859,
+        350
+      ],
+      "description": "黄色拍立得相纸边框，底部印有黑色“BASQUIAT”字样，包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_3"
+      ],
+      "label": "黄色拍立得相纸边框，底部印有黑色“BASQUIAT”字样，包",
+      "method": "extract"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        50,
+        422,
+        252,
+        648
+      ],
+      "description": "特写照片，展示张开的嘴巴含着一颗红樱桃。",
+      "label": "特写照片，展示张开的嘴巴含着一颗红樱桃。",
+      "method": "local"
+    },
+    {
+      "id": "frame_4",
+      "kind": "frame",
+      "bbox": [
+        28,
+        398,
+        274,
+        704
+      ],
+      "description": "白色拍立得相纸边框，表面带有黑色涂鸦文字和符号，包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_4"
+      ],
+      "label": "白色拍立得相纸边框，表面带有黑色涂鸦文字和符号，包裹着内部的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_polaroid_box",
+      "kind": "overlay",
+      "bbox": [
+        317,
+        386,
+        583,
+        716
+      ],
+      "description": "深灰色宝丽来胶卷包装盒，上面印有白色说明文字“Keep your friends close, and your Polaroid film in the fridge.”以及品牌Logo。",
+      "label": "深灰色宝丽来胶卷包装盒，上面印有白色说明文字“Keep yo",
+      "method": "extract"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        616,
+        416,
+        836,
+        648
+      ],
+      "description": "特写照片，展示人物侧脸，耳边佩戴着花饰。",
+      "label": "特写照片，展示人物侧脸，耳边佩戴着花饰。",
+      "method": "local"
+    },
+    {
+      "id": "frame_5",
+      "kind": "frame",
+      "bbox": [
+        593,
+        398,
+        859,
+        704
+      ],
+      "description": "白色拍立得相纸边框，表面带有彩色涂鸦图案，包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_5"
+      ],
+      "label": "白色拍立得相纸边框，表面带有彩色涂鸦图案，包裹着内部的照片窗",
+      "method": "extract"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        50,
+        788,
+        252,
+        1014
+      ],
+      "description": "特写照片，展示人物侧脸，耳边佩戴着色彩鲜艳的花朵。",
+      "label": "特写照片，展示人物侧脸，耳边佩戴着色彩鲜艳的花朵。",
+      "method": "local"
+    },
+    {
+      "id": "frame_6",
+      "kind": "frame",
+      "bbox": [
+        28,
+        764,
+        274,
+        1070
+      ],
+      "description": "黄色拍立得相纸边框，表面带有蓝色涂鸦文字和图案，包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_6"
+      ],
+      "label": "黄色拍立得相纸边框，表面带有蓝色涂鸦文字和图案，包裹着内部的",
+      "method": "extract"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        330,
+        782,
+        551,
+        1008
+      ],
+      "description": "特写照片，展示画有亮片眼妆的眼睛，下方贴有星星贴纸。",
+      "label": "特写照片，展示画有亮片眼妆的眼睛，下方贴有星星贴纸。",
+      "method": "local"
+    },
+    {
+      "id": "frame_7",
+      "kind": "frame",
+      "bbox": [
+        308,
+        764,
+        573,
+        1070
+      ],
+      "description": "黑色拍立得相纸边框，底部印有皇冠图标和“JEAN-MICHEL BASQUIAT”字样，包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_7"
+      ],
+      "label": "黑色拍立得相纸边框，底部印有皇冠图标和“JEAN-MICHE",
+      "method": "extract"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        616,
+        782,
+        836,
+        1008
+      ],
+      "description": "特写照片，展示嘴部咬着一颗杨桃，脸颊旁有一颗蓝色星星贴纸。",
+      "label": "特写照片，展示嘴部咬着一颗杨桃，脸颊旁有一颗蓝色星星贴纸。",
+      "method": "local"
+    },
+    {
+      "id": "frame_8",
+      "kind": "frame",
+      "bbox": [
+        593,
+        764,
+        859,
+        1070
+      ],
+      "description": "彩色抽象纹理的拍立得相纸边框，包裹着内部的照片窗口。",
+      "photo_id": [
+        "photo_8"
+      ],
+      "label": "彩色抽象纹理的拍立得相纸边框，包裹着内部的照片窗口。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_1",
+    "photo_1",
+    "frame_2",
+    "photo_2",
+    "frame_3",
+    "photo_3",
+    "frame_4",
+    "photo_4",
+    "overlay_polaroid_box",
+    "frame_5",
+    "photo_5",
+    "frame_6",
+    "photo_6",
+    "frame_7",
+    "photo_7",
+    "frame_8",
+    "photo_8"
+  ]
+}

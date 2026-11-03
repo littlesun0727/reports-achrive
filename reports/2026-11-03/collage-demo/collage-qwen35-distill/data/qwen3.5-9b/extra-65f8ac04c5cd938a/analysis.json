@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        960,
+        426
+      ],
+      "description": "顶部人物双臂上举照片，保留人物及身后的摄影环境，显示区域为水平矩形。",
+      "label": "顶部人物双臂上举照片，保留人物及身后的摄影环境，显示区域为水",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        426,
+        960,
+        852
+      ],
+      "description": "中部人物近景照片，保留人物及身后的摄影环境，显示区域为水平矩形。",
+      "label": "中部人物近景照片，保留人物及身后的摄影环境，显示区域为水平矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        852,
+        960,
+        1280
+      ],
+      "description": "底部人物近景照片，保留人物及身后的摄影环境，显示区域为水平矩形。",
+      "label": "底部人物近景照片，保留人物及身后的摄影环境，显示区域为水平矩",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

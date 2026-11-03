@@ -1,0 +1,132 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "浅蓝色调的固定纹理底图，包含水彩晕染、星形剪影和翅膀剪影等装饰元素，整体呈现拼贴风格；上层照片和文字框遮挡局部，保留底图可见区域。",
+      "background_type": "photo",
+      "label": "浅蓝色调的固定纹理底图，包含水彩晕染、星形剪影和翅膀剪影等装",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        52,
+        201,
+        585,
+        881
+      ],
+      "description": "人物坐姿照片，女孩身穿条纹衬衫，背景为绿色植物墙，保留完整摄影环境，显示区域为矩形。",
+      "label": "人物坐姿照片，女孩身穿条纹衬衫，背景为绿色植物墙，保留完整摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        421,
+        395,
+        664,
+        553
+      ],
+      "description": "花卉特写照片，白色花朵与绿叶，保留完整摄影环境，显示区域为矩形。",
+      "label": "花卉特写照片，白色花朵与绿叶，保留完整摄影环境，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "frame_flower",
+      "kind": "frame",
+      "bbox": [
+        385,
+        363,
+        700,
+        579
+      ],
+      "description": "围绕花卉照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_flower"
+      ],
+      "label": "围绕花卉照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚",
+      "method": "extract"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        432,
+        827,
+        788,
+        898
+      ],
+      "description": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "label": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "method": "local",
+      "text": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_decor",
+      "kind": "text",
+      "bbox": [
+        720,
+        288,
+        828,
+        335
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        910,
+        778,
+        946
+      ],
+      "description": "两个心形装饰图案，作为独立固定装饰保留。",
+      "label": "两个心形装饰图案，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_main",
+    "photo_flower",
+    "frame_flower",
+    "text_main",
+    "text_decor",
+    "overlay_hearts"
+  ]
+}

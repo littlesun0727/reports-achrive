@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布固定底图，为带有细微纹理的米色纸张，承载所有独立照片与手绘装饰，纸纹保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        358,
+        170,
+        638,
+        388
+      ],
+      "description": "顶部俯拍食物照片，包含披萨、炸鸡、饮料和黄色格纹桌布，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        235,
+        375,
+        396,
+        506
+      ],
+      "description": "左侧中景照片，展示木质桌面、咖啡杯和甜点，保留桌面环境。"
+    },
+    {
+      "id": "photo_mid_center",
+      "kind": "photo",
+      "bbox": [
+        394,
+        388,
+        597,
+        493
+      ],
+      "description": "中间照片，展示黑色圆形托盘上的蛋糕和饮品，保留托盘环境。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        600,
+        328,
+        791,
+        498
+      ],
+      "description": "右侧中景照片，展示餐桌上的菜肴和餐具，保留餐桌环境。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        178,
+        493,
+        375,
+        725
+      ],
+      "description": "左下照片，展示煎蛋、牛肉和配菜，保留餐盘环境。"
+    },
+    {
+      "id": "photo_lower_center",
+      "kind": "photo",
+      "bbox": [
+        378,
+        488,
+        604,
+        728
+      ],
+      "description": "中间下方照片，展示披萨和沙拉，保留餐盘环境。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        604,
+        493,
+        818,
+        708
+      ],
+      "description": "右下照片，展示水果和甜点，保留餐盘环境。"
+    },
+    {
+      "id": "overlay_bowl",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        688,
+        891,
+        912
+      ],
+      "description": "手绘碗形装饰，位于底部中央，包含文字'My Daily Plog'，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        142,
+        291,
+        318
+      ],
+      "description": "左上角手绘叉子，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spoon",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        138,
+        291,
+        308
+      ],
+      "description": "左上角手绘勺子，与叉子相邻，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spiral_1",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        518,
+        148,
+        658
+      ],
+      "description": "左侧手绘螺旋装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spiral_2",
+      "kind": "overlay",
+      "bbox": [
+        818,
+        398,
+        918,
+        468
+      ],
+      "description": "右侧手绘螺旋装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spiral_3",
+      "kind": "overlay",
+      "bbox": [
+        758,
+        78,
+        878,
+        132
+      ],
+      "description": "右上角手绘螺旋装饰，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_mid_left",
+    "photo_mid_center",
+    "photo_mid_right",
+    "photo_lower_left",
+    "photo_lower_center",
+    "photo_lower_right",
+    "overlay_bowl",
+    "overlay_fork",
+    "overlay_spoon",
+    "overlay_spiral_1",
+    "overlay_spiral_2",
+    "overlay_spiral_3"
+  ]
+}

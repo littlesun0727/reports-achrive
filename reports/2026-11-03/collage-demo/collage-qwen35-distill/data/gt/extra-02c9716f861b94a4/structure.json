@@ -1,0 +1,239 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_paper",
+    "description": "全画布连续的灰褐色颗粒纸纹，上部较深、下部渐浅，照片及装饰间隙均可见同一底纹；保留颜色变化与纸张质感，独立摄影和装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        133,
+        102,
+        618,
+        585
+      ],
+      "description": "竖向照片，一杯带透明塑料盖的饮品置于纸杯托中，后方可见笔记本电脑键盘和屏幕人物画面，无独立真人主体。保留完整摄影环境，照片下部被星形装饰和文字纸条遮挡；窗口四周有细白色粗糙线边。"
+    },
+    {
+      "id": "photo_landscape",
+      "kind": "photo",
+      "bbox": [
+        383,
+        609,
+        874,
+        888
+      ],
+      "description": "横向公园风景照片，前景池塘，中景草地、长椅和树木，右侧开花树，远处有建筑与蓝天，无明显人物主体。保留完整摄影环境，四周为细白色粗糙线边，左下部分被音乐播放器遮挡。"
+    },
+    {
+      "id": "photo_small_cup",
+      "kind": "photo",
+      "bbox": [
+        671,
+        377,
+        863,
+        483
+      ],
+      "description": "独立黑色饮品杯及透明塑料封口，沿杯体和盖子的完整外轮廓去除摄影背景，底部压在米色纸条上；杯上另叠白色眼睛、线条与红色嘴部装饰，不包含在摄影内容中。"
+    },
+    {
+      "id": "overlay_cup_face",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        377,
+        809,
+        462
+      ],
+      "description": "叠在小黑杯上的手绘表情装饰，包含两只白底黑瞳眼睛、红白色张嘴及向下延伸的线条，以及杯盖左侧白色环绕曲线，整体保留。"
+    },
+    {
+      "id": "overlay_quote",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        460,
+        854,
+        578
+      ],
+      "description": "横向浅米色撕纸标签，带不规则白色毛边、纸张纹理及柔和阴影，纸内印有“不管何时，生活的目标是健康和快乐”；文字与纸条整体保留。"
+    },
+    {
+      "id": "overlay_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        7,
+        425,
+        261,
+        618
+      ],
+      "description": "左侧蓝色五角星形撕纸装饰，具有宽窄不均的白色毛边和投影，内部保留深浅蓝色纸面、竖向深色条带及细小中文印字，整体覆盖主照片左下角。"
+    },
+    {
+      "id": "overlay_outline_star",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        162,
+        251,
+        217
+      ],
+      "description": "主照片左上方的白色手绘空心五角星，线条略有粗糙感，独立保留。"
+    },
+    {
+      "id": "overlay_white_star_top",
+      "kind": "overlay",
+      "bbox": [
+        281,
+        137,
+        328,
+        174
+      ],
+      "description": "主照片顶部偏左的白色实心五角星贴饰。"
+    },
+    {
+      "id": "overlay_white_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        248,
+        229,
+        291,
+        259
+      ],
+      "description": "位于主照片杯盖左上侧的小型白色实心星形贴饰。"
+    },
+    {
+      "id": "overlay_top_corner",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        78,
+        198,
+        142
+      ],
+      "description": "主照片左上外侧的白色手绘直角折线，横线向右延伸，竖线向下延伸，保留粉笔式粗糙边缘。"
+    },
+    {
+      "id": "text_coffee",
+      "kind": "text",
+      "bbox": [
+        221,
+        67,
+        414,
+        92
+      ],
+      "text": "coffee",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        111,
+        881,
+        275
+      ],
+      "description": "右上方三组分散的白色手绘放射短线，分别位于上方、右中及右下，作为一组闪光涂鸦保留。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        647,
+        200,
+        761,
+        362
+      ],
+      "description": "主照片右侧纵向分布的五个白色手绘气泡圈，大小不一，部分圆圈内带短弧形高光线，整体保留。"
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        603,
+        341,
+        710
+      ],
+      "description": "两只斜向排列的白色线描小鸟，保留翅膀、尾部与眼睛线条，位于两张照片之间偏左的空隙。"
+    },
+    {
+      "id": "overlay_landscape_doodle",
+      "kind": "overlay",
+      "bbox": [
+        687,
+        626,
+        822,
+        694
+      ],
+      "description": "风景照片右上蓝天区域的白色手绘场记板图案，包含矩形板身、斜举的板条、内部短线及右侧放射笔画，整体保留。"
+    },
+    {
+      "id": "overlay_music_player",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        735,
+        450,
+        880
+      ],
+      "description": "半透明深灰色圆角音乐播放器面板，含音符封面、小型曲目信息、星号文字、时间、进度条、上一首、暂停、下一首按钮及右侧声波短线，全部作为完整界面装饰保留；右缘覆盖风景照片左下区域。"
+    },
+    {
+      "id": "overlay_bottom_corner",
+      "kind": "overlay",
+      "bbox": [
+        798,
+        839,
+        899,
+        904
+      ],
+      "description": "风景照片右下外侧的白色手绘直角折线，右边向上延伸、底边向左延伸，带粗糙粉笔质感。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        538,
+        897,
+        766,
+        925
+      ],
+      "text": "去有风的地方",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_coffee",
+    "photo_landscape",
+    "overlay_top_corner",
+    "text_coffee",
+    "overlay_outline_star",
+    "overlay_white_star_top",
+    "overlay_white_star_lower",
+    "overlay_sparkles",
+    "overlay_bubbles",
+    "overlay_blue_star",
+    "overlay_quote",
+    "photo_small_cup",
+    "overlay_cup_face",
+    "overlay_birds",
+    "overlay_landscape_doodle",
+    "overlay_music_player",
+    "overlay_bottom_corner",
+    "text_bottom"
+  ]
+}

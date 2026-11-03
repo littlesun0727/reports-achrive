@@ -1,0 +1,260 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_main",
+    "description": "左侧主体为户外树林场景，包含树木、石墙和人物，完整显示区域延伸至画布左半部分；右侧为深棕色纹理背景，包含三张独立照片和装饰元素。"
+  },
+  "objects": [
+    {
+      "id": "photo_right_top",
+      "kind": "photo",
+      "bbox": [
+        696,
+        46,
+        950,
+        320
+      ],
+      "description": "右上角室内场景照片，展示书架、画架和杂物，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_right_middle",
+      "kind": "photo",
+      "bbox": [
+        696,
+        356,
+        950,
+        630
+      ],
+      "description": "右侧中间户外场景照片，展示人物坐姿及周围环境，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_right_bottom",
+      "kind": "photo",
+      "bbox": [
+        696,
+        666,
+        950,
+        950
+      ],
+      "description": "右下角特写照片，展示手部、包袋和衣物细节，保留完整摄影环境。"
+    },
+    {
+      "id": "overlay_lace",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        0,
+        696,
+        1000
+      ],
+      "description": "白色蕾丝边框，沿右侧照片区域左边缘垂直分布，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        0,
+        990,
+        1000
+      ],
+      "description": "蓝色和黄色星星装饰，散布在右侧深棕色背景上，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        200,
+        55,
+        330,
+        110
+      ],
+      "text": "<333",
+      "color": "#D28B64",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        460,
+        40,
+        530,
+        90
+      ],
+      "text": "<3",
+      "color": "#D28B64",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        55,
+        150,
+        150,
+        210
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        10,
+        310,
+        110,
+        360
+      ],
+      "text": "<333",
+      "color": "#D28B64",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        160,
+        530,
+        210,
+        570
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        440,
+        340,
+        530,
+        390
+      ],
+      "text": "<333",
+      "color": "#D28B64",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        40,
+        630,
+        150,
+        690
+      ],
+      "text": "<333",
+      "color": "#D28B64",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_8",
+      "kind": "text",
+      "bbox": [
+        490,
+        640,
+        570,
+        700
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_9",
+      "kind": "text",
+      "bbox": [
+        0,
+        820,
+        80,
+        900
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_10",
+      "kind": "text",
+      "bbox": [
+        650,
+        580,
+        690,
+        620
+      ],
+      "text": "(2)",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_11",
+      "kind": "text",
+      "bbox": [
+        960,
+        920,
+        990,
+        960
+      ],
+      "text": "(3)",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_right_top",
+    "photo_right_middle",
+    "photo_right_bottom",
+    "overlay_lace",
+    "overlay_stars",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7",
+    "text_8",
+    "text_9",
+    "text_10",
+    "text_11"
+  ]
+}

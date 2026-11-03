@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        497,
+        896
+      ],
+      "description": "左侧竖向照片，展示一位佩戴发带、手持手机自拍的人物，包含室内背景及人物全身姿态。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        497,
+        0,
+        1000,
+        298
+      ],
+      "description": "右上局部照片，展示一位佩戴帽子的人物上半身特写，背景为店铺橱窗。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        497,
+        298,
+        1000,
+        596
+      ],
+      "description": "右侧中部照片，展示一位坐在台阶上的人物，包含腿部、背包及台阶环境。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        497,
+        596,
+        1000,
+        896
+      ],
+      "description": "右下局部照片，展示黑色手提包、手机及桌面物品的俯拍视角。"
+    },
+    {
+      "id": "overlay_ui_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        497,
+        896
+      ],
+      "description": "左侧照片覆盖的UI元素，包括左上角的关闭按钮、右侧的Aa、表情、音乐、滤镜及向下箭头图标，底部包含'Add a caption'文字及'Your story'、'Close Friends'按钮。"
+    },
+    {
+      "id": "overlay_ui_right",
+      "kind": "overlay",
+      "bbox": [
+        497,
+        0,
+        1000,
+        896
+      ],
+      "description": "右侧照片覆盖的UI元素，包括左上角的关闭按钮、右侧的Aa、表情、音乐、滤镜及向下箭头图标，底部包含'Add a caption'文字及'Your story'、'Close Friends'按钮。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_top_right",
+    "photo_middle_right",
+    "photo_bottom_right",
+    "overlay_ui_left",
+    "overlay_ui_right"
+  ]
+}

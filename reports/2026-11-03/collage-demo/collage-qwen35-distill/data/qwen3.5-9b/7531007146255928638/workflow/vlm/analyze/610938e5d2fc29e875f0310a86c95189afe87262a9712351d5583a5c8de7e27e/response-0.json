@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a06f0cfc7c1e987f",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7913,
+    "completion_tokens": 966,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"green_paper_base\",\n    \"description\": \"连续的浅绿色纹理纸底，覆盖全画布，带有细微的纸张质感；所有照片、贴纸和文字均叠加其上，纸底保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        113,\n        120,\n        520,\n        590\n      ],\n      \"description\": \"左侧主要人物照片，人物闭眼微笑，身穿深蓝色带白边外套，背景为户外绿树，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        515,\n        530,\n        900,\n        900\n      ],\n      \"description\": \"右侧人物照片，人物侧脸，身穿灰色外套，背景为户外绿植，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_clover_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        53,\n        53,\n        173,\n        173\n      ],\n      \"description\": \"左上角白色方形贴纸，内含一枚绿色四叶草图案，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_clover_strip\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        560,\n        275,\n        900,\n        435\n      ],\n      \"description\": \"右上角白色矩形贴纸，内含一排绿色四叶草图案及手写文字，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_clover_card\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        63,\n        700,\n        420,\n        860\n      ],\n      \"description\": \"左下角白色圆角矩形贴纸，内含两枚绿色四叶草图案及多行文字，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        530,\n        180,\n        890,\n        220\n      ],\n      \"text\": \"Cut film strips held more truth than the final reel.\",\n      \"color\": \"#333333\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        200,\n        630,\n        500,\n        670\n      ],\n      \"text\": \"\\\"Vintage flashbulbs startled 1920s dust awake\\\"\",\n      \"color\": \"#333333\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_3\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        130,\n        750,\n        380,\n        830\n      ],\n      \"text\": \"love blooms like a cherished four-leaf clover, a rare and beautiful treasure.\",\n      \"color\": \"#556B2F\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_main\",\n    \"photo_right\",\n    \"overlay_clover_top\",\n    \"overlay_clover_strip\",\n    \"overlay_clover_card\",\n    \"text_1\",\n    \"text_2\",\n    \"text_3\"\n  ]\n}",
+  "tool_calls": false
+}

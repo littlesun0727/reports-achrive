@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "polka_background",
+    "description": "贯穿全画布的浅黄色底与棕色圆点图案，四周及三张照片之间连续可见。保留底色、圆点及原有质感，独立照片和叠加装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        100,
+        19,
+        890,
+        316
+      ],
+      "description": "上方横向矩形餐桌照片，俯拍熊造型咖喱饭、大白盘、左侧黑色碗和左下穿衣玩偶，右下可见餐具纸套。完整保留餐桌环境，四边明确；左上及右上局部被独立食物图像遮挡。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        101,
+        340,
+        899,
+        640
+      ],
+      "description": "中间横向矩形餐桌照片，中央大盘盛白熊造型米饭与黄色蛋包，左侧有玩偶和饮料，上部有松饼，右上为甜品杯，右侧露出黑碗。保留完整摄影环境，左右及右下叠有独立艺术字装饰。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        104,
+        664,
+        894,
+        974
+      ],
+      "description": "下方矩形俯拍甜品照片，金属托盘中摆放撒巧克力屑的杯装甜品和红色水果，旁有红绿毛毡小物及手写纸牌，两侧为棕熊玩偶。保留桌布、托盘和全部摄影环境；右下被独立熊脸面包图像遮挡。"
+    },
+    {
+      "id": "photo_pudding",
+      "kind": "photo",
+      "bbox": [
+        33,
+        27,
+        220,
+        109
+      ],
+      "description": "左上独立布丁近景，浅黄色布丁顶部覆盖深棕色焦糖，沿食物完整外轮廓显示，原摄影环境已去除，叠在圆点底与上方照片之上。"
+    },
+    {
+      "id": "photo_toast",
+      "kind": "photo",
+      "bbox": [
+        805,
+        35,
+        961,
+        134
+      ],
+      "description": "右上独立兔耳形吐司近景，浅色面包内部有深棕色眼睛和交叉嘴，烤色边缘清晰。沿完整吐司轮廓去除摄影背景，斜置并覆盖上方照片右上边缘。"
+    },
+    {
+      "id": "overlay_mua",
+      "kind": "overlay",
+      "bbox": [
+        2,
+        439,
+        284,
+        529
+      ],
+      "description": "左侧倾斜的“MUA~”艺术字贴纸，深棕色厚字、黄色与白色多层外沿，并带大小星星和阴影，作为完整设计保留，跨越中间照片左边界。"
+    },
+    {
+      "id": "overlay_bonus",
+      "kind": "overlay",
+      "bbox": [
+        581,
+        551,
+        900,
+        632
+      ],
+      "description": "中间照片右下的黄色日文“ボーナス”艺术字，包含棕色轮廓、投影、周围放射短线和闪光星点，整体保留。"
+    },
+    {
+      "id": "overlay_bear_face",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        637,
+        839,
+        660
+      ],
+      "description": "中间照片下边缘后方露出的棕黄色卡通熊脸装饰，可见圆弧下缘、深棕轮廓及白色口鼻区域；上部被照片遮挡，不补绘不可见细节。"
+    },
+    {
+      "id": "overlay_anger",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        651,
+        154,
+        719
+      ],
+      "description": "下方照片左上角的黄色漫画生气符号，由四组弯曲笔画构成，带深棕细边和浅色外缘，整体跨在照片与圆点底之间。"
+    },
+    {
+      "id": "photo_bear_bread",
+      "kind": "photo",
+      "bbox": [
+        770,
+        863,
+        1000,
+        1000
+      ],
+      "description": "右下独立熊脸面包近景，棕色面包带圆耳、黑色眼睛和口鼻，表面覆盖可见斜向网格纹的透明包装。沿面包及包装组合外缘显示，摄影背景去除，右侧和底部被画布裁切，覆盖下方照片右下角。"
+    }
+  ],
+  "layer_order": [
+    "overlay_bear_face",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "photo_pudding",
+    "photo_toast",
+    "overlay_mua",
+    "overlay_bonus",
+    "overlay_anger",
+    "photo_bear_bread"
+  ]
+}

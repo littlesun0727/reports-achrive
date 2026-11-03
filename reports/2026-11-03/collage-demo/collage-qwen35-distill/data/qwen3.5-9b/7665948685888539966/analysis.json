@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1349
+  ],
+  "objects": [
+    {
+      "id": "photo_bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1349
+      ],
+      "description": "室内模糊背景，呈现暖色调的墙面与家具轮廓，作为连续摄影底图承载全画布，位于所有独立对象下方。",
+      "background_type": "photo",
+      "label": "室内模糊背景，呈现暖色调的墙面与家具轮廓，作为连续摄影底图承",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        76,
+        250,
+        526,
+        607
+      ],
+      "description": "左上角食物拼盘照片，包含芝士热狗、煎蛋、虾仁和水果碗，保留摄影环境，显示区域为不规则形状。",
+      "label": "左上角食物拼盘照片，包含芝士热狗、煎蛋、虾仁和水果碗，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        382,
+        445,
+        806,
+        782
+      ],
+      "description": "右上角黑色盘子食物照片，包含贝果三明治、芦笋、芝士焗饭和蓝莓，保留摄影环境，显示区域为不规则形状。",
+      "label": "右上角黑色盘子食物照片，包含贝果三明治、芦笋、芝士焗饭和蓝莓",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        50,
+        607,
+        472,
+        998
+      ],
+      "description": "左下角食物拼盘照片，包含虾仁吐司、水果、煎蛋和酸奶杯，保留摄影环境，显示区域为不规则形状。",
+      "label": "左下角食物拼盘照片，包含虾仁吐司、水果、煎蛋和酸奶杯，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        342,
+        809,
+        792,
+        1214
+      ],
+      "description": "右下角猫形饭团照片，包含猫形饭团、蛋包饭和配菜，保留摄影环境，显示区域为不规则形状。",
+      "label": "右下角猫形饭团照片，包含猫形饭团、蛋包饭和配菜，保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        297,
+        67,
+        612,
+        297
+      ],
+      "description": "顶部白色手绘感叹号装饰，位于照片上方，作为独立固定装饰保留。",
+      "label": "顶部白色手绘感叹号装饰，位于照片上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        243,
+        810,
+        472
+      ],
+      "description": "右侧白色手绘叉子装饰，位于照片右侧，作为独立固定装饰保留。",
+      "label": "右侧白色手绘叉子装饰，位于照片右侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        1052,
+        360,
+        1241
+      ],
+      "description": "左下角白色手绘'Yummy'文字及小图标装饰，位于照片下方，作为独立固定装饰保留。",
+      "label": "左下角白色手绘'Yummy'文字及小图标装饰，位于照片下方，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        1147,
+        855,
+        1282
+      ],
+      "description": "右下角白色手绘星星装饰，位于照片下方，作为独立固定装饰保留。",
+      "label": "右下角白色手绘星星装饰，位于照片下方，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

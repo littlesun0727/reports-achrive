@@ -1,0 +1,218 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "notebook_base",
+    "description": "全画布为固定的活页本模板：黑色外围、浅灰白纸页，以及左侧纵向金属装订杆、圆环和孔洞。纸页与装订结构连续，保留原有实拍材质、明暗和阴影；叠加的照片、文字及贴纸分别移除，不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "frame_yellow",
+      "kind": "frame",
+      "bbox": [
+        203,
+        110,
+        752,
+        400
+      ],
+      "description": "承载顶部单张照片的黄色纸卡，底部印有“Find sweetness in plain days”，文字与黄色纸面整体保留，照片内口独立替换。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        241,
+        134,
+        716,
+        348
+      ],
+      "description": "一名长发女性戴黑帽、穿黑色上衣与白色内搭，坐在画面中右侧，面向镜头；保留绿色瓷砖墙、门板及灰色街边设施等摄影环境。矩形照片窗口，顶部被艺术字遮挡，左下被柠檬贴纸遮挡，无透明渐隐。"
+    },
+    {
+      "id": "overlay_chill",
+      "kind": "overlay",
+      "bbox": [
+        208,
+        115,
+        745,
+        199
+      ],
+      "description": "棕紫色粗笔刷艺术字“#Chill 3”，字形不规则，末尾数字较大并向下延伸，横跨黄色卡框和照片顶部，整体保留原有笔画。"
+    },
+    {
+      "id": "overlay_lemon",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        279,
+        280,
+        362
+      ],
+      "description": "三片黄色柠檬切片组成的贴纸，带连成一体的浅蓝色外缘，覆盖顶部照片左下边缘及黄色纸卡。"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        701,
+        162,
+        900,
+        271
+      ],
+      "description": "棕色白圆点便签式咖啡贴纸，左侧带弧形缺口，中央为有拉花的棕色咖啡杯及绿色外缘；底板、杯子和阴影作为完整装饰保留。"
+    },
+    {
+      "id": "text_best",
+      "kind": "text",
+      "bbox": [
+        768,
+        296,
+        890,
+        373
+      ],
+      "text": "The best\ntime is\non the\nroad.",
+      "color": "#222222",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        220,
+        416,
+        588,
+        619
+      ],
+      "description": "一名戴浅色帽子的女性站在蓝绿色店门前，穿绿色短袖和牛仔裤，身体朝前、头偏向左侧，双手位于腰侧。保留门窗、店内与墙面环境，矩形窗口，上左角被圆点胶带覆盖，下右角被黄色字条遮挡。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        177,
+        393,
+        320,
+        483
+      ],
+      "description": "一段斜贴在中部照片左上角的浅蓝色胶带，密布红色圆点，保留不规则端部和半透明纸质外观。"
+    },
+    {
+      "id": "overlay_pink_arrow",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        440,
+        907,
+        549
+      ],
+      "description": "亮粉色宽箭头贴纸，带白色细小点状装饰，箭头指向左上方，覆盖纸页并位于蓝色花体字后方。"
+    },
+    {
+      "id": "overlay_lemon_type",
+      "kind": "overlay",
+      "bbox": [
+        674,
+        382,
+        899,
+        481
+      ],
+      "description": "青蓝色连笔花体“Lemon Tang”，包含夸张的卷曲笔画与交叠排布，作为完整艺术字保留，叠在粉色箭头上方。"
+    },
+    {
+      "id": "photo_foreground",
+      "kind": "photo",
+      "bbox": [
+        456,
+        467,
+        970,
+        1000
+      ],
+      "description": "右侧大幅独立女性抠图，戴黑帽，长发，穿黑色上衣、白色内搭与宽松黑裙，身体斜坐，一只手横搭于身前，右侧带黑色包袋。摄影环境已去除，完整人物、衣裙和包袋沿外轮廓带宽白色描边；下端被画布裁切，覆盖纸页及局部下方照片，不与顶部照片建立连续出框关联。"
+    },
+    {
+      "id": "overlay_happy",
+      "kind": "overlay",
+      "bbox": [
+        467,
+        564,
+        696,
+        674
+      ],
+      "description": "“I'm”“SO HAPPY”“TODAY”三张浅黄色手写字条构成的错落贴纸组合，附有三枚粉色放射状小星形，保留纸条边缘、阴影和原有相对位置；跨叠中部照片与右侧人物边缘。"
+    },
+    {
+      "id": "text_world",
+      "kind": "text",
+      "bbox": [
+        257,
+        638,
+        528,
+        678
+      ],
+      "text": "The world is too big\nto stay in one place.",
+      "color": "#222222",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        232,
+        703,
+        504,
+        904
+      ],
+      "description": "一名长发女性站在绿色公共电话旁，穿深色无袖上衣及牛仔裤，一手拿着话筒，面向镜头。保留电话亭、玻璃、街边植物与告示等摄影环境，矩形窗口，左上部分被冰淇淋贴纸遮挡，右下局部被大型人物白色外缘遮挡。"
+    },
+    {
+      "id": "overlay_icecream",
+      "kind": "overlay",
+      "bbox": [
+        184,
+        648,
+        292,
+        763
+      ],
+      "description": "香草软冰淇淋甜筒贴纸，带黄色轮廓，后方附有紫色白圆点矩形底片，作为完整装饰保留，覆盖底部照片左上边缘。"
+    },
+    {
+      "id": "overlay_like",
+      "kind": "overlay",
+      "bbox": [
+        539,
+        691,
+        698,
+        759
+      ],
+      "description": "向右的蓝色三角旗形贴纸，内部为红色“like”艺术字与线条，保留完整边缘和阴影，叠在右侧人物左侧附近。"
+    }
+  ],
+  "layer_order": [
+    "frame_yellow",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_chill",
+    "overlay_lemon",
+    "overlay_coffee",
+    "text_best",
+    "overlay_tape",
+    "overlay_pink_arrow",
+    "overlay_lemon_type",
+    "text_world",
+    "overlay_icecream",
+    "photo_foreground",
+    "overlay_happy",
+    "overlay_like"
+  ]
+}

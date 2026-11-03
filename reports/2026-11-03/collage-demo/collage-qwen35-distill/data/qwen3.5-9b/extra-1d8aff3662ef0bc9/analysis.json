@@ -1,0 +1,171 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "蓝天白云、电线、电线杆、街道、树木和建筑构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云、电线、电线杆、街道、树木和建筑构成连续摄影底图，完",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        93,
+        219,
+        445,
+        700
+      ],
+      "description": "左上人物全身照片，人物戴帽子、穿橙色上衣和蓝色阔腿裤，站在有棕榈树的街道旁，保留照片内的摄影环境。",
+      "label": "左上人物全身照片，人物戴帽子、穿橙色上衣和蓝色阔腿裤，站在有",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        629,
+        478,
+        1017,
+        1004
+      ],
+      "description": "右上人物半身照片，人物戴帽子、穿橙色上衣和蓝色裤子，站在有棕榈树的街道旁，保留照片内的摄影环境。",
+      "label": "右上人物半身照片，人物戴帽子、穿橙色上衣和蓝色裤子，站在有棕",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        164,
+        972,
+        488,
+        1429
+      ],
+      "description": "左下食物照片，展示虾、炸物和面条等菜肴，保留照片内的摄影环境。",
+      "label": "左下食物照片，展示虾、炸物和面条等菜肴，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        629,
+        1001,
+        1017,
+        1348
+      ],
+      "description": "右下街道照片，展示停放的车辆和建筑，保留照片内的摄影环境。",
+      "label": "右下街道照片，展示停放的车辆和建筑，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        165,
+        164,
+        279
+      ],
+      "description": "左上角白色胶带贴纸，作为独立固定装饰保留。",
+      "label": "左上角白色胶带贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        413,
+        1348,
+        575,
+        1429
+      ],
+      "description": "左下角白色胶带贴纸，作为独立固定装饰保留。",
+      "label": "左下角白色胶带贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        360,
+        855,
+        489
+      ],
+      "description": "右上角白色夹子贴纸，作为独立固定装饰保留。",
+      "label": "右上角白色夹子贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        585,
+        181,
+        996,
+        311
+      ],
+      "description": "Live the life\nyou've imagined.",
+      "label": "Live the life\nyou've imagined.",
+      "method": "local",
+      "text": "Live the life\nyou've imagined.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        607,
+        1186,
+        920,
+        1348
+      ],
+      "description": "OUR\nBELOVED\nSUMMER",
+      "label": "OUR\nBELOVED\nSUMMER",
+      "method": "local",
+      "text": "OUR\nBELOVED\nSUMMER",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "text_2"
+  ]
+}

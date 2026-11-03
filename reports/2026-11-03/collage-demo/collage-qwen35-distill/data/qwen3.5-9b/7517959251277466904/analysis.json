@@ -1,0 +1,199 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "连续的浅蓝至米色渐变纹理纸底，四周及照片间隙保留相同纸纹；照片独立替换，纸底保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的浅蓝至米色渐变纹理纸底，四周及照片间隙保留相同纸纹；照",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        149,
+        74,
+        743,
+        405
+      ],
+      "description": "上方人物半身照片，戴草帽，手扶帽檐，背景为蓝天碧海与船只，保留照片内的摄影环境，显示区域为水平矩形。",
+      "label": "上方人物半身照片，戴草帽，手扶帽檐，背景为蓝天碧海与船只，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        149,
+        434,
+        743,
+        765
+      ],
+      "description": "中间手掌捧贝壳照片，背景为沙滩，保留照片内的摄影环境，显示区域为水平矩形。",
+      "label": "中间手掌捧贝壳照片，背景为沙滩，保留照片内的摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        149,
+        794,
+        743,
+        1125
+      ],
+      "description": "下方人物半身照片，戴草帽，面带微笑，背景为清澈海水与绿植，保留照片内的摄影环境，显示区域为水平矩形。",
+      "label": "下方人物半身照片，戴草帽，面带微笑，背景为清澈海水与绿植，保",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        38,
+        185,
+        146
+      ],
+      "description": "左上角白色手绘海星，作为独立固定装饰保留。",
+      "label": "左上角白色手绘海星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        170,
+        842,
+        278
+      ],
+      "description": "右上角白色手绘海星，作为独立固定装饰保留。",
+      "label": "右上角白色手绘海星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        530,
+        842,
+        638
+      ],
+      "description": "中间右侧白色手绘海星，作为独立固定装饰保留。",
+      "label": "中间右侧白色手绘海星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star4",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        890,
+        173,
+        998
+      ],
+      "description": "左下角白色手绘海星，作为独立固定装饰保留。",
+      "label": "左下角白色手绘海星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        671,
+        890,
+        770,
+        998
+      ],
+      "description": "右下角白色手绘鱼形图案，作为独立固定装饰保留。",
+      "label": "右下角白色手绘鱼形图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        38,
+        473,
+        146
+      ],
+      "description": "顶部中央银色回形针，作为独立固定装饰保留。",
+      "label": "顶部中央银色回形针，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        59,
+        458,
+        266,
+        506
+      ],
+      "description": "Island",
+      "label": "Island",
+      "method": "local",
+      "text": "Island",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        509,
+        650,
+        806,
+        698
+      ],
+      "description": "Sun sea serenity.",
+      "label": "Sun sea serenity.",
+      "method": "local",
+      "text": "Sun sea serenity.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_star4",
+    "overlay_fish",
+    "overlay_paperclip",
+    "text_1",
+    "text_2"
+  ]
+}

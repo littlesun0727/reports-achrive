@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        509
+      ],
+      "description": "俯视视角的沥青路面，散落着黄色落叶，路面有积水反光。",
+      "label": "俯视视角的沥青路面，散落着黄色落叶，路面有积水反光。",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        509,
+        900,
+        1122
+      ],
+      "description": "人物手持椰子站在泳池边，背景有绿植和天使雕像，粉色文字叠加在画面中央。",
+      "label": "人物手持椰子站在泳池边，背景有绿植和天使雕像，粉色文字叠加在",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1122,
+        900,
+        1600
+      ],
+      "description": "橙红色晚霞天空，云层纹理清晰，底部有树木剪影和路灯杆。",
+      "label": "橙红色晚霞天空，云层纹理清晰，底部有树木剪影和路灯杆。",
+      "method": "local"
+    },
+    {
+      "id": "text_overlay",
+      "kind": "text",
+      "bbox": [
+        56,
+        810,
+        842,
+        931
+      ],
+      "description": "In those days even the wind\nfelt free in summer",
+      "label": "In those days even the wind\nfe",
+      "method": "local",
+      "text": "In those days even the wind\nfelt free in summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF1493",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_overlay"
+  ]
+}

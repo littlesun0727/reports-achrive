@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的模糊水族箱摄影画面铺满画布，黄绿色水体、横向玻璃结构及多处橙红色游鱼延伸至四边，局部被四张清晰照片和装饰遮挡。保留整幅摄影环境及原有模糊视觉，随底图整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        360,
+        57,
+        860,
+        338
+      ],
+      "description": "横向公园远景照片，蓝天下高大树木与棕榈围绕草坪，左下有一名小比例行走人物。完整保留摄影环境，矩形边界清晰，左上局部被手写文字覆盖，右下被彩色涂鸦遮挡。"
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        37,
+        383,
+        451,
+        617
+      ],
+      "description": "横向花木近景照片，粉色扶桑花和绿叶位于前景，后方是浓密深色树冠，未见人物。保留完整矩形摄影环境，外围另有独立白色曲线装饰。"
+    },
+    {
+      "id": "photo_tree",
+      "kind": "photo",
+      "bbox": [
+        202,
+        663,
+        512,
+        973
+      ],
+      "description": "竖向仰拍树木照片，弯曲树干从左下伸向上方，绿色树冠映衬明亮蓝天，未见人物。摄影环境保留，四边为清晰矩形，左上边缘被牛皮纸星形贴纸局部遮挡。"
+    },
+    {
+      "id": "photo_sprinkler",
+      "kind": "photo",
+      "bbox": [
+        547,
+        536,
+        961,
+        768
+      ],
+      "description": "横向公园草坪远景照片，棕榈和高树构成背景，一名小比例人物位于偏左下方，弧形喷水横跨画面。保留全部摄影环境，矩形边缘清晰，顶部局部被星形回形针装饰遮挡。"
+    },
+    {
+      "id": "overlay_love",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        70,
+        489,
+        256
+      ],
+      "description": "浅蓝色手写英文定义装饰，顶部是大号空心“LOVE:”及音标，下方多行小字以“1. an intense affection for another person”起始，并含“2. the deep tenderness…”等内容。字形、自由行距、划线及涂改笔画共同保留，右侧叠在上方照片上。"
+    },
+    {
+      "id": "overlay_white_loop",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        333,
+        501,
+        668
+      ],
+      "description": "围绕花卉照片的独立白色不规则闭合曲线，形成多处圆润起伏与收腰，跨越照片边界并伸到周围底图上，不沿矩形照片窗口描边。"
+    },
+    {
+      "id": "overlay_blue_doodles",
+      "kind": "overlay",
+      "bbox": [
+        697,
+        226,
+        930,
+        409
+      ],
+      "description": "浅蓝色蜡笔涂鸦组合，包括右上大圆环、左下大圆环、右下小圆环、环内短笔画及旁侧四角星；保留粗糙锯齿笔触和内部空隙，跨在上方照片右下边界。"
+    },
+    {
+      "id": "overlay_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        749,
+        239,
+        800,
+        280
+      ],
+      "description": "独立粉色四角闪光星，边缘带粗糙手绘笔触，叠在上方照片的右下区域。"
+    },
+    {
+      "id": "overlay_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        777,
+        409,
+        832,
+        450
+      ],
+      "description": "独立浅黄色四角闪光星，带不规则手绘边缘，位于蓝色圆环组合下方。"
+    },
+    {
+      "id": "overlay_star_clip",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        477,
+        922,
+        610
+      ],
+      "description": "灰银色长回形针与顶部折面五角星组成的完整装饰，包含金属线条、高光和阴影；倾斜跨过右侧草坪照片上边缘，不构成照片框体。"
+    },
+    {
+      "id": "overlay_paper_star_large",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        688,
+        178,
+        825
+      ],
+      "description": "左下独立牛皮纸星形贴纸，狭长不规则星形纸边上有白色手绘双线星纹，保留纸张纤维与投影。"
+    },
+    {
+      "id": "overlay_paper_star_small",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        674,
+        238,
+        751
+      ],
+      "description": "较小的牛皮纸四角星贴纸，内部有白色手绘星形线条，保留纸边、纹理与阴影，叠在竖向树木照片左上边缘。"
+    },
+    {
+      "id": "overlay_white_symbols",
+      "kind": "overlay",
+      "bbox": [
+        625,
+        778,
+        902,
+        838
+      ],
+      "description": "右下白色手绘符号装饰组，由空心五角星、小菱形、空心小圆、弯曲弧线及加号组成，各符号保持原有相对位置和不规则笔画，位于草坪照片下方。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_flower",
+    "photo_tree",
+    "photo_sprinkler",
+    "overlay_love",
+    "overlay_white_loop",
+    "overlay_blue_doodles",
+    "overlay_pink_star",
+    "overlay_yellow_star",
+    "overlay_star_clip",
+    "overlay_paper_star_large",
+    "overlay_paper_star_small",
+    "overlay_white_symbols"
+  ]
+}

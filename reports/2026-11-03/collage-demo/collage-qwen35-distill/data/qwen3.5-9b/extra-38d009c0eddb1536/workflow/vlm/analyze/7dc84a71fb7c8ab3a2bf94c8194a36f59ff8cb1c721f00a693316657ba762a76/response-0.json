@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-930ba91cea338a4a",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 9483,
+    "total_tokens": 9909,
+    "completion_tokens": 426,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"连续的海滩摄影底图，包含蓝天、远山、沙滩、海水及水中游泳的人群，完整显示区域延伸至画布四边；前景人物和饮料遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_person\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        350,\n        330,\n        650,\n        680\n      ],\n      \"description\": \"前景人物照片，女性戴草帽、穿蓝白条纹长袖上衣，闭眼微笑，保留人物及身后的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_drink\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        70,\n        650,\n        380,\n        1000\n      ],\n      \"description\": \"前景饮料照片，透明塑料杯装黄色饮品，插有黄色冰棒，保留杯身及背景，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"text_watermark\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        920,\n        920,\n        1000,\n        980\n      ],\n      \"text\": \"小红书\\n小红书号：sisi520_\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_person\",\n    \"photo_drink\",\n    \"text_watermark\"\n  ]\n}",
+  "tool_calls": false
+}

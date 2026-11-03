@@ -1,0 +1,291 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2560
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "description": "油菜花田与远山构成的连续摄影底图，完整显示区域延伸至画布四边；上层人物剪影、文字与装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "油菜花田与远山构成的连续摄影底图，完整显示区域延伸至画布四边",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        374,
+        51,
+        1195,
+        794
+      ],
+      "description": "人物背影剪影，双臂张开，位于油菜花田上方，下缘被中间人物遮挡。",
+      "label": "人物背影剪影，双臂张开，位于油菜花田上方，下缘被中间人物遮挡",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        317,
+        768,
+        1123,
+        1434
+      ],
+      "description": "人物背影，双臂张开，位于中间位置，上缘被上方人物遮挡，下缘被下方人物遮挡。",
+      "label": "人物背影，双臂张开，位于中间位置，上缘被上方人物遮挡，下缘被",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        461,
+        1382,
+        1066,
+        2509
+      ],
+      "description": "人物背影，手持花束与黄色包，位于下方，上缘被中间人物遮挡。",
+      "label": "人物背影，手持花束与黄色包，位于下方，上缘被中间人物遮挡。",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        29,
+        51,
+        403,
+        614
+      ],
+      "description": "你好，\n春天",
+      "label": "你好，\n春天",
+      "method": "local",
+      "text": "你好，\n春天",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        979,
+        717,
+        1325,
+        922
+      ],
+      "description": "Sweet heart elves",
+      "label": "Sweet heart elves",
+      "method": "local",
+      "text": "Sweet heart elves",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        936,
+        1382,
+        1325,
+        1638
+      ],
+      "description": "浪漫\n春季",
+      "label": "浪漫\n春季",
+      "method": "local",
+      "text": "浪漫\n春季",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        1224,
+        1997,
+        1325,
+        2432
+      ],
+      "description": "春日物語",
+      "label": "春日物語",
+      "method": "local",
+      "text": "春日物語",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        1296,
+        2432,
+        1411,
+        2534
+      ],
+      "description": "小红书",
+      "label": "小红书",
+      "method": "local",
+      "text": "小红书",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        1296,
+        2509,
+        1426,
+        2534
+      ],
+      "description": "小红书号：6700666030",
+      "label": "小红书号：6700666030",
+      "method": "local",
+      "text": "小红书号：6700666030",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_spring_char",
+      "kind": "overlay",
+      "bbox": [
+        1080,
+        51,
+        1325,
+        384
+      ],
+      "description": "黄色“春”字装饰，带有花卉与蝴蝶图案，位于右上角。",
+      "label": "黄色“春”字装饰，带有花卉与蝴蝶图案，位于右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_1",
+      "kind": "overlay",
+      "bbox": [
+        994,
+        768,
+        1037,
+        819
+      ],
+      "description": "粉色蝴蝶装饰，位于中间人物右侧。",
+      "label": "粉色蝴蝶装饰，位于中间人物右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_2",
+      "kind": "overlay",
+      "bbox": [
+        1152,
+        1485,
+        1181,
+        1536
+      ],
+      "description": "蓝色蝴蝶装饰，位于下方人物右侧。",
+      "label": "蓝色蝴蝶装饰，位于下方人物右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_3",
+      "kind": "overlay",
+      "bbox": [
+        245,
+        1741,
+        274,
+        1792
+      ],
+      "description": "蓝色蝴蝶装饰，位于下方人物左侧。",
+      "label": "蓝色蝴蝶装饰，位于下方人物左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_4",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        973,
+        130,
+        1024
+      ],
+      "description": "黄色蝴蝶装饰，位于中间人物左侧。",
+      "label": "黄色蝴蝶装饰，位于中间人物左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_5",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        384,
+        115,
+        563
+      ],
+      "description": "黄色花朵装饰，位于左上角。",
+      "label": "黄色花朵装饰，位于左上角。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper",
+    "photo_middle",
+    "photo_lower",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "overlay_spring_char",
+    "overlay_butterfly_1",
+    "overlay_butterfly_2",
+    "overlay_butterfly_3",
+    "overlay_butterfly_4",
+    "overlay_butterfly_5"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "户外公园场景，包含蓝天、白云、深色栅栏、绿色草地和树木，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        222,
+        75,
+        562,
+        400
+      ],
+      "description": "上方人物半身照片，人物低头，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        532,
+        308,
+        782,
+        500
+      ],
+      "description": "右侧猫咪照片，猫咪在砖地上行走，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        112,
+        368,
+        382,
+        658
+      ],
+      "description": "左侧树木照片，保留树木及背景环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        292,
+        565,
+        772,
+        825
+      ],
+      "description": "下方人物半身照片，人物抬头，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        602,
+        135,
+        802,
+        185
+      ],
+      "description": "手写风格文字“好天气！”，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        762,
+        245,
+        832,
+        375
+      ],
+      "description": "蓝色心形图案，内部有白色圆点，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_gift",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        535,
+        832,
+        925
+      ],
+      "description": "棕色带白点的礼物盒图案，带有蝴蝶结和飘带，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        602,
+        135,
+        802,
+        185
+      ],
+      "text": "好天气！",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_cat",
+    "photo_trees",
+    "photo_bottom",
+    "overlay_text",
+    "overlay_heart",
+    "overlay_gift",
+    "text_1"
+  ]
+}

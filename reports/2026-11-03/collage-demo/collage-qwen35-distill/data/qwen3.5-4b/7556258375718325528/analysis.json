@@ -1,0 +1,331 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "室内场景摄影底图，包含书架、柜台和人物，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内场景摄影底图，包含书架、柜台和人物，完整显示区域延伸至画",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        248,
+        137,
+        662,
+        596
+      ],
+      "description": "上方人物半身照片，人物戴眼镜，手持紫色玩偶，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方人物半身照片，人物戴眼镜，手持紫色玩偶，保留照片内的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        338,
+        716,
+        581,
+        1197
+      ],
+      "description": "下方人物近景照片，人物低头，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "下方人物近景照片，人物低头，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        131,
+        112,
+        769,
+        631
+      ],
+      "description": "围绕上方照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕上方照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        248,
+        596,
+        769,
+        1197
+      ],
+      "description": "围绕下方照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕下方照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        370,
+        31,
+        520,
+        106
+      ],
+      "description": "Plog",
+      "label": "Plog",
+      "method": "local",
+      "text": "Plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        84,
+        1011,
+        520,
+        1143
+      ],
+      "description": "My time is now.\nI live in the present\nand embrace my beautiful life",
+      "label": "My time is now.\nI live in the ",
+      "method": "local",
+      "text": "My time is now.\nI live in the present\nand embrace my beautiful life",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        137,
+        140,
+        231
+      ],
+      "description": "黄色手绘五角星，作为独立固定装饰保留。",
+      "label": "黄色手绘五角星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        149,
+        106,
+        255,
+        213
+      ],
+      "description": "浅蓝色手绘五角星，作为独立固定装饰保留。",
+      "label": "浅蓝色手绘五角星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        689,
+        231,
+        750,
+        331
+      ],
+      "description": "紫色手绘五角星，作为独立固定装饰保留。",
+      "label": "紫色手绘五角星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        631,
+        848,
+        736
+      ],
+      "description": "浅蓝色手绘五角星，作为独立固定装饰保留。",
+      "label": "浅蓝色手绘五角星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        939,
+        733,
+        1049
+      ],
+      "description": "紫色手绘五角星，作为独立固定装饰保留。",
+      "label": "紫色手绘五角星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        788,
+        1036,
+        848,
+        1115
+      ],
+      "description": "黄色手绘五角星，作为独立固定装饰保留。",
+      "label": "黄色手绘五角星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_1",
+      "kind": "overlay",
+      "bbox": [
+        131,
+        331,
+        203,
+        399
+      ],
+      "description": "黑色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "黑色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_2",
+      "kind": "overlay",
+      "bbox": [
+        338,
+        175,
+        383,
+        219
+      ],
+      "description": "黑色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "黑色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_3",
+      "kind": "overlay",
+      "bbox": [
+        653,
+        736,
+        759,
+        870
+      ],
+      "description": "黑色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "黑色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_4",
+      "kind": "overlay",
+      "bbox": [
+        401,
+        1129,
+        447,
+        1173
+      ],
+      "description": "黄色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "黄色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_5",
+      "kind": "overlay",
+      "bbox": [
+        508,
+        951,
+        563,
+        1059
+      ],
+      "description": "浅蓝色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "浅蓝色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_6",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        1036,
+        848,
+        1115
+      ],
+      "description": "白色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "白色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_7",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        1036,
+        848,
+        1115
+      ],
+      "description": "白色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "白色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_8",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        1036,
+        848,
+        1115
+      ],
+      "description": "白色手绘螺旋线，作为独立固定装饰保留。",
+      "label": "白色手绘螺旋线，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom",
+    "frame_top",
+    "frame_bottom",
+    "text_1",
+    "text_2",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_spiral_1",
+    "overlay_spiral_2",
+    "overlay_spiral_3",
+    "overlay_spiral_4",
+    "overlay_spiral_5",
+    "overlay_spiral_6",
+    "overlay_spiral_7",
+    "overlay_spiral_8"
+  ]
+}

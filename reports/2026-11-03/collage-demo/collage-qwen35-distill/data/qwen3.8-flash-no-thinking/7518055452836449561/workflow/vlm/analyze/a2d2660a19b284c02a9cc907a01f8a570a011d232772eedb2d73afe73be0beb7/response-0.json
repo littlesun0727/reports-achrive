@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-f72732d2-e112-92dc-af87-4ab3f01188dc",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6667,
+    "total_tokens": 7766,
+    "completion_tokens": 1099,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 786,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1099
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"solid_color\",\n    \"color\": \"#FFFFFF\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"frame_top_strip\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        0,\n        153,\n        1000,\n        526\n      ],\n      \"description\": \"上方黑色胶片条，包含左侧黄色“CAMERA 200”标签区域及五个照片窗口。整体作为固定载体保留。\",\n      \"photo_id\": [\n        \"photo_top_1\",\n        \"photo_top_2\",\n        \"photo_top_3\",\n        \"photo_top_4\"\n      ]\n    },\n    {\n      \"id\": \"photo_top_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        243,\n        231,\n        418,\n        467\n      ],\n      \"description\": \"摩天轮局部特写，红色座舱与白色支架在蓝天白云背景下清晰可见。\"\n    },\n    {\n      \"id\": \"photo_top_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        452,\n        231,\n        642,\n        467\n      ],\n      \"description\": \"透过石拱门看到的蓝色海景，前景有棕榈树和栏杆，构图具有框景效果。\"\n    },\n    {\n      \"id\": \"photo_top_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        660,\n        231,\n        839,\n        467\n      ],\n      \"description\": \"日落时分的海滩风景，太阳正落入海平面，天空呈现橙黄色渐变，海浪拍打沙滩。\"\n    },\n    {\n      \"id\": \"photo_top_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        857,\n        231,\n        998,\n        467\n      ],\n      \"description\": \"热带海湾全景，碧蓝海水环绕着绿色岛屿和岩石，视角开阔。\"\n    },\n    {\n      \"id\": \"frame_bottom_strip\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        0,\n        545,\n        998,\n        845\n      ],\n      \"description\": \"下方黑色胶片条，包含四个照片窗口及右侧空白片尾区域。整体作为固定载体保留。\",\n      \"photo_id\": [\n        \"photo_bottom_1\",\n        \"photo_bottom_2\",\n        \"photo_bottom_3\",\n        \"photo_bottom_4\"\n      ]\n    },\n    {\n      \"id\": \"photo_bottom_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        577,\n        178,\n        805\n      ],\n      \"description\": \"手持镜子反射出盛开的白色花朵（类似梨花或樱花），背景为书页文字，光影斑驳。\"\n    },\n    {\n      \"id\": \"photo_bottom_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        200,\n        577,\n        380,\n        805\n      ],\n      \"description\": \"黄昏时的街道一角，前景有一朵白色花卉被手托起，背景是夕阳下的海岸线和路灯。\"\n    },\n    {\n      \"id\": \"photo_bottom_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        402,\n        577,\n        582,\n        805\n      ],\n      \"description\": \"山间溪流风景，清澈的水流过石块，远处是绿色的草地、树木和蓝天。\"\n    },\n    {\n      \"id\": \"photo_bottom_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        604,\n        577,\n        784,\n        805\n      ],\n      \"description\": \"一只手举着装有柠檬片的玻璃杯，背景是波光粼粼的深色水面和岸边植被。\"\n    }\n  ],\n  \"layer_order\": [\n    \"frame_top_strip\",\n    \"photo_top_1\",\n    \"photo_top_2\",\n    \"photo_top_3\",\n    \"photo_top_4\",\n    \"frame_bottom_strip\",\n    \"photo_bottom_1\",\n    \"photo_bottom_2\",\n    \"photo_bottom_3\",\n    \"photo_bottom_4\"\n  ]\n}",
+  "tool_calls": false
+}

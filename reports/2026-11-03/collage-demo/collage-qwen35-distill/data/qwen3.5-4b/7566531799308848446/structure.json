@@ -1,0 +1,95 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "带有细微纹理的浅色纸底，包含散落的灰色星星和圆点装饰，整体呈现固定设计效果，保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        419,
+        426,
+        864,
+        669
+      ],
+      "description": "人物近景照片，人物戴眼镜和白色连帽外套，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_stamp",
+      "kind": "photo",
+      "bbox": [
+        100,
+        626,
+        290,
+        843
+      ],
+      "description": "人物全身照片，人物戴猫耳帽和白色连帽外套，保留照片内的摄影环境，显示区域为矩形，边缘有邮票齿孔效果。"
+    },
+    {
+      "id": "overlay_window",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        293,
+        886,
+        715
+      ],
+      "description": "模拟旧版电脑文件选择窗口的固定设计单元，包含菜单栏、文件列表、预览区域和按钮，覆盖在照片之上。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        626,
+        253,
+        958,
+        280
+      ],
+      "text": "shine cute beautiful ~",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        335,
+        743,
+        585,
+        765
+      ],
+      "text": "happiness! ♥",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_audio",
+      "kind": "overlay",
+      "bbox": [
+        753,
+        733,
+        962,
+        777
+      ],
+      "description": "音频波形图样式的固定装饰单元，包含播放按钮和波形线条。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_stamp",
+    "overlay_window",
+    "text_top",
+    "text_bottom",
+    "overlay_audio"
+  ]
+}

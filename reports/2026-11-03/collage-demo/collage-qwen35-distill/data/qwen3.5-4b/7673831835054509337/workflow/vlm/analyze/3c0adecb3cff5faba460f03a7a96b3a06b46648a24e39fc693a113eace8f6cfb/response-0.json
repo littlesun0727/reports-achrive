@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-98456d342bbafa01",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6471,
+    "total_tokens": 7442,
+    "completion_tokens": 971,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"深绿色调的模糊背景，包含模糊的窗户轮廓和植物枝叶，整体呈现连续摄影画面，作为全画布底图承载所有独立对象。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        156,\n        360,\n        513,\n        818\n      ],\n      \"description\": \"倾斜放置的人物照片，人物为金发，身穿白色衬衫，手托脸颊，背景为车内环境，照片边缘有白色边框。\"\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        497,\n        163,\n        939,\n        595\n      ],\n      \"description\": \"倾斜放置的人物照片，人物为金发，身穿白色衬衫，手托脸颊，背景为车内环境，照片边缘有白色边框。\"\n    },\n    {\n      \"id\": \"flower\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        406,\n        516,\n        733,\n        910\n      ],\n      \"description\": \"白色百合花，花瓣舒展，花蕊清晰，位于两张人物照片下方，作为独立摄影内容。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        64,\n        186,\n        480,\n        296\n      ],\n      \"text\": \"Angel Energy\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        553,\n        493,\n        765,\n        663\n      ],\n      \"text\": \"a fallen angel\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"star_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        32,\n        56,\n        100,\n        156\n      ],\n      \"description\": \"白色四角星形装饰，位于左上角，作为独立固定装饰。\"\n    },\n    {\n      \"id\": \"star_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        793,\n        733,\n        856,\n        833\n      ],\n      \"description\": \"白色四角星形装饰，位于右下角，作为独立固定装饰。\"\n    },\n    {\n      \"id\": \"star_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        826,\n        863,\n        889,\n        963\n      ],\n      \"description\": \"白色四角星形装饰，位于右下角，作为独立固定装饰。\"\n    },\n    {\n      \"id\": \"star_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        906,\n        863,\n        969,\n        963\n      ],\n      \"description\": \"白色四角星形装饰，位于右下角，作为独立固定装饰。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_left\",\n    \"photo_right\",\n    \"flower\",\n    \"text_1\",\n    \"text_2\",\n    \"star_1\",\n    \"star_2\",\n    \"star_3\",\n    \"star_4\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,225 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1320,
+    1767
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1320,
+        1767
+      ],
+      "description": "灰蓝色天空与云层构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "灰蓝色天空与云层构成连续摄影底图，完整显示区域延伸至画布四边",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        70,
+        189,
+        374,
+        472
+      ],
+      "description": "左上角小尺寸照片，展示夕阳下的街道、棕榈树和建筑，保留摄影环境，显示区域为矩形。",
+      "label": "左上角小尺寸照片，展示夕阳下的街道、棕榈树和建筑，保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        582,
+        97,
+        1221,
+        922
+      ],
+      "description": "右上角竖向街景照片，展示黄昏时分的街道、行人和建筑，保留摄影环境，显示区域为矩形。",
+      "label": "右上角竖向街景照片，展示黄昏时分的街道、行人和建筑，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        70,
+        825,
+        677,
+        1695
+      ],
+      "description": "左下角照片，展示黄昏时分的城市天际线、建筑和树木，保留摄影环境，显示区域为矩形。",
+      "label": "左下角照片，展示黄昏时分的城市天际线、建筑和树木，保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        677,
+        825,
+        1320,
+        1767
+      ],
+      "description": "右下角照片，展示黄昏时分的街道、行人、摩托车和气球，保留摄影环境，显示区域为矩形。",
+      "label": "右下角照片，展示黄昏时分的街道、行人、摩托车和气球，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        70,
+        189,
+        374,
+        472
+      ],
+      "description": "围绕左上角小照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "围绕左上角小照片的白色虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        582,
+        97,
+        1221,
+        922
+      ],
+      "description": "围绕右上角竖向照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "围绕右上角竖向照片的白色虚线框，覆盖照片边缘并位于照片上方，",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        70,
+        825,
+        677,
+        1695
+      ],
+      "description": "围绕左下角照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "围绕左下角照片的白色虚线框，覆盖照片边缘并位于照片上方，完整",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        677,
+        825,
+        1320,
+        1767
+      ],
+      "description": "围绕右下角照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "围绕右下角照片的白色虚线框，覆盖照片边缘并位于照片上方，完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        859,
+        21,
+        968,
+        148
+      ],
+      "description": "白色手绘回形针，压在右上角照片框的上沿，作为独立固定装饰保留。",
+      "label": "白色手绘回形针，压在右上角照片框的上沿，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_explosion",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        578,
+        400,
+        790
+      ],
+      "description": "白色手绘爆炸效果装饰，位于左上角照片下方，作为独立固定装饰保留。",
+      "label": "白色手绘爆炸效果装饰，位于左上角照片下方，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        70,
+        92,
+        540,
+        164
+      ],
+      "description": "Sunset sells tenderness,\nand the world is full of romance.",
+      "label": "Sunset sells tenderness,\nand t",
+      "method": "local",
+      "text": "Sunset sells tenderness,\nand the world is full of romance.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        1086,
+        1543,
+        1284,
+        1719
+      ],
+      "description": "此刻",
+      "label": "此刻",
+      "method": "local",
+      "text": "此刻",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "frame_top_left",
+    "photo_top_right",
+    "frame_top_right",
+    "overlay_clip",
+    "photo_bottom_left",
+    "frame_bottom_left",
+    "photo_bottom_right",
+    "frame_bottom_right",
+    "overlay_explosion",
+    "text_1",
+    "text_2"
+  ]
+}

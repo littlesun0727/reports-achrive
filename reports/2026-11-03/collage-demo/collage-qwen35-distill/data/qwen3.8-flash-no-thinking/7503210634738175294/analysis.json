@@ -1,0 +1,198 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Windows XP经典桌面壁纸作为全画布底图，包含蓝天、白云和绿色草地。上层叠加了多个电脑界面窗口（对话框、菜单等）以及一台老式CRT显示器，这些元素遮挡了部分底图，但底图本身是连续且完整的摄影画面。",
+      "background_type": "photo",
+      "label": "Windows XP经典桌面壁纸作为全画布底图，包含蓝天、白",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_window_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        393,
+        202
+      ],
+      "description": "左上角的白色系统对话框，带有灰色标题栏和文字内容，显示关于安全模式启动的提示信息。",
+      "label": "左上角的白色系统对话框，带有灰色标题栏和文字内容，显示关于安",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_window_top_right",
+      "kind": "overlay",
+      "bbox": [
+        379,
+        0,
+        652,
+        192
+      ],
+      "description": "右上角的蓝色关机确认对话框，包含“Turn Off”和“Restart”按钮图标及文字。",
+      "label": "右上角的蓝色关机确认对话框，包含“Turn Off”和“Re",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_online",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        146,
+        357,
+        406
+      ],
+      "description": "白色的对话气泡，内部有黑色粗体文字“online”，边缘柔和模糊。",
+      "label": "白色的对话气泡，内部有黑色粗体文字“online”，边缘柔和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_menu_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        300,
+        130,
+        588
+      ],
+      "description": "左侧垂直排列的系统右键菜单列表，包含Copy, Paste, Create Shortcut等选项文字。",
+      "label": "左侧垂直排列的系统右键菜单列表，包含Copy, Paste,",
+      "method": "extract"
+    },
+    {
+      "id": "frame_monitor",
+      "kind": "frame",
+      "bbox": [
+        130,
+        180,
+        880,
+        852
+      ],
+      "description": "米色的老式CRT显示器外壳，屏幕区域为矩形内口，位于画面中央偏右，承载着一张人物照片。",
+      "photo_id": [
+        "photo_screen_girl"
+      ],
+      "label": "米色的老式CRT显示器外壳，屏幕区域为矩形内口，位于画面中央",
+      "method": "extract"
+    },
+    {
+      "id": "photo_screen_girl",
+      "kind": "photo",
+      "bbox": [
+        186,
+        252,
+        714,
+        696
+      ],
+      "description": "显示器屏幕内的图像，展示一位穿着蓝绿色背心和裙子的卡通风格女孩站在厨房背景中，手持蛋糕。",
+      "label": "显示器屏幕内的图像，展示一位穿着蓝绿色背心和裙子的卡通风格女",
+      "method": "local"
+    },
+    {
+      "id": "overlay_keyboard",
+      "kind": "overlay",
+      "bbox": [
+        321,
+        840,
+        771,
+        1032
+      ],
+      "description": "放置在桌面上的米色键盘，按键清晰可见，位于显示器前方。",
+      "label": "放置在桌面上的米色键盘，按键清晰可见，位于显示器前方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_palette_right",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        792,
+        900,
+        1008
+      ],
+      "description": "右侧边缘露出的彩色调色板窗口局部，显示彩虹渐变色块。",
+      "label": "右侧边缘露出的彩色调色板窗口局部，显示彩虹渐变色块。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dialog_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        643,
+        996,
+        900,
+        1188
+      ],
+      "description": "右下角的灰色错误提示对话框，标题为“What”，内容包含“Why this happen”及一个报错图标。",
+      "label": "右下角的灰色错误提示对话框，标题为“What”，内容包含“W",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_taskbar_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1056,
+        256,
+        1200
+      ],
+      "description": "左下角的任务栏或时间显示区域，隐约可见数字时钟格式的时间信息。",
+      "label": "左下角的任务栏或时间显示区域，隐约可见数字时钟格式的时间信息",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_logo_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        804,
+        130,
+        1056
+      ],
+      "description": "左侧中下部的黑色方块Logo，上面有白色的像素化字母图案。",
+      "label": "左侧中下部的黑色方块Logo，上面有白色的像素化字母图案。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cutout_girl",
+      "kind": "photo",
+      "bbox": [
+        18,
+        540,
+        434,
+        1128
+      ],
+      "description": "前景抠图人物，一位戴着写有'Bon Appetit'厨师帽的年轻女性，身穿蓝色背心和波点裤袜，双手分别拿着蛋糕和锅铲。周围有一圈明显的白色描边轮廓。",
+      "label": "前景抠图人物，一位戴着写有'Bon Appetit'厨师帽的",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_window_top_left",
+    "overlay_window_top_right",
+    "overlay_bubble_online",
+    "overlay_menu_left",
+    "photo_screen_girl",
+    "frame_monitor",
+    "overlay_keyboard",
+    "overlay_palette_right",
+    "overlay_dialog_bottom_right",
+    "overlay_taskbar_bottom",
+    "overlay_logo_left",
+    "photo_cutout_girl"
+  ]
+}

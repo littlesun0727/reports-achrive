@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-bc52302f72535d6a",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7923,
+    "total_tokens": 8604,
+    "completion_tokens": 681,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        333\n      ],\n      \"description\": \"顶部横向海景照片，包含天空、海面、远处礁石和左侧船只，底部中央有白色文字水印。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        333,\n        1000,\n        666\n      ],\n      \"description\": \"中部横向海滨城市照片，包含海面、防波堤、沙滩、人群及远处高楼，底部中央有白色文字水印。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        666,\n        1000,\n        1000\n      ],\n      \"description\": \"底部横向礁石海岸照片，包含海浪、岩石海岸线，底部中央有白色文字水印。\"\n    },\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        392,\n        304,\n        606,\n        319\n      ],\n      \"text\": \"DJI OSMO POCKET 4P\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_middle\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        392,\n        637,\n        606,\n        652\n      ],\n      \"text\": \"DJI OSMO POCKET 4P\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        392,\n        948,\n        606,\n        963\n      ],\n      \"text\": \"DJI OSMO POCKET 4P\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"text_top\",\n    \"photo_middle\",\n    \"text_middle\",\n    \"photo_bottom\",\n    \"text_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

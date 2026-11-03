@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_bg",
+    "description": "模糊的绿色树林背景，作为连续摄影底图覆盖全画布，位于所有独立对象下方。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        128,
+        142,
+        856,
+        842
+      ],
+      "description": "人物半身近景照片，人物手托脸颊，身穿白色T恤，保留照片内的摄影环境。"
+    },
+    {
+      "id": "overlay_clover_top",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        60,
+        286,
+        230
+      ],
+      "description": "左上角的绿色四叶草装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_clover_bottom",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        750,
+        956,
+        950
+      ],
+      "description": "右下角的绿色四叶草装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        356,
+        70,
+        946,
+        110
+      ],
+      "text": "+.Clover Melody.♣ + +.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        66,
+        840,
+        606,
+        880
+      ],
+      "text": "9e+.Clover Melody.♣ + +.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "overlay_clover_top",
+    "overlay_clover_bottom",
+    "text_top",
+    "text_bottom"
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1221
+  ],
+  "objects": [
+    {
+      "id": "green_paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1221
+      ],
+      "description": "连续的浅绿色纹理纸底，覆盖全画布，带有细微的纸张质感；所有照片、贴纸和文字均叠加其上，纸底保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的浅绿色纹理纸底，覆盖全画布，带有细微的纸张质感；所有照",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        102,
+        147,
+        468,
+        720
+      ],
+      "description": "左侧主要人物照片，人物闭眼微笑，身穿深蓝色带白边外套，背景为户外绿树，保留完整摄影环境。",
+      "label": "左侧主要人物照片，人物闭眼微笑，身穿深蓝色带白边外套，背景为",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        464,
+        647,
+        810,
+        1099
+      ],
+      "description": "右侧人物照片，人物侧脸，身穿灰色外套，背景为户外绿植，保留完整摄影环境。",
+      "label": "右侧人物照片，人物侧脸，身穿灰色外套，背景为户外绿植，保留完",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clover_top",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        65,
+        156,
+        211
+      ],
+      "description": "左上角白色方形贴纸，内含一枚绿色四叶草图案，作为独立装饰保留。",
+      "label": "左上角白色方形贴纸，内含一枚绿色四叶草图案，作为独立装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_strip",
+      "kind": "overlay",
+      "bbox": [
+        504,
+        336,
+        810,
+        531
+      ],
+      "description": "右上角白色矩形贴纸，内含一排绿色四叶草图案及手写文字，作为独立装饰保留。",
+      "label": "右上角白色矩形贴纸，内含一排绿色四叶草图案及手写文字，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_card",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        855,
+        378,
+        1050
+      ],
+      "description": "左下角白色圆角矩形贴纸，内含两枚绿色四叶草图案及多行文字，作为独立装饰保留。",
+      "label": "左下角白色圆角矩形贴纸，内含两枚绿色四叶草图案及多行文字，作",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        477,
+        220,
+        801,
+        269
+      ],
+      "description": "Cut film strips held more truth than the final reel.",
+      "label": "Cut film strips held more trut",
+      "method": "local",
+      "text": "Cut film strips held more truth than the final reel.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        180,
+        769,
+        450,
+        818
+      ],
+      "description": "\"Vintage flashbulbs startled 1920s dust awake\"",
+      "label": "\"Vintage flashbulbs startled 1",
+      "method": "local",
+      "text": "\"Vintage flashbulbs startled 1920s dust awake\"",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        117,
+        916,
+        342,
+        1013
+      ],
+      "description": "love blooms like a cherished four-leaf clover, a rare and beautiful treasure.",
+      "label": "love blooms like a cherished f",
+      "method": "local",
+      "text": "love blooms like a cherished four-leaf clover, a rare and beautiful treasure.",
+      "text_status": "known",
+      "style": {
+        "fill": "#556B2F",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "green_paper_base",
+    "photo_main",
+    "photo_right",
+    "overlay_clover_top",
+    "overlay_clover_strip",
+    "overlay_clover_card",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

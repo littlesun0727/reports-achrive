@@ -1,0 +1,278 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "咖啡店内的实拍场景，包含人物、柜台、面包展示柜、地面和墙面。画面完整延伸至画布四边，作为连续摄影底图承载全幅内容。",
+      "background_type": "photo",
+      "label": "咖啡店内的实拍场景，包含人物、柜台、面包展示柜、地面和墙面。",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        43,
+        58,
+        331,
+        514
+      ],
+      "description": "左上角椭圆形裁剪的自拍照片，人物手持咖啡杯，保留照片内的摄影环境，边缘有白色虚线描边。",
+      "label": "左上角椭圆形裁剪的自拍照片，人物手持咖啡杯，保留照片内的摄影",
+      "method": "local"
+    },
+    {
+      "id": "overlay_oval",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        58,
+        331,
+        514
+      ],
+      "description": "围绕左上角照片的白色虚线椭圆边框，作为独立固定装饰保留。",
+      "label": "围绕左上角照片的白色虚线椭圆边框，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart1",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        206,
+        101,
+        254
+      ],
+      "description": "左上角照片内的白色心形贴纸。",
+      "label": "左上角照片内的白色心形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart2",
+      "kind": "overlay",
+      "bbox": [
+        277,
+        326,
+        313,
+        374
+      ],
+      "description": "左上角照片内的白色心形贴纸。",
+      "label": "左上角照片内的白色心形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tamagotchi",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        386,
+        133,
+        542
+      ],
+      "description": "左侧的蓝色卡通角色贴纸，压在左上角照片下方。",
+      "label": "左侧的蓝色卡通角色贴纸，压在左上角照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        353,
+        194,
+        389,
+        242
+      ],
+      "description": "位于左上角照片右侧的白色五角星贴纸。",
+      "label": "位于左上角照片右侧的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        209,
+        506,
+        245,
+        554
+      ],
+      "description": "位于左侧卡通贴纸右侧的白色五角星贴纸。",
+      "label": "位于左侧卡通贴纸右侧的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        614,
+        56,
+        662
+      ],
+      "description": "位于左侧卡通贴纸下方的黑色五角星贴纸。",
+      "label": "位于左侧卡通贴纸下方的黑色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star4",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        590,
+        164,
+        638
+      ],
+      "description": "位于左侧卡通贴纸下方的黑色五角星贴纸。",
+      "label": "位于左侧卡通贴纸下方的黑色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star5",
+      "kind": "overlay",
+      "bbox": [
+        821,
+        254,
+        857,
+        302
+      ],
+      "description": "右上角的白色五角星贴纸。",
+      "label": "右上角的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star6",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        1010,
+        659,
+        1058
+      ],
+      "description": "右下角的白色五角星贴纸。",
+      "label": "右下角的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sweat",
+      "kind": "overlay",
+      "bbox": [
+        641,
+        326,
+        713,
+        422
+      ],
+      "description": "人物头部右侧的蓝色卡通流汗表情贴纸。",
+      "label": "人物头部右侧的蓝色卡通流汗表情贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cats",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        470,
+        830,
+        542
+      ],
+      "description": "右侧面包柜上方的白色和黑色小猫贴纸。",
+      "label": "右侧面包柜上方的白色和黑色小猫贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bubble1",
+      "kind": "text",
+      "bbox": [
+        277,
+        50,
+        457,
+        110
+      ],
+      "description": "Blog is my life . .",
+      "label": "Blog is my life . .",
+      "method": "local",
+      "text": "Blog is my life . .",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bubble2",
+      "kind": "text",
+      "bbox": [
+        722,
+        506,
+        857,
+        566
+      ],
+      "description": "역시 근데? \n좋아하던 말을 들으면",
+      "label": "역시 근데? \n좋아하던 말을 들으면",
+      "method": "local",
+      "text": "역시 근데? \n좋아하던 말을 들으면",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bubble3",
+      "kind": "text",
+      "bbox": [
+        173,
+        938,
+        371,
+        1070
+      ],
+      "description": "뭔가가\n그리워지는데.",
+      "label": "뭔가가\n그리워지는데.",
+      "method": "local",
+      "text": "뭔가가\n그리워지는데.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_inset",
+    "overlay_oval",
+    "overlay_heart1",
+    "overlay_heart2",
+    "overlay_tamagotchi",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_star4",
+    "overlay_star5",
+    "overlay_star6",
+    "overlay_sweat",
+    "overlay_cats",
+    "text_bubble1",
+    "text_bubble2",
+    "text_bubble3"
+  ]
+}

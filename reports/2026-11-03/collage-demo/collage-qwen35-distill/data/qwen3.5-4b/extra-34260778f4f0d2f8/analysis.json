@@ -1,0 +1,433 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "户外草地与树林构成的连续摄影底图，光线明亮，主体为前景人物，背景延伸至画布四边；上层贴纸、照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "户外草地与树林构成的连续摄影底图，光线明亮，主体为前景人物，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        92,
+        380,
+        527
+      ],
+      "description": "左上角人物全身照片，人物身穿蓝白条纹运动服，手持足球，身体呈动态弯曲姿态，保留背景树林。",
+      "label": "左上角人物全身照片，人物身穿蓝白条纹运动服，手持足球，身体呈",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        612,
+        20,
+        959,
+        467
+      ],
+      "description": "右上角人物半身照片，人物身穿蓝白条纹运动服，手持足球，佩戴耳机，背景为树林，显示区域为矩形。",
+      "label": "右上角人物半身照片，人物身穿蓝白条纹运动服，手持足球，佩戴耳",
+      "method": "local"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        349,
+        959,
+        1280
+      ],
+      "description": "前景人物特写照片，人物手持足球，佩戴耳机，背景为草地和树林，显示区域覆盖画面下半部分。",
+      "label": "前景人物特写照片，人物手持足球，佩戴耳机，背景为草地和树林，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        448,
+        247,
+        559,
+        362
+      ],
+      "description": "蓝色实心爱心贴纸，位于左上角照片与右上角照片之间，作为独立装饰保留。",
+      "label": "蓝色实心爱心贴纸，位于左上角照片与右上角照片之间，作为独立装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_small",
+      "kind": "overlay",
+      "bbox": [
+        448,
+        324,
+        480,
+        362
+      ],
+      "description": "蓝色实心小爱心贴纸，位于大爱心下方，作为独立装饰保留。",
+      "label": "蓝色实心小爱心贴纸，位于大爱心下方，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_small_2",
+      "kind": "overlay",
+      "bbox": [
+        559,
+        298,
+        590,
+        337
+      ],
+      "description": "蓝色实心小爱心贴纸，位于大爱心右侧，作为独立装饰保留。",
+      "label": "蓝色实心小爱心贴纸，位于大爱心右侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        579,
+        185,
+        719
+      ],
+      "description": "白色五角星贴纸，带有放射状线条装饰，位于左上角照片下方，作为独立装饰保留。",
+      "label": "白色五角星贴纸，带有放射状线条装饰，位于左上角照片下方，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        204,
+        534,
+        252,
+        643
+      ],
+      "description": "白色蝴蝶结贴纸，位于左上角照片下方，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于左上角照片下方，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        694,
+        310,
+        771
+      ],
+      "description": "蓝色五角星贴纸，带有放射状线条装饰，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "蓝色五角星贴纸，带有放射状线条装饰，位于前景人物头部左侧，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        553,
+        636,
+        630
+      ],
+      "description": "蓝色五角星贴纸，带有放射状线条装饰，位于右上角照片下方，作为独立装饰保留。",
+      "label": "蓝色五角星贴纸，带有放射状线条装饰，位于右上角照片下方，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        758,
+        252,
+        809
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        783,
+        252,
+        835
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        809,
+        252,
+        860
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_8",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        835,
+        252,
+        886
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_9",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        860,
+        252,
+        911
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_10",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        886,
+        252,
+        937
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_11",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        911,
+        252,
+        963
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_12",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        937,
+        252,
+        988
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_13",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        963,
+        252,
+        1014
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_14",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        988,
+        252,
+        1039
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_15",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1014,
+        252,
+        1065
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_16",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1039,
+        252,
+        1091
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_17",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1065,
+        252,
+        1116
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_18",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1091,
+        252,
+        1142
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_19",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1116,
+        252,
+        1167
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_20",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1142,
+        252,
+        1193
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_21",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1167,
+        252,
+        1219
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_22",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1193,
+        252,
+        1244
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_23",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        1219,
+        252,
+        1270
+      ],
+      "description": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "label": "白色蝴蝶结贴纸，位于前景人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_main",
+    "overlay_heart",
+    "overlay_heart_small",
+    "overlay_heart_small_2",
+    "overlay_star",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_star_7",
+    "overlay_star_8",
+    "overlay_star_9",
+    "overlay_star_10",
+    "overlay_star_11",
+    "overlay_star_12",
+    "overlay_star_13",
+    "overlay_star_14",
+    "overlay_star_15",
+    "overlay_star_16",
+    "overlay_star_17",
+    "overlay_star_18",
+    "overlay_star_19",
+    "overlay_star_20",
+    "overlay_star_21",
+    "overlay_star_22",
+    "overlay_star_23"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影底图，展示面包店柜台场景。画面主体为一名年轻女子手持姜饼人饼干和波点包，背景可见陈列柜、糕点及店铺环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_ellipse_frame",
+      "kind": "frame",
+      "bbox": [
+        38,
+        46,
+        385,
+        421
+      ],
+      "description": "白色手绘风格椭圆线框，位于左上角，作为独立照片的装饰性边框。",
+      "photo_id": [
+        "photo_inset"
+      ]
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        47,
+        55,
+        379,
+        412
+      ],
+      "description": "位于左上角椭圆框内的独立照片，显示同一位女子在店内举着咖啡杯微笑的画面。"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        320,
+        192,
+        452
+      ],
+      "description": "蓝黄色卡通兔子贴纸，叠加在左侧边缘，部分遮挡了椭圆相框的下沿。"
+    },
+    {
+      "id": "text_speech_top",
+      "kind": "text",
+      "bbox": [
+        300,
+        46,
+        508,
+        93
+      ],
+      "text": "Blog is my life . .",
+      "color": "#333333",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_speech_bg_top",
+      "kind": "overlay",
+      "bbox": [
+        297,
+        46,
+        511,
+        93
+      ],
+      "description": "顶部文字气泡的白色椭圆形底板。"
+    },
+    {
+      "id": "overlay_cute_face",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        278,
+        791,
+        355
+      ],
+      "description": "蓝色水滴状可爱表情贴纸，带有腮红和樱桃装饰，贴在人物头发右侧。"
+    },
+    {
+      "id": "overlay_cats",
+      "kind": "overlay",
+      "bbox": [
+        836,
+        381,
+        932,
+        445
+      ],
+      "description": "黑白两只小猫并排的贴纸，位于右侧中部。"
+    },
+    {
+      "id": "overlay_speech_bg_right",
+      "kind": "overlay",
+      "bbox": [
+        791,
+        421,
+        932,
+        485
+      ],
+      "description": "右侧浅蓝色云朵状文字气泡底板。"
+    },
+    {
+      "id": "text_speech_right",
+      "kind": "text",
+      "bbox": [
+        800,
+        431,
+        925,
+        475
+      ],
+      "text": "역시 군침나나요?\n날아치에게\n좋아한다 말을 들으면",
+      "color": "#333333",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_speech_bg_bottom",
+      "kind": "overlay",
+      "bbox": [
+        192,
+        805,
+        441,
+        925
+      ],
+      "description": "底部白色云朵状文字气泡底板。"
+    },
+    {
+      "id": "text_speech_bottom",
+      "kind": "text",
+      "bbox": [
+        207,
+        835,
+        425,
+        895
+      ],
+      "text": "뭔가가\n그려워지는데.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        165,
+        986,
+        985
+      ],
+      "description": "散布在画面各处的星星装饰集合，包含黑色五角星、白色五角星以及带光晕的小圆点。"
+    }
+  ],
+  "layer_order": [
+    "photo_inset",
+    "overlay_ellipse_frame",
+    "overlay_bunny",
+    "overlay_speech_bg_top",
+    "text_speech_top",
+    "overlay_cute_face",
+    "overlay_cats",
+    "overlay_speech_bg_right",
+    "text_speech_right",
+    "overlay_speech_bg_bottom",
+    "text_speech_bottom",
+    "overlay_stars"
+  ]
+}

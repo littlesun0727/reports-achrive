@@ -1,0 +1,95 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "pattern_base",
+    "description": "全画布固定底图，包含浅米色背景、樱桃图案、虚线网格、星星、爪印、蝴蝶结等重复装饰元素，整体风格为可爱拼贴风。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        28,
+        478,
+        406
+      ],
+      "description": "左上角人物手持玩偶的户外照片，人物穿浅色开衫和白色连衣裙，背景有绿植和紫色墙面，照片下方有日文文字装饰。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        522,
+        84,
+        945,
+        478
+      ],
+      "description": "右上角人物手持玩偶的户外照片，人物闭眼微笑，背景有瀑布和建筑，照片上方有播放器界面装饰。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        58,
+        484,
+        486,
+        918
+      ],
+      "description": "左下角人物双手举着两个玩偶的户外照片，人物穿粉色开衫和白色连衣裙，背景有绿植和紫色墙面，照片下方有表情符号和文字装饰。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        528,
+        538,
+        945,
+        953
+      ],
+      "description": "右下角人物坐在地上手持玩偶的户外照片，人物穿粉色开衫和白色连衣裙，背景有水面和紫色墙面，照片下方有唇印装饰。"
+    },
+    {
+      "id": "text_japanese",
+      "kind": "text",
+      "bbox": [
+        153,
+        333,
+        411,
+        378
+      ],
+      "text": "アイスクリーム!!",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_english",
+      "kind": "text",
+      "bbox": [
+        198,
+        928,
+        386,
+        962
+      ],
+      "text": "Yes!! ♪( '▽' )",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "text_japanese",
+    "text_english"
+  ]
+}

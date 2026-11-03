@@ -1,0 +1,165 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1349
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1349
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        310,
+        36,
+        860,
+        402
+      ],
+      "description": "一张特写照片，展示盛在碗中的烤鸡腿饭和煎蛋。画面包含米饭、撒有芝麻的烤鸡腿以及蛋黄完整的煎蛋。",
+      "label": "一张特写照片，展示盛在碗中的烤鸡腿饭和煎蛋。画面包含米饭、撒",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        38,
+        182,
+        234,
+        304
+      ],
+      "description": "肚子饱了\n心情就好了",
+      "label": "肚子饱了\n心情就好了",
+      "method": "local",
+      "text": "肚子饱了\n心情就好了",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_sparkle_1",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        162,
+        270,
+        229
+      ],
+      "description": "位于文字右上方的白色手绘四角星装饰图案。",
+      "label": "位于文字右上方的白色手绘四角星装饰图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_2",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        351,
+        855,
+        486
+      ],
+      "description": "位于右上角照片右下方的白色手绘放射状线条装饰，由多个短粗线段组成。",
+      "label": "位于右上角照片右下方的白色手绘放射状线条装饰，由多个短粗线段",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        90,
+        438,
+        801,
+        904
+      ],
+      "description": "一张俯拍照片，展示了餐桌上的多道菜品，包括香肠拼盘、番茄通心粉、汤和另一份鸡腿饭。",
+      "label": "一张俯拍照片，展示了餐桌上的多道菜品，包括香肠拼盘、番茄通心",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sparkle_3",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        884,
+        90,
+        951
+      ],
+      "description": "位于中间照片左下方的白色手绘四角星及小圆点装饰图案。",
+      "label": "位于中间照片左下方的白色手绘四角星及小圆点装饰图案。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        36,
+        938,
+        585,
+        1315
+      ],
+      "description": "一张近景照片，主要拍摄了两杯橙色饮料和一份番茄通心粉，背景可见部分菜单。",
+      "label": "一张近景照片，主要拍摄了两杯橙色饮料和一份番茄通心粉，背景可",
+      "method": "local"
+    },
+    {
+      "id": "overlay_text_checkin",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        870,
+        850,
+        1032
+      ],
+      "description": "白色空心艺术字“打卡”，带有黑色描边，右侧附带一个定位图标，上方有三条短线表示强调效果。",
+      "label": "白色空心艺术字“打卡”，带有黑色描边，右侧附带一个定位图标，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_vlog",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        1093,
+        810,
+        1194
+      ],
+      "description": "白色手写体英文单词“Plog”，周围点缀着两颗小星星。",
+      "label": "白色手写体英文单词“Plog”，周围点缀着两颗小星星。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_right",
+    "text_1",
+    "overlay_sparkle_1",
+    "overlay_sparkle_2",
+    "photo_middle",
+    "overlay_sparkle_3",
+    "photo_bottom_left",
+    "overlay_text_checkin",
+    "overlay_text_vlog"
+  ]
+}

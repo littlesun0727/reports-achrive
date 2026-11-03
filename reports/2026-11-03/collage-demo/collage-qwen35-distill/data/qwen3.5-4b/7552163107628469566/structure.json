@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝色天空背景，带有黑色电线，构成连续摄影底图，完整显示区域延伸至画布四边；上层文字和照片遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        48,
+        19,
+        538,
+        958
+      ],
+      "text": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_balloon",
+      "kind": "photo",
+      "bbox": [
+        528,
+        347,
+        909,
+        742
+      ],
+      "description": "手持粉色星星气球的照片，包含手部、气球和背景，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        325,
+        847,
+        378
+      ],
+      "description": "透明胶带，贴在照片左上角，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "text_1",
+    "photo_balloon",
+    "overlay_tape"
+  ]
+}

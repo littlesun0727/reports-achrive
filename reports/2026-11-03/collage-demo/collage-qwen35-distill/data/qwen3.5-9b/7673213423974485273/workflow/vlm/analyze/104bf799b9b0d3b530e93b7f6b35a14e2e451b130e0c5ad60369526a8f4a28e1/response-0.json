@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-9b680846b0eb2e74",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 7850,
+    "completion_tokens": 567,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        333\n      ],\n      \"description\": \"顶部用餐场景照片，包含人物、铜锅、多道菜肴及饮品，完整显示区域为矩形，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        333,\n        1000,\n        667\n      ],\n      \"description\": \"中部拼贴照片，包含四道菜肴的圆形展示图、卡通贴纸及装饰线条，完整显示区域为矩形，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        667,\n        1000,\n        1000\n      ],\n      \"description\": \"底部用餐场景照片，包含人物、铜锅、多道菜肴及饮品，完整显示区域为矩形，保留摄影环境。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        12,\n        350,\n        200,\n        400\n      ],\n      \"text\": \"快乐加载中\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        100,\n        350,\n        200,\n        380\n      ],\n      \"text\": \"一起吃饭 | 普通日子里的小浪漫\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_middle\",\n    \"photo_bottom\",\n    \"text_1\",\n    \"text_2\"\n  ]\n}",
+  "tool_calls": false
+}

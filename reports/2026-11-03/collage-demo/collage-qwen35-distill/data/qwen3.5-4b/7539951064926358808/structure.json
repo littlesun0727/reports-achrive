@@ -1,0 +1,228 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "户外咖啡馆场景的连续摄影底图，包含木质桌面、绿植、建筑立面和天空，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        77,
+        39,
+        600,
+        585
+      ],
+      "description": "左上人物半身照片，女子身穿白色无袖上衣，坐在木质桌前，背景为咖啡馆室内环境，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        347,
+        613,
+        915,
+        947
+      ],
+      "description": "右下食物特写照片，包含咖啡、蛋糕、书本和餐具，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        66,
+        39,
+        610,
+        585
+      ],
+      "description": "围绕左上人物照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        337,
+        613,
+        925,
+        947
+      ],
+      "description": "围绕右下食物照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        685,
+        280,
+        890
+      ],
+      "description": "左下角白色手绘风格贴纸，包含文字和猫头图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        115,
+        690,
+        240,
+        740
+      ],
+      "text": "NICE\nDAY",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_decor",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        400,
+        850,
+        570
+      ],
+      "description": "右侧白色手绘风格卡通熊图案贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        190,
+        850,
+        240
+      ],
+      "description": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_2",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        105,
+        750,
+        145
+      ],
+      "description": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_3",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        450,
+        630,
+        495
+      ],
+      "description": "右侧中间白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_4",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        630,
+        945,
+        670
+      ],
+      "description": "右侧中间白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_5",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        865,
+        355,
+        915
+      ],
+      "description": "左下角白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_6",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        330,
+        55,
+        370
+      ],
+      "description": "左上角白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_7",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        290,
+        50,
+        320
+      ],
+      "description": "左上角白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_8",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        65,
+        620,
+        95
+      ],
+      "description": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars_9",
+      "kind": "overlay",
+      "bbox": [
+        940,
+        710,
+        980,
+        750
+      ],
+      "description": "右下角白色手绘风格星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        300,
+        780,
+        350
+      ],
+      "description": "右侧白色手绘风格螺旋图案贴纸，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_text",
+    "text_1",
+    "overlay_decor",
+    "overlay_stars",
+    "overlay_stars_2",
+    "overlay_stars_3",
+    "overlay_stars_4",
+    "overlay_stars_5",
+    "overlay_stars_6",
+    "overlay_stars_7",
+    "overlay_stars_8",
+    "overlay_stars_9",
+    "overlay_spiral"
+  ]
+}

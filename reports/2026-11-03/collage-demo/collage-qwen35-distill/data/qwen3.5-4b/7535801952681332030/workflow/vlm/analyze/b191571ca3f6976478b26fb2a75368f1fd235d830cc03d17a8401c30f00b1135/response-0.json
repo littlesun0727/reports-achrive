@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-8dbf87f4a5799b04",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7682,
+    "completion_tokens": 763,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"户外草地与溪流场景的连续摄影底图，包含左侧草地、右侧溪流及底部人物腿部，完整显示区域延伸至画布四边；上层三张独立照片遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_horses\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        303,\n        89,\n        680,\n        303\n      ],\n      \"description\": \"横向照片，展示草原上三匹黑马与拍摄者手持手机取景的画面，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"frame_horses\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        256,\n        75,\n        776,\n        320\n      ],\n      \"description\": \"围绕单张马匹照片的黄色矩形相框，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。\",\n      \"photo_id\": [\n        \"photo_horses\"\n      ]\n    },\n    {\n      \"id\": \"photo_flowers\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        320,\n        380,\n        662,\n        600\n      ],\n      \"description\": \"横向照片，展示手持花环与背景草原，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"frame_flowers\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        260,\n        375,\n        780,\n        618\n      ],\n      \"description\": \"围绕单张花环照片的白色矩形相框，边缘带有彩色圆点装饰，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。\",\n      \"photo_id\": [\n        \"photo_flowers\"\n      ]\n    },\n    {\n      \"id\": \"photo_fruits\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        320,\n        680,\n        662,\n        898\n      ],\n      \"description\": \"横向照片，展示草帽中盛放的苹果与桃子，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"frame_fruits\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        260,\n        670,\n        780,\n        912\n      ],\n      \"description\": \"围绕单张水果照片的紫色矩形相框，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。\",\n      \"photo_id\": [\n        \"photo_fruits\"\n      ]\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_horses\",\n    \"frame_horses\",\n    \"photo_flowers\",\n    \"frame_flowers\",\n    \"photo_fruits\",\n    \"frame_fruits\"\n  ]\n}",
+  "tool_calls": false
+}

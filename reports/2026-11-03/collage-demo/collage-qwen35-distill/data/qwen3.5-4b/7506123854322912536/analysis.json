@@ -1,0 +1,125 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "灰白色砖墙与地面构成的连续摄影底图，纹理清晰，完整覆盖画布；上层照片、花卉装饰和网格图案遮挡局部，保留墙体与地面的连续性及被遮挡关系。",
+      "background_type": "photo",
+      "label": "灰白色砖墙与地面构成的连续摄影底图，纹理清晰，完整覆盖画布；",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        69,
+        154,
+        680,
+        536
+      ],
+      "description": "上方人物半身照片，人物手托下巴，背景为绿植与白色栏杆，保留完整摄影环境，显示区域为矩形。",
+      "label": "上方人物半身照片，人物手托下巴，背景为绿植与白色栏杆，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        266,
+        703,
+        811,
+        1058
+      ],
+      "description": "下方人物半身照片，人物直视镜头，背景为室内座椅，保留完整摄影环境，显示区域为矩形。",
+      "label": "下方人物半身照片，人物直视镜头，背景为室内座椅，保留完整摄影",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flowers",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        523,
+        900,
+        787
+      ],
+      "description": "横向花束装饰，包含绿叶与白色雏菊，覆盖在砖墙与照片之间，作为独立固定单元保留。",
+      "label": "横向花束装饰，包含绿叶与白色雏菊，覆盖在砖墙与照片之间，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_grid_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        77,
+        149,
+        247
+      ],
+      "description": "左上角四叶草网格图案，半透明，作为独立装饰保留。",
+      "label": "左上角四叶草网格图案，半透明，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_grid_top_right",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        403,
+        788,
+        583
+      ],
+      "description": "右上角四叶草网格图案，半透明，作为独立装饰保留。",
+      "label": "右上角四叶草网格图案，半透明，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_grid_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        889,
+        337,
+        1103
+      ],
+      "description": "左下角四叶草网格图案，半透明，作为独立装饰保留。",
+      "label": "左下角四叶草网格图案，半透明，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_grid_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        991,
+        900,
+        1123
+      ],
+      "description": "右下角四叶草网格图案，半透明，作为独立装饰保留。",
+      "label": "右下角四叶草网格图案，半透明，作为独立装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom",
+    "overlay_flowers",
+    "overlay_grid_top_left",
+    "overlay_grid_top_right",
+    "overlay_grid_bottom_left",
+    "overlay_grid_bottom_right"
+  ]
+}

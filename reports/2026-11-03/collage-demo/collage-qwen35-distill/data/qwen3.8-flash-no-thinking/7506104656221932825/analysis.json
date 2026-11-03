@@ -1,0 +1,120 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "地铁站通道场景，包含灰白色砖墙、右侧下行楼梯及上方绿色指示牌。主体为一名戴黑色贝雷帽、穿白衬衫的长发年轻女性，位于画面左侧前景，身体微侧面向镜头。",
+      "background_type": "photo",
+      "label": "地铁站通道场景，包含灰白色砖墙、右侧下行楼梯及上方绿色指示牌",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        210,
+        207,
+        312
+      ],
+      "description": "左上角三颗白色手绘风格星星装饰，线条简洁，无底板。",
+      "label": "左上角三颗白色手绘风格星星装饰，线条简洁，无底板。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_frame",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        264,
+        846,
+        672
+      ],
+      "description": "右侧巨大的白色手绘心形轮廓线，作为照片窗口边框叠加在背景墙上。",
+      "label": "右侧巨大的白色手绘心形轮廓线，作为照片窗口边框叠加在背景墙上",
+      "method": "extract"
+    },
+    {
+      "id": "photo_inset_heart",
+      "kind": "photo",
+      "bbox": [
+        540,
+        288,
+        828,
+        648
+      ],
+      "description": "位于心形框内的独立人物照片，同一位女性手持手机自拍，表情惊讶张嘴，保留其身后的摄影环境。",
+      "label": "位于心形框内的独立人物照片，同一位女性手持手机自拍，表情惊讶",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        204,
+        855,
+        636
+      ],
+      "description": "右侧散落的几颗白色手绘星星装饰，部分与心形框重叠。",
+      "label": "右侧散落的几颗白色手绘星星装饰，部分与心形框重叠。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        984,
+        288,
+        1080
+      ],
+      "description": "左下角两颗白色手绘星星装饰。",
+      "label": "左下角两颗白色手绘星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_korean",
+      "kind": "text",
+      "bbox": [
+        477,
+        984,
+        648,
+        1044
+      ],
+      "description": "좋은 날",
+      "label": "좋은 날",
+      "method": "local",
+      "text": "좋은 날",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars_left",
+    "overlay_heart_frame",
+    "photo_inset_heart",
+    "overlay_stars_right",
+    "overlay_stars_bottom_left",
+    "text_korean"
+  ]
+}

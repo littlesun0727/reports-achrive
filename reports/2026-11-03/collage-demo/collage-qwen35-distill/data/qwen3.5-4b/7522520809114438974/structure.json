@@ -1,0 +1,206 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_umbrella_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        680,
+        320
+      ],
+      "description": "雨滴覆盖的雨伞内部视角，可见伞骨结构和雨滴，作为顶部背景层。"
+    },
+    {
+      "id": "photo_tree_top",
+      "kind": "photo",
+      "bbox": [
+        680,
+        60,
+        920,
+        250
+      ],
+      "description": "仰视视角的绿色树叶照片，位于顶部右侧，与雨伞照片并列。"
+    },
+    {
+      "id": "photo_rainy_bg",
+      "kind": "photo",
+      "bbox": [
+        0,
+        320,
+        920,
+        680
+      ],
+      "description": "带有雨滴效果的绿色背景，作为中间层背景，承载文字和贴纸。"
+    },
+    {
+      "id": "photo_umbrella_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        680,
+        920,
+        1000
+      ],
+      "description": "雨伞边缘和湿漉漉的地面照片，包含白色鞋子，作为底部背景层。"
+    },
+    {
+      "id": "photo_rainy_card",
+      "kind": "photo",
+      "bbox": [
+        80,
+        740,
+        360,
+        900
+      ],
+      "description": "带有白色胶带装饰的矩形照片，显示雨滴效果，位于左下角。"
+    },
+    {
+      "id": "text_chinese",
+      "kind": "text",
+      "bbox": [
+        260,
+        450,
+        580,
+        550
+      ],
+      "text": "消失的下雨天，\n我好想再淋一遍。",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_english",
+      "kind": "text",
+      "bbox": [
+        580,
+        580,
+        880,
+        640
+      ],
+      "text": "Disappearing rainy days,\nI want to get wet for another day.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "sticker_4leaf",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        330,
+        860,
+        420
+      ],
+      "description": "绿色四叶草贴纸，中间有白色小熊图案，位于中间背景右上角。"
+    },
+    {
+      "id": "sticker_heart",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        560,
+        320,
+        590
+      ],
+      "description": "手绘风格的小熊头像和爱心贴纸，位于中间背景左下角。"
+    },
+    {
+      "id": "text_rainy",
+      "kind": "text",
+      "bbox": [
+        150,
+        790,
+        280,
+        840
+      ],
+      "text": "Rainy",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "decoration_droplet_1",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        740,
+        460,
+        820
+      ],
+      "description": "白色手绘水滴装饰，位于底部照片上方。"
+    },
+    {
+      "id": "decoration_droplet_2",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        800,
+        560,
+        860
+      ],
+      "description": "白色手绘水滴装饰，位于底部照片上方。"
+    },
+    {
+      "id": "decoration_droplet_3",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        740,
+        680,
+        800
+      ],
+      "description": "白色手绘水滴装饰，位于底部照片上方。"
+    },
+    {
+      "id": "decoration_droplet_4",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        740,
+        800,
+        800
+      ],
+      "description": "白色手绘水滴装饰，位于底部照片上方。"
+    },
+    {
+      "id": "decoration_droplet_5",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        740,
+        930,
+        800
+      ],
+      "description": "白色手绘水滴装饰，位于底部照片上方。"
+    }
+  ],
+  "layer_order": [
+    "photo_umbrella_top",
+    "photo_tree_top",
+    "photo_rainy_bg",
+    "photo_umbrella_bottom",
+    "photo_rainy_card",
+    "text_chinese",
+    "text_english",
+    "sticker_4leaf",
+    "sticker_heart",
+    "text_rainy",
+    "decoration_droplet_1",
+    "decoration_droplet_2",
+    "decoration_droplet_3",
+    "decoration_droplet_4",
+    "decoration_droplet_5"
+  ]
+}

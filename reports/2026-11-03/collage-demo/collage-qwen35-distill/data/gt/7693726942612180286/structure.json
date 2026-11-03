@@ -1,0 +1,356 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_street_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        509
+      ],
+      "description": "上半幅韩国商业步行街照片，街道向中央纵深延伸，两侧店铺、招牌及上方蓝天均保留；完整窗口横贯画布，局部被自拍卡片和装饰遮挡，下边与另一张街景明确拼接。"
+    },
+    {
+      "id": "photo_street_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        509,
+        1000,
+        1000
+      ],
+      "description": "下半幅独立城市街景，包含密集韩文招牌、建筑和中央偏左的高塔，取景与上方街道不连续；摄影环境完整保留，前方照片及文字遮住部分区域。"
+    },
+    {
+      "id": "photo_earphones",
+      "kind": "photo",
+      "bbox": [
+        500,
+        78,
+        667,
+        156
+      ],
+      "description": "顶部小幅灰色调静物照片，浅色有线耳机与线缆盘绕在带细小亮点的表面上，保留摄影背景；四周有柔和白色亮边。"
+    },
+    {
+      "id": "frame_selfie",
+      "kind": "frame",
+      "bbox": [
+        47,
+        181,
+        452,
+        485
+      ],
+      "description": "白色浏览窗口式自拍卡片，包含顶部返回箭头、右上关闭符号、白色上下留边和轻微阴影，内口照片独立替换。",
+      "photo_id": [
+        "photo_selfie"
+      ]
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        52,
+        216,
+        443,
+        451
+      ],
+      "description": "一名黑色双马尾年轻女性的近景自拍，手持白色手机，穿粉色与灰色上衣并戴有线耳机，面向镜头；保留室内绿色墙面等摄影环境，照片按矩形内口显示。"
+    },
+    {
+      "id": "overlay_questions",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        118,
+        369,
+        204
+      ],
+      "description": "三个大小不同的粉色问号组成的完整装饰组，问号内部带深粉圆点，底部部分覆盖自拍卡片顶部。"
+    },
+    {
+      "id": "overlay_music_label",
+      "kind": "overlay",
+      "bbox": [
+        293,
+        159,
+        410,
+        197
+      ],
+      "description": "白色小标签，带浅蓝色符号、括号状装饰和蓝色音符，连同细边整体保留，叠在自拍卡片上沿。"
+    },
+    {
+      "id": "overlay_cyan_label",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        238,
+        483,
+        413
+      ],
+      "description": "竖向青绿色装饰标签，白色密集圆点底纹上排列粉白色拉长字样，可辨为 good things ahead；文字与底板作为完整设计保留。"
+    },
+    {
+      "id": "overlay_glitter_letters",
+      "kind": "overlay",
+      "bbox": [
+        514,
+        191,
+        934,
+        370
+      ],
+      "description": "横跨街景中部的浅蓝银色闪粉空心手写字母装饰，笔画宽大且有颗粒感，内部透明，整组保留。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        104,
+        913,
+        149
+      ],
+      "description": "右上方独立白色五角星。"
+    },
+    {
+      "id": "overlay_star_small",
+      "kind": "overlay",
+      "bbox": [
+        457,
+        307,
+        504,
+        339
+      ],
+      "description": "青绿色标签右侧的小型白色五角星，覆盖标签边缘及街景。"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        394,
+        608,
+        453
+      ],
+      "description": "画面中央偏右的白色五角星，位于道路上方。"
+    },
+    {
+      "id": "overlay_heart_left",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        395,
+        138,
+        491
+      ],
+      "description": "自拍卡片左下角的白色手绘空心爱心，带细小白点及彩色亮点，跨越照片和白色卡片下沿。"
+    },
+    {
+      "id": "overlay_love",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        535,
+        433,
+        643
+      ],
+      "description": "多行错落排列的白色 love 字样与较大的 ME 组成的发光文字装饰，字距、位置和字号各异，整体覆盖下方街景。"
+    },
+    {
+      "id": "overlay_number_01",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        540,
+        82,
+        580
+      ],
+      "description": "浅蓝色纸片式编号标签，黑色手写字样为 01.，保留底板及字形。"
+    },
+    {
+      "id": "overlay_number_02",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        631,
+        83,
+        671
+      ],
+      "description": "浅蓝色纸片式编号标签，黑色手写字样为 02.，覆盖食物照片左上边缘。"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        40,
+        648,
+        423,
+        933
+      ],
+      "description": "一张连续的桌面食物近景照片，包含多杯带涂鸦杯套的饮品、带卡通圆饼的甜点及前景面包，保留桌面环境；矩形窗口周围有细白边，下部被文字装饰遮挡。"
+    },
+    {
+      "id": "overlay_number_03",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        722,
+        85,
+        762
+      ],
+      "description": "浅蓝色纸片式编号标签，黑色手写字样为 03.，叠在食物照片左侧。"
+    },
+    {
+      "id": "overlay_food_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        657,
+        417,
+        917
+      ],
+      "description": "覆盖食物照片的白色手绘环线、空心星星、多处闪光与小螺旋组成的完整装饰，形成环绕甜点和饮品的效果。"
+    },
+    {
+      "id": "frame_collage",
+      "kind": "frame",
+      "bbox": [
+        476,
+        455,
+        942,
+        838
+      ],
+      "description": "倾斜的白色四格照片卡，包含四个独立窗口、白色分隔和较宽底边；底部一体印有三个蓝色爱心及韩文“사 랑 해”，框体与阴影整体保留。",
+      "photo_id": [
+        "photo_collage_top_left",
+        "photo_collage_top_right",
+        "photo_collage_bottom_left",
+        "photo_collage_bottom_right"
+      ]
+    },
+    {
+      "id": "photo_collage_top_left",
+      "kind": "photo",
+      "bbox": [
+        493,
+        487,
+        699,
+        632
+      ],
+      "description": "四格卡左上照片，一名戴浅色针织帽、穿粉色外套的长发女性在夜间树木前低头站立，呈中景；保留夜间摄影环境，沿倾斜窗口裁切。"
+    },
+    {
+      "id": "photo_collage_top_right",
+      "kind": "photo",
+      "bbox": [
+        685,
+        468,
+        884,
+        616
+      ],
+      "description": "四格卡右上独立照片，同一造型女性戴浅色针织帽、穿粉色外套在夜间正面站立，姿态与左格不同；保留树木和道路环境，沿窗口裁切。"
+    },
+    {
+      "id": "photo_collage_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        516,
+        630,
+        721,
+        786
+      ],
+      "description": "四格卡左下照片，戴针织帽、穿粉色外套的长发女性坐在绿色长椅上，双手放在身前；保留长椅和夜间树木环境，沿倾斜窗口裁切。"
+    },
+    {
+      "id": "photo_collage_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        704,
+        610,
+        910,
+        763
+      ],
+      "description": "四格卡右下照片，一名戴浅色针织帽的长发女性手持白色手机近景自拍，保留室内背景；沿倾斜窗口裁切，与其他三格分别替换。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        390,
+        741,
+        507
+      ],
+      "description": "卡片顶部的大型浅奶油色夹子装饰，顶部圆孔露出下层街景，夹身有绿色、粉色小花和圆点，底端覆盖照片卡上沿。"
+    },
+    {
+      "id": "overlay_korean_label",
+      "kind": "overlay",
+      "bbox": [
+        748,
+        442,
+        871,
+        477
+      ],
+      "description": "略倾斜的浅粉色纸标签，印有“사랑스러워”及两侧小翅膀图案，叠在四格照片卡右上边缘。"
+    },
+    {
+      "id": "overlay_snow_heart",
+      "kind": "overlay",
+      "bbox": [
+        458,
+        617,
+        579,
+        689
+      ],
+      "description": "白底绿色双线手绘爱心贴纸，内部为错落的 Snow lapse 字样，整体叠在四格卡左侧边缘。"
+    },
+    {
+      "id": "overlay_weekend",
+      "kind": "overlay",
+      "bbox": [
+        359,
+        861,
+        812,
+        947
+      ],
+      "description": "底部大型浅黄色粗糙印刷质感“Weekend.”艺术字，左侧带橙色放射状星花，字形、倾斜排布与星花整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_street_top",
+    "photo_street_bottom",
+    "photo_earphones",
+    "overlay_glitter_letters",
+    "frame_selfie",
+    "photo_selfie",
+    "overlay_music_label",
+    "overlay_questions",
+    "overlay_cyan_label",
+    "overlay_star_top",
+    "overlay_star_small",
+    "overlay_star_center",
+    "overlay_heart_left",
+    "overlay_love",
+    "overlay_number_01",
+    "photo_food",
+    "overlay_food_sparkles",
+    "overlay_number_02",
+    "overlay_number_03",
+    "frame_collage",
+    "photo_collage_top_left",
+    "photo_collage_top_right",
+    "photo_collage_bottom_left",
+    "photo_collage_bottom_right",
+    "overlay_clip",
+    "overlay_korean_label",
+    "overlay_snow_heart",
+    "overlay_weekend"
+  ]
+}

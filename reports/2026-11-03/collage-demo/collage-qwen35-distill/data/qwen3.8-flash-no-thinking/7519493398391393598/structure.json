@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的深蓝色牛仔布纹理底图，带有白色缝线和散落的细小圆点装饰；照片独立替换，固定底纹保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        120,
+        75,
+        879,
+        453
+      ],
+      "description": "上方人物近景照片，女子坐在窗边托腮看书，桌上有饮料，保留车内摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        116,
+        534,
+        881,
+        923
+      ],
+      "description": "下方人物近景照片，女子手持书本看向窗外，桌上有饮料和相机，与上方姿态不同，保留车内摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        24,
+        240,
+        175
+      ],
+      "description": "左上角大五角星贴纸，浅蓝色带白点图案，部分压在上方照片边缘上。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        175,
+        110,
+        235
+      ],
+      "description": "左侧小五角星贴纸，浅蓝色带白点图案，位于上方照片左下侧。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        825,
+        155,
+        985,
+        285
+      ],
+      "description": "右上角中等大小五角星贴纸，浅蓝色带白点图案，位于上方照片右侧。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        245,
+        458,
+        360,
+        535
+      ],
+      "description": "中间偏左小五角星贴纸，浅蓝色带白点图案，位于两张照片之间。"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        455,
+        960,
+        610
+      ],
+      "description": "右侧中等大小五角星贴纸，浅蓝色带白点图案，跨越两张照片之间的缝隙。"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        875,
+        390,
+        975
+      ],
+      "description": "左下角中等大小五角星贴纸，浅蓝色带白点图案，部分压在下方照片边缘上。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6"
+  ]
+}

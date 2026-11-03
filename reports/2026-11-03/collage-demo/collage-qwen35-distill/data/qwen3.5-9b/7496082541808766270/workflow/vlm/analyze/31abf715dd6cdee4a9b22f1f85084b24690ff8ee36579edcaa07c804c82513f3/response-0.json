@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-8d367221516eea1f",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7518,
+    "completion_tokens": 599,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_birthday\",\n    \"description\": \"生日主题固定底图，包含彩色'Happy Birthday'艺术字、气球、彩带、纸屑和白色虚线边框，整体为连续设计，保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        60,\n        410,\n        380,\n        680\n      ],\n      \"description\": \"心形窗口内的插花照片，包含粉色、黄色花朵和蜡烛，保留摄影环境，沿心形轮廓显示。\"\n    },\n    {\n      \"id\": \"photo_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        450,\n        410,\n        920,\n        700\n      ],\n      \"description\": \"右侧人物照片，女性戴皇冠、双手合十，背景有卡通画和蛋糕，保留摄影环境，矩形显示。\"\n    },\n    {\n      \"id\": \"photo_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        60,\n        700,\n        520,\n        980\n      ],\n      \"description\": \"左下人物照片，女性穿粉色礼服、戴皇冠、手持气球，背景有卡通画，保留摄影环境，矩形显示。\"\n    },\n    {\n      \"id\": \"photo_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        900,\n        410,\n        1000,\n        700\n      ],\n      \"description\": \"右侧边缘局部照片，显示蛋糕和蜡烛，保留摄影环境，矩形显示。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        550,\n        780,\n        920,\n        950\n      ],\n      \"text\": \"Happy Birthday\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_1\",\n    \"photo_2\",\n    \"photo_3\",\n    \"photo_4\",\n    \"text_1\"\n  ]\n}",
+  "tool_calls": false
+}

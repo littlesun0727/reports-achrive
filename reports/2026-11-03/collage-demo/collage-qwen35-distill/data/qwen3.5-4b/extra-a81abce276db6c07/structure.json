@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        350
+      ],
+      "description": "人物背影照片，位于画布顶部，人物面向大海，背景为水面和远山，底部边缘有渐隐效果。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        350,
+        1000,
+        700
+      ],
+      "description": "人物侧脸照片，位于画布中部，人物面向左侧，背景为天空、云朵和远山，底部边缘有渐隐效果。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        700,
+        1000,
+        1000
+      ],
+      "description": "人物仰头照片，位于画布底部，人物仰头望天，背景为水面，顶部边缘有渐隐效果。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        830,
+        960,
+        990,
+        990
+      ],
+      "text": "小红书号: 862000240",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "icon_1",
+      "kind": "overlay",
+      "bbox": [
+        950,
+        950,
+        990,
+        990
+      ],
+      "description": "白色小红书图标，位于文字上方，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "icon_1",
+    "text_1"
+  ]
+}

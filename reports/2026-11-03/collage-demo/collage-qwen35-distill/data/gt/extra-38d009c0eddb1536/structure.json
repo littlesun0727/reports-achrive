@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        355
+      ],
+      "description": "上部海湾远景照片，保留蓝天、绿色岛屿、碧蓝海水、沙滩及多名戏水游客，左侧有漂浮艇。摄影环境覆盖整个横幅，底部沙滩边缘柔和过渡至中部照片；与中部的山岸线及拍摄视角不连续，是独立照片。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        317,
+        1000,
+        694
+      ],
+      "description": "中部独立海边人像照片，一名戴草帽、穿浅蓝条纹长袖衣的长发女子居中偏右，闭眼微笑并侧倾头部，显示至大腿附近。保留身后的远山、海水及浅水地面，不沿人物轮廓去背景。照片上下边缘柔化，与上下两张海景叠接，下缘人物衣摆与水面一同渐隐。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        644,
+        1000,
+        1000
+      ],
+      "description": "下部独立海滩照片，左前景为占据较大画幅的黄色饮料透明杯，含吸管和黄色果块，杯底被画布下边裁切；后方保留海水、游泳游客、沙滩与底部栏沿。饮料和远近景共同属于该照片，不拆为装饰。上缘柔和渐隐，与中部人像照片的下缘重叠。"
+    },
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        905,
+        950,
+        982,
+        973
+      ],
+      "description": "右下角白色圆角胶囊状小红书标识，包含灰色特殊字形“小红书”，底板、字形与细微阴影整体保留。"
+    },
+    {
+      "id": "text_account",
+      "kind": "text",
+      "bbox": [
+        820,
+        976,
+        978,
+        988
+      ],
+      "text": "小红书号: sisi520_",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_logo",
+    "text_account"
+  ]
+}

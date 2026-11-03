@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "brick_wall_base",
+    "description": "连续的白色砖墙纹理底图，覆盖全画布，作为固定设计单元保留原样；照片和装饰元素叠加其上。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        76,
+        118,
+        742,
+        448
+      ],
+      "description": "上方人物照片，人物手托下巴，背景为绿植和白色栏杆，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        286,
+        576,
+        896,
+        888
+      ],
+      "description": "下方人物照片，人物坐在车内，背景为车窗和座椅，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_flowers",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        442,
+        988,
+        652
+      ],
+      "description": "横向绿色植物与白色小花装饰带，位于两张照片之间，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_four_leaf",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        738,
+        352,
+        922
+      ],
+      "description": "左下角绿色四叶草图案装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        58,
+        156,
+        152
+      ],
+      "description": "左上角白色网格状装饰图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_top_right",
+      "kind": "overlay",
+      "bbox": [
+        624,
+        336,
+        864,
+        482
+      ],
+      "description": "右上角白色网格状装饰图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        842,
+        1000,
+        998
+      ],
+      "description": "右下角白色网格状装饰图案，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_flowers",
+    "overlay_four_leaf",
+    "overlay_top_left",
+    "overlay_top_right",
+    "overlay_bottom_right"
+  ]
+}

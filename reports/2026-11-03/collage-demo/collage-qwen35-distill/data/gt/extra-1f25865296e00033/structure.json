@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海岸风景铺满画布：上方为蓝天白云，中部海面与礁石岸线，左侧有远处游客，下方为沙石地面和黑色木栈道栏杆。四边露出的场景连续，三张独立照片及文字装饰遮挡局部；完整环境随底图照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        181,
+        108,
+        536,
+        365
+      ],
+      "description": "上方独立矩形海景照片，无主要人物，前景绿树枝叶环绕，远处可见海面小船、山影与沿岸建筑。保留完整摄影环境，右下部分被人物照片遮挡，边缘清晰。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        480,
+        230,
+        887,
+        637
+      ],
+      "description": "右侧竖幅海边人物照片，一名黑发女子穿白色露肩裙，歪头面向镜头，一手向前伸出、一手扶腰，下肢在照片底边裁切。背景保留沙滩、海浪和远处圆顶建筑；矩形边界清晰，无主体去背景。"
+    },
+    {
+      "id": "photo_bicycle",
+      "kind": "photo",
+      "bbox": [
+        81,
+        607,
+        551,
+        844
+      ],
+      "description": "左下横幅海滨照片，一名戴帽骑行者位于左下方，沿岸边道路向右骑行；上方松枝横伸，远处为蓝天海面，中央有路牌与栏杆。完整保留摄影环境，矩形边缘清晰。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        88,
+        358,
+        147
+      ],
+      "description": "略倾斜的浅米色撕边胶带装饰，叠压上方海景照片左上边缘，保留纸纹、不规则边缘及两行细手写字“You're a Sunday morning / kind of beauty”。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        188,
+        740,
+        255
+      ],
+      "description": "银灰色金属回形针造型装饰，带高光和阴影，跨在右侧人物照片顶边，完整保留交叠弯曲线圈。"
+    },
+    {
+      "id": "overlay_doodle",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        540,
+        155,
+        650
+      ],
+      "description": "浅桃色手绘曲线装饰，由上方弯曲长环及下方两个水滴状环组成，跨越左下照片的左上边缘，作为同一组笔画保留。"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        791,
+        595,
+        844
+      ],
+      "description": "左下照片右下边缘后方露出的浅色撕边印字纸片，可见局部黑色粗体字符，文字不完整；保留露出的纸边和印刷形态，其左部被照片遮挡。"
+    },
+    {
+      "id": "text_surprise",
+      "kind": "text",
+      "bbox": [
+        645,
+        276,
+        847,
+        290
+      ],
+      "text": "An unexpected surprise.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        847,
+        271,
+        870,
+        291
+      ],
+      "description": "紧邻右侧照片顶部英文句末的黄色闪光星点装饰，由大小星芒组成。"
+    },
+    {
+      "id": "text_outfit",
+      "kind": "text",
+      "bbox": [
+        112,
+        463,
+        506,
+        478
+      ],
+      "text": "Life isn't perfect but your outfit can be.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_travel",
+      "kind": "text",
+      "bbox": [
+        482,
+        745,
+        867,
+        794
+      ],
+      "text": "Travel is the spice of life， but remember，\noccasionally life itself needs to be\nthe spice sprinkled on our journey.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_portrait",
+    "overlay_paper",
+    "photo_bicycle",
+    "overlay_tape",
+    "overlay_clip",
+    "overlay_doodle",
+    "text_surprise",
+    "overlay_sparkles",
+    "text_outfit",
+    "text_travel"
+  ]
+}

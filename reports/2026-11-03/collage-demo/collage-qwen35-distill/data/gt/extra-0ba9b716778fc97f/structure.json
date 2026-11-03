@@ -1,0 +1,98 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的户外花田摄影画面覆盖全画布，上部为蓝天白云，左侧为树木，下部为红黄花田。一名戴草帽、穿黄色上衣和红白格裙的女子坐在左下方，仰头闭眼微笑，右手伸向地面。两张矩形照片遮挡中央环境，女子局部重新置于前景跨层显示；人物与全部摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        69,
+        114,
+        706,
+        472
+      ],
+      "description": "上方矩形照片，一名戴宽檐草帽、穿黄色上衣和红白格裙的女子蹲坐在花田中，双手托脸，目光朝右上方。保留花丛与泥土地面，窗口边界清晰；下部被另一张照片和花朵装饰遮挡。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        230,
+        429,
+        955,
+        838
+      ],
+      "description": "中下方矩形照片，同一装束的女子向镜头俯身微笑，一只手臂向右伸展并被窗口右边裁切，草帽与长发占据中央。保留完整花田摄影环境，四边为清晰矩形；左侧局部被前景坐姿女子覆盖，上缘被花朵装饰遮挡。"
+    },
+    {
+      "id": "photo_foreground",
+      "kind": "photo",
+      "bbox": [
+        47,
+        550,
+        460,
+        945
+      ],
+      "description": "来自全画布底图左下方的坐姿女子前景，包含完整草帽、长发、黄色上衣、红白格裙及伸向右下方的手。沿人物与服饰外轮廓显示，不保留周围花田；草帽、头部和身体右缘覆盖中下方照片的左边界，与底图人物连续衔接。",
+      "linked_to": "photo_base"
+    },
+    {
+      "id": "flower_top",
+      "kind": "overlay",
+      "bbox": [
+        3,
+        48,
+        181,
+        190
+      ],
+      "description": "左上角上下错落的两朵白色花朵组成完整装饰花组，统一保留白色花瓣、黄色花心、细微纹理和不规则外轮廓；跨越天空、树木背景及上方照片左上边缘。两朵花作为同一局部设计单元，不再分别建项。"
+    },
+    {
+      "id": "flower_red_left",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        419,
+        280,
+        517
+      ],
+      "description": "两张照片左侧交接处的单朵橙红色罂粟花装饰，花瓣纹理、黄色花心和完整轮廓作为一个单元保留，覆盖照片边缘。"
+    },
+    {
+      "id": "flower_red_pair",
+      "kind": "overlay",
+      "bbox": [
+        599,
+        359,
+        805,
+        487
+      ],
+      "description": "两张照片右侧交接处的双花装饰，两朵大小不同、互相叠压的橙红色花朵带黄色花心，作为完整花簇保留，跨越上下照片与右侧天空。"
+    },
+    {
+      "id": "flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        808,
+        968,
+        901
+      ],
+      "description": "右下方白色花朵装饰，黄色花心及不规则白色花瓣整体保留，覆盖中下方照片的右下边缘和底图花田。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_lower",
+    "photo_foreground",
+    "flower_top",
+    "flower_red_left",
+    "flower_red_pair",
+    "flower_bottom"
+  ]
+}

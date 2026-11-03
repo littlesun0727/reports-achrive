@@ -1,0 +1,223 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "油菜花田与远山构成的连续摄影底图，完整显示区域延伸至画布四边；上层人物剪影、文字与装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        260,
+        20,
+        830,
+        310
+      ],
+      "description": "人物背影剪影，双臂张开，位于油菜花田上方，下缘被中间人物遮挡。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        220,
+        300,
+        780,
+        560
+      ],
+      "description": "人物背影，双臂张开，位于中间位置，上缘被上方人物遮挡，下缘被下方人物遮挡。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        320,
+        540,
+        740,
+        980
+      ],
+      "description": "人物背影，手持花束与黄色包，位于下方，上缘被中间人物遮挡。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        20,
+        20,
+        280,
+        240
+      ],
+      "text": "你好，\n春天",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        680,
+        280,
+        920,
+        360
+      ],
+      "text": "Sweet heart elves",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        650,
+        540,
+        920,
+        640
+      ],
+      "text": "浪漫\n春季",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        850,
+        780,
+        920,
+        950
+      ],
+      "text": "春日物語",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        900,
+        950,
+        980,
+        990
+      ],
+      "text": "小红书",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        900,
+        980,
+        990,
+        990
+      ],
+      "text": "小红书号：6700666030",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_spring_char",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        20,
+        920,
+        150
+      ],
+      "description": "黄色“春”字装饰，带有花卉与蝴蝶图案，位于右上角。"
+    },
+    {
+      "id": "overlay_butterfly_1",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        300,
+        720,
+        320
+      ],
+      "description": "粉色蝴蝶装饰，位于中间人物右侧。"
+    },
+    {
+      "id": "overlay_butterfly_2",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        580,
+        820,
+        600
+      ],
+      "description": "蓝色蝴蝶装饰，位于下方人物右侧。"
+    },
+    {
+      "id": "overlay_butterfly_3",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        680,
+        190,
+        700
+      ],
+      "description": "蓝色蝴蝶装饰，位于下方人物左侧。"
+    },
+    {
+      "id": "overlay_butterfly_4",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        380,
+        90,
+        400
+      ],
+      "description": "黄色蝴蝶装饰，位于中间人物左侧。"
+    },
+    {
+      "id": "overlay_butterfly_5",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        150,
+        80,
+        220
+      ],
+      "description": "黄色花朵装饰，位于左上角。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_middle",
+    "photo_lower",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "overlay_spring_char",
+    "overlay_butterfly_1",
+    "overlay_butterfly_2",
+    "overlay_butterfly_3",
+    "overlay_butterfly_4",
+    "overlay_butterfly_5"
+  ]
+}

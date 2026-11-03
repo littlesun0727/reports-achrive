@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9f837d2b-5f4f-9edc-a5fc-983dbbb31e0e",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7579,
+    "completion_tokens": 632,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 632
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        500\n      ],\n      \"description\": \"上方人物近景照片，年轻女性长发特写，背景为户外街道地面。下边缘与下方照片拼接。\"\n    },\n    {\n      \"id\": \"overlay_bubble\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        146,\n        62,\n        358,\n        247\n      ],\n      \"description\": \"手绘风格对话气泡框，包含文字“Have a Good Day”及下方的四叶草图案，位于上方照片左上角区域。\"\n    },\n    {\n      \"id\": \"overlay_mushroom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        390,\n        210,\n        460\n      ],\n      \"description\": \"两个卡通蘑菇贴纸，位于左侧中部，部分覆盖在上方照片上。\"\n    },\n    {\n      \"id\": \"overlay_note\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        45,\n        450,\n        300,\n        610\n      ],\n      \"description\": \"方格纸便签设计单元，顶部有标题“바츠키 일기”和表情符号，主体包含多行手写笔记内容，整体作为固定装饰保留。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        500,\n        1000,\n        1000\n      ],\n      \"description\": \"下方人物近景照片，年轻女性在室内窗边自拍，头发上有发夹，背景可见玻璃反光。上边缘与上方照片拼接。\"\n    },\n    {\n      \"id\": \"overlay_panda\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        800,\n        690,\n        980,\n        820\n      ],\n      \"description\": \"三个半透明熊猫头贴纸组合，带有星星点缀，位于右侧中下部，叠加在下方照片上。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_bubble\",\n    \"overlay_mushroom\",\n    \"overlay_note\",\n    \"overlay_panda\"\n  ]\n}",
+  "tool_calls": false
+}

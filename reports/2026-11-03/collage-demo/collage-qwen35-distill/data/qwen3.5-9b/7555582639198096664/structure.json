@@ -1,0 +1,90 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "咖啡馆室内环境作为连续摄影底图，包含木质桌椅、墙面装饰、暖色灯光及模糊背景，完整显示区域延伸至画布四边；上层照片和手绘装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        67,
+        92,
+        558,
+        570
+      ],
+      "description": "左侧人物半身照片，人物穿深蓝色毛衣，手托下巴看书，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        530,
+        338,
+        900,
+        568
+      ],
+      "description": "右侧甜点特写照片，心形窗口内展示布丁甜品，保留照片内的摄影环境，显示区域为心形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        528,
+        696,
+        950,
+        956
+      ],
+      "description": "下方人物近景照片，人物穿深蓝色毛衣，手托脸颊，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_drawing_top",
+      "kind": "overlay",
+      "bbox": [
+        370,
+        68,
+        980,
+        300
+      ],
+      "description": "顶部手绘涂鸦装饰，包含星星、爱心、表情符号和数字63，白色线条风格，位于画布右上区域。"
+    },
+    {
+      "id": "overlay_drawing_bottom",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        630,
+        420,
+        950
+      ],
+      "description": "底部手绘涂鸦装饰，包含蛋糕、星星、对话气泡和文字“今日有咖”，白色线条风格，位于画布左下区域。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        200,
+        680,
+        380,
+        740
+      ],
+      "text": "今日有咖",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "photo_bottom",
+    "overlay_drawing_top",
+    "overlay_drawing_bottom",
+    "text_1"
+  ]
+}

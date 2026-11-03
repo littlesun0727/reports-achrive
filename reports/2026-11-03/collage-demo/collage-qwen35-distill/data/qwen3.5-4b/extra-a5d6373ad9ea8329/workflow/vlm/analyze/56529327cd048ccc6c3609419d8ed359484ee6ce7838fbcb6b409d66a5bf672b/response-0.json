@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-8338507933e446f6",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7503,
+    "total_tokens": 7963,
+    "completion_tokens": 460,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"山水风景摄影底图，包含连绵的喀斯特山峰、水面倒影、岸边植被及远处的船只，画面整体呈现蓝调色调；前景人物与装饰元素叠加于其上，保留完整摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_foreground\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        280,\n        1000,\n        720\n      ],\n      \"description\": \"前景人物半身照片，女性身穿白色上衣，佩戴蓝色流苏耳环和手链，姿态优雅，手部动作自然；照片边缘与背景融合，呈现半透明或渐变效果，主体清晰，背景虚化。\"\n    },\n    {\n      \"id\": \"text_watermark\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        850,\n        920,\n        1000,\n        980\n      ],\n      \"text\": \"小红书号：49321651677\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_logo\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        880,\n        930,\n        970,\n        960\n      ],\n      \"text\": \"小红书\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_foreground\",\n    \"text_logo\",\n    \"text_watermark\"\n  ]\n}",
+  "tool_calls": false
+}

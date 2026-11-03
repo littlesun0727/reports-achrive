@@ -1,0 +1,182 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "frame_top_strip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        138,
+        900,
+        473
+      ],
+      "description": "上方黑色胶片条，包含左侧黄色“CAMERA 200”标签区域及五个照片窗口。整体作为固定载体保留。",
+      "photo_id": [
+        "photo_top_1",
+        "photo_top_2",
+        "photo_top_3",
+        "photo_top_4"
+      ],
+      "label": "上方黑色胶片条，包含左侧黄色“CAMERA 200”标签区域",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_1",
+      "kind": "photo",
+      "bbox": [
+        219,
+        208,
+        376,
+        420
+      ],
+      "description": "摩天轮局部特写，红色座舱与白色支架在蓝天白云背景下清晰可见。",
+      "label": "摩天轮局部特写，红色座舱与白色支架在蓝天白云背景下清晰可见。",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_2",
+      "kind": "photo",
+      "bbox": [
+        407,
+        208,
+        578,
+        420
+      ],
+      "description": "透过石拱门看到的蓝色海景，前景有棕榈树和栏杆，构图具有框景效果。",
+      "label": "透过石拱门看到的蓝色海景，前景有棕榈树和栏杆，构图具有框景效",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_3",
+      "kind": "photo",
+      "bbox": [
+        594,
+        208,
+        755,
+        420
+      ],
+      "description": "日落时分的海滩风景，太阳正落入海平面，天空呈现橙黄色渐变，海浪拍打沙滩。",
+      "label": "日落时分的海滩风景，太阳正落入海平面，天空呈现橙黄色渐变，海",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_4",
+      "kind": "photo",
+      "bbox": [
+        771,
+        208,
+        898,
+        420
+      ],
+      "description": "热带海湾全景，碧蓝海水环绕着绿色岛屿和岩石，视角开阔。",
+      "label": "热带海湾全景，碧蓝海水环绕着绿色岛屿和岩石，视角开阔。",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_strip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        490,
+        898,
+        760
+      ],
+      "description": "下方黑色胶片条，包含四个照片窗口及右侧空白片尾区域。整体作为固定载体保留。",
+      "photo_id": [
+        "photo_bottom_1",
+        "photo_bottom_2",
+        "photo_bottom_3",
+        "photo_bottom_4"
+      ],
+      "label": "下方黑色胶片条，包含四个照片窗口及右侧空白片尾区域。整体作为",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        519,
+        160,
+        724
+      ],
+      "description": "手持镜子反射出盛开的白色花朵（类似梨花或樱花），背景为书页文字，光影斑驳。",
+      "label": "手持镜子反射出盛开的白色花朵（类似梨花或樱花），背景为书页文",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_2",
+      "kind": "photo",
+      "bbox": [
+        180,
+        519,
+        342,
+        724
+      ],
+      "description": "黄昏时的街道一角，前景有一朵白色花卉被手托起，背景是夕阳下的海岸线和路灯。",
+      "label": "黄昏时的街道一角，前景有一朵白色花卉被手托起，背景是夕阳下的",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_3",
+      "kind": "photo",
+      "bbox": [
+        362,
+        519,
+        524,
+        724
+      ],
+      "description": "山间溪流风景，清澈的水流过石块，远处是绿色的草地、树木和蓝天。",
+      "label": "山间溪流风景，清澈的水流过石块，远处是绿色的草地、树木和蓝天",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_4",
+      "kind": "photo",
+      "bbox": [
+        544,
+        519,
+        706,
+        724
+      ],
+      "description": "一只手举着装有柠檬片的玻璃杯，背景是波光粼粼的深色水面和岸边植被。",
+      "label": "一只手举着装有柠檬片的玻璃杯，背景是波光粼粼的深色水面和岸边",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_top_strip",
+    "photo_top_1",
+    "photo_top_2",
+    "photo_top_3",
+    "photo_top_4",
+    "frame_bottom_strip",
+    "photo_bottom_1",
+    "photo_bottom_2",
+    "photo_bottom_3",
+    "photo_bottom_4"
+  ]
+}

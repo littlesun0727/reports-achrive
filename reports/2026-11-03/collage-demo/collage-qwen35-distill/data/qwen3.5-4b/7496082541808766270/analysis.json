@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "生日派对场景的连续摄影底图，包含彩色气球、彩带、背景装饰画和桌面布置，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "生日派对场景的连续摄影底图，包含彩色气球、彩带、背景装饰画和",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        60,
+        499,
+        408,
+        806
+      ],
+      "description": "心形窗口内的生日花束与蜡烛照片，保留花束、蜡烛和背景环境，显示区域为心形。",
+      "label": "心形窗口内的生日花束与蜡烛照片，保留花束、蜡烛和背景环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        408,
+        499,
+        832,
+        1072
+      ],
+      "description": "右侧人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄影环境，显示区域为矩形。",
+      "label": "右侧人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        98,
+        830,
+        473,
+        1150
+      ],
+      "description": "下方人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄影环境，显示区域为矩形。",
+      "label": "下方人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄",
+      "method": "local"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        0,
+        0,
+        900,
+        480
+      ],
+      "description": "Happy Birthday",
+      "label": "Happy Birthday",
+      "method": "local",
+      "text": "Happy Birthday",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        477,
+        947,
+        832,
+        1150
+      ],
+      "description": "Happy Birthday",
+      "label": "Happy Birthday",
+      "method": "local",
+      "text": "Happy Birthday",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_heart",
+    "photo_right",
+    "photo_bottom",
+    "text_top",
+    "text_bottom"
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "scene_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "充满生活气息的杂货铺或咖啡馆场景，包含悬挂的藤编篮子、木质家具、绿植和陈列的器皿，构成连续摄影底图。前景的米色纸张板被上层物体遮挡，保留完整环境细节。",
+      "background_type": "photo",
+      "label": "充满生活气息的杂货铺或咖啡馆场景，包含悬挂的藤编篮子、木质家",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "clip_top",
+      "kind": "overlay",
+      "bbox": [
+        295,
+        94,
+        393,
+        236
+      ],
+      "description": "银色金属长尾夹，夹在米色纸张板的上边缘，作为固定装饰保留。",
+      "label": "银色金属长尾夹，夹在米色纸张板的上边缘，作为固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "clip_bottom",
+      "kind": "overlay",
+      "bbox": [
+        330,
+        1171,
+        415,
+        1238
+      ],
+      "description": "银色金属长尾夹，夹在米色纸张板的下边缘，作为固定装饰保留。",
+      "label": "银色金属长尾夹，夹在米色纸张板的下边缘，作为固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "paper_top",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        184,
+        921,
+        708
+      ],
+      "description": "米色纸张板的上半部分，包含多张照片、贴纸和文字，作为拼贴画载体。",
+      "label": "米色纸张板的上半部分，包含多张照片、贴纸和文字，作为拼贴画载",
+      "method": "extract"
+    },
+    {
+      "id": "paper_bottom",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        708,
+        921,
+        1233
+      ],
+      "description": "米色纸张板的下半部分，包含拍立得照片、贴纸和文字，与上半部分共同构成拼贴画。",
+      "label": "米色纸张板的下半部分，包含拍立得照片、贴纸和文字，与上半部分",
+      "method": "extract"
+    },
+    {
+      "id": "photo_holding",
+      "kind": "photo",
+      "bbox": [
+        179,
+        288,
+        429,
+        467
+      ],
+      "description": "手持照片，展示两个人物，背景为木质桌面，照片被手指和贴纸部分遮挡。",
+      "label": "手持照片，展示两个人物，背景为木质桌面，照片被手指和贴纸部分",
+      "method": "local"
+    },
+    {
+      "id": "photo_interior",
+      "kind": "photo",
+      "bbox": [
+        464,
+        259,
+        888,
+        588
+      ],
+      "description": "室内场景照片，展示店铺内部陈设，包括架子、瓶罐和镜子，照片边缘有折角设计。",
+      "label": "室内场景照片，展示店铺内部陈设，包括架子、瓶罐和镜子，照片边",
+      "method": "local"
+    },
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        345,
+        510,
+        504,
+        672
+      ],
+      "description": "人物与狗合影，人物戴着白色帽子，狗坐在地上，照片被贴纸部分遮挡。",
+      "label": "人物与狗合影，人物戴着白色帽子，狗坐在地上，照片被贴纸部分遮",
+      "method": "local"
+    },
+    {
+      "id": "photo_polaroid",
+      "kind": "photo",
+      "bbox": [
+        179,
+        763,
+        492,
+        1146
+      ],
+      "description": "拍立得风格照片，展示桌面上的甜点和饮品，照片有白色边框，底部有文字。",
+      "label": "拍立得风格照片，展示桌面上的甜点和饮品，照片有白色边框，底部",
+      "method": "local"
+    },
+    {
+      "id": "photo_doll",
+      "kind": "photo",
+      "bbox": [
+        569,
+        778,
+        816,
+        985
+      ],
+      "description": "玩偶照片，展示一个穿着格子裙的玩偶坐在木桌上，背景有绿植。",
+      "label": "玩偶照片，展示一个穿着格子裙的玩偶坐在木桌上，背景有绿植。",
+      "method": "local"
+    },
+    {
+      "id": "text_summer",
+      "kind": "text",
+      "bbox": [
+        163,
+        251,
+        262,
+        282
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_paradise",
+      "kind": "text",
+      "bbox": [
+        163,
+        294,
+        262,
+        325
+      ],
+      "description": "paradise",
+      "label": "paradise",
+      "method": "local",
+      "text": "paradise",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_focus",
+      "kind": "text",
+      "bbox": [
+        795,
+        245,
+        900,
+        308
+      ],
+      "description": "focus on the good",
+      "label": "focus on the good",
+      "method": "local",
+      "text": "focus on the good",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_journey",
+      "kind": "text",
+      "bbox": [
+        172,
+        527,
+        255,
+        664
+      ],
+      "description": "The best journeys Start with a one-way ticket in hand and no plan in mind",
+      "label": "The best journeys Start with a",
+      "method": "local",
+      "text": "The best journeys Start with a one-way ticket in hand and no plan in mind",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_little",
+      "kind": "text",
+      "bbox": [
+        477,
+        487,
+        531,
+        510
+      ],
+      "description": "LITTLE THINGS",
+      "label": "LITTLE THINGS",
+      "method": "local",
+      "text": "LITTLE THINGS",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_joy",
+      "kind": "text",
+      "bbox": [
+        795,
+        763,
+        892,
+        821
+      ],
+      "description": "joy has a habit of returning.",
+      "label": "joy has a habit of returning.",
+      "method": "local",
+      "text": "joy has a habit of returning.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_continued",
+      "kind": "text",
+      "bbox": [
+        838,
+        965,
+        914,
+        994
+      ],
+      "description": "continued",
+      "label": "continued",
+      "method": "local",
+      "text": "continued",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_souvenir",
+      "kind": "text",
+      "bbox": [
+        616,
+        1112,
+        892,
+        1181
+      ],
+      "description": "The best Souvenir is the person you became while no one was watching",
+      "label": "The best Souvenir is the perso",
+      "method": "local",
+      "text": "The best Souvenir is the person you became while no one was watching",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_arrebol",
+      "kind": "text",
+      "bbox": [
+        212,
+        1068,
+        282,
+        1092
+      ],
+      "description": "Arrebol",
+      "label": "Arrebol",
+      "method": "local",
+      "text": "Arrebol",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "scene_base",
+    "clip_top",
+    "clip_bottom",
+    "paper_top",
+    "paper_bottom",
+    "photo_holding",
+    "photo_interior",
+    "photo_dog",
+    "photo_polaroid",
+    "photo_doll",
+    "text_summer",
+    "text_paradise",
+    "text_focus",
+    "text_journey",
+    "text_little",
+    "text_joy",
+    "text_continued",
+    "text_souvenir",
+    "text_arrebol"
+  ]
+}

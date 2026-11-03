@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的傍晚城市街景覆盖全画布：蓝灰天空、上方亮起的路灯、右侧建筑与栏杆、下方道路及多辆汽车。四边露出的场景连续，上层三张照片与文字装饰遮挡局部；街景及全部摄影环境一起替换，不拆分路灯或车辆。"
+  },
+  "objects": [
+    {
+      "id": "photo_city",
+      "kind": "photo",
+      "bbox": [
+        290,
+        143,
+        781,
+        459
+      ],
+      "description": "上方竖向街景照片，夜间店铺门口有多名行人，前景一辆红色出租车横向驶过，保留建筑、招牌及街道环境。照片四周有不规则白色手绘轮廓线，局部断开，整体随照片窗口保留；无主体去背景或透明渐隐。"
+    },
+    {
+      "id": "photo_store",
+      "kind": "photo",
+      "bbox": [
+        50,
+        446,
+        485,
+        630
+      ],
+      "description": "左侧横向照片，白色卷帘门上有黑色涂鸦及字样，前方摆放黄色花朵，右侧可见店面结构。完整保留摄影环境，四周附不规则、局部断开的白色手绘窗口轮廓；无主体去背景。"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        477,
+        504,
+        951,
+        850
+      ],
+      "description": "右下竖向甜品近景，黑碗内有绿色与白色冰淇淋，黑勺斜向伸出，后方木墩上有小动物造型摆件，保留柜台环境。白色手绘线沿照片窗口外围延伸并局部断开，顶部被小标签遮挡；无主体去背景或渐隐。"
+    },
+    {
+      "id": "overlay_trip",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        126,
+        234,
+        286
+      ],
+      "description": "白色手绘细线对话气泡，内部为分行手写字样“The beginning of my trip”，字形、分行位置与气泡轮廓作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        71,
+        296,
+        225,
+        373
+      ],
+      "description": "白色手绘猫脸装饰，包含双耳、点状眼睛、鼻嘴、两侧胡须及右耳旁带排线的白色叶片状点缀，整体保留。"
+    },
+    {
+      "id": "overlay_car",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        397,
+        941,
+        436
+      ],
+      "description": "白色手绘小汽车及右侧短线、弯曲运动线组成的独立装饰，保留车身轮廓和实心车轮。"
+    },
+    {
+      "id": "overlay_label_gray",
+      "kind": "overlay",
+      "bbox": [
+        515,
+        470,
+        750,
+        492
+      ],
+      "description": "浅灰色横向矩形标签，内部有两行细小黑色印字，文字呈模糊错位效果，无法可靠辨认；底板和印字整体保留。"
+    },
+    {
+      "id": "overlay_label_blue",
+      "kind": "overlay",
+      "bbox": [
+        541,
+        496,
+        744,
+        519
+      ],
+      "description": "蓝灰色横向矩形标签，带一行深色细小字样及中央浅色模糊叠影，原有字形效果与底板整体保留。"
+    },
+    {
+      "id": "overlay_label_small",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        522,
+        766,
+        545
+      ],
+      "description": "叠在甜品照片上沿的小型浅灰矩形标签，中央有难以辨认的黑色短字样，标签与文字整体保留。"
+    },
+    {
+      "id": "overlay_pencil",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        688,
+        124,
+        766
+      ],
+      "description": "引文左侧的白色手绘铅笔与下方卷曲引导线组成的装饰，包含铅笔内部斜线纹和弯曲末端。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        142,
+        687,
+        459,
+        875
+      ],
+      "text": "It's a lovely\nthing to know\na place well\nenough that\nyou know\nwhen the sun\nwill be there",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_city",
+    "photo_store",
+    "photo_dessert",
+    "overlay_trip",
+    "overlay_cat",
+    "overlay_car",
+    "overlay_label_gray",
+    "overlay_label_blue",
+    "overlay_label_small",
+    "overlay_pencil",
+    "text_quote"
+  ]
+}

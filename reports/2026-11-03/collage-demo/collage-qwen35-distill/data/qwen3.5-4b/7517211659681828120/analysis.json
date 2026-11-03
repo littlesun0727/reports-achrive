@@ -1,0 +1,296 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "带有蓝色横线的笔记本纸纹底图，覆盖全画布，作为所有独立对象的承载背景。",
+      "background_type": "reference_clean",
+      "label": "带有蓝色横线的笔记本纸纹底图，覆盖全画布，作为所有独立对象的",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        426,
+        221,
+        734,
+        626
+      ],
+      "description": "顶部圆形苹果切面内的照片，展示人物比出剪刀手姿势，背景为绿色植物，保留苹果切面内的摄影环境。",
+      "label": "顶部圆形苹果切面内的照片，展示人物比出剪刀手姿势，背景为绿色",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        176,
+        770,
+        484,
+        1134
+      ],
+      "description": "底部圆形苹果内的照片，展示人物手托脸颊，保留苹果内的摄影环境。",
+      "label": "底部圆形苹果内的照片，展示人物手托脸颊，保留苹果内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "apple_top",
+      "kind": "overlay",
+      "bbox": [
+        312,
+        80,
+        853,
+        631
+      ],
+      "description": "顶部绿色苹果切面图形，包含果柄和果肉纹理，作为照片的承载载体。",
+      "label": "顶部绿色苹果切面图形，包含果柄和果肉纹理，作为照片的承载载体",
+      "method": "extract"
+    },
+    {
+      "id": "apple_bottom",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        637,
+        565,
+        1134
+      ],
+      "description": "底部绿色苹果图形，包含果柄和叶片，作为照片的承载载体。",
+      "label": "底部绿色苹果图形，包含果柄和叶片，作为照片的承载载体。",
+      "method": "extract"
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        650,
+        485,
+        832,
+        616
+      ],
+      "description": "YOU ARE MORE\nTHAN THE MISTAKES\nYOU'VE MADE.",
+      "label": "YOU ARE MORE\nTHAN THE MISTAKES",
+      "method": "local",
+      "text": "YOU ARE MORE\nTHAN THE MISTAKES\nYOU'VE MADE.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_right",
+      "kind": "text",
+      "bbox": [
+        700,
+        694,
+        758,
+        1054
+      ],
+      "description": "첫눈에 저와 함께 해주세요\n世界の終わりも一緒に",
+      "label": "첫눈에 저와 함께 해주세요\n世界の終わりも一緒に",
+      "method": "local",
+      "text": "첫눈에 저와 함께 해주세요\n世界の終わりも一緒に",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bubble",
+      "kind": "text",
+      "bbox": [
+        443,
+        736,
+        574,
+        790
+      ],
+      "description": "반가와요★",
+      "label": "반가와요★",
+      "method": "local",
+      "text": "반가와요★",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        70,
+        274,
+        176,
+        304
+      ],
+      "description": "좋은 개결은 거지",
+      "label": "좋은 개결은 거지",
+      "method": "local",
+      "text": "좋은 개결은 거지",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        70,
+        1010,
+        228,
+        1134
+      ],
+      "description": "너에게만 한탄할 수 있는 날",
+      "label": "너에게만 한탄할 수 있는 날",
+      "method": "local",
+      "text": "너에게만 한탄할 수 있는 날",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "claw_top",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        62,
+        225,
+        200
+      ],
+      "description": "左上角绿色四叶草装饰。",
+      "label": "左上角绿色四叶草装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "claw_mid",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        367,
+        344,
+        568
+      ],
+      "description": "中部左侧绿色四叶草装饰。",
+      "label": "中部左侧绿色四叶草装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "claw_bottom",
+      "kind": "overlay",
+      "bbox": [
+        796,
+        941,
+        886,
+        1027
+      ],
+      "description": "右下角绿色四叶草装饰。",
+      "label": "右下角绿色四叶草装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "claw_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        1010,
+        228,
+        1134
+      ],
+      "description": "左下角带有文字的四叶草装饰。",
+      "label": "左下角带有文字的四叶草装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "music_top",
+      "kind": "overlay",
+      "bbox": [
+        371,
+        70,
+        450,
+        170
+      ],
+      "description": "顶部绿色音符装饰。",
+      "label": "顶部绿色音符装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "music_mid",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        616,
+        549,
+        684
+      ],
+      "description": "中部绿色音符装饰。",
+      "label": "中部绿色音符装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "music_bottom",
+      "kind": "overlay",
+      "bbox": [
+        556,
+        1034,
+        641,
+        1134
+      ],
+      "description": "底部绿色音符装饰。",
+      "label": "底部绿色音符装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "apple_top",
+    "text_top_right",
+    "photo_bottom",
+    "apple_bottom",
+    "text_bubble",
+    "text_bottom_right",
+    "claw_top",
+    "claw_mid",
+    "claw_bottom",
+    "claw_bottom_left",
+    "music_top",
+    "music_mid",
+    "music_bottom",
+    "text_top_left",
+    "text_bottom_left"
+  ]
+}

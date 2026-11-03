@@ -1,0 +1,151 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "全画布为无人户外环境摄影，上部是透光的绿色树冠，下部是带横向结构的深褐色木墙，斑驳日光贯穿其间。四周及照片间隙露出的环境连续，上层照片和装饰遮住局部；树叶、木墙与光影整体替换。"
+  },
+  "objects": [
+    {
+      "id": "frame_stamp",
+      "kind": "frame",
+      "bbox": [
+        28,
+        32,
+        626,
+        381
+      ],
+      "description": "左上大幅照片的米黄色邮票式纸框，四周有连续半圆齿孔，带细微纸纹和浅色印刷痕迹，完整保留框体。",
+      "photo_id": [
+        "photo_crouching_large"
+      ]
+    },
+    {
+      "id": "photo_crouching_large",
+      "kind": "photo",
+      "bbox": [
+        52,
+        51,
+        602,
+        362
+      ],
+      "description": "一名黑色短发、戴眼镜的女子蹲在林间道路上，身体侧向右方并回头看镜头，浅色衣裙和弯曲的双腿占据近景。保留倾斜道路、落叶、草木及日光环境，矩形窗口显示，右下局部被蜗牛装饰遮挡。"
+    },
+    {
+      "id": "photo_crouching_small",
+      "kind": "photo",
+      "bbox": [
+        678,
+        144,
+        964,
+        314
+      ],
+      "description": "右上横向照片，一名戴眼镜的短发女子蹲坐在草木间，双膝收起，头转向左侧，呈中近景。保留周围枝叶与地面，矩形窗口四周有细浅米色描边。"
+    },
+    {
+      "id": "overlay_snail_mushroom",
+      "kind": "overlay",
+      "bbox": [
+        483,
+        220,
+        650,
+        361
+      ],
+      "description": "大照片右下角的复古自然装饰组合，包含金黄色螺壳、伸出触角的棕色蜗牛及下方棕色伞帽蘑菇；保留完整造型、纹理及细小边缘，叠在照片和邮票纸框之上。"
+    },
+    {
+      "id": "frame_beach",
+      "kind": "frame",
+      "bbox": [
+        363,
+        404,
+        970,
+        981
+      ],
+      "description": "右下大幅照片的泛黄旧相纸框，外缘带褐色磨损、污渍及柔和暗边，左边和底边可见小圆孔状印迹，整体保留纸张结构与材质。",
+      "photo_id": [
+        "photo_beach"
+      ]
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        379,
+        416,
+        954,
+        966
+      ],
+      "description": "一名短发女子穿浅色透明绣花长裙与深色下裙，背侧朝镜头站在海边沙滩，低头望向左侧海面，全身入镜。保留海浪、远处水面与脚下沙地，画面泛暖黄，四周略显柔和褪色，上部局部被木纽扣遮挡。"
+    },
+    {
+      "id": "photo_standing_small",
+      "kind": "photo",
+      "bbox": [
+        77,
+        558,
+        299,
+        791
+      ],
+      "description": "左下竖幅照片，一名戴棕色帽子和深色口罩的女子穿浅色长裙站在林中，身体略向右侧，手持深色包，接近全身取景。保留树木、天空及坡地，窗口周围有细米黄色描边，左上被纽扣、右下被鹿装饰局部遮挡。"
+    },
+    {
+      "id": "overlay_white_symbols",
+      "kind": "overlay",
+      "bbox": [
+        293,
+        388,
+        364,
+        615
+      ],
+      "description": "照片之间纵向排列的白色手绘符号装饰，上下各有一枚细线长角星，中间依次包含小实心星、圆点、空心圆、螺旋及加号，整体作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_button_right",
+      "kind": "overlay",
+      "bbox": [
+        872,
+        371,
+        1000,
+        467
+      ],
+      "description": "右侧大圆木纽扣，木纹、深色孔洞和交叉缝线清晰，边缘有浅色轮廓及阴影，覆盖海边照片和纸框的右上角，右缘接近画布边界。"
+    },
+    {
+      "id": "overlay_button_left",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        531,
+        129,
+        600
+      ],
+      "description": "左侧小圆木纽扣，保留棕色木纹、孔洞、缝线及边缘阴影，叠压林中竖幅照片的左上角。"
+    },
+    {
+      "id": "overlay_deer",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        761,
+        253,
+        999
+      ],
+      "description": "左下复古写实幼鹿剪贴装饰，含带白色斑点的躯干、细长四肢、颈部、头部及双耳，头朝右上方，覆盖竖幅照片下缘；躯干左侧和腿部末端被画布边界截断。"
+    }
+  ],
+  "layer_order": [
+    "frame_stamp",
+    "photo_crouching_large",
+    "photo_crouching_small",
+    "frame_beach",
+    "photo_beach",
+    "photo_standing_small",
+    "overlay_white_symbols",
+    "overlay_snail_mushroom",
+    "overlay_button_right",
+    "overlay_button_left",
+    "overlay_deer"
+  ]
+}

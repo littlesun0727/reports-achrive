@@ -1,0 +1,220 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "粉色星形图案背景，包含蕾丝边框和散落的红色五角星，作为全画布底图承载所有独立对象；主体人物位于画面中央，周围分布多张独立照片和文字装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        50,
+        140,
+        855,
+        950
+      ],
+      "description": "人物半身照片，黑色长发编辫，佩戴红色饰品，手持透明物品，保留完整面部及上半身摄影环境。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        740,
+        138,
+        968,
+        225
+      ],
+      "description": "人物眼部特写照片，位于右上角，被红色边框包围，作为独立裁剪照片。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        30,
+        630,
+        325,
+        905
+      ],
+      "description": "人物半身照片，位于左下角，被红色边框包围，作为独立裁剪照片。"
+    },
+    {
+      "id": "photo_bottom_left_2",
+      "kind": "photo",
+      "bbox": [
+        75,
+        765,
+        325,
+        905
+      ],
+      "description": "人物半身照片，位于左下角下方，被红色边框包围，作为独立裁剪照片。"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        40,
+        80,
+        220,
+        180
+      ],
+      "text": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#FF6B6B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_won",
+      "kind": "text",
+      "bbox": [
+        60,
+        280,
+        940,
+        400
+      ],
+      "text": "WON",
+      "color": "#FF6B6B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_you",
+      "kind": "text",
+      "bbox": [
+        840,
+        800,
+        950,
+        850
+      ],
+      "text": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#FF6B6B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_lace_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        30
+      ],
+      "description": "顶部白色蕾丝花边装饰，覆盖全画布顶部边缘。"
+    },
+    {
+      "id": "overlay_lace_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        970,
+        1000,
+        1000
+      ],
+      "description": "底部白色蕾丝花边装饰，覆盖全画布底部边缘。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        200,
+        100,
+        260
+      ],
+      "description": "红色五角星装饰，位于左上区域。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        100,
+        730,
+        135
+      ],
+      "description": "红色五角星装饰，位于右上区域。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        430,
+        875,
+        470
+      ],
+      "description": "红色五角星装饰，位于右侧中部。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        430,
+        960,
+        510
+      ],
+      "description": "红色五角星装饰，位于右侧中部偏下。"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        580,
+        960,
+        640
+      ],
+      "description": "红色五角星装饰，位于右下区域。"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        800,
+        60,
+        835
+      ],
+      "description": "红色五角星装饰，位于左下区域。"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        840,
+        700,
+        890
+      ],
+      "description": "红色五角星装饰，位于右下文字旁。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_left_2",
+    "text_love",
+    "text_won",
+    "text_you",
+    "overlay_lace_top",
+    "overlay_lace_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_star_7"
+  ]
+}

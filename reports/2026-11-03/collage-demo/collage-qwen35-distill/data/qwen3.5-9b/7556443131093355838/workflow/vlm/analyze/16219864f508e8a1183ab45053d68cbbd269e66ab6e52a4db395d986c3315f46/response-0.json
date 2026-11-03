@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a6de2729d03329b0",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 7717,
+    "completion_tokens": 434,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        320\n      ],\n      \"description\": \"上方人物双手合十许愿的照片，保留人物、蛋糕、桌面及背景环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        630,\n        1000,\n        1000\n      ],\n      \"description\": \"下方俯拍视角的照片，展示草莓蛋糕、人物手部动作及桌面环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_text\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        320,\n        1000,\n        630\n      ],\n      \"description\": \"中间区域的米色纹理背景板，上面印有黑色文字，作为独立固定装饰单元。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        20,\n        450,\n        980,\n        520\n      ],\n      \"text\": \"Happy birthday.\",\n      \"color\": \"#000000\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_text\",\n    \"text_1\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2561
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2561
+      ],
+      "description": "连续的海景摄影底图，包含水面、远山和天空，完整显示区域延伸至画布四边；上层三张人物照片遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续的海景摄影底图，包含水面、远山和天空，完整显示区域延伸至",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        648,
+        0,
+        1440,
+        896
+      ],
+      "description": "上方人物背影照片，人物穿黑色上衣，抬头仰望，保留照片内的摄影环境，下缘有透明渐隐效果。",
+      "label": "上方人物背影照片，人物穿黑色上衣，抬头仰望，保留照片内的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        896,
+        864,
+        1665
+      ],
+      "description": "中间人物侧脸照片，人物穿黑色上衣，侧脸望向左方，保留照片内的摄影环境，下缘有透明渐隐效果。",
+      "label": "中间人物侧脸照片，人物穿黑色上衣，侧脸望向左方，保留照片内的",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        648,
+        1665,
+        1440,
+        2561
+      ],
+      "description": "下方人物仰头照片，人物穿黑色上衣，仰头望向右上方，保留照片内的摄影环境，上缘有透明渐隐效果。",
+      "label": "下方人物仰头照片，人物穿黑色上衣，仰头望向右上方，保留照片内",
+      "method": "local"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        1152,
+        2433,
+        1440,
+        2561
+      ],
+      "description": "小红书号：862000240",
+      "label": "小红书号：862000240",
+      "method": "local",
+      "text": "小红书号：862000240",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_watermark"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        347,
+        28,
+        957,
+        299
+      ],
+      "description": "俯拍鸡腿饭近景，碗内有烤鸡腿、米饭和流心煎蛋，保留碗沿与桌面摄影环境。矩形显示，食物在画面边缘自然裁切，右下局部被白色手绘装饰遮挡，无去背景或渐隐。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        100,
+        325,
+        894,
+        675
+      ],
+      "description": "俯拍桌面餐食，左上为香肠沙拉拼盘，右上为红酱通心粉，左下为鸡腿煎蛋饭，右下为一碗红汤，顶部还露出饮料杯。完整保留餐具和桌面环境，矩形窗口边缘清晰，部分边缘被白色装饰遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        38,
+        702,
+        649,
+        975
+      ],
+      "description": "另一独立视角的餐桌照片，上方两只黄色饮料杯，右下为红酱通心粉，左侧露出香肠拼盘，后方可见菜单。保留完整摄影环境，矩形裁切，无去背景或渐隐；取景与上方照片不连续。"
+    },
+    {
+      "id": "overlay_slogan",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        140,
+        268,
+        229
+      ],
+      "description": "白色手写字样“肚子饱了\n心情就好了”，两行字形大小和倾斜不完全统一，作为完整艺术字保留。"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        121,
+        308,
+        170
+      ],
+      "description": "文字右上方一大一小两枚白色手绘四角星，保留内部交错涂画线条，作为一组装饰。"
+    },
+    {
+      "id": "overlay_emphasis",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        263,
+        956,
+        366
+      ],
+      "description": "右侧四枚白色手绘放射状强调符号，内部有斜向线条；整组跨越顶部照片右下边缘、黑色间隔与中间照片右上区域。"
+    },
+    {
+      "id": "overlay_lower_stars",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        656,
+        107,
+        712
+      ],
+      "description": "左侧一大一小两枚白色手绘四角星，带交错涂画线条，跨在中间照片与下方照片之间的黑色间隔处。"
+    },
+    {
+      "id": "overlay_checkin",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        649,
+        946,
+        773
+      ],
+      "description": "倾斜排列的白色空心手绘“打卡”艺术字，包含上方三枚短小强调符号及右下定位图钉，保留不规则描线和完整组合。"
+    },
+    {
+      "id": "overlay_plog",
+      "kind": "overlay",
+      "bbox": [
+        679,
+        814,
+        907,
+        909
+      ],
+      "description": "右下方倾斜的白色手绘“Plog”艺术字，包含两侧星星和上下短线点缀，字形带黑色内部线痕，整体作为一个装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_slogan",
+    "overlay_top_stars",
+    "overlay_emphasis",
+    "overlay_lower_stars",
+    "overlay_checkin",
+    "overlay_plog"
+  ]
+}

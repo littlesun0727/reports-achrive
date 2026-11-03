@@ -1,0 +1,183 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "beach_background",
+    "description": "一张连续的蓝调海滩远景覆盖全画布，天空、海面及沙滩贯通四边；左侧和右上方有深色茅草遮阳棚，岸边散布数位小比例游客，海面有远船。上层照片、文字和装饰遮住局部，人物与完整海滩摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "title",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        186,
+        537,
+        263
+      ],
+      "description": "浅蓝与薄荷绿色连笔字样“Rainy Day”，带夸张回环和延伸笔画，整体保留原有艺术字形。"
+    },
+    {
+      "id": "music_trails",
+      "kind": "overlay",
+      "bbox": [
+        184,
+        246,
+        875,
+        635
+      ],
+      "description": "数条淡黄色弯曲长线由左下向右上舒展，间有断笔，配套浅蓝色音符、星形及回旋线。整体作为音乐轨迹装饰保留，局部被三张照片及中央文字遮挡；不包含右上白点星和左下大黄星。"
+    },
+    {
+      "id": "dotted_star",
+      "kind": "overlay",
+      "bbox": [
+        641,
+        148,
+        809,
+        294
+      ],
+      "description": "右上浅青色不规则长角星形贴饰，内部排列白色圆点，保留完整轮廓及内部图案。"
+    },
+    {
+      "id": "icecream_frame",
+      "kind": "frame",
+      "bbox": [
+        218,
+        269,
+        451,
+        439
+      ],
+      "description": "向左倾斜的白色拍立得纸框，下边留白较宽，保留纸边和轻微阴影，单个内口承载冰淇淋照片。",
+      "photo_id": [
+        "icecream_photo"
+      ]
+    },
+    {
+      "id": "icecream_photo",
+      "kind": "photo",
+      "bbox": [
+        233,
+        281,
+        431,
+        412
+      ],
+      "description": "倾斜矩形照片，近景为一只装着白色冰淇淋球的蛋筒，居中偏右，下方蛋筒被窗口裁切，后方可见蓝色天空与海平线。保留摄影背景，未沿主体去背景，边界由纸框内口限定。"
+    },
+    {
+      "id": "ocean_frame",
+      "kind": "frame",
+      "bbox": [
+        554,
+        330,
+        742,
+        443
+      ],
+      "description": "上方中右部近乎水平的白色拍立得纸框，下沿较宽，含轻微纸张明暗与阴影，只有一个照片内口。",
+      "photo_id": [
+        "ocean_photo"
+      ]
+    },
+    {
+      "id": "ocean_photo",
+      "kind": "photo",
+      "bbox": [
+        565,
+        341,
+        731,
+        422
+      ],
+      "description": "独立海景照片，俯视蓝绿色海面，多艘白色小船散布其上，左缘有近处棕黄色建筑或栏杆结构。完整保留水面与边缘建筑环境，矩形内口裁切，无主体抠出。"
+    },
+    {
+      "id": "poem",
+      "kind": "text",
+      "bbox": [
+        433,
+        386,
+        573,
+        650
+      ],
+      "text": "Summer\nSunsets\nnever\ndisappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleave sweet\nSoftness to\nevery\nPasserby.",
+      "color": "#F4F2B2",
+      "font": "hand",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "dot_grid",
+      "kind": "overlay",
+      "bbox": [
+        326,
+        638,
+        631,
+        841
+      ],
+      "description": "下部浅蓝色圆点阵列，规则横纵排列，部分点明亮、部分淡化，局部被大黄星和人物拍立得遮挡，作为完整点阵装饰保留。"
+    },
+    {
+      "id": "yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        232,
+        562,
+        417,
+        754
+      ],
+      "description": "左下淡黄色大星形装饰，纵向尖角拉长，轮廓略有手绘不规则感及柔和边缘，覆盖音乐轨迹末端和部分蓝色点阵。"
+    },
+    {
+      "id": "outlined_note",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        607,
+        886,
+        685
+      ],
+      "description": "右侧独立双音符贴饰，白色细轮廓搭配浅蓝色短线与点状纹理，内部透出下方海滩背景，整体保留。"
+    },
+    {
+      "id": "woman_frame",
+      "kind": "frame",
+      "bbox": [
+        475,
+        650,
+        776,
+        830
+      ],
+      "description": "下方较大的白色拍立得相纸，近乎水平，底部留白宽于上边，保留纸张边缘与阴影，承载单张女性照片。",
+      "photo_id": [
+        "woman_photo"
+      ]
+    },
+    {
+      "id": "woman_photo",
+      "kind": "photo",
+      "bbox": [
+        489,
+        666,
+        761,
+        797
+      ],
+      "description": "一名穿白色无袖上衣的年轻女性半身照，位于中间偏右，面向镜头微侧头，双臂向两侧上方伸展，手臂在窗口边缘裁切。背景为日照下的街道、停放车辆、棕榈树和红瓦建筑；摄影环境完整保留，不沿人物去背景，无连续出框。"
+    }
+  ],
+  "layer_order": [
+    "music_trails",
+    "title",
+    "dotted_star",
+    "dot_grid",
+    "icecream_photo",
+    "icecream_frame",
+    "ocean_photo",
+    "ocean_frame",
+    "poem",
+    "yellow_star",
+    "outlined_note",
+    "woman_photo",
+    "woman_frame"
+  ]
+}

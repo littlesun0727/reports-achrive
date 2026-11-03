@@ -1,0 +1,305 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "book_base",
+    "description": "棕色硬纸板纹理的活页本封面与内页，包含金属活页环结构，作为固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        215,
+        105,
+        465,
+        345
+      ],
+      "description": "左上角方形照片，显示一男一女自拍，男子戴绿色帽子，女子戴眼镜，背景为室内环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        575,
+        185,
+        795,
+        350
+      ],
+      "description": "右上角方形照片，显示一男一女站立合影，女子穿棕色连衣裙，男子穿黑色上衣，背景为室内。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        525,
+        575,
+        835,
+        740
+      ],
+      "description": "右下角带波点边框的方形照片，显示一男一女自拍，男子穿黑色外套，女子穿深色上衣，背景为室内。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        185,
+        675,
+        480,
+        890
+      ],
+      "description": "左下角心形照片，显示一男一女侧脸合影，女子戴帽子，背景为户外绿植。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        540,
+        795,
+        700,
+        890
+      ],
+      "description": "右下角方形照片，显示一只黑猫和一只白猫依偎在一起，背景为灰色网格纹理。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        205,
+        95,
+        475,
+        355
+      ],
+      "description": "左上角照片的白色相框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_1"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        565,
+        175,
+        805,
+        360
+      ],
+      "description": "右上角照片的棕色边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_2"
+      ]
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        515,
+        565,
+        845,
+        750
+      ],
+      "description": "右下角照片的棕色波点边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_3"
+      ]
+    },
+    {
+      "id": "frame_4",
+      "kind": "frame",
+      "bbox": [
+        175,
+        665,
+        490,
+        900
+      ],
+      "description": "左下角心形照片的棕色边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_4"
+      ]
+    },
+    {
+      "id": "frame_5",
+      "kind": "frame",
+      "bbox": [
+        530,
+        785,
+        710,
+        895
+      ],
+      "description": "右下角猫照片的灰色网格边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_5"
+      ]
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        80,
+        260,
+        130
+      ],
+      "description": "左上角黑色心形贴纸，带有白色蝴蝶图案。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        145,
+        835,
+        215
+      ],
+      "description": "右上角蓝色星星贴纸，带有白色边框。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        320,
+        810,
+        370
+      ],
+      "description": "右上角红色心形贴纸，带有白色边框。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        175,
+        340,
+        220,
+        380
+      ],
+      "description": "左侧红色瓢虫贴纸，带有黑色斑点。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        345,
+        600,
+        380
+      ],
+      "description": "中间绿色四叶草贴纸，带有棕色边框。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        605,
+        370,
+        720,
+        430
+      ],
+      "description": "中间粉色磁带贴纸，带有白色边框。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        595,
+        140,
+        735,
+        165
+      ],
+      "text": "L-O-V-Eeeeeee",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        400,
+        370,
+        530,
+        410
+      ],
+      "text": "You are made of everything soft and kind",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        200,
+        600,
+        350,
+        640
+      ],
+      "text": "LOVE",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        720,
+        780,
+        800,
+        850
+      ],
+      "text": "LOVE LOVE LOVE LOVE LOVE",
+      "color": "#FF0000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        515,
+        870,
+        650,
+        900
+      ],
+      "text": "WOW",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "frame_4",
+    "frame_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5"
+  ]
+}

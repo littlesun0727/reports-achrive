@@ -1,0 +1,149 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "带有水彩晕染、星星、翅膀和星星剪影的浅色纹理纸底，作为全画布固定底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "带有水彩晕染、星星、翅膀和星星剪影的浅色纹理纸底，作为全画布",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        47,
+        192,
+        468,
+        875
+      ],
+      "description": "一位黑发女孩蹲在爬满常春藤的墙边，穿着条纹衬衫和拖鞋，保留照片内的摄影环境。",
+      "label": "一位黑发女孩蹲在爬满常春藤的墙边，穿着条纹衬衫和拖鞋，保留照",
+      "method": "local"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        40,
+        182,
+        475,
+        884
+      ],
+      "description": "围绕主照片的白色不规则撕边相框，顶部有金属夹子，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_main"
+      ],
+      "label": "围绕主照片的白色不规则撕边相框，顶部有金属夹子，覆盖照片边缘",
+      "method": "extract"
+    },
+    {
+      "id": "photo_small",
+      "kind": "photo",
+      "bbox": [
+        414,
+        359,
+        666,
+        563
+      ],
+      "description": "一张小尺寸照片，显示白色花朵和绿叶，保留照片内的摄影环境。",
+      "label": "一张小尺寸照片，显示白色花朵和绿叶，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "frame_small",
+      "kind": "frame",
+      "bbox": [
+        407,
+        350,
+        673,
+        573
+      ],
+      "description": "围绕小照片的白色圆角矩形相框，位于主照片右侧，覆盖小照片边缘。",
+      "photo_id": [
+        "photo_small"
+      ],
+      "label": "围绕小照片的白色圆角矩形相框，位于主照片右侧，覆盖小照片边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        132,
+        288,
+        204
+      ],
+      "description": "位于主照片顶部的金属夹子，作为独立固定装饰保留。",
+      "label": "位于主照片顶部的金属夹子，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        666,
+        288,
+        792,
+        335
+      ],
+      "description": "♪ summer ♪",
+      "label": "♪ summer ♪",
+      "method": "local",
+      "text": "♪ summer ♪",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        414,
+        791,
+        756,
+        958
+      ],
+      "description": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "label": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "method": "local",
+      "text": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_main",
+    "frame_main",
+    "photo_small",
+    "frame_small",
+    "overlay_clip",
+    "text_1",
+    "text_2"
+  ]
+}

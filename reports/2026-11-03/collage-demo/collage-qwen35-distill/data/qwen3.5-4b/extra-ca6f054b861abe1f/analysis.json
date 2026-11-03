@@ -1,0 +1,129 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1435
+  ],
+  "objects": [
+    {
+      "id": "pattern_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1435
+      ],
+      "description": "全画布固定底图，包含浅米色背景、樱桃图案、虚线网格、星星、爪印、蝴蝶结等重复装饰元素，整体风格为可爱拼贴风。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，包含浅米色背景、樱桃图案、虚线网格、星星、爪",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        57,
+        40,
+        516,
+        583
+      ],
+      "description": "左上角人物手持玩偶的户外照片，人物穿浅色开衫和白色连衣裙，背景有绿植和紫色墙面，照片下方有日文文字装饰。",
+      "label": "左上角人物手持玩偶的户外照片，人物穿浅色开衫和白色连衣裙，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        564,
+        121,
+        1021,
+        686
+      ],
+      "description": "右上角人物手持玩偶的户外照片，人物闭眼微笑，背景有瀑布和建筑，照片上方有播放器界面装饰。",
+      "label": "右上角人物手持玩偶的户外照片，人物闭眼微笑，背景有瀑布和建筑",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        63,
+        695,
+        525,
+        1317
+      ],
+      "description": "左下角人物双手举着两个玩偶的户外照片，人物穿粉色开衫和白色连衣裙，背景有绿植和紫色墙面，照片下方有表情符号和文字装饰。",
+      "label": "左下角人物双手举着两个玩偶的户外照片，人物穿粉色开衫和白色连",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        570,
+        772,
+        1021,
+        1368
+      ],
+      "description": "右下角人物坐在地上手持玩偶的户外照片，人物穿粉色开衫和白色连衣裙，背景有水面和紫色墙面，照片下方有唇印装饰。",
+      "label": "右下角人物坐在地上手持玩偶的户外照片，人物穿粉色开衫和白色连",
+      "method": "local"
+    },
+    {
+      "id": "text_japanese",
+      "kind": "text",
+      "bbox": [
+        165,
+        478,
+        444,
+        542
+      ],
+      "description": "アイスクリーム!!",
+      "label": "アイスクリーム!!",
+      "method": "local",
+      "text": "アイスクリーム!!",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_english",
+      "kind": "text",
+      "bbox": [
+        214,
+        1332,
+        417,
+        1380
+      ],
+      "description": "Yes!! ♪( '▽' )",
+      "label": "Yes!! ♪( '▽' )",
+      "method": "local",
+      "text": "Yes!! ♪( '▽' )",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "pattern_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "text_japanese",
+    "text_english"
+  ]
+}

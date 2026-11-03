@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        343
+      ],
+      "description": "上方独立横幅照片：一名长发黑衣女子坐在餐桌对面，一手持筷、一手举饮料，脸部被前景手持的大汤勺遮挡；桌上有铜锅、米饭、沙拉、肉串和饮料。保留完整餐厅环境及前景手部，四边按矩形窗口裁切，与下方照片不是连续画面。"
+    },
+    {
+      "id": "paper_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        343,
+        1000,
+        669
+      ],
+      "description": "横贯画布中段的浅棕色牛皮纸纹理面板，上下边缘平直，保留纤维颗粒和不均匀色泽；其上的独立菜品照片、贴纸、文字和涂鸦分别记录。"
+    },
+    {
+      "id": "photo_salad",
+      "kind": "photo",
+      "bbox": [
+        208,
+        380,
+        464,
+        500
+      ],
+      "description": "俯拍浅色圆碗沙拉，含生菜、黄瓜、肉末及细切配菜，完整保留碗与食物，沿碗外轮廓去除桌面环境。外围一圈白色短虚线依附碗形轮廓，随照片整体记录。"
+    },
+    {
+      "id": "photo_skewers",
+      "kind": "photo",
+      "bbox": [
+        474,
+        364,
+        734,
+        477
+      ],
+      "description": "俯拍深色圆盘上的多支烤肉串，竹签从盘沿向下及左下伸出；完整保留盘、肉串和外伸竹签，周围摄影环境已去除。白色短虚线围绕盘和竹签外侧分布，属于该照片的轮廓装饰。"
+    },
+    {
+      "id": "photo_rice",
+      "kind": "photo",
+      "bbox": [
+        242,
+        506,
+        473,
+        613
+      ],
+      "description": "俯拍深色圆碗炒饭，橙黄色米饭中央有深色海苔碎及配料；完整保留碗与食物，沿碗轮廓去除周围环境，碗外附有一圈白色短虚线。"
+    },
+    {
+      "id": "photo_pot",
+      "kind": "photo",
+      "bbox": [
+        533,
+        501,
+        775,
+        611
+      ],
+      "description": "俯拍双耳铜锅，锅内是红汤年糕和中央融化的奶酪，下方露出黑色炉面及棕色炉座。锅、双侧把手和炉具作为完整主体组合保留，周围环境去除，外围白色短虚线随组合轮廓延伸。"
+    },
+    {
+      "id": "character_sticker",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        444,
+        241,
+        558
+      ],
+      "description": "蓝色大耳小动物与白色粉耳兔子组成的双角色贴纸，均有深灰粗轮廓、粉色脸颊和手势；两个角色及其完整边缘作为一个装饰单元保留。"
+    },
+    {
+      "id": "happy_doodle",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        348,
+        239,
+        421
+      ],
+      "description": "左上角白色手写装饰，包含错落排布的“快乐加载中”、小电池形图案及下方多枚小爱心；保留字词位置、倾斜和手绘笔画，作为完整单元。"
+    },
+    {
+      "id": "utensil_doodle",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        387,
+        927,
+        470
+      ],
+      "description": "右上角白色手绘刀叉装饰，包含竖向叉子、倾斜餐刀，以及周围小圆点、十字和菱形闪光，全部线条作为一个完整单元保留。"
+    },
+    {
+      "id": "fish_doodle",
+      "kind": "overlay",
+      "bbox": [
+        788,
+        600,
+        965,
+        645
+      ],
+      "description": "纸面右下角三条白色线描小鱼，呈上下错落分布，保留鱼形轮廓、尾部及眼睛，作为同组装饰。"
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "bbox": [
+        115,
+        627,
+        836,
+        659
+      ],
+      "text": "一起吃饭 | 普通日子里的小浪漫",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        669,
+        1000,
+        1000
+      ],
+      "description": "下方独立横幅照片：一名短发浅蓝衣男子坐在餐桌对面，持筷并举起饮料，脸部被前景汤勺遮挡；左侧大幅前景手臂伸向勺柄。桌上有铜锅、另一锅年糕、沙拉、米饭、饮料和底边被裁切的菜盘。完整保留餐厅摄影环境，按画布边缘及上方接缝裁切。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "paper_panel",
+    "photo_bottom",
+    "photo_salad",
+    "photo_skewers",
+    "photo_rice",
+    "photo_pot",
+    "character_sticker",
+    "happy_doodle",
+    "utensil_doodle",
+    "fish_doodle",
+    "title"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-ac6bd57bd21c374f",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7343,
+    "completion_tokens": 284,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"全画布为带有细微纹理的浅色纸底，两张照片独立放置，纸底纹理在照片间隙及边缘保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        72,\n        142,\n        768,\n        446\n      ],\n      \"description\": \"上方人物半身照片，人物位于画面右侧，背景为网格状围栏和远处城市景观，显示区域为圆角矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        224,\n        579,\n        922,\n        879\n      ],\n      \"description\": \"下方人物半身照片，人物位于画面中央偏右，背景为金属围栏、远处建筑和阳光，显示区域为圆角矩形。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

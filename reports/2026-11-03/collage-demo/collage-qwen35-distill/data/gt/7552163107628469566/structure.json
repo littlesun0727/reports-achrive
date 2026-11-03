@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "蓝色天空与多条斜向延伸的黑色电线构成连续摄影画面，天空与电线延伸至画布四边，局部被右侧照片和左侧字样遮挡。无人物，完整天空、电线及摄影色彩变化共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_balloon",
+      "kind": "photo",
+      "bbox": [
+        530,
+        352,
+        911,
+        747
+      ],
+      "description": "右侧独立照片，粉红色气球印有黄色星星，下方右侧伸入一只穿黑袖的手握着气球细绳，人物其余部分未入镜。保留黄色、白色和深蓝色块组成的摄影环境及气球投影。照片四边清晰，略有倾斜，顶部局部被透明胶带覆盖，无主体去背景。"
+    },
+    {
+      "id": "overlay_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        26,
+        530,
+        950
+      ],
+      "description": "左侧纵向排列的乳白色手写字样，内容依次为“My / Life / is / Ordinary / but Shining / Live / a Slow / and / Concrete / Life”。字母大小、笔画造型、间距和各行起点不规则，保留整组手写设计的原有布局及细微笔触。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        609,
+        326,
+        848,
+        385
+      ],
+      "description": "横贴于右侧照片顶边的半透明胶带，上半部伸到天空区域，下半部覆盖照片。保留不规则端部、透明质感、细碎褶皱和白色反光线条。"
+    }
+  ],
+  "layer_order": [
+    "photo_balloon",
+    "overlay_handwriting",
+    "overlay_tape"
+  ]
+}

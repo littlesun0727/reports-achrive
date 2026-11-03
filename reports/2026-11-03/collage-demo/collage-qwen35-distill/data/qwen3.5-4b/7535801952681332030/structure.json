@@ -1,0 +1,94 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "户外草地与溪流场景的连续摄影底图，包含左侧草地、右侧溪流及底部人物腿部，完整显示区域延伸至画布四边；上层三张独立照片遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_horses",
+      "kind": "photo",
+      "bbox": [
+        303,
+        89,
+        680,
+        303
+      ],
+      "description": "横向照片，展示草原上三匹黑马与拍摄者手持手机取景的画面，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_horses",
+      "kind": "frame",
+      "bbox": [
+        256,
+        75,
+        776,
+        320
+      ],
+      "description": "围绕单张马匹照片的黄色矩形相框，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。",
+      "photo_id": [
+        "photo_horses"
+      ]
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        320,
+        380,
+        662,
+        600
+      ],
+      "description": "横向照片，展示手持花环与背景草原，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_flowers",
+      "kind": "frame",
+      "bbox": [
+        260,
+        375,
+        780,
+        618
+      ],
+      "description": "围绕单张花环照片的白色矩形相框，边缘带有彩色圆点装饰，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。",
+      "photo_id": [
+        "photo_flowers"
+      ]
+    },
+    {
+      "id": "photo_fruits",
+      "kind": "photo",
+      "bbox": [
+        320,
+        680,
+        662,
+        898
+      ],
+      "description": "横向照片，展示草帽中盛放的苹果与桃子，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_fruits",
+      "kind": "frame",
+      "bbox": [
+        260,
+        670,
+        780,
+        912
+      ],
+      "description": "围绕单张水果照片的紫色矩形相框，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。",
+      "photo_id": [
+        "photo_fruits"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_horses",
+    "frame_horses",
+    "photo_flowers",
+    "frame_flowers",
+    "photo_fruits",
+    "frame_fruits"
+  ]
+}

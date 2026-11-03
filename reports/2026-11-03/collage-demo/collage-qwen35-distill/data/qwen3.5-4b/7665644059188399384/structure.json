@@ -1,0 +1,338 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "notebook_base",
+    "description": "米色螺旋装订笔记本页面作为全画布底图，包含黑色金属线圈、纸张纹理及边缘阴影，完整覆盖画布；上层贴纸、文字和食物照片遮挡局部，保留笔记本整体形态。"
+  },
+  "objects": [
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        256,
+        233,
+        450,
+        534
+      ],
+      "description": "绿色气泡饮料与冰淇淋球特写，保留玻璃杯、吸管、樱桃及背景虚化效果，显示区域为圆形。"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        478,
+        413,
+        738,
+        577
+      ],
+      "description": "华夫饼配水果与奶油特写，保留黑色盘子、水果细节及背景虚化效果，显示区域为圆形。"
+    },
+    {
+      "id": "photo_tostada",
+      "kind": "photo",
+      "bbox": [
+        256,
+        569,
+        553,
+        729
+      ],
+      "description": "烤面包配虾仁与煎蛋特写，保留白色盘子、食物细节及背景虚化效果，显示区域为圆形。"
+    },
+    {
+      "id": "photo_drink_small",
+      "kind": "photo",
+      "bbox": [
+        546,
+        303,
+        646,
+        406
+      ],
+      "description": "分层饮品特写，保留玻璃杯、分层结构及背景虚化效果，显示区域为圆形。"
+    },
+    {
+      "id": "frame_drink",
+      "kind": "frame",
+      "bbox": [
+        256,
+        233,
+        450,
+        534
+      ],
+      "description": "围绕绿色饮料照片的白色虚线圆框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_drink"
+      ]
+    },
+    {
+      "id": "frame_cake",
+      "kind": "frame",
+      "bbox": [
+        478,
+        413,
+        738,
+        577
+      ],
+      "description": "围绕华夫饼照片的白色虚线圆框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_cake"
+      ]
+    },
+    {
+      "id": "frame_tostada",
+      "kind": "frame",
+      "bbox": [
+        256,
+        569,
+        553,
+        729
+      ],
+      "description": "围绕烤面包照片的白色虚线圆框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_tostada"
+      ]
+    },
+    {
+      "id": "frame_drink_small",
+      "kind": "frame",
+      "bbox": [
+        546,
+        303,
+        646,
+        406
+      ],
+      "description": "围绕小饮品照片的白色虚线圆框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_drink_small"
+      ]
+    },
+    {
+      "id": "overlay_sticker_bear",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        466,
+        266,
+        606
+      ],
+      "description": "白色线条勾勒的泰迪熊贴纸，包含蝴蝶结细节，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sticker_boba",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        326,
+        216,
+        433
+      ],
+      "description": "粉色线条勾勒的珍珠奶茶贴纸，包含吸管和珍珠细节，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sticker_star",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        191,
+        308,
+        298
+      ],
+      "description": "白色线条勾勒的星星图案贴纸，包含星形和装饰性线条，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sticker_bread",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        318,
+        898,
+        406
+      ],
+      "description": "棕色线条勾勒的面包图案贴纸，包含面包形状和网格背景，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sticker_pot",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        513,
+        896,
+        586
+      ],
+      "description": "棕色线条勾勒的锅具图案贴纸，包含锅具形状和装饰性元素，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        656,
+        276,
+        893
+      ],
+      "description": "银色叉子贴纸，包含叉齿和粉色蝴蝶结装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_note_brown",
+      "kind": "overlay",
+      "bbox": [
+        636,
+        203,
+        856,
+        293
+      ],
+      "description": "棕色便签纸贴纸，包含手写韩文和表情符号，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_note_pink",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        611,
+        806,
+        783
+      ],
+      "description": "粉色便签纸贴纸，包含英文文字和笑脸图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_note_white",
+      "kind": "overlay",
+      "bbox": [
+        523,
+        753,
+        813,
+        853
+      ],
+      "description": "白色便签纸贴纸，包含英文文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_note_bottom",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        793,
+        486,
+        828
+      ],
+      "description": "白色便签纸贴纸，包含韩文文字和装饰符号，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_note_strip",
+      "kind": "overlay",
+      "bbox": [
+        573,
+        741,
+        886,
+        903
+      ],
+      "description": "米色长条贴纸，包含饼干图案和装饰性元素，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        423,
+        203,
+        636,
+        353
+      ],
+      "text": "女人間美味!!",
+      "color": "#2C3E50",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        646,
+        223,
+        823,
+        283
+      ],
+      "text": "频繁的记录\n不要变成麻木的人",
+      "color": "#2C3E50",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        623,
+        626,
+        793,
+        723
+      ],
+      "text": "For the first time the world lay open before him, wide and waiting, ready to receive him, to do him good or harm.",
+      "color": "#2C3E50",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        533,
+        763,
+        783,
+        823
+      ],
+      "text": "if you will be thirsty for if you drink the wine that you have brewed.",
+      "color": "#2C3E50",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        313,
+        803,
+        463,
+        823
+      ],
+      "text": "너 귀엽둥이야!",
+      "color": "#2C3E50",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_drink",
+    "frame_drink",
+    "photo_cake",
+    "frame_cake",
+    "photo_tostada",
+    "frame_tostada",
+    "photo_drink_small",
+    "frame_drink_small",
+    "overlay_sticker_bear",
+    "overlay_sticker_boba",
+    "overlay_sticker_star",
+    "overlay_sticker_bread",
+    "overlay_sticker_pot",
+    "overlay_fork",
+    "overlay_note_brown",
+    "overlay_note_pink",
+    "overlay_note_white",
+    "overlay_note_bottom",
+    "overlay_note_strip",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5"
+  ]
+}

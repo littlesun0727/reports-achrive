@@ -1,0 +1,143 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "water_drop_bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1350
+      ],
+      "description": "全画布固定底图，呈现浅蓝色背景上布满大小不一的水滴纹理，整体风格清新；作为独立固定设计单元保留，不替换。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，呈现浅蓝色背景上布满大小不一的水滴纹理，整体",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        90,
+        227,
+        508,
+        753
+      ],
+      "description": "左上人物照片，女孩躺在草地上，手持粉色雏菊，背景为树林，保留摄影环境。",
+      "label": "左上人物照片，女孩躺在草地上，手持粉色雏菊，背景为树林，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        297,
+        807,
+        868,
+        1199
+      ],
+      "description": "右下风景照片，海边日落，人群坐在沙滩上，保留摄影环境。",
+      "label": "右下风景照片，海边日落，人群坐在沙滩上，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        567,
+        297,
+        925
+      ],
+      "description": "左侧红色百合花贴纸，带白色描边，作为独立装饰保留。",
+      "label": "左侧红色百合花贴纸，带白色描边，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_purple_flowers",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        196,
+        891,
+        810
+      ],
+      "description": "右侧紫色花朵贴纸群，半透明效果，作为独立装饰保留。",
+      "label": "右侧紫色花朵贴纸群，半透明效果，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        234,
+        1107,
+        360,
+        1242
+      ],
+      "description": "左下白色螺旋线条装饰，作为独立固定单元保留。",
+      "label": "左下白色螺旋线条装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        387,
+        34,
+        504,
+        61
+      ],
+      "description": "CHAREN",
+      "label": "CHAREN",
+      "method": "local",
+      "text": "CHAREN",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        531,
+        580,
+        828,
+        702
+      ],
+      "description": "CAILLING",
+      "label": "CAILLING",
+      "method": "local",
+      "text": "CAILLING",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "water_drop_bg",
+    "photo_girl",
+    "photo_sunset",
+    "overlay_lily",
+    "overlay_purple_flowers",
+    "overlay_spiral",
+    "text_title",
+    "text_subtitle"
+  ]
+}

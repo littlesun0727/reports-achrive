@@ -1,0 +1,194 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内摄影底图，包含白色墙壁、左侧门框及自然光环境，主体为站立人物，完整显示区域延伸至画布四边；上层贴纸、文字和照片遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_thought",
+      "kind": "photo",
+      "bbox": [
+        182,
+        92,
+        345,
+        268
+      ],
+      "description": "位于左上角思考气泡内的独立人物面部照片，保留人物面部及背景，边缘有气泡轮廓遮挡。"
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        89,
+        445,
+        305
+      ],
+      "description": "黑色手绘风格思考气泡轮廓，包含内部小圆圈，覆盖在照片_thought 上方。"
+    },
+    {
+      "id": "overlay_heart_1",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        643,
+        180,
+        688
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面左侧中部。"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        379,
+        232,
+        422
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面左上区域。"
+    },
+    {
+      "id": "overlay_heart_3",
+      "kind": "overlay",
+      "bbox": [
+        833,
+        381,
+        898,
+        434
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面右侧中部。"
+    },
+    {
+      "id": "overlay_heart_4",
+      "kind": "overlay",
+      "bbox": [
+        805,
+        885,
+        845,
+        922
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面右下角。"
+    },
+    {
+      "id": "overlay_rabbit_1",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        810,
+        254,
+        946
+      ],
+      "description": "左下角方形贴纸，包含手绘兔子图案及粉色爱心装饰。"
+    },
+    {
+      "id": "overlay_rabbit_2",
+      "kind": "overlay",
+      "bbox": [
+        748,
+        126,
+        930,
+        262
+      ],
+      "description": "右上角方形贴纸，包含手绘兔子图案及星星装饰。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        335,
+        142,
+        365,
+        165
+      ],
+      "text": "I",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        335,
+        168,
+        365,
+        190
+      ],
+      "text": "I",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        335,
+        192,
+        365,
+        215
+      ],
+      "text": "I",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        335,
+        215,
+        365,
+        238
+      ],
+      "text": "I",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        335,
+        238,
+        365,
+        261
+      ],
+      "text": "I",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_thought",
+    "overlay_bubble",
+    "overlay_heart_1",
+    "overlay_heart_2",
+    "overlay_heart_3",
+    "overlay_heart_4",
+    "overlay_rabbit_1",
+    "overlay_rabbit_2",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5"
+  ]
+}

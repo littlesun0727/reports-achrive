@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张覆盖全画布的虚焦桌面照片，棕色桌面、中央偏左的屏幕或卡片、右侧凯蒂猫玩偶及下方伸入的一只手共同构成连续摄影场景，未见完整人物。四边摄影内容连续，上方两张异形照片和文字遮挡局部；虚焦属于摄影效果，背景不透明，全部摄影内容共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        432,
+        92,
+        922,
+        450
+      ],
+      "description": "右上心形照片，一名长发人物坐在餐桌前，戴棕色卡通帽，低头将脸靠在双手上；前方有白色卡通包，身后保留夜间窗景及室内环境。完整显示范围为心形窗口，人物未沿轮廓去背景，心形边缘附有白色毛糙线条描边。"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        34,
+        496,
+        561,
+        891
+      ],
+      "description": "左下五角星照片，保留餐桌摄影环境，桌上有彩色卡通图案盘子及点心、草莓装饰杯状甜品，后方平板屏幕显示卡通玩偶画面与时间。整体沿五角星窗口裁切，白色毛糙描边依附完整星形边缘，不另拆桌上物件。"
+    },
+    {
+      "id": "text_left",
+      "kind": "text",
+      "bbox": [
+        47,
+        117,
+        444,
+        435
+      ],
+      "text": "我从此感到幸福\n轻易 松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬芳淡淡的 却萦绕不去\n我的幸福\n只需要我伸出手享受",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_right",
+      "kind": "text",
+      "bbox": [
+        550,
+        526,
+        963,
+        886
+      ],
+      "text": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_top_doodles",
+      "kind": "overlay",
+      "bbox": [
+        709,
+        43,
+        938,
+        81
+      ],
+      "description": "顶部横排白色手绘涂鸦，包含星星、音符、月牙、爱心、花朵及间隔小圆点，作为完整装饰组合保留。"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        818,
+        389,
+        946,
+        443
+      ],
+      "description": "心形照片右下方的白色线描兔子表情，包含两只长耳、脸侧弧线、眼睛、鼻嘴及小点，整体保留。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        390,
+        469,
+        608,
+        554
+      ],
+      "description": "两张照片之间的细线蝴蝶结装饰组合，中央为白色手绘蝴蝶结，周围散布白色小光芒、浅黄色小圆环和浅绿色星星，所有附属成员整体保留。"
+    },
+    {
+      "id": "overlay_left_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        489,
+        143,
+        567
+      ],
+      "description": "星形照片左上方的白色手绘闪光组合，包含一枚空心四角星、数枚实心小星及细小点缀，整体保留。"
+    },
+    {
+      "id": "overlay_bottom_stars",
+      "kind": "overlay",
+      "bbox": [
+        136,
+        918,
+        374,
+        951
+      ],
+      "description": "底部横向排列的五枚白色手绘五角星，保留交错重复笔画及不规则轮廓，作为一组装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_heart",
+    "photo_star",
+    "text_left",
+    "text_right",
+    "overlay_top_doodles",
+    "overlay_bunny",
+    "overlay_bow",
+    "overlay_left_sparkles",
+    "overlay_bottom_stars"
+  ]
+}

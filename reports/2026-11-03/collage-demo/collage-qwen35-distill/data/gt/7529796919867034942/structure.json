@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        319
+      ],
+      "description": "顶部独立横幅照片，俯拍雨后深灰色路面，黄色落叶散布于上方及右侧，左下积水映出树影，右上露出路缘和砖块。保留完整摄影环境，四边清晰裁切，与中部照片在水平接缝处不连续。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        319,
+        1000,
+        703
+      ],
+      "description": "中部独立照片，一名长发女子穿白色短袖和牛仔裤，左侧手托插有吸管的椰子，另一只手向右下伸展，目光朝向左上。保留庭院、水池、植物、雕像及墙面环境，人物下身在窗口底边裁切。照片上叠有独立粉色文字，无主体去背景、描边或渐隐。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        703,
+        1000,
+        1000
+      ],
+      "description": "底部独立晚霞照片，橙红色云层铺满天空，下缘可见天线与树木暗色剪影。保留完整摄影环境，窗口横向铺满画布，顶部与人物照片直接拼接，边界清晰，无描边或渐隐。"
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        60,
+        513,
+        934,
+        586
+      ],
+      "text": "In those days even the wind\nfelt free in summer",
+      "color": "#FF1493",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_middle"
+  ]
+}

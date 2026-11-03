@@ -1,0 +1,331 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布固定底图，由淡紫色花卉、枝叶与书法文字构成，具有纸纹质感；三张拍立得照片及蝴蝶装饰叠加其上，底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        132,
+        30,
+        576,
+        320
+      ],
+      "description": "左上拍立得照片，金发女性手持蝴蝶，照片内保留摄影环境，白色相框完整显示。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        420,
+        300,
+        980,
+        630
+      ],
+      "description": "右侧拍立得照片，金发女性手托脸颊，照片内保留摄影环境，白色相框完整显示。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        35,
+        615,
+        640,
+        985
+      ],
+      "description": "左下拍立得照片，金发女性手持蝴蝶靠近面部，照片内保留摄影环境，白色相框完整显示。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        125,
+        25,
+        583,
+        325
+      ],
+      "description": "左上拍立得相框，白色边框，完整包围 photo_1，位于照片上方。",
+      "photo_id": [
+        "photo_1"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        413,
+        295,
+        983,
+        635
+      ],
+      "description": "右侧拍立得相框，白色边框，完整包围 photo_2，位于照片上方。",
+      "photo_id": [
+        "photo_2"
+      ]
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        30,
+        610,
+        645,
+        990
+      ],
+      "description": "左下拍立得相框，白色边框，完整包围 photo_3，位于照片上方。",
+      "photo_id": [
+        "photo_3"
+      ]
+    },
+    {
+      "id": "overlay_butterfly_1",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        0,
+        820,
+        180
+      ],
+      "description": "右上角紫色蝴蝶装饰，位于画布右上区域，压在背景之上。"
+    },
+    {
+      "id": "overlay_butterfly_2",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        200,
+        930,
+        290
+      ],
+      "description": "右侧中部紫色蝴蝶装饰，位于 photo_2 右上方，压在背景之上。"
+    },
+    {
+      "id": "overlay_butterfly_3",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        370,
+        420,
+        570
+      ],
+      "description": "左侧中部紫色蝴蝶装饰，位于 photo_1 与 photo_3 之间，压在背景之上。"
+    },
+    {
+      "id": "overlay_butterfly_4",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        700,
+        990,
+        990
+      ],
+      "description": "右下角紫色蝴蝶装饰，位于画布右下区域，压在背景之上。"
+    },
+    {
+      "id": "overlay_butterfly_5",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        320,
+        340,
+        380
+      ],
+      "description": "左侧中部偏上紫色蝴蝶装饰，位于 photo_1 下方，压在背景之上。"
+    },
+    {
+      "id": "overlay_butterfly_6",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        510,
+        990,
+        600
+      ],
+      "description": "右侧中部偏下紫色蝴蝶装饰，位于 photo_2 右下方，压在背景之上。"
+    },
+    {
+      "id": "overlay_butterfly_7",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        680,
+        180,
+        760
+      ],
+      "description": "左下角紫色蝴蝶装饰，位于 photo_3 左侧，压在背景之上。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        0,
+        20,
+        100,
+        350
+      ],
+      "text": "丁二奇观看堂安书卷",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        820,
+        20,
+        990,
+        200
+      ],
+      "text": "到世是英雄",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        820,
+        650,
+        990,
+        950
+      ],
+      "text": "亦如字书于西成",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        80,
+        290,
+        400,
+        600
+      ],
+      "text": "来冲晓不知泠",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        150,
+        350,
+        350,
+        550
+      ],
+      "text": "箱经评",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        350,
+        350,
+        450,
+        550
+      ],
+      "text": "出右内",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        80,
+        900,
+        150,
+        950
+      ],
+      "text": "BE REMEMBER TODAY",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_8",
+      "kind": "text",
+      "bbox": [
+        480,
+        620,
+        580,
+        640
+      ],
+      "text": "BE REMEMBER",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_9",
+      "kind": "text",
+      "bbox": [
+        80,
+        900,
+        150,
+        950
+      ],
+      "text": "BE REMEMBER TODAY",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "overlay_butterfly_1",
+    "overlay_butterfly_2",
+    "overlay_butterfly_3",
+    "overlay_butterfly_4",
+    "overlay_butterfly_5",
+    "overlay_butterfly_6",
+    "overlay_butterfly_7",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7",
+    "text_8",
+    "text_9"
+  ]
+}

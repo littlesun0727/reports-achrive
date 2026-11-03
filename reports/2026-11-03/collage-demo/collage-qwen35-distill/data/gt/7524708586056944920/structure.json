@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的公园摄影画面覆盖全画布，深色树冠与树干占据上半部，阳光照亮的草坪延伸至底边，远处可见步道。四边露出的环境连续，上层照片与标签遮挡局部；树林、草地及其光影共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_fish",
+      "kind": "photo",
+      "bbox": [
+        315,
+        130,
+        715,
+        530
+      ],
+      "description": "竖向矩形照片，一条橙黄色金鱼在装水的透明塑料袋中朝右游动，袋体占据近景，后方保留绿色树叶与明亮散景。照片边界清晰，下部左侧被猫照片遮挡，右下部仍显示袋体与摄影环境。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        129,
+        474,
+        530,
+        775
+      ],
+      "description": "近方形照片，一只橘猫竖起尾巴沿步道朝镜头走来，猫位于中下部，右侧是鲜绿草地与排水沟，左侧保留铺装路面及树影。完整摄影环境保留，四边为清晰裁切。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        571,
+        562,
+        909,
+        900
+      ],
+      "description": "竖向矩形公园照片，多根深色树干纵贯画面，树叶间透出阳光，底部草地有明亮光斑，远处左侧可见数名小比例人物。环境完整保留，与底图取景独立，边界清晰。"
+    },
+    {
+      "id": "tape_top",
+      "kind": "overlay",
+      "bbox": [
+        245,
+        82,
+        395,
+        180
+      ],
+      "description": "斜贴在金鱼照片左上角的黄色纸胶带，保留不规则纸边、纸张纹理、浅色折痕与细微阴影。"
+    },
+    {
+      "id": "tape_cat",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        735,
+        193,
+        799
+      ],
+      "description": "斜跨猫照片左下角的黄色纸胶带，整体保留纸边、表面纹理和弧形浅色折痕。"
+    },
+    {
+      "id": "tape_trees",
+      "kind": "overlay",
+      "bbox": [
+        694,
+        544,
+        789,
+        576
+      ],
+      "description": "横贴在右下树林照片上边缘的黄色纸胶带，略带倾斜，保留不规则边缘、纸纹和浅色折痕。"
+    },
+    {
+      "id": "label_summer",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        479,
+        938,
+        522
+      ],
+      "description": "浅蓝白色半透明矩形标签，内有深色文字“Meet summer.”，底板带有浅蓝色不规则印迹；文字与标签整体保留。"
+    },
+    {
+      "id": "label_greenery",
+      "kind": "overlay",
+      "bbox": [
+        134,
+        815,
+        542,
+        891
+      ],
+      "description": "浅蓝白色半透明矩形文字标签，两行深色英文分别为“Collect today's lush greenery”和“and gentle breeze”，文字、底板及轻微纹理整体保留。"
+    },
+    {
+      "id": "stars_upper",
+      "kind": "overlay",
+      "bbox": [
+        772,
+        94,
+        943,
+        243
+      ],
+      "description": "右上树冠上叠加的四枚白色发光星形，大小不同、分散排列，保留柔亮边缘，星形之间透明。"
+    },
+    {
+      "id": "sparkles_lower",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        716,
+        602,
+        943
+      ],
+      "description": "猫照片下部、下方文字标签周围及右侧分布的细小闪光装饰组，包含蓝白色十字星芒、柔光亮点和细小光点，整体呈疏散闪光效果，成员之间透明。"
+    }
+  ],
+  "layer_order": [
+    "photo_fish",
+    "photo_cat",
+    "photo_trees",
+    "tape_top",
+    "tape_cat",
+    "tape_trees",
+    "label_summer",
+    "label_greenery",
+    "stars_upper",
+    "sparkles_lower"
+  ]
+}

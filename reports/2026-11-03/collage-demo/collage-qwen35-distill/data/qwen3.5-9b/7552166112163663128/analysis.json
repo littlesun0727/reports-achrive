@@ -1,0 +1,234 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_sakura",
+      "kind": "photo",
+      "bbox": [
+        261,
+        144,
+        720,
+        504
+      ],
+      "description": "樱花树照片，树枝和花朵清晰可见，背景为建筑物，位于画布右上区域。",
+      "label": "樱花树照片，树枝和花朵清晰可见，背景为建筑物，位于画布右上区",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        36,
+        456,
+        378,
+        816
+      ],
+      "description": "甜点照片，展示一块蛋糕和草莓，位于画布左下区域。",
+      "label": "甜点照片，展示一块蛋糕和草莓，位于画布左下区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        432,
+        744,
+        720,
+        1104
+      ],
+      "description": "人物照片，展示一位长发女性，位于画布右下区域。",
+      "label": "人物照片，展示一位长发女性，位于画布右下区域。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_candy",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        48,
+        144,
+        120
+      ],
+      "description": "粉色糖果贴纸，位于画布左上角。",
+      "label": "粉色糖果贴纸，位于画布左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        192,
+        180,
+        384
+      ],
+      "description": "白色猫咪玩偶贴纸，位于画布左侧中部。",
+      "label": "白色猫咪玩偶贴纸，位于画布左侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tag",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        456,
+        756,
+        576
+      ],
+      "description": "粉色标签贴纸，位于画布右侧中部。",
+      "label": "粉色标签贴纸，位于画布右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cups",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        600,
+        756,
+        744
+      ],
+      "description": "两个粉色咖啡杯贴纸，位于画布右侧中部偏下。",
+      "label": "两个粉色咖啡杯贴纸，位于画布右侧中部偏下。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        864,
+        288,
+        1056
+      ],
+      "description": "便签纸贴纸，带有回形针，位于画布左下角。",
+      "label": "便签纸贴纸，带有回形针，位于画布左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        108,
+        144,
+        180,
+        168
+      ],
+      "description": "정신 체리",
+      "label": "정신 체리",
+      "method": "local",
+      "text": "정신 체리",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        468,
+        528,
+        648,
+        576
+      ],
+      "description": "우린서로기있어",
+      "label": "우린서로기있어",
+      "method": "local",
+      "text": "우린서로기있어",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        468,
+        600,
+        648,
+        648
+      ],
+      "description": "나는 오늘의 슈퍼스타",
+      "label": "나는 오늘의 슈퍼스타",
+      "method": "local",
+      "text": "나는 오늘의 슈퍼스타",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        54,
+        888,
+        270,
+        984
+      ],
+      "description": "가장큰행복은 작은 행복들의 연속이다.",
+      "label": "가장큰행복은 작은 행복들의 연속이다.",
+      "method": "local",
+      "text": "가장큰행복은 작은 행복들의 연속이다.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_sakura",
+    "photo_cake",
+    "photo_girl",
+    "overlay_candy",
+    "overlay_cat",
+    "overlay_tag",
+    "overlay_cups",
+    "overlay_note",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

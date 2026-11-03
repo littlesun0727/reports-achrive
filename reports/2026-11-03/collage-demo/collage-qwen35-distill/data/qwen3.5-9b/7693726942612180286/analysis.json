@@ -1,0 +1,303 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "繁忙的韩国街道摄影底图，包含两侧建筑、霓虹招牌、路面黄色箭头和远处塔楼，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "繁忙的韩国街道摄影底图，包含两侧建筑、霓虹招牌、路面黄色箭头",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        43,
+        214,
+        389,
+        550
+      ],
+      "description": "左上自拍照片，人物手持白色手机，扎双马尾，穿粉色背心，保留照片内的室内环境，显示区域为矩形。",
+      "label": "左上自拍照片，人物手持白色手机，扎双马尾，穿粉色背心，保留照",
+      "method": "local"
+    },
+    {
+      "id": "photo_polaroid",
+      "kind": "photo",
+      "bbox": [
+        407,
+        505,
+        857,
+        937
+      ],
+      "description": "右下四格拍立得照片，包含人物在户外、室内和自拍的四个场景，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右下四格拍立得照片，包含人物在户外、室内和自拍的四个场景，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        29,
+        650,
+        371,
+        1106
+      ],
+      "description": "左下食物照片，展示甜点、咖啡和面包，保留照片内的桌面环境，显示区域为矩形。",
+      "label": "左下食物照片，展示甜点、咖啡和面包，保留照片内的桌面环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        407,
+        86,
+        560,
+        182
+      ],
+      "description": "上方黑白圆形照片，显示人物面部特写，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方黑白圆形照片，显示人物面部特写，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "frame_selfie",
+      "kind": "frame",
+      "bbox": [
+        29,
+        202,
+        398,
+        562
+      ],
+      "description": "围绕左上自拍照片的白色圆角矩形框，覆盖照片边缘并位于照片上方，完整框体作为一个固定单元保留。",
+      "photo_id": [
+        "photo_selfie"
+      ],
+      "label": "围绕左上自拍照片的白色圆角矩形框，覆盖照片边缘并位于照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        398,
+        493,
+        866,
+        949
+      ],
+      "description": "围绕右下四格拍立得照片的白色边框，覆盖照片边缘并位于照片上方，完整边框作为一个固定单元保留。",
+      "photo_id": [
+        "photo_polaroid"
+      ],
+      "label": "围绕右下四格拍立得照片的白色边框，覆盖照片边缘并位于照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        434,
+        92,
+        542
+      ],
+      "description": "左侧白色心形贴纸，带有内部装饰，作为独立固定装饰保留。",
+      "label": "左侧白色心形贴纸，带有内部装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        506,
+        410,
+        623,
+        542
+      ],
+      "description": "右侧白色花朵装饰夹子，作为独立固定装饰保留。",
+      "label": "右侧白色花朵装饰夹子，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        434,
+        470,
+        494
+      ],
+      "description": "中间白色五角星贴纸，作为独立固定装饰保留。",
+      "label": "中间白色五角星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        110,
+        803,
+        170
+      ],
+      "description": "右上白色五角星贴纸，作为独立固定装饰保留。",
+      "label": "右上白色五角星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_question",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        134,
+        299,
+        230
+      ],
+      "description": "左上粉色波点问号贴纸，作为独立固定装饰保留。",
+      "label": "左上粉色波点问号贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text1",
+      "kind": "overlay",
+      "bbox": [
+        326,
+        266,
+        407,
+        422
+      ],
+      "description": "中间蓝色波点贴纸，包含文字 'seen this angel'，作为独立固定装饰保留。",
+      "label": "中间蓝色波点贴纸，包含文字 'seen this angel",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text2",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        182,
+        830,
+        386
+      ],
+      "description": "右侧白色手写体文字 'FLOG'，作为独立固定装饰保留。",
+      "label": "右侧白色手写体文字 'FLOG'，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text3",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        674,
+        524,
+        758
+      ],
+      "description": "中间绿色心形贴纸，包含文字 'Slow lapse'，作为独立固定装饰保留。",
+      "label": "中间绿色心形贴纸，包含文字 'Slow lapse'，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text4",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        818,
+        650,
+        890
+      ],
+      "description": "右下蓝色心形贴纸，包含文字 '사랑해'，作为独立固定装饰保留。",
+      "label": "右下蓝色心形贴纸，包含文字 '사랑해'，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text5",
+      "kind": "overlay",
+      "bbox": [
+        290,
+        938,
+        740,
+        1058
+      ],
+      "description": "底部橙色星号文字 'Weekend.'，作为独立固定装饰保留。",
+      "label": "底部橙色星号文字 'Weekend.'，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        29,
+        650,
+        92,
+        698
+      ],
+      "description": "01.\n02.\n03.",
+      "label": "01.\n02.\n03.",
+      "method": "local",
+      "text": "01.\n02.\n03.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        101,
+        650,
+        290,
+        698
+      ],
+      "description": "love\nlove\nlove\nME\nlove\nlove\nlove\nPhobid",
+      "label": "love\nlove\nlove\nME\nlove\nlove\nlo",
+      "method": "local",
+      "text": "love\nlove\nlove\nME\nlove\nlove\nlove\nPhobid",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_selfie",
+    "frame_selfie",
+    "photo_polaroid",
+    "frame_polaroid",
+    "photo_food",
+    "photo_top",
+    "overlay_heart",
+    "overlay_clip",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_question",
+    "overlay_text1",
+    "overlay_text2",
+    "overlay_text3",
+    "overlay_text4",
+    "overlay_text5",
+    "text_1",
+    "text_2"
+  ]
+}

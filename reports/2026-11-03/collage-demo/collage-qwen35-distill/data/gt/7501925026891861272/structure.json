@@ -1,0 +1,253 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "全画布固定底图由浅黄色两侧区域和中央纵向白色小黄点纸带构成，纸带贯穿上下边缘，照片之间及四周连续露出。保留底色、纸带边界与圆点图案，清除独立照片和贴纸。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        326,
+        37,
+        673,
+        221
+      ],
+      "description": "第一张横向自拍，一名浅色长发女子穿白色上衣，正面微侧头露齿微笑，近景包含头部及肩部。保留室内沙发、织物等摄影环境；矩形窗口边缘清晰，左下和右上局部被贴纸遮挡。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        325,
+        266,
+        673,
+        441
+      ],
+      "description": "第二张独立自拍，同一女子头肩近景，头部稍侧转、目光望向画面左侧，嘴唇微张。保留室内沙发及织物环境，矩形窗口清晰，上右、左侧及下缘局部被蝴蝶结和吐司贴纸遮挡。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        324,
+        487,
+        670,
+        667
+      ],
+      "description": "第三张独立自拍，一名浅色长发女子正视镜头，张嘴作惊讶表情，显示头部及肩部。保留室内沙发和织物背景，矩形边界清晰，左侧咖啡杯和右下熊贴纸覆盖部分窗口。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        319,
+        708,
+        665,
+        890
+      ],
+      "description": "第四张独立自拍，一名浅色长发女子微低头看向镜头，抿嘴，显示头肩及白色上衣。保留室内摄影环境，矩形窗口清晰，上缘被日文标签覆盖，右下被横卧熊贴纸遮挡。"
+    },
+    {
+      "id": "cookies",
+      "kind": "overlay",
+      "bbox": [
+        286,
+        19,
+        388,
+        65
+      ],
+      "description": "左上方叠放的两块金黄色圆饼干贴纸，保留孔洞、夹层、立体明暗及边缘，整体覆盖第一张照片左上角。"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        31,
+        632,
+        73
+      ],
+      "description": "第一张照片上沿偏右的橙黄色星形饼干装饰，中央带白色小爪印，完整保留立体边缘。"
+    },
+    {
+      "id": "star_right",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        16,
+        692,
+        58
+      ],
+      "description": "右上方橙黄色星形饼干装饰，中央带白色小爪印，位于另一颗星的右上方。"
+    },
+    {
+      "id": "standing_bear",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        145,
+        386,
+        242
+      ],
+      "description": "第一张照片左下角的棕色坐姿熊贴纸，包含圆耳、白色口鼻和腹部、双脚及绒毛质感，覆盖照片左下边界。"
+    },
+    {
+      "id": "round_bread",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        196,
+        438,
+        238
+      ],
+      "description": "坐姿熊右侧的圆形金黄色菠萝包贴纸，保留表面格纹与立体明暗，覆盖第一张照片下沿。"
+    },
+    {
+      "id": "bow_right",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        235,
+        722,
+        322
+      ],
+      "description": "第二张照片右上角的淡黄色缎带蝴蝶结，包含双侧结环、中央结和向下垂落的带尾，跨越照片上边与右边。"
+    },
+    {
+      "id": "bow_left",
+      "kind": "overlay",
+      "bbox": [
+        278,
+        340,
+        374,
+        408
+      ],
+      "description": "第二张照片左侧的小型淡黄色缎带蝴蝶结，保留结环、带尾与柔和阴影，覆盖照片左边界。"
+    },
+    {
+      "id": "toast_bear",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        406,
+        607,
+        482
+      ],
+      "description": "第二张照片下缘的熊脸吐司贴纸，包含厚实面包侧面、金黄色表面及深色眼鼻，整体跨越照片底边。"
+    },
+    {
+      "id": "korean_label",
+      "kind": "overlay",
+      "bbox": [
+        604,
+        424,
+        718,
+        467
+      ],
+      "description": "吐司右侧的浅黄色圆润云朵形标签，带细边、轻微阴影及小号韩文字样“저 이젠 사랑해요...”，文字和底板整体保留。"
+    },
+    {
+      "id": "coffee_cup",
+      "kind": "overlay",
+      "bbox": [
+        268,
+        507,
+        355,
+        598
+      ],
+      "description": "第三张照片左侧的外带咖啡杯贴纸，包含深棕杯盖、米色杯身、日文印字和熊图案，作为一个完整固定装饰保留。"
+    },
+    {
+      "id": "glasses_bear",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        573,
+        706,
+        686
+      ],
+      "description": "第三张照片右下角的坐姿绒毛熊贴纸，戴深色圆眼镜，身前抱着灰色矩形物件，包含完整耳朵、手脚及附属物，覆盖照片下沿和右沿。"
+    },
+    {
+      "id": "japanese_label",
+      "kind": "overlay",
+      "bbox": [
+        279,
+        692,
+        492,
+        740
+      ],
+      "description": "第四张照片左上方的横向浅黄色手绘气泡标签，带深色不规则描边、白色衬边及阴影，内有“てんてんかいしん”字样，整体作为装饰保留。"
+    },
+    {
+      "id": "bear_face_top",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        778,
+        314,
+        809
+      ],
+      "description": "第四张照片左侧竖排装饰中的第一枚小熊头像贴纸，保留双耳、棕色面部及浅色口鼻。"
+    },
+    {
+      "id": "bear_face_middle",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        818,
+        313,
+        849
+      ],
+      "description": "第四张照片左侧竖排装饰中的第二枚小熊头像贴纸，与上下头像分别独立显示。"
+    },
+    {
+      "id": "bear_face_bottom",
+      "kind": "overlay",
+      "bbox": [
+        259,
+        858,
+        314,
+        889
+      ],
+      "description": "第四张照片左侧竖排装饰中的第三枚小熊头像贴纸，保留完整耳朵及面部轮廓。"
+    },
+    {
+      "id": "lying_bear",
+      "kind": "overlay",
+      "bbox": [
+        466,
+        823,
+        695,
+        922
+      ],
+      "description": "第四张照片右下方横卧的棕色绒毛熊贴纸，头朝左下、身体向右延伸，包含完整耳朵、脸、躯干和四肢，覆盖照片底边并延伸至下方圆点纸带。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "cookies",
+    "star_left",
+    "star_right",
+    "standing_bear",
+    "round_bread",
+    "bow_right",
+    "bow_left",
+    "toast_bear",
+    "korean_label",
+    "coffee_cup",
+    "glasses_bear",
+    "japanese_label",
+    "bear_face_top",
+    "bear_face_middle",
+    "bear_face_bottom",
+    "lying_bear"
+  ]
+}

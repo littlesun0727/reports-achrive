@@ -1,0 +1,181 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的户外牧场照片覆盖全画布，天空、远山、树林、房屋和草地贯通四边。中央一名长发女子背向镜头穿浅色长裙向前走，完整身体可见，中景有多匹吃草的马。上方三张照片、标题及装饰遮挡局部；人物与完整摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        89,
+        123,
+        337,
+        370
+      ],
+      "description": "左上竖向照片，一名长发女子穿浅色泡袖裙，俯身靠近镜头，手托脸，前景有草叶与小花，后方保留绿色山坡、树林和蓝天。完整矩形摄影窗口，顶部局部被圆点胶带覆盖。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        416,
+        173,
+        642,
+        400
+      ],
+      "description": "中上竖向照片，一名长发女子穿浅色泡袖裙坐在草地上，手靠脸侧并抬头望向左上，保留树木、草地与明亮天空。矩形窗口，下方右侧局部被白色爱心装饰覆盖。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        704,
+        53,
+        938,
+        286
+      ],
+      "description": "右上竖向照片，一名浅色长裙女子站在草地中央，低头向前，人物较小，保留广阔蓝天、远山、树木与牧场环境。照片四边清晰，略有倾斜。"
+    },
+    {
+      "id": "title_label",
+      "kind": "overlay",
+      "bbox": [
+        274,
+        39,
+        665,
+        126
+      ],
+      "description": "米白色纤维纹理纸条标题，纸片错叠形成不规则外缘，黑色手写造型字为“那拉提plog”。纸张、叠贴关系与字形整体保留。"
+    },
+    {
+      "id": "dot_tape_left",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        103,
+        141,
+        149
+      ],
+      "description": "斜贴在左侧照片左上边缘的米白色胶带，带深色不规则圆点，保留纸质边缘和全部印花。"
+    },
+    {
+      "id": "dot_tape_right",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        199,
+        751,
+        304
+      ],
+      "description": "右上照片左下方的白色浅灰圆点纸胶带，竖向放置，大部分被照片遮住，左侧窄条和下方末端露出。"
+    },
+    {
+      "id": "brackets_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        195,
+        362,
+        256
+      ],
+      "description": "左侧照片两旁的一对橄榄绿色手绘弧形括号，作为同一局部装饰完整保留。"
+    },
+    {
+      "id": "brackets_center",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        266,
+        667,
+        323
+      ],
+      "description": "中央照片两侧的一对橄榄绿色手绘弧形括号，左右分布在照片边缘外。"
+    },
+    {
+      "id": "brackets_right",
+      "kind": "overlay",
+      "bbox": [
+        677,
+        130,
+        967,
+        189
+      ],
+      "description": "右上照片两侧的一对橄榄绿色手绘弧形括号，完整保留两侧弧线。"
+    },
+    {
+      "id": "heart_decoration",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        357,
+        694,
+        426
+      ],
+      "description": "中央照片右下角的白色爱心装饰组合，包含发光感空心爱心、斜向点阵爱心和细小拖尾线，跨越照片底边。"
+    },
+    {
+      "id": "august_title",
+      "kind": "overlay",
+      "bbox": [
+        584,
+        559,
+        843,
+        605
+      ],
+      "description": "白色大写“AUGUST”艺术字，采用粗衬线字形，笔画具有不规则磨损颗粒，保留原有字形与纹理。"
+    },
+    {
+      "id": "puzzle_decoration",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        552,
+        918,
+        609
+      ],
+      "description": "位于“AUGUST”右侧的绿色拼图块装饰，略微倾斜，带明暗变化与柔和阴影。"
+    },
+    {
+      "id": "butterfly_doodles",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        508,
+        280,
+        676
+      ],
+      "description": "左侧草地上的白色粉笔线涂鸦组合，包含上下错落的两只蝴蝶、弯曲触角、周围的小圆点与闪光符号，整体保留。"
+    },
+    {
+      "id": "clover_doodles",
+      "kind": "overlay",
+      "bbox": [
+        595,
+        731,
+        943,
+        944
+      ],
+      "description": "右下草地上的白色粉笔线涂鸦组合，包含两朵带长茎的四叶草、卷曲线条、圆圈、小圆点及菱形闪光，保留完整疏松布局和颗粒笔触。"
+    }
+  ],
+  "layer_order": [
+    "dot_tape_right",
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "brackets_left",
+    "brackets_center",
+    "brackets_right",
+    "dot_tape_left",
+    "title_label",
+    "heart_decoration",
+    "august_title",
+    "puzzle_decoration",
+    "butterfly_doodles",
+    "clover_doodles"
+  ]
+}

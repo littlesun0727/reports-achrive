@@ -1,0 +1,228 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续摄影底图，展示一位身穿绿色毛衣、白色短裙的女孩在油菜花田中行走的背影。画面包含远处的山脉、天空和近处的花田，整体氛围明亮清新。上层照片遮挡了部分背景，但摄影环境（花田、天空、远山）在画布边缘和间隙处连续可见，构成完整底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        230,
+        12,
+        810,
+        280
+      ],
+      "description": "顶部女孩背影照片，双臂张开，身穿绿色毛衣，背着黄色包，包内插有橙色花束。照片显示区域为矩形，位于画布上部，遮挡了部分背景天空和远山。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        200,
+        300,
+        780,
+        560
+      ],
+      "description": "中部女孩背影照片，双臂张开，身穿绿色毛衣，背着黄色包，包内插有橙色花束。照片显示区域为矩形，位于画布中部，遮挡了部分背景花田。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        280,
+        550,
+        650,
+        980
+      ],
+      "description": "底部女孩背影照片，右手提橙色包，左手拿花束，身穿绿色毛衣，白色短裙。照片显示区域为矩形，位于画布下部，遮挡了部分背景花田。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        20,
+        80,
+        350,
+        220
+      ],
+      "text": "你好，春天\nspring",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        600,
+        280,
+        900,
+        380
+      ],
+      "text": "Sweet heart elves",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        20,
+        550,
+        150,
+        700
+      ],
+      "text": "万事顺遂\n不止春日",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        650,
+        550,
+        850,
+        650
+      ],
+      "text": "浪漫\n春季\nspring",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        850,
+        750,
+        950,
+        900
+      ],
+      "text": "春日物语",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        920,
+        920,
+        980,
+        960
+      ],
+      "text": "小红书",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        750,
+        950,
+        980,
+        970
+      ],
+      "text": "小红书号：6700666030",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_spring",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        40,
+        850,
+        150
+      ],
+      "description": "右上角的“春”字装饰，带有花朵和蝴蝶图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_butterfly_1",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        390,
+        80,
+        410
+      ],
+      "description": "左侧中部的小蝴蝶装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_butterfly_2",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        680,
+        170,
+        700
+      ],
+      "description": "左侧下部的小蝴蝶装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_butterfly_3",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        580,
+        770,
+        600
+      ],
+      "description": "右侧中部的小蝴蝶装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_butterfly_4",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        310,
+        740,
+        330
+      ],
+      "description": "右侧上部的小蝴蝶装饰，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7",
+    "overlay_spring",
+    "overlay_butterfly_1",
+    "overlay_butterfly_2",
+    "overlay_butterfly_3",
+    "overlay_butterfly_4"
+  ]
+}

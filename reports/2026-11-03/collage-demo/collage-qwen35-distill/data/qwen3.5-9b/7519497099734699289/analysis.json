@@ -1,0 +1,560 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续摄影底图，展示城市街道、树木、建筑、天空和地面，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续摄影底图，展示城市街道、树木、建筑、天空和地面，完整显示",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        72,
+        120,
+        360,
+        468
+      ],
+      "description": "左上角照片，展示一条被树木环绕的小巷，天空呈蓝色，有路灯和停放的车辆。照片内叠加有白色文字。",
+      "label": "左上角照片，展示一条被树木环绕的小巷，天空呈蓝色，有路灯和停",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        423,
+        96,
+        792,
+        324
+      ],
+      "description": "右上角照片，展示一条城市街道，有红绿灯、黄色路牌和远处的建筑。照片内叠加有白色文字。",
+      "label": "右上角照片，展示一条城市街道，有红绿灯、黄色路牌和远处的建筑",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        459,
+        360,
+        684,
+        660
+      ],
+      "description": "中间偏右照片，俯拍视角，展示一本打开的书放在绣球花丛中，绿叶和紫色花朵清晰可见。",
+      "label": "中间偏右照片，俯拍视角，展示一本打开的书放在绣球花丛中，绿叶",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        117,
+        516,
+        423,
+        804
+      ],
+      "description": "左侧中间照片，带有胶片边框效果，展示茂密的绿色树叶和蓝天白云，下方可见高架轨道。",
+      "label": "左侧中间照片，带有胶片边框效果，展示茂密的绿色树叶和蓝天白云",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        594,
+        624,
+        810,
+        876
+      ],
+      "description": "右侧中间照片，展示城市天际线，远处有高楼大厦，前景有树木和栏杆。",
+      "label": "右侧中间照片，展示城市天际线，远处有高楼大厦，前景有树木和栏",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        90,
+        852,
+        414,
+        1128
+      ],
+      "description": "左下角照片，展示黑色地面上的粉色花瓣，照片内叠加有白色文字。",
+      "label": "左下角照片，展示黑色地面上的粉色花瓣，照片内叠加有白色文字。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        441,
+        936,
+        765,
+        1140
+      ],
+      "description": "右下角照片，展示一张摆有饮料和食物的桌子，照片内叠加有白色文字。",
+      "label": "右下角照片，展示一张摆有饮料和食物的桌子，照片内叠加有白色文",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        68,
+        114,
+        364,
+        474
+      ],
+      "description": "围绕左上角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "围绕左上角照片的白色矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        418,
+        90,
+        796,
+        330
+      ],
+      "description": "围绕右上角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "围绕右上角照片的白色矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        454,
+        354,
+        688,
+        666
+      ],
+      "description": "围绕中间偏右照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_3"
+      ],
+      "label": "围绕中间偏右照片的白色矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_4",
+      "kind": "frame",
+      "bbox": [
+        112,
+        510,
+        428,
+        810
+      ],
+      "description": "围绕左侧中间照片的黑色胶片边框，位于照片上方。",
+      "photo_id": [
+        "photo_4"
+      ],
+      "label": "围绕左侧中间照片的黑色胶片边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_5",
+      "kind": "frame",
+      "bbox": [
+        590,
+        618,
+        814,
+        882
+      ],
+      "description": "围绕右侧中间照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_5"
+      ],
+      "label": "围绕右侧中间照片的白色矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_6",
+      "kind": "frame",
+      "bbox": [
+        86,
+        846,
+        418,
+        1134
+      ],
+      "description": "围绕左下角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_6"
+      ],
+      "label": "围绕左下角照片的白色矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_7",
+      "kind": "frame",
+      "bbox": [
+        436,
+        930,
+        770,
+        1146
+      ],
+      "description": "围绕右下角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_7"
+      ],
+      "label": "围绕右下角照片的白色矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        24,
+        360,
+        84
+      ],
+      "description": "白色五角星装饰，位于画布顶部中央偏左。",
+      "label": "白色五角星装饰，位于画布顶部中央偏左。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        24,
+        612,
+        84
+      ],
+      "description": "白色五角星装饰，位于画布顶部中央偏右。",
+      "label": "白色五角星装饰，位于画布顶部中央偏右。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        24,
+        846,
+        84
+      ],
+      "description": "白色五角星装饰，位于画布顶部右侧。",
+      "label": "白色五角星装饰，位于画布顶部右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        96,
+        54,
+        156
+      ],
+      "description": "白色五角星装饰，位于画布左侧边缘。",
+      "label": "白色五角星装饰，位于画布左侧边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        288,
+        855,
+        348
+      ],
+      "description": "白色五角星装饰，位于画布右侧中部。",
+      "label": "白色五角星装饰，位于画布右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        420,
+        783,
+        480
+      ],
+      "description": "白色五角星装饰，位于画布右侧中部偏下。",
+      "label": "白色五角星装饰，位于画布右侧中部偏下。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        360,
+        423,
+        420
+      ],
+      "description": "白色五角星装饰，位于画布中部偏上。",
+      "label": "白色五角星装饰，位于画布中部偏上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        513,
+        720,
+        558,
+        780
+      ],
+      "description": "白色五角星装饰，位于画布中部偏下。",
+      "label": "白色五角星装饰，位于画布中部偏下。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_9",
+      "kind": "overlay",
+      "bbox": [
+        423,
+        876,
+        468,
+        936
+      ],
+      "description": "白色五角星装饰，位于画布下部中央。",
+      "label": "白色五角星装饰，位于画布下部中央。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_10",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        804,
+        108,
+        864
+      ],
+      "description": "白色五角星装饰，位于画布左侧中部。",
+      "label": "白色五角星装饰，位于画布左侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_11",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        1056,
+        108,
+        1116
+      ],
+      "description": "白色五角星装饰，位于画布左下角。",
+      "label": "白色五角星装饰，位于画布左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_12",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        1056,
+        810,
+        1116
+      ],
+      "description": "白色五角星装饰，位于画布右下角。",
+      "label": "白色五角星装饰，位于画布右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_13",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        876,
+        675,
+        936
+      ],
+      "description": "白色五角星装饰，位于画布下部右侧。",
+      "label": "白色五角星装饰，位于画布下部右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_14",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        1104,
+        783,
+        1164
+      ],
+      "description": "白色五角星装饰，位于画布右下角。",
+      "label": "白色五角星装饰，位于画布右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_15",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        624,
+        783,
+        684
+      ],
+      "description": "白色皇冠装饰，位于画布右侧中部。",
+      "label": "白色皇冠装饰，位于画布右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_16",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        624,
+        783,
+        684
+      ],
+      "description": "白色心形装饰，位于画布右侧中部。",
+      "label": "白色心形装饰，位于画布右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        90,
+        180,
+        315,
+        300
+      ],
+      "description": "带着潮湿的绿意和清冽的木质香，给闷热的天气带来一丝大口呼吸的凉意。",
+      "label": "带着潮湿的绿意和清冽的木质香，给闷热的天气带来一丝大口呼吸的",
+      "method": "local",
+      "text": "带着潮湿的绿意和清冽的木质香，给闷热的天气带来一丝大口呼吸的凉意。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        450,
+        120,
+        720,
+        216
+      ],
+      "description": "每每到了夏天，我开始抓不住我自己。整个变成一团云，虚无的，没有确切的情绪。像是漫长的犯困，醒不过来。",
+      "label": "每每到了夏天，我开始抓不住我自己。整个变成一团云，虚无的，没",
+      "method": "local",
+      "text": "每每到了夏天，我开始抓不住我自己。整个变成一团云，虚无的，没有确切的情绪。像是漫长的犯困，醒不过来。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        108,
+        984,
+        315,
+        1056
+      ],
+      "description": "出生在夏天的午后，于是总会赋予这个季节特殊的意义。要热烈，要不郁，要拥有旺盛的生命力。",
+      "label": "出生在夏天的午后，于是总会赋予这个季节特殊的意义。要热烈，要",
+      "method": "local",
+      "text": "出生在夏天的午后，于是总会赋予这个季节特殊的意义。要热烈，要不郁，要拥有旺盛的生命力。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        450,
+        960,
+        720,
+        1056
+      ],
+      "description": "“时间好像是不定的。”夏天可以心安理得地浪费时间。穿着人字拖走在街道上，能听见怀里的十个西瓜，盛大辉煌的落日晚霞，产卵力竭的蝉鸣，被衣物覆盖的黏腻反仄，所有一切又真实又真实。",
+      "label": "“时间好像是不定的。”夏天可以心安理得地浪费时间。穿着人字拖",
+      "method": "local",
+      "text": "“时间好像是不定的。”夏天可以心安理得地浪费时间。穿着人字拖走在街道上，能听见怀里的十个西瓜，盛大辉煌的落日晚霞，产卵力竭的蝉鸣，被衣物覆盖的黏腻反仄，所有一切又真实又真实。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "frame_4",
+    "frame_5",
+    "frame_6",
+    "frame_7",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "overlay_9",
+    "overlay_10",
+    "overlay_11",
+    "overlay_12",
+    "overlay_13",
+    "overlay_14",
+    "overlay_15",
+    "overlay_16",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1290,
+    2306
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1290,
+        2306
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        645,
+        1153
+      ],
+      "description": "左上角人物照片，棕色长发，穿着灰色背心，背景为卷帘门，照片边缘有白色柔化效果。",
+      "label": "左上角人物照片，棕色长发，穿着灰色背心，背景为卷帘门，照片边",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        645,
+        0,
+        1290,
+        1153
+      ],
+      "description": "右上角人物照片，棕色长发，手指轻触嘴唇，背景为室内环境，照片边缘有白色柔化效果。",
+      "label": "右上角人物照片，棕色长发，手指轻触嘴唇，背景为室内环境，照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1153,
+        645,
+        2306
+      ],
+      "description": "左下角人物照片，金色短发，穿着绿色上衣，背景为室内环境，照片边缘有白色柔化效果。",
+      "label": "左下角人物照片，金色短发，穿着绿色上衣，背景为室内环境，照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        645,
+        1153,
+        1290,
+        2306
+      ],
+      "description": "右下角人物照片，金色短发，穿着绿色上衣，背景为室内环境，照片边缘有白色柔化效果。",
+      "label": "右下角人物照片，金色短发，穿着绿色上衣，背景为室内环境，照片",
+      "method": "local"
+    },
+    {
+      "id": "overlay_ticket",
+      "kind": "overlay",
+      "bbox": [
+        645,
+        277,
+        1032,
+        507
+      ],
+      "description": "带有'Ticket To Anywhere'字样的票根贴纸，位于右上角照片上方。",
+      "label": "带有'Ticket To Anywhere'字样的票根贴纸，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        903,
+        138,
+        1226,
+        369
+      ],
+      "description": "带有咖啡拉花图案的贴纸，位于右上角照片上方。",
+      "label": "带有咖啡拉花图案的贴纸，位于右上角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        452,
+        0,
+        774,
+        231
+      ],
+      "description": "粉色心形贴纸，位于左上角照片上方。",
+      "label": "粉色心形贴纸，位于左上角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_together",
+      "kind": "text",
+      "bbox": [
+        52,
+        738,
+        516,
+        969
+      ],
+      "description": "together.",
+      "label": "together.",
+      "method": "local",
+      "text": "together.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "photo",
+      "bbox": [
+        194,
+        1845,
+        516,
+        2191
+      ],
+      "description": "橙色猫咪头像贴纸，位于左下角照片下方。",
+      "label": "橙色猫咪头像贴纸，位于左下角照片下方。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_croissant",
+      "kind": "photo",
+      "bbox": [
+        64,
+        1614,
+        322,
+        1845
+      ],
+      "description": "羊角面包贴纸，位于左下角照片下方。",
+      "label": "羊角面包贴纸，位于左下角照片下方。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "photo",
+      "bbox": [
+        1032,
+        1038,
+        1226,
+        1384
+      ],
+      "description": "兔子头像贴纸，位于右下角照片上方。",
+      "label": "兔子头像贴纸，位于右下角照片上方。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_text_hello",
+      "kind": "text",
+      "bbox": [
+        580,
+        1891,
+        838,
+        2029
+      ],
+      "description": "hello",
+      "label": "hello",
+      "method": "local",
+      "text": "hello",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_text_artist",
+      "kind": "text",
+      "bbox": [
+        580,
+        2029,
+        1096,
+        2168
+      ],
+      "description": "I am a artist",
+      "label": "I am a artist",
+      "method": "local",
+      "text": "I am a artist",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_ticket",
+    "overlay_coffee",
+    "overlay_heart",
+    "overlay_text_together",
+    "overlay_cat",
+    "overlay_croissant",
+    "overlay_rabbit",
+    "overlay_text_hello",
+    "overlay_text_artist"
+  ]
+}

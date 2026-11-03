@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-75987724-7f89-9aea-a7c2-868f3df3a847",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7559,
+    "completion_tokens": 640,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1038,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 640
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n\"background\": {\n\"type\": \"photographic\",\n\"id\": \"photo_base\",\n\"description\": \"一张连续的摄影底图，画面为草地、野花和溪流。视角为第一人称俯视，底部可见拍摄者的绿色裤子和黄色上衣边缘，上方有深色阴影（可能是头部或帽子）。该场景延伸至画布四边，作为所有独立照片卡片的背景层。\"\n},\n\"objects\": [\n{\n\"id\": \"frame_top_yellow\",\n\"kind\": \"frame\",\n\"bbox\": [\n260,\n75,\n781,\n320\n],\n\"description\": \"一个黄色的矩形相框，位于画面上方。边框较宽且颜色均匀，内部包含一张风景照片。\",\n\"photo_id\": [\n\"photo_top_content\"\n]\n},\n{\n\"id\": \"photo_top_content\",\n\"kind\": \"photo\",\n\"bbox\": [\n304,\n92,\n681,\n302\n],\n\"description\": \"黄色相框内的照片。画面展示了透过车窗看到的草原日落景色，远处有三匹马在吃草，近处有一双手举着手机正在拍摄这一景象。\"\n},\n{\n\"id\": \"frame_mid_white\",\n\"kind\": \"frame\",\n\"bbox\": [\n263,\n378,\n785,\n622\n],\n\"description\": \"一个白色的矩形相框，位于画面中部。边框上装饰有彩色圆点图案，内部包含一张花卉照片。\",\n\"photo_id\": [\n\"photo_mid_content\"\n]\n},\n{\n\"id\": \"photo_mid_content\",\n\"kind\": \"photo\",\n\"bbox\": [\n309,\n396,\n681,\n604\n],\n\"description\": \"白色相框内的照片。画面展示了一只手举着一个由各色野花编织成的花环，背景是绿色的山坡和天空。\"\n},\n{\n\"id\": \"frame_bottom_purple\",\n\"kind\": \"frame\",\n\"bbox\": [\n263,\n674,\n781, 916\n],\n\"description\": \"一个紫色的矩形相框，位于画面下方。边框较宽且颜色均匀，内部包含一张静物照片。\",\n\"photo_id\": [\n\"photo_bottom_content\"\n]\n},\n{\n\"id\": \"photo_bottom_content\",\n\"kind\": \"photo\",\n\"bbox\": [\n309,\n692,\n683, 898\n],\n\"description\": \"紫色相框内的照片。画面是一个俯视特写，展示了一个编织篮子里装满了成熟的杏子或李子。\"\n}\n],\n\"layer_order\": [\n\"frame_top_yellow\",\n\"photo_top_content\",\n\"frame_mid_white\",\n\"photo_mid_content\",\n\"frame_bottom_purple\",\n\"photo_bottom_content\"\n]\n}",
+  "tool_calls": false
+}

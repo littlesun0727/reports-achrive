@@ -1,0 +1,755 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1247
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1247
+      ],
+      "description": "连续的浅灰色纹理纸底，带有细微的纸张纤维质感。作为整个手账拼贴的底图，在照片、文字和装饰之间的所有缝隙处均可见。",
+      "background_type": "reference_clean",
+      "label": "连续的浅灰色纹理纸底，带有细微的纸张纤维质感。作为整个手账拼",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_yogurt",
+      "kind": "photo",
+      "bbox": [
+        76,
+        150,
+        306,
+        449
+      ],
+      "description": "左上角酸奶与贝果的照片，显示白色酸奶桶、草莓、巧克力酱及盘子上的贝果。",
+      "label": "左上角酸奶与贝果的照片，显示白色酸奶桶、草莓、巧克力酱及盘子",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip_1",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        131,
+        117,
+        175
+      ],
+      "description": "红色回形针贴纸，位于酸奶照片左上角边缘。",
+      "label": "红色回形针贴纸，位于酸奶照片左上角边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_2",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        131,
+        324,
+        175
+      ],
+      "description": "红色回形针贴纸，位于酸奶照片右上角边缘。",
+      "label": "红色回形针贴纸，位于酸奶照片右上角边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "text_yogurt_top",
+      "kind": "text",
+      "bbox": [
+        81,
+        106,
+        405,
+        131
+      ],
+      "description": "好喜欢希腊酸奶的口感 拿来抹贝果好适合",
+      "label": "好喜欢希腊酸奶的口感 拿来抹贝果好适合",
+      "method": "local",
+      "text": "好喜欢希腊酸奶的口感 拿来抹贝果好适合",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_yogurt_side",
+      "kind": "text",
+      "bbox": [
+        324,
+        162,
+        405,
+        212
+      ],
+      "description": "送你一个\n草莓圣代",
+      "label": "送你一个\n草莓圣代",
+      "method": "local",
+      "text": "送你一个\n草莓圣代",
+      "text_status": "known",
+      "style": {
+        "fill": "#1976D2",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "frame_strawberry",
+      "kind": "frame",
+      "bbox": [
+        297,
+        206,
+        405,
+        362
+      ],
+      "description": "青色边框的小照片窗口，内含手持草莓冰淇淋的特写。",
+      "photo_id": [
+        "photo_strawberry"
+      ],
+      "label": "青色边框的小照片窗口，内含手持草莓冰淇淋的特写。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_strawberry",
+      "kind": "photo",
+      "bbox": [
+        302,
+        212,
+        400,
+        355
+      ],
+      "description": "手持草莓冰淇淋特写照片，背景为模糊的室内环境。",
+      "label": "手持草莓冰淇淋特写照片，背景为模糊的室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "text_yogurt_bottom",
+      "kind": "text",
+      "bbox": [
+        324,
+        380,
+        405,
+        436
+      ],
+      "description": "🍓🍓🍓\n希腊酸奶\n抹贝果get!",
+      "label": "🍓🍓🍓\n希腊酸奶\n抹贝果get!",
+      "method": "local",
+      "text": "🍓🍓🍓\n希腊酸奶\n抹贝果get!",
+      "text_status": "known",
+      "style": {
+        "fill": "#1976D2",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_clip_3",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        424,
+        324,
+        461
+      ],
+      "description": "红色回形针贴纸，位于酸奶区域下方。",
+      "label": "红色回形针贴纸，位于酸奶区域下方。",
+      "method": "extract"
+    },
+    {
+      "id": "divider_line",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        50,
+        450,
+        1197
+      ],
+      "description": "垂直黑色手绘箭头线，中间穿插多个椭圆形标签（如“emo贝果集”、“涂手帐”等），将画面分为左右两部分。",
+      "label": "垂直黑色手绘箭头线，中间穿插多个椭圆形标签（如“emo贝果集",
+      "method": "extract"
+    },
+    {
+      "id": "frame_title",
+      "kind": "overlay",
+      "bbox": [
+        504,
+        75,
+        846,
+        249
+      ],
+      "description": "撕边牛皮纸效果的标题底板，上面印有艺术字“独处日记 // EP.01”，四角有粉色胶带固定。",
+      "label": "撕边牛皮纸效果的标题底板，上面印有艺术字“独处日记 // E",
+      "method": "extract"
+    },
+    {
+      "id": "photo_library_mcd",
+      "kind": "photo",
+      "bbox": [
+        459,
+        175,
+        729,
+        374
+      ],
+      "description": "图书馆场景照片，前景为麦当劳咖啡杯，背景为书架和正在吃东西的女生。",
+      "label": "图书馆场景照片，前景为麦当劳咖啡杯，背景为书架和正在吃东西的",
+      "method": "local"
+    },
+    {
+      "id": "text_library_note",
+      "kind": "text",
+      "bbox": [
+        738,
+        293,
+        846,
+        362
+      ],
+      "description": "早上好！又是困\n书馆涂涂手帐的\n一天✏️",
+      "label": "早上好！又是困\n书馆涂涂手帐的\n一天✏️",
+      "method": "local",
+      "text": "早上好！又是困\n书馆涂涂手帐的\n一天✏️",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_comic_intro",
+      "kind": "text",
+      "bbox": [
+        459,
+        405,
+        612,
+        486
+      ],
+      "description": "中午来西西弗拿了几\n本“高木直子”的漫\n画书看了好久…\n拼贴拯救废片！！",
+      "label": "中午来西西弗拿了几\n本“高木直子”的漫\n画书看了好久…\n拼贴",
+      "method": "local",
+      "text": "中午来西西弗拿了几\n本“高木直子”的漫\n画书看了好久…\n拼贴拯救废片！！",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_girl_mask",
+      "kind": "photo",
+      "bbox": [
+        612,
+        405,
+        783,
+        636
+      ],
+      "description": "戴口罩女生坐在书店内的照片，身穿米色卫衣。",
+      "label": "戴口罩女生坐在书店内的照片，身穿米色卫衣。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip_4",
+      "kind": "overlay",
+      "bbox": [
+        603,
+        399,
+        630,
+        436
+      ],
+      "description": "蓝色回形针贴纸，位于女生照片左上角。",
+      "label": "蓝色回形针贴纸，位于女生照片左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_5",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        399,
+        792,
+        436
+      ],
+      "description": "蓝色回形针贴纸，位于女生照片右上角。",
+      "label": "蓝色回形针贴纸，位于女生照片右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_book_open",
+      "kind": "photo",
+      "bbox": [
+        459,
+        511,
+        612,
+        723
+      ],
+      "description": "打开的漫画书内页照片，一只手按在书页上。",
+      "label": "打开的漫画书内页照片，一只手按在书页上。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip_6",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        499,
+        477,
+        536
+      ],
+      "description": "蓝色回形针贴纸，位于漫画书照片左侧。",
+      "label": "蓝色回形针贴纸，位于漫画书照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_7",
+      "kind": "overlay",
+      "bbox": [
+        594,
+        611,
+        621,
+        648
+      ],
+      "description": "蓝色回形针贴纸，位于漫画书照片右下角。",
+      "label": "蓝色回形针贴纸，位于漫画书照片右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "text_comic_style",
+      "kind": "text",
+      "bbox": [
+        612,
+        648,
+        702,
+        748
+      ],
+      "description": "好治愈的画\n风，居然到\n现在才知道\n学生时代看\n应该会非常着迷",
+      "label": "好治愈的画\n风，居然到\n现在才知道\n学生时代看\n应该会非常着",
+      "method": "local",
+      "text": "好治愈的画\n风，居然到\n现在才知道\n学生时代看\n应该会非常着迷",
+      "text_status": "known",
+      "style": {
+        "fill": "#1976D2",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_comic_cover",
+      "kind": "photo",
+      "bbox": [
+        702,
+        624,
+        846,
+        773
+      ],
+      "description": "两本高木直子漫画书的封面展示，色彩鲜艳。",
+      "label": "两本高木直子漫画书的封面展示，色彩鲜艳。",
+      "method": "local"
+    },
+    {
+      "id": "photo_walking_back",
+      "kind": "photo",
+      "bbox": [
+        45,
+        399,
+        162,
+        711
+      ],
+      "description": "背影行走照，女生背着包走在街上。",
+      "label": "背影行走照，女生背着包走在街上。",
+      "method": "local"
+    },
+    {
+      "id": "text_corner",
+      "kind": "text",
+      "bbox": [
+        180,
+        499,
+        252,
+        561
+      ],
+      "description": "来自老老\n的小角落",
+      "label": "来自老老\n的小角落",
+      "method": "local",
+      "text": "来自老老\n的小角落",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_girl_mirror",
+      "kind": "photo",
+      "bbox": [
+        261,
+        486,
+        405,
+        686
+      ],
+      "description": "对镜自拍全身照，女生穿棕色卫衣。",
+      "label": "对镜自拍全身照，女生穿棕色卫衣。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_circle_1",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        474,
+        360,
+        511
+      ],
+      "description": "青色圆形贴纸，位于对镜自拍照片上方。",
+      "label": "青色圆形贴纸，位于对镜自拍照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_library_find",
+      "kind": "text",
+      "bbox": [
+        153,
+        574,
+        252,
+        661
+      ],
+      "description": "在图书馆找高木\n直子还发现了\n丁一晨的漫画\n时代的眼泪😭",
+      "label": "在图书馆找高木\n直子还发现了\n丁一晨的漫画\n时代的眼泪😭",
+      "method": "local",
+      "text": "在图书馆找高木\n直子还发现了\n丁一晨的漫画\n时代的眼泪😭",
+      "text_status": "known",
+      "style": {
+        "fill": "#1976D2",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_books_floor",
+      "kind": "photo",
+      "bbox": [
+        45,
+        698,
+        252,
+        848
+      ],
+      "description": "放在地毯上的几本漫画书封面特写。",
+      "label": "放在地毯上的几本漫画书封面特写。",
+      "method": "local"
+    },
+    {
+      "id": "text_books_comment",
+      "kind": "text",
+      "bbox": [
+        18,
+        736,
+        90,
+        798
+      ],
+      "description": "现在看还是很\n有意思！\n当时超爱读徐\n画这个小八…",
+      "label": "现在看还是很\n有意思！\n当时超爱读徐\n画这个小八…",
+      "method": "local",
+      "text": "现在看还是很\n有意思！\n当时超爱读徐\n画这个小八…",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_book_page",
+      "kind": "photo",
+      "bbox": [
+        252,
+        698,
+        405,
+        873
+      ],
+      "description": "翻开的漫画内页，展示了多格彩色插画。",
+      "label": "翻开的漫画内页，展示了多格彩色插画。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip_8",
+      "kind": "overlay",
+      "bbox": [
+        243,
+        686,
+        270,
+        723
+      ],
+      "description": "蓝色回形针贴纸，位于漫画内页照片左上角。",
+      "label": "蓝色回形针贴纸，位于漫画内页照片左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_9",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        848,
+        405,
+        885
+      ],
+      "description": "蓝色回形针贴纸，位于漫画内页照片右下角。",
+      "label": "蓝色回形针贴纸，位于漫画内页照片右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_ramen",
+      "kind": "frame",
+      "bbox": [
+        459,
+        723,
+        612,
+        873
+      ],
+      "description": "青色粗边框的照片窗口，内含拉面特写。",
+      "photo_id": [
+        "photo_ramen_closeup"
+      ],
+      "label": "青色粗边框的照片窗口，内含拉面特写。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_ramen_closeup",
+      "kind": "photo",
+      "bbox": [
+        464,
+        729,
+        608,
+        867
+      ],
+      "description": "日式拉面特写，筷子夹起叉烧肉。",
+      "label": "日式拉面特写，筷子夹起叉烧肉。",
+      "method": "local"
+    },
+    {
+      "id": "text_ramen_label",
+      "kind": "text",
+      "bbox": [
+        612,
+        786,
+        846,
+        823
+      ],
+      "description": "汤头超级超级浓郁的拉面🍜",
+      "label": "汤头超级超级浓郁的拉面🍜",
+      "method": "local",
+      "text": "汤头超级超级浓郁的拉面🍜",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_circle_2",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        811,
+        738,
+        848
+      ],
+      "description": "青色圆形贴纸，位于拉面标签下方。",
+      "label": "青色圆形贴纸，位于拉面标签下方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_restaurant_interior",
+      "kind": "photo",
+      "bbox": [
+        459,
+        860,
+        630,
+        1072
+      ],
+      "description": "餐厅内部环境照，墙上贴满海报，顾客正在用餐。",
+      "label": "餐厅内部环境照，墙上贴满海报，顾客正在用餐。",
+      "method": "local"
+    },
+    {
+      "id": "photo_food_table",
+      "kind": "photo",
+      "bbox": [
+        630,
+        823,
+        810,
+        1072
+      ],
+      "description": "餐桌俯拍视角，展示了拉面、小菜和饮料。",
+      "label": "餐桌俯拍视角，展示了拉面、小菜和饮料。",
+      "method": "local"
+    },
+    {
+      "id": "text_restaurant_desc",
+      "kind": "text",
+      "bbox": [
+        459,
+        1085,
+        810,
+        1135
+      ],
+      "description": "一家需要提前预约的日式拉面店，店里一共就\n五六个位置…老板一个人兼顾厨师、前台and\n打扫✅忙忙碌碌又忙中有序",
+      "label": "一家需要提前预约的日式拉面店，店里一共就\n五六个位置…老板一",
+      "method": "local",
+      "text": "一家需要提前预约的日式拉面店，店里一共就\n五六个位置…老板一个人兼顾厨师、前台and\n打扫✅忙忙碌碌又忙中有序",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "frame_polaroid_tree",
+      "kind": "frame",
+      "bbox": [
+        171,
+        898,
+        405,
+        1160
+      ],
+      "description": "粉色宽边框的拍立得相纸样式，底部留白较多。",
+      "photo_id": [
+        "photo_cherry_blossom"
+      ],
+      "label": "粉色宽边框的拍立得相纸样式，底部留白较多。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cherry_blossom",
+      "kind": "photo",
+      "bbox": [
+        180,
+        910,
+        396,
+        1122
+      ],
+      "description": "盛开的樱花树照片，蓝天背景。",
+      "label": "盛开的樱花树照片，蓝天背景。",
+      "method": "local"
+    },
+    {
+      "id": "text_tree_caption",
+      "kind": "text",
+      "bbox": [
+        198,
+        1135,
+        315,
+        1153
+      ],
+      "description": "四季如春in广东…",
+      "label": "四季如春in广东…",
+      "method": "local",
+      "text": "四季如春in广东…",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_season_change",
+      "kind": "text",
+      "bbox": [
+        45,
+        948,
+        162,
+        1072
+      ],
+      "description": "2024最大的变化\n大概就是相册里\n多了很多这种小景色。\n即便在自己很熟悉\n的环境下也能发现\n美的瞬间。",
+      "label": "2024最大的变化\n大概就是相册里\n多了很多这种小景色。\n即",
+      "method": "local",
+      "text": "2024最大的变化\n大概就是相册里\n多了很多这种小景色。\n即便在自己很熟悉\n的环境下也能发现\n美的瞬间。",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_yogurt",
+    "overlay_clip_1",
+    "overlay_clip_2",
+    "text_yogurt_top",
+    "text_yogurt_side",
+    "photo_strawberry",
+    "frame_strawberry",
+    "text_yogurt_bottom",
+    "overlay_clip_3",
+    "divider_line",
+    "frame_title",
+    "photo_library_mcd",
+    "text_library_note",
+    "text_comic_intro",
+    "photo_girl_mask",
+    "overlay_clip_4",
+    "overlay_clip_5",
+    "photo_book_open",
+    "overlay_clip_6",
+    "overlay_clip_7",
+    "text_comic_style",
+    "photo_comic_cover",
+    "photo_walking_back",
+    "text_corner",
+    "photo_girl_mirror",
+    "overlay_circle_1",
+    "text_library_find",
+    "photo_books_floor",
+    "text_books_comment",
+    "photo_book_page",
+    "overlay_clip_8",
+    "overlay_clip_9",
+    "photo_ramen_closeup",
+    "frame_ramen",
+    "text_ramen_label",
+    "overlay_circle_2",
+    "photo_restaurant_interior",
+    "photo_food_table",
+    "text_restaurant_desc",
+    "photo_cherry_blossom",
+    "frame_polaroid_tree",
+    "text_tree_caption",
+    "text_season_change"
+  ]
+}

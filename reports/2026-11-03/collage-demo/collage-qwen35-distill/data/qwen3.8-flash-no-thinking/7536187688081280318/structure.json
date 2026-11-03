@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布为带有密集水珠纹理的浅蓝色底图，模拟雨天玻璃或湿润表面的视觉效果。该固定设计单元覆盖整个画面，作为所有照片和装饰元素的背景层。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        125,
+        164,
+        560,
+        558
+      ],
+      "description": "竖向矩形照片，显示一名女子躺在草地上，手持一朵粉色小花靠近脸部，背景为树林。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        337,
+        600,
+        970,
+        880
+      ],
+      "description": "横向矩形照片，显示黄昏时分的海滩风景，远处有房屋和棕榈树剪影，近处有人群坐在沙滩上。"
+    },
+    {
+      "id": "overlay_flower_red",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        420,
+        335,
+        685
+      ],
+      "description": "红色百合花贴纸，带有白色手绘轮廓描边，位于左侧中部，部分遮挡上方照片的左下角。"
+    },
+    {
+      "id": "overlay_flowers_purple_cluster",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        145,
+        995,
+        595
+      ],
+      "description": "右侧的一组紫色花朵装饰，包含多朵半透明质感的紫色花卉，散布在背景上。"
+    },
+    {
+      "id": "overlay_flower_purple_single",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        745,
+        245,
+        855
+      ],
+      "description": "左下方的一朵独立紫色花朵装饰，风格与右侧花簇一致。"
+    },
+    {
+      "id": "text_charen",
+      "kind": "text",
+      "bbox": [
+        430,
+        30,
+        550,
+        45
+      ],
+      "text": "CHAREN",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_text_calling",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        440,
+        920,
+        520
+      ],
+      "description": "白色手写体艺术字“CALLING”，具有粗糙笔触效果，位于右侧中部。"
+    },
+    {
+      "id": "overlay_smiley",
+      "kind": "overlay",
+      "bbox": [
+        255,
+        820,
+        405,
+        920
+      ],
+      "description": "白色线条勾勒的笑脸图案，位于底部中间偏左位置。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_bottom_right",
+    "overlay_flowers_purple_cluster",
+    "overlay_flower_purple_single",
+    "overlay_flower_red",
+    "overlay_text_calling",
+    "overlay_smiley",
+    "text_charen"
+  ]
+}

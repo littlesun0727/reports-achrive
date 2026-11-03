@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-50201ee3-6265-9136-9ad8-97d89f5ae842",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7604,
+    "completion_tokens": 657,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 657
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"background\": {\"type\": \"photographic\", \"id\": \"photo_base\", \"description\": \"一张连续的摄影底图，画面主体为一名扎着丸子头、身穿白色水钻图案背心的年轻女子站在室内白墙前。左侧可见窗框边缘，光线柔和明亮。该照片覆盖整个画布，作为所有装饰元素的背景层。\"}, \"objects\": [{\"id\": \"overlay_cloud_frame\", \"kind\": \"overlay\", \"bbox\": [85, 76, 440, 310], \"description\": \"手绘风格的黑色云朵轮廓线，位于左上角，线条呈波浪状，内部包含一个思考气泡的小尾巴指向下方。\"}, {\"id\": \"photo_inset_face\", \"kind\": \"photo\", \"bbox\": [190, 85, 320, 265], \"description\": \"位于云朵轮廓内的圆形人物面部特写照片，显示同一位女子做出搞怪表情的样子，边缘有羽化效果融入背景。\"}, {\"id\": \"overlay_sticker_rabbit_top\", \"kind\": \"overlay\", \"bbox\": [745, 120, 930, 260], \"description\": \"右上角的方形贴纸，白色底色，印有棕色线条勾勒的卡通兔子头像，表情俏皮，带有星星装饰。\"}, {\"id\": \"overlay_heart_left_mid\", \"kind\": \"overlay\", \"bbox\": [185, 375, 240, 425], \"description\": \"粉色手绘爱心图案，带有黑色描边，位于云朵下方偏左位置。\"}, {\"id\": \"overlay_heart_right_mid\", \"kind\": \"overlay\", \"bbox\": [830, 375, 895, 435], \"description\": \"粉色手绘爱心图案，带有黑色描边，位于右侧中部空白处。\"}, {\"id\": \"overlay_heart_left_low\", \"kind\": \"overlay\", \"bbox\": [125, 640, 185, 690], \"description\": \"粉色手绘爱心图案，带有黑色描边，位于左侧较低位置。\"}, {\"id\": \"overlay_sticker_rabbit_bottom\", \"kind\": \"overlay\", \"bbox\": [75, 810, 255, 950], \"description\": \"左下角的方形贴纸，白色底色，印有棕色线条勾勒的卡通兔子全身像，周围环绕小爱心和放射线装饰。\"}, {\"id\": \"overlay_heart_right_low\", \"kind\": \"overlay\", \"bbox\": [800, 880, 845, 925], \"description\": \"粉色手绘爱心图案，带有黑色描边，位于右下角较小尺寸。\"}], \"layer_order\": [\"overlay_cloud_frame\", \"photo_inset_face\", \"overlay_sticker_rabbit_top\", \"overlay_heart_left_mid\", \"overlay_heart_right_mid\", \"overlay_heart_left_low\", \"overlay_sticker_rabbit_bottom\", \"overlay_heart_right_low\"]}",
+  "tool_calls": false
+}

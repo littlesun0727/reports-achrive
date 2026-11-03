@@ -1,0 +1,190 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝天与绿色树林构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留天空与树木的连续性及被遮挡关系。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        183,
+        133,
+        829,
+        469
+      ],
+      "description": "竖向照片，展示人物在草地上的场景，包含天空、草地、树木和远处的山，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        179,
+        532,
+        838,
+        864
+      ],
+      "description": "竖向照片，展示车辆前部的场景，包含车辆、天空和树木，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        183,
+        133,
+        829,
+        469
+      ],
+      "description": "围绕上方照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        179,
+        532,
+        838,
+        864
+      ],
+      "description": "围绕下方照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        196,
+        91,
+        231,
+        111
+      ],
+      "text": "No.1",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        411,
+        481,
+        589,
+        511
+      ],
+      "text": "百分百做自己",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        719,
+        891,
+        819,
+        914
+      ],
+      "text": "Happy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        261,
+        229,
+        356
+      ],
+      "description": "白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        36,
+        749,
+        108
+      ],
+      "description": "白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        703,
+        471,
+        771,
+        526
+      ],
+      "description": "白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        643,
+        133,
+        725
+      ],
+      "description": "白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        447,
+        888,
+        549,
+        973
+      ],
+      "description": "白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        666,
+        956,
+        729
+      ],
+      "description": "白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "photo_bottom",
+    "frame_bottom",
+    "text_1",
+    "text_2",
+    "text_3",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6"
+  ]
+}

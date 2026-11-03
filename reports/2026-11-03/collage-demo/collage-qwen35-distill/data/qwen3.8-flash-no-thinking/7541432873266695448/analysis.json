@@ -1,0 +1,345 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影底图，画面为透过汽车挡风玻璃向外拍摄的街景。前景可见黑色的仪表台、中控屏幕以及右侧的后视镜支架；背景是模糊的树木和街道建筑。上层拼贴的照片和装饰遮挡了局部环境，但底图范围延伸至画布四边。",
+      "background_type": "photo",
+      "label": "一张连续的摄影底图，画面为透过汽车挡风玻璃向外拍摄的街景。前",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_sparkle_top",
+      "kind": "overlay",
+      "bbox": [
+        256,
+        43,
+        351,
+        137
+      ],
+      "description": "位于顶部中央偏左的白色手绘爆炸星形图案，带有短线条装饰。",
+      "label": "位于顶部中央偏左的白色手绘爆炸星形图案，带有短线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_my_life",
+      "kind": "text",
+      "bbox": [
+        87,
+        170,
+        302,
+        223
+      ],
+      "description": "MY LIFE",
+      "label": "MY LIFE",
+      "method": "local",
+      "text": "MY LIFE",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_music_notes",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        137,
+        796,
+        223
+      ],
+      "description": "右上角的白色手绘音符图案，包含两个八分音符和圆点装饰。",
+      "label": "右上角的白色手绘音符图案，包含两个八分音符和圆点装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_face_right",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        230,
+        778,
+        360
+      ],
+      "description": "右侧中部的白色简笔画人脸轮廓，戴着耳机。",
+      "label": "右侧中部的白色简笔画人脸轮廓，戴着耳机。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bracket_left",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        241,
+        297,
+        461
+      ],
+      "description": "左侧照片周围的白色手绘直角取景框标记。",
+      "label": "左侧照片周围的白色手绘直角取景框标记。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_croissant",
+      "kind": "photo",
+      "bbox": [
+        76,
+        259,
+        288,
+        454
+      ],
+      "description": "左上方的矩形照片，显示放在木托盘上的牛角包和果酱，背景有格纹桌布。",
+      "label": "左上方的矩形照片，显示放在木托盘上的牛角包和果酱，背景有格纹",
+      "method": "local"
+    },
+    {
+      "id": "frame_drinks",
+      "kind": "frame",
+      "bbox": [
+        315,
+        115,
+        621,
+        349
+      ],
+      "description": "顶部中央照片的白色手绘边框，顶部带有螺旋线圈装订样式的设计。",
+      "photo_id": [
+        "photo_drinks"
+      ],
+      "label": "顶部中央照片的白色手绘边框，顶部带有螺旋线圈装订样式的设计。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        324,
+        130,
+        612,
+        342
+      ],
+      "description": "顶部中央的照片，展示两杯精致的饮品，一杯粉色带奶油顶，一杯橙色带青柠片，放置在银色托盘上。",
+      "label": "顶部中央的照片，展示两杯精致的饮品，一杯粉色带奶油顶，一杯橙",
+      "method": "local"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        468,
+        176,
+        612
+      ],
+      "description": "左侧中部的三个白色水滴状手绘图案。",
+      "label": "左侧中部的三个白色水滴状手绘图案。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        207,
+        342,
+        576,
+        810
+      ],
+      "description": "画面中央的大幅竖构图照片，一位长发年轻女性手持一个戴厨师帽的小狗玩偶，背景为室内餐厅环境。",
+      "label": "画面中央的大幅竖构图照片，一位长发年轻女性手持一个戴厨师帽的",
+      "method": "local"
+    },
+    {
+      "id": "tape_pasta",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        360,
+        788,
+        432
+      ],
+      "description": "右上方粘贴在照片边缘的一小段白色胶带装饰。",
+      "label": "右上方粘贴在照片边缘的一小段白色胶带装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_pasta",
+      "kind": "photo",
+      "bbox": [
+        572,
+        385,
+        774,
+        655
+      ],
+      "description": "右侧中部的矩形照片，展示一份盛在白盘中的深色意面或甜点，配有冰淇淋球。",
+      "label": "右侧中部的矩形照片，展示一份盛在白盘中的深色意面或甜点，配有",
+      "method": "local"
+    },
+    {
+      "id": "overlay_icons_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        594,
+        655,
+        752,
+        684
+      ],
+      "description": "右侧中部的一排白色小图标，包括星星、爱心、笑脸等符号。",
+      "label": "右侧中部的一排白色小图标，包括星星、爱心、笑脸等符号。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_fried_chicken",
+      "kind": "frame",
+      "bbox": [
+        40,
+        727,
+        338,
+        943
+      ],
+      "description": "左下方照片的白色细线边框。",
+      "photo_id": [
+        "photo_fried_chicken"
+      ],
+      "label": "左下方照片的白色细线边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_fried_chicken",
+      "kind": "photo",
+      "bbox": [
+        50,
+        734,
+        328,
+        936
+      ],
+      "description": "左下方的照片，一只手拿着装有炸鸡块的纸袋，纸袋上有卡通人物插画和文字。",
+      "label": "左下方的照片，一只手拿着装有炸鸡块的纸袋，纸袋上有卡通人物插",
+      "method": "local"
+    },
+    {
+      "id": "photo_teddy",
+      "kind": "photo",
+      "bbox": [
+        576,
+        677,
+        814,
+        871
+      ],
+      "description": "右下方的照片，一只棕色泰迪熊玩偶趴在灰色的床单或沙发上。",
+      "label": "右下方的照片，一只棕色泰迪熊玩偶趴在灰色的床单或沙发上。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_icons_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        871,
+        846,
+        900
+      ],
+      "description": "右下角的一排白色小图标，包括星星、爱心、笑脸等符号。",
+      "label": "右下角的一排白色小图标，包括星星、爱心、笑脸等符号。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ellipse_frame",
+      "kind": "overlay",
+      "bbox": [
+        356,
+        720,
+        702,
+        1159
+      ],
+      "description": "底部中央的一个大椭圆形区域，内部填充浅灰色纹理，边缘环绕着白色虚线。",
+      "label": "底部中央的一个大椭圆形区域，内部填充浅灰色纹理，边缘环绕着白",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottles",
+      "kind": "photo",
+      "bbox": [
+        414,
+        882,
+        662,
+        1105
+      ],
+      "description": "位于椭圆区域内的照片，展示了三瓶不同颜色的饮料（粉、紫、蓝），瓶身印有My Melody等卡通形象。",
+      "label": "位于椭圆区域内的照片，展示了三瓶不同颜色的饮料（粉、紫、蓝）",
+      "method": "local"
+    },
+    {
+      "id": "overlay_trees",
+      "kind": "overlay",
+      "bbox": [
+        212,
+        961,
+        360,
+        1069
+      ],
+      "description": "左下角的两棵白色简笔画小树图案。",
+      "label": "左下角的两棵白色简笔画小树图案。",
+      "method": "extract"
+    },
+    {
+      "id": "text_cozy_day",
+      "kind": "text",
+      "bbox": [
+        652,
+        1008,
+        765,
+        1105
+      ],
+      "description": "COZY\nDAY",
+      "label": "COZY\nDAY",
+      "method": "local",
+      "text": "COZY\nDAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_sparkle_top",
+    "text_my_life",
+    "overlay_music_notes",
+    "overlay_face_right",
+    "overlay_bracket_left",
+    "photo_croissant",
+    "photo_drinks",
+    "frame_drinks",
+    "overlay_drops",
+    "photo_girl",
+    "photo_pasta",
+    "tape_pasta",
+    "overlay_icons_mid_right",
+    "photo_fried_chicken",
+    "frame_fried_chicken",
+    "photo_teddy",
+    "overlay_icons_bottom_right",
+    "overlay_ellipse_frame",
+    "photo_bottles",
+    "overlay_trees",
+    "text_cozy_day"
+  ]
+}

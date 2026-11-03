@@ -1,0 +1,161 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内生活场景的摄影底图，包含模糊的桌面、背景中的窗户与城市夜景、前景的手部等连续环境；上层心形与星形照片及装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        100,
+        120,
+        380,
+        420
+      ],
+      "text": "我从此感到幸福\n轻易 松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬芳淡淡的 却萦绕不去\n我的幸福\n只需要我伸出于享心",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        420,
+        100,
+        780,
+        450
+      ],
+      "description": "心形窗口内的人物照片，人物戴着猫耳帽，趴在白色手提包上，背景为室内与窗外夜景，保留摄影环境。"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        410,
+        90,
+        790,
+        460
+      ],
+      "description": "围绕心形照片的白色手绘描边框，覆盖照片边缘并位于照片上方，完整心形作为一个框体保留。",
+      "photo_id": [
+        "photo_heart"
+      ]
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        100,
+        500,
+        450,
+        850
+      ],
+      "description": "星形窗口内的桌面照片，包含平板、蛋糕、盘子和玩偶，保留照片内的摄影环境，显示区域为星形。"
+    },
+    {
+      "id": "frame_star",
+      "kind": "frame",
+      "bbox": [
+        90,
+        490,
+        460,
+        860
+      ],
+      "description": "围绕星形照片的白色手绘描边框，覆盖照片边缘并位于照片上方，完整星形作为一个框体保留。",
+      "photo_id": [
+        "photo_star"
+      ]
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        550,
+        520,
+        850,
+        850
+      ],
+      "text": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_decor_1",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        20,
+        900,
+        100
+      ],
+      "description": "右上角的白色手绘装饰符号，包含星星、音符、月亮、爱心和花朵，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_decor_2",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        350,
+        850,
+        420
+      ],
+      "description": "心形照片右下方的白色手绘兔子耳朵和表情符号，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_decor_3",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        480,
+        500,
+        520
+      ],
+      "description": "星形照片上方的白色手绘蝴蝶结，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_decor_4",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        480,
+        200,
+        550
+      ],
+      "description": "星形照片左侧的白色手绘星星和闪光装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_decor_5",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        880,
+        300,
+        920
+      ],
+      "description": "底部的白色手绘星星装饰，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "text_1",
+    "photo_heart",
+    "frame_heart",
+    "overlay_decor_1",
+    "overlay_decor_2",
+    "photo_star",
+    "frame_star",
+    "overlay_decor_3",
+    "overlay_decor_4",
+    "text_2",
+    "overlay_decor_5"
+  ]
+}

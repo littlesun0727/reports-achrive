@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        315
+      ],
+      "description": "顶部照片，展示铺满落叶的湿润沥青路面，画面包含黄色树叶和积水反光。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        315,
+        1000,
+        705
+      ],
+      "description": "中部照片，一名年轻女子手持椰子站在绿色庭院背景前，身穿白色T恤和牛仔裤。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        62,
+        510,
+        930,
+        585
+      ],
+      "text": "In those days even the wind\nfelt free in summer",
+      "color": "#FF00FF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        705,
+        1000,
+        1000
+      ],
+      "description": "底部照片，展示绚丽的橙红色晚霞天空，云层丰富，下方有路灯杆剪影。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "text_1",
+    "photo_bottom"
+  ]
+}

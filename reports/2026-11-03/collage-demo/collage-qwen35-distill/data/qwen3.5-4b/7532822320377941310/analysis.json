@@ -1,0 +1,177 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1202
+  ],
+  "objects": [
+    {
+      "id": "polka_dot_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1202
+      ],
+      "description": "粉色底面带有白色波点图案的固定设计单元，覆盖全画布，作为拼贴画的基础背景。",
+      "background_type": "reference_clean",
+      "label": "粉色底面带有白色波点图案的固定设计单元，覆盖全画布，作为拼贴",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        92,
+        188,
+        614,
+        599
+      ],
+      "description": "上方人物半身照片，人物佩戴项链和耳机，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方人物半身照片，人物佩戴项链和耳机，保留照片内的摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        310,
+        680,
+        839,
+        1067
+      ],
+      "description": "下方人物近景照片，人物手指轻触下巴，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "下方人物近景照片，人物手指轻触下巴，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        50,
+        171,
+        626,
+        615
+      ],
+      "description": "围绕上方照片的黑色波点边框，带有白色珍珠装饰，位于照片上方。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕上方照片的黑色波点边框，带有白色珍珠装饰，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        284,
+        664,
+        843,
+        1096
+      ],
+      "description": "围绕下方照片的黑色波点边框，带有粉色蝴蝶结和白色珍珠装饰，位于照片上方。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕下方照片的黑色波点边框，带有粉色蝴蝶结和白色珍珠装饰，位",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lamb",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        445,
+        248,
+        639
+      ],
+      "description": "白色毛绒小羊装饰，带有蓝色蝴蝶结，位于上方照片左侧。",
+      "label": "白色毛绒小羊装饰，带有蓝色蝴蝶结，位于上方照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        591,
+        884,
+        801
+      ],
+      "description": "白色毛绒小熊装饰，带有粉色蝴蝶结，位于下方照片右侧。",
+      "label": "白色毛绒小熊装饰，带有粉色蝴蝶结，位于下方照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        189,
+        993,
+        508,
+        1108
+      ],
+      "description": "白色天使翅膀装饰，位于下方照片下方。",
+      "label": "白色天使翅膀装饰，位于下方照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        186,
+        760,
+        389,
+        801
+      ],
+      "description": "I am a princess",
+      "label": "I am a princess",
+      "method": "local",
+      "text": "I am a princess",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        61,
+        815,
+        389,
+        856
+      ],
+      "description": "But you're not my prince",
+      "label": "But you're not my prince",
+      "method": "local",
+      "text": "But you're not my prince",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "polka_dot_base",
+    "photo_top",
+    "frame_top",
+    "overlay_lamb",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_bear",
+    "overlay_wings",
+    "text_1",
+    "text_2"
+  ]
+}

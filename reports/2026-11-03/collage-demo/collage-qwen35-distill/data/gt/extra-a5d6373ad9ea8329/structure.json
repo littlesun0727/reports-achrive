@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        402
+      ],
+      "description": "上部蓝青色喀斯特山水照片，无人物，左右高耸山壁夹着中央层叠远峰，顶部保留阴云天空，下方可见树林与山间雾气。摄影环境完整保留，下缘与中部人像照片柔和交叠，具体边界被融合遮蔽，不扩展为全画布底图。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        308,
+        1000,
+        762
+      ],
+      "description": "中部单人临水半身照片，女子穿白色长袖衣服、戴蓝色长耳饰，面向镜头，左臂伸至画布左侧外，右手放在胸前。保留身后的树林、河岸、游船、灯光和前方水面，不是仅沿人物轮廓显示。上部环境与山景柔和融合，下部衣服及水面逐渐被下方山水照片覆盖，未见独立主体描边。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        0,
+        665,
+        1000,
+        1000
+      ],
+      "description": "下部独立山水照片，无人物，左下有近岸树林及孤立石峰，中央为雾中的层叠山体，右侧树岸伸入，底部为平静河面。保留全部摄影环境；上缘山峰与中部女子衣服、水面透明柔和交叠，山体在此重新起始，与上部山景不是连续取景。"
+    },
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        859,
+        927,
+        969,
+        957
+      ],
+      "description": "右下角白色圆角胶囊形小红书标识，深色特定字形与白色底板作为完整水印装饰保留。"
+    },
+    {
+      "id": "text_account",
+      "kind": "text",
+      "bbox": [
+        726,
+        967,
+        966,
+        981
+      ],
+      "text": "小红书号：49321651677",
+      "color": "#E2E6E8",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_portrait",
+    "photo_lower",
+    "overlay_logo",
+    "text_account"
+  ]
+}

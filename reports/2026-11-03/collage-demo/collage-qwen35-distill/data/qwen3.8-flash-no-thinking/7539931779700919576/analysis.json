@@ -1,0 +1,269 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1201
+  ],
+  "objects": [
+    {
+      "id": "bg_dark_room",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1201
+      ],
+      "description": "昏暗的室内场景，包含深色地面、墙壁及顶部光源。作为全画布底图，承载前景人物与背景胶片墙，提供整体空间氛围。",
+      "background_type": "photo",
+      "label": "昏暗的室内场景，包含深色地面、墙壁及顶部光源。作为全画布底图",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_wall_top",
+      "kind": "frame",
+      "bbox": [
+        0,
+        42,
+        900,
+        432
+      ],
+      "description": "位于上方的一排倾斜胶片框，具有黑色边框和白色齿孔，内部包含多个游戏场景画面窗口。",
+      "photo_id": [
+        "photo_scene_1",
+        "photo_scene_2",
+        "photo_scene_3",
+        "photo_scene_4"
+      ],
+      "label": "位于上方的一排倾斜胶片框，具有黑色边框和白色齿孔，内部包含多",
+      "method": "extract"
+    },
+    {
+      "id": "photo_scene_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        222,
+        86,
+        420
+      ],
+      "description": "左侧第一个窗口，显示一个身穿黑斗篷的游戏角色背影。",
+      "label": "左侧第一个窗口，显示一个身穿黑斗篷的游戏角色背影。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_2",
+      "kind": "photo",
+      "bbox": [
+        86,
+        162,
+        320,
+        414
+      ],
+      "description": "左侧第二个窗口，显示两个游戏角色在草地上的场景。",
+      "label": "左侧第二个窗口，显示两个游戏角色在草地上的场景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_3",
+      "kind": "photo",
+      "bbox": [
+        320,
+        90,
+        648,
+        390
+      ],
+      "description": "中间窗口，显示一个游戏角色站在雪地或浅色地面上。",
+      "label": "中间窗口，显示一个游戏角色站在雪地或浅色地面上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_4",
+      "kind": "photo",
+      "bbox": [
+        648,
+        42,
+        900,
+        342
+      ],
+      "description": "右侧窗口，显示两个游戏角色在石拱门前的场景。",
+      "label": "右侧窗口，显示两个游戏角色在石拱门前的场景。",
+      "method": "local"
+    },
+    {
+      "id": "frame_wall_mid",
+      "kind": "frame",
+      "bbox": [
+        0,
+        432,
+        900,
+        709
+      ],
+      "description": "位于中部的一排倾斜胶片框，具有黑色边框和白色齿孔，部分被前景人物遮挡。",
+      "photo_id": [
+        "photo_scene_5",
+        "photo_scene_6",
+        "photo_scene_7",
+        "photo_scene_8"
+      ],
+      "label": "位于中部的一排倾斜胶片框，具有黑色边框和白色齿孔，部分被前景",
+      "method": "extract"
+    },
+    {
+      "id": "photo_scene_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        492,
+        184,
+        679
+      ],
+      "description": "左侧窗口，显示两个游戏角色在蓝色雾气场景中。",
+      "label": "左侧窗口，显示两个游戏角色在蓝色雾气场景中。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_6",
+      "kind": "photo",
+      "bbox": [
+        184,
+        474,
+        428,
+        691
+      ],
+      "description": "中左窗口，显示两个游戏角色在阳光下的草地上互动。",
+      "label": "中左窗口，显示两个游戏角色在阳光下的草地上互动。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_7",
+      "kind": "photo",
+      "bbox": [
+        428,
+        462,
+        796,
+        703
+      ],
+      "description": "中右窗口，大部分被前景人物遮挡，仅露出边缘。",
+      "label": "中右窗口，大部分被前景人物遮挡，仅露出边缘。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_8",
+      "kind": "photo",
+      "bbox": [
+        796,
+        450,
+        900,
+        715
+      ],
+      "description": "右侧窗口，显示一个游戏角色站在树旁。",
+      "label": "右侧窗口，显示一个游戏角色站在树旁。",
+      "method": "local"
+    },
+    {
+      "id": "frame_wall_bot",
+      "kind": "frame",
+      "bbox": [
+        0,
+        709,
+        900,
+        1141
+      ],
+      "description": "位于下方的一排倾斜胶片框，具有黑色边框和白色齿孔，部分被前景人物遮挡。",
+      "photo_id": [
+        "photo_scene_9",
+        "photo_scene_10",
+        "photo_scene_11",
+        "photo_scene_12"
+      ],
+      "label": "位于下方的一排倾斜胶片框，具有黑色边框和白色齿孔，部分被前景",
+      "method": "extract"
+    },
+    {
+      "id": "photo_scene_9",
+      "kind": "photo",
+      "bbox": [
+        0,
+        751,
+        86,
+        955
+      ],
+      "description": "左侧窗口，显示一个张开双臂的游戏角色。",
+      "label": "左侧窗口，显示一个张开双臂的游戏角色。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_10",
+      "kind": "photo",
+      "bbox": [
+        86,
+        751,
+        320,
+        1003
+      ],
+      "description": "中左窗口，显示三个游戏角色站在一起。",
+      "label": "中左窗口，显示三个游戏角色站在一起。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_11",
+      "kind": "photo",
+      "bbox": [
+        320,
+        835,
+        544,
+        1063
+      ],
+      "description": "中右窗口，大部分被前景人物遮挡，仅露出左下角。",
+      "label": "中右窗口，大部分被前景人物遮挡，仅露出左下角。",
+      "method": "local"
+    },
+    {
+      "id": "photo_scene_12",
+      "kind": "photo",
+      "bbox": [
+        544,
+        835,
+        900,
+        1141
+      ],
+      "description": "右侧窗口，显示一个游戏角色坐在树下。",
+      "label": "右侧窗口，显示一个游戏角色坐在树下。",
+      "method": "local"
+    },
+    {
+      "id": "photo_character_main",
+      "kind": "photo",
+      "bbox": [
+        320,
+        198,
+        882,
+        1195
+      ],
+      "description": "前景中央的大型游戏角色，白头发，身披橙色斗篷，背对观众站立，遮挡了后方胶片墙的中部区域。",
+      "label": "前景中央的大型游戏角色，白头发，身披橙色斗篷，背对观众站立，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg_dark_room",
+    "frame_wall_top",
+    "photo_scene_1",
+    "photo_scene_2",
+    "photo_scene_3",
+    "photo_scene_4",
+    "frame_wall_mid",
+    "photo_scene_5",
+    "photo_scene_6",
+    "photo_scene_7",
+    "photo_scene_8",
+    "frame_wall_bot",
+    "photo_scene_9",
+    "photo_scene_10",
+    "photo_scene_11",
+    "photo_scene_12",
+    "photo_character_main"
+  ]
+}

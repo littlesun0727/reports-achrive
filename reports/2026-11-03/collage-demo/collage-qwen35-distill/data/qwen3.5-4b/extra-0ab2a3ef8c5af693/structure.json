@@ -1,0 +1,240 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "户外公园场景的连续摄影底图，包含前景草地、左侧荷塘、中景树木和右侧水域，画面延伸至画布四边；上层拼贴照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        205,
+        46,
+        538,
+        375
+      ],
+      "description": "左上角照片，展示草地上趴着的狗和石板路，保留草地和围栏背景。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        483,
+        100,
+        750,
+        303
+      ],
+      "description": "右上角照片，展示林间小径和树木，保留树林和天空背景。"
+    },
+    {
+      "id": "photo_bridge",
+      "kind": "photo",
+      "bbox": [
+        185,
+        378,
+        456,
+        645
+      ],
+      "description": "左侧中部照片，展示拱桥和建筑，保留天空和树木背景。"
+    },
+    {
+      "id": "photo_water",
+      "kind": "photo",
+      "bbox": [
+        597,
+        313,
+        932,
+        648
+      ],
+      "description": "右侧中部照片，展示水域和树木，保留天空和远处建筑背景。"
+    },
+    {
+      "id": "photo_sign",
+      "kind": "photo",
+      "bbox": [
+        326,
+        613,
+        696,
+        824
+      ],
+      "description": "底部照片，展示带有“上海世博文化公园”字样的公园景观，保留树木和水域背景。"
+    },
+    {
+      "id": "frame_dog",
+      "kind": "frame",
+      "bbox": [
+        180,
+        46,
+        563,
+        375
+      ],
+      "description": "围绕左上角狗照片的白色波浪形边框，包含星星和鱼形装饰。",
+      "photo_id": [
+        "photo_dog"
+      ]
+    },
+    {
+      "id": "frame_trees",
+      "kind": "frame",
+      "bbox": [
+        468,
+        100,
+        765,
+        303
+      ],
+      "description": "围绕右上角树木照片的白色波浪形边框，包含星星和鱼形装饰。",
+      "photo_id": [
+        "photo_trees"
+      ]
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        145,
+        245,
+        190
+      ],
+      "description": "左上角白色五角星装饰，位于狗照片边框内。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        265,
+        135,
+        300,
+        165
+      ],
+      "description": "左上角白色五角星装饰，位于狗照片边框内。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        95,
+        500,
+        125
+      ],
+      "description": "右上角白色五角星装饰，位于树木照片边框内。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        95,
+        920,
+        185
+      ],
+      "description": "右上角白色五角星装饰，位于树木照片边框外。"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        285,
+        500,
+        315
+      ],
+      "description": "右上角白色五角星装饰，位于树木照片边框内。"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        420,
+        410,
+        460
+      ],
+      "description": "左侧中部白色云朵装饰，位于桥照片上方。"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        485,
+        455,
+        575,
+        495
+      ],
+      "description": "中部黄色笑脸装饰，位于桥照片和树木照片之间。"
+    },
+    {
+      "id": "overlay_burst",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        315,
+        925,
+        435
+      ],
+      "description": "右侧中部白色手绘爆炸形装饰，位于水照片上方。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        755,
+        195,
+        825
+      ],
+      "description": "左下角白色手绘心形装饰，位于草地前景。"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        570,
+        595,
+        625
+      ],
+      "description": "中部白色对话气泡装饰，包含两个灰色心形图案。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        235,
+        885,
+        845,
+        920
+      ],
+      "text": "En fait, les quêtes magiques sont toujours les mêmes, mais quand je vais avec vous, le vent d'automne est doux et la neige d'hiver est douce.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_dog",
+    "photo_trees",
+    "photo_bridge",
+    "photo_water",
+    "photo_sign",
+    "frame_dog",
+    "frame_trees",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_cloud",
+    "overlay_smile",
+    "overlay_burst",
+    "overlay_heart",
+    "overlay_heart_2",
+    "text_bottom"
+  ]
+}

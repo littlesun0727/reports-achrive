@@ -1,0 +1,225 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布连续摄影底图，由三张不同视角的雨天照片拼接而成。上部为仰视雨伞骨架与雨滴，中部为透过带水珠玻璃看到的模糊绿树，下部为俯视柏油路面、黑白格纹伞面及一双白鞋。各部分虽内容独立，但共同构成连续的底层画面，承载所有上层设计元素。",
+      "background_type": "photo",
+      "label": "全画布连续摄影底图，由三张不同视角的雨天照片拼接而成。上部为",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        46,
+        742,
+        114
+      ],
+      "description": "位于右上角的一小段米黄色胶带装饰，呈倾斜状，用于固定下方的绿色树叶照片。",
+      "label": "位于右上角的一小段米黄色胶带装饰，呈倾斜状，用于固定下方的绿",
+      "method": "extract"
+    },
+    {
+      "id": "photo_green_leaves",
+      "kind": "photo",
+      "bbox": [
+        613,
+        84,
+        832,
+        300
+      ],
+      "description": "右上角的一张矩形照片，内容为绿色的枫叶和树枝，被上方的胶带装饰压住一角。",
+      "label": "右上角的一张矩形照片，内容为绿色的枫叶和树枝，被上方的胶带装",
+      "method": "local"
+    },
+    {
+      "id": "overlay_card_bg",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        434,
+        723,
+        744
+      ],
+      "description": "画面中部的半透明白色矩形卡片底板，覆盖在背景照片上，作为文字和涂鸦的载体。",
+      "label": "画面中部的半透明白色矩形卡片底板，覆盖在背景照片上，作为文字",
+      "method": "extract"
+    },
+    {
+      "id": "text_cn",
+      "kind": "text",
+      "bbox": [
+        236,
+        558,
+        464,
+        630
+      ],
+      "description": "消失的下雨天，\n我好想再淋一遍。",
+      "label": "消失的下雨天，\n我好想再淋一遍。",
+      "method": "local",
+      "text": "消失的下雨天，\n我好想再淋一遍。",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_doodles",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        466,
+        274,
+        534
+      ],
+      "description": "白色卡片左上角的黑色手绘线条装饰，包含星星和圆圈图案。",
+      "label": "白色卡片左上角的黑色手绘线条装饰，包含星星和圆圈图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_face",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        678,
+        284,
+        732
+      ],
+      "description": "白色卡片左下角的黑色简笔画笑脸和爱心装饰。",
+      "label": "白色卡片左下角的黑色简笔画笑脸和爱心装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        408,
+        778,
+        534
+      ],
+      "description": "位于白色卡片右上角的绿色四叶草贴纸，中间有一个白色的小动物形象。",
+      "label": "位于白色卡片右上角的绿色四叶草贴纸，中间有一个白色的小动物形",
+      "method": "extract"
+    },
+    {
+      "id": "text_en",
+      "kind": "text",
+      "bbox": [
+        436,
+        714,
+        850,
+        768
+      ],
+      "description": "Disappearing rainy days,\nI want to get wet for another day.",
+      "label": "Disappearing rainy days,\nI wan",
+      "method": "local",
+      "text": "Disappearing rainy days,\nI want to get wet for another day.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "frame_rainy",
+      "kind": "frame",
+      "bbox": [
+        63,
+        870,
+        328,
+        1086
+      ],
+      "description": "左下角带有四个白色角标（取景框样式）的照片窗口边框，内部显示模糊的雨景。",
+      "photo_id": [
+        "photo_rainy_window"
+      ],
+      "label": "左下角带有四个白色角标（取景框样式）的照片窗口边框，内部显示",
+      "method": "extract"
+    },
+    {
+      "id": "photo_rainy_window",
+      "kind": "photo",
+      "bbox": [
+        86,
+        888,
+        324,
+        1050
+      ],
+      "description": "左下角取景框内的照片内容，显示模糊的蓝灰色调雨景。",
+      "label": "左下角取景框内的照片内容，显示模糊的蓝灰色调雨景。",
+      "method": "local"
+    },
+    {
+      "id": "text_rainy",
+      "kind": "text",
+      "bbox": [
+        144,
+        954,
+        266,
+        1002
+      ],
+      "description": "Rainy",
+      "label": "Rainy",
+      "method": "local",
+      "text": "Rainy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        888,
+        842,
+        1026
+      ],
+      "description": "散落在下半部分的五个白色水滴形状装饰，大小不一，模拟雨滴效果。",
+      "label": "散落在下半部分的五个白色水滴形状装饰，大小不一，模拟雨滴效果",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_card_bg",
+    "overlay_doodles",
+    "overlay_doodle_face",
+    "text_cn",
+    "overlay_clover",
+    "text_en",
+    "overlay_tape",
+    "photo_green_leaves",
+    "frame_rainy",
+    "photo_rainy_window",
+    "text_rainy",
+    "overlay_drops"
+  ]
+}

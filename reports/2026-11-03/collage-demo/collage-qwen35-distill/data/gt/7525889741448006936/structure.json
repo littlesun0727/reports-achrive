@@ -1,0 +1,193 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡店广角摄影画面覆盖全画布，四边可见相连的店内墙面、糕点柜、桌椅与地面。中央偏右一名盘发女子低头看向左侧，双手持包装姜饼人及波点提包，白裙、灰色背心和黄色鞋完整入镜。左上照片及各贴纸遮挡局部，人物与全部摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        39,
+        47,
+        389,
+        425
+      ],
+      "description": "左上椭圆照片，同一名戴眼镜女子身穿白裙与灰色背心，一手举起外带饮料，另一手拿食物，呈站姿中景；保留身后的咖啡店柜台与室内环境。照片沿椭圆窗口裁切，外围有连续的白色粗糙手绘描边，底部被蓝黄色角色贴纸遮挡。"
+    },
+    {
+      "id": "overlay_blog",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        38,
+        511,
+        125
+      ],
+      "description": "白色椭圆对话气泡，细灰色边线，内部横排“Blog is my life . .”，左下附两个大小不同的白色思绪圆点，文字与气泡整体保留。"
+    },
+    {
+      "id": "overlay_heart_top",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        168,
+        113,
+        199
+      ],
+      "description": "叠在左上照片上的白色立体爱心贴纸，保留柔和灰色明暗与边缘。"
+    },
+    {
+      "id": "overlay_heart_lower",
+      "kind": "overlay",
+      "bbox": [
+        313,
+        285,
+        358,
+        318
+      ],
+      "description": "位于左上照片右下侧的白色立体爱心贴纸，保留柔和阴影。"
+    },
+    {
+      "id": "overlay_blue_character",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        324,
+        184,
+        452
+      ],
+      "description": "蓝色长耳、浅黄色脸与身体的卡通角色贴纸，具有蓝色大眼睛、粉色脸颊和蓝色外轮廓，整体覆盖椭圆照片左下边缘。"
+    },
+    {
+      "id": "overlay_sweat_character",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        282,
+        784,
+        356
+      ],
+      "description": "叠在主照片女子右侧头发上的蓝白渐变水滴角色及上方蓝色汗滴，带红色蝴蝶结和小表情，作为完整贴纸保留。"
+    },
+    {
+      "id": "overlay_cats_label",
+      "kind": "overlay",
+      "bbox": [
+        791,
+        383,
+        950,
+        496
+      ],
+      "description": "浅蓝色椭圆标签，上方依偎着白色与黑色两只立体小猫，标签内有多行细小韩文。猫、文字、椭圆底板及阴影共同构成一枚完整装饰。"
+    },
+    {
+      "id": "overlay_korean_bubble",
+      "kind": "overlay",
+      "bbox": [
+        192,
+        804,
+        458,
+        941
+      ],
+      "description": "底部偏左的白色圆角对话气泡，细灰色轮廓，内部黑色韩文分两行“뭔가가\n그리워지는데.”，文字与不规则气泡外形整体保留。"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        409,
+        167,
+        449,
+        194
+      ],
+      "description": "上部靠近椭圆照片右侧的白色五角星。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        950,
+        225,
+        1000,
+        262
+      ],
+      "description": "右上侧白色五角星，右端延伸至画布边缘。"
+    },
+    {
+      "id": "overlay_star_left_white",
+      "kind": "overlay",
+      "bbox": [
+        251,
+        449,
+        291,
+        479
+      ],
+      "description": "椭圆照片下方、主照片姜饼人左侧的白色五角星。"
+    },
+    {
+      "id": "overlay_star_black_large",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        511,
+        203,
+        546
+      ],
+      "description": "画面左侧中部较大的黑色五角星。"
+    },
+    {
+      "id": "overlay_star_black_small",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        547,
+        66,
+        574
+      ],
+      "description": "画面左侧靠近桌面上方的小黑色五角星。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        711,
+        870,
+        778,
+        919
+      ],
+      "description": "画面右下方、女子裙摆右侧的白色五角星。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        447,
+        929,
+        514,
+        979
+      ],
+      "description": "画面底部中央偏左的白色五角星。"
+    }
+  ],
+  "layer_order": [
+    "photo_inset",
+    "overlay_blog",
+    "overlay_heart_top",
+    "overlay_heart_lower",
+    "overlay_blue_character",
+    "overlay_sweat_character",
+    "overlay_cats_label",
+    "overlay_korean_bubble",
+    "overlay_star_upper",
+    "overlay_star_right",
+    "overlay_star_left_white",
+    "overlay_star_black_large",
+    "overlay_star_black_small",
+    "overlay_star_bottom_right",
+    "overlay_star_bottom"
+  ]
+}

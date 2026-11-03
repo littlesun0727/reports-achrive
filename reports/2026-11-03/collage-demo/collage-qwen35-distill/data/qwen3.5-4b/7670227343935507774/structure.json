@@ -1,0 +1,152 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "广阔的绿色草原、远处的山丘、树林和房屋构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        87,
+        126,
+        337,
+        368
+      ],
+      "description": "左上人物半身照片，人物手托脸颊，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        414,
+        173,
+        642,
+        396
+      ],
+      "description": "中上人物半身照片，人物手托脸颊，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        699,
+        40,
+        939,
+        285
+      ],
+      "description": "右上人物全身照片，人物背对镜头，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_text_title",
+      "kind": "text",
+      "bbox": [
+        298,
+        38,
+        630,
+        107
+      ],
+      "text": "那拉提plog",
+      "color": "#333333",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_text_august",
+      "kind": "text",
+      "bbox": [
+        582,
+        555,
+        842,
+        600
+      ],
+      "text": "AUGUST",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_puzzle",
+      "kind": "overlay",
+      "bbox": [
+        842,
+        555,
+        910,
+        600
+      ],
+      "description": "绿色拼图形状装饰，位于文字'AUGUST'右侧。"
+    },
+    {
+      "id": "overlay_polaroid_left",
+      "kind": "frame",
+      "bbox": [
+        87,
+        126,
+        337,
+        368
+      ],
+      "description": "围绕左上照片的白色相纸框，位于照片上方，完整相纸作为一个框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "overlay_polaroid_center",
+      "kind": "frame",
+      "bbox": [
+        414,
+        173,
+        642,
+        396
+      ],
+      "description": "围绕中上照片的白色相纸框，位于照片上方，完整相纸作为一个框体保留。",
+      "photo_id": [
+        "photo_top_center"
+      ]
+    },
+    {
+      "id": "overlay_polaroid_right",
+      "kind": "frame",
+      "bbox": [
+        699,
+        40,
+        939,
+        285
+      ],
+      "description": "围绕右上照片的白色相纸框，位于照片上方，完整相纸作为一个框体保留。",
+      "photo_id": [
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "包含黄色括号、波点贴纸、白色手绘蝴蝶、心形、四叶草等装饰元素，覆盖全画布。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_center",
+    "photo_top_right",
+    "overlay_polaroid_left",
+    "overlay_polaroid_center",
+    "overlay_polaroid_right",
+    "overlay_text_title",
+    "overlay_text_august",
+    "overlay_puzzle",
+    "overlay_decorations"
+  ]
+}

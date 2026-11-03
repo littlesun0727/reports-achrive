@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        358
+      ],
+      "description": "上方独立照片：一名扎辫子的女子背向镜头，穿绿色毛衣，双臂向两侧高举，肩挎装有橙色花束的黄色包。保留天空、远山及油菜花田，人物为较大半身景别；人物边缘有浅亮细边，下部花田柔和渐隐，与中间照片衔接，并非连续的同一场景取景。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        296,
+        1000,
+        582
+      ],
+      "description": "中间独立照片：一名绿色毛衣、白裙女子背向镜头站在油菜花田中，双臂平展，辫尾有白花，黄色肩包内放橙色花束。保留完整花田环境，人物姿态与上方照片重新起始；上下交接处柔化，下缘花田及裙摆附近渐隐到下方照片。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        535,
+        1000,
+        1000
+      ],
+      "description": "下方独立照片：一名扎辫子的女子穿绿色毛衣、白裙、浅蓝袜和运动鞋，背侧身转向左方，右臂伸展，左手提黄色包及橙色花束，双腿交错。保留蓝色远山、黄色花田和底部浅色道路，包上相机图案属于摄影内容；主体轮廓有浅白细边，照片上缘柔和渐隐，与中间照片叠接。"
+    },
+    {
+      "id": "overlay_greeting",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        92,
+        415,
+        248
+      ],
+      "description": "左上白色粗笔手写“你好！春天”与粉色“spring”、粉色闪光符号组成的完整艺术字装饰，保留笔触、长横线和各字错落位置。"
+    },
+    {
+      "id": "overlay_spring_flower",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        62,
+        928,
+        164
+      ],
+      "description": "右上黄色“春”字造型装饰，绿色枝叶缠绕其间，附带粉橙花朵及右侧粉色蝴蝶，作为完整插画单元保留。"
+    },
+    {
+      "id": "overlay_english",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        293,
+        911,
+        413
+      ],
+      "description": "中部右侧白色纤细英文花体字装饰，可辨为“Sweet heart elves”，字词沿斜向错落排列，带夸张长笔画及左上粉色蝴蝶，整体保留。"
+    },
+    {
+      "id": "overlay_butterfly_left",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        401,
+        89,
+        420
+      ],
+      "description": "中部左侧花田上的独立小蝴蝶，黑色外缘配黄色、粉色翅面。"
+    },
+    {
+      "id": "overlay_wishes",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        554,
+        201,
+        748
+      ],
+      "description": "左下竖向错落的白色手写艺术字“万事顺遂 不止春日”，附带粉红圆形光斑、彩色小点和末端蓝色蝴蝶；保留整组笔画、装饰和不规则排版。"
+    },
+    {
+      "id": "overlay_romantic",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        539,
+        933,
+        665
+      ],
+      "description": "下半部右上方白色“浪漫春天”手写艺术字，搭配绿色英文“spring”、绿色叶片状点缀及蓝色蝴蝶，构成完整斜向装饰组合。"
+    },
+    {
+      "id": "overlay_spring_story",
+      "kind": "overlay",
+      "bbox": [
+        829,
+        804,
+        929,
+        952
+      ],
+      "description": "右下竖排白色毛笔艺术字“春日物語”，保留疏密变化、飞白笔触与各字独立位置。"
+    },
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        904,
+        950,
+        980,
+        972
+      ],
+      "description": "右下浅色圆角胶囊形“小红书”标志，深绿色特定字形与底板整体保留。"
+    },
+    {
+      "id": "text_account",
+      "kind": "text",
+      "bbox": [
+        778,
+        977,
+        978,
+        989
+      ],
+      "text": "小红书号：6700666030",
+      "color": "#FFFFFFB3",
+      "font": "cjk",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "photo_middle",
+    "overlay_greeting",
+    "overlay_spring_flower",
+    "overlay_english",
+    "overlay_butterfly_left",
+    "overlay_wishes",
+    "overlay_romantic",
+    "overlay_spring_story",
+    "overlay_logo",
+    "text_account"
+  ]
+}

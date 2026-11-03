@@ -1,0 +1,152 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "深蓝色黄昏天空与城市街道夜景构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、手绘装饰和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        82,
+        120,
+        220,
+        280
+      ],
+      "text": "The beginning of my trip",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        295,
+        225,
+        375
+      ],
+      "description": "白色手绘猫头简笔画，位于左上角文字下方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        308,
+        150,
+        775,
+        445
+      ],
+      "description": "竖向街景照片，显示“HONG KONG”招牌、红色出租车和行人，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        295,
+        140,
+        788,
+        455
+      ],
+      "description": "围绕上方街景照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "overlay_car",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        395,
+        940,
+        440
+      ],
+      "description": "白色手绘小汽车简笔画，位于右上角照片右侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        70,
+        455,
+        455,
+        615
+      ],
+      "description": "横向照片，显示带有涂鸦的白色卷帘门和向日葵，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        55,
+        445,
+        470,
+        625
+      ],
+      "description": "围绕左侧照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        140,
+        685,
+        450,
+        875
+      ],
+      "text": "It's a lovely thing to know a place well enough that you know when the sun will be there",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        495,
+        520,
+        935,
+        830
+      ],
+      "description": "竖向照片，显示抹茶冰淇淋、白色奶油和木盘上的小摆件，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        485,
+        510,
+        945,
+        840
+      ],
+      "description": "围绕右侧照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_right"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "photo_left",
+    "frame_left",
+    "photo_right",
+    "frame_right",
+    "text_1",
+    "overlay_cat",
+    "overlay_car",
+    "text_2"
+  ]
+}

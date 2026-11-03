@@ -1,0 +1,143 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "带有模糊光斑和纹理的浅绿色调全画布底图，作为整体背景承载所有独立对象；上层照片、文字和装饰遮挡局部，保留底图连续性及模糊效果。"
+  },
+  "objects": [
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        86,
+        66,
+        323,
+        122
+      ],
+      "text": "LOVE: |uv|-n.",
+      "color": "#88B8C8",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_love_def",
+      "kind": "text",
+      "bbox": [
+        92,
+        122,
+        478,
+        253
+      ],
+      "text": "1. an intense affection for another person based on personal or familial ties 2. the deep tenderness, affection, and concern felt for a person with whom one has a relationship.",
+      "color": "#88B8C8",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        359,
+        58,
+        859,
+        336
+      ],
+      "description": "公园树木与草坪照片，保留天空、树木和人物，显示区域为矩形。"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        39,
+        382,
+        450,
+        616
+      ],
+      "description": "粉色花朵与绿叶照片，保留树木背景，显示区域为不规则形状。"
+    },
+    {
+      "id": "photo_sprinkler",
+      "kind": "photo",
+      "bbox": [
+        545,
+        535,
+        958,
+        766
+      ],
+      "description": "公园洒水器与树木照片，保留天空、树木和人物，显示区域为矩形。"
+    },
+    {
+      "id": "photo_tree_top",
+      "kind": "photo",
+      "bbox": [
+        201,
+        664,
+        512,
+        974
+      ],
+      "description": "仰拍树木与蓝天照片，保留天空和树枝，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_stars_top",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        235,
+        928,
+        407
+      ],
+      "description": "粉色和蓝色手绘星星与圆圈装饰，位于照片右侧。"
+    },
+    {
+      "id": "overlay_stars_bottom",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        676,
+        235,
+        823
+      ],
+      "description": "米色手绘星星装饰，位于左下角。"
+    },
+    {
+      "id": "overlay_stars_bottom2",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        775,
+        905,
+        838
+      ],
+      "description": "白色手绘星星、圆点和加号装饰，位于右下角。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        480,
+        915,
+        605
+      ],
+      "description": "灰色金属回形针装饰，位于右侧照片上方。"
+    }
+  ],
+  "layer_order": [
+    "photo_trees",
+    "photo_flowers",
+    "photo_sprinkler",
+    "photo_tree_top",
+    "text_love",
+    "text_love_def",
+    "overlay_stars_top",
+    "overlay_stars_bottom",
+    "overlay_stars_bottom2",
+    "overlay_paperclip"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的深色木质室内摄影画面铺满画布，顶部木墙、椭圆镜、花瓶及右侧钟表与底部地板构成连贯环境，右边露出木椅及局部白色衣物，人物大部分被叠放照片遮挡，人数与姿态无法确定。室内陈设随整张底图替换，不拆为固定装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        93,
+        99,
+        518,
+        588
+      ],
+      "description": "竖向照片，一名黑色短发女子穿浅色短袖，蜷身抱腿坐在木椅上，头侧靠膝盖并望向镜头；保留木墙与椅子等摄影环境。右下部分被中央近景照片遮挡，左下部分被橙色花朵装饰覆盖，窗口边缘清晰。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        171,
+        610,
+        867,
+        961
+      ],
+      "description": "横向照片，一名黑色短发女子穿浅色上衣与蓝色短裤，斜躺在木椅上，双腿弯曲抬向左侧，双手在胸前，脸朝左侧；保留木质室内环境。照片上部被中央近景照片遮挡，左上部叠有橙色花朵，边缘清晰。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        436,
+        360,
+        952,
+        671
+      ],
+      "description": "横向人物面部特写，一名黑发女子侧脸朝右，嘴贴近手持的红黄色苹果，发丝掠过面颊；保留暗色摄影背景，人物与苹果共同替换。矩形窗口边缘清晰，覆盖左上照片右下部和下方照片上部。"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        499,
+        289,
+        700
+      ],
+      "description": "独立橙红色百合花装饰，包含展开的花瓣、花瓣上的亮白斑点、花蕊和向下延伸的绿色细茎，整体沿花朵轮廓显示，跨叠在左上与下方照片之间。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        82,
+        577,
+        163
+      ],
+      "description": "白色手绘放射星芒，多根长短不一的粗细笔画交叉，带有擦痕与不均匀纹理，整体保留。"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        251,
+        610,
+        309
+      ],
+      "description": "位于画面中上部偏左的白色手绘放射星芒，交叉笔画及内部粗糙纹理作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_star_flowers",
+      "kind": "overlay",
+      "bbox": [
+        773,
+        239,
+        844,
+        292
+      ],
+      "description": "叠在室内花束前的小型白色手绘放射星芒，包含全部交叉线条和斑驳笔触。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        869,
+        328,
+        966,
+        409
+      ],
+      "description": "画面右侧较大的白色手绘放射星芒，笔画长短不一并带粗糙纹理，跨过中央照片上边及右侧边缘，整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_lower",
+    "photo_center",
+    "overlay_lily",
+    "overlay_star_top",
+    "overlay_star_middle",
+    "overlay_star_flowers",
+    "overlay_star_right"
+  ]
+}

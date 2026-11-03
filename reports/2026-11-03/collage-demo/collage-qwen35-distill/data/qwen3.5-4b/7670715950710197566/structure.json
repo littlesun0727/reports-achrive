@@ -1,0 +1,174 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "户外场景摄影底图，包含前景草地、中景黑色栅栏和远景天空，画面整体呈现虚化效果；上层拼贴照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        231,
+        81,
+        553,
+        400
+      ],
+      "description": "人物半身照片，女性低头看向下方，背景有树木和告示牌，显示区域为矩形。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        519,
+        307,
+        778,
+        501
+      ],
+      "description": "橘猫行走照片，拍摄于铺砖地面，显示区域为矩形。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        108,
+        372,
+        405,
+        657
+      ],
+      "description": "树木与街道照片，可见绿色树木和远处车辆，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        309,
+        562,
+        773,
+        833
+      ],
+      "description": "人物半身照片，女性直视镜头，背景有树木和告示牌，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        231,
+        81,
+        553,
+        400
+      ],
+      "description": "围绕上方人物照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_cat",
+      "kind": "frame",
+      "bbox": [
+        519,
+        307,
+        778,
+        501
+      ],
+      "description": "围绕猫咪照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_cat"
+      ]
+    },
+    {
+      "id": "frame_trees",
+      "kind": "frame",
+      "bbox": [
+        108,
+        372,
+        405,
+        657
+      ],
+      "description": "围绕树木照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_trees"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        309,
+        562,
+        773,
+        833
+      ],
+      "description": "围绕下方人物照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        592,
+        145,
+        794,
+        191
+      ],
+      "text": "好天气！",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        753,
+        248,
+        831,
+        372
+      ],
+      "description": "蓝色手绘心形图案，内部有白色圆点，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_gift",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        536,
+        831,
+        605
+      ],
+      "description": "棕色带白点的礼物盒图案，带有白色蝴蝶结线条，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "多个白色手绘圆圈气泡，散布在画布各处，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "photo_cat",
+    "frame_cat",
+    "photo_trees",
+    "frame_trees",
+    "photo_bottom",
+    "frame_bottom",
+    "text_1",
+    "overlay_heart",
+    "overlay_gift",
+    "overlay_bubbles"
+  ]
+}

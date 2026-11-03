@@ -1,0 +1,139 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续摄影底图，展示咖啡馆外景，包含绿植、木质栏杆、建筑立面及窗户，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        67,
+        55,
+        567,
+        575
+      ],
+      "description": "左上人物照片，年轻女性身穿白色无袖上衣，黑色长发编辫，双手交叠倚靠木质栏杆，背景为室内咖啡馆环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        317,
+        595,
+        937,
+        965
+      ],
+      "description": "右下静物照片，展示一杯热饮、一块蛋糕、一本打开的书和一把叉子，置于木质桌面上，背景为绿植，显示区域为矩形。"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        57,
+        45,
+        577,
+        585
+      ],
+      "description": "围绕左上人物照片的白色手绘风格粗边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_upper"
+      ]
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        307,
+        585,
+        947,
+        975
+      ],
+      "description": "围绕右下静物照片的白色手绘风格粗边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        655,
+        267,
+        895
+      ],
+      "description": "左下角白色手绘风格装饰，包含“NICE DAY”字样和一只猫头图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        667,
+        395,
+        867,
+        575
+      ],
+      "description": "右侧中部白色手绘风格小熊图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        325,
+        987,
+        925
+      ],
+      "description": "散布在画面中的多个白色手绘风格星星装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_swirl",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        295,
+        807,
+        355
+      ],
+      "description": "右侧中部白色手绘风格螺旋装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        667,
+        85,
+        747,
+        125
+      ],
+      "description": "右上角白色手绘风格点状装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_plant",
+      "kind": "overlay",
+      "bbox": [
+        867,
+        795,
+        987,
+        965
+      ],
+      "description": "右下角白色手绘风格植物装饰，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "frame_upper",
+    "frame_lower",
+    "overlay_cat",
+    "overlay_bear",
+    "overlay_stars",
+    "overlay_swirl",
+    "overlay_dots",
+    "overlay_plant"
+  ]
+}

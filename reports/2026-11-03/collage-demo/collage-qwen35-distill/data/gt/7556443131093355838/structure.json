@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        324
+      ],
+      "description": "上方横向餐厅照片，一名长发女子坐在桌前，双手交握托在下巴下，脸部上缘被画布裁切；桌上有点燃蜡烛的草莓蛋糕、餐盘和手机，后方为卡座与隔板。保留完整摄影环境，照片四边直接裁切，下缘与中部纸张接壤。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        636,
+        1000,
+        1000
+      ],
+      "description": "下方独立俯拍合影照片，两名长发人物的局部上身及手势位于上方和左侧，面部不在显示范围内；中央偏下是插着细长蜡烛的粉色草莓蛋糕、白色蛋糕底板及木桌。保留摄影环境，与上方照片的视角和姿态不连续，四边清晰裁切，左侧局部被小蛋糕贴纸遮挡。"
+    },
+    {
+      "id": "birthday_banner",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        322,
+        1000,
+        636
+      ],
+      "description": "横贯画布中段的浅棕色纹理纸张横幅，完整保留颗粒纸纹及中央黑色打字机风格的“Happy birthday.”字样；文字与纸张共同构成固定设计单元，覆盖上下照片交界处。"
+    },
+    {
+      "id": "cake_sticker",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        758,
+        253,
+        852
+      ],
+      "description": "叠加在下方照片左侧的小蛋糕贴纸，包含粉白双色圆蛋糕、白色奶油、红色水果、点燃的黄色蜡烛及底部浅色托盘，整体保留柔和边缘与阴影。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "birthday_banner",
+    "cake_sticker"
+  ]
+}

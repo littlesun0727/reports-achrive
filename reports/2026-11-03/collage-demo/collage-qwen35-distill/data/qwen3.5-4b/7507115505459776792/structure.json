@@ -1,0 +1,205 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "沙滩、海面和天空构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、木桩和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        136,
+        96,
+        435,
+        396
+      ],
+      "description": "左上角照片，展示棕榈树、蓝色海面、沙滩和长椅，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        389,
+        303,
+        682,
+        591
+      ],
+      "description": "中间照片，展示海边木牌、长椅和远处船只，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        202,
+        510,
+        440,
+        747
+      ],
+      "description": "左下角照片，展示棕榈树、绿草地、步道和蓝色指示牌，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        571,
+        621,
+        868,
+        913
+      ],
+      "description": "右下角照片，展示蓝色栈道、树木和海景，保留完整摄影环境。"
+    },
+    {
+      "id": "star_pink",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        54,
+        186,
+        140
+      ],
+      "description": "粉色五角星装饰，位于左上角照片上方。"
+    },
+    {
+      "id": "star_yellow_1",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        485,
+        253,
+        545
+      ],
+      "description": "黄色五角星装饰，位于左下角照片上方。"
+    },
+    {
+      "id": "star_yellow_2",
+      "kind": "overlay",
+      "bbox": [
+        641,
+        278,
+        718,
+        336
+      ],
+      "description": "黄色五角星装饰，位于中间照片右上方。"
+    },
+    {
+      "id": "star_blue",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        710,
+        488,
+        768
+      ],
+      "description": "蓝色五角星装饰，位于左下角照片右下方。"
+    },
+    {
+      "id": "shell_green",
+      "kind": "overlay",
+      "bbox": [
+        401,
+        198,
+        478,
+        253
+      ],
+      "description": "绿色贝壳装饰，位于左上角照片右下方。"
+    },
+    {
+      "id": "shell_blue",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        883,
+        908,
+        940
+      ],
+      "description": "蓝黄条纹贝壳装饰，位于右下角照片右下方。"
+    },
+    {
+      "id": "wave_white",
+      "kind": "overlay",
+      "bbox": [
+        725,
+        568,
+        910,
+        625
+      ],
+      "description": "白色波浪线条装饰，位于中间照片右下方。"
+    },
+    {
+      "id": "driftwood_1",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        405,
+        230,
+        790
+      ],
+      "description": "左侧木桩，从左下角延伸至中间区域。"
+    },
+    {
+      "id": "driftwood_2",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        595,
+        315,
+        828
+      ],
+      "description": "中间偏左木桩，从底部延伸至中间区域。"
+    },
+    {
+      "id": "driftwood_3",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        595,
+        625,
+        875
+      ],
+      "description": "中间偏右木桩，从底部延伸至中间区域。"
+    },
+    {
+      "id": "driftwood_4",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        405,
+        830,
+        620
+      ],
+      "description": "右侧木桩，从中间延伸至右下角。"
+    },
+    {
+      "id": "driftwood_5",
+      "kind": "overlay",
+      "bbox": [
+        865,
+        635,
+        999,
+        850
+      ],
+      "description": "最右侧木桩，从中间延伸至右下角。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "star_pink",
+    "shell_green",
+    "star_yellow_1",
+    "star_yellow_2",
+    "star_blue",
+    "wave_white",
+    "shell_blue",
+    "driftwood_1",
+    "driftwood_2",
+    "driftwood_3",
+    "driftwood_4",
+    "driftwood_5"
+  ]
+}

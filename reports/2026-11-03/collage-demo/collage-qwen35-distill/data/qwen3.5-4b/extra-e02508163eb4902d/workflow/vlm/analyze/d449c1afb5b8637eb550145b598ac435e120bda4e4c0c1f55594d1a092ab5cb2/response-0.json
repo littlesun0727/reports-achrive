@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a179c86f8f49ba85",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 7973,
+    "completion_tokens": 560,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"广阔的绿色草原、连绵山脉和蓝天白云构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、装饰和箭头遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        338,\n        123,\n        933,\n        424\n      ],\n      \"description\": \"横向风景照片，展示人物背对镜头站在山坡上，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        82,\n        375,\n        379,\n        704\n      ],\n      \"description\": \"竖向风景照片，展示人物背对镜头在草地上行走，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        561,\n        532,\n        835,\n        842\n      ],\n      \"description\": \"竖向风景照片，展示人物趴在木栅栏上，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        151,\n        79,\n        478,\n        156\n      ],\n      \"description\": \"三颗黄色五角星和一颗小星，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_arrow\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        383,\n        424,\n        570,\n        546\n      ],\n      \"description\": \"白色弯曲箭头和蓝色星形装饰，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_top\",\n    \"photo_left\",\n    \"photo_right\",\n    \"overlay_stars\",\n    \"overlay_arrow\"\n  ]\n}",
+  "tool_calls": false
+}

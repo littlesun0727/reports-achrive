@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a2a360209d7742b3",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7863,
+    "completion_tokens": 944,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"denim_base\",\n    \"description\": \"深蓝色牛仔布纹理底图，覆盖全画布，包含白色小圆点装饰；两张人物照片独立嵌入，照片间隙及边缘保留牛仔布纹理。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        112,\n        74,\n        882,\n        458\n      ],\n      \"description\": \"上方人物半身照片，人物手托脸颊，背景为车窗与窗帘，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        108,\n        537,\n        888,\n        926\n      ],\n      \"description\": \"下方人物半身照片，人物手持书本，背景为车窗与座椅，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_star_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        18,\n        24,\n        226,\n        174\n      ],\n      \"description\": \"左上角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。\"\n    },\n    {\n      \"id\": \"overlay_star_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        33,\n        174,\n        110,\n        236\n      ],\n      \"description\": \"左侧中部蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。\"\n    },\n    {\n      \"id\": \"overlay_star_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        240,\n        454,\n        340,\n        534\n      ],\n      \"description\": \"两张照片之间的蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。\"\n    },\n    {\n      \"id\": \"overlay_star_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        830,\n        154,\n        982,\n        276\n      ],\n      \"description\": \"右上角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。\"\n    },\n    {\n      \"id\": \"overlay_star_5\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        786,\n        474,\n        954,\n        614\n      ],\n      \"description\": \"右侧中部蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。\"\n    },\n    {\n      \"id\": \"overlay_star_6\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        254,\n        874,\n        370,\n        976\n      ],\n      \"description\": \"左下角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。\"\n    },\n    {\n      \"id\": \"overlay_star_7\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        924,\n        474,\n        982,\n        614\n      ],\n      \"description\": \"右下角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。\"\n    }\n  ],\n  \"layer_order\": [\n    \"denim_base\",\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_star_1\",\n    \"overlay_star_2\",\n    \"overlay_star_3\",\n    \"overlay_star_4\",\n    \"overlay_star_5\",\n    \"overlay_star_6\",\n    \"overlay_star_7\"\n  ]\n}",
+  "tool_calls": false
+}

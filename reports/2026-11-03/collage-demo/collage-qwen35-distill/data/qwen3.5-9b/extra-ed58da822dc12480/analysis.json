@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        639
+      ],
+      "description": "顶部海景照片，展示平静海面、远处岩石和天空，包含摄影环境。",
+      "label": "顶部海景照片，展示平静海面、远处岩石和天空，包含摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        639,
+        1080,
+        1279
+      ],
+      "description": "中部海滨照片，展示海岸线、沙滩、人群、远处建筑和夕阳天空，包含摄影环境。",
+      "label": "中部海滨照片，展示海岸线、沙滩、人群、远处建筑和夕阳天空，包",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1279,
+        1080,
+        1920
+      ],
+      "description": "底部岩石海岸照片，展示海浪拍打岩石和岸边礁石，包含摄影环境。",
+      "label": "底部岩石海岸照片，展示海浪拍打岩石和岸边礁石，包含摄影环境。",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

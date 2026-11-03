@@ -1,0 +1,360 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的傍晚街景铺满全画布：大树树干与浓密枝叶围绕四边，中央露出粉橙色晚霞，下半部为白墙深色屋顶建筑、街道路面及一名经过的行人。树木、天空与建筑在上层照片间隙连续，局部被照片和星星遮挡；整幅摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_alley",
+      "kind": "photo",
+      "bbox": [
+        83,
+        86,
+        408,
+        395
+      ],
+      "description": "竖向巷道照片，保留蓝天、茂密绿树、右侧暖黄色建筑墙面及下方道路、车辆和栏杆，无主要人物。完整矩形窗口四周有细白描边，中央叠加的白色文字独立记录。"
+    },
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        469,
+        81,
+        890,
+        274
+      ],
+      "description": "横向林荫街道照片，远处红绿交通灯，右侧有路牌和建筑，绿树遮蔽天空。保留完整摄影环境，四周细白描边，上半部文字为独立叠加。"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        519,
+        317,
+        776,
+        557
+      ],
+      "description": "竖向近景照片，紫白色绣球花与大片绿叶之间放着一本翻开的书，阳光形成明暗对比；全部摄影内容一起替换。矩形窗口有细白描边，下右部与另一张照片叠放。"
+    },
+    {
+      "id": "photo_train",
+      "kind": "photo",
+      "bbox": [
+        159,
+        448,
+        451,
+        664
+      ],
+      "description": "绿树枝叶、蓝天白云和高架列车的照片，列车横跨画面下半部，左下有路灯。保留摄影环境，显示于黑色胶片框的单个圆角内口中。"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        136,
+        436,
+        476,
+        676
+      ],
+      "description": "黑色单窗口胶片框，左右两侧有连续方形齿孔，保留完整黑色框体、孔洞和圆角内口，框沿覆盖列车照片边缘。",
+      "photo_id": [
+        "photo_train"
+      ]
+    },
+    {
+      "id": "photo_city",
+      "kind": "photo",
+      "bbox": [
+        684,
+        522,
+        916,
+        735
+      ],
+      "description": "右侧较小的竖向城市景色照片，深色树枝绿叶围住中央远处高楼、浅色天空及栏杆。保留摄影环境，矩形完整范围上部被绣球花照片局部遮挡，右上叠有米色胶带。"
+    },
+    {
+      "id": "photo_petals",
+      "kind": "photo",
+      "bbox": [
+        144,
+        714,
+        471,
+        958
+      ],
+      "description": "竖向地面近景照片，深色石质台阶或路沿上散落浅粉花瓣与花朵，右上露出绿叶。保留全部摄影环境，矩形四边有细白描边，底部白色文字独立叠加。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        489,
+        790,
+        849,
+        950
+      ],
+      "description": "横向桌面照片，前景木桌上有橙黄色饮料、透明杯、深色杯和小碟，后方为暗绿色植物及窗框。保留摄影环境，四周细白描边，上半部叠加小号白色文字。"
+    },
+    {
+      "id": "text_alley",
+      "kind": "text",
+      "bbox": [
+        123,
+        185,
+        390,
+        282
+      ],
+      "text": "带着潮湿的绿意和清\n冽的木质香，\n给闷热的天气带来一\n丝大口呼吸的凉意。",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_street",
+      "kind": "text",
+      "bbox": [
+        493,
+        100,
+        866,
+        175
+      ],
+      "text": "每每到了夏天，我开始抓不住我自己。\n整个人变成一团云，虚无的，\n没有确切的情绪。\n像是漫长的犯困，醒不过来。",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_petals",
+      "kind": "text",
+      "bbox": [
+        171,
+        882,
+        440,
+        922
+      ],
+      "text": "出生在夏至前后，\n于是总会赋予这个季节特殊的意义。\n要热烈，要浓郁，要拥有旺盛的生命力。",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_drinks",
+      "kind": "text",
+      "bbox": [
+        530,
+        817,
+        828,
+        891
+      ],
+      "text": null,
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        516,
+        945,
+        577
+      ],
+      "description": "斜贴在城市小照片右上角的米杏色纸胶带，端部不规则，中央有细白色空心爱心，纸带及其印花整体保留。"
+    },
+    {
+      "id": "star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        367,
+        22,
+        425,
+        66
+      ],
+      "description": "顶部偏左的浅灰白色五角星贴纸，略微倾斜，边缘柔和。"
+    },
+    {
+      "id": "star_top_middle",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        29,
+        676,
+        56
+      ],
+      "description": "顶部中央偏右的小型浅灰白色五角星贴纸。"
+    },
+    {
+      "id": "star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        15,
+        972,
+        72
+      ],
+      "description": "右上角较大的浅灰白色五角星贴纸，略微倾斜。"
+    },
+    {
+      "id": "star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        21,
+        83,
+        54,
+        111
+      ],
+      "description": "左上边缘的小型灰白色五角星贴纸。"
+    },
+    {
+      "id": "star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        913,
+        260,
+        953,
+        295
+      ],
+      "description": "右侧上部、街道照片下方的浅灰白色五角星贴纸。"
+    },
+    {
+      "id": "star_center_upper",
+      "kind": "overlay",
+      "bbox": [
+        445,
+        306,
+        491,
+        342
+      ],
+      "description": "巷道照片右下方与绣球花照片左上方之间的浅灰白色五角星贴纸。"
+    },
+    {
+      "id": "star_crown",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        365,
+        934,
+        434
+      ],
+      "description": "右侧屋顶上方的白色大星星装饰，星内和右侧附有灰色手绘皇冠、卷曲线条等涂鸦，作为一个完整贴纸保留。"
+    },
+    {
+      "id": "star_center",
+      "kind": "overlay",
+      "bbox": [
+        573,
+        613,
+        640,
+        669
+      ],
+      "description": "画面中央下部的浅灰白色五角星贴纸，覆盖背景建筑与竖向管道。"
+    },
+    {
+      "id": "star_left_large",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        680,
+        130,
+        750
+      ],
+      "description": "左侧树干前方的大型浅灰白色五角星贴纸，边缘略柔和。"
+    },
+    {
+      "id": "star_lower_middle",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        744,
+        523,
+        774
+      ],
+      "description": "花瓣照片右上侧的小型浅灰白色五角星贴纸。"
+    },
+    {
+      "id": "star_lower_right_small",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        743,
+        749,
+        768
+      ],
+      "description": "城市小照片下方、饮料照片上方的小型浅灰白色五角星贴纸。"
+    },
+    {
+      "id": "star_right_large",
+      "kind": "overlay",
+      "bbox": [
+        891,
+        783,
+        951,
+        826
+      ],
+      "description": "右侧下部的浅灰白色五角星贴纸，位于饮料照片右上方。"
+    },
+    {
+      "id": "star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        901,
+        111,
+        927
+      ],
+      "description": "左下方道路上的小型浅灰白色五角星贴纸。"
+    },
+    {
+      "id": "star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        947,
+        913,
+        982
+      ],
+      "description": "右下角道路上的浅灰白色五角星贴纸，略微倾斜。"
+    }
+  ],
+  "layer_order": [
+    "photo_alley",
+    "photo_street",
+    "photo_train",
+    "frame_film",
+    "photo_city",
+    "photo_flowers",
+    "photo_petals",
+    "photo_drinks",
+    "text_alley",
+    "text_street",
+    "text_petals",
+    "text_drinks",
+    "overlay_tape",
+    "star_top_left",
+    "star_top_middle",
+    "star_top_right",
+    "star_left_upper",
+    "star_right_upper",
+    "star_center_upper",
+    "star_crown",
+    "star_center",
+    "star_left_large",
+    "star_lower_middle",
+    "star_lower_right_small",
+    "star_right_large",
+    "star_bottom_left",
+    "star_bottom_right"
+  ]
+}

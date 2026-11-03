@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-90319cfd6de3ff6b",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7376,
+    "completion_tokens": 429,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"热带海滩与棕榈树构成的连续摄影底图，包含天空、海面、岩石和植被，完整显示区域延伸至画布四边；上层照片和文字遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_center\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        153,\n        153,\n        847,\n        847\n      ],\n      \"description\": \"竖向人物自拍照片，人物坐在沙滩上，背景为海面和浮标，显示区域为矩形，上下左右被其他元素遮挡。\"\n    },\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        283,\n        100,\n        717,\n        145\n      ],\n      \"text\": \"Island diary\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        245,\n        855,\n        755,\n        900\n      ],\n      \"text\": \"The melody of summer\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_center\",\n    \"text_top\",\n    \"text_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

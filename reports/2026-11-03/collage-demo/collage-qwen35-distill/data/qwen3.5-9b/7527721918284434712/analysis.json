@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    836
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        836
+      ],
+      "description": "特写摄影底图，展示一只人眼的局部，包含眉毛、眼睑、睫毛及眼白区域，画面延伸至画布边缘；瞳孔位置嵌入独立照片，保留摄影环境。",
+      "background_type": "photo",
+      "label": "特写摄影底图，展示一只人眼的局部，包含眉毛、眼睑、睫毛及眼白",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_pupil",
+      "kind": "photo",
+      "bbox": [
+        324,
+        359,
+        486,
+        477
+      ],
+      "description": "嵌入瞳孔位置的独立照片，显示一名男性人物肖像，背景为星空，周围有蓝色光环效果，作为可替换摄影单元。",
+      "label": "嵌入瞳孔位置的独立照片，显示一名男性人物肖像，背景为星空，周",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_pupil"
+  ]
+}

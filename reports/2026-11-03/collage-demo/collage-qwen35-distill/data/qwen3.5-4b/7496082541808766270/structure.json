@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "生日派对场景的连续摄影底图，包含彩色气球、彩带、背景装饰画和桌面布置，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        67,
+        416,
+        453,
+        672
+      ],
+      "description": "心形窗口内的生日花束与蜡烛照片，保留花束、蜡烛和背景环境，显示区域为心形。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        453,
+        416,
+        925,
+        894
+      ],
+      "description": "右侧人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        109,
+        692,
+        526,
+        959
+      ],
+      "description": "下方人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        0,
+        0,
+        1000,
+        400
+      ],
+      "text": "Happy Birthday",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        530,
+        790,
+        925,
+        959
+      ],
+      "text": "Happy Birthday",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_heart",
+    "photo_right",
+    "photo_bottom",
+    "text_top",
+    "text_bottom"
+  ]
+}

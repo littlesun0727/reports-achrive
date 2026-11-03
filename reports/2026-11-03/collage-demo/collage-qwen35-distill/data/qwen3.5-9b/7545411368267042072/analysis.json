@@ -1,0 +1,241 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "室内咖啡馆场景，包含木质桌椅、吊灯、背景中的其他顾客和窗户，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内咖啡馆场景，包含木质桌椅、吊灯、背景中的其他顾客和窗户，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        225,
+        420,
+        630,
+        1139
+      ],
+      "description": "中心人物近景照片，人物手托脸颊，保留人物及身后的摄影环境，显示区域为不规则形状，被周围贴纸和文字部分遮挡。",
+      "label": "中心人物近景照片，人物手托脸颊，保留人物及身后的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        135,
+        60,
+        315,
+        300
+      ],
+      "description": "左上角圆形照片，展示木质托盘上的饮品和甜点，保留摄影环境，显示区域为圆形。",
+      "label": "左上角圆形照片，展示木质托盘上的饮品和甜点，保留摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        45,
+        300,
+        225,
+        540
+      ],
+      "description": "左侧矩形照片，展示人物手持饮品，保留摄影环境，显示区域为矩形。",
+      "label": "左侧矩形照片，展示人物手持饮品，保留摄影环境，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        585,
+        120,
+        855,
+        420
+      ],
+      "description": "右上角矩形照片，展示人物手持饮品，保留摄影环境，显示区域为矩形。",
+      "label": "右上角矩形照片，展示人物手持饮品，保留摄影环境，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        45,
+        719,
+        225,
+        959
+      ],
+      "description": "左下角矩形照片，展示木质托盘上的饮品和甜点，保留摄影环境，显示区域为矩形。",
+      "label": "左下角矩形照片，展示木质托盘上的饮品和甜点，保留摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        585,
+        719,
+        855,
+        959
+      ],
+      "description": "右下角心形照片，展示木质托盘上的饮品和甜点，保留摄影环境，显示区域为心形。",
+      "label": "右下角心形照片，展示木质托盘上的饮品和甜点，保留摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bear1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        180,
+        135,
+        300
+      ],
+      "description": "左上角棕色小熊贴纸，作为独立固定装饰保留。",
+      "label": "左上角棕色小熊贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear2",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        420,
+        765,
+        540
+      ],
+      "description": "右上角棕色小熊贴纸，作为独立固定装饰保留。",
+      "label": "右上角棕色小熊贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear3",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        719,
+        810,
+        839
+      ],
+      "description": "右下角白色小熊贴纸，作为独立固定装饰保留。",
+      "label": "右下角白色小熊贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        540,
+        90,
+        600
+      ],
+      "description": "左侧白色星星贴纸，作为独立固定装饰保留。",
+      "label": "左侧白色星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        1019,
+        540,
+        1079
+      ],
+      "description": "底部白色星星贴纸，作为独立固定装饰保留。",
+      "label": "底部白色星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        60,
+        855,
+        180
+      ],
+      "description": "右上角音乐符号贴纸，作为独立固定装饰保留。",
+      "label": "右上角音乐符号贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        270,
+        180,
+        450,
+        240
+      ],
+      "description": "Don't work the same these days.\nIt's clear we're both enough.",
+      "label": "Don't work the same these days",
+      "method": "local",
+      "text": "Don't work the same these days.\nIt's clear we're both enough.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        180,
+        779,
+        225,
+        839
+      ],
+      "description": "love",
+      "label": "love",
+      "method": "local",
+      "text": "love",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_main",
+    "photo_top_left",
+    "photo_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_bear1",
+    "overlay_bear2",
+    "overlay_bear3",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_music",
+    "text_1",
+    "text_2"
+  ]
+}

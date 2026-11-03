@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝天白云、电线、电线杆、街道、树木和建筑构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        86,
+        135,
+        412,
+        432
+      ],
+      "description": "左上人物全身照片，人物戴帽子、穿橙色上衣和蓝色阔腿裤，站在有棕榈树的街道旁，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        582,
+        295,
+        942,
+        620
+      ],
+      "description": "右上人物半身照片，人物戴帽子、穿橙色上衣和蓝色裤子，站在有棕榈树的街道旁，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        152,
+        600,
+        452,
+        882
+      ],
+      "description": "左下食物照片，展示虾、炸物和面条等菜肴，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        582,
+        618,
+        942,
+        832
+      ],
+      "description": "右下街道照片，展示停放的车辆和建筑，保留照片内的摄影环境。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        102,
+        152,
+        172
+      ],
+      "description": "左上角白色胶带贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        832,
+        532,
+        882
+      ],
+      "description": "左下角白色胶带贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        222,
+        792,
+        302
+      ],
+      "description": "右上角白色夹子贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        542,
+        112,
+        922,
+        192
+      ],
+      "text": "Live the life\nyou've imagined.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        562,
+        732,
+        852,
+        832
+      ],
+      "text": "OUR\nBELOVED\nSUMMER",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "text_2"
+  ]
+}

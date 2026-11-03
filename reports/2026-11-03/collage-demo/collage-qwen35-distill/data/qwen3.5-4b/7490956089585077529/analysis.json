@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1351
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1351
+      ],
+      "description": "全画布为带有细微纹理的浅色纸底，两张照片独立放置，纸底纹理在照片间隙及边缘保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布为带有细微纹理的浅色纸底，两张照片独立放置，纸底纹理在",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        65,
+        192,
+        691,
+        603
+      ],
+      "description": "上方人物半身照片，人物位于画面右侧，背景为网格状围栏和远处城市景观，显示区域为圆角矩形。",
+      "label": "上方人物半身照片，人物位于画面右侧，背景为网格状围栏和远处城",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        202,
+        782,
+        830,
+        1188
+      ],
+      "description": "下方人物半身照片，人物位于画面中央偏右，背景为金属围栏、远处建筑和阳光，显示区域为圆角矩形。",
+      "label": "下方人物半身照片，人物位于画面中央偏右，背景为金属围栏、远处",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "photo_bottom"
+  ]
+}

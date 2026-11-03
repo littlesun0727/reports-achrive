@@ -1,0 +1,98 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "浅蓝色调的固定纹理底图，包含水彩晕染、星形剪影和翅膀剪影等装饰元素，整体呈现拼贴风格；上层照片和文字框遮挡局部，保留底图可见区域。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        58,
+        168,
+        650,
+        735
+      ],
+      "description": "人物坐姿照片，女孩身穿条纹衬衫，背景为绿色植物墙，保留完整摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        468,
+        330,
+        738,
+        462
+      ],
+      "description": "花卉特写照片，白色花朵与绿叶，保留完整摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_flower",
+      "kind": "frame",
+      "bbox": [
+        428,
+        303,
+        778,
+        483
+      ],
+      "description": "围绕花卉照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_flower"
+      ]
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        480,
+        690,
+        875,
+        750
+      ],
+      "text": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_decor",
+      "kind": "text",
+      "bbox": [
+        800,
+        240,
+        920,
+        280
+      ],
+      "text": "summer",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        760,
+        865,
+        790
+      ],
+      "description": "两个心形装饰图案，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_flower",
+    "frame_flower",
+    "text_main",
+    "text_decor",
+    "overlay_hearts"
+  ]
+}

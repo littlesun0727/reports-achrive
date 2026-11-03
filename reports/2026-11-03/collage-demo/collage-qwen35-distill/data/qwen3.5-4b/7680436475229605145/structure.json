@@ -1,0 +1,158 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "模糊的街景与人物背影构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        96,
+        73,
+        563,
+        535
+      ],
+      "description": "左上人物全身照片，人物穿蓝白条纹衬衫，背景为街道和建筑，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        488,
+        73,
+        1000,
+        358
+      ],
+      "description": "右上人物局部照片，仅显示手臂和肩膀，背景为模糊街景，显示区域为矩形。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        488,
+        358,
+        896,
+        670
+      ],
+      "description": "右中人物半身照片，人物穿蓝白条纹衬衫，背景为街道和卷帘门，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        73,
+        650,
+        613,
+        942
+      ],
+      "description": "左下人物半身照片，人物穿蓝白条纹衬衫，背景为街道和护栏，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        613,
+        650,
+        1000,
+        1000
+      ],
+      "description": "右下人物局部照片，仅显示腿部、鞋子和部分躯干，背景为模糊街景，显示区域为矩形。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        231,
+        488,
+        358,
+        535
+      ],
+      "text": "slow your pace\nslow your pace",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        756,
+        100,
+        883,
+        283
+      ],
+      "text": "softly go with the flow\nmove at ease\nbreathe deep\nno need to hurry",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        563,
+        535,
+        756,
+        563
+      ],
+      "text": "Breathe and let it be.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        670,
+        670,
+        756,
+        942
+      ],
+      "text": "go\nwhere\nyou\nfeel\nlight",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        231,
+        535,
+        358,
+        670
+      ],
+      "text": "soft days\ncalm mode\nkeep life unruled\ngo where you feel light",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5"
+  ]
+}

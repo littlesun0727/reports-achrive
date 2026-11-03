@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一位年轻女性站在街道上的摄影底图，身穿深色格纹无袖连衣裙，背着双肩包，面带微笑。背景为灰色建筑墙面、街道及远处行人。画布边缘可见完整街道与建筑，上层贴纸与照片遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        38,
+        452,
+        365
+      ],
+      "description": "白色手绘五角星轮廓，内部嵌入一张女性半身照片，作为独立固定装饰单元保留。"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        152,
+        110,
+        358,
+        332
+      ],
+      "description": "星形窗口内的女性半身照片，与主图人物为同一人，保留摄影环境，显示区域为星形裁切。"
+    },
+    {
+      "id": "overlay_small_star",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        352,
+        442,
+        395
+      ],
+      "description": "白色手绘小五角星，位于主图人物头部左侧，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_clouds",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        435,
+        795,
+        555
+      ],
+      "description": "白色手绘云朵与闪光装饰组合，环绕主图人物腰部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        690,
+        352,
+        865
+      ],
+      "description": "白色心形贴纸，内含黑色文字“I”、红色心形图案及黑色文字“ME”，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_heart",
+      "kind": "text",
+      "bbox": [
+        125,
+        715,
+        285,
+        845
+      ],
+      "text": "I\nME",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_oval",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        560,
+        945,
+        945
+      ],
+      "description": "白色手绘椭圆轮廓，内部嵌入一张女性全身照片，作为独立固定装饰单元保留。"
+    },
+    {
+      "id": "photo_oval",
+      "kind": "photo",
+      "bbox": [
+        685,
+        625,
+        855,
+        915
+      ],
+      "description": "椭圆窗口内的女性全身照片，与主图人物为同一人，保留摄影环境，显示区域为椭圆裁切。"
+    }
+  ],
+  "layer_order": [
+    "photo_star",
+    "photo_oval",
+    "overlay_star",
+    "overlay_small_star",
+    "overlay_clouds",
+    "overlay_heart",
+    "text_heart",
+    "overlay_oval"
+  ]
+}

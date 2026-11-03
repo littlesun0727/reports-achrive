@@ -1,0 +1,380 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        404,
+        99,
+        777,
+        589
+      ],
+      "description": "右上人物近景照片，人物手持饮品，背景为室内环境，右侧被贴纸部分遮挡。",
+      "label": "右上人物近景照片，人物手持饮品，背景为室内环境，右侧被贴纸部",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        75,
+        491,
+        473,
+        875
+      ],
+      "description": "左侧人物半身照片，人物站在街道旁，背景为城市街景，上方被贴纸遮挡。",
+      "label": "左侧人物半身照片，人物站在街道旁，背景为城市街景，上方被贴纸",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        451,
+        671,
+        746,
+        1079
+      ],
+      "description": "右下人物近景照片，人物坐在木质结构前，背景为面包店环境，上方被贴纸遮挡。",
+      "label": "右下人物近景照片，人物坐在木质结构前，背景为面包店环境，上方",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        870,
+        492,
+        1198
+      ],
+      "description": "左下特写照片，展示手持饮品和手部细节，背景为模糊的室内环境。",
+      "label": "左下特写照片，展示手持饮品和手部细节，背景为模糊的室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bread_top",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        343,
+        404,
+        474
+      ],
+      "description": "面包形状贴纸，位于左上区域，带有白色轮廓和阴影效果。",
+      "label": "面包形状贴纸，位于左上区域，带有白色轮廓和阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bread_right",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        462,
+        900,
+        966
+      ],
+      "description": "面包形状贴纸，位于右侧区域，带有白色轮廓和阴影效果。",
+      "label": "面包形状贴纸，位于右侧区域，带有白色轮廓和阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_daily",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        423,
+        237,
+        522
+      ],
+      "description": "白色手写体文字贴纸，内容为'Daily'，带有阴影效果。",
+      "label": "白色手写体文字贴纸，内容为'Daily'，带有阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_coffee",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        111,
+        830,
+        187
+      ],
+      "description": "白色手写体文字贴纸，内容为'Coffee'，带有阴影效果。",
+      "label": "白色手写体文字贴纸，内容为'Coffee'，带有阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        732,
+        315,
+        842,
+        435
+      ],
+      "description": "白色线条勾勒的泰迪熊贴纸，带有蝴蝶结装饰。",
+      "label": "白色线条勾勒的泰迪熊贴纸，带有蝴蝶结装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        327,
+        135,
+        383,
+        180
+      ],
+      "description": "白色线条勾勒的星星贴纸，位于左上区域。",
+      "label": "白色线条勾勒的星星贴纸，位于左上区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        207,
+        833,
+        247
+      ],
+      "description": "白色线条勾勒的星星贴纸，位于右上区域。",
+      "label": "白色线条勾勒的星星贴纸，位于右上区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        185,
+        331,
+        225,
+        367
+      ],
+      "description": "白色线条勾勒的星星贴纸，位于左侧区域。",
+      "label": "白色线条勾勒的星星贴纸，位于左侧区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        761,
+        810,
+        815,
+        858
+      ],
+      "description": "白色线条勾勒的星星贴纸，位于右下区域。",
+      "label": "白色线条勾勒的星星贴纸，位于右下区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        1025,
+        338,
+        1070
+      ],
+      "description": "白色线条勾勒的星星贴纸，位于左下区域。",
+      "label": "白色线条勾勒的星星贴纸，位于左下区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        930,
+        491,
+        1049
+      ],
+      "description": "白色线条勾勒的兔子贴纸，带有蝴蝶结装饰。",
+      "label": "白色线条勾勒的兔子贴纸，带有蝴蝶结装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        846,
+        282,
+        906
+      ],
+      "description": "粉色蝴蝶结贴纸，带有白色轮廓和阴影效果。",
+      "label": "粉色蝴蝶结贴纸，带有白色轮廓和阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_2",
+      "kind": "overlay",
+      "bbox": [
+        669,
+        651,
+        797,
+        726
+      ],
+      "description": "蓝色蝴蝶结贴纸，带有白色轮廓和阴影效果。",
+      "label": "蓝色蝴蝶结贴纸，带有白色轮廓和阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        690,
+        104,
+        774
+      ],
+      "description": "白色线条勾勒的蛋糕贴纸，带有樱桃装饰。",
+      "label": "白色线条勾勒的蛋糕贴纸，带有樱桃装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pearls",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        878,
+        165,
+        918
+      ],
+      "description": "白色珍珠项链贴纸，带有钻石装饰。",
+      "label": "白色珍珠项链贴纸，带有钻石装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_diamond_1",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        882,
+        84,
+        910
+      ],
+      "description": "白色钻石贴纸，位于珍珠项链左侧。",
+      "label": "白色钻石贴纸，位于珍珠项链左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_diamond_2",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        882,
+        113,
+        906
+      ],
+      "description": "白色钻石贴纸，位于珍珠项链中间。",
+      "label": "白色钻石贴纸，位于珍珠项链中间。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_diamond_3",
+      "kind": "overlay",
+      "bbox": [
+        147,
+        882,
+        167,
+        906
+      ],
+      "description": "白色钻石贴纸，位于珍珠项链右侧。",
+      "label": "白色钻石贴纸，位于珍珠项链右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        630,
+        680,
+        671
+      ],
+      "description": "蓝色星星贴纸，带有白色轮廓和阴影效果。",
+      "label": "蓝色星星贴纸，带有白色轮廓和阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        671,
+        680,
+        690
+      ],
+      "description": "蓝色星星贴纸，带有白色轮廓和阴影效果。",
+      "label": "蓝色星星贴纸，带有白色轮廓和阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_8",
+      "kind": "overlay",
+      "bbox": [
+        671,
+        678,
+        687,
+        690
+      ],
+      "description": "蓝色星星贴纸，带有白色轮廓和阴影效果。",
+      "label": "蓝色星星贴纸，带有白色轮廓和阴影效果。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_right",
+    "photo_left",
+    "photo_bottom_right",
+    "photo_bottom_left",
+    "overlay_bread_top",
+    "overlay_bread_right",
+    "overlay_text_daily",
+    "overlay_text_coffee",
+    "overlay_bear",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_bunny",
+    "overlay_bow",
+    "overlay_bow_2",
+    "overlay_cake",
+    "overlay_pearls",
+    "overlay_diamond_1",
+    "overlay_diamond_2",
+    "overlay_diamond_3",
+    "overlay_star_6",
+    "overlay_star_7",
+    "overlay_star_8"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    962,
+    1712
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        962,
+        1712
+      ],
+      "description": "山水风景摄影底图，包含远处的喀斯特山峰、近处的河流、对岸的沙滩、树木以及一艘游船。画面整体色调偏蓝，具有雾气感。人物主体叠加在画面中央，遮挡了部分河流和背景。",
+      "background_type": "photo",
+      "label": "山水风景摄影底图，包含远处的喀斯特山峰、近处的河流、对岸的沙",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        0,
+        548,
+        962,
+        1712
+      ],
+      "description": "人物主体照片，女性身穿白色上衣，佩戴蓝色流苏耳环和银色手镯，右手抬起置于胸前，左手向左侧伸展。人物主体去背景，叠加在山水底图之上，遮挡了部分河流和背景。",
+      "label": "人物主体照片，女性身穿白色上衣，佩戴蓝色流苏耳环和银色手镯，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        1524,
+        952,
+        1626
+      ],
+      "description": "右下角的“小红书”圆形图标，白色背景，黑色文字，作为独立固定装饰保留。",
+      "label": "右下角的“小红书”圆形图标，白色背景，黑色文字，作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "text_id",
+      "kind": "text",
+      "bbox": [
+        722,
+        1626,
+        952,
+        1678
+      ],
+      "description": "小红书号：49321651677",
+      "label": "小红书号：49321651677",
+      "method": "local",
+      "text": "小红书号：49321651677",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_person",
+    "overlay_logo",
+    "text_id"
+  ]
+}

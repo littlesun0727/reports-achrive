@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-896361f2ac6450d3",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7790,
+    "completion_tokens": 843,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"室内木质墙面与置物架的连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        116,\n        172,\n        466,\n        522\n      ],\n      \"description\": \"左上咖啡桌照片，桌上有玩偶、蛋糕、咖啡和书本，保留摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        534,\n        250,\n        934,\n        490\n      ],\n      \"description\": \"右上蛋糕盘照片，盘中放有蛋糕和玩偶，保留摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        76,\n        576,\n        526,\n        766\n      ],\n      \"description\": \"左下蘑菇摆件照片，木板上摆放蘑菇模型，保留摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        566,\n        626,\n        916,\n        906\n      ],\n      \"description\": \"右下玩偶托盘照片，托盘中放有玩偶，保留摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        156,\n        106,\n        426,\n        176\n      ],\n      \"description\": \"顶部发光文字贴纸，内容为 'Boba'，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_2\",\n      \"kind\": \"overlay\",\n      \"bbox\":\n        [\n          106,\n          496,\n          376,\n          566\n        ],\n      \"description\": \"左侧发光文字贴纸，内容为 'of coffee?'，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        616,\n        526,\n        946,\n        596\n      ],\n      \"description\": \"右侧手写文字贴纸，内容为 '这一刻最好'，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        156,\n        776,\n        486,\n        886\n      ],\n      \"description\": \"底部云朵形状文字贴纸，内容为 'you drew stars around my scars'，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_1\",\n    \"photo_2\",\n    \"photo_3\",\n    \"photo_4\",\n    \"overlay_1\",\n    \"overlay_2\",\n    \"overlay_3\",\n    \"overlay_4\"\n  ]\n}",
+  "tool_calls": false
+}

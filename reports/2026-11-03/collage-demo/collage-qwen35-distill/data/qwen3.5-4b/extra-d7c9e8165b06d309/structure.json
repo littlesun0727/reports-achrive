@@ -1,0 +1,177 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "带有横线的笔记本纸纹理底图，承载整个拼贴设计；上层有米色边框和顶部夹子，照片与装饰元素独立替换。"
+  },
+  "objects": [
+    {
+      "id": "clip_top",
+      "kind": "overlay",
+      "bbox": [
+        356,
+        12,
+        642,
+        142
+      ],
+      "description": "顶部手绘风格夹子，包含文字clamp!，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_todo",
+      "kind": "text",
+      "bbox": [
+        153,
+        172,
+        447,
+        213
+      ],
+      "text": "#TO DO LIST:",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        178,
+        243,
+        462,
+        553
+      ],
+      "description": "饮品照片，展示多杯奶茶和手提袋，保留杯身、背景及文字，边缘有撕纸效果。"
+    },
+    {
+      "id": "text_drink",
+      "kind": "text",
+      "bbox": [
+        142,
+        582,
+        397,
+        618
+      ],
+      "text": "來一杯續命水！",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_girls",
+      "kind": "photo",
+      "bbox": [
+        508,
+        172,
+        847,
+        542
+      ],
+      "description": "两位女生合影照片，保留人物、背景及贴纸装饰，边缘有撕纸效果。"
+    },
+    {
+      "id": "text_happy",
+      "kind": "text",
+      "bbox": [
+        622,
+        462,
+        887,
+        537
+      ],
+      "text": "Happy plog.",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_toy",
+      "kind": "photo",
+      "bbox": [
+        187,
+        637,
+        557,
+        847
+      ],
+      "description": "手持毛绒玩具照片，保留手部、玩具及背景，边缘有撕纸效果。"
+    },
+    {
+      "id": "photo_toy_collection",
+      "kind": "photo",
+      "bbox": [
+        537,
+        562,
+        867,
+        747
+      ],
+      "description": "毛绒玩具收藏照片，展示多个Hello Kitty玩偶，保留陈列背景，边缘有撕纸效果。"
+    },
+    {
+      "id": "text_nice",
+      "kind": "text",
+      "bbox": [
+        617,
+        777,
+        832,
+        862
+      ],
+      "text": "HAVE A NICE DAY",
+      "color": "#333333",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "sticker_hearts",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        417,
+        202,
+        567
+      ],
+      "description": "左侧心形贴纸组，作为独立固定装饰保留。"
+    },
+    {
+      "id": "sticker_stars",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        167,
+        762,
+        237
+      ],
+      "description": "右上角星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "sticker_bear",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        807,
+        307,
+        877
+      ],
+      "description": "左下角小熊贴纸，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_drinks",
+    "text_todo",
+    "sticker_hearts",
+    "text_drink",
+    "photo_girls",
+    "text_happy",
+    "sticker_stars",
+    "photo_toy",
+    "photo_toy_collection",
+    "text_nice",
+    "sticker_bear",
+    "clip_top"
+  ]
+}

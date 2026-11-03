@@ -1,0 +1,248 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "蓝天白云与绿色草地构成连续摄影底图，完整显示区域延伸至画布四边；上层复古电脑、对话框、贴纸和弹窗遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云与绿色草地构成连续摄影底图，完整显示区域延伸至画布四",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_sticker",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        550,
+        434,
+        1150
+      ],
+      "description": "带白色描边的贴纸，人物戴厨师帽、手持蛋糕和勺子，位于键盘上方，作为独立固定装饰保留。",
+      "label": "带白色描边的贴纸，人物戴厨师帽、手持蛋糕和勺子，位于键盘上方",
+      "method": "extract"
+    },
+    {
+      "id": "photo_screen",
+      "kind": "photo",
+      "bbox": [
+        155,
+        238,
+        743,
+        818
+      ],
+      "description": "电脑屏幕显示像素风格厨房场景，人物戴厨师帽、手持蛋糕，保留屏幕内的摄影环境，显示区域为矩形。",
+      "label": "电脑屏幕显示像素风格厨房场景，人物戴厨师帽、手持蛋糕，保留屏",
+      "method": "local"
+    },
+    {
+      "id": "frame_computer",
+      "kind": "frame",
+      "bbox": [
+        101,
+        190,
+        875,
+        850
+      ],
+      "description": "围绕屏幕的复古电脑显示器外壳，包含屏幕内口和机身，位于屏幕下方，完整框体作为一个单元保留。",
+      "photo_id": [
+        "photo_screen"
+      ],
+      "label": "围绕屏幕的复古电脑显示器外壳，包含屏幕内口和机身，位于屏幕下",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_keyboard",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        818,
+        785,
+        994
+      ],
+      "description": "复古电脑键盘，位于显示器下方，作为独立固定装饰保留。",
+      "label": "复古电脑键盘，位于显示器下方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dialogue",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        182,
+        290,
+        394
+      ],
+      "description": "白色对话框，内含文字'online'，位于左上角，作为独立固定装饰保留。",
+      "label": "白色对话框，内含文字'online'，位于左上角，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_window_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        434,
+        274
+      ],
+      "description": "左上角Windows系统恢复窗口，包含图标和文字，作为独立固定装饰保留。",
+      "label": "左上角Windows系统恢复窗口，包含图标和文字，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_window_top_right",
+      "kind": "overlay",
+      "bbox": [
+        434,
+        0,
+        900,
+        190
+      ],
+      "description": "右上角Windows关机/重启窗口，包含图标和文字，作为独立固定装饰保留。",
+      "label": "右上角Windows关机/重启窗口，包含图标和文字，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_window_bottom",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        994,
+        900,
+        1200
+      ],
+      "description": "右下角Windows'What'弹窗，包含文字和按钮，作为独立固定装饰保留。",
+      "label": "右下角Windows'What'弹窗，包含文字和按钮，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_palette",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        790,
+        900,
+        994
+      ],
+      "description": "右下角颜色选择器面板，包含渐变条，作为独立固定装饰保留。",
+      "label": "右下角颜色选择器面板，包含渐变条，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        11,
+        274,
+        101,
+        634
+      ],
+      "description": "Copy\nPaste\nCut\nCreate Shortcuts\nRename\nDelete\nProperties",
+      "label": "Copy\nPaste\nCut\nCreate Shortcut",
+      "method": "local",
+      "text": "Copy\nPaste\nCut\nCreate Shortcuts\nRename\nDelete\nProperties",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        650,
+        994,
+        785,
+        1030
+      ],
+      "description": "What",
+      "label": "What",
+      "method": "local",
+      "text": "What",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        650,
+        1030,
+        785,
+        1066
+      ],
+      "description": "Why this happen",
+      "label": "Why this happen",
+      "method": "local",
+      "text": "Why this happen",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        650,
+        1066,
+        785,
+        1102
+      ],
+      "description": "beuzu",
+      "label": "beuzu",
+      "method": "local",
+      "text": "beuzu",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_computer",
+    "overlay_keyboard",
+    "overlay_sticker",
+    "photo_screen",
+    "overlay_dialogue",
+    "overlay_window_top",
+    "overlay_window_top_right",
+    "overlay_window_bottom",
+    "overlay_palette",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

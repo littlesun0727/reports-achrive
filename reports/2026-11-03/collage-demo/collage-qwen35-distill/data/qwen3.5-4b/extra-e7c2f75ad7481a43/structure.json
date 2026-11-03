@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "灰蓝色天空与云层构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留天空与云层的整体环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        447,
+        10,
+        915,
+        483
+      ],
+      "description": "竖向街景照片，展示傍晚街道、建筑剪影和天空，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        163,
+        333,
+        333
+      ],
+      "description": "横向街景照片，展示阳光下的街道和棕榈树，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        483,
+        513,
+        915
+      ],
+      "description": "横向街景照片，展示黄昏时分的城市天际线和建筑，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        483,
+        1000,
+        915
+      ],
+      "description": "横向街景照片，展示傍晚街道、人群和气球装饰，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        437,
+        10,
+        925,
+        493
+      ],
+      "description": "围绕右上照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        46,
+        153,
+        343,
+        343
+      ],
+      "description": "围绕左上照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        46,
+        473,
+        523,
+        923
+      ],
+      "description": "围绕左下照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_left"
+      ]
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        503,
+        473,
+        1000,
+        923
+      ],
+      "description": "围绕右下照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ]
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        10,
+        437,
+        153
+      ],
+      "description": "白色手写体英文文字，位于左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "overlay",
+      "bbox": [
+        833,
+        903,
+        1000,
+        963
+      ],
+      "description": "白色手写体中文文字，位于右下角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        12,
+        733,
+        84
+      ],
+      "description": "白色手绘回形针，位于右上照片框的上沿，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        333,
+        437,
+        483
+      ],
+      "description": "白色手绘装饰图案，位于左中区域，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_right",
+    "photo_top_left",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "frame_top_right",
+    "frame_top_left",
+    "frame_bottom_left",
+    "frame_bottom_right",
+    "overlay_text_1",
+    "overlay_text_2",
+    "overlay_clip",
+    "overlay_decorations"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一位年轻女性站在街道上的摄影底图，身穿深色格纹无袖连衣裙，背着双肩包，面带微笑。背景为灰色建筑墙面、街道及远处行人。画布边缘可见完整街道与建筑，上层贴纸与照片遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一位年轻女性站在街道上的摄影底图，身穿深色格纹无袖连衣裙，背",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        46,
+        407,
+        438
+      ],
+      "description": "白色手绘五角星轮廓，内部嵌入一张女性半身照片，作为独立固定装饰单元保留。",
+      "label": "白色手绘五角星轮廓，内部嵌入一张女性半身照片，作为独立固定装",
+      "method": "extract"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        137,
+        132,
+        322,
+        398
+      ],
+      "description": "星形窗口内的女性半身照片，与主图人物为同一人，保留摄影环境，显示区域为星形裁切。",
+      "label": "星形窗口内的女性半身照片，与主图人物为同一人，保留摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_small_star",
+      "kind": "overlay",
+      "bbox": [
+        344,
+        422,
+        398,
+        474
+      ],
+      "description": "白色手绘小五角星，位于主图人物头部左侧，作为独立装饰保留。",
+      "label": "白色手绘小五角星，位于主图人物头部左侧，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clouds",
+      "kind": "overlay",
+      "bbox": [
+        256,
+        522,
+        716,
+        666
+      ],
+      "description": "白色手绘云朵与闪光装饰组合，环绕主图人物腰部，作为独立固定装饰保留。",
+      "label": "白色手绘云朵与闪光装饰组合，环绕主图人物腰部，作为独立固定装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        828,
+        317,
+        1038
+      ],
+      "description": "白色心形贴纸，内含黑色文字“I”、红色心形图案及黑色文字“ME”，作为独立固定装饰保留。",
+      "label": "白色心形贴纸，内含黑色文字“I”、红色心形图案及黑色文字“M",
+      "method": "extract"
+    },
+    {
+      "id": "text_heart",
+      "kind": "text",
+      "bbox": [
+        112,
+        858,
+        256,
+        1014
+      ],
+      "description": "I\nME",
+      "label": "I\nME",
+      "method": "local",
+      "text": "I\nME",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_oval",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        672,
+        850,
+        1134
+      ],
+      "description": "白色手绘椭圆轮廓，内部嵌入一张女性全身照片，作为独立固定装饰单元保留。",
+      "label": "白色手绘椭圆轮廓，内部嵌入一张女性全身照片，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "photo_oval",
+      "kind": "photo",
+      "bbox": [
+        616,
+        750,
+        770,
+        1098
+      ],
+      "description": "椭圆窗口内的女性全身照片，与主图人物为同一人，保留摄影环境，显示区域为椭圆裁切。",
+      "label": "椭圆窗口内的女性全身照片，与主图人物为同一人，保留摄影环境，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_star",
+    "photo_oval",
+    "overlay_star",
+    "overlay_small_star",
+    "overlay_clouds",
+    "overlay_heart",
+    "text_heart",
+    "overlay_oval"
+  ]
+}

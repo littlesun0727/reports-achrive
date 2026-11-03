@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        8,
+        6,
+        992,
+        331
+      ],
+      "description": "顶部横向照片，一名戴黄色棒球帽、穿浅色外套的人居中低头，双臂向两侧上方展开，身体下部沿窗口底边裁切。保留绿色草坪、树林及后方建筑环境，矩形窗口边缘清晰。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        8,
+        338,
+        992,
+        663
+      ],
+      "description": "中部横向远景照片，一名戴黄色帽子、穿浅色外套和深色下装的人位于右侧，背对镜头向草坪远处行走。保留完整草地、树林和建筑环境；窗口下部中央被下方照片延伸上来的人像遮挡，不据此缩小窗口。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        8,
+        669,
+        992,
+        994
+      ],
+      "description": "底部横向照片，浅色外套人物正对镜头，人物躯干位于中央，身后保留绿色草坪、树木及远处围栏环境。矩形照片窗口与中部照片之间有白色间隔；同一人物的头部连续越过窗口上边，另以前景层表达。"
+    },
+    {
+      "id": "photo_bottom_foreground",
+      "kind": "photo",
+      "bbox": [
+        53,
+        473,
+        831,
+        994
+      ],
+      "description": "延伸自底部照片的同一人物，戴黄色棒球帽和黑色太阳镜，穿浅色外套，胸前有蓝色斜带，正面朝向镜头。沿人物外轮廓去除摄影环境，头部越过底部窗口上边及白色间隔，覆盖中部照片中央偏左区域；躯干与底部照片连续，身体下部仍被画布底部窗口裁切，无独立描边。",
+      "linked_to": "photo_bottom"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "photo_bottom_foreground"
+  ]
+}

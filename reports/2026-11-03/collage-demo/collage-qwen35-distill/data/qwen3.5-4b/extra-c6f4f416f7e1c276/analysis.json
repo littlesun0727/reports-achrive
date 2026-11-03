@@ -1,0 +1,364 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1477
+  ],
+  "objects": [
+    {
+      "id": "album_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1477
+      ],
+      "description": "白色活页本页面底图，包含左侧金属活页环和右侧页面区域，页面边缘有轻微阴影，整体呈现固定设计模板效果。",
+      "background_type": "reference_clean",
+      "label": "白色活页本页面底图，包含左侧金属活页环和右侧页面区域，页面边",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        227,
+        170,
+        772,
+        569
+      ],
+      "description": "顶部人物半身照片，人物戴黑色帽子，身穿黑色上衣，背景为绿色瓷砖墙面，照片被黄色矩形框包围。",
+      "label": "顶部人物半身照片，人物戴黑色帽子，身穿黑色上衣，背景为绿色瓷",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        227,
+        613,
+        632,
+        913
+      ],
+      "description": "中部人物全身照片，人物戴白色帽子，身穿绿色上衣和牛仔裤，站在蓝色门框前，背景为店铺橱窗。",
+      "label": "中部人物全身照片，人物戴白色帽子，身穿绿色上衣和牛仔裤，站在",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        227,
+        1034,
+        540,
+        1334
+      ],
+      "description": "底部人物半身照片，人物手持绿色物品，身穿灰色上衣和牛仔裤，背景为玻璃门和绿植。",
+      "label": "底部人物半身照片，人物手持绿色物品，身穿灰色上衣和牛仔裤，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_large_right",
+      "kind": "photo",
+      "bbox": [
+        491,
+        706,
+        1031,
+        1477
+      ],
+      "description": "右侧大尺寸人物照片，人物戴黑色帽子，身穿黑色上衣和黑色裤子，手持黑色包袋，照片边缘有白色不规则裁切效果。",
+      "label": "右侧大尺寸人物照片，人物戴黑色帽子，身穿黑色上衣和黑色裤子，",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        221,
+        160,
+        810,
+        579
+      ],
+      "description": "围绕顶部照片的黄色矩形相框，相框顶部有棕色文字装饰，相框右侧有棕色数字'3'装饰。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕顶部照片的黄色矩形相框，相框顶部有棕色文字装饰，相框右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lemon",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        411,
+        297,
+        539
+      ],
+      "description": "蓝色圆形贴纸，内部有三片黄色柠檬切片图案，位于顶部照片左侧。",
+      "label": "蓝色圆形贴纸，内部有三片黄色柠檬切片图案，位于顶部照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        236,
+        956,
+        396
+      ],
+      "description": "棕色波点背景贴纸，中央有绿色咖啡杯图案，杯中有拉花咖啡。",
+      "label": "棕色波点背景贴纸，中央有绿色咖啡杯图案，杯中有拉花咖啡。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_icecream",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        953,
+        297,
+        1123
+      ],
+      "description": "紫色波点背景贴纸，中央有黄色冰淇淋甜筒图案。",
+      "label": "紫色波点背景贴纸，中央有黄色冰淇淋甜筒图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink",
+      "kind": "overlay",
+      "bbox": [
+        729,
+        657,
+        961,
+        805
+      ],
+      "description": "粉色五角星贴纸，内部有白色波点图案，位于右侧大照片上方。",
+      "label": "粉色五角星贴纸，内部有白色波点图案，位于右侧大照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink_small",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        820,
+        724,
+        879
+      ],
+      "description": "小型粉色五角星贴纸，位于中部照片右侧。",
+      "label": "小型粉色五角星贴纸，位于中部照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink_small_2",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        908,
+        562,
+        953
+      ],
+      "description": "小型粉色五角星贴纸，位于中部照片下方。",
+      "label": "小型粉色五角星贴纸，位于中部照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink_small_3",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        945,
+        751,
+        990
+      ],
+      "description": "小型粉色五角星贴纸，位于右侧大照片中部。",
+      "label": "小型粉色五角星贴纸，位于右侧大照片中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flag",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        1012,
+        745,
+        1108
+      ],
+      "description": "蓝色三角形旗帜贴纸，内部有红色文字'like'。",
+      "label": "蓝色三角形旗帜贴纸，内部有红色文字'like'。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        243,
+        524,
+        788,
+        569
+      ],
+      "description": "Find sweetness in plain days",
+      "label": "Find sweetness in plain days",
+      "method": "local",
+      "text": "Find sweetness in plain days",
+      "text_status": "known",
+      "style": {
+        "fill": "#5D4037",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        826,
+        428,
+        956,
+        539
+      ],
+      "description": "The best time is\non the road.",
+      "label": "The best time is\non the road.",
+      "method": "local",
+      "text": "The best time is\non the road.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        724,
+        561,
+        967,
+        702
+      ],
+      "description": "Lemon\nTangy",
+      "label": "Lemon\nTangy",
+      "method": "local",
+      "text": "Lemon\nTangy",
+      "text_status": "known",
+      "style": {
+        "fill": "#4FC3F7",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        508,
+        857,
+        680,
+        923
+      ],
+      "description": "I'M\nSO HAPPY",
+      "label": "I'M\nSO HAPPY",
+      "method": "local",
+      "text": "I'M\nSO HAPPY",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        621,
+        931,
+        724,
+        967
+      ],
+      "description": "TODAY",
+      "label": "TODAY",
+      "method": "local",
+      "text": "TODAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        275,
+        938,
+        562,
+        997
+      ],
+      "description": "The world is too big\nto Stay in one place.",
+      "label": "The world is too big\nto Stay i",
+      "method": "local",
+      "text": "The world is too big\nto Stay in one place.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_tape_red",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        576,
+        324,
+        702
+      ],
+      "description": "红色波点胶带贴纸，位于中部照片左侧。",
+      "label": "红色波点胶带贴纸，位于中部照片左侧。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "album_base",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "photo_large_right",
+    "frame_top",
+    "overlay_lemon",
+    "overlay_coffee",
+    "overlay_icecream",
+    "overlay_star_pink",
+    "overlay_star_pink_small",
+    "overlay_star_pink_small_2",
+    "overlay_star_pink_small_3",
+    "overlay_flag",
+    "overlay_tape_red",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6"
+  ]
+}

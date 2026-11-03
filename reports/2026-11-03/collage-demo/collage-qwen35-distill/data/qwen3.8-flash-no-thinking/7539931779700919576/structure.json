@@ -1,0 +1,223 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "bg_dark_room",
+    "description": "昏暗的室内场景，包含深色地面、墙壁及顶部光源。作为全画布底图，承载前景人物与背景胶片墙，提供整体空间氛围。"
+  },
+  "objects": [
+    {
+      "id": "frame_wall_top",
+      "kind": "frame",
+      "bbox": [
+        0,
+        35,
+        1000,
+        360
+      ],
+      "description": "位于上方的一排倾斜胶片框，具有黑色边框和白色齿孔，内部包含多个游戏场景画面窗口。",
+      "photo_id": [
+        "photo_scene_1",
+        "photo_scene_2",
+        "photo_scene_3",
+        "photo_scene_4"
+      ]
+    },
+    {
+      "id": "photo_scene_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        185,
+        95,
+        350
+      ],
+      "description": "左侧第一个窗口，显示一个身穿黑斗篷的游戏角色背影。"
+    },
+    {
+      "id": "photo_scene_2",
+      "kind": "photo",
+      "bbox": [
+        95,
+        135,
+        355,
+        345
+      ],
+      "description": "左侧第二个窗口，显示两个游戏角色在草地上的场景。"
+    },
+    {
+      "id": "photo_scene_3",
+      "kind": "photo",
+      "bbox": [
+        355,
+        75,
+        720,
+        325
+      ],
+      "description": "中间窗口，显示一个游戏角色站在雪地或浅色地面上。"
+    },
+    {
+      "id": "photo_scene_4",
+      "kind": "photo",
+      "bbox": [
+        720,
+        35,
+        1000,
+        285
+      ],
+      "description": "右侧窗口，显示两个游戏角色在石拱门前的场景。"
+    },
+    {
+      "id": "frame_wall_mid",
+      "kind": "frame",
+      "bbox": [
+        0,
+        360,
+        1000,
+        590
+      ],
+      "description": "位于中部的一排倾斜胶片框，具有黑色边框和白色齿孔，部分被前景人物遮挡。",
+      "photo_id": [
+        "photo_scene_5",
+        "photo_scene_6",
+        "photo_scene_7",
+        "photo_scene_8"
+      ]
+    },
+    {
+      "id": "photo_scene_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        410,
+        205,
+        565
+      ],
+      "description": "左侧窗口，显示两个游戏角色在蓝色雾气场景中。"
+    },
+    {
+      "id": "photo_scene_6",
+      "kind": "photo",
+      "bbox": [
+        205,
+        395,
+        475,
+        575
+      ],
+      "description": "中左窗口，显示两个游戏角色在阳光下的草地上互动。"
+    },
+    {
+      "id": "photo_scene_7",
+      "kind": "photo",
+      "bbox": [
+        475,
+        385,
+        885,
+        585
+      ],
+      "description": "中右窗口，大部分被前景人物遮挡，仅露出边缘。"
+    },
+    {
+      "id": "photo_scene_8",
+      "kind": "photo",
+      "bbox": [
+        885,
+        375,
+        1000,
+        595
+      ],
+      "description": "右侧窗口，显示一个游戏角色站在树旁。"
+    },
+    {
+      "id": "frame_wall_bot",
+      "kind": "frame",
+      "bbox": [
+        0,
+        590,
+        1000,
+        950
+      ],
+      "description": "位于下方的一排倾斜胶片框，具有黑色边框和白色齿孔，部分被前景人物遮挡。",
+      "photo_id": [
+        "photo_scene_9",
+        "photo_scene_10",
+        "photo_scene_11",
+        "photo_scene_12"
+      ]
+    },
+    {
+      "id": "photo_scene_9",
+      "kind": "photo",
+      "bbox": [
+        0,
+        625,
+        95,
+        795
+      ],
+      "description": "左侧窗口，显示一个张开双臂的游戏角色。"
+    },
+    {
+      "id": "photo_scene_10",
+      "kind": "photo",
+      "bbox": [
+        95,
+        625,
+        355,
+        835
+      ],
+      "description": "中左窗口，显示三个游戏角色站在一起。"
+    },
+    {
+      "id": "photo_scene_11",
+      "kind": "photo",
+      "bbox": [
+        355,
+        695,
+        605,
+        885
+      ],
+      "description": "中右窗口，大部分被前景人物遮挡，仅露出左下角。"
+    },
+    {
+      "id": "photo_scene_12",
+      "kind": "photo",
+      "bbox": [
+        605,
+        695,
+        1000,
+        950
+      ],
+      "description": "右侧窗口，显示一个游戏角色坐在树下。"
+    },
+    {
+      "id": "photo_character_main",
+      "kind": "photo",
+      "bbox": [
+        355,
+        165,
+        980,
+        995
+      ],
+      "description": "前景中央的大型游戏角色，白头发，身披橙色斗篷，背对观众站立，遮挡了后方胶片墙的中部区域。"
+    }
+  ],
+  "layer_order": [
+    "frame_wall_top",
+    "photo_scene_1",
+    "photo_scene_2",
+    "photo_scene_3",
+    "photo_scene_4",
+    "frame_wall_mid",
+    "photo_scene_5",
+    "photo_scene_6",
+    "photo_scene_7",
+    "photo_scene_8",
+    "frame_wall_bot",
+    "photo_scene_9",
+    "photo_scene_10",
+    "photo_scene_11",
+    "photo_scene_12",
+    "photo_character_main"
+  ]
+}

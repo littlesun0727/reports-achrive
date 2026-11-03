@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-24051ab7-935e-9b89-bbd8-c75e349de82c",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8300,
+    "completion_tokens": 1353,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1353
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_pattern\",\n    \"description\": \"粉色底白色圆点图案背景，顶部有黑色蕾丝花边装饰。该固定纹理覆盖全画布，作为所有照片和装饰元素的底层衬托。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        90,\n        178,\n        652,\n        483\n      ],\n      \"description\": \"上方矩形照片窗口内的年轻女性半身像，佩戴银色项链和耳饰，长发披肩，面带微笑注视镜头。\"\n    },\n    {\n      \"id\": \"frame_top\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        52,\n        150,\n        690,\n        510\n      ],\n      \"description\": \"围绕上方照片的黑色粗边框，边缘带有规则排列的白色圆点装饰。\",\n      \"photo_id\": [\n        \"photo_top\"\n      ]\n    },\n    {\n      \"id\": \"overlay_lace\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        15,\n        1000,\n        60\n      ],\n      \"description\": \"位于画面最顶部的黑色蕾丝花边条带，具有镂空心形和波浪边缘细节。\"\n    },\n    {\n      \"id\": \"overlay_diamonds\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        495,\n        128,\n        710,\n        260\n      ],\n      \"description\": \"由多颗透明水钻组成的蝴蝶结形状装饰，叠加在上方相框的右上角区域。\"\n    },\n    {\n      \"id\": \"overlay_sheep\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        35,\n        375,\n        250,\n        530\n      ],\n      \"description\": \"白色毛绒小羊玩偶贴纸，颈部系有浅蓝色丝带，位于上方相框左下角并部分遮挡相框。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        345,\n        595,\n        885,\n        895\n      ],\n      \"description\": \"下方矩形照片窗口内的年轻女性近景，手指轻触下巴，眼神柔和，头顶佩戴粉色蝴蝶结发饰。\"\n    },\n    {\n      \"id\": \"frame_bottom\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        305,\n        565,\n        935,\n        915\n      ],\n      \"description\": \"围绕下方照片的黑色粗边框，边缘同样带有规则排列的白色圆点装饰。\",\n      \"photo_id\": [\n        \"photo_bottom\"\n      ]\n    },\n    {\n      \"id\": \"text_bubble_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        195,\n        635,\n        425,\n        670\n      ],\n      \"text\": \"I am a princess\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": false,\n      \"description\": \"位于左侧中部的粉色对话气泡标签，包含文字内容。\"\n    },\n    {\n      \"id\": \"text_bubble_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        60,\n        685,\n        425,\n        720\n      ],\n      \"text\": \"But you're not my prince\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": false,\n      \"description\": \"位于第一个气泡下方的长条形粉色对话气泡标签，包含文字内容。\"\n    },\n    {\n      \"id\": \"overlay_bear\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        805,\n        500,\n        985,\n        660\n      ],\n      \"description\": \"白色毛绒小熊玩偶贴纸，颈部系有粉色丝带，位于下方相框右上角并部分遮挡相框。\"\n    },\n    {\n      \"id\": \"overlay_wings\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        205,\n        830,\n        560,\n        930\n      ],\n      \"description\": \"一对白色立体翅膀装饰，位于下方相框底部边缘中央，呈对称分布。\"\n    },\n    {\n      \"id\": \"overlay_star\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        795,\n        810,\n        935,\n        915\n      ],\n      \"description\": \"由珍珠串成的五角星轮廓装饰，位于下方相框右下角内部区域。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"frame_top\",\n    \"overlay_lace\",\n    \"overlay_diamonds\",\n    \"overlay_sheep\",\n    \"photo_bottom\",\n    \"frame_bottom\",\n    \"text_bubble_1\",\n    \"text_bubble_2\",\n    \"overlay_bear\",\n    \"overlay_wings\",\n    \"overlay_star\"\n  ]\n}",
+  "tool_calls": false
+}

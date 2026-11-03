@@ -1,0 +1,192 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝天白云与绿色草地构成连续摄影底图，完整显示区域延伸至画布四边；上层复古电脑、对话框、贴纸和弹窗遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_sticker",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        458,
+        482,
+        958
+      ],
+      "description": "带白色描边的贴纸，人物戴厨师帽、手持蛋糕和勺子，位于键盘上方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_screen",
+      "kind": "photo",
+      "bbox": [
+        172,
+        198,
+        826,
+        682
+      ],
+      "description": "电脑屏幕显示像素风格厨房场景，人物戴厨师帽、手持蛋糕，保留屏幕内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_computer",
+      "kind": "frame",
+      "bbox": [
+        112,
+        158,
+        972,
+        708
+      ],
+      "description": "围绕屏幕的复古电脑显示器外壳，包含屏幕内口和机身，位于屏幕下方，完整框体作为一个单元保留。",
+      "photo_id": [
+        "photo_screen"
+      ]
+    },
+    {
+      "id": "overlay_keyboard",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        682,
+        872,
+        828
+      ],
+      "description": "复古电脑键盘，位于显示器下方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_dialogue",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        152,
+        322,
+        328
+      ],
+      "description": "白色对话框，内含文字'online'，位于左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_window_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        482,
+        228
+      ],
+      "description": "左上角Windows系统恢复窗口，包含图标和文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_window_top_right",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        0,
+        1000,
+        158
+      ],
+      "description": "右上角Windows关机/重启窗口，包含图标和文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_window_bottom",
+      "kind": "overlay",
+      "bbox": [
+        722,
+        828,
+        1000,
+        1000
+      ],
+      "description": "右下角Windows'What'弹窗，包含文字和按钮，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_palette",
+      "kind": "overlay",
+      "bbox": [
+        872,
+        658,
+        1000,
+        828
+      ],
+      "description": "右下角颜色选择器面板，包含渐变条，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        12,
+        228,
+        112,
+        528
+      ],
+      "text": "Copy\nPaste\nCut\nCreate Shortcuts\nRename\nDelete\nProperties",
+      "color": "#000000",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        722,
+        828,
+        872,
+        858
+      ],
+      "text": "What",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        722,
+        858,
+        872,
+        888
+      ],
+      "text": "Why this happen",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        722,
+        888,
+        872,
+        918
+      ],
+      "text": "beuzu",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_computer",
+    "overlay_keyboard",
+    "overlay_sticker",
+    "photo_screen",
+    "overlay_dialogue",
+    "overlay_window_top",
+    "overlay_window_top_right",
+    "overlay_window_bottom",
+    "overlay_palette",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

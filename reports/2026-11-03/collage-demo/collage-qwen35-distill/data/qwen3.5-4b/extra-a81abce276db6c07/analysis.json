@@ -1,0 +1,109 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2561
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2561
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1440,
+        896
+      ],
+      "description": "人物背影照片，位于画布顶部，人物面向大海，背景为水面和远山，底部边缘有渐隐效果。",
+      "label": "人物背影照片，位于画布顶部，人物面向大海，背景为水面和远山，",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        896,
+        1440,
+        1793
+      ],
+      "description": "人物侧脸照片，位于画布中部，人物面向左侧，背景为天空、云朵和远山，底部边缘有渐隐效果。",
+      "label": "人物侧脸照片，位于画布中部，人物面向左侧，背景为天空、云朵和",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1793,
+        1440,
+        2561
+      ],
+      "description": "人物仰头照片，位于画布底部，人物仰头望天，背景为水面，顶部边缘有渐隐效果。",
+      "label": "人物仰头照片，位于画布底部，人物仰头望天，背景为水面，顶部边",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        1195,
+        2459,
+        1426,
+        2535
+      ],
+      "description": "小红书号: 862000240",
+      "label": "小红书号: 862000240",
+      "method": "local",
+      "text": "小红书号: 862000240",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_1",
+      "kind": "overlay",
+      "bbox": [
+        1368,
+        2433,
+        1426,
+        2535
+      ],
+      "description": "白色小红书图标，位于文字上方，作为独立固定装饰保留。",
+      "label": "白色小红书图标，位于文字上方，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "icon_1",
+    "text_1"
+  ]
+}

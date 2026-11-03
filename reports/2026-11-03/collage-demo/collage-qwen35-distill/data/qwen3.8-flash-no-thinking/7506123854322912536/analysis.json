@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg_wall_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布连续底图，由白色砖墙、灰色石质台阶及缝隙中的绿色植物和雏菊构成。该部分为固定设计背景，需保留原样；上层照片与装饰遮挡局部，但底图范围延伸至画布四边。",
+      "background_type": "reference_clean",
+      "label": "全画布连续底图，由白色砖墙、灰色石质台阶及缝隙中的绿色植物和",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        68,
+        154,
+        680,
+        539
+      ],
+      "description": "上方矩形照片窗口，显示一名身穿白色上衣的年轻女子在户外阳台托腮沉思，背景有棕榈树和白色栏杆。边缘带有柔和的羽化效果，自然融入底图。",
+      "label": "上方矩形照片窗口，显示一名身穿白色上衣的年轻女子在户外阳台托",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower_pattern_1",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        76,
+        146,
+        241
+      ],
+      "description": "左上角半透明白色网格状花朵图案，作为独立装饰叠加在底图和照片之上。",
+      "label": "左上角半透明白色网格状花朵图案，作为独立装饰叠加在底图和照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_pattern_2",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        406,
+        788,
+        594
+      ],
+      "description": "右侧中部半透明白色网格状花朵图案，位于上方照片右下角附近，叠加在底图上。",
+      "label": "右侧中部半透明白色网格状花朵图案，位于上方照片右下角附近，叠",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        273,
+        694,
+        808,
+        1070
+      ],
+      "description": "下方矩形照片窗口，显示同一名年轻女子坐在车内（或类似座椅环境），正面注视镜头。边缘同样带有柔和的羽化效果。",
+      "label": "下方矩形照片窗口，显示同一名年轻女子坐在车内（或类似座椅环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_green_grid",
+      "kind": "overlay",
+      "bbox": [
+        142,
+        894,
+        333,
+        1114
+      ],
+      "description": "左下角绿色网格方块，内部包含手绘风格的黑色线条图案，叠加在底图和下方照片左缘之上。",
+      "label": "左下角绿色网格方块，内部包含手绘风格的黑色线条图案，叠加在底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_pattern_3",
+      "kind": "overlay",
+      "bbox": [
+        596,
+        1006,
+        898,
+        1158
+      ],
+      "description": "右下角半透明白色网格状花朵图案，叠加在底图最下层区域。",
+      "label": "右下角半透明白色网格状花朵图案，叠加在底图最下层区域。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_wall_texture",
+    "photo_top",
+    "photo_bottom",
+    "overlay_flower_pattern_1",
+    "overlay_flower_pattern_2",
+    "overlay_green_grid",
+    "overlay_flower_pattern_3"
+  ]
+}

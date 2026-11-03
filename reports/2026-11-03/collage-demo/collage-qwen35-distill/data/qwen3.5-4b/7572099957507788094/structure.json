@@ -1,0 +1,179 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "带有水珠和绿色调的模糊玻璃表面，作为全画布摄影底图，承载所有独立照片和装饰元素。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        151,
+        74,
+        499,
+        440
+      ],
+      "description": "左上角绿叶特写照片，叶片上有水珠，背景模糊，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        560,
+        227,
+        898,
+        483
+      ],
+      "description": "右上角仰视树木照片，树干粗壮，树叶茂密，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        72,
+        478,
+        419,
+        740
+      ],
+      "description": "左下角仰视树木照片，树叶繁茂，天空可见，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        499,
+        520,
+        856,
+        909
+      ],
+      "description": "右下角模糊绿色背景照片，带有水珠，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        57,
+        183,
+        113
+      ],
+      "description": "左上角白色五角星装饰，位于照片上方。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        199,
+        942,
+        256
+      ],
+      "description": "右上角白色五角星装饰，位于照片上方。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        823,
+        856,
+        930,
+        935
+      ],
+      "description": "右下角白色五角星装饰，位于照片下方。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        305,
+        405,
+        365
+      ],
+      "description": "左上角照片内的白色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        585,
+        415,
+        625
+      ],
+      "description": "左下角照片内的白色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        555,
+        370,
+        595,
+        410
+      ],
+      "description": "右上角照片内的白色五角星装饰。"
+    },
+    {
+      "id": "overlay_circle",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        305,
+        665,
+        630
+      ],
+      "description": "贯穿画面的白色虚线螺旋装饰，连接多个照片区域。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        55,
+        660,
+        285,
+        745
+      ],
+      "text": "Happiness",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        72,
+        755,
+        485,
+        940
+      ],
+      "text": "It may come and go\nLike dust and sand\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_circle",
+    "text_title",
+    "text_body"
+  ]
+}

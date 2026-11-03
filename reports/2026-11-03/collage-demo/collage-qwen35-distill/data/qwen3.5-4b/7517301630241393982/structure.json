@@ -1,0 +1,115 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "城市街道场景，包含灰色建筑墙面、沥青路面、路缘石及远处行人，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        142,
+        106,
+        404,
+        359
+      ],
+      "description": "竖向人物半身照片，位于左上角星形窗口内，保留人物及身后的摄影环境，显示区域为星形裁切。"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        603,
+        563,
+        939,
+        912
+      ],
+      "description": "竖向人物半身照片，位于右下角圆形窗口内，保留人物及身后的摄影环境，显示区域为圆形裁切。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        339,
+        272,
+        676,
+        962
+      ],
+      "description": "竖向人物全身照片，位于画面中央，保留人物及身后的摄影环境，显示区域为矩形裁切。"
+    },
+    {
+      "id": "frame_star",
+      "kind": "frame",
+      "bbox": [
+        32,
+        32,
+        462,
+        361
+      ],
+      "description": "白色手绘风格星形边框，围绕左上角照片，覆盖照片边缘并位于照片上方，完整星形作为一个框体保留。",
+      "photo_id": [
+        "photo_star"
+      ]
+    },
+    {
+      "id": "frame_circle",
+      "kind": "frame",
+      "bbox": [
+        601,
+        561,
+        941,
+        914
+      ],
+      "description": "白色手绘风格圆形边框，围绕右下角照片，覆盖照片边缘并位于照片上方，完整圆形作为一个框体保留。",
+      "photo_id": [
+        "photo_circle"
+      ]
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        692,
+        347,
+        872
+      ],
+      "description": "白色心形贴纸，内部包含黑色文字“I”、“ME”及红色爱心符号，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        394,
+        347,
+        447,
+        394
+      ],
+      "description": "白色手绘风格小星星装饰，位于主照片头部附近，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_clouds",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        447,
+        772,
+        563
+      ],
+      "description": "白色手绘风格云朵、弧线及星形装饰组合，位于主照片腰部两侧，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_star",
+    "frame_star",
+    "photo_main",
+    "overlay_stars",
+    "overlay_clouds",
+    "photo_circle",
+    "frame_circle",
+    "overlay_heart"
+  ]
+}

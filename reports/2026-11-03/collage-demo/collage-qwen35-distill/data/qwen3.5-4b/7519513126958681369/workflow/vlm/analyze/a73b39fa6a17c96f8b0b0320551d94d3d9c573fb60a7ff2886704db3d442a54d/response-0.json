@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-ac275ac6d046a30e",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7665,
+    "completion_tokens": 746,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"浅蓝色调的固定纹理底图，包含水彩晕染、星形剪影和翅膀剪影等装饰元素，整体呈现拼贴风格；上层照片和文字框遮挡局部，保留底图可见区域。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        58,\n        168,\n        650,\n        735\n      ],\n      \"description\": \"人物坐姿照片，女孩身穿条纹衬衫，背景为绿色植物墙，保留完整摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_flower\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        468,\n        330,\n        738,\n        462\n      ],\n      \"description\": \"花卉特写照片，白色花朵与绿叶，保留完整摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"frame_flower\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        428,\n        303,\n        778,\n        483\n      ],\n      \"description\": \"围绕花卉照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。\",\n      \"photo_id\": [\n        \"photo_flower\"\n      ]\n    },\n    {\n      \"id\": \"text_main\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        480,\n        690,\n        875,\n        750\n      ],\n      \"text\": \"駆け抜けた恋、戻らない夏、\\n綺麗な花火だった。\",\n      \"color\": \"#000000\",\n      \"font\": \"cjk\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_decor\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        800,\n        240,\n        920,\n        280\n      ],\n      \"text\": \"summer\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_hearts\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        800,\n        760,\n        865,\n        790\n      ],\n      \"description\": \"两个心形装饰图案，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_main\",\n    \"photo_flower\",\n    \"frame_flower\",\n    \"text_main\",\n    \"text_decor\",\n    \"overlay_hearts\"\n  ]\n}",
+  "tool_calls": false
+}

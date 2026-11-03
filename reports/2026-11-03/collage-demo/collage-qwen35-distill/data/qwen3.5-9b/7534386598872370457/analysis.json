@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "阳光透过树叶洒下的绿色森林光影，作为连续摄影底图覆盖全画布，边缘有树叶遮挡，为所有照片和装饰提供自然背景。",
+      "background_type": "photo",
+      "label": "阳光透过树叶洒下的绿色森林光影，作为连续摄影底图覆盖全画布，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        45,
+        36,
+        540,
+        444
+      ],
+      "description": "左上角照片，人物蹲在路边，手持饮料，身旁有蜗牛和蘑菇，保留照片内的摄影环境，显示区域为带齿孔的矩形。",
+      "label": "左上角照片，人物蹲在路边，手持饮料，身旁有蜗牛和蘑菇，保留照",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        594,
+        168,
+        855,
+        372
+      ],
+      "description": "右上角照片，人物蹲在绿植丛中，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右上角照片，人物蹲在绿植丛中，保留照片内的摄影环境，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        68,
+        660,
+        266,
+        936
+      ],
+      "description": "左下角照片，人物站立在树林中，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左下角照片，人物站立在树林中，保留照片内的摄影环境，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        315,
+        480,
+        864,
+        1164
+      ],
+      "description": "右下角照片，人物背对镜头站在海边，保留照片内的摄影环境，显示区域为带齿孔的矩形。",
+      "label": "右下角照片，人物背对镜头站在海边，保留照片内的摄影环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "overlay_deer",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        936,
+        216,
+        1188
+      ],
+      "description": "左下角的梅花鹿插画，作为独立固定装饰保留。",
+      "label": "左下角的梅花鹿插画，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_button_1",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        636,
+        108,
+        708
+      ],
+      "description": "左下角照片旁的木质纽扣装饰，作为独立固定装饰保留。",
+      "label": "左下角照片旁的木质纽扣装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_button_2",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        432,
+        873,
+        552
+      ],
+      "description": "右下角照片旁的木质纽扣装饰，作为独立固定装饰保留。",
+      "label": "右下角照片旁的木质纽扣装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        468,
+        324,
+        744
+      ],
+      "description": "左侧垂直排列的星形、螺旋形和加号装饰，作为独立固定装饰保留。",
+      "label": "左侧垂直排列的星形、螺旋形和加号装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_deer",
+    "overlay_button_1",
+    "overlay_button_2",
+    "overlay_decorations"
+  ]
+}

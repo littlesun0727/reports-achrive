@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "模糊的室内背景，呈现浅棕色调，作为全画布底图承载上层所有独立对象；主体为多张拼贴的餐食照片，背景被遮挡或虚化，整体环境由客户素材替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        90,
+        185,
+        585,
+        465
+      ],
+      "description": "左上角餐食拼盘照片，包含芝士烤肠、煎蛋、虾仁和水果碗，保留完整摄影环境，边缘有白色虚线框装饰。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        425,
+        330,
+        915,
+        600
+      ],
+      "description": "右上角餐食拼盘照片，包含贝果、肉酱、芦笋、蘑菇和炒蛋，保留完整摄影环境，边缘有白色实线框装饰。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        65,
+        470,
+        530,
+        740
+      ],
+      "description": "左下角餐食拼盘照片，包含虾仁、草莓、蓝莓、煎蛋和三明治，保留完整摄影环境，边缘有白色虚线框装饰。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        385,
+        600,
+        890,
+        910
+      ],
+      "description": "右下角可爱造型餐食照片，包含猫耳饭团、煎蛋和肉酱饭，保留完整摄影环境，边缘有白色实线框装饰。"
+    },
+    {
+      "id": "overlay_exclamation",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        20,
+        705,
+        215
+      ],
+      "description": "白色手绘感叹号装饰，位于画布上部中央，作为独立固定设计单元保留。"
+    },
+    {
+      "id": "overlay_stars_top",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        125,
+        210,
+        235
+      ],
+      "description": "白色手绘星星装饰，位于画布左上角，作为独立固定设计单元保留。"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        685,
+        180,
+        880,
+        360
+      ],
+      "description": "白色手绘叉子装饰，位于画布右上角，作为独立固定设计单元保留。"
+    },
+    {
+      "id": "overlay_stars_bottom",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        790,
+        410,
+        930
+      ],
+      "description": "白色手绘星星和水果装饰，位于画布左下角，作为独立固定设计单元保留。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        835,
+        880,
+        955,
+        925
+      ],
+      "description": "白色手绘星星装饰，位于画布右下角，作为独立固定设计单元保留。"
+    },
+    {
+      "id": "text_yummy",
+      "kind": "text",
+      "bbox": [
+        55,
+        815,
+        410,
+        910
+      ],
+      "text": "Yummy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_exclamation",
+    "overlay_stars_top",
+    "overlay_fork",
+    "overlay_stars_bottom",
+    "overlay_star_bottom_right",
+    "text_yummy"
+  ]
+}

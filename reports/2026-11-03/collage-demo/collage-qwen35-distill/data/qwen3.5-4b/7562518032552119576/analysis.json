@@ -1,0 +1,294 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#5C3A2E"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        91,
+        143,
+        416,
+        570
+      ],
+      "description": "左上角室内场景照片，展示店铺内部陈设、货架及一位背对镜头的长发女性，保留完整摄影环境。",
+      "label": "左上角室内场景照片，展示店铺内部陈设、货架及一位背对镜头的长",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        484,
+        152,
+        813,
+        586
+      ],
+      "description": "右上角俯拍视角照片，展示木质桌面上放置的黑色手提包、手机和饮品，以及穿着格子裙和长袜的腿部，保留完整摄影环境。",
+      "label": "右上角俯拍视角照片，展示木质桌面上放置的黑色手提包、手机和饮",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        91,
+        664,
+        408,
+        1081
+      ],
+      "description": "左下角室内场景照片，展示一位长发女性站在店铺内，手扶包带，背景为货架和木质结构，保留完整摄影环境。",
+      "label": "左下角室内场景照片，展示一位长发女性站在店铺内，手扶包带，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        484,
+        664,
+        813,
+        1081
+      ],
+      "description": "右下角室内场景照片，展示一位长发女性坐在木质长凳上，手扶包带，背景为货架和木质结构，保留完整摄影环境。",
+      "label": "右下角室内场景照片，展示一位长发女性坐在木质长凳上，手扶包带",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        293,
+        487,
+        605,
+        806
+      ],
+      "description": "中央心形裁剪照片，展示木质桌面上放置的饮品、卡片和蓝色小册子，保留完整摄影环境。",
+      "label": "中央心形裁剪照片，展示木质桌面上放置的饮品、卡片和蓝色小册子",
+      "method": "local"
+    },
+    {
+      "id": "frame_center",
+      "kind": "frame",
+      "bbox": [
+        293,
+        487,
+        605,
+        806
+      ],
+      "description": "围绕中央照片的红色心形边框，覆盖照片边缘并位于照片上方，完整心形作为一个框体保留。",
+      "photo_id": [
+        "photo_center"
+      ],
+      "label": "围绕中央照片的红色心形边框，覆盖照片边缘并位于照片上方，完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        127,
+        216,
+        184
+      ],
+      "description": "左上角的蓝色卡通鱼贴纸，带有黄色星星装饰，作为独立固定装饰保留。",
+      "label": "左上角的蓝色卡通鱼贴纸，带有黄色星星装饰，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        451,
+        76,
+        513,
+        133
+      ],
+      "description": "顶部的黄色五角星贴纸，作为独立固定装饰保留。",
+      "label": "顶部的黄色五角星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        152,
+        451,
+        199
+      ],
+      "description": "左上照片右侧的黄色五角星贴纸，作为独立固定装饰保留。",
+      "label": "左上照片右侧的黄色五角星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        133,
+        545,
+        178
+      ],
+      "description": "右上照片上方的黄色五角星贴纸，作为独立固定装饰保留。",
+      "label": "右上照片上方的黄色五角星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        112,
+        844,
+        178
+      ],
+      "description": "右上角的黄色螺旋贴纸，作为独立固定装饰保留。",
+      "label": "右上角的黄色螺旋贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_droplet_1",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        352,
+        48,
+        424
+      ],
+      "description": "左侧的黄色水滴贴纸，作为独立固定装饰保留。",
+      "label": "左侧的黄色水滴贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_droplet_2",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        391,
+        79,
+        466
+      ],
+      "description": "左侧下方的黄色水滴贴纸，作为独立固定装饰保留。",
+      "label": "左侧下方的黄色水滴贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        759,
+        554,
+        844,
+        646
+      ],
+      "description": "右侧的黄色猫咪贴纸，作为独立固定装饰保留。",
+      "label": "右侧的黄色猫咪贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_house",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        1012,
+        169,
+        1072
+      ],
+      "description": "左下角的黄色房子贴纸，作为独立固定装饰保留。",
+      "label": "左下角的黄色房子贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        991,
+        570,
+        1105
+      ],
+      "description": "底部的白色蝴蝶结贴纸，作为独立固定装饰保留。",
+      "label": "底部的白色蝴蝶结贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_left",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        664,
+        91,
+        760
+      ],
+      "description": "左侧的黄色螺旋贴纸，作为独立固定装饰保留。",
+      "label": "左侧的黄色螺旋贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        41,
+        592,
+        259,
+        626
+      ],
+      "description": "See you next time /// ♪",
+      "label": "See you next time /// ♪",
+      "method": "local",
+      "text": "See you next time /// ♪",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_center",
+    "frame_center",
+    "overlay_fish",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_spiral",
+    "overlay_droplet_1",
+    "overlay_droplet_2",
+    "overlay_cat",
+    "overlay_house",
+    "overlay_bow",
+    "overlay_spiral_left",
+    "text_1"
+  ]
+}

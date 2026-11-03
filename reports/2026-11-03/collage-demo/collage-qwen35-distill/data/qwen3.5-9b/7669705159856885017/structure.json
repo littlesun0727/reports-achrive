@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        500,
+        1000
+      ],
+      "description": "左侧人物全身照片，人物戴发带、手持手机自拍，保留室内背景，显示区域为完整矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        0,
+        1000,
+        500
+      ],
+      "description": "右上人物半身照片，人物戴帽子，保留室内背景，显示区域为完整矩形。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        500,
+        1000,
+        750
+      ],
+      "description": "右侧人物坐姿照片，人物坐在台阶上，保留台阶背景，显示区域为完整矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        750,
+        1000,
+        1000
+      ],
+      "description": "右下物品俯拍照片，包含黑色包、手机壳和杂志，保留木质背景，显示区域为完整矩形。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_top_right",
+    "photo_mid_right",
+    "photo_bottom_right"
+  ]
+}

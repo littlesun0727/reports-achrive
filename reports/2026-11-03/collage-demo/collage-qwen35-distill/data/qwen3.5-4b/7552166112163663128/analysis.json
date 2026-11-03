@@ -1,0 +1,211 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "star_pattern_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布固定底图，包含粉色星星图案和粉色糖果装饰边框，作为拼贴画背景保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，包含粉色星星图案和粉色糖果装饰边框，作为拼贴",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cherry_blossom",
+      "kind": "photo",
+      "bbox": [
+        308,
+        120,
+        839,
+        562
+      ],
+      "description": "樱花树照片，展示垂下的樱花枝条和树干，保留完整摄影环境。",
+      "label": "樱花树照片，展示垂下的樱花枝条和树干，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        48,
+        492,
+        421,
+        858
+      ],
+      "description": "甜点照片，展示草莓奶油蛋糕和餐具，保留完整摄影环境。",
+      "label": "甜点照片，展示草莓奶油蛋糕和餐具，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        381,
+        770,
+        727,
+        1118
+      ],
+      "description": "人物照片，展示长发女性坐在室内，保留完整摄影环境。",
+      "label": "人物照片，展示长发女性坐在室内，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        716,
+        624,
+        871,
+        780
+      ],
+      "description": "咖啡杯照片，展示两个粉色咖啡杯，保留完整摄影环境。",
+      "label": "咖啡杯照片，展示两个粉色咖啡杯，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        75,
+        202,
+        228,
+        430
+      ],
+      "description": "玩偶照片，展示粉色猫咪玩偶，保留完整摄影环境。",
+      "label": "玩偶照片，展示粉色猫咪玩偶，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "frame_cat",
+      "kind": "frame",
+      "bbox": [
+        75,
+        202,
+        228,
+        430
+      ],
+      "description": "围绕猫咪玩偶的相框，包含相框边缘和文字标签。",
+      "photo_id": [
+        "photo_cat"
+      ],
+      "label": "围绕猫咪玩偶的相框，包含相框边缘和文字标签。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        173,
+        166,
+        266,
+        202
+      ],
+      "description": "정신 체리",
+      "label": "정신 체리",
+      "method": "local",
+      "text": "정신 체리",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        468,
+        576,
+        709,
+        624
+      ],
+      "description": "우린 서로기있어\n나는 오늘의슈퍼스타",
+      "label": "우린 서로기있어\n나는 오늘의슈퍼스타",
+      "method": "local",
+      "text": "우린 서로기있어\n나는 오늘의슈퍼스타",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        97,
+        924,
+        322,
+        1030
+      ],
+      "description": "가장큰행복은작은\n행복들의연속이다.",
+      "label": "가장큰행복은작은\n행복들의연속이다.",
+      "method": "local",
+      "text": "가장큰행복은작은\n행복들의연속이다.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_tag",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        526,
+        871,
+        612
+      ],
+      "description": "粉色标签贴纸，带有蝴蝶结图案，作为独立装饰保留。",
+      "label": "粉色标签贴纸，带有蝴蝶结图案，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        900,
+        358,
+        1066
+      ],
+      "description": "粉色便签纸，带有回形针装饰，作为独立固定单元保留。",
+      "label": "粉色便签纸，带有回形针装饰，作为独立固定单元保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "star_pattern_base",
+    "photo_cherry_blossom",
+    "photo_cake",
+    "photo_girl",
+    "photo_coffee",
+    "photo_cat",
+    "frame_cat",
+    "text_1",
+    "text_2",
+    "text_3",
+    "overlay_tag",
+    "overlay_note"
+  ]
+}

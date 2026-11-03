@@ -1,0 +1,174 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "带有黑色波点图案的白色固定底图，覆盖整个画布左侧及顶部区域，作为所有独立照片和装饰的承载背景。"
+  },
+  "objects": [
+    {
+      "id": "photo_full",
+      "kind": "photo",
+      "bbox": [
+        340,
+        0,
+        1000,
+        1000
+      ],
+      "description": "右侧全身人物照片，人物穿着黑色毛衣和黑色乐福鞋，站在木桶旁，背景为带有'I LOVE TOMMY JEANS'字样的墙面。"
+    },
+    {
+      "id": "photo_closeup_1",
+      "kind": "photo",
+      "bbox": [
+        50,
+        180,
+        340,
+        510
+      ],
+      "description": "左上角人物面部特写照片，人物穿着黑色毛衣，背景为室内环境。"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        170,
+        440,
+        440,
+        640
+      ],
+      "description": "中间圆形裁剪的人物照片，人物穿着黑色毛衣，背景为带有'I LOVE TOMMY JEANS'字样的墙面。"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        10,
+        680,
+        340,
+        990
+      ],
+      "description": "左下角心形裁剪的人物照片，人物穿着黑色毛衣，背景为带有'I LOVE TOMMY JEANS'字样的墙面。"
+    },
+    {
+      "id": "frame_full",
+      "kind": "frame",
+      "bbox": [
+        340,
+        0,
+        1000,
+        1000
+      ],
+      "description": "围绕右侧全身照片的固定边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_full"
+      ]
+    },
+    {
+      "id": "frame_closeup",
+      "kind": "frame",
+      "bbox": [
+        50,
+        180,
+        340,
+        510
+      ],
+      "description": "围绕左上角特写照片的固定边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_closeup_1"
+      ]
+    },
+    {
+      "id": "frame_circle",
+      "kind": "frame",
+      "bbox": [
+        170,
+        440,
+        440,
+        640
+      ],
+      "description": "围绕中间圆形照片的固定圆形边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_circle"
+      ]
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        10,
+        680,
+        340,
+        990
+      ],
+      "description": "围绕左下角心形照片的固定心形边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_heart"
+      ]
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        150,
+        240,
+        220
+      ],
+      "description": "左上角照片上方的黑色五角星贴纸，作为独立装饰元素。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        120,
+        920,
+        150
+      ],
+      "description": "右上角照片上方的白色五角星贴纸，作为独立装饰元素。"
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        500,
+        170,
+        530
+      ],
+      "description": "左侧照片下方的黑色矩形贴纸，上面有白色符号 '+ = ^ - • - ^ = +'，作为独立装饰元素。"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "text",
+      "bbox": [
+        10,
+        880,
+        340,
+        920
+      ],
+      "text": "一緒に頑張ろうね",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_full",
+    "photo_closeup_1",
+    "photo_circle",
+    "photo_heart",
+    "frame_full",
+    "frame_closeup",
+    "frame_circle",
+    "frame_heart",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_text_1",
+    "overlay_text_2"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "base_bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "全画布底图由上下两部分固定背景组成：上半部分为纯蓝色，下半部分为绿色草地纹理。此背景不包含任何可替换的照片内容，作为整体保留。",
+      "background_type": "reference_clean",
+      "label": "全画布底图由上下两部分固定背景组成：上半部分为纯蓝色，下半部",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        131,
+        274,
+        785,
+        666
+      ],
+      "description": "位于电脑窗口内的摄影照片，显示陶艺工作台场景。左侧可见多个装有颜料和画笔的容器，右侧人物穿着黑色围裙手持一个内部写有黄色文字的碗状物体。",
+      "label": "位于电脑窗口内的摄影照片，显示陶艺工作台场景。左侧可见多个装",
+      "method": "local"
+    },
+    {
+      "id": "frame_window",
+      "kind": "frame",
+      "bbox": [
+        120,
+        166,
+        796,
+        729
+      ],
+      "description": "复古风格的“My Computer”应用程序窗口边框。包含顶部的标题栏（带图标、文字及控制按钮）、菜单栏（File Edit View Help）以及底部的状态栏（含进度条和心形图案）。该框体承载并遮挡了内部的摄影照片。",
+      "photo_id": [
+        "photo_main"
+      ],
+      "label": "复古风格的“My Computer”应用程序窗口边框。包含顶",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_head",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        230,
+        544,
+        266
+      ],
+      "description": "白色像素风格的小猫头部贴纸，位于菜单栏右侧。",
+      "label": "白色像素风格的小猫头部贴纸，位于菜单栏右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        297,
+        536,
+        369
+      ],
+      "description": "带有粉色爱心图案的白色像素对话气泡，位于照片上方偏左位置。",
+      "label": "带有粉色爱心图案的白色像素对话气泡，位于照片上方偏左位置。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dialog_box",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        238,
+        860,
+        320
+      ],
+      "description": "小型对话框界面元素，标题为“hey girl”，正文为“he will not call”，下方有三个按钮：“iknow”、“cry”、“i do”。",
+      "label": "小型对话框界面元素，标题为“hey girl”，正文为“he",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cursor",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        306,
+        850,
+        356
+      ],
+      "description": "白色像素鼠标指针，指向对话框中的“i do”按钮。",
+      "label": "白色像素鼠标指针，指向对话框中的“i do”按钮。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_error_box",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        644,
+        220,
+        778
+      ],
+      "description": "“Error”错误提示弹窗，标题栏为深蓝色，主体显示大号文字“ALONE”和一个“OK”按钮。",
+      "label": "“Error”错误提示弹窗，标题栏为深蓝色，主体显示大号文字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_cat",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        594,
+        882,
+        760
+      ],
+      "description": "大型白色像素风格猫咪全身像，位于右下角，尾巴上翘。",
+      "label": "大型白色像素风格猫咪全身像，位于右下角，尾巴上翘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_blue_1",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        490,
+        868,
+        540
+      ],
+      "description": "蓝色五角星装饰，位于右侧中部。",
+      "label": "蓝色五角星装饰，位于右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_yellow",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        760,
+        670,
+        819
+      ],
+      "description": "黄色五角星装饰，带有白色描边，位于底部中间偏右。",
+      "label": "黄色五角星装饰，带有白色描边，位于底部中间偏右。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_blue_2",
+      "kind": "overlay",
+      "bbox": [
+        234,
+        788,
+        306,
+        850
+      ],
+      "description": "蓝色五角星装饰，位于左下角。",
+      "label": "蓝色五角星装饰，位于左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "text_hearts",
+      "kind": "text",
+      "bbox": [
+        279,
+        688,
+        369,
+        716
+      ],
+      "description": "三个像素心形符号，前两个为实心粉色，第三个为空心轮廓，位于窗口底部状态栏内。",
+      "label": "三个像素心形符号，前两个为实心粉色，第三个为空心轮廓，位于窗",
+      "method": "local",
+      "text": "♥♥♡",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF69B4",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_timestamp",
+      "kind": "text",
+      "bbox": [
+        9,
+        846,
+        162,
+        891
+      ],
+      "description": "左下角的时间戳文字，分两行排列，字体为等宽样式。",
+      "label": "左下角的时间戳文字，分两行排列，字体为等宽样式。",
+      "method": "local",
+      "text": "PM 10:25\nAUGUST. 07 1990",
+      "text_status": "known",
+      "style": {
+        "fill": "#0000CD",
+        "font": "mono",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "base_bg",
+    "photo_main",
+    "frame_window",
+    "overlay_cat_head",
+    "overlay_speech_bubble",
+    "overlay_dialog_box",
+    "overlay_cursor",
+    "overlay_error_box",
+    "overlay_pixel_cat",
+    "overlay_star_blue_1",
+    "overlay_star_yellow",
+    "overlay_star_blue_2",
+    "text_hearts",
+    "text_timestamp"
+  ]
+}

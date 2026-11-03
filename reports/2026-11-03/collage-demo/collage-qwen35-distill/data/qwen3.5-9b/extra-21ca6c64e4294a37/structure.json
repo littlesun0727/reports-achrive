@@ -1,0 +1,182 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        500,
+        500
+      ],
+      "description": "左上角人物照片，棕色长发，穿着灰色背心，背景为卷帘门，照片边缘有白色柔化效果。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        500,
+        0,
+        1000,
+        500
+      ],
+      "description": "右上角人物照片，棕色长发，手指轻触嘴唇，背景为室内环境，照片边缘有白色柔化效果。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        500,
+        500,
+        1000
+      ],
+      "description": "左下角人物照片，金色短发，穿着绿色上衣，背景为室内环境，照片边缘有白色柔化效果。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        500,
+        500,
+        1000,
+        1000
+      ],
+      "description": "右下角人物照片，金色短发，穿着绿色上衣，背景为室内环境，照片边缘有白色柔化效果。"
+    },
+    {
+      "id": "overlay_ticket",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        120,
+        800,
+        220
+      ],
+      "description": "带有'Ticket To Anywhere'字样的票根贴纸，位于右上角照片上方。"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        60,
+        950,
+        160
+      ],
+      "description": "带有咖啡拉花图案的贴纸，位于右上角照片上方。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        0,
+        600,
+        100
+      ],
+      "description": "粉色心形贴纸，位于左上角照片上方。"
+    },
+    {
+      "id": "overlay_text_together",
+      "kind": "text",
+      "bbox": [
+        40,
+        320,
+        400,
+        420
+      ],
+      "text": "together.",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "photo",
+      "bbox": [
+        150,
+        800,
+        400,
+        950
+      ],
+      "description": "橙色猫咪头像贴纸，位于左下角照片下方。"
+    },
+    {
+      "id": "overlay_croissant",
+      "kind": "photo",
+      "bbox": [
+        50,
+        700,
+        250,
+        800
+      ],
+      "description": "羊角面包贴纸，位于左下角照片下方。"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "photo",
+      "bbox": [
+        800,
+        450,
+        950,
+        600
+      ],
+      "description": "兔子头像贴纸，位于右下角照片上方。"
+    },
+    {
+      "id": "overlay_text_hello",
+      "kind": "text",
+      "bbox": [
+        450,
+        820,
+        650,
+        880
+      ],
+      "text": "hello",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_text_artist",
+      "kind": "text",
+      "bbox": [
+        450,
+        880,
+        850,
+        940
+      ],
+      "text": "I am a artist",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_ticket",
+    "overlay_coffee",
+    "overlay_heart",
+    "overlay_text_together",
+    "overlay_cat",
+    "overlay_croissant",
+    "overlay_rabbit",
+    "overlay_text_hello",
+    "overlay_text_artist"
+  ]
+}

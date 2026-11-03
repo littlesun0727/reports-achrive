@@ -1,0 +1,193 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡店近景照片铺满画布：下方穿浅粉袖的手握透明杯咖啡，背景有熊形面包、托盘、店面玻璃及左侧虚化招牌。摄影环境明显虚焦，四边内容连续；中央被三张独立照片和贴纸遮挡，完整底图仍覆盖全画布，手、饮料和店内环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        450,
+        79,
+        863,
+        493
+      ],
+      "description": "右上方竖向照片，一名黑色长发女子穿浅粉上衣，双手握饮料杯，嘴边含吸管，面向镜头；身后保留咖啡店墙面、面包和柜台环境。照片边界清晰，左下部分被另一张照片遮挡，右侧叠有小熊贴纸。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        502,
+        573,
+        830,
+        901
+      ],
+      "description": "右下方竖向照片，一名黑色长发女子穿浅粉衣裙，蹲坐在面包陈列架旁，双手收在脸侧并回头看镜头；保留木架、面包与店内环境。矩形显示区域边缘清晰，左上部分被左侧照片遮挡，上缘叠有蓝色蝴蝶结装饰，左下叠有兔子贴纸。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        88,
+        397,
+        528,
+        728
+      ],
+      "description": "左侧方形街头照片，一名黑色长发女子穿浅粉色上衣，正对镜头微笑，一手抬至额前；保留街道、建筑、电线杆、车辆与行人环境。四边清晰，覆盖右上和右下照片的局部，左上叠有Daily字样装饰。"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        737,
+        42,
+        929,
+        160
+      ],
+      "description": "米白轮廓的手绘咖啡主题贴纸，上方为冒热气的杯碟，下方为不规则手写Coffee字样，深棕线稿与外沿作为完整设计保留。"
+    },
+    {
+      "id": "overlay_daily",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        350,
+        271,
+        436
+      ],
+      "description": "米白底的Daily艺术字贴纸，深棕色手绘空心字形，各字高低和角度不一，保留完整字形及不规则外沿。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        268,
+        943,
+        374
+      ],
+      "description": "米白色手绘小熊贴纸，棕色轮廓，双臂展开，颈部系蝴蝶结，保留身体内部线稿和完整外沿，覆盖上方照片右侧。"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        573,
+        134,
+        646
+      ],
+      "description": "淡黄色小蛋糕贴纸，顶部有卷曲蜡烛状图案，糕体带简笔表情，深色细线与浅色外沿整体保留。"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        775,
+        548,
+        888
+      ],
+      "description": "米白色长耳兔玩偶线稿贴纸，深棕轮廓，坐姿、长耳、四肢及内部缝线整体保留，跨在下方照片左下边缘。"
+    },
+    {
+      "id": "overlay_blue_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        534,
+        885,
+        610
+      ],
+      "description": "浅蓝缎带蝴蝶结及其附近蓝色星形宝石、透明小钻构成的局部装饰，保留缎带交叠、长尾、材质高光和散落宝石，横跨下方照片上缘。"
+    },
+    {
+      "id": "overlay_pearl_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        712,
+        303,
+        774
+      ],
+      "description": "左侧照片下缘的珠宝蝴蝶结装饰，由浅粉缎带结、心形珍珠串、银色心形宝石和周围散落小钻组成，保留完整局部组合及材质高光。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        110,
+        425,
+        153
+      ],
+      "description": "上方偏左的白色手绘放射星芒，保留交叉长短线条和内部笔触。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        209,
+        279,
+        253,
+        310
+      ],
+      "description": "左侧面包上方的白色小放射星芒，保留完整交叉笔画。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        887,
+        176,
+        937,
+        210
+      ],
+      "description": "右上侧独立白色手绘放射星芒，保留长短交叉线条。"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        848,
+        674,
+        912,
+        721
+      ],
+      "description": "右下侧面包前的白色手绘放射星芒，保留完整长短笔画及线条纹理。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        331,
+        862,
+        381,
+        898
+      ],
+      "description": "底部咖啡杯前的白色小放射星芒，保留完整交叉笔画。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "photo_left",
+    "overlay_coffee",
+    "overlay_daily",
+    "overlay_bear",
+    "overlay_cake",
+    "overlay_rabbit",
+    "overlay_blue_ribbon",
+    "overlay_pearl_ribbon",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_right",
+    "overlay_star_lower_right",
+    "overlay_star_bottom"
+  ]
+}

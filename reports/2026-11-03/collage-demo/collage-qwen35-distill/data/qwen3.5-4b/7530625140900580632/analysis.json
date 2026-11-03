@@ -1,0 +1,300 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "mirror_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "电梯镜面的连续摄影底图，包含镜面反射的室内环境、门、地毯和人物倒影。上层贴纸、文字和照片遮挡局部，保留镜面反射的完整场景。",
+      "background_type": "photo",
+      "label": "电梯镜面的连续摄影底图，包含镜面反射的室内环境、门、地毯和人",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        619,
+        132,
+        844,
+        400
+      ],
+      "description": "右上角心形裁剪照片，展示人物坐在格子裙中的场景，边缘有白色虚线装饰。",
+      "label": "右上角心形裁剪照片，展示人物坐在格子裙中的场景，边缘有白色虚",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        106,
+        724,
+        318,
+        955
+      ],
+      "description": "左下角心形裁剪照片，展示人物抱猫的场景，边缘有白色虚线装饰。",
+      "label": "左下角心形裁剪照片，展示人物抱猫的场景，边缘有白色虚线装饰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        220,
+        300,
+        262
+      ],
+      "description": "左上角装饰性文字贴纸，包含星星和韩文，位于镜面反射的墙壁区域。",
+      "label": "左上角装饰性文字贴纸，包含星星和韩文，位于镜面反射的墙壁区域",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_center",
+      "kind": "overlay",
+      "bbox": [
+        371,
+        340,
+        529,
+        480
+      ],
+      "description": "中央圆形贴纸，包含粉色爱心和英文文字，遮挡镜面反射中的人物面部。",
+      "label": "中央圆形贴纸，包含粉色爱心和英文文字，遮挡镜面反射中的人物面",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        610,
+        724,
+        835,
+        886
+      ],
+      "description": "右下角矩形文字框，包含韩文诗句，位于镜面反射的地毯区域。",
+      "label": "右下角矩形文字框，包含韩文诗句，位于镜面反射的地毯区域。",
+      "method": "extract"
+    },
+    {
+      "id": "text_interface",
+      "kind": "text",
+      "bbox": [
+        48,
+        400,
+        90,
+        442
+      ],
+      "description": "Aa",
+      "label": "Aa",
+      "method": "local",
+      "text": "Aa",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_interface_2",
+      "kind": "text",
+      "bbox": [
+        219,
+        322,
+        340,
+        352
+      ],
+      "description": ":-,♡,-:",
+      "label": ":-,♡,-:",
+      "method": "local",
+      "text": ":-,♡,-:",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_interface_3",
+      "kind": "text",
+      "bbox": [
+        129,
+        1000,
+        214,
+        1024
+      ],
+      "description": "SLO-MO",
+      "label": "SLO-MO",
+      "method": "local",
+      "text": "SLO-MO",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_interface_4",
+      "kind": "text",
+      "bbox": [
+        255,
+        1000,
+        340,
+        1024
+      ],
+      "description": "VIDEO",
+      "label": "VIDEO",
+      "method": "local",
+      "text": "VIDEO",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_interface_5",
+      "kind": "text",
+      "bbox": [
+        394,
+        1000,
+        480,
+        1024
+      ],
+      "description": "PHOTO",
+      "label": "PHOTO",
+      "method": "local",
+      "text": "PHOTO",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFD700",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_interface_6",
+      "kind": "text",
+      "bbox": [
+        529,
+        1000,
+        651,
+        1024
+      ],
+      "description": "PORTRAIT",
+      "label": "PORTRAIT",
+      "method": "local",
+      "text": "PORTRAIT",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_interface_7",
+      "kind": "text",
+      "bbox": [
+        700,
+        1000,
+        786,
+        1024
+      ],
+      "description": "SQUAR",
+      "label": "SQUAR",
+      "method": "local",
+      "text": "SQUAR",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_top_right_text",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        244,
+        858,
+        316
+      ],
+      "description": "右上角心形照片旁的白色贴纸，包含粉色爱心和英文文字。",
+      "label": "右上角心形照片旁的白色贴纸，包含粉色爱心和英文文字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_left_text",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        832,
+        120,
+        904
+      ],
+      "description": "左下角心形照片旁的白色贴纸，包含粉色爱心和英文文字。",
+      "label": "左下角心形照片旁的白色贴纸，包含粉色爱心和英文文字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_text",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        832,
+        750,
+        904
+      ],
+      "description": "右下角文字框旁的白色贴纸，包含粉色爱心和英文文字。",
+      "label": "右下角文字框旁的白色贴纸，包含粉色爱心和英文文字。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "mirror_base",
+    "photo_top_right",
+    "photo_bottom_left",
+    "overlay_top_left",
+    "overlay_center",
+    "overlay_bottom_right",
+    "text_interface",
+    "text_interface_2",
+    "text_interface_3",
+    "text_interface_4",
+    "text_interface_5",
+    "text_interface_6",
+    "text_interface_7",
+    "overlay_top_right_text",
+    "overlay_bottom_left_text",
+    "overlay_bottom_right_text"
+  ]
+}

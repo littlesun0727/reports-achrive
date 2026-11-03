@@ -1,0 +1,66 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海景摄影底图，包含水面、远山和天空，完整显示区域延伸至画布四边；上层三张人物照片遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        450,
+        0,
+        1000,
+        350
+      ],
+      "description": "上方人物背影照片，人物穿黑色上衣，抬头仰望，保留照片内的摄影环境，下缘有透明渐隐效果。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        350,
+        600,
+        650
+      ],
+      "description": "中间人物侧脸照片，人物穿黑色上衣，侧脸望向左方，保留照片内的摄影环境，下缘有透明渐隐效果。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        450,
+        650,
+        1000,
+        1000
+      ],
+      "description": "下方人物仰头照片，人物穿黑色上衣，仰头望向右上方，保留照片内的摄影环境，上缘有透明渐隐效果。"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        800,
+        950,
+        1000,
+        1000
+      ],
+      "text": "小红书号：862000240",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_watermark"
+  ]
+}

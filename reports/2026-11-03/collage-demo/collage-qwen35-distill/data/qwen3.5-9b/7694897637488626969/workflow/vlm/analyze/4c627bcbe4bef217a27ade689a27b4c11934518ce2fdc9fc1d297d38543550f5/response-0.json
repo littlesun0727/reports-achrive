@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-bce681711084ee6b",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6667,
+    "total_tokens": 7371,
+    "completion_tokens": 704,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"连续的牛皮纸纹理底图，作为笔记本页面，承载所有贴纸和照片；四周及贴纸间隙保留相同纸纹。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_crayfish_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        270,\n        190,\n        690,\n        580\n      ],\n      \"description\": \"上方圆形麻辣小龙虾照片，保留摄影环境，边缘有白色撕纸效果。\"\n    },\n    {\n      \"id\": \"photo_crayfish_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        540,\n        440,\n        820,\n        740\n      ],\n      \"description\": \"右下方圆形十三香小龙虾照片，保留摄影环境，边缘有白色撕纸效果。\"\n    },\n    {\n      \"id\": \"photo_beer\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        290,\n        500,\n        480,\n        780\n      ],\n      \"description\": \"左侧泉城奶啤易拉罐照片，保留摄影环境，边缘有白色撕纸效果。\"\n    },\n    {\n      \"id\": \"overlay_bread\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        690,\n        180,\n        800,\n        280\n      ],\n      \"description\": \"右上角手绘面包袋线稿贴纸，包含文字'Bread'，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        610,\n        400,\n        770,\n        440\n      ],\n      \"text\": \"麻辣小龙虾\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        580,\n        710,\n        720,\n        750\n      ],\n      \"text\": \"十三香小龙虾\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_crayfish_1\",\n    \"photo_crayfish_2\",\n    \"photo_beer\",\n    \"overlay_bread\",\n    \"text_1\",\n    \"text_2\"\n  ]\n}",
+  "tool_calls": false
+}

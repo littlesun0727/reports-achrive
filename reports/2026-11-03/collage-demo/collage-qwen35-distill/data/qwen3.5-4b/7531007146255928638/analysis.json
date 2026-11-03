@@ -1,0 +1,166 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1221
+  ],
+  "objects": [
+    {
+      "id": "green_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1221
+      ],
+      "description": "全画布固定浅绿色纹理底图，带有细微噪点与渐变效果，作为整体拼贴的承载层；所有独立照片与文字单元均叠加其上，底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布固定浅绿色纹理底图，带有细微噪点与渐变效果，作为整体拼",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        123,
+        160,
+        551,
+        735
+      ],
+      "description": "主视觉人物半身照片，女性闭眼微笑，深色长发编成侧辫，身穿深蓝色带白边连帽衫，背景为户外绿树与栏杆，保留完整摄影环境。",
+      "label": "主视觉人物半身照片，女性闭眼微笑，深色长发编成侧辫，身穿深蓝",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        465,
+        661,
+        818,
+        1117
+      ],
+      "description": "下方人物近景照片，女性直视镜头，浅棕色中长发，身穿灰黑拼接外套，背景为模糊绿植，保留完整摄影环境。",
+      "label": "下方人物近景照片，女性直视镜头，浅棕色中长发，身穿灰黑拼接外",
+      "method": "local"
+    },
+    {
+      "id": "overlay_four_leaf_1",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        85,
+        186,
+        228
+      ],
+      "description": "左上角白色矩形底板上的绿色四叶草图案，边缘有轻微阴影，作为独立装饰保留。",
+      "label": "左上角白色矩形底板上的绿色四叶草图案，边缘有轻微阴影，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_four_leaf_strip",
+      "kind": "overlay",
+      "bbox": [
+        537,
+        346,
+        834,
+        546
+      ],
+      "description": "右上角白色矩形底板上的多株绿色四叶草排列图案，下方有手写英文文字，整体作为独立装饰保留。",
+      "label": "右上角白色矩形底板上的多株绿色四叶草排列图案，下方有手写英文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_four_leaf_box",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        855,
+        384,
+        1090
+      ],
+      "description": "左下角白色圆角矩形底板，内含绿色四叶草图案与手写英文文字，作为独立装饰保留。",
+      "label": "左下角白色圆角矩形底板，内含绿色四叶草图案与手写英文文字，作",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        516,
+        228,
+        798,
+        289
+      ],
+      "description": "Cut film strips held more truth than the final reel.",
+      "label": "Cut film strips held more trut",
+      "method": "local",
+      "text": "Cut film strips held more truth than the final reel.",
+      "text_status": "known",
+      "style": {
+        "fill": "#4A4A4A",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        213,
+        778,
+        492,
+        827
+      ],
+      "description": "\"Vintage flashbulbs started 1920s dust awake\"",
+      "label": "\"Vintage flashbulbs started 19",
+      "method": "local",
+      "text": "\"Vintage flashbulbs started 1920s dust awake\"",
+      "text_status": "known",
+      "style": {
+        "fill": "#4A4A4A",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        146,
+        924,
+        330,
+        1046
+      ],
+      "description": "love blooms like a cherished four-leaf clover, a rare and beautiful treasure.",
+      "label": "love blooms like a cherished f",
+      "method": "local",
+      "text": "love blooms like a cherished four-leaf clover, a rare and beautiful treasure.",
+      "text_status": "known",
+      "style": {
+        "fill": "#6B8E23",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "green_base",
+    "photo_main",
+    "photo_bottom",
+    "overlay_four_leaf_1",
+    "overlay_four_leaf_strip",
+    "overlay_four_leaf_box",
+    "text_top",
+    "text_middle",
+    "text_bottom"
+  ]
+}

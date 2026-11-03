@@ -1,0 +1,181 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡馆庭院摄影画面覆盖全画布，包含上方藤叶、右侧建筑墙面与铁栏窗、中央店铺入口、左下绿植及底部木桌。四边露出的环境连续，两张叠加照片及白色涂鸦遮挡局部；建筑、植物与桌面整体随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        65,
+        55,
+        620,
+        593
+      ],
+      "description": "左上竖向照片，一名穿白色无袖上衣、扎长辫的女子倚在木质吧台前，双手交握，头转向左侧，呈半身景别。保留玻璃窗、室内器皿和上下绿叶等完整摄影环境。照片四周有略不规则的白色手绘矩形描边，右侧局部被星形装饰遮挡，无沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        344,
+        608,
+        932,
+        975
+      ],
+      "description": "右下独立俯拍照片，木桌上有黄色杯碟中的热饮、蓝白花纹盘中的蛋糕、打开的书和横放的餐叉，右上露出浅色器物，右下可见浅色布料。保留完整桌面摄影环境，四周有不规则白色矩形描边，左下及右上边缘叠有独立白色星形装饰。"
+    },
+    {
+      "id": "overlay_top_black_star",
+      "kind": "overlay",
+      "bbox": [
+        582,
+        72,
+        629,
+        106
+      ],
+      "description": "上方照片右上边缘叠贴的深褐黑色实心五角星，保留不规则手绘轮廓。"
+    },
+    {
+      "id": "overlay_top_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        709,
+        110,
+        757,
+        155
+      ],
+      "description": "右上铁栏窗前的白色四瓣短笔画闪光图案，四个分离笔画组成一个完整装饰。"
+    },
+    {
+      "id": "overlay_outline_star",
+      "kind": "overlay",
+      "bbox": [
+        788,
+        196,
+        850,
+        247
+      ],
+      "description": "右上墙面位置的白色空心五角星涂鸦，线条粗细略不均匀。"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        306,
+        798,
+        353
+      ],
+      "description": "右侧中上部独立白色旋涡涂鸦，圆弧向内卷曲，保留手绘笔触。"
+    },
+    {
+      "id": "overlay_left_black_star",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        297,
+        55,
+        326
+      ],
+      "description": "画布左侧、人物照片外的深褐黑色实心小星星。"
+    },
+    {
+      "id": "overlay_left_white_star",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        337,
+        61,
+        378
+      ],
+      "description": "左侧黑色小星星下方的白色实心五角星，轮廓圆钝且略不规则。"
+    },
+    {
+      "id": "overlay_middle_white_star",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        450,
+        643,
+        501
+      ],
+      "description": "人物照片右边缘中下部的白色实心星星，跨越照片描边并覆盖邻近背景。"
+    },
+    {
+      "id": "overlay_cow",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        407,
+        860,
+        580
+      ],
+      "description": "右侧中央白色线描小牛涂鸦，包含角、耳朵、圆脸、五官、三角颈巾、身体、四肢和右侧尾部，作为一个完整手绘装饰保留。"
+    },
+    {
+      "id": "overlay_nice_day",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        658,
+        301,
+        904
+      ],
+      "description": "左下白色手绘便笺式装饰，包含波浪撕边矩形轮廓、右上及左下斜贴胶带笔画、两行“NICE”“DAY”字样，以及下方猫脸和周围短线。文字与图案共同构成固定设计，整体保留。"
+    },
+    {
+      "id": "overlay_bottom_left_star",
+      "kind": "overlay",
+      "bbox": [
+        303,
+        868,
+        367,
+        918
+      ],
+      "description": "食物照片左下边缘的白色实心星星，跨过白色照片边线，覆盖照片与下层庭院画面。"
+    },
+    {
+      "id": "overlay_food_white_star",
+      "kind": "overlay",
+      "bbox": [
+        902,
+        632,
+        954,
+        675
+      ],
+      "description": "食物照片右上边缘的白色实心五角星，跨越照片边界。"
+    },
+    {
+      "id": "overlay_food_black_star",
+      "kind": "overlay",
+      "bbox": [
+        938,
+        713,
+        985,
+        749
+      ],
+      "description": "食物照片右侧外部的深褐黑色实心小星星，位于白色星星下方。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "photo_food",
+    "overlay_top_black_star",
+    "overlay_top_sparkle",
+    "overlay_outline_star",
+    "overlay_spiral",
+    "overlay_left_black_star",
+    "overlay_left_white_star",
+    "overlay_middle_white_star",
+    "overlay_cow",
+    "overlay_nice_day",
+    "overlay_bottom_left_star",
+    "overlay_food_white_star",
+    "overlay_food_black_star"
+  ]
+}

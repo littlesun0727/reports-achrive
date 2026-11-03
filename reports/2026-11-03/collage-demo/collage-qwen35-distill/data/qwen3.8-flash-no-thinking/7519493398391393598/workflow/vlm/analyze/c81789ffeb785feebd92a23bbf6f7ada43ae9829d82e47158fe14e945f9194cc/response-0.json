@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-5f2584a6-b91e-9ce3-8ce7-aab497a52d6d",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7787,
+    "completion_tokens": 868,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1038,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 868
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"连续的深蓝色牛仔布纹理底图，带有白色缝线和散落的细小圆点装饰；照片独立替换，固定底纹保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        120,\n        75,\n        879,\n        453\n      ],\n      \"description\": \"上方人物近景照片，女子坐在窗边托腮看书，桌上有饮料，保留车内摄影环境，显示区域为水平矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        116,\n        534,\n        881,\n        923\n      ],\n      \"description\": \"下方人物近景照片，女子手持书本看向窗外，桌上有饮料和相机，与上方姿态不同，保留车内摄影环境，显示区域为水平矩形。\"\n    },\n    {\n      \"id\": \"overlay_star_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        20,\n        24,\n        240,\n        175\n      ],\n      \"description\": \"左上角大五角星贴纸，浅蓝色带白点图案，部分压在上方照片边缘上。\"\n    },\n    {\n      \"id\": \"overlay_star_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        35,\n        175,\n        110,\n        235\n      ],\n      \"description\": \"左侧小五角星贴纸，浅蓝色带白点图案，位于上方照片左下侧。\"\n    },\n    {\n      \"id\": \"overlay_star_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        825,\n        155,\n        985,\n        285\n      ],\n      \"description\": \"右上角中等大小五角星贴纸，浅蓝色带白点图案，位于上方照片右侧。\"\n    },\n    {\n      \"id\": \"overlay_star_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        245,\n        458,\n        360,\n        535\n      ],\n      \"description\": \"中间偏左小五角星贴纸，浅蓝色带白点图案，位于两张照片之间。\"\n    },\n    {\n      \"id\": \"overlay_star_5\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        780,\n        455,\n        960,\n        610\n      ],\n      \"description\": \"右侧中等大小五角星贴纸，浅蓝色带白点图案，跨越两张照片之间的缝隙。\"\n    },\n    {\n      \"id\": \"overlay_star_6\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        260,\n        875,\n        390,\n        975\n      ],\n      \"description\": \"左下角中等大小五角星贴纸，浅蓝色带白点图案，部分压在下方照片边缘上。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_star_1\",\n    \"overlay_star_2\",\n    \"overlay_star_3\",\n    \"overlay_star_4\",\n    \"overlay_star_5\",\n    \"overlay_star_6\"\n  ]\n}",
+  "tool_calls": false
+}

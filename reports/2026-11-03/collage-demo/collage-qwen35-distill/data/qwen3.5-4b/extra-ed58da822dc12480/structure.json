@@ -1,0 +1,98 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "顶部横向海景照片，包含天空、海面、远处礁石和左侧船只，底部中央有白色文字水印。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        333,
+        1000,
+        666
+      ],
+      "description": "中部横向海滨城市照片，包含海面、防波堤、沙滩、人群及远处高楼，底部中央有白色文字水印。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        666,
+        1000,
+        1000
+      ],
+      "description": "底部横向礁石海岸照片，包含海浪、岩石海岸线，底部中央有白色文字水印。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        392,
+        304,
+        606,
+        319
+      ],
+      "text": "DJI OSMO POCKET 4P",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        392,
+        637,
+        606,
+        652
+      ],
+      "text": "DJI OSMO POCKET 4P",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        392,
+        948,
+        606,
+        963
+      ],
+      "text": "DJI OSMO POCKET 4P",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "text_top",
+    "photo_middle",
+    "text_middle",
+    "photo_bottom",
+    "text_bottom"
+  ]
+}

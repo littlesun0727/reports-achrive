@@ -1,0 +1,220 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#3E3220"
+      }
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        389,
+        120,
+        810,
+        635
+      ],
+      "description": "右上角照片，显示木质圆桌上有星巴克咖啡杯、手机壳、玩偶和平板电脑，背景为室内环境，照片边缘有毛边效果。",
+      "label": "右上角照片，显示木质圆桌上有星巴克咖啡杯、手机壳、玩偶和平板",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        389,
+        743,
+        810,
+        1138
+      ],
+      "description": "右下角照片，显示一杯抹茶拿铁和一块蛋糕，背景为室内环境，照片边缘有毛边效果。",
+      "label": "右下角照片，显示一杯抹茶拿铁和一块蛋糕，背景为室内环境，照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        45,
+        431,
+        360,
+        839
+      ],
+      "description": "左侧照片，显示一只手拿着粉色兔子玩偶，背景为商店货架，照片边缘有毛边效果。",
+      "label": "左侧照片，显示一只手拿着粉色兔子玩偶，背景为商店货架，照片边",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_cake",
+      "kind": "photo",
+      "bbox": [
+        14,
+        276,
+        117,
+        395
+      ],
+      "description": "左上角小照片，显示一块蛋糕，照片边缘有毛边效果。",
+      "label": "左上角小照片，显示一块蛋糕，照片边缘有毛边效果。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dotted_tape",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        36,
+        585,
+        180
+      ],
+      "description": "顶部带波点的透明胶带装饰，覆盖在画布上。",
+      "label": "顶部带波点的透明胶带装饰，覆盖在画布上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        539,
+        828,
+        659
+      ],
+      "description": "红色苹果贴纸，位于右上角照片下方。",
+      "label": "红色苹果贴纸，位于右上角照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_note",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        1018,
+        405,
+        1138
+      ],
+      "description": "红色音符贴纸，位于左下角。",
+      "label": "红色音符贴纸，位于左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "text_love_theme",
+      "kind": "text",
+      "bbox": [
+        54,
+        180,
+        270,
+        240
+      ],
+      "description": "Love theme",
+      "label": "Love theme",
+      "method": "local",
+      "text": "Love theme",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_korean",
+      "kind": "text",
+      "bbox": [
+        225,
+        300,
+        405,
+        419
+      ],
+      "description": "보고 싶어요...ㅠㅠ",
+      "label": "보고 싶어요...ㅠㅠ",
+      "method": "local",
+      "text": "보고 싶어요...ㅠㅠ",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_chinese",
+      "kind": "text",
+      "bbox": [
+        45,
+        898,
+        315,
+        958
+      ],
+      "description": "等待幸福的来临 =ω= -",
+      "label": "等待幸福的来临 =ω= -",
+      "method": "local",
+      "text": "等待幸福的来临 =ω= -",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_emoji",
+      "kind": "text",
+      "bbox": [
+        405,
+        659,
+        585,
+        719
+      ],
+      "description": "٩(๑>◡<๑)۶",
+      "label": "٩(๑>◡<๑)۶",
+      "method": "local",
+      "text": "٩(๑>◡<๑)۶",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_right",
+    "photo_bottom_right",
+    "photo_left",
+    "photo_small_cake",
+    "overlay_dotted_tape",
+    "overlay_apple",
+    "overlay_music_note",
+    "text_love_theme",
+    "text_korean",
+    "text_chinese",
+    "text_emoji"
+  ]
+}

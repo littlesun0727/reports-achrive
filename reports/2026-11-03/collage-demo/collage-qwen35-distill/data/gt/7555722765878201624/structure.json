@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "dot_background",
+    "description": "白底黑色波点固定底图，左侧上下及照片间隙连续可见，右侧被竖幅照片覆盖；保留波点排列及边缘，不包含独立照片、贴纸和文字。"
+  },
+  "objects": [
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        374,
+        0,
+        1000,
+        1000
+      ],
+      "description": "右侧通高竖幅照片，一名长发女子正面全身站立，一手抬至额前，穿黑色长毛衣、白袜和黑鞋；保留身后的字样瓷砖墙、地面与右下木桶。照片沿画布上下右边裁切，左侧部分被小照片覆盖，摄影环境完整保留。"
+    },
+    {
+      "id": "photo_left_top",
+      "kind": "photo",
+      "bbox": [
+        57,
+        181,
+        411,
+        539
+      ],
+      "description": "左上矩形自拍照片，一名长发女子头肩近景，身体略斜、脸朝镜头，穿黑色针织上衣；保留室内瓷砖和镜面环境。下部被圆形照片及黑色标签遮挡，照片自身没有独立框体。"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        174,
+        432,
+        492,
+        669
+      ],
+      "description": "中左圆形照片，一名长发女子正面胸像，穿黑色字样毛衣，保留身后蓝白红瓷砖墙。摄影环境在圆形窗口内可见，边缘清晰，覆盖上方矩形自拍及右侧大照片的局部。"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        10,
+        688,
+        366,
+        929
+      ],
+      "description": "左下心形照片，一名长发女子胸像，脸朝右侧，一只手及黑色袖口靠近下巴；保留身后瓷砖墙和红心字样环境。整个摄影画面按心形窗口显示，下端收尖，没有独立承托框体。"
+    },
+    {
+      "id": "star_sticker",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        153,
+        257,
+        217
+      ],
+      "description": "黑色方形星星贴纸，中央白色大五角星及周围白色小点、短线整体保留，跨在波点底图和上方自拍照片边缘。"
+    },
+    {
+      "id": "face_label_left",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        509,
+        193,
+        553
+      ],
+      "description": "横向黑色矩形表情标签，带白色符号组成的猫脸样式，底板、白色字样及细浅色边缘整体保留，覆盖自拍和圆形照片左侧。"
+    },
+    {
+      "id": "face_label_right",
+      "kind": "overlay",
+      "bbox": [
+        848,
+        126,
+        958,
+        160
+      ],
+      "description": "右上白色矩形小标签，黑色表情符号和空心五角星组成完整设计，覆盖右侧照片的墙面。"
+    },
+    {
+      "id": "gingham_heart",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        626,
+        110,
+        717
+      ],
+      "description": "黑白格纹小爱心装饰，包含柔化的深色外缘及向下延伸的细长线条，位于左下心形照片上方，线条下端被照片遮挡。"
+    },
+    {
+      "id": "bottom_lettering",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        930,
+        240,
+        955
+      ],
+      "description": "心形照片下方的深灰色手写日文字样“一緒に頑張ろうね”，包含两端小笔画点缀，保留不规则笔画及整体排布。"
+    }
+  ],
+  "layer_order": [
+    "photo_right",
+    "photo_left_top",
+    "photo_circle",
+    "gingham_heart",
+    "photo_heart",
+    "star_sticker",
+    "face_label_left",
+    "face_label_right",
+    "bottom_lettering"
+  ]
+}

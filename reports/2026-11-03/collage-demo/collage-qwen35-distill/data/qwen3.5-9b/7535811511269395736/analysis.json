@@ -1,0 +1,145 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内自拍摄影底图，包含人物、木质家具、桌面物品及地板，完整显示区域延伸至画布四边；上层贴纸、文字气泡和照片窗口遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内自拍摄影底图，包含人物、木质家具、桌面物品及地板，完整显",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "多枚黄色五角星贴纸，散布于画布各处，部分位于人物和家具前方，作为独立固定装饰保留。",
+      "label": "多枚黄色五角星贴纸，散布于画布各处，部分位于人物和家具前方，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pattern",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        348,
+        234,
+        540
+      ],
+      "description": "左侧由像素点组成的星形图案贴纸，位于人物左臂前方，作为独立固定装饰保留。",
+      "label": "左侧由像素点组成的星形图案贴纸，位于人物左臂前方，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_1",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        180,
+        810,
+        288
+      ],
+      "description": "右上角浅蓝色对话气泡贴纸，内含韩文文字，位于人物头部右上方，作为独立固定装饰保留。",
+      "label": "右上角浅蓝色对话气泡贴纸，内含韩文文字，位于人物头部右上方，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_2",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        960,
+        900,
+        1056
+      ],
+      "description": "右下角白色对话气泡贴纸，内含韩文文字，位于右下角照片窗口右侧，作为独立固定装饰保留。",
+      "label": "右下角白色对话气泡贴纸，内含韩文文字，位于右下角照片窗口右侧",
+      "method": "extract"
+    },
+    {
+      "id": "photo_insert_1",
+      "kind": "photo",
+      "bbox": [
+        423,
+        720,
+        648,
+        888
+      ],
+      "description": "中间偏左的矩形照片窗口，显示人物面部特写，保留照片内的摄影环境，显示区域为水平矩形。",
+      "label": "中间偏左的矩形照片窗口，显示人物面部特写，保留照片内的摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_insert_2",
+      "kind": "photo",
+      "bbox": [
+        594,
+        804,
+        810,
+        1092
+      ],
+      "description": "右下角的矩形照片窗口，显示人物坐姿自拍，保留照片内的摄影环境，显示区域为水平矩形。",
+      "label": "右下角的矩形照片窗口，显示人物坐姿自拍，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "frame_insert_1",
+      "kind": "frame",
+      "bbox": [
+        414,
+        708,
+        657,
+        900
+      ],
+      "description": "围绕中间偏左照片窗口的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_insert_1"
+      ],
+      "label": "围绕中间偏左照片窗口的白色虚线框，覆盖照片边缘并位于照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "frame_insert_2",
+      "kind": "frame",
+      "bbox": [
+        585,
+        792,
+        819,
+        1104
+      ],
+      "description": "围绕右下角照片窗口的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_insert_2"
+      ],
+      "label": "围绕右下角照片窗口的白色虚线框，覆盖照片边缘并位于照片上方，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars",
+    "overlay_star_pattern",
+    "overlay_bubble_1",
+    "overlay_bubble_2",
+    "photo_insert_1",
+    "frame_insert_1",
+    "photo_insert_2",
+    "frame_insert_2"
+  ]
+}

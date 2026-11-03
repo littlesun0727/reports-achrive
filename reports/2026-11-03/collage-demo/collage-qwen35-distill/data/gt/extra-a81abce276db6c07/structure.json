@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        365
+      ],
+      "description": "上方独立横幅照片：一名黑色短袖男子位于右侧，背对镜头并向左上方仰头，呈半身景别；左侧大片湖水及顶部远山均属摄影环境。照片横贯画布，底部人物与湖水一起柔和渐隐，叠接中间照片的天空，不沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        322,
+        1000,
+        688
+      ],
+      "description": "中间独立照片：一名黑衣男子位于左侧，背身向左转头，显示头肩及上半身；蓝天、白云、远山和湖水完整保留。姿态及取景与上下照片不连续。上缘局部被上方照片的渐隐区域覆盖，下缘人物衣服及湖景柔和渐隐至下方照片。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        647,
+        1000,
+        1000
+      ],
+      "description": "下方独立照片：一名黑衣男子位于右下方，背身大幅仰头朝左上，身体被画布底边裁切；大片湖水及上缘远岸为同张照片环境。照片横贯画布并延伸到底边，上缘被中间照片的柔和渐隐部分遮盖，不沿主体轮廓去背景。"
+    },
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        951,
+        979,
+        971
+      ],
+      "description": "右下角白色圆角胶囊形小红书标识，内部蓝色特殊字形“小红书”与白色底板作为完整固定装饰保留。"
+    },
+    {
+      "id": "text_account",
+      "kind": "text",
+      "bbox": [
+        790,
+        976,
+        979,
+        988
+      ],
+      "text": "小红书号：862000240",
+      "color": "#C4C4C4",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_bottom",
+    "photo_middle",
+    "photo_top",
+    "overlay_logo",
+    "text_account"
+  ]
+}

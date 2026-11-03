@@ -1,0 +1,269 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布为带有横线和左侧蓝色竖线的笔记本纸张底图，纹理和线条结构固定且连续，需要保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布为带有横线和左侧蓝色竖线的笔记本纸张底图，纹理和线条结",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_apple_top",
+      "kind": "photo",
+      "bbox": [
+        310,
+        74,
+        856,
+        624
+      ],
+      "description": "位于上方的青苹果切片形状照片窗口，内部显示一名短发年轻女性双手比V手势的半身照，背景为绿色植物。",
+      "label": "位于上方的青苹果切片形状照片窗口，内部显示一名短发年轻女性双",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clover_1",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        61,
+        225,
+        222
+      ],
+      "description": "左上角的四叶草贴纸装饰，带有细长的茎。",
+      "label": "左上角的四叶草贴纸装饰，带有细长的茎。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_note_1",
+      "kind": "overlay",
+      "bbox": [
+        371,
+        66,
+        450,
+        162
+      ],
+      "description": "上方偏左的绿色音符图标装饰。",
+      "label": "上方偏左的绿色音符图标装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_label_1",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        266,
+        212,
+        342
+      ],
+      "description": "左侧白色矩形标签，上面印有模糊的小字和星星图案。",
+      "label": "左侧白色矩形标签，上面印有模糊的小字和星星图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_2",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        370,
+        342,
+        570
+      ],
+      "description": "左侧中部的四叶草贴纸装饰，部分压在苹果照片边缘。",
+      "label": "左侧中部的四叶草贴纸装饰，部分压在苹果照片边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_label_2",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        478,
+        832,
+        518
+      ],
+      "description": "右侧白色胶带样式文字“YOU ARE MORE”。",
+      "label": "右侧白色胶带样式文字“YOU ARE MORE”。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_label_3",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        530,
+        832,
+        570
+      ],
+      "description": "右侧白色胶带样式文字“THAN THE MISTAKES”。",
+      "label": "右侧白色胶带样式文字“THAN THE MISTAKES”。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_label_4",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        578,
+        783,
+        618
+      ],
+      "description": "右侧白色胶带样式文字“YOU'VE MADE.”。",
+      "label": "右侧白色胶带样式文字“YOU'VE MADE.”。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_note_2",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        612,
+        549,
+        684
+      ],
+      "description": "中间位置的绿色音符图标装饰。",
+      "label": "中间位置的绿色音符图标装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_apple_bottom",
+      "kind": "photo",
+      "bbox": [
+        32,
+        634,
+        562,
+        1122
+      ],
+      "description": "位于下方的青苹果形状照片窗口，顶部有一片大叶子，内部显示一名长发年轻女性托腮的近景照。",
+      "label": "位于下方的青苹果形状照片窗口，顶部有一片大叶子，内部显示一名",
+      "method": "local"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        428,
+        714,
+        634,
+        810
+      ],
+      "description": "白色对话气泡，内含韩文“반가와요★”及黑色星星符号。",
+      "label": "白色对话气泡，内含韩文“반가와요★”及黑色星星符号。",
+      "method": "extract"
+    },
+    {
+      "id": "text_vertical_1",
+      "kind": "text",
+      "bbox": [
+        711,
+        690,
+        756,
+        1050
+      ],
+      "description": "첫눈에 저와 함께 해주세요",
+      "label": "첫눈에 저와 함께 해주세요",
+      "method": "local",
+      "text": "첫눈에 저와 함께 해주세요",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_vertical_2",
+      "kind": "text",
+      "bbox": [
+        792,
+        696,
+        824,
+        936
+      ],
+      "description": "世界の終わりも一緒に",
+      "label": "世界の終わりも一緒に",
+      "method": "local",
+      "text": "世界の終わりも一緒に",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_clover_3",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        936,
+        891,
+        1020
+      ],
+      "description": "右下角的四叶草贴纸装饰。",
+      "label": "右下角的四叶草贴纸装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_1",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        1008,
+        243,
+        1134
+      ],
+      "description": "左下角的方形小卡片，印有深绿色四叶草图案和手写体韩文。",
+      "label": "左下角的方形小卡片，印有深绿色四叶草图案和手写体韩文。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_note_3",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        1032,
+        644,
+        1152
+      ],
+      "description": "下方偏右的绿色音符图标装饰。",
+      "label": "下方偏右的绿色音符图标装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_apple_top",
+    "overlay_clover_1",
+    "overlay_music_note_1",
+    "overlay_text_label_1",
+    "overlay_clover_2",
+    "overlay_text_label_2",
+    "overlay_text_label_3",
+    "overlay_text_label_4",
+    "overlay_music_note_2",
+    "photo_apple_bottom",
+    "overlay_speech_bubble",
+    "text_vertical_1",
+    "text_vertical_2",
+    "overlay_clover_3",
+    "overlay_card_1",
+    "overlay_music_note_3"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_top_1",
+      "kind": "photo",
+      "bbox": [
+        241,
+        230,
+        434,
+        460
+      ],
+      "description": "摩天轮局部仰拍，白色支架、红色轿厢与蓝天白云共同显示，下缘可见建筑及招牌。保留完整摄影环境，四周由胶片窗口裁切。"
+    },
+    {
+      "id": "photo_top_2",
+      "kind": "photo",
+      "bbox": [
+        453,
+        230,
+        643,
+        460
+      ],
+      "description": "透过浅褐色石拱门看向蓝色海面，近处有棕榈树、步道及栏杆。石拱属于摄影内容，保留场景，四周沿胶片窗口裁切。"
+    },
+    {
+      "id": "photo_top_3",
+      "kind": "photo",
+      "bbox": [
+        657,
+        232,
+        846,
+        461
+      ],
+      "description": "海边日落照片，橙色太阳与倒影位于中部，远处山影、天空及近处浪花连续显示。保留摄影环境，矩形窗口边缘清晰。"
+    },
+    {
+      "id": "photo_top_4",
+      "kind": "photo",
+      "bbox": [
+        854,
+        232,
+        1000,
+        461
+      ],
+      "description": "蓝天下的海岸峭壁与碧蓝海湾，近处可见岩石和植被。保留摄影环境，照片右侧在画布边缘截断，其余边缘由胶片窗口限定。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        0,
+        154,
+        1000,
+        525
+      ],
+      "description": "横向黑色胶片框与左端黄色胶卷筒构成完整固定单元，胶卷筒印有“CAMERA 200”。保留上下齿孔、细小编号、磨损颗粒、灰黑侧板及边缘阴影；四个照片窗口独立替换，右端延伸出画布。",
+      "photo_id": [
+        "photo_top_1",
+        "photo_top_2",
+        "photo_top_3",
+        "photo_top_4"
+      ]
+    },
+    {
+      "id": "photo_bottom_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        583,
+        178,
+        814
+      ],
+      "description": "白色花枝、浅色书页与一部斜放的手机组成静物照片，手机屏幕显示花枝影像。全部属于摄影内容，保留环境，左侧被画布裁切，其他边缘由胶片窗口限定。"
+    },
+    {
+      "id": "photo_bottom_2",
+      "kind": "photo",
+      "bbox": [
+        199,
+        583,
+        384,
+        815
+      ],
+      "description": "夕阳下的滨水道路，远处有落日与山影，近处花坛旁一只手拿着浅色玫瑰。保留完整摄影场景，矩形窗口裁切。"
+    },
+    {
+      "id": "photo_bottom_3",
+      "kind": "photo",
+      "bbox": [
+        401,
+        583,
+        586,
+        814
+      ],
+      "description": "山间溪流风景，前景溪水流过岩石和木头，中远景为草地、细长树木、山坡与蓝天。保留摄影环境，四周由胶片窗口裁切。"
+    },
+    {
+      "id": "photo_bottom_4",
+      "kind": "photo",
+      "bbox": [
+        603,
+        582,
+        793,
+        814
+      ],
+      "description": "一只手在水面前举着装有黄色柠檬片的透明玻璃杯，背景可见波纹与岸边绿植。手、杯子及水面共同替换，保留摄影环境，窗口边缘清晰。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        0,
+        545,
+        1000,
+        850
+      ],
+      "description": "下方独立横向黑色四格胶片框，左端超出画布，右端保留带弯曲缺口的深灰色空白片尾。上下白色齿孔、微小编号、磨损纹理及边缘阴影整体保留，四个照片内口独立替换。",
+      "photo_id": [
+        "photo_bottom_1",
+        "photo_bottom_2",
+        "photo_bottom_3",
+        "photo_bottom_4"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_top_1",
+    "photo_top_2",
+    "photo_top_3",
+    "photo_top_4",
+    "frame_top",
+    "photo_bottom_1",
+    "photo_bottom_2",
+    "photo_bottom_3",
+    "photo_bottom_4",
+    "frame_bottom"
+  ]
+}

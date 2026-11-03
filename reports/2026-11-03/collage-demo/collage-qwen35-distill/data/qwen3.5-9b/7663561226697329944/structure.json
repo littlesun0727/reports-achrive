@@ -1,0 +1,179 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "海滩全景摄影底图，包含蓝天、海面、沙滩、远处船只、近处遮阳棚及沙滩上的人物，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        220,
+        268,
+        445,
+        425
+      ],
+      "description": "冰淇淋特写照片，显示甜筒和冰淇淋球，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_ocean",
+      "kind": "photo",
+      "bbox": [
+        555,
+        330,
+        735,
+        438
+      ],
+      "description": "海面船只照片，显示蓝色海面和几艘小船，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        475,
+        655,
+        765,
+        825
+      ],
+      "description": "女子在街景前摆姿势的照片，显示人物、车辆和建筑，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        180,
+        180,
+        520,
+        250
+      ],
+      "text": "Rainy Day",
+      "color": "#A0E0F0",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        425,
+        385,
+        560,
+        645
+      ],
+      "text": "Summer sunsets\nnever disappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleaves sweet\nsoftness to\nevery passerby",
+      "color": "#FFF5C0",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        145,
+        795,
+        290
+      ],
+      "description": "白色带蓝点的五角星装饰，位于画布右上部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        560,
+        410,
+        745
+      ],
+      "description": "黄色五角星装饰，位于画布左中部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_music1",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        605,
+        870,
+        680
+      ],
+      "description": "白色音符装饰，位于画布右中部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_music2",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        370,
+        230,
+        430
+      ],
+      "description": "蓝色音符装饰，位于画布左中部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_music3",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        470,
+        570,
+        530
+      ],
+      "description": "蓝色音符装饰，位于画布中部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_music4",
+      "kind": "overlay",
+      "bbox": [
+        440,
+        380,
+        490,
+        440
+      ],
+      "description": "蓝色音符装饰，位于画布中部偏左，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_music5",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        530,
+        570,
+        590
+      ],
+      "description": "蓝色音符装饰，位于画布中部偏右，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        310,
+        650,
+        450,
+        830
+      ],
+      "description": "蓝色点阵装饰，位于画布左下部，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_icecream",
+    "photo_ocean",
+    "photo_woman",
+    "text_title",
+    "text_body",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_music1",
+    "overlay_music2",
+    "overlay_music3",
+    "overlay_music4",
+    "overlay_music5",
+    "overlay_dots"
+  ]
+}

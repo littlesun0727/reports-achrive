@@ -1,0 +1,115 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内自拍摄影底图，包含人物、木质家具、桌面物品及地板，完整显示区域延伸至画布四边；上层贴纸、文字气泡和照片窗口遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "多枚黄色五角星贴纸，散布于画布各处，部分位于人物和家具前方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_pattern",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        290,
+        260,
+        450
+      ],
+      "description": "左侧由像素点组成的星形图案贴纸，位于人物左臂前方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bubble_1",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        150,
+        900,
+        240
+      ],
+      "description": "右上角浅蓝色对话气泡贴纸，内含韩文文字，位于人物头部右上方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bubble_2",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        800,
+        1000,
+        880
+      ],
+      "description": "右下角白色对话气泡贴纸，内含韩文文字，位于右下角照片窗口右侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_insert_1",
+      "kind": "photo",
+      "bbox": [
+        470,
+        600,
+        720,
+        740
+      ],
+      "description": "中间偏左的矩形照片窗口，显示人物面部特写，保留照片内的摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "photo_insert_2",
+      "kind": "photo",
+      "bbox": [
+        660,
+        670,
+        900,
+        910
+      ],
+      "description": "右下角的矩形照片窗口，显示人物坐姿自拍，保留照片内的摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "frame_insert_1",
+      "kind": "frame",
+      "bbox": [
+        460,
+        590,
+        730,
+        750
+      ],
+      "description": "围绕中间偏左照片窗口的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_insert_1"
+      ]
+    },
+    {
+      "id": "frame_insert_2",
+      "kind": "frame",
+      "bbox": [
+        650,
+        660,
+        910,
+        920
+      ],
+      "description": "围绕右下角照片窗口的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_insert_2"
+      ]
+    }
+  ],
+  "layer_order": [
+    "overlay_stars",
+    "overlay_star_pattern",
+    "overlay_bubble_1",
+    "overlay_bubble_2",
+    "photo_insert_1",
+    "frame_insert_1",
+    "photo_insert_2",
+    "frame_insert_2"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "地铁站内场景，包含白色砖墙、楼梯扶手、绿色出口指示牌及台阶，构成连续摄影底图。前景人物与右侧心形照片遮挡局部，保留完整环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        286,
+        497,
+        1000
+      ],
+      "description": "前景人物半身照，戴黑色鸭舌帽，穿白色短袖，侧身回望镜头，保留砖墙背景，下缘与右缘被心形照片遮挡。"
+    },
+    {
+      "id": "photo_mirror",
+      "kind": "photo",
+      "bbox": [
+        597,
+        223,
+        942,
+        550
+      ],
+      "description": "心形窗口内的镜面自拍照，人物手持手机，表情惊讶，保留楼梯与砖墙背景，位于主图右上方。"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        578,
+        223,
+        942,
+        567
+      ],
+      "description": "白色手绘心形边框，围绕镜面自拍照片，覆盖照片边缘并位于照片上方，完整心形作为一个框体保留。",
+      "photo_id": [
+        "photo_mirror"
+      ]
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        526,
+        815,
+        723,
+        876
+      ],
+      "text": "좋은 날",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        178,
+        214,
+        253
+      ],
+      "description": "左上角白色手绘星星装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_stars_2",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        820,
+        314,
+        895
+      ],
+      "description": "左下角白色手绘星星装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_stars_3",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        642,
+        850,
+        717
+      ],
+      "description": "右下角白色手绘星星装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_stars_4",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        467,
+        942,
+        542
+      ],
+      "description": "心形照片右侧白色手绘星星装饰，作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_mirror",
+    "frame_heart",
+    "text_1",
+    "overlay_stars",
+    "overlay_stars_2",
+    "overlay_stars_3",
+    "overlay_stars_4"
+  ]
+}

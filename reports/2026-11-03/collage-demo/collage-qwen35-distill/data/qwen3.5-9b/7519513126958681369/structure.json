@@ -1,0 +1,113 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "带有水彩晕染、星星、翅膀和星星剪影的浅色纹理纸底，作为全画布固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        52,
+        160,
+        520,
+        730
+      ],
+      "description": "一位黑发女孩蹲在爬满常春藤的墙边，穿着条纹衬衫和拖鞋，保留照片内的摄影环境。"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        44,
+        152,
+        528,
+        738
+      ],
+      "description": "围绕主照片的白色不规则撕边相框，顶部有金属夹子，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "photo_small",
+      "kind": "photo",
+      "bbox": [
+        460,
+        300,
+        740,
+        470
+      ],
+      "description": "一张小尺寸照片，显示白色花朵和绿叶，保留照片内的摄影环境。"
+    },
+    {
+      "id": "frame_small",
+      "kind": "frame",
+      "bbox": [
+        452,
+        292,
+        748,
+        478
+      ],
+      "description": "围绕小照片的白色圆角矩形相框，位于主照片右侧，覆盖小照片边缘。",
+      "photo_id": [
+        "photo_small"
+      ]
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        240,
+        110,
+        320,
+        170
+      ],
+      "description": "位于主照片顶部的金属夹子，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        740,
+        240,
+        880,
+        280
+      ],
+      "text": "♪ summer ♪",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        460,
+        660,
+        840,
+        800
+      ],
+      "text": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "frame_main",
+    "photo_small",
+    "frame_small",
+    "overlay_clip",
+    "text_1",
+    "text_2"
+  ]
+}

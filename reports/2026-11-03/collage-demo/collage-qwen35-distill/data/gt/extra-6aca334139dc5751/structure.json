@@ -1,0 +1,78 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        326
+      ],
+      "description": "顶部横向照片，大片白色水雾与喷溅水流占据画面，边缘露出深色设施及局部建筑。保留完整摄影环境，下边界平直，局部被中间照片延伸出的女生头部和双臂遮挡。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        337,
+        1000,
+        663
+      ],
+      "description": "中间横向照片，一名黑色长发女生穿深蓝水手服、系红色领巾，闭眼微笑并向两侧展开双臂；背景为蓝天、树木、楼宇及游乐设施。保留摄影环境，照片窗口上下平直，人物头部及双臂连续越过上边界，另以前景层表达。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        674,
+        1000,
+        1000
+      ],
+      "description": "底部独立横向照片，俯视浅青色清水，水底可见细小杂物和密集明亮的波纹光斑，无人物。保留完整水面及水底摄影内容，四边为清晰矩形边界。"
+    },
+    {
+      "id": "photo_foreground",
+      "kind": "photo",
+      "bbox": [
+        39,
+        229,
+        990,
+        663
+      ],
+      "description": "来自中间照片的同一女生前景，沿人物轮廓去除摄影背景，包含黑色长发、闭眼微笑的脸、向左右上方伸展的完整双臂、深蓝上衣、红领巾及露出的腰腹。头部和双臂越过中间照片上边界及白色分隔条，覆盖顶部水雾照片；身体下端仍在中间照片下边界裁切，无独立描边。",
+      "linked_to": "photo_middle"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        390,
+        916,
+        610,
+        935
+      ],
+      "text": "OPPO Reno15 Pro",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "photo_foreground",
+    "text_watermark"
+  ]
+}

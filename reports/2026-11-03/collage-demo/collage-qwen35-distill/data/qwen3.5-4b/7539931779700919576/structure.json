@@ -1,0 +1,221 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        185,
+        92,
+        353
+      ],
+      "description": "左侧第一格画面，展示一个背对镜头的角色，身穿黑色斗篷，斗篷上有菱形光点装饰，站在草地上。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        92,
+        138,
+        356,
+        353
+      ],
+      "description": "左侧第二格画面，展示一个风景场景，有绿色的山丘、树木和远处的建筑，前景有角色背影。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        356,
+        138,
+        715,
+        328
+      ],
+      "description": "左侧第三格画面，展示一个背对镜头的角色，身穿黑色斗篷，站在石阶上，背景有石灯笼。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        715,
+        28,
+        999,
+        280
+      ],
+      "description": "右侧第一格画面，展示一个拱门场景，有角色站在拱门前，背景有石阶和树木。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        406,
+        207,
+        560
+      ],
+      "description": "中间行左侧第一格画面，展示一个蓝色调的场景，有角色站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        207,
+        396,
+        475,
+        573
+      ],
+      "description": "中间行左侧第二格画面，展示一个角色背影，身穿白色斗篷，站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        475,
+        388,
+        830,
+        560
+      ],
+      "description": "中间行左侧第三格画面，展示一个角色背影，身穿白色斗篷，站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        830,
+        378,
+        999,
+        600
+      ],
+      "description": "中间行右侧第一格画面，展示一个角色背影，身穿黑色斗篷，站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_9",
+      "kind": "photo",
+      "bbox": [
+        0,
+        625,
+        92,
+        795
+      ],
+      "description": "底部行左侧第一格画面，展示一个角色背影，身穿黑色斗篷，站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_10",
+      "kind": "photo",
+      "bbox": [
+        92,
+        625,
+        356,
+        838
+      ],
+      "description": "底部行左侧第二格画面，展示一个角色背影，身穿黑色斗篷，站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_11",
+      "kind": "photo",
+      "bbox": [
+        356,
+        625,
+        620,
+        868
+      ],
+      "description": "底部行左侧第三格画面，展示一个角色背影，身穿黑色斗篷，站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_12",
+      "kind": "photo",
+      "bbox": [
+        620,
+        625,
+        999,
+        950
+      ],
+      "description": "底部行右侧第一格画面，展示一个角色背影，身穿黑色斗篷，站在草地上，背景有树木和光点。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        362,
+        143,
+        982,
+        950
+      ],
+      "description": "前景主要角色，身穿橙色斗篷，背对镜头，站在画面中央偏右位置，遮挡部分背景照片。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        999,
+        400
+      ],
+      "description": "顶部黑色边框，包含多个照片窗口，位于所有照片上方。",
+      "photo_id": [
+        "photo_1",
+        "photo_2",
+        "photo_3",
+        "photo_4"
+      ]
+    },
+    {
+      "id": "frame_middle",
+      "kind": "frame",
+      "bbox": [
+        0,
+        400,
+        999,
+        625
+      ],
+      "description": "中间黑色边框，包含多个照片窗口，位于所有照片上方。",
+      "photo_id": [
+        "photo_5",
+        "photo_6",
+        "photo_7",
+        "photo_8"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        0,
+        625,
+        999,
+        999
+      ],
+      "description": "底部黑色边框，包含多个照片窗口，位于所有照片上方。",
+      "photo_id": [
+        "photo_9",
+        "photo_10",
+        "photo_11",
+        "photo_12"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8",
+    "photo_9",
+    "photo_10",
+    "photo_11",
+    "photo_12",
+    "photo_main",
+    "frame_top",
+    "frame_middle",
+    "frame_bottom"
+  ]
+}

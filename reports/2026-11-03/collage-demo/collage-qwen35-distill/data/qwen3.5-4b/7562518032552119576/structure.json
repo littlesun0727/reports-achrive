@@ -1,0 +1,236 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#5C3A2E"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        101,
+        119,
+        462,
+        475
+      ],
+      "description": "左上角室内场景照片，展示店铺内部陈设、货架及一位背对镜头的长发女性，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        538,
+        127,
+        903,
+        488
+      ],
+      "description": "右上角俯拍视角照片，展示木质桌面上放置的黑色手提包、手机和饮品，以及穿着格子裙和长袜的腿部，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        101,
+        553,
+        453,
+        901
+      ],
+      "description": "左下角室内场景照片，展示一位长发女性站在店铺内，手扶包带，背景为货架和木质结构，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        538,
+        553,
+        903,
+        901
+      ],
+      "description": "右下角室内场景照片，展示一位长发女性坐在木质长凳上，手扶包带，背景为货架和木质结构，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        326,
+        406,
+        672,
+        672
+      ],
+      "description": "中央心形裁剪照片，展示木质桌面上放置的饮品、卡片和蓝色小册子，保留完整摄影环境。"
+    },
+    {
+      "id": "frame_center",
+      "kind": "frame",
+      "bbox": [
+        326,
+        406,
+        672,
+        672
+      ],
+      "description": "围绕中央照片的红色心形边框，覆盖照片边缘并位于照片上方，完整心形作为一个框体保留。",
+      "photo_id": [
+        "photo_center"
+      ]
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        106,
+        240,
+        153
+      ],
+      "description": "左上角的蓝色卡通鱼贴纸，带有黄色星星装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        63,
+        570,
+        111
+      ],
+      "description": "顶部的黄色五角星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        127,
+        501,
+        166
+      ],
+      "description": "左上照片右侧的黄色五角星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        111,
+        606,
+        148
+      ],
+      "description": "右上照片上方的黄色五角星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        93,
+        938,
+        148
+      ],
+      "description": "右上角的黄色螺旋贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_droplet_1",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        293,
+        53,
+        353
+      ],
+      "description": "左侧的黄色水滴贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_droplet_2",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        326,
+        88,
+        388
+      ],
+      "description": "左侧下方的黄色水滴贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        462,
+        938,
+        538
+      ],
+      "description": "右侧的黄色猫咪贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_house",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        843,
+        188,
+        893
+      ],
+      "description": "左下角的黄色房子贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        826,
+        633,
+        921
+      ],
+      "description": "底部的白色蝴蝶结贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spiral_left",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        553,
+        101,
+        633
+      ],
+      "description": "左侧的黄色螺旋贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        46,
+        493,
+        288,
+        522
+      ],
+      "text": "See you next time /// ♪",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_center",
+    "frame_center",
+    "overlay_fish",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_spiral",
+    "overlay_droplet_1",
+    "overlay_droplet_2",
+    "overlay_cat",
+    "overlay_house",
+    "overlay_bow",
+    "overlay_spiral_left",
+    "text_1"
+  ]
+}

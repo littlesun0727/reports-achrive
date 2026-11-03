@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-86ddd5b1b1ffb497",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7854,
+    "completion_tokens": 907,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一位年轻女性站在街道上的摄影底图，身穿深色格纹无袖连衣裙，背着双肩包，面带微笑。背景为灰色建筑墙面、街道及远处行人。画布边缘可见完整街道与建筑，上层贴纸与照片遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        28,\n        38,\n        452,\n        365\n      ],\n      \"description\": \"白色手绘五角星轮廓，内部嵌入一张女性半身照片，作为独立固定装饰单元保留。\"\n    },\n    {\n      \"id\": \"photo_star\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        152,\n        110,\n        358,\n        332\n      ],\n      \"description\": \"星形窗口内的女性半身照片，与主图人物为同一人，保留摄影环境，显示区域为星形裁切。\"\n    },\n    {\n      \"id\": \"overlay_small_star\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        382,\n        352,\n        442,\n        395\n      ],\n      \"description\": \"白色手绘小五角星，位于主图人物头部左侧，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_clouds\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        285,\n        435,\n        795,\n        555\n      ],\n      \"description\": \"白色手绘云朵与闪光装饰组合，环绕主图人物腰部，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_heart\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        85,\n        690,\n        352,\n        865\n      ],\n      \"description\": \"白色心形贴纸，内含黑色文字“I”、红色心形图案及黑色文字“ME”，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"text_heart\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        125,\n        715,\n        285,\n        845\n      ],\n      \"text\": \"I\\nME\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_oval\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        612,\n        560,\n        945,\n        945\n      ],\n      \"description\": \"白色手绘椭圆轮廓，内部嵌入一张女性全身照片，作为独立固定装饰单元保留。\"\n    },\n    {\n      \"id\": \"photo_oval\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        685,\n        625,\n        855,\n        915\n      ],\n      \"description\": \"椭圆窗口内的女性全身照片，与主图人物为同一人，保留摄影环境，显示区域为椭圆裁切。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_star\",\n    \"photo_oval\",\n    \"overlay_star\",\n    \"overlay_small_star\",\n    \"overlay_clouds\",\n    \"overlay_heart\",\n    \"text_heart\",\n    \"overlay_oval\"\n  ]\n}",
+  "tool_calls": false
+}

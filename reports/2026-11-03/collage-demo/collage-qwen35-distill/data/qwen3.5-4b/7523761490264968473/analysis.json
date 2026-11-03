@@ -1,0 +1,212 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "film_strip_1",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        64,
+        900,
+        414
+      ],
+      "description": "手绘风格胶片条，包含左侧蓝色相机卷标（印有 STAR, E100, Kodak, EXTRACHROME 等字样）和右侧三个照片窗口，分别展示城市景观、喷泉广场和红色电话亭场景。",
+      "label": "手绘风格胶片条，包含左侧蓝色相机卷标（印有 STAR, E1",
+      "method": "extract"
+    },
+    {
+      "id": "film_strip_2",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        490,
+        900,
+        770
+      ],
+      "description": "手绘风格胶片条，包含四个照片窗口，分别展示欧式建筑广场、室内货架陈列、黄色甜点特写和埃菲尔铁塔远景。",
+      "label": "手绘风格胶片条，包含四个照片窗口，分别展示欧式建筑广场、室内",
+      "method": "extract"
+    },
+    {
+      "id": "film_strip_3",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        830,
+        860,
+        1114
+      ],
+      "description": "手绘风格胶片条，包含三个照片窗口，分别展示红色双层巴士、钟楼广场和人物剪影，右侧连接不规则形状区域。",
+      "label": "手绘风格胶片条，包含三个照片窗口，分别展示红色双层巴士、钟楼",
+      "method": "extract"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        270,
+        174,
+        446,
+        366
+      ],
+      "description": "城市景观照片，包含大本钟、现代高楼和绿地，展示伦敦城市风貌。",
+      "label": "城市景观照片，包含大本钟、现代高楼和绿地，展示伦敦城市风貌。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        454,
+        174,
+        688,
+        366
+      ],
+      "description": "喷泉广场照片，展示古典喷泉、台阶和人物，背景为欧式建筑。",
+      "label": "喷泉广场照片，展示古典喷泉、台阶和人物，背景为欧式建筑。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        729,
+        192,
+        842,
+        366
+      ],
+      "description": "红色电话亭照片，展示经典红色电话亭和人物，背景为欧式建筑。",
+      "label": "红色电话亭照片，展示经典红色电话亭和人物，背景为欧式建筑。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        40,
+        540,
+        270,
+        714
+      ],
+      "description": "欧式建筑广场照片，展示拱廊、车辆和人物，具有古典建筑风格。",
+      "label": "欧式建筑广场照片，展示拱廊、车辆和人物，具有古典建筑风格。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        288,
+        540,
+        522,
+        714
+      ],
+      "description": "室内货架照片，展示商品陈列和人物，具有商业空间特征。",
+      "label": "室内货架照片，展示商品陈列和人物，具有商业空间特征。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        567,
+        540,
+        747,
+        714
+      ],
+      "description": "黄色甜点特写照片，展示装在纸碗中的甜点，配有绿色装饰。",
+      "label": "黄色甜点特写照片，展示装在纸碗中的甜点，配有绿色装饰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        792,
+        534,
+        896,
+        714
+      ],
+      "description": "埃菲尔铁塔照片，展示铁塔远景和人物，背景为蓝天和建筑。",
+      "label": "埃菲尔铁塔照片，展示铁塔远景和人物，背景为蓝天和建筑。",
+      "method": "local"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        40,
+        876,
+        270,
+        1074
+      ],
+      "description": "红色双层巴士照片，展示巴士和人物，背景为欧式建筑和绿地。",
+      "label": "红色双层巴士照片，展示巴士和人物，背景为欧式建筑和绿地。",
+      "method": "local"
+    },
+    {
+      "id": "photo_9",
+      "kind": "photo",
+      "bbox": [
+        288,
+        876,
+        522,
+        1074
+      ],
+      "description": "钟楼广场照片，展示钟楼、人物和绿地，具有城市景观特征。",
+      "label": "钟楼广场照片，展示钟楼、人物和绿地，具有城市景观特征。",
+      "method": "local"
+    },
+    {
+      "id": "photo_10",
+      "kind": "photo",
+      "bbox": [
+        634,
+        756,
+        860,
+        1158
+      ],
+      "description": "人物照片，展示戴草帽、穿粉色连衣裙的女性，手持浅蓝色手提包，姿态自然。",
+      "label": "人物照片，展示戴草帽、穿粉色连衣裙的女性，手持浅蓝色手提包，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8",
+    "photo_9",
+    "photo_10",
+    "film_strip_1",
+    "film_strip_2",
+    "film_strip_3"
+  ]
+}

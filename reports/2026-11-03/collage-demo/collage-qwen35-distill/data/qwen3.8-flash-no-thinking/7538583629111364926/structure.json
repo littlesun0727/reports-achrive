@@ -1,0 +1,148 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影画面承载全画布，主体为一名背对镜头、身穿蓝色斗篷的白发人物。环境包含上方波光粼粼的水面或天空、下方茂密的草地以及漂浮的金鱼和光斑。该底图延伸至画布四边，位于所有独立对象（如电视机）下方，需整体替换以保留构图氛围。"
+  },
+  "objects": [
+    {
+      "id": "frame_tv_top_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        95,
+        268,
+        385
+      ],
+      "description": "左上角倾斜放置的黑色老式电视机外壳，具有厚实的边框和屏幕反光质感，作为固定装饰单元保留。",
+      "photo_id": [
+        "photo_screen_top_left"
+      ]
+    },
+    {
+      "id": "photo_screen_top_left",
+      "kind": "photo",
+      "bbox": [
+        10,
+        105,
+        240,
+        300
+      ],
+      "description": "位于左上角电视机内的游戏场景截图，显示两个穿着红色斗篷的角色在夕阳下的草地上互动。"
+    },
+    {
+      "id": "frame_tv_top_right",
+      "kind": "frame",
+      "bbox": [
+        705,
+        100,
+        1000,
+        380
+      ],
+      "description": "右上角倾斜放置的黑色老式电视机外壳，与左侧电视风格一致，具有明显的立体感。",
+      "photo_id": [
+        "photo_screen_top_right"
+      ]
+    },
+    {
+      "id": "photo_screen_top_right",
+      "kind": "photo",
+      "bbox": [
+        745,
+        110,
+        980,
+        285
+      ],
+      "description": "位于右上角电视机内的游戏场景截图，显示两个角色站在金黄色的沙地或草地上。"
+    },
+    {
+      "id": "frame_tv_mid_right",
+      "kind": "frame",
+      "bbox": [
+        775,
+        385,
+        1000,
+        595
+      ],
+      "description": "右侧中部悬浮的黑色老式电视机外壳，角度略微向下倾斜。",
+      "photo_id": [
+        "photo_screen_mid_right"
+      ]
+    },
+    {
+      "id": "photo_screen_mid_right",
+      "kind": "photo",
+      "bbox": [
+        805,
+        400,
+        980,
+        535
+      ],
+      "description": "位于右侧中部电视机内的游戏场景截图，显示两个戴着花环的角色并排站立。"
+    },
+    {
+      "id": "frame_tv_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        525,
+        325,
+        800
+      ],
+      "description": "左下角放置在草地上的黑色老式电视机外壳，正面朝向观众略偏右。",
+      "photo_id": [
+        "photo_screen_bottom_left"
+      ]
+    },
+    {
+      "id": "photo_screen_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        565,
+        165,
+        740
+      ],
+      "description": "位于左下角电视机内的游戏场景截图，显示角色坐在紫色花海中的长椅上。"
+    },
+    {
+      "id": "frame_tv_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        505,
+        665,
+        950,
+        935
+      ],
+      "description": "右下角放置在草地上的黑色老式电视机外壳，部分被前景遮挡。",
+      "photo_id": [
+        "photo_screen_bottom_right"
+      ]
+    },
+    {
+      "id": "photo_screen_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        545,
+        715,
+        735,
+        905
+      ],
+      "description": "位于右下角电视机内的游戏场景截图，显示两个角色在夜晚的森林背景中阅读。"
+    }
+  ],
+  "layer_order": [
+    "frame_tv_top_left",
+    "photo_screen_top_left",
+    "frame_tv_top_right",
+    "photo_screen_top_right",
+    "frame_tv_mid_right",
+    "photo_screen_mid_right",
+    "frame_tv_bottom_left",
+    "photo_screen_bottom_left",
+    "frame_tv_bottom_right",
+    "photo_screen_bottom_right"
+  ]
+}

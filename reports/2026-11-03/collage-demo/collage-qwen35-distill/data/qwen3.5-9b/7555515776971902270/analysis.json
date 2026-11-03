@@ -1,0 +1,199 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一条狭窄的街道，两侧是建筑物和店铺，上方有金属顶棚和电线杆。画面中可见远处的天空、电线、近处的地面以及右侧的卷帘门。",
+      "background_type": "photo",
+      "label": "一条狭窄的街道，两侧是建筑物和店铺，上方有金属顶棚和电线杆。",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_nails",
+      "kind": "photo",
+      "bbox": [
+        371,
+        115,
+        628,
+        458
+      ],
+      "description": "一张特写照片，展示了一只手，手指上涂有带有装饰图案的指甲油，手腕处露出蓝色的针织袖口。",
+      "label": "一张特写照片，展示了一只手，手指上涂有带有装饰图案的指甲油，",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        85,
+        458,
+        395,
+        854
+      ],
+      "description": "一位年轻女性的半身照，她正抬头仰望，手中拿着一个三明治。照片背景是蓝天和树木。",
+      "label": "一位年轻女性的半身照，她正抬头仰望，手中拿着一个三明治。照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_candy",
+      "kind": "photo",
+      "bbox": [
+        560,
+        511,
+        740,
+        722
+      ],
+      "description": "一只手拿着一袋 HARIBO 软糖，背景是模糊的室内环境。",
+      "label": "一只手拿着一袋 HARIBO 软糖，背景是模糊的室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_mirror",
+      "kind": "photo",
+      "bbox": [
+        398,
+        708,
+        812,
+        1066
+      ],
+      "description": "一张室内照片，展示了一个人站在镜子前自拍，周围有家具和陈列架。",
+      "label": "一张室内照片，展示了一个人站在镜子前自拍，周围有家具和陈列架",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sign",
+      "kind": "overlay",
+      "bbox": [
+        587,
+        98,
+        830,
+        266
+      ],
+      "description": "一个红色的悬挂招牌，上面有日文“こいこい”和英文“Koi-Koi.”。",
+      "label": "一个红色的悬挂招牌，上面有日文“こいこい”和英文“Koi-K",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        200,
+        391,
+        470,
+        434
+      ],
+      "description": "pixel butter flits",
+      "label": "pixel butter flits",
+      "method": "local",
+      "text": "pixel butter flits",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFF00",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        560,
+        314,
+        830,
+        386
+      ],
+      "description": "# 日 de 选择题",
+      "label": "# 日 de 选择题",
+      "method": "local",
+      "text": "# 日 de 选择题",
+      "text_status": "known",
+      "style": {
+        "fill": "#00FFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_doodles_1",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        362,
+        110,
+        458
+      ],
+      "description": "一个蓝色的手绘螺旋线条装饰。",
+      "label": "一个蓝色的手绘螺旋线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodles_2",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        842,
+        389,
+        1118
+      ],
+      "description": "一个带有黄色圆点的紫色手绘螺旋线条装饰。",
+      "label": "一个带有黄色圆点的紫色手绘螺旋线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodles_3",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        842,
+        389,
+        878
+      ],
+      "description": "一组白色的手绘涂鸦，包括云朵、加号和螺旋线。",
+      "label": "一组白色的手绘涂鸦，包括云朵、加号和螺旋线。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        434,
+        470,
+        650,
+        650
+      ],
+      "description": "两个手绘风格的星星，一个橙色，一个蓝色。",
+      "label": "两个手绘风格的星星，一个橙色，一个蓝色。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_nails",
+    "photo_girl",
+    "photo_candy",
+    "photo_mirror",
+    "overlay_sign",
+    "text_1",
+    "text_2",
+    "overlay_doodles_1",
+    "overlay_doodles_2",
+    "overlay_doodles_3",
+    "overlay_stars"
+  ]
+}

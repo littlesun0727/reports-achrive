@@ -1,0 +1,242 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1140
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1140
+      ],
+      "description": "蓝天白云与绿色树林构成连续摄影底图，完整显示区域延伸至画布四边；上层两张照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云与绿色树林构成连续摄影底图，完整显示区域延伸至画布四",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        155,
+        157,
+        745,
+        534
+      ],
+      "description": "上方人物照片，女孩身穿红白条纹连衣裙，肩扛红色物体，背景为绿色草地、远山和天空，保留摄影环境，显示区域为矩形。",
+      "label": "上方人物照片，女孩身穿红白条纹连衣裙，肩扛红色物体，背景为绿",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        155,
+        606,
+        745,
+        983
+      ],
+      "description": "下方车辆照片，展示白色车辆驾驶室顶部及红色物体，背景为蓝天和树木，保留摄影环境，显示区域为矩形。",
+      "label": "下方车辆照片，展示白色车辆驾驶室顶部及红色物体，背景为蓝天和",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        151,
+        153,
+        749,
+        538
+      ],
+      "description": "围绕上方人物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕上方人物照片的白色虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        151,
+        602,
+        749,
+        987
+      ],
+      "description": "围绕下方车辆照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕下方车辆照片的白色虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        294,
+        200,
+        401
+      ],
+      "description": "左侧白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "label": "左侧白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        601,
+        52,
+        700,
+        160
+      ],
+      "description": "右上角白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "label": "右上角白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        646,
+        534,
+        745,
+        641
+      ],
+      "description": "右侧白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "label": "右侧白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        732,
+        133,
+        839
+      ],
+      "description": "左下角白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "label": "左下角白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        376,
+        1010,
+        475,
+        1117
+      ],
+      "description": "底部中央白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "label": "底部中央白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        755,
+        880,
+        862
+      ],
+      "description": "右下角白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "label": "右下角白色手绘星星，带有笑脸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        173,
+        100,
+        236,
+        128
+      ],
+      "description": "No.1",
+      "label": "No.1",
+      "method": "local",
+      "text": "No.1",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        344,
+        545,
+        556,
+        572
+      ],
+      "description": "百分百做自己",
+      "label": "百分百做自己",
+      "method": "local",
+      "text": "百分百做自己",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        673,
+        1012,
+        736,
+        1040
+      ],
+      "description": "Happy",
+      "label": "Happy",
+      "method": "local",
+      "text": "Happy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "frame_top",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

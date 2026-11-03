@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-241b6c71-f957-9317-9f98-11d8bdff1855",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8111,
+    "completion_tokens": 1164,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1164
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的摄影画面承载全画布，主体为一名背对镜头、身穿蓝色斗篷的白发人物。环境包含上方波光粼粼的水面或天空、下方茂密的草地以及漂浮的金鱼和光斑。该底图延伸至画布四边，位于所有独立对象（如电视机）下方，需整体替换以保留构图氛围。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"frame_tv_top_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        0,\n        95,\n        268,\n        385\n      ],\n      \"description\": \"左上角倾斜放置的黑色老式电视机外壳，具有厚实的边框和屏幕反光质感，作为固定装饰单元保留。\",\n      \"photo_id\": [\n        \"photo_screen_top_left\"\n      ]\n    },\n    {\n      \"id\": \"photo_screen_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        10,\n        105,\n        240,\n        300\n      ],\n      \"description\": \"位于左上角电视机内的游戏场景截图，显示两个穿着红色斗篷的角色在夕阳下的草地上互动。\"\n    },\n    {\n      \"id\": \"frame_tv_top_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        705,\n        100,\n        1000,\n        380\n      ],\n      \"description\": \"右上角倾斜放置的黑色老式电视机外壳，与左侧电视风格一致，具有明显的立体感。\",\n      \"photo_id\": [\n        \"photo_screen_top_right\"\n      ]\n    },\n    {\n      \"id\": \"photo_screen_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        745,\n        110,\n        980,\n        285\n      ],\n      \"description\": \"位于右上角电视机内的游戏场景截图，显示两个角色站在金黄色的沙地或草地上。\"\n    },\n    {\n      \"id\": \"frame_tv_mid_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        775,\n        385,\n        1000,\n        595\n      ],\n      \"description\": \"右侧中部悬浮的黑色老式电视机外壳，角度略微向下倾斜。\",\n      \"photo_id\": [\n        \"photo_screen_mid_right\"\n      ]\n    },\n    {\n      \"id\": \"photo_screen_mid_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        805,\n        400,\n        980,\n        535\n      ],\n      \"description\": \"位于右侧中部电视机内的游戏场景截图，显示两个戴着花环的角色并排站立。\"\n    },\n    {\n      \"id\": \"frame_tv_bottom_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        0,\n        525,\n        325,\n        800\n      ],\n      \"description\": \"左下角放置在草地上的黑色老式电视机外壳，正面朝向观众略偏右。\",\n      \"photo_id\": [\n        \"photo_screen_bottom_left\"\n      ]\n    },\n    {\n      \"id\": \"photo_screen_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        565,\n        165,\n        740\n      ],\n      \"description\": \"位于左下角电视机内的游戏场景截图，显示角色坐在紫色花海中的长椅上。\"\n    },\n    {\n      \"id\": \"frame_tv_bottom_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        505,\n        665,\n        950,\n        935\n      ],\n      \"description\": \"右下角放置在草地上的黑色老式电视机外壳，部分被前景遮挡。\",\n      \"photo_id\": [\n        \"photo_screen_bottom_right\"\n      ]\n    },\n    {\n      \"id\": \"photo_screen_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        545,\n        715,\n        735,\n        905\n      ],\n      \"description\": \"位于右下角电视机内的游戏场景截图，显示两个角色在夜晚的森林背景中阅读。\"\n    }\n  ],\n  \"layer_order\": [\n    \"frame_tv_top_left\",\n    \"photo_screen_top_left\",\n    \"frame_tv_top_right\",\n    \"photo_screen_top_right\",\n    \"frame_tv_mid_right\",\n    \"photo_screen_mid_right\",\n    \"frame_tv_bottom_left\",\n    \"photo_screen_bottom_left\",\n    \"frame_tv_bottom_right\",\n    \"photo_screen_bottom_right\"\n  ]\n}",
+  "tool_calls": false
+}

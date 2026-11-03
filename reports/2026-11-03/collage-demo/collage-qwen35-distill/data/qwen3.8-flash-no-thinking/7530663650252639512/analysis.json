@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布为浅米色带细微颗粒纹理的固定底图，四周及照片间隙均保留相同纸纹；该底图作为背景承载所有独立对象。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅米色带细微颗粒纹理的固定底图，四周及照片间隙均保留",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_fork_spoon",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        168,
+        261,
+        378
+      ],
+      "description": "左上角手绘风格的叉子和勺子黑色线条图案，无底板，直接绘制在纸底上。",
+      "label": "左上角手绘风格的叉子和勺子黑色线条图案，无底板，直接绘制在纸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_tr",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        90,
+        783,
+        156
+      ],
+      "description": "右上角手绘螺旋形装饰线条，位于纸底上方。",
+      "label": "右上角手绘螺旋形装饰线条，位于纸底上方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_pizza",
+      "kind": "photo",
+      "bbox": [
+        320,
+        210,
+        576,
+        462
+      ],
+      "description": "顶部矩形照片，展示披萨、炸鸡和饮料等食物，视角略微俯视，边缘整齐。",
+      "label": "顶部矩形照片，展示披萨、炸鸡和饮料等食物，视角略微俯视，边缘",
+      "method": "local"
+    },
+    {
+      "id": "overlay_spiral_mr",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        462,
+        819,
+        558
+      ],
+      "description": "右侧中部手绘螺旋形装饰线条，位于纸底上方。",
+      "label": "右侧中部手绘螺旋形装饰线条，位于纸底上方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        212,
+        444,
+        364,
+        618
+      ],
+      "description": "中间左侧倾斜照片，展示带有卡通造型的甜点（如小熊蛋糕），放置在深色桌面上。",
+      "label": "中间左侧倾斜照片，展示带有卡通造型的甜点（如小熊蛋糕），放置",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_center",
+      "kind": "photo",
+      "bbox": [
+        360,
+        456,
+        544,
+        594
+      ],
+      "description": "中间居中照片，展示切块蛋糕和饮品，放置在深色圆桌上。",
+      "label": "中间居中照片，展示切块蛋糕和饮品，放置在深色圆桌上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        384,
+        711,
+        600
+      ],
+      "description": "中间右侧倾斜照片，展示牛排、意面等西式餐点，光线较暗。",
+      "label": "中间右侧倾斜照片，展示牛排、意面等西式餐点，光线较暗。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_spiral_ml",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        618,
+        126,
+        780
+      ],
+      "description": "左侧下部手绘螺旋形装饰线条，位于纸底上方。",
+      "label": "左侧下部手绘螺旋形装饰线条，位于纸底上方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        158,
+        582,
+        346,
+        870
+      ],
+      "description": "底部左侧照片，展示煎蛋牛肉饭及其他配菜，视角垂直向下。",
+      "label": "底部左侧照片，展示煎蛋牛肉饭及其他配菜，视角垂直向下。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        342,
+        582,
+        549,
+        870
+      ],
+      "description": "底部中间照片，展示蓝莓松饼或类似烘焙食品，色彩丰富。",
+      "label": "底部中间照片，展示蓝莓松饼或类似烘焙食品，色彩丰富。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        544,
+        582,
+        738,
+        858
+      ],
+      "description": "底部右侧照片，展示抹茶冰淇淋甜品碗，包含绿色冰淇淋球和水果配料。",
+      "label": "底部右侧照片，展示抹茶冰淇淋甜品碗，包含绿色冰淇淋球和水果配",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bowl_text",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        828,
+        792,
+        1116
+      ],
+      "description": "底部巨大的白色手绘碗状轮廓，内部包含手写体英文文字 'My Daily Plog'，整体作为一个固定装饰单元保留，覆盖在部分照片下缘之上。",
+      "label": "底部巨大的白色手绘碗状轮廓，内部包含手写体英文文字 'My ",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "overlay_fork_spoon",
+    "overlay_spiral_tr",
+    "photo_top_pizza",
+    "overlay_spiral_mr",
+    "photo_mid_left",
+    "photo_mid_center",
+    "photo_mid_right",
+    "overlay_spiral_ml",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right",
+    "overlay_bowl_text"
+  ]
+}

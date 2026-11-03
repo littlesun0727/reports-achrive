@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        500
+      ],
+      "description": "上半部分人物自拍照片，人物直视镜头，保留人物及身后的摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        500,
+        1000,
+        1000
+      ],
+      "description": "下半部分人物近景照片，人物佩戴发夹，保留人物及身后的摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        450,
+        260,
+        590
+      ],
+      "description": "左侧的方格纸风格便签贴纸，包含韩文手写文字和图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stickers",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        690,
+        988,
+        800
+      ],
+      "description": "右下角的三只小熊贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        150,
+        60,
+        320,
+        140
+      ],
+      "text": "Have a ☺\nGood Day",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_note",
+    "overlay_stickers",
+    "text_1"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "一张连续的摄影底图，画面为草地、野花和溪流。视角为第一人称俯视，底部可见拍摄者的绿色裤子和黄色上衣边缘，上方有深色阴影（可能是头部或帽子）。该场景延伸至画布四边，作为所有独立照片卡片的背景层。",
+      "background_type": "photo",
+      "label": "一张连续的摄影底图，画面为草地、野花和溪流。视角为第一人称俯",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_top_yellow",
+      "kind": "frame",
+      "bbox": [
+        234,
+        90,
+        703,
+        383
+      ],
+      "description": "一个黄色的矩形相框，位于画面上方。边框较宽且颜色均匀，内部包含一张风景照片。",
+      "photo_id": [
+        "photo_top_content"
+      ],
+      "label": "一个黄色的矩形相框，位于画面上方。边框较宽且颜色均匀，内部包",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_content",
+      "kind": "photo",
+      "bbox": [
+        274,
+        110,
+        613,
+        362
+      ],
+      "description": "黄色相框内的照片。画面展示了透过车窗看到的草原日落景色，远处有三匹马在吃草，近处有一双手举着手机正在拍摄这一景象。",
+      "label": "黄色相框内的照片。画面展示了透过车窗看到的草原日落景色，远处",
+      "method": "local"
+    },
+    {
+      "id": "frame_mid_white",
+      "kind": "frame",
+      "bbox": [
+        237,
+        453,
+        706,
+        745
+      ],
+      "description": "一个白色的矩形相框，位于画面中部。边框上装饰有彩色圆点图案，内部包含一张花卉照片。",
+      "photo_id": [
+        "photo_mid_content"
+      ],
+      "label": "一个白色的矩形相框，位于画面中部。边框上装饰有彩色圆点图案，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mid_content",
+      "kind": "photo",
+      "bbox": [
+        278,
+        474,
+        613,
+        724
+      ],
+      "description": "白色相框内的照片。画面展示了一只手举着一个由各色野花编织成的花环，背景是绿色的山坡和天空。",
+      "label": "白色相框内的照片。画面展示了一只手举着一个由各色野花编织成的",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_purple",
+      "kind": "frame",
+      "bbox": [
+        237,
+        807,
+        703,
+        1097
+      ],
+      "description": "一个紫色的矩形相框，位于画面下方。边框较宽且颜色均匀，内部包含一张静物照片。",
+      "photo_id": [
+        "photo_bottom_content"
+      ],
+      "label": "一个紫色的矩形相框，位于画面下方。边框较宽且颜色均匀，内部包",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_content",
+      "kind": "photo",
+      "bbox": [
+        278,
+        829,
+        615,
+        1076
+      ],
+      "description": "紫色相框内的照片。画面是一个俯视特写，展示了一个编织篮子里装满了成熟的杏子或李子。",
+      "label": "紫色相框内的照片。画面是一个俯视特写，展示了一个编织篮子里装",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_top_yellow",
+    "photo_top_content",
+    "frame_mid_white",
+    "photo_mid_content",
+    "frame_bottom_purple",
+    "photo_bottom_content"
+  ]
+}

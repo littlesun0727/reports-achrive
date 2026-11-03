@@ -1,0 +1,175 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张铺满画布的虚焦餐桌照片，无人物；上方为木质桌面，左侧可见绿色饮品及餐具，下方和右侧为甜点餐盘与水果。摄影场景连续延伸至四边，局部被上层照片和贴纸遮挡，完整餐桌环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        138,
+        130,
+        510,
+        503
+      ],
+      "description": "左上竖向米白色照片纸框，四周窄边、底部略宽，带轻微投影；完整保留纸框，内部摄影内容独立替换。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        166,
+        153,
+        487,
+        474
+      ],
+      "description": "竖向餐桌照片，两名就餐者仅露出部分上身和比剪刀手的手臂；桌上有红色冰饮、咖喱饭、意面及饼干甜点。保留全部摄影环境，矩形窗口清晰，局部被饮品贴图和左上标签遮挡。"
+    },
+    {
+      "id": "photo_cheese",
+      "kind": "photo",
+      "bbox": [
+        526,
+        231,
+        839,
+        520
+      ],
+      "description": "独立竖向用餐照片，一名穿花纹毛衣的就餐者局部入镜，餐具拉起两条长芝士，下方为带玉米的热食铁盘。保留人物局部和餐桌环境，矩形边界清晰，下缘被右下照片框及粉色贴纸遮挡。"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        270,
+        639,
+        653,
+        870
+      ],
+      "description": "下方独立甜点近景照片，无人物；白盘中有卡通压纹饼干、冰淇淋、草莓、香蕉及其他水果，左侧可见餐具。保留摄影环境，矩形窗口，上方部分被饮品贴图和右侧照片框遮挡。"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        583,
+        487,
+        945,
+        711
+      ],
+      "description": "右侧横向浅黄色照片纸框，表面有细微斜向纹理，底边较宽并带投影；照片内容独立替换。",
+      "photo_id": [
+        "photo_right"
+      ]
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        606,
+        497,
+        922,
+        671
+      ],
+      "description": "横向食物近景照片，无人物；上方白盘盛意面，左下为虾仁配菜，右侧为厚松饼及粉色餐具。保留完整餐盘摄影环境，四边沿矩形内口裁切。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        187,
+        385,
+        420,
+        686
+      ],
+      "description": "两杯饮品组成的独立前景照片：左侧为带斜纹吸管的浅黄色高杯饮料，右侧为带红点吸管、冰块与莓果的高脚杯饮料。摄影背景沿两杯、吸管及杯脚轮廓去除，外围有连续不规则白色粗描边和轻微阴影，覆盖左侧相框及下方甜点照片。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        93,
+        275,
+        189
+      ],
+      "description": "倾斜的黄色圆角标签，红色手写装饰字“挑食搭子”及小字“Sweet … Tooth”，外围附有粉白旋线和蓝色小星芒；标签、字样和点缀整体保留，叠在左上纸框边缘。"
+    },
+    {
+      "id": "overlay_pudding",
+      "kind": "overlay",
+      "bbox": [
+        547,
+        128,
+        678,
+        219
+      ],
+      "description": "黄色焦糖布丁插画，顶部有红樱桃、奶油和绿色果梗，下方蓝色椭圆盘线，周围附蓝色星芒，作为完整贴纸保留。"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        123,
+        913,
+        241
+      ],
+      "description": "白底黑色手绘轮廓对话气泡，带向左下伸出的尖尾，内部为彩色特殊字形“Sweet stuff!”及心形、星芒点缀，整体保留。"
+    },
+    {
+      "id": "overlay_pink",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        508,
+        580,
+        617
+      ],
+      "description": "粉色布丁形贴纸，黄色艺术字“甜品记”，顶部有红樱桃及绿色果梗，下方为蓝色盘线，字形与附属线条整体保留。"
+    },
+    {
+      "id": "overlay_macarons",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        778,
+        312,
+        882
+      ],
+      "description": "左下绿色与粉色两枚笑脸马卡龙组合贴纸，带米黄色夹心、手绘颗粒边缘及周围蓝白小星芒和短线，作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_donuts",
+      "kind": "overlay",
+      "bbox": [
+        694,
+        730,
+        885,
+        876
+      ],
+      "description": "右下两枚甜甜圈组合贴纸，上方粉色糖霜配黄色曲线，下方巧克力糖霜配彩色糖针，周围散布粉色爱心、蓝色星芒及白色卷线，整体保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_left",
+    "photo_left",
+    "photo_cheese",
+    "photo_dessert",
+    "frame_right",
+    "photo_right",
+    "photo_drinks",
+    "overlay_title",
+    "overlay_pudding",
+    "overlay_speech",
+    "overlay_pink",
+    "overlay_macarons",
+    "overlay_donuts"
+  ]
+}

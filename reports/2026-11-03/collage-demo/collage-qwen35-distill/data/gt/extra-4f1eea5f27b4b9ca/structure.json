@@ -1,0 +1,298 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的乡村风店铺摄影画面覆盖全画布，无人物；上方悬挂藤篮，两侧可见木架、玻璃窗与植物，下方堆放盛有水果的篮筐。四边场景连续，中央被大型剪贴纸页遮挡，店铺环境整体随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "frame_paper",
+      "kind": "frame",
+      "bbox": [
+        88,
+        128,
+        856,
+        858
+      ],
+      "description": "承托多张照片的双页牛皮纸底板，保留纸张纤维、中央横向折痕、边缘与阴影。左上、中部小照片及右下照片直接贴在纸页上；右上信封和左下拍立得另列独立框体，独立文字与贴纸不并入纸页。",
+      "photo_id": [
+        "photo_upper_left",
+        "photo_middle",
+        "photo_lower_right"
+      ]
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        169,
+        193,
+        399,
+        326
+      ],
+      "description": "矩形近景照片，一只涂深色指甲的手拿着双人肖像小相片，背景为斜向木板与木质结构；手、小相片及其人物均属于这张摄影内容。保留完整摄影环境，局部被标签和海星装饰遮挡，边缘清晰。"
+    },
+    {
+      "id": "frame_envelope",
+      "kind": "frame",
+      "bbox": [
+        429,
+        179,
+        825,
+        419
+      ],
+      "description": "右上承载单张照片的深牛皮纸信封式框体，包含宽纸边、下方封口与缺口造型、纸张明暗和左侧竖排“Date:”印字；照片独立替换，右上角另有白色便笺遮挡。",
+      "photo_id": [
+        "photo_upper_right"
+      ]
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        509,
+        191,
+        772,
+        357
+      ],
+      "description": "暖黄色店内陈设照片，无人物；可见挂画、吊灯、杯罐、柜台及右侧明亮门窗和悬挂物。保留室内摄影环境，矩形显示区域置于牛皮纸框内，右上部分被便笺遮挡，无主体去背景。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        319,
+        354,
+        470,
+        468
+      ],
+      "description": "竖向近景照片，浅色卷毛小狗戴米色帽子、深色围巾，面向镜头，周围可见店内杂物与篮筐。保留摄影环境，矩形边缘清晰，右上角被小文字贴纸局部遮挡。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        165,
+        531,
+        464,
+        803
+      ],
+      "description": "左下白色拍立得式相纸框，保留厚纸边、细微磨损、立体边缘与投影，下方宽白边上的蓝紫色手写“Arrebol☆”属于框体设计。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        186,
+        554,
+        439,
+        737
+      ],
+      "description": "俯视木桌上的两盘甜点与两杯饮品，背景可见浅色墙面及斜射光影，无人物。完整保留桌面与室内环境，照片位于白色相纸内口，四边清晰。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        528,
+        542,
+        759,
+        687
+      ],
+      "description": "户外木桌上的黑发玩偶近景，玩偶戴棕色帽子、穿深色服装，桌面另有小相片，背景为绿植和木质围挡。保留摄影环境，矩形照片右上被便笺覆盖，右下被文字贴纸遮挡。"
+    },
+    {
+      "id": "overlay_upper_clip",
+      "kind": "overlay",
+      "bbox": [
+        271,
+        67,
+        364,
+        170
+      ],
+      "description": "纸页上缘的深灰色金属长尾夹，包含向上伸出的金属夹柄、夹口与投影，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_lower_clip",
+      "kind": "overlay",
+      "bbox": [
+        292,
+        815,
+        388,
+        921
+      ],
+      "description": "纸页下缘的大号金属长尾夹，夹身覆盖纸边，细长夹柄向下伸至店铺背景区域，保留金属反光及完整轮廓。"
+    },
+    {
+      "id": "overlay_summer_tags",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        150,
+        246,
+        237
+      ],
+      "description": "上下悬挂的浅蓝色双标签，分别写有“summer”和“paradise”，连同顶部细绳、打孔及标签间连接线作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_small_quote",
+      "kind": "overlay",
+      "bbox": [
+        341,
+        241,
+        455,
+        262
+      ],
+      "description": "横贴在左上照片上的浅灰纸条，印有“The throbbing of summer\nis a grand encounter”，纸底与小字整体保留。"
+    },
+    {
+      "id": "overlay_starfish",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        288,
+        226,
+        348
+      ],
+      "description": "左上照片左下角的大小两只浅蓝白色海星装饰，保留颗粒质感、五角轮廓和阴影，两只海星组成同一局部装饰。"
+    },
+    {
+      "id": "overlay_focus_note",
+      "kind": "overlay",
+      "bbox": [
+        717,
+        164,
+        843,
+        222
+      ],
+      "description": "右上不规则白色纸便笺，略微倾斜，黑色手写“focus on\nthe good”及下方横线与纸张毛边整体保留，覆盖信封和照片上缘。"
+    },
+    {
+      "id": "overlay_little_things",
+      "kind": "overlay",
+      "bbox": [
+        437,
+        335,
+        499,
+        368
+      ],
+      "description": "中部小照片右上方的白色小贴纸，包含醒目的“LITTLE THINGS”、下方细小印字与不规则纸边，整体保留。"
+    },
+    {
+      "id": "text_left_quote",
+      "kind": "text",
+      "bbox": [
+        158,
+        368,
+        312,
+        462
+      ],
+      "text": "The best\njourneys start\nwith a one-way\nticket in hand\nand no plan\nin mind",
+      "color": "#29271F",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_center_cord",
+      "kind": "overlay",
+      "bbox": [
+        187,
+        486,
+        750,
+        501
+      ],
+      "description": "横跨纸页中间折痕附近的浅色细绳，包含轻微起伏、交接处与细小投影，作为独立连续装饰保留。"
+    },
+    {
+      "id": "overlay_returning_note",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        514,
+        850,
+        585
+      ],
+      "description": "覆盖右下照片右上角的浅色便笺，带细线印刷表格、顶部小字和蓝色手写“joy has a habit\nof returning.”，纸张、倾斜布局与文字整体保留。"
+    },
+    {
+      "id": "overlay_continued",
+      "kind": "overlay",
+      "bbox": [
+        701,
+        664,
+        852,
+        695
+      ],
+      "description": "右下照片底边的“To be continued”剪贴字样，三个白纸词块位置与角度不一，带粉红字和黑色错位衬边，作为完整艺术字装饰保留。"
+    },
+    {
+      "id": "overlay_yellow_note",
+      "kind": "overlay",
+      "bbox": [
+        506,
+        702,
+        691,
+        760
+      ],
+      "description": "照片下方的黄色矩形手写便笺，包含多行细小英文手写内容，开头可辨“we met at the wrong time”，文字与黄色纸底整体保留。"
+    },
+    {
+      "id": "overlay_drink",
+      "kind": "overlay",
+      "bbox": [
+        739,
+        700,
+        825,
+        764
+      ],
+      "description": "蓝绿色饮料调制杯与小量杯组成的贴纸，保留白色轮廓、杯身星形图案及周围细小闪光装饰。"
+    },
+    {
+      "id": "text_bottom_quote",
+      "kind": "text",
+      "bbox": [
+        570,
+        775,
+        835,
+        825
+      ],
+      "text": "The best Souvenir is the\nperson you became while\nno one was watching",
+      "color": "#29271F",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_paper",
+    "frame_envelope",
+    "frame_polaroid",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_middle",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_center_cord",
+    "text_left_quote",
+    "text_bottom_quote",
+    "overlay_summer_tags",
+    "overlay_small_quote",
+    "overlay_starfish",
+    "overlay_focus_note",
+    "overlay_little_things",
+    "overlay_returning_note",
+    "overlay_continued",
+    "overlay_yellow_note",
+    "overlay_drink",
+    "overlay_upper_clip",
+    "overlay_lower_clip"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "bg_birthday",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "生日主题固定底图，包含彩色'Happy Birthday'艺术字、气球、彩带、纸屑和白色虚线边框，整体为连续设计，保留原样。",
+      "background_type": "reference_clean",
+      "label": "生日主题固定底图，包含彩色'Happy Birthday'艺",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        54,
+        492,
+        342,
+        815
+      ],
+      "description": "心形窗口内的插花照片，包含粉色、黄色花朵和蜡烛，保留摄影环境，沿心形轮廓显示。",
+      "label": "心形窗口内的插花照片，包含粉色、黄色花朵和蜡烛，保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        405,
+        492,
+        828,
+        839
+      ],
+      "description": "右侧人物照片，女性戴皇冠、双手合十，背景有卡通画和蛋糕，保留摄影环境，矩形显示。",
+      "label": "右侧人物照片，女性戴皇冠、双手合十，背景有卡通画和蛋糕，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        54,
+        839,
+        468,
+        1175
+      ],
+      "description": "左下人物照片，女性穿粉色礼服、戴皇冠、手持气球，背景有卡通画，保留摄影环境，矩形显示。",
+      "label": "左下人物照片，女性穿粉色礼服、戴皇冠、手持气球，背景有卡通画",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        810,
+        492,
+        900,
+        839
+      ],
+      "description": "右侧边缘局部照片，显示蛋糕和蜡烛，保留摄影环境，矩形显示。",
+      "label": "右侧边缘局部照片，显示蛋糕和蜡烛，保留摄影环境，矩形显示。",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        495,
+        935,
+        828,
+        1139
+      ],
+      "description": "Happy Birthday",
+      "label": "Happy Birthday",
+      "method": "local",
+      "text": "Happy Birthday",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg_birthday",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1"
+  ]
+}

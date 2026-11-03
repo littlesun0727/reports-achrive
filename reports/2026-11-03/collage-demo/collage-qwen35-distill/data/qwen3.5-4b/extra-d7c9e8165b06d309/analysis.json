@@ -1,0 +1,231 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1438
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1438
+      ],
+      "description": "带有横线的笔记本纸纹理底图，承载整个拼贴设计；上层有米色边框和顶部夹子，照片与装饰元素独立替换。",
+      "background_type": "reference_clean",
+      "label": "带有横线的笔记本纸纹理底图，承载整个拼贴设计；上层有米色边框",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "clip_top",
+      "kind": "overlay",
+      "bbox": [
+        384,
+        17,
+        693,
+        204
+      ],
+      "description": "顶部手绘风格夹子，包含文字clamp!，作为独立固定装饰保留。",
+      "label": "顶部手绘风格夹子，包含文字clamp!，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "text_todo",
+      "kind": "text",
+      "bbox": [
+        165,
+        247,
+        483,
+        306
+      ],
+      "description": "#TO DO LIST:",
+      "label": "#TO DO LIST:",
+      "method": "local",
+      "text": "#TO DO LIST:",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        192,
+        349,
+        499,
+        795
+      ],
+      "description": "饮品照片，展示多杯奶茶和手提袋，保留杯身、背景及文字，边缘有撕纸效果。",
+      "label": "饮品照片，展示多杯奶茶和手提袋，保留杯身、背景及文字，边缘有",
+      "method": "local"
+    },
+    {
+      "id": "text_drink",
+      "kind": "text",
+      "bbox": [
+        153,
+        837,
+        429,
+        889
+      ],
+      "description": "來一杯續命水！",
+      "label": "來一杯續命水！",
+      "method": "local",
+      "text": "來一杯續命水！",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_girls",
+      "kind": "photo",
+      "bbox": [
+        549,
+        247,
+        915,
+        779
+      ],
+      "description": "两位女生合影照片，保留人物、背景及贴纸装饰，边缘有撕纸效果。",
+      "label": "两位女生合影照片，保留人物、背景及贴纸装饰，边缘有撕纸效果。",
+      "method": "local"
+    },
+    {
+      "id": "text_happy",
+      "kind": "text",
+      "bbox": [
+        672,
+        664,
+        958,
+        772
+      ],
+      "description": "Happy plog.",
+      "label": "Happy plog.",
+      "method": "local",
+      "text": "Happy plog.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_toy",
+      "kind": "photo",
+      "bbox": [
+        202,
+        916,
+        602,
+        1218
+      ],
+      "description": "手持毛绒玩具照片，保留手部、玩具及背景，边缘有撕纸效果。",
+      "label": "手持毛绒玩具照片，保留手部、玩具及背景，边缘有撕纸效果。",
+      "method": "local"
+    },
+    {
+      "id": "photo_toy_collection",
+      "kind": "photo",
+      "bbox": [
+        580,
+        808,
+        936,
+        1074
+      ],
+      "description": "毛绒玩具收藏照片，展示多个Hello Kitty玩偶，保留陈列背景，边缘有撕纸效果。",
+      "label": "毛绒玩具收藏照片，展示多个Hello Kitty玩偶，保留陈",
+      "method": "local"
+    },
+    {
+      "id": "text_nice",
+      "kind": "text",
+      "bbox": [
+        666,
+        1117,
+        899,
+        1240
+      ],
+      "description": "HAVE A NICE DAY",
+      "label": "HAVE A NICE DAY",
+      "method": "local",
+      "text": "HAVE A NICE DAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "sticker_hearts",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        600,
+        218,
+        815
+      ],
+      "description": "左侧心形贴纸组，作为独立固定装饰保留。",
+      "label": "左侧心形贴纸组，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_stars",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        240,
+        823,
+        341
+      ],
+      "description": "右上角星星贴纸，作为独立固定装饰保留。",
+      "label": "右上角星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_bear",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        1160,
+        332,
+        1261
+      ],
+      "description": "左下角小熊贴纸，作为独立固定装饰保留。",
+      "label": "左下角小熊贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_drinks",
+    "text_todo",
+    "sticker_hearts",
+    "text_drink",
+    "photo_girls",
+    "text_happy",
+    "sticker_stars",
+    "photo_toy",
+    "photo_toy_collection",
+    "text_nice",
+    "sticker_bear",
+    "clip_top"
+  ]
+}

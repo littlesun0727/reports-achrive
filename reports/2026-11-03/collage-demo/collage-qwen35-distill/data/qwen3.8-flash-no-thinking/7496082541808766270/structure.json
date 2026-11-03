@@ -1,0 +1,106 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的生日派对场景摄影底图，画面包含彩色气球、悬挂的“Happy Birthday”字母装饰以及散落的彩色纸屑。该底图延伸至画布四边，作为所有独立照片窗口的背景环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        60,
+        425,
+        390,
+        670
+      ],
+      "description": "心形窗口内的特写照片，显示粉色和黄色的花束及点燃的蜡烛，保留其内部摄影环境。"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        50,
+        415,
+        400,
+        680
+      ],
+      "description": "围绕心形照片的白色虚线边框，具有手绘质感。",
+      "photo_id": [
+        "photo_heart"
+      ]
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        460,
+        425,
+        920,
+        950
+      ],
+      "description": "竖向矩形窗口内的照片，显示一名戴皇冠的女子闭眼双手合十许愿，桌上有蛋糕和玻璃杯，保留室内摄影环境。"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        450,
+        415,
+        930,
+        960
+      ],
+      "description": "围绕主照片的白色虚线矩形边框。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        110,
+        700,
+        530,
+        960
+      ],
+      "description": "横向矩形窗口内的照片，显示身穿粉色礼服的女子手持气球微笑，保留室内摄影环境。"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        100,
+        690,
+        540,
+        970
+      ],
+      "description": "围绕左侧照片的白色虚线矩形边框。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "overlay_text_art",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        780,
+        920,
+        970
+      ],
+      "description": "位于右下角的艺术字设计，内容为白色手写体“Happy Birthday”，带有装饰性笔触和星星点缀。"
+    }
+  ],
+  "layer_order": [
+    "photo_heart",
+    "frame_heart",
+    "photo_main",
+    "frame_main",
+    "photo_left",
+    "frame_left",
+    "overlay_text_art"
+  ]
+}

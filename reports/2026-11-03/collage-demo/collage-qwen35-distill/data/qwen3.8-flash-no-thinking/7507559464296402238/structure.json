@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "bg_photo",
+    "description": "全画布底图为热带海滩场景，上方是茂密的绿色椰子树叶，下方是浅绿色的海水和沙滩岩石。画面连续延伸至四边，作为整体摄影背景供替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        142,
+        163,
+        857,
+        835
+      ],
+      "description": "位于画面中央的竖向矩形照片，显示一名长发女子坐在沙滩上，身穿格纹吊带裙，回头看向镜头。背景包含天空、海面和远处的浮标。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        280,
+        90,
+        460,
+        120
+      ],
+      "text": "Island diary",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_deco_top",
+      "kind": "overlay",
+      "bbox": [
+        465,
+        75,
+        710,
+        125
+      ],
+      "description": "顶部标题右侧的一组白色手绘风格装饰元素，包括星星符号、线条和一个写实的椰子图案。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        290,
+        865,
+        710,
+        900
+      ],
+      "text": "The melody of summer",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_deco_bottom",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        860,
+        760,
+        910
+      ],
+      "description": "底部文字两侧的白色手绘装饰，左侧为花朵与加号，右侧为音符与加号。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "text_top",
+    "overlay_deco_top",
+    "text_bottom",
+    "overlay_deco_bottom"
+  ]
+}

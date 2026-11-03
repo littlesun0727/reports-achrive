@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        446
+      ],
+      "description": "人物上半身特写，双臂向两侧伸展，背景为云雾缭绕的景观，画面顶部边缘被裁切。",
+      "label": "人物上半身特写，双臂向两侧伸展，背景为云雾缭绕的景观，画面顶",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        446,
+        1080,
+        957
+      ],
+      "description": "人物中景，身穿深蓝色水手服，系红色领结，双臂张开，背景为蓝天、绿树和远处建筑，画面顶部边缘被裁切。",
+      "label": "人物中景，身穿深蓝色水手服，系红色领结，双臂张开，背景为蓝天",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        957,
+        1080,
+        1439
+      ],
+      "description": "清澈水面纹理特写，阳光在水面形成波纹光影，画面底部中央有白色文字水印。",
+      "label": "清澈水面纹理特写，阳光在水面形成波纹光影，画面底部中央有白色",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        400,
+        1309,
+        678,
+        1345
+      ],
+      "description": "OPPO Reno15 Pro",
+      "label": "OPPO Reno15 Pro",
+      "method": "local",
+      "text": "OPPO Reno15 Pro",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_1"
+  ]
+}

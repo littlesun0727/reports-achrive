@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-809955f2bb8d7d44",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6667,
+    "total_tokens": 7432,
+    "completion_tokens": 765,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"notebook_base\",\n    \"description\": \"螺旋装订的棕色笔记本页面，包含金属线圈和纸张纹理，作为全画布固定底图保留。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_larger_crawfish\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        266,\n        172,\n        706,\n        597\n      ],\n      \"description\": \"麻辣小龙虾照片，包含汤汁、虾和配菜，边缘有白色不规则撕纸效果，位于笔记本页面中央偏上。\"\n    },\n    {\n      \"id\": \"photo_smaller_crawfish\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        530,\n        448,\n        833,\n        755\n      ],\n      \"description\": \"十三香小龙虾照片，包含红色小龙虾，边缘有白色不规则撕纸效果，位于笔记本页面右下。\"\n    },\n    {\n      \"id\": \"photo_beer_can\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        296,\n        501,\n        503,\n        811\n      ],\n      \"description\": \"泉城奶啤啤酒罐照片，包含罐身图案和文字，边缘有白色不规则撕纸效果，位于笔记本页面左下。\"\n    },\n    {\n      \"id\": \"text_bread\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        706,\n        266,\n        822,\n        319\n      ],\n      \"text\": \"Bread\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_spicy_crawfish\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        617,\n        406,\n        788,\n        448\n      ],\n      \"text\": \"麻辣小龙虾\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_fifteen_crawfish\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        567,\n        728,\n        738,\n        768\n      ],\n      \"text\": \"十三香小龙虾\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"notebook_base\",\n    \"photo_larger_crawfish\",\n    \"photo_smaller_crawfish\",\n    \"photo_beer_can\",\n    \"text_bread\",\n    \"text_spicy_crawfish\",\n    \"text_fifteen_crawfish\"\n  ]\n}",
+  "tool_calls": false
+}

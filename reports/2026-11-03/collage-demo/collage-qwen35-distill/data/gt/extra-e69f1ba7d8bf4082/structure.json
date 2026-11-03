@@ -1,0 +1,310 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "street_background",
+    "description": "傍晚街巷摄影画面，天空、左右建筑、电线杆及下方暗色路面连续延伸至画布四边，无清晰人物主体；中央纸张遮挡大部分街景，街道环境作为完整全画布照片共同替换。"
+  },
+  "objects": [
+    {
+      "id": "paper_support",
+      "kind": "frame",
+      "bbox": [
+        115,
+        126,
+        911,
+        882
+      ],
+      "description": "中央展开的米褐色纸张承托结构，包含上下纸页、中央折痕、纸张纹理及边缘阴影；海景、书写人物及右下人物照片贴于其上，其余照片另有独立框体。",
+      "photo_id": [
+        "photo_ocean",
+        "photo_writing",
+        "photo_man"
+      ]
+    },
+    {
+      "id": "clip_top",
+      "kind": "overlay",
+      "bbox": [
+        308,
+        63,
+        403,
+        168
+      ],
+      "description": "夹住上方纸边的金属长尾夹，完整保留深色夹体、金属手柄及投影。"
+    },
+    {
+      "id": "clip_bottom",
+      "kind": "overlay",
+      "bbox": [
+        328,
+        838,
+        425,
+        945
+      ],
+      "description": "夹住下方纸边的金属长尾夹，含夹体、向下伸出的金属手柄及阴影。"
+    },
+    {
+      "id": "photo_ocean",
+      "kind": "photo",
+      "bbox": [
+        170,
+        192,
+        413,
+        329
+      ],
+      "description": "无人海景照片，蓝色海面与天空横向展开，左侧有船舷，前方有蓝色栏杆；保留全部摄影环境，矩形边界清晰，左上及左下被贴纸遮挡。"
+    },
+    {
+      "id": "summer_label",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        147,
+        251,
+        237
+      ],
+      "description": "两条浅蓝色标签及相连的细绳装饰，文字为 summer、paradise；保留纸边、磨损纹理与绳线，整体叠在海景左上角。"
+    },
+    {
+      "id": "starfish",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        289,
+        230,
+        356
+      ],
+      "description": "海景左下方一大一小的白色、浅蓝色海星装饰组合，保留表面颗粒和完整轮廓。"
+    },
+    {
+      "id": "summer_caption",
+      "kind": "overlay",
+      "bbox": [
+        349,
+        242,
+        470,
+        262
+      ],
+      "description": "叠在海景右侧边缘的褐色小纸条，含打字样式文字 The throbbing of Summer is a grand encounter，纸条与印字整体保留。"
+    },
+    {
+      "id": "barbecue_frame",
+      "kind": "frame",
+      "bbox": [
+        440,
+        176,
+        852,
+        424
+      ],
+      "description": "承载烧烤照片的深褐色纸卡，含宽纸边、下方折叠状横线、阴影及左侧细小竖排印字，内口照片独立替换。",
+      "photo_id": [
+        "photo_barbecue"
+      ]
+    },
+    {
+      "id": "photo_barbecue",
+      "kind": "photo",
+      "bbox": [
+        522,
+        189,
+        827,
+        361
+      ],
+      "description": "俯视餐桌近景，无人物，左上为烤架与肉类，右侧及下方为酱料、泡菜和盛有白色蔬菜与青椒的碗；保留餐桌摄影环境，矩形显示，右上局部被标签遮挡。"
+    },
+    {
+      "id": "focus_label",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        162,
+        874,
+        220
+      ],
+      "description": "不规则撕边米白纸标签，黑色手写 focus on the good，含末行下划线；文字与纸张整体保留。"
+    },
+    {
+      "id": "photo_writing",
+      "kind": "photo",
+      "bbox": [
+        327,
+        358,
+        483,
+        476
+      ],
+      "description": "一名长发人物坐在桌边书写的近景，头部上缘被窗口裁切，白色上衣、握笔手臂、打开的本子和桌面书籍可见；保留室内摄影环境，矩形边界清晰。"
+    },
+    {
+      "id": "little_things_label",
+      "kind": "overlay",
+      "bbox": [
+        448,
+        341,
+        513,
+        372
+      ],
+      "description": "略倾斜的米白小纸签，印有 LITTLE THINGS 及 make big days 等小字，叠在书写照片右上方，保留纸张与印字。"
+    },
+    {
+      "id": "journey_text",
+      "kind": "text",
+      "bbox": [
+        160,
+        372,
+        322,
+        469
+      ],
+      "text": "The best\njourneys Start\nwith a one-way\nticket in hand\nand no plan\nin mind",
+      "color": "#292A22",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "happy_children",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        365,
+        869,
+        487
+      ],
+      "description": "白色粉笔质感 Happy 与 Children’s Day 艺术字组合，包含右上黄色螺旋太阳和短射线；字形大小、错落位置及笔画作为完整设计保留，跨越褐色卡片下边缘。"
+    },
+    {
+      "id": "fold_string",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        497,
+        798,
+        510
+      ],
+      "description": "沿两页纸交界横向铺设的浅色细绳，保留起伏、绳结感与细小阴影。"
+    },
+    {
+      "id": "polaroid_frame",
+      "kind": "frame",
+      "bbox": [
+        167,
+        540,
+        476,
+        819
+      ],
+      "description": "左下白色拍立得式厚纸框，包含上方压边、宽下边、纸面磨损及右下投影；下边印有紫色 Arrebol 和星形符号，随框体保留。",
+      "photo_id": [
+        "photo_field"
+      ]
+    },
+    {
+      "id": "photo_field",
+      "kind": "photo",
+      "bbox": [
+        187,
+        565,
+        451,
+        753
+      ],
+      "description": "一名戴深色帽子的长发人物侧身站在黑色岩石间，穿灰色上衣与黑色长裤，身后为绿色田野和阴天天空；保留完整摄影环境，四边按相纸内口裁切。"
+    },
+    {
+      "id": "photo_man",
+      "kind": "photo",
+      "bbox": [
+        543,
+        553,
+        813,
+        707
+      ],
+      "description": "一名穿深灰背心、白色内搭与浅色短裤的人物正面站立，头部被照片上缘裁切，左侧可见黑色汽车，身后为墙体与停车地面；保留摄影环境，右上和下缘局部被纸签遮挡。"
+    },
+    {
+      "id": "joy_card",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        525,
+        879,
+        597
+      ],
+      "description": "右下照片右上角叠贴的倾斜浅色邮政卡片，含细边框、邮票方格、POSTAL 小字及 Joy has a habit of returning 手写字，整体保留。"
+    },
+    {
+      "id": "continued_labels",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        679,
+        878,
+        711
+      ],
+      "description": "三张错落倾斜的白色剪贴字条组成 To be continued，粉红字与纸边共同构成一组装饰，覆盖人物照片下缘。"
+    },
+    {
+      "id": "yellow_note",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        718,
+        709,
+        777
+      ],
+      "description": "黄色矩形便签，含多行细小棕色英文手写叙述，开头可辨 we met at the wrong time，纸张与全部字迹整体保留。"
+    },
+    {
+      "id": "drink_sticker",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        717,
+        852,
+        783
+      ],
+      "description": "青蓝色饮料瓶与小杯装饰组合，包含白色外缘、瓶杯内部星芒图案及周边闪光小点，作为完整贴纸保留。"
+    },
+    {
+      "id": "souvenir_text",
+      "kind": "text",
+      "bbox": [
+        587,
+        793,
+        857,
+        845
+      ],
+      "text": "The best Souvenir is the\nperson you became while\nno one was watching",
+      "color": "#28261F",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "paper_support",
+    "photo_ocean",
+    "summer_label",
+    "starfish",
+    "summer_caption",
+    "barbecue_frame",
+    "photo_barbecue",
+    "focus_label",
+    "photo_writing",
+    "little_things_label",
+    "journey_text",
+    "happy_children",
+    "fold_string",
+    "polaroid_frame",
+    "photo_field",
+    "photo_man",
+    "joy_card",
+    "continued_labels",
+    "yellow_note",
+    "drink_sticker",
+    "souvenir_text",
+    "clip_top",
+    "clip_bottom"
+  ]
+}

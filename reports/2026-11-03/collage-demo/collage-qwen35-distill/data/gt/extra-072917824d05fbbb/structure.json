@@ -1,0 +1,445 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "cork_background",
+    "description": "浅棕色软木纹理连续覆盖全画布，四边及纸张、照片之间均可见一致材质。保留软木底纹，独立笔记本、照片、文字和贴纸不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "notebook",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        42,
+        969,
+        574
+      ],
+      "description": "摊开的白色点阵活页笔记本，包含两页纸、中央折缝、三个金属活页环、纸边和阴影。作为局部固定底板保留，叠贴照片、明信片、文字和贴纸分别记录。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        175,
+        77,
+        400,
+        191
+      ],
+      "description": "一名长发女生站在室内，穿白色带红色图案的衣服，抬手靠近脸部；中景，保留深色木墙和室内陈设，矩形显示，右下角日期随照片替换。"
+    },
+    {
+      "id": "photo_left_selfie",
+      "kind": "photo",
+      "bbox": [
+        85,
+        198,
+        253,
+        365
+      ],
+      "description": "两名女生在暖暗室内近距离自拍，前方女生靠近镜头，另一人在右后方微笑；保留摄影环境，竖向矩形窗口带细白边，上部局部被黄色贴纸遮挡。"
+    },
+    {
+      "id": "photo_night",
+      "kind": "photo",
+      "bbox": [
+        276,
+        197,
+        450,
+        372
+      ],
+      "description": "夜间户外游乐场景，从后方拍摄戴白色头盔、穿浅色衣服的人，前方还有其他游客，保留树木、灯光和道路。竖向矩形显示，周边有白色细边，右上被小表情装饰遮挡。"
+    },
+    {
+      "id": "photo_left_group",
+      "kind": "photo",
+      "bbox": [
+        89,
+        376,
+        439,
+        548
+      ],
+      "description": "三名女生在红色沙发前合影，中间女生手臂搭向两侧，左侧人物脸部被独立表情贴纸遮住；保留红色花纹墙面和沙发，横向矩形照片，右下有日期，右边叠有剪贴字装饰。"
+    },
+    {
+      "id": "postcard_frame",
+      "kind": "frame",
+      "bbox": [
+        576,
+        65,
+        931,
+        212
+      ],
+      "description": "牛皮纸色明信片式照片载体，顶部红色邮编方格，右上邮票虚线框和中文印字，右下有“邮政编码：362400”。保留纸张、印刷和外边缘，内嵌照片独立替换。",
+      "photo_id": [
+        "photo_postcard"
+      ]
+    },
+    {
+      "id": "photo_postcard",
+      "kind": "photo",
+      "bbox": [
+        591,
+        96,
+        805,
+        203
+      ],
+      "description": "两名女生坐在红色沙发上，左侧黑衣女生面向镜头，右侧白衣女生举手靠近脸部；保留沙发与暗色室内背景，横向矩形内口，右下日期属于摄影内容。"
+    },
+    {
+      "id": "photo_right_middle",
+      "kind": "photo",
+      "bbox": [
+        634,
+        225,
+        916,
+        367
+      ],
+      "description": "两名女生并排坐在红色沙发前，左侧女生穿浅色衣服并举剪刀手，右侧女生穿带红色装饰的白衣；中景，保留深色花纹墙面与沙发，横向矩形显示，左上和左下分别被星星贴纸及报纸装饰遮挡。"
+    },
+    {
+      "id": "photo_right_lower",
+      "kind": "photo",
+      "bbox": [
+        559,
+        402,
+        818,
+        532
+      ],
+      "description": "两名长发女生坐在红色沙发上，抬起手臂在头侧摆姿势，右侧女生穿白底红色图案衣服；保留室内环境，横向矩形窗口，右上角被文字纸条局部遮挡。"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        70,
+        59,
+        175,
+        118
+      ],
+      "text": "Different trains\nare\non their way to\nbetter\nplaces.",
+      "color": "#33352F",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "heart_bubble",
+      "kind": "overlay",
+      "bbox": [
+        334,
+        54,
+        451,
+        121
+      ],
+      "description": "白色对话气泡贴纸，内部为一深一浅两颗灰色爱心，保留立体灰边和投影。"
+    },
+    {
+      "id": "animal_sticker",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        139,
+        497,
+        197
+      ],
+      "description": "并排的猫咪与长耳兔线描贴纸，浅色内部、棕黑色手绘轮廓及细小装饰整体保留。"
+    },
+    {
+      "id": "yellow_clip_sticker",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        169,
+        159,
+        233
+      ],
+      "description": "黄色夹子造型卡通贴纸，包含上方白色线框提手、黄色夹身、黑色笔画、白色外缘和阴影。"
+    },
+    {
+      "id": "small_face",
+      "kind": "overlay",
+      "bbox": [
+        411,
+        196,
+        462,
+        235
+      ],
+      "description": "夜景照片右上角的浅灰白柔边小表情装饰，中央为简短黑色手绘五官，保留朦胧外缘。"
+    },
+    {
+      "id": "gray_tape",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        346,
+        155,
+        378
+      ],
+      "description": "灰色半透明点纹胶带，带白色圆点和斜向格线，横贴在左下合影的左上边缘。"
+    },
+    {
+      "id": "colored_tape",
+      "kind": "overlay",
+      "bbox": [
+        439,
+        320,
+        478,
+        388
+      ],
+      "description": "夜景照片右下边缘的浅黄色长条与浅蓝色短条组成的胶带装饰，保持倾斜叠贴的完整外形。"
+    },
+    {
+      "id": "childhood_sticker",
+      "kind": "overlay",
+      "bbox": [
+        361,
+        369,
+        461,
+        421
+      ],
+      "description": "透明轮廓气泡式贴纸，含彩色小圆点及白色“Painting childhood”字样，位于左下合影右上方，完整保留轮廓和文字。"
+    },
+    {
+      "id": "emoji",
+      "kind": "overlay",
+      "bbox": [
+        156,
+        405,
+        228,
+        462
+      ],
+      "description": "戴黑色墨镜的黄色笑脸表情贴纸，附有彩色庆祝笔画，覆盖左下合影最左人物的脸部。"
+    },
+    {
+      "id": "cutout_words",
+      "kind": "overlay",
+      "bbox": [
+        373,
+        424,
+        480,
+        526
+      ],
+      "description": "多块白色、浅蓝、粉色和米色纸片组成的剪贴字装饰，内容为“Used bookstore's clock lags half a heartbeat”，各行错落拼贴，文字与纸片整体保留。"
+    },
+    {
+      "id": "star_stickers",
+      "kind": "overlay",
+      "bbox": [
+        606,
+        213,
+        681,
+        265
+      ],
+      "description": "三块浅色小纸片上的黑色星形涂鸦构成一组，分别为实心星和线描星，斜向叠贴在右中照片左上角。"
+    },
+    {
+      "id": "text_future",
+      "kind": "text",
+      "bbox": [
+        543,
+        278,
+        662,
+        299
+      ],
+      "text": "May the future be\nbetter than the past.",
+      "color": "#42413A",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "newspaper_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        547,
+        303,
+        675,
+        394
+      ],
+      "description": "报纸小字纹理构成的不规则蝴蝶状剪贴装饰，包含向上下伸出的纸翼与零碎英文印刷，局部覆盖右中照片左下边缘。"
+    },
+    {
+      "id": "purple_note",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        374,
+        939,
+        427
+      ],
+      "description": "浅灰紫色不规则纸条，带多行深紫手写英文，开头为“The petal of a flower or a tiny worm”，纸边、文字和轻微阴影作为完整贴纸保留。"
+    },
+    {
+      "id": "yellow_note",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        450,
+        945,
+        555
+      ],
+      "description": "黄色方格便笺，内部为多行黑色手写英文，开头为“THE petal of a flower or a tiny worm”，保留格纹、纸色、文字和不齐纸边。"
+    },
+    {
+      "id": "bottom_left_note",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        557,
+        265,
+        592
+      ],
+      "description": "浅黄色横向条纹纸胶带，印有黑色手写体“SO IT REALLY DOESN'T STOP”，底纹、纸边和文字整体保留。"
+    },
+    {
+      "id": "paperclip",
+      "kind": "overlay",
+      "bbox": [
+        555,
+        57,
+        618,
+        98
+      ],
+      "description": "斜放在笔记本上缘与明信片左上角交界处的浅色金属回形针，包含双层线圈及轻微阴影。"
+    },
+    {
+      "id": "photo_prints_table",
+      "kind": "photo",
+      "bbox": [
+        50,
+        645,
+        375,
+        959
+      ],
+      "description": "俯拍木桌上散放的六张拍立得合影，桌面、相纸及相纸中的人物均为同一张摄影内容，不另拆照片。竖向完整显示，外围有白色及蓝紫色细纹边缘，上方局部被倾斜合影卡片遮挡。"
+    },
+    {
+      "id": "polaroid_blue",
+      "kind": "frame",
+      "bbox": [
+        238,
+        548,
+        542,
+        729
+      ],
+      "description": "逆时针倾斜的浅蓝色拍立得相纸框，包含较宽下沿、亮色纸边与阴影，承载一张聚会合影，叠在桌面照片之上，右侧被另一张相纸覆盖。",
+      "photo_id": [
+        "photo_blue_group"
+      ]
+    },
+    {
+      "id": "photo_blue_group",
+      "kind": "photo",
+      "bbox": [
+        268,
+        568,
+        495,
+        716
+      ],
+      "description": "多名女生在室内深色格栅墙和金色立柱前合影，有人站立、有人坐在前排；保留室内陈设，随浅蓝相纸倾斜显示，矩形照片右侧局部被前方白色相纸遮住。"
+    },
+    {
+      "id": "polaroid_white",
+      "kind": "frame",
+      "bbox": [
+        495,
+        552,
+        765,
+        707
+      ],
+      "description": "顺时针倾斜的白色拍立得相纸框，带宽下沿、细灰边和阴影，覆盖浅蓝色相纸右侧，并压住下方大照片的上缘。",
+      "photo_id": [
+        "photo_white_group"
+      ]
+    },
+    {
+      "id": "photo_white_group",
+      "kind": "photo",
+      "bbox": [
+        518,
+        567,
+        718,
+        691
+      ],
+      "description": "多名女生在金色立柱与深色格栅背景前合影，前排女生靠近镜头并摆手势；保留完整室内摄影环境，按白色相纸的倾斜矩形内口显示，与左侧合影为独立拍摄位置。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        413,
+        686,
+        947,
+        953
+      ],
+      "description": "两名长发女生在红色沙发前相拥自拍，左侧女生噘嘴，右侧穿白底红色图案衣服的女生从侧面搂住她；近景，保留暗色花纹墙面和红沙发，横向矩形，上缘局部被白色拍立得及右上胶带遮挡，右下日期随照片替换。"
+    },
+    {
+      "id": "text_sunshine",
+      "kind": "text",
+      "bbox": [
+        430,
+        734,
+        562,
+        798
+      ],
+      "text": "Wherever you go,\nno matter what\nthe weather,\nalways bring your\nown sunshine.",
+      "color": "#231B1C",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "beige_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        816,
+        644,
+        999,
+        729
+      ],
+      "description": "右下大照片上缘的浅米黄色弯折纸胶带，斜向延伸至画布右边，带细小黑色英文手写字样，纸张褶皱、半透明质感和不规则末端整体保留。"
+    }
+  ],
+  "layer_order": [
+    "notebook",
+    "photo_top_left",
+    "photo_left_selfie",
+    "photo_night",
+    "photo_left_group",
+    "postcard_frame",
+    "photo_postcard",
+    "photo_right_middle",
+    "photo_right_lower",
+    "text_top_left",
+    "heart_bubble",
+    "animal_sticker",
+    "yellow_clip_sticker",
+    "small_face",
+    "gray_tape",
+    "colored_tape",
+    "childhood_sticker",
+    "emoji",
+    "cutout_words",
+    "star_stickers",
+    "text_future",
+    "newspaper_butterfly",
+    "purple_note",
+    "yellow_note",
+    "bottom_left_note",
+    "paperclip",
+    "photo_prints_table",
+    "photo_bottom_right",
+    "text_sunshine",
+    "polaroid_blue",
+    "photo_blue_group",
+    "polaroid_white",
+    "photo_white_group",
+    "beige_ribbon"
+  ]
+}

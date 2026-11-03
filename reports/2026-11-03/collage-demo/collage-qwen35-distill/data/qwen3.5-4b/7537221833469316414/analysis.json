@@ -1,0 +1,231 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1120
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1120
+      ],
+      "description": "深色木质墙面与地板构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、装饰和文字遮挡局部，保留木质纹理与空间结构。",
+      "background_type": "photo",
+      "label": "深色木质墙面与地板构成连续摄影底图，完整显示区域延伸至画布四",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        83,
+        112,
+        392,
+        538
+      ],
+      "description": "左上人物半身照片，人物侧卧，保留木质背景，下缘和右缘被相邻照片遮挡。",
+      "label": "左上人物半身照片，人物侧卧，保留木质背景，下缘和右缘被相邻照",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        392,
+        401,
+        853,
+        750
+      ],
+      "description": "中央人物面部特写照片，人物吃苹果，保留部分头发与背景，左缘和上缘被相邻照片遮挡。",
+      "label": "中央人物面部特写照片，人物吃苹果，保留部分头发与背景，左缘和",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        155,
+        700,
+        778,
+        1075
+      ],
+      "description": "下方人物躺卧照片，人物侧躺，保留木质背景，上缘被中央照片遮挡。",
+      "label": "下方人物躺卧照片，人物侧躺，保留木质背景，上缘被中央照片遮挡",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        421,
+        92,
+        517,
+        179
+      ],
+      "description": "白色手绘星形装饰，位于画布上部中央，独立于照片。",
+      "label": "白色手绘星形装饰，位于画布上部中央，独立于照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        479,
+        274,
+        547,
+        342
+      ],
+      "description": "白色手绘星形装饰，位于画布中上部，独立于照片。",
+      "label": "白色手绘星形装饰，位于画布中上部，独立于照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        263,
+        756,
+        323
+      ],
+      "description": "白色手绘星形装饰，位于画布右上部，独立于照片。",
+      "label": "白色手绘星形装饰，位于画布右上部，独立于照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        364,
+        864,
+        454
+      ],
+      "description": "白色手绘星形装饰，位于画布右侧中部，独立于照片。",
+      "label": "白色手绘星形装饰，位于画布右侧中部，独立于照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        558,
+        259,
+        782
+      ],
+      "description": "橙色百合花装饰，位于画布左侧中部，独立于照片。",
+      "label": "橙色百合花装饰，位于画布左侧中部，独立于照片。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        432,
+        90,
+        517,
+        179
+      ],
+      "description": "★",
+      "label": "★",
+      "method": "local",
+      "text": "★",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        479,
+        274,
+        547,
+        342
+      ],
+      "description": "★",
+      "label": "★",
+      "method": "local",
+      "text": "★",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        695,
+        263,
+        756,
+        323
+      ],
+      "description": "★",
+      "label": "★",
+      "method": "local",
+      "text": "★",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        781,
+        364,
+        864,
+        454
+      ],
+      "description": "★",
+      "label": "★",
+      "method": "local",
+      "text": "★",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_center",
+    "photo_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_flower",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

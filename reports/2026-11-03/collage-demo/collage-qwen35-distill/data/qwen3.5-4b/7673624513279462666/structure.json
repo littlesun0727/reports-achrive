@@ -1,0 +1,155 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内桌面场景的连续摄影底图，包含木质桌面、咖啡杯、书本和背景环境，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        163,
+        120,
+        594,
+        448
+      ],
+      "description": "手持打开的书本照片，展示书页上的猫咪插画和韩文文字，保留手部、书本及背景环境。"
+    },
+    {
+      "id": "photo_cat_wall",
+      "kind": "photo",
+      "bbox": [
+        517,
+        353,
+        876,
+        636
+      ],
+      "description": "墙面上猫咪涂鸦的照片，包含石质墙面纹理和涂鸦细节，保留墙面环境。"
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        218,
+        576,
+        579,
+        884
+      ],
+      "description": "人物面部特写照片，人物有深色长发，嘴部有食物，保留室内背景环境。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        35,
+        473,
+        497,
+        562
+      ],
+      "text": "The light slowly softens, the sky fading from orange to lilac. Doing nothing but watching this gentle fade, as if everything can be forgiven, everything embraced.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_atom",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        82,
+        273,
+        182
+      ],
+      "description": "蓝色原子结构线条装饰，位于左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_cloud_1",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        236,
+        156,
+        320
+      ],
+      "description": "白色云朵线条装饰，位于左侧中部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        614,
+        136,
+        730,
+        323
+      ],
+      "description": "青色气泡线条装饰，位于右上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        273,
+        912,
+        388
+      ],
+      "description": "白色兔子线条装饰，位于右上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_cloud_2",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        688,
+        680,
+        762
+      ],
+      "description": "白色云朵线条装饰，位于右下角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_music_note",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        812,
+        230,
+        912
+      ],
+      "description": "白色音符与星星线条装饰，位于左下角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        912,
+        16,
+        980,
+        46
+      ],
+      "text": "1/3",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_book",
+    "photo_cat_wall",
+    "photo_person",
+    "text_1",
+    "overlay_atom",
+    "overlay_cloud_1",
+    "overlay_bubbles",
+    "overlay_bunny",
+    "overlay_cloud_2",
+    "overlay_music_note",
+    "text_2"
+  ]
+}

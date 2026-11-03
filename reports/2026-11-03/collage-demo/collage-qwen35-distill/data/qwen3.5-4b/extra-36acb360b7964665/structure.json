@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海滩摄影画面，包含大海、沙滩、远山和天空，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        73,
+        53,
+        495,
+        478
+      ],
+      "description": "上方人物半身照片，人物手持相机和星鱼，保留沙滩和海景环境，下缘和右缘被相邻元素遮挡。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        107,
+        440,
+        603,
+        942
+      ],
+      "description": "左下人物近景照片，人物手持相机，保留沙滩环境，上缘和右缘被相邻元素遮挡。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        532,
+        935,
+        888
+      ],
+      "description": "右下人物近景照片，人物蹲在沙滩上，保留沙滩环境，上缘和左缘被相邻元素遮挡。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        31,
+        247,
+        148
+      ],
+      "description": "三只海星装饰，位于左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_stripe",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        472,
+        495,
+        538
+      ],
+      "description": "蓝白条纹装饰，位于上方照片下方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_droplets",
+      "kind": "overlay",
+      "bbox": [
+        586,
+        532,
+        912,
+        723
+      ],
+      "description": "白色水滴装饰，位于右下照片上方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        495,
+        62,
+        885,
+        283
+      ],
+      "text": "SUMMER TIME\nI have only to break into the tightness of strawberry,\nand i see summer its dust and lowering skies.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_decor",
+      "kind": "text",
+      "bbox": [
+        538,
+        815,
+        905,
+        925
+      ],
+      "text": "So stylish fabulous\nWinter paints the world in soft colors\nturning every moment into a work of fantasy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        582,
+        223,
+        653
+      ],
+      "description": "对话气泡装饰，位于左下照片左侧，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_stars",
+    "overlay_stripe",
+    "overlay_droplets",
+    "text_main",
+    "text_decor",
+    "overlay_bubble"
+  ]
+}

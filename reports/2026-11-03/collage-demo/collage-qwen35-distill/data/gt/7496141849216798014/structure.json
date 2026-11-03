@@ -1,0 +1,180 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#E8E8E8"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        43,
+        94,
+        501,
+        904
+      ],
+      "description": "左侧大型竖幅樱花河道照片，盛开的浅粉白樱花、深色树干与枝条占据前景，河道向画面深处延伸，左岸可见建筑与步道。完整保留摄影环境，四周呈邮票式连续半圆缺口，底部内侧有细白线；右下局部被黑色标签遮挡。"
+    },
+    {
+      "id": "photo_right_back",
+      "kind": "photo",
+      "bbox": [
+        592,
+        193,
+        776,
+        518
+      ],
+      "description": "右上偏中的竖幅樱花照片，粉色花冠铺满画面，下方可见树干与分枝，保留摄影环境。矩形窗口边缘清晰，右下部分被另一张樱花照片遮挡，显示范围仍为完整矩形。"
+    },
+    {
+      "id": "photo_right_front",
+      "kind": "photo",
+      "bbox": [
+        733,
+        293,
+        943,
+        665
+      ],
+      "description": "右侧前层竖幅樱花近景照片，浅色天空中横伸深色细枝，枝上散布粉白花朵，保留摄影环境。矩形窗口无明显描边，左上方叠有黑色文字标签。"
+    },
+    {
+      "id": "divider",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        135,
+        545,
+        873
+      ],
+      "description": "左右构图区之间的一条深灰色细竖线。"
+    },
+    {
+      "id": "happy_label",
+      "kind": "overlay",
+      "bbox": [
+        392,
+        731,
+        525,
+        767
+      ],
+      "description": "叠在左侧照片右下方的黑色横向标签，白色打字机风格文字为“#Happy day”，保留底板、字形及边缘。"
+    },
+    {
+      "id": "travel_label",
+      "kind": "overlay",
+      "bbox": [
+        771,
+        272,
+        902,
+        305
+      ],
+      "description": "右侧照片上沿附近的黑色横向标签，白色打字机风格文字为“#Daily travel”，文字与底板整体保留。"
+    },
+    {
+      "id": "poem",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        531,
+        785,
+        841
+      ],
+      "description": "右侧照片下方的黑色手写英文诗句装饰，包含带下划线的“Same or not”标题、多行大小与位置略有变化的手写诗句，以及底部横线和署名；整体保留原有笔画与排布。"
+    },
+    {
+      "id": "clock_design",
+      "kind": "overlay",
+      "bbox": [
+        791,
+        681,
+        959,
+        911
+      ],
+      "description": "右下角圆形文字时钟装饰，黑色英文字母沿圆周逐字旋转排列，可辨“darkness”“light”等字样，中心为白色数码管造型时间“18:45”；圆周文字与中央时间整体保留。"
+    },
+    {
+      "id": "date_top_5",
+      "kind": "overlay",
+      "bbox": [
+        596,
+        89,
+        632,
+        137
+      ],
+      "description": "顶部独立细灰线方框日期字符，框内为黑色粗斜体数字“5”，方框与数字整体保留。"
+    },
+    {
+      "id": "date_top_dot",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        89,
+        729,
+        137
+      ],
+      "description": "顶部独立细灰线方框，框内下部为黑色圆点，方框与圆点整体保留。"
+    },
+    {
+      "id": "date_top_1a",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        89,
+        818,
+        137
+      ],
+      "description": "顶部独立细灰线方框日期字符，框内为黑色粗体数字“1”，方框与数字整体保留。"
+    },
+    {
+      "id": "date_top_1b",
+      "kind": "overlay",
+      "bbox": [
+        872,
+        89,
+        907,
+        137
+      ],
+      "description": "顶部最右侧独立细灰线方框日期字符，框内为黑色粗体数字“1”，方框与数字整体保留。"
+    },
+    {
+      "id": "date_bottom_2",
+      "kind": "overlay",
+      "bbox": [
+        596,
+        857,
+        632,
+        905
+      ],
+      "description": "下方独立细灰线方框日期字符，框内为黑色粗斜体数字“2”，方框与数字整体保留。"
+    },
+    {
+      "id": "date_bottom_5",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        857,
+        729,
+        905
+      ],
+      "description": "下方独立细灰线方框日期字符，框内为黑色粗斜体数字“5”，方框与数字整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right_back",
+    "photo_right_front",
+    "divider",
+    "happy_label",
+    "travel_label",
+    "poem",
+    "clock_design",
+    "date_top_5",
+    "date_top_dot",
+    "date_top_1a",
+    "date_top_1b",
+    "date_bottom_2",
+    "date_bottom_5"
+  ]
+}

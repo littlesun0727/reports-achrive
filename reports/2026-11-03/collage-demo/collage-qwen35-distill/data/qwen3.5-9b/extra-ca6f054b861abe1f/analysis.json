@@ -1,0 +1,267 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1435
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1435
+      ],
+      "description": "全画布固定底图，浅米色背景，带有重复的樱桃和波点图案，以及虚线网格装饰，作为整体拼贴的承载纸底。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，浅米色背景，带有重复的樱桃和波点图案，以及虚",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        63,
+        69,
+        413,
+        548
+      ],
+      "description": "左上角照片，女孩手持紫色玩偶，背景为绿植和墙面，照片内包含其他小玩偶。",
+      "label": "左上角照片，女孩手持紫色玩偶，背景为绿植和墙面，照片内包含其",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        41,
+        40,
+        423,
+        563
+      ],
+      "description": "围绕左上角照片的拍立得风格相框，带有圆角和白色边框，位于照片上方。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "围绕左上角照片的拍立得风格相框，带有圆角和白色边框，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        559,
+        126,
+        1013,
+        585
+      ],
+      "description": "右上角照片，女孩手持蓝色帽子玩偶，背景为喷泉和城市建筑，照片内包含其他小玩偶。",
+      "label": "右上角照片，女孩手持蓝色帽子玩偶，背景为喷泉和城市建筑，照片",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        549,
+        112,
+        1024,
+        600
+      ],
+      "description": "围绕右上角照片的拍立得风格相框，带有圆角和棕色边框，位于照片上方。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "围绕右上角照片的拍立得风格相框，带有圆角和棕色边框，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        63,
+        700,
+        413,
+        1174
+      ],
+      "description": "左下角照片，女孩手持两个玩偶，背景为绿植和墙面，照片内包含其他小玩偶。",
+      "label": "左下角照片，女孩手持两个玩偶，背景为绿植和墙面，照片内包含其",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        52,
+        686,
+        423,
+        1188
+      ],
+      "description": "围绕左下角照片的拍立得风格相框，带有圆角和黑色边框，位于照片上方。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "围绕左下角照片的拍立得风格相框，带有圆角和黑色边框，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        559,
+        700,
+        1013,
+        1346
+      ],
+      "description": "右下角照片，女孩手持玩偶，背景为水面和栏杆，照片内包含其他小玩偶。",
+      "label": "右下角照片，女孩手持玩偶，背景为水面和栏杆，照片内包含其他小",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        549,
+        686,
+        1024,
+        1360
+      ],
+      "description": "围绕右下角照片的拍立得风格相框，带有圆角和白色边框，位于照片上方。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "围绕右下角照片的拍立得风格相框，带有圆角和白色边框，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right",
+      "kind": "overlay",
+      "bbox": [
+        603,
+        40,
+        1013,
+        126
+      ],
+      "description": "右上角的播放控制条，包含暂停按钮、时间显示和音量图标，位于右上角照片上方。",
+      "label": "右上角的播放控制条，包含暂停按钮、时间显示和音量图标，位于右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        19,
+        26,
+        117,
+        155
+      ],
+      "description": "左上角的粉色爪印和星星装饰，位于左上角照片上方。",
+      "label": "左上角的粉色爪印和星星装饰，位于左上角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        471,
+        516,
+        686
+      ],
+      "description": "中间偏左的黄色星星和紫色流星装饰，位于左上角和右上角照片之间。",
+      "label": "中间偏左的黄色星星和紫色流星装饰，位于左上角和右上角照片之间",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        775,
+        1145,
+        1013,
+        1346
+      ],
+      "description": "右下角的红色唇印装饰，位于右下角照片下方。",
+      "label": "右下角的红色唇印装饰，位于右下角照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        1145,
+        343,
+        1231
+      ],
+      "description": "左下角的对话气泡和表情符号装饰，位于左下角照片下方。",
+      "label": "左下角的对话气泡和表情符号装饰，位于左下角照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        63,
+        471,
+        413,
+        528
+      ],
+      "description": "アイスクリーム!!",
+      "label": "アイスクリーム!!",
+      "method": "local",
+      "text": "アイスクリーム!!",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        127,
+        1231,
+        343,
+        1289
+      ],
+      "description": "Yes!! ♪( '▽` )",
+      "label": "Yes!! ♪( '▽` )",
+      "method": "local",
+      "text": "Yes!! ♪( '▽` )",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top_left",
+    "frame_top_left",
+    "photo_top_right",
+    "frame_top_right",
+    "photo_bottom_left",
+    "frame_bottom_left",
+    "photo_bottom_right",
+    "frame_bottom_right",
+    "overlay_top_right",
+    "overlay_top_left",
+    "overlay_middle",
+    "overlay_bottom_right",
+    "overlay_bottom_left",
+    "text_top_left",
+    "text_bottom_left"
+  ]
+}

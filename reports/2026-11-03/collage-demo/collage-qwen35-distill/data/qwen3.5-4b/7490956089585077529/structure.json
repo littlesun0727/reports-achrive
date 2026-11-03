@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布为带有细微纹理的浅色纸底，两张照片独立放置，纸底纹理在照片间隙及边缘保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        72,
+        142,
+        768,
+        446
+      ],
+      "description": "上方人物半身照片，人物位于画面右侧，背景为网格状围栏和远处城市景观，显示区域为圆角矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        224,
+        579,
+        922,
+        879
+      ],
+      "description": "下方人物半身照片，人物位于画面中央偏右，背景为金属围栏、远处建筑和阳光，显示区域为圆角矩形。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom"
+  ]
+}

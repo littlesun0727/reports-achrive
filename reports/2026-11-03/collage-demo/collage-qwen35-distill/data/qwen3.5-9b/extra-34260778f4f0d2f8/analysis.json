@@ -1,0 +1,120 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "户外草地与树林背景，一位穿着蓝白条纹运动背心和白色短裙的年轻女性坐在草地上，手持足球，佩戴耳机，头发编成双麻花辫并系有白色蝴蝶结。摄影环境完整延伸至画布边缘，作为全画布底图承载所有上层元素。",
+      "background_type": "photo",
+      "label": "户外草地与树林背景，一位穿着蓝白条纹运动背心和白色短裙的年轻",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_stretch",
+      "kind": "photo",
+      "bbox": [
+        48,
+        64,
+        336,
+        512
+      ],
+      "description": "左上角独立照片，展示同一位女性做拉伸动作，手持足球，背景为树林。照片边缘有白色描边，主体去背景，仅保留人物与足球。",
+      "label": "左上角独立照片，展示同一位女性做拉伸动作，手持足球，背景为树",
+      "method": "local"
+    },
+    {
+      "id": "photo_video",
+      "kind": "photo",
+      "bbox": [
+        624,
+        64,
+        912,
+        512
+      ],
+      "description": "右上角视频播放器界面截图，显示同一位女性手持足球的画面，下方有播放进度条、暂停按钮及音乐信息。整体为矩形窗口，保留界面元素。",
+      "label": "右上角视频播放器界面截图，显示同一位女性手持足球的画面，下方",
+      "method": "local"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        192,
+        528,
+        320
+      ],
+      "description": "蓝色心形图案，位于画面中上部，作为装饰性贴纸，无文字，独立于照片之外。",
+      "label": "蓝色心形图案，位于画面中上部，作为装饰性贴纸，无文字，独立于",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        448,
+        144,
+        576
+      ],
+      "description": "白色星形闪光图案，位于左下角，带有放射状线条，作为装饰贴纸，独立于照片之外。",
+      "label": "白色星形闪光图案，位于左下角，带有放射状线条，作为装饰贴纸，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_line",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        448,
+        528,
+        1216
+      ],
+      "description": "浅蓝色耳机线状装饰，从左下角延伸至右下角，连接两个星星图案，呈曲线形态，作为独立装饰元素。",
+      "label": "浅蓝色耳机线状装饰，从左下角延伸至右下角，连接两个星星图案，",
+      "method": "extract"
+    },
+    {
+      "id": "text_music",
+      "kind": "text",
+      "bbox": [
+        624,
+        384,
+        672,
+        410
+      ],
+      "description": "Music",
+      "label": "Music",
+      "method": "local",
+      "text": "Music",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_stretch",
+    "photo_video",
+    "overlay_heart",
+    "overlay_star",
+    "overlay_line",
+    "text_music"
+  ]
+}

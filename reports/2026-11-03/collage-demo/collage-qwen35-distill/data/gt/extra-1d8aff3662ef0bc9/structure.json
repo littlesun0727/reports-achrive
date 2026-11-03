@@ -1,0 +1,181 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的竖幅街巷摄影铺满画布，蓝天、电线与电杆贯穿中上部，左上有浓密树叶，左侧建筑招牌与右侧房屋围合通往远处的道路，下方为阳光与阴影交错的路面。街巷中有车辆，无突出人物主体。四边场景连续，上层三张照片与装饰仅遮挡局部；完整街景及其中招牌文字随客户照片整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        94,
+        136,
+        431,
+        436
+      ],
+      "description": "左上竖幅矩形照片，一名戴浅色帽子的长发女性全身站在人行道上，穿橙色上衣、白色外搭与蓝色长裤，头朝右下方，身旁有编织包。保留棕榈树、道路车辆与沿街建筑等摄影环境，四边清晰，上左角被胶带遮挡。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        570,
+        299,
+        936,
+        625
+      ],
+      "description": "右侧竖幅矩形照片，同样服装的戴帽长发女性半身近景，身体朝前、脸转向右侧，下身由照片底边裁切。保留棕榈树、绿植、建筑与道路车辆背景，边界清晰，顶部中央被白色夹子遮挡。"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        166,
+        603,
+        483,
+        885
+      ],
+      "description": "左下竖幅矩形食物摊位照片，前景为橙色炒面，中部摆放虾、炒面与蔬菜，后方有炸物餐盘及局部摊主衣服。完整保留摊位摄影环境，四边清晰，右下角被斜贴胶带遮挡。"
+    },
+    {
+      "id": "overlay_tape_top",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        98,
+        195,
+        181
+      ],
+      "description": "左上斜贴的米白色半透明纸胶带，带有纸纤维质感与不规则撕裂端口，跨过左上照片的上左角，整体保留。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        228,
+        826,
+        313
+      ],
+      "description": "右侧照片顶部中央的白色立体夹子，包含圆孔、圆环形上柄、连接部及宽底夹口，保留灰色明暗与阴影，夹口覆盖照片上边缘。"
+    },
+    {
+      "id": "overlay_tape_bottom",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        838,
+        547,
+        918
+      ],
+      "description": "食物照片右下角斜贴的米白色纸胶带，纸纹、半透明质感与撕裂边缘整体保留，跨越照片边界延伸到街道路面上。"
+    },
+    {
+      "id": "overlay_quote",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        113,
+        935,
+        194
+      ],
+      "description": "两行黑色手写装饰字“Live the life”“you’ve imagined.”，每行下方带不规则白色刷痕底衬，字形高低、笔画和两行错位排布共同构成完整装饰。"
+    },
+    {
+      "id": "overlay_summer",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        747,
+        851,
+        850
+      ],
+      "description": "右下白色手写装饰字“OUR”“BELOVED”“SUMMER”分三行错落排列，字母大小与角度不一，周围附有五枚小星形点缀；文字与星形作为同一完整设计保留。"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        262,
+        72,
+        305,
+        100
+      ],
+      "description": "左上树叶前的一枚白色五角星。"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        64,
+        881,
+        92
+      ],
+      "description": "右上蓝天中的一枚白色五角星。"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        491,
+        188,
+        532,
+        216
+      ],
+      "description": "上部文字左下方、电线前的一枚白色五角星。"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        508,
+        488,
+        548,
+        515
+      ],
+      "description": "画布中部偏左、右侧照片左边的一枚白色五角星。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        779,
+        932,
+        823,
+        961
+      ],
+      "description": "下方路面偏右的一枚白色五角星。"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        953,
+        37,
+        980
+      ],
+      "description": "左下画布边缘的白色五角星，左侧尖角被画布边界裁切。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "photo_food",
+    "overlay_tape_top",
+    "overlay_clip",
+    "overlay_tape_bottom",
+    "overlay_quote",
+    "overlay_summer",
+    "overlay_star_top_left",
+    "overlay_star_top_right",
+    "overlay_star_middle",
+    "overlay_star_center",
+    "overlay_star_bottom_right",
+    "overlay_star_bottom_left"
+  ]
+}

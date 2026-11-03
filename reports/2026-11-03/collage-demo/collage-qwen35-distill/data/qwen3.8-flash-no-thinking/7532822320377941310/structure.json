@@ -1,0 +1,175 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pattern",
+    "description": "粉色底白色圆点图案背景，顶部有黑色蕾丝花边装饰。该固定纹理覆盖全画布，作为所有照片和装饰元素的底层衬托。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        90,
+        178,
+        652,
+        483
+      ],
+      "description": "上方矩形照片窗口内的年轻女性半身像，佩戴银色项链和耳饰，长发披肩，面带微笑注视镜头。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        52,
+        150,
+        690,
+        510
+      ],
+      "description": "围绕上方照片的黑色粗边框，边缘带有规则排列的白色圆点装饰。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "overlay_lace",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        15,
+        1000,
+        60
+      ],
+      "description": "位于画面最顶部的黑色蕾丝花边条带，具有镂空心形和波浪边缘细节。"
+    },
+    {
+      "id": "overlay_diamonds",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        128,
+        710,
+        260
+      ],
+      "description": "由多颗透明水钻组成的蝴蝶结形状装饰，叠加在上方相框的右上角区域。"
+    },
+    {
+      "id": "overlay_sheep",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        375,
+        250,
+        530
+      ],
+      "description": "白色毛绒小羊玩偶贴纸，颈部系有浅蓝色丝带，位于上方相框左下角并部分遮挡相框。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        345,
+        595,
+        885,
+        895
+      ],
+      "description": "下方矩形照片窗口内的年轻女性近景，手指轻触下巴，眼神柔和，头顶佩戴粉色蝴蝶结发饰。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        305,
+        565,
+        935,
+        915
+      ],
+      "description": "围绕下方照片的黑色粗边框，边缘同样带有规则排列的白色圆点装饰。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "text_bubble_1",
+      "kind": "text",
+      "bbox": [
+        195,
+        635,
+        425,
+        670
+      ],
+      "text": "I am a princess",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false,
+      "description": "位于左侧中部的粉色对话气泡标签，包含文字内容。"
+    },
+    {
+      "id": "text_bubble_2",
+      "kind": "text",
+      "bbox": [
+        60,
+        685,
+        425,
+        720
+      ],
+      "text": "But you're not my prince",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false,
+      "description": "位于第一个气泡下方的长条形粉色对话气泡标签，包含文字内容。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        805,
+        500,
+        985,
+        660
+      ],
+      "description": "白色毛绒小熊玩偶贴纸，颈部系有粉色丝带，位于下方相框右上角并部分遮挡相框。"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        830,
+        560,
+        930
+      ],
+      "description": "一对白色立体翅膀装饰，位于下方相框底部边缘中央，呈对称分布。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        810,
+        935,
+        915
+      ],
+      "description": "由珍珠串成的五角星轮廓装饰，位于下方相框右下角内部区域。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "overlay_lace",
+    "overlay_diamonds",
+    "overlay_sheep",
+    "photo_bottom",
+    "frame_bottom",
+    "text_bubble_1",
+    "text_bubble_2",
+    "overlay_bear",
+    "overlay_wings",
+    "overlay_star"
+  ]
+}

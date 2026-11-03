@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b18b27fd07b3fc4e",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6667,
+    "total_tokens": 7315,
+    "completion_tokens": 648,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        497,\n        896\n      ],\n      \"description\": \"左侧竖向照片，展示一位佩戴发带、手持手机自拍的人物，包含室内背景及人物全身姿态。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        497,\n        0,\n        1000,\n        298\n      ],\n      \"description\": \"右上局部照片，展示一位佩戴帽子的人物上半身特写，背景为店铺橱窗。\"\n    },\n    {\n      \"id\": \"photo_middle_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        497,\n        298,\n        1000,\n        596\n      ],\n      \"description\": \"右侧中部照片，展示一位坐在台阶上的人物，包含腿部、背包及台阶环境。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        497,\n        596,\n        1000,\n        896\n      ],\n      \"description\": \"右下局部照片，展示黑色手提包、手机及桌面物品的俯拍视角。\"\n    },\n    {\n      \"id\": \"overlay_ui_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        0,\n        497,\n        896\n      ],\n      \"description\": \"左侧照片覆盖的UI元素，包括左上角的关闭按钮、右侧的Aa、表情、音乐、滤镜及向下箭头图标，底部包含'Add a caption'文字及'Your story'、'Close Friends'按钮。\"\n    },\n    {\n      \"id\": \"overlay_ui_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        497,\n        0,\n        1000,\n        896\n      ],\n      \"description\": \"右侧照片覆盖的UI元素，包括左上角的关闭按钮、右侧的Aa、表情、音乐、滤镜及向下箭头图标，底部包含'Add a caption'文字及'Your story'、'Close Friends'按钮。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_left\",\n    \"photo_top_right\",\n    \"photo_middle_right\",\n    \"photo_bottom_right\",\n    \"overlay_ui_left\",\n    \"overlay_ui_right\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-ac12edfe49f869af",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 7724,
+    "completion_tokens": 441,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        333\n      ],\n      \"description\": \"俯拍地面照片，显示深色沥青路面、积水反光及散落的黄色落叶，作为独立摄影单元。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        333,\n        1000,\n        667\n      ],\n      \"description\": \"人物手持椰子站在泳池边的照片，保留人物、泳池、绿植及背景建筑等完整摄影环境。\"\n    },\n    {\n      \"id\": \"text_mid\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        62,\n        508,\n        938,\n        588\n      ],\n      \"text\": \"In those days even the wind\\nfelt free in summer\",\n      \"color\": \"#FF007F\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_bot\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        667,\n        1000,\n        1000\n      ],\n      \"description\": \"日落天空照片，显示橙红色云层、路灯剪影及树木轮廓，作为独立摄影单元。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_mid\",\n    \"text_mid\",\n    \"photo_bot\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,155 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅蓝至米色渐变纹理纸底，四周及照片间隙保留相同纸纹；照片独立替换，纸底保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        166,
+        62,
+        826,
+        338
+      ],
+      "description": "上方人物半身照片，戴草帽，手扶帽檐，背景为蓝天碧海与船只，保留照片内的摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        166,
+        362,
+        826,
+        638
+      ],
+      "description": "中间手掌捧贝壳照片，背景为沙滩，保留照片内的摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        166,
+        662,
+        826,
+        938
+      ],
+      "description": "下方人物半身照片，戴草帽，面带微笑，背景为清澈海水与绿植，保留照片内的摄影环境，显示区域为水平矩形。"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        32,
+        206,
+        122
+      ],
+      "description": "左上角白色手绘海星，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        142,
+        936,
+        232
+      ],
+      "description": "右上角白色手绘海星，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        442,
+        936,
+        532
+      ],
+      "description": "中间右侧白色手绘海星，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star4",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        742,
+        192,
+        832
+      ],
+      "description": "左下角白色手绘海星，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        742,
+        856,
+        832
+      ],
+      "description": "右下角白色手绘鱼形图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        32,
+        526,
+        122
+      ],
+      "description": "顶部中央银色回形针，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        66,
+        382,
+        296,
+        422
+      ],
+      "text": "Island",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        566,
+        542,
+        896,
+        582
+      ],
+      "text": "Sun sea serenity.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_star4",
+    "overlay_fish",
+    "overlay_paperclip",
+    "text_1",
+    "text_2"
+  ]
+}

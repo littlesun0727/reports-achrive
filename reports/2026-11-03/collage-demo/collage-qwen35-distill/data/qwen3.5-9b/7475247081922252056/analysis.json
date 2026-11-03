@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1349
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1349
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        310,
+        40,
+        860,
+        398
+      ],
+      "description": "顶部照片，展示一碗米饭、一个煎蛋和一块烤鸡腿，撒有芝麻和香草，背景为深色桌面。",
+      "label": "顶部照片，展示一碗米饭、一个煎蛋和一块烤鸡腿，撒有芝麻和香草",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        86,
+        438,
+        796,
+        904
+      ],
+      "description": "中间照片，展示多道菜品：左侧有香肠、沙拉和酱料，右侧有番茄意面和汤，下方有另一碗米饭和煎蛋。",
+      "label": "中间照片，展示多道菜品：左侧有香肠、沙拉和酱料，右侧有番茄意",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        32,
+        938,
+        590,
+        1309
+      ],
+      "description": "底部照片，展示两杯饮料、一份番茄意面和一盘香肠，背景为菜单和桌面。",
+      "label": "底部照片，展示两杯饮料、一份番茄意面和一盘香肠，背景为菜单和",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        22,
+        162,
+        256,
+        297
+      ],
+      "description": "肚子饱了\n心情就好了",
+      "label": "肚子饱了\n心情就好了",
+      "method": "local",
+      "text": "肚子饱了\n心情就好了",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        634,
+        877,
+        860,
+        1187
+      ],
+      "description": "打卡！\n*Plog.*",
+      "label": "打卡！\n*Plog.*",
+      "method": "local",
+      "text": "打卡！\n*Plog.*",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_1",
+    "text_2"
+  ]
+}

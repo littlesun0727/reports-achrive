@@ -1,0 +1,90 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_1",
+    "description": "连续覆盖全画布的凝露玻璃质感底图，上部浅蓝、下部渐变为乳白，遍布大小水珠及半透明紫色、淡白色兰花图案；相同纹理在四边和照片间隙连续可见。保留底图的渐变、水珠和花卉图案，独立照片、百合贴纸及叠加字样不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        122,
+        166,
+        563,
+        560
+      ],
+      "description": "竖向矩形户外人物照片，一名长发女子躺在草地上，面朝镜头，手伸向前景并拈着粉色小花；保留周围草叶、树木及日照环境。四边清晰，左下部分被百合贴纸遮挡，完整显示窗口仍为矩形。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        334,
+        599,
+        972,
+        882
+      ],
+      "description": "横向矩形海滨日落照片，粉橙色天空下有海湾、沙滩、山坡住宅和棕榈树，前景数人背对镜头坐着，右下有多肉植物和花丛。保留完整摄影环境，边界清晰，左下边缘被白色手绘圆环局部覆盖。"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        418,
+        343,
+        691
+      ],
+      "description": "橙红色百合花贴纸，包含展开的花瓣、花蕊、深色长茎与少量绿叶；花瓣带水珠和星形亮点，外围有宽白色不规则轮廓。整枚装饰覆盖上方照片左下角，并向下延伸至底图。"
+    },
+    {
+      "id": "overlay_calling",
+      "kind": "overlay",
+      "bbox": [
+        601,
+        441,
+        922,
+        528
+      ],
+      "description": "白色大写“CALLING”艺术字，字形细长且高低不齐，带干刷刮擦、重复笔画和不规则边缘，作为完整独立字样保留。"
+    },
+    {
+      "id": "overlay_circle",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        819,
+        411,
+        925
+      ],
+      "description": "乳白色手绘多重圆环，包含相互错位的细线和局部粗笔触，内部透明；跨越下方照片左下角及周围底图。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        440,
+        31,
+        560,
+        44
+      ],
+      "text": "CHARENY",
+      "color": "#F5F3E7",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "overlay_lily",
+    "overlay_calling",
+    "overlay_circle",
+    "text_1"
+  ]
+}

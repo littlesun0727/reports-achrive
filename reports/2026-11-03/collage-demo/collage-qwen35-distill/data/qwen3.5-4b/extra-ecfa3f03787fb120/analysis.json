@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        539,
+        719
+      ],
+      "description": "草原与天空风景照片，包含绿色丘陵、白云和远处的牛群，位于左上区域。",
+      "label": "草原与天空风景照片，包含绿色丘陵、白云和远处的牛群，位于左上",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        719
+      ],
+      "description": "草原风景照片，包含绿色草地、远山和白色文字'建黑河呼伦贝尔'，位于右上区域。",
+      "label": "草原风景照片，包含绿色草地、远山和白色文字'建黑河呼伦贝尔'",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        719,
+        539,
+        1440
+      ],
+      "description": "草原河流风景照片，包含河流、马群和远处的树木，位于左下区域。",
+      "label": "草原河流风景照片，包含河流、马群和远处的树木，位于左下区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        719,
+        1080,
+        1440
+      ],
+      "description": "草原河流风景照片，包含蜿蜒河流和远处的山丘，位于右下区域。",
+      "label": "草原河流风景照片，包含蜿蜒河流和远处的山丘，位于右下区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        270,
+        446,
+        755,
+        1120
+      ],
+      "description": "人物半身照片，女性侧脸微笑挥手，佩戴墨镜，位于画面中央，覆盖部分背景照片。",
+      "label": "人物半身照片，女性侧脸微笑挥手，佩戴墨镜，位于画面中央，覆盖",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_center"
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1601
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1601
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        533
+      ],
+      "description": "餐厅用餐场景照片，人物坐在桌前，桌上摆放着铜锅料理、沙拉、炒饭和饮品，背景为深色墙面和餐具。",
+      "label": "餐厅用餐场景照片，人物坐在桌前，桌上摆放着铜锅料理、沙拉、炒",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1068,
+        900,
+        1601
+      ],
+      "description": "餐厅用餐场景照片，人物坐在桌前，桌上摆放着铜锅料理、沙拉、炒饭和饮品，背景为深色墙面和餐具。",
+      "label": "餐厅用餐场景照片，人物坐在桌前，桌上摆放着铜锅料理、沙拉、炒",
+      "method": "local"
+    },
+    {
+      "id": "overlay_middle",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        533,
+        900,
+        1068
+      ],
+      "description": "棕色纹理背景上的拼贴设计，包含四张圆形食物照片、卡通贴纸、餐具图标和文字。",
+      "label": "棕色纹理背景上的拼贴设计，包含四张圆形食物照片、卡通贴纸、餐",
+      "method": "extract"
+    },
+    {
+      "id": "photo_salad",
+      "kind": "photo",
+      "bbox": [
+        189,
+        600,
+        405,
+        792
+      ],
+      "description": "圆形沙拉照片，包含生菜、肉片和装饰蔬菜，边缘有虚线框。",
+      "label": "圆形沙拉照片，包含生菜、肉片和装饰蔬菜，边缘有虚线框。",
+      "method": "local"
+    },
+    {
+      "id": "photo_skewers",
+      "kind": "photo",
+      "bbox": [
+        432,
+        600,
+        648,
+        792
+      ],
+      "description": "圆形烤肉串照片，包含多串烤肉，边缘有虚线框。",
+      "label": "圆形烤肉串照片，包含多串烤肉，边缘有虚线框。",
+      "method": "local"
+    },
+    {
+      "id": "photo_rice",
+      "kind": "photo",
+      "bbox": [
+        225,
+        809,
+        441,
+        1001
+      ],
+      "description": "圆形炒饭照片，包含米饭、海苔和装饰，边缘有虚线框。",
+      "label": "圆形炒饭照片，包含米饭、海苔和装饰，边缘有虚线框。",
+      "method": "local"
+    },
+    {
+      "id": "photo_pot",
+      "kind": "photo",
+      "bbox": [
+        477,
+        809,
+        693,
+        1001
+      ],
+      "description": "圆形铜锅料理照片，包含汤和芝士，边缘有虚线框。",
+      "label": "圆形铜锅料理照片，包含汤和芝士，边缘有虚线框。",
+      "method": "local"
+    },
+    {
+      "id": "sticker_koala",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        752,
+        117,
+        881
+      ],
+      "description": "蓝色考拉卡通贴纸，带有白色轮廓和表情。",
+      "label": "蓝色考拉卡通贴纸，带有白色轮廓和表情。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_bunny",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        752,
+        220,
+        881
+      ],
+      "description": "白色兔子卡通贴纸，带有粉色耳朵和表情。",
+      "label": "白色兔子卡通贴纸，带有粉色耳朵和表情。",
+      "method": "extract"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        27,
+        544,
+        180,
+        640
+      ],
+      "description": "快乐加载中",
+      "label": "快乐加载中",
+      "method": "local",
+      "text": "快乐加载中",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        608,
+        810,
+        752
+      ],
+      "description": "白色手绘餐具图标，包含叉子和刀具。",
+      "label": "白色手绘餐具图标，包含叉子和刀具。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        99,
+        977,
+        801,
+        1041
+      ],
+      "description": "一起吃饭 | 普通日子里的小浪漫",
+      "label": "一起吃饭 | 普通日子里的小浪漫",
+      "method": "local",
+      "text": "一起吃饭 | 普通日子里的小浪漫",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_middle",
+    "photo_salad",
+    "photo_skewers",
+    "photo_rice",
+    "photo_pot",
+    "sticker_koala",
+    "sticker_bunny",
+    "text_top_left",
+    "icon_cutlery",
+    "text_bottom"
+  ]
+}

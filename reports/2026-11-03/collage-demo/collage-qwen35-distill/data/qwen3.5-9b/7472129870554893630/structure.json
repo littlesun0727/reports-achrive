@@ -1,0 +1,67 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "模糊的桌面摄影底图，包含手机屏幕、应用图标和备忘录界面，整体呈现柔和的虚化效果，作为全画布背景承载上层内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        207,
+        227,
+        788,
+        563
+      ],
+      "description": "上方人物近景照片，戴眼镜，手持食物，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        207,
+        603,
+        788,
+        953
+      ],
+      "description": "下方人物近景照片，戴眼镜，手持蓝色物品，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        157,
+        163,
+        838,
+        563
+      ],
+      "description": "围绕上方照片的白色矩形框，位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        157,
+        543,
+        838,
+        953
+      ],
+      "description": "围绕下方照片的白色矩形框，位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "frame_top",
+    "frame_bottom"
+  ]
+}

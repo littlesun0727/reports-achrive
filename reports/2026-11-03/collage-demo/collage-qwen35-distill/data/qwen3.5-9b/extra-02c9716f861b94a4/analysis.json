@@ -1,0 +1,220 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#8C867F"
+      }
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        113,
+        128,
+        624,
+        742
+      ],
+      "description": "一杯放在笔记本电脑上的奶茶，杯身有“裕蓮茶”字样，背景有玩偶和屏幕，保留完整摄影画面。",
+      "label": "一杯放在笔记本电脑上的奶茶，杯身有“裕蓮茶”字样，背景有玩偶",
+      "method": "local"
+    },
+    {
+      "id": "photo_landscape",
+      "kind": "photo",
+      "bbox": [
+        461,
+        794,
+        941,
+        1178
+      ],
+      "description": "户外风景照片，包含树木、池塘和樱花树，保留完整摄影画面。",
+      "label": "户外风景照片，包含树木、池塘和樱花树，保留完整摄影画面。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        538,
+        173,
+        794
+      ],
+      "description": "蓝色五角星贴纸，边缘有白色描边，作为独立装饰保留。",
+      "label": "蓝色五角星贴纸，边缘有白色描边，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cup",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        512,
+        845,
+        666
+      ],
+      "description": "带眼睛和爱心装饰的黑色杯子贴纸，作为独立装饰保留。",
+      "label": "带眼睛和爱心装饰的黑色杯子贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        742,
+        307,
+        870
+      ],
+      "description": "两只白色线条小鸟贴纸，作为独立装饰保留。",
+      "label": "两只白色线条小鸟贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        128,
+        864,
+        448
+      ],
+      "description": "右上角的白色线条闪光和笑脸装饰，作为独立装饰保留。",
+      "label": "右上角的白色线条闪光和笑脸装饰，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clapper",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        794,
+        816,
+        870
+      ],
+      "description": "右上角的白色线条拍板装饰，作为独立装饰保留。",
+      "label": "右上角的白色线条拍板装饰，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_coffee",
+      "kind": "text",
+      "bbox": [
+        192,
+        77,
+        384,
+        115
+      ],
+      "description": "coffee",
+      "label": "coffee",
+      "method": "local",
+      "text": "coffee",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        336,
+        614,
+        720,
+        678
+      ],
+      "description": "不管何时，生活的目标是健康和快乐",
+      "label": "不管何时，生活的目标是健康和快乐",
+      "method": "local",
+      "text": "不管何时，生活的目标是健康和快乐",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_music",
+      "kind": "text",
+      "bbox": [
+        96,
+        998,
+        336,
+        1088
+      ],
+      "description": "♪ ♪ ♪ ♪ ♪",
+      "label": "♪ ♪ ♪ ♪ ♪",
+      "method": "local",
+      "text": "♪ ♪ ♪ ♪ ♪",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_wind",
+      "kind": "text",
+      "bbox": [
+        480,
+        1178,
+        768,
+        1216
+      ],
+      "description": "去有风的地方",
+      "label": "去有风的地方",
+      "method": "local",
+      "text": "去有风的地方",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_coffee",
+    "photo_landscape",
+    "overlay_star",
+    "overlay_cup",
+    "overlay_birds",
+    "overlay_sparkles",
+    "overlay_clapper",
+    "text_coffee",
+    "text_quote",
+    "text_music",
+    "text_wind"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-ea8ccc46-da47-913f-836a-99e88eed1a04",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8248,
+    "completion_tokens": 1301,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1301
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的镜面自拍摄影底图，画面主体为一名身穿黑白拼接裙装的女子在电梯内对着镜子拍照，背景包含金属门框、花纹地毯及室内灯光。该照片覆盖整个画布，作为所有装饰元素的底层环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_ui_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        107,\n        23,\n        895,\n        67\n      ],\n      \"description\": \"位于顶部的白色相机界面图标组，包括左侧关闭叉号、中间闪光灯符号和右侧省略号圆圈。\"\n    },\n    {\n      \"id\": \"text_korean_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        84,\n        183,\n        365,\n        216\n      ],\n      \"text\": \"너와 함께.ɔ\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_symbols_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        237,\n        262,\n        357,\n        295\n      ],\n      \"text\": \"-',♡,'-\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_heart_tr\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        688,\n        113,\n        935,\n        340\n      ],\n      \"description\": \"右上角的心形窗口照片，显示一名女子坐在户外台阶上，周围有白色虚线描边效果。\"\n    },\n    {\n      \"id\": \"overlay_sticker_im_me_tr\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        885,\n        203,\n        965,\n        270\n      ],\n      \"description\": \"位于右上心形照片旁的“I ME”贴纸，带有粉色爱心图案。\"\n    },\n    {\n      \"id\": \"overlay_sticker_im_me_center\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        405,\n        265,\n        605,\n        415\n      ],\n      \"description\": \"位于画面中央遮挡人物面部的圆形“I ME”贴纸，具有明显的白色发光边缘。\"\n    },\n    {\n      \"id\": \"overlay_ui_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        40,\n        340,\n        110,\n        600\n      ],\n      \"description\": \"左侧垂直排列的白色相机界面图标，包括Aa字体、空心爱心、九宫格和向下箭头。\"\n    },\n    {\n      \"id\": \"photo_heart_bl\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        107,\n        595,\n        355,\n        790\n      ],\n      \"description\": \"左下角的心形窗口照片，显示一名女子抱着一只猫，周围有白色虚线描边效果。\"\n    },\n    {\n      \"id\": \"overlay_sticker_im_me_bl\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        65,\n        705,\n        165,\n        785\n      ],\n      \"description\": \"位于左下照片旁的“I ME”贴纸，带有粉色爱心图案。\"\n    },\n    {\n      \"id\": \"overlay_text_box_br\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        678,\n        595,\n        925,\n        725\n      ],\n      \"description\": \"右下角的半透明白色矩形文本框，内部包含韩文诗句排版。\"\n    },\n    {\n      \"id\": \"overlay_ui_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        140,\n        830,\n        860,\n        980\n      ],\n      \"description\": \"底部的相机操作界面，包含模式选择文字（SLO-MO, VIDEO, PHOTO等）、快门按钮及切换摄像头图标。\"\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        210,\n        80,\n        930,\n        780\n      ],\n      \"description\": \"散布在画面各处的白色五角星装饰元素。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_ui_top\",\n    \"text_korean_1\",\n    \"text_symbols_1\",\n    \"photo_heart_tr\",\n    \"overlay_sticker_im_me_tr\",\n    \"overlay_sticker_im_me_center\",\n    \"overlay_ui_left\",\n    \"photo_heart_bl\",\n    \"overlay_sticker_im_me_bl\",\n    \"overlay_text_box_br\",\n    \"overlay_ui_bottom\",\n    \"overlay_stars\"\n  ]\n}",
+  "tool_calls": false
+}

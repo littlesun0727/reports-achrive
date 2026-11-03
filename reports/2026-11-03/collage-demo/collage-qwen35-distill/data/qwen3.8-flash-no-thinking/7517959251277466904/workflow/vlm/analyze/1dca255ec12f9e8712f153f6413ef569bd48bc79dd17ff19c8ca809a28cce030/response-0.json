@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-155a92fc-425f-9496-963a-1881bab3118a",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 8160,
+    "completion_tokens": 1241,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1038,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1241
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的摄影底图，画面为模糊的浅蓝色海水与天空背景，延伸至画布四边。上层三张独立照片和装饰遮挡了局部，但底层环境连续且完整覆盖全幅。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        107,\n        25,\n        253,\n        128\n      ],\n      \"description\": \"白色手绘海星线条图案，位于左上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_paperclip_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        436,\n        46,\n        539,\n        96\n      ],\n      \"description\": \"银色回形针图案，位于顶部中间，部分压在上方照片边缘上。\"\n    },\n    {\n      \"id\": \"overlay_star_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        857,\n        163,\n        936,\n        220\n      ],\n      \"description\": \"白色手绘海星线条图案，位于右上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        188,\n        73,\n        825,\n        341\n      ],\n      \"description\": \"上方矩形照片，显示一位戴草帽的女性在海边，背景有蓝天、白云和海面，人物姿态自然。\"\n    },\n    {\n      \"id\": \"text_island\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        71,\n        398,\n        225,\n        431\n      ],\n      \"text\": \"Island\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": true\n    },\n    {\n      \"id\": \"overlay_star_small\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        232,\n        398,\n        278,\n      431\n      ],\n      \"description\": \"小型白色手绘海星图案，紧邻文字右侧，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        185,\n        364,\n        820,\n        634\n      ],\n      \"description\": \"中间矩形照片，特写一只手托着多个贝壳，背景为沙滩，光影清晰。\"\n    },\n    {\n      \"id\": \"text_sunsea\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        620,\n        560,\n        936,\n      592\n      ],\n      \"text\": \"Sun sea serenity.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_star_mid_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        825,\n        451,\n        882,\n        496\n      ],\n      \"description\": \"白色手绘海星线条图案，位于中间照片右侧空白处。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        188,\n        664,\n        820,\n        928\n      ],\n      \"description\": \"下方矩形照片，显示同一位戴草帽女性在清澈水面前微笑，阳光洒在脸上形成光斑。\"\n    },\n    {\n      \"id\": \"overlay_fish\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        738,\n        788,\n        892,\n        836\n      ],\n      \"description\": \"白色手绘鱼形线条图案，位于底部照片右下角区域。\"\n    },\n    {\n      \"id\": \"overlay_star_bottom_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        92,\n        793,\n        156,\n        841\n      ],\n      \"description\": \"白色手绘海星线条图案，位于左下角，靠近底部照片左侧。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_middle\",\n    \"photo_bottom\",\n    \"overlay_star_top_left\",\n    \"overlay_paperclip_top\",\n    \"overlay_star_right\",\n    \"text_island\",\n    \"overlay_star_small\",\n    \"text_sunsea\",\n    \"overlay_star_mid_right\",\n    \"overlay_fish\",\n    \"overlay_star_bottom_left\"\n  ]\n}",
+  "tool_calls": false
+}

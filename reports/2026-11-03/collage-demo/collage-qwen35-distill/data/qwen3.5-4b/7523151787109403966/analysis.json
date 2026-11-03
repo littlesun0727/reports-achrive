@@ -1,0 +1,254 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内摄影底图，包含白色墙壁、左侧门框及自然光环境，主体为站立人物，完整显示区域延伸至画布四边；上层贴纸、文字和照片遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内摄影底图，包含白色墙壁、左侧门框及自然光环境，主体为站立",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_thought",
+      "kind": "photo",
+      "bbox": [
+        164,
+        110,
+        310,
+        322
+      ],
+      "description": "位于左上角思考气泡内的独立人物面部照片，保留人物面部及背景，边缘有气泡轮廓遮挡。",
+      "label": "位于左上角思考气泡内的独立人物面部照片，保留人物面部及背景，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        107,
+        400,
+        366
+      ],
+      "description": "黑色手绘风格思考气泡轮廓，包含内部小圆圈，覆盖在照片_thought 上方。",
+      "label": "黑色手绘风格思考气泡轮廓，包含内部小圆圈，覆盖在照片_tho",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_1",
+      "kind": "overlay",
+      "bbox": [
+        114,
+        772,
+        162,
+        826
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面左侧中部。",
+      "label": "粉色手绘爱心贴纸，位于画面左侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        455,
+        209,
+        506
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面左上区域。",
+      "label": "粉色手绘爱心贴纸，位于画面左上区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_3",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        457,
+        808,
+        521
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面右侧中部。",
+      "label": "粉色手绘爱心贴纸，位于画面右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_4",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        1062,
+        760,
+        1106
+      ],
+      "description": "粉色手绘爱心贴纸，位于画面右下角。",
+      "label": "粉色手绘爱心贴纸，位于画面右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_1",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        972,
+        229,
+        1135
+      ],
+      "description": "左下角方形贴纸，包含手绘兔子图案及粉色爱心装饰。",
+      "label": "左下角方形贴纸，包含手绘兔子图案及粉色爱心装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_2",
+      "kind": "overlay",
+      "bbox": [
+        673,
+        151,
+        837,
+        314
+      ],
+      "description": "右上角方形贴纸，包含手绘兔子图案及星星装饰。",
+      "label": "右上角方形贴纸，包含手绘兔子图案及星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        302,
+        170,
+        328,
+        198
+      ],
+      "description": "I",
+      "label": "I",
+      "method": "local",
+      "text": "I",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        302,
+        202,
+        328,
+        228
+      ],
+      "description": "I",
+      "label": "I",
+      "method": "local",
+      "text": "I",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        302,
+        230,
+        328,
+        258
+      ],
+      "description": "I",
+      "label": "I",
+      "method": "local",
+      "text": "I",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        302,
+        258,
+        328,
+        286
+      ],
+      "description": "I",
+      "label": "I",
+      "method": "local",
+      "text": "I",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        302,
+        286,
+        328,
+        313
+      ],
+      "description": "I",
+      "label": "I",
+      "method": "local",
+      "text": "I",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_thought",
+    "overlay_bubble",
+    "overlay_heart_1",
+    "overlay_heart_2",
+    "overlay_heart_3",
+    "overlay_heart_4",
+    "overlay_rabbit_1",
+    "overlay_rabbit_2",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5"
+  ]
+}

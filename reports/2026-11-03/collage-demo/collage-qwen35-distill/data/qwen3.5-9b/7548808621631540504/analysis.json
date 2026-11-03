@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内木质墙面与置物架的连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内木质墙面与置物架的连续摄影底图，完整显示区域延伸至画布四",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        104,
+        206,
+        419,
+        626
+      ],
+      "description": "左上咖啡桌照片，桌上有玩偶、蛋糕、咖啡和书本，保留摄影环境，显示区域为矩形。",
+      "label": "左上咖啡桌照片，桌上有玩偶、蛋糕、咖啡和书本，保留摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        481,
+        300,
+        841,
+        588
+      ],
+      "description": "右上蛋糕盘照片，盘中放有蛋糕和玩偶，保留摄影环境，显示区域为矩形。",
+      "label": "右上蛋糕盘照片，盘中放有蛋糕和玩偶，保留摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        68,
+        691,
+        473,
+        919
+      ],
+      "description": "左下蘑菇摆件照片，木板上摆放蘑菇模型，保留摄影环境，显示区域为矩形。",
+      "label": "左下蘑菇摆件照片，木板上摆放蘑菇模型，保留摄影环境，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        509,
+        751,
+        824,
+        1087
+      ],
+      "description": "右下玩偶托盘照片，托盘中放有玩偶，保留摄影环境，显示区域为矩形。",
+      "label": "右下玩偶托盘照片，托盘中放有玩偶，保留摄影环境，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        127,
+        383,
+        211
+      ],
+      "description": "顶部发光文字贴纸，内容为 'Boba'，作为独立固定装饰保留。",
+      "label": "顶部发光文字贴纸，内容为 'Boba'，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        595,
+        338,
+        679
+      ],
+      "description": "左侧发光文字贴纸，内容为 'of coffee?'，作为独立固定装饰保留。",
+      "label": "左侧发光文字贴纸，内容为 'of coffee?'，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        631,
+        851,
+        715
+      ],
+      "description": "右侧手写文字贴纸，内容为 '这一刻最好'，作为独立固定装饰保留。",
+      "label": "右侧手写文字贴纸，内容为 '这一刻最好'，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        931,
+        437,
+        1063
+      ],
+      "description": "底部云朵形状文字贴纸，内容为 'you drew stars around my scars'，作为独立固定装饰保留。",
+      "label": "底部云朵形状文字贴纸，内容为 'you drew stars",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_dots",
+    "description": "覆盖全画布的灰色底图，均匀散布错列的白色圆点，四周及三张照片之间连续可见。保留灰底、圆点及其柔和边缘；照片和独立贴纸不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        125,
+        27,
+        874,
+        305
+      ],
+      "description": "上方横向矩形照片，一名黑色长发女子穿深蓝碎花上衣，坐在木桌前，单手托在脸侧，噘嘴望向右侧。保留窗户、音箱、木柜、椅子及前景青柠饮料等完整摄影环境。四边清晰，右上局部被白色猫脸贴纸遮挡。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        131,
+        328,
+        869,
+        602
+      ],
+      "description": "中间横向矩形照片，一名黑色长发女子侧伏在木桌上，面向镜头张嘴，一手握叉，另一手靠近领口。保留木椅、柜体、地面、桌面上的点心盘和右侧青柠饮料。取景与上下照片独立，边缘清晰，左上角被创可贴装饰局部遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        131,
+        635,
+        869,
+        910
+      ],
+      "description": "下方横向矩形照片，一名黑色长发女子坐在桌前微笑，双手在眼前比出心形。保留身后的窗户、音箱、木柜、椅子及桌前饮料和点心等摄影环境。四边清晰，右下局部被白色卡通贴纸遮挡。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        729,
+        0,
+        936,
+        100
+      ],
+      "description": "右上方白色猫耳小包状贴纸，带黑色夸张笑脸、卷曲腮部线条及右侧拉链细节，保留立体材质、灰色轮廓和阴影。顶部贴近画布边缘，下部覆盖上方照片。"
+    },
+    {
+      "id": "overlay_bandage",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        298,
+        267,
+        380
+      ],
+      "description": "左侧向右上倾斜的灰色创可贴装饰，圆头长条上有孔点、双线边框和中央破碎爱心图案，整体保留纹理与阴影，跨越灰底并遮挡中间照片左上角。"
+    },
+    {
+      "id": "overlay_character",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        845,
+        980,
+        962
+      ],
+      "description": "右下角白色圆头卡通角色贴纸，带灰色短线眼睛、小嘴、粉色腮红，头顶有粉色长条及白色承托边，底部为短小身体与脚。作为完整装饰保留，覆盖下方照片右下角并延伸到灰色底图。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_cat",
+    "overlay_bandage",
+    "overlay_character"
+  ]
+}

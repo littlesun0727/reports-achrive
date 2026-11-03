@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "蓝色天空背景，带有数条黑色电线斜向穿过画面，构成连续摄影底图，完整显示区域延伸至画布四边；右侧照片遮挡局部天空与电线，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝色天空背景，带有数条黑色电线斜向穿过画面，构成连续摄影底图",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_balloon",
+      "kind": "photo",
+      "bbox": [
+        498,
+        415,
+        818,
+        892
+      ],
+      "description": "粉色带黄色星星图案的气球照片，下方有一只手握着气球绳，背景为黄白蓝三色拼接墙面，显示区域为矩形。",
+      "label": "粉色带黄色星星图案的气球照片，下方有一只手握着气球绳，背景为",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        569,
+        389,
+        761,
+        451
+      ],
+      "description": "透明胶带，贴在照片左上角，作为独立固定装饰保留。",
+      "label": "透明胶带，贴在照片左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        43,
+        29,
+        506,
+        1135
+      ],
+      "description": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "label": "My\nLife\nis\nOrdinary\nbut Shinin",
+      "method": "local",
+      "text": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_balloon",
+    "overlay_tape",
+    "text_1"
+  ]
+}

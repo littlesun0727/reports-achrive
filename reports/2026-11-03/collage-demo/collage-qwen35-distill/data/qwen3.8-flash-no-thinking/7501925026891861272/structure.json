@@ -1,0 +1,205 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅黄色波点纹理纸底，四周及照片间隙保留相同图案；照片独立替换，固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        326,
+        40,
+        675,
+        219
+      ],
+      "description": "上方人物近景照片，人物微笑，保留身后的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_cookies",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        16,
+        385,
+        62
+      ],
+      "description": "左上角两枚饼干贴纸，叠在照片边缘和背景上。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        16,
+        685,
+        72
+      ],
+      "description": "右上角两枚星星贴纸，位于照片上方。"
+    },
+    {
+      "id": "overlay_bear_1",
+      "kind": "overlay",
+      "bbox": [
+        275,
+        146,
+        425,
+        245
+      ],
+      "description": "左侧轻松熊玩偶与面包组合贴纸，部分遮挡第一张照片左下角。"
+    },
+    {
+      "id": "photo_mid_1",
+      "kind": "photo",
+      "bbox": [
+        326,
+        269,
+        675,
+        438
+      ],
+      "description": "中间偏上人物近景照片，人物眼神向左，保留身后环境。"
+    },
+    {
+      "id": "overlay_bow_1",
+      "kind": "overlay",
+      "bbox": [
+        615,
+        239,
+        725,
+        305
+      ],
+      "description": "右侧蝴蝶结贴纸，位于第二张照片右上角。"
+    },
+    {
+      "id": "overlay_bow_2",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        343,
+        355,
+        403
+      ],
+      "description": "左侧蝴蝶结贴纸，位于第二张照片左边缘。"
+    },
+    {
+      "id": "overlay_toast",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        403,
+        605,
+        478
+      ],
+      "description": "吐司造型轻松熊贴纸，遮挡第二张照片右下角。"
+    },
+    {
+      "id": "overlay_label_1",
+      "kind": "overlay",
+      "bbox": [
+        605,
+        433,
+        715,
+        458
+      ],
+      "description": "带有韩文文字的米色标签贴纸，位于吐司右侧。"
+    },
+    {
+      "id": "photo_mid_2",
+      "kind": "photo",
+      "bbox": [
+        326,
+        488,
+        675,
+        668
+      ],
+      "description": "中间偏下人物近景照片，人物张嘴表情，保留身后环境。"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        275,
+        508,
+        345,
+        593
+      ],
+      "description": "咖啡杯贴纸，位于第三张照片左侧。"
+    },
+    {
+      "id": "overlay_glasses_bear",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        573,
+        695,
+        678
+      ],
+      "description": "戴眼镜的轻松熊贴纸，遮挡第三张照片右下角。"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        693,
+        485,
+        733
+      ],
+      "description": "带有日文文字的对话气泡贴纸，位于第四张照片上方。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        326,
+        703,
+        675,
+        888
+      ],
+      "description": "下方人物近景照片，人物抿嘴表情，保留身后环境。"
+    },
+    {
+      "id": "overlay_heads",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        773,
+        335,
+        868
+      ],
+      "description": "三个垂直排列的小熊头贴纸，位于最下方照片左侧。"
+    },
+    {
+      "id": "overlay_lie_down",
+      "kind": "overlay",
+      "bbox": [
+        465,
+        818,
+        695,
+        913
+      ],
+      "description": "趴着的轻松熊贴纸，遮挡最下方照片底部。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "overlay_cookies",
+    "overlay_stars",
+    "overlay_bear_1",
+    "photo_mid_1",
+    "overlay_bow_1",
+    "overlay_bow_2",
+    "overlay_toast",
+    "overlay_label_1",
+    "photo_mid_2",
+    "overlay_coffee",
+    "overlay_glasses_bear",
+    "overlay_speech",
+    "photo_bottom",
+    "overlay_heads",
+    "overlay_lie_down"
+  ]
+}

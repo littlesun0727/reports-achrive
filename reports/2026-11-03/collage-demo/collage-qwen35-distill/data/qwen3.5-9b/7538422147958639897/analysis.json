@@ -1,0 +1,152 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "pink_star_bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "粉色渐变底图，带有白色蕾丝花边顶部和底部边框，背景布满粉色星星图案。整体为固定设计底图，保留原样。",
+      "background_type": "reference_clean",
+      "label": "粉色渐变底图，带有白色蕾丝花边顶部和底部边框，背景布满粉色星",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        90,
+        180,
+        810,
+        1140
+      ],
+      "description": "中心人物照片，女性扎双麻花辫，佩戴红色蝴蝶结发饰和项链，手持粉色物品，面带微笑。保留摄影环境，显示区域为不规则形状，被周围装饰部分遮挡。",
+      "label": "中心人物照片，女性扎双麻花辫，佩戴红色蝴蝶结发饰和项链，手持",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        675,
+        180,
+        855,
+        300
+      ],
+      "description": "右上角小照片，人物眼部特写，带有红色边框。",
+      "label": "右上角小照片，人物眼部特写，带有红色边框。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_1",
+      "kind": "photo",
+      "bbox": [
+        45,
+        780,
+        270,
+        960
+      ],
+      "description": "左下角第一张小照片，人物手持圆形物品，带有红色边框。",
+      "label": "左下角第一张小照片，人物手持圆形物品，带有红色边框。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_2",
+      "kind": "photo",
+      "bbox": [
+        45,
+        900,
+        270,
+        1080
+      ],
+      "description": "左下角第二张小照片，人物手持手机，带有红色边框。",
+      "label": "左下角第二张小照片，人物手持手机，带有红色边框。",
+      "method": "local"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        27,
+        60,
+        270,
+        180
+      ],
+      "description": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "label": "LOVE\nMy favorite\nWon yeong Jan",
+      "method": "local",
+      "text": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF0000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_won",
+      "kind": "text",
+      "bbox": [
+        27,
+        300,
+        855,
+        480
+      ],
+      "description": "WO\nNG",
+      "label": "WO\nNG",
+      "method": "local",
+      "text": "WO\nNG",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF0000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_you",
+      "kind": "text",
+      "bbox": [
+        675,
+        900,
+        855,
+        1020
+      ],
+      "description": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "label": "YOU\nMy favorite\nWon yeong Jang",
+      "method": "local",
+      "text": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF0000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "pink_star_bg",
+    "photo_main",
+    "photo_top_right",
+    "photo_bottom_left_1",
+    "photo_bottom_left_2",
+    "text_love",
+    "text_won",
+    "text_you"
+  ]
+}

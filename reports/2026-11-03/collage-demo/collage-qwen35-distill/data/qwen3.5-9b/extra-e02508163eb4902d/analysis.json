@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "广阔的绿色草原、远处的山脉和蓝天白云构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "广阔的绿色草原、远处的山脉和蓝天白云构成连续摄影底图，完整显",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        362,
+        177,
+        1008,
+        605
+      ],
+      "description": "上方人物远景照片，人物站在山坡上，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方人物远景照片，人物站在山坡上，保留照片内的摄影环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        91,
+        536,
+        407,
+        1017
+      ],
+      "description": "左侧人物背影照片，人物在草地上行走，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左侧人物背影照片，人物在草地上行走，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        607,
+        765,
+        903,
+        1212
+      ],
+      "description": "右侧人物近景照片，人物趴在木栅栏上，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右侧人物近景照片，人物趴在木栅栏上，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        605,
+        616,
+        765
+      ],
+      "description": "白色手绘箭头，从左侧照片指向右侧照片，作为独立固定装饰保留。",
+      "label": "白色手绘箭头，从左侧照片指向右侧照片，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        648,
+        454,
+        710
+      ],
+      "description": "蓝色手绘星星，位于箭头起点，作为独立固定装饰保留。",
+      "label": "蓝色手绘星星，位于箭头起点，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        121,
+        515,
+        216
+      ],
+      "description": "三颗黄色手绘星星，位于画布左上角，作为独立固定装饰保留。",
+      "label": "三颗黄色手绘星星，位于画布左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_left",
+    "photo_right",
+    "overlay_arrow",
+    "overlay_star",
+    "overlay_stars"
+  ]
+}

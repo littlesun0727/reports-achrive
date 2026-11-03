@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_dots",
+    "description": "全画布为深棕色底与规则排列的柔边白色圆点，四边及各照片间隙连续可见；保留底色、圆点及其轻微模糊质感，独立照片和贴纸不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_table",
+      "kind": "photo",
+      "bbox": [
+        459,
+        106,
+        899,
+        543
+      ],
+      "description": "右上竖向照片，俯拍咖啡店圆木桌，桌上有外带咖啡杯、手机、玩偶挂件与平板，周围可见地砖、绿色座椅和下方黑色笑脸图案包。保留完整摄影环境，窗口外沿附有浅桃粉色毛糙描边；左上被胶带覆盖，左侧被对话气泡遮挡，右下被苹果贴纸遮挡。"
+    },
+    {
+      "id": "photo_shop",
+      "kind": "photo",
+      "bbox": [
+        59,
+        357,
+        418,
+        713
+      ],
+      "description": "左侧竖向照片，一只佩戴手链的手从左下伸入，拿着透明包装中的粉色兔子玩偶，背景为摆满玩偶和挂件的店铺货架。保留摄影环境，四周附浅桃粉色毛糙描边，上部被蛋糕贴纸和对话气泡局部遮挡。"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        447,
+        626,
+        951,
+        915
+      ],
+      "description": "右下横向照片，俯拍桌上的绿色拉花饮品、格纹杯垫、餐叉及彩色圆点盘中的草莓奶油蛋糕，无人物。保留桌面与完整摄影环境，四周附浅桃粉色毛糙描边，左下边缘被音符装饰遮挡。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        33,
+        650,
+        205
+      ],
+      "description": "向右上倾斜的半透明灰绿色胶带，带密集浅青色圆点，完整保留斜切边界与透出下方底图及照片的效果，覆盖右上照片左上角。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        164,
+        337,
+        231
+      ],
+      "description": "灰色矩形圆点标签，内有粉色特殊字形“Love theme”，文字的浅色轮廓、细节纹理及标签底板整体保留。"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        334,
+        251,
+        571,
+        413
+      ],
+      "description": "浅灰色白圆点像素阶梯边对话气泡，下方带突出尾部，内含黑色星星与“보고 싶어요...ㅠㅠ”字样；气泡、文字和图案作为完整贴纸保留，覆盖两张照片的相邻区域。"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        292,
+        165,
+        406
+      ],
+      "description": "白底红色细圆点方形贴纸，包含草莓奶油切片蛋糕图案及黑色“TvT”字样，整体保留，覆盖左侧照片左上角。"
+    },
+    {
+      "id": "overlay_apple",
+      "kind": "overlay",
+      "bbox": [
+        811,
+        469,
+        934,
+        567
+      ],
+      "description": "红色像素风苹果贴纸，含绿色叶片、深色像素阴影、白色高光和粗白色外轮廓，覆盖右上照片右下边缘。"
+    },
+    {
+      "id": "overlay_emoticon",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        558,
+        677,
+        620
+      ],
+      "description": "绿色颜文字装饰，周围为不规则白色云团状底及柔和发光边缘，整体位于两张右侧照片之间。"
+    },
+    {
+      "id": "overlay_pink_label",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        742,
+        416,
+        799
+      ],
+      "description": "浅粉色圆角长标签，带细小白色圆点纹理，左侧白色圆形内有黑色勾号，中部有星号、中文“等待幸福的来临”及颜文字小字；底板、文字和图标整体保留。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        366,
+        851,
+        548,
+        955
+      ],
+      "description": "深红色双音符装饰，表面布满白色小圆点，整体倾斜，含两个音符头和相连横梁，覆盖右下照片左下边缘并延伸到棕色底图上。"
+    }
+  ],
+  "layer_order": [
+    "photo_table",
+    "photo_shop",
+    "photo_dessert",
+    "overlay_tape",
+    "overlay_title",
+    "overlay_speech",
+    "overlay_cake",
+    "overlay_apple",
+    "overlay_emoticon",
+    "overlay_pink_label",
+    "overlay_music"
+  ]
+}

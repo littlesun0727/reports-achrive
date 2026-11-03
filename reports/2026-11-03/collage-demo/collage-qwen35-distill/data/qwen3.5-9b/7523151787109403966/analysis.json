@@ -1,0 +1,125 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内摄影底图，一位年轻女性站在白色墙壁前，身穿白色带图案的T恤，头发扎起。画面左侧可见窗户和室外光线。主体人物及环境构成连续摄影画面，完整显示区域延伸至画布四边；上层贴纸和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内摄影底图，一位年轻女性站在白色墙壁前，身穿白色带图案的T",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_thought",
+      "kind": "photo",
+      "bbox": [
+        148,
+        144,
+        297,
+        336
+      ],
+      "description": "左上角思维气泡内的照片，显示一位年轻女性的面部特写，表情略带俏皮。照片被手绘风格的云朵状气泡框包围，气泡边缘为黑色线条。",
+      "label": "左上角思维气泡内的照片，显示一位年轻女性的面部特写，表情略带",
+      "method": "local"
+    },
+    {
+      "id": "overlay_rabbit_top",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        126,
+        824,
+        312
+      ],
+      "description": "右上角的方形贴纸，内含一只卡通兔子图案，兔子表情可爱，周围有简单的装饰线条。贴纸背景为白色，边缘清晰。",
+      "label": "右上角的方形贴纸，内含一只卡通兔子图案，兔子表情可爱，周围有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_bottom",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        972,
+        212,
+        1158
+      ],
+      "description": "左下角的方形贴纸，内含一只卡通兔子图案，兔子表情活泼，周围有粉色爱心装饰。贴纸背景为白色，边缘清晰。",
+      "label": "左下角的方形贴纸，内含一只卡通兔子图案，兔子表情活泼，周围有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_1",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        456,
+        189,
+        510
+      ],
+      "description": "左侧中部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "label": "左侧中部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        456,
+        778,
+        510
+      ],
+      "description": "右侧中部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "label": "右侧中部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_3",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        768,
+        148,
+        822
+      ],
+      "description": "左侧下部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "label": "左侧下部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_4",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        1056,
+        778,
+        1110
+      ],
+      "description": "右侧下部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "label": "右侧下部的粉色手绘爱心，线条简洁，颜色柔和。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_thought",
+    "overlay_rabbit_top",
+    "overlay_rabbit_bottom",
+    "overlay_heart_1",
+    "overlay_heart_2",
+    "overlay_heart_3",
+    "overlay_heart_4"
+  ]
+}

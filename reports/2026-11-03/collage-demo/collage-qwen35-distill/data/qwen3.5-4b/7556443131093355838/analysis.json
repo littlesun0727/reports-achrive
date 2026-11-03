@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1599
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1599
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        480
+      ],
+      "description": "人物双手合十许愿，面前有草莓蛋糕，保留室内环境。",
+      "label": "人物双手合十许愿，面前有草莓蛋糕，保留室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        959,
+        900,
+        1599
+      ],
+      "description": "人物手持草莓蛋糕，保留室内环境。",
+      "label": "人物手持草莓蛋糕，保留室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        480,
+        900,
+        959
+      ],
+      "description": "带有纹理的米色底板，上面印有黑色文字。",
+      "label": "带有纹理的米色底板，上面印有黑色文字。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        18,
+        720,
+        882,
+        879
+      ],
+      "description": "Happy birthday.",
+      "label": "Happy birthday.",
+      "method": "local",
+      "text": "Happy birthday.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_text",
+    "text_1"
+  ]
+}

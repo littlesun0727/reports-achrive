@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "star_background",
+    "description": "白色底上均匀散布浅粉色五角星，图案连续覆盖画布四边及照片间隙。保留完整星星底纹，照片、贴纸和文字标签均为独立上层对象。"
+  },
+  "objects": [
+    {
+      "id": "candy_sticker",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        64,
+        182,
+        131
+      ],
+      "description": "左上角倾斜的粉色糖果贴纸，含两端糖纸、白色圆点、笑脸及柔和边缘，作为完整装饰保留。"
+    },
+    {
+      "id": "small_label",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        123,
+        307,
+        158
+      ],
+      "description": "浅粉底黑色波浪细框标签，内部有韩文“정신 체리”和两侧黑色小图案，底板、文字及边框整体保留。"
+    },
+    {
+      "id": "cat_sticker",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        173,
+        247,
+        379
+      ],
+      "description": "左侧白色小猫玩偶装饰，正面站立，穿粉色连体服和白色蕾丝领，保留完整耳朵、四肢及柔淡边缘。"
+    },
+    {
+      "id": "photo_blossoms",
+      "kind": "photo",
+      "bbox": [
+        344,
+        127,
+        937,
+        450
+      ],
+      "description": "右上横向矩形照片，无人物，近处垂落的浅粉樱花与交错树干遮挡后方深色木建筑。保留完整摄影环境，四边清晰，左下局部被甜点照片遮挡，右下有标签贴纸叠压。"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        50,
+        404,
+        473,
+        712
+      ],
+      "description": "左侧矩形甜点照片，俯斜视角拍摄托盘里的白色餐盘、方形蛋糕、奶油与草莓，后方有白色奶壶及餐具。保留桌面和全部摄影环境，边界清晰，右下角被人物照片遮挡。"
+    },
+    {
+      "id": "hanging_tags",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        410,
+        998,
+        495
+      ],
+      "description": "樱花照片右下侧的叠放吊牌装饰，含白色与粉色纸牌、粉色蝴蝶结图案、细小印字及上方弯曲细绳，整体保留。"
+    },
+    {
+      "id": "main_label",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        486,
+        816,
+        541
+      ],
+      "description": "浅粉色横向矩形文字标签，黑色手写韩文“우린 서로 기대있어”，文字与粉色载体整体保留。"
+    },
+    {
+      "id": "secondary_label",
+      "kind": "overlay",
+      "bbox": [
+        534,
+        554,
+        782,
+        602
+      ],
+      "description": "较小的浅粉色横向矩形标签，带黑色手写韩文“나는 오늘의 슈퍼스타”，文字与底板作为完整装饰保留。"
+    },
+    {
+      "id": "coffee_sticker",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        532,
+        980,
+        689
+      ],
+      "description": "右侧两只相互叠靠的粉色外带咖啡杯贴纸，含米白色杯盖、杯身黑色印字、下方粉色承托纸片及阴影，整体保留。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        429,
+        642,
+        808,
+        926
+      ],
+      "description": "右下矩形室内人物照片，一名长卷发有刘海的女性穿灰色长袖上衣，坐在椅上面向镜头，呈上半身景别。保留后方壁面、置物架及右侧桌面与杯子，摄影环境未去除，四边清晰。"
+    },
+    {
+      "id": "memo_sticker",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        747,
+        393,
+        927
+      ],
+      "description": "左下倾斜的浅粉横线便笺，左上夹着细长金属回形针。纸上黑色手写韩文分两行“가장 큰 행복은 작은\n행복들의 연속이다.”，纸边、横线、文字与回形针整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_blossoms",
+    "photo_dessert",
+    "photo_portrait",
+    "candy_sticker",
+    "small_label",
+    "cat_sticker",
+    "hanging_tags",
+    "main_label",
+    "secondary_label",
+    "coffee_sticker",
+    "memo_sticker"
+  ]
+}

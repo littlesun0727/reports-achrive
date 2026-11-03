@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-9c298bd1c6fcfe53",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6863,
+    "total_tokens": 7697,
+    "completion_tokens": 834,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"木质墙面、地板、门框、挂钟、电话、花瓶与花束构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_upper_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        90,\n        92,\n        450,\n        485\n      ],\n      \"description\": \"左上人物侧卧照片，人物穿灰白拼接上衣，保留人物及身后的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_middle_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        415,\n        355,\n        940,\n        665\n      ],\n      \"description\": \"中间右侧人物吃苹果特写照片，保留人物面部及苹果，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_lower\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        150,\n        620,\n        865,\n        950\n      ],\n      \"description\": \"下方人物躺卧照片，人物穿灰白拼接上衣和蓝色短裤，保留人物及身后的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_lily\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        80,\n        495,\n        265,\n        695\n      ],\n      \"description\": \"橙色百合花，带水珠，作为独立固定装饰保留，位于左下照片左侧。\"\n    },\n    {\n      \"id\": \"overlay_star_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        450,\n        80,\n        550,\n        155\n      ],\n      \"description\": \"白色星形装饰，位于左上照片右上方。\"\n    },\n    {\n      \"id\": \"overlay_star_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        550,\n        240,\n        620,\n        295\n      ],\n      \"description\": \"白色星形装饰，位于中间电话右侧。\"\n    },\n    {\n      \"id\": \"overlay_star_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        760,\n        230,\n        830,\n        285\n      ],\n      \"description\": \"白色星形装饰，位于花瓶左侧。\"\n    },\n    {\n      \"id\": \"overlay_star_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        860,\n        320,\n        940,\n        400\n      ],\n      \"description\": \"白色星形装饰，位于中间照片右上方。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_upper_left\",\n    \"photo_middle_right\",\n    \"photo_lower\",\n    \"overlay_lily\",\n    \"overlay_star_1\",\n    \"overlay_star_2\",\n    \"overlay_star_3\",\n    \"overlay_star_4\"\n  ]\n}",
+  "tool_calls": false
+}

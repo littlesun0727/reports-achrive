@@ -1,0 +1,167 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的镜面自拍摄影底图，画面主体为一名身穿黑白拼接裙装的女子在电梯内对着镜子拍照，背景包含金属门框、花纹地毯及室内灯光。该照片覆盖整个画布，作为所有装饰元素的底层环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_ui_top",
+      "kind": "overlay",
+      "bbox": [
+        107,
+        23,
+        895,
+        67
+      ],
+      "description": "位于顶部的白色相机界面图标组，包括左侧关闭叉号、中间闪光灯符号和右侧省略号圆圈。"
+    },
+    {
+      "id": "text_korean_1",
+      "kind": "text",
+      "bbox": [
+        84,
+        183,
+        365,
+        216
+      ],
+      "text": "너와 함께.ɔ",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_symbols_1",
+      "kind": "text",
+      "bbox": [
+        237,
+        262,
+        357,
+        295
+      ],
+      "text": "-',♡,'-",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_heart_tr",
+      "kind": "photo",
+      "bbox": [
+        688,
+        113,
+        935,
+        340
+      ],
+      "description": "右上角的心形窗口照片，显示一名女子坐在户外台阶上，周围有白色虚线描边效果。"
+    },
+    {
+      "id": "overlay_sticker_im_me_tr",
+      "kind": "overlay",
+      "bbox": [
+        885,
+        203,
+        965,
+        270
+      ],
+      "description": "位于右上心形照片旁的“I ME”贴纸，带有粉色爱心图案。"
+    },
+    {
+      "id": "overlay_sticker_im_me_center",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        265,
+        605,
+        415
+      ],
+      "description": "位于画面中央遮挡人物面部的圆形“I ME”贴纸，具有明显的白色发光边缘。"
+    },
+    {
+      "id": "overlay_ui_left",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        340,
+        110,
+        600
+      ],
+      "description": "左侧垂直排列的白色相机界面图标，包括Aa字体、空心爱心、九宫格和向下箭头。"
+    },
+    {
+      "id": "photo_heart_bl",
+      "kind": "photo",
+      "bbox": [
+        107,
+        595,
+        355,
+        790
+      ],
+      "description": "左下角的心形窗口照片，显示一名女子抱着一只猫，周围有白色虚线描边效果。"
+    },
+    {
+      "id": "overlay_sticker_im_me_bl",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        705,
+        165,
+        785
+      ],
+      "description": "位于左下照片旁的“I ME”贴纸，带有粉色爱心图案。"
+    },
+    {
+      "id": "overlay_text_box_br",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        595,
+        925,
+        725
+      ],
+      "description": "右下角的半透明白色矩形文本框，内部包含韩文诗句排版。"
+    },
+    {
+      "id": "overlay_ui_bottom",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        830,
+        860,
+        980
+      ],
+      "description": "底部的相机操作界面，包含模式选择文字（SLO-MO, VIDEO, PHOTO等）、快门按钮及切换摄像头图标。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        80,
+        930,
+        780
+      ],
+      "description": "散布在画面各处的白色五角星装饰元素。"
+    }
+  ],
+  "layer_order": [
+    "overlay_ui_top",
+    "text_korean_1",
+    "text_symbols_1",
+    "photo_heart_tr",
+    "overlay_sticker_im_me_tr",
+    "overlay_sticker_im_me_center",
+    "overlay_ui_left",
+    "photo_heart_bl",
+    "overlay_sticker_im_me_bl",
+    "overlay_text_box_br",
+    "overlay_ui_bottom",
+    "overlay_stars"
+  ]
+}

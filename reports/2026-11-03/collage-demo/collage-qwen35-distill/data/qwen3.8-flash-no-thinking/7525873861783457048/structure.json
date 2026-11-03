@@ -1,0 +1,184 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "base_bg",
+    "description": "全画布底图由上下两部分固定背景组成：上半部分为纯蓝色，下半部分为绿色草地纹理。此背景不包含任何可替换的照片内容，作为整体保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        146,
+        305,
+        872,
+        740
+      ],
+      "description": "位于电脑窗口内的摄影照片，显示陶艺工作台场景。左侧可见多个装有颜料和画笔的容器，右侧人物穿着黑色围裙手持一个内部写有黄色文字的碗状物体。"
+    },
+    {
+      "id": "frame_window",
+      "kind": "frame",
+      "bbox": [
+        133,
+        185,
+        885,
+        810
+      ],
+      "description": "复古风格的“My Computer”应用程序窗口边框。包含顶部的标题栏（带图标、文字及控制按钮）、菜单栏（File Edit View Help）以及底部的状态栏（含进度条和心形图案）。该框体承载并遮挡了内部的摄影照片。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "overlay_cat_head",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        255,
+        605,
+        295
+      ],
+      "description": "白色像素风格的小猫头部贴纸，位于菜单栏右侧。"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        330,
+        595,
+        410
+      ],
+      "description": "带有粉色爱心图案的白色像素对话气泡，位于照片上方偏左位置。"
+    },
+    {
+      "id": "overlay_dialog_box",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        265,
+        955,
+        355
+      ],
+      "description": "小型对话框界面元素，标题为“hey girl”，正文为“he will not call”，下方有三个按钮：“iknow”、“cry”、“i do”。"
+    },
+    {
+      "id": "overlay_cursor",
+      "kind": "overlay",
+      "bbox": [
+        895,
+        340,
+        945,
+        395
+      ],
+      "description": "白色像素鼠标指针，指向对话框中的“i do”按钮。"
+    },
+    {
+      "id": "overlay_error_box",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        715,
+        245,
+        865
+      ],
+      "description": "“Error”错误提示弹窗，标题栏为深蓝色，主体显示大号文字“ALONE”和一个“OK”按钮。"
+    },
+    {
+      "id": "overlay_pixel_cat",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        660,
+        980,
+        845
+      ],
+      "description": "大型白色像素风格猫咪全身像，位于右下角，尾巴上翘。"
+    },
+    {
+      "id": "overlay_star_blue_1",
+      "kind": "overlay",
+      "bbox": [
+        915,
+        545,
+        965,
+        600
+      ],
+      "description": "蓝色五角星装饰，位于右侧中部。"
+    },
+    {
+      "id": "overlay_star_yellow",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        845,
+        745,
+        910
+      ],
+      "description": "黄色五角星装饰，带有白色描边，位于底部中间偏右。"
+    },
+    {
+      "id": "overlay_star_blue_2",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        875,
+        340,
+        945
+      ],
+      "description": "蓝色五角星装饰，位于左下角。"
+    },
+    {
+      "id": "text_hearts",
+      "kind": "text",
+      "bbox": [
+        310,
+        765,
+        410,
+        795
+      ],
+      "text": "♥♥♡",
+      "color": "#FF69B4",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "三个像素心形符号，前两个为实心粉色，第三个为空心轮廓，位于窗口底部状态栏内。"
+    },
+    {
+      "id": "text_timestamp",
+      "kind": "text",
+      "bbox": [
+        10,
+        940,
+        180,
+        990
+      ],
+      "text": "PM 10:25\nAUGUST. 07 1990",
+      "color": "#0000CD",
+      "font": "mono",
+      "align": "left",
+      "bold": true,
+      "italic": false,
+      "description": "左下角的时间戳文字，分两行排列，字体为等宽样式。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "frame_window",
+    "overlay_cat_head",
+    "overlay_speech_bubble",
+    "overlay_dialog_box",
+    "overlay_cursor",
+    "overlay_error_box",
+    "overlay_pixel_cat",
+    "overlay_star_blue_1",
+    "overlay_star_yellow",
+    "overlay_star_blue_2",
+    "text_hearts",
+    "text_timestamp"
+  ]
+}

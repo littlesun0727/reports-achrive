@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-971a9de6639c02a7",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7860,
+    "completion_tokens": 913,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"深色星空纹理底图，布满白色星点与暗色噪点，作为全画布背景承载所有独立对象；上层照片、文字与装饰遮挡局部，保留星空环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        153,\n        76,\n        498,\n        431\n      ],\n      \"description\": \"左上角街景照片，展示黄昏时分的街道、路灯、树木、公交车和汽车，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"photo_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        555,\n        231,\n        892,\n        486\n      ],\n      \"description\": \"右上角雨景照片，展示雨夜中的路灯、树叶和远处建筑，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"photo_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        83,\n        484,\n        419,\n        735\n      ],\n      \"description\": \"左下角窗景照片，展示雨夜中的窗户、窗台和窗外模糊的街景，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"photo_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        498,\n        535,\n        868,\n        903\n      ],\n      \"description\": \"右下角雨景照片，展示雨夜中的街道、路灯、树木和落叶，保留完整摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        120,\n        52,\n        942,\n        935\n      ],\n      \"description\": \"白色五角星装饰，散布于画布各处，部分覆盖照片边缘，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_leaves\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        28,\n        592,\n        785\n      ],\n      \"description\": \"棕色落叶装饰，散布于画布各处，部分覆盖照片边缘，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_circles\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        298,\n        315,\n        658,\n        615\n      ],\n      \"description\": \"白色手绘圆圈装饰，连接照片区域，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        68,\n        695,\n        405,\n        965\n      ],\n      \"text\": \"Happiness\\nIt may come and go\\nLike dust and rain\\nBe sure to\\nTreasure the time spent\\nBecause you'll never know\\nThe next time you'll feel it again\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_1\",\n    \"photo_2\",\n    \"photo_3\",\n    \"photo_4\",\n    \"overlay_stars\",\n    \"overlay_leaves\",\n    \"overlay_circles\",\n    \"text_1\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,179 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "灰蓝色天空与云层构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        107,
+        283,
+        267
+      ],
+      "description": "左上角小尺寸照片，展示夕阳下的街道、棕榈树和建筑，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        441,
+        55,
+        925,
+        522
+      ],
+      "description": "右上角竖向街景照片，展示黄昏时分的街道、行人和建筑，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        467,
+        513,
+        959
+      ],
+      "description": "左下角照片，展示黄昏时分的城市天际线、建筑和树木，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        467,
+        1000,
+        1000
+      ],
+      "description": "右下角照片，展示黄昏时分的街道、行人、摩托车和气球，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        53,
+        107,
+        283,
+        267
+      ],
+      "description": "围绕左上角小照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        441,
+        55,
+        925,
+        522
+      ],
+      "description": "围绕右上角竖向照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        53,
+        467,
+        513,
+        959
+      ],
+      "description": "围绕左下角照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_left"
+      ]
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        513,
+        467,
+        1000,
+        1000
+      ],
+      "description": "围绕右下角照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ]
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        12,
+        733,
+        84
+      ],
+      "description": "白色手绘回形针，压在右上角照片框的上沿，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_explosion",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        327,
+        303,
+        447
+      ],
+      "description": "白色手绘爆炸效果装饰，位于左上角照片下方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        53,
+        52,
+        409,
+        93
+      ],
+      "text": "Sunset sells tenderness,\nand the world is full of romance.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        823,
+        873,
+        973,
+        973
+      ],
+      "text": "此刻",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "frame_top_left",
+    "photo_top_right",
+    "frame_top_right",
+    "overlay_clip",
+    "photo_bottom_left",
+    "frame_bottom_left",
+    "photo_bottom_right",
+    "frame_bottom_right",
+    "overlay_explosion",
+    "text_1",
+    "text_2"
+  ]
+}

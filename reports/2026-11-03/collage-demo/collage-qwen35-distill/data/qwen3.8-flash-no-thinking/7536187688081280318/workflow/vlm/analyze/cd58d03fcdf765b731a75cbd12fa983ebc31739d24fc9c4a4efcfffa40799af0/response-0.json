@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-bb398eee-5afe-93d6-96c2-da5cc285b15f",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7941,
+    "completion_tokens": 882,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1178,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 882
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"全画布为带有密集水珠纹理的浅蓝色底图，模拟雨天玻璃或湿润表面的视觉效果。该固定设计单元覆盖整个画面，作为所有照片和装饰元素的背景层。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        125,\n        164,\n        560,\n        558\n      ],\n      \"description\": \"竖向矩形照片，显示一名女子躺在草地上，手持一朵粉色小花靠近脸部，背景为树林。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        337,\n        600,\n        970,\n        880\n      ],\n      \"description\": \"横向矩形照片，显示黄昏时分的海滩风景，远处有房屋和棕榈树剪影，近处有人群坐在沙滩上。\"\n    },\n    {\n      \"id\": \"overlay_flower_red\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        10,\n        420,\n        335,\n        685\n      ],\n      \"description\": \"红色百合花贴纸，带有白色手绘轮廓描边，位于左侧中部，部分遮挡上方照片的左下角。\"\n    },\n    {\n      \"id\": \"overlay_flowers_purple_cluster\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        635,\n        145,\n        995,\n        595\n      ],\n      \"description\": \"右侧的一组紫色花朵装饰，包含多朵半透明质感的紫色花卉，散布在背景上。\"\n    },\n    {\n      \"id\": \"overlay_flower_purple_single\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        85,\n        745,\n        245,\n        855\n      ],\n      \"description\": \"左下方的一朵独立紫色花朵装饰，风格与右侧花簇一致。\"\n    },\n    {\n      \"id\": \"text_charen\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        430,\n        30,\n        550,\n        45\n      ],\n      \"text\": \"CHAREN\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_text_calling\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        600,\n        440,\n        920,\n        520\n      ],\n      \"description\": \"白色手写体艺术字“CALLING”，具有粗糙笔触效果，位于右侧中部。\"\n    },\n    {\n      \"id\": \"overlay_smiley\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        255,\n        820,\n        405,\n        920\n      ],\n      \"description\": \"白色线条勾勒的笑脸图案，位于底部中间偏左位置。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"photo_bottom_right\",\n    \"overlay_flowers_purple_cluster\",\n    \"overlay_flower_purple_single\",\n    \"overlay_flower_red\",\n    \"overlay_text_calling\",\n    \"overlay_smiley\",\n    \"text_charen\"\n  ]\n}",
+  "tool_calls": false
+}

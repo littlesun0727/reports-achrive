@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-9bf8a33451d3280a",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7658,
+    "completion_tokens": 711,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"带有细微纹理的浅色纸底，包含散落的灰色星星和圆点装饰，整体呈现固定设计效果，保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        419,\n        426,\n        864,\n        669\n      ],\n      \"description\": \"人物近景照片，人物戴眼镜和白色连帽外套，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_stamp\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        100,\n        626,\n        290,\n        843\n      ],\n      \"description\": \"人物全身照片，人物戴猫耳帽和白色连帽外套，保留照片内的摄影环境，显示区域为矩形，边缘有邮票齿孔效果。\"\n    },\n    {\n      \"id\": \"overlay_window\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        146,\n        293,\n        886,\n        715\n      ],\n      \"description\": \"模拟旧版电脑文件选择窗口的固定设计单元，包含菜单栏、文件列表、预览区域和按钮，覆盖在照片之上。\"\n    },\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        626,\n        253,\n        958,\n        280\n      ],\n      \"text\": \"shine cute beautiful ~\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        335,\n        743,\n        585,\n        765\n      ],\n      \"text\": \"happiness! ♥\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_audio\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        753,\n        733,\n        962,\n        777\n      ],\n      \"description\": \"音频波形图样式的固定装饰单元，包含播放按钮和波形线条。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_main\",\n    \"photo_stamp\",\n    \"overlay_window\",\n    \"text_top\",\n    \"text_bottom\",\n    \"overlay_audio\"\n  ]\n}",
+  "tool_calls": false
+}

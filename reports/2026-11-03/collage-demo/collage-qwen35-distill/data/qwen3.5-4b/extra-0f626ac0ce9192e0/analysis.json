@@ -1,0 +1,268 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "ocean_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        1920
+      ],
+      "description": "广阔的蓝色海洋与海浪构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸、文字和装饰遮挡局部，保留海洋环境。",
+      "background_type": "photo",
+      "label": "广阔的蓝色海洋与海浪构成连续摄影底图，完整显示区域延伸至画布",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        147,
+        157,
+        809,
+        576
+      ],
+      "description": "人物站在海边岩石上，双臂张开，背景为蓝色海洋，保留完整摄影环境。",
+      "label": "人物站在海边岩石上，双臂张开，背景为蓝色海洋，保留完整摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        410,
+        684,
+        1097,
+        1167
+      ],
+      "description": "俯拍视角下两人在清澈海水中漂浮，保留完整摄影环境。",
+      "label": "俯拍视角下两人在清澈海水中漂浮，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        631,
+        1286,
+        1308,
+        1740
+      ],
+      "description": "人物站在海边植物旁，背景为海洋与天空，保留完整摄影环境。",
+      "label": "人物站在海边植物旁，背景为海洋与天空，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        61,
+        239,
+        242
+      ],
+      "description": "三张带有黑色五角星图案的方形贴纸，作为独立固定装饰保留。",
+      "label": "三张带有黑色五角星图案的方形贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fireworks",
+      "kind": "overlay",
+      "bbox": [
+        622,
+        273,
+        809,
+        457
+      ],
+      "description": "白色手绘烟花图案，作为独立固定装饰保留。",
+      "label": "白色手绘烟花图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_line",
+      "kind": "overlay",
+      "bbox": [
+        199,
+        538,
+        377,
+        829
+      ],
+      "description": "粉色手绘星星与圆点连线图案，作为独立固定装饰保留。",
+      "label": "粉色手绘星星与圆点连线图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_checkered",
+      "kind": "overlay",
+      "bbox": [
+        694,
+        645,
+        838,
+        772
+      ],
+      "description": "蓝白格纹矩形贴纸，作为独立固定装饰保留。",
+      "label": "蓝白格纹矩形贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        1155,
+        1079,
+        1299,
+        1233
+      ],
+      "description": "白色手绘小鱼图案，作为独立固定装饰保留。",
+      "label": "白色手绘小鱼图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_palm",
+      "kind": "overlay",
+      "bbox": [
+        559,
+        1221,
+        723,
+        1405
+      ],
+      "description": "黄色手绘棕榈树图案，作为独立固定装饰保留。",
+      "label": "黄色手绘棕榈树图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_blue",
+      "kind": "text",
+      "bbox": [
+        141,
+        1452,
+        573,
+        1655
+      ],
+      "description": "Summer is a blue sea\na free breeze\na passionate and romantic season",
+      "label": "Summer is a blue sea\na free br",
+      "method": "local",
+      "text": "Summer is a blue sea\na free breeze\na passionate and romantic season",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_white",
+      "kind": "text",
+      "bbox": [
+        838,
+        215,
+        1328,
+        522
+      ],
+      "description": "When we arrived at the southernmost tip of the African continent, Cape Town was right in front of us an unforgettable journey.",
+      "label": "When we arrived at the souther",
+      "method": "local",
+      "text": "When we arrived at the southernmost tip of the African continent, Cape Town was right in front of us an unforgettable journey.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_sign",
+      "kind": "text",
+      "bbox": [
+        1011,
+        1597,
+        1198,
+        1674
+      ],
+      "description": "Emergency Entrance\nNo Parking Between Yellow Lines",
+      "label": "Emergency Entrance\nNo Parking ",
+      "method": "local",
+      "text": "Emergency Entrance\nNo Parking Between Yellow Lines",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        1126,
+        1789,
+        1414,
+        1866
+      ],
+      "description": "小红书号：yes854994023",
+      "label": "小红书号：yes854994023",
+      "method": "local",
+      "text": "小红书号：yes854994023",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_logo",
+      "kind": "text",
+      "bbox": [
+        1328,
+        1789,
+        1414,
+        1866
+      ],
+      "description": "小红书",
+      "label": "小红书",
+      "method": "local",
+      "text": "小红书",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "ocean_base",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_stars",
+    "overlay_fireworks",
+    "overlay_star_line",
+    "overlay_checkered",
+    "overlay_fish",
+    "overlay_palm",
+    "text_blue",
+    "text_white",
+    "text_sign",
+    "text_watermark",
+    "text_logo"
+  ]
+}

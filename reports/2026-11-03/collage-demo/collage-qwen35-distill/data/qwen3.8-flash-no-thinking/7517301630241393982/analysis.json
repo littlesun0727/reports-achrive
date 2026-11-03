@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影底图，展示一名身穿深色格纹无袖连衣裙、背着黑色双肩包的年轻女子在街道上行走的全身照。背景包含灰色的石质建筑外墙、柏油马路和人行道。画面四边均露出该场景内容，上层装饰遮挡局部但不改变底图范围。",
+      "background_type": "photo",
+      "label": "一张连续的摄影底图，展示一名身穿深色格纹无袖连衣裙、背着黑色",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star_deco",
+      "kind": "overlay",
+      "bbox": [
+        347,
+        419,
+        407,
+        469
+      ],
+      "description": "位于人物头部左侧的白色手绘空心五角星图案，作为独立装饰元素叠加在底图上。",
+      "label": "位于人物头部左侧的白色手绘空心五角星图案，作为独立装饰元素叠",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clouds",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        514,
+        693,
+        674
+      ],
+      "description": "环绕在人物腰部周围的白色手绘云朵、星星及弧线轨迹组合，呈漂浮状覆盖在底图之上。",
+      "label": "环绕在人物腰部周围的白色手绘云朵、星星及弧线轨迹组合，呈漂浮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        830,
+        313,
+        1046
+      ],
+      "description": "左下角的白色心形贴纸，内部印有黑色的“I”、“ME”字样及红色的爱心符号，整体作为一个固定设计单元保留。",
+      "label": "左下角的白色心形贴纸，内部印有黑色的“I”、“ME”字样及红",
+      "method": "extract"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        541,
+        677,
+        850,
+        1099
+      ],
+      "description": "右下角的圆形照片窗口，显示同一位穿着格纹裙的女子站在路边的半身像，边缘带有白色描边效果。",
+      "label": "右下角的圆形照片窗口，显示同一位穿着格纹裙的女子站在路边的半",
+      "method": "local"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        30,
+        43,
+        416,
+        432
+      ],
+      "description": "左上角的五角星形状照片窗口，显示同一位女子的近景特写，边缘带有白色粗描边效果。",
+      "label": "左上角的五角星形状照片窗口，显示同一位女子的近景特写，边缘带",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_star_deco",
+    "overlay_clouds",
+    "overlay_heart",
+    "photo_circle",
+    "photo_star"
+  ]
+}

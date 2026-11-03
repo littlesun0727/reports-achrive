@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg_photo",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布底图为热带海滩场景，上方是茂密的绿色椰子树叶，下方是浅绿色的海水和沙滩岩石。画面连续延伸至四边，作为整体摄影背景供替换。",
+      "background_type": "photo",
+      "label": "全画布底图为热带海滩场景，上方是茂密的绿色椰子树叶，下方是浅",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        128,
+        196,
+        771,
+        1002
+      ],
+      "description": "位于画面中央的竖向矩形照片，显示一名长发女子坐在沙滩上，身穿格纹吊带裙，回头看向镜头。背景包含天空、海面和远处的浮标。",
+      "label": "位于画面中央的竖向矩形照片，显示一名长发女子坐在沙滩上，身穿",
+      "method": "local"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        252,
+        108,
+        414,
+        144
+      ],
+      "description": "Island diary",
+      "label": "Island diary",
+      "method": "local",
+      "text": "Island diary",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_deco_top",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        90,
+        639,
+        150
+      ],
+      "description": "顶部标题右侧的一组白色手绘风格装饰元素，包括星星符号、线条和一个写实的椰子图案。",
+      "label": "顶部标题右侧的一组白色手绘风格装饰元素，包括星星符号、线条和",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        261,
+        1038,
+        639,
+        1080
+      ],
+      "description": "The melody of summer",
+      "label": "The melody of summer",
+      "method": "local",
+      "text": "The melody of summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_deco_bottom",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        1032,
+        684,
+        1092
+      ],
+      "description": "底部文字两侧的白色手绘装饰，左侧为花朵与加号，右侧为音符与加号。",
+      "label": "底部文字两侧的白色手绘装饰，左侧为花朵与加号，右侧为音符与加",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_photo",
+    "photo_main",
+    "text_top",
+    "overlay_deco_top",
+    "text_bottom",
+    "overlay_deco_bottom"
+  ]
+}

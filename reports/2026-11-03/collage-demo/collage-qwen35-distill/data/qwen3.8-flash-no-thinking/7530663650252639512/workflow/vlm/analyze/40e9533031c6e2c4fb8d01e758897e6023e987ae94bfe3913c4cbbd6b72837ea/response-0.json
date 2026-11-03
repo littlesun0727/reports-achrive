@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-44b4417c-44bc-9a62-88c0-f9a5832fb059",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7987,
+    "completion_tokens": 1040,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1040
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"background\": {\n  \"type\": \"reference_clean\",\n  \"id\": \"paper_base\",\n  \"description\": \"米白色带细微颗粒纹理的纸张底图，覆盖整个画布。作为固定背景保留，承载上层所有照片拼贴和手绘装饰元素。\"\n},\n\"objects\": [\n  {\n    \"kind\": \"photo\",\n    \"bbox\": [\n      357,\n      174,\n      640,\n      389\n    ],\n    \"description\": \"一张展示野餐场景的照片，包含披萨、炸鸡、饮料等食物，放置在黄白格纹桌布上。\"\n  },\n  {\n    \"kind\": \"photo\",\n    \"bbox\": [\n      238,\n      368,\n      402,\n      513\n    ],\n    \"description\": \"一张展示甜点的照片，包含小熊造型的蛋糕和饮品，放置在木质桌面上。\"\n  },\n  {\n    \"kind\": \"photo\",\n    \"bbox\": [\n      402,\n      383,\n      607,\n      493\n    ],\n    \"description\": \"一张展示下午茶的照片，包含切块蛋糕和整只小蛋糕，放置在深色圆桌上。\"\n  },\n  {\n    \"kind\": \"photo\",\n    \"bbox\": [\n      602,\n      321,\n      795,\n      500\n    ],\n    \"description\": \"一张展示晚餐的照片，包含牛排、意面和薯条，光线较暗，有蜡烛氛围。\"\n  },\n  {\n    \"kind\": \"photo\",\n    \"bbox\": [\n      183,\n      486,\n      382,\n      726\n    ],\n    \"description\": \"一张展示主食的照片，前景为煎蛋牛肉饭，背景可见沙拉和烤饼。\"\n  },\n  {\n    \"kind\": \"photo\",\n    \"bbox\": [\n      382,\n      486,\n      607,\n      726\n    ],\n    \"description\": \"一张展示丰盛料理的照片，包含蓝莓松饼、牛排配蔬菜以及下方的拌面。\"\n  },\n  {\n    \"kind\": \"photo\",\n    \"bbox\": [\n      602,\n      486,\n      822,\n      711\n    ],\n    \"description\": \"一张展示冰品的照片，包含芒果冰沙和抹茶刨冰，色彩鲜艳。\"\n  },\n  {\n    \"kind\": \"overlay\",\n    \"bbox\": [\n      126,\n      686,\n      886,\n      931\n    ],\n    \"description\": \"底部巨大的手绘碗状轮廓，黑色粗线条，内部包含文字“My Daily Plog”。\"\n  },\n  {\n    \"kind\": \"overlay\",\n    \"bbox\": [\n      92,\n      141,\n      295,\n      316\n    ],\n    \"description\": \"左上角的手绘叉子和勺子图案，黑色线条。\"\n  },\n  {\n    \"kind\": \"overlay\",\n    \"bbox\": [\n      761,\n      78,\n      871,\n      131\n    ],\n    \"description\": \"右上角的手绘螺旋线圈装饰。\"\n  },\n  {\n    \"kind\": \"overlay\",\n    \"bbox\": [\n      816,\n      389,\n      913,\n      463\n    ],\n    \"description\": \"右侧中部的螺旋形手绘装饰。\"\n  },\n  {\n    \"kind\": \"overlay\",\n    \"bbox\": [\n      61,\n      518,\n      147,\n      648\n    ],\n    \"description\": \"左侧中下部的螺旋形手绘装饰。\"\n  }\n],\n\"layer_order\": [\n  \"photo_1\",\n  \"photo_2\",\n  \"photo_3\",\n  \"photo_4\",\n  \"photo_5\",\n  \"photo_6\",\n  \"photo_7\",\n  \"overlay_1\",\n  \"overlay_2\",\n  \"overlay_3\",\n  \"overlay_4\",\n  \"overlay_5\"\n]\n}",
+  "tool_calls": false
+}

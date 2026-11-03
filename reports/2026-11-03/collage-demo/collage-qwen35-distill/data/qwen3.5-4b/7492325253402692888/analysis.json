@@ -1,0 +1,281 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        56,
+        152,
+        842,
+        691
+      ],
+      "description": "上半部分人物自拍照片，人物手持手机遮挡面部，背景包含墙面开关和衣柜，显示区域为矩形。",
+      "label": "上半部分人物自拍照片，人物手持手机遮挡面部，背景包含墙面开关",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        56,
+        691,
+        842,
+        1230
+      ],
+      "description": "下半部分人物自拍照片，与上方照片内容一致，显示区域为矩形。",
+      "label": "下半部分人物自拍照片，与上方照片内容一致，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "icon_flash",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        74,
+        147,
+        134
+      ],
+      "description": "左上角闪电图标，位于黑色背景区域。",
+      "label": "左上角闪电图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_moon",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        74,
+        210,
+        134
+      ],
+      "description": "左上角月亮图标，位于黑色背景区域。",
+      "label": "左上角月亮图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_arrow",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        74,
+        480,
+        134
+      ],
+      "description": "顶部中央向下箭头图标，位于黑色背景区域。",
+      "label": "顶部中央向下箭头图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "text_raw",
+      "kind": "text",
+      "bbox": [
+        678,
+        74,
+        739,
+        109
+      ],
+      "description": "RAW",
+      "label": "RAW",
+      "method": "local",
+      "text": "RAW",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_max",
+      "kind": "text",
+      "bbox": [
+        678,
+        109,
+        739,
+        134
+      ],
+      "description": "MAX",
+      "label": "MAX",
+      "method": "local",
+      "text": "MAX",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_focus",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        74,
+        814,
+        134
+      ],
+      "description": "右上角对焦图标，位于黑色背景区域。",
+      "label": "右上角对焦图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_flash_bottom",
+      "kind": "overlay",
+      "bbox": [
+        113,
+        1251,
+        186,
+        1331
+      ],
+      "description": "底部左侧闪电图标，位于黑色背景区域。",
+      "label": "底部左侧闪电图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_moon_bottom",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        1251,
+        292,
+        1331
+      ],
+      "description": "底部左侧月亮图标，位于黑色背景区域。",
+      "label": "底部左侧月亮图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_focus_bottom",
+      "kind": "overlay",
+      "bbox": [
+        326,
+        1251,
+        399,
+        1331
+      ],
+      "description": "底部左侧对焦图标，位于黑色背景区域。",
+      "label": "底部左侧对焦图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_grid",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        1251,
+        505,
+        1331
+      ],
+      "description": "底部左侧网格图标，位于黑色背景区域。",
+      "label": "底部左侧网格图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "text_4_3",
+      "kind": "text",
+      "bbox": [
+        610,
+        1251,
+        660,
+        1302
+      ],
+      "description": "4:3",
+      "label": "4:3",
+      "method": "local",
+      "text": "4:3",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_zoom",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        1251,
+        766,
+        1331
+      ],
+      "description": "底部左侧变焦图标，位于黑色背景区域。",
+      "label": "底部左侧变焦图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_rotate",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        1386,
+        777,
+        1466
+      ],
+      "description": "右下角旋转图标，位于黑色背景区域。",
+      "label": "右下角旋转图标，位于黑色背景区域。",
+      "method": "extract"
+    },
+    {
+      "id": "btn_shutter",
+      "kind": "overlay",
+      "bbox": [
+        375,
+        1362,
+        524,
+        1498
+      ],
+      "description": "底部中央圆形快门按钮，白色圆形，位于黑色背景区域。",
+      "label": "底部中央圆形快门按钮，白色圆形，位于黑色背景区域。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "icon_flash",
+    "icon_moon",
+    "icon_arrow",
+    "text_raw",
+    "text_max",
+    "icon_focus",
+    "icon_flash_bottom",
+    "icon_moon_bottom",
+    "icon_focus_bottom",
+    "icon_grid",
+    "text_4_3",
+    "icon_zoom",
+    "icon_rotate",
+    "btn_shutter"
+  ]
+}

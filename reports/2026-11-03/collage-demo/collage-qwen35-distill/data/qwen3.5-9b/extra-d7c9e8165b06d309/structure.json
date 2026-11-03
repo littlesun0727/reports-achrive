@@ -1,0 +1,165 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的米色纹理纸底，四周及照片间隙保留相同纸纹；照片独立替换，纸底保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        120,
+        260,
+        420,
+        560
+      ],
+      "description": "饮品与购物袋照片，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_friends",
+      "kind": "photo",
+      "bbox": [
+        500,
+        180,
+        800,
+        500
+      ],
+      "description": "两位人物合影照片，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_stuffed",
+      "kind": "photo",
+      "bbox": [
+        500,
+        550,
+        800,
+        750
+      ],
+      "description": "Hello Kitty 玩偶照片，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_hand",
+      "kind": "photo",
+      "bbox": [
+        120,
+        620,
+        420,
+        820
+      ],
+      "description": "手持玩偶照片，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_clamp",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        20,
+        650,
+        120
+      ],
+      "description": "顶部黑色手绘回形针装饰，压在纸底上，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_todo",
+      "kind": "text",
+      "bbox": [
+        120,
+        180,
+        420,
+        220
+      ],
+      "text": "#TO DO LIST:",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_chinese",
+      "kind": "text",
+      "bbox": [
+        120,
+        550,
+        420,
+        590
+      ],
+      "text": "来一杯续命水！",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_happy",
+      "kind": "text",
+      "bbox": [
+        600,
+        450,
+        800,
+        520
+      ],
+      "text": "Haaaaapy\nplog.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_nice",
+      "kind": "text",
+      "bbox": [
+        500,
+        750,
+        800,
+        850
+      ],
+      "text": "HAVE A\nNICE DAY",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        400,
+        200,
+        550
+      ],
+      "description": "左侧心形贴纸装饰，压在纸底上，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        800,
+        250,
+        880
+      ],
+      "description": "底部小熊贴纸装饰，压在纸底上，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_drinks",
+    "photo_friends",
+    "photo_stuffed",
+    "photo_hand",
+    "overlay_clamp",
+    "text_todo",
+    "text_chinese",
+    "text_happy",
+    "text_nice",
+    "overlay_heart",
+    "overlay_bear"
+  ]
+}

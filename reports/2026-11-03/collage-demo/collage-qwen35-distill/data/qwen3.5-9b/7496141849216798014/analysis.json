@@ -1,0 +1,170 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    675
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        675
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#F0F0F0"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        40,
+        44,
+        450,
+        631
+      ],
+      "description": "左侧邮票形状的照片，显示盛开的樱花树和一条小径，照片边缘有锯齿状邮票齿孔，右下角有黑色标签 '#Happy day'。",
+      "label": "左侧邮票形状的照片，显示盛开的樱花树和一条小径，照片边缘有锯",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        526,
+        132,
+        680,
+        354
+      ],
+      "description": "右上方的照片，显示粉色的樱花树，照片边缘有白色边框。",
+      "label": "右上方的照片，显示粉色的樱花树，照片边缘有白色边框。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        634,
+        206,
+        832,
+        449
+      ],
+      "description": "右下方的照片，显示粉色的樱花树，照片边缘有白色边框。",
+      "label": "右下方的照片，显示粉色的樱花树，照片边缘有白色边框。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_numbers",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        51,
+        832,
+        91
+      ],
+      "description": "顶部的一排数字和符号，包括 '5', '.', '1', '1'，每个数字或符号都在一个黑色方框内。",
+      "label": "顶部的一排数字和符号，包括 '5', '.', '1', '",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_numbers",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        557,
+        652,
+        597
+      ],
+      "description": "底部的一排数字，包括 '2' 和 '5'，每个数字都在一个黑色方框内。",
+      "label": "底部的一排数字，包括 '2' 和 '5'，每个数字都在一个黑",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        508,
+        361,
+        680,
+        530
+      ],
+      "description": "中间的手写风格文字，内容为 'See me or not' 等，字体为手写体，颜色为黑色。",
+      "label": "中间的手写风格文字，内容为 'See me or not' ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        449,
+        832,
+        557
+      ],
+      "description": "右侧的圆形文字，内容为 'darkness for light'，字体为手写体，颜色为黑色。",
+      "label": "右侧的圆形文字，内容为 'darkness for ligh",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_3",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        449,
+        770,
+        489
+      ],
+      "description": "右侧的数字时间 '18:45'，字体为数字样式，颜色为黑色。",
+      "label": "右侧的数字时间 '18:45'，字体为数字样式，颜色为黑色。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_4",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        489,
+        770,
+        530
+      ],
+      "description": "右侧的签名 '— Zolombedo'，字体为手写体，颜色为黑色。",
+      "label": "右侧的签名 '— Zolombedo'，字体为手写体，颜色为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_5",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        186,
+        770,
+        206
+      ],
+      "description": "右上方的标签 '#Daily travel'，字体为手写体，颜色为黑色。",
+      "label": "右上方的标签 '#Daily travel'，字体为手写体，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_top_right",
+    "photo_bottom_right",
+    "overlay_top_numbers",
+    "overlay_bottom_numbers",
+    "overlay_text_1",
+    "overlay_text_2",
+    "overlay_text_3",
+    "overlay_text_4",
+    "overlay_text_5"
+  ]
+}

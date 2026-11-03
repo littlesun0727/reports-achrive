@@ -1,0 +1,138 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "notebook_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "螺旋装订的棕色笔记本页面，包含金属线圈和纸张纹理，作为全画布固定底图保留。",
+      "background_type": "reference_clean",
+      "label": "螺旋装订的棕色笔记本页面，包含金属线圈和纸张纹理，作为全画布",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_larger_crawfish",
+      "kind": "photo",
+      "bbox": [
+        239,
+        155,
+        635,
+        537
+      ],
+      "description": "麻辣小龙虾照片，包含汤汁、虾和配菜，边缘有白色不规则撕纸效果，位于笔记本页面中央偏上。",
+      "label": "麻辣小龙虾照片，包含汤汁、虾和配菜，边缘有白色不规则撕纸效果",
+      "method": "local"
+    },
+    {
+      "id": "photo_smaller_crawfish",
+      "kind": "photo",
+      "bbox": [
+        477,
+        403,
+        750,
+        680
+      ],
+      "description": "十三香小龙虾照片，包含红色小龙虾，边缘有白色不规则撕纸效果，位于笔记本页面右下。",
+      "label": "十三香小龙虾照片，包含红色小龙虾，边缘有白色不规则撕纸效果，",
+      "method": "local"
+    },
+    {
+      "id": "photo_beer_can",
+      "kind": "photo",
+      "bbox": [
+        266,
+        451,
+        453,
+        730
+      ],
+      "description": "泉城奶啤啤酒罐照片，包含罐身图案和文字，边缘有白色不规则撕纸效果，位于笔记本页面左下。",
+      "label": "泉城奶啤啤酒罐照片，包含罐身图案和文字，边缘有白色不规则撕纸",
+      "method": "local"
+    },
+    {
+      "id": "text_bread",
+      "kind": "text",
+      "bbox": [
+        635,
+        239,
+        740,
+        287
+      ],
+      "description": "Bread",
+      "label": "Bread",
+      "method": "local",
+      "text": "Bread",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_spicy_crawfish",
+      "kind": "text",
+      "bbox": [
+        555,
+        365,
+        709,
+        403
+      ],
+      "description": "麻辣小龙虾",
+      "label": "麻辣小龙虾",
+      "method": "local",
+      "text": "麻辣小龙虾",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_fifteen_crawfish",
+      "kind": "text",
+      "bbox": [
+        510,
+        655,
+        664,
+        691
+      ],
+      "description": "十三香小龙虾",
+      "label": "十三香小龙虾",
+      "method": "local",
+      "text": "十三香小龙虾",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "notebook_base",
+    "photo_larger_crawfish",
+    "photo_smaller_crawfish",
+    "photo_beer_can",
+    "text_bread",
+    "text_spicy_crawfish",
+    "text_fifteen_crawfish"
+  ]
+}

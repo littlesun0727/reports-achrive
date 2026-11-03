@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "顶部海景照片，展示平静海面、远处岩石和天空，包含摄影环境。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        333,
+        1000,
+        666
+      ],
+      "description": "中部海滨照片，展示海岸线、沙滩、人群、远处建筑和夕阳天空，包含摄影环境。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        666,
+        1000,
+        1000
+      ],
+      "description": "底部岩石海岸照片，展示海浪拍打岩石和岸边礁石，包含摄影环境。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

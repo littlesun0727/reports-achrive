@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        600
+      ],
+      "description": "上方人物近景照片，年轻女性长发特写，背景为户外街道地面。下边缘与下方照片拼接。",
+      "label": "上方人物近景照片，年轻女性长发特写，背景为户外街道地面。下边",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        131,
+        74,
+        322,
+        296
+      ],
+      "description": "手绘风格对话气泡框，包含文字“Have a Good Day”及下方的四叶草图案，位于上方照片左上角区域。",
+      "label": "手绘风格对话气泡框，包含文字“Have a Good Day",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mushroom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        468,
+        189,
+        552
+      ],
+      "description": "两个卡通蘑菇贴纸，位于左侧中部，部分覆盖在上方照片上。",
+      "label": "两个卡通蘑菇贴纸，位于左侧中部，部分覆盖在上方照片上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        540,
+        270,
+        732
+      ],
+      "description": "方格纸便签设计单元，顶部有标题“바츠키 일기”和表情符号，主体包含多行手写笔记内容，整体作为固定装饰保留。",
+      "label": "方格纸便签设计单元，顶部有标题“바츠키 일기”和表情符号，主",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        600,
+        900,
+        1200
+      ],
+      "description": "下方人物近景照片，年轻女性在室内窗边自拍，头发上有发夹，背景可见玻璃反光。上边缘与上方照片拼接。",
+      "label": "下方人物近景照片，年轻女性在室内窗边自拍，头发上有发夹，背景",
+      "method": "local"
+    },
+    {
+      "id": "overlay_panda",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        828,
+        882,
+        984
+      ],
+      "description": "三个半透明熊猫头贴纸组合，带有星星点缀，位于右侧中下部，叠加在下方照片上。",
+      "label": "三个半透明熊猫头贴纸组合，带有星星点缀，位于右侧中下部，叠加",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_bubble",
+    "overlay_mushroom",
+    "overlay_note",
+    "overlay_panda"
+  ]
+}

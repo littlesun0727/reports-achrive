@@ -1,0 +1,387 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "蓝天白云的连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云的连续摄影底图，完整显示区域延伸至画布四边；上层照片",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_ice",
+      "kind": "photo",
+      "bbox": [
+        387,
+        536,
+        672,
+        829
+      ],
+      "description": "手持两个冰淇淋甜筒的照片，保留背景中的建筑环境，显示区域为矩形。",
+      "label": "手持两个冰淇淋甜筒的照片，保留背景中的建筑环境，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        387,
+        213,
+        672,
+        501
+      ],
+      "description": "海面波光粼粼的照片，保留水面环境，显示区域为矩形。",
+      "label": "海面波光粼粼的照片，保留水面环境，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_cup",
+      "kind": "photo",
+      "bbox": [
+        387,
+        858,
+        672,
+        1146
+      ],
+      "description": "手持一杯饮料的照片，保留背景中的建筑环境，显示区域为矩形。",
+      "label": "手持一杯饮料的照片，保留背景中的建筑环境，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        144,
+        216,
+        389
+      ],
+      "description": "左上角的白色线条叉子图标，作为独立固定装饰保留。",
+      "label": "左上角的白色线条叉子图标，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_top",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        173,
+        713,
+        259
+      ],
+      "description": "右上角的白色花朵装饰，作为独立固定装饰保留。",
+      "label": "右上角的白色花朵装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        1080,
+        432,
+        1166
+      ],
+      "description": "左下角的白色花朵装饰，作为独立固定装饰保留。",
+      "label": "左下角的白色花朵装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        216,
+        403,
+        346,
+        446
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF69B4",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        691,
+        389,
+        821,
+        432
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        821,
+        504,
+        950,
+        547
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFF00",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        929,
+        677,
+        1058,
+        720
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        821,
+        821,
+        950,
+        864
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        756,
+        907,
+        886,
+        950
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#90EE90",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        605,
+        979,
+        734,
+        1022
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_8",
+      "kind": "text",
+      "bbox": [
+        454,
+        1022,
+        583,
+        1066
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_9",
+      "kind": "text",
+      "bbox": [
+        151,
+        922,
+        281,
+        965
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#87CEEB",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_10",
+      "kind": "text",
+      "bbox": [
+        151,
+        806,
+        281,
+        850
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#87CEEB",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_11",
+      "kind": "text",
+      "bbox": [
+        65,
+        677,
+        194,
+        720
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_12",
+      "kind": "text",
+      "bbox": [
+        108,
+        518,
+        238,
+        562
+      ],
+      "description": "summer",
+      "label": "summer",
+      "method": "local",
+      "text": "summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_ice",
+    "photo_sea",
+    "photo_cup",
+    "overlay_fork",
+    "overlay_flower_top",
+    "overlay_flower_bottom",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7",
+    "text_8",
+    "text_9",
+    "text_10",
+    "text_11",
+    "text_12"
+  ]
+}

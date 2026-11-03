@@ -1,0 +1,87 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "desktop_wallpaper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "电脑桌面壁纸，包含左侧应用列表（日历、音乐等）和顶部状态栏，右侧为模糊背景；中央叠加白色备忘录窗口，遮挡部分壁纸内容。",
+      "background_type": "photo",
+      "label": "电脑桌面壁纸，包含左侧应用列表（日历、音乐等）和顶部状态栏，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        184,
+        282,
+        711,
+        681
+      ],
+      "description": "上方人物特写照片，戴浅蓝色眼镜，手持黄色食物，保留面部及背景环境，位于备忘录窗口内。",
+      "label": "上方人物特写照片，戴浅蓝色眼镜，手持黄色食物，保留面部及背景",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        186,
+        737,
+        709,
+        1149
+      ],
+      "description": "下方人物特写照片，戴透明眼镜，手持蓝色物品，保留面部及背景环境，位于备忘录窗口内。",
+      "label": "下方人物特写照片，戴透明眼镜，手持蓝色物品，保留面部及背景环",
+      "method": "local"
+    },
+    {
+      "id": "frame_memo",
+      "kind": "frame",
+      "bbox": [
+        176,
+        78,
+        760,
+        1193
+      ],
+      "description": "白色备忘录窗口框架，包含顶部导航栏、照片区域及底部空白区，覆盖桌面壁纸，承载两张照片。",
+      "photo_id": [
+        "photo_top",
+        "photo_bottom"
+      ],
+      "label": "白色备忘录窗口框架，包含顶部导航栏、照片区域及底部空白区，覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_scratches",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "全画布覆盖的划痕纹理层，包含细线、斑点及模糊效果，叠加于所有对象之上。",
+      "label": "全画布覆盖的划痕纹理层，包含细线、斑点及模糊效果，叠加于所有",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "desktop_wallpaper",
+    "frame_memo",
+    "photo_top",
+    "photo_bottom",
+    "overlay_scratches"
+  ]
+}

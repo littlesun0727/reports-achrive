@@ -1,0 +1,201 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_cherry",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        333,
+        333
+      ],
+      "description": "左上角樱花树枝特写，粉色花朵与深色枝干交错，背景为浅色天空，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_stairs",
+      "kind": "photo",
+      "bbox": [
+        333,
+        0,
+        666,
+        333
+      ],
+      "description": "中上白色螺旋楼梯局部，台阶呈几何切角设计，两侧有垂帘，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_miu",
+      "kind": "photo",
+      "bbox": [
+        666,
+        0,
+        1000,
+        333
+      ],
+      "description": "右上粉色织物纹理背景，中央有白色标签，标签上印有黑色文字，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_donut",
+      "kind": "photo",
+      "bbox": [
+        0,
+        333,
+        333,
+        666
+      ],
+      "description": "左中粉色糖霜甜甜圈置于白色小盘，盘子叠放在两本浅色书上，背景为米色织物，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_strawberry_text",
+      "kind": "photo",
+      "bbox": [
+        333,
+        333,
+        666,
+        666
+      ],
+      "description": "正中粉色草莓表皮特写，布满细小籽粒，中央叠加白色文字，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_plate_strawberry",
+      "kind": "photo",
+      "bbox": [
+        666,
+        333,
+        1000,
+        666
+      ],
+      "description": "右中白色椭圆盘，盘中放置一颗粉色草莓，背景为纯白，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_strawberry_close",
+      "kind": "photo",
+      "bbox": [
+        0,
+        666,
+        333,
+        1000
+      ],
+      "description": "左下粉色草莓特写，置于粉色织物背景上，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_glasses",
+      "kind": "photo",
+      "bbox": [
+        333,
+        666,
+        666,
+        1000
+      ],
+      "description": "中下两只透明高脚杯置于银色托盘，背景为浅色墙面与台面，完整显示区域为正方形。"
+    },
+    {
+      "id": "photo_cake_stand",
+      "kind": "photo",
+      "bbox": [
+        666,
+        666,
+        1000,
+        1000
+      ],
+      "description": "右下粉色花瓣形蛋糕架，架上放置一颗粉色草莓，背景为浅色织物与木质边缘，完整显示区域为正方形。"
+    },
+    {
+      "id": "circle_1",
+      "kind": "overlay",
+      "bbox": [
+        283,
+        313,
+        333,
+        363
+      ],
+      "description": "左上与中上照片交界处粉色圆形装饰，位于两照片重叠边缘。"
+    },
+    {
+      "id": "circle_2",
+      "kind": "overlay",
+      "bbox": [
+        613,
+        313,
+        666,
+        363
+      ],
+      "description": "中上与右上照片交界处浅粉色圆形装饰，位于两照片重叠边缘。"
+    },
+    {
+      "id": "circle_3",
+      "kind": "overlay",
+      "bbox": [
+        283,
+        613,
+        333,
+        663
+      ],
+      "description": "左中与正中照片交界处浅粉色圆形装饰，位于两照片重叠边缘。"
+    },
+    {
+      "id": "circle_4",
+      "kind": "overlay",
+      "bbox": [
+        613,
+        613,
+        666,
+        663
+      ],
+      "description": "正中与右中照片交界处粉色圆形装饰，位于两照片重叠边缘。"
+    },
+    {
+      "id": "text_miu",
+      "kind": "text",
+      "bbox": [
+        770,
+        145,
+        900,
+        165
+      ],
+      "text": "miu miu",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_spring",
+      "kind": "text",
+      "bbox": [
+        390,
+        430,
+        590,
+        550
+      ],
+      "text": "spring\nin a\npaletta",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_cherry",
+    "photo_stairs",
+    "photo_miu",
+    "photo_donut",
+    "photo_strawberry_text",
+    "photo_plate_strawberry",
+    "photo_strawberry_close",
+    "photo_glasses",
+    "photo_cake_stand",
+    "circle_1",
+    "circle_2",
+    "circle_3",
+    "circle_4",
+    "text_miu",
+    "text_spring"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "沙滩与沙雕构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和装饰遮挡局部，保留沙滩纹理与沙雕细节。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        72,
+        114,
+        395,
+        263
+      ],
+      "description": "左上人物半身照片，人物戴口罩，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        493,
+        192,
+        925,
+        383
+      ],
+      "description": "右上人物背影照片，人物看海，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        36,
+        439,
+        367,
+        775
+      ],
+      "description": "左下风景照片，棕榈树与海景，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        479,
+        723,
+        759,
+        937
+      ],
+      "description": "右下室内照片，人物躺卧，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        661,
+        381,
+        925,
+        608
+      ],
+      "description": "右下沙雕照片，沙地上有星形图案，保留沙雕细节，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        395,
+        132,
+        507
+      ],
+      "description": "蓝色手绘星星，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        391,
+        432,
+        513
+      ],
+      "description": "黄色手绘太阳，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_rose",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        351,
+        737,
+        442
+      ],
+      "description": "白色手绘玫瑰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        611,
+        596,
+        719,
+        677
+      ],
+      "description": "蓝色手绘心形，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        783,
+        743,
+        987,
+        870
+      ],
+      "description": "蓝色手绘鱼形，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_droplet_1",
+      "kind": "overlay",
+      "bbox": [
+        348,
+        50,
+        440,
+        196
+      ],
+      "description": "蓝色手绘水滴，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_droplet_2",
+      "kind": "overlay",
+      "bbox": [
+        463,
+        166,
+        535,
+        281
+      ],
+      "description": "蓝色手绘水滴，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_grid",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        753,
+        491,
+        839
+      ],
+      "description": "蓝色格纹矩形，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_star",
+    "overlay_star",
+    "overlay_sun",
+    "overlay_rose",
+    "overlay_heart",
+    "overlay_fish",
+    "overlay_droplet_1",
+    "overlay_droplet_2",
+    "overlay_grid"
+  ]
+}

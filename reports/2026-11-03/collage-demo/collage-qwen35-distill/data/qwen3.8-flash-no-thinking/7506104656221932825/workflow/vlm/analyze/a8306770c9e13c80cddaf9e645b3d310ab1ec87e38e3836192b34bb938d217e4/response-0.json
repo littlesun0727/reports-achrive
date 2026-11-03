@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-1d3342e8-e7bc-9ec5-aaaf-5c3085c297e6",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7631,
+    "completion_tokens": 684,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 684
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"地铁站通道场景，包含灰白色砖墙、右侧下行楼梯及上方绿色指示牌。主体为一名戴黑色贝雷帽、穿白衬衫的长发年轻女性，位于画面左侧前景，身体微侧面向镜头。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_stars_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        90,\n        175,\n        230,\n        260\n      ],\n      \"description\": \"左上角三颗白色手绘风格星星装饰，线条简洁，无底板。\"\n    },\n    {\n      \"id\": \"overlay_heart_frame\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        580,\n        220,\n        940,\n        560\n      ],\n      \"description\": \"右侧巨大的白色手绘心形轮廓线，作为照片窗口边框叠加在背景墙上。\"\n    },\n    {\n      \"id\": \"photo_inset_heart\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        600,\n        240,\n        920,\n        540\n      ],\n      \"description\": \"位于心形框内的独立人物照片，同一位女性手持手机自拍，表情惊讶张嘴，保留其身后的摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_stars_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        750,\n        170,\n        950,\n        530\n      ],\n      \"description\": \"右侧散落的几颗白色手绘星星装饰，部分与心形框重叠。\"\n    },\n    {\n      \"id\": \"overlay_stars_bottom_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        200,\n        820,\n        320,\n        900\n      ],\n      \"description\": \"左下角两颗白色手绘星星装饰。\"\n    },\n    {\n      \"id\": \"text_korean\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        530,\n        820,\n        720,\n        870\n      ],\n      \"text\": \"좋은 날\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_stars_left\",\n    \"overlay_heart_frame\",\n    \"photo_inset_heart\",\n    \"overlay_stars_right\",\n    \"overlay_stars_bottom_left\",\n    \"text_korean\"\n  ]\n}",
+  "tool_calls": false
+}

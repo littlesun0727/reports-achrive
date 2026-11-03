@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-91f351637f1eec85",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7966,
+    "completion_tokens": 1019,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_pattern\",\n    \"description\": \"全画布固定底图，呈现带有水珠的透明玻璃质感，背景为浅灰蓝色调，并叠加有深灰色的几何线条（类似窗框或百叶窗的阴影）。此底图作为固定设计单元保留，不替换。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_vintage\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        106, 146, 522, 456\n      ],\n      \"description\": \"左上角照片，展示一家名为 'HANDSOME VINTAGE' 的店铺外观，墙面有涂鸦，门口挂着招牌，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_cake\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        522, 356, 826, 590\n      ],\n      \"description\": \"右侧照片，展示一个黑色圆形蛋糕，表面有彩色糖针和韩文装饰，置于白色包装盒内，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_flowers\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        262, 522, 572, 746\n      ],\n      \"description\": \"中下方照片，展示一丛盛开的白色花朵，背景为深色，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_books\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        46, 716, 356, 950\n      ],\n      \"description\": \"左下角照片，展示几本蓝色封面的书籍平放在深色圆形物体上，旁边有绿色织物，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_bag\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        446, 716, 572, 906\n      ],\n      \"description\": \"中下方照片，展示一个印有 'MUJI' 标志的米色购物袋，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_road\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        572, 666, 772, 906\n      ],\n      \"description\": \"右下角照片，展示带有白色标线的蓝色沥青路面，保留摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_dog\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        426, 706, 552, 776\n      ],\n      \"description\": \"位于购物袋上方的白色线条小狗头像贴纸，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_paw1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        106, 406, 166, 456\n      ],\n      \"description\": \"左侧照片左下角的白色爪印贴纸。\"\n    },\n    {\n      \"id\": \"overlay_paw2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        172, 466, 232, 516\n      ],\n      \"description\": \"左侧照片下方的白色爪印贴纸。\"\n    },\n    {\n      \"id\": \"text_love\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        766, 606, 986, 966\n      ],\n      \"text\": \"I love you\\nyou know that.\\n= And I\\nwill love\\nyou forever\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_vintage\",\n    \"photo_cake\",\n    \"photo_flowers\",\n    \"photo_books\",\n    \"photo_bag\",\n    \"photo_road\",\n    \"overlay_dog\",\n    \"overlay_paw1\",\n    \"overlay_paw2\",\n    \"text_love\"\n  ]\n}",
+  "tool_calls": false
+}

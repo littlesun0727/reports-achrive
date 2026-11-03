@@ -1,0 +1,141 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "海边岩石、沙滩、栈道、大海和天空构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        178,
+        106,
+        536,
+        362
+      ],
+      "description": "左上风景照片，展示海面、船只和前景树枝，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        479,
+        226,
+        887,
+        638
+      ],
+      "description": "右侧人物照片，展示穿白色连衣裙的女性在海边岩石上挥手，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        79,
+        604,
+        549,
+        840
+      ],
+      "description": "左下风景照片，展示海边栈道、骑自行车的人和前景松树，保留完整摄影环境。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        110,
+        460,
+        594,
+        480
+      ],
+      "text": "Life isn't perfect but your outfit can be.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        492,
+        746,
+        840,
+        796
+      ],
+      "text": "Travel is the spice of life, but remember,\noccasionally life itself needs to be\nthe spice sprinkled on our journey.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        646,
+        274,
+        874,
+        288
+      ],
+      "text": "An unexpected surprise.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        136,
+        96,
+        336,
+        142
+      ],
+      "text": "You're a Sunday morning\nKind of beauty",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        188,
+        733,
+        250
+      ],
+      "description": "银色回形针装饰，位于右侧照片上方。"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        536,
+        146,
+        654
+      ],
+      "description": "白色水滴形状装饰，位于左下照片左侧。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_right",
+    "photo_bottom_left",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "overlay_clip",
+    "overlay_drops"
+  ]
+}

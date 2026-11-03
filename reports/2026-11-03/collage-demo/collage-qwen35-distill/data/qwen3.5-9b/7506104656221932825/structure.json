@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "地铁站内楼梯旁的场景，包含白色砖墙、金属扶手、台阶以及墙上的绿色“出”字指示牌。画面中有一位戴黑色帽子的年轻女性，她位于前景，身体侧向镜头，目光直视。背景中的楼梯和墙面延伸至画布边缘，构成连续摄影底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        582,
+        218,
+        938,
+        558
+      ],
+      "description": "一个白色的心形轮廓线，内部包含一张独立照片。心形线条压在背景砖墙和楼梯扶手上，作为独立装饰单元保留。"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        638,
+        286,
+        882,
+        526
+      ],
+      "description": "心形框内的独立照片，显示一位戴黑色帽子的年轻女性，她手持手机自拍，表情惊讶。照片内容独立于背景，需替换。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        178,
+        212,
+        252
+      ],
+      "description": "左上角的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_stars_2",
+      "kind": "overlay",
+      "bbox": [
+        748,
+        178,
+        802,
+        222
+      ],
+      "description": "右上角的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_stars_3",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        458,
+        932,
+        532
+      ],
+      "description": "心形框右侧的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_stars_4",
+      "kind": "overlay",
+      "bbox": [
+        192,
+        792,
+        302,
+        866
+      ],
+      "description": "左下角的一组白色手绘星星装饰，位于前景人物身体前方，作为独立固定单元保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        552,
+        812,
+        712,
+        872
+      ],
+      "text": "좋은 날",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_stars",
+    "overlay_stars_2",
+    "overlay_stars_3",
+    "overlay_stars_4",
+    "photo_heart",
+    "overlay_heart",
+    "text_1"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的演唱会现场照片覆盖全画布，顶部灯光、中部舞台大屏和底部舞台设备上下连续。大屏中央是一名戴灰色毛绒帽、穿灰色连帽衣、手持麦克风面向镜头的男子，呈大半身景，右缘另有人物局部；底部可见灯具、摄像设备及光束。左上和右下独立照片及白色装饰遮住局部，现场人物与完整摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_oval",
+      "kind": "photo",
+      "bbox": [
+        65,
+        73,
+        400,
+        363
+      ],
+      "description": "左上椭圆照片，一名戴浅色毛绒帽、穿白色短袖的男子侧身朝左举麦克风演唱，呈半身景，保留蓝色舞台屏幕环境。椭圆窗口完整一周附有白色毛糙描边，未沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        506,
+        735,
+        944,
+        983
+      ],
+      "description": "右下独立近方形照片，一名戴棕灰色毛绒帽、穿白色短袖的男子举麦克风演唱，身体略侧转、脸朝前，呈半身景，保留蓝色舞台屏幕环境。窗口四周带白色毛糙描边，上缘局部被小狗装饰遮挡。"
+    },
+    {
+      "id": "overlay_top",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        64,
+        928,
+        87
+      ],
+      "description": "顶部白色横向装饰，包含花体“Soft clouds”、爱心、小猫剪影、星星及点状符号，字形与附属图案作为完整设计保留。"
+    },
+    {
+      "id": "overlay_korean",
+      "kind": "overlay",
+      "bbox": [
+        725,
+        116,
+        936,
+        231
+      ],
+      "description": "白色发光轮廓的椭圆思考气泡，向左下延伸三个小泡，内部为“사랑해♡”白色字样；气泡及文字整体保留，内部透出下方摄影画面。"
+    },
+    {
+      "id": "overlay_swirl_right",
+      "kind": "overlay",
+      "bbox": [
+        858,
+        221,
+        934,
+        260
+      ],
+      "description": "右上独立白色发光手绘螺旋线装饰。"
+    },
+    {
+      "id": "overlay_swirl_left",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        351,
+        139,
+        396
+      ],
+      "description": "左侧椭圆照片下方的独立白色发光螺旋线装饰。"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        726,
+        276,
+        784,
+        313
+      ],
+      "description": "右侧上方白色手绘五角星，保留不规则外轮廓和内部涂画笔触。"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        328,
+        927,
+        372
+      ],
+      "description": "右侧下方独立白色手绘五角星，保留内部交叠线条与不规则笔触。"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        494,
+        686,
+        659,
+        750
+      ],
+      "description": "趴在右下照片上缘的白色卡通小狗贴纸，含黑灰色毛糙轮廓、垂耳、五官和搭在照片边缘的双爪，整体保留。"
+    },
+    {
+      "id": "overlay_dotted_star",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        742,
+        203,
+        831
+      ],
+      "description": "左下舞台灯光区域上叠加的倾斜五角星装饰，由白色短线和细碎字符状纹理组成，保留完整星形及内部纹理。"
+    },
+    {
+      "id": "overlay_chinese_bubble",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        837,
+        466,
+        960
+      ],
+      "description": "左下白色手绘思考气泡，包含不规则闭合轮廓及右下两个小泡；内部两行手写字为“听到blue我就”“能原谅世界一切”。文字具有手写造型，随气泡整体保留，内部透出下方照片。"
+    }
+  ],
+  "layer_order": [
+    "photo_oval",
+    "photo_bottom",
+    "overlay_top",
+    "overlay_korean",
+    "overlay_swirl_right",
+    "overlay_swirl_left",
+    "overlay_star_upper",
+    "overlay_star_lower",
+    "overlay_dotted_star",
+    "overlay_chinese_bubble",
+    "overlay_dog"
+  ]
+}

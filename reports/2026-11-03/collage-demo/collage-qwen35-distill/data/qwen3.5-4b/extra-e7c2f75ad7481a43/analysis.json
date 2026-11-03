@@ -1,0 +1,207 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1320,
+    1767
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1320,
+        1767
+      ],
+      "description": "灰蓝色天空与云层构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留天空与云层的整体环境。",
+      "background_type": "photo",
+      "label": "灰蓝色天空与云层构成连续摄影底图，完整显示区域延伸至画布四边",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        590,
+        18,
+        1208,
+        853
+      ],
+      "description": "竖向街景照片，展示傍晚街道、建筑剪影和天空，显示区域为矩形。",
+      "label": "竖向街景照片，展示傍晚街道、建筑剪影和天空，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        70,
+        288,
+        440,
+        588
+      ],
+      "description": "横向街景照片，展示阳光下的街道和棕榈树，显示区域为矩形。",
+      "label": "横向街景照片，展示阳光下的街道和棕榈树，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        70,
+        853,
+        677,
+        1617
+      ],
+      "description": "横向街景照片，展示黄昏时分的城市天际线和建筑，显示区域为矩形。",
+      "label": "横向街景照片，展示黄昏时分的城市天际线和建筑，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        677,
+        853,
+        1320,
+        1617
+      ],
+      "description": "横向街景照片，展示傍晚街道、人群和气球装饰，显示区域为矩形。",
+      "label": "横向街景照片，展示傍晚街道、人群和气球装饰，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        577,
+        18,
+        1221,
+        871
+      ],
+      "description": "围绕右上照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "围绕右上照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        61,
+        270,
+        453,
+        606
+      ],
+      "description": "围绕左上照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "围绕左上照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        61,
+        836,
+        690,
+        1631
+      ],
+      "description": "围绕左下照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "围绕左下照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        664,
+        836,
+        1320,
+        1631
+      ],
+      "description": "围绕右下照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "围绕右下照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        18,
+        577,
+        270
+      ],
+      "description": "白色手写体英文文字，位于左上角，作为独立固定装饰保留。",
+      "label": "白色手写体英文文字，位于左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "overlay",
+      "bbox": [
+        1100,
+        1596,
+        1320,
+        1702
+      ],
+      "description": "白色手写体中文文字，位于右下角，作为独立固定装饰保留。",
+      "label": "白色手写体中文文字，位于右下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        859,
+        21,
+        968,
+        148
+      ],
+      "description": "白色手绘回形针，位于右上照片框的上沿，作为独立固定装饰保留。",
+      "label": "白色手绘回形针，位于右上照片框的上沿，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        588,
+        577,
+        853
+      ],
+      "description": "白色手绘装饰图案，位于左中区域，作为独立固定装饰保留。",
+      "label": "白色手绘装饰图案，位于左中区域，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_right",
+    "photo_top_left",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "frame_top_right",
+    "frame_top_left",
+    "frame_bottom_left",
+    "frame_bottom_right",
+    "overlay_text_1",
+    "overlay_text_2",
+    "overlay_clip",
+    "overlay_decorations"
+  ]
+}

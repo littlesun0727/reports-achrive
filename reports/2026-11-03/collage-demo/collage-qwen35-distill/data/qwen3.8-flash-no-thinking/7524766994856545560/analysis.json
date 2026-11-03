@@ -1,0 +1,461 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布为白色底图，带有规则排列的浅蓝色圆点图案。该固定纹理背景承载所有照片和装饰元素，需保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布为白色底图，带有规则排列的浅蓝色圆点图案。该固定纹理背",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        83,
+        91,
+        466,
+        604
+      ],
+      "description": "左上角竖向矩形照片，显示一名戴耳机的女子在服装店内弯腰摆姿势，背景可见挂着的衣物。",
+      "label": "左上角竖向矩形照片，显示一名戴耳机的女子在服装店内弯腰摆姿势",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bubble_left",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        138,
+        128,
+        286
+      ],
+      "description": "左侧椭圆形对话气泡框，内含竖排韩文“사랑해♡”（我爱你），黑色描边。",
+      "label": "左侧椭圆形对话气泡框，内含竖排韩文“사랑해♡”（我爱你），黑",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        353,
+        54,
+        522,
+        202
+      ],
+      "description": "云朵形状的贴纸，中间有一只兔子坐在碗里吃东西的卡通形象。",
+      "label": "云朵形状的贴纸，中间有一只兔子坐在碗里吃东西的卡通形象。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_right",
+      "kind": "overlay",
+      "bbox": [
+        601,
+        91,
+        828,
+        238
+      ],
+      "description": "右侧大椭圆形对话气泡框，内含两行韩文文本。",
+      "label": "右侧大椭圆形对话气泡框，内含两行韩文文本。",
+      "method": "extract"
+    },
+    {
+      "id": "text_caption_1",
+      "kind": "text",
+      "bbox": [
+        508,
+        266,
+        634,
+        300
+      ],
+      "description": "(,,•ᴗ•,,)~☆",
+      "label": "(,,•ᴗ•,,)~☆",
+      "method": "local",
+      "text": "(,,•ᴗ•,,)~☆",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_doodle_flowers",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        318,
+        688,
+        372
+      ],
+      "description": "手绘风格的涂鸦线条，包含花朵、蝴蝶结和爱心符号。",
+      "label": "手绘风格的涂鸦线条，包含花朵、蝴蝶结和爱心符号。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_small",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        422,
+        184,
+        470
+      ],
+      "description": "两个黑色小对话气泡，内含白色英文小字。",
+      "label": "两个黑色小对话气泡，内含白色英文小字。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        497,
+        374,
+        832,
+        710
+      ],
+      "description": "右侧中部横向矩形照片，显示一名戴眼镜的女子张嘴大笑，手持一盘意面。照片上有两个白色爱心贴纸遮挡部分画面。",
+      "label": "右侧中部横向矩形照片，显示一名戴眼镜的女子张嘴大笑，手持一盘",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sticker_hearts",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        466,
+        814,
+        660
+      ],
+      "description": "位于右侧照片上的两个白色立体爱心贴纸，分别位于女子头部左侧和盘子右侧。",
+      "label": "位于右侧照片上的两个白色立体爱心贴纸，分别位于女子头部左侧和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_blue",
+      "kind": "overlay",
+      "bbox": [
+        274,
+        626,
+        428,
+        708
+      ],
+      "description": "淡蓝色圆形对话气泡，内含三行韩文文本。",
+      "label": "淡蓝色圆形对话气泡，内含三行韩文文本。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        104,
+        678,
+        338,
+        942
+      ],
+      "description": "拍立得相纸边框，白色宽边，包裹着下方的自拍照片。",
+      "photo_id": [
+        "photo_selfie"
+      ],
+      "label": "拍立得相纸边框，白色宽边，包裹着下方的自拍照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        128,
+        698,
+        331,
+        906
+      ],
+      "description": "拍立得相框内的照片，显示一名戴眼镜女子对着镜子自拍，手持手机。",
+      "label": "拍立得相框内的照片，显示一名戴眼镜女子对着镜子自拍，手持手机",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        642,
+        194,
+        750
+      ],
+      "description": "银色回形针贴纸，压在拍立得相框左上角。",
+      "label": "银色回形针贴纸，压在拍立得相框左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wings_left",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        750,
+        112,
+        834
+      ],
+      "description": "左侧淡蓝色翅膀贴纸，带虚线轮廓。",
+      "label": "左侧淡蓝色翅膀贴纸，带虚线轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wings_right",
+      "kind": "overlay",
+      "bbox": [
+        333,
+        744,
+        418,
+        822
+      ],
+      "description": "右侧淡蓝色翅膀贴纸，带虚线轮廓。",
+      "label": "右侧淡蓝色翅膀贴纸，带虚线轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hearts_outline",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        624,
+        148,
+        702
+      ],
+      "description": "三个黑色空心爱心涂鸦，位于左侧空白处。",
+      "label": "三个黑色空心爱心涂鸦，位于左侧空白处。",
+      "method": "extract"
+    },
+    {
+      "id": "text_russian_block",
+      "kind": "text",
+      "bbox": [
+        508,
+        726,
+        760,
+        822
+      ],
+      "description": "ДЕРЖИ МЕНЯ НА РАССТОЯНИИ ВЫСТРЕЛА,\nЕСЛИ Я ЗАГОВОРЮ ПРО ЛЮБОВЬ\nИ ОСОБЕННО, ЕСЛИ ИСКРЕННЕ",
+      "label": "ДЕРЖИ МЕНЯ НА РАССТОЯНИИ ВЫСТР",
+      "method": "local",
+      "text": "ДЕРЖИ МЕНЯ НА РАССТОЯНИИ ВЫСТРЕЛА,\nЕСЛИ Я ЗАГОВОРЮ ПРО ЛЮБОВЬ\nИ ОСОБЕННО, ЕСЛИ ИСКРЕННЕ",
+      "text_status": "known",
+      "style": {
+        "fill": "#D2691E",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_keep_memory",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        826,
+        580,
+        874
+      ],
+      "description": "胶片卷轴图标及文字“KEEP MEMORY”，黑色风格化字体。",
+      "label": "胶片卷轴图标及文字“KEEP MEMORY”，黑色风格化字体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cats",
+      "kind": "overlay",
+      "bbox": [
+        256,
+        894,
+        428,
+        1026
+      ],
+      "description": "两只毛绒玩具猫贴纸，一白一黑，并排站立。",
+      "label": "两只毛绒玩具猫贴纸，一白一黑，并排站立。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        68,
+        978,
+        256,
+        1008
+      ],
+      "description": "夏天就像一场梦醒来时已不再年轻\nSummer is like a dream and when you wake up you're no longer young.",
+      "label": "夏天就像一场梦醒来时已不再年轻\nSummer is like",
+      "method": "local",
+      "text": "夏天就像一场梦醒来时已不再年轻\nSummer is like a dream and when you wake up you're no longer young.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_checkboxes",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        900,
+        572,
+        1026
+      ],
+      "description": "两个垂直排列的手绘复选框，内部有对勾。",
+      "label": "两个垂直排列的手绘复选框，内部有对勾。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_black_border",
+      "kind": "frame",
+      "bbox": [
+        590,
+        874,
+        824,
+        1158
+      ],
+      "description": "右下角照片的黑色粗边框，带有不规则边缘效果。",
+      "photo_id": [
+        "photo_crouching"
+      ],
+      "label": "右下角照片的黑色粗边框，带有不规则边缘效果。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_crouching",
+      "kind": "photo",
+      "bbox": [
+        616,
+        900,
+        796,
+        1110
+      ],
+      "description": "右下角照片，显示一名戴耳罩的女子蹲在地上捂嘴笑。",
+      "label": "右下角照片，显示一名戴耳罩的女子蹲在地上捂嘴笑。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_panda",
+      "kind": "overlay",
+      "bbox": [
+        598,
+        1074,
+        698,
+        1158
+      ],
+      "description": "熊猫头贴纸，位于右下角照片底部。",
+      "label": "熊猫头贴纸，位于右下角照片底部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_face",
+      "kind": "overlay",
+      "bbox": [
+        706,
+        864,
+        796,
+        930
+      ],
+      "description": "云朵形状的笑脸贴纸，位于右下角照片顶部。",
+      "label": "云朵形状的笑脸贴纸，位于右下角照片顶部。",
+      "method": "extract"
+    },
+    {
+      "id": "text_good_luck",
+      "kind": "text",
+      "bbox": [
+        706,
+        1110,
+        806,
+        1140
+      ],
+      "description": "Good Luck",
+      "label": "Good Luck",
+      "method": "local",
+      "text": "Good Luck",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "right",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_exclamation",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        1050,
+        878,
+        1140
+      ],
+      "description": "感叹号贴纸，位于右下角。",
+      "label": "感叹号贴纸，位于右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        204,
+        878,
+        942
+      ],
+      "description": "散布在画面各处的黑色五角星贴纸，共五颗。",
+      "label": "散布在画面各处的黑色五角星贴纸，共五颗。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top_left",
+    "photo_mid_right",
+    "photo_selfie",
+    "photo_crouching",
+    "frame_polaroid",
+    "frame_black_border",
+    "overlay_bubble_left",
+    "overlay_cloud_rabbit",
+    "overlay_bubble_right",
+    "text_caption_1",
+    "overlay_doodle_flowers",
+    "overlay_speech_small",
+    "overlay_sticker_hearts",
+    "overlay_bubble_blue",
+    "overlay_paperclip",
+    "overlay_wings_left",
+    "overlay_wings_right",
+    "overlay_hearts_outline",
+    "text_russian_block",
+    "overlay_keep_memory",
+    "overlay_cats",
+    "text_bottom_left",
+    "overlay_checkboxes",
+    "overlay_panda",
+    "overlay_cloud_face",
+    "text_good_luck",
+    "overlay_exclamation",
+    "overlay_stars"
+  ]
+}

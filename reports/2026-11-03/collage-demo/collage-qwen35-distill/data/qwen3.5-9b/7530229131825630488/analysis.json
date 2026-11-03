@@ -1,0 +1,194 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "深蓝色黄昏天空与城市街道夜景构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、手绘装饰和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "深蓝色黄昏天空与城市街道夜景构成连续摄影底图，完整显示区域延",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        74,
+        192,
+        198,
+        448
+      ],
+      "description": "The beginning of my trip",
+      "label": "The beginning of my trip",
+      "method": "local",
+      "text": "The beginning of my trip",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        472,
+        202,
+        600
+      ],
+      "description": "白色手绘猫头简笔画，位于左上角文字下方，作为独立固定装饰保留。",
+      "label": "白色手绘猫头简笔画，位于左上角文字下方，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        277,
+        240,
+        698,
+        712
+      ],
+      "description": "竖向街景照片，显示“HONG KONG”招牌、红色出租车和行人，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "竖向街景照片，显示“HONG KONG”招牌、红色出租车和行",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        266,
+        224,
+        709,
+        728
+      ],
+      "description": "围绕上方街景照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕上方街景照片的白色手绘虚线框，覆盖照片边缘并位于照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_car",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        632,
+        846,
+        704
+      ],
+      "description": "白色手绘小汽车简笔画，位于右上角照片右侧，作为独立固定装饰保留。",
+      "label": "白色手绘小汽车简笔画，位于右上角照片右侧，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        63,
+        728,
+        410,
+        984
+      ],
+      "description": "横向照片，显示带有涂鸦的白色卷帘门和向日葵，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "横向照片，显示带有涂鸦的白色卷帘门和向日葵，保留照片内的摄影",
+      "method": "local"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        50,
+        712,
+        423,
+        1000
+      ],
+      "description": "围绕左侧照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "围绕左侧照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        126,
+        1096,
+        405,
+        1400
+      ],
+      "description": "It's a lovely thing to know a place well enough that you know when the sun will be there",
+      "label": "It's a lovely thing to know a ",
+      "method": "local",
+      "text": "It's a lovely thing to know a place well enough that you know when the sun will be there",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        446,
+        832,
+        842,
+        1328
+      ],
+      "description": "竖向照片，显示抹茶冰淇淋、白色奶油和木盘上的小摆件，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "竖向照片，显示抹茶冰淇淋、白色奶油和木盘上的小摆件，保留照片",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        436,
+        816,
+        850,
+        1344
+      ],
+      "description": "围绕右侧照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "围绕右侧照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "frame_top",
+    "photo_left",
+    "frame_left",
+    "photo_right",
+    "frame_right",
+    "text_1",
+    "overlay_cat",
+    "overlay_car",
+    "text_2"
+  ]
+}

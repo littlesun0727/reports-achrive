@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "沙滩、蓝天、棕榈树和木桩构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "沙滩、蓝天、棕榈树和木桩构成连续摄影底图，完整显示区域延伸至",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        84,
+        164,
+        170
+      ],
+      "description": "粉色海星贴纸，位于左上角照片上方。",
+      "label": "粉色海星贴纸，位于左上角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shell1",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        242,
+        429,
+        305
+      ],
+      "description": "浅绿色贝壳贴纸，位于左上角照片右侧。",
+      "label": "浅绿色贝壳贴纸，位于左上角照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        576,
+        328,
+        645,
+        403
+      ],
+      "description": "黄色海星贴纸，位于中间照片右上方。",
+      "label": "黄色海星贴纸，位于中间照片右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        582,
+        222,
+        650
+      ],
+      "description": "黄色海星贴纸，位于左下角照片左上方。",
+      "label": "黄色海星贴纸，位于左下角照片左上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star4",
+      "kind": "overlay",
+      "bbox": [
+        348,
+        842,
+        438,
+        922
+      ],
+      "description": "浅蓝色海星贴纸，位于左下角照片右下方。",
+      "label": "浅蓝色海星贴纸，位于左下角照片右下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_waves",
+      "kind": "overlay",
+      "bbox": [
+        645,
+        674,
+        813,
+        758
+      ],
+      "description": "白色波浪线条装饰，位于右下角照片上方。",
+      "label": "白色波浪线条装饰，位于右下角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shell2",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        1054,
+        810,
+        1116
+      ],
+      "description": "蓝黄条纹贝壳贴纸，位于右下角照片下方。",
+      "label": "蓝黄条纹贝壳贴纸，位于右下角照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        123,
+        118,
+        389,
+        472
+      ],
+      "description": "左上角照片，展示海边长椅、棕榈树和远处的山景，保留照片内的摄影环境。",
+      "label": "左上角照片，展示海边长椅、棕榈树和远处的山景，保留照片内的摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        348,
+        360,
+        609,
+        710
+      ],
+      "description": "中间照片，展示海边指示牌、沙滩和停泊的船只，保留照片内的摄影环境。",
+      "label": "中间照片，展示海边指示牌、沙滩和停泊的船只，保留照片内的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        177,
+        610,
+        393,
+        894
+      ],
+      "description": "左下角照片，展示棕榈树和海边步道，保留照片内的摄影环境。",
+      "label": "左下角照片，展示棕榈树和海边步道，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        744,
+        771,
+        1094
+      ],
+      "description": "右下角照片，展示海边栈道和树木，保留照片内的摄影环境。",
+      "label": "右下角照片，展示海边栈道和树木，保留照片内的摄影环境。",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_center",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_star1",
+    "overlay_shell1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_star4",
+    "overlay_waves",
+    "overlay_shell2"
+  ]
+}

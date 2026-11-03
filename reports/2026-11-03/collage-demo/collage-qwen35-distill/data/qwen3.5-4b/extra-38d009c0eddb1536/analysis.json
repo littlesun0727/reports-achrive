@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2561
+  ],
+  "objects": [
+    {
+      "id": "beach_scene",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2561
+      ],
+      "description": "连续的海滩摄影底图，包含远处的绿色岛屿、碧蓝海水、沙滩及水中游泳的人群，画面延伸至画布四边；前景人物和饮料遮挡局部，保留完整环境。",
+      "background_type": "photo",
+      "label": "连续的海滩摄影底图，包含远处的绿色岛屿、碧蓝海水、沙滩及水中",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        511,
+        858,
+        984,
+        1754
+      ],
+      "description": "戴草帽、穿蓝白条纹上衣的女性半身照，闭眼微笑，位于画面中央，遮挡后方海水与沙滩。",
+      "label": "戴草帽、穿蓝白条纹上衣的女性半身照，闭眼微笑，位于画面中央，",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        109,
+        1652,
+        590,
+        2561
+      ],
+      "description": "前景模糊的黄色冰沙饮料特写，插有吸管，位于左下角，遮挡部分沙滩与海水。",
+      "label": "前景模糊的黄色冰沙饮料特写，插有吸管，位于左下角，遮挡部分沙",
+      "method": "local"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        1318,
+        2433,
+        1440,
+        2548
+      ],
+      "description": "小红书号：sisi520_",
+      "label": "小红书号：sisi520_",
+      "method": "local",
+      "text": "小红书号：sisi520_",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "beach_scene",
+    "photo_woman",
+    "photo_drink",
+    "text_watermark"
+  ]
+}

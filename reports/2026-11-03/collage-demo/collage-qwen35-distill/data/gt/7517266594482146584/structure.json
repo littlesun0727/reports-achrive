@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "绿色植物叶片的失焦摄影画面连续覆盖画布四边，呈深浅绿色、青色散景与暗部，无人物；中央肖像及文字、叶片装饰遮挡局部，底层仍为完整全幅摄影环境，整体随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        144,
+        145,
+        849,
+        849
+      ],
+      "description": "中央竖向矩形肖像，一名黑色长发齐刘海女性穿白色上衣，坐在车内，头部微倾，右侧手托近太阳穴，视线朝向镜头。显示头部至上半身，保留车座、车窗等摄影环境，无主体去背景；窗口边缘清晰，左上与右下局部被绿色叶片装饰遮挡。"
+    },
+    {
+      "id": "overlay_clover_top",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        71,
+        305,
+        254
+      ],
+      "description": "左上角独立绿色四叶草装饰，含四片心形叶、叶脉、浅色轮廓和向左下弯曲的细叶柄；整体覆盖中央照片左上角。"
+    },
+    {
+      "id": "overlay_clover_bottom",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        759,
+        957,
+        955
+      ],
+      "description": "右下角独立绿色四叶草装饰，含四片心形叶、叶脉、浅色边缘和向左下伸出的弯曲叶柄，覆盖肖像照片右下边界。"
+    },
+    {
+      "id": "overlay_title_top",
+      "kind": "overlay",
+      "bbox": [
+        392,
+        82,
+        950,
+        123
+      ],
+      "description": "顶部白色装饰字样，主体可辨为“Clover Melody”，两侧配有十字、圆点及小三叶草符号；符号大小及上下位置不同，与字样作为完整排版装饰保留。"
+    },
+    {
+      "id": "overlay_title_bottom",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        872,
+        640,
+        914
+      ],
+      "description": "底部白色装饰字样，包含“9e”和“Clover Melody”，配有圆点、十字及小三叶草符号；字符与符号存在不同大小和基线位置，作为完整装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "overlay_title_top",
+    "overlay_title_bottom",
+    "overlay_clover_top",
+    "overlay_clover_bottom"
+  ]
+}

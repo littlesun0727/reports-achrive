@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-8a72602f63fa98e4",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7657,
+    "completion_tokens": 710,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"brick_wall_base\",\n    \"description\": \"连续的白色砖墙纹理底图，覆盖全画布，作为固定设计单元保留原样；照片和装饰元素叠加其上。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        76,\n        118,\n        742,\n        448\n      ],\n      \"description\": \"上方人物照片，人物手托下巴，背景为绿植和白色栏杆，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        286,\n        576,\n        896,\n        888\n      ],\n      \"description\": \"下方人物照片，人物坐在车内，背景为车窗和座椅，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_flowers\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        12,\n        442,\n        988,\n        652\n      ],\n      \"description\": \"横向绿色植物与白色小花装饰带，位于两张照片之间，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_four_leaf\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        144,\n        738,\n        352,\n        922\n      ],\n      \"description\": \"左下角绿色四叶草图案装饰，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        58,\n        156,\n        152\n      ],\n      \"description\": \"左上角白色网格状装饰图案，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_top_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        624,\n        336,\n        864,\n        482\n      ],\n      \"description\": \"右上角白色网格状装饰图案，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        684,\n        842,\n        1000,\n        998\n      ],\n      \"description\": \"右下角白色网格状装饰图案，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_flowers\",\n    \"overlay_four_leaf\",\n    \"overlay_top_left\",\n    \"overlay_top_right\",\n    \"overlay_bottom_right\"\n  ]\n}",
+  "tool_calls": false
+}

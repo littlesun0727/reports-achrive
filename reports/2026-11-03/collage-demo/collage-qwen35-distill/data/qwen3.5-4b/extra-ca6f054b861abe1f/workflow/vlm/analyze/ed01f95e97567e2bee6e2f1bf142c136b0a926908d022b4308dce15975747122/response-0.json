@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a5ebda336c839b09",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 8182,
+    "completion_tokens": 769,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"pattern_base\",\n    \"description\": \"全画布固定底图，包含浅米色背景、樱桃图案、虚线网格、星星、爪印、蝴蝶结等重复装饰元素，整体风格为可爱拼贴风。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        53,\n        28,\n        478,\n        406\n      ],\n      \"description\": \"左上角人物手持玩偶的户外照片，人物穿浅色开衫和白色连衣裙，背景有绿植和紫色墙面，照片下方有日文文字装饰。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        522,\n        84,\n        945,\n        478\n      ],\n      \"description\": \"右上角人物手持玩偶的户外照片，人物闭眼微笑，背景有瀑布和建筑，照片上方有播放器界面装饰。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        58,\n        484,\n        486,\n        918\n      ],\n      \"description\": \"左下角人物双手举着两个玩偶的户外照片，人物穿粉色开衫和白色连衣裙，背景有绿植和紫色墙面，照片下方有表情符号和文字装饰。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        528,\n        538,\n        945,\n        953\n      ],\n      \"description\": \"右下角人物坐在地上手持玩偶的户外照片，人物穿粉色开衫和白色连衣裙，背景有水面和紫色墙面，照片下方有唇印装饰。\"\n    },\n    {\n      \"id\": \"text_japanese\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        153,\n        333,\n        411,\n        378\n      ],\n      \"text\": \"アイスクリーム!!\",\n      \"color\": \"#000000\",\n      \"font\": \"cjk\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_english\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        198,\n        928,\n        386,\n        962\n      ],\n      \"text\": \"Yes!! ♪( '▽' )\",\n      \"color\": \"#000000\",\n      \"font\": \"cjk\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"pattern_base\",\n    \"photo_top_left\",\n    \"photo_top_right\",\n    \"photo_bottom_left\",\n    \"photo_bottom_right\",\n    \"text_japanese\",\n    \"text_english\"\n  ]\n}",
+  "tool_calls": false
+}

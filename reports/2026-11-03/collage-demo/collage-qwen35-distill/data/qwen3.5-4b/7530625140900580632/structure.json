@@ -1,0 +1,228 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "mirror_base",
+    "description": "电梯镜面的连续摄影底图，包含镜面反射的室内环境、门、地毯和人物倒影。上层贴纸、文字和照片遮挡局部，保留镜面反射的完整场景。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        688,
+        110,
+        938,
+        333
+      ],
+      "description": "右上角心形裁剪照片，展示人物坐在格子裙中的场景，边缘有白色虚线装饰。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        118,
+        603,
+        353,
+        796
+      ],
+      "description": "左下角心形裁剪照片，展示人物抱猫的场景，边缘有白色虚线装饰。"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        183,
+        333,
+        218
+      ],
+      "description": "左上角装饰性文字贴纸，包含星星和韩文，位于镜面反射的墙壁区域。"
+    },
+    {
+      "id": "overlay_center",
+      "kind": "overlay",
+      "bbox": [
+        412,
+        283,
+        588,
+        400
+      ],
+      "description": "中央圆形贴纸，包含粉色爱心和英文文字，遮挡镜面反射中的人物面部。"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        603,
+        928,
+        738
+      ],
+      "description": "右下角矩形文字框，包含韩文诗句，位于镜面反射的地毯区域。"
+    },
+    {
+      "id": "text_interface",
+      "kind": "text",
+      "bbox": [
+        53,
+        333,
+        100,
+        368
+      ],
+      "text": "Aa",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_interface_2",
+      "kind": "text",
+      "bbox": [
+        243,
+        268,
+        378,
+        293
+      ],
+      "text": ":-,♡,-:",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_interface_3",
+      "kind": "text",
+      "bbox": [
+        143,
+        833,
+        238,
+        853
+      ],
+      "text": "SLO-MO",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_interface_4",
+      "kind": "text",
+      "bbox": [
+        283,
+        833,
+        378,
+        853
+      ],
+      "text": "VIDEO",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_interface_5",
+      "kind": "text",
+      "bbox": [
+        438,
+        833,
+        533,
+        853
+      ],
+      "text": "PHOTO",
+      "color": "#FFD700",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_interface_6",
+      "kind": "text",
+      "bbox": [
+        588,
+        833,
+        723,
+        853
+      ],
+      "text": "PORTRAIT",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_interface_7",
+      "kind": "text",
+      "bbox": [
+        778,
+        833,
+        873,
+        853
+      ],
+      "text": "SQUAR",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_top_right_text",
+      "kind": "overlay",
+      "bbox": [
+        893,
+        203,
+        953,
+        263
+      ],
+      "description": "右上角心形照片旁的白色贴纸，包含粉色爱心和英文文字。"
+    },
+    {
+      "id": "overlay_bottom_left_text",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        693,
+        133,
+        753
+      ],
+      "description": "左下角心形照片旁的白色贴纸，包含粉色爱心和英文文字。"
+    },
+    {
+      "id": "overlay_bottom_right_text",
+      "kind": "overlay",
+      "bbox": [
+        773,
+        693,
+        833,
+        753
+      ],
+      "description": "右下角文字框旁的白色贴纸，包含粉色爱心和英文文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_right",
+    "photo_bottom_left",
+    "overlay_top_left",
+    "overlay_center",
+    "overlay_bottom_right",
+    "text_interface",
+    "text_interface_2",
+    "text_interface_3",
+    "text_interface_4",
+    "text_interface_5",
+    "text_interface_6",
+    "text_interface_7",
+    "overlay_top_right_text",
+    "overlay_bottom_left_text",
+    "overlay_bottom_right_text"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的砖墙与花槽摄影画面铺满画布，无人物；右上为白砖墙，左上有暗色门窗，下面为灰色墙面，中部横贯绿叶和白色雏菊。场景在四边及两张叠加照片之间连续可见，局部被照片与网纹装饰遮挡；墙面、花草及其摄影质感整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        76,
+        129,
+        760,
+        451
+      ],
+      "description": "上方横向照片，一名黑发女子穿浅色无袖衣服，半身侧坐，手托面颊，面向右侧；背景保留棕榈绿植、白色栏杆与立柱。完整矩形显示窗口四周有浅白色柔化过渡，右下局部被白色网纹装饰覆盖，人物未沿轮廓去背景。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        304,
+        586,
+        902,
+        886
+      ],
+      "description": "下方横向照片，一名长黑发女子穿白色背心坐在交通工具座椅上，正面望向镜头，显示头部至腰部附近；保留深色椅背及右侧浅色车厢内壁。矩形窗口周边呈浅白色柔化边缘，左下与右下被网纹装饰遮挡，人物未沿轮廓去背景。"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        65,
+        178,
+        204
+      ],
+      "description": "左上角倾斜的浅白色交叉网纹装饰，由密集短小格点构成不规则交叠轮廓，覆盖暗色墙面并搭在上方照片左上边缘，内部透明间隙整体保留。"
+    },
+    {
+      "id": "overlay_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        340,
+        885,
+        499
+      ],
+      "description": "上方照片右下的浅白色圆形网格装饰，轮廓略有不规则，密集横竖短线形成透空格纹，跨越照片右边界并覆盖白墙及下方花草。"
+    },
+    {
+      "id": "overlay_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        743,
+        375,
+        919
+      ],
+      "description": "左下薄荷绿色方形网纹贴饰，内部带深色手绘五瓣花轮廓；格纹、花形与透明空隙构成完整单元，跨在灰墙和下方照片左侧之上。"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        631,
+        836,
+        1000,
+        969
+      ],
+      "description": "右下角斜向延展的白色交叉网纹装饰，多个交叠网格块形成不规则长条轮廓，覆盖下方照片右下边缘及灰色墙面，右端被画布裁切。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_top_left",
+    "overlay_middle_right",
+    "overlay_bottom_left",
+    "overlay_bottom_right"
+  ]
+}

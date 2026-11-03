@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-a6097e30-8070-9848-81f5-2479e162f84b",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8231,
+    "completion_tokens": 1284,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1284
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"Windows XP经典桌面壁纸作为全画布底图，包含蓝天、白云和绿色草地。上层叠加了多个电脑界面窗口（对话框、菜单等）以及一台老式CRT显示器，这些元素遮挡了部分底图，但底图本身是连续且完整的摄影画面。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_window_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        0,\n        437,\n        168\n      ],\n      \"description\": \"左上角的白色系统对话框，带有灰色标题栏和文字内容，显示关于安全模式启动的提示信息。\"\n    },\n    {\n      \"id\": \"overlay_window_top_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        421,\n        0,\n        725,\n        160\n      ],\n      \"description\": \"右上角的蓝色关机确认对话框，包含“Turn Off”和“Restart”按钮图标及文字。\"\n    },\n    {\n      \"id\": \"overlay_bubble_online\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        122,\n        397,\n        338\n      ],\n      \"description\": \"白色的对话气泡，内部有黑色粗体文字“online”，边缘柔和模糊。\"\n    },\n    {\n      \"id\": \"overlay_menu_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        250,\n        145,\n        490\n      ],\n      \"description\": \"左侧垂直排列的系统右键菜单列表，包含Copy, Paste, Create Shortcut等选项文字。\"\n    },\n    {\n      \"id\": \"frame_monitor\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        145,\n        150,\n        978,\n        710\n      ],\n      \"description\": \"米色的老式CRT显示器外壳，屏幕区域为矩形内口，位于画面中央偏右，承载着一张人物照片。\",\n      \"photo_id\": [\n        \"photo_screen_girl\"\n      ]\n    },\n    {\n      \"id\": \"photo_screen_girl\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        207,\n        210,\n        793,\n        580\n      ],\n      \"description\": \"显示器屏幕内的图像，展示一位穿着蓝绿色背心和裙子的卡通风格女孩站在厨房背景中，手持蛋糕。\"\n    },\n    {\n      \"id\": \"overlay_keyboard\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        357,\n        700,\n        857,\n        860\n      ],\n      \"description\": \"放置在桌面上的米色键盘，按键清晰可见，位于显示器前方。\"\n    },\n    {\n      \"id\": \"overlay_palette_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        882,\n        660,\n        1000,\n      840\n      ],\n      \"description\": \"右侧边缘露出的彩色调色板窗口局部，显示彩虹渐变色块。\"\n    },\n    {\n      \"id\": \"overlay_dialog_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        714,\n        830,\n        1000,\n        990\n      ],\n      \"description\": \"右下角的灰色错误提示对话框，标题为“What”，内容包含“Why this happen”及一个报错图标。\"\n    },\n    {\n      \"id\": \"overlay_taskbar_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        880,\n        285,\n        1000\n      ],\n      \"description\": \"左下角的任务栏或时间显示区域，隐约可见数字时钟格式的时间信息。\"\n    },\n    {\n      \"id\": \"overlay_logo_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        670,\n        145,\n        880\n      ],\n      \"description\": \"左侧中下部的黑色方块Logo，上面有白色的像素化字母图案。\"\n    },\n    {\n      \"id\": \"photo_cutout_girl\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        20,\n        450,\n        482,\n        940\n      ],\n      \"description\": \"前景抠图人物，一位戴着写有'Bon Appetit'厨师帽的年轻女性，身穿蓝色背心和波点裤袜，双手分别拿着蛋糕和锅铲。周围有一圈明显的白色描边轮廓。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_window_top_left\",\n    \"overlay_window_top_right\",\n    \"overlay_bubble_online\",\n    \"overlay_menu_left\",\n    \"photo_screen_girl\",\n    \"frame_monitor\",\n    \"overlay_keyboard\",\n    \"overlay_palette_right\",\n    \"overlay_dialog_bottom_right\",\n    \"overlay_taskbar_bottom\",\n    \"overlay_logo_left\",\n    \"photo_cutout_girl\"\n  ]\n}",
+  "tool_calls": false
+}

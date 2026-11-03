@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a3d4bc079f1695d0",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7848,
+    "completion_tokens": 901,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        500\n      ],\n      \"description\": \"上半部分人物自拍照片，人物位于画面右侧，背景为户外街道，包含地面、路缘石和阳光照射效果。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        500,\n        1000,\n        1000\n      ],\n      \"description\": \"下半部分人物自拍照片，人物位于画面中央，背景为室内环境，包含玻璃窗、椅子和室内光线。\"\n    },\n    {\n      \"id\": \"overlay_text_bubble\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        145,\n        66,\n        353,\n        240\n      ],\n      \"description\": \"手绘风格对话气泡，包含英文文字和四叶草图案，位于上半部分照片左上角。\"\n    },\n    {\n      \"id\": \"overlay_notebook\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        46,\n        453,\n        278,\n        608\n      ],\n      \"description\": \"手绘风格笔记本贴纸，包含韩文和英文文字，位于上半部分照片左下角。\"\n    },\n    {\n      \"id\": \"overlay_bowls\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        398,\n        183,\n        453\n      ],\n      \"description\": \"手绘风格碗状图案，位于上半部分照片左下角，笔记本贴纸上方。\"\n    },\n    {\n      \"id\": \"overlay_bangs\",\n      \"kind\": \"overlay\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        215,\n        500,\n        765,\n        1000\n      ],\n      \"description\": \"人物刘海部分，从下半部分照片延伸至上半部分照片，覆盖在背景之上。\"\n    },\n    {\n      \"id\": \"overlay_bear_stickers\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        808,\n        690,\n        965,\n        815\n      ],\n      \"description\": \"手绘风格小熊贴纸，位于下半部分照片右侧。\"\n    },\n    {\n      \"id\": \"overlay_bear_stickers_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        908,\n        690,\n        965,\n        765\n      ],\n      \"description\": \"手绘风格小熊贴纸，位于下半部分照片右侧，与另一只小熊贴纸相邻。\"\n    },\n    {\n      \"id\": \"overlay_bear_stickers_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        915,\n        690,\n        965,\n        735\n      ],\n      \"description\": \"手绘风格小熊贴纸，位于下半部分照片右侧，与另一只小熊贴纸相邻。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_bangs\",\n    \"overlay_text_bubble\",\n    \"overlay_notebook\",\n    \"overlay_bowls\",\n    \"overlay_bear_stickers\",\n    \"overlay_bear_stickers_2\",\n    \"overlay_bear_stickers_3\"\n  ]\n}",
+  "tool_calls": false
+}

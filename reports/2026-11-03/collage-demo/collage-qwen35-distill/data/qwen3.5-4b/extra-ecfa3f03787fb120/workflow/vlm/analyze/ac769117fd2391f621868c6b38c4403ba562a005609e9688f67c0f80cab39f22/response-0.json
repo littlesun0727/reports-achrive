@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b0207c2102ca6984",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 7919,
+    "completion_tokens": 506,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        499,\n        499\n      ],\n      \"description\": \"草原与天空风景照片，包含绿色丘陵、白云和远处的牛群，位于左上区域。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        0,\n        1000,\n        499\n      ],\n      \"description\": \"草原风景照片，包含绿色草地、远山和白色文字'建黑河呼伦贝尔'，位于右上区域。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        499,\n        499,\n        1000\n      ],\n      \"description\": \"草原河流风景照片，包含河流、马群和远处的树木，位于左下区域。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        499,\n        1000,\n        1000\n      ],\n      \"description\": \"草原河流风景照片，包含蜿蜒河流和远处的山丘，位于右下区域。\"\n    },\n    {\n      \"id\": \"photo_center\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        250,\n        310,\n        699,\n        778\n      ],\n      \"description\": \"人物半身照片，女性侧脸微笑挥手，佩戴墨镜，位于画面中央，覆盖部分背景照片。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"photo_top_right\",\n    \"photo_bottom_left\",\n    \"photo_bottom_right\",\n    \"photo_center\"\n  ]\n}",
+  "tool_calls": false
+}

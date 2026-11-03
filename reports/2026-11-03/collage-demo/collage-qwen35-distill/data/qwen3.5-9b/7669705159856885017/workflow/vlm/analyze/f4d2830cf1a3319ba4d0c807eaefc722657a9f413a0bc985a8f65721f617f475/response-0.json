@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-89146c92223ce6e7",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6667,
+    "total_tokens": 7088,
+    "completion_tokens": 421,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        500,\n        1000\n      ],\n      \"description\": \"左侧人物全身照片，人物戴发带、手持手机自拍，保留室内背景，显示区域为完整矩形。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        0,\n        1000,\n        500\n      ],\n      \"description\": \"右上人物半身照片，人物戴帽子，保留室内背景，显示区域为完整矩形。\"\n    },\n    {\n      \"id\": \"photo_mid_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        500,\n        1000,\n        750\n      ],\n      \"description\": \"右侧人物坐姿照片，人物坐在台阶上，保留台阶背景，显示区域为完整矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        750,\n        1000,\n        1000\n      ],\n      \"description\": \"右下物品俯拍照片，包含黑色包、手机壳和杂志，保留木质背景，显示区域为完整矩形。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_left\",\n    \"photo_top_right\",\n    \"photo_mid_right\",\n    \"photo_bottom_right\"\n  ]\n}",
+  "tool_calls": false
+}

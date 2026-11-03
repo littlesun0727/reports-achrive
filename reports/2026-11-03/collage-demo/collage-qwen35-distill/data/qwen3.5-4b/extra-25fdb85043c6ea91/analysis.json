@@ -1,0 +1,201 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "stage_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "舞台背景摄影画面，包含蓝色条纹屏幕、舞台灯光设备、黑色音响及舞台环境，完整覆盖画布；前景人物与装饰遮挡局部，保留舞台整体环境。",
+      "background_type": "photo",
+      "label": "舞台背景摄影画面，包含蓝色条纹屏幕、舞台灯光设备、黑色音响及",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        394,
+        131,
+        956,
+        1411
+      ],
+      "description": "主图人物近景照片，身穿灰色连帽衫，手持麦克风，保留舞台灯光与背景屏幕，位于画布中上部。",
+      "label": "主图人物近景照片，身穿灰色连帽衫，手持麦克风，保留舞台灯光与",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        73,
+        202,
+        394,
+        701
+      ],
+      "description": "左上角人物半身照片，身穿条纹T恤，手持麦克风，保留舞台背景，位于主图左上方。",
+      "label": "左上角人物半身照片，身穿条纹T恤，手持麦克风，保留舞台背景，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        554,
+        1411,
+        1007,
+        1885
+      ],
+      "description": "右下角人物近景照片，身穿条纹T恤，手持麦克风，保留舞台背景，位于画布右下角。",
+      "label": "右下角人物近景照片，身穿条纹T恤，手持麦克风，保留舞台背景，",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        73,
+        202,
+        394,
+        701
+      ],
+      "description": "围绕左上角照片的白色手绘椭圆框，覆盖照片边缘，作为固定装饰保留。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "围绕左上角照片的白色手绘椭圆框，覆盖照片边缘，作为固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        554,
+        1411,
+        1007,
+        1885
+      ],
+      "description": "围绕右下角照片的白色手绘矩形框，覆盖照片边缘，作为固定装饰保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "围绕右下角照片的白色手绘矩形框，覆盖照片边缘，作为固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_top",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        48,
+        972,
+        192
+      ],
+      "description": "顶部装饰文字“Soft clouds”及星星、爱心、云朵等手绘图案，位于画布顶部中央。",
+      "label": "顶部装饰文字“Soft clouds”及星星、爱心、云朵等手",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_right",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        250,
+        950,
+        422
+      ],
+      "description": "右侧对话气泡，内含韩文“사랑해♡”，白色手绘风格，位于主图右上方。",
+      "label": "右侧对话气泡，内含韩文“사랑해♡”，白色手绘风格，位于主图右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_bottom",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        1632,
+        486,
+        1824
+      ],
+      "description": "底部对话气泡，内含中文“听到blue我就能原谅世界一切”，白色手绘风格，位于画布左下角。",
+      "label": "底部对话气泡，内含中文“听到blue我就能原谅世界一切”，白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        767,
+        518,
+        950,
+        768
+      ],
+      "description": "右侧两颗白色手绘星星装饰，位于主图右侧。",
+      "label": "右侧两颗白色手绘星星装饰，位于主图右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        672,
+        162,
+        768
+      ],
+      "description": "左侧白色手绘螺旋装饰，位于左上角照片下方。",
+      "label": "左侧白色手绘螺旋装饰，位于左上角照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_right",
+      "kind": "overlay",
+      "bbox": [
+        918,
+        384,
+        972,
+        480
+      ],
+      "description": "右侧白色手绘螺旋装饰，位于右上角文字下方。",
+      "label": "右侧白色手绘螺旋装饰，位于右上角文字下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker",
+      "kind": "overlay",
+      "bbox": [
+        529,
+        1286,
+        691,
+        1402
+      ],
+      "description": "中间白色手绘小狗贴纸，位于主图下方、右下角照片上方。",
+      "label": "中间白色手绘小狗贴纸，位于主图下方、右下角照片上方。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "stage_background",
+    "photo_main",
+    "photo_top_left",
+    "photo_bottom_right",
+    "frame_top_left",
+    "frame_bottom_right",
+    "overlay_text_top",
+    "overlay_text_right",
+    "overlay_text_bottom",
+    "overlay_stars",
+    "overlay_spiral",
+    "overlay_spiral_right",
+    "overlay_sticker"
+  ]
+}

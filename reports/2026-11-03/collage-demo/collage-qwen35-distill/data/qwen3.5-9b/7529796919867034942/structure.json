@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "俯拍地面照片，显示深色沥青路面、积水反光及散落的黄色落叶，作为独立摄影单元。"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        0,
+        333,
+        1000,
+        667
+      ],
+      "description": "人物手持椰子站在泳池边的照片，保留人物、泳池、绿植及背景建筑等完整摄影环境。"
+    },
+    {
+      "id": "text_mid",
+      "kind": "text",
+      "bbox": [
+        62,
+        508,
+        938,
+        588
+      ],
+      "text": "In those days even the wind\nfelt free in summer",
+      "color": "#FF007F",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_bot",
+      "kind": "photo",
+      "bbox": [
+        0,
+        667,
+        1000,
+        1000
+      ],
+      "description": "日落天空照片，显示橙红色云层、路灯剪影及树木轮廓，作为独立摄影单元。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_mid",
+    "text_mid",
+    "photo_bot"
+  ]
+}

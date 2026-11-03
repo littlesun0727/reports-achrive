@@ -1,0 +1,325 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1197
+  ],
+  "objects": [
+    {
+      "id": "dot_pattern_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1197
+      ],
+      "description": "全画布固定底图，白色背景上分布着黑色圆点图案，包含大小不一的圆点、星星、爪印、回形针、安全别针、齿轮、箭头、爱心等装饰元素，这些元素作为固定设计单元保留，不随照片替换。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，白色背景上分布着黑色圆点图案，包含大小不一的",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        471,
+        435,
+        831,
+        904
+      ],
+      "description": "右侧主要人物照片，人物为黑发齐刘海女性，身穿水手服，手持小照片遮挡嘴部，背景为百叶窗，保留完整摄影环境。",
+      "label": "右侧主要人物照片，人物为黑发齐刘海女性，身穿水手服，手持小照",
+      "method": "local"
+    },
+    {
+      "id": "photo_camera_view",
+      "kind": "photo",
+      "bbox": [
+        142,
+        500,
+        389,
+        754
+      ],
+      "description": "左侧相机取景框内的人物照片，人物为黑发女性，身穿水手服，双手比出心形手势，手持小照片遮挡嘴部，保留取景框内的摄影环境。",
+      "label": "左侧相机取景框内的人物照片，人物为黑发女性，身穿水手服，双手",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        384,
+        925,
+        484,
+        1095
+      ],
+      "description": "底部手持照片，人物为黑发女性，身穿水手服，手持自拍杆自拍，背景为室内环境，保留完整摄影环境。",
+      "label": "底部手持照片，人物为黑发女性，身穿水手服，手持自拍杆自拍，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_star_frame",
+      "kind": "photo",
+      "bbox": [
+        705,
+        213,
+        803,
+        363
+      ],
+      "description": "右上角星形相框内的人物照片，人物为黑发女性，身穿水手服，双手做出心形手势，背景为室内环境，保留完整摄影环境。",
+      "label": "右上角星形相框内的人物照片，人物为黑发女性，身穿水手服，双手",
+      "method": "local"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        237,
+        277,
+        492,
+        321
+      ],
+      "description": "사랑해 오늘도 내일도 앞으로도",
+      "label": "사랑해 오늘도 내일도 앞으로도",
+      "method": "local",
+      "text": "사랑해 오늘도 내일도 앞으로도",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        615,
+        1039,
+        858,
+        1081
+      ],
+      "description": "서울 날씨 어때, 잘지냈어 ^^",
+      "label": "서울 날씨 어때, 잘지냈어 ^^",
+      "method": "local",
+      "text": "서울 날씨 어때, 잘지냈어 ^^",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        498,
+        315,
+        525,
+        375
+      ],
+      "description": "白色回形针装饰，位于顶部文字下方，作为独立固定装饰保留。",
+      "label": "白色回形针装饰，位于顶部文字下方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        582,
+        315,
+        609,
+        339
+      ],
+      "description": "黑色五角星装饰，位于顶部文字右侧，作为独立固定装饰保留。",
+      "label": "黑色五角星装饰，位于顶部文字右侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        405,
+        111,
+        458
+      ],
+      "description": "黑色五角星装饰，位于左侧相机取景框上方，作为独立固定装饰保留。",
+      "label": "黑色五角星装饰，位于左侧相机取景框上方，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        327,
+        824,
+        372,
+        865
+      ],
+      "description": "黑色五角星装饰，位于底部照片上方，作为独立固定装饰保留。",
+      "label": "黑色五角星装饰，位于底部照片上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        794,
+        889,
+        836
+      ],
+      "description": "黑色五角星装饰，位于右侧主要照片右侧，作为独立固定装饰保留。",
+      "label": "黑色五角星装饰，位于右侧主要照片右侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        1027,
+        57,
+        1057
+      ],
+      "description": "黑色五角星装饰，位于左下角，作为独立固定装饰保留。",
+      "label": "黑色五角星装饰，位于左下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        1111,
+        156,
+        1141
+      ],
+      "description": "黑色五角星装饰，位于底部中央，作为独立固定装饰保留。",
+      "label": "黑色五角星装饰，位于底部中央，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        768,
+        1111,
+        795,
+        1141
+      ],
+      "description": "黑色五角星装饰，位于右下角，作为独立固定装饰保留。",
+      "label": "黑色五角星装饰，位于右下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_top",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        824,
+        120,
+        889
+      ],
+      "description": "黑色爪印装饰，位于左侧相机取景框下方，作为独立固定装饰保留。",
+      "label": "黑色爪印装饰，位于左侧相机取景框下方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_bottom",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        847,
+        129,
+        889
+      ],
+      "description": "黑色爪印装饰，位于底部照片左侧，作为独立固定装饰保留。",
+      "label": "黑色爪印装饰，位于底部照片左侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_buckle",
+      "kind": "overlay",
+      "bbox": [
+        408,
+        794,
+        444,
+        877
+      ],
+      "description": "黑色安全别针装饰，位于底部照片上方，作为独立固定装饰保留。",
+      "label": "黑色安全别针装饰，位于底部照片上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gear",
+      "kind": "overlay",
+      "bbox": [
+        646,
+        961,
+        673,
+        991
+      ],
+      "description": "黑色齿轮装饰，位于右下角文字上方，作为独立固定装饰保留。",
+      "label": "黑色齿轮装饰，位于右下角文字上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        961,
+        723,
+        991
+      ],
+      "description": "黑色箭头装饰，位于右下角文字上方，作为独立固定装饰保留。",
+      "label": "黑色箭头装饰，位于右下角文字上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        763,
+        961,
+        867,
+        1003
+      ],
+      "description": "黑色双心形装饰，位于右下角文字上方，作为独立固定装饰保留。",
+      "label": "黑色双心形装饰，位于右下角文字上方，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "dot_pattern_base",
+    "photo_main",
+    "photo_camera_view",
+    "photo_bottom",
+    "photo_star_frame",
+    "text_top",
+    "text_bottom",
+    "overlay_clip",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_bottom",
+    "overlay_star_right",
+    "overlay_star_bottom_left",
+    "overlay_star_bottom_center",
+    "overlay_star_bottom_right",
+    "overlay_paw_top",
+    "overlay_paw_bottom",
+    "overlay_buckle",
+    "overlay_gear",
+    "overlay_arrow",
+    "overlay_hearts"
+  ]
+}

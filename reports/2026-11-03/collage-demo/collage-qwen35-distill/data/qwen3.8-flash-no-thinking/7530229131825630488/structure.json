@@ -1,0 +1,212 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的夜景摄影底图，画面包含黄昏天空、路灯、街道建筑及前景的红色出租车。该照片完整覆盖画布四边，作为所有独立对象的背景层。"
+  },
+  "objects": [
+    {
+      "id": "text_intro",
+      "kind": "text",
+      "bbox": [
+        107,
+        142,
+        205,
+        268
+      ],
+      "text": "The\nbegining\nof\nmy\ntrip",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        125,
+        239,
+        285
+      ],
+      "description": "手绘风格的白色对话气泡框，线条不规则，包裹住文字区域，底部有指向下方猫咪的小尾巴。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        295,
+        222,
+        370
+      ],
+      "description": "白色线条绘制的手绘猫咪头像，位于气泡框下方，风格简约可爱。"
+    },
+    {
+      "id": "photo_shop",
+      "kind": "photo",
+      "bbox": [
+        312,
+        155,
+        755,
+        440
+      ],
+      "description": "矩形照片窗口，显示一家名为“HONG KONG”的店铺门面，门前有模糊的行人和一辆行驶中的红色出租车。"
+    },
+    {
+      "id": "frame_shop",
+      "kind": "frame",
+      "bbox": [
+        295,
+        140,
+        778,
+        455
+      ],
+      "description": "围绕上方店铺照片的白色手绘粗线条边框，形状略不规整，具有装饰性。",
+      "photo_id": [
+        "photo_shop"
+      ]
+    },
+    {
+      "id": "overlay_car",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        395,
+        935,
+        435
+      ],
+      "description": "白色手绘小汽车图标，带有速度线，位于右侧空白处。"
+    },
+    {
+      "id": "photo_graffiti",
+      "kind": "photo",
+      "bbox": [
+        78,
+        460,
+        455,
+        615
+      ],
+      "description": "矩形照片窗口，特写拍摄卷帘门上的涂鸦艺术，包含问号、感叹号、花朵图案以及“Mating Kim”等文字。"
+    },
+    {
+      "id": "frame_graffiti",
+      "kind": "frame",
+      "bbox": [
+        48,
+        445,
+        480,
+        628
+      ],
+      "description": "围绕左侧涂鸦照片的白色手绘粗线条边框，与上方相框风格一致。",
+      "photo_id": [
+        "photo_graffiti"
+      ]
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        515,
+        470,
+        740,
+        490
+      ],
+      "description": "半透明的胶带贴纸效果，上面印有模糊的英文小字，用于装饰拼贴。"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        495,
+        715,
+        515
+      ],
+      "description": "蓝灰色的胶带贴纸效果，位于第一块胶带下方，印有模糊的文字。"
+    },
+    {
+      "id": "overlay_label",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        520,
+        760,
+        540
+      ],
+      "description": "白色小标签，上面印有黑色中文“抹茶”，位于冰淇淋照片左上角。"
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        500,
+        525,
+        935,
+        830
+      ],
+      "description": "竖向矩形照片窗口，展示一碗抹茶和香草双拼冰淇淋，插着黑色勺子，背景有一个木质底座上的小猫摆件。"
+    },
+    {
+      "id": "frame_icecream",
+      "kind": "frame",
+      "bbox": [
+        475,
+        510,
+        950,
+        845
+      ],
+      "description": "围绕右下方冰淇淋照片的白色手绘粗线条边框。",
+      "photo_id": [
+        "photo_icecream"
+      ]
+    },
+    {
+      "id": "overlay_pencil",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        685,
+        85,
+        725
+      ],
+      "description": "白色手绘铅笔图标，位于左下角文字旁。"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        100,
+        680,
+        440,
+        875
+      ],
+      "text": "It's a lovely\nthing to know\na place well\nenough that\nyou know\nwhen the sun\nwill be there",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "text_intro",
+    "overlay_bubble",
+    "overlay_cat",
+    "photo_shop",
+    "frame_shop",
+    "overlay_car",
+    "photo_graffiti",
+    "frame_graffiti",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "overlay_label",
+    "photo_icecream",
+    "frame_icecream",
+    "overlay_pencil",
+    "text_poem"
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1132
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1132
+      ],
+      "description": "户外咖啡馆场景的连续摄影底图，包含木质桌面、绿植、建筑立面和天空，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "户外咖啡馆场景的连续摄影底图，包含木质桌面、绿植、建筑立面和",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        69,
+        44,
+        540,
+        662
+      ],
+      "description": "左上人物半身照片，女子身穿白色无袖上衣，坐在木质桌前，背景为咖啡馆室内环境，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左上人物半身照片，女子身穿白色无袖上衣，坐在木质桌前，背景为",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        312,
+        694,
+        824,
+        1072
+      ],
+      "description": "右下食物特写照片，包含咖啡、蛋糕、书本和餐具，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右下食物特写照片，包含咖啡、蛋糕、书本和餐具，保留照片内的摄",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        59,
+        44,
+        549,
+        662
+      ],
+      "description": "围绕左上人物照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕左上人物照片的白色手绘风格矩形框，覆盖照片边缘并位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        303,
+        694,
+        832,
+        1072
+      ],
+      "description": "围绕右下食物照片的白色手绘风格矩形框，覆盖照片边缘并位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕右下食物照片的白色手绘风格矩形框，覆盖照片边缘并位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        775,
+        252,
+        1007
+      ],
+      "description": "左下角白色手绘风格贴纸，包含文字和猫头图案，作为独立固定装饰保留。",
+      "label": "左下角白色手绘风格贴纸，包含文字和猫头图案，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        104,
+        781,
+        216,
+        838
+      ],
+      "description": "NICE\nDAY",
+      "label": "NICE\nDAY",
+      "method": "local",
+      "text": "NICE\nDAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_decor",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        453,
+        765,
+        645
+      ],
+      "description": "右侧白色手绘风格卡通熊图案贴纸，作为独立固定装饰保留。",
+      "label": "右侧白色手绘风格卡通熊图案贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        215,
+        765,
+        272
+      ],
+      "description": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_2",
+      "kind": "overlay",
+      "bbox": [
+        639,
+        119,
+        675,
+        164
+      ],
+      "description": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_3",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        509,
+        567,
+        560
+      ],
+      "description": "右侧中间白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "右侧中间白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_4",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        713,
+        850,
+        758
+      ],
+      "description": "右侧中间白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "右侧中间白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_5",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        979,
+        320,
+        1036
+      ],
+      "description": "左下角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "左下角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_6",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        374,
+        50,
+        419
+      ],
+      "description": "左上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "左上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_7",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        328,
+        45,
+        362
+      ],
+      "description": "左上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "左上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_8",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        74,
+        558,
+        108
+      ],
+      "description": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "右上角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_9",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        804,
+        882,
+        849
+      ],
+      "description": "右下角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "label": "右下角白色手绘风格星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        340,
+        702,
+        396
+      ],
+      "description": "右侧白色手绘风格螺旋图案贴纸，作为独立固定装饰保留。",
+      "label": "右侧白色手绘风格螺旋图案贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "frame_top",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_text",
+    "text_1",
+    "overlay_decor",
+    "overlay_stars",
+    "overlay_stars_2",
+    "overlay_stars_3",
+    "overlay_stars_4",
+    "overlay_stars_5",
+    "overlay_stars_6",
+    "overlay_stars_7",
+    "overlay_stars_8",
+    "overlay_stars_9",
+    "overlay_spiral"
+  ]
+}

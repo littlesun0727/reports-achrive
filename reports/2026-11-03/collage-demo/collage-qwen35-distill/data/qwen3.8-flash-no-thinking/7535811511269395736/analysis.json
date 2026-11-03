@@ -1,0 +1,163 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的室内摄影底图，画面主体为一名长发女子坐在地上对着镜子自拍，身穿灰色毛衣和拼布牛仔裤。背景包含木质书桌、置物架及化妆品等环境元素。该照片完整覆盖画布四边，作为底层承载所有装饰元素。",
+      "background_type": "photo",
+      "label": "一张连续的室内摄影底图，画面主体为一名长发女子坐在地上对着镜",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "散布在画面各处的黄色五角星贴纸装饰，带有白色描边，位于人物和家具之上。",
+      "label": "散布在画面各处的黄色五角星贴纸装饰，带有白色描边，位于人物和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_text",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        318,
+        252,
+        570
+      ],
+      "description": "左侧由细小文字排列组成的巨大空心星星图案，具有独特的排版设计感。",
+      "label": "左侧由细小文字排列组成的巨大空心星星图案，具有独特的排版设计",
+      "method": "extract"
+    },
+    {
+      "id": "frame_photo_1",
+      "kind": "frame",
+      "bbox": [
+        441,
+        720,
+        662,
+        888
+      ],
+      "description": "中间偏右位置的一张拍立得风格相纸，带有白色边框，框内是一张女子的面部特写照片。",
+      "photo_id": [
+        "photo_inset_1"
+      ],
+      "label": "中间偏右位置的一张拍立得风格相纸，带有白色边框，框内是一张女",
+      "method": "extract"
+    },
+    {
+      "id": "photo_inset_1",
+      "kind": "photo",
+      "bbox": [
+        450,
+        732,
+        652,
+        876
+      ],
+      "description": "嵌入在相纸框内的照片，显示一名短发女子正对镜头的面部特写，背景可见门框。",
+      "label": "嵌入在相纸框内的照片，显示一名短发女子正对镜头的面部特写，背",
+      "method": "local"
+    },
+    {
+      "id": "frame_photo_2",
+      "kind": "frame",
+      "bbox": [
+        585,
+        804,
+        832,
+        1104
+      ],
+      "description": "右下角的一张拍立得风格相纸，带有白色边框，框内是一张女子坐姿自拍的全身照。",
+      "photo_id": [
+        "photo_inset_2"
+      ],
+      "label": "右下角的一张拍立得风格相纸，带有白色边框，框内是一张女子坐姿",
+      "method": "extract"
+    },
+    {
+      "id": "photo_inset_2",
+      "kind": "photo",
+      "bbox": [
+        594,
+        816,
+        824,
+        1092
+      ],
+      "description": "嵌入在相纸框内的照片，显示一名女子坐在地上手持手机自拍，穿着与主图相同的服装。",
+      "label": "嵌入在相纸框内的照片，显示一名女子坐在地上手持手机自拍，穿着",
+      "method": "local"
+    },
+    {
+      "id": "text_speech_1",
+      "kind": "text",
+      "bbox": [
+        621,
+        174,
+        783,
+        282
+      ],
+      "description": "역시 근황카가요?\n강아지에게\n좋아한다는 말을 들으면",
+      "label": "역시 근황카가요?\n강아지에게\n좋아한다는 말을 들으면",
+      "method": "local",
+      "text": "역시 근황카가요?\n강아지에게\n좋아한다는 말을 들으면",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_speech_2",
+      "kind": "text",
+      "bbox": [
+        756,
+        984,
+        882,
+        1056
+      ],
+      "description": "뭔가가\n그려워지는데.",
+      "label": "뭔가가\n그려워지는데.",
+      "method": "local",
+      "text": "뭔가가\n그려워지는데.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars",
+    "overlay_star_text",
+    "frame_photo_1",
+    "photo_inset_1",
+    "frame_photo_2",
+    "photo_inset_2",
+    "text_speech_1",
+    "text_speech_2"
+  ]
+}

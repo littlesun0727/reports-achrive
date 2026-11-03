@@ -1,0 +1,208 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布白色纤维纹理纸底，四周露出连续的凹凸纸纹；保留纸质纹理，中央牛皮纸板、横线纸及其上照片和装饰分别列出。"
+  },
+  "objects": [
+    {
+      "id": "board",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        63,
+        946,
+        947
+      ],
+      "description": "圆角牛皮纸色底板，具有细密纸纤维和轻微阴影，承托整组拼贴但不形成独立照片窗口。"
+    },
+    {
+      "id": "lined_paper",
+      "kind": "overlay",
+      "bbox": [
+        114,
+        112,
+        890,
+        889
+      ],
+      "description": "覆盖牛皮纸板中央的白色横线纸，保留浅灰横线、纸张质感和完整矩形边缘，不包含上面的照片、标题及贴纸。"
+    },
+    {
+      "id": "clip_sticker",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        11,
+        648,
+        147
+      ],
+      "description": "顶部手绘夹子贴纸，黑色粗线夹子造型、灰米色纸边和手写“clamp!”字样整体保留，跨在牛皮纸板与横线纸上缘。"
+    },
+    {
+      "id": "todo_title",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        177,
+        455,
+        223
+      ],
+      "description": "手绘“# To Do LIST:”标题，包含不规则细线字形和LIST下方双横线，作为完整艺术字保留。"
+    },
+    {
+      "id": "drinks_photo",
+      "kind": "photo",
+      "bbox": [
+        173,
+        270,
+        466,
+        560
+      ],
+      "description": "桌面饮品静物照片，前方排列五杯不同颜色的饮品，后方有印花提袋与纸袋；完整保留桌面及后方摄影环境。照片四周呈白色撕纸状边缘，顶部被波点胶带覆盖，左下边缘被心形贴纸遮挡。"
+    },
+    {
+      "id": "dot_tape",
+      "kind": "overlay",
+      "bbox": [
+        259,
+        242,
+        376,
+        299
+      ],
+      "description": "深棕底白色小圆点胶带，略微倾斜，边缘不齐，跨贴饮品照片顶部。"
+    },
+    {
+      "id": "heart_stickers",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        420,
+        220,
+        572
+      ],
+      "description": "沿饮品照片左侧向下排列的米粉色手绘爱心贴纸组，包含交替的黑色实心与空心爱心、小纸片轮廓及阴影，作为一组完整装饰保留。"
+    },
+    {
+      "id": "selfie_frame",
+      "kind": "frame",
+      "bbox": [
+        493,
+        181,
+        853,
+        545
+      ],
+      "description": "浅灰白色拍立得式相纸框，上方和两侧边窄、底部留白较宽，具有细密纸纹及轻微阴影；右下部分被带字标签遮挡。",
+      "photo_id": [
+        "selfie_photo"
+      ]
+    },
+    {
+      "id": "selfie_photo",
+      "kind": "photo",
+      "bbox": [
+        510,
+        207,
+        836,
+        473
+      ],
+      "description": "两名长发年轻女性的近景合照，前方女性直视镜头并抬手，后方女性闭眼微笑、手靠近脸部；保留身后楼宇与室内外灯光环境，四边由相纸内口裁切，没有沿人物轮廓去背景。"
+    },
+    {
+      "id": "star_stickers",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        167,
+        768,
+        236
+      ],
+      "description": "相框顶部两枚大小不同的粉米色手绘星星组成贴纸组，包含深色星形线条与外侧纸边，较大星星跨压照片上缘。"
+    },
+    {
+      "id": "happy_label",
+      "kind": "overlay",
+      "bbox": [
+        683,
+        454,
+        898,
+        544
+      ],
+      "description": "不规则浅色方格纸标签，带黑色手写“Haaaaaapy”和下行“plog.”及小三角符号；保留纸边、格纹和字形，跨贴相纸右下角。"
+    },
+    {
+      "id": "drink_note",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        575,
+        430,
+        627
+      ],
+      "description": "浅米色细方格纸便签，黑色手写“来一杯续命水！”，字形、格纹和轻微倾斜的纸边整体保留。"
+    },
+    {
+      "id": "toys_photo",
+      "kind": "photo",
+      "bbox": [
+        528,
+        558,
+        872,
+        755
+      ],
+      "description": "多件卡通玩偶、挂件和小包装陈列在灰色地面上的俯拍照片，右侧有较大的凯蒂猫玩偶、上方有白色小狗玩偶；保留全部摄影环境，四周带白色不规则撕纸边。左下部分被另一张照片遮挡，显示窗口不随遮挡缩小。"
+    },
+    {
+      "id": "plush_photo",
+      "kind": "photo",
+      "bbox": [
+        181,
+        633,
+        564,
+        851
+      ],
+      "description": "镜面近景照片，一只做美甲的手握灰色毛绒挂件，左侧露出手机，背景有黑色包袋、线缆及下方局部头发；这些内容属于同一摄影画面。保留环境，四边为白色撕纸状边缘，右上侧叠在玩偶陈列照片之上，左下角被卡通贴纸遮挡。"
+    },
+    {
+      "id": "character_sticker",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        804,
+        312,
+        881
+      ],
+      "description": "左下角白底金棕色线描卡通贴纸组，含两个小动物及周围小冠状涂鸦，完整保留白色外轮廓，覆盖下方照片左下边缘。"
+    },
+    {
+      "id": "nice_day_art",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        756,
+        865,
+        867
+      ],
+      "description": "右下角彩色手绘“HAVE A / NICE DAY”艺术字组合，包含上方彩虹与左侧小蝴蝶涂鸦；各字颜色、手绘线条和不规则位置作为完整装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "board",
+    "lined_paper",
+    "clip_sticker",
+    "todo_title",
+    "drinks_photo",
+    "dot_tape",
+    "heart_stickers",
+    "selfie_frame",
+    "selfie_photo",
+    "star_stickers",
+    "happy_label",
+    "drink_note",
+    "toys_photo",
+    "plush_photo",
+    "character_sticker",
+    "nice_day_art"
+  ]
+}

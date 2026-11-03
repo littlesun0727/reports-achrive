@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布连续的米白色纤维纸纹底，四边及照片、涂鸦之间均可见相同细碎纹理与自然色差；保留纸质底图，照片和独立手绘装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_fast_food",
+      "kind": "photo",
+      "bbox": [
+        355,
+        175,
+        640,
+        391
+      ],
+      "description": "俯拍快餐桌面，黄色格纹桌布上摆有披萨、炸鸡、薯条和多杯饮料，无人物。保留完整摄影环境，矩形边缘清晰，下部被其他照片遮挡。"
+    },
+    {
+      "id": "photo_small_desserts",
+      "kind": "photo",
+      "bbox": [
+        236,
+        359,
+        428,
+        517
+      ],
+      "description": "略微倾斜的甜品桌面照片，包含动物造型甜点、杯装甜品和浅色盘碟，后方有包装盒，无人物。保留桌面环境，右侧和底部被相邻照片遮挡。"
+    },
+    {
+      "id": "photo_cakes",
+      "kind": "photo",
+      "bbox": [
+        402,
+        386,
+        616,
+        488
+      ],
+      "description": "深色圆桌上摆放多份浅色蛋糕、后方高杯甜品及前方小饮品，无人物。保留桌面摄影环境，照片下缘被前方餐食照片遮挡。"
+    },
+    {
+      "id": "photo_steak",
+      "kind": "photo",
+      "bbox": [
+        582,
+        317,
+        795,
+        511
+      ],
+      "description": "向右倾斜的餐厅桌面照片，包含牛排、薯条、沙拉、面包、餐具及饮料，无清晰人物主体。保留暗色餐厅环境，左下及下缘被其他照片遮挡。"
+    },
+    {
+      "id": "photo_rice",
+      "kind": "photo",
+      "bbox": [
+        178,
+        484,
+        385,
+        729
+      ],
+      "description": "略微倾斜的餐食照片，前景为铺有煎蛋和肉菜的大碗饭，后方有沙拉、饼及玻璃杯，无人物。保留整个餐桌环境，右边被中央照片覆盖，下缘被手绘碗装饰遮住。"
+    },
+    {
+      "id": "photo_bread_pan",
+      "kind": "photo",
+      "bbox": [
+        382,
+        482,
+        608,
+        596
+      ],
+      "description": "近距离拍摄黑色餐盘中的厚切烤面包、肉类与红色配菜，保留桌面及后方餐具环境，无人物。下部被披萨照片覆盖，右侧被甜品照片遮挡。"
+    },
+    {
+      "id": "photo_pizza",
+      "kind": "photo",
+      "bbox": [
+        380,
+        586,
+        627,
+        736
+      ],
+      "description": "餐桌上的披萨近景，上部可见奶酪与黑橄榄，下部为绿色蔬菜和碎料配料，无人物。保留摄影环境，与上方烤面包照片存在独立裁切接缝；右侧及下缘被甜品照片和手绘碗遮挡。"
+    },
+    {
+      "id": "photo_ice_desserts",
+      "kind": "photo",
+      "bbox": [
+        598,
+        493,
+        825,
+        714
+      ],
+      "description": "略微倾斜的桌面甜品照片，上方为芒果与白色冰品，下方为绿色冰淇淋、青提、谷物及彩色丸子组成的大碗甜品，无人物。两碗及桌面共同保留，底部被手绘碗沿遮挡。"
+    },
+    {
+      "id": "overlay_utensils",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        141,
+        290,
+        317
+      ],
+      "description": "左上方黑色粗糙手绘叉子与勺子组合，保留不规则轮廓和蜡笔质感，内部露出纸底。"
+    },
+    {
+      "id": "overlay_top_loop",
+      "kind": "overlay",
+      "bbox": [
+        761,
+        82,
+        879,
+        130
+      ],
+      "description": "右上方独立黑色手绘弧线，中央带向下卷曲的小环，保留粗糙笔触。"
+    },
+    {
+      "id": "overlay_right_spiral",
+      "kind": "overlay",
+      "bbox": [
+        819,
+        391,
+        918,
+        468
+      ],
+      "description": "画面右侧独立黑色螺旋涂鸦，保留开放端点与不均匀笔触。"
+    },
+    {
+      "id": "overlay_left_curl",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        520,
+        145,
+        653
+      ],
+      "description": "左下侧独立黑色长弧卷线，中部形成环圈，保留蜡笔状边缘。"
+    },
+    {
+      "id": "overlay_bowl",
+      "kind": "overlay",
+      "bbox": [
+        123,
+        687,
+        891,
+        933
+      ],
+      "description": "前景白色手绘大碗装饰，包含黑色粗糙碗沿、弧形碗身、底座和手写“My Daily Plog”字样。文字位置与笔画不规则，随整件装饰保留；上沿覆盖多张照片底部，不构成独立照片窗口。"
+    }
+  ],
+  "layer_order": [
+    "photo_fast_food",
+    "photo_small_desserts",
+    "photo_steak",
+    "photo_cakes",
+    "photo_rice",
+    "photo_bread_pan",
+    "photo_pizza",
+    "photo_ice_desserts",
+    "overlay_utensils",
+    "overlay_top_loop",
+    "overlay_right_spiral",
+    "overlay_left_curl",
+    "overlay_bowl"
+  ]
+}

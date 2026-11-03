@@ -1,0 +1,176 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布固定底图，呈现带有水珠的透明玻璃质感，背景为浅灰蓝色调，并叠加有深灰色的几何线条（类似窗框或百叶窗的阴影）。此底图作为固定设计单元保留，不替换。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，呈现带有水珠的透明玻璃质感，背景为浅灰蓝色调",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_vintage",
+      "kind": "photo",
+      "bbox": [
+        95,
+        175,
+        470,
+        547
+      ],
+      "description": "左上角照片，展示一家名为 'HANDSOME VINTAGE' 的店铺外观，墙面有涂鸦，门口挂着招牌，保留摄影环境。",
+      "label": "左上角照片，展示一家名为 'HANDSOME VINTAGE",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        470,
+        427,
+        743,
+        708
+      ],
+      "description": "右侧照片，展示一个黑色圆形蛋糕，表面有彩色糖针和韩文装饰，置于白色包装盒内，保留摄影环境。",
+      "label": "右侧照片，展示一个黑色圆形蛋糕，表面有彩色糖针和韩文装饰，置",
+      "method": "local"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        236,
+        626,
+        515,
+        895
+      ],
+      "description": "中下方照片，展示一丛盛开的白色花朵，背景为深色，保留摄影环境。",
+      "label": "中下方照片，展示一丛盛开的白色花朵，背景为深色，保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_books",
+      "kind": "photo",
+      "bbox": [
+        41,
+        859,
+        320,
+        1140
+      ],
+      "description": "左下角照片，展示几本蓝色封面的书籍平放在深色圆形物体上，旁边有绿色织物，保留摄影环境。",
+      "label": "左下角照片，展示几本蓝色封面的书籍平放在深色圆形物体上，旁边",
+      "method": "local"
+    },
+    {
+      "id": "photo_bag",
+      "kind": "photo",
+      "bbox": [
+        401,
+        859,
+        515,
+        1087
+      ],
+      "description": "中下方照片，展示一个印有 'MUJI' 标志的米色购物袋，保留摄影环境。",
+      "label": "中下方照片，展示一个印有 'MUJI' 标志的米色购物袋，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_road",
+      "kind": "photo",
+      "bbox": [
+        515,
+        799,
+        695,
+        1087
+      ],
+      "description": "右下角照片，展示带有白色标线的蓝色沥青路面，保留摄影环境。",
+      "label": "右下角照片，展示带有白色标线的蓝色沥青路面，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        383,
+        847,
+        497,
+        931
+      ],
+      "description": "位于购物袋上方的白色线条小狗头像贴纸，作为独立装饰保留。",
+      "label": "位于购物袋上方的白色线条小狗头像贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw1",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        487,
+        149,
+        547
+      ],
+      "description": "左侧照片左下角的白色爪印贴纸。",
+      "label": "左侧照片左下角的白色爪印贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw2",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        559,
+        209,
+        619
+      ],
+      "description": "左侧照片下方的白色爪印贴纸。",
+      "label": "左侧照片下方的白色爪印贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        689,
+        727,
+        887,
+        1159
+      ],
+      "description": "I love you\nyou know that.\n= And I\nwill love\nyou forever",
+      "label": "I love you\nyou know that.\n= An",
+      "method": "local",
+      "text": "I love you\nyou know that.\n= And I\nwill love\nyou forever",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg_pattern",
+    "photo_vintage",
+    "photo_cake",
+    "photo_flowers",
+    "photo_books",
+    "photo_bag",
+    "photo_road",
+    "overlay_dog",
+    "overlay_paw1",
+    "overlay_paw2",
+    "text_love"
+  ]
+}

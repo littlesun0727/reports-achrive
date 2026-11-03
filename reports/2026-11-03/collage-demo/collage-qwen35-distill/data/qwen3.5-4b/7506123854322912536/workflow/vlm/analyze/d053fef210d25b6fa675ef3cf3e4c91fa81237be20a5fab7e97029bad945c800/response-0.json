@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-8523449ea9162737",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7707,
+    "completion_tokens": 760,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"灰白色砖墙与地面构成的连续摄影底图，纹理清晰，完整覆盖画布；上层照片、花卉装饰和网格图案遮挡局部，保留墙体与地面的连续性及被遮挡关系。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        77,\n        128,\n        755,\n        447\n      ],\n      \"description\": \"上方人物半身照片，人物手托下巴，背景为绿植与白色栏杆，保留完整摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        296,\n        586,\n        901,\n        882\n      ],\n      \"description\": \"下方人物半身照片，人物直视镜头，背景为室内座椅，保留完整摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_flowers\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        436,\n        1000,\n        656\n      ],\n      \"description\": \"横向花束装饰，包含绿叶与白色雏菊，覆盖在砖墙与照片之间，作为独立固定单元保留。\"\n    },\n    {\n      \"id\": \"overlay_grid_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        64,\n        166,\n        206\n      ],\n      \"description\": \"左上角四叶草网格图案，半透明，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_grid_top_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        656,\n        336,\n        876,\n        486\n      ],\n      \"description\": \"右上角四叶草网格图案，半透明，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_grid_bottom_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        159,\n        741,\n        374,\n        919\n      ],\n      \"description\": \"左下角四叶草网格图案，半透明，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_grid_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        826,\n        826,\n        1000,\n        936\n      ],\n      \"description\": \"右下角四叶草网格图案，半透明，作为独立装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_flowers\",\n    \"overlay_grid_top_left\",\n    \"overlay_grid_top_right\",\n    \"overlay_grid_bottom_left\",\n    \"overlay_grid_bottom_right\"\n  ]\n}",
+  "tool_calls": false
+}

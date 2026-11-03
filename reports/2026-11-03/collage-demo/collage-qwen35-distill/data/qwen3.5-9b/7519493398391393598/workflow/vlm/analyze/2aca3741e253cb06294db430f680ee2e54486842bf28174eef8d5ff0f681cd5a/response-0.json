@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b171886d28067b06",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7753,
+    "completion_tokens": 834,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"denim_base\",\n    \"description\": \"深蓝色牛仔布纹理底图，覆盖全画布，包含白色小圆点装饰和星星图案；两张照片嵌入其中，底图保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        106,\n        66,\n        888,\n        456\n      ],\n      \"description\": \"上方人物照片，人物手托脸颊，身穿粉色上衣，坐在窗边，桌上有饮料和书本，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        106,\n        536,\n        888,\n        936\n      ],\n      \"description\": \"下方人物照片，人物手持书本，身穿粉色上衣，坐在窗边，桌上有饮料，保留摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_star_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        18,\n        24,\n        206,\n        174\n      ],\n      \"description\": \"左上角蓝色星星图案，带有白色小点，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_star_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        38,\n        174,\n        106,\n        234\n      ],\n      \"description\": \"左侧中部蓝色星星图案，带有白色小点，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_star_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        234,\n        456,\n        322,\n        536\n      ],\n      \"description\": \"中间偏左蓝色星星图案，带有白色小点，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_star_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        818,\n        126,\n        982,\n        286\n      ],\n      \"description\": \"右上角蓝色星星图案，带有白色小点，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_star_5\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        798,\n        456,\n        982,\n        616\n      ],\n      \"description\": \"右侧中部蓝色星星图案，带有白色小点，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_star_6\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        234,\n        876,\n        362,\n        976\n      ],\n      \"description\": \"左下角蓝色星星图案，带有白色小点，作为独立装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_star_1\",\n    \"overlay_star_2\",\n    \"overlay_star_3\",\n    \"overlay_star_4\",\n    \"overlay_star_5\",\n    \"overlay_star_6\"\n  ]\n}",
+  "tool_calls": false
+}

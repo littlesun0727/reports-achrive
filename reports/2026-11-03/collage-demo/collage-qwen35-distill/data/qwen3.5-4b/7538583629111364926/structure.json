@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的水下摄影画面，包含流动的水面纹理、光线折射效果、漂浮的金鱼以及底部的草地。主体人物位于画面中央，周围环绕着多个屏幕，整体环境由客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_character",
+      "kind": "photo",
+      "bbox": [
+        256,
+        126,
+        755,
+        768
+      ],
+      "description": "中央人物背影照片，白色长发，身穿蓝色上衣和深色裙子，周围有金鱼漂浮，保留水下摄影环境。"
+    },
+    {
+      "id": "photo_screen_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        96,
+        268,
+        380
+      ],
+      "description": "左上角屏幕内的照片，显示两个角色在红色背景前，保留屏幕内的摄影环境。"
+    },
+    {
+      "id": "photo_screen_2",
+      "kind": "photo",
+      "bbox": [
+        745,
+        100,
+        1000,
+        285
+      ],
+      "description": "右上角屏幕内的照片，显示两个角色在金色背景前，保留屏幕内的摄影环境。"
+    },
+    {
+      "id": "photo_screen_3",
+      "kind": "photo",
+      "bbox": [
+        815,
+        395,
+        1000,
+        545
+      ],
+      "description": "右侧屏幕内的照片，显示两个角色在绿色背景前，保留屏幕内的摄影环境。"
+    },
+    {
+      "id": "photo_screen_4",
+      "kind": "photo",
+      "bbox": [
+        0,
+        575,
+        170,
+        750
+      ],
+      "description": "左下角屏幕内的照片，显示两个角色在紫色花丛前，保留屏幕内的摄影环境。"
+    },
+    {
+      "id": "photo_screen_5",
+      "kind": "photo",
+      "bbox": [
+        535,
+        735,
+        740,
+        900
+      ],
+      "description": "右下角屏幕内的照片，显示两个角色在蓝色背景前，保留屏幕内的摄影环境。"
+    },
+    {
+      "id": "frame_screen_1",
+      "kind": "frame",
+      "bbox": [
+        0,
+        96,
+        268,
+        380
+      ],
+      "description": "左上角屏幕的黑色边框，承载 photo_screen_1。",
+      "photo_id": [
+        "photo_screen_1"
+      ]
+    },
+    {
+      "id": "frame_screen_2",
+      "kind": "frame",
+      "bbox": [
+        745,
+        100,
+        1000,
+        285
+      ],
+      "description": "右上角屏幕的黑色边框，承载 photo_screen_2。",
+      "photo_id": [
+        "photo_screen_2"
+      ]
+    },
+    {
+      "id": "frame_screen_3",
+      "kind": "frame",
+      "bbox": [
+        815,
+        395,
+        1000,
+        545
+      ],
+      "description": "右侧屏幕的黑色边框，承载 photo_screen_3。",
+      "photo_id": [
+        "photo_screen_3"
+      ]
+    },
+    {
+      "id": "frame_screen_4",
+      "kind": "frame",
+      "bbox": [
+        0,
+        575,
+        170,
+        750
+      ],
+      "description": "左下角屏幕的黑色边框，承载 photo_screen_4。",
+      "photo_id": [
+        "photo_screen_4"
+      ]
+    },
+    {
+      "id": "frame_screen_5",
+      "kind": "frame",
+      "bbox": [
+        535,
+        735,
+        740,
+        900
+      ],
+      "description": "右下角屏幕的黑色边框，承载 photo_screen_5。",
+      "photo_id": [
+        "photo_screen_5"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_character",
+    "photo_screen_1",
+    "photo_screen_2",
+    "photo_screen_3",
+    "photo_screen_4",
+    "photo_screen_5",
+    "frame_screen_1",
+    "frame_screen_2",
+    "frame_screen_3",
+    "frame_screen_4",
+    "frame_screen_5"
+  ]
+}

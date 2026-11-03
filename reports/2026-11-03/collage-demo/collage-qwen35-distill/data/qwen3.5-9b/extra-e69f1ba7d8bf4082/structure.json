@@ -1,0 +1,251 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "黄昏时分的城市街道摄影底图，天空呈粉紫色渐变，左侧有电线杆和建筑，右侧有高楼，地面有行人和车辆。整张底图覆盖全画布，作为所有拼贴元素的承载背景。"
+  },
+  "objects": [
+    {
+      "id": "frame_board",
+      "kind": "frame",
+      "bbox": [
+        115,
+        125,
+        905,
+        880
+      ],
+      "description": "米色硬纸板拼贴板，作为所有照片、文字和装饰的承载载体，位于照片下方，被回形针固定。",
+      "photo_id": [
+        "photo_sea",
+        "photo_grill",
+        "photo_writing",
+        "photo_polaroid",
+        "photo_person"
+      ]
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        170,
+        190,
+        410,
+        325
+      ],
+      "description": "海洋风景照片，显示蓝色海面和船舷栏杆，左上角有'summer paradise'标签，右上角有文字'The throbbing of summer is a grand encounter'。"
+    },
+    {
+      "id": "photo_grill",
+      "kind": "photo",
+      "bbox": [
+        438,
+        185,
+        825,
+        360
+      ],
+      "description": "烧烤食物照片，显示烤架上的肉串、碗中的泡菜、青椒和豆腐，右上角有'focus on the good'标签，左侧有'Data:'文字。"
+    },
+    {
+      "id": "photo_writing",
+      "kind": "photo",
+      "bbox": [
+        325,
+        355,
+        480,
+        475
+      ],
+      "description": "人物写字照片，显示一人坐在桌前写字，桌上有笔记本和蓝色物品，左侧有文字'The best journeys start with a one-way ticket in hand and no plan in mind'。"
+    },
+    {
+      "id": "photo_polaroid",
+      "kind": "photo",
+      "bbox": [
+        170,
+        550,
+        465,
+        815
+      ],
+      "description": "拍立得风格照片，显示一人站在石墙前的草地上，下方有'Arrebol'文字。"
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        545,
+        550,
+        805,
+        705
+      ],
+      "description": "人物照片，显示一人穿着灰色背心和白色裤子站在车旁，右下角有'To be continued'标签。"
+    },
+    {
+      "id": "overlay_starfish",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        290,
+        230,
+        350
+      ],
+      "description": "白色海星装饰贴纸，位于海洋照片左下角。"
+    },
+    {
+      "id": "overlay_clip_top",
+      "kind": "overlay",
+      "bbox": [
+        305,
+        65,
+        395,
+        160
+      ],
+      "description": "金属回形针，位于拼贴板顶部中央，用于固定。"
+    },
+    {
+      "id": "overlay_clip_bottom",
+      "kind": "overlay",
+      "bbox": [
+        325,
+        820,
+        405,
+        940
+      ],
+      "description": "金属回形针，位于拼贴板底部中央，用于固定。"
+    },
+    {
+      "id": "overlay_note1",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        170,
+        250,
+        230
+      ],
+      "description": "带有'summer paradise'文字的标签贴纸，位于海洋照片左上角。"
+    },
+    {
+      "id": "overlay_note2",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        160,
+        850,
+        210
+      ],
+      "description": "带有'focus on the good'文字的标签贴纸，位于烧烤照片右上角。"
+    },
+    {
+      "id": "overlay_note3",
+      "kind": "overlay",
+      "bbox": [
+        440,
+        340,
+        505,
+        365
+      ],
+      "description": "带有'LITTLE THINGS make big days'文字的标签贴纸，位于烧烤照片左下角。"
+    },
+    {
+      "id": "overlay_note4",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        525,
+        875,
+        590
+      ],
+      "description": "带有'joy has a habit of returning.'文字的标签贴纸，位于人物照片右上角。"
+    },
+    {
+      "id": "overlay_note5",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        715,
+        705,
+        775
+      ],
+      "description": "黄色便签纸，带有手写英文文字，位于人物照片下方。"
+    },
+    {
+      "id": "overlay_note6",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        715,
+        850,
+        775
+      ],
+      "description": "蓝色饮料瓶和沙漏的装饰贴纸，位于黄色便签纸右侧。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        160,
+        370,
+        315,
+        450
+      ],
+      "text": "The best journeys start with a one-way ticket in hand and no plan in mind",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        650,
+        360,
+        870,
+        480
+      ],
+      "text": "Happy\nChildren's Day",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        590,
+        790,
+        850,
+        845
+      ],
+      "text": "The best souvenir is the person you became while no one was watching",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_board",
+    "photo_sea",
+    "photo_grill",
+    "photo_writing",
+    "photo_polaroid",
+    "photo_person",
+    "overlay_starfish",
+    "overlay_clip_top",
+    "overlay_clip_bottom",
+    "overlay_note1",
+    "overlay_note2",
+    "overlay_note3",
+    "overlay_note4",
+    "overlay_note5",
+    "overlay_note6",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

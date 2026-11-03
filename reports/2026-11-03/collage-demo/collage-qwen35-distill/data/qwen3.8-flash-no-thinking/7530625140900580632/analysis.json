@@ -1,0 +1,213 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的镜面自拍摄影底图，画面主体为一名身穿黑白拼接裙装的女子在电梯内对着镜子拍照，背景包含金属门框、花纹地毯及室内灯光。该照片覆盖整个画布，作为所有装饰元素的底层环境。",
+      "background_type": "photo",
+      "label": "一张连续的镜面自拍摄影底图，画面主体为一名身穿黑白拼接裙装的",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_ui_top",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        28,
+        806,
+        80
+      ],
+      "description": "位于顶部的白色相机界面图标组，包括左侧关闭叉号、中间闪光灯符号和右侧省略号圆圈。",
+      "label": "位于顶部的白色相机界面图标组，包括左侧关闭叉号、中间闪光灯符",
+      "method": "extract"
+    },
+    {
+      "id": "text_korean_1",
+      "kind": "text",
+      "bbox": [
+        76,
+        220,
+        328,
+        259
+      ],
+      "description": "너와 함께.ɔ",
+      "label": "너와 함께.ɔ",
+      "method": "local",
+      "text": "너와 함께.ɔ",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_symbols_1",
+      "kind": "text",
+      "bbox": [
+        213,
+        314,
+        321,
+        354
+      ],
+      "description": "-',♡,'-",
+      "label": "-',♡,'-",
+      "method": "local",
+      "text": "-',♡,'-",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_heart_tr",
+      "kind": "photo",
+      "bbox": [
+        619,
+        136,
+        842,
+        408
+      ],
+      "description": "右上角的心形窗口照片，显示一名女子坐在户外台阶上，周围有白色虚线描边效果。",
+      "label": "右上角的心形窗口照片，显示一名女子坐在户外台阶上，周围有白色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sticker_im_me_tr",
+      "kind": "overlay",
+      "bbox": [
+        796,
+        244,
+        868,
+        324
+      ],
+      "description": "位于右上心形照片旁的“I ME”贴纸，带有粉色爱心图案。",
+      "label": "位于右上心形照片旁的“I ME”贴纸，带有粉色爱心图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_im_me_center",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        318,
+        544,
+        498
+      ],
+      "description": "位于画面中央遮挡人物面部的圆形“I ME”贴纸，具有明显的白色发光边缘。",
+      "label": "位于画面中央遮挡人物面部的圆形“I ME”贴纸，具有明显的白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ui_left",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        408,
+        99,
+        720
+      ],
+      "description": "左侧垂直排列的白色相机界面图标，包括Aa字体、空心爱心、九宫格和向下箭头。",
+      "label": "左侧垂直排列的白色相机界面图标，包括Aa字体、空心爱心、九宫",
+      "method": "extract"
+    },
+    {
+      "id": "photo_heart_bl",
+      "kind": "photo",
+      "bbox": [
+        96,
+        714,
+        320,
+        948
+      ],
+      "description": "左下角的心形窗口照片，显示一名女子抱着一只猫，周围有白色虚线描边效果。",
+      "label": "左下角的心形窗口照片，显示一名女子抱着一只猫，周围有白色虚线",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sticker_im_me_bl",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        846,
+        148,
+        942
+      ],
+      "description": "位于左下照片旁的“I ME”贴纸，带有粉色爱心图案。",
+      "label": "位于左下照片旁的“I ME”贴纸，带有粉色爱心图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_box_br",
+      "kind": "overlay",
+      "bbox": [
+        610,
+        714,
+        832,
+        870
+      ],
+      "description": "右下角的半透明白色矩形文本框，内部包含韩文诗句排版。",
+      "label": "右下角的半透明白色矩形文本框，内部包含韩文诗句排版。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ui_bottom",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        996,
+        774,
+        1176
+      ],
+      "description": "底部的相机操作界面，包含模式选择文字（SLO-MO, VIDEO, PHOTO等）、快门按钮及切换摄像头图标。",
+      "label": "底部的相机操作界面，包含模式选择文字（SLO-MO, VID",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        189,
+        96,
+        837,
+        936
+      ],
+      "description": "散布在画面各处的白色五角星装饰元素。",
+      "label": "散布在画面各处的白色五角星装饰元素。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_ui_top",
+    "text_korean_1",
+    "text_symbols_1",
+    "photo_heart_tr",
+    "overlay_sticker_im_me_tr",
+    "overlay_sticker_im_me_center",
+    "overlay_ui_left",
+    "photo_heart_bl",
+    "overlay_sticker_im_me_bl",
+    "overlay_text_box_br",
+    "overlay_ui_bottom",
+    "overlay_stars"
+  ]
+}

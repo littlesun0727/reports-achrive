@@ -1,0 +1,336 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    838
+  ],
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        838
+      ],
+      "description": "左侧连续摄影底图，包含人物全身照、树林、石墙和天空，完整显示区域延伸至画布左半部分及顶部；右侧照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "左侧连续摄影底图，包含人物全身照、树林、石墙和天空，完整显示",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        599,
+        46,
+        899,
+        222
+      ],
+      "description": "右上室内场景照片，书架、画作和杂物构成完整摄影画面，显示区域为矩形。",
+      "label": "右上室内场景照片，书架、画作和杂物构成完整摄影画面，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        599,
+        256,
+        899,
+        432
+      ],
+      "description": "右中人物坐姿照片，保留人物及身后的摄影环境，显示区域为矩形。",
+      "label": "右中人物坐姿照片，保留人物及身后的摄影环境，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        599,
+        465,
+        899,
+        641
+      ],
+      "description": "右下局部特写照片，展示手部、手链和包袋，保留摄影环境，显示区域为矩形。",
+      "label": "右下局部特写照片，展示手部、手链和包袋，保留摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "overlay_border",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        0,
+        599,
+        838
+      ],
+      "description": "垂直白色蕾丝花边装饰，位于左右两部分之间，作为独立固定单元保留。",
+      "label": "垂直白色蕾丝花边装饰，位于左右两部分之间，作为独立固定单元保",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        162,
+        46,
+        297,
+        88
+      ],
+      "description": "<333",
+      "label": "<333",
+      "method": "local",
+      "text": "<333",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFA07A",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        387,
+        46,
+        450,
+        88
+      ],
+      "description": "<3",
+      "label": "<3",
+      "method": "local",
+      "text": "<3",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        45,
+        172,
+        117,
+        214
+      ],
+      "description": "<333",
+      "label": "<333",
+      "method": "local",
+      "text": "<333",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFA07A",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        387,
+        256,
+        450,
+        297
+      ],
+      "description": "<333",
+      "label": "<333",
+      "method": "local",
+      "text": "<333",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFA07A",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        117,
+        339,
+        162,
+        381
+      ],
+      "description": "<3",
+      "label": "<3",
+      "method": "local",
+      "text": "<3",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        45,
+        507,
+        117,
+        549
+      ],
+      "description": "<333",
+      "label": "<333",
+      "method": "local",
+      "text": "<333",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFA07A",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        450,
+        507,
+        513,
+        549
+      ],
+      "description": "<3",
+      "label": "<3",
+      "method": "local",
+      "text": "<3",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_8",
+      "kind": "text",
+      "bbox": [
+        0,
+        675,
+        54,
+        716
+      ],
+      "description": "<3",
+      "label": "<3",
+      "method": "local",
+      "text": "<3",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_9",
+      "kind": "text",
+      "bbox": [
+        810,
+        172,
+        837,
+        197
+      ],
+      "description": "(1)",
+      "label": "(1)",
+      "method": "local",
+      "text": "(1)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_10",
+      "kind": "text",
+      "bbox": [
+        810,
+        297,
+        837,
+        323
+      ],
+      "description": "(2)",
+      "label": "(2)",
+      "method": "local",
+      "text": "(2)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_11",
+      "kind": "text",
+      "bbox": [
+        810,
+        507,
+        837,
+        532
+      ],
+      "description": "(3)",
+      "label": "(3)",
+      "method": "local",
+      "text": "(3)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_border",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7",
+    "text_8",
+    "text_9",
+    "text_10",
+    "text_11"
+  ]
+}

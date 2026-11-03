@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海滩摄影底图，包含蓝天、远山、沙滩、海水及水中游泳的人群，完整显示区域延伸至画布四边；前景人物和饮料遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        350,
+        330,
+        650,
+        680
+      ],
+      "description": "前景人物照片，女性戴草帽、穿蓝白条纹长袖上衣，闭眼微笑，保留人物及身后的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        70,
+        650,
+        380,
+        1000
+      ],
+      "description": "前景饮料照片，透明塑料杯装黄色饮品，插有黄色冰棒，保留杯身及背景，显示区域为矩形。"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        920,
+        920,
+        1000,
+        980
+      ],
+      "text": "小红书\n小红书号：sisi520_",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_person",
+    "photo_drink",
+    "text_watermark"
+  ]
+}

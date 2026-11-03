@@ -1,0 +1,189 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "海边岩石、沙滩、栈道、大海和天空构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "海边岩石、沙滩、栈道、大海和天空构成连续摄影底图，完整显示区",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        192,
+        153,
+        579,
+        521
+      ],
+      "description": "左上风景照片，展示海面、船只和前景树枝，保留完整摄影环境。",
+      "label": "左上风景照片，展示海面、船只和前景树枝，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        517,
+        325,
+        958,
+        919
+      ],
+      "description": "右侧人物照片，展示穿白色连衣裙的女性在海边岩石上挥手，保留完整摄影环境。",
+      "label": "右侧人物照片，展示穿白色连衣裙的女性在海边岩石上挥手，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        85,
+        870,
+        593,
+        1210
+      ],
+      "description": "左下风景照片，展示海边栈道、骑自行车的人和前景松树，保留完整摄影环境。",
+      "label": "左下风景照片，展示海边栈道、骑自行车的人和前景松树，保留完整",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        119,
+        662,
+        642,
+        691
+      ],
+      "description": "Life isn't perfect but your outfit can be.",
+      "label": "Life isn't perfect but your ou",
+      "method": "local",
+      "text": "Life isn't perfect but your outfit can be.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        531,
+        1074,
+        907,
+        1146
+      ],
+      "description": "Travel is the spice of life, but remember,\noccasionally life itself needs to be\nthe spice sprinkled on our journey.",
+      "label": "Travel is the spice of life, b",
+      "method": "local",
+      "text": "Travel is the spice of life, but remember,\noccasionally life itself needs to be\nthe spice sprinkled on our journey.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        698,
+        395,
+        944,
+        415
+      ],
+      "description": "An unexpected surprise.",
+      "label": "An unexpected surprise.",
+      "method": "local",
+      "text": "An unexpected surprise.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        147,
+        138,
+        363,
+        204
+      ],
+      "description": "You're a Sunday morning\nKind of beauty",
+      "label": "You're a Sunday morning\nKind o",
+      "method": "local",
+      "text": "You're a Sunday morning\nKind of beauty",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        703,
+        271,
+        792,
+        360
+      ],
+      "description": "银色回形针装饰，位于右侧照片上方。",
+      "label": "银色回形针装饰，位于右侧照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        772,
+        158,
+        942
+      ],
+      "description": "白色水滴形状装饰，位于左下照片左侧。",
+      "label": "白色水滴形状装饰，位于左下照片左侧。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_right",
+    "photo_bottom_left",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "overlay_clip",
+    "overlay_drops"
+  ]
+}

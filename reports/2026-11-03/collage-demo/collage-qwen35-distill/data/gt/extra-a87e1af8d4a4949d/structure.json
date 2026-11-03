@@ -1,0 +1,263 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的高山草甸摄影画面覆盖全画布，大片蓝天延伸至上方及左右边缘，下方为雪山、绿色山坡和暗色草地，右下有一匹侧身马。天空与山地环境整体替换；上层照片、文字及月亮装饰遮挡局部，不改变底图完整范围。"
+  },
+  "objects": [
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        257,
+        41,
+        746,
+        83
+      ],
+      "text": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "color": "#D2DFEB",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_panel",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        185,
+        810,
+        341
+      ],
+      "description": "横向半透明深蓝色矩形面板，可透见下层蓝天，位于月亮装饰后方，无照片承托或窗口功能。"
+    },
+    {
+      "id": "overlay_moon_title",
+      "kind": "overlay",
+      "bbox": [
+        229,
+        101,
+        740,
+        181
+      ],
+      "description": "深蓝色手绘英文Moon，字母高低错落，两侧附黄色短笔画，保留整组自由笔触及其位置关系。"
+    },
+    {
+      "id": "overlay_spring_moon",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        270,
+        193,
+        671
+      ],
+      "description": "左侧黄色发光弯月及向下延伸的深蓝色手绘长线，长线垂至春季照片框上方，月亮柔光和线条整体保留。"
+    },
+    {
+      "id": "overlay_summer_moon",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        211,
+        316,
+        450
+      ],
+      "description": "左中黄色发光弯月，深蓝色细长手绘线从月亮下方垂向夏季照片框顶部，保留月面斑驳及周围柔光。"
+    },
+    {
+      "id": "overlay_upper_left_moon",
+      "kind": "overlay",
+      "bbox": [
+        343,
+        170,
+        422,
+        231
+      ],
+      "description": "上方偏左独立黄色发光弯月，带斑驳月面和柔和黄色光晕。"
+    },
+    {
+      "id": "overlay_center_mobile",
+      "kind": "overlay",
+      "bbox": [
+        379,
+        152,
+        611,
+        836
+      ],
+      "description": "中央黄色满月由一根深蓝手绘长线连接下方黄色五角星；星星有蓝色轮廓、简笔表情和橙色面颊，周围附蓝色放射短线。整件垂挂装饰保留。"
+    },
+    {
+      "id": "overlay_upper_right_moon",
+      "kind": "overlay",
+      "bbox": [
+        599,
+        170,
+        679,
+        232
+      ],
+      "description": "上方偏右独立黄色发光月亮，左侧略有缺口，保留斑驳月面与柔和光晕。"
+    },
+    {
+      "id": "overlay_autumn_moon",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        210,
+        785,
+        386
+      ],
+      "description": "右中黄色发光月亮及下垂的深蓝手绘细线，线条延伸至秋季照片框上方，保留月面纹理与光晕。"
+    },
+    {
+      "id": "overlay_winter_moon",
+      "kind": "overlay",
+      "bbox": [
+        816,
+        267,
+        889,
+        620
+      ],
+      "description": "右侧黄色发光弯月及向下延伸的深蓝手绘长线，垂至冬季照片框上方，保留完整月亮柔光与线条。"
+    },
+    {
+      "id": "photo_summer",
+      "kind": "photo",
+      "bbox": [
+        238,
+        458,
+        388,
+        607
+      ],
+      "description": "竖向照片，一人戴帽背对镜头坐在水边，人物位于下部，远处为城市建筑剪影与橙色落日天空。保留水面、天空及完整摄影环境，四边按照片内口显示，无主体去背景。"
+    },
+    {
+      "id": "frame_summer",
+      "kind": "frame",
+      "bbox": [
+        207,
+        436,
+        417,
+        624
+      ],
+      "description": "夏季照片的深蓝色粗糙手绘框，顶部融入Summer字样，侧边带短线和点状笔触，框沿及附属装饰整体保留。",
+      "photo_id": [
+        "photo_summer"
+      ]
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        628,
+        401,
+        780,
+        553
+      ],
+      "description": "竖向湖边照片，一名戴帽人物背对镜头站在黑色栏杆前，位于右下部；上方可见垂落树枝，远处有湖面、山岸、蓝天和白云。保留完整摄影环境，沿内口裁切。"
+    },
+    {
+      "id": "frame_autumn",
+      "kind": "frame",
+      "bbox": [
+        600,
+        378,
+        803,
+        565
+      ],
+      "description": "秋季照片的深蓝色手绘框，顶部叠有Autumn字样，左右附短线和点状笔触；保留不规则框沿及全部附属笔画。",
+      "photo_id": [
+        "photo_autumn"
+      ]
+    },
+    {
+      "id": "photo_spring",
+      "kind": "photo",
+      "bbox": [
+        77,
+        679,
+        249,
+        852
+      ],
+      "description": "竖向人物照片，一名戴浅色帽、穿黑白条纹外衣的女子侧身站在木栏杆旁，人物位于左下部，身后是浓密红褐色植物。保留栏杆与植物环境，沿照片内口裁切。"
+    },
+    {
+      "id": "frame_spring",
+      "kind": "frame",
+      "bbox": [
+        45,
+        645,
+        273,
+        866
+      ],
+      "description": "春季照片的深蓝色手绘框，顶部大幅Spring字样跨过照片上缘，左右附短线和点状笔触；不规则框线、文字与附属装饰作为完整框体保留。",
+      "photo_id": [
+        "photo_spring"
+      ]
+    },
+    {
+      "id": "photo_winter",
+      "kind": "photo",
+      "bbox": [
+        827,
+        633,
+        965,
+        766
+      ],
+      "description": "右侧竖向室内照片，一名深色短发人物背对镜头坐在窗前，抬起一只手臂，窗外可见绿色植物，右侧为白色窗框。保留室内外摄影环境，按内口裁切，不去背景。"
+    },
+    {
+      "id": "frame_winter",
+      "kind": "frame",
+      "bbox": [
+        804,
+        607,
+        991,
+        776
+      ],
+      "description": "冬季照片的深蓝色手绘框，顶部为Winter字样，两侧带点状和短线笔触，保留完整不规则框沿、文字及附属装饰。",
+      "photo_id": [
+        "photo_winter"
+      ]
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        333,
+        930,
+        668,
+        955
+      ],
+      "text": "在无数个瞬间里感受自己",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_panel",
+    "overlay_moon_title",
+    "overlay_spring_moon",
+    "overlay_summer_moon",
+    "overlay_upper_left_moon",
+    "overlay_center_mobile",
+    "overlay_upper_right_moon",
+    "overlay_autumn_moon",
+    "overlay_winter_moon",
+    "photo_summer",
+    "photo_autumn",
+    "photo_spring",
+    "photo_winter",
+    "frame_summer",
+    "frame_autumn",
+    "frame_spring",
+    "frame_winter",
+    "text_top",
+    "text_bottom"
+  ]
+}

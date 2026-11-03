@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "公园草地与树木的连续摄影底图，阳光斑驳，完整显示区域延伸至画布四边；上层照片、文字和贴纸遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "公园草地与树木的连续摄影底图，阳光斑驳，完整显示区域延伸至画",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_goldfish",
+      "kind": "photo",
+      "bbox": [
+        302,
+        156,
+        630,
+        634
+      ],
+      "description": "袋中金鱼照片，保留袋内水波与光影，显示区域为竖向矩形，位于画布中上部。",
+      "label": "袋中金鱼照片，保留袋内水波与光影，显示区域为竖向矩形，位于画",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        113,
+        568,
+        482,
+        934
+      ],
+      "description": "猫在步道上行走的照片，保留步道与草地环境，显示区域为竖向矩形，位于画布左中部。",
+      "label": "猫在步道上行走的照片，保留步道与草地环境，显示区域为竖向矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        531,
+        670,
+        810,
+        1078
+      ],
+      "description": "树林与草地照片，保留阳光与树影，显示区域为竖向矩形，位于画布右下部。",
+      "label": "树林与草地照片，保留阳光与树影，显示区域为竖向矩形，位于画布",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        113,
+        970,
+        482,
+        1066
+      ],
+      "description": "Collect today's lush greenery\nand gentle breeze",
+      "label": "Collect today's lush greenery\n",
+      "method": "local",
+      "text": "Collect today's lush greenery\nand gentle breeze",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        675,
+        580,
+        828,
+        622
+      ],
+      "description": "Meet summer.",
+      "label": "Meet summer.",
+      "method": "local",
+      "text": "Meet summer.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        96,
+        342,
+        216
+      ],
+      "description": "金色胶带贴纸，位于画布左上角，压在背景之上。",
+      "label": "金色胶带贴纸，位于画布左上角，压在背景之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        648,
+        711,
+        696
+      ],
+      "description": "金色胶带贴纸，位于画布右侧中部，压在背景之上。",
+      "label": "金色胶带贴纸，位于画布右侧中部，压在背景之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        96,
+        855,
+        360
+      ],
+      "description": "白色星形装饰，位于画布右上角，压在背景之上。",
+      "label": "白色星形装饰，位于画布右上角，压在背景之上。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_goldfish",
+    "photo_cat",
+    "photo_trees",
+    "text_1",
+    "text_2",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "overlay_stars"
+  ]
+}

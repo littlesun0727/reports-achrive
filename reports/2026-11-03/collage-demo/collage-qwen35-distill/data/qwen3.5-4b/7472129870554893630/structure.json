@@ -1,0 +1,65 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "desktop_wallpaper",
+    "description": "电脑桌面壁纸，包含左侧应用列表（日历、音乐等）和顶部状态栏，右侧为模糊背景；中央叠加白色备忘录窗口，遮挡部分壁纸内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        205,
+        235,
+        790,
+        568
+      ],
+      "description": "上方人物特写照片，戴浅蓝色眼镜，手持黄色食物，保留面部及背景环境，位于备忘录窗口内。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        207,
+        615,
+        788,
+        958
+      ],
+      "description": "下方人物特写照片，戴透明眼镜，手持蓝色物品，保留面部及背景环境，位于备忘录窗口内。"
+    },
+    {
+      "id": "frame_memo",
+      "kind": "frame",
+      "bbox": [
+        195,
+        65,
+        845,
+        995
+      ],
+      "description": "白色备忘录窗口框架，包含顶部导航栏、照片区域及底部空白区，覆盖桌面壁纸，承载两张照片。",
+      "photo_id": [
+        "photo_top",
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "overlay_scratches",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "全画布覆盖的划痕纹理层，包含细线、斑点及模糊效果，叠加于所有对象之上。"
+    }
+  ],
+  "layer_order": [
+    "frame_memo",
+    "photo_top",
+    "photo_bottom",
+    "overlay_scratches"
+  ]
+}

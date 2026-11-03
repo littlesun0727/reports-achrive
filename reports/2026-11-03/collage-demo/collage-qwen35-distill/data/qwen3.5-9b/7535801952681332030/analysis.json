@@ -1,0 +1,120 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "户外草地与溪流场景的连续摄影底图，包含绿色草地、黄色野花、右侧流动的溪水、左上角的岩石堆以及底部人物的下半身（绿色裤子与黄色上衣）。画布边缘露出的摄影环境完整，作为全画布底图承载所有上层对象。",
+      "background_type": "photo",
+      "label": "户外草地与溪流场景的连续摄影底图，包含绿色草地、黄色野花、右",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_yellow",
+      "kind": "frame",
+      "bbox": [
+        232,
+        91,
+        689,
+        391
+      ],
+      "description": "黄色矩形相框，位于画布中上部，承载上方马匹照片，相框边缘完整可见。",
+      "photo_id": [
+        "photo_horses"
+      ],
+      "label": "黄色矩形相框，位于画布中上部，承载上方马匹照片，相框边缘完整",
+      "method": "extract"
+    },
+    {
+      "id": "photo_horses",
+      "kind": "photo",
+      "bbox": [
+        275,
+        120,
+        646,
+        362
+      ],
+      "description": "马匹照片，显示三匹马在草原上吃草，背景为日落天空与远山，前景有手持手机拍摄的画面，照片内容完整。",
+      "label": "马匹照片，显示三匹马在草原上吃草，背景为日落天空与远山，前景",
+      "method": "local"
+    },
+    {
+      "id": "frame_dotted",
+      "kind": "frame",
+      "bbox": [
+        234,
+        453,
+        697,
+        752
+      ],
+      "description": "白色矩形相框，边缘带有彩色圆点装饰，位于画布中部，承载花束照片，相框边缘完整可见。",
+      "photo_id": [
+        "photo_flowers"
+      ],
+      "label": "白色矩形相框，边缘带有彩色圆点装饰，位于画布中部，承载花束照",
+      "method": "extract"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        277,
+        482,
+        648,
+        721
+      ],
+      "description": "花束照片，显示一只手拿着由多种野花组成的花环，背景为开阔的草地与天空，照片内容完整。",
+      "label": "花束照片，显示一只手拿着由多种野花组成的花环，背景为开阔的草",
+      "method": "local"
+    },
+    {
+      "id": "frame_purple",
+      "kind": "frame",
+      "bbox": [
+        234,
+        812,
+        697,
+        1112
+      ],
+      "description": "紫色矩形相框，位于画布下部，承载水果篮照片，相框边缘完整可见。",
+      "photo_id": [
+        "photo_fruits"
+      ],
+      "label": "紫色矩形相框，位于画布下部，承载水果篮照片，相框边缘完整可见",
+      "method": "extract"
+    },
+    {
+      "id": "photo_fruits",
+      "kind": "photo",
+      "bbox": [
+        277,
+        841,
+        648,
+        1081
+      ],
+      "description": "水果篮照片，显示一个编织篮中装有桃子、李子等水果，照片内容完整。",
+      "label": "水果篮照片，显示一个编织篮中装有桃子、李子等水果，照片内容完",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_yellow",
+    "photo_horses",
+    "frame_dotted",
+    "photo_flowers",
+    "frame_purple",
+    "photo_fruits"
+  ]
+}

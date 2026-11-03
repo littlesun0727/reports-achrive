@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-2d192474-c3f2-9020-8162-8ef4179f1a4f",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6611,
+    "total_tokens": 6852,
+    "completion_tokens": 241,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 730,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 241
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base_eye\",\n    \"description\": \"一张连续的人眼特写摄影底图，完整覆盖画布。画面包含眉毛、眼睑皮肤、睫毛及瞳孔区域，整体色调柔和明亮。上层叠加的人物照片遮挡了部分瞳孔细节，但周围的眼部环境（如虹膜纹理、反光点）仍作为底图的一部分保留。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_in_pupil\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        340,\n        450,\n        620,\n        590\n      ],\n      \"description\": \"位于瞳孔中心区域的矩形人物照片，显示一名年轻男性的半身像，背景为星空图案。该照片被裁剪以适应眼睛形状，边缘带有发光的蓝色光环效果，属于独立可替换的摄影内容。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_in_pupil\"\n  ]\n}",
+  "tool_calls": false
+}

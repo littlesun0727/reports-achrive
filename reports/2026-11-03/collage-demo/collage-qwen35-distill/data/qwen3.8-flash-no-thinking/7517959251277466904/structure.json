@@ -1,0 +1,167 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影底图，画面为模糊的浅蓝色海水与天空背景，延伸至画布四边。上层三张独立照片和装饰遮挡了局部，但底层环境连续且完整覆盖全幅。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        107,
+        25,
+        253,
+        128
+      ],
+      "description": "白色手绘海星线条图案，位于左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_paperclip_top",
+      "kind": "overlay",
+      "bbox": [
+        436,
+        46,
+        539,
+        96
+      ],
+      "description": "银色回形针图案，位于顶部中间，部分压在上方照片边缘上。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        857,
+        163,
+        936,
+        220
+      ],
+      "description": "白色手绘海星线条图案，位于右上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        188,
+        73,
+        825,
+        341
+      ],
+      "description": "上方矩形照片，显示一位戴草帽的女性在海边，背景有蓝天、白云和海面，人物姿态自然。"
+    },
+    {
+      "id": "text_island",
+      "kind": "text",
+      "bbox": [
+        71,
+        398,
+        225,
+        431
+      ],
+      "text": "Island",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_star_small",
+      "kind": "overlay",
+      "bbox": [
+        232,
+        398,
+        278,
+        431
+      ],
+      "description": "小型白色手绘海星图案，紧邻文字右侧，作为独立装饰保留。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        185,
+        364,
+        820,
+        634
+      ],
+      "description": "中间矩形照片，特写一只手托着多个贝壳，背景为沙滩，光影清晰。"
+    },
+    {
+      "id": "text_sunsea",
+      "kind": "text",
+      "bbox": [
+        620,
+        560,
+        936,
+        592
+      ],
+      "text": "Sun sea serenity.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        825,
+        451,
+        882,
+        496
+      ],
+      "description": "白色手绘海星线条图案，位于中间照片右侧空白处。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        188,
+        664,
+        820,
+        928
+      ],
+      "description": "下方矩形照片，显示同一位戴草帽女性在清澈水面前微笑，阳光洒在脸上形成光斑。"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        788,
+        892,
+        836
+      ],
+      "description": "白色手绘鱼形线条图案，位于底部照片右下角区域。"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        793,
+        156,
+        841
+      ],
+      "description": "白色手绘海星线条图案，位于左下角，靠近底部照片左侧。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_star_top_left",
+    "overlay_paperclip_top",
+    "overlay_star_right",
+    "text_island",
+    "overlay_star_small",
+    "text_sunsea",
+    "overlay_star_mid_right",
+    "overlay_fish",
+    "overlay_star_bottom_left"
+  ]
+}

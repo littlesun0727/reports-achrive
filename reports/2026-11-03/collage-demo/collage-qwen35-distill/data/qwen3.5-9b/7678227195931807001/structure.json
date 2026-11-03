@@ -1,0 +1,141 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅黄绿色纹理纸底，带有横向条纹和模糊的红色/橙色光斑，作为全画布固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        78,
+        60,
+        430,
+        250
+      ],
+      "text": "LOVE: |lʌv| - n.\n1. an intense affection for another person based on personal or familial ties.\n2. the deep tenderness, affection, and concern felt for a person with whom one has a relationship.",
+      "color": "#8AC6D6",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        355,
+        50,
+        850,
+        335
+      ],
+      "description": "上方横向照片，展示公园树林和草地，天空可见，保留摄影环境。"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        38,
+        382,
+        448,
+        615
+      ],
+      "description": "左侧竖向照片，展示粉色花朵和绿叶，保留摄影环境。"
+    },
+    {
+      "id": "photo_sprinkler",
+      "kind": "photo",
+      "bbox": [
+        548,
+        530,
+        955,
+        768
+      ],
+      "description": "右下方横向照片，展示草坪洒水器和棕榈树，保留摄影环境。"
+    },
+    {
+      "id": "photo_tree_up",
+      "kind": "photo",
+      "bbox": [
+        198,
+        662,
+        512,
+        970
+      ],
+      "description": "左下方竖向照片，展示仰视的树冠和蓝天，保留摄影环境。"
+    },
+    {
+      "id": "frame_flowers",
+      "kind": "frame",
+      "bbox": [
+        15,
+        330,
+        500,
+        670
+      ],
+      "description": "围绕左侧花朵照片的不规则白色描边框，作为固定载体保留。",
+      "photo_id": [
+        "photo_flowers"
+      ]
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        475,
+        915,
+        600
+      ],
+      "description": "灰色回形针贴纸，压在右侧照片上方，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        685,
+        235,
+        825
+      ],
+      "description": "两个米色五角星贴纸，位于左下照片左侧，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        225,
+        925,
+        405
+      ],
+      "description": "一组蓝色和粉色手绘气泡及星星装饰，位于右上照片右侧，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_decor",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        775,
+        910,
+        840
+      ],
+      "description": "一组白色线条绘制的星星、圆点和加号装饰，位于右下照片下方，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_trees",
+    "photo_flowers",
+    "photo_sprinkler",
+    "photo_tree_up",
+    "frame_flowers",
+    "overlay_stars",
+    "overlay_bubbles",
+    "overlay_clip",
+    "text_love",
+    "overlay_decor"
+  ]
+}

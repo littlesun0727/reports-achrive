@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "birthday_backdrop",
+    "description": "全画布连续的生日主题固定底图，包含浅色横向条纹与反光质感、上半部彩色斑驳印刷Happy Birthday字样、顶部橙黄气球、边缘枝叶及散落彩纸。相同底图在照片四周和间隙连续可见；保留这些固定设计，不包含叠放的三张照片及右下白色艺术字。"
+  },
+  "objects": [
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        59,
+        419,
+        404,
+        676
+      ],
+      "description": "左侧心形照片，展示生日桌上的粉色、黄色花束、细长蜡烛和桌面器皿，无人物，保留摄影环境。整个心形显示区域略有倾斜，沿心形窗口外围有白色圆头虚线描边，描边与照片共同记录。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        450,
+        416,
+        940,
+        901
+      ],
+      "description": "右侧竖向照片，一名长发女子戴小皇冠、穿粉色露肩裙，闭眼合掌坐在生日桌前；保留后方人物线描画、灰色墙面及前方蝴蝶结蛋糕、花束、玻璃杯和蜡烛。照片沿矩形窗口显示，外围有白色圆头虚线描边；左下部分被另一张照片遮挡，下部被白色艺术字覆盖。"
+    },
+    {
+      "id": "photo_dress",
+      "kind": "photo",
+      "bbox": [
+        98,
+        690,
+        548,
+        976
+      ],
+      "description": "左下横向照片，一名戴皇冠的长发女子穿粉色蓬裙及长手套，坐着转向镜头微笑，手持气球细绳；保留背景墙画、座椅、上方局部气球及前景蜡烛和花朵。圆角矩形显示窗口外围带白色圆头虚线描边，整张照片叠在右侧照片左下方。"
+    },
+    {
+      "id": "birthday_lettering",
+      "kind": "overlay",
+      "bbox": [
+        533,
+        788,
+        931,
+        976
+      ],
+      "description": "右下白色手写艺术字Happy Birthday，两行字具有大小错落、连笔和延伸笔画，连同周围白色弧线、短线及小卷曲点缀作为完整装饰保留，覆盖右侧人物照片下部。"
+    }
+  ],
+  "layer_order": [
+    "photo_flowers",
+    "photo_portrait",
+    "photo_dress",
+    "birthday_lettering"
+  ]
+}

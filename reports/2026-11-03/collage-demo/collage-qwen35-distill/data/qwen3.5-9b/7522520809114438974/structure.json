@@ -1,0 +1,112 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "雨天撑伞视角的连续摄影底图，包含雨滴、伞骨、伞下地面及鞋子，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        650,
+        80,
+        900,
+        240
+      ],
+      "description": "右上角绿色树叶特写照片，保留树叶及背景，左上角有米色胶带装饰。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        70,
+        750,
+        320,
+        920
+      ],
+      "description": "左下角雨滴特写照片，保留雨滴及背景，四周有白色胶带装饰。"
+    },
+    {
+      "id": "overlay_four_leaf",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        320,
+        850,
+        420
+      ],
+      "description": "绿色四叶草贴纸，中心有白色卡通形象，位于文字框右上方。"
+    },
+    {
+      "id": "text_cn",
+      "kind": "text",
+      "bbox": [
+        200,
+        420,
+        500,
+        520
+      ],
+      "text": "消失的下雨天，\n我好想再淋一遍。",
+      "color": "#000000",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_en",
+      "kind": "text",
+      "bbox": [
+        500,
+        600,
+        900,
+        650
+      ],
+      "text": "Disappearing rainy days,\nI want to get wet for another day.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_rainy",
+      "kind": "text",
+      "bbox": [
+        130,
+        780,
+        250,
+        820
+      ],
+      "text": "Rainy",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        700,
+        950,
+        850
+      ],
+      "description": "白色水滴装饰，分布在照片下方区域，独立于摄影内容。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_right",
+    "photo_bottom_left",
+    "overlay_four_leaf",
+    "text_cn",
+    "text_en",
+    "text_rainy",
+    "overlay_drops"
+  ]
+}

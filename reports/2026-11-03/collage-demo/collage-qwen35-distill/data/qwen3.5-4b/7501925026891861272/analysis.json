@@ -1,0 +1,288 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1212
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1212
+      ],
+      "description": "带有黄色波点的白色固定底图，承载四张独立照片及装饰元素；照片与贴纸独立替换，底图纹理保留。",
+      "background_type": "reference_clean",
+      "label": "带有黄色波点的白色固定底图，承载四张独立照片及装饰元素；照片",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        186,
+        56,
+        599,
+        280
+      ],
+      "description": "第一张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "label": "第一张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        186,
+        343,
+        599,
+        567
+      ],
+      "description": "第二张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "label": "第二张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        186,
+        618,
+        599,
+        842
+      ],
+      "description": "第三张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "label": "第三张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        186,
+        899,
+        599,
+        1124
+      ],
+      "description": "第四张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "label": "第四张人物照片，展示人物面部特写，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_biscuits",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        15,
+        186,
+        80
+      ],
+      "description": "饼干图案贴纸，位于第一张照片左上角。",
+      "label": "饼干图案贴纸，位于第一张照片左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_1",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        15,
+        630,
+        80
+      ],
+      "description": "黄色蝴蝶结贴纸，位于第一张照片右上角。",
+      "label": "黄色蝴蝶结贴纸，位于第一张照片右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_1",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        145,
+        186,
+        263
+      ],
+      "description": "棕色小熊玩偶贴纸，位于第一张照片左侧。",
+      "label": "棕色小熊玩偶贴纸，位于第一张照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_biscuit_2",
+      "kind": "overlay",
+      "bbox": [
+        186,
+        145,
+        239,
+        212
+      ],
+      "description": "饼干图案贴纸，位于第一张照片左下角。",
+      "label": "饼干图案贴纸，位于第一张照片左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_2",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        263,
+        630,
+        330
+      ],
+      "description": "黄色蝴蝶结贴纸，位于第二张照片右上角。",
+      "label": "黄色蝴蝶结贴纸，位于第二张照片右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_3",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        343,
+        186,
+        410
+      ],
+      "description": "黄色蝴蝶结贴纸，位于第二张照片左侧。",
+      "label": "黄色蝴蝶结贴纸，位于第二张照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bread",
+      "kind": "overlay",
+      "bbox": [
+        459,
+        470,
+        540,
+        537
+      ],
+      "description": "面包图案贴纸，位于第二张照片右侧。",
+      "label": "面包图案贴纸，位于第二张照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_2",
+      "kind": "overlay",
+      "bbox": [
+        509,
+        618,
+        599,
+        727
+      ],
+      "description": "戴眼镜的小熊玩偶贴纸，位于第三张照片右侧。",
+      "label": "戴眼镜的小熊玩偶贴纸，位于第三张照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cup",
+      "kind": "overlay",
+      "bbox": [
+        239,
+        618,
+        304,
+        686
+      ],
+      "description": "咖啡杯图案贴纸，位于第三张照片左侧。",
+      "label": "咖啡杯图案贴纸，位于第三张照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_3",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        899,
+        140,
+        966
+      ],
+      "description": "小熊头像贴纸，位于第四张照片左侧。",
+      "label": "小熊头像贴纸，位于第四张照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_4",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        966,
+        140,
+        1033
+      ],
+      "description": "小熊头像贴纸，位于第四张照片左侧。",
+      "label": "小熊头像贴纸，位于第四张照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_5",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        1033,
+        140,
+        1099
+      ],
+      "description": "小熊头像贴纸，位于第四张照片左侧。",
+      "label": "小熊头像贴纸，位于第四张照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_6",
+      "kind": "overlay",
+      "bbox": [
+        421,
+        978,
+        599,
+        1099
+      ],
+      "description": "趴着的小熊玩偶贴纸，位于第四张照片右下角。",
+      "label": "趴着的小熊玩偶贴纸，位于第四张照片右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        186,
+        842,
+        439,
+        899
+      ],
+      "description": "てんてんかいしん",
+      "label": "てんてんかいしん",
+      "method": "local",
+      "text": "てんてんかいしん",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_biscuits",
+    "overlay_bow_1",
+    "overlay_bear_1",
+    "overlay_biscuit_2",
+    "overlay_bow_2",
+    "overlay_bow_3",
+    "overlay_bread",
+    "overlay_bear_2",
+    "overlay_cup",
+    "overlay_bear_3",
+    "overlay_bear_4",
+    "overlay_bear_5",
+    "overlay_bear_6",
+    "text_1"
+  ]
+}

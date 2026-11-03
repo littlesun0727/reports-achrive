@@ -1,0 +1,218 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1188
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1188
+      ],
+      "description": "室内木质背景，包含深色木桌、木柜及后方模糊的彩色条纹物体，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内木质背景，包含深色木桌、木柜及后方模糊的彩色条纹物体，构",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        110,
+        145,
+        488,
+        525
+      ],
+      "description": "手持打开的书籍照片，书页上有黑白猫咪插画和韩文文字，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "手持打开的书籍照片，书页上有黑白猫咪插画和韩文文字，保留照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_face",
+      "kind": "photo",
+      "bbox": [
+        110,
+        703,
+        488,
+        1083
+      ],
+      "description": "人物面部特写照片，人物有深色长发，嘴里含着一小块食物，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "人物面部特写照片，人物有深色长发，嘴里含着一小块食物，保留照",
+      "method": "local"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        0,
+        703,
+        110,
+        1083
+      ],
+      "description": "一杯咖啡的照片，杯子为深色，放在蓝白格纹桌布上，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "一杯咖啡的照片，杯子为深色，放在蓝白格纹桌布上，保留照片内的",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        488,
+        703,
+        900,
+        1083
+      ],
+      "description": "一块切开的蛋糕照片，蛋糕有巧克力和奶油层，放在盘子上，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "一块切开的蛋糕照片，蛋糕有巧克力和奶油层，放在盘子上，保留照",
+      "method": "local"
+    },
+    {
+      "id": "photo_stone",
+      "kind": "photo",
+      "bbox": [
+        488,
+        430,
+        821,
+        763
+      ],
+      "description": "石墙上的涂鸦照片，石墙上有一个简单的猫咪简笔画和两个心形，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "石墙上的涂鸦照片，石墙上有一个简单的猫咪简笔画和两个心形，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        488,
+        145,
+        821,
+        430
+      ],
+      "description": "彩色条纹物体的局部照片，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "彩色条纹物体的局部照片，保留照片内的摄影环境，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "overlay_atom",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        97,
+        146,
+        192
+      ],
+      "description": "蓝色原子模型装饰，位于左上角，作为独立固定装饰保留。",
+      "label": "蓝色原子模型装饰，位于左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud1",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        264,
+        110,
+        359
+      ],
+      "description": "白色云朵装饰，位于左侧，作为独立固定装饰保留。",
+      "label": "白色云朵装饰，位于左侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        560,
+        145,
+        632,
+        311
+      ],
+      "description": "青色气泡装饰，位于右上角，作为独立固定装饰保留。",
+      "label": "青色气泡装饰，位于右上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        311,
+        776,
+        406
+      ],
+      "description": "白色兔子装饰，位于右上角，作为独立固定装饰保留。",
+      "label": "白色兔子装饰，位于右上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud2",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        798,
+        560,
+        893
+      ],
+      "description": "白色云朵装饰，位于右下角，作为独立固定装饰保留。",
+      "label": "白色云朵装饰，位于右下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        929,
+        146,
+        1024
+      ],
+      "description": "白色音符装饰，位于左下角，作为独立固定装饰保留。",
+      "label": "白色音符装饰，位于左下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        29,
+        549,
+        281,
+        644
+      ],
+      "description": "The light slowly softens, the sky fading from orange to lilac. Doing nothing but watching this gentle fade, as if everything can be forgiven, everything embraced.",
+      "label": "The light slowly softens, the ",
+      "method": "local",
+      "text": "The light slowly softens, the sky fading from orange to lilac. Doing nothing but watching this gentle fade, as if everything can be forgiven, everything embraced.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_book",
+    "photo_face",
+    "photo_coffee",
+    "photo_cake",
+    "photo_stone",
+    "photo_top_right",
+    "overlay_atom",
+    "overlay_cloud1",
+    "overlay_bubbles",
+    "overlay_rabbit",
+    "overlay_cloud2",
+    "overlay_music",
+    "text_1"
+  ]
+}

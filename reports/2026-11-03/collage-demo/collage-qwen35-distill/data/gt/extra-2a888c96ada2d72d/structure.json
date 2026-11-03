@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        366
+      ],
+      "description": "顶部独立雪山风景照片，无人物；蓝天白云下，黑色岩峰和大面积积雪占据画面，近处岩石延伸至两侧。保留完整摄影环境，下边缘柔和渐隐，与中部照片的远山树林叠接，拍摄视角不连续。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        322,
+        1000,
+        699
+      ],
+      "description": "中部独立游客合影场景，中央偏右为戴白灰毛线帽、穿白色羽绒服的长发女子半身近景，手抬至下巴附近，面向镜头；左侧两名背向游客，右侧另有游客。保留远处雪山、树林、屋顶和栏杆，不沿人物轮廓去背景。上下边缘柔和渐隐，与两张雪山照片衔接。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        650,
+        1000,
+        1000
+      ],
+      "description": "底部独立雪山远景照片，无人物；浅灰天空下排列多座覆雪尖峰，左下为深色林坡，山体延伸至画布底边和左右边。保留摄影环境，上边缘柔和过渡至中部人物照片，山峰形态与顶部照片不同。"
+    },
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        950,
+        980,
+        972
+      ],
+      "description": "右下角白色圆角胶囊状“小红书”标识，内部深色特殊字形与白色底板作为完整装饰保留。"
+    },
+    {
+      "id": "text_account",
+      "kind": "text",
+      "bbox": [
+        790,
+        976,
+        979,
+        988
+      ],
+      "text": "小红书号：448205581",
+      "color": "#E0E0E0",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_logo",
+    "text_account"
+  ]
+}

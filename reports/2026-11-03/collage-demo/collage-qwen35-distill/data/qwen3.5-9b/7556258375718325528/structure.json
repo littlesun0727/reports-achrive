@@ -1,0 +1,257 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内书店或咖啡馆场景，包含木质书架、书籍、柜台、灯具和墙面，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        137,
+        100,
+        863,
+        500
+      ],
+      "description": "上方人物半身照片，人物戴眼镜、手持紫色玩偶，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        137,
+        500,
+        863,
+        1000
+      ],
+      "description": "下方人物坐姿照片，人物低头看书，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        127,
+        90,
+        873,
+        510
+      ],
+      "description": "围绕上方照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        127,
+        490,
+        873,
+        1000
+      ],
+      "description": "围绕下方照片的白色手绘虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        367,
+        30,
+        633,
+        90
+      ],
+      "text": "Plog",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        77,
+        830,
+        567,
+        960
+      ],
+      "text": "My time is now.\nI live in the present\nand embrace\nmy beautiful life",
+      "color": "#4A6B8C",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_yellow_1",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        100,
+        137,
+        180
+      ],
+      "description": "左上角黄色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_blue_1",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        100,
+        227,
+        180
+      ],
+      "description": "左上角蓝色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_yellow_2",
+      "kind": "overlay",
+      "bbox": [
+        317,
+        220,
+        367,
+        260
+      ],
+      "description": "上方照片内黄色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_purple_1",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        180,
+        797,
+        260
+      ],
+      "description": "上方照片内紫色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_green_1",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        300,
+        317,
+        340
+      ],
+      "description": "上方照片内绿色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_blue_2",
+      "kind": "overlay",
+      "bbox": [
+        877,
+        510,
+        947,
+        590
+      ],
+      "description": "右侧蓝色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_purple_2",
+      "kind": "overlay",
+      "bbox": [
+        677,
+        780,
+        747,
+        860
+      ],
+      "description": "下方照片内紫色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_yellow_3",
+      "kind": "overlay",
+      "bbox": [
+        877,
+        870,
+        947,
+        950
+      ],
+      "description": "右下角黄色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_star_pink_1",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        720,
+        107,
+        800
+      ],
+      "description": "左下角粉色五角星装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_spiral_1",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        270,
+        187,
+        330
+      ],
+      "description": "上方照片内黑色螺旋装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_spiral_2",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        600,
+        827,
+        700
+      ],
+      "description": "下方照片内黑色螺旋装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_spiral_3",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        440,
+        187,
+        500
+      ],
+      "description": "下方照片内黑色螺旋装饰，独立固定单元。"
+    },
+    {
+      "id": "overlay_spiral_4",
+      "kind": "overlay",
+      "bbox": [
+        327,
+        120,
+        387,
+        180
+      ],
+      "description": "上方照片内黑色螺旋装饰，独立固定单元。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "frame_top",
+    "frame_bottom",
+    "overlay_star_yellow_1",
+    "overlay_star_blue_1",
+    "overlay_star_yellow_2",
+    "overlay_star_purple_1",
+    "overlay_star_green_1",
+    "overlay_spiral_1",
+    "overlay_spiral_4",
+    "overlay_star_blue_2",
+    "overlay_star_purple_2",
+    "overlay_star_yellow_3",
+    "overlay_star_pink_1",
+    "overlay_spiral_2",
+    "overlay_spiral_3",
+    "text_title",
+    "text_bottom"
+  ]
+}

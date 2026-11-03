@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "模糊的绿色树林背景，作为连续摄影底图覆盖全画布，位于所有独立对象下方。",
+      "background_type": "photo",
+      "label": "模糊的绿色树林背景，作为连续摄影底图覆盖全画布，位于所有独立",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        115,
+        170,
+        770,
+        1010
+      ],
+      "description": "人物半身近景照片，人物手托脸颊，身穿白色T恤，保留照片内的摄影环境。",
+      "label": "人物半身近景照片，人物手托脸颊，身穿白色T恤，保留照片内的摄",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clover_top",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        72,
+        257,
+        276
+      ],
+      "description": "左上角的绿色四叶草装饰，作为独立固定单元保留。",
+      "label": "左上角的绿色四叶草装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_bottom",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        900,
+        860,
+        1140
+      ],
+      "description": "右下角的绿色四叶草装饰，作为独立固定单元保留。",
+      "label": "右下角的绿色四叶草装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        320,
+        84,
+        851,
+        132
+      ],
+      "description": "+.Clover Melody.♣ + +.",
+      "label": "+.Clover Melody.♣ + +.",
+      "method": "local",
+      "text": "+.Clover Melody.♣ + +.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        59,
+        1008,
+        545,
+        1056
+      ],
+      "description": "9e+.Clover Melody.♣ + +.",
+      "label": "9e+.Clover Melody.♣ + +.",
+      "method": "local",
+      "text": "9e+.Clover Melody.♣ + +.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_bg",
+    "photo_portrait",
+    "overlay_clover_top",
+    "overlay_clover_bottom",
+    "text_top",
+    "text_bottom"
+  ]
+}

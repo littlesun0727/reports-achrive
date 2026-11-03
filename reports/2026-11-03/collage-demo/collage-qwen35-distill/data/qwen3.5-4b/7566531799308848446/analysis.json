@@ -1,0 +1,129 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "带有细微纹理的浅色纸底，包含散落的灰色星星和圆点装饰，整体呈现固定设计效果，保留原样。",
+      "background_type": "reference_clean",
+      "label": "带有细微纹理的浅色纸底，包含散落的灰色星星和圆点装饰，整体呈",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        377,
+        511,
+        778,
+        803
+      ],
+      "description": "人物近景照片，人物戴眼镜和白色连帽外套，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "人物近景照片，人物戴眼镜和白色连帽外套，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_stamp",
+      "kind": "photo",
+      "bbox": [
+        90,
+        751,
+        261,
+        1012
+      ],
+      "description": "人物全身照片，人物戴猫耳帽和白色连帽外套，保留照片内的摄影环境，显示区域为矩形，边缘有邮票齿孔效果。",
+      "label": "人物全身照片，人物戴猫耳帽和白色连帽外套，保留照片内的摄影环",
+      "method": "local"
+    },
+    {
+      "id": "overlay_window",
+      "kind": "overlay",
+      "bbox": [
+        131,
+        352,
+        797,
+        858
+      ],
+      "description": "模拟旧版电脑文件选择窗口的固定设计单元，包含菜单栏、文件列表、预览区域和按钮，覆盖在照片之上。",
+      "label": "模拟旧版电脑文件选择窗口的固定设计单元，包含菜单栏、文件列表",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        563,
+        304,
+        862,
+        336
+      ],
+      "description": "shine cute beautiful ~",
+      "label": "shine cute beautiful ~",
+      "method": "local",
+      "text": "shine cute beautiful ~",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        302,
+        892,
+        526,
+        918
+      ],
+      "description": "happiness! ♥",
+      "label": "happiness! ♥",
+      "method": "local",
+      "text": "happiness! ♥",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_audio",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        880,
+        866,
+        932
+      ],
+      "description": "音频波形图样式的固定装饰单元，包含播放按钮和波形线条。",
+      "label": "音频波形图样式的固定装饰单元，包含播放按钮和波形线条。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_main",
+    "photo_stamp",
+    "overlay_window",
+    "text_top",
+    "text_bottom",
+    "overlay_audio"
+  ]
+}

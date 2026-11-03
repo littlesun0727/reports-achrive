@@ -1,0 +1,376 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "table_scene",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内木质圆桌场景，包含桌面、植物、饮料和人物腿部，作为连续摄影底图承载全画布；上层叠加了多张独立照片、贴纸和文字装饰。",
+      "background_type": "photo",
+      "label": "室内木质圆桌场景，包含桌面、植物、饮料和人物腿部，作为连续摄",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        176,
+        163,
+        560,
+        536
+      ],
+      "description": "方形照片，展示木质桌面上摆放的饼干、蛋糕和饮料，保留桌面纹理和背景环境。",
+      "label": "方形照片，展示木质桌面上摆放的饼干、蛋糕和饮料，保留桌面纹理",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        417,
+        652,
+        802,
+        1072
+      ],
+      "description": "圆形照片，展示木质桌面上摆放的饮料和毛绒玩具，保留桌面纹理和背景环境。",
+      "label": "圆形照片，展示木质桌面上摆放的饮料和毛绒玩具，保留桌面纹理和",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sticker_house",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        124,
+        811,
+        271
+      ],
+      "description": "手绘风格的小房子贴纸，带有黄色椭圆背景和烟花装饰，位于画面右上角。",
+      "label": "手绘风格的小房子贴纸，带有黄色椭圆背景和烟花装饰，位于画面右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_house",
+      "kind": "text",
+      "bbox": [
+        633,
+        493,
+        768,
+        536
+      ],
+      "description": "( 辛かったれ )",
+      "label": "( 辛かったれ )",
+      "method": "local",
+      "text": "( 辛かったれ )",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_sticker_cats",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        727,
+        366,
+        768
+      ],
+      "description": "粉色长条形贴纸，包含四只白色小猫头像和粉色星星装饰。",
+      "label": "粉色长条形贴纸，包含四只白色小猫头像和粉色星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_main",
+      "kind": "text",
+      "bbox": [
+        147,
+        847,
+        402,
+        890
+      ],
+      "description": "「現実と夢の境目。」",
+      "label": "「現実と夢の境目。」",
+      "method": "local",
+      "text": "「現実と夢の境目。」",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_sticker_cake",
+      "kind": "overlay",
+      "bbox": [
+        237,
+        940,
+        336,
+        1024
+      ],
+      "description": "手绘风格的蛋糕贴纸，带有粉色底座和蓝色装饰。",
+      "label": "手绘风格的蛋糕贴纸，带有粉色底座和蓝色装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_leaf",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        856,
+        138,
+        940
+      ],
+      "description": "手绘风格的橙色枫叶贴纸。",
+      "label": "手绘风格的橙色枫叶贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        940,
+        176,
+        988
+      ],
+      "description": "手绘风格的白色五角星贴纸。",
+      "label": "手绘风格的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star2",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        982,
+        210,
+        1012
+      ],
+      "description": "手绘风格的白色五角星贴纸。",
+      "label": "手绘风格的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star3",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        1000,
+        138,
+        1036
+      ],
+      "description": "手绘风格的白色五角星贴纸。",
+      "label": "手绘风格的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star4",
+      "kind": "overlay",
+      "bbox": [
+        741,
+        1024,
+        777,
+        1060
+      ],
+      "description": "手绘风格的白色星星贴纸。",
+      "label": "手绘风格的白色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star5",
+      "kind": "overlay",
+      "bbox": [
+        759,
+        1096,
+        786,
+        1132
+      ],
+      "description": "手绘风格的白色星星贴纸。",
+      "label": "手绘风格的白色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star6",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        1060,
+        813,
+        1084
+      ],
+      "description": "手绘风格的白色星星贴纸。",
+      "label": "手绘风格的白色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star7",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        1060,
+        840,
+        1084
+      ],
+      "description": "手绘风格的白色星星贴纸。",
+      "label": "手绘风格的白色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star8",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        1060,
+        867,
+        1084
+      ],
+      "description": "手绘风格的白色星星贴纸。",
+      "label": "手绘风格的白色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star9",
+      "kind": "overlay",
+      "bbox": [
+        867,
+        1060,
+        885,
+        1084
+      ],
+      "description": "手绘风格的白色星星贴纸。",
+      "label": "手绘风格的白色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_star10",
+      "kind": "overlay",
+      "bbox": [
+        885,
+        1060,
+        900,
+        1084
+      ],
+      "description": "手绘风格的白色星星贴纸。",
+      "label": "手绘风格的白色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_tape",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        127,
+        372,
+        235
+      ],
+      "description": "黄白格纹胶带贴纸，位于顶部照片左上角。",
+      "label": "黄白格纹胶带贴纸，位于顶部照片左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_tape2",
+      "kind": "overlay",
+      "bbox": [
+        687,
+        676,
+        786,
+        754
+      ],
+      "description": "蓝白格纹胶带贴纸，位于底部照片右上角。",
+      "label": "蓝白格纹胶带贴纸，位于底部照片右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_flower",
+      "kind": "overlay",
+      "bbox": [
+        237,
+        592,
+        318,
+        664
+      ],
+      "description": "手绘风格的橙色花朵贴纸。",
+      "label": "手绘风格的橙色花朵贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_book",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        196,
+        183,
+        424
+      ],
+      "description": "手绘风格的书籍贴纸，带有红色蝴蝶结装饰。",
+      "label": "手绘风格的书籍贴纸，带有红色蝴蝶结装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_text_book",
+      "kind": "text",
+      "bbox": [
+        0,
+        244,
+        147,
+        280
+      ],
+      "description": "一只便宜",
+      "label": "一只便宜",
+      "method": "local",
+      "text": "一只便宜",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "table_scene",
+    "photo_top",
+    "photo_bottom",
+    "overlay_sticker_house",
+    "overlay_text_house",
+    "overlay_sticker_cats",
+    "overlay_text_main",
+    "overlay_sticker_cake",
+    "overlay_sticker_leaf",
+    "overlay_sticker_star",
+    "overlay_sticker_star2",
+    "overlay_sticker_star3",
+    "overlay_sticker_star4",
+    "overlay_sticker_star5",
+    "overlay_sticker_star6",
+    "overlay_sticker_star7",
+    "overlay_sticker_star8",
+    "overlay_sticker_star9",
+    "overlay_sticker_star10",
+    "overlay_sticker_tape",
+    "overlay_sticker_tape2",
+    "overlay_sticker_flower",
+    "overlay_sticker_book",
+    "overlay_sticker_text_book"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-4a3c7616-490e-9d60-b9c7-2d41b16c9285",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7336,
+    "completion_tokens": 277,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1178,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 277
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"background\": {\n  \"type\": \"solid_color\",\n  \"color\": \"#F5F4F2\"\n}, \"objects\": [\n  {\n    \"id\": \"photo_top\",\n    \"kind\": \"photo\",\n    \"bbox\": [\n      70,\n      143,\n      768,\n      449\n    ],\n    \"description\": \"上方横向矩形照片，圆角显示。画面为一名长发年轻女子的近景特写，她身穿深色上衣，背景是带有金属网格的观景台和远处的城市风景，阳光从左侧照射进来形成光晕。\"\n  },\n  {\n    \"id\": \"photo_bottom\",\n    \"kind\": \"photo\",\n    \"bbox\": [\n      225,\n      581,\n      925,\n      882\n    ],\n    \"description\": \"下方横向矩形照片，圆角显示。画面为同一名长发女子在观景台上的半身照，面带微笑，右侧有强烈的逆光光斑，背景可见金属围栏、望远镜设施及远处模糊的城市景观。\"\n  }\n], \"layer_order\": [\n  \"photo_top\",\n  \"photo_bottom\"\n]}",
+  "tool_calls": false
+}

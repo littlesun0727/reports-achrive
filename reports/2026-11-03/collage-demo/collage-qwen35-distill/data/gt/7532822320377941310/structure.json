@@ -1,0 +1,187 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_dots",
+    "description": "全画布连续的浅粉色白色大圆点底纹，四周及照片之间均可见；保留底色与圆点排列，照片、黑色框体及叠加装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_lace",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        13,
+        1000,
+        66
+      ],
+      "description": "横贯画布顶部的黑色爱心镂空蕾丝饰边，包含连续爱心、圆孔与波浪形下沿，两端被画布裁切。"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        55,
+        154,
+        690,
+        511
+      ],
+      "description": "上方横向黑色照片框，四边印有浅粉色小圆点，内口为矩形；框体与圆点作为完整固定设计保留，左下和右上分别被装饰遮挡。",
+      "photo_id": [
+        "photo_upper"
+      ]
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        97,
+        183,
+        648,
+        482
+      ],
+      "description": "一名齐刘海双马尾年轻女性的正面近景自拍，佩戴华丽银色项链与耳麦，面向镜头微笑；保留身后浅色室内环境及照片内饰品。照片四边为清晰矩形裁切，没有沿人物轮廓去背景，局部被白色涂鸦和羊玩偶装饰遮挡。"
+    },
+    {
+      "id": "overlay_doodles",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        183,
+        276,
+        269
+      ],
+      "description": "叠加在上方照片左上部的白色细线涂鸦组合，包含悬垂虚线、星星、小蝴蝶结、螺旋和十字闪光，作为一组完整装饰保留。"
+    },
+    {
+      "id": "overlay_rhinestones",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        132,
+        730,
+        271
+      ],
+      "description": "上方照片右上角的银白色圆形水钻线结装饰，珠钻串成弯曲环圈与垂落曲线，带亮白闪光，跨越照片及黑色框边。"
+    },
+    {
+      "id": "overlay_lamb",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        375,
+        283,
+        533
+      ],
+      "description": "白色颗粒质感小羊玩偶贴饰，黑色眼睛、粉色鼻口及脚部，颈部系浅蓝色缎带，飘带向右延伸；整体覆盖上方照片左下角及框边。"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        309,
+        564,
+        939,
+        920
+      ],
+      "description": "下方横向黑色照片框，四周印有浅粉色小圆点，完整矩形框体承载一张照片；上沿、左侧和下沿分别被蝴蝶结、文字标签与其他装饰遮挡。",
+      "photo_id": [
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        350,
+        593,
+        897,
+        891
+      ],
+      "description": "一名齐刘海长发年轻女性的胸部以上自拍，穿白色衣服，面对镜头，手指轻抵下巴，长发垂在左侧；保留浅色室内墙面等摄影环境。照片沿矩形窗口裁切，没有去背景，左侧局部被文字标签遮挡，下部被银白翅膀装饰覆盖。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        541,
+        707,
+        631
+      ],
+      "description": "浅粉色立体缎带蝴蝶结，包含左右结环、中央结与两条下垂带尾，叠贴在下方照片框上沿中央，并伸入照片。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        498,
+        998,
+        666
+      ],
+      "description": "白色颗粒珠状小熊贴饰，黑色眼睛和鼻子，脖颈系粉色蝴蝶结，右侧长飘带接近画布边缘；完整玩偶跨叠于下方照片框右上角。"
+    },
+    {
+      "id": "overlay_quote_upper",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        635,
+        438,
+        673
+      ],
+      "description": "浅粉色圆角对话气泡标签，带灰色细边和阴影，右下有短尖角，内部黑色粗体文字为“I am a princess”；文字与气泡整体保留。"
+    },
+    {
+      "id": "overlay_quote_lower",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        681,
+        435,
+        719
+      ],
+      "description": "浅粉色长条圆角对话气泡标签，带灰色细边、阴影及右侧尖角，内部黑色粗体文字为“But you're not my prince”；整体横跨底纹、下方黑框与照片左侧。"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        208,
+        835,
+        568,
+        946
+      ],
+      "description": "一对相向排列的银白色立体小翅膀，表面光滑并带高光与柔和阴影，左右翼之间留有间隙，作为成对装饰覆盖下方照片和框体左下部。"
+    },
+    {
+      "id": "overlay_pearl_star",
+      "kind": "overlay",
+      "bbox": [
+        787,
+        812,
+        933,
+        923
+      ],
+      "description": "白色珍珠串组成的空心五角星装饰，大小珠粒沿星形轮廓排列，跨越下方照片右下角和黑色框边。"
+    }
+  ],
+  "layer_order": [
+    "overlay_lace",
+    "frame_upper",
+    "photo_upper",
+    "overlay_doodles",
+    "overlay_rhinestones",
+    "overlay_lamb",
+    "frame_lower",
+    "photo_lower",
+    "overlay_bow",
+    "overlay_bear",
+    "overlay_quote_upper",
+    "overlay_quote_lower",
+    "overlay_wings",
+    "overlay_pearl_star"
+  ]
+}

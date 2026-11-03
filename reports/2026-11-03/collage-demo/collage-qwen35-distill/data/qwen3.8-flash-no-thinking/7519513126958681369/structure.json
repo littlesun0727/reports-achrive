@@ -1,0 +1,88 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布为浅蓝色水彩晕染纹理底图，带有星星、翅膀等手绘装饰元素。这些固定设计需要保留原样，作为背景承载所有独立对象。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        50,
+        168,
+        570,
+        730
+      ],
+      "description": "一张竖向矩形照片，显示一名身穿条纹衬衫和卡其色裤子的年轻女子蹲坐在路边，背景是茂密的绿色爬山虎墙壁。照片边缘有白色不规则撕纸效果边框。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        290,
+        120,
+        380,
+        180
+      ],
+      "description": "一个灰色的金属长尾夹，位于主照片的顶部中央，起到装饰和固定的视觉效果。"
+    },
+    {
+      "id": "frame_flower",
+      "kind": "frame",
+      "bbox": [
+        430,
+        300,
+        780,
+        480
+      ],
+      "description": "一个带有邮票齿孔边缘效果的白色相框，形状类似文件夹标签页（右上角有切角），内部包含一张花卉照片。",
+      "photo_id": [
+        "photo_flower"
+      ]
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        470,
+        330,
+        740,
+        450
+      ],
+      "description": "位于相框内的横向矩形照片，画面展示了绿叶丛中的几朵白色小花，光线明亮。"
+    },
+    {
+      "id": "overlay_bubble_summer",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        235,
+        940,
+        300
+      ],
+      "description": "一个白色的对话气泡贴纸，带有黑色描边，气泡内印有“♪ summer ♪”字样。"
+    },
+    {
+      "id": "overlay_text_box",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        660,
+        900,
+        810
+      ],
+      "description": "一个带有双层边框的白色文本框，内部包含两行日文文字：“駆け抜けた恋、戻らない夏、\n綺麗な花火だった。”以及右下角的两个心形符号。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "overlay_clip",
+    "photo_flower",
+    "frame_flower",
+    "overlay_bubble_summer",
+    "overlay_text_box"
+  ]
+}

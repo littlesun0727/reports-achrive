@@ -1,0 +1,381 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1202
+  ],
+  "objects": [
+    {
+      "id": "book_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1202
+      ],
+      "description": "棕色硬纸板纹理的活页本封面与内页，包含金属活页环结构，作为固定底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "棕色硬纸板纹理的活页本封面与内页，包含金属活页环结构，作为固",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        194,
+        126,
+        418,
+        415
+      ],
+      "description": "左上角方形照片，显示一男一女自拍，男子戴绿色帽子，女子戴眼镜，背景为室内环境。",
+      "label": "左上角方形照片，显示一男一女自拍，男子戴绿色帽子，女子戴眼镜",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        518,
+        222,
+        716,
+        421
+      ],
+      "description": "右上角方形照片，显示一男一女站立合影，女子穿棕色连衣裙，男子穿黑色上衣，背景为室内。",
+      "label": "右上角方形照片，显示一男一女站立合影，女子穿棕色连衣裙，男子",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        472,
+        691,
+        752,
+        889
+      ],
+      "description": "右下角带波点边框的方形照片，显示一男一女自拍，男子穿黑色外套，女子穿深色上衣，背景为室内。",
+      "label": "右下角带波点边框的方形照片，显示一男一女自拍，男子穿黑色外套",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        166,
+        811,
+        432,
+        1070
+      ],
+      "description": "左下角心形照片，显示一男一女侧脸合影，女子戴帽子，背景为户外绿植。",
+      "label": "左下角心形照片，显示一男一女侧脸合影，女子戴帽子，背景为户外",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        486,
+        956,
+        630,
+        1070
+      ],
+      "description": "右下角方形照片，显示一只黑猫和一只白猫依偎在一起，背景为灰色网格纹理。",
+      "label": "右下角方形照片，显示一只黑猫和一只白猫依偎在一起，背景为灰色",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        184,
+        114,
+        428,
+        427
+      ],
+      "description": "左上角照片的白色相框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "左上角照片的白色相框，带有圆角设计，位于照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        508,
+        210,
+        724,
+        433
+      ],
+      "description": "右上角照片的棕色边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "右上角照片的棕色边框，带有圆角设计，位于照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        464,
+        679,
+        760,
+        902
+      ],
+      "description": "右下角照片的棕色波点边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_3"
+      ],
+      "label": "右下角照片的棕色波点边框，带有圆角设计，位于照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_4",
+      "kind": "frame",
+      "bbox": [
+        158,
+        799,
+        441,
+        1082
+      ],
+      "description": "左下角心形照片的棕色边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_4"
+      ],
+      "label": "左下角心形照片的棕色边框，带有圆角设计，位于照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_5",
+      "kind": "frame",
+      "bbox": [
+        477,
+        944,
+        639,
+        1076
+      ],
+      "description": "右下角猫照片的灰色网格边框，带有圆角设计，位于照片下方。",
+      "photo_id": [
+        "photo_5"
+      ],
+      "label": "右下角猫照片的灰色网格边框，带有圆角设计，位于照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        96,
+        234,
+        156
+      ],
+      "description": "左上角黑色心形贴纸，带有白色蝴蝶图案。",
+      "label": "左上角黑色心形贴纸，带有白色蝴蝶图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        174,
+        752,
+        258
+      ],
+      "description": "右上角蓝色星星贴纸，带有白色边框。",
+      "label": "右上角蓝色星星贴纸，带有白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        385,
+        729,
+        445
+      ],
+      "description": "右上角红色心形贴纸，带有白色边框。",
+      "label": "右上角红色心形贴纸，带有白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        409,
+        198,
+        457
+      ],
+      "description": "左侧红色瓢虫贴纸，带有黑色斑点。",
+      "label": "左侧红色瓢虫贴纸，带有黑色斑点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        415,
+        540,
+        457
+      ],
+      "description": "中间绿色四叶草贴纸，带有棕色边框。",
+      "label": "中间绿色四叶草贴纸，带有棕色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        445,
+        648,
+        517
+      ],
+      "description": "中间粉色磁带贴纸，带有白色边框。",
+      "label": "中间粉色磁带贴纸，带有白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        536,
+        168,
+        662,
+        198
+      ],
+      "description": "L-O-V-Eeeeeee",
+      "label": "L-O-V-Eeeeeee",
+      "method": "local",
+      "text": "L-O-V-Eeeeeee",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        360,
+        445,
+        477,
+        493
+      ],
+      "description": "You are made of everything soft and kind",
+      "label": "You are made of everything sof",
+      "method": "local",
+      "text": "You are made of everything soft and kind",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        180,
+        721,
+        315,
+        769
+      ],
+      "description": "LOVE",
+      "label": "LOVE",
+      "method": "local",
+      "text": "LOVE",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        648,
+        938,
+        720,
+        1022
+      ],
+      "description": "LOVE LOVE LOVE LOVE LOVE",
+      "label": "LOVE LOVE LOVE LOVE LOVE",
+      "method": "local",
+      "text": "LOVE LOVE LOVE LOVE LOVE",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF0000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        464,
+        1046,
+        585,
+        1082
+      ],
+      "description": "WOW",
+      "label": "WOW",
+      "method": "local",
+      "text": "WOW",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "book_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "frame_4",
+    "frame_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5"
+  ]
+}

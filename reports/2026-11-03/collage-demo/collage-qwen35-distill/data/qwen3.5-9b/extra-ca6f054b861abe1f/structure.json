@@ -1,0 +1,215 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布固定底图，浅米色背景，带有重复的樱桃和波点图案，以及虚线网格装饰，作为整体拼贴的承载纸底。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        58,
+        48,
+        382,
+        382
+      ],
+      "description": "左上角照片，女孩手持紫色玩偶，背景为绿植和墙面，照片内包含其他小玩偶。"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        38,
+        28,
+        392,
+        392
+      ],
+      "description": "围绕左上角照片的拍立得风格相框，带有圆角和白色边框，位于照片上方。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        518,
+        88,
+        938,
+        408
+      ],
+      "description": "右上角照片，女孩手持蓝色帽子玩偶，背景为喷泉和城市建筑，照片内包含其他小玩偶。"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        508,
+        78,
+        948,
+        418
+      ],
+      "description": "围绕右上角照片的拍立得风格相框，带有圆角和棕色边框，位于照片上方。",
+      "photo_id": [
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        58,
+        488,
+        382,
+        818
+      ],
+      "description": "左下角照片，女孩手持两个玩偶，背景为绿植和墙面，照片内包含其他小玩偶。"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        48,
+        478,
+        392,
+        828
+      ],
+      "description": "围绕左下角照片的拍立得风格相框，带有圆角和黑色边框，位于照片上方。",
+      "photo_id": [
+        "photo_bottom_left"
+      ]
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        518,
+        488,
+        938,
+        938
+      ],
+      "description": "右下角照片，女孩手持玩偶，背景为水面和栏杆，照片内包含其他小玩偶。"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        508,
+        478,
+        948,
+        948
+      ],
+      "description": "围绕右下角照片的拍立得风格相框，带有圆角和白色边框，位于照片上方。",
+      "photo_id": [
+        "photo_bottom_right"
+      ]
+    },
+    {
+      "id": "overlay_top_right",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        28,
+        938,
+        88
+      ],
+      "description": "右上角的播放控制条，包含暂停按钮、时间显示和音量图标，位于右上角照片上方。"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        18,
+        108,
+        108
+      ],
+      "description": "左上角的粉色爪印和星星装饰，位于左上角照片上方。"
+    },
+    {
+      "id": "overlay_middle",
+      "kind": "overlay",
+      "bbox": [
+        278,
+        328,
+        478,
+        478
+      ],
+      "description": "中间偏左的黄色星星和紫色流星装饰，位于左上角和右上角照片之间。"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        798,
+        938,
+        938
+      ],
+      "description": "右下角的红色唇印装饰，位于右下角照片下方。"
+    },
+    {
+      "id": "overlay_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        118,
+        798,
+        318,
+        858
+      ],
+      "description": "左下角的对话气泡和表情符号装饰，位于左下角照片下方。"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        58,
+        328,
+        382,
+        368
+      ],
+      "text": "アイスクリーム!!",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        118,
+        858,
+        318,
+        898
+      ],
+      "text": "Yes!! ♪( '▽` )",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "frame_top_left",
+    "photo_top_right",
+    "frame_top_right",
+    "photo_bottom_left",
+    "frame_bottom_left",
+    "photo_bottom_right",
+    "frame_bottom_right",
+    "overlay_top_right",
+    "overlay_top_left",
+    "overlay_middle",
+    "overlay_bottom_right",
+    "overlay_bottom_left",
+    "text_top_left",
+    "text_bottom_left"
+  ]
+}

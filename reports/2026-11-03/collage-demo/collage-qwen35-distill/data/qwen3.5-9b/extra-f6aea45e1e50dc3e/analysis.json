@@ -1,0 +1,258 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_cherry",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "description": "左上角樱花树枝特写，粉色花朵与深色枝干交错，背景为浅色天空，完整显示区域为正方形。",
+      "label": "左上角樱花树枝特写，粉色花朵与深色枝干交错，背景为浅色天空，",
+      "method": "local"
+    },
+    {
+      "id": "photo_stairs",
+      "kind": "photo",
+      "bbox": [
+        360,
+        0,
+        719,
+        480
+      ],
+      "description": "中上白色螺旋楼梯局部，台阶呈几何切角设计，两侧有垂帘，完整显示区域为正方形。",
+      "label": "中上白色螺旋楼梯局部，台阶呈几何切角设计，两侧有垂帘，完整显",
+      "method": "local"
+    },
+    {
+      "id": "photo_miu",
+      "kind": "photo",
+      "bbox": [
+        719,
+        0,
+        1080,
+        480
+      ],
+      "description": "右上粉色织物纹理背景，中央有白色标签，标签上印有黑色文字，完整显示区域为正方形。",
+      "label": "右上粉色织物纹理背景，中央有白色标签，标签上印有黑色文字，完",
+      "method": "local"
+    },
+    {
+      "id": "photo_donut",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        360,
+        959
+      ],
+      "description": "左中粉色糖霜甜甜圈置于白色小盘，盘子叠放在两本浅色书上，背景为米色织物，完整显示区域为正方形。",
+      "label": "左中粉色糖霜甜甜圈置于白色小盘，盘子叠放在两本浅色书上，背景",
+      "method": "local"
+    },
+    {
+      "id": "photo_strawberry_text",
+      "kind": "photo",
+      "bbox": [
+        360,
+        480,
+        719,
+        959
+      ],
+      "description": "正中粉色草莓表皮特写，布满细小籽粒，中央叠加白色文字，完整显示区域为正方形。",
+      "label": "正中粉色草莓表皮特写，布满细小籽粒，中央叠加白色文字，完整显",
+      "method": "local"
+    },
+    {
+      "id": "photo_plate_strawberry",
+      "kind": "photo",
+      "bbox": [
+        719,
+        480,
+        1080,
+        959
+      ],
+      "description": "右中白色椭圆盘，盘中放置一颗粉色草莓，背景为纯白，完整显示区域为正方形。",
+      "label": "右中白色椭圆盘，盘中放置一颗粉色草莓，背景为纯白，完整显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_strawberry_close",
+      "kind": "photo",
+      "bbox": [
+        0,
+        959,
+        360,
+        1440
+      ],
+      "description": "左下粉色草莓特写，置于粉色织物背景上，完整显示区域为正方形。",
+      "label": "左下粉色草莓特写，置于粉色织物背景上，完整显示区域为正方形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_glasses",
+      "kind": "photo",
+      "bbox": [
+        360,
+        959,
+        719,
+        1440
+      ],
+      "description": "中下两只透明高脚杯置于银色托盘，背景为浅色墙面与台面，完整显示区域为正方形。",
+      "label": "中下两只透明高脚杯置于银色托盘，背景为浅色墙面与台面，完整显",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake_stand",
+      "kind": "photo",
+      "bbox": [
+        719,
+        959,
+        1080,
+        1440
+      ],
+      "description": "右下粉色花瓣形蛋糕架，架上放置一颗粉色草莓，背景为浅色织物与木质边缘，完整显示区域为正方形。",
+      "label": "右下粉色花瓣形蛋糕架，架上放置一颗粉色草莓，背景为浅色织物与",
+      "method": "local"
+    },
+    {
+      "id": "circle_1",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        451,
+        360,
+        523
+      ],
+      "description": "左上与中上照片交界处粉色圆形装饰，位于两照片重叠边缘。",
+      "label": "左上与中上照片交界处粉色圆形装饰，位于两照片重叠边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "circle_2",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        451,
+        719,
+        523
+      ],
+      "description": "中上与右上照片交界处浅粉色圆形装饰，位于两照片重叠边缘。",
+      "label": "中上与右上照片交界处浅粉色圆形装饰，位于两照片重叠边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "circle_3",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        883,
+        360,
+        955
+      ],
+      "description": "左中与正中照片交界处浅粉色圆形装饰，位于两照片重叠边缘。",
+      "label": "左中与正中照片交界处浅粉色圆形装饰，位于两照片重叠边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "circle_4",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        883,
+        719,
+        955
+      ],
+      "description": "正中与右中照片交界处粉色圆形装饰，位于两照片重叠边缘。",
+      "label": "正中与右中照片交界处粉色圆形装饰，位于两照片重叠边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "text_miu",
+      "kind": "text",
+      "bbox": [
+        832,
+        209,
+        972,
+        238
+      ],
+      "description": "miu miu",
+      "label": "miu miu",
+      "method": "local",
+      "text": "miu miu",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_spring",
+      "kind": "text",
+      "bbox": [
+        421,
+        619,
+        637,
+        792
+      ],
+      "description": "spring\nin a\npaletta",
+      "label": "spring\nin a\npaletta",
+      "method": "local",
+      "text": "spring\nin a\npaletta",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_cherry",
+    "photo_stairs",
+    "photo_miu",
+    "photo_donut",
+    "photo_strawberry_text",
+    "photo_plate_strawberry",
+    "photo_strawberry_close",
+    "photo_glasses",
+    "photo_cake_stand",
+    "circle_1",
+    "circle_2",
+    "circle_3",
+    "circle_4",
+    "text_miu",
+    "text_spring"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-95fa2bbe7fd7a725",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 8237,
+    "completion_tokens": 824,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"蓝天白云与绿色树林构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和花朵遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        68,\n        114,\n        705,\n        471\n      ],\n      \"description\": \"上方人物半身照片，人物戴草帽，背景为花田，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        229,\n        427,\n        953,\n        837\n      ],\n      \"description\": \"下方人物近景照片，人物戴草帽，背景为花田，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        49,\n        549,\n        458,\n        944\n      ],\n      \"description\": \"左下人物坐姿照片，人物戴草帽，背景为花田，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_flower_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        3,\n        106,\n        106,\n        190\n      ],\n      \"description\": \"白色花朵装饰，位于左上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_flower_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        79,\n        47,\n        178,\n        128\n      ],\n      \"description\": \"白色花朵装饰，位于左上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_flower_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        146,\n        420,\n        275,\n        517\n      ],\n      \"description\": \"红色花朵装饰，位于左侧中部，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_flower_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        607,\n        358,\n        801,\n        488\n      ],\n      \"description\": \"红色花朵装饰，位于右侧中部，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_flower_5\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        843,\n        812,\n        962,\n        899\n      ],\n      \"description\": \"白色花朵装饰，位于右下角，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_top\",\n    \"photo_bottom\",\n    \"photo_left\",\n    \"overlay_flower_1\",\n    \"overlay_flower_2\",\n    \"overlay_flower_3\",\n    \"overlay_flower_4\",\n    \"overlay_flower_5\"\n  ]\n}",
+  "tool_calls": false
+}

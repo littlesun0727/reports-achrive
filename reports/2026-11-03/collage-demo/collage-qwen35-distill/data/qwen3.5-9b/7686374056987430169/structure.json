@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一条绿树成荫的街道，阳光透过树叶洒下斑驳光影，街道上有行人、三轮车和停放的电动车，右侧有户外桌椅和遮阳伞，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        102,
+        193,
+        395,
+        486
+      ],
+      "description": "左上角竖向街景照片，显示老式建筑、树木、路灯和停放的自行车，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        611,
+        65,
+        891,
+        221
+      ],
+      "description": "右上角横向街景照片，显示树木、行人和远处的建筑，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        505,
+        275,
+        795,
+        441
+      ],
+      "description": "中间横向街景照片，显示树木、行人和建筑，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_strip",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        468,
+        932,
+        528
+      ],
+      "description": "一条带有浅色圆点图案的灰色横条，作为独立固定装饰保留，位于中间照片下方。"
+    },
+    {
+      "id": "stamp_top_left",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        12,
+        155,
+        125
+      ],
+      "description": "左上角邮票样式的装饰，包含植物图案和文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "stamp_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        828,
+        540,
+        988,
+        665
+      ],
+      "description": "右下角邮票样式的装饰，包含树木图案和文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "clip_top_left",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        162,
+        145,
+        245
+      ],
+      "description": "左上角回形针样式的装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "clip_top_right",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        40,
+        673,
+        105
+      ],
+      "description": "右上角回形针样式的装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "clip_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        758,
+        260,
+        825,
+        325
+      ],
+      "description": "中间右侧回形针样式的装饰，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_mid",
+    "overlay_strip",
+    "stamp_top_left",
+    "stamp_bottom_right",
+    "clip_top_left",
+    "clip_top_right",
+    "clip_mid_right"
+  ]
+}

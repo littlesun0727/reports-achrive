@@ -1,0 +1,223 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "带有雨滴和白色线条装饰的灰色背景，雨滴呈圆形分布，线条构成几何图案，整体作为全画布底图承载所有独立对象。",
+      "background_type": "photo",
+      "label": "带有雨滴和白色线条装饰的灰色背景，雨滴呈圆形分布，线条构成几",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        97,
+        184,
+        464,
+        548
+      ],
+      "description": "建筑外观照片，展示带有涂鸦和招牌的砖墙结构，保留建筑细节和背景环境。",
+      "label": "建筑外观照片，展示带有涂鸦和招牌的砖墙结构，保留建筑细节和背",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        461,
+        427,
+        743,
+        713
+      ],
+      "description": "黑色蛋糕照片，蛋糕表面有彩色糖珠和韩文文字，置于白色纸托中。",
+      "label": "黑色蛋糕照片，蛋糕表面有彩色糖珠和韩文文字，置于白色纸托中。",
+      "method": "local"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        230,
+        625,
+        506,
+        896
+      ],
+      "description": "白色花朵照片，展示密集的白色花朵和绿色枝叶，保留植物细节。",
+      "label": "白色花朵照片，展示密集的白色花朵和绿色枝叶，保留植物细节。",
+      "method": "local"
+    },
+    {
+      "id": "photo_couch",
+      "kind": "photo",
+      "bbox": [
+        44,
+        857,
+        318,
+        1122
+      ],
+      "description": "室内场景照片，展示绿色沙发和黑色圆形茶几，茶几上放置蓝色物品。",
+      "label": "室内场景照片，展示绿色沙发和黑色圆形茶几，茶几上放置蓝色物品",
+      "method": "local"
+    },
+    {
+      "id": "photo_bag",
+      "kind": "photo",
+      "bbox": [
+        403,
+        835,
+        506,
+        1090
+      ],
+      "description": "MUJI购物袋照片，展示米色购物袋和蓝色地面，保留袋身文字和图案。",
+      "label": "MUJI购物袋照片，展示米色购物袋和蓝色地面，保留袋身文字和",
+      "method": "local"
+    },
+    {
+      "id": "photo_road",
+      "kind": "photo",
+      "bbox": [
+        506,
+        799,
+        695,
+        1090
+      ],
+      "description": "道路照片，展示蓝色路面和白色交通标线，保留路面细节。",
+      "label": "道路照片，展示蓝色路面和白色交通标线，保留路面细节。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "白色五角星装饰，分布在画布四周，作为独立固定装饰保留。",
+      "label": "白色五角星装饰，分布在画布四周，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clouds",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        340,
+        794,
+        427
+      ],
+      "description": "白色云朵装饰，位于画布右上区域，作为独立固定装饰保留。",
+      "label": "白色云朵装饰，位于画布右上区域，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paws",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        475,
+        138,
+        538
+      ],
+      "description": "白色爪印装饰，位于画布左侧中部，作为独立固定装饰保留。",
+      "label": "白色爪印装饰，位于画布左侧中部，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paws_2",
+      "kind": "overlay",
+      "bbox": [
+        164,
+        569,
+        210,
+        618
+      ],
+      "description": "白色爪印装饰，位于画布左侧中部偏下，作为独立固定装饰保留。",
+      "label": "白色爪印装饰，位于画布左侧中部偏下，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        835,
+        506,
+        926
+      ],
+      "description": "白色小狗轮廓装饰，位于画布中部偏下，作为独立固定装饰保留。",
+      "label": "白色小狗轮廓装饰，位于画布中部偏下，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        614,
+        730,
+        884,
+        1154
+      ],
+      "description": "白色手写体文字装饰，内容为'I love you, you know that. And I will love you forever'，作为独立固定装饰保留。",
+      "label": "白色手写体文字装饰，内容为'I love you, you ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_scribble",
+      "kind": "overlay",
+      "bbox": [
+        281,
+        1075,
+        434,
+        1135
+      ],
+      "description": "白色涂鸦线条装饰，位于画布底部中央，作为独立固定装饰保留。",
+      "label": "白色涂鸦线条装饰，位于画布底部中央，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_scribble_2",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        134,
+        524,
+        280
+      ],
+      "description": "白色涂鸦线条装饰，位于画布顶部中央，作为独立固定装饰保留。",
+      "label": "白色涂鸦线条装饰，位于画布顶部中央，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_building",
+    "photo_cake",
+    "photo_flowers",
+    "photo_couch",
+    "photo_bag",
+    "photo_road",
+    "overlay_stars",
+    "overlay_clouds",
+    "overlay_paws",
+    "overlay_paws_2",
+    "overlay_dog",
+    "overlay_text",
+    "overlay_scribble",
+    "overlay_scribble_2"
+  ]
+}

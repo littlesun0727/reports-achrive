@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的蓝天、白云与绿色山坡摄影画面铺满画布，天空从顶部延伸至中部云层，草地延伸至底边；左下有一头低头吃草的牛，底部可见浅水湿地，无人物。三张独立照片和装饰遮住局部，底层环境仍连续，整张摄影内容共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        338,
+        126,
+        935,
+        424
+      ],
+      "description": "横向矩形照片，一名白衣黑裤长发人物背对镜头站在草坡上，双臂展开，位于画面偏右下；保留远山、天空、树林、草地及散落的牲畜。窗口边缘清晰，无独立框体，左下局部被竖向照片遮挡。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        84,
+        374,
+        380,
+        707
+      ],
+      "description": "左侧竖向矩形照片，一名白衣黑裤长发人物背向镜头走在草地上，双手向两侧伸出，人物位于中下部；保留蓝天白云、远山、树林和草坡。四边清晰，未沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        535,
+        835,
+        842
+      ],
+      "description": "右下竖向矩形照片，一名白衣黑裤人物在木质护栏前弯腰低头，位于下部中央；保留天空、远山、树林、建筑、木栏与底部道路。窗口四边清晰，摄影背景完整保留，左上角被白色箭头局部覆盖。"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        82,
+        177,
+        103
+      ],
+      "description": "左上方独立的浅黄色小五角星，保留不完全规则的尖角轮廓。"
+    },
+    {
+      "id": "star_large",
+      "kind": "overlay",
+      "bbox": [
+        259,
+        97,
+        307,
+        133
+      ],
+      "description": "上方偏左的浅黄色大五角星，保留略倾斜、不规则的星形轮廓。"
+    },
+    {
+      "id": "star_small",
+      "kind": "overlay",
+      "bbox": [
+        199,
+        149,
+        213,
+        160
+      ],
+      "description": "位于大星左下方的独立浅黄色微小五角星。"
+    },
+    {
+      "id": "star_right",
+      "kind": "overlay",
+      "bbox": [
+        444,
+        81,
+        479,
+        107
+      ],
+      "description": "上方偏中位置的浅黄色星形装饰，尖角形态略不规则。"
+    },
+    {
+      "id": "arrow",
+      "kind": "overlay",
+      "bbox": [
+        404,
+        425,
+        574,
+        550
+      ],
+      "description": "白色手绘弯曲箭头，从上端向下绕出一个环，再朝右下方延伸，末端宽箭头指向右下照片左上角；笔画与箭头整体保留。"
+    },
+    {
+      "id": "star_blue",
+      "kind": "overlay",
+      "bbox": [
+        381,
+        456,
+        441,
+        504
+      ],
+      "description": "亮蓝色不规则多尖角星形装饰，叠在白色弯曲箭头起始段前方，保留完整尖角轮廓。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_left",
+    "photo_right",
+    "star_left",
+    "star_large",
+    "star_small",
+    "star_right",
+    "arrow",
+    "star_blue"
+  ]
+}

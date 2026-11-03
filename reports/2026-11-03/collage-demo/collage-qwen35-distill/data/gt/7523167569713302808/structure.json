@@ -1,0 +1,226 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "floral_background",
+    "description": "全画布连续的浅米白与淡紫色花枝纹理底图，带蓝灰叶片、紫色花朵和斑驳纸张质感，四边及照片间隙均可见；保留固定花纹与纸纹，独立照片、纸框、蝴蝶和叠贴装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "purple_panel",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        0,
+        982,
+        343
+      ],
+      "description": "右上淡紫色竖向纸面装饰，包含花枝印纹、深色斑点及两列黑色毛笔字，右列可辨“引一生高雅”；纸面与其印刷内容整体保留，部分被蝴蝶遮挡。"
+    },
+    {
+      "id": "pink_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        375,
+        510,
+        929
+      ],
+      "description": "左侧中下部粉色旧纸拼贴，带横竖格线、黑色书法字、浅色磨损纹理与局部花纹；纸张和印字作为完整固定单元保留，大部分右缘被照片纸框遮挡。"
+    },
+    {
+      "id": "left_calligraphy",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        41,
+        75,
+        387
+      ],
+      "description": "左上沿画布边缘排列的黑色竖向毛笔书法，笔画粗细变化明显，部分笔画贴近或被画布左边裁切；保留原有字形与不规则布局。"
+    },
+    {
+      "id": "right_calligraphy",
+      "kind": "overlay",
+      "bbox": [
+        929,
+        638,
+        996,
+        879
+      ],
+      "description": "右下沿画布边缘的黑色竖向书法装饰，带自然飞白和不规则字距；上段位于中间纸框旁，下段被大型蝴蝶遮挡。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        42,
+        26,
+        611,
+        365
+      ],
+      "description": "向右下倾斜的白色拍立得纸框，底边较宽，带灰色阴影、左下灰色短条及“BE REMEMBER TODAY”小字；完整纸框保留，照片内口独立替换。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        89,
+        47,
+        574,
+        324
+      ],
+      "description": "单人近景照片，金色长发齐刘海女子正面看镜头，穿淡紫衣服和白色花形颈饰，右侧头发配紫色大花，手掌向前托着蓝紫蝴蝶。保留暗色室内环境及画面中的蝴蝶，四边随倾斜纸框内口裁切，无主体去背景或透明渐隐。"
+    },
+    {
+      "id": "frame_middle",
+      "kind": "frame",
+      "bbox": [
+        402,
+        303,
+        996,
+        669
+      ],
+      "description": "向左上抬起的白色拍立得纸框，底部留白较宽，带纸边阴影、灰色短条及“BE REMEMBER”小字；下缘被底部照片纸框局部遮挡，照片独立替换。",
+      "photo_id": [
+        "photo_middle"
+      ]
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        433,
+        326,
+        957,
+        623
+      ],
+      "description": "单人半身近景，金色长发女子正面看镜头，一手托脸，另一手在脸旁举着蓝紫色蝴蝶，右侧头发有紫色大花，穿淡紫长袖。保留暗色室内背景及画面内蝴蝶，按倾斜四边形内口显示，无去背景或渐隐。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        31,
+        614,
+        664,
+        1000
+      ],
+      "description": "向右下倾斜的白色拍立得纸框，宽底边带“BE REMEMBER TODAY”小字和灰色短条，边缘有阴影；下缘延伸至画布底部，右侧部分被大型紫黑蝴蝶遮挡，内口照片独立替换。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        73,
+        637,
+        631,
+        953
+      ],
+      "description": "单人半身近景，金色长发齐刘海女子看向镜头，双手在唇边拿着蓝紫色蝴蝶，右侧头发配紫色大花，身穿淡紫衣服。保留暗色室内环境和照片内的蝴蝶，完整显示区域为倾斜纸框内口，右下局部被外加大型蝴蝶遮挡，无主体去背景或渐隐。"
+    },
+    {
+      "id": "butterfly_top",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        0,
+        839,
+        171
+      ],
+      "description": "顶部大型紫黑色蝴蝶装饰，紫色翅面带黑色翅缘与翅脉，身体斜向右下，上翅被画布顶边裁切；跨在顶部纸框及右上纸面之上，保留完整可见轮廓。"
+    },
+    {
+      "id": "butterfly_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        197,
+        945,
+        296
+      ],
+      "description": "右上中部小型紫黑色蝴蝶，四翅展开、身体斜向右下，翅缘不规则，独立叠放在紫色纸面与花枝图案前。"
+    },
+    {
+      "id": "butterfly_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        378,
+        446,
+        575
+      ],
+      "description": "左侧中部大型紫黑蝴蝶，翅膀展开且左上翅高耸，带黑色翅缘、细翅脉和长尾突；压在粉色书法纸面上，右侧翅尖接近中间照片纸框。"
+    },
+    {
+      "id": "butterfly_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        461,
+        710,
+        1000,
+        999
+      ],
+      "description": "右下大型紫黑蝴蝶，紫色翅面有黑色宽边和翅脉，右上翅高耸，身体及尾突向下延伸；覆盖底部照片与纸框、右侧书法和花纹底图，右侧部分翅缘被画布裁切。"
+    },
+    {
+      "id": "neon_butterfly_top",
+      "kind": "overlay",
+      "bbox": [
+        199,
+        322,
+        356,
+        380
+      ],
+      "description": "顶部照片底边附近的荧光紫蓝蝴蝶贴饰，带洋红色柔光、模糊外缘和蓝色翅纹，完整光晕一起保留，叠在白色纸框与下方纸面上。"
+    },
+    {
+      "id": "neon_butterfly_middle",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        516,
+        1000,
+        603
+      ],
+      "description": "中间照片右下的荧光紫蓝蝴蝶贴饰，带洋红外发光与蓝色纹线；跨越照片内口及白色纸框，右侧光晕贴近画布边缘，完整可见柔光保留。"
+    },
+    {
+      "id": "neon_butterfly_bottom",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        688,
+        225,
+        778
+      ],
+      "description": "底部照片左上侧的荧光紫蓝蝴蝶，带洋红柔光和蓝色翅纹；横跨粉色书法纸、底部白色纸框与照片左缘，模糊光晕属于同一装饰。"
+    }
+  ],
+  "layer_order": [
+    "purple_panel",
+    "pink_paper",
+    "left_calligraphy",
+    "right_calligraphy",
+    "frame_top",
+    "photo_top",
+    "frame_middle",
+    "photo_middle",
+    "butterfly_middle_left",
+    "frame_bottom",
+    "photo_bottom",
+    "butterfly_top",
+    "butterfly_upper_right",
+    "neon_butterfly_top",
+    "neon_butterfly_middle",
+    "neon_butterfly_bottom",
+    "butterfly_bottom_right"
+  ]
+}

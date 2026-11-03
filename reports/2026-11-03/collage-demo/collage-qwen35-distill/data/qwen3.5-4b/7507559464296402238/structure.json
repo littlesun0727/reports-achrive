@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "热带海滩与棕榈树构成的连续摄影底图，包含天空、海面、岩石和植被，完整显示区域延伸至画布四边；上层照片和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        153,
+        153,
+        847,
+        847
+      ],
+      "description": "竖向人物自拍照片，人物坐在沙滩上，背景为海面和浮标，显示区域为矩形，上下左右被其他元素遮挡。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        283,
+        100,
+        717,
+        145
+      ],
+      "text": "Island diary",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        245,
+        855,
+        755,
+        900
+      ],
+      "text": "The melody of summer",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_center",
+    "text_top",
+    "text_bottom"
+  ]
+}

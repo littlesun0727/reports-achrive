@@ -1,0 +1,373 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "wall_background",
+    "description": "全画布连续的棕灰色粗糙墙面与底部地面，带砖缝、颗粒纹理和斜照光影，作为固定拼贴底图保留；照片、纸片、文字及白色涂鸦均为独立上层单元。"
+  },
+  "objects": [
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        132,
+        138,
+        432,
+        363
+      ],
+      "description": "左上方独立餐桌照片，俯拍蛋糕、咖啡、冰饮和小熊玩偶，保留桌面及椅背环境；矩形显示，下部被文字纸条遮挡。"
+    },
+    {
+      "id": "photo_portrait_right",
+      "kind": "photo",
+      "bbox": [
+        531,
+        174,
+        867,
+        513
+      ],
+      "description": "右上方咖啡馆人物照片，一位长发女子坐在餐桌后，手持餐具靠近嘴边，桌上有餐盘及蓝色饮料；保留墙上画框、座椅及桌面环境，顶部和底部被涂鸦局部覆盖。"
+    },
+    {
+      "id": "photo_portrait_middle",
+      "kind": "photo",
+      "bbox": [
+        272,
+        414,
+        578,
+        685
+      ],
+      "description": "中部独立俯拍照片，一位长发女子坐在桌旁，手持餐具靠近嘴边，身旁有玩偶、甜点和饮料；保留桌椅与室内环境，上边被文字纸条遮挡，左下被唱片装饰遮挡。"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        157,
+        715,
+        399,
+        899
+      ],
+      "description": "左下方矩形咖啡照片，棕色杯碟中有心形拉花咖啡，保留浅色桌面与照片内印字；上部被唱片覆盖，下边被胶带覆盖。"
+    },
+    {
+      "id": "photo_bag",
+      "kind": "photo",
+      "bbox": [
+        599,
+        705,
+        844,
+        889
+      ],
+      "description": "右下方独立俯拍照片，格纹布包上挂卡通挂件，旁边可见饮品和浅色鞋履，保留地面环境；上部被格纹留言纸遮挡，两个对角被浅色胶带覆盖。"
+    },
+    {
+      "id": "quote_paper",
+      "kind": "overlay",
+      "bbox": [
+        233,
+        322,
+        577,
+        427
+      ],
+      "description": "两条错位叠放的浅米色纸条构成完整留言装饰，保留纸边及棕色手写字：Found a quiet corner / of the world.；遮住左上食物照片和中间人物照片的部分边缘。"
+    },
+    {
+      "id": "quote_tape",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        297,
+        469,
+        358
+      ],
+      "description": "贴在留言纸条上缘的半透明棕色胶带，略倾斜，带深色手绘几何笔画，整体保留。"
+    },
+    {
+      "id": "plog_title",
+      "kind": "overlay",
+      "bbox": [
+        613,
+        82,
+        873,
+        218
+      ],
+      "description": "白色大号手绘艺术字PLOG，具有不均匀刷痕、细长笔画及局部重描，覆盖右上人物照片的上边缘。"
+    },
+    {
+      "id": "camera_doodle",
+      "kind": "overlay",
+      "bbox": [
+        214,
+        104,
+        363,
+        171
+      ],
+      "description": "白色手绘相机轮廓，包含镜头、顶部凸起及不规则线条，跨在左上照片上边缘。"
+    },
+    {
+      "id": "left_photo_line",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        165,
+        108,
+        329
+      ],
+      "description": "左上照片左侧独立的细长白色手绘弧线，上下略弯，不与照片窗口形成完整边框。"
+    },
+    {
+      "id": "right_photo_line",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        176,
+        455,
+        282
+      ],
+      "description": "左上照片右侧的独立白色竖向手绘短线。"
+    },
+    {
+      "id": "star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        314,
+        96,
+        359
+      ],
+      "description": "左上照片左下侧的白色空心手绘五角星，保留交叠笔画。"
+    },
+    {
+      "id": "top_cross",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        52,
+        449,
+        89
+      ],
+      "description": "画布上方偏左的白色短笔画十字状涂鸦。"
+    },
+    {
+      "id": "top_edge_mark",
+      "kind": "overlay",
+      "bbox": [
+        643,
+        0,
+        671,
+        6
+      ],
+      "description": "顶部边缘露出的白色涂鸦残段，按画布裁切后的可见范围保留。"
+    },
+    {
+      "id": "right_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        884,
+        257,
+        958,
+        334
+      ],
+      "description": "右上照片右侧的一组白色短划和点状闪光涂鸦，成员呈疏散十字布局。"
+    },
+    {
+      "id": "right_star",
+      "kind": "overlay",
+      "bbox": [
+        923,
+        421,
+        970,
+        479
+      ],
+      "description": "画布右侧中部的白色手绘星形，粗细不均并带向下延伸的笔画。"
+    },
+    {
+      "id": "droplets_doodle",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        428,
+        248,
+        615
+      ],
+      "description": "左侧中段的水滴与闪光涂鸦组合，包含三个大小不同的水滴，其中两个空心、一个实心，以及两枚白色小十字，保持原有疏散排布。"
+    },
+    {
+      "id": "cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        586,
+        452,
+        823,
+        610
+      ],
+      "description": "白色线描猫涂鸦，包含高高弯起的尾巴、弓形身体、尖耳、面部点线和胡须，跨过右上人物照片底边并延伸到墙面。"
+    },
+    {
+      "id": "record_sticker",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        580,
+        431,
+        767
+      ],
+      "description": "完整黑胶唱片装饰，保留黑色唱片纹理、秋叶圆形中心图、白色音符、曲折线和沿圆周分布的Autumn、Whispers字样；覆盖中间人物照片及下方咖啡照片。"
+    },
+    {
+      "id": "plaid_note",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        599,
+        899,
+        748
+      ],
+      "description": "棕米色格纹方形留言纸，带不规则边缘，白色手绘枫叶及分行字样No ONE BUT YOU.作为整体固定设计保留，覆盖右下照片上部。"
+    },
+    {
+      "id": "bag_tape_upper",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        672,
+        701,
+        790
+      ],
+      "description": "斜贴在右下照片左上角的浅米白色宽胶带，保留参差纸边及轻微材质变化，右端部分被格纹留言纸覆盖。"
+    },
+    {
+      "id": "bag_tape_lower",
+      "kind": "overlay",
+      "bbox": [
+        717,
+        791,
+        904,
+        924
+      ],
+      "description": "斜贴在右下照片右下角的浅米白色宽胶带，保留不规则撕口，跨出照片边缘。"
+    },
+    {
+      "id": "transparent_tape",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        846,
+        456,
+        954
+      ],
+      "description": "咖啡照片下方斜向延伸的灰色半透明装饰胶带，带白色星形、短线及点状印记，局部被银色胶带覆盖，保留透底质感。"
+    },
+    {
+      "id": "silver_tape",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        839,
+        307,
+        947
+      ],
+      "description": "覆盖咖啡照片左下边及透明胶带的银灰色胶带，带明显褶皱、反光、撕裂边缘和斜向姿态，作为完整固定材质保留。"
+    },
+    {
+      "id": "small_star_left",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        702,
+        51,
+        740
+      ],
+      "description": "画布左下部靠边的小型白色实心手绘星状涂鸦。"
+    },
+    {
+      "id": "large_star_left",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        737,
+        132,
+        789
+      ],
+      "description": "咖啡照片左侧的白色手绘五角星，具有加粗重叠笔画。"
+    },
+    {
+      "id": "bottom_cross",
+      "kind": "overlay",
+      "bbox": [
+        511,
+        844,
+        542,
+        872
+      ],
+      "description": "画布下方中间、咖啡照片右侧的白色小十字涂鸦。"
+    },
+    {
+      "id": "right_bottom_cross",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        807,
+        924,
+        837
+      ],
+      "description": "右下照片右侧的白色小十字涂鸦，左部邻近浅色胶带。"
+    },
+    {
+      "id": "bottom_dashes",
+      "kind": "overlay",
+      "bbox": [
+        376,
+        867,
+        504,
+        970
+      ],
+      "description": "画布底部偏中的白色短虚线涂鸦，由竖向短线和零散横向短划构成，延续胶带附近的装饰节奏。"
+    },
+    {
+      "id": "bottom_right_star",
+      "kind": "overlay",
+      "bbox": [
+        917,
+        940,
+        984,
+        997
+      ],
+      "description": "右下角大号白色空心手绘五角星，保留粗糙笔触与重复描画的轮廓。"
+    }
+  ],
+  "layer_order": [
+    "photo_food",
+    "photo_portrait_right",
+    "photo_portrait_middle",
+    "photo_coffee",
+    "photo_bag",
+    "quote_paper",
+    "quote_tape",
+    "camera_doodle",
+    "left_photo_line",
+    "right_photo_line",
+    "star_left_upper",
+    "top_cross",
+    "top_edge_mark",
+    "plog_title",
+    "right_sparkles",
+    "right_star",
+    "droplets_doodle",
+    "cat_doodle",
+    "record_sticker",
+    "bag_tape_upper",
+    "plaid_note",
+    "bag_tape_lower",
+    "transparent_tape",
+    "silver_tape",
+    "small_star_left",
+    "large_star_left",
+    "bottom_cross",
+    "right_bottom_cross",
+    "bottom_dashes",
+    "bottom_right_star"
+  ]
+}

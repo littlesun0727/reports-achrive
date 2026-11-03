@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "一张绿色调湿玻璃近景铺满画布，玻璃上的水滴、纵向水痕及后方模糊绿景在四边和照片间隙连续可见，无人物。四张独立照片及白色装饰遮挡局部；整幅玻璃与摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_leaf",
+      "kind": "photo",
+      "bbox": [
+        153,
+        77,
+        501,
+        442
+      ],
+      "description": "竖幅照片，带水滴的玻璃前后可见绿色枫叶与斜向枝条，背景浅淡失焦，无人物。保留完整摄影环境，矩形边界清晰，局部被白色星形和中央线条装饰覆盖。"
+    },
+    {
+      "id": "photo_tree",
+      "kind": "photo",
+      "bbox": [
+        562,
+        232,
+        898,
+        484
+      ],
+      "description": "近方形仰拍树木照片，粗树干从下方向中央延伸，枝条与嫩绿树冠向外铺开，间隙露出蓝天，无人物。完整保留树木与天空，矩形边缘清晰，左侧及右上角被白色装饰遮挡。"
+    },
+    {
+      "id": "photo_canopy",
+      "kind": "photo",
+      "bbox": [
+        72,
+        480,
+        420,
+        740
+      ],
+      "description": "近方形仰拍树冠照片，绿色枝叶从四周围住中央蓝天，无人物；与右上照片取景不连续，独立保留完整摄影环境。矩形边缘清晰，右侧被中央白色装饰覆盖，下部叠有手写字样。"
+    },
+    {
+      "id": "photo_droplets",
+      "kind": "photo",
+      "bbox": [
+        501,
+        525,
+        858,
+        912
+      ],
+      "description": "竖幅湿玻璃近景，无人物，密集水滴与水痕后是黄绿色失焦景物，底部转为深黑并可见斜向浅色窗沿。摄影环境完整保留，边缘清晰；左上部分被白色弧线覆盖，右下角被星形遮挡。"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        284,
+        299,
+        675,
+        635
+      ],
+      "description": "中央白色粉笔质感的连续盘绕弧线装饰，包含上方叶片照片旁、右上树照左缘和左下树照右侧的放射状闪光笔画。线条组成一个完整设计，跨越多张照片及底图，保留颗粒和断续边缘。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        118,
+        58,
+        195,
+        111
+      ],
+      "description": "左上方不规则白色五角星，带粉笔颗粒和毛糙边缘，跨贴在叶片照片左上角。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        205,
+        948,
+        269
+      ],
+      "description": "右上方不规则白色五角星，带细碎颗粒边缘，覆盖树木照片右上角并伸入底图。"
+    },
+    {
+      "id": "overlay_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        661,
+        580,
+        989
+      ],
+      "description": "左下至底部的白色手写文字整体装饰，包含大幅花体“Happiness”、下划线及下方诗句：“It may come and go / Like a distant sun / Be sure to / Treasure the time spent / Because you'll never know / The next time you'll feel it again.” 保留自由笔画、各行错落位置与连写形式，顶部叠在左下照片上。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        853,
+        932,
+        937
+      ],
+      "description": "右下方较大的不规则白色五角星，带粉笔颗粒和外缘碎点，跨越水滴照片右下角及周围底图。"
+    }
+  ],
+  "layer_order": [
+    "photo_leaf",
+    "photo_tree",
+    "photo_canopy",
+    "photo_droplets",
+    "overlay_spiral",
+    "overlay_star_top",
+    "overlay_star_right",
+    "overlay_handwriting",
+    "overlay_star_bottom"
+  ]
+}

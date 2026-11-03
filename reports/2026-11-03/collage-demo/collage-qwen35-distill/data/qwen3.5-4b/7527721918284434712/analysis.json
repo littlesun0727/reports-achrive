@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    836
+  ],
+  "objects": [
+    {
+      "id": "eye_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        836
+      ],
+      "description": "特写的人眼摄影画面，包含眼睑、睫毛、眼白和眉毛，完整显示区域延伸至画布四边；瞳孔区域被独立照片遮挡，保留周围眼部环境。",
+      "background_type": "photo",
+      "label": "特写的人眼摄影画面，包含眼睑、睫毛、眼白和眉毛，完整显示区域",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_eye",
+      "kind": "photo",
+      "bbox": [
+        302,
+        345,
+        524,
+        493
+      ],
+      "description": "瞳孔内的独立照片，显示人物面部，背景为星空，周围有蓝色光环装饰，位于眼部中心。",
+      "label": "瞳孔内的独立照片，显示人物面部，背景为星空，周围有蓝色光环装",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "eye_base",
+    "photo_eye"
+  ]
+}

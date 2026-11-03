@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b1eaec94bc0ce6e9",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6611,
+    "total_tokens": 6809,
+    "completion_tokens": 198,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"特写摄影底图，展示一只人眼的局部，包含眉毛、眼睑、睫毛及眼白区域，画面延伸至画布边缘；瞳孔位置嵌入独立照片，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_pupil\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        360,\n        430,\n        540,\n        570\n      ],\n      \"description\": \"嵌入瞳孔位置的独立照片，显示一名男性人物肖像，背景为星空，周围有蓝色光环效果，作为可替换摄影单元。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_pupil\"\n  ]\n}",
+  "tool_calls": false
+}

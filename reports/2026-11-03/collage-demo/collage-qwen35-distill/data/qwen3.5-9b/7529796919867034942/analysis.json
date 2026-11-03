@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        533
+      ],
+      "description": "俯拍地面照片，显示深色沥青路面、积水反光及散落的黄色落叶，作为独立摄影单元。",
+      "label": "俯拍地面照片，显示深色沥青路面、积水反光及散落的黄色落叶，作",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        0,
+        533,
+        900,
+        1067
+      ],
+      "description": "人物手持椰子站在泳池边的照片，保留人物、泳池、绿植及背景建筑等完整摄影环境。",
+      "label": "人物手持椰子站在泳池边的照片，保留人物、泳池、绿植及背景建筑",
+      "method": "local"
+    },
+    {
+      "id": "text_mid",
+      "kind": "text",
+      "bbox": [
+        56,
+        813,
+        844,
+        941
+      ],
+      "description": "In those days even the wind\nfelt free in summer",
+      "label": "In those days even the wind\nfe",
+      "method": "local",
+      "text": "In those days even the wind\nfelt free in summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF007F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_bot",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1067,
+        900,
+        1600
+      ],
+      "description": "日落天空照片，显示橙红色云层、路灯剪影及树木轮廓，作为独立摄影单元。",
+      "label": "日落天空照片，显示橙红色云层、路灯剪影及树木轮廓，作为独立摄",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_mid",
+    "text_mid",
+    "photo_bot"
+  ]
+}

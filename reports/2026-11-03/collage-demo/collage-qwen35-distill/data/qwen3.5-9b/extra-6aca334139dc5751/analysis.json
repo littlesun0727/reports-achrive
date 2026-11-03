@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        479
+      ],
+      "description": "顶部人物照片，人物双臂张开，背景为白色烟雾或云层，显示区域为水平矩形。",
+      "label": "顶部人物照片，人物双臂张开，背景为白色烟雾或云层，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        479,
+        1080,
+        958
+      ],
+      "description": "中部人物照片，人物双臂张开，背景为蓝天、绿树和建筑物，显示区域为水平矩形。",
+      "label": "中部人物照片，人物双臂张开，背景为蓝天、绿树和建筑物，显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        958,
+        1080,
+        1439
+      ],
+      "description": "底部水波纹照片，显示清澈水面纹理，右下角有文字水印。",
+      "label": "底部水波纹照片，显示清澈水面纹理，右下角有文字水印。",
+      "method": "local"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        410,
+        1309,
+        670,
+        1353
+      ],
+      "description": "OPPO Reno15 Pro",
+      "label": "OPPO Reno15 Pro",
+      "method": "local",
+      "text": "OPPO Reno15 Pro",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_watermark"
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "dot_background",
+    "description": "白色底上均匀交错排列黑色小圆点，连续覆盖画布四边及各对象之间的空隙。保留圆点图案；独立照片、框体、文字和较大的星形装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        470,
+        297,
+        929,
+        757
+      ],
+      "description": "竖向矩形照片，一名黑色长直发、齐刘海女子穿白色水手服和黑色领结，正面看向镜头，双手举在身前，嘴前有小人物图卡。保留身后的百叶窗、室内设施和全部摄影环境。左侧被相机界面照片框遮挡，下缘部分被下方吊牌框遮挡。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        121,
+        417,
+        471,
+        634
+      ],
+      "description": "横向照片窗口，一名黑色长发女子穿白色水手服，双手在面前比手势，视线朝左，嘴前有小人物图卡；保留室内百叶窗和门窗环境。照片边缘由黑色相机取景界面框限定，与右侧大照片姿态不同，独立替换。"
+    },
+    {
+      "id": "frame_camera",
+      "kind": "frame",
+      "bbox": [
+        56,
+        391,
+        546,
+        666
+      ],
+      "description": "黑色数码相机取景界面框，四周包括白色拍摄参数、图标、电量、对焦标记和底部曝光刻度，含可辨的S、FINE、749、47%、ISO AUTO、AF-S、AWB、1/125、F5等字样。完整保留界面设计，中央照片独立替换。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        732,
+        179,
+        901,
+        306
+      ],
+      "description": "上方小框内的俯拍照片，一名齐刘海黑发女子低头，将双手伸向镜头，身穿黑白服装；保留周围椅子、地面和右侧白色帘子。照片完整显示范围为框内矩形窗口。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        662,
+        104,
+        969,
+        335
+      ],
+      "description": "不规则黑色星形相片挂饰框，具有手绘质感的厚黑边、灰白擦痕和上方圆孔；顶部横置银色安全别针作为附属连接件一并保留。中央矩形窗口承载照片。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        339,
+        777,
+        625,
+        913
+      ],
+      "description": "下方横向小照片，俯拍一名黑色长发、齐刘海女子，穿白色水手服及黑色领结，一只手臂向左上伸出并拿着挂件。保留室内椅子、地面和白色窗帘，四边由吊牌相框限定。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        331,
+        669,
+        634,
+        917
+      ],
+      "description": "黑色圆角横向吊牌相片框，上方连接向右倾斜的黑色短带，带面有白色孔点和擦痕；框体带灰白磨损纹理及细浅色内沿。短带、连接处和框体整体保留，照片独立替换。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "paperclip",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        268,
+        577,
+        314
+      ],
+      "description": "竖向略倾斜的黑色线描回形针，叠在主照片上边缘，保留双层线圈轮廓。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        265,
+        240,
+        637,
+        266
+      ],
+      "text": "사랑해 오늘도 내일도 앞으로도",
+      "color": "#080808",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        648,
+        868,
+        976,
+        898
+      ],
+      "text": "서울 날씨 어때 , 잘지냈어 ^^",
+      "color": "#080808",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "gear_icon",
+      "kind": "overlay",
+      "bbox": [
+        717,
+        807,
+        747,
+        835
+      ],
+      "description": "独立黑色小齿轮图标，中央留白圆孔。"
+    },
+    {
+      "id": "cursor_icon",
+      "kind": "overlay",
+      "bbox": [
+        777,
+        809,
+        810,
+        834
+      ],
+      "description": "独立黑色鼠标箭头图标，朝向左上。"
+    },
+    {
+      "id": "heart_label",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        803,
+        971,
+        841
+      ],
+      "description": "黑色横向圆角胶囊贴纸，内部并排两个白色爱心，底板和爱心整体保留。"
+    },
+    {
+      "id": "paw_prints",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        688,
+        129,
+        743
+      ],
+      "description": "左下方相邻的两枚黑色爪印装饰，大小和方向略有不同，作为一组保留。"
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        71,
+        58,
+        99
+      ],
+      "description": "左上角黑色不规则五角星。"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        619,
+        54,
+        644,
+        74
+      ],
+      "description": "上方偏右的黑色小五角星。"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        304,
+        125,
+        332,
+        147
+      ],
+      "description": "上方偏左的黑色小五角星。"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        260,
+        674,
+        284
+      ],
+      "description": "回形针右侧、上方相框左下附近的黑色五角星。"
+    },
+    {
+      "id": "star_5",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        338,
+        123,
+        387
+      ],
+      "description": "左侧相机框上方的黑色大五角星，尖角不规则。"
+    },
+    {
+      "id": "star_6",
+      "kind": "overlay",
+      "bbox": [
+        945,
+        661,
+        994,
+        700
+      ],
+      "description": "主照片右下侧的黑色五角星。"
+    },
+    {
+      "id": "star_7",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        691,
+        403,
+        722
+      ],
+      "description": "相机框下方、吊牌框左上的黑色五角星。"
+    },
+    {
+      "id": "star_8",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        847,
+        55,
+        870
+      ],
+      "description": "画布左下区域的黑色小五角星。"
+    },
+    {
+      "id": "star_9",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        928,
+        162,
+        953
+      ],
+      "description": "底部偏左的黑色五角星。"
+    },
+    {
+      "id": "star_10",
+      "kind": "overlay",
+      "bbox": [
+        855,
+        952,
+        879,
+        971
+      ],
+      "description": "底部偏右的黑色小五角星。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_left",
+    "frame_camera",
+    "photo_top",
+    "frame_top",
+    "photo_bottom",
+    "frame_bottom",
+    "paperclip",
+    "text_top",
+    "text_bottom",
+    "gear_icon",
+    "cursor_icon",
+    "heart_label",
+    "paw_prints",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4",
+    "star_5",
+    "star_6",
+    "star_7",
+    "star_8",
+    "star_9",
+    "star_10"
+  ]
+}

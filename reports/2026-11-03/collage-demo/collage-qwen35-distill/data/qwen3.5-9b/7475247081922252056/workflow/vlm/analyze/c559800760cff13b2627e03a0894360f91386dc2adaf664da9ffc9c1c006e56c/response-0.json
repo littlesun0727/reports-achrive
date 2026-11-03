@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-9abd5130dc8f0c84",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7627,
+    "completion_tokens": 568,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        345,\n        30,\n        955,\n        295\n      ],\n      \"description\": \"顶部照片，展示一碗米饭、一个煎蛋和一块烤鸡腿，撒有芝麻和香草，背景为深色桌面。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        95,\n        325,\n        885,\n        670\n      ],\n      \"description\": \"中间照片，展示多道菜品：左侧有香肠、沙拉和酱料，右侧有番茄意面和汤，下方有另一碗米饭和煎蛋。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        35,\n        695,\n        655,\n        970\n      ],\n      \"description\": \"底部照片，展示两杯饮料、一份番茄意面和一盘香肠，背景为菜单和桌面。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        25,\n        120,\n        285,\n        220\n      ],\n      \"text\": \"肚子饱了\\n心情就好了\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        705,\n        650,\n        955,\n        880\n      ],\n      \"text\": \"打卡！\\n*Plog.*\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_middle\",\n    \"photo_bottom\",\n    \"text_1\",\n    \"text_2\"\n  ]\n}",
+  "tool_calls": false
+}

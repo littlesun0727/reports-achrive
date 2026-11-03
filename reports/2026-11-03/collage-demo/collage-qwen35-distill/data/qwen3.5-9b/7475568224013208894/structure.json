@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_sand",
+    "description": "沙滩场景摄影底图，包含沙丘、脚印、沙画和人物俯身动作，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        71,
+        118,
+        384,
+        270
+      ],
+      "description": "左上人物照片，女孩戴口罩坐在木栏杆旁，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        462,
+        192,
+        925,
+        392
+      ],
+      "description": "右上人物背影照片，女孩站在海边沙滩上，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        34,
+        445,
+        352,
+        752
+      ],
+      "description": "左下风景照片，椰树与海景，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        471,
+        722,
+        752,
+        925
+      ],
+      "description": "右下人物照片，女孩躺在窗边，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_sand_art",
+      "kind": "photo",
+      "bbox": [
+        642,
+        382,
+        912,
+        602
+      ],
+      "description": "右下沙画照片，沙滩上画有星星图案，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_teardrop_1",
+      "kind": "overlay",
+      "bbox": [
+        342,
+        48,
+        432,
+        202
+      ],
+      "description": "蓝色水滴形状装饰，位于左上照片右侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_teardrop_2",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        172,
+        542,
+        282
+      ],
+      "description": "蓝色水滴形状装饰，位于右上照片左侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        272,
+        382,
+        402,
+        502
+      ],
+      "description": "黄色太阳形状装饰，位于左下照片上方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        392,
+        122,
+        502
+      ],
+      "description": "蓝色星星形状装饰，位于左下照片左侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_rose",
+      "kind": "overlay",
+      "bbox": [
+        602,
+        352,
+        732,
+        442
+      ],
+      "description": "蓝色玫瑰形状装饰，位于右上照片下方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        602,
+        592,
+        702,
+        672
+      ],
+      "description": "蓝色心形装饰，位于右下照片上方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_squares",
+      "kind": "overlay",
+      "bbox": [
+        312,
+        752,
+        472,
+        832
+      ],
+      "description": "蓝色方格图案装饰，位于左下照片下方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_circles",
+      "kind": "overlay",
+      "bbox": [
+        772,
+        752,
+        992,
+        872
+      ],
+      "description": "蓝色圆形图案装饰，位于右下照片右侧，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_sand_art",
+    "overlay_teardrop_1",
+    "overlay_teardrop_2",
+    "overlay_sun",
+    "overlay_star",
+    "overlay_rose",
+    "overlay_heart",
+    "overlay_squares",
+    "overlay_circles"
+  ]
+}

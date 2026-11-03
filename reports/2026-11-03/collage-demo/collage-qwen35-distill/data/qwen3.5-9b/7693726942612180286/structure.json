@@ -1,0 +1,245 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "繁忙的韩国街道摄影底图，包含两侧建筑、霓虹招牌、路面黄色箭头和远处塔楼，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        48,
+        178,
+        432,
+        458
+      ],
+      "description": "左上自拍照片，人物手持白色手机，扎双马尾，穿粉色背心，保留照片内的室内环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_polaroid",
+      "kind": "photo",
+      "bbox": [
+        452,
+        421,
+        952,
+        781
+      ],
+      "description": "右下四格拍立得照片，包含人物在户外、室内和自拍的四个场景，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        32,
+        542,
+        412,
+        922
+      ],
+      "description": "左下食物照片，展示甜点、咖啡和面包，保留照片内的桌面环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        452,
+        72,
+        622,
+        152
+      ],
+      "description": "上方黑白圆形照片，显示人物面部特写，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_selfie",
+      "kind": "frame",
+      "bbox": [
+        32,
+        168,
+        442,
+        468
+      ],
+      "description": "围绕左上自拍照片的白色圆角矩形框，覆盖照片边缘并位于照片上方，完整框体作为一个固定单元保留。",
+      "photo_id": [
+        "photo_selfie"
+      ]
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        442,
+        411,
+        962,
+        791
+      ],
+      "description": "围绕右下四格拍立得照片的白色边框，覆盖照片边缘并位于照片上方，完整边框作为一个固定单元保留。",
+      "photo_id": [
+        "photo_polaroid"
+      ]
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        362,
+        102,
+        452
+      ],
+      "description": "左侧白色心形贴纸，带有内部装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        342,
+        692,
+        452
+      ],
+      "description": "右侧白色花朵装饰夹子，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        452,
+        362,
+        522,
+        412
+      ],
+      "description": "中间白色五角星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        92,
+        892,
+        142
+      ],
+      "description": "右上白色五角星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_question",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        112,
+        332,
+        192
+      ],
+      "description": "左上粉色波点问号贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text1",
+      "kind": "overlay",
+      "bbox": [
+        362,
+        222,
+        452,
+        352
+      ],
+      "description": "中间蓝色波点贴纸，包含文字 'seen this angel'，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text2",
+      "kind": "overlay",
+      "bbox": [
+        452,
+        152,
+        922,
+        322
+      ],
+      "description": "右侧白色手写体文字 'FLOG'，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text3",
+      "kind": "overlay",
+      "bbox": [
+        452,
+        562,
+        582,
+        632
+      ],
+      "description": "中间绿色心形贴纸，包含文字 'Slow lapse'，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text4",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        682,
+        722,
+        742
+      ],
+      "description": "右下蓝色心形贴纸，包含文字 '사랑해'，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text5",
+      "kind": "overlay",
+      "bbox": [
+        322,
+        782,
+        822,
+        882
+      ],
+      "description": "底部橙色星号文字 'Weekend.'，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        32,
+        542,
+        102,
+        582
+      ],
+      "text": "01.\n02.\n03.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        112,
+        542,
+        322,
+        582
+      ],
+      "text": "love\nlove\nlove\nME\nlove\nlove\nlove\nPhobid",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_selfie",
+    "frame_selfie",
+    "photo_polaroid",
+    "frame_polaroid",
+    "photo_food",
+    "photo_top",
+    "overlay_heart",
+    "overlay_clip",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_question",
+    "overlay_text1",
+    "overlay_text2",
+    "overlay_text3",
+    "overlay_text4",
+    "overlay_text5",
+    "text_1",
+    "text_2"
+  ]
+}

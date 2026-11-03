@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "公园草地与树木构成的连续摄影底图，阳光透过树叶形成斑驳光影，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_goldfish",
+      "kind": "photo",
+      "bbox": [
+        347,
+        128,
+        715,
+        530
+      ],
+      "description": "装在透明塑料袋中的金鱼照片，保留水波纹理和背景树木，显示区域为竖向矩形。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        126,
+        471,
+        527,
+        773
+      ],
+      "description": "橘猫在石板路上行走的照片，保留路面光影和草地，显示区域为横向矩形。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        570,
+        558,
+        908,
+        895
+      ],
+      "description": "树林中人物剪影的照片，保留树干和草地光影，显示区域为竖向矩形。"
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        246,
+        78,
+        392,
+        178
+      ],
+      "description": "黄色胶带装饰，位于金鱼照片左上角，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        730,
+        192,
+        796
+      ],
+      "description": "黄色胶带装饰，位于猫咪照片左下角，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_tape_3",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        542,
+        784,
+        576
+      ],
+      "description": "黄色胶带装饰，位于树林照片上方，作为独立固定单元保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        740,
+        480,
+        934,
+        520
+      ],
+      "text": "Meet summer.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        136,
+        818,
+        538,
+        885
+      ],
+      "text": "Collect today's lush greenery\nand gentle breeze",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_goldfish",
+    "photo_cat",
+    "photo_trees",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "overlay_tape_3",
+    "text_1",
+    "text_2"
+  ]
+}

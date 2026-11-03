@@ -1,0 +1,234 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "带有黄色波点的白色固定底图，承载四张独立照片及装饰元素；照片与贴纸独立替换，底图纹理保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        207,
+        46,
+        666,
+        231
+      ],
+      "description": "第一张人物照片，展示人物面部特写，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        207,
+        283,
+        666,
+        468
+      ],
+      "description": "第二张人物照片，展示人物面部特写，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        207,
+        510,
+        666,
+        695
+      ],
+      "description": "第三张人物照片，展示人物面部特写，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        207,
+        742,
+        666,
+        927
+      ],
+      "description": "第四张人物照片，展示人物面部特写，保留照片内的摄影环境。"
+    },
+    {
+      "id": "overlay_biscuits",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        12,
+        207,
+        66
+      ],
+      "description": "饼干图案贴纸，位于第一张照片左上角。"
+    },
+    {
+      "id": "overlay_bow_1",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        12,
+        700,
+        66
+      ],
+      "description": "黄色蝴蝶结贴纸，位于第一张照片右上角。"
+    },
+    {
+      "id": "overlay_bear_1",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        120,
+        207,
+        217
+      ],
+      "description": "棕色小熊玩偶贴纸，位于第一张照片左侧。"
+    },
+    {
+      "id": "overlay_biscuit_2",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        120,
+        266,
+        175
+      ],
+      "description": "饼干图案贴纸，位于第一张照片左下角。"
+    },
+    {
+      "id": "overlay_bow_2",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        217,
+        700,
+        272
+      ],
+      "description": "黄色蝴蝶结贴纸，位于第二张照片右上角。"
+    },
+    {
+      "id": "overlay_bow_3",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        283,
+        207,
+        338
+      ],
+      "description": "黄色蝴蝶结贴纸，位于第二张照片左侧。"
+    },
+    {
+      "id": "overlay_bread",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        388,
+        600,
+        443
+      ],
+      "description": "面包图案贴纸，位于第二张照片右侧。"
+    },
+    {
+      "id": "overlay_bear_2",
+      "kind": "overlay",
+      "bbox": [
+        566,
+        510,
+        666,
+        600
+      ],
+      "description": "戴眼镜的小熊玩偶贴纸，位于第三张照片右侧。"
+    },
+    {
+      "id": "overlay_cup",
+      "kind": "overlay",
+      "bbox": [
+        266,
+        510,
+        338,
+        566
+      ],
+      "description": "咖啡杯图案贴纸，位于第三张照片左侧。"
+    },
+    {
+      "id": "overlay_bear_3",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        742,
+        155,
+        797
+      ],
+      "description": "小熊头像贴纸，位于第四张照片左侧。"
+    },
+    {
+      "id": "overlay_bear_4",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        797,
+        155,
+        852
+      ],
+      "description": "小熊头像贴纸，位于第四张照片左侧。"
+    },
+    {
+      "id": "overlay_bear_5",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        852,
+        155,
+        907
+      ],
+      "description": "小熊头像贴纸，位于第四张照片左侧。"
+    },
+    {
+      "id": "overlay_bear_6",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        807,
+        666,
+        907
+      ],
+      "description": "趴着的小熊玩偶贴纸，位于第四张照片右下角。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        207,
+        695,
+        488,
+        742
+      ],
+      "text": "てんてんかいしん",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_biscuits",
+    "overlay_bow_1",
+    "overlay_bear_1",
+    "overlay_biscuit_2",
+    "overlay_bow_2",
+    "overlay_bow_3",
+    "overlay_bread",
+    "overlay_bear_2",
+    "overlay_cup",
+    "overlay_bear_3",
+    "overlay_bear_4",
+    "overlay_bear_5",
+    "overlay_bear_6",
+    "text_1"
+  ]
+}

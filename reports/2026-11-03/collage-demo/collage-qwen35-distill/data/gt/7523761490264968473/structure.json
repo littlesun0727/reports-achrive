@@ -1,0 +1,195 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        296,
+        144,
+        486,
+        311
+      ],
+      "description": "街景照片，一名长发女子背向镜头倚坐栏杆，远处有钟楼、建筑及行人。保留完整摄影环境，四周按胶片窗口裁切，无主体去背景。"
+    },
+    {
+      "id": "photo_top_middle",
+      "kind": "photo",
+      "bbox": [
+        501,
+        144,
+        767,
+        311
+      ],
+      "description": "室内建筑与大型喷泉前的全身人物照片，一名黑色上衣、白色裙装女子站在中央偏右。保留喷泉、栏杆和建筑环境，边缘被胶片框覆盖。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        788,
+        143,
+        1000,
+        312
+      ],
+      "description": "一名女子站在红色电话亭门口的全身照片，保留电话亭、建筑立面及地面，右侧随画布边缘截断，窗口边缘清晰。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        279,
+        101,
+        1000,
+        350
+      ],
+      "description": "横向灰黑色手绘胶片框，含上下两排白色齿孔、粗糙铅笔质感边沿及三格照片间隔。左端被胶卷罐遮挡，右端延伸出画布，照片内容不随框体保留。",
+      "photo_id": [
+        "photo_top_left",
+        "photo_top_middle",
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "overlay_canister",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        55,
+        302,
+        373
+      ],
+      "description": "蓝黄配色手绘胶卷罐装饰，包含顶部凸起、灰黑轮廓、磨损笔触及阴影。罐身的 E100、Kodak、EKTACHROME、Color Reversal Film、Professional 和 STAR 等字样随完整装饰保留，遮住顶排胶片左端。"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        43,
+        447,
+        302,
+        613
+      ],
+      "description": "一名黑色上衣、白色裙装女子站在街边的全身照片，上方为大型拱形玻璃雨棚，背景有车辆和建筑。完整保留摄影环境，四边被胶片框限定。"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        321,
+        447,
+        585,
+        613
+      ],
+      "description": "店铺内背向镜头站立的长发女子全身照片，周围为商品货架、柜台和地砖。保留全部室内摄影环境，不沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_middle_food",
+      "kind": "photo",
+      "bbox": [
+        601,
+        447,
+        862,
+        613
+      ],
+      "description": "手托圆形甜品碗的近景照片，碗中为黄色冰品、浅色奶油及绿色叶片，后方可见绿色墙板和局部画框。手、甜品与背景共同替换，边缘按窗口裁切。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        879,
+        447,
+        1000,
+        613
+      ],
+      "description": "窄幅户外照片，一名长发女子背对镜头坐在栏杆旁，远处为铁塔、建筑和蓝天。保留完整摄影环境，右侧被画布截断，与左侧甜品照片内容不连续。"
+    },
+    {
+      "id": "frame_middle",
+      "kind": "frame",
+      "bbox": [
+        30,
+        408,
+        1000,
+        646
+      ],
+      "description": "第二排横向手绘胶片框，灰黑色粗糙边沿、上下白色齿孔和三条内部隔栏构成四个照片窗口，最右窗口随画布截断。框体纹理整体保留。",
+      "photo_id": [
+        "photo_middle_left",
+        "photo_middle_center",
+        "photo_middle_food",
+        "photo_middle_right"
+      ]
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        43,
+        733,
+        303,
+        899
+      ],
+      "description": "户外全身照片，一名白裙女子站在红色车辆旁并向左伸臂，背景为石质建筑、栏杆和街道。人物与红色车辆均属摄影内容，保留环境，四边由胶片窗口裁切。"
+    },
+    {
+      "id": "photo_bottom_middle",
+      "kind": "photo",
+      "bbox": [
+        320,
+        733,
+        586,
+        899
+      ],
+      "description": "长发女子背对镜头倚坐石栏并向左伸臂的照片，远处有钟楼、城市建筑和行人。保留完整摄影环境，姿态与顶排照片不同，作为独立显示位置替换。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        30,
+        694,
+        959,
+        933
+      ],
+      "description": "底排灰黑色手绘胶片框，左侧有两个独立照片窗口及上下白色齿孔；右侧连续延伸为大块铅笔涂绘的弯曲胶片尾部，尾部下缘内凹。完整框体与尾部共同保留，右侧局部被前景女子遮挡。",
+      "photo_id": [
+        "photo_bottom_left",
+        "photo_bottom_middle"
+      ]
+    },
+    {
+      "id": "photo_foreground",
+      "kind": "photo",
+      "bbox": [
+        702,
+        630,
+        969,
+        1000
+      ],
+      "description": "右下方独立女子主体，戴浅色宽檐帽，穿浅粉色无袖裙，一手抬起扶帽，另一手在腰前提浅蓝色手袋，身体微侧并看向镜头。沿人物、帽子、手臂和手袋的完整外轮廓去除摄影背景，无明显描边；下方腿部被画布裁切，覆盖底排胶片右端。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_middle",
+    "photo_top_right",
+    "frame_top",
+    "overlay_canister",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_food",
+    "photo_middle_right",
+    "frame_middle",
+    "photo_bottom_left",
+    "photo_bottom_middle",
+    "frame_bottom",
+    "photo_foreground"
+  ]
+}

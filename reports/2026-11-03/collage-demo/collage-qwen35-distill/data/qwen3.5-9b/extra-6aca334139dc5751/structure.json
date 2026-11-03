@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "顶部人物照片，人物双臂张开，背景为白色烟雾或云层，显示区域为水平矩形。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        333,
+        1000,
+        666
+      ],
+      "description": "中部人物照片，人物双臂张开，背景为蓝天、绿树和建筑物，显示区域为水平矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        666,
+        1000,
+        1000
+      ],
+      "description": "底部水波纹照片，显示清澈水面纹理，右下角有文字水印。"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        380,
+        910,
+        620,
+        940
+      ],
+      "text": "OPPO Reno15 Pro",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_watermark"
+  ]
+}

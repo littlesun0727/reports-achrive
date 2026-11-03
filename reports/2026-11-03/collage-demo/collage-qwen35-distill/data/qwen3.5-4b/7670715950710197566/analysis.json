@@ -1,0 +1,216 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "户外场景摄影底图，包含前景草地、中景黑色栅栏和远景天空，画面整体呈现虚化效果；上层拼贴照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "户外场景摄影底图，包含前景草地、中景黑色栅栏和远景天空，画面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        208,
+        97,
+        498,
+        480
+      ],
+      "description": "人物半身照片，女性低头看向下方，背景有树木和告示牌，显示区域为矩形。",
+      "label": "人物半身照片，女性低头看向下方，背景有树木和告示牌，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        467,
+        368,
+        700,
+        601
+      ],
+      "description": "橘猫行走照片，拍摄于铺砖地面，显示区域为矩形。",
+      "label": "橘猫行走照片，拍摄于铺砖地面，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        97,
+        446,
+        364,
+        788
+      ],
+      "description": "树木与街道照片，可见绿色树木和远处车辆，显示区域为矩形。",
+      "label": "树木与街道照片，可见绿色树木和远处车辆，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        278,
+        674,
+        696,
+        1000
+      ],
+      "description": "人物半身照片，女性直视镜头，背景有树木和告示牌，显示区域为矩形。",
+      "label": "人物半身照片，女性直视镜头，背景有树木和告示牌，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        208,
+        97,
+        498,
+        480
+      ],
+      "description": "围绕上方人物照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕上方人物照片的白色手绘风格边框，覆盖照片边缘并位于照片上",
+      "method": "extract"
+    },
+    {
+      "id": "frame_cat",
+      "kind": "frame",
+      "bbox": [
+        467,
+        368,
+        700,
+        601
+      ],
+      "description": "围绕猫咪照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_cat"
+      ],
+      "label": "围绕猫咪照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_trees",
+      "kind": "frame",
+      "bbox": [
+        97,
+        446,
+        364,
+        788
+      ],
+      "description": "围绕树木照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_trees"
+      ],
+      "label": "围绕树木照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        278,
+        674,
+        696,
+        1000
+      ],
+      "description": "围绕下方人物照片的白色手绘风格边框，覆盖照片边缘并位于照片上方。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕下方人物照片的白色手绘风格边框，覆盖照片边缘并位于照片上",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        533,
+        174,
+        715,
+        229
+      ],
+      "description": "好天气！",
+      "label": "好天气！",
+      "method": "local",
+      "text": "好天气！",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        298,
+        748,
+        446
+      ],
+      "description": "蓝色手绘心形图案，内部有白色圆点，作为独立固定装饰保留。",
+      "label": "蓝色手绘心形图案，内部有白色圆点，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gift",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        643,
+        748,
+        726
+      ],
+      "description": "棕色带白点的礼物盒图案，带有白色蝴蝶结线条，作为独立固定装饰保留。",
+      "label": "棕色带白点的礼物盒图案，带有白色蝴蝶结线条，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "多个白色手绘圆圈气泡，散布在画布各处，作为独立固定装饰保留。",
+      "label": "多个白色手绘圆圈气泡，散布在画布各处，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "frame_top",
+    "photo_cat",
+    "frame_cat",
+    "photo_trees",
+    "frame_trees",
+    "photo_bottom",
+    "frame_bottom",
+    "text_1",
+    "overlay_heart",
+    "overlay_gift",
+    "overlay_bubbles"
+  ]
+}

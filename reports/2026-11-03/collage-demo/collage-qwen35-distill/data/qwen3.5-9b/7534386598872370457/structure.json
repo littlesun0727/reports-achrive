@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "阳光透过树叶洒下的绿色森林光影，作为连续摄影底图覆盖全画布，边缘有树叶遮挡，为所有照片和装饰提供自然背景。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        50,
+        30,
+        600,
+        370
+      ],
+      "description": "左上角照片，人物蹲在路边，手持饮料，身旁有蜗牛和蘑菇，保留照片内的摄影环境，显示区域为带齿孔的矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        660,
+        140,
+        950,
+        310
+      ],
+      "description": "右上角照片，人物蹲在绿植丛中，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        75,
+        550,
+        295,
+        780
+      ],
+      "description": "左下角照片，人物站立在树林中，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        350,
+        400,
+        960,
+        970
+      ],
+      "description": "右下角照片，人物背对镜头站在海边，保留照片内的摄影环境，显示区域为带齿孔的矩形。"
+    },
+    {
+      "id": "overlay_deer",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        780,
+        240,
+        990
+      ],
+      "description": "左下角的梅花鹿插画，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_button_1",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        530,
+        120,
+        590
+      ],
+      "description": "左下角照片旁的木质纽扣装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_button_2",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        360,
+        970,
+        460
+      ],
+      "description": "右下角照片旁的木质纽扣装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        390,
+        360,
+        620
+      ],
+      "description": "左侧垂直排列的星形、螺旋形和加号装饰，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_deer",
+    "overlay_button_1",
+    "overlay_button_2",
+    "overlay_decorations"
+  ]
+}

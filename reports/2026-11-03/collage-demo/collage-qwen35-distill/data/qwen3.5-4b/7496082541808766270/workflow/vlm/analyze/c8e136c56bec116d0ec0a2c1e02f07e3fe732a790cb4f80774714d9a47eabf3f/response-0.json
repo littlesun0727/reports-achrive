@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-9a60b5185e37c4eb",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7541,
+    "completion_tokens": 622,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"生日派对场景的连续摄影底图，包含彩色气球、彩带、背景装饰画和桌面布置，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_heart\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        67,\n        416,\n        453,\n        672\n      ],\n      \"description\": \"心形窗口内的生日花束与蜡烛照片，保留花束、蜡烛和背景环境，显示区域为心形。\"\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        453,\n        416,\n        925,\n        894\n      ],\n      \"description\": \"右侧人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        109,\n        692,\n        526,\n        959\n      ],\n      \"description\": \"下方人物近景照片，人物戴皇冠、穿粉色礼服，保留人物及身后的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        400\n      ],\n      \"text\": \"Happy Birthday\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        530,\n        790,\n        925,\n        959\n      ],\n      \"text\": \"Happy Birthday\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_heart\",\n    \"photo_right\",\n    \"photo_bottom\",\n    \"text_top\",\n    \"text_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

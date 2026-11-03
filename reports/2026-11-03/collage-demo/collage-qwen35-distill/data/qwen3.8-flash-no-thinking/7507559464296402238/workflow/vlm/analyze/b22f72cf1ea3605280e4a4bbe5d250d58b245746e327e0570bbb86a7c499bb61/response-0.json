@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-68fb95df-89fe-9c76-a6ab-f452dcb58c4f",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7570,
+    "completion_tokens": 623,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 623
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"bg_photo\",\n    \"description\": \"全画布底图为热带海滩场景，上方是茂密的绿色椰子树叶，下方是浅绿色的海水和沙滩岩石。画面连续延伸至四边，作为整体摄影背景供替换。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        142,\n        163,\n        857,\n        835\n      ],\n      \"description\": \"位于画面中央的竖向矩形照片，显示一名长发女子坐在沙滩上，身穿格纹吊带裙，回头看向镜头。背景包含天空、海面和远处的浮标。\"\n    },\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        280,\n        90,\n        460,\n        120\n      ],\n      \"text\": \"Island diary\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": true\n    },\n    {\n      \"id\": \"overlay_deco_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        465,\n        75,\n        710,\n      125\n      ],\n      \"description\": \"顶部标题右侧的一组白色手绘风格装饰元素，包括星星符号、线条和一个写实的椰子图案。\"\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        290,\n        865,\n        710,\n        900\n      ],\n      \"text\": \"The melody of summer\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_deco_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        230,\n        860,\n        760,\n        910\n      ],\n      \"description\": \"底部文字两侧的白色手绘装饰，左侧为花朵与加号，右侧为音符与加号。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_main\",\n    \"text_top\",\n    \"overlay_deco_top\",\n    \"text_bottom\",\n    \"overlay_deco_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

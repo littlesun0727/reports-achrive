@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内摄影底图，一位年轻女性站在白色墙壁前，身穿白色带图案的T恤，头发扎起。画面左侧可见窗户和室外光线。主体人物及环境构成连续摄影画面，完整显示区域延伸至画布四边；上层贴纸和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_thought",
+      "kind": "photo",
+      "bbox": [
+        165,
+        120,
+        330,
+        280
+      ],
+      "description": "左上角思维气泡内的照片，显示一位年轻女性的面部特写，表情略带俏皮。照片被手绘风格的云朵状气泡框包围，气泡边缘为黑色线条。"
+    },
+    {
+      "id": "overlay_rabbit_top",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        105,
+        915,
+        260
+      ],
+      "description": "右上角的方形贴纸，内含一只卡通兔子图案，兔子表情可爱，周围有简单的装饰线条。贴纸背景为白色，边缘清晰。"
+    },
+    {
+      "id": "overlay_rabbit_bottom",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        810,
+        235,
+        965
+      ],
+      "description": "左下角的方形贴纸，内含一只卡通兔子图案，兔子表情活泼，周围有粉色爱心装饰。贴纸背景为白色，边缘清晰。"
+    },
+    {
+      "id": "overlay_heart_1",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        380,
+        210,
+        425
+      ],
+      "description": "左侧中部的粉色手绘爱心，线条简洁，颜色柔和。"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        380,
+        865,
+        425
+      ],
+      "description": "右侧中部的粉色手绘爱心，线条简洁，颜色柔和。"
+    },
+    {
+      "id": "overlay_heart_3",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        640,
+        165,
+        685
+      ],
+      "description": "左侧下部的粉色手绘爱心，线条简洁，颜色柔和。"
+    },
+    {
+      "id": "overlay_heart_4",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        880,
+        865,
+        925
+      ],
+      "description": "右侧下部的粉色手绘爱心，线条简洁，颜色柔和。"
+    }
+  ],
+  "layer_order": [
+    "photo_thought",
+    "overlay_rabbit_top",
+    "overlay_rabbit_bottom",
+    "overlay_heart_1",
+    "overlay_heart_2",
+    "overlay_heart_3",
+    "overlay_heart_4"
+  ]
+}

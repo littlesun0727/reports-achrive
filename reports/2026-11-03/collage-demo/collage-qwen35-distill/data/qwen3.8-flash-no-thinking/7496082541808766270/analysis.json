@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "一张连续的生日派对场景摄影底图，画面包含彩色气球、悬挂的“Happy Birthday”字母装饰以及散落的彩色纸屑。该底图延伸至画布四边，作为所有独立照片窗口的背景环境。",
+      "background_type": "photo",
+      "label": "一张连续的生日派对场景摄影底图，画面包含彩色气球、悬挂的“H",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        54,
+        510,
+        351,
+        803
+      ],
+      "description": "心形窗口内的特写照片，显示粉色和黄色的花束及点燃的蜡烛，保留其内部摄影环境。",
+      "label": "心形窗口内的特写照片，显示粉色和黄色的花束及点燃的蜡烛，保留",
+      "method": "local"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        45,
+        498,
+        360,
+        815
+      ],
+      "description": "围绕心形照片的白色虚线边框，具有手绘质感。",
+      "photo_id": [
+        "photo_heart"
+      ],
+      "label": "围绕心形照片的白色虚线边框，具有手绘质感。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        414,
+        510,
+        828,
+        1139
+      ],
+      "description": "竖向矩形窗口内的照片，显示一名戴皇冠的女子闭眼双手合十许愿，桌上有蛋糕和玻璃杯，保留室内摄影环境。",
+      "label": "竖向矩形窗口内的照片，显示一名戴皇冠的女子闭眼双手合十许愿，",
+      "method": "local"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        405,
+        498,
+        837,
+        1151
+      ],
+      "description": "围绕主照片的白色虚线矩形边框。",
+      "photo_id": [
+        "photo_main"
+      ],
+      "label": "围绕主照片的白色虚线矩形边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        99,
+        839,
+        477,
+        1151
+      ],
+      "description": "横向矩形窗口内的照片，显示身穿粉色礼服的女子手持气球微笑，保留室内摄影环境。",
+      "label": "横向矩形窗口内的照片，显示身穿粉色礼服的女子手持气球微笑，保",
+      "method": "local"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        90,
+        827,
+        486,
+        1163
+      ],
+      "description": "围绕左侧照片的白色虚线矩形边框。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "围绕左侧照片的白色虚线矩形边框。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_art",
+      "kind": "overlay",
+      "bbox": [
+        477,
+        935,
+        828,
+        1163
+      ],
+      "description": "位于右下角的艺术字设计，内容为白色手写体“Happy Birthday”，带有装饰性笔触和星星点缀。",
+      "label": "位于右下角的艺术字设计，内容为白色手写体“Happy Bir",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_heart",
+    "frame_heart",
+    "photo_main",
+    "frame_main",
+    "photo_left",
+    "frame_left",
+    "overlay_text_art"
+  ]
+}

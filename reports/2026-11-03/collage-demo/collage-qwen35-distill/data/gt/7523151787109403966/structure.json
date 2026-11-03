@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一名扎起黑发的女孩站在白墙与左侧窗户旁，正面看向镜头，身体略倾斜，画面显示头部至臀部附近，底部裁切。窗框、墙面与自然光构成连续摄影环境，延伸至画布四边；上方头像和贴纸遮挡局部。人物、衣服上的兔子图案及完整室内环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        130,
+        87,
+        391,
+        300
+      ],
+      "description": "左上方独立女孩头像，黑发垂落，正面微低头看向镜头，显示头部及部分白色上衣，姿态与主照片不同。头像周围浅色摄影环境及肩部向底层柔和渐隐，外侧叠有独立手绘思考气泡。"
+    },
+    {
+      "id": "thought_cloud",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        81,
+        448,
+        378
+      ],
+      "description": "围绕左上头像的灰黑色手绘思考气泡，包含不规则云朵轮廓及向右下延伸的两个小椭圆，内部透明，完整线条作为一个装饰保留。"
+    },
+    {
+      "id": "rabbit_top",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        127,
+        933,
+        264
+      ],
+      "description": "右上方白色方形兔子表情贴纸，包含灰褐色线绘兔头、竖耳、大眼、胡须、搭在下缘的爪子及左侧生气符号，白底和图案整体保留。"
+    },
+    {
+      "id": "heart_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        379,
+        233,
+        424
+      ],
+      "description": "左上头像下方的小型粉红手绘爱心，灰色不规则外轮廓与内部粉色笔触整体保留。"
+    },
+    {
+      "id": "heart_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        381,
+        903,
+        437
+      ],
+      "description": "人物头部右侧的粉红手绘爱心，带灰色外轮廓及内部零散线条，略向右倾斜。"
+    },
+    {
+      "id": "heart_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        646,
+        182,
+        692
+      ],
+      "description": "画面左侧中下部的粉红手绘爱心，灰黑色不规则轮廓包围粉色填充。"
+    },
+    {
+      "id": "rabbit_bottom",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        813,
+        255,
+        950
+      ],
+      "description": "左下方白色方形兔子表情贴纸，包含双爪托脸的长耳兔、粉红爱心和周围短线，白色底板与全部附属图案整体保留，覆盖主照片局部。"
+    },
+    {
+      "id": "heart_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        887,
+        850,
+        926
+      ],
+      "description": "右下方小型粉红手绘爱心，带灰色外轮廓及内部粉色短笔触。"
+    }
+  ],
+  "layer_order": [
+    "photo_inset",
+    "thought_cloud",
+    "rabbit_top",
+    "heart_upper_left",
+    "heart_upper_right",
+    "heart_middle_left",
+    "rabbit_bottom",
+    "heart_bottom_right"
+  ]
+}

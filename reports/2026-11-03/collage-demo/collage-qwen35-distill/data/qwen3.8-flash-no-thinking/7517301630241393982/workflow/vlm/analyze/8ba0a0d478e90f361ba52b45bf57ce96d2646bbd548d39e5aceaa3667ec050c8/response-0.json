@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-d0a297ab-a283-9b15-a85a-aefc29de3b92",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7552,
+    "completion_tokens": 605,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 605
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的摄影底图，展示一名身穿深色格纹无袖连衣裙、背着黑色双肩包的年轻女子在街道上行走的全身照。背景包含灰色的石质建筑外墙、柏油马路和人行道。画面四边均露出该场景内容，上层装饰遮挡局部但不改变底图范围。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star_deco\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        386,\n        349,\n        452,\n        391\n      ],\n      \"description\": \"位于人物头部左侧的白色手绘空心五角星图案，作为独立装饰元素叠加在底图上。\"\n    },\n    {\n      \"id\": \"overlay_clouds\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        278,\n        428,\n        770,\n        562\n      ],\n      \"description\": \"环绕在人物腰部周围的白色手绘云朵、星星及弧线轨迹组合，呈漂浮状覆盖在底图之上。\"\n    },\n    {\n      \"id\": \"overlay_heart\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        86,\n        692,\n        348,\n        872\n      ],\n      \"description\": \"左下角的白色心形贴纸，内部印有黑色的“I”、“ME”字样及红色的爱心符号，整体作为一个固定设计单元保留。\"\n    },\n    {\n      \"id\": \"photo_circle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        601,\n        564,\n        944,\n        916\n      ],\n      \"description\": \"右下角的圆形照片窗口，显示同一位穿着格纹裙的女子站在路边的半身像，边缘带有白色描边效果。\"\n    },\n    {\n      \"id\": \"photo_star\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        33,\n        36,\n        462, 360\n      ],\n      \"description\": \"左上角的五角星形状照片窗口，显示同一位女子的近景特写，边缘带有白色粗描边效果。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_star_deco\",\n    \"overlay_clouds\",\n    \"overlay_heart\",\n    \"photo_circle\",\n    \"photo_star\"\n  ]\n}",
+  "tool_calls": false
+}

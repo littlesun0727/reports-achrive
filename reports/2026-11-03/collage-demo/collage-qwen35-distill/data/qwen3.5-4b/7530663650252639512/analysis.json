@@ -1,0 +1,209 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布固定底图，为带有细微纹理的米色纸张，承载所有独立照片与手绘装饰，纸纹保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，为带有细微纹理的米色纸张，承载所有独立照片与",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        322,
+        204,
+        574,
+        466
+      ],
+      "description": "顶部俯拍食物照片，包含披萨、炸鸡、饮料和黄色格纹桌布，保留完整摄影环境。",
+      "label": "顶部俯拍食物照片，包含披萨、炸鸡、饮料和黄色格纹桌布，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        212,
+        450,
+        356,
+        607
+      ],
+      "description": "左侧中景照片，展示木质桌面、咖啡杯和甜点，保留桌面环境。",
+      "label": "左侧中景照片，展示木质桌面、咖啡杯和甜点，保留桌面环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_center",
+      "kind": "photo",
+      "bbox": [
+        355,
+        466,
+        537,
+        592
+      ],
+      "description": "中间照片，展示黑色圆形托盘上的蛋糕和饮品，保留托盘环境。",
+      "label": "中间照片，展示黑色圆形托盘上的蛋糕和饮品，保留托盘环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        394,
+        712,
+        598
+      ],
+      "description": "右侧中景照片，展示餐桌上的菜肴和餐具，保留餐桌环境。",
+      "label": "右侧中景照片，展示餐桌上的菜肴和餐具，保留餐桌环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        160,
+        592,
+        338,
+        870
+      ],
+      "description": "左下照片，展示煎蛋、牛肉和配菜，保留餐盘环境。",
+      "label": "左下照片，展示煎蛋、牛肉和配菜，保留餐盘环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_center",
+      "kind": "photo",
+      "bbox": [
+        340,
+        586,
+        544,
+        874
+      ],
+      "description": "中间下方照片，展示披萨和沙拉，保留餐盘环境。",
+      "label": "中间下方照片，展示披萨和沙拉，保留餐盘环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        544,
+        592,
+        736,
+        850
+      ],
+      "description": "右下照片，展示水果和甜点，保留餐盘环境。",
+      "label": "右下照片，展示水果和甜点，保留餐盘环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bowl",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        826,
+        802,
+        1094
+      ],
+      "description": "手绘碗形装饰，位于底部中央，包含文字'My Daily Plog'，作为独立固定单元保留。",
+      "label": "手绘碗形装饰，位于底部中央，包含文字'My Daily Pl",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        170,
+        262,
+        382
+      ],
+      "description": "左上角手绘叉子，作为独立固定装饰保留。",
+      "label": "左上角手绘叉子，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spoon",
+      "kind": "overlay",
+      "bbox": [
+        172,
+        166,
+        262,
+        370
+      ],
+      "description": "左上角手绘勺子，与叉子相邻，作为独立固定装饰保留。",
+      "label": "左上角手绘勺子，与叉子相邻，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        622,
+        133,
+        790
+      ],
+      "description": "左侧手绘螺旋装饰，作为独立固定装饰保留。",
+      "label": "左侧手绘螺旋装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_2",
+      "kind": "overlay",
+      "bbox": [
+        736,
+        478,
+        826,
+        562
+      ],
+      "description": "右侧手绘螺旋装饰，作为独立固定装饰保留。",
+      "label": "右侧手绘螺旋装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_3",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        94,
+        790,
+        158
+      ],
+      "description": "右上角手绘螺旋装饰，作为独立固定装饰保留。",
+      "label": "右上角手绘螺旋装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "photo_mid_left",
+    "photo_mid_center",
+    "photo_mid_right",
+    "photo_lower_left",
+    "photo_lower_center",
+    "photo_lower_right",
+    "overlay_bowl",
+    "overlay_fork",
+    "overlay_spoon",
+    "overlay_spiral_1",
+    "overlay_spiral_2",
+    "overlay_spiral_3"
+  ]
+}

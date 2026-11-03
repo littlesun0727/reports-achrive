@@ -1,0 +1,95 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的牛皮纸纹理底图，作为笔记本页面，承载所有贴纸和照片；四周及贴纸间隙保留相同纸纹。"
+  },
+  "objects": [
+    {
+      "id": "photo_crayfish_1",
+      "kind": "photo",
+      "bbox": [
+        270,
+        190,
+        690,
+        580
+      ],
+      "description": "上方圆形麻辣小龙虾照片，保留摄影环境，边缘有白色撕纸效果。"
+    },
+    {
+      "id": "photo_crayfish_2",
+      "kind": "photo",
+      "bbox": [
+        540,
+        440,
+        820,
+        740
+      ],
+      "description": "右下方圆形十三香小龙虾照片，保留摄影环境，边缘有白色撕纸效果。"
+    },
+    {
+      "id": "photo_beer",
+      "kind": "photo",
+      "bbox": [
+        290,
+        500,
+        480,
+        780
+      ],
+      "description": "左侧泉城奶啤易拉罐照片，保留摄影环境，边缘有白色撕纸效果。"
+    },
+    {
+      "id": "overlay_bread",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        180,
+        800,
+        280
+      ],
+      "description": "右上角手绘面包袋线稿贴纸，包含文字'Bread'，作为独立装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        610,
+        400,
+        770,
+        440
+      ],
+      "text": "麻辣小龙虾",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        580,
+        710,
+        720,
+        750
+      ],
+      "text": "十三香小龙虾",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_crayfish_1",
+    "photo_crayfish_2",
+    "photo_beer",
+    "overlay_bread",
+    "text_1",
+    "text_2"
+  ]
+}

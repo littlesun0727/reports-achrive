@@ -1,0 +1,214 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_1",
+    "description": "全画布固定设计底图，上部为亮蓝色，下部为带细密纹理和明暗变化的深绿色地面，水平分界贯穿画布。保留底色、地面纹理及结构，电脑窗口、照片、贴纸和文字均独立列出。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        149,
+        311,
+        526,
+        744
+      ],
+      "description": "左侧俯拍陶艺工作台照片，无人物，包含成束画笔、装液体的圆碗、陶盘、调色盘和铺有方格材料的桌面。完整保留摄影环境，四边按矩形区域裁切，右边与另一张照片直接拼接，上方部分被爱心气泡遮挡。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        526,
+        311,
+        876,
+        744
+      ],
+      "description": "右侧独立近景照片，一人双手托举带黄色字样和星形图案的陶碗，人物头部不在显示范围内，可见手部、深色衣物及工作室环境。保留摄影背景，与左图在垂直接缝处取景不连续，边缘被电脑框及贴纸局部遮挡。"
+    },
+    {
+      "id": "computer_frame",
+      "kind": "frame",
+      "bbox": [
+        132,
+        185,
+        894,
+        817
+      ],
+      "description": "复古灰色电脑窗口框体，包含蓝色标题栏、电脑图标、My Computer 字样、右上角按钮、File Edit View Help 菜单、立体边沿和底部状态栏。中央显示区承载左右两张拼接照片，照片独立替换，框体界面整体保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "cloud_heart_large",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        17,
+        151,
+        121
+      ],
+      "description": "左上方较大的白色云雾爱心，保留蓬松颗粒、模糊轮廓及外围淡蓝白色光晕。"
+    },
+    {
+      "id": "cloud_heart_small",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        87,
+        233,
+        157
+      ],
+      "description": "左上方偏右的较小白色云雾爱心，保留不规则颗粒和柔软半透明边缘。"
+    },
+    {
+      "id": "menu_cat",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        259,
+        607,
+        301
+      ],
+      "description": "叠在电脑菜单栏上的小型白色像素猫脸，带蓝色像素轮廓、耳朵、胡须和粉色脸颊，作为完整贴纸保留。"
+    },
+    {
+      "id": "heart_bubble",
+      "kind": "overlay",
+      "bbox": [
+        497,
+        330,
+        597,
+        411
+      ],
+      "description": "白底蓝色像素轮廓的对话气泡，内部有粉色像素爱心，下部带尖角，覆盖两张照片接缝上方。"
+    },
+    {
+      "id": "dialog_hey",
+      "kind": "overlay",
+      "bbox": [
+        731,
+        265,
+        964,
+        360
+      ],
+      "description": "小型复古弹窗贴纸，包含蓝色 hey girl 标题栏、关闭按钮、浅灰内容底板、he will not call 字样及 iknow、cry、idc 三个按钮；所有界面文字与立体边框整体保留。"
+    },
+    {
+      "id": "hand_cursor",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        336,
+        956,
+        404
+      ],
+      "description": "白色填充、黑色粗像素轮廓的手形鼠标指针，食指朝上，叠压右侧弹窗的 idc 按钮并延伸到弹窗下方。"
+    },
+    {
+      "id": "status_hearts",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        767,
+        421,
+        797
+      ],
+      "description": "状态栏上的三个蓝色像素轮廓爱心，前两个为粉色填充，第三个浅色空心，作为一组横向装饰保留。"
+    },
+    {
+      "id": "dialog_error",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        714,
+        248,
+        869
+      ],
+      "description": "左下角复古错误弹窗，带灰色立体边框、深蓝 Error 标题栏、关闭按钮、中央黑色像素字 ALONE 和底部 OK 按钮。文字与完整弹窗载体一体保留，覆盖电脑窗口左下角。"
+    },
+    {
+      "id": "large_pixel_cat",
+      "kind": "overlay",
+      "bbox": [
+        737,
+        660,
+        987,
+        855
+      ],
+      "description": "右下方大型横向白色像素猫贴纸，黑色阶梯状粗轮廓，包含尖耳、简化五官、四足和向右上翘起的长尾；整体覆盖照片右下部及电脑底框。"
+    },
+    {
+      "id": "blue_star_right",
+      "kind": "overlay",
+      "bbox": [
+        920,
+        545,
+        981,
+        607
+      ],
+      "description": "画面右侧独立的亮蓝色不规则五角星，位于绿色地面上。"
+    },
+    {
+      "id": "blue_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        261,
+        876,
+        333,
+        949
+      ],
+      "description": "下部偏左的亮蓝色倾斜五角星，作为独立装饰保留。"
+    },
+    {
+      "id": "pixel_star",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        841,
+        750,
+        916
+      ],
+      "description": "下部偏右的倾斜像素星贴纸，含黄色星体、白色高光和蓝紫色阶梯状轮廓，整体保留。"
+    },
+    {
+      "id": "timestamp",
+      "kind": "text",
+      "bbox": [
+        11,
+        947,
+        167,
+        991
+      ],
+      "text": "PM 10:25\nAUGUST. 07 1990",
+      "color": "#5272FF",
+      "font": "mono",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "computer_frame",
+    "cloud_heart_large",
+    "cloud_heart_small",
+    "menu_cat",
+    "heart_bubble",
+    "status_hearts",
+    "dialog_hey",
+    "hand_cursor",
+    "dialog_error",
+    "large_pixel_cat",
+    "blue_star_right",
+    "blue_star_bottom",
+    "pixel_star",
+    "timestamp"
+  ]
+}

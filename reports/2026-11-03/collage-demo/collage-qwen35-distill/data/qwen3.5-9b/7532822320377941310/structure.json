@@ -1,0 +1,161 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "粉色底面带有白色波点图案的固定设计底图，覆盖全画布，作为照片和装饰的承载背景。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        92,
+        182,
+        632,
+        482
+      ],
+      "description": "上方人物照片，人物佩戴项链和耳机，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        56,
+        142,
+        696,
+        512
+      ],
+      "description": "围绕上方照片的黑色波点边框，位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        322,
+        582,
+        912,
+        902
+      ],
+      "description": "下方人物照片，人物手指指向镜头，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        292,
+        552,
+        922,
+        912
+      ],
+      "description": "围绕下方照片的黑色波点边框，位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "overlay_toy_left",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        372,
+        252,
+        522
+      ],
+      "description": "左侧白色毛绒玩具贴纸，压在上方照片的左下角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_toy_right",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        492,
+        982,
+        662
+      ],
+      "description": "右侧白色毛绒玩具贴纸，压在下方照片的右上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        182,
+        822,
+        542,
+        952
+      ],
+      "description": "下方照片左下角的白色翅膀装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        542,
+        712,
+        622
+      ],
+      "description": "下方照片上方的粉色蝴蝶结装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_rings",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        112,
+        722,
+        262
+      ],
+      "description": "上方照片右上角的珍珠串装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        172,
+        632,
+        422,
+        662
+      ],
+      "text": "I am a princess",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        172,
+        672,
+        422,
+        702
+      ],
+      "text": "But you're not my prince",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "overlay_toy_left",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_toy_right",
+    "overlay_wings",
+    "overlay_bow",
+    "overlay_rings",
+    "text_1",
+    "text_2"
+  ]
+}

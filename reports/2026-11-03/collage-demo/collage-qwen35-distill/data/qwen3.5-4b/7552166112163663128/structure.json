@@ -1,0 +1,163 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "star_pattern_base",
+    "description": "全画布固定底图，包含粉色星星图案和粉色糖果装饰边框，作为拼贴画背景保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_cherry_blossom",
+      "kind": "photo",
+      "bbox": [
+        342,
+        100,
+        932,
+        468
+      ],
+      "description": "樱花树照片，展示垂下的樱花枝条和树干，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        53,
+        410,
+        468,
+        715
+      ],
+      "description": "甜点照片，展示草莓奶油蛋糕和餐具，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        423,
+        642,
+        808,
+        932
+      ],
+      "description": "人物照片，展示长发女性坐在室内，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        796,
+        520,
+        968,
+        650
+      ],
+      "description": "咖啡杯照片，展示两个粉色咖啡杯，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        83,
+        168,
+        253,
+        358
+      ],
+      "description": "玩偶照片，展示粉色猫咪玩偶，保留完整摄影环境。"
+    },
+    {
+      "id": "frame_cat",
+      "kind": "frame",
+      "bbox": [
+        83,
+        168,
+        253,
+        358
+      ],
+      "description": "围绕猫咪玩偶的相框，包含相框边缘和文字标签。",
+      "photo_id": [
+        "photo_cat"
+      ]
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        192,
+        138,
+        296,
+        168
+      ],
+      "text": "정신 체리",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        520,
+        480,
+        788,
+        520
+      ],
+      "text": "우린 서로기있어\n나는 오늘의슈퍼스타",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        108,
+        770,
+        358,
+        858
+      ],
+      "text": "가장큰행복은작은\n행복들의연속이다.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_tag",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        438,
+        968,
+        510
+      ],
+      "description": "粉色标签贴纸，带有蝴蝶结图案，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        750,
+        398,
+        888
+      ],
+      "description": "粉色便签纸，带有回形针装饰，作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_cherry_blossom",
+    "photo_cake",
+    "photo_girl",
+    "photo_coffee",
+    "photo_cat",
+    "frame_cat",
+    "text_1",
+    "text_2",
+    "text_3",
+    "overlay_tag",
+    "overlay_note"
+  ]
+}

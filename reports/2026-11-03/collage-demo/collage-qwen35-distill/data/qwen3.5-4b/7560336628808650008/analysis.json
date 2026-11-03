@@ -1,0 +1,191 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内场景摄影底图，包含模糊的沙发、桌面、玩偶和窗外夜景，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内场景摄影底图，包含模糊的沙发、桌面、玩偶和窗外夜景，完整",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        381,
+        98,
+        824,
+        530
+      ],
+      "description": "心形窗口内的室内夜景照片，人物戴着玩偶头套趴在桌上，背景为城市夜景灯光，显示区域为心形。",
+      "label": "心形窗口内的室内夜景照片，人物戴着玩偶头套趴在桌上，背景为城",
+      "method": "local"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        113,
+        664,
+        501,
+        1066
+      ],
+      "description": "星形窗口内的室内场景照片，桌上摆放着甜点、饮料和玩偶，背景有电视屏幕，显示区域为星形。",
+      "label": "星形窗口内的室内场景照片，桌上摆放着甜点、饮料和玩偶，背景有",
+      "method": "local"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        381,
+        98,
+        824,
+        530
+      ],
+      "description": "围绕心形照片的白色手绘风格心形边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_heart"
+      ],
+      "label": "围绕心形照片的白色手绘风格心形边框，覆盖照片边缘并位于照片上",
+      "method": "extract"
+    },
+    {
+      "id": "frame_star",
+      "kind": "frame",
+      "bbox": [
+        113,
+        664,
+        501,
+        1066
+      ],
+      "description": "围绕星形照片的白色手绘风格星形边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_star"
+      ],
+      "label": "围绕星形照片的白色手绘风格星形边框，覆盖照片边缘并位于照片上",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        95,
+        127,
+        349,
+        530
+      ],
+      "description": "我从此感到幸福\n轻易松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬芳淡淡的却萦绕不去\n我的幸福\n只需要我伸出于掌心",
+      "label": "我从此感到幸福\n轻易松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶",
+      "method": "local",
+      "text": "我从此感到幸福\n轻易松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬芳淡淡的却萦绕不去\n我的幸福\n只需要我伸出于掌心",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        578,
+        631,
+        858,
+        1070
+      ],
+      "description": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "label": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要",
+      "method": "local",
+      "text": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_decor_top",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        50,
+        831,
+        106
+      ],
+      "description": "白色手绘风格装饰图案，包含星星、音符、爱心和花朵，位于画布右上角。",
+      "label": "白色手绘风格装饰图案，包含星星、音符、爱心和花朵，位于画布右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_decor_middle",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        458,
+        799,
+        520
+      ],
+      "description": "白色手绘风格装饰图案，包含兔子耳朵和笑脸，位于画布右侧中部。",
+      "label": "白色手绘风格装饰图案，包含兔子耳朵和笑脸，位于画布右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_decor_bottom",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        1070,
+        336,
+        1120
+      ],
+      "description": "白色手绘风格装饰图案，包含五颗星星，位于画布左下角。",
+      "label": "白色手绘风格装饰图案，包含五颗星星，位于画布左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_decor_center",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        580,
+        488,
+        640
+      ],
+      "description": "白色手绘风格装饰图案，包含蝴蝶结和星星，位于画布中部。",
+      "label": "白色手绘风格装饰图案，包含蝴蝶结和星星，位于画布中部。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_heart",
+    "frame_heart",
+    "photo_star",
+    "frame_star",
+    "text_1",
+    "text_2",
+    "overlay_decor_top",
+    "overlay_decor_middle",
+    "overlay_decor_bottom",
+    "overlay_decor_center"
+  ]
+}

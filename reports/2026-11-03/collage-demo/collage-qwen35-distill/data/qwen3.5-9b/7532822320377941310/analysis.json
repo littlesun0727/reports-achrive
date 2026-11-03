@@ -1,0 +1,205 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1202
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1202
+      ],
+      "description": "粉色底面带有白色波点图案的固定设计底图，覆盖全画布，作为照片和装饰的承载背景。",
+      "background_type": "reference_clean",
+      "label": "粉色底面带有白色波点图案的固定设计底图，覆盖全画布，作为照片",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        83,
+        219,
+        569,
+        579
+      ],
+      "description": "上方人物照片，人物佩戴项链和耳机，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方人物照片，人物佩戴项链和耳机，保留照片内的摄影环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        50,
+        171,
+        626,
+        615
+      ],
+      "description": "围绕上方照片的黑色波点边框，位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕上方照片的黑色波点边框，位于照片上方，完整边框作为一个框",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        290,
+        700,
+        821,
+        1084
+      ],
+      "description": "下方人物照片，人物手指指向镜头，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "下方人物照片，人物手指指向镜头，保留照片内的摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        263,
+        664,
+        830,
+        1096
+      ],
+      "description": "围绕下方照片的黑色波点边框，位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕下方照片的黑色波点边框，位于照片上方，完整边框作为一个框",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_toy_left",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        447,
+        227,
+        627
+      ],
+      "description": "左侧白色毛绒玩具贴纸，压在上方照片的左下角，作为独立固定装饰保留。",
+      "label": "左侧白色毛绒玩具贴纸，压在上方照片的左下角，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_toy_right",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        591,
+        884,
+        796
+      ],
+      "description": "右侧白色毛绒玩具贴纸，压在下方照片的右上角，作为独立固定装饰保留。",
+      "label": "右侧白色毛绒玩具贴纸，压在下方照片的右上角，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        164,
+        988,
+        488,
+        1144
+      ],
+      "description": "下方照片左下角的白色翅膀装饰，作为独立固定装饰保留。",
+      "label": "下方照片左下角的白色翅膀装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        533,
+        651,
+        641,
+        748
+      ],
+      "description": "下方照片上方的粉色蝴蝶结装饰，作为独立固定装饰保留。",
+      "label": "下方照片上方的粉色蝴蝶结装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rings",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        135,
+        650,
+        315
+      ],
+      "description": "上方照片右上角的珍珠串装饰，作为独立固定装饰保留。",
+      "label": "上方照片右上角的珍珠串装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        155,
+        760,
+        380,
+        796
+      ],
+      "description": "I am a princess",
+      "label": "I am a princess",
+      "method": "local",
+      "text": "I am a princess",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        155,
+        808,
+        380,
+        844
+      ],
+      "description": "But you're not my prince",
+      "label": "But you're not my prince",
+      "method": "local",
+      "text": "But you're not my prince",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "frame_top",
+    "overlay_toy_left",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_toy_right",
+    "overlay_wings",
+    "overlay_bow",
+    "overlay_rings",
+    "text_1",
+    "text_2"
+  ]
+}

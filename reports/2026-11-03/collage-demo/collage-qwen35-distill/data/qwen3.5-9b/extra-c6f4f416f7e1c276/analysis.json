@@ -1,0 +1,345 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1477
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1477
+      ],
+      "description": "连续的白色纹理纸底，作为整个拼贴画的固定承载层，四周及照片间隙保留相同纸纹；左侧金属活页夹结构为独立固定单元，不属于底图。",
+      "background_type": "reference_clean",
+      "label": "连续的白色纹理纸底，作为整个拼贴画的固定承载层，四周及照片间",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        216,
+        155,
+        810,
+        583
+      ],
+      "description": "围绕顶部照片的黄色矩形框，带有圆角和内部装饰性文字，作为固定载体保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕顶部照片的黄色矩形框，带有圆角和内部装饰性文字，作为固定",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        227,
+        199,
+        799,
+        510
+      ],
+      "description": "顶部人物照片，人物戴黑色帽子，坐在绿色瓷砖墙前，保留照片内的摄影环境。",
+      "label": "顶部人物照片，人物戴黑色帽子，坐在绿色瓷砖墙前，保留照片内的",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        232,
+        613,
+        626,
+        908
+      ],
+      "description": "中间人物照片，人物戴白色帽子，站在蓝色门框前，保留照片内的摄影环境。",
+      "label": "中间人物照片，人物戴白色帽子，站在蓝色门框前，保留照片内的摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        248,
+        1034,
+        535,
+        1337
+      ],
+      "description": "底部人物照片，人物手持绿色电话亭，保留照片内的摄影环境。",
+      "label": "底部人物照片，人物手持绿色电话亭，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_large",
+      "kind": "photo",
+      "bbox": [
+        486,
+        694,
+        1048,
+        1433
+      ],
+      "description": "右侧大幅人物照片，人物戴黑色帽子，坐姿，保留照片内的摄影环境，显示区域为不规则形状。",
+      "label": "右侧大幅人物照片，人物戴黑色帽子，坐姿，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lemon",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        414,
+        302,
+        532
+      ],
+      "description": "左侧蓝色云朵形状的柠檬切片贴纸，作为独立固定装饰保留。",
+      "label": "左侧蓝色云朵形状的柠檬切片贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        236,
+        967,
+        384
+      ],
+      "description": "右上角棕色波点背景的咖啡拉花贴纸，作为独立固定装饰保留。",
+      "label": "右上角棕色波点背景的咖啡拉花贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_icecream",
+      "kind": "overlay",
+      "bbox": [
+        189,
+        953,
+        281,
+        1108
+      ],
+      "description": "左下角紫色波点背景的冰淇淋贴纸，作为独立固定装饰保留。",
+      "label": "左下角紫色波点背景的冰淇淋贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        665,
+        972,
+        812
+      ],
+      "description": "右侧粉色五角星贴纸，作为独立固定装饰保留。",
+      "label": "右侧粉色五角星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flag",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        1012,
+        734,
+        1108
+      ],
+      "description": "蓝色三角形旗帜贴纸，作为独立固定装饰保留。",
+      "label": "蓝色三角形旗帜贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        583,
+        324,
+        702
+      ],
+      "description": "红色波点胶带贴纸，作为独立固定装饰保留。",
+      "label": "红色波点胶带贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        238,
+        517,
+        788,
+        569
+      ],
+      "description": "Find sweetness in plain days",
+      "label": "Find sweetness in plain days",
+      "method": "local",
+      "text": "Find sweetness in plain days",
+      "text_status": "known",
+      "style": {
+        "fill": "#5D4037",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        821,
+        436,
+        950,
+        539
+      ],
+      "description": "The best time is on the road.",
+      "label": "The best time is on the road.",
+      "method": "local",
+      "text": "The best time is on the road.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        713,
+        561,
+        961,
+        694
+      ],
+      "description": "Lemon Tang",
+      "label": "Lemon Tang",
+      "method": "local",
+      "text": "Lemon Tang",
+      "text_status": "known",
+      "style": {
+        "fill": "#4FC3F7",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        497,
+        857,
+        702,
+        916
+      ],
+      "description": "I'M SO HAPPY",
+      "label": "I'M SO HAPPY",
+      "method": "local",
+      "text": "I'M SO HAPPY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FDD835",
+        "font": "hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        616,
+        916,
+        734,
+        960
+      ],
+      "description": "TODAY",
+      "label": "TODAY",
+      "method": "local",
+      "text": "TODAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FDD835",
+        "font": "hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        259,
+        931,
+        562,
+        990
+      ],
+      "description": "The world is too big to stay in one place.",
+      "label": "The world is too big to stay i",
+      "method": "local",
+      "text": "The world is too big to stay in one place.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        572,
+        1019,
+        702,
+        1093
+      ],
+      "description": "like",
+      "label": "like",
+      "method": "local",
+      "text": "like",
+      "text_status": "known",
+      "style": {
+        "fill": "#D32F2F",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "frame_top",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "photo_large",
+    "overlay_lemon",
+    "overlay_coffee",
+    "overlay_icecream",
+    "overlay_star",
+    "overlay_flag",
+    "overlay_tape",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7"
+  ]
+}

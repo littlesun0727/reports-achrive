@@ -1,0 +1,248 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_main",
+    "description": "左侧连续摄影底图，包含人物全身照、树林、石墙和天空，完整显示区域延伸至画布左半部分及顶部；右侧照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        666,
+        55,
+        999,
+        265
+      ],
+      "description": "右上室内场景照片，书架、画作和杂物构成完整摄影画面，显示区域为矩形。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        666,
+        305,
+        999,
+        515
+      ],
+      "description": "右中人物坐姿照片，保留人物及身后的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        666,
+        555,
+        999,
+        765
+      ],
+      "description": "右下局部特写照片，展示手部、手链和包袋，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_border",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        0,
+        666,
+        1000
+      ],
+      "description": "垂直白色蕾丝花边装饰，位于左右两部分之间，作为独立固定单元保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        180,
+        55,
+        330,
+        105
+      ],
+      "text": "<333",
+      "color": "#FFA07A",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        430,
+        55,
+        500,
+        105
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        50,
+        205,
+        130,
+        255
+      ],
+      "text": "<333",
+      "color": "#FFA07A",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        430,
+        305,
+        500,
+        355
+      ],
+      "text": "<333",
+      "color": "#FFA07A",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        130,
+        405,
+        180,
+        455
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        50,
+        605,
+        130,
+        655
+      ],
+      "text": "<333",
+      "color": "#FFA07A",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        500,
+        605,
+        570,
+        655
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_8",
+      "kind": "text",
+      "bbox": [
+        0,
+        805,
+        60,
+        855
+      ],
+      "text": "<3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_9",
+      "kind": "text",
+      "bbox": [
+        900,
+        205,
+        930,
+        235
+      ],
+      "text": "(1)",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_10",
+      "kind": "text",
+      "bbox": [
+        900,
+        355,
+        930,
+        385
+      ],
+      "text": "(2)",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_11",
+      "kind": "text",
+      "bbox": [
+        900,
+        605,
+        930,
+        635
+      ],
+      "text": "(3)",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_border",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7",
+    "text_8",
+    "text_9",
+    "text_10",
+    "text_11"
+  ]
+}

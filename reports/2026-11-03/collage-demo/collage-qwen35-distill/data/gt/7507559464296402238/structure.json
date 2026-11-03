@@ -1,0 +1,66 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的热带海岸摄影画面铺满画布，上方与两侧为茂密椰树及树干，下方为岸边岩石、浅绿色海水与浪花，无主要人物。四边露出的环境连续，中央照片遮住部分场景；整张海岸照片连同摄影环境一起替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        143,
+        165,
+        857,
+        835
+      ],
+      "description": "中央竖向矩形海边人物照片，一位长发年轻女子穿格纹衣裙坐在沙滩上，侧身回头看向镜头，一只手臂伸向左下方，弯曲双腿朝右，右下可见凉鞋。保留天空、海面、浮标、远处泳客、浪花和沙滩等完整摄影环境；四边清晰，无可见独立框体、主体描边或透明渐隐。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        287,
+        95,
+        461,
+        123
+      ],
+      "text": "Island diary",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        466,
+        85,
+        712,
+        128
+      ],
+      "description": "顶部标题右侧的完整装饰组合，包含白色手绘星形、细小星点、短线以及棕色椰子和白色椰肉图案，保留各成员之间的透明空隙与原有笔触。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        242,
+        867,
+        761,
+        901
+      ],
+      "description": "底部白色艺术字装饰，文字为“The melody of summer”，具有空心描线字形，左右附有小花、加号、细小圆点与音符；文字及附属符号作为完整设计保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "text_1",
+    "overlay_1",
+    "overlay_2"
+  ]
+}

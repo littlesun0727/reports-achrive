@@ -1,0 +1,96 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "notebook",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        113,
+        869,
+        888
+      ],
+      "description": "局部牛皮纸活页本底板，包括米褐色纸张纹理、错叠纸页边缘、左侧整列金属装订环及阴影，作为完整固定单元保留；不构成照片窗口。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        267,
+        173,
+        713,
+        624
+      ],
+      "description": "俯拍黑色圆盘，盛有红色小龙虾、黄色配菜和红油，无人物；沿盘子外轮廓独立显示，不保留周围桌面，外围带不规则白色撕纸状宽边。完整圆盘下部被饮料罐与右下方另一盘菜遮挡。"
+    },
+    {
+      "id": "photo_can",
+      "kind": "photo",
+      "bbox": [
+        291,
+        490,
+        508,
+        824
+      ],
+      "description": "一罐蓝银色泉城奶啤，罐口与完整罐身可见，整体略向左倾斜；包装图文属于摄影内容。沿罐体轮廓去除环境，外围有不规则白色撕纸状边缘，叠在上方大圆盘前。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        530,
+        450,
+        839,
+        758
+      ],
+      "description": "俯拍黑色圆盘，盘内满盛红色小龙虾及少量黄色配菜，无人物；沿完整圆盘外轮廓独立显示，不保留桌面环境。覆盖后方大盘的右下部分，底部局部被米色文字标签遮挡。"
+    },
+    {
+      "id": "bread_doodle",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        181,
+        826,
+        325
+      ],
+      "description": "右上方白色细线手绘装饰，包含两张错叠纸卡轮廓、回形针、面包图案及手写 Bread 字样，整体保留。"
+    },
+    {
+      "id": "label_top",
+      "kind": "overlay",
+      "bbox": [
+        613,
+        402,
+        792,
+        453
+      ],
+      "description": "米色不规则纸条标签，带黑色手写字“麻辣小龙虾”，纸边、文字及细微阴影整体保留，覆盖上方圆盘右侧。"
+    },
+    {
+      "id": "label_bottom",
+      "kind": "overlay",
+      "bbox": [
+        561,
+        727,
+        744,
+        771
+      ],
+      "description": "米色不规则纸条标签，带黑色手写字“十三香小龙虾”，纸边、文字及阴影整体保留，覆盖右下圆盘底沿。"
+    }
+  ],
+  "layer_order": [
+    "notebook",
+    "photo_top",
+    "photo_can",
+    "photo_right",
+    "bread_doodle",
+    "label_top",
+    "label_bottom"
+  ]
+}

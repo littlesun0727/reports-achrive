@@ -1,0 +1,100 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "notebook_base",
+    "description": "螺旋装订的棕色笔记本页面，包含金属线圈和纸张纹理，作为全画布固定底图保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_larger_crawfish",
+      "kind": "photo",
+      "bbox": [
+        266,
+        172,
+        706,
+        597
+      ],
+      "description": "麻辣小龙虾照片，包含汤汁、虾和配菜，边缘有白色不规则撕纸效果，位于笔记本页面中央偏上。"
+    },
+    {
+      "id": "photo_smaller_crawfish",
+      "kind": "photo",
+      "bbox": [
+        530,
+        448,
+        833,
+        755
+      ],
+      "description": "十三香小龙虾照片，包含红色小龙虾，边缘有白色不规则撕纸效果，位于笔记本页面右下。"
+    },
+    {
+      "id": "photo_beer_can",
+      "kind": "photo",
+      "bbox": [
+        296,
+        501,
+        503,
+        811
+      ],
+      "description": "泉城奶啤啤酒罐照片，包含罐身图案和文字，边缘有白色不规则撕纸效果，位于笔记本页面左下。"
+    },
+    {
+      "id": "text_bread",
+      "kind": "text",
+      "bbox": [
+        706,
+        266,
+        822,
+        319
+      ],
+      "text": "Bread",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_spicy_crawfish",
+      "kind": "text",
+      "bbox": [
+        617,
+        406,
+        788,
+        448
+      ],
+      "text": "麻辣小龙虾",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_fifteen_crawfish",
+      "kind": "text",
+      "bbox": [
+        567,
+        728,
+        738,
+        768
+      ],
+      "text": "十三香小龙虾",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_larger_crawfish",
+    "photo_smaller_crawfish",
+    "photo_beer_can",
+    "text_bread",
+    "text_spicy_crawfish",
+    "text_fifteen_crawfish"
+  ]
+}

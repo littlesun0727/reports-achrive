@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-80df7e8dc811dbba",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 8257,
+    "completion_tokens": 974,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"yellow_dotted_bg\",\n    \"description\": \"黄色底面带有深褐色圆点图案的固定设计单元，作为全画布背景承载三张独立照片；圆点图案连续且均匀分布，照片区域为透明或裁切，保留完整图案结构。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        97,\n        18,\n        891,\n        314\n      ],\n      \"description\": \"顶部咖喱饭照片，包含熊形饭团、咖喱酱汁、配菜及餐具，左上角有布丁装饰，右上角有面包片装饰，左下角有毛绒玩具，右下角有餐厅标签。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        97,\n        337,\n        897,\n        641\n      ],\n      \"description\": \"中部咖喱饭照片，包含熊形饭团、咖喱酱汁、配菜及餐具，左侧有毛绒玩具，右侧有甜点杯，左下角有黄色文字贴纸，右下角有黄色文字贴纸。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        103,\n        664,\n        897,\n        982\n      ],\n      \"description\": \"底部甜点照片，包含苹果甜点、巧克力碎、毛绒玩具及餐具，左上角有黄色线条装饰，右上角有面包装饰，右下角有面包装饰。\"\n    },\n    {\n      \"id\": \"overlay_pudding\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        32,\n        24,\n        216,\n        106\n      ],\n      \"description\": \"布丁装饰，位于顶部照片左上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_bread_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        806,\n        35,\n        953,\n        131\n      ],\n      \"description\": \"面包片装饰，位于顶部照片右上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_mua\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        10,\n        437,\n        267,\n        526\n      ],\n      \"description\": \"黄色文字贴纸，位于中部照片左侧，包含文字 MUA~，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_bonus\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        592,\n        573,\n        888,\n        626\n      ],\n      \"description\": \"黄色文字贴纸，位于中部照片右侧，包含文字 ボーナス，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_sun\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        37,\n        654,\n        153,\n        717\n      ],\n      \"description\": \"黄色线条装饰，位于底部照片左上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_bread_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        786,\n        864,\n        999,\n        982\n      ],\n      \"description\": \"面包装饰，位于底部照片右下角，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_middle\",\n    \"photo_bottom\",\n    \"overlay_pudding\",\n    \"overlay_bread_top\",\n    \"overlay_mua\",\n    \"overlay_bonus\",\n    \"overlay_sun\",\n    \"overlay_bread_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

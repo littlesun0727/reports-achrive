@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a65287ef6f5427b8",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7329,
+    "completion_tokens": 270,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"连续的浅色纹理纸底，四周及两张照片间隙保留相同纸纹；照片独立替换，纸底保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        68,\n        136,\n        742,\n        446\n      ],\n      \"description\": \"上方人物近景照片，人物长发，保留照片内的摄影环境，显示区域为圆角矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        202,\n        576,\n        902,\n        886\n      ],\n      \"description\": \"下方人物近景照片，人物微笑，保留照片内的摄影环境，显示区域为圆角矩形。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

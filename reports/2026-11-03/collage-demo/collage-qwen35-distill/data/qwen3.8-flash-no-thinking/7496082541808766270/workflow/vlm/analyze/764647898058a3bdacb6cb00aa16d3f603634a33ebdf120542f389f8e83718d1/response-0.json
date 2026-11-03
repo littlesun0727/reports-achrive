@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-307cfe32-27e1-90ce-ba72-7ecd6c3de2df",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7709,
+    "completion_tokens": 790,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1038,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 790
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的生日派对场景摄影底图，画面包含彩色气球、悬挂的“Happy Birthday”字母装饰以及散落的彩色纸屑。该底图延伸至画布四边，作为所有独立照片窗口的背景环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_heart\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        60,\n        425,\n        390,\n        670\n      ],\n      \"description\": \"心形窗口内的特写照片，显示粉色和黄色的花束及点燃的蜡烛，保留其内部摄影环境。\"\n    },\n    {\n      \"id\": \"frame_heart\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        50,\n        415,\n        400,\n        680\n      ],\n      \"description\": \"围绕心形照片的白色虚线边框，具有手绘质感。\",\n      \"photo_id\": [\n        \"photo_heart\"\n      ]\n    },\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        460,\n        425,\n        920,\n        950\n      ],\n      \"description\": \"竖向矩形窗口内的照片，显示一名戴皇冠的女子闭眼双手合十许愿，桌上有蛋糕和玻璃杯，保留室内摄影环境。\"\n    },\n    {\n      \"id\": \"frame_main\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        450,\n        415,\n        930,\n        960\n      ],\n      \"description\": \"围绕主照片的白色虚线矩形边框。\",\n      \"photo_id\": [\n        \"photo_main\"\n      ]\n    },\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        110,\n        700,\n        530,\n        960\n      ],\n      \"description\": \"横向矩形窗口内的照片，显示身穿粉色礼服的女子手持气球微笑，保留室内摄影环境。\"\n    },\n    {\n      \"id\": \"frame_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        100,\n        690,\n        540,\n        970\n      ],\n      \"description\": \"围绕左侧照片的白色虚线矩形边框。\",\n      \"photo_id\": [\n        \"photo_left\"\n      ]\n    },\n    {\n      \"id\": \"overlay_text_art\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        530,\n        780,\n        920,\n        970\n      ],\n      \"description\": \"位于右下角的艺术字设计，内容为白色手写体“Happy Birthday”，带有装饰性笔触和星星点缀。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_heart\",\n    \"frame_heart\",\n    \"photo_main\",\n    \"frame_main\",\n    \"photo_left\",\n    \"frame_left\",\n    \"overlay_text_art\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "城市街道场景，包含灰色建筑墙面、沥青路面、路缘石及远处行人，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "城市街道场景，包含灰色建筑墙面、沥青路面、路缘石及远处行人，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        128,
+        127,
+        364,
+        431
+      ],
+      "description": "竖向人物半身照片，位于左上角星形窗口内，保留人物及身后的摄影环境，显示区域为星形裁切。",
+      "label": "竖向人物半身照片，位于左上角星形窗口内，保留人物及身后的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        543,
+        676,
+        845,
+        1094
+      ],
+      "description": "竖向人物半身照片，位于右下角圆形窗口内，保留人物及身后的摄影环境，显示区域为圆形裁切。",
+      "label": "竖向人物半身照片，位于右下角圆形窗口内，保留人物及身后的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        305,
+        326,
+        608,
+        1154
+      ],
+      "description": "竖向人物全身照片，位于画面中央，保留人物及身后的摄影环境，显示区域为矩形裁切。",
+      "label": "竖向人物全身照片，位于画面中央，保留人物及身后的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "frame_star",
+      "kind": "frame",
+      "bbox": [
+        29,
+        38,
+        416,
+        433
+      ],
+      "description": "白色手绘风格星形边框，围绕左上角照片，覆盖照片边缘并位于照片上方，完整星形作为一个框体保留。",
+      "photo_id": [
+        "photo_star"
+      ],
+      "label": "白色手绘风格星形边框，围绕左上角照片，覆盖照片边缘并位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "frame_circle",
+      "kind": "frame",
+      "bbox": [
+        541,
+        673,
+        847,
+        1097
+      ],
+      "description": "白色手绘风格圆形边框，围绕右下角照片，覆盖照片边缘并位于照片上方，完整圆形作为一个框体保留。",
+      "photo_id": [
+        "photo_circle"
+      ],
+      "label": "白色手绘风格圆形边框，围绕右下角照片，覆盖照片边缘并位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        830,
+        312,
+        1046
+      ],
+      "description": "白色心形贴纸，内部包含黑色文字“I”、“ME”及红色爱心符号，作为独立固定装饰保留。",
+      "label": "白色心形贴纸，内部包含黑色文字“I”、“ME”及红色爱心符号",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        355,
+        416,
+        402,
+        473
+      ],
+      "description": "白色手绘风格小星星装饰，位于主照片头部附近，作为独立固定装饰保留。",
+      "label": "白色手绘风格小星星装饰，位于主照片头部附近，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clouds",
+      "kind": "overlay",
+      "bbox": [
+        259,
+        536,
+        695,
+        676
+      ],
+      "description": "白色手绘风格云朵、弧线及星形装饰组合，位于主照片腰部两侧，作为独立固定装饰保留。",
+      "label": "白色手绘风格云朵、弧线及星形装饰组合，位于主照片腰部两侧，作",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_star",
+    "frame_star",
+    "photo_main",
+    "overlay_stars",
+    "overlay_clouds",
+    "photo_circle",
+    "frame_circle",
+    "overlay_heart"
+  ]
+}

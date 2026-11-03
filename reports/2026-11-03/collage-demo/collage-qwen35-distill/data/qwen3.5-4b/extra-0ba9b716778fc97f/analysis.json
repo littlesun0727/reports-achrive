@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "蓝天白云与绿色树林构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和花朵遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云与绿色树林构成连续摄影底图，完整显示区域延伸至画布四",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        73,
+        164,
+        761,
+        678
+      ],
+      "description": "上方人物半身照片，人物戴草帽，背景为花田，显示区域为矩形。",
+      "label": "上方人物半身照片，人物戴草帽，背景为花田，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        247,
+        615,
+        1029,
+        1205
+      ],
+      "description": "下方人物近景照片，人物戴草帽，背景为花田，显示区域为矩形。",
+      "label": "下方人物近景照片，人物戴草帽，背景为花田，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        791,
+        495,
+        1359
+      ],
+      "description": "左下人物坐姿照片，人物戴草帽，背景为花田，显示区域为矩形。",
+      "label": "左下人物坐姿照片，人物戴草帽，背景为花田，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower_1",
+      "kind": "overlay",
+      "bbox": [
+        3,
+        153,
+        114,
+        274
+      ],
+      "description": "白色花朵装饰，位于左上角，作为独立固定装饰保留。",
+      "label": "白色花朵装饰，位于左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_2",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        68,
+        192,
+        184
+      ],
+      "description": "白色花朵装饰，位于左上角，作为独立固定装饰保留。",
+      "label": "白色花朵装饰，位于左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_3",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        605,
+        297,
+        744
+      ],
+      "description": "红色花朵装饰，位于左侧中部，作为独立固定装饰保留。",
+      "label": "红色花朵装饰，位于左侧中部，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_4",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        516,
+        865,
+        703
+      ],
+      "description": "红色花朵装饰，位于右侧中部，作为独立固定装饰保留。",
+      "label": "红色花朵装饰，位于右侧中部，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_5",
+      "kind": "overlay",
+      "bbox": [
+        910,
+        1169,
+        1039,
+        1295
+      ],
+      "description": "白色花朵装饰，位于右下角，作为独立固定装饰保留。",
+      "label": "白色花朵装饰，位于右下角，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom",
+    "photo_left",
+    "overlay_flower_1",
+    "overlay_flower_2",
+    "overlay_flower_3",
+    "overlay_flower_4",
+    "overlay_flower_5"
+  ]
+}

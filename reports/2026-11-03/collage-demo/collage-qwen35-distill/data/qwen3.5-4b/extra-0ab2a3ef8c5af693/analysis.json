@@ -1,0 +1,294 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "户外公园场景的连续摄影底图，包含前景草地、左侧荷塘、中景树木和右侧水域，画面延伸至画布四边；上层拼贴照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "户外公园场景的连续摄影底图，包含前景草地、左侧荷塘、中景树木",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        221,
+        66,
+        581,
+        540
+      ],
+      "description": "左上角照片，展示草地上趴着的狗和石板路，保留草地和围栏背景。",
+      "label": "左上角照片，展示草地上趴着的狗和石板路，保留草地和围栏背景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        522,
+        144,
+        810,
+        436
+      ],
+      "description": "右上角照片，展示林间小径和树木，保留树林和天空背景。",
+      "label": "右上角照片，展示林间小径和树木，保留树林和天空背景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bridge",
+      "kind": "photo",
+      "bbox": [
+        200,
+        544,
+        492,
+        928
+      ],
+      "description": "左侧中部照片，展示拱桥和建筑，保留天空和树木背景。",
+      "label": "左侧中部照片，展示拱桥和建筑，保留天空和树木背景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_water",
+      "kind": "photo",
+      "bbox": [
+        645,
+        450,
+        1007,
+        932
+      ],
+      "description": "右侧中部照片，展示水域和树木，保留天空和远处建筑背景。",
+      "label": "右侧中部照片，展示水域和树木，保留天空和远处建筑背景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_sign",
+      "kind": "photo",
+      "bbox": [
+        352,
+        882,
+        752,
+        1186
+      ],
+      "description": "底部照片，展示带有“上海世博文化公园”字样的公园景观，保留树木和水域背景。",
+      "label": "底部照片，展示带有“上海世博文化公园”字样的公园景观，保留树",
+      "method": "local"
+    },
+    {
+      "id": "frame_dog",
+      "kind": "frame",
+      "bbox": [
+        194,
+        66,
+        608,
+        540
+      ],
+      "description": "围绕左上角狗照片的白色波浪形边框，包含星星和鱼形装饰。",
+      "photo_id": [
+        "photo_dog"
+      ],
+      "label": "围绕左上角狗照片的白色波浪形边框，包含星星和鱼形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_trees",
+      "kind": "frame",
+      "bbox": [
+        505,
+        144,
+        826,
+        436
+      ],
+      "description": "围绕右上角树木照片的白色波浪形边框，包含星星和鱼形装饰。",
+      "photo_id": [
+        "photo_trees"
+      ],
+      "label": "围绕右上角树木照片的白色波浪形边框，包含星星和鱼形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        209,
+        265,
+        273
+      ],
+      "description": "左上角白色五角星装饰，位于狗照片边框内。",
+      "label": "左上角白色五角星装饰，位于狗照片边框内。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        286,
+        194,
+        324,
+        237
+      ],
+      "description": "左上角白色五角星装饰，位于狗照片边框内。",
+      "label": "左上角白色五角星装饰，位于狗照片边框内。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        137,
+        540,
+        180
+      ],
+      "description": "右上角白色五角星装饰，位于树木照片边框内。",
+      "label": "右上角白色五角星装饰，位于树木照片边框内。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        859,
+        137,
+        994,
+        266
+      ],
+      "description": "右上角白色五角星装饰，位于树木照片边框外。",
+      "label": "右上角白色五角星装饰，位于树木照片边框外。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        410,
+        540,
+        453
+      ],
+      "description": "右上角白色五角星装饰，位于树木照片边框内。",
+      "label": "右上角白色五角星装饰，位于树木照片边框内。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        604,
+        443,
+        662
+      ],
+      "description": "左侧中部白色云朵装饰，位于桥照片上方。",
+      "label": "左侧中部白色云朵装饰，位于桥照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        655,
+        621,
+        712
+      ],
+      "description": "中部黄色笑脸装饰，位于桥照片和树木照片之间。",
+      "label": "中部黄色笑脸装饰，位于桥照片和树木照片之间。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_burst",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        453,
+        999,
+        626
+      ],
+      "description": "右侧中部白色手绘爆炸形装饰，位于水照片上方。",
+      "label": "右侧中部白色手绘爆炸形装饰，位于水照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        1086,
+        211,
+        1187
+      ],
+      "description": "左下角白色手绘心形装饰，位于草地前景。",
+      "label": "左下角白色手绘心形装饰，位于草地前景。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        508,
+        820,
+        643,
+        899
+      ],
+      "description": "中部白色对话气泡装饰，包含两个灰色心形图案。",
+      "label": "中部白色对话气泡装饰，包含两个灰色心形图案。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        254,
+        1274,
+        913,
+        1324
+      ],
+      "description": "En fait, les quêtes magiques sont toujours les mêmes, mais quand je vais avec vous, le vent d'automne est doux et la neige d'hiver est douce.",
+      "label": "En fait, les quêtes magiques s",
+      "method": "local",
+      "text": "En fait, les quêtes magiques sont toujours les mêmes, mais quand je vais avec vous, le vent d'automne est doux et la neige d'hiver est douce.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_dog",
+    "photo_trees",
+    "photo_bridge",
+    "photo_water",
+    "photo_sign",
+    "frame_dog",
+    "frame_trees",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_cloud",
+    "overlay_smile",
+    "overlay_burst",
+    "overlay_heart",
+    "overlay_heart_2",
+    "text_bottom"
+  ]
+}

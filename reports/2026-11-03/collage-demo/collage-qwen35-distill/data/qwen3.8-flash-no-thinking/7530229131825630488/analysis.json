@@ -1,0 +1,264 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "一张连续的夜景摄影底图，画面包含黄昏天空、路灯、街道建筑及前景的红色出租车。该照片完整覆盖画布四边，作为所有独立对象的背景层。",
+      "background_type": "photo",
+      "label": "一张连续的夜景摄影底图，画面包含黄昏天空、路灯、街道建筑及前",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_intro",
+      "kind": "text",
+      "bbox": [
+        96,
+        227,
+        184,
+        429
+      ],
+      "description": "The\nbegining\nof\nmy\ntrip",
+      "label": "The\nbegining\nof\nmy\ntrip",
+      "method": "local",
+      "text": "The\nbegining\nof\nmy\ntrip",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        200,
+        215,
+        456
+      ],
+      "description": "手绘风格的白色对话气泡框，线条不规则，包裹住文字区域，底部有指向下方猫咪的小尾巴。",
+      "label": "手绘风格的白色对话气泡框，线条不规则，包裹住文字区域，底部有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        472,
+        200,
+        592
+      ],
+      "description": "白色线条绘制的手绘猫咪头像，位于气泡框下方，风格简约可爱。",
+      "label": "白色线条绘制的手绘猫咪头像，位于气泡框下方，风格简约可爱。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_shop",
+      "kind": "photo",
+      "bbox": [
+        281,
+        248,
+        680,
+        704
+      ],
+      "description": "矩形照片窗口，显示一家名为“HONG KONG”的店铺门面，门前有模糊的行人和一辆行驶中的红色出租车。",
+      "label": "矩形照片窗口，显示一家名为“HONG KONG”的店铺门面，",
+      "method": "local"
+    },
+    {
+      "id": "frame_shop",
+      "kind": "frame",
+      "bbox": [
+        266,
+        224,
+        700,
+        728
+      ],
+      "description": "围绕上方店铺照片的白色手绘粗线条边框，形状略不规整，具有装饰性。",
+      "photo_id": [
+        "photo_shop"
+      ],
+      "label": "围绕上方店铺照片的白色手绘粗线条边框，形状略不规整，具有装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_car",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        632,
+        842,
+        696
+      ],
+      "description": "白色手绘小汽车图标，带有速度线，位于右侧空白处。",
+      "label": "白色手绘小汽车图标，带有速度线，位于右侧空白处。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_graffiti",
+      "kind": "photo",
+      "bbox": [
+        70,
+        736,
+        410,
+        984
+      ],
+      "description": "矩形照片窗口，特写拍摄卷帘门上的涂鸦艺术，包含问号、感叹号、花朵图案以及“Mating Kim”等文字。",
+      "label": "矩形照片窗口，特写拍摄卷帘门上的涂鸦艺术，包含问号、感叹号、",
+      "method": "local"
+    },
+    {
+      "id": "frame_graffiti",
+      "kind": "frame",
+      "bbox": [
+        43,
+        712,
+        432,
+        1005
+      ],
+      "description": "围绕左侧涂鸦照片的白色手绘粗线条边框，与上方相框风格一致。",
+      "photo_id": [
+        "photo_graffiti"
+      ],
+      "label": "围绕左侧涂鸦照片的白色手绘粗线条边框，与上方相框风格一致。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        464,
+        752,
+        666,
+        784
+      ],
+      "description": "半透明的胶带贴纸效果，上面印有模糊的英文小字，用于装饰拼贴。",
+      "label": "半透明的胶带贴纸效果，上面印有模糊的英文小字，用于装饰拼贴。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        792,
+        644,
+        824
+      ],
+      "description": "蓝灰色的胶带贴纸效果，位于第一块胶带下方，印有模糊的文字。",
+      "label": "蓝灰色的胶带贴纸效果，位于第一块胶带下方，印有模糊的文字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        832,
+        684,
+        864
+      ],
+      "description": "白色小标签，上面印有黑色中文“抹茶”，位于冰淇淋照片左上角。",
+      "label": "白色小标签，上面印有黑色中文“抹茶”，位于冰淇淋照片左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        450,
+        840,
+        842,
+        1328
+      ],
+      "description": "竖向矩形照片窗口，展示一碗抹茶和香草双拼冰淇淋，插着黑色勺子，背景有一个木质底座上的小猫摆件。",
+      "label": "竖向矩形照片窗口，展示一碗抹茶和香草双拼冰淇淋，插着黑色勺子",
+      "method": "local"
+    },
+    {
+      "id": "frame_icecream",
+      "kind": "frame",
+      "bbox": [
+        428,
+        816,
+        855,
+        1352
+      ],
+      "description": "围绕右下方冰淇淋照片的白色手绘粗线条边框。",
+      "photo_id": [
+        "photo_icecream"
+      ],
+      "label": "围绕右下方冰淇淋照片的白色手绘粗线条边框。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pencil",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        1096,
+        76,
+        1160
+      ],
+      "description": "白色手绘铅笔图标，位于左下角文字旁。",
+      "label": "白色手绘铅笔图标，位于左下角文字旁。",
+      "method": "extract"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        90,
+        1088,
+        396,
+        1400
+      ],
+      "description": "It's a lovely\nthing to know\na place well\nenough that\nyou know\nwhen the sun\nwill be there",
+      "label": "It's a lovely\nthing to know\na ",
+      "method": "local",
+      "text": "It's a lovely\nthing to know\na place well\nenough that\nyou know\nwhen the sun\nwill be there",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_intro",
+    "overlay_bubble",
+    "overlay_cat",
+    "photo_shop",
+    "frame_shop",
+    "overlay_car",
+    "photo_graffiti",
+    "frame_graffiti",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "overlay_label",
+    "photo_icecream",
+    "frame_icecream",
+    "overlay_pencil",
+    "text_poem"
+  ]
+}

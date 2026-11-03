@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-1d87ca71-196c-9185-abf6-7e5d96b7af0f",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7352,
+    "completion_tokens": 433,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 1038,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 433
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"模糊的桌面背景，包含手机界面截图、应用图标和噪点纹理。画面整体呈现失焦效果，作为全画布底图延伸至四边，承载上层清晰的UI卡片。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"frame_card\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        150,\n        62,\n        847,\n        998\n      ],\n      \"description\": \"白色圆角矩形卡片，模拟备忘录App界面。顶部包含黄色“备忘录”标题及功能图标（返回、撤销、重做、分享等），主体部分包含两个上下排列的照片窗口。\",\n      \"photo_id\": [\n        \"photo_top\",\n        \"photo_bottom\"\n      ]\n    },\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        207,\n        226,\n        793,\n        569\n      ],\n      \"description\": \"上方照片窗口，显示一位戴透明框眼镜的年轻女性面部特写，视线向上，嘴部微张，右下角可见手持食物的一角。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        210,\n        613,\n        788,\n        959\n      ],\n      \"description\": \"下方照片窗口，显示同一位戴透明框眼镜的女性正面特写，表情平静，底部可见蓝色毛绒玩具的一角。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"frame_card\"\n  ]\n}",
+  "tool_calls": false
+}

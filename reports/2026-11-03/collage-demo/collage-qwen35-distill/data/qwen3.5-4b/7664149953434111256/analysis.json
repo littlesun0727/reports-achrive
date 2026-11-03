@@ -1,0 +1,367 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内咖啡馆场景的连续摄影底图，包含左侧模糊的窗户、天花板吊灯及右侧咖啡吧台区域，完整显示区域延伸至画布四边；上层照片、文字和星星装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内咖啡馆场景的连续摄影底图，包含左侧模糊的窗户、天花板吊灯",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        113,
+        395,
+        421,
+        803
+      ],
+      "description": "左侧竖向人物照片，女子身穿绿色上衣坐在桌前，保留咖啡店内景，显示区域为矩形。",
+      "label": "左侧竖向人物照片，女子身穿绿色上衣坐在桌前，保留咖啡店内景，",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        471,
+        185,
+        782,
+        604
+      ],
+      "description": "右上竖向人物照片，女子手持吸管，保留咖啡店内景，显示区域为矩形。",
+      "label": "右上竖向人物照片，女子手持吸管，保留咖啡店内景，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        471,
+        656,
+        782,
+        1064
+      ],
+      "description": "右下竖向人物照片，女子手托下巴，保留咖啡店内景，显示区域为矩形。",
+      "label": "右下竖向人物照片，女子手托下巴，保留咖啡店内景，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        121,
+        290,
+        390,
+        355
+      ],
+      "description": "Holiday coffee Shop\nphoto taking check-in.",
+      "label": "Holiday coffee Shop\nphoto taki",
+      "method": "local",
+      "text": "Holiday coffee Shop\nphoto taking check-in.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        121,
+        845,
+        414,
+        908
+      ],
+      "description": "Watermelon cools all\nmy Summer days!",
+      "label": "Watermelon cools all\nmy Summer",
+      "method": "local",
+      "text": "Watermelon cools all\nmy Summer days!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        53,
+        139,
+        106
+      ],
+      "description": "白色五角星装饰，位于左上区域。",
+      "label": "白色五角星装饰，位于左上区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        34,
+        427,
+        91
+      ],
+      "description": "白色五角星装饰，位于顶部中央。",
+      "label": "白色五角星装饰，位于顶部中央。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        319,
+        194,
+        376,
+        257
+      ],
+      "description": "白色五角星装饰，位于左上照片上方。",
+      "label": "白色五角星装饰，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        295,
+        90,
+        353
+      ],
+      "description": "白色五角星装饰，位于左侧文字左方。",
+      "label": "白色五角星装饰，位于左侧文字左方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        533,
+        117,
+        601
+      ],
+      "description": "白色五角星装饰，位于左侧照片左方。",
+      "label": "白色五角星装饰，位于左侧照片左方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        761,
+        50,
+        826
+      ],
+      "description": "白色五角星装饰，位于左下区域。",
+      "label": "白色五角星装饰，位于左下区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        221,
+        974,
+        274,
+        1030
+      ],
+      "description": "白色五角星装饰，位于底部中央。",
+      "label": "白色五角星装饰，位于底部中央。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_8",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        1133,
+        158,
+        1190
+      ],
+      "description": "白色五角星装饰，位于左下角。",
+      "label": "白色五角星装饰，位于左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_9",
+      "kind": "overlay",
+      "bbox": [
+        383,
+        1073,
+        434,
+        1135
+      ],
+      "description": "白色五角星装饰，位于底部中央偏右。",
+      "label": "白色五角星装饰，位于底部中央偏右。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_10",
+      "kind": "overlay",
+      "bbox": [
+        749,
+        1126,
+        794,
+        1178
+      ],
+      "description": "白色五角星装饰，位于右下角。",
+      "label": "白色五角星装饰，位于右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_11",
+      "kind": "overlay",
+      "bbox": [
+        607,
+        132,
+        653,
+        185
+      ],
+      "description": "白色五角星装饰，位于右上照片上方。",
+      "label": "白色五角星装饰，位于右上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_12",
+      "kind": "overlay",
+      "bbox": [
+        509,
+        410,
+        549,
+        454
+      ],
+      "description": "白色五角星装饰，位于右上照片左方。",
+      "label": "白色五角星装饰，位于右上照片左方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_13",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        725,
+        682,
+        778
+      ],
+      "description": "白色五角星装饰，位于右下照片上方。",
+      "label": "白色五角星装饰，位于右下照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_14",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        955,
+        704,
+        998
+      ],
+      "description": "白色五角星装饰，位于右下照片右方。",
+      "label": "白色五角星装饰，位于右下照片右方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_15",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        876,
+        875,
+        936
+      ],
+      "description": "白色五角星装饰，位于右下区域。",
+      "label": "白色五角星装饰，位于右下区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_16",
+      "kind": "overlay",
+      "bbox": [
+        851,
+        648,
+        896,
+        698
+      ],
+      "description": "白色五角星装饰，位于右侧边缘。",
+      "label": "白色五角星装饰，位于右侧边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_17",
+      "kind": "overlay",
+      "bbox": [
+        823,
+        14,
+        868,
+        62
+      ],
+      "description": "白色五角星装饰，位于右上角。",
+      "label": "白色五角星装饰，位于右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_18",
+      "kind": "overlay",
+      "bbox": [
+        877,
+        410,
+        898,
+        461
+      ],
+      "description": "白色五角星装饰，位于右侧边缘。",
+      "label": "白色五角星装饰，位于右侧边缘。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_left",
+    "photo_top_right",
+    "photo_bottom_right",
+    "text_1",
+    "text_2",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_star_7",
+    "overlay_star_8",
+    "overlay_star_9",
+    "overlay_star_10",
+    "overlay_star_11",
+    "overlay_star_12",
+    "overlay_star_13",
+    "overlay_star_14",
+    "overlay_star_15",
+    "overlay_star_16",
+    "overlay_star_17",
+    "overlay_star_18"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "aqua_background",
+    "description": "全画布连续的冰蓝色水波与玻璃质感底图，包含明亮折射纹理、反复出现的法文手写印字、局部大号黑色字形及黑色点阵环纹。四边及照片间隙均可见同类固定设计；保留底图，清除独立照片、框体、蝴蝶、蝴蝶结、藤叶和前景白色卷曲装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        310,
+        151,
+        785,
+        334
+      ],
+      "description": "顶部横向照片，一名黑发女子侧卧或俯身，头部位于中央偏右，微笑望向镜头，右侧可见灰色衣物及发饰，保留暖色摄影环境。左上部分被白色蝴蝶结和藤叶遮挡，照片完整窗口不随遮挡缩小。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        301,
+        355,
+        775,
+        537
+      ],
+      "description": "中部横向人物近景，一名长黑发女子的脸部斜向占据右侧，左侧为头发及少量衣物和环境，目光朝向镜头。保留摄影背景，沿框体内口裁切，左侧局部被藤叶遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        292,
+        566,
+        768,
+        752
+      ],
+      "description": "底部横向照片，一名长黑发女子穿浅色针织衣，双手托住脸颊，坐于建筑墙面和窗架前，望向画面右侧。保留完整摄影环境，下缘被白色卷曲装饰及右下蝴蝶结局部遮挡。"
+    },
+    {
+      "id": "film_frame",
+      "kind": "frame",
+      "bbox": [
+        275,
+        134,
+        808,
+        774
+      ],
+      "description": "纵向连续三格白色照片框，略有倾斜，包含外侧邮票齿状边缘、三处横向照片内口及间隔处成排圆孔式装饰。三个照片位置属于同一完整框体，保留全部白色框沿与细微阴影。",
+      "photo_id": [
+        "photo_top",
+        "photo_middle",
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "leaf_vine",
+      "kind": "overlay",
+      "bbox": [
+        139,
+        208,
+        405,
+        676
+      ],
+      "description": "沿照片框左侧向下垂落的绿叶藤蔓贴纸，包含浅绿及深绿叶片、细茎、小白花和外围不规则白色贴纸边。顶部被白色蝴蝶结遮挡，中下段被蓝色蝴蝶覆盖，末端细叶延伸至底部照片左侧。"
+    },
+    {
+      "id": "top_bow",
+      "kind": "overlay",
+      "bbox": [
+        129,
+        52,
+        520,
+        273
+      ],
+      "description": "左上大型白色蝴蝶结装饰组合，包含半透明纹理双翼、中央结、两条宽垂尾，以及后方露出的倾斜白色纸片和黑色手绘线条。整体压住顶部照片左上角及藤蔓起点，保留材质、轮廓与阴影。"
+    },
+    {
+      "id": "butterfly_upper",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        29,
+        906,
+        125
+      ],
+      "description": "顶部偏右的一只大型冰蓝色蝴蝶，横斜展开双翼，深蓝翼脉与浅色半透明翼面清晰，保留身体、触须和柔和阴影。"
+    },
+    {
+      "id": "butterfly_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        771,
+        106,
+        955,
+        205
+      ],
+      "description": "右上另一只较小的浅蓝色蝴蝶，双翼斜向展开，带深蓝外缘和翼脉，位于顶部大蝴蝶下方、照片框右上侧。"
+    },
+    {
+      "id": "butterfly_left",
+      "kind": "overlay",
+      "bbox": [
+        221,
+        490,
+        378,
+        583
+      ],
+      "description": "照片框左侧中下部的蓝色蝴蝶贴纸，展开的双翼带细密黑白翼脉和浅色斑点，覆盖藤蔓及中间照片左下边缘，保留完整触须与翼缘。"
+    },
+    {
+      "id": "white_flourish",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        721,
+        1000,
+        941
+      ],
+      "description": "横贯画面下部的白色粗线卷曲花纹，包含左侧长弧、横向波浪线及向右下延伸的大型回环，局部呈淡蓝透明质感。上部压住底部照片和框体下缘，右侧部分被白色蝴蝶结覆盖，左右端延伸出画布。"
+    },
+    {
+      "id": "bottom_bow",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        688,
+        906,
+        844
+      ],
+      "description": "右下白色蝴蝶结，含扇形褶皱双翼、中央结和两条宽垂尾，带浅灰纹理与阴影。叠放于底部照片右下角、照片框和白色卷曲花纹之上。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "film_frame",
+    "leaf_vine",
+    "top_bow",
+    "butterfly_upper",
+    "butterfly_upper_right",
+    "butterfly_left",
+    "white_flourish",
+    "bottom_bow"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        320
+      ],
+      "description": "上方人物双手合十许愿的照片，保留人物、蛋糕、桌面及背景环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        630,
+        1000,
+        1000
+      ],
+      "description": "下方俯拍视角的照片，展示草莓蛋糕、人物手部动作及桌面环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        320,
+        1000,
+        630
+      ],
+      "description": "中间区域的米色纹理背景板，上面印有黑色文字，作为独立固定装饰单元。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        20,
+        450,
+        980,
+        520
+      ],
+      "text": "Happy birthday.",
+      "color": "#000000",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_text",
+    "text_1"
+  ]
+}

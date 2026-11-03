@@ -1,0 +1,258 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        55,
+        160,
+        843,
+        688
+      ],
+      "description": "上方人物自拍照片，人物手持手机遮挡面部，身穿白色长袖上衣和牛仔短裙，背景为室内墙面和插座，保留摄影环境。",
+      "label": "上方人物自拍照片，人物手持手机遮挡面部，身穿白色长袖上衣和牛",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        55,
+        688,
+        843,
+        1216
+      ],
+      "description": "下方人物自拍照片，人物手持手机遮挡面部，身穿白色长袖上衣和牛仔短裙，背景为室内墙面和插座，保留摄影环境。",
+      "label": "下方人物自拍照片，人物手持手机遮挡面部，身穿白色长袖上衣和牛",
+      "method": "local"
+    },
+    {
+      "id": "icon_flash_top",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        77,
+        140,
+        128
+      ],
+      "description": "顶部左侧闪电图标，圆形背景，位于相机界面顶部。",
+      "label": "顶部左侧闪电图标，圆形背景，位于相机界面顶部。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_mode_top",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        77,
+        212,
+        128
+      ],
+      "description": "顶部左侧月亮图标，圆形背景，位于相机界面顶部。",
+      "label": "顶部左侧月亮图标，圆形背景，位于相机界面顶部。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_menu_top",
+      "kind": "overlay",
+      "bbox": [
+        419,
+        77,
+        481,
+        128
+      ],
+      "description": "顶部中央向下箭头图标，圆形背景，位于相机界面顶部。",
+      "label": "顶部中央向下箭头图标，圆形背景，位于相机界面顶部。",
+      "method": "extract"
+    },
+    {
+      "id": "text_raw",
+      "kind": "text",
+      "bbox": [
+        680,
+        77,
+        743,
+        122
+      ],
+      "description": "RAW\nMAX",
+      "label": "RAW\nMAX",
+      "method": "local",
+      "text": "RAW\nMAX",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_focus_top",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        77,
+        810,
+        128
+      ],
+      "description": "顶部右侧对焦图标，圆形背景，位于相机界面顶部。",
+      "label": "顶部右侧对焦图标，圆形背景，位于相机界面顶部。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_flash_bottom",
+      "kind": "overlay",
+      "bbox": [
+        113,
+        1248,
+        185,
+        1328
+      ],
+      "description": "底部左侧闪电图标，圆形背景，位于相机界面底部。",
+      "label": "底部左侧闪电图标，圆形背景，位于相机界面底部。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_mode_bottom",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        1248,
+        302,
+        1328
+      ],
+      "description": "底部左侧月亮图标，圆形背景，位于相机界面底部。",
+      "label": "底部左侧月亮图标，圆形背景，位于相机界面底部。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_focus_bottom",
+      "kind": "overlay",
+      "bbox": [
+        347,
+        1248,
+        419,
+        1328
+      ],
+      "description": "底部中央对焦图标，圆形背景，位于相机界面底部。",
+      "label": "底部中央对焦图标，圆形背景，位于相机界面底部。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_filter_bottom",
+      "kind": "overlay",
+      "bbox": [
+        464,
+        1248,
+        536,
+        1328
+      ],
+      "description": "底部中央滤镜图标，圆形背景，位于相机界面底部。",
+      "label": "底部中央滤镜图标，圆形背景，位于相机界面底部。",
+      "method": "extract"
+    },
+    {
+      "id": "text_ratio",
+      "kind": "text",
+      "bbox": [
+        608,
+        1248,
+        671,
+        1296
+      ],
+      "description": "4:3",
+      "label": "4:3",
+      "method": "local",
+      "text": "4:3",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_plus_bottom",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        1248,
+        788,
+        1328
+      ],
+      "description": "底部右侧加号图标，圆形背景，位于相机界面底部。",
+      "label": "底部右侧加号图标，圆形背景，位于相机界面底部。",
+      "method": "extract"
+    },
+    {
+      "id": "button_shutter",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        1360,
+        535,
+        1504
+      ],
+      "description": "底部中央圆形快门按钮，白色实心圆，位于相机界面底部。",
+      "label": "底部中央圆形快门按钮，白色实心圆，位于相机界面底部。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_rotate_bottom",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        1392,
+        788,
+        1472
+      ],
+      "description": "底部右侧旋转图标，圆形背景，位于相机界面底部。",
+      "label": "底部右侧旋转图标，圆形背景，位于相机界面底部。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "icon_flash_top",
+    "icon_mode_top",
+    "icon_menu_top",
+    "text_raw",
+    "icon_focus_top",
+    "icon_flash_bottom",
+    "icon_mode_bottom",
+    "icon_focus_bottom",
+    "icon_filter_bottom",
+    "text_ratio",
+    "icon_plus_bottom",
+    "button_shutter",
+    "icon_rotate_bottom"
+  ]
+}

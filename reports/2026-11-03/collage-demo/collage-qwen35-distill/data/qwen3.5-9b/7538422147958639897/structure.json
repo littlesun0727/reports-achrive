@@ -1,0 +1,112 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "pink_star_bg",
+    "description": "粉色渐变底图，带有白色蕾丝花边顶部和底部边框，背景布满粉色星星图案。整体为固定设计底图，保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        100,
+        150,
+        900,
+        950
+      ],
+      "description": "中心人物照片，女性扎双麻花辫，佩戴红色蝴蝶结发饰和项链，手持粉色物品，面带微笑。保留摄影环境，显示区域为不规则形状，被周围装饰部分遮挡。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        750,
+        150,
+        950,
+        250
+      ],
+      "description": "右上角小照片，人物眼部特写，带有红色边框。"
+    },
+    {
+      "id": "photo_bottom_left_1",
+      "kind": "photo",
+      "bbox": [
+        50,
+        650,
+        300,
+        800
+      ],
+      "description": "左下角第一张小照片，人物手持圆形物品，带有红色边框。"
+    },
+    {
+      "id": "photo_bottom_left_2",
+      "kind": "photo",
+      "bbox": [
+        50,
+        750,
+        300,
+        900
+      ],
+      "description": "左下角第二张小照片，人物手持手机，带有红色边框。"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        30,
+        50,
+        300,
+        150
+      ],
+      "text": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#FF0000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_won",
+      "kind": "text",
+      "bbox": [
+        30,
+        250,
+        950,
+        400
+      ],
+      "text": "WO\nNG",
+      "color": "#FF0000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_you",
+      "kind": "text",
+      "bbox": [
+        750,
+        750,
+        950,
+        850
+      ],
+      "text": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#FF0000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_top_right",
+    "photo_bottom_left_1",
+    "photo_bottom_left_2",
+    "text_love",
+    "text_won",
+    "text_you"
+  ]
+}

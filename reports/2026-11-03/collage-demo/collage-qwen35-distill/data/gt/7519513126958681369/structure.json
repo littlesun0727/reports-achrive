@@ -1,0 +1,175 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_base",
+    "description": "全画布连续的白色至浅青色朦胧纹理底图，带细碎斑点、柔淡星形暗影及纸感明暗变化，四边与对象间隙连续可见。保留这些固定底纹，独立照片、纸框、文字标签及清晰装饰另列。"
+  },
+  "objects": [
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        18,
+        128,
+        660,
+        768
+      ],
+      "description": "承载大照片的白色不规则撕边纸框，四周纸边、右侧较宽留白、纸张起伏与柔和投影整体保留，顶部被金属夹遮挡，右侧被小照片框及文字标签遮挡。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        57,
+        171,
+        558,
+        736
+      ],
+      "description": "一名黑发年轻女子蹲坐在路边，穿浅色条纹长衬衫、灰色长裤和黑鞋，侧脸朝右上方，双臂环抱膝部。保留身后茂密绿叶、路沿与地面，完整矩形照片右上部分被小照片框遮挡，右下部分被文字标签遮挡，未沿人物轮廓去背景。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        282,
+        121,
+        394,
+        189
+      ],
+      "description": "大照片顶部中央的银灰色金属夹，包含圆形铆钉、横向夹口、金属高光及投影，压在照片与白纸框上。"
+    },
+    {
+      "id": "frame_flower",
+      "kind": "frame",
+      "bbox": [
+        429,
+        303,
+        782,
+        488
+      ],
+      "description": "横向浅灰白色照片框，包含宽框沿、内口、细密点状边饰与柔和投影，整体覆盖在大照片及其右侧白纸上，内口摄影内容独立替换。",
+      "photo_id": [
+        "photo_flower"
+      ]
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        472,
+        333,
+        743,
+        461
+      ],
+      "description": "白色花朵与细枝绿叶的近景照片，花枝横向分布，背景可见暗色栏杆及枝叶环境。保留摄影环境，显示于横向框内，右上角显示边界呈斜切，未沿花朵轮廓去背景。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        0,
+        993,
+        156
+      ],
+      "description": "右上角大型空心五角星，细灰色轮廓及轻微柔光整体保留，上端贴近画布边缘。"
+    },
+    {
+      "id": "overlay_star_small",
+      "kind": "overlay",
+      "bbox": [
+        709,
+        181,
+        774,
+        226
+      ],
+      "description": "右上区域独立的小型空心五角星，灰色细轮廓带轻微暖色边缘。"
+    },
+    {
+      "id": "overlay_summer",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        240,
+        941,
+        325
+      ],
+      "description": "白色对话气泡标签，包含浅灰边线、左下方尖角及“♪ summer ♫”字样，文字与气泡载体整体保留。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        962,
+        410,
+        1000,
+        464
+      ],
+      "description": "右侧画布边缘露出的空心五角星局部，保留浅灰轮廓，右侧被画布裁切。"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        535,
+        1000,
+        631
+      ],
+      "description": "画面右侧成对的白色天使翅膀装饰，包含卷曲内端、羽翼轮廓、浅灰描边与柔和阴影，右翼外端被画布裁切。"
+    },
+    {
+      "id": "overlay_message",
+      "kind": "overlay",
+      "bbox": [
+        434,
+        662,
+        900,
+        814
+      ],
+      "description": "白色圆角矩形文字标签，保留双层灰色细边框、阴影及右下角两枚空心爱心。内文为两行：“駆け抜けた恋、戻らない夏、”“綺麗な花火だった。”文字、爱心与标签作为完整固定设计保留。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        785,
+        34,
+        834
+      ],
+      "description": "左侧画布边缘露出的空心五角星局部，灰色细轮廓，左侧被画布裁切。"
+    },
+    {
+      "id": "overlay_star_scatter",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        732,
+        436,
+        966
+      ],
+      "description": "左下方散落星群装饰，包含大小不同的银灰色实心五角星、少量浅色星形与柔和投影，从大照片下边缘延伸至画布底部附近，作为一组疏密错落的星屑图案保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_main",
+    "photo_main",
+    "overlay_clip",
+    "overlay_star_top",
+    "overlay_star_small",
+    "overlay_summer",
+    "overlay_star_right",
+    "overlay_wings",
+    "photo_flower",
+    "frame_flower",
+    "overlay_star_left",
+    "overlay_star_scatter",
+    "overlay_message"
+  ]
+}

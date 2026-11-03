@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝天白云与绿色树林构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和花朵遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        68,
+        114,
+        705,
+        471
+      ],
+      "description": "上方人物半身照片，人物戴草帽，背景为花田，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        229,
+        427,
+        953,
+        837
+      ],
+      "description": "下方人物近景照片，人物戴草帽，背景为花田，显示区域为矩形。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        49,
+        549,
+        458,
+        944
+      ],
+      "description": "左下人物坐姿照片，人物戴草帽，背景为花田，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_flower_1",
+      "kind": "overlay",
+      "bbox": [
+        3,
+        106,
+        106,
+        190
+      ],
+      "description": "白色花朵装饰，位于左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_flower_2",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        47,
+        178,
+        128
+      ],
+      "description": "白色花朵装饰，位于左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_flower_3",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        420,
+        275,
+        517
+      ],
+      "description": "红色花朵装饰，位于左侧中部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_flower_4",
+      "kind": "overlay",
+      "bbox": [
+        607,
+        358,
+        801,
+        488
+      ],
+      "description": "红色花朵装饰，位于右侧中部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_flower_5",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        812,
+        962,
+        899
+      ],
+      "description": "白色花朵装饰，位于右下角，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "photo_left",
+    "overlay_flower_1",
+    "overlay_flower_2",
+    "overlay_flower_3",
+    "overlay_flower_4",
+    "overlay_flower_5"
+  ]
+}

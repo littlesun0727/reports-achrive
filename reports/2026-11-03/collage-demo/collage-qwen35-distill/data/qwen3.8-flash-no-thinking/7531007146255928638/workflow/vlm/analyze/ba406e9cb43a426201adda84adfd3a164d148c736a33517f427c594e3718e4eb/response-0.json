@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-7b3143b1-0776-9a5f-aa7a-ea56e6bf22bd",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7834,
+    "completion_tokens": 887,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 887
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_paper\",\n    \"description\": \"全画布为浅绿色纹理背景，具有类似水彩纸或磨砂质感的细微颗粒与明暗变化。该固定底图承载所有独立照片和装饰元素，需保留其材质原样以供后续替换内容。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_main_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        137,\n        128,\n        609,\n        604\n      ],\n      \"description\": \"竖向人像照片，画面中一名年轻女子身穿深蓝色运动外套，在户外绿树背景下眨眼微笑。照片边缘整齐，无特殊边框。\"\n    },\n    {\n      \"id\": \"photo_main_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        513,\n        538,\n        905,\n        915\n      ],\n      \"description\": \"方形人像照片，画面中同一名女子身穿灰色连帽衫，长发遮面，神情冷峻，背景为虚化的树叶。\"\n    },\n    {\n      \"id\": \"overlay_sticker_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        59,\n        68,\n        222,\n        186\n      ],\n      \"description\": \"左上角白色方形贴纸，中心印有一片绿色的四叶草图案，位于主照片左上方。\"\n    },\n    {\n      \"id\": \"frame_clover_strip\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        597,\n        281,\n        932,\n        445\n      ],\n      \"description\": \"横向长条形卡片，上半部分展示一排排列整齐的四叶草标本，下半部分印有手写体英文“Am I the luckiest Girl or what?!?”。作为固定设计单元整体保留。\"\n    },\n    {\n      \"id\": \"overlay_card_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        75,\n        703,\n        424,\n        894\n      ],\n      \"description\": \"左下角圆角矩形白色卡片，内部包含一段关于四叶草的英文文字，并在左侧和右下角各点缀一片绿色四叶草图案。\"\n    },\n    {\n      \"id\": \"text_quote_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        574,\n        193,\n        915,\n        230\n      ],\n      \"text\": \"Cut film strips held more\\ntruth than the final reel.\",\n      \"color\": \"#4A4A4A\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_quote_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        237,\n        642,\n        553,\n        680\n      ],\n      \"text\": \"\\\"Vintage flashbulbs startled\\n1920s dust awake\\\"\",\n      \"color\": \"#4A4A4A\",\n      \"font\": \"serif\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_main_left\",\n    \"photo_main_right\",\n    \"overlay_sticker_top\",\n    \"frame_clover_strip\",\n    \"overlay_card_bottom\",\n    \"text_quote_1\",\n    \"text_quote_2\"\n  ]\n}",
+  "tool_calls": false
+}

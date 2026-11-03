@@ -1,0 +1,217 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "pattern_base",
+    "description": "全画布为连续的浅奶油色固定底纹，散布淡蓝灰色樱桃图案，点状斜线组成菱形网格；四边和照片间隙均可见相同图案。保留底色及印花，照片、相框和独立贴纸不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        82,
+        43,
+        457,
+        331
+      ],
+      "description": "单人坐姿中景照片，长黑发女子穿浅粉开衫与白裙，一手举紫色玩偶，另一手抬至头顶，左下可见包和多个玩偶。保留绿植、灰紫墙面等摄影环境，四边按矩形窗口显示。"
+    },
+    {
+      "id": "frame_upper_left",
+      "kind": "frame",
+      "bbox": [
+        55,
+        24,
+        483,
+        412
+      ],
+      "description": "浅灰蓝色拍立得相纸框，下边留白较宽，带黑色日文“アイスクリーム!!”、笑脸、蓝色圆形符号及黑星等印刷设计，纸张质感与所有印字整体保留。",
+      "photo_id": [
+        "photo_upper_left"
+      ]
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        544,
+        104,
+        921,
+        396
+      ],
+      "description": "单人面部及上身近景，长黑发女子侧头眨眼，右侧举着戴彩色帽子的粉色玩偶。保留水池、喷泉、绿植和建筑摄影背景，矩形窗口清晰，未沿人物去背景。"
+    },
+    {
+      "id": "frame_upper_right",
+      "kind": "frame",
+      "bbox": [
+        520,
+        87,
+        944,
+        474
+      ],
+      "description": "暗粉红色拍立得式框体，四周及宽下沿印有深红蝴蝶结与小圆点，印花延续至框体边缘；保留纸面质感和完整框体，内口照片独立替换。",
+      "photo_id": [
+        "photo_upper_right"
+      ]
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        80,
+        499,
+        464,
+        844
+      ],
+      "description": "单人站姿近全身照片，女子闭眼微笑，两手将紫色与粉色玩偶举在脸旁，穿浅粉长开衫与白裙，右侧背包垂挂玩偶。保留绿篱、灰紫墙及左下地面，显示范围为黑框内完整照片窗口。"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        55,
+        482,
+        490,
+        919
+      ],
+      "description": "黑色宽边照片纸框，带白色星星、细划痕和不规则磨损边缘；宽下沿有一体的浅灰圆角表情标签及底部星形图案，全部作为完整框体保留。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        555,
+        555,
+        921,
+        883
+      ],
+      "description": "单人全身坐姿照片，女子坐在池边，双腿弯向右侧，穿白裙、浅粉开衫、白色长袜与黑鞋，一手举黑白玩偶；左下有包和两个玩偶。保留蓝绿色池水、石栏及座面，按矩形窗口裁切，不去背景。"
+    },
+    {
+      "id": "frame_lower_right",
+      "kind": "frame",
+      "bbox": [
+        528,
+        531,
+        944,
+        974
+      ],
+      "description": "浅灰白色纹理拍立得纸框，底边较宽，下沿右侧有两枚深红唇印；唇印未显示独立叠贴边界，作为框体表面设计连同纸纹整体保留。",
+      "photo_id": [
+        "photo_lower_right"
+      ]
+    },
+    {
+      "id": "paw_left",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        16,
+        91,
+        76
+      ],
+      "description": "左上粉色猫爪贴纸，包含四枚趾垫和带浅粉爱心的掌垫，保留细色边，叠压左上相框边缘。"
+    },
+    {
+      "id": "paw_right",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        40,
+        179,
+        97
+      ],
+      "description": "另一枚倾斜粉色猫爪贴纸，四枚趾垫围绕带浅色爱心的掌垫，覆盖左上照片的绿植区域。"
+    },
+    {
+      "id": "star_top",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        0,
+        137,
+        29
+      ],
+      "description": "顶部小型浅黄色空心五角星贴纸，带浅蓝色多重轮廓线，靠近画布上边缘。"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        77,
+        69,
+        111
+      ],
+      "description": "左侧独立浅黄色空心五角星贴纸，带浅蓝色双重轮廓，位于猫爪下方并叠压相框左边缘。"
+    },
+    {
+      "id": "music_player",
+      "kind": "overlay",
+      "bbox": [
+        521,
+        15,
+        935,
+        72
+      ],
+      "description": "顶部浅粉圆角音乐播放器标签，含点状纹理、暂停符号、“0:30/3:20”、横向进度条与圆形滑块、扬声器图标，整块标签及印字作为固定装饰保留。"
+    },
+    {
+      "id": "shooting_star_cluster",
+      "kind": "overlay",
+      "bbox": [
+        326,
+        356,
+        597,
+        558
+      ],
+      "description": "中央淡黄色与紫红色描边的流星装饰组，包括上方带双椭圆记号的大星及弧形尾迹、下方带紫红星芯的小流星，以及周围空心圆和四角闪光。整组跨越上方相框下沿与左下相框右上角，保留全部线条和成员。"
+    },
+    {
+      "id": "ice_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        453,
+        900,
+        575
+      ],
+      "description": "右侧三枚彩色透明泡泡组成的冰块贴纸组，一大两小，各自内部带蓝色冰块图案和虹彩边缘；跨压右上框底部及右下框顶部，保留组内透明空隙。"
+    },
+    {
+      "id": "yes_label",
+      "kind": "overlay",
+      "bbox": [
+        168,
+        926,
+        397,
+        969
+      ],
+      "description": "左下照片下方的浅灰圆角胶囊标签，带轻微阴影，印有“Yes!!”、音符及颜文字；文字和底板共同构成独立贴纸，整体保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_upper_left",
+    "photo_upper_left",
+    "frame_upper_right",
+    "photo_upper_right",
+    "photo_lower_left",
+    "frame_lower_left",
+    "frame_lower_right",
+    "photo_lower_right",
+    "star_top",
+    "star_left",
+    "paw_left",
+    "paw_right",
+    "music_player",
+    "shooting_star_cluster",
+    "ice_bubbles",
+    "yes_label"
+  ]
+}

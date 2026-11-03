@@ -1,0 +1,282 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内咖啡店场景，包含人物、货架、桌椅和陈列柜，完整显示区域延伸至画布四边；上层贴纸、对话框和圆形照片遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内咖啡店场景，包含人物、货架、桌椅和陈列柜，完整显示区域延",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        39,
+        58,
+        346,
+        508
+      ],
+      "description": "圆形裁剪的人物半身照片，位于左上区域，人物戴眼镜，手持饮品，背景为店内陈列架。",
+      "label": "圆形裁剪的人物半身照片，位于左上区域，人物戴眼镜，手持饮品，",
+      "method": "local"
+    },
+    {
+      "id": "frame_circle",
+      "kind": "frame",
+      "bbox": [
+        34,
+        52,
+        351,
+        514
+      ],
+      "description": "围绕圆形照片的白色虚线边框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_circle"
+      ],
+      "label": "围绕圆形照片的白色虚线边框，覆盖照片边缘并位于照片上方，完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart1",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        202,
+        110,
+        244
+      ],
+      "description": "白色心形贴纸，位于圆形照片左侧。",
+      "label": "白色心形贴纸，位于圆形照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart2",
+      "kind": "overlay",
+      "bbox": [
+        284,
+        334,
+        323,
+        376
+      ],
+      "description": "白色心形贴纸，位于圆形照片右侧。",
+      "label": "白色心形贴纸，位于圆形照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        368,
+        192,
+        408,
+        234
+      ],
+      "description": "白色五角星贴纸，位于圆形照片右侧。",
+      "label": "白色五角星贴纸，位于圆形照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        852,
+        271,
+        892,
+        313
+      ],
+      "description": "白色五角星贴纸，位于画面右上角。",
+      "label": "白色五角星贴纸，位于画面右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        639,
+        1042,
+        698,
+        1108
+      ],
+      "description": "白色五角星贴纸，位于画面右下角。",
+      "label": "白色五角星贴纸，位于画面右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star4",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        1116,
+        461,
+        1182
+      ],
+      "description": "白色五角星贴纸，位于画面底部中央。",
+      "label": "白色五角星贴纸，位于画面底部中央。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star5",
+      "kind": "overlay",
+      "bbox": [
+        226,
+        536,
+        266,
+        578
+      ],
+      "description": "白色五角星贴纸，位于画面左侧中部。",
+      "label": "白色五角星贴纸，位于画面左侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star6",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        652,
+        60,
+        694
+      ],
+      "description": "黑色五角星贴纸，位于画面左侧中部。",
+      "label": "黑色五角星贴纸，位于画面左侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star7",
+      "kind": "overlay",
+      "bbox": [
+        142,
+        616,
+        182,
+        658
+      ],
+      "description": "黑色五角星贴纸，位于画面左侧中部。",
+      "label": "黑色五角星贴纸，位于画面左侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_charm",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        394,
+        151,
+        544
+      ],
+      "description": "蓝色卡通形象贴纸，位于圆形照片下方。",
+      "label": "蓝色卡通形象贴纸，位于圆形照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sweat",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        340,
+        702,
+        424
+      ],
+      "description": "蓝色汗滴表情贴纸，位于人物头部右侧。",
+      "label": "蓝色汗滴表情贴纸，位于人物头部右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chat1",
+      "kind": "overlay",
+      "bbox": [
+        284,
+        58,
+        456,
+        112
+      ],
+      "description": "白色对话框贴纸，位于圆形照片上方，包含文字 'Blog is my life ..'。",
+      "label": "白色对话框贴纸，位于圆形照片上方，包含文字 'Blog is",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chat2",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        514,
+        824,
+        580
+      ],
+      "description": "白色对话框贴纸，位于画面右侧，包含韩文文字。",
+      "label": "白色对话框贴纸，位于画面右侧，包含韩文文字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chat3",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        976,
+        456,
+        1116
+      ],
+      "description": "白色对话框贴纸，位于画面底部，包含韩文文字 '뭔가 그리워지는데.'。",
+      "label": "白色对话框贴纸，位于画面底部，包含韩文文字 '뭔가 그리워지",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat1",
+      "kind": "overlay",
+      "bbox": [
+        759,
+        460,
+        806,
+        508
+      ],
+      "description": "白色猫咪贴纸，位于右侧对话框上方。",
+      "label": "白色猫咪贴纸，位于右侧对话框上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat2",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        460,
+        850,
+        508
+      ],
+      "description": "黑色猫咪贴纸，位于白色猫咪右侧。",
+      "label": "黑色猫咪贴纸，位于白色猫咪右侧。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_circle",
+    "frame_circle",
+    "overlay_heart1",
+    "overlay_heart2",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_star4",
+    "overlay_star5",
+    "overlay_star6",
+    "overlay_star7",
+    "overlay_charm",
+    "overlay_sweat",
+    "overlay_chat1",
+    "overlay_chat2",
+    "overlay_chat3",
+    "overlay_cat1",
+    "overlay_cat2"
+  ]
+}

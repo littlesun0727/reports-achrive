@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "广阔的绿色草原、连绵山脉和蓝天白云构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、装饰和箭头遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "广阔的绿色草原、连绵山脉和蓝天白云构成连续摄影底图，完整显示",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        365,
+        177,
+        1008,
+        611
+      ],
+      "description": "横向风景照片，展示人物背对镜头站在山坡上，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "横向风景照片，展示人物背对镜头站在山坡上，保留照片内的摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        89,
+        540,
+        409,
+        1014
+      ],
+      "description": "竖向风景照片，展示人物背对镜头在草地上行走，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "竖向风景照片，展示人物背对镜头在草地上行走，保留照片内的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        606,
+        766,
+        902,
+        1212
+      ],
+      "description": "竖向风景照片，展示人物趴在木栅栏上，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "竖向风景照片，展示人物趴在木栅栏上，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        163,
+        114,
+        516,
+        225
+      ],
+      "description": "三颗黄色五角星和一颗小星，作为独立固定装饰保留。",
+      "label": "三颗黄色五角星和一颗小星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        611,
+        616,
+        786
+      ],
+      "description": "白色弯曲箭头和蓝色星形装饰，作为独立固定装饰保留。",
+      "label": "白色弯曲箭头和蓝色星形装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_left",
+    "photo_right",
+    "overlay_stars",
+    "overlay_arrow"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "brick_wall_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续的白色砖墙纹理底图，覆盖全画布，作为固定设计单元保留原样；照片和装饰元素叠加其上。",
+      "background_type": "reference_clean",
+      "label": "连续的白色砖墙纹理底图，覆盖全画布，作为固定设计单元保留原样",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        68,
+        142,
+        668,
+        538
+      ],
+      "description": "上方人物照片，人物手托下巴，背景为绿植和白色栏杆，显示区域为矩形。",
+      "label": "上方人物照片，人物手托下巴，背景为绿植和白色栏杆，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        257,
+        691,
+        806,
+        1066
+      ],
+      "description": "下方人物照片，人物坐在车内，背景为车窗和座椅，显示区域为矩形。",
+      "label": "下方人物照片，人物坐在车内，背景为车窗和座椅，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flowers",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        530,
+        889,
+        782
+      ],
+      "description": "横向绿色植物与白色小花装饰带，位于两张照片之间，作为独立固定装饰保留。",
+      "label": "横向绿色植物与白色小花装饰带，位于两张照片之间，作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_four_leaf",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        886,
+        317,
+        1106
+      ],
+      "description": "左下角绿色四叶草图案装饰，作为独立固定装饰保留。",
+      "label": "左下角绿色四叶草图案装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        70,
+        140,
+        182
+      ],
+      "description": "左上角白色网格状装饰图案，作为独立固定装饰保留。",
+      "label": "左上角白色网格状装饰图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        403,
+        778,
+        578
+      ],
+      "description": "右上角白色网格状装饰图案，作为独立固定装饰保留。",
+      "label": "右上角白色网格状装饰图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        616,
+        1010,
+        900,
+        1198
+      ],
+      "description": "右下角白色网格状装饰图案，作为独立固定装饰保留。",
+      "label": "右下角白色网格状装饰图案，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "brick_wall_base",
+    "photo_top",
+    "photo_bottom",
+    "overlay_flowers",
+    "overlay_four_leaf",
+    "overlay_top_left",
+    "overlay_top_right",
+    "overlay_bottom_right"
+  ]
+}

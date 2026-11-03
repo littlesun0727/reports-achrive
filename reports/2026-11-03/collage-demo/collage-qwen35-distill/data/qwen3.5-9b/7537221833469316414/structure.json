@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "木质墙面、地板、门框、挂钟、电话、花瓶与花束构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        90,
+        92,
+        450,
+        485
+      ],
+      "description": "左上人物侧卧照片，人物穿灰白拼接上衣，保留人物及身后的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        415,
+        355,
+        940,
+        665
+      ],
+      "description": "中间右侧人物吃苹果特写照片，保留人物面部及苹果，显示区域为矩形。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        150,
+        620,
+        865,
+        950
+      ],
+      "description": "下方人物躺卧照片，人物穿灰白拼接上衣和蓝色短裤，保留人物及身后的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        495,
+        265,
+        695
+      ],
+      "description": "橙色百合花，带水珠，作为独立固定装饰保留，位于左下照片左侧。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        80,
+        550,
+        155
+      ],
+      "description": "白色星形装饰，位于左上照片右上方。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        240,
+        620,
+        295
+      ],
+      "description": "白色星形装饰，位于中间电话右侧。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        230,
+        830,
+        285
+      ],
+      "description": "白色星形装饰，位于花瓶左侧。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        320,
+        940,
+        400
+      ],
+      "description": "白色星形装饰，位于中间照片右上方。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_middle_right",
+    "photo_lower",
+    "overlay_lily",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4"
+  ]
+}

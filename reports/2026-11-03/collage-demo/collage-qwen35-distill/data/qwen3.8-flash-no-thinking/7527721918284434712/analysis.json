@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    836
+  ],
+  "objects": [
+    {
+      "id": "photo_base_eye",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        836
+      ],
+      "description": "一张连续的人眼特写摄影底图，完整覆盖画布。画面包含眉毛、眼睑皮肤、睫毛及瞳孔区域，整体色调柔和明亮。上层叠加的人物照片遮挡了部分瞳孔细节，但周围的眼部环境（如虹膜纹理、反光点）仍作为底图的一部分保留。",
+      "background_type": "photo",
+      "label": "一张连续的人眼特写摄影底图，完整覆盖画布。画面包含眉毛、眼睑",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_in_pupil",
+      "kind": "photo",
+      "bbox": [
+        306,
+        376,
+        558,
+        493
+      ],
+      "description": "位于瞳孔中心区域的矩形人物照片，显示一名年轻男性的半身像，背景为星空图案。该照片被裁剪以适应眼睛形状，边缘带有发光的蓝色光环效果，属于独立可替换的摄影内容。",
+      "label": "位于瞳孔中心区域的矩形人物照片，显示一名年轻男性的半身像，背",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base_eye",
+    "photo_in_pupil"
+  ]
+}

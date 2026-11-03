@@ -1,0 +1,210 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的公园风景照片覆盖全画布：上方浅蓝天空、右上伸入的树枝、中部树林与湖面、下方荷叶和大片草坪，左侧远处可见游客。四边场景连续，上层照片遮挡局部；完整环境随客户照片整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        205,
+        46,
+        537,
+        377
+      ],
+      "description": "竖幅公园照片，一只穿浅色衣服的棕色长毛小狗侧身朝左站在草地上，后方有树干、围栏，前景为石板与白色卵石步道。保留全部摄影环境，矩形边界清晰，右侧局部被树林照片遮挡。"
+    },
+    {
+      "id": "photo_path",
+      "kind": "photo",
+      "bbox": [
+        466,
+        100,
+        755,
+        312
+      ],
+      "description": "树林步道照片，无明显人物，石板小路从下方向中央纵深延伸，两侧为树木、草地与矮石墙。保留摄影环境，照片四周有贴合窗口的不规则白色波浪描边。"
+    },
+    {
+      "id": "photo_lakeside",
+      "kind": "photo",
+      "bbox": [
+        597,
+        315,
+        933,
+        650
+      ],
+      "description": "竖幅湖畔照片，上半部是明亮蓝天，下方有树林、湖面与草坪，一名戴宽檐帽的人背向镜头坐在下方草地上。保留完整摄影环境，矩形边界清晰，左下部分被另一张照片覆盖。"
+    },
+    {
+      "id": "photo_park_sign",
+      "kind": "photo",
+      "bbox": [
+        326,
+        550,
+        697,
+        827
+      ],
+      "description": "矩形公园风景照片，上方为浅蓝天空，中部树林前可见上海世博文化公园的实体标识，下方为湖水与荷叶。标识文字属于实拍内容；保留摄影环境，左上部分被桥梁照片遮挡。"
+    },
+    {
+      "id": "photo_bridge",
+      "kind": "photo",
+      "bbox": [
+        185,
+        376,
+        457,
+        648
+      ],
+      "description": "竖幅建筑风景照片，白色拱桥与高塔占据中部，背景为浅蓝云天，下方是树林、草坪、湖面及少量远处游客。保留完整摄影环境，矩形窗口边缘有细白线。"
+    },
+    {
+      "id": "overlay_dog_doodles",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        139,
+        319,
+        215
+      ],
+      "description": "狗照片左上及左侧的白色手绘装饰组合，包括一大一小两颗空心星星、短斜线和小点，整体保留。"
+    },
+    {
+      "id": "overlay_path_doodles",
+      "kind": "overlay",
+      "bbox": [
+        466,
+        98,
+        745,
+        311
+      ],
+      "description": "围绕树林照片的手绘点缀组合：左上黄色环形笔画、右上黄色小星、左下黄色四角星，以及照片上部三枚白色椭圆环与细小点线；不包含照片窗口的白色波浪描边。"
+    },
+    {
+      "id": "overlay_silver_star",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        98,
+        921,
+        187
+      ],
+      "description": "右上方独立的银灰色五角星贴纸，保留金属明暗渐变和完整轮廓。"
+    },
+    {
+      "id": "overlay_sky_doodles",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        319,
+        923,
+        452
+      ],
+      "description": "右侧蓝天照片上部的白色手绘放射装饰，包含长条感叹状笔画、短射线、空心小方块、小圆点与星形，作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        418,
+        412,
+        469
+      ],
+      "description": "桥梁照片上方的白色立体云朵花形贴纸，带灰色柔和阴影及左下两颗小圆点。"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        485,
+        451,
+        569,
+        494
+      ],
+      "description": "中央两张照片之间的黄色笑脸，由两颗圆点眼睛与粗弧形嘴巴组成，无底板。"
+    },
+    {
+      "id": "overlay_heart_bubble",
+      "kind": "overlay",
+      "bbox": [
+        466,
+        568,
+        590,
+        635
+      ],
+      "description": "底部照片上方的白色圆角对话气泡贴纸，下方带尖角，内部有一深灰一浅灰两颗重叠爱心，保留立体高光与阴影。"
+    },
+    {
+      "id": "overlay_sparkle_top",
+      "kind": "overlay",
+      "bbox": [
+        169,
+        349,
+        201,
+        383
+      ],
+      "description": "桥梁照片左上角附近的白色四角闪光装饰。"
+    },
+    {
+      "id": "overlay_sparkle_bottom",
+      "kind": "overlay",
+      "bbox": [
+        437,
+        633,
+        477,
+        662
+      ],
+      "description": "桥梁照片右下角与下方照片交界处的白色四角闪光装饰。"
+    },
+    {
+      "id": "overlay_heart_mesh",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        747,
+        227,
+        829
+      ],
+      "description": "左下草坪上的白色爱心装饰，包含柔光空心爱心和上方叠加的细密点阵网纹，整体保留。"
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        240,
+        889,
+        838,
+        916
+      ],
+      "text": null,
+      "color": "#E5E8D0",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": true
+    }
+  ],
+  "layer_order": [
+    "photo_dog",
+    "photo_path",
+    "photo_lakeside",
+    "photo_park_sign",
+    "photo_bridge",
+    "overlay_dog_doodles",
+    "overlay_path_doodles",
+    "overlay_silver_star",
+    "overlay_sky_doodles",
+    "overlay_flower",
+    "overlay_smile",
+    "overlay_heart_bubble",
+    "overlay_sparkle_top",
+    "overlay_sparkle_bottom",
+    "overlay_heart_mesh",
+    "text_footer"
+  ]
+}

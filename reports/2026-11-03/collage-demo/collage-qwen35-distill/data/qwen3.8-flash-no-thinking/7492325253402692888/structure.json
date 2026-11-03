@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_camera_ui",
+    "description": "黑色相机取景器界面底图，包含顶部和底部的拍摄参数图标、快门按钮及RAW/MAX标识。这些固定UI元素需保留原样，中间区域为照片显示窗口。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        58,
+        102,
+        934,
+        431
+      ],
+      "description": "上方矩形照片窗口，内容为一名扎丸子头的女子在镜子前自拍，身穿白色长袖上衣和牛仔短裙，背景可见墙壁插座和深色衣柜门。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        58,
+        433,
+        934,
+        776
+      ],
+      "description": "下方矩形照片窗口，内容与上方照片相似但构图略有不同（可能是连拍），同样展示女子对镜自拍的姿态，保留了完整的摄影环境。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "ocean_base",
+    "description": "广阔的蓝色海洋与海浪构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸、文字和装饰遮挡局部，保留海洋环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        102,
+        82,
+        562,
+        300
+      ],
+      "description": "人物站在海边岩石上，双臂张开，背景为蓝色海洋，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        285,
+        356,
+        762,
+        608
+      ],
+      "description": "俯拍视角下两人在清澈海水中漂浮，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        438,
+        670,
+        908,
+        906
+      ],
+      "description": "人物站在海边植物旁，背景为海洋与天空，保留完整摄影环境。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        32,
+        166,
+        126
+      ],
+      "description": "三张带有黑色五角星图案的方形贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fireworks",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        142,
+        562,
+        238
+      ],
+      "description": "白色手绘烟花图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_line",
+      "kind": "overlay",
+      "bbox": [
+        138,
+        280,
+        262,
+        432
+      ],
+      "description": "粉色手绘星星与圆点连线图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_checkered",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        336,
+        582,
+        402
+      ],
+      "description": "蓝白格纹矩形贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        802,
+        562,
+        902,
+        642
+      ],
+      "description": "白色手绘小鱼图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_palm",
+      "kind": "overlay",
+      "bbox": [
+        388,
+        636,
+        502,
+        732
+      ],
+      "description": "黄色手绘棕榈树图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_blue",
+      "kind": "text",
+      "bbox": [
+        98,
+        756,
+        398,
+        862
+      ],
+      "text": "Summer is a blue sea\na free breeze\na passionate and romantic season",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_white",
+      "kind": "text",
+      "bbox": [
+        582,
+        112,
+        922,
+        272
+      ],
+      "text": "When we arrived at the southernmost tip of the African continent, Cape Town was right in front of us an unforgettable journey.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_sign",
+      "kind": "text",
+      "bbox": [
+        702,
+        832,
+        832,
+        872
+      ],
+      "text": "Emergency Entrance\nNo Parking Between Yellow Lines",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        782,
+        932,
+        982,
+        972
+      ],
+      "text": "小红书号：yes854994023",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_logo",
+      "kind": "text",
+      "bbox": [
+        922,
+        932,
+        982,
+        972
+      ],
+      "text": "小红书",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_stars",
+    "overlay_fireworks",
+    "overlay_star_line",
+    "overlay_checkered",
+    "overlay_fish",
+    "overlay_palm",
+    "text_blue",
+    "text_white",
+    "text_sign",
+    "text_watermark",
+    "text_logo"
+  ]
+}

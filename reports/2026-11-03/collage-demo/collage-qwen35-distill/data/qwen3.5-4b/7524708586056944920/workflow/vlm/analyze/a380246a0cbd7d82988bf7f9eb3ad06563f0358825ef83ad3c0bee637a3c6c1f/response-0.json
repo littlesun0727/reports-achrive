@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-99cc502c5317976f",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7839,
+    "completion_tokens": 892,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"公园草地与树木构成的连续摄影底图，阳光透过树叶形成斑驳光影，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_goldfish\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        347,\n        128,\n        715,\n        530\n      ],\n      \"description\": \"装在透明塑料袋中的金鱼照片，保留水波纹理和背景树木，显示区域为竖向矩形。\"\n    },\n    {\n      \"id\": \"photo_cat\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        126,\n        471,\n        527,\n        773\n      ],\n      \"description\": \"橘猫在石板路上行走的照片，保留路面光影和草地，显示区域为横向矩形。\"\n    },\n    {\n      \"id\": \"photo_trees\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        570,\n        558,\n        908,\n        895\n      ],\n      \"description\": \"树林中人物剪影的照片，保留树干和草地光影，显示区域为竖向矩形。\"\n    },\n    {\n      \"id\": \"overlay_tape_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        246,\n        78,\n        392,\n        178\n      ],\n      \"description\": \"黄色胶带装饰，位于金鱼照片左上角，作为独立固定单元保留。\"\n    },\n    {\n      \"id\": \"overlay_tape_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        96,\n        730,\n        192,\n        796\n      ],\n      \"description\": \"黄色胶带装饰，位于猫咪照片左下角，作为独立固定单元保留。\"\n    },\n    {\n      \"id\": \"overlay_tape_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        696,\n        542,\n        784,\n        576\n      ],\n      \"description\": \"黄色胶带装饰，位于树林照片上方，作为独立固定单元保留。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        740,\n        480,\n        934,\n        520\n      ],\n      \"text\": \"Meet summer.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        136,\n        818,\n        538,\n        885\n      ],\n      \"text\": \"Collect today's lush greenery\\nand gentle breeze\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_goldfish\",\n    \"photo_cat\",\n    \"photo_trees\",\n    \"overlay_tape_1\",\n    \"overlay_tape_2\",\n    \"overlay_tape_3\",\n    \"text_1\",\n    \"text_2\"\n  ]\n}",
+  "tool_calls": false
+}

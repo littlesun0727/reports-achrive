@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        500
+      ],
+      "description": "上方人物近景照片，年轻女性长发特写，背景为户外街道地面。下边缘与下方照片拼接。"
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        62,
+        358,
+        247
+      ],
+      "description": "手绘风格对话气泡框，包含文字“Have a Good Day”及下方的四叶草图案，位于上方照片左上角区域。"
+    },
+    {
+      "id": "overlay_mushroom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        390,
+        210,
+        460
+      ],
+      "description": "两个卡通蘑菇贴纸，位于左侧中部，部分覆盖在上方照片上。"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        450,
+        300,
+        610
+      ],
+      "description": "方格纸便签设计单元，顶部有标题“바츠키 일기”和表情符号，主体包含多行手写笔记内容，整体作为固定装饰保留。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        500,
+        1000,
+        1000
+      ],
+      "description": "下方人物近景照片，年轻女性在室内窗边自拍，头发上有发夹，背景可见玻璃反光。上边缘与上方照片拼接。"
+    },
+    {
+      "id": "overlay_panda",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        690,
+        980,
+        820
+      ],
+      "description": "三个半透明熊猫头贴纸组合，带有星星点缀，位于右侧中下部，叠加在下方照片上。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_bubble",
+    "overlay_mushroom",
+    "overlay_note",
+    "overlay_panda"
+  ]
+}

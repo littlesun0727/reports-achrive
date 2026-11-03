@@ -1,0 +1,184 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "wall_base",
+    "description": "连续的米黄色纹理墙面底图，作为所有照片和装饰的承载背景，完整显示区域延伸至画布四边；照片和贴纸遮挡局部，保留墙面纹理。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        132,
+        128,
+        427,
+        365
+      ],
+      "description": "左上角照片，展示甜点、咖啡和玩偶，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        527,
+        168,
+        853,
+        510
+      ],
+      "description": "右上角照片，展示人物和饮品，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        272,
+        420,
+        577,
+        685
+      ],
+      "description": "中间照片，展示人物和甜点，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        157,
+        715,
+        392,
+        888
+      ],
+      "description": "左下角照片，展示咖啡，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        592,
+        605,
+        892,
+        890
+      ],
+      "description": "右下角照片，展示格纹衣物和甜点，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        172,
+        578,
+        422,
+        765
+      ],
+      "description": "黑胶唱片贴纸，带有音乐符号和文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        600,
+        892,
+        745
+      ],
+      "description": "格纹贴纸，带有枫叶图案和文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        242,
+        315,
+        572,
+        425
+      ],
+      "description": "便签纸贴纸，带有文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        495,
+        812,
+        605
+      ],
+      "description": "白色手绘兔子和猫贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        845,
+        292,
+        945
+      ],
+      "description": "银色胶带贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        612,
+        75,
+        857,
+        175
+      ],
+      "text": "PLOG",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        242,
+        345,
+        572,
+        415
+      ],
+      "text": "Found a quiet corner\nof the world.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        812,
+        615,
+        882,
+        705
+      ],
+      "text": "No one\nbut you.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

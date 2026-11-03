@@ -1,0 +1,90 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "地铁站通道场景，包含灰白色砖墙、右侧下行楼梯及上方绿色指示牌。主体为一名戴黑色贝雷帽、穿白衬衫的长发年轻女性，位于画面左侧前景，身体微侧面向镜头。"
+  },
+  "objects": [
+    {
+      "id": "overlay_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        175,
+        230,
+        260
+      ],
+      "description": "左上角三颗白色手绘风格星星装饰，线条简洁，无底板。"
+    },
+    {
+      "id": "overlay_heart_frame",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        220,
+        940,
+        560
+      ],
+      "description": "右侧巨大的白色手绘心形轮廓线，作为照片窗口边框叠加在背景墙上。"
+    },
+    {
+      "id": "photo_inset_heart",
+      "kind": "photo",
+      "bbox": [
+        600,
+        240,
+        920,
+        540
+      ],
+      "description": "位于心形框内的独立人物照片，同一位女性手持手机自拍，表情惊讶张嘴，保留其身后的摄影环境。"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        170,
+        950,
+        530
+      ],
+      "description": "右侧散落的几颗白色手绘星星装饰，部分与心形框重叠。"
+    },
+    {
+      "id": "overlay_stars_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        820,
+        320,
+        900
+      ],
+      "description": "左下角两颗白色手绘星星装饰。"
+    },
+    {
+      "id": "text_korean",
+      "kind": "text",
+      "bbox": [
+        530,
+        820,
+        720,
+        870
+      ],
+      "text": "좋은 날",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_stars_left",
+    "overlay_heart_frame",
+    "photo_inset_heart",
+    "overlay_stars_right",
+    "overlay_stars_bottom_left",
+    "text_korean"
+  ]
+}

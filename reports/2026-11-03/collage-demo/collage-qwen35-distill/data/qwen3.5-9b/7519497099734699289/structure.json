@@ -1,0 +1,462 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续摄影底图，展示城市街道、树木、建筑、天空和地面，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        80,
+        100,
+        400,
+        390
+      ],
+      "description": "左上角照片，展示一条被树木环绕的小巷，天空呈蓝色，有路灯和停放的车辆。照片内叠加有白色文字。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        470,
+        80,
+        880,
+        270
+      ],
+      "description": "右上角照片，展示一条城市街道，有红绿灯、黄色路牌和远处的建筑。照片内叠加有白色文字。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        510,
+        300,
+        760,
+        550
+      ],
+      "description": "中间偏右照片，俯拍视角，展示一本打开的书放在绣球花丛中，绿叶和紫色花朵清晰可见。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        130,
+        430,
+        470,
+        670
+      ],
+      "description": "左侧中间照片，带有胶片边框效果，展示茂密的绿色树叶和蓝天白云，下方可见高架轨道。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        660,
+        520,
+        900,
+        730
+      ],
+      "description": "右侧中间照片，展示城市天际线，远处有高楼大厦，前景有树木和栏杆。"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        100,
+        710,
+        460,
+        940
+      ],
+      "description": "左下角照片，展示黑色地面上的粉色花瓣，照片内叠加有白色文字。"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        490,
+        780,
+        850,
+        950
+      ],
+      "description": "右下角照片，展示一张摆有饮料和食物的桌子，照片内叠加有白色文字。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        75,
+        95,
+        405,
+        395
+      ],
+      "description": "围绕左上角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_1"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        465,
+        75,
+        885,
+        275
+      ],
+      "description": "围绕右上角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_2"
+      ]
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        505,
+        295,
+        765,
+        555
+      ],
+      "description": "围绕中间偏右照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_3"
+      ]
+    },
+    {
+      "id": "frame_4",
+      "kind": "frame",
+      "bbox": [
+        125,
+        425,
+        475,
+        675
+      ],
+      "description": "围绕左侧中间照片的黑色胶片边框，位于照片上方。",
+      "photo_id": [
+        "photo_4"
+      ]
+    },
+    {
+      "id": "frame_5",
+      "kind": "frame",
+      "bbox": [
+        655,
+        515,
+        905,
+        735
+      ],
+      "description": "围绕右侧中间照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_5"
+      ]
+    },
+    {
+      "id": "frame_6",
+      "kind": "frame",
+      "bbox": [
+        95,
+        705,
+        465,
+        945
+      ],
+      "description": "围绕左下角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_6"
+      ]
+    },
+    {
+      "id": "frame_7",
+      "kind": "frame",
+      "bbox": [
+        485,
+        775,
+        855,
+        955
+      ],
+      "description": "围绕右下角照片的白色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_7"
+      ]
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        20,
+        400,
+        70
+      ],
+      "description": "白色五角星装饰，位于画布顶部中央偏左。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        20,
+        680,
+        70
+      ],
+      "description": "白色五角星装饰，位于画布顶部中央偏右。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        890,
+        20,
+        940,
+        70
+      ],
+      "description": "白色五角星装饰，位于画布顶部右侧。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        80,
+        60,
+        130
+      ],
+      "description": "白色五角星装饰，位于画布左侧边缘。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        240,
+        950,
+        290
+      ],
+      "description": "白色五角星装饰，位于画布右侧中部。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        350,
+        870,
+        400
+      ],
+      "description": "白色五角星装饰，位于画布右侧中部偏下。"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        300,
+        470,
+        350
+      ],
+      "description": "白色五角星装饰，位于画布中部偏上。"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        600,
+        620,
+        650
+      ],
+      "description": "白色五角星装饰，位于画布中部偏下。"
+    },
+    {
+      "id": "overlay_9",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        730,
+        520,
+        780
+      ],
+      "description": "白色五角星装饰，位于画布下部中央。"
+    },
+    {
+      "id": "overlay_10",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        670,
+        120,
+        720
+      ],
+      "description": "白色五角星装饰，位于画布左侧中部。"
+    },
+    {
+      "id": "overlay_11",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        880,
+        120,
+        930
+      ],
+      "description": "白色五角星装饰，位于画布左下角。"
+    },
+    {
+      "id": "overlay_12",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        880,
+        900,
+        930
+      ],
+      "description": "白色五角星装饰，位于画布右下角。"
+    },
+    {
+      "id": "overlay_13",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        730,
+        750,
+        780
+      ],
+      "description": "白色五角星装饰，位于画布下部右侧。"
+    },
+    {
+      "id": "overlay_14",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        920,
+        870,
+        970
+      ],
+      "description": "白色五角星装饰，位于画布右下角。"
+    },
+    {
+      "id": "overlay_15",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        520,
+        870,
+        570
+      ],
+      "description": "白色皇冠装饰，位于画布右侧中部。"
+    },
+    {
+      "id": "overlay_16",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        520,
+        870,
+        570
+      ],
+      "description": "白色心形装饰，位于画布右侧中部。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        100,
+        150,
+        350,
+        250
+      ],
+      "text": "带着潮湿的绿意和清冽的木质香，给闷热的天气带来一丝大口呼吸的凉意。",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        500,
+        100,
+        800,
+        180
+      ],
+      "text": "每每到了夏天，我开始抓不住我自己。整个变成一团云，虚无的，没有确切的情绪。像是漫长的犯困，醒不过来。",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        120,
+        820,
+        350,
+        880
+      ],
+      "text": "出生在夏天的午后，于是总会赋予这个季节特殊的意义。要热烈，要不郁，要拥有旺盛的生命力。",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        500,
+        800,
+        800,
+        880
+      ],
+      "text": "“时间好像是不定的。”夏天可以心安理得地浪费时间。穿着人字拖走在街道上，能听见怀里的十个西瓜，盛大辉煌的落日晚霞，产卵力竭的蝉鸣，被衣物覆盖的黏腻反仄，所有一切又真实又真实。",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "frame_4",
+    "frame_5",
+    "frame_6",
+    "frame_7",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "overlay_9",
+    "overlay_10",
+    "overlay_11",
+    "overlay_12",
+    "overlay_13",
+    "overlay_14",
+    "overlay_15",
+    "overlay_16",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的咖啡馆桌面摄影画面铺满画布，左下是装有饮品的深色杯子和蓝白格杯垫，右下是盘中的蛋糕及餐具，上方可见木质家具和座椅。场景延伸至四边，中部被独立照片、文字和贴纸遮挡；整张摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        163,
+        122,
+        595,
+        450
+      ],
+      "description": "一只手托着打开的书的近景照片，书页上有韩文和黑色动物插画，左侧保留木质背景。完整矩形摄影窗口，环境仍可见，右下部分被窗帘照片遮挡。"
+    },
+    {
+      "id": "photo_curtain",
+      "kind": "photo",
+      "bbox": [
+        504,
+        354,
+        878,
+        639
+      ],
+      "description": "窗边浅色半透明窗帘与右侧窗框的近景照片，帘面可见小动物及爱心线描图案，随摄影内容共同替换。矩形窗口保留摄影环境，左下角被人物照片遮挡。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        183,
+        583,
+        580,
+        884
+      ],
+      "description": "一名长发年轻女性的近景自拍，面向镜头、脸颊鼓起，嘴边露出食物，画面包含头部、肩臂及左侧窗边植物环境。矩形窗口，无主体去背景；上缘叠有透明胶带，左下叠有音符装饰。"
+    },
+    {
+      "id": "overlay_atom",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        82,
+        257,
+        194
+      ],
+      "description": "浅蓝色交错椭圆轨道与白色节点、星芒组成的原子状手绘装饰，完整保留所有细线和附属点缀。"
+    },
+    {
+      "id": "overlay_heart_left",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        236,
+        159,
+        321
+      ],
+      "description": "白色发光手绘空心爱心，内部带卷曲线条，整体独立贴在左侧背景上。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        614,
+        141,
+        740,
+        325
+      ],
+      "description": "一组纵向错落排列的薄荷青色手绘气泡，由大小不一的圆环、内部短线及小圆点组成，作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        273,
+        925,
+        400
+      ],
+      "description": "白色线描闭眼兔子，包含长耳、圆头、垂下的肢体，以及两侧小花、星点和右下小爱心，整体保留。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        34,
+        470,
+        405,
+        557
+      ],
+      "text": "The light slowly softens, the sky\nfading from orange to lilac. Doing\nnothing but watching this gentle fade,\nas if everything can be forgiven,\neverything embraced.",
+      "color": "#F4F1E9",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        567,
+        267,
+        644
+      ],
+      "description": "斜贴于人物照片左上角的半透明灰色胶带，带浅色手绘线条与不规则纸边，横跨照片和背景，完整保留透明质感。"
+    },
+    {
+      "id": "overlay_heart_right",
+      "kind": "overlay",
+      "bbox": [
+        595,
+        685,
+        683,
+        764
+      ],
+      "description": "白色发光手绘空心爱心，内部为卷曲线条，位于人物照片右侧的蛋糕背景上。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        801,
+        241,
+        909
+      ],
+      "description": "白色高音谱号装饰，搭配左侧浅粉爱心和右下浅粉星芒，谱号下端带浅色细点纹理，作为完整贴纸保留。"
+    },
+    {
+      "id": "overlay_counter",
+      "kind": "overlay",
+      "bbox": [
+        894,
+        7,
+        981,
+        47
+      ],
+      "description": "右上角半透明深灰圆角标签及白色“1/3”字样，文字与底板整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_book",
+    "photo_curtain",
+    "photo_portrait",
+    "overlay_atom",
+    "overlay_heart_left",
+    "overlay_bubbles",
+    "overlay_bunny",
+    "text_quote",
+    "overlay_tape",
+    "overlay_heart_right",
+    "overlay_music",
+    "overlay_counter"
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "一名短黑发青年穿蓝白条纹衬衫、白色上衣、深色短裤和蓝色帆布鞋，在街边伸臂侧身站立的全身摄影。墙面、道路与人物连续延伸至画布四边，整体明显虚化；上层三张清晰照片遮挡中部，底图仍覆盖全画布，人物与摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        101,
+        73,
+        565,
+        537
+      ],
+      "description": "左上竖幅街头照片，一名短黑发青年穿条纹衬衫与短裤，面对镜头微笑，双腿分开，一臂向右上伸展，另一手扶腿。保留墙面、树木、道路与护栏，矩形边缘清晰；右下部分被中间照片遮挡。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        480,
+        360,
+        897,
+        672
+      ],
+      "description": "右侧近方形照片，同一青年面向镜头微笑，一手举至额旁，另一臂自然下垂，呈大半身景别。保留道路、护栏及卷帘门等摄影环境，四边为清晰矩形，无主体出框。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        110,
+        658,
+        614,
+        942
+      ],
+      "description": "左下横幅照片，一名条纹衬衫青年站在护栏旁，侧脸朝向左上方，显示头部至大腿附近。保留街道、旧墙与卷帘门，矩形窗口边缘清晰。"
+    },
+    {
+      "id": "overlay_rectangle_top",
+      "kind": "overlay",
+      "bbox": [
+        195,
+        129,
+        643,
+        465
+      ],
+      "description": "白色细线矩形及四角白色方形节点，完整叠加在左上照片与右侧虚化底图之上；与照片边界不一致，是独立线框装饰，不承担照片窗口功能。"
+    },
+    {
+      "id": "overlay_rectangle_middle",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        389,
+        942,
+        724
+      ],
+      "description": "白色细线矩形及四角白色方形节点，从中间照片内部延伸至右侧和下方底图；完整保留为独立线框装饰，不裁切照片。"
+    },
+    {
+      "id": "overlay_rectangle_bottom",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        625,
+        660,
+        927
+      ],
+      "description": "横向白色细线矩形，四角附白色方形节点，跨越左下照片、其上方区域与右侧底图；线框不与照片窗口重合。"
+    },
+    {
+      "id": "overlay_softly",
+      "kind": "overlay",
+      "bbox": [
+        914,
+        87,
+        969,
+        299
+      ],
+      "description": "顺时针旋转的白色英文“softly go with the flow”，连同上端及右下方的小白方块作为完整排版装饰保留。"
+    },
+    {
+      "id": "overlay_move",
+      "kind": "overlay",
+      "bbox": [
+        866,
+        204,
+        890,
+        322
+      ],
+      "description": "顺时针旋转的白色英文“move at ease”，上端带一枚白色方块，整体保留。"
+    },
+    {
+      "id": "overlay_breathe_deep",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        89,
+        817,
+        208
+      ],
+      "description": "顺时针旋转的白色英文“breathe deep”，上方附白色方块，文字与方块整体保留。"
+    },
+    {
+      "id": "overlay_no_hurry",
+      "kind": "overlay",
+      "bbox": [
+        764,
+        124,
+        790,
+        275
+      ],
+      "description": "顺时针旋转的白色英文“no need to hurry”，上端附小白方块，整体保留。"
+    },
+    {
+      "id": "overlay_slow_left",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        176,
+        690,
+        312
+      ],
+      "description": "位于上部偏右的顺时针旋转白色英文“slow your pace”，上端附白色方块，作为独立排版装饰保留。"
+    },
+    {
+      "id": "overlay_slow_right",
+      "kind": "overlay",
+      "bbox": [
+        697,
+        235,
+        725,
+        373
+      ],
+      "description": "位于另一行右下方的顺时针旋转白色英文“slow your pace”，上端附白色方块，下端接近中间照片上边缘。"
+    },
+    {
+      "id": "overlay_keep_life",
+      "kind": "overlay",
+      "bbox": [
+        193,
+        470,
+        259,
+        704
+      ],
+      "description": "顺时针旋转的白色英文“keep life unrushed”，连同上方及左下方的白色三角点缀整体保留，跨越左上照片下缘及下方区域。"
+    },
+    {
+      "id": "overlay_calm",
+      "kind": "overlay",
+      "bbox": [
+        262,
+        583,
+        289,
+        722
+      ],
+      "description": "顺时针旋转的白色英文“calm mode”，上端附一枚白色三角，跨在中部与左下照片上方。"
+    },
+    {
+      "id": "overlay_salt",
+      "kind": "overlay",
+      "bbox": [
+        343,
+        537,
+        374,
+        662
+      ],
+      "description": "顺时针旋转的白色英文“salt days”，上端附白色三角，叠加在虚化条纹衬衫区域。"
+    },
+    {
+      "id": "overlay_small_vertical",
+      "kind": "overlay",
+      "bbox": [
+        393,
+        492,
+        423,
+        588
+      ],
+      "description": "一组顺时针旋转的细小白色字符，上端附白色三角；字符较模糊，保留原有字形与排版，不猜写内容。"
+    },
+    {
+      "id": "overlay_go_vertical",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        575,
+        176,
+        827
+      ],
+      "description": "顺时针旋转的白色英文“go where your feel light”，上端带白色三角，纵向跨越左下照片及其上方区域，保留原图用词和字形。"
+    },
+    {
+      "id": "text_breathe",
+      "kind": "text",
+      "bbox": [
+        560,
+        545,
+        877,
+        570
+      ],
+      "text": "Breathe and let be.",
+      "color": "#ECEDE6",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_go_stack",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        671,
+        845,
+        968
+      ],
+      "description": "右下白色英文“go”“where”“you”“feel”“light”逐词向下错位排列，每词下方有细横线，上方附小白三角。独立位置与下划线共同构成完整排版装饰，整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "photo_middle",
+    "overlay_rectangle_top",
+    "overlay_rectangle_middle",
+    "overlay_rectangle_bottom",
+    "overlay_softly",
+    "overlay_move",
+    "overlay_breathe_deep",
+    "overlay_no_hurry",
+    "overlay_slow_left",
+    "overlay_slow_right",
+    "overlay_keep_life",
+    "overlay_calm",
+    "overlay_salt",
+    "overlay_small_vertical",
+    "overlay_go_vertical",
+    "text_breathe",
+    "overlay_go_stack"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的户外俯视摄影画面覆盖全画布：开满黄白小花的草地、右侧流动溪水及上方岸石相互连续，底部露出一名拍摄者的衣服和双腿，草地上可见人影。三张照片卡遮挡中央区域，四周环境仍连续；人物、溪流、草地和阴影随整张底图替换。"
+  },
+  "objects": [
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        257,
+        77,
+        781,
+        324
+      ],
+      "description": "横向黄色照片纸框，保留宽窄不等的边沿、细微纸面纹理、内口暗边及外缘阴影，承载一张横向照片。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        303,
+        95,
+        682,
+        305
+      ],
+      "description": "横向照片，透过车窗看见夕阳天空、远丘和草原上的三匹马；近处双手横握手机拍摄，左侧露出车内结构，底部保留窗沿。全部属于同一摄影画面，保留环境，四边由矩形内口裁切，无主体去背景或透明渐隐。"
+    },
+    {
+      "id": "frame_middle",
+      "kind": "frame",
+      "bbox": [
+        261,
+        376,
+        785,
+        625
+      ],
+      "description": "横向白色照片纸框，表面散布红、黄绿、绿色和紫色圆点，保留纸面纹理、完整边沿及轻微阴影；圆点为框体自身印花。",
+      "photo_id": [
+        "photo_middle"
+      ]
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        308,
+        396,
+        686,
+        606
+      ],
+      "description": "横向户外近景照片，左下伸入一只手，握着由黄色、紫色及少量蓝白野花组成的花环，花枝延伸至下边缘；背景为草甸、远丘和浅色天空。保留完整摄影环境，按矩形内口裁切，无主体去背景或透明渐隐。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        260,
+        673,
+        784,
+        919
+      ],
+      "description": "横向淡紫色照片纸框，保留略有质感的宽边、内口细暗边和外缘阴影，承载单张照片。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        308,
+        692,
+        685,
+        901
+      ],
+      "description": "俯拍近景照片，浅棕色编织草帽或篮状容器中装有橙色柑橘、黄红苹果及深色小果，暖阳在水果和编织表面形成斑驳光影。水果与编织容器共同属于照片，保留摄影背景，四边按矩形内口裁切，无去背景或透明渐隐。"
+    }
+  ],
+  "layer_order": [
+    "frame_top",
+    "photo_top",
+    "frame_middle",
+    "photo_middle",
+    "frame_bottom",
+    "photo_bottom"
+  ]
+}

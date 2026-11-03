@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-aed29c7eb4f78d26",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7784,
+    "completion_tokens": 837,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"户外公园场景，包含蓝天、白云、深色栅栏、绿色草地和树木，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        222,\n        75,\n        562,\n        400\n      ],\n      \"description\": \"上方人物半身照片，人物低头，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_cat\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        532,\n        308,\n        782,\n        500\n      ],\n      \"description\": \"右侧猫咪照片，猫咪在砖地上行走，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_trees\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        112,\n        368,\n        382,\n        658\n      ],\n      \"description\": \"左侧树木照片，保留树木及背景环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        292,\n        565,\n        772,\n        825\n      ],\n      \"description\": \"下方人物半身照片，人物抬头，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_text\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        602,\n        135,\n        802,\n        185\n      ],\n      \"description\": \"手写风格文字“好天气！”，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_heart\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        762,\n        245,\n        832,\n        375\n      ],\n      \"description\": \"蓝色心形图案，内部有白色圆点，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_gift\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        652,\n        535,\n        832,\n        925\n      ],\n      \"description\": \"棕色带白点的礼物盒图案，带有蝴蝶结和飘带，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        602,\n        135,\n        802,\n        185\n      ],\n      \"text\": \"好天气！\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_cat\",\n    \"photo_trees\",\n    \"photo_bottom\",\n    \"overlay_text\",\n    \"overlay_heart\",\n    \"overlay_gift\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,137 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "polka_dot_base",
+    "description": "粉色底面带有白色波点图案的固定设计单元，覆盖全画布，作为拼贴画的基础背景。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        102,
+        156,
+        682,
+        498
+      ],
+      "description": "上方人物半身照片，人物佩戴项链和耳机，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        345,
+        566,
+        932,
+        888
+      ],
+      "description": "下方人物近景照片，人物手指轻触下巴，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        56,
+        142,
+        696,
+        512
+      ],
+      "description": "围绕上方照片的黑色波点边框，带有白色珍珠装饰，位于照片上方。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        315,
+        552,
+        937,
+        912
+      ],
+      "description": "围绕下方照片的黑色波点边框，带有粉色蝴蝶结和白色珍珠装饰，位于照片上方。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "overlay_lamb",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        370,
+        275,
+        532
+      ],
+      "description": "白色毛绒小羊装饰，带有蓝色蝴蝶结，位于上方照片左侧。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        492,
+        982,
+        666
+      ],
+      "description": "白色毛绒小熊装饰，带有粉色蝴蝶结，位于下方照片右侧。"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        826,
+        565,
+        922
+      ],
+      "description": "白色天使翅膀装饰，位于下方照片下方。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        207,
+        632,
+        432,
+        666
+      ],
+      "text": "I am a princess",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        68,
+        678,
+        432,
+        712
+      ],
+      "text": "But you're not my prince",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "overlay_lamb",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_bear",
+    "overlay_wings",
+    "text_1",
+    "text_2"
+  ]
+}

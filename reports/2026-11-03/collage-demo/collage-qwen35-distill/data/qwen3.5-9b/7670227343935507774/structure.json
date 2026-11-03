@@ -1,0 +1,203 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "广阔的绿色草原，远处有连绵的山脉和几栋房屋。前景中，一位长发女子背对镜头，身穿浅色连衣裙，正走向几头正在吃草的牛。天空晴朗，光线柔和。上层的多张照片和装饰元素遮挡了部分背景，但整体摄影环境连续且完整。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        72,
+        165,
+        285,
+        355
+      ],
+      "description": "左侧人物半身照片，女子侧脸，手托腮，背景为绿色山丘和蓝天。照片边缘有圆括号装饰。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        365,
+        175,
+        585,
+        385
+      ],
+      "description": "中间人物半身照片，女子侧脸，手托腮，背景为绿色山丘和蓝天。照片边缘有圆括号装饰。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        725,
+        65,
+        915,
+        275
+      ],
+      "description": "右侧人物全身照片，女子背对镜头，站在草地上，背景为绿色山丘和蓝天。照片边缘有圆括号装饰。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        265,
+        45,
+        585,
+        105
+      ],
+      "text": "那拉提plog",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_month",
+      "kind": "text",
+      "bbox": [
+        535,
+        545,
+        785,
+        605
+      ],
+      "text": "AUGUST",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_sticker_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        105,
+        105,
+        145
+      ],
+      "description": "左上角的波点贴纸，作为装饰元素。"
+    },
+    {
+      "id": "overlay_sticker_2",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        195,
+        75,
+        265
+      ],
+      "description": "左侧的圆括号装饰，作为照片边框的一部分。"
+    },
+    {
+      "id": "overlay_sticker_3",
+      "kind": "overlay",
+      "bbox": [
+        265,
+        195,
+        290,
+        265
+      ],
+      "description": "中间的圆括号装饰，作为照片边框的一部分。"
+    },
+    {
+      "id": "overlay_sticker_4",
+      "kind": "overlay",
+      "bbox": [
+        535,
+        195,
+        560,
+        265
+      ],
+      "description": "中间的圆括号装饰，作为照片边框的一部分。"
+    },
+    {
+      "id": "overlay_sticker_5",
+      "kind": "overlay",
+      "bbox": [
+        725,
+        105,
+        750,
+        175
+      ],
+      "description": "右侧的圆括号装饰，作为照片边框的一部分。"
+    },
+    {
+      "id": "overlay_sticker_6",
+      "kind": "overlay",
+      "bbox": [
+        905,
+        105,
+        930,
+        175
+      ],
+      "description": "右侧的圆括号装饰，作为照片边框的一部分。"
+    },
+    {
+      "id": "overlay_sticker_7",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        505,
+        225,
+        655
+      ],
+      "description": "左下角的蝴蝶装饰，作为点缀元素。"
+    },
+    {
+      "id": "overlay_sticker_8",
+      "kind": "overlay",
+      "bbox": [
+        535,
+        655,
+        935,
+        855
+      ],
+      "description": "右下角的四叶草装饰，作为点缀元素。"
+    },
+    {
+      "id": "overlay_sticker_9",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        355,
+        635,
+        405
+      ],
+      "description": "中间的心形装饰，作为点缀元素。"
+    },
+    {
+      "id": "overlay_sticker_10",
+      "kind": "overlay",
+      "bbox": [
+        825,
+        545,
+        875,
+        605
+      ],
+      "description": "右侧的拼图装饰，作为点缀元素。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "text_title",
+    "text_month",
+    "overlay_sticker_1",
+    "overlay_sticker_2",
+    "overlay_sticker_3",
+    "overlay_sticker_4",
+    "overlay_sticker_5",
+    "overlay_sticker_6",
+    "overlay_sticker_7",
+    "overlay_sticker_8",
+    "overlay_sticker_9",
+    "overlay_sticker_10"
+  ]
+}

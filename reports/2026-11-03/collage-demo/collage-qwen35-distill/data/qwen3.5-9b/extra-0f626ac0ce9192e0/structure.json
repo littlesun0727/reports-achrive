@@ -1,0 +1,189 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_sea",
+    "description": "广阔的蓝色海洋摄影底图，包含波浪、白色浪花和远处的地平线，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_cliff",
+      "kind": "photo",
+      "bbox": [
+        100,
+        70,
+        530,
+        290
+      ],
+      "description": "左上人物站在悬崖边的照片，人物戴帽子和围巾，双臂张开，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_swim",
+      "kind": "photo",
+      "bbox": [
+        280,
+        350,
+        720,
+        600
+      ],
+      "description": "中间两人在清澈海水中游泳的照片，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        450,
+        650,
+        950,
+        900
+      ],
+      "description": "右下人物站在海滩边的照片，人物穿蓝色上衣和格子裙，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        40,
+        180,
+        140
+      ],
+      "description": "左上角的三个手绘星星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fireworks",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        150,
+        550,
+        250
+      ],
+      "description": "左上照片右侧的手绘烟花图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_line",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        290,
+        300,
+        400
+      ],
+      "description": "连接左上照片和中间照片的手绘星星和虚线图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_plaid",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        330,
+        550,
+        380
+      ],
+      "description": "中间照片上方的蓝白格子图案贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        550,
+        900,
+        620
+      ],
+      "description": "右侧的手绘小鱼图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_palm",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        620,
+        450,
+        720
+      ],
+      "description": "左下照片上方的手绘棕榈树图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        550,
+        100,
+        950,
+        280
+      ],
+      "text": "When we arrived at the southernmost tip of the African continent, Cape Town was right in front of us an unforgettable journey.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        100,
+        750,
+        400,
+        850
+      ],
+      "text": "Summer is a blue sea\na free breeze\na passionate and romantic season",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        750,
+        820,
+        900,
+        860
+      ],
+      "text": "Emergency Entrance\nNo Parking Between Yellow Lines",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        850,
+        920,
+        950,
+        960
+      ],
+      "text": "小红书号：yes854994023",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_cliff",
+    "photo_swim",
+    "photo_beach",
+    "overlay_stars",
+    "overlay_fireworks",
+    "overlay_star_line",
+    "overlay_plaid",
+    "overlay_fish",
+    "overlay_palm",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "灰白色砖墙与地面构成的连续摄影底图，纹理清晰，完整覆盖画布；上层照片、花卉装饰和网格图案遮挡局部，保留墙体与地面的连续性及被遮挡关系。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        77,
+        128,
+        755,
+        447
+      ],
+      "description": "上方人物半身照片，人物手托下巴，背景为绿植与白色栏杆，保留完整摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        296,
+        586,
+        901,
+        882
+      ],
+      "description": "下方人物半身照片，人物直视镜头，背景为室内座椅，保留完整摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_flowers",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        436,
+        1000,
+        656
+      ],
+      "description": "横向花束装饰，包含绿叶与白色雏菊，覆盖在砖墙与照片之间，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_grid_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        64,
+        166,
+        206
+      ],
+      "description": "左上角四叶草网格图案，半透明，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_grid_top_right",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        336,
+        876,
+        486
+      ],
+      "description": "右上角四叶草网格图案，半透明，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_grid_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        159,
+        741,
+        374,
+        919
+      ],
+      "description": "左下角四叶草网格图案，半透明，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_grid_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        826,
+        1000,
+        936
+      ],
+      "description": "右下角四叶草网格图案，半透明，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_flowers",
+    "overlay_grid_top_left",
+    "overlay_grid_top_right",
+    "overlay_grid_bottom_left",
+    "overlay_grid_bottom_right"
+  ]
+}

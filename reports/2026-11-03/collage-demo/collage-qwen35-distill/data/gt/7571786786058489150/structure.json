@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的深色湿润路面摄影铺满画布，散布细密水珠与浅色颗粒，左上有斜向路缘，顶部、左下及中部可见橙褐色落叶。四边与照片间隙中的路面连续，局部被四张照片及白色装饰遮挡；路面、路缘和落叶整体随客户照片替换，无人物。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        153,
+        84,
+        501,
+        432
+      ],
+      "description": "左上竖幅街景照片，无明确人物主体；顶部可见近处透明雨伞及模糊灯光，下方为树干、亮着的路灯、公交车和道路上的汽车。保留全部摄影环境，矩形边缘清晰，右下部分被白色手绘线条遮挡。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        557,
+        234,
+        892,
+        486
+      ],
+      "description": "右上近方形雨夜照片，无明确人物主体；顶部为透明雨伞边缘，中央偏右的路灯照亮雨丝，左侧绿叶垂落，下方可见树木和楼房。保留摄影环境，矩形边界清晰，顶部右角及左下局部被白色装饰覆盖。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        86,
+        483,
+        420,
+        745
+      ],
+      "description": "左下近方形室内窗景照片，无人物；浅色实体窗框围住黑暗雨夜，左侧大窗上可见雨滴，右侧窄窗与下方窗台完整入镜，窗台放有透明杯状物。窗框属于被拍摄场景，与环境一起替换；无另加装饰框，局部被白色涂鸦和标题覆盖。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        500,
+        536,
+        869,
+        906
+      ],
+      "description": "右下竖幅雨天街景照片，无明确人物主体；透过带水珠的透明雨伞看向滨水道路，伞面贴着两片红褐色枫叶，上方有暖黄色灯光，下方为白色汽车、湿路面和远处车灯。完整保留伞面及摄影环境，矩形边缘清晰，左上与右下局部被白色装饰遮挡。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        56,
+        193,
+        110
+      ],
+      "description": "左上独立白色五角星涂鸦，边缘粗糙，覆盖在路面与左上照片边角前方。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        867,
+        205,
+        952,
+        271
+      ],
+      "description": "右上独立白色五角星涂鸦，保留颗粒状笔触和不规则尖角，叠在右上照片右上边缘。"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        310,
+        660,
+        619
+      ],
+      "description": "中央白色粉笔式连续旋绕涂鸦，包含大幅弧线、内侧回旋、三个线描星形及附近小卷曲笔迹。整体从左上街景跨过右上照片左侧，再向下覆盖窗景右上和右下照片左上，保留细碎颗粒与断续笔触。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        854,
+        934,
+        934
+      ],
+      "description": "右下独立白色五角星涂鸦，尖角长短不一且边缘带颗粒，覆盖右下街景照片底部右角并延伸到路面底图。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        660,
+        364,
+        763
+      ],
+      "description": "白色手写艺术标题“Happiness”，首字母带高挑弧形及大幅回环，底部有延伸横线。特殊笔画、连写字形和下划线整体保留，叠在窗景底部及路面上。"
+    },
+    {
+      "id": "overlay_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        767,
+        599,
+        989
+      ],
+      "description": "左下六行白色英文手写寄语，首行为“It may come and go”，后续可辨“Like distant kin”“Be sure to”“Treasure the time spent”，末两行以“Because”及“the next time”开头。字母连写、基线起伏、笔画粗细及各行长度不规则，作为完整手写装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_spiral",
+    "overlay_star_3",
+    "overlay_title",
+    "overlay_handwriting"
+  ]
+}

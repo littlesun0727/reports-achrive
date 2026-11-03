@@ -1,0 +1,87 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    962,
+    1712
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        962,
+        1712
+      ],
+      "description": "山水风景摄影底图，包含连绵的喀斯特山峰、水面倒影、岸边植被及远处的船只，画面整体呈现蓝调色调；前景人物与装饰元素叠加于其上，保留完整摄影环境。",
+      "background_type": "photo",
+      "label": "山水风景摄影底图，包含连绵的喀斯特山峰、水面倒影、岸边植被及",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_foreground",
+      "kind": "photo",
+      "bbox": [
+        0,
+        479,
+        962,
+        1233
+      ],
+      "description": "前景人物半身照片，女性身穿白色上衣，佩戴蓝色流苏耳环和手链，姿态优雅，手部动作自然；照片边缘与背景融合，呈现半透明或渐变效果，主体清晰，背景虚化。",
+      "label": "前景人物半身照片，女性身穿白色上衣，佩戴蓝色流苏耳环和手链，",
+      "method": "local"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        818,
+        1575,
+        962,
+        1678
+      ],
+      "description": "小红书号：49321651677",
+      "label": "小红书号：49321651677",
+      "method": "local",
+      "text": "小红书号：49321651677",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_logo",
+      "kind": "text",
+      "bbox": [
+        847,
+        1592,
+        933,
+        1644
+      ],
+      "description": "小红书",
+      "label": "小红书",
+      "method": "local",
+      "text": "小红书",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_foreground",
+    "text_logo",
+    "text_watermark"
+  ]
+}

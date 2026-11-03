@@ -1,0 +1,166 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的海滨摄影底图，包含蓝天、白云、海面、沙滩、岩石、木质栈道及远处建筑，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续的海滨摄影底图，包含蓝天、白云、海面、沙滩、岩石、木质栈",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        189,
+        144,
+        572,
+        533
+      ],
+      "description": "左上角海景照片，展示海面、停泊的小船和远处的山峦，前景有绿色树枝遮挡，保留照片内的摄影环境。",
+      "label": "左上角海景照片，展示海面、停泊的小船和远处的山峦，前景有绿色",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        508,
+        317,
+        950,
+        907
+      ],
+      "description": "右侧人物照片，展示一位穿白色连衣裙的女士在海边挥手，背景为海浪和沙滩，保留照片内的摄影环境。",
+      "label": "右侧人物照片，展示一位穿白色连衣裙的女士在海边挥手，背景为海",
+      "method": "local"
+    },
+    {
+      "id": "photo_bike",
+      "kind": "photo",
+      "bbox": [
+        86,
+        864,
+        583,
+        1195
+      ],
+      "description": "左下角骑行照片，展示一人骑自行车在海边栈道上，背景为大海和松树，保留照片内的摄影环境。",
+      "label": "左下角骑行照片，展示一人骑自行车在海边栈道上，背景为大海和松",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        115,
+        346,
+        187
+      ],
+      "description": "左上角手写文字贴纸，内容为'You're a Sunday morning kind of beauty'，作为独立固定装饰保留。",
+      "label": "左上角手写文字贴纸，内容为'You're a Sunday ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        259,
+        778,
+        346
+      ],
+      "description": "右上角银色回形针装饰，作为独立固定装饰保留。",
+      "label": "右上角银色回形针装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        119,
+        662,
+        562,
+        691
+      ],
+      "description": "Life isn't perfect but your outfit can be.",
+      "label": "Life isn't perfect but your ou",
+      "method": "local",
+      "text": "Life isn't perfect but your outfit can be.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        680,
+        389,
+        918,
+        418
+      ],
+      "description": "An unexpected surprise.",
+      "label": "An unexpected surprise.",
+      "method": "local",
+      "text": "An unexpected surprise.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        508,
+        1066,
+        842,
+        1138
+      ],
+      "description": "Travel is the spice of life, but remember, occasionally life itself needs to be the spice sprinkled on our journey.",
+      "label": "Travel is the spice of life, b",
+      "method": "local",
+      "text": "Travel is the spice of life, but remember, occasionally life itself needs to be the spice sprinkled on our journey.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_sea",
+    "photo_girl",
+    "photo_bike",
+    "overlay_paper",
+    "overlay_clip",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a18c64da34fca302",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7909,
+    "completion_tokens": 962,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一条绿树成荫的街道，阳光透过树叶洒下斑驳光影，街道上有行人、三轮车和停放的电动车，右侧有户外桌椅和遮阳伞，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        102,\n        193,\n        395,\n        486\n      ],\n      \"description\": \"左上角竖向街景照片，显示老式建筑、树木、路灯和停放的自行车，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        611,\n        65,\n        891,\n        221\n      ],\n      \"description\": \"右上角横向街景照片，显示树木、行人和远处的建筑，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        505,\n        275,\n        795,\n        441\n      ],\n      \"description\": \"中间横向街景照片，显示树木、行人和建筑，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_strip\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        501,\n        468,\n        932,\n        528\n      ],\n      \"description\": \"一条带有浅色圆点图案的灰色横条，作为独立固定装饰保留，位于中间照片下方。\"\n    },\n    {\n      \"id\": \"stamp_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        12,\n        12,\n        155,\n        125\n      ],\n      \"description\": \"左上角邮票样式的装饰，包含植物图案和文字，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"stamp_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        828,\n        540,\n        988,\n        665\n      ],\n      \"description\": \"右下角邮票样式的装饰，包含树木图案和文字，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"clip_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        62,\n        162,\n        145,\n        245\n      ],\n      \"description\": \"左上角回形针样式的装饰，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"clip_top_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        590,\n        40,\n        673,\n        105\n      ],\n      \"description\": \"右上角回形针样式的装饰，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"clip_mid_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        758,\n        260,\n        825,\n        325\n      ],\n      \"description\": \"中间右侧回形针样式的装饰，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_top_left\",\n    \"photo_top_right\",\n    \"photo_mid\",\n    \"overlay_strip\",\n    \"stamp_top_left\",\n    \"stamp_bottom_right\",\n    \"clip_top_left\",\n    \"clip_top_right\",\n    \"clip_mid_right\"\n  ]\n}",
+  "tool_calls": false
+}

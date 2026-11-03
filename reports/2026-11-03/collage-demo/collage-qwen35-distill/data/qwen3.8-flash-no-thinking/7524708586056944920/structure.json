@@ -1,0 +1,164 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的公园草地摄影底图，包含树木、草坪和斑驳的光影。画面整体延伸至画布四边，作为所有独立照片和装饰元素的背景层。"
+  },
+  "objects": [
+    {
+      "id": "frame_goldfish",
+      "kind": "frame",
+      "bbox": [
+        315,
+        128,
+        716,
+        529
+      ],
+      "description": "位于上方中央的竖向矩形照片框，展示一个装有金鱼的透明塑料袋。",
+      "photo_id": [
+        "photo_goldfish"
+      ]
+    },
+    {
+      "id": "photo_goldfish",
+      "kind": "photo",
+      "bbox": [
+        315,
+        128,
+        716,
+        529
+      ],
+      "description": "一张特写照片，主体是一个悬挂着的透明塑料袋，袋中装满了水和一条橙色的金鱼。背景是模糊的绿色树叶。"
+    },
+    {
+      "id": "tape_top_left",
+      "kind": "overlay",
+      "bbox": [
+        247,
+        80,
+        395,
+        178
+      ],
+      "description": "一段倾斜粘贴在左上角的金色胶带，部分覆盖在金鱼照片框的边缘。"
+    },
+    {
+      "id": "frame_cat",
+      "kind": "frame",
+      "bbox": [
+        129,
+        471,
+        529,
+        775
+      ],
+      "description": "位于左侧中部的横向矩形照片框，展示一只猫走在小路上。",
+      "photo_id": [
+        "photo_cat"
+      ]
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        129,
+        471,
+        529,
+        775
+      ],
+      "description": "一张俯拍视角的照片，显示一只橘白相间的猫正沿着铺砌的小路行走，旁边是绿色的草地。"
+    },
+    {
+      "id": "tape_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        737,
+        195,
+        800
+      ],
+      "description": "一段倾斜粘贴在左下角的金色胶带，部分覆盖在猫照片框的边缘。"
+    },
+    {
+      "id": "text_collect",
+      "kind": "text",
+      "bbox": [
+        135,
+        815,
+        541,
+        888
+      ],
+      "text": "Collect today's lush greenery\nand gentle breeze",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "frame_people",
+      "kind": "frame",
+      "bbox": [
+        571,
+        561,
+        908,
+        900
+      ],
+      "description": "位于右侧下方的竖向矩形照片框，展示树林中的场景。",
+      "photo_id": [
+        "photo_people"
+      ]
+    },
+    {
+      "id": "photo_people",
+      "kind": "photo",
+      "bbox": [
+        571,
+        561,
+        908,
+        900
+      ],
+      "description": "一张远景照片，透过几棵深色树干的剪影，可以看到远处草地上有几个人在活动，阳光洒在草地上。"
+    },
+    {
+      "id": "tape_right",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        543,
+        783,
+        573
+      ],
+      "description": "一段水平粘贴在右上角的金色胶带，部分覆盖在人物照片框的上边缘。"
+    },
+    {
+      "id": "text_meet",
+      "kind": "text",
+      "bbox": [
+        741,
+        477,
+        935,
+        525
+      ],
+      "text": "Meet summer.",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_goldfish",
+    "frame_goldfish",
+    "tape_top_left",
+    "photo_cat",
+    "frame_cat",
+    "tape_bottom_left",
+    "text_collect",
+    "photo_people",
+    "frame_people",
+    "tape_right",
+    "text_meet"
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_cherry",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "description": "仰拍视角的樱花树枝，花朵繁密，背景为天空，占据左上角区域。",
+      "label": "仰拍视角的樱花树枝，花朵繁密，背景为天空，占据左上角区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_stairs",
+      "kind": "photo",
+      "bbox": [
+        360,
+        0,
+        719,
+        480
+      ],
+      "description": "白色螺旋楼梯的俯视视角，楼梯结构清晰，占据中上区域。",
+      "label": "白色螺旋楼梯的俯视视角，楼梯结构清晰，占据中上区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_miu_miu",
+      "kind": "photo",
+      "bbox": [
+        719,
+        0,
+        1080,
+        480
+      ],
+      "description": "粉色织物纹理背景上的白色标签，标签上有黑色文字，占据右上角区域。",
+      "label": "粉色织物纹理背景上的白色标签，标签上有黑色文字，占据右上角区",
+      "method": "local"
+    },
+    {
+      "id": "photo_donut",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        360,
+        959
+      ],
+      "description": "粉色糖霜甜甜圈置于白色圆盘上，圆盘放在两本书上，占据左侧中部区域。",
+      "label": "粉色糖霜甜甜圈置于白色圆盘上，圆盘放在两本书上，占据左侧中部",
+      "method": "local"
+    },
+    {
+      "id": "photo_strawberry_text",
+      "kind": "photo",
+      "bbox": [
+        360,
+        480,
+        719,
+        959
+      ],
+      "description": "粉色草莓特写，表面有白色文字“spring in a palette”，占据中心区域。",
+      "label": "粉色草莓特写，表面有白色文字“spring in a pal",
+      "method": "local"
+    },
+    {
+      "id": "photo_plate_strawberry",
+      "kind": "photo",
+      "bbox": [
+        719,
+        480,
+        1080,
+        959
+      ],
+      "description": "白色椭圆盘子上放着一颗草莓，占据右侧中部区域。",
+      "label": "白色椭圆盘子上放着一颗草莓，占据右侧中部区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_strawberry_pink",
+      "kind": "photo",
+      "bbox": [
+        0,
+        959,
+        360,
+        1440
+      ],
+      "description": "粉色草莓置于粉色纹理背景上，占据左下角区域。",
+      "label": "粉色草莓置于粉色纹理背景上，占据左下角区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_glasses",
+      "kind": "photo",
+      "bbox": [
+        360,
+        959,
+        719,
+        1440
+      ],
+      "description": "两个高脚杯置于银色托盘上，背景为白色墙面，占据中下区域。",
+      "label": "两个高脚杯置于银色托盘上，背景为白色墙面，占据中下区域。",
+      "method": "local"
+    },
+    {
+      "id": "photo_strawberry_pink_plate",
+      "kind": "photo",
+      "bbox": [
+        719,
+        959,
+        1080,
+        1440
+      ],
+      "description": "粉色花瓣形蛋糕架上放着一颗草莓，占据右下角区域。",
+      "label": "粉色花瓣形蛋糕架上放着一颗草莓，占据右下角区域。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dot_1",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        454,
+        395,
+        501
+      ],
+      "description": "粉色圆形装饰点，位于樱花照片与楼梯照片交界处。",
+      "label": "粉色圆形装饰点，位于樱花照片与楼梯照片交界处。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_2",
+      "kind": "overlay",
+      "bbox": [
+        719,
+        454,
+        755,
+        501
+      ],
+      "description": "粉色圆形装饰点，位于楼梯照片与草莓文字照片交界处。",
+      "label": "粉色圆形装饰点，位于楼梯照片与草莓文字照片交界处。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_3",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        959,
+        395,
+        1007
+      ],
+      "description": "粉色圆形装饰点，位于甜甜圈照片与草莓文字照片交界处。",
+      "label": "粉色圆形装饰点，位于甜甜圈照片与草莓文字照片交界处。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_4",
+      "kind": "overlay",
+      "bbox": [
+        719,
+        959,
+        755,
+        1007
+      ],
+      "description": "粉色圆形装饰点，位于草莓文字照片与草莓盘子照片交界处。",
+      "label": "粉色圆形装饰点，位于草莓文字照片与草莓盘子照片交界处。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_cherry",
+    "photo_stairs",
+    "photo_miu_miu",
+    "photo_donut",
+    "photo_strawberry_text",
+    "photo_plate_strawberry",
+    "photo_strawberry_pink",
+    "photo_glasses",
+    "photo_strawberry_pink_plate",
+    "overlay_dot_1",
+    "overlay_dot_2",
+    "overlay_dot_3",
+    "overlay_dot_4"
+  ]
+}

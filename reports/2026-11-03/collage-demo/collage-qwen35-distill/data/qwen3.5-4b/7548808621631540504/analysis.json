@@ -1,0 +1,545 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "木质墙面与置物架构成的室内环境作为连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "木质墙面与置物架构成的室内环境作为连续摄影底图，完整显示区域",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        110,
+        209,
+        428,
+        634
+      ],
+      "description": "左上角照片，展示桌上摆放的毛绒玩偶、咖啡杯、蛋糕和书本，保留室内环境。",
+      "label": "左上角照片，展示桌上摆放的毛绒玩偶、咖啡杯、蛋糕和书本，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        464,
+        304,
+        860,
+        586
+      ],
+      "description": "右上角照片，展示盘子上摆放的蛋糕和毛绒玩偶，保留室内环境。",
+      "label": "右上角照片，展示盘子上摆放的蛋糕和毛绒玩偶，保留室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        76,
+        692,
+        479,
+        922
+      ],
+      "description": "左下角照片，展示木质托盘上摆放的蘑菇模型和装饰物，保留室内环境。",
+      "label": "左下角照片，展示木质托盘上摆放的蘑菇模型和装饰物，保留室内环",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        506,
+        695,
+        811,
+        1096
+      ],
+      "description": "右下角照片，展示手中拿着的毛绒玩偶，保留室内环境。",
+      "label": "右下角照片，展示手中拿着的毛绒玩偶，保留室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        473,
+        110,
+        517
+      ],
+      "description": "白色五角星贴纸，位于左上照片左侧。",
+      "label": "白色五角星贴纸，位于左上照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        388,
+        596,
+        410,
+        626
+      ],
+      "description": "白色五角星贴纸，位于左上照片右侧。",
+      "label": "白色五角星贴纸，位于左上照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        435,
+        268,
+        459,
+        295
+      ],
+      "description": "白色五角星贴纸，位于右上照片左侧。",
+      "label": "白色五角星贴纸，位于右上照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        581,
+        252,
+        607,
+        281
+      ],
+      "description": "白色五角星贴纸，位于右上照片右侧。",
+      "label": "白色五角星贴纸，位于右上照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        816,
+        586,
+        848,
+        618
+      ],
+      "description": "白色五角星贴纸，位于右上照片右侧。",
+      "label": "白色五角星贴纸，位于右上照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        1073,
+        515,
+        1114
+      ],
+      "description": "白色五角星贴纸，位于右下照片左侧。",
+      "label": "白色五角星贴纸，位于右下照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        895,
+        140,
+        926
+      ],
+      "description": "白色五角星贴纸，位于左下照片左侧。",
+      "label": "白色五角星贴纸，位于左下照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        926,
+        425,
+        1114
+      ],
+      "description": "云朵形状贴纸，包含文字 'you drew stars around my scars'。",
+      "label": "云朵形状贴纸，包含文字 'you drew stars ar",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        634,
+        811,
+        704
+      ],
+      "description": "矩形贴纸，包含文字 '这 1 就最好'。",
+      "label": "矩形贴纸，包含文字 '这 1 就最好'。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_3",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        634,
+        320,
+        692
+      ],
+      "description": "云朵形状贴纸，包含文字 'のっいい？'。",
+      "label": "云朵形状贴纸，包含文字 'のっいい？'。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_8",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        124,
+        201,
+        163
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_9",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        124,
+        355,
+        163
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_10",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        124,
+        416,
+        163
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_11",
+      "kind": "overlay",
+      "bbox": [
+        201,
+        163,
+        236,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_12",
+      "kind": "overlay",
+      "bbox": [
+        236,
+        163,
+        270,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_13",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        163,
+        304,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_14",
+      "kind": "overlay",
+      "bbox": [
+        304,
+        163,
+        338,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_15",
+      "kind": "overlay",
+      "bbox": [
+        338,
+        163,
+        373,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_16",
+      "kind": "overlay",
+      "bbox": [
+        373,
+        163,
+        407,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_17",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        163,
+        441,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_18",
+      "kind": "overlay",
+      "bbox": [
+        441,
+        163,
+        475,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_19",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        163,
+        509,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_20",
+      "kind": "overlay",
+      "bbox": [
+        509,
+        163,
+        544,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_21",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        163,
+        578,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_22",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        163,
+        612,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_23",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        163,
+        646,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_24",
+      "kind": "overlay",
+      "bbox": [
+        646,
+        163,
+        680,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_25",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        163,
+        715,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_26",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        163,
+        749,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_27",
+      "kind": "overlay",
+      "bbox": [
+        749,
+        163,
+        783,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_28",
+      "kind": "overlay",
+      "bbox": [
+        783,
+        163,
+        817,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_29",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        163,
+        851,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_30",
+      "kind": "overlay",
+      "bbox": [
+        851,
+        163,
+        886,
+        203
+      ],
+      "description": "白色五角星贴纸，位于左上照片上方。",
+      "label": "白色五角星贴纸，位于左上照片上方。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_star_7",
+    "overlay_text_1",
+    "overlay_text_2",
+    "overlay_text_3",
+    "overlay_star_8",
+    "overlay_star_9",
+    "overlay_star_10",
+    "overlay_star_11",
+    "overlay_star_12",
+    "overlay_star_13",
+    "overlay_star_14",
+    "overlay_star_15",
+    "overlay_star_16",
+    "overlay_star_17",
+    "overlay_star_18",
+    "overlay_star_19",
+    "overlay_star_20",
+    "overlay_star_21",
+    "overlay_star_22",
+    "overlay_star_23",
+    "overlay_star_24",
+    "overlay_star_25",
+    "overlay_star_26",
+    "overlay_star_27",
+    "overlay_star_28",
+    "overlay_star_29",
+    "overlay_star_30"
+  ]
+}

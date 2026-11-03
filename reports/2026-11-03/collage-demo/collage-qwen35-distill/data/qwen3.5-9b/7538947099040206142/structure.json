@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pattern",
+    "description": "全画布固定底图，呈现带有水珠的透明玻璃质感，背景为浅灰蓝色调，并叠加有深灰色的几何线条（类似窗框或百叶窗的阴影）。此底图作为固定设计单元保留，不替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_vintage",
+      "kind": "photo",
+      "bbox": [
+        106,
+        146,
+        522,
+        456
+      ],
+      "description": "左上角照片，展示一家名为 'HANDSOME VINTAGE' 的店铺外观，墙面有涂鸦，门口挂着招牌，保留摄影环境。"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        522,
+        356,
+        826,
+        590
+      ],
+      "description": "右侧照片，展示一个黑色圆形蛋糕，表面有彩色糖针和韩文装饰，置于白色包装盒内，保留摄影环境。"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        262,
+        522,
+        572,
+        746
+      ],
+      "description": "中下方照片，展示一丛盛开的白色花朵，背景为深色，保留摄影环境。"
+    },
+    {
+      "id": "photo_books",
+      "kind": "photo",
+      "bbox": [
+        46,
+        716,
+        356,
+        950
+      ],
+      "description": "左下角照片，展示几本蓝色封面的书籍平放在深色圆形物体上，旁边有绿色织物，保留摄影环境。"
+    },
+    {
+      "id": "photo_bag",
+      "kind": "photo",
+      "bbox": [
+        446,
+        716,
+        572,
+        906
+      ],
+      "description": "中下方照片，展示一个印有 'MUJI' 标志的米色购物袋，保留摄影环境。"
+    },
+    {
+      "id": "photo_road",
+      "kind": "photo",
+      "bbox": [
+        572,
+        666,
+        772,
+        906
+      ],
+      "description": "右下角照片，展示带有白色标线的蓝色沥青路面，保留摄影环境。"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        706,
+        552,
+        776
+      ],
+      "description": "位于购物袋上方的白色线条小狗头像贴纸，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_paw1",
+      "kind": "overlay",
+      "bbox": [
+        106,
+        406,
+        166,
+        456
+      ],
+      "description": "左侧照片左下角的白色爪印贴纸。"
+    },
+    {
+      "id": "overlay_paw2",
+      "kind": "overlay",
+      "bbox": [
+        172,
+        466,
+        232,
+        516
+      ],
+      "description": "左侧照片下方的白色爪印贴纸。"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        766,
+        606,
+        986,
+        966
+      ],
+      "text": "I love you\nyou know that.\n= And I\nwill love\nyou forever",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_vintage",
+    "photo_cake",
+    "photo_flowers",
+    "photo_books",
+    "photo_bag",
+    "photo_road",
+    "overlay_dog",
+    "overlay_paw1",
+    "overlay_paw2",
+    "text_love"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        66,
+        66,
+        333,
+        333
+      ],
+      "description": "左上角日式关东煮照片，包含碗、食材、饮料和餐具，保留完整摄影画面。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        66,
+        366,
+        333,
+        633
+      ],
+      "description": "左中韩式拌面照片，包含面条、肉、配菜和筷子，保留完整摄影画面。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        366,
+        133,
+        633,
+        633
+      ],
+      "description": "右上餐食照片，包含米饭、肉、虾、饮料和背景植物，保留完整摄影画面。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        66,
+        666,
+        233,
+        833
+      ],
+      "description": "左下甜点照片，包含蛋糕、饮料和餐具，保留完整摄影画面。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        266,
+        666,
+        433,
+        833
+      ],
+      "description": "中下甜点照片，包含切开的蛋糕和餐具，保留完整摄影画面。"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        466,
+        666,
+        633,
+        833
+      ],
+      "description": "右下吐司照片，包含烤吐司和餐具，保留完整摄影画面。"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        666,
+        666,
+        833,
+        833
+      ],
+      "description": "最右下甜点照片，包含香蕉卷和餐具，保留完整摄影画面。"
+    },
+    {
+      "id": "overlay_bread",
+      "kind": "overlay",
+      "bbox": [
+        433,
+        13,
+        833,
+        100
+      ],
+      "description": "顶部手绘面包图案，作为独立装饰保留。"
+    },
+    {
+      "id": "text_hi",
+      "kind": "text",
+      "bbox": [
+        53,
+        13,
+        133,
+        66
+      ],
+      "text": "hi",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_baby",
+      "kind": "text",
+      "bbox": [
+        466,
+        633,
+        833,
+        666
+      ],
+      "text": "BABY~",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_korean",
+      "kind": "text",
+      "bbox": [
+        33,
+        866,
+        533,
+        966
+      ],
+      "text": "할 수 있다!",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        866,
+        933,
+        966
+      ],
+      "description": "底部两个手绘星星图案，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "overlay_bread",
+    "text_hi",
+    "text_baby",
+    "text_korean",
+    "overlay_stars"
+  ]
+}

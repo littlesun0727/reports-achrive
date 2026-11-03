@@ -1,0 +1,173 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1132
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1132
+      ],
+      "description": "连续摄影底图，展示咖啡馆外景，包含绿植、木质栏杆、建筑立面及窗户，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续摄影底图，展示咖啡馆外景，包含绿植、木质栏杆、建筑立面及",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        60,
+        62,
+        510,
+        651
+      ],
+      "description": "左上人物照片，年轻女性身穿白色无袖上衣，黑色长发编辫，双手交叠倚靠木质栏杆，背景为室内咖啡馆环境，显示区域为矩形。",
+      "label": "左上人物照片，年轻女性身穿白色无袖上衣，黑色长发编辫，双手交",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        285,
+        674,
+        843,
+        1092
+      ],
+      "description": "右下静物照片，展示一杯热饮、一块蛋糕、一本打开的书和一把叉子，置于木质桌面上，背景为绿植，显示区域为矩形。",
+      "label": "右下静物照片，展示一杯热饮、一块蛋糕、一本打开的书和一把叉子",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        51,
+        51,
+        519,
+        662
+      ],
+      "description": "围绕左上人物照片的白色手绘风格粗边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_upper"
+      ],
+      "label": "围绕左上人物照片的白色手绘风格粗边框，覆盖照片边缘并位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        276,
+        662,
+        852,
+        1104
+      ],
+      "description": "围绕右下静物照片的白色手绘风格粗边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_lower"
+      ],
+      "label": "围绕右下静物照片的白色手绘风格粗边框，覆盖照片边缘并位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        741,
+        240,
+        1013
+      ],
+      "description": "左下角白色手绘风格装饰，包含“NICE DAY”字样和一只猫头图案，作为独立固定装饰保留。",
+      "label": "左下角白色手绘风格装饰，包含“NICE DAY”字样和一只猫",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        447,
+        780,
+        651
+      ],
+      "description": "右侧中部白色手绘风格小熊图案，作为独立固定装饰保留。",
+      "label": "右侧中部白色手绘风格小熊图案，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        368,
+        888,
+        1047
+      ],
+      "description": "散布在画面中的多个白色手绘风格星星装饰，作为独立固定装饰保留。",
+      "label": "散布在画面中的多个白色手绘风格星星装饰，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        334,
+        726,
+        402
+      ],
+      "description": "右侧中部白色手绘风格螺旋装饰，作为独立固定装饰保留。",
+      "label": "右侧中部白色手绘风格螺旋装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        96,
+        672,
+        142
+      ],
+      "description": "右上角白色手绘风格点状装饰，作为独立固定装饰保留。",
+      "label": "右上角白色手绘风格点状装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plant",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        900,
+        888,
+        1092
+      ],
+      "description": "右下角白色手绘风格植物装饰，作为独立固定装饰保留。",
+      "label": "右下角白色手绘风格植物装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper",
+    "photo_lower",
+    "frame_upper",
+    "frame_lower",
+    "overlay_cat",
+    "overlay_bear",
+    "overlay_stars",
+    "overlay_swirl",
+    "overlay_dots",
+    "overlay_plant"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "柔和模糊的室内摄影底图，包含暖色调的灯光、木质家具和绿植，营造温馨氛围；画布边缘可见模糊的书架、窗户和植物，作为连续摄影环境承载全幅，上层照片和装饰遮挡局部。",
+      "background_type": "photo",
+      "label": "柔和模糊的室内摄影底图，包含暖色调的灯光、木质家具和绿植，营",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_ice_cream",
+      "kind": "photo",
+      "bbox": [
+        75,
+        223,
+        402,
+        665
+      ],
+      "description": "桌上摆满可爱玩偶、咖啡杯和复古台灯的照片，保留桌布、餐具和室内环境，显示区域为矩形。",
+      "label": "桌上摆满可爱玩偶、咖啡杯和复古台灯的照片，保留桌布、餐具和室",
+      "method": "local"
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        443,
+        79,
+        770,
+        281
+      ],
+      "description": "打开的书页特写，文字清晰可见，保留纸张纹理和印刷内容，显示区域为矩形。",
+      "label": "打开的书页特写，文字清晰可见，保留纸张纹理和印刷内容，显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_shelf",
+      "kind": "photo",
+      "bbox": [
+        483,
+        348,
+        811,
+        626
+      ],
+      "description": "书架上摆满书籍的照片，保留木质书架和书籍封面细节，显示区域为矩形。",
+      "label": "书架上摆满书籍的照片，保留木质书架和书籍封面细节，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_window",
+      "kind": "photo",
+      "bbox": [
+        177,
+        792,
+        470,
+        1081
+      ],
+      "description": "窗边角落的照片，包含窗台、绿植、台灯和墙面装饰，保留室内环境，显示区域为矩形。",
+      "label": "窗边角落的照片，包含窗台、绿植、台灯和墙面装饰，保留室内环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_plate",
+      "kind": "photo",
+      "bbox": [
+        506,
+        692,
+        807,
+        974
+      ],
+      "description": "盘子上摆放四个戴眼镜的可爱玩偶的照片，保留盘子花纹和桌面环境，显示区域为矩形。",
+      "label": "盘子上摆放四个戴眼镜的可爱玩偶的照片，保留盘子花纹和桌面环境",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        50,
+        700,
+        443,
+        734
+      ],
+      "description": "Pistachio Ice Cream Latte",
+      "label": "Pistachio Ice Cream Latte",
+      "method": "local",
+      "text": "Pistachio Ice Cream Latte",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        506,
+        300,
+        807,
+        335
+      ],
+      "description": "About the Universe",
+      "label": "About the Universe",
+      "method": "local",
+      "text": "About the Universe",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        32,
+        834,
+        1025
+      ],
+      "description": "多个白色手绘星星和装饰线条，散布在照片之间和边缘，作为独立固定装饰保留。",
+      "label": "多个白色手绘星星和装饰线条，散布在照片之间和边缘，作为独立固",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_ice_cream",
+    "photo_book",
+    "photo_shelf",
+    "photo_window",
+    "photo_plate",
+    "text_1",
+    "text_2",
+    "overlay_stars"
+  ]
+}

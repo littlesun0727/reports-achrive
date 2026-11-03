@@ -1,0 +1,132 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "带有星星和圆点装饰的浅色纹理纸底，作为全画布固定底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "带有星星和圆点装饰的浅色纹理纸底，作为全画布固定底图保留原样",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        353,
+        511,
+        765,
+        804
+      ],
+      "description": "主照片显示戴眼镜、穿白色羽绒服的人物，保留照片内的摄影环境。",
+      "label": "主照片显示戴眼镜、穿白色羽绒服的人物，保留照片内的摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_stamp",
+      "kind": "photo",
+      "bbox": [
+        74,
+        758,
+        272,
+        974
+      ],
+      "description": "邮票形状的照片，显示戴眼镜、穿白色羽绒服的人物，保留照片内的摄影环境。",
+      "label": "邮票形状的照片，显示戴眼镜、穿白色羽绒服的人物，保留照片内的",
+      "method": "local"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        137,
+        350,
+        785,
+        866
+      ],
+      "description": "围绕主照片的窗口，包含菜单栏、文件列表和按钮等固定设计元素。",
+      "photo_id": [
+        "photo_main"
+      ],
+      "label": "围绕主照片的窗口，包含菜单栏、文件列表和按钮等固定设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        560,
+        310,
+        871,
+        338
+      ],
+      "description": "shine cute beautiful ~",
+      "label": "shine cute beautiful ~",
+      "method": "local",
+      "text": "shine cute beautiful ~",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        290,
+        890,
+        452,
+        914
+      ],
+      "description": "happiness! ♥",
+      "label": "happiness! ♥",
+      "method": "local",
+      "text": "happiness! ♥",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "audio_icon",
+      "kind": "overlay",
+      "bbox": [
+        677,
+        878,
+        866,
+        938
+      ],
+      "description": "音频波形图标，作为独立固定装饰保留。",
+      "label": "音频波形图标，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_main",
+    "photo_stamp",
+    "frame_main",
+    "text_top",
+    "text_bottom",
+    "audio_icon"
+  ]
+}

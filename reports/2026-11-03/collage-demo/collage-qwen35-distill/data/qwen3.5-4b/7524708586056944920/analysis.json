@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "公园草地与树木构成的连续摄影底图，阳光透过树叶形成斑驳光影，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "公园草地与树木构成的连续摄影底图，阳光透过树叶形成斑驳光影，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_goldfish",
+      "kind": "photo",
+      "bbox": [
+        312,
+        154,
+        644,
+        636
+      ],
+      "description": "装在透明塑料袋中的金鱼照片，保留水波纹理和背景树木，显示区域为竖向矩形。",
+      "label": "装在透明塑料袋中的金鱼照片，保留水波纹理和背景树木，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        113,
+        565,
+        474,
+        928
+      ],
+      "description": "橘猫在石板路上行走的照片，保留路面光影和草地，显示区域为横向矩形。",
+      "label": "橘猫在石板路上行走的照片，保留路面光影和草地，显示区域为横向",
+      "method": "local"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        513,
+        670,
+        817,
+        1074
+      ],
+      "description": "树林中人物剪影的照片，保留树干和草地光影，显示区域为竖向矩形。",
+      "label": "树林中人物剪影的照片，保留树干和草地光影，显示区域为竖向矩形",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        221,
+        94,
+        353,
+        214
+      ],
+      "description": "黄色胶带装饰，位于金鱼照片左上角，作为独立固定单元保留。",
+      "label": "黄色胶带装饰，位于金鱼照片左上角，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        876,
+        173,
+        955
+      ],
+      "description": "黄色胶带装饰，位于猫咪照片左下角，作为独立固定单元保留。",
+      "label": "黄色胶带装饰，位于猫咪照片左下角，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_3",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        650,
+        706,
+        691
+      ],
+      "description": "黄色胶带装饰，位于树林照片上方，作为独立固定单元保留。",
+      "label": "黄色胶带装饰，位于树林照片上方，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        666,
+        576,
+        841,
+        624
+      ],
+      "description": "Meet summer.",
+      "label": "Meet summer.",
+      "method": "local",
+      "text": "Meet summer.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        122,
+        982,
+        484,
+        1062
+      ],
+      "description": "Collect today's lush greenery\nand gentle breeze",
+      "label": "Collect today's lush greenery\n",
+      "method": "local",
+      "text": "Collect today's lush greenery\nand gentle breeze",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_goldfish",
+    "photo_cat",
+    "photo_trees",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "overlay_tape_3",
+    "text_1",
+    "text_2"
+  ]
+}

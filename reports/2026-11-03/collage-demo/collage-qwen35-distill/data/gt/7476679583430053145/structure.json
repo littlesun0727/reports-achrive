@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的户外摄影画面覆盖全画布，上部为蓝天与局部白云，下部为茂密深绿色树冠，左侧露出白色建筑，无人物。天空和树木在画布边缘及两张照片之间连续可见，中央被叠加照片遮挡；完整摄影环境整体替换，保留可见颗粒质感。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        184,
+        135,
+        834,
+        475
+      ],
+      "description": "横向草地风景照片，一名穿红白条纹连衣裙的女子全身站在中央，面向镜头，双手在肩旁举着红色长靴；周围保留山坡、野花、远山、马匹、树林与蓝天白云。完整照片窗口四周有白色粉笔质感轮廓线，边角略圆，左边局部被星星装饰遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        179,
+        536,
+        841,
+        870
+      ],
+      "description": "横向近景照片，画面中央为白色船舱及深色玻璃窗，下方前景伸入穿红色长靴的双腿与红白条纹衣料；左侧保留少量水面和远岸，上方可见天空。人物局部与船体共同属于同一摄影画面，四周沿完整窗口带白色粉笔质感轮廓线，边角略圆。"
+    },
+    {
+      "id": "star_top",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        37,
+        751,
+        109
+      ],
+      "description": "白色粉笔手绘五角星，内部带简短笑脸笔画，保留粗糙线条和不规则星角。"
+    },
+    {
+      "id": "star_left_top",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        263,
+        232,
+        357
+      ],
+      "description": "白色粉笔手绘笑脸五角星，整体细长且不规则，叠压上方照片左侧边缘。"
+    },
+    {
+      "id": "star_middle",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        474,
+        773,
+        528
+      ],
+      "description": "位于两张照片之间偏右的白色粉笔笑脸五角星，保留内部表情与粗糙轮廓。"
+    },
+    {
+      "id": "star_left_bottom",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        641,
+        133,
+        726
+      ],
+      "description": "左下方树冠上的白色粉笔笑脸五角星，倾斜的星角、内部表情与不规则线条整体保留。"
+    },
+    {
+      "id": "star_right_bottom",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        668,
+        963,
+        736
+      ],
+      "description": "右侧树冠上的白色粉笔笑脸五角星，保留细长星角和内部表情。"
+    },
+    {
+      "id": "star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        447,
+        888,
+        552,
+        971
+      ],
+      "description": "底部中央的白色粉笔笑脸五角星，保留完整粗糙轮廓与内部笑脸笔画。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        195,
+        93,
+        260,
+        114
+      ],
+      "text": "No.1",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        404,
+        486,
+        594,
+        515
+      ],
+      "text": "百分百做自己",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        717,
+        890,
+        822,
+        919
+      ],
+      "text": "Happy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "star_top",
+    "star_left_top",
+    "star_middle",
+    "star_left_bottom",
+    "star_right_bottom",
+    "star_bottom",
+    "text_top",
+    "text_middle",
+    "text_bottom"
+  ]
+}

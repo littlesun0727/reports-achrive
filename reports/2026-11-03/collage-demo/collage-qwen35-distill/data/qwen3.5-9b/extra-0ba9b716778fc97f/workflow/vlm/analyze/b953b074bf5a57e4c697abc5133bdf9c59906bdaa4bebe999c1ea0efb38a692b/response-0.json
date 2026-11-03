@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-bf834df4f1bdd156",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 8073,
+    "completion_tokens": 660,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"蓝天白云下的绿色草地与树林构成连续摄影底图，完整显示区域延伸至画布四边；上层两张人物照片和独立花朵遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_upper\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        65,\n        106,\n        702,\n        470\n      ],\n      \"description\": \"上方人物坐姿照片，戴草帽，双手托腮，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_lower\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        225,\n        426,\n        950,\n        840\n      ],\n      \"description\": \"下方人物照片，戴草帽，单眼眨眼微笑，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_flower_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        138,\n        420,\n        270,\n        515\n      ],\n      \"description\": \"红色罂粟花，位于上方照片左下角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_flower_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        600,\n        358,\n        750,\n        485\n      ],\n      \"description\": \"红色罂粟花，位于上方照片右下角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_flower_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        850,\n        810,\n        955,\n        900\n      ],\n      \"description\": \"白色花朵，位于右下角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_flower_4\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        100,\n        180,\n        190\n      ],\n      \"description\": \"两朵白色花朵，位于左上角，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_upper\",\n    \"photo_lower\",\n    \"overlay_flower_1\",\n    \"overlay_flower_2\",\n    \"overlay_flower_3\",\n    \"overlay_flower_4\"\n  ]\n}",
+  "tool_calls": false
+}

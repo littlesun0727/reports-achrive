@@ -1,0 +1,148 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "深色星空纹理底图，布满白色星点与暗色噪点，作为全画布背景承载所有独立对象；上层照片、文字与装饰遮挡局部，保留星空环境。",
+      "background_type": "photo",
+      "label": "深色星空纹理底图，布满白色星点与暗色噪点，作为全画布背景承载",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        138,
+        91,
+        448,
+        517
+      ],
+      "description": "左上角街景照片，展示黄昏时分的街道、路灯、树木、公交车和汽车，保留完整摄影环境。",
+      "label": "左上角街景照片，展示黄昏时分的街道、路灯、树木、公交车和汽车",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        500,
+        277,
+        803,
+        583
+      ],
+      "description": "右上角雨景照片，展示雨夜中的路灯、树叶和远处建筑，保留完整摄影环境。",
+      "label": "右上角雨景照片，展示雨夜中的路灯、树叶和远处建筑，保留完整摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        75,
+        581,
+        377,
+        882
+      ],
+      "description": "左下角窗景照片，展示雨夜中的窗户、窗台和窗外模糊的街景，保留完整摄影环境。",
+      "label": "左下角窗景照片，展示雨夜中的窗户、窗台和窗外模糊的街景，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        448,
+        642,
+        781,
+        1084
+      ],
+      "description": "右下角雨景照片，展示雨夜中的街道、路灯、树木和落叶，保留完整摄影环境。",
+      "label": "右下角雨景照片，展示雨夜中的街道、路灯、树木和落叶，保留完整",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        62,
+        848,
+        1122
+      ],
+      "description": "白色五角星装饰，散布于画布各处，部分覆盖照片边缘，作为独立固定装饰保留。",
+      "label": "白色五角星装饰，散布于画布各处，部分覆盖照片边缘，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_leaves",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        34,
+        533,
+        942
+      ],
+      "description": "棕色落叶装饰，散布于画布各处，部分覆盖照片边缘，作为独立固定装饰保留。",
+      "label": "棕色落叶装饰，散布于画布各处，部分覆盖照片边缘，作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circles",
+      "kind": "overlay",
+      "bbox": [
+        268,
+        378,
+        592,
+        738
+      ],
+      "description": "白色手绘圆圈装饰，连接照片区域，作为独立固定装饰保留。",
+      "label": "白色手绘圆圈装饰，连接照片区域，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        61,
+        834,
+        364,
+        1158
+      ],
+      "description": "Happiness\nIt may come and go\nLike dust and rain\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again",
+      "label": "Happiness\nIt may come and go\nL",
+      "method": "local",
+      "text": "Happiness\nIt may come and go\nLike dust and rain\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_stars",
+    "overlay_leaves",
+    "overlay_circles",
+    "text_1"
+  ]
+}

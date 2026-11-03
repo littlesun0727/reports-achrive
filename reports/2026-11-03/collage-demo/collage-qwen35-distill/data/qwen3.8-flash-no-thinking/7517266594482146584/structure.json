@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画布摄影底图，为虚化的绿色树林背景。画面延伸至四边，作为中心照片的衬托环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        140,
+        142,
+        850,
+        850
+      ],
+      "description": "中心矩形照片，显示一名长发年轻女性坐在车内，身穿白色上衣，单手托腮，神态自然。"
+    },
+    {
+      "id": "overlay_clover_top_left",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        70,
+        300,
+        250
+      ],
+      "description": "左上角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片的左上角。"
+    },
+    {
+      "id": "overlay_clover_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        760,
+        960,
+        950
+      ],
+      "description": "右下角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片的右下角。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        390,
+        80,
+        950,
+        120
+      ],
+      "text": "+.Clover Melody.♣ + .",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        60,
+        870,
+        650,
+        910
+      ],
+      "text": "9e+.Clover Melody.♣ + ⁺.",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_center",
+    "overlay_clover_top_left",
+    "overlay_clover_bottom_right",
+    "text_top",
+    "text_bottom"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "沙滩、蓝天、棕榈树和木桩构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        70,
+        182,
+        142
+      ],
+      "description": "粉色海星贴纸，位于左上角照片上方。"
+    },
+    {
+      "id": "overlay_shell1",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        202,
+        477,
+        254
+      ],
+      "description": "浅绿色贝壳贴纸，位于左上角照片右侧。"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        273,
+        717,
+        336
+      ],
+      "description": "黄色海星贴纸，位于中间照片右上方。"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        485,
+        247,
+        542
+      ],
+      "description": "黄色海星贴纸，位于左下角照片左上方。"
+    },
+    {
+      "id": "overlay_star4",
+      "kind": "overlay",
+      "bbox": [
+        387,
+        702,
+        487,
+        768
+      ],
+      "description": "浅蓝色海星贴纸，位于左下角照片右下方。"
+    },
+    {
+      "id": "overlay_waves",
+      "kind": "overlay",
+      "bbox": [
+        717,
+        562,
+        903,
+        632
+      ],
+      "description": "白色波浪线条装饰，位于右下角照片上方。"
+    },
+    {
+      "id": "overlay_shell2",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        878,
+        900,
+        930
+      ],
+      "description": "蓝黄条纹贝壳贴纸，位于右下角照片下方。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        137,
+        98,
+        432,
+        393
+      ],
+      "description": "左上角照片，展示海边长椅、棕榈树和远处的山景，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        387,
+        300,
+        677,
+        592
+      ],
+      "description": "中间照片，展示海边指示牌、沙滩和停泊的船只，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        197,
+        508,
+        437,
+        745
+      ],
+      "description": "左下角照片，展示棕榈树和海边步道，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        570,
+        620,
+        857,
+        912
+      ],
+      "description": "右下角照片，展示海边栈道和树木，保留照片内的摄影环境。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_center",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_star1",
+    "overlay_shell1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_star4",
+    "overlay_waves",
+    "overlay_shell2"
+  ]
+}

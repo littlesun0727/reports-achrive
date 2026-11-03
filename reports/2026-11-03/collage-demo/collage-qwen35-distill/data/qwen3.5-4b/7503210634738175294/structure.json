@@ -1,0 +1,175 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "desktop_base",
+    "description": "Windows XP 风格桌面环境，包含任务栏、开始菜单、桌面图标、壁纸（蓝天白云）及桌面背景纹理，整体构成连续摄影底图，主体为复古电脑界面，上层贴纸和窗口遮挡局部。"
+  },
+  "objects": [
+    {
+      "id": "overlay_chat_bubble",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        120,
+        395,
+        320
+      ],
+      "description": "白色对话气泡，内含黑色像素字体'online'，位于左上角，覆盖部分桌面图标和任务栏。"
+    },
+    {
+      "id": "photo_monitor_screen",
+      "kind": "photo",
+      "bbox": [
+        135,
+        180,
+        850,
+        720
+      ],
+      "description": "电脑显示器屏幕内的像素风格人物照片，人物戴厨师帽、穿蓝色上衣，手持蛋糕，背景为厨房场景，保留屏幕内的摄影环境。"
+    },
+    {
+      "id": "overlay_sticker",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        430,
+        470,
+        960
+      ],
+      "description": "白色描边贴纸，内含像素风格人物，戴厨师帽、穿蓝色上衣，手持蛋糕和叉子，坐在笔记本电脑上，贴纸边缘有白色描边。"
+    },
+    {
+      "id": "text_properties",
+      "kind": "text",
+      "bbox": [
+        0,
+        360,
+        130,
+        480
+      ],
+      "text": "Create Sh\nename\ndelete\nproperties",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        0,
+        920,
+        100,
+        960
+      ],
+      "text": "10:20",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_sust",
+      "kind": "text",
+      "bbox": [
+        0,
+        960,
+        100,
+        990
+      ],
+      "text": "SUST. 01.00",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_color_picker",
+      "kind": "overlay",
+      "bbox": [
+        880,
+        680,
+        1000,
+        850
+      ],
+      "description": "彩色色块选择器，位于右下角，覆盖部分桌面背景。"
+    },
+    {
+      "id": "overlay_error_window",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        850,
+        1000,
+        990
+      ],
+      "description": "错误提示窗口，位于右下角，覆盖部分桌面背景。"
+    },
+    {
+      "id": "text_what",
+      "kind": "text",
+      "bbox": [
+        780,
+        850,
+        850,
+        880
+      ],
+      "text": "What",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_why",
+      "kind": "text",
+      "bbox": [
+        850,
+        880,
+        950,
+        910
+      ],
+      "text": "Why this happen",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_because",
+      "kind": "text",
+      "bbox": [
+        850,
+        910,
+        950,
+        940
+      ],
+      "text": "because",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_monitor_screen",
+    "overlay_chat_bubble",
+    "overlay_sticker",
+    "text_properties",
+    "text_time",
+    "text_sust",
+    "overlay_color_picker",
+    "overlay_error_window",
+    "text_what",
+    "text_why",
+    "text_because"
+  ]
+}

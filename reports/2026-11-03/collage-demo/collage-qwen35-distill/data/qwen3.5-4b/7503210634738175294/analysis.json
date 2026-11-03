@@ -1,0 +1,235 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "desktop_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Windows XP 风格桌面环境，包含任务栏、开始菜单、桌面图标、壁纸（蓝天白云）及桌面背景纹理，整体构成连续摄影底图，主体为复古电脑界面，上层贴纸和窗口遮挡局部。",
+      "background_type": "photo",
+      "label": "Windows XP 风格桌面环境，包含任务栏、开始菜单、桌",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_chat_bubble",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        144,
+        356,
+        384
+      ],
+      "description": "白色对话气泡，内含黑色像素字体'online'，位于左上角，覆盖部分桌面图标和任务栏。",
+      "label": "白色对话气泡，内含黑色像素字体'online'，位于左上角，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_monitor_screen",
+      "kind": "photo",
+      "bbox": [
+        122,
+        216,
+        765,
+        864
+      ],
+      "description": "电脑显示器屏幕内的像素风格人物照片，人物戴厨师帽、穿蓝色上衣，手持蛋糕，背景为厨房场景，保留屏幕内的摄影环境。",
+      "label": "电脑显示器屏幕内的像素风格人物照片，人物戴厨师帽、穿蓝色上衣",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sticker",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        516,
+        423,
+        1152
+      ],
+      "description": "白色描边贴纸，内含像素风格人物，戴厨师帽、穿蓝色上衣，手持蛋糕和叉子，坐在笔记本电脑上，贴纸边缘有白色描边。",
+      "label": "白色描边贴纸，内含像素风格人物，戴厨师帽、穿蓝色上衣，手持蛋",
+      "method": "extract"
+    },
+    {
+      "id": "text_properties",
+      "kind": "text",
+      "bbox": [
+        0,
+        432,
+        117,
+        576
+      ],
+      "description": "Create Sh\nename\ndelete\nproperties",
+      "label": "Create Sh\nename\ndelete\npropert",
+      "method": "local",
+      "text": "Create Sh\nename\ndelete\nproperties",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        0,
+        1104,
+        90,
+        1152
+      ],
+      "description": "10:20",
+      "label": "10:20",
+      "method": "local",
+      "text": "10:20",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_sust",
+      "kind": "text",
+      "bbox": [
+        0,
+        1152,
+        90,
+        1188
+      ],
+      "description": "SUST. 01.00",
+      "label": "SUST. 01.00",
+      "method": "local",
+      "text": "SUST. 01.00",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_color_picker",
+      "kind": "overlay",
+      "bbox": [
+        792,
+        816,
+        900,
+        1020
+      ],
+      "description": "彩色色块选择器，位于右下角，覆盖部分桌面背景。",
+      "label": "彩色色块选择器，位于右下角，覆盖部分桌面背景。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_error_window",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        1020,
+        900,
+        1188
+      ],
+      "description": "错误提示窗口，位于右下角，覆盖部分桌面背景。",
+      "label": "错误提示窗口，位于右下角，覆盖部分桌面背景。",
+      "method": "extract"
+    },
+    {
+      "id": "text_what",
+      "kind": "text",
+      "bbox": [
+        702,
+        1020,
+        765,
+        1056
+      ],
+      "description": "What",
+      "label": "What",
+      "method": "local",
+      "text": "What",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_why",
+      "kind": "text",
+      "bbox": [
+        765,
+        1056,
+        855,
+        1092
+      ],
+      "description": "Why this happen",
+      "label": "Why this happen",
+      "method": "local",
+      "text": "Why this happen",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_because",
+      "kind": "text",
+      "bbox": [
+        765,
+        1092,
+        855,
+        1128
+      ],
+      "description": "because",
+      "label": "because",
+      "method": "local",
+      "text": "because",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "desktop_base",
+    "photo_monitor_screen",
+    "overlay_chat_bubble",
+    "overlay_sticker",
+    "text_properties",
+    "text_time",
+    "text_sust",
+    "overlay_color_picker",
+    "overlay_error_window",
+    "text_what",
+    "text_why",
+    "text_because"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-ede03d30-0bb6-9be8-9a08-294f9b926e2b",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8041,
+    "completion_tokens": 1094,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1094
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的海滩风景摄影底图，包含蓝天、沙滩和前景中的枯木枝干。画面延伸至画布四边，上层叠加了多张独立照片及装饰贴纸，遮挡了部分底图内容。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star_pink\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        105,\n        76,\n        183,\n        142\n      ],\n      \"description\": \"左上角的粉色海星贴纸，带有黑色斑点纹理。\"\n    },\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        139,\n        100,\n        435,\n        396\n      ],\n      \"description\": \"左上方的矩形照片，显示海边棕榈树、长椅和远处的城市海岸线。\"\n    },\n    {\n      \"id\": \"overlay_shell_green\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        397,\n        204,\n        478,\n        253\n      ],\n      \"description\": \"浅绿色的贝壳形状贴纸，位于第一张照片的右下角边缘处。\"\n    },\n    {\n      \"id\": \"overlay_star_yellow\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        644,\n        276,\n        720,\n        336\n      ],\n      \"description\": \"黄色的海星贴纸，位于中间照片的右上角附近。\"\n    },\n    {\n      \"id\": \"photo_center\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        389,\n        302,\n        681,\n        593\n      ],\n      \"description\": \"中间的矩形照片，特写拍摄了一个带有多个方向指示牌（如'Beach', 'Avoid Pressure'）的木制路标和一把椅子。\"\n    },\n    {\n      \"id\": \"overlay_star_yellow_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        170,\n        485,\n        252,\n        540\n      ],\n      \"description\": \"左侧中部的黄色海星贴纸，位于下方照片的左上角。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        202,\n        511,\n        441,\n        748\n      ],\n      \"description\": \"左下方的矩形照片，展示了一排高大的棕榈树、草坪和海滨步道。\"\n    },\n    {\n      \"id\": \"overlay_wave_white\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        715,\n        565,\n        910,\n        642\n      ],\n      \"description\": \"白色的手绘波浪线条装饰，位于右侧区域。\"\n    },\n    {\n      \"id\": \"overlay_star_blue\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        389,\n        703,\n        492,\n        768\n      ],\n      \"description\": \"蓝色的海星贴纸，位于左下照片的右下角。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        573,\n        620,\n        870,\n        912\n      ],\n      \"description\": \"右下方的矩形照片，展示了建在岩石上的蓝色观景台、树木和海景。\"\n    },\n    {\n      \"id\": \"overlay_shell_striped\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        825,\n        881,\n        910,\n      931\n      ],\n      \"description\": \"蓝绿条纹相间的贝壳贴纸，位于右下照片的右下角。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"overlay_star_pink\",\n    \"overlay_shell_green\",\n    \"photo_center\",\n    \"overlay_star_yellow\",\n    \"photo_bottom_left\",\n    \"overlay_star_yellow_left\",\n    \"overlay_wave_white\",\n    \"photo_bottom_right\",\n    \"overlay_star_blue\",\n    \"overlay_shell_striped\"\n  ]\n}",
+  "tool_calls": false
+}

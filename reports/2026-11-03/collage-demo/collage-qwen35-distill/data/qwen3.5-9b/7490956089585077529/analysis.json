@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1351
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1351
+      ],
+      "description": "连续的浅色纹理纸底，四周及两张照片间隙保留相同纸纹；照片独立替换，纸底保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的浅色纹理纸底，四周及两张照片间隙保留相同纸纹；照片独立",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        61,
+        184,
+        668,
+        603
+      ],
+      "description": "上方人物近景照片，人物长发，保留照片内的摄影环境，显示区域为圆角矩形。",
+      "label": "上方人物近景照片，人物长发，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        182,
+        778,
+        812,
+        1197
+      ],
+      "description": "下方人物近景照片，人物微笑，保留照片内的摄影环境，显示区域为圆角矩形。",
+      "label": "下方人物近景照片，人物微笑，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "photo_bottom"
+  ]
+}

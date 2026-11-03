@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-85848b3d16af1617",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7836,
+    "completion_tokens": 777,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"background_rain\",\n    \"description\": \"带有密集水珠纹理的浅蓝色背景，覆盖全画布，作为整体视觉基调；上层照片、花朵贴纸和文字遮挡局部，保留水珠与背景色。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        120,\n        162,\n        562,\n        558\n      ],\n      \"description\": \"人物在户外草地手持粉色花朵的半身照片，背景为树林，显示区域为矩形，位于画布中上部。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        333,\n        596,\n        970,\n        880\n      ],\n      \"description\": \"海边日落时分的远景照片，可见沙滩、人群、山坡和棕榈树，显示区域为矩形，位于画布中下部。\"\n    },\n    {\n      \"id\": \"overlay_flower_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        12,\n        420,\n        338,\n        688\n      ],\n      \"description\": \"红色百合花贴纸，带有白色描边，位于画布左侧，部分遮挡背景水珠。\"\n    },\n    {\n      \"id\": \"overlay_flower_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        562,\n        142,\n        985,\n        590\n      ],\n      \"description\": \"紫色花朵贴纸群，分布在画布右侧，部分遮挡背景水珠。\"\n    },\n    {\n      \"id\": \"overlay_flower_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        83,\n        742,\n        242,\n        852\n      ],\n      \"description\": \"紫色花朵贴纸，位于画布左下角，部分遮挡背景水珠。\"\n    },\n    {\n      \"id\": \"text_title\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        602,\n        438,\n        920,\n        522\n      ],\n      \"text\": \"CALLING\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_circle\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        252,\n        816,\n        408,\n        922\n      ],\n      \"description\": \"白色圆形装饰贴纸，位于画布左下角，部分遮挡背景水珠。\"\n    }\n  ],\n  \"layer_order\": [\n    \"background_rain\",\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_flower_left\",\n    \"overlay_flower_right\",\n    \"overlay_flower_bottom\",\n    \"overlay_circle\",\n    \"text_title\"\n  ]\n}",
+  "tool_calls": false
+}

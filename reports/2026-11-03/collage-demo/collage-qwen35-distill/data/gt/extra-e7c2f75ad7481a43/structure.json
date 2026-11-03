@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的傍晚街道摄影覆盖全画布：灰云与金色落日位于上方，左侧为草坡和石墙，右侧为沿街建筑、招牌及气球摊，下方道路上有汽车、骑车者和多名行人，右下近景是一位背向镜头的长发蓝衣女子。天空、街景及道路在画布边缘连续，上层三张独立照片遮挡部分场景；人物与完整摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_small",
+      "kind": "photo",
+      "bbox": [
+        49,
+        115,
+        317,
+        269
+      ],
+      "description": "左上横向街景照片，逆光太阳位于棕榈树之间，道路向远处延伸，两侧建筑与树木形成长阴影，无突出近景人物。保留完整摄影环境，矩形窗口四周附有白色圆头虚线描边，无主体去背景或透明渐隐。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        442,
+        46,
+        926,
+        519
+      ],
+      "description": "右上大型竖向夕阳街景照片，左侧为深色店铺屋檐与数名暗部行人，右侧可见云层、低处落日、楼群和停放车辆，下方为台阶及长阴影。保留摄影环境，矩形窗口外围为白色圆头虚线描边，上边被回形针装饰覆盖，左下部分被另一张照片遮挡。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        69,
+        478,
+        522,
+        924
+      ],
+      "description": "左下竖向城市落日照片，无明显人物，近处为树木与白色低层房屋，远处为金色光线照亮的高楼及吊机。画面上缘和右下方可见斜向深色窗框或栏杆，均属于摄影内容。保留完整摄影环境，四周附白色圆头虚线描边，无去背景或渐隐。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        52,
+        51,
+        409,
+        94
+      ],
+      "text": "Sunset sells tenderness,\nand the world is full of romance.",
+      "color": "#E4E7E7",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        10,
+        723,
+        83
+      ],
+      "description": "倾斜的白色粉笔线条回形针装饰，双层弯折轮廓及毛糙发光边缘整体保留，跨在右上照片的上边缘。"
+    },
+    {
+      "id": "overlay_rays",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        341,
+        328,
+        477
+      ],
+      "description": "一组白色粉笔手绘放射装饰，包括四条长短不同的空心或排线光芒、周围菱形星光、小圆点和短线，作为一个完整设计单元保留。"
+    },
+    {
+      "id": "overlay_lettering",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        911,
+        977,
+        976
+      ],
+      "description": "右下角白色手绘艺术字“此刻”，采用错落倾斜的空心笔画并带重复细线与附属小笔触，整体叠在蓝衣女子及道路之上，保留原有字形设计。"
+    }
+  ],
+  "layer_order": [
+    "photo_small",
+    "photo_upper_right",
+    "photo_lower_left",
+    "text_quote",
+    "overlay_paperclip",
+    "overlay_rays",
+    "overlay_lettering"
+  ]
+}

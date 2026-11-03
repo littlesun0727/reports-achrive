@@ -1,0 +1,196 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续的水下摄影画面，包含流动的水面纹理、光线折射效果、漂浮的金鱼以及底部的草地。主体人物位于画面中央，周围环绕着多个屏幕，整体环境由客户照片替换。",
+      "background_type": "photo",
+      "label": "连续的水下摄影画面，包含流动的水面纹理、光线折射效果、漂浮的",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_character",
+      "kind": "photo",
+      "bbox": [
+        230,
+        151,
+        680,
+        922
+      ],
+      "description": "中央人物背影照片，白色长发，身穿蓝色上衣和深色裙子，周围有金鱼漂浮，保留水下摄影环境。",
+      "label": "中央人物背影照片，白色长发，身穿蓝色上衣和深色裙子，周围有金",
+      "method": "local"
+    },
+    {
+      "id": "photo_screen_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        115,
+        241,
+        456
+      ],
+      "description": "左上角屏幕内的照片，显示两个角色在红色背景前，保留屏幕内的摄影环境。",
+      "label": "左上角屏幕内的照片，显示两个角色在红色背景前，保留屏幕内的摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_screen_2",
+      "kind": "photo",
+      "bbox": [
+        670,
+        120,
+        900,
+        342
+      ],
+      "description": "右上角屏幕内的照片，显示两个角色在金色背景前，保留屏幕内的摄影环境。",
+      "label": "右上角屏幕内的照片，显示两个角色在金色背景前，保留屏幕内的摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_screen_3",
+      "kind": "photo",
+      "bbox": [
+        734,
+        474,
+        900,
+        654
+      ],
+      "description": "右侧屏幕内的照片，显示两个角色在绿色背景前，保留屏幕内的摄影环境。",
+      "label": "右侧屏幕内的照片，显示两个角色在绿色背景前，保留屏幕内的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_screen_4",
+      "kind": "photo",
+      "bbox": [
+        0,
+        690,
+        153,
+        900
+      ],
+      "description": "左下角屏幕内的照片，显示两个角色在紫色花丛前，保留屏幕内的摄影环境。",
+      "label": "左下角屏幕内的照片，显示两个角色在紫色花丛前，保留屏幕内的摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_screen_5",
+      "kind": "photo",
+      "bbox": [
+        482,
+        882,
+        666,
+        1080
+      ],
+      "description": "右下角屏幕内的照片，显示两个角色在蓝色背景前，保留屏幕内的摄影环境。",
+      "label": "右下角屏幕内的照片，显示两个角色在蓝色背景前，保留屏幕内的摄",
+      "method": "local"
+    },
+    {
+      "id": "frame_screen_1",
+      "kind": "frame",
+      "bbox": [
+        0,
+        115,
+        241,
+        456
+      ],
+      "description": "左上角屏幕的黑色边框，承载 photo_screen_1。",
+      "photo_id": [
+        "photo_screen_1"
+      ],
+      "label": "左上角屏幕的黑色边框，承载 photo_screen_1。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_screen_2",
+      "kind": "frame",
+      "bbox": [
+        670,
+        120,
+        900,
+        342
+      ],
+      "description": "右上角屏幕的黑色边框，承载 photo_screen_2。",
+      "photo_id": [
+        "photo_screen_2"
+      ],
+      "label": "右上角屏幕的黑色边框，承载 photo_screen_2。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_screen_3",
+      "kind": "frame",
+      "bbox": [
+        734,
+        474,
+        900,
+        654
+      ],
+      "description": "右侧屏幕的黑色边框，承载 photo_screen_3。",
+      "photo_id": [
+        "photo_screen_3"
+      ],
+      "label": "右侧屏幕的黑色边框，承载 photo_screen_3。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_screen_4",
+      "kind": "frame",
+      "bbox": [
+        0,
+        690,
+        153,
+        900
+      ],
+      "description": "左下角屏幕的黑色边框，承载 photo_screen_4。",
+      "photo_id": [
+        "photo_screen_4"
+      ],
+      "label": "左下角屏幕的黑色边框，承载 photo_screen_4。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_screen_5",
+      "kind": "frame",
+      "bbox": [
+        482,
+        882,
+        666,
+        1080
+      ],
+      "description": "右下角屏幕的黑色边框，承载 photo_screen_5。",
+      "photo_id": [
+        "photo_screen_5"
+      ],
+      "label": "右下角屏幕的黑色边框，承载 photo_screen_5。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_character",
+    "photo_screen_1",
+    "photo_screen_2",
+    "photo_screen_3",
+    "photo_screen_4",
+    "photo_screen_5",
+    "frame_screen_1",
+    "frame_screen_2",
+    "frame_screen_3",
+    "frame_screen_4",
+    "frame_screen_5"
+  ]
+}

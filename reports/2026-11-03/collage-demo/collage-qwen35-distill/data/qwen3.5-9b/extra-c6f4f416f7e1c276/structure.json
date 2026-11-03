@@ -1,0 +1,267 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的白色纹理纸底，作为整个拼贴画的固定承载层，四周及照片间隙保留相同纸纹；左侧金属活页夹结构为独立固定单元，不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        200,
+        105,
+        750,
+        395
+      ],
+      "description": "围绕顶部照片的黄色矩形框，带有圆角和内部装饰性文字，作为固定载体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        210,
+        135,
+        740,
+        345
+      ],
+      "description": "顶部人物照片，人物戴黑色帽子，坐在绿色瓷砖墙前，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        215,
+        415,
+        580,
+        615
+      ],
+      "description": "中间人物照片，人物戴白色帽子，站在蓝色门框前，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        230,
+        700,
+        495,
+        905
+      ],
+      "description": "底部人物照片，人物手持绿色电话亭，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_large",
+      "kind": "photo",
+      "bbox": [
+        450,
+        470,
+        970,
+        970
+      ],
+      "description": "右侧大幅人物照片，人物戴黑色帽子，坐姿，保留照片内的摄影环境，显示区域为不规则形状。"
+    },
+    {
+      "id": "overlay_lemon",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        280,
+        280,
+        360
+      ],
+      "description": "左侧蓝色云朵形状的柠檬切片贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        160,
+        895,
+        260
+      ],
+      "description": "右上角棕色波点背景的咖啡拉花贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_icecream",
+      "kind": "overlay",
+      "bbox": [
+        175,
+        645,
+        260,
+        750
+      ],
+      "description": "左下角紫色波点背景的冰淇淋贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        450,
+        900,
+        550
+      ],
+      "description": "右侧粉色五角星贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_flag",
+      "kind": "overlay",
+      "bbox": [
+        525,
+        685,
+        680,
+        750
+      ],
+      "description": "蓝色三角形旗帜贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        395,
+        300,
+        475
+      ],
+      "description": "红色波点胶带贴纸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        220,
+        350,
+        730,
+        385
+      ],
+      "text": "Find sweetness in plain days",
+      "color": "#5D4037",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        760,
+        295,
+        880,
+        365
+      ],
+      "text": "The best time is on the road.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        660,
+        380,
+        890,
+        470
+      ],
+      "text": "Lemon Tang",
+      "color": "#4FC3F7",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        460,
+        580,
+        650,
+        620
+      ],
+      "text": "I'M SO HAPPY",
+      "color": "#FDD835",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        570,
+        620,
+        680,
+        650
+      ],
+      "text": "TODAY",
+      "color": "#FDD835",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        240,
+        630,
+        520,
+        670
+      ],
+      "text": "The world is too big to stay in one place.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        530,
+        690,
+        650,
+        740
+      ],
+      "text": "like",
+      "color": "#D32F2F",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_top",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "photo_large",
+    "overlay_lemon",
+    "overlay_coffee",
+    "overlay_icecream",
+    "overlay_star",
+    "overlay_flag",
+    "overlay_tape",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7"
+  ]
+}

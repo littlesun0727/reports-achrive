@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-b904c2fd-e211-9393-b712-1a9675e3892c",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8295,
+    "completion_tokens": 1348,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1348
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"solid_color\",\n    \"color\": \"#FFFFFF\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"frame_film_top\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        35,\n        98,\n        1000,\n        342\n      ],\n      \"description\": \"手绘风格的胶卷条，包含左侧的柯达胶卷暗盒（印有E100字样）和向右延伸的三个照片窗口。\",\n      \"photo_id\": [\n        \"photo_top_1\",\n        \"photo_top_2\",\n        \"photo_top_3\"\n      ]\n    },\n    {\n      \"id\": \"photo_top_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        296,\n        137,\n        485,\n        305\n      ],\n      \"description\": \"大本钟及周围建筑景观的照片，前景有人物坐在石阶上。\"\n    },\n    {\n      \"id\": \"photo_top_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        502,\n        137,\n        785,\n        305\n      ],\n      \"description\": \"室内喷泉广场的照片，一名身穿黑白裙装的女子背对镜头站立。\"\n    },\n    {\n      \"id\": \"photo_top_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        802,\n        137,\n        942,\n        305\n      ],\n      \"description\": \"红色电话亭前的照片，女子侧身倚靠在电话亭旁。\"\n    },\n    {\n      \"id\": \"frame_film_mid\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        35,\n        405,\n        1000,\n        642\n      ],\n      \"description\": \"中间的手绘风格胶卷条，包含四个照片窗口。\",\n      \"photo_id\": [\n        \"photo_mid_1\",\n        \"photo_mid_2\",\n        \"photo_mid_3\",\n        \"photo_mid_4\"\n      ]\n    },\n    {\n      \"id\": \"photo_mid_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        42,\n        445,\n        300,\n        605\n      ],\n      \"description\": \"拱形玻璃顶棚下的街道场景，女子站在路面上。\"\n    },\n    {\n      \"id\": \"photo_mid_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        317,\n        445,\n        585,\n        605\n      ],\n      \"description\": \"多层商店内部场景，女子站在栏杆旁向下看。\"\n    },\n    {\n      \"id\": \"photo_mid_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        602,\n        445,\n        857,\n        605\n      ],\n      \"description\": \"手持芒果糯米饭甜点的特写照片。\"\n    },\n    {\n      \"id\": \"photo_mid_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        874,\n        445,\n        1000,\n        605\n      ],\n      \"description\": \"埃菲尔铁塔远景照片，右侧边缘被画布裁切。\"\n    },\n    {\n      \"id\": \"frame_film_bottom\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        35,\n        690,\n        952,\n        925\n      ],\n      \"description\": \"底部的手绘风格胶卷条，包含两个照片窗口，右侧部分被人物遮挡。\",\n      \"photo_id\": [\n        \"photo_bot_1\",\n        \"photo_bot_2\"\n      ]\n    },\n    {\n      \"id\": \"photo_bot_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        42,\n        730,\n        300,\n        888\n      ],\n      \"description\": \"红色双层巴士旁的照片，女子在车前摆姿势。\"\n    },\n    {\n      \"id\": \"photo_bot_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        317,\n        730,\n        585,\n        888\n      ],\n      \"description\": \"泰晤士河畔大本钟背景的照片，女子坐在岸边石栏上。\"\n    },\n    {\n      \"id\": \"overlay_person\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        702,\n        630,\n        952,\n        1000\n      ],\n      \"description\": \"戴草帽、穿粉色连衣裙并手提蓝色包包的女子抠图，位于右下角，遮挡了底部胶卷条的右端。\"\n    }\n  ],\n  \"layer_order\": [\n    \"frame_film_top\",\n    \"photo_top_1\",\n    \"photo_top_2\",\n    \"photo_top_3\",\n    \"frame_film_mid\",\n    \"photo_mid_1\",\n    \"photo_mid_2\",\n    \"photo_mid_3\",\n    \"photo_mid_4\",\n    \"frame_film_bottom\",\n    \"photo_bot_1\",\n    \"photo_bot_2\",\n    \"overlay_person\"\n  ]\n}",
+  "tool_calls": false
+}

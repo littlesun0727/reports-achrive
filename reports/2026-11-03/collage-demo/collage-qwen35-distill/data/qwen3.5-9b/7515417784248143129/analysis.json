@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "模糊的餐厅桌面摄影底图，可见木质桌面、餐具、叉子、餐巾纸及一杯绿色饮品（如抹茶拿铁）的局部。画面整体为暖色调，作为所有上层拼贴元素的承载背景，完整显示区域延伸至画布四边。",
+      "background_type": "photo",
+      "label": "模糊的餐厅桌面摄影底图，可见木质桌面、餐具、叉子、餐巾纸及一",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        120,
+        153,
+        455,
+        589
+      ],
+      "description": "左上角竖向照片，展示两人比耶手势、桌上咖喱饭、意面、饮料及甜点。照片带有白色边框，位于背景之上。",
+      "label": "左上角竖向照片，展示两人比耶手势、桌上咖喱饭、意面、饮料及甜",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        473,
+        276,
+        752,
+        585
+      ],
+      "description": "右上角照片，展示正在浇淋芝士的炸鸡锅，背景为穿着毛衣的人。照片位于背景之上。",
+      "label": "右上角照片，展示正在浇淋芝士的炸鸡锅，背景为穿着毛衣的人。照",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        542,
+        580,
+        846,
+        846
+      ],
+      "description": "右侧中下部横向照片，展示意面、虾、蛋糕等甜点。照片带有黄色边框，位于背景之上。",
+      "label": "右侧中下部横向照片，展示意面、虾、蛋糕等甜点。照片带有黄色边",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        243,
+        764,
+        581,
+        1040
+      ],
+      "description": "底部中央照片，展示草莓、香蕉、冰淇淋、华夫饼等甜点。照片位于背景之上。",
+      "label": "底部中央照片，展示草莓、香蕉、冰淇淋、华夫饼等甜点。照片位于",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        173,
+        458,
+        371,
+        798
+      ],
+      "description": "左侧中部两张饮品照片的拼贴组合，包含一杯黄色饮品和一杯红色饮品，均带有吸管。位于背景之上。",
+      "label": "左侧中部两张饮品照片的拼贴组合，包含一杯黄色饮品和一杯红色饮",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        115,
+        239,
+        235
+      ],
+      "description": "左上角橙色不规则形状贴纸，包含文字“sweet tooth”和“甜食爱好者”，位于 photo_1 上方。",
+      "label": "左上角橙色不规则形状贴纸，包含文字“sweet tooth”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        149,
+        596,
+        254
+      ],
+      "description": "右上角黄色布丁图案贴纸，顶部有樱桃装饰，位于 photo_2 上方。",
+      "label": "右上角黄色布丁图案贴纸，顶部有樱桃装饰，位于 photo_2",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        149,
+        815,
+        254
+      ],
+      "description": "右上角白色对话气泡贴纸，内含彩色文字“Sweet Stuff!”，位于 photo_2 上方。",
+      "label": "右上角白色对话气泡贴纸，内含彩色文字“Sweet Stuff",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        625,
+        518,
+        733
+      ],
+      "description": "中部粉色布丁图案贴纸，顶部有樱桃装饰，位于 photo_1 和 photo_2 下方。",
+      "label": "中部粉色布丁图案贴纸，顶部有樱桃装饰，位于 photo_1 ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        877,
+        707,
+        966
+      ],
+      "description": "右下角粉色甜甜圈图案贴纸，位于 photo_3 下方。",
+      "label": "右下角粉色甜甜圈图案贴纸，位于 photo_3 下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        954,
+        779,
+        1042
+      ],
+      "description": "右下角橙色甜甜圈图案贴纸，位于 photo_3 下方。",
+      "label": "右下角橙色甜甜圈图案贴纸，位于 photo_3 下方。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6"
+  ]
+}

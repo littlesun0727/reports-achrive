@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "yellow_dotted_bg",
+    "description": "黄色底面带有深褐色圆点图案的固定设计单元，作为全画布背景承载三张独立照片；圆点图案连续且均匀分布，照片区域为透明或裁切，保留完整图案结构。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        97,
+        18,
+        891,
+        314
+      ],
+      "description": "顶部咖喱饭照片，包含熊形饭团、咖喱酱汁、配菜及餐具，左上角有布丁装饰，右上角有面包片装饰，左下角有毛绒玩具，右下角有餐厅标签。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        97,
+        337,
+        897,
+        641
+      ],
+      "description": "中部咖喱饭照片，包含熊形饭团、咖喱酱汁、配菜及餐具，左侧有毛绒玩具，右侧有甜点杯，左下角有黄色文字贴纸，右下角有黄色文字贴纸。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        103,
+        664,
+        897,
+        982
+      ],
+      "description": "底部甜点照片，包含苹果甜点、巧克力碎、毛绒玩具及餐具，左上角有黄色线条装饰，右上角有面包装饰，右下角有面包装饰。"
+    },
+    {
+      "id": "overlay_pudding",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        24,
+        216,
+        106
+      ],
+      "description": "布丁装饰，位于顶部照片左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bread_top",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        35,
+        953,
+        131
+      ],
+      "description": "面包片装饰，位于顶部照片右上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_mua",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        437,
+        267,
+        526
+      ],
+      "description": "黄色文字贴纸，位于中部照片左侧，包含文字 MUA~，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bonus",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        573,
+        888,
+        626
+      ],
+      "description": "黄色文字贴纸，位于中部照片右侧，包含文字 ボーナス，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        654,
+        153,
+        717
+      ],
+      "description": "黄色线条装饰，位于底部照片左上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bread_bottom",
+      "kind": "overlay",
+      "bbox": [
+        786,
+        864,
+        999,
+        982
+      ],
+      "description": "面包装饰，位于底部照片右下角，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_pudding",
+    "overlay_bread_top",
+    "overlay_mua",
+    "overlay_bonus",
+    "overlay_sun",
+    "overlay_bread_bottom"
+  ]
+}

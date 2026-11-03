@@ -1,0 +1,132 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#282C2D"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        101,
+        193,
+        396,
+        488
+      ],
+      "description": "左侧竖幅街巷照片，树干和路灯位于前景，后方为灰砖建筑、红灯笼及自行车，保留天空、道路和完整摄影环境。矩形边界清晰，左上角被独立回形针遮挡。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        614,
+        65,
+        894,
+        223
+      ],
+      "description": "右上横幅照片，绿树树冠覆盖上半部，灰墙建筑前有数名较小的行人，路面呈现鲜明树影。保留完整摄影环境，矩形左上角被回形针遮挡。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        504,
+        280,
+        798,
+        446
+      ],
+      "description": "中右横幅街巷照片，大树位于右侧，数名行人在树下街道上站立或行走，左右可见房屋及车辆。保留完整摄影环境，矩形右上角被回形针遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        578,
+        1000,
+        1000
+      ],
+      "description": "底部通栏横幅街景照片，树冠覆盖街道上空，左前方男子骑红篷三轮车，中央有骑车人与另一辆三轮车，右侧为店铺、遮阳篷及红椅。保留完整摄影环境，照片延伸至画布左右及底边，右上局部被树形邮票遮挡。"
+    },
+    {
+      "id": "stamp_top_left",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        3,
+        161,
+        123
+      ],
+      "description": "左上角复古植物邮票，奶白纸面带深褐色叶片与果实图案、波齿花纹边缘及细小印字，可辨“N.36”“9 C”等；纸张、植物、印字和完整边饰作为一个固定装饰保留。"
+    },
+    {
+      "id": "clip_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        163,
+        147,
+        244
+      ],
+      "description": "斜置的灰褐色长回形针，完整双层弯曲线条作为一个装饰保留，跨在左侧竖幅照片左上边缘。"
+    },
+    {
+      "id": "clip_top_right",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        42,
+        661,
+        108
+      ],
+      "description": "斜置灰褐色回形针，双层细长圆弧结构完整保留，覆盖右上照片的左上角并伸入深色底面。"
+    },
+    {
+      "id": "clip_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        268,
+        829,
+        328
+      ],
+      "description": "向右下倾斜的灰褐色回形针，完整线条结构覆盖中右照片右上角，部分伸出照片边界。"
+    },
+    {
+      "id": "dotted_tape",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        470,
+        934,
+        530
+      ],
+      "description": "中右照片下方独立横向胶带状装饰，灰色半透明质感的矩形底上排列棕金色小圆点，底板与圆点整体保留。"
+    },
+    {
+      "id": "stamp_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        831,
+        540,
+        1000,
+        671
+      ],
+      "description": "右侧复古树形邮票，奶白纸面印深褐色无叶树及“P-17”“8”“6”“NL_842”等小字，四周有波齿花纹边饰。纸面、树图、印字和边饰整体保留，上半位于深色底面，下半覆盖底部街景照片。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_top_right",
+    "photo_middle_right",
+    "photo_bottom",
+    "stamp_top_left",
+    "dotted_tape",
+    "clip_left",
+    "clip_top_right",
+    "clip_middle_right",
+    "stamp_bottom_right"
+  ]
+}

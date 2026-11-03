@@ -1,0 +1,89 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "模糊的桌面摄影底图，包含手机屏幕、应用图标和备忘录界面，整体呈现柔和的虚化效果，作为全画布背景承载上层内容。",
+      "background_type": "photo",
+      "label": "模糊的桌面摄影底图，包含手机屏幕、应用图标和备忘录界面，整体",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        186,
+        272,
+        709,
+        675
+      ],
+      "description": "上方人物近景照片，戴眼镜，手持食物，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方人物近景照片，戴眼镜，手持食物，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        186,
+        723,
+        709,
+        1143
+      ],
+      "description": "下方人物近景照片，戴眼镜，手持蓝色物品，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "下方人物近景照片，戴眼镜，手持蓝色物品，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        141,
+        195,
+        754,
+        675
+      ],
+      "description": "围绕上方照片的白色矩形框，位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕上方照片的白色矩形框，位于照片上方，完整框体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        141,
+        651,
+        754,
+        1143
+      ],
+      "description": "围绕下方照片的白色矩形框，位于照片上方，完整框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕下方照片的白色矩形框，位于照片上方，完整框体保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom",
+    "frame_top",
+    "frame_bottom"
+  ]
+}

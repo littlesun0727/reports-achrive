@@ -1,0 +1,153 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一条绿树成荫的街道，阳光透过树叶洒下斑驳光影，街道上有行人、三轮车和停放的电动车，右侧有户外桌椅和遮阳伞，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一条绿树成荫的街道，阳光透过树叶洒下斑驳光影，街道上有行人、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        232,
+        356,
+        583
+      ],
+      "description": "左上角竖向街景照片，显示老式建筑、树木、路灯和停放的自行车，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左上角竖向街景照片，显示老式建筑、树木、路灯和停放的自行车，",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        550,
+        78,
+        802,
+        265
+      ],
+      "description": "右上角横向街景照片，显示树木、行人和远处的建筑，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右上角横向街景照片，显示树木、行人和远处的建筑，保留照片内的",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        454,
+        330,
+        716,
+        529
+      ],
+      "description": "中间横向街景照片，显示树木、行人和建筑，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "中间横向街景照片，显示树木、行人和建筑，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_strip",
+      "kind": "overlay",
+      "bbox": [
+        451,
+        562,
+        839,
+        634
+      ],
+      "description": "一条带有浅色圆点图案的灰色横条，作为独立固定装饰保留，位于中间照片下方。",
+      "label": "一条带有浅色圆点图案的灰色横条，作为独立固定装饰保留，位于中",
+      "method": "extract"
+    },
+    {
+      "id": "stamp_top_left",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        14,
+        140,
+        150
+      ],
+      "description": "左上角邮票样式的装饰，包含植物图案和文字，作为独立固定装饰保留。",
+      "label": "左上角邮票样式的装饰，包含植物图案和文字，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "stamp_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        648,
+        889,
+        798
+      ],
+      "description": "右下角邮票样式的装饰，包含树木图案和文字，作为独立固定装饰保留。",
+      "label": "右下角邮票样式的装饰，包含树木图案和文字，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "clip_top_left",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        194,
+        130,
+        294
+      ],
+      "description": "左上角回形针样式的装饰，作为独立固定装饰保留。",
+      "label": "左上角回形针样式的装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "clip_top_right",
+      "kind": "overlay",
+      "bbox": [
+        531,
+        48,
+        606,
+        126
+      ],
+      "description": "右上角回形针样式的装饰，作为独立固定装饰保留。",
+      "label": "右上角回形针样式的装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "clip_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        312,
+        742,
+        390
+      ],
+      "description": "中间右侧回形针样式的装饰，作为独立固定装饰保留。",
+      "label": "中间右侧回形针样式的装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_mid",
+    "overlay_strip",
+    "stamp_top_left",
+    "stamp_bottom_right",
+    "clip_top_left",
+    "clip_top_right",
+    "clip_mid_right"
+  ]
+}

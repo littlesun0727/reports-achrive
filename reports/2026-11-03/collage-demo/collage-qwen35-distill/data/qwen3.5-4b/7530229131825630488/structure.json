@@ -1,0 +1,178 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "夜晚城市街景作为连续摄影底图，包含街道、车辆、路灯和建筑，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        303,
+        149,
+        760,
+        447
+      ],
+      "description": "上方街景照片，展示夜晚街道、店铺招牌和红色车辆，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        73,
+        458,
+        455,
+        612
+      ],
+      "description": "左侧照片，展示带有涂鸦和干花的卷帘门，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        498,
+        521,
+        935,
+        831
+      ],
+      "description": "下方甜品照片，展示抹茶和奶油冰淇淋，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        292,
+        140,
+        769,
+        456
+      ],
+      "description": "围绕上方街景照片的白色手绘框，覆盖照片边缘并位于照片上方，完整手绘框作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        50,
+        450,
+        482,
+        620
+      ],
+      "description": "围绕左侧照片的白色手绘框，覆盖照片边缘并位于照片上方，完整手绘框作为一个框体保留。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        489,
+        513,
+        942,
+        839
+      ],
+      "description": "围绕下方甜品照片的白色手绘框，覆盖照片边缘并位于照片上方，完整手绘框作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        133,
+        223,
+        273
+      ],
+      "description": "白色手绘文字气泡，包含英文文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        283,
+        223,
+        368
+      ],
+      "description": "白色手绘猫咪图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        398,
+        935,
+        437
+      ],
+      "description": "白色手绘汽车图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text_3",
+      "kind": "overlay",
+      "bbox": [
+        513,
+        468,
+        753,
+        491
+      ],
+      "description": "灰色矩形框内的白色英文文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text_4",
+      "kind": "overlay",
+      "bbox": [
+        513,
+        493,
+        753,
+        516
+      ],
+      "description": "蓝色矩形框内的白色中文文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text_5",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        521,
+        753,
+        538
+      ],
+      "description": "白色矩形框内的中文文字，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_text_6",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        686,
+        443,
+        876
+      ],
+      "description": "白色手绘文字，包含英文文字，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "photo_left",
+    "frame_left",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_text_1",
+    "overlay_cat",
+    "overlay_text_2",
+    "overlay_text_3",
+    "overlay_text_4",
+    "overlay_text_5",
+    "overlay_text_6"
+  ]
+}

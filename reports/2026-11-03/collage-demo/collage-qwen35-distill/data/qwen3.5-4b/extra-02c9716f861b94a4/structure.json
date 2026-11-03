@@ -1,0 +1,183 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#8B857A"
+  },
+  "objects": [
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        163,
+        100,
+        663,
+        520
+      ],
+      "description": "一杯奶茶放在笔记本电脑上的特写照片，杯身有品牌标识，背景有玩偶和屏幕显示时间。"
+    },
+    {
+      "id": "photo_nature",
+      "kind": "photo",
+      "bbox": [
+        397,
+        560,
+        900,
+        900
+      ],
+      "description": "户外风景照片，包含树木、池塘和樱花树，天空晴朗。"
+    },
+    {
+      "id": "overlay_text_top",
+      "kind": "text",
+      "bbox": [
+        220,
+        100,
+        500,
+        140
+      ],
+      "text": "coffee",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_text_center",
+      "kind": "text",
+      "bbox": [
+        400,
+        520,
+        600,
+        560
+      ],
+      "text": "不管何时，生活的目标是健康和快乐",
+      "color": "#333333",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_text_bottom",
+      "kind": "text",
+      "bbox": [
+        550,
+        880,
+        850,
+        920
+      ],
+      "text": "去有风的地方",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_music_player",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        780,
+        350,
+        900
+      ],
+      "description": "深色音乐播放器界面，包含播放控制按钮和进度条。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        450,
+        180,
+        650
+      ],
+      "description": "蓝色五角星贴纸，边缘有撕裂效果。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        100,
+        320,
+        140
+      ],
+      "description": "白色五角星贴纸，位于咖啡照片上方。"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        100,
+        420,
+        140
+      ],
+      "description": "白色五角星贴纸，位于咖啡照片右上角。"
+    },
+    {
+      "id": "overlay_smiley_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        100,
+        850,
+        450
+      ],
+      "description": "手绘风格的微笑表情和气泡装饰图案。"
+    },
+    {
+      "id": "overlay_cup_sticker",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        380,
+        850,
+        480
+      ],
+      "description": "带有眼睛和心形装饰的杯子贴纸。"
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        580,
+        350,
+        680
+      ],
+      "description": "手绘风格的小鸟装饰图案。"
+    },
+    {
+      "id": "overlay_clapperboard",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        560,
+        850,
+        620
+      ],
+      "description": "手绘风格的拍板装饰图案。"
+    }
+  ],
+  "layer_order": [
+    "photo_coffee",
+    "photo_nature",
+    "overlay_music_player",
+    "overlay_star_left",
+    "overlay_text_center",
+    "overlay_smiley_bubbles",
+    "overlay_cup_sticker",
+    "overlay_birds",
+    "overlay_clapperboard",
+    "overlay_text_bottom",
+    "overlay_star_top",
+    "overlay_star_top_right",
+    "overlay_text_top"
+  ]
+}

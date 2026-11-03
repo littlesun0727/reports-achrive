@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-a9dc2629-f9fd-9137-a2b9-197d9255187f",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8275,
+    "completion_tokens": 1328,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1328
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"全画布连续摄影底图，由三张不同视角的雨天照片拼接而成。上部为仰视雨伞骨架与雨滴，中部为透过带水珠玻璃看到的模糊绿树，下部为俯视柏油路面、黑白格纹伞面及一双白鞋。各部分虽内容独立，但共同构成连续的底层画面，承载所有上层设计元素。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_tape\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        760,\n        38,\n        825,\n        95\n      ],\n      \"description\": \"位于右上角的一小段米黄色胶带装饰，呈倾斜状，用于固定下方的绿色树叶照片。\"\n    },\n    {\n      \"id\": \"photo_green_leaves\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        681,\n        70,\n        924,\n        250\n      ],\n      \"description\": \"右上角的一张矩形照片，内容为绿色的枫叶和树枝，被上方的胶带装饰压住一角。\"\n    },\n    {\n      \"id\": \"overlay_card_bg\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        192,\n        362,\n        803,\n        620\n      ],\n      \"description\": \"画面中部的半透明白色矩形卡片底板，覆盖在背景照片上，作为文字和涂鸦的载体。\"\n    },\n    {\n      \"id\": \"text_cn\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        262,\n        465,\n        515,\n        525\n      ],\n      \"text\": \"消失的下雨天，\\n我好想再淋一遍。\",\n      \"color\": \"#333333\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_doodles\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        215,\n        388,\n        305, 445\n      ],\n      \"description\": \"白色卡片左上角的黑色手绘线条装饰，包含星星和圆圈图案。\"\n    },\n    {\n      \"id\": \"overlay_doodle_face\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        228,\n        565,\n        315,\n        610\n      ],\n      \"description\": \"白色卡片左下角的黑色简笔画笑脸和爱心装饰。\"\n    },\n    {\n      \"id\": \"overlay_clover\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        740,\n        340,\n        865,\n        445\n      ],\n      \"description\": \"位于白色卡片右上角的绿色四叶草贴纸，中间有一个白色的小动物形象。\"\n    },\n    {\n      \"id\": \"text_en\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        485,\n        595,\n        945,\n        640\n      ],\n      \"text\": \"Disappearing rainy days,\\nI want to get wet for another day.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"frame_rainy\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        70,\n        725,\n        365,\n        905\n      ],\n      \"description\": \"左下角带有四个白色角标（取景框样式）的照片窗口边框，内部显示模糊的雨景。\"\n    },\n    {\n      \"id\": \"photo_rainy_window\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        95,\n        740,\n        360,\n        875\n      ],\n      \"description\": \"左下角取景框内的照片内容，显示模糊的蓝灰色调雨景。\"\n    },\n    {\n      \"id\": \"text_rainy\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        160,\n        795,\n        295,\n        835\n      ],\n      \"text\": \"Rainy\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_drops\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        415,\n        740,\n        935,\n        855\n      ],\n      \"description\": \"散落在下半部分的五个白色水滴形状装饰，大小不一，模拟雨滴效果。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_card_bg\",\n    \"overlay_doodles\",\n    \"overlay_doodle_face\",\n    \"text_cn\",\n    \"overlay_clover\",\n    \"text_en\",\n    \"overlay_tape\",\n    \"photo_green_leaves\",\n    \"frame_rainy\",\n    \"photo_rainy_window\",\n    \"text_rainy\",\n    \"overlay_drops\"\n  ]\n}",
+  "tool_calls": false
+}

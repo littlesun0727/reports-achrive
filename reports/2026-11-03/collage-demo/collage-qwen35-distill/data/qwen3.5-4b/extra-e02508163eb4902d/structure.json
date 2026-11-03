@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "广阔的绿色草原、连绵山脉和蓝天白云构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、装饰和箭头遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        338,
+        123,
+        933,
+        424
+      ],
+      "description": "横向风景照片，展示人物背对镜头站在山坡上，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        82,
+        375,
+        379,
+        704
+      ],
+      "description": "竖向风景照片，展示人物背对镜头在草地上行走，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        561,
+        532,
+        835,
+        842
+      ],
+      "description": "竖向风景照片，展示人物趴在木栅栏上，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        79,
+        478,
+        156
+      ],
+      "description": "三颗黄色五角星和一颗小星，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        383,
+        424,
+        570,
+        546
+      ],
+      "description": "白色弯曲箭头和蓝色星形装饰，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_left",
+    "photo_right",
+    "overlay_stars",
+    "overlay_arrow"
+  ]
+}

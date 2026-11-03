@@ -1,0 +1,98 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "带有星星和圆点装饰的浅色纹理纸底，作为全画布固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        392,
+        426,
+        850,
+        670
+      ],
+      "description": "主照片显示戴眼镜、穿白色羽绒服的人物，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_stamp",
+      "kind": "photo",
+      "bbox": [
+        82,
+        632,
+        302,
+        812
+      ],
+      "description": "邮票形状的照片，显示戴眼镜、穿白色羽绒服的人物，保留照片内的摄影环境。"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        152,
+        292,
+        872,
+        722
+      ],
+      "description": "围绕主照片的窗口，包含菜单栏、文件列表和按钮等固定设计元素。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        622,
+        258,
+        968,
+        282
+      ],
+      "text": "shine cute beautiful ~",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        322,
+        742,
+        502,
+        762
+      ],
+      "text": "happiness! ♥",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "audio_icon",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        732,
+        962,
+        782
+      ],
+      "description": "音频波形图标，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_stamp",
+    "frame_main",
+    "text_top",
+    "text_bottom",
+    "audio_icon"
+  ]
+}

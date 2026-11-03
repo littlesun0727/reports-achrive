@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "background_rain",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1350
+      ],
+      "description": "带有密集水珠纹理的浅蓝色背景，覆盖全画布，作为整体视觉基调；上层照片、花朵贴纸和文字遮挡局部，保留水珠与背景色。",
+      "background_type": "photo",
+      "label": "带有密集水珠纹理的浅蓝色背景，覆盖全画布，作为整体视觉基调；",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        108,
+        219,
+        506,
+        753
+      ],
+      "description": "人物在户外草地手持粉色花朵的半身照片，背景为树林，显示区域为矩形，位于画布中上部。",
+      "label": "人物在户外草地手持粉色花朵的半身照片，背景为树林，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        300,
+        805,
+        873,
+        1188
+      ],
+      "description": "海边日落时分的远景照片，可见沙滩、人群、山坡和棕榈树，显示区域为矩形，位于画布中下部。",
+      "label": "海边日落时分的远景照片，可见沙滩、人群、山坡和棕榈树，显示区",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower_left",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        567,
+        304,
+        929
+      ],
+      "description": "红色百合花贴纸，带有白色描边，位于画布左侧，部分遮挡背景水珠。",
+      "label": "红色百合花贴纸，带有白色描边，位于画布左侧，部分遮挡背景水珠",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_right",
+      "kind": "overlay",
+      "bbox": [
+        506,
+        192,
+        886,
+        796
+      ],
+      "description": "紫色花朵贴纸群，分布在画布右侧，部分遮挡背景水珠。",
+      "label": "紫色花朵贴纸群，分布在画布右侧，部分遮挡背景水珠。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        1002,
+        218,
+        1150
+      ],
+      "description": "紫色花朵贴纸，位于画布左下角，部分遮挡背景水珠。",
+      "label": "紫色花朵贴纸，位于画布左下角，部分遮挡背景水珠。",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        542,
+        591,
+        828,
+        705
+      ],
+      "description": "CALLING",
+      "label": "CALLING",
+      "method": "local",
+      "text": "CALLING",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_circle",
+      "kind": "overlay",
+      "bbox": [
+        227,
+        1102,
+        367,
+        1245
+      ],
+      "description": "白色圆形装饰贴纸，位于画布左下角，部分遮挡背景水珠。",
+      "label": "白色圆形装饰贴纸，位于画布左下角，部分遮挡背景水珠。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_rain",
+    "photo_top",
+    "photo_bottom",
+    "overlay_flower_left",
+    "overlay_flower_right",
+    "overlay_flower_bottom",
+    "overlay_circle",
+    "text_title"
+  ]
+}

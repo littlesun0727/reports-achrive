@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-84988fc1fd527083",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7682,
+    "completion_tokens": 763,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"户外草地与溪流场景的连续摄影底图，包含绿色草地、黄色野花、右侧流动的溪水、左上角的岩石堆以及底部人物的下半身（绿色裤子与黄色上衣）。画布边缘露出的摄影环境完整，作为全画布底图承载所有上层对象。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"frame_yellow\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        258,\n        76,\n        766,\n        326\n      ],\n      \"description\": \"黄色矩形相框，位于画布中上部，承载上方马匹照片，相框边缘完整可见。\",\n      \"photo_id\": [\n        \"photo_horses\"\n      ]\n    },\n    {\n      \"id\": \"photo_horses\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        306,\n        100,\n        718,\n        302\n      ],\n      \"description\": \"马匹照片，显示三匹马在草原上吃草，背景为日落天空与远山，前景有手持手机拍摄的画面，照片内容完整。\"\n    },\n    {\n      \"id\": \"frame_dotted\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        260,\n        378,\n        774,\n        628\n      ],\n      \"description\": \"白色矩形相框，边缘带有彩色圆点装饰，位于画布中部，承载花束照片，相框边缘完整可见。\",\n      \"photo_id\": [\n        \"photo_flowers\"\n      ]\n    },\n    {\n      \"id\": \"photo_flowers\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        308,\n        402,\n        720,\n        602\n      ],\n      \"description\": \"花束照片，显示一只手拿着由多种野花组成的花环，背景为开阔的草地与天空，照片内容完整。\"\n    },\n    {\n      \"id\": \"frame_purple\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        260,\n        678,\n        774,\n        928\n      ],\n      \"description\": \"紫色矩形相框，位于画布下部，承载水果篮照片，相框边缘完整可见。\",\n      \"photo_id\": [\n        \"photo_fruits\"\n      ]\n    },\n    {\n      \"id\": \"photo_fruits\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        308,\n        702,\n        720,\n        902\n      ],\n      \"description\": \"水果篮照片，显示一个编织篮中装有桃子、李子等水果，照片内容完整。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"frame_yellow\",\n    \"photo_horses\",\n    \"frame_dotted\",\n    \"photo_flowers\",\n    \"frame_purple\",\n    \"photo_fruits\"\n  ]\n}",
+  "tool_calls": false
+}

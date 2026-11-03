@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-964ed037d9d3b24a",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 8050,
+    "completion_tokens": 637,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"广阔的绿色草原、远处的山脉和蓝天白云构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        335,\n        123,\n        933,\n        420\n      ],\n      \"description\": \"上方人物远景照片，人物站在山坡上，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        84,\n        372,\n        377,\n        706\n      ],\n      \"description\": \"左侧人物背影照片，人物在草地上行走，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        562,\n        531,\n        836,\n        842\n      ],\n      \"description\": \"右侧人物近景照片，人物趴在木栅栏上，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_arrow\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        377,\n        420,\n        570,\n        531\n      ],\n      \"description\": \"白色手绘箭头，从左侧照片指向右侧照片，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_star\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        377,\n        450,\n        420,\n        493\n      ],\n      \"description\": \"蓝色手绘星星，位于箭头起点，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        150,\n        84,\n        477,\n        150\n      ],\n      \"description\": \"三颗黄色手绘星星，位于画布左上角，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_left\",\n    \"photo_right\",\n    \"overlay_arrow\",\n    \"overlay_star\",\n    \"overlay_stars\"\n  ]\n}",
+  "tool_calls": false
+}

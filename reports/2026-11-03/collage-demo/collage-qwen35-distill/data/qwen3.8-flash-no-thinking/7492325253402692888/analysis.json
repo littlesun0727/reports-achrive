@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "bg_camera_ui",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "黑色相机取景器界面底图，包含顶部和底部的拍摄参数图标、快门按钮及RAW/MAX标识。这些固定UI元素需保留原样，中间区域为照片显示窗口。",
+      "background_type": "reference_clean",
+      "label": "黑色相机取景器界面底图，包含顶部和底部的拍摄参数图标、快门按",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        52,
+        163,
+        841,
+        690
+      ],
+      "description": "上方矩形照片窗口，内容为一名扎丸子头的女子在镜子前自拍，身穿白色长袖上衣和牛仔短裙，背景可见墙壁插座和深色衣柜门。",
+      "label": "上方矩形照片窗口，内容为一名扎丸子头的女子在镜子前自拍，身穿",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        52,
+        693,
+        841,
+        1242
+      ],
+      "description": "下方矩形照片窗口，内容与上方照片相似但构图略有不同（可能是连拍），同样展示女子对镜自拍的姿态，保留了完整的摄影环境。",
+      "label": "下方矩形照片窗口，内容与上方照片相似但构图略有不同（可能是连",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg_camera_ui",
+    "photo_top",
+    "photo_bottom"
+  ]
+}

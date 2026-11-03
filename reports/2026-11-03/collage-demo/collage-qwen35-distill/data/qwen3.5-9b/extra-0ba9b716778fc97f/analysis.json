@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "蓝天白云下的绿色草地与树林构成连续摄影底图，完整显示区域延伸至画布四边；上层两张人物照片和独立花朵遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云下的绿色草地与树林构成连续摄影底图，完整显示区域延伸",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        70,
+        153,
+        758,
+        677
+      ],
+      "description": "上方人物坐姿照片，戴草帽，双手托腮，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方人物坐姿照片，戴草帽，双手托腮，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        243,
+        613,
+        1026,
+        1210
+      ],
+      "description": "下方人物照片，戴草帽，单眼眨眼微笑，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "下方人物照片，戴草帽，单眼眨眼微笑，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower_1",
+      "kind": "overlay",
+      "bbox": [
+        149,
+        605,
+        292,
+        742
+      ],
+      "description": "红色罂粟花，位于上方照片左下角，作为独立固定装饰保留。",
+      "label": "红色罂粟花，位于上方照片左下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_2",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        516,
+        810,
+        698
+      ],
+      "description": "红色罂粟花，位于上方照片右下角，作为独立固定装饰保留。",
+      "label": "红色罂粟花，位于上方照片右下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_3",
+      "kind": "overlay",
+      "bbox": [
+        918,
+        1166,
+        1031,
+        1296
+      ],
+      "description": "白色花朵，位于右下角，作为独立固定装饰保留。",
+      "label": "白色花朵，位于右下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_4",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        144,
+        194,
+        274
+      ],
+      "description": "两朵白色花朵，位于左上角，作为独立固定装饰保留。",
+      "label": "两朵白色花朵，位于左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper",
+    "photo_lower",
+    "overlay_flower_1",
+    "overlay_flower_2",
+    "overlay_flower_3",
+    "overlay_flower_4"
+  ]
+}

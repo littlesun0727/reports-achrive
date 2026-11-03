@@ -1,0 +1,171 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1435
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1435
+      ],
+      "description": "连续的海滩摄影画面，包含大海、沙滩、远山和天空，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续的海滩摄影画面，包含大海、沙滩、远山和天空，完整显示区域",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        79,
+        76,
+        535,
+        686
+      ],
+      "description": "上方人物半身照片，人物手持相机和星鱼，保留沙滩和海景环境，下缘和右缘被相邻元素遮挡。",
+      "label": "上方人物半身照片，人物手持相机和星鱼，保留沙滩和海景环境，下",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        116,
+        631,
+        651,
+        1352
+      ],
+      "description": "左下人物近景照片，人物手持相机，保留沙滩环境，上缘和右缘被相邻元素遮挡。",
+      "label": "左下人物近景照片，人物手持相机，保留沙滩环境，上缘和右缘被相",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        554,
+        763,
+        1010,
+        1274
+      ],
+      "description": "右下人物近景照片，人物蹲在沙滩上，保留沙滩环境，上缘和左缘被相邻元素遮挡。",
+      "label": "右下人物近景照片，人物蹲在沙滩上，保留沙滩环境，上缘和左缘被",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        44,
+        267,
+        212
+      ],
+      "description": "三只海星装饰，位于左上角，作为独立固定装饰保留。",
+      "label": "三只海星装饰，位于左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stripe",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        677,
+        535,
+        772
+      ],
+      "description": "蓝白条纹装饰，位于上方照片下方，作为独立固定装饰保留。",
+      "label": "蓝白条纹装饰，位于上方照片下方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_droplets",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        763,
+        985,
+        1038
+      ],
+      "description": "白色水滴装饰，位于右下照片上方，作为独立固定装饰保留。",
+      "label": "白色水滴装饰，位于右下照片上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        535,
+        89,
+        956,
+        406
+      ],
+      "description": "SUMMER TIME\nI have only to break into the tightness of strawberry,\nand i see summer its dust and lowering skies.",
+      "label": "SUMMER TIME\nI have only to bre",
+      "method": "local",
+      "text": "SUMMER TIME\nI have only to break into the tightness of strawberry,\nand i see summer its dust and lowering skies.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_decor",
+      "kind": "text",
+      "bbox": [
+        581,
+        1170,
+        977,
+        1327
+      ],
+      "description": "So stylish fabulous\nWinter paints the world in soft colors\nturning every moment into a work of fantasy",
+      "label": "So stylish fabulous\nWinter pai",
+      "method": "local",
+      "text": "So stylish fabulous\nWinter paints the world in soft colors\nturning every moment into a work of fantasy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        835,
+        241,
+        937
+      ],
+      "description": "对话气泡装饰，位于左下照片左侧，作为独立固定装饰保留。",
+      "label": "对话气泡装饰，位于左下照片左侧，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_stars",
+    "overlay_stripe",
+    "overlay_droplets",
+    "text_main",
+    "text_decor",
+    "overlay_bubble"
+  ]
+}

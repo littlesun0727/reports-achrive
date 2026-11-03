@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "水下场景的连续摄影底图，包含中央白发动漫人物、周围悬浮的金鱼、上方波光粼粼的水面光影以及底部的草地。画布边缘可见完整的水下环境，上层多个电视屏幕遮挡了部分区域，但底图本身覆盖全画布。",
+      "background_type": "photo",
+      "label": "水下场景的连续摄影底图，包含中央白发动漫人物、周围悬浮的金鱼",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "tv_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        243,
+        456
+      ],
+      "description": "左上角电视屏幕内的照片，显示两个穿着橙色和红色斗篷的人物，背景为暖色调。",
+      "label": "左上角电视屏幕内的照片，显示两个穿着橙色和红色斗篷的人物，背",
+      "method": "local"
+    },
+    {
+      "id": "tv_top_right",
+      "kind": "photo",
+      "bbox": [
+        630,
+        0,
+        900,
+        456
+      ],
+      "description": "右上角电视屏幕内的照片，显示两个穿着白色和黄色斗篷的人物，背景为明亮的户外场景。",
+      "label": "右上角电视屏幕内的照片，显示两个穿着白色和黄色斗篷的人物，背",
+      "method": "local"
+    },
+    {
+      "id": "tv_mid_right",
+      "kind": "photo",
+      "bbox": [
+        693,
+        456,
+        900,
+        708
+      ],
+      "description": "右侧中部电视屏幕内的照片，显示两个穿着蓝色斗篷的人物，背景为绿色植物。",
+      "label": "右侧中部电视屏幕内的照片，显示两个穿着蓝色斗篷的人物，背景为",
+      "method": "local"
+    },
+    {
+      "id": "tv_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        672,
+        144,
+        900
+      ],
+      "description": "左下角电视屏幕内的照片，显示两个坐在紫色花丛中的角色，背景为粉色天空。",
+      "label": "左下角电视屏幕内的照片，显示两个坐在紫色花丛中的角色，背景为",
+      "method": "local"
+    },
+    {
+      "id": "tv_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        468,
+        816,
+        900,
+        1080
+      ],
+      "description": "右下角电视屏幕内的照片，显示两个角色坐在草地上，背景为蓝色光斑。",
+      "label": "右下角电视屏幕内的照片，显示两个角色坐在草地上，背景为蓝色光",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "tv_top_left",
+    "tv_top_right",
+    "tv_mid_right",
+    "tv_bottom_left",
+    "tv_bottom_right"
+  ]
+}

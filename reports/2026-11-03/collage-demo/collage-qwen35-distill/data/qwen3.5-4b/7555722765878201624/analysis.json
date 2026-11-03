@@ -1,0 +1,179 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_full_body",
+      "kind": "photo",
+      "bbox": [
+        435,
+        0,
+        900,
+        1200
+      ],
+      "description": "全身人物照片，人物身穿黑色宽松毛衣站在带有品牌标识的背景墙前，右侧有木桶，保留完整的室内环境。",
+      "label": "全身人物照片，人物身穿黑色宽松毛衣站在带有品牌标识的背景墙前",
+      "method": "local"
+    },
+    {
+      "id": "photo_square_top",
+      "kind": "photo",
+      "bbox": [
+        53,
+        208,
+        333,
+        616
+      ],
+      "description": "方形人物面部特写照片，人物留着长发，背景为室内环境，位于左上区域。",
+      "label": "方形人物面部特写照片，人物留着长发，背景为室内环境，位于左上",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle_mid",
+      "kind": "photo",
+      "bbox": [
+        176,
+        530,
+        421,
+        799
+      ],
+      "description": "圆形人物面部特写照片，人物留着长发，背景为室内环境，位于左侧中部。",
+      "label": "圆形人物面部特写照片，人物留着长发，背景为室内环境，位于左侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_heart_bottom",
+      "kind": "photo",
+      "bbox": [
+        54,
+        862,
+        299,
+        1124
+      ],
+      "description": "心形人物面部特写照片，人物留着长发，背景为室内环境，位于左下角。",
+      "label": "心形人物面部特写照片，人物留着长发，背景为室内环境，位于左下",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        435,
+        1200
+      ],
+      "description": "白色背景上的黑色圆点图案，覆盖左侧区域，作为装饰性固定单元。",
+      "label": "白色背景上的黑色圆点图案，覆盖左侧区域，作为装饰性固定单元。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_square",
+      "kind": "overlay",
+      "bbox": [
+        156,
+        178,
+        232,
+        256
+      ],
+      "description": "黑色背景上的白色五角星图案，位于左上角照片上方。",
+      "label": "黑色背景上的白色五角星图案，位于左上角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_text",
+      "kind": "overlay",
+      "bbox": [
+        770,
+        139,
+        843,
+        190
+      ],
+      "description": "黑色背景上的白色文字'^_^'和五角星图案，位于右上角照片上方。",
+      "label": "黑色背景上的白色文字'^_^'和五角星图案，位于右上角照片上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_left",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        610,
+        156,
+        655
+      ],
+      "description": "黑色背景上的白色文字'^-^.-^.-^'，位于左侧中部照片左方。",
+      "label": "黑色背景上的白色文字'^-^.-^.-^'，位于左侧中部照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_black",
+      "kind": "overlay",
+      "bbox": [
+        21,
+        748,
+        94,
+        814
+      ],
+      "description": "黑色背景上的白色格纹心形图案，位于左下角照片左上方。",
+      "label": "黑色背景上的白色格纹心形图案，位于左下角照片左上方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_japanese",
+      "kind": "text",
+      "bbox": [
+        34,
+        1124,
+        208,
+        1152
+      ],
+      "description": "一緒に頑張ろうね",
+      "label": "一緒に頑張ろうね",
+      "method": "local",
+      "text": "一緒に頑張ろうね",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_full_body",
+    "photo_square_top",
+    "photo_circle_mid",
+    "photo_heart_bottom",
+    "overlay_dots",
+    "overlay_star_square",
+    "overlay_star_text",
+    "overlay_text_left",
+    "overlay_heart_black",
+    "text_japanese"
+  ]
+}

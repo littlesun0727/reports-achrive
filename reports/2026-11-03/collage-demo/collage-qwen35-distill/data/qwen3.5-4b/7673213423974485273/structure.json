@@ -1,0 +1,165 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "餐厅用餐场景照片，人物坐在桌前，桌上摆放着铜锅料理、沙拉、炒饭和饮品，背景为深色墙面和餐具。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        667,
+        1000,
+        1000
+      ],
+      "description": "餐厅用餐场景照片，人物坐在桌前，桌上摆放着铜锅料理、沙拉、炒饭和饮品，背景为深色墙面和餐具。"
+    },
+    {
+      "id": "overlay_middle",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        333,
+        1000,
+        667
+      ],
+      "description": "棕色纹理背景上的拼贴设计，包含四张圆形食物照片、卡通贴纸、餐具图标和文字。"
+    },
+    {
+      "id": "photo_salad",
+      "kind": "photo",
+      "bbox": [
+        210,
+        375,
+        450,
+        495
+      ],
+      "description": "圆形沙拉照片，包含生菜、肉片和装饰蔬菜，边缘有虚线框。"
+    },
+    {
+      "id": "photo_skewers",
+      "kind": "photo",
+      "bbox": [
+        480,
+        375,
+        720,
+        495
+      ],
+      "description": "圆形烤肉串照片，包含多串烤肉，边缘有虚线框。"
+    },
+    {
+      "id": "photo_rice",
+      "kind": "photo",
+      "bbox": [
+        250,
+        505,
+        490,
+        625
+      ],
+      "description": "圆形炒饭照片，包含米饭、海苔和装饰，边缘有虚线框。"
+    },
+    {
+      "id": "photo_pot",
+      "kind": "photo",
+      "bbox": [
+        530,
+        505,
+        770,
+        625
+      ],
+      "description": "圆形铜锅料理照片，包含汤和芝士，边缘有虚线框。"
+    },
+    {
+      "id": "sticker_koala",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        470,
+        130,
+        550
+      ],
+      "description": "蓝色考拉卡通贴纸，带有白色轮廓和表情。"
+    },
+    {
+      "id": "sticker_bunny",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        470,
+        245,
+        550
+      ],
+      "description": "白色兔子卡通贴纸，带有粉色耳朵和表情。"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        30,
+        340,
+        200,
+        400
+      ],
+      "text": "快乐加载中",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "icon_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        380,
+        900,
+        470
+      ],
+      "description": "白色手绘餐具图标，包含叉子和刀具。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        110,
+        610,
+        890,
+        650
+      ],
+      "text": "一起吃饭 | 普通日子里的小浪漫",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_middle",
+    "photo_salad",
+    "photo_skewers",
+    "photo_rice",
+    "photo_pot",
+    "sticker_koala",
+    "sticker_bunny",
+    "text_top_left",
+    "icon_cutlery",
+    "text_bottom"
+  ]
+}

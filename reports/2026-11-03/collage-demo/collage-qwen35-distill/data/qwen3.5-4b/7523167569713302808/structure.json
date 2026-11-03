@@ -1,0 +1,777 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "pattern_base",
+    "description": "全画布固定底图，包含淡紫色花卉枝叶、水墨风格紫色蝴蝶及书法文字图案，纹理与结构需保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        36,
+        542,
+        323
+      ],
+      "description": "人物半身照片，金发女性佩戴白色蕾丝颈饰，手托下巴，周围有紫色蝴蝶与花卉装饰，保留照片内摄影环境。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        427,
+        326,
+        937,
+        642
+      ],
+      "description": "人物半身照片，金发女性手托脸颊，耳侧有紫色花朵装饰，保留照片内摄影环境。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        67,
+        613,
+        572,
+        952
+      ],
+      "description": "人物半身照片，金发女性手持紫色蝴蝶靠近鼻尖，保留照片内摄影环境。"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        92,
+        36,
+        542,
+        323
+      ],
+      "description": "白色边框围绕上方左侧照片，边框带有圆角与阴影效果，完整框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "frame_middle_right",
+      "kind": "frame",
+      "bbox": [
+        427,
+        326,
+        937,
+        642
+      ],
+      "description": "白色边框围绕中间右侧照片，边框带有圆角与阴影效果，完整框体保留。",
+      "photo_id": [
+        "photo_middle_right"
+      ]
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        67,
+        613,
+        572,
+        952
+      ],
+      "description": "白色边框围绕下方左侧照片，边框带有圆角与阴影效果，完整框体保留。",
+      "photo_id": [
+        "photo_bottom_left"
+      ]
+    },
+    {
+      "id": "text_vertical_1",
+      "kind": "text",
+      "bbox": [
+        0,
+        46,
+        67,
+        383
+      ],
+      "text": "只可观看\n不可书写",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_vertical_2",
+      "kind": "text",
+      "bbox": [
+        893,
+        16,
+        962,
+        192
+      ],
+      "text": "到一生英雄",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_vertical_3",
+      "kind": "text",
+      "bbox": [
+        853,
+        32,
+        956,
+        183
+      ],
+      "text": "程颖兮于甲辰年所书",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_vertical_4",
+      "kind": "text",
+      "bbox": [
+        893,
+        633,
+        967,
+        853
+      ],
+      "text": "於湖笔書於丙戌",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_horizontal_1",
+      "kind": "text",
+      "bbox": [
+        78,
+        288,
+        153,
+        313
+      ],
+      "text": "BE\nREMEMBER\nTODAY",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_horizontal_2",
+      "kind": "text",
+      "bbox": [
+        503,
+        623,
+        578,
+        642
+      ],
+      "text": "BE\nREMEMBER",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_horizontal_3",
+      "kind": "text",
+      "bbox": [
+        78,
+        923,
+        153,
+        952
+      ],
+      "text": "BE\nREMEMBER\nTODAY",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_butterfly_1",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        318,
+        353,
+        373
+      ],
+      "description": "紫色发光蝴蝶装饰，位于上方照片下方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_2",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        513,
+        987,
+        603
+      ],
+      "description": "紫色发光蝴蝶装饰，位于中间右侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_3",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        683,
+        222,
+        763
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片左方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_4",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        423,
+        623,
+        483
+      ],
+      "description": "紫色发光蝴蝶装饰，位于中间右侧照片左方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_5",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        173,
+        222,
+        213
+      ],
+      "description": "紫色发光蝴蝶装饰，位于上方左侧照片左方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_6",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        96,
+        827,
+        173
+      ],
+      "description": "紫色发光蝴蝶装饰，位于上方右侧区域，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_7",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        193,
+        937,
+        293
+      ],
+      "description": "紫色发光蝴蝶装饰，位于上方右侧区域，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_8",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        333,
+        623,
+        373
+      ],
+      "description": "紫色发光蝴蝶装饰，位于中间右侧照片上方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_9",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        653,
+        623,
+        713
+      ],
+      "description": "紫色发光蝴蝶装饰，位于中间右侧照片下方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_10",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        633,
+        288,
+        683
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片上方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_11",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        763,
+        393,
+        823
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_12",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        703,
+        623,
+        763
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_13",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        683,
+        623,
+        723
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_14",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        663,
+        623,
+        703
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_15",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        643,
+        623,
+        683
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_16",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        623,
+        623,
+        663
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_17",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        603,
+        623,
+        643
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_18",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        583,
+        623,
+        623
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_19",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        563,
+        623,
+        603
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_20",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        543,
+        623,
+        583
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_21",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        523,
+        623,
+        563
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_22",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        503,
+        623,
+        543
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_23",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        483,
+        623,
+        523
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_24",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        463,
+        623,
+        503
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_25",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        443,
+        623,
+        483
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_26",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        423,
+        623,
+        463
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_27",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        403,
+        623,
+        443
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_28",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        383,
+        623,
+        423
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_29",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        363,
+        623,
+        403
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_30",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        343,
+        623,
+        383
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_31",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        323,
+        623,
+        363
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_32",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        303,
+        623,
+        343
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_33",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        283,
+        623,
+        323
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_34",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        263,
+        623,
+        303
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_35",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        243,
+        623,
+        283
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_36",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        223,
+        623,
+        263
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_37",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        203,
+        623,
+        243
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_38",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        183,
+        623,
+        223
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_39",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        163,
+        623,
+        203
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_40",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        143,
+        623,
+        183
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_41",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        123,
+        623,
+        163
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_42",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        103,
+        623,
+        143
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_43",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        83,
+        623,
+        123
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_44",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        63,
+        623,
+        103
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_45",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        43,
+        623,
+        83
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_46",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        23,
+        623,
+        63
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_butterfly_47",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        3,
+        623,
+        23
+      ],
+      "description": "紫色发光蝴蝶装饰，位于下方左侧照片右方，作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "frame_top_left",
+    "frame_middle_right",
+    "frame_bottom_left",
+    "text_vertical_1",
+    "text_vertical_2",
+    "text_vertical_3",
+    "text_vertical_4",
+    "text_horizontal_1",
+    "text_horizontal_2",
+    "text_horizontal_3",
+    "overlay_butterfly_1",
+    "overlay_butterfly_2",
+    "overlay_butterfly_3",
+    "overlay_butterfly_4",
+    "overlay_butterfly_5",
+    "overlay_butterfly_6",
+    "overlay_butterfly_7",
+    "overlay_butterfly_8",
+    "overlay_butterfly_9",
+    "overlay_butterfly_10",
+    "overlay_butterfly_11",
+    "overlay_butterfly_12",
+    "overlay_butterfly_13",
+    "overlay_butterfly_14",
+    "overlay_butterfly_15",
+    "overlay_butterfly_16",
+    "overlay_butterfly_17",
+    "overlay_butterfly_18",
+    "overlay_butterfly_19",
+    "overlay_butterfly_20",
+    "overlay_butterfly_21",
+    "overlay_butterfly_22",
+    "overlay_butterfly_23",
+    "overlay_butterfly_24",
+    "overlay_butterfly_25",
+    "overlay_butterfly_26",
+    "overlay_butterfly_27",
+    "overlay_butterfly_28",
+    "overlay_butterfly_29",
+    "overlay_butterfly_30",
+    "overlay_butterfly_31",
+    "overlay_butterfly_32",
+    "overlay_butterfly_33",
+    "overlay_butterfly_34",
+    "overlay_butterfly_35",
+    "overlay_butterfly_36",
+    "overlay_butterfly_37",
+    "overlay_butterfly_38",
+    "overlay_butterfly_39",
+    "overlay_butterfly_40",
+    "overlay_butterfly_41",
+    "overlay_butterfly_42",
+    "overlay_butterfly_43",
+    "overlay_butterfly_44",
+    "overlay_butterfly_45",
+    "overlay_butterfly_46",
+    "overlay_butterfly_47"
+  ]
+}

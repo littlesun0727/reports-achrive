@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-8417be2b10d056b6",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7844,
+    "completion_tokens": 897,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"公园草地与树木的连续摄影底图，阳光斑驳，完整显示区域延伸至画布四边；上层照片、文字和贴纸遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_goldfish\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        336,\n        130,\n        700,\n        528\n      ],\n      \"description\": \"袋中金鱼照片，保留袋内水波与光影，显示区域为竖向矩形，位于画布中上部。\"\n    },\n    {\n      \"id\": \"photo_cat\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        126,\n        473,\n        536,\n        778\n      ],\n      \"description\": \"猫在步道上行走的照片，保留步道与草地环境，显示区域为竖向矩形，位于画布左中部。\"\n    },\n    {\n      \"id\": \"photo_trees\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        590,\n        558,\n        900,\n        898\n      ],\n      \"description\": \"树林与草地照片，保留阳光与树影，显示区域为竖向矩形，位于画布右下部。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        126,\n        808,\n        536,\n        888\n      ],\n      \"text\": \"Collect today's lush greenery\\nand gentle breeze\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        750,\n        483,\n        920,\n        518\n      ],\n      \"text\": \"Meet summer.\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_tape_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        250,\n        80,\n        380,\n        180\n      ],\n      \"description\": \"金色胶带贴纸，位于画布左上角，压在背景之上。\"\n    },\n    {\n      \"id\": \"overlay_tape_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        700,\n        540,\n        790,\n        580\n      ],\n      \"description\": \"金色胶带贴纸，位于画布右侧中部，压在背景之上。\"\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        750,\n        80,\n        950,\n        300\n      ],\n      \"description\": \"白色星形装饰，位于画布右上角，压在背景之上。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_goldfish\",\n    \"photo_cat\",\n    \"photo_trees\",\n    \"text_1\",\n    \"text_2\",\n    \"overlay_tape_1\",\n    \"overlay_tape_2\",\n    \"overlay_stars\"\n  ]\n}",
+  "tool_calls": false
+}

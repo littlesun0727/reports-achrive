@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a44a7cbf476af0bf",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7483,
+    "completion_tokens": 536,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        500\n      ],\n      \"description\": \"上半部分人物自拍照片，人物直视镜头，保留人物及身后的摄影环境，显示区域为水平矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        500,\n        1000,\n        1000\n      ],\n      \"description\": \"下半部分人物近景照片，人物佩戴发夹，保留人物及身后的摄影环境，显示区域为水平矩形。\"\n    },\n    {\n      \"id\": \"overlay_note\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        12,\n        450,\n        260,\n        590\n      ],\n      \"description\": \"左侧的方格纸风格便签贴纸，包含韩文手写文字和图案，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_stickers\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        820,\n        690,\n        988,\n        800\n      ],\n      \"description\": \"右下角的三只小熊贴纸，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        150,\n        60,\n        320,\n        140\n      ],\n      \"text\": \"Have a \\u263a\\nGood Day\",\n      \"color\": \"#000000\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_note\",\n    \"overlay_stickers\",\n    \"text_1\"\n  ]\n}",
+  "tool_calls": false
+}

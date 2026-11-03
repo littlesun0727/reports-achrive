@@ -1,0 +1,235 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续摄影底图，展示人物在街道上的多个姿态，包括挥手、站立和行走，背景为城市街道、建筑和树木。完整显示区域延伸至画布四边，上层照片和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续摄影底图，展示人物在街道上的多个姿态，包括挥手、站立和行",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        90,
+        84,
+        513,
+        636
+      ],
+      "description": "左上人物照片，人物穿着蓝白格子衬衫和棕色裤子，挥手姿势，背景为街道和建筑，显示区域为矩形。",
+      "label": "左上人物照片，人物穿着蓝白格子衬衫和棕色裤子，挥手姿势，背景",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        84,
+        900,
+        420
+      ],
+      "description": "右上人物照片，人物挥手姿势，背景为街道和建筑，显示区域为矩形。",
+      "label": "右上人物照片，人物挥手姿势，背景为街道和建筑，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        420,
+        801,
+        804
+      ],
+      "description": "中间右侧人物照片，人物挥手姿势，背景为街道和建筑，显示区域为矩形。",
+      "label": "中间右侧人物照片，人物挥手姿势，背景为街道和建筑，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        90,
+        780,
+        540,
+        1140
+      ],
+      "description": "左下人物照片，人物站立姿势，背景为街道和建筑，显示区域为矩形。",
+      "label": "左下人物照片，人物站立姿势，背景为街道和建筑，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        780,
+        900,
+        1140
+      ],
+      "description": "右下人物照片，人物行走姿势，背景为街道和建筑，显示区域为矩形。",
+      "label": "右下人物照片，人物行走姿势，背景为街道和建筑，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        198,
+        600,
+        270,
+        780
+      ],
+      "description": "keep life unpushed\nsoft days\ncalm mode",
+      "label": "keep life unpushed\nsoft days\nc",
+      "method": "local",
+      "text": "keep life unpushed\nsoft days\ncalm mode",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        585,
+        804,
+        675,
+        1140
+      ],
+      "description": "go\nwhere\nyou\nfeel\nlight",
+      "label": "go\nwhere\nyou\nfeel\nlight",
+      "method": "local",
+      "text": "go\nwhere\nyou\nfeel\nlight",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        585,
+        600,
+        675,
+        660
+      ],
+      "description": "Breathe and let it be.",
+      "label": "Breathe and let it be.",
+      "method": "local",
+      "text": "Breathe and let it be.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        585,
+        180,
+        675,
+        420
+      ],
+      "description": "slow your pace\nslow your pace\nbreathe deep\nno need to hurry",
+      "label": "slow your pace\nslow your pace\n",
+      "method": "local",
+      "text": "slow your pace\nslow your pace\nbreathe deep\nno need to hurry",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        765,
+        180,
+        855,
+        420
+      ],
+      "description": "move at ease\nsoftly go with the flow",
+      "label": "move at ease\nsoftly go with th",
+      "method": "local",
+      "text": "move at ease\nsoftly go with the flow",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        90,
+        600,
+        180,
+        780
+      ],
+      "description": "go where you feel light",
+      "label": "go where you feel light",
+      "method": "local",
+      "text": "go where you feel light",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_middle_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6"
+  ]
+}

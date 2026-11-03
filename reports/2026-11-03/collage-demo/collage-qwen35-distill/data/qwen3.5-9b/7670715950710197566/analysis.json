@@ -1,0 +1,148 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "户外公园场景，包含蓝天、白云、深色栅栏、绿色草地和树木，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "户外公园场景，包含蓝天、白云、深色栅栏、绿色草地和树木，构成",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        200,
+        90,
+        506,
+        480
+      ],
+      "description": "上方人物半身照片，人物低头，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "上方人物半身照片，人物低头，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        479,
+        370,
+        704,
+        600
+      ],
+      "description": "右侧猫咪照片，猫咪在砖地上行走，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右侧猫咪照片，猫咪在砖地上行走，保留照片内的摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        101,
+        442,
+        344,
+        790
+      ],
+      "description": "左侧树木照片，保留树木及背景环境，显示区域为矩形。",
+      "label": "左侧树木照片，保留树木及背景环境，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        263,
+        678,
+        695,
+        990
+      ],
+      "description": "下方人物半身照片，人物抬头，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "下方人物半身照片，人物抬头，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        162,
+        722,
+        222
+      ],
+      "description": "手写风格文字“好天气！”，作为独立固定装饰保留。",
+      "label": "手写风格文字“好天气！”，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        294,
+        749,
+        450
+      ],
+      "description": "蓝色心形图案，内部有白色圆点，作为独立固定装饰保留。",
+      "label": "蓝色心形图案，内部有白色圆点，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gift",
+      "kind": "overlay",
+      "bbox": [
+        587,
+        642,
+        749,
+        1110
+      ],
+      "description": "棕色带白点的礼物盒图案，带有蝴蝶结和飘带，作为独立固定装饰保留。",
+      "label": "棕色带白点的礼物盒图案，带有蝴蝶结和飘带，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        542,
+        162,
+        722,
+        222
+      ],
+      "description": "好天气！",
+      "label": "好天气！",
+      "method": "local",
+      "text": "好天气！",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_cat",
+    "photo_trees",
+    "photo_bottom",
+    "overlay_text",
+    "overlay_heart",
+    "overlay_gift",
+    "text_1"
+  ]
+}

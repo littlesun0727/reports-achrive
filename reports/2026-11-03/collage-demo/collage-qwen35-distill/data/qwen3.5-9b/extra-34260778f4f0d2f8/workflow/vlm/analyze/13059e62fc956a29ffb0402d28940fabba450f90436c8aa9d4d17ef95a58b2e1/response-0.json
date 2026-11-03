@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b7e0e5ac57476eeb",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7083,
+    "total_tokens": 7813,
+    "completion_tokens": 730,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"户外草地与树林背景，一位穿着蓝白条纹运动背心和白色短裙的年轻女性坐在草地上，手持足球，佩戴耳机，头发编成双麻花辫并系有白色蝴蝶结。摄影环境完整延伸至画布边缘，作为全画布底图承载所有上层元素。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_stretch\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        50,\n        50,\n        350,\n        400\n      ],\n      \"description\": \"左上角独立照片，展示同一位女性做拉伸动作，手持足球，背景为树林。照片边缘有白色描边，主体去背景，仅保留人物与足球。\"\n    },\n    {\n      \"id\": \"photo_video\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        650,\n        50,\n        950,\n        400\n      ],\n      \"description\": \"右上角视频播放器界面截图，显示同一位女性手持足球的画面，下方有播放进度条、暂停按钮及音乐信息。整体为矩形窗口，保留界面元素。\"\n    },\n    {\n      \"id\": \"overlay_heart\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        450,\n        150,\n        550,\n        250\n      ],\n      \"description\": \"蓝色心形图案，位于画面中上部，作为装饰性贴纸，无文字，独立于照片之外。\"\n    },\n    {\n      \"id\": \"overlay_star\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        50,\n        350,\n        150,\n        450\n      ],\n      \"description\": \"白色星形闪光图案，位于左下角，带有放射状线条，作为装饰贴纸，独立于照片之外。\"\n    },\n    {\n      \"id\": \"overlay_line\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        150,\n        350,\n        550,\n        950\n      ],\n      \"description\": \"浅蓝色耳机线状装饰，从左下角延伸至右下角，连接两个星星图案，呈曲线形态，作为独立装饰元素。\"\n    },\n    {\n      \"id\": \"text_music\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        650,\n        300,\n        700,\n        320\n      ],\n      \"text\": \"Music\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_stretch\",\n    \"photo_video\",\n    \"overlay_heart\",\n    \"overlay_star\",\n    \"overlay_line\",\n    \"text_music\"\n  ]\n}",
+  "tool_calls": false
+}

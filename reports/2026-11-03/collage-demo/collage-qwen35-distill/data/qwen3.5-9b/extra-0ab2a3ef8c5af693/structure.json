@@ -1,0 +1,162 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "公园草坪与天空的连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        203,
+        44,
+        528,
+        372
+      ],
+      "description": "左上角照片，展示一只穿着黄色衣服的腊肠犬在草地上，背景有树木和栅栏，照片边缘有白色手绘星星装饰。"
+    },
+    {
+      "id": "photo_path",
+      "kind": "photo",
+      "bbox": [
+        472,
+        100,
+        745,
+        300
+      ],
+      "description": "右上角照片，展示一条林间小径，两侧是茂密的树木，照片边缘有白色手绘星星和对话气泡装饰。"
+    },
+    {
+      "id": "photo_bridge",
+      "kind": "photo",
+      "bbox": [
+        178,
+        372,
+        450,
+        640
+      ],
+      "description": "左侧中间照片，展示一座拱形桥梁，背景是蓝天和建筑物，照片上方有白色云朵装饰。"
+    },
+    {
+      "id": "photo_lake",
+      "kind": "photo",
+      "bbox": [
+        590,
+        310,
+        930,
+        640
+      ],
+      "description": "右侧中间照片，展示一片湖泊和远处的树木，照片上方有白色手绘星星和对话气泡装饰。"
+    },
+    {
+      "id": "photo_sign",
+      "kind": "photo",
+      "bbox": [
+        320,
+        640,
+        690,
+        810
+      ],
+      "description": "底部中间照片，展示一个带有“上海世博文化公园”字样的标志牌，背景是树木和水面，照片上方有白色心形装饰。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        140,
+        240,
+        190
+      ],
+      "description": "左上角的白色手绘星星装饰，位于照片_dog的左侧。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        140,
+        300,
+        180
+      ],
+      "description": "左上角的白色手绘星星装饰，位于照片_dog的右侧。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        90,
+        920,
+        190
+      ],
+      "description": "右上角的灰色手绘星星装饰，位于照片_path的右侧。"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        430,
+        550,
+        490
+      ],
+      "description": "中间的橙色手绘笑脸装饰，位于照片_bridge和照片_lake之间。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        560,
+        600,
+        620
+      ],
+      "description": "中间的白色手绘心形装饰，位于照片_bridge和照片_lake之间。"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        750,
+        200,
+        820
+      ],
+      "description": "左下角的白色手绘心形装饰，位于照片_sign的左侧。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        200,
+        880,
+        800,
+        920
+      ],
+      "text": "En fait, les choses ne sont pas toujours les mêmes, mais quand je les regarde, je vois toujours la même chose.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_dog",
+    "photo_path",
+    "photo_bridge",
+    "photo_lake",
+    "photo_sign",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_smile",
+    "overlay_heart",
+    "overlay_heart_2",
+    "text_1"
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1438
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1438
+      ],
+      "description": "连续的米色纹理纸底，四周及照片间隙保留相同纸纹；照片独立替换，纸底保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的米色纹理纸底，四周及照片间隙保留相同纸纹；照片独立替换",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        130,
+        374,
+        454,
+        805
+      ],
+      "description": "饮品与购物袋照片，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "饮品与购物袋照片，保留照片内的摄影环境，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_friends",
+      "kind": "photo",
+      "bbox": [
+        540,
+        259,
+        864,
+        719
+      ],
+      "description": "两位人物合影照片，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "两位人物合影照片，保留照片内的摄影环境，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_stuffed",
+      "kind": "photo",
+      "bbox": [
+        540,
+        791,
+        864,
+        1078
+      ],
+      "description": "Hello Kitty 玩偶照片，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "Hello Kitty 玩偶照片，保留照片内的摄影环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_hand",
+      "kind": "photo",
+      "bbox": [
+        130,
+        892,
+        454,
+        1179
+      ],
+      "description": "手持玩偶照片，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "手持玩偶照片，保留照片内的摄影环境，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clamp",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        29,
+        702,
+        173
+      ],
+      "description": "顶部黑色手绘回形针装饰，压在纸底上，作为独立固定装饰保留。",
+      "label": "顶部黑色手绘回形针装饰，压在纸底上，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_todo",
+      "kind": "text",
+      "bbox": [
+        130,
+        259,
+        454,
+        316
+      ],
+      "description": "#TO DO LIST:",
+      "label": "#TO DO LIST:",
+      "method": "local",
+      "text": "#TO DO LIST:",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_chinese",
+      "kind": "text",
+      "bbox": [
+        130,
+        791,
+        454,
+        848
+      ],
+      "description": "来一杯续命水！",
+      "label": "来一杯续命水！",
+      "method": "local",
+      "text": "来一杯续命水！",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_happy",
+      "kind": "text",
+      "bbox": [
+        648,
+        647,
+        864,
+        748
+      ],
+      "description": "Haaaaapy\nplog.",
+      "label": "Haaaaapy\nplog.",
+      "method": "local",
+      "text": "Haaaaapy\nplog.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_nice",
+      "kind": "text",
+      "bbox": [
+        540,
+        1078,
+        864,
+        1222
+      ],
+      "description": "HAVE A\nNICE DAY",
+      "label": "HAVE A\nNICE DAY",
+      "method": "local",
+      "text": "HAVE A\nNICE DAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        575,
+        216,
+        791
+      ],
+      "description": "左侧心形贴纸装饰，压在纸底上，作为独立固定装饰保留。",
+      "label": "左侧心形贴纸装饰，压在纸底上，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        1150,
+        270,
+        1265
+      ],
+      "description": "底部小熊贴纸装饰，压在纸底上，作为独立固定装饰保留。",
+      "label": "底部小熊贴纸装饰，压在纸底上，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_drinks",
+    "photo_friends",
+    "photo_stuffed",
+    "photo_hand",
+    "overlay_clamp",
+    "text_todo",
+    "text_chinese",
+    "text_happy",
+    "text_nice",
+    "overlay_heart",
+    "overlay_bear"
+  ]
+}

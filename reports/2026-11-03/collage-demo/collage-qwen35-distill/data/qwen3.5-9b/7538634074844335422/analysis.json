@@ -1,0 +1,109 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        600
+      ],
+      "description": "上半部分人物自拍照片，人物直视镜头，保留人物及身后的摄影环境，显示区域为水平矩形。",
+      "label": "上半部分人物自拍照片，人物直视镜头，保留人物及身后的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        600,
+        900,
+        1200
+      ],
+      "description": "下半部分人物近景照片，人物佩戴发夹，保留人物及身后的摄影环境，显示区域为水平矩形。",
+      "label": "下半部分人物近景照片，人物佩戴发夹，保留人物及身后的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        540,
+        234,
+        708
+      ],
+      "description": "左侧的方格纸风格便签贴纸，包含韩文手写文字和图案，作为独立固定装饰保留。",
+      "label": "左侧的方格纸风格便签贴纸，包含韩文手写文字和图案，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stickers",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        828,
+        889,
+        960
+      ],
+      "description": "右下角的三只小熊贴纸，作为独立固定装饰保留。",
+      "label": "右下角的三只小熊贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        135,
+        72,
+        288,
+        168
+      ],
+      "description": "Have a ☺\nGood Day",
+      "label": "Have a ☺\nGood Day",
+      "method": "local",
+      "text": "Have a ☺\nGood Day",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_note",
+    "overlay_stickers",
+    "text_1"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-bad9b6ad8c9b3c72",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7786,
+    "completion_tokens": 839,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"雨天撑伞视角的连续摄影底图，包含雨滴、伞骨、伞下地面及鞋子，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        650,\n        80,\n        900,\n        240\n      ],\n      \"description\": \"右上角绿色树叶特写照片，保留树叶及背景，左上角有米色胶带装饰。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        70,\n        750,\n        320,\n        920\n      ],\n      \"description\": \"左下角雨滴特写照片，保留雨滴及背景，四周有白色胶带装饰。\"\n    },\n    {\n      \"id\": \"overlay_four_leaf\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        750,\n        320,\n        850,\n        420\n      ],\n      \"description\": \"绿色四叶草贴纸，中心有白色卡通形象，位于文字框右上方。\"\n    },\n    {\n      \"id\": \"text_cn\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        200,\n        420,\n        500,\n        520\n      ],\n      \"text\": \"消失的下雨天，\\n我好想再淋一遍。\",\n      \"color\": \"#000000\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_en\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        500,\n        600,\n        900,\n        650\n      ],\n      \"text\": \"Disappearing rainy days,\\nI want to get wet for another day.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_rainy\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        130,\n        780,\n        250,\n        820\n      ],\n      \"text\": \"Rainy\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_drops\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        400,\n        700,\n        950,\n        850\n      ],\n      \"description\": \"白色水滴装饰，分布在照片下方区域，独立于摄影内容。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_top_right\",\n    \"photo_bottom_left\",\n    \"overlay_four_leaf\",\n    \"text_cn\",\n    \"text_en\",\n    \"text_rainy\",\n    \"overlay_drops\"\n  ]\n}",
+  "tool_calls": false
+}

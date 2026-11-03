@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的楼梯通道摄影铺满画布，白色砖墙、金属扶手和右侧台阶延伸至四边。一名戴黑帽、穿白衣的长发女性位于左侧前景，回头看向镜头，身体下部被画布裁切。墙上出口标识属于摄影内容；右上心形照片及白色装饰遮挡局部，人物与完整通道环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        579,
+        225,
+        977,
+        570
+      ],
+      "description": "右上心形窗口内的独立照片：一名戴黑帽、穿白色露肩上衣的长发女性面向镜头张嘴，举起手机，显示头部至腰部，保留身后的砖墙、扶手和通道环境。姿态与全画布照片不同。窗口周围有双重白色手绘心形轮廓，底部交叉延伸，轮廓随照片窗口保留；没有沿人物去背景。"
+    },
+    {
+      "id": "stars_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        180,
+        213,
+        253
+      ],
+      "description": "左上方白色手绘星星装饰组，包含两颗空心五角星、十字闪光及小圆点，保留完整笔画与内部空隙。"
+    },
+    {
+      "id": "doodle_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        171,
+        906,
+        245
+      ],
+      "description": "心形窗口上方的白色手绘装饰组，包含空心星星、小十字及向右上伸展的箭头状涂鸦，整体保留。"
+    },
+    {
+      "id": "stars_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        854,
+        462,
+        957,
+        541
+      ],
+      "description": "心形窗口右下侧的白色星星装饰组，包含两颗大小不同的空心五角星、小十字与点状笔画，叠在照片边缘及下方通道上。"
+    },
+    {
+      "id": "stars_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        643,
+        852,
+        717
+      ],
+      "description": "右下方扶手附近的白色手绘星星组，包含两颗空心五角星、小十字与零散小点，作为完整装饰保留。"
+    },
+    {
+      "id": "stars_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        209,
+        826,
+        318,
+        896
+      ],
+      "description": "左下人物衣服上的白色手绘星星组，包含两颗空心五角星、小十字和圆点，与人物摄影内容独立。"
+    },
+    {
+      "id": "lettering_bottom",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        826,
+        731,
+        884
+      ],
+      "description": "底部偏右的白色韩文手写字样“좋은 날”，字符具有不规则笔画和独立错落的位置，按完整艺术字保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_heart",
+    "stars_upper_left",
+    "doodle_upper_right",
+    "stars_middle_right",
+    "stars_lower_right",
+    "stars_lower_left",
+    "lettering_bottom"
+  ]
+}

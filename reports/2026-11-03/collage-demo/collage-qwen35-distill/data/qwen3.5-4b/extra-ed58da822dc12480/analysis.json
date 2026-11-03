@@ -1,0 +1,141 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        639
+      ],
+      "description": "顶部横向海景照片，包含天空、海面、远处礁石和左侧船只，底部中央有白色文字水印。",
+      "label": "顶部横向海景照片，包含天空、海面、远处礁石和左侧船只，底部中",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        639,
+        1080,
+        1279
+      ],
+      "description": "中部横向海滨城市照片，包含海面、防波堤、沙滩、人群及远处高楼，底部中央有白色文字水印。",
+      "label": "中部横向海滨城市照片，包含海面、防波堤、沙滩、人群及远处高楼",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1279,
+        1080,
+        1920
+      ],
+      "description": "底部横向礁石海岸照片，包含海浪、岩石海岸线，底部中央有白色文字水印。",
+      "label": "底部横向礁石海岸照片，包含海浪、岩石海岸线，底部中央有白色文",
+      "method": "local"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        423,
+        584,
+        654,
+        612
+      ],
+      "description": "DJI OSMO POCKET 4P",
+      "label": "DJI OSMO POCKET 4P",
+      "method": "local",
+      "text": "DJI OSMO POCKET 4P",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        423,
+        1223,
+        654,
+        1252
+      ],
+      "description": "DJI OSMO POCKET 4P",
+      "label": "DJI OSMO POCKET 4P",
+      "method": "local",
+      "text": "DJI OSMO POCKET 4P",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        423,
+        1820,
+        654,
+        1849
+      ],
+      "description": "DJI OSMO POCKET 4P",
+      "label": "DJI OSMO POCKET 4P",
+      "method": "local",
+      "text": "DJI OSMO POCKET 4P",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "text_top",
+    "photo_middle",
+    "text_middle",
+    "photo_bottom",
+    "text_bottom"
+  ]
+}

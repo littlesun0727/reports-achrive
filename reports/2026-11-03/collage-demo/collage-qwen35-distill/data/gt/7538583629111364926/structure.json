@@ -1,0 +1,148 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的游戏渲染场景覆盖全画布：中央一名白色长发、浅蓝披肩和深色裙装的人物背向观者站立，周围为强烈金白反光的洞穴状环境，下方有草地，空中散布小鱼与光斑。环境在画布边缘和各显示器之间连续，上层五个显示器遮挡局部；中央人物与完整环境共同替换，显示器框体及其内口画面另列。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        108,
+        225,
+        301
+      ],
+      "description": "左上显示器内的独立游戏画面，两名戴花饰的角色相对站立，左侧角色穿橙红披风，右侧角色穿蓝色上衣与深色裤装，背景为暖色天空和花草。保留完整摄影环境，画面随显示器透视倾斜，边缘由屏幕内口裁切。"
+    },
+    {
+      "id": "frame_upper_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        75,
+        272,
+        388
+      ],
+      "description": "左上斜置的黑色厚壳显示器，左侧部分超出画布，保留包围单个屏幕的厚边框、立体侧面、反光与阴影，不包含屏幕画面。",
+      "photo_id": [
+        "photo_upper_left"
+      ]
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        744,
+        78,
+        1000,
+        299
+      ],
+      "description": "右上显示器内的独立游戏画面，金黄色花地中有三名披风角色，左侧黄色披风、中央较小的深色与红色角色、右侧较大的浅色披风角色。保留明亮场景环境，右侧延伸至画布外，画面沿透视屏幕内口裁切。"
+    },
+    {
+      "id": "frame_upper_right",
+      "kind": "frame",
+      "bbox": [
+        701,
+        31,
+        1000,
+        413
+      ],
+      "description": "右上大型黑色显示器框体，右侧出画，保留倾斜的厚边框、下方宽厚外壳、侧面及金色反光；只有一个屏幕窗口，内口画面独立替换。",
+      "photo_id": [
+        "photo_upper_right"
+      ]
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        810,
+        397,
+        1000,
+        555
+      ],
+      "description": "右侧中部显示器内的独立游戏画面，两名白发、戴橙色花环的角色并肩面向观者，穿蓝绿色上衣和深色下装，身后可见绿色草地与深色石壁。保留环境，画面沿倾斜屏幕窗口裁切，右侧被画布截断。"
+    },
+    {
+      "id": "frame_middle_right",
+      "kind": "frame",
+      "bbox": [
+        773,
+        373,
+        1000,
+        609
+      ],
+      "description": "右侧中部黑色厚壳显示器，右端超出画布，完整保留单窗口周围的框沿、下方宽边、左侧立体厚度与反光，不包含内口角色画面。",
+      "photo_id": [
+        "photo_middle_right"
+      ]
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        571,
+        173,
+        753
+      ],
+      "description": "左下显示器内的独立游戏画面，两名浅发角色靠坐在紫粉色花丛中，上方为大面积暖橙色天空。保留天空、花丛及人物，画面按屏幕内口裁切，左边延伸至画布外。"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        528,
+        334,
+        878
+      ],
+      "description": "左下大型黑色显示器，屏幕偏在左侧，右侧有宽厚的立体机壳，整体左端出画。保留不规则透视外轮廓、黑色框沿、右侧外壳上的彩色光斑和下缘阴影，内口画面另列。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        534,
+        720,
+        745,
+        908
+      ],
+      "description": "下方偏右显示器内的独立游戏画面，两名角色坐在一起，左侧穿橙红服装，右侧为浅发与浅色披风，身后及地面分布蓝白色发光花朵。保留完整场景环境，画面沿略倾斜的屏幕窗口裁切。"
+    },
+    {
+      "id": "frame_lower_right",
+      "kind": "frame",
+      "bbox": [
+        487,
+        675,
+        1000,
+        1000
+      ],
+      "description": "下方偏右的大型黑色显示器，单个屏幕位于框体左侧，宽厚右侧机壳延伸至画布右边和底边。保留屏幕周围框沿、倾斜顶部、立体侧面、暗部与反光，屏幕画面独立替换。",
+      "photo_id": [
+        "photo_lower_right"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "frame_upper_left",
+    "photo_upper_right",
+    "frame_upper_right",
+    "photo_middle_right",
+    "frame_middle_right",
+    "photo_lower_left",
+    "frame_lower_left",
+    "photo_lower_right",
+    "frame_lower_right"
+  ]
+}

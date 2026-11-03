@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "单人眼部极近景摄影，眼睛位于画面中央，眉毛横跨上部，细碎黑发垂落额头及右侧，浅色皮肤延伸至画布四边，形成连续全幅画面。虹膜局部被人物及星光装饰覆盖；眼睛、眉毛、头发与皮肤整体随底图替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        397,
+        449,
+        510,
+        593
+      ],
+      "description": "虹膜中央的一名黑发男子胸像，穿深色外套，身体正面、头部略侧转，目视前方。沿头发及肩部轮廓独立显示，不保留原摄影环境；下部止于虹膜下缘，胸前被蓝白色光环遮挡。"
+    },
+    {
+      "id": "overlay_cosmic",
+      "kind": "overlay",
+      "bbox": [
+        333,
+        440,
+        584,
+        595
+      ],
+      "description": "虹膜内的宇宙星光装饰，包含分散的白色与蓝色星点、细碎闪光，以及横绕人物胸前的蓝白色椭圆发光轨道；保留光晕和半透明边缘，星点间隙透出下层虹膜及人物。整体限制在眼球虹膜区域。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "overlay_cosmic"
+  ]
+}

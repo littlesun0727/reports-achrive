@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "连续的深蓝色牛仔布纹理底图，带有白色缝线和散落的细小圆点装饰；照片独立替换，固定底纹保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的深蓝色牛仔布纹理底图，带有白色缝线和散落的细小圆点装饰",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        108,
+        90,
+        791,
+        543
+      ],
+      "description": "上方人物近景照片，女子坐在窗边托腮看书，桌上有饮料，保留车内摄影环境，显示区域为水平矩形。",
+      "label": "上方人物近景照片，女子坐在窗边托腮看书，桌上有饮料，保留车内",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        104,
+        640,
+        793,
+        1106
+      ],
+      "description": "下方人物近景照片，女子手持书本看向窗外，桌上有饮料和相机，与上方姿态不同，保留车内摄影环境，显示区域为水平矩形。",
+      "label": "下方人物近景照片，女子手持书本看向窗外，桌上有饮料和相机，与",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        29,
+        216,
+        210
+      ],
+      "description": "左上角大五角星贴纸，浅蓝色带白点图案，部分压在上方照片边缘上。",
+      "label": "左上角大五角星贴纸，浅蓝色带白点图案，部分压在上方照片边缘上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        210,
+        99,
+        282
+      ],
+      "description": "左侧小五角星贴纸，浅蓝色带白点图案，位于上方照片左下侧。",
+      "label": "左侧小五角星贴纸，浅蓝色带白点图案，位于上方照片左下侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        186,
+        886,
+        341
+      ],
+      "description": "右上角中等大小五角星贴纸，浅蓝色带白点图案，位于上方照片右侧。",
+      "label": "右上角中等大小五角星贴纸，浅蓝色带白点图案，位于上方照片右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        549,
+        324,
+        641
+      ],
+      "description": "中间偏左小五角星贴纸，浅蓝色带白点图案，位于两张照片之间。",
+      "label": "中间偏左小五角星贴纸，浅蓝色带白点图案，位于两张照片之间。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        545,
+        864,
+        731
+      ],
+      "description": "右侧中等大小五角星贴纸，浅蓝色带白点图案，跨越两张照片之间的缝隙。",
+      "label": "右侧中等大小五角星贴纸，浅蓝色带白点图案，跨越两张照片之间的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        234,
+        1048,
+        351,
+        1168
+      ],
+      "description": "左下角中等大小五角星贴纸，浅蓝色带白点图案，部分压在下方照片边缘上。",
+      "label": "左下角中等大小五角星贴纸，浅蓝色带白点图案，部分压在下方照片",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "photo_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6"
+  ]
+}

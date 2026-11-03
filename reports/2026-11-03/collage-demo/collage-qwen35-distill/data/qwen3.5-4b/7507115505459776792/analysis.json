@@ -1,0 +1,251 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "沙滩、海面和天空构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、木桩和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "沙滩、海面和天空构成连续摄影底图，完整显示区域延伸至画布四边",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        122,
+        115,
+        392,
+        475
+      ],
+      "description": "左上角照片，展示棕榈树、蓝色海面、沙滩和长椅，保留完整摄影环境。",
+      "label": "左上角照片，展示棕榈树、蓝色海面、沙滩和长椅，保留完整摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        350,
+        364,
+        614,
+        709
+      ],
+      "description": "中间照片，展示海边木牌、长椅和远处船只，保留完整摄影环境。",
+      "label": "中间照片，展示海边木牌、长椅和远处船只，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        182,
+        612,
+        396,
+        896
+      ],
+      "description": "左下角照片，展示棕榈树、绿草地、步道和蓝色指示牌，保留完整摄影环境。",
+      "label": "左下角照片，展示棕榈树、绿草地、步道和蓝色指示牌，保留完整摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        514,
+        745,
+        781,
+        1096
+      ],
+      "description": "右下角照片，展示蓝色栈道、树木和海景，保留完整摄影环境。",
+      "label": "右下角照片，展示蓝色栈道、树木和海景，保留完整摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "star_pink",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        65,
+        167,
+        168
+      ],
+      "description": "粉色五角星装饰，位于左上角照片上方。",
+      "label": "粉色五角星装饰，位于左上角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "star_yellow_1",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        582,
+        228,
+        654
+      ],
+      "description": "黄色五角星装饰，位于左下角照片上方。",
+      "label": "黄色五角星装饰，位于左下角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "star_yellow_2",
+      "kind": "overlay",
+      "bbox": [
+        577,
+        334,
+        646,
+        403
+      ],
+      "description": "黄色五角星装饰，位于中间照片右上方。",
+      "label": "黄色五角星装饰，位于中间照片右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        852,
+        439,
+        922
+      ],
+      "description": "蓝色五角星装饰，位于左下角照片右下方。",
+      "label": "蓝色五角星装饰，位于左下角照片右下方。",
+      "method": "extract"
+    },
+    {
+      "id": "shell_green",
+      "kind": "overlay",
+      "bbox": [
+        361,
+        238,
+        430,
+        304
+      ],
+      "description": "绿色贝壳装饰，位于左上角照片右下方。",
+      "label": "绿色贝壳装饰，位于左上角照片右下方。",
+      "method": "extract"
+    },
+    {
+      "id": "shell_blue",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        1060,
+        817,
+        1128
+      ],
+      "description": "蓝黄条纹贝壳装饰，位于右下角照片右下方。",
+      "label": "蓝黄条纹贝壳装饰，位于右下角照片右下方。",
+      "method": "extract"
+    },
+    {
+      "id": "wave_white",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        682,
+        819,
+        750
+      ],
+      "description": "白色波浪线条装饰，位于中间照片右下方。",
+      "label": "白色波浪线条装饰，位于中间照片右下方。",
+      "method": "extract"
+    },
+    {
+      "id": "driftwood_1",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        486,
+        207,
+        948
+      ],
+      "description": "左侧木桩，从左下角延伸至中间区域。",
+      "label": "左侧木桩，从左下角延伸至中间区域。",
+      "method": "extract"
+    },
+    {
+      "id": "driftwood_2",
+      "kind": "overlay",
+      "bbox": [
+        202,
+        714,
+        284,
+        994
+      ],
+      "description": "中间偏左木桩，从底部延伸至中间区域。",
+      "label": "中间偏左木桩，从底部延伸至中间区域。",
+      "method": "extract"
+    },
+    {
+      "id": "driftwood_3",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        714,
+        562,
+        1050
+      ],
+      "description": "中间偏右木桩，从底部延伸至中间区域。",
+      "label": "中间偏右木桩，从底部延伸至中间区域。",
+      "method": "extract"
+    },
+    {
+      "id": "driftwood_4",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        486,
+        747,
+        744
+      ],
+      "description": "右侧木桩，从中间延伸至右下角。",
+      "label": "右侧木桩，从中间延伸至右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "driftwood_5",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        762,
+        899,
+        1020
+      ],
+      "description": "最右侧木桩，从中间延伸至右下角。",
+      "label": "最右侧木桩，从中间延伸至右下角。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "star_pink",
+    "shell_green",
+    "star_yellow_1",
+    "star_yellow_2",
+    "star_blue",
+    "wave_white",
+    "shell_blue",
+    "driftwood_1",
+    "driftwood_2",
+    "driftwood_3",
+    "driftwood_4",
+    "driftwood_5"
+  ]
+}

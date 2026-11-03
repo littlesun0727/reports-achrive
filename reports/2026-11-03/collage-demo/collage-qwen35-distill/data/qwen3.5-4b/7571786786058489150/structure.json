@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "深色星空纹理底图，布满白色星点与暗色噪点，作为全画布背景承载所有独立对象；上层照片、文字与装饰遮挡局部，保留星空环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        153,
+        76,
+        498,
+        431
+      ],
+      "description": "左上角街景照片，展示黄昏时分的街道、路灯、树木、公交车和汽车，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        555,
+        231,
+        892,
+        486
+      ],
+      "description": "右上角雨景照片，展示雨夜中的路灯、树叶和远处建筑，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        83,
+        484,
+        419,
+        735
+      ],
+      "description": "左下角窗景照片，展示雨夜中的窗户、窗台和窗外模糊的街景，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        498,
+        535,
+        868,
+        903
+      ],
+      "description": "右下角雨景照片，展示雨夜中的街道、路灯、树木和落叶，保留完整摄影环境。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        52,
+        942,
+        935
+      ],
+      "description": "白色五角星装饰，散布于画布各处，部分覆盖照片边缘，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_leaves",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        28,
+        592,
+        785
+      ],
+      "description": "棕色落叶装饰，散布于画布各处，部分覆盖照片边缘，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_circles",
+      "kind": "overlay",
+      "bbox": [
+        298,
+        315,
+        658,
+        615
+      ],
+      "description": "白色手绘圆圈装饰，连接照片区域，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        68,
+        695,
+        405,
+        965
+      ],
+      "text": "Happiness\nIt may come and go\nLike dust and rain\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_stars",
+    "overlay_leaves",
+    "overlay_circles",
+    "text_1"
+  ]
+}

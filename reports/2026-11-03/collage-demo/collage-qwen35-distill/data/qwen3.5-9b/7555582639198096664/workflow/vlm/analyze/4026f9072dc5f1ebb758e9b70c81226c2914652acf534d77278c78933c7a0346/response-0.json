@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a83830b074720222",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7663,
+    "completion_tokens": 716,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"咖啡馆室内环境作为连续摄影底图，包含木质桌椅、墙面装饰、暖色灯光及模糊背景，完整显示区域延伸至画布四边；上层照片和手绘装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        67,\n        92,\n        558,\n        570\n      ],\n      \"description\": \"左侧人物半身照片，人物穿深蓝色毛衣，手托下巴看书，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        530,\n        338,\n        900,\n        568\n      ],\n      \"description\": \"右侧甜点特写照片，心形窗口内展示布丁甜品，保留照片内的摄影环境，显示区域为心形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        528,\n        696,\n        950,\n        956\n      ],\n      \"description\": \"下方人物近景照片，人物穿深蓝色毛衣，手托脸颊，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_drawing_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        370,\n        68,\n        980,\n        300\n      ],\n      \"description\": \"顶部手绘涂鸦装饰，包含星星、爱心、表情符号和数字63，白色线条风格，位于画布右上区域。\"\n    },\n    {\n      \"id\": \"overlay_drawing_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        50,\n        630,\n        420,\n        950\n      ],\n      \"description\": \"底部手绘涂鸦装饰，包含蛋糕、星星、对话气泡和文字“今日有咖”，白色线条风格，位于画布左下区域。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        200,\n        680,\n        380,\n        740\n      ],\n      \"text\": \"今日有咖\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_left\",\n    \"photo_right\",\n    \"photo_bottom\",\n    \"overlay_drawing_top\",\n    \"overlay_drawing_bottom\",\n    \"text_1\"\n  ]\n}",
+  "tool_calls": false
+}

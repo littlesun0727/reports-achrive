@@ -1,0 +1,153 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "denim_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "深蓝色牛仔布纹理底图，覆盖全画布，包含白色小圆点装饰；两张人物照片独立嵌入，照片间隙及边缘保留牛仔布纹理。",
+      "background_type": "reference_clean",
+      "label": "深蓝色牛仔布纹理底图，覆盖全画布，包含白色小圆点装饰；两张人",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        101,
+        89,
+        794,
+        549
+      ],
+      "description": "上方人物半身照片，人物手托脸颊，背景为车窗与窗帘，保留完整摄影环境。",
+      "label": "上方人物半身照片，人物手托脸颊，背景为车窗与窗帘，保留完整摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        97,
+        643,
+        799,
+        1109
+      ],
+      "description": "下方人物半身照片，人物手持书本，背景为车窗与座椅，保留完整摄影环境。",
+      "label": "下方人物半身照片，人物手持书本，背景为车窗与座椅，保留完整摄",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        29,
+        203,
+        208
+      ],
+      "description": "左上角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "label": "左上角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        208,
+        99,
+        283
+      ],
+      "description": "左侧中部蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "label": "左侧中部蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        544,
+        306,
+        640
+      ],
+      "description": "两张照片之间的蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "label": "两张照片之间的蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        184,
+        884,
+        331
+      ],
+      "description": "右上角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "label": "右上角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        568,
+        859,
+        736
+      ],
+      "description": "右侧中部蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "label": "右侧中部蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        229,
+        1047,
+        333,
+        1169
+      ],
+      "description": "左下角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "label": "左下角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        568,
+        884,
+        736
+      ],
+      "description": "右下角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "label": "右下角蓝色五角星贴纸，带有白色小点纹理，覆盖牛仔布底图。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "denim_base",
+    "photo_top",
+    "photo_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_star_7"
+  ]
+}

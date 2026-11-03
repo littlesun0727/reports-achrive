@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "俯拍视角的室内场景，包含木质圆桌、桌上的食物（蛋糕、饼干、饮品）、墙上的装饰画、墙角的植物以及前景中的人物腿部和衣物。摄影内容连续且完整，延伸至画布边缘，作为全画布底图承载所有独立对象。"
+  },
+  "objects": [
+    {
+      "id": "overlay_sticker_1",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        100,
+        350,
+        150
+      ],
+      "description": "黄白格纹的胶带贴纸，位于上方照片的左上角，作为装饰元素。"
+    },
+    {
+      "id": "overlay_sticker_2",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        50,
+        850,
+        150
+      ],
+      "description": "带有烟花和小房子的椭圆形贴纸，位于右上角墙面区域。"
+    },
+    {
+      "id": "overlay_sticker_3",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        400,
+        750,
+        450
+      ],
+      "description": "包含日文文字“(辛かったれ)”的贴纸，位于右侧黄色花朵下方。"
+    },
+    {
+      "id": "overlay_sticker_4",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        600,
+        400,
+        650
+      ],
+      "description": "粉色长条形贴纸，包含四个白色小熊头像，位于左侧植物下方。"
+    },
+    {
+      "id": "overlay_sticker_5",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        550,
+        850,
+        600
+      ],
+      "description": "蓝白格纹的胶带贴纸，位于右下方圆形照片的右上角。"
+    },
+    {
+      "id": "overlay_sticker_6",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        700,
+        200,
+        800
+      ],
+      "description": "包含日文文字“‘現実と夢の境目。’”的贴纸，位于左下角区域。"
+    },
+    {
+      "id": "overlay_sticker_7",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        750,
+        350,
+        850
+      ],
+      "description": "带有蛋糕图案的贴纸，位于左下角文字下方。"
+    },
+    {
+      "id": "overlay_sticker_8",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        800,
+        950,
+        950
+      ],
+      "description": "包含星星和闪光线条的装饰贴纸，位于右下角区域。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        180,
+        150,
+        600,
+        450
+      ],
+      "description": "上方矩形照片，展示深色盘子里的蛋糕、饼干和一杯饮品，以及一把叉子。照片边缘有轻微模糊效果。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        450,
+        550,
+        900,
+        950
+      ],
+      "description": "右下方圆形照片，展示一杯装有水果片的饮品和一个白色毛绒玩具。照片边缘有圆形裁剪效果。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_sticker_1",
+    "overlay_sticker_2",
+    "overlay_sticker_3",
+    "overlay_sticker_4",
+    "overlay_sticker_5",
+    "overlay_sticker_6",
+    "overlay_sticker_7",
+    "overlay_sticker_8"
+  ]
+}

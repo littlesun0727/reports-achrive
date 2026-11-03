@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "柔和模糊的室内摄影底图，包含暖色调的灯光、木质家具和绿植，营造温馨氛围；画布边缘可见模糊的书架、窗户和植物，作为连续摄影环境承载全幅，上层照片和装饰遮挡局部。"
+  },
+  "objects": [
+    {
+      "id": "photo_ice_cream",
+      "kind": "photo",
+      "bbox": [
+        83,
+        186,
+        447,
+        554
+      ],
+      "description": "桌上摆满可爱玩偶、咖啡杯和复古台灯的照片，保留桌布、餐具和室内环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        492,
+        66,
+        856,
+        234
+      ],
+      "description": "打开的书页特写，文字清晰可见，保留纸张纹理和印刷内容，显示区域为矩形。"
+    },
+    {
+      "id": "photo_shelf",
+      "kind": "photo",
+      "bbox": [
+        537,
+        290,
+        901,
+        522
+      ],
+      "description": "书架上摆满书籍的照片，保留木质书架和书籍封面细节，显示区域为矩形。"
+    },
+    {
+      "id": "photo_window",
+      "kind": "photo",
+      "bbox": [
+        197,
+        660,
+        522,
+        901
+      ],
+      "description": "窗边角落的照片，包含窗台、绿植、台灯和墙面装饰，保留室内环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_plate",
+      "kind": "photo",
+      "bbox": [
+        562,
+        577,
+        897,
+        812
+      ],
+      "description": "盘子上摆放四个戴眼镜的可爱玩偶的照片，保留盘子花纹和桌面环境，显示区域为矩形。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        56,
+        583,
+        492,
+        612
+      ],
+      "text": "Pistachio Ice Cream Latte",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        562,
+        250,
+        897,
+        279
+      ],
+      "text": "About the Universe",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        27,
+        927,
+        854
+      ],
+      "description": "多个白色手绘星星和装饰线条，散布在照片之间和边缘，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_ice_cream",
+    "photo_book",
+    "photo_shelf",
+    "photo_window",
+    "photo_plate",
+    "text_1",
+    "text_2",
+    "overlay_stars"
+  ]
+}

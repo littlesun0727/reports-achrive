@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a62acba05311fde1",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7353,
+    "completion_tokens": 406,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"热带海滩摄影底图，包含棕榈树、岩石、沙滩和海浪，完整显示区域延伸至画布四边；中间人物照片遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_person\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        125,\n        165,\n        875,\n        835\n      ],\n      \"description\": \"人物坐在沙滩上的照片，保留人物及身后的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        250,\n        75,\n        750,\n        125\n      ],\n      \"text\": \"Island diary\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        250,\n        875,\n        750,\n        925\n      ],\n      \"text\": \"The melody of summer\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_person\",\n    \"text_top\",\n    \"text_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

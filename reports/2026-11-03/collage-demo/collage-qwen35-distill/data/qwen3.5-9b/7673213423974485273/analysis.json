@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1601
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1601
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        533
+      ],
+      "description": "顶部用餐场景照片，包含人物、铜锅、多道菜肴及饮品，完整显示区域为矩形，保留摄影环境。",
+      "label": "顶部用餐场景照片，包含人物、铜锅、多道菜肴及饮品，完整显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        533,
+        900,
+        1068
+      ],
+      "description": "中部拼贴照片，包含四道菜肴的圆形展示图、卡通贴纸及装饰线条，完整显示区域为矩形，保留摄影环境。",
+      "label": "中部拼贴照片，包含四道菜肴的圆形展示图、卡通贴纸及装饰线条，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1068,
+        900,
+        1601
+      ],
+      "description": "底部用餐场景照片，包含人物、铜锅、多道菜肴及饮品，完整显示区域为矩形，保留摄影环境。",
+      "label": "底部用餐场景照片，包含人物、铜锅、多道菜肴及饮品，完整显示区",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        11,
+        560,
+        180,
+        640
+      ],
+      "description": "快乐加载中",
+      "label": "快乐加载中",
+      "method": "local",
+      "text": "快乐加载中",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        90,
+        560,
+        180,
+        608
+      ],
+      "description": "一起吃饭 | 普通日子里的小浪漫",
+      "label": "一起吃饭 | 普通日子里的小浪漫",
+      "method": "local",
+      "text": "一起吃饭 | 普通日子里的小浪漫",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_1",
+    "text_2"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-40ee13d1-940f-9450-84c3-3d606984588c",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 8011,
+    "completion_tokens": 952,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1178,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 952
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"solid_color\",\n    \"color\": \"#000000\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        345,\n        27,\n        956,\n        298\n      ],\n      \"description\": \"一张特写照片，展示盛在碗中的烤鸡腿饭和煎蛋。画面包含米饭、撒有芝麻的烤鸡腿以及蛋黄完整的煎蛋。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        42,\n        135,\n        260,\n        225\n      ],\n      \"text\": \"肚子饱了\\n心情就好了\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_sparkle_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        240,\n        120,\n        300,\n        170\n      ],\n      \"description\": \"位于文字右上方的白色手绘四角星装饰图案。\"\n    },\n    {\n      \"id\": \"overlay_sparkle_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        800,\n        260,\n        950,\n      360\n      ],\n      \"description\": \"位于右上角照片右下方的白色手绘放射状线条装饰，由多个短粗线段组成。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        100,\n        325,\n        890,\n        670\n      ],\n      \"description\": \"一张俯拍照片，展示了餐桌上的多道菜品，包括香肠拼盘、番茄通心粉、汤和另一份鸡腿饭。\"\n    },\n    {\n      \"id\": \"overlay_sparkle_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        15,\n        655,\n        100,\n        705\n      ],\n      \"description\": \"位于中间照片左下方的白色手绘四角星及小圆点装饰图案。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        40,\n        695,\n        650,\n        975\n      ],\n      \"description\": \"一张近景照片，主要拍摄了两杯橙色饮料和一份番茄通心粉，背景可见部分菜单。\"\n    },\n    {\n      \"id\": \"overlay_text_checkin\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        740,\n        645,\n        945,\n        765\n      ],\n      \"description\": \"白色空心艺术字“打卡”，带有黑色描边，右侧附带一个定位图标，上方有三条短线表示强调效果。\"\n    },\n    {\n      \"id\": \"overlay_text_vlog\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        680,\n        810,\n        900,\n        885\n      ],\n      \"description\": \"白色手写体英文单词“Plog”，周围点缀着两颗小星星。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_right\",\n    \"text_1\",\n    \"overlay_sparkle_1\",\n    \"overlay_sparkle_2\",\n    \"photo_middle\",\n    \"overlay_sparkle_3\",\n    \"photo_bottom_left\",\n    \"overlay_text_checkin\",\n    \"overlay_text_vlog\"\n  ]\n}",
+  "tool_calls": false
+}

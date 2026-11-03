@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "wood_background",
+    "description": "纵向棕色木纹铺满画布，四边露出的纹理构成连续固定底图；保留木材纹路与色差，不包含上方照片、纸卡和装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        96,
+        95,
+        905,
+        903
+      ],
+      "description": "中央大幅连续实拍画面：一只涂裸色指甲的手拿着两张人物拍立得，后方还有散放的照片，上部为金色蕾丝桌布，下部露出深色木桌。手、相纸及其内部人物均属于这张实拍场景，随整张照片替换；保留完整矩形摄影环境，局部被右上卡片、左上爱心和下方人物遮挡。"
+    },
+    {
+      "id": "heart_frame",
+      "kind": "photo",
+      "bbox": [
+        47,
+        38,
+        388,
+        224
+      ],
+      "description": "左上爱心形完整摄影素材，包含棕金色蕾丝底、五张不同倾斜角度的实体拍立得及其内部人物，整体作为一个photo替换，不递归拆分五个小照片内口。保留爱心形显示范围及依附外轮廓的白色不规则撕纸描边；外围摄影背景按爱心形裁切。"
+    },
+    {
+      "id": "postcard",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        74,
+        586,
+        265
+      ],
+      "description": "右上大照片左后方露出的灰米色竖向邮笺，带横线及 Date、No.、From、To、31 等印字；右侧被大照片框遮挡，纸张和印刷整体保留。"
+    },
+    {
+      "id": "portrait_frame",
+      "kind": "frame",
+      "bbox": [
+        581,
+        43,
+        968,
+        308
+      ],
+      "description": "右上大幅白色拍立得纸框，表面带淡灰蓝磨损纹理，下边留白较宽并印有两行细小蓝色手写字。相纸材质、印字和边缘整体保留，内部单张照片独立替换。",
+      "photo_id": [
+        "portrait_photo"
+      ]
+    },
+    {
+      "id": "portrait_photo",
+      "kind": "photo",
+      "bbox": [
+        593,
+        58,
+        954,
+        254
+      ],
+      "description": "一名深色长发女子穿灰色短袖双排扣衣服，坐在桌后低头看向蛋糕，双手在身前；为腰部以上景别。保留粉米色墙面、右侧木椅、桌面和蛋糕等摄影环境，四边由矩形相纸内口裁切，没有沿人物去背景。"
+    },
+    {
+      "id": "tape",
+      "kind": "overlay",
+      "bbox": [
+        818,
+        30,
+        986,
+        82
+      ],
+      "description": "斜贴在右上照片框顶部的浅黄色半透明纸胶带，具有不规则端部、淡色纹样及黑色细小英文印字，整体覆盖纸框上缘。"
+    },
+    {
+      "id": "season_caption",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        665,
+        540,
+        686
+      ],
+      "description": "白色斜体花体字装饰，内容近似 season 19 episode1，末端连接一枚实心白色爱心；保留特殊连笔字形、字距和爱心的整体排布。"
+    },
+    {
+      "id": "butterfly_label",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        712,
+        143,
+        744
+      ],
+      "description": "左下小块浅米色横向纸贴，内部为白色线描蝴蝶，保留柔和边缘及纸面质感。"
+    },
+    {
+      "id": "floral_label",
+      "kind": "overlay",
+      "bbox": [
+        159,
+        723,
+        290,
+        784
+      ],
+      "description": "米黄色方形植物浮雕纸贴，内部有对称花枝与细线装饰，保留完整纸边、浅色压纹和阴影。"
+    },
+    {
+      "id": "small_print_label",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        780,
+        366,
+        841
+      ],
+      "description": "浅米色竖向小纸贴，上部为淡色花卉或器物插画，下部有细小印刷文字；纸张、插画和小字作为完整固定装饰保留。"
+    },
+    {
+      "id": "cat_stamp",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        846,
+        216,
+        953
+      ],
+      "description": "左下齿孔邮票贴纸，米色外缘与淡粉色内底，印有黑猫、音符及 Melody Post、10¢ 字样；全部图文、边框和纸边整体保留。"
+    },
+    {
+      "id": "foreground_woman",
+      "kind": "photo",
+      "bbox": [
+        422,
+        586,
+        1000,
+        1000
+      ],
+      "description": "右下独立人物组合：一名深色长发女子穿灰色双排扣衣服坐着，低头并双手各举一张小拍立得；手中相纸、手饰、右侧木椅与底部桌面共同属于摄影主体。外围摄影背景已去除，人物、椅子及桌面组合外侧带宽白色不规则撕纸状描边和灰色边影，右侧与底部被画布截断，覆盖中央照片。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "heart_frame",
+    "postcard",
+    "portrait_frame",
+    "portrait_photo",
+    "tape",
+    "season_caption",
+    "butterfly_label",
+    "floral_label",
+    "small_print_label",
+    "cat_stamp",
+    "foreground_woman"
+  ]
+}

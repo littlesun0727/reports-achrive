@@ -1,0 +1,120 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "户外草地与溪流场景的连续摄影底图，包含左侧草地、右侧溪流及底部人物腿部，完整显示区域延伸至画布四边；上层三张独立照片遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "户外草地与溪流场景的连续摄影底图，包含左侧草地、右侧溪流及底",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_horses",
+      "kind": "photo",
+      "bbox": [
+        273,
+        107,
+        612,
+        363
+      ],
+      "description": "横向照片，展示草原上三匹黑马与拍摄者手持手机取景的画面，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "横向照片，展示草原上三匹黑马与拍摄者手持手机取景的画面，保留",
+      "method": "local"
+    },
+    {
+      "id": "frame_horses",
+      "kind": "frame",
+      "bbox": [
+        230,
+        90,
+        698,
+        383
+      ],
+      "description": "围绕单张马匹照片的黄色矩形相框，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。",
+      "photo_id": [
+        "photo_horses"
+      ],
+      "label": "围绕单张马匹照片的黄色矩形相框，覆盖照片边缘并位于照片上方，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        288,
+        455,
+        596,
+        719
+      ],
+      "description": "横向照片，展示手持花环与背景草原，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "横向照片，展示手持花环与背景草原，保留照片内的摄影环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "frame_flowers",
+      "kind": "frame",
+      "bbox": [
+        234,
+        449,
+        702,
+        740
+      ],
+      "description": "围绕单张花环照片的白色矩形相框，边缘带有彩色圆点装饰，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。",
+      "photo_id": [
+        "photo_flowers"
+      ],
+      "label": "围绕单张花环照片的白色矩形相框，边缘带有彩色圆点装饰，覆盖照",
+      "method": "extract"
+    },
+    {
+      "id": "photo_fruits",
+      "kind": "photo",
+      "bbox": [
+        288,
+        815,
+        596,
+        1076
+      ],
+      "description": "横向照片，展示草帽中盛放的苹果与桃子，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "横向照片，展示草帽中盛放的苹果与桃子，保留照片内的摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "frame_fruits",
+      "kind": "frame",
+      "bbox": [
+        234,
+        803,
+        702,
+        1093
+      ],
+      "description": "围绕单张水果照片的紫色矩形相框，覆盖照片边缘并位于照片上方，完整相框作为一个框体保留。",
+      "photo_id": [
+        "photo_fruits"
+      ],
+      "label": "围绕单张水果照片的紫色矩形相框，覆盖照片边缘并位于照片上方，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_horses",
+    "frame_horses",
+    "photo_flowers",
+    "frame_flowers",
+    "photo_fruits",
+    "frame_fruits"
+  ]
+}

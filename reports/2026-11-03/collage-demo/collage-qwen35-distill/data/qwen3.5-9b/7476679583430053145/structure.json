@@ -1,0 +1,190 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝天白云与绿色树林构成连续摄影底图，完整显示区域延伸至画布四边；上层两张照片和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        172,
+        138,
+        828,
+        468
+      ],
+      "description": "上方人物照片，女孩身穿红白条纹连衣裙，肩扛红色物体，背景为绿色草地、远山和天空，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        172,
+        532,
+        828,
+        862
+      ],
+      "description": "下方车辆照片，展示白色车辆驾驶室顶部及红色物体，背景为蓝天和树木，保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        168,
+        134,
+        832,
+        472
+      ],
+      "description": "围绕上方人物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        168,
+        528,
+        832,
+        866
+      ],
+      "description": "围绕下方车辆照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        258,
+        222,
+        352
+      ],
+      "description": "左侧白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        46,
+        778,
+        140
+      ],
+      "description": "右上角白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        468,
+        828,
+        562
+      ],
+      "description": "右侧白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        642,
+        148,
+        736
+      ],
+      "description": "左下角白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        886,
+        528,
+        980
+      ],
+      "description": "底部中央白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        662,
+        978,
+        756
+      ],
+      "description": "右下角白色手绘星星，带有笑脸，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        192,
+        88,
+        262,
+        112
+      ],
+      "text": "No.1",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        382,
+        478,
+        618,
+        502
+      ],
+      "text": "百分百做自己",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        748,
+        888,
+        818,
+        912
+      ],
+      "text": "Happy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "frame_top",
+    "photo_bottom",
+    "frame_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

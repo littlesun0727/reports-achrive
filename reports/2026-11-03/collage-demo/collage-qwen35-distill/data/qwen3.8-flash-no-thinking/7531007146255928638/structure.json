@@ -1,0 +1,110 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_paper",
+    "description": "全画布为浅绿色纹理背景，具有类似水彩纸或磨砂质感的细微颗粒与明暗变化。该固定底图承载所有独立照片和装饰元素，需保留其材质原样以供后续替换内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_main_left",
+      "kind": "photo",
+      "bbox": [
+        137,
+        128,
+        609,
+        604
+      ],
+      "description": "竖向人像照片，画面中一名年轻女子身穿深蓝色运动外套，在户外绿树背景下眨眼微笑。照片边缘整齐，无特殊边框。"
+    },
+    {
+      "id": "photo_main_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        538,
+        905,
+        915
+      ],
+      "description": "方形人像照片，画面中同一名女子身穿灰色连帽衫，长发遮面，神情冷峻，背景为虚化的树叶。"
+    },
+    {
+      "id": "overlay_sticker_top",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        68,
+        222,
+        186
+      ],
+      "description": "左上角白色方形贴纸，中心印有一片绿色的四叶草图案，位于主照片左上方。"
+    },
+    {
+      "id": "frame_clover_strip",
+      "kind": "frame",
+      "bbox": [
+        597,
+        281,
+        932,
+        445
+      ],
+      "description": "横向长条形卡片，上半部分展示一排排列整齐的四叶草标本，下半部分印有手写体英文“Am I the luckiest Girl or what?!?”。作为固定设计单元整体保留。",
+      "photo_id": [
+        "photo_main_left"
+      ]
+    },
+    {
+      "id": "overlay_card_bottom",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        703,
+        424,
+        894
+      ],
+      "description": "左下角圆角矩形白色卡片，内部包含一段关于四叶草的英文文字，并在左侧和右下角各点缀一片绿色四叶草图案。"
+    },
+    {
+      "id": "text_quote_1",
+      "kind": "text",
+      "bbox": [
+        574,
+        193,
+        915,
+        230
+      ],
+      "text": "Cut film strips held more\ntruth than the final reel.",
+      "color": "#4A4A4A",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_quote_2",
+      "kind": "text",
+      "bbox": [
+        237,
+        642,
+        553,
+        680
+      ],
+      "text": "\"Vintage flashbulbs startled\n1920s dust awake\"",
+      "color": "#4A4A4A",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main_left",
+    "photo_main_right",
+    "overlay_sticker_top",
+    "frame_clover_strip",
+    "overlay_card_bottom",
+    "text_quote_1",
+    "text_quote_2"
+  ]
+}

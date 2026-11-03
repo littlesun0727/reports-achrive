@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-ab372a500d498940",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 9483,
+    "total_tokens": 9906,
+    "completion_tokens": 423,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"beach_scene\",\n    \"description\": \"连续的海滩摄影底图，包含远处的绿色岛屿、碧蓝海水、沙滩及水中游泳的人群，画面延伸至画布四边；前景人物和饮料遮挡局部，保留完整环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_woman\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        355,\n        335,\n        683,\n        685\n      ],\n      \"description\": \"戴草帽、穿蓝白条纹上衣的女性半身照，闭眼微笑，位于画面中央，遮挡后方海水与沙滩。\"\n    },\n    {\n      \"id\": \"photo_drink\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        76,\n        645,\n        410,\n        1000\n      ],\n      \"description\": \"前景模糊的黄色冰沙饮料特写，插有吸管，位于左下角，遮挡部分沙滩与海水。\"\n    },\n    {\n      \"id\": \"text_watermark\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        915,\n        950,\n        1000,\n        995\n      ],\n      \"text\": \"小红书号：sisi520_\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"beach_scene\",\n    \"photo_woman\",\n    \"photo_drink\",\n    \"text_watermark\"\n  ]\n}",
+  "tool_calls": false
+}

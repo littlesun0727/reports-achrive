@@ -1,0 +1,237 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1290,
+    2306
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1290,
+        2306
+      ],
+      "description": "全画布由多张人物照片拼接构成，包含不同发型和姿态的人物肖像，背景包含室内环境、百叶窗等元素；各照片区域相互重叠，形成拼贴效果，整体摄影内容作为底层承载。",
+      "background_type": "photo",
+      "label": "全画布由多张人物照片拼接构成，包含不同发型和姿态的人物肖像，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        50,
+        90,
+        699,
+        957
+      ],
+      "description": "左上角人物半身照片，人物手抓头发，背景为百叶窗，被右侧文字贴纸和上方爱心遮挡局部。",
+      "label": "左上角人物半身照片，人物手抓头发，背景为百叶窗，被右侧文字贴",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        630,
+        429,
+        1290,
+        1183
+      ],
+      "description": "右上角人物面部特写照片，手指轻触嘴唇，背景为百叶窗，被右侧咖啡贴纸和下方蓝色星星贴纸遮挡局部。",
+      "label": "右上角人物面部特写照片，手指轻触嘴唇，背景为百叶窗，被右侧咖",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        120,
+        971,
+        699,
+        1845
+      ],
+      "description": "左侧人物半身照片，人物单眼眨眼，手指轻触脸颊，背景为室内环境，被下方蓝色星星贴纸和右侧人物遮挡局部。",
+      "label": "左侧人物半身照片，人物单眼眨眼，手指轻触脸颊，背景为室内环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        494,
+        1137,
+        1290,
+        2306
+      ],
+      "description": "右下角人物面部特写照片，人物直视镜头，手指轻触脸颊，背景为室内环境，被下方文字贴纸遮挡局部。",
+      "label": "右下角人物面部特写照片，人物直视镜头，手指轻触脸颊，背景为室",
+      "method": "local"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        455,
+        0,
+        806,
+        231
+      ],
+      "description": "粉色手绘爱心贴纸，位于画布顶部，部分遮挡左上角照片。",
+      "label": "粉色手绘爱心贴纸，位于画布顶部，部分遮挡左上角照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ticket",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        277,
+        1023,
+        514
+      ],
+      "description": "复古风格票根贴纸，包含文字'Ticket To Anywhere'和数字'017'，位于画布中上部，部分遮挡右上角照片。",
+      "label": "复古风格票根贴纸，包含文字'Ticket To Anywhe",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_together",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        802,
+        535,
+        957
+      ],
+      "description": "撕纸风格文字贴纸，内容为'together.'，位于画布中左部，部分遮挡左侧照片。",
+      "label": "撕纸风格文字贴纸，内容为'together.'，位于画布中左",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        862,
+        106,
+        1229,
+        387
+      ],
+      "description": "咖啡杯贴纸，带有波点背景，位于画布右上角，部分遮挡右上角照片。",
+      "label": "咖啡杯贴纸，带有波点背景，位于画布右上角，部分遮挡右上角照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        1783,
+        441,
+        2172
+      ],
+      "description": "蓝色波点星星贴纸，位于画布左下角，部分遮挡左侧照片。",
+      "label": "蓝色波点星星贴纸，位于画布左下角，部分遮挡左侧照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        1898,
+        559,
+        2290
+      ],
+      "description": "橘猫头像贴纸，带有黄色描边，位于画布左下角，部分遮挡蓝色星星贴纸。",
+      "label": "橘猫头像贴纸，带有黄色描边，位于画布左下角，部分遮挡蓝色星星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_croissant",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        1679,
+        372,
+        1909
+      ],
+      "description": "牛角包贴纸，带有粉色箭头装饰，位于画布左下角，部分遮挡蓝色星星贴纸。",
+      "label": "牛角包贴纸，带有粉色箭头装饰，位于画布左下角，部分遮挡蓝色星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        862,
+        971,
+        1290,
+        1310
+      ],
+      "description": "蓝色波点星星贴纸，位于画布右侧中部，部分遮挡右上角照片。",
+      "label": "蓝色波点星星贴纸，位于画布右侧中部，部分遮挡右上角照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        1075,
+        1114,
+        1281,
+        1506
+      ],
+      "description": "兔子头像贴纸，带有紫色描边，位于画布右侧中部，部分遮挡蓝色星星贴纸。",
+      "label": "兔子头像贴纸，带有紫色描边，位于画布右侧中部，部分遮挡蓝色星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_hello",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        1944,
+        875,
+        2071
+      ],
+      "description": "白色矩形文字贴纸，内容为'hello'，带有黑色边框，位于画布中下部，部分遮挡右下角照片。",
+      "label": "白色矩形文字贴纸，内容为'hello'，带有黑色边框，位于画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_artist",
+      "kind": "overlay",
+      "bbox": [
+        584,
+        2082,
+        1081,
+        2221
+      ],
+      "description": "白色矩形文字贴纸，内容为'I am a artist'，带有黑色边框，位于画布中下部，部分遮挡右下角照片。",
+      "label": "白色矩形文字贴纸，内容为'I am a artist'，带有",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_bottom_right",
+    "overlay_hearts",
+    "overlay_ticket",
+    "overlay_text_together",
+    "overlay_coffee",
+    "overlay_star_bottom",
+    "overlay_cat",
+    "overlay_croissant",
+    "overlay_star_right",
+    "overlay_bunny",
+    "overlay_text_hello",
+    "overlay_text_artist"
+  ]
+}

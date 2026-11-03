@@ -1,0 +1,193 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "绿色树叶与光影斑驳的森林环境构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        36,
+        613,
+        372
+      ],
+      "description": "左上人物半身照片，人物戴眼镜，手持饮料，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        677,
+        142,
+        956,
+        309
+      ],
+      "description": "右上人物近景照片，人物戴眼镜，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        76,
+        556,
+        298,
+        785
+      ],
+      "description": "左下人物全身照片，人物戴帽子，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        363,
+        404,
+        962,
+        964
+      ],
+      "description": "右下人物背影照片，人物站在海边，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        36,
+        36,
+        613,
+        372
+      ],
+      "description": "围绕左上照片的米色邮票风格边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        677,
+        142,
+        956,
+        309
+      ],
+      "description": "围绕右上照片的米色邮票风格边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        76,
+        556,
+        298,
+        785
+      ],
+      "description": "围绕左下照片的米色邮票风格边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_left"
+      ]
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        363,
+        404,
+        962,
+        964
+      ],
+      "description": "围绕右下照片的米色邮票风格边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ]
+    },
+    {
+      "id": "overlay_snail",
+      "kind": "overlay",
+      "bbox": [
+        484,
+        209,
+        600,
+        357
+      ],
+      "description": "黄色蜗牛贴纸，位于左上照片右侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_mushroom",
+      "kind": "overlay",
+      "bbox": [
+        569,
+        317,
+        645,
+        343
+      ],
+      "description": "棕色蘑菇贴纸，位于左上照片右侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_button_1",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        531,
+        124,
+        597
+      ],
+      "description": "棕色纽扣贴纸，位于左下照片左侧，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_button_2",
+      "kind": "overlay",
+      "bbox": [
+        874,
+        369,
+        995,
+        464
+      ],
+      "description": "棕色纽扣贴纸，位于右下照片右上角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_deer",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        745,
+        248,
+        972
+      ],
+      "description": "小鹿剪影贴纸，位于左下照片下方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        293,
+        386,
+        363,
+        613
+      ],
+      "description": "白色星形、螺旋形和加号装饰贴纸，位于左下照片右侧，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "frame_top_left",
+    "frame_top_right",
+    "frame_bottom_left",
+    "frame_bottom_right",
+    "overlay_snail",
+    "overlay_mushroom",
+    "overlay_button_1",
+    "overlay_button_2",
+    "overlay_deer",
+    "overlay_decorations"
+  ]
+}

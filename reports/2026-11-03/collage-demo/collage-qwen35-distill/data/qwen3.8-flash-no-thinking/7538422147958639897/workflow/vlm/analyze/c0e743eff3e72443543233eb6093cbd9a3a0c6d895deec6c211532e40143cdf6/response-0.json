@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-192580e2-1519-940f-8207-9b1534ddedc9",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8116,
+    "completion_tokens": 1169,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1169
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_pattern\",\n    \"description\": \"全画布粉色渐变底图，带有规则排列的深粉色五角星图案。上下边缘有白色蕾丝花边装饰。该底图为固定设计元素，不包含可替换摄影内容。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        20,\n        135,\n        860,\n        940\n      ],\n      \"description\": \"中央主体人物照片，年轻女性正面半身像，黑色长发编成双辫，佩戴红色蝴蝶结发饰和项链，双手持物（左手为Hello Kitty挂件，右手为透明手机壳），身穿白色上衣。背景已抠除，仅保留人物轮廓及手持物品。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        730,\n        135,\n        970,\n        230\n      ],\n      \"description\": \"右上角小照片，显示人物眼部特写，矩形构图，带有红色边框。\"\n    },\n    {\n      \"id\": \"frame_top_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        725,\n        130,\n        975,\n        235\n      ],\n      \"description\": \"围绕右上角照片的红色矩形细线框。\",\n      \"photo_id\": [\n        \"photo_top_right\"\n      ]\n    },\n    {\n      \"id\": \"photo_mid_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        30,\n        630,\n        280,\n        790\n      ],\n      \"description\": \"左侧中部倾斜的小照片，显示人物眨眼微笑并手持圆形粉盒，带有红色边框。\"\n    },\n    {\n      \"id\": \"frame_mid_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        25,\n        625,\n        285,\n        795\n      ],\n      \"description\": \"围绕左侧中部照片的红色矩形细线框。\",\n      \"photo_id\": [\n        \"photo_mid_left\"\n      ]\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        75,\n        770,\n        330,\n        930\n      ],\n      \"description\": \"左下角倾斜的小照片，显示人物侧脸特写，带有红色边框。\"\n    },\n    {\n      \"id\": \"frame_bottom_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        70,\n        765,\n        335,\n        935\n      ],\n      \"description\": \"围绕左下角照片的红色矩形细线框。\",\n      \"photo_id\": [\n        \"photo_bottom_left\"\n      ]\n    },\n    {\n      \"id\": \"text_love_block\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        30,\n        80,\n        340,\n        190\n      ],\n      \"text\": \"LOVE\\nMy favorite\\nWon yeong Jang\\nI bear that I love you\",\n      \"color\": \"#E63946\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_you_block\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        660,\n        800,\n        960,\n        910\n      ],\n      \"text\": \"YOU\\nMy favorite\\nWon yeong Jang\\nI bear that I love you\",\n      \"color\": \"#E63946\",\n      \"font\": \"sans\",\n      \"align\": \"right\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_name_art\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        50,\n        280,\n        950,\n        380\n      ],\n      \"description\": \"横跨画面中部的巨大红色艺术字“WONYOUNG”，部分笔画被中央人物遮挡，位于人物图层下方。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_name_art\",\n    \"photo_main\",\n    \"photo_top_right\",\n    \"frame_top_right\",\n    \"photo_mid_left\",\n    \"frame_mid_left\",\n    \"photo_bottom_left\",\n    \"frame_bottom_left\",\n    \"text_love_block\",\n    \"text_you_block\"\n  ]\n}",
+  "tool_calls": false
+}

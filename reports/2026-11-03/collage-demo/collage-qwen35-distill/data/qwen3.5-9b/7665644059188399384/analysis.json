@@ -1,0 +1,296 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "notebook_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "米黄色螺旋笔记本内页作为固定底图，包含黑色螺旋装订、页面纹理及整体纸张结构；页面内所有照片、贴纸、文字和装饰均独立于底图之上，底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "米黄色螺旋笔记本内页作为固定底图，包含黑色螺旋装订、页面纹理",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_drink1",
+      "kind": "photo",
+      "bbox": [
+        234,
+        288,
+        405,
+        641
+      ],
+      "description": "高脚杯中的绿色气泡饮料，顶部有冰淇淋球和樱桃，置于银色托盘上，保留完整摄影画面。",
+      "label": "高脚杯中的绿色气泡饮料，顶部有冰淇淋球和樱桃，置于银色托盘上",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink2",
+      "kind": "photo",
+      "bbox": [
+        490,
+        360,
+        585,
+        486
+      ],
+      "description": "透明杯中的分层冰饮，含绿色和白色分层，保留完整摄影画面。",
+      "label": "透明杯中的分层冰饮，含绿色和白色分层，保留完整摄影画面。",
+      "method": "local"
+    },
+    {
+      "id": "photo_waffles",
+      "kind": "photo",
+      "bbox": [
+        418,
+        492,
+        670,
+        695
+      ],
+      "description": "黑色盘子上的华夫饼，配水果、奶油和冰淇淋，保留完整摄影画面。",
+      "label": "黑色盘子上的华夫饼，配水果、奶油和冰淇淋，保留完整摄影画面。",
+      "method": "local"
+    },
+    {
+      "id": "photo_toast",
+      "kind": "photo",
+      "bbox": [
+        198,
+        671,
+        504,
+        875
+      ],
+      "description": "白色盘子上的吐司，配煎蛋、火腿、虾仁和牛油果，保留完整摄影画面。",
+      "label": "白色盘子上的吐司，配煎蛋、火腿、虾仁和牛油果，保留完整摄影画",
+      "method": "local"
+    },
+    {
+      "id": "photo_bread",
+      "kind": "photo",
+      "bbox": [
+        626,
+        384,
+        806,
+        486
+      ],
+      "description": "烤架上的两个面包，保留完整摄影画面。",
+      "label": "烤架上的两个面包，保留完整摄影画面。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_boba",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        390,
+        194,
+        516
+      ],
+      "description": "粉色珍珠奶茶贴纸，带吸管，作为独立装饰保留。",
+      "label": "粉色珍珠奶茶贴纸，带吸管，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        558,
+        238,
+        725
+      ],
+      "description": "白色小熊贴纸，系蝴蝶结，作为独立装饰保留。",
+      "label": "白色小熊贴纸，系蝴蝶结，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        785,
+        252,
+        1067
+      ],
+      "description": "银色叉子贴纸，手柄系粉色蝴蝶结，作为独立装饰保留。",
+      "label": "银色叉子贴纸，手柄系粉色蝴蝶结，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee_ring",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        234,
+        274,
+        360
+      ],
+      "description": "手绘风格咖啡杯轮廓贴纸，带星星装饰，作为独立装饰保留。",
+      "label": "手绘风格咖啡杯轮廓贴纸，带星星装饰，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pot",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        611,
+        801,
+        677
+      ],
+      "description": "棕色“POT”字样贴纸，带锅铲图案，作为独立装饰保留。",
+      "label": "棕色“POT”字样贴纸，带锅铲图案，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cookie_strip",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        887,
+        796,
+        1085
+      ],
+      "description": "长条形饼干图案贴纸，带坚果装饰，作为独立装饰保留。",
+      "label": "长条形饼干图案贴纸，带坚果装饰，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_chinese1",
+      "kind": "text",
+      "bbox": [
+        378,
+        276,
+        572,
+        420
+      ],
+      "description": "人间美味!!",
+      "label": "人间美味!!",
+      "method": "local",
+      "text": "人间美味!!",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_chinese2",
+      "kind": "text",
+      "bbox": [
+        576,
+        258,
+        760,
+        348
+      ],
+      "description": ":) 频繁的记录\n不要变成麻木的人",
+      "label": ":) 频繁的记录\n不要变成麻木的人",
+      "method": "local",
+      "text": ":) 频繁的记录\n不要变成麻木的人",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_english1",
+      "kind": "text",
+      "bbox": [
+        526,
+        731,
+        724,
+        935
+      ],
+      "description": "For the first time the\nworld lay open before him,\nwide and waiting, ready to\nreceive him, to do him\ngood or harm.\n\n(笑脸图案)",
+      "label": "For the first time the\nworld l",
+      "method": "local",
+      "text": "For the first time the\nworld lay open before him,\nwide and waiting, ready to\nreceive him, to do him\ngood or harm.\n\n(笑脸图案)",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_english2",
+      "kind": "text",
+      "bbox": [
+        477,
+        899,
+        702,
+        1019
+      ],
+      "description": "if you\nwill be thirsty for\nif you drink the wine that\nyou have brewed.",
+      "label": "if you\nwill be thirsty for\nif ",
+      "method": "local",
+      "text": "if you\nwill be thirsty for\nif you drink the wine that\nyou have brewed.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_korean",
+      "kind": "text",
+      "bbox": [
+        261,
+        947,
+        436,
+        995
+      ],
+      "description": "___ ★. 너 귀염둥이야! ✨",
+      "label": "___ ★. 너 귀염둥이야! ✨",
+      "method": "local",
+      "text": "___ ★. 너 귀염둥이야! ✨",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "notebook_base",
+    "photo_drink1",
+    "photo_drink2",
+    "photo_waffles",
+    "photo_toast",
+    "photo_bread",
+    "overlay_boba",
+    "overlay_bear",
+    "overlay_fork",
+    "overlay_coffee_ring",
+    "overlay_pot",
+    "overlay_cookie_strip",
+    "text_chinese1",
+    "text_chinese2",
+    "text_english1",
+    "text_english2",
+    "text_korean"
+  ]
+}

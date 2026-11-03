@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布为连续的浅灰白色细颗粒纸纹底，四周与两张照片之间均可见一致纹理；保留纸底颜色及纹理，两张独立摄影内容不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        70,
+        142,
+        771,
+        449
+      ],
+      "description": "上方偏左的横向圆角照片，一名长发女子穿深色外衣、围围巾，半身近景侧身回望镜头，人物位于中右侧；左侧保留金属网围栏、远景及受阳光照亮的台面。摄影环境完整保留，画面有逆光、暖色和明显颗粒，四周沿圆角窗口裁切，无独立框体。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        224,
+        579,
+        924,
+        883
+      ],
+      "description": "下方偏右的横向圆角照片，一名长发女子穿深色外衣及围巾，半身位于中右侧，转头微笑；背景保留户外围栏通道、右侧建筑、左侧远景及后方数名路人。与上图取景及人物姿态不连续，为独立照片；暖色阳光与颗粒清晰可见，摄影环境保留，四周沿圆角窗口裁切，无独立框体。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "stage_background",
+    "description": "舞台背景摄影画面，包含蓝色条纹屏幕、舞台灯光设备、黑色音响及舞台环境，完整覆盖画布；前景人物与装饰遮挡局部，保留舞台整体环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        365,
+        68,
+        885,
+        735
+      ],
+      "description": "主图人物近景照片，身穿灰色连帽衫，手持麦克风，保留舞台灯光与背景屏幕，位于画布中上部。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        68,
+        105,
+        365,
+        365
+      ],
+      "description": "左上角人物半身照片，身穿条纹T恤，手持麦克风，保留舞台背景，位于主图左上方。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        513,
+        735,
+        932,
+        982
+      ],
+      "description": "右下角人物近景照片，身穿条纹T恤，手持麦克风，保留舞台背景，位于画布右下角。"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        68,
+        105,
+        365,
+        365
+      ],
+      "description": "围绕左上角照片的白色手绘椭圆框，覆盖照片边缘，作为固定装饰保留。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        513,
+        735,
+        932,
+        982
+      ],
+      "description": "围绕右下角照片的白色手绘矩形框，覆盖照片边缘，作为固定装饰保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ]
+    },
+    {
+      "id": "overlay_text_top",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        25,
+        900,
+        100
+      ],
+      "description": "顶部装饰文字“Soft clouds”及星星、爱心、云朵等手绘图案，位于画布顶部中央。"
+    },
+    {
+      "id": "overlay_text_right",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        130,
+        880,
+        220
+      ],
+      "description": "右侧对话气泡，内含韩文“사랑해♡”，白色手绘风格，位于主图右上方。"
+    },
+    {
+      "id": "overlay_text_bottom",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        850,
+        450,
+        950
+      ],
+      "description": "底部对话气泡，内含中文“听到blue我就能原谅世界一切”，白色手绘风格，位于画布左下角。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        270,
+        880,
+        400
+      ],
+      "description": "右侧两颗白色手绘星星装饰，位于主图右侧。"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        350,
+        150,
+        400
+      ],
+      "description": "左侧白色手绘螺旋装饰，位于左上角照片下方。"
+    },
+    {
+      "id": "overlay_spiral_right",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        200,
+        900,
+        250
+      ],
+      "description": "右侧白色手绘螺旋装饰，位于右上角文字下方。"
+    },
+    {
+      "id": "overlay_sticker",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        670,
+        640,
+        730
+      ],
+      "description": "中间白色手绘小狗贴纸，位于主图下方、右下角照片上方。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_top_left",
+    "photo_bottom_right",
+    "frame_top_left",
+    "frame_bottom_right",
+    "overlay_text_top",
+    "overlay_text_right",
+    "overlay_text_bottom",
+    "overlay_stars",
+    "overlay_spiral",
+    "overlay_spiral_right",
+    "overlay_sticker"
+  ]
+}

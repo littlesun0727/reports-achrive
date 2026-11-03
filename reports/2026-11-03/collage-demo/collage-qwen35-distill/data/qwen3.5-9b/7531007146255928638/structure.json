@@ -1,0 +1,124 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "green_paper_base",
+    "description": "连续的浅绿色纹理纸底，覆盖全画布，带有细微的纸张质感；所有照片、贴纸和文字均叠加其上，纸底保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        113,
+        120,
+        520,
+        590
+      ],
+      "description": "左侧主要人物照片，人物闭眼微笑，身穿深蓝色带白边外套，背景为户外绿树，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        515,
+        530,
+        900,
+        900
+      ],
+      "description": "右侧人物照片，人物侧脸，身穿灰色外套，背景为户外绿植，保留完整摄影环境。"
+    },
+    {
+      "id": "overlay_clover_top",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        53,
+        173,
+        173
+      ],
+      "description": "左上角白色方形贴纸，内含一枚绿色四叶草图案，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_clover_strip",
+      "kind": "overlay",
+      "bbox": [
+        560,
+        275,
+        900,
+        435
+      ],
+      "description": "右上角白色矩形贴纸，内含一排绿色四叶草图案及手写文字，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_clover_card",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        700,
+        420,
+        860
+      ],
+      "description": "左下角白色圆角矩形贴纸，内含两枚绿色四叶草图案及多行文字，作为独立装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        530,
+        180,
+        890,
+        220
+      ],
+      "text": "Cut film strips held more truth than the final reel.",
+      "color": "#333333",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        200,
+        630,
+        500,
+        670
+      ],
+      "text": "\"Vintage flashbulbs startled 1920s dust awake\"",
+      "color": "#333333",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        130,
+        750,
+        380,
+        830
+      ],
+      "text": "love blooms like a cherished four-leaf clover, a rare and beautiful treasure.",
+      "color": "#556B2F",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_right",
+    "overlay_clover_top",
+    "overlay_clover_strip",
+    "overlay_clover_card",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

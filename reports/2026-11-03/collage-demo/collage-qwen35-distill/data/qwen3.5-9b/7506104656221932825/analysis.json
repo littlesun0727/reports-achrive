@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "地铁站内楼梯旁的场景，包含白色砖墙、金属扶手、台阶以及墙上的绿色“出”字指示牌。画面中有一位戴黑色帽子的年轻女性，她位于前景，身体侧向镜头，目光直视。背景中的楼梯和墙面延伸至画布边缘，构成连续摄影底图。",
+      "background_type": "photo",
+      "label": "地铁站内楼梯旁的场景，包含白色砖墙、金属扶手、台阶以及墙上的",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        262,
+        844,
+        670
+      ],
+      "description": "一个白色的心形轮廓线，内部包含一张独立照片。心形线条压在背景砖墙和楼梯扶手上，作为独立装饰单元保留。",
+      "label": "一个白色的心形轮廓线，内部包含一张独立照片。心形线条压在背景",
+      "method": "extract"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        574,
+        343,
+        794,
+        631
+      ],
+      "description": "心形框内的独立照片，显示一位戴黑色帽子的年轻女性，她手持手机自拍，表情惊讶。照片内容独立于背景，需替换。",
+      "label": "心形框内的独立照片，显示一位戴黑色帽子的年轻女性，她手持手机",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        214,
+        191,
+        302
+      ],
+      "description": "左上角的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定单元保留。",
+      "label": "左上角的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_2",
+      "kind": "overlay",
+      "bbox": [
+        673,
+        214,
+        722,
+        266
+      ],
+      "description": "右上角的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定单元保留。",
+      "label": "右上角的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_3",
+      "kind": "overlay",
+      "bbox": [
+        677,
+        550,
+        839,
+        638
+      ],
+      "description": "心形框右侧的一组白色手绘星星装饰，位于背景砖墙之上，作为独立固定单元保留。",
+      "label": "心形框右侧的一组白色手绘星星装饰，位于背景砖墙之上，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_4",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        950,
+        272,
+        1039
+      ],
+      "description": "左下角的一组白色手绘星星装饰，位于前景人物身体前方，作为独立固定单元保留。",
+      "label": "左下角的一组白色手绘星星装饰，位于前景人物身体前方，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        497,
+        974,
+        641,
+        1046
+      ],
+      "description": "좋은 날",
+      "label": "좋은 날",
+      "method": "local",
+      "text": "좋은 날",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars",
+    "overlay_stars_2",
+    "overlay_stars_3",
+    "overlay_stars_4",
+    "photo_heart",
+    "overlay_heart",
+    "text_1"
+  ]
+}

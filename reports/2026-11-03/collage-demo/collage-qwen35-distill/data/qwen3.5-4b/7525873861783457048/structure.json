@@ -1,0 +1,247 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝色天空与绿色草地构成的连续摄影底图，完整显示区域延伸至画布四边；上层电脑窗口、对话框、贴纸和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_computer",
+      "kind": "photo",
+      "bbox": [
+        133,
+        184,
+        953,
+        810
+      ],
+      "description": "电脑屏幕显示的照片，包含左侧陶艺工具与泥盆、右侧手持陶盆的特写，保留屏幕内的摄影环境。"
+    },
+    {
+      "id": "frame_computer",
+      "kind": "frame",
+      "bbox": [
+        133,
+        184,
+        953,
+        810
+      ],
+      "description": "围绕电脑屏幕照片的灰色边框，包含菜单栏、工具栏和窗口控制按钮，位于照片上方。",
+      "photo_id": [
+        "photo_computer"
+      ]
+    },
+    {
+      "id": "dialogue_box",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        256,
+        953,
+        353
+      ],
+      "description": "像素风格对话框，包含标题栏、对话气泡和三个按钮，位于电脑窗口右上角。"
+    },
+    {
+      "id": "error_box",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        714,
+        245,
+        863
+      ],
+      "description": "像素风格错误对话框，包含标题栏、错误信息和确认按钮，位于电脑窗口左下角。"
+    },
+    {
+      "id": "text_alone",
+      "kind": "text",
+      "bbox": [
+        100,
+        768,
+        195,
+        798
+      ],
+      "text": "ALONE",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        14,
+        946,
+        100,
+        966
+      ],
+      "text": "PM 10:25",
+      "color": "#0000FF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        14,
+        966,
+        133,
+        986
+      ],
+      "text": "AUGUST, 07 1990",
+      "color": "#0000FF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "cat_sticker",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        666,
+        982,
+        848
+      ],
+      "description": "白色像素风格猫咪贴纸，带有黑色眼睛和尾巴，位于右下角。"
+    },
+    {
+      "id": "star_yellow",
+      "kind": "overlay",
+      "bbox": [
+        673,
+        846,
+        743,
+        916
+      ],
+      "description": "黄色像素风格星星贴纸，位于底部中央偏右。"
+    },
+    {
+      "id": "star_blue_1",
+      "kind": "overlay",
+      "bbox": [
+        261,
+        878,
+        331,
+        948
+      ],
+      "description": "蓝色像素风格星星贴纸，位于底部中央偏左。"
+    },
+    {
+      "id": "star_blue_2",
+      "kind": "overlay",
+      "bbox": [
+        923,
+        553,
+        973,
+        603
+      ],
+      "description": "蓝色像素风格星星贴纸，位于右侧中部。"
+    },
+    {
+      "id": "heart_white_1",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        23,
+        143,
+        103
+      ],
+      "description": "白色像素风格心形贴纸，位于左上角。"
+    },
+    {
+      "id": "heart_white_2",
+      "kind": "overlay",
+      "bbox": [
+        163,
+        83,
+        228,
+        153
+      ],
+      "description": "白色像素风格心形贴纸，位于左上角下方。"
+    },
+    {
+      "id": "heart_pink_1",
+      "kind": "overlay",
+      "bbox": [
+        343,
+        763,
+        373,
+        788
+      ],
+      "description": "粉色像素风格心形贴纸，位于电脑窗口底部。"
+    },
+    {
+      "id": "heart_pink_2",
+      "kind": "overlay",
+      "bbox": [
+        383,
+        763,
+        413,
+        788
+      ],
+      "description": "粉色像素风格心形贴纸，位于电脑窗口底部。"
+    },
+    {
+      "id": "heart_blue_1",
+      "kind": "overlay",
+      "bbox": [
+        423,
+        763,
+        453,
+        788
+      ],
+      "description": "蓝色像素风格心形贴纸，位于电脑窗口底部。"
+    },
+    {
+      "id": "mouse_cursor",
+      "kind": "overlay",
+      "bbox": [
+        893,
+        323,
+        953,
+        383
+      ],
+      "description": "白色像素风格鼠标指针，指向对话框按钮，位于电脑窗口右上角。"
+    },
+    {
+      "id": "cat_head_icon",
+      "kind": "overlay",
+      "bbox": [
+        553,
+        263,
+        603,
+        293
+      ],
+      "description": "白色像素风格猫咪头部图标，位于菜单栏右侧。"
+    }
+  ],
+  "layer_order": [
+    "photo_computer",
+    "frame_computer",
+    "dialogue_box",
+    "error_box",
+    "text_alone",
+    "text_time",
+    "text_date",
+    "cat_sticker",
+    "star_yellow",
+    "star_blue_1",
+    "star_blue_2",
+    "heart_white_1",
+    "heart_white_2",
+    "heart_pink_1",
+    "heart_pink_2",
+    "heart_blue_1",
+    "mouse_cursor",
+    "cat_head_icon"
+  ]
+}

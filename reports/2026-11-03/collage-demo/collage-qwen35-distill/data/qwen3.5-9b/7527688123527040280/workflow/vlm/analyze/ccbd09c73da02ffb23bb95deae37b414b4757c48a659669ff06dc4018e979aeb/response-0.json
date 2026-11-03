@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-a0ffaf60c2db4fa1",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7864,
+    "completion_tokens": 917,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"柔和模糊的室内摄影底图，包含暖色调的灯光、木质家具和绿植，营造温馨氛围；画布边缘可见模糊的书架、窗户和植物，作为连续摄影环境承载全幅，上层照片和装饰遮挡局部。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_ice_cream\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        83,\n        186,\n        447,\n        554\n      ],\n      \"description\": \"桌上摆满可爱玩偶、咖啡杯和复古台灯的照片，保留桌布、餐具和室内环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_book\",\n      \"kind\": \"photo\",\n      \"bbox\":\n      [\n        492,\n        66,\n        856,\n        234\n      ],\n      \"description\": \"打开的书页特写，文字清晰可见，保留纸张纹理和印刷内容，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_shelf\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        537,\n        290,\n        901,\n        522\n      ],\n      \"description\": \"书架上摆满书籍的照片，保留木质书架和书籍封面细节，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_window\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        197,\n        660,\n        522,\n        901\n      ],\n      \"description\": \"窗边角落的照片，包含窗台、绿植、台灯和墙面装饰，保留室内环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_plate\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        562,\n        577,\n        897,\n        812\n      ],\n      \"description\": \"盘子上摆放四个戴眼镜的可爱玩偶的照片，保留盘子花纹和桌面环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        56,\n        583,\n        492,\n        612\n      ],\n      \"text\": \"Pistachio Ice Cream Latte\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        562,\n        250,\n        897,\n        279\n      ],\n      \"text\": \"About the Universe\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        73,\n        27,\n        927,\n        854\n      ],\n      \"description\": \"多个白色手绘星星和装饰线条，散布在照片之间和边缘，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_ice_cream\",\n    \"photo_book\",\n    \"photo_shelf\",\n    \"photo_window\",\n    \"photo_plate\",\n    \"text_1\",\n    \"text_2\",\n    \"overlay_stars\"\n  ]\n}",
+  "tool_calls": false
+}

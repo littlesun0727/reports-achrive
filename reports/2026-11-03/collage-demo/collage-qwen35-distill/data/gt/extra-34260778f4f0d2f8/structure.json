@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的户外草坪与树林摄影画面铺满画布，中央偏下是一名双辫女子近景，戴耳机、穿白蓝上衣并托着足球；人物、足球、草地和树林属于同一完整摄影底图，一起替换。底图在四边、装饰间隙和右上播放器透明内区连续露出。左上及右上人物是另外叠放的独立抠像，播放器与手绘装饰是固定设计。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        74,
+        63,
+        428,
+        411
+      ],
+      "description": "左上独立全身女子与足球组合，双臂举球过头，身体向左弯曲，双腿分开。摄影背景沿人物和球的轮廓去除，完整外缘带白色描边，手臂间隙也随主体轮廓保留，不包含下方主照片人物。"
+    },
+    {
+      "id": "frame_music",
+      "kind": "overlay",
+      "bbox": [
+        639,
+        8,
+        985,
+        414
+      ],
+      "description": "右上音乐播放器式固定装饰，包含白色圆角卡片轮廓、透明内区、白色页脚及 Music 字样，以及下方进度条、0:00 与 5:20 时间、爱心、上一首、圆形暂停、下一首和循环图标。作为完整设计保留；内区透出全幅摄影底图，没有独立卡内照片，不建立照片窗口关联。"
+    },
+    {
+      "id": "photo_card_foreground",
+      "kind": "photo",
+      "bbox": [
+        645,
+        70,
+        997,
+        344
+      ],
+      "description": "右上独立女子与足球抠像，包含头发、上身、双臂及怀中足球，沿主体轮廓去除原摄影环境，底部横向裁切。人物叠放在播放器固定装饰之上，手臂、辫子及上衣覆盖部分白色轮廓和页脚；不是某张卡内照片的连续出框，不与其他照片绑定同源关系。"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        472,
+        207,
+        602,
+        299
+      ],
+      "description": "上方中央的一组手绘爱心，包括蓝色大爱心及左右下方两枚浅蓝小爱心，保留不规则笔触和内部浅色短笔画。"
+    },
+    {
+      "id": "overlay_starburst",
+      "kind": "overlay",
+      "bbox": [
+        3,
+        414,
+        222,
+        572
+      ],
+      "description": "左侧浅黄绿色手绘空心五角星与周围放射状短线，作为完整星芒装饰保留。"
+    },
+    {
+      "id": "overlay_headphone",
+      "kind": "overlay",
+      "bbox": [
+        227,
+        435,
+        670,
+        1000
+      ],
+      "description": "覆盖主照片的浅薄荷色耳机线式手绘装饰，左右上端各有实心星星，细线从脸颊两侧向胸前交汇，带小矩形线控造型，再向下延伸至画布底边；整组线条与星星共同保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_music",
+    "photo_card_foreground",
+    "photo_left",
+    "overlay_hearts",
+    "overlay_starburst",
+    "overlay_headphone"
+  ]
+}

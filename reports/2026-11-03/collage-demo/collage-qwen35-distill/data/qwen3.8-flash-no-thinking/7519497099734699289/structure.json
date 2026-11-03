@@ -1,0 +1,199 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画布连续摄影底图，画面主体为黄昏时分的街道与树木，天空呈现晚霞色彩。可见内容包括左侧粗壮的树干、上方茂密的枝叶以及右侧的深色建筑屋顶。该底图承载所有独立照片和装饰元素，需整体替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "散布在画面各处的白色五角星图案，大小不一，作为装饰层覆盖在底图和部分照片之上。"
+    },
+    {
+      "id": "frame_tl",
+      "kind": "frame",
+      "bbox": [
+        78,
+        84,
+        412,
+        395
+      ],
+      "description": "左上角竖向矩形照片的白色细边框，包裹着内部风景照片。",
+      "photo_id": [
+        "photo_tl"
+      ]
+    },
+    {
+      "id": "photo_tl",
+      "kind": "photo",
+      "bbox": [
+        86,
+        91,
+        404,
+        388
+      ],
+      "description": "左上角照片内容：绿树掩映下的街道一角，有米黄色墙体和路灯，叠加有竖排白色文字“带着潮湿的绿意和清冽的木质香，给闷热的天气带来一丝大口呼吸的凉意。”"
+    },
+    {
+      "id": "frame_tr",
+      "kind": "frame",
+      "bbox": [
+        468,
+        81,
+        891,
+        271
+      ],
+      "description": "右上角横向矩形照片的白色细边框，包裹着内部街景照片。",
+      "photo_id": [
+        "photo_tr"
+      ]
+    },
+    {
+      "id": "photo_tr",
+      "kind": "photo",
+      "bbox": [
+        475,
+        88,
+        884,
+        264
+      ],
+      "description": "右上角照片内容：林荫大道，远处有红绿灯和路牌，叠加有横排白色文字“每每到了夏天，我开始抓不住我自己。整个变成一团云，虚无的，没有确切的情绪。像是漫长的犯困，醒不过来。”"
+    },
+    {
+      "id": "frame_mr",
+      "kind": "frame",
+      "bbox": [
+        518,
+        316,
+        775,
+        558
+      ],
+      "description": "中间偏右竖向矩形照片的白色细边框，包裹着绣球花照片。",
+      "photo_id": [
+        "photo_mr"
+      ]
+    },
+    {
+      "id": "photo_mr",
+      "kind": "photo",
+      "bbox": [
+        525,
+        323,
+        768,
+        551
+      ],
+      "description": "中间偏右照片内容：绿叶丛中的淡紫色绣球花，下方有一本摊开的书。"
+    },
+    {
+      "id": "frame_ml",
+      "kind": "frame",
+      "bbox": [
+        131,
+        436,
+        475,
+        675
+      ],
+      "description": "中间偏左的黑色胶卷风格边框，带有齿孔纹理，包裹着蓝天白云照片。",
+      "photo_id": [
+        "photo_ml"
+      ]
+    },
+    {
+      "id": "photo_ml",
+      "kind": "photo",
+      "bbox": [
+        156,
+        451,
+        450,
+        660
+      ],
+      "description": "中间偏左照片内容：透过树叶看到的蓝天、白云和高架桥上的列车。"
+    },
+    {
+      "id": "photo_r",
+      "kind": "photo",
+      "bbox": [
+        696,
+        526,
+        915,
+        735
+      ],
+      "description": "右侧不规则形状照片（类似撕纸效果），内容为夕阳下的城市天际线剪影，顶部贴有一条米色胶带。"
+    },
+    {
+      "id": "frame_bl",
+      "kind": "frame",
+      "bbox": [
+        141,
+        716,
+        475,
+        956
+      ],
+      "description": "左下角横向矩形照片的白色细边框，包裹着落花照片。",
+      "photo_id": [
+        "photo_bl"
+      ]
+    },
+    {
+      "id": "photo_bl",
+      "kind": "photo",
+      "bbox": [
+        148,
+        723,
+        468,
+        949
+      ],
+      "description": "左下角照片内容：黑色沥青路面上散落的粉色花瓣，叠加有底部白色文字“出生在夏至前后，于是总会赋予这个季节特殊的意义。要热烈，要浓郁，要拥有旺盛的生命力。”"
+    },
+    {
+      "id": "frame_br",
+      "kind": "frame",
+      "bbox": [
+        491,
+        791,
+        844,
+        946
+      ],
+      "description": "右下角横向矩形照片的白色细边框，包裹着饮品照片。",
+      "photo_id": [
+        "photo_br"
+      ]
+    },
+    {
+      "id": "photo_br",
+      "kind": "photo",
+      "bbox": [
+        498,
+        798,
+        837,
+        939
+      ],
+      "description": "右下角照片内容：木桌上的两杯饮品和甜点，背景较暗，叠加有白色文字“时间好像是过不完的。夏天可以心安理得地浪费时间。总有人手把住在街道上，能捧在怀里的半个西瓜，盛大辉煌的落日晚霞，声嘶力竭的蝉鸣，被衣物覆盖的细腻皮肤，所有一切又确又真实。”"
+    }
+  ],
+  "layer_order": [
+    "photo_tl",
+    "frame_tl",
+    "photo_tr",
+    "frame_tr",
+    "photo_mr",
+    "frame_mr",
+    "photo_ml",
+    "frame_ml",
+    "photo_r",
+    "photo_bl",
+    "frame_bl",
+    "photo_br",
+    "frame_br",
+    "overlay_stars"
+  ]
+}

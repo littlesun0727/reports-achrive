@@ -1,0 +1,227 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "海滩全景摄影底图，包含蓝天、海面、沙滩、远处船只、近处遮阳棚及沙滩上的人物，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "海滩全景摄影底图，包含蓝天、海面、沙滩、远处船只、近处遮阳棚",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        198,
+        322,
+        400,
+        510
+      ],
+      "description": "冰淇淋特写照片，显示甜筒和冰淇淋球，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "冰淇淋特写照片，显示甜筒和冰淇淋球，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_ocean",
+      "kind": "photo",
+      "bbox": [
+        500,
+        396,
+        662,
+        526
+      ],
+      "description": "海面船只照片，显示蓝色海面和几艘小船，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "海面船只照片，显示蓝色海面和几艘小船，保留照片内的摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        428,
+        786,
+        688,
+        990
+      ],
+      "description": "女子在街景前摆姿势的照片，显示人物、车辆和建筑，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "女子在街景前摆姿势的照片，显示人物、车辆和建筑，保留照片内的",
+      "method": "local"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        162,
+        216,
+        468,
+        300
+      ],
+      "description": "Rainy Day",
+      "label": "Rainy Day",
+      "method": "local",
+      "text": "Rainy Day",
+      "text_status": "known",
+      "style": {
+        "fill": "#A0E0F0",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        382,
+        462,
+        504,
+        774
+      ],
+      "description": "Summer sunsets\nnever disappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleaves sweet\nsoftness to\nevery passerby",
+      "label": "Summer sunsets\nnever disappoin",
+      "method": "local",
+      "text": "Summer sunsets\nnever disappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleaves sweet\nsoftness to\nevery passerby",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF5C0",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        572,
+        174,
+        716,
+        348
+      ],
+      "description": "白色带蓝点的五角星装饰，位于画布右上部，作为独立固定装饰保留。",
+      "label": "白色带蓝点的五角星装饰，位于画布右上部，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        672,
+        369,
+        894
+      ],
+      "description": "黄色五角星装饰，位于画布左中部，作为独立固定装饰保留。",
+      "label": "黄色五角星装饰，位于画布左中部，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music1",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        726,
+        783,
+        816
+      ],
+      "description": "白色音符装饰，位于画布右中部，作为独立固定装饰保留。",
+      "label": "白色音符装饰，位于画布右中部，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music2",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        444,
+        207,
+        516
+      ],
+      "description": "蓝色音符装饰，位于画布左中部，作为独立固定装饰保留。",
+      "label": "蓝色音符装饰，位于画布左中部，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music3",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        564,
+        513,
+        636
+      ],
+      "description": "蓝色音符装饰，位于画布中部，作为独立固定装饰保留。",
+      "label": "蓝色音符装饰，位于画布中部，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music4",
+      "kind": "overlay",
+      "bbox": [
+        396,
+        456,
+        441,
+        528
+      ],
+      "description": "蓝色音符装饰，位于画布中部偏左，作为独立固定装饰保留。",
+      "label": "蓝色音符装饰，位于画布中部偏左，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music5",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        636,
+        513,
+        708
+      ],
+      "description": "蓝色音符装饰，位于画布中部偏右，作为独立固定装饰保留。",
+      "label": "蓝色音符装饰，位于画布中部偏右，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        279,
+        780,
+        405,
+        996
+      ],
+      "description": "蓝色点阵装饰，位于画布左下部，作为独立固定装饰保留。",
+      "label": "蓝色点阵装饰，位于画布左下部，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_icecream",
+    "photo_ocean",
+    "photo_woman",
+    "text_title",
+    "text_body",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_music1",
+    "overlay_music2",
+    "overlay_music3",
+    "overlay_music4",
+    "overlay_music5",
+    "overlay_dots"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "蓝色天空背景，带有黑色电线，构成连续摄影底图，完整显示区域延伸至画布四边；上层文字和照片遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝色天空背景，带有黑色电线，构成连续摄影底图，完整显示区域延",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        43,
+        23,
+        484,
+        1150
+      ],
+      "description": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "label": "My\nLife\nis\nOrdinary\nbut Shinin",
+      "method": "local",
+      "text": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_balloon",
+      "kind": "photo",
+      "bbox": [
+        475,
+        416,
+        818,
+        890
+      ],
+      "description": "手持粉色星星气球的照片，包含手部、气球和背景，显示区域为矩形。",
+      "label": "手持粉色星星气球的照片，包含手部、气球和背景，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        547,
+        390,
+        762,
+        454
+      ],
+      "description": "透明胶带，贴在照片左上角，作为独立固定装饰保留。",
+      "label": "透明胶带，贴在照片左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_1",
+    "photo_balloon",
+    "overlay_tape"
+  ]
+}

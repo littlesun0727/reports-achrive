@@ -1,0 +1,425 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "dotted_background",
+    "description": "全画布白色底上均匀分布浅蓝色小圆点，四边及各照片间隙连续可见；保留圆点图案与底色，照片、文字和贴纸均为独立上层内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        93,
+        76,
+        518,
+        500
+      ],
+      "description": "一名戴耳机的年轻女性在服装店内弯腰前倾、双腿分开，双臂交叠在身前，近全身取景；保留衣架、衣服和地面环境。矩形显示，顶部局部被兔子云朵贴纸遮挡，左侧有标签覆盖。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        553,
+        314,
+        927,
+        593
+      ],
+      "description": "一名戴眼镜的年轻女性坐在餐厅，张嘴面向镜头，双手端着一盘面食，半身取景；保留餐桌、座椅及餐厅环境，矩形边界清晰，两个白色爱心为独立叠加装饰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        124,
+        582,
+        372,
+        765
+      ],
+      "description": "一名戴眼镜、穿格纹上衣的年轻女性手持手机侧身自拍，上半身取景，保留镜中室内背景；照片位于白色相纸内口，右下方局部被玩偶装饰遮挡。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        686,
+        751,
+        897,
+        924
+      ],
+      "description": "一名戴大耳机的年轻女性蹲坐，身体侧向左方，双手托着面颊，穿格纹上衣和深色裙装；保留浅色墙面与地面，照片在黑白卡框内呈矩形显示，没有连续出框。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        108,
+        572,
+        393,
+        804
+      ],
+      "description": "承载自拍照片的白色拍立得式相纸，底边较宽，保留浅灰立体边缘和投影；左上方被回形针装饰覆盖，下部被黑白玩偶覆盖。",
+      "photo_id": [
+        "photo_3"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        659,
+        730,
+        924,
+        973
+      ],
+      "description": "承载蹲姿照片的黑白插画相框，具有黑色外边线、不规则黑色斑块、下方熊猫脸及“Good Luck”字样，整体保留；顶部云朵为另行叠贴的装饰。",
+      "photo_id": [
+        "photo_4"
+      ]
+    },
+    {
+      "id": "rabbit_cloud",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        44,
+        577,
+        178
+      ],
+      "description": "立体白灰色云朵贴纸，内有灰色兔子、蓝色碗和勺子，左下附小云团；保留整体阴影与柔软边缘，覆盖左上照片顶部。"
+    },
+    {
+      "id": "love_label",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        115,
+        143,
+        241
+      ],
+      "description": "白色竖向椭圆标签，双层细线轮廓，内部竖排韩文“사랑해”和空心爱心，文字与载体整体保留。"
+    },
+    {
+      "id": "speech_oval",
+      "kind": "overlay",
+      "bbox": [
+        665,
+        74,
+        926,
+        206
+      ],
+      "description": "横向白色椭圆气泡，带浅灰细边，内部两行韩文“뭔가가\n그리워지는데.”，文字与椭圆整体保留。"
+    },
+    {
+      "id": "black_quote",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        352,
+        141,
+        385
+      ],
+      "description": "由错落的黑色圆角小条组成的英文标签，白字可辨为“everything you do / makes me love you even / more”，完整保留黑色载体与排版。"
+    },
+    {
+      "id": "kaomoji_label",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        222,
+        714,
+        253
+      ],
+      "description": "浅灰细线矩形小标签，内部为黑色颜文字、波浪符号和星形，保留手绘线条与完整字形。"
+    },
+    {
+      "id": "doodle_equation",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        265,
+        774,
+        310
+      ],
+      "description": "右侧照片上方的黑灰手绘涂鸦组合，由蝴蝶状图形、加号、花朵、花枝、爱心及等号组成，作为一组连续装饰保留。"
+    },
+    {
+      "id": "heart_large",
+      "kind": "overlay",
+      "bbox": [
+        587,
+        390,
+        656,
+        445
+      ],
+      "description": "叠在餐厅照片左上区域的立体白色爱心，具有浅灰轮廓与柔和阴影。"
+    },
+    {
+      "id": "heart_small",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        514,
+        912,
+        555
+      ],
+      "description": "叠在餐厅照片右下区域的小型白色立体爱心，保留灰色阴影与圆润边缘。"
+    },
+    {
+      "id": "blue_speech",
+      "kind": "overlay",
+      "bbox": [
+        297,
+        515,
+        469,
+        598
+      ],
+      "description": "浅蓝色椭圆对话气泡，左下有短尾，内含多行深色韩文小字；气泡、文字与整体轮廓一起保留，覆盖自拍相框上缘。"
+    },
+    {
+      "id": "paperclip",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        536,
+        214,
+        631
+      ],
+      "description": "斜置的银灰色长回形针装饰，顶端带白色爱心状造型，具有深色轮廓、高光和阴影，叠在自拍相框左上角。"
+    },
+    {
+      "id": "sketched_hearts",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        522,
+        131,
+        612
+      ],
+      "description": "自拍相框左上外侧的三个灰黑手绘空心爱心，大小不一、上下错落，保留整组铅笔状笔触。"
+    },
+    {
+      "id": "wing_left",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        631,
+        117,
+        695
+      ],
+      "description": "自拍相框左侧的浅蓝白色小翅膀贴纸，具有珠点状边线、卷曲内线与轻微阴影。"
+    },
+    {
+      "id": "wing_right",
+      "kind": "overlay",
+      "bbox": [
+        372,
+        627,
+        467,
+        695
+      ],
+      "description": "自拍相框右侧的浅蓝白色翅膀贴纸，保留珠点轮廓、羽翼形状、卷曲内线与阴影。"
+    },
+    {
+      "id": "plush_pair",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        745,
+        481,
+        859
+      ],
+      "description": "并排相贴的白色与黑色猫形毛绒玩偶装饰，白色玩偶闭眼，黑色玩偶有旋涡眼睛；保留两只玩偶的耳朵、四肢、绒毛和阴影，覆盖自拍相框右下角。"
+    },
+    {
+      "id": "russian_lettering",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        610,
+        877,
+        691
+      ],
+      "description": "三行错落排布的棕橙色俄文装饰字，具有倾斜手写笔画和浅色条状衬底，可辨为“ДЕРЖИ МЕНЯ НА РАССТОЯНИИ ВЫСТРЕЛА,\nЕСЛИ Я ЗАГОВОРЮ ПРО ЛЮБОВЬ\nИ ОСОБЕННО, ЕСЛИ ИСКРЕННЕ”；作为完整字样设计保留。"
+    },
+    {
+      "id": "keep_memory",
+      "kind": "overlay",
+      "bbox": [
+        461,
+        688,
+        637,
+        736
+      ],
+      "description": "黑白手绘“KEEP MEMORY”标签，左侧有带红色小爱心的胶卷筒状图形，文字上下带粗糙横线，所有成员整体保留。"
+    },
+    {
+      "id": "check_top",
+      "kind": "overlay",
+      "bbox": [
+        546,
+        747,
+        638,
+        807
+      ],
+      "description": "白色贴纸上的黑色方框勾选图案，勾号向右上延伸，保留双层轮廓、白边和灰色阴影。"
+    },
+    {
+      "id": "check_bottom",
+      "kind": "overlay",
+      "bbox": [
+        547,
+        807,
+        639,
+        864
+      ],
+      "description": "第二枚独立黑白勾选贴纸，方框内有向右上伸出的勾号，保留白色外缘和投影。"
+    },
+    {
+      "id": "cloud_face",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        720,
+        900,
+        764
+      ],
+      "description": "黑色粗线包围的白色云朵脸贴纸，内有小眼睛、嘴巴与点状表情，跨在右下相框顶边。"
+    },
+    {
+      "id": "exclamation",
+      "kind": "overlay",
+      "bbox": [
+        927,
+        875,
+        983,
+        952
+      ],
+      "description": "右下相框外侧的黑白手绘感叹号，长条主体与下方圆点均带粗黑轮廓和内部短线纹理，作为一个完整装饰保留。"
+    },
+    {
+      "id": "star_top",
+      "kind": "overlay",
+      "bbox": [
+        528,
+        169,
+        572,
+        200
+      ],
+      "description": "兔子云朵右下方的黑色实心五角星。"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        427,
+        115,
+        463
+      ],
+      "description": "左上照片左下侧的黑色实心五角星，部分跨出照片左边缘。"
+    },
+    {
+      "id": "star_right",
+      "kind": "overlay",
+      "bbox": [
+        938,
+        407,
+        980,
+        440
+      ],
+      "description": "餐厅照片右侧的黑色实心五角星。"
+    },
+    {
+      "id": "star_middle",
+      "kind": "overlay",
+      "bbox": [
+        581,
+        637,
+        626,
+        672
+      ],
+      "description": "俄文装饰字左下区域的黑色实心五角星。"
+    },
+    {
+      "id": "star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        754,
+        92,
+        789
+      ],
+      "description": "自拍相框左下外侧的黑色实心五角星。"
+    },
+    {
+      "id": "caption_cn",
+      "kind": "text",
+      "bbox": [
+        84,
+        820,
+        258,
+        831
+      ],
+      "text": "夏天就像一场梦醒来时已不再年轻",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "caption_en",
+      "kind": "text",
+      "bbox": [
+        68,
+        832,
+        278,
+        840
+      ],
+      "text": "Summer is like a dream and when you wake up you're no longer young",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "frame_1",
+    "photo_3",
+    "photo_4",
+    "frame_2",
+    "rabbit_cloud",
+    "love_label",
+    "speech_oval",
+    "black_quote",
+    "kaomoji_label",
+    "doodle_equation",
+    "heart_large",
+    "heart_small",
+    "blue_speech",
+    "paperclip",
+    "sketched_hearts",
+    "wing_left",
+    "wing_right",
+    "plush_pair",
+    "russian_lettering",
+    "keep_memory",
+    "check_top",
+    "check_bottom",
+    "cloud_face",
+    "exclamation",
+    "star_top",
+    "star_left",
+    "star_right",
+    "star_middle",
+    "star_bottom_left",
+    "caption_cn",
+    "caption_en"
+  ]
+}

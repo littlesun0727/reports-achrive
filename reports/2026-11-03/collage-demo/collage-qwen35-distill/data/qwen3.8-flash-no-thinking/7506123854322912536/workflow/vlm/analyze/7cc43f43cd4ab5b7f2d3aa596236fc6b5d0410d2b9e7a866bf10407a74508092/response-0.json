@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9208aede-a197-93be-8c5f-137f1b48c5c3",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7669,
+    "completion_tokens": 722,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 722
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_wall_texture\",\n    \"description\": \"全画布连续底图，由白色砖墙、灰色石质台阶及缝隙中的绿色植物和雏菊构成。该部分为固定设计背景，需保留原样；上层照片与装饰遮挡局部，但底图范围延伸至画布四边。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        75,\n        128,\n        756,\n        449\n      ],\n      \"description\": \"上方矩形照片窗口，显示一名身穿白色上衣的年轻女子在户外阳台托腮沉思，背景有棕榈树和白色栏杆。边缘带有柔和的羽化效果，自然融入底图。\"\n    },\n    {\n      \"id\": \"overlay_flower_pattern_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        63,\n        162,\n        201\n      ],\n      \"description\": \"左上角半透明白色网格状花朵图案，作为独立装饰叠加在底图和照片之上。\"\n    },\n    {\n      \"id\": \"overlay_flower_pattern_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        655,\n        338,\n        875,\n        495\n      ],\n      \"description\": \"右侧中部半透明白色网格状花朵图案，位于上方照片右下角附近，叠加在底图上。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        303,\n        578,\n        898,\n        892\n      ],\n      \"description\": \"下方矩形照片窗口，显示同一名年轻女子坐在车内（或类似座椅环境），正面注视镜头。边缘同样带有柔和的羽化效果。\"\n    },\n    {\n      \"id\": \"overlay_green_grid\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        158,\n        745,\n        370,\n        928\n      ],\n      \"description\": \"左下角绿色网格方块，内部包含手绘风格的黑色线条图案，叠加在底图和下方照片左缘之上。\"\n    },\n    {\n      \"id\": \"overlay_flower_pattern_3\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        662,\n        838,\n        998,\n        965\n      ],\n      \"description\": \"右下角半透明白色网格状花朵图案，叠加在底图最下层区域。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_flower_pattern_1\",\n    \"overlay_flower_pattern_2\",\n    \"overlay_green_grid\",\n    \"overlay_flower_pattern_3\"\n  ]\n}",
+  "tool_calls": false
+}

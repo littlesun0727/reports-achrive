@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "俯拍视角的室内场景，包含木质圆桌、桌上的食物（蛋糕、饼干、饮品）、墙上的装饰画、墙角的植物以及前景中的人物腿部和衣物。摄影内容连续且完整，延伸至画布边缘，作为全画布底图承载所有独立对象。",
+      "background_type": "photo",
+      "label": "俯拍视角的室内场景，包含木质圆桌、桌上的食物（蛋糕、饼干、饮",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_sticker_1",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        120,
+        315,
+        180
+      ],
+      "description": "黄白格纹的胶带贴纸，位于上方照片的左上角，作为装饰元素。",
+      "label": "黄白格纹的胶带贴纸，位于上方照片的左上角，作为装饰元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_2",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        60,
+        765,
+        180
+      ],
+      "description": "带有烟花和小房子的椭圆形贴纸，位于右上角墙面区域。",
+      "label": "带有烟花和小房子的椭圆形贴纸，位于右上角墙面区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_3",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        480,
+        675,
+        540
+      ],
+      "description": "包含日文文字“(辛かったれ)”的贴纸，位于右侧黄色花朵下方。",
+      "label": "包含日文文字“(辛かったれ)”的贴纸，位于右侧黄色花朵下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_4",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        720,
+        360,
+        780
+      ],
+      "description": "粉色长条形贴纸，包含四个白色小熊头像，位于左侧植物下方。",
+      "label": "粉色长条形贴纸，包含四个白色小熊头像，位于左侧植物下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_5",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        660,
+        765,
+        720
+      ],
+      "description": "蓝白格纹的胶带贴纸，位于右下方圆形照片的右上角。",
+      "label": "蓝白格纹的胶带贴纸，位于右下方圆形照片的右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_6",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        840,
+        180,
+        960
+      ],
+      "description": "包含日文文字“‘現実と夢の境目。’”的贴纸，位于左下角区域。",
+      "label": "包含日文文字“‘現実と夢の境目。’”的贴纸，位于左下角区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_7",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        900,
+        315,
+        1020
+      ],
+      "description": "带有蛋糕图案的贴纸，位于左下角文字下方。",
+      "label": "带有蛋糕图案的贴纸，位于左下角文字下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sticker_8",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        960,
+        855,
+        1140
+      ],
+      "description": "包含星星和闪光线条的装饰贴纸，位于右下角区域。",
+      "label": "包含星星和闪光线条的装饰贴纸，位于右下角区域。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        162,
+        180,
+        540,
+        540
+      ],
+      "description": "上方矩形照片，展示深色盘子里的蛋糕、饼干和一杯饮品，以及一把叉子。照片边缘有轻微模糊效果。",
+      "label": "上方矩形照片，展示深色盘子里的蛋糕、饼干和一杯饮品，以及一把",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        405,
+        660,
+        810,
+        1140
+      ],
+      "description": "右下方圆形照片，展示一杯装有水果片的饮品和一个白色毛绒玩具。照片边缘有圆形裁剪效果。",
+      "label": "右下方圆形照片，展示一杯装有水果片的饮品和一个白色毛绒玩具。",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom",
+    "overlay_sticker_1",
+    "overlay_sticker_2",
+    "overlay_sticker_3",
+    "overlay_sticker_4",
+    "overlay_sticker_5",
+    "overlay_sticker_6",
+    "overlay_sticker_7",
+    "overlay_sticker_8"
+  ]
+}

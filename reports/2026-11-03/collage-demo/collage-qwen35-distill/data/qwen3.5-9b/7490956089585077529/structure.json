@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅色纹理纸底，四周及两张照片间隙保留相同纸纹；照片独立替换，纸底保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        68,
+        136,
+        742,
+        446
+      ],
+      "description": "上方人物近景照片，人物长发，保留照片内的摄影环境，显示区域为圆角矩形。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        202,
+        576,
+        902,
+        886
+      ],
+      "description": "下方人物近景照片，人物微笑，保留照片内的摄影环境，显示区域为圆角矩形。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom"
+  ]
+}

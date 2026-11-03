@@ -1,0 +1,216 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "带有黑色波点图案的白色固定底图，覆盖整个画布左侧及顶部区域，作为所有独立照片和装饰的承载背景。",
+      "background_type": "reference_clean",
+      "label": "带有黑色波点图案的白色固定底图，覆盖整个画布左侧及顶部区域，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_full",
+      "kind": "photo",
+      "bbox": [
+        306,
+        0,
+        900,
+        1200
+      ],
+      "description": "右侧全身人物照片，人物穿着黑色毛衣和黑色乐福鞋，站在木桶旁，背景为带有'I LOVE TOMMY JEANS'字样的墙面。",
+      "label": "右侧全身人物照片，人物穿着黑色毛衣和黑色乐福鞋，站在木桶旁，",
+      "method": "local"
+    },
+    {
+      "id": "photo_closeup_1",
+      "kind": "photo",
+      "bbox": [
+        45,
+        216,
+        306,
+        612
+      ],
+      "description": "左上角人物面部特写照片，人物穿着黑色毛衣，背景为室内环境。",
+      "label": "左上角人物面部特写照片，人物穿着黑色毛衣，背景为室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        153,
+        528,
+        396,
+        768
+      ],
+      "description": "中间圆形裁剪的人物照片，人物穿着黑色毛衣，背景为带有'I LOVE TOMMY JEANS'字样的墙面。",
+      "label": "中间圆形裁剪的人物照片，人物穿着黑色毛衣，背景为带有'I L",
+      "method": "local"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        9,
+        816,
+        306,
+        1188
+      ],
+      "description": "左下角心形裁剪的人物照片，人物穿着黑色毛衣，背景为带有'I LOVE TOMMY JEANS'字样的墙面。",
+      "label": "左下角心形裁剪的人物照片，人物穿着黑色毛衣，背景为带有'I ",
+      "method": "local"
+    },
+    {
+      "id": "frame_full",
+      "kind": "frame",
+      "bbox": [
+        306,
+        0,
+        900,
+        1200
+      ],
+      "description": "围绕右侧全身照片的固定边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_full"
+      ],
+      "label": "围绕右侧全身照片的固定边框，与照片内容紧密贴合，作为照片的承",
+      "method": "extract"
+    },
+    {
+      "id": "frame_closeup",
+      "kind": "frame",
+      "bbox": [
+        45,
+        216,
+        306,
+        612
+      ],
+      "description": "围绕左上角特写照片的固定边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_closeup_1"
+      ],
+      "label": "围绕左上角特写照片的固定边框，与照片内容紧密贴合，作为照片的",
+      "method": "extract"
+    },
+    {
+      "id": "frame_circle",
+      "kind": "frame",
+      "bbox": [
+        153,
+        528,
+        396,
+        768
+      ],
+      "description": "围绕中间圆形照片的固定圆形边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_circle"
+      ],
+      "label": "围绕中间圆形照片的固定圆形边框，与照片内容紧密贴合，作为照片",
+      "method": "extract"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        9,
+        816,
+        306,
+        1188
+      ],
+      "description": "围绕左下角心形照片的固定心形边框，与照片内容紧密贴合，作为照片的承载框架。",
+      "photo_id": [
+        "photo_heart"
+      ],
+      "label": "围绕左下角心形照片的固定心形边框，与照片内容紧密贴合，作为照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        180,
+        216,
+        264
+      ],
+      "description": "左上角照片上方的黑色五角星贴纸，作为独立装饰元素。",
+      "label": "左上角照片上方的黑色五角星贴纸，作为独立装饰元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        144,
+        828,
+        180
+      ],
+      "description": "右上角照片上方的白色五角星贴纸，作为独立装饰元素。",
+      "label": "右上角照片上方的白色五角星贴纸，作为独立装饰元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        600,
+        153,
+        636
+      ],
+      "description": "左侧照片下方的黑色矩形贴纸，上面有白色符号 '+ = ^ - • - ^ = +'，作为独立装饰元素。",
+      "label": "左侧照片下方的黑色矩形贴纸，上面有白色符号 '+ = ^ -",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "text",
+      "bbox": [
+        9,
+        1056,
+        306,
+        1104
+      ],
+      "description": "一緒に頑張ろうね",
+      "label": "一緒に頑張ろうね",
+      "method": "local",
+      "text": "一緒に頑張ろうね",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_full",
+    "photo_closeup_1",
+    "photo_circle",
+    "photo_heart",
+    "frame_full",
+    "frame_closeup",
+    "frame_circle",
+    "frame_heart",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_text_1",
+    "overlay_text_2"
+  ]
+}

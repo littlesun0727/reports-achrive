@@ -1,0 +1,188 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#0000FF"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        132,
+        186,
+        874,
+        742
+      ],
+      "description": "电脑屏幕显示的画面，左侧为陶艺工具与泥碗，右侧为手持陶碗的特写，中间有像素心形气泡。"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        132,
+        186,
+        874,
+        742
+      ],
+      "description": "围绕主画面的复古电脑窗口边框，包含标题栏、菜单栏和底部状态栏。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "photo_error",
+      "kind": "photo",
+      "bbox": [
+        56,
+        716,
+        246,
+        856
+      ],
+      "description": "左下角的“Error”弹窗，显示“ALONE”字样和“OK”按钮。"
+    },
+    {
+      "id": "photo_dialog",
+      "kind": "photo",
+      "bbox": [
+        726,
+        262,
+        956,
+        376
+      ],
+      "description": "右上角的对话框，显示“hey girl”和“he will not call”等文字及按钮。"
+    },
+    {
+      "id": "overlay_cat_small",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        256,
+        602,
+        296
+      ],
+      "description": "标题栏右侧的小像素猫头图标。"
+    },
+    {
+      "id": "overlay_cat_large",
+      "kind": "overlay",
+      "bbox": [
+        732,
+        666,
+        982,
+        846
+      ],
+      "description": "右下角的大像素猫图案。"
+    },
+    {
+      "id": "overlay_heart1",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        22,
+        132,
+        102
+      ],
+      "description": "左上角的白色像素爱心。"
+    },
+    {
+      "id": "overlay_heart2",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        86,
+        232,
+        156
+      ],
+      "description": "左上角偏下的白色像素爱心。"
+    },
+    {
+      "id": "overlay_heart3",
+      "kind": "overlay",
+      "bbox": [
+        502,
+        316,
+        592,
+        376
+      ],
+      "description": "主画面中间的粉色像素爱心气泡。"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        262,
+        866,
+        342,
+        946
+      ],
+      "description": "左下角的蓝色像素星星。"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        836,
+        752,
+        906
+      ],
+      "description": "右下角的黄色像素星星。"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        912,
+        536,
+        972,
+        596
+      ],
+      "description": "右侧的蓝色像素星星。"
+    },
+    {
+      "id": "overlay_hand",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        326,
+        946,
+        386
+      ],
+      "description": "右上角对话框旁的像素鼠标手型图标。"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        6,
+        956,
+        156,
+        996
+      ],
+      "text": "PM 10:25\nAUGUST. 07 1990",
+      "color": "#0000FF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_error",
+    "photo_dialog",
+    "photo_main",
+    "frame_main",
+    "overlay_cat_small",
+    "overlay_heart1",
+    "overlay_heart2",
+    "overlay_heart3",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_hand",
+    "overlay_cat_large",
+    "text_date"
+  ]
+}

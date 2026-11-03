@@ -1,0 +1,120 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "咖啡馆室内环境作为连续摄影底图，包含木质桌椅、墙面装饰、暖色灯光及模糊背景，完整显示区域延伸至画布四边；上层照片和手绘装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "咖啡馆室内环境作为连续摄影底图，包含木质桌椅、墙面装饰、暖色",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        60,
+        110,
+        502,
+        684
+      ],
+      "description": "左侧人物半身照片，人物穿深蓝色毛衣，手托下巴看书，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左侧人物半身照片，人物穿深蓝色毛衣，手托下巴看书，保留照片内",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        477,
+        406,
+        810,
+        682
+      ],
+      "description": "右侧甜点特写照片，心形窗口内展示布丁甜品，保留照片内的摄影环境，显示区域为心形。",
+      "label": "右侧甜点特写照片，心形窗口内展示布丁甜品，保留照片内的摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        475,
+        835,
+        855,
+        1147
+      ],
+      "description": "下方人物近景照片，人物穿深蓝色毛衣，手托脸颊，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "下方人物近景照片，人物穿深蓝色毛衣，手托脸颊，保留照片内的摄",
+      "method": "local"
+    },
+    {
+      "id": "overlay_drawing_top",
+      "kind": "overlay",
+      "bbox": [
+        333,
+        82,
+        882,
+        360
+      ],
+      "description": "顶部手绘涂鸦装饰，包含星星、爱心、表情符号和数字63，白色线条风格，位于画布右上区域。",
+      "label": "顶部手绘涂鸦装饰，包含星星、爱心、表情符号和数字63，白色线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drawing_bottom",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        756,
+        378,
+        1140
+      ],
+      "description": "底部手绘涂鸦装饰，包含蛋糕、星星、对话气泡和文字“今日有咖”，白色线条风格，位于画布左下区域。",
+      "label": "底部手绘涂鸦装饰，包含蛋糕、星星、对话气泡和文字“今日有咖”",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        180,
+        816,
+        342,
+        888
+      ],
+      "description": "今日有咖",
+      "label": "今日有咖",
+      "method": "local",
+      "text": "今日有咖",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_left",
+    "photo_right",
+    "photo_bottom",
+    "overlay_drawing_top",
+    "overlay_drawing_bottom",
+    "text_1"
+  ]
+}

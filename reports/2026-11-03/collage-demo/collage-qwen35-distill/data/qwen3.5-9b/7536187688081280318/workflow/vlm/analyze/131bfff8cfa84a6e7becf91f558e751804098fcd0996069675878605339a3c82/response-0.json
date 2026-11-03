@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b6d5eec64045365e",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 7827,
+    "completion_tokens": 768,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"water_drop_bg\",\n    \"description\": \"全画布固定底图，呈现浅蓝色背景上布满大小不一的水滴纹理，整体风格清新；作为独立固定设计单元保留，不替换。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_girl\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        100,\n        168,\n        565,\n        558\n      ],\n      \"description\": \"左上人物照片，女孩躺在草地上，手持粉色雏菊，背景为树林，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_sunset\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        330,\n        598,\n        965,\n        888\n      ],\n      \"description\": \"右下风景照片，海边日落，人群坐在沙滩上，保留摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_lily\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        10,\n        420,\n        330,\n        685\n      ],\n      \"description\": \"左侧红色百合花贴纸，带白色描边，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_purple_flowers\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        620,\n        145,\n        990,\n        600\n      ],\n      \"description\": \"右侧紫色花朵贴纸群，半透明效果，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_spiral\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        260,\n        820,\n        400,\n        920\n      ],\n      \"description\": \"左下白色螺旋线条装饰，作为独立固定单元保留。\"\n    },\n    {\n      \"id\": \"text_title\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        430,\n        25,\n        560,\n        45\n      ],\n      \"text\": \"CHAREN\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_subtitle\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        590,\n        430,\n        920,\n        520\n      ],\n      \"text\": \"CAILLING\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_girl\",\n    \"photo_sunset\",\n    \"overlay_lily\",\n    \"overlay_purple_flowers\",\n    \"overlay_spiral\",\n    \"text_title\",\n    \"text_subtitle\"\n  ]\n}",
+  "tool_calls": false
+}

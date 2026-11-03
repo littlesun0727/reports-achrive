@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-9867788a61cacc59",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7865,
+    "completion_tokens": 918,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"城市街道场景，包含灰色建筑墙面、沥青路面、路缘石及远处行人，构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和装饰遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_star\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        142,\n        106,\n        404,\n        359\n      ],\n      \"description\": \"竖向人物半身照片，位于左上角星形窗口内，保留人物及身后的摄影环境，显示区域为星形裁切。\"\n    },\n    {\n      \"id\": \"photo_circle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        603,\n        563,\n        939,\n        912\n      ],\n      \"description\": \"竖向人物半身照片，位于右下角圆形窗口内，保留人物及身后的摄影环境，显示区域为圆形裁切。\"\n    },\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        339,\n        272,\n        676,\n        962\n      ],\n      \"description\": \"竖向人物全身照片，位于画面中央，保留人物及身后的摄影环境，显示区域为矩形裁切。\"\n    },\n    {\n      \"id\": \"frame_star\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        32,\n        32,\n        462,\n        361\n      ],\n      \"description\": \"白色手绘风格星形边框，围绕左上角照片，覆盖照片边缘并位于照片上方，完整星形作为一个框体保留。\",\n      \"photo_id\": [\n        \"photo_star\"\n      ]\n    },\n    {\n      \"id\": \"frame_circle\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        601,\n        561,\n        941,\n        914\n      ],\n      \"description\": \"白色手绘风格圆形边框，围绕右下角照片，覆盖照片边缘并位于照片上方，完整圆形作为一个框体保留。\",\n      \"photo_id\": [\n        \"photo_circle\"\n      ]\n    },\n    {\n      \"id\": \"overlay_heart\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        86,\n        692,\n        347,\n        872\n      ],\n      \"description\": \"白色心形贴纸，内部包含黑色文字“I”、“ME”及红色爱心符号，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        394,\n        347,\n        447,\n        394\n      ],\n      \"description\": \"白色手绘风格小星星装饰，位于主照片头部附近，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_clouds\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        288,\n        447,\n        772,\n        563\n      ],\n      \"description\": \"白色手绘风格云朵、弧线及星形装饰组合，位于主照片腰部两侧，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_star\",\n    \"frame_star\",\n    \"photo_main\",\n    \"overlay_stars\",\n    \"overlay_clouds\",\n    \"photo_circle\",\n    \"frame_circle\",\n    \"overlay_heart\"\n  ]\n}",
+  "tool_calls": false
+}

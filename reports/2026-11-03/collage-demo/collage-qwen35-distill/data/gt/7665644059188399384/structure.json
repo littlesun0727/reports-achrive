@@ -1,0 +1,217 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_dots",
+    "description": "覆盖全画布的浅蓝白色底图，均匀散布带灰色细边的淡粉灰圆点，四边与笔记本外侧连续可见。保留底色和圆点图案，不包含笔记本及其上独立照片与装饰。"
+  },
+  "objects": [
+    {
+      "id": "notebook",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        100,
+        838,
+        891
+      ],
+      "description": "竖向米黄色圆角笔记本底板，顶部一排黑色金属双线圈，保留纸面色泽、灰色边沿和右下方投影。没有独立照片内口，仅作为整组拼贴的局部承托底板。"
+    },
+    {
+      "id": "photo_float",
+      "kind": "photo",
+      "bbox": [
+        251,
+        233,
+        466,
+        549
+      ],
+      "description": "一杯绿色气泡冰淇淋饮料的完整主体组合，透明高脚杯放在银色花边托盘上，顶部有冰淇淋球、红樱桃和斜插的红白吸管。摄影背景沿物体轮廓去除，杯脚、托盘与吸管均保留；外围有随主体组合分布的白色虚线描边。"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        541,
+        297,
+        659,
+        413
+      ],
+      "description": "独立透明小杯饮品近景，上部为棕色冰咖啡，下部可见乳白与绿色分层，杯中有冰块。沿杯体轮廓去除摄影背景，四周保留白色虚线描边，与下方餐盘不是同一照片窗口。"
+    },
+    {
+      "id": "photo_waffles",
+      "kind": "photo",
+      "bbox": [
+        452,
+        392,
+        785,
+        589
+      ],
+      "description": "黑色圆盘盛放华夫饼、奶油球、草莓、葡萄和蓝莓，俯视斜角拍摄；右上方另有银色叉子及叉上的棕色食物，作为同一餐食主体组合保留。去除周围摄影背景，盘子和叉子外围可见白色断续描边。"
+    },
+    {
+      "id": "photo_toast",
+      "kind": "photo",
+      "bbox": [
+        212,
+        552,
+        583,
+        762
+      ],
+      "description": "浅色圆盘上的两份开放式吐司，前方配虾仁和绿色酱料，后方配火腿、蔬菜与一枚橙黄蛋心煎蛋。斜俯视近景，沿完整餐盘和食物组合去除摄影背景，外围有白色虚线描边。"
+    },
+    {
+      "id": "stars_oval",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        195,
+        315,
+        307
+      ],
+      "description": "左上方倾斜的奶白色贴纸，内部为黑色手绘椭圆轨迹、星星及短线，保留完整不规则纸边与全部笔画。"
+    },
+    {
+      "id": "bubble_tea",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        327,
+        219,
+        438
+      ],
+      "description": "粉色奶茶杯插画贴纸，带蓝色斜吸管、棕色饮品及深色珍珠，保留浅色外边、纸片轮廓和阴影。"
+    },
+    {
+      "id": "blue_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        233,
+        601,
+        354
+      ],
+      "description": "蓝色斜向手写艺术字“人間美味!!”及向左下弯曲的箭头，字词位置和方向共同构成一组装饰，保留原有笔画排布。"
+    },
+    {
+      "id": "brown_note",
+      "kind": "overlay",
+      "bbox": [
+        636,
+        210,
+        860,
+        294
+      ],
+      "description": "右上方横向牛皮纸便签，保留纸张颗粒和黑色手写字“:) 緊緊的記下 不辜負這份小確幸”，右上附有小型手绘图案；文字与纸张整体保留。"
+    },
+    {
+      "id": "pastry_sketch",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        316,
+        904,
+        410
+      ],
+      "description": "奶白色不规则贴纸，棕色线描网格托盘上放着星形饼干和圆形点心，保留完整插画、外边及纸片轮廓。"
+    },
+    {
+      "id": "teddy",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        466,
+        276,
+        613
+      ],
+      "description": "左侧米白色小熊贴纸，棕黑色手绘线条描出圆耳、表情、张开的双臂和胸前蝴蝶结，保留完整轮廓。"
+    },
+    {
+      "id": "cutlery_patch",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        511,
+        901,
+        588
+      ],
+      "description": "右侧棕米色刺绣质感餐具贴片，由刀、圆盘及叉子构成，盘中有小图案；保留织物边缘、轮廓和阴影。"
+    },
+    {
+      "id": "fork_bow",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        653,
+        276,
+        898
+      ],
+      "description": "左下方斜放的金属餐叉装饰，叉柄下段缠绕白色蕾丝并系粉色缎带蝴蝶结。叉子、蕾丝、蝴蝶结及其阴影作为完整固定单元保留。"
+    },
+    {
+      "id": "lined_note",
+      "kind": "overlay",
+      "bbox": [
+        523,
+        735,
+        814,
+        854
+      ],
+      "description": "右下方倾斜的米白横线纸条，带黑色英文手写文字，可见“if you”“will be thirsty too”“if you drink the wine”“you have brewed”等片段。上部被粉色便签遮挡，右下被印花胶带覆盖，纸张和手写排版整体保留。"
+    },
+    {
+      "id": "pink_note",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        608,
+        815,
+        788
+      ],
+      "description": "右下方略倾斜的粉色方形便签，纸面有轻微色差，蓝色手写英文“For the first time the world lay open before him, wide and waiting, ready to receive him, to do him good or harm.”，右下绘蓝色笑脸。文字、笑脸和纸张整体保留。"
+    },
+    {
+      "id": "korean_label",
+      "kind": "overlay",
+      "bbox": [
+        291,
+        793,
+        491,
+        833
+      ],
+      "description": "底部偏左的白色横向标签，灰色印字“너 귀염둥이야!”与左右短线、星星和细小点缀共同印在纸条上，整体保留。"
+    },
+    {
+      "id": "bakery_tape",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        742,
+        891,
+        907
+      ],
+      "description": "右下方向右上倾斜的一条浅米色装饰胶带，印有饼干、牛角包、咖啡豆等棕色烘焙图案，跨过横线纸条并伸出笔记本右侧与底部，保留完整纸边及印花。"
+    }
+  ],
+  "layer_order": [
+    "notebook",
+    "photo_float",
+    "photo_coffee",
+    "photo_waffles",
+    "photo_toast",
+    "stars_oval",
+    "bubble_tea",
+    "blue_handwriting",
+    "brown_note",
+    "pastry_sketch",
+    "teddy",
+    "cutlery_patch",
+    "fork_bow",
+    "lined_note",
+    "pink_note",
+    "korean_label",
+    "bakery_tape"
+  ]
+}

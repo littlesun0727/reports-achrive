@@ -1,0 +1,53 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "模糊的桌面背景，包含手机界面截图、应用图标和噪点纹理。画面整体呈现失焦效果，作为全画布底图延伸至四边，承载上层清晰的UI卡片。"
+  },
+  "objects": [
+    {
+      "id": "frame_card",
+      "kind": "frame",
+      "bbox": [
+        150,
+        62,
+        847,
+        998
+      ],
+      "description": "白色圆角矩形卡片，模拟备忘录App界面。顶部包含黄色“备忘录”标题及功能图标（返回、撤销、重做、分享等），主体部分包含两个上下排列的照片窗口。",
+      "photo_id": [
+        "photo_top",
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        207,
+        226,
+        793,
+        569
+      ],
+      "description": "上方照片窗口，显示一位戴透明框眼镜的年轻女性面部特写，视线向上，嘴部微张，右下角可见手持食物的一角。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        210,
+        613,
+        788,
+        959
+      ],
+      "description": "下方照片窗口，显示同一位戴透明框眼镜的女性正面特写，表情平静，底部可见蓝色毛绒玩具的一角。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "frame_card"
+  ]
+}

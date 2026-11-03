@@ -1,0 +1,309 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "蓝色天空与绿色草地构成的连续摄影底图，完整显示区域延伸至画布四边；上层电脑窗口、对话框、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝色天空与绿色草地构成的连续摄影底图，完整显示区域延伸至画布",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_computer",
+      "kind": "photo",
+      "bbox": [
+        120,
+        166,
+        858,
+        729
+      ],
+      "description": "电脑屏幕显示的照片，包含左侧陶艺工具与泥盆、右侧手持陶盆的特写，保留屏幕内的摄影环境。",
+      "label": "电脑屏幕显示的照片，包含左侧陶艺工具与泥盆、右侧手持陶盆的特",
+      "method": "local"
+    },
+    {
+      "id": "frame_computer",
+      "kind": "frame",
+      "bbox": [
+        120,
+        166,
+        858,
+        729
+      ],
+      "description": "围绕电脑屏幕照片的灰色边框，包含菜单栏、工具栏和窗口控制按钮，位于照片上方。",
+      "photo_id": [
+        "photo_computer"
+      ],
+      "label": "围绕电脑屏幕照片的灰色边框，包含菜单栏、工具栏和窗口控制按钮",
+      "method": "extract"
+    },
+    {
+      "id": "dialogue_box",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        230,
+        858,
+        318
+      ],
+      "description": "像素风格对话框，包含标题栏、对话气泡和三个按钮，位于电脑窗口右上角。",
+      "label": "像素风格对话框，包含标题栏、对话气泡和三个按钮，位于电脑窗口",
+      "method": "extract"
+    },
+    {
+      "id": "error_box",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        643,
+        220,
+        777
+      ],
+      "description": "像素风格错误对话框，包含标题栏、错误信息和确认按钮，位于电脑窗口左下角。",
+      "label": "像素风格错误对话框，包含标题栏、错误信息和确认按钮，位于电脑",
+      "method": "extract"
+    },
+    {
+      "id": "text_alone",
+      "kind": "text",
+      "bbox": [
+        90,
+        691,
+        176,
+        718
+      ],
+      "description": "ALONE",
+      "label": "ALONE",
+      "method": "local",
+      "text": "ALONE",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        13,
+        851,
+        90,
+        869
+      ],
+      "description": "PM 10:25",
+      "label": "PM 10:25",
+      "method": "local",
+      "text": "PM 10:25",
+      "text_status": "known",
+      "style": {
+        "fill": "#0000FF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        13,
+        869,
+        120,
+        887
+      ],
+      "description": "AUGUST, 07 1990",
+      "label": "AUGUST, 07 1990",
+      "method": "local",
+      "text": "AUGUST, 07 1990",
+      "text_status": "known",
+      "style": {
+        "fill": "#0000FF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "cat_sticker",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        599,
+        884,
+        763
+      ],
+      "description": "白色像素风格猫咪贴纸，带有黑色眼睛和尾巴，位于右下角。",
+      "label": "白色像素风格猫咪贴纸，带有黑色眼睛和尾巴，位于右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "star_yellow",
+      "kind": "overlay",
+      "bbox": [
+        606,
+        761,
+        669,
+        824
+      ],
+      "description": "黄色像素风格星星贴纸，位于底部中央偏右。",
+      "label": "黄色像素风格星星贴纸，位于底部中央偏右。",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_1",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        790,
+        298,
+        853
+      ],
+      "description": "蓝色像素风格星星贴纸，位于底部中央偏左。",
+      "label": "蓝色像素风格星星贴纸，位于底部中央偏左。",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_2",
+      "kind": "overlay",
+      "bbox": [
+        831,
+        498,
+        876,
+        543
+      ],
+      "description": "蓝色像素风格星星贴纸，位于右侧中部。",
+      "label": "蓝色像素风格星星贴纸，位于右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "heart_white_1",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        21,
+        129,
+        93
+      ],
+      "description": "白色像素风格心形贴纸，位于左上角。",
+      "label": "白色像素风格心形贴纸，位于左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "heart_white_2",
+      "kind": "overlay",
+      "bbox": [
+        147,
+        75,
+        205,
+        138
+      ],
+      "description": "白色像素风格心形贴纸，位于左上角下方。",
+      "label": "白色像素风格心形贴纸，位于左上角下方。",
+      "method": "extract"
+    },
+    {
+      "id": "heart_pink_1",
+      "kind": "overlay",
+      "bbox": [
+        309,
+        687,
+        336,
+        709
+      ],
+      "description": "粉色像素风格心形贴纸，位于电脑窗口底部。",
+      "label": "粉色像素风格心形贴纸，位于电脑窗口底部。",
+      "method": "extract"
+    },
+    {
+      "id": "heart_pink_2",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        687,
+        372,
+        709
+      ],
+      "description": "粉色像素风格心形贴纸，位于电脑窗口底部。",
+      "label": "粉色像素风格心形贴纸，位于电脑窗口底部。",
+      "method": "extract"
+    },
+    {
+      "id": "heart_blue_1",
+      "kind": "overlay",
+      "bbox": [
+        381,
+        687,
+        408,
+        709
+      ],
+      "description": "蓝色像素风格心形贴纸，位于电脑窗口底部。",
+      "label": "蓝色像素风格心形贴纸，位于电脑窗口底部。",
+      "method": "extract"
+    },
+    {
+      "id": "mouse_cursor",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        291,
+        858,
+        345
+      ],
+      "description": "白色像素风格鼠标指针，指向对话框按钮，位于电脑窗口右上角。",
+      "label": "白色像素风格鼠标指针，指向对话框按钮，位于电脑窗口右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "cat_head_icon",
+      "kind": "overlay",
+      "bbox": [
+        498,
+        237,
+        543,
+        264
+      ],
+      "description": "白色像素风格猫咪头部图标，位于菜单栏右侧。",
+      "label": "白色像素风格猫咪头部图标，位于菜单栏右侧。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_computer",
+    "frame_computer",
+    "dialogue_box",
+    "error_box",
+    "text_alone",
+    "text_time",
+    "text_date",
+    "cat_sticker",
+    "star_yellow",
+    "star_blue_1",
+    "star_blue_2",
+    "heart_white_1",
+    "heart_white_2",
+    "heart_pink_1",
+    "heart_pink_2",
+    "heart_blue_1",
+    "mouse_cursor",
+    "cat_head_icon"
+  ]
+}

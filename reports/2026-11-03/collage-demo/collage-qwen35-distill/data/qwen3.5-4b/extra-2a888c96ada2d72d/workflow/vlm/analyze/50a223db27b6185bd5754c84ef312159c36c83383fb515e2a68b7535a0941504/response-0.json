@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-bec6f0bea85b73fc",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 9483,
+    "total_tokens": 9817,
+    "completion_tokens": 334,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        345\n      ],\n      \"description\": \"雪山远景照片，包含蓝天、白云和覆盖积雪的陡峭山峰，画面清晰，占据画布上部区域。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        345,\n        1000,\n        655\n      ],\n      \"description\": \"人物近景照片，前景为戴白色毛线帽和白色羽绒服的女性，背景有树林、其他游客和木质栏杆，画面底部有白色渐变遮罩。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        655,\n        1000,\n        1000\n      ],\n      \"description\": \"雪山远景照片，展示连绵的雪山山脉和山谷，画面底部有深色山体，右下角有小红书水印。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_middle\",\n    \"photo_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

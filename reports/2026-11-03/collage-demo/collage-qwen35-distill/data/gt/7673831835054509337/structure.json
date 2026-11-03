@@ -1,0 +1,151 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "一张暗绿色调、明显失焦的户外建筑与花园照片连续覆盖全画布，四边可见建筑、窗格、灌木与花草，未见清晰人物。上层相纸、花朵和字样遮挡局部，摄影环境整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        156,
+        376,
+        507,
+        775
+      ],
+      "description": "倾斜的车内人物近景照片，一名浅金色短发、穿白色衬衫的人侧头托腮看向镜头，保留车窗、座椅及窗外环境。完整照片窗口右下部被百合花遮挡，窗口边界清晰。"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        73,
+        351,
+        535,
+        826
+      ],
+      "description": "向左下倾斜的白色宽边相纸框，保留纸面浅色斑痕、折痕与边缘质感，承载一张照片，右下部分被百合花遮住。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        499,
+        187,
+        857,
+        567
+      ],
+      "description": "右上倾斜的车内人物近景照片，一名浅金色短发、穿白色衬衫的人朝左侧张嘴并将手掌贴近脸颊。保留车内座椅、车窗、窗外车辆与道路，照片在相纸内口清晰裁切。"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        478,
+        163,
+        947,
+        605
+      ],
+      "description": "向右下倾斜的白色宽边相纸框，右侧留白较宽，带轻微泛黄斑痕和纸张纹理，承载一张照片，左下边缘与左侧相纸相叠。",
+      "photo_id": [
+        "photo_right"
+      ]
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        190,
+        478,
+        305
+      ],
+      "description": "白色花体英文“Angel Energy”，保留细长连笔、大小写字形及夸张曲线，作为完整艺术字装饰。"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        403,
+        521,
+        736,
+        957
+      ],
+      "description": "一朵大型浅蓝白色百合花装饰，完整保留展开的花瓣、浅绿花心、黄色花药和柔和明暗，沿花朵轮廓独立显示，覆盖两张相纸的下方交接处。"
+    },
+    {
+      "id": "overlay_script",
+      "kind": "overlay",
+      "bbox": [
+        555,
+        539,
+        765,
+        718
+      ],
+      "description": "细白色连笔花体字样，可辨为“a fallen angel”，带向右下延伸的大幅回环笔画，叠在上方相纸下缘与百合花区域，整体保留特殊字形和曲线。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        55,
+        79,
+        152
+      ],
+      "description": "左上角独立的白色四角闪光星，纵向尖角较长，保留柔和边缘。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        737,
+        860,
+        837
+      ],
+      "description": "右侧中下方独立的白色四角闪光星，中心饱满、上下尖角细长。"
+    },
+    {
+      "id": "overlay_star_small",
+      "kind": "overlay",
+      "bbox": [
+        834,
+        866,
+        874,
+        934
+      ],
+      "description": "右下区域较小的白色四角闪光星，独立位于两颗大星之间。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        908,
+        972,
+        1000
+      ],
+      "description": "右下角白色四角闪光星，纵向尖角细长，下端延伸至画布底边。"
+    }
+  ],
+  "layer_order": [
+    "frame_left",
+    "photo_left",
+    "frame_right",
+    "photo_right",
+    "overlay_title",
+    "overlay_lily",
+    "overlay_script",
+    "overlay_star_top",
+    "overlay_star_right",
+    "overlay_star_small",
+    "overlay_star_bottom"
+  ]
+}

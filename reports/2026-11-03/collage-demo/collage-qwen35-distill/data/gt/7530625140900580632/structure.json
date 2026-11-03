@@ -1,0 +1,374 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一名长发女生在室内大镜子前举手机自拍，闪光灯遮住面部，另一只手抬至头侧，穿黑白连衣裙并背包。镜框、墙灯、门板和花纹地毯连续延伸至画布四边，构成同一张全幅摄影画面；上方界面、文字及心形照片遮挡局部，人物和全部摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        688,
+        116,
+        946,
+        343
+      ],
+      "description": "右上心形窗口照片，一名长发女生穿黑白格裙坐着，双手抬起并望向镜头，保留街边建筑与地面的摄影环境。照片沿心形裁切，外围有依附窗口的白色毛糙细描边，右侧局部被爱心字样贴纸遮挡。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        110,
+        597,
+        353,
+        794
+      ],
+      "description": "左下心形窗口近景照片，一名刘海女生与一只黑白猫贴近镜头，保留后方浅色室内环境。完整主体组合位于心形窗口内，窗口外沿有白色毛糙描边，左下部分被爱心字样贴纸覆盖。"
+    },
+    {
+      "id": "sticker_center",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        270,
+        598,
+        413
+      ],
+      "description": "中央遮住自拍者脸部的 I LOVE ME 设计贴纸，黑色粗造型字母分两行排列，粉色爱心代替 LOVE，外围有大范围柔软白色光晕，整体保留。"
+    },
+    {
+      "id": "sticker_upper",
+      "kind": "overlay",
+      "bbox": [
+        882,
+        204,
+        978,
+        273
+      ],
+      "description": "叠在右上照片右侧的白色爱心贴纸，包含黑色 I、ME 和粉色爱心，字样随爱心整体倾斜，保留完整轮廓。"
+    },
+    {
+      "id": "sticker_lower",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        701,
+        185,
+        791
+      ],
+      "description": "叠在左下照片左下侧的白色爱心贴纸，内有黑色 I、ME 和粉色爱心，字样与爱心构成完整设计。"
+    },
+    {
+      "id": "label_upper",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        184,
+        360,
+        221
+      ],
+      "description": "左上白色横向矩形标签，内含黑色星形、圆点及符号装饰和韩文“너와 함께.”，文字与符号共同保留。"
+    },
+    {
+      "id": "label_heart",
+      "kind": "overlay",
+      "bbox": [
+        239,
+        264,
+        377,
+        297
+      ],
+      "description": "白色小横条贴纸，中央为空心黑色爱心，两侧配短线及放射状笔画，整体保留。"
+    },
+    {
+      "id": "label_lower",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        598,
+        910,
+        727
+      ],
+      "description": "右下白色矩形文字卡，顶部有横线、星形与音符装饰，下面四行韩文为“힘들면 눈을 감고”“팔을 뻗어”“세상의 자유를”“느껴봐요!”。底板、图案和文字整体保留。"
+    },
+    {
+      "id": "star_top",
+      "kind": "overlay",
+      "bbox": [
+        647,
+        79,
+        686,
+        108
+      ],
+      "description": "靠近画布上方中央偏右的独立白色五角星。"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        460,
+        241,
+        483
+      ],
+      "description": "画面左侧中部的小型白色五角星。"
+    },
+    {
+      "id": "star_right",
+      "kind": "overlay",
+      "bbox": [
+        792,
+        443,
+        830,
+        472
+      ],
+      "description": "画面右侧中部的独立白色五角星。"
+    },
+    {
+      "id": "star_right_small",
+      "kind": "overlay",
+      "bbox": [
+        909,
+        562,
+        935,
+        583
+      ],
+      "description": "靠右边缘、文字卡上方的小型白色五角星。"
+    },
+    {
+      "id": "star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        755,
+        696,
+        786
+      ],
+      "description": "下方中央偏右的独立白色五角星。"
+    },
+    {
+      "id": "ui_close",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        29,
+        163,
+        66
+      ],
+      "description": "左上角白色交叉关闭图标，两条圆端斜线组成。"
+    },
+    {
+      "id": "ui_flash",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        25,
+        523,
+        69
+      ],
+      "description": "顶部白色细圆环内的闪电图标，作为完整相机界面单元保留。"
+    },
+    {
+      "id": "ui_more",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        25,
+        883,
+        69
+      ],
+      "description": "右上白色圆环及内部三个水平圆点组成的更多按钮。"
+    },
+    {
+      "id": "ui_type",
+      "kind": "text",
+      "bbox": [
+        49,
+        340,
+        110,
+        371
+      ],
+      "text": "Aa",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "ui_heart",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        416,
+        108,
+        452
+      ],
+      "description": "左侧工具栏的白色空心爱心图标。"
+    },
+    {
+      "id": "ui_layout",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        495,
+        107,
+        534
+      ],
+      "description": "左侧工具栏的白色圆角矩形分格图标，包含内部横竖分隔线。"
+    },
+    {
+      "id": "ui_down",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        582,
+        101,
+        602
+      ],
+      "description": "左侧工具栏下方的白色向下折线箭头。"
+    },
+    {
+      "id": "mode_slow",
+      "kind": "text",
+      "bbox": [
+        140,
+        835,
+        237,
+        856
+      ],
+      "text": "SLO-MO",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "mode_video",
+      "kind": "text",
+      "bbox": [
+        287,
+        835,
+        377,
+        856
+      ],
+      "text": "VIDEO",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "mode_photo",
+      "kind": "text",
+      "bbox": [
+        436,
+        835,
+        536,
+        856
+      ],
+      "text": "PHOTO",
+      "color": "#FFD600",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "mode_portrait",
+      "kind": "text",
+      "bbox": [
+        588,
+        835,
+        727,
+        856
+      ],
+      "text": "PORTRAIT",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "mode_square",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        835,
+        844,
+        857
+      ],
+      "description": "底部模式栏右侧逐渐变暗的 SQUARE 字样，右端文字显示不完整，保留原有可见范围及淡化外观。"
+    },
+    {
+      "id": "ui_filters",
+      "kind": "overlay",
+      "bbox": [
+        147,
+        895,
+        244,
+        966
+      ],
+      "description": "左下三个相互重叠的半透明白灰圆组成的滤镜按钮，完整保留透明叠色。"
+    },
+    {
+      "id": "ui_shutter",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        875,
+        561,
+        983
+      ],
+      "description": "底部中央白色圆形快门按钮，包含白色实心内圆、间隔暗环与白色外轮廓。"
+    },
+    {
+      "id": "ui_switch",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        894,
+        831,
+        958
+      ],
+      "description": "右下半透明浅灰相机造型按钮，包含顶部凸起和白色循环双箭头，整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "sticker_center",
+    "sticker_upper",
+    "sticker_lower",
+    "label_upper",
+    "label_heart",
+    "label_lower",
+    "star_top",
+    "star_left",
+    "star_right",
+    "star_right_small",
+    "star_bottom",
+    "ui_close",
+    "ui_flash",
+    "ui_more",
+    "ui_type",
+    "ui_heart",
+    "ui_layout",
+    "ui_down",
+    "mode_slow",
+    "mode_video",
+    "mode_photo",
+    "mode_portrait",
+    "mode_square",
+    "ui_filters",
+    "ui_shutter",
+    "ui_switch"
+  ]
+}

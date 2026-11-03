@@ -1,0 +1,246 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "木质桌面、绿色饮品和餐具构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "木质桌面、绿色饮品和餐具构成连续摄影底图，完整显示区域延伸至",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        126,
+        151,
+        457,
+        593
+      ],
+      "description": "左上角人物用餐照片，包含咖喱饭、意面和饮品，保留桌面环境，显示区域为矩形。",
+      "label": "左上角人物用餐照片，包含咖喱饭、意面和饮品，保留桌面环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        471,
+        271,
+        754,
+        587
+      ],
+      "description": "右上角人物用餐照片，包含炖菜和玉米，保留人物和桌面环境，显示区域为矩形。",
+      "label": "右上角人物用餐照片，包含炖菜和玉米，保留人物和桌面环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        522,
+        582,
+        848,
+        845
+      ],
+      "description": "右下角甜点照片，包含意面、虾和蛋糕，保留桌面环境，显示区域为矩形。",
+      "label": "右下角甜点照片，包含意面、虾和蛋糕，保留桌面环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        241,
+        761,
+        588,
+        1035
+      ],
+      "description": "底部中央甜点照片，包含冰淇淋、草莓和饼干，保留桌面环境，显示区域为矩形。",
+      "label": "底部中央甜点照片，包含冰淇淋、草莓和饼干，保留桌面环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        124,
+        149,
+        459,
+        595
+      ],
+      "description": "围绕左上角照片的白色边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "围绕左上角照片的白色边框，覆盖照片边缘并位于照片上方，完整边",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        469,
+        268,
+        756,
+        589
+      ],
+      "description": "围绕右上角照片的白色边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "围绕右上角照片的白色边框，覆盖照片边缘并位于照片上方，完整边",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        520,
+        580,
+        850,
+        847
+      ],
+      "description": "围绕右下角照片的黄色边框，覆盖照片边缘并位于照片上方，完整边框作为一个框体保留。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "围绕右下角照片的黄色边框，覆盖照片边缘并位于照片上方，完整边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        98,
+        246,
+        213
+      ],
+      "description": "橙色贴纸，包含文字“sweet tai town 甜食爱好者”，作为独立固定装饰保留。",
+      "label": "橙色贴纸，包含文字“sweet tai town 甜食爱好者",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "overlay",
+      "bbox": [
+        634,
+        144,
+        818,
+        264
+      ],
+      "description": "白色对话气泡贴纸，包含文字“sweet stuff!”，作为独立固定装饰保留。",
+      "label": "白色对话气泡贴纸，包含文字“sweet stuff!”，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_3",
+      "kind": "overlay",
+      "bbox": [
+        369,
+        623,
+        504,
+        719
+      ],
+      "description": "粉色蛋糕形状贴纸，包含文字“甜品日记”，作为独立固定装饰保留。",
+      "label": "粉色蛋糕形状贴纸，包含文字“甜品日记”，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dessert_1",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        156,
+        598,
+        252
+      ],
+      "description": "黄色布丁形状贴纸，作为独立固定装饰保留。",
+      "label": "黄色布丁形状贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dessert_2",
+      "kind": "overlay",
+      "bbox": [
+        634,
+        872,
+        716,
+        970
+      ],
+      "description": "粉色甜甜圈形状贴纸，作为独立固定装饰保留。",
+      "label": "粉色甜甜圈形状贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dessert_3",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        952,
+        788,
+        1042
+      ],
+      "description": "橙色甜甜圈形状贴纸，作为独立固定装饰保留。",
+      "label": "橙色甜甜圈形状贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dessert_4",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        932,
+        216,
+        1006
+      ],
+      "description": "绿色马卡龙形状贴纸，作为独立固定装饰保留。",
+      "label": "绿色马卡龙形状贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dessert_5",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        982,
+        274,
+        1054
+      ],
+      "description": "粉色马卡龙形状贴纸，作为独立固定装饰保留。",
+      "label": "粉色马卡龙形状贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_right",
+    "photo_bottom_center",
+    "frame_top_left",
+    "frame_top_right",
+    "frame_bottom_right",
+    "overlay_text_1",
+    "overlay_text_2",
+    "overlay_text_3",
+    "overlay_dessert_1",
+    "overlay_dessert_2",
+    "overlay_dessert_3",
+    "overlay_dessert_4",
+    "overlay_dessert_5"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-2bb11976-6fe0-9c54-9ba4-a6e89bbcf43d",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 8372,
+    "completion_tokens": 1453,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1038,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1453
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的全画布摄影底图，展示了模糊的餐桌场景。左侧可见绿色饮品杯，右侧有黄色甜点盘，底部为白色餐盘和叉子，背景为木纹桌面。上层拼贴照片和装饰遮挡了局部画面，但底图延伸至画布四边。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_sticker_sweet_tooth\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        95,\n        102,\n        278,\n        183\n      ],\n      \"description\": \"左上角橙色不规则贴纸，带有“sweet sea tooth”英文及“甜食爱好者”中文艺术字，边缘有手绘风格装饰。\"\n    },\n    {\n      \"id\": \"frame_polaroid_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        146,\n        129,\n        505,\n        487\n      ],\n      \"description\": \"左侧竖向拍立得相纸边框，包含白色宽边，承载内部食物照片。\",\n      \"photo_id\": [\n        \"photo_polaroid_left\"\n      ]\n    },\n    {\n      \"id\": \"photo_polaroid_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        166,\n        152,\n        485,\n        465\n      ],\n      \"description\": \"框内照片，展示一桌丰盛的食物：咖喱饭、意面、红色饮料以及比耶的手势。\"\n    },\n    {\n      \"id\": \"overlay_sticker_pudding_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        545,\n        131,\n        665,\n        213\n      ],\n      \"description\": \"顶部中间的布丁插画贴纸，黄色布丁配樱桃，带蓝色线条装饰。\"\n    },\n    {\n      \"id\": \"overlay_bubble_text\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        705,\n        124,\n        905,\n        220\n      ],\n      \"description\": \"右上角对话气泡贴纸，白底黑边，内含彩色手写体文字“Sweet stuff!”及星星装饰。\"\n    },\n    {\n      \"id\": \"photo_cheese_pull\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        525,\n        229,\n        835,\n        515\n      ],\n      \"description\": \"中间偏右的照片，特写拉丝芝士覆盖在深色酱汁料理上，背景可见穿着毛衣的人。\"\n    },\n    {\n      \"id\": \"frame_polaroid_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        580,\n        483,\n        935,\n        707\n      ],\n      \"description\": \"右下角横向拍立得相纸边框，淡黄色宽边，承载内部食物照片。\",\n      \"photo_id\": [\n        \"photo_polaroid_right\"\n      ]\n    },\n    {\n      \"id\": \"photo_polaroid_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        595,\n        493,\n        920,\n        665\n      ],\n      \"description\": \"框内照片，俯拍视角的餐桌一角，包含意面、虾仁水果沙拉和粉色舒芙蕾蛋糕。\"\n    },\n    {\n      \"id\": \"photo_drinks_cutout\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        195,\n        385,\n        415, 665\n      ],\n      \"description\": \"抠图素材，两杯插着吸管的冰饮（一杯黄色，一杯深红色），带有白色粗描边轮廓。\"\n    },\n    {\n      \"id\": \"overlay_sticker_cake\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        405,\n        522,\n        575,\n      610\n      ],\n      \"description\": \"中间粉色蛋糕插画贴纸，上面写着“甜品日记”，带有蓝色底座线条。\"\n    },\n    {\n      \"id\": \"photo_dessert_plate\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        265,\n        645,\n        655,\n        868\n      ],\n      \"description\": \"下方矩形照片，展示一盘精致甜点，包括冰淇淋球、草莓、猕猴桃片和小熊饼干。\"\n    },\n    {\n      \"id\": \"overlay_macarons\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        145,\n        775,\n        305,\n        875\n      ],\n      \"description\": \"左下角马卡龙插画贴纸，包含绿色和粉色两个马卡龙，带有笑脸表情。\"\n    },\n    {\n      \"id\": \"overlay_donuts\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        695,\n        725,\n        875,\n        870\n      ],\n      \"description\": \"右下角甜甜圈插画贴纸，包含粉色和橙色两个甜甜圈，周围点缀爱心和螺旋线。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_polaroid_left\",\n    \"frame_polaroid_left\",\n    \"photo_cheese_pull\",\n    \"photo_polaroid_right\",\n    \"frame_polaroid_right\",\n    \"photo_dessert_plate\",\n    \"photo_drinks_cutout\",\n    \"overlay_sticker_sweet_tooth\",\n    \"overlay_sticker_pudding_top\",\n    \"overlay_bubble_text\",\n    \"overlay_sticker_cake\",\n    \"overlay_macarons\",\n    \"overlay_donuts\"\n  ]\n}",
+  "tool_calls": false
+}

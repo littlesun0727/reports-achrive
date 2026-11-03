@@ -1,0 +1,125 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的室内摄影底图，画面主体为一名长发女子坐在地上对着镜子自拍，身穿灰色毛衣和拼布牛仔裤。背景包含木质书桌、置物架及化妆品等环境元素。该照片完整覆盖画布四边，作为底层承载所有装饰元素。"
+  },
+  "objects": [
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "散布在画面各处的黄色五角星贴纸装饰，带有白色描边，位于人物和家具之上。"
+    },
+    {
+      "id": "overlay_star_text",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        265,
+        280,
+        475
+      ],
+      "description": "左侧由细小文字排列组成的巨大空心星星图案，具有独特的排版设计感。"
+    },
+    {
+      "id": "frame_photo_1",
+      "kind": "frame",
+      "bbox": [
+        490,
+        600,
+        735,
+        740
+      ],
+      "description": "中间偏右位置的一张拍立得风格相纸，带有白色边框，框内是一张女子的面部特写照片。",
+      "photo_id": [
+        "photo_inset_1"
+      ]
+    },
+    {
+      "id": "photo_inset_1",
+      "kind": "photo",
+      "bbox": [
+        500,
+        610,
+        725,
+        730
+      ],
+      "description": "嵌入在相纸框内的照片，显示一名短发女子正对镜头的面部特写，背景可见门框。"
+    },
+    {
+      "id": "frame_photo_2",
+      "kind": "frame",
+      "bbox": [
+        650,
+        670,
+        925,
+        920
+      ],
+      "description": "右下角的一张拍立得风格相纸，带有白色边框，框内是一张女子坐姿自拍的全身照。",
+      "photo_id": [
+        "photo_inset_2"
+      ]
+    },
+    {
+      "id": "photo_inset_2",
+      "kind": "photo",
+      "bbox": [
+        660,
+        680,
+        915,
+        910
+      ],
+      "description": "嵌入在相纸框内的照片，显示一名女子坐在地上手持手机自拍，穿着与主图相同的服装。"
+    },
+    {
+      "id": "text_speech_1",
+      "kind": "text",
+      "bbox": [
+        690,
+        145,
+        870,
+        235
+      ],
+      "text": "역시 근황카가요?\n강아지에게\n좋아한다는 말을 들으면",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_speech_2",
+      "kind": "text",
+      "bbox": [
+        840,
+        820,
+        980,
+        880
+      ],
+      "text": "뭔가가\n그려워지는데.",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_stars",
+    "overlay_star_text",
+    "frame_photo_1",
+    "photo_inset_1",
+    "frame_photo_2",
+    "photo_inset_2",
+    "text_speech_1",
+    "text_speech_2"
+  ]
+}

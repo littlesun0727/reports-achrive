@@ -1,0 +1,375 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布为白色底图，带有规则排列的浅蓝色圆点图案。该固定纹理背景承载所有照片和装饰元素，需保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        76,
+        518,
+        503
+      ],
+      "description": "左上角竖向矩形照片，显示一名戴耳机的女子在服装店内弯腰摆姿势，背景可见挂着的衣物。"
+    },
+    {
+      "id": "overlay_bubble_left",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        115,
+        142,
+        238
+      ],
+      "description": "左侧椭圆形对话气泡框，内含竖排韩文“사랑해♡”（我爱你），黑色描边。"
+    },
+    {
+      "id": "overlay_cloud_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        392,
+        45,
+        580,
+        168
+      ],
+      "description": "云朵形状的贴纸，中间有一只兔子坐在碗里吃东西的卡通形象。"
+    },
+    {
+      "id": "overlay_bubble_right",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        76,
+        920,
+        198
+      ],
+      "description": "右侧大椭圆形对话气泡框，内含两行韩文文本。"
+    },
+    {
+      "id": "text_caption_1",
+      "kind": "text",
+      "bbox": [
+        565,
+        222,
+        705,
+        250
+      ],
+      "text": "(,,•ᴗ•,,)~☆",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_doodle_flowers",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        265,
+        765,
+        310
+      ],
+      "description": "手绘风格的涂鸦线条，包含花朵、蝴蝶结和爱心符号。"
+    },
+    {
+      "id": "overlay_speech_small",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        352,
+        205,
+        392
+      ],
+      "description": "两个黑色小对话气泡，内含白色英文小字。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        552,
+        312,
+        925,
+        592
+      ],
+      "description": "右侧中部横向矩形照片，显示一名戴眼镜的女子张嘴大笑，手持一盘意面。照片上有两个白色爱心贴纸遮挡部分画面。"
+    },
+    {
+      "id": "overlay_sticker_hearts",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        388,
+        905,
+        550
+      ],
+      "description": "位于右侧照片上的两个白色立体爱心贴纸，分别位于女子头部左侧和盘子右侧。"
+    },
+    {
+      "id": "overlay_bubble_blue",
+      "kind": "overlay",
+      "bbox": [
+        305,
+        522,
+        475,
+        590
+      ],
+      "description": "淡蓝色圆形对话气泡，内含三行韩文文本。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        115,
+        565,
+        375,
+        785
+      ],
+      "description": "拍立得相纸边框，白色宽边，包裹着下方的自拍照片。",
+      "photo_id": [
+        "photo_selfie"
+      ]
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        142,
+        582,
+        368,
+        755
+      ],
+      "description": "拍立得相框内的照片，显示一名戴眼镜女子对着镜子自拍，手持手机。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        535,
+        215,
+        625
+      ],
+      "description": "银色回形针贴纸，压在拍立得相框左上角。"
+    },
+    {
+      "id": "overlay_wings_left",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        625,
+        125,
+        695
+      ],
+      "description": "左侧淡蓝色翅膀贴纸，带虚线轮廓。"
+    },
+    {
+      "id": "overlay_wings_right",
+      "kind": "overlay",
+      "bbox": [
+        370,
+        620,
+        465,
+        685
+      ],
+      "description": "右侧淡蓝色翅膀贴纸，带虚线轮廓。"
+    },
+    {
+      "id": "overlay_hearts_outline",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        520,
+        165,
+        585
+      ],
+      "description": "三个黑色空心爱心涂鸦，位于左侧空白处。"
+    },
+    {
+      "id": "text_russian_block",
+      "kind": "text",
+      "bbox": [
+        565,
+        605,
+        845,
+        685
+      ],
+      "text": "ДЕРЖИ МЕНЯ НА РАССТОЯНИИ ВЫСТРЕЛА,\nЕСЛИ Я ЗАГОВОРЮ ПРО ЛЮБОВЬ\nИ ОСОБЕННО, ЕСЛИ ИСКРЕННЕ",
+      "color": "#D2691E",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "overlay_keep_memory",
+      "kind": "overlay",
+      "bbox": [
+        455,
+        688,
+        645,
+        728
+      ],
+      "description": "胶片卷轴图标及文字“KEEP MEMORY”，黑色风格化字体。"
+    },
+    {
+      "id": "overlay_cats",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        745,
+        475,
+        855
+      ],
+      "description": "两只毛绒玩具猫贴纸，一白一黑，并排站立。"
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        75,
+        815,
+        285,
+        840
+      ],
+      "text": "夏天就像一场梦醒来时已不再年轻\nSummer is like a dream and when you wake up you're no longer young.",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_checkboxes",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        750,
+        635,
+        855
+      ],
+      "description": "两个垂直排列的手绘复选框，内部有对勾。"
+    },
+    {
+      "id": "frame_black_border",
+      "kind": "frame",
+      "bbox": [
+        655,
+        728,
+        915,
+        965
+      ],
+      "description": "右下角照片的黑色粗边框，带有不规则边缘效果。",
+      "photo_id": [
+        "photo_crouching"
+      ]
+    },
+    {
+      "id": "photo_crouching",
+      "kind": "photo",
+      "bbox": [
+        685,
+        750,
+        885,
+        925
+      ],
+      "description": "右下角照片，显示一名戴耳罩的女子蹲在地上捂嘴笑。"
+    },
+    {
+      "id": "overlay_panda",
+      "kind": "overlay",
+      "bbox": [
+        665,
+        895,
+        775,
+        965
+      ],
+      "description": "熊猫头贴纸，位于右下角照片底部。"
+    },
+    {
+      "id": "overlay_cloud_face",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        720,
+        885,
+        775
+      ],
+      "description": "云朵形状的笑脸贴纸，位于右下角照片顶部。"
+    },
+    {
+      "id": "text_good_luck",
+      "kind": "text",
+      "bbox": [
+        785,
+        925,
+        895,
+        950
+      ],
+      "text": "Good Luck",
+      "color": "#000000",
+      "font": "hand",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_exclamation",
+      "kind": "overlay",
+      "bbox": [
+        925,
+        875,
+        975,
+        950
+      ],
+      "description": "感叹号贴纸，位于右下角。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        170,
+        975,
+        785
+      ],
+      "description": "散布在画面各处的黑色五角星贴纸，共五颗。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_mid_right",
+    "photo_selfie",
+    "photo_crouching",
+    "frame_polaroid",
+    "frame_black_border",
+    "overlay_bubble_left",
+    "overlay_cloud_rabbit",
+    "overlay_bubble_right",
+    "text_caption_1",
+    "overlay_doodle_flowers",
+    "overlay_speech_small",
+    "overlay_sticker_hearts",
+    "overlay_bubble_blue",
+    "overlay_paperclip",
+    "overlay_wings_left",
+    "overlay_wings_right",
+    "overlay_hearts_outline",
+    "text_russian_block",
+    "overlay_keep_memory",
+    "overlay_cats",
+    "text_bottom_left",
+    "overlay_checkboxes",
+    "overlay_panda",
+    "overlay_cloud_face",
+    "text_good_luck",
+    "overlay_exclamation",
+    "overlay_stars"
+  ]
+}

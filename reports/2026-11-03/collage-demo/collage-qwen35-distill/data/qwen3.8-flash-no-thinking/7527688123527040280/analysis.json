@@ -1,0 +1,297 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布为一张高度模糊的摄影底图，内容包含暖色调的室内环境、书架及灯光散景。该底图延伸至画布四边，作为所有独立照片和文字的背景衬托，需整体替换以匹配客户素材氛围。",
+      "background_type": "photo",
+      "label": "全画布为一张高度模糊的摄影底图，内容包含暖色调的室内环境、书",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stars_top_left",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        103,
+        243,
+        210
+      ],
+      "description": "左上角区域的三颗白色手绘五角星装饰，位于模糊背景之上。",
+      "label": "左上角区域的三颗白色手绘五角星装饰，位于模糊背景之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_top_right",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        18,
+        738,
+        78
+      ],
+      "description": "右上角区域的两颗白色手绘五角星装饰。",
+      "label": "右上角区域的两颗白色手绘五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_squiggle_1",
+      "kind": "overlay",
+      "bbox": [
+        284,
+        174,
+        378,
+        270
+      ],
+      "description": "位于左侧照片右上方的白色手绘波浪线框装饰。",
+      "label": "位于左侧照片右上方的白色手绘波浪线框装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_book_page",
+      "kind": "photo",
+      "bbox": [
+        436,
+        78,
+        774,
+        288
+      ],
+      "description": "右上角的书籍内页特写照片，显示密集的中文印刷文本，边缘整齐。",
+      "label": "右上角的书籍内页特写照片，显示密集的中文印刷文本，边缘整齐。",
+      "method": "local"
+    },
+    {
+      "id": "text_about_universe",
+      "kind": "text",
+      "bbox": [
+        500,
+        300,
+        810,
+        336
+      ],
+      "description": "About the Universe",
+      "label": "About the Universe",
+      "method": "local",
+      "text": "About the Universe",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_lamp_toy",
+      "kind": "photo",
+      "bbox": [
+        72,
+        222,
+        410,
+        666
+      ],
+      "description": "左侧竖向矩形照片，画面包含一盏复古台灯、一杯饮品以及若干绿色毛绒玩具，置于蕾丝桌布上。",
+      "label": "左侧竖向矩形照片，画面包含一盏复古台灯、一杯饮品以及若干绿色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_mid_left",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        426,
+        454,
+        462
+      ],
+      "description": "位于两张照片中间缝隙处的单颗白色手绘星星。",
+      "label": "位于两张照片中间缝隙处的单颗白色手绘星星。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bookshelf",
+      "kind": "photo",
+      "bbox": [
+        472,
+        348,
+        837,
+        630
+      ],
+      "description": "右侧横向矩形照片，展示摆满书籍的深色木质书架局部。",
+      "label": "右侧横向矩形照片，展示摆满书籍的深色木质书架局部。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_squiggle_2",
+      "kind": "overlay",
+      "bbox": [
+        441,
+        564,
+        508,
+        642
+      ],
+      "description": "位于书架照片左下方的白色手绘折线框装饰。",
+      "label": "位于书架照片左下方的白色手绘折线框装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_pistachio",
+      "kind": "text",
+      "bbox": [
+        50,
+        696,
+        518,
+        738
+      ],
+      "description": "Pistachio Ice Cream Latte",
+      "label": "Pistachio Ice Cream Latte",
+      "method": "local",
+      "text": "Pistachio Ice Cream Latte",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_sparkles_left",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        792,
+        153,
+        912
+      ],
+      "description": "左下角两颗白色手绘四角星（闪光）装饰。",
+      "label": "左下角两颗白色手绘四角星（闪光）装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_brackets_left",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        798,
+        194,
+        1098
+      ],
+      "description": "沿左侧房间照片左边缘排列的一串白色手绘括号状线条装饰。",
+      "label": "沿左侧房间照片左边缘排列的一串白色手绘括号状线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_room_interior",
+      "kind": "photo",
+      "bbox": [
+        176,
+        792,
+        477,
+        1098
+      ],
+      "description": "左下角方形照片，展示带有蕾丝窗帘的窗户、窗台上的小摆件以及下方亮着的流苏台灯。",
+      "label": "左下角方形照片，展示带有蕾丝窗帘的窗户、窗台上的小摆件以及下",
+      "method": "local"
+    },
+    {
+      "id": "photo_plate_toy",
+      "kind": "photo",
+      "bbox": [
+        504,
+        696,
+        760,
+        990
+      ],
+      "description": "右下角圆形裁切照片，显示一个绿白花纹盘子，上面摆放着四个戴眼镜的小鸡造型毛绒玩具。",
+      "label": "右下角圆形裁切照片，显示一个绿白花纹盘子，上面摆放着四个戴眼",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        783,
+        672,
+        814,
+        702
+      ],
+      "description": "位于圆盘照片右上方的单颗白色手绘星星。",
+      "label": "位于圆盘照片右上方的单颗白色手绘星星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_handwriting_right",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        846,
+        832,
+        930
+      ],
+      "description": "位于圆盘照片右侧的白色手绘涂鸦线条，形似字母或符号。",
+      "label": "位于圆盘照片右侧的白色手绘涂鸦线条，形似字母或符号。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        882,
+        518,
+        912
+      ],
+      "description": "位于圆盘照片左下侧的单颗白色手绘星星。",
+      "label": "位于圆盘照片左下侧的单颗白色手绘星星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        990,
+        774,
+        1020
+      ],
+      "description": "位于圆盘照片正下方的单颗白色手绘星星。",
+      "label": "位于圆盘照片正下方的单颗白色手绘星星。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars_top_left",
+    "overlay_stars_top_right",
+    "overlay_squiggle_1",
+    "photo_book_page",
+    "text_about_universe",
+    "photo_lamp_toy",
+    "overlay_star_mid_left",
+    "photo_bookshelf",
+    "overlay_squiggle_2",
+    "text_pistachio",
+    "overlay_sparkles_left",
+    "overlay_brackets_left",
+    "photo_room_interior",
+    "photo_plate_toy",
+    "overlay_star_mid_right",
+    "overlay_handwriting_right",
+    "overlay_star_bottom_left",
+    "overlay_star_bottom_right"
+  ]
+}

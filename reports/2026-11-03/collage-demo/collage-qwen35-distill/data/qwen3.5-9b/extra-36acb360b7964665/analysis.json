@@ -1,0 +1,231 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1435
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1435
+      ],
+      "description": "连续的海滩摄影底图，包含蓝天、远山、沙滩和海水，完整显示区域延伸至画布四边；上层照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续的海滩摄影底图，包含蓝天、远山、沙滩和海水，完整显示区域",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        76,
+        65,
+        562,
+        761
+      ],
+      "description": "左上人物坐姿照片，人物手持相机，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左上人物坐姿照片，人物手持相机，保留照片内的摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        103,
+        603,
+        583,
+        1363
+      ],
+      "description": "左下人物跪姿照片，人物手持相机，保留照片内的摄影环境，显示区域为不规则形状。",
+      "label": "左下人物跪姿照片，人物手持相机，保留照片内的摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        430,
+        1015,
+        1263
+      ],
+      "description": "右下人物蹲姿照片，人物手持相机，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右下人物蹲姿照片，人物手持相机，保留照片内的摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        43,
+        238,
+        215
+      ],
+      "description": "左上角的两个海星贴纸，作为独立固定装饰保留。",
+      "label": "左上角的两个海星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snowflakes",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        287,
+        454,
+        574
+      ],
+      "description": "左上照片周围的雪花贴纸，作为独立固定装饰保留。",
+      "label": "左上照片周围的雪花贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stripe",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        646,
+        562,
+        761
+      ],
+      "description": "左下照片上方的蓝白条纹贴纸，作为独立固定装饰保留。",
+      "label": "左下照片上方的蓝白条纹贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        430,
+        1015,
+        861
+      ],
+      "description": "右下照片上方的水滴贴纸，作为独立固定装饰保留。",
+      "label": "右下照片上方的水滴贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        562,
+        72,
+        950,
+        144
+      ],
+      "description": "SUMMER TIME",
+      "label": "SUMMER TIME",
+      "method": "local",
+      "text": "SUMMER TIME",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        562,
+        144,
+        950,
+        359
+      ],
+      "description": "I have only to break into the tightness of strawberry, and i see summer its dust and lowering skies.",
+      "label": "I have only to break into the ",
+      "method": "local",
+      "text": "I have only to break into the tightness of strawberry, and i see summer its dust and lowering skies.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        562,
+        1148,
+        1015,
+        1220
+      ],
+      "description": "Fabulous",
+      "label": "Fabulous",
+      "method": "local",
+      "text": "Fabulous",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        562,
+        1220,
+        1015,
+        1292
+      ],
+      "description": "Winter paints the world in soft whites turning every breath into a map of poetry",
+      "label": "Winter paints the world in sof",
+      "method": "local",
+      "text": "Winter paints the world in soft whites turning every breath into a map of poetry",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        789,
+        162,
+        933
+      ],
+      "description": "左下照片左侧的对话气泡贴纸，作为独立固定装饰保留。",
+      "label": "左下照片左侧的对话气泡贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_stars",
+    "overlay_snowflakes",
+    "overlay_stripe",
+    "overlay_drops",
+    "overlay_bubble",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

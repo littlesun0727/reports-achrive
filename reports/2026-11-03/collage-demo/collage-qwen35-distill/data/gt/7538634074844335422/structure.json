@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        500
+      ],
+      "description": "上半幅独立矩形自拍照片，一名长棕发女性近景，脸部位于右侧，肩膀在下缘裁切，直视镜头；保留左侧阳光下的人行道路面、路缘及远处街道。摄影环境完整保留，无去背景或透明渐隐；下边与另一张照片形成清晰水平接缝。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        500,
+        1000,
+        1000
+      ],
+      "description": "下半幅独立矩形人物照片，一名长棕发女性半身近景，身体略侧转、回望镜头，头部居中偏左，身体延伸至画布下缘；保留身后的玻璃窗、室内反射及左下椅子。与上图姿态和环境不连续，四边按矩形窗口裁切，无去背景或透明渐隐。"
+    },
+    {
+      "id": "overlay_greeting",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        67,
+        355,
+        244
+      ],
+      "description": "深褐色手绘对话气泡与下方大小四叶草组成的完整装饰，内部文字为“Have a ☺”和“Good Day”，保留不规则线条、手写字形及透明空隙。"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        391,
+        283,
+        613
+      ],
+      "description": "跨越两张照片接缝的手账便笺装饰，包含上方两朵浅色蘑菇、下方浅灰方格纸、韩文手写标题与小字、兔脸涂鸦、浅蓝笔迹及底部黄色星形点缀；保留完整纸边、轻微阴影和半透明质感，所有印字随装饰保留。"
+    },
+    {
+      "id": "overlay_hairclips",
+      "kind": "overlay",
+      "bbox": [
+        515,
+        580,
+        691,
+        667
+      ],
+      "description": "叠在下方人物右侧头发上的一对浅白粉色手绘发夹装饰，两枚均向右上方倾斜；保留细暗轮廓、内部斑驳线纹与边缘质感，作为同组局部装饰保留。"
+    },
+    {
+      "id": "overlay_bears",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        697,
+        976,
+        812
+      ],
+      "description": "右侧三枚浅白灰色熊脸与两颗小星星组成的手绘贴纸组，位于下方照片玻璃背景之上；保留完整成员、透明间隙、铅笔轮廓及斑驳填色。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_greeting",
+    "overlay_note",
+    "overlay_hairclips",
+    "overlay_bears"
+  ]
+}

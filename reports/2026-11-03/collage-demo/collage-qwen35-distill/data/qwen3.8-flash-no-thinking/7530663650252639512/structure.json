@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布为浅米色带细微颗粒纹理的固定底图，四周及照片间隙均保留相同纸纹；该底图作为背景承载所有独立对象。"
+  },
+  "objects": [
+    {
+      "id": "overlay_fork_spoon",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        140,
+        290,
+        315
+      ],
+      "description": "左上角手绘风格的叉子和勺子黑色线条图案，无底板，直接绘制在纸底上。"
+    },
+    {
+      "id": "overlay_spiral_tr",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        75,
+        870,
+        130
+      ],
+      "description": "右上角手绘螺旋形装饰线条，位于纸底上方。"
+    },
+    {
+      "id": "photo_top_pizza",
+      "kind": "photo",
+      "bbox": [
+        355,
+        175,
+        640,
+        385
+      ],
+      "description": "顶部矩形照片，展示披萨、炸鸡和饮料等食物，视角略微俯视，边缘整齐。"
+    },
+    {
+      "id": "overlay_spiral_mr",
+      "kind": "overlay",
+      "bbox": [
+        815,
+        385,
+        910,
+        465
+      ],
+      "description": "右侧中部手绘螺旋形装饰线条，位于纸底上方。"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        235,
+        370,
+        405,
+        515
+      ],
+      "description": "中间左侧倾斜照片，展示带有卡通造型的甜点（如小熊蛋糕），放置在深色桌面上。"
+    },
+    {
+      "id": "photo_mid_center",
+      "kind": "photo",
+      "bbox": [
+        400,
+        380,
+        605,
+        495
+      ],
+      "description": "中间居中照片，展示切块蛋糕和饮品，放置在深色圆桌上。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        600,
+        320,
+        790,
+        500
+      ],
+      "description": "中间右侧倾斜照片，展示牛排、意面等西式餐点，光线较暗。"
+    },
+    {
+      "id": "overlay_spiral_ml",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        515,
+        140,
+        650
+      ],
+      "description": "左侧下部手绘螺旋形装饰线条，位于纸底上方。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        175,
+        485,
+        385,
+        725
+      ],
+      "description": "底部左侧照片，展示煎蛋牛肉饭及其他配菜，视角垂直向下。"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        380,
+        485,
+        610,
+        725
+      ],
+      "description": "底部中间照片，展示蓝莓松饼或类似烘焙食品，色彩丰富。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        605,
+        485,
+        820,
+        715
+      ],
+      "description": "底部右侧照片，展示抹茶冰淇淋甜品碗，包含绿色冰淇淋球和水果配料。"
+    },
+    {
+      "id": "overlay_bowl_text",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        690,
+        880,
+        930
+      ],
+      "description": "底部巨大的白色手绘碗状轮廓，内部包含手写体英文文字 'My Daily Plog'，整体作为一个固定装饰单元保留，覆盖在部分照片下缘之上。"
+    }
+  ],
+  "layer_order": [
+    "overlay_fork_spoon",
+    "overlay_spiral_tr",
+    "photo_top_pizza",
+    "overlay_spiral_mr",
+    "photo_mid_left",
+    "photo_mid_center",
+    "photo_mid_right",
+    "overlay_spiral_ml",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right",
+    "overlay_bowl_text"
+  ]
+}

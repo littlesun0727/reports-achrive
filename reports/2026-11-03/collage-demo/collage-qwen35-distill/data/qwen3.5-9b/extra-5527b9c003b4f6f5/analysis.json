@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上角摩天大楼照片，保留蓝天背景，黄色手绘轮廓线沿建筑外形勾勒，文字 'skyscraper' 位于轮廓线内。",
+      "label": "左上角摩天大楼照片，保留蓝天背景，黄色手绘轮廓线沿建筑外形勾",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上角咖啡杯照片，保留黑色皮质座椅背景，蓝色手绘轮廓线沿杯身和耳机勾勒，文字 'coffee' 位于轮廓线外。",
+      "label": "右上角咖啡杯照片，保留黑色皮质座椅背景，蓝色手绘轮廓线沿杯身",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下角苹果汁照片，保留室内窗景背景，蓝色手绘轮廓线沿杯身和手勾勒，文字 'Apple Juice' 位于轮廓线内。",
+      "label": "左下角苹果汁照片，保留室内窗景背景，蓝色手绘轮廓线沿杯身和手",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下角奶茶照片，保留蓝色背景，黄色手绘轮廓线沿杯身和手勾勒，文字 'milk tea' 位于轮廓线内。",
+      "label": "右下角奶茶照片，保留蓝色背景，黄色手绘轮廓线沿杯身和手勾勒，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4"
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "全画布固定设计底图，浅粉白底上重复排列淡粉色五角星，顶部与底部具有红粉色渐变。图案在人物和小照片之间连续可见；保留底色、星纹与渐变，独立人物、照片、文字及装饰另列。"
+  },
+  "objects": [
+    {
+      "id": "lace_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        35
+      ],
+      "description": "沿画布顶部横贯全宽的白色镂空蕾丝花边，上缘被画布裁切，保留完整可见花纹。"
+    },
+    {
+      "id": "lace_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        968,
+        1000,
+        1000
+      ],
+      "description": "沿画布底部横贯全宽的白色镂空蕾丝花边，下缘被画布裁切。"
+    },
+    {
+      "id": "name_art",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        285,
+        956,
+        408
+      ],
+      "description": "位于人物后方的红色大型连笔斜体艺术字，中央被人物遮挡，两侧可见“WO”和“NG”，带淡粉色柔和投影，整体保留字形设计。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        44,
+        140,
+        863,
+        976
+      ],
+      "description": "一名黑发双辫年轻女性的正面半身肖像，头微倾并看向镜头，穿白色上衣，佩戴红色蝴蝶结、耳饰和项链；左侧手举粉色卡通小物，右侧手持透明粉色物件贴近脸旁。沿人物、双手及手持物整体轮廓去除摄影背景，保留辫子与服饰；下部躯干和手臂逐渐透明融入红粉底图，左下部分被两张小照片遮挡。"
+    },
+    {
+      "id": "photo_eyes",
+      "kind": "photo",
+      "bbox": [
+        739,
+        136,
+        978,
+        232
+      ],
+      "description": "右上方倾斜的横向眼部特写照片，一名女性的双眼、刘海和部分鼻梁近景，保留照片原有背景与肤色区域。沿圆角矩形照片窗口附有红色描边，整体向右下倾斜。"
+    },
+    {
+      "id": "photo_lower_top",
+      "kind": "photo",
+      "bbox": [
+        26,
+        627,
+        281,
+        794
+      ],
+      "description": "左下上方独立小照片，一名双辫女性微笑看向镜头，手举白粉色圆形卡通物件，另一只手靠近脸侧，保留浅色摄影背景。照片逆时针倾斜，圆角矩形窗口边缘有红色描边，下部被另一张小照片局部叠压。"
+    },
+    {
+      "id": "photo_lower_bottom",
+      "kind": "photo",
+      "bbox": [
+        74,
+        768,
+        328,
+        931
+      ],
+      "description": "左下下方独立小照片，一名双辫女性嘟嘴、视线朝右侧，手持透明粉色物件靠近脸旁，左下露出粉色小物，保留浅色摄影背景。照片逆时针倾斜，圆角矩形窗口附有红色描边，与上方照片姿态和取景不连续。"
+    },
+    {
+      "id": "star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        210,
+        89,
+        249
+      ],
+      "description": "左上文字下方的独立红色五角星。"
+    },
+    {
+      "id": "star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        689,
+        107,
+        726,
+        135
+      ],
+      "description": "人物头顶右侧、眼部小照片左上方的独立红色五角星。"
+    },
+    {
+      "id": "star_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        834,
+        438,
+        878,
+        469
+      ],
+      "description": "人物右手外侧的独立红色五角星。"
+    },
+    {
+      "id": "star_right",
+      "kind": "overlay",
+      "bbox": [
+        901,
+        582,
+        960,
+        629
+      ],
+      "description": "画布右侧中下部的独立红色五角星。"
+    },
+    {
+      "id": "star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        809,
+        55,
+        835
+      ],
+      "description": "左下两张小照片旁的独立红色五角星。"
+    },
+    {
+      "id": "star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        653,
+        842,
+        706,
+        880
+      ],
+      "description": "底部右侧文字左上方的独立红色五角星。"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        36,
+        83,
+        167,
+        118
+      ],
+      "text": "LOVE",
+      "color": "#E94360",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_upper",
+      "kind": "text",
+      "bbox": [
+        40,
+        121,
+        332,
+        188
+      ],
+      "text": "My favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#E94360",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_you",
+      "kind": "text",
+      "bbox": [
+        844,
+        805,
+        953,
+        842
+      ],
+      "text": "YOU",
+      "color": "#E94360",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_lower",
+      "kind": "text",
+      "bbox": [
+        660,
+        846,
+        955,
+        913
+      ],
+      "text": "My favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#E94360",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "name_art",
+    "photo_main",
+    "photo_eyes",
+    "photo_lower_top",
+    "photo_lower_bottom",
+    "star_upper_left",
+    "star_upper_right",
+    "star_middle_right",
+    "star_right",
+    "star_lower_left",
+    "star_lower_right",
+    "text_love",
+    "text_upper",
+    "text_you",
+    "text_lower",
+    "lace_top",
+    "lace_bottom"
+  ]
+}

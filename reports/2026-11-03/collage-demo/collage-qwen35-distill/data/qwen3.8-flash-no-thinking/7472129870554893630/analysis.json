@@ -1,0 +1,73 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "模糊的桌面背景，包含手机界面截图、应用图标和噪点纹理。画面整体呈现失焦效果，作为全画布底图延伸至四边，承载上层清晰的UI卡片。",
+      "background_type": "photo",
+      "label": "模糊的桌面背景，包含手机界面截图、应用图标和噪点纹理。画面整",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_card",
+      "kind": "frame",
+      "bbox": [
+        135,
+        74,
+        762,
+        1197
+      ],
+      "description": "白色圆角矩形卡片，模拟备忘录App界面。顶部包含黄色“备忘录”标题及功能图标（返回、撤销、重做、分享等），主体部分包含两个上下排列的照片窗口。",
+      "photo_id": [
+        "photo_top",
+        "photo_bottom"
+      ],
+      "label": "白色圆角矩形卡片，模拟备忘录App界面。顶部包含黄色“备忘录",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        186,
+        271,
+        714,
+        682
+      ],
+      "description": "上方照片窗口，显示一位戴透明框眼镜的年轻女性面部特写，视线向上，嘴部微张，右下角可见手持食物的一角。",
+      "label": "上方照片窗口，显示一位戴透明框眼镜的年轻女性面部特写，视线向",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        189,
+        735,
+        709,
+        1150
+      ],
+      "description": "下方照片窗口，显示同一位戴透明框眼镜的女性正面特写，表情平静，底部可见蓝色毛绒玩具的一角。",
+      "label": "下方照片窗口，显示同一位戴透明框眼镜的女性正面特写，表情平静",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom",
+    "frame_card"
+  ]
+}

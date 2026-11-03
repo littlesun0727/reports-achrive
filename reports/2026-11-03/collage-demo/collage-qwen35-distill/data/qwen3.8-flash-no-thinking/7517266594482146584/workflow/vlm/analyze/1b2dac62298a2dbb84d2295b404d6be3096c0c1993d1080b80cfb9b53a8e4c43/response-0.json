@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-fd734591-8ce3-9f04-b432-f73ed9b90430",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7563,
+    "completion_tokens": 616,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 616
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"全画布摄影底图，为虚化的绿色树林背景。画面延伸至四边，作为中心照片的衬托环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_center\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        140,\n        142,\n        850,\n        850\n      ],\n      \"description\": \"中心矩形照片，显示一名长发年轻女性坐在车内，身穿白色上衣，单手托腮，神态自然。\"\n    },\n    {\n      \"id\": \"overlay_clover_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        60,\n        70,\n        300,\n        250\n      ],\n      \"description\": \"左上角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片的左上角。\"\n    },\n    {\n      \"id\": \"overlay_clover_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        680,\n        760,\n        960,\n        950\n      ],\n      \"description\": \"右下角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片的右下角。\"\n    },\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        390,\n        80,\n        950,\n        120\n      ],\n      \"text\": \"+.Clover Melody.♣ + .\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"mono\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        60,\n        870,\n        650,\n      910],\n      \"text\": \"9e+.Clover Melody.♣ + ⁺.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"mono\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_center\",\n    \"overlay_clover_top_left\",\n    \"overlay_clover_bottom_right\",\n    \"text_top\",\n    \"text_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

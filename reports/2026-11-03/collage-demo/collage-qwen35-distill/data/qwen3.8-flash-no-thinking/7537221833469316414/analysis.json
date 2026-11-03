@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1120
+  ],
+  "objects": [
+    {
+      "id": "bg_room",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1120
+      ],
+      "description": "连续的深色木质室内场景底图，包含木地板、木墙、右上角的椭圆挂画、右侧的向日葵花束、老式电话机以及左侧边缘的地毯。作为固定环境背景保留，承载上层照片拼贴。",
+      "background_type": "reference_clean",
+      "label": "连续的深色木质室内场景底图，包含木地板、木墙、右上角的椭圆挂",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        81,
+        106,
+        392,
+        554
+      ],
+      "description": "左上方的矩形照片，显示一名短发女子身穿白蓝拼接T恤，侧卧在木地板上，眼神看向镜头，身体蜷缩。",
+      "label": "左上方的矩形照片，显示一名短发女子身穿白蓝拼接T恤，侧卧在木",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        389,
+        403,
+        855,
+        750
+      ],
+      "description": "中间偏右的横向矩形照片，特写展示女子的侧脸正在咬一个红苹果，发丝凌乱，光影柔和。",
+      "label": "中间偏右的横向矩形照片，特写展示女子的侧脸正在咬一个红苹果，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        153,
+        694,
+        778,
+        1070
+      ],
+      "description": "下方的大尺寸矩形照片，显示女子躺在木质长椅上，穿着白色上衣和深蓝色短裤，双手交叠放在腹部，头枕在椅背上。",
+      "label": "下方的大尺寸矩形照片，显示女子躺在木质长椅上，穿着白色上衣和",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        554,
+        261,
+        784
+      ],
+      "description": "一朵带水珠的橙色百合花素材，位于左下方，茎部向下延伸，叠加在底层背景和上方照片之间。",
+      "label": "一朵带水珠的橙色百合花素材，位于左下方，茎部向下延伸，叠加在",
+      "method": "extract"
+    },
+    {
+      "id": "deco_star_1",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        90,
+        518,
+        179
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于顶部中间位置。",
+      "label": "白色的手绘风格星号涂鸦装饰，位于顶部中间位置。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_star_2",
+      "kind": "overlay",
+      "bbox": [
+        477,
+        274,
+        544,
+        347
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于画面中部电话机旁。",
+      "label": "白色的手绘风格星号涂鸦装饰，位于画面中部电话机旁。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_star_3",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        263,
+        756,
+        325
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于右上花束前方。",
+      "label": "白色的手绘风格星号涂鸦装饰，位于右上花束前方。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_star_4",
+      "kind": "overlay",
+      "bbox": [
+        783,
+        364,
+        873,
+        454
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于右侧边缘时钟附近。",
+      "label": "白色的手绘风格星号涂鸦装饰，位于右侧边缘时钟附近。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_room",
+    "photo_top_left",
+    "photo_mid_right",
+    "photo_bottom",
+    "overlay_flower",
+    "deco_star_1",
+    "deco_star_2",
+    "deco_star_3",
+    "deco_star_4"
+  ]
+}

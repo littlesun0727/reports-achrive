@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b357aef86db1f999",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7409,
+    "completion_tokens": 490,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"模糊的桌面摄影底图，包含手机屏幕、应用图标和备忘录界面，整体呈现柔和的虚化效果，作为全画布背景承载上层内容。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        207,\n        227,\n        788,\n        563\n      ],\n      \"description\": \"上方人物近景照片，戴眼镜，手持食物，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        207,\n        603,\n        788,\n        953\n      ],\n      \"description\": \"下方人物近景照片，戴眼镜，手持蓝色物品，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"frame_top\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        157,\n        163,\n        838,\n        563\n      ],\n      \"description\": \"围绕上方照片的白色矩形框，位于照片上方，完整框体保留。\",\n      \"photo_id\": [\n        \"photo_top\"\n      ]\n    },\n    {\n      \"id\": \"frame_bottom\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        157,\n        543,\n        838,\n        953\n      ],\n      \"description\": \"围绕下方照片的白色矩形框，位于照片上方，完整框体保留。\",\n      \"photo_id\": [\n        \"photo_bottom\"\n      ]\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_bottom\",\n    \"frame_top\",\n    \"frame_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

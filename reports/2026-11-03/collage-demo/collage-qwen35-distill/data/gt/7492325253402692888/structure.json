@@ -1,0 +1,229 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "camera_background",
+    "description": "覆盖全画布的近黑色相机界面底层，具有轻微亮度变化和模糊质感；保留界面底色，清除独立照片及另列的按钮、图标，不将两张照片并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        61,
+        102,
+        935,
+        434
+      ],
+      "description": "上方横向照片，一名盘发女性侧身对镜自拍，手机遮住部分面部，穿浅色长袖上衣和牛仔短裙，显示至大腿；保留墙壁、插座、柜门及地面等完整室内环境。矩形窗口边缘清晰，下边与另一张照片紧贴。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        61,
+        434,
+        935,
+        777
+      ],
+      "description": "下方独立横向照片，一名盘发女性侧身举手机对镜自拍，手机遮住部分面部，穿浅色上衣和牛仔短裙，显示至大腿；保留墙壁、插座、柜门及地面。内容在上边接缝处重新起始，与上图为两个独立显示位置，矩形窗口无透明渐隐。"
+    },
+    {
+      "id": "privacy_dot",
+      "kind": "overlay",
+      "bbox": [
+        537,
+        9,
+        557,
+        21
+      ],
+      "description": "顶部偏右的小型绿色发光圆点，包含模糊光晕。"
+    },
+    {
+      "id": "top_flash",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        47,
+        154,
+        83
+      ],
+      "description": "左上角圆环闪光灯图标，保留内部白色闪电、暗色底和模糊边缘。"
+    },
+    {
+      "id": "top_night",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        47,
+        234,
+        83
+      ],
+      "description": "顶部第二个圆环图标，内部为浅色月形，整体保留。"
+    },
+    {
+      "id": "top_expand",
+      "kind": "overlay",
+      "bbox": [
+        467,
+        47,
+        532,
+        84
+      ],
+      "description": "顶部中央暗色圆形按钮，内部为黄色向下折线箭头。"
+    },
+    {
+      "id": "raw_label",
+      "kind": "overlay",
+      "bbox": [
+        753,
+        48,
+        826,
+        81
+      ],
+      "description": "右上方两行 RAW、MAX 字样，带有图标化笔画及斜线细节，整体作为固定界面标识保留。"
+    },
+    {
+      "id": "top_live",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        47,
+        906,
+        83
+      ],
+      "description": "右上角同心圆界面图标，包含外圈、中心圆点及模糊边缘。"
+    },
+    {
+      "id": "bottom_flash",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        776,
+        219,
+        836
+      ],
+      "description": "照片下方左侧暗色圆形按钮，中央为浅色闪电符号。"
+    },
+    {
+      "id": "bottom_night",
+      "kind": "overlay",
+      "bbox": [
+        243,
+        776,
+        352,
+        836
+      ],
+      "description": "照片下方第二个暗色圆形按钮，中央为带水平条纹的浅色月形符号。"
+    },
+    {
+      "id": "bottom_live",
+      "kind": "overlay",
+      "bbox": [
+        376,
+        776,
+        485,
+        836
+      ],
+      "description": "照片下方第三个暗色圆形按钮，中央为同心圆符号。"
+    },
+    {
+      "id": "bottom_mode",
+      "kind": "overlay",
+      "bbox": [
+        509,
+        776,
+        619,
+        836
+      ],
+      "description": "照片下方第四个暗色圆形按钮，中央为叠放矩形及斜线构成的模式图标。"
+    },
+    {
+      "id": "bottom_ratio",
+      "kind": "overlay",
+      "bbox": [
+        643,
+        776,
+        752,
+        836
+      ],
+      "description": "照片下方第五个暗色圆形按钮，内部带有 4:3 字样，文字随按钮整体保留。"
+    },
+    {
+      "id": "bottom_exposure",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        776,
+        885,
+        836
+      ],
+      "description": "照片下方第六个暗色圆形按钮，内部为带加减标记的圆环曝光图标。"
+    },
+    {
+      "id": "bottom_partial_control",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        784,
+        928,
+        824
+      ],
+      "description": "底部工具行最右侧露出的暗色弧形按钮残部，仅保留可见部分，不补画隐藏内容。"
+    },
+    {
+      "id": "gallery_thumbnail",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        842,
+        269,
+        963
+      ],
+      "description": "左下角近黑色方形相册预览占位，未见可辨摄影内容，保留其暗色块和柔和边缘。"
+    },
+    {
+      "id": "shutter",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        850,
+        582,
+        945
+      ],
+      "description": "底部中央大型快门按钮，浅灰实心圆、深色间隙和浅色外环作为一个完整控件保留。"
+    },
+    {
+      "id": "switch_camera",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        866,
+        888,
+        930
+      ],
+      "description": "右下角暗色圆形切换摄像头按钮，内部为两条首尾相接的浅色弧形箭头。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "privacy_dot",
+    "top_flash",
+    "top_night",
+    "top_expand",
+    "raw_label",
+    "top_live",
+    "bottom_flash",
+    "bottom_night",
+    "bottom_live",
+    "bottom_mode",
+    "bottom_ratio",
+    "bottom_exposure",
+    "bottom_partial_control",
+    "gallery_thumbnail",
+    "shutter",
+    "switch_camera"
+  ]
+}

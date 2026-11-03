@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-b2e6db17a1c3d09e",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 7430,
+    "completion_tokens": 511,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"desktop_wallpaper\",\n    \"description\": \"电脑桌面壁纸，包含左侧应用列表（日历、音乐等）和顶部状态栏，右侧为模糊背景；中央叠加白色备忘录窗口，遮挡部分壁纸内容。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        205,\n        235,\n        790,\n        568\n      ],\n      \"description\": \"上方人物特写照片，戴浅蓝色眼镜，手持黄色食物，保留面部及背景环境，位于备忘录窗口内。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        207,\n        615,\n        788,\n        958\n      ],\n      \"description\": \"下方人物特写照片，戴透明眼镜，手持蓝色物品，保留面部及背景环境，位于备忘录窗口内。\"\n    },\n    {\n      \"id\": \"frame_memo\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        195,\n        65,\n        845,\n        995\n      ],\n      \"description\": \"白色备忘录窗口框架，包含顶部导航栏、照片区域及底部空白区，覆盖桌面壁纸，承载两张照片。\",\n      \"photo_id\": [\n        \"photo_top\",\n        \"photo_bottom\"\n      ]\n    },\n    {\n      \"id\": \"overlay_scratches\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        1000\n      ],\n      \"description\": \"全画布覆盖的划痕纹理层，包含细线、斑点及模糊效果，叠加于所有对象之上。\"\n    }\n  ],\n  \"layer_order\": [\n    \"desktop_wallpaper\",\n    \"frame_memo\",\n    \"photo_top\",\n    \"photo_bottom\",\n    \"overlay_scratches\"\n  ]\n}",
+  "tool_calls": false
+}

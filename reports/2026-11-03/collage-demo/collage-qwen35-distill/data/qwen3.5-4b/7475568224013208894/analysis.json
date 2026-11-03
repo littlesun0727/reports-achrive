@@ -1,0 +1,209 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "沙滩与沙雕构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸和装饰遮挡局部，保留沙滩纹理与沙雕细节。",
+      "background_type": "photo",
+      "label": "沙滩与沙雕构成连续摄影底图，完整显示区域延伸至画布四边；上层",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        65,
+        137,
+        356,
+        315
+      ],
+      "description": "左上人物半身照片，人物戴口罩，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左上人物半身照片，人物戴口罩，保留照片内的摄影环境，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        444,
+        230,
+        832,
+        459
+      ],
+      "description": "右上人物背影照片，人物看海，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右上人物背影照片，人物看海，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        32,
+        526,
+        330,
+        929
+      ],
+      "description": "左下风景照片，棕榈树与海景，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左下风景照片，棕榈树与海景，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        431,
+        867,
+        683,
+        1123
+      ],
+      "description": "右下室内照片，人物躺卧，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右下室内照片，人物躺卧，保留照片内的摄影环境，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        595,
+        457,
+        832,
+        729
+      ],
+      "description": "右下沙雕照片，沙地上有星形图案，保留沙雕细节，显示区域为矩形。",
+      "label": "右下沙雕照片，沙地上有星形图案，保留沙雕细节，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        474,
+        119,
+        608
+      ],
+      "description": "蓝色手绘星星，作为独立固定装饰保留。",
+      "label": "蓝色手绘星星，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        246,
+        469,
+        389,
+        615
+      ],
+      "description": "黄色手绘太阳，作为独立固定装饰保留。",
+      "label": "黄色手绘太阳，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rose",
+      "kind": "overlay",
+      "bbox": [
+        555,
+        421,
+        663,
+        530
+      ],
+      "description": "白色手绘玫瑰，作为独立固定装饰保留。",
+      "label": "白色手绘玫瑰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        715,
+        647,
+        812
+      ],
+      "description": "蓝色手绘心形，作为独立固定装饰保留。",
+      "label": "蓝色手绘心形，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        705,
+        891,
+        888,
+        1043
+      ],
+      "description": "蓝色手绘鱼形，作为独立固定装饰保留。",
+      "label": "蓝色手绘鱼形，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_droplet_1",
+      "kind": "overlay",
+      "bbox": [
+        313,
+        60,
+        396,
+        235
+      ],
+      "description": "蓝色手绘水滴，作为独立固定装饰保留。",
+      "label": "蓝色手绘水滴，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_droplet_2",
+      "kind": "overlay",
+      "bbox": [
+        417,
+        199,
+        482,
+        337
+      ],
+      "description": "蓝色手绘水滴，作为独立固定装饰保留。",
+      "label": "蓝色手绘水滴，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_grid",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        903,
+        442,
+        1006
+      ],
+      "description": "蓝色格纹矩形，作为独立固定装饰保留。",
+      "label": "蓝色格纹矩形，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_star",
+    "overlay_star",
+    "overlay_sun",
+    "overlay_rose",
+    "overlay_heart",
+    "overlay_fish",
+    "overlay_droplet_1",
+    "overlay_droplet_2",
+    "overlay_grid"
+  ]
+}

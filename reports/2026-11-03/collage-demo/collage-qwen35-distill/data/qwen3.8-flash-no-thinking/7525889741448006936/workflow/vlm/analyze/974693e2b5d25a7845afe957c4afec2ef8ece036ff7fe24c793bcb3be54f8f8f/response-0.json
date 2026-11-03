@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-ab5f7fe8-3406-9d8d-9618-c513b720e2a2",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8256,
+    "completion_tokens": 1309,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1309
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的摄影底图，展示面包店柜台场景。画面主体为一名年轻女子手持姜饼人饼干和波点包，背景可见陈列柜、糕点及店铺环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_ellipse_frame\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        38,\n        46,\n        385,\n        421\n      ],\n      \"description\": \"白色手绘风格椭圆线框，位于左上角，作为独立照片的装饰性边框。\",\n      \"photo_id\": [\n        \"photo_inset\"\n      ]\n    },\n    {\n      \"id\": \"photo_inset\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        47,\n        55,\n        379,\n        412\n      ],\n      \"description\": \"位于左上角椭圆框内的独立照片，显示同一位女子在店内举着咖啡杯微笑的画面。\"\n    },\n    {\n      \"id\": \"overlay_bunny\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        38,\n        320,\n        192,\n        452\n      ],\n      \"description\": \"蓝黄色卡通兔子贴纸，叠加在左侧边缘，部分遮挡了椭圆相框的下沿。\"\n    },\n    {\n      \"id\": \"text_speech_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        300,\n        46,\n        508,\n        93\n      ],\n      \"text\": \"Blog is my life . .\",\n      \"color\": \"#333333\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_speech_bg_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        297,\n        46,\n        511,\n        93\n      ],\n      \"description\": \"顶部文字气泡的白色椭圆形底板。\"\n    },\n    {\n      \"id\": \"overlay_cute_face\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        696,\n        278,\n        791,\n      355\n      ],\n      \"description\": \"蓝色水滴状可爱表情贴纸，带有腮红和樱桃装饰，贴在人物头发右侧。\"\n    },\n    {\n      \"id\": \"overlay_cats\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        836,\n        381,\n        932,\n        445\n      ],\n      \"description\": \"黑白两只小猫并排的贴纸，位于右侧中部。\"\n    },\n    {\n      \"id\": \"overlay_speech_bg_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        791,\n        421,\n        932,\n        485\n      ],\n      \"description\": \"右侧浅蓝色云朵状文字气泡底板。\"\n    },\n    {\n      \"id\": \"text_speech_right\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        800,\n        431,\n        925,\n        475\n      ],\n      \"text\": \"역시 군침나나요?\\n날아치에게\\n좋아한다 말을 들으면\",\n      \"color\": \"#333333\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_speech_bg_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        192,\n        805,\n        441,\n        925\n      ],\n      \"description\": \"底部白色云朵状文字气泡底板。\"\n    },\n    {\n      \"id\": \"text_speech_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        207,\n        835,\n        425,\n        895\n      ],\n      \"text\": \"뭔가가\\n그려워지는데.\",\n      \"color\": \"#333333\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        33,\n        165,\n        986,\n        985\n      ],\n      \"description\": \"散布在画面各处的星星装饰集合，包含黑色五角星、白色五角星以及带光晕的小圆点。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_inset\",\n    \"overlay_ellipse_frame\",\n    \"overlay_bunny\",\n    \"overlay_speech_bg_top\",\n    \"text_speech_top\",\n    \"overlay_cute_face\",\n    \"overlay_cats\",\n    \"overlay_speech_bg_right\",\n    \"text_speech_right\",\n    \"overlay_speech_bg_bottom\",\n    \"text_speech_bottom\",\n    \"overlay_stars\"\n  ]\n}",
+  "tool_calls": false
+}

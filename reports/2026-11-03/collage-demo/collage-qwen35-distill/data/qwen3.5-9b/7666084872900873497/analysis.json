@@ -1,0 +1,250 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "深色石板路纹理底图，完整覆盖全画布，作为所有照片和文字的承载背景；石板缝隙清晰可见，整体呈现俯视视角的连续摄影画面。",
+      "background_type": "photo",
+      "label": "深色石板路纹理底图，完整覆盖全画布，作为所有照片和文字的承载",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        371,
+        194,
+        538,
+        391
+      ],
+      "description": "左上人物半身照，人物手托脸颊，背景为室内环境，照片边缘有轻微阴影。",
+      "label": "左上人物半身照，人物手托脸颊，背景为室内环境，照片边缘有轻微",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        506,
+        283,
+        673,
+        480
+      ],
+      "description": "右上橘猫坐姿照，背景为户外绿植，照片边缘有轻微阴影。",
+      "label": "右上橘猫坐姿照，背景为户外绿植，照片边缘有轻微阴影。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        641,
+        372,
+        808,
+        569
+      ],
+      "description": "右侧冰淇淋照，双手持两支冰淇淋，背景为户外地面，照片边缘有轻微阴影。",
+      "label": "右侧冰淇淋照，双手持两支冰淇淋，背景为户外地面，照片边缘有轻",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        279,
+        348,
+        446,
+        545
+      ],
+      "description": "左侧三花猫照，猫站立于粉色床单上，照片边缘有轻微阴影。",
+      "label": "左侧三花猫照，猫站立于粉色床单上，照片边缘有轻微阴影。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        427,
+        480,
+        594,
+        677
+      ],
+      "description": "中间双手比心照，背景为户外地面，照片边缘有轻微阴影。",
+      "label": "中间双手比心照，背景为户外地面，照片边缘有轻微阴影。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        574,
+        492,
+        742,
+        689
+      ],
+      "description": "右下人物侧脸照，人物手持粉色物品，背景为室内环境，照片边缘有轻微阴影。",
+      "label": "右下人物侧脸照，人物手持粉色物品，背景为室内环境，照片边缘有",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        203,
+        504,
+        371,
+        701
+      ],
+      "description": "左下饮品照，桌上摆放多种饮品和甜点，照片边缘有轻微阴影。",
+      "label": "左下饮品照，桌上摆放多种饮品和甜点，照片边缘有轻微阴影。",
+      "method": "local"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        351,
+        564,
+        518,
+        761
+      ],
+      "description": "中下美食照，桌上摆放多种食物，照片边缘有轻微阴影。",
+      "label": "中下美食照，桌上摆放多种食物，照片边缘有轻微阴影。",
+      "method": "local"
+    },
+    {
+      "id": "photo_9",
+      "kind": "photo",
+      "bbox": [
+        481,
+        624,
+        648,
+        821
+      ],
+      "description": "底部俯视角照，人物穿着黑色鞋子，背景为户外地面，照片边缘有轻微阴影。",
+      "label": "底部俯视角照，人物穿着黑色鞋子，背景为户外地面，照片边缘有轻",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        96,
+        810,
+        336
+      ],
+      "description": "右上角白色手绘星星和纸飞机图案，作为独立装饰保留。",
+      "label": "右上角白色手绘星星和纸飞机图案，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        720,
+        315,
+        840
+      ],
+      "description": "左下角白色手绘猫头图案，作为独立装饰保留。",
+      "label": "左下角白色手绘猫头图案，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        45,
+        120,
+        360,
+        480
+      ],
+      "description": "In summer,\nThe wind is\nswaying the green\nShadow.",
+      "label": "In summer,\nThe wind is\nswaying",
+      "method": "local",
+      "text": "In summer,\nThe wind is\nswaying the green\nShadow.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        540,
+        660,
+        855,
+        1080
+      ],
+      "description": "We are like\nSummer\nyoung and beautiful\nSmiling\nas bright a\nClear sky",
+      "label": "We are like\nSummer\nyoung and b",
+      "method": "local",
+      "text": "We are like\nSummer\nyoung and beautiful\nSmiling\nas bright a\nClear sky",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        45,
+        720,
+        315,
+        840
+      ],
+      "description": "Bonjour //",
+      "label": "Bonjour //",
+      "method": "local",
+      "text": "Bonjour //",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8",
+    "photo_9",
+    "overlay_stars",
+    "overlay_cat",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

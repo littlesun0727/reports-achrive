@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-946389cd714d85d8",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 9483,
+    "total_tokens": 9930,
+    "completion_tokens": 447,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_mountains\",\n    \"description\": \"雪山全景摄影底图，包含蓝天、白云、积雪山峰、山脚树林及远处山脉，画面连续延伸至画布四边；中间人物照片遮挡部分山体和树林，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_person\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        320,\n        1000,\n        680\n      ],\n      \"description\": \"人物半身照片，戴白色毛线帽和白色羽绒服，位于画面中央，背景为树林和建筑，下缘有白色柔化过渡效果，遮挡部分雪山底图。\"\n    },\n    {\n      \"id\": \"text_logo\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        920,\n        910,\n        990,\n        950\n      ],\n      \"text\": \"小红书\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_id\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        780,\n        950,\n        990,\n        970\n      ],\n      \"text\": \"小红书号：448205581\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_mountains\",\n    \"photo_person\",\n    \"text_logo\",\n    \"text_id\"\n  ]\n}",
+  "tool_calls": false
+}

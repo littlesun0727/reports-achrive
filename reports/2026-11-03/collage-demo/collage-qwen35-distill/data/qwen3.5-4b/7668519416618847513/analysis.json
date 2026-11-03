@@ -1,0 +1,232 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "bg_dots",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "深褐色底图，覆盖全画布，分布有白色圆点图案；所有照片、贴纸和文字均叠加其上，底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "深褐色底图，覆盖全画布，分布有白色圆点图案；所有照片、贴纸和",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_table",
+      "kind": "photo",
+      "bbox": [
+        412,
+        127,
+        810,
+        642
+      ],
+      "description": "咖啡桌场景照片，包含星巴克咖啡杯、手机壳、手机、玩偶和衣物，保留桌面及周围环境。",
+      "label": "咖啡桌场景照片，包含星巴克咖啡杯、手机壳、手机、玩偶和衣物，",
+      "method": "local"
+    },
+    {
+      "id": "photo_shelf",
+      "kind": "photo",
+      "bbox": [
+        59,
+        436,
+        368,
+        843
+      ],
+      "description": "货架陈列照片，展示一只手拿着粉色兔子玩偶，背景为密集摆放的玩偶商品。",
+      "label": "货架陈列照片，展示一只手拿着粉色兔子玩偶，背景为密集摆放的玩",
+      "method": "local"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        412,
+        760,
+        852,
+        1083
+      ],
+      "description": "咖啡店桌面照片，包含抹茶拿铁拉花、带樱桃的蛋糕切片和餐盘，保留桌面及餐具。",
+      "label": "咖啡店桌面照片，包含抹茶拿铁拉花、带樱桃的蛋糕切片和餐盘，保",
+      "method": "local"
+    },
+    {
+      "id": "frame_table",
+      "kind": "frame",
+      "bbox": [
+        412,
+        127,
+        810,
+        642
+      ],
+      "description": "围绕咖啡桌照片的米色毛绒边框，覆盖照片边缘，位于照片上方。",
+      "photo_id": [
+        "photo_table"
+      ],
+      "label": "围绕咖啡桌照片的米色毛绒边框，覆盖照片边缘，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_shelf",
+      "kind": "frame",
+      "bbox": [
+        59,
+        436,
+        368,
+        843
+      ],
+      "description": "围绕货架照片的米色毛绒边框，覆盖照片边缘，位于照片上方。",
+      "photo_id": [
+        "photo_shelf"
+      ],
+      "label": "围绕货架照片的米色毛绒边框，覆盖照片边缘，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_cafe",
+      "kind": "frame",
+      "bbox": [
+        412,
+        760,
+        852,
+        1083
+      ],
+      "description": "围绕咖啡店照片的米色毛绒边框，覆盖照片边缘，位于照片上方。",
+      "photo_id": [
+        "photo_cafe"
+      ],
+      "label": "围绕咖啡店照片的米色毛绒边框，覆盖照片边缘，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots_strip",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        40,
+        582,
+        235
+      ],
+      "description": "浅蓝色带白色圆点的半透明胶带贴纸，倾斜放置于画布上部。",
+      "label": "浅蓝色带白色圆点的半透明胶带贴纸，倾斜放置于画布上部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_love",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        193,
+        302,
+        272
+      ],
+      "description": "灰色带白色圆点的矩形贴纸，印有粉色文字 Love theme。",
+      "label": "灰色带白色圆点的矩形贴纸，印有粉色文字 Love theme",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_korean",
+      "kind": "overlay",
+      "bbox": [
+        302,
+        301,
+        540,
+        494
+      ],
+      "description": "灰色带白色圆点的对话气泡贴纸，印有韩文文字。",
+      "label": "灰色带白色圆点的对话气泡贴纸，印有韩文文字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_chinese",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        891,
+        371,
+        954
+      ],
+      "description": "粉色圆角矩形贴纸，印有白色文字及勾选符号。",
+      "label": "粉色圆角矩形贴纸，印有白色文字及勾选符号。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_emoticon",
+      "kind": "overlay",
+      "bbox": [
+        457,
+        673,
+        627,
+        733
+      ],
+      "description": "白色对话气泡贴纸，印有韩文表情符号。",
+      "label": "白色对话气泡贴纸，印有韩文表情符号。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        349,
+        149,
+        482
+      ],
+      "description": "粉色圆点背景的方形贴纸，印有蛋糕图案及文字 TvT。",
+      "label": "粉色圆点背景的方形贴纸，印有蛋糕图案及文字 TvT。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple",
+      "kind": "overlay",
+      "bbox": [
+        731,
+        565,
+        839,
+        678
+      ],
+      "description": "红色像素风格苹果贴纸，带绿色叶子，位于咖啡桌照片右侧。",
+      "label": "红色像素风格苹果贴纸，带绿色叶子，位于咖啡桌照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        328,
+        1018,
+        492,
+        1140
+      ],
+      "description": "红色带白色圆点的音符贴纸，位于咖啡店照片左下方。",
+      "label": "红色带白色圆点的音符贴纸，位于咖啡店照片左下方。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_dots",
+    "photo_table",
+    "photo_shelf",
+    "photo_cafe",
+    "frame_table",
+    "frame_shelf",
+    "frame_cafe",
+    "overlay_dots_strip",
+    "overlay_text_love",
+    "overlay_text_korean",
+    "overlay_text_chinese",
+    "overlay_text_emoticon",
+    "overlay_cake",
+    "overlay_apple",
+    "overlay_music"
+  ]
+}

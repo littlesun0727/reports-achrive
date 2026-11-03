@@ -1,0 +1,379 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1197
+  ],
+  "objects": [
+    {
+      "id": "dot_pattern_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1197
+      ],
+      "description": "全画布固定底图，由白色背景和均匀分布的黑色小圆点构成，作为整个拼贴画的背景纹理。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，由白色背景和均匀分布的黑色小圆点构成，作为整",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        461,
+        350,
+        848,
+        895
+      ],
+      "description": "右侧主要人物照片，人物穿着水手服，手持小卡片，背景为百叶窗，显示区域为矩形。",
+      "label": "右侧主要人物照片，人物穿着水手服，手持小卡片，背景为百叶窗，",
+      "method": "local"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        461,
+        350,
+        848,
+        895
+      ],
+      "description": "围绕右侧主要人物照片的矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_main"
+      ],
+      "label": "围绕右侧主要人物照片的矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_camera",
+      "kind": "photo",
+      "bbox": [
+        48,
+        462,
+        473,
+        785
+      ],
+      "description": "左侧相机取景器风格照片，人物比出剪刀手，手持小卡片，显示区域为矩形。",
+      "label": "左侧相机取景器风格照片，人物比出剪刀手，手持小卡片，显示区域",
+      "method": "local"
+    },
+    {
+      "id": "frame_camera",
+      "kind": "frame",
+      "bbox": [
+        48,
+        462,
+        473,
+        785
+      ],
+      "description": "围绕左侧相机风格照片的黑色矩形边框，带有相机参数文字，位于照片上方。",
+      "photo_id": [
+        "photo_camera"
+      ],
+      "label": "围绕左侧相机风格照片的黑色矩形边框，带有相机参数文字，位于照",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        660,
+        206,
+        848,
+        373
+      ],
+      "description": "右上角人物照片，人物低头看手，显示区域为矩形。",
+      "label": "右上角人物照片，人物低头看手，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        623,
+        120,
+        848,
+        373
+      ],
+      "description": "围绕右上角照片的黑色不规则形状边框，位于照片上方。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "围绕右上角照片的黑色不规则形状边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        281,
+        895,
+        524,
+        1063
+      ],
+      "description": "下方人物照片，人物手持自拍杆，显示区域为矩形。",
+      "label": "下方人物照片，人物手持自拍杆，显示区域为矩形。",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        281,
+        847,
+        524,
+        1063
+      ],
+      "description": "围绕下方照片的黑色矩形边框，位于照片上方。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "围绕下方照片的黑色矩形边框，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        209,
+        278,
+        524,
+        314
+      ],
+      "description": "사랑해 오늘도 내일도 앞으로도",
+      "label": "사랑해 오늘도 내일도 앞으로도",
+      "method": "local",
+      "text": "사랑해 오늘도 내일도 앞으로도",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        614,
+        967,
+        848,
+        1003
+      ],
+      "description": "서울 날씨 어때, 잘지냈어 ^^",
+      "label": "서울 날씨 어때, 잘지냈어 ^^",
+      "method": "local",
+      "text": "서울 날씨 어때, 잘지냈어 ^^",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_clip_1",
+      "kind": "overlay",
+      "bbox": [
+        461,
+        314,
+        497,
+        361
+      ],
+      "description": "位于右侧照片左上角的白色回形针装饰。",
+      "label": "位于右侧照片左上角的白色回形针装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_2",
+      "kind": "overlay",
+      "bbox": [
+        371,
+        785,
+        407,
+        845
+      ],
+      "description": "位于下方照片上方的黑色回形针装饰。",
+      "label": "位于下方照片上方的黑色回形针装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_safety_pin",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        120,
+        848,
+        206
+      ],
+      "description": "位于右上角照片上方的黑色安全别针装饰。",
+      "label": "位于右上角照片上方的黑色安全别针装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        21,
+        40,
+        48,
+        75
+      ],
+      "description": "左上角的黑色五角星装饰。",
+      "label": "左上角的黑色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        134,
+        281,
+        158
+      ],
+      "description": "中上部的黑色五角星装饰。",
+      "label": "中上部的黑色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        302,
+        569,
+        326
+      ],
+      "description": "右侧照片上方的黑色五角星装饰。",
+      "label": "右侧照片上方的黑色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        848,
+        780,
+        875,
+        804
+      ],
+      "description": "右侧边缘的黑色五角星装饰。",
+      "label": "右侧边缘的黑色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        21,
+        960,
+        48,
+        984
+      ],
+      "description": "左下角的黑色五角星装饰。",
+      "label": "左下角的黑色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        758,
+        1092,
+        785,
+        1116
+      ],
+      "description": "右下角的黑色五角星装饰。",
+      "label": "右下角的黑色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw",
+      "kind": "overlay",
+      "bbox": [
+        21,
+        816,
+        101,
+        876
+      ],
+      "description": "左侧中部的黑色爪印装饰。",
+      "label": "左侧中部的黑色爪印装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_settings",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        924,
+        696,
+        960
+      ],
+      "description": "右下角的黑色齿轮图标装饰。",
+      "label": "右下角的黑色齿轮图标装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cursor",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        924,
+        732,
+        960
+      ],
+      "description": "右下角的黑色鼠标指针图标装饰。",
+      "label": "右下角的黑色鼠标指针图标装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        924,
+        848,
+        960
+      ],
+      "description": "右下角的黑色双心形图标装饰。",
+      "label": "右下角的黑色双心形图标装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "dot_pattern_base",
+    "photo_camera",
+    "frame_camera",
+    "photo_main",
+    "frame_main",
+    "photo_top",
+    "frame_top",
+    "photo_bottom",
+    "frame_bottom",
+    "text_1",
+    "overlay_clip_1",
+    "overlay_clip_2",
+    "overlay_safety_pin",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_paw",
+    "overlay_settings",
+    "overlay_cursor",
+    "overlay_hearts",
+    "text_2"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的俯拍咖啡桌场景覆盖全画布：木桌上有盆栽、杯盘、纸巾盒及小摆件，桌外可见灰色地面，下方露出一名坐着的人的鞋、衣服和包带。环境延伸至四边，上方方形照片和右下圆形照片遮挡局部；人物与全部实拍环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_square",
+      "kind": "photo",
+      "bbox": [
+        194,
+        148,
+        632,
+        455
+      ],
+      "description": "左上独立照片，俯拍木桌上的深色餐盘，盘内有两块饼干及覆满绿色葱末的浅色点心，右侧放叉子，后方是一杯带浅色果片的透明饮品。保留完整摄影环境；窗口周边有淡金色柔软描边，左上边缘被格纹胶带覆盖。"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        458,
+        541,
+        900,
+        900
+      ],
+      "description": "右下独立圆形照片，木桌上左侧为含冰块和浅色果片的高玻璃杯，右侧为头顶粉色装饰的白色兔子玩偶，后方可见椅背和地面。保留摄影环境，圆周有浅棕金色柔软边缘，右上叠着蓝色格纹胶带。"
+    },
+    {
+      "id": "tape_yellow",
+      "kind": "overlay",
+      "bbox": [
+        276,
+        106,
+        419,
+        200
+      ],
+      "description": "斜贴在左上照片边缘的黄白格纹胶带，保留完整条状轮廓及格纹。"
+    },
+    {
+      "id": "ufo_house",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        102,
+        908,
+        237
+      ],
+      "description": "右上手绘装饰：黄色椭圆飞碟中有蓝色小屋，上方配白色放射弧线、星星和圆点；纸纹、描线及全部附属点缀整体保留。"
+    },
+    {
+      "id": "japanese_note",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        421,
+        817,
+        445
+      ],
+      "description": "木桌右侧独立白色日文手写短句，两端带括号；保留原有不规则笔画和字距，文字近似“幸あれ”。"
+    },
+    {
+      "id": "cat_strip",
+      "kind": "overlay",
+      "bbox": [
+        248,
+        606,
+        412,
+        642
+      ],
+      "description": "浅桃色圆角长条贴纸，内部交替排列三枚白色猫脸和两朵粉色小花，作为完整带图案标签保留。"
+    },
+    {
+      "id": "tape_blue",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        561,
+        873,
+        630
+      ],
+      "description": "斜贴于右下圆形照片右上边缘的白底蓝色细格纹胶带，保留参差端头和完整格纹。"
+    },
+    {
+      "id": "maple_leaf",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        715,
+        146,
+        790
+      ],
+      "description": "左下橙黄色枫叶装饰，包含叶片、红褐色叶脉及向下延伸的细叶柄。"
+    },
+    {
+      "id": "main_caption",
+      "kind": "overlay",
+      "bbox": [
+        164,
+        707,
+        409,
+        747
+      ],
+      "description": "白色手写艺术字“現実と夢の境目。”及两侧引号，字形大小、基线和间距略有起伏，整体保留。"
+    },
+    {
+      "id": "star_trio",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        786,
+        228,
+        867
+      ],
+      "description": "左下三枚大小不同的浅黄色手绘五角星，各有深色内线，分散组成一组，保留星形间透明空隙。"
+    },
+    {
+      "id": "pudding_cat",
+      "kind": "overlay",
+      "bbox": [
+        259,
+        779,
+        380,
+        864
+      ],
+      "description": "猫脸布丁插画贴纸，黄色布丁顶覆棕色焦糖和红色樱桃，下方为粉色盘子，周围配青色闪光符号和顶部短线，整体保留。"
+    },
+    {
+      "id": "white_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        846,
+        930,
+        948
+      ],
+      "description": "右下独立白色手绘闪光装饰组，包含放射短线、小星芒、大小空心五角星，保留完整分布及透明间隙。"
+    }
+  ],
+  "layer_order": [
+    "photo_square",
+    "photo_circle",
+    "tape_yellow",
+    "ufo_house",
+    "japanese_note",
+    "cat_strip",
+    "tape_blue",
+    "maple_leaf",
+    "main_caption",
+    "star_trio",
+    "pudding_cat",
+    "white_sparkles"
+  ]
+}

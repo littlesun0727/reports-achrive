@@ -1,0 +1,151 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "bg_photo",
+    "description": "全画布摄影底图，由茂密的绿色树叶和透过树丛的斑驳光影构成。画面整体呈现自然森林环境，作为所有独立照片和装饰元素的背景层。"
+  },
+  "objects": [
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        38,
+        26,
+        620,
+        375
+      ],
+      "description": "位于左上方的拍立得风格相纸框，边缘带有明显的锯齿状邮票齿孔设计，米白色边框包裹着内部照片。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        51,
+        49,
+        602,
+        358
+      ],
+      "description": "位于左上方相纸内的照片。一名戴眼镜、短发的女性蹲在铺满落叶的水泥路面上，身穿浅色无袖连衣裙，手持一罐饮料，神态自然。"
+    },
+    {
+      "id": "snail_sticker",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        210,
+        650,
+        350
+      ],
+      "description": "一只写实风格的蜗牛贴纸，壳呈黄褐色螺旋状，身体为红褐色，触角伸出。它叠加在左上方照片的右下角及相纸边缘处。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        678,
+        143,
+        962,
+        312
+      ],
+      "description": "位于右上方的矩形照片，无边框。照片中同一位戴眼镜的短发女性蹲在草丛中，面带微笑看向左侧，背景为绿色植被。"
+    },
+    {
+      "id": "button_top_right",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        372,
+        995,
+        462
+      ],
+      "description": "一枚圆形的棕色木质纽扣，表面有木纹质感，中间缝有四孔十字线迹。位于右上方照片的下方。"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        362,
+        405,
+        965,
+        978
+      ],
+      "description": "位于右下方的竖长方形相纸框，边缘带有细微的虚线或点状纹理，米黄色底色，包裹着海滩场景的照片。",
+      "photo_id": [
+        "photo_bottom_right"
+      ]
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        375,
+        415,
+        952,
+        968
+      ],
+      "description": "位于右下方相纸内的照片。一名短发女性背对镜头站在沙滩上，面向大海，身穿半透明的印花纱裙，海浪正在拍打沙滩。"
+    },
+    {
+      "id": "symbols_column",
+      "kind": "overlay",
+      "bbox": [
+        295,
+        390,
+        355,
+        615
+      ],
+      "description": "一组垂直排列的白色手绘线条符号，从上到下依次为：海星、小星星、两个圆点、螺旋纹、加号、海星。位于两张大照片之间的空隙处。"
+    },
+    {
+      "id": "button_mid_left",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        532,
+        125,
+        595
+      ],
+      "description": "一枚圆形的棕色木质纽扣，与右上角的纽扣样式相同，位于画面左侧中部。"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        75,
+        555,
+        298,
+        788
+      ],
+      "description": "位于左侧中部的竖向矩形照片，无边框。照片中一名戴着帽子和墨镜的女性站在树林间，身穿浅色长裙，周围是树木和光斑。"
+    },
+    {
+      "id": "deer_sticker",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        755,
+        250,
+        998
+      ],
+      "description": "一只梅花鹿插画贴纸，鹿身呈棕黄色带白斑，头部抬起望向右上方。它叠加在左侧照片的下部以及左下角的背景上。"
+    }
+  ],
+  "layer_order": [
+    "frame_top_left",
+    "photo_top_left",
+    "snail_sticker",
+    "photo_top_right",
+    "button_top_right",
+    "frame_bottom_right",
+    "photo_bottom_right",
+    "symbols_column",
+    "button_mid_left",
+    "photo_mid_left",
+    "deer_sticker"
+  ]
+}

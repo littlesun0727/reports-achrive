@@ -1,0 +1,244 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "透过车辆前窗拍摄的街景，包含顶部深色车内结构、窗外树木、道路、右侧后视镜及底部仪表台，无清晰人物主体。摄影场景在画布四边连续可见，中央及多处被独立照片和白色装饰遮挡；整幅车辆与街道环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        229,
+        260,
+        644,
+        678
+      ],
+      "description": "中央竖向咖啡馆照片，一位长发女子穿浅色上衣，侧身坐在柜台旁，转脸看向镜头，双手拿着穿厨师服的小玩偶。保留店内桌椅、灯具与柜台环境；上方被饮品照片覆盖，左右局部被其他照片遮挡，下方被椭圆饮料照片遮挡，边界无明显渐隐。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        359,
+        111,
+        686,
+        292
+      ],
+      "description": "上方横向照片，银色托盘中并排放着两杯高脚杯饮品，左杯有奶油、彩色糖针和红樱桃，右杯有冰块及柠檬片；保留木桌和托盘环境，四周为清晰照片窗口。"
+    },
+    {
+      "id": "frame_notebook",
+      "kind": "frame",
+      "bbox": [
+        348,
+        94,
+        705,
+        299
+      ],
+      "description": "围绕上方饮品照片的白色手绘笔记本式框体，包含不规则矩形框沿、顶部连续装订环和重复细线，整体保留。",
+      "photo_id": [
+        "photo_drinks"
+      ]
+    },
+    {
+      "id": "photo_pastries",
+      "kind": "photo",
+      "bbox": [
+        77,
+        205,
+        322,
+        384
+      ],
+      "description": "左上方独立俯拍照片，两只长方形餐盘内放着撒糖粉的牛角包，桌上还有小杯果酱、印字桌布和右上角格纹布。完整保留摄影环境；照片外围有白色不规则线条及角部断开的描边，描边随照片窗口保留。"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        640,
+        322,
+        863,
+        546
+      ],
+      "description": "右侧竖向甜点照片，白色盘子上放着棕色外皮、黄色内馅的烘焙甜点，后方可见饮料杯及局部人物手臂。保留桌面与背景，矩形边界清晰，右上角被浅色胶带遮挡；右下角细小白色印字随照片内容替换。"
+    },
+    {
+      "id": "photo_bear",
+      "kind": "photo",
+      "bbox": [
+        692,
+        565,
+        913,
+        724
+      ],
+      "description": "右下方独立矩形照片，一只棕色毛绒熊侧躺在床铺或软垫上，保留织物褶皱、靠垫与暗处室内环境，无主体去背景或渐隐；左下部分被饮料照片遮挡。"
+    },
+    {
+      "id": "photo_snack",
+      "kind": "photo",
+      "bbox": [
+        44,
+        603,
+        383,
+        787
+      ],
+      "description": "左下方近景照片，一只手拿着装有金黄色炸物的印花纸袋，保留纸袋上的漫画和文字、后方地面及道路标线。窗口外围有细白色手绘矩形描边，顶部被回形针装饰压住，右侧局部被饮料照片覆盖。"
+    },
+    {
+      "id": "photo_bottles",
+      "kind": "photo",
+      "bbox": [
+        402,
+        605,
+        791,
+        965
+      ],
+      "description": "下方大型椭圆照片，三瓶粉色、棕色和浅蓝色标签饮料并排放在木桌上，后方为浅灰墙面；瓶身及其原有印字共同属于照片。保留椭圆内完整摄影环境，外围沿窗口有断续白色手绘虚线，不沿瓶身去背景，边界无透明渐隐。"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        279,
+        37,
+        382,
+        119
+      ],
+      "description": "左上方白色手绘闪光装饰，包括两枚斜向四角星、内部排线及周围短小光芒，作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_my_life",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        148,
+        337,
+        188
+      ],
+      "description": "白色空心手绘“MY LIFE”艺术字，字母大小、轮廓与间距不完全规则，保留原有笔画造型。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        721,
+        101,
+        883,
+        198
+      ],
+      "description": "右上方白色手绘音乐装饰，包含两枚不同形态的音符及周围圆点，整体保留其相对位置和不规则笔触。"
+    },
+    {
+      "id": "overlay_face",
+      "kind": "overlay",
+      "bbox": [
+        723,
+        194,
+        877,
+        299
+      ],
+      "description": "右上方白色线描卡通头像，人物闭眼微笑并用手托脸，保留头发、五官和手部相连的完整轮廓。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        791,
+        304,
+        881,
+        364
+      ],
+      "description": "斜贴在甜点照片右上角的浅米色胶带，保留不规则撕边、纸质纹理和细微阴影。"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        389,
+        174,
+        534
+      ],
+      "description": "左侧纵向排列的白色手绘水滴组合，包含数枚大小不同的空心水滴，整体保留。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        570,
+        234,
+        647
+      ],
+      "description": "斜跨左下炸物照片顶部的细长金属回形针装饰，保留双层弯折轮廓、金属明暗和透明空隙。"
+    },
+    {
+      "id": "overlay_bear_top",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        546,
+        829,
+        569
+      ],
+      "description": "位于毛绒熊照片上沿附近的一排白色手绘装饰，包含旋涡、星形、小爱心和圆形笑脸，作为完整横向花边保留。"
+    },
+    {
+      "id": "overlay_bear_bottom",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        726,
+        953,
+        754
+      ],
+      "description": "位于毛绒熊照片下沿的一排白色手绘小图案，包含圆点、旋涡、星形、爱心与笑脸，保留原有间距和笔触。"
+    },
+    {
+      "id": "overlay_trees",
+      "kind": "overlay",
+      "bbox": [
+        229,
+        798,
+        406,
+        895
+      ],
+      "description": "左下方两棵白色手绘卡通树及脚边小草组成的装饰，树冠内有空心圆点，树干与草丛一并保留。"
+    },
+    {
+      "id": "overlay_cozy_day",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        839,
+        858,
+        920
+      ],
+      "description": "右下方两行白色空心手绘“COZY DAY”艺术字，左侧部分被椭圆饮料照片遮挡，保留可见字母的独特轮廓与错落排版。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "photo_pastries",
+    "photo_drinks",
+    "frame_notebook",
+    "photo_dessert",
+    "photo_bear",
+    "photo_snack",
+    "overlay_sparkles",
+    "overlay_my_life",
+    "overlay_music",
+    "overlay_face",
+    "overlay_tape",
+    "overlay_drops",
+    "overlay_clip",
+    "overlay_bear_top",
+    "overlay_bear_bottom",
+    "overlay_trees",
+    "overlay_cozy_day",
+    "photo_bottles"
+  ]
+}

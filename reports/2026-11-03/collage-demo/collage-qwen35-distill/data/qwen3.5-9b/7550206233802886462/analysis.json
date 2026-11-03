@@ -1,0 +1,315 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "深棕色渐变背景，带有星星、蝴蝶、纸胶带、回形针、复古相机、猫、钢琴等装饰元素，整体呈现拼贴风格；中央人物照片覆盖部分背景，背景延伸至画布四边。",
+      "background_type": "photo",
+      "label": "深棕色渐变背景，带有星星、蝴蝶、纸胶带、回形针、复古相机、猫",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        153,
+        153,
+        747,
+        747
+      ],
+      "description": "中央人物半身照，身穿棕色外套、黑白条纹衬衫，手托脸颊微笑，背景为室内环境，显示区域为不规则形状，覆盖部分背景装饰。",
+      "label": "中央人物半身照，身穿棕色外套、黑白条纹衬衫，手托脸颊微笑，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        135,
+        198,
+        315,
+        432
+      ],
+      "description": "左侧人物半身照，身穿棕色外套、黑白条纹衬衫，手托脸颊微笑，背景为室内环境，显示区域为矩形，被中央照片部分遮挡。",
+      "label": "左侧人物半身照，身穿棕色外套、黑白条纹衬衫，手托脸颊微笑，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        585,
+        198,
+        765,
+        432
+      ],
+      "description": "右侧人物半身照，身穿棕色外套、黑白条纹衬衫，手托脸颊微笑，背景为室内环境，显示区域为矩形，被中央照片部分遮挡。",
+      "label": "右侧人物半身照，身穿棕色外套、黑白条纹衬衫，手托脸颊微笑，背",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        351,
+        198,
+        432
+      ],
+      "description": "一只橘白相间的猫，位于左侧照片下方，作为独立装饰元素保留。",
+      "label": "一只橘白相间的猫，位于左侧照片下方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_camera_left",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        522,
+        126,
+        594
+      ],
+      "description": "复古相机图案，位于左下角，作为独立装饰元素保留。",
+      "label": "复古相机图案，位于左下角，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_radio_right",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        342,
+        792,
+        414
+      ],
+      "description": "复古收音机图案，位于右侧照片下方，作为独立装饰元素保留。",
+      "label": "复古收音机图案，位于右侧照片下方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_piano_right",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        378,
+        765,
+        468
+      ],
+      "description": "钢琴图案，位于右侧照片下方，作为独立装饰元素保留。",
+      "label": "钢琴图案，位于右侧照片下方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "金色星星图案，散布于整个背景，作为独立装饰元素保留。",
+      "label": "金色星星图案，散布于整个背景，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterflies",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        234,
+        153,
+        288
+      ],
+      "description": "蝴蝶图案，位于左侧照片上方，作为独立装饰元素保留。",
+      "label": "蝴蝶图案，位于左侧照片上方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterflies_right",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        234,
+        801,
+        288
+      ],
+      "description": "蝴蝶图案，位于右侧照片上方，作为独立装饰元素保留。",
+      "label": "蝴蝶图案，位于右侧照片上方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_left",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        198,
+        252,
+        225
+      ],
+      "description": "纸胶带图案，位于左侧照片上方，作为独立装饰元素保留。",
+      "label": "纸胶带图案，位于左侧照片上方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_right",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        198,
+        702,
+        225
+      ],
+      "description": "纸胶带图案，位于右侧照片上方，作为独立装饰元素保留。",
+      "label": "纸胶带图案，位于右侧照片上方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paperclip_left",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        432,
+        144,
+        468
+      ],
+      "description": "回形针图案，位于左侧照片下方，作为独立装饰元素保留。",
+      "label": "回形针图案，位于左侧照片下方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paperclip_right",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        378,
+        774,
+        414
+      ],
+      "description": "回形针图案，位于右侧照片下方，作为独立装饰元素保留。",
+      "label": "回形针图案，位于右侧照片下方，作为独立装饰元素保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        234,
+        405,
+        342,
+        432
+      ],
+      "description": "you keep ending up\nin my shaking hands.",
+      "label": "you keep ending up\nin my shaki",
+      "method": "local",
+      "text": "you keep ending up\nin my shaking hands.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        612,
+        405,
+        720,
+        432
+      ],
+      "description": "I have buried you\nin every place.",
+      "label": "I have buried you\nin every pla",
+      "method": "local",
+      "text": "I have buried you\nin every place.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        54,
+        648,
+        162,
+        666
+      ],
+      "description": "Kim Minkyu",
+      "label": "Kim Minkyu",
+      "method": "local",
+      "text": "Kim Minkyu",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        738,
+        648,
+        846,
+        666
+      ],
+      "description": "20010312",
+      "label": "20010312",
+      "method": "local",
+      "text": "20010312",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_left",
+    "photo_right",
+    "photo_main",
+    "overlay_cat",
+    "overlay_camera_left",
+    "overlay_radio_right",
+    "overlay_piano_right",
+    "overlay_stars",
+    "overlay_butterflies",
+    "overlay_butterflies_right",
+    "overlay_tape_left",
+    "overlay_tape_right",
+    "overlay_paperclip_left",
+    "overlay_paperclip_right",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

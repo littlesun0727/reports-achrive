@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        345
+      ],
+      "description": "雪山远景照片，包含蓝天、白云和覆盖积雪的陡峭山峰，画面清晰，占据画布上部区域。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        345,
+        1000,
+        655
+      ],
+      "description": "人物近景照片，前景为戴白色毛线帽和白色羽绒服的女性，背景有树林、其他游客和木质栏杆，画面底部有白色渐变遮罩。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        655,
+        1000,
+        1000
+      ],
+      "description": "雪山远景照片，展示连绵的雪山山脉和山谷，画面底部有深色山体，右下角有小红书水印。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

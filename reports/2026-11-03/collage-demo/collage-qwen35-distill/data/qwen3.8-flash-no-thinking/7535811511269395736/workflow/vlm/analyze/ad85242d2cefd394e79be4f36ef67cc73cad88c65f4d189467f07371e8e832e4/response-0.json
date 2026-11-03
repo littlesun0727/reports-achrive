@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-36983b01-accd-9fed-a27f-4e948a41c853",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7953,
+    "completion_tokens": 1006,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1006
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的室内摄影底图，画面主体为一名长发女子坐在地上对着镜子自拍，身穿灰色毛衣和拼布牛仔裤。背景包含木质书桌、置物架及化妆品等环境元素。该照片完整覆盖画布四边，作为底层承载所有装饰元素。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        1000\n      ],\n      \"description\": \"散布在画面各处的黄色五角星贴纸装饰，带有白色描边，位于人物和家具之上。\"\n    },\n    {\n      \"id\": \"overlay_star_text\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        265,\n        280,\n        475\n      ],\n      \"description\": \"左侧由细小文字排列组成的巨大空心星星图案，具有独特的排版设计感。\"\n    },\n    {\n      \"id\": \"frame_photo_1\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        490,\n        600,\n        735,\n        740\n      ],\n      \"description\": \"中间偏右位置的一张拍立得风格相纸，带有白色边框，框内是一张女子的面部特写照片。\",\n      \"photo_id\": [\n        \"photo_inset_1\"\n      ]\n    },\n    {\n      \"id\": \"photo_inset_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        610,\n        725,\n        730\n      ],\n      \"description\": \"嵌入在相纸框内的照片，显示一名短发女子正对镜头的面部特写，背景可见门框。\"\n    },\n    {\n      \"id\": \"frame_photo_2\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        650,\n        670,\n        925,\n        920\n      ],\n      \"description\": \"右下角的一张拍立得风格相纸，带有白色边框，框内是一张女子坐姿自拍的全身照。\",\n      \"photo_id\": [\n        \"photo_inset_2\"\n      ]\n    },\n    {\n      \"id\": \"photo_inset_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        660,\n        680,\n        915,\n        910\n      ],\n      \"description\": \"嵌入在相纸框内的照片，显示一名女子坐在地上手持手机自拍，穿着与主图相同的服装。\"\n    },\n    {\n      \"id\": \"text_speech_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        690,\n        145,\n        870,\n        235\n      ],\n      \"text\": \"역시 근황카가요?\\n강아지에게\\n좋아한다는 말을 들으면\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_speech_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        840,\n        820,\n        980,\n        880\n      ],\n      \"text\": \"뭔가가\\n그려워지는데.\",\n      \"color\": \"#000000\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_stars\",\n    \"overlay_star_text\",\n    \"frame_photo_1\",\n    \"photo_inset_1\",\n    \"frame_photo_2\",\n    \"photo_inset_2\",\n    \"text_speech_1\",\n    \"text_speech_2\"\n  ]\n}",
+  "tool_calls": false
+}

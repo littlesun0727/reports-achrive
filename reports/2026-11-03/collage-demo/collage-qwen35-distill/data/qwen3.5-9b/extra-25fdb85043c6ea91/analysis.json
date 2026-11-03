@@ -1,0 +1,190 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "舞台上的歌手，身穿浅灰色连帽衫，头戴灰色毛绒帽，手持麦克风演唱。背景为蓝色条纹LED屏幕，可见舞台灯光设备。",
+      "background_type": "photo",
+      "label": "舞台上的歌手，身穿浅灰色连帽衫，头戴灰色毛绒帽，手持麦克风演",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_inset_1",
+      "kind": "photo",
+      "bbox": [
+        65,
+        134,
+        356,
+        634
+      ],
+      "description": "左上角椭圆形内嵌照片，显示歌手侧脸特写，手持麦克风，背景为蓝色条纹。",
+      "label": "左上角椭圆形内嵌照片，显示歌手侧脸特写，手持麦克风，背景为蓝",
+      "method": "local"
+    },
+    {
+      "id": "photo_inset_2",
+      "kind": "photo",
+      "bbox": [
+        540,
+        1344,
+        1037,
+        1901
+      ],
+      "description": "右下角矩形内嵌照片，显示歌手正面特写，手持麦克风，背景为蓝色条纹。",
+      "label": "右下角矩形内嵌照片，显示歌手正面特写，手持麦克风，背景为蓝色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        788,
+        480,
+        875,
+        576
+      ],
+      "description": "右上角白色五角星装饰。",
+      "label": "右上角白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        614,
+        983,
+        710
+      ],
+      "description": "右侧中部白色五角星装饰。",
+      "label": "右侧中部白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        1344,
+        130,
+        1440
+      ],
+      "description": "左下角白色五角星装饰。",
+      "label": "左下角白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_1",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        634,
+        140,
+        730
+      ],
+      "description": "左侧中部白色螺旋装饰。",
+      "label": "左侧中部白色螺旋装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_2",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        384,
+        983,
+        480
+      ],
+      "description": "右侧上部白色螺旋装饰。",
+      "label": "右侧上部白色螺旋装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        1286,
+        605,
+        1402
+      ],
+      "description": "中间偏下位置的白色卡通小狗贴纸。",
+      "label": "中间偏下位置的白色卡通小狗贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bubble_1",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        192,
+        1004,
+        384
+      ],
+      "description": "右上角对话气泡，内含韩文“사랑해♡”。",
+      "label": "右上角对话气泡，内含韩文“사랑해♡”。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bubble_2",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        1536,
+        432,
+        1766
+      ],
+      "description": "左下角对话气泡，内含中文“听到blue我就能原谅世界一切”。",
+      "label": "左下角对话气泡，内含中文“听到blue我就能原谅世界一切”。",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        432,
+        58,
+        864,
+        134
+      ],
+      "description": "Soft clouds",
+      "label": "Soft clouds",
+      "method": "local",
+      "text": "Soft clouds",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_inset_1",
+    "photo_inset_2",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_spiral_1",
+    "overlay_spiral_2",
+    "overlay_dog",
+    "text_bubble_1",
+    "text_bubble_2",
+    "text_top"
+  ]
+}

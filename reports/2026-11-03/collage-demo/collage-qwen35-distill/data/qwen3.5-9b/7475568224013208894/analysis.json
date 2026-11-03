@@ -1,0 +1,209 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_sand",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "沙滩场景摄影底图，包含沙丘、脚印、沙画和人物俯身动作，完整显示区域延伸至画布四边；上层照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "沙滩场景摄影底图，包含沙丘、脚印、沙画和人物俯身动作，完整显",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        64,
+        141,
+        346,
+        324
+      ],
+      "description": "左上人物照片，女孩戴口罩坐在木栏杆旁，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左上人物照片，女孩戴口罩坐在木栏杆旁，保留照片内的摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        416,
+        230,
+        832,
+        470
+      ],
+      "description": "右上人物背影照片，女孩站在海边沙滩上，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右上人物背影照片，女孩站在海边沙滩上，保留照片内的摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        31,
+        534,
+        317,
+        902
+      ],
+      "description": "左下风景照片，椰树与海景，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左下风景照片，椰树与海景，保留照片内的摄影环境，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        424,
+        866,
+        677,
+        1109
+      ],
+      "description": "右下人物照片，女孩躺在窗边，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右下人物照片，女孩躺在窗边，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_sand_art",
+      "kind": "photo",
+      "bbox": [
+        578,
+        458,
+        821,
+        722
+      ],
+      "description": "右下沙画照片，沙滩上画有星星图案，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右下沙画照片，沙滩上画有星星图案，保留照片内的摄影环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "overlay_teardrop_1",
+      "kind": "overlay",
+      "bbox": [
+        308,
+        58,
+        389,
+        242
+      ],
+      "description": "蓝色水滴形状装饰，位于左上照片右侧，作为独立固定装饰保留。",
+      "label": "蓝色水滴形状装饰，位于左上照片右侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_teardrop_2",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        206,
+        488,
+        338
+      ],
+      "description": "蓝色水滴形状装饰，位于右上照片左侧，作为独立固定装饰保留。",
+      "label": "蓝色水滴形状装饰，位于右上照片左侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        245,
+        458,
+        362,
+        602
+      ],
+      "description": "黄色太阳形状装饰，位于左下照片上方，作为独立固定装饰保留。",
+      "label": "黄色太阳形状装饰，位于左下照片上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        470,
+        110,
+        602
+      ],
+      "description": "蓝色星星形状装饰，位于左下照片左侧，作为独立固定装饰保留。",
+      "label": "蓝色星星形状装饰，位于左下照片左侧，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rose",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        422,
+        659,
+        530
+      ],
+      "description": "蓝色玫瑰形状装饰，位于右上照片下方，作为独立固定装饰保留。",
+      "label": "蓝色玫瑰形状装饰，位于右上照片下方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        710,
+        632,
+        806
+      ],
+      "description": "蓝色心形装饰，位于右下照片上方，作为独立固定装饰保留。",
+      "label": "蓝色心形装饰，位于右下照片上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_squares",
+      "kind": "overlay",
+      "bbox": [
+        281,
+        902,
+        425,
+        998
+      ],
+      "description": "蓝色方格图案装饰，位于左下照片下方，作为独立固定装饰保留。",
+      "label": "蓝色方格图案装饰，位于左下照片下方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circles",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        902,
+        893,
+        1046
+      ],
+      "description": "蓝色圆形图案装饰，位于右下照片右侧，作为独立固定装饰保留。",
+      "label": "蓝色圆形图案装饰，位于右下照片右侧，作为独立固定装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_sand",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_sand_art",
+    "overlay_teardrop_1",
+    "overlay_teardrop_2",
+    "overlay_sun",
+    "overlay_star",
+    "overlay_rose",
+    "overlay_heart",
+    "overlay_squares",
+    "overlay_circles"
+  ]
+}

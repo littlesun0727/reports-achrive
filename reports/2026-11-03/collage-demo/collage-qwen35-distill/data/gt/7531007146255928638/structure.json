@@ -1,0 +1,107 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "green_paper",
+    "description": "全画布连续的绿色纸张纹理底图，具有浅绿至深绿的柔和色彩变化及细密颗粒；四边与照片间隙均可见，保留纹理与明暗变化，不包含独立照片、文字和卡片。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        139,
+        133,
+        614,
+        604
+      ],
+      "description": "竖幅户外自拍，一位黑色长发编辫的女性穿深蓝外套，面对镜头眨眼，呈半身近景；保留身后的树叶、阳光和栏杆。矩形显示窗口，右上部被四叶草横向照片遮挡，右下部被另一张人物照片遮挡。"
+    },
+    {
+      "id": "photo_clover_square",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        70,
+        225,
+        188
+      ],
+      "description": "左上浅白底绿色四叶草小卡是固定主题装饰；保留完整卡片、单株叶片、细茎和柔和边缘，不随客户人物照片替换。"
+    },
+    {
+      "id": "photo_clover_row",
+      "kind": "overlay",
+      "bbox": [
+        599,
+        284,
+        931,
+        447
+      ],
+      "description": "右侧横向四叶草标本卡为固定主题装饰，保留浅色纸面、多株压制四叶草及下方手写字样“Am I the luckiest girl or what?!”；整张卡固定保留，不作为客户照片窗口替换。"
+    },
+    {
+      "id": "text_upper",
+      "kind": "text",
+      "bbox": [
+        574,
+        197,
+        923,
+        231
+      ],
+      "text": "Cut film strips held more\ntruth than the final reel.",
+      "color": "#465445",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        240,
+        642,
+        556,
+        677
+      ],
+      "text": "\"Vintage flashbulbs startled\n1920s dust awake\"",
+      "color": "#66795D",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_love_card",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        702,
+        428,
+        892
+      ],
+      "description": "白色圆角祝福卡片，含左上与右下两簇绿色四叶草及浅绿色衬线字“love blooms like a cherished four-leaf clover, a rare and beautiful treasure.”；叶片与文字相叠，文字、叶片、圆角底板及柔和边缘作为完整固定设计保留。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        514,
+        540,
+        909,
+        915
+      ],
+      "description": "竖幅户外女性半身肖像，黑色披发被风吹动，穿深色衣服并搭浅灰围巾，身体略侧向、面部朝镜头；保留明亮树叶背景。矩形窗口边缘清晰，覆盖上方人物照片的右下角及中部文字右端。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_clover_square",
+    "photo_clover_row",
+    "text_upper",
+    "text_middle",
+    "overlay_love_card",
+    "photo_lower"
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影画面承载全画布，主体为一名背对镜头、身穿蓝色斗篷的白发人物。环境包含上方波光粼粼的水面或天空、下方茂密的草地以及漂浮的金鱼和光斑。该底图延伸至画布四边，位于所有独立对象（如电视机）下方，需整体替换以保留构图氛围。",
+      "background_type": "photo",
+      "label": "一张连续的摄影画面承载全画布，主体为一名背对镜头、身穿蓝色斗",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_tv_top_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        114,
+        241,
+        462
+      ],
+      "description": "左上角倾斜放置的黑色老式电视机外壳，具有厚实的边框和屏幕反光质感，作为固定装饰单元保留。",
+      "photo_id": [
+        "photo_screen_top_left"
+      ],
+      "label": "左上角倾斜放置的黑色老式电视机外壳，具有厚实的边框和屏幕反光",
+      "method": "extract"
+    },
+    {
+      "id": "photo_screen_top_left",
+      "kind": "photo",
+      "bbox": [
+        9,
+        126,
+        216,
+        360
+      ],
+      "description": "位于左上角电视机内的游戏场景截图，显示两个穿着红色斗篷的角色在夕阳下的草地上互动。",
+      "label": "位于左上角电视机内的游戏场景截图，显示两个穿着红色斗篷的角色",
+      "method": "local"
+    },
+    {
+      "id": "frame_tv_top_right",
+      "kind": "frame",
+      "bbox": [
+        634,
+        120,
+        900,
+        456
+      ],
+      "description": "右上角倾斜放置的黑色老式电视机外壳，与左侧电视风格一致，具有明显的立体感。",
+      "photo_id": [
+        "photo_screen_top_right"
+      ],
+      "label": "右上角倾斜放置的黑色老式电视机外壳，与左侧电视风格一致，具有",
+      "method": "extract"
+    },
+    {
+      "id": "photo_screen_top_right",
+      "kind": "photo",
+      "bbox": [
+        670,
+        132,
+        882,
+        342
+      ],
+      "description": "位于右上角电视机内的游戏场景截图，显示两个角色站在金黄色的沙地或草地上。",
+      "label": "位于右上角电视机内的游戏场景截图，显示两个角色站在金黄色的沙",
+      "method": "local"
+    },
+    {
+      "id": "frame_tv_mid_right",
+      "kind": "frame",
+      "bbox": [
+        698,
+        462,
+        900,
+        714
+      ],
+      "description": "右侧中部悬浮的黑色老式电视机外壳，角度略微向下倾斜。",
+      "photo_id": [
+        "photo_screen_mid_right"
+      ],
+      "label": "右侧中部悬浮的黑色老式电视机外壳，角度略微向下倾斜。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_screen_mid_right",
+      "kind": "photo",
+      "bbox": [
+        724,
+        480,
+        882,
+        642
+      ],
+      "description": "位于右侧中部电视机内的游戏场景截图，显示两个戴着花环的角色并排站立。",
+      "label": "位于右侧中部电视机内的游戏场景截图，显示两个戴着花环的角色并",
+      "method": "local"
+    },
+    {
+      "id": "frame_tv_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        630,
+        292,
+        960
+      ],
+      "description": "左下角放置在草地上的黑色老式电视机外壳，正面朝向观众略偏右。",
+      "photo_id": [
+        "photo_screen_bottom_left"
+      ],
+      "label": "左下角放置在草地上的黑色老式电视机外壳，正面朝向观众略偏右。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_screen_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        678,
+        148,
+        888
+      ],
+      "description": "位于左下角电视机内的游戏场景截图，显示角色坐在紫色花海中的长椅上。",
+      "label": "位于左下角电视机内的游戏场景截图，显示角色坐在紫色花海中的长",
+      "method": "local"
+    },
+    {
+      "id": "frame_tv_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        454,
+        798,
+        855,
+        1122
+      ],
+      "description": "右下角放置在草地上的黑色老式电视机外壳，部分被前景遮挡。",
+      "photo_id": [
+        "photo_screen_bottom_right"
+      ],
+      "label": "右下角放置在草地上的黑色老式电视机外壳，部分被前景遮挡。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_screen_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        490,
+        858,
+        662,
+        1086
+      ],
+      "description": "位于右下角电视机内的游戏场景截图，显示两个角色在夜晚的森林背景中阅读。",
+      "label": "位于右下角电视机内的游戏场景截图，显示两个角色在夜晚的森林背",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_tv_top_left",
+    "photo_screen_top_left",
+    "frame_tv_top_right",
+    "photo_screen_top_right",
+    "frame_tv_mid_right",
+    "photo_screen_mid_right",
+    "frame_tv_bottom_left",
+    "photo_screen_bottom_left",
+    "frame_tv_bottom_right",
+    "photo_screen_bottom_right"
+  ]
+}

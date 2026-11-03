@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-81e2a829925b1906",
+  "model": "Qwen3.5-4B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7356,
+    "completion_tokens": 409,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"蓝色天空背景，带有黑色电线，构成连续摄影底图，完整显示区域延伸至画布四边；上层文字和照片遮挡局部，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        48,\n        19,\n        538,\n        958\n      ],\n      \"text\": \"My\\nLife\\nis\\nOrdinary\\nbut Shining\\nLive\\na Slow\\nand\\nConcrete\\nLife\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_balloon\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        528,\n        347,\n        909,\n        742\n      ],\n      \"description\": \"手持粉色星星气球的照片，包含手部、气球和背景，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_tape\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        608,\n        325,\n        847,\n        378\n      ],\n      \"description\": \"透明胶带，贴在照片左上角，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"text_1\",\n    \"photo_balloon\",\n    \"overlay_tape\"\n  ]\n}",
+  "tool_calls": false
+}

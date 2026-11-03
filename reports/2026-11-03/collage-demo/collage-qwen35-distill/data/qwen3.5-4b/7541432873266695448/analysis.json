@@ -1,0 +1,340 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "车内视角的连续摄影底图，可见车窗外的树木、路面标线及车内仪表台，完整显示区域延伸至画布四边；上层拼贴照片、贴纸和文字遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "车内视角的连续摄影底图，可见车窗外的树木、路面标线及车内仪表",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_croissant",
+      "kind": "photo",
+      "bbox": [
+        74,
+        259,
+        286,
+        450
+      ],
+      "description": "左上角食物照片，展示牛角包、酱料和餐垫，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左上角食物照片，展示牛角包、酱料和餐垫，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        315,
+        120,
+        590,
+        346
+      ],
+      "description": "顶部饮品照片，展示粉色甜点与玻璃杯，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "顶部饮品照片，展示粉色甜点与玻璃杯，保留照片内的摄影环境，显",
+      "method": "local"
+    },
+    {
+      "id": "photo_pancake",
+      "kind": "photo",
+      "bbox": [
+        574,
+        442,
+        772,
+        654
+      ],
+      "description": "右侧食物照片，展示甜点，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右侧食物照片，展示甜点，保留照片内的摄影环境，显示区域为矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_snack",
+      "kind": "photo",
+      "bbox": [
+        48,
+        720,
+        335,
+        934
+      ],
+      "description": "左下角食物照片，展示手持零食包装，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左下角食物照片，展示手持零食包装，保留照片内的摄影环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_bear",
+      "kind": "photo",
+      "bbox": [
+        670,
+        736,
+        821,
+        870
+      ],
+      "description": "右侧小熊照片，展示毛绒玩具，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右侧小熊照片，展示毛绒玩具，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks_bottom",
+      "kind": "photo",
+      "bbox": [
+        412,
+        882,
+        680,
+        1122
+      ],
+      "description": "底部饮品照片，展示三瓶饮料，保留照片内的摄影环境，显示区域为圆形。",
+      "label": "底部饮品照片，展示三瓶饮料，保留照片内的摄影环境，显示区域为",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        207,
+        372,
+        540,
+        810
+      ],
+      "description": "中央人物照片，展示女性手持玩偶，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "中央人物照片，展示女性手持玩偶，保留照片内的摄影环境，显示区",
+      "method": "local"
+    },
+    {
+      "id": "frame_croissant",
+      "kind": "frame",
+      "bbox": [
+        61,
+        246,
+        299,
+        463
+      ],
+      "description": "围绕左上角食物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_croissant"
+      ],
+      "label": "围绕左上角食物照片的白色虚线框，覆盖照片边缘并位于照片上方，",
+      "method": "extract"
+    },
+    {
+      "id": "frame_drinks",
+      "kind": "frame",
+      "bbox": [
+        306,
+        114,
+        598,
+        358
+      ],
+      "description": "围绕顶部饮品照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_drinks"
+      ],
+      "label": "围绕顶部饮品照片的白色虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    },
+    {
+      "id": "frame_pancake",
+      "kind": "frame",
+      "bbox": [
+        562,
+        430,
+        781,
+        666
+      ],
+      "description": "围绕右侧食物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_pancake"
+      ],
+      "label": "围绕右侧食物照片的白色虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    },
+    {
+      "id": "frame_snack",
+      "kind": "frame",
+      "bbox": [
+        40,
+        708,
+        340,
+        946
+      ],
+      "description": "围绕左下角食物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_snack"
+      ],
+      "label": "围绕左下角食物照片的白色虚线框，覆盖照片边缘并位于照片上方，",
+      "method": "extract"
+    },
+    {
+      "id": "frame_drinks_bottom",
+      "kind": "frame",
+      "bbox": [
+        400,
+        870,
+        688,
+        1134
+      ],
+      "description": "围绕底部饮品照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_drinks_bottom"
+      ],
+      "label": "围绕底部饮品照片的白色虚线框，覆盖照片边缘并位于照片上方，完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        18,
+        310,
+        102
+      ],
+      "description": "顶部白色手绘星星装饰，作为独立固定单元保留。",
+      "label": "顶部白色手绘星星装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        120,
+        770,
+        234
+      ],
+      "description": "右侧白色手绘音符装饰，作为独立固定单元保留。",
+      "label": "右侧白色手绘音符装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_headphone",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        240,
+        770,
+        366
+      ],
+      "description": "右侧白色手绘耳机装饰，作为独立固定单元保留。",
+      "label": "右侧白色手绘耳机装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rain",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        462,
+        148,
+        666
+      ],
+      "description": "左侧白色手绘雨滴装饰，作为独立固定单元保留。",
+      "label": "左侧白色手绘雨滴装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tree",
+      "kind": "overlay",
+      "bbox": [
+        202,
+        954,
+        360,
+        1074
+      ],
+      "description": "底部白色手绘树木装饰，作为独立固定单元保留。",
+      "label": "底部白色手绘树木装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        954,
+        770,
+        1026
+      ],
+      "description": "右侧白色手绘小熊装饰，作为独立固定单元保留。",
+      "label": "右侧白色手绘小熊装饰，作为独立固定单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_my_life",
+      "kind": "text",
+      "bbox": [
+        76,
+        156,
+        310,
+        222
+      ],
+      "description": "MY LiFE",
+      "label": "MY LiFE",
+      "method": "local",
+      "text": "MY LiFE",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_cozy_day",
+      "kind": "text",
+      "bbox": [
+        634,
+        1020,
+        824,
+        1116
+      ],
+      "description": "COZY\nDAY",
+      "label": "COZY\nDAY",
+      "method": "local",
+      "text": "COZY\nDAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_croissant",
+    "photo_drinks",
+    "photo_pancake",
+    "photo_snack",
+    "photo_bear",
+    "photo_drinks_bottom",
+    "photo_girl",
+    "frame_croissant",
+    "frame_drinks",
+    "frame_pancake",
+    "frame_snack",
+    "frame_drinks_bottom",
+    "overlay_stars",
+    "overlay_music",
+    "overlay_headphone",
+    "overlay_rain",
+    "overlay_tree",
+    "overlay_bear",
+    "text_my_life",
+    "text_cozy_day"
+  ]
+}

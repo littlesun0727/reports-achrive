@@ -1,0 +1,179 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "雪山、草地、天空和右侧的马构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、月亮、星星和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        200,
+        20,
+        800,
+        80
+      ],
+      "text": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        300,
+        920,
+        700,
+        960
+      ],
+      "text": "在无数个瞬间里感受自己",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "moon_group",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        100,
+        850,
+        350
+      ],
+      "description": "蓝色手绘月亮周期图，包含多个黄色月亮和连接线条，位于画布中上部，压在背景之上。"
+    },
+    {
+      "id": "star",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        650,
+        600,
+        800
+      ],
+      "description": "黄色手绘星星，带有笑脸表情，位于画布中下部，压在背景之上。"
+    },
+    {
+      "id": "frame_spring",
+      "kind": "frame",
+      "bbox": [
+        50,
+        600,
+        250,
+        850
+      ],
+      "description": "蓝色手绘边框，上方有“Spring”字样，框内为春季照片。",
+      "photo_id": [
+        "photo_spring"
+      ]
+    },
+    {
+      "id": "photo_spring",
+      "kind": "photo",
+      "bbox": [
+        60,
+        610,
+        240,
+        840
+      ],
+      "description": "春季照片，人物站在木栅栏旁，背景为红色植被，位于左下角。"
+    },
+    {
+      "id": "frame_summer",
+      "kind": "frame",
+      "bbox": [
+        150,
+        400,
+        350,
+        600
+      ],
+      "description": "蓝色手绘边框，上方有“Summer”字样，框内为夏季照片。",
+      "photo_id": [
+        "photo_summer"
+      ]
+    },
+    {
+      "id": "photo_summer",
+      "kind": "photo",
+      "bbox": [
+        160,
+        410,
+        340,
+        590
+      ],
+      "description": "夏季照片，人物坐在水边，背景为城市天际线和日落，位于中左部。"
+    },
+    {
+      "id": "frame_autumn",
+      "kind": "frame",
+      "bbox": [
+        600,
+        350,
+        800,
+        550
+      ],
+      "description": "蓝色手绘边框，上方有“Autumn”字样，框内为秋季照片。",
+      "photo_id": [
+        "photo_autumn"
+      ]
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        610,
+        360,
+        790,
+        540
+      ],
+      "description": "秋季照片，人物站在栏杆旁，背景为湖泊和远山，位于中右部。"
+    },
+    {
+      "id": "frame_winter",
+      "kind": "frame",
+      "bbox": [
+        750,
+        550,
+        950,
+        750
+      ],
+      "description": "蓝色手绘边框，上方有“Winter”字样，框内为冬季照片。",
+      "photo_id": [
+        "photo_winter"
+      ]
+    },
+    {
+      "id": "photo_winter",
+      "kind": "photo",
+      "bbox": [
+        760,
+        560,
+        940,
+        740
+      ],
+      "description": "冬季照片，人物坐在窗边，背景为室内植物，位于右下角。"
+    }
+  ],
+  "layer_order": [
+    "text_top",
+    "moon_group",
+    "frame_spring",
+    "photo_spring",
+    "frame_summer",
+    "photo_summer",
+    "frame_autumn",
+    "photo_autumn",
+    "star",
+    "frame_winter",
+    "photo_winter",
+    "text_bottom"
+  ]
+}

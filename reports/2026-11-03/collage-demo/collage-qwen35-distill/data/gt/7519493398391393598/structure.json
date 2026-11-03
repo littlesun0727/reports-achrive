@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "denim_background",
+    "description": "全画布为深浅蓝色牛仔布纹拼接底图，深色区域散布白色小圆点，浅蓝布块在右侧、两照片间及左下方露出；固定纹理连续承载整个版面，保留布纹、拼接结构与圆点，照片和独立星形贴饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        115,
+        74,
+        884,
+        458
+      ],
+      "description": "上方横向照片，一名长黑发、穿浅粉色上衣的女性坐在窗边，手托脸颊看向镜头，呈半身景别；保留窗外景物、窗框、窗帘、座椅、桌面饮料和书本。矩形显示边界清晰，左上及右侧局部被星形贴饰覆盖，无主体去背景。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        111,
+        536,
+        888,
+        929
+      ],
+      "description": "下方独立横向照片，一名长黑发、穿浅粉色上衣的女性坐在窗边，侧脸望向左上方，一手托着打开的书；保留窗外绿植、车窗、窗帘、深色座椅及桌面饮料。照片为清晰矩形窗口，右上与下缘局部被星形贴饰覆盖，无主体去背景。"
+    },
+    {
+      "id": "star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        23,
+        234,
+        177
+      ],
+      "description": "左上方大型五角星牛仔布贴饰，蓝色斜纹材质上布满浅色小星点，完整保留星形轮廓及布纹，叠压上方照片左上角。"
+    },
+    {
+      "id": "star_left_small",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        176,
+        118,
+        237
+      ],
+      "description": "左侧独立小五角星布贴，蓝色牛仔布质地，内部有浅色星点图案，位于上方照片左边缘附近。"
+    },
+    {
+      "id": "star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        159,
+        994,
+        287
+      ],
+      "description": "右上方五角星牛仔布贴饰，带浅色小星点纹样，左侧星角叠在上方照片右边缘，其余部分位于蓝色布纹底图上。"
+    },
+    {
+      "id": "star_middle",
+      "kind": "overlay",
+      "bbox": [
+        243,
+        458,
+        341,
+        536
+      ],
+      "description": "两张照片之间偏左的小型五角星牛仔布贴饰，带细密浅色星点，独立置于深色牛仔布底上。"
+    },
+    {
+      "id": "star_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        775,
+        472,
+        963,
+        610
+      ],
+      "description": "两张照片之间偏右的大型五角星布贴，蓝色牛仔布纹与浅色星点整体保留，下方星角覆盖下方照片右上区域。"
+    },
+    {
+      "id": "star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        253,
+        880,
+        379,
+        975
+      ],
+      "description": "底部偏左的五角星牛仔布贴饰，带浅色小星点图案，上部叠压下方照片底边，底部伸入深色布纹背景。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "star_top_left",
+    "star_left_small",
+    "star_top_right",
+    "star_middle",
+    "star_middle_right",
+    "star_bottom"
+  ]
+}

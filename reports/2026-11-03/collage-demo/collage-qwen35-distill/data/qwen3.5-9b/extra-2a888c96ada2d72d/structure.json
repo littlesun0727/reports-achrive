@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_mountains",
+    "description": "雪山全景摄影底图，包含蓝天、白云、积雪山峰、山脚树林及远处山脉，画面连续延伸至画布四边；中间人物照片遮挡部分山体和树林，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        0,
+        320,
+        1000,
+        680
+      ],
+      "description": "人物半身照片，戴白色毛线帽和白色羽绒服，位于画面中央，背景为树林和建筑，下缘有白色柔化过渡效果，遮挡部分雪山底图。"
+    },
+    {
+      "id": "text_logo",
+      "kind": "text",
+      "bbox": [
+        920,
+        910,
+        990,
+        950
+      ],
+      "text": "小红书",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_id",
+      "kind": "text",
+      "bbox": [
+        780,
+        950,
+        990,
+        970
+      ],
+      "text": "小红书号：448205581",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_person",
+    "text_logo",
+    "text_id"
+  ]
+}

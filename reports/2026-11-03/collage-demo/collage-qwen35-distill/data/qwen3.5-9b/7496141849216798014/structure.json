@@ -1,0 +1,132 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#F0F0F0"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        45,
+        65,
+        500,
+        935
+      ],
+      "description": "左侧邮票形状的照片，显示盛开的樱花树和一条小径，照片边缘有锯齿状邮票齿孔，右下角有黑色标签 '#Happy day'。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        585,
+        195,
+        755,
+        525
+      ],
+      "description": "右上方的照片，显示粉色的樱花树，照片边缘有白色边框。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        705,
+        305,
+        925,
+        665
+      ],
+      "description": "右下方的照片，显示粉色的樱花树，照片边缘有白色边框。"
+    },
+    {
+      "id": "overlay_top_numbers",
+      "kind": "overlay",
+      "bbox": [
+        605,
+        75,
+        925,
+        135
+      ],
+      "description": "顶部的一排数字和符号，包括 '5', '.', '1', '1'，每个数字或符号都在一个黑色方框内。"
+    },
+    {
+      "id": "overlay_bottom_numbers",
+      "kind": "overlay",
+      "bbox": [
+        605,
+        825,
+        725,
+        885
+      ],
+      "description": "底部的一排数字，包括 '2' 和 '5'，每个数字都在一个黑色方框内。"
+    },
+    {
+      "id": "overlay_text_1",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        535,
+        755,
+        785
+      ],
+      "description": "中间的手写风格文字，内容为 'See me or not' 等，字体为手写体，颜色为黑色。"
+    },
+    {
+      "id": "overlay_text_2",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        665,
+        925,
+        825
+      ],
+      "description": "右侧的圆形文字，内容为 'darkness for light'，字体为手写体，颜色为黑色。"
+    },
+    {
+      "id": "overlay_text_3",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        665,
+        855,
+        725
+      ],
+      "description": "右侧的数字时间 '18:45'，字体为数字样式，颜色为黑色。"
+    },
+    {
+      "id": "overlay_text_4",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        725,
+        855,
+        785
+      ],
+      "description": "右侧的签名 '— Zolombedo'，字体为手写体，颜色为黑色。"
+    },
+    {
+      "id": "overlay_text_5",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        275,
+        855,
+        305
+      ],
+      "description": "右上方的标签 '#Daily travel'，字体为手写体，颜色为黑色。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_top_right",
+    "photo_bottom_right",
+    "overlay_top_numbers",
+    "overlay_bottom_numbers",
+    "overlay_text_1",
+    "overlay_text_2",
+    "overlay_text_3",
+    "overlay_text_4",
+    "overlay_text_5"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "雨天撑伞视角的连续摄影底图，包含雨滴、伞骨、伞下地面及鞋子，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "雨天撑伞视角的连续摄影底图，包含雨滴、伞骨、伞下地面及鞋子，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        585,
+        96,
+        810,
+        288
+      ],
+      "description": "右上角绿色树叶特写照片，保留树叶及背景，左上角有米色胶带装饰。",
+      "label": "右上角绿色树叶特写照片，保留树叶及背景，左上角有米色胶带装饰",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        63,
+        900,
+        288,
+        1104
+      ],
+      "description": "左下角雨滴特写照片，保留雨滴及背景，四周有白色胶带装饰。",
+      "label": "左下角雨滴特写照片，保留雨滴及背景，四周有白色胶带装饰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_four_leaf",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        384,
+        765,
+        504
+      ],
+      "description": "绿色四叶草贴纸，中心有白色卡通形象，位于文字框右上方。",
+      "label": "绿色四叶草贴纸，中心有白色卡通形象，位于文字框右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_cn",
+      "kind": "text",
+      "bbox": [
+        180,
+        504,
+        450,
+        624
+      ],
+      "description": "消失的下雨天，\n我好想再淋一遍。",
+      "label": "消失的下雨天，\n我好想再淋一遍。",
+      "method": "local",
+      "text": "消失的下雨天，\n我好想再淋一遍。",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_en",
+      "kind": "text",
+      "bbox": [
+        450,
+        720,
+        810,
+        780
+      ],
+      "description": "Disappearing rainy days,\nI want to get wet for another day.",
+      "label": "Disappearing rainy days,\nI wan",
+      "method": "local",
+      "text": "Disappearing rainy days,\nI want to get wet for another day.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_rainy",
+      "kind": "text",
+      "bbox": [
+        117,
+        936,
+        225,
+        984
+      ],
+      "description": "Rainy",
+      "label": "Rainy",
+      "method": "local",
+      "text": "Rainy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        840,
+        855,
+        1020
+      ],
+      "description": "白色水滴装饰，分布在照片下方区域，独立于摄影内容。",
+      "label": "白色水滴装饰，分布在照片下方区域，独立于摄影内容。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_right",
+    "photo_bottom_left",
+    "overlay_four_leaf",
+    "text_cn",
+    "text_en",
+    "text_rainy",
+    "overlay_drops"
+  ]
+}

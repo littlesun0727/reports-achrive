@@ -1,0 +1,113 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_paper",
+    "description": "全画布连续的浅灰白纸纹底图，带细密颗粒、浅灰星形和散落圆点，四边与对象间隙均可见一致材质。保留纸纹及底图印花，独立照片、窗口框体、文字与播放标签不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "frame_dialog",
+      "kind": "frame",
+      "bbox": [
+        145,
+        297,
+        889,
+        722
+      ],
+      "description": "银灰色仿文件打开对话框，承载一个大照片窗口。完整保留圆角外壳、立体阴影、导航按钮、侧栏图标、分隔线及 Open、Documents、Files、Calendar、Document、Network、Links、Pictures、Desktop、Name、Date、Cancel 等界面印字；左下局部被邮票照片卡遮挡。",
+      "photo_id": [
+        "photo_large"
+      ]
+    },
+    {
+      "id": "photo_large",
+      "kind": "photo",
+      "bbox": [
+        398,
+        430,
+        865,
+        670
+      ],
+      "description": "横向矩形照片，一名戴黑框眼镜和蕾丝头饰、穿浅色羽绒服的短发人物，俯拍近景，面朝镜头，头部居上、衣服占据下半部。保留身后的深色横条结构及地面摄影环境，四边由文件窗口裁切，无沿人物轮廓去背景。"
+    },
+    {
+      "id": "frame_stamp",
+      "kind": "frame",
+      "bbox": [
+        83,
+        630,
+        306,
+        847
+      ],
+      "description": "左下竖向白色邮票式照片纸框，四周有连续齿孔轮廓和细灰边线，底部留有较宽白边，整体覆盖文件对话框左下角；照片内口独立替换。",
+      "photo_id": [
+        "photo_small"
+      ]
+    },
+    {
+      "id": "photo_small",
+      "kind": "photo",
+      "bbox": [
+        101,
+        642,
+        290,
+        811
+      ],
+      "description": "竖向矩形照片，一名戴黑框眼镜和蕾丝头饰、穿浅色羽绒服的人物站立望向镜头，俯拍展示头部至腿部。保留木质墙面、店铺玻璃及地面环境，与大图姿态和取景不同，作为独立照片替换。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        622,
+        261,
+        964,
+        283
+      ],
+      "text": "★ shine cute beautiful ~",
+      "color": "#111111",
+      "font": "mono",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_happiness",
+      "kind": "text",
+      "bbox": [
+        333,
+        746,
+        506,
+        766
+      ],
+      "text": "happiness! ♥",
+      "color": "#111111",
+      "font": "mono",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_audio",
+      "kind": "overlay",
+      "bbox": [
+        751,
+        728,
+        968,
+        787
+      ],
+      "description": "右下白色圆角播放标签，包含细灰外缘、轻微阴影、黑色向右播放三角和一组高低变化的黑色声波竖线，作为完整固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_dialog",
+    "photo_large",
+    "frame_stamp",
+    "photo_small",
+    "text_top",
+    "text_happiness",
+    "overlay_audio"
+  ]
+}

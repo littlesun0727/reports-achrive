@@ -1,0 +1,205 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续铺满画布的咖啡馆室内照片，无清晰人物，包含米色墙面、吊灯、木桌和深色木椅；四边及叠放照片间的环境连续，整体明显虚焦。上层照片与白色涂鸦遮挡局部，完整室内摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        73,
+        96,
+        550,
+        569
+      ],
+      "description": "左上竖向矩形照片，一名长发女子穿深色毛衣坐在咖啡馆木桌旁，双手交叠托着下巴并扶着书，视线朝左；桌上有咖啡杯和水杯，后方墙饰与木质家具完整保留。摄影背景可见，照片四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        628,
+        340,
+        939,
+        576
+      ],
+      "description": "右侧心形照片窗口，近景呈现木桌上的布丁甜品，顶部有奶油、樱桃和叶片，下方盛有圆粒配料，旁边可见小杯与托盘，后方保留深色座椅环境。白色手绘线沿完整心形窗口描边，属于照片边缘。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        496,
+        696,
+        951,
+        950
+      ],
+      "description": "右下横向矩形照片，一名长发女子穿深色毛衣坐在咖啡馆，抬手靠近脸颊并看向镜头，另一手在左下方扶着书；保留木桌、墙面与木质护墙背景。照片边缘清晰，左上角和右下角被胶带遮挡。"
+    },
+    {
+      "id": "spiral_top",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        69,
+        484,
+        121
+      ],
+      "description": "上方白色粉笔质感螺旋涂鸦，局部跨在左上照片顶边，保留不规则笔触。"
+    },
+    {
+      "id": "spiral_left",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        370,
+        108,
+        410
+      ],
+      "description": "左侧跨越照片边缘的白色小螺旋涂鸦，保留粗糙手绘线条。"
+    },
+    {
+      "id": "spiral_middle",
+      "kind": "overlay",
+      "bbox": [
+        423,
+        537,
+        493,
+        592
+      ],
+      "description": "左上照片右下角的白色螺旋涂鸦，跨越照片底边，保留完整旋转线条。"
+    },
+    {
+      "id": "cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        627,
+        113,
+        977,
+        295
+      ],
+      "description": "右上白色粉笔涂鸦组合，包括带光环的猫咪轮廓、表情、尾部卷线，以及周围星星、爱心、小圆点与十字闪光；作为完整局部装饰保留。"
+    },
+    {
+      "id": "bow_upper",
+      "kind": "overlay",
+      "bbox": [
+        586,
+        318,
+        675,
+        417
+      ],
+      "description": "心形照片左上侧的白色细线蝴蝶结与上下小菱形闪光组合，保留完整线条。"
+    },
+    {
+      "id": "bow_lower",
+      "kind": "overlay",
+      "bbox": [
+        823,
+        522,
+        947,
+        601
+      ],
+      "description": "心形照片右下侧的白色手绘蝴蝶结及两颗菱形闪光，作为完整装饰组合保留。"
+    },
+    {
+      "id": "speech_label",
+      "kind": "overlay",
+      "bbox": [
+        208,
+        657,
+        423,
+        752
+      ],
+      "description": "白色细线手绘对话气泡，内部为不规则手写字“今日有咖”，文字与气泡外轮廓整体保留。"
+    },
+    {
+      "id": "cake_doodle",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        716,
+        392,
+        933
+      ],
+      "description": "左下白色粉笔质感甜点涂鸦，包括盘子上的分层三角蛋糕、顶部草莓和左上方叉子，保留完整线条与内部细节。"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        630,
+        153,
+        663
+      ],
+      "description": "左侧中下部独立的白色空心五角星，带粗糙手绘笔触。"
+    },
+    {
+      "id": "star_middle",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        793,
+        437,
+        824
+      ],
+      "description": "蛋糕右上侧独立的白色空心五角星涂鸦。"
+    },
+    {
+      "id": "star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        940,
+        126,
+        972
+      ],
+      "description": "画布左下方独立的白色空心五角星涂鸦。"
+    },
+    {
+      "id": "tape_upper",
+      "kind": "overlay",
+      "bbox": [
+        455,
+        669,
+        610,
+        751
+      ],
+      "description": "斜贴在右下照片左上角的半透明灰米色纸胶带，具有不规则撕裂端部及纸张纹理，覆盖照片角部并伸到外侧。"
+    },
+    {
+      "id": "tape_lower",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        891,
+        983,
+        967
+      ],
+      "description": "斜贴在右下照片右下角的半透明灰米色纸胶带，保留撕裂边缘与纸纹，跨越照片边界。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "spiral_top",
+    "spiral_left",
+    "spiral_middle",
+    "cat_doodle",
+    "bow_upper",
+    "bow_lower",
+    "speech_label",
+    "cake_doodle",
+    "star_left",
+    "star_middle",
+    "star_bottom",
+    "tape_upper",
+    "tape_lower"
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "车内视角的连续摄影底图，可见车窗外的树木、路面标线及车内仪表台，完整显示区域延伸至画布四边；上层拼贴照片、贴纸和文字遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_croissant",
+      "kind": "photo",
+      "bbox": [
+        82,
+        216,
+        318,
+        375
+      ],
+      "description": "左上角食物照片，展示牛角包、酱料和餐垫，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        350,
+        100,
+        655,
+        288
+      ],
+      "description": "顶部饮品照片，展示粉色甜点与玻璃杯，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_pancake",
+      "kind": "photo",
+      "bbox": [
+        638,
+        368,
+        858,
+        545
+      ],
+      "description": "右侧食物照片，展示甜点，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_snack",
+      "kind": "photo",
+      "bbox": [
+        53,
+        600,
+        372,
+        778
+      ],
+      "description": "左下角食物照片，展示手持零食包装，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_bear",
+      "kind": "photo",
+      "bbox": [
+        745,
+        613,
+        912,
+        725
+      ],
+      "description": "右侧小熊照片，展示毛绒玩具，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_drinks_bottom",
+      "kind": "photo",
+      "bbox": [
+        458,
+        735,
+        755,
+        935
+      ],
+      "description": "底部饮品照片，展示三瓶饮料，保留照片内的摄影环境，显示区域为圆形。"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        230,
+        310,
+        600,
+        675
+      ],
+      "description": "中央人物照片，展示女性手持玩偶，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "frame_croissant",
+      "kind": "frame",
+      "bbox": [
+        68,
+        205,
+        332,
+        386
+      ],
+      "description": "围绕左上角食物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_croissant"
+      ]
+    },
+    {
+      "id": "frame_drinks",
+      "kind": "frame",
+      "bbox": [
+        340,
+        95,
+        665,
+        298
+      ],
+      "description": "围绕顶部饮品照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_drinks"
+      ]
+    },
+    {
+      "id": "frame_pancake",
+      "kind": "frame",
+      "bbox": [
+        625,
+        358,
+        868,
+        555
+      ],
+      "description": "围绕右侧食物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_pancake"
+      ]
+    },
+    {
+      "id": "frame_snack",
+      "kind": "frame",
+      "bbox": [
+        45,
+        590,
+        378,
+        788
+      ],
+      "description": "围绕左下角食物照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_snack"
+      ]
+    },
+    {
+      "id": "frame_drinks_bottom",
+      "kind": "frame",
+      "bbox": [
+        445,
+        725,
+        765,
+        945
+      ],
+      "description": "围绕底部饮品照片的白色虚线框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_drinks_bottom"
+      ]
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        265,
+        15,
+        345,
+        85
+      ],
+      "description": "顶部白色手绘星星装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        100,
+        855,
+        195
+      ],
+      "description": "右侧白色手绘音符装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_headphone",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        200,
+        855,
+        305
+      ],
+      "description": "右侧白色手绘耳机装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_rain",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        385,
+        165,
+        555
+      ],
+      "description": "左侧白色手绘雨滴装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_tree",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        795,
+        400,
+        895
+      ],
+      "description": "底部白色手绘树木装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        795,
+        855,
+        855
+      ],
+      "description": "右侧白色手绘小熊装饰，作为独立固定单元保留。"
+    },
+    {
+      "id": "text_my_life",
+      "kind": "text",
+      "bbox": [
+        85,
+        130,
+        345,
+        185
+      ],
+      "text": "MY LiFE",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_cozy_day",
+      "kind": "text",
+      "bbox": [
+        705,
+        850,
+        915,
+        930
+      ],
+      "text": "COZY\nDAY",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_croissant",
+    "photo_drinks",
+    "photo_pancake",
+    "photo_snack",
+    "photo_bear",
+    "photo_drinks_bottom",
+    "photo_girl",
+    "frame_croissant",
+    "frame_drinks",
+    "frame_pancake",
+    "frame_snack",
+    "frame_drinks_bottom",
+    "overlay_stars",
+    "overlay_music",
+    "overlay_headphone",
+    "overlay_rain",
+    "overlay_tree",
+    "overlay_bear",
+    "text_my_life",
+    "text_cozy_day"
+  ]
+}

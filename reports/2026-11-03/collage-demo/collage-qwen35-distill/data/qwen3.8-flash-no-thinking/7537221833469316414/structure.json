@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_room",
+    "description": "连续的深色木质室内场景底图，包含木地板、木墙、右上角的椭圆挂画、右侧的向日葵花束、老式电话机以及左侧边缘的地毯。作为固定环境背景保留，承载上层照片拼贴。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        90,
+        95,
+        435,
+        495
+      ],
+      "description": "左上方的矩形照片，显示一名短发女子身穿白蓝拼接T恤，侧卧在木地板上，眼神看向镜头，身体蜷缩。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        432,
+        360,
+        950,
+        670
+      ],
+      "description": "中间偏右的横向矩形照片，特写展示女子的侧脸正在咬一个红苹果，发丝凌乱，光影柔和。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        170,
+        620,
+        865,
+        955
+      ],
+      "description": "下方的大尺寸矩形照片，显示女子躺在木质长椅上，穿着白色上衣和深蓝色短裤，双手交叠放在腹部，头枕在椅背上。"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        495,
+        290,
+        700
+      ],
+      "description": "一朵带水珠的橙色百合花素材，位于左下方，茎部向下延伸，叠加在底层背景和上方照片之间。"
+    },
+    {
+      "id": "deco_star_1",
+      "kind": "overlay",
+      "bbox": [
+        465,
+        80,
+        575,
+        160
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于顶部中间位置。"
+    },
+    {
+      "id": "deco_star_2",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        245,
+        605,
+        310
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于画面中部电话机旁。"
+    },
+    {
+      "id": "deco_star_3",
+      "kind": "overlay",
+      "bbox": [
+        770,
+        235,
+        840,
+        290
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于右上花束前方。"
+    },
+    {
+      "id": "deco_star_4",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        325,
+        970,
+        405
+      ],
+      "description": "白色的手绘风格星号涂鸦装饰，位于右侧边缘时钟附近。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_mid_right",
+    "photo_bottom",
+    "overlay_flower",
+    "deco_star_1",
+    "deco_star_2",
+    "deco_star_3",
+    "deco_star_4"
+  ]
+}

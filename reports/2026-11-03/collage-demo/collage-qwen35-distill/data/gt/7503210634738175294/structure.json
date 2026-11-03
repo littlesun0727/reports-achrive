@@ -1,0 +1,148 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "全画布复古电脑拼贴底图，上部及右侧为蓝天白云与绿地，下部混合绿色数字条纹、灰白网点和局部黑色字符。保留这些固定背景图案与纹理，独立电脑框体、窗口、人物及装饰另列，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "shutdown_window",
+      "kind": "overlay",
+      "bbox": [
+        421,
+        0,
+        724,
+        167
+      ],
+      "description": "顶部蓝色旧式系统关机窗口，含系统标志、彩色功能按钮及Cancel按钮；左侧被倾斜对话框遮挡，下缘被显示器遮挡，作为完整固定界面保留。"
+    },
+    {
+      "id": "recovery_window",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        443,
+        194
+      ],
+      "description": "左上角倾斜的灰色系统对话框，顶部和左侧超出画布，包含绿色插图区域、英文说明、单选项与底部按钮，保留界面印字、边缘和阴影。"
+    },
+    {
+      "id": "context_menu",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        253,
+        146,
+        508
+      ],
+      "description": "左侧被画布裁切的灰色右键菜单，包含Copy、Paste、Create Shortcut、Rename、Delete、Properties等条目及分隔线，上方被气泡遮挡，右侧被显示器覆盖。"
+    },
+    {
+      "id": "monitor_frame",
+      "kind": "frame",
+      "bbox": [
+        130,
+        153,
+        977,
+        735
+      ],
+      "description": "大型米灰色老式CRT显示器框体，含厚重内沿、右侧机壳、底部指示灯、按钮、支承部分和阴影。屏幕内的厨房人物画面独立替换，左下框沿被前景人物遮挡。",
+      "photo_id": [
+        "screen_photo"
+      ]
+    },
+    {
+      "id": "screen_photo",
+      "kind": "photo",
+      "bbox": [
+        195,
+        214,
+        801,
+        589
+      ],
+      "description": "显示器内独立画面：一名长棕发少女正面站在厨房中，戴白色厨师帽、穿青蓝色上衣，腰前有蛋糕；可见瓷砖、抽油烟机、水槽、橱柜与锅具。保留完整厨房环境，四周受屏幕内口裁切，左上被气泡遮挡。"
+    },
+    {
+      "id": "keyboard",
+      "kind": "overlay",
+      "bbox": [
+        333,
+        738,
+        870,
+        872
+      ],
+      "description": "显示器前方斜放的米白色老式键盘，包含键帽、紫色局部和厚底座，左侧被前景人物遮住；作为独立固定电脑配件保留。"
+    },
+    {
+      "id": "laptop",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        670,
+        528,
+        995
+      ],
+      "description": "左下角倾斜的银灰色笔记本电脑，黑色屏幕上有浅灰像素图形，底部为键盘与触控板区域；左边超出画布，大部分被前景人物遮挡，保留整个可见机身及阴影。"
+    },
+    {
+      "id": "online_bubble",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        121,
+        400,
+        335
+      ],
+      "description": "白色椭圆对话气泡，中央为蓝色柔和晕染与黑色像素字online，右下带尖尾；完整保留文字、渐变及气泡轮廓，左缘被画布裁切。"
+    },
+    {
+      "id": "foreground_photo",
+      "kind": "photo",
+      "bbox": [
+        13,
+        454,
+        490,
+        978
+      ],
+      "description": "独立真人少女全身组合，长棕发、白色厨师帽、青蓝色无袖上衣、蓝色短裙、灰色点纹长袜与运动鞋，屈膝跪坐，左手托蛋糕盘、右手持粉色锅铲。沿人物、帽子、餐盘、工具及鞋的整体轮廓去除环境，外围有宽白边及细深色线，覆盖电脑与笔记本；与屏幕内少女不是连续出框关系。"
+    },
+    {
+      "id": "color_panel",
+      "kind": "overlay",
+      "bbox": [
+        887,
+        668,
+        1000,
+        849
+      ],
+      "description": "右下侧灰色边框的颜色选择面板，内部为红黄绿蓝彩虹色渐变，右侧超出画布，下部被前方系统对话框遮挡。"
+    },
+    {
+      "id": "what_dialog",
+      "kind": "overlay",
+      "bbox": [
+        721,
+        844,
+        1000,
+        1000
+      ],
+      "description": "右下角灰色旧式系统提示框，蓝色标题栏写What，内部有小图标、Why this happen文字和一个按钮；右边及下边被画布裁切，所有界面文字与边框整体保留。"
+    }
+  ],
+  "layer_order": [
+    "shutdown_window",
+    "recovery_window",
+    "context_menu",
+    "keyboard",
+    "laptop",
+    "screen_photo",
+    "monitor_frame",
+    "online_bubble",
+    "foreground_photo",
+    "color_panel",
+    "what_dialog"
+  ]
+}

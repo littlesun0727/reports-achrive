@@ -1,0 +1,171 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    675
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        675
+      ],
+      "description": "深绿色调的模糊背景，包含模糊的窗户轮廓和植物枝叶，整体呈现连续摄影画面，作为全画布底图承载所有独立对象。",
+      "background_type": "photo",
+      "label": "深绿色调的模糊背景，包含模糊的窗户轮廓和植物枝叶，整体呈现连",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        140,
+        243,
+        462,
+        552
+      ],
+      "description": "倾斜放置的人物照片，人物为金发，身穿白色衬衫，手托脸颊，背景为车内环境，照片边缘有白色边框。",
+      "label": "倾斜放置的人物照片，人物为金发，身穿白色衬衫，手托脸颊，背景",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        447,
+        110,
+        845,
+        402
+      ],
+      "description": "倾斜放置的人物照片，人物为金发，身穿白色衬衫，手托脸颊，背景为车内环境，照片边缘有白色边框。",
+      "label": "倾斜放置的人物照片，人物为金发，身穿白色衬衫，手托脸颊，背景",
+      "method": "local"
+    },
+    {
+      "id": "flower",
+      "kind": "photo",
+      "bbox": [
+        365,
+        348,
+        660,
+        614
+      ],
+      "description": "白色百合花，花瓣舒展，花蕊清晰，位于两张人物照片下方，作为独立摄影内容。",
+      "label": "白色百合花，花瓣舒展，花蕊清晰，位于两张人物照片下方，作为独",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        58,
+        126,
+        432,
+        200
+      ],
+      "description": "Angel Energy",
+      "label": "Angel Energy",
+      "method": "local",
+      "text": "Angel Energy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        498,
+        333,
+        688,
+        448
+      ],
+      "description": "a fallen angel",
+      "label": "a fallen angel",
+      "method": "local",
+      "text": "a fallen angel",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        38,
+        90,
+        105
+      ],
+      "description": "白色四角星形装饰，位于左上角，作为独立固定装饰。",
+      "label": "白色四角星形装饰，位于左上角，作为独立固定装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        495,
+        770,
+        562
+      ],
+      "description": "白色四角星形装饰，位于右下角，作为独立固定装饰。",
+      "label": "白色四角星形装饰，位于右下角，作为独立固定装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        583,
+        800,
+        650
+      ],
+      "description": "白色四角星形装饰，位于右下角，作为独立固定装饰。",
+      "label": "白色四角星形装饰，位于右下角，作为独立固定装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        815,
+        583,
+        872,
+        650
+      ],
+      "description": "白色四角星形装饰，位于右下角，作为独立固定装饰。",
+      "label": "白色四角星形装饰，位于右下角，作为独立固定装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_left",
+    "photo_right",
+    "flower",
+    "text_1",
+    "text_2",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4"
+  ]
+}

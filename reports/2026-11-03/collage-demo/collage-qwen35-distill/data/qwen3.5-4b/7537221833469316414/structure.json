@@ -1,0 +1,177 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "深色木质墙面与地板构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、装饰和文字遮挡局部，保留木质纹理与空间结构。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        100,
+        435,
+        480
+      ],
+      "description": "左上人物半身照片，人物侧卧，保留木质背景，下缘和右缘被相邻照片遮挡。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        435,
+        358,
+        948,
+        670
+      ],
+      "description": "中央人物面部特写照片，人物吃苹果，保留部分头发与背景，左缘和上缘被相邻照片遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        172,
+        625,
+        865,
+        960
+      ],
+      "description": "下方人物躺卧照片，人物侧躺，保留木质背景，上缘被中央照片遮挡。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        82,
+        574,
+        160
+      ],
+      "description": "白色手绘星形装饰，位于画布上部中央，独立于照片。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        532,
+        245,
+        608,
+        305
+      ],
+      "description": "白色手绘星形装饰，位于画布中上部，独立于照片。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        772,
+        235,
+        840,
+        288
+      ],
+      "description": "白色手绘星形装饰，位于画布右上部，独立于照片。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        325,
+        960,
+        405
+      ],
+      "description": "白色手绘星形装饰，位于画布右侧中部，独立于照片。"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        498,
+        288,
+        698
+      ],
+      "description": "橙色百合花装饰，位于画布左侧中部，独立于照片。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        480,
+        80,
+        574,
+        160
+      ],
+      "text": "★",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        532,
+        245,
+        608,
+        305
+      ],
+      "text": "★",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        772,
+        235,
+        840,
+        288
+      ],
+      "text": "★",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        868,
+        325,
+        960,
+        405
+      ],
+      "text": "★",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_center",
+    "photo_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_flower",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

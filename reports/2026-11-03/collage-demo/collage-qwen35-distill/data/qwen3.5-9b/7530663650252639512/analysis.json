@@ -1,0 +1,204 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "米色纹理纸底，带有细微颗粒感，作为全画布固定底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "米色纹理纸底，带有细微颗粒感，作为全画布固定底图保留原样。",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        320,
+        211,
+        572,
+        468
+      ],
+      "description": "俯拍美食拼盘照片，包含披萨、炸鸡、饮料和薯条，置于黄白格纹桌布上。",
+      "label": "俯拍美食拼盘照片，包含披萨、炸鸡、饮料和薯条，置于黄白格纹桌",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        203,
+        446,
+        378,
+        612
+      ],
+      "description": "甜品与玩偶照片，包含蛋糕、饮品和卡通玩偶，置于木质桌面上。",
+      "label": "甜品与玩偶照片，包含蛋糕、饮品和卡通玩偶，置于木质桌面上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        362,
+        458,
+        540,
+        582
+      ],
+      "description": "甜点特写照片，包含蛋糕、饮品和餐具，置于深色桌面上。",
+      "label": "甜点特写照片，包含蛋糕、饮品和餐具，置于深色桌面上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        531,
+        384,
+        706,
+        600
+      ],
+      "description": "西餐拼盘照片，包含牛排、意面、沙拉和饮品，置于深色桌面上。",
+      "label": "西餐拼盘照片，包含牛排、意面、沙拉和饮品，置于深色桌面上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        158,
+        582,
+        338,
+        858
+      ],
+      "description": "早餐拼盘照片，包含煎蛋、沙拉和饮品，置于木质桌面上。",
+      "label": "早餐拼盘照片，包含煎蛋、沙拉和饮品，置于木质桌面上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        338,
+        582,
+        536,
+        858
+      ],
+      "description": "烤肉拼盘照片，包含烤肉、蔬菜和酱料，置于木质桌面上。",
+      "label": "烤肉拼盘照片，包含烤肉、蔬菜和酱料，置于木质桌面上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        536,
+        600,
+        734,
+        840
+      ],
+      "description": "水果拼盘照片，包含葡萄、冰淇淋和沙拉，置于木质桌面上。",
+      "label": "水果拼盘照片，包含葡萄、冰淇淋和沙拉，置于木质桌面上。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        168,
+        261,
+        372
+      ],
+      "description": "手绘叉子和勺子图案，位于左上角，作为独立装饰保留。",
+      "label": "手绘叉子和勺子图案，位于左上角，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl_1",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        84,
+        783,
+        144
+      ],
+      "description": "手绘螺旋图案，位于右上角，作为独立装饰保留。",
+      "label": "手绘螺旋图案，位于右上角，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl_2",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        456,
+        819,
+        552
+      ],
+      "description": "手绘螺旋图案，位于右侧中部，作为独立装饰保留。",
+      "label": "手绘螺旋图案，位于右侧中部，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl_3",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        600,
+        135,
+        780
+      ],
+      "description": "手绘螺旋图案，位于左侧中部，作为独立装饰保留。",
+      "label": "手绘螺旋图案，位于左侧中部，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        198,
+        900,
+        702,
+        1020
+      ],
+      "description": "My Daily Plog",
+      "label": "My Daily Plog",
+      "method": "local",
+      "text": "My Daily Plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "overlay_fork",
+    "overlay_swirl_1",
+    "overlay_swirl_2",
+    "overlay_swirl_3",
+    "text_1"
+  ]
+}

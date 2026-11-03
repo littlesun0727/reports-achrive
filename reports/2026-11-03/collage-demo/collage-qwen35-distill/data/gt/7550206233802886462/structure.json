@@ -1,0 +1,352 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "全画布连续的深棕黑色斑驳底纹，下部转为暖棕米色，散布手绘空心星星、细碎颗粒和隐约黑色印迹。四边及拼贴间隙均可见，作为固定设计保留，不包含独立人物照片和贴纸。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        170,
+        259,
+        384,
+        506
+      ],
+      "description": "左侧独立肖像，一名黑发青年穿棕色外套、白衬衫与领带，抬手靠近耳侧，正面看镜头。保留浅色摄影背景，显示窗口倾斜，下部被便签、猫和中央人物遮挡。"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        155,
+        232,
+        404,
+        522
+      ],
+      "description": "左侧肖像的白色撕边纸框，外缘不规则并带轻微阴影；完整纸框承托照片，下部局部被其他拼贴遮住。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "tape_left",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        218,
+        316,
+        282
+      ],
+      "description": "斜贴在左侧纸框顶部的半透明米黄色纸胶带，保留褶皱、纸纤维和不齐边缘。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        648,
+        260,
+        815,
+        468
+      ],
+      "description": "右侧独立肖像，一名黑发青年穿棕色外套，略侧身看向镜头，胸前抬手比心。保留浅灰白摄影背景，下缘被中央人物和便签遮挡，与左侧及中央肖像姿态不同。"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        631,
+        234,
+        835,
+        485
+      ],
+      "description": "右侧肖像的白色不规则撕边纸框，整体略倾斜，纸边与阴影保留，下部被前景拼贴遮住。",
+      "photo_id": [
+        "photo_right"
+      ]
+    },
+    {
+      "id": "tape_right",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        221,
+        811,
+        287
+      ],
+      "description": "右侧纸框顶部的米黄色半透明胶带，斜向覆盖纸边，保留皱褶和参差边缘。"
+    },
+    {
+      "id": "photo_piano_left",
+      "kind": "photo",
+      "bbox": [
+        102,
+        486,
+        273,
+        658
+      ],
+      "description": "左下方倾斜的室内钢琴照片，包含深色木质钢琴、琴键、谱架及周边陈设，摄影环境整体保留；上部被猫、回形针和人物覆盖，右部被中央肖像遮挡。"
+    },
+    {
+      "id": "photo_piano_right",
+      "kind": "photo",
+      "bbox": [
+        739,
+        430,
+        883,
+        570
+      ],
+      "description": "右侧矩形室内照片，暖米色墙前摆放深色立式钢琴，琴顶有书本和小物，底部露出黑白琴键。保留整个室内环境，左侧被中央人物及文字便签遮挡。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        161,
+        178,
+        799,
+        795
+      ],
+      "description": "中央大型半身肖像，一名黑发青年穿棕色外套、白衬衫和黑白条纹领带，一手托腮，另一手臂横放在前，正面微笑。沿头发、肩膀和手臂轮廓去除摄影背景，外沿有连续较宽白色描边；下部手臂逐渐融入米色前景。此姿态独立于两侧照片，不构成连续出框。"
+    },
+    {
+      "id": "butterfly_left",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        257,
+        190,
+        332
+      ],
+      "description": "左侧纸框左上方的米棕色蝴蝶贴纸，双翼展开，保留翅脉、斑点和细小触角。"
+    },
+    {
+      "id": "butterfly_right",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        304,
+        864,
+        378
+      ],
+      "description": "右侧肖像旁的米棕色蝴蝶贴纸，保留展开双翼、翅脉及斑点纹理。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        159,
+        393,
+        217,
+        518
+      ],
+      "description": "左侧一只正面坐立的橘白猫，完整显示头部、躯干、前腿和尾部可见部分，沿猫轮廓去除背景，叠在左侧肖像与钢琴照片之前。"
+    },
+    {
+      "id": "note_left",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        465,
+        401,
+        512
+      ],
+      "description": "浅棕色不规则纸便签，带黑色手写文字“You keep ending up / in my shaking hands.”，纸面、边缘和字样作为完整装饰保留。"
+    },
+    {
+      "id": "note_right",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        456,
+        799,
+        505
+      ],
+      "description": "贴在右侧拼贴前方的浅棕色不规则纸便签，黑色手写文字“I have buried you / in every place.”，保留纸张轮廓与完整字样。"
+    },
+    {
+      "id": "clip_left",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        480,
+        153,
+        521
+      ],
+      "description": "左侧钢琴照片边缘的白色线状回形针装饰，斜向叠放，保留双层弯曲线条。"
+    },
+    {
+      "id": "clip_right",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        415,
+        845,
+        464
+      ],
+      "description": "右侧钢琴照片上缘的白色线状回形针，倾斜叠贴，保留完整弯曲轮廓。"
+    },
+    {
+      "id": "radio",
+      "kind": "overlay",
+      "bbox": [
+        828,
+        379,
+        921,
+        459
+      ],
+      "description": "右上方倾斜的复古便携收音机剪贴，深色机身、双圆形扬声器、调谐面板和提手作为完整固定装饰保留。"
+    },
+    {
+      "id": "camera",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        603,
+        146,
+        681
+      ],
+      "description": "左下方倾斜的银黑色复古相机贴纸，包含机身、镜头、顶部按钮和细节，保留完整剪贴轮廓。"
+    },
+    {
+      "id": "photo_card_back",
+      "kind": "photo",
+      "bbox": [
+        818,
+        591,
+        871,
+        641
+      ],
+      "description": "右下拼贴最靠后的微型暖棕色静物照片，暗色背景中可见橙色圆形物与植物般形态，保留摄影内容，右下部分被其他卡片遮挡。"
+    },
+    {
+      "id": "frame_card_back",
+      "kind": "frame",
+      "bbox": [
+        814,
+        587,
+        877,
+        662
+      ],
+      "description": "右下最靠后的白色微型色卡相纸框，下方有黑色“PANTONE”及细小印字，框体和印字整体保留。",
+      "photo_id": [
+        "photo_card_back"
+      ]
+    },
+    {
+      "id": "photo_card_middle",
+      "kind": "photo",
+      "bbox": [
+        850,
+        617,
+        905,
+        670
+      ],
+      "description": "右下中层微型照片，棕灰色调，包含浅色雕塑或花材般静物和暗色环境；保留摄影背景，下部被前方卡片遮挡。"
+    },
+    {
+      "id": "frame_card_middle",
+      "kind": "frame",
+      "bbox": [
+        844,
+        612,
+        910,
+        685
+      ],
+      "description": "右下中层白色微型色卡相纸框，下缘带“PANTONE”及细小黑色印字，部分被前层色卡遮住。",
+      "photo_id": [
+        "photo_card_middle"
+      ]
+    },
+    {
+      "id": "photo_card_front",
+      "kind": "photo",
+      "bbox": [
+        878,
+        643,
+        931,
+        696
+      ],
+      "description": "右下最前方微型暖棕色静物照片，可见桌面、浅色器皿与上方枝叶状形态，保留完整摄影环境。"
+    },
+    {
+      "id": "frame_card_front",
+      "kind": "frame",
+      "bbox": [
+        873,
+        638,
+        937,
+        710
+      ],
+      "description": "右下最前方白色微型色卡相纸框，下方带“PANTONE”与细小印字，照片内口独立替换。",
+      "photo_id": [
+        "photo_card_front"
+      ]
+    },
+    {
+      "id": "foreground_texture",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        650,
+        1000,
+        1000
+      ],
+      "description": "画面底部横贯全宽的半透明暖米色雾状渐变与磨损纹理，上缘柔和，向下变浓，带大量白色细划痕、颗粒和斑点，覆盖中央人物下缘及两侧拼贴底部，保留其前景叠加关系。"
+    },
+    {
+      "id": "name_label",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        729,
+        192,
+        755
+      ],
+      "description": "左下姓名标签，半透明深棕矩形底板上为细白色“Kim Minkyu”字样，右侧带短线和小点，作为完整标签保留。"
+    },
+    {
+      "id": "date_label",
+      "kind": "overlay",
+      "bbox": [
+        812,
+        729,
+        933,
+        755
+      ],
+      "description": "右下日期标签，半透明深棕矩形底板上为细白色“20010312”字样，右侧带短线和小点，作为完整标签保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_left",
+    "photo_left",
+    "frame_right",
+    "photo_right",
+    "tape_left",
+    "tape_right",
+    "photo_piano_left",
+    "photo_piano_right",
+    "butterfly_left",
+    "butterfly_right",
+    "photo_cat",
+    "clip_left",
+    "clip_right",
+    "radio",
+    "photo_main",
+    "note_left",
+    "note_right",
+    "camera",
+    "frame_card_back",
+    "photo_card_back",
+    "frame_card_middle",
+    "photo_card_middle",
+    "frame_card_front",
+    "photo_card_front",
+    "foreground_texture",
+    "name_label",
+    "date_label"
+  ]
+}

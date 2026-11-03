@@ -1,0 +1,171 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "蓝天白云与街道电线杆构成连续摄影底图，完整显示区域延伸至画布四边；上层照片、贴纸、文字和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云与街道电线杆构成连续摄影底图，完整显示区域延伸至画布",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        99,
+        220,
+        464,
+        705
+      ],
+      "description": "左上人物全身照片，人物站在棕榈树下的街道，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左上人物全身照片，人物站在棕榈树下的街道，保留照片内的摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        616,
+        483,
+        1011,
+        1012
+      ],
+      "description": "右侧人物半身照片，人物站在棕榈树下的街道，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右侧人物半身照片，人物站在棕榈树下的街道，保留照片内的摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        177,
+        975,
+        521,
+        1435
+      ],
+      "description": "左下食物特写照片，展示虾、面条等菜肴，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "左下食物特写照片，展示虾、面条等菜肴，保留照片内的摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        535,
+        1034,
+        1080,
+        1620
+      ],
+      "description": "右下街道场景照片，展示停放的车辆和建筑，保留照片内的摄影环境，显示区域为矩形。",
+      "label": "右下街道场景照片，展示停放的车辆和建筑，保留照片内的摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        157,
+        198,
+        279
+      ],
+      "description": "白色胶带贴纸，位于左上照片的左上角，作为独立固定装饰保留。",
+      "label": "白色胶带贴纸，位于左上照片的左上角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        434,
+        1364,
+        589,
+        1495
+      ],
+      "description": "白色胶带贴纸，位于左下照片的右下角，作为独立固定装饰保留。",
+      "label": "白色胶带贴纸，位于左下照片的右下角，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        368,
+        889,
+        507
+      ],
+      "description": "白色夹子装饰，位于右侧照片的上方，作为独立固定装饰保留。",
+      "label": "白色夹子装饰，位于右侧照片的上方，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        561,
+        181,
+        1002,
+        316
+      ],
+      "description": "Live the life\nyou've imagined.",
+      "label": "Live the life\nyou've imagined.",
+      "method": "local",
+      "text": "Live the life\nyou've imagined.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        613,
+        1212,
+        919,
+        1374
+      ],
+      "description": "OUR\nBELOVED\nSUMMER",
+      "label": "OUR\nBELOVED\nSUMMER",
+      "method": "local",
+      "text": "OUR\nBELOVED\nSUMMER",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "photo_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "overlay_clip",
+    "text_1",
+    "text_2"
+  ]
+}

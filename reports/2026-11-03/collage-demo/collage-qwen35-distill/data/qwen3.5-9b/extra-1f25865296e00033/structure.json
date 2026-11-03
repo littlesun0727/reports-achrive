@@ -1,0 +1,124 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海滨摄影底图，包含蓝天、白云、海面、沙滩、岩石、木质栈道及远处建筑，完整显示区域延伸至画布四边；上层照片、文字和装饰遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        175,
+        100,
+        530,
+        370
+      ],
+      "description": "左上角海景照片，展示海面、停泊的小船和远处的山峦，前景有绿色树枝遮挡，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        470,
+        220,
+        880,
+        630
+      ],
+      "description": "右侧人物照片，展示一位穿白色连衣裙的女士在海边挥手，背景为海浪和沙滩，保留照片内的摄影环境。"
+    },
+    {
+      "id": "photo_bike",
+      "kind": "photo",
+      "bbox": [
+        80,
+        600,
+        540,
+        830
+      ],
+      "description": "左下角骑行照片，展示一人骑自行车在海边栈道上，背景为大海和松树，保留照片内的摄影环境。"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        80,
+        320,
+        130
+      ],
+      "description": "左上角手写文字贴纸，内容为'You're a Sunday morning kind of beauty'，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        180,
+        720,
+        240
+      ],
+      "description": "右上角银色回形针装饰，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        110,
+        460,
+        520,
+        480
+      ],
+      "text": "Life isn't perfect but your outfit can be.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        630,
+        270,
+        850,
+        290
+      ],
+      "text": "An unexpected surprise.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        470,
+        740,
+        780,
+        790
+      ],
+      "text": "Travel is the spice of life, but remember, occasionally life itself needs to be the spice sprinkled on our journey.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_sea",
+    "photo_girl",
+    "photo_bike",
+    "overlay_paper",
+    "overlay_clip",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

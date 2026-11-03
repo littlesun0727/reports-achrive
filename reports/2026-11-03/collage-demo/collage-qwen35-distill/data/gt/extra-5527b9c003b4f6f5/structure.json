@@ -1,0 +1,215 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        500,
+        501
+      ],
+      "description": "左上独立照片，仰拍一栋尖顶玻璃摩天楼，建筑自下边延伸向上，周围保留蓝天。荧光黄色手绘线沿建筑两侧及顶部轮廓延伸，下端随照片边界裁切；描边属于照片，天空未去除。"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        500,
+        0,
+        1000,
+        501
+      ],
+      "description": "右上独立照片，黑色带白盖咖啡杯置于黑色皮质座椅上，杯前散放两只白色耳机，右侧可见木板环境。浅蓝手绘线围绕杯子和两只耳机的组合轮廓，完整保留座椅与木板摄影背景。"
+    },
+    {
+      "id": "photo_juice",
+      "kind": "photo",
+      "bbox": [
+        0,
+        501,
+        500,
+        1000
+      ],
+      "description": "左下独立照片，一只手从左下伸入，握住带透明盖及黑色长吸管的苹果汁塑料杯，杯身标签属于摄影内容。背景保留店面玻璃、室内及浅蓝墙板。浅蓝描边沿手臂、手、杯与吸管组合外轮廓延伸，手臂下端被画布裁切。"
+    },
+    {
+      "id": "photo_milk_tea",
+      "kind": "photo",
+      "bbox": [
+        500,
+        501,
+        1000,
+        1000
+      ],
+      "description": "右下独立照片，一只手从右下伸入，握住浅蓝色插画杯身、白色杯盖的奶茶杯，杯顶露出蓝色小部件。周围保留蓝色背景，黄色手绘线沿杯子、手与前臂外轮廓延伸，前臂在右边及下边裁切；杯身插画随照片替换。"
+    },
+    {
+      "id": "label_skyscraper",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        156,
+        198,
+        264
+      ],
+      "description": "黄色手写 skyscraper 字样，整体倾斜排列于建筑左上侧，保留其字形及角度。"
+    },
+    {
+      "id": "label_coffee",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        197,
+        905,
+        285
+      ],
+      "description": "浅蓝色手写 coffee 字样，沿咖啡杯右侧近竖向排列，保留整体字形与布局。"
+    },
+    {
+      "id": "label_apple_juice",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        595,
+        349,
+        622
+      ],
+      "description": "浅蓝色手写 Apple Juice 标题，两个单词分置吸管左右，作为同一标题设计保留原有间距与字形。"
+    },
+    {
+      "id": "label_milk_tea",
+      "kind": "overlay",
+      "bbox": [
+        634,
+        606,
+        722,
+        662
+      ],
+      "description": "黄色手写 milk tea 字样，沿奶茶杯左上方呈弧形倾斜排列，保留完整字形和布局。"
+    },
+    {
+      "id": "star_coffee_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        629,
+        109,
+        656,
+        129
+      ],
+      "description": "咖啡杯左上方独立浅蓝色五角星。"
+    },
+    {
+      "id": "star_coffee_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        838,
+        103,
+        861,
+        120
+      ],
+      "description": "咖啡杯右上方独立浅蓝色五角星。"
+    },
+    {
+      "id": "star_coffee_left",
+      "kind": "overlay",
+      "bbox": [
+        645,
+        275,
+        667,
+        292
+      ],
+      "description": "咖啡杯左侧、耳机上方独立浅蓝色五角星。"
+    },
+    {
+      "id": "star_coffee_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        838,
+        370,
+        861,
+        388
+      ],
+      "description": "咖啡杯右下方独立浅蓝色五角星。"
+    },
+    {
+      "id": "star_tea_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        816,
+        605,
+        842,
+        623
+      ],
+      "description": "奶茶杯右上方独立黄色五角星。"
+    },
+    {
+      "id": "star_tea_right",
+      "kind": "overlay",
+      "bbox": [
+        851,
+        703,
+        876,
+        722
+      ],
+      "description": "奶茶杯右侧、手指上方独立黄色五角星。"
+    },
+    {
+      "id": "star_tea_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        741,
+        652,
+        760
+      ],
+      "description": "奶茶杯左侧靠上的独立黄色五角星。"
+    },
+    {
+      "id": "star_tea_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        765,
+        674,
+        784
+      ],
+      "description": "奶茶杯左侧靠下的独立黄色五角星。"
+    },
+    {
+      "id": "star_tea_bottom",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        880,
+        805,
+        900
+      ],
+      "description": "奶茶杯下方、前臂左侧独立黄色五角星。"
+    }
+  ],
+  "layer_order": [
+    "photo_building",
+    "photo_coffee",
+    "photo_juice",
+    "photo_milk_tea",
+    "label_skyscraper",
+    "label_coffee",
+    "label_apple_juice",
+    "label_milk_tea",
+    "star_coffee_upper_left",
+    "star_coffee_upper_right",
+    "star_coffee_left",
+    "star_coffee_lower_right",
+    "star_tea_upper_right",
+    "star_tea_right",
+    "star_tea_left_upper",
+    "star_tea_left_lower",
+    "star_tea_bottom"
+  ]
+}

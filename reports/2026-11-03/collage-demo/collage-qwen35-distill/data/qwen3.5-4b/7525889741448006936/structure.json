@@ -1,0 +1,232 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_main",
+    "description": "室内咖啡店场景，包含人物、货架、桌椅和陈列柜，完整显示区域延伸至画布四边；上层贴纸、对话框和圆形照片遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        43,
+        48,
+        385,
+        423
+      ],
+      "description": "圆形裁剪的人物半身照片，位于左上区域，人物戴眼镜，手持饮品，背景为店内陈列架。"
+    },
+    {
+      "id": "frame_circle",
+      "kind": "frame",
+      "bbox": [
+        38,
+        43,
+        390,
+        428
+      ],
+      "description": "围绕圆形照片的白色虚线边框，覆盖照片边缘并位于照片上方，完整虚线作为一个框体保留。",
+      "photo_id": [
+        "photo_circle"
+      ]
+    },
+    {
+      "id": "overlay_heart1",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        168,
+        122,
+        203
+      ],
+      "description": "白色心形贴纸，位于圆形照片左侧。"
+    },
+    {
+      "id": "overlay_heart2",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        278,
+        359,
+        313
+      ],
+      "description": "白色心形贴纸，位于圆形照片右侧。"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        409,
+        160,
+        453,
+        195
+      ],
+      "description": "白色五角星贴纸，位于圆形照片右侧。"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        947,
+        226,
+        991,
+        261
+      ],
+      "description": "白色五角星贴纸，位于画面右上角。"
+    },
+    {
+      "id": "overlay_star3",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        868,
+        776,
+        923
+      ],
+      "description": "白色五角星贴纸，位于画面右下角。"
+    },
+    {
+      "id": "overlay_star4",
+      "kind": "overlay",
+      "bbox": [
+        447,
+        930,
+        512,
+        985
+      ],
+      "description": "白色五角星贴纸，位于画面底部中央。"
+    },
+    {
+      "id": "overlay_star5",
+      "kind": "overlay",
+      "bbox": [
+        251,
+        447,
+        295,
+        482
+      ],
+      "description": "白色五角星贴纸，位于画面左侧中部。"
+    },
+    {
+      "id": "overlay_star6",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        543,
+        67,
+        578
+      ],
+      "description": "黑色五角星贴纸，位于画面左侧中部。"
+    },
+    {
+      "id": "overlay_star7",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        513,
+        202,
+        548
+      ],
+      "description": "黑色五角星贴纸，位于画面左侧中部。"
+    },
+    {
+      "id": "overlay_charm",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        328,
+        168,
+        453
+      ],
+      "description": "蓝色卡通形象贴纸，位于圆形照片下方。"
+    },
+    {
+      "id": "overlay_sweat",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        283,
+        780,
+        353
+      ],
+      "description": "蓝色汗滴表情贴纸，位于人物头部右侧。"
+    },
+    {
+      "id": "overlay_chat1",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        48,
+        507,
+        93
+      ],
+      "description": "白色对话框贴纸，位于圆形照片上方，包含文字 'Blog is my life ..'。"
+    },
+    {
+      "id": "overlay_chat2",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        428,
+        915,
+        483
+      ],
+      "description": "白色对话框贴纸，位于画面右侧，包含韩文文字。"
+    },
+    {
+      "id": "overlay_chat3",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        813,
+        507,
+        930
+      ],
+      "description": "白色对话框贴纸，位于画面底部，包含韩文文字 '뭔가 그리워지는데.'。"
+    },
+    {
+      "id": "overlay_cat1",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        383,
+        895,
+        423
+      ],
+      "description": "白色猫咪贴纸，位于右侧对话框上方。"
+    },
+    {
+      "id": "overlay_cat2",
+      "kind": "overlay",
+      "bbox": [
+        893,
+        383,
+        945,
+        423
+      ],
+      "description": "黑色猫咪贴纸，位于白色猫咪右侧。"
+    }
+  ],
+  "layer_order": [
+    "photo_circle",
+    "frame_circle",
+    "overlay_heart1",
+    "overlay_heart2",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_star3",
+    "overlay_star4",
+    "overlay_star5",
+    "overlay_star6",
+    "overlay_star7",
+    "overlay_charm",
+    "overlay_sweat",
+    "overlay_chat1",
+    "overlay_chat2",
+    "overlay_chat3",
+    "overlay_cat1",
+    "overlay_cat2"
+  ]
+}

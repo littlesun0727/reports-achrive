@@ -1,0 +1,241 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "车内视角的连续摄影底图，包含深色车窗、雨刮器、仪表盘及窗外模糊的树木与建筑；多张照片和装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "车内视角的连续摄影底图，包含深色车窗、雨刮器、仪表盘及窗外模",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_croissant",
+      "kind": "photo",
+      "bbox": [
+        60,
+        259,
+        263,
+        451
+      ],
+      "description": "左上角照片，展示两个牛角面包放在白色盘子上，旁边有果酱和餐巾纸，背景为木质桌面。",
+      "label": "左上角照片，展示两个牛角面包放在白色盘子上，旁边有果酱和餐巾",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        290,
+        120,
+        573,
+        350
+      ],
+      "description": "上方中间照片，展示两杯饮品，一杯是粉色奶昔配樱桃，另一杯是橙色鸡尾酒配青柠，放在银色托盘上。",
+      "label": "上方中间照片，展示两杯饮品，一杯是粉色奶昔配樱桃，另一杯是橙",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        180,
+        360,
+        549,
+        792
+      ],
+      "description": "中间人物照片，一位长发女孩手持白色小狗玩偶，背景为室内环境，有桌椅和装饰。",
+      "label": "中间人物照片，一位长发女孩手持白色小狗玩偶，背景为室内环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bread",
+      "kind": "photo",
+      "bbox": [
+        540,
+        384,
+        756,
+        636
+      ],
+      "description": "右侧照片，展示一个打开的烤红薯，上面放着冰淇淋，放在白色盘子上，背景为餐桌。",
+      "label": "右侧照片，展示一个打开的烤红薯，上面放着冰淇淋，放在白色盘子",
+      "method": "local"
+    },
+    {
+      "id": "photo_fried_food",
+      "kind": "photo",
+      "bbox": [
+        40,
+        720,
+        288,
+        912
+      ],
+      "description": "左下角照片，展示一只手拿着装有炸鸡块的纸袋，纸袋上有卡通图案和文字。",
+      "label": "左下角照片，展示一只手拿着装有炸鸡块的纸袋，纸袋上有卡通图案",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottles",
+      "kind": "photo",
+      "bbox": [
+        342,
+        720,
+        648,
+        1104
+      ],
+      "description": "下方中间照片，展示三瓶饮料，瓶身有卡通图案，放在木质桌面上。",
+      "label": "下方中间照片，展示三瓶饮料，瓶身有卡通图案，放在木质桌面上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_stuffed_animal",
+      "kind": "photo",
+      "bbox": [
+        558,
+        672,
+        819,
+        852
+      ],
+      "description": "右下角照片，展示一个棕色毛绒玩具熊躺在灰色床单上，背景为室内环境。",
+      "label": "右下角照片，展示一个棕色毛绒玩具熊躺在灰色床单上，背景为室内",
+      "method": "local"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        456,
+        153,
+        624
+      ],
+      "description": "左侧白色手绘水滴装饰，垂直排列，作为独立固定装饰保留。",
+      "label": "左侧白色手绘水滴装饰，垂直排列，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        120,
+        792,
+        240
+      ],
+      "description": "右上角白色手绘音符装饰，作为独立固定装饰保留。",
+      "label": "右上角白色手绘音符装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_face",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        228,
+        765,
+        360
+      ],
+      "description": "右侧白色手绘卡通人脸装饰，作为独立固定装饰保留。",
+      "label": "右侧白色手绘卡通人脸装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_trees",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        936,
+        315,
+        1056
+      ],
+      "description": "下方白色手绘树木装饰，作为独立固定装饰保留。",
+      "label": "下方白色手绘树木装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        840,
+        765,
+        888
+      ],
+      "description": "右下角白色手绘心形和星星装饰，作为独立固定装饰保留。",
+      "label": "右下角白色手绘心形和星星装饰，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        72,
+        156,
+        270,
+        216
+      ],
+      "description": "MY LIFE",
+      "label": "MY LIFE",
+      "method": "local",
+      "text": "MY LIFE",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        648,
+        996,
+        792,
+        1092
+      ],
+      "description": "COZY DAY",
+      "label": "COZY DAY",
+      "method": "local",
+      "text": "COZY DAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_croissant",
+    "photo_drinks",
+    "photo_girl",
+    "photo_bread",
+    "photo_fried_food",
+    "photo_bottles",
+    "photo_stuffed_animal",
+    "overlay_drops",
+    "overlay_music",
+    "overlay_face",
+    "overlay_trees",
+    "overlay_heart",
+    "text_1",
+    "text_2"
+  ]
+}

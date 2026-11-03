@@ -1,0 +1,136 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_full_body",
+      "kind": "photo",
+      "bbox": [
+        483,
+        0,
+        1000,
+        1000
+      ],
+      "description": "全身人物照片，人物身穿黑色宽松毛衣站在带有品牌标识的背景墙前，右侧有木桶，保留完整的室内环境。"
+    },
+    {
+      "id": "photo_square_top",
+      "kind": "photo",
+      "bbox": [
+        59,
+        173,
+        370,
+        513
+      ],
+      "description": "方形人物面部特写照片，人物留着长发，背景为室内环境，位于左上区域。"
+    },
+    {
+      "id": "photo_circle_mid",
+      "kind": "photo",
+      "bbox": [
+        196,
+        442,
+        468,
+        666
+      ],
+      "description": "圆形人物面部特写照片，人物留着长发，背景为室内环境，位于左侧中部。"
+    },
+    {
+      "id": "photo_heart_bottom",
+      "kind": "photo",
+      "bbox": [
+        60,
+        718,
+        332,
+        937
+      ],
+      "description": "心形人物面部特写照片，人物留着长发，背景为室内环境，位于左下角。"
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        483,
+        1000
+      ],
+      "description": "白色背景上的黑色圆点图案，覆盖左侧区域，作为装饰性固定单元。"
+    },
+    {
+      "id": "overlay_star_square",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        148,
+        258,
+        213
+      ],
+      "description": "黑色背景上的白色五角星图案，位于左上角照片上方。"
+    },
+    {
+      "id": "overlay_star_text",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        116,
+        937,
+        158
+      ],
+      "description": "黑色背景上的白色文字'^_^'和五角星图案，位于右上角照片上方。"
+    },
+    {
+      "id": "overlay_text_left",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        508,
+        173,
+        546
+      ],
+      "description": "黑色背景上的白色文字'^-^.-^.-^'，位于左侧中部照片左方。"
+    },
+    {
+      "id": "overlay_heart_black",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        623,
+        104,
+        678
+      ],
+      "description": "黑色背景上的白色格纹心形图案，位于左下角照片左上方。"
+    },
+    {
+      "id": "text_japanese",
+      "kind": "text",
+      "bbox": [
+        38,
+        937,
+        231,
+        960
+      ],
+      "text": "一緒に頑張ろうね",
+      "color": "#000000",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_full_body",
+    "photo_square_top",
+    "photo_circle_mid",
+    "photo_heart_bottom",
+    "overlay_dots",
+    "overlay_star_square",
+    "overlay_star_text",
+    "overlay_text_left",
+    "overlay_heart_black",
+    "text_japanese"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的全画布摄影底图，展示了模糊的餐桌场景。左侧可见绿色饮品杯，右侧有黄色甜点盘，底部为白色餐盘和叉子，背景为木纹桌面。上层拼贴照片和装饰遮挡了局部画面，但底图延伸至画布四边。"
+  },
+  "objects": [
+    {
+      "id": "overlay_sticker_sweet_tooth",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        102,
+        278,
+        183
+      ],
+      "description": "左上角橙色不规则贴纸，带有“sweet sea tooth”英文及“甜食爱好者”中文艺术字，边缘有手绘风格装饰。"
+    },
+    {
+      "id": "frame_polaroid_left",
+      "kind": "frame",
+      "bbox": [
+        146,
+        129,
+        505,
+        487
+      ],
+      "description": "左侧竖向拍立得相纸边框，包含白色宽边，承载内部食物照片。",
+      "photo_id": [
+        "photo_polaroid_left"
+      ]
+    },
+    {
+      "id": "photo_polaroid_left",
+      "kind": "photo",
+      "bbox": [
+        166,
+        152,
+        485,
+        465
+      ],
+      "description": "框内照片，展示一桌丰盛的食物：咖喱饭、意面、红色饮料以及比耶的手势。"
+    },
+    {
+      "id": "overlay_sticker_pudding_top",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        131,
+        665,
+        213
+      ],
+      "description": "顶部中间的布丁插画贴纸，黄色布丁配樱桃，带蓝色线条装饰。"
+    },
+    {
+      "id": "overlay_bubble_text",
+      "kind": "overlay",
+      "bbox": [
+        705,
+        124,
+        905,
+        220
+      ],
+      "description": "右上角对话气泡贴纸，白底黑边，内含彩色手写体文字“Sweet stuff!”及星星装饰。"
+    },
+    {
+      "id": "photo_cheese_pull",
+      "kind": "photo",
+      "bbox": [
+        525,
+        229,
+        835,
+        515
+      ],
+      "description": "中间偏右的照片，特写拉丝芝士覆盖在深色酱汁料理上，背景可见穿着毛衣的人。"
+    },
+    {
+      "id": "frame_polaroid_right",
+      "kind": "frame",
+      "bbox": [
+        580,
+        483,
+        935,
+        707
+      ],
+      "description": "右下角横向拍立得相纸边框，淡黄色宽边，承载内部食物照片。",
+      "photo_id": [
+        "photo_polaroid_right"
+      ]
+    },
+    {
+      "id": "photo_polaroid_right",
+      "kind": "photo",
+      "bbox": [
+        595,
+        493,
+        920,
+        665
+      ],
+      "description": "框内照片，俯拍视角的餐桌一角，包含意面、虾仁水果沙拉和粉色舒芙蕾蛋糕。"
+    },
+    {
+      "id": "photo_drinks_cutout",
+      "kind": "photo",
+      "bbox": [
+        195,
+        385,
+        415,
+        665
+      ],
+      "description": "抠图素材，两杯插着吸管的冰饮（一杯黄色，一杯深红色），带有白色粗描边轮廓。"
+    },
+    {
+      "id": "overlay_sticker_cake",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        522,
+        575,
+        610
+      ],
+      "description": "中间粉色蛋糕插画贴纸，上面写着“甜品日记”，带有蓝色底座线条。"
+    },
+    {
+      "id": "photo_dessert_plate",
+      "kind": "photo",
+      "bbox": [
+        265,
+        645,
+        655,
+        868
+      ],
+      "description": "下方矩形照片，展示一盘精致甜点，包括冰淇淋球、草莓、猕猴桃片和小熊饼干。"
+    },
+    {
+      "id": "overlay_macarons",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        775,
+        305,
+        875
+      ],
+      "description": "左下角马卡龙插画贴纸，包含绿色和粉色两个马卡龙，带有笑脸表情。"
+    },
+    {
+      "id": "overlay_donuts",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        725,
+        875,
+        870
+      ],
+      "description": "右下角甜甜圈插画贴纸，包含粉色和橙色两个甜甜圈，周围点缀爱心和螺旋线。"
+    }
+  ],
+  "layer_order": [
+    "photo_polaroid_left",
+    "frame_polaroid_left",
+    "photo_cheese_pull",
+    "photo_polaroid_right",
+    "frame_polaroid_right",
+    "photo_dessert_plate",
+    "photo_drinks_cutout",
+    "overlay_sticker_sweet_tooth",
+    "overlay_sticker_pudding_top",
+    "overlay_bubble_text",
+    "overlay_sticker_cake",
+    "overlay_macarons",
+    "overlay_donuts"
+  ]
+}

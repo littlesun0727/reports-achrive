@@ -1,0 +1,425 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1800
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1800
+      ],
+      "description": "全画布固定底图，由淡紫色花卉、枝叶与书法文字构成，具有纸纹质感；三张拍立得照片及蝴蝶装饰叠加其上，底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，由淡紫色花卉、枝叶与书法文字构成，具有纸纹质",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        119,
+        54,
+        518,
+        576
+      ],
+      "description": "左上拍立得照片，金发女性手持蝴蝶，照片内保留摄影环境，白色相框完整显示。",
+      "label": "左上拍立得照片，金发女性手持蝴蝶，照片内保留摄影环境，白色相",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        378,
+        540,
+        882,
+        1134
+      ],
+      "description": "右侧拍立得照片，金发女性手托脸颊，照片内保留摄影环境，白色相框完整显示。",
+      "label": "右侧拍立得照片，金发女性手托脸颊，照片内保留摄影环境，白色相",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        32,
+        1107,
+        576,
+        1773
+      ],
+      "description": "左下拍立得照片，金发女性手持蝴蝶靠近面部，照片内保留摄影环境，白色相框完整显示。",
+      "label": "左下拍立得照片，金发女性手持蝴蝶靠近面部，照片内保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        112,
+        45,
+        525,
+        585
+      ],
+      "description": "左上拍立得相框，白色边框，完整包围 photo_1，位于照片上方。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "左上拍立得相框，白色边框，完整包围 photo_1，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        372,
+        531,
+        885,
+        1143
+      ],
+      "description": "右侧拍立得相框，白色边框，完整包围 photo_2，位于照片上方。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "右侧拍立得相框，白色边框，完整包围 photo_2，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        27,
+        1098,
+        580,
+        1782
+      ],
+      "description": "左下拍立得相框，白色边框，完整包围 photo_3，位于照片上方。",
+      "photo_id": [
+        "photo_3"
+      ],
+      "label": "左下拍立得相框，白色边框，完整包围 photo_3，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_1",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        0,
+        738,
+        324
+      ],
+      "description": "右上角紫色蝴蝶装饰，位于画布右上区域，压在背景之上。",
+      "label": "右上角紫色蝴蝶装饰，位于画布右上区域，压在背景之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_2",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        360,
+        837,
+        522
+      ],
+      "description": "右侧中部紫色蝴蝶装饰，位于 photo_2 右上方，压在背景之上。",
+      "label": "右侧中部紫色蝴蝶装饰，位于 photo_2 右上方，压在背景",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_3",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        666,
+        378,
+        1026
+      ],
+      "description": "左侧中部紫色蝴蝶装饰，位于 photo_1 与 photo_3 之间，压在背景之上。",
+      "label": "左侧中部紫色蝴蝶装饰，位于 photo_1 与 photo_",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_4",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        1260,
+        891,
+        1782
+      ],
+      "description": "右下角紫色蝴蝶装饰，位于画布右下区域，压在背景之上。",
+      "label": "右下角紫色蝴蝶装饰，位于画布右下区域，压在背景之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_5",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        576,
+        306,
+        684
+      ],
+      "description": "左侧中部偏上紫色蝴蝶装饰，位于 photo_1 下方，压在背景之上。",
+      "label": "左侧中部偏上紫色蝴蝶装饰，位于 photo_1 下方，压在背",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_6",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        918,
+        891,
+        1080
+      ],
+      "description": "右侧中部偏下紫色蝴蝶装饰，位于 photo_2 右下方，压在背景之上。",
+      "label": "右侧中部偏下紫色蝴蝶装饰，位于 photo_2 右下方，压在",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_7",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        1224,
+        162,
+        1368
+      ],
+      "description": "左下角紫色蝴蝶装饰，位于 photo_3 左侧，压在背景之上。",
+      "label": "左下角紫色蝴蝶装饰，位于 photo_3 左侧，压在背景之上",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        0,
+        36,
+        90,
+        630
+      ],
+      "description": "丁二奇观看堂安书卷",
+      "label": "丁二奇观看堂安书卷",
+      "method": "local",
+      "text": "丁二奇观看堂安书卷",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        738,
+        36,
+        891,
+        360
+      ],
+      "description": "到世是英雄",
+      "label": "到世是英雄",
+      "method": "local",
+      "text": "到世是英雄",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        738,
+        1170,
+        891,
+        1710
+      ],
+      "description": "亦如字书于西成",
+      "label": "亦如字书于西成",
+      "method": "local",
+      "text": "亦如字书于西成",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        72,
+        522,
+        360,
+        1080
+      ],
+      "description": "来冲晓不知泠",
+      "label": "来冲晓不知泠",
+      "method": "local",
+      "text": "来冲晓不知泠",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        135,
+        630,
+        315,
+        990
+      ],
+      "description": "箱经评",
+      "label": "箱经评",
+      "method": "local",
+      "text": "箱经评",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        315,
+        630,
+        405,
+        990
+      ],
+      "description": "出右内",
+      "label": "出右内",
+      "method": "local",
+      "text": "出右内",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        72,
+        1620,
+        135,
+        1710
+      ],
+      "description": "BE REMEMBER TODAY",
+      "label": "BE REMEMBER TODAY",
+      "method": "local",
+      "text": "BE REMEMBER TODAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_8",
+      "kind": "text",
+      "bbox": [
+        432,
+        1116,
+        522,
+        1152
+      ],
+      "description": "BE REMEMBER",
+      "label": "BE REMEMBER",
+      "method": "local",
+      "text": "BE REMEMBER",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_9",
+      "kind": "text",
+      "bbox": [
+        72,
+        1620,
+        135,
+        1710
+      ],
+      "description": "BE REMEMBER TODAY",
+      "label": "BE REMEMBER TODAY",
+      "method": "local",
+      "text": "BE REMEMBER TODAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "overlay_butterfly_1",
+    "overlay_butterfly_2",
+    "overlay_butterfly_3",
+    "overlay_butterfly_4",
+    "overlay_butterfly_5",
+    "overlay_butterfly_6",
+    "overlay_butterfly_7",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7",
+    "text_8",
+    "text_9"
+  ]
+}

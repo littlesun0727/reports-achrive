@@ -1,0 +1,78 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_birthday",
+    "description": "生日主题固定底图，包含彩色'Happy Birthday'艺术字、气球、彩带、纸屑和白色虚线边框，整体为连续设计，保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        60,
+        410,
+        380,
+        680
+      ],
+      "description": "心形窗口内的插花照片，包含粉色、黄色花朵和蜡烛，保留摄影环境，沿心形轮廓显示。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        450,
+        410,
+        920,
+        700
+      ],
+      "description": "右侧人物照片，女性戴皇冠、双手合十，背景有卡通画和蛋糕，保留摄影环境，矩形显示。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        60,
+        700,
+        520,
+        980
+      ],
+      "description": "左下人物照片，女性穿粉色礼服、戴皇冠、手持气球，背景有卡通画，保留摄影环境，矩形显示。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        900,
+        410,
+        1000,
+        700
+      ],
+      "description": "右侧边缘局部照片，显示蛋糕和蜡烛，保留摄影环境，矩形显示。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        550,
+        780,
+        920,
+        950
+      ],
+      "text": "Happy Birthday",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1"
+  ]
+}

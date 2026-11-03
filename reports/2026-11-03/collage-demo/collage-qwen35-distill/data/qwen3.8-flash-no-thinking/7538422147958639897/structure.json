@@ -1,0 +1,152 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pattern",
+    "description": "全画布粉色渐变底图，带有规则排列的深粉色五角星图案。上下边缘有白色蕾丝花边装饰。该底图为固定设计元素，不包含可替换摄影内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        20,
+        135,
+        860,
+        940
+      ],
+      "description": "中央主体人物照片，年轻女性正面半身像，黑色长发编成双辫，佩戴红色蝴蝶结发饰和项链，双手持物（左手为Hello Kitty挂件，右手为透明手机壳），身穿白色上衣。背景已抠除，仅保留人物轮廓及手持物品。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        730,
+        135,
+        970,
+        230
+      ],
+      "description": "右上角小照片，显示人物眼部特写，矩形构图，带有红色边框。"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        725,
+        130,
+        975,
+        235
+      ],
+      "description": "围绕右上角照片的红色矩形细线框。",
+      "photo_id": [
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        30,
+        630,
+        280,
+        790
+      ],
+      "description": "左侧中部倾斜的小照片，显示人物眨眼微笑并手持圆形粉盒，带有红色边框。"
+    },
+    {
+      "id": "frame_mid_left",
+      "kind": "frame",
+      "bbox": [
+        25,
+        625,
+        285,
+        795
+      ],
+      "description": "围绕左侧中部照片的红色矩形细线框。",
+      "photo_id": [
+        "photo_mid_left"
+      ]
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        75,
+        770,
+        330,
+        930
+      ],
+      "description": "左下角倾斜的小照片，显示人物侧脸特写，带有红色边框。"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        70,
+        765,
+        335,
+        935
+      ],
+      "description": "围绕左下角照片的红色矩形细线框。",
+      "photo_id": [
+        "photo_bottom_left"
+      ]
+    },
+    {
+      "id": "text_love_block",
+      "kind": "text",
+      "bbox": [
+        30,
+        80,
+        340,
+        190
+      ],
+      "text": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#E63946",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_you_block",
+      "kind": "text",
+      "bbox": [
+        660,
+        800,
+        960,
+        910
+      ],
+      "text": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#E63946",
+      "font": "sans",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_name_art",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        280,
+        950,
+        380
+      ],
+      "description": "横跨画面中部的巨大红色艺术字“WONYOUNG”，部分笔画被中央人物遮挡，位于人物图层下方。"
+    }
+  ],
+  "layer_order": [
+    "overlay_name_art",
+    "photo_main",
+    "photo_top_right",
+    "frame_top_right",
+    "photo_mid_left",
+    "frame_mid_left",
+    "photo_bottom_left",
+    "frame_bottom_left",
+    "text_love_block",
+    "text_you_block"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布摄影底图，为虚化的绿色树林背景。画面延伸至四边，作为中心照片的衬托环境。",
+      "background_type": "photo",
+      "label": "全画布摄影底图，为虚化的绿色树林背景。画面延伸至四边，作为中",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        126,
+        170,
+        765,
+        1020
+      ],
+      "description": "中心矩形照片，显示一名长发年轻女性坐在车内，身穿白色上衣，单手托腮，神态自然。",
+      "label": "中心矩形照片，显示一名长发年轻女性坐在车内，身穿白色上衣，单",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clover_top_left",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        84,
+        270,
+        300
+      ],
+      "description": "左上角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片的左上角。",
+      "label": "左上角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        912,
+        864,
+        1140
+      ],
+      "description": "右下角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片的右下角。",
+      "label": "右下角的一枚绿色四叶草贴纸，带有细长的茎，部分遮挡了中心照片",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        351,
+        96,
+        855,
+        144
+      ],
+      "description": "+.Clover Melody.♣ + .",
+      "label": "+.Clover Melody.♣ + .",
+      "method": "local",
+      "text": "+.Clover Melody.♣ + .",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        54,
+        1044,
+        585,
+        1092
+      ],
+      "description": "9e+.Clover Melody.♣ + ⁺.",
+      "label": "9e+.Clover Melody.♣ + ⁺.",
+      "method": "local",
+      "text": "9e+.Clover Melody.♣ + ⁺.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_center",
+    "overlay_clover_top_left",
+    "overlay_clover_bottom_right",
+    "text_top",
+    "text_bottom"
+  ]
+}

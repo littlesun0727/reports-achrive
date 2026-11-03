@@ -1,0 +1,87 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "热带海滩摄影底图，包含棕榈树、岩石、沙滩和海浪，完整显示区域延伸至画布四边；中间人物照片遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "热带海滩摄影底图，包含棕榈树、岩石、沙滩和海浪，完整显示区域",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        112,
+        198,
+        788,
+        1002
+      ],
+      "description": "人物坐在沙滩上的照片，保留人物及身后的摄影环境，显示区域为矩形。",
+      "label": "人物坐在沙滩上的照片，保留人物及身后的摄影环境，显示区域为矩",
+      "method": "local"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        225,
+        90,
+        675,
+        150
+      ],
+      "description": "Island diary",
+      "label": "Island diary",
+      "method": "local",
+      "text": "Island diary",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        225,
+        1050,
+        675,
+        1110
+      ],
+      "description": "The melody of summer",
+      "label": "The melody of summer",
+      "method": "local",
+      "text": "The melody of summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_person",
+    "text_top",
+    "text_bottom"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        500,
+        500
+      ],
+      "description": "左上独立草原风景照片，蓝天白云占据上半部，起伏绿丘与草地上散布少量牛只；保留完整摄影环境，矩形窗口延伸至画布左边和上边，右下局部被中央人物遮挡。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        0,
+        1000,
+        500
+      ],
+      "description": "右上独立草原照片，浓厚灰白云层下是远山、草地和远处牲畜，草地上立有白色文字与红色门形景观标识，属于实拍场景一并替换；保留摄影环境，左下局部被中央人物遮挡。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        500,
+        500,
+        1000
+      ],
+      "description": "左下独立草原照片，多匹马聚集在水塘中及岸边，远处有灌木、山丘和多云天空，近处为草坡；右侧可见被遮挡人物的浅色裤腿。保留完整摄影环境，中央人物覆盖照片右上部分。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        500,
+        1000,
+        1000
+      ],
+      "description": "右下独立风景照片，灰白天空下为开阔起伏草原，蜿蜒河流横穿中下部，远处有微小游人，右下有细杆状标记；保留摄影环境，左上部分被中央人物遮挡，与相邻照片的景观及取景不连续。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        250,
+        305,
+        704,
+        782
+      ],
+      "description": "中央独立女性半身人像，黑色披肩发，头顶架太阳镜，穿浅蓝露肩上衣，侧身朝右微笑并抬手遮额。摄影背景已去除，完整人物组合沿头发、眼镜、手臂及衣服外轮廓带白色描边，底部水平截断并带白边；跨越四张风景照片叠放，与底层照片没有连续出框关系。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_portrait"
+  ]
+}

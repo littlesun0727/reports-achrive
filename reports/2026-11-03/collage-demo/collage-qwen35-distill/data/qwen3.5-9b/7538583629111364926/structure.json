@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "水下场景的连续摄影底图，包含中央白发动漫人物、周围悬浮的金鱼、上方波光粼粼的水面光影以及底部的草地。画布边缘可见完整的水下环境，上层多个电视屏幕遮挡了部分区域，但底图本身覆盖全画布。"
+  },
+  "objects": [
+    {
+      "id": "tv_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        270,
+        380
+      ],
+      "description": "左上角电视屏幕内的照片，显示两个穿着橙色和红色斗篷的人物，背景为暖色调。"
+    },
+    {
+      "id": "tv_top_right",
+      "kind": "photo",
+      "bbox": [
+        700,
+        0,
+        1000,
+        380
+      ],
+      "description": "右上角电视屏幕内的照片，显示两个穿着白色和黄色斗篷的人物，背景为明亮的户外场景。"
+    },
+    {
+      "id": "tv_mid_right",
+      "kind": "photo",
+      "bbox": [
+        770,
+        380,
+        1000,
+        590
+      ],
+      "description": "右侧中部电视屏幕内的照片，显示两个穿着蓝色斗篷的人物，背景为绿色植物。"
+    },
+    {
+      "id": "tv_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        560,
+        160,
+        750
+      ],
+      "description": "左下角电视屏幕内的照片，显示两个坐在紫色花丛中的角色，背景为粉色天空。"
+    },
+    {
+      "id": "tv_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        520,
+        680,
+        1000,
+        900
+      ],
+      "description": "右下角电视屏幕内的照片，显示两个角色坐在草地上，背景为蓝色光斑。"
+    }
+  ],
+  "layer_order": [
+    "tv_top_left",
+    "tv_top_right",
+    "tv_mid_right",
+    "tv_bottom_left",
+    "tv_bottom_right"
+  ]
+}

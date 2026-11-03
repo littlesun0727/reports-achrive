@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "山水风景摄影底图，包含连绵的喀斯特山峰、水面倒影、岸边植被及远处的船只，画面整体呈现蓝调色调；前景人物与装饰元素叠加于其上，保留完整摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_foreground",
+      "kind": "photo",
+      "bbox": [
+        0,
+        280,
+        1000,
+        720
+      ],
+      "description": "前景人物半身照片，女性身穿白色上衣，佩戴蓝色流苏耳环和手链，姿态优雅，手部动作自然；照片边缘与背景融合，呈现半透明或渐变效果，主体清晰，背景虚化。"
+    },
+    {
+      "id": "text_watermark",
+      "kind": "text",
+      "bbox": [
+        850,
+        920,
+        1000,
+        980
+      ],
+      "text": "小红书号：49321651677",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_logo",
+      "kind": "text",
+      "bbox": [
+        880,
+        930,
+        970,
+        960
+      ],
+      "text": "小红书",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_foreground",
+    "text_logo",
+    "text_watermark"
+  ]
+}

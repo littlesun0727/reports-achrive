@@ -1,0 +1,25 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "特写摄影底图，展示一只人眼的局部，包含眉毛、眼睑、睫毛及眼白区域，画面延伸至画布边缘；瞳孔位置嵌入独立照片，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_pupil",
+      "kind": "photo",
+      "bbox": [
+        360,
+        430,
+        540,
+        570
+      ],
+      "description": "嵌入瞳孔位置的独立照片，显示一名男性人物肖像，背景为星空，周围有蓝色光环效果，作为可替换摄影单元。"
+    }
+  ],
+  "layer_order": [
+    "photo_pupil"
+  ]
+}

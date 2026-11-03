@@ -1,0 +1,118 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_base",
+    "description": "全画布连续的灰蓝、青绿与浅灰色失焦界面背景，右侧和顶部大面积可见，保留其模糊色块与明暗变化；前方应用卡片、图标及照片独立列出。"
+  },
+  "objects": [
+    {
+      "id": "rear_app_card",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        76,
+        164,
+        1000
+      ],
+      "description": "后方音乐应用卡片的可见部分，浅色圆角面板延伸至画布底部，右侧被前方备忘录卡片遮挡。保留返回与菜单图标、99+提示、搜索标记、夜深了等文字、推荐封面、列表和头像等完整界面内容；其中缩略图属于固定界面设计。"
+    },
+    {
+      "id": "rear_photo_icon",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        25,
+        100,
+        75
+      ],
+      "description": "左上方半透明浅色圆角应用图标，内部为多色花瓣图案，右上部分被红色音乐应用图标遮挡。"
+    },
+    {
+      "id": "music_app_icon",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        16,
+        139,
+        63
+      ],
+      "description": "左上方红色圆角方形音乐应用图标，白色旋涡状标志与红色底板整体保留。"
+    },
+    {
+      "id": "notes_app_icon",
+      "kind": "overlay",
+      "bbox": [
+        209,
+        6,
+        275,
+        55
+      ],
+      "description": "顶部备忘录应用图标，黄色顶栏、白色圆角纸页和浅灰横线构成完整固定图标。"
+    },
+    {
+      "id": "notes_app_title",
+      "kind": "text",
+      "bbox": [
+        292,
+        15,
+        416,
+        47
+      ],
+      "text": "备忘录",
+      "color": "#F4F7F3",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "notes_card",
+      "kind": "frame",
+      "bbox": [
+        152,
+        67,
+        850,
+        1000
+      ],
+      "description": "前方大型白色备忘录圆角卡片，底部超出画布，承载上下两个独立照片窗口。保留顶部黄色返回箭头与备忘录字样、撤销、灰色重做、分享、更多图标，以及宽白边、照片间白色间隔和卡片阴影；内口照片分别替换。",
+      "photo_id": [
+        "photo_top",
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        207,
+        230,
+        792,
+        569
+      ],
+      "description": "上方横向矩形近景照片，一名棕色长发、齐刘海、戴浅蓝透明大框眼镜的年轻女性，脸部偏左，抬眼望向画面右上方并微微嘟嘴，下缘露出手持的黄色烘焙食物。保留右侧浅色室内环境；照片四边清晰裁切，无主体出框。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        210,
+        612,
+        789,
+        959
+      ],
+      "description": "下方独立横向矩形近景照片，同样装束的一名长发女性正面朝向镜头，浅蓝透明大框眼镜下双眼上望，嘴唇自然闭合，底部露出蓝白色玩偶。保留浅色室内背景；姿态与上图不同，属于另一照片显示位置，四边清晰裁切。"
+    }
+  ],
+  "layer_order": [
+    "rear_app_card",
+    "rear_photo_icon",
+    "music_app_icon",
+    "notes_app_icon",
+    "notes_app_title",
+    "notes_card",
+    "photo_top",
+    "photo_bottom"
+  ]
+}

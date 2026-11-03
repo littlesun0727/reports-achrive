@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-adec199fca476030",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7375,
+    "completion_tokens": 428,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"蓝色天空背景，带有数条黑色电线斜向穿过画面，构成连续摄影底图，完整显示区域延伸至画布四边；右侧照片遮挡局部天空与电线，保留摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_balloon\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        553,\n        346,\n        909,\n        743\n      ],\n      \"description\": \"粉色带黄色星星图案的气球照片，下方有一只手握着气球绳，背景为黄白蓝三色拼接墙面，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"overlay_tape\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        632,\n        324,\n        846,\n        376\n      ],\n      \"description\": \"透明胶带，贴在照片左上角，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        48,\n        24,\n        562,\n        946\n      ],\n      \"text\": \"My\\nLife\\nis\\nOrdinary\\nbut Shining\\nLive\\na Slow\\nand\\nConcrete\\nLife\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_balloon\",\n    \"overlay_tape\",\n    \"text_1\"\n  ]\n}",
+  "tool_calls": false
+}

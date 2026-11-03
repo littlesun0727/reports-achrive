@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1599
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1599
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        512
+      ],
+      "description": "上方人物双手合十许愿的照片，保留人物、蛋糕、桌面及背景环境，显示区域为矩形。",
+      "label": "上方人物双手合十许愿的照片，保留人物、蛋糕、桌面及背景环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1007,
+        900,
+        1599
+      ],
+      "description": "下方俯拍视角的照片，展示草莓蛋糕、人物手部动作及桌面环境，显示区域为矩形。",
+      "label": "下方俯拍视角的照片，展示草莓蛋糕、人物手部动作及桌面环境，显",
+      "method": "local"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        512,
+        900,
+        1007
+      ],
+      "description": "中间区域的米色纹理背景板，上面印有黑色文字，作为独立固定装饰单元。",
+      "label": "中间区域的米色纹理背景板，上面印有黑色文字，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        18,
+        720,
+        882,
+        831
+      ],
+      "description": "Happy birthday.",
+      "label": "Happy birthday.",
+      "method": "local",
+      "text": "Happy birthday.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_text",
+    "text_1"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "雪山与草地构成的连续摄影底图，完整显示区域延伸至画布四边；上层文字、月亮装饰、照片及贴纸遮挡局部，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        185,
+        12,
+        814,
+        68
+      ],
+      "text": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        296,
+        936,
+        703,
+        968
+      ],
+      "text": "在无数个瞬间里感受自己",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_summer",
+      "kind": "photo",
+      "bbox": [
+        227,
+        421,
+        477,
+        627
+      ],
+      "description": "落日海景照片，人物背对镜头，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        523,
+        383,
+        773,
+        589
+      ],
+      "description": "海边栏杆照片，人物背对镜头，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_spring",
+      "kind": "photo",
+      "bbox": [
+        100,
+        650,
+        350,
+        856
+      ],
+      "description": "红树林照片，人物侧坐，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_winter",
+      "kind": "photo",
+      "bbox": [
+        750,
+        613,
+        900,
+        769
+      ],
+      "description": "室内窗边照片，人物侧坐，保留照片内的摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "overlay_moon_group",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        100,
+        867,
+        350
+      ],
+      "description": "蓝色手绘月亮装饰，包含多个月亮形状和连接线，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        433,
+        650,
+        567,
+        783
+      ],
+      "description": "黄色手绘星星装饰，带有笑脸和光芒，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_spring_frame",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        627,
+        373,
+        877
+      ],
+      "description": "蓝色手绘方框装饰，围绕Spring照片，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_summer_frame",
+      "kind": "overlay",
+      "bbox": [
+        193,
+        400,
+        493,
+        650
+      ],
+      "description": "蓝色手绘方框装饰，围绕Summer照片，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_autumn_frame",
+      "kind": "overlay",
+      "bbox": [
+        503,
+        363,
+        803,
+        613
+      ],
+      "description": "蓝色手绘方框装饰，围绕Autumn照片，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_winter_frame",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        593,
+        930,
+        843
+      ],
+      "description": "蓝色手绘方框装饰，围绕Winter照片，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_summer",
+    "photo_autumn",
+    "photo_spring",
+    "photo_winter",
+    "overlay_moon_group",
+    "overlay_star",
+    "overlay_spring_frame",
+    "overlay_summer_frame",
+    "overlay_autumn_frame",
+    "overlay_winter_frame",
+    "text_top",
+    "text_bottom"
+  ]
+}

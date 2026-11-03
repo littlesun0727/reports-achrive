@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "浅灰色纹理纸底，带有白色波点装饰图案，作为全画布固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        125,
+        26,
+        875,
+        303
+      ],
+      "description": "上方人物照片，人物手托脸颊，身穿深蓝色碎花上衣，面前有饮品，保留摄影环境。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        125,
+        326,
+        875,
+        603
+      ],
+      "description": "中间人物照片，人物趴在桌上手持叉子，面前有甜点和饮品，保留摄影环境。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        125,
+        632,
+        875,
+        909
+      ],
+      "description": "下方人物照片，人物双手比心，身穿深蓝色碎花上衣，面前有饮品和甜点，保留摄影环境。"
+    },
+    {
+      "id": "overlay_cat_top",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        2,
+        925,
+        96
+      ],
+      "description": "右上角白色卡通猫头贴纸，带有表情，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_bandage",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        297,
+        260,
+        377
+      ],
+      "description": "左侧心形创可贴贴纸，带有黑色心形图案，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_cat_bottom",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        845,
+        975,
+        962
+      ],
+      "description": "右下角白色卡通猫头贴纸，带有粉色装饰，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_cat_top",
+    "overlay_bandage",
+    "overlay_cat_bottom"
+  ]
+}

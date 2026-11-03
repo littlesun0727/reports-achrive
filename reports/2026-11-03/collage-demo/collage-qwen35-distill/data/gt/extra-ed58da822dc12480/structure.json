@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "顶部独立横幅海景照片，无人物；大片阴云天空下是平静海面、远近礁石，空中有小海鸟，左侧远处可见岸边建筑。保留完整摄影环境，四边清晰裁切，与中部照片的场景和取景不连续。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        333,
+        1000,
+        667
+      ],
+      "description": "中部独立海湾远景照片；蓝灰与暖橙色晚霞下，右侧沿岸分布楼房、树木和步道，下方海水连接弧形沙滩，数名小人物在岸边站立或蹲坐，底边裁切部分人物。保留完整摄影环境，矩形窗口与上下照片直接拼接。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        667,
+        1000,
+        1000
+      ],
+      "description": "底部独立礁石海岸照片，无人物；上方浅蓝天空与海平线，下方海浪和白色浪花拍打礁石，右侧及前景密集分布棕灰色岩石。保留完整摄影环境，矩形四边裁切，拍摄视角与上方照片不连续。"
+    },
+    {
+      "id": "overlay_top",
+      "kind": "overlay",
+      "bbox": [
+        393,
+        303,
+        610,
+        318
+      ],
+      "description": "顶部照片下部居中的白色品牌水印，由特殊造型的 DJI 标志与 OSMO POCKET 4P 字样组成，作为完整独立标识保留。"
+    },
+    {
+      "id": "overlay_middle",
+      "kind": "overlay",
+      "bbox": [
+        393,
+        636,
+        610,
+        651
+      ],
+      "description": "中部照片下部居中的白色品牌水印，由特殊造型的 DJI 标志与 OSMO POCKET 4P 字样组成，覆盖海水画面，作为完整独立标识保留。"
+    },
+    {
+      "id": "overlay_bottom",
+      "kind": "overlay",
+      "bbox": [
+        393,
+        969,
+        610,
+        984
+      ],
+      "description": "底部照片下部居中的白色品牌水印，由特殊造型的 DJI 标志与 OSMO POCKET 4P 字样组成，覆盖前景礁石，作为完整独立标识保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_top",
+    "overlay_middle",
+    "overlay_bottom"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-ad9979e8ec61bb8f",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7797,
+    "completion_tokens": 850,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"pink_star_bg\",\n    \"description\": \"粉色渐变底图，带有白色蕾丝花边顶部和底部边框，背景布满粉色星星图案。整体为固定设计底图，保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        100,\n        150,\n        900,\n        950\n      ],\n      \"description\": \"中心人物照片，女性扎双麻花辫，佩戴红色蝴蝶结发饰和项链，手持粉色物品，面带微笑。保留摄影环境，显示区域为不规则形状，被周围装饰部分遮挡。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        750,\n        150,\n        950,\n        250\n      ],\n      \"description\": \"右上角小照片，人物眼部特写，带有红色边框。\"\n    },\n    {\n      \"id\": \"photo_bottom_left_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        50,\n        650,\n        300,\n        800\n      ],\n      \"description\": \"左下角第一张小照片，人物手持圆形物品，带有红色边框。\"\n    },\n    {\n      \"id\": \"photo_bottom_left_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        50,\n        750,\n        300,\n        900\n      ],\n      \"description\": \"左下角第二张小照片，人物手持手机，带有红色边框。\"\n    },\n    {\n      \"id\": \"text_love\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        30,\n        50,\n        300,\n        150\n      ],\n      \"text\": \"LOVE\\nMy favorite\\nWon yeong Jang\\nI bear that I love you\",\n      \"color\": \"#FF0000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_won\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        30,\n        250,\n        950,\n        400\n      ],\n      \"text\": \"WO\\nNG\",\n      \"color\": \"#FF0000\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_you\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        750,\n        750,\n        950,\n        850\n      ],\n      \"text\": \"YOU\\nMy favorite\\nWon yeong Jang\\nI bear that I love you\",\n      \"color\": \"#FF0000\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_main\",\n    \"photo_top_right\",\n    \"photo_bottom_left_1\",\n    \"photo_bottom_left_2\",\n    \"text_love\",\n    \"text_won\",\n    \"text_you\"\n  ]\n}",
+  "tool_calls": false
+}

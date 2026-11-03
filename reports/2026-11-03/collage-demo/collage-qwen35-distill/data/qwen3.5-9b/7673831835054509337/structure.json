@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "深绿色模糊背景，包含左上角窗户轮廓、右上角模糊树叶与光斑，以及右下角模糊花丛，整体为连续摄影画面，延伸至画布四边，作为全画布底图承载上层照片与装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        68,
+        342,
+        512,
+        762
+      ],
+      "description": "左侧倾斜照片，人物金发、穿白衬衫，手托脸颊，车内环境可见，照片边缘有白色边框，显示区域为倾斜矩形。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        493,
+        158,
+        947,
+        578
+      ],
+      "description": "右侧倾斜照片，人物金发、穿白衬衫，手放嘴边，车内环境可见，照片边缘有白色边框，显示区域为倾斜矩形。"
+    },
+    {
+      "id": "flower",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        512,
+        682,
+        922
+      ],
+      "description": "浅蓝色百合花，花瓣展开，花蕊橙黄，位于两照片下方中央，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        68,
+        192,
+        482,
+        292
+      ],
+      "text": "Angel Energy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        522,
+        542,
+        782,
+        642
+      ],
+      "text": "a fallen angel",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        22,
+        72,
+        122
+      ],
+      "description": "左上角白色四角星装饰，独立固定单元。"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        802,
+        702,
+        872,
+        772
+      ],
+      "description": "右下角白色四角星装饰，独立固定单元。"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        832,
+        902,
+        902
+      ],
+      "description": "右下角白色四角星装饰，独立固定单元。"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        882,
+        902,
+        952,
+        972
+      ],
+      "description": "右下角白色四角星装饰，独立固定单元。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "flower",
+    "text_title",
+    "text_subtitle",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-9211ad778a69d528",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7789,
+    "completion_tokens": 842,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"阳光透过树叶洒下的绿色森林光影，作为连续摄影底图覆盖全画布，边缘有树叶遮挡，为所有照片和装饰提供自然背景。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        50,\n        30,\n        600,\n        370\n      ],\n      \"description\": \"左上角照片，人物蹲在路边，手持饮料，身旁有蜗牛和蘑菇，保留照片内的摄影环境，显示区域为带齿孔的矩形。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        660,\n        140,\n        950,\n        310\n      ],\n      \"description\": \"右上角照片，人物蹲在绿植丛中，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        75,\n        550,\n        295,\n        780\n      ],\n      \"description\": \"左下角照片，人物站立在树林中，保留照片内的摄影环境，显示区域为矩形。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        350,\n        400,\n        960,\n        970\n      ],\n      \"description\": \"右下角照片，人物背对镜头站在海边，保留照片内的摄影环境，显示区域为带齿孔的矩形。\"\n    },\n    {\n      \"id\": \"overlay_deer\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        780,\n        240,\n        990\n      ],\n      \"description\": \"左下角的梅花鹿插画，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_button_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        40,\n        530,\n        120,\n        590\n      ],\n      \"description\": \"左下角照片旁的木质纽扣装饰，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_button_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        860,\n        360,\n        970,\n        460\n      ],\n      \"description\": \"右下角照片旁的木质纽扣装饰，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_decorations\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        280,\n        390,\n        360,\n        620\n      ],\n      \"description\": \"左侧垂直排列的星形、螺旋形和加号装饰，作为独立固定装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"photo_top_left\",\n    \"photo_top_right\",\n    \"photo_bottom_left\",\n    \"photo_bottom_right\",\n    \"overlay_deer\",\n    \"overlay_button_1\",\n    \"overlay_button_2\",\n    \"overlay_decorations\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "chatcmpl-bce6912676113898",
+  "model": "Qwen3.5-9B",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7479,
+    "total_tokens": 8114,
+    "completion_tokens": 635,
+    "prompt_tokens_details": null
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"浅灰色纹理纸底，带有白色波点装饰图案，作为全画布固定底图保留原样。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        125,\n        26,\n        875,\n        303\n      ],\n      \"description\": \"上方人物照片，人物手托脸颊，身穿深蓝色碎花上衣，面前有饮品，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        125,\n        326,\n        875,\n        603\n      ],\n      \"description\": \"中间人物照片，人物趴在桌上手持叉子，面前有甜点和饮品，保留摄影环境。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        125,\n        632,\n        875,\n        909\n      ],\n      \"description\": \"下方人物照片，人物双手比心，身穿深蓝色碎花上衣，面前有饮品和甜点，保留摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_cat_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        730,\n        2,\n        925,\n        96\n      ],\n      \"description\": \"右上角白色卡通猫头贴纸，带有表情，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_bandage\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        42,\n        297,\n        260,\n        377\n      ],\n      \"description\": \"左侧心形创可贴贴纸，带有黑色心形图案，作为独立装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_cat_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        730,\n        845,\n        975,\n        962\n      ],\n      \"description\": \"右下角白色卡通猫头贴纸，带有粉色装饰，作为独立装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_middle\",\n    \"photo_bottom\",\n    \"overlay_cat_top\",\n    \"overlay_bandage\",\n    \"overlay_cat_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

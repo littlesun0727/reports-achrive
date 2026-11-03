@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-075dee05-7d2a-9361-b17d-81c121b09936",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 7720,
+    "completion_tokens": 437,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1402,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 437
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        315\n      ],\n      \"description\": \"顶部照片，展示铺满落叶的湿润沥青路面，画面包含黄色树叶和积水反光。\"\n    },\n    {\n      \"id\": \"photo_middle\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        315,\n        1000,\n        705\n      ],\n      \"description\": \"中部照片，一名年轻女子手持椰子站在绿色庭院背景前，身穿白色T恤和牛仔裤。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        62,\n        510,\n        930,\n        585\n      ],\n      \"text\": \"In those days even the wind\\nfelt free in summer\",\n      \"color\": \"#FF00FF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        705,\n        1000,\n        1000\n      ],\n      \"description\": \"底部照片，展示绚丽的橙红色晚霞天空，云层丰富，下方有路灯杆剪影。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_middle\",\n    \"text_1\",\n    \"photo_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

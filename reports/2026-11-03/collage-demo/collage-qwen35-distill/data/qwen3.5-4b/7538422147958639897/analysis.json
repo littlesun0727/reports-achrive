@@ -1,0 +1,278 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "粉色星形图案背景，包含蕾丝边框和散落的红色五角星，作为全画布底图承载所有独立对象；主体人物位于画面中央，周围分布多张独立照片和文字装饰。",
+      "background_type": "photo",
+      "label": "粉色星形图案背景，包含蕾丝边框和散落的红色五角星，作为全画布",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        45,
+        168,
+        770,
+        1140
+      ],
+      "description": "人物半身照片，黑色长发编辫，佩戴红色饰品，手持透明物品，保留完整面部及上半身摄影环境。",
+      "label": "人物半身照片，黑色长发编辫，佩戴红色饰品，手持透明物品，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        666,
+        166,
+        871,
+        270
+      ],
+      "description": "人物眼部特写照片，位于右上角，被红色边框包围，作为独立裁剪照片。",
+      "label": "人物眼部特写照片，位于右上角，被红色边框包围，作为独立裁剪照",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        27,
+        756,
+        292,
+        1086
+      ],
+      "description": "人物半身照片，位于左下角，被红色边框包围，作为独立裁剪照片。",
+      "label": "人物半身照片，位于左下角，被红色边框包围，作为独立裁剪照片。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_2",
+      "kind": "photo",
+      "bbox": [
+        68,
+        918,
+        292,
+        1086
+      ],
+      "description": "人物半身照片，位于左下角下方，被红色边框包围，作为独立裁剪照片。",
+      "label": "人物半身照片，位于左下角下方，被红色边框包围，作为独立裁剪照",
+      "method": "local"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        36,
+        96,
+        198,
+        216
+      ],
+      "description": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "label": "LOVE\nMy favorite\nWon yeong Jan",
+      "method": "local",
+      "text": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF6B6B",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_won",
+      "kind": "text",
+      "bbox": [
+        54,
+        336,
+        846,
+        480
+      ],
+      "description": "WON",
+      "label": "WON",
+      "method": "local",
+      "text": "WON",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF6B6B",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_you",
+      "kind": "text",
+      "bbox": [
+        756,
+        960,
+        855,
+        1020
+      ],
+      "description": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "label": "YOU\nMy favorite\nWon yeong Jang",
+      "method": "local",
+      "text": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF6B6B",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_lace_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        36
+      ],
+      "description": "顶部白色蕾丝花边装饰，覆盖全画布顶部边缘。",
+      "label": "顶部白色蕾丝花边装饰，覆盖全画布顶部边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lace_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1164,
+        900,
+        1200
+      ],
+      "description": "底部白色蕾丝花边装饰，覆盖全画布底部边缘。",
+      "label": "底部白色蕾丝花边装饰，覆盖全画布底部边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        240,
+        90,
+        312
+      ],
+      "description": "红色五角星装饰，位于左上区域。",
+      "label": "红色五角星装饰，位于左上区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        120,
+        657,
+        162
+      ],
+      "description": "红色五角星装饰，位于右上区域。",
+      "label": "红色五角星装饰，位于右上区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        516,
+        788,
+        564
+      ],
+      "description": "红色五角星装饰，位于右侧中部。",
+      "label": "红色五角星装饰，位于右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        516,
+        864,
+        612
+      ],
+      "description": "红色五角星装饰，位于右侧中部偏下。",
+      "label": "红色五角星装饰，位于右侧中部偏下。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        696,
+        864,
+        768
+      ],
+      "description": "红色五角星装饰，位于右下区域。",
+      "label": "红色五角星装饰，位于右下区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        960,
+        54,
+        1002
+      ],
+      "description": "红色五角星装饰，位于左下区域。",
+      "label": "红色五角星装饰，位于左下区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        1008,
+        630,
+        1068
+      ],
+      "description": "红色五角星装饰，位于右下文字旁。",
+      "label": "红色五角星装饰，位于右下文字旁。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_main",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_left_2",
+    "text_love",
+    "text_won",
+    "text_you",
+    "overlay_lace_top",
+    "overlay_lace_bottom",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_star_7"
+  ]
+}
