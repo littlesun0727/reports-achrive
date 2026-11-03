@@ -1,0 +1,199 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "米色渐变纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。",
+      "background_type": "reference_clean",
+      "label": "米色渐变纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        144,
+        84,
+        738,
+        408
+      ],
+      "description": "矩形人物照片，保留摄影环境，四边清晰。",
+      "label": "矩形人物照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        144,
+        432,
+        738,
+        755
+      ],
+      "description": "矩形手掌照片，保留摄影环境，四边清晰。",
+      "label": "矩形手掌照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        144,
+        791,
+        738,
+        1115
+      ],
+      "description": "矩形人物照片，保留摄影环境，四边清晰。",
+      "label": "矩形人物照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        36,
+        180,
+        144
+      ],
+      "description": "白色海星线条贴纸，位于左上角。",
+      "label": "白色海星线条贴纸，位于左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        36,
+        450,
+        120
+      ],
+      "description": "银色回形针线条贴纸，位于顶部中央。",
+      "label": "银色回形针线条贴纸，位于顶部中央。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        120,
+        819,
+        240
+      ],
+      "description": "白色海星线条贴纸，位于右上角。",
+      "label": "白色海星线条贴纸，位于右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        480,
+        819,
+        600
+      ],
+      "description": "白色海星线条贴纸，位于右侧中部。",
+      "label": "白色海星线条贴纸，位于右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        899,
+        171,
+        1019
+      ],
+      "description": "白色海星线条贴纸，位于左下角。",
+      "label": "白色海星线条贴纸，位于左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        899,
+        774,
+        1019
+      ],
+      "description": "白色鱼形线条贴纸，位于右下角。",
+      "label": "白色鱼形线条贴纸，位于右下角。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        54,
+        456,
+        252,
+        504
+      ],
+      "description": "Island",
+      "label": "Island",
+      "method": "local",
+      "text": "Island",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        522,
+        647,
+        828,
+        695
+      ],
+      "description": "Sun sea serenity.",
+      "label": "Sun sea serenity.",
+      "method": "local",
+      "text": "Sun sea serenity.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "text_1",
+    "text_2"
+  ]
+}

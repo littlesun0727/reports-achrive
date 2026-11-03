@@ -1,0 +1,88 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的户外草地与树林摄影底图，完整延伸至画布四边。画面主体为一名身穿阿根廷球衣、手持足球的年轻女性半身近景，位于画面中下方，背景为虚化的绿色植被。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        412,
+        238,
+        567
+      ],
+      "description": "左侧白色手绘风格五角星及放射状线条装饰，叠加在底图之上。"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        439,
+        651,
+        1000
+      ],
+      "description": "右侧青色发光星星及耳机线轮廓装饰，包含两颗大星和连接线，覆盖在底图人物及足球上。"
+    },
+    {
+      "id": "frame_music_player",
+      "kind": "frame",
+      "bbox": [
+        632,
+        10,
+        981,
+        412
+      ],
+      "description": "右上角音乐播放器界面卡片，包含照片窗口、进度条、播放控制按钮及文字“Music”、“0:00”、“5:20”。整体作为固定设计单元保留。",
+      "photo_id": [
+        "photo_card"
+      ]
+    },
+    {
+      "id": "photo_card",
+      "kind": "photo",
+      "bbox": [
+        648,
+        26,
+        965,
+        335
+      ],
+      "description": "音乐卡片内的竖向照片，显示同一位女性手持足球的半身像，背景为树林。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        203,
+        611,
+        306
+      ],
+      "description": "蓝色爱心贴纸，带有两个小爱心点缀，位于左上抠图与右上卡片之间。"
+    },
+    {
+      "id": "photo_cutout_top_left",
+      "kind": "photo",
+      "bbox": [
+        74,
+        62,
+        420,
+        408
+      ],
+      "description": "左上角去背景抠图，显示同一位女性举着足球的姿势，周围有白色描边轮廓。"
+    }
+  ],
+  "layer_order": [
+    "overlay_star_left",
+    "overlay_stars_right",
+    "photo_card",
+    "frame_music_player",
+    "overlay_heart",
+    "photo_cutout_top_left"
+  ]
+}

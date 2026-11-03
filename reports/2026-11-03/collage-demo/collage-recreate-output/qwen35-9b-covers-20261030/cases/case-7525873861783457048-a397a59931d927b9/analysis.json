@@ -1,0 +1,166 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "bg_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "全画布固定底图，由上方的蓝色天空区域和下方的绿色草地/地面区域组成，中间有明显的水平分界线。保留天空中的白色云朵和心形图案，以及草地上的蓝色和黄色星星图案。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，由上方的蓝色天空区域和下方的绿色草地/地面区",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        119,
+        166,
+        783,
+        720
+      ],
+      "description": "承载内部照片的复古电脑窗口框架，包含标题栏、菜单栏和底部状态栏。标题栏显示 'My Computer'，菜单栏包含 'File', 'Edit', 'View', 'Help'。底部状态栏显示 't(s)' 和三个心形图标。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "承载内部照片的复古电脑窗口框架，包含标题栏、菜单栏和底部状态",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        122,
+        274,
+        472,
+        662
+      ],
+      "description": "左侧照片，展示陶艺工作台，包含装有画笔的容器、陶土碗和工具。",
+      "label": "左侧照片，展示陶艺工作台，包含装有画笔的容器、陶土碗和工具。",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        472,
+        274,
+        778,
+        662
+      ],
+      "description": "右侧照片，展示一个人手持一个内部印有 'STAR' 字样的陶碗。",
+      "label": "右侧照片，展示一个人手持一个内部印有 'STAR' 字样的陶",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cat_small",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        230,
+        540,
+        266
+      ],
+      "description": "位于主窗口标题栏右侧的小型像素猫头贴纸。",
+      "label": "位于主窗口标题栏右侧的小型像素猫头贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_large",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        598,
+        882,
+        765
+      ],
+      "description": "位于主窗口右下角的大型白色像素猫贴纸。",
+      "label": "位于主窗口右下角的大型白色像素猫贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        279,
+        540,
+        333
+      ],
+      "description": "位于两张照片中间上方的像素风格粉色爱心气泡贴纸。",
+      "label": "位于两张照片中间上方的像素风格粉色爱心气泡贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "window_error",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        644,
+        220,
+        765
+      ],
+      "description": "左下角的 'Error' 弹窗，标题为 'ALONE'，包含 'OK' 按钮。",
+      "label": "左下角的 'Error' 弹窗，标题为 'ALONE'，包含",
+      "method": "extract"
+    },
+    {
+      "id": "window_pop",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        234,
+        860,
+        338
+      ],
+      "description": "右上角的弹窗，标题为 'hey girl'，内容为 'he will not call'，包含 'i know', 'cry', 'idk' 三个按钮，右侧有一个鼠标指针图标。",
+      "label": "右上角的弹窗，标题为 'hey girl'，内容为 'he ",
+      "method": "extract"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        4,
+        864,
+        117,
+        896
+      ],
+      "description": "PM 10:25\nAUGUST. 07 1990",
+      "label": "PM 10:25\nAUGUST. 07 1990",
+      "method": "local",
+      "text": "PM 10:25\nAUGUST. 07 1990",
+      "text_status": "known",
+      "style": {
+        "fill": "#0000FF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg_base",
+    "frame_main",
+    "photo_left",
+    "photo_right",
+    "overlay_cat_small",
+    "overlay_heart",
+    "window_error",
+    "window_pop",
+    "overlay_cat_large",
+    "text_date"
+  ]
+}

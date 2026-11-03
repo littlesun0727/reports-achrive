@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pattern",
+    "description": "全画布固定底图，为黄色背景，上面分布着深褐色的圆点图案。该图案连续且均匀，作为整体设计元素保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        100,
+        20,
+        900,
+        310
+      ],
+      "description": "顶部照片，展示咖喱饭和甜点。画面包含一个熊形饭团、一碗咖喱、一个布丁和一块兔子形状的吐司。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        100,
+        330,
+        900,
+        640
+      ],
+      "description": "中间照片，展示蛋包饭。画面包含一个熊形蛋包饭、配菜沙拉、一杯饮料和一只毛绒玩具熊。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        100,
+        660,
+        900,
+        980
+      ],
+      "description": "底部照片，展示甜品。画面包含一杯苹果拿铁、一个红苹果、两个毛绒玩具熊和一个面包。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        430,
+        260,
+        530
+      ],
+      "description": "左侧贴纸，包含“MUA~”字样和星星装饰，字体为卡通风格。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        570,
+        880,
+        640
+      ],
+      "description": "右侧贴纸，包含日文“ボーナス”字样和放射状线条装饰，字体为卡通风格。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        660,
+        100,
+        720
+      ],
+      "description": "左侧装饰，包含一个黄色的太阳图案和线条。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        460,
+        670,
+        720,
+        730
+      ],
+      "text": "一颗苹果",
+      "color": "#333333",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1"
+  ]
+}

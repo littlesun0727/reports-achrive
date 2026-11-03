@@ -1,0 +1,64 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2561
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2561
+      ],
+      "description": "雪山与天空构成连续摄影画面，边缘露出的山景、云层和树木延伸至画布四边；中间人物与前景遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "雪山与天空构成连续摄影画面，边缘露出的山景、云层和树木延伸至",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        820,
+        1440,
+        1741
+      ],
+      "description": "中间人物特写，戴白色毛线帽和白色羽绒服，位于雪山与树木之间，保留摄影环境，上下边缘有透明渐隐效果。",
+      "label": "中间人物特写，戴白色毛线帽和白色羽绒服，位于雪山与树木之间，",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        1224,
+        2356,
+        1440,
+        2510
+      ],
+      "description": "小红书号：448205581",
+      "label": "小红书号：448205581",
+      "method": "local",
+      "text": "小红书号：448205581",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "text_1"
+  ]
+}

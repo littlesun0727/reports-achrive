@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_dots",
+    "description": "灰色底图，带有均匀分布的白色小圆点图案。该固定纹理覆盖整个画布，作为三张独立照片和装饰元素的背景层。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        126,
+        27,
+        870,
+        305
+      ],
+      "description": "上方矩形照片，展示一名年轻女子坐在桌前，单手托腮，面前有一杯插着吸管的饮料。保留完整的摄影环境。"
+    },
+    {
+      "id": "overlay_cat_head",
+      "kind": "overlay",
+      "bbox": [
+        729,
+        4,
+        931,
+        93
+      ],
+      "description": "白色卡通猫头贴纸，位于右上角，部分遮挡了上方照片的边角。"
+    },
+    {
+      "id": "overlay_bandage",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        300,
+        265,
+        378
+      ],
+      "description": "银色创可贴样式的装饰贴纸，带有心形图案，位于左侧中部，连接上下两张照片之间的区域。"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        131,
+        327,
+        866,
+        601
+      ],
+      "description": "中间矩形照片，展示同一名女子趴在桌上，手持叉子靠近嘴边，表情俏皮。保留完整的摄影环境。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        136,
+        635,
+        866,
+        907
+      ],
+      "description": "下方矩形照片，展示同一名女子双手在脸前比心，笑容灿烂，面前有饮料和甜点。保留完整的摄影环境。"
+    },
+    {
+      "id": "overlay_cat_body",
+      "kind": "overlay",
+      "bbox": [
+        729,
+        845,
+        931,
+        957
+      ],
+      "description": "白色卡通猫咪身体贴纸，位于右下角，部分遮挡了下方照片的边角。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_mid",
+    "photo_bottom",
+    "overlay_bandage",
+    "overlay_cat_head",
+    "overlay_cat_body"
+  ]
+}

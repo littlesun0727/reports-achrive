@@ -1,0 +1,266 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#4A2E23"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        94,
+        146,
+        418,
+        574
+      ],
+      "description": "左上角矩形照片，展示一家复古咖啡馆的内部环境，一名身穿白色开衫和格纹裙的女子背对镜头站在过道中。",
+      "label": "左上角矩形照片，展示一家复古咖啡馆的内部环境，一名身穿白色开",
+      "method": "local"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        120,
+        220,
+        186
+      ],
+      "description": "位于左上角照片上方的蓝色手绘鱼形贴纸，带有黄色星星装饰。",
+      "label": "位于左上角照片上方的蓝色手绘鱼形贴纸，带有黄色星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        78,
+        544,
+        198
+      ],
+      "description": "画布上方中间位置的两颗淡黄色手绘五角星图案。",
+      "label": "画布上方中间位置的两颗淡黄色手绘五角星图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        788,
+        110,
+        850,
+        168
+      ],
+      "description": "右上角的淡黄色手绘太阳图案。",
+      "label": "右上角的淡黄色手绘太阳图案。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        486,
+        146,
+        810,
+        582
+      ],
+      "description": "右上角矩形照片，俯拍视角，展示了木桌上的黑色手提包、一杯冰饮、一部手机以及拍摄者的腿部和鞋子。",
+      "label": "右上角矩形照片，俯拍视角，展示了木桌上的黑色手提包、一杯冰饮",
+      "method": "local"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        360,
+        90,
+        462
+      ],
+      "description": "左侧边缘的两个淡黄色水滴状手绘图案。",
+      "label": "左侧边缘的两个淡黄色水滴状手绘图案。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        292,
+        486,
+        616,
+        798
+      ],
+      "description": "画面中央的心形照片窗口，内部显示一张摆放着两杯饮品和一本蓝色小册子的圆桌特写。",
+      "label": "画面中央的心形照片窗口，内部显示一张摆放着两杯饮品和一本蓝色",
+      "method": "local"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        288,
+        480,
+        621,
+        804
+      ],
+      "description": "围绕心形照片窗口的红色手绘描边框。",
+      "photo_id": [
+        "photo_heart"
+      ],
+      "label": "围绕心形照片窗口的红色手绘描边框。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        480,
+        468,
+        540
+      ],
+      "description": "位于心形照片上方的小苹果形状手绘贴纸。",
+      "label": "位于心形照片上方的小苹果形状手绘贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        552,
+        860,
+        636
+      ],
+      "description": "右侧中间的淡黄色猫脸轮廓手绘贴纸。",
+      "label": "右侧中间的淡黄色猫脸轮廓手绘贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        32,
+        594,
+        274,
+        618
+      ],
+      "description": "See you next time ♪",
+      "label": "See you next time ♪",
+      "method": "local",
+      "text": "See you next time ♪",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        648,
+        99,
+        744
+      ],
+      "description": "左侧下方的白色手绘螺旋线及雨滴状装饰。",
+      "label": "左侧下方的白色手绘螺旋线及雨滴状装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        94,
+        666,
+        418,
+        1074
+      ],
+      "description": "左下角矩形照片，展示同一家咖啡馆内，一名身穿白色开衫和格纹裙的女子正面站立并手持相机。",
+      "label": "左下角矩形照片，展示同一家咖啡馆内，一名身穿白色开衫和格纹裙",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        486,
+        654,
+        810,
+        1080
+      ],
+      "description": "右下角矩形照片，展示女子坐在木质长椅上抬头仰望的场景。",
+      "label": "右下角矩形照片，展示女子坐在木质长椅上抬头仰望的场景。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_house",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        1014,
+        166,
+        1062
+      ],
+      "description": "左下角的椭圆形淡黄色底板上的手绘小房子图案。",
+      "label": "左下角的椭圆形淡黄色底板上的手绘小房子图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        990,
+        576,
+        1092
+      ],
+      "description": "底部中间位置的淡棕色手绘蝴蝶结图案。",
+      "label": "底部中间位置的淡棕色手绘蝴蝶结图案。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_heart",
+    "frame_heart",
+    "overlay_fish",
+    "overlay_stars",
+    "overlay_sun",
+    "overlay_drops",
+    "overlay_apple",
+    "overlay_cat",
+    "text_1",
+    "overlay_spiral",
+    "overlay_house",
+    "overlay_bow"
+  ]
+}

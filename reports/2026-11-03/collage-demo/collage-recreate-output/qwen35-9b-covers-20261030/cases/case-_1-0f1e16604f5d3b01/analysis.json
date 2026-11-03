@@ -1,0 +1,231 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1438
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1438
+      ],
+      "description": "米色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。",
+      "background_type": "reference_clean",
+      "label": "米色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        130,
+        374,
+        454,
+        805
+      ],
+      "description": "左侧矩形照片，展示购物袋和四杯奶茶，保留摄影环境，四边清晰。",
+      "label": "左侧矩形照片，展示购物袋和四杯奶茶，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        540,
+        259,
+        864,
+        690
+      ],
+      "description": "右上矩形照片，展示两位人物自拍，保留摄影环境，四边清晰。",
+      "label": "右上矩形照片，展示两位人物自拍，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        130,
+        920,
+        454,
+        1208
+      ],
+      "description": "左下矩形照片，展示手持毛绒玩具，保留摄影环境，四边清晰。",
+      "label": "左下矩形照片，展示手持毛绒玩具，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        540,
+        805,
+        864,
+        1093
+      ],
+      "description": "右下矩形照片，展示多个Hello Kitty玩偶，保留摄影环境，四边清晰。",
+      "label": "右下矩形照片，展示多个Hello Kitty玩偶，保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        29,
+        670,
+        173
+      ],
+      "description": "顶部带有 CLAMP! 字样的夹子贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "顶部带有 CLAMP! 字样的夹子贴纸，文字、底板和阴影作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        575,
+        194,
+        805
+      ],
+      "description": "左侧心形贴纸装饰，包含多个心形图案，作为完整装饰保留。",
+      "label": "左侧心形贴纸装饰，包含多个心形图案，作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        230,
+        842,
+        316
+      ],
+      "description": "右上星星贴纸装饰，包含两个星星图案，作为完整装饰保留。",
+      "label": "右上星星贴纸装饰，包含两个星星图案，作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        1150,
+        302,
+        1237
+      ],
+      "description": "左下小熊贴纸装饰，包含两个小熊图案，作为完整装饰保留。",
+      "label": "左下小熊贴纸装饰，包含两个小熊图案，作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        130,
+        230,
+        454,
+        316
+      ],
+      "description": "#TO DO LIST:",
+      "label": "#TO DO LIST:",
+      "method": "local",
+      "text": "#TO DO LIST:",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        130,
+        805,
+        454,
+        863
+      ],
+      "description": "来一杯续命水!",
+      "label": "来一杯续命水!",
+      "method": "local",
+      "text": "来一杯续命水!",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        734,
+        633,
+        864,
+        748
+      ],
+      "description": "Haaaaapy plog.",
+      "label": "Haaaaapy plog.",
+      "method": "local",
+      "text": "Haaaaapy plog.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        734,
+        1093,
+        864,
+        1208
+      ],
+      "description": "HAVE A NICE DAY",
+      "label": "HAVE A NICE DAY",
+      "method": "local",
+      "text": "HAVE A NICE DAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

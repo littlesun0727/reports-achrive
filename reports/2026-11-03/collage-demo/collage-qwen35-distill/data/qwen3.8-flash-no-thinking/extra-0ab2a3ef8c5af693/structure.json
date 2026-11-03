@@ -1,0 +1,198 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画幅公园风景摄影底图，包含蓝天、白云、绿树和草地。画面右上角有树枝垂下，左侧有树木，下方为草坪。上层多张独立照片及装饰遮挡了部分底图内容。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star_silver",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        95,
+        915,
+        185
+      ],
+      "description": "银色五角星贴纸，位于右上角树枝前方。"
+    },
+    {
+      "id": "overlay_stars_white",
+      "kind": "overlay",
+      "bbox": [
+        185,
+        135,
+        300,
+        185
+      ],
+      "description": "白色手绘线条星星图案，位于左上角照片旁。"
+    },
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        205,
+        45,
+        535,
+        375
+      ],
+      "description": "矩形照片，显示一只穿着衣服的腊肠犬在草地上行走，背景有围栏和树木。"
+    },
+    {
+      "id": "photo_path",
+      "kind": "photo",
+      "bbox": [
+        485,
+        105,
+        750,
+        305
+      ],
+      "description": "带有白色波浪形边缘的照片，显示林间石板小路，周围有绿色树木。"
+    },
+    {
+      "id": "overlay_sparkle_left",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        355,
+        205,
+        395
+      ],
+      "description": "白色四角星闪光装饰，位于左侧中部。"
+    },
+    {
+      "id": "photo_bridge",
+      "kind": "photo",
+      "bbox": [
+        185,
+        375,
+        455,
+        645
+      ],
+      "description": "矩形照片，显示一座白色拱桥横跨水面，背景有高楼和蓝天白云。"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        415,
+        415,
+        465
+      ],
+      "description": "白色云朵形状贴纸，叠加在桥梁照片的天空区域。"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        485,
+        445,
+        565,
+        495
+      ],
+      "description": "黄色笑脸符号，位于中间位置。"
+    },
+    {
+      "id": "photo_lake",
+      "kind": "photo",
+      "bbox": [
+        595,
+        315,
+        935,
+        650
+      ],
+      "description": "矩形照片，显示湖边景色，一人坐在草地上背对镜头，远处有城市天际线。"
+    },
+    {
+      "id": "overlay_sparkles_right",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        320,
+        915,
+        450
+      ],
+      "description": "白色放射状线条和几何图形装饰，位于右侧照片上方。"
+    },
+    {
+      "id": "overlay_heart_bubble",
+      "kind": "overlay",
+      "bbox": [
+        465,
+        565,
+        585,
+        635
+      ],
+      "description": "对话气泡形状的贴纸，内含两颗灰色爱心。"
+    },
+    {
+      "id": "overlay_sparkle_center",
+      "kind": "overlay",
+      "bbox": [
+        435,
+        635,
+        475,
+        675
+      ],
+      "description": "白色四角星闪光装饰，位于心形气泡下方。"
+    },
+    {
+      "id": "photo_park_sign",
+      "kind": "photo",
+      "bbox": [
+        325,
+        645,
+        695,
+        830
+      ],
+      "description": "矩形照片，显示公园入口标志牌“上海世博文化公园”，前景有荷叶。"
+    },
+    {
+      "id": "overlay_heart_outline",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        745,
+        225,
+        835
+      ],
+      "description": "白色虚线勾勒的心形轮廓，位于左下角草地上。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        235,
+        885,
+        835,
+        925
+      ],
+      "text": "En fait, les quatre saisons sont toujours les mêmes, mais quand je me souviens de vous,\nl'automne est doux et le hiver est doux.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": true
+    }
+  ],
+  "layer_order": [
+    "photo_dog",
+    "photo_path",
+    "photo_bridge",
+    "photo_lake",
+    "photo_park_sign",
+    "overlay_stars_white",
+    "overlay_star_silver",
+    "overlay_sparkle_left",
+    "overlay_cloud",
+    "overlay_smile",
+    "overlay_sparkles_right",
+    "overlay_heart_bubble",
+    "overlay_sparkle_center",
+    "overlay_heart_outline",
+    "text_bottom"
+  ]
+}

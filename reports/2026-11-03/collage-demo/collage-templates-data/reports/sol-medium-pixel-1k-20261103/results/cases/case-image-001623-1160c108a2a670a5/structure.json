@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_concert",
+    "description": "烟花、舞台烟雾与下方观众构成连续的音乐会摄影画面，场景延伸至画布四边；上层矩形演出照片和抠图人物遮挡局部。替换时保留整幅背景摄影环境，不将其缩为局部窗口。"
+  },
+  "objects": [
+    {
+      "id": "photo_stage_upper_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        100,
+        553,
+        646
+      ],
+      "description": "左上方矩形演出照片，紫红与蓝色舞台灯光、烟雾和台上表演共同构成完整画面；右下区域被中间照片及白色星形贴纸遮挡。"
+    },
+    {
+      "id": "photo_stage_lower_left",
+      "kind": "photo",
+      "bbox": [
+        214,
+        544,
+        580,
+        977
+      ],
+      "description": "左下方矩形演出照片，蓝紫舞台灯光、烟雾、观众及远处屏幕上的表演者共同属于该照片；上部与中间照片相叠，右侧被前景人物遮挡。"
+    },
+    {
+      "id": "photo_stage_center",
+      "kind": "photo",
+      "bbox": [
+        447,
+        242,
+        829,
+        739
+      ],
+      "description": "中央偏右的矩形演出照片，橙红舞台背景、台上人物和下方观众共同构成完整画面；左下部分覆盖左侧照片，右下部分被前景人物遮挡。"
+    },
+    {
+      "id": "photo_performer",
+      "kind": "photo",
+      "bbox": [
+        533,
+        396,
+        1080,
+        1278
+      ],
+      "description": "一名白发人物穿深蓝黑色、带蝴蝶图案的宽大服装，身体前倾并朝左侧舞台，人物占据画面右侧并延伸至下边缘及右边缘。沿人物与服装轮廓显示，摄影背景未保留；遮挡中央和左下演出照片及全画布背景。"
+    },
+    {
+      "id": "overlay_music_doodles",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        14,
+        356,
+        97
+      ],
+      "description": "左上角一组白色手绘音符和小型闪光符号，作为整体装饰保留。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        536,
+        161,
+        632
+      ],
+      "description": "左侧照片交界处的白色手绘五角星贴纸，轮廓不规则，覆盖照片边缘并压在照片上方。"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        731,
+        657,
+        800
+      ],
+      "description": "中央下方照片交界处可见的白色手绘五角星贴纸，部分被前景人物遮挡。"
+    },
+    {
+      "id": "overlay_bottom_symbols",
+      "kind": "overlay",
+      "bbox": [
+        429,
+        1137,
+        583,
+        1189
+      ],
+      "description": "画面下方偏中的白色手绘符号装饰组合，包含星形、人物状线条和小圆点，按一个完整设计单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_stage_upper_left",
+    "photo_stage_lower_left",
+    "photo_stage_center",
+    "overlay_music_doodles",
+    "overlay_star_left",
+    "overlay_star_center",
+    "overlay_bottom_symbols",
+    "photo_performer"
+  ]
+}

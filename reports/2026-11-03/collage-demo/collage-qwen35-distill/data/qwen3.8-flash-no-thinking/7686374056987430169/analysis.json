@@ -1,0 +1,170 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#38393A"
+      }
+    },
+    {
+      "id": "overlay_stamp_1",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        12,
+        140,
+        144
+      ],
+      "description": "左上角邮票贴纸，带有植物图案和文字“N.36”、“CF.09 K307M”、“ZP.852 742019”，边缘呈锯齿状。",
+      "label": "左上角邮票贴纸，带有植物图案和文字“N.36”、“CF.09",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        551,
+        76,
+        803,
+        262
+      ],
+      "description": "右上角风景照片，显示树木、街道和行人，被回形针装饰部分遮挡。",
+      "label": "右上角风景照片，显示树木、街道和行人，被回形针装饰部分遮挡。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip_1",
+      "kind": "overlay",
+      "bbox": [
+        533,
+        52,
+        587,
+        124
+      ],
+      "description": "位于右上角照片上方的回形针装饰，线条简洁。",
+      "label": "位于右上角照片上方的回形针装饰，线条简洁。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_2",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        197,
+        131,
+        286
+      ],
+      "description": "位于左侧照片上方的回形针装饰，线条简洁。",
+      "label": "位于左侧照片上方的回形针装饰，线条简洁。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        229,
+        355,
+        583
+      ],
+      "description": "左侧风景照片，展示胡同街景、树木和自行车，被回形针装饰部分遮挡。",
+      "label": "左侧风景照片，展示胡同街景、树木和自行车，被回形针装饰部分遮",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        450,
+        335,
+        718,
+        533
+      ],
+      "description": "中间风景照片，展示胡同街景、行人和建筑，被回形针装饰部分遮挡。",
+      "label": "中间风景照片，展示胡同街景、行人和建筑，被回形针装饰部分遮挡",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip_3",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        320,
+        740,
+        390
+      ],
+      "description": "位于中间照片上方的回形针装饰，线条简洁。",
+      "label": "位于中间照片上方的回形针装饰，线条简洁。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pattern",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        562,
+        837,
+        632
+      ],
+      "description": "灰色波点纹理矩形条，位于中间照片下方。",
+      "label": "灰色波点纹理矩形条，位于中间照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        691,
+        900,
+        1200
+      ],
+      "description": "底部宽幅风景照片，展示林荫道、三轮车和遮阳伞，占据画面下半部分。",
+      "label": "底部宽幅风景照片，展示林荫道、三轮车和遮阳伞，占据画面下半部",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stamp_2",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        653,
+        887,
+        797
+      ],
+      "description": "右下角邮票贴纸，带有树木图案和文字“P_17”、“TRNQ9 FRA7B”、“NL.842 735180”，边缘呈锯齿状。",
+      "label": "右下角邮票贴纸，带有树木图案和文字“P_17”、“TRNQ9",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_stamp_1",
+    "photo_top_right",
+    "overlay_clip_1",
+    "overlay_clip_2",
+    "photo_left",
+    "photo_center",
+    "overlay_clip_3",
+    "overlay_pattern",
+    "photo_bottom",
+    "overlay_stamp_2"
+  ]
+}

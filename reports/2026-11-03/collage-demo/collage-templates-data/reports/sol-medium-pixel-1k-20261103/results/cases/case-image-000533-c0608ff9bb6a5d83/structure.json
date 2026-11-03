@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "海岸悬崖、灌木、岩石、海面与远处建筑构成连续的全画布摄影底图，画面延伸至四边；两张独立人物照片遮挡了局部。保留完整海岸环境作为底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        589,
+        166,
+        1047,
+        778
+      ],
+      "description": "右上方竖幅矩形照片，一名年轻女性戴蓝色帽子、穿黑色外套和裙装，双臂交叠站立，正面朝向镜头，人物位于画面偏右下；身后可见樱花树、石墙和庭院地面，摄影环境保留。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        108,
+        578,
+        562,
+        1181
+      ],
+      "description": "左下方竖幅矩形照片，同一年轻女性戴蓝色帽子、穿黑色裙装，正面站立，双手在身前持包，人物位于画面中央偏下；身后可见樱花树、石墙和庭院地面，摄影环境保留。"
+    },
+    {
+      "id": "overlay_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        174,
+        407,
+        485
+      ],
+      "description": "浅色手写风格的四行装饰字样“My / Life / is / Lively”，位于画布左上区域，保留原有自由手绘字形与分行排布。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        532,
+        622,
+        646
+      ],
+      "description": "白色手绘空心星形装饰，位于两张照片之间并压在下方照片右上角及右侧照片左缘上方，保留不规则描边。"
+    }
+  ],
+  "layer_order": [
+    "photo_lower_left",
+    "photo_upper_right",
+    "overlay_handwriting",
+    "overlay_star"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1188
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1188
+      ],
+      "description": "一张连续的咖啡馆桌面摄影底图，画面包含深色木纹桌面、左侧的咖啡杯、右侧的蛋糕切片以及背景中的模糊环境。该照片覆盖整个画布，作为所有前景元素的承托层。",
+      "background_type": "photo",
+      "label": "一张连续的咖啡馆桌面摄影底图，画面包含深色木纹桌面、左侧的咖",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_atom",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        99,
+        221,
+        232
+      ],
+      "description": "左上角的蓝色手绘原子结构图案，带有星星点缀，位于书本照片左上方。",
+      "label": "左上角的蓝色手绘原子结构图案，带有星星点缀，位于书本照片左上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_left",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        280,
+        140,
+        374
+      ],
+      "description": "左侧中部的白色云朵轮廓线条装饰。",
+      "label": "左侧中部的白色云朵轮廓线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        145,
+        140,
+        537,
+        530
+      ],
+      "description": "一本翻开的书，页面上有韩文文字和一只黑猫插画，一只手正扶着书页下沿。",
+      "label": "一本翻开的书，页面上有韩文文字和一只黑猫插画，一只手正扶着书",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        162,
+        644,
+        386
+      ],
+      "description": "右上方的青色气泡群装饰，大小不一，漂浮在背景上。",
+      "label": "右上方的青色气泡群装饰，大小不一，漂浮在背景上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        688,
+        324,
+        824,
+        461
+      ],
+      "description": "右侧的白色线条小兔子贴纸，周围有十字星装饰。",
+      "label": "右侧的白色线条小兔子贴纸，周围有十字星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        30,
+        556,
+        344,
+        659
+      ],
+      "description": "The light slowly softens, the sky\nfading from orange to lilac. Doing\nnothing but watching this gentle fade,\nas if everything can be forgiven,\neverything embraced.",
+      "label": "The light slowly softens, the ",
+      "method": "local",
+      "text": "The light slowly softens, the sky\nfading from orange to lilac. Doing\nnothing but watching this gentle fade,\nas if everything can be forgiven,\neverything embraced.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_curtain",
+      "kind": "photo",
+      "bbox": [
+        454,
+        422,
+        788,
+        754
+      ],
+      "description": "一张竖构图的照片，显示灰白色的窗帘布料，上面有一个简笔画的小动物头像（类似仓鼠或熊）和爱心符号。",
+      "label": "一张竖构图的照片，显示灰白色的窗帘布料，上面有一个简笔画的小",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        675,
+        238,
+        754
+      ],
+      "description": "人物照片左上角的一条透明胶带装饰，呈倾斜粘贴状。",
+      "label": "人物照片左上角的一条透明胶带装饰，呈倾斜粘贴状。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        162,
+        689,
+        524,
+        1051
+      ],
+      "description": "年轻女性的面部特写照片，嘴里叼着食物，眼神看向镜头。",
+      "label": "年轻女性的面部特写照片，嘴里叼着食物，眼神看向镜头。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cloud_right",
+      "kind": "overlay",
+      "bbox": [
+        537,
+        814,
+        621,
+        903
+      ],
+      "description": "右下方的白色云朵轮廓线条装饰。",
+      "label": "右下方的白色云朵轮廓线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        956,
+        221,
+        1079
+      ],
+      "description": "左下角的高音谱号与音符组合装饰，带有粉色爱心。",
+      "label": "左下角的高音谱号与音符组合装饰，带有粉色爱心。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_book",
+    "photo_curtain",
+    "photo_girl",
+    "overlay_atom",
+    "overlay_cloud_left",
+    "overlay_bubbles",
+    "overlay_rabbit",
+    "text_poem",
+    "overlay_tape",
+    "overlay_cloud_right",
+    "overlay_music"
+  ]
+}

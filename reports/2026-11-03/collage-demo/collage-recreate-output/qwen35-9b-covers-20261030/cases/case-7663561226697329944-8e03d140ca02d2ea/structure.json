@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "海滩与天空构成连续摄影画面，边缘露出的沙滩、海水、天空及远处人物姿态一致，场景延伸至画布四边；上层贴纸、照片和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        220,
+        270,
+        440,
+        420
+      ],
+      "description": "矩形照片窗口，内容为冰淇淋甜筒，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        550,
+        330,
+        730,
+        430
+      ],
+      "description": "矩形照片窗口，内容为海面船只，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        470,
+        650,
+        760,
+        820
+      ],
+      "description": "矩形照片窗口，内容为穿白衣女子在街景前摆姿势，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        140,
+        790,
+        290
+      ],
+      "description": "带白点的蓝色五角星贴纸，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        560,
+        410,
+        740
+      ],
+      "description": "黄色五角星贴纸，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_music1",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        600,
+        870,
+        680
+      ],
+      "description": "白色音符贴纸，作为独立装饰保留。"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        430,
+        380,
+        560,
+        640
+      ],
+      "text": "Summer\nSunsets\nnever\ndisappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleaves sweet\nSoftnessto\nevery\nPasserby",
+      "color": "#FFFFCC",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        180,
+        180,
+        520,
+        250
+      ],
+      "text": "Rainy Day",
+      "color": "#E0F7FA",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_icecream",
+    "photo_sea",
+    "photo_woman",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_music1",
+    "text_main",
+    "text_title"
+  ]
+}

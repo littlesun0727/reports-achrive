@@ -1,0 +1,223 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "全画布为强烈失焦的暖色室内摄影画面，深黑、棕褐色区域与下方浅灰色光斑连续延伸至四边，并从三张照片及涂鸦之间露出。背景中没有可辨认的人物，具体室内物件因模糊无法确定；整体摄影环境随客户素材替换，中央局部被独立照片遮挡。",
+      "background_type": "photo",
+      "label": "全画布为强烈失焦的暖色室内摄影画面，深黑、棕褐色区域与下方浅",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        73,
+        255,
+        581,
+        633
+      ],
+      "description": "左上横向餐厅照片，一名长发女子戴粉色花饰网纱帽，穿浅粉色波点裙，坐在餐桌后，一手托在脸旁并向右看。完整窗口包含酒杯、餐盘、玫瑰花桶、气球及暗色餐厅环境。摄影背景保留，矩形边界清楚；右下局部被白色钟表涂鸦覆盖。",
+      "label": "左上横向餐厅照片，一名长发女子戴粉色花饰网纱帽，穿浅粉色波点",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        619,
+        442,
+        1000,
+        949
+      ],
+      "description": "右侧竖向餐桌照片，无清晰人物主体。前景和中部排列多只餐盘、食物及酒杯，上方有红玫瑰花桶和浅色包装花束，后方为暗色餐厅。右下桌布可见红色英文印字，属于实拍内容。保留完整摄影环境及矩形窗口，左缘局部被钟表涂鸦遮挡。",
+      "label": "右侧竖向餐桌照片，无清晰人物主体。前景和中部排列多只餐盘、食",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        170,
+        743,
+        547,
+        1248
+      ],
+      "description": "左下竖向人物照片，一名长发女子戴粉色花饰网纱帽，穿浅粉色波点长裙，站在陈列台前，一手抬至脸旁，另一手撑住台面并看向镜头，下方裙摆被窗口裁切。完整摄影环境包含装饰树、烛台、水晶悬饰、花卉和下方酒瓶陈列柜。上方局部被白色钟表涂鸦覆盖。",
+      "label": "左下竖向人物照片，一名长发女子戴粉色花饰网纱帽，穿浅粉色波点",
+      "method": "local"
+    },
+    {
+      "id": "overlay_head",
+      "kind": "overlay",
+      "bbox": [
+        240,
+        137,
+        382,
+        258
+      ],
+      "description": "左上照片上方的白色粉笔式人物头像涂鸦，包含分瓣帽子、两侧耳朵、脸部轮廓与简略五官，底部紧贴照片上沿，整体保留不规则笔触。",
+      "label": "左上照片上方的白色粉笔式人物头像涂鸦，包含分瓣帽子、两侧耳朵",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        254,
+        341,
+        302
+      ],
+      "description": "左上照片上沿附近的细小白色手绘向上箭头，长竖线配多道斜向箭头笔画，叠在照片内并指向上方头像。",
+      "label": "左上照片上沿附近的细小白色手绘向上箭头，长竖线配多道斜向箭头",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        184,
+        100,
+        230
+      ],
+      "description": "画布左上方独立的白色五角星涂鸦，中心有粗糙填画，边缘保留粉笔颗粒。",
+      "label": "画布左上方独立的白色五角星涂鸦，中心有粗糙填画，边缘保留粉笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sleep_bubble",
+      "kind": "overlay",
+      "bbox": [
+        706,
+        285,
+        876,
+        437
+      ],
+      "description": "右侧照片上方的白色粉笔对话气泡，轮廓近椭圆并带向下尖角，内部三个大小及位置错落的“z”字作为整体装饰保留。",
+      "label": "右侧照片上方的白色粉笔对话气泡，轮廓近椭圆并带向下尖角，内部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        1014,
+        378,
+        1054,
+        433
+      ],
+      "description": "右上方靠近画布右缘的白色五角星涂鸦，轮廓与内部交叉笔画一体保留。",
+      "label": "右上方靠近画布右缘的白色五角星涂鸦，轮廓与内部交叉笔画一体保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clock",
+      "kind": "overlay",
+      "bbox": [
+        393,
+        547,
+        639,
+        898
+      ],
+      "description": "画面中央白色粉笔式钟表涂鸦，包含不规则圆形外轮廓、上方圆弧凸起、错落手写数字和向上及向右的指针。整体跨在左上照片右下角、左下照片上缘和右侧照片左缘之上，保留全部线条与颗粒笔触。",
+      "label": "画面中央白色粉笔式钟表涂鸦，包含不规则圆形外轮廓、上方圆弧凸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_diamonds",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        691,
+        95,
+        782
+      ],
+      "description": "画布左侧中部的一组两枚白色空心菱形涂鸦，上方较小、下方较大，斜向错落排列，作为一组附属点缀保留。",
+      "label": "画布左侧中部的一组两枚白色空心菱形涂鸦，上方较小、下方较大，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        953,
+        713,
+        1013
+      ],
+      "description": "右侧照片下方的独立白色五角星涂鸦，较粗的轮廓配内部填画，保留不规则粉笔边缘。",
+      "label": "右侧照片下方的独立白色五角星涂鸦，较粗的轮廓配内部填画，保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        1266,
+        166,
+        1358
+      ],
+      "description": "左下照片下方的白色空心五角星涂鸦，星角细长且不规则，带少量重叠笔画。",
+      "label": "左下照片下方的白色空心五角星涂鸦，星角细长且不规则，带少量重",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_house_tree",
+      "kind": "overlay",
+      "bbox": [
+        607,
+        1116,
+        962,
+        1377
+      ],
+      "description": "右下方完整白色粉笔风景涂鸦，由小屋及其右侧树木组成。小屋带斜线密集填画的屋顶、两处小圆窗和拱形门；树木带圆弧树冠、细长树干及底部地面线。全部成员作为同一局部装饰保留。",
+      "label": "右下方完整白色粉笔风景涂鸦，由小屋及其右侧树木组成。小屋带斜",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1410,
+        1077,
+        1435
+      ],
+      "description": "右下角低对比度灰色小水印，带圆角外形及可辨“醒图”字样，作为完整标识保留。",
+      "label": "右下角低对比度灰色小水印，带圆角外形及可辨“醒图”字样，作为",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_upper_left",
+    "photo_right",
+    "photo_lower_left",
+    "overlay_head",
+    "overlay_arrow",
+    "overlay_star_upper_left",
+    "overlay_sleep_bubble",
+    "overlay_star_upper_right",
+    "overlay_clock",
+    "overlay_diamonds",
+    "overlay_star_middle_right",
+    "overlay_star_lower_left",
+    "overlay_house_tree",
+    "overlay_watermark"
+  ]
+}

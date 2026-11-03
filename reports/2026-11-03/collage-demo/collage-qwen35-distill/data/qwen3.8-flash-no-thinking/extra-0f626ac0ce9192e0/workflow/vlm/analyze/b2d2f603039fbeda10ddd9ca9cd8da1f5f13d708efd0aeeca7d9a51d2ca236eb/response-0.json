@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-00564c3b-eeb9-9d28-90b9-bca6a67e21de",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 8377,
+    "total_tokens": 9722,
+    "completion_tokens": 1345,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 2496,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1345
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的深蓝色海面摄影底图，覆盖整个画布。画面展示了波光粼粼的海水纹理和白色的浪花泡沫，作为所有上层照片和装饰元素的背景环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_stars_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        58,\n        32,\n        170,\n        120\n      ],\n      \"description\": \"位于左上角的一组三个方形贴纸，分别印有黑色实心五角星、手绘风格空心五角星及橙色线条五角星图案。\"\n    },\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        106,\n        74,\n        560,\n        305\n      ],\n      \"description\": \"位于左上方的矩形照片，显示一名戴针织帽的女子在岩石海岸边张开双臂微笑，背景为海面和悬崖。\"\n    },\n    {\n      \"id\": \"text_top_right\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        585,\n        115,\n        990,\n        270\n      ],\n      \"text\": \"When we arrived at the\\nsouthernmost tip of the\\nAfrican continent, Cape Town\\nwas right in front of us\\nan unforgettable journey.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_doodle_sparkle\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        425,\n        150,\n        550,\n          270\n      ],\n      \"description\": \"白色手绘风格的烟花或闪光线条涂鸦，叠加在左上方照片的右侧区域。\"\n    },\n    {\n      \"id\": \"overlay_doodle_star_path\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        145,\n        280,\n        360,\n        435\n      ],\n      \"description\": \"粉色手绘线条组成的路径，包含一个大的空心五角星、一串圆圈轨迹以及末端的一个小四角星。\"\n    },\n    {\n      \"id\": \"overlay_tape_center\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        475,\n        335,\n        585,\n        395\n      ],\n      \"description\": \"一块蓝白格纹的纸胶带，倾斜粘贴在中间照片的上边缘。\"\n    },\n    {\n      \"id\": \"photo_center\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        285,\n        365,\n        765,\n        600\n      ],\n      \"description\": \"位于中间的矩形照片，俯拍视角展示两人在清澈碧绿的水中游泳，右下角有红色的日期水印“'89 4 2”。\"\n    },\n    {\n      \"id\": \"overlay_doodle_fish\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        780,\n        570,\n        900,\n        640\n      ],\n      \"description\": \"白色手绘线条的鱼形涂鸦，带有气泡元素，位于中间照片的右下方。\"\n    },\n    {\n      \"id\": \"overlay_island_sticker\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        375,\n        635,\n        500,\n        730\n      ],\n      \"description\": \"黄色底色的小岛插画贴纸，绘有三棵椰子树，位于中间照片与底部照片之间。\"\n    },\n    {\n      \"id\": \"overlay_text_box_bottom_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        105,\n        760,\n        390,\n        865\n      ],\n      \"description\": \"浅青色矩形色块底板，上面印有黑色的手写体英文句子：“Summer is a blue sea\\na free breeze\\na passionate and romantic season”。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        435,\n        670,\n        905,\n        900\n      ],\n      \"description\": \"位于右下方的矩形照片，显示一名女子站在海边栈道旁，周围有芦荟植物，旁边有绿色的指示牌写着“Emergency Entrance No Parking Between Yellow Lines”。\"\n    },\n    {\n      \"id\": \"overlay_logo_watermark\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        775,\n        935,\n        995,\n        985\n      ],\n      \"description\": \"右下角的白色小红书Logo图标及文字水印“小红书号：yes854994023”。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"photo_center\",\n    \"photo_bottom_right\",\n    \"overlay_stars_top_left\",\n    \"overlay_doodle_sparkle\",\n    \"overlay_doodle_star_path\",\n    \"overlay_tape_center\",\n    \"overlay_doodle_fish\",\n    \"overlay_island_sticker\",\n    \"overlay_text_box_bottom_left\",\n    \"text_top_right\",\n    \"overlay_logo_watermark\"\n  ]\n}",
+  "tool_calls": false
+}

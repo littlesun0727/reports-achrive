@@ -1,0 +1,208 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1800
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1800
+      ],
+      "description": "全画布固定底图，呈现淡紫色调的纸张纹理，上面印有深色的花卉图案和书法文字。作为承载照片的固定背景，其纹理和图案保留原样。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，呈现淡紫色调的纸张纹理，上面印有深色的花卉图",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        90,
+        90,
+        450,
+        630
+      ],
+      "description": "左上角拍立得风格照片，主体为金发女性，手持蝴蝶，照片带有白色边框和底部文字。",
+      "label": "左上角拍立得风格照片，主体为金发女性，手持蝴蝶，照片带有白色",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        360,
+        540,
+        855,
+        1170
+      ],
+      "description": "右侧拍立得风格照片，主体为金发女性，手托脸颊，照片带有白色边框和底部文字。",
+      "label": "右侧拍立得风格照片，主体为金发女性，手托脸颊，照片带有白色边",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        45,
+        1080,
+        540,
+        1764
+      ],
+      "description": "左下角拍立得风格照片，主体为金发女性，手持蝴蝶靠近面部，照片带有白色边框和底部文字。",
+      "label": "左下角拍立得风格照片，主体为金发女性，手持蝴蝶靠近面部，照片",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        684,
+        378,
+        1044
+      ],
+      "description": "左侧中部的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景文字之上。",
+      "label": "左侧中部的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景文字之上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        0,
+        720,
+        504
+      ],
+      "description": "右上角的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景花卉之上。",
+      "label": "右上角的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景花卉之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        1260,
+        882,
+        1764
+      ],
+      "description": "右下角的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景花卉之上。",
+      "label": "右下角的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景花卉之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        1224,
+        162,
+        1368
+      ],
+      "description": "左下角的紫色蝴蝶装饰，叠加在照片边框附近。",
+      "label": "左下角的紫色蝴蝶装饰，叠加在照片边框附近。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        576,
+        306,
+        684
+      ],
+      "description": "左侧中部的紫色蝴蝶装饰，叠加在背景之上。",
+      "label": "左侧中部的紫色蝴蝶装饰，叠加在背景之上。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        0,
+        36,
+        90,
+        684
+      ],
+      "description": "丁二奇观看堂安书卷",
+      "label": "丁二奇观看堂安书卷",
+      "method": "local",
+      "text": "丁二奇观看堂安书卷",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        720,
+        36,
+        882,
+        504
+      ],
+      "description": "到才是英雄",
+      "label": "到才是英雄",
+      "method": "local",
+      "text": "到才是英雄",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        720,
+        1080,
+        882,
+        1620
+      ],
+      "description": "亦如字书于西成",
+      "label": "亦如字书于西成",
+      "method": "local",
+      "text": "亦如字书于西成",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

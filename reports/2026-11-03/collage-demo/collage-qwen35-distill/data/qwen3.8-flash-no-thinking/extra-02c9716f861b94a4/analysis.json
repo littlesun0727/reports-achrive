@@ -1,0 +1,270 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#7A7571"
+      }
+    },
+    {
+      "id": "photo_coffee_main",
+      "kind": "photo",
+      "bbox": [
+        131,
+        125,
+        588,
+        740
+      ],
+      "description": "竖向矩形照片，显示一杯奶茶放在电脑键盘前的杯托上，背景有玩偶和屏幕。照片边缘带有白色手绘风格的粗糙描边。",
+      "label": "竖向矩形照片，显示一杯奶茶放在电脑键盘前的杯托上，背景有玩偶",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars_white",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        173,
+        311,
+        326
+      ],
+      "description": "位于主照片左上角的三个白色手绘星星装饰，包含两个空心五角星和一个实心五角星。",
+      "label": "位于主照片左上角的三个白色手绘星星装饰，包含两个空心五角星和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodles_right",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        138,
+        840,
+        454
+      ],
+      "description": "右侧的一组白色手绘涂鸦，包括放射线、圆圈、笑脸符号等抽象线条图案。",
+      "label": "右侧的一组白色手绘涂鸦，包括放射线、圆圈、笑脸符号等抽象线条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cup_eyes",
+      "kind": "overlay",
+      "bbox": [
+        641,
+        484,
+        802,
+        614
+      ],
+      "description": "一个黑色小杯子形状的贴纸，上面有一对大眼睛和红色舌头，作为独立装饰元素。",
+      "label": "一个黑色小杯子形状的贴纸，上面有一对大眼睛和红色舌头，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "frame_star_blue",
+      "kind": "frame",
+      "bbox": [
+        12,
+        544,
+        252,
+        787
+      ],
+      "description": "蓝色五角星形状的照片窗口，内部填充了蓝天与电线杆的摄影画面，边缘有白色粗糙描边。",
+      "photo_id": [
+        "photo_star_content"
+      ],
+      "label": "蓝色五角星形状的照片窗口，内部填充了蓝天与电线杆的摄影画面，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_star_content",
+      "kind": "photo",
+      "bbox": [
+        12,
+        544,
+        252,
+        787
+      ],
+      "description": "蓝色五角星框内的摄影内容，显示仰视视角的蓝天、电线杆及部分文字“中国电工程”。",
+      "label": "蓝色五角星框内的摄影内容，显示仰视视角的蓝天、电线杆及部分文",
+      "method": "local"
+    },
+    {
+      "id": "overlay_label_text",
+      "kind": "overlay",
+      "bbox": [
+        348,
+        591,
+        816,
+        742
+      ],
+      "description": "米色撕纸效果的长条标签底板，边缘呈不规则撕裂状，承载文字内容。",
+      "label": "米色撕纸效果的长条标签底板，边缘呈不规则撕裂状，承载文字内容",
+      "method": "extract"
+    },
+    {
+      "id": "text_label",
+      "kind": "text",
+      "bbox": [
+        386,
+        634,
+        763,
+        672
+      ],
+      "description": "不管何时，生活的目标是健康和快乐",
+      "label": "不管何时，生活的目标是健康和快乐",
+      "method": "local",
+      "text": "不管何时，生活的目标是健康和快乐",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        182,
+        774,
+        326,
+        902
+      ],
+      "description": "两只白色线条勾勒的小鸟涂鸦，位于左侧空白处。",
+      "label": "两只白色线条勾勒的小鸟涂鸦，位于左侧空白处。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_player",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        941,
+        370,
+        1120
+      ],
+      "description": "深灰色半透明圆角矩形的音乐播放器界面UI，包含音符图标、播放进度条和控制按钮。",
+      "label": "深灰色半透明圆角矩形的音乐播放器界面UI，包含音符图标、播放",
+      "method": "extract"
+    },
+    {
+      "id": "photo_scenery",
+      "kind": "photo",
+      "bbox": [
+        370,
+        774,
+        830,
+        1133
+      ],
+      "description": "横向矩形风景照片，显示公园内的池塘、树木（含樱花）和草坪。照片右上角叠加了白色场记板涂鸦和韩文“감!”字样。",
+      "label": "横向矩形风景照片，显示公园内的池塘、树木（含樱花）和草坪。照",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bracket_bottom",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        1069,
+        859,
+        1152
+      ],
+      "description": "风景照片右下角的白色直角折线装饰。",
+      "label": "风景照片右下角的白色直角折线装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        514,
+        1146,
+        725,
+        1184
+      ],
+      "description": "去有风的地方",
+      "label": "去有风的地方",
+      "method": "local",
+      "text": "去有风的地方",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        216,
+        83,
+        394,
+        122
+      ],
+      "description": "coffee",
+      "label": "coffee",
+      "method": "local",
+      "text": "coffee",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bracket_top",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        96,
+        192,
+        179
+      ],
+      "description": "左上方的白色直角折线装饰，位于“coffee”文字左侧。",
+      "label": "左上方的白色直角折线装饰，位于“coffee”文字左侧。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_coffee_main",
+    "overlay_stars_white",
+    "overlay_doodles_right",
+    "overlay_cup_eyes",
+    "frame_star_blue",
+    "photo_star_content",
+    "overlay_label_text",
+    "text_label",
+    "overlay_birds",
+    "overlay_music_player",
+    "photo_scenery",
+    "overlay_bracket_bottom",
+    "text_bottom",
+    "text_top",
+    "overlay_bracket_top"
+  ]
+}

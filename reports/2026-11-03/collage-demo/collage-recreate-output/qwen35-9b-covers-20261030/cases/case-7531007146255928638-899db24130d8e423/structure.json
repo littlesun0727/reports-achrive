@@ -1,0 +1,124 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅绿色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        115,
+        120,
+        520,
+        590
+      ],
+      "description": "人物半身照，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        520,
+        530,
+        920,
+        900
+      ],
+      "description": "人物半身照，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        560,
+        270,
+        920,
+        440
+      ],
+      "description": "四叶草排列照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        50,
+        170,
+        170
+      ],
+      "description": "带有四叶草图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        700,
+        400,
+        870
+      ],
+      "description": "带有四叶草图案和文字的标签贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        520,
+        180,
+        920,
+        240
+      ],
+      "text": "Cut film strips held more truth than the final reel.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        560,
+        400,
+        920,
+        440
+      ],
+      "text": "Am I the luckiest girl or what?!?",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        200,
+        630,
+        480,
+        680
+      ],
+      "text": "\"Vintage flashbulbs started 1920s dust awake\"",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

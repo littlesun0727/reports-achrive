@@ -1,0 +1,208 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_pattern",
+    "description": "全画布固定拼贴底图：主体为灰底白色圆点图案，右侧为纵向黑白钢琴键印刷条，两者之间有白色撕纸状边缘与细点纹理。图案在画布四边及独立对象间隙连续可见，保留原样；照片、标签和其他独立装饰不归入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        247,
+        123,
+        808,
+        553
+      ],
+      "description": "上方横向咖啡甜点照片，无人物面部；右侧为被手扶住的棕白色玩偶，中央后方为冰咖啡，左侧为盘装布丁和餐匙，保留木桌及全部摄影环境。照片四周有沿矩形窗口形成的白色边缘，左上被黄色标签覆盖，右上及右下被星形装饰遮挡，下沿被餐具装饰覆盖。玩偶上的印字属于摄影内容。"
+    },
+    {
+      "id": "photo_pudding",
+      "kind": "photo",
+      "bbox": [
+        58,
+        217,
+        276,
+        417
+      ],
+      "description": "左上独立布丁摄影单元，包括完整白色圆盘、焦糖布丁、奶油和带长梗的红樱桃。斜俯视近景，沿盘子和樱桃梗的完整组合轮廓去除摄影背景，直接叠在圆点底图及上方照片左缘上，无独立纸框。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        80,
+        714,
+        599,
+        1305
+      ],
+      "description": "左下竖向甜点照片，无可见人物面部。透明塑料盒内有覆奶油和橙色果肉的蛋糕，盒盖立起，底部及右侧保留蓝白条纹衣料，顶部保留暗色室内环境。整个矩形摄影窗口保留，四周为沿窗口形成的白色边缘；上缘被猫形气泡遮挡，下缘及左右局部被标签和星形贴纸覆盖。"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        663,
+        947,
+        768,
+        1080
+      ],
+      "description": "右侧小型竖向饮品照片，中央为透明玻璃杯中的浅蓝色饮品与冰块，保留浅色桌面和背景，无人物。照片位于邮票形纸框的单个内口中，不去除摄影环境。"
+    },
+    {
+      "id": "frame_drink",
+      "kind": "frame",
+      "bbox": [
+        648,
+        933,
+        783,
+        1097
+      ],
+      "description": "承载右侧饮品照片的白色邮票形纸框，四边为连续齿孔状轮廓，内口周围有浅灰白纸面边沿。完整纸框保留，框沿位于饮品照片上方。",
+      "photo_id": [
+        "photo_drink"
+      ]
+    },
+    {
+      "id": "overlay_yummy",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        87,
+        342,
+        150
+      ],
+      "description": "左上浅黄色横向贴纸，带细小棕色星点、黑色圆点与小星、餐盘餐具图案，以及黑色斜体造型字“yummy”。文字与纸底和图案构成完整设计，整体保留，右端压住上方照片的白边。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        44,
+        873,
+        197
+      ],
+      "description": "右上浅粉色五角星贴纸，内部布满棕灰色小圆点，保留完整尖角和印刷图案；叠在上方照片右上角及底图交界处。"
+    },
+    {
+      "id": "overlay_small_label",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        509,
+        320,
+        573
+      ],
+      "description": "上方照片左下角的浅粉色横向标签，包含深色点纹、两枚黑色爪印、中央浅色爱心及黑色蝴蝶结、右侧“٩٩”状可爱符号。内部成员与底板整体保留，覆盖照片左下边缘。"
+    },
+    {
+      "id": "overlay_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        455,
+        537,
+        615
+      ],
+      "description": "成对竖放的银灰色叉子和勺子固定装饰，两柄均系白色细线蝴蝶结。餐具、蝴蝶结及可见阴影作为同一局部设计保留，跨过上方照片下边缘，手柄延伸到圆点底图上。"
+    },
+    {
+      "id": "overlay_burst",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        411,
+        899,
+        656
+      ],
+      "description": "右中深灰色多尖角爆炸形贴纸，内部散布粉色小星，中央为白色多行字“Smile,\nbreathe,\nand\ngo slowly.”。尖角、文字和小星整体保留，覆盖上方照片右下角并延伸至底图及右侧琴键边缘。"
+    },
+    {
+      "id": "overlay_dotted_star",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        748,
+        573,
+        1266
+      ],
+      "description": "叠在下方照片上的浅灰白色装饰单元：左上一枚实心五角星，配合围绕照片内部的多排小圆点线，线条在上部斜折并沿两侧向下延伸，底部局部被文字标签遮挡。保留星形与整组点线的原有位置，不并入摄影内容。"
+    },
+    {
+      "id": "overlay_cat_bubble",
+      "kind": "overlay",
+      "bbox": [
+        472,
+        658,
+        721,
+        833
+      ],
+      "description": "白色猫头轮廓对话气泡，黑色细边，顶部两只尖耳、左下有对话尾尖；内部黑色韩文“오늘 기분이 아주 좋아”。字样与猫形载体整体保留，遮住下方照片的右上角。"
+    },
+    {
+      "id": "overlay_vertical_label",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        1060,
+        112,
+        1331
+      ],
+      "description": "左下竖向窄白纸标签，边缘有轻微不规则纸角，内部有灰棕色小星点、黑色星形和横线图案、蓝色小图标以及竖排“@Plog”等字样。整张标签保留，压在下方照片左侧白边上。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        531,
+        1092,
+        673,
+        1232
+      ],
+      "description": "右下浅粉色五角星贴纸，内部为棕灰色小圆点，与右上星形为分离的独立显示位置。左侧尖角叠在下方照片右缘，完整星形保留。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        1255,
+        515,
+        1291
+      ],
+      "description": "下方照片底部的浅灰色横向文字底条，白色手写造型字“THIS IS A BEAUTIFUL”。字形与底条共同构成固定标签，整体保留，覆盖照片及点线装饰下部。"
+    },
+    {
+      "id": "overlay_bottom_label",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        1254,
+        815,
+        1334
+      ],
+      "description": "右下浅粉色横向贴纸，带密集白色小圆点及略不规则纸边，内部为黑色猫脸表情笔画和右侧两枚黑色爪印。全部图案随标签整体保留，左缘压住下方照片右下边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "photo_drink",
+    "frame_drink",
+    "photo_pudding",
+    "overlay_yummy",
+    "overlay_star_top",
+    "overlay_small_label",
+    "overlay_cutlery",
+    "overlay_burst",
+    "overlay_dotted_star",
+    "overlay_cat_bubble",
+    "overlay_vertical_label",
+    "overlay_star_bottom",
+    "overlay_caption",
+    "overlay_bottom_label"
+  ]
+}

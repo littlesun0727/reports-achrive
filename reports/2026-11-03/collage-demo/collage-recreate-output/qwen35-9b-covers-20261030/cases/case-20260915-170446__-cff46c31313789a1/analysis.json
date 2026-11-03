@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "一张连续的全画布摄影底图，展示雪山、草地、天空及右下角的马匹。画布边缘露出的场景连续延伸至四边，上层装饰和照片遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续的全画布摄影底图，展示雪山、草地、天空及右下角的马匹",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_moon",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        128,
+        816,
+        448
+      ],
+      "description": "顶部手绘风格的月亮周期图，包含蓝色矩形背景、黄色月亮剪影、蓝色线条和文字'Moon'，整体作为装饰单元保留。",
+      "label": "顶部手绘风格的月亮周期图，包含蓝色矩形背景、黄色月亮剪影、蓝",
+      "method": "extract"
+    },
+    {
+      "id": "photo_spring",
+      "kind": "photo",
+      "bbox": [
+        48,
+        832,
+        240,
+        1088
+      ],
+      "description": "左下角矩形照片，展示人物背影与红色树林，保留摄影环境，窗口边缘有蓝色手绘描边。",
+      "label": "左下角矩形照片，展示人物背影与红色树林，保留摄影环境，窗口边",
+      "method": "local"
+    },
+    {
+      "id": "photo_summer",
+      "kind": "photo",
+      "bbox": [
+        192,
+        576,
+        336,
+        832
+      ],
+      "description": "左侧中部矩形照片，展示日落水面与人物背影，保留摄影环境，窗口边缘有蓝色手绘描边。",
+      "label": "左侧中部矩形照片，展示日落水面与人物背影，保留摄影环境，窗口",
+      "method": "local"
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        576,
+        512,
+        720,
+        704
+      ],
+      "description": "右侧中部矩形照片，展示湖边栏杆与人物背影，保留摄影环境，窗口边缘有蓝色手绘描边。",
+      "label": "右侧中部矩形照片，展示湖边栏杆与人物背影，保留摄影环境，窗口",
+      "method": "local"
+    },
+    {
+      "id": "photo_winter",
+      "kind": "photo",
+      "bbox": [
+        768,
+        768,
+        912,
+        960
+      ],
+      "description": "右下角矩形照片，展示室内窗边人物与绿植，保留摄影环境，窗口边缘有蓝色手绘描边。",
+      "label": "右下角矩形照片，展示室内窗边人物与绿植，保留摄影环境，窗口边",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        336,
+        832,
+        624,
+        1024
+      ],
+      "description": "底部中央黄色五角星装饰，带有笑脸表情和蓝色放射线条，作为独立装饰单元保留。",
+      "label": "底部中央黄色五角星装饰，带有笑脸表情和蓝色放射线条，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        192,
+        26,
+        768,
+        102
+      ],
+      "description": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "label": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自",
+      "method": "local",
+      "text": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        240,
+        1178,
+        720,
+        1229
+      ],
+      "description": "在无数个瞬间里感受自己",
+      "label": "在无数个瞬间里感受自己",
+      "method": "local",
+      "text": "在无数个瞬间里感受自己",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_moon",
+    "photo_spring",
+    "photo_summer",
+    "photo_autumn",
+    "photo_winter",
+    "overlay_star",
+    "text_top",
+    "text_bottom"
+  ]
+}

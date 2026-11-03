@@ -1,0 +1,42 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影画面，包含远处的喀斯特山峰、近处的水面倒影、对岸的树林与游船。画面边缘露出的场景连续延伸至画布四边，构成完整的摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        300,
+        1000,
+        1000
+      ],
+      "description": "一位身穿白色上衣的女性，位于画面前景。其身体主体被抠图处理，背景透明，仅保留人物本身。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        820,
+        900,
+        1000,
+        980
+      ],
+      "text": "小红书\n小红书号：49321651677",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "text_1"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-655c7547-6642-9cd3-9984-33395df15565",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7675,
+    "completion_tokens": 728,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 728
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"咖啡馆内部场景的连续摄影底图，包含模糊的木质桌椅、墙面装饰和灯光。画面延伸至画布四边，作为所有独立照片和装饰元素的背景层。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        73,\n        95,\n        548,\n        568\n      ],\n      \"description\": \"矩形照片，显示一名女子坐在桌前看书，桌上有咖啡杯。保留完整摄影环境，边缘清晰无特殊效果。\"\n    },\n    {\n      \"id\": \"overlay_doodle_cat\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        620,\n        100,\n        970,\n        300\n      ],\n      \"description\": \"白色手绘涂鸦，包含猫脸轮廓、星星、爱心及文字“G3”。线条具有粉笔质感，位于背景之上。\"\n    },\n    {\n      \"id\": \"photo_heart\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        620,\n        330,\n        920,\n        570\n      ],\n      \"description\": \"心形窗口照片，内容为一份带樱桃的甜点。摄影内容被限制在心形边界内，周围是透明区域露出底图。\"\n    },\n    {\n      \"id\": \"overlay_doodle_cake\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        60,\n        620,\n        440,\n        960\n      ],\n      \"description\": \"白色手绘涂鸦，包含蛋糕切片图案、盘子、叉子、对话气泡（内含文字“今日有咖”）及散落的星星。整体作为一个固定装饰单元。\"\n    },\n    {\n      \"id\": \"frame_tape_bottom_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        490,\n        680,\n        950,\n        950\n      ],\n      \"description\": \"由两条半透明胶带固定的矩形照片框。胶带分别位于左上角和右下角，形成视觉上的粘贴效果，承载下方的照片。\",\n      \"photo_id\": [\n        \"photo_bottom_right\"\n      ]\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        495,\n        685,\n        945,\n        945\n      ],\n      \"description\": \"矩形照片，显示一名女子手持手机自拍。保留完整摄影环境，位于胶带框架下方。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_left\",\n    \"overlay_doodle_cat\",\n    \"photo_heart\",\n    \"overlay_doodle_cake\",\n    \"photo_bottom_right\",\n    \"frame_tape_bottom_right\"\n  ]\n}",
+  "tool_calls": false
+}

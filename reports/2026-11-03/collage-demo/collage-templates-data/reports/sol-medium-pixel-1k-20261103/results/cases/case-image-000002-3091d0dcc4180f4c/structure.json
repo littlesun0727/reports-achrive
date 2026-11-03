@@ -1,0 +1,137 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#C8A99B"
+  },
+  "objects": [
+    {
+      "id": "photo_plush",
+      "kind": "photo",
+      "bbox": [
+        63,
+        206,
+        702,
+        744
+      ],
+      "description": "左上圆角矩形照片，手持粉色针织帽 Hello Kitty 玩偶，背景可见印有 Hello Kitty 图案的粉色登机牌及室内座椅；人物手部、玩偶、登机牌和环境共同属于同一张摄影画面。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        307,
+        839,
+        973,
+        1725
+      ],
+      "description": "右下竖幅自拍照片，一名长发女性戴浅色棒球帽、穿粉色上衣，近景面对镜头，身后可见窗帘和窗边；保留完整摄影环境，矩形显示区域。"
+    },
+    {
+      "id": "text_travel",
+      "kind": "text",
+      "bbox": [
+        519,
+        779,
+        860,
+        833
+      ],
+      "text": "#travel girly",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_brown_top",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        184,
+        808,
+        263
+      ],
+      "description": "照片右上方的深棕色五角星贴饰，完整独立图形。"
+    },
+    {
+      "id": "overlay_star_white_top",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        302,
+        897,
+        408
+      ],
+      "description": "右上区域的白色五角星贴饰，完整独立图形。"
+    },
+    {
+      "id": "overlay_star_white_mid",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        907,
+        173,
+        1010
+      ],
+      "description": "中部左侧、自拍照片外的白色五角星贴饰，完整独立图形。"
+    },
+    {
+      "id": "overlay_star_brown_mid",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        1158,
+        258,
+        1246
+      ],
+      "description": "左侧自拍照片旁的深棕色五角星贴饰，完整独立图形。"
+    },
+    {
+      "id": "overlay_star_white_bottom",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        1384,
+        168,
+        1490
+      ],
+      "description": "左下区域的白色五角星贴饰，完整独立图形。"
+    },
+    {
+      "id": "overlay_heart_wings",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        981,
+        880,
+        1083
+      ],
+      "description": "自拍照片右上部叠加的粉色爱心、白蓝色翅膀和小熊图案，作为一个完整贴纸保留，覆盖照片中的窗帘区域。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        999,
+        1829,
+        1035,
+        1849
+      ],
+      "description": "画布右下边缘的浅色小型平台水印标记，含圆角底形及难以辨认的细小字样，整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_plush",
+    "photo_portrait",
+    "text_travel",
+    "overlay_star_brown_top",
+    "overlay_star_white_top",
+    "overlay_star_white_mid",
+    "overlay_star_brown_mid",
+    "overlay_star_white_bottom",
+    "overlay_heart_wings",
+    "overlay_watermark"
+  ]
+}

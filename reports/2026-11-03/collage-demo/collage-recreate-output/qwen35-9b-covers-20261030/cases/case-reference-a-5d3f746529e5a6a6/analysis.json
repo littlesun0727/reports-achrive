@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "一张连续的摄影画面承载全画布，主体为连绵的雪山与山脚下的草地，天空为蓝色。画面中可见右侧有一匹马，左下角有木质围栏。上层的手绘元素、照片窗口和文字遮挡了部分山体和天空，但摄影环境整体连续延伸至画布边缘，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续的摄影画面承载全画布，主体为连绵的雪山与山脚下的草地",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_moon",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        192,
+        806,
+        448
+      ],
+      "description": "顶部中央的深蓝色半透明矩形背景块，上方有手绘的'Moon'字样及月亮图案，下方有线条连接至照片窗口。",
+      "label": "顶部中央的深蓝色半透明矩形背景块，上方有手绘的'Moon'字",
+      "method": "extract"
+    },
+    {
+      "id": "photo_spring",
+      "kind": "photo",
+      "bbox": [
+        58,
+        832,
+        230,
+        1126
+      ],
+      "description": "左下角照片窗口，显示一位戴帽子的女性站在木质围栏旁，背景为红褐色的树林。窗口上方有'Spring'字样。",
+      "label": "左下角照片窗口，显示一位戴帽子的女性站在木质围栏旁，背景为红",
+      "method": "local"
+    },
+    {
+      "id": "photo_summer",
+      "kind": "photo",
+      "bbox": [
+        192,
+        576,
+        365,
+        832
+      ],
+      "description": "左侧中部照片窗口，显示日落时分的城市天际线，前景有水面和一位背对镜头的人物。窗口上方有'Summer'字样。",
+      "label": "左侧中部照片窗口，显示日落时分的城市天际线，前景有水面和一位",
+      "method": "local"
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        595,
+        512,
+        768,
+        742
+      ],
+      "description": "右侧中部照片窗口，显示一位女性站在栏杆旁眺望水面，背景有树木和天空。窗口上方有'Autumn'字样。",
+      "label": "右侧中部照片窗口，显示一位女性站在栏杆旁眺望水面，背景有树木",
+      "method": "local"
+    },
+    {
+      "id": "photo_winter",
+      "kind": "photo",
+      "bbox": [
+        787,
+        768,
+        941,
+        998
+      ],
+      "description": "右下角照片窗口，显示一位女性坐在窗边，窗外有绿植。窗口上方有'Winter'字样。",
+      "label": "右下角照片窗口，显示一位女性坐在窗边，窗外有绿植。窗口上方有",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        870,
+        595,
+        1088
+      ],
+      "description": "底部中央的黄色五角星图案，带有笑脸表情，周围散布着若干小星星装饰。",
+      "label": "底部中央的黄色五角星图案，带有笑脸表情，周围散布着若干小星星",
+      "method": "extract"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        192,
+        38,
+        768,
+        128
+      ],
+      "description": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "label": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自",
+      "method": "local",
+      "text": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        192,
+        1152,
+        768,
+        1216
+      ],
+      "description": "在无数个瞬间里感受自己",
+      "label": "在无数个瞬间里感受自己",
+      "method": "local",
+      "text": "在无数个瞬间里感受自己",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_spring",
+    "photo_summer",
+    "photo_autumn",
+    "photo_winter",
+    "overlay_moon",
+    "overlay_star",
+    "text_top",
+    "text_bottom"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "case-7556258375718325528-8cffae9ac21a2fca",
+  "reference": "E:\\datas\\covers\\7556258375718325528.png",
+  "relative_path": "7556258375718325528.png",
+  "status": "complete",
+  "started_at": "2026-10-30T08:08:21.635850+00:00",
+  "objects": 6,
+  "kinds": {
+    "photo": 2,
+    "frame": 2,
+    "text": 2
+  },
+  "background_type": "photographic",
+  "seconds": 27.72,
+  "evidence": {
+    "version": "structure-analysis-v9-12-frame-photo-list",
+    "coordinate_mode": "normalized_1000",
+    "first_pass_valid": false,
+    "repaired": true,
+    "first_error": "analyze 首次输出未通过校验，未自动重试或修正：objects.3.bbox.3: 1010 is greater than the maximum of 1000",
+    "repair_kind": "field_patch",
+    "status": "accepted",
+    "objects": 7,
+    "generated_text_units": 2,
+    "aabb_geometry": true,
+    "normalizations": [
+      {
+        "contract": "collage.workflow.stages.analyze.normalize:v2",
+        "changed": true,
+        "raw_schema_valid": false
+      }
+    ]
+  },
+  "usage": {
+    "requests": 2,
+    "prompt_tokens": 9062,
+    "completion_tokens": 857,
+    "reported_cost_usd": 0,
+    "cost_complete": false
+  },
+  "calls": 2,
+  "raw_schema_valid": false
+}

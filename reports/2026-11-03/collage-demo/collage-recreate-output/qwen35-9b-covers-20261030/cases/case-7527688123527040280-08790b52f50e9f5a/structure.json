@@ -1,0 +1,191 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续摄影画面作为全画布底图，呈现模糊的室内环境，包含暖色调灯光、木质家具和绿植的虚化轮廓。画布边缘露出的场景连续延伸至四边，上层照片、文字和装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        85,
+        185,
+        445,
+        555
+      ],
+      "description": "左上角照片，展示一盏复古台灯、一杯拿铁咖啡、蕾丝桌布以及多个毛绒玩偶（包括绿色恐龙、白色小熊、黄色小鸭等）。保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        495,
+        290,
+        935,
+        520
+      ],
+      "description": "右侧照片，展示一个深色木质书架，架子上摆满了书籍。保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        560,
+        575,
+        900,
+        815
+      ],
+      "description": "右下角照片，展示一个带有绿色花纹的盘子，盘内盛放着四个戴眼镜的毛绒玩偶（粉色、蓝色、黄色、米色）。保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        195,
+        660,
+        535,
+        900
+      ],
+      "description": "左下角照片，展示一个室内窗台场景，窗台上摆放着绿色花瓶和蕾丝窗帘，下方有一盏台灯和红色装饰画。保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        495,
+        65,
+        860,
+        235
+      ],
+      "description": "右上角照片，展示一本打开的书页，上面印有中文文字。保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        660,
+        180,
+        900
+      ],
+      "description": "左侧垂直排列的装饰元素，包含白色虚线圆角矩形、星形图案和类似回形针的线条，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        330,
+        140,
+        410,
+        200
+      ],
+      "description": "左上角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        460,
+        550,
+        520
+      ],
+      "description": "中间偏左的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        730,
+        590,
+        790
+      ],
+      "description": "右下角照片左侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        690,
+        900,
+        750
+      ],
+      "description": "右下角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        30,
+        740,
+        70
+      ],
+      "description": "右上角照片上方的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        160,
+        930,
+        220
+      ],
+      "description": "右上角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        56,
+        580,
+        445,
+        620
+      ],
+      "text": "Pistachio Ice Cream Latte",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        560,
+        250,
+        935,
+        280
+      ],
+      "text": "About the Universe",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "text_1",
+    "text_2"
+  ]
+}

@@ -1,0 +1,469 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡馆室内摄影画面覆盖全画布，包含米黄色墙面、左侧玻璃门、右侧墙上深色画片、窗格、桌椅、地砖及顶部梁板，没有清晰可见的人物。墙面与地面在四边及贴图间隙连续，上层人物照片、商品照片和装饰遮挡局部；整个室内环境随底图一起替换，墙上的实拍文字和物件不另拆。"
+  },
+  "objects": [
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        335,
+        192,
+        721,
+        706
+      ],
+      "description": "竖向矩形照片，一位黑色长发女性坐在木桌后，穿带浅色毛绒袖口的外衣，面向镜头，双手端着盛有布丁的白盘。保留身后的室内空调、窗帘、桌椅和前方木桌，四边为照片显示边界；上缘被蓝色文字标签遮挡，左下部分被熊贴纸覆盖，右下部分被圆形杯子照片覆盖。"
+    },
+    {
+      "id": "photo_cup",
+      "kind": "photo",
+      "bbox": [
+        642,
+        586,
+        821,
+        766
+      ],
+      "description": "圆形显示的杯子近景照片，白色带把手的杯子位于中央，杯身有小甜点图案，保留周围灰暗桌面及摄影背景。杯子和环境略显柔焦，圆形外围可见较柔和的明暗过渡，并非沿杯子轮廓去背景；位于人物照片右下角上方。"
+    },
+    {
+      "id": "photo_glasses",
+      "kind": "photo",
+      "bbox": [
+        109,
+        975,
+        392,
+        1148
+      ],
+      "description": "左下横向照片，上下排列两副眼镜，上方为黑色粗框，下方为细金属框；白色承托面和镜片反光均属于摄影内容。保留整个矩形照片环境，边缘略有倾斜，左侧与右下角分别被星形装饰遮挡。"
+    },
+    {
+      "id": "overlay_top_large_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        232,
+        211
+      ],
+      "description": "左上角大型白色点阵空心五角星，带不均匀的发光颗粒与模糊边缘，顶部和左侧被画布裁切，完整可见星形作为一个固定装饰保留。"
+    },
+    {
+      "id": "overlay_top_small_star",
+      "kind": "overlay",
+      "bbox": [
+        290,
+        90,
+        382,
+        179
+      ],
+      "description": "上方偏左的白色点阵实心五角星，保留颗粒排列及柔和光晕。"
+    },
+    {
+      "id": "overlay_ceiling_star",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        25,
+        878,
+        59
+      ],
+      "description": "右上梁板处的小型白色手绘五角星，内部有随意线纹。"
+    },
+    {
+      "id": "overlay_korean_label",
+      "kind": "overlay",
+      "bbox": [
+        541,
+        153,
+        839,
+        230
+      ],
+      "description": "浅蓝色横向矩形标签，底板带规则白色圆点，上面为灰褐色韩文“아침의 미소가 저녁까지!”。文字、圆点及底板共同构成完整固定标签，压住人物照片上缘。"
+    },
+    {
+      "id": "overlay_ring_star",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        198,
+        915,
+        309
+      ],
+      "description": "右上白色实心五角星及围绕它的白色圆点环，作为一个完整星形徽记保留，与蓝色标签局部相邻。"
+    },
+    {
+      "id": "overlay_left_wall_star",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        305,
+        78,
+        343
+      ],
+      "description": "左侧墙面上的白色手绘小五角星，保留内部涂画线条。"
+    },
+    {
+      "id": "overlay_left_glow_star",
+      "kind": "overlay",
+      "bbox": [
+        217,
+        319,
+        248,
+        354
+      ],
+      "description": "左上墙面偏右的小白色实心星，边缘带模糊光晕。"
+    },
+    {
+      "id": "overlay_music_notes",
+      "kind": "overlay",
+      "bbox": [
+        187,
+        428,
+        251,
+        503
+      ],
+      "description": "左侧门框上方的白色双音符手绘装饰，包含两根斜向连接线、音符杆与音符头，整体保留。"
+    },
+    {
+      "id": "overlay_right_wall_star",
+      "kind": "overlay",
+      "bbox": [
+        923,
+        411,
+        958,
+        450
+      ],
+      "description": "右侧墙面中央的小白色手绘五角星，内部有线条纹理。"
+    },
+    {
+      "id": "overlay_door_small_star",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        484,
+        169,
+        508
+      ],
+      "description": "左侧玻璃门上方的小型白色五角星。"
+    },
+    {
+      "id": "overlay_door_sketch_star",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        554,
+        134,
+        603
+      ],
+      "description": "左侧门面中部的白色线描五角星，带交错涂画笔触。"
+    },
+    {
+      "id": "overlay_door_lower_star",
+      "kind": "overlay",
+      "bbox": [
+        107,
+        622,
+        134,
+        650
+      ],
+      "description": "左侧门面上、较大线描星下方的小白色手绘五角星。"
+    },
+    {
+      "id": "overlay_white_arch",
+      "kind": "overlay",
+      "bbox": [
+        142,
+        575,
+        542,
+        864
+      ],
+      "description": "熊贴纸后方的细白线装饰，左侧为高拱形，向下接到底部横线，右侧包含竖线和另一段底线，局部被熊贴纸与银杏叶遮挡。它不形成可替换照片窗口，按完整可见线条设计保留。"
+    },
+    {
+      "id": "overlay_bear_card",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        612,
+        436,
+        826
+      ],
+      "description": "深灰边框的白色方卡贴纸，内部为橙棕色卡通熊与黄色圆点感叹号。熊、感叹号、白底和灰色框边为同一完整固定设计，不含摄影窗口。"
+    },
+    {
+      "id": "overlay_ginkgo",
+      "kind": "overlay",
+      "bbox": [
+        373,
+        782,
+        509,
+        933
+      ],
+      "description": "黄色银杏叶贴纸，包含扇形叶片、细长叶柄、叠贴的小灰色文字条与下方白色空心爱心；可辨英文含“always”“my heart”。整体斜向摆放，覆盖熊卡右下角，保留叶片纹理和附属设计。"
+    },
+    {
+      "id": "overlay_cup_swirl",
+      "kind": "overlay",
+      "bbox": [
+        631,
+        640,
+        815,
+        879
+      ],
+      "description": "围绕圆形杯子照片下半部的白色手绘装饰，包括短小星光、实心与空心水滴、向下落的细线，以及底部两圈椭圆旋涡。上端部分落在杯子照片上，全部可见成员作为一个局部装饰保留。"
+    },
+    {
+      "id": "overlay_right_picture_star",
+      "kind": "overlay",
+      "bbox": [
+        996,
+        595,
+        1026,
+        631
+      ],
+      "description": "右侧深色墙上画片顶部的小白色手绘星，覆盖实拍画片边缘。"
+    },
+    {
+      "id": "overlay_middle_glow_star",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        872,
+        390,
+        904
+      ],
+      "description": "银杏叶左下方的小白色发光实心星。"
+    },
+    {
+      "id": "overlay_heart_trail",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        953,
+        648,
+        1148
+      ],
+      "description": "画面中下部的白色与淡米色爱心装饰组，包含顶部较大的白色实心爱心、向下散落的小实心爱心，以及两侧空心爱心。整组位于眼镜照片与大心形房屋贴纸之间，部分小爱心靠近眼镜照片右侧，保留原有疏密和位置。"
+    },
+    {
+      "id": "overlay_heart_house",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        901,
+        991,
+        1202
+      ],
+      "description": "右下大型白底黑边心形贴纸，心形内部为红色三角屋顶、浅蓝屋身及红色门窗组成的房屋图案。心形轮廓和房屋为同一固定设计，左下局部被勺子丝带遮挡，右下局部被紫红艺术字覆盖。"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        880,
+        777,
+        1028,
+        922
+      ],
+      "description": "米色填充、黑色手绘边缘的圆形对话气泡，内部为两个黑色感叹号，下方尖尾指向大心形上沿。文字与气泡整体保留。"
+    },
+    {
+      "id": "overlay_spoon_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        1023,
+        768,
+        1230
+      ],
+      "description": "竖向银色勺子与粉色蝴蝶结组成的完整装饰，勺面有金属渐变反光，蝴蝶结系在勺柄上端并带两条垂带。覆盖大心形贴纸的左下边缘，不作为可替换摄影单元。"
+    },
+    {
+      "id": "overlay_happiness",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        1122,
+        1003,
+        1203
+      ],
+      "description": "紫红色中文艺术字“你是我的幸福”，具有白色描边、大小不一的特殊字形和卷曲花纹，作为完整固定装饰保留，叠在大心形右下方。"
+    },
+    {
+      "id": "overlay_happiness_star",
+      "kind": "overlay",
+      "bbox": [
+        997,
+        1129,
+        1028,
+        1162
+      ],
+      "description": "紫红艺术字右侧的小白色实心发光星。"
+    },
+    {
+      "id": "overlay_glasses_left_star",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        996,
+        186,
+        1129
+      ],
+      "description": "眼镜照片左侧的大白色实心五角星及外侧点状弧环，星形右部被眼镜照片遮挡，点环沿左侧向下延伸，完整局部装饰保留。"
+    },
+    {
+      "id": "overlay_glasses_top_star",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        959,
+        146,
+        994
+      ],
+      "description": "眼镜照片左上边缘的小白色发光五角星，覆盖照片上沿。"
+    },
+    {
+      "id": "overlay_glasses_bottom_star",
+      "kind": "overlay",
+      "bbox": [
+        355,
+        1101,
+        407,
+        1155
+      ],
+      "description": "眼镜照片右下角的较大白色实心星，边缘柔和，覆盖照片下缘。"
+    },
+    {
+      "id": "overlay_upper_spiral",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        1180,
+        114,
+        1260
+      ],
+      "description": "左下玻璃门上的白色粉笔质感旋涡，呈不规则向内卷曲的圆形线条。"
+    },
+    {
+      "id": "overlay_lower_spiral",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        1291,
+        153,
+        1355
+      ],
+      "description": "画面底部偏左的白色粉笔质感小旋涡，独立于上方较大旋涡。"
+    },
+    {
+      "id": "overlay_bottom_mug",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        1201,
+        399,
+        1327
+      ],
+      "description": "左下倾斜的黑白卡通杯贴纸，黑色杯口、粗黑外轮廓和右侧杯把，杯身有小熊脸图案。覆盖底部白色文字纸条左上角，整体保留。"
+    },
+    {
+      "id": "overlay_bottom_label",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        1264,
+        777,
+        1363
+      ],
+      "description": "底部横向白色不规则纸条，边缘轻微起伏，内部为黑色日文“ステディ♥サロン”，中间爱心为粉色，两侧带引号。文字与纸条组成完整固定标签，左上部分被卡通杯遮挡。"
+    },
+    {
+      "id": "overlay_bottom_flower",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        1314,
+        850,
+        1411
+      ],
+      "description": "底部偏右的淡紫色点阵花朵，五片颗粒状花瓣围绕浅棕色花心，保留闪光点阵及半透明视觉外观。"
+    },
+    {
+      "id": "overlay_bottom_tiny_heart",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        1234,
+        791,
+        1252
+      ],
+      "description": "勺柄右侧、底部纸条上方的小白色空心爱心。"
+    },
+    {
+      "id": "overlay_left_lower_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        1144,
+        51,
+        1287
+      ],
+      "description": "左下画布边缘附近的两枚小白色颗粒亮点，位于大旋涡的上方和下方，作为该局部细小闪光点缀保留。"
+    },
+    {
+      "id": "overlay_floor_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        186,
+        1307,
+        203,
+        1326
+      ],
+      "description": "底部左侧地砖上的单枚白色小亮点，边缘模糊。"
+    }
+  ],
+  "layer_order": [
+    "photo_woman",
+    "overlay_top_large_star",
+    "overlay_top_small_star",
+    "overlay_ceiling_star",
+    "overlay_left_wall_star",
+    "overlay_left_glow_star",
+    "overlay_music_notes",
+    "overlay_right_wall_star",
+    "overlay_door_small_star",
+    "overlay_door_sketch_star",
+    "overlay_door_lower_star",
+    "overlay_white_arch",
+    "overlay_bear_card",
+    "overlay_ginkgo",
+    "photo_cup",
+    "overlay_cup_swirl",
+    "overlay_korean_label",
+    "overlay_ring_star",
+    "overlay_right_picture_star",
+    "overlay_middle_glow_star",
+    "overlay_heart_trail",
+    "overlay_glasses_left_star",
+    "photo_glasses",
+    "overlay_glasses_top_star",
+    "overlay_glasses_bottom_star",
+    "overlay_heart_house",
+    "overlay_speech",
+    "overlay_spoon_ribbon",
+    "overlay_happiness",
+    "overlay_happiness_star",
+    "overlay_upper_spiral",
+    "overlay_lower_spiral",
+    "overlay_bottom_label",
+    "overlay_bottom_mug",
+    "overlay_bottom_flower",
+    "overlay_bottom_tiny_heart",
+    "overlay_left_lower_sparkles",
+    "overlay_floor_sparkle"
+  ]
+}

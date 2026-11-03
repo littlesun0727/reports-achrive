@@ -1,0 +1,241 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续摄影画面作为全画布底图，呈现模糊的室内环境，包含暖色调灯光、木质家具和绿植的虚化轮廓。画布边缘露出的场景连续延伸至四边，上层照片、文字和装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续摄影画面作为全画布底图，呈现模糊的室内环境，包含暖色",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        76,
+        222,
+        400,
+        666
+      ],
+      "description": "左上角照片，展示一盏复古台灯、一杯拿铁咖啡、蕾丝桌布以及多个毛绒玩偶（包括绿色恐龙、白色小熊、黄色小鸭等）。保留摄影环境，四边清晰。",
+      "label": "左上角照片，展示一盏复古台灯、一杯拿铁咖啡、蕾丝桌布以及多个",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        446,
+        348,
+        842,
+        624
+      ],
+      "description": "右侧照片，展示一个深色木质书架，架子上摆满了书籍。保留摄影环境，四边清晰。",
+      "label": "右侧照片，展示一个深色木质书架，架子上摆满了书籍。保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        504,
+        690,
+        810,
+        978
+      ],
+      "description": "右下角照片，展示一个带有绿色花纹的盘子，盘内盛放着四个戴眼镜的毛绒玩偶（粉色、蓝色、黄色、米色）。保留摄影环境，四边清晰。",
+      "label": "右下角照片，展示一个带有绿色花纹的盘子，盘内盛放着四个戴眼镜",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        176,
+        792,
+        482,
+        1080
+      ],
+      "description": "左下角照片，展示一个室内窗台场景，窗台上摆放着绿色花瓶和蕾丝窗帘，下方有一盏台灯和红色装饰画。保留摄影环境，四边清晰。",
+      "label": "左下角照片，展示一个室内窗台场景，窗台上摆放着绿色花瓶和蕾丝",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        446,
+        78,
+        774,
+        282
+      ],
+      "description": "右上角照片，展示一本打开的书页，上面印有中文文字。保留摄影环境，四边清晰。",
+      "label": "右上角照片，展示一本打开的书页，上面印有中文文字。保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        792,
+        162,
+        1080
+      ],
+      "description": "左侧垂直排列的装饰元素，包含白色虚线圆角矩形、星形图案和类似回形针的线条，作为固定装饰保留。",
+      "label": "左侧垂直排列的装饰元素，包含白色虚线圆角矩形、星形图案和类似",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        297,
+        168,
+        369,
+        240
+      ],
+      "description": "左上角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。",
+      "label": "左上角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        441,
+        552,
+        495,
+        624
+      ],
+      "description": "中间偏左的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。",
+      "label": "中间偏左的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        477,
+        876,
+        531,
+        948
+      ],
+      "description": "右下角照片左侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。",
+      "label": "右下角照片左侧的装饰元素，包含白色虚线圆角矩形和星形图案，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        828,
+        810,
+        900
+      ],
+      "description": "右下角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。",
+      "label": "右下角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        36,
+        666,
+        84
+      ],
+      "description": "右上角照片上方的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。",
+      "label": "右上角照片上方的装饰元素，包含白色虚线圆角矩形和星形图案，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        783,
+        192,
+        837,
+        264
+      ],
+      "description": "右上角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作为固定装饰保留。",
+      "label": "右上角照片右侧的装饰元素，包含白色虚线圆角矩形和星形图案，作",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        50,
+        696,
+        400,
+        744
+      ],
+      "description": "Pistachio Ice Cream Latte",
+      "label": "Pistachio Ice Cream Latte",
+      "method": "local",
+      "text": "Pistachio Ice Cream Latte",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        504,
+        300,
+        842,
+        336
+      ],
+      "description": "About the Universe",
+      "label": "About the Universe",
+      "method": "local",
+      "text": "About the Universe",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "text_1",
+    "text_2"
+  ]
+}

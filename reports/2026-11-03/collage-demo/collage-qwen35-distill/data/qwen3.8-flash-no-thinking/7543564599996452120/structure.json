@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        325
+      ],
+      "description": "顶部横向照片，一名戴白色棒球帽的长发女子在咖啡店柜台前，背景可见咖啡机、杯架和植物。画面中叠加了若干白色星星装饰。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        325,
+        1000,
+        650
+      ],
+      "description": "中部横向照片，一名长发女子坐在餐厅内微笑，背景有菜单海报和桌椅。画面中叠加了若干白色星星装饰。"
+    },
+    {
+      "id": "text_english",
+      "kind": "text",
+      "bbox": [
+        148,
+        490,
+        852,
+        545
+      ],
+      "text": "THE SUCCESS TURNS ON OUR EFFORT.\nOUR EFFORTS WERE DIRECTED TOWARDS THE ACCOMPLISHMENT OF THE WORK.\nEXERT ONESELF TO ACCOMPLISH ONE'S ASSIGNMENT.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        650,
+        1000,
+        1000
+      ],
+      "description": "底部横向照片，一名戴白色棒球帽的女子手托下巴，手持相机，背景为咖啡店环境。画面中叠加了若干白色星星装饰。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "text_english",
+    "photo_bottom"
+  ]
+}

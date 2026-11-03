@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-47804198-2ee1-9c5f-a6c0-b63e736042c7",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7602,
+    "completion_tokens": 655,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 655
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"俯视视角的深色石板路面，画面底部可见穿着黑色皮鞋和白色袜子的双脚。该摄影场景连续延伸至画布四边，承载全画幅背景，上层照片拼贴、装饰及文字均遮挡其局部。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"text_left\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        78,\n        126,\n        415,\n        403\n      ],\n      \"text\": \"In summer,\\nThe wind is\\nswaying the green\\nShadow.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        669,\n        95,\n        925,\n        280\n      ],\n      \"description\": \"右上角的白色手绘粉笔风格图案，包含两颗星星、一个纸飞机和一条螺旋线。\"\n    },\n    {\n      \"id\": \"photo_grid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        235,\n        166,\n        915,\n        688\n      ],\n      \"description\": \"由九张独立小照片组成的倾斜网格拼贴，内容涵盖人物肖像、猫咪、手持冰淇淋、牵手特写、食物俯拍等生活场景。各照片紧密排列，整体作为一个组合单元显示。\"\n    },\n    {\n      \"id\": \"overlay_hello\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        65,\n        595,\n        395,\n        715\n      ],\n      \"description\": \"左下方的白色手绘粉笔风格图案，包含文字“Bonjour”、两条斜线和一个简笔画猫头。\"\n    },\n    {\n      \"id\": \"text_right\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        608,\n        575,\n        945,\n        915\n      ],\n      \"text\": \"We are like\\nSummer\\nyoung and beautiful\\nSmiling\\nas bright a\\nClear sky\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"right\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_grid\",\n    \"text_left\",\n    \"overlay_stars\",\n    \"overlay_hello\",\n    \"text_right\"\n  ]\n}",
+  "tool_calls": false
+}

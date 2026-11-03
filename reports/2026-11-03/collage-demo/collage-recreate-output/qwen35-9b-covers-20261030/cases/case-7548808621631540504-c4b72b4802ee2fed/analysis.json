@@ -1,0 +1,175 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内木质背景，包含左侧的木椅、右侧的木格架、中间的窗户及窗外的空调外机。画面整体为暖色调，光线柔和，作为全画布底图承载所有独立对象。",
+      "background_type": "photo",
+      "label": "室内木质背景，包含左侧的木椅、右侧的木格架、中间的窗户及窗外",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        104,
+        210,
+        414,
+        624
+      ],
+      "description": "左上角照片，展示木质桌面上摆放的咖啡、蛋糕、书籍及多个毛绒玩偶，背景为窗户和空调外机。",
+      "label": "左上角照片，展示木质桌面上摆放的咖啡、蛋糕、书籍及多个毛绒玩",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        486,
+        300,
+        828,
+        600
+      ],
+      "description": "右上角照片，展示木质托盘上的蛋糕、盘子和多个毛绒玩偶，边缘有白色虚线描边效果。",
+      "label": "右上角照片，展示木质托盘上的蛋糕、盘子和多个毛绒玩偶，边缘有",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        68,
+        696,
+        468,
+        912
+      ],
+      "description": "左下角照片，展示木质托盘上的蘑菇模型、小房子模型及干花，背景为木质架子。",
+      "label": "左下角照片，展示木质托盘上的蘑菇模型、小房子模型及干花，背景",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        504,
+        744,
+        828,
+        1080
+      ],
+      "description": "右下角照片，展示木质桌面上摆放的多个毛绒玩偶，背景为窗户和玻璃杯。",
+      "label": "右下角照片，展示木质桌面上摆放的多个毛绒玩偶，背景为窗户和玻",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        135,
+        144,
+        360,
+        216
+      ],
+      "description": "Boba",
+      "label": "Boba",
+      "method": "local",
+      "text": "Boba",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        90,
+        576,
+        360,
+        636
+      ],
+      "description": "of coffee?",
+      "label": "of coffee?",
+      "method": "local",
+      "text": "of coffee?",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        558,
+        624,
+        828,
+        696
+      ],
+      "description": "这一刻最好",
+      "label": "这一刻最好",
+      "method": "local",
+      "text": "这一刻最好",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        135,
+        936,
+        405,
+        1056
+      ],
+      "description": "you drew\nstars around\nmy scars",
+      "label": "you drew\nstars around\nmy scars",
+      "method": "local",
+      "text": "you drew\nstars around\nmy scars",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

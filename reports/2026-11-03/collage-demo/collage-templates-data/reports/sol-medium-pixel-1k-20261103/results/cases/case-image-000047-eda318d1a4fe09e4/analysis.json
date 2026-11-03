@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    811,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_gradient",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        811,
+        1440
+      ],
+      "description": "连续的灰褐色渐变底图，顶部较浅并向下逐渐变为深灰色，覆盖画布四边及照片之间的空隙；保留渐变原样，两张照片与装饰作为独立对象替换或重建。",
+      "background_type": "reference_clean",
+      "label": "连续的灰褐色渐变底图，顶部较浅并向下逐渐变为深灰色，覆盖画布",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        88,
+        221,
+        475,
+        610
+      ],
+      "description": "左上方横向近景照片，年轻女性闭眼抱着黑白猫；女性面部位于左侧，猫头在右侧，手臂横过下方。保留照片内的室内环境，矩形显示区域下缘与下方照片重叠。",
+      "label": "左上方横向近景照片，年轻女性闭眼抱着黑白猫；女性面部位于左侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        208,
+        589,
+        708,
+        1255
+      ],
+      "description": "下方竖向照片，年轻女性正面抱着黑白猫，女性在左侧，猫在右侧且身体延伸至画面下部；保留完整室内摄影环境。矩形照片覆盖上方照片下缘。",
+      "label": "下方竖向照片，年轻女性正面抱着黑白猫，女性在左侧，猫在右侧且",
+      "method": "local"
+    },
+    {
+      "id": "overlay_raindrops",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        100,
+        236,
+        248
+      ],
+      "description": "画布左上方一组稀疏的蓝色与粉色水滴装饰，包含实心水滴和细线轮廓水滴，整体作为同一组固定点缀保留。",
+      "label": "画布左上方一组稀疏的蓝色与粉色水滴装饰，包含实心水滴和细线轮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        313,
+        183,
+        362,
+        232
+      ],
+      "description": "白色五角星，位于上方照片上缘附近，部分跨在灰色底图与照片上方。",
+      "label": "白色五角星，位于上方照片上缘附近，部分跨在灰色底图与照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        389,
+        116,
+        455
+      ],
+      "description": "白色五角星，贴近上方照片左侧并覆盖其左缘。",
+      "label": "白色五角星，贴近上方照片左侧并覆盖其左缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_joint",
+      "kind": "overlay",
+      "bbox": [
+        438,
+        570,
+        493,
+        625
+      ],
+      "description": "白色五角星，位于两张照片交接处上方，跨越照片边缘并覆盖局部画面。",
+      "label": "白色五角星，位于两张照片交接处上方，跨越照片边缘并覆盖局部画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        832,
+        225,
+        901
+      ],
+      "description": "白色五角星，位于下方照片左缘并覆盖照片边缘。",
+      "label": "白色五角星，位于下方照片左缘并覆盖照片边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_lower",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        1077,
+        744,
+        1128
+      ],
+      "description": "白色五角星，位于下方照片右侧，压在照片边缘附近。",
+      "label": "白色五角星，位于下方照片右侧，压在照片边缘附近。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_about_love",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        371,
+        752,
+        402
+      ],
+      "description": "右上区域的白色装饰字样“☆ABOUT LOVE☆”，两侧带小型闪光点缀，采用细线手写感字形与星形组合，作为完整固定设计保留。",
+      "label": "右上区域的白色装饰字样“☆ABOUT LOVE☆”，两侧带小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        1240,
+        256,
+        1274
+      ],
+      "description": "下方照片左下侧的装饰字样“Smile”，白色点状字形，字母i附近带黄色点缀，整体作为固定艺术字保留。",
+      "label": "下方照片左下侧的装饰字样“Smile”，白色点状字形，字母i",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_gradient",
+    "photo_upper",
+    "photo_lower",
+    "overlay_raindrops",
+    "overlay_star_top",
+    "overlay_star_left_upper",
+    "overlay_star_joint",
+    "overlay_star_left_lower",
+    "overlay_star_right_lower",
+    "overlay_about_love",
+    "overlay_smile"
+  ]
+}

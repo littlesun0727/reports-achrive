@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_still_life",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1024,
+        663
+      ],
+      "description": "画面上半部的横向静物照片，黑色布面上放着一只盛有青葡萄、红色圆果和黄色柑橘的深色盘子，打开的书从上方延伸入画；保留完整摄影环境，照片铺满该区域并在 y=663 左右以清晰水平边界结束。"
+    },
+    {
+      "id": "overlay_fruit_illustration",
+      "kind": "overlay",
+      "bbox": [
+        307,
+        868,
+        687,
+        1207
+      ],
+      "description": "下半部纸面上的一组复古印刷风格水果拼贴插画：浅绿色葡萄与深色枝梗、红色圆果、黄色柑橘置于黑色弧形碗中，碗下有浅褐色不规则纸片底衬；作为完整固定图案保留。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        316,
+        1253,
+        707,
+        1311
+      ],
+      "text": "Small gatherings.\nQuiet abundance.",
+      "color": "#332A22",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_paper_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        662,
+        1024,
+        1365
+      ],
+      "description": "画布下半部的浅奶油色纸面板，带细微不均匀纸张纹理，顶部与静物照片形成清晰水平接缝；插画与文字位于其上，纸面作为局部固定底板保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_still_life",
+    "overlay_paper_panel",
+    "overlay_fruit_illustration",
+    "text_caption"
+  ]
+}

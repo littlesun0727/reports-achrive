@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "layer_order": [
+    "photo_top",
+    "photo_bottom_right",
+    "overlay_flower_white_tl",
+    "overlay_flower_red_mid_l",
+    "overlay_flower_orange_r",
+    "overlay_flower_white_br",
+    "photo_cutout_left"
+  ],
+  "background": {
+    "description": "一张连续的全画幅摄影底图，展示了蓝天白云下的绿色草地和散落的红色、黄色花朵。画面左侧有树木的阴影，整体环境连贯，作为所有独立照片和装饰元素的背景层。",
+    "id": "photo_bg",
+    "type": "photographic"
+  },
+  "objects": [
+    {
+      "bbox": [
+        68,
+        113,
+        705,
+        472
+      ],
+      "kind": "photo",
+      "description": "位于上方的一张矩形照片，显示一名戴草帽、穿黄衣格裙的女子在花海中双手托腮，背景为密集的红色花朵和绿草。",
+      "id": "photo_top"
+    },
+    {
+      "bbox": [
+        235,
+        429,
+        950,
+        838
+      ],
+      "kind": "photo",
+      "description": "位于右下方的一张矩形照片，显示同一名女子在花海场景中向镜头伸手微笑，身体前倾，背景为花丛。",
+      "id": "photo_bottom_right"
+    },
+    {
+      "bbox": [
+        48,
+        551,
+        460,
+        942
+      ],
+      "kind": "photo",
+      "description": "左下角的人物抠图，去除了原始背景，仅保留人物主体（戴草帽、穿黄衣格裙的女子侧身闭眼姿态），叠加在全画布底图的草地之上。",
+      "id": "photo_cutout_left"
+    },
+    {
+      "bbox": [
+        3,
+        48,
+        180,
+        190
+      ],
+      "kind": "overlay",
+      "description": "左上角的两朵白色花卉贴纸，带有黄色花蕊，作为装饰元素覆盖在天空背景上。",
+      "id": "overlay_flower_white_tl"
+    },
+    {
+      "bbox": [
+        148,
+        421,
+        278,
+        516
+      ],
+      "kind": "overlay",
+      "description": "左侧中部的一朵橙红色虞美人花卉贴纸，覆盖在底图和上方照片的边缘处。",
+      "id": "overlay_flower_red_mid_l"
+    },
+    {
+      "bbox": [
+        610,
+        360,
+        803,
+        488
+      ],
+      "kind": "overlay",
+      "description": "右侧中部的两朵橙红色虞美人花卉贴纸，位于两张照片之间的空隙及边缘处。",
+      "id": "overlay_flower_orange_r"
+    },
+    {
+      "bbox": [
+        843,
+        816,
+        965,
+        898
+      ],
+      "kind": "overlay",
+      "description": "右下角的一朵白色花卉贴纸，带有黄色花蕊，覆盖在底图的草地上。",
+      "id": "overlay_flower_white_br"
+    }
+  ]
+}

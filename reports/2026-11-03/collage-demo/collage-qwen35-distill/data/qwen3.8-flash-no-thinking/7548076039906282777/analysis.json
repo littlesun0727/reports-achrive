@@ -1,0 +1,319 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1202
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1202
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "overlay_clouds",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        30,
+        257,
+        129
+      ],
+      "description": "左上角蓝色手绘云朵贴纸，带有黑色描边和简单表情。",
+      "label": "左上角蓝色手绘云朵贴纸，带有黑色描边和简单表情。",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        300,
+        35,
+        616,
+        171
+      ],
+      "description": "去旅行\nGo on a journey",
+      "label": "去旅行\nGo on a journey",
+      "method": "local",
+      "text": "去旅行\nGo on a journey",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_camera_icon",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        54,
+        766,
+        153
+      ],
+      "description": "右上角青色手绘相机图标，带黑色描边。",
+      "label": "右上角青色手绘相机图标，带黑色描边。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_polaroid_top_right",
+      "kind": "frame",
+      "bbox": [
+        326,
+        174,
+        706,
+        607
+      ],
+      "description": "右上方的拍立得相纸框，边缘呈波浪状，底部印有“20g FRANCE”字样。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "右上方的拍立得相纸框，边缘呈波浪状，底部印有“20g FRA",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        357,
+        202,
+        670,
+        595
+      ],
+      "description": "两名穿着棕色校服的女生，一人站在另一人后方，头上戴着树叶装饰，背景为草地。",
+      "label": "两名穿着棕色校服的女生，一人站在另一人后方，头上戴着树叶装饰",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cherry_blossoms",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        195,
+        724,
+        343
+      ],
+      "description": "粉色樱花枝条贴纸，部分遮挡在右上方照片的右上角。",
+      "label": "粉色樱花枝条贴纸，部分遮挡在右上方照片的右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_film_strip",
+      "kind": "frame",
+      "bbox": [
+        40,
+        171,
+        364,
+        1136
+      ],
+      "description": "左侧长条形胶片框，顶部有红色相机造型，包含三个垂直排列的照片窗口。",
+      "photo_id": [
+        "photo_film_1",
+        "photo_film_2",
+        "photo_film_3"
+      ],
+      "label": "左侧长条形胶片框，顶部有红色相机造型，包含三个垂直排列的照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_film_1",
+      "kind": "photo",
+      "bbox": [
+        70,
+        442,
+        338,
+        655
+      ],
+      "description": "胶片第一格：两名女生对着镜头微笑，抛洒树叶，蓝天背景。",
+      "label": "胶片第一格：两名女生对着镜头微笑，抛洒树叶，蓝天背景。",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_2",
+      "kind": "photo",
+      "bbox": [
+        76,
+        667,
+        351,
+        889
+      ],
+      "description": "胶片第二格：两名女生并排站立，手持树叶遮脸，背景为树林。",
+      "label": "胶片第二格：两名女生并排站立，手持树叶遮脸，背景为树林。",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_3",
+      "kind": "photo",
+      "bbox": [
+        112,
+        902,
+        378,
+        1100
+      ],
+      "description": "胶片第三格：两名女生用大片枯叶遮住面部，仅露出眼睛和头发。",
+      "label": "胶片第三格：两名女生用大片枯叶遮住面部，仅露出眼睛和头发。",
+      "method": "local"
+    },
+    {
+      "id": "frame_photo_right",
+      "kind": "frame",
+      "bbox": [
+        688,
+        234,
+        896,
+        607
+      ],
+      "description": "右侧黑白棋盘格纹理边框，包裹着一张竖向照片。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右侧黑白棋盘格纹理边框，包裹着一张竖向照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        698,
+        246,
+        814,
+        511
+      ],
+      "description": "一名女生仰头抛洒树叶，背景为蓝天。",
+      "label": "一名女生仰头抛洒树叶，背景为蓝天。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_milk_box",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        553,
+        814,
+        751
+      ],
+      "description": "粉色牛奶盒插画贴纸，印有草莓图案和日文文字。",
+      "label": "粉色牛奶盒插画贴纸，印有草莓图案和日文文字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_cluster",
+      "kind": "overlay",
+      "bbox": [
+        310,
+        721,
+        482,
+        932
+      ],
+      "description": "一簇粉白色花朵贴纸，位于画面中央偏下位置。",
+      "label": "一簇粉白色花朵贴纸，位于画面中央偏下位置。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_stamp_bottom",
+      "kind": "frame",
+      "bbox": [
+        418,
+        727,
+        698,
+        1028
+      ],
+      "description": "下方倾斜放置的邮票形状边框，边缘呈锯齿状。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "下方倾斜放置的邮票形状边框，边缘呈锯齿状。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        428,
+        739,
+        680,
+        1004
+      ],
+      "description": "两名女生蹲坐在草地上，手持树叶，笑容灿烂。",
+      "label": "两名女生蹲坐在草地上，手持树叶，笑容灿烂。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        986,
+        148,
+        1124
+      ],
+      "description": "左下角白色小兔子贴纸，线条简洁。",
+      "label": "左下角白色小兔子贴纸，线条简洁。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_suitcase",
+      "kind": "overlay",
+      "bbox": [
+        454,
+        1040,
+        554,
+        1130
+      ],
+      "description": "黄色行李箱插画贴纸，印有“TRIP”字样。",
+      "label": "黄色行李箱插画贴纸，印有“TRIP”字样。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_girl_walk",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        859,
+        788,
+        1184
+      ],
+      "description": "右下角穿黄裙子的女孩插画，头顶举着一片银杏叶。",
+      "label": "右下角穿黄裙子的女孩插画，头顶举着一片银杏叶。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_clouds",
+    "text_title",
+    "overlay_camera_icon",
+    "frame_polaroid_top_right",
+    "photo_top_right",
+    "overlay_cherry_blossoms",
+    "frame_film_strip",
+    "photo_film_1",
+    "photo_film_2",
+    "photo_film_3",
+    "frame_photo_right",
+    "photo_right",
+    "overlay_milk_box",
+    "overlay_flower_cluster",
+    "frame_stamp_bottom",
+    "photo_bottom",
+    "overlay_rabbit",
+    "overlay_suitcase",
+    "overlay_girl_walk"
+  ]
+}

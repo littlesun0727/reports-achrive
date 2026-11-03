@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的全画布摄影底图，展示雪山、草地、天空及右下角的马匹。画布边缘露出的场景连续延伸至四边，上层装饰和照片遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_moon",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        100,
+        850,
+        350
+      ],
+      "description": "顶部手绘风格的月亮周期图，包含蓝色矩形背景、黄色月亮剪影、蓝色线条和文字'Moon'，整体作为装饰单元保留。"
+    },
+    {
+      "id": "photo_spring",
+      "kind": "photo",
+      "bbox": [
+        50,
+        650,
+        250,
+        850
+      ],
+      "description": "左下角矩形照片，展示人物背影与红色树林，保留摄影环境，窗口边缘有蓝色手绘描边。"
+    },
+    {
+      "id": "photo_summer",
+      "kind": "photo",
+      "bbox": [
+        200,
+        450,
+        350,
+        650
+      ],
+      "description": "左侧中部矩形照片，展示日落水面与人物背影，保留摄影环境，窗口边缘有蓝色手绘描边。"
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        600,
+        400,
+        750,
+        550
+      ],
+      "description": "右侧中部矩形照片，展示湖边栏杆与人物背影，保留摄影环境，窗口边缘有蓝色手绘描边。"
+    },
+    {
+      "id": "photo_winter",
+      "kind": "photo",
+      "bbox": [
+        800,
+        600,
+        950,
+        750
+      ],
+      "description": "右下角矩形照片，展示室内窗边人物与绿植，保留摄影环境，窗口边缘有蓝色手绘描边。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        650,
+        650,
+        800
+      ],
+      "description": "底部中央黄色五角星装饰，带有笑脸表情和蓝色放射线条，作为独立装饰单元保留。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        200,
+        20,
+        800,
+        80
+      ],
+      "text": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        250,
+        920,
+        750,
+        960
+      ],
+      "text": "在无数个瞬间里感受自己",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_moon",
+    "photo_spring",
+    "photo_summer",
+    "photo_autumn",
+    "photo_winter",
+    "overlay_star",
+    "text_top",
+    "text_bottom"
+  ]
+}

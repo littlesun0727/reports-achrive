@@ -1,0 +1,363 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "夜晚的户外场景，背景是深绿色的水面和岸边的树木。画面中央有一棵被白色手绘线条勾勒出的发光枯树，树枝向四周伸展。整体色调偏暗，营造出静谧的夜晚氛围。",
+      "background_type": "photo",
+      "label": "夜晚的户外场景，背景是深绿色的水面和岸边的树木。画面中央有一",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        100,
+        176,
+        209
+      ],
+      "description": "左上角的一棵绿色手绘圣诞树涂鸦，树顶有粉色装饰，树下有黄色星星图案。",
+      "label": "左上角的一棵绿色手绘圣诞树涂鸦，树顶有粉色装饰，树下有黄色星",
+      "method": "extract"
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        180,
+        84,
+        279,
+        156
+      ],
+      "description": "Cool\nCool!",
+      "label": "Cool\nCool!",
+      "method": "local",
+      "text": "Cool\nCool!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        292,
+        36,
+        500,
+        240
+      ],
+      "description": "一张拍立得风格的照片框，内部展示了两瓶饮料（一瓶蓝色包装，一瓶黑色咖啡）放在木质托盘上的特写。",
+      "photo_id": [
+        "photo_4"
+      ],
+      "label": "一张拍立得风格的照片框，内部展示了两瓶饮料（一瓶蓝色包装，一",
+      "method": "extract"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        297,
+        42,
+        495,
+        234
+      ],
+      "description": "两瓶饮料（一瓶蓝色包装，一瓶黑色咖啡）放在木质托盘上的特写照片。",
+      "label": "两瓶饮料（一瓶蓝色包装，一瓶黑色咖啡）放在木质托盘上的特写照",
+      "method": "local"
+    },
+    {
+      "id": "frame_5",
+      "kind": "frame",
+      "bbox": [
+        558,
+        102,
+        864,
+        348
+      ],
+      "description": "一张矩形照片框，内部展示了一只手拿着一包虾味零食的特写。",
+      "photo_id": [
+        "photo_6"
+      ],
+      "label": "一张矩形照片框，内部展示了一只手拿着一包虾味零食的特写。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        562,
+        108,
+        860,
+        342
+      ],
+      "description": "一只手拿着一包虾味零食的特写照片。",
+      "label": "一只手拿着一包虾味零食的特写照片。",
+      "method": "local"
+    },
+    {
+      "id": "frame_7",
+      "kind": "frame",
+      "bbox": [
+        585,
+        396,
+        810,
+        564
+      ],
+      "description": "一张矩形照片框，内部展示了多种颜色的粉末状调料放在小勺子上。",
+      "photo_id": [
+        "photo_8"
+      ],
+      "label": "一张矩形照片框，内部展示了多种颜色的粉末状调料放在小勺子上。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        590,
+        402,
+        806,
+        558
+      ],
+      "description": "多种颜色的粉末状调料放在小勺子上的特写照片。",
+      "label": "多种颜色的粉末状调料放在小勺子上的特写照片。",
+      "method": "local"
+    },
+    {
+      "id": "frame_9",
+      "kind": "frame",
+      "bbox": [
+        585,
+        600,
+        810,
+        840
+      ],
+      "description": "一张矩形照片框，内部展示了两罐饮料（一罐蓝色，一罐红色）放在木桌上的特写。",
+      "photo_id": [
+        "photo_10"
+      ],
+      "label": "一张矩形照片框，内部展示了两罐饮料（一罐蓝色，一罐红色）放在",
+      "method": "extract"
+    },
+    {
+      "id": "photo_10",
+      "kind": "photo",
+      "bbox": [
+        590,
+        606,
+        806,
+        834
+      ],
+      "description": "两罐饮料（一罐蓝色，一罐红色）放在木桌上的特写照片。",
+      "label": "两罐饮料（一罐蓝色，一罐红色）放在木桌上的特写照片。",
+      "method": "local"
+    },
+    {
+      "id": "frame_11",
+      "kind": "frame",
+      "bbox": [
+        666,
+        840,
+        891,
+        1056
+      ],
+      "description": "一张矩形照片框，内部展示了一碗沙拉和一些调料包。",
+      "photo_id": [
+        "photo_12"
+      ],
+      "label": "一张矩形照片框，内部展示了一碗沙拉和一些调料包。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_12",
+      "kind": "photo",
+      "bbox": [
+        670,
+        846,
+        886,
+        1050
+      ],
+      "description": "一碗沙拉和一些调料包的特写照片。",
+      "label": "一碗沙拉和一些调料包的特写照片。",
+      "method": "local"
+    },
+    {
+      "id": "frame_13",
+      "kind": "frame",
+      "bbox": [
+        9,
+        204,
+        288,
+        420
+      ],
+      "description": "一张矩形照片框，内部展示了一个金色戒指和一瓶香水放在木托盘上。",
+      "photo_id": [
+        "photo_14"
+      ],
+      "label": "一张矩形照片框，内部展示了一个金色戒指和一瓶香水放在木托盘上",
+      "method": "extract"
+    },
+    {
+      "id": "photo_14",
+      "kind": "photo",
+      "bbox": [
+        14,
+        210,
+        284,
+        414
+      ],
+      "description": "一个金色戒指和一瓶香水放在木托盘上的特写照片。",
+      "label": "一个金色戒指和一瓶香水放在木托盘上的特写照片。",
+      "method": "local"
+    },
+    {
+      "id": "frame_15",
+      "kind": "frame",
+      "bbox": [
+        9,
+        456,
+        315,
+        708
+      ],
+      "description": "一张矩形照片框，内部展示了两杯饮料（一杯白色，一杯红色）。",
+      "photo_id": [
+        "photo_16"
+      ],
+      "label": "一张矩形照片框，内部展示了两杯饮料（一杯白色，一杯红色）。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_16",
+      "kind": "photo",
+      "bbox": [
+        14,
+        462,
+        310,
+        702
+      ],
+      "description": "两杯饮料（一杯白色，一杯红色）的特写照片。",
+      "label": "两杯饮料（一杯白色，一杯红色）的特写照片。",
+      "method": "local"
+    },
+    {
+      "id": "frame_17",
+      "kind": "frame",
+      "bbox": [
+        9,
+        720,
+        315,
+        960
+      ],
+      "description": "一张矩形照片框，内部展示了一些粉色的蛋白粉容器和一个玻璃杯。",
+      "photo_id": [
+        "photo_18"
+      ],
+      "label": "一张矩形照片框，内部展示了一些粉色的蛋白粉容器和一个玻璃杯。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_18",
+      "kind": "photo",
+      "bbox": [
+        14,
+        726,
+        310,
+        954
+      ],
+      "description": "一些粉色的蛋白粉容器和一个玻璃杯的特写照片。",
+      "label": "一些粉色的蛋白粉容器和一个玻璃杯的特写照片。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_19",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        960,
+        270,
+        1176
+      ],
+      "description": "左下角的一棵粉色手绘圣诞树涂鸦，树顶有黄色星星，树干上有蓝色窗户。",
+      "label": "左下角的一棵粉色手绘圣诞树涂鸦，树顶有黄色星星，树干上有蓝色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_20",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        912,
+        630,
+        1032
+      ],
+      "description": "右下角的一只绿色手绘小狗涂鸦，旁边有一些黄色的花朵图案。",
+      "label": "右下角的一只绿色手绘小狗涂鸦，旁边有一些黄色的花朵图案。",
+      "method": "extract"
+    },
+    {
+      "id": "text_21",
+      "kind": "text",
+      "bbox": [
+        585,
+        1092,
+        765,
+        1116
+      ],
+      "description": "NICE DAY",
+      "label": "NICE DAY",
+      "method": "local",
+      "text": "NICE DAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_1",
+    "text_2",
+    "frame_3",
+    "photo_4",
+    "frame_5",
+    "photo_6",
+    "frame_7",
+    "photo_8",
+    "frame_9",
+    "photo_10",
+    "frame_11",
+    "photo_12",
+    "frame_13",
+    "photo_14",
+    "frame_15",
+    "photo_16",
+    "frame_17",
+    "photo_18",
+    "overlay_19",
+    "overlay_20",
+    "text_21"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1816
+  ],
+  "objects": [
+    {
+      "id": "bg_dots",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1816
+      ],
+      "description": "灰色底图，带有均匀分布的白色小圆点图案。该固定纹理覆盖整个画布，作为三张独立照片和装饰元素的背景层。",
+      "background_type": "reference_clean",
+      "label": "灰色底图，带有均匀分布的白色小圆点图案。该固定纹理覆盖整个画",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        113,
+        49,
+        783,
+        554
+      ],
+      "description": "上方矩形照片，展示一名年轻女子坐在桌前，单手托腮，面前有一杯插着吸管的饮料。保留完整的摄影环境。",
+      "label": "上方矩形照片，展示一名年轻女子坐在桌前，单手托腮，面前有一杯",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cat_head",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        7,
+        838,
+        169
+      ],
+      "description": "白色卡通猫头贴纸，位于右上角，部分遮挡了上方照片的边角。",
+      "label": "白色卡通猫头贴纸，位于右上角，部分遮挡了上方照片的边角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bandage",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        545,
+        238,
+        686
+      ],
+      "description": "银色创可贴样式的装饰贴纸，带有心形图案，位于左侧中部，连接上下两张照片之间的区域。",
+      "label": "银色创可贴样式的装饰贴纸，带有心形图案，位于左侧中部，连接上",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        118,
+        594,
+        779,
+        1091
+      ],
+      "description": "中间矩形照片，展示同一名女子趴在桌上，手持叉子靠近嘴边，表情俏皮。保留完整的摄影环境。",
+      "label": "中间矩形照片，展示同一名女子趴在桌上，手持叉子靠近嘴边，表情",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        122,
+        1153,
+        779,
+        1647
+      ],
+      "description": "下方矩形照片，展示同一名女子双手在脸前比心，笑容灿烂，面前有饮料和甜点。保留完整的摄影环境。",
+      "label": "下方矩形照片，展示同一名女子双手在脸前比心，笑容灿烂，面前有",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cat_body",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        1535,
+        838,
+        1738
+      ],
+      "description": "白色卡通猫咪身体贴纸，位于右下角，部分遮挡了下方照片的边角。",
+      "label": "白色卡通猫咪身体贴纸，位于右下角，部分遮挡了下方照片的边角。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_dots",
+    "photo_top",
+    "photo_mid",
+    "photo_bottom",
+    "overlay_bandage",
+    "overlay_cat_head",
+    "overlay_cat_body"
+  ]
+}

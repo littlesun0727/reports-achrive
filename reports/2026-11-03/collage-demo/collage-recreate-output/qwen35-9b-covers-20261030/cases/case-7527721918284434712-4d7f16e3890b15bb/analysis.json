@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    836
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        836
+      ],
+      "description": "一张特写摄影画面，展示了一只人眼的局部，包含眉毛、眼睑、睫毛和眼白。画面边缘清晰，主体与周围皮肤纹理连续，构成完整的摄影底图。",
+      "background_type": "photo",
+      "label": "一张特写摄影画面，展示了一只人眼的局部，包含眉毛、眼睑、睫毛",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        252,
+        351,
+        558,
+        485
+      ],
+      "description": "位于瞳孔区域内的独立照片，显示一名男性的半身肖像，背景为星空。照片周围有发光的蓝色光环效果，该照片被嵌入在眼球的摄影画面中。",
+      "label": "位于瞳孔区域内的独立照片，显示一名男性的半身肖像，背景为星空",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1"
+  ]
+}

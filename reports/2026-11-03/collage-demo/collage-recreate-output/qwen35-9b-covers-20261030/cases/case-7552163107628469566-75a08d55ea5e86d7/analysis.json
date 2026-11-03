@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "蓝色天空背景，可见多条黑色电线从右上斜向贯穿至左下，延伸至画布边缘，构成连续摄影画面。",
+      "background_type": "photo",
+      "label": "蓝色天空背景，可见多条黑色电线从右上斜向贯穿至左下，延伸至画",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        495,
+        408,
+        810,
+        888
+      ],
+      "description": "矩形照片窗口，内容为粉色带黄色星星的气球，下方有一只手握着气球绳，背景为黄白蓝三色拼接墙面。",
+      "label": "矩形照片窗口，内容为粉色带黄色星星的气球，下方有一只手握着气",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        384,
+        756,
+        444
+      ],
+      "description": "透明胶带贴纸，位于照片窗口上方，用于固定照片。",
+      "label": "透明胶带贴纸，位于照片窗口上方，用于固定照片。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        45,
+        24,
+        495,
+        1140
+      ],
+      "description": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "label": "My\nLife\nis\nOrdinary\nbut Shinin",
+      "method": "local",
+      "text": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "overlay_1",
+    "text_1"
+  ]
+}

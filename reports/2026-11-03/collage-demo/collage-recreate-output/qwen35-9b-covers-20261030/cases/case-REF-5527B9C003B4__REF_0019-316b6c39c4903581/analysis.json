@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        1440
+      ],
+      "description": "左上角照片，展示一座高耸的摩天大楼（skyscraper），背景为蓝天。照片主体为建筑，周围有黄色描边勾勒轮廓，并带有文字标注。",
+      "label": "左上角照片，展示一座高耸的摩天大楼（skyscraper），",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上角照片，展示一杯 Luckin Coffee 咖啡杯和一副白色耳机，放置在黑色皮质座椅上。照片主体为咖啡杯和耳机，周围有蓝色描边勾勒轮廓，并带有文字标注。",
+      "label": "右上角照片，展示一杯 Luckin Coffee 咖啡杯和一",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下角照片，展示一只手拿着一杯苹果汁（Apple Juice），背景为室内环境。照片主体为苹果汁杯，周围有蓝色描边勾勒轮廓，并带有文字标注。",
+      "label": "左下角照片，展示一只手拿着一杯苹果汁（Apple Juice",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下角照片，展示一只手拿着一杯奶茶（milk tea），背景为蓝色。照片主体为奶茶杯，周围有黄色描边勾勒轮廓，并带有文字标注。",
+      "label": "右下角照片，展示一只手拿着一杯奶茶（milk tea），背景",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4"
+  ]
+}

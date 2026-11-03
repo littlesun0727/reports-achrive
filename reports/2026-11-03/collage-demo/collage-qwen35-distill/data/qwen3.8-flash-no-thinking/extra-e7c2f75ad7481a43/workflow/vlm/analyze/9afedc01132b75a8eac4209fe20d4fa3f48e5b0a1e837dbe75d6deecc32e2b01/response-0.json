@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-d76f5f24-49c9-9832-bae2-3c6a884c69aa",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 8138,
+    "total_tokens": 9051,
+    "completion_tokens": 913,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 2257,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 913
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的摄影底图，画面为黄昏时分的城市街景。左侧可见棕榈树剪影和夕阳，右侧有街道、行人及建筑。该底图延伸至画布四边，承载所有上层独立照片与装饰元素。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        48,\n        52,\n        409,\n        93\n      ],\n      \"text\": \"Sunset sells tenderness,\\nand the world is full of romance.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_sparkle\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        76,\n        341,\n        321,\n        478\n      ],\n      \"description\": \"白色手绘风格的放射状闪光线条图案，位于左上小照片下方，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        53,\n        116,\n        308,\n        262\n      ],\n      \"description\": \"矩形窗口内的摄影内容，显示夕阳下的棕榈树街道，周围环绕着白色虚线边框效果。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        508,\n        513,\n        1000,\n        1000\n      ],\n      \"description\": \"竖向矩形窗口内的摄影内容，显示热闹的街头场景，包含骑电动车的人、气球摊贩和路人，左边缘带有白色虚线框效果。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        76,\n        486,\n        508,\n        916\n      ],\n      \"description\": \"竖向矩形窗口内的摄影内容，透过车窗拍摄的城市黄昏景色，包含草地、建筑和天空，四周环绕白色虚线边框。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        452,\n        55,\n        909,\n        513\n      ],\n      \"description\": \"竖向矩形窗口内的摄影内容，显示逆光下的街道、行人剪影和远处落日，四周环绕白色虚线边框。\"\n    },\n    {\n      \"id\": \"overlay_clip\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        651,\n        12,\n        733,\n        84\n      ],\n      \"description\": \"白色手绘回形针图案，压在右上照片的顶部边框上，作为独立固定装饰保留。\"\n    },\n    {\n      \"id\": \"overlay_text_art\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        821,\n        908,\n        966,\n        976\n      ],\n      \"description\": \"右下角的白色艺术字“此刻”，具有特殊的手写笔触造型，作为整体装饰保留。\"\n    }\n  ],\n  \"layer_order\": [\n    \"text_1\",\n    \"overlay_sparkle\",\n    \"photo_top_left\",\n    \"photo_bottom_right\",\n    \"photo_bottom_left\",\n    \"photo_top_right\",\n    \"overlay_clip\",\n    \"overlay_text_art\"\n  ]\n}",
+  "tool_calls": false
+}

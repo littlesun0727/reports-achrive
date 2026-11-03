@@ -1,0 +1,166 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的海滨风景摄影画面，包含蓝天、海面、岩石、沙滩、木栈道及远处建筑，场景延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "连续的海滨风景摄影画面，包含蓝天、海面、岩石、沙滩、木栈道及",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        189,
+        144,
+        572,
+        533
+      ],
+      "description": "矩形照片窗口，展示海边停泊的小船与绿树，保留摄影环境，窗口边缘清晰。",
+      "label": "矩形照片窗口，展示海边停泊的小船与绿树，保留摄影环境，窗口边",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        508,
+        317,
+        950,
+        907
+      ],
+      "description": "矩形照片窗口，展示穿白衣女子在海边挥手，背景有建筑，保留摄影环境，窗口边缘清晰。",
+      "label": "矩形照片窗口，展示穿白衣女子在海边挥手，背景有建筑，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        86,
+        864,
+        594,
+        1195
+      ],
+      "description": "矩形照片窗口，展示海边骑自行车的人与松树，保留摄影环境，窗口边缘清晰。",
+      "label": "矩形照片窗口，展示海边骑自行车的人与松树，保留摄影环境，窗口",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        122,
+        346,
+        194
+      ],
+      "description": "带有手写英文的撕纸效果贴纸，文字、底板和边缘作为完整装饰保留。",
+      "label": "带有手写英文的撕纸效果贴纸，文字、底板和边缘作为完整装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        259,
+        778,
+        346
+      ],
+      "description": "银色回形针贴纸，作为独立装饰保留。",
+      "label": "银色回形针贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        119,
+        662,
+        562,
+        691
+      ],
+      "description": "Life isn't perfect but your outfit can be.",
+      "label": "Life isn't perfect but your ou",
+      "method": "local",
+      "text": "Life isn't perfect but your outfit can be.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        680,
+        389,
+        918,
+        418
+      ],
+      "description": "An unexpected surprise.",
+      "label": "An unexpected surprise.",
+      "method": "local",
+      "text": "An unexpected surprise.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        508,
+        1066,
+        842,
+        1152
+      ],
+      "description": "Travel is the spice of life, but remember, occasionally life itself needs to be the spice sprinkled on our journey.",
+      "label": "Travel is the spice of life, b",
+      "method": "local",
+      "text": "Travel is the spice of life, but remember, occasionally life itself needs to be the spice sprinkled on our journey.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

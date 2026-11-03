@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "户外公园场景，包含蓝天、白云、深色栅栏、绿色草地和树木。画面中有多处独立照片遮挡，但摄影环境连续延伸至画布四边，保留完整摄影环境。",
+      "background_type": "photo",
+      "label": "户外公园场景，包含蓝天、白云、深色栅栏、绿色草地和树木。画面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        198,
+        90,
+        504,
+        480
+      ],
+      "description": "人物半身照，身穿黑色无袖上衣，肩背米色包，背景有树木和告示牌，保留摄影环境。",
+      "label": "人物半身照，身穿黑色无袖上衣，肩背米色包，背景有树木和告示牌",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        477,
+        366,
+        702,
+        600
+      ],
+      "description": "橘猫在砖石路面上行走，保留摄影环境。",
+      "label": "橘猫在砖石路面上行走，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        99,
+        438,
+        342,
+        786
+      ],
+      "description": "树木与街道场景，可见绿色树叶和远处车辆，保留摄影环境。",
+      "label": "树木与街道场景，可见绿色树叶和远处车辆，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        261,
+        672,
+        693,
+        990
+      ],
+      "description": "人物半身照，身穿黑色无袖上衣，肩背米色包，背景有树木和告示牌，保留摄影环境。",
+      "label": "人物半身照，身穿黑色无袖上衣，肩背米色包，背景有树木和告示牌",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        540,
+        162,
+        720,
+        228
+      ],
+      "description": "好天气！",
+      "label": "好天气！",
+      "method": "local",
+      "text": "好天气！",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        294,
+        747,
+        444
+      ],
+      "description": "蓝色轮廓、内部带白色波点的心形贴纸，带有手绘风格。",
+      "label": "蓝色轮廓、内部带白色波点的心形贴纸，带有手绘风格。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        636,
+        747,
+        1104
+      ],
+      "description": "棕色波点矩形贴纸，带有白色蝴蝶结和飘带，手绘风格。",
+      "label": "棕色波点矩形贴纸，带有白色蝴蝶结和飘带，手绘风格。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1",
+    "overlay_1",
+    "overlay_2"
+  ]
+}

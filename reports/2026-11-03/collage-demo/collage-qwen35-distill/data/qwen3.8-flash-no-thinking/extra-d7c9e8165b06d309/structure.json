@@ -1,0 +1,218 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的白色横线纹理纸底，四周及照片间隙保留相同纸纹；作为固定设计单元保留原样。"
+  },
+  "objects": [
+    {
+      "id": "overlay_clipboard",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        62,
+        940,
+        938
+      ],
+      "description": "棕色圆角矩形底板，模拟写字板或文件夹外观，位于白色纸底之上、所有其他对象之下。"
+    },
+    {
+      "id": "overlay_clamp",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        12,
+        650,
+        140
+      ],
+      "description": "手绘风格的夹子图案，带有“clamp!”字样，位于画布顶部中央，覆盖在底板边缘。"
+    },
+    {
+      "id": "text_todo",
+      "kind": "text",
+      "bbox": [
+        140,
+        175,
+        450,
+        220
+      ],
+      "text": "# To Do LIST:",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        170,
+        260,
+        460,
+        550
+      ],
+      "description": "展示多杯奶茶饮料和帆布袋的照片，边缘呈撕纸效果。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        240,
+        380,
+        300
+      ],
+      "description": "深褐色带白点的胶带装饰，贴在饮料照片上方。"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        410,
+        220,
+        560
+      ],
+      "description": "一串垂直排列的手绘爱心贴纸，位于饮料照片左侧。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        490,
+        175,
+        850,
+        540
+      ],
+      "description": "拍立得相纸边框，包含白色宽边和内部照片窗口。",
+      "photo_id": [
+        "photo_girls"
+      ]
+    },
+    {
+      "id": "photo_girls",
+      "kind": "photo",
+      "bbox": [
+        510,
+        205,
+        830,
+        460
+      ],
+      "description": "两名年轻女性的合影自拍，背景为城市夜景建筑。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        165,
+        780,
+        230
+      ],
+      "description": "两颗星星形状的贴纸，位于拍立得相框右上角。"
+    },
+    {
+      "id": "overlay_label_happy",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        450,
+        890,
+        540
+      ],
+      "description": "格纹纸条标签，上面写有“> Haaaaaapy plog.”字样，位于拍立得相框右下角。"
+    },
+    {
+      "id": "overlay_label_water",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        570,
+        420,
+        620
+      ],
+      "description": "格纹纸条标签，上面写有“来一杯续命水！”字样，位于饮料照片下方。"
+    },
+    {
+      "id": "photo_bear",
+      "kind": "photo",
+      "bbox": [
+        180,
+        630,
+        550,
+        840
+      ],
+      "description": "手持灰色毛绒小熊挂件的照片，背景可见黑色包袋和手机，边缘呈撕纸效果。"
+    },
+    {
+      "id": "overlay_dogs",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        800,
+        300,
+        870
+      ],
+      "description": "两只简笔画风格的小狗贴纸，位于小熊照片左下角。"
+    },
+    {
+      "id": "photo_kitties",
+      "kind": "photo",
+      "bbox": [
+        530,
+        560,
+        870,
+        740
+      ],
+      "description": "大量Hello Kitty玩偶集合的照片，边缘呈撕纸效果。"
+    },
+    {
+      "id": "text_niceday",
+      "kind": "text",
+      "bbox": [
+        600,
+        760,
+        860,
+        860
+      ],
+      "text": "HAVE A\nNICE DAY",
+      "color": "#FF99CC",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_rainbow",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        750,
+        820,
+        800
+      ],
+      "description": "彩虹形状的小贴纸，位于文字上方。"
+    }
+  ],
+  "layer_order": [
+    "overlay_clipboard",
+    "overlay_clamp",
+    "text_todo",
+    "photo_drinks",
+    "overlay_tape",
+    "overlay_hearts",
+    "frame_polaroid",
+    "photo_girls",
+    "overlay_stars",
+    "overlay_label_happy",
+    "overlay_label_water",
+    "photo_bear",
+    "overlay_dogs",
+    "photo_kitties",
+    "text_niceday",
+    "overlay_rainbow"
+  ]
+}

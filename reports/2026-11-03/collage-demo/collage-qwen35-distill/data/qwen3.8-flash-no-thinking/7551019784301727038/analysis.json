@@ -1,0 +1,200 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1603
+  ],
+  "objects": [
+    {
+      "id": "bg_water_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1603
+      ],
+      "description": "全画布为浅蓝色水波纹理底图，带有重复的“t'aime je”文字图案和白色光晕效果。该纹理覆盖整个画面，作为固定背景保留，不随照片替换。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅蓝色水波纹理底图，带有重复的“t'aime je”",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_photo_strip",
+      "kind": "frame",
+      "bbox": [
+        261,
+        216,
+        706,
+        1226
+      ],
+      "description": "竖向排列的三格胶片式相框，具有白色边框、齿孔细节及圆角矩形窗口。承载三张独立的人像照片，整体作为一个固定设计单元保留。",
+      "photo_id": [
+        "photo_top",
+        "photo_mid",
+        "photo_bottom"
+      ],
+      "label": "竖向排列的三格胶片式相框，具有白色边框、齿孔细节及圆角矩形窗",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        310,
+        240,
+        698,
+        529
+      ],
+      "description": "位于相框最上层的照片，显示一名长发女性的面部特写，光线柔和，面带微笑。",
+      "label": "位于相框最上层的照片，显示一名长发女性的面部特写，光线柔和，",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        274,
+        561,
+        688,
+        858
+      ],
+      "description": "位于相框中间层的照片，显示同一女性的侧脸特写，眼神看向镜头，头发遮挡部分脸颊。",
+      "label": "位于相框中间层的照片，显示同一女性的侧脸特写，眼神看向镜头，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        288,
+        906,
+        680,
+        1194
+      ],
+      "description": "位于相框最下层的照片，显示女性双手托腮的姿态，穿着浅色毛衣，背景可见窗户结构。",
+      "label": "位于相框最下层的照片，显示女性双手托腮的姿态，穿着浅色毛衣，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bow_top",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        80,
+        450,
+        401
+      ],
+      "description": "左上角的白色大蝴蝶结装饰，材质呈现半透明纱质感，边缘有珍珠状点缀，压在相框上方。",
+      "label": "左上角的白色大蝴蝶结装饰，材质呈现半透明纱质感，边缘有珍珠状",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flowers_left",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        337,
+        360,
+        769
+      ],
+      "description": "左侧的一串绿叶白花藤蔓装饰，自然垂落，部分叶片延伸至相框内部区域。",
+      "label": "左侧的一串绿叶白花藤蔓装饰，自然垂落，部分叶片延伸至相框内部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_bg",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        449,
+        900,
+        1042
+      ],
+      "description": "巨大的黑色手写体英文单词（看似“love”或类似拼写），横跨画面中部，位于相框图层下方但在水纹背景上方。",
+      "label": "巨大的黑色手写体英文单词（看似“love”或类似拼写），横跨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_blue",
+      "kind": "overlay",
+      "bbox": [
+        202,
+        785,
+        338,
+        930
+      ],
+      "description": "一只蓝色的蝴蝶贴纸，位于左侧花藤与相框交界处，翅膀纹理清晰。",
+      "label": "一只蓝色的蝴蝶贴纸，位于左侧花藤与相框交界处，翅膀纹理清晰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots_black",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        802,
+        270,
+        994
+      ],
+      "description": "左下方的黑色点阵圆形图案，由密集的小黑点组成，作为装饰元素。",
+      "label": "左下方的黑色点阵圆形图案，由密集的小黑点组成，作为装饰元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots_right",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        978,
+        882,
+        1186
+      ],
+      "description": "右下方的黑色点阵圆形图案，与左侧呼应，部分被白色线条遮挡。",
+      "label": "右下方的黑色点阵圆形图案，与左侧呼应，部分被白色线条遮挡。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ribbon_bottom",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        1090,
+        801,
+        1330
+      ],
+      "description": "右下角的白色小蝴蝶结，系在一条弯曲的白色缎带上，缎带向左延伸并打结。",
+      "label": "右下角的白色小蝴蝶结，系在一条弯曲的白色缎带上，缎带向左延伸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_lines",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1170,
+        900,
+        1523
+      ],
+      "description": "底部复杂的白色手绘风格线条，呈波浪状缠绕，连接左右两侧，具有立体感。",
+      "label": "底部复杂的白色手绘风格线条，呈波浪状缠绕，连接左右两侧，具有",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_water_texture",
+    "overlay_text_bg",
+    "frame_photo_strip",
+    "photo_top",
+    "photo_mid",
+    "photo_bottom",
+    "overlay_bow_top",
+    "overlay_flowers_left",
+    "overlay_butterfly_blue",
+    "overlay_dots_black",
+    "overlay_dots_right",
+    "overlay_white_lines",
+    "overlay_ribbon_bottom"
+  ]
+}

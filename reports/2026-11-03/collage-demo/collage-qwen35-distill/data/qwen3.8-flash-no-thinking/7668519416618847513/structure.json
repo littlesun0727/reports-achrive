@@ -1,0 +1,205 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pattern",
+    "description": "深棕色底色上均匀分布白色圆点的全画布固定底图，纹理和颜色需保留原样。"
+  },
+  "objects": [
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        35,
+        648,
+        201
+      ],
+      "description": "倾斜放置的半透明胶带，带有青色波点图案，位于右上照片上方。"
+    },
+    {
+      "id": "overlay_label_love",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        164,
+        337,
+        229
+      ],
+      "description": "灰色矩形标签，带有白色细密波点纹理，内部包含粉色艺术字“Love theme”。"
+    },
+    {
+      "id": "photo_cafe_table",
+      "kind": "photo",
+      "bbox": [
+        462,
+        106,
+        893,
+        531
+      ],
+      "description": "竖向长方形照片，显示木桌上的星巴克咖啡杯、手机壳、毛绒挂件及黑色衣物等物品。"
+    },
+    {
+      "id": "frame_cafe_table",
+      "kind": "frame",
+      "bbox": [
+        457,
+        101,
+        898,
+        536
+      ],
+      "description": "围绕右上照片的浅粉色毛边相框，边缘呈不规则撕裂状。",
+      "photo_id": [
+        "photo_cafe_table"
+      ]
+    },
+    {
+      "id": "overlay_bubble_korean",
+      "kind": "overlay",
+      "bbox": [
+        337,
+        251,
+        573,
+        411
+      ],
+      "description": "灰白色对话气泡形状贴纸，带白色波点，内含黑色韩文文字“보고 싶어요...ㅠㅠ”及星号装饰。"
+    },
+    {
+      "id": "photo_cake_small",
+      "kind": "photo",
+      "bbox": [
+        12,
+        291,
+        162,
+        396
+      ],
+      "description": "小方形照片，展示一块草莓奶油蛋糕切片，叠加有黑色颜文字“TvT”。"
+    },
+    {
+      "id": "frame_cake_small",
+      "kind": "frame",
+      "bbox": [
+        12,
+        291,
+        162,
+        396
+      ],
+      "description": "围绕小蛋糕照片的红色虚线边框。",
+      "photo_id": [
+        "photo_cake_small"
+      ]
+    },
+    {
+      "id": "photo_shop_hand",
+      "kind": "photo",
+      "bbox": [
+        62,
+        396,
+        412,
+        706
+      ],
+      "description": "竖向照片，显示一只手拿着粉色兔子毛绒玩具，背景为挂满玩偶的货架。"
+    },
+    {
+      "id": "frame_shop_hand",
+      "kind": "frame",
+      "bbox": [
+        57,
+        391,
+        417,
+        711
+      ],
+      "description": "围绕左侧手持玩偶照片的浅粉色毛边相框。",
+      "photo_id": [
+        "photo_shop_hand"
+      ]
+    },
+    {
+      "id": "overlay_apple",
+      "kind": "overlay",
+      "bbox": [
+        812,
+        471,
+        937,
+        561
+      ],
+      "description": "像素风格的红苹果贴纸，带有绿色叶子和白色描边。"
+    },
+    {
+      "id": "overlay_bubble_emoticon",
+      "kind": "overlay",
+      "bbox": [
+        502,
+        556,
+        673,
+        616
+      ],
+      "description": "白色猫耳形状对话气泡，内含绿色颜文字“ㅇ( ^-ω-^ )ㅇ”。"
+    },
+    {
+      "id": "photo_matcha_cake",
+      "kind": "photo",
+      "bbox": [
+        452,
+        631,
+        947,
+        906
+      ],
+      "description": "横向长方形照片，展示一杯抹茶拿铁和盘子里的一块草莓蛋糕，置于黑白格纹餐垫上。"
+    },
+    {
+      "id": "frame_matcha_cake",
+      "kind": "frame",
+      "bbox": [
+        447,
+        626,
+        952,
+        911
+      ],
+      "description": "围绕右下照片的浅粉色毛边相框。",
+      "photo_id": [
+        "photo_matcha_cake"
+      ]
+    },
+    {
+      "id": "overlay_bar_text",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        741,
+        412,
+        796
+      ],
+      "description": "粉色长条圆角矩形底板，左侧有白色圆形对勾图标，右侧包含星星符号及中文文字“等待幸福的来临 =ω= ”。"
+    },
+    {
+      "id": "overlay_music_note",
+      "kind": "overlay",
+      "bbox": [
+        362,
+        851,
+        547,
+        946
+      ],
+      "description": "深红色音符贴纸，带有白色波点图案。"
+    }
+  ],
+  "layer_order": [
+    "overlay_tape",
+    "overlay_label_love",
+    "photo_cafe_table",
+    "frame_cafe_table",
+    "overlay_bubble_korean",
+    "photo_cake_small",
+    "frame_cake_small",
+    "photo_shop_hand",
+    "frame_shop_hand",
+    "overlay_apple",
+    "overlay_bubble_emoticon",
+    "photo_matcha_cake",
+    "frame_matcha_cake",
+    "overlay_bar_text",
+    "overlay_music_note"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "striped_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "黑色底上的连续灰白竖向细条纹铺满全画布，照片和贴纸之间及四周均露出相同图案；保留条纹底图原样。",
+      "background_type": "reference_clean",
+      "label": "黑色底上的连续灰白竖向细条纹铺满全画布，照片和贴纸之间及四周",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        129,
+        187,
+        932,
+        1254
+      ],
+      "description": "餐厅内一名红发女性坐在桌前的竖幅照片，人物面向镜头、双手托在下巴旁，画面包含餐厅环境、桌面蛋糕与餐食；矩形照片区域完整保留，左上角和右下角被半透明胶带局部覆盖。",
+      "label": "餐厅内一名红发女性坐在桌前的竖幅照片，人物面向镜头、双手托在",
+      "method": "local"
+    },
+    {
+      "id": "tape_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        56,
+        315,
+        329
+      ],
+      "description": "斜贴在照片左上角的半透明皱褶胶带，带有反光和折痕；一部分伸出照片边缘，覆盖照片左上区域。",
+      "label": "斜贴在照片左上角的半透明皱褶胶带，带有反光和折痕；一部分伸出",
+      "method": "extract"
+    },
+    {
+      "id": "tape_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        764,
+        1095,
+        1043,
+        1370
+      ],
+      "description": "斜贴在照片右下角的半透明皱褶胶带，带有反光和折痕；一部分伸出照片边缘，覆盖照片右下区域。",
+      "label": "斜贴在照片右下角的半透明皱褶胶带，带有反光和折痕；一部分伸出",
+      "method": "extract"
+    },
+    {
+      "id": "star_top_center",
+      "kind": "overlay",
+      "bbox": [
+        610,
+        82,
+        691,
+        157
+      ],
+      "description": "照片上方偏右的白色五角星贴纸，独立装饰。",
+      "label": "照片上方偏右的白色五角星贴纸，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_top_small",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        27,
+        831,
+        80
+      ],
+      "description": "画布上方的小型白色五角星贴纸，独立装饰。",
+      "label": "画布上方的小型白色五角星贴纸，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        913,
+        45,
+        1038,
+        165
+      ],
+      "description": "画布右上方的大型白色五角星贴纸，独立装饰。",
+      "label": "画布右上方的大型白色五角星贴纸，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_right",
+      "kind": "overlay",
+      "bbox": [
+        945,
+        293,
+        1027,
+        369
+      ],
+      "description": "画布右侧的白色五角星贴纸，独立装饰。",
+      "label": "画布右侧的白色五角星贴纸，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        952,
+        50,
+        1005
+      ],
+      "description": "画布左侧边缘处的白色小五角星贴纸，部分超出画布边缘，独立装饰。",
+      "label": "画布左侧边缘处的白色小五角星贴纸，部分超出画布边缘，独立装饰",
+      "method": "extract"
+    },
+    {
+      "id": "star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        1277,
+        109,
+        1358
+      ],
+      "description": "画布左下方的白色五角星贴纸，独立装饰。",
+      "label": "画布左下方的白色五角星贴纸，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        1307,
+        356,
+        1409
+      ],
+      "description": "画布下方偏左的大型白色五角星贴纸，独立装饰。",
+      "label": "画布下方偏左的大型白色五角星贴纸，独立装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "striped_background",
+    "photo_portrait",
+    "tape_upper_left",
+    "tape_lower_right",
+    "star_top_center",
+    "star_top_small",
+    "star_top_right",
+    "star_right",
+    "star_left",
+    "star_bottom_left",
+    "star_bottom_center"
+  ]
+}

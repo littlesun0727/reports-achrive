@@ -1,0 +1,186 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#705337"
+  },
+  "objects": [
+    {
+      "id": "frame_upper_left",
+      "kind": "frame",
+      "bbox": [
+        74,
+        92,
+        369,
+        471
+      ],
+      "description": "浅色偏粉的点状纸质相片承托片，呈左侧与下侧露出的不规则L形，覆盖范围包括所有可见纸边和圆点；上方照片压在承托片上。",
+      "photo_id": [
+        "photo_upper_left"
+      ]
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        110,
+        92,
+        369,
+        438
+      ],
+      "description": "竖向桌面近景照片：木桌上有蒸笼、食物和饮品，一只手在前景举着小相片；保留完整桌面摄影环境，矩形窗口，上缘及左侧局部被裁切。"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        152,
+        717,
+        416,
+        915
+      ],
+      "description": "浅色点状纸质相片承托片，照片下方露出底边、右边及部分圆点，完整保留纸片与印刷图案。",
+      "photo_id": [
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        84,
+        654,
+        383,
+        879
+      ],
+      "description": "横向室内镜自拍，一名长发人物坐着抱住大型浅色玩偶，手机遮住部分面部；人物、玩偶及房间环境共同保留在矩形照片窗口内。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        420,
+        331,
+        674,
+        670
+      ],
+      "description": "竖向俯拍照片：一名穿黑白格纹衣物的人坐在地毯上，手持花纹布偶，旁边有购物袋和小玩偶；保留完整地毯与室内摄影环境，矩形窗口。"
+    },
+    {
+      "id": "overlay_right_dots",
+      "kind": "overlay",
+      "bbox": [
+        461,
+        373,
+        707,
+        708
+      ],
+      "description": "浅粉色圆点组成的装饰边带，沿右侧及下侧松散排列，围绕右侧照片但不承托照片，完整保留各圆点。"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        263,
+        497,
+        369,
+        601
+      ],
+      "description": "小幅方形蛋糕图案贴片，画有顶部草莓和奶油蛋糕，右上有圈号“2”，底部印有“Strawberry cake”；整体作为一枚独立印刷装饰保留。"
+    },
+    {
+      "id": "overlay_quote_burst",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        97,
+        662,
+        280
+      ],
+      "description": "白色锯齿放射形对话贴纸，内部为黑色打字机风格英文“I don't know where I'm going, but I'm on my way.”；文字与爆炸形底板作为一个完整装饰单元保留。"
+    },
+    {
+      "id": "overlay_scattered_glyphs",
+      "kind": "overlay",
+      "bbox": [
+        343,
+        57,
+        681,
+        299
+      ],
+      "description": "画面上方与右侧散布的数个浅色小字形装饰，包括多处“萌”字及较小字符，保留各自位置与间距，作为分散的固定字形点缀。"
+    },
+    {
+      "id": "overlay_my_love",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        519,
+        208,
+        543
+      ],
+      "description": "浅色装饰性字样“my love”，两侧带小型星光线描，字形与点缀共同构成独立装饰。"
+    },
+    {
+      "id": "overlay_stationery",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        573,
+        205,
+        692
+      ],
+      "description": "左侧由横纹纸片、白色线框及两枚小方块组成的独立文具风格装饰，保留其错位叠放、边线和完整轮廓。"
+    },
+    {
+      "id": "overlay_quote_handwritten",
+      "kind": "overlay",
+      "bbox": [
+        455,
+        755,
+        662,
+        897
+      ],
+      "description": "浅粉色手写字样“quiet glow / no need for / spotlight”，分三行排列；左上有紫色小涂鸦，末行右侧带浅黄色星星，整体作为一组装饰字样保留。"
+    },
+    {
+      "id": "overlay_sparkle_left",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        876,
+        78,
+        899
+      ],
+      "description": "左下方独立的浅色线描星光装饰。"
+    },
+    {
+      "id": "overlay_sparkle_mid",
+      "kind": "overlay",
+      "bbox": [
+        383,
+        606,
+        408,
+        632
+      ],
+      "description": "右侧照片左下方的浅色线描星光装饰。"
+    }
+  ],
+  "layer_order": [
+    "frame_upper_left",
+    "photo_upper_left",
+    "frame_lower",
+    "photo_lower",
+    "photo_right",
+    "overlay_right_dots",
+    "overlay_cake",
+    "overlay_quote_burst",
+    "overlay_scattered_glyphs",
+    "overlay_my_love",
+    "overlay_stationery",
+    "overlay_quote_handwritten",
+    "overlay_sparkle_left",
+    "overlay_sparkle_mid"
+  ]
+}

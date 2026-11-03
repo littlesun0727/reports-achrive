@@ -1,0 +1,190 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续的浅黄绿色纹理底图，带有模糊的横向条纹和类似水彩晕染的痕迹。该固定设计单元覆盖整个画布，作为所有照片和装饰元素的背景层。",
+      "background_type": "reference_clean",
+      "label": "连续的浅黄绿色纹理底图，带有模糊的横向条纹和类似水彩晕染的痕",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        322,
+        67,
+        773,
+        404
+      ],
+      "description": "位于右上方的矩形风景照片，画面展示了公园内的草坪、树木和蓝天。",
+      "label": "位于右上方的矩形风景照片，画面展示了公园内的草坪、树木和蓝天",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars_blue",
+      "kind": "overlay",
+      "bbox": [
+        631,
+        274,
+        838,
+        486
+      ],
+      "description": "一组蓝色的手绘涂鸦，包含两个圆圈（其中一个带笑脸）、一个粉色四角星和一个蓝色小星，叠加在右上方照片的右下角。",
+      "label": "一组蓝色的手绘涂鸦，包含两个圆圈（其中一个带笑脸）、一个粉色",
+      "method": "extract"
+    },
+    {
+      "id": "text_love_definition",
+      "kind": "text",
+      "bbox": [
+        79,
+        82,
+        428,
+        306
+      ],
+      "description": "LOVE: |luv| n.\n1. an intense affection for another\nperson based on personal or familial\nties 2. the deep tenderness, affection,\nand concern felt for a person with whom one\nhas a relationship.",
+      "label": "LOVE: |luv| n.\n1. an intense a",
+      "method": "local",
+      "text": "LOVE: |luv| n.\n1. an intense affection for another\nperson based on personal or familial\nties 2. the deep tenderness, affection,\nand concern felt for a person with whom one\nhas a relationship.",
+      "text_status": "known",
+      "style": {
+        "fill": "#AECBDB",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_left_flower",
+      "kind": "photo",
+      "bbox": [
+        32,
+        460,
+        405,
+        738
+      ],
+      "description": "左侧中部的矩形照片，特写拍摄了绿叶丛中的粉色扶桑花。",
+      "label": "左侧中部的矩形照片，特写拍摄了绿叶丛中的粉色扶桑花。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_blob_white",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        400,
+        448,
+        798
+      ],
+      "description": "白色的不规则波浪线框，包围着左侧的花朵照片，线条延伸至照片外部。",
+      "label": "白色的不规则波浪线框，包围着左侧的花朵照片，线条延伸至照片外",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_grey",
+      "kind": "overlay",
+      "bbox": [
+        757,
+        574,
+        820,
+        642
+      ],
+      "description": "灰色的五角星形状贴纸，位于右侧中部。",
+      "label": "灰色的五角星形状贴纸，位于右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_silver",
+      "kind": "overlay",
+      "bbox": [
+        705,
+        630,
+        795,
+        730
+      ],
+      "description": "银色的回形针图案，倾斜放置，视觉上夹住了右侧下方的照片。",
+      "label": "银色的回形针图案，倾斜放置，视觉上夹住了右侧下方的照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        490,
+        640,
+        864,
+        922
+      ],
+      "description": "右下方的矩形风景照片，展示了有人正在给草坪浇水的场景，背景是树林。",
+      "label": "右下方的矩形风景照片，展示了有人正在给草坪浇水的场景，背景是",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars_brown",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        804,
+        207,
+        990
+      ],
+      "description": "两个棕色的星星图案，一大一小，带有白色描边，位于左下方。",
+      "label": "两个棕色的星星图案，一大一小，带有白色描边，位于左下方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left_tree",
+      "kind": "photo",
+      "bbox": [
+        178,
+        792,
+        459,
+        1170
+      ],
+      "description": "左下方的竖向矩形照片，仰拍视角，展示了蓝天下的树冠。",
+      "label": "左下方的竖向矩形照片，仰拍视角，展示了蓝天下的树冠。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_symbols_white",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        930,
+        808,
+        1008
+      ],
+      "description": "白色的手绘符号组合，包括一个五角星、一个小圆圈、一个弯月和一个加号，位于底部中央偏右。",
+      "label": "白色的手绘符号组合，包括一个五角星、一个小圆圈、一个弯月和一",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top_right",
+    "overlay_stars_blue",
+    "text_love_definition",
+    "photo_left_flower",
+    "overlay_blob_white",
+    "overlay_star_grey",
+    "photo_bottom_right",
+    "overlay_clip_silver",
+    "overlay_stars_brown",
+    "photo_bottom_left_tree",
+    "overlay_symbols_white"
+  ]
+}

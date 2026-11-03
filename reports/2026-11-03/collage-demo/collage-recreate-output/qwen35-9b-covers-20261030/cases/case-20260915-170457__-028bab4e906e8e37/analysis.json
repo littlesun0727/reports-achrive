@@ -1,0 +1,211 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#8C857F"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        96,
+        128,
+        576,
+        640
+      ],
+      "description": "一杯放在笔记本电脑上的奶茶，杯身有'JURIAN HOUSE'和'裕蓮茶'字样，背景有玩偶和屏幕显示时间14:29。",
+      "label": "一杯放在笔记本电脑上的奶茶，杯身有'JURIAN HOUSE",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        384,
+        704,
+        864,
+        1216
+      ],
+      "description": "户外风景照，有树木、草地、池塘和樱花树，天空晴朗。",
+      "label": "户外风景照，有树木、草地、池塘和樱花树，天空晴朗。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        512,
+        144,
+        768
+      ],
+      "description": "蓝色五角星贴纸，边缘有白色描边。",
+      "label": "蓝色五角星贴纸，边缘有白色描边。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        448,
+        816,
+        576
+      ],
+      "description": "黑色小杯子贴纸，带有卡通眼睛和红色心形装饰。",
+      "label": "黑色小杯子贴纸，带有卡通眼睛和红色心形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        624,
+        128,
+        816,
+        384
+      ],
+      "description": "白色手绘风格装饰元素，包括星星、圆圈和线条。",
+      "label": "白色手绘风格装饰元素，包括星星、圆圈和线条。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        704,
+        288,
+        832
+      ],
+      "description": "白色手绘小鸟图案。",
+      "label": "白色手绘小鸟图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        704,
+        816,
+        832
+      ],
+      "description": "白色手绘电影拍板图案。",
+      "label": "白色手绘电影拍板图案。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        192,
+        64,
+        480,
+        128
+      ],
+      "description": "coffee",
+      "label": "coffee",
+      "method": "local",
+      "text": "coffee",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        336,
+        576,
+        672,
+        640
+      ],
+      "description": "不管何时，生活的目标是健康和快乐",
+      "label": "不管何时，生活的目标是健康和快乐",
+      "method": "local",
+      "text": "不管何时，生活的目标是健康和快乐",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        480,
+        1152,
+        816,
+        1216
+      ],
+      "description": "去有风的地方",
+      "label": "去有风的地方",
+      "method": "local",
+      "text": "去有风的地方",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        896,
+        336,
+        1152
+      ],
+      "description": "音乐播放器界面，显示播放进度条和控制按钮。",
+      "label": "音乐播放器界面，显示播放进度条和控制按钮。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

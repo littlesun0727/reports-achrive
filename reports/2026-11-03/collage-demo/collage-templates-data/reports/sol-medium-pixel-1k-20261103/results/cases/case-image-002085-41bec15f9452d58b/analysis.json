@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1024,
+        768
+      ],
+      "description": "上半部为完整横向静物摄影画面：蓝色墙面与桌面上放着一盘奶油、水果和点心，右上方有一只白色兔子玩偶俯向盘子。场景延伸至该照片区域四边，画面在约 y=768 处结束；保留桌面、墙面、食物和玩偶的摄影环境。",
+      "label": "上半部为完整横向静物摄影画面：蓝色墙面与桌面上放着一盘奶油、",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        768,
+        1024,
+        1536
+      ],
+      "description": "下半部的浅米色纹理纸面，横跨画布宽度，带有细微纸纹；底部可见横向撕裂纸边及其浅色纤维边缘，整体作为固定纸面设计保留。",
+      "label": "下半部的浅米色纹理纸面，横跨画布宽度，带有细微纸纹；底部可见",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_illustration",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        916,
+        824,
+        1297
+      ],
+      "description": "印在纸面上的完整复古质感插画：蓝色粗糙矩形笔刷底色上绘有盛着甜点和水果的盘子，以及右上方的白色兔子形象；插画中的盘子、食物、兔子和笔刷底色构成一个固定设计单元。",
+      "label": "印在纸面上的完整复古质感插画：蓝色粗糙矩形笔刷底色上绘有盛着",
+      "method": "extract"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        272,
+        1339,
+        590,
+        1393
+      ],
+      "description": "small joys,\nsoft as a sunday afternoon.",
+      "label": "small joys,\nsoft as a sunday a",
+      "method": "local",
+      "text": "small joys,\nsoft as a sunday afternoon.",
+      "text_status": "known",
+      "style": {
+        "fill": "#30251D",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_paper",
+    "photo_top",
+    "overlay_illustration",
+    "text_caption"
+  ]
+}

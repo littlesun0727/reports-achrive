@@ -1,0 +1,258 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        54,
+        160,
+        846,
+        688
+      ],
+      "description": "上方照片显示一位女性对着镜子自拍，身穿白色长袖上衣和牛仔短裙，手持手机遮挡面部，背景为室内环境，包含墙面插座和深色柜体。",
+      "label": "上方照片显示一位女性对着镜子自拍，身穿白色长袖上衣和牛仔短裙",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        54,
+        688,
+        846,
+        1216
+      ],
+      "description": "下方照片显示同一位女性对着镜子自拍，姿势与上方照片相似，身穿白色长袖上衣和牛仔短裙，手持手机遮挡面部，背景为室内环境，包含墙面插座和深色柜体。",
+      "label": "下方照片显示同一位女性对着镜子自拍，姿势与上方照片相似，身穿",
+      "method": "local"
+    },
+    {
+      "id": "icon_flash_top",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        72,
+        130,
+        136
+      ],
+      "description": "顶部左侧的闪电图标，表示闪光灯功能。",
+      "label": "顶部左侧的闪电图标，表示闪光灯功能。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_mode_top",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        72,
+        202,
+        136
+      ],
+      "description": "顶部左侧的月亮图标，表示夜景模式。",
+      "label": "顶部左侧的月亮图标，表示夜景模式。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_menu_top",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        72,
+        482,
+        136
+      ],
+      "description": "顶部中央的向下箭头图标，表示菜单选项。",
+      "label": "顶部中央的向下箭头图标，表示菜单选项。",
+      "method": "extract"
+    },
+    {
+      "id": "text_raw_max",
+      "kind": "text",
+      "bbox": [
+        675,
+        72,
+        738,
+        136
+      ],
+      "description": "RAW\nMAX",
+      "label": "RAW\nMAX",
+      "method": "local",
+      "text": "RAW\nMAX",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_focus_top",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        72,
+        806,
+        136
+      ],
+      "description": "顶部右侧的圆形对焦图标。",
+      "label": "顶部右侧的圆形对焦图标。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_flash_bottom",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        1256,
+        184,
+        1336
+      ],
+      "description": "底部左侧的闪电图标，表示闪光灯功能。",
+      "label": "底部左侧的闪电图标，表示闪光灯功能。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_mode_bottom",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        1256,
+        302,
+        1336
+      ],
+      "description": "底部左侧的月亮图标，表示夜景模式。",
+      "label": "底部左侧的月亮图标，表示夜景模式。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_focus_bottom",
+      "kind": "overlay",
+      "bbox": [
+        338,
+        1256,
+        410,
+        1336
+      ],
+      "description": "底部中央的圆形对焦图标。",
+      "label": "底部中央的圆形对焦图标。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_filter_bottom",
+      "kind": "overlay",
+      "bbox": [
+        464,
+        1256,
+        536,
+        1336
+      ],
+      "description": "底部中央的滤镜图标。",
+      "label": "底部中央的滤镜图标。",
+      "method": "extract"
+    },
+    {
+      "id": "text_ratio",
+      "kind": "text",
+      "bbox": [
+        598,
+        1256,
+        662,
+        1336
+      ],
+      "description": "4:3",
+      "label": "4:3",
+      "method": "local",
+      "text": "4:3",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "icon_zoom_bottom",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        1256,
+        788,
+        1336
+      ],
+      "description": "底部右侧的加号图标，表示变焦功能。",
+      "label": "底部右侧的加号图标，表示变焦功能。",
+      "method": "extract"
+    },
+    {
+      "id": "button_shutter",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        1368,
+        540,
+        1512
+      ],
+      "description": "底部中央的圆形快门按钮。",
+      "label": "底部中央的圆形快门按钮。",
+      "method": "extract"
+    },
+    {
+      "id": "icon_rotate_bottom",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        1400,
+        788,
+        1480
+      ],
+      "description": "底部右侧的旋转图标。",
+      "label": "底部右侧的旋转图标。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "icon_flash_top",
+    "icon_mode_top",
+    "icon_menu_top",
+    "text_raw_max",
+    "icon_focus_top",
+    "icon_flash_bottom",
+    "icon_mode_bottom",
+    "icon_focus_bottom",
+    "icon_filter_bottom",
+    "text_ratio",
+    "icon_zoom_bottom",
+    "button_shutter",
+    "icon_rotate_bottom"
+  ]
+}

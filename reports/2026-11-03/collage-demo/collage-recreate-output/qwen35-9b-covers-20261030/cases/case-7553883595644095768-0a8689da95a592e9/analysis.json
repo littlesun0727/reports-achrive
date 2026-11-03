@@ -1,0 +1,204 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "wall_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续的米色纹理墙面底图，作为所有照片和装饰的承载背景；保留墙面材质，独立照片不属于固定底图。",
+      "background_type": "reference_clean",
+      "label": "连续的米色纹理墙面底图，作为所有照片和装饰的承载背景；保留墙",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        117,
+        156,
+        387,
+        432
+      ],
+      "description": "左上角照片，展示甜点、咖啡和玩偶，保留摄影环境，四边清晰。",
+      "label": "左上角照片，展示甜点、咖啡和玩偶，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        477,
+        204,
+        765,
+        612
+      ],
+      "description": "右上角照片，展示人物手持勺子，保留摄影环境，四边清晰。",
+      "label": "右上角照片，展示人物手持勺子，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        243,
+        504,
+        513,
+        816
+      ],
+      "description": "中间照片，展示人物手持物品，保留摄影环境，四边清晰。",
+      "label": "中间照片，展示人物手持物品，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        522,
+        516,
+        693,
+        612
+      ],
+      "description": "右侧小照片，展示餐盘食物，保留摄影环境，四边清晰。",
+      "label": "右侧小照片，展示餐盘食物，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        144,
+        852,
+        351,
+        1044
+      ],
+      "description": "左下角照片，展示咖啡拉花，保留摄影环境，四边清晰。",
+      "label": "左下角照片，展示咖啡拉花，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        540,
+        840,
+        747,
+        1056
+      ],
+      "description": "右下角照片，展示格纹衣物和鞋子，保留摄影环境，四边清晰。",
+      "label": "右下角照片，展示格纹衣物和鞋子，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        696,
+        378,
+        912
+      ],
+      "description": "黑胶唱片贴纸，包含 Autumn whispers 字样和音符图案，保留完整设计。",
+      "label": "黑胶唱片贴纸，包含 Autumn whispers 字样和音",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        372,
+        513,
+        504
+      ],
+      "description": "手写纸条贴纸，包含 Found a quiet corner of the world. 字样，保留完整设计。",
+      "label": "手写纸条贴纸，包含 Found a quiet corner",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        720,
+        801,
+        888
+      ],
+      "description": "格纹贴纸，包含 No one but you. 字样和枫叶图案，保留完整设计。",
+      "label": "格纹贴纸，包含 No one but you. 字样和枫叶图",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        549,
+        84,
+        765,
+        204
+      ],
+      "description": "PLOG",
+      "label": "PLOG",
+      "method": "local",
+      "text": "PLOG",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        588,
+        729,
+        720
+      ],
+      "description": "白色线条勾勒的兔子和猫咪图案，保留完整设计。",
+      "label": "白色线条勾勒的兔子和猫咪图案，保留完整设计。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        1008,
+        261,
+        1128
+      ],
+      "description": "银色胶带贴纸，保留完整设计。",
+      "label": "银色胶带贴纸，保留完整设计。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "wall_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1"
+  ]
+}

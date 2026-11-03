@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内生活场景摄影底图，包含人物、桌面、食物、玩偶及窗外夜景，画面连续延伸至画布四边；上层心形、星形照片窗口及文字装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        420,
+        100,
+        780,
+        450
+      ],
+      "description": "心形照片窗口，保留人物、玩偶、桌面及窗外夜景，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        100,
+        500,
+        460,
+        850
+      ],
+      "description": "星形照片窗口，保留桌面食物、平板及玩偶，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        100,
+        120,
+        400,
+        420
+      ],
+      "text": "我从此感到幸福\n轻易 松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬芳淡淡的 却萦绕不去\n我的幸福\n只需要我伸出于享心",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        550,
+        520,
+        850,
+        820
+      ],
+      "text": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        350,
+        850,
+        450
+      ],
+      "description": "兔子表情贴纸，包含耳朵、眼睛和括号，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        40,
+        850,
+        100
+      ],
+      "description": "星星、音符、月亮、爱心和花朵组成的装饰图案，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        850,
+        400,
+        900
+      ],
+      "description": "五个五角星组成的装饰图案，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        450,
+        500,
+        500
+      ],
+      "description": "蝴蝶结装饰，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_heart",
+    "photo_star",
+    "text_1",
+    "text_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

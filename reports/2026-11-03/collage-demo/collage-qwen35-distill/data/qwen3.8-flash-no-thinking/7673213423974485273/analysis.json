@@ -1,0 +1,216 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1601
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1601
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        552
+      ],
+      "description": "上方横向摄影照片，展示一名女子在餐厅用餐的场景。她身穿黑色上衣，左手持玻璃杯，右手持筷子，面前有一大锅芝士年糕火锅、一盘炒饭、一盘沙拉和几串烤肉。画面右上角有一只手拿着汤勺伸向镜头。背景为深色餐厅环境。",
+      "label": "上方横向摄影照片，展示一名女子在餐厅用餐的场景。她身穿黑色上",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paper_mid",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        552,
+        900,
+        1076
+      ],
+      "description": "中间区域的浅棕色牛皮纸纹理底板，作为拼贴设计的背景载体。表面带有细微的纸张质感，承载了四张抠图食物照片、卡通贴纸及白色手绘文字装饰。",
+      "label": "中间区域的浅棕色牛皮纸纹理底板，作为拼贴设计的背景载体。表面",
+      "method": "extract"
+    },
+    {
+      "id": "text_loading",
+      "kind": "text",
+      "bbox": [
+        25,
+        568,
+        180,
+        648
+      ],
+      "description": "快乐\n加载中",
+      "label": "快乐\n加载中",
+      "method": "local",
+      "text": "快乐\n加载中",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_stickers",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        704,
+        216,
+        889
+      ],
+      "description": "位于左侧的两只卡通动物贴纸（一只蓝色考拉状生物和一只白色兔子），具有明显的黑色描边轮廓，叠加在牛皮纸底板上。",
+      "label": "位于左侧的两只卡通动物贴纸（一只蓝色考拉状生物和一只白色兔子",
+      "method": "extract"
+    },
+    {
+      "id": "photo_salad_cutout",
+      "kind": "photo",
+      "bbox": [
+        194,
+        608,
+        410,
+        792
+      ],
+      "description": "抠图显示的沙拉盘照片，包含绿色蔬菜、肉丝和黄瓜片。盘子周围有一圈白色虚线边框，模拟餐垫效果。",
+      "label": "抠图显示的沙拉盘照片，包含绿色蔬菜、肉丝和黄瓜片。盘子周围有",
+      "method": "local"
+    },
+    {
+      "id": "photo_skewers_cutout",
+      "kind": "photo",
+      "bbox": [
+        428,
+        584,
+        652,
+        760
+      ],
+      "description": "抠图显示的烤肉串照片，黑色圆盘上摆放着五串烤肉。盘子周围有一圈白色虚线边框。",
+      "label": "抠图显示的烤肉串照片，黑色圆盘上摆放着五串烤肉。盘子周围有一",
+      "method": "local"
+    },
+    {
+      "id": "overlay_utensils",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        616,
+        810,
+        744
+      ],
+      "description": "右侧的白色手绘线条图案，描绘了叉子和餐刀，周围点缀着星星符号，直接绘制在牛皮纸底板上。",
+      "label": "右侧的白色手绘线条图案，描绘了叉子和餐刀，周围点缀着星星符号",
+      "method": "extract"
+    },
+    {
+      "id": "photo_fried_rice_cutout",
+      "kind": "photo",
+      "bbox": [
+        225,
+        809,
+        418,
+        969
+      ],
+      "description": "抠图显示的炒饭照片，盛在黑色碗中，顶部有海苔碎。碗周围有一圈白色虚线边框。",
+      "label": "抠图显示的炒饭照片，盛在黑色碗中，顶部有海苔碎。碗周围有一圈",
+      "method": "local"
+    },
+    {
+      "id": "photo_hotpot_cutout",
+      "kind": "photo",
+      "bbox": [
+        482,
+        800,
+        688,
+        977
+      ],
+      "description": "抠图显示的芝士年糕火锅照片，铜锅盛装。锅体下方绘有简易的黑色线条支架，整体被白色虚线包围。",
+      "label": "抠图显示的芝士年糕火锅照片，铜锅盛装。锅体下方绘有简易的黑色",
+      "method": "local"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        90,
+        993,
+        747,
+        1057
+      ],
+      "description": "一起吃饭 | 普通日子里的小浪漫",
+      "label": "一起吃饭 | 普通日子里的小浪漫",
+      "method": "local",
+      "text": "一起吃饭 | 普通日子里的小浪漫",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        961,
+        864,
+        1033
+      ],
+      "description": "右下角的白色手绘小鱼图案，共两条，作为装饰元素。",
+      "label": "右下角的白色手绘小鱼图案，共两条，作为装饰元素。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1076,
+        900,
+        1601
+      ],
+      "description": "下方横向摄影照片，展示一名男子在餐厅用餐的场景。他身穿浅蓝色T恤，手持筷子和饮料，面前同样摆满了火锅、炒饭等食物。画面左下角有一只手拿着汤勺伸向镜头。",
+      "label": "下方横向摄影照片，展示一名男子在餐厅用餐的场景。他身穿浅蓝色",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "overlay_paper_mid",
+    "photo_bottom",
+    "text_loading",
+    "overlay_stickers",
+    "photo_salad_cutout",
+    "photo_skewers_cutout",
+    "overlay_utensils",
+    "photo_fried_rice_cutout",
+    "photo_hotpot_cutout",
+    "text_caption",
+    "overlay_fish"
+  ]
+}

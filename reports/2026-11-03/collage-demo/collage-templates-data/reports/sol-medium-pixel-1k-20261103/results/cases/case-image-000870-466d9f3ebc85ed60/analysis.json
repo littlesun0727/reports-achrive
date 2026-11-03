@@ -1,0 +1,50 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "夜间建筑广场的连续全画布照片，上半部为近乎纯黑的夜空及暗部，下半部为斜向屋顶、明亮玻璃幕墙、台阶与铺装地面。五名主要行人分散站立或行走于下方，左边缘另有远处人物，右下方有人坐在暗处。建筑与地面延伸到画布左右及下边缘，上方黑暗区域与场景连续；仅上部叠加独立文字。保留完整摄影环境，整体随客户照片替换。",
+      "background_type": "photo",
+      "label": "夜间建筑广场的连续全画布照片，上半部为近乎纯黑的夜空及暗部，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_location_time",
+      "kind": "text",
+      "bbox": [
+        343,
+        342,
+        738,
+        380
+      ],
+      "description": "Huanle Haian-19:12",
+      "label": "Huanle Haian-19:12",
+      "method": "local",
+      "text": "Huanle Haian-19:12",
+      "text_status": "known",
+      "style": {
+        "fill": "#E6E6E6",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_location_time"
+  ]
+}

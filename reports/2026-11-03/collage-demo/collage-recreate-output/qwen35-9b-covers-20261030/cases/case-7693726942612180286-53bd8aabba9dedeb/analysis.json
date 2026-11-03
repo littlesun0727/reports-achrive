@@ -1,0 +1,250 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "韩国街景摄影底图，包含街道、建筑、霓虹灯牌、路标及行人，场景连续延伸至画布四边。上层贴纸、照片和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "韩国街景摄影底图，包含街道、建筑、霓虹灯牌、路标及行人，场景",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        36,
+        216,
+        378,
+        576
+      ],
+      "description": "自拍照片，人物手持白色手机，扎双马尾，穿粉色背心，背景为室内环境，保留摄影环境。",
+      "label": "自拍照片，人物手持白色手机，扎双马尾，穿粉色背心，背景为室内",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        396,
+        504,
+        864,
+        864
+      ],
+      "description": "四格拍立得风格照片，展示人物在不同场景的穿搭，保留摄影环境。",
+      "label": "四格拍立得风格照片，展示人物在不同场景的穿搭，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        36,
+        624,
+        378,
+        984
+      ],
+      "description": "食物照片，展示甜点、饮品和面包，保留摄影环境。",
+      "label": "食物照片，展示甜点、饮品和面包，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        414,
+        72,
+        558,
+        192
+      ],
+      "description": "黑白圆形图案照片，保留摄影环境。",
+      "label": "黑白圆形图案照片，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        36,
+        216,
+        378,
+        576
+      ],
+      "description": "承载 photo_1 的拍立得式纸框，位于照片下方，纸张纹理、印花和阴影作为完整框体保留，内口照片独立替换。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "承载 photo_1 的拍立得式纸框，位于照片下方，纸张纹理",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        396,
+        504,
+        864,
+        864
+      ],
+      "description": "承载 photo_2 的拍立得式纸框，位于照片下方，纸张纹理、印花和阴影作为完整框体保留，内口照片独立替换。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "承载 photo_2 的拍立得式纸框，位于照片下方，纸张纹理",
+      "method": "extract"
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        36,
+        624,
+        378,
+        984
+      ],
+      "description": "承载 photo_3 的拍立得式纸框，位于照片下方，纸张纹理、印花和阴影作为完整框体保留，内口照片独立替换。",
+      "photo_id": [
+        "photo_3"
+      ],
+      "label": "承载 photo_3 的拍立得式纸框，位于照片下方，纸张纹理",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        120,
+        270,
+        240
+      ],
+      "description": "带有粉色波点的问号贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有粉色波点的问号贴纸，文字、底板和阴影作为一个完整装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        456,
+        90,
+        528
+      ],
+      "description": "带有白色波点的心形贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有白色波点的心形贴纸，文字、底板和阴影作为一个完整装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        456,
+        558,
+        528
+      ],
+      "description": "带有花朵图案的相机贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有花朵图案的相机贴纸，文字、底板和阴影作为一个完整装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        396,
+        720,
+        504,
+        792
+      ],
+      "description": "带有绿色边框的 'Slow lapse' 文字贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有绿色边框的 'Slow lapse' 文字贴纸，文字、底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        396,
+        816,
+        558,
+        864
+      ],
+      "description": "带有蓝色边框的 '사랑해' 文字贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有蓝色边框的 '사랑해' 文字贴纸，文字、底板和阴影作为一",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        360,
+        288,
+        450,
+        408
+      ],
+      "description": "seen this angel",
+      "label": "seen this angel",
+      "method": "local",
+      "text": "seen this angel",
+      "text_status": "known",
+      "style": {
+        "fill": "#00FFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        360,
+        960,
+        720,
+        1080
+      ],
+      "description": "Weekend.",
+      "label": "Weekend.",
+      "method": "local",
+      "text": "Weekend.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFA500",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_1",
+    "photo_1",
+    "frame_2",
+    "photo_2",
+    "frame_3",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1",
+    "text_2"
+  ]
+}

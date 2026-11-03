@@ -1,0 +1,148 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1320,
+    1767
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1320,
+        1767
+      ],
+      "description": "一张连续的摄影底图，画面为黄昏时分的城市街景。左侧可见棕榈树剪影和夕阳，右侧有街道、行人及建筑。该底图延伸至画布四边，承载所有上层独立照片与装饰元素。",
+      "background_type": "photo",
+      "label": "一张连续的摄影底图，画面为黄昏时分的城市街景。左侧可见棕榈树",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        63,
+        92,
+        540,
+        164
+      ],
+      "description": "Sunset sells tenderness,\nand the world is full of romance.",
+      "label": "Sunset sells tenderness,\nand t",
+      "method": "local",
+      "text": "Sunset sells tenderness,\nand the world is full of romance.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        603,
+        424,
+        845
+      ],
+      "description": "白色手绘风格的放射状闪光线条图案，位于左上小照片下方，作为独立固定装饰保留。",
+      "label": "白色手绘风格的放射状闪光线条图案，位于左上小照片下方，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        70,
+        205,
+        407,
+        463
+      ],
+      "description": "矩形窗口内的摄影内容，显示夕阳下的棕榈树街道，周围环绕着白色虚线边框效果。",
+      "label": "矩形窗口内的摄影内容，显示夕阳下的棕榈树街道，周围环绕着白色",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        671,
+        906,
+        1320,
+        1767
+      ],
+      "description": "竖向矩形窗口内的摄影内容，显示热闹的街头场景，包含骑电动车的人、气球摊贩和路人，左边缘带有白色虚线框效果。",
+      "label": "竖向矩形窗口内的摄影内容，显示热闹的街头场景，包含骑电动车的",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        100,
+        859,
+        671,
+        1619
+      ],
+      "description": "竖向矩形窗口内的摄影内容，透过车窗拍摄的城市黄昏景色，包含草地、建筑和天空，四周环绕白色虚线边框。",
+      "label": "竖向矩形窗口内的摄影内容，透过车窗拍摄的城市黄昏景色，包含草",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        597,
+        97,
+        1200,
+        906
+      ],
+      "description": "竖向矩形窗口内的摄影内容，显示逆光下的街道、行人剪影和远处落日，四周环绕白色虚线边框。",
+      "label": "竖向矩形窗口内的摄影内容，显示逆光下的街道、行人剪影和远处落",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        859,
+        21,
+        968,
+        148
+      ],
+      "description": "白色手绘回形针图案，压在右上照片的顶部边框上，作为独立固定装饰保留。",
+      "label": "白色手绘回形针图案，压在右上照片的顶部边框上，作为独立固定装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_art",
+      "kind": "overlay",
+      "bbox": [
+        1084,
+        1604,
+        1275,
+        1725
+      ],
+      "description": "右下角的白色艺术字“此刻”，具有特殊的手写笔触造型，作为整体装饰保留。",
+      "label": "右下角的白色艺术字“此刻”，具有特殊的手写笔触造型，作为整体",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_1",
+    "overlay_sparkle",
+    "photo_top_left",
+    "photo_bottom_right",
+    "photo_bottom_left",
+    "photo_top_right",
+    "overlay_clip",
+    "overlay_text_art"
+  ]
+}

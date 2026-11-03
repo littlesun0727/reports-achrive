@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        500,
+        1000
+      ],
+      "description": "左侧人物全身自拍，手持手机，背景为室内环境，包含人物、手机、饰品及周围空间。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        0,
+        1000,
+        500
+      ],
+      "description": "右上人物半身自拍，戴帽子，背景为墙面，包含人物、帽子、项链及墙面文字。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        500,
+        1000,
+        750
+      ],
+      "description": "右中人物坐姿，位于台阶上，包含人物、台阶、包袋及腿部。"
+    },
+    {
+      "id": "photo_bot_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        750,
+        1000,
+        1000
+      ],
+      "description": "右下包袋与手机特写，包含黑色包、手机壳、杂志及地面。"
+    },
+    {
+      "id": "overlay_left_ui",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        500,
+        1000
+      ],
+      "description": "左侧界面UI元素，包括左上角关闭按钮、顶部功能图标、底部故事按钮及文字。"
+    },
+    {
+      "id": "overlay_right_ui",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        0,
+        1000,
+        1000
+      ],
+      "description": "右侧界面UI元素，包括左上角关闭按钮、顶部功能图标、底部故事按钮及文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_top_right",
+    "photo_mid_right",
+    "photo_bot_right",
+    "overlay_left_ui",
+    "overlay_right_ui"
+  ]
+}

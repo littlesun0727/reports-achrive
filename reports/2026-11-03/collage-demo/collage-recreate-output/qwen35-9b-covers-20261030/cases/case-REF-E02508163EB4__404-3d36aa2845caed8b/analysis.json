@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "广阔的绿色草原与连绵山脉构成连续摄影画面，边缘露出的草地、天空和远山延伸至画布四边；上层照片和装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "广阔的绿色草原与连绵山脉构成连续摄影画面，边缘露出的草地、天",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        360,
+        176,
+        1008,
+        605
+      ],
+      "description": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        90,
+        536,
+        407,
+        1015
+      ],
+      "description": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        607,
+        766,
+        904,
+        1212
+      ],
+      "description": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        122,
+        515,
+        223
+      ],
+      "description": "三颗黄色星星装饰，位于左上角天空区域。",
+      "label": "三颗黄色星星装饰，位于左上角天空区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        605,
+        623,
+        780
+      ],
+      "description": "白色箭头与蓝色星星装饰，位于中间偏右位置。",
+      "label": "白色箭头与蓝色星星装饰，位于中间偏右位置。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2"
+  ]
+}

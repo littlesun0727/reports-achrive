@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "蓝天白云与绿色草地构成连续摄影环境，延伸至画布四边；前景的复古电脑、键盘及贴纸遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云与绿色草地构成连续摄影环境，延伸至画布四边；前景的复",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        405,
+        300
+      ],
+      "description": "左上角电脑设置窗口截图，包含文字与图标，作为固定设计单元保留。",
+      "label": "左上角电脑设置窗口截图，包含文字与图标，作为固定设计单元保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        180,
+        315,
+        540
+      ],
+      "description": "左侧电脑菜单截图，包含文字与图标，作为固定设计单元保留。",
+      "label": "左侧电脑菜单截图，包含文字与图标，作为固定设计单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        108,
+        216,
+        792,
+        840
+      ],
+      "description": "复古电脑屏幕显示像素风格厨房场景，人物手持蛋糕，保留摄影环境，屏幕边框清晰。",
+      "label": "复古电脑屏幕显示像素风格厨房场景，人物手持蛋糕，保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        540,
+        405,
+        1140
+      ],
+      "description": "前景贴纸，人物手持蛋糕与叉子，轮廓清晰，作为独立装饰保留。",
+      "label": "前景贴纸，人物手持蛋糕与叉子，轮廓清晰，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        180,
+        315,
+        300
+      ],
+      "description": "气泡对话框，包含文字 'online'，作为独立装饰保留。",
+      "label": "气泡对话框，包含文字 'online'，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        780,
+        900,
+        1020
+      ],
+      "description": "右下角颜色选择器截图，包含文字与图标，作为固定设计单元保留。",
+      "label": "右下角颜色选择器截图，包含文字与图标，作为固定设计单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        960,
+        900,
+        1140
+      ],
+      "description": "右下角对话框截图，包含文字与图标，作为固定设计单元保留。",
+      "label": "右下角对话框截图，包含文字与图标，作为固定设计单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        780,
+        900,
+        1140
+      ],
+      "description": "底部键盘与桌面区域，包含文字与图标，作为固定设计单元保留。",
+      "label": "底部键盘与桌面区域，包含文字与图标，作为固定设计单元保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_1",
+    "overlay_2",
+    "photo_1",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7"
+  ]
+}

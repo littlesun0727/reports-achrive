@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影底图，画面为平静的湖面、远处的山脉和天空。水面波纹与远山轮廓在画布四边及人物间隙处保持连续，作为整体环境承载全幅画面。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        430,
+        0,
+        980,
+        350
+      ],
+      "description": "位于右上方的男性半身像，身穿黑色T恤，背对镜头侧身向右上方仰望。主体边缘呈现明显的透明渐隐效果（羽化），自然融入下方的湖景背景中。"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        320,
+        650,
+        680
+      ],
+      "description": "位于左侧中部的男性侧面特写，身穿黑色上衣，面朝左方凝视远方。图像下边缘有明显的水平方向透明渐隐处理，使人物下半部分柔和地消失在背景中。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        370,
+        680,
+        1000,
+        1000
+      ],
+      "description": "位于右下方的人物剪影，头部大幅度向后仰起朝向天空，仅显示上半身。该区域保留了完整的摄影环境，边缘清晰，无明显去背景或渐隐痕迹。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_right",
+    "photo_mid_left",
+    "photo_bottom_right"
+  ]
+}

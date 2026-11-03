@@ -1,0 +1,188 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布为白色底图，上面均匀分布着黑色小圆点阵列。该图案作为固定背景保留，不随照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_main_right",
+      "kind": "photo",
+      "bbox": [
+        468,
+        293,
+        931,
+        755
+      ],
+      "description": "右侧竖向长方形照片，显示一名身穿水手服的黑发女子在百叶窗前握拳，嘴里含着一张小照片。"
+    },
+    {
+      "id": "frame_camera_left",
+      "kind": "frame",
+      "bbox": [
+        55,
+        390,
+        545,
+        662
+      ],
+      "description": "左侧带有相机取景器界面设计的黑色边框，包含参数文字（FINE, SD, ISO AUTO等）和图标，中间有矩形窗口承载照片。",
+      "photo_id": [
+        "photo_inner_left"
+      ]
+    },
+    {
+      "id": "photo_inner_left",
+      "kind": "photo",
+      "bbox": [
+        120,
+        415,
+        475,
+        635
+      ],
+      "description": "位于相机框内的照片，显示同一名女子双手比耶，嘴里含着一张小照片。"
+    },
+    {
+      "id": "frame_star_top_right",
+      "kind": "frame",
+      "bbox": [
+        665,
+        110,
+        965,
+        330
+      ],
+      "description": "右上角黑色星形徽章样式的相框，顶部别着一枚银色回形针，中间方形窗口承载照片。",
+      "photo_id": [
+        "photo_inner_star"
+      ]
+    },
+    {
+      "id": "photo_inner_star",
+      "kind": "photo",
+      "bbox": [
+        725,
+        175,
+        900,
+        300
+      ],
+      "description": "位于星形框内的照片，显示女子低头看着手中的物品。"
+    },
+    {
+      "id": "frame_lanyard_bottom",
+      "kind": "frame",
+      "bbox": [
+        330,
+        670,
+        630,
+        915
+      ],
+      "description": "底部挂绳证件卡样式的相框，上方有黑色带子和金属扣，下方圆角矩形窗口承载照片。",
+      "photo_id": [
+        "photo_inner_lanyard"
+      ]
+    },
+    {
+      "id": "photo_inner_lanyard",
+      "kind": "photo",
+      "bbox": [
+        335,
+        770,
+        625,
+        910
+      ],
+      "description": "位于挂绳卡内的照片，显示女子手持滑板站立。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        265,
+        580,
+        310
+      ],
+      "description": "位于主照片左上方的黑色手绘风格回形针装饰。"
+    },
+    {
+      "id": "text_korean_top",
+      "kind": "text",
+      "bbox": [
+        255,
+        235,
+        630,
+        265
+      ],
+      "text": "사랑해 오늘도 내일도 앞으로도",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_korean_bottom",
+      "kind": "text",
+      "bbox": [
+        640,
+        860,
+        975,
+        890
+      ],
+      "text": "서울 날씨 어때 , 잘지냈어 ^^",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        50,
+        980,
+        970
+      ],
+      "description": "散布在画面各处的黑色五角星装饰，大小不一。"
+    },
+    {
+      "id": "overlay_paw_prints",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        685,
+        130,
+        745
+      ],
+      "description": "左下角的黑色动物爪印装饰。"
+    },
+    {
+      "id": "overlay_icons_bottom",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        800,
+        950,
+        840
+      ],
+      "description": "右下角的一排黑色小图标：齿轮、鼠标箭头、双心形胶囊。"
+    }
+  ],
+  "layer_order": [
+    "photo_main_right",
+    "photo_inner_left",
+    "frame_camera_left",
+    "photo_inner_star",
+    "frame_star_top_right",
+    "photo_inner_lanyard",
+    "frame_lanyard_bottom",
+    "overlay_paperclip",
+    "text_korean_top",
+    "text_korean_bottom",
+    "overlay_stars",
+    "overlay_paw_prints",
+    "overlay_icons_bottom"
+  ]
+}

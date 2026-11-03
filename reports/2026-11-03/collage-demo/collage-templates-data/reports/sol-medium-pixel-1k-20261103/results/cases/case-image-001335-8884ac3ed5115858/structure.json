@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的甜点布置摄影画面铺满画布，中央是一只装饰有粉色玫瑰和蝴蝶结的心形蛋糕，周围可见桌面、绿色叶片及粉白色布料环境；场景延伸至四边，上方点点纸带、蕾丝和底部乐谱遮挡局部。以整张场景照片作为可替换范围。"
+  },
+  "objects": [
+    {
+      "id": "overlay_dotted_strip",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        81
+      ],
+      "description": "画布顶部横向灰色底、白色小圆点图案的固定纸带，覆盖整幅宽度。"
+    },
+    {
+      "id": "overlay_lace",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        77,
+        1080,
+        169
+      ],
+      "description": "横贯画布上部的白色蕾丝装饰带，边缘呈连续镂空花纹，压在顶部点点纸带与摄影画面前方。"
+    },
+    {
+      "id": "overlay_who_am_i",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        282,
+        224,
+        825
+      ],
+      "description": "左侧纵向排列的四行白色窄长装饰字样，内容为重复的“who am I”；字形具有明显的特殊拉长造型，作为整体字样设计保留。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        827,
+        1080,
+        1071
+      ],
+      "description": "横贯画面下部的白底黑色五线谱装饰，包含高音谱号、升号及多个音符，作为一体的固定乐谱单元保留。"
+    },
+    {
+      "id": "overlay_mouse",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        591,
+        1041,
+        936
+      ],
+      "description": "右下方独立的兔耳大象造型装饰，带紫色大耳、浅色身体和蕾丝领口，覆盖蛋糕摄影画面并被底部乐谱局部遮挡。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        232,
+        166,
+        269
+      ],
+      "description": "左上区域的一枚紫色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        588,
+        214,
+        620,
+        247
+      ],
+      "description": "蛋糕上方的一枚紫色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        898,
+        245,
+        933,
+        280
+      ],
+      "description": "右上区域的一枚紫色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        327,
+        349,
+        366,
+        389
+      ],
+      "description": "蛋糕左侧的一枚紫色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_5",
+      "kind": "overlay",
+      "bbox": [
+        997,
+        472,
+        1028,
+        508
+      ],
+      "description": "画面右侧的一枚紫色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_6",
+      "kind": "overlay",
+      "bbox": [
+        262,
+        752,
+        295,
+        785
+      ],
+      "description": "画面左下区域的一枚紫色五角星装饰。"
+    },
+    {
+      "id": "overlay_star_7",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        735,
+        744,
+        770
+      ],
+      "description": "画面下部偏右的一枚紫色五角星装饰。"
+    }
+  ],
+  "layer_order": [
+    "overlay_dotted_strip",
+    "overlay_lace",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4",
+    "overlay_star_5",
+    "overlay_star_6",
+    "overlay_star_7",
+    "overlay_who_am_i",
+    "overlay_mouse",
+    "overlay_music"
+  ]
+}

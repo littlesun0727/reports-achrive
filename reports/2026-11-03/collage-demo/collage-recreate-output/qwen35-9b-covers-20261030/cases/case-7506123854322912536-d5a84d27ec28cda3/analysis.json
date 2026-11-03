@@ -1,0 +1,125 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "brick_wall_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布固定底图为白色砖墙纹理，墙面有光影和污渍细节，作为整体背景承载所有独立对象。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图为白色砖墙纹理，墙面有光影和污渍细节，作为整体",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        68,
+        142,
+        668,
+        538
+      ],
+      "description": "上方照片显示一位女性坐在白色栏杆旁，背景为绿色植物，保留摄影环境，边缘有轻微模糊效果。",
+      "label": "上方照片显示一位女性坐在白色栏杆旁，背景为绿色植物，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        256,
+        691,
+        808,
+        1066
+      ],
+      "description": "下方照片显示一位女性坐在车内，背景为车窗和座椅，保留摄影环境，边缘有轻微模糊效果。",
+      "label": "下方照片显示一位女性坐在车内，背景为车窗和座椅，保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flowers",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        528,
+        891,
+        780
+      ],
+      "description": "横跨画布中部的绿色植物与白色小花装饰带，位于两张照片之间，作为固定装饰单元。",
+      "label": "横跨画布中部的绿色植物与白色小花装饰带，位于两张照片之间，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_four_leaf",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        888,
+        320,
+        1104
+      ],
+      "description": "左下角的绿色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "label": "左下角的绿色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        66,
+        140,
+        198
+      ],
+      "description": "左上角的白色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "label": "左上角的白色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        402,
+        770,
+        534
+      ],
+      "description": "右上角的白色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "label": "右上角的白色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        1014,
+        891,
+        1188
+      ],
+      "description": "右下角的白色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "label": "右下角的白色四叶草图案贴纸，带有网格纹理，作为独立装饰单元。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "brick_wall_base",
+    "photo_top",
+    "photo_bottom",
+    "overlay_flowers",
+    "overlay_four_leaf",
+    "overlay_top_left",
+    "overlay_top_right",
+    "overlay_bottom_right"
+  ]
+}

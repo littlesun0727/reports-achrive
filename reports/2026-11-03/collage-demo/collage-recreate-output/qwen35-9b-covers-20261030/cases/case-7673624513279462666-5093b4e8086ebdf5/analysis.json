@@ -1,0 +1,190 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1188
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1188
+      ],
+      "description": "深色木质桌面与背景构成连续摄影画面，边缘露出的场景延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "深色木质桌面与背景构成连续摄影画面，边缘露出的场景延伸至画布",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        108,
+        143,
+        486,
+        523
+      ],
+      "description": "手持打开的书籍照片，书页上有黑白猫咪插画和韩文文字，保留摄影环境，四边清晰。",
+      "label": "手持打开的书籍照片，书页上有黑白猫咪插画和韩文文字，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        486,
+        428,
+        810,
+        760
+      ],
+      "description": "石质墙面特写照片，墙上有手绘小熊图案和心形，保留摄影环境，四边清晰。",
+      "label": "石质墙面特写照片，墙上有手绘小熊图案和心形，保留摄影环境，四",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        108,
+        713,
+        486,
+        998
+      ],
+      "description": "人物面部特写照片，嘴部有食物残渣，保留摄影环境，四边清晰。",
+      "label": "人物面部特写照片，嘴部有食物残渣，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        486,
+        713,
+        810,
+        998
+      ],
+      "description": "切开的蛋糕照片，保留摄影环境，四边清晰。",
+      "label": "切开的蛋糕照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        689,
+        108,
+        998
+      ],
+      "description": "咖啡杯照片，保留摄影环境，四边清晰。",
+      "label": "咖啡杯照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        119,
+        162,
+        261
+      ],
+      "description": "蓝色原子模型贴纸，线条和装饰元素作为完整装饰保留。",
+      "label": "蓝色原子模型贴纸，线条和装饰元素作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        261,
+        108,
+        380
+      ],
+      "description": "白色云朵形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "label": "白色云朵形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        309,
+        828,
+        451
+      ],
+      "description": "白色兔子形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "label": "白色兔子形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        784,
+        558,
+        879
+      ],
+      "description": "白色云朵形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "label": "白色云朵形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        903,
+        144,
+        1022
+      ],
+      "description": "白色音符形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "label": "白色音符形状贴纸，线条和装饰元素作为完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        27,
+        546,
+        432,
+        665
+      ],
+      "description": "The light slowly softens, the sky fading from orange to lilac. Doing nothing but watching this gentle fade, as if everything can be forgiven, everything embraced.",
+      "label": "The light slowly softens, the ",
+      "method": "local",
+      "text": "The light slowly softens, the sky fading from orange to lilac. Doing nothing but watching this gentle fade, as if everything can be forgiven, everything embraced.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1"
+  ]
+}

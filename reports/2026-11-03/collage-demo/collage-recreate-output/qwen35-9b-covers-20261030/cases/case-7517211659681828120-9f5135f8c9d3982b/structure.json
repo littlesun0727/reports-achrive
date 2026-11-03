@@ -1,0 +1,196 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的横线笔记本纸底，带有蓝色竖线，作为全画布固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        300,
+        70,
+        950,
+        530
+      ],
+      "description": "切开的青苹果形状窗口，内部为女孩比耶的半身照，保留苹果果肉纹理和阴影，人物去背景。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        25,
+        520,
+        600,
+        930
+      ],
+      "description": "完整的青苹果形状窗口，内部为女孩侧脸特写，保留苹果表皮纹理和阴影，人物去背景。"
+    },
+    {
+      "id": "overlay_clover_1",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        40,
+        210,
+        180
+      ],
+      "description": "左上角的绿色四叶草贴纸，带有阴影。"
+    },
+    {
+      "id": "overlay_clover_2",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        310,
+        330,
+        460
+      ],
+      "description": "左侧中部的绿色四叶草贴纸，带有阴影。"
+    },
+    {
+      "id": "overlay_clover_3",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        770,
+        990,
+        850
+      ],
+      "description": "右下角的绿色四叶草贴纸，带有阴影。"
+    },
+    {
+      "id": "overlay_clover_4",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        820,
+        220,
+        930
+      ],
+      "description": "左下角带有文字和四叶草图案的方形贴纸。"
+    },
+    {
+      "id": "overlay_note_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        220,
+        190,
+        280
+      ],
+      "description": "左侧带有韩文和四叶草图案的方形贴纸。"
+    },
+    {
+      "id": "overlay_note_2",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        600,
+        650,
+        660
+      ],
+      "description": "苹果窗口旁的白色对话气泡，内含韩文“반가와요★”。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        730,
+        580,
+        800,
+        850
+      ],
+      "text": "첫눈에\n저와\n함께\n해주세요",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        830,
+        580,
+        880,
+        850
+      ],
+      "text": "世界の終わりも一緒に",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        730,
+        390,
+        950,
+        490
+      ],
+      "text": "YOU ARE MORE\nTHAN THE MISTAKES\nYOU'VE MADE.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_music_1",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        40,
+        440,
+        120
+      ],
+      "description": "顶部的绿色音符贴纸。"
+    },
+    {
+      "id": "overlay_music_2",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        510,
+        620,
+        570
+      ],
+      "description": "苹果窗口间的绿色音符贴纸。"
+    },
+    {
+      "id": "overlay_music_3",
+      "kind": "overlay",
+      "bbox": [
+        610,
+        840,
+        710,
+        950
+      ],
+      "description": "底部的绿色音符贴纸。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_clover_1",
+    "overlay_clover_2",
+    "overlay_clover_3",
+    "overlay_clover_4",
+    "overlay_note_1",
+    "overlay_note_2",
+    "text_1",
+    "text_2",
+    "text_3",
+    "overlay_music_1",
+    "overlay_music_2",
+    "overlay_music_3"
+  ]
+}

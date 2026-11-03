@@ -1,0 +1,227 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影画面，展示一位长发女子背对镜头走在绿色草地上，周围有牛群和远处的房屋与山丘。天空晴朗，光线柔和。上层的小照片、文字和装饰遮挡了部分背景，但背景本身是完整的摄影环境，延伸至画布边缘。",
+      "background_type": "photo",
+      "label": "一张连续的摄影画面，展示一位长发女子背对镜头走在绿色草地上，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        63,
+        192,
+        270,
+        432
+      ],
+      "description": "左上角照片，女子侧脸倚靠手肘，背景为绿色草地和远山，保留摄影环境。",
+      "label": "左上角照片，女子侧脸倚靠手肘，背景为绿色草地和远山，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        378,
+        216,
+        558,
+        456
+      ],
+      "description": "中间照片，女子侧脸手托下巴，背景为绿色草地和远山，保留摄影环境。",
+      "label": "中间照片，女子侧脸手托下巴，背景为绿色草地和远山，保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        648,
+        72,
+        828,
+        312
+      ],
+      "description": "右上角照片，女子背影站在草地上，背景为绿色草地和远山，保留摄影环境。",
+      "label": "右上角照片，女子背影站在草地上，背景为绿色草地和远山，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        120,
+        108,
+        180
+      ],
+      "description": "左上角波点贴纸，作为装饰元素。",
+      "label": "左上角波点贴纸，作为装饰元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        192,
+        63,
+        312
+      ],
+      "description": "左侧括号装饰，作为设计元素。",
+      "label": "左侧括号装饰，作为设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        192,
+        270,
+        312
+      ],
+      "description": "中间括号装饰，作为设计元素。",
+      "label": "中间括号装饰，作为设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        192,
+        486,
+        312
+      ],
+      "description": "右侧括号装饰，作为设计元素。",
+      "label": "右侧括号装饰，作为设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        120,
+        666,
+        240
+      ],
+      "description": "右上角括号装饰，作为设计元素。",
+      "label": "右上角括号装饰，作为设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        384,
+        558,
+        456
+      ],
+      "description": "中间心形装饰，作为设计元素。",
+      "label": "中间心形装饰，作为设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        600,
+        180,
+        780
+      ],
+      "description": "左下角蝴蝶装饰，作为设计元素。",
+      "label": "左下角蝴蝶装饰，作为设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        720,
+        855,
+        1020
+      ],
+      "description": "右下角四叶草装饰，作为设计元素。",
+      "label": "右下角四叶草装饰，作为设计元素。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        225,
+        48,
+        495,
+        120
+      ],
+      "description": "那拉提plog",
+      "label": "那拉提plog",
+      "method": "local",
+      "text": "那拉提plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        495,
+        660,
+        675,
+        720
+      ],
+      "description": "AUGUST",
+      "label": "AUGUST",
+      "method": "local",
+      "text": "AUGUST",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "text_1",
+    "text_2"
+  ]
+}

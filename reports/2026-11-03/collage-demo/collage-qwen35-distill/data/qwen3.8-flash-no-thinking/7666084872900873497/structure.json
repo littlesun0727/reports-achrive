@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "俯视视角的深色石板路面，画面底部可见穿着黑色皮鞋和白色袜子的双脚。该摄影场景连续延伸至画布四边，承载全画幅背景，上层照片拼贴、装饰及文字均遮挡其局部。"
+  },
+  "objects": [
+    {
+      "id": "text_left",
+      "kind": "text",
+      "bbox": [
+        78,
+        126,
+        415,
+        403
+      ],
+      "text": "In summer,\nThe wind is\nswaying the green\nShadow.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        669,
+        95,
+        925,
+        280
+      ],
+      "description": "右上角的白色手绘粉笔风格图案，包含两颗星星、一个纸飞机和一条螺旋线。"
+    },
+    {
+      "id": "photo_grid",
+      "kind": "photo",
+      "bbox": [
+        235,
+        166,
+        915,
+        688
+      ],
+      "description": "由九张独立小照片组成的倾斜网格拼贴，内容涵盖人物肖像、猫咪、手持冰淇淋、牵手特写、食物俯拍等生活场景。各照片紧密排列，整体作为一个组合单元显示。"
+    },
+    {
+      "id": "overlay_hello",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        595,
+        395,
+        715
+      ],
+      "description": "左下方的白色手绘粉笔风格图案，包含文字“Bonjour”、两条斜线和一个简笔画猫头。"
+    },
+    {
+      "id": "text_right",
+      "kind": "text",
+      "bbox": [
+        608,
+        575,
+        945,
+        915
+      ],
+      "text": "We are like\nSummer\nyoung and beautiful\nSmiling\nas bright a\nClear sky",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_grid",
+    "text_left",
+    "overlay_stars",
+    "overlay_hello",
+    "text_right"
+  ]
+}

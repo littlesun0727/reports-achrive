@@ -1,0 +1,129 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "咖啡店室内环境，包含木质吧台、咖啡机、吊灯、墙上的画框及窗户。画面中有一位长发女性坐在桌前，穿着绿色上衣，面前有一杯冰饮。该摄影画面连续延伸至画布四边，作为全画布底图，上层照片、文字和星星装饰遮挡局部。",
+      "background_type": "photo",
+      "label": "咖啡店室内环境，包含木质吧台、咖啡机、吊灯、墙上的画框及窗户",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        104,
+        396,
+        378,
+        804
+      ],
+      "description": "左侧照片窗口，显示女性坐在桌前，手伸向冰饮，背景为咖啡店吧台。保留摄影环境，窗口边缘清晰。",
+      "label": "左侧照片窗口，显示女性坐在桌前，手伸向冰饮，背景为咖啡店吧台",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        468,
+        180,
+        742,
+        588
+      ],
+      "description": "右上照片窗口，显示女性坐在桌前，手伸向冰饮，背景为咖啡店吧台。保留摄影环境，窗口边缘清晰。",
+      "label": "右上照片窗口，显示女性坐在桌前，手伸向冰饮，背景为咖啡店吧台",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        468,
+        648,
+        742,
+        1056
+      ],
+      "description": "右下照片窗口，显示女性手托腮坐在桌前，面前有冰饮，背景为咖啡店吧台。保留摄影环境，窗口边缘清晰。",
+      "label": "右下照片窗口，显示女性手托腮坐在桌前，面前有冰饮，背景为咖啡",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        108,
+        288,
+        374,
+        360
+      ],
+      "description": "Holiday coffee Shop\nphoto taking check-in.",
+      "label": "Holiday coffee Shop\nphoto taki",
+      "method": "local",
+      "text": "Holiday coffee Shop\nphoto taking check-in.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        108,
+        828,
+        374,
+        900
+      ],
+      "description": "Watermelon cools all\nmy summer days!",
+      "label": "Watermelon cools all\nmy summer",
+      "method": "local",
+      "text": "Watermelon cools all\nmy summer days!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "白色五角星装饰图案，散布于全画布，部分覆盖在照片和文字之上，部分位于背景之上。",
+      "label": "白色五角星装饰图案，散布于全画布，部分覆盖在照片和文字之上，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "text_1",
+    "text_2",
+    "overlay_stars"
+  ]
+}

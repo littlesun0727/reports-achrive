@@ -1,0 +1,95 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡馆室内摄影底图，画面呈现模糊的暖色调背景，包含窗户、吧台和桌椅等环境元素。该底图延伸至画布四边，作为所有独立照片和装饰元素的衬底，提供统一的场景氛围。"
+  },
+  "objects": [
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        140,
+        245,
+        460,
+        300
+      ],
+      "text": "Holiday coffee Shop\nphoto taking check-in.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        135,
+        705,
+        465,
+        765
+      ],
+      "text": "Watermelon cools all\nmy summer days!",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        130,
+        328,
+        470,
+        665
+      ],
+      "description": "左侧矩形照片，展示一位身穿绿色上衣的女性坐在桌前，面前有一杯深色饮料，背景为咖啡馆内部陈设。"
+    },
+    {
+      "id": "photo_right_top",
+      "kind": "photo",
+      "bbox": [
+        520,
+        152,
+        870,
+        502
+      ],
+      "description": "右上矩形照片，同一位女性侧身坐着，手放在桌上，视线看向镜头，背景可见咖啡机设备。"
+    },
+    {
+      "id": "photo_right_bottom",
+      "kind": "photo",
+      "bbox": [
+        522,
+        548,
+        868,
+        885
+      ],
+      "description": "右下矩形照片，女性单手托腮，眼神望向画面左侧，桌上放着插有吸管的饮料杯。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "散布在画面各处的白色手绘风格五角星装饰图案，大小不一，随机分布在照片周围及空隙处，增加活泼感。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right_top",
+    "photo_right_bottom",
+    "text_top",
+    "text_bottom",
+    "overlay_stars"
+  ]
+}

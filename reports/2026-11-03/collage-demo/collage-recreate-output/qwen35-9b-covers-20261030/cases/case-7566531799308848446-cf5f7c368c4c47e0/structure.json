@@ -1,0 +1,98 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布米白色纹理纸底，带有散落的灰色星星和圆点装饰，作为固定设计单元保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        395,
+        425,
+        850,
+        670
+      ],
+      "description": "电脑窗口内显示的人物自拍照片，保留摄影环境，主体为戴眼镜穿浅色外套的人物。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        85,
+        635,
+        305,
+        845
+      ],
+      "description": "邮票形状边框内的人物全身照片，保留摄影环境，主体为戴帽子穿浅色外套的人物。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        150,
+        290,
+        875,
+        720
+      ],
+      "description": "承载主照片的电脑窗口界面，包含菜单栏、文件列表和按钮，位于照片下方。",
+      "photo_id": [
+        "photo_1"
+      ]
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        615,
+        730,
+        965,
+        785
+      ],
+      "description": "右下角的音频波形图标，作为独立装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        620,
+        255,
+        965,
+        285
+      ],
+      "text": "shine cute beautiful ~",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        320,
+        740,
+        500,
+        765
+      ],
+      "text": "happiness! ♥",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_1",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "text_1",
+    "text_2"
+  ]
+}

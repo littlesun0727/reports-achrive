@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        901
+      ],
+      "description": "上方横向俯拍照片：一只手从右侧握着带树叶拉花的咖啡杯，人物穿黑色外套和带黑色圆点的浅色衣物，腿部与鞋子在左侧可见；保留桌面及周围环境。照片完整铺满上半画布，底边在 y=900 处与下方照片形成清晰接缝。",
+      "label": "上方横向俯拍照片：一只手从右侧握着带树叶拉花的咖啡杯，人物穿",
+      "method": "local"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        0,
+        900,
+        1080,
+        1620
+      ],
+      "description": "下方竖向取景照片：橙粉色晚霞、云层、树木剪影和路灯位于左侧至中部，下方可见道路护栏；右侧为大面积深色区域，边缘带有暗部遮挡。保留整幅摄影画面及其暗部，不与上方咖啡照片合并；照片从 y=900 延伸至画布底边。",
+      "label": "下方竖向取景照片：橙粉色晚霞、云层、树木剪影和路灯位于左侧至",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_coffee",
+    "photo_sunset"
+  ]
+}

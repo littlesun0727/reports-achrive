@@ -1,0 +1,251 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1420
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1420
+      ],
+      "description": "一张连续的室内咖啡馆摄影画面覆盖全画布，无清晰人物；左侧木质门窗、中部浅色墙面、右侧门框及下方桌椅共同构成环境，整体明显失焦。四边及照片间隙露出的场景相互连续，上层照片与贴纸遮挡局部，整个摄影环境随客户照片替换。",
+      "background_type": "photo",
+      "label": "一张连续的室内咖啡馆摄影画面覆盖全画布，无清晰人物；左侧木质",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        92,
+        264,
+        562,
+        734
+      ],
+      "description": "左上方矩形咖啡馆人物照片，一位长发齐刘海女性以半身近景出现，双手捧着浅色杯子，脸朝画面左侧微笑。保留身后的吧台、器具与室内摄影环境；四边直接裁切，没有独立框体，下方右角被吐司贴纸局部遮挡。",
+      "label": "左上方矩形咖啡馆人物照片，一位长发齐刘海女性以半身近景出现，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bear",
+      "kind": "photo",
+      "bbox": [
+        609,
+        313,
+        1014,
+        711
+      ],
+      "description": "右上方照片中，一只棕色熊玩偶正面坐着，头上叠放一只小白色玩偶，完整保留后方沙发、靠垫及室内光线。照片以圆角窗口显示，白色颗粒感线条沿整个照片窗口边缘围绕，不沿玩偶轮廓去除背景。",
+      "label": "右上方照片中，一只棕色熊玩偶正面坐着，头上叠放一只小白色玩偶",
+      "method": "local"
+    },
+    {
+      "id": "photo_table",
+      "kind": "photo",
+      "bbox": [
+        42,
+        790,
+        542,
+        1160
+      ],
+      "description": "左下方椭圆形桌面照片，后部为白色兔子玩偶与一杯分层咖啡，前部为带熊脸装饰和红色樱桃的甜点，左侧有折叠餐巾。保留完整木桌摄影环境，窗口外围有白色颗粒感描边；左侧被独立白色线条装饰覆盖，左下被小吐司贴纸遮挡。",
+      "label": "左下方椭圆形桌面照片，后部为白色兔子玩偶与一杯分层咖啡，前部",
+      "method": "local"
+    },
+    {
+      "id": "photo_reading_bear",
+      "kind": "photo",
+      "bbox": [
+        570,
+        759,
+        1026,
+        1218
+      ],
+      "description": "右下矩形照片，一只棕色熊玩偶戴圆框眼镜和浅蓝色蝴蝶结，穿浅蓝衣服，坐在打开的书后。保留木桌、椅背及书页摄影内容，书上文字随照片替换；照片上下左右直接裁切，右下角被独立咖啡杯贴纸遮挡。",
+      "label": "右下矩形照片，一只棕色熊玩偶戴圆框眼镜和浅蓝色蝴蝶结，穿浅蓝",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bear_head",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        205,
+        213,
+        314
+      ],
+      "description": "左上方倾斜的棕黄色卡通熊头贴纸，包含耳朵、深棕轮廓、五官和左侧小爪造型；下缘叠在人物照片左上角，整枚贴纸保留。",
+      "label": "左上方倾斜的棕黄色卡通熊头贴纸，包含耳朵、深棕轮廓、五官和左",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        153,
+        951,
+        315
+      ],
+      "description": "右上照片上方的白色细密点状云朵线稿装饰，包含连成一体的起伏外轮廓及内部点状线条，背景透过线条间隙可见，整体保留。",
+      "label": "右上照片上方的白色细密点状云朵线稿装饰，包含连成一体的起伏外",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        151,
+        109,
+        209
+      ],
+      "description": "左上角靠近熊头贴纸上方的白色实心五角星，略有倾斜，作为独立装饰保留。",
+      "label": "左上角靠近熊头贴纸上方的白色实心五角星，略有倾斜，作为独立装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        961,
+        206,
+        1024,
+        269
+      ],
+      "description": "右上角白色实心五角星，位于点状云朵右侧，保留不规则倾斜轮廓。",
+      "label": "右上角白色实心五角星，位于点状云朵右侧，保留不规则倾斜轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_center_top",
+      "kind": "overlay",
+      "bbox": [
+        573,
+        306,
+        625,
+        356
+      ],
+      "description": "两张上方照片之间、圆角照片左上侧的白色实心五角星。",
+      "label": "两张上方照片之间、圆角照片左上侧的白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        556,
+        74,
+        616
+      ],
+      "description": "人物照片左侧、靠近画布边缘的白色实心五角星，轮廓略微倾斜。",
+      "label": "人物照片左侧、靠近画布边缘的白色实心五角星，轮廓略微倾斜。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        997,
+        688,
+        1054,
+        744
+      ],
+      "description": "右上圆角照片下方靠右的白色实心五角星。",
+      "label": "右上圆角照片下方靠右的白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_toast_center",
+      "kind": "overlay",
+      "bbox": [
+        484,
+        672,
+        644,
+        825
+      ],
+      "description": "中央独立吐司贴纸，浅色面包片带棕色烘烤边缘，中央是米黄色熊脸与浅色耳朵；包含完整面包轮廓和细微阴影，上缘压住人物照片右下角，下部叠在右下照片左上区域。",
+      "label": "中央独立吐司贴纸，浅色面包片带棕色烘烤边缘，中央是米黄色熊脸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_loops",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        836,
+        151,
+        982
+      ],
+      "description": "左下椭圆照片左上边缘的三段白色颗粒感弯曲线条，呈松散绑线或翻页环状排列。线条跨过照片边缘，与椭圆窗口描边不同，作为一个局部装饰单元保留。",
+      "label": "左下椭圆照片左上边缘的三段白色颗粒感弯曲线条，呈松散绑线或翻",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_toast_lower",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        1070,
+        182,
+        1184
+      ],
+      "description": "左下角倾斜的小吐司贴纸，金黄色面包片带简化熊脸、浅色嘴部和耳朵细节；压在椭圆照片左下边缘，完整保留面包边缘及阴影。",
+      "label": "左下角倾斜的小吐司贴纸，金黄色面包片带简化熊脸、浅色嘴部和耳",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        1165,
+        489,
+        1228
+      ],
+      "description": "两张下方照片之间偏下的白色实心五角星，位于椭圆照片下方。",
+      "label": "两张下方照片之间偏下的白色实心五角星，位于椭圆照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee_cup",
+      "kind": "overlay",
+      "bbox": [
+        968,
+        1097,
+        1072,
+        1247
+      ],
+      "description": "右下角倾斜的外带咖啡杯贴纸，带深棕杯盖、米色杯身、熊图案和棕色印字，可辨日文“リラックマ”。杯体轮廓、印刷和阴影整体保留，压住右下照片的书页及右下边缘。",
+      "label": "右下角倾斜的外带咖啡杯贴纸，带深棕杯盖、米色杯身、熊图案和棕",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_woman",
+    "photo_bear",
+    "photo_table",
+    "photo_reading_bear",
+    "overlay_bear_head",
+    "overlay_cloud",
+    "overlay_star_top_left",
+    "overlay_star_top_right",
+    "overlay_star_center_top",
+    "overlay_star_left",
+    "overlay_star_right",
+    "overlay_toast_center",
+    "overlay_white_loops",
+    "overlay_toast_lower",
+    "overlay_star_bottom",
+    "overlay_coffee_cup"
+  ]
+}

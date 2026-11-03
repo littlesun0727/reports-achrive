@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        639
+      ],
+      "description": "远景海景照片，天空多云，海面上有礁石和远处的船只，画面下方有白色文字水印。",
+      "label": "远景海景照片，天空多云，海面上有礁石和远处的船只，画面下方有",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        0,
+        639,
+        1080,
+        1281
+      ],
+      "description": "中景海岸照片，右侧有沙滩和散步的人群，远处是城市建筑群，天空有晚霞，画面下方有白色文字水印。",
+      "label": "中景海岸照片，右侧有沙滩和散步的人群，远处是城市建筑群，天空",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1281,
+        1080,
+        1920
+      ],
+      "description": "近景礁石照片，前景是布满岩石的海岸，海水拍打岩石，画面下方有白色文字水印。",
+      "label": "近景礁石照片，前景是布满岩石的海岸，海水拍打岩石，画面下方有",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3"
+  ]
+}

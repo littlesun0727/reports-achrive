@@ -1,0 +1,162 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_water_texture",
+    "description": "全画布为浅蓝色水波纹理底图，带有重复的“t'aime je”文字图案和白色光晕效果。该纹理覆盖整个画面，作为固定背景保留，不随照片替换。"
+  },
+  "objects": [
+    {
+      "id": "frame_photo_strip",
+      "kind": "frame",
+      "bbox": [
+        290,
+        135,
+        785,
+        765
+      ],
+      "description": "竖向排列的三格胶片式相框，具有白色边框、齿孔细节及圆角矩形窗口。承载三张独立的人像照片，整体作为一个固定设计单元保留。",
+      "photo_id": [
+        "photo_top",
+        "photo_mid",
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        345,
+        150,
+        775,
+        330
+      ],
+      "description": "位于相框最上层的照片，显示一名长发女性的面部特写，光线柔和，面带微笑。"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        305,
+        350,
+        765,
+        535
+      ],
+      "description": "位于相框中间层的照片，显示同一女性的侧脸特写，眼神看向镜头，头发遮挡部分脸颊。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        320,
+        565,
+        755,
+        745
+      ],
+      "description": "位于相框最下层的照片，显示女性双手托腮的姿态，穿着浅色毛衣，背景可见窗户结构。"
+    },
+    {
+      "id": "overlay_bow_top",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        50,
+        500,
+        250
+      ],
+      "description": "左上角的白色大蝴蝶结装饰，材质呈现半透明纱质感，边缘有珍珠状点缀，压在相框上方。"
+    },
+    {
+      "id": "overlay_flowers_left",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        210,
+        400,
+        480
+      ],
+      "description": "左侧的一串绿叶白花藤蔓装饰，自然垂落，部分叶片延伸至相框内部区域。"
+    },
+    {
+      "id": "overlay_text_bg",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        280,
+        1000,
+        650
+      ],
+      "description": "巨大的黑色手写体英文单词（看似“love”或类似拼写），横跨画面中部，位于相框图层下方但在水纹背景上方。"
+    },
+    {
+      "id": "overlay_butterfly_blue",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        490,
+        375,
+        580
+      ],
+      "description": "一只蓝色的蝴蝶贴纸，位于左侧花藤与相框交界处，翅膀纹理清晰。"
+    },
+    {
+      "id": "overlay_dots_black",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        500,
+        300,
+        620
+      ],
+      "description": "左下方的黑色点阵圆形图案，由密集的小黑点组成，作为装饰元素。"
+    },
+    {
+      "id": "overlay_dots_right",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        610,
+        980,
+        740
+      ],
+      "description": "右下方的黑色点阵圆形图案，与左侧呼应，部分被白色线条遮挡。"
+    },
+    {
+      "id": "overlay_ribbon_bottom",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        680,
+        890,
+        830
+      ],
+      "description": "右下角的白色小蝴蝶结，系在一条弯曲的白色缎带上，缎带向左延伸并打结。"
+    },
+    {
+      "id": "overlay_white_lines",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        730,
+        1000,
+        950
+      ],
+      "description": "底部复杂的白色手绘风格线条，呈波浪状缠绕，连接左右两侧，具有立体感。"
+    }
+  ],
+  "layer_order": [
+    "overlay_text_bg",
+    "frame_photo_strip",
+    "photo_top",
+    "photo_mid",
+    "photo_bottom",
+    "overlay_bow_top",
+    "overlay_flowers_left",
+    "overlay_butterfly_blue",
+    "overlay_dots_black",
+    "overlay_dots_right",
+    "overlay_white_lines",
+    "overlay_ribbon_bottom"
+  ]
+}

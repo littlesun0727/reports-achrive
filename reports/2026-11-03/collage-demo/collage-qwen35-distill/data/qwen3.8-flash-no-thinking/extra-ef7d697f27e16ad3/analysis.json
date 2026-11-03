@@ -1,0 +1,239 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "一张手持橙色出租车模型的特写照片作为全画布底图，背景为深色木纹桌面。主体包括手、绿色袖口和橙色车身（印有“的士 TAXI”字样），延伸至画布四边。上层多张独立照片遮挡了部分车身和桌面。",
+      "background_type": "photo",
+      "label": "一张手持橙色出租车模型的特写照片作为全画布底图，背景为深色木",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_mountain",
+      "kind": "photo",
+      "bbox": [
+        67,
+        15,
+        442,
+        234
+      ],
+      "description": "左上角风景照片，显示车窗视角下的雪山与黄昏天空，矩形圆角窗口。",
+      "label": "左上角风景照片，显示车窗视角下的雪山与黄昏天空，矩形圆角窗口",
+      "method": "local"
+    },
+    {
+      "id": "photo_hands",
+      "kind": "photo",
+      "bbox": [
+        523,
+        79,
+        840,
+        371
+      ],
+      "description": "右上部特写照片，显示穿着碎花裙的人物双手交叠在腹部，矩形圆角窗口。",
+      "label": "右上部特写照片，显示穿着碎花裙的人物双手交叠在腹部，矩形圆角",
+      "method": "local"
+    },
+    {
+      "id": "frame_receipt",
+      "kind": "frame",
+      "bbox": [
+        29,
+        205,
+        365,
+        506
+      ],
+      "description": "左侧米色收据卡片，带有阴影效果，上面印有一只蝴蝶图案及价格列表文字。",
+      "photo_id": [
+        "photo_mountain"
+      ],
+      "label": "左侧米色收据卡片，带有阴影效果，上面印有一只蝴蝶图案及价格列",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sparkler",
+      "kind": "photo",
+      "bbox": [
+        677,
+        314,
+        960,
+        493
+      ],
+      "description": "右侧夜景照片，显示黑暗中绽放的烟花棒火花，矩形圆角窗口。",
+      "label": "右侧夜景照片，显示黑暗中绽放的烟花棒火花，矩形圆角窗口。",
+      "method": "local"
+    },
+    {
+      "id": "photo_orange_clothes",
+      "kind": "photo",
+      "bbox": [
+        0,
+        576,
+        240,
+        736
+      ],
+      "description": "左中位置照片，显示身穿橙色卫衣的人群，矩形圆角窗口。",
+      "label": "左中位置照片，显示身穿橙色卫衣的人群，矩形圆角窗口。",
+      "method": "local"
+    },
+    {
+      "id": "photo_seaside",
+      "kind": "photo",
+      "bbox": [
+        72,
+        691,
+        365,
+        941
+      ],
+      "description": "左下位置照片，显示一名女子在海边栏杆旁眺望，色调偏冷，矩形圆角窗口。",
+      "label": "左下位置照片，显示一名女子在海边栏杆旁眺望，色调偏冷，矩形圆",
+      "method": "local"
+    },
+    {
+      "id": "text_2026",
+      "kind": "text",
+      "bbox": [
+        811,
+        550,
+        950,
+        595
+      ],
+      "description": "2026",
+      "label": "2026",
+      "method": "local",
+      "text": "2026",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "right",
+        "bold": true,
+        "italic": true
+      }
+    },
+    {
+      "id": "photo_swans",
+      "kind": "photo",
+      "bbox": [
+        230,
+        915,
+        466,
+        1043
+      ],
+      "description": "底部中间照片，显示两只黑天鹅在水中相对，矩形圆角窗口。",
+      "label": "底部中间照片，显示两只黑天鹅在水中相对，矩形圆角窗口。",
+      "method": "local"
+    },
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        638,
+        659,
+        931,
+        915
+      ],
+      "description": "右中位置街景照片，显示繁忙的城市十字路口及红色出租车，矩形圆角窗口。",
+      "label": "右中位置街景照片，显示繁忙的城市十字路口及红色出租车，矩形圆",
+      "method": "local"
+    },
+    {
+      "id": "photo_sitting_man",
+      "kind": "photo",
+      "bbox": [
+        557,
+        883,
+        773,
+        1069
+      ],
+      "description": "右下位置照片，显示一人坐在路边椅子上，头部被蓝色物体遮挡，矩形圆角窗口。",
+      "label": "右下位置照片，显示一人坐在路边椅子上，头部被蓝色物体遮挡，矩",
+      "method": "local"
+    },
+    {
+      "id": "text_2025",
+      "kind": "text",
+      "bbox": [
+        34,
+        1030,
+        197,
+        1082
+      ],
+      "description": "2025",
+      "label": "2025",
+      "method": "local",
+      "text": "2025",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_line",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        589,
+        955,
+        1114
+      ],
+      "description": "一条白色虚线曲线，贯穿画面下半部分，连接左右两侧的文字区域，位于照片层之上。",
+      "label": "一条白色虚线曲线，贯穿画面下半部分，连接左右两侧的文字区域，",
+      "method": "extract"
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        274,
+        1139,
+        715,
+        1184
+      ],
+      "description": "2025-2026 COLLECTION .ALL RIGHTS RESERVED.\nSHOT BY KAZUKI IN 2025.",
+      "label": "2025-2026 COLLECTION .ALL RIGH",
+      "method": "local",
+      "text": "2025-2026 COLLECTION .ALL RIGHTS RESERVED.\nSHOT BY KAZUKI IN 2025.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": true,
+        "italic": true
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_mountain",
+    "photo_hands",
+    "frame_receipt",
+    "photo_sparkler",
+    "photo_orange_clothes",
+    "photo_seaside",
+    "photo_street",
+    "photo_swans",
+    "photo_sitting_man",
+    "text_2026",
+    "text_2025",
+    "overlay_line",
+    "text_footer"
+  ]
+}

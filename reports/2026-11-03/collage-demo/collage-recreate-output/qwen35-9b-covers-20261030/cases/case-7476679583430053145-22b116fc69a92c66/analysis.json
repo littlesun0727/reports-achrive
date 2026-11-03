@@ -1,0 +1,208 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1140
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1140
+      ],
+      "description": "蓝天与茂密树林构成连续摄影画面，画布边缘可见天空与树冠，场景延伸至画布四边；上层照片、星星贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天与茂密树林构成连续摄影画面，画布边缘可见天空与树冠，场景",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        158,
+        154,
+        742,
+        536
+      ],
+      "description": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        158,
+        604,
+        742,
+        986
+      ],
+      "description": "矩形照片窗口，保留车辆及周围摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，保留车辆及周围摄影环境，窗口边缘清晰，无描边或",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        296,
+        202,
+        399
+      ],
+      "description": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "label": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        46,
+        684,
+        148
+      ],
+      "description": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "label": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        536,
+        684,
+        616
+      ],
+      "description": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "label": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        730,
+        130,
+        832
+      ],
+      "description": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "label": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        752,
+        864,
+        855
+      ],
+      "description": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "label": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        1003,
+        522,
+        1106
+      ],
+      "description": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "label": "带有笑脸的星星贴纸，线条与空白区域作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        176,
+        97,
+        238,
+        131
+      ],
+      "description": "No.1",
+      "label": "No.1",
+      "method": "local",
+      "text": "No.1",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        342,
+        547,
+        558,
+        581
+      ],
+      "description": "百分百做自己",
+      "label": "百分百做自己",
+      "method": "local",
+      "text": "百分百做自己",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        657,
+        1003,
+        738,
+        1037
+      ],
+      "description": "Happy",
+      "label": "Happy",
+      "method": "local",
+      "text": "Happy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

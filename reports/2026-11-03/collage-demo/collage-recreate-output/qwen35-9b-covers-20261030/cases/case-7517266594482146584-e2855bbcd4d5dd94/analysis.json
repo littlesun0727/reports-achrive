@@ -1,0 +1,101 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续摄影画面，主体为坐在车内的人物，背景为模糊的绿色树林。画面边缘露出的场景连续延伸至画布四边，上层贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续摄影画面，主体为坐在车内的人物，背景为模糊的绿色树林",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        74,
+        252,
+        276
+      ],
+      "description": "左上角的绿色四叶草贴纸，带有阴影效果。",
+      "label": "左上角的绿色四叶草贴纸，带有阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        900,
+        850,
+        1133
+      ],
+      "description": "右下角的绿色四叶草贴纸，带有阴影效果。",
+      "label": "右下角的绿色四叶草贴纸，带有阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        324,
+        84,
+        837,
+        144
+      ],
+      "description": "+.Clover Melody.♣ + +.",
+      "label": "+.Clover Melody.♣ + +.",
+      "method": "local",
+      "text": "+.Clover Melody.♣ + +.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        54,
+        1008,
+        540,
+        1068
+      ],
+      "description": "9e+.Clover Melody.♣ + +.",
+      "label": "9e+.Clover Melody.♣ + +.",
+      "method": "local",
+      "text": "9e+.Clover Melody.♣ + +.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "text_2"
+  ]
+}

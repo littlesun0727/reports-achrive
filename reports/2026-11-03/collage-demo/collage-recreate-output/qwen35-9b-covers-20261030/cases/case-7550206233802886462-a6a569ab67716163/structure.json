@@ -1,0 +1,117 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "深棕色与米色渐变背景，带有星星、蝴蝶、纸胶带、回形针、复古相机、猫、钢琴等装饰元素，整体氛围温暖复古。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        170,
+        170,
+        830,
+        830
+      ],
+      "description": "中心人物特写，穿着棕色外套和条纹衬衫，手托下巴，面带微笑，背景为深棕色渐变。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        150,
+        250,
+        350,
+        500
+      ],
+      "description": "左侧人物半身照，穿着棕色外套和条纹衬衫，手托脸颊，背景为白色。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        650,
+        250,
+        850,
+        500
+      ],
+      "description": "右侧人物半身照，穿着棕色外套和条纹衬衫，手托脸颊，背景为白色。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        250,
+        450,
+        350,
+        480
+      ],
+      "text": "you keep ending up in my shaking hands.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        650,
+        450,
+        750,
+        480
+      ],
+      "text": "I have buried you in every place.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        50,
+        720,
+        150,
+        740
+      ],
+      "text": "Kim Minkyu",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        800,
+        720,
+        950,
+        740
+      ],
+      "text": "20010312",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_left",
+    "photo_right",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

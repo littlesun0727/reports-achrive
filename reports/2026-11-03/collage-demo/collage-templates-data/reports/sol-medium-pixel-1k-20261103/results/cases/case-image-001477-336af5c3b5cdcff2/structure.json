@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "grunge_base",
+    "description": "连续铺满画布的灰黑色做旧纸张与污渍拼贴底图，四边及各独立照片间隙均可见同一纹理，右上含红褐色撕裂痕迹；保留底图原样，独立人物照片、标题和装饰另行替换或重建。"
+  },
+  "objects": [
+    {
+      "id": "photo_small_upper_left",
+      "kind": "photo",
+      "bbox": [
+        39,
+        70,
+        198,
+        241
+      ],
+      "description": "左上小幅人物照片，一人戴浅色帽子坐姿近景，手持物件并有深色衣物与包，保留照片中的环境，显示为竖向矩形区域。"
+    },
+    {
+      "id": "photo_face_left",
+      "kind": "photo",
+      "bbox": [
+        139,
+        157,
+        392,
+        477
+      ],
+      "description": "左侧大幅人物面部特写，一人低头近距离看向镜头，双手靠近下巴，画面上缘可见彩色摄影背景；保留完整摄影画面，矩形窗口被上方小照片及周边装饰局部遮挡。"
+    },
+    {
+      "id": "photo_guitarist_lower_left",
+      "kind": "photo",
+      "bbox": [
+        12,
+        475,
+        391,
+        928
+      ],
+      "description": "左下竖向人物照片，一人站立弹奏橙色电吉他，身后为浅色室内背景；保留人物、吉他与摄影环境，照片延伸至画布左边和下边，右缘及上部被其他元素遮挡。"
+    },
+    {
+      "id": "photo_seated_center",
+      "kind": "photo",
+      "bbox": [
+        382,
+        145,
+        1098,
+        738
+      ],
+      "description": "中央大型人物照片，一人戴深色帽子、穿皮夹克与迷彩裤，斜躺坐在椅子上，一只手搭在抬起的膝部；人物与椅子作为同一摄影主体组合，摄影背景已不明显，外沿呈不规则浅色撕纸状轮廓，遮住其后的底图与文字。"
+    },
+    {
+      "id": "photo_guitar_cutout",
+      "kind": "photo",
+      "bbox": [
+        399,
+        716,
+        1007,
+        821
+      ],
+      "description": "横向粉红色电吉他单体照片，琴头朝左、琴身朝右，沿乐器外形显示且周围摄影背景不可见；位于中央人物与椅子前方，横跨画面下部。"
+    },
+    {
+      "id": "overlay_stars_halftone",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        0,
+        384,
+        361
+      ],
+      "description": "左上区域的白色星形散点与成簇点阵图案，作为一组独立固定印刷装饰保留；部分被小照片及面部特写遮挡。"
+    },
+    {
+      "id": "overlay_headline",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        79,
+        1115,
+        142
+      ],
+      "description": "顶部剪贴字母拼成的“Need a VACATION”标题，字母各有不同的纸片颜色、大小与字形，作为完整艺术字设计保留。"
+    },
+    {
+      "id": "overlay_large_title",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        426,
+        1232,
+        716
+      ],
+      "description": "右下方超大白色衬线艺术字标题，分行且被画布右边缘裁切，部分被中央人物与椅子遮挡；保留原有字形、排布和裁切状态。"
+    },
+    {
+      "id": "overlay_credits",
+      "kind": "overlay",
+      "bbox": [
+        739,
+        749,
+        1232,
+        928
+      ],
+      "description": "右下角白色小号电影海报演职员与版权文字区，包含多行细字、栏目标签和较醒目的摄影署名；作为整体印刷文字设计保留，内容被画布右边缘及下边缘裁切，并部分受前景吉他遮挡。"
+    }
+  ],
+  "layer_order": [
+    "photo_guitarist_lower_left",
+    "photo_small_upper_left",
+    "photo_face_left",
+    "overlay_stars_halftone",
+    "overlay_headline",
+    "overlay_large_title",
+    "overlay_credits",
+    "photo_seated_center",
+    "photo_guitar_cutout"
+  ]
+}

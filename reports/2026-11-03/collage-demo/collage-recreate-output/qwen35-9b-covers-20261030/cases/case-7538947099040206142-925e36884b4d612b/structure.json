@@ -1,0 +1,143 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pattern",
+    "description": "全画布固定底图，呈现带有水珠的透明玻璃质感，背景为浅灰色调，并叠加有深灰色的几何线条（类似窗框或百叶窗的阴影）。此底图作为固定设计单元保留，不替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        105,
+        145,
+        515,
+        455
+      ],
+      "description": "左上角照片，展示一家名为 'HANDSOME VINTAGE' 的店铺外观，墙面有涂鸦，门口挂着招牌，旁边有树木。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        515,
+        355,
+        825,
+        585
+      ],
+      "description": "右上角照片，展示一个黑色圆形蛋糕，上面有彩色糖针和韩文装饰，放置在白色包装盒内。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        260,
+        520,
+        560,
+        740
+      ],
+      "description": "中间偏左照片，展示一丛盛开的白色花朵，背景为深色。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        45,
+        715,
+        355,
+        955
+      ],
+      "description": "左下角照片，展示室内一角，有绿色沙发、黑白几何地毯以及茶几上的杂志。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        445,
+        665,
+        775,
+        905
+      ],
+      "description": "右下角照片，展示蓝色路面上的白色交通标线（自行车道标志）。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        695,
+        560,
+        895
+      ],
+      "description": "位于右下角照片上方的贴纸，包含一个白色线条勾勒的卡通狗头图案和下方的 'MUJI' 购物袋图案。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        395,
+        175,
+        455
+      ],
+      "description": "左侧的爪印贴纸。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        465,
+        235,
+        525
+      ],
+      "description": "中间偏左的爪印贴纸。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        760,
+        605,
+        995,
+        965
+      ],
+      "text": "I love you\nyou know that.\n= And I\nwill love\nyou forever",
+      "color": "#ffffff",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        310,
+        880,
+        480,
+        960
+      ],
+      "text": "MM",
+      "color": "#ffffff",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "text_2"
+  ]
+}

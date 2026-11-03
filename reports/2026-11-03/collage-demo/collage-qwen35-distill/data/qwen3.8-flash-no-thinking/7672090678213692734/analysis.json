@@ -1,0 +1,470 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1601
+  ],
+  "objects": [
+    {
+      "id": "bg_blur_dark",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1601
+      ],
+      "description": "全画布深色模糊背景，带有柔和的光斑和渐变效果。该底图作为固定设计元素保留，不替换为摄影内容。",
+      "background_type": "reference_clean",
+      "label": "全画布深色模糊背景，带有柔和的光斑和渐变效果。该底图作为固定",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_heart_top_left",
+      "kind": "overlay",
+      "bbox": [
+        277,
+        74,
+        407,
+        187
+      ],
+      "description": "位于左上方的粉色网格纹理心形图案，内部包含“LOVE”字样，作为独立装饰保留。",
+      "label": "位于左上方的粉色网格纹理心形图案，内部包含“LOVE”字样，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_mid_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        312,
+        110,
+        426
+      ],
+      "description": "位于左侧中部的粉色网格纹理心形图案，部分被边缘裁切，内部包含“LOVE”字样。",
+      "label": "位于左侧中部的粉色网格纹理心形图案，部分被边缘裁切，内部包含",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_top_right",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        227,
+        900,
+        327
+      ],
+      "description": "位于右上方的粉色网格纹理心形图案，部分被边缘裁切，内部包含“LOVE”字样。",
+      "label": "位于右上方的粉色网格纹理心形图案，部分被边缘裁切，内部包含“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_love_arc",
+      "kind": "overlay",
+      "bbox": [
+        541,
+        394,
+        688,
+        453
+      ],
+      "description": "位于照片拼贴上方中央的粉色“LOVE”艺术字，呈弧形排列，具有手绘质感。",
+      "label": "位于照片拼贴上方中央的粉色“LOVE”艺术字，呈弧形排列，具",
+      "method": "extract"
+    },
+    {
+      "id": "photo_row1_left",
+      "kind": "photo",
+      "bbox": [
+        147,
+        456,
+        259,
+        564
+      ],
+      "description": "第一排左一：两人敷面膜自拍特写。",
+      "label": "第一排左一：两人敷面膜自拍特写。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row1_mid_left",
+      "kind": "photo",
+      "bbox": [
+        273,
+        456,
+        377,
+        560
+      ],
+      "description": "第一排左二：手部特写，展示牵手细节。",
+      "label": "第一排左二：手部特写，展示牵手细节。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row1_mid_right",
+      "kind": "photo",
+      "bbox": [
+        515,
+        453,
+        628,
+        564
+      ],
+      "description": "第一排右二：两人合影，女生戴波点蝴蝶结发饰。",
+      "label": "第一排右二：两人合影，女生戴波点蝴蝶结发饰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row1_right",
+      "kind": "photo",
+      "bbox": [
+        642,
+        456,
+        742,
+        564
+      ],
+      "description": "第一排右一：腿部与手部特写。",
+      "label": "第一排右一：腿部与手部特写。",
+      "method": "local"
+    },
+    {
+      "id": "photo_col_left_1",
+      "kind": "photo",
+      "bbox": [
+        29,
+        584,
+        135,
+        685
+      ],
+      "description": "左侧列上：餐桌俯拍，展示食物。",
+      "label": "左侧列上：餐桌俯拍，展示食物。",
+      "method": "local"
+    },
+    {
+      "id": "photo_grid_2_1",
+      "kind": "photo",
+      "bbox": [
+        151,
+        584,
+        259,
+        685
+      ],
+      "description": "第二排左一：两人合影，女生嘟嘴。",
+      "label": "第二排左一：两人合影，女生嘟嘴。",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_large",
+      "kind": "photo",
+      "bbox": [
+        273,
+        580,
+        628,
+        813
+      ],
+      "description": "中心大图：两人极近距离自拍特写，男生手指遮挡嘴部。",
+      "label": "中心大图：两人极近距离自拍特写，男生手指遮挡嘴部。",
+      "method": "local"
+    },
+    {
+      "id": "photo_grid_2_3",
+      "kind": "photo",
+      "bbox": [
+        642,
+        580,
+        742,
+        685
+      ],
+      "description": "第二排右二：三人合影，中间人物戴头纱。",
+      "label": "第二排右二：三人合影，中间人物戴头纱。",
+      "method": "local"
+    },
+    {
+      "id": "photo_col_right_1",
+      "kind": "photo",
+      "bbox": [
+        759,
+        580,
+        867,
+        685
+      ],
+      "description": "右侧列上：两人合影，女生做手势。",
+      "label": "右侧列上：两人合影，女生做手势。",
+      "method": "local"
+    },
+    {
+      "id": "photo_col_left_2",
+      "kind": "photo",
+      "bbox": [
+        29,
+        704,
+        135,
+        805
+      ],
+      "description": "左侧列下：单人托腮照，戴波点蝴蝶结。",
+      "label": "左侧列下：单人托腮照，戴波点蝴蝶结。",
+      "method": "local"
+    },
+    {
+      "id": "photo_grid_3_1",
+      "kind": "photo",
+      "bbox": [
+        158,
+        704,
+        264,
+        805
+      ],
+      "description": "第三排左一：两人合影，女生嘟嘴。",
+      "label": "第三排左一：两人合影，女生嘟嘴。",
+      "method": "local"
+    },
+    {
+      "id": "photo_grid_3_3",
+      "kind": "photo",
+      "bbox": [
+        642,
+        704,
+        742,
+        805
+      ],
+      "description": "第三排右二：手部特写，展示手掌纹路。",
+      "label": "第三排右二：手部特写，展示手掌纹路。",
+      "method": "local"
+    },
+    {
+      "id": "photo_col_right_2",
+      "kind": "photo",
+      "bbox": [
+        759,
+        704,
+        867,
+        805
+      ],
+      "description": "右侧列下：两人合影，背景有蓝天。",
+      "label": "右侧列下：两人合影，背景有蓝天。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row4_1",
+      "kind": "photo",
+      "bbox": [
+        153,
+        826,
+        259,
+        930
+      ],
+      "description": "第四排左一：暗光环境下的手部特写。",
+      "label": "第四排左一：暗光环境下的手部特写。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row4_2",
+      "kind": "photo",
+      "bbox": [
+        273,
+        826,
+        382,
+        930
+      ],
+      "description": "第四排左二：户外草地上的橘猫背影。",
+      "label": "第四排左二：户外草地上的橘猫背影。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row4_3",
+      "kind": "photo",
+      "bbox": [
+        395,
+        826,
+        499,
+        930
+      ],
+      "description": "第四排右二：两人合影，女生托腮。",
+      "label": "第四排右二：两人合影，女生托腮。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row4_4",
+      "kind": "photo",
+      "bbox": [
+        515,
+        826,
+        624,
+        930
+      ],
+      "description": "第四排右三：两人合影，男生穿黑衣。",
+      "label": "第四排右三：两人合影，男生穿黑衣。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row4_5",
+      "kind": "photo",
+      "bbox": [
+        642,
+        826,
+        742,
+        930
+      ],
+      "description": "第四排右一：两人合影，女生托腮。",
+      "label": "第四排右一：两人合影，女生托腮。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_hearts_small",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        954,
+        241,
+        1015
+      ],
+      "description": "位于左下方的小双心形图案及文字装饰，线条纤细。",
+      "label": "位于左下方的小双心形图案及文字装饰，线条纤细。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_row5_1",
+      "kind": "photo",
+      "bbox": [
+        273,
+        946,
+        382,
+        1050
+      ],
+      "description": "第五排左一：两人合影，戴帽子。",
+      "label": "第五排左一：两人合影，戴帽子。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row5_2",
+      "kind": "photo",
+      "bbox": [
+        395,
+        946,
+        499,
+        1050
+      ],
+      "description": "第五排中：海边日落剪影，有人坐在岸边。",
+      "label": "第五排中：海边日落剪影，有人坐在岸边。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row5_3",
+      "kind": "photo",
+      "bbox": [
+        532,
+        946,
+        633,
+        1050
+      ],
+      "description": "第五排右：车内视角，手握方向盘。",
+      "label": "第五排右：车内视角，手握方向盘。",
+      "method": "local"
+    },
+    {
+      "id": "photo_row6_1",
+      "kind": "photo",
+      "bbox": [
+        395,
+        1069,
+        503,
+        1178
+      ],
+      "description": "第六排中：地面黄色标线特写，有人站立。",
+      "label": "第六排中：地面黄色标线特写，有人站立。",
+      "method": "local"
+    },
+    {
+      "id": "text_chinese_valentines_day",
+      "kind": "text",
+      "bbox": [
+        566,
+        1089,
+        675,
+        1186
+      ],
+      "description": "Chinese\nValentine's\nDay",
+      "label": "Chinese\nValentine's\nDay",
+      "method": "local",
+      "text": "Chinese\nValentine's\nDay",
+      "text_status": "known",
+      "style": {
+        "fill": "#DCA0A0",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_heart_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        1239,
+        117,
+        1351
+      ],
+      "description": "位于左下角的粉色网格纹理心形图案，内部包含“LOVE”字样。",
+      "label": "位于左下角的粉色网格纹理心形图案，内部包含“LOVE”字样。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        779,
+        1330,
+        900,
+        1447
+      ],
+      "description": "位于右下角的粉色网格纹理心形图案，部分被边缘裁切，内部包含“LOVE”字样。",
+      "label": "位于右下角的粉色网格纹理心形图案，部分被边缘裁切，内部包含“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        1439,
+        479,
+        1535
+      ],
+      "description": "位于底部中央的粉色网格纹理心形图案，内部包含“LOVE”字样。",
+      "label": "位于底部中央的粉色网格纹理心形图案，内部包含“LOVE”字样",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_blur_dark",
+    "overlay_heart_top_left",
+    "overlay_heart_mid_left",
+    "overlay_heart_top_right",
+    "overlay_text_love_arc",
+    "photo_row1_left",
+    "photo_row1_mid_left",
+    "photo_row1_mid_right",
+    "photo_row1_right",
+    "photo_col_left_1",
+    "photo_grid_2_1",
+    "photo_center_large",
+    "photo_grid_2_3",
+    "photo_col_right_1",
+    "photo_col_left_2",
+    "photo_grid_3_1",
+    "photo_grid_3_3",
+    "photo_col_right_2",
+    "photo_row4_1",
+    "photo_row4_2",
+    "photo_row4_3",
+    "photo_row4_4",
+    "photo_row4_5",
+    "overlay_hearts_small",
+    "photo_row5_1",
+    "photo_row5_2",
+    "photo_row5_3",
+    "photo_row6_1",
+    "text_chinese_valentines_day",
+    "overlay_heart_bottom_left",
+    "overlay_heart_bottom_right",
+    "overlay_heart_bottom_center"
+  ]
+}

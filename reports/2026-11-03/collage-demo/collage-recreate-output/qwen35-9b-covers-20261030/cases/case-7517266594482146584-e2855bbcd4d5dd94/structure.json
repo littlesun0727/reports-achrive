@@ -1,0 +1,71 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续摄影画面，主体为坐在车内的人物，背景为模糊的绿色树林。画面边缘露出的场景连续延伸至画布四边，上层贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        62,
+        280,
+        230
+      ],
+      "description": "左上角的绿色四叶草贴纸，带有阴影效果。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        750,
+        944,
+        944
+      ],
+      "description": "右下角的绿色四叶草贴纸，带有阴影效果。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        360,
+        70,
+        930,
+        120
+      ],
+      "text": "+.Clover Melody.♣ + +.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        60,
+        840,
+        600,
+        890
+      ],
+      "text": "9e+.Clover Melody.♣ + +.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "text_2"
+  ]
+}

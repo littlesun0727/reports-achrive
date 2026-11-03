@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_skyscraper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上象限照片，仰视视角拍摄蓝天背景下的摩天大楼尖顶。主体周围有一圈黄色手绘描边，文字“skyscraper”沿描边左侧排列。",
+      "label": "左上象限照片，仰视视角拍摄蓝天背景下的摩天大楼尖顶。主体周围",
+      "method": "local"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上象限照片，黑色皮质沙发背景上放置着一杯瑞幸咖啡和一只无线耳机。主体组合（杯子与耳机）周围有一圈蓝色手绘描边，文字“coffee”位于右侧，周围散布着几颗蓝色星星装饰。",
+      "label": "右上象限照片，黑色皮质沙发背景上放置着一杯瑞幸咖啡和一只无线",
+      "method": "local"
+    },
+    {
+      "id": "photo_apple_juice",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下象限照片，手持一杯透明塑料杯装的苹果汁，背景为模糊的店铺玻璃窗。主体（手与杯子）周围有一圈浅蓝色手绘描边，上方有文字“Apple Juice”。",
+      "label": "左下象限照片，手持一杯透明塑料杯装的苹果汁，背景为模糊的店铺",
+      "method": "local"
+    },
+    {
+      "id": "photo_milk_tea",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下象限照片，手持一杯印有卡通图案的奶茶，背景为纯蓝色。主体（手与杯子）周围有一圈黄色手绘描边，文字“milk tea”位于左上方，周围点缀着黄色星星。",
+      "label": "右下象限照片，手持一杯印有卡通图案的奶茶，背景为纯蓝色。主体",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_skyscraper",
+    "photo_coffee",
+    "photo_apple_juice",
+    "photo_milk_tea"
+  ]
+}

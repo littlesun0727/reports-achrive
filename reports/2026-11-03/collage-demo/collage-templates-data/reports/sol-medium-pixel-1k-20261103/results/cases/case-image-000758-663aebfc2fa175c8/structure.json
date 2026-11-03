@@ -1,0 +1,86 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        709
+      ],
+      "description": "上半部横向近景照片，单人长直发女性面向镜头，头戴黑色帽子，坐在铺有花纹床品的室内环境中；画面呈灰度网点质感，保留人物与床品环境，底边被下方粉色相纸框遮挡。"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        0,
+        708,
+        1080,
+        1438
+      ],
+      "description": "下半部满幅粉色相纸框，带白色圆点印花和宽边，承托一张矩形照片；上沿压住上方照片的下缘，框面上的圆点属于框体印刷。",
+      "photo_id": [
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        81,
+        773,
+        1000,
+        1379
+      ],
+      "description": "粉色相纸框内的矩形彩色照片，单人长发女性坐在花纹床品前，戴帽并抬手扶帽，双腿屈起；保留照片内人物、床品与环境，以及画面中可见的文字和白色线形装饰。"
+    },
+    {
+      "id": "overlay_upper_stickers",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        709
+      ],
+      "description": "散布在上方照片表面的白色圆点、粉色叉号和粉色描边星形贴饰，作为固定装饰保留；圆点与星形分布于照片各处，不替代照片内容。"
+    },
+    {
+      "id": "overlay_right_charms",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        622,
+        1080,
+        981
+      ],
+      "description": "沿右侧边缘斜向排列的彩色小圆饰、字母圆片与条纹珠串，跨过上方照片和粉色相纸框边缘，作为一组独立贴饰保留。"
+    },
+    {
+      "id": "overlay_lower_left_charms",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1218,
+        249,
+        1438
+      ],
+      "description": "从左下边缘斜向延伸的彩色小饰物与字母圆片串，部分贴饰被画布边缘裁切，作为一组独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "frame_lower",
+    "photo_lower",
+    "overlay_upper_stickers",
+    "overlay_right_charms",
+    "overlay_lower_left_charms"
+  ]
+}

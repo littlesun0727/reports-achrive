@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-745d9cd0-c5ea-9b3b-a6a1-f55616924b01",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7359,
+    "completion_tokens": 412,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 412
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"连续的蓝色天空摄影底图，画面中有多条斜向延伸的电线穿过整个画布。上层照片和文字遮挡局部，保留完整的天空与电线环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"text_main\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        45,\n        20,\n        530,\n        960\n      ],\n      \"text\": \"My\\nLife\\nis\\nOrdinary\\nbut Shining\\nLive\\na Slow\\nand\\nConcrete\\nLife\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_balloon\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        530,\n        352,\n        905,\n        745\n      ],\n      \"description\": \"矩形照片窗口，显示一只手握着粉色带黄色星星的气球，背景为黄、白、深蓝拼接墙面。\"\n    },\n    {\n      \"id\": \"overlay_tape\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        610,\n        325,\n        845,\n        385\n      ],\n      \"description\": \"半透明胶带贴纸，位于气球照片上方边缘，具有反光质感和褶皱细节。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_balloon\",\n    \"overlay_tape\",\n    \"text_main\"\n  ]\n}",
+  "tool_calls": false
+}

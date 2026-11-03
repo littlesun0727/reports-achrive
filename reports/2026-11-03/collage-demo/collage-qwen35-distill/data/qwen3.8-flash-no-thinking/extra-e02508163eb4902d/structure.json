@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的高原风景摄影底图，画面包含蓝天、白云、起伏的绿色草坡以及前景中正在吃草的牛。该照片完整延伸至画布四边，作为所有独立对象的背景层。"
+  },
+  "objects": [
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        75,
+        490,
+        165
+      ],
+      "description": "左上角散布的四颗黄色五角星装饰，大小不一，位于天空区域。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        338,
+        125,
+        932,
+        425
+      ],
+      "description": "右上角矩形照片，显示一名身穿白衣黑裤的女子在草原上张开双臂的背影，背景为连绵的山脉和森林。"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        85,
+        375,
+        382,
+        705
+      ],
+      "description": "左侧中部竖向矩形照片，显示同一名女子在草地上奔跑的背影，远处有雪山和树林。"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        425,
+        575,
+        550
+      ],
+      "description": "白色手绘风格的弯曲箭头，起点处有一个蓝色星形图案，指向右下方。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        535,
+        835,
+        840
+      ],
+      "description": "右下角竖向矩形照片，显示同一名女子弯腰趴在木质护栏上的姿态，背景可见道路、草地和远山。"
+    }
+  ],
+  "layer_order": [
+    "overlay_stars",
+    "photo_top_right",
+    "photo_mid_left",
+    "overlay_arrow",
+    "photo_bottom_right"
+  ]
+}

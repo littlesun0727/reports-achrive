@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-a3a85e5e-6927-92a0-baeb-faeb515ec75e",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7503,
+    "total_tokens": 7732,
+    "completion_tokens": 229,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1622,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 229
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"桂林山水全景摄影底图，包含远处的喀斯特山峰、近处的漓江水面及岸边植被。画面整体色调偏蓝，上下部分有云雾缭绕的效果，完整覆盖画布四边。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_subject\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        310,\n        785,\n        740\n      ],\n      \"description\": \"身着白色长裙的年轻女子半身像，发髻高挽，佩戴蓝色流苏耳饰和手镯。人物位于画面中央偏右，左手轻抚胸口，右手向左侧伸展。该照片为抠图合成，去除了原始背景，边缘与底图的山水环境自然融合。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_subject\"\n  ]\n}",
+  "tool_calls": false
+}

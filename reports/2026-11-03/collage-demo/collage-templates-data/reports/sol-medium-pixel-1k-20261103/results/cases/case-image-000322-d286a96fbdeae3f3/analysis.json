@@ -1,0 +1,386 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1622
+  ],
+  "objects": [
+    {
+      "id": "background_dots",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1622
+      ],
+      "description": "全画布为白色底上的规则圆点图案，浅粉色与浅绿色圆点交错排列，在四边及拼贴间隙连续可见。保留底色与圆点印刷图案，独立照片、相纸框、文字标签及装饰不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为白色底上的规则圆点图案，浅粉色与浅绿色圆点交错排列，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_pink",
+      "kind": "frame",
+      "bbox": [
+        419,
+        176,
+        955,
+        986
+      ],
+      "description": "右上倾斜的粉色白圆点相纸框，四周有宽纸边，下方留有较大的粉色区域，左下部分被绿色相纸遮挡。保留完整纸框及圆点图案，不包含内口摄影内容或叠加的星星、音符。",
+      "photo_id": [
+        "photo_mint_frame"
+      ],
+      "label": "右上倾斜的粉色白圆点相纸框，四周有宽纸边，下方留有较大的粉色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mint_frame",
+      "kind": "photo",
+      "bbox": [
+        475,
+        236,
+        898,
+        818
+      ],
+      "description": "右上照片显示一件薄荷绿色实体相框，近距离正面略带透视拍摄，框内有文字、卡通贴纸和植物图案，周围可见贴纸材料、桌面及右侧局部手指。实体相框和其中印字均为摄影内容，一同替换；保留完整摄影环境，照片随外层粉色相纸倾斜。",
+      "label": "右上照片显示一件薄荷绿色实体相框，近距离正面略带透视拍摄，框",
+      "method": "local"
+    },
+    {
+      "id": "frame_green",
+      "kind": "frame",
+      "bbox": [
+        149,
+        676,
+        651,
+        1372
+      ],
+      "description": "左下向左倾斜的绿色白圆点相纸框，包围单张照片，下边宽于上边，压住粉色相纸的左下部分。完整绿色纸边与白圆点保留，叠加旗串、音符和表情贴纸另列。",
+      "photo_id": [
+        "photo_gifts"
+      ],
+      "label": "左下向左倾斜的绿色白圆点相纸框，包围单张照片，下边宽于上边，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_gifts",
+      "kind": "photo",
+      "bbox": [
+        202,
+        730,
+        609,
+        1237
+      ],
+      "description": "俯拍礼物与花束的独立照片，无人物；多件浅蓝包装礼盒配棕色白点蝴蝶结，白色与浅绿色花束斜放在中央，背景可见黑色区域及白色绒毛。礼盒标签文字属于摄影内容。完整倾斜照片窗口保留，左侧及下方被表情和音符装饰局部遮挡。",
+      "label": "俯拍礼物与花束的独立照片，无人物；多件浅蓝包装礼盒配棕色白点",
+      "method": "local"
+    },
+    {
+      "id": "frame_small_stars",
+      "kind": "frame",
+      "bbox": [
+        585,
+        1019,
+        914,
+        1453
+      ],
+      "description": "右下小照片的倾斜白色宽边卡框，纸边布满浅绿色小五角星，四边星星图案与白色承托区域整体保留，中央只有一个照片窗口。",
+      "photo_id": [
+        "photo_food"
+      ],
+      "label": "右下小照片的倾斜白色宽边卡框，纸边布满浅绿色小五角星，四边星",
+      "method": "extract"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        616,
+        1047,
+        884,
+        1379
+      ],
+      "description": "右下倾斜竖幅近景照片，中心是用白色纸托盛放的食物，上面有浅色酱线和绿色配料，背景为灰色地面，左下露出深色衣物或鞋的一部分。保留整个摄影环境；照片上另叠加亮色闪光和空心星星装饰。",
+      "label": "右下倾斜竖幅近景照片，中心是用白色纸托盛放的食物，上面有浅色",
+      "method": "local"
+    },
+    {
+      "id": "label_white_gift",
+      "kind": "overlay",
+      "bbox": [
+        161,
+        337,
+        414,
+        402
+      ],
+      "description": "左上浅绿色横向标签，白色手写造型文字为“学试白礼物～”。字形具有不规则笔画，文字与绿色底板作为完整固定设计保留，不拆为普通文字。",
+      "label": "左上浅绿色横向标签，白色手写造型文字为“学试白礼物～”。字形",
+      "method": "extract"
+    },
+    {
+      "id": "label_mint",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        422,
+        457,
+        486
+      ],
+      "description": "第二条浅绿色横向标签，叠在粉色相纸左边缘前方，白色手写文字“薄荷色系オシャレ白枠”。保留手写字形、文字位置及绿色底板的完整视觉形式。",
+      "label": "第二条浅绿色横向标签，叠在粉色相纸左边缘前方，白色手写文字“",
+      "method": "extract"
+    },
+    {
+      "id": "clover_upper",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        487,
+        435,
+        707
+      ],
+      "description": "两条标签下方的浅绿色四叶草贴图，由四片心形叶片、浅色叶脉和中央白色间隙组成，边缘柔和，整体位于照片框后方的留白处。",
+      "label": "两条标签下方的浅绿色四叶草贴图，由四片心形叶片、浅色叶脉和中",
+      "method": "extract"
+    },
+    {
+      "id": "clover_lower",
+      "kind": "overlay",
+      "bbox": [
+        421,
+        1328,
+        600,
+        1504
+      ],
+      "description": "画面下方的浅绿色四叶草，四片心形叶片带浅色叶脉和柔和边缘，位于绿色相纸下方及小照片左下侧，作为独立完整贴图保留。",
+      "label": "画面下方的浅绿色四叶草，四片心形叶片带浅色叶脉和柔和边缘，位",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_top",
+      "kind": "overlay",
+      "bbox": [
+        659,
+        128,
+        754,
+        231
+      ],
+      "description": "粉色相纸上沿的浅蓝色五角星贴纸，带柔和白色边缘，跨过纸框上边，完整星形保留。",
+      "label": "粉色相纸上沿的浅蓝色五角星贴纸，带柔和白色边缘，跨过纸框上边",
+      "method": "extract"
+    },
+    {
+      "id": "star_yellow_top",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        174,
+        869,
+        256
+      ],
+      "description": "粉色相纸上沿偏右的黄色五角星，外围有不规则白色描边，与蓝星相互独立。",
+      "label": "粉色相纸上沿偏右的黄色五角星，外围有不规则白色描边，与蓝星相",
+      "method": "extract"
+    },
+    {
+      "id": "star_pink_right",
+      "kind": "overlay",
+      "bbox": [
+        867,
+        263,
+        963,
+        363
+      ],
+      "description": "粉色相纸右上侧的粉色星星贴纸，具有粗白色手绘轮廓和向下延长的尖角，压在纸框右边缘上。",
+      "label": "粉色相纸右上侧的粉色星星贴纸，具有粗白色手绘轮廓和向下延长的",
+      "method": "extract"
+    },
+    {
+      "id": "star_green_right",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        376,
+        1004,
+        470
+      ],
+      "description": "粉色相纸右侧偏上的浅绿色五角星，带柔白边缘，向右伸出纸框，与上方粉色星星为独立装饰。",
+      "label": "粉色相纸右侧偏上的浅绿色五角星，带柔白边缘，向右伸出纸框，与",
+      "method": "extract"
+    },
+    {
+      "id": "pennant_string",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        704,
+        621,
+        840
+      ],
+      "description": "跨在绿色照片上沿的白色手绘旗串，一根弧形细绳连接蓝绿斜纹三角旗、带粉色爱心的黑底小旗、黄点小旗及右端浅绿粉色小旗。细绳、旗面、轮廓与附属图案整体保留。",
+      "label": "跨在绿色照片上沿的白色手绘旗串，一根弧形细绳连接蓝绿斜纹三角",
+      "method": "extract"
+    },
+    {
+      "id": "music_pink",
+      "kind": "overlay",
+      "bbox": [
+        618,
+        818,
+        1004,
+        1040
+      ],
+      "description": "粉色相纸下半部及右侧的白色音乐装饰组合，包含三枚大小不同的音符和右侧两枚十字闪光，周围带浅黄绿色柔光。整组跨越纸框右下边缘，覆盖纸边并延伸到圆点底图。",
+      "label": "粉色相纸下半部及右侧的白色音乐装饰组合，包含三枚大小不同的音",
+      "method": "extract"
+    },
+    {
+      "id": "sparkle_green_frame",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        925,
+        601,
+        978
+      ],
+      "description": "绿色相纸右边中部的一枚白色四尖闪光，带浅绿色柔光，覆盖绿色纸边，独立于上方旗串和下方音符线。",
+      "label": "绿色相纸右边中部的一枚白色四尖闪光，带浅绿色柔光，覆盖绿色纸",
+      "method": "extract"
+    },
+    {
+      "id": "pink_emoticon",
+      "kind": "overlay",
+      "bbox": [
+        119,
+        972,
+        294,
+        1138
+      ],
+      "description": "绿色照片左侧的浅粉色柔光圆形表情贴纸，内部是粉色手写颜文字，整体略倾斜，覆盖照片左边及相纸边缘。保留表情笔画、粉色雾状底和柔化外缘。",
+      "label": "绿色照片左侧的浅粉色柔光圆形表情贴纸，内部是粉色手写颜文字，",
+      "method": "extract"
+    },
+    {
+      "id": "music_green",
+      "kind": "overlay",
+      "bbox": [
+        217,
+        1127,
+        634,
+        1315
+      ],
+      "description": "绿色相纸下部的彩色音符与白色波浪线组合，包含左侧蓝色音符、粉色双音符、中央黄色双音符、右侧绿色音符，以及贯穿其间的数条白色点状手绘曲线。整体跨过照片下边与绿色纸边，保留各成员及透明间隙。",
+      "label": "绿色相纸下部的彩色音符与白色波浪线组合，包含左侧蓝色音符、粉",
+      "method": "extract"
+    },
+    {
+      "id": "star_cyan_lower",
+      "kind": "overlay",
+      "bbox": [
+        278,
+        1249,
+        349,
+        1324
+      ],
+      "description": "绿色相纸左下纸边上的浅青色发光星星，白色中心配青绿色轮廓和柔光，作为独立星形装饰保留。",
+      "label": "绿色相纸左下纸边上的浅青色发光星星，白色中心配青绿色轮廓和柔",
+      "method": "extract"
+    },
+    {
+      "id": "star_pale_left",
+      "kind": "overlay",
+      "bbox": [
+        3,
+        1250,
+        80,
+        1325
+      ],
+      "description": "画布左边靠下的极浅黄色空心五角星，轮廓和光晕均很淡，独立位于圆点底图上。",
+      "label": "画布左边靠下的极浅黄色空心五角星，轮廓和光晕均很淡，独立位于",
+      "method": "extract"
+    },
+    {
+      "id": "star_pink_lower",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        1307,
+        240,
+        1382
+      ],
+      "description": "绿色相纸左下外侧的粉色空心五角星，带模糊粉色光晕，白色内部透出下层底图，独立保留。",
+      "label": "绿色相纸左下外侧的粉色空心五角星，带模糊粉色光晕，白色内部透",
+      "method": "extract"
+    },
+    {
+      "id": "sparkle_food_top",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        1081,
+        873,
+        1181
+      ],
+      "description": "小食物照片右上方的四尖闪光，黄色中心、青绿色外缘及柔光，覆盖照片中的灰色摄影背景。",
+      "label": "小食物照片右上方的四尖闪光，黄色中心、青绿色外缘及柔光，覆盖",
+      "method": "extract"
+    },
+    {
+      "id": "sparkle_food_bottom",
+      "kind": "overlay",
+      "bbox": [
+        637,
+        1244,
+        706,
+        1321
+      ],
+      "description": "小食物照片左下方的四尖闪光，白黄色中心配青绿色光晕，叠在照片深色区域上。",
+      "label": "小食物照片左下方的四尖闪光，白黄色中心配青绿色光晕，叠在照片",
+      "method": "extract"
+    },
+    {
+      "id": "stars_food_bottom",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        1290,
+        820,
+        1348
+      ],
+      "description": "小食物照片底部的一组四枚手绘空心星星，分别为白色、浅青色、黄绿色和淡紫色，大小错落，线条具有闪亮颗粒感。整组覆盖摄影背景，不属于照片内拍摄物。",
+      "label": "小食物照片底部的一组四枚手绘空心星星，分别为白色、浅青色、黄",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_dots",
+    "clover_upper",
+    "clover_lower",
+    "frame_pink",
+    "photo_mint_frame",
+    "frame_green",
+    "photo_gifts",
+    "frame_small_stars",
+    "photo_food",
+    "label_white_gift",
+    "label_mint",
+    "star_blue_top",
+    "star_yellow_top",
+    "star_pink_right",
+    "star_green_right",
+    "pennant_string",
+    "music_pink",
+    "sparkle_green_frame",
+    "pink_emoticon",
+    "music_green",
+    "star_cyan_lower",
+    "star_pale_left",
+    "star_pink_lower",
+    "sparkle_food_top",
+    "sparkle_food_bottom",
+    "stars_food_bottom"
+  ]
+}

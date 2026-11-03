@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "海滩与天空构成连续摄影画面，边缘露出的沙滩、海水、天空及远处人物姿态一致，场景延伸至画布四边；上层贴纸、照片和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "海滩与天空构成连续摄影画面，边缘露出的沙滩、海水、天空及远处",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        198,
+        324,
+        396,
+        504
+      ],
+      "description": "矩形照片窗口，内容为冰淇淋甜筒，保留摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，内容为冰淇淋甜筒，保留摄影环境，窗口边缘清晰，",
+      "method": "local"
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        495,
+        396,
+        657,
+        516
+      ],
+      "description": "矩形照片窗口，内容为海面船只，保留摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，内容为海面船只，保留摄影环境，窗口边缘清晰，无",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        423,
+        780,
+        684,
+        984
+      ],
+      "description": "矩形照片窗口，内容为穿白衣女子在街景前摆姿势，保留摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，内容为穿白衣女子在街景前摆姿势，保留摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star1",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        168,
+        711,
+        348
+      ],
+      "description": "带白点的蓝色五角星贴纸，作为独立装饰保留。",
+      "label": "带白点的蓝色五角星贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star2",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        672,
+        369,
+        888
+      ],
+      "description": "黄色五角星贴纸，作为独立装饰保留。",
+      "label": "黄色五角星贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music1",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        720,
+        783,
+        816
+      ],
+      "description": "白色音符贴纸，作为独立装饰保留。",
+      "label": "白色音符贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        387,
+        456,
+        504,
+        768
+      ],
+      "description": "Summer\nSunsets\nnever\ndisappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleaves sweet\nSoftnessto\nevery\nPasserby",
+      "label": "Summer\nSunsets\nnever\ndisappoin",
+      "method": "local",
+      "text": "Summer\nSunsets\nnever\ndisappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleaves sweet\nSoftnessto\nevery\nPasserby",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFCC",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        162,
+        216,
+        468,
+        300
+      ],
+      "description": "Rainy Day",
+      "label": "Rainy Day",
+      "method": "local",
+      "text": "Rainy Day",
+      "text_status": "known",
+      "style": {
+        "fill": "#E0F7FA",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_icecream",
+    "photo_sea",
+    "photo_woman",
+    "overlay_star1",
+    "overlay_star2",
+    "overlay_music1",
+    "text_main",
+    "text_title"
+  ]
+}

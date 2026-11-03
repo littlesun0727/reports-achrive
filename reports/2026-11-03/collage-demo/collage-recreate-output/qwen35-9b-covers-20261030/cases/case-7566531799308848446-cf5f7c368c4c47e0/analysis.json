@@ -1,0 +1,132 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布米白色纹理纸底，带有散落的灰色星星和圆点装饰，作为固定设计单元保留。",
+      "background_type": "reference_clean",
+      "label": "全画布米白色纹理纸底，带有散落的灰色星星和圆点装饰，作为固定",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        356,
+        510,
+        765,
+        804
+      ],
+      "description": "电脑窗口内显示的人物自拍照片，保留摄影环境，主体为戴眼镜穿浅色外套的人物。",
+      "label": "电脑窗口内显示的人物自拍照片，保留摄影环境，主体为戴眼镜穿浅",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        76,
+        762,
+        274,
+        1014
+      ],
+      "description": "邮票形状边框内的人物全身照片，保留摄影环境，主体为戴帽子穿浅色外套的人物。",
+      "label": "邮票形状边框内的人物全身照片，保留摄影环境，主体为戴帽子穿浅",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        135,
+        348,
+        788,
+        864
+      ],
+      "description": "承载主照片的电脑窗口界面，包含菜单栏、文件列表和按钮，位于照片下方。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "承载主照片的电脑窗口界面，包含菜单栏、文件列表和按钮，位于照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        876,
+        868,
+        942
+      ],
+      "description": "右下角的音频波形图标，作为独立装饰保留。",
+      "label": "右下角的音频波形图标，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        558,
+        306,
+        868,
+        342
+      ],
+      "description": "shine cute beautiful ~",
+      "label": "shine cute beautiful ~",
+      "method": "local",
+      "text": "shine cute beautiful ~",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        288,
+        888,
+        450,
+        918
+      ],
+      "description": "happiness! ♥",
+      "label": "happiness! ♥",
+      "method": "local",
+      "text": "happiness! ♥",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "frame_1",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "text_1",
+    "text_2"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "白色底图，表面均匀分布粉色五角星图案。作为固定背景保留，承载所有独立照片和装饰元素。",
+      "background_type": "reference_clean",
+      "label": "白色底图，表面均匀分布粉色五角星图案。作为固定背景保留，承载",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cherry_blossom",
+      "kind": "photo",
+      "bbox": [
+        310,
+        151,
+        840,
+        538
+      ],
+      "description": "樱花树摄影照片，画面包含繁茂的粉白樱花枝条、深色树干及后方建筑局部。矩形显示窗口，无特殊边缘效果。",
+      "label": "樱花树摄影照片，画面包含繁茂的粉白樱花枝条、深色树干及后方建",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        45,
+        485,
+        425,
+        852
+      ],
+      "description": "甜点摄影照片，展示放在白色盘子里的草莓奶油蛋糕块，旁边有奶盅和托盘。矩形显示窗口。",
+      "label": "甜点摄影照片，展示放在白色盘子里的草莓奶油蛋糕块，旁边有奶盅",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        385,
+        769,
+        726,
+        1109
+      ],
+      "description": "人物摄影照片，一位长卷发女性坐在桌边，右侧可见马克杯一角。矩形显示窗口。",
+      "label": "人物摄影照片，一位长卷发女性坐在桌边，右侧可见马克杯一角。矩",
+      "method": "local"
+    },
+    {
+      "id": "overlay_candy",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        78,
+        180,
+        151
+      ],
+      "description": "左上角粉色糖果插画贴纸，带有可爱表情。",
+      "label": "左上角粉色糖果插画贴纸，带有可爱表情。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_top",
+      "kind": "overlay",
+      "bbox": [
+        164,
+        149,
+        284,
+        182
+      ],
+      "description": "带黑色边框的白色标签贴纸，印有韩文“정신 체리”及樱桃图标。",
+      "label": "带黑色边框的白色标签贴纸，印有韩文“정신 체리”及樱桃图标。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        206,
+        225,
+        444
+      ],
+      "description": "穿粉色背带裤的白色毛绒猫咪玩偶抠图。",
+      "label": "穿粉色背带裤的白色毛绒猫咪玩偶抠图。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tag_right",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        492,
+        886,
+        594
+      ],
+      "description": "右侧悬挂的粉色蝴蝶结吊牌贴纸，带有细绳。",
+      "label": "右侧悬挂的粉色蝴蝶结吊牌贴纸，带有细绳。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_bg_1",
+      "kind": "overlay",
+      "bbox": [
+        459,
+        584,
+        734,
+        648
+      ],
+      "description": "浅粉色长方形色块底板，用于衬托文字。",
+      "label": "浅粉色长方形色块底板，用于衬托文字。",
+      "method": "extract"
+    },
+    {
+      "id": "text_korean_1",
+      "kind": "text",
+      "bbox": [
+        486,
+        600,
+        706,
+        634
+      ],
+      "description": "우린 서로기있어",
+      "label": "우린 서로기있어",
+      "method": "local",
+      "text": "우린 서로기있어",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_text_bg_2",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        666,
+        702,
+        720
+      ],
+      "description": "浅粉色长方形色块底板，位于上一行文字下方。",
+      "label": "浅粉色长方形色块底板，位于上一行文字下方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_korean_2",
+      "kind": "text",
+      "bbox": [
+        508,
+        682,
+        675,
+        708
+      ],
+      "description": "나는 오늘의 슈퍼스타",
+      "label": "나는 오늘의 슈퍼스타",
+      "method": "local",
+      "text": "나는 오늘의 슈퍼스타",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_cups",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        638,
+        878,
+        822
+      ],
+      "description": "两个粉色咖啡纸杯插画贴纸，呈倾斜堆叠状。",
+      "label": "两个粉色咖啡纸杯插画贴纸，呈倾斜堆叠状。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        894,
+        130,
+        984
+      ],
+      "description": "银色回形针插画，压在便签纸左上角。",
+      "label": "银色回形针插画，压在便签纸左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_memo_note",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        906,
+        351,
+        1110
+      ],
+      "description": "粉色横纹便签纸贴纸，略微倾斜，上面写有韩文手写体句子。",
+      "label": "粉色横纹便签纸贴纸，略微倾斜，上面写有韩文手写体句子。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_cherry_blossom",
+    "photo_dessert",
+    "photo_girl",
+    "overlay_candy",
+    "overlay_label_top",
+    "overlay_cat",
+    "overlay_tag_right",
+    "overlay_text_bg_1",
+    "text_korean_1",
+    "overlay_text_bg_2",
+    "text_korean_2",
+    "overlay_cups",
+    "overlay_memo_note",
+    "overlay_paperclip"
+  ]
+}

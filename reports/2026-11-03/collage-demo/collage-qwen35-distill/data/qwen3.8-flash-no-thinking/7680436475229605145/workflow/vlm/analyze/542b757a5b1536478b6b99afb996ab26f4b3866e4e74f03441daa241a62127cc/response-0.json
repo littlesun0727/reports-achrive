@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-0f3c4a49-77dd-97d2-a379-6884902b7e4d",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8164,
+    "completion_tokens": 1217,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1217
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的摄影底图，画面为同一位身穿蓝白条纹衬衫、深色短裤的男孩在街道上的全身照。他正举起右手挥手，背景包含斑驳的墙壁和街道护栏。该底图经过模糊处理以衬托前景，完整延伸至画布四边。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"text_right_vertical\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        650,\n        80,\n        940,\n        320\n      ],\n      \"text\": \"softly go with the flow\\nmove at ease\\nbreathe deep\\nno need to hurry\\nslow your pace\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        100,\n        70,\n        560,\n        535\n      ],\n      \"description\": \"左上角矩形照片，显示男孩站在街边挥手的半身像，保留完整的街道环境。\"\n    },\n    {\n      \"id\": \"frame_top_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        190,\n        125,\n        640,\n        465\n      ],\n      \"description\": \"围绕左上照片的白色细线框，带有四个角的方形节点标记，位于照片上方。\",\n      \"photo_id\": [\n        \"photo_top_left\"\n      ]\n    },\n    {\n      \"id\": \"photo_mid_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        480,\n        355,\n        890,\n        660\n      ],\n      \"description\": \"右侧中部矩形照片，显示男孩在卷帘门前的半身像，手举至头部附近。\"\n    },\n    {\n      \"id\": \"frame_mid_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        490,\n        385,\n        935,\n        720\n      ],\n      \"description\": \"围绕右中照片的白色细线框，带有角点标记，位于照片上方。\",\n      \"photo_id\": [\n        \"photo_mid_right\"\n      ]\n    },\n    {\n      \"id\": \"text_center_overlay\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        550,\n        540,\n        870,\n        570\n      ],\n      \"text\": \"Breathe and let it be.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        100,\n        650,\n        620,\n        940\n      ],\n      \"description\": \"左下角矩形照片，显示男孩侧身靠在栏杆上的半身像。\"\n    },\n    {\n      \"id\": \"frame_bottom_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        70,\n        620,\n        650,\n        925\n      ],\n      \"description\": \"围绕左下照片的白色细线框，带有角点标记，位于照片上方。\",\n      \"photo_id\": [\n        \"photo_bottom_left\"\n      ]\n    },\n    {\n      \"id\": \"text_left_vertical\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        140,\n        490,\n        450,\n        820\n      ],\n      \"text\": \"keep life unrushed\\ncalm mode\\nsoft days\\ngo where you feel light\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_right_vertical_lower\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        670,\n        670,\n        820, 970\n      ],\n      \"text\": \"go\\nwhere\\nyou\\nfeel\\nlight\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"frame_top_left\",\n    \"photo_mid_right\",\n    \"frame_mid_right\",\n    \"text_center_overlay\",\n    \"photo_bottom_left\",\n    \"frame_bottom_left\",\n    \"text_right_vertical\",\n    \"text_left_vertical\",\n    \"text_right_vertical_lower\"\n  ]\n}",
+  "tool_calls": false
+}

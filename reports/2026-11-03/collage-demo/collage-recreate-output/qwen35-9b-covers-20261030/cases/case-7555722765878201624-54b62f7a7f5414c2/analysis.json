@@ -1,0 +1,162 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布固定底图，为带有黑色波点图案的白色背景纸。该底图承载了左侧的独立照片区域和所有装饰性贴纸，保留了纸纹和波点图案。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，为带有黑色波点图案的白色背景纸。该底图承载了",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        45,
+        216,
+        360,
+        624
+      ],
+      "description": "左上角矩形照片，人物侧脸特写，保留摄影环境。",
+      "label": "左上角矩形照片，人物侧脸特写，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        162,
+        528,
+        396,
+        816
+      ],
+      "description": "中间圆形照片，人物半身照，保留摄影环境。",
+      "label": "中间圆形照片，人物半身照，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        45,
+        816,
+        297,
+        1176
+      ],
+      "description": "左下角心形照片，人物半身照，保留摄影环境。",
+      "label": "左下角心形照片，人物半身照，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        306,
+        132,
+        828,
+        1188
+      ],
+      "description": "右侧全身照片，人物站立，保留摄影环境。",
+      "label": "右侧全身照片，人物站立，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        180,
+        216,
+        276
+      ],
+      "description": "左上角黑色方块内的白色五角星贴纸。",
+      "label": "左上角黑色方块内的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        144,
+        828,
+        192
+      ],
+      "description": "右上角白色方块内的黑色星星贴纸。",
+      "label": "右上角白色方块内的黑色星星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        600,
+        144,
+        672
+      ],
+      "description": "左侧黑色长条贴纸，包含白色符号图案。",
+      "label": "左侧黑色长条贴纸，包含白色符号图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        720,
+        90,
+        792
+      ],
+      "description": "左侧黑色心形贴纸，内部有白色格纹图案。",
+      "label": "左侧黑色心形贴纸，内部有白色格纹图案。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        9,
+        1056,
+        297,
+        1104
+      ],
+      "description": "一緒に頑張ろうね",
+      "label": "一緒に頑張ろうね",
+      "method": "local",
+      "text": "一緒に頑張ろうね",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1"
+  ]
+}

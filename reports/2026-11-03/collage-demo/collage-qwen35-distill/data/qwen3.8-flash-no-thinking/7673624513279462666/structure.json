@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡馆桌面摄影底图，画面包含深色木纹桌面、左侧的咖啡杯、右侧的蛋糕切片以及背景中的模糊环境。该照片覆盖整个画布，作为所有前景元素的承托层。"
+  },
+  "objects": [
+    {
+      "id": "overlay_atom",
+      "kind": "overlay",
+      "bbox": [
+        107,
+        83,
+        246,
+        195
+      ],
+      "description": "左上角的蓝色手绘原子结构图案，带有星星点缀，位于书本照片左上方。"
+    },
+    {
+      "id": "overlay_cloud_left",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        236,
+        156,
+        315
+      ],
+      "description": "左侧中部的白色云朵轮廓线条装饰。"
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        161,
+        118,
+        597,
+        446
+      ],
+      "description": "一本翻开的书，页面上有韩文文字和一只黑猫插画，一只手正扶着书页下沿。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        615,
+        136,
+        715,
+        325
+      ],
+      "description": "右上方的青色气泡群装饰，大小不一，漂浮在背景上。"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        273,
+        915,
+        388
+      ],
+      "description": "右侧的白色线条小兔子贴纸，周围有十字星装饰。"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        33,
+        468,
+        382,
+        555
+      ],
+      "text": "The light slowly softens, the sky\nfading from orange to lilac. Doing\nnothing but watching this gentle fade,\nas if everything can be forgiven,\neverything embraced.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_curtain",
+      "kind": "photo",
+      "bbox": [
+        505,
+        355,
+        876,
+        635
+      ],
+      "description": "一张竖构图的照片，显示灰白色的窗帘布料，上面有一个简笔画的小动物头像（类似仓鼠或熊）和爱心符号。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        156,
+        568,
+        265,
+        635
+      ],
+      "description": "人物照片左上角的一条透明胶带装饰，呈倾斜粘贴状。"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        180,
+        580,
+        582,
+        885
+      ],
+      "description": "年轻女性的面部特写照片，嘴里叼着食物，眼神看向镜头。"
+    },
+    {
+      "id": "overlay_cloud_right",
+      "kind": "overlay",
+      "bbox": [
+        597,
+        685,
+        690,
+        760
+      ],
+      "description": "右下方的白色云朵轮廓线条装饰。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        805,
+        246,
+        908
+      ],
+      "description": "左下角的高音谱号与音符组合装饰，带有粉色爱心。"
+    }
+  ],
+  "layer_order": [
+    "photo_book",
+    "photo_curtain",
+    "photo_girl",
+    "overlay_atom",
+    "overlay_cloud_left",
+    "overlay_bubbles",
+    "overlay_rabbit",
+    "text_poem",
+    "overlay_tape",
+    "overlay_cloud_right",
+    "overlay_music"
+  ]
+}

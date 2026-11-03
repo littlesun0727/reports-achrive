@@ -1,0 +1,166 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1221
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1221
+      ],
+      "description": "连续的浅绿色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。",
+      "background_type": "reference_clean",
+      "label": "连续的浅绿色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        104,
+        147,
+        468,
+        720
+      ],
+      "description": "人物半身照，保留摄影环境，四边清晰。",
+      "label": "人物半身照，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        468,
+        647,
+        828,
+        1099
+      ],
+      "description": "人物半身照，保留摄影环境，四边清晰。",
+      "label": "人物半身照，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        504,
+        330,
+        828,
+        537
+      ],
+      "description": "四叶草排列照片，保留摄影环境，四边清晰。",
+      "label": "四叶草排列照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        61,
+        153,
+        208
+      ],
+      "description": "带有四叶草图案的贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有四叶草图案的贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        855,
+        360,
+        1062
+      ],
+      "description": "带有四叶草图案和文字的标签贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有四叶草图案和文字的标签贴纸，文字、底板和阴影作为一个完整",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        468,
+        220,
+        828,
+        293
+      ],
+      "description": "Cut film strips held more truth than the final reel.",
+      "label": "Cut film strips held more trut",
+      "method": "local",
+      "text": "Cut film strips held more truth than the final reel.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        504,
+        488,
+        828,
+        537
+      ],
+      "description": "Am I the luckiest girl or what?!?",
+      "label": "Am I the luckiest girl or what",
+      "method": "local",
+      "text": "Am I the luckiest girl or what?!?",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        180,
+        769,
+        432,
+        830
+      ],
+      "description": "\"Vintage flashbulbs started 1920s dust awake\"",
+      "label": "\"Vintage flashbulbs started 19",
+      "method": "local",
+      "text": "\"Vintage flashbulbs started 1920s dust awake\"",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

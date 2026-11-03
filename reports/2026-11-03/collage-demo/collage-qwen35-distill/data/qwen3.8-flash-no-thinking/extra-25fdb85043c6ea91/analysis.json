@@ -1,0 +1,196 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "一张连续的舞台摄影底图，画面主体为一名戴灰色毛绒帽、穿灰色外套的歌手手持粉色麦克风演唱。背景可见蓝色LED屏幕和舞台灯光设备，摄影内容延伸至画布四边。上层叠加了多张独立照片及装饰元素，遮挡了部分底图区域。",
+      "background_type": "photo",
+      "label": "一张连续的舞台摄影底图，画面主体为一名戴灰色毛绒帽、穿灰色外",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_soft_clouds",
+      "kind": "text",
+      "bbox": [
+        462,
+        121,
+        999,
+        167
+      ],
+      "description": "☆ 🐈 · ⁺♡! Soft clouds ☆+ ★",
+      "label": "☆ 🐈 · ⁺♡! Soft clouds ☆+ ★",
+      "method": "local",
+      "text": "☆ 🐈 · ⁺♡! Soft clouds ☆+ ★",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_speech_1",
+      "kind": "overlay",
+      "bbox": [
+        788,
+        227,
+        1004,
+        442
+      ],
+      "description": "白色线条勾勒的气泡框，包含韩文“사랑해♡”（我爱你），位于右上角，带有指向左下的小圆点尾巴。",
+      "label": "白色线条勾勒的气泡框，包含韩文“사랑해♡”（我爱你），位于右",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left_inset",
+      "kind": "photo",
+      "bbox": [
+        59,
+        134,
+        427,
+        682
+      ],
+      "description": "左上角椭圆形窗口内的照片，显示同一位歌手侧身唱歌的画面，戴着米色帽子，穿着条纹T恤。",
+      "label": "左上角椭圆形窗口内的照片，显示同一位歌手侧身唱歌的画面，戴着",
+      "method": "local"
+    },
+    {
+      "id": "frame_left_inset",
+      "kind": "frame",
+      "bbox": [
+        54,
+        125,
+        432,
+        691
+      ],
+      "description": "围绕左侧椭圆照片的白色粗描边，形成相框效果。",
+      "photo_id": [
+        "photo_left_inset"
+      ],
+      "label": "围绕左侧椭圆照片的白色粗描边，形成相框效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        528,
+        1004,
+        710
+      ],
+      "description": "右侧两颗手绘风格的白色五角星装饰。",
+      "label": "右侧两颗手绘风格的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        682,
+        146,
+        758
+      ],
+      "description": "左侧一个白色的螺旋形涂鸦装饰。",
+      "label": "左侧一个白色的螺旋形涂鸦装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl_right",
+      "kind": "overlay",
+      "bbox": [
+        929,
+        422,
+        1004,
+        490
+      ],
+      "description": "右侧气泡框下方的一个白色螺旋形涂鸦装饰。",
+      "label": "右侧气泡框下方的一个白色螺旋形涂鸦装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dog_head",
+      "kind": "overlay",
+      "bbox": [
+        535,
+        1315,
+        707,
+        1430
+      ],
+      "description": "右下角照片上方的一只白色卡通小狗头贴纸，露出半个身子趴在边框上。",
+      "label": "右下角照片上方的一只白色卡通小狗头贴纸，露出半个身子趴在边框",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        551,
+        1411,
+        1004,
+        1872
+      ],
+      "description": "右下角矩形窗口内的照片，显示歌手正面唱歌的画面，戴着棕色熊耳帽，穿着白T恤。",
+      "label": "右下角矩形窗口内的照片，显示歌手正面唱歌的画面，戴着棕色熊耳",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        545,
+        1402,
+        1010,
+        1882
+      ],
+      "description": "围绕右下角照片的白色粗糙纹理边框，类似拍立得或胶带粘贴的效果。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "围绕右下角照片的白色粗糙纹理边框，类似拍立得或胶带粘贴的效果",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_2",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        1603,
+        481,
+        1834
+      ],
+      "description": "左下角不规则云朵状气泡框，内含中文文字“听到blue我就\n能原谅世界一切”，下方有三个小圆圈作为尾巴。",
+      "label": "左下角不规则云朵状气泡框，内含中文文字“听到blue我就\n能",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_soft_clouds",
+    "overlay_speech_1",
+    "photo_left_inset",
+    "frame_left_inset",
+    "overlay_stars_right",
+    "overlay_swirl_left",
+    "overlay_swirl_right",
+    "photo_bottom_right",
+    "frame_bottom_right",
+    "overlay_dog_head",
+    "overlay_speech_2"
+  ]
+}

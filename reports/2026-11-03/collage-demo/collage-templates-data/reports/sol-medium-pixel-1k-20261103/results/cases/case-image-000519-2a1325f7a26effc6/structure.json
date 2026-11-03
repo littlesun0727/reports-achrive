@@ -1,0 +1,187 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张模糊的城市商业建筑街景承载全画布，无清晰可辨人物；上部为玻璃窗和建筑招牌，中部为沿街立面，下部为暗色街面。四边及照片间隙中的建筑结构与横向拖影连续，上层照片和装饰仅遮住局部；整幅摄影环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_courtyard",
+      "kind": "photo",
+      "bbox": [
+        147,
+        143,
+        522,
+        639
+      ],
+      "description": "左上竖幅庭院照片，无人物。仰斜视角展示木质屋檐、砖柱、二层栏杆及右侧砖墙，下部为石板路和茂密绿植，完整保留摄影环境。照片窗口周围有贴合边界的白色粗糙细描边，下右角被中央心形单元遮挡。"
+    },
+    {
+      "id": "photo_plaza",
+      "kind": "photo",
+      "bbox": [
+        563,
+        266,
+        960,
+        664
+      ],
+      "description": "右上近方形室外街区照片，左侧为旧式砖木建筑，右侧为大树，远处可见现代楼房，下部广场摆放遮阳伞、桌椅及店铺立牌，无突出人物主体。保留完整摄影环境，窗口有白色粗糙细描边，左下部分被心形单元遮挡。"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        163,
+        895,
+        514,
+        1257
+      ],
+      "description": "左下竖幅咖啡店座位照片，无人物。前景为木桌和藤椅，右侧有高大盆栽，后方为落地玻璃门窗与室内陈设，保留完整摄影环境。矩形照片外侧另有固定粉笔装饰框，上部右侧受中央心形单元局部遮挡。"
+    },
+    {
+      "id": "frame_cafe",
+      "kind": "frame",
+      "bbox": [
+        143,
+        879,
+        535,
+        1286
+      ],
+      "description": "围绕左下照片的白色粉笔手绘装饰框，含不规则矩形线、左上星形与小涂鸦、两侧成串圆点和星花，以及右下卷曲线和星形。整套框边及附属图案作为一个固定窗口设计保留，框线局部覆盖照片边缘。",
+      "photo_id": [
+        "photo_cafe"
+      ]
+    },
+    {
+      "id": "photo_night_building",
+      "kind": "photo",
+      "bbox": [
+        549,
+        700,
+        925,
+        1197
+      ],
+      "description": "右下竖幅夜间商业建筑照片，无人物，以仰拍视角展示金黄色立面上的PRADA字样、右上发光的IFS建筑块面及深色夜空。招牌属于摄影场景。保留完整环境，窗口有白色粗糙细描边；左上区域被心形单元遮住，不能据其遮挡边缘缩小照片范围。"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        414,
+        637,
+        679,
+        904
+      ],
+      "description": "中央心形窗口内的独立招牌近景照片，无人物。黄绿色点阵底板上有大型浅蓝白色中文招牌字样及小图形，下方可见灰色结构和一小段黄色物体，均属于摄影内容。保留窗口内摄影环境，由外侧撕纸框限定显示范围，不是人物去背景。"
+    },
+    {
+      "id": "frame_heart",
+      "kind": "frame",
+      "bbox": [
+        399,
+        618,
+        695,
+        922
+      ],
+      "description": "中央白色撕纸心形照片框，外缘呈不规则纸纤维轮廓，具有灰色叠纸边和阴影，内口为心形。完整纸框覆盖内口照片边缘，同时压住两张上方照片的下部、右下照片的左上部及左下框的上右角。",
+      "photo_id": [
+        "photo_heart"
+      ]
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        89,
+        220,
+        183
+      ],
+      "description": "左上白色手绘星星装饰组合，含一大一小两颗空心五角星、少量小点及向照片上沿延伸的短斜线，作为同一局部涂鸦单元保留。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        538,
+        140,
+        980,
+        244
+      ],
+      "description": "上方白色手写标题组合，可辨中文“旅行碎片”和英文“Travel Debris”。中文字与英文字母具有不规则间距、基线及局部角度，英文错落分布于中文下方和右侧，保留完整原有字形与布局。"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        669,
+        369,
+        846
+      ],
+      "description": "左侧两张照片之间的白色粉笔相机涂鸦，包含相机机身、圆形镜头、顶部按钮、右侧弯曲背带，以及左上星形、小心形和左侧短曲线。全套图案为一个独立装饰单元。"
+    },
+    {
+      "id": "overlay_right_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        933,
+        677,
+        1003,
+        799
+      ],
+      "description": "右侧白色手绘闪光组合，包含一大一小两枚空心菱形闪光及上下两枚小十字点缀，整体位于右下照片上部的右侧。"
+    },
+    {
+      "id": "overlay_daily_caption",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        1293,
+        548,
+        1374
+      ],
+      "description": "左下白色手写“今日碎片”装饰字样，配左侧音符、下方小星星和右侧小照片轮廓符号。字形、位置与倾斜角度不规则，作为完整手写装饰保留。"
+    },
+    {
+      "id": "overlay_world_label",
+      "kind": "overlay",
+      "bbox": [
+        556,
+        1209,
+        850,
+        1301
+      ],
+      "description": "右下照片下方的拼接文字标签，左侧浅蓝矩形内为大字“世界”，右侧灰色矩形内分两行写“不会只围着你”和“一个人转”。左上附有蓝色圆点和短竖线，色块、不同字号文字及圆点共同作为一个固定设计保留。"
+    },
+    {
+      "id": "overlay_yellow_label",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        1306,
+        949,
+        1362
+      ],
+      "description": "底部黄色长条文字标签，黑字“但你可以去世界转转”，右下连有细短竖线和黄色圆点。整条标签及附属圆点作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_courtyard",
+    "photo_plaza",
+    "photo_cafe",
+    "frame_cafe",
+    "photo_night_building",
+    "photo_heart",
+    "frame_heart",
+    "overlay_top_stars",
+    "overlay_title",
+    "overlay_camera",
+    "overlay_right_sparkles",
+    "overlay_daily_caption",
+    "overlay_world_label",
+    "overlay_yellow_label"
+  ]
+}

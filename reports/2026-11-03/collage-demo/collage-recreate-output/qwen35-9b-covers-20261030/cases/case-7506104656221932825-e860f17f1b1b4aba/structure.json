@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "人物与周围环境构成同一摄影画面，边缘露出的场景连续延伸至画布四边；上层心形窗口和装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        600,
+        220,
+        900,
+        550
+      ],
+      "description": "心形窗口内的照片，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        200,
+        920,
+        570
+      ],
+      "description": "带有白色描边的心形轮廓，位于照片下方，作为固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        550,
+        800,
+        700,
+        870
+      ],
+      "text": "좋은 날",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        180,
+        250,
+        250
+      ],
+      "description": "带有星星图案的装饰贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        180,
+        800,
+        250
+      ],
+      "description": "带有星星图案的装饰贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        600,
+        900,
+        700
+      ],
+      "description": "带有星星图案的装饰贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        800,
+        300,
+        900
+      ],
+      "description": "带有星星图案的装饰贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "overlay_1",
+    "text_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5"
+  ]
+}

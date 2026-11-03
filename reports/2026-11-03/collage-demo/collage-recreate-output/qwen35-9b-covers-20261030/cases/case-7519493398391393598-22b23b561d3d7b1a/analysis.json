@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "denim_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "深蓝色牛仔布纹理底图，带有白色小圆点装饰，作为全画布固定背景。",
+      "background_type": "reference_clean",
+      "label": "深蓝色牛仔布纹理底图，带有白色小圆点装饰，作为全画布固定背景",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        95,
+        79,
+        805,
+        546
+      ],
+      "description": "上半部分照片，人物手托腮，身穿粉色上衣，坐在窗边看书，保留摄影环境。",
+      "label": "上半部分照片，人物手托腮，身穿粉色上衣，坐在窗边看书，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        95,
+        642,
+        805,
+        1121
+      ],
+      "description": "下半部分照片，人物侧身看书，身穿粉色上衣，保留摄影环境。",
+      "label": "下半部分照片，人物侧身看书，身穿粉色上衣，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        29,
+        185,
+        208
+      ],
+      "description": "左上角蓝色星星贴纸，带有白色小点纹理。",
+      "label": "左上角蓝色星星贴纸，带有白色小点纹理。",
+      "method": "extract"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        208,
+        95,
+        280
+      ],
+      "description": "左侧中部蓝色星星贴纸，带有白色小点纹理。",
+      "label": "左侧中部蓝色星星贴纸，带有白色小点纹理。",
+      "method": "extract"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        203,
+        546,
+        284,
+        642
+      ],
+      "description": "中间偏左蓝色星星贴纸，带有白色小点纹理。",
+      "label": "中间偏左蓝色星星贴纸，带有白色小点纹理。",
+      "method": "extract"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        151,
+        887,
+        343
+      ],
+      "description": "右上角蓝色星星贴纸，带有白色小点纹理。",
+      "label": "右上角蓝色星星贴纸，带有白色小点纹理。",
+      "method": "extract"
+    },
+    {
+      "id": "star_5",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        546,
+        887,
+        738
+      ],
+      "description": "右侧中部蓝色星星贴纸，带有白色小点纹理。",
+      "label": "右侧中部蓝色星星贴纸，带有白色小点纹理。",
+      "method": "extract"
+    },
+    {
+      "id": "star_6",
+      "kind": "overlay",
+      "bbox": [
+        203,
+        1049,
+        338,
+        1181
+      ],
+      "description": "左下角蓝色星星贴纸，带有白色小点纹理。",
+      "label": "左下角蓝色星星贴纸，带有白色小点纹理。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "denim_base",
+    "photo_1",
+    "photo_2",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4",
+    "star_5",
+    "star_6"
+  ]
+}

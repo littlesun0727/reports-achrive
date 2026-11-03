@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的室内摄影底图，展示木质家具、书架和窗户等环境。画面整体明亮温暖，上层拼贴照片和装饰遮挡了部分背景，但底图完整延伸至画布四边。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        762,
+        85,
+        904,
+        213
+      ],
+      "description": "位于右上角的星形贴纸，表面印有密集的英文段落文字，边缘带有白色描边。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        172,
+        100,
+        442,
+        165
+      ],
+      "text": null,
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "左上角的白色手写风格标题文字，内容模糊难以辨认，具有发光效果。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        128,
+        172,
+        478,
+        522
+      ],
+      "description": "左侧竖向矩形照片，显示桌上摆放着轻松熊玩偶、拿铁咖啡、蛋糕切片以及一本打开的小册子，一只手正托着小册子。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        517,
+        252,
+        952,
+        482
+      ],
+      "description": "右侧横向矩形照片，俯拍视角，显示木托盘上的花盘盛放着梨片蛋糕，周围环绕着四个角落生物毛绒玩具。照片边缘有不规则的白色手绘描边。"
+    },
+    {
+      "id": "text_caption_left",
+      "kind": "text",
+      "bbox": [
+        122,
+        532,
+        372,
+        572
+      ],
+      "text": null,
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "左侧照片下方的白色日文手写短句，内容模糊。"
+    },
+    {
+      "id": "overlay_label_right",
+      "kind": "overlay",
+      "bbox": [
+        622,
+        522,
+        904,
+        592
+      ],
+      "description": "右侧的长方形米色标签贴纸，上面写有黑色手写中文“这时刻最好”，边缘带有虚线框设计。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        85,
+        582,
+        532,
+        772
+      ],
+      "description": "左下方横向矩形照片，显示木质托盘上摆放着蘑菇模型、小房子摆件和干花，背景为浅色木纹桌面。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        572,
+        897,
+        912
+      ],
+      "description": "右下方竖向矩形照片，显示一只手托着装满角落生物玩偶的编织篮，背景可见桌上的粉色饮料杯和窗户。"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        772,
+        472,
+        912
+      ],
+      "description": "云朵形状的米色贴纸，内部包含黑色手写英文句子“you drew stars around my scars”及星星简笔画装饰。"
+    }
+  ],
+  "layer_order": [
+    "overlay_star_top_right",
+    "text_title",
+    "photo_left",
+    "photo_right",
+    "text_caption_left",
+    "overlay_label_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_cloud"
+  ]
+}

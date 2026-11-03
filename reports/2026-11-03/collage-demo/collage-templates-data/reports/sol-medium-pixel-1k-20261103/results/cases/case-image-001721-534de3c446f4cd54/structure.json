@@ -1,0 +1,177 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_beach",
+    "description": "海边浅水与沙地的连续摄影画面延伸至画布四边：上方可见海面、天空及右上岸边植被，下方为浅水覆盖的沙地和散落海星。人物照片、倾斜小图及装饰遮挡局部；保留整幅摄影环境作为可替换底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_small_palms",
+      "kind": "photo",
+      "bbox": [
+        112,
+        28,
+        539,
+        358
+      ],
+      "description": "左上方倾斜的海滨照片，画面有棕榈树、海面和天空，底部可见粉色字样“Soft Summer Haze”。保留照片内摄影环境及其可见印字，完整范围按倾斜照片外缘定位。"
+    },
+    {
+      "id": "photo_right_portrait",
+      "kind": "photo",
+      "bbox": [
+        529,
+        108,
+        931,
+        638
+      ],
+      "description": "右上竖幅海边人物照片，一名女子戴草帽、面向镜头站在沙滩上，一手扶帽、另一手向右伸展；海面和岸边环境保留在照片内，底边被音乐装饰局部覆盖。"
+    },
+    {
+      "id": "frame_right_portrait",
+      "kind": "frame",
+      "bbox": [
+        510,
+        106,
+        952,
+        642
+      ],
+      "description": "承载右上竖幅照片的白色卡纸，照片左侧与上沿基本贴齐，右侧露出明显白边，作为固定照片载体保留。",
+      "photo_id": [
+        "photo_right_portrait"
+      ]
+    },
+    {
+      "id": "photo_lower_portrait",
+      "kind": "photo",
+      "bbox": [
+        112,
+        700,
+        531,
+        1254
+      ],
+      "description": "左下竖幅海边照片，一名女子背对镜头站在沙滩上，双手举起草帽；人物、天空、海面及沙地共同构成照片画面。上沿被音乐线条覆盖，左下部分与棕榈树装饰相交。"
+    },
+    {
+      "id": "overlay_stamp",
+      "kind": "overlay",
+      "bbox": [
+        483,
+        52,
+        579,
+        151
+      ],
+      "description": "压在左上倾斜照片上方的浅棕色方形邮票状纸片，带圆形复古印纹，整体作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        322,
+        524,
+        503
+      ],
+      "description": "左上至中部的浅色手写艺术字“Since I've Started Talking To You”，分三行排布，周围带有彩色小花与星点；字形和点缀共同构成固定装饰。"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        828,
+        24,
+        972,
+        173
+      ],
+      "description": "画布右上角的半透明白色五瓣花贴纸，中心带浅青色细节，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        603,
+        1008,
+        890
+      ],
+      "description": "横贯画面中部的青绿色手绘五线谱、音符与蓝色装饰音符组成的连续音乐涂鸦；越过两张人物照片边缘并遮挡其局部，完整保留其跨画布轮廓。"
+    },
+    {
+      "id": "overlay_bird",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        568,
+        1008,
+        700
+      ],
+      "description": "右侧照片右下附近的浅青色手绘鸟形贴纸，带羽毛线条和小星点，局部压在照片及其下方背景上。"
+    },
+    {
+      "id": "overlay_palm",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1020,
+        278,
+        1442
+      ],
+      "description": "左下角大型浅青色手绘棕榈树涂鸦，含弯曲树干、叶片和卷曲线条，覆盖下方人物照片左下边缘并延伸至画布左侧及底边。"
+    },
+    {
+      "id": "overlay_poem_text",
+      "kind": "text",
+      "bbox": [
+        555,
+        947,
+        990,
+        1078
+      ],
+      "text": "You are my fresh and eternal Spring,\nthe only rhyme\nthat runs through all my Poems.",
+      "color": "#4A9AA4",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_poem_squares",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        986,
+        1000,
+        1085
+      ],
+      "description": "围绕诗句穿插排列的数枚小型浅色方形纸片，带植物、花卉等细小印纹，作为一组分散但风格统一的纸片装饰保留。"
+    },
+    {
+      "id": "overlay_water_collage",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        1117,
+        833,
+        1421
+      ],
+      "description": "右下方蓝色水纹矩形拼贴单元，包含圆形浅色纸片、白色点纹长方形及数枚小方块，整体作为固定装饰组合保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_small_palms",
+    "photo_right_portrait",
+    "frame_right_portrait",
+    "photo_lower_portrait",
+    "overlay_stamp",
+    "overlay_title",
+    "overlay_flower",
+    "overlay_music",
+    "overlay_bird",
+    "overlay_palm",
+    "overlay_poem_text",
+    "overlay_poem_squares",
+    "overlay_water_collage"
+  ]
+}

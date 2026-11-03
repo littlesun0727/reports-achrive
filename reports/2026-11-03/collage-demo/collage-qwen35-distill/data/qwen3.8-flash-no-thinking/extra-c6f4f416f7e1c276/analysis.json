@@ -1,0 +1,292 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1477
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1477
+      ],
+      "description": "白色活页纸底，左侧可见金属装订环和打孔痕迹，表面有细微纸张纹理。作为固定模板保留，承载所有照片和装饰元素。",
+      "background_type": "reference_clean",
+      "label": "白色活页纸底，左侧可见金属装订环和打孔痕迹，表面有细微纸张纹",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_main",
+      "kind": "photo",
+      "bbox": [
+        221,
+        160,
+        806,
+        588
+      ],
+      "description": "上方主图，戴黑色帽子的长发女子坐在绿色瓷砖墙前，背景为咖啡店外景，矩形裁切。",
+      "label": "上方主图，戴黑色帽子的长发女子坐在绿色瓷砖墙前，背景为咖啡店",
+      "method": "local"
+    },
+    {
+      "id": "overlay_yellow_frame",
+      "kind": "overlay",
+      "bbox": [
+        221,
+        160,
+        806,
+        588
+      ],
+      "description": "围绕上方主图的黄色粗边框，底部延伸出包含文字“Find sweetness in plain days”的色块区域。",
+      "label": "围绕上方主图的黄色粗边框，底部延伸出包含文字“Find sw",
+      "method": "extract"
+    },
+    {
+      "id": "text_hashtag",
+      "kind": "text",
+      "bbox": [
+        227,
+        170,
+        799,
+        288
+      ],
+      "description": "#Chill 3",
+      "label": "#Chill 3",
+      "method": "local",
+      "text": "#Chill 3",
+      "text_status": "known",
+      "style": {
+        "fill": "#5D4037",
+        "font": "hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_lemon_sticker",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        411,
+        297,
+        524
+      ],
+      "description": "三片柠檬切片组成的贴纸，带有浅蓝色描边，位于左上角。",
+      "label": "三片柠檬切片组成的贴纸，带有浅蓝色描边，位于左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee_sticker",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        236,
+        967,
+        399
+      ],
+      "description": "棕色波点背景的咖啡杯贴纸，图案为一杯拿铁拉花。",
+      "label": "棕色波点背景的咖啡杯贴纸，图案为一杯拿铁拉花。",
+      "method": "extract"
+    },
+    {
+      "id": "text_right_quote",
+      "kind": "text",
+      "bbox": [
+        826,
+        436,
+        956,
+        554
+      ],
+      "description": "The best\ntime is\non the\nroad.",
+      "label": "The best\ntime is\non the\nroad.",
+      "method": "local",
+      "text": "The best\ntime is\non the\nroad.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_tape_red",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        583,
+        340,
+        702
+      ],
+      "description": "红底白圆点的胶带装饰，倾斜贴在中间照片左上角。",
+      "label": "红底白圆点的胶带装饰，倾斜贴在中间照片左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        238,
+        613,
+        632,
+        908
+      ],
+      "description": "中间偏左照片，戴白色帽子的女子站在蓝色门框前，身穿军绿色上衣。",
+      "label": "中间偏左照片，戴白色帽子的女子站在蓝色门框前，身穿军绿色上衣",
+      "method": "local"
+    },
+    {
+      "id": "overlay_text_lemon",
+      "kind": "overlay",
+      "bbox": [
+        729,
+        569,
+        967,
+        702
+      ],
+      "description": "蓝色手写体艺术字“Lemon Tang”，带有连笔设计。",
+      "label": "蓝色手写体艺术字“Lemon Tang”，带有连笔设计。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink",
+      "kind": "overlay",
+      "bbox": [
+        815,
+        620,
+        977,
+        805
+      ],
+      "description": "粉色五角星贴纸，带有白色波点，位于右侧。",
+      "label": "粉色五角星贴纸，带有白色波点，位于右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cutout_main",
+      "kind": "photo",
+      "bbox": [
+        497,
+        687,
+        1037,
+        1470
+      ],
+      "description": "抠图人物主体，戴黑色帽子、穿黑色背带裤的女子坐姿全身照，边缘有白色宽描边，覆盖右下区域。",
+      "label": "抠图人物主体，戴黑色帽子、穿黑色背带裤的女子坐姿全身照，边缘",
+      "method": "local"
+    },
+    {
+      "id": "overlay_label_happy",
+      "kind": "overlay",
+      "bbox": [
+        502,
+        857,
+        691,
+        923
+      ],
+      "description": "淡黄色标签贴纸，上面印有“I'M SO HAPPY”字样，分两行排列。",
+      "label": "淡黄色标签贴纸，上面印有“I'M SO HAPPY”字样，分",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_today",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        938,
+        729,
+        982
+      ],
+      "description": "淡黄色小标签贴纸，印有“TODAY”字样。",
+      "label": "淡黄色小标签贴纸，印有“TODAY”字样。",
+      "method": "extract"
+    },
+    {
+      "id": "text_world_big",
+      "kind": "text",
+      "bbox": [
+        281,
+        938,
+        567,
+        997
+      ],
+      "description": "The world is too big\nto Stay in one place.",
+      "label": "The world is too big\nto Stay i",
+      "method": "local",
+      "text": "The world is too big\nto Stay in one place.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_icecream",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        960,
+        313,
+        1123
+      ],
+      "description": "紫色波点背景的冰淇淋甜筒贴纸。",
+      "label": "紫色波点背景的冰淇淋甜筒贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        254,
+        1041,
+        545,
+        1337
+      ],
+      "description": "左下角照片，女子在街头手持绿色电话听筒拍照。",
+      "label": "左下角照片，女子在街头手持绿色电话听筒拍照。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flag_like",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        1019,
+        740,
+        1130
+      ],
+      "description": "蓝色三角旗贴纸，印有红色“like”字样。",
+      "label": "蓝色三角旗贴纸，印有红色“like”字样。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top_main",
+    "overlay_yellow_frame",
+    "text_hashtag",
+    "overlay_lemon_sticker",
+    "overlay_coffee_sticker",
+    "text_right_quote",
+    "photo_mid_left",
+    "overlay_tape_red",
+    "overlay_text_lemon",
+    "overlay_star_pink",
+    "photo_cutout_main",
+    "overlay_label_happy",
+    "overlay_label_today",
+    "text_world_big",
+    "overlay_icecream",
+    "photo_bottom_left",
+    "overlay_flag_like"
+  ]
+}

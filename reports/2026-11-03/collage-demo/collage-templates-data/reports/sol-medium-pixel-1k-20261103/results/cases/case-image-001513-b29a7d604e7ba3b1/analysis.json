@@ -1,0 +1,237 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "backdrop",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "全画布连续的暖米色至底部棕褐色渐变纸面底图，边缘和照片间隙均延续同一底色变化；保留渐变底图，独立照片、贴纸和装饰另行记录。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的暖米色至底部棕褐色渐变纸面底图，边缘和照片间隙均",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        110,
+        153,
+        715,
+        959
+      ],
+      "description": "左上竖幅室内人像照片，一名长发女性正面坐在床边，手捧奶油蛋糕，保留卧室背景及烛光；矩形照片窗口，右下部分被下方照片遮挡。",
+      "label": "左上竖幅室内人像照片，一名长发女性正面坐在床边，手捧奶油蛋糕",
+      "method": "local"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        357,
+        937,
+        980,
+        1768
+      ],
+      "description": "右下竖幅室内人像照片，同一名长发女性坐在浅色窗格墙前，面前捧着大型粉白花束；保留室内摄影环境，矩形显示区域，上缘覆盖左上照片下缘。",
+      "label": "右下竖幅室内人像照片，同一名长发女性坐在浅色窗格墙前，面前捧",
+      "method": "local"
+    },
+    {
+      "id": "tape_white",
+      "kind": "overlay",
+      "bbox": [
+        319,
+        116,
+        481,
+        205
+      ],
+      "description": "压在上方照片顶边的白色长方形胶带，印有黑色圆点，作为一枚完整固定装饰保留。",
+      "label": "压在上方照片顶边的白色长方形胶带，印有黑色圆点，作为一枚完整",
+      "method": "extract"
+    },
+    {
+      "id": "bow_doodle",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        387,
+        1001,
+        755
+      ],
+      "description": "右上方带浅褐色纹理底影的黑色手绘蝴蝶结轮廓，包含结心、两侧环形和两条长飘带，作为完整装饰保留。",
+      "label": "右上方带浅褐色纹理底影的黑色手绘蝴蝶结轮廓，包含结心、两侧环",
+      "method": "extract"
+    },
+    {
+      "id": "star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        976,
+        554,
+        1007,
+        586
+      ],
+      "description": "蝴蝶结右侧的一枚小型白色五角星贴饰。",
+      "label": "蝴蝶结右侧的一枚小型白色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        766,
+        691,
+        801,
+        726
+      ],
+      "description": "蝴蝶结下方偏左的一枚小型白色五角星贴饰。",
+      "label": "蝴蝶结下方偏左的一枚小型白色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "sparkle_scatter",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        748,
+        506,
+        1461
+      ],
+      "description": "左侧至画面中下部稀疏散布的微小金黄色光点，部分叠在上方照片边缘，其余落在渐变底图区域；整体作为一组固定闪点装饰保留。",
+      "label": "左侧至画面中下部稀疏散布的微小金黄色光点，部分叠在上方照片边",
+      "method": "extract"
+    },
+    {
+      "id": "tape_brown",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        895,
+        885,
+        1024
+      ],
+      "description": "压在下方照片上缘的深棕色竖向胶带，带有白色小圆点，作为一枚完整固定装饰保留。",
+      "label": "压在下方照片上缘的深棕色竖向胶带，带有白色小圆点，作为一枚完",
+      "method": "extract"
+    },
+    {
+      "id": "love_label",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        1502,
+        455,
+        1584
+      ],
+      "description": "左下方浅奶油色不规则标签，带淡粉色圆点底纹和左侧小尖角；其上保留深棕色字样“i luv u <3···”及两颗爱心，整体作为带字贴纸保留。",
+      "label": "左下方浅奶油色不规则标签，带淡粉色圆点底纹和左侧小尖角；其上",
+      "method": "extract"
+    },
+    {
+      "id": "star_lower_left_small",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        1614,
+        70,
+        1654
+      ],
+      "description": "左下区域的一枚小型浅黄色五角星贴饰。",
+      "label": "左下区域的一枚小型浅黄色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_lower_left_large",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        1643,
+        263,
+        1713
+      ],
+      "description": "左下区域的一枚大型浅黄色五角星贴饰。",
+      "label": "左下区域的一枚大型浅黄色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_photo_lower",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        1610,
+        523,
+        1663
+      ],
+      "description": "下方照片花束左下侧的一枚浅黄色五角星贴饰，叠在照片边缘及其邻近区域。",
+      "label": "下方照片花束左下侧的一枚浅黄色五角星贴饰，叠在照片边缘及其邻",
+      "method": "extract"
+    },
+    {
+      "id": "star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        1747,
+        125,
+        1768
+      ],
+      "description": "靠近左下方的小型浅黄色五角星贴饰。",
+      "label": "靠近左下方的小型浅黄色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_bottom_mid",
+      "kind": "overlay",
+      "bbox": [
+        317,
+        1757,
+        368,
+        1808
+      ],
+      "description": "画面下部偏左的一枚浅黄色五角星贴饰。",
+      "label": "画面下部偏左的一枚浅黄色五角星贴饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        502,
+        1800,
+        534,
+        1832
+      ],
+      "description": "画面底部偏左的一枚小型浅黄色五角星贴饰。",
+      "label": "画面底部偏左的一枚小型浅黄色五角星贴饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "backdrop",
+    "photo_cake",
+    "photo_flowers",
+    "tape_white",
+    "bow_doodle",
+    "star_upper_right",
+    "star_mid_right",
+    "sparkle_scatter",
+    "tape_brown",
+    "love_label",
+    "star_lower_left_small",
+    "star_lower_left_large",
+    "star_photo_lower",
+    "star_bottom_left",
+    "star_bottom_mid",
+    "star_bottom_center"
+  ]
+}

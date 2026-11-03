@@ -1,0 +1,162 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影底图，画面为同一位身穿蓝白条纹衬衫、深色短裤的男孩在街道上的全身照。他正举起右手挥手，背景包含斑驳的墙壁和街道护栏。该底图经过模糊处理以衬托前景，完整延伸至画布四边。"
+  },
+  "objects": [
+    {
+      "id": "text_right_vertical",
+      "kind": "text",
+      "bbox": [
+        650,
+        80,
+        940,
+        320
+      ],
+      "text": "softly go with the flow\nmove at ease\nbreathe deep\nno need to hurry\nslow your pace",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        100,
+        70,
+        560,
+        535
+      ],
+      "description": "左上角矩形照片，显示男孩站在街边挥手的半身像，保留完整的街道环境。"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        190,
+        125,
+        640,
+        465
+      ],
+      "description": "围绕左上照片的白色细线框，带有四个角的方形节点标记，位于照片上方。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        480,
+        355,
+        890,
+        660
+      ],
+      "description": "右侧中部矩形照片，显示男孩在卷帘门前的半身像，手举至头部附近。"
+    },
+    {
+      "id": "frame_mid_right",
+      "kind": "frame",
+      "bbox": [
+        490,
+        385,
+        935,
+        720
+      ],
+      "description": "围绕右中照片的白色细线框，带有角点标记，位于照片上方。",
+      "photo_id": [
+        "photo_mid_right"
+      ]
+    },
+    {
+      "id": "text_center_overlay",
+      "kind": "text",
+      "bbox": [
+        550,
+        540,
+        870,
+        570
+      ],
+      "text": "Breathe and let it be.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        100,
+        650,
+        620,
+        940
+      ],
+      "description": "左下角矩形照片，显示男孩侧身靠在栏杆上的半身像。"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        70,
+        620,
+        650,
+        925
+      ],
+      "description": "围绕左下照片的白色细线框，带有角点标记，位于照片上方。",
+      "photo_id": [
+        "photo_bottom_left"
+      ]
+    },
+    {
+      "id": "text_left_vertical",
+      "kind": "text",
+      "bbox": [
+        140,
+        490,
+        450,
+        820
+      ],
+      "text": "keep life unrushed\ncalm mode\nsoft days\ngo where you feel light",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_right_vertical_lower",
+      "kind": "text",
+      "bbox": [
+        670,
+        670,
+        820,
+        970
+      ],
+      "text": "go\nwhere\nyou\nfeel\nlight",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "frame_top_left",
+    "photo_mid_right",
+    "frame_mid_right",
+    "text_center_overlay",
+    "photo_bottom_left",
+    "frame_bottom_left",
+    "text_right_vertical",
+    "text_left_vertical",
+    "text_right_vertical_lower"
+  ]
+}

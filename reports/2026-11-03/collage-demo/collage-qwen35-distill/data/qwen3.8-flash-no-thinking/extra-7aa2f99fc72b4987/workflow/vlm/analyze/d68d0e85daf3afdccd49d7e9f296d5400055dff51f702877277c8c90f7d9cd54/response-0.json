@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-f55f22b4-3ede-977e-ad1b-64f6692534f6",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 8356,
+    "completion_tokens": 943,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1532,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 943
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"solid_color\",\n    \"color\": \"#000000\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        5,\n        8,\n        327,\n        324\n      ],\n      \"description\": \"左上角风景照片，画面展示了海边日落时分的景色，天空中有明显的放射状光束（丁达尔效应），下方是平静的海面和远处的山丘。\"\n    },\n    {\n      \"id\": \"photo_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        336,\n        8,\n        664,\n        324\n      ],\n      \"description\": \"上中位置照片，一名身穿白色长裙的女子坐在树林边的水岸边，背对镜头伸手触碰树干，前景水面有荷叶漂浮。\"\n    },\n    {\n      \"id\": \"photo_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        673,\n        8,\n        995,\n        324\n      ],\n      \"description\": \"右上角特写照片，展示了平静的水面、绿色的荷叶以及部分枯萎的残荷，光影斑驳。\"\n    },\n    {\n      \"id\": \"photo_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        5,\n        338,\n        327,\n        656\n      ],\n      \"description\": \"左中位置风景照片，画面上方是大片洁白的积云和蓝天，下方是郁郁葱葱的山林植被。\"\n    },\n    {\n      \"id\": \"overlay_card\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        336,\n        338,\n        664,\n        656\n      ],\n      \"description\": \"正中间位置的浅灰绿色纹理卡片，作为装饰性底板，表面印有黑色英文文字“Everything, in time”。\"\n    },\n    {\n      \"id\": \"photo_5\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        673,\n        338,\n        995,\n        656\n      ],\n      \"description\": \"右中位置照片，展示了一栋红顶白墙的欧式建筑，前方有一名身穿白裙的女子在草坪上奔跑或旋转，周围有绿植环绕。\"\n    },\n    {\n      \"id\": \"photo_6\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        5,\n        670,\n        327,\n        988\n      ],\n      \"description\": \"左下角照片，一名长卷发女子背对镜头站在大树下，身穿浅色衣物，背景可见白色的建筑结构。\"\n    },\n    {\n      \"id\": \"photo_7\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        336,\n        670,\n        664,\n        988\n      ],\n      \"description\": \"下中位置人物近景照片，一名长发女子手持松枝遮挡部分身体，眼神注视镜头，神态柔和。\"\n    },\n    {\n      \"id\": \"photo_8\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        673,\n        670,\n        995,\n        988\n      ],\n      \"description\": \"右下角特写照片，展示了茂密的绿色针叶植物枝条，光线透过树叶形成明暗对比。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_1\",\n    \"photo_2\",\n    \"photo_3\",\n    \"photo_4\",\n    \"overlay_card\",\n    \"photo_5\",\n    \"photo_6\",\n    \"photo_7\",\n    \"photo_8\"\n  ]\n}",
+  "tool_calls": false
+}

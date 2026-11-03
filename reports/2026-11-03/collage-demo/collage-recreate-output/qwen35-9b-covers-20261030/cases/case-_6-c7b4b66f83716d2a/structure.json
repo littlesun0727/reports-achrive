@@ -1,0 +1,208 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的白色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        200,
+        100,
+        650,
+        350
+      ],
+      "description": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        200,
+        400,
+        550,
+        600
+      ],
+      "description": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        220,
+        700,
+        480,
+        900
+      ],
+      "description": "矩形照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        450,
+        450,
+        950,
+        950
+      ],
+      "description": "不规则形状照片窗口，保留人物及周围摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        100,
+        750,
+        380
+      ],
+      "description": "带有#Chill字样的黄色标签贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        280,
+        250,
+        350
+      ],
+      "description": "带有柠檬图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        150,
+        850,
+        250
+      ],
+      "description": "带有咖啡杯图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        390,
+        300,
+        450
+      ],
+      "description": "带有红点图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        650,
+        250,
+        750
+      ],
+      "description": "带有冰淇淋图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        380,
+        900,
+        550
+      ],
+      "description": "带有Lemon Tang字样的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        580,
+        650,
+        650
+      ],
+      "description": "带有I'M SO HAPPY TODAY字样的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        680,
+        650,
+        750
+      ],
+      "description": "带有like字样的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        220,
+        350,
+        700,
+        380
+      ],
+      "text": "Find sweetness in plain days",
+      "color": "#333333",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        750,
+        290,
+        850,
+        350
+      ],
+      "text": "The best time is on the road.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        220,
+        630,
+        520,
+        670
+      ],
+      "text": "The world is too big to stay in one place.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

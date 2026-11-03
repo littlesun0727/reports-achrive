@@ -1,0 +1,143 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        240,
+        220,
+        420,
+        460
+      ],
+      "description": "摩天轮照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        440,
+        220,
+        620,
+        460
+      ],
+      "description": "拱门海景照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        640,
+        220,
+        820,
+        460
+      ],
+      "description": "日落海滩照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        840,
+        220,
+        1000,
+        460
+      ],
+      "description": "海岛礁石照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        580,
+        180,
+        820
+      ],
+      "description": "手持镜子照映花朵照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        200,
+        580,
+        380,
+        820
+      ],
+      "description": "海边日落与花丛照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        400,
+        580,
+        580,
+        820
+      ],
+      "description": "溪流与远山照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        600,
+        580,
+        780,
+        820
+      ],
+      "description": "手持柠檬片照片，保留摄影环境，位于胶片框内。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        0,
+        180,
+        1000,
+        480
+      ],
+      "description": "上排胶片框，包含四个照片窗口及左侧'CAMERA 200'标签，整体作为固定载体保留。",
+      "photo_id": [
+        "photo_1",
+        "photo_2",
+        "photo_3",
+        "photo_4"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        0,
+        520,
+        1000,
+        820
+      ],
+      "description": "下排胶片框，包含四个照片窗口及右侧空白区域，整体作为固定载体保留。",
+      "photo_id": [
+        "photo_5",
+        "photo_6",
+        "photo_7",
+        "photo_8"
+      ]
+    }
+  ],
+  "layer_order": [
+    "frame_1",
+    "frame_2",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-282a1fd8-bf4a-9030-a844-e73e8c9928d0",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 7952,
+    "completion_tokens": 539,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1532,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 539
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"solid_color\",\n    \"color\": \"#000000\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        20,\n        15,\n        980,\n        200\n      ],\n      \"description\": \"顶部横向圆角矩形照片，展示夕阳下的城市天际线剪影、江面及波光粼粼的水面。\"\n    },\n    {\n      \"id\": \"photo_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        20,\n        217,\n        980,\n        396\n      ],\n      \"description\": \"第二张横向圆角矩形照片，特写逆光下的芦苇丛与闪烁的江水表面。\"\n    },\n    {\n      \"id\": \"photo_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        20,\n        410,\n        980,\n        589\n      ],\n      \"description\": \"第三张横向圆角矩形照片，一名戴帽子的男子站在草丛边举着相机拍照，背景是宽阔的江面。\"\n    },\n    {\n      \"id\": \"photo_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        20,\n        603,\n        980,\n        782\n      ],\n      \"description\": \"第四张横向圆角矩形照片，远景拍摄横跨江面的大桥及对岸的城市建筑群。\"\n    },\n    {\n      \"id\": \"photo_5\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        20,\n        796,\n        980,\n        975\n      ],\n      \"description\": \"底部横向圆角矩形照片，画面主体为悬挂在玻璃建筑前的圆形时钟，显示时间约为12点整。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_1\",\n    \"photo_2\",\n    \"photo_3\",\n    \"photo_4\",\n    \"photo_5\"\n  ]\n}",
+  "tool_calls": false
+}

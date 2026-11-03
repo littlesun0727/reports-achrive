@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    810
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        810
+      ],
+      "description": "单张连续的近景摄影画面铺满画布：左侧是一名棕发、戴粉色蝴蝶结的娃娃，右侧是摆有吐司和餐具的盘子，右上露出杯子；人物与餐桌环境共同替换。画面边缘及主体间场景连续，底部右侧粉色花纹面板和其他装饰遮挡局部，照片仍延伸至全幅。",
+      "background_type": "photo",
+      "label": "单张连续的近景摄影画面铺满画布：左侧是一名棕发、戴粉色蝴蝶结",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_top_script",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        18,
+        1080,
+        143
+      ],
+      "description": "横跨画面上方的白色手写装饰字样，部分笔画贴近画布边缘并叠在摄影画面上；特殊字形作为完整艺术字保留，内容不确定。",
+      "label": "横跨画面上方的白色手写装饰字样，部分笔画贴近画布边缘并叠在摄",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dotted_letter",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        168,
+        484,
+        644
+      ],
+      "description": "娃娃右侧的黑色点状装饰字形，带白色圆点和内部浅色笔画，整体呈纵向造型并叠在摄影画面上；作为一个固定艺术字单元保留。",
+      "label": "娃娃右侧的黑色点状装饰字形，带白色圆点和内部浅色笔画，整体呈",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lace",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        0,
+        438,
+        810
+      ],
+      "description": "沿画面中部纵向延伸的白色波浪蕾丝边饰，跨过照片区域并压住下方粉色面板左边缘，完整可见部分作为一个固定装饰保留。",
+      "label": "沿画面中部纵向延伸的白色波浪蕾丝边饰，跨过照片区域并压住下方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pattern_panel",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        647,
+        1080,
+        810
+      ],
+      "description": "右下方覆盖摄影内容的粉色矩形装饰面板，布满白色小点和重复的浅色卷曲花纹，延伸至右侧及底部画布边缘，保留为完整固定单元。",
+      "label": "右下方覆盖摄影内容的粉色矩形装饰面板，布满白色小点和重复的浅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        193,
+        1057,
+        613
+      ],
+      "description": "散布在右侧摄影区域上的几枚独立小型星形闪光装饰，包含白色与粉色星形，覆盖盘子周边及下方，作为同类点缀整体保留。",
+      "label": "散布在右侧摄影区域上的几枚独立小型星形闪光装饰，包含白色与粉",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_pattern_panel",
+    "overlay_top_script",
+    "overlay_dotted_letter",
+    "overlay_lace",
+    "overlay_sparkles"
+  ]
+}

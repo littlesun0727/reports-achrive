@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "连续的户外草地与树林摄影底图，完整延伸至画布四边。画面主体为一名身穿阿根廷球衣、手持足球的年轻女性半身近景，位于画面中下方，背景为虚化的绿色植被。",
+      "background_type": "photo",
+      "label": "连续的户外草地与树林摄影底图，完整延伸至画布四边。画面主体为",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        527,
+        228,
+        726
+      ],
+      "description": "左侧白色手绘风格五角星及放射状线条装饰，叠加在底图之上。",
+      "label": "左侧白色手绘风格五角星及放射状线条装饰，叠加在底图之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        562,
+        625,
+        1280
+      ],
+      "description": "右侧青色发光星星及耳机线轮廓装饰，包含两颗大星和连接线，覆盖在底图人物及足球上。",
+      "label": "右侧青色发光星星及耳机线轮廓装饰，包含两颗大星和连接线，覆盖",
+      "method": "extract"
+    },
+    {
+      "id": "frame_music_player",
+      "kind": "frame",
+      "bbox": [
+        607,
+        13,
+        942,
+        527
+      ],
+      "description": "右上角音乐播放器界面卡片，包含照片窗口、进度条、播放控制按钮及文字“Music”、“0:00”、“5:20”。整体作为固定设计单元保留。",
+      "photo_id": [
+        "photo_card"
+      ],
+      "label": "右上角音乐播放器界面卡片，包含照片窗口、进度条、播放控制按钮",
+      "method": "extract"
+    },
+    {
+      "id": "photo_card",
+      "kind": "photo",
+      "bbox": [
+        622,
+        33,
+        926,
+        429
+      ],
+      "description": "音乐卡片内的竖向照片，显示同一位女性手持足球的半身像，背景为树林。",
+      "label": "音乐卡片内的竖向照片，显示同一位女性手持足球的半身像，背景为",
+      "method": "local"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        444,
+        260,
+        587,
+        392
+      ],
+      "description": "蓝色爱心贴纸，带有两个小爱心点缀，位于左上抠图与右上卡片之间。",
+      "label": "蓝色爱心贴纸，带有两个小爱心点缀，位于左上抠图与右上卡片之间",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cutout_top_left",
+      "kind": "photo",
+      "bbox": [
+        71,
+        79,
+        403,
+        522
+      ],
+      "description": "左上角去背景抠图，显示同一位女性举着足球的姿势，周围有白色描边轮廓。",
+      "label": "左上角去背景抠图，显示同一位女性举着足球的姿势，周围有白色描",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_star_left",
+    "overlay_stars_right",
+    "photo_card",
+    "frame_music_player",
+    "overlay_heart",
+    "photo_cutout_top_left"
+  ]
+}

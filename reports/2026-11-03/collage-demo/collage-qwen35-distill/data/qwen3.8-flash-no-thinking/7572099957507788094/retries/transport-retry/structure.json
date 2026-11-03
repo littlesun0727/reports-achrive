@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画布为一张连续的摄影底图，画面透过布满水珠的玻璃拍摄，呈现模糊的绿色树林背景。玻璃上的水滴、反光及背景的虚化树木构成完整的摄影环境，延伸至画布四边。上层叠加了多张独立照片和装饰元素，遮挡了部分底图内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        152,
+        74,
+        500,
+        438
+      ],
+      "description": "左上角竖向矩形照片，显示清晰的绿色枫叶枝条与白色天空背景，带有少量水珠效果。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        230,
+        893,
+        483
+      ],
+      "description": "右侧中部方形照片，仰拍视角的茂密树冠与蓝天，树干位于中心下方。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        74,
+        478,
+        418,
+        740
+      ],
+      "description": "左下角方形照片，展示绿树掩映下的蓝天，色彩鲜艳清晰。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        497,
+        523,
+        853,
+        908
+      ],
+      "description": "右下角竖向矩形照片，色调偏暗的黄绿色背景，表面覆盖密集的水滴纹理。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        124,
+        58,
+        925,
+        932
+      ],
+      "description": "散布在画面中的四个白色手绘五角星图案，分别位于左上、右上、右下及中间区域，作为装饰元素。"
+    },
+    {
+      "id": "overlay_circles",
+      "kind": "overlay",
+      "bbox": [
+        290,
+        302,
+        675,
+        630
+      ],
+      "description": "画面中央的白色细线螺旋圆圈涂鸦，跨越多个照片区域，具有手绘质感。"
+    },
+    {
+      "id": "text_happiness",
+      "kind": "text",
+      "bbox": [
+        55,
+        660,
+        280,
+        755
+      ],
+      "text": "Happiness",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "左下方的大号手写体英文单词“Happiness”，下方有一条横线装饰。"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        74,
+        770,
+        574,
+        980
+      ],
+      "text": "It may come and go\nLike a distant land\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "底部左侧的多行白色手写体英文诗句，字体较小且排列整齐。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_mid_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_circles",
+    "overlay_stars",
+    "text_happiness",
+    "text_poem"
+  ]
+}

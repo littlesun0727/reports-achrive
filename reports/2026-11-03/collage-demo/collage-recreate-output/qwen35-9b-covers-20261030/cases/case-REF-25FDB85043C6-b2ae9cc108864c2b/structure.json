@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "舞台表演场景，人物身穿灰色连帽衫和灰色帽子，手持麦克风演唱。背景为蓝色条纹LED屏幕，可见舞台灯光设备。画面边缘露出的场景连续延伸至画布四边，上层贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        60,
+        70,
+        320,
+        340
+      ],
+      "description": "左上角椭圆形裁剪照片，人物身穿条纹T恤，手持麦克风，背景为蓝色条纹屏幕。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        510,
+        720,
+        960,
+        990
+      ],
+      "description": "右下角矩形裁剪照片，人物身穿条纹T恤，手持麦克风，背景为蓝色条纹屏幕。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        440,
+        680,
+        580,
+        740
+      ],
+      "description": "白色卡通小狗贴纸，位于右下角照片上方。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        100,
+        850,
+        200
+      ],
+      "description": "韩文气泡文字贴纸，内容为“사랑해♡”，位于右上角。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        820,
+        400,
+        950
+      ],
+      "description": "中文气泡文字贴纸，内容为“听到blue我就能原谅世界一切”，位于左下角。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        50,
+        800,
+        100
+      ],
+      "description": "顶部装饰文字“Soft clouds”，两侧有星星和心形图案。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

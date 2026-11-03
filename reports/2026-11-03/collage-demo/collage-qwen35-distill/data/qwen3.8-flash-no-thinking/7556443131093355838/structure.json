@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        325
+      ],
+      "description": "上方横向照片，显示一位身穿米色开衫的女性双手合十坐在桌前，面前有一个插着点燃蜡烛的草莓蛋糕。背景为餐厅环境，包含棕色座椅和桌面食物。"
+    },
+    {
+      "id": "overlay_mid",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        325,
+        1000,
+        635
+      ],
+      "description": "中间宽幅矩形区域，具有明显的浅褐色粗糙纸质纹理。中心印有黑色打字机风格文字“Happy birthday.”，作为整体装饰单元保留。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        635,
+        1000,
+        1000
+      ],
+      "description": "下方横向照片，俯拍视角展示一个放在白色方盘上的粉色草莓奶油蛋糕，蛋糕上插着一根巧克力棒。周围可见人物衣物、手部及另一小份甜点。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "overlay_mid",
+    "photo_bottom"
+  ]
+}

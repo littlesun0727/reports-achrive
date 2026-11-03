@@ -1,0 +1,176 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "stone_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "粗糙斑驳的灰色石材纹理连续覆盖全画布，照片、文字与贴纸之间及四周均露出同一纹理；保留石材底图原样。",
+      "background_type": "reference_clean",
+      "label": "粗糙斑驳的灰色石材纹理连续覆盖全画布，照片、文字与贴纸之间及",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        350,
+        101,
+        731,
+        479
+      ],
+      "description": "幸福的当下：\n\n热咖啡配蛋糕卷的下午茶\n收到朋友千里外寄来的礼物\n是我爱的小队长和cd机\n\n今日的心情是晴朗\n:)",
+      "label": "幸福的当下：\n\n热咖啡配蛋糕卷的下午茶\n收到朋友千里外寄来的",
+      "method": "local",
+      "text": "幸福的当下：\n\n热咖啡配蛋糕卷的下午茶\n收到朋友千里外寄来的礼物\n是我爱的小队长和cd机\n\n今日的心情是晴朗\n:)",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5F4F0",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_tea",
+      "kind": "photo",
+      "bbox": [
+        26,
+        609,
+        347,
+        1037
+      ],
+      "description": "左侧竖幅桌面照片：浅色墙面与黑桌上有一杯茶、蛋糕卷和盘子，一双手从画面下方托着盘子；保留完整摄影环境，矩形显示，顶部被透明胶带局部覆盖。",
+      "label": "左侧竖幅桌面照片：浅色墙面与黑桌上有一杯茶、蛋糕卷和盘子，一",
+      "method": "local"
+    },
+    {
+      "id": "photo_audio_gifts",
+      "kind": "photo",
+      "bbox": [
+        379,
+        609,
+        700,
+        1037
+      ],
+      "description": "中间竖幅俯拍照片：黑色桌面上摆有唱机、光盘、线材及印有照片的纸张等物件；保留完整摄影环境，矩形显示，顶部被透明胶带局部覆盖。",
+      "label": "中间竖幅俯拍照片：黑色桌面上摆有唱机、光盘、线材及印有照片的",
+      "method": "local"
+    },
+    {
+      "id": "photo_card",
+      "kind": "photo",
+      "bbox": [
+        728,
+        609,
+        1048,
+        1031
+      ],
+      "description": "右侧竖幅照片，画面为灰色印刷卡片，带蓝色中文排字、斜线和小型竖排字样；文字属于照片中的印刷内容，保留卡片完整摄影画面，顶部有透明胶带覆盖。",
+      "label": "右侧竖幅照片，画面为灰色印刷卡片，带蓝色中文排字、斜线和小型",
+      "method": "local"
+    },
+    {
+      "id": "tape_left",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        570,
+        278,
+        638
+      ],
+      "description": "左侧照片顶部的半透明胶带与折皱反光，跨在照片上沿并向上伸出，作为一组固定粘贴痕迹保留。",
+      "label": "左侧照片顶部的半透明胶带与折皱反光，跨在照片上沿并向上伸出，",
+      "method": "extract"
+    },
+    {
+      "id": "tape_center",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        557,
+        659,
+        645
+      ],
+      "description": "中间照片顶部跨越边缘的多段半透明胶带与反光折痕，包含彼此相连的透明片段，作为一组固定粘贴痕迹保留。",
+      "label": "中间照片顶部跨越边缘的多段半透明胶带与反光折痕，包含彼此相连",
+      "method": "extract"
+    },
+    {
+      "id": "tape_right",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        580,
+        961,
+        643
+      ],
+      "description": "右侧照片顶部的半透明胶带与细长反光折痕，跨在照片上沿并向上伸出，作为一组固定粘贴痕迹保留。",
+      "label": "右侧照片顶部的半透明胶带与细长反光折痕，跨在照片上沿并向上伸",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_cake",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        1108,
+        198,
+        1152
+      ],
+      "description": "左下方独立蛋糕片贴纸，带奶油层、黄色蛋糕层和顶部红色点缀，保留完整轮廓与阴影。",
+      "label": "左下方独立蛋糕片贴纸，带奶油层、黄色蛋糕层和顶部红色点缀，保",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_headphones",
+      "kind": "overlay",
+      "bbox": [
+        519,
+        1101,
+        564,
+        1155
+      ],
+      "description": "画布下方中间的白色耳机贴纸，保留耳机主体与完整轮廓。",
+      "label": "画布下方中间的白色耳机贴纸，保留耳机主体与完整轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_droplet",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        1103,
+        927,
+        1152
+      ],
+      "description": "右下方蓝色水滴贴纸，带高光与渐变，保留完整轮廓。",
+      "label": "右下方蓝色水滴贴纸，带高光与渐变，保留完整轮廓。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "stone_texture",
+    "photo_tea",
+    "photo_audio_gifts",
+    "photo_card",
+    "tape_left",
+    "tape_center",
+    "tape_right",
+    "text_caption",
+    "sticker_cake",
+    "sticker_headphones",
+    "sticker_droplet"
+  ]
+}

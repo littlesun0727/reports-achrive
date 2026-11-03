@@ -1,0 +1,139 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "米色复古纹理纸底，带有斑驳光影和树叶剪影，作为全画布固定底图保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        50,
+        30,
+        600,
+        370
+      ],
+      "description": "左上角邮票形状照片，人物蹲姿，手持饮料，旁边有蜗牛和蘑菇，保留摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        670,
+        140,
+        950,
+        310
+      ],
+      "description": "右上角矩形照片，人物蹲姿，保留摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        75,
+        550,
+        295,
+        780
+      ],
+      "description": "左下角矩形照片，人物站立，保留摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        350,
+        400,
+        960,
+        970
+      ],
+      "description": "右下角大尺寸矩形照片，人物背影在海边，保留摄影环境。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        800,
+        200,
+        1000
+      ],
+      "description": "左下角小鹿剪影，保留主体轮廓。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        350,
+        400,
+        960,
+        970
+      ],
+      "description": "承载右下角照片的矩形相框，带有圆角和纹理边框。",
+      "photo_id": [
+        "photo_4"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        50,
+        30,
+        600,
+        370
+      ],
+      "description": "承载左上角照片的邮票形状相框，带有锯齿边缘。",
+      "photo_id": [
+        "photo_1"
+      ]
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        360,
+        970,
+        460
+      ],
+      "description": "右上角木质纽扣装饰。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        530,
+        150,
+        630
+      ],
+      "description": "左下角木质纽扣装饰。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        390,
+        360,
+        610
+      ],
+      "description": "中间垂直排列的装饰元素，包括海星、星星、螺旋和加号。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "frame_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "frame_2",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3"
+  ]
+}

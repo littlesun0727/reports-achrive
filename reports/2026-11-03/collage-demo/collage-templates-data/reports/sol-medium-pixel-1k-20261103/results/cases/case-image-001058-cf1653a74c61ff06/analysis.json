@@ -1,0 +1,226 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "wood_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的棕色木质桌面摄影画面延伸至画布四边，木纹在盘子、照片和贴纸周围连续可见；这些前景单元遮挡局部桌面。保留完整桌面环境作为可替换摄影底图。",
+      "background_type": "photo",
+      "label": "连续的棕色木质桌面摄影画面延伸至画布四边，木纹在盘子、照片和",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_hydrant",
+      "kind": "photo",
+      "bbox": [
+        111,
+        185,
+        424,
+        500
+      ],
+      "description": "左上方竖向街景照片，红色消防栓位于画面中央偏左，旁有墙面、路面和阴影；完整矩形照片窗口。",
+      "label": "左上方竖向街景照片，红色消防栓位于画面中央偏左，旁有墙面、路",
+      "method": "local"
+    },
+    {
+      "id": "frame_hydrant",
+      "kind": "frame",
+      "bbox": [
+        96,
+        173,
+        437,
+        514
+      ],
+      "description": "承载街景照片的白色窄边相纸框，照片四周留白，完整矩形框体位于照片上方。",
+      "photo_id": [
+        "photo_hydrant"
+      ],
+      "label": "承载街景照片的白色窄边相纸框，照片四周留白，完整矩形框体位于",
+      "method": "extract"
+    },
+    {
+      "id": "photo_strawberry_plate",
+      "kind": "photo",
+      "bbox": [
+        105,
+        386,
+        991,
+        1132
+      ],
+      "description": "一张以白色浅盘和多颗红色草莓为主体的近景照片，盘中草莓大小与朝向各异，盘沿及少量浅色配料一并保留；照片以盘和草莓组合的可见轮廓呈现，摄影环境不去除，部分上方区域被街景照片和贴纸遮挡。",
+      "label": "一张以白色浅盘和多颗红色草莓为主体的近景照片，盘中草莓大小与",
+      "method": "local"
+    },
+    {
+      "id": "overlay_strawberry_doodles",
+      "kind": "overlay",
+      "bbox": [
+        302,
+        341,
+        884,
+        1032
+      ],
+      "description": "叠画在盘中多颗草莓上的黑色手绘表情与动作线，包括眼睛、嘴、腮红、汗滴和惊讶线条；覆盖多颗草莓，作为一组独立涂鸦保留。",
+      "label": "叠画在盘中多颗草莓上的黑色手绘表情与动作线，包括眼睛、嘴、腮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_cloud",
+      "kind": "overlay",
+      "bbox": [
+        244,
+        90,
+        490,
+        260
+      ],
+      "description": "顶部偏左的奶油色手绘云朵贴纸，黑色外描边、浅色纹理及中央小脸为一体设计；压住街景照片右上角。",
+      "label": "顶部偏左的奶油色手绘云朵贴纸，黑色外描边、浅色纹理及中央小脸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        506,
+        187,
+        880,
+        285
+      ],
+      "description": "橙黄色粗糙笔刷底上的白色手写标题“Cute Sprouting”，字样与笔刷底共同构成固定装饰。",
+      "label": "橙黄色粗糙笔刷底上的白色手写标题“Cute Sproutin",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        758,
+        307,
+        945,
+        585
+      ],
+      "description": "草莓上方的白色竖向手绘对话气泡，黑色轮廓与指向左下方的气泡尾巴完整保留；内部有竖排黑色字样“嗯~”，作为气泡设计的一部分。",
+      "label": "草莓上方的白色竖向手绘对话气泡，黑色轮廓与指向左下方的气泡尾",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        237,
+        194,
+        333
+      ],
+      "description": "消防栓照片左侧的白色手绘闪光符号，包含大小不同的星形笔画，作为一组独立装饰。",
+      "label": "消防栓照片左侧的白色手绘闪光符号，包含大小不同的星形笔画，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_rings",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        637,
+        186,
+        786
+      ],
+      "description": "画面左侧两个分开的粉色手绘圆环及内部浅色点缀，作为同一组小型装饰保留。",
+      "label": "画面左侧两个分开的粉色手绘圆环及内部浅色点缀，作为同一组小型",
+      "method": "extract"
+    },
+    {
+      "id": "photo_spring_toy",
+      "kind": "photo",
+      "bbox": [
+        71,
+        871,
+        292,
+        1168
+      ],
+      "description": "左下方竖向户外照片，黄色弹簧支架上的圆形黄色表情玩具居中，背景可见路面和地面线条；完整矩形照片窗口。",
+      "label": "左下方竖向户外照片，黄色弹簧支架上的圆形黄色表情玩具居中，背",
+      "method": "local"
+    },
+    {
+      "id": "overlay_toy_cloud",
+      "kind": "overlay",
+      "bbox": [
+        5,
+        877,
+        357,
+        1108
+      ],
+      "description": "围绕左下照片的白色手绘云形轮廓，跨出照片左右边缘并遮住部分画面；轮廓线作为独立装饰保留。",
+      "label": "围绕左下照片的白色手绘云形轮廓，跨出照片左右边缘并遮住部分画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pointer_sparks",
+      "kind": "overlay",
+      "bbox": [
+        286,
+        1056,
+        441,
+        1192
+      ],
+      "description": "照片下方偏右的白色手绘箭头与黄色星点装饰，包含箭头外描边和多个小星光，作为一组固定涂鸦保留。",
+      "label": "照片下方偏右的白色手绘箭头与黄色星点装饰，包含箭头外描边和多",
+      "method": "extract"
+    },
+    {
+      "id": "photo_round_art",
+      "kind": "photo",
+      "bbox": [
+        732,
+        962,
+        1047,
+        1265
+      ],
+      "description": "右下方圆形构图的手工作品照片，内部可见彩色字母、卡通人物与拼贴图案；外围砖红色圆边及向外放射的彩色笔画随该圆形作品画面一并呈现。",
+      "label": "右下方圆形构图的手工作品照片，内部可见彩色字母、卡通人物与拼",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bottom_label",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        1196,
+        829,
+        1363
+      ],
+      "description": "底部横向浅色手绘圆角标签，带灰色双线边框及阴影；内部两行灰色手写中文“我的有趣生活在无聊／的日子里(^o^)”，字样与标签共同构成装饰单元。",
+      "label": "底部横向浅色手绘圆角标签，带灰色双线边框及阴影；内部两行灰色",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "wood_background",
+    "photo_strawberry_plate",
+    "photo_hydrant",
+    "frame_hydrant",
+    "photo_spring_toy",
+    "overlay_strawberry_doodles",
+    "overlay_sparkles",
+    "overlay_left_rings",
+    "overlay_toy_cloud",
+    "overlay_pointer_sparks",
+    "photo_round_art",
+    "overlay_top_cloud",
+    "overlay_title",
+    "overlay_speech_bubble",
+    "overlay_bottom_label"
+  ]
+}

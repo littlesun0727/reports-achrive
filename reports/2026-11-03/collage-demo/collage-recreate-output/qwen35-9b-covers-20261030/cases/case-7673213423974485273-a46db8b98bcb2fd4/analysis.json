@@ -1,0 +1,165 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1601
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1601
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        533
+      ],
+      "description": "顶部照片，展示一位长发女性坐在餐桌前，手持汤勺遮挡面部，桌上摆放着铜锅、炒饭、沙拉和烤肉等食物。",
+      "label": "顶部照片，展示一位长发女性坐在餐桌前，手持汤勺遮挡面部，桌上",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1068,
+        900,
+        1601
+      ],
+      "description": "底部照片，展示一位短发男性坐在餐桌前，手持汤勺遮挡面部，桌上摆放着铜锅、炒饭、沙拉和烤肉等食物。",
+      "label": "底部照片，展示一位短发男性坐在餐桌前，手持汤勺遮挡面部，桌上",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        533,
+        162,
+        720
+      ],
+      "description": "左上角的卡通贴纸，包含一个蓝色小熊和一个白色兔子，旁边有“快乐加载中”的文字。",
+      "label": "左上角的卡通贴纸，包含一个蓝色小熊和一个白色兔子，旁边有“快",
+      "method": "extract"
+    },
+    {
+      "id": "photo_salad",
+      "kind": "photo",
+      "bbox": [
+        162,
+        533,
+        342,
+        720
+      ],
+      "description": "沙拉照片，展示了一盘色彩丰富的沙拉，包含生菜、胡萝卜丝、黄瓜片等。",
+      "label": "沙拉照片，展示了一盘色彩丰富的沙拉，包含生菜、胡萝卜丝、黄瓜",
+      "method": "local"
+    },
+    {
+      "id": "photo_skewers",
+      "kind": "photo",
+      "bbox": [
+        405,
+        533,
+        585,
+        720
+      ],
+      "description": "烤肉串照片，展示了一盘整齐排列的烤肉串。",
+      "label": "烤肉串照片，展示了一盘整齐排列的烤肉串。",
+      "method": "local"
+    },
+    {
+      "id": "photo_fried_rice",
+      "kind": "photo",
+      "bbox": [
+        162,
+        720,
+        342,
+        908
+      ],
+      "description": "炒饭照片，展示了一盘金黄色的炒饭，上面撒有海苔碎。",
+      "label": "炒饭照片，展示了一盘金黄色的炒饭，上面撒有海苔碎。",
+      "method": "local"
+    },
+    {
+      "id": "photo_pot",
+      "kind": "photo",
+      "bbox": [
+        477,
+        720,
+        657,
+        908
+      ],
+      "description": "铜锅照片，展示了一锅热气腾腾的汤锅，上面覆盖着融化的奶酪。",
+      "label": "铜锅照片，展示了一锅热气腾腾的汤锅，上面覆盖着融化的奶酪。",
+      "method": "local"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        90,
+        908,
+        810,
+        1068
+      ],
+      "description": "一起吃饭 | 普通日子里的小浪漫",
+      "label": "一起吃饭 | 普通日子里的小浪漫",
+      "method": "local",
+      "text": "一起吃饭 | 普通日子里的小浪漫",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        533,
+        891,
+        1068
+      ],
+      "description": "右侧的装饰元素，包括叉子、刀、小鱼等手绘图案。",
+      "label": "右侧的装饰元素，包括叉子、刀、小鱼等手绘图案。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_top_left",
+    "photo_salad",
+    "photo_skewers",
+    "photo_fried_rice",
+    "photo_pot",
+    "text_main",
+    "overlay_decorations"
+  ]
+}

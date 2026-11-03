@@ -1,0 +1,313 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "pink_dotted_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "浅粉色底上均匀重复的灰褐色圆点覆盖全画布，沿四边及各独立拼贴之间连续可见；保留底色与圆点图案，独立照片和装饰另行替换或重建。",
+      "background_type": "reference_clean",
+      "label": "浅粉色底上均匀重复的灰褐色圆点覆盖全画布，沿四边及各独立拼贴",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_toast",
+      "kind": "photo",
+      "bbox": [
+        126,
+        85,
+        345,
+        378
+      ],
+      "description": "左上竖向近景照片，一只手拿着涂有红色果酱的吐司，背景可见桌面、瓶罐和屏幕；保留照片内环境，矩形窗口，边缘被白色相纸框遮挡。",
+      "label": "左上竖向近景照片，一只手拿着涂有红色果酱的吐司，背景可见桌面",
+      "method": "local"
+    },
+    {
+      "id": "frame_toast",
+      "kind": "frame",
+      "bbox": [
+        118,
+        76,
+        357,
+        389
+      ],
+      "description": "承载吐司照片的竖向浅色圆角相纸框，带窄灰褐边缘和轻微阴影；完整框体压住照片边缘。",
+      "photo_id": [
+        "photo_toast"
+      ],
+      "label": "承载吐司照片的竖向浅色圆角相纸框，带窄灰褐边缘和轻微阴影；完",
+      "method": "extract"
+    },
+    {
+      "id": "photo_wings",
+      "kind": "photo",
+      "bbox": [
+        294,
+        304,
+        500,
+        574
+      ],
+      "description": "中上部竖向食物照片，纸托中的一份烤鸡翅置于桌面，画面上缘可见冰淇淋容器；保留摄影环境，矩形窗口，边缘被相框遮挡。",
+      "label": "中上部竖向食物照片，纸托中的一份烤鸡翅置于桌面，画面上缘可见",
+      "method": "local"
+    },
+    {
+      "id": "frame_wings",
+      "kind": "frame",
+      "bbox": [
+        287,
+        294,
+        507,
+        584
+      ],
+      "description": "承载鸡翅照片的浅色圆角相纸框，带深灰褐色外边和轻微阴影，右下方阴影清晰可见。",
+      "photo_id": [
+        "photo_wings"
+      ],
+      "label": "承载鸡翅照片的浅色圆角相纸框，带深灰褐色外边和轻微阴影，右下",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_star_sticker",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        47,
+        229,
+        105
+      ],
+      "description": "左上方半透明粉色横向贴纸，含多枚手绘空心星星和小点缀；整体作为一枚固定装饰保留，部分压住吐司相框上沿。",
+      "label": "左上方半透明粉色横向贴纸，含多枚手绘空心星星和小点缀；整体作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_top",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        54,
+        580,
+        91
+      ],
+      "description": "上方偏中的粉色手绘蝴蝶结装饰，边缘呈柔化的粉笔或蜡笔质感。",
+      "label": "上方偏中的粉色手绘蝴蝶结装饰，边缘呈柔化的粉笔或蜡笔质感。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_mid",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        118,
+        434,
+        154
+      ],
+      "description": "吐司照片右侧的粉色手绘蝴蝶结装饰，带柔化颗粒边缘。",
+      "label": "吐司照片右侧的粉色手绘蝴蝶结装饰，带柔化颗粒边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_lower",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        225,
+        536,
+        271
+      ],
+      "description": "中部偏左的粉色手绘蝴蝶结装饰，作为独立固定图案保留。",
+      "label": "中部偏左的粉色手绘蝴蝶结装饰，作为独立固定图案保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_kitchen_backing",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        119,
+        1005,
+        694
+      ],
+      "description": "右上大型浅粉色矩形装饰底板，均布深褐色圆点；承托厨房照片拼贴但不构成照片窗口框体，照片遮住其中部，露出的圆点边缘保留。",
+      "label": "右上大型浅粉色矩形装饰底板，均布深褐色圆点；承托厨房照片拼贴",
+      "method": "extract"
+    },
+    {
+      "id": "photo_kitchen",
+      "kind": "photo",
+      "bbox": [
+        605,
+        156,
+        970,
+        636
+      ],
+      "description": "右上厨房场景照片，长发人物背对镜头俯身操作炉灶，穿白色上衣，手臂向画面右下方伸出；可见锅具、台面和带白色食物涂鸦的黑板。保留摄影环境，照片以不规则斜边轮廓显示，覆盖在圆点底板上。",
+      "label": "右上厨房场景照片，长发人物背对镜头俯身操作炉灶，穿白色上衣，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_label",
+      "kind": "overlay",
+      "bbox": [
+        375,
+        683,
+        558,
+        716
+      ],
+      "description": "中部偏左的粉色横向标签，左侧有小杯子图案，后接韩文“첫사랑맛♡”及百分号；字样与图标共同构成固定标签设计。",
+      "label": "中部偏左的粉色横向标签，左侧有小杯子图案，后接韩文“첫사랑맛",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_scribble_bow",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        442,
+        149,
+        1052
+      ],
+      "description": "画布左侧纵向粉色手绘波浪涂鸦，底端连接一枚粉色蝴蝶结；作为连续的单组固定涂鸦保留。",
+      "label": "画布左侧纵向粉色手绘波浪涂鸦，底端连接一枚粉色蝴蝶结；作为连",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_soup_panel",
+      "kind": "overlay",
+      "bbox": [
+        196,
+        714,
+        523,
+        1274
+      ],
+      "description": "左下白色竖向照片承托面，四周散布黑色圆点，内部与照片边缘相接并露出白色渐隐区域；圆点和白色承托面作为固定整体保留。",
+      "label": "左下白色竖向照片承托面，四周散布黑色圆点，内部与照片边缘相接",
+      "method": "extract"
+    },
+    {
+      "id": "photo_soup",
+      "kind": "photo",
+      "bbox": [
+        199,
+        716,
+        521,
+        1272
+      ],
+      "description": "左下竖向俯拍照片，托盘上的粉边碗盛有谷物饮品，旁有汤匙和饮料容器；上方可见屏幕与桌面，下缘露出衣物。摄影画面向边缘柔和淡入白色，环境仍可见，显示范围与白色圆点承托面基本重合。",
+      "label": "左下竖向俯拍照片，托盘上的粉边碗盛有谷物饮品，旁有汤匙和饮料",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_small",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        1191,
+        172,
+        1271
+      ],
+      "description": "左下区域的小型粉色五角星贴纸，内部有细密深色圆点图案，保留完整星形轮廓。",
+      "label": "左下区域的小型粉色五角星贴纸，内部有细密深色圆点图案，保留完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_large",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        1232,
+        284,
+        1380
+      ],
+      "description": "左下大型粉色五角星贴纸，内部印有深褐色圆点，完整星形作为独立固定装饰保留。",
+      "label": "左下大型粉色五角星贴纸，内部印有深褐色圆点，完整星形作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sandwich_panel",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        777,
+        1080,
+        1184
+      ],
+      "description": "右下横向白色矩形装饰底板，铺有重复的浅灰蓝与淡粉色五角星；底板承托心形照片，图案在照片周围及画布右缘继续可见。",
+      "label": "右下横向白色矩形装饰底板，铺有重复的浅灰蓝与淡粉色五角星；底",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sandwich",
+      "kind": "photo",
+      "bbox": [
+        625,
+        831,
+        1018,
+        1175
+      ],
+      "description": "右下心形窗口中的三明治近景，夹有火腿、蔬菜和融化的黄色馅料，背景仍在心形内部局部可见；照片沿心形轮廓显示，外缘附有粉色手绘不规则描边，描边依附于照片轮廓。",
+      "label": "右下心形窗口中的三明治近景，夹有火腿、蔬菜和融化的黄色馅料，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_handwritten_face",
+      "kind": "overlay",
+      "bbox": [
+        566,
+        1201,
+        812,
+        1253
+      ],
+      "description": "右下方白底上的黑色手绘表情符号，由弯曲线条、尖括号形笔画和小圆点组成；保留原有手写造型，不拆分为普通文字。",
+      "label": "右下方白底上的黑色手绘表情符号，由弯曲线条、尖括号形笔画和小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rose_tape",
+      "kind": "overlay",
+      "bbox": [
+        966,
+        1180,
+        1035,
+        1391
+      ],
+      "description": "画布右下边缘的一列粉色横条装饰，间隔排列三枚白色旋涡花朵图案；作为一组竖向贴纸保留。",
+      "label": "画布右下边缘的一列粉色横条装饰，间隔排列三枚白色旋涡花朵图案",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "pink_dotted_base",
+    "photo_toast",
+    "frame_toast",
+    "photo_wings",
+    "frame_wings",
+    "overlay_top_star_sticker",
+    "overlay_bow_top",
+    "overlay_bow_mid",
+    "overlay_bow_lower",
+    "overlay_kitchen_backing",
+    "photo_kitchen",
+    "overlay_label",
+    "overlay_left_scribble_bow",
+    "overlay_soup_panel",
+    "photo_soup",
+    "overlay_star_small",
+    "overlay_star_large",
+    "overlay_sandwich_panel",
+    "photo_sandwich",
+    "overlay_handwritten_face",
+    "overlay_rose_tape"
+  ]
+}

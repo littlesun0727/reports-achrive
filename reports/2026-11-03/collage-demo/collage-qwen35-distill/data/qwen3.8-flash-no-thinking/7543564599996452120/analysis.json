@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        389
+      ],
+      "description": "顶部横向照片，一名戴白色棒球帽的长发女子在咖啡店柜台前，背景可见咖啡机、杯架和植物。画面中叠加了若干白色星星装饰。",
+      "label": "顶部横向照片，一名戴白色棒球帽的长发女子在咖啡店柜台前，背景",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        389,
+        900,
+        779
+      ],
+      "description": "中部横向照片，一名长发女子坐在餐厅内微笑，背景有菜单海报和桌椅。画面中叠加了若干白色星星装饰。",
+      "label": "中部横向照片，一名长发女子坐在餐厅内微笑，背景有菜单海报和桌",
+      "method": "local"
+    },
+    {
+      "id": "text_english",
+      "kind": "text",
+      "bbox": [
+        133,
+        587,
+        767,
+        653
+      ],
+      "description": "THE SUCCESS TURNS ON OUR EFFORT.\nOUR EFFORTS WERE DIRECTED TOWARDS THE ACCOMPLISHMENT OF THE WORK.\nEXERT ONESELF TO ACCOMPLISH ONE'S ASSIGNMENT.",
+      "label": "THE SUCCESS TURNS ON OUR EFFOR",
+      "method": "local",
+      "text": "THE SUCCESS TURNS ON OUR EFFORT.\nOUR EFFORTS WERE DIRECTED TOWARDS THE ACCOMPLISHMENT OF THE WORK.\nEXERT ONESELF TO ACCOMPLISH ONE'S ASSIGNMENT.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        779,
+        900,
+        1198
+      ],
+      "description": "底部横向照片，一名戴白色棒球帽的女子手托下巴，手持相机，背景为咖啡店环境。画面中叠加了若干白色星星装饰。",
+      "label": "底部横向照片，一名戴白色棒球帽的女子手托下巴，手持相机，背景",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "text_english",
+    "photo_bottom"
+  ]
+}

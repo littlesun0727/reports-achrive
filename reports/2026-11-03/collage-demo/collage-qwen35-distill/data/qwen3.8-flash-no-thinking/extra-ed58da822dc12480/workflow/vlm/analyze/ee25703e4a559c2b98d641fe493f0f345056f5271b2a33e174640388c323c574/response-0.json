@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-bd885831-ccc1-9669-9eb1-ab300b080d9b",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7923,
+    "total_tokens": 8310,
+    "completion_tokens": 387,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 2042,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 387
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        333\n      ],\n      \"description\": \"顶部横向海景照片，画面包含天空、海面和礁石。底部中央印有白色相机水印文字“DJI OSMO POCKET 4P”，该文字属于摄影内容随照片替换。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        333,\n        1000,\n        667\n      ],\n      \"description\": \"中部横向海滨城市风景照片，画面包含黄昏天空、远处建筑群、海岸线及沙滩上的人物。底部中央印有白色相机水印文字“DJI OSMO POCKET 4P”，该文字属于摄影内容随照片替换。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        667,\n        1000,\n        1000\n      ],\n      \"description\": \"底部横向岩石海岸照片，画面包含海浪拍打岸边的礁石。底部中央印有白色相机水印文字“DJI OSMO POCKET 4P”，该文字属于摄影内容随照片替换。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_mid\",\n    \"photo_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

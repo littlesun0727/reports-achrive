@@ -1,0 +1,231 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        1920
+      ],
+      "description": "一张连续的蓝色海洋摄影画面承载全画布，波浪纹理和颜色从画布边缘连续延伸至四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续的蓝色海洋摄影画面承载全画布，波浪纹理和颜色从画布边",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        144,
+        134,
+        763,
+        557
+      ],
+      "description": "左上角矩形照片，人物站在悬崖边，双臂张开，保留摄影环境，窗口边缘清晰。",
+      "label": "左上角矩形照片，人物站在悬崖边，双臂张开，保留摄影环境，窗口",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        403,
+        672,
+        1037,
+        1152
+      ],
+      "description": "中间矩形照片，俯拍两人在清澈海水中游泳，保留摄影环境，窗口边缘清晰。",
+      "label": "中间矩形照片，俯拍两人在清澈海水中游泳，保留摄影环境，窗口边",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        691,
+        1267,
+        1325,
+        1728
+      ],
+      "description": "右下角矩形照片，人物站在海边植物旁，保留摄影环境，窗口边缘清晰。",
+      "label": "右下角矩形照片，人物站在海边植物旁，保留摄影环境，窗口边缘清",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        77,
+        202,
+        230
+      ],
+      "description": "左上角三个星形贴纸，包含黑色和棕色星星，作为独立装饰保留。",
+      "label": "左上角三个星形贴纸，包含黑色和棕色星星，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        202,
+        422,
+        403,
+        672
+      ],
+      "description": "粉色星星和圆点装饰线条，从左上角照片延伸至中间照片，作为独立装饰保留。",
+      "label": "粉色星星和圆点装饰线条，从左上角照片延伸至中间照片，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        634,
+        634,
+        749,
+        730
+      ],
+      "description": "中间照片上方的蓝白格子贴纸，作为独立装饰保留。",
+      "label": "中间照片上方的蓝白格子贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        1152,
+        1056,
+        1325,
+        1190
+      ],
+      "description": "右下角的小鱼贴纸，作为独立装饰保留。",
+      "label": "右下角的小鱼贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        547,
+        1210,
+        691,
+        1382
+      ],
+      "description": "左下角的棕榈树贴纸，作为独立装饰保留。",
+      "label": "左下角的棕榈树贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        792,
+        211,
+        1325,
+        518
+      ],
+      "description": "When we arrived at the southernmost tip of the African continent, Cape Town was right in front of us an unforgettable journey.",
+      "label": "When we arrived at the souther",
+      "method": "local",
+      "text": "When we arrived at the southernmost tip of the African continent, Cape Town was right in front of us an unforgettable journey.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        144,
+        1440,
+        576,
+        1670
+      ],
+      "description": "Summer is a blue sea\na free breeze\na passionate and romantic season",
+      "label": "Summer is a blue sea\na free br",
+      "method": "local",
+      "text": "Summer is a blue sea\na free breeze\na passionate and romantic season",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        1080,
+        1594,
+        1325,
+        1670
+      ],
+      "description": "Emergency Entrance\nNo Parking Between Yellow Lines",
+      "label": "Emergency Entrance\nNo Parking ",
+      "method": "local",
+      "text": "Emergency Entrance\nNo Parking Between Yellow Lines",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        1152,
+        1766,
+        1325,
+        1843
+      ],
+      "description": "小红书号：yes854994023",
+      "label": "小红书号：yes854994023",
+      "method": "local",
+      "text": "小红书号：yes854994023",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内生活场景摄影底图，包含人物、桌面、食物、玩偶及窗外夜景，画面连续延伸至画布四边；上层心形、星形照片窗口及文字装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内生活场景摄影底图，包含人物、桌面、食物、玩偶及窗外夜景，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        378,
+        120,
+        702,
+        540
+      ],
+      "description": "心形照片窗口，保留人物、玩偶、桌面及窗外夜景，窗口边缘清晰，无描边或渐隐。",
+      "label": "心形照片窗口，保留人物、玩偶、桌面及窗外夜景，窗口边缘清晰，",
+      "method": "local"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        90,
+        600,
+        414,
+        1020
+      ],
+      "description": "星形照片窗口，保留桌面食物、平板及玩偶，窗口边缘清晰，无描边或渐隐。",
+      "label": "星形照片窗口，保留桌面食物、平板及玩偶，窗口边缘清晰，无描边",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        90,
+        144,
+        360,
+        504
+      ],
+      "description": "我从此感到幸福\n轻易 松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬芳淡淡的 却萦绕不去\n我的幸福\n只需要我伸出于享心",
+      "label": "我从此感到幸福\n轻易 松脆的幸福\n如同围炉火烤\n你伸手揉碎了",
+      "method": "local",
+      "text": "我从此感到幸福\n轻易 松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬芳淡淡的 却萦绕不去\n我的幸福\n只需要我伸出于享心",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        495,
+        624,
+        765,
+        984
+      ],
+      "description": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "label": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要",
+      "method": "local",
+      "text": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        420,
+        765,
+        540
+      ],
+      "description": "兔子表情贴纸，包含耳朵、眼睛和括号，作为独立装饰保留。",
+      "label": "兔子表情贴纸，包含耳朵、眼睛和括号，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        48,
+        765,
+        120
+      ],
+      "description": "星星、音符、月亮、爱心和花朵组成的装饰图案，作为独立装饰保留。",
+      "label": "星星、音符、月亮、爱心和花朵组成的装饰图案，作为独立装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        1020,
+        360,
+        1080
+      ],
+      "description": "五个五角星组成的装饰图案，作为独立装饰保留。",
+      "label": "五个五角星组成的装饰图案，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        540,
+        450,
+        600
+      ],
+      "description": "蝴蝶结装饰，作为独立装饰保留。",
+      "label": "蝴蝶结装饰，作为独立装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_heart",
+    "photo_star",
+    "text_1",
+    "text_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

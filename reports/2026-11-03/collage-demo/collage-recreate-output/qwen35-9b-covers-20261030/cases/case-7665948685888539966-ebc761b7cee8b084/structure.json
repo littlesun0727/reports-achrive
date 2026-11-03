@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内环境摄影底图，背景为模糊的米色墙面与深色家具轮廓，画面边缘可见清晰的室内光影与景深效果，作为全画布底图承载所有独立对象。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        85,
+        180,
+        580,
+        520
+      ],
+      "description": "左上角心形照片窗口，包含芝士热狗、煎蛋、虾仁和水果碗，保留摄影环境，窗口边缘有白色描边。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        420,
+        330,
+        880,
+        600
+      ],
+      "description": "右侧黑色盘子照片，包含贝果三明治、芦笋、蓝莓、蘑菇和芝士焗饭，保留摄影环境，窗口边缘有白色描边。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        50,
+        460,
+        500,
+        740
+      ],
+      "description": "左下角圆形照片窗口，包含虾仁吐司、草莓、蓝莓、煎蛋和酸奶杯，保留摄影环境，窗口边缘有白色虚线描边。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        380,
+        600,
+        880,
+        900
+      ],
+      "description": "右下角猫形照片窗口，包含猫形饭团、蛋包饭和配菜，保留摄影环境，窗口边缘有白色描边。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        330,
+        50,
+        700,
+        220
+      ],
+      "description": "顶部白色手绘风格感叹号装饰，包含三个感叹号和星星，线条简洁，无填充。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        180,
+        900,
+        350
+      ],
+      "description": "右侧白色手绘风格叉子装饰，线条简洁，无填充。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        50,
+        800,
+        400,
+        920
+      ],
+      "text": "Yummy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        850,
+        950,
+        950
+      ],
+      "description": "右下角白色手绘风格星星装饰，线条简洁，无填充。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "overlay_3"
+  ]
+}

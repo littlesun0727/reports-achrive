@@ -1,0 +1,176 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "黄昏时分的城市街景，天空呈深蓝色，路灯亮起。画面中有一辆红色的出租车正在行驶，背景是亮着灯的店铺和建筑。整个场景连续延伸至画布边缘，作为全画布底图承载所有上层元素。",
+      "background_type": "photo",
+      "label": "黄昏时分的城市街景，天空呈深蓝色，路灯亮起。画面中有一辆红色",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        277,
+        240,
+        698,
+        707
+      ],
+      "description": "一张矩形照片，展示了夜晚的街景，包含一家名为'HONG KONG'的店铺招牌和一辆红色的出租车。照片边缘有手绘风格的白色描边。",
+      "label": "一张矩形照片，展示了夜晚的街景，包含一家名为'HONG KO",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        65,
+        733,
+        410,
+        982
+      ],
+      "description": "一张矩形照片，展示了带有涂鸦的白色卷帘门，上面有向日葵图案和'Matin Kim'等字样。照片边缘有手绘风格的白色描边。",
+      "label": "一张矩形照片，展示了带有涂鸦的白色卷帘门，上面有向日葵图案和",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        450,
+        835,
+        842,
+        1326
+      ],
+      "description": "一张矩形照片，展示了一碗抹茶和奶油甜点，旁边有一个猫头鹰造型的摆件。照片边缘有手绘风格的白色描边。",
+      "label": "一张矩形照片，展示了一碗抹茶和奶油甜点，旁边有一个猫头鹰造型",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        192,
+        198,
+        448
+      ],
+      "description": "一个手绘风格的对话气泡，内部包含文字'The beginning of my trip'。",
+      "label": "一个手绘风格的对话气泡，内部包含文字'The beginni",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        464,
+        198,
+        592
+      ],
+      "description": "一个手绘风格的猫头简笔画。",
+      "label": "一个手绘风格的猫头简笔画。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        632,
+        846,
+        696
+      ],
+      "description": "一个手绘风格的小汽车简笔画，旁边有速度线。",
+      "label": "一个手绘风格的小汽车简笔画，旁边有速度线。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        126,
+        1096,
+        405,
+        1400
+      ],
+      "description": "It's a lovely thing to know a place well enough that you know when the sun will be there",
+      "label": "It's a lovely thing to know a ",
+      "method": "local",
+      "text": "It's a lovely thing to know a place well enough that you know when the sun will be there",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        464,
+        749,
+        666,
+        787
+      ],
+      "description": "一个带有模糊文字的灰色矩形标签。",
+      "label": "一个带有模糊文字的灰色矩形标签。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        808,
+        666,
+        832
+      ],
+      "description": "一个带有模糊文字的深灰色矩形标签。",
+      "label": "一个带有模糊文字的深灰色矩形标签。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        634,
+        840,
+        688,
+        872
+      ],
+      "description": "一个带有模糊文字的灰色小矩形标签。",
+      "label": "一个带有模糊文字的灰色小矩形标签。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6"
+  ]
+}

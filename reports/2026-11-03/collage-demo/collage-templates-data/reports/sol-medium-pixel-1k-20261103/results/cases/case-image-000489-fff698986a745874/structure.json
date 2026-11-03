@@ -1,0 +1,228 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_blurred_base",
+    "description": "一张连续的室内摄影画面经明显虚化后铺满画布，边缘及照片之间的空隙均延续同一灰白上部、深棕下部的场景色调；两张清晰人物照片和文字装饰遮挡局部。替换时保留完整环境摄影范围，不将其拆成固定底色。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait_upper",
+      "kind": "photo",
+      "bbox": [
+        125,
+        149,
+        526,
+        680
+      ],
+      "description": "左上竖幅人物照片：一名年轻男子近景站在室内，身体朝向镜头、略侧身，穿浅棕格纹衬衫和领带并背着黑色背包；木格窗、墙面及周围人群留在摄影画面内。矩形照片窗口，右侧与周围文字装饰相邻。"
+    },
+    {
+      "id": "photo_portrait_lower",
+      "kind": "photo",
+      "bbox": [
+        532,
+        717,
+        933,
+        1248
+      ],
+      "description": "右下竖幅人物照片：同一年轻男子在室内的侧向近景，穿浅棕格纹衬衫和领带、背黑色背包，身后可见木格窗及其他人物；与上方照片取景和姿态不同，保留完整摄影环境，矩形照片窗口。"
+    },
+    {
+      "id": "frame_portrait_upper",
+      "kind": "frame",
+      "bbox": [
+        91,
+        119,
+        402,
+        338
+      ],
+      "description": "上方照片后方可见的半透明浅灰方形承托板，部分被照片遮住；保留其淡色半透明外观，不承担照片窗口功能以外的额外装饰。",
+      "photo_id": [
+        "photo_portrait_upper"
+      ]
+    },
+    {
+      "id": "frame_portrait_lower",
+      "kind": "frame",
+      "bbox": [
+        644,
+        972,
+        954,
+        1284
+      ],
+      "description": "下方照片后方偏右下露出的半透明灰色方形承托板，边缘被照片遮挡；作为照片载体保留。",
+      "photo_id": [
+        "photo_portrait_lower"
+      ]
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        94,
+        86,
+        288,
+        113
+      ],
+      "text": "Summer gifts",
+      "color": "#D8D7D2",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "overlay_quote_upper",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        183,
+        879,
+        701
+      ],
+      "description": "右上白色手写风格的多行英文装饰字样，内容为“Wish you could / Go where / you want to go. / Once you / arrive, you / will be happy / Forever.”；包含字词的原有错落排布、穿插小星形笔画及末尾横线，作为整体固定字样保留。"
+    },
+    {
+      "id": "overlay_quote_lower",
+      "kind": "overlay",
+      "bbox": [
+        123,
+        788,
+        467,
+        1214
+      ],
+      "description": "左下白色手写风格英文装饰字样，分散排成多行，内容为“I have walked / through mountains and / rivers, in fact, / knowledge / has walked / through / my life with / them.”；包含原有下划线、划改笔迹及底部箭头线，整体作为固定文字设计保留。"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        279,
+        77,
+        303
+      ],
+      "description": "左上区域一枚浅灰白色圆点装饰。"
+    },
+    {
+      "id": "overlay_star_left_photo",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        428,
+        128,
+        462
+      ],
+      "description": "上方照片左侧的一枚浅灰白色手绘星形装饰，部分贴近照片边缘。"
+    },
+    {
+      "id": "overlay_star_quote_top",
+      "kind": "overlay",
+      "bbox": [
+        541,
+        210,
+        578,
+        247
+      ],
+      "description": "上方手写文字左侧的一枚浅灰白色星形装饰。"
+    },
+    {
+      "id": "overlay_star_quote_middle",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        322,
+        806,
+        354
+      ],
+      "description": "上方手写文字中部附近的一枚浅灰白色星形装饰。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        943,
+        484,
+        982,
+        520
+      ],
+      "description": "画面右侧中上部的一枚浅灰白色星形装饰。"
+    },
+    {
+      "id": "overlay_star_quote_bottom",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        663,
+        665,
+        705
+      ],
+      "description": "上方文字横线下方、两张照片之间的一枚浅灰白色星形装饰。"
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        737,
+        139,
+        778
+      ],
+      "description": "左侧中部、下方手写字样上方的一枚浅灰白色星形装饰。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        1157,
+        165,
+        1196
+      ],
+      "description": "左下手写字样旁的一枚浅灰白色星形装饰。"
+    },
+    {
+      "id": "overlay_doodle_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        1121,
+        973,
+        1329
+      ],
+      "description": "下方照片右下方及其后方的浅灰手绘装饰组合，包含圆形轮廓、斜线及散布的小圆点；部分被照片或画布边缘遮挡，作为一组固定涂鸦保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1405,
+        1070,
+        1424
+      ],
+      "description": "右下角贴近画布边缘的小型浅色平台水印标记，整体保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_portrait_upper",
+    "frame_portrait_lower",
+    "photo_portrait_upper",
+    "photo_portrait_lower",
+    "text_title",
+    "overlay_quote_upper",
+    "overlay_quote_lower",
+    "overlay_star_upper_left",
+    "overlay_star_left_photo",
+    "overlay_star_quote_top",
+    "overlay_star_quote_middle",
+    "overlay_star_right",
+    "overlay_star_quote_bottom",
+    "overlay_star_left_lower",
+    "overlay_star_lower_left",
+    "overlay_doodle_lower_right",
+    "overlay_watermark"
+  ]
+}

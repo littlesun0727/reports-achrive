@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        345
+      ],
+      "description": "顶部横向风景照片，展示海岛、沙滩及在海中游泳的人群。下边缘呈不规则波浪状，覆盖在中间人物照片的天空区域之上。"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        0,
+        280,
+        1000,
+        760
+      ],
+      "description": "中间竖向人像照片，主体为戴草帽穿蓝衣的女子站在海水中。上边缘被顶部照片遮挡，下边缘呈不规则波浪状，覆盖在底部前景照片的海面之上。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        650,
+        1000,
+        1000
+      ],
+      "description": "底部特写照片，前景为一杯模糊的黄色饮料，背景为海滩和戏水者。上边缘呈不规则波浪状，位于图层最上方，遮挡了中间照片的下半部分。"
+    }
+  ],
+  "layer_order": [
+    "photo_mid",
+    "photo_top",
+    "photo_bottom"
+  ]
+}

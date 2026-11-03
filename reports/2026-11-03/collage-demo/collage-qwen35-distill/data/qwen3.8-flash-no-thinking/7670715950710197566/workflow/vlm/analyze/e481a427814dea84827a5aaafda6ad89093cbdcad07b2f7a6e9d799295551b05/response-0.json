@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-c7907c35-8f68-9212-8aed-c382e5255856",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7856,
+    "completion_tokens": 909,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 909
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"全画布连续摄影底图，包含上方蓝天、中景深色栅栏和下方草地。画面整体呈现柔焦效果，散布着彩色光斑气泡，作为所有独立照片和装饰的底层背景。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_person\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        231,\n        80,\n        556,\n        400\n      ],\n      \"description\": \"竖向矩形照片窗口，显示一名身穿深蓝色无袖上衣的女子低头看路，背景有树木和告示牌。边缘带有白色手绘风格的不规则描边。\"\n    },\n    {\n      \"id\": \"text_weather\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        592,\n        147,\n        806,\n        195\n      ],\n      \"text\": \"好天气！\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_heart\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        753,\n        250,\n        838,\n        375\n      ],\n      \"description\": \"青色手绘爱心图案，内部填充白色波点，位于右侧栅栏背景上。\"\n    },\n    {\n      \"id\": \"photo_cat\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        519,\n        307,\n        781,\n        500\n      ],\n      \"description\": \"横向矩形照片窗口，显示一只橘猫在灰色砖石路面上行走。边缘带有白色手绘风格的不规则描边。\"\n    },\n    {\n      \"id\": \"photo_trees\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        118,\n        368,\n        404,\n        660\n      ],\n      \"description\": \"竖向矩形照片窗口，透过绿树丛拍摄街道，可见一辆蓝绿色巴士。边缘带有白色手绘风格的不规则描边。\"\n    },\n    {\n      \"id\": \"overlay_bubbles_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        20,\n        285,\n        150,\n        545\n      ],\n      \"description\": \"左侧垂直排列的白色手绘圆圈线条，形似一串气泡，叠加在背景和部分照片边缘上。\"\n    },\n    {\n      \"id\": \"overlay_tag\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        656,\n        532,\n        830,\n        600\n      ],\n      \"description\": \"棕色长方形吊牌，表面有白色波点纹理，底部系有白色蝴蝶结丝带，丝带向下延伸很长一段距离。\"\n    },\n    {\n      \"id\": \"photo_bottom_person\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        310,\n        562,\n        775,\n        835\n      ],\n      \"description\": \"横向矩形照片窗口，显示同一名女子站在树荫下看向镜头，肩背白色帆布包。边缘带有白色手绘风格的不规则描边。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_person\",\n    \"text_weather\",\n    \"overlay_heart\",\n    \"photo_cat\",\n    \"photo_trees\",\n    \"overlay_bubbles_left\",\n    \"overlay_tag\",\n    \"photo_bottom_person\"\n  ]\n}",
+  "tool_calls": false
+}

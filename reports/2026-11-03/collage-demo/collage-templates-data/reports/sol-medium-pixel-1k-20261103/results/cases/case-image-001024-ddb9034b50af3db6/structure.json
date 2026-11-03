@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "patterned_background",
+    "description": "暖棕色底面铺满画布，带有均匀散布的浅色不规则小花点纹样；边缘及照片之间均可见连续同款图案。保留底面与纹样，独立照片和贴纸按各自范围处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        532,
+        540,
+        1080,
+        958
+      ],
+      "description": "右上偏中的横向近景照片：一只手握着透明塑料杯，杯中有冰饮和吸管，背景为室内地面。保留完整矩形摄影画面，照片延伸至画布右边缘，下缘与下方照片区域相接。"
+    },
+    {
+      "id": "photo_portrait_blur",
+      "kind": "photo",
+      "bbox": [
+        0,
+        942,
+        834,
+        1616
+      ],
+      "description": "画面中下部的横向柔焦摄影区域，可见与前方清晰人像相近的暖色室内人物与环境，细节无法辨清。完整显示范围为矩形，左缘及上下缘延伸至画布边缘或与背景相接；前方清晰人像遮住其中央部分。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        58,
+        1033,
+        711,
+        1525
+      ],
+      "description": "中下部横向室内自拍：一名女性半身近景，头发挽起，侧脸朝左，一只手贴在脸颊上；室内墙面与柜体保留在矩形照片内。照片位于柔焦人物画面上方，边缘清晰。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        1002,
+        195,
+        1155
+      ],
+      "description": "贴在清晰人像照片左上方的浅色撕边纸胶带，呈斜向长条并带有折痕与阴影，整体作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_speech_doodle",
+      "kind": "overlay",
+      "bbox": [
+        880,
+        415,
+        1080,
+        520
+      ],
+      "description": "右上方白色手绘不规则对话框线条，带有向左下伸出的尾部，内部有斜体手写字样“Feel So Good!”；文字与边框共同构成一体装饰。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait_blur",
+    "photo_drink",
+    "photo_portrait",
+    "overlay_tape",
+    "overlay_speech_doodle"
+  ]
+}

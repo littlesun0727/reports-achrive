@@ -1,0 +1,129 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "米色牛皮纸纹理底图，模拟笔记本内页，左侧有金属螺旋装订孔。保留纸张材质和装订结构，作为固定底图。",
+      "background_type": "reference_clean",
+      "label": "米色牛皮纸纹理底图，模拟笔记本内页，左侧有金属螺旋装订孔。保",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        234,
+        162,
+        612,
+        522
+      ],
+      "description": "圆形撕边照片，展示麻辣小龙虾，保留摄影环境，边缘有白色不规则撕纸效果。",
+      "label": "圆形撕边照片，展示麻辣小龙虾，保留摄影环境，边缘有白色不规则",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        486,
+        396,
+        738,
+        666
+      ],
+      "description": "圆形撕边照片，展示十三香小龙虾，保留摄影环境，边缘有白色不规则撕纸效果。",
+      "label": "圆形撕边照片，展示十三香小龙虾，保留摄影环境，边缘有白色不规",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        261,
+        450,
+        423,
+        702
+      ],
+      "description": "不规则撕边照片，展示一罐泉城奶啤，保留摄影环境，边缘有白色不规则撕纸效果。",
+      "label": "不规则撕边照片，展示一罐泉城奶啤，保留摄影环境，边缘有白色不",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        162,
+        720,
+        252
+      ],
+      "description": "手绘风格的白色线条面包袋图标，内部有 Bread 字样，作为装饰贴纸。",
+      "label": "手绘风格的白色线条面包袋图标，内部有 Bread 字样，作为",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        549,
+        360,
+        693,
+        396
+      ],
+      "description": "麻辣小龙虾",
+      "label": "麻辣小龙虾",
+      "method": "local",
+      "text": "麻辣小龙虾",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        522,
+        639,
+        648,
+        675
+      ],
+      "description": "十三香小龙虾",
+      "label": "十三香小龙虾",
+      "method": "local",
+      "text": "十三香小龙虾",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "text_1",
+    "text_2"
+  ]
+}

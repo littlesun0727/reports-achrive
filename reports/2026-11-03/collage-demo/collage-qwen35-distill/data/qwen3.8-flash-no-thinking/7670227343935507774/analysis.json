@@ -1,0 +1,376 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布摄影底图，展示一名身穿浅色长裙的女子在草原上奔跑的背影，周围有牛群和远处的房屋、树林。该场景延伸至画布四边，作为所有上层元素的背景。",
+      "background_type": "photo",
+      "label": "全画布摄影底图，展示一名身穿浅色长裙的女子在草原上奔跑的背影",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_title_bg",
+      "kind": "overlay",
+      "bbox": [
+        248,
+        46,
+        598,
+        144
+      ],
+      "description": "位于顶部中央的米色撕纸效果矩形底板，边缘不规则，承载标题文字。",
+      "label": "位于顶部中央的米色撕纸效果矩形底板，边缘不规则，承载标题文字",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        261,
+        66,
+        549,
+        126
+      ],
+      "description": "那拉提plog",
+      "label": "那拉提plog",
+      "method": "local",
+      "text": "那拉提plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#2C2C2C",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_tape_left",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        120,
+        126,
+        174
+      ],
+      "description": "左上角的波点图案胶带装饰，倾斜粘贴。",
+      "label": "左上角的波点图案胶带装饰，倾斜粘贴。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_photo_1",
+      "kind": "frame",
+      "bbox": [
+        79,
+        144,
+        302,
+        438
+      ],
+      "description": "左侧照片的白色边框，包裹着人物特写照片。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "左侧照片的白色边框，包裹着人物特写照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        81,
+        146,
+        300,
+        436
+      ],
+      "description": "左侧照片内容：女子手托下巴的特写，背景为草地和远山。",
+      "label": "左侧照片内容：女子手托下巴的特写，背景为草地和远山。",
+      "method": "local"
+    },
+    {
+      "id": "deco_bracket_l1",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        234,
+        86,
+        342
+      ],
+      "description": "左侧照片左边的黄色弧形括号装饰。",
+      "label": "左侧照片左边的黄色弧形括号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_bracket_r1",
+      "kind": "overlay",
+      "bbox": [
+        297,
+        234,
+        328,
+        342
+      ],
+      "description": "左侧照片右边的黄色弧形括号装饰。",
+      "label": "左侧照片右边的黄色弧形括号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_photo_2",
+      "kind": "frame",
+      "bbox": [
+        374,
+        204,
+        580,
+        474
+      ],
+      "description": "中间照片的白色边框，包裹着人物特写照片。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "中间照片的白色边框，包裹着人物特写照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        375,
+        206,
+        579,
+        472
+      ],
+      "description": "中间照片内容：女子侧身特写，背景为天空和树木。",
+      "label": "中间照片内容：女子侧身特写，背景为天空和树木。",
+      "method": "local"
+    },
+    {
+      "id": "deco_bracket_l2",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        312,
+        378,
+        384
+      ],
+      "description": "中间照片左边的黄色弧形括号装饰。",
+      "label": "中间照片左边的黄色弧形括号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_bracket_r2",
+      "kind": "overlay",
+      "bbox": [
+        572,
+        312,
+        603,
+        384
+      ],
+      "description": "中间照片右边的黄色弧形括号装饰。",
+      "label": "中间照片右边的黄色弧形括号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_photo_3",
+      "kind": "frame",
+      "bbox": [
+        630,
+        60,
+        842,
+        336
+      ],
+      "description": "右侧照片的白色边框，包裹着全身照。",
+      "photo_id": [
+        "photo_3"
+      ],
+      "label": "右侧照片的白色边框，包裹着全身照。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        632,
+        62,
+        840,
+        334
+      ],
+      "description": "右侧照片内容：女子站在草地上的全身照，背景为雪山和松树。",
+      "label": "右侧照片内容：女子站在草地上的全身照，背景为雪山和松树。",
+      "method": "local"
+    },
+    {
+      "id": "deco_bracket_l3",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        156,
+        634,
+        228
+      ],
+      "description": "右侧照片左边的黄色弧形括号装饰。",
+      "label": "右侧照片左边的黄色弧形括号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_bracket_r3",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        156,
+        868,
+        228
+      ],
+      "description": "右侧照片右边的黄色弧形括号装饰。",
+      "label": "右侧照片右边的黄色弧形括号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_right",
+      "kind": "overlay",
+      "bbox": [
+        616,
+        234,
+        662,
+        354
+      ],
+      "description": "右侧照片左下角的半透明网格胶带装饰。",
+      "label": "右侧照片左下角的半透明网格胶带装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_heart",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        426,
+        612,
+        510
+      ],
+      "description": "中间照片右下角的心形轮廓装饰，带有网点填充效果。",
+      "label": "中间照片右下角的心形轮廓装饰，带有网点填充效果。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        612,
+        234,
+        708
+      ],
+      "description": "左侧中部的白色线条蝴蝶涂鸦。",
+      "label": "左侧中部的白色线条蝴蝶涂鸦。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_flower",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        708,
+        162,
+        792
+      ],
+      "description": "左侧下部的白色线条花朵涂鸦。",
+      "label": "左侧下部的白色线条花朵涂鸦。",
+      "method": "extract"
+    },
+    {
+      "id": "text_august",
+      "kind": "text",
+      "bbox": [
+        531,
+        666,
+        752,
+        720
+      ],
+      "description": "AUGUST",
+      "label": "AUGUST",
+      "method": "local",
+      "text": "AUGUST",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "deco_puzzle",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        660,
+        819,
+        726
+      ],
+      "description": "文字右侧的绿色拼图块装饰。",
+      "label": "文字右侧的绿色拼图块装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_clover_1",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        876,
+        702,
+        1020
+      ],
+      "description": "右下方的白色线条三叶草涂鸦。",
+      "label": "右下方的白色线条三叶草涂鸦。",
+      "method": "extract"
+    },
+    {
+      "id": "deco_clover_2",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        996,
+        819,
+        1116
+      ],
+      "description": "最右下角的白色线条三叶草涂鸦。",
+      "label": "最右下角的白色线条三叶草涂鸦。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_title_bg",
+    "text_title",
+    "overlay_tape_left",
+    "frame_photo_1",
+    "photo_1",
+    "deco_bracket_l1",
+    "deco_bracket_r1",
+    "frame_photo_2",
+    "photo_2",
+    "deco_bracket_l2",
+    "deco_bracket_r2",
+    "frame_photo_3",
+    "photo_3",
+    "deco_bracket_l3",
+    "deco_bracket_r3",
+    "overlay_tape_right",
+    "deco_heart",
+    "deco_butterfly",
+    "deco_flower",
+    "text_august",
+    "deco_puzzle",
+    "deco_clover_1",
+    "deco_clover_2"
+  ]
+}

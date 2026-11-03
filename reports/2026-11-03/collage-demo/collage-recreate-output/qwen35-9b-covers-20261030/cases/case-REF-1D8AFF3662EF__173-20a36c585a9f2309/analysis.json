@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "街道场景摄影底图，包含蓝天、电线、棕榈树、建筑、路面及远处车辆，边缘露出的场景连续延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "街道场景摄影底图，包含蓝天、电线、棕榈树、建筑、路面及远处车",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        95,
+        220,
+        445,
+        700
+      ],
+      "description": "左上角矩形照片，人物站在街道旁，背景有棕榈树和建筑，保留摄影环境，四边清晰。",
+      "label": "左上角矩形照片，人物站在街道旁，背景有棕榈树和建筑，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        635,
+        480,
+        1020,
+        1004
+      ],
+      "description": "右侧矩形照片，人物站在街道旁，背景有棕榈树和建筑，保留摄影环境，四边清晰。",
+      "label": "右侧矩形照片，人物站在街道旁，背景有棕榈树和建筑，保留摄影环",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        164,
+        972,
+        488,
+        1426
+      ],
+      "description": "左下角矩形照片，展示多种海鲜和面条菜肴，保留摄影环境，四边清晰。",
+      "label": "左下角矩形照片，展示多种海鲜和面条菜肴，保留摄影环境，四边清",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        162,
+        151,
+        292
+      ],
+      "description": "左上角白色胶带贴纸，形状不规则，作为固定装饰保留。",
+      "label": "左上角白色胶带贴纸，形状不规则，作为固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        1361,
+        583,
+        1458
+      ],
+      "description": "右下角白色胶带贴纸，形状不规则，作为固定装饰保留。",
+      "label": "右下角白色胶带贴纸，形状不规则，作为固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        356,
+        842,
+        486
+      ],
+      "description": "右侧白色夹子贴纸，形状为夹子，作为固定装饰保留。",
+      "label": "右侧白色夹子贴纸，形状为夹子，作为固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        583,
+        162,
+        994,
+        324
+      ],
+      "description": "Live the life\nyou've imagined.",
+      "label": "Live the life\nyou've imagined.",
+      "method": "local",
+      "text": "Live the life\nyou've imagined.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        626,
+        1199,
+        929,
+        1361
+      ],
+      "description": "OUR\nBELOVED\nSUMMER",
+      "label": "OUR\nBELOVED\nSUMMER",
+      "method": "local",
+      "text": "OUR\nBELOVED\nSUMMER",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "text_2"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "米色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        120,
+        260,
+        420,
+        560
+      ],
+      "description": "左侧矩形照片，展示购物袋和四杯奶茶，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        500,
+        180,
+        800,
+        480
+      ],
+      "description": "右上矩形照片，展示两位人物自拍，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        120,
+        640,
+        420,
+        840
+      ],
+      "description": "左下矩形照片，展示手持毛绒玩具，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        500,
+        560,
+        800,
+        760
+      ],
+      "description": "右下矩形照片，展示多个Hello Kitty玩偶，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        20,
+        620,
+        120
+      ],
+      "description": "顶部带有 CLAMP! 字样的夹子贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        400,
+        180,
+        560
+      ],
+      "description": "左侧心形贴纸装饰，包含多个心形图案，作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        160,
+        780,
+        220
+      ],
+      "description": "右上星星贴纸装饰，包含两个星星图案，作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        800,
+        280,
+        860
+      ],
+      "description": "左下小熊贴纸装饰，包含两个小熊图案，作为完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        120,
+        160,
+        420,
+        220
+      ],
+      "text": "#TO DO LIST:",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        120,
+        560,
+        420,
+        600
+      ],
+      "text": "来一杯续命水!",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        680,
+        440,
+        800,
+        520
+      ],
+      "text": "Haaaaapy plog.",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        680,
+        760,
+        800,
+        840
+      ],
+      "text": "HAVE A NICE DAY",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

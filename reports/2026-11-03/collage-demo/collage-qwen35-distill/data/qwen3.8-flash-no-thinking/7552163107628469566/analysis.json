@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续的蓝色天空摄影底图，画面中有多条斜向延伸的电线穿过整个画布。上层照片和文字遮挡局部，保留完整的天空与电线环境。",
+      "background_type": "photo",
+      "label": "连续的蓝色天空摄影底图，画面中有多条斜向延伸的电线穿过整个画",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        40,
+        24,
+        477,
+        1152
+      ],
+      "description": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "label": "My\nLife\nis\nOrdinary\nbut Shinin",
+      "method": "local",
+      "text": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_balloon",
+      "kind": "photo",
+      "bbox": [
+        477,
+        422,
+        814,
+        894
+      ],
+      "description": "矩形照片窗口，显示一只手握着粉色带黄色星星的气球，背景为黄、白、深蓝拼接墙面。",
+      "label": "矩形照片窗口，显示一只手握着粉色带黄色星星的气球，背景为黄、",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        549,
+        390,
+        760,
+        462
+      ],
+      "description": "半透明胶带贴纸，位于气球照片上方边缘，具有反光质感和褶皱细节。",
+      "label": "半透明胶带贴纸，位于气球照片上方边缘，具有反光质感和褶皱细节",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_balloon",
+    "overlay_tape",
+    "text_main"
+  ]
+}

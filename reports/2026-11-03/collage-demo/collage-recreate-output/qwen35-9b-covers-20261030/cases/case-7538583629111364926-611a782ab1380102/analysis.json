@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影画面，主体为背对镜头的白发角色，身着蓝黑服饰，周围环绕着多个屏幕，屏幕中显示着不同的角色场景。背景有光效、水波纹和草地，整体画面延伸至画布边缘，被屏幕遮挡部分仍属于同一摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续的摄影画面，主体为背对镜头的白发角色，身着蓝黑服饰，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "screen_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        234,
+        456
+      ],
+      "description": "左上角的屏幕，显示两个角色，一个穿橙色斗篷，一个穿黑色斗篷，背景有光斑和心形图案。",
+      "label": "左上角的屏幕，显示两个角色，一个穿橙色斗篷，一个穿黑色斗篷，",
+      "method": "local"
+    },
+    {
+      "id": "screen_2",
+      "kind": "photo",
+      "bbox": [
+        630,
+        0,
+        900,
+        456
+      ],
+      "description": "右上角的屏幕，显示两个角色，一个穿黄色斗篷，一个穿白色斗篷，背景为草地和光斑。",
+      "label": "右上角的屏幕，显示两个角色，一个穿黄色斗篷，一个穿白色斗篷，",
+      "method": "local"
+    },
+    {
+      "id": "screen_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        672,
+        270,
+        936
+      ],
+      "description": "左下角的屏幕，显示两个角色坐在紫色花丛中，背景为粉色天空。",
+      "label": "左下角的屏幕，显示两个角色坐在紫色花丛中，背景为粉色天空。",
+      "method": "local"
+    },
+    {
+      "id": "screen_4",
+      "kind": "photo",
+      "bbox": [
+        684,
+        456,
+        900,
+        696
+      ],
+      "description": "右侧中间的屏幕，显示两个角色，一个穿蓝色斗篷，一个穿绿色斗篷，背景为绿色植物。",
+      "label": "右侧中间的屏幕，显示两个角色，一个穿蓝色斗篷，一个穿绿色斗篷",
+      "method": "local"
+    },
+    {
+      "id": "screen_5",
+      "kind": "photo",
+      "bbox": [
+        450,
+        816,
+        900,
+        1056
+      ],
+      "description": "右下角的屏幕，显示两个角色，一个穿橙色斗篷，一个穿白色斗篷，背景为蓝色光斑。",
+      "label": "右下角的屏幕，显示两个角色，一个穿橙色斗篷，一个穿白色斗篷，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "screen_1",
+    "screen_2",
+    "screen_3",
+    "screen_4",
+    "screen_5"
+  ]
+}

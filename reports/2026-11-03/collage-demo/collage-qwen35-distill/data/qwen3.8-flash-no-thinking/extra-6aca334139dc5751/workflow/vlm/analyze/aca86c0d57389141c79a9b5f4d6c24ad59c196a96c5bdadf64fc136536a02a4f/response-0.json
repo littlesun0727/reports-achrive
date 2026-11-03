@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-a8c4144a-56c0-9cbb-9702-549e2375b886",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 7722,
+    "completion_tokens": 309,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1532,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 309
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        328\n      ],\n      \"description\": \"上方横向照片，显示人物高举双臂的局部及云雾缭绕的背景环境。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        335,\n        1000,\n        664\n      ],\n      \"description\": \"中间横向照片，显示穿着水手服的人物半身像，背景为蓝天、绿树和建筑。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        671,\n        1000,\n        1000\n      ],\n      \"description\": \"下方横向照片，显示波光粼粼的水面纹理，底部包含相机水印文字。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_mid\",\n    \"photo_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

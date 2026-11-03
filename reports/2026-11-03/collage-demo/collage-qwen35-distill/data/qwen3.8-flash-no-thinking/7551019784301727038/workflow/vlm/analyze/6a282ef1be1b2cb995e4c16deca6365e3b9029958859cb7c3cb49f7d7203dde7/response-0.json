@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-de279b6a-80e0-9ef7-9ee1-e2f0adddf1ff",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 8589,
+    "completion_tokens": 1306,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1402,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1306
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_water_texture\",\n    \"description\": \"全画布为浅蓝色水波纹理底图，带有重复的“t'aime je”文字图案和白色光晕效果。该纹理覆盖整个画面，作为固定背景保留，不随照片替换。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"frame_photo_strip\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        290,\n        135,\n        785,\n        765\n      ],\n      \"description\": \"竖向排列的三格胶片式相框，具有白色边框、齿孔细节及圆角矩形窗口。承载三张独立的人像照片，整体作为一个固定设计单元保留。\",\n      \"photo_id\": [\n        \"photo_top\",\n        \"photo_mid\",\n        \"photo_bottom\"\n      ]\n    },\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        345,\n        150,\n        775,\n        330\n      ],\n      \"description\": \"位于相框最上层的照片，显示一名长发女性的面部特写，光线柔和，面带微笑。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        305,\n        350,\n        765,\n        535\n      ],\n      \"description\": \"位于相框中间层的照片，显示同一女性的侧脸特写，眼神看向镜头，头发遮挡部分脸颊。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        320,\n        565,\n        755,\n      745\n      ],\n      \"description\": \"位于相框最下层的照片，显示女性双手托腮的姿态，穿着浅色毛衣，背景可见窗户结构。\"\n    },\n    {\n      \"id\": \"overlay_bow_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        135,\n        50,\n        500,\n        250\n      ],\n      \"description\": \"左上角的白色大蝴蝶结装饰，材质呈现半透明纱质感，边缘有珍珠状点缀，压在相框上方。\"\n    },\n    {\n      \"id\": \"overlay_flowers_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        150,\n        210,\n        400,\n        480\n      ],\n      \"description\": \"左侧的一串绿叶白花藤蔓装饰，自然垂落，部分叶片延伸至相框内部区域。\"\n    },\n    {\n      \"id\": \"overlay_text_bg\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        280,\n        1000,\n        650\n      ],\n      \"description\": \"巨大的黑色手写体英文单词（看似“love”或类似拼写），横跨画面中部，位于相框图层下方但在水纹背景上方。\"\n    },\n    {\n      \"id\": \"overlay_butterfly_blue\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        225,\n        490,\n        375,\n        580\n      ],\n      \"description\": \"一只蓝色的蝴蝶贴纸，位于左侧花藤与相框交界处，翅膀纹理清晰。\"\n    },\n    {\n      \"id\": \"overlay_dots_black\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        140,\n        500,\n        300,\n        620\n      ],\n      \"description\": \"左下方的黑色点阵圆形图案，由密集的小黑点组成，作为装饰元素。\"\n    },\n    {\n      \"id\": \"overlay_dots_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        780,\n        610,\n        980,\n        740\n      ],\n      \"description\": \"右下方的黑色点阵圆形图案，与左侧呼应，部分被白色线条遮挡。\"\n    },\n    {\n      \"id\": \"overlay_ribbon_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        650,\n        680,\n        890,\n        830\n      ],\n      \"description\": \"右下角的白色小蝴蝶结，系在一条弯曲的白色缎带上，缎带向左延伸并打结。\"\n    },\n    {\n      \"id\": \"overlay_white_lines\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        730,\n        1000,\n        950\n      ],\n      \"description\": \"底部复杂的白色手绘风格线条，呈波浪状缠绕，连接左右两侧，具有立体感。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_text_bg\",\n    \"frame_photo_strip\",\n    \"photo_top\",\n    \"photo_mid\",\n    \"photo_bottom\",\n    \"overlay_bow_top\",\n    \"overlay_flowers_left\",\n    \"overlay_butterfly_blue\",\n    \"overlay_dots_black\",\n    \"overlay_dots_right\",\n    \"overlay_white_lines\",\n    \"overlay_ribbon_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

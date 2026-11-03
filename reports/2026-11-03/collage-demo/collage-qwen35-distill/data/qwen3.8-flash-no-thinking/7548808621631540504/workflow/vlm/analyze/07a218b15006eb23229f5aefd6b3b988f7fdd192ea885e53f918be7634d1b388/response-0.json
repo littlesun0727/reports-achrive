@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-00809abc-02dd-9c7a-9b45-d5721b48db46",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8021,
+    "completion_tokens": 1074,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1074
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的室内摄影底图，展示木质家具、书架和窗户等环境。画面整体明亮温暖，上层拼贴照片和装饰遮挡了部分背景，但底图完整延伸至画布四边。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star_top_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        762,\n        85,\n        904,\n        213\n      ],\n      \"description\": \"位于右上角的星形贴纸，表面印有密集的英文段落文字，边缘带有白色描边。\"\n    },\n    {\n      \"id\": \"text_title\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        172,\n        100,\n        442,\n        165\n      ],\n      \"text\": null,\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false,\n      \"description\": \"左上角的白色手写风格标题文字，内容模糊难以辨认，具有发光效果。\"\n    },\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        128,\n        172,\n        478,\n        522\n      ],\n      \"description\": \"左侧竖向矩形照片，显示桌上摆放着轻松熊玩偶、拿铁咖啡、蛋糕切片以及一本打开的小册子，一只手正托着小册子。\"\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        517,\n        252,\n        952,\n        482\n      ],\n      \"description\": \"右侧横向矩形照片，俯拍视角，显示木托盘上的花盘盛放着梨片蛋糕，周围环绕着四个角落生物毛绒玩具。照片边缘有不规则的白色手绘描边。\"\n    },\n    {\n      \"id\": \"text_caption_left\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        122,\n        532,\n        372,\n        572\n      ],\n      \"text\": null,\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false,\n      \"description\": \"左侧照片下方的白色日文手写短句，内容模糊。\"\n    },\n    {\n      \"id\": \"overlay_label_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        622,\n        522,\n        904,\n        592\n      ],\n      \"description\": \"右侧的长方形米色标签贴纸，上面写有黑色手写中文“这时刻最好”，边缘带有虚线框设计。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        85,\n        582,\n        532,\n        772\n      ],\n      \"description\": \"左下方横向矩形照片，显示木质托盘上摆放着蘑菇模型、小房子摆件和干花，背景为浅色木纹桌面。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        562,\n        572,\n        897,\n        912\n      ],\n      \"description\": \"右下方竖向矩形照片，显示一只手托着装满角落生物玩偶的编织篮，背景可见桌上的粉色饮料杯和窗户。\"\n    },\n    {\n      \"id\": \"overlay_cloud\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        162,\n        772,\n        472,\n        912\n      ],\n      \"description\": \"云朵形状的米色贴纸，内部包含黑色手写英文句子“you drew stars around my scars”及星星简笔画装饰。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_star_top_right\",\n    \"text_title\",\n    \"photo_left\",\n    \"photo_right\",\n    \"text_caption_left\",\n    \"overlay_label_right\",\n    \"photo_bottom_left\",\n    \"photo_bottom_right\",\n    \"overlay_cloud\"\n  ]\n}",
+  "tool_calls": false
+}

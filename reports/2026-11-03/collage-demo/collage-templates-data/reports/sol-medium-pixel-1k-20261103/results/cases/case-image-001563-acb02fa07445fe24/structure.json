@@ -1,0 +1,84 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#191919"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        6,
+        0,
+        643,
+        638
+      ],
+      "description": "左上大幅人物照片：一名年轻女性黑发盘起，穿黑色无袖上衣和长手套，半身侧坐并以戴手套的手托近下巴，手臂横向伸向右侧木桌柜；白色摄影背景保留，照片在右侧和下缘被黑色拼贴间隔截断。"
+    },
+    {
+      "id": "photo_wing_upper",
+      "kind": "photo",
+      "bbox": [
+        652,
+        5,
+        959,
+        313
+      ],
+      "description": "右上方独立的横向黑底摄影画面，白色羽翼从画面下部向右上方扬起；保留完整黑色摄影背景，画面下缘与下一张羽翼照片之间有黑色横向间隔。"
+    },
+    {
+      "id": "photo_wing_lower",
+      "kind": "photo",
+      "bbox": [
+        652,
+        326,
+        959,
+        636
+      ],
+      "description": "右侧中部独立的横向黑底摄影画面，白色羽翼由左侧中部展开并向下垂落；与上方羽翼取景分开，保留黑色摄影背景，照片下缘被拼贴间隔截断。"
+    },
+    {
+      "id": "photo_guitar_notebook",
+      "kind": "photo",
+      "bbox": [
+        7,
+        650,
+        318,
+        958
+      ],
+      "description": "左下黑白静物照片，斜放的吉他与琴弦占据上方和左侧，打开的笔记本位于下方；完整保留照片内物件及其摄影环境，四周由深色拼贴间隔分开。"
+    },
+    {
+      "id": "photo_chalkboard",
+      "kind": "photo",
+      "bbox": [
+        330,
+        650,
+        637,
+        958
+      ],
+      "description": "下方中间的深色黑板照片，粉笔字分两行写着“DON’T BE SAD”和“2WK.”；文字属于照片内的黑板内容，连同板面和摄影明暗一并替换，四周由深色拼贴间隔分开。"
+    },
+    {
+      "id": "photo_piano",
+      "kind": "photo",
+      "bbox": [
+        652,
+        650,
+        959,
+        958
+      ],
+      "description": "右下方钢琴键盘的黑白近景照片，琴键以斜向透视从左上延伸至右下；保留键盘及其摄影环境，四周由深色拼贴间隔分开。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "photo_wing_upper",
+    "photo_wing_lower",
+    "photo_guitar_notebook",
+    "photo_chalkboard",
+    "photo_piano"
+  ]
+}

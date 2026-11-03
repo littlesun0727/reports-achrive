@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-f68e3b97-e702-98a8-9827-33b44be5d03d",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7059,
+    "total_tokens": 8186,
+    "completion_tokens": 1127,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1178,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1127
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张模糊的室内摄影底图，呈现暖色调的桌面和背景环境。画面整体由虚化的棕色、米色构成，作为所有前景食物照片和装饰元素的衬托层，延伸至画布四边。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_stars_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        40,\n        125,\n        230,\n        240\n      ],\n      \"description\": \"左上角的白色手绘星星图案，包含两颗大星和几颗小点，线条风格随意可爱。\"\n    },\n    {\n      \"id\": \"overlay_exclamation_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        360,\n        60,\n        710,\n        210\n      ],\n      \"description\": \"顶部中间的三个白色手绘感叹号，呈放射状排列，带有圆点装饰，表达惊讶或赞叹的情绪。\"\n    },\n    {\n      \"id\": \"photo_plate_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        90,\n        185,\n        590,\n        480\n      ],\n      \"description\": \"左上方的椭圆形餐盘照片，去除了背景。盘中盛有三明治（夹芝士和肉）、一碗水果沙拉（香蕉、蓝莓、猕猴桃）、煎蛋和虾。边缘有一圈粗白色描边。\"\n    },\n    {\n      \"id\": \"overlay_fork_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        720,\n        180,\n        920,\n        380\n      ],\n      \"description\": \"右侧的白色手绘叉子图案，叉头朝下，旁边有几条短线表示动作或光泽。\"\n    },\n    {\n      \"id\": \"photo_plate_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        430,\n        330,\n        910,\n        590\n      ],\n      \"description\": \"右上方的黑色圆形餐盘照片，去除了背景。盘中有一个贝果三明治（夹肉饼）、炒蛋配蟹柳、芦笋、蘑菇和蓝莓。边缘有一圈粗白色描边。\"\n    },\n    {\n      \"id\": \"photo_plate_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        60,\n        450,\n        540,\n        750\n      ],\n      \"description\": \"左下方的圆形餐盘照片，去除了背景。盘中包含牛油果虾仁滑蛋、草莓、蓝莓、培根煎蛋以及一杯粉色饮品（杯身可见部分文字）。边缘有一圈白色虚线描边。\"\n    },\n    {\n      \"id\": \"photo_plate_4\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        390,\n        590,\n        890,\n        920\n      ],\n      \"description\": \"右下方的猫形便当盒照片，去除了背景。造型为可爱的猫咪脸，米饭做成猫头，蛋皮上写有红色“Cute~”字样，周围配有西兰花、圣女果等蔬菜。边缘有一圈粗白色描边。\"\n    },\n    {\n      \"id\": \"text_yummy\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        40,\n        790,\n        420,\n        940\n      ],\n      \"text\": \"Yummy\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false,\n      \"description\": \"左下角的手绘空心字体单词“Yummy”，周围点缀着番茄、披萨切片、鸡腿和爱心等简笔画图标。\"\n    },\n    {\n      \"id\": \"overlay_star_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        830,\n        870,\n        960,\n        960\n      ],\n      \"description\": \"右下角的白色手绘五角星，内部填充了斜线纹理。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_base\",\n    \"overlay_stars_top_left\",\n    \"overlay_exclamation_top\",\n    \"photo_plate_1\",\n    \"overlay_fork_right\",\n    \"photo_plate_2\",\n    \"photo_plate_3\",\n    \"photo_plate_4\",\n    \"text_yummy\",\n    \"overlay_star_bottom_right\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,187 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张手持橙色出租车模型的特写照片作为全画布底图，背景为深色木纹桌面。主体包括手、绿色袖口和橙色车身（印有“的士 TAXI”字样），延伸至画布四边。上层多张独立照片遮挡了部分车身和桌面。"
+  },
+  "objects": [
+    {
+      "id": "photo_mountain",
+      "kind": "photo",
+      "bbox": [
+        70,
+        12,
+        460,
+        183
+      ],
+      "description": "左上角风景照片，显示车窗视角下的雪山与黄昏天空，矩形圆角窗口。"
+    },
+    {
+      "id": "photo_hands",
+      "kind": "photo",
+      "bbox": [
+        545,
+        62,
+        875,
+        290
+      ],
+      "description": "右上部特写照片，显示穿着碎花裙的人物双手交叠在腹部，矩形圆角窗口。"
+    },
+    {
+      "id": "frame_receipt",
+      "kind": "frame",
+      "bbox": [
+        30,
+        160,
+        380,
+        395
+      ],
+      "description": "左侧米色收据卡片，带有阴影效果，上面印有一只蝴蝶图案及价格列表文字。",
+      "photo_id": [
+        "photo_mountain"
+      ]
+    },
+    {
+      "id": "photo_sparkler",
+      "kind": "photo",
+      "bbox": [
+        705,
+        245,
+        1000,
+        385
+      ],
+      "description": "右侧夜景照片，显示黑暗中绽放的烟花棒火花，矩形圆角窗口。"
+    },
+    {
+      "id": "photo_orange_clothes",
+      "kind": "photo",
+      "bbox": [
+        0,
+        450,
+        250,
+        575
+      ],
+      "description": "左中位置照片，显示身穿橙色卫衣的人群，矩形圆角窗口。"
+    },
+    {
+      "id": "photo_seaside",
+      "kind": "photo",
+      "bbox": [
+        75,
+        540,
+        380,
+        735
+      ],
+      "description": "左下位置照片，显示一名女子在海边栏杆旁眺望，色调偏冷，矩形圆角窗口。"
+    },
+    {
+      "id": "text_2026",
+      "kind": "text",
+      "bbox": [
+        845,
+        430,
+        990,
+        465
+      ],
+      "text": "2026",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "right",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "photo_swans",
+      "kind": "photo",
+      "bbox": [
+        240,
+        715,
+        485,
+        815
+      ],
+      "description": "底部中间照片，显示两只黑天鹅在水中相对，矩形圆角窗口。"
+    },
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        665,
+        515,
+        970,
+        715
+      ],
+      "description": "右中位置街景照片，显示繁忙的城市十字路口及红色出租车，矩形圆角窗口。"
+    },
+    {
+      "id": "photo_sitting_man",
+      "kind": "photo",
+      "bbox": [
+        580,
+        690,
+        805,
+        835
+      ],
+      "description": "右下位置照片，显示一人坐在路边椅子上，头部被蓝色物体遮挡，矩形圆角窗口。"
+    },
+    {
+      "id": "text_2025",
+      "kind": "text",
+      "bbox": [
+        35,
+        805,
+        205,
+        845
+      ],
+      "text": "2025",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "overlay_line",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        460,
+        995,
+        870
+      ],
+      "description": "一条白色虚线曲线，贯穿画面下半部分，连接左右两侧的文字区域，位于照片层之上。"
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        285,
+        890,
+        745,
+        925
+      ],
+      "text": "2025-2026 COLLECTION .ALL RIGHTS RESERVED.\nSHOT BY KAZUKI IN 2025.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": true
+    }
+  ],
+  "layer_order": [
+    "photo_mountain",
+    "photo_hands",
+    "frame_receipt",
+    "photo_sparkler",
+    "photo_orange_clothes",
+    "photo_seaside",
+    "photo_street",
+    "photo_swans",
+    "photo_sitting_man",
+    "text_2026",
+    "text_2025",
+    "overlay_line",
+    "text_footer"
+  ]
+}

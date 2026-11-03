@@ -1,0 +1,272 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1438
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1438
+      ],
+      "description": "连续的白色横线纹理纸底，四周及照片间隙保留相同纸纹；作为固定设计单元保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的白色横线纹理纸底，四周及照片间隙保留相同纸纹；作为固定",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_clipboard",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        89,
+        1015,
+        1349
+      ],
+      "description": "棕色圆角矩形底板，模拟写字板或文件夹外观，位于白色纸底之上、所有其他对象之下。",
+      "label": "棕色圆角矩形底板，模拟写字板或文件夹外观，位于白色纸底之上、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clamp",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        17,
+        702,
+        201
+      ],
+      "description": "手绘风格的夹子图案，带有“clamp!”字样，位于画布顶部中央，覆盖在底板边缘。",
+      "label": "手绘风格的夹子图案，带有“clamp!”字样，位于画布顶部中",
+      "method": "extract"
+    },
+    {
+      "id": "text_todo",
+      "kind": "text",
+      "bbox": [
+        151,
+        252,
+        486,
+        316
+      ],
+      "description": "# To Do LIST:",
+      "label": "# To Do LIST:",
+      "method": "local",
+      "text": "# To Do LIST:",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        184,
+        374,
+        497,
+        791
+      ],
+      "description": "展示多杯奶茶饮料和帆布袋的照片，边缘呈撕纸效果。",
+      "label": "展示多杯奶茶饮料和帆布袋的照片，边缘呈撕纸效果。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        345,
+        410,
+        431
+      ],
+      "description": "深褐色带白点的胶带装饰，贴在饮料照片上方。",
+      "label": "深褐色带白点的胶带装饰，贴在饮料照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        590,
+        238,
+        805
+      ],
+      "description": "一串垂直排列的手绘爱心贴纸，位于饮料照片左侧。",
+      "label": "一串垂直排列的手绘爱心贴纸，位于饮料照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        529,
+        252,
+        918,
+        777
+      ],
+      "description": "拍立得相纸边框，包含白色宽边和内部照片窗口。",
+      "photo_id": [
+        "photo_girls"
+      ],
+      "label": "拍立得相纸边框，包含白色宽边和内部照片窗口。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_girls",
+      "kind": "photo",
+      "bbox": [
+        551,
+        295,
+        896,
+        661
+      ],
+      "description": "两名年轻女性的合影自拍，背景为城市夜景建筑。",
+      "label": "两名年轻女性的合影自拍，背景为城市夜景建筑。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        237,
+        842,
+        331
+      ],
+      "description": "两颗星星形状的贴纸，位于拍立得相框右上角。",
+      "label": "两颗星星形状的贴纸，位于拍立得相框右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_happy",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        647,
+        961,
+        777
+      ],
+      "description": "格纹纸条标签，上面写有“> Haaaaaapy plog.”字样，位于拍立得相框右下角。",
+      "label": "格纹纸条标签，上面写有“> Haaaaaapy plog.”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_water",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        820,
+        454,
+        892
+      ],
+      "description": "格纹纸条标签，上面写有“来一杯续命水！”字样，位于饮料照片下方。",
+      "label": "格纹纸条标签，上面写有“来一杯续命水！”字样，位于饮料照片下",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bear",
+      "kind": "photo",
+      "bbox": [
+        194,
+        906,
+        594,
+        1208
+      ],
+      "description": "手持灰色毛绒小熊挂件的照片，背景可见黑色包袋和手机，边缘呈撕纸效果。",
+      "label": "手持灰色毛绒小熊挂件的照片，背景可见黑色包袋和手机，边缘呈撕",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dogs",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        1150,
+        324,
+        1251
+      ],
+      "description": "两只简笔画风格的小狗贴纸，位于小熊照片左下角。",
+      "label": "两只简笔画风格的小狗贴纸，位于小熊照片左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_kitties",
+      "kind": "photo",
+      "bbox": [
+        572,
+        805,
+        940,
+        1064
+      ],
+      "description": "大量Hello Kitty玩偶集合的照片，边缘呈撕纸效果。",
+      "label": "大量Hello Kitty玩偶集合的照片，边缘呈撕纸效果。",
+      "method": "local"
+    },
+    {
+      "id": "text_niceday",
+      "kind": "text",
+      "bbox": [
+        648,
+        1093,
+        929,
+        1237
+      ],
+      "description": "HAVE A\nNICE DAY",
+      "label": "HAVE A\nNICE DAY",
+      "method": "local",
+      "text": "HAVE A\nNICE DAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF99CC",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_rainbow",
+      "kind": "overlay",
+      "bbox": [
+        799,
+        1078,
+        886,
+        1150
+      ],
+      "description": "彩虹形状的小贴纸，位于文字上方。",
+      "label": "彩虹形状的小贴纸，位于文字上方。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "overlay_clipboard",
+    "overlay_clamp",
+    "text_todo",
+    "photo_drinks",
+    "overlay_tape",
+    "overlay_hearts",
+    "frame_polaroid",
+    "photo_girls",
+    "overlay_stars",
+    "overlay_label_happy",
+    "overlay_label_water",
+    "photo_bear",
+    "overlay_dogs",
+    "photo_kitties",
+    "text_niceday",
+    "overlay_rainbow"
+  ]
+}

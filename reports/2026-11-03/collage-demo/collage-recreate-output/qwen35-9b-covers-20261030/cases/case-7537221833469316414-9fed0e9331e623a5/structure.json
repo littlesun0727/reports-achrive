@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "wooden_room",
+    "description": "深色木质墙板与地板构成的室内场景，作为固定底图保留原样。画布边缘可见的木地板纹理、墙板线条及家具轮廓均属于此固定底图，不随照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        89,
+        92,
+        450,
+        490
+      ],
+      "description": "人物侧卧于木质长椅上的照片，保留摄影环境，画面右侧被中间照片遮挡。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        415,
+        352,
+        938,
+        666
+      ],
+      "description": "人物特写吃苹果的照片，保留摄影环境，画面左侧被上方照片遮挡，右侧被下方照片遮挡。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        152,
+        622,
+        866,
+        950
+      ],
+      "description": "人物躺卧在木质长椅上的照片，保留摄影环境，画面左侧被橙色百合花遮挡。"
+    },
+    {
+      "id": "flower_1",
+      "kind": "photo",
+      "bbox": [
+        80,
+        495,
+        265,
+        695
+      ],
+      "description": "橙色百合花照片，保留摄影环境，位于人物腿部前方，遮挡下方照片左侧边缘。"
+    },
+    {
+      "id": "mirror_1",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        25,
+        805,
+        140
+      ],
+      "description": "墙上的椭圆形装饰镜，保留镜框与镜面内容，位于上方照片右侧。"
+    },
+    {
+      "id": "phone_1",
+      "kind": "overlay",
+      "bbox": [
+        535,
+        195,
+        600,
+        295
+      ],
+      "description": "墙上的米色壁挂电话，保留机身与听筒细节，位于上方照片右侧。"
+    },
+    {
+      "id": "plant_1",
+      "kind": "overlay",
+      "bbox": [
+        560,
+        130,
+        910,
+        340
+      ],
+      "description": "桌上的花瓶与向日葵花束，保留植物与花瓶细节，位于上方照片右侧。"
+    },
+    {
+      "id": "clock_1",
+      "kind": "overlay",
+      "bbox": [
+        940,
+        340,
+        998,
+        400
+      ],
+      "description": "墙上的圆形挂钟，保留钟面与指针，位于右侧边缘。"
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        80,
+        550,
+        155
+      ],
+      "description": "白色星形装饰贴纸，位于上方照片右上角。"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        240,
+        620,
+        300
+      ],
+      "description": "白色星形装饰贴纸，位于上方照片与中间照片交界处。"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        230,
+        830,
+        290
+      ],
+      "description": "白色星形装饰贴纸，位于中间照片右上角。"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        320,
+        950,
+        400
+      ],
+      "description": "白色星形装饰贴纸，位于中间照片右侧边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "flower_1",
+    "mirror_1",
+    "phone_1",
+    "plant_1",
+    "clock_1",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4"
+  ]
+}

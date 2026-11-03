@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-8e20c334-9ace-931a-9d3d-41a5500caebe",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 7881,
+    "completion_tokens": 468,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1532,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 468
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"background\": {\n\"type\": \"photographic\",\n\"id\": \"photo_base\",\n\"description\": \"一张连续的高原风景摄影底图，画面包含蓝天、白云、起伏的绿色草坡以及前景中正在吃草的牛。该照片完整延伸至画布四边，作为所有独立对象的背景层。\"\n},\n\"objects\": [\n{\n\"id\": \"overlay_stars\",\n\"kind\": \"overlay\",\n\"bbox\": [\n140,\n75,\n490,\n165\n],\n\"description\": \"左上角散布的四颗黄色五角星装饰，大小不一，位于天空区域。\"\n},\n{\n\"id\": \"photo_top_right\",\n\"kind\": \"photo\",\n\"bbox\": [\n338,\n125,\n932,\n425\n],\n\"description\": \"右上角矩形照片，显示一名身穿白衣黑裤的女子在草原上张开双臂的背影，背景为连绵的山脉和森林。\"\n},\n{\n\"id\": \"photo_mid_left\",\n\"kind\": \"photo\",\n\"bbox\": [\n85,\n375,\n382,\n705\n],\n\"description\": \"左侧中部竖向矩形照片，显示同一名女子在草地上奔跑的背影，远处有雪山和树林。\"\n},\n{\n\"id\": \"overlay_arrow\",\n\"kind\": \"overlay\",\n\"bbox\": [\n385,\n425,\n575, 550\n],\n\"description\": \"白色手绘风格的弯曲箭头，起点处有一个蓝色星形图案，指向右下方。\"\n},\n{\n\"id\": \"photo_bottom_right\",\n\"kind\": \"photo\",\n\"bbox\": [\n562,\n535,\n835,\n840\n],\n\"description\": \"右下角竖向矩形照片，显示同一名女子弯腰趴在木质护栏上的姿态，背景可见道路、草地和远山。\"\n}\n],\n\"layer_order\": [\n\"overlay_stars\",\n\"photo_top_right\",\n\"photo_mid_left\",\n\"overlay_arrow\",\n\"photo_bottom_right\"\n]}",
+  "tool_calls": false
+}

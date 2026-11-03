@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "带细微斑点和纸纹的暖白色纸张连续铺满画布；上方横向照片遮住其顶部区域，下方露出的纸面纹理一致。保留纸张底图，照片、文字和下方插画分别作为独立单元。",
+      "background_type": "reference_clean",
+      "label": "带细微斑点和纸纹的暖白色纸张连续铺满画布；上方横向照片遮住其",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_meadow",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        522
+      ],
+      "description": "画布顶部横向花田近景照片，紫色雏菊状花朵分布在前景，右侧有一朵较大的清晰花朵，后方可见虚化山坡与明亮天空；照片完整显示为横向矩形，环境保留。",
+      "label": "画布顶部横向花田近景照片，紫色雏菊状花朵分布在前景，右侧有一",
+      "method": "local"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        106,
+        749,
+        312,
+        796
+      ],
+      "description": "High above the meadow,\nwe lean into the wind.",
+      "label": "High above the meadow,\nwe lean",
+      "method": "local",
+      "text": "High above the meadow,\nwe lean into the wind.",
+      "text_status": "known",
+      "style": {
+        "fill": "#514B42",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_flower_collage",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        889,
+        888,
+        1317
+      ],
+      "description": "纸面下方的一组固定拼贴插画：蓝色与橄榄绿色撕纸状山坡层叠，前景有数株黑色细茎和紫色手绘花朵，周围点缀少量淡紫、淡黄绿色圆点；各部分共同构成一幅完整装饰，不属于上方摄影内容。",
+      "label": "纸面下方的一组固定拼贴插画：蓝色与橄榄绿色撕纸状山坡层叠，前",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_meadow",
+    "text_caption",
+    "overlay_flower_collage"
+  ]
+}

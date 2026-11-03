@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-628bd738-e9e8-9785-a92e-68c0149e9b99",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 7940,
+    "completion_tokens": 527,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1532,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 527
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_skyscraper\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        500,\n        500\n      ],\n      \"description\": \"左上象限照片，仰视视角拍摄蓝天背景下的摩天大楼尖顶。主体周围有一圈黄色手绘描边，文字“skyscraper”沿描边左侧排列。\"\n    },\n    {\n      \"id\": \"photo_coffee\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        0,\n        1000,\n        500\n      ],\n      \"description\": \"右上象限照片，黑色皮质沙发背景上放置着一杯瑞幸咖啡和一只无线耳机。主体组合（杯子与耳机）周围有一圈蓝色手绘描边，文字“coffee”位于右侧，周围散布着几颗蓝色星星装饰。\"\n    },\n    {\n      \"id\": \"photo_apple_juice\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        500,\n        500,\n        1000\n      ],\n      \"description\": \"左下象限照片，手持一杯透明塑料杯装的苹果汁，背景为模糊的店铺玻璃窗。主体（手与杯子）周围有一圈浅蓝色手绘描边，上方有文字“Apple Juice”。\"\n    },\n    {\n      \"id\": \"photo_milk_tea\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        500,\n        1000,\n        1000\n      ],\n      \"description\": \"右下象限照片，手持一杯印有卡通图案的奶茶，背景为纯蓝色。主体（手与杯子）周围有一圈黄色手绘描边，文字“milk tea”位于左上方，周围点缀着黄色星星。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_skyscraper\",\n    \"photo_coffee\",\n    \"photo_apple_juice\",\n    \"photo_milk_tea\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,333 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "一张连续的咖啡馆室内摄影底图，画面中央为一名长发女子坐在桌前单手托腮，面前有一杯冰咖啡，背景可见吊灯、窗户和店内环境。该照片完整延伸至画布四边，上层拼贴的照片、贴纸和装饰遮挡了部分区域。",
+      "background_type": "photo",
+      "label": "一张连续的咖啡馆室内摄影底图，画面中央为一名长发女子坐在桌前",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_teddy_left",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        163,
+        133,
+        288
+      ],
+      "description": "左上角的一只棕色小熊毛绒玩具贴纸，手持叉子，作为独立固定装饰保留。",
+      "label": "左上角的一只棕色小熊毛绒玩具贴纸，手持叉子，作为独立固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "photo_food_top",
+      "kind": "photo",
+      "bbox": [
+        141,
+        71,
+        320,
+        302
+      ],
+      "description": "椭圆形裁切的桌面食物照片，包含红色饮料、蛋糕和冰咖啡，显示区域为椭圆窗口。",
+      "label": "椭圆形裁切的桌面食物照片，包含红色饮料、蛋糕和冰咖啡，显示区",
+      "method": "local"
+    },
+    {
+      "id": "text_divider_top",
+      "kind": "text",
+      "bbox": [
+        306,
+        189,
+        590,
+        210
+      ],
+      "description": "98⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣☆⌣⌣⌣⌣⌣⌣⌣⌣98",
+      "label": "98⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣☆⌣⌣⌣⌣⌣⌣⌣⌣98",
+      "method": "local",
+      "text": "98⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣⌣☆⌣⌣⌣⌣⌣⌣⌣⌣98",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        118,
+        558,
+        146
+      ],
+      "description": "上方偏右的一颗白色立体五角星装饰。",
+      "label": "上方偏右的一颗白色立体五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_note",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        82,
+        868,
+        150
+      ],
+      "description": "右上角的一张带有音符图案的白色纸片贴纸。",
+      "label": "右上角的一张带有音符图案的白色纸片贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_drink_right",
+      "kind": "photo",
+      "bbox": [
+        590,
+        126,
+        842,
+        456
+      ],
+      "description": "右侧矩形照片，展示一名女子在桌前用吸管喝深色饮料，周围有橙色虚线描边。",
+      "label": "右侧矩形照片，展示一名女子在桌前用吸管喝深色饮料，周围有橙色",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl_left",
+      "kind": "photo",
+      "bbox": [
+        32,
+        302,
+        256,
+        570
+      ],
+      "description": "左侧矩形照片，展示一名女子在桌前喝饮料，旁边有一个咖啡杯，周围有红色实线描边。",
+      "label": "左侧矩形照片，展示一名女子在桌前喝饮料，旁边有一个咖啡杯，周",
+      "method": "local"
+    },
+    {
+      "id": "overlay_teddy_chef",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        414,
+        796,
+        570
+      ],
+      "description": "右侧中部的一只穿着厨师服的小熊毛绒玩具贴纸。",
+      "label": "右侧中部的一只穿着厨师服的小熊毛绒玩具贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        605,
+        94,
+        647
+      ],
+      "description": "左侧中部的白色立体五角星装饰。",
+      "label": "左侧中部的白色立体五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paper_text",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        665,
+        284,
+        725
+      ],
+      "description": "左侧中下部的一张边缘不规则的纸条贴纸，上面印有黑色英文手写体文字“Don't work too hard these days. It's clear we're both bad enough.”。",
+      "label": "左侧中下部的一张边缘不规则的纸条贴纸，上面印有黑色英文手写体",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cake_plate",
+      "kind": "photo",
+      "bbox": [
+        22,
+        761,
+        194,
+        923
+      ],
+      "description": "左下方矩形照片，展示一只手端着装有切块蛋糕的盘子，周围有黄色虚线描边。",
+      "label": "左下方矩形照片，展示一只手端着装有切块蛋糕的盘子，周围有黄色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tag_love",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        809,
+        256,
+        929
+      ],
+      "description": "一个带有麻绳挂环的牛皮纸吊牌贴纸，上面写有黑色手写体“love”。",
+      "label": "一个带有麻绳挂环的牛皮纸吊牌贴纸，上面写有黑色手写体“lov",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_bear",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        719,
+        850,
+        857
+      ],
+      "description": "右侧中下部的白色小熊毛绒玩具贴纸。",
+      "label": "右侧中下部的白色小熊毛绒玩具贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_drinks_bottom",
+      "kind": "photo",
+      "bbox": [
+        54,
+        917,
+        302,
+        1097
+      ],
+      "description": "底部左侧矩形照片，展示桌上的两杯冷饮（一杯冰咖啡，一杯奶昔），周围有黄色虚线描边。",
+      "label": "底部左侧矩形照片，展示桌上的两杯冷饮（一杯冰咖啡，一杯奶昔）",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dashed_line_v",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        570,
+        148,
+        761
+      ],
+      "description": "连接左侧两张照片区域的白色垂直虚线装饰。",
+      "label": "连接左侧两张照片区域的白色垂直虚线装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dashed_line_v2",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        456,
+        778,
+        719
+      ],
+      "description": "右侧照片下方的白色垂直虚线装饰。",
+      "label": "右侧照片下方的白色垂直虚线装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dashed_line_h",
+      "kind": "overlay",
+      "bbox": [
+        302,
+        1013,
+        558,
+        1031
+      ],
+      "description": "底部中间的一段白色水平虚线装饰。",
+      "label": "底部中间的一段白色水平虚线装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paper_bag",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        983,
+        616,
+        1097
+      ],
+      "description": "底部中间的一个牛皮纸袋造型贴纸。",
+      "label": "底部中间的一个牛皮纸袋造型贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_frame_heart",
+      "kind": "frame",
+      "bbox": [
+        554,
+        797,
+        832,
+        1115
+      ],
+      "description": "右下角的心形白色细线框，内部包含一张夜景照片。",
+      "photo_id": [
+        "photo_night_heart"
+      ],
+      "label": "右下角的心形白色细线框，内部包含一张夜景照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_night_heart",
+      "kind": "photo",
+      "bbox": [
+        562,
+        809,
+        824,
+        1103
+      ],
+      "description": "心形框内的夜景照片，展示了街道上的霓虹灯牌（可见HONG KONG字样）和车辆。",
+      "label": "心形框内的夜景照片，展示了街道上的霓虹灯牌（可见HONG K",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        1049,
+        410,
+        1097
+      ],
+      "description": "底部中间的白色立体五角星装饰。",
+      "label": "底部中间的白色立体五角星装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_teddy_left",
+    "photo_food_top",
+    "text_divider_top",
+    "overlay_star_1",
+    "overlay_music_note",
+    "photo_drink_right",
+    "photo_girl_left",
+    "overlay_teddy_chef",
+    "overlay_star_2",
+    "overlay_paper_text",
+    "photo_cake_plate",
+    "overlay_tag_love",
+    "overlay_white_bear",
+    "photo_drinks_bottom",
+    "overlay_dashed_line_v",
+    "overlay_dashed_line_v2",
+    "overlay_dashed_line_h",
+    "overlay_paper_bag",
+    "photo_night_heart",
+    "overlay_frame_heart",
+    "overlay_star_3"
+  ]
+}

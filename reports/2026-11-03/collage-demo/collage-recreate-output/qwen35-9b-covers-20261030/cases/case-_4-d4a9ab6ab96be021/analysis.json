@@ -1,0 +1,275 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1442
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1442
+      ],
+      "description": "城市街道黄昏场景，天空呈粉紫色渐变，两侧为建筑物与电线杆，地面有行人剪影。画面中央夹着一张米色硬纸板，纸板遮挡了部分街道背景，但街道环境连续延伸至画布边缘，构成全画布摄影底图。",
+      "background_type": "photo",
+      "label": "城市街道黄昏场景，天空呈粉紫色渐变，两侧为建筑物与电线杆，地",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        124,
+        180,
+        977,
+        1269
+      ],
+      "description": "米色硬纸板夹在金属长尾夹中，位于画面中央，遮挡街道背景。纸板表面贴有多张照片、文字标签和装饰贴纸。",
+      "photo_id": [
+        "photo_1",
+        "photo_2",
+        "photo_3",
+        "photo_4"
+      ],
+      "label": "米色硬纸板夹在金属长尾夹中，位于画面中央，遮挡街道背景。纸板",
+      "method": "extract"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        189,
+        274,
+        443,
+        469
+      ],
+      "description": "左上角照片，展示蓝色海洋与船舷栏杆，天空晴朗。照片上方有悬挂式标签贴纸，下方有海星装饰贴纸。",
+      "label": "左上角照片，展示蓝色海洋与船舷栏杆，天空晴朗。照片上方有悬挂",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        473,
+        267,
+        891,
+        519
+      ],
+      "description": "右上角照片，展示烧烤架上的烤肉、配菜碗和辣椒。照片右上角有手写标签贴纸。",
+      "label": "右上角照片，展示烧烤架上的烤肉、配菜碗和辣椒。照片右上角有手",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        351,
+        512,
+        518,
+        685
+      ],
+      "description": "中间偏左照片，展示一人坐在桌前写字，桌上有笔记本和书籍。",
+      "label": "中间偏左照片，展示一人坐在桌前写字，桌上有笔记本和书籍。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        184,
+        786,
+        502,
+        1175
+      ],
+      "description": "左下角拍立得风格照片，展示一人站在石墙前的草地上，背景为开阔田野。照片下方有手写文字 'Arrebol'。",
+      "label": "左下角拍立得风格照片，展示一人站在石墙前的草地上，背景为开阔",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        583,
+        793,
+        869,
+        1017
+      ],
+      "description": "右下角照片，展示一人穿着背心和短裤站在车旁，背景为街道。照片右侧有手写标签贴纸。",
+      "label": "右下角照片，展示一人穿着背心和短裤站在车旁，背景为街道。照片",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        245,
+        270,
+        339
+      ],
+      "description": "左上角悬挂式标签贴纸，写有 'summer paradise'，带有链条装饰。",
+      "label": "左上角悬挂式标签贴纸，写有 'summer paradise",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        418,
+        248,
+        505
+      ],
+      "description": "左上角海星装饰贴纸，白色，带有阴影效果。",
+      "label": "左上角海星装饰贴纸，白色，带有阴影效果。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        490,
+        545,
+        526
+      ],
+      "description": "中间偏左的小标签贴纸，写有 'LITTLE THINGS make big days'。",
+      "label": "中间偏左的小标签贴纸，写有 'LITTLE THINGS m",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        799,
+        231,
+        918,
+        310
+      ],
+      "description": "右上角手写标签贴纸，写有 'focus on the good'。",
+      "label": "右上角手写标签贴纸，写有 'focus on the goo",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        526,
+        940,
+        699
+      ],
+      "description": "右侧手写文字贴纸，写有 'Happy Children's Day'，带有太阳图案。",
+      "label": "右侧手写文字贴纸，写有 'Happy Children's ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        757,
+        945,
+        851
+      ],
+      "description": "右下角手写标签贴纸，写有 'joy has a habit of returning.'。",
+      "label": "右下角手写标签贴纸，写有 'joy has a habit ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        1031,
+        767,
+        1118
+      ],
+      "description": "右下角黄色便签贴纸，写有英文短句。",
+      "label": "右下角黄色便签贴纸，写有英文短句。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        821,
+        1031,
+        918,
+        1118
+      ],
+      "description": "右下角蓝色饮料瓶和沙漏装饰贴纸。",
+      "label": "右下角蓝色饮料瓶和沙漏装饰贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        173,
+        534,
+        340,
+        649
+      ],
+      "description": "The best journeys start with a one-way ticket in hand and no plan in mind",
+      "label": "The best journeys start with a",
+      "method": "local",
+      "text": "The best journeys start with a one-way ticket in hand and no plan in mind",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        632,
+        1139,
+        918,
+        1218
+      ],
+      "description": "The best souvenir is the person you became while no one was watching",
+      "label": "The best souvenir is the perso",
+      "method": "local",
+      "text": "The best souvenir is the person you became while no one was watching",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_1",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "text_1",
+    "text_2"
+  ]
+}

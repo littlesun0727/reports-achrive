@@ -1,0 +1,156 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#FCEB71"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        95,
+        20,
+        883,
+        316
+      ],
+      "description": "上方矩形照片，展示放在白色盘子里的轻松熊造型咖喱饭，旁边有黑色碗和毛绒玩具。"
+    },
+    {
+      "id": "overlay_pudding",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        28,
+        215,
+        105
+      ],
+      "description": "左上角悬浮的焦糖布丁贴纸，覆盖在照片边缘之上。"
+    },
+    {
+      "id": "overlay_toast",
+      "kind": "overlay",
+      "bbox": [
+        803,
+        38,
+        958,
+        132
+      ],
+      "description": "右上角悬浮的吐司面包贴纸，带有卡通表情，覆盖在照片边缘之上。"
+    },
+    {
+      "id": "dots_bg",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "画布背景上的深褐色圆点图案，均匀分布在整个黄色底色上。"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        95,
+        342,
+        895,
+        638
+      ],
+      "description": "中间矩形照片，展示放在白色盘子里的轻松熊造型蛋包饭，周围有饮料和甜点。"
+    },
+    {
+      "id": "text_mua",
+      "kind": "text",
+      "bbox": [
+        15,
+        438,
+        275,
+        510
+      ],
+      "text": "MUA~",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": true,
+      "italic": false,
+      "description": "左侧的艺术字贴纸“MUA~”，带有深褐色描边和星星装饰。"
+    },
+    {
+      "id": "text_bonus",
+      "kind": "text",
+      "bbox": [
+        590,
+        555,
+        890,
+        615
+      ],
+      "text": "ボーナス",
+      "color": "#FFD700",
+      "font": "hand",
+      "align": "right",
+      "bold": true,
+      "italic": false,
+      "description": "右侧的艺术字贴纸“ボーナス”（奖金），带有放射状线条装饰。"
+    },
+    {
+      "id": "overlay_bear_head",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        635,
+        810,
+        660
+      ],
+      "description": "中间照片下边缘露出的半个轻松熊头贴纸。"
+    },
+    {
+      "id": "overlay_angry_mark",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        655,
+        140,
+        715
+      ],
+      "description": "左下角的愤怒符号贴纸，位于第三张照片左上方。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        100,
+        662,
+        890,
+        968
+      ],
+      "description": "下方矩形照片，展示金属托盘上的提拉米苏、苹果、毛毡水果以及两侧的毛绒玩具。"
+    },
+    {
+      "id": "overlay_bread",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        865,
+        995,
+        995
+      ],
+      "description": "右下角悬浮的网格纹面包贴纸，带有卡通表情，覆盖在照片边缘之上。"
+    }
+  ],
+  "layer_order": [
+    "dots_bg",
+    "photo_top",
+    "overlay_pudding",
+    "overlay_toast",
+    "photo_mid",
+    "text_mua",
+    "text_bonus",
+    "overlay_bear_head",
+    "overlay_angry_mark",
+    "photo_bottom",
+    "overlay_bread"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一位年轻女性站在室内，身穿白色带图案的T恤，背景为浅色墙壁和窗户。摄影画面连续延伸至画布四边，作为全画布底图承载所有独立对象。",
+      "background_type": "photo",
+      "label": "一位年轻女性站在室内，身穿白色带图案的T恤，背景为浅色墙壁和",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_thought",
+      "kind": "photo",
+      "bbox": [
+        135,
+        120,
+        315,
+        336
+      ],
+      "description": "位于左上角思维气泡内的照片，显示一位女性的面部特写，表情搞怪。",
+      "label": "位于左上角思维气泡内的照片，显示一位女性的面部特写，表情搞怪",
+      "method": "local"
+    },
+    {
+      "id": "overlay_rabbit_1",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        120,
+        810,
+        300
+      ],
+      "description": "右上角的方形贴纸，包含一个卡通兔子图案。",
+      "label": "右上角的方形贴纸，包含一个卡通兔子图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_2",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        960,
+        198,
+        1128
+      ],
+      "description": "左下角的方形贴纸，包含一个卡通兔子图案。",
+      "label": "左下角的方形贴纸，包含一个卡通兔子图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_1",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        456,
+        180,
+        504
+      ],
+      "description": "左侧中部的粉色手绘爱心。",
+      "label": "左侧中部的粉色手绘爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        456,
+        765,
+        504
+      ],
+      "description": "右侧中部的粉色手绘爱心。",
+      "label": "右侧中部的粉色手绘爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_3",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        1056,
+        765,
+        1104
+      ],
+      "description": "右下角的粉色手绘爱心。",
+      "label": "右下角的粉色手绘爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_4",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        396,
+        306,
+        420
+      ],
+      "description": "思维气泡下方的粉色手绘小爱心。",
+      "label": "思维气泡下方的粉色手绘小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_5",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        420,
+        306,
+        444
+      ],
+      "description": "思维气泡下方的粉色手绘小爱心。",
+      "label": "思维气泡下方的粉色手绘小爱心。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_thought",
+    "overlay_rabbit_1",
+    "overlay_rabbit_2",
+    "overlay_heart_1",
+    "overlay_heart_2",
+    "overlay_heart_3",
+    "overlay_heart_4",
+    "overlay_heart_5"
+  ]
+}

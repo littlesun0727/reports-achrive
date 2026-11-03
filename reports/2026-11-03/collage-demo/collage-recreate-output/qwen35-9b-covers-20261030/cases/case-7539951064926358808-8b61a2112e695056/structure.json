@@ -1,0 +1,78 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影画面，展示了一个户外咖啡馆的场景。画面中可见木质栏杆、绿植、远处的建筑窗户和街道。左上角和左下角有绿植遮挡，右上角有建筑细节。整个场景作为底图，承载了所有独立对象。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        68,
+        58,
+        560,
+        560
+      ],
+      "description": "一张矩形照片，展示了一位穿着白色无袖上衣的年轻女性，她坐在木质栏杆旁，双手交叠放在栏杆上，侧脸看向右侧。照片边缘有白色手绘风格的边框，边框外有星星和花朵装饰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        310,
+        580,
+        920,
+        980
+      ],
+      "description": "一张矩形照片，展示了一张木质桌子上的物品。桌上有一杯热饮（可能是咖啡或奶茶），旁边放着一块蛋糕和一本打开的书。照片边缘有白色手绘风格的边框，边框外有星星装饰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        380,
+        850,
+        580
+      ],
+      "description": "一个手绘风格的卡通熊图案，位于照片1的右侧，照片2的上方。熊戴着围巾，周围有星星和漩涡装饰。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        650,
+        250,
+        850
+      ],
+      "description": "一个手绘风格的标签，上面写着“NICE DAY”，下方有一个小猫图案。标签边缘有撕裂效果，位于照片2的左侧。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        100,
+        680,
+        200,
+        780
+      ],
+      "text": "NICE\nDAY",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "text_1"
+  ]
+}

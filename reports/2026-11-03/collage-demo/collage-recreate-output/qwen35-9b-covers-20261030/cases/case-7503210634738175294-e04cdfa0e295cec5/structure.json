@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝天白云与绿色草地构成连续摄影环境，延伸至画布四边；前景的复古电脑、键盘及贴纸遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        450,
+        250
+      ],
+      "description": "左上角电脑设置窗口截图，包含文字与图标，作为固定设计单元保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        150,
+        350,
+        450
+      ],
+      "description": "左侧电脑菜单截图，包含文字与图标，作为固定设计单元保留。"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        120,
+        180,
+        880,
+        700
+      ],
+      "description": "复古电脑屏幕显示像素风格厨房场景，人物手持蛋糕，保留摄影环境，屏幕边框清晰。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        450,
+        450,
+        950
+      ],
+      "description": "前景贴纸，人物手持蛋糕与叉子，轮廓清晰，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        150,
+        350,
+        250
+      ],
+      "description": "气泡对话框，包含文字 'online'，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        650,
+        1000,
+        850
+      ],
+      "description": "右下角颜色选择器截图，包含文字与图标，作为固定设计单元保留。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        800,
+        1000,
+        950
+      ],
+      "description": "右下角对话框截图，包含文字与图标，作为固定设计单元保留。"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        650,
+        1000,
+        950
+      ],
+      "description": "底部键盘与桌面区域，包含文字与图标，作为固定设计单元保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_1",
+    "overlay_2",
+    "photo_1",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7"
+  ]
+}

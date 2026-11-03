@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2561
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2561
+      ],
+      "description": "一张连续的海滩摄影画面，包含蓝天、远山、沙滩、海水及水中活动的人群。画面中央叠加了一位戴草帽、穿蓝白条纹衫的女性，其身体与背景海水融合，但头部和上半身清晰可见，属于前景主体。前景左下角有一杯黄色饮品，右下角有小红书水印。整张底图承载全画布，主体与环境共同替换。",
+      "background_type": "photo",
+      "label": "一张连续的海滩摄影画面，包含蓝天、远山、沙滩、海水及水中活动",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        475,
+        845,
+        965,
+        1716
+      ],
+      "description": "前景主体照片，一位戴草帽、穿蓝白条纹长袖衫的女性，闭眼微笑，身体半透明融入背景海水，头部和上半身清晰。该照片为独立可替换单元，与背景底图分离。",
+      "label": "前景主体照片，一位戴草帽、穿蓝白条纹长袖衫的女性，闭眼微笑，",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        101,
+        1793,
+        432,
+        2561
+      ],
+      "description": "前景左下角一杯黄色饮品，带吸管和冰块，杯身透明，内容物为黄色液体，属于独立可替换照片单元。",
+      "label": "前景左下角一杯黄色饮品，带吸管和冰块，杯身透明，内容物为黄色",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        1296,
+        2382,
+        1440,
+        2535
+      ],
+      "description": "小红书\n小红书号：sisi520_",
+      "label": "小红书\n小红书号：sisi520_",
+      "method": "local",
+      "text": "小红书\n小红书号：sisi520_",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "text_1"
+  ]
+}

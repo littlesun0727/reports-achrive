@@ -1,0 +1,148 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的海滨风景摄影底图，包含蓝天、大海、沙滩、礁石和前景的木栈道。画面延伸至画布四边，作为所有独立照片和装饰元素的底层背景。"
+  },
+  "objects": [
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        90,
+        360,
+        148
+      ],
+      "description": "位于左上角照片上方的米色胶带贴纸，带有手写体英文文字“You're a Sunday morning Kind of beauty”，边缘呈撕裂状。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        182,
+        105,
+        535,
+        365
+      ],
+      "description": "左上方的矩形照片，展示了透过绿色树叶看到的海湾景色，海面上有几艘小船，远处有海岸线。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        188,
+        740,
+        255
+      ],
+      "description": "一枚银色回形针图案，位于右侧照片上方，具有金属光泽和立体感。"
+    },
+    {
+      "id": "text_surprise",
+      "kind": "text",
+      "bbox": [
+        640,
+        270,
+        850,
+        290
+      ],
+      "text": "An unexpected surprise. ✨",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        480,
+        225,
+        885,
+        635
+      ],
+      "description": "右侧竖向矩形照片，主体为一名身穿白色露肩上衣和短裙的女子在海滩上挥手微笑，背景是海面上的贝壳状建筑（青岛大剧院）。"
+    },
+    {
+      "id": "text_life",
+      "kind": "text",
+      "bbox": [
+        115,
+        460,
+        505,
+        480
+      ],
+      "text": "Life isn't perfect but your outfit can be.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        540,
+        165,
+        650
+      ],
+      "description": "三个白色的水滴或花瓣形状的简笔画线条装饰，位于左下方照片的左上角。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        85,
+        605,
+        550,
+        845
+      ],
+      "description": "左下方的横向矩形照片，展示了一名男子骑自行车经过海边栈道，前景有松树枝叶遮挡，背景是大海。"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        780,
+        585,
+        845
+      ],
+      "description": "一小段半透明的胶带贴纸，粘贴在左下照片的右下角边缘处。"
+    },
+    {
+      "id": "text_travel",
+      "kind": "text",
+      "bbox": [
+        480,
+        745,
+        855,
+        800
+      ],
+      "text": "Travel is the spice of life,   but remember,\noccasionally life itself needs to be\nthe spice sprinkled on our journey.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "overlay_tape_1",
+    "photo_right",
+    "overlay_clip",
+    "text_surprise",
+    "text_life",
+    "photo_bottom_left",
+    "overlay_drops",
+    "overlay_tape_2",
+    "text_travel"
+  ]
+}

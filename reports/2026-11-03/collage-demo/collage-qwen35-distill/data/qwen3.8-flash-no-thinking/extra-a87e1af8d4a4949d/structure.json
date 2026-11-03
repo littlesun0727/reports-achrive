@@ -1,0 +1,203 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画布连续风景摄影底图，上部为纯净蓝天，下部为雪山与草甸。画面右下角有一匹黑马在吃草。上层照片、月亮装饰及文字遮挡局部，保留完整环境。"
+  },
+  "objects": [
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        250,
+        38,
+        746,
+        91
+      ],
+      "text": "月在自己周期里阴晴圆缺 无数个“圆缺”构成了Ta\n而我也在自己的序里汇成了“自己”",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_moon_art",
+      "kind": "overlay",
+      "bbox": [
+        229,
+        98,
+        746,
+        178
+      ],
+      "description": "手绘风格的深蓝色英文单词 'Moon'，两侧带有黄色短线条装饰。"
+    },
+    {
+      "id": "overlay_moon_phases",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        156,
+        882,
+        325
+      ],
+      "description": "一组排列成弧形的黄色月亮图案，展示从新月到满月的不同盈亏阶段。"
+    },
+    {
+      "id": "overlay_lines",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        215,
+        862,
+        680
+      ],
+      "description": "多条深蓝色手绘细线，连接上方的月亮图案与下方的各个季节照片框。"
+    },
+    {
+      "id": "photo_summer",
+      "kind": "photo",
+      "bbox": [
+        237,
+        458,
+        388,
+        605
+      ],
+      "description": "竖向长方形照片，显示夕阳下的城市天际线与水面倒影，前景有戴帽人物背影。"
+    },
+    {
+      "id": "frame_summer",
+      "kind": "frame",
+      "bbox": [
+        219,
+        435,
+        406,
+        618
+      ],
+      "description": "围绕夏季照片的手绘风格深蓝色边框，左上角写有 'Summer' 字样。",
+      "photo_id": [
+        "photo_summer"
+      ]
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        629,
+        398,
+        778,
+        548
+      ],
+      "description": "竖向长方形照片，显示蓝天白云下的湖景，前景有戴帽人物站在栏杆旁。"
+    },
+    {
+      "id": "frame_autumn",
+      "kind": "frame",
+      "bbox": [
+        611,
+        382,
+        796,
+        560
+      ],
+      "description": "围绕秋季照片的手绘风格深蓝色边框，顶部写有 'Autumn' 字样。",
+      "photo_id": [
+        "photo_autumn"
+      ]
+    },
+    {
+      "id": "photo_spring",
+      "kind": "photo",
+      "bbox": [
+        75,
+        680,
+        250,
+        848
+      ],
+      "description": "竖向长方形照片，显示红褐色树林背景，前景有戴帽人物坐在木椅上。"
+    },
+    {
+      "id": "frame_spring",
+      "kind": "frame",
+      "bbox": [
+        57,
+        655,
+        268,
+        860
+      ],
+      "description": "围绕春季照片的手绘风格深蓝色边框，左上角写有 'Spring' 字样。",
+      "photo_id": [
+        "photo_spring"
+      ]
+    },
+    {
+      "id": "photo_winter",
+      "kind": "photo",
+      "bbox": [
+        825,
+        630,
+        965,
+        765
+      ],
+      "description": "横向长方形照片，显示室内窗边场景，有人物坐在桌前。"
+    },
+    {
+      "id": "frame_winter",
+      "kind": "frame",
+      "bbox": [
+        807,
+        610,
+        983,
+        777
+      ],
+      "description": "围绕冬季照片的手绘风格深蓝色边框，顶部写有 'Winter' 字样。",
+      "photo_id": [
+        "photo_winter"
+      ]
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        680,
+        570,
+        810
+      ],
+      "description": "黄色五角星插画，带有简单的笑脸表情和周围放射状短线装饰。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        335,
+        925,
+        665,
+        950
+      ],
+      "text": "在无数个瞬间里感受自己",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_summer",
+    "photo_autumn",
+    "photo_spring",
+    "photo_winter",
+    "frame_summer",
+    "frame_autumn",
+    "frame_spring",
+    "frame_winter",
+    "overlay_lines",
+    "overlay_moon_phases",
+    "overlay_moon_art",
+    "overlay_star",
+    "text_top",
+    "text_bottom"
+  ]
+}

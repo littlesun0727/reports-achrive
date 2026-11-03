@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-ce108cec-ea41-9d57-8d70-1a40076e4261",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 8362,
+    "total_tokens": 8727,
+    "completion_tokens": 365,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 2481,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 365
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        345\n      ],\n      \"description\": \"顶部横向风景照片，展示海岛、沙滩及在海中游泳的人群。下边缘呈不规则波浪状，覆盖在中间人物照片的天空区域之上。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        280,\n        1000,\n        760\n      ],\n      \"description\": \"中间竖向人像照片，主体为戴草帽穿蓝衣的女子站在海水中。上边缘被顶部照片遮挡，下边缘呈不规则波浪状，覆盖在底部前景照片的海面之上。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        650,\n        1000,\n        1000\n      ],\n      \"description\": \"底部特写照片，前景为一杯模糊的黄色饮料，背景为海滩和戏水者。上边缘呈不规则波浪状，位于图层最上方，遮挡了中间照片的下半部分。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_mid\",\n    \"photo_top\",\n    \"photo_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

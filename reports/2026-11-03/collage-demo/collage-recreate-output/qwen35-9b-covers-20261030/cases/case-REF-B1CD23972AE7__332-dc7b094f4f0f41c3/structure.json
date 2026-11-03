@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝天白云与云朵构成连续摄影画面，边缘露出的云层和天空延伸至画布四边；上层多张照片、文字和装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        80,
+        150,
+        280,
+        350
+      ],
+      "description": "猫眼特写照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        720,
+        150,
+        920,
+        350
+      ],
+      "description": "黄色卡片照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        720,
+        350,
+        920,
+        550
+      ],
+      "description": "木板上小熊照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        80,
+        350,
+        280,
+        550
+      ],
+      "description": "手持蘑菇照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        80,
+        550,
+        280,
+        750
+      ],
+      "description": "手掌中星星照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        380,
+        550,
+        580,
+        750
+      ],
+      "description": "蜡烛照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        680,
+        550,
+        880,
+        750
+      ],
+      "description": "蓝天照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        380,
+        350,
+        580,
+        550
+      ],
+      "description": "眼睛特写照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        150,
+        580,
+        350
+      ],
+      "description": "带有文字的纸张，文字、纸张和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        380,
+        850,
+        620,
+        950
+      ],
+      "text": "20%细腻感知",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8",
+    "overlay_1",
+    "text_1"
+  ]
+}

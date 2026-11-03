@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "photo_base_street",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "一张连续的街景照片作为全画布底图，包含蓝天、电线杆、街道建筑及路面。画面中可见树叶遮挡左上角，整体场景延伸至画布四边。上层拼贴了多张独立照片和装饰元素，但底图本身是完整的摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续的街景照片作为全画布底图，包含蓝天、电线杆、街道建筑",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_tape_top_left",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        154,
+        211,
+        284
+      ],
+      "description": "位于左上角的米色胶带贴纸，呈倾斜状粘贴在底图树叶之上。",
+      "label": "位于左上角的米色胶带贴纸，呈倾斜状粘贴在底图树叶之上。",
+      "method": "extract"
+    },
+    {
+      "id": "text_live_life",
+      "kind": "text",
+      "bbox": [
+        562,
+        186,
+        1004,
+        316
+      ],
+      "description": "黑色手写体英文文字，带有白色粗糙笔触背景效果，位于右上天空区域。",
+      "label": "黑色手写体英文文字，带有白色粗糙笔触背景效果，位于右上天空区",
+      "method": "local",
+      "text": "Live the life\nyou've imagined.",
+      "text_status": "known",
+      "style": {
+        "fill": "#1A1A1A",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_palm_tree_woman",
+      "kind": "photo",
+      "bbox": [
+        103,
+        219,
+        464,
+        705
+      ],
+      "description": "竖向矩形照片，显示一名戴帽女子站在有棕榈树的街道上，背景有车辆和建筑。",
+      "label": "竖向矩形照片，显示一名戴帽女子站在有棕榈树的街道上，背景有车",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip_right",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        369,
+        859,
+        502
+      ],
+      "description": "白色长尾夹图形，位于右侧照片的顶部边缘，起到固定装饰作用。",
+      "label": "白色长尾夹图形，位于右侧照片的顶部边缘，起到固定装饰作用。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_orange_top_woman",
+      "kind": "photo",
+      "bbox": [
+        616,
+        486,
+        1010,
+        1012
+      ],
+      "description": "竖向矩形照片，显示一名穿橙色上衣的女子侧身站立，背景为街道和树木。",
+      "label": "竖向矩形照片，显示一名穿橙色上衣的女子侧身站立，背景为街道和",
+      "method": "local"
+    },
+    {
+      "id": "photo_food_display",
+      "kind": "photo",
+      "bbox": [
+        178,
+        972,
+        524,
+        1442
+      ],
+      "description": "竖向矩形照片，特写展示摆放在香蕉叶上的泰式炒面和大虾等食物。",
+      "label": "竖向矩形照片，特写展示摆放在香蕉叶上的泰式炒面和大虾等食物。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape_bottom",
+      "kind": "overlay",
+      "bbox": [
+        437,
+        1361,
+        583,
+        1490
+      ],
+      "description": "位于底部中间的米色胶带贴纸，呈倾斜状粘贴在食物照片下缘与底图交界处。",
+      "label": "位于底部中间的米色胶带贴纸，呈倾斜状粘贴在食物照片下缘与底图",
+      "method": "extract"
+    },
+    {
+      "id": "text_our_beloved",
+      "kind": "text",
+      "bbox": [
+        616,
+        1207,
+        918,
+        1377
+      ],
+      "description": "白色手写体英文文字，分三行排列，周围点缀有小星星符号，位于右下路面区域。",
+      "label": "白色手写体英文文字，分三行排列，周围点缀有小星星符号，位于右",
+      "method": "local",
+      "text": "OUR\nBELOVED\nSUMMER",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base_street",
+    "photo_palm_tree_woman",
+    "photo_orange_top_woman",
+    "photo_food_display",
+    "overlay_tape_top_left",
+    "overlay_clip_right",
+    "overlay_tape_bottom",
+    "text_live_life",
+    "text_our_beloved"
+  ]
+}

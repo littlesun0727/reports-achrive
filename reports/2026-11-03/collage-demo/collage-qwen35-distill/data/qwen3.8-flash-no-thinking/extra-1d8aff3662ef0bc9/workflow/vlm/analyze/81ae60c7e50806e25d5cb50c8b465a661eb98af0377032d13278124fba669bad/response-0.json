@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-fe3962ca-2320-99ed-a226-5809e41208f3",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7617,
+    "total_tokens": 8616,
+    "completion_tokens": 999,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1736,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 999
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base_street\",\n    \"description\": \"一张连续的街景照片作为全画布底图，包含蓝天、电线杆、街道建筑及路面。画面中可见树叶遮挡左上角，整体场景延伸至画布四边。上层拼贴了多张独立照片和装饰元素，但底图本身是完整的摄影环境。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_tape_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        40,\n        95,\n        195,\n        175\n      ],\n      \"description\": \"位于左上角的米色胶带贴纸，呈倾斜状粘贴在底图树叶之上。\"\n    },\n    {\n      \"id\": \"text_live_life\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        520,\n        115,\n        930,\n        195\n      ],\n      \"text\": \"Live the life\\nyou've imagined.\",\n      \"color\": \"#1A1A1A\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false,\n      \"description\": \"黑色手写体英文文字，带有白色粗糙笔触背景效果，位于右上天空区域。\"\n    },\n    {\n      \"id\": \"photo_palm_tree_woman\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        95,\n        135,\n        430,\n        435\n      ],\n      \"description\": \"竖向矩形照片，显示一名戴帽女子站在有棕榈树的街道上，背景有车辆和建筑。\"\n    },\n    {\n      \"id\": \"overlay_clip_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        690,\n        228,\n        795,\n        310\n      ],\n      \"description\": \"白色长尾夹图形，位于右侧照片的顶部边缘，起到固定装饰作用。\"\n    },\n    {\n      \"id\": \"photo_orange_top_woman\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        570,\n        300,\n        935,\n        625\n      ],\n      \"description\": \"竖向矩形照片，显示一名穿橙色上衣的女子侧身站立，背景为街道和树木。\"\n    },\n    {\n      \"id\": \"photo_food_display\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        165,\n        600,\n        485,\n        890\n      ],\n      \"description\": \"竖向矩形照片，特写展示摆放在香蕉叶上的泰式炒面和大虾等食物。\"\n    },\n    {\n      \"id\": \"overlay_tape_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        405,\n        840,\n        540,\n        920\n      ],\n      \"description\": \"位于底部中间的米色胶带贴纸，呈倾斜状粘贴在食物照片下缘与底图交界处。\"\n    },\n    {\n      \"id\": \"text_our_beloved\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        570,\n        745,\n        850,\n        850\n      ],\n      \"text\": \"OUR\\nBELOVED\\nSUMMER\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false,\n      \"description\": \"白色手写体英文文字，分三行排列，周围点缀有小星星符号，位于右下路面区域。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_palm_tree_woman\",\n    \"photo_orange_top_woman\",\n    \"photo_food_display\",\n    \"overlay_tape_top_left\",\n    \"overlay_clip_right\",\n    \"overlay_tape_bottom\",\n    \"text_live_life\",\n    \"text_our_beloved\"\n  ]\n}",
+  "tool_calls": false
+}

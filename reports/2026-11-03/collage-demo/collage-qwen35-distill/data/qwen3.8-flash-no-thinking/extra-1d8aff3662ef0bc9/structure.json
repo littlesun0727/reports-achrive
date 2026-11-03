@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base_street",
+    "description": "一张连续的街景照片作为全画布底图，包含蓝天、电线杆、街道建筑及路面。画面中可见树叶遮挡左上角，整体场景延伸至画布四边。上层拼贴了多张独立照片和装饰元素，但底图本身是完整的摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "overlay_tape_top_left",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        95,
+        195,
+        175
+      ],
+      "description": "位于左上角的米色胶带贴纸，呈倾斜状粘贴在底图树叶之上。"
+    },
+    {
+      "id": "text_live_life",
+      "kind": "text",
+      "bbox": [
+        520,
+        115,
+        930,
+        195
+      ],
+      "text": "Live the life\nyou've imagined.",
+      "color": "#1A1A1A",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "黑色手写体英文文字，带有白色粗糙笔触背景效果，位于右上天空区域。"
+    },
+    {
+      "id": "photo_palm_tree_woman",
+      "kind": "photo",
+      "bbox": [
+        95,
+        135,
+        430,
+        435
+      ],
+      "description": "竖向矩形照片，显示一名戴帽女子站在有棕榈树的街道上，背景有车辆和建筑。"
+    },
+    {
+      "id": "overlay_clip_right",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        228,
+        795,
+        310
+      ],
+      "description": "白色长尾夹图形，位于右侧照片的顶部边缘，起到固定装饰作用。"
+    },
+    {
+      "id": "photo_orange_top_woman",
+      "kind": "photo",
+      "bbox": [
+        570,
+        300,
+        935,
+        625
+      ],
+      "description": "竖向矩形照片，显示一名穿橙色上衣的女子侧身站立，背景为街道和树木。"
+    },
+    {
+      "id": "photo_food_display",
+      "kind": "photo",
+      "bbox": [
+        165,
+        600,
+        485,
+        890
+      ],
+      "description": "竖向矩形照片，特写展示摆放在香蕉叶上的泰式炒面和大虾等食物。"
+    },
+    {
+      "id": "overlay_tape_bottom",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        840,
+        540,
+        920
+      ],
+      "description": "位于底部中间的米色胶带贴纸，呈倾斜状粘贴在食物照片下缘与底图交界处。"
+    },
+    {
+      "id": "text_our_beloved",
+      "kind": "text",
+      "bbox": [
+        570,
+        745,
+        850,
+        850
+      ],
+      "text": "OUR\nBELOVED\nSUMMER",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false,
+      "description": "白色手写体英文文字，分三行排列，周围点缀有小星星符号，位于右下路面区域。"
+    }
+  ],
+  "layer_order": [
+    "photo_palm_tree_woman",
+    "photo_orange_top_woman",
+    "photo_food_display",
+    "overlay_tape_top_left",
+    "overlay_clip_right",
+    "overlay_tape_bottom",
+    "text_live_life",
+    "text_our_beloved"
+  ]
+}

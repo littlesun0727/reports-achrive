@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_scene",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下半部为连续的室内节庆场景照片：一只戴红帽、穿黄格衫和红色背带裤的白兔角色站在画面偏左，旁边立着大型橙色胡萝卜；后方可见彩色玻璃门、砖墙、灯饰、圣诞树、木箱与地面。保留完整摄影环境，矩形显示窗口从 y=720 延伸至画布底边。"
+    },
+    {
+      "id": "overlay_title_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "覆盖画布上半部的均匀橙色矩形标题面板，横跨全宽，底边与下方照片的水平边界相接；作为独立固定设计单元保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        340,
+        340,
+        741,
+        380
+      ],
+      "text": "Carrot Rabbit-14:27",
+      "color": "#B7E653",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_scene",
+    "overlay_title_panel",
+    "text_title"
+  ]
+}

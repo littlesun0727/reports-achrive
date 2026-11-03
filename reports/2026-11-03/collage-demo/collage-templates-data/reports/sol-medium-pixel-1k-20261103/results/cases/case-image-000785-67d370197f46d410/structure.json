@@ -1,0 +1,127 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "patterned_background",
+    "description": "连续覆盖全画布的固定棕色底图：上部为横向浅色与深棕色条纹，下部为带浅黄色圆点的深棕色纹理区域，交界处有横向圆点带。照片卡片与装饰遮挡局部，保留可见底图及其纹理图案。"
+  },
+  "objects": [
+    {
+      "id": "photo_dessert_closeup",
+      "kind": "photo",
+      "bbox": [
+        289,
+        174,
+        804,
+        539
+      ],
+      "description": "上方卡片内的横向近景照片：桌面上的碗装甜品、配料和勺子，背景可见室内窗边环境；保留完整摄影环境，照片窗口为矩形。"
+    },
+    {
+      "id": "frame_upper_card",
+      "kind": "frame",
+      "bbox": [
+        281,
+        122,
+        812,
+        596
+      ],
+      "description": "承载上方照片的白色应用界面卡片，含浅色标题栏、左侧返回箭头、居中的“Today”字样及右侧关闭符号；照片位于标题栏下方，卡片边缘与阴影整体保留。",
+      "photo_id": [
+        "photo_dessert_closeup"
+      ]
+    },
+    {
+      "id": "frame_dotted_mat",
+      "kind": "frame",
+      "bbox": [
+        195,
+        712,
+        889,
+        1284
+      ],
+      "description": "下方照片的棕褐色纸质承托框，矩形照片窗口周围印有浅青色圆点，完整保留框体、圆点及边缘；右侧标签和左上方装饰覆盖其部分区域。",
+      "photo_id": [
+        "photo_dessert_table"
+      ]
+    },
+    {
+      "id": "photo_dessert_table",
+      "kind": "photo",
+      "bbox": [
+        238,
+        762,
+        848,
+        1171
+      ],
+      "description": "下方横向室内餐桌照片：桌上有饮料、碗装甜品和餐具，前景坐着两只玩偶；保留完整摄影环境，照片窗口为矩形。"
+    },
+    {
+      "id": "overlay_social_badge",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        34,
+        971,
+        108
+      ],
+      "description": "右上方棕色圆点纹样的社交数据气泡，含白色对话气泡、爱心与人物图标及数字“27”“111”“99”，底部有向下的小尖角，作为完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_good_things",
+      "kind": "overlay",
+      "bbox": [
+        673,
+        476,
+        1075,
+        631
+      ],
+      "description": "右侧白色描边的装饰字样“GOOD THINGS”，配有三枚白色星形点缀；字形与星星构成一个固定装饰单元，覆盖条纹底图。"
+    },
+    {
+      "id": "overlay_plog",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        659,
+        350,
+        796
+      ],
+      "description": "下方照片框左上方的白色手绘椭圆轮廓装饰，内有装饰字样“PLOG”，轮廓上带小圆点和星形点缀；整体压在承托框上沿。"
+    },
+    {
+      "id": "overlay_sweet_summer",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        887,
+        1052,
+        1029
+      ],
+      "description": "覆盖下方照片右缘及承托框的白色矩形标签，带深棕色边框和手写风格字样“Sweet Summer”；纸卡与字样作为一个固定装饰单元保留。"
+    },
+    {
+      "id": "overlay_emoticon",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        1232,
+        323,
+        1311
+      ],
+      "description": "下方左侧白色矩形底板上的黑色表情符号“(>~ㅎ)”，字形与底板共同构成独立固定装饰。"
+    }
+  ],
+  "layer_order": [
+    "frame_upper_card",
+    "photo_dessert_closeup",
+    "frame_dotted_mat",
+    "photo_dessert_table",
+    "overlay_social_badge",
+    "overlay_good_things",
+    "overlay_plog",
+    "overlay_sweet_summer",
+    "overlay_emoticon"
+  ]
+}

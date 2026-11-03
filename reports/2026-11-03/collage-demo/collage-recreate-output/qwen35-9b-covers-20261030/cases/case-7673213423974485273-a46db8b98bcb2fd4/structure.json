@@ -1,0 +1,124 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "顶部照片，展示一位长发女性坐在餐桌前，手持汤勺遮挡面部，桌上摆放着铜锅、炒饭、沙拉和烤肉等食物。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        667,
+        1000,
+        1000
+      ],
+      "description": "底部照片，展示一位短发男性坐在餐桌前，手持汤勺遮挡面部，桌上摆放着铜锅、炒饭、沙拉和烤肉等食物。"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        333,
+        180,
+        450
+      ],
+      "description": "左上角的卡通贴纸，包含一个蓝色小熊和一个白色兔子，旁边有“快乐加载中”的文字。"
+    },
+    {
+      "id": "photo_salad",
+      "kind": "photo",
+      "bbox": [
+        180,
+        333,
+        380,
+        450
+      ],
+      "description": "沙拉照片，展示了一盘色彩丰富的沙拉，包含生菜、胡萝卜丝、黄瓜片等。"
+    },
+    {
+      "id": "photo_skewers",
+      "kind": "photo",
+      "bbox": [
+        450,
+        333,
+        650,
+        450
+      ],
+      "description": "烤肉串照片，展示了一盘整齐排列的烤肉串。"
+    },
+    {
+      "id": "photo_fried_rice",
+      "kind": "photo",
+      "bbox": [
+        180,
+        450,
+        380,
+        567
+      ],
+      "description": "炒饭照片，展示了一盘金黄色的炒饭，上面撒有海苔碎。"
+    },
+    {
+      "id": "photo_pot",
+      "kind": "photo",
+      "bbox": [
+        530,
+        450,
+        730,
+        567
+      ],
+      "description": "铜锅照片，展示了一锅热气腾腾的汤锅，上面覆盖着融化的奶酪。"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        100,
+        567,
+        900,
+        667
+      ],
+      "text": "一起吃饭 | 普通日子里的小浪漫",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_decorations",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        333,
+        990,
+        667
+      ],
+      "description": "右侧的装饰元素，包括叉子、刀、小鱼等手绘图案。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_top_left",
+    "photo_salad",
+    "photo_skewers",
+    "photo_fried_rice",
+    "photo_pot",
+    "text_main",
+    "overlay_decorations"
+  ]
+}

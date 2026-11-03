@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-977d9913-2b2f-9a15-8aca-2fe1d9c3b3c5",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7083,
+    "total_tokens": 8514,
+    "completion_tokens": 1431,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1202,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1431
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张手持橙色出租车模型的特写照片作为全画布底图，背景为深色木纹桌面。主体包括手、绿色袖口和橙色车身（印有“的士 TAXI”字样），延伸至画布四边。上层多张独立照片遮挡了部分车身和桌面。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_mountain\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        70,\n        12,\n        460,\n        183\n      ],\n      \"description\": \"左上角风景照片，显示车窗视角下的雪山与黄昏天空，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"photo_hands\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        545,\n        62,\n        875,\n        290\n      ],\n      \"description\": \"右上部特写照片，显示穿着碎花裙的人物双手交叠在腹部，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"frame_receipt\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        30,\n        160,\n        380,\n        395\n      ],\n      \"description\": \"左侧米色收据卡片，带有阴影效果，上面印有一只蝴蝶图案及价格列表文字。\"\n    },\n    {\n      \"id\": \"photo_sparkler\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        705,\n        245,\n        1000,\n        385\n      ],\n      \"description\": \"右侧夜景照片，显示黑暗中绽放的烟花棒火花，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"photo_orange_clothes\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        450,\n        250,\n        575\n      ],\n      \"description\": \"左中位置照片，显示身穿橙色卫衣的人群，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"photo_seaside\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        75,\n        540,\n        380,\n          735\n      ],\n      \"description\": \"左下位置照片，显示一名女子在海边栏杆旁眺望，色调偏冷，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"text_2026\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        845,\n        430,\n        990,\n        465\n      ],\n      \"text\": \"2026\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"right\",\n      \"bold\": true,\n      \"italic\": true\n    },\n    {\n      \"id\": \"photo_swans\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        240,\n        715,\n        485,\n        815\n      ],\n      \"description\": \"底部中间照片，显示两只黑天鹅在水中相对，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"photo_street\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        665,\n        515,\n        970,\n        715\n      ],\n      \"description\": \"右中位置街景照片，显示繁忙的城市十字路口及红色出租车，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"photo_sitting_man\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        580,\n        690,\n        805,\n        835\n      ],\n      \"description\": \"右下位置照片，显示一人坐在路边椅子上，头部被蓝色物体遮挡，矩形圆角窗口。\"\n    },\n    {\n      \"id\": \"text_2025\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        35,\n        805,\n        205,\n        845\n      ],\n      \"text\": \"2025\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": true,\n      \"italic\": true\n    },\n    {\n      \"id\": \"overlay_line\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        80,\n        460,\n        995,\n        870\n      ],\n      \"description\": \"一条白色虚线曲线，贯穿画面下半部分，连接左右两侧的文字区域，位于照片层之上。\"\n    },\n    {\n      \"id\": \"text_footer\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        285,\n        890,\n        745,\n        925\n      ],\n      \"text\": \"2025-2026 COLLECTION .ALL RIGHTS RESERVED.\\nSHOT BY KAZUKI IN 2025.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": true\n    }\n  ],\n  \"layer_order\": [\n    \"photo_mountain\",\n    \"photo_hands\",\n    \"frame_receipt\",\n    \"photo_sparkler\",\n    \"photo_orange_clothes\",\n    \"photo_seaside\",\n    \"photo_street\",\n    \"photo_swans\",\n    \"photo_sitting_man\",\n    \"text_2026\",\n    \"text_2025\",\n    \"overlay_line\",\n    \"text_footer\"\n  ]\n}",
+  "tool_calls": false
+}

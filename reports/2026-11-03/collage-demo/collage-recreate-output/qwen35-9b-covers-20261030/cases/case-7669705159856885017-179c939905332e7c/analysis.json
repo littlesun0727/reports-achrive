@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        450,
+        900
+      ],
+      "description": "左侧人物全身自拍，手持手机，背景为室内环境，包含人物、手机、饰品及周围空间。",
+      "label": "左侧人物全身自拍，手持手机，背景为室内环境，包含人物、手机、",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        450,
+        0,
+        900,
+        450
+      ],
+      "description": "右上人物半身自拍，戴帽子，背景为墙面，包含人物、帽子、项链及墙面文字。",
+      "label": "右上人物半身自拍，戴帽子，背景为墙面，包含人物、帽子、项链及",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        450,
+        450,
+        900,
+        675
+      ],
+      "description": "右中人物坐姿，位于台阶上，包含人物、台阶、包袋及腿部。",
+      "label": "右中人物坐姿，位于台阶上，包含人物、台阶、包袋及腿部。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bot_right",
+      "kind": "photo",
+      "bbox": [
+        450,
+        675,
+        900,
+        900
+      ],
+      "description": "右下包袋与手机特写，包含黑色包、手机壳、杂志及地面。",
+      "label": "右下包袋与手机特写，包含黑色包、手机壳、杂志及地面。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_left_ui",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        450,
+        900
+      ],
+      "description": "左侧界面UI元素，包括左上角关闭按钮、顶部功能图标、底部故事按钮及文字。",
+      "label": "左侧界面UI元素，包括左上角关闭按钮、顶部功能图标、底部故事",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_ui",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        0,
+        900,
+        900
+      ],
+      "description": "右侧界面UI元素，包括左上角关闭按钮、顶部功能图标、底部故事按钮及文字。",
+      "label": "右侧界面UI元素，包括左上角关闭按钮、顶部功能图标、底部故事",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_top_right",
+    "photo_mid_right",
+    "photo_bot_right",
+    "overlay_left_ui",
+    "overlay_right_ui"
+  ]
+}

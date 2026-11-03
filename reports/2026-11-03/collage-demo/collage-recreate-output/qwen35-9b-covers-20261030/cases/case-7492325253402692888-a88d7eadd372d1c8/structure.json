@@ -1,0 +1,201 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        60,
+        100,
+        940,
+        430
+      ],
+      "description": "上方照片显示一位女性对着镜子自拍，身穿白色长袖上衣和牛仔短裙，手持手机遮挡面部，背景为室内环境，包含墙面插座和深色柜体。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        60,
+        430,
+        940,
+        760
+      ],
+      "description": "下方照片显示同一位女性对着镜子自拍，姿势与上方照片相似，身穿白色长袖上衣和牛仔短裙，手持手机遮挡面部，背景为室内环境，包含墙面插座和深色柜体。"
+    },
+    {
+      "id": "icon_flash_top",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        45,
+        145,
+        85
+      ],
+      "description": "顶部左侧的闪电图标，表示闪光灯功能。"
+    },
+    {
+      "id": "icon_mode_top",
+      "kind": "overlay",
+      "bbox": [
+        175,
+        45,
+        225,
+        85
+      ],
+      "description": "顶部左侧的月亮图标，表示夜景模式。"
+    },
+    {
+      "id": "icon_menu_top",
+      "kind": "overlay",
+      "bbox": [
+        465,
+        45,
+        535,
+        85
+      ],
+      "description": "顶部中央的向下箭头图标，表示菜单选项。"
+    },
+    {
+      "id": "text_raw_max",
+      "kind": "text",
+      "bbox": [
+        750,
+        45,
+        820,
+        85
+      ],
+      "text": "RAW\nMAX",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "icon_focus_top",
+      "kind": "overlay",
+      "bbox": [
+        845,
+        45,
+        895,
+        85
+      ],
+      "description": "顶部右侧的圆形对焦图标。"
+    },
+    {
+      "id": "icon_flash_bottom",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        785,
+        205,
+        835
+      ],
+      "description": "底部左侧的闪电图标，表示闪光灯功能。"
+    },
+    {
+      "id": "icon_mode_bottom",
+      "kind": "overlay",
+      "bbox": [
+        255,
+        785,
+        335,
+        835
+      ],
+      "description": "底部左侧的月亮图标，表示夜景模式。"
+    },
+    {
+      "id": "icon_focus_bottom",
+      "kind": "overlay",
+      "bbox": [
+        375,
+        785,
+        455,
+        835
+      ],
+      "description": "底部中央的圆形对焦图标。"
+    },
+    {
+      "id": "icon_filter_bottom",
+      "kind": "overlay",
+      "bbox": [
+        515,
+        785,
+        595,
+        835
+      ],
+      "description": "底部中央的滤镜图标。"
+    },
+    {
+      "id": "text_ratio",
+      "kind": "text",
+      "bbox": [
+        665,
+        785,
+        735,
+        835
+      ],
+      "text": "4:3",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "icon_zoom_bottom",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        785,
+        875,
+        835
+      ],
+      "description": "底部右侧的加号图标，表示变焦功能。"
+    },
+    {
+      "id": "button_shutter",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        855,
+        600,
+        945
+      ],
+      "description": "底部中央的圆形快门按钮。"
+    },
+    {
+      "id": "icon_rotate_bottom",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        875,
+        875,
+        925
+      ],
+      "description": "底部右侧的旋转图标。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "icon_flash_top",
+    "icon_mode_top",
+    "icon_menu_top",
+    "text_raw_max",
+    "icon_focus_top",
+    "icon_flash_bottom",
+    "icon_mode_bottom",
+    "icon_focus_bottom",
+    "icon_filter_bottom",
+    "text_ratio",
+    "icon_zoom_bottom",
+    "button_shutter",
+    "icon_rotate_bottom"
+  ]
+}

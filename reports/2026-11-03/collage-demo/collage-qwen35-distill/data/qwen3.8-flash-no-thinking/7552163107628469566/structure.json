@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的蓝色天空摄影底图，画面中有多条斜向延伸的电线穿过整个画布。上层照片和文字遮挡局部，保留完整的天空与电线环境。"
+  },
+  "objects": [
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        45,
+        20,
+        530,
+        960
+      ],
+      "text": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_balloon",
+      "kind": "photo",
+      "bbox": [
+        530,
+        352,
+        905,
+        745
+      ],
+      "description": "矩形照片窗口，显示一只手握着粉色带黄色星星的气球，背景为黄、白、深蓝拼接墙面。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        610,
+        325,
+        845,
+        385
+      ],
+      "description": "半透明胶带贴纸，位于气球照片上方边缘，具有反光质感和褶皱细节。"
+    }
+  ],
+  "layer_order": [
+    "photo_balloon",
+    "overlay_tape",
+    "text_main"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "街道场景摄影底图，包含灰色建筑墙面、柏油路面、路缘石及远处行人。主体人物站立于路面中央，摄影环境连续延伸至画布边缘，作为全画布底图承载所有上层装饰与照片。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        140,
+        100,
+        380,
+        340
+      ],
+      "description": "左上角星形窗口内的照片，展示人物上半身，保留摄影环境，沿星形轮廓裁切。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        680,
+        620,
+        940,
+        940
+      ],
+      "description": "右下角圆形窗口内的照片，展示人物全身，保留摄影环境，沿圆形轮廓裁切。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        680,
+        340,
+        860
+      ],
+      "description": "左下角心形贴纸，包含'I'、红色心形图案及'ME'字样，白色底板，黑色描边，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        340,
+        340,
+        660,
+        560
+      ],
+      "description": "人物周围漂浮的装饰元素，包括小星星、云朵、闪光及弧形线条，白色手绘风格，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2"
+  ]
+}

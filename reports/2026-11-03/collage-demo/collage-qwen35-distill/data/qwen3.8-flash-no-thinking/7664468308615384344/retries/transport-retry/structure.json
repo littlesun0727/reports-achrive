@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_base",
+    "description": "全画布底图由左侧树林石墙摄影场景与右侧深棕色纹理背景拼接而成，中间有白色花边分隔。两侧均作为固定设计保留，不替换为单一纯色或客户素材。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        690,
+        45,
+        950,
+        320
+      ],
+      "description": "右上角照片，展示室内书架、画作和杂物堆叠的场景，带有白色边框。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        685,
+        360,
+        950,
+        635
+      ],
+      "description": "右中照片，展示一名短发女子坐在户外草地上的全身照，带有白色边框。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        690,
+        675,
+        950,
+        950
+      ],
+      "description": "右下照片，特写镜头展示一只手提着棕色印花包袋，带有白色边框。"
+    },
+    {
+      "id": "text_left_overlay",
+      "kind": "text",
+      "bbox": [
+        0,
+        30,
+        580,
+        900
+      ],
+      "text": "<3\n<333\n<3\n<333\n<3\n<333\n<3\n<3",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "散布在左侧主画面上的白色装饰性文字符号。"
+    },
+    {
+      "id": "text_right_numbers",
+      "kind": "text",
+      "bbox": [
+        640,
+        280,
+        990,
+        950
+      ],
+      "text": "(1)\n(2)\n(3)",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "right",
+      "bold": false,
+      "italic": false,
+      "description": "位于右侧三张照片旁边的编号文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "text_left_overlay",
+    "text_right_numbers"
+  ]
+}

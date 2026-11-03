@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        472
+      ],
+      "description": "上方横向照片，显示人物高举双臂的局部及云雾缭绕的背景环境。",
+      "label": "上方横向照片，显示人物高举双臂的局部及云雾缭绕的背景环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        0,
+        482,
+        1080,
+        955
+      ],
+      "description": "中间横向照片，显示穿着水手服的人物半身像，背景为蓝天、绿树和建筑。",
+      "label": "中间横向照片，显示穿着水手服的人物半身像，背景为蓝天、绿树和",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        966,
+        1080,
+        1439
+      ],
+      "description": "下方横向照片，显示波光粼粼的水面纹理，底部包含相机水印文字。",
+      "label": "下方横向照片，显示波光粼粼的水面纹理，底部包含相机水印文字。",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_mid",
+    "photo_bottom"
+  ]
+}

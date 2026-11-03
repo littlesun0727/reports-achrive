@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-6e8f8139-d745-9233-9e10-2e181a259744",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8034,
+    "completion_tokens": 1087,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1087
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_texture\",\n    \"description\": \"全画布深色颗粒感底图，带有类似星空或噪点的纹理效果。该固定背景承载所有照片和文字元素，需保留原样以维持整体氛围。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        150,\n        82,\n        500,\n        432\n      ],\n      \"description\": \"左上角矩形照片，展示黄昏时分的街道场景，包含路灯、树木、一辆黑色轿车及远处的公交车。\"\n    },\n    {\n      \"id\": \"photo_mid_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        560,\n        233,\n        890,\n        487\n      ],\n      \"description\": \"右侧中部矩形照片，特写雨夜中的树叶与灯光，画面中有明显的雨丝痕迹。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        85,\n        483,\n        420,\n      730\n      ],\n      \"description\": \"左下角矩形照片，透过窗户拍摄的雨景，窗框清晰可见，窗外一片漆黑。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        535,\n        865,\n        900\n      ],\n      \"description\": \"右下角矩形照片，雨中街景，前景有飘落的枫叶，远处有车辆行驶。\"\n    },\n    {\n      \"id\": \"deco_leaf_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        375,\n        55,\n        595,\n        195\n      ],\n      \"description\": \"位于顶部中间偏右的枯叶装饰，部分遮挡了左上照片的右上角。\"\n    },\n    {\n      \"id\": \"deco_leaf_bottom_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        620,\n        140,\n        760\n      ],\n      \"description\": \"位于左侧边缘中下部的枯叶装饰，部分遮挡了左下照片的左下角。\"\n    },\n    {\n      \"id\": \"deco_leaf_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        655,\n        500,\n        730,\n        715\n      ],\n      \"description\": \"位于右下照片区域内的两片红色枫叶装饰，叠加在摄影内容之上。\"\n    },\n    {\n      \"id\": \"deco_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        120,\n        55,\n        920,\n        930\n      ],\n      \"description\": \"散布在画面各处的白色手绘风格星星图案（共5颗），作为独立装饰层存在。\"\n    },\n    {\n      \"id\": \"deco_circle\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        300,\n        310,\n        660,\n        615\n      ],\n      \"description\": \"画面中央的白色手绘圆圈线条，跨越并连接了四张照片之间的空隙区域。\"\n    },\n    {\n      \"id\": \"text_handwritten\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        50,\n        660,\n        580,\n        980\n      ],\n      \"text\": \"Happiness\\nIt may come and go\\nLike a distant land\\nBe sure to\\nTreasure the time spent\\nBecause you'll never now\\nThe next time you'll feel it again\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"photo_mid_right\",\n    \"photo_bottom_left\",\n    \"photo_bottom_right\",\n    \"deco_leaf_top\",\n    \"deco_leaf_bottom_left\",\n    \"deco_leaf_bottom_right\",\n    \"deco_stars\",\n    \"deco_circle\",\n    \"text_handwritten\"\n  ]\n}",
+  "tool_calls": false
+}

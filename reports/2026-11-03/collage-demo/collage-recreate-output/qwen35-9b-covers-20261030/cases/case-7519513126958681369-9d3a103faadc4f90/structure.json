@@ -1,0 +1,86 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "带有水彩晕染、星星、翅膀和星星剪影的固定设计底图，整体为浅蓝白色调，保留纸张纹理和装饰图案。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        52,
+        160,
+        520,
+        720
+      ],
+      "description": "一位黑发女孩蹲在绿色植物墙前的照片，穿着条纹衬衫和拖鞋，保留摄影环境，边缘清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        400,
+        300,
+        720,
+        480
+      ],
+      "description": "白色花朵的特写照片，保留摄影环境，边缘清晰。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        380,
+        280,
+        740,
+        500
+      ],
+      "description": "承载 photo_2 的拍立得式相框，带有圆角和阴影效果，位于 photo_2 下方。",
+      "photo_id": [
+        "photo_2"
+      ]
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        460,
+        240,
+        880,
+        300
+      ],
+      "text": "♪ summer ♪",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        460,
+        660,
+        880,
+        820
+      ],
+      "text": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "frame_1",
+    "photo_2",
+    "text_1",
+    "text_2"
+  ]
+}

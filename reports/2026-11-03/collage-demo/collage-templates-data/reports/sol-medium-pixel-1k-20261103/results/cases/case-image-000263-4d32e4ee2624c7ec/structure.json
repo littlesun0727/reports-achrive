@@ -1,0 +1,60 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        716
+      ],
+      "description": "上方横向近景自拍，年轻女性正面面向镜头，一只手托着脸，穿白色无袖上衣；身后可见石柱、黑色铁艺栏杆和草地，保留完整摄影环境，矩形照片延伸至画布左右及上边缘，下缘被白色间隔与下方照片分开。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        82,
+        728,
+        1000,
+        1416
+      ],
+      "description": "下方较大的竖向自拍，年轻女性正面看向镜头，穿白色无袖上衣，身后是铁艺栏杆、草地和庭院；保留完整摄影环境，显示为独立矩形照片，四周露出白色画布边距。"
+    },
+    {
+      "id": "overlay_upper_ornament",
+      "kind": "overlay",
+      "bbox": [
+        950,
+        15,
+        1079,
+        711
+      ],
+      "description": "沿画面右侧纵向延伸的白色精细对称花叶卷纹装饰，覆盖上方照片右侧；作为一个完整的固定装饰单元保留。"
+    },
+    {
+      "id": "overlay_lower_lace",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        728,
+        359,
+        1416
+      ],
+      "description": "下方照片左侧的白色竖向蕾丝边饰，与左上方相连的玫瑰、叶片和卷曲枝条花纹构成一组固定装饰；沿照片左边缘覆盖，延伸至照片下缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "overlay_upper_ornament",
+    "overlay_lower_lace"
+  ]
+}

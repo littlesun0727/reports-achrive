@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的竖幅餐品摄影覆盖全画布：上半部是深色布面背景，下半部为浅色桌面，中间摆着盛有整只烤鱿鱼、酱汁、柠檬、蘸料和蔬菜的椭圆盘及木质托板；餐盘居中近景，画面中无人。背景布与桌面在画面中连续，文字和卡通装饰叠在其上；替换时整体替换完整摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        134,
+        215,
+        503,
+        262
+      ],
+      "text": "— 一整只炭烤大鱿鱼",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_description",
+      "kind": "text",
+      "bbox": [
+        84,
+        315,
+        570,
+        482
+      ],
+      "text": "贼大个的鱿鱼！嫩嫩弹弹\n端上来滋啦滋啦好香！\n微辣口 趁热吃",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_squid",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        215,
+        130,
+        261
+      ],
+      "description": "标题左侧的红橙色鱿鱼小图案，具有独立彩色轮廓，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_character",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        585,
+        166,
+        759
+      ],
+      "description": "画面左侧贴在深色背景与餐盘边缘附近的卡通小女孩贴纸，含蝴蝶结、人物轮廓和浅色衣饰等完整图案，作为一个固定装饰单元保留。"
+    },
+    {
+      "id": "overlay_doodle",
+      "kind": "overlay",
+      "bbox": [
+        805,
+        447,
+        1033,
+        663
+      ],
+      "description": "餐盘右上方白色手绘英文与弯曲箭头组成的装饰字样，字形不规则并与箭头共同构成一体设计；可辨内容近似“You yummy”，整体作为固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "text_title",
+    "text_description",
+    "overlay_squid",
+    "overlay_character",
+    "overlay_doodle"
+  ]
+}

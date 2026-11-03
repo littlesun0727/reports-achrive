@@ -1,0 +1,194 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的海滨风景摄影底图，包含蓝天、大海、沙滩、礁石和前景的木栈道。画面延伸至画布四边，作为所有独立照片和装饰元素的底层背景。",
+      "background_type": "photo",
+      "label": "一张连续的海滨风景摄影底图，包含蓝天、大海、沙滩、礁石和前景",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        130,
+        389,
+        213
+      ],
+      "description": "位于左上角照片上方的米色胶带贴纸，带有手写体英文文字“You're a Sunday morning Kind of beauty”，边缘呈撕裂状。",
+      "label": "位于左上角照片上方的米色胶带贴纸，带有手写体英文文字“You",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        197,
+        151,
+        578,
+        526
+      ],
+      "description": "左上方的矩形照片，展示了透过绿色树叶看到的海湾景色，海面上有几艘小船，远处有海岸线。",
+      "label": "左上方的矩形照片，展示了透过绿色树叶看到的海湾景色，海面上有",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        271,
+        799,
+        367
+      ],
+      "description": "一枚银色回形针图案，位于右侧照片上方，具有金属光泽和立体感。",
+      "label": "一枚银色回形针图案，位于右侧照片上方，具有金属光泽和立体感。",
+      "method": "extract"
+    },
+    {
+      "id": "text_surprise",
+      "kind": "text",
+      "bbox": [
+        691,
+        389,
+        918,
+        418
+      ],
+      "description": "An unexpected surprise. ✨",
+      "label": "An unexpected surprise. ✨",
+      "method": "local",
+      "text": "An unexpected surprise. ✨",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        518,
+        324,
+        956,
+        914
+      ],
+      "description": "右侧竖向矩形照片，主体为一名身穿白色露肩上衣和短裙的女子在海滩上挥手微笑，背景是海面上的贝壳状建筑（青岛大剧院）。",
+      "label": "右侧竖向矩形照片，主体为一名身穿白色露肩上衣和短裙的女子在海",
+      "method": "local"
+    },
+    {
+      "id": "text_life",
+      "kind": "text",
+      "bbox": [
+        124,
+        662,
+        545,
+        691
+      ],
+      "description": "Life isn't perfect but your outfit can be.",
+      "label": "Life isn't perfect but your ou",
+      "method": "local",
+      "text": "Life isn't perfect but your outfit can be.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        778,
+        178,
+        936
+      ],
+      "description": "三个白色的水滴或花瓣形状的简笔画线条装饰，位于左下方照片的左上角。",
+      "label": "三个白色的水滴或花瓣形状的简笔画线条装饰，位于左下方照片的左",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        871,
+        594,
+        1217
+      ],
+      "description": "左下方的横向矩形照片，展示了一名男子骑自行车经过海边栈道，前景有松树枝叶遮挡，背景是大海。",
+      "label": "左下方的横向矩形照片，展示了一名男子骑自行车经过海边栈道，前",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        1123,
+        632,
+        1217
+      ],
+      "description": "一小段半透明的胶带贴纸，粘贴在左下照片的右下角边缘处。",
+      "label": "一小段半透明的胶带贴纸，粘贴在左下照片的右下角边缘处。",
+      "method": "extract"
+    },
+    {
+      "id": "text_travel",
+      "kind": "text",
+      "bbox": [
+        518,
+        1073,
+        923,
+        1152
+      ],
+      "description": "Travel is the spice of life,   but remember,\noccasionally life itself needs to be\nthe spice sprinkled on our journey.",
+      "label": "Travel is the spice of life,  ",
+      "method": "local",
+      "text": "Travel is the spice of life,   but remember,\noccasionally life itself needs to be\nthe spice sprinkled on our journey.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "overlay_tape_1",
+    "photo_right",
+    "overlay_clip",
+    "text_surprise",
+    "text_life",
+    "photo_bottom_left",
+    "overlay_drops",
+    "overlay_tape_2",
+    "text_travel"
+  ]
+}

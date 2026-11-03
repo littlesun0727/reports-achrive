@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    2158
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        2158
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        840
+      ],
+      "description": "顶部横向裁切的人像照片，一名女性近景侧躺，穿黄色针织衫，手靠近脸部，头发和周围落叶、地面共同属于摄影画面；保留完整矩形照片范围。",
+      "label": "顶部横向裁切的人像照片，一名女性近景侧躺，穿黄色针织衫，手靠",
+      "method": "local"
+    },
+    {
+      "id": "paper_title",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        840,
+        1080,
+        1328
+      ],
+      "description": "横跨画布的棕色牛皮纸质感标题面板，印有黑色装饰字样“Autumn.”及下方中文“秋。”；纸纹、字形和排版作为同一固定设计单元保留。",
+      "label": "横跨画布的棕色牛皮纸质感标题面板，印有黑色装饰字样“Autu",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1328,
+        1080,
+        2158
+      ],
+      "description": "底部竖向街景照片，夕阳从树间照向道路，前景一只手举着黄色枫叶；保留建筑、树木、道路、光线和主体在内的完整矩形摄影画面。",
+      "label": "底部竖向街景照片，夕阳从树间照向道路，前景一只手举着黄色枫叶",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "paper_title",
+    "photo_bottom"
+  ]
+}

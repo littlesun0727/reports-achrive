@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一位年轻女性站在室内，身穿白色带图案的T恤，背景为浅色墙壁和窗户。摄影画面连续延伸至画布四边，作为全画布底图承载所有独立对象。"
+  },
+  "objects": [
+    {
+      "id": "photo_thought",
+      "kind": "photo",
+      "bbox": [
+        150,
+        100,
+        350,
+        280
+      ],
+      "description": "位于左上角思维气泡内的照片，显示一位女性的面部特写，表情搞怪。"
+    },
+    {
+      "id": "overlay_rabbit_1",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        100,
+        900,
+        250
+      ],
+      "description": "右上角的方形贴纸，包含一个卡通兔子图案。"
+    },
+    {
+      "id": "overlay_rabbit_2",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        800,
+        220,
+        940
+      ],
+      "description": "左下角的方形贴纸，包含一个卡通兔子图案。"
+    },
+    {
+      "id": "overlay_heart_1",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        380,
+        200,
+        420
+      ],
+      "description": "左侧中部的粉色手绘爱心。"
+    },
+    {
+      "id": "overlay_heart_2",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        380,
+        850,
+        420
+      ],
+      "description": "右侧中部的粉色手绘爱心。"
+    },
+    {
+      "id": "overlay_heart_3",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        880,
+        850,
+        920
+      ],
+      "description": "右下角的粉色手绘爱心。"
+    },
+    {
+      "id": "overlay_heart_4",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        330,
+        340,
+        350
+      ],
+      "description": "思维气泡下方的粉色手绘小爱心。"
+    },
+    {
+      "id": "overlay_heart_5",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        350,
+        340,
+        370
+      ],
+      "description": "思维气泡下方的粉色手绘小爱心。"
+    }
+  ],
+  "layer_order": [
+    "photo_thought",
+    "overlay_rabbit_1",
+    "overlay_rabbit_2",
+    "overlay_heart_1",
+    "overlay_heart_2",
+    "overlay_heart_3",
+    "overlay_heart_4",
+    "overlay_heart_5"
+  ]
+}

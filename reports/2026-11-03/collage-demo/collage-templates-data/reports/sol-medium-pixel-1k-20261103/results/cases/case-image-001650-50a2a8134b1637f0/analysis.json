@@ -1,0 +1,142 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    987,
+    1316
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        987,
+        1316
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "overlay_top_fragment",
+      "kind": "overlay",
+      "bbox": [
+        4,
+        0,
+        212,
+        56
+      ],
+      "description": "左上角露出的深灰纹理纸片，内部带一条倾斜的浅色窄条，右边缘略倾斜；下部被人物照片遮住，作为独立拼贴装饰整体保留。",
+      "label": "左上角露出的深灰纹理纸片，内部带一条倾斜的浅色窄条，右边缘略",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left_portrait",
+      "kind": "photo",
+      "bbox": [
+        4,
+        56,
+        690,
+        890
+      ],
+      "description": "黑白竖向人物照片，一名戴黑色宽檐帽、耳饰并穿浅灰大衣的女性呈左向侧面半身姿态，背景为连续砖墙。保留人物和摄影环境，完整矩形窗口的右下部分被另一张近景照片遮挡，手写字叠在画面上。",
+      "label": "黑白竖向人物照片，一名戴黑色宽檐帽、耳饰并穿浅灰大衣的女性呈",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        4,
+        913,
+        483,
+        1316
+      ],
+      "description": "左下独立黑白摄影片段，以浅色垂坠织物及深浅褶皱为主体，呈局部特写，没有可见人脸。上缘水平裁切，左侧和下方可见不规则外缘及白色空隙；右部被豹纹纸片、嘴唇和右侧人物照片遮挡，隐藏范围无法完全确认。",
+      "label": "左下独立黑白摄影片段，以浅色垂坠织物及深浅褶皱为主体，呈局部",
+      "method": "local"
+    },
+    {
+      "id": "overlay_leopard",
+      "kind": "overlay",
+      "bbox": [
+        325,
+        1007,
+        987,
+        1316
+      ],
+      "description": "下方黑白豹纹拼贴纸片，保留密集的不规则斑纹、纸面颗粒和弯曲撕边。左侧覆盖浅色织物照片，右上大部分被人物近景照片遮住，底部延伸至画布边缘，右下有白色缺口。",
+      "label": "下方黑白豹纹拼贴纸片，保留密集的不规则斑纹、纸面颗粒和弯曲撕",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right_closeup",
+      "kind": "photo",
+      "bbox": [
+        480,
+        682,
+        987,
+        1199
+      ],
+      "description": "右下独立黑白人物近景，女性穿人字纹大衣并佩戴细链圆形吊坠，画面从下颌、颈部至胸前，头顶和眼睛在窗口外。保留头发、衣物及左上少量砖墙环境；矩形窗口覆盖左侧大幅人像和下方豹纹纸片，左下局部被嘴唇照片遮挡。",
+      "label": "右下独立黑白人物近景，女性穿人字纹大衣并佩戴细链圆形吊坠，画",
+      "method": "local"
+    },
+    {
+      "id": "photo_lips",
+      "kind": "photo",
+      "bbox": [
+        335,
+        811,
+        634,
+        1046
+      ],
+      "description": "独立黑白嘴部特写，嘴唇微张，露出上排牙齿，深色唇面有高光。仅保留嘴唇及周围一圈面部皮肤，沿不规则轮廓去除其余摄影背景，边缘呈剪贴感；覆盖两张人物照片及下方豹纹纸片，不与人物照片形成连续出框关系。",
+      "label": "独立黑白嘴部特写，嘴唇微张，露出上排牙齿，深色唇面有高光。仅",
+      "method": "local"
+    },
+    {
+      "id": "overlay_classy",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        207,
+        987,
+        478
+      ],
+      "description": "黑色连笔手写艺术字“classy”，笔画粗细不均、带纹理和大幅弧形延伸，横跨砖墙照片与右上白色留白，右端被画布裁切。保留整组字形及下伸笔画，不改为普通字体排版。",
+      "label": "黑色连笔手写艺术字“classy”，笔画粗细不均、带纹理和大",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fashion",
+      "kind": "overlay",
+      "bbox": [
+        177,
+        378,
+        912,
+        711
+      ],
+      "description": "黑色连笔手写艺术字“fashion”，首字母具有向下延伸的大环形笔画，后续字母错落连写，末端向右拖出细长弧线。整体叠在左侧人物照片与右侧白色留白上，作为独立艺术字保留。",
+      "label": "黑色连笔手写艺术字“fashion”，首字母具有向下延伸的大",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_top_fragment",
+    "photo_left_portrait",
+    "photo_lower_left",
+    "overlay_leopard",
+    "photo_right_closeup",
+    "photo_lips",
+    "overlay_classy",
+    "overlay_fashion"
+  ]
+}

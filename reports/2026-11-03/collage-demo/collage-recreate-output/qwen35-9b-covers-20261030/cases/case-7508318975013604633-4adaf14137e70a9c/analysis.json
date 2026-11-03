@@ -1,0 +1,198 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        59,
+        79,
+        300,
+        399
+      ],
+      "description": "左上角照片，展示一碗日式关东煮，包含鱼丸、萝卜、豆腐等食材，旁边有柠檬水和怡泉啤酒。",
+      "label": "左上角照片，展示一碗日式关东煮，包含鱼丸、萝卜、豆腐等食材，",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        59,
+        439,
+        300,
+        759
+      ],
+      "description": "左中照片，展示一碗拌面，面条被筷子夹起，旁边有肉片和豆腐。",
+      "label": "左中照片，展示一碗拌面，面条被筷子夹起，旁边有肉片和豆腐。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        59,
+        799,
+        210,
+        999
+      ],
+      "description": "左下角照片，展示一份甜点，包含草莓和奶油，旁边有饮料和餐具。",
+      "label": "左下角照片，展示一份甜点，包含草莓和奶油，旁边有饮料和餐具。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        239,
+        799,
+        390,
+        999
+      ],
+      "description": "下中左照片，展示一份甜点，包含草莓和奶油，旁边有饮料和餐具。",
+      "label": "下中左照片，展示一份甜点，包含草莓和奶油，旁边有饮料和餐具。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        419,
+        799,
+        570,
+        999
+      ],
+      "description": "下中右照片，展示一片烤面包，旁边有餐具。",
+      "label": "下中右照片，展示一片烤面包，旁边有餐具。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        599,
+        799,
+        750,
+        999
+      ],
+      "description": "右下角照片，展示一份甜点，包含香蕉和奶油，旁边有餐具。",
+      "label": "右下角照片，展示一份甜点，包含香蕉和奶油，旁边有餐具。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        329,
+        159,
+        840,
+        759
+      ],
+      "description": "右侧大照片，展示一份盖浇饭，包含虾、蛋和米饭，旁边有饮料和植物。",
+      "label": "右侧大照片，展示一份盖浇饭，包含虾、蛋和米饭，旁边有饮料和植",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        419,
+        759,
+        750,
+        799
+      ],
+      "description": "右侧照片下方的文字 'BABY~'，带有手绘风格。",
+      "label": "右侧照片下方的文字 'BABY~'，带有手绘风格。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        999,
+        390,
+        1119
+      ],
+      "description": "底部左侧的文字 '할 수 있다!'，带有手绘风格。",
+      "label": "底部左侧的文字 '할 수 있다!'，带有手绘风格。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        599,
+        999,
+        840,
+        1119
+      ],
+      "description": "底部右侧的两个手绘星星图案。",
+      "label": "底部右侧的两个手绘星星图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        419,
+        79,
+        750,
+        159
+      ],
+      "description": "顶部右侧的手绘面包图案。",
+      "label": "顶部右侧的手绘面包图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        79,
+        120,
+        159
+      ],
+      "description": "顶部左侧的手绘 'hi' 字样。",
+      "label": "顶部左侧的手绘 'hi' 字样。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5"
+  ]
+}

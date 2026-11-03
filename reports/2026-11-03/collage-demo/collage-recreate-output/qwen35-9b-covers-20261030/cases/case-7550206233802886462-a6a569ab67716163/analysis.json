@@ -1,0 +1,161 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "深棕色与米色渐变背景，带有星星、蝴蝶、纸胶带、回形针、复古相机、猫、钢琴等装饰元素，整体氛围温暖复古。",
+      "background_type": "photo",
+      "label": "深棕色与米色渐变背景，带有星星、蝴蝶、纸胶带、回形针、复古相",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        153,
+        153,
+        747,
+        747
+      ],
+      "description": "中心人物特写，穿着棕色外套和条纹衬衫，手托下巴，面带微笑，背景为深棕色渐变。",
+      "label": "中心人物特写，穿着棕色外套和条纹衬衫，手托下巴，面带微笑，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        135,
+        225,
+        315,
+        450
+      ],
+      "description": "左侧人物半身照，穿着棕色外套和条纹衬衫，手托脸颊，背景为白色。",
+      "label": "左侧人物半身照，穿着棕色外套和条纹衬衫，手托脸颊，背景为白色",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        585,
+        225,
+        765,
+        450
+      ],
+      "description": "右侧人物半身照，穿着棕色外套和条纹衬衫，手托脸颊，背景为白色。",
+      "label": "右侧人物半身照，穿着棕色外套和条纹衬衫，手托脸颊，背景为白色",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        225,
+        405,
+        315,
+        432
+      ],
+      "description": "you keep ending up in my shaking hands.",
+      "label": "you keep ending up in my shaki",
+      "method": "local",
+      "text": "you keep ending up in my shaking hands.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        585,
+        405,
+        675,
+        432
+      ],
+      "description": "I have buried you in every place.",
+      "label": "I have buried you in every pla",
+      "method": "local",
+      "text": "I have buried you in every place.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        45,
+        648,
+        135,
+        666
+      ],
+      "description": "Kim Minkyu",
+      "label": "Kim Minkyu",
+      "method": "local",
+      "text": "Kim Minkyu",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        720,
+        648,
+        855,
+        666
+      ],
+      "description": "20010312",
+      "label": "20010312",
+      "method": "local",
+      "text": "20010312",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_main",
+    "photo_left",
+    "photo_right",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        600
+      ],
+      "description": "上半部分人物面部特写，背景为户外街道，阳光照射。",
+      "label": "上半部分人物面部特写，背景为户外街道，阳光照射。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        0,
+        600,
+        900,
+        1200
+      ],
+      "description": "下半部分人物面部特写，背景为室内咖啡馆，人物佩戴发夹。",
+      "label": "下半部分人物面部特写，背景为室内咖啡馆，人物佩戴发夹。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        72,
+        315,
+        264
+      ],
+      "description": "手绘风格气泡框，内含文字 Have a Good Day 及四叶草图案。",
+      "label": "手绘风格气泡框，内含文字 Have a Good Day 及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        456,
+        225,
+        576
+      ],
+      "description": "手绘风格蘑菇图案贴纸。",
+      "label": "手绘风格蘑菇图案贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        576,
+        225,
+        720
+      ],
+      "description": "手写风格便签贴纸，包含韩文及英文文字。",
+      "label": "手写风格便签贴纸，包含韩文及英文文字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        816,
+        900,
+        960
+      ],
+      "description": "手绘风格小熊图案贴纸，包含三只小熊及星星装饰。",
+      "label": "手绘风格小熊图案贴纸，包含三只小熊及星星装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

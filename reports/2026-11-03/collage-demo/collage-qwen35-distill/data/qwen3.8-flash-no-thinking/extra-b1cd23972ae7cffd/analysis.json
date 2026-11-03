@@ -1,0 +1,306 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的蓝天白云摄影底图，完整覆盖整个画布。云层和天空作为背景环境延伸至四边，上层照片、卡片及装饰遮挡局部，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一张连续的蓝天白云摄影底图，完整覆盖整个画布。云层和天空作为",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_num_1",
+      "kind": "overlay",
+      "bbox": [
+        537,
+        84,
+        562,
+        124
+      ],
+      "description": "白色数字“1”，位于顶部中央，字体清晰。",
+      "label": "白色数字“1”，位于顶部中央，字体清晰。",
+      "method": "extract"
+    },
+    {
+      "id": "card_poem",
+      "kind": "frame",
+      "bbox": [
+        397,
+        104,
+        693,
+        507
+      ],
+      "description": "米色纸质卡片，上面印有中文诗句“她身体上无限的海...”、“女也。”以及手绘眼睛图案，部分文字有蓝色高亮标记。",
+      "photo_id": [
+        "photo_cat_eye",
+        "photo_eyes"
+      ],
+      "label": "米色纸质卡片，上面印有中文诗句“她身体上无限的海...”、“",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cat_eye",
+      "kind": "photo",
+      "bbox": [
+        108,
+        256,
+        365,
+        507
+      ],
+      "description": "猫咪眼睛特写照片，灰白毛发与蓝色瞳孔清晰可见，矩形构图。",
+      "label": "猫咪眼睛特写照片，灰白毛发与蓝色瞳孔清晰可见，矩形构图。",
+      "method": "local"
+    },
+    {
+      "id": "photo_card_yellow",
+      "kind": "photo",
+      "bbox": [
+        738,
+        259,
+        1022,
+        541
+      ],
+      "description": "黄色卡片照片，卡片上有简笔画小熊图案，放置在织物背景上。",
+      "label": "黄色卡片照片，卡片上有简笔画小熊图案，放置在织物背景上。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars_mid",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        504,
+        686,
+        583
+      ],
+      "description": "三颗白色五角星装饰，散落在中间区域。",
+      "label": "三颗白色五角星装饰，散落在中间区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        569,
+        691,
+        886
+      ],
+      "description": "白色手绘箭头，从上方指向右下方，线条流畅。",
+      "label": "白色手绘箭头，从上方指向右下方，线条流畅。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_num_4",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        648,
+        86,
+        698
+      ],
+      "description": "白色数字“4”，位于左侧边缘附近。",
+      "label": "白色数字“4”，位于左侧边缘附近。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mushroom",
+      "kind": "photo",
+      "bbox": [
+        38,
+        540,
+        308,
+        896
+      ],
+      "description": "手持红色蘑菇玩具的照片，背景为蓝天，主体突出。",
+      "label": "手持红色蘑菇玩具的照片，背景为蓝天，主体突出。",
+      "method": "local"
+    },
+    {
+      "id": "photo_eyes",
+      "kind": "photo",
+      "bbox": [
+        403,
+        616,
+        677,
+        759
+      ],
+      "description": "人物双眼特写照片，眼神清澈，横向矩形构图。",
+      "label": "人物双眼特写照片，眼神清澈，横向矩形构图。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        717,
+        381,
+        739
+      ],
+      "description": "单颗白色小星星，位于左侧空白处。",
+      "label": "单颗白色小星星，位于左侧空白处。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bench",
+      "kind": "photo",
+      "bbox": [
+        738,
+        588,
+        1059,
+        828
+      ],
+      "description": "木质长椅上的小熊玩偶照片，背景有落叶，光影自然。",
+      "label": "木质长椅上的小熊玩偶照片，背景有落叶，光影自然。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_num_2",
+      "kind": "overlay",
+      "bbox": [
+        991,
+        763,
+        1027,
+        806
+      ],
+      "description": "白色数字“2”，位于右侧照片旁。",
+      "label": "白色数字“2”，位于右侧照片旁。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_clouds",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        792,
+        508,
+        893
+      ],
+      "description": "几颗白色星星点缀在云层区域。",
+      "label": "几颗白色星星点缀在云层区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        732,
+        910,
+        754,
+        933
+      ],
+      "description": "单颗白色小星星，位于右侧蓝色方块左上角。",
+      "label": "单颗白色小星星，位于右侧蓝色方块左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_hand_stars",
+      "kind": "photo",
+      "bbox": [
+        108,
+        929,
+        340,
+        1164
+      ],
+      "description": "手掌中捧着彩色亮片星星的照片，细节丰富。",
+      "label": "手掌中捧着彩色亮片星星的照片，细节丰富。",
+      "method": "local"
+    },
+    {
+      "id": "photo_candle",
+      "kind": "photo",
+      "bbox": [
+        414,
+        924,
+        683,
+        1289
+      ],
+      "description": "燃烧中的橙色蜡烛特写，火焰明亮，底部有手写文字“活该的火苗怎么不算在为我欢呼呢？”。",
+      "label": "燃烧中的橙色蜡烛特写，火焰明亮，底部有手写文字“活该的火苗怎",
+      "method": "local"
+    },
+    {
+      "id": "photo_blue_square",
+      "kind": "photo",
+      "bbox": [
+        721,
+        857,
+        1013,
+        1145
+      ],
+      "description": "纯净的蓝色天空照片，中间有一道淡淡的飞机云痕迹。",
+      "label": "纯净的蓝色天空照片，中间有一道淡淡的飞机云痕迹。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_num_3",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        1267,
+        572,
+        1308
+      ],
+      "description": "白色数字“3”，位于底部中央。",
+      "label": "白色数字“3”，位于底部中央。",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        432,
+        1332,
+        648,
+        1375
+      ],
+      "description": "20%细腻感知",
+      "label": "20%细腻感知",
+      "method": "local",
+      "text": "20%细腻感知",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_num_1",
+    "card_poem",
+    "photo_cat_eye",
+    "photo_card_yellow",
+    "overlay_stars_mid",
+    "overlay_arrow",
+    "overlay_num_4",
+    "photo_mushroom",
+    "photo_eyes",
+    "overlay_star_left",
+    "photo_bench",
+    "overlay_num_2",
+    "overlay_stars_clouds",
+    "overlay_star_right",
+    "photo_hand_stars",
+    "photo_candle",
+    "photo_blue_square",
+    "overlay_num_3",
+    "text_bottom"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海滨风景摄影画面，包含蓝天、海面、岩石、沙滩、木栈道及远处建筑，场景延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        175,
+        100,
+        530,
+        370
+      ],
+      "description": "矩形照片窗口，展示海边停泊的小船与绿树，保留摄影环境，窗口边缘清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        470,
+        220,
+        880,
+        630
+      ],
+      "description": "矩形照片窗口，展示穿白衣女子在海边挥手，背景有建筑，保留摄影环境，窗口边缘清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        80,
+        600,
+        550,
+        830
+      ],
+      "description": "矩形照片窗口，展示海边骑自行车的人与松树，保留摄影环境，窗口边缘清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        85,
+        320,
+        135
+      ],
+      "description": "带有手写英文的撕纸效果贴纸，文字、底板和边缘作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        180,
+        720,
+        240
+      ],
+      "description": "银色回形针贴纸，作为独立装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        110,
+        460,
+        520,
+        480
+      ],
+      "text": "Life isn't perfect but your outfit can be.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        630,
+        270,
+        850,
+        290
+      ],
+      "text": "An unexpected surprise.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        470,
+        740,
+        780,
+        800
+      ],
+      "text": "Travel is the spice of life, but remember, occasionally life itself needs to be the spice sprinkled on our journey.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

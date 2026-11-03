@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-4f56b77b-7ce7-9cfb-92f0-991c3d5f9bed",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8383,
+    "completion_tokens": 1436,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1436
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"白色底图，表面均匀分布粉色五角星图案。作为固定背景保留，承载所有独立照片和装饰元素。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_cherry_blossom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        345,\n        126,\n        933,\n        448\n      ],\n      \"description\": \"樱花树摄影照片，画面包含繁茂的粉白樱花枝条、深色树干及后方建筑局部。矩形显示窗口，无特殊边缘效果。\"\n    },\n    {\n      \"id\": \"photo_dessert\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        50,\n        404,\n        472,\n        710\n      ],\n      \"description\": \"甜点摄影照片，展示放在白色盘子里的草莓奶油蛋糕块，旁边有奶盅和托盘。矩形显示窗口。\"\n    },\n    {\n      \"id\": \"photo_girl\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        428,\n        641,\n        807,\n        924\n      ],\n      \"description\": \"人物摄影照片，一位长卷发女性坐在桌边，右侧可见马克杯一角。矩形显示窗口。\"\n    },\n    {\n      \"id\": \"overlay_candy\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        35,\n        65,\n        200,\n        126\n      ],\n      \"description\": \"左上角粉色糖果插画贴纸，带有可爱表情。\"\n    },\n    {\n      \"id\": \"overlay_label_top\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        182,\n        124,\n        315,\n        152\n      ],\n      \"description\": \"带黑色边框的白色标签贴纸，印有韩文“정신 체리”及樱桃图标。\"\n    },\n    {\n      \"id\": \"overlay_cat\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        85,\n        172,\n        250,\n        370\n      ],\n      \"description\": \"穿粉色背带裤的白色毛绒猫咪玩偶抠图。\"\n    },\n    {\n      \"id\": \"overlay_tag_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        862,\n        410,\n        985,\n        495\n      ],\n      \"description\": \"右侧悬挂的粉色蝴蝶结吊牌贴纸，带有细绳。\"\n    },\n    {\n      \"id\": \"overlay_text_bg_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        510,\n        487,\n        815,\n        540\n      ],\n      \"description\": \"浅粉色长方形色块底板，用于衬托文字。\"\n    },\n    {\n      \"id\": \"text_korean_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        540,\n        500,\n        785,\n        528\n      ],\n      \"text\": \"우린 서로기있어\",\n      \"color\": \"#000000\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_text_bg_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        535,\n        555,\n        780,\n      600\n      ],\n      \"description\": \"浅粉色长方形色块底板，位于上一行文字下方。\"\n    },\n    {\n      \"id\": \"text_korean_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        565,\n        568,\n        750,\n        590\n      ],\n      \"text\": \"나는 오늘의 슈퍼스타\",\n      \"color\": \"#000000\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_cups\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        805,\n        532,\n        975,\n        685\n      ],\n      \"description\": \"两个粉色咖啡纸杯插画贴纸，呈倾斜堆叠状。\"\n    },\n    {\n      \"id\": \"overlay_paperclip\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        65,\n        745,\n        145,\n        820\n      ],\n      \"description\": \"银色回形针插画，压在便签纸左上角。\"\n    },\n    {\n      \"id\": \"overlay_memo_note\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        70,\n        755,\n        390,\n        925\n      ],\n      \"description\": \"粉色横纹便签纸贴纸，略微倾斜，上面写有韩文手写体句子。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_cherry_blossom\",\n    \"photo_dessert\",\n    \"photo_girl\",\n    \"overlay_candy\",\n    \"overlay_label_top\",\n    \"overlay_cat\",\n    \"overlay_tag_right\",\n    \"overlay_text_bg_1\",\n    \"text_korean_1\",\n    \"overlay_text_bg_2\",\n    \"text_korean_2\",\n    \"overlay_cups\",\n    \"overlay_memo_note\",\n    \"overlay_paperclip\"\n  ]\n}",
+  "tool_calls": false
+}

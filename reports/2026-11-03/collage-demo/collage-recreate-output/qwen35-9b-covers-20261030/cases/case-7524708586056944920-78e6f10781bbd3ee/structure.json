@@ -1,0 +1,107 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "公园草地与树木构成连续摄影画面，边缘露出的场景延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_goldfish",
+      "kind": "photo",
+      "bbox": [
+        333,
+        125,
+        667,
+        525
+      ],
+      "description": "袋中金鱼照片，保留摄影环境，位于画布中上部。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        125,
+        475,
+        525,
+        775
+      ],
+      "description": "猫在步道上行走的照片，保留摄影环境，位于画布左下部。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        575,
+        550,
+        875,
+        890
+      ],
+      "description": "树林与草地照片，保留摄影环境，位于画布右下部。"
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        80,
+        380,
+        180
+      ],
+      "description": "金色胶带贴纸，位于画布左上角。"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        540,
+        800,
+        580
+      ],
+      "description": "金色胶带贴纸，位于画布右侧中部。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        125,
+        800,
+        525,
+        890
+      ],
+      "text": "Collect today's lush greenery\nand gentle breeze",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        750,
+        475,
+        920,
+        525
+      ],
+      "text": "Meet summer.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_goldfish",
+    "photo_cat",
+    "photo_trees",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "text_1",
+    "text_2"
+  ]
+}

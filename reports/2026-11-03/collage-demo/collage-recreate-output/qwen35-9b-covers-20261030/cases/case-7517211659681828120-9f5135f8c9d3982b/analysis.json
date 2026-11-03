@@ -1,0 +1,250 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "连续的横线笔记本纸底，带有蓝色竖线，作为全画布固定底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的横线笔记本纸底，带有蓝色竖线，作为全画布固定底图保留原",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        270,
+        84,
+        855,
+        636
+      ],
+      "description": "切开的青苹果形状窗口，内部为女孩比耶的半身照，保留苹果果肉纹理和阴影，人物去背景。",
+      "label": "切开的青苹果形状窗口，内部为女孩比耶的半身照，保留苹果果肉纹",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        22,
+        624,
+        540,
+        1116
+      ],
+      "description": "完整的青苹果形状窗口，内部为女孩侧脸特写，保留苹果表皮纹理和阴影，人物去背景。",
+      "label": "完整的青苹果形状窗口，内部为女孩侧脸特写，保留苹果表皮纹理和",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clover_1",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        48,
+        189,
+        216
+      ],
+      "description": "左上角的绿色四叶草贴纸，带有阴影。",
+      "label": "左上角的绿色四叶草贴纸，带有阴影。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_2",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        372,
+        297,
+        552
+      ],
+      "description": "左侧中部的绿色四叶草贴纸，带有阴影。",
+      "label": "左侧中部的绿色四叶草贴纸，带有阴影。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_3",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        924,
+        891,
+        1020
+      ],
+      "description": "右下角的绿色四叶草贴纸，带有阴影。",
+      "label": "右下角的绿色四叶草贴纸，带有阴影。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_4",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        984,
+        198,
+        1116
+      ],
+      "description": "左下角带有文字和四叶草图案的方形贴纸。",
+      "label": "左下角带有文字和四叶草图案的方形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        264,
+        171,
+        336
+      ],
+      "description": "左侧带有韩文和四叶草图案的方形贴纸。",
+      "label": "左侧带有韩文和四叶草图案的方形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_2",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        720,
+        585,
+        792
+      ],
+      "description": "苹果窗口旁的白色对话气泡，内含韩文“반가와요★”。",
+      "label": "苹果窗口旁的白色对话气泡，内含韩文“반가와요★”。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        657,
+        696,
+        720,
+        1020
+      ],
+      "description": "첫눈에\n저와\n함께\n해주세요",
+      "label": "첫눈에\n저와\n함께\n해주세요",
+      "method": "local",
+      "text": "첫눈에\n저와\n함께\n해주세요",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        747,
+        696,
+        792,
+        1020
+      ],
+      "description": "世界の終わりも一緒に",
+      "label": "世界の終わりも一緒に",
+      "method": "local",
+      "text": "世界の終わりも一緒に",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        657,
+        468,
+        855,
+        588
+      ],
+      "description": "YOU ARE MORE\nTHAN THE MISTAKES\nYOU'VE MADE.",
+      "label": "YOU ARE MORE\nTHAN THE MISTAKES",
+      "method": "local",
+      "text": "YOU ARE MORE\nTHAN THE MISTAKES\nYOU'VE MADE.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_music_1",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        48,
+        396,
+        144
+      ],
+      "description": "顶部的绿色音符贴纸。",
+      "label": "顶部的绿色音符贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_2",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        612,
+        558,
+        684
+      ],
+      "description": "苹果窗口间的绿色音符贴纸。",
+      "label": "苹果窗口间的绿色音符贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_3",
+      "kind": "overlay",
+      "bbox": [
+        549,
+        1008,
+        639,
+        1140
+      ],
+      "description": "底部的绿色音符贴纸。",
+      "label": "底部的绿色音符贴纸。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_top",
+    "photo_bottom",
+    "overlay_clover_1",
+    "overlay_clover_2",
+    "overlay_clover_3",
+    "overlay_clover_4",
+    "overlay_note_1",
+    "overlay_note_2",
+    "text_1",
+    "text_2",
+    "text_3",
+    "overlay_music_1",
+    "overlay_music_2",
+    "overlay_music_3"
+  ]
+}

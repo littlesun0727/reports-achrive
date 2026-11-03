@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影画面，主体为背对镜头的白发角色，身着蓝黑服饰，周围环绕着多个屏幕，屏幕中显示着不同的角色场景。背景有光效、水波纹和草地，整体画面延伸至画布边缘，被屏幕遮挡部分仍属于同一摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "screen_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        260,
+        380
+      ],
+      "description": "左上角的屏幕，显示两个角色，一个穿橙色斗篷，一个穿黑色斗篷，背景有光斑和心形图案。"
+    },
+    {
+      "id": "screen_2",
+      "kind": "photo",
+      "bbox": [
+        700,
+        0,
+        1000,
+        380
+      ],
+      "description": "右上角的屏幕，显示两个角色，一个穿黄色斗篷，一个穿白色斗篷，背景为草地和光斑。"
+    },
+    {
+      "id": "screen_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        560,
+        300,
+        780
+      ],
+      "description": "左下角的屏幕，显示两个角色坐在紫色花丛中，背景为粉色天空。"
+    },
+    {
+      "id": "screen_4",
+      "kind": "photo",
+      "bbox": [
+        760,
+        380,
+        1000,
+        580
+      ],
+      "description": "右侧中间的屏幕，显示两个角色，一个穿蓝色斗篷，一个穿绿色斗篷，背景为绿色植物。"
+    },
+    {
+      "id": "screen_5",
+      "kind": "photo",
+      "bbox": [
+        500,
+        680,
+        1000,
+        880
+      ],
+      "description": "右下角的屏幕，显示两个角色，一个穿橙色斗篷，一个穿白色斗篷，背景为蓝色光斑。"
+    }
+  ],
+  "layer_order": [
+    "screen_1",
+    "screen_2",
+    "screen_3",
+    "screen_4",
+    "screen_5"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "米色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        355,
+        175,
+        635,
+        390
+      ],
+      "description": "俯拍披萨、炸鸡和饮料的拼盘照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        225,
+        370,
+        420,
+        510
+      ],
+      "description": "桌上甜点与玩偶的照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        400,
+        380,
+        600,
+        480
+      ],
+      "description": "桌上蛋糕与甜点的照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        590,
+        320,
+        785,
+        500
+      ],
+      "description": "桌上牛排与配菜的照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        175,
+        480,
+        370,
+        720
+      ],
+      "description": "桌上煎蛋与沙拉的照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        375,
+        480,
+        595,
+        720
+      ],
+      "description": "桌上披萨与沙拉的照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        595,
+        480,
+        815,
+        720
+      ],
+      "description": "桌上水果与甜点的照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        140,
+        290,
+        320
+      ],
+      "description": "手绘叉子和勺子的线条装饰，位于左上角。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        70,
+        870,
+        130
+      ],
+      "description": "手绘螺旋线条装饰，位于右上角。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        500,
+        150,
+        650
+      ],
+      "description": "手绘数字6的线条装饰，位于左侧。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        680,
+        885,
+        930
+      ],
+      "description": "手绘碗形轮廓，内部包含文字，位于底部。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        220,
+        750,
+        760,
+        840
+      ],
+      "text": "My Daily Plog",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1"
+  ]
+}

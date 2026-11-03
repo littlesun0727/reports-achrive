@@ -1,0 +1,162 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "green_rain_bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布固定底图为带有雨滴和模糊绿色光影的纹理背景，整体呈现绿色调，边缘可见连续的水痕和光斑，作为承载独立照片和文字的固定设计单元保留。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图为带有雨滴和模糊绿色光影的纹理背景，整体呈现绿",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        135,
+        84,
+        450,
+        528
+      ],
+      "description": "左上角照片，展示雨滴覆盖下的绿色枫叶特写，背景为模糊的浅色，保留摄影环境。",
+      "label": "左上角照片，展示雨滴覆盖下的绿色枫叶特写，背景为模糊的浅色，",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        504,
+        270,
+        806,
+        582
+      ],
+      "description": "右上角照片，仰拍视角的树木，展示茂密的绿色树冠和蓝天，保留摄影环境。",
+      "label": "右上角照片，仰拍视角的树木，展示茂密的绿色树冠和蓝天，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        58,
+        574,
+        369,
+        888
+      ],
+      "description": "左下角照片，仰拍视角的树木，展示茂密的绿色树冠和蓝天，保留摄影环境。",
+      "label": "左下角照片，仰拍视角的树木，展示茂密的绿色树冠和蓝天，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        450,
+        624,
+        770,
+        1092
+      ],
+      "description": "右下角照片，展示雨滴覆盖下的绿色模糊背景，保留摄影环境。",
+      "label": "右下角照片，展示雨滴覆盖下的绿色模糊背景，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        58,
+        792,
+        518,
+        1182
+      ],
+      "description": "Happiness\nIt may come and go\nLike a cloud can\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again",
+      "label": "Happiness\nIt may come and go\nL",
+      "method": "local",
+      "text": "Happiness\nIt may come and go\nLike a cloud can\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        60,
+        166,
+        132
+      ],
+      "description": "左上角的白色五角星装饰，位于照片上方。",
+      "label": "左上角的白色五角星装饰，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        234,
+        846,
+        306
+      ],
+      "description": "右上角的白色五角星装饰，位于照片上方。",
+      "label": "右上角的白色五角星装饰，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        1020,
+        837,
+        1116
+      ],
+      "description": "右下角的白色五角星装饰，位于照片下方。",
+      "label": "右下角的白色五角星装饰，位于照片下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        360,
+        594,
+        756
+      ],
+      "description": "中间的白色螺旋线条装饰，连接多个照片区域。",
+      "label": "中间的白色螺旋线条装饰，连接多个照片区域。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "green_rain_bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pink_pattern",
+    "description": "粉色渐变底图，带有星星图案、蕾丝花边装饰和红色文字'WON YEONG'。整体为固定设计，保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        100,
+        150,
+        900,
+        950
+      ],
+      "description": "主要人物照片，人物手持物品，背景为粉色渐变，保留摄影环境。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        700,
+        100,
+        900,
+        250
+      ],
+      "description": "右上角小照片，人物眼部特写，保留摄影环境。"
+    },
+    {
+      "id": "photo_bottom_left_1",
+      "kind": "photo",
+      "bbox": [
+        50,
+        600,
+        300,
+        800
+      ],
+      "description": "左下角第一张小照片，人物手持物品，保留摄影环境。"
+    },
+    {
+      "id": "photo_bottom_left_2",
+      "kind": "photo",
+      "bbox": [
+        50,
+        750,
+        300,
+        950
+      ],
+      "description": "左下角第二张小照片，人物面部特写，保留摄影环境。"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        30,
+        50,
+        300,
+        150
+      ],
+      "text": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#FF0000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_you",
+      "kind": "text",
+      "bbox": [
+        700,
+        750,
+        950,
+        900
+      ],
+      "text": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "color": "#FF0000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_top_right",
+    "photo_bottom_left_1",
+    "photo_bottom_left_2",
+    "text_love",
+    "text_you"
+  ]
+}

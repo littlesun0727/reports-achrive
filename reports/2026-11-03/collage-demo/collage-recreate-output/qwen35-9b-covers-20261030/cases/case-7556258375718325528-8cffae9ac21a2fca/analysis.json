@@ -1,0 +1,135 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "室内书架场景，包含木质书架、书籍、墙面及顶部灯光，构成连续摄影环境。画布边缘可见书架与墙面，场景延伸至画布四边，作为全画布底图承载上层照片与装饰。",
+      "background_type": "photo",
+      "label": "室内书架场景，包含木质书架、书籍、墙面及顶部灯光，构成连续摄",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        126,
+        120,
+        774,
+        600
+      ],
+      "description": "上半部分照片窗口，人物手持紫色玩偶，戴眼镜，穿浅色开衫与蓝色围巾，背景为书架与厨房区域。窗口边缘有白色手绘描边，保留摄影环境。",
+      "label": "上半部分照片窗口，人物手持紫色玩偶，戴眼镜，穿浅色开衫与蓝色",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        126,
+        600,
+        774,
+        1199
+      ],
+      "description": "下半部分照片窗口，人物低头整理眼镜，穿浅色开衫与蓝色围巾，背景为书架与木门。窗口边缘有白色手绘描边，保留摄影环境。",
+      "label": "下半部分照片窗口，人物低头整理眼镜，穿浅色开衫与蓝色围巾，背",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        117,
+        108,
+        783,
+        611
+      ],
+      "description": "承载上半部分照片的拍立得式纸框，白色手绘风格边框，带有星星、螺旋等装饰元素，位于照片下方，纸张纹理与装饰整体保留。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "承载上半部分照片的拍立得式纸框，白色手绘风格边框，带有星星、",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        117,
+        588,
+        783,
+        1199
+      ],
+      "description": "承载下半部分照片的拍立得式纸框，白色手绘风格边框，带有星星、螺旋等装饰元素，位于照片下方，纸张纹理与装饰整体保留。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "承载下半部分照片的拍立得式纸框，白色手绘风格边框，带有星星、",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        360,
+        36,
+        540,
+        108
+      ],
+      "description": "Plog",
+      "label": "Plog",
+      "method": "local",
+      "text": "Plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        72,
+        1019,
+        450,
+        1139
+      ],
+      "description": "My time is now.\nI live in the present\nand embrace\nmy beautiful life",
+      "label": "My time is now.\nI live in the ",
+      "method": "local",
+      "text": "My time is now.\nI live in the present\nand embrace\nmy beautiful life",
+      "text_status": "known",
+      "style": {
+        "fill": "#4A90E2",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_1",
+    "photo_1",
+    "frame_2",
+    "photo_2",
+    "text_1",
+    "text_2"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "patterned_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "覆盖全画布的固定印花底图：上方约五分之一为浅粉与白色竖条纹，下方为灰底白色圆点图案。两种图案在水平分界处连续构成同一张底图；前景插画、相片和装饰遮挡处保留原样。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的固定印花底图：上方约五分之一为浅粉与白色竖条纹，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "house_roof",
+      "kind": "overlay",
+      "bbox": [
+        5,
+        291,
+        690,
+        571
+      ],
+      "description": "白色三角屋顶，表面有浅粉圆点，右侧带浅粉矩形烟囱；作为一体的房屋插画压在左上方相片及粉色承托框上沿。",
+      "label": "白色三角屋顶，表面有浅粉圆点，右侧带浅粉矩形烟囱；作为一体的",
+      "method": "extract"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        90,
+        570,
+        604,
+        938
+      ],
+      "description": "左上方相片的浅粉色矩形承托卡片，照片四周留有粉色边沿；上部被屋顶遮住，卡片下缘和侧边可见。",
+      "photo_id": [
+        "photo_upper"
+      ],
+      "label": "左上方相片的浅粉色矩形承托卡片，照片四周留有粉色边沿；上部被",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        138,
+        584,
+        553,
+        921
+      ],
+      "description": "横向室内人物照片：一名长发女性戴浅色帽子，坐在沙发旁，身穿浅色针织衣并手持玻璃杯；保留室内环境，照片上沿部分被屋顶遮挡，置于粉色承托卡片内。",
+      "label": "横向室内人物照片：一名长发女性戴浅色帽子，坐在沙发旁，身穿浅",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        555,
+        218,
+        658
+      ],
+      "description": "白色心形装饰的金属回形针，斜压在左上相片及粉色承托卡片的左上边缘。",
+      "label": "白色心形装饰的金属回形针，斜压在左上相片及粉色承托卡片的左上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        449,
+        1049,
+        558
+      ],
+      "description": "白底黑边的对话气泡，尾部朝左下，内部印有韩文“최고예요!!”；文字与气泡作为同一固定设计保留。",
+      "label": "白底黑边的对话气泡，尾部朝左下，内部印有韩文“최고예요!!”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_character",
+      "kind": "overlay",
+      "bbox": [
+        637,
+        583,
+        950,
+        877
+      ],
+      "description": "白色圆头卡通角色贴图，黑色手绘轮廓，头顶有粉色矩形细节，颈部系浅粉围巾，闭眼坐姿；作为完整独立插画保留。",
+      "label": "白色圆头卡通角色贴图，黑色手绘轮廓，头顶有粉色矩形细节，颈部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        840,
+        1018,
+        922
+      ],
+      "description": "角色右下方的小型橘白猫咪贴图，带黑色轮廓与面部细节，独立于旁边的大型卡通角色。",
+      "label": "角色右下方的小型橘白猫咪贴图，带黑色轮廓与面部细节，独立于旁",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        517,
+        939,
+        923,
+        1348
+      ],
+      "description": "右下方近景人物照片：一名长发女性戴浅色帽子，身穿浅色针织衣，以手指轻触脸侧，正面看向镜头；保留照片内的明亮背景，照片边缘带细粉色轮廓线，部分左上边缘被粉色音乐符号覆盖。",
+      "label": "右下方近景人物照片：一名长发女性戴浅色帽子，身穿浅色针织衣，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        489,
+        763,
+        585,
+        1040
+      ],
+      "description": "浅粉色手绘高音谱号装饰，从两张相片之间向上延伸，部分压住下方照片左上边缘。",
+      "label": "浅粉色手绘高音谱号装饰，从两张相片之间向上延伸，部分压住下方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flourish",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        1015,
+        518,
+        1337
+      ],
+      "description": "左下方白色手绘卷曲花饰线条，包含外侧弧线和中心螺旋，作为一个完整的独立装饰。",
+      "label": "左下方白色手绘卷曲花饰线条，包含外侧弧线和中心螺旋，作为一个",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cursor",
+      "kind": "overlay",
+      "bbox": [
+        909,
+        1123,
+        977,
+        1184
+      ],
+      "description": "下方照片右侧的粉色手绘鼠标指针贴图，带浅色填充和深色轮廓。",
+      "label": "下方照片右侧的粉色手绘鼠标指针贴图，带浅色填充和深色轮廓。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "patterned_background",
+    "frame_upper",
+    "photo_upper",
+    "house_roof",
+    "overlay_paperclip",
+    "overlay_speech_bubble",
+    "overlay_character",
+    "overlay_cat",
+    "photo_lower",
+    "overlay_flourish",
+    "overlay_music",
+    "overlay_cursor"
+  ]
+}

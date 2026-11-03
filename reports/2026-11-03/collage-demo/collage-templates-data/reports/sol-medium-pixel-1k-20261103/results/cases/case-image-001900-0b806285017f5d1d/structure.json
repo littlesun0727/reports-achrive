@@ -1,0 +1,187 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "overlay_blue_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        922,
+        720
+      ],
+      "description": "上半幅浅蓝色固定面板，带轻微色调变化，承载四枚贴纸、箭头与文字；下边缘在画布中部与海边餐饮照片形成清晰水平分界，不扩展为全画布底图。"
+    },
+    {
+      "id": "photo_seaside_table",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        922,
+        1536
+      ],
+      "description": "下半幅完整横向摄影画面，无人物。前景木托盘上有绿色蛋糕、奶油水果装饰、餐具纸巾、绿色冰饮和分层冰咖啡；窗外为海面、礁石、防波堤与远处灯塔。保留全部摄影环境，窗外景物自然失焦，照片四边为明确裁切边界，无透明渐隐。"
+    },
+    {
+      "id": "overlay_dessert",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        248,
+        226,
+        516
+      ],
+      "description": "甜点主题插画贴纸：绿色蛋糕、奶油、草莓、蓝莓、橙片与向上伸展的绿叶组成完整单元；外围有不规则米白与金色多重贴纸边缘，右下带投影。属于上方面板的固定图标，不与下方实拍甜点合并。"
+    },
+    {
+      "id": "overlay_green_drink",
+      "kind": "overlay",
+      "bbox": [
+        287,
+        291,
+        446,
+        507
+      ],
+      "description": "绿色冰饮插画贴纸，透明短玻璃杯内有冰块、绿色饮料与顶部橙片，完整杯体带米白金色贴纸边缘和右下投影，作为独立固定设计保留。"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        508,
+        299,
+        659,
+        513
+      ],
+      "description": "分层冰咖啡插画贴纸，短玻璃杯内上部深棕咖啡与冰块、下部浅色奶液，杯沿和杯底有高光；外围米白金色贴纸边缘及右下投影随整个图标保留。"
+    },
+    {
+      "id": "overlay_lighthouse",
+      "kind": "overlay",
+      "bbox": [
+        709,
+        269,
+        922,
+        520
+      ],
+      "description": "海边灯塔插画贴纸，白色灯塔立于深色块石底座上，下方有蓝色海水；塔顶、石堤和水面共同形成完整不规则轮廓，米白金色贴纸边缘与投影整体保留，右侧接近画布边缘。"
+    },
+    {
+      "id": "overlay_arrow_1",
+      "kind": "overlay",
+      "bbox": [
+        226,
+        391,
+        283,
+        417
+      ],
+      "description": "甜点与绿色冰饮之间的白色手绘右箭头，细弧线与两笔箭头尖共同保留。"
+    },
+    {
+      "id": "overlay_arrow_2",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        391,
+        499,
+        417
+      ],
+      "description": "绿色冰饮与咖啡之间的白色手绘右箭头，略向上弯曲，完整线条作为一个独立装饰保留。"
+    },
+    {
+      "id": "overlay_arrow_3",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        391,
+        716,
+        417
+      ],
+      "description": "咖啡与灯塔之间的白色手绘右箭头，完整弧线与箭头尖作为一个独立装饰保留。"
+    },
+    {
+      "id": "text_dessert",
+      "kind": "text",
+      "bbox": [
+        58,
+        524,
+        162,
+        580
+      ],
+      "text": "Dessert\nMoment",
+      "color": "#FFFDEB",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_refresh",
+      "kind": "text",
+      "bbox": [
+        311,
+        523,
+        409,
+        587
+      ],
+      "text": "Refresh\nSip",
+      "color": "#FFFDEB",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_coffee",
+      "kind": "text",
+      "bbox": [
+        539,
+        524,
+        627,
+        580
+      ],
+      "text": "Coffee\nBreak",
+      "color": "#FFFDEB",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_seaside",
+      "kind": "text",
+      "bbox": [
+        765,
+        524,
+        866,
+        585
+      ],
+      "text": "Seaside\nMemory",
+      "color": "#FFFDEB",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_blue_panel",
+    "photo_seaside_table",
+    "overlay_dessert",
+    "overlay_green_drink",
+    "overlay_coffee",
+    "overlay_lighthouse",
+    "overlay_arrow_1",
+    "overlay_arrow_2",
+    "overlay_arrow_3",
+    "text_dessert",
+    "text_refresh",
+    "text_coffee",
+    "text_seaside"
+  ]
+}

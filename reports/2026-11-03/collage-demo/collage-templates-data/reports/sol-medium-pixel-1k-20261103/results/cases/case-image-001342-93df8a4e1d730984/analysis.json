@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    810
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        810
+      ],
+      "description": "连续的桌面甜品摄影画面覆盖整个画布，四边均露出同一浅米色桌面。中央玻璃长盘内有三球冰淇淋，上方为浅棕色，左下为深巧克力色，右下为浅绿色；金属匙柄斜伸向右上，盘下垫有折叠纸巾。保留完整餐具、甜品和桌面环境一起替换，叠加的闪光与花纹遮挡局部，不属于摄影内容。",
+      "background_type": "photo",
+      "label": "连续的桌面甜品摄影画面覆盖整个画布，四边均露出同一浅米色桌面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        75,
+        980,
+        574
+      ],
+      "description": "覆盖甜品及其周围的白色发光心形装饰组合，点状光珠勾出大心形轨迹，左右带弯曲光环，底部在盘前收拢；沿线及冰淇淋、盘沿上散布白色星芒和淡紫色闪点。光线、光晕与附属闪点作为完整固定装饰保留，不随摄影内容替换。",
+      "label": "覆盖甜品及其周围的白色发光心形装饰组合，点状光珠勾出大心形轨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        4,
+        5,
+        216,
+        238
+      ],
+      "description": "左上角银白色细碎颗粒质感的卷草花纹，顶部横向卷曲，左侧向下垂落，包含小叶片、卷须、亮点及细微阴影，整体保留。",
+      "label": "左上角银白色细碎颗粒质感的卷草花纹，顶部横向卷曲，左侧向下垂",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        855,
+        6,
+        1067,
+        237
+      ],
+      "description": "右上角银白色颗粒质感的卷草装饰，顶部向左延展，右侧向下垂落，完整保留卷曲枝叶、亮点与细微阴影；局部叠在匙柄附近。",
+      "label": "右上角银白色颗粒质感的卷草装饰，顶部向左延展，右侧向下垂落，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        689,
+        575,
+        796
+      ],
+      "description": "底部左侧横向银白色卷草装饰，由左端卷须、波浪状细枝、叶片及右端玫瑰状花朵构成，带颗粒闪亮纹理和细小方形点缀，作为同一完整设计单元保留。",
+      "label": "底部左侧横向银白色卷草装饰，由左端卷须、波浪状细枝、叶片及右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        703,
+        1036,
+        796
+      ],
+      "description": "底部右侧独立银白色横向卷草装饰，细枝呈波浪状伸展，两端及中部带卷须、叶片与细小方形点缀；保留完整颗粒纹理和边缘，与左侧带花朵的装饰之间留有间隙。",
+      "label": "底部右侧独立银白色横向卷草装饰，细枝呈波浪状伸展，两端及中部",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_sparkle",
+    "overlay_upper_left",
+    "overlay_upper_right",
+    "overlay_lower_left",
+    "overlay_lower_right"
+  ]
+}

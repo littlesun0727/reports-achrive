@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    963,
+    1284
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        963,
+        1284
+      ],
+      "description": "连续的暗色石质桌面摄影画面覆盖全画布，边缘与上方照片周围均可见同一纹理。画面右侧有一只手从画外伸入，握着一杯带冰块和吸管的浅黄色饮品；手臂延伸至右侧及右下方并被画布裁切。上方左侧的独立咖啡照片遮挡局部，底图其余摄影内容整体保留并可替换。",
+      "background_type": "photo",
+      "label": "连续的暗色石质桌面摄影画面覆盖全画布，边缘与上方照片周围均可",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        69,
+        34,
+        526,
+        650
+      ],
+      "description": "左上方竖向咖啡桌面照片，包含深色围裙及可辨文字、挂饰、两杯饮品、托盘和桌面，摄影环境保留。照片主体显示区域约为 [95, 86, 487, 611]；外围有一圈不规则白色手绘线，沿照片窗口四周绘制，整体随该照片保留。",
+      "label": "左上方竖向咖啡桌面照片，包含深色围裙及可辨文字、挂饰、两杯饮",
+      "method": "local"
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        58,
+        42,
+        82
+      ],
+      "description": "画布左上方的小型白色五角星装饰。",
+      "label": "画布左上方的小型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        40,
+        611,
+        85
+      ],
+      "description": "上方偏右的大型白色五角星装饰。",
+      "label": "上方偏右的大型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        141,
+        827,
+        168
+      ],
+      "description": "右上区域的小型白色五角星装饰。",
+      "label": "右上区域的小型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        391,
+        690,
+        426
+      ],
+      "description": "画面右侧中上部的白色五角星装饰。",
+      "label": "画面右侧中上部的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_5",
+      "kind": "overlay",
+      "bbox": [
+        798,
+        630,
+        824,
+        657
+      ],
+      "description": "右侧中部的小型白色五角星装饰。",
+      "label": "右侧中部的小型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_6",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        685,
+        96,
+        715
+      ],
+      "description": "左侧中部的白色五角星装饰。",
+      "label": "左侧中部的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_7",
+      "kind": "overlay",
+      "bbox": [
+        322,
+        704,
+        349,
+        731
+      ],
+      "description": "画面中部偏左的小型白色五角星装饰。",
+      "label": "画面中部偏左的小型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_8",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        951,
+        835,
+        997
+      ],
+      "description": "右侧中下部的大型白色五角星装饰。",
+      "label": "右侧中下部的大型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_9",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        1025,
+        118,
+        1065
+      ],
+      "description": "左下区域的大型白色五角星装饰。",
+      "label": "左下区域的大型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_10",
+      "kind": "overlay",
+      "bbox": [
+        465,
+        1218,
+        497,
+        1250
+      ],
+      "description": "画布底部中央附近的小型白色五角星装饰。",
+      "label": "画布底部中央附近的小型白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "watermark",
+      "kind": "overlay",
+      "bbox": [
+        921,
+        1258,
+        956,
+        1278
+      ],
+      "description": "右下角贴近画布边缘的半透明圆角水印标记，内部有细小浅色字样，无法辨读，作为整体保留。",
+      "label": "右下角贴近画布边缘的半透明圆角水印标记，内部有细小浅色字样，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_cafe",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4",
+    "star_5",
+    "star_6",
+    "star_7",
+    "star_8",
+    "star_9",
+    "star_10",
+    "watermark"
+  ]
+}

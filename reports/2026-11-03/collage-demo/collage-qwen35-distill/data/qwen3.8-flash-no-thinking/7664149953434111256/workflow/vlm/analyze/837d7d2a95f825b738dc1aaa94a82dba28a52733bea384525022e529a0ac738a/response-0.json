@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-0ef82218-da90-9858-a487-8ffea530df40",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7684,
+    "completion_tokens": 737,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 737
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的咖啡馆室内摄影底图，画面呈现模糊的暖色调背景，包含窗户、吧台和桌椅等环境元素。该底图延伸至画布四边，作为所有独立照片和装饰元素的衬底，提供统一的场景氛围。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"text_top\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        140,\n        245,\n        460,\n        300\n      ],\n      \"text\": \"Holiday coffee Shop\\nphoto taking check-in.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"text_bottom\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        135,\n        705,\n        465,\n        765\n      ],\n      \"text\": \"Watermelon cools all\\nmy summer days!\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        130,\n        328,\n        470,\n        665\n      ],\n      \"description\": \"左侧矩形照片，展示一位身穿绿色上衣的女性坐在桌前，面前有一杯深色饮料，背景为咖啡馆内部陈设。\"\n    },\n    {\n      \"id\": \"photo_right_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        520,\n        152,\n        870,\n        502\n      ],\n      \"description\": \"右上矩形照片，同一位女性侧身坐着，手放在桌上，视线看向镜头，背景可见咖啡机设备。\"\n    },\n    {\n      \"id\": \"photo_right_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        522,\n        548,\n        868,\n        885\n      ],\n      \"description\": \"右下矩形照片，女性单手托腮，眼神望向画面左侧，桌上放着插有吸管的饮料杯。\"\n    },\n    {\n      \"id\": \"overlay_stars\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        1000\n      ],\n      \"description\": \"散布在画面各处的白色手绘风格五角星装饰图案，大小不一，随机分布在照片周围及空隙处，增加活泼感。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_left\",\n    \"photo_right_top\",\n    \"photo_right_bottom\",\n    \"text_top\",\n    \"text_bottom\",\n    \"overlay_stars\"\n  ]\n}",
+  "tool_calls": false
+}

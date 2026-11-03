@@ -1,0 +1,221 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "城市街道黄昏场景，天空呈粉紫色渐变，两侧为建筑物与电线杆，地面有行人剪影。画面中央夹着一张米色硬纸板，纸板遮挡了部分街道背景，但街道环境连续延伸至画布边缘，构成全画布摄影底图。"
+  },
+  "objects": [
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        115,
+        125,
+        905,
+        880
+      ],
+      "description": "米色硬纸板夹在金属长尾夹中，位于画面中央，遮挡街道背景。纸板表面贴有多张照片、文字标签和装饰贴纸。",
+      "photo_id": [
+        "photo_1",
+        "photo_2",
+        "photo_3",
+        "photo_4"
+      ]
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        175,
+        190,
+        410,
+        325
+      ],
+      "description": "左上角照片，展示蓝色海洋与船舷栏杆，天空晴朗。照片上方有悬挂式标签贴纸，下方有海星装饰贴纸。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        438,
+        185,
+        825,
+        360
+      ],
+      "description": "右上角照片，展示烧烤架上的烤肉、配菜碗和辣椒。照片右上角有手写标签贴纸。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        325,
+        355,
+        480,
+        475
+      ],
+      "description": "中间偏左照片，展示一人坐在桌前写字，桌上有笔记本和书籍。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        170,
+        545,
+        465,
+        815
+      ],
+      "description": "左下角拍立得风格照片，展示一人站在石墙前的草地上，背景为开阔田野。照片下方有手写文字 'Arrebol'。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        540,
+        550,
+        805,
+        705
+      ],
+      "description": "右下角照片，展示一人穿着背心和短裤站在车旁，背景为街道。照片右侧有手写标签贴纸。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        170,
+        250,
+        235
+      ],
+      "description": "左上角悬挂式标签贴纸，写有 'summer paradise'，带有链条装饰。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        290,
+        230,
+        350
+      ],
+      "description": "左上角海星装饰贴纸，白色，带有阴影效果。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        440,
+        340,
+        505,
+        365
+      ],
+      "description": "中间偏左的小标签贴纸，写有 'LITTLE THINGS make big days'。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        160,
+        850,
+        215
+      ],
+      "description": "右上角手写标签贴纸，写有 'focus on the good'。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        365,
+        870,
+        485
+      ],
+      "description": "右侧手写文字贴纸，写有 'Happy Children's Day'，带有太阳图案。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        525,
+        875,
+        590
+      ],
+      "description": "右下角手写标签贴纸，写有 'joy has a habit of returning.'。"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        715,
+        710,
+        775
+      ],
+      "description": "右下角黄色便签贴纸，写有英文短句。"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        715,
+        850,
+        775
+      ],
+      "description": "右下角蓝色饮料瓶和沙漏装饰贴纸。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        160,
+        370,
+        315,
+        450
+      ],
+      "text": "The best journeys start with a one-way ticket in hand and no plan in mind",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        585,
+        790,
+        850,
+        845
+      ],
+      "text": "The best souvenir is the person you became while no one was watching",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_1",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "text_1",
+    "text_2"
+  ]
+}

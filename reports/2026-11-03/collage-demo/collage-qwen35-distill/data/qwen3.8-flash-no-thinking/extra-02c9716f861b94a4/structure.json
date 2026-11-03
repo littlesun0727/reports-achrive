@@ -1,0 +1,210 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "solid_color",
+    "color": "#7A7571"
+  },
+  "objects": [
+    {
+      "id": "photo_coffee_main",
+      "kind": "photo",
+      "bbox": [
+        136,
+        98,
+        612,
+        578
+      ],
+      "description": "竖向矩形照片，显示一杯奶茶放在电脑键盘前的杯托上，背景有玩偶和屏幕。照片边缘带有白色手绘风格的粗糙描边。"
+    },
+    {
+      "id": "overlay_stars_white",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        135,
+        324,
+        255
+      ],
+      "description": "位于主照片左上角的三个白色手绘星星装饰，包含两个空心五角星和一个实心五角星。"
+    },
+    {
+      "id": "overlay_doodles_right",
+      "kind": "overlay",
+      "bbox": [
+        646,
+        108,
+        875,
+        355
+      ],
+      "description": "右侧的一组白色手绘涂鸦，包括放射线、圆圈、笑脸符号等抽象线条图案。"
+    },
+    {
+      "id": "overlay_cup_eyes",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        378,
+        835,
+        480
+      ],
+      "description": "一个黑色小杯子形状的贴纸，上面有一对大眼睛和红色舌头，作为独立装饰元素。"
+    },
+    {
+      "id": "frame_star_blue",
+      "kind": "frame",
+      "bbox": [
+        12,
+        425,
+        262,
+        615
+      ],
+      "description": "蓝色五角星形状的照片窗口，内部填充了蓝天与电线杆的摄影画面，边缘有白色粗糙描边。",
+      "photo_id": [
+        "photo_star_content"
+      ]
+    },
+    {
+      "id": "photo_star_content",
+      "kind": "photo",
+      "bbox": [
+        12,
+        425,
+        262,
+        615
+      ],
+      "description": "蓝色五角星框内的摄影内容，显示仰视视角的蓝天、电线杆及部分文字“中国电工程”。"
+    },
+    {
+      "id": "overlay_label_text",
+      "kind": "overlay",
+      "bbox": [
+        362,
+        462,
+        850,
+        580
+      ],
+      "description": "米色撕纸效果的长条标签底板，边缘呈不规则撕裂状，承载文字内容。"
+    },
+    {
+      "id": "text_label",
+      "kind": "text",
+      "bbox": [
+        402,
+        495,
+        795,
+        525
+      ],
+      "text": "不管何时，生活的目标是健康和快乐",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        605,
+        340,
+        705
+      ],
+      "description": "两只白色线条勾勒的小鸟涂鸦，位于左侧空白处。"
+    },
+    {
+      "id": "overlay_music_player",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        735,
+        385,
+        875
+      ],
+      "description": "深灰色半透明圆角矩形的音乐播放器界面UI，包含音符图标、播放进度条和控制按钮。"
+    },
+    {
+      "id": "photo_scenery",
+      "kind": "photo",
+      "bbox": [
+        385,
+        605,
+        865,
+        885
+      ],
+      "description": "横向矩形风景照片，显示公园内的池塘、树木（含樱花）和草坪。照片右上角叠加了白色场记板涂鸦和韩文“감!”字样。"
+    },
+    {
+      "id": "overlay_bracket_bottom",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        835,
+        895,
+        900
+      ],
+      "description": "风景照片右下角的白色直角折线装饰。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        535,
+        895,
+        755,
+        925
+      ],
+      "text": "去有风的地方",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        225,
+        65,
+        410,
+        95
+      ],
+      "text": "coffee",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_bracket_top",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        75,
+        200,
+        140
+      ],
+      "description": "左上方的白色直角折线装饰，位于“coffee”文字左侧。"
+    }
+  ],
+  "layer_order": [
+    "photo_coffee_main",
+    "overlay_stars_white",
+    "overlay_doodles_right",
+    "overlay_cup_eyes",
+    "frame_star_blue",
+    "photo_star_content",
+    "overlay_label_text",
+    "text_label",
+    "overlay_birds",
+    "overlay_music_player",
+    "photo_scenery",
+    "overlay_bracket_bottom",
+    "text_bottom",
+    "text_top",
+    "overlay_bracket_top"
+  ]
+}

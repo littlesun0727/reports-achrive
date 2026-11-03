@@ -1,0 +1,166 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一位年轻女性在面包店内，手持姜饼人饼干和波点包，背景可见陈列柜、面包和店内环境。画面边缘露出的场景连续延伸至画布四边，上层贴纸和对话框遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "一位年轻女性在面包店内，手持姜饼人饼干和波点包，背景可见陈列",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        45,
+        60,
+        342,
+        540
+      ],
+      "description": "左上角椭圆形裁剪照片，显示同一位女性手持咖啡杯，保留摄影环境，边缘有白色虚线描边。",
+      "label": "左上角椭圆形裁剪照片，显示同一位女性手持咖啡杯，保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        384,
+        162,
+        576
+      ],
+      "description": "蓝色卡通形象贴纸，位于照片下方，独立装饰单元。",
+      "label": "蓝色卡通形象贴纸，位于照片下方，独立装饰单元。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        480,
+        765,
+        576
+      ],
+      "description": "两个小猫咪贴纸，位于右侧面包柜上方，独立装饰单元。",
+      "label": "两个小猫咪贴纸，位于右侧面包柜上方，独立装饰单元。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        336,
+        765,
+        420
+      ],
+      "description": "面包柜上的标签贴纸，包含韩文文字，独立装饰单元。",
+      "label": "面包柜上的标签贴纸，包含韩文文字，独立装饰单元。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        288,
+        60,
+        450,
+        120
+      ],
+      "description": "Blog is my life . .",
+      "label": "Blog is my life . .",
+      "method": "local",
+      "text": "Blog is my life . .",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        180,
+        960,
+        405,
+        1080
+      ],
+      "description": "뭔가가 그리워지는데.",
+      "label": "뭔가가 그리워지는데.",
+      "method": "local",
+      "text": "뭔가가 그리워지는데.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        720,
+        504,
+        855,
+        576
+      ],
+      "description": "역시 근데? 좋아하면",
+      "label": "역시 근데? 좋아하면",
+      "method": "local",
+      "text": "역시 근데? 좋아하면",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "散布在画面中的星星和心形装饰贴纸，包括白色五角星、黑色五角星和白色心形，作为独立装饰单元。",
+      "label": "散布在画面中的星星和心形装饰贴纸，包括白色五角星、黑色五角星",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_inset",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "text_2",
+    "text_3",
+    "overlay_4"
+  ]
+}

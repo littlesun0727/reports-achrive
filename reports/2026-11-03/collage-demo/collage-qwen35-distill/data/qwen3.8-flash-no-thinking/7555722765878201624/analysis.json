@@ -1,0 +1,162 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影底图，画面主体为一名身穿黑色TOMMY JEANS毛衣、白色长袜和黑色皮鞋的长发女子全身照。背景包含带有“TH STREE”字样的瓷砖墙、蓝白相间的TOMMY JEANS海报以及右下角的木桶。该照片完整延伸至画布四边，承载全幅构图，上层叠加了其他独立对象遮挡局部。",
+      "background_type": "photo",
+      "label": "一张连续的摄影底图，画面主体为一名身穿黑色TOMMY JEA",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_dots_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        338,
+        1200
+      ],
+      "description": "位于左侧的白色矩形区域，上面分布着规则的黑色圆点图案，作为装饰性底板覆盖在底图之上。",
+      "label": "位于左侧的白色矩形区域，上面分布着规则的黑色圆点图案，作为装",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        43,
+        211,
+        371,
+        611
+      ],
+      "description": "左上方的方形人物特写照片，显示同一位女子的面部近景，穿着黑色上衣，背景可见部分室内环境。",
+      "label": "左上方的方形人物特写照片，显示同一位女子的面部近景，穿着黑色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_black",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        179,
+        256,
+        251
+      ],
+      "description": "一个黑色正方形贴纸，中间印有一颗白色五角星，压在左上方照片的顶部边缘。",
+      "label": "一个黑色正方形贴纸，中间印有一颗白色五角星，压在左上方照片的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_white",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        149,
+        878,
+        191
+      ],
+      "description": "右上角的一个白色长方形标签，印有颜文字“^_^ - ☆”。",
+      "label": "右上角的一个白色长方形标签，印有颜文字“^_^ - ☆”。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_black",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        617,
+        166,
+        659
+      ],
+      "description": "左侧中部的一个黑色长方形标签，印有白色颜文字“+ = ^ . _ . ^ = +”。",
+      "label": "左侧中部的一个黑色长方形标签，印有白色颜文字“+ = ^ .",
+      "method": "extract"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        166,
+        521,
+        407,
+        793
+      ],
+      "description": "圆形的人物半身照片，显示女子正面站立姿态，穿着黑色毛衣，背景为蓝色墙面。",
+      "label": "圆形的人物半身照片，显示女子正面站立姿态，穿着黑色毛衣，背景",
+      "method": "local"
+    },
+    {
+      "id": "overlay_heart_grid",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        749,
+        99,
+        911
+      ],
+      "description": "一个黑白网格纹理的心形贴纸，下方有两条细线延伸，位于左侧圆点区域内。",
+      "label": "一个黑白网格纹理的心形贴纸，下方有两条细线延伸，位于左侧圆点",
+      "method": "extract"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        9,
+        827,
+        328,
+        1109
+      ],
+      "description": "心形的人物照片窗口，显示女子托腮的近景，背景可见红心和蓝色条纹元素。",
+      "label": "心形的人物照片窗口，显示女子托腮的近景，背景可见红心和蓝色条",
+      "method": "local"
+    },
+    {
+      "id": "text_japanese",
+      "kind": "text",
+      "bbox": [
+        36,
+        1115,
+        234,
+        1145
+      ],
+      "description": "一緒に頑張ろうね",
+      "label": "一緒に頑張ろうね",
+      "method": "local",
+      "text": "一緒に頑張ろうね",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_dots_left",
+    "photo_top_left",
+    "overlay_star_black",
+    "overlay_label_white",
+    "overlay_label_black",
+    "photo_circle",
+    "overlay_heart_grid",
+    "photo_heart",
+    "text_japanese"
+  ]
+}

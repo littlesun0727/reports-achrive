@@ -1,0 +1,125 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "户外草地与树林背景，一位穿着蓝白条纹运动背心和白色短裙的年轻女性坐在草地上，手持足球，佩戴耳机，头发编成双麻花辫。摄影环境连续延伸至画布边缘，作为全画布底图承载所有上层元素。",
+      "background_type": "photo",
+      "label": "户外草地与树林背景，一位穿着蓝白条纹运动背心和白色短裙的年轻",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        595,
+        38,
+        922,
+        461
+      ],
+      "description": "右上角矩形照片窗口，显示同一位女性手持足球的全身照，保留摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "右上角矩形照片窗口，显示同一位女性手持足球的全身照，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        77,
+        326,
+        512
+      ],
+      "description": "左上角弯曲轮廓的贴纸，显示同一位女性踢球的动态姿势，白色描边，内部为抠图主体，保留摄影环境。",
+      "label": "左上角弯曲轮廓的贴纸，显示同一位女性踢球的动态姿势，白色描边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        442,
+        205,
+        557,
+        333
+      ],
+      "description": "蓝色心形贴纸，包含大小两个心形，无描边，纯图形装饰。",
+      "label": "蓝色心形贴纸，包含大小两个心形，无描边，纯图形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        512,
+        173,
+        691
+      ],
+      "description": "白色星形爆炸效果贴纸，中心为五角星，周围放射短线，无填充，仅线条装饰。",
+      "label": "白色星形爆炸效果贴纸，中心为五角星，周围放射短线，无填充，仅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        192,
+        538,
+        307,
+        666
+      ],
+      "description": "浅蓝色五角星贴纸，实心填充，无描边。",
+      "label": "浅蓝色五角星贴纸，实心填充，无描边。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        461,
+        538,
+        576,
+        666
+      ],
+      "description": "浅蓝色五角星贴纸，实心填充，无描边。",
+      "label": "浅蓝色五角星贴纸，实心填充，无描边。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        595,
+        461,
+        922,
+        538
+      ],
+      "description": "音乐播放器界面贴纸，包含进度条、暂停按钮、心形、快进/后退按钮及循环图标，黑色线条与白色背景，无填充。",
+      "label": "音乐播放器界面贴纸，包含进度条、暂停按钮、心形、快进/后退按",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6"
+  ]
+}

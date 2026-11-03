@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_photo",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内摄影画面覆盖全画布：浅棕墙面与桌面、左下深色圆桌，以及桌上的立式咖啡杯月历共同构成场景。画面边缘和对象间隙可见同一桌面与墙面，局部被两张独立叠加照片和装饰遮挡；替换时整体替换摄影环境与月历。",
+      "background_type": "photo",
+      "label": "连续的室内摄影画面覆盖全画布：浅棕墙面与桌面、左下深色圆桌，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        613,
+        304,
+        994,
+        720
+      ],
+      "description": "右上方横向照片，显示两位年轻女性并肩坐在室内，近景合影；人物及墙面、桌面和粉色袋子等环境共同属于照片。矩形显示范围压在全画布摄影底图上。",
+      "label": "右上方横向照片，显示两位年轻女性并肩坐在室内，近景合影；人物",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        495,
+        990,
+        790,
+        1219
+      ],
+      "description": "下方偏右的横向照片，手持紫色参观证，画面内可见证件插画及周围室内物件；保留完整矩形摄影范围，叠在全画布底图上。",
+      "label": "下方偏右的横向照片，手持紫色参观证，画面内可见证件插画及周围",
+      "method": "local"
+    },
+    {
+      "id": "bow",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        255,
+        979,
+        378
+      ],
+      "description": "覆盖右上照片右上角的粉色缎带蝴蝶结贴饰，包含结体、飘带和高光阴影，作为一个独立装饰保留。",
+      "label": "覆盖右上照片右上角的粉色缎带蝴蝶结贴饰，包含结体、飘带和高光",
+      "method": "extract"
+    },
+    {
+      "id": "star_upper",
+      "kind": "overlay",
+      "bbox": [
+        458,
+        260,
+        522,
+        322
+      ],
+      "description": "画面上方中央偏左的白色发光五角星贴饰，完整轮廓与柔化光晕一并保留。",
+      "label": "画面上方中央偏左的白色发光五角星贴饰，完整轮廓与柔化光晕一并",
+      "method": "extract"
+    },
+    {
+      "id": "star_middle",
+      "kind": "overlay",
+      "bbox": [
+        681,
+        838,
+        744,
+        903
+      ],
+      "description": "画面中部偏右的白色发光五角星贴饰，完整轮廓与柔化光晕一并保留。",
+      "label": "画面中部偏右的白色发光五角星贴饰，完整轮廓与柔化光晕一并保留",
+      "method": "extract"
+    },
+    {
+      "id": "star_lower",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        1134,
+        220,
+        1199
+      ],
+      "description": "画面左下方深色桌面上的白色发光五角星贴饰，完整轮廓与柔化光晕一并保留。",
+      "label": "画面左下方深色桌面上的白色发光五角星贴饰，完整轮廓与柔化光晕",
+      "method": "extract"
+    },
+    {
+      "id": "tape",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        953,
+        811,
+        1059
+      ],
+      "description": "覆盖下方照片右上边缘的浅色网格纸胶带，倾斜粘贴，保留完整纸带轮廓与格纹。",
+      "label": "覆盖下方照片右上边缘的浅色网格纸胶带，倾斜粘贴，保留完整纸带",
+      "method": "extract"
+    },
+    {
+      "id": "handwritten_caption",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        1172,
+        972,
+        1255
+      ],
+      "description": "下方照片右侧的白色英文手写装饰字样“Work harder! Keep on!”，两行斜体笔迹具有独特字形与排布，作为完整艺术字单元保留。",
+      "label": "下方照片右侧的白色英文手写装饰字样“Work harder!",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_photo",
+    "photo_upper",
+    "photo_lower",
+    "star_upper",
+    "star_middle",
+    "star_lower",
+    "bow",
+    "tape",
+    "handwritten_caption"
+  ]
+}

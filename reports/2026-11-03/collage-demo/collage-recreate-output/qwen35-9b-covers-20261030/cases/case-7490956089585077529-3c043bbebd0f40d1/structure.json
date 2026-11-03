@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布米白色纹理纸底，带有细微噪点与颗粒感，作为固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        68,
+        138,
+        732,
+        448
+      ],
+      "description": "上方横向照片，圆角矩形窗口，保留人物及周围摄影环境，无描边或渐隐。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        200,
+        576,
+        800,
+        886
+      ],
+      "description": "下方横向照片，圆角矩形窗口，保留人物及周围摄影环境，无描边或渐隐。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2"
+  ]
+}

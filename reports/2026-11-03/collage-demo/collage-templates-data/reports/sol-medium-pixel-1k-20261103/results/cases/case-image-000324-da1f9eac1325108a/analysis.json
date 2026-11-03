@@ -1,0 +1,451 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1613
+  ],
+  "objects": [
+    {
+      "id": "background_pastel",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1613
+      ],
+      "description": "全画布连续的近白色底纹，带淡粉、淡蓝色柔和晕染，四周及卡片间隙散布粉、蓝、绿、黄、紫色星星和细线闪光图案。保留这些固定底纹及颜色变化；三张独立照片、相纸框、叠贴插画、标签及文字不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的近白色底纹，带淡粉、淡蓝色柔和晕染，四周及卡片间",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_icecream",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        184,
+        277,
+        336
+      ],
+      "description": "浅绿色方形纸片上的深色手绘冰淇淋杯，包含杯中笑脸冰淇淋、两根插棒、褶皱杯身和椭圆托盘；整张纸片及内部线稿保留。",
+      "label": "浅绿色方形纸片上的深色手绘冰淇淋杯，包含杯中笑脸冰淇淋、两根",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_basket",
+      "kind": "overlay",
+      "bbox": [
+        264,
+        204,
+        470,
+        391
+      ],
+      "description": "倾斜的浅黄色纸片，上有深色线稿食物篮、食物轮廓、篮身星形图案及上方热气线。纸片右上部分被粉色碗图纸片遮挡，左缘与冰淇淋纸片相接。",
+      "label": "倾斜的浅黄色纸片，上有深色线稿食物篮、食物轮廓、篮身星形图案",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_bowl",
+      "kind": "overlay",
+      "bbox": [
+        355,
+        106,
+        517,
+        246
+      ],
+      "description": "粉色方形纸片，印有一只表情碗及碗内数块三角形食物的深色手绘线稿；完整纸底和图案为一个固定单元。",
+      "label": "粉色方形纸片，印有一只表情碗及碗内数块三角形食物的深色手绘线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee",
+      "kind": "overlay",
+      "bbox": [
+        767,
+        115,
+        1008,
+        289
+      ],
+      "description": "右上角彩色细线咖啡插画，包含绿色摩卡壶、蓝紫色小杯、杯上的猫脸、周围黄色与浅色闪光线；成员组成一个独立装饰。",
+      "label": "右上角彩色细线咖啡插画，包含绿色摩卡壶、蓝紫色小杯、杯上的猫",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tree",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        384,
+        326,
+        685
+      ],
+      "description": "粉色细线手绘树，云朵状树冠带闭眼笑脸，长树干内有螺旋线，树冠右侧叠有蓝黄星形装饰，树干上有小粉星。按整棵树及附属图案保留，不包含相邻房屋。",
+      "label": "粉色细线手绘树，云朵状树冠带闭眼笑脸，长树干内有螺旋线，树冠",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_house_left",
+      "kind": "overlay",
+      "bbox": [
+        328,
+        435,
+        441,
+        651
+      ],
+      "description": "粉色手绘细长小房屋，包含尖三角屋顶、白色屋身、粉色四格窗和右侧蓝粉星形附饰；房屋下部被左侧相纸框遮住。",
+      "label": "粉色手绘细长小房屋，包含尖三角屋顶、白色屋身、粉色四格窗和右",
+      "method": "extract"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        469,
+        233,
+        945,
+        913
+      ],
+      "description": "向右下倾斜的浅蓝绿色单窗口相纸框，宽底边带浅黄色刺猬脸，上边有白色小图标、星星及“Soft clouds”字样。保留框体、印刷和边缘；中央餐桌摄影内容独立替换。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "向右下倾斜的浅蓝绿色单窗口相纸框，宽底边带浅黄色刺猬脸，上边",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        516,
+        299,
+        875,
+        776
+      ],
+      "description": "倾斜矩形餐桌照片，俯拍多份食物、托盘、杯碟和柠檬饮料，数只手从画面边缘伸入，上方手持餐具，右侧与下方手比剪刀手，下方手腕穿蓝色格纹袖。保留完整餐桌摄影环境，不沿手部去背景；内口上方被粉色飘带遮挡，中部有螺旋星星装饰，下部有闪光叠层。",
+      "label": "倾斜矩形餐桌照片，俯拍多份食物、托盘、杯碟和柠檬饮料，数只手",
+      "method": "local"
+    },
+    {
+      "id": "overlay_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        177,
+        770,
+        459
+      ],
+      "description": "浅粉色柔软蝴蝶结与两条长飘带，结头位于蓝绿色相纸框上方，左飘带垂入照片上部，右飘带弯曲伸入食物区域。保留半透明明暗和完整带状轮廓。",
+      "label": "浅粉色柔软蝴蝶结与两条长飘带，结头位于蓝绿色相纸框上方，左飘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_swirl",
+      "kind": "overlay",
+      "bbox": [
+        636,
+        407,
+        777,
+        540
+      ],
+      "description": "餐桌照片食物上方的白色手绘螺旋圈及外围粉色、黄色、浅蓝色小星星、短线，作为一个完整叠加装饰保留，不随食物照片替换。",
+      "label": "餐桌照片食物上方的白色手绘螺旋圈及外围粉色、黄色、浅蓝色小星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_photo_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        631,
+        829,
+        751
+      ],
+      "description": "餐桌照片下方的闪光装饰带，包含左右分布的白色十字光芒、小亮点、浅蓝光点，以及右侧两枚细长空心四角星；保留发光与线条的原有相对位置。",
+      "label": "餐桌照片下方的闪光装饰带，包含左右分布的白色十字光芒、小亮点",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_label",
+      "kind": "overlay",
+      "bbox": [
+        379,
+        418,
+        635,
+        506
+      ],
+      "description": "斜置粉色长条标签，白色装饰字“很喜欢面包诱惑”，右端附一摞金黄色松饼小图；纸条、字形和食物图标整体保留，横跨树屋右侧与餐桌照片左缘。",
+      "label": "斜置粉色长条标签，白色装饰字“很喜欢面包诱惑”，右端附一摞金",
+      "method": "extract"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        83,
+        621,
+        613,
+        1303
+      ],
+      "description": "向左下倾斜的粉色单窗口相纸框，上窄下宽，底边印浅黄色刺猬笑脸，侧边和右下角带白色小星及一枚细密纹理大星。保留完整纸框与印刷；框内玩偶摄影内容独立替换。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "向左下倾斜的粉色单窗口相纸框，上窄下宽，底边印浅黄色刺猬笑脸",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        149,
+        687,
+        548,
+        1181
+      ],
+      "description": "倾斜矩形近景照片，一只手托着两个圆脸小动物玩偶，左侧偏浅蓝绿色、右侧黄色长耳朵，身后有商品卡片、桌面和叠放杯碟，下方可见浅色印花衣料。保留完整摄影环境，不沿玩偶或手去背景；左侧饮品贴纸、下部手绘星及上方蓝色标签遮住部分画面。",
+      "label": "倾斜矩形近景照片，一只手托着两个圆脸小动物玩偶，左侧偏浅蓝绿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pink_face",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        672,
+        293,
+        780
+      ],
+      "description": "左侧粉色相纸上缘的粉红颜文字，周围带浅粉白色柔光团。保留特殊字形、倾斜位置和发光底托，作为完整装饰，不拆为普通文字。",
+      "label": "左侧粉色相纸上缘的粉红颜文字，周围带浅粉白色柔光团。保留特殊",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cute_label",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        783,
+        299,
+        889
+      ],
+      "description": "斜置浅蓝色长条标签，白色装饰字“萌萌的宝宝呐”，右端带黄色眨眼表情。整体压在粉色相纸左上边及照片上，保留纸条、字形和表情。",
+      "label": "斜置浅蓝色长条标签，白色装饰字“萌萌的宝宝呐”，右端带黄色眨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drink_sticker",
+      "kind": "overlay",
+      "bbox": [
+        184,
+        887,
+        289,
+        1006
+      ],
+      "description": "玩偶照片左侧的饮品贴纸，金黄色杯身、粉色奶油或吸管造型、白色粗轮廓及杯内细小亮点构成一体，叠在照片和其粉色侧边附近。",
+      "label": "玩偶照片左侧的饮品贴纸，金黄色杯身、粉色奶油或吸管造型、白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_photo_stars",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        1023,
+        535,
+        1130
+      ],
+      "description": "玩偶照片右下部的白色手绘五角星装饰，包含交叉多笔的大星、右侧亮白浅蓝十字星及下方小空心星；保持整组线条和发光效果，不属于摄影物品。",
+      "label": "玩偶照片右下部的白色手绘五角星装饰，包含交叉多笔的大星、右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        814,
+        778,
+        1016,
+        959
+      ],
+      "description": "右侧粉色云朵贴纸，大小云瓣内有闭眼圆嘴表情、空心星与小音符，下方附多色短弧和小星。完整成员一起保留，压住蓝绿色相纸框右下缘，并延伸到下方浅黄色相纸附近。",
+      "label": "右侧粉色云朵贴纸，大小云瓣内有闭眼圆嘴表情、空心星与小音符，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_house_trails",
+      "kind": "overlay",
+      "bbox": [
+        484,
+        861,
+        813,
+        1059
+      ],
+      "description": "两张下方相纸之间的彩色线条装饰，左侧为粉、绿、紫色弯曲轨迹，右上接一座粉色轮廓小房屋，屋内有蓝、黄星形，屋顶有细线环及右侧小蓝星。作为完整线稿单元保留，部分轨迹被下方相纸遮住。",
+      "label": "两张下方相纸之间的彩色线条装饰，左侧为粉、绿、紫色弯曲轨迹，",
+      "method": "extract"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        583,
+        931,
+        995,
+        1498
+      ],
+      "description": "稍向右下倾斜的浅奶黄色单窗口相纸框，底边有两只黑色圆眼及白色鼻口区形成小熊脸。左上边压住左侧相纸附近的彩色轨迹，右侧局部被饮品插画遮挡；框内收纳与拼豆照片独立替换。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "稍向右下倾斜的浅奶黄色单窗口相纸框，底边有两只黑色圆眼及白色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        631,
+        960,
+        956,
+        1383
+      ],
+      "description": "倾斜矩形桌面近景，上半部是一只白色镂空收纳篮，内装多排彩色编号小盒；下半部是浅色桌面上的粉色长耳卡通拼豆作品与拼豆板，左边露出粉色材料小盒。保留整个摄影环境及照片中实物标签，不去背景；白色蝴蝶结贴图覆盖中部，右缘被饮品纸片遮挡。",
+      "label": "倾斜矩形桌面近景，上半部是一只白色镂空收纳篮，内装多排彩色编",
+      "method": "local"
+    },
+    {
+      "id": "overlay_white_bow",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        1157,
+        887,
+        1231
+      ],
+      "description": "收纳照片中下部的白色细线蝴蝶结，包含两侧环圈、结头及下垂带尾，左旁浅绿色小星和右旁淡黄色小圆环为附属点缀，整体作为叠加装饰保留。",
+      "label": "收纳照片中下部的白色细线蝴蝶结，包含两侧环圈、结头及下垂带尾",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drink_card",
+      "kind": "overlay",
+      "bbox": [
+        878,
+        1118,
+        1005,
+        1273
+      ],
+      "description": "倾斜的浅蓝绿色小纸片，深色线稿描绘一杯冰饮、杯内小动物头、冰块、杯上蝴蝶结及顶部小伞；纸底和完整图案一并保留，叠在右侧相纸照片和右边框上。",
+      "label": "倾斜的浅蓝绿色小纸片，深色线稿描绘一杯冰饮、杯内小动物头、冰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fun_label",
+      "kind": "overlay",
+      "bbox": [
+        458,
+        1347,
+        687,
+        1428
+      ],
+      "description": "斜置粉色长条标签，白色特殊字形“拼豆好有意思”，右端带墨镜笑脸。标签跨在右侧奶黄色相纸左下边，纸条、文字与表情整体保留。",
+      "label": "斜置粉色长条标签，白色特殊字形“拼豆好有意思”，右端带墨镜笑",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        1193,
+        433,
+        1434
+      ],
+      "description": "左下方白底深蓝线稿小熊贴纸，包含圆耳熊头、表情、领巾与短裤身体，右手牵着带轮子的条纹小物件，脚边有密集蓝色点状落地纹理。整个贴纸含白色外缘保留，熊头遮住粉色相纸下角。",
+      "label": "左下方白底深蓝线稿小熊贴纸，包含圆耳熊头、表情、领巾与短裤身",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_october",
+      "kind": "overlay",
+      "bbox": [
+        222,
+        1418,
+        554,
+        1494
+      ],
+      "description": "小熊下方的“10月”艺术字组合，黑灰色蜡笔质感的“1”“0”“月”分散排列，“1”和“月”背后有黄色圆形晕染，右侧附黑色手绘空心星。保留各字独立位置、纹理和附属星，不改为常规横排文字。",
+      "label": "小熊下方的“10月”艺术字组合，黑灰色蜡笔质感的“1”“0”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_xiaohongshu_logo",
+      "kind": "overlay",
+      "bbox": [
+        914,
+        1475,
+        1035,
+        1535
+      ],
+      "description": "右下角低对比度白色圆角胶囊标识，内有浅灰白色“小红书”字样，带轻微边缘阴影；完整标识作为固定装饰保留。",
+      "label": "右下角低对比度白色圆角胶囊标识，内有浅灰白色“小红书”字样，",
+      "method": "extract"
+    },
+    {
+      "id": "text_account",
+      "kind": "text",
+      "bbox": [
+        643,
+        1550,
+        1039,
+        1582
+      ],
+      "description": "我的小红书号：melody092118",
+      "label": "我的小红书号：melody092118",
+      "method": "local",
+      "text": "我的小红书号：melody092118",
+      "text_status": "known",
+      "style": {
+        "fill": "#D8D8D8",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "background_pastel",
+    "overlay_food_basket",
+    "overlay_icecream",
+    "overlay_food_bowl",
+    "overlay_coffee",
+    "overlay_tree",
+    "overlay_house_left",
+    "frame_top",
+    "photo_top",
+    "overlay_ribbon",
+    "overlay_food_swirl",
+    "overlay_top_photo_sparkles",
+    "overlay_food_label",
+    "frame_left",
+    "photo_left",
+    "overlay_pink_face",
+    "overlay_cute_label",
+    "overlay_drink_sticker",
+    "overlay_left_photo_stars",
+    "overlay_house_trails",
+    "frame_right",
+    "photo_right",
+    "overlay_cloud",
+    "overlay_white_bow",
+    "overlay_drink_card",
+    "overlay_fun_label",
+    "overlay_bear",
+    "overlay_october",
+    "overlay_xiaohongshu_logo",
+    "text_account"
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        360,
+        150,
+        730,
+        490
+      ],
+      "description": "中间主照片，两位女生在户外草地上，手持枫叶，背景有樱花装饰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        80,
+        360,
+        410,
+        550
+      ],
+      "description": "左侧上方照片，三位女生在户外，手持枫叶，背景有蓝天和云朵。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        80,
+        550,
+        410,
+        740
+      ],
+      "description": "左侧下方照片，两位女生在户外，手持枫叶，背景有蓝天和云朵。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        470,
+        610,
+        750,
+        850
+      ],
+      "description": "右下方照片，两位女生在户外，手持枫叶，背景有蓝天和云朵。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        770,
+        200,
+        900,
+        450
+      ],
+      "description": "右侧上方照片，一位女生在户外，手持枫叶，背景有蓝天和云朵。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        350,
+        140,
+        740,
+        500
+      ],
+      "description": "承载 photo_1 的邮票形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_1"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        70,
+        350,
+        420,
+        750
+      ],
+      "description": "承载 photo_2 和 photo_3 的相机形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_2",
+        "photo_3"
+      ]
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        460,
+        600,
+        760,
+        860
+      ],
+      "description": "承载 photo_4 的邮票形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_4"
+      ]
+    },
+    {
+      "id": "frame_4",
+      "kind": "frame",
+      "bbox": [
+        760,
+        190,
+        910,
+        460
+      ],
+      "description": "承载 photo_5 的邮票形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_5"
+      ]
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        30,
+        280,
+        120
+      ],
+      "description": "左上角的云朵装饰，带有笑脸。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        40,
+        880,
+        150
+      ],
+      "description": "右上角的相机装饰。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        450,
+        850,
+        600
+      ],
+      "description": "右侧的牛奶盒装饰，带有草莓图案。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        700,
+        880,
+        980
+      ],
+      "description": "右下角的黄色雨伞和人物装饰。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        800,
+        150,
+        950
+      ],
+      "description": "左下角的白色兔子装饰。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        320,
+        20,
+        680,
+        120
+      ],
+      "text": "去旅行\nGo on a journey",
+      "color": "#333333",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "frame_4",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1"
+  ]
+}

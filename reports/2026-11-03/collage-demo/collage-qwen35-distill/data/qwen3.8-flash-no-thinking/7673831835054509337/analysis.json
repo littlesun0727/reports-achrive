@@ -1,0 +1,177 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    675
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        675
+      ],
+      "description": "一张连续的摄影底图，画面为深绿色的模糊树林或灌木丛背景，带有斑驳的光影效果。该底图延伸至画布四边，承载所有前景元素。",
+      "background_type": "photo",
+      "label": "一张连续的摄影底图，画面为深绿色的模糊树林或灌木丛背景，带有",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        39,
+        84,
+        99
+      ],
+      "description": "位于左上角的白色四角星装饰图案。",
+      "label": "位于左上角的白色四角星装饰图案。",
+      "method": "extract"
+    },
+    {
+      "id": "text_angel_energy",
+      "kind": "text",
+      "bbox": [
+        63,
+        126,
+        432,
+        196
+      ],
+      "description": "Angel Energy",
+      "label": "Angel Energy",
+      "method": "local",
+      "text": "Angel Energy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "frame_photo_left",
+      "kind": "frame",
+      "bbox": [
+        68,
+        236,
+        464,
+        554
+      ],
+      "description": "左侧拍立得相纸的白色边框，呈逆时针倾斜状，包裹着内部照片。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "左侧拍立得相纸的白色边框，呈逆时针倾斜状，包裹着内部照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        144,
+        256,
+        436,
+        520
+      ],
+      "description": "左侧照片内容：一位金发人物坐在车内，身穿白衬衫，单手托腮直视镜头。",
+      "label": "左侧照片内容：一位金发人物坐在车内，身穿白衬衫，单手托腮直视",
+      "method": "local"
+    },
+    {
+      "id": "frame_photo_right",
+      "kind": "frame",
+      "bbox": [
+        446,
+        105,
+        850,
+        405
+      ],
+      "description": "右侧拍立得相纸的白色边框，呈顺时针倾斜状，包裹着内部照片。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右侧拍立得相纸的白色边框，呈顺时针倾斜状，包裹着内部照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        450,
+        122,
+        770,
+        381
+      ],
+      "description": "右侧照片内容：同一位金发人物在车内侧身，手放在嘴边做呼喊状，背景可见车窗外的街道。",
+      "label": "右侧照片内容：同一位金发人物在车内侧身，手放在嘴边做呼喊状，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        351,
+        657,
+        645
+      ],
+      "description": "一朵淡蓝色的百合花插画，位于画面下方中央，遮挡了部分相框和文字。",
+      "label": "一朵淡蓝色的百合花插画，位于画面下方中央，遮挡了部分相框和文",
+      "method": "extract"
+    },
+    {
+      "id": "text_a_fallen_angel",
+      "kind": "text",
+      "bbox": [
+        500,
+        341,
+        684,
+        459
+      ],
+      "description": "a fallen angel",
+      "label": "a fallen angel",
+      "method": "local",
+      "text": "a fallen angel",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_stars_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        500,
+        868,
+        665
+      ],
+      "description": "右下角的三颗白色四角星装饰图案组合。",
+      "label": "右下角的三颗白色四角星装饰图案组合。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_star_top_left",
+    "text_angel_energy",
+    "frame_photo_left",
+    "photo_left",
+    "frame_photo_right",
+    "photo_right",
+    "text_a_fallen_angel",
+    "overlay_lily",
+    "overlay_stars_bottom_right"
+  ]
+}

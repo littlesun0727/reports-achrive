@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1600
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1600
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        512
+      ],
+      "description": "俯拍视角的沥青路面，表面有积水反光，散落着许多黄色落叶，画面边缘可见部分路缘石。",
+      "label": "俯拍视角的沥青路面，表面有积水反光，散落着许多黄色落叶，画面",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        0,
+        512,
+        900,
+        1088
+      ],
+      "description": "一位年轻女性站在绿色泳池边，手持椰子，身穿白色T恤和牛仔裤，背景有绿植和天使雕像。",
+      "label": "一位年轻女性站在绿色泳池边，手持椰子，身穿白色T恤和牛仔裤，",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        54,
+        816,
+        846,
+        944
+      ],
+      "description": "In those days even the wind\nfelt free in summer",
+      "label": "In those days even the wind\nfe",
+      "method": "local",
+      "text": "In those days even the wind\nfelt free in summer",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF007F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1088,
+        900,
+        1600
+      ],
+      "description": "绚丽的晚霞天空，云层呈现橙红色，下方可见路灯剪影和树木轮廓。",
+      "label": "绚丽的晚霞天空，云层呈现橙红色，下方可见路灯剪影和树木轮廓。",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "text_1",
+    "photo_3"
+  ]
+}

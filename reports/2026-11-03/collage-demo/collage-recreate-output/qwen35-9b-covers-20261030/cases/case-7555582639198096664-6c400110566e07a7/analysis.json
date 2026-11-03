@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "咖啡馆室内环境，包含木质桌椅、墙面装饰画（MOZART）、吊灯及模糊背景，作为连续摄影画面承载全画布，主体与环境整体由客户照片替换。",
+      "background_type": "photo",
+      "label": "咖啡馆室内环境，包含木质桌椅、墙面装饰画（MOZART）、吊",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        61,
+        110,
+        502,
+        684
+      ],
+      "description": "左上角矩形照片，人物双手托腮坐在桌前，桌上有咖啡杯和书本，保留摄影环境，四边清晰。",
+      "label": "左上角矩形照片，人物双手托腮坐在桌前，桌上有咖啡杯和书本，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        558,
+        408,
+        810,
+        684
+      ],
+      "description": "右上角心形窗口照片，展示甜点（布丁配樱桃），保留摄影环境，心形轮廓清晰。",
+      "label": "右上角心形窗口照片，展示甜点（布丁配樱桃），保留摄影环境，心",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        468,
+        840,
+        855,
+        1140
+      ],
+      "description": "右下角矩形照片，人物侧脸手托脸颊，桌上有相机，保留摄影环境，四边清晰。",
+      "label": "右下角矩形照片，人物侧脸手托脸颊，桌上有相机，保留摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        120,
+        855,
+        360
+      ],
+      "description": "右上角手绘涂鸦装饰，包含星星、爱心、表情符号及数字63，白色线条风格。",
+      "label": "右上角手绘涂鸦装饰，包含星星、爱心、表情符号及数字63，白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        756,
+        360,
+        1140
+      ],
+      "description": "左下角手绘蛋糕插图，带草莓装饰，旁边有星星和对话气泡文字。",
+      "label": "左下角手绘蛋糕插图，带草莓装饰，旁边有星星和对话气泡文字。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        180,
+        816,
+        342,
+        888
+      ],
+      "description": "今日有咖",
+      "label": "今日有咖",
+      "method": "local",
+      "text": "今日有咖",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        792,
+        540,
+        864
+      ],
+      "description": "右下角胶带装饰，半透明灰色，模拟撕纸效果。",
+      "label": "右下角胶带装饰，半透明灰色，模拟撕纸效果。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "overlay_3"
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "蓝天白云与云朵构成连续摄影画面，边缘露出的云层和天空延伸至画布四边；上层多张照片、文字和装饰遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "蓝天白云与云朵构成连续摄影画面，边缘露出的云层和天空延伸至画",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        86,
+        216,
+        302,
+        504
+      ],
+      "description": "猫眼特写照片，保留摄影环境，四边清晰。",
+      "label": "猫眼特写照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        778,
+        216,
+        994,
+        504
+      ],
+      "description": "黄色卡片照片，保留摄影环境，四边清晰。",
+      "label": "黄色卡片照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        778,
+        504,
+        994,
+        792
+      ],
+      "description": "木板上小熊照片，保留摄影环境，四边清晰。",
+      "label": "木板上小熊照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        86,
+        504,
+        302,
+        792
+      ],
+      "description": "手持蘑菇照片，保留摄影环境，四边清晰。",
+      "label": "手持蘑菇照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        86,
+        792,
+        302,
+        1080
+      ],
+      "description": "手掌中星星照片，保留摄影环境，四边清晰。",
+      "label": "手掌中星星照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        410,
+        792,
+        626,
+        1080
+      ],
+      "description": "蜡烛照片，保留摄影环境，四边清晰。",
+      "label": "蜡烛照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        734,
+        792,
+        950,
+        1080
+      ],
+      "description": "蓝天照片，保留摄影环境，四边清晰。",
+      "label": "蓝天照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        410,
+        504,
+        626,
+        792
+      ],
+      "description": "眼睛特写照片，保留摄影环境，四边清晰。",
+      "label": "眼睛特写照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        216,
+        626,
+        504
+      ],
+      "description": "带有文字的纸张，文字、纸张和阴影作为一个完整装饰保留。",
+      "label": "带有文字的纸张，文字、纸张和阴影作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        410,
+        1224,
+        670,
+        1368
+      ],
+      "description": "20%细腻感知",
+      "label": "20%细腻感知",
+      "method": "local",
+      "text": "20%细腻感知",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8",
+    "overlay_1",
+    "text_1"
+  ]
+}

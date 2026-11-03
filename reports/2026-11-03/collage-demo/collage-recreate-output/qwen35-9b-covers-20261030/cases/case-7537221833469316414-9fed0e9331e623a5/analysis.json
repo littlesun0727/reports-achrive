@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1120
+  ],
+  "objects": [
+    {
+      "id": "wooden_room",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1120
+      ],
+      "description": "深色木质墙板与地板构成的室内场景，作为固定底图保留原样。画布边缘可见的木地板纹理、墙板线条及家具轮廓均属于此固定底图，不随照片替换。",
+      "background_type": "reference_clean",
+      "label": "深色木质墙板与地板构成的室内场景，作为固定底图保留原样。画布",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        80,
+        103,
+        405,
+        549
+      ],
+      "description": "人物侧卧于木质长椅上的照片，保留摄影环境，画面右侧被中间照片遮挡。",
+      "label": "人物侧卧于木质长椅上的照片，保留摄影环境，画面右侧被中间照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        374,
+        394,
+        844,
+        746
+      ],
+      "description": "人物特写吃苹果的照片，保留摄影环境，画面左侧被上方照片遮挡，右侧被下方照片遮挡。",
+      "label": "人物特写吃苹果的照片，保留摄影环境，画面左侧被上方照片遮挡，",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        137,
+        697,
+        779,
+        1064
+      ],
+      "description": "人物躺卧在木质长椅上的照片，保留摄影环境，画面左侧被橙色百合花遮挡。",
+      "label": "人物躺卧在木质长椅上的照片，保留摄影环境，画面左侧被橙色百合",
+      "method": "local"
+    },
+    {
+      "id": "flower_1",
+      "kind": "photo",
+      "bbox": [
+        72,
+        554,
+        238,
+        778
+      ],
+      "description": "橙色百合花照片，保留摄影环境，位于人物腿部前方，遮挡下方照片左侧边缘。",
+      "label": "橙色百合花照片，保留摄影环境，位于人物腿部前方，遮挡下方照片",
+      "method": "local"
+    },
+    {
+      "id": "mirror_1",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        28,
+        724,
+        157
+      ],
+      "description": "墙上的椭圆形装饰镜，保留镜框与镜面内容，位于上方照片右侧。",
+      "label": "墙上的椭圆形装饰镜，保留镜框与镜面内容，位于上方照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "phone_1",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        218,
+        540,
+        330
+      ],
+      "description": "墙上的米色壁挂电话，保留机身与听筒细节，位于上方照片右侧。",
+      "label": "墙上的米色壁挂电话，保留机身与听筒细节，位于上方照片右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "plant_1",
+      "kind": "overlay",
+      "bbox": [
+        504,
+        146,
+        819,
+        381
+      ],
+      "description": "桌上的花瓶与向日葵花束，保留植物与花瓶细节，位于上方照片右侧。",
+      "label": "桌上的花瓶与向日葵花束，保留植物与花瓶细节，位于上方照片右侧",
+      "method": "extract"
+    },
+    {
+      "id": "clock_1",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        381,
+        898,
+        448
+      ],
+      "description": "墙上的圆形挂钟，保留钟面与指针，位于右侧边缘。",
+      "label": "墙上的圆形挂钟，保留钟面与指针，位于右侧边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        90,
+        495,
+        174
+      ],
+      "description": "白色星形装饰贴纸，位于上方照片右上角。",
+      "label": "白色星形装饰贴纸，位于上方照片右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        269,
+        558,
+        336
+      ],
+      "description": "白色星形装饰贴纸，位于上方照片与中间照片交界处。",
+      "label": "白色星形装饰贴纸，位于上方照片与中间照片交界处。",
+      "method": "extract"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        258,
+        747,
+        325
+      ],
+      "description": "白色星形装饰贴纸，位于中间照片右上角。",
+      "label": "白色星形装饰贴纸，位于中间照片右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        358,
+        855,
+        448
+      ],
+      "description": "白色星形装饰贴纸，位于中间照片右侧边缘。",
+      "label": "白色星形装饰贴纸，位于中间照片右侧边缘。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "wooden_room",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "flower_1",
+    "mirror_1",
+    "phone_1",
+    "plant_1",
+    "clock_1",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影底图，画面为深绿色的模糊树林或灌木丛背景，带有斑驳的光影效果。该底图延伸至画布四边，承载所有前景元素。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        58,
+        93,
+        146
+      ],
+      "description": "位于左上角的白色四角星装饰图案。"
+    },
+    {
+      "id": "text_angel_energy",
+      "kind": "text",
+      "bbox": [
+        70,
+        186,
+        480,
+        290
+      ],
+      "text": "Angel Energy",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "frame_photo_left",
+      "kind": "frame",
+      "bbox": [
+        75,
+        350,
+        515,
+        820
+      ],
+      "description": "左侧拍立得相纸的白色边框，呈逆时针倾斜状，包裹着内部照片。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        160,
+        380,
+        485,
+        770
+      ],
+      "description": "左侧照片内容：一位金发人物坐在车内，身穿白衬衫，单手托腮直视镜头。"
+    },
+    {
+      "id": "frame_photo_right",
+      "kind": "frame",
+      "bbox": [
+        495,
+        155,
+        945,
+        600
+      ],
+      "description": "右侧拍立得相纸的白色边框，呈顺时针倾斜状，包裹着内部照片。",
+      "photo_id": [
+        "photo_right"
+      ]
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        180,
+        855,
+        565
+      ],
+      "description": "右侧照片内容：同一位金发人物在车内侧身，手放在嘴边做呼喊状，背景可见车窗外的街道。"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        520,
+        730,
+        955
+      ],
+      "description": "一朵淡蓝色的百合花插画，位于画面下方中央，遮挡了部分相框和文字。"
+    },
+    {
+      "id": "text_a_fallen_angel",
+      "kind": "text",
+      "bbox": [
+        555,
+        505,
+        760,
+        680
+      ],
+      "text": "a fallen angel",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        740,
+        965,
+        985
+      ],
+      "description": "右下角的三颗白色四角星装饰图案组合。"
+    }
+  ],
+  "layer_order": [
+    "overlay_star_top_left",
+    "text_angel_energy",
+    "frame_photo_left",
+    "photo_left",
+    "frame_photo_right",
+    "photo_right",
+    "text_a_fallen_angel",
+    "overlay_lily",
+    "overlay_stars_bottom_right"
+  ]
+}

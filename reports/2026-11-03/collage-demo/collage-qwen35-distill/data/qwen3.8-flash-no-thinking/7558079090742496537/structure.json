@@ -1,0 +1,167 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡馆桌面摄影底图，包含木纹桌子、绿植盆栽、纸巾盒及拍摄者腿部等环境元素。画面完整延伸至画布四边，承载所有上层拼贴照片和装饰物。"
+  },
+  "objects": [
+    {
+      "id": "overlay_tape_top",
+      "kind": "overlay",
+      "bbox": [
+        275,
+        104,
+        416,
+        198
+      ],
+      "description": "黄白格纹胶带贴纸，位于上方照片的左上角边缘处，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_sticker_house",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        100,
+        902,
+        231
+      ],
+      "description": "带有蓝色小房子图案的椭圆形贴纸，周围有白色手绘烟花线条装饰，整体作为一个固定单元保留。"
+    },
+    {
+      "id": "photo_inset_top",
+      "kind": "photo",
+      "bbox": [
+        198,
+        148,
+        626,
+        442
+      ],
+      "description": "矩形特写照片，显示深色盘子上的抹茶蛋糕、饼干和一杯饮料。照片边缘带有模糊柔化效果，叠加在底图之上。"
+    },
+    {
+      "id": "text_jp_1",
+      "kind": "text",
+      "bbox": [
+        688,
+        415,
+        815,
+        445
+      ],
+      "text": "(辛かったれ)",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_sticker_cat",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        605,
+        400,
+        638
+      ],
+      "description": "粉色长条形贴纸，上面印有四个白色卡通动物头像（猫和熊），作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_tape_right",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        558,
+        875,
+        626
+      ],
+      "description": "蓝白格纹胶带贴纸，位于圆形照片的右上边缘处，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_inset_circle",
+      "kind": "photo",
+      "bbox": [
+        465,
+        545,
+        882,
+        890
+      ],
+      "description": "圆形特写照片，显示木桌上的玻璃杯饮料和一个兔子造型的甜点。照片边缘带有模糊柔化效果，叠加在底图之上。"
+    },
+    {
+      "id": "text_jp_2",
+      "kind": "text",
+      "bbox": [
+        165,
+        705,
+        405,
+        745
+      ],
+      "text": "“現実と夢の境目。”",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_sticker_leaf",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        715,
+        145,
+        785
+      ],
+      "description": "橙色枫叶形状的贴纸，位于左下角区域，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_doodle_stars",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        775,
+        235,
+        865
+      ],
+      "description": "白色手绘星星涂鸦，由几颗不同大小的五角星组成，位于左下文字下方。"
+    },
+    {
+      "id": "overlay_sticker_cake",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        775,
+        375,
+        865
+      ],
+      "description": "可爱的猫咪与蛋糕组合贴纸，带有粉色底座，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_doodle_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        845,
+        940,
+        945
+      ],
+      "description": "白色手绘星星和闪光符号涂鸦，位于右下角区域。"
+    }
+  ],
+  "layer_order": [
+    "photo_inset_top",
+    "overlay_tape_top",
+    "overlay_sticker_house",
+    "text_jp_1",
+    "overlay_sticker_cat",
+    "photo_inset_circle",
+    "overlay_tape_right",
+    "text_jp_2",
+    "overlay_sticker_leaf",
+    "overlay_doodle_stars",
+    "overlay_sticker_cake",
+    "overlay_doodle_sparkle"
+  ]
+}

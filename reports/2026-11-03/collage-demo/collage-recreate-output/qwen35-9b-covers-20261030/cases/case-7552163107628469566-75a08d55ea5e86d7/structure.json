@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "蓝色天空背景，可见多条黑色电线从右上斜向贯穿至左下，延伸至画布边缘，构成连续摄影画面。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        550,
+        340,
+        900,
+        740
+      ],
+      "description": "矩形照片窗口，内容为粉色带黄色星星的气球，下方有一只手握着气球绳，背景为黄白蓝三色拼接墙面。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        320,
+        840,
+        370
+      ],
+      "description": "透明胶带贴纸，位于照片窗口上方，用于固定照片。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        50,
+        20,
+        550,
+        950
+      ],
+      "text": "My\nLife\nis\nOrdinary\nbut Shining\nLive\na Slow\nand\nConcrete\nLife",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "overlay_1",
+    "text_1"
+  ]
+}

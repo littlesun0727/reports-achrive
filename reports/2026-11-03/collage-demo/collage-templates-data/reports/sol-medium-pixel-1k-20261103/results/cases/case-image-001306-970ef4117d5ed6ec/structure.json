@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "餐厅室内的连续广角摄影画面铺满画布四边，可见吊顶、木柱、窗帘、桌椅和地面；左侧边缘有一名局部可见的顾客。上方、中部和下方的独立矩形照片遮挡了部分环境，底图仍延伸至其后；整幅餐厅环境作为一张照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_dining_room_detail",
+      "kind": "photo",
+      "bbox": [
+        356,
+        72,
+        724,
+        440
+      ],
+      "description": "上方横向餐厅局部照片，展示沿墙排列的桌椅、餐具、深色墙面和暖色灯光；保留完整摄影环境，矩形边界清晰，覆盖下方餐厅底图。"
+    },
+    {
+      "id": "photo_soup_and_book",
+      "kind": "photo",
+      "bbox": [
+        352,
+        498,
+        728,
+        872
+      ],
+      "description": "中部俯拍桌面照片，木桌上有两只绿色碗、打开的书册和两把汤匙；保留桌面及物品共同构成的完整摄影画面，矩形边界清晰，覆盖下方餐厅底图。"
+    },
+    {
+      "id": "photo_food_dishes",
+      "kind": "photo",
+      "bbox": [
+        334,
+        920,
+        746,
+        1333
+      ],
+      "description": "下方俯拍食物照片，木桌上有一锅炖菜、一碗蔬菜肉类和一只小杯；保留完整摄影环境与桌面，矩形边界清晰，覆盖下方餐厅底图。"
+    }
+  ],
+  "layer_order": [
+    "photo_dining_room_detail",
+    "photo_soup_and_book",
+    "photo_food_dishes"
+  ]
+}

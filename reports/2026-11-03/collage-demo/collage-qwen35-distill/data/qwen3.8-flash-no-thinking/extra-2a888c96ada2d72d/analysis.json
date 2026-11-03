@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2561
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2561
+      ],
+      "description": "一张连续的雪山风景摄影底图，包含蓝天、白云和覆盖积雪的山峰。画面延伸至画布四边，作为所有独立对象的底层背景。",
+      "background_type": "photo",
+      "label": "一张连续的雪山风景摄影底图，包含蓝天、白云和覆盖积雪的山峰。",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        0,
+        873,
+        1440,
+        1747
+      ],
+      "description": "位于画面中央的横向人物照片，显示一名戴白色毛线帽、穿白色羽绒服的年轻女性正面特写，背景可见树林和其他游客。该照片上下边缘采用羽化渐变效果，与底图自然融合。",
+      "label": "位于画面中央的横向人物照片，显示一名戴白色毛线帽、穿白色羽绒",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_center"
+  ]
+}

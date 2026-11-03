@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影画面，展示木质桌面上摆放的甜点、饮品、植物和装饰物。画面边缘露出的桌面纹理、植物叶片和地面环境连续延伸至画布四边，构成完整的摄影底图。上层贴纸、文字和局部照片遮挡局部，但完整显示区域仍为全画布。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        170,
+        140,
+        590,
+        480
+      ],
+      "description": "矩形照片窗口，展示盘中的饼干、蛋糕和一杯饮品，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        480,
+        540,
+        850,
+        880
+      ],
+      "description": "圆形照片窗口，展示杯中的饮品和一只毛绒玩具，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        180,
+        200,
+        250
+      ],
+      "description": "带有“一只便宜”字样的标签贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        100,
+        850,
+        200
+      ],
+      "description": "带有小房子和烟花图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        600,
+        380,
+        640
+      ],
+      "description": "带有四个小熊图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        700,
+        350,
+        850
+      ],
+      "description": "带有枫叶、星星和蛋糕图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        150,
+        700,
+        350,
+        750
+      ],
+      "text": "“现实と夢の境目。”",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        680,
+        400,
+        800,
+        430
+      ],
+      "text": "（辛かったれ）",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1",
+    "text_2"
+  ]
+}

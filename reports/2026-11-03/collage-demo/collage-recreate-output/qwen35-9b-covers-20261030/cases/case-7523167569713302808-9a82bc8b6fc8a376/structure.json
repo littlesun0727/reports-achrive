@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布固定底图，呈现淡紫色调的纸张纹理，上面印有深色的花卉图案和书法文字。作为承载照片的固定背景，其纹理和图案保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        100,
+        50,
+        500,
+        350
+      ],
+      "description": "左上角拍立得风格照片，主体为金发女性，手持蝴蝶，照片带有白色边框和底部文字。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        400,
+        300,
+        950,
+        650
+      ],
+      "description": "右侧拍立得风格照片，主体为金发女性，手托脸颊，照片带有白色边框和底部文字。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        50,
+        600,
+        600,
+        980
+      ],
+      "description": "左下角拍立得风格照片，主体为金发女性，手持蝴蝶靠近面部，照片带有白色边框和底部文字。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        380,
+        420,
+        580
+      ],
+      "description": "左侧中部的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景文字之上。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        0,
+        800,
+        280
+      ],
+      "description": "右上角的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景花卉之上。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        700,
+        980,
+        980
+      ],
+      "description": "右下角的大号紫色蝴蝶装饰，带有黑色边缘，叠加在背景花卉之上。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        680,
+        180,
+        760
+      ],
+      "description": "左下角的紫色蝴蝶装饰，叠加在照片边框附近。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        320,
+        340,
+        380
+      ],
+      "description": "左侧中部的紫色蝴蝶装饰，叠加在背景之上。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        0,
+        20,
+        100,
+        380
+      ],
+      "text": "丁二奇观看堂安书卷",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        800,
+        20,
+        980,
+        280
+      ],
+      "text": "到才是英雄",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        800,
+        600,
+        980,
+        900
+      ],
+      "text": "亦如字书于西成",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        639
+      ],
+      "description": "顶部横向海景照片，画面包含天空、海面和礁石。底部中央印有白色相机水印文字“DJI OSMO POCKET 4P”，该文字属于摄影内容随照片替换。",
+      "label": "顶部横向海景照片，画面包含天空、海面和礁石。底部中央印有白色",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid",
+      "kind": "photo",
+      "bbox": [
+        0,
+        639,
+        1080,
+        1281
+      ],
+      "description": "中部横向海滨城市风景照片，画面包含黄昏天空、远处建筑群、海岸线及沙滩上的人物。底部中央印有白色相机水印文字“DJI OSMO POCKET 4P”，该文字属于摄影内容随照片替换。",
+      "label": "中部横向海滨城市风景照片，画面包含黄昏天空、远处建筑群、海岸",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1281,
+        1080,
+        1920
+      ],
+      "description": "底部横向岩石海岸照片，画面包含海浪拍打岸边的礁石。底部中央印有白色相机水印文字“DJI OSMO POCKET 4P”，该文字属于摄影内容随照片替换。",
+      "label": "底部横向岩石海岸照片，画面包含海浪拍打岸边的礁石。底部中央印",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_mid",
+    "photo_bottom"
+  ]
+}

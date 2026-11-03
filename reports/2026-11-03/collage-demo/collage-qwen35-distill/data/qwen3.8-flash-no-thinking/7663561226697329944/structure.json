@@ -1,0 +1,224 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的海滩风景摄影底图，包含蓝天、平静的海面、远处的海岸线以及前景的茅草屋檐。画面中下部有微小的人影在沙滩上行走。该底图延伸至画布四边，承载所有上层设计元素。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        642,
+        150,
+        803,
+        297
+      ],
+      "description": "右上角的一枚浅蓝色五角星装饰，内部带有白色圆点图案。"
+    },
+    {
+      "id": "text_rainy_day",
+      "kind": "text",
+      "bbox": [
+        185,
+        185,
+        515,
+        265
+      ],
+      "text": "Rainy Day",
+      "color": "#AEEEEE",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "frame_icecream",
+      "kind": "frame",
+      "bbox": [
+        218,
+        268,
+        445,
+        435
+      ],
+      "description": "左侧倾斜放置的白色拍立得相纸框，具有宽大的底部边框。",
+      "photo_id": [
+        "photo_icecream"
+      ]
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        235,
+        285,
+        420,
+        395
+      ],
+      "description": "拍立得相纸内的照片，显示一个冰淇淋甜筒和蓝色的背景。"
+    },
+    {
+      "id": "frame_sea",
+      "kind": "frame",
+      "bbox": [
+        553,
+        332,
+        738,
+        440
+      ],
+      "description": "右侧水平放置的白色拍立得相纸框，具有宽大的底部边框。",
+      "photo_id": [
+        "photo_sea"
+      ]
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        563,
+        340,
+        728,
+        415
+      ],
+      "description": "拍立得相纸内的照片，显示海面上的船只和远处的建筑一角。"
+    },
+    {
+      "id": "overlay_music_notes_left",
+      "kind": "overlay",
+      "bbox": [
+        185,
+        375,
+        235,
+        425
+      ],
+      "description": "位于冰淇淋相纸左侧的一个淡蓝色音符图标。"
+    },
+    {
+      "id": "overlay_music_notes_mid",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        375,
+        475,
+        415
+      ],
+      "description": "位于两张小相纸之间的一个淡蓝色音符图标。"
+    },
+    {
+      "id": "overlay_spiral_right",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        330,
+        840,
+        385
+      ],
+      "description": "位于右侧海面相纸旁边的一个淡蓝色螺旋线条装饰。"
+    },
+    {
+      "id": "overlay_curve_line",
+      "kind": "overlay",
+      "bbox": [
+        195,
+        245,
+        870,
+        560
+      ],
+      "description": "一条贯穿画面的黄色曲线，从右上向左下弯曲，穿过两张小相纸的后方区域。"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        425,
+        385,
+        575,
+        645
+      ],
+      "text": "Summer\nSunsets\nnever\ndisappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleave sweet\nSoftness to\nevery\nPasserby",
+      "color": "#FFFACD",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        565,
+        410,
+        745
+      ],
+      "description": "左下方的一枚较大的淡黄色五角星装饰。"
+    },
+    {
+      "id": "overlay_music_note_right",
+      "kind": "overlay",
+      "bbox": [
+        795,
+        610,
+        865,
+        680
+      ],
+      "description": "右下方的一个白色空心音符轮廓图标。"
+    },
+    {
+      "id": "overlay_dots_pattern",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        635,
+        630,
+        840
+      ],
+      "description": "由淡蓝色圆点组成的矩形网格图案，位于大相纸的左侧和后方。"
+    },
+    {
+      "id": "frame_girl",
+      "kind": "frame",
+      "bbox": [
+        475,
+        650,
+        770,
+        825
+      ],
+      "description": "下方居中的白色拍立得相纸框，具有宽大的底部边框。",
+      "photo_id": [
+        "photo_girl"
+      ]
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        485,
+        665,
+        755,
+        790
+      ],
+      "description": "拍立得相纸内的照片，显示一名身穿白衣的女子张开双臂站在度假村前。"
+    }
+  ],
+  "layer_order": [
+    "overlay_curve_line",
+    "overlay_dots_pattern",
+    "frame_icecream",
+    "photo_icecream",
+    "frame_sea",
+    "photo_sea",
+    "frame_girl",
+    "photo_girl",
+    "overlay_star_top_right",
+    "text_rainy_day",
+    "overlay_music_notes_left",
+    "overlay_music_notes_mid",
+    "overlay_spiral_right",
+    "text_poem",
+    "overlay_star_bottom_left",
+    "overlay_music_note_right"
+  ]
+}

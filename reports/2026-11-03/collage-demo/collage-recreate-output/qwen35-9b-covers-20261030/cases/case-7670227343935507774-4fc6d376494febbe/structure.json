@@ -1,0 +1,179 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影画面，展示一位长发女子背对镜头走在绿色草地上，周围有牛群和远处的房屋与山丘。天空晴朗，光线柔和。上层的小照片、文字和装饰遮挡了部分背景，但背景本身是完整的摄影环境，延伸至画布边缘。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        70,
+        160,
+        300,
+        360
+      ],
+      "description": "左上角照片，女子侧脸倚靠手肘，背景为绿色草地和远山，保留摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        420,
+        180,
+        620,
+        380
+      ],
+      "description": "中间照片，女子侧脸手托下巴，背景为绿色草地和远山，保留摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        720,
+        60,
+        920,
+        260
+      ],
+      "description": "右上角照片，女子背影站在草地上，背景为绿色草地和远山，保留摄影环境。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        100,
+        120,
+        150
+      ],
+      "description": "左上角波点贴纸，作为装饰元素。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        160,
+        70,
+        260
+      ],
+      "description": "左侧括号装饰，作为设计元素。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        160,
+        300,
+        260
+      ],
+      "description": "中间括号装饰，作为设计元素。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        160,
+        540,
+        260
+      ],
+      "description": "右侧括号装饰，作为设计元素。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        100,
+        740,
+        200
+      ],
+      "description": "右上角括号装饰，作为设计元素。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        320,
+        620,
+        380
+      ],
+      "description": "中间心形装饰，作为设计元素。"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        500,
+        200,
+        650
+      ],
+      "description": "左下角蝴蝶装饰，作为设计元素。"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        600,
+        950,
+        850
+      ],
+      "description": "右下角四叶草装饰，作为设计元素。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        250,
+        40,
+        550,
+        100
+      ],
+      "text": "那拉提plog",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        550,
+        550,
+        750,
+        600
+      ],
+      "text": "AUGUST",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "text_1",
+    "text_2"
+  ]
+}

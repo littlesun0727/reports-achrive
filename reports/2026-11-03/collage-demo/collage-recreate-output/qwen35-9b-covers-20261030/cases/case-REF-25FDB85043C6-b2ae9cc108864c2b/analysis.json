@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "舞台表演场景，人物身穿灰色连帽衫和灰色帽子，手持麦克风演唱。背景为蓝色条纹LED屏幕，可见舞台灯光设备。画面边缘露出的场景连续延伸至画布四边，上层贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "舞台表演场景，人物身穿灰色连帽衫和灰色帽子，手持麦克风演唱。",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        65,
+        134,
+        346,
+        653
+      ],
+      "description": "左上角椭圆形裁剪照片，人物身穿条纹T恤，手持麦克风，背景为蓝色条纹屏幕。",
+      "label": "左上角椭圆形裁剪照片，人物身穿条纹T恤，手持麦克风，背景为蓝",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        551,
+        1382,
+        1037,
+        1901
+      ],
+      "description": "右下角矩形裁剪照片，人物身穿条纹T恤，手持麦克风，背景为蓝色条纹屏幕。",
+      "label": "右下角矩形裁剪照片，人物身穿条纹T恤，手持麦克风，背景为蓝色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        1306,
+        626,
+        1421
+      ],
+      "description": "白色卡通小狗贴纸，位于右下角照片上方。",
+      "label": "白色卡通小狗贴纸，位于右下角照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        192,
+        918,
+        384
+      ],
+      "description": "韩文气泡文字贴纸，内容为“사랑해♡”，位于右上角。",
+      "label": "韩文气泡文字贴纸，内容为“사랑해♡”，位于右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        1574,
+        432,
+        1824
+      ],
+      "description": "中文气泡文字贴纸，内容为“听到blue我就能原谅世界一切”，位于左下角。",
+      "label": "中文气泡文字贴纸，内容为“听到blue我就能原谅世界一切”，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        96,
+        864,
+        192
+      ],
+      "description": "顶部装饰文字“Soft clouds”，两侧有星星和心形图案。",
+      "label": "顶部装饰文字“Soft clouds”，两侧有星星和心形图案",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

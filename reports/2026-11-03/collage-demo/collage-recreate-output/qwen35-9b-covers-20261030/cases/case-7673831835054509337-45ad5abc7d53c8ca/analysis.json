@@ -1,0 +1,171 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    675
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        675
+      ],
+      "description": "深色模糊的户外背景，包含树木、植被和建筑轮廓，作为全画布摄影底图。上层照片、文字和装饰遮挡了部分背景，但背景内容连续延伸至画布边缘，主体与环境共同替换。",
+      "background_type": "photo",
+      "label": "深色模糊的户外背景，包含树木、植被和建筑轮廓，作为全画布摄影",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        63,
+        230,
+        459,
+        513
+      ],
+      "description": "左下角倾斜的拍立得风格照片，人物手托脸颊，保留摄影环境，白色边框清晰。",
+      "label": "左下角倾斜的拍立得风格照片，人物手托脸颊，保留摄影环境，白色",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        441,
+        101,
+        846,
+        392
+      ],
+      "description": "右上角倾斜的拍立得风格照片，人物手捂嘴，保留摄影环境，白色边框清晰。",
+      "label": "右上角倾斜的拍立得风格照片，人物手捂嘴，保留摄影环境，白色边",
+      "method": "local"
+    },
+    {
+      "id": "flower_1",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        344,
+        612,
+        634
+      ],
+      "description": "一朵淡蓝色的百合花，位于画面下方中央，作为独立装饰元素。",
+      "label": "一朵淡蓝色的百合花，位于画面下方中央，作为独立装饰元素。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        54,
+        122,
+        432,
+        202
+      ],
+      "description": "Angel Energy",
+      "label": "Angel Energy",
+      "method": "local",
+      "text": "Angel Energy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        477,
+        358,
+        702,
+        439
+      ],
+      "description": "a fallen angel",
+      "label": "a fallen angel",
+      "method": "local",
+      "text": "a fallen angel",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "star_1",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        14,
+        72,
+        68
+      ],
+      "description": "左上角的白色四角星装饰。",
+      "label": "左上角的白色四角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_2",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        472,
+        792,
+        526
+      ],
+      "description": "右下角区域的白色四角星装饰。",
+      "label": "右下角区域的白色四角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_3",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        554,
+        792,
+        594
+      ],
+      "description": "右下角区域的白色四角星装饰。",
+      "label": "右下角区域的白色四角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "star_4",
+      "kind": "overlay",
+      "bbox": [
+        792,
+        608,
+        846,
+        648
+      ],
+      "description": "右下角区域的白色四角星装饰。",
+      "label": "右下角区域的白色四角星装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "flower_1",
+    "text_1",
+    "text_2",
+    "star_1",
+    "star_2",
+    "star_3",
+    "star_4"
+  ]
+}

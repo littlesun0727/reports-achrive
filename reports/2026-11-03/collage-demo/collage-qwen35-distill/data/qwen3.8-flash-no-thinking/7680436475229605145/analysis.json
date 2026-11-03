@@ -1,0 +1,212 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影底图，画面为同一位身穿蓝白条纹衬衫、深色短裤的男孩在街道上的全身照。他正举起右手挥手，背景包含斑驳的墙壁和街道护栏。该底图经过模糊处理以衬托前景，完整延伸至画布四边。",
+      "background_type": "photo",
+      "label": "一张连续的摄影底图，画面为同一位身穿蓝白条纹衬衫、深色短裤的",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_right_vertical",
+      "kind": "text",
+      "bbox": [
+        585,
+        96,
+        846,
+        384
+      ],
+      "description": "softly go with the flow\nmove at ease\nbreathe deep\nno need to hurry\nslow your pace",
+      "label": "softly go with the flow\nmove a",
+      "method": "local",
+      "text": "softly go with the flow\nmove at ease\nbreathe deep\nno need to hurry\nslow your pace",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        90,
+        84,
+        504,
+        642
+      ],
+      "description": "左上角矩形照片，显示男孩站在街边挥手的半身像，保留完整的街道环境。",
+      "label": "左上角矩形照片，显示男孩站在街边挥手的半身像，保留完整的街道",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        171,
+        150,
+        576,
+        558
+      ],
+      "description": "围绕左上照片的白色细线框，带有四个角的方形节点标记，位于照片上方。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "围绕左上照片的白色细线框，带有四个角的方形节点标记，位于照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        432,
+        426,
+        801,
+        792
+      ],
+      "description": "右侧中部矩形照片，显示男孩在卷帘门前的半身像，手举至头部附近。",
+      "label": "右侧中部矩形照片，显示男孩在卷帘门前的半身像，手举至头部附近",
+      "method": "local"
+    },
+    {
+      "id": "frame_mid_right",
+      "kind": "frame",
+      "bbox": [
+        441,
+        462,
+        842,
+        864
+      ],
+      "description": "围绕右中照片的白色细线框，带有角点标记，位于照片上方。",
+      "photo_id": [
+        "photo_mid_right"
+      ],
+      "label": "围绕右中照片的白色细线框，带有角点标记，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_center_overlay",
+      "kind": "text",
+      "bbox": [
+        495,
+        648,
+        783,
+        684
+      ],
+      "description": "Breathe and let it be.",
+      "label": "Breathe and let it be.",
+      "method": "local",
+      "text": "Breathe and let it be.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        90,
+        780,
+        558,
+        1128
+      ],
+      "description": "左下角矩形照片，显示男孩侧身靠在栏杆上的半身像。",
+      "label": "左下角矩形照片，显示男孩侧身靠在栏杆上的半身像。",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        63,
+        744,
+        585,
+        1110
+      ],
+      "description": "围绕左下照片的白色细线框，带有角点标记，位于照片上方。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "围绕左下照片的白色细线框，带有角点标记，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_left_vertical",
+      "kind": "text",
+      "bbox": [
+        126,
+        588,
+        405,
+        984
+      ],
+      "description": "keep life unrushed\ncalm mode\nsoft days\ngo where you feel light",
+      "label": "keep life unrushed\ncalm mode\ns",
+      "method": "local",
+      "text": "keep life unrushed\ncalm mode\nsoft days\ngo where you feel light",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_right_vertical_lower",
+      "kind": "text",
+      "bbox": [
+        603,
+        804,
+        738,
+        1164
+      ],
+      "description": "go\nwhere\nyou\nfeel\nlight",
+      "label": "go\nwhere\nyou\nfeel\nlight",
+      "method": "local",
+      "text": "go\nwhere\nyou\nfeel\nlight",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_left",
+    "frame_top_left",
+    "photo_mid_right",
+    "frame_mid_right",
+    "text_center_overlay",
+    "photo_bottom_left",
+    "frame_bottom_left",
+    "text_right_vertical",
+    "text_left_vertical",
+    "text_right_vertical_lower"
+  ]
+}

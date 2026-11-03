@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-d1f4e92a-f337-9ae4-b27c-41d2f2275833",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7479,
+    "total_tokens": 8145,
+    "completion_tokens": 666,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1598,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 666
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_dots\",\n    \"description\": \"灰色底图，带有均匀分布的白色小圆点图案。该固定纹理覆盖整个画布，作为三张独立照片和装饰元素的背景层。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        126,\n        27,\n        870,\n        305\n      ],\n      \"description\": \"上方矩形照片，展示一名年轻女子坐在桌前，单手托腮，面前有一杯插着吸管的饮料。保留完整的摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_cat_head\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        729,\n        4,\n        931,\n        93\n      ],\n      \"description\": \"白色卡通猫头贴纸，位于右上角，部分遮挡了上方照片的边角。\"\n    },\n    {\n      \"id\": \"overlay_bandage\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        41,\n        300,\n        265,\n        378\n      ],\n      \"description\": \"银色创可贴样式的装饰贴纸，带有心形图案，位于左侧中部，连接上下两张照片之间的区域。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        131,\n        327,\n        866,\n        601\n      ],\n      \"description\": \"中间矩形照片，展示同一名女子趴在桌上，手持叉子靠近嘴边，表情俏皮。保留完整的摄影环境。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        136,\n        635,\n        866,\n        907\n      ],\n      \"description\": \"下方矩形照片，展示同一名女子双手在脸前比心，笑容灿烂，面前有饮料和甜点。保留完整的摄影环境。\"\n    },\n    {\n      \"id\": \"overlay_cat_body\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        729,\n        845,\n        931,\n        957\n      ],\n      \"description\": \"白色卡通猫咪身体贴纸，位于右下角，部分遮挡了下方照片的边角。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"photo_mid\",\n    \"photo_bottom\",\n    \"overlay_bandage\",\n    \"overlay_cat_head\",\n    \"overlay_cat_body\"\n  ]\n}",
+  "tool_calls": false
+}

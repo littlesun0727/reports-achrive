@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-c0d632c5-d1cb-951d-b5e1-647075dfd017",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 8362,
+    "total_tokens": 8569,
+    "completion_tokens": 207,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 2481,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 207
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的雪山风景摄影底图，包含蓝天、白云和覆盖积雪的山峰。画面延伸至画布四边，作为所有独立对象的底层背景。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_center\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        341,\n        1000,\n        682\n      ],\n      \"description\": \"位于画面中央的横向人物照片，显示一名戴白色毛线帽、穿白色羽绒服的年轻女性正面特写，背景可见树林和其他游客。该照片上下边缘采用羽化渐变效果，与底图自然融合。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_center\"\n  ]\n}",
+  "tool_calls": false
+}

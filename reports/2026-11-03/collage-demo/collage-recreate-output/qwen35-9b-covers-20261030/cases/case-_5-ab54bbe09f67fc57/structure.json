@@ -1,0 +1,245 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "室内场景，包含木质结构、悬挂的藤编篮子、玻璃柜、植物和水果篮。画面中央有一块米色硬纸板，上面用夹子固定，作为所有独立对象的承载底图。"
+  },
+  "objects": [
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        90,
+        140,
+        860,
+        850
+      ],
+      "description": "米色硬纸板底板，顶部和底部各有一个金属长尾夹固定。承载了多张照片、贴纸和文字。",
+      "photo_id": [
+        "photo_1",
+        "photo_2",
+        "photo_3",
+        "photo_4"
+      ]
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        165,
+        195,
+        390,
+        320
+      ],
+      "description": "手持一张小照片的特写，照片中是两个人。背景为木质纹理。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        425,
+        185,
+        820,
+        390
+      ],
+      "description": "室内一角，展示着架子上的罐子、相框和挂着的衣物。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        315,
+        350,
+        460,
+        460
+      ],
+      "description": "一只戴着白色帽子的小狗，旁边有一个篮子。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        165,
+        525,
+        450,
+        745
+      ],
+      "description": "拍立得风格照片，展示着桌上的甜点和饮品。"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        525,
+        535,
+        755,
+        680
+      ],
+      "description": "一个穿着格子衫的玩偶坐在长椅上，背景是户外绿植。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        165,
+        235,
+        235
+      ],
+      "description": "带有 'summer paradise' 字样的蓝色标签贴纸。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        290,
+        210,
+        340
+      ],
+      "description": "两个白色的海星装饰贴纸。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        340,
+        240,
+        440,
+        255
+      ],
+      "description": "带有 'The throbbing of summer is a grand encounter' 字样的灰色标签。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        335,
+        495,
+        355
+      ],
+      "description": "带有 'LITTLE THINGS make big days' 字样的白色标签。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        165,
+        840,
+        205
+      ],
+      "description": "带有 'focus on the good' 字样的白色标签。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        365,
+        305,
+        455
+      ],
+      "description": "手写体英文段落 'The best journeys start with a one-way ticket in hand and no plan in mind'。"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        725,
+        515,
+        850,
+        565
+      ],
+      "description": "带有 'joy has a habit of returning.' 字样的白色标签。"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        660,
+        850,
+        690
+      ],
+      "description": "带有 'To be continued' 字样的粉色标签。"
+    },
+    {
+      "id": "overlay_9",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        700,
+        680,
+        750
+      ],
+      "description": "黄色便利贴，上面有手写英文段落。"
+    },
+    {
+      "id": "overlay_10",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        765,
+        785,
+        815
+      ],
+      "description": "手写体英文段落 'The best Souvenir is the person you became while no one was watching'。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        165,
+        735,
+        250,
+        750
+      ],
+      "text": "Arrebol",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        425,
+        185,
+        450,
+        225
+      ],
+      "text": "Thank you",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_1",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "overlay_9",
+    "overlay_10",
+    "text_1",
+    "text_2"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        480
+      ],
+      "description": "上方横幅照片，一名女子位于中间偏右，撑透明雨伞，穿红白服装并背红色包，呈侧向半身姿态。保留连续的阴天天空、远山、粉色草地、栏杆和左侧现场字牌；照片在画布两侧及上沿裁切，下沿止于横向接缝。"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        540,
+        960
+      ],
+      "description": "中部左侧独立照片，一名女子撑透明伞，面对镜头抬手作手势，裙装身体延伸至窗口下沿。保留花饰入口桁架、现场中英文字牌、周围撑伞人群及湿润路面；与上方照片姿态和视角不连续，右侧止于竖向接缝。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        480,
+        1080,
+        960
+      ],
+      "description": "中部右侧独立照片，女子位于右下方，面向镜头举起红色物件并作手势。身后是巨大灰色人物雕像、撑伞游客、草坪及远山，均属于摄影场景；雕像头顶与人物下身被照片窗口裁切，完整保留该矩形内的摄影环境。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        1080,
+        1440
+      ],
+      "description": "下方横幅照片，一名女子位于右侧，侧身回头并抬手，肩背醒目的红色大包，身体与包在画布下沿裁切。保留左侧红褐色花叶、墙面花卉绘画及中央持麦克风的人物画；这些内容共同属于实拍环境，与上方照片在横向接缝处重新起始。"
+    },
+    {
+      "id": "overlay_dots_triangles",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        152,
+        394,
+        463
+      ],
+      "description": "左上照片上的独立几何装饰，包含密集排列的白色小圆点矩阵，以及分布于矩阵内外的蓝色、浅青色三角形。顶部小三角形和下方散落三角形均属于这一完整装饰，摄影内容不并入其中。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        982,
+        375,
+        1046,
+        447
+      ],
+      "description": "上方照片右下侧的白色手绘空心爱心，内部散布白色小点；轮廓与内部点状图案作为一个完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        352,
+        858,
+        539,
+        960
+      ],
+      "description": "中部左侧照片右下角的浅青色手绘笑脸装饰，由横向椭圆外轮廓和内部弯曲五官组成，线条带颗粒感并透出下方路面，底部贴近照片下沿。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        212,
+        1028,
+        281,
+        1113
+      ],
+      "description": "下方照片左上区域的单枚白色四角星，粗线条空心手绘轮廓，内部透出照片背景；与右侧星点装饰位置分离，单独保留。"
+    },
+    {
+      "id": "overlay_star_cluster",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        960,
+        1044,
+        1011
+      ],
+      "description": "下方照片上沿偏右的白色手绘星点组合，包含数枚大小不同的空心星星、小圆圈、短线和散点；整体沿照片上缘展开，部分笔画在接缝处截断，作为完整固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle_left",
+    "photo_middle_right",
+    "photo_bottom",
+    "overlay_dots_triangles",
+    "overlay_heart",
+    "overlay_smile",
+    "overlay_star_left",
+    "overlay_star_cluster"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1800
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1800
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        535,
+        900
+      ],
+      "description": "左上独立竖幅照片，无人物。暖暗色粗糙墙面上，壁灯照亮一块不规则石质酒店铭牌，可见“is·Land”“神秘岛”“隐世酒店”等实拍字样。保留灯具、铭牌、墙面纹理及光影的完整摄影环境；矩形窗口在画布上边和左边截断，与下方照片在水平接缝处内容不连续。",
+      "label": "左上独立竖幅照片，无人物。暖暗色粗糙墙面上，壁灯照亮一块不规",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        545,
+        0,
+        1080,
+        900
+      ],
+      "description": "右上独立竖幅俯拍照片，无人物。浅灰粗颗粒地面上有斜放的《THE MYSTERIOUS ISLAND》书本、零散落叶和右上方深棕编织包，包的右侧被画布裁切。保留书本印字、地面、斜向日照及阴影，完整矩形显示范围延伸至画布上边和右边；不是左侧墙面照片的延续。",
+      "label": "右上独立竖幅俯拍照片，无人物。浅灰粗颗粒地面上有斜放的《TH",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        900,
+        535,
+        1800
+      ],
+      "description": "左下独立室内照片，一人穿深色衣服、戴浅色编织帽坐在白色扶手椅中，头脸在窗口右上侧被裁切，一手端杯、一手扶着膝上打开的书。左下前景为木桌、餐垫及盛有烤三明治的白盘，左上还有局部圆桌。人物、食物、家具与室内环境共同替换，保留完整矩形摄影窗口，无主体轮廓去背景。",
+      "label": "左下独立室内照片，一人穿深色衣服、戴浅色编织帽坐在白色扶手椅",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        545,
+        900,
+        1080,
+        1800
+      ],
+      "description": "右下独立竖幅照片，无人物。灰米色粗糙墙面占据大部分画面，下半部有从右侧伸入的细枝及暗红色小果实，右上边缘另露出局部枝条。墙面、枝果与柔和暗部均属于同一摄影环境，保留至右边和下边的完整矩形窗口；上沿与书本地面照片发生明确场景切换。",
+      "label": "右下独立竖幅照片，无人物。灰米色粗糙墙面占据大部分画面，下半",
+      "method": "local"
+    },
+    {
+      "id": "overlay_center_divider",
+      "kind": "overlay",
+      "bbox": [
+        534,
+        0,
+        546,
+        1800
+      ],
+      "description": "贯穿画布全高的窄黑色竖向分隔条，两侧有轻微柔暗边缘，分隔左右两列照片；作为局部固定设计保留，不扩展为全画布底图。",
+      "label": "贯穿画布全高的窄黑色竖向分隔条，两侧有轻微柔暗边缘，分隔左右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1773,
+        1073,
+        1793
+      ],
+      "description": "右下角低透明度浅灰色小胶囊水印，内部可辨“小红书”字样；底板与字形作为完整独立标识保留，叠在右下照片上。",
+      "label": "右下角低透明度浅灰色小胶囊水印，内部可辨“小红书”字样；底板",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_center_divider",
+    "overlay_watermark"
+  ]
+}

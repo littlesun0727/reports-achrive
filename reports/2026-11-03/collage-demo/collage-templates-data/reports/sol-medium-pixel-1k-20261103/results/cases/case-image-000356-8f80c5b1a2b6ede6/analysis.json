@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    810,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        810,
+        1440
+      ],
+      "description": "连续覆盖全画布的浅暖米色纸面，带细微斑驳纹理和由上方浅色向下方灰褐色过渡的明暗变化。独立照片与白色装饰叠在纸面上，保留其余底图原样。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的浅暖米色纸面，带细微斑驳纹理和由上方浅色向下",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        73,
+        435,
+        583,
+        1202
+      ],
+      "description": "竖向矩形室内照片，年轻女性单人半身坐姿，长深色头发，身体朝向画面左侧并微笑看向镜头；人物位于照片中右部，左侧有白色花束，前景有礼盒和包装物，后方为室内墙面。保留完整摄影环境和矩形显示范围，无独立承托框体；照片内物品与环境随照片替换。",
+      "label": "竖向矩形室内照片，年轻女性单人半身坐姿，长深色头发，身体朝向",
+      "method": "local"
+    },
+    {
+      "id": "overlay_ribbon_top",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        165,
+        771,
+        602
+      ],
+      "description": "右上方白色缎带蝴蝶结及两条长飘带，作为一体的独立装饰保留，飘带向下弯曲延伸。",
+      "label": "右上方白色缎带蝴蝶结及两条长飘带，作为一体的独立装饰保留，飘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_large_left",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        397,
+        120,
+        472
+      ],
+      "description": "照片左上角外侧的大型白色五角星，局部压在照片左上边缘之上，作为独立装饰保留。",
+      "label": "照片左上角外侧的大型白色五角星，局部压在照片左上边缘之上，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        164,
+        328,
+        210,
+        376
+      ],
+      "description": "照片上方偏左的白色小五角星，独立装饰。",
+      "label": "照片上方偏左的白色小五角星，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_tiny_upper",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        402,
+        325,
+        431
+      ],
+      "description": "照片上边缘上方的小型白色五角星，独立装饰。",
+      "label": "照片上边缘上方的小型白色五角星，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_photo_top",
+      "kind": "overlay",
+      "bbox": [
+        241,
+        536,
+        270,
+        567
+      ],
+      "description": "照片上部偏左、叠在室内背景上的小型白色五角星，独立装饰。",
+      "label": "照片上部偏左、叠在室内背景上的小型白色五角星，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_photo_left",
+      "kind": "overlay",
+      "bbox": [
+        124,
+        608,
+        167,
+        653
+      ],
+      "description": "照片左上区域内的白色五角星，叠在摄影画面之上，独立装饰。",
+      "label": "照片左上区域内的白色五角星，叠在摄影画面之上，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_photo_right",
+      "kind": "overlay",
+      "bbox": [
+        487,
+        570,
+        530,
+        616
+      ],
+      "description": "照片右上区域内的白色五角星，叠在摄影画面之上，独立装饰。",
+      "label": "照片右上区域内的白色五角星，叠在摄影画面之上，独立装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_small_left",
+      "kind": "overlay",
+      "bbox": [
+        123,
+        862,
+        151,
+        892
+      ],
+      "description": "照片左侧花束上方的小型白色五角星，叠在摄影画面之上，独立装饰。",
+      "label": "照片左侧花束上方的小型白色五角星，叠在摄影画面之上，独立装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_photo_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        528,
+        874,
+        578,
+        925
+      ],
+      "description": "照片右侧人物肩部附近的白色五角星，叠在摄影画面之上，独立装饰。",
+      "label": "照片右侧人物肩部附近的白色五角星，叠在摄影画面之上，独立装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_photo_bottom",
+      "kind": "overlay",
+      "bbox": [
+        537,
+        1081,
+        578,
+        1124
+      ],
+      "description": "照片右下区域、礼盒上方的白色五角星，叠在摄影画面之上，独立装饰。",
+      "label": "照片右下区域、礼盒上方的白色五角星，叠在摄影画面之上，独立装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_swag",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        1261,
+        721,
+        1299
+      ],
+      "description": "照片下方横向白色装饰，由两侧细虚线和中央小蝴蝶结组成一个完整单元，保留线条及蝴蝶结造型。",
+      "label": "照片下方横向白色装饰，由两侧细虚线和中央小蝴蝶结组成一个完整",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_portrait",
+    "overlay_ribbon_top",
+    "overlay_star_large_left",
+    "overlay_star_upper",
+    "overlay_star_tiny_upper",
+    "overlay_star_photo_top",
+    "overlay_star_photo_left",
+    "overlay_star_photo_right",
+    "overlay_star_small_left",
+    "overlay_star_photo_lower_right",
+    "overlay_star_photo_bottom",
+    "overlay_bottom_swag"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        717
+      ],
+      "description": "左上角风景照片，展示蓝天白云下的绿色草原和远处的山丘，草地上有零星的牛群。",
+      "label": "左上角风景照片，展示蓝天白云下的绿色草原和远处的山丘，草地上",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        717
+      ],
+      "description": "右上角风景照片，展示阴天下的草原景色，远处有红色牌坊建筑及白色文字“呼伦贝尔”。",
+      "label": "右上角风景照片，展示阴天下的草原景色，远处有红色牌坊建筑及白",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        717,
+        540,
+        1440
+      ],
+      "description": "左下角风景照片，展示河边饮水的马群，背景是开阔的草地和天空。",
+      "label": "左下角风景照片，展示河边饮水的马群，背景是开阔的草地和天空。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        717,
+        1080,
+        1440
+      ],
+      "description": "右下角风景照片，展示蜿蜒曲折的河流流经绿色草原，远处有微小的人影。",
+      "label": "右下角风景照片，展示蜿蜒曲折的河流流经绿色草原，远处有微小的",
+      "method": "local"
+    },
+    {
+      "id": "photo_person_cutout",
+      "kind": "photo",
+      "bbox": [
+        273,
+        441,
+        756,
+        1123
+      ],
+      "description": "中心位置的人物抠图，年轻女性身穿浅蓝色上衣，戴墨镜，挥手微笑，主体周围有一圈明显的白色描边轮廓。",
+      "label": "中心位置的人物抠图，年轻女性身穿浅蓝色上衣，戴墨镜，挥手微笑",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "photo_person_cutout"
+  ]
+}

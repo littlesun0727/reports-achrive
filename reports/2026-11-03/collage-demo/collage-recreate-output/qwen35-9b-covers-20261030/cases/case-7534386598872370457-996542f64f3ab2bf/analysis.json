@@ -1,0 +1,173 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "米色复古纹理纸底，带有斑驳光影和树叶剪影，作为全画布固定底图保留。",
+      "background_type": "reference_clean",
+      "label": "米色复古纹理纸底，带有斑驳光影和树叶剪影，作为全画布固定底图",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        45,
+        36,
+        540,
+        444
+      ],
+      "description": "左上角邮票形状照片，人物蹲姿，手持饮料，旁边有蜗牛和蘑菇，保留摄影环境。",
+      "label": "左上角邮票形状照片，人物蹲姿，手持饮料，旁边有蜗牛和蘑菇，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        603,
+        168,
+        855,
+        372
+      ],
+      "description": "右上角矩形照片，人物蹲姿，保留摄影环境。",
+      "label": "右上角矩形照片，人物蹲姿，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        68,
+        660,
+        266,
+        936
+      ],
+      "description": "左下角矩形照片，人物站立，保留摄影环境。",
+      "label": "左下角矩形照片，人物站立，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        315,
+        480,
+        864,
+        1164
+      ],
+      "description": "右下角大尺寸矩形照片，人物背影在海边，保留摄影环境。",
+      "label": "右下角大尺寸矩形照片，人物背影在海边，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        180,
+        1200
+      ],
+      "description": "左下角小鹿剪影，保留主体轮廓。",
+      "label": "左下角小鹿剪影，保留主体轮廓。",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        315,
+        480,
+        864,
+        1164
+      ],
+      "description": "承载右下角照片的矩形相框，带有圆角和纹理边框。",
+      "photo_id": [
+        "photo_4"
+      ],
+      "label": "承载右下角照片的矩形相框，带有圆角和纹理边框。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        45,
+        36,
+        540,
+        444
+      ],
+      "description": "承载左上角照片的邮票形状相框，带有锯齿边缘。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "承载左上角照片的邮票形状相框，带有锯齿边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        432,
+        873,
+        552
+      ],
+      "description": "右上角木质纽扣装饰。",
+      "label": "右上角木质纽扣装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        636,
+        135,
+        756
+      ],
+      "description": "左下角木质纽扣装饰。",
+      "label": "左下角木质纽扣装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        468,
+        324,
+        732
+      ],
+      "description": "中间垂直排列的装饰元素，包括海星、星星、螺旋和加号。",
+      "label": "中间垂直排列的装饰元素，包括海星、星星、螺旋和加号。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "frame_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "frame_2",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3"
+  ]
+}

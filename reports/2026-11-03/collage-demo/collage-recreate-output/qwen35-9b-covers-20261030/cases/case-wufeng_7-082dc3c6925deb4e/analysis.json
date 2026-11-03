@@ -1,0 +1,230 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2560
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "description": "连续摄影画面，展示一位身穿绿色毛衣、白色短裙的女孩在油菜花田中行走的背影。画面包含远处的山脉、天空和近处的花田，场景连续延伸至画布边缘。上层叠加了三个不同姿态的女孩图像，遮挡了部分底层画面，但底层摄影环境（花田、山脉、天空）完整覆盖全画布，作为统一背景。",
+      "background_type": "photo",
+      "label": "连续摄影画面，展示一位身穿绿色毛衣、白色短裙的女孩在油菜花田",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        317,
+        51,
+        1152,
+        768
+      ],
+      "description": "顶部女孩背影照片，双臂张开，身穿绿色毛衣，背着黄色包，包上有橙色花束。头发编成辫子，发间有白色花朵装饰。照片边缘有白色手写体文字“你好，春天”和粉色“spring”字样，以及右上角的“春”字艺术字装饰。",
+      "label": "顶部女孩背影照片，双臂张开，身穿绿色毛衣，背着黄色包，包上有",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        288,
+        768,
+        1152,
+        1408
+      ],
+      "description": "中间女孩背影照片，双臂张开，身穿绿色毛衣，背着黄色包，包上有橙色花束。头发编成辫子，发间有白色花朵装饰。照片右侧有白色手写体文字“Sweet heart elves”，上方有粉色蝴蝶装饰。",
+      "label": "中间女孩背影照片，双臂张开，身穿绿色毛衣，背着黄色包，包上有",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        288,
+        1408,
+        1152,
+        2509
+      ],
+      "description": "底部女孩背影照片，右手提黄色包，包上有橙色花束，左手自然下垂。身穿绿色毛衣，白色短裙，脚穿浅色鞋子，袜子为浅蓝色。头发编成辫子，发间有白色花朵装饰。照片左侧有白色手写体文字“万事顺遂 不止春日”，右侧有“浪漫春季 spring”字样，右下角有“春日物语”竖排文字。",
+      "label": "底部女孩背影照片，右手提黄色包，包上有橙色花束，左手自然下垂",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        29,
+        256,
+        432,
+        640
+      ],
+      "description": "你好，春天\nspring",
+      "label": "你好，春天\nspring",
+      "method": "local",
+      "text": "你好，春天\nspring",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        864,
+        768,
+        1296,
+        1024
+      ],
+      "description": "Sweet heart elves",
+      "label": "Sweet heart elves",
+      "method": "local",
+      "text": "Sweet heart elves",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        29,
+        1408,
+        288,
+        1792
+      ],
+      "description": "万事顺遂\n不止春日",
+      "label": "万事顺遂\n不止春日",
+      "method": "local",
+      "text": "万事顺遂\n不止春日",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        864,
+        1408,
+        1296,
+        1792
+      ],
+      "description": "浪漫春季\nspring",
+      "label": "浪漫春季\nspring",
+      "method": "local",
+      "text": "浪漫春季\nspring",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        1152,
+        2048,
+        1296,
+        2432
+      ],
+      "description": "春日物语",
+      "label": "春日物语",
+      "method": "local",
+      "text": "春日物语",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        1296,
+        2381,
+        1411,
+        2483
+      ],
+      "description": "小红书",
+      "label": "小红书",
+      "method": "local",
+      "text": "小红书",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_7",
+      "kind": "text",
+      "bbox": [
+        1152,
+        2432,
+        1411,
+        2483
+      ],
+      "description": "小红书号：6700666030",
+      "label": "小红书号：6700666030",
+      "method": "local",
+      "text": "小红书号：6700666030",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6",
+    "text_7"
+  ]
+}

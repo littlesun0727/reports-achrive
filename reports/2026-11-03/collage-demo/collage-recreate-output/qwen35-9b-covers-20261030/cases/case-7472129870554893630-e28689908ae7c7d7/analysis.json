@@ -1,0 +1,207 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "一张连续的手机备忘录界面截图，包含顶部状态栏、标题栏、返回按钮、分享按钮、菜单按钮、两张人物照片及左侧侧边栏缩略图。画面整体带有复古颗粒和划痕效果，内容延伸至画布边缘，作为全画布底图。",
+      "background_type": "photo",
+      "label": "一张连续的手机备忘录界面截图，包含顶部状态栏、标题栏、返回按",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        72,
+        765,
+        1127
+      ],
+      "description": "位于前景的白色圆角矩形卡片，承载备忘录界面内容，包括标题栏、照片区域和侧边栏。卡片边缘清晰，覆盖在背景之上。",
+      "label": "位于前景的白色圆角矩形卡片，承载备忘录界面内容，包括标题栏、",
+      "method": "extract"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        189,
+        276,
+        711,
+        671
+      ],
+      "description": "备忘录中的第一张照片，人物戴眼镜，手持食物，面部特写，保留摄影环境。",
+      "label": "备忘录中的第一张照片，人物戴眼镜，手持食物，面部特写，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        189,
+        719,
+        711,
+        1127
+      ],
+      "description": "备忘录中的第二张照片，人物戴眼镜，手持蓝色物品，面部特写，保留摄影环境。",
+      "label": "备忘录中的第二张照片，人物戴眼镜，手持蓝色物品，面部特写，保",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        189,
+        156,
+        270,
+        192
+      ],
+      "description": "备忘录",
+      "label": "备忘录",
+      "method": "local",
+      "text": "备忘录",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5C542",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        36,
+        252,
+        126,
+        288
+      ],
+      "description": "夜深了",
+      "label": "夜深了",
+      "method": "local",
+      "text": "夜深了",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        36,
+        552,
+        126,
+        588
+      ],
+      "description": "感受 R&E",
+      "label": "感受 R&E",
+      "method": "local",
+      "text": "感受 R&E",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        36,
+        719,
+        126,
+        755
+      ],
+      "description": "感受 R&E",
+      "label": "感受 R&E",
+      "method": "local",
+      "text": "感受 R&E",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        36,
+        887,
+        126,
+        923
+      ],
+      "description": "感受 R&E",
+      "label": "感受 R&E",
+      "method": "local",
+      "text": "感受 R&E",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_6",
+      "kind": "text",
+      "bbox": [
+        36,
+        1055,
+        126,
+        1091
+      ],
+      "description": "感受 R&E",
+      "label": "感受 R&E",
+      "method": "local",
+      "text": "感受 R&E",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_1",
+    "photo_1",
+    "photo_2",
+    "text_1",
+    "text_2",
+    "text_3",
+    "text_4",
+    "text_5",
+    "text_6"
+  ]
+}

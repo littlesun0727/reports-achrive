@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "overlay_top_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        315
+      ],
+      "description": "顶部横贯画布的白色局部底板，带规则排列的青绿色圆点，圆点边缘略柔化，部分圆点被画布边缘截断。整体保留底板与圆点，不扩展为全画布底图。"
+    },
+    {
+      "id": "overlay_bottom_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1124,
+        1080,
+        1440
+      ],
+      "description": "底部横贯画布的青绿色局部底板，带错列的白色圆点，左右及底边有被截断的圆点。上沿被心形标签和百合花装饰局部遮挡，底板及图案整体保留。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        0,
+        314,
+        1080,
+        1125
+      ],
+      "description": "中央横向矩形照片，一名黑色齐刘海短发女性正面半身入镜，穿浅薄荷色上衣，双臂抬起，在脸部两侧各持一盒印有人像的商品。保留木质墙面、左侧家具及盒上的摄影内容；头顶、手臂和下身被照片边界裁切。照片上下与圆点底板形成明确接缝，局部被问号、气泡、线条、心形标签和花朵遮挡，无可见透明渐隐。"
+    },
+    {
+      "id": "overlay_question_large",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        214,
+        276,
+        424
+      ],
+      "description": "左上方大型青绿色问号装饰，具有弯曲夸张的字形、浅色内部高光和椭圆形下点，跨越顶部圆点底板与照片上沿，完整造型作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_question_small",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        168,
+        359,
+        305
+      ],
+      "description": "顶部偏左的小型青绿色问号，弯钩内带白色高光，下方有独立圆点，与大型问号分开显示，保留原有字形和边缘。"
+    },
+    {
+      "id": "overlay_question_lower",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        339,
+        417,
+        471
+      ],
+      "description": "位于人物头部左上方的青绿色问号，宽弯钩带浅色高光，下方为椭圆形点，叠在照片木墙区域上，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_thought_bubble",
+      "kind": "overlay",
+      "bbox": [
+        628,
+        222,
+        1046,
+        427
+      ],
+      "description": "右上青绿色椭圆思绪气泡，内部带灰色颜文字“*(°-°)”，右侧附小星形符号，下方附两枚逐渐缩小的青绿色椭圆气泡。整组跨过顶部底板与照片接缝，文字和附属气泡随完整装饰保留。"
+    },
+    {
+      "id": "overlay_stethoscope",
+      "kind": "overlay",
+      "bbox": [
+        372,
+        497,
+        726,
+        1020
+      ],
+      "description": "覆盖人物脸颊和胸前的青绿色听诊器式线描装饰：两侧脸颊各有一枚实心五角星，细线向下汇合，经过胸前小圆环并弯成垂落曲线，末端连接一枚带粉紫色圆点的大五角星。完整线条、三枚星和圆环作为一个连贯固定单元保留。"
+    },
+    {
+      "id": "overlay_heart_label",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        1005,
+        425,
+        1257
+      ],
+      "description": "左下心形标签，青绿色宽边带深色小圆点，内部为白色心形，内有灰色韩文“좋아하는 날들은 천천히 보내자.”及耳机、音符等小符号。保留完整心形轮廓、印字和附属图案；上半部覆盖照片，下半部覆盖底部圆点底板。"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        978,
+        1008,
+        1292
+      ],
+      "description": "右下白色百合花装饰，包含展开和卷曲的花瓣、浅灰纹理、黄色花蕊、花瓣上的白色星芒，以及周围三枚青绿色圆点。整组沿花朵轮廓独立显示，跨在照片和底部圆点底板之上，不作为照片中的实拍物品。"
+    }
+  ],
+  "layer_order": [
+    "overlay_top_panel",
+    "overlay_bottom_panel",
+    "photo_center",
+    "overlay_question_large",
+    "overlay_question_small",
+    "overlay_question_lower",
+    "overlay_thought_bubble",
+    "overlay_stethoscope",
+    "overlay_heart_label",
+    "overlay_lily"
+  ]
+}

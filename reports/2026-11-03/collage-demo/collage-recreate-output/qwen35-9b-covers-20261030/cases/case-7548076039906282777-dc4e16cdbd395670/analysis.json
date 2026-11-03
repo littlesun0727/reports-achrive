@@ -1,0 +1,262 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1202
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1202
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        324,
+        180,
+        657,
+        589
+      ],
+      "description": "中间主照片，两位女生在户外草地上，手持枫叶，背景有樱花装饰。",
+      "label": "中间主照片，两位女生在户外草地上，手持枫叶，背景有樱花装饰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        72,
+        433,
+        369,
+        661
+      ],
+      "description": "左侧上方照片，三位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "label": "左侧上方照片，三位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        72,
+        661,
+        369,
+        889
+      ],
+      "description": "左侧下方照片，两位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "label": "左侧下方照片，两位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        423,
+        733,
+        675,
+        1022
+      ],
+      "description": "右下方照片，两位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "label": "右下方照片，两位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        693,
+        240,
+        810,
+        541
+      ],
+      "description": "右侧上方照片，一位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "label": "右侧上方照片，一位女生在户外，手持枫叶，背景有蓝天和云朵。",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        315,
+        168,
+        666,
+        601
+      ],
+      "description": "承载 photo_1 的邮票形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "承载 photo_1 的邮票形状相框，边缘有锯齿状装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        63,
+        421,
+        378,
+        902
+      ],
+      "description": "承载 photo_2 和 photo_3 的相机形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_2",
+        "photo_3"
+      ],
+      "label": "承载 photo_2 和 photo_3 的相机形状相框，边",
+      "method": "extract"
+    },
+    {
+      "id": "frame_3",
+      "kind": "frame",
+      "bbox": [
+        414,
+        721,
+        684,
+        1034
+      ],
+      "description": "承载 photo_4 的邮票形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_4"
+      ],
+      "label": "承载 photo_4 的邮票形状相框，边缘有锯齿状装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_4",
+      "kind": "frame",
+      "bbox": [
+        684,
+        228,
+        819,
+        553
+      ],
+      "description": "承载 photo_5 的邮票形状相框，边缘有锯齿状装饰。",
+      "photo_id": [
+        "photo_5"
+      ],
+      "label": "承载 photo_5 的邮票形状相框，边缘有锯齿状装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        36,
+        252,
+        144
+      ],
+      "description": "左上角的云朵装饰，带有笑脸。",
+      "label": "左上角的云朵装饰，带有笑脸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        48,
+        792,
+        180
+      ],
+      "description": "右上角的相机装饰。",
+      "label": "右上角的相机装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        541,
+        765,
+        721
+      ],
+      "description": "右侧的牛奶盒装饰，带有草莓图案。",
+      "label": "右侧的牛奶盒装饰，带有草莓图案。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        841,
+        792,
+        1178
+      ],
+      "description": "右下角的黄色雨伞和人物装饰。",
+      "label": "右下角的黄色雨伞和人物装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        962,
+        135,
+        1142
+      ],
+      "description": "左下角的白色兔子装饰。",
+      "label": "左下角的白色兔子装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        288,
+        24,
+        612,
+        144
+      ],
+      "description": "去旅行\nGo on a journey",
+      "label": "去旅行\nGo on a journey",
+      "method": "local",
+      "text": "去旅行\nGo on a journey",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_1",
+    "frame_2",
+    "frame_3",
+    "frame_4",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1"
+  ]
+}

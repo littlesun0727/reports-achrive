@@ -1,0 +1,95 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "米色牛皮纸纹理底图，模拟笔记本内页，左侧有金属螺旋装订孔。保留纸张材质和装订结构，作为固定底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        260,
+        180,
+        680,
+        580
+      ],
+      "description": "圆形撕边照片，展示麻辣小龙虾，保留摄影环境，边缘有白色不规则撕纸效果。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        540,
+        440,
+        820,
+        740
+      ],
+      "description": "圆形撕边照片，展示十三香小龙虾，保留摄影环境，边缘有白色不规则撕纸效果。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        290,
+        500,
+        470,
+        780
+      ],
+      "description": "不规则撕边照片，展示一罐泉城奶啤，保留摄影环境，边缘有白色不规则撕纸效果。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        180,
+        800,
+        280
+      ],
+      "description": "手绘风格的白色线条面包袋图标，内部有 Bread 字样，作为装饰贴纸。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        610,
+        400,
+        770,
+        440
+      ],
+      "text": "麻辣小龙虾",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        580,
+        710,
+        720,
+        750
+      ],
+      "text": "十三香小龙虾",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "text_1",
+    "text_2"
+  ]
+}

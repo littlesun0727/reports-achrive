@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_notebook_page",
+    "description": "牛皮纸质感的笔记本页面，左侧带有金属线圈装订结构。作为固定底图保留，承载所有食物照片和装饰元素。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        270,
+        175,
+        710,
+        620
+      ],
+      "description": "一大盆麻辣小龙虾的照片，包含红色的小龙虾、黄色的年糕条以及深色的汤汁。照片边缘呈现不规则的撕纸效果，露出白色纸边。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        185,
+        830,
+        310
+      ],
+      "description": "右上角的白色手绘简笔画，描绘了一个面包袋，上面写着英文单词 'Bread'。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        615,
+        405,
+        790,
+        450
+      ],
+      "text": "麻辣小龙虾",
+      "color": "#000000",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false,
+      "description": "位于大盆照片右下侧的文字标签，文字印在米色胶带风格的背景上。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        530,
+        450,
+        840,
+        750
+      ],
+      "description": "一小碗十三香小龙虾的照片，盛在黑色碗中，可见红色小龙虾和配料。照片边缘同样具有撕纸效果的白边。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        290,
+        490,
+        510,
+        820
+      ],
+      "description": "一罐泉城奶啤的照片，银色罐身印有蓝色波浪图案和文字。照片边缘为撕纸效果，部分遮挡了左上角的大盆照片。"
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        560,
+        725,
+        745,
+        770
+      ],
+      "text": "十三香小龙虾",
+      "color": "#000000",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false,
+      "description": "位于小碗照片下方的文字标签，文字印在米色胶带风格的背景上。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "overlay_1",
+    "text_1",
+    "photo_2",
+    "photo_3",
+    "text_2"
+  ]
+}

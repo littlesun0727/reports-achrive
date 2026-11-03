@@ -1,0 +1,162 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布固定底图，呈现淡黄绿色调的纸张纹理，带有横向的纸张折痕和模糊的横向光影条纹。作为承载所有独立照片和装饰元素的背景层，保留其材质和纹理。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，呈现淡黄绿色调的纸张纹理，带有横向的纸张折痕",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        72,
+        72,
+        306,
+        300
+      ],
+      "description": "LOVE: |lʌv| - n.\n1. an intense affection for another person based on personal or familial ties 2. the deep tenderness, affection, and concern felt for a person with whom one has a relationship.",
+      "label": "LOVE: |lʌv| - n.\n1. an intense",
+      "method": "local",
+      "text": "LOVE: |lʌv| - n.\n1. an intense affection for another person based on personal or familial ties 2. the deep tenderness, affection, and concern felt for a person with whom one has a relationship.",
+      "text_status": "known",
+      "style": {
+        "fill": "#6699AA",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        320,
+        60,
+        765,
+        402
+      ],
+      "description": "一张横向的户外风景照片，展示了蓝天、白云、茂密的树林和一片绿色的草坪，远处有一个人影。照片边缘清晰，无描边。",
+      "label": "一张横向的户外风景照片，展示了蓝天、白云、茂密的树林和一片绿",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        32,
+        456,
+        400,
+        738
+      ],
+      "description": "一张竖向的特写照片，展示了绿叶丛中盛开的粉色花朵。照片被一个白色的不规则波浪形轮廓线包围，轮廓线内部为照片内容，外部为透明。",
+      "label": "一张竖向的特写照片，展示了绿叶丛中盛开的粉色花朵。照片被一个",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        490,
+        636,
+        860,
+        918
+      ],
+      "description": "一张竖向的户外照片，展示了草坪上正在工作的洒水器喷出水雾，背景是高大的棕榈树和树林。照片边缘清晰。",
+      "label": "一张竖向的户外照片，展示了草坪上正在工作的洒水器喷出水雾，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        176,
+        792,
+        459,
+        1164
+      ],
+      "description": "一张竖向的照片，展示了仰视视角下的绿色树冠和蓝天。照片边缘清晰。",
+      "label": "一张竖向的照片，展示了仰视视角下的绿色树冠和蓝天。照片边缘清",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        270,
+        832,
+        486
+      ],
+      "description": "一组蓝色的手绘风格涂鸦装饰，包含两个笑脸圆圈、一个粉色星星和一个黄色小星星，线条粗糙，具有手绘质感。",
+      "label": "一组蓝色的手绘风格涂鸦装饰，包含两个笑脸圆圈、一个粉色星星和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        822,
+        212,
+        984
+      ],
+      "description": "两个米色的五角星贴纸，带有浅色的描边和阴影效果，呈现立体感。",
+      "label": "两个米色的五角星贴纸，带有浅色的描边和阴影效果，呈现立体感。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        570,
+        824,
+        720
+      ],
+      "description": "一个灰色的回形针形状贴纸，带有轻微的阴影，位于照片上方。",
+      "label": "一个灰色的回形针形状贴纸，带有轻微的阴影，位于照片上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        930,
+        814,
+        1014
+      ],
+      "description": "一组白色的手绘风格涂鸦装饰，包含一个五角星、一个笑脸、一个加号和一个点，线条简洁。",
+      "label": "一组白色的手绘风格涂鸦装饰，包含一个五角星、一个笑脸、一个加",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

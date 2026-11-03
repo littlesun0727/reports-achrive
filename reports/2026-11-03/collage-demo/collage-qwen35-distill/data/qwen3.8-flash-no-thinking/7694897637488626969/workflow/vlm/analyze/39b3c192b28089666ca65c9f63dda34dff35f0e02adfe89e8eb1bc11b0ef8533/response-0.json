@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-cc1561cb-6204-91fd-92c0-627c5173d3f4",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6667,
+    "total_tokens": 7458,
+    "completion_tokens": 791,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 786,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 791
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_notebook_page\",\n    \"description\": \"牛皮纸质感的笔记本页面，左侧带有金属线圈装订结构。作为固定底图保留，承载所有食物照片和装饰元素。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_1\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        270,\n        175,\n        710,\n        620\n      ],\n      \"description\": \"一大盆麻辣小龙虾的照片，包含红色的小龙虾、黄色的年糕条以及深色的汤汁。照片边缘呈现不规则的撕纸效果，露出白色纸边。\"\n    },\n    {\n      \"id\": \"overlay_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        690,\n        185,\n        830,\n        310\n      ],\n      \"description\": \"右上角的白色手绘简笔画，描绘了一个面包袋，上面写着英文单词 'Bread'。\"\n    },\n    {\n      \"id\": \"text_1\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        615,\n        405,\n        790,\n        450\n      ],\n      \"text\": \"麻辣小龙虾\",\n      \"color\": \"#000000\",\n      \"font\": \"cjk-hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false,\n      \"description\": \"位于大盆照片右下侧的文字标签，文字印在米色胶带风格的背景上。\"\n    },\n    {\n      \"id\": \"photo_2\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        530,\n        450,\n        840,\n        750\n      ],\n      \"description\": \"一小碗十三香小龙虾的照片，盛在黑色碗中，可见红色小龙虾和配料。照片边缘同样具有撕纸效果的白边。\"\n    },\n    {\n      \"id\": \"photo_3\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        290,\n        490,\n        510,\n        820\n      ],\n      \"description\": \"一罐泉城奶啤的照片，银色罐身印有蓝色波浪图案和文字。照片边缘为撕纸效果，部分遮挡了左上角的大盆照片。\"\n    },\n    {\n      \"id\": \"text_2\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        560,\n        725,\n        745,\n        770\n      ],\n      \"text\": \"十三香小龙虾\",\n      \"color\": \"#000000\",\n      \"font\": \"cjk-hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false,\n      \"description\": \"位于小碗照片下方的文字标签，文字印在米色胶带风格的背景上。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_1\",\n    \"overlay_1\",\n    \"text_1\",\n    \"photo_2\",\n    \"photo_3\",\n    \"text_2\"\n  ]\n}",
+  "tool_calls": false
+}

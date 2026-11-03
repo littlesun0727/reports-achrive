@@ -1,0 +1,246 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg_wall_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "全画布为一张带有粗糙纹理的米黄色墙面底图，包含光影变化、颗粒感及散落的白色手绘涂鸦（如星星、加号、水滴）。这些固定设计元素需保留原样，作为拼贴背景。",
+      "background_type": "reference_clean",
+      "label": "全画布为一张带有粗糙纹理的米黄色墙面底图，包含光影变化、颗粒",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cafe_table",
+      "kind": "photo",
+      "bbox": [
+        122,
+        162,
+        387,
+        432
+      ],
+      "description": "左上角矩形照片，展示咖啡桌上的甜点与玩偶，画面清晰，无特殊边缘效果。",
+      "label": "左上角矩形照片，展示咖啡桌上的甜点与玩偶，画面清晰，无特殊边",
+      "method": "local"
+    },
+    {
+      "id": "overlay_camera_icon",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        126,
+        333,
+        198
+      ],
+      "description": "位于咖啡桌照片上方的白色手绘相机图标，线条粗犷，具有装饰性。",
+      "label": "位于咖啡桌照片上方的白色手绘相机图标，线条粗犷，具有装饰性。",
+      "method": "extract"
+    },
+    {
+      "id": "text_plog",
+      "kind": "text",
+      "bbox": [
+        558,
+        96,
+        774,
+        228
+      ],
+      "description": "右上角巨大的白色手写体英文单词“PLOG”，笔触厚重，覆盖在墙面背景上。",
+      "label": "右上角巨大的白色手写体英文单词“PLOG”，笔触厚重，覆盖在",
+      "method": "local",
+      "text": "PLOG",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_girl_eating",
+      "kind": "photo",
+      "bbox": [
+        477,
+        210,
+        778,
+        522
+      ],
+      "description": "右侧竖构图照片，一名长发女孩正在吃东西，背景有海报墙。",
+      "label": "右侧竖构图照片，一名长发女孩正在吃东西，背景有海报墙。",
+      "method": "local"
+    },
+    {
+      "id": "note_tape_text",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        360,
+        513,
+        510
+      ],
+      "description": "中间偏左的撕纸便签条，上面印有黑色手写文字“Found a quiet corner of the world.”，边缘呈撕裂状，模拟胶带粘贴效果。",
+      "label": "中间偏左的撕纸便签条，上面印有黑色手写文字“Found a ",
+      "method": "extract"
+    },
+    {
+      "id": "photo_girl_drinking",
+      "kind": "photo",
+      "bbox": [
+        248,
+        510,
+        518,
+        822
+      ],
+      "description": "中间竖向照片，女孩坐在桌前喝饮料，桌上摆满食物和玩偶。",
+      "label": "中间竖向照片，女孩坐在桌前喝饮料，桌上摆满食物和玩偶。",
+      "method": "local"
+    },
+    {
+      "id": "photo_food_plate",
+      "kind": "photo",
+      "bbox": [
+        518,
+        522,
+        778,
+        612
+      ],
+      "description": "右侧中部横向小照片，特写盘中的炸物料理。",
+      "label": "右侧中部横向小照片，特写盘中的炸物料理。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        594,
+        738,
+        726
+      ],
+      "description": "白色线条勾勒的两只猫咪背影涂鸦，叠加在下方区域。",
+      "label": "白色线条勾勒的两只猫咪背影涂鸦，叠加在下方区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_vinyl_record",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        696,
+        378,
+        912
+      ],
+      "description": "黑胶唱片造型贴纸，中心图案为秋叶，周围环绕白色手写文字“Autumn whispers”及音符符号。",
+      "label": "黑胶唱片造型贴纸，中心图案为秋叶，周围环绕白色手写文字“Au",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plaid_note",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        720,
+        801,
+        888
+      ],
+      "description": "红棕色格纹方形便签，上有白色手写文字“No ONE BUT YOU”及一片枫叶轮廓涂鸦。",
+      "label": "红棕色格纹方形便签，上有白色手写文字“No ONE BUT ",
+      "method": "extract"
+    },
+    {
+      "id": "tape_strip_1",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        804,
+        630,
+        936
+      ],
+      "description": "一条倾斜粘贴的半透明胶带，位于格纹便签左下方。",
+      "label": "一条倾斜粘贴的半透明胶带，位于格纹便签左下方。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_coffee_cup",
+      "kind": "photo",
+      "bbox": [
+        140,
+        858,
+        360,
+        1044
+      ],
+      "description": "左下角正方形照片，俯拍一杯拉花咖啡。",
+      "label": "左下角正方形照片，俯拍一杯拉花咖啡。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bag_detail",
+      "kind": "photo",
+      "bbox": [
+        540,
+        882,
+        760,
+        1056
+      ],
+      "description": "右下角照片，展示格纹包袋细节及一个小雪人挂件。",
+      "label": "右下角照片，展示格纹包袋细节及一个小雪人挂件。",
+      "method": "local"
+    },
+    {
+      "id": "tape_strip_2",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        954,
+        806,
+        1104
+      ],
+      "description": "一条倾斜粘贴的半透明胶带，位于右下角照片右下侧。",
+      "label": "一条倾斜粘贴的半透明胶带，位于右下角照片右下侧。",
+      "method": "extract"
+    },
+    {
+      "id": "tape_strip_3",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        1008,
+        270,
+        1128
+      ],
+      "description": "左下角银色褶皱胶带，质感明显，部分遮挡咖啡杯照片下缘。",
+      "label": "左下角银色褶皱胶带，质感明显，部分遮挡咖啡杯照片下缘。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_wall_texture",
+    "photo_cafe_table",
+    "photo_girl_eating",
+    "photo_girl_drinking",
+    "photo_food_plate",
+    "photo_coffee_cup",
+    "photo_bag_detail",
+    "note_tape_text",
+    "overlay_camera_icon",
+    "text_plog",
+    "overlay_cat_doodle",
+    "overlay_vinyl_record",
+    "overlay_plaid_note",
+    "tape_strip_1",
+    "tape_strip_2",
+    "tape_strip_3"
+  ]
+}

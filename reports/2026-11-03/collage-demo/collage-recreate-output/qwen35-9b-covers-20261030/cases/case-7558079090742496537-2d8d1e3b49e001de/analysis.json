@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的摄影画面，展示木质桌面上摆放的甜点、饮品、植物和装饰物。画面边缘露出的桌面纹理、植物叶片和地面环境连续延伸至画布四边，构成完整的摄影底图。上层贴纸、文字和局部照片遮挡局部，但完整显示区域仍为全画布。",
+      "background_type": "photo",
+      "label": "一张连续的摄影画面，展示木质桌面上摆放的甜点、饮品、植物和装",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        153,
+        168,
+        531,
+        576
+      ],
+      "description": "矩形照片窗口，展示盘中的饼干、蛋糕和一杯饮品，保留摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "矩形照片窗口，展示盘中的饼干、蛋糕和一杯饮品，保留摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        432,
+        648,
+        765,
+        1056
+      ],
+      "description": "圆形照片窗口，展示杯中的饮品和一只毛绒玩具，保留摄影环境，窗口边缘清晰，无描边或渐隐。",
+      "label": "圆形照片窗口，展示杯中的饮品和一只毛绒玩具，保留摄影环境，窗",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        216,
+        180,
+        300
+      ],
+      "description": "带有“一只便宜”字样的标签贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有“一只便宜”字样的标签贴纸，文字、底板和阴影作为一个完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        120,
+        765,
+        240
+      ],
+      "description": "带有小房子和烟花图案的贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有小房子和烟花图案的贴纸，文字、底板和阴影作为一个完整装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        720,
+        342,
+        768
+      ],
+      "description": "带有四个小熊图案的贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有四个小熊图案的贴纸，文字、底板和阴影作为一个完整装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        840,
+        315,
+        1020
+      ],
+      "description": "带有枫叶、星星和蛋糕图案的贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有枫叶、星星和蛋糕图案的贴纸，文字、底板和阴影作为一个完整",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        135,
+        840,
+        315,
+        900
+      ],
+      "description": "“现实と夢の境目。”",
+      "label": "“现实と夢の境目。”",
+      "method": "local",
+      "text": "“现实と夢の境目。”",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        612,
+        480,
+        720,
+        516
+      ],
+      "description": "（辛かったれ）",
+      "label": "（辛かったれ）",
+      "method": "local",
+      "text": "（辛かったれ）",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1",
+    "text_2"
+  ]
+}

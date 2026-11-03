@@ -1,0 +1,100 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "雨景摄影底图，包含雨滴、伞骨、地面及鞋子，场景连续延伸至画布四边；上层贴纸、文字和局部照片遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        650,
+        80,
+        900,
+        230
+      ],
+      "description": "右上角矩形照片窗口，显示绿色树叶，边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        320,
+        850,
+        420
+      ],
+      "description": "带有白色小熊图案的四叶草贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        200,
+        420,
+        600,
+        520
+      ],
+      "text": "消失的下雨天，\n我好想再淋一遍。",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        500,
+        580,
+        900,
+        640
+      ],
+      "text": "Disappearing rainy days,\nI want to get wet for another day.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        100,
+        750,
+        300,
+        900
+      ],
+      "description": "左下角矩形照片窗口，显示雨滴和模糊背景，边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        150,
+        780,
+        250,
+        820
+      ],
+      "text": "Rainy",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "overlay_1",
+    "text_1",
+    "text_2",
+    "photo_2",
+    "text_3"
+  ]
+}

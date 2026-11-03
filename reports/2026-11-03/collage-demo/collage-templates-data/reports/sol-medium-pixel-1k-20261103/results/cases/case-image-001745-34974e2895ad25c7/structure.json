@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_mauve",
+    "description": "整幅画布为带轻微纵向明暗变化的灰褐粉色底色，照片间隙及四周均连续可见；保留底色及其渐变外观，独立照片、文字条、贴纸和气泡按各自范围替换或重建。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        104,
+        246,
+        817,
+        1196
+      ],
+      "description": "中央偏左的大幅竖向矩形照片，一名戴眼镜、发间夹有玩偶发饰的长发女性坐在室内，近景对着蓝色吸管饮用饮品；人物、饮料及咖啡馆环境共同属于照片，保留摄影背景。照片下部被右下照片局部遮挡，中央横跨一条半透明文字条。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        591,
+        64,
+        1015,
+        500
+      ],
+      "description": "右上方圆形裁切照片，一名戴眼镜、长发并夹着发饰的女性在室内用勺子吃东西，手持华夫饼；保留人物与咖啡馆环境，圆形边缘为照片显示窗口，左下部覆盖中央大照片的一角。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        622,
+        984,
+        1016,
+        1377
+      ],
+      "description": "右下方圆角矩形照片，一名长发女性侧身回望并手持华夫饼，背景为室内咖啡馆；人物与环境共同保留为可替换摄影内容，照片覆盖中央大照片的右下部分。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        124,
+        99,
+        265,
+        212
+      ],
+      "description": "左上方白色柔边发光心形装饰，作为独立固定贴饰保留。"
+    },
+    {
+      "id": "overlay_caption_strip",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        863,
+        817,
+        982
+      ],
+      "description": "横跨中央照片的半透明灰褐色长条，带有细小点状纹理及白色斜体手写字样“try different things -”；文字与底条构成同一固定设计单元，覆盖照片并透出其下方影像。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        518,
+        997,
+        599
+      ],
+      "description": "右侧一大一小两枚白色星形装饰，作为同组独立贴饰保留。"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        163,
+        1270,
+        540,
+        1361
+      ],
+      "description": "左下方浅灰白色圆角对话气泡，左下带尖尾，内部为黑色文字“I love you ♡ ˊ-”；气泡轮廓与文字整体作为固定设计单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_upper_right",
+    "photo_lower_right",
+    "overlay_heart",
+    "overlay_caption_strip",
+    "overlay_stars",
+    "overlay_speech_bubble"
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "深色带有白色噪点纹理的固定底图，作为整个画布的承载背景。",
+      "background_type": "reference_clean",
+      "label": "深色带有白色噪点纹理的固定底图，作为整个画布的承载背景。",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        138,
+        98,
+        450,
+        517
+      ],
+      "description": "左上角照片，展示黄昏时分的街道，有树木、路灯、公交车和黑色轿车。",
+      "label": "左上角照片，展示黄昏时分的街道，有树木、路灯、公交车和黑色轿",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        502,
+        280,
+        803,
+        583
+      ],
+      "description": "右上角照片，展示雨夜中的路灯和树叶，视角向上。",
+      "label": "右上角照片，展示雨夜中的路灯和树叶，视角向上。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        64,
+        580,
+        378,
+        880
+      ],
+      "description": "左下角照片，展示雨夜中的窗户，窗外有雨丝和微弱灯光。",
+      "label": "左下角照片，展示雨夜中的窗户，窗外有雨丝和微弱灯光。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        450,
+        642,
+        779,
+        1082
+      ],
+      "description": "右下角照片，展示雨夜街道，有树木、路灯和行驶的白色轿车。",
+      "label": "右下角照片，展示雨夜街道，有树木、路灯和行驶的白色轿车。",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        54,
+        792,
+        522,
+        1182
+      ],
+      "description": "Happiness\nIt may come and go\nLike dust and tan\nBe sure to\nTreasure the time spent\nBecause you'll never know\nthe next time you'll feel it again",
+      "label": "Happiness\nIt may come and go\nL",
+      "method": "local",
+      "text": "Happiness\nIt may come and go\nLike dust and tan\nBe sure to\nTreasure the time spent\nBecause you'll never know\nthe next time you'll feel it again",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        106,
+        66,
+        171,
+        132
+      ],
+      "description": "左上角的白色五角星装饰。",
+      "label": "左上角的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        252,
+        850,
+        312
+      ],
+      "description": "右上角的白色五角星装饰。",
+      "label": "右上角的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        984,
+        842,
+        1116
+      ],
+      "description": "右下角的白色五角星装饰。",
+      "label": "右下角的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        780,
+        90,
+        936
+      ],
+      "description": "左下角的橙色枫叶装饰。",
+      "label": "左下角的橙色枫叶装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        446,
+        42,
+        536,
+        234
+      ],
+      "description": "顶部中间的橙色枫叶装饰。",
+      "label": "顶部中间的橙色枫叶装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        600,
+        657,
+        660
+      ],
+      "description": "右下角照片内的橙色枫叶装饰。",
+      "label": "右下角照片内的橙色枫叶装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        780,
+        567,
+        840
+      ],
+      "description": "右下角照片内的橙色枫叶装饰。",
+      "label": "右下角照片内的橙色枫叶装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        372,
+        594,
+        696
+      ],
+      "description": "连接照片的白色手绘线条装饰，包含星形节点。",
+      "label": "连接照片的白色手绘线条装饰，包含星形节点。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "text_1"
+  ]
+}

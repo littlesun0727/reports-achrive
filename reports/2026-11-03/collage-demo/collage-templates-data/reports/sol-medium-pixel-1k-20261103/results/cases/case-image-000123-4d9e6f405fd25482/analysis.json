@@ -1,0 +1,246 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "canvas_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "固定平面底图覆盖全画布：上部为亮橙色，下部约从 y=689 起为深棕色，两区之间有细窄分隔线。保留分区、纯色和分隔结构；照片、文字及圆点装饰独立处理。",
+      "background_type": "reference_clean",
+      "label": "固定平面底图覆盖全画布：上部为亮橙色，下部约从 y=689 ",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_garden",
+      "kind": "photo",
+      "bbox": [
+        26,
+        117,
+        354,
+        552
+      ],
+      "description": "左上竖幅矩形风景照片，绿树、岩石与水面构成完整摄影画面，无可见边框；下缘被棕色圆点压住。",
+      "label": "左上竖幅矩形风景照片，绿树、岩石与水面构成完整摄影画面，无可",
+      "method": "local"
+    },
+    {
+      "id": "photo_branch",
+      "kind": "photo",
+      "bbox": [
+        377,
+        117,
+        703,
+        552
+      ],
+      "description": "上方中央竖幅室内静物照片，桌面上的细枝插在深色花瓶中，背景可见墙面与挂画；矩形窗口，顶部被棕色圆点局部遮挡。",
+      "label": "上方中央竖幅室内静物照片，桌面上的细枝插在深色花瓶中，背景可",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        723,
+        117,
+        1048,
+        552
+      ],
+      "description": "右上竖幅矩形照片，绿叶背景前有两杯饮品、伸入画面的手、石质台面及前方小圆盒；下缘被棕色圆点压住。",
+      "label": "右上竖幅矩形照片，绿叶背景前有两杯饮品、伸入画面的手、石质台",
+      "method": "local"
+    },
+    {
+      "id": "photo_hero_drink",
+      "kind": "photo",
+      "bbox": [
+        242,
+        710,
+        800,
+        1440
+      ],
+      "description": "下半部中央的抠图主体组合：一只手捧着顶部有橙色碎料和奶油配料的透明饮品杯，另一只手与浅蓝袖口从杯身两侧和下方延伸，主体下缘被画布裁切；摄影背景未保留，杯身印字随照片内容替换。",
+      "label": "下半部中央的抠图主体组合：一只手捧着顶部有橙色碎料和奶油配料",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pin_top",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        88,
+        569,
+        147
+      ],
+      "description": "上方中央照片顶部附近的深棕色圆形装饰，压在照片上沿。",
+      "label": "上方中央照片顶部附近的深棕色圆形装饰，压在照片上沿。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pin_left",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        524,
+        214,
+        583
+      ],
+      "description": "左上照片下沿处的深棕色圆形装饰，部分覆盖照片并伸入橙色留白。",
+      "label": "左上照片下沿处的深棕色圆形装饰，部分覆盖照片并伸入橙色留白。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pin_right",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        519,
+        915,
+        578
+      ],
+      "description": "右上照片下沿处的深棕色圆形装饰，部分覆盖照片并伸入橙色留白。",
+      "label": "右上照片下沿处的深棕色圆形装饰，部分覆盖照片并伸入橙色留白。",
+      "method": "extract"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        266,
+        604,
+        816,
+        641
+      ],
+      "description": "A new way to celebrate spring",
+      "label": "A new way to celebrate spring",
+      "method": "local",
+      "text": "A new way to celebrate spring",
+      "text_status": "known",
+      "style": {
+        "fill": "#F4D88A",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_dot_1",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        853,
+        126,
+        879
+      ],
+      "description": "深棕色区域左上方的小型亮橙色圆点装饰。",
+      "label": "深棕色区域左上方的小型亮橙色圆点装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_2",
+      "kind": "overlay",
+      "bbox": [
+        980,
+        901,
+        1021,
+        942
+      ],
+      "description": "深棕色区域右上方的亮橙色圆点装饰。",
+      "label": "深棕色区域右上方的亮橙色圆点装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_3",
+      "kind": "overlay",
+      "bbox": [
+        196,
+        984,
+        239,
+        1027
+      ],
+      "description": "深棕色区域左侧中部的亮橙色圆点装饰。",
+      "label": "深棕色区域左侧中部的亮橙色圆点装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_4",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        1036,
+        904,
+        1120
+      ],
+      "description": "深棕色区域右侧中部较大的亮橙色圆点装饰。",
+      "label": "深棕色区域右侧中部较大的亮橙色圆点装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_5",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        1202,
+        186,
+        1279
+      ],
+      "description": "深棕色区域左下方较大的亮橙色圆点装饰。",
+      "label": "深棕色区域左下方较大的亮橙色圆点装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_6",
+      "kind": "overlay",
+      "bbox": [
+        1002,
+        1242,
+        1028,
+        1268
+      ],
+      "description": "深棕色区域右下方的小型亮橙色圆点装饰。",
+      "label": "深棕色区域右下方的小型亮橙色圆点装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_7",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        1320,
+        832,
+        1362
+      ],
+      "description": "深棕色区域底部偏右的亮橙色圆点装饰。",
+      "label": "深棕色区域底部偏右的亮橙色圆点装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "canvas_base",
+    "photo_garden",
+    "photo_branch",
+    "photo_drinks",
+    "overlay_pin_top",
+    "overlay_pin_left",
+    "overlay_pin_right",
+    "text_caption",
+    "overlay_dot_1",
+    "overlay_dot_2",
+    "overlay_dot_3",
+    "overlay_dot_4",
+    "overlay_dot_5",
+    "overlay_dot_6",
+    "overlay_dot_7",
+    "photo_hero_drink"
+  ]
+}

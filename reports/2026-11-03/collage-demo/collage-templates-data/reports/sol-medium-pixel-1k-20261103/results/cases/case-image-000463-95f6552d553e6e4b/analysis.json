@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "newspaper_collage_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        1080
+      ],
+      "description": "浅蓝白色报纸与印刷文字构成连续的全画布拼贴底层，纹理和版面延伸至四边；上方照片、纸片和装饰遮挡局部，保留可见的固定报纸底图，不包含独立猫照片或人物照片。",
+      "background_type": "reference_clean",
+      "label": "浅蓝白色报纸与印刷文字构成连续的全画布拼贴底层，纹理和版面延",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cat_left",
+      "kind": "photo",
+      "bbox": [
+        165,
+        134,
+        576,
+        886
+      ],
+      "description": "左侧深色猫咪近景，画面可见猫脸和反光眼睛，保留照片环境；部分被手写纸片、人物及前景装饰遮挡，完整显示范围边界不完全清晰。",
+      "label": "左侧深色猫咪近景，画面可见猫脸和反光眼睛，保留照片环境；部分",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat_right",
+      "kind": "photo",
+      "bbox": [
+        946,
+        48,
+        1252,
+        601
+      ],
+      "description": "右上方深色猫咪正面近景，黄色眼睛清晰可见，保留照片环境；下部及右侧被星星纸片和中央人物局部遮挡。",
+      "label": "右上方深色猫咪正面近景，黄色眼睛清晰可见，保留照片环境；下部",
+      "method": "local"
+    },
+    {
+      "id": "overlay_handwritten_note",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        204,
+        481,
+        512
+      ],
+      "description": "左上偏中的不规则浅色纸片，带深色手写短句及深蓝色图形，作为一个完整的固定纸片设计保留；局部压住左侧猫咪照片。",
+      "label": "左上偏中的不规则浅色纸片，带深色手写短句及深蓝色图形，作为一",
+      "method": "extract"
+    },
+    {
+      "id": "photo_main_portrait",
+      "kind": "photo",
+      "bbox": [
+        486,
+        73,
+        1245,
+        1080
+      ],
+      "description": "中央大型男性近景抠图，黑发、黑框眼镜、深色上衣，面向画面；摄影背景不保留，沿完整人物轮廓有醒目的白色手绘边线。人物下方被画布边缘裁切，部分压住猫照片和报纸底图。",
+      "label": "中央大型男性近景抠图，黑发、黑框眼镜、深色上衣，面向画面；摄",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_note",
+      "kind": "overlay",
+      "bbox": [
+        1064,
+        247,
+        1406,
+        558
+      ],
+      "description": "右侧深蓝色星空纸片，带浅色星星和多行深色印刷文字，作为完整固定纸片设计保留；覆盖右侧猫照片及报纸底图。",
+      "label": "右侧深蓝色星空纸片，带浅色星星和多行深色印刷文字，作为完整固",
+      "method": "extract"
+    },
+    {
+      "id": "photo_phone_portrait",
+      "kind": "photo",
+      "bbox": [
+        181,
+        435,
+        577,
+        1080
+      ],
+      "description": "左下方男性半身抠图，戴眼镜、穿白衬衫和黑领带，手持电话听筒并朝向画面；摄影背景不保留，人物下方延伸至画布外，覆盖左侧照片与报纸底图，并压在中央人物前方。",
+      "label": "左下方男性半身抠图，戴眼镜、穿白衬衫和黑领带，手持电话听筒并",
+      "method": "local"
+    },
+    {
+      "id": "photo_moth",
+      "kind": "photo",
+      "bbox": [
+        226,
+        0,
+        609,
+        316
+      ],
+      "description": "画面上方偏左的一只灰色飞蛾近景，翅膀展开，沿虫体轮廓独立显示，摄影背景不明显；部分超出画布上缘，遮挡后方纸面和照片。",
+      "label": "画面上方偏左的一只灰色飞蛾近景，翅膀展开，沿虫体轮廓独立显示",
+      "method": "local"
+    },
+    {
+      "id": "overlay_butterfly_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        646,
+        576,
+        1080
+      ],
+      "description": "左下角大型蝴蝶线描装饰，包含浅粉色外翅轮廓、青蓝色与黑色内翅纹样及细线触须，整体作为一个固定装饰单元保留；部分被画布边缘裁切，压在人物和报纸底图上。",
+      "label": "左下角大型蝴蝶线描装饰，包含浅粉色外翅轮廓、青蓝色与黑色内翅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_right",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        574,
+        1417,
+        1080
+      ],
+      "description": "右下方大型蝴蝶线描装饰，包含浅粉色外翅轮廓、青蓝色与黑色内翅纹样及细线触须，整体作为一个固定装饰单元保留；下缘及右侧部分超出画布，覆盖中央人物、星纸片边缘和底图。",
+      "label": "右下方大型蝴蝶线描装饰，包含浅粉色外翅轮廓、青蓝色与黑色内翅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_label",
+      "kind": "overlay",
+      "bbox": [
+        1254,
+        890,
+        1440,
+        1080
+      ],
+      "description": "右下角倾斜的浅色窄纸条，带黑色印刷文字，部分被右侧蝴蝶遮挡并延伸出画布；纸条与印字作为一个完整固定设计保留。",
+      "label": "右下角倾斜的浅色窄纸条，带黑色印刷文字，部分被右侧蝴蝶遮挡并",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "newspaper_collage_base",
+    "photo_cat_left",
+    "photo_cat_right",
+    "overlay_handwritten_note",
+    "photo_main_portrait",
+    "overlay_star_note",
+    "photo_phone_portrait",
+    "photo_moth",
+    "overlay_bottom_right_label",
+    "overlay_butterfly_left",
+    "overlay_butterfly_right"
+  ]
+}

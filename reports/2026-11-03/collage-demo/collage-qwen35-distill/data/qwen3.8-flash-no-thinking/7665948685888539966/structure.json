@@ -1,0 +1,127 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张模糊的室内摄影底图，呈现暖色调的桌面和背景环境。画面整体由虚化的棕色、米色构成，作为所有前景食物照片和装饰元素的衬托层，延伸至画布四边。"
+  },
+  "objects": [
+    {
+      "id": "overlay_stars_top_left",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        125,
+        230,
+        240
+      ],
+      "description": "左上角的白色手绘星星图案，包含两颗大星和几颗小点，线条风格随意可爱。"
+    },
+    {
+      "id": "overlay_exclamation_top",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        60,
+        710,
+        210
+      ],
+      "description": "顶部中间的三个白色手绘感叹号，呈放射状排列，带有圆点装饰，表达惊讶或赞叹的情绪。"
+    },
+    {
+      "id": "photo_plate_1",
+      "kind": "photo",
+      "bbox": [
+        90,
+        185,
+        590,
+        480
+      ],
+      "description": "左上方的椭圆形餐盘照片，去除了背景。盘中盛有三明治（夹芝士和肉）、一碗水果沙拉（香蕉、蓝莓、猕猴桃）、煎蛋和虾。边缘有一圈粗白色描边。"
+    },
+    {
+      "id": "overlay_fork_right",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        180,
+        920,
+        380
+      ],
+      "description": "右侧的白色手绘叉子图案，叉头朝下，旁边有几条短线表示动作或光泽。"
+    },
+    {
+      "id": "photo_plate_2",
+      "kind": "photo",
+      "bbox": [
+        430,
+        330,
+        910,
+        590
+      ],
+      "description": "右上方的黑色圆形餐盘照片，去除了背景。盘中有一个贝果三明治（夹肉饼）、炒蛋配蟹柳、芦笋、蘑菇和蓝莓。边缘有一圈粗白色描边。"
+    },
+    {
+      "id": "photo_plate_3",
+      "kind": "photo",
+      "bbox": [
+        60,
+        450,
+        540,
+        750
+      ],
+      "description": "左下方的圆形餐盘照片，去除了背景。盘中包含牛油果虾仁滑蛋、草莓、蓝莓、培根煎蛋以及一杯粉色饮品（杯身可见部分文字）。边缘有一圈白色虚线描边。"
+    },
+    {
+      "id": "photo_plate_4",
+      "kind": "photo",
+      "bbox": [
+        390,
+        590,
+        890,
+        920
+      ],
+      "description": "右下方的猫形便当盒照片，去除了背景。造型为可爱的猫咪脸，米饭做成猫头，蛋皮上写有红色“Cute~”字样，周围配有西兰花、圣女果等蔬菜。边缘有一圈粗白色描边。"
+    },
+    {
+      "id": "text_yummy",
+      "kind": "text",
+      "bbox": [
+        40,
+        790,
+        420,
+        940
+      ],
+      "text": "Yummy",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false,
+      "description": "左下角的手绘空心字体单词“Yummy”，周围点缀着番茄、披萨切片、鸡腿和爱心等简笔画图标。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        870,
+        960,
+        960
+      ],
+      "description": "右下角的白色手绘五角星，内部填充了斜线纹理。"
+    }
+  ],
+  "layer_order": [
+    "overlay_stars_top_left",
+    "overlay_exclamation_top",
+    "photo_plate_1",
+    "overlay_fork_right",
+    "photo_plate_2",
+    "photo_plate_3",
+    "photo_plate_4",
+    "text_yummy",
+    "overlay_star_bottom_right"
+  ]
+}

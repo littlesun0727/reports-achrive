@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-c8740b3d-21e1-9060-9073-f9f7332bcd22",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 7930,
+    "completion_tokens": 517,
+    "prompt_tokens_details": {
+      "cached_tokens": 5376,
+      "image_tokens": 1532,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 517
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        500,\n        498\n      ],\n      \"description\": \"左上角风景照片，展示蓝天白云下的绿色草原和远处的山丘，草地上有零星的牛群。\"\n    },\n    {\n      \"id\": \"photo_top_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        0,\n        1000,\n        498\n      ],\n      \"description\": \"右上角风景照片，展示阴天下的草原景色，远处有红色牌坊建筑及白色文字“呼伦贝尔”。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        498,\n        500,\n        1000\n      ],\n      \"description\": \"左下角风景照片，展示河边饮水的马群，背景是开阔的草地和天空。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        498,\n        1000,\n        1000\n      ],\n      \"description\": \"右下角风景照片，展示蜿蜒曲折的河流流经绿色草原，远处有微小的人影。\"\n    },\n    {\n      \"id\": \"photo_person_cutout\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        253,\n        306,\n        700,\n        780\n      ],\n      \"description\": \"中心位置的人物抠图，年轻女性身穿浅蓝色上衣，戴墨镜，挥手微笑，主体周围有一圈明显的白色描边轮廓。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"photo_top_right\",\n    \"photo_bottom_left\",\n    \"photo_bottom_right\",\n    \"photo_person_cutout\"\n  ]\n}",
+  "tool_calls": false
+}

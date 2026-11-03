@@ -1,0 +1,155 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "米色渐变纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        160,
+        70,
+        820,
+        340
+      ],
+      "description": "矩形人物照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        160,
+        360,
+        820,
+        630
+      ],
+      "description": "矩形手掌照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        160,
+        660,
+        820,
+        930
+      ],
+      "description": "矩形人物照片，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        30,
+        200,
+        120
+      ],
+      "description": "白色海星线条贴纸，位于左上角。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        30,
+        500,
+        100
+      ],
+      "description": "银色回形针线条贴纸，位于顶部中央。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        100,
+        910,
+        200
+      ],
+      "description": "白色海星线条贴纸，位于右上角。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        400,
+        910,
+        500
+      ],
+      "description": "白色海星线条贴纸，位于右侧中部。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        750,
+        190,
+        850
+      ],
+      "description": "白色海星线条贴纸，位于左下角。"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        750,
+        860,
+        850
+      ],
+      "description": "白色鱼形线条贴纸，位于右下角。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        60,
+        380,
+        280,
+        420
+      ],
+      "text": "Island",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        580,
+        540,
+        920,
+        580
+      ],
+      "text": "Sun sea serenity.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "text_1",
+    "text_2"
+  ]
+}

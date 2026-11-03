@@ -1,0 +1,172 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "展会现场的连续摄影画面覆盖全画布：顶部展台灯架与招牌、中部杂志墙、下方黑色台阶及右侧通道均属于同一场景；前景中央偏右有一名穿黑衣裙、戴墨镜的女性站立持麦克风，右侧另有数名观众。场景延伸至画布边缘，局部被屏幕、贴纸和涂鸦遮挡；替换时整体保留摄影环境与人物。"
+  },
+  "objects": [
+    {
+      "id": "photo_performer",
+      "kind": "photo",
+      "bbox": [
+        744,
+        305,
+        991,
+        701
+      ],
+      "description": "右上方竖向屏幕内的独立演出照片：一名女性歌手半身至大腿景，手持麦克风，另一只手臂举过头顶；深蓝黑色舞台背景保留在照片内。矩形显示区域，边缘由屏幕框遮住。"
+    },
+    {
+      "id": "frame_screen",
+      "kind": "frame",
+      "bbox": [
+        735,
+        293,
+        1003,
+        712
+      ],
+      "description": "承载演出照片的竖向黑色屏幕框，具有厚暗色边沿和细微粗糙质感；照片窗口位于框内，框体边缘遮住照片边界。",
+      "photo_id": [
+        "photo_performer"
+      ]
+    },
+    {
+      "id": "overlay_doodle_left",
+      "kind": "overlay",
+      "bbox": [
+        119,
+        753,
+        262,
+        895
+      ],
+      "description": "杂志墙下部左侧的白色手绘卷曲线条、星形点缀与小圆点组成的完整涂鸦装饰，叠在摄影画面上。"
+    },
+    {
+      "id": "overlay_doodle_right",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        739,
+        879,
+        899
+      ],
+      "description": "屏幕下方偏右的白色手绘卷曲线条，包含圆形旋涡、星形点缀和小圆点，作为一组独立涂鸦保留。"
+    },
+    {
+      "id": "overlay_reaction",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        606,
+        190,
+        705
+      ],
+      "description": "左侧杂志墙上的白色圆角对话气泡贴纸，内有灰色立体心形和向下尖角，整体作为一个固定装饰单元。"
+    },
+    {
+      "id": "overlay_love_bubble",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        914,
+        960,
+        1017
+      ],
+      "description": "人物右侧腰部附近的深灰色椭圆对话气泡，带向下尖角，内部有饼干表情、Love文字、圆点、波浪线和星形；文字与图案随气泡整体保留。"
+    },
+    {
+      "id": "overlay_toolbar",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        1295,
+        474,
+        1378
+      ],
+      "description": "画面底部偏左的白色圆角胶囊形图标条，含爪印、数字球、电话、相机、心形图标及右下方叠压的深色加号圆钮，作为一体界面贴纸保留。"
+    },
+    {
+      "id": "overlay_dotted_flower_top",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        31,
+        853,
+        118
+      ],
+      "description": "画面顶部偏右的黑色不规则花形贴纸，内部布满白色小圆点，轮廓和点阵作为一个装饰单元保留。"
+    },
+    {
+      "id": "overlay_dotted_flower_left",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        299,
+        149,
+        407
+      ],
+      "description": "左上区域的黑色不规则花形贴纸，内部为白色点阵，作为完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_dotted_flower_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        1049,
+        172,
+        1168
+      ],
+      "description": "左下台阶上的黑色点阵花形贴纸，完整轮廓与白色圆点作为一个装饰单元保留。"
+    },
+    {
+      "id": "overlay_dotted_flower_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        764,
+        1136,
+        922,
+        1324
+      ],
+      "description": "右下台阶及人物腿部旁的大型黑色不规则花形贴纸，内部密布白色点阵，作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        178,
+        903,
+        312
+      ],
+      "description": "屏幕上方垂挂的细线金属回形针装饰，弯折线条完整可见，底端靠近屏幕上沿。"
+    },
+    {
+      "id": "overlay_diamond",
+      "kind": "overlay",
+      "bbox": [
+        873,
+        179,
+        932,
+        245
+      ],
+      "description": "回形针上端附近的浅灰色菱形纸片装饰，带折面和阴影，作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_performer",
+    "frame_screen",
+    "overlay_dotted_flower_top",
+    "overlay_dotted_flower_left",
+    "overlay_reaction",
+    "overlay_doodle_left",
+    "overlay_doodle_right",
+    "overlay_paperclip",
+    "overlay_diamond",
+    "overlay_dotted_flower_lower_left",
+    "overlay_dotted_flower_lower_right",
+    "overlay_love_bubble",
+    "overlay_toolbar"
+  ]
+}

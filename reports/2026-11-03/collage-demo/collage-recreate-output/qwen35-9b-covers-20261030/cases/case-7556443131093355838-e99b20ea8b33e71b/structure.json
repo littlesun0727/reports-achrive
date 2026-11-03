@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        333
+      ],
+      "description": "顶部照片显示一位女性双手合十许愿，面前桌上有一个草莓蛋糕。照片包含人物、桌面、背景环境及蛋糕。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        667,
+        1000,
+        1000
+      ],
+      "description": "底部照片为俯拍视角，展示一个草莓蛋糕，旁边有一个小蛋糕模型。照片包含蛋糕、桌面、人物手臂及背景环境。"
+    },
+    {
+      "id": "overlay_text",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        333,
+        1000,
+        667
+      ],
+      "description": "中间区域的米色纹理背景板，上面印有黑色文字 'Happy birthday.'。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_text"
+  ]
+}

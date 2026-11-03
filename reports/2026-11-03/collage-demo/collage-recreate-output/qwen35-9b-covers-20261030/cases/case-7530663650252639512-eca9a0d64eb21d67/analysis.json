@@ -1,0 +1,204 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "米色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立照片不属于固定底图。",
+      "background_type": "reference_clean",
+      "label": "米色纹理纸底，四周及照片间隙可见相同纸纹；保留纸张材质，独立",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        320,
+        210,
+        572,
+        468
+      ],
+      "description": "俯拍披萨、炸鸡和饮料的拼盘照片，保留摄影环境，四边清晰。",
+      "label": "俯拍披萨、炸鸡和饮料的拼盘照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        202,
+        444,
+        378,
+        612
+      ],
+      "description": "桌上甜点与玩偶的照片，保留摄影环境，四边清晰。",
+      "label": "桌上甜点与玩偶的照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        360,
+        456,
+        540,
+        576
+      ],
+      "description": "桌上蛋糕与甜点的照片，保留摄影环境，四边清晰。",
+      "label": "桌上蛋糕与甜点的照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        531,
+        384,
+        706,
+        600
+      ],
+      "description": "桌上牛排与配菜的照片，保留摄影环境，四边清晰。",
+      "label": "桌上牛排与配菜的照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        158,
+        576,
+        333,
+        864
+      ],
+      "description": "桌上煎蛋与沙拉的照片，保留摄影环境，四边清晰。",
+      "label": "桌上煎蛋与沙拉的照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        338,
+        576,
+        536,
+        864
+      ],
+      "description": "桌上披萨与沙拉的照片，保留摄影环境，四边清晰。",
+      "label": "桌上披萨与沙拉的照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        536,
+        576,
+        734,
+        864
+      ],
+      "description": "桌上水果与甜点的照片，保留摄影环境，四边清晰。",
+      "label": "桌上水果与甜点的照片，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        168,
+        261,
+        384
+      ],
+      "description": "手绘叉子和勺子的线条装饰，位于左上角。",
+      "label": "手绘叉子和勺子的线条装饰，位于左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        84,
+        783,
+        156
+      ],
+      "description": "手绘螺旋线条装饰，位于右上角。",
+      "label": "手绘螺旋线条装饰，位于右上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        600,
+        135,
+        780
+      ],
+      "description": "手绘数字6的线条装饰，位于左侧。",
+      "label": "手绘数字6的线条装饰，位于左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        816,
+        796,
+        1116
+      ],
+      "description": "手绘碗形轮廓，内部包含文字，位于底部。",
+      "label": "手绘碗形轮廓，内部包含文字，位于底部。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        198,
+        900,
+        684,
+        1008
+      ],
+      "description": "My Daily Plog",
+      "label": "My Daily Plog",
+      "method": "local",
+      "text": "My Daily Plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1"
+  ]
+}

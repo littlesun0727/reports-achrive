@@ -1,0 +1,126 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布固定底图，为带有黑色波点图案的白色背景纸。该底图承载了左侧的独立照片区域和所有装饰性贴纸，保留了纸纹和波点图案。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        50,
+        180,
+        400,
+        520
+      ],
+      "description": "左上角矩形照片，人物侧脸特写，保留摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        180,
+        440,
+        440,
+        680
+      ],
+      "description": "中间圆形照片，人物半身照，保留摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        50,
+        680,
+        330,
+        980
+      ],
+      "description": "左下角心形照片，人物半身照，保留摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        340,
+        110,
+        920,
+        990
+      ],
+      "description": "右侧全身照片，人物站立，保留摄影环境。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        150,
+        240,
+        230
+      ],
+      "description": "左上角黑色方块内的白色五角星贴纸。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        120,
+        920,
+        160
+      ],
+      "description": "右上角白色方块内的黑色星星贴纸。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        500,
+        160,
+        560
+      ],
+      "description": "左侧黑色长条贴纸，包含白色符号图案。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        600,
+        100,
+        660
+      ],
+      "description": "左侧黑色心形贴纸，内部有白色格纹图案。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        10,
+        880,
+        330,
+        920
+      ],
+      "text": "一緒に頑張ろうね",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1"
+  ]
+}

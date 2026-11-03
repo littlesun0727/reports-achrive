@@ -1,0 +1,88 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "咖啡馆内部场景的连续摄影底图，包含模糊的木质桌椅、墙面装饰和灯光。画面延伸至画布四边，作为所有独立照片和装饰元素的背景层。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        73,
+        95,
+        548,
+        568
+      ],
+      "description": "矩形照片，显示一名女子坐在桌前看书，桌上有咖啡杯。保留完整摄影环境，边缘清晰无特殊效果。"
+    },
+    {
+      "id": "overlay_doodle_cat",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        100,
+        970,
+        300
+      ],
+      "description": "白色手绘涂鸦，包含猫脸轮廓、星星、爱心及文字“G3”。线条具有粉笔质感，位于背景之上。"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        620,
+        330,
+        920,
+        570
+      ],
+      "description": "心形窗口照片，内容为一份带樱桃的甜点。摄影内容被限制在心形边界内，周围是透明区域露出底图。"
+    },
+    {
+      "id": "overlay_doodle_cake",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        620,
+        440,
+        960
+      ],
+      "description": "白色手绘涂鸦，包含蛋糕切片图案、盘子、叉子、对话气泡（内含文字“今日有咖”）及散落的星星。整体作为一个固定装饰单元。"
+    },
+    {
+      "id": "frame_tape_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        490,
+        680,
+        950,
+        950
+      ],
+      "description": "由两条半透明胶带固定的矩形照片框。胶带分别位于左上角和右下角，形成视觉上的粘贴效果，承载下方的照片。",
+      "photo_id": [
+        "photo_bottom_right"
+      ]
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        495,
+        685,
+        945,
+        945
+      ],
+      "description": "矩形照片，显示一名女子手持手机自拍。保留完整摄影环境，位于胶带框架下方。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "overlay_doodle_cat",
+    "photo_heart",
+    "overlay_doodle_cake",
+    "photo_bottom_right",
+    "frame_tape_bottom_right"
+  ]
+}

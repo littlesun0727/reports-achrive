@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_trams",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "横向街景照片，香港街道上两辆双层电车并列，前景为蓝白色96号电车和右侧较大的浅绿色22号电车，周围可见建筑、道路及一辆红白色车辆。保留完整摄影环境，照片区域从画面中部延伸至底边。"
+    },
+    {
+      "id": "overlay_green_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "覆盖画布上半部的均匀橄榄绿色矩形面板，边缘水平横跨画布，底边位于街景照片上沿；作为独立固定色块保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        319,
+        339,
+        762,
+        383
+      ],
+      "text": "Bus.Hongkong-14:00",
+      "color": "#F5F5E8",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_trams",
+    "overlay_green_panel",
+    "text_title"
+  ]
+}

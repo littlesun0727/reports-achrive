@@ -1,0 +1,303 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "室内场景，包含木质结构、悬挂的藤编篮子、玻璃柜、植物和水果篮。画面中央有一块米色硬纸板，上面用夹子固定，作为所有独立对象的承载底图。",
+      "background_type": "photo",
+      "label": "室内场景，包含木质结构、悬挂的藤编篮子、玻璃柜、植物和水果篮",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        97,
+        202,
+        929,
+        1224
+      ],
+      "description": "米色硬纸板底板，顶部和底部各有一个金属长尾夹固定。承载了多张照片、贴纸和文字。",
+      "photo_id": [
+        "photo_1",
+        "photo_2",
+        "photo_3",
+        "photo_4"
+      ],
+      "label": "米色硬纸板底板，顶部和底部各有一个金属长尾夹固定。承载了多张",
+      "method": "extract"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        178,
+        281,
+        421,
+        461
+      ],
+      "description": "手持一张小照片的特写，照片中是两个人。背景为木质纹理。",
+      "label": "手持一张小照片的特写，照片中是两个人。背景为木质纹理。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        459,
+        266,
+        886,
+        562
+      ],
+      "description": "室内一角，展示着架子上的罐子、相框和挂着的衣物。",
+      "label": "室内一角，展示着架子上的罐子、相框和挂着的衣物。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        340,
+        504,
+        497,
+        662
+      ],
+      "description": "一只戴着白色帽子的小狗，旁边有一个篮子。",
+      "label": "一只戴着白色帽子的小狗，旁边有一个篮子。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        178,
+        756,
+        486,
+        1073
+      ],
+      "description": "拍立得风格照片，展示着桌上的甜点和饮品。",
+      "label": "拍立得风格照片，展示着桌上的甜点和饮品。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        567,
+        770,
+        815,
+        979
+      ],
+      "description": "一个穿着格子衫的玩偶坐在长椅上，背景是户外绿植。",
+      "label": "一个穿着格子衫的玩偶坐在长椅上，背景是户外绿植。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        238,
+        254,
+        338
+      ],
+      "description": "带有 'summer paradise' 字样的蓝色标签贴纸。",
+      "label": "带有 'summer paradise' 字样的蓝色标签贴纸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        418,
+        227,
+        490
+      ],
+      "description": "两个白色的海星装饰贴纸。",
+      "label": "两个白色的海星装饰贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        367,
+        346,
+        475,
+        367
+      ],
+      "description": "带有 'The throbbing of summer is a grand encounter' 字样的灰色标签。",
+      "label": "带有 'The throbbing of summer is",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        464,
+        482,
+        535,
+        511
+      ],
+      "description": "带有 'LITTLE THINGS make big days' 字样的白色标签。",
+      "label": "带有 'LITTLE THINGS make big day",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        238,
+        907,
+        295
+      ],
+      "description": "带有 'focus on the good' 字样的白色标签。",
+      "label": "带有 'focus on the good' 字样的白色标签",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        526,
+        329,
+        655
+      ],
+      "description": "手写体英文段落 'The best journeys start with a one-way ticket in hand and no plan in mind'。",
+      "label": "手写体英文段落 'The best journeys sta",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        783,
+        742,
+        918,
+        814
+      ],
+      "description": "带有 'joy has a habit of returning.' 字样的白色标签。",
+      "label": "带有 'joy has a habit of returni",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        950,
+        918,
+        994
+      ],
+      "description": "带有 'To be continued' 字样的粉色标签。",
+      "label": "带有 'To be continued' 字样的粉色标签。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_9",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        1008,
+        734,
+        1080
+      ],
+      "description": "黄色便利贴，上面有手写英文段落。",
+      "label": "黄色便利贴，上面有手写英文段落。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_10",
+      "kind": "overlay",
+      "bbox": [
+        616,
+        1102,
+        848,
+        1174
+      ],
+      "description": "手写体英文段落 'The best Souvenir is the person you became while no one was watching'。",
+      "label": "手写体英文段落 'The best Souvenir is ",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        178,
+        1058,
+        270,
+        1080
+      ],
+      "description": "Arrebol",
+      "label": "Arrebol",
+      "method": "local",
+      "text": "Arrebol",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        459,
+        266,
+        486,
+        324
+      ],
+      "description": "Thank you",
+      "label": "Thank you",
+      "method": "local",
+      "text": "Thank you",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "frame_1",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8",
+    "overlay_9",
+    "overlay_10",
+    "text_1",
+    "text_2"
+  ]
+}

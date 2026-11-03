@@ -1,0 +1,191 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "白色底图，表面均匀分布粉色五角星图案。作为固定背景保留，承载所有独立照片和装饰元素。"
+  },
+  "objects": [
+    {
+      "id": "photo_cherry_blossom",
+      "kind": "photo",
+      "bbox": [
+        345,
+        126,
+        933,
+        448
+      ],
+      "description": "樱花树摄影照片，画面包含繁茂的粉白樱花枝条、深色树干及后方建筑局部。矩形显示窗口，无特殊边缘效果。"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        50,
+        404,
+        472,
+        710
+      ],
+      "description": "甜点摄影照片，展示放在白色盘子里的草莓奶油蛋糕块，旁边有奶盅和托盘。矩形显示窗口。"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        428,
+        641,
+        807,
+        924
+      ],
+      "description": "人物摄影照片，一位长卷发女性坐在桌边，右侧可见马克杯一角。矩形显示窗口。"
+    },
+    {
+      "id": "overlay_candy",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        65,
+        200,
+        126
+      ],
+      "description": "左上角粉色糖果插画贴纸，带有可爱表情。"
+    },
+    {
+      "id": "overlay_label_top",
+      "kind": "overlay",
+      "bbox": [
+        182,
+        124,
+        315,
+        152
+      ],
+      "description": "带黑色边框的白色标签贴纸，印有韩文“정신 체리”及樱桃图标。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        172,
+        250,
+        370
+      ],
+      "description": "穿粉色背带裤的白色毛绒猫咪玩偶抠图。"
+    },
+    {
+      "id": "overlay_tag_right",
+      "kind": "overlay",
+      "bbox": [
+        862,
+        410,
+        985,
+        495
+      ],
+      "description": "右侧悬挂的粉色蝴蝶结吊牌贴纸，带有细绳。"
+    },
+    {
+      "id": "overlay_text_bg_1",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        487,
+        815,
+        540
+      ],
+      "description": "浅粉色长方形色块底板，用于衬托文字。"
+    },
+    {
+      "id": "text_korean_1",
+      "kind": "text",
+      "bbox": [
+        540,
+        500,
+        785,
+        528
+      ],
+      "text": "우린 서로기있어",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_text_bg_2",
+      "kind": "overlay",
+      "bbox": [
+        535,
+        555,
+        780,
+        600
+      ],
+      "description": "浅粉色长方形色块底板，位于上一行文字下方。"
+    },
+    {
+      "id": "text_korean_2",
+      "kind": "text",
+      "bbox": [
+        565,
+        568,
+        750,
+        590
+      ],
+      "text": "나는 오늘의 슈퍼스타",
+      "color": "#000000",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_cups",
+      "kind": "overlay",
+      "bbox": [
+        805,
+        532,
+        975,
+        685
+      ],
+      "description": "两个粉色咖啡纸杯插画贴纸，呈倾斜堆叠状。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        745,
+        145,
+        820
+      ],
+      "description": "银色回形针插画，压在便签纸左上角。"
+    },
+    {
+      "id": "overlay_memo_note",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        755,
+        390,
+        925
+      ],
+      "description": "粉色横纹便签纸贴纸，略微倾斜，上面写有韩文手写体句子。"
+    }
+  ],
+  "layer_order": [
+    "photo_cherry_blossom",
+    "photo_dessert",
+    "photo_girl",
+    "overlay_candy",
+    "overlay_label_top",
+    "overlay_cat",
+    "overlay_tag_right",
+    "overlay_text_bg_1",
+    "text_korean_1",
+    "overlay_text_bg_2",
+    "text_korean_2",
+    "overlay_cups",
+    "overlay_memo_note",
+    "overlay_paperclip"
+  ]
+}

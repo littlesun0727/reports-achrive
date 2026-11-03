@@ -1,0 +1,279 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1436
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1436
+      ],
+      "description": "一张连续的店内人物全身照片覆盖全画布，砖墙、木质展示架、中央镜面、右侧设备和地面在四边连续可见。中央一名长发女子穿粉白裙装及白色长袜，正面站立，一手扶木框，一手提包；镜中有同一人物的背面倒影。店内招牌、玩偶、杯子及设备文字均属摄影内容。左上椭圆照片、右下近景照片和粉色装饰遮挡局部，底层完整摄影环境随客户照片替换。",
+      "background_type": "photo",
+      "label": "一张连续的店内人物全身照片覆盖全画布，砖墙、木质展示架、中央",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_oval",
+      "kind": "photo",
+      "bbox": [
+        16,
+        85,
+        365,
+        574
+      ],
+      "description": "左上独立人物照片，一名长发女子穿粉白衣裙，侧身回头看向画面右侧，显示头部至腰臀附近；身后的木架、玩偶和店内镜面仍然可见。完整显示区域为竖向椭圆，粉色实线沿整个照片窗口边缘环绕，属于此照片的边缘效果。",
+      "label": "左上独立人物照片，一名长发女子穿粉白衣裙，侧身回头看向画面右",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        695,
+        945,
+        1052,
+        1329
+      ],
+      "description": "右下独立人物近景照片，一名长发女子戴粉色发箍，闭眼微笑，穿粉白裙装并提着带玩偶挂件的包；显示头部至腰部，身后镜面倒影、店内陈设和设备均保留。照片四周有粉色圆角矩形窗口描边，描边依附完整照片窗口，不另设固定框体。",
+      "label": "右下独立人物近景照片，一名长发女子戴粉色发箍，闭眼微笑，穿粉",
+      "method": "local"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        96,
+        732,
+        232
+      ],
+      "description": "画面上方横排的三颗浅粉爱心组成完整装饰：左侧为半透明实心爱心，中间为空心细线爱心，右侧为空心爱心并带内部小圆点。保留相互连接的轮廓、透明效果和内部图案。",
+      "label": "画面上方横排的三颗浅粉爱心组成完整装饰：左侧为半透明实心爱心",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        271,
+        800,
+        379
+      ],
+      "description": "上部中央偏右的浅粉色像素网格五角星，叠在木框和摄影场景上，保留由细小方点组成的完整星形及疏密变化。",
+      "label": "上部中央偏右的浅粉色像素网格五角星，叠在木框和摄影场景上，保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_upper_middle",
+      "kind": "overlay",
+      "bbox": [
+        485,
+        362,
+        564,
+        440
+      ],
+      "description": "中央镜面上部的半透明粉色圆点，摄影内容透过圆点可见，作为独立固定装饰保留。",
+      "label": "中央镜面上部的半透明粉色圆点，摄影内容透过圆点可见，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        872,
+        333,
+        923,
+        384
+      ],
+      "description": "右上木质壁龛内的粉色圆点，独立叠加于摄影环境。",
+      "label": "右上木质壁龛内的粉色圆点，独立叠加于摄影环境。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_oval_edge",
+      "kind": "overlay",
+      "bbox": [
+        294,
+        413,
+        356,
+        488
+      ],
+      "description": "左上椭圆照片右下侧附近的浅粉色网格星形装饰，部分图案叠在照片与周围木架区域上；保留可见方点纹样，不并入人物照片。",
+      "label": "左上椭圆照片右下侧附近的浅粉色网格星形装饰，部分图案叠在照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        486,
+        875,
+        560
+      ],
+      "description": "右侧设备左上角附近的半透明粉色圆点，覆盖木框与设备边缘。",
+      "label": "右侧设备左上角附近的半透明粉色圆点，覆盖木框与设备边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        187,
+        582,
+        308,
+        687
+      ],
+      "description": "左侧杯子展示格上叠加的粉色像素网格五角星，保留完整星形及透出下层杯子和木架的效果。",
+      "label": "左侧杯子展示格上叠加的粉色像素网格五角星，保留完整星形及透出",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_device",
+      "kind": "overlay",
+      "bbox": [
+        899,
+        628,
+        958,
+        688
+      ],
+      "description": "右侧设备上方的半透明粉色圆点，叠在设备面板与深色内口区域。",
+      "label": "右侧设备上方的半透明粉色圆点，叠在设备面板与深色内口区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        767,
+        649,
+        869,
+        739
+      ],
+      "description": "中央人物右侧、设备左缘附近的淡粉网格星形，跨越木框和设备边缘，颜色较浅，保留可见方点构成的轮廓。",
+      "label": "中央人物右侧、设备左缘附近的淡粉网格星形，跨越木框和设备边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        147,
+        779,
+        221,
+        853
+      ],
+      "description": "左侧下方展示格内的粉色圆点，叠在摄影中的金属篮子上，篮子的部分线条透过圆点可见。",
+      "label": "左侧下方展示格内的粉色圆点，叠在摄影中的金属篮子上，篮子的部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_center_lower",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        790,
+        518,
+        873
+      ],
+      "description": "中央人物裙装左侧的浅粉色像素网格星形，覆盖人物及其左侧摄影内容，保留淡色方点和完整可见轮廓。",
+      "label": "中央人物裙装左侧的浅粉色像素网格星形，覆盖人物及其左侧摄影内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_center_lower",
+      "kind": "overlay",
+      "bbox": [
+        627,
+        867,
+        696,
+        933
+      ],
+      "description": "中央人物手袋下方、裙装右侧的半透明粉色圆点，独立覆盖手袋及裙边附近的摄影内容。",
+      "label": "中央人物手袋下方、裙装右侧的半透明粉色圆点，独立覆盖手袋及裙",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_lower",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        817,
+        965,
+        920
+      ],
+      "description": "右侧设备下方木质区域上的粉色网格五角星，完整星形由细密方点组成，与上方圆点及下方照片分别独立。",
+      "label": "右侧设备下方木质区域上的粉色网格五角星，完整星形由细密方点组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sometime_label",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        1123,
+        181,
+        1193
+      ],
+      "description": "左下木架上的倾斜白色小标签，印有黑色“sometime”，文字与纸片共同保留为一个固定设计单元。",
+      "label": "左下木架上的倾斜白色小标签，印有黑色“sometime”，文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_strip",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        1211,
+        365,
+        1252
+      ],
+      "description": "左下横向排列的七枚白色、浅粉及粉色圆点组成一组装饰，第三枚含白色数字“3”，第六枚含白色数字“4”。保留圆点间的空隙、颜色及内部数字，不单独拆分文字。",
+      "label": "左下横向排列的七枚白色、浅粉及粉色圆点组成一组装饰，第三枚含",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blank_label",
+      "kind": "overlay",
+      "bbox": [
+        244,
+        1284,
+        332,
+        1339
+      ],
+      "description": "左下靠近底部的独立倾斜白色矩形纸片，表面未见可辨文字，保留其完整纸片轮廓。",
+      "label": "左下靠近底部的独立倾斜白色矩形纸片，表面未见可辨文字，保留其",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_oval",
+    "photo_lower_right",
+    "overlay_hearts",
+    "overlay_star_upper",
+    "overlay_dot_upper_middle",
+    "overlay_dot_upper_right",
+    "overlay_star_oval_edge",
+    "overlay_dot_right_middle",
+    "overlay_star_left",
+    "overlay_dot_device",
+    "overlay_star_right_middle",
+    "overlay_dot_left_lower",
+    "overlay_star_center_lower",
+    "overlay_dot_center_lower",
+    "overlay_star_right_lower",
+    "overlay_sometime_label",
+    "overlay_circle_strip",
+    "overlay_blank_label"
+  ]
+}

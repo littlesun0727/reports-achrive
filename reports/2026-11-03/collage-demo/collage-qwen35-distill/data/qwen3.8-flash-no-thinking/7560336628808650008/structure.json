@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的摄影底图，画面为室内桌面场景。背景中可见模糊的Hello Kitty玩偶、平板电脑和手持物品的手部动作。整体色调偏暖，光线柔和。上层的心形照片、星形照片及文字装饰遮挡了部分底图内容，但底图延伸至画布四边。"
+  },
+  "objects": [
+    {
+      "id": "overlay_stars_top_right",
+      "kind": "overlay",
+      "bbox": [
+        706,
+        45,
+        932,
+        81
+      ],
+      "description": "右上角的一排白色手绘风格小图标，包含星星、音符、月亮、爱心和花朵形状。"
+    },
+    {
+      "id": "text_poem_left",
+      "kind": "text",
+      "bbox": [
+        40,
+        112,
+        445,
+        432
+      ],
+      "text": "我从此感到幸福\n轻易 松脆的幸福\n如同围炉火烤\n你伸手揉碎了茶饼\n芬苦淡淡的 却萦绕不去\n我的幸福\n只需要我伸出于掌心",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        437,
+        91,
+        918,
+        450
+      ],
+      "description": "心形窗口内的照片，显示一名女子戴着猫耳帽子趴在桌上，旁边有一个白色的Hello Kitty包。照片边缘有白色手绘描边。"
+    },
+    {
+      "id": "overlay_rabbit_face",
+      "kind": "overlay",
+      "bbox": [
+        818,
+        388,
+        951,
+        445
+      ],
+      "description": "右侧的一个白色简笔画兔子脸图案，带有长耳朵和胡须。"
+    },
+    {
+      "id": "overlay_sparkles_left",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        488,
+        150,
+        565
+      ],
+      "description": "左侧的一组白色手绘星星和闪光符号。"
+    },
+    {
+      "id": "overlay_bow_center",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        493,
+        532,
+        535
+      ],
+      "description": "中间的一个白色手绘蝴蝶结图案。"
+    },
+    {
+      "id": "photo_star",
+      "kind": "photo",
+      "bbox": [
+        31,
+        495,
+        555,
+        885
+      ],
+      "description": "星形窗口内的照片，显示桌面上摆放着印有Hello Kitty图案的盘子（盛有食物）、一杯咖啡和一个正在播放视频的平板。照片边缘有白色手绘描边。"
+    },
+    {
+      "id": "text_quote_right",
+      "kind": "text",
+      "bbox": [
+        535,
+        528,
+        965,
+        882
+      ],
+      "text": "在这个世界上\n幸福从来就没有标准答案\n有的人吃路边摊\n但也要拍照记录\n有人看到了日落\n也要感叹生活的美好\n只要是你自己喜欢的日子\n就是最好的日子",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        915,
+        375,
+        955
+      ],
+      "description": "左下角的一排五个白色空心五角星图案。"
+    }
+  ],
+  "layer_order": [
+    "overlay_stars_top_right",
+    "text_poem_left",
+    "photo_heart",
+    "overlay_rabbit_face",
+    "overlay_sparkles_left",
+    "overlay_bow_center",
+    "photo_star",
+    "text_quote_right",
+    "overlay_stars_bottom_left"
+  ]
+}

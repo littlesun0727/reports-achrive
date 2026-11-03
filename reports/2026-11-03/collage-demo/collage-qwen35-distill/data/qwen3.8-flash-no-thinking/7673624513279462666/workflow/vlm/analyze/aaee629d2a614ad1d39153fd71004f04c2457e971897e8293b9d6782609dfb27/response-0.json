@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-618c855e-1ba8-9c91-ae8f-142c33ee8d31",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6919,
+    "total_tokens": 8060,
+    "completion_tokens": 1141,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1038,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1141
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的咖啡馆桌面摄影底图，画面包含深色木纹桌面、左侧的咖啡杯、右侧的蛋糕切片以及背景中的模糊环境。该照片覆盖整个画布，作为所有前景元素的承托层。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_atom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        107,\n        83,\n        246,\n        195\n      ],\n      \"description\": \"左上角的蓝色手绘原子结构图案，带有星星点缀，位于书本照片左上方。\"\n    },\n    {\n      \"id\": \"overlay_cloud_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        58,\n        236,\n        156,\n        315\n      ],\n      \"description\": \"左侧中部的白色云朵轮廓线条装饰。\"\n    },\n    {\n      \"id\": \"photo_book\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        161,\n        118,\n        597,\n        446\n      ],\n      \"description\": \"一本翻开的书，页面上有韩文文字和一只黑猫插画，一只手正扶着书页下沿。\"\n    },\n    {\n      \"id\": \"overlay_bubbles\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        615,\n        136,\n        715,\n        325\n      ],\n      \"description\": \"右上方的青色气泡群装饰，大小不一，漂浮在背景上。\"\n    },\n    {\n      \"id\": \"overlay_rabbit\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        765,\n        273,\n      915,\n        388\n      ],\n      \"description\": \"右侧的白色线条小兔子贴纸，周围有十字星装饰。\"\n    },\n    {\n      \"id\": \"text_poem\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        33,\n        468,\n        382,\n        555\n      ],\n      \"text\": \"The light slowly softens, the sky\\nfading from orange to lilac. Doing\\nnothing but watching this gentle fade,\\nas if everything can be forgiven,\\neverything embraced.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_curtain\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        505,\n        355,\n        876,\n        635\n      ],\n      \"description\": \"一张竖构图的照片，显示灰白色的窗帘布料，上面有一个简笔画的小动物头像（类似仓鼠或熊）和爱心符号。\"\n    },\n    {\n      \"id\": \"overlay_tape\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        156,\n        568,\n        265,\n        635\n      ],\n      \"description\": \"人物照片左上角的一条透明胶带装饰，呈倾斜粘贴状。\"\n    },\n    {\n      \"id\": \"photo_girl\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        180,\n        580,\n        582,\n        885\n      ],\n      \"description\": \"年轻女性的面部特写照片，嘴里叼着食物，眼神看向镜头。\"\n    },\n    {\n      \"id\": \"overlay_cloud_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        597,\n        685,\n        690,\n        760\n      ],\n      \"description\": \"右下方的白色云朵轮廓线条装饰。\"\n    },\n    {\n      \"id\": \"overlay_music\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        115,\n        805,\n        246,\n        908\n      ],\n      \"description\": \"左下角的高音谱号与音符组合装饰，带有粉色爱心。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_book\",\n    \"photo_curtain\",\n    \"photo_girl\",\n    \"overlay_atom\",\n    \"overlay_cloud_left\",\n    \"overlay_bubbles\",\n    \"overlay_rabbit\",\n    \"text_poem\",\n    \"overlay_tape\",\n    \"overlay_cloud_right\",\n    \"overlay_music\"\n  ]\n}",
+  "tool_calls": false
+}

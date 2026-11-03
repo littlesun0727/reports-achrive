@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-59b0f7d7-4b9b-9868-b8ac-46f632c9eefa",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 8638,
+    "completion_tokens": 1355,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1402,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1355
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"transparent\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        0,\n        1000,\n        345\n      ],\n      \"description\": \"上方横向摄影照片，展示一名女子在餐厅用餐的场景。她身穿黑色上衣，左手持玻璃杯，右手持筷子，面前有一大锅芝士年糕火锅、一盘炒饭、一盘沙拉和几串烤肉。画面右上角有一只手拿着汤勺伸向镜头。背景为深色餐厅环境。\"\n    },\n    {\n      \"id\": \"overlay_paper_mid\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        345,\n        1000,\n        672\n      ],\n      \"description\": \"中间区域的浅棕色牛皮纸纹理底板，作为拼贴设计的背景载体。表面带有细微的纸张质感，承载了四张抠图食物照片、卡通贴纸及白色手绘文字装饰。\"\n    },\n    {\n      \"id\": \"text_loading\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        28,\n        355,\n        200,\n        405\n      ],\n      \"text\": \"快乐\\n加载中\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_stickers\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        10,\n        440,\n        240,\n        555\n      ],\n      \"description\": \"位于左侧的两只卡通动物贴纸（一只蓝色考拉状生物和一只白色兔子），具有明显的黑色描边轮廓，叠加在牛皮纸底板上。\"\n    },\n    {\n      \"id\": \"photo_salad_cutout\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        215,\n        380,\n        455,\n        495\n      ],\n      \"description\": \"抠图显示的沙拉盘照片，包含绿色蔬菜、肉丝和黄瓜片。盘子周围有一圈白色虚线边框，模拟餐垫效果。\"\n    },\n    {\n      \"id\": \"photo_skewers_cutout\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        475,\n        365,\n        725,\n        475\n      ],\n      \"description\": \"抠图显示的烤肉串照片，黑色圆盘上摆放着五串烤肉。盘子周围有一圈白色虚线边框。\"\n    },\n    {\n      \"id\": \"overlay_utensils\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        745,\n        385,\n        900,\n      465\n      ],\n      \"description\": \"右侧的白色手绘线条图案，描绘了叉子和餐刀，周围点缀着星星符号，直接绘制在牛皮纸底板上。\"\n    },\n    {\n      \"id\": \"photo_fried_rice_cutout\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        250,\n        505,\n        465,\n        605\n      ],\n      \"description\": \"抠图显示的炒饭照片，盛在黑色碗中，顶部有海苔碎。碗周围有一圈白色虚线边框。\"\n    },\n    {\n      \"id\": \"photo_hotpot_cutout\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        535,\n        500,\n        765,\n        610\n      ],\n      \"description\": \"抠图显示的芝士年糕火锅照片，铜锅盛装。锅体下方绘有简易的黑色线条支架，整体被白色虚线包围。\"\n    },\n    {\n      \"id\": \"text_caption\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        100,\n        620,\n        830,\n        660\n      ],\n      \"text\": \"一起吃饭 | 普通日子里的小浪漫\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_fish\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        780,\n        600,\n        960,\n        645\n      ],\n      \"description\": \"右下角的白色手绘小鱼图案，共两条，作为装饰元素。\"\n    },\n    {\n      \"id\": \"photo_bottom\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        0,\n        672,\n        1000,\n        1000\n      ],\n      \"description\": \"下方横向摄影照片，展示一名男子在餐厅用餐的场景。他身穿浅蓝色T恤，手持筷子和饮料，面前同样摆满了火锅、炒饭等食物。画面左下角有一只手拿着汤勺伸向镜头。\"\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top\",\n    \"overlay_paper_mid\",\n    \"photo_bottom\",\n    \"text_loading\",\n    \"overlay_stickers\",\n    \"photo_salad_cutout\",\n    \"photo_skewers_cutout\",\n    \"overlay_utensils\",\n    \"photo_fried_rice_cutout\",\n    \"photo_hotpot_cutout\",\n    \"text_caption\",\n    \"overlay_fish\"\n  ]\n}",
+  "tool_calls": false
+}

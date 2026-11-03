@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    867,
+    1540
+  ],
+  "objects": [
+    {
+      "id": "background_surface",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        867,
+        1540
+      ],
+      "description": "连续的暖灰褐色底面带有由上方较浅向下方较深的渐变，沿画布四边及三张照片之间持续可见；照片和装饰为独立单元，清除后保留此底面。",
+      "background_type": "reference_clean",
+      "label": "连续的暖灰褐色底面带有由上方较浅向下方较深的渐变，沿画布四边",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        136,
+        146,
+        731,
+        542
+      ],
+      "description": "上方横向照片中，一只手在画面左上方托举巨大的蝴蝶结状烘焙食品，短发女性位于下方中央，正低头饮杯中饮品；人物为近景，后方可见白色瓷砖墙和部分文字。整张矩形照片保留摄影环境，边缘无独立框体。",
+      "label": "上方横向照片中，一只手在画面左上方托举巨大的蝴蝶结状烘焙食品",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        143,
+        571,
+        731,
+        968
+      ],
+      "description": "中间横向室内照片中，短发女性坐在餐厅中央，穿白色无袖荷叶边上衣并以手掩面微笑；周围可见桌椅、墙面装饰和其他顾客。保留完整矩形摄影画面，局部被叠加的贴纸和星形装饰遮挡。",
+      "label": "中间横向室内照片中，短发女性坐在餐厅中央，穿白色无袖荷叶边上",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        138,
+        1000,
+        732,
+        1400
+      ],
+      "description": "下方横向近景照片中，短发女性正面微笑，手持一片靠近镜头的金黄色镂空食物，食物在画面左侧前景显得较大；人物穿白色荷叶边上衣，背景可见室内柜台和墙面。保留完整矩形摄影环境。",
+      "label": "下方横向近景照片中，短发女性正面微笑，手持一片靠近镜头的金黄",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        91,
+        251,
+        184
+      ],
+      "description": "左上方覆在底色与上方照片边缘的白色长方形纸胶带，印有不规则黑色圆点，完整纸片作为一件固定装饰保留。",
+      "label": "左上方覆在底色与上方照片边缘的白色长方形纸胶带，印有不规则黑",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        130,
+        785,
+        258
+      ],
+      "description": "上方照片右上侧的白色手绘涂鸦，由两个小圆圈和一个较大的不规则圆形线团构成，跨在照片与底色交界处，作为完整装饰保留。",
+      "label": "上方照片右上侧的白色手绘涂鸦，由两个小圆圈和一个较大的不规则",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        213,
+        642,
+        251,
+        675
+      ],
+      "description": "中间照片左上区域的一枚白色实心五角星贴饰，独立叠在照片上。",
+      "label": "中间照片左上区域的一枚白色实心五角星贴饰，独立叠在照片上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        800,
+        209,
+        932
+      ],
+      "description": "中间照片左侧叠放的浅黄色方形便签，带粉色手绘猫脸与烟花状图案；橙色圆点压住左上角、蓝绿色圆点贴在右下角，三者作为一组贴纸设计整体保留。",
+      "label": "中间照片左侧叠放的浅黄色方形便签，带粉色手绘猫脸与烟花状图案",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        229,
+        901,
+        265,
+        936
+      ],
+      "description": "中间照片左下侧的一枚白色实心五角星贴饰，独立叠在照片上。",
+      "label": "中间照片左下侧的一枚白色实心五角星贴饰，独立叠在照片上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        535,
+        835,
+        632,
+        884
+      ],
+      "description": "中间照片右侧人物手臂与椅背附近的一组白色闪光装饰，包含十字形光芒、空心星形、小星点和加号，作为一组手绘贴饰保留。",
+      "label": "中间照片右侧人物手臂与椅背附近的一组白色闪光装饰，包含十字形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_title",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        1435,
+        761,
+        1467
+      ],
+      "description": "画布下方的白色装饰性字样“Breath Frequency”，采用斜体衬线手写风格，并伴有星形和小符号点缀；字形与附属装饰共同构成艺术字单元，整体保留。",
+      "label": "画布下方的白色装饰性字样“Breath Frequency”",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_surface",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_tape",
+    "overlay_doodle",
+    "overlay_star_left_upper",
+    "overlay_note",
+    "overlay_star_left_lower",
+    "overlay_sparkles",
+    "overlay_bottom_title"
+  ]
+}

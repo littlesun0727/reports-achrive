@@ -1,0 +1,207 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        900,
+        399
+      ],
+      "description": "顶部照片，人物戴白色帽子，身穿白色上衣，背景为咖啡店环境，包含咖啡机和植物。",
+      "label": "顶部照片，人物戴白色帽子，身穿白色上衣，背景为咖啡店环境，包",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        0,
+        399,
+        900,
+        799
+      ],
+      "description": "中间照片，人物坐在餐厅内，背景有菜单和食物海报，前景有英文励志文字叠加。",
+      "label": "中间照片，人物坐在餐厅内，背景有菜单和食物海报，前景有英文励",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        0,
+        799,
+        900,
+        1198
+      ],
+      "description": "底部照片，人物戴白色帽子，手托下巴，背景为咖啡店环境，包含咖啡机和植物。",
+      "label": "底部照片，人物戴白色帽子，手托下巴，背景为咖啡店环境，包含咖",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        135,
+        575,
+        765,
+        623
+      ],
+      "description": "THE SUCCESS TURNS ON OUR EFFORT.\nOUR EFFORTS WERE DIRECTED TOWARDS THE ACCOMPLISHMENT OF THE WORK.\nEXERT ONESELF TO ACCOMPLISH ONE'S ASSIGNMENT.",
+      "label": "THE SUCCESS TURNS ON OUR EFFOR",
+      "method": "local",
+      "text": "THE SUCCESS TURNS ON OUR EFFORT.\nOUR EFFORTS WERE DIRECTED TOWARDS THE ACCOMPLISHMENT OF THE WORK.\nEXERT ONESELF TO ACCOMPLISH ONE'S ASSIGNMENT.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        264,
+        108,
+        300
+      ],
+      "description": "左上角的白色五角星装饰。",
+      "label": "左上角的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        671,
+        108,
+        707
+      ],
+      "description": "左下角的白色五角星装饰。",
+      "label": "左下角的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        1054,
+        108,
+        1090
+      ],
+      "description": "右下角的白色五角星装饰。",
+      "label": "右下角的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        48,
+        828,
+        120
+      ],
+      "description": "右上角的白色五角星装饰。",
+      "label": "右上角的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        671,
+        828,
+        707
+      ],
+      "description": "中间右侧的白色五角星装饰。",
+      "label": "中间右侧的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        1054,
+        828,
+        1090
+      ],
+      "description": "底部右侧的白色五角星装饰。",
+      "label": "底部右侧的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_7",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        335,
+        846,
+        371
+      ],
+      "description": "中间右侧的小白色五角星装饰。",
+      "label": "中间右侧的小白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_8",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        407,
+        45,
+        443
+      ],
+      "description": "左侧的红色韩文装饰文字。",
+      "label": "左侧的红色韩文装饰文字。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "text_1",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "overlay_7",
+    "overlay_8"
+  ]
+}

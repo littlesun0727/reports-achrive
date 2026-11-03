@@ -1,0 +1,132 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "粉色底面带有白色波点图案，顶部有黑色蕾丝花边装饰，作为固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        56,
+        145,
+        696,
+        510
+      ],
+      "description": "上方照片窗口，展示一位佩戴项链和耳机的年轻女性，照片边缘有黑色波点边框和白色珍珠装饰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        300,
+        560,
+        920,
+        910
+      ],
+      "description": "下方照片窗口，展示一位手指轻触嘴唇的年轻女性，照片边缘有黑色波点边框和白色珍珠装饰。"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        56,
+        145,
+        696,
+        510
+      ],
+      "description": "承载上方照片的拍立得式相框，黑色边框带有白色波点图案，位于照片下方。",
+      "photo_id": [
+        "photo_1"
+      ]
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        300,
+        560,
+        920,
+        910
+      ],
+      "description": "承载下方照片的拍立得式相框，黑色边框带有白色波点图案，位于照片下方。",
+      "photo_id": [
+        "photo_2"
+      ]
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        370,
+        250,
+        520
+      ],
+      "description": "左侧白色毛绒小熊贴纸，系有蓝色蝴蝶结，位于上方照片左下方。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        490,
+        980,
+        670
+      ],
+      "description": "右侧白色毛绒小熊贴纸，系有粉色蝴蝶结，位于下方照片右上方。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        830,
+        540,
+        950
+      ],
+      "description": "下方照片左下角的白色天使翅膀装饰。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        540,
+        700,
+        630
+      ],
+      "description": "下方照片上方的粉色蝴蝶结装饰。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        170,
+        640,
+        430,
+        720
+      ],
+      "text": "I am a princess\nBut you're not my prince",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_1",
+    "photo_1",
+    "frame_2",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1"
+  ]
+}

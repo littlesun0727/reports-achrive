@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-ffd6bb3a-416a-9491-b85c-210fec48d68b",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7283,
+    "total_tokens": 7842,
+    "completion_tokens": 559,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1402,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 559
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"bg_dots\",\n    \"description\": \"黄色底图，带有均匀分布的深棕色圆点图案。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"photo_top\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        95,\n        18,\n        884,\n        316\n      ],\n      \"description\": \"上方照片，展示放在白色盘子里的轻松熊咖喱饭，旁边有黑色碗和筷子套。\"\n    },\n    {\n      \"id\": \"overlay_pudding\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        37,\n        26,\n        217,\n        105\n      ],\n      \"description\": \"左上角布丁贴纸。\"\n    },\n    {\n      \"id\": \"overlay_toast\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        803,\n        37,\n        959,\n        131\n      ],\n      \"description\": \"右上角吐司贴纸。\"\n    },\n    {\n      \"id\": \"photo_mid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        95,\n        341,\n        897,\n        639\n      ],\n      \"description\": \"中间照片，展示放在白色盘子里的轻松熊蛋包饭，周围有饮料和甜点。\"\n    },\n    {\n      \"id\": \"text_mua\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        18,\n        438,\n        273,\n        510\n      ],\n      \"text\": \"MUA~\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"left\",\n      \"bold\": true,\n      \"italic\": false,\n      \"description\": \"左侧艺术字贴纸“MUA~”，棕色描边。\"\n    },\n    {\n      \"id\": \"text_bonus\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        592,\n        553,\n        897,\n      \"text\"   ]\n    }\n  ]\n}",
+  "tool_calls": false
+}

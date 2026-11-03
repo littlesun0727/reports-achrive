@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-117465ae-769d-937a-bc37-748a71c267cf",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6471,
+    "total_tokens": 7477,
+    "completion_tokens": 1006,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 590,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1006
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的摄影底图，画面为深绿色的模糊树林或灌木丛背景，带有斑驳的光影效果。该底图延伸至画布四边，承载所有前景元素。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star_top_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        20,\n        58,\n        93,\n        146\n      ],\n      \"description\": \"位于左上角的白色四角星装饰图案。\"\n    },\n    {\n      \"id\": \"text_angel_energy\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        70,\n        186,\n        480,\n        290\n      ],\n      \"text\": \"Angel Energy\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": true\n    },\n    {\n      \"id\": \"frame_photo_left\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        75,\n        350,\n        515,\n        820\n      ],\n      \"description\": \"左侧拍立得相纸的白色边框，呈逆时针倾斜状，包裹着内部照片。\",\n      \"photo_id\": [\n        \"photo_left\"\n      ]\n    },\n    {\n      \"id\": \"photo_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        160,\n        380,\n        485,\n        770\n      ],\n      \"description\": \"左侧照片内容：一位金发人物坐在车内，身穿白衬衫，单手托腮直视镜头。\"\n    },\n    {\n      \"id\": \"frame_photo_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        495,\n        155,\n        945,\n        600\n      ],\n      \"description\": \"右侧拍立得相纸的白色边框，呈顺时针倾斜状，包裹着内部照片。\",\n      \"photo_id\": [\n        \"photo_right\"\n      ]\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        500,\n        180,\n        855,\n        565\n      ],\n      \"description\": \"右侧照片内容：同一位金发人物在车内侧身，手放在嘴边做呼喊状，背景可见车窗外的街道。\"\n    },\n    {\n      \"id\": \"overlay_lily\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        405,\n        520,\n        730,\n        955\n      ],\n      \"description\": \"一朵淡蓝色的百合花插画，位于画面下方中央，遮挡了部分相框和文字。\"\n    },\n    {\n      \"id\": \"text_a_fallen_angel\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        555,\n        505,\n        760,\n        680\n      ],\n      \"text\": \"a fallen angel\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"hand\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_stars_bottom_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        795,\n        740,\n        965,\n        985\n      ],\n      \"description\": \"右下角的三颗白色四角星装饰图案组合。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_star_top_left\",\n    \"text_angel_energy\",\n    \"frame_photo_left\",\n    \"photo_left\",\n    \"frame_photo_right\",\n    \"photo_right\",\n    \"text_a_fallen_angel\",\n    \"overlay_lily\",\n    \"overlay_stars_bottom_right\"\n  ]\n}",
+  "tool_calls": false
+}

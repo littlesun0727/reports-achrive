@@ -1,0 +1,282 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    2560
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        2560
+      ],
+      "description": "全画布摄影底图，展示远处山脉、天空和近处大片黄色油菜花田的连续场景。画面中人物与花田环境融为一体，作为整体背景承载所有前景元素。",
+      "background_type": "photo",
+      "label": "全画布摄影底图，展示远处山脉、天空和近处大片黄色油菜花田的连",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        43,
+        269,
+        605,
+        614
+      ],
+      "description": "你好\n春天",
+      "label": "你好\n春天",
+      "method": "local",
+      "text": "你好\n春天",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_spring_text",
+      "kind": "overlay",
+      "bbox": [
+        403,
+        448,
+        605,
+        538
+      ],
+      "description": "粉色手写体英文单词 \"spring\"，带有装饰性笔触，位于中文文字右侧。",
+      "label": "粉色手写体英文单词 \"spring\"，带有装饰性笔触，位于中",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_art_char",
+      "kind": "overlay",
+      "bbox": [
+        1080,
+        154,
+        1325,
+        410
+      ],
+      "description": "艺术化设计的汉字 \"春\"，由黄色笔画构成，周围环绕着绿色藤蔓、红色花朵和蝴蝶装饰。",
+      "label": "艺术化设计的汉字 \"春\"，由黄色笔画构成，周围环绕着绿色藤蔓",
+      "method": "extract"
+    },
+    {
+      "id": "photo_person_top",
+      "kind": "photo",
+      "bbox": [
+        331,
+        51,
+        1195,
+        794
+      ],
+      "description": "抠图人物主体，身穿绿色毛衣，背着黄色挎包，双手张开，背对镜头。边缘有白色柔光效果，去除了原始背景。",
+      "label": "抠图人物主体，身穿绿色毛衣，背着黄色挎包，双手张开，背对镜头",
+      "method": "local"
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        893,
+        742,
+        1310,
+        1050
+      ],
+      "description": "Sweet heart elves",
+      "label": "Sweet heart elves",
+      "method": "local",
+      "text": "Sweet heart elves",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "photo_person_mid",
+      "kind": "photo",
+      "bbox": [
+        331,
+        794,
+        1123,
+        1434
+      ],
+      "description": "抠图人物主体，身穿绿色毛衣和白色裙子，背着黄色挎包，双手张开，背对镜头。边缘有白色柔光效果，去除了原始背景。",
+      "label": "抠图人物主体，身穿绿色毛衣和白色裙子，背着黄色挎包，双手张开",
+      "method": "local"
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        86,
+        1408,
+        274,
+        1894
+      ],
+      "description": "万事顺遂\n不止春日",
+      "label": "万事顺遂\n不止春日",
+      "method": "local",
+      "text": "万事顺遂\n不止春日",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_blur_spot",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        1510,
+        216,
+        1664
+      ],
+      "description": "左侧文字后方的一个模糊橙红色圆形光斑装饰。",
+      "label": "左侧文字后方的一个模糊橙红色圆形光斑装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_left",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        1818,
+        288,
+        1894
+      ],
+      "description": "蓝色小蝴蝶贴纸，位于左侧文字右下方。",
+      "label": "蓝色小蝴蝶贴纸，位于左侧文字右下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_right",
+      "kind": "overlay",
+      "bbox": [
+        1008,
+        819,
+        1080,
+        896
+      ],
+      "description": "粉色小蝴蝶贴纸，位于中间人物头部右上方。",
+      "label": "粉色小蝴蝶贴纸，位于中间人物头部右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_mid",
+      "kind": "overlay",
+      "bbox": [
+        1152,
+        1536,
+        1210,
+        1613
+      ],
+      "description": "蓝色小蝴蝶贴纸，位于右侧文字附近。",
+      "label": "蓝色小蝴蝶贴纸，位于右侧文字附近。",
+      "method": "extract"
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        979,
+        1434,
+        1339,
+        1690
+      ],
+      "description": "浪漫\n春季",
+      "label": "浪漫\n春季",
+      "method": "local",
+      "text": "浪漫\n春季",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_green_spring",
+      "kind": "overlay",
+      "bbox": [
+        1181,
+        1510,
+        1354,
+        1664
+      ],
+      "description": "绿色手写体英文单词 \"spring\"，带有装饰线条，位于右侧文字旁。",
+      "label": "绿色手写体英文单词 \"spring\"，带有装饰线条，位于右侧",
+      "method": "extract"
+    },
+    {
+      "id": "photo_person_bottom",
+      "kind": "photo",
+      "bbox": [
+        446,
+        1408,
+        1080,
+        2534
+      ],
+      "description": "抠图人物主体，身穿绿色毛衣和白色短裙，手提黄色大包，侧身行走姿态。边缘有白色柔光效果，去除了原始背景。",
+      "label": "抠图人物主体，身穿绿色毛衣和白色短裙，手提黄色大包，侧身行走",
+      "method": "local"
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        1210,
+        2048,
+        1339,
+        2432
+      ],
+      "description": "春日物语",
+      "label": "春日物语",
+      "method": "local",
+      "text": "春日物语",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_blur_spot",
+    "text_1",
+    "overlay_spring_text",
+    "overlay_art_char",
+    "photo_person_top",
+    "text_2",
+    "photo_person_mid",
+    "overlay_butterfly_right",
+    "text_3",
+    "overlay_butterfly_left",
+    "text_4",
+    "overlay_green_spring",
+    "overlay_butterfly_mid",
+    "photo_person_bottom",
+    "text_5"
+  ]
+}

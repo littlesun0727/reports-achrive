@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        446,
+        806
+      ],
+      "description": "左侧竖向照片，展示一位戴灰色发带、穿黑色T恤的长发年轻女性手持波点手机壳自拍，背景为室内环境。",
+      "label": "左侧竖向照片，展示一位戴灰色发带、穿黑色T恤的长发年轻女性手",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_top",
+      "kind": "photo",
+      "bbox": [
+        451,
+        0,
+        900,
+        272
+      ],
+      "description": "右上横向照片，展示同一位女性戴灰色鸭舌帽的近景自拍，背景可见部分文字海报。",
+      "label": "右上横向照片，展示同一位女性戴灰色鸭舌帽的近景自拍，背景可见",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_mid",
+      "kind": "photo",
+      "bbox": [
+        451,
+        276,
+        900,
+        533
+      ],
+      "description": "右中横向照片，展示该女性坐在灰色水泥台阶上，身旁放有兔子造型背包，穿着灰色长袜和运动鞋。",
+      "label": "右中横向照片，展示该女性坐在灰色水泥台阶上，身旁放有兔子造型",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_bottom",
+      "kind": "photo",
+      "bbox": [
+        451,
+        537,
+        900,
+        806
+      ],
+      "description": "右下横向照片，俯拍视角展示放置在木地板上的黑色铆钉包、波点手机壳、饮品及杂志等静物。",
+      "label": "右下横向照片，俯拍视角展示放置在木地板上的黑色铆钉包、波点手",
+      "method": "local"
+    },
+    {
+      "id": "overlay_ui_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        446,
+        900
+      ],
+      "description": "左侧界面的UI覆盖层，包含左上角关闭按钮、右上角编辑图标列、底部“Add a caption”提示文字以及最下方的用户头像与功能按钮栏。",
+      "label": "左侧界面的UI覆盖层，包含左上角关闭按钮、右上角编辑图标列、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ui_right",
+      "kind": "overlay",
+      "bbox": [
+        451,
+        0,
+        900,
+        900
+      ],
+      "description": "右侧界面的UI覆盖层，包含左上角关闭按钮、右上角编辑图标列、底部“Add a caption”提示文字以及最下方的用户头像与功能按钮栏。",
+      "label": "右侧界面的UI覆盖层，包含左上角关闭按钮、右上角编辑图标列、",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right_top",
+    "photo_right_mid",
+    "photo_right_bottom",
+    "overlay_ui_left",
+    "overlay_ui_right"
+  ]
+}

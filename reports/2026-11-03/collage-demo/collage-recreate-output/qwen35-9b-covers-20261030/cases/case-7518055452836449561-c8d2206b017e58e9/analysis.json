@@ -1,0 +1,182 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        216,
+        198,
+        378,
+        414
+      ],
+      "description": "摩天轮照片，保留摄影环境，位于胶片框内。",
+      "label": "摩天轮照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        396,
+        198,
+        558,
+        414
+      ],
+      "description": "拱门海景照片，保留摄影环境，位于胶片框内。",
+      "label": "拱门海景照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        576,
+        198,
+        738,
+        414
+      ],
+      "description": "日落海滩照片，保留摄影环境，位于胶片框内。",
+      "label": "日落海滩照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        756,
+        198,
+        900,
+        414
+      ],
+      "description": "海岛礁石照片，保留摄影环境，位于胶片框内。",
+      "label": "海岛礁石照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        522,
+        162,
+        738
+      ],
+      "description": "手持镜子照映花朵照片，保留摄影环境，位于胶片框内。",
+      "label": "手持镜子照映花朵照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        180,
+        522,
+        342,
+        738
+      ],
+      "description": "海边日落与花丛照片，保留摄影环境，位于胶片框内。",
+      "label": "海边日落与花丛照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        360,
+        522,
+        522,
+        738
+      ],
+      "description": "溪流与远山照片，保留摄影环境，位于胶片框内。",
+      "label": "溪流与远山照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        540,
+        522,
+        702,
+        738
+      ],
+      "description": "手持柠檬片照片，保留摄影环境，位于胶片框内。",
+      "label": "手持柠檬片照片，保留摄影环境，位于胶片框内。",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        0,
+        162,
+        900,
+        432
+      ],
+      "description": "上排胶片框，包含四个照片窗口及左侧'CAMERA 200'标签，整体作为固定载体保留。",
+      "photo_id": [
+        "photo_1",
+        "photo_2",
+        "photo_3",
+        "photo_4"
+      ],
+      "label": "上排胶片框，包含四个照片窗口及左侧'CAMERA 200'标",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        0,
+        468,
+        900,
+        738
+      ],
+      "description": "下排胶片框，包含四个照片窗口及右侧空白区域，整体作为固定载体保留。",
+      "photo_id": [
+        "photo_5",
+        "photo_6",
+        "photo_7",
+        "photo_8"
+      ],
+      "label": "下排胶片框，包含四个照片窗口及右侧空白区域，整体作为固定载体",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_1",
+    "frame_2",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8"
+  ]
+}

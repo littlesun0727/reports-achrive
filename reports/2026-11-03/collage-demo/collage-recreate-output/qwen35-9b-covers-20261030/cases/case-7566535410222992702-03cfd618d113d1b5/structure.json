@@ -1,0 +1,233 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_pattern",
+    "description": "全画布固定底图，由白色背景和均匀分布的黑色小圆点图案组成。该图案作为设计元素贯穿整个画面，位于所有照片和装饰元素下方。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        510,
+        290,
+        940,
+        750
+      ],
+      "description": "右侧主要人物照片，人物穿着水手服，手持小卡片，背景为百叶窗。照片边缘清晰，无描边。"
+    },
+    {
+      "id": "photo_camera",
+      "kind": "photo",
+      "bbox": [
+        55,
+        385,
+        525,
+        660
+      ],
+      "description": "左侧相机取景器样式的照片窗口，内部显示人物手持小卡片的照片。窗口边缘有模拟相机参数的黑色边框和文字。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        740,
+        170,
+        940,
+        310
+      ],
+      "description": "右上角小照片，显示人物低头看手的特写。照片被黑色不规则形状框架包围。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        320,
+        750,
+        620,
+        880
+      ],
+      "description": "底部小照片，显示人物手持自拍杆的自拍视角。照片被黑色长方形框架包围。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        680,
+        100,
+        940,
+        320
+      ],
+      "description": "右上角黑色不规则形状相框，顶部有安全别针装饰，承载 photo_top。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        310,
+        740,
+        630,
+        885
+      ],
+      "description": "底部黑色长方形相框，顶部有黑色夹子装饰，承载 photo_bottom。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        240,
+        230,
+        580,
+        260
+      ],
+      "text": "사랑해 오늘도 내일도 앞으로도",
+      "color": "#000000",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        640,
+        810,
+        940,
+        840
+      ],
+      "text": "서울 날씨 어때, 잘지냈어 ^^",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "icon_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        260,
+        570,
+        310
+      ],
+      "description": "位于中间偏上的黑色回形针装饰图标。"
+    },
+    {
+      "id": "icon_star_1",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        340,
+        130,
+        410
+      ],
+      "description": "左侧黑色五角星装饰。"
+    },
+    {
+      "id": "icon_star_2",
+      "kind": "overlay",
+      "bbox": [
+        930,
+        650,
+        990,
+        700
+      ],
+      "description": "右侧黑色五角星装饰。"
+    },
+    {
+      "id": "icon_star_3",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        40,
+        60,
+        70
+      ],
+      "description": "左上角黑色五角星装饰。"
+    },
+    {
+      "id": "icon_star_4",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        680,
+        330,
+        720
+      ],
+      "description": "中间偏下黑色五角星装饰。"
+    },
+    {
+      "id": "icon_paw",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        680,
+        110,
+        730
+      ],
+      "description": "左下角黑色爪印装饰。"
+    },
+    {
+      "id": "icon_settings",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        780,
+        770,
+        810
+      ],
+      "description": "右下角黑色齿轮设置图标。"
+    },
+    {
+      "id": "icon_mouse",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        780,
+        820,
+        810
+      ],
+      "description": "右下角黑色鼠标指针图标。"
+    },
+    {
+      "id": "icon_hearts",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        770,
+        930,
+        820
+      ],
+      "description": "右下角黑色双心形图标。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_camera",
+    "photo_top",
+    "photo_bottom",
+    "frame_top",
+    "frame_bottom",
+    "text_top",
+    "text_bottom",
+    "icon_paperclip",
+    "icon_star_1",
+    "icon_star_2",
+    "icon_star_3",
+    "icon_star_4",
+    "icon_paw",
+    "icon_settings",
+    "icon_mouse",
+    "icon_hearts"
+  ]
+}

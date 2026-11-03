@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "连续的室内甜品店实景覆盖全画布：顶部天花板、深色墙面、发光店招、垂挂花饰、店内陈设与地面构成同一场景，画面边缘及中央照片周围均可见其连续性。中央甜品照片和右侧装饰图形遮住局部；店招及店内环境保留在底图中。",
+      "background_type": "photo",
+      "label": "连续的室内甜品店实景覆盖全画布：顶部天花板、深色墙面、发光店",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_chinese_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        194,
+        394,
+        338
+      ],
+      "description": "画面左上方白色手写中文短句及两侧浅蓝色引号，笔画具有不规则粉笔手绘造型；作为一个完整字形装饰保留，不拆分为普通文字。",
+      "label": "画面左上方白色手写中文短句及两侧浅蓝色引号，笔画具有不规则粉",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_oh",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        211,
+        940,
+        333
+      ],
+      "description": "上方偏右的白色空心手绘字样“OHH!!!”，包含字母、感叹号及其不规则描边，作为整体艺术字装饰保留。",
+      "label": "上方偏右的白色空心手绘字样“OHH!!!”，包含字母、感叹号",
+      "method": "extract"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        151,
+        590,
+        858,
+        1365
+      ],
+      "description": "中央前景甜品照片，完整组合包括盛有白色冰品的深色碗与蓝绿色圆盘、顶部粉色奶油和草莓，以及右侧伸入并拿着勺子的手；人物手部朝向甜品。照片主体沿组合轮廓显示，店内摄影环境不包含在此前景范围内，边缘与后方店铺实景形成明显分界。",
+      "label": "中央前景甜品照片，完整组合包括盛有白色冰品的深色碗与蓝绿色圆",
+      "method": "local"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        535,
+        601,
+        777
+      ],
+      "description": "围绕甜品上方和左侧分布的固定点缀组合，包括绿色、黄色、粉色星形及白色、浅蓝色圆点；成员共同构成一组装饰，部分位于甜品照片前方。",
+      "label": "围绕甜品上方和左侧分布的固定点缀组合，包括绿色、黄色、粉色星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_sign",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        708,
+        1080,
+        1441
+      ],
+      "description": "右侧竖向半透明粉色装饰牌，包含花朵、扇形与放射纹样、心形及多行中文短句，并带绿色和粉色横向文字条；整体作为固定图文装饰保留，覆盖右侧店铺实景并局部遮挡前景手部。",
+      "label": "右侧竖向半透明粉色装饰牌，包含花朵、扇形与放射纹样、心形及多",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_chinese_handwriting",
+    "overlay_oh",
+    "photo_dessert",
+    "overlay_sparkles",
+    "overlay_right_sign"
+  ]
+}

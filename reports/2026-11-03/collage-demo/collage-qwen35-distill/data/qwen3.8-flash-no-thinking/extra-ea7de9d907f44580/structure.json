@@ -1,0 +1,218 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画布摄影底图，展示远处山脉、天空和近处大片黄色油菜花田的连续场景。画面中人物与花田环境融为一体，作为整体背景承载所有前景元素。"
+  },
+  "objects": [
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        30,
+        105,
+        420,
+        240
+      ],
+      "text": "你好\n春天",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_spring_text",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        175,
+        420,
+        210
+      ],
+      "description": "粉色手写体英文单词 \"spring\"，带有装饰性笔触，位于中文文字右侧。"
+    },
+    {
+      "id": "overlay_art_char",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        60,
+        920,
+        160
+      ],
+      "description": "艺术化设计的汉字 \"春\"，由黄色笔画构成，周围环绕着绿色藤蔓、红色花朵和蝴蝶装饰。"
+    },
+    {
+      "id": "photo_person_top",
+      "kind": "photo",
+      "bbox": [
+        230,
+        20,
+        830,
+        310
+      ],
+      "description": "抠图人物主体，身穿绿色毛衣，背着黄色挎包，双手张开，背对镜头。边缘有白色柔光效果，去除了原始背景。"
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        620,
+        290,
+        910,
+        410
+      ],
+      "text": "Sweet heart elves",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "photo_person_mid",
+      "kind": "photo",
+      "bbox": [
+        230,
+        310,
+        780,
+        560
+      ],
+      "description": "抠图人物主体，身穿绿色毛衣和白色裙子，背着黄色挎包，双手张开，背对镜头。边缘有白色柔光效果，去除了原始背景。"
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        60,
+        550,
+        190,
+        740
+      ],
+      "text": "万事顺遂\n不止春日",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_blur_spot",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        590,
+        150,
+        650
+      ],
+      "description": "左侧文字后方的一个模糊橙红色圆形光斑装饰。"
+    },
+    {
+      "id": "overlay_butterfly_left",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        710,
+        200,
+        740
+      ],
+      "description": "蓝色小蝴蝶贴纸，位于左侧文字右下方。"
+    },
+    {
+      "id": "overlay_butterfly_right",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        320,
+        750,
+        350
+      ],
+      "description": "粉色小蝴蝶贴纸，位于中间人物头部右上方。"
+    },
+    {
+      "id": "overlay_butterfly_mid",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        600,
+        840,
+        630
+      ],
+      "description": "蓝色小蝴蝶贴纸，位于右侧文字附近。"
+    },
+    {
+      "id": "text_4",
+      "kind": "text",
+      "bbox": [
+        680,
+        560,
+        930,
+        660
+      ],
+      "text": "浪漫\n春季",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_green_spring",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        590,
+        940,
+        650
+      ],
+      "description": "绿色手写体英文单词 \"spring\"，带有装饰线条，位于右侧文字旁。"
+    },
+    {
+      "id": "photo_person_bottom",
+      "kind": "photo",
+      "bbox": [
+        310,
+        550,
+        750,
+        990
+      ],
+      "description": "抠图人物主体，身穿绿色毛衣和白色短裙，手提黄色大包，侧身行走姿态。边缘有白色柔光效果，去除了原始背景。"
+    },
+    {
+      "id": "text_5",
+      "kind": "text",
+      "bbox": [
+        840,
+        800,
+        930,
+        950
+      ],
+      "text": "春日物语",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_blur_spot",
+    "text_1",
+    "overlay_spring_text",
+    "overlay_art_char",
+    "photo_person_top",
+    "text_2",
+    "photo_person_mid",
+    "overlay_butterfly_right",
+    "text_3",
+    "overlay_butterfly_left",
+    "text_4",
+    "overlay_green_spring",
+    "overlay_butterfly_mid",
+    "photo_person_bottom",
+    "text_5"
+  ]
+}

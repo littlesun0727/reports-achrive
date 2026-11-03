@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "街道场景摄影底图，包含蓝天、电线、棕榈树、建筑、路面及远处车辆，边缘露出的场景连续延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        88,
+        136,
+        412,
+        432
+      ],
+      "description": "左上角矩形照片，人物站在街道旁，背景有棕榈树和建筑，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        588,
+        296,
+        944,
+        620
+      ],
+      "description": "右侧矩形照片，人物站在街道旁，背景有棕榈树和建筑，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        152,
+        600,
+        452,
+        880
+      ],
+      "description": "左下角矩形照片，展示多种海鲜和面条菜肴，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        100,
+        140,
+        180
+      ],
+      "description": "左上角白色胶带贴纸，形状不规则，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        840,
+        540,
+        900
+      ],
+      "description": "右下角白色胶带贴纸，形状不规则，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        220,
+        780,
+        300
+      ],
+      "description": "右侧白色夹子贴纸，形状为夹子，作为固定装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        540,
+        100,
+        920,
+        200
+      ],
+      "text": "Live the life\nyou've imagined.",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        580,
+        740,
+        860,
+        840
+      ],
+      "text": "OUR\nBELOVED\nSUMMER",
+      "color": "#000000",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "text_2"
+  ]
+}

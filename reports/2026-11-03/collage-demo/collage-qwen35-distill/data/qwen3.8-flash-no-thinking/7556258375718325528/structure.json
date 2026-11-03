@@ -1,0 +1,257 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的室内摄影底图，画面展示了摆满书籍的木质书架、右侧的吧台区域以及天花板上的长条灯管。人物与前景装饰遮挡了部分环境，但整体场景连续延伸至画布四边。"
+  },
+  "objects": [
+    {
+      "id": "text_plog",
+      "kind": "text",
+      "bbox": [
+        418,
+        32,
+        579,
+        90
+      ],
+      "text": "Plog",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        85,
+        283,
+        180
+      ],
+      "description": "左上角的一组手绘风格星星装饰，包含一颗黄色实心星和一颗蓝色空心星。"
+    },
+    {
+      "id": "overlay_spiral_top",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        135,
+        425,
+        175
+      ],
+      "description": "上方照片框左侧边缘附近的一个黑色手绘螺旋线装饰。"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        185,
+        845,
+        270
+      ],
+      "description": "右上角的一簇粉色手绘星星装饰。"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        155,
+        105,
+        850,
+        515
+      ],
+      "description": "位于上方的矩形照片窗口，显示一名戴眼镜的女子手持紫色玩偶面对镜头，背景为室内书架。"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        150,
+        100,
+        855,
+        520
+      ],
+      "description": "围绕上方照片的白色粗糙手绘边框，具有蜡笔质感。",
+      "photo_id": [
+        "photo_upper"
+      ]
+    },
+    {
+      "id": "overlay_dashes",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        450,
+        825,
+        555
+      ],
+      "description": "横跨在上下两张照片之间的一排白色粗短竖线，类似栅栏或缝合线的装饰图案。"
+    },
+    {
+      "id": "overlay_star_green",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        295,
+        350,
+        345
+      ],
+      "description": "位于上方照片左下侧的绿色小星星装饰。"
+    },
+    {
+      "id": "overlay_spiral_mid",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        275,
+        205,
+        325
+      ],
+      "description": "位于上方照片左侧的黑色螺旋线装饰。"
+    },
+    {
+      "id": "overlay_star_blue_right",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        515,
+        935,
+        605
+      ],
+      "description": "位于下方照片右上侧外部的蓝色空心星星装饰。"
+    },
+    {
+      "id": "overlay_spiral_large",
+      "kind": "overlay",
+      "bbox": [
+        725,
+        605,
+        830,
+        720
+      ],
+      "description": "位于下方照片右侧内部的大型黑色螺旋线装饰。"
+    },
+    {
+      "id": "overlay_stars_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        740,
+        125,
+        825
+      ],
+      "description": "左下角的粉色手绘星星装饰。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        150,
+        515,
+        850,
+        910
+      ],
+      "description": "位于下方的矩形照片窗口，显示同一名女子低头整理物品的侧面姿态，背景为书架。"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        145,
+        510,
+        855,
+        915
+      ],
+      "description": "围绕下方照片的白色粗糙手绘边框，与上方相框风格一致。",
+      "photo_id": [
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "overlay_swirl_tail",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        820,
+        940,
+        940
+      ],
+      "description": "右下角延伸出的白色手绘线条尾巴，连接着黄色星星。"
+    },
+    {
+      "id": "overlay_star_yellow_bottom",
+      "kind": "overlay",
+      "bbox": [
+        865,
+        865,
+        940,
+        925
+      ],
+      "description": "右下角的白色线条末端连接的黄色实心星星。"
+    },
+    {
+      "id": "overlay_star_purple_bottom",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        780,
+        810,
+        865
+      ],
+      "description": "下方照片内部的紫色空心星星装饰。"
+    },
+    {
+      "id": "overlay_star_blue_bottom",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        795,
+        620,
+        885
+      ],
+      "description": "下方照片内部偏右的蓝色手绘星星装饰。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        110,
+        845,
+        560,
+        965
+      ],
+      "text": "My time is now\nI live in the present\nand embrace\nmy beautiful life",
+      "color": "#2E5C8A",
+      "font": "hand",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "frame_upper",
+    "photo_lower",
+    "frame_lower",
+    "overlay_dashes",
+    "text_plog",
+    "overlay_stars_left",
+    "overlay_spiral_top",
+    "overlay_stars_right",
+    "overlay_star_green",
+    "overlay_spiral_mid",
+    "overlay_star_blue_right",
+    "overlay_spiral_large",
+    "overlay_stars_bottom_left",
+    "overlay_swirl_tail",
+    "overlay_star_yellow_bottom",
+    "overlay_star_purple_bottom",
+    "overlay_star_blue_bottom",
+    "text_quote"
+  ]
+}

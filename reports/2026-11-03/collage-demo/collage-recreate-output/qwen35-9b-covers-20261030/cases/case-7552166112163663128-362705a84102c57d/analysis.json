@@ -1,0 +1,137 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFF5F8"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        261,
+        144,
+        882,
+        504
+      ],
+      "description": "樱花树与建筑屋檐的摄影画面，保留摄影环境，四边清晰。",
+      "label": "樱花树与建筑屋檐的摄影画面，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        36,
+        456,
+        378,
+        816
+      ],
+      "description": "草莓蛋糕与白色托盘的摄影画面，保留摄影环境，四边清晰。",
+      "label": "草莓蛋糕与白色托盘的摄影画面，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        432,
+        744,
+        882,
+        1176
+      ],
+      "description": "长发女性与室内环境的摄影画面，保留摄影环境，四边清晰。",
+      "label": "长发女性与室内环境的摄影画面，保留摄影环境，四边清晰。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        48,
+        252,
+        408
+      ],
+      "description": "粉色糖果、白色猫咪玩偶及上方标签贴纸，作为独立装饰保留。",
+      "label": "粉色糖果、白色猫咪玩偶及上方标签贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        504,
+        882,
+        744
+      ],
+      "description": "粉色咖啡杯与标签贴纸，作为独立装饰保留。",
+      "label": "粉色咖啡杯与标签贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        840,
+        378,
+        1176
+      ],
+      "description": "带有韩文内容的便签纸与回形针，作为独立装饰保留。",
+      "label": "带有韩文内容的便签纸与回形针，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        468,
+        528,
+        846,
+        720
+      ],
+      "description": "우린서로기있어\n나는 오늘의슈퍼스타",
+      "label": "우린서로기있어\n나는 오늘의슈퍼스타",
+      "method": "local",
+      "text": "우린서로기있어\n나는 오늘의슈퍼스타",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1"
+  ]
+}

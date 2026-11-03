@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-2bb9216a-8707-90cd-9c70-876751769409",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 7820,
+    "completion_tokens": 873,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 873
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\"layer_order\": [\"photo_base\", \"photo_nails\", \"text_handwritten_1\", \"overlay_spiral_left\", \"photo_girl_bread\", \"overlay_stars\", \"photo_candy\", \"photo_mirror\", \"text_handwritten_2\", \"overlay_doodles_bottom\"], \"objects\": [{\"bbox\": [420, 98, 706, 385], \"description\": \"一张展示手部美甲特写的照片，画面中一只手穿着蓝色毛衣袖子，指甲上有橙色和亮片装饰。该照片位于全画布底图之上，遮挡了部分背景街道场景。\", \"id\": \"photo_nails\", \"kind\": \"photo\"}, {\"bbox\": [95, 385, 465, 715], \"description\": \"一张年轻女性手持吐司面包的照片，她抬头看向右上方，身穿白色上衣，背景为蓝天和树木。该照片位于全画布底图之上，遮挡了部分背景建筑。\", \"id\": \"photo_girl_bread\", \"kind\": \"photo\"}, {\"bbox\": [385, 588, 925, 890], \"description\": \"一张室内镜前自拍照，人物戴帽子穿条纹裙，手持手机对镜拍摄。照片本身带有木质边框结构，整体作为一个矩形单元叠加在底图上，遮挡了底图的街道地面。\", \"id\": \"photo_mirror\", \"kind\": \"photo\"}, {\"bbox\": [655, 430, 835, 600], \"description\": \"一张展示HARIBO彩虹糖包装袋的照片，右上角有一只手正在打开袋子。该照片作为独立元素叠加在底图之上，周围有星星装饰。\", \"id\": \"photo_candy\", \"kind\": \"photo\"}, {\"bbox\": [255, 335, 535, 355], \"description\": \"黄色手写风格英文文字“pixel butter flies”，位于美甲照片下方与女孩照片上方的交界处，作为装饰性排版元素。\", \"color\": \"#FFFF00\", \"font\": \"hand\", \"id\": \"text_handwritten_1\", \"kind\": \"text\", \"text\": \"pixel butter flies\", \"align\": \"left\", \"bold\": false, \"italic\": false}, {\"bbox\": [635, 280, 935, 325], \"description\": \"浅蓝色手写风格中文及符号“# 生日de选择题”，位于美甲照片右侧，具有涂鸦质感。\", \"color\": \"#ADD8E6\", \"font\": \"cjk-hand\", \"id\": \"text_handwritten_2\", \"kind\": \"text\", \"text\": \"# 生日de选择题\", \"align\": \"left\", \"bold\": false, \"italic\": false}, {\"bbox\": [35, 310, 155, 405], \"description\": \"左侧的一个青色手绘螺旋线圈图案，线条简单，作为装饰元素。\", \"id\": \"overlay_spiral_left\", \"kind\": \"overlay\"}, {\"bbox\": [505, 395, 695, 540], \"description\": \"一组彩色手绘星星图案（橙色、粉色、蓝色），位于糖果照片左侧，作为装饰元素。\", \"id\": \"overlay_stars\", \"kind\": \"overlay\"}, {\"bbox\": [105, 710, 395, 740], \"description\": \"女孩照片底部的一排白色手绘涂鸦符号，包含加号、花朵、螺旋等形状，作为装饰元素。\", \"id\": \"overlay_doodles_bottom\", \"kind\": \"overlay\"}], \"background\": {\"type\": \"photographic\", \"id\": \"photo_base\", \"description\": \"一张连续的日本街头摄影底图，展示了带有红色招牌的店铺外观、遮阳棚结构以及铺砖路面。画面主体环境完整延伸至画布四边，上层拼贴的多张照片遮挡了局部街道细节，但底图本身承载了完整的场景氛围。\"}}",
+  "tool_calls": false
+}

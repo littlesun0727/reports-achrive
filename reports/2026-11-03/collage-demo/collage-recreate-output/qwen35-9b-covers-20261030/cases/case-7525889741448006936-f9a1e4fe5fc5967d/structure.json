@@ -1,0 +1,124 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一位年轻女性在面包店内，手持姜饼人饼干和波点包，背景可见陈列柜、面包和店内环境。画面边缘露出的场景连续延伸至画布四边，上层贴纸和对话框遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        50,
+        50,
+        380,
+        450
+      ],
+      "description": "左上角椭圆形裁剪照片，显示同一位女性手持咖啡杯，保留摄影环境，边缘有白色虚线描边。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        320,
+        180,
+        480
+      ],
+      "description": "蓝色卡通形象贴纸，位于照片下方，独立装饰单元。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        400,
+        850,
+        480
+      ],
+      "description": "两个小猫咪贴纸，位于右侧面包柜上方，独立装饰单元。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        280,
+        850,
+        350
+      ],
+      "description": "面包柜上的标签贴纸，包含韩文文字，独立装饰单元。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        320,
+        50,
+        500,
+        100
+      ],
+      "text": "Blog is my life . .",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        200,
+        800,
+        450,
+        900
+      ],
+      "text": "뭔가가 그리워지는데.",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        800,
+        420,
+        950,
+        480
+      ],
+      "text": "역시 근데? 좋아하면",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "description": "散布在画面中的星星和心形装饰贴纸，包括白色五角星、黑色五角星和白色心形，作为独立装饰单元。"
+    }
+  ],
+  "layer_order": [
+    "photo_inset",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1",
+    "text_2",
+    "text_3",
+    "overlay_4"
+  ]
+}

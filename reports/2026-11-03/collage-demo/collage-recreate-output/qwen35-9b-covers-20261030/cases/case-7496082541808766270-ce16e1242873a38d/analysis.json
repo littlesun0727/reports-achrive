@@ -1,0 +1,92 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "bg_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "全画布固定底图，为带有彩色圆点、彩带和虚线边框的生日主题背景板。背景板上的文字“Happy Birthday”为固定设计，不属于可替换的摄影内容。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，为带有彩色圆点、彩带和虚线边框的生日主题背景",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        52,
+        492,
+        342,
+        815
+      ],
+      "description": "心形窗口内的照片，展示一束粉色和黄色的花束，背景为室内环境。",
+      "label": "心形窗口内的照片，展示一束粉色和黄色的花束，背景为室内环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        405,
+        492,
+        828,
+        839
+      ],
+      "description": "矩形窗口内的照片，展示一位戴皇冠的女孩双手合十许愿，背景有蛋糕和蜡烛。",
+      "label": "矩形窗口内的照片，展示一位戴皇冠的女孩双手合十许愿，背景有蛋",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        52,
+        839,
+        468,
+        1175
+      ],
+      "description": "矩形窗口内的照片，展示一位穿粉色礼服的女孩手持气球，背景有蛋糕和蜡烛。",
+      "label": "矩形窗口内的照片，展示一位穿粉色礼服的女孩手持气球，背景有蛋",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        522,
+        935,
+        828,
+        1175
+      ],
+      "description": "Happy Birthday",
+      "label": "Happy Birthday",
+      "method": "local",
+      "text": "Happy Birthday",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg_pattern",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "text_1"
+  ]
+}

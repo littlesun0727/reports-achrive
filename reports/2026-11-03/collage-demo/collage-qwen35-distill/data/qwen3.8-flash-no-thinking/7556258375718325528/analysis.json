@@ -1,0 +1,317 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1199
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1199
+      ],
+      "description": "一张连续的室内摄影底图，画面展示了摆满书籍的木质书架、右侧的吧台区域以及天花板上的长条灯管。人物与前景装饰遮挡了部分环境，但整体场景连续延伸至画布四边。",
+      "background_type": "photo",
+      "label": "一张连续的室内摄影底图，画面展示了摆满书籍的木质书架、右侧的",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_plog",
+      "kind": "text",
+      "bbox": [
+        376,
+        38,
+        521,
+        108
+      ],
+      "description": "Plog",
+      "label": "Plog",
+      "method": "local",
+      "text": "Plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        102,
+        255,
+        216
+      ],
+      "description": "左上角的一组手绘风格星星装饰，包含一颗黄色实心星和一颗蓝色空心星。",
+      "label": "左上角的一组手绘风格星星装饰，包含一颗黄色实心星和一颗蓝色空",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_top",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        162,
+        382,
+        210
+      ],
+      "description": "上方照片框左侧边缘附近的一个黑色手绘螺旋线装饰。",
+      "label": "上方照片框左侧边缘附近的一个黑色手绘螺旋线装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        688,
+        222,
+        760,
+        324
+      ],
+      "description": "右上角的一簇粉色手绘星星装饰。",
+      "label": "右上角的一簇粉色手绘星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        140,
+        126,
+        765,
+        617
+      ],
+      "description": "位于上方的矩形照片窗口，显示一名戴眼镜的女子手持紫色玩偶面对镜头，背景为室内书架。",
+      "label": "位于上方的矩形照片窗口，显示一名戴眼镜的女子手持紫色玩偶面对",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        135,
+        120,
+        770,
+        623
+      ],
+      "description": "围绕上方照片的白色粗糙手绘边框，具有蜡笔质感。",
+      "photo_id": [
+        "photo_upper"
+      ],
+      "label": "围绕上方照片的白色粗糙手绘边框，具有蜡笔质感。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dashes",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        540,
+        742,
+        665
+      ],
+      "description": "横跨在上下两张照片之间的一排白色粗短竖线，类似栅栏或缝合线的装饰图案。",
+      "label": "横跨在上下两张照片之间的一排白色粗短竖线，类似栅栏或缝合线的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_green",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        354,
+        315,
+        414
+      ],
+      "description": "位于上方照片左下侧的绿色小星星装饰。",
+      "label": "位于上方照片左下侧的绿色小星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_mid",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        330,
+        184,
+        390
+      ],
+      "description": "位于上方照片左侧的黑色螺旋线装饰。",
+      "label": "位于上方照片左侧的黑色螺旋线装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_blue_right",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        617,
+        842,
+        725
+      ],
+      "description": "位于下方照片右上侧外部的蓝色空心星星装饰。",
+      "label": "位于下方照片右上侧外部的蓝色空心星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_large",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        725,
+        747,
+        863
+      ],
+      "description": "位于下方照片右侧内部的大型黑色螺旋线装饰。",
+      "label": "位于下方照片右侧内部的大型黑色螺旋线装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        887,
+        112,
+        989
+      ],
+      "description": "左下角的粉色手绘星星装饰。",
+      "label": "左下角的粉色手绘星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        135,
+        617,
+        765,
+        1091
+      ],
+      "description": "位于下方的矩形照片窗口，显示同一名女子低头整理物品的侧面姿态，背景为书架。",
+      "label": "位于下方的矩形照片窗口，显示同一名女子低头整理物品的侧面姿态",
+      "method": "local"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        130,
+        611,
+        770,
+        1097
+      ],
+      "description": "围绕下方照片的白色粗糙手绘边框，与上方相框风格一致。",
+      "photo_id": [
+        "photo_lower"
+      ],
+      "label": "围绕下方照片的白色粗糙手绘边框，与上方相框风格一致。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swirl_tail",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        983,
+        846,
+        1127
+      ],
+      "description": "右下角延伸出的白色手绘线条尾巴，连接着黄色星星。",
+      "label": "右下角延伸出的白色手绘线条尾巴，连接着黄色星星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_yellow_bottom",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        1037,
+        846,
+        1109
+      ],
+      "description": "右下角的白色线条末端连接的黄色实心星星。",
+      "label": "右下角的白色线条末端连接的黄色实心星星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_purple_bottom",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        935,
+        729,
+        1037
+      ],
+      "description": "下方照片内部的紫色空心星星装饰。",
+      "label": "下方照片内部的紫色空心星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_blue_bottom",
+      "kind": "overlay",
+      "bbox": [
+        495,
+        953,
+        558,
+        1061
+      ],
+      "description": "下方照片内部偏右的蓝色手绘星星装饰。",
+      "label": "下方照片内部偏右的蓝色手绘星星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        99,
+        1013,
+        504,
+        1157
+      ],
+      "description": "My time is now\nI live in the present\nand embrace\nmy beautiful life",
+      "label": "My time is now\nI live in the p",
+      "method": "local",
+      "text": "My time is now\nI live in the present\nand embrace\nmy beautiful life",
+      "text_status": "known",
+      "style": {
+        "fill": "#2E5C8A",
+        "font": "hand",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper",
+    "frame_upper",
+    "photo_lower",
+    "frame_lower",
+    "overlay_dashes",
+    "text_plog",
+    "overlay_stars_left",
+    "overlay_spiral_top",
+    "overlay_stars_right",
+    "overlay_star_green",
+    "overlay_spiral_mid",
+    "overlay_star_blue_right",
+    "overlay_spiral_large",
+    "overlay_stars_bottom_left",
+    "overlay_swirl_tail",
+    "overlay_star_yellow_bottom",
+    "overlay_star_purple_bottom",
+    "overlay_star_blue_bottom",
+    "text_quote"
+  ]
+}

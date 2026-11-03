@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "室内自拍场景，人物蹲姿，手持手机，背景为书桌、柜子及杂物。摄影环境连续延伸至画布四边，上层贴纸和照片遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "室内自拍场景，人物蹲姿，手持手机，背景为书桌、柜子及杂物。摄",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "散布在画布上的黄色五角星贴纸，部分带有白色描边和内部网格纹理，作为装饰元素覆盖在摄影底图之上。",
+      "label": "散布在画布上的黄色五角星贴纸，部分带有白色描边和内部网格纹理",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_1",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        180,
+        810,
+        300
+      ],
+      "description": "右上角的对话气泡贴纸，浅蓝色背景，内有韩文文字，边缘圆润，覆盖在背景之上。",
+      "label": "右上角的对话气泡贴纸，浅蓝色背景，内有韩文文字，边缘圆润，覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_2",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        936,
+        900,
+        1080
+      ],
+      "description": "右下角的对话气泡贴纸，白色背景，内有韩文文字，边缘圆润，覆盖在背景之上。",
+      "label": "右下角的对话气泡贴纸，白色背景，内有韩文文字，边缘圆润，覆盖",
+      "method": "extract"
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        432,
+        720,
+        648,
+        888
+      ],
+      "description": "中间偏右的小尺寸照片窗口，展示人物面部特写，保留摄影环境，窗口边缘有白色虚线描边。",
+      "label": "中间偏右的小尺寸照片窗口，展示人物面部特写，保留摄影环境，窗",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        612,
+        816,
+        828,
+        1104
+      ],
+      "description": "右下角的小尺寸照片窗口，展示人物蹲姿自拍，保留摄影环境，窗口边缘有白色虚线描边。",
+      "label": "右下角的小尺寸照片窗口，展示人物蹲姿自拍，保留摄影环境，窗口",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars",
+    "overlay_bubble_1",
+    "photo_1",
+    "photo_2",
+    "overlay_bubble_2"
+  ]
+}

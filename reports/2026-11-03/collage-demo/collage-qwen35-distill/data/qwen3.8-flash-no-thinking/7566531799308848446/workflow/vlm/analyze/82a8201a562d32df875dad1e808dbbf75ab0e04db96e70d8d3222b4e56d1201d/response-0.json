@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-ac64ca4f-c818-9237-81e8-0135e1694855",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 6947,
+    "total_tokens": 8005,
+    "completion_tokens": 1058,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1066,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1058
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"reference_clean\",\n    \"id\": \"paper_base\",\n    \"description\": \"连续的浅灰白色纹理纸底，带有细微的颗粒质感和散落的灰色星星、圆点图案。所有独立对象均位于此底图之上，底图本身作为固定背景保留。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        107,\n        258,\n        234,\n        336\n      ],\n      \"description\": \"左上角的一枚灰色手绘风格五角星装饰，部分被下方的窗口遮挡。\"\n    },\n    {\n      \"id\": \"text_shine\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        609,\n        258,\n        963,\n        281\n      ],\n      \"text\": \"★ shine cute beautiful ~\",\n      \"color\": \"#000000\",\n      \"font\": \"mono\",\n      \"align\": \"left\",\n      \"bold\": false,\n      \"italic\": false\n    },\n    {\n      \"id\": \"frame_window\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        146,\n        296,\n        884,\n        722\n      ],\n      \"description\": \"一个模拟电脑操作系统的“Open”文件选择窗口，包含标题栏、侧边栏（Files, Calendar等）、路径栏和底部按钮（Cancel, Open）。窗口内部有一个矩形照片显示区域。\",\n      \"photo_id\": [\n        \"photo_main\"\n      ]\n    },\n    {\n      \"id\": \"photo_main\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        388,\n        426,\n        862,\n        672\n      ],\n      \"description\": \"位于窗口内的主照片，展示一位戴眼镜、穿米色羽绒服的年轻女性自拍近景，背景为深色条纹墙面。\"\n    },\n    {\n      \"id\": \"frame_polaroid\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        78,\n        626,\n        305,\n        843\n      ],\n      \"description\": \"左下角的一张拍立得相纸，边缘呈波浪形剪裁，带有白色边框。\",\n      \"photo_id\": [\n        \"photo_polaroid\"\n      ]\n    },\n    {\n      \"id\": \"photo_polaroid\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        100,\n        642,\n        289,\n        806\n      ],\n      \"description\": \"拍立得相纸内的照片，展示同一位女性在室内全身照，戴着猫耳帽子，穿着同样的米色羽绒服。\"\n    },\n    {\n      \"id\": \"text_happiness\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        333,\n        746,\n        515,\n        766\n      ],\n      \"text\": \"happiness! ♥\",\n      \"color\": \"#000000\",\n      \"font\": \"serif\",\n      \"align\": \"left\",\n      \"bold\": true,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_waveform\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        751,\n        731,\n        963,\n        783\n      ],\n      \"description\": \"右下角的一个音频波形条，包含播放三角形图标和声波线条，置于白色圆角矩形底上。\"\n    },\n    {\n      \"id\": \"overlay_stars_bottom\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        137,\n        852,\n        706,\n        952\n      ],\n      \"description\": \"底部散落的几颗灰色手绘风格星星装饰。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_star_left\",\n    \"text_shine\",\n    \"photo_main\",\n    \"frame_window\",\n    \"photo_polaroid\",\n    \"frame_polaroid\",\n    \"text_happiness\",\n    \"overlay_waveform\",\n    \"overlay_stars_bottom\"\n  ]\n}",
+  "tool_calls": false
+}

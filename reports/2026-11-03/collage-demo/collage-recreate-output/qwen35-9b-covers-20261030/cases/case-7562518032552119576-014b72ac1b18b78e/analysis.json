@@ -1,0 +1,207 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#5C3A28"
+      }
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        90,
+        120,
+        405,
+        576
+      ],
+      "description": "左上角照片，展示一位穿着校服的女孩背对镜头站在咖啡店门口，店内有木质货架和暖色灯光。",
+      "label": "左上角照片，展示一位穿着校服的女孩背对镜头站在咖啡店门口，店",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        495,
+        120,
+        810,
+        576
+      ],
+      "description": "右上角照片，俯拍视角，展示一张木桌上放着一个黑色手提包、一杯饮料和一部手机，旁边是穿着校服的女孩的腿和脚。",
+      "label": "右上角照片，俯拍视角，展示一张木桌上放着一个黑色手提包、一杯",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        90,
+        624,
+        405,
+        1080
+      ],
+      "description": "左下角照片，展示一位穿着校服的女孩站在咖啡店内的木质长凳旁，背景是货架和装饰。",
+      "label": "左下角照片，展示一位穿着校服的女孩站在咖啡店内的木质长凳旁，",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        495,
+        624,
+        810,
+        1080
+      ],
+      "description": "右下角照片，展示一位穿着校服的女孩坐在咖啡店内的木质长凳上，抬头看向一侧，背景是货架和装饰。",
+      "label": "右下角照片，展示一位穿着校服的女孩坐在咖啡店内的木质长凳上，",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        288,
+        456,
+        612,
+        792
+      ],
+      "description": "中心心形照片，展示一张木桌上放着一杯饮料、一个蓝色小册子和两张卡片，心形边缘有红色描边。",
+      "label": "中心心形照片，展示一张木桌上放着一杯饮料、一个蓝色小册子和两",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        96,
+        225,
+        180
+      ],
+      "description": "左上角的蓝色鱼形贴纸，带有星星和气泡装饰。",
+      "label": "左上角的蓝色鱼形贴纸，带有星星和气泡装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        72,
+        522,
+        168
+      ],
+      "description": "右上角的五角星贴纸。",
+      "label": "右上角的五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        792,
+        96,
+        855,
+        180
+      ],
+      "description": "右上角的黄色太阳形贴纸。",
+      "label": "右上角的黄色太阳形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        540,
+        855,
+        636
+      ],
+      "description": "右侧的猫脸贴纸。",
+      "label": "右侧的猫脸贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        984,
+        540,
+        1104
+      ],
+      "description": "底部的蝴蝶结贴纸。",
+      "label": "底部的蝴蝶结贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_6",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        1008,
+        162,
+        1068
+      ],
+      "description": "左下角的小房子贴纸。",
+      "label": "左下角的小房子贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        18,
+        576,
+        270,
+        612
+      ],
+      "description": "See you next time /// ♪",
+      "label": "See you next time /// ♪",
+      "method": "local",
+      "text": "See you next time /// ♪",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "overlay_6",
+    "text_1"
+  ]
+}

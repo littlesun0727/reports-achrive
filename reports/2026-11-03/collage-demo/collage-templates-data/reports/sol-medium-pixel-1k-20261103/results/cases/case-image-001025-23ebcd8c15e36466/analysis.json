@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "backdrop",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "画布四周可见连续的棕褐色渐变底色，上方较浅、下方较深；中央矩形照片与顶部贴纸遮挡局部，保留其余完整底图。",
+      "background_type": "reference_clean",
+      "label": "画布四周可见连续的棕褐色渐变底色，上方较浅、下方较深；中央矩",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_doorway",
+      "kind": "photo",
+      "bbox": [
+        105,
+        137,
+        985,
+        1313
+      ],
+      "description": "竖向矩形室内照片，一名女子全身站在门边，身体侧向、回头看向镜头，穿浅色短袖上衣、格纹短裙和长靴；门、墙面及地面共同属于摄影环境，完整保留。照片上缘被顶部贴纸局部遮挡。",
+      "label": "竖向矩形室内照片，一名女子全身站在门边，身体侧向、回头看向镜",
+      "method": "local"
+    },
+    {
+      "id": "overlay_label",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        71,
+        682,
+        203
+      ],
+      "description": "白色不规则花边标签，带柔和阴影、细小装饰点和红色手写法文“L'amour qui respire / bonheur pur”，顶部有红色蝴蝶结线稿；作为一个完整固定贴纸保留，叠在照片上缘并部分覆盖照片。",
+      "label": "白色不规则花边标签，带柔和阴影、细小装饰点和红色手写法文“L",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "backdrop",
+    "photo_doorway",
+    "overlay_label"
+  ]
+}

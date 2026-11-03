@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1320,
+    1767
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1320,
+        1767
+      ],
+      "description": "灰蓝色天空与云层构成连续摄影底图，延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "灰蓝色天空与云层构成连续摄影底图，延伸至画布四边；上层照片、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        66,
+        177,
+        370,
+        459
+      ],
+      "description": "左上角矩形照片窗口，展示夕阳下的街道与棕榈树，保留摄影环境，窗口边缘为虚线描边。",
+      "label": "左上角矩形照片窗口，展示夕阳下的街道与棕榈树，保留摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        554,
+        88,
+        1254,
+        848
+      ],
+      "description": "右上角矩形照片窗口，展示黄昏街道与建筑剪影，保留摄影环境，窗口边缘为虚线描边。",
+      "label": "右上角矩形照片窗口，展示黄昏街道与建筑剪影，保留摄影环境，窗",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        66,
+        813,
+        660,
+        1679
+      ],
+      "description": "左下角矩形照片窗口，展示城市远景与建筑，保留摄影环境，窗口边缘为虚线描边。",
+      "label": "左下角矩形照片窗口，展示城市远景与建筑，保留摄影环境，窗口边",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        660,
+        813,
+        1320,
+        1767
+      ],
+      "description": "右下角矩形照片窗口，展示黄昏街道、人群与气球，保留摄影环境，窗口边缘为虚线描边。",
+      "label": "右下角矩形照片窗口，展示黄昏街道、人群与气球，保留摄影环境，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        858,
+        18,
+        1056,
+        177
+      ],
+      "description": "右上角白色虚线回形针贴纸，作为独立装饰保留。",
+      "label": "右上角白色虚线回形针贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        565,
+        502,
+        813
+      ],
+      "description": "左侧中部白色虚线爆炸形装饰贴纸，作为独立装饰保留。",
+      "label": "左侧中部白色虚线爆炸形装饰贴纸，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        66,
+        88,
+        528,
+        177
+      ],
+      "description": "Sunset sells tenderness,\nand the world is full of romance.",
+      "label": "Sunset sells tenderness,\nand t",
+      "method": "local",
+      "text": "Sunset sells tenderness,\nand the world is full of romance.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        1082,
+        1555,
+        1294,
+        1732
+      ],
+      "description": "此刻",
+      "label": "此刻",
+      "method": "local",
+      "text": "此刻",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "text_2"
+  ]
+}

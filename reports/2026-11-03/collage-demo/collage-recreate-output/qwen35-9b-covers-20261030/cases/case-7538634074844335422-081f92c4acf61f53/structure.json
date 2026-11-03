@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1000,
+        500
+      ],
+      "description": "上半部分人物面部特写，背景为户外街道，阳光照射。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        0,
+        500,
+        1000,
+        1000
+      ],
+      "description": "下半部分人物面部特写，背景为室内咖啡馆，人物佩戴发夹。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        60,
+        350,
+        220
+      ],
+      "description": "手绘风格气泡框，内含文字 Have a Good Day 及四叶草图案。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        380,
+        250,
+        480
+      ],
+      "description": "手绘风格蘑菇图案贴纸。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        480,
+        250,
+        600
+      ],
+      "description": "手写风格便签贴纸，包含韩文及英文文字。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        680,
+        1000,
+        800
+      ],
+      "description": "手绘风格小熊图案贴纸，包含三只小熊及星星装饰。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

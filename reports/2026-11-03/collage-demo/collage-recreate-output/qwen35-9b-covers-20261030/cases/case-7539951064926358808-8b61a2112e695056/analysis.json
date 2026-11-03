@@ -1,0 +1,106 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1132
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1132
+      ],
+      "description": "一张连续的摄影画面，展示了一个户外咖啡馆的场景。画面中可见木质栏杆、绿植、远处的建筑窗户和街道。左上角和左下角有绿植遮挡，右上角有建筑细节。整个场景作为底图，承载了所有独立对象。",
+      "background_type": "photo",
+      "label": "一张连续的摄影画面，展示了一个户外咖啡馆的场景。画面中可见木",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        61,
+        66,
+        504,
+        634
+      ],
+      "description": "一张矩形照片，展示了一位穿着白色无袖上衣的年轻女性，她坐在木质栏杆旁，双手交叠放在栏杆上，侧脸看向右侧。照片边缘有白色手绘风格的边框，边框外有星星和花朵装饰。",
+      "label": "一张矩形照片，展示了一位穿着白色无袖上衣的年轻女性，她坐在木",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        279,
+        657,
+        828,
+        1109
+      ],
+      "description": "一张矩形照片，展示了一张木质桌子上的物品。桌上有一杯热饮（可能是咖啡或奶茶），旁边放着一块蛋糕和一本打开的书。照片边缘有白色手绘风格的边框，边框外有星星装饰。",
+      "label": "一张矩形照片，展示了一张木质桌子上的物品。桌上有一杯热饮（可",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        430,
+        765,
+        657
+      ],
+      "description": "一个手绘风格的卡通熊图案，位于照片1的右侧，照片2的上方。熊戴着围巾，周围有星星和漩涡装饰。",
+      "label": "一个手绘风格的卡通熊图案，位于照片1的右侧，照片2的上方。熊",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        736,
+        225,
+        962
+      ],
+      "description": "一个手绘风格的标签，上面写着“NICE DAY”，下方有一个小猫图案。标签边缘有撕裂效果，位于照片2的左侧。",
+      "label": "一个手绘风格的标签，上面写着“NICE DAY”，下方有一个",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        90,
+        770,
+        180,
+        883
+      ],
+      "description": "NICE\nDAY",
+      "label": "NICE\nDAY",
+      "method": "local",
+      "text": "NICE\nDAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "text_1"
+  ]
+}

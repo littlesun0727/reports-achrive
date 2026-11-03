@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-3628b12d-4276-9f03-8204-ab3925ebfa03",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7923,
+    "total_tokens": 9141,
+    "completion_tokens": 1218,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 2042,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1218
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的舞台摄影底图，画面主体为一名戴灰色毛绒帽、穿灰色外套的歌手手持粉色麦克风演唱。背景可见蓝色LED屏幕和舞台灯光设备，摄影内容延伸至画布四边。上层叠加了多张独立照片及装饰元素，遮挡了部分底图区域。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"text_soft_clouds\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        428,\n        63,\n        925,\n        87\n      ],\n      \"text\": \"☆ 🐈 · ⁺♡! Soft clouds ☆+ ★\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"serif\",\n      \"align\": \"center\",\n      \"bold\": false,\n      \"italic\": true\n    },\n    {\n      \"id\": \"overlay_speech_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        730,\n        118,\n        930,\n        230\n      ],\n      \"description\": \"白色线条勾勒的气泡框，包含韩文“사랑해♡”（我爱你），位于右上角，带有指向左下的小圆点尾巴。\"\n    },\n    {\n      \"id\": \"photo_left_inset\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        55,\n        70,\n        395,\n        355\n      ],\n      \"description\": \"左上角椭圆形窗口内的照片，显示同一位歌手侧身唱歌的画面，戴着米色帽子，穿着条纹T恤。\"\n    },\n    {\n      \"id\": \"frame_left_inset\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        50,\n        65,\n        400,\n        360\n      ],\n      \"description\": \"围绕左侧椭圆照片的白色粗描边，形成相框效果。\",\n      \"photo_id\": [\n        \"photo_left_inset\"\n      ]\n    },\n    {\n      \"id\": \"overlay_stars_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        720,\n        275,\n        930,\n        370\n      ],\n      \"description\": \"右侧两颗手绘风格的白色五角星装饰。\"\n    },\n    {\n      \"id\": \"overlay_swirl_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        55,\n        355,\n        135,\n        395\n      ],\n      \"description\": \"左侧一个白色的螺旋形涂鸦装饰。\"\n    },\n    {\n      \"id\": \"overlay_swirl_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        860,\n        220,\n        930,\n        255\n      ],\n      \"description\": \"右侧气泡框下方的一个白色螺旋形涂鸦装饰。\"\n    },\n    {\n      \"id\": \"overlay_dog_head\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        495,\n        685,\n        655,\n      745\n      ],\n      \"description\": \"右下角照片上方的一只白色卡通小狗头贴纸，露出半个身子趴在边框上。\"\n    },\n    {\n      \"id\": \"photo_bottom_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        510,\n        735,\n        930,\n        975\n      ],\n      \"description\": \"右下角矩形窗口内的照片，显示歌手正面唱歌的画面，戴着棕色熊耳帽，穿着白T恤。\"\n    },\n    {\n      \"id\": \"frame_bottom_right\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        505,\n        730,\n        935,\n        980\n      ],\n      \"description\": \"围绕右下角照片的白色粗糙纹理边框，类似拍立得或胶带粘贴的效果。\",\n      \"photo_id\": [\n        \"photo_bottom_right\"\n      ]\n    },\n    {\n      \"id\": \"overlay_speech_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        65,\n        835,\n        445,\n        955\n      ],\n      \"description\": \"左下角不规则云朵状气泡框，内含中文文字“听到blue我就\\n能原谅世界一切”，下方有三个小圆圈作为尾巴。\"\n    }\n  ],\n  \"layer_order\": [\n    \"text_soft_clouds\",\n    \"overlay_speech_1\",\n    \"photo_left_inset\",\n    \"frame_left_inset\",\n    \"overlay_stars_right\",\n    \"overlay_swirl_left\",\n    \"overlay_swirl_right\",\n    \"photo_bottom_right\",\n    \"frame_bottom_right\",\n    \"overlay_dog_head\",\n    \"overlay_speech_2\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "一张连续的海滩风景摄影底图，包含蓝天、平静的海面、远处的海岸线以及前景的茅草屋檐。画面中下部有微小的人影在沙滩上行走。该底图延伸至画布四边，承载所有上层设计元素。",
+      "background_type": "photo",
+      "label": "一张连续的海滩风景摄影底图，包含蓝天、平静的海面、远处的海岸",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        180,
+        723,
+        356
+      ],
+      "description": "右上角的一枚浅蓝色五角星装饰，内部带有白色圆点图案。",
+      "label": "右上角的一枚浅蓝色五角星装饰，内部带有白色圆点图案。",
+      "method": "extract"
+    },
+    {
+      "id": "text_rainy_day",
+      "kind": "text",
+      "bbox": [
+        166,
+        222,
+        464,
+        318
+      ],
+      "description": "Rainy Day",
+      "label": "Rainy Day",
+      "method": "local",
+      "text": "Rainy Day",
+      "text_status": "known",
+      "style": {
+        "fill": "#AEEEEE",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "frame_icecream",
+      "kind": "frame",
+      "bbox": [
+        196,
+        322,
+        400,
+        522
+      ],
+      "description": "左侧倾斜放置的白色拍立得相纸框，具有宽大的底部边框。",
+      "photo_id": [
+        "photo_icecream"
+      ],
+      "label": "左侧倾斜放置的白色拍立得相纸框，具有宽大的底部边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        212,
+        342,
+        378,
+        474
+      ],
+      "description": "拍立得相纸内的照片，显示一个冰淇淋甜筒和蓝色的背景。",
+      "label": "拍立得相纸内的照片，显示一个冰淇淋甜筒和蓝色的背景。",
+      "method": "local"
+    },
+    {
+      "id": "frame_sea",
+      "kind": "frame",
+      "bbox": [
+        498,
+        398,
+        664,
+        528
+      ],
+      "description": "右侧水平放置的白色拍立得相纸框，具有宽大的底部边框。",
+      "photo_id": [
+        "photo_sea"
+      ],
+      "label": "右侧水平放置的白色拍立得相纸框，具有宽大的底部边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        507,
+        408,
+        655,
+        498
+      ],
+      "description": "拍立得相纸内的照片，显示海面上的船只和远处的建筑一角。",
+      "label": "拍立得相纸内的照片，显示海面上的船只和远处的建筑一角。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_music_notes_left",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        450,
+        212,
+        510
+      ],
+      "description": "位于冰淇淋相纸左侧的一个淡蓝色音符图标。",
+      "label": "位于冰淇淋相纸左侧的一个淡蓝色音符图标。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_notes_mid",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        450,
+        428,
+        498
+      ],
+      "description": "位于两张小相纸之间的一个淡蓝色音符图标。",
+      "label": "位于两张小相纸之间的一个淡蓝色音符图标。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_right",
+      "kind": "overlay",
+      "bbox": [
+        688,
+        396,
+        756,
+        462
+      ],
+      "description": "位于右侧海面相纸旁边的一个淡蓝色螺旋线条装饰。",
+      "label": "位于右侧海面相纸旁边的一个淡蓝色螺旋线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_curve_line",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        294,
+        783,
+        672
+      ],
+      "description": "一条贯穿画面的黄色曲线，从右上向左下弯曲，穿过两张小相纸的后方区域。",
+      "label": "一条贯穿画面的黄色曲线，从右上向左下弯曲，穿过两张小相纸的后",
+      "method": "extract"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        382,
+        462,
+        518,
+        774
+      ],
+      "description": "Summer\nSunsets\nnever\ndisappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleave sweet\nSoftness to\nevery\nPasserby",
+      "label": "Summer\nSunsets\nnever\ndisappoin",
+      "method": "local",
+      "text": "Summer\nSunsets\nnever\ndisappoint\nthey dye the\nwhole sky\nwarm\nOrange and\nleave sweet\nSoftness to\nevery\nPasserby",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFACD",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        212,
+        678,
+        369,
+        894
+      ],
+      "description": "左下方的一枚较大的淡黄色五角星装饰。",
+      "label": "左下方的一枚较大的淡黄色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_note_right",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        732,
+        778,
+        816
+      ],
+      "description": "右下方的一个白色空心音符轮廓图标。",
+      "label": "右下方的一个白色空心音符轮廓图标。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots_pattern",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        762,
+        567,
+        1008
+      ],
+      "description": "由淡蓝色圆点组成的矩形网格图案，位于大相纸的左侧和后方。",
+      "label": "由淡蓝色圆点组成的矩形网格图案，位于大相纸的左侧和后方。",
+      "method": "extract"
+    },
+    {
+      "id": "frame_girl",
+      "kind": "frame",
+      "bbox": [
+        428,
+        780,
+        693,
+        990
+      ],
+      "description": "下方居中的白色拍立得相纸框，具有宽大的底部边框。",
+      "photo_id": [
+        "photo_girl"
+      ],
+      "label": "下方居中的白色拍立得相纸框，具有宽大的底部边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_girl",
+      "kind": "photo",
+      "bbox": [
+        436,
+        798,
+        680,
+        948
+      ],
+      "description": "拍立得相纸内的照片，显示一名身穿白衣的女子张开双臂站在度假村前。",
+      "label": "拍立得相纸内的照片，显示一名身穿白衣的女子张开双臂站在度假村",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_curve_line",
+    "overlay_dots_pattern",
+    "frame_icecream",
+    "photo_icecream",
+    "frame_sea",
+    "photo_sea",
+    "frame_girl",
+    "photo_girl",
+    "overlay_star_top_right",
+    "text_rainy_day",
+    "overlay_music_notes_left",
+    "overlay_music_notes_mid",
+    "overlay_spiral_right",
+    "text_poem",
+    "overlay_star_bottom_left",
+    "overlay_music_note_right"
+  ]
+}

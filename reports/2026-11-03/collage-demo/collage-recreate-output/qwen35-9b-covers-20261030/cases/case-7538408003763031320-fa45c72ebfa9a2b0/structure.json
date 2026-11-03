@@ -1,0 +1,143 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "手持咖啡杯的特写，背景为模糊的室内环境，包含面包和装饰物。人物与咖啡杯构成同一摄影画面，边缘露出的场景连续延伸至画布四边；上层照片和贴纸遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        440,
+        70,
+        850,
+        480
+      ],
+      "description": "人物手持咖啡杯的照片，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        80,
+        390,
+        520,
+        720
+      ],
+      "description": "人物在街头的照片，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        520,
+        560,
+        820,
+        890
+      ],
+      "description": "人物坐在面包店内的照片，保留摄影环境，窗口边缘清晰，无描边或渐隐。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        100,
+        950,
+        250
+      ],
+      "description": "带有 Coffee 字样的标签贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        350,
+        250,
+        450
+      ],
+      "description": "带有 Daily 字样的标签贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        550,
+        150,
+        650
+      ],
+      "description": "带有蛋糕图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        750,
+        550,
+        850
+      ],
+      "description": "带有兔子图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_5",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        250,
+        950,
+        350
+      ],
+      "description": "带有小熊图案的贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        750,
+        100,
+        950,
+        250
+      ],
+      "text": "Coffee",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        80,
+        350,
+        250,
+        450
+      ],
+      "text": "Daily",
+      "color": "#333333",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "overlay_5",
+    "text_1",
+    "text_2"
+  ]
+}

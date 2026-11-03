@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1599
+  ],
+  "objects": [
+    {
+      "id": "bg_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1599
+      ],
+      "description": "全画布固定底图，为黄色背景，上面分布着深褐色的圆点图案。该图案连续且均匀，作为整体设计元素保留。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，为黄色背景，上面分布着深褐色的圆点图案。该图",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        90,
+        32,
+        810,
+        496
+      ],
+      "description": "顶部照片，展示咖喱饭和甜点。画面包含一个熊形饭团、一碗咖喱、一个布丁和一块兔子形状的吐司。",
+      "label": "顶部照片，展示咖喱饭和甜点。画面包含一个熊形饭团、一碗咖喱、",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        90,
+        528,
+        810,
+        1023
+      ],
+      "description": "中间照片，展示蛋包饭。画面包含一个熊形蛋包饭、配菜沙拉、一杯饮料和一只毛绒玩具熊。",
+      "label": "中间照片，展示蛋包饭。画面包含一个熊形蛋包饭、配菜沙拉、一杯",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        90,
+        1055,
+        810,
+        1567
+      ],
+      "description": "底部照片，展示甜品。画面包含一杯苹果拿铁、一个红苹果、两个毛绒玩具熊和一个面包。",
+      "label": "底部照片，展示甜品。画面包含一杯苹果拿铁、一个红苹果、两个毛",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        688,
+        234,
+        847
+      ],
+      "description": "左侧贴纸，包含“MUA~”字样和星星装饰，字体为卡通风格。",
+      "label": "左侧贴纸，包含“MUA~”字样和星星装饰，字体为卡通风格。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        911,
+        792,
+        1023
+      ],
+      "description": "右侧贴纸，包含日文“ボーナス”字样和放射状线条装饰，字体为卡通风格。",
+      "label": "右侧贴纸，包含日文“ボーナス”字样和放射状线条装饰，字体为卡",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        1055,
+        90,
+        1151
+      ],
+      "description": "左侧装饰，包含一个黄色的太阳图案和线条。",
+      "label": "左侧装饰，包含一个黄色的太阳图案和线条。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        414,
+        1071,
+        648,
+        1167
+      ],
+      "description": "一颗苹果",
+      "label": "一颗苹果",
+      "method": "local",
+      "text": "一颗苹果",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg_pattern",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "text_1"
+  ]
+}

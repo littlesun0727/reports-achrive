@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-9fa8770b-3470-9418-a72f-1342ce268991",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7083,
+    "total_tokens": 7789,
+    "completion_tokens": 706,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "image_tokens": 1202,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 706
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"连续的户外草地与树林摄影底图，完整延伸至画布四边。画面主体为一名身穿阿根廷球衣、手持足球的年轻女性半身近景，位于画面中下方，背景为虚化的绿色植被。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_star_left\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        0,\n        412,\n        238,\n        567\n      ],\n      \"description\": \"左侧白色手绘风格五角星及放射状线条装饰，叠加在底图之上。\"\n    },\n    {\n      \"id\": \"overlay_stars_right\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        238,\n        439,\n        651,\n        1000\n      ],\n      \"description\": \"右侧青色发光星星及耳机线轮廓装饰，包含两颗大星和连接线，覆盖在底图人物及足球上。\"\n    },\n    {\n      \"id\": \"frame_music_player\",\n      \"kind\": \"frame\",\n      \"bbox\": [\n        632,\n        10,\n        981,\n        412\n      ],\n      \"description\": \"右上角音乐播放器界面卡片，包含照片窗口、进度条、播放控制按钮及文字“Music”、“0:00”、“5:20”。整体作为固定设计单元保留。\",\n      \"photo_id\": [\n        \"photo_card\"\n      ]\n    },\n    {\n      \"id\": \"photo_card\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        648,\n        26,\n        965,\n        335\n      ],\n      \"description\": \"音乐卡片内的竖向照片，显示同一位女性手持足球的半身像，背景为树林。\"\n    },\n    {\n      \"id\": \"overlay_heart\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        462,\n        203,\n        611,\n        306\n      ],\n      \"description\": \"蓝色爱心贴纸，带有两个小爱心点缀，位于左上抠图与右上卡片之间。\"\n    },\n    {\n      \"id\": \"photo_cutout_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        74,\n        62,\n        420,\n        408\n      ],\n      \"description\": \"左上角去背景抠图，显示同一位女性举着足球的姿势，周围有白色描边轮廓。\"\n    }\n  ],\n  \"layer_order\": [\n    \"overlay_star_left\",\n    \"overlay_stars_right\",\n    \"photo_card\",\n    \"frame_music_player\",\n    \"overlay_heart\",\n    \"photo_cutout_top_left\"\n  ]\n}",
+  "tool_calls": false
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "bg_pink_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "粉色渐变底图，带有星星图案、蕾丝花边装饰和红色文字'WON YEONG'。整体为固定设计，保留原样。",
+      "background_type": "reference_clean",
+      "label": "粉色渐变底图，带有星星图案、蕾丝花边装饰和红色文字'WON ",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        90,
+        180,
+        810,
+        1140
+      ],
+      "description": "主要人物照片，人物手持物品，背景为粉色渐变，保留摄影环境。",
+      "label": "主要人物照片，人物手持物品，背景为粉色渐变，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        630,
+        120,
+        810,
+        300
+      ],
+      "description": "右上角小照片，人物眼部特写，保留摄影环境。",
+      "label": "右上角小照片，人物眼部特写，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_1",
+      "kind": "photo",
+      "bbox": [
+        45,
+        720,
+        270,
+        960
+      ],
+      "description": "左下角第一张小照片，人物手持物品，保留摄影环境。",
+      "label": "左下角第一张小照片，人物手持物品，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_2",
+      "kind": "photo",
+      "bbox": [
+        45,
+        900,
+        270,
+        1140
+      ],
+      "description": "左下角第二张小照片，人物面部特写，保留摄影环境。",
+      "label": "左下角第二张小照片，人物面部特写，保留摄影环境。",
+      "method": "local"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        27,
+        60,
+        270,
+        180
+      ],
+      "description": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "label": "LOVE\nMy favorite\nWon yeong Jan",
+      "method": "local",
+      "text": "LOVE\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF0000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_you",
+      "kind": "text",
+      "bbox": [
+        630,
+        900,
+        855,
+        1080
+      ],
+      "description": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "label": "YOU\nMy favorite\nWon yeong Jang",
+      "method": "local",
+      "text": "YOU\nMy favorite\nWon yeong Jang\nI bear that I love you",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF0000",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg_pink_pattern",
+    "photo_main",
+    "photo_top_right",
+    "photo_bottom_left_1",
+    "photo_bottom_left_2",
+    "text_love",
+    "text_you"
+  ]
+}

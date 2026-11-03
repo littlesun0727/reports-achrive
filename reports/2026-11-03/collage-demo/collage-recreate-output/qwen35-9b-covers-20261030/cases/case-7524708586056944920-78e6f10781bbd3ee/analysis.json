@@ -1,0 +1,143 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "公园草地与树木构成连续摄影画面，边缘露出的场景延伸至画布四边；上层照片、贴纸和文字遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "公园草地与树木构成连续摄影画面，边缘露出的场景延伸至画布四边",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_goldfish",
+      "kind": "photo",
+      "bbox": [
+        300,
+        150,
+        600,
+        630
+      ],
+      "description": "袋中金鱼照片，保留摄影环境，位于画布中上部。",
+      "label": "袋中金鱼照片，保留摄影环境，位于画布中上部。",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        112,
+        570,
+        472,
+        930
+      ],
+      "description": "猫在步道上行走的照片，保留摄影环境，位于画布左下部。",
+      "label": "猫在步道上行走的照片，保留摄影环境，位于画布左下部。",
+      "method": "local"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        518,
+        660,
+        788,
+        1068
+      ],
+      "description": "树林与草地照片，保留摄影环境，位于画布右下部。",
+      "label": "树林与草地照片，保留摄影环境，位于画布右下部。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape_1",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        96,
+        342,
+        216
+      ],
+      "description": "金色胶带贴纸，位于画布左上角。",
+      "label": "金色胶带贴纸，位于画布左上角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_2",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        648,
+        720,
+        696
+      ],
+      "description": "金色胶带贴纸，位于画布右侧中部。",
+      "label": "金色胶带贴纸，位于画布右侧中部。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        112,
+        960,
+        472,
+        1068
+      ],
+      "description": "Collect today's lush greenery\nand gentle breeze",
+      "label": "Collect today's lush greenery\n",
+      "method": "local",
+      "text": "Collect today's lush greenery\nand gentle breeze",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        675,
+        570,
+        828,
+        630
+      ],
+      "description": "Meet summer.",
+      "label": "Meet summer.",
+      "method": "local",
+      "text": "Meet summer.",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_goldfish",
+    "photo_cat",
+    "photo_trees",
+    "overlay_tape_1",
+    "overlay_tape_2",
+    "text_1",
+    "text_2"
+  ]
+}

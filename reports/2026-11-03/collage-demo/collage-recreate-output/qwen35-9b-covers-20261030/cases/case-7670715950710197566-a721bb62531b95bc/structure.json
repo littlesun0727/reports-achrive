@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "户外公园场景，包含蓝天、白云、深色栅栏、绿色草地和树木。画面中有多处独立照片遮挡，但摄影环境连续延伸至画布四边，保留完整摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        220,
+        75,
+        560,
+        400
+      ],
+      "description": "人物半身照，身穿黑色无袖上衣，肩背米色包，背景有树木和告示牌，保留摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        530,
+        305,
+        780,
+        500
+      ],
+      "description": "橘猫在砖石路面上行走，保留摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        110,
+        365,
+        380,
+        655
+      ],
+      "description": "树木与街道场景，可见绿色树叶和远处车辆，保留摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        290,
+        560,
+        770,
+        825
+      ],
+      "description": "人物半身照，身穿黑色无袖上衣，肩背米色包，背景有树木和告示牌，保留摄影环境。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        600,
+        135,
+        800,
+        190
+      ],
+      "text": "好天气！",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        245,
+        830,
+        370
+      ],
+      "description": "蓝色轮廓、内部带白色波点的心形贴纸，带有手绘风格。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        530,
+        830,
+        920
+      ],
+      "description": "棕色波点矩形贴纸，带有白色蝴蝶结和飘带，手绘风格。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1",
+    "overlay_1",
+    "overlay_2"
+  ]
+}

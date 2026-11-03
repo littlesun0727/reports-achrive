@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_texture",
+    "description": "全画布深色颗粒感底图，带有类似星空或噪点的纹理效果。该固定背景承载所有照片和文字元素，需保留原样以维持整体氛围。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        150,
+        82,
+        500,
+        432
+      ],
+      "description": "左上角矩形照片，展示黄昏时分的街道场景，包含路灯、树木、一辆黑色轿车及远处的公交车。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        560,
+        233,
+        890,
+        487
+      ],
+      "description": "右侧中部矩形照片，特写雨夜中的树叶与灯光，画面中有明显的雨丝痕迹。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        85,
+        483,
+        420,
+        730
+      ],
+      "description": "左下角矩形照片，透过窗户拍摄的雨景，窗框清晰可见，窗外一片漆黑。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        500,
+        535,
+        865,
+        900
+      ],
+      "description": "右下角矩形照片，雨中街景，前景有飘落的枫叶，远处有车辆行驶。"
+    },
+    {
+      "id": "deco_leaf_top",
+      "kind": "overlay",
+      "bbox": [
+        375,
+        55,
+        595,
+        195
+      ],
+      "description": "位于顶部中间偏右的枯叶装饰，部分遮挡了左上照片的右上角。"
+    },
+    {
+      "id": "deco_leaf_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        620,
+        140,
+        760
+      ],
+      "description": "位于左侧边缘中下部的枯叶装饰，部分遮挡了左下照片的左下角。"
+    },
+    {
+      "id": "deco_leaf_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        500,
+        730,
+        715
+      ],
+      "description": "位于右下照片区域内的两片红色枫叶装饰，叠加在摄影内容之上。"
+    },
+    {
+      "id": "deco_stars",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        55,
+        920,
+        930
+      ],
+      "description": "散布在画面各处的白色手绘风格星星图案（共5颗），作为独立装饰层存在。"
+    },
+    {
+      "id": "deco_circle",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        310,
+        660,
+        615
+      ],
+      "description": "画面中央的白色手绘圆圈线条，跨越并连接了四张照片之间的空隙区域。"
+    },
+    {
+      "id": "text_handwritten",
+      "kind": "text",
+      "bbox": [
+        50,
+        660,
+        580,
+        980
+      ],
+      "text": "Happiness\nIt may come and go\nLike a distant land\nBe sure to\nTreasure the time spent\nBecause you'll never now\nThe next time you'll feel it again",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_mid_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "deco_leaf_top",
+    "deco_leaf_bottom_left",
+    "deco_leaf_bottom_right",
+    "deco_stars",
+    "deco_circle",
+    "text_handwritten"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画布连续摄影底图，包含上方蓝天、中景深色栅栏和下方草地。画面整体呈现柔焦效果，散布着彩色光斑气泡，作为所有独立照片和装饰的底层背景。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_person",
+      "kind": "photo",
+      "bbox": [
+        231,
+        80,
+        556,
+        400
+      ],
+      "description": "竖向矩形照片窗口，显示一名身穿深蓝色无袖上衣的女子低头看路，背景有树木和告示牌。边缘带有白色手绘风格的不规则描边。"
+    },
+    {
+      "id": "text_weather",
+      "kind": "text",
+      "bbox": [
+        592,
+        147,
+        806,
+        195
+      ],
+      "text": "好天气！",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        753,
+        250,
+        838,
+        375
+      ],
+      "description": "青色手绘爱心图案，内部填充白色波点，位于右侧栅栏背景上。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        519,
+        307,
+        781,
+        500
+      ],
+      "description": "横向矩形照片窗口，显示一只橘猫在灰色砖石路面上行走。边缘带有白色手绘风格的不规则描边。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        118,
+        368,
+        404,
+        660
+      ],
+      "description": "竖向矩形照片窗口，透过绿树丛拍摄街道，可见一辆蓝绿色巴士。边缘带有白色手绘风格的不规则描边。"
+    },
+    {
+      "id": "overlay_bubbles_left",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        285,
+        150,
+        545
+      ],
+      "description": "左侧垂直排列的白色手绘圆圈线条，形似一串气泡，叠加在背景和部分照片边缘上。"
+    },
+    {
+      "id": "overlay_tag",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        532,
+        830,
+        600
+      ],
+      "description": "棕色长方形吊牌，表面有白色波点纹理，底部系有白色蝴蝶结丝带，丝带向下延伸很长一段距离。"
+    },
+    {
+      "id": "photo_bottom_person",
+      "kind": "photo",
+      "bbox": [
+        310,
+        562,
+        775,
+        835
+      ],
+      "description": "横向矩形照片窗口，显示同一名女子站在树荫下看向镜头，肩背白色帆布包。边缘带有白色手绘风格的不规则描边。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_person",
+    "text_weather",
+    "overlay_heart",
+    "photo_cat",
+    "photo_trees",
+    "overlay_bubbles_left",
+    "overlay_tag",
+    "photo_bottom_person"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    962,
+    1712
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        962,
+        1712
+      ],
+      "description": "桂林山水全景摄影底图，包含远处的喀斯特山峰、近处的漓江水面及岸边植被。画面整体色调偏蓝，上下部分有云雾缭绕的效果，完整覆盖画布四边。",
+      "background_type": "photo",
+      "label": "桂林山水全景摄影底图，包含远处的喀斯特山峰、近处的漓江水面及",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_subject",
+      "kind": "photo",
+      "bbox": [
+        0,
+        531,
+        755,
+        1267
+      ],
+      "description": "身着白色长裙的年轻女子半身像，发髻高挽，佩戴蓝色流苏耳饰和手镯。人物位于画面中央偏右，左手轻抚胸口，右手向左侧伸展。该照片为抠图合成，去除了原始背景，边缘与底图的山水环境自然融合。",
+      "label": "身着白色长裙的年轻女子半身像，发髻高挽，佩戴蓝色流苏耳饰和手",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_subject"
+  ]
+}

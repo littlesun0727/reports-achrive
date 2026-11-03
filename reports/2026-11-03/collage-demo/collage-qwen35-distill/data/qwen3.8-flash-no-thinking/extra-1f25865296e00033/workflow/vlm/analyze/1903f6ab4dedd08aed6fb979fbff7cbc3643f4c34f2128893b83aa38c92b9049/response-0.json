@@ -1,0 +1,21 @@
+{
+  "id": "chatcmpl-51c956fd-f6cb-91c3-a695-e726f8708cdd",
+  "model": "qwen3.8-flash",
+  "provider": null,
+  "usage": {
+    "prompt_tokens": 7413,
+    "total_tokens": 8567,
+    "completion_tokens": 1154,
+    "prompt_tokens_details": {
+      "cached_tokens": 5632,
+      "image_tokens": 1532,
+      "text_tokens": 5881
+    },
+    "completion_tokens_details": {
+      "text_tokens": 1154
+    }
+  },
+  "finish_reason": "stop",
+  "content": "{\n  \"background\": {\n    \"type\": \"photographic\",\n    \"id\": \"photo_base\",\n    \"description\": \"一张连续的海滨风景摄影底图，包含蓝天、大海、沙滩、礁石和前景的木栈道。画面延伸至画布四边，作为所有独立照片和装饰元素的底层背景。\"\n  },\n  \"objects\": [\n    {\n      \"id\": \"overlay_tape_1\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        125,\n        90,\n        360,\n        148\n      ],\n      \"description\": \"位于左上角照片上方的米色胶带贴纸，带有手写体英文文字“You're a Sunday morning Kind of beauty”，边缘呈撕裂状。\"\n    },\n    {\n      \"id\": \"photo_top_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        182,\n        105,\n        535,\n        365\n      ],\n      \"description\": \"左上方的矩形照片，展示了透过绿色树叶看到的海湾景色，海面上有几艘小船，远处有海岸线。\"\n    },\n    {\n      \"id\": \"overlay_clip\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        650,\n        188,\n        740,\n        255\n      ],\n      \"description\": \"一枚银色回形针图案，位于右侧照片上方，具有金属光泽和立体感。\"\n    },\n    {\n      \"id\": \"text_surprise\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        640,\n        270,\n        850,\n        290\n      ],\n      \"text\": \"An unexpected surprise. ✨\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"center\",\n      \"bold\": true,\n      \"italic\": false\n    },\n    {\n      \"id\": \"photo_right\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        480,\n        225,\n        885,\n        635\n      ],\n      \"description\": \"右侧竖向矩形照片，主体为一名身穿白色露肩上衣和短裙的女子在海滩上挥手微笑，背景是海面上的贝壳状建筑（青岛大剧院）。\"\n    },\n    {\n      \"id\": \"text_life\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        115,\n        460,\n        505,\n        480\n      ],\n      \"text\": \"Life isn't perfect but your outfit can be.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": true,\n      \"italic\": false\n    },\n    {\n      \"id\": \"overlay_drops\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        65,\n        540,\n        165,\n        650\n      ],\n      \"description\": \"三个白色的水滴或花瓣形状的简笔画线条装饰，位于左下方照片的左上角。\"\n    },\n    {\n      \"id\": \"photo_bottom_left\",\n      \"kind\": \"photo\",\n      \"bbox\": [\n        85,\n        605,\n        550,\n        845\n      ],\n      \"description\": \"左下方的横向矩形照片，展示了一名男子骑自行车经过海边栈道，前景有松树枝叶遮挡，背景是大海。\"\n    },\n    {\n      \"id\": \"overlay_tape_2\",\n      \"kind\": \"overlay\",\n      \"bbox\": [\n        540,\n        780,\n        585,\n        845\n      ],\n      \"description\": \"一小段半透明的胶带贴纸，粘贴在左下照片的右下角边缘处。\"\n    },\n    {\n      \"id\": \"text_travel\",\n      \"kind\": \"text\",\n      \"bbox\": [\n        480,\n        745,\n        855,\n        800\n      ],\n      \"text\": \"Travel is the spice of life,   but remember,\\noccasionally life itself needs to be\\nthe spice sprinkled on our journey.\",\n      \"color\": \"#FFFFFF\",\n      \"font\": \"sans\",\n      \"align\": \"left\",\n      \"bold\": true,\n      \"italic\": false\n    }\n  ],\n  \"layer_order\": [\n    \"photo_top_left\",\n    \"overlay_tape_1\",\n    \"photo_right\",\n    \"overlay_clip\",\n    \"text_surprise\",\n    \"text_life\",\n    \"photo_bottom_left\",\n    \"overlay_drops\",\n    \"overlay_tape_2\",\n    \"text_travel\"\n  ]\n}",
+  "tool_calls": false
+}

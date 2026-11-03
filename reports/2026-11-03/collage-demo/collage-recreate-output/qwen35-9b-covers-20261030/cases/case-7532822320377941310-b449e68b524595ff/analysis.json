@@ -1,0 +1,168 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1202
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1202
+      ],
+      "description": "粉色底面带有白色波点图案，顶部有黑色蕾丝花边装饰，作为固定底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "粉色底面带有白色波点图案，顶部有黑色蕾丝花边装饰，作为固定底",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        50,
+        174,
+        626,
+        613
+      ],
+      "description": "上方照片窗口，展示一位佩戴项链和耳机的年轻女性，照片边缘有黑色波点边框和白色珍珠装饰。",
+      "label": "上方照片窗口，展示一位佩戴项链和耳机的年轻女性，照片边缘有黑",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        270,
+        673,
+        828,
+        1094
+      ],
+      "description": "下方照片窗口，展示一位手指轻触嘴唇的年轻女性，照片边缘有黑色波点边框和白色珍珠装饰。",
+      "label": "下方照片窗口，展示一位手指轻触嘴唇的年轻女性，照片边缘有黑色",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        50,
+        174,
+        626,
+        613
+      ],
+      "description": "承载上方照片的拍立得式相框，黑色边框带有白色波点图案，位于照片下方。",
+      "photo_id": [
+        "photo_1"
+      ],
+      "label": "承载上方照片的拍立得式相框，黑色边框带有白色波点图案，位于照",
+      "method": "extract"
+    },
+    {
+      "id": "frame_2",
+      "kind": "frame",
+      "bbox": [
+        270,
+        673,
+        828,
+        1094
+      ],
+      "description": "承载下方照片的拍立得式相框，黑色边框带有白色波点图案，位于照片下方。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "承载下方照片的拍立得式相框，黑色边框带有白色波点图案，位于照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        445,
+        225,
+        625
+      ],
+      "description": "左侧白色毛绒小熊贴纸，系有蓝色蝴蝶结，位于上方照片左下方。",
+      "label": "左侧白色毛绒小熊贴纸，系有蓝色蝴蝶结，位于上方照片左下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        589,
+        882,
+        805
+      ],
+      "description": "右侧白色毛绒小熊贴纸，系有粉色蝴蝶结，位于下方照片右上方。",
+      "label": "右侧白色毛绒小熊贴纸，系有粉色蝴蝶结，位于下方照片右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        998,
+        486,
+        1142
+      ],
+      "description": "下方照片左下角的白色天使翅膀装饰。",
+      "label": "下方照片左下角的白色天使翅膀装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        649,
+        630,
+        757
+      ],
+      "description": "下方照片上方的粉色蝴蝶结装饰。",
+      "label": "下方照片上方的粉色蝴蝶结装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        153,
+        769,
+        387,
+        865
+      ],
+      "description": "I am a princess\nBut you're not my prince",
+      "label": "I am a princess\nBut you're not",
+      "method": "local",
+      "text": "I am a princess\nBut you're not my prince",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "frame_1",
+    "photo_1",
+    "frame_2",
+    "photo_2",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4",
+    "text_1"
+  ]
+}

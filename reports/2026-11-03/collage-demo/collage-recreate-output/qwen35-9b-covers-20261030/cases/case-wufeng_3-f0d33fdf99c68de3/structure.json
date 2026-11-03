@@ -1,0 +1,42 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "雪山与天空构成连续摄影画面，边缘露出的山景、云层和树木延伸至画布四边；中间人物与前景遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        0,
+        320,
+        1000,
+        680
+      ],
+      "description": "中间人物特写，戴白色毛线帽和白色羽绒服，位于雪山与树木之间，保留摄影环境，上下边缘有透明渐隐效果。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        850,
+        920,
+        1000,
+        980
+      ],
+      "text": "小红书号：448205581",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "text_1"
+  ]
+}

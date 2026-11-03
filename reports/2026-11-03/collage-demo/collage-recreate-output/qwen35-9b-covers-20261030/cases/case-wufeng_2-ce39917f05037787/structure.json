@@ -1,0 +1,78 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的水面与远山摄影画面，边缘露出的场景连续延伸至画布四边；上层三张人物照片遮挡局部，完整显示区域仍为全画布，保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        450,
+        0,
+        1000,
+        350
+      ],
+      "description": "人物背影照片，保留摄影环境，底部边缘有透明渐隐效果。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        0,
+        350,
+        550,
+        650
+      ],
+      "description": "人物侧脸照片，保留摄影环境，底部边缘有透明渐隐效果。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        450,
+        650,
+        1000,
+        1000
+      ],
+      "description": "人物仰头照片，保留摄影环境，底部边缘有透明渐隐效果。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        930,
+        930,
+        1000,
+        980
+      ],
+      "description": "带有小红书字样的圆形图标贴纸，文字、底板和阴影作为一个完整装饰保留。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        780,
+        960,
+        1000,
+        990
+      ],
+      "text": "小红书号：862000240",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "text_1"
+  ]
+}

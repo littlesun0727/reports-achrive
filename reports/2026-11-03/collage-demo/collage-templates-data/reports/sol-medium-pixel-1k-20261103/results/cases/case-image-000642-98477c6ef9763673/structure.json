@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的街景摄影覆盖全画布：左侧可见手持黑色包的人及下方腿部，中央和右侧为石砖地面与墙面，右侧墙上有金属装饰板。场景和透视在画布边缘保持连续；中央拼贴遮挡部分地面，整张街景连同人物与环境作为底图替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        547,
+        256,
+        732,
+        504
+      ],
+      "description": "上方竖向室内照片，黑色家具旁有细长黑色立式物件，右侧为木质搁架；保留完整室内摄影画面，矩形显示。"
+    },
+    {
+      "id": "photo_house",
+      "kind": "photo",
+      "bbox": [
+        353,
+        504,
+        542,
+        755
+      ],
+      "description": "中上部街景照片，深色传统房屋与前景树木、植物共同构成画面；保留摄影环境，矩形显示。"
+    },
+    {
+      "id": "overlay_plan",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        504,
+        732,
+        755
+      ],
+      "description": "白色竖向计划清单卡片，包含标题“Today’s Plan”、三个勾选框及文字“water plants”“reading”“enjoy the day”；卡片、印字和图形作为一个固定设计单元保留。"
+    },
+    {
+      "id": "overlay_stripes",
+      "kind": "overlay",
+      "bbox": [
+        352,
+        755,
+        539,
+        1000
+      ],
+      "description": "白底黑色竖条纹设计块，中部叠有浅色手写风格字样；条纹与字样作为一个完整固定图形单元保留。"
+    },
+    {
+      "id": "photo_dance_sign",
+      "kind": "photo",
+      "bbox": [
+        539,
+        755,
+        731,
+        1000
+      ],
+      "description": "竖向地面场景照片，路面上立有写着“CAN’T STOP THE DANCE”的小牌，牌子、支架及周围地面均属于摄影内容；保留完整照片环境，矩形显示。"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        353,
+        1000,
+        539,
+        1248
+      ],
+      "description": "室内餐桌照片，窗边两侧有座椅，中央小圆桌铺着桌布并摆有物品；保留完整室内摄影环境，矩形显示。"
+    },
+    {
+      "id": "overlay_words",
+      "kind": "overlay",
+      "bbox": [
+        539,
+        1000,
+        731,
+        1254
+      ],
+      "description": "白底黑色艺术字设计块，中心粗体字样“truths”，上下配有弧形及扭曲排布的装饰字样；字形与排版具有特殊造型，作为完整固定图形保留。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        539,
+        1254,
+        724,
+        1498
+      ],
+      "description": "下方竖向产品照片，浅色小纸盒置于深色地面上，盒面有小图标和印字；保留完整摄影环境，矩形显示。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_house",
+    "overlay_plan",
+    "overlay_stripes",
+    "photo_dance_sign",
+    "photo_cafe",
+    "overlay_words",
+    "photo_bottom"
+  ]
+}

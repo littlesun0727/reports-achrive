@@ -1,0 +1,291 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "wood_texture_base",
+    "description": "全画布为连续的深色木纹桌面背景，纹理清晰且贯穿整个画面边缘。上层放置了蕾丝桌布、多张拍立得照片及装饰贴纸，这些元素遮挡了部分木纹，但木纹底图作为整体承载所有独立对象。"
+  },
+  "objects": [
+    {
+      "id": "overlay_lace_cloth",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        93,
+        896,
+        542
+      ],
+      "description": "米色镂空蕾丝桌布，铺在木纹桌面上，位于多张照片下方，边缘呈现不规则的波浪状花纹。"
+    },
+    {
+      "id": "photo_heart_collage",
+      "kind": "photo",
+      "bbox": [
+        48,
+        38,
+        378,
+        222
+      ],
+      "description": "心形构图的拼贴区域，包含五张微型拍立得照片，内容均为女性人物合影或单人照，排列成心形图案。"
+    },
+    {
+      "id": "frame_polaroid_top_right",
+      "kind": "frame",
+      "bbox": [
+        501,
+        42,
+        963,
+        305
+      ],
+      "description": "右上角竖向拍立得相纸，白色边框，底部有手写文字“behind you is the south...”，左上角压着一张标签贴纸。",
+      "photo_id": [
+        "photo_top_right_content"
+      ]
+    },
+    {
+      "id": "photo_top_right_content",
+      "kind": "photo",
+      "bbox": [
+        586,
+        58,
+        949,
+        252
+      ],
+      "description": "右上角拍立得内的照片，显示一位身穿灰色连衣裙的长发女性坐在桌前，面前有蛋糕，背景为室内墙壁和椅子。"
+    },
+    {
+      "id": "overlay_label_note",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        68,
+        586,
+        262
+      ],
+      "description": "位于右上角拍立得左侧的竖长条便签纸，印有Date、No.、From、To等表格线，底部有数字31。"
+    },
+    {
+      "id": "overlay_tape_top_right",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        28,
+        983,
+        80
+      ],
+      "description": "右上角斜贴的米色胶带，上面印有黑色英文句子“I don't want to survive, I want to live”。"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        97,
+        236,
+        508,
+        405
+      ],
+      "description": "左侧中部倾斜放置的拍立得照片，显示两名女性在室内合影，其中一人比耶手势。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        656,
+        305,
+        901,
+        432
+      ],
+      "description": "右侧中部横向放置的照片，显示两名女性并排坐着的合影，色调偏暖。"
+    },
+    {
+      "id": "overlay_hand",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        440,
+        481,
+        655
+      ],
+      "description": "一只涂着裸色指甲油的手，从左侧伸入画面，手指捏住中间两张拍立得照片的边缘。"
+    },
+    {
+      "id": "frame_polaroid_center_left",
+      "kind": "frame",
+      "bbox": [
+        199,
+        322,
+        508,
+        592
+      ],
+      "description": "中间偏左被手拿着的拍立得相纸，白色宽边框，略微向左倾斜。",
+      "photo_id": [
+        "photo_center_left_content"
+      ]
+    },
+    {
+      "id": "photo_center_left_content",
+      "kind": "photo",
+      "bbox": [
+        231,
+        355,
+        493,
+        555
+      ],
+      "description": "中间偏左拍立得内的照片，显示两名年轻女性的半身合影，左边穿白裙，右边穿灰衣。"
+    },
+    {
+      "id": "frame_polaroid_center_right",
+      "kind": "frame",
+      "bbox": [
+        363,
+        338,
+        826,
+        662
+      ],
+      "description": "中间偏右被手拿着的拍立得相纸，白色宽边框，向右倾斜，压在左侧拍立得之上。",
+      "photo_id": [
+        "photo_center_right_content"
+      ]
+    },
+    {
+      "id": "photo_center_right_content",
+      "kind": "photo",
+      "bbox": [
+        401,
+        372,
+        788,
+        612
+      ],
+      "description": "中间偏右拍立得内的照片，显示一名女性抱着花束坐在椅子上，背景较暗。"
+    },
+    {
+      "id": "text_season_info",
+      "kind": "text",
+      "bbox": [
+        270,
+        668,
+        538,
+        688
+      ],
+      "text": "season 19 episode1",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_heart_icon",
+      "kind": "overlay",
+      "bbox": [
+        538,
+        668,
+        576,
+        688
+      ],
+      "description": "文字右侧的一个白色实心爱心图标。"
+    },
+    {
+      "id": "overlay_sticker_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        712,
+        140,
+        742
+      ],
+      "description": "左下角的长方形小贴纸，印有蝴蝶线条图案。"
+    },
+    {
+      "id": "overlay_sticker_flower",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        725,
+        285,
+        782
+      ],
+      "description": "左下角的方形小贴纸，印有花卉线条图案。"
+    },
+    {
+      "id": "overlay_sticker_pearls",
+      "kind": "overlay",
+      "bbox": [
+        256,
+        782,
+        363,
+        840
+      ],
+      "description": "左下角的方形小贴纸，印有珍珠项链图案。"
+    },
+    {
+      "id": "overlay_stamp_cat",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        848,
+        212,
+        952
+      ],
+      "description": "左下角的复古邮票贴纸，粉色底色，印有黑猫图案、高音谱号及文字“Melody Post 10¢”。"
+    },
+    {
+      "id": "photo_cutout_girl",
+      "kind": "photo",
+      "bbox": [
+        423,
+        585,
+        998,
+        998
+      ],
+      "description": "右下角去背抠图的女性人像，身穿灰色双排扣连衣裙，双手各拿一张微型拍立得照片，周围有一圈白色撕纸效果描边。"
+    },
+    {
+      "id": "photo_mini_left",
+      "kind": "photo",
+      "bbox": [
+        596,
+        725,
+        675,
+        782
+      ],
+      "description": "右下角抠图人物右手（画面左侧）拿着的微型拍立得照片，显示两人合影。"
+    },
+    {
+      "id": "photo_mini_right",
+      "kind": "photo",
+      "bbox": [
+        826,
+        740,
+        906,
+        792
+      ],
+      "description": "右下角抠图人物左手（画面右侧）拿着的微型拍立得照片，显示两人合影。"
+    }
+  ],
+  "layer_order": [
+    "overlay_lace_cloth",
+    "photo_heart_collage",
+    "overlay_label_note",
+    "photo_mid_left",
+    "photo_mid_right",
+    "photo_top_right_content",
+    "frame_polaroid_top_right",
+    "overlay_tape_top_right",
+    "photo_center_left_content",
+    "frame_polaroid_center_left",
+    "photo_center_right_content",
+    "frame_polaroid_center_right",
+    "overlay_hand",
+    "text_season_info",
+    "overlay_heart_icon",
+    "overlay_sticker_butterfly",
+    "overlay_sticker_flower",
+    "overlay_sticker_pearls",
+    "overlay_stamp_cat",
+    "photo_cutout_girl",
+    "photo_mini_left",
+    "photo_mini_right"
+  ]
+}

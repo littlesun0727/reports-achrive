@@ -1,0 +1,138 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1200
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1200
+      ],
+      "description": "雨景摄影底图，包含雨滴、伞骨、地面及鞋子，场景连续延伸至画布四边；上层贴纸、文字和局部照片遮挡局部，完整显示区域仍为全画布，保留摄影环境。",
+      "background_type": "photo",
+      "label": "雨景摄影底图，包含雨滴、伞骨、地面及鞋子，场景连续延伸至画布",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        585,
+        96,
+        810,
+        276
+      ],
+      "description": "右上角矩形照片窗口，显示绿色树叶，边缘清晰，无描边或渐隐。",
+      "label": "右上角矩形照片窗口，显示绿色树叶，边缘清晰，无描边或渐隐。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        384,
+        765,
+        504
+      ],
+      "description": "带有白色小熊图案的四叶草贴纸，文字、底板和阴影作为一个完整装饰保留。",
+      "label": "带有白色小熊图案的四叶草贴纸，文字、底板和阴影作为一个完整装",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        180,
+        504,
+        540,
+        624
+      ],
+      "description": "消失的下雨天，\n我好想再淋一遍。",
+      "label": "消失的下雨天，\n我好想再淋一遍。",
+      "method": "local",
+      "text": "消失的下雨天，\n我好想再淋一遍。",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        450,
+        696,
+        810,
+        768
+      ],
+      "description": "Disappearing rainy days,\nI want to get wet for another day.",
+      "label": "Disappearing rainy days,\nI wan",
+      "method": "local",
+      "text": "Disappearing rainy days,\nI want to get wet for another day.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        90,
+        900,
+        270,
+        1080
+      ],
+      "description": "左下角矩形照片窗口，显示雨滴和模糊背景，边缘清晰，无描边或渐隐。",
+      "label": "左下角矩形照片窗口，显示雨滴和模糊背景，边缘清晰，无描边或渐",
+      "method": "local"
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        135,
+        936,
+        225,
+        984
+      ],
+      "description": "Rainy",
+      "label": "Rainy",
+      "method": "local",
+      "text": "Rainy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_1",
+    "overlay_1",
+    "text_1",
+    "text_2",
+    "photo_2",
+    "text_3"
+  ]
+}

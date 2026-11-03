@@ -1,0 +1,137 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅灰白色纹理纸底，带有细微的颗粒质感和散落的灰色星星、圆点图案。所有独立对象均位于此底图之上，底图本身作为固定背景保留。"
+  },
+  "objects": [
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        107,
+        258,
+        234,
+        336
+      ],
+      "description": "左上角的一枚灰色手绘风格五角星装饰，部分被下方的窗口遮挡。"
+    },
+    {
+      "id": "text_shine",
+      "kind": "text",
+      "bbox": [
+        609,
+        258,
+        963,
+        281
+      ],
+      "text": "★ shine cute beautiful ~",
+      "color": "#000000",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "frame_window",
+      "kind": "frame",
+      "bbox": [
+        146,
+        296,
+        884,
+        722
+      ],
+      "description": "一个模拟电脑操作系统的“Open”文件选择窗口，包含标题栏、侧边栏（Files, Calendar等）、路径栏和底部按钮（Cancel, Open）。窗口内部有一个矩形照片显示区域。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        388,
+        426,
+        862,
+        672
+      ],
+      "description": "位于窗口内的主照片，展示一位戴眼镜、穿米色羽绒服的年轻女性自拍近景，背景为深色条纹墙面。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        78,
+        626,
+        305,
+        843
+      ],
+      "description": "左下角的一张拍立得相纸，边缘呈波浪形剪裁，带有白色边框。",
+      "photo_id": [
+        "photo_polaroid"
+      ]
+    },
+    {
+      "id": "photo_polaroid",
+      "kind": "photo",
+      "bbox": [
+        100,
+        642,
+        289,
+        806
+      ],
+      "description": "拍立得相纸内的照片，展示同一位女性在室内全身照，戴着猫耳帽子，穿着同样的米色羽绒服。"
+    },
+    {
+      "id": "text_happiness",
+      "kind": "text",
+      "bbox": [
+        333,
+        746,
+        515,
+        766
+      ],
+      "text": "happiness! ♥",
+      "color": "#000000",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_waveform",
+      "kind": "overlay",
+      "bbox": [
+        751,
+        731,
+        963,
+        783
+      ],
+      "description": "右下角的一个音频波形条，包含播放三角形图标和声波线条，置于白色圆角矩形底上。"
+    },
+    {
+      "id": "overlay_stars_bottom",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        852,
+        706,
+        952
+      ],
+      "description": "底部散落的几颗灰色手绘风格星星装饰。"
+    }
+  ],
+  "layer_order": [
+    "overlay_star_left",
+    "text_shine",
+    "photo_main",
+    "frame_window",
+    "photo_polaroid",
+    "frame_polaroid",
+    "text_happiness",
+    "overlay_waveform",
+    "overlay_stars_bottom"
+  ]
+}

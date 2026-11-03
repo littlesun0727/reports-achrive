@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "dark_floral_base",
+    "description": "黑灰色连续花纹织物铺满画布四边，中央蕾丝卡片遮挡部分区域；保留整幅固定纹理底图，不并入中央照片或装饰。"
+  },
+  "objects": [
+    {
+      "id": "lace_backing",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        257,
+        739,
+        1278
+      ],
+      "description": "中央竖向白色蕾丝装饰底板，带完整波浪齿边和密集镂空花纹，承托其上的照片与信封；作为固定底板保留。"
+    },
+    {
+      "id": "ribbon",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        811,
+        1440
+      ],
+      "description": "半透明白色纱带在左上方垂入并形成左侧环绕弯折，另从底板右下方延伸至画布右下边缘；带子部分出画并与蕾丝底板相接，作为一组固定装饰保留。"
+    },
+    {
+      "id": "photo_floral_lace",
+      "kind": "photo",
+      "bbox": [
+        164,
+        303,
+        663,
+        747
+      ],
+      "description": "中央上方倾斜的矩形照片，黑色底上有白色蕾丝网纹与大型百合花，右上还有较小花朵；保留照片内完整摄影画面，部分被前景人像照片和信封遮挡。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        87,
+        467,
+        600,
+        986
+      ],
+      "description": "倾斜的近景人像照片，一名年轻女性侧身低头看向手捧的浅色花束，黑发盘起并带发饰，身穿浅色衣物；人物与照片内深色背景共同替换，照片上部压住花朵蕾丝照片，下部被信封遮挡。"
+    },
+    {
+      "id": "frame_envelope",
+      "kind": "frame",
+      "bbox": [
+        105,
+        714,
+        723,
+        1205
+      ],
+      "description": "倾斜的白色信封式照片承托物，保留折叠纸边、尖角信封盖、金色圆形封蜡及金色装饰字体“Happy Birthday”；前片遮住人像照片下部并位于其上方。",
+      "photo_id": [
+        "photo_portrait"
+      ]
+    }
+  ],
+  "layer_order": [
+    "ribbon",
+    "lace_backing",
+    "photo_floral_lace",
+    "photo_portrait",
+    "frame_envelope"
+  ]
+}

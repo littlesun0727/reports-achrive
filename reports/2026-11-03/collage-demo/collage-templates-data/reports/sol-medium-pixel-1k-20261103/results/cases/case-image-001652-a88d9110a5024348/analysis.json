@@ -1,0 +1,123 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_interior",
+      "kind": "photo",
+      "bbox": [
+        207,
+        115,
+        910,
+        829
+      ],
+      "description": "室内陈设的横向摄影画面：浅色墙面上有壁灯和肖像画，右侧摆着花瓶与餐桌，前景可见木质柜台及玻璃展示柜；保留完整室内环境，画面被前景两个图像窗口局部遮挡。",
+      "label": "室内陈设的横向摄影画面：浅色墙面上有壁灯和肖像画，右侧摆着花",
+      "method": "local"
+    },
+    {
+      "id": "frame_main_window",
+      "kind": "frame",
+      "bbox": [
+        188,
+        73,
+        935,
+        850
+      ],
+      "description": "承载室内照片的深色图像编辑器窗口，包含标题栏、圆形窗口按钮、标尺、侧边滚动条及投影；标题显示“unfold.jpg @ 92% (DW1)”，整体作为固定窗口框体保留。",
+      "photo_id": [
+        "photo_interior"
+      ],
+      "label": "承载室内照片的深色图像编辑器窗口，包含标题栏、圆形窗口按钮、",
+      "method": "extract"
+    },
+    {
+      "id": "photo_flower_vase",
+      "kind": "photo",
+      "bbox": [
+        138,
+        673,
+        657,
+        1364
+      ],
+      "description": "竖向静物照片：浅色桌面上的玻璃花瓶插着白玫瑰与绿枝，背景可见窗帘和窗外绿植；保留完整摄影环境，右侧被饮品照片窗口遮挡。",
+      "label": "竖向静物照片：浅色桌面上的玻璃花瓶插着白玫瑰与绿枝，背景可见",
+      "method": "local"
+    },
+    {
+      "id": "frame_flower_window",
+      "kind": "frame",
+      "bbox": [
+        137,
+        651,
+        657,
+        1364
+      ],
+      "description": "承载花瓶照片的浅灰色图像窗口，顶部有圆形窗口按钮、标题文字“digitalwave01.jpg”和轻微投影；窗口边缘及标题栏作为完整固定框体保留。",
+      "photo_id": [
+        "photo_flower_vase"
+      ],
+      "label": "承载花瓶照片的浅灰色图像窗口，顶部有圆形窗口按钮、标题文字“",
+      "method": "extract"
+    },
+    {
+      "id": "photo_strawberry_drink",
+      "kind": "photo",
+      "bbox": [
+        437,
+        763,
+        888,
+        1215
+      ],
+      "description": "近方形饮品静物照片：桌面上的玻璃杯装有奶白色草莓饮品，杯沿放着草莓，旁边有白色盘子和勺；保留桌面与虚化背景，照片窗口压在花瓶照片上方。",
+      "label": "近方形饮品静物照片：桌面上的玻璃杯装有奶白色草莓饮品，杯沿放",
+      "method": "local"
+    },
+    {
+      "id": "frame_drink_window",
+      "kind": "frame",
+      "bbox": [
+        437,
+        741,
+        889,
+        1217
+      ],
+      "description": "承载饮品照片的浅灰色图像窗口，包含顶部圆形窗口按钮、标题文字“unfold.jpg”和轻微投影；标题栏与窗口边缘作为完整固定框体保留。",
+      "photo_id": [
+        "photo_strawberry_drink"
+      ],
+      "label": "承载饮品照片的浅灰色图像窗口，包含顶部圆形窗口按钮、标题文字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_interior",
+    "frame_main_window",
+    "photo_flower_vase",
+    "frame_flower_window",
+    "photo_strawberry_drink",
+    "frame_drink_window"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的高原风景摄影底图，画面包含蓝天、白云、起伏的绿色草坡以及前景中正在吃草的牛。该照片完整延伸至画布四边，作为所有独立对象的背景层。",
+      "background_type": "photo",
+      "label": "一张连续的高原风景摄影底图，画面包含蓝天、白云、起伏的绿色草",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        108,
+        529,
+        238
+      ],
+      "description": "左上角散布的四颗黄色五角星装饰，大小不一，位于天空区域。",
+      "label": "左上角散布的四颗黄色五角星装饰，大小不一，位于天空区域。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        365,
+        180,
+        1007,
+        612
+      ],
+      "description": "右上角矩形照片，显示一名身穿白衣黑裤的女子在草原上张开双臂的背影，背景为连绵的山脉和森林。",
+      "label": "右上角矩形照片，显示一名身穿白衣黑裤的女子在草原上张开双臂的",
+      "method": "local"
+    },
+    {
+      "id": "photo_mid_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        540,
+        413,
+        1015
+      ],
+      "description": "左侧中部竖向矩形照片，显示同一名女子在草地上奔跑的背影，远处有雪山和树林。",
+      "label": "左侧中部竖向矩形照片，显示同一名女子在草地上奔跑的背影，远处",
+      "method": "local"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        612,
+        621,
+        792
+      ],
+      "description": "白色手绘风格的弯曲箭头，起点处有一个蓝色星形图案，指向右下方。",
+      "label": "白色手绘风格的弯曲箭头，起点处有一个蓝色星形图案，指向右下方",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        607,
+        770,
+        902,
+        1210
+      ],
+      "description": "右下角竖向矩形照片，显示同一名女子弯腰趴在木质护栏上的姿态，背景可见道路、草地和远山。",
+      "label": "右下角竖向矩形照片，显示同一名女子弯腰趴在木质护栏上的姿态，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars",
+    "photo_top_right",
+    "photo_mid_left",
+    "overlay_arrow",
+    "photo_bottom_right"
+  ]
+}

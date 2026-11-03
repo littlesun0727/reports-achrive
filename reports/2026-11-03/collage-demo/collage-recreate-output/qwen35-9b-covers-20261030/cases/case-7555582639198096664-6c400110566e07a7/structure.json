@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "咖啡馆室内环境，包含木质桌椅、墙面装饰画（MOZART）、吊灯及模糊背景，作为连续摄影画面承载全画布，主体与环境整体由客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        68,
+        92,
+        558,
+        570
+      ],
+      "description": "左上角矩形照片，人物双手托腮坐在桌前，桌上有咖啡杯和书本，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        620,
+        340,
+        900,
+        570
+      ],
+      "description": "右上角心形窗口照片，展示甜点（布丁配樱桃），保留摄影环境，心形轮廓清晰。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        520,
+        700,
+        950,
+        950
+      ],
+      "description": "右下角矩形照片，人物侧脸手托脸颊，桌上有相机，保留摄影环境，四边清晰。"
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        100,
+        950,
+        300
+      ],
+      "description": "右上角手绘涂鸦装饰，包含星星、爱心、表情符号及数字63，白色线条风格。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        630,
+        400,
+        950
+      ],
+      "description": "左下角手绘蛋糕插图，带草莓装饰，旁边有星星和对话气泡文字。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        200,
+        680,
+        380,
+        740
+      ],
+      "text": "今日有咖",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        660,
+        600,
+        720
+      ],
+      "description": "右下角胶带装饰，半透明灰色，模拟撕纸效果。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "overlay_1",
+    "overlay_2",
+    "text_1",
+    "overlay_3"
+  ]
+}

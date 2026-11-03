@@ -1,0 +1,236 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    960,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        960,
+        1280
+      ],
+      "description": "深棕色木质纹理背景，作为全画布固定底图，承载所有照片与文字元素，纹理连续延伸至画布边缘。",
+      "background_type": "reference_clean",
+      "label": "深棕色木质纹理背景，作为全画布固定底图，承载所有照片与文字元",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        58,
+        13,
+        422,
+        282
+      ],
+      "description": "左上角照片，显示车内视角的雪山与黄昏天空，保留摄影环境，圆角矩形。",
+      "label": "左上角照片，显示车内视角的雪山与黄昏天空，保留摄影环境，圆角",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        48,
+        256,
+        326,
+        538
+      ],
+      "description": "左侧菜单照片，显示蝴蝶图案与价格列表，保留文字内容，圆角矩形。",
+      "label": "左侧菜单照片，显示蝴蝶图案与价格列表，保留文字内容，圆角矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        518,
+        13,
+        845,
+        282
+      ],
+      "description": "右上角照片，显示双手轻抚孕妇腹部，保留衣物纹理，圆角矩形。",
+      "label": "右上角照片，显示双手轻抚孕妇腹部，保留衣物纹理，圆角矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        672,
+        282,
+        950,
+        435
+      ],
+      "description": "右侧烟花照片，显示夜空中的烟花绽放，保留光效，圆角矩形。",
+      "label": "右侧烟花照片，显示夜空中的烟花绽放，保留光效，圆角矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_5",
+      "kind": "photo",
+      "bbox": [
+        0,
+        538,
+        211,
+        691
+      ],
+      "description": "左侧人物照片，显示穿橙色外套的人物，保留背景，圆角矩形。",
+      "label": "左侧人物照片，显示穿橙色外套的人物，保留背景，圆角矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_6",
+      "kind": "photo",
+      "bbox": [
+        48,
+        691,
+        326,
+        973
+      ],
+      "description": "左下人物照片，显示海边栏杆旁的人物背影，保留海景，圆角矩形。",
+      "label": "左下人物照片，显示海边栏杆旁的人物背影，保留海景，圆角矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_7",
+      "kind": "photo",
+      "bbox": [
+        173,
+        973,
+        403,
+        1126
+      ],
+      "description": "底部天鹅照片，显示两只黑天鹅在水面互动，保留水面，圆角矩形。",
+      "label": "底部天鹅照片，显示两只黑天鹅在水面互动，保留水面，圆角矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_8",
+      "kind": "photo",
+      "bbox": [
+        518,
+        691,
+        845,
+        973
+      ],
+      "description": "右侧街景照片，显示城市街道与出租车，保留建筑与车辆，圆角矩形。",
+      "label": "右侧街景照片，显示城市街道与出租车，保留建筑与车辆，圆角矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_9",
+      "kind": "photo",
+      "bbox": [
+        518,
+        973,
+        749,
+        1126
+      ],
+      "description": "右下人物照片，显示坐在椅子上的人物，保留背景，圆角矩形。",
+      "label": "右下人物照片，显示坐在椅子上的人物，保留背景，圆角矩形。",
+      "method": "local"
+    },
+    {
+      "id": "photo_10",
+      "kind": "photo",
+      "bbox": [
+        134,
+        282,
+        826,
+        794
+      ],
+      "description": "中央橙色出租车照片，显示车身与“的士 TAXI”字样，保留车漆反光，圆角矩形。",
+      "label": "中央橙色出租车照片，显示车身与“的士 TAXI”字样，保留车",
+      "method": "local"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        787,
+        538,
+        950,
+        614
+      ],
+      "description": "2026",
+      "label": "2026",
+      "method": "local",
+      "text": "2026",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        10,
+        973,
+        173,
+        1050
+      ],
+      "description": "2025",
+      "label": "2025",
+      "method": "local",
+      "text": "2025",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_3",
+      "kind": "text",
+      "bbox": [
+        211,
+        1126,
+        749,
+        1178
+      ],
+      "description": "2025-2026 COLLECTION. ALL RIGHTS RESERVED.\nSHOT BY KAZUKI IN 2025.",
+      "label": "2025-2026 COLLECTION. ALL RIGH",
+      "method": "local",
+      "text": "2025-2026 COLLECTION. ALL RIGHTS RESERVED.\nSHOT BY KAZUKI IN 2025.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "photo_5",
+    "photo_6",
+    "photo_7",
+    "photo_8",
+    "photo_9",
+    "photo_10",
+    "text_1",
+    "text_2",
+    "text_3"
+  ]
+}

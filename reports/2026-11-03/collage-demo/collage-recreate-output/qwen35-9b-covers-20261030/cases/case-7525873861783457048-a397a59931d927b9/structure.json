@@ -1,0 +1,130 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_base",
+    "description": "全画布固定底图，由上方的蓝色天空区域和下方的绿色草地/地面区域组成，中间有明显的水平分界线。保留天空中的白色云朵和心形图案，以及草地上的蓝色和黄色星星图案。"
+  },
+  "objects": [
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        132,
+        185,
+        870,
+        800
+      ],
+      "description": "承载内部照片的复古电脑窗口框架，包含标题栏、菜单栏和底部状态栏。标题栏显示 'My Computer'，菜单栏包含 'File', 'Edit', 'View', 'Help'。底部状态栏显示 't(s)' 和三个心形图标。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        135,
+        305,
+        525,
+        735
+      ],
+      "description": "左侧照片，展示陶艺工作台，包含装有画笔的容器、陶土碗和工具。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        525,
+        305,
+        865,
+        735
+      ],
+      "description": "右侧照片，展示一个人手持一个内部印有 'STAR' 字样的陶碗。"
+    },
+    {
+      "id": "overlay_cat_small",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        255,
+        600,
+        295
+      ],
+      "description": "位于主窗口标题栏右侧的小型像素猫头贴纸。"
+    },
+    {
+      "id": "overlay_cat_large",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        665,
+        980,
+        850
+      ],
+      "description": "位于主窗口右下角的大型白色像素猫贴纸。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        310,
+        600,
+        370
+      ],
+      "description": "位于两张照片中间上方的像素风格粉色爱心气泡贴纸。"
+    },
+    {
+      "id": "window_error",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        715,
+        245,
+        850
+      ],
+      "description": "左下角的 'Error' 弹窗，标题为 'ALONE'，包含 'OK' 按钮。"
+    },
+    {
+      "id": "window_pop",
+      "kind": "overlay",
+      "bbox": [
+        725,
+        260,
+        955,
+        375
+      ],
+      "description": "右上角的弹窗，标题为 'hey girl'，内容为 'he will not call'，包含 'i know', 'cry', 'idk' 三个按钮，右侧有一个鼠标指针图标。"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        5,
+        960,
+        130,
+        995
+      ],
+      "text": "PM 10:25\nAUGUST. 07 1990",
+      "color": "#0000FF",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_main",
+    "photo_left",
+    "photo_right",
+    "overlay_cat_small",
+    "overlay_heart",
+    "window_error",
+    "window_pop",
+    "overlay_cat_large",
+    "text_date"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1198
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1198
+      ],
+      "description": "带有水彩晕染、星星、翅膀和星星剪影的固定设计底图，整体为浅蓝白色调，保留纸张纹理和装饰图案。",
+      "background_type": "reference_clean",
+      "label": "带有水彩晕染、星星、翅膀和星星剪影的固定设计底图，整体为浅蓝",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        47,
+        192,
+        468,
+        863
+      ],
+      "description": "一位黑发女孩蹲在绿色植物墙前的照片，穿着条纹衬衫和拖鞋，保留摄影环境，边缘清晰。",
+      "label": "一位黑发女孩蹲在绿色植物墙前的照片，穿着条纹衬衫和拖鞋，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        360,
+        359,
+        648,
+        575
+      ],
+      "description": "白色花朵的特写照片，保留摄影环境，边缘清晰。",
+      "label": "白色花朵的特写照片，保留摄影环境，边缘清晰。",
+      "method": "local"
+    },
+    {
+      "id": "frame_1",
+      "kind": "frame",
+      "bbox": [
+        342,
+        335,
+        666,
+        599
+      ],
+      "description": "承载 photo_2 的拍立得式相框，带有圆角和阴影效果，位于 photo_2 下方。",
+      "photo_id": [
+        "photo_2"
+      ],
+      "label": "承载 photo_2 的拍立得式相框，带有圆角和阴影效果，位",
+      "method": "extract"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        414,
+        288,
+        792,
+        359
+      ],
+      "description": "♪ summer ♪",
+      "label": "♪ summer ♪",
+      "method": "local",
+      "text": "♪ summer ♪",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_2",
+      "kind": "text",
+      "bbox": [
+        414,
+        791,
+        792,
+        982
+      ],
+      "description": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "label": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "method": "local",
+      "text": "駆け抜けた恋、戻らない夏、\n綺麗な花火だった。",
+      "text_status": "known",
+      "style": {
+        "fill": "#333333",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_1",
+    "frame_1",
+    "photo_2",
+    "text_1",
+    "text_2"
+  ]
+}

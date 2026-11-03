@@ -1,0 +1,126 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "normalized_1000",
+  "background": {
+    "type": "reference_clean",
+    "id": "green_rain_bg",
+    "description": "全画布固定底图为带有雨滴和模糊绿色光影的纹理背景，整体呈现绿色调，边缘可见连续的水痕和光斑，作为承载独立照片和文字的固定设计单元保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_1",
+      "kind": "photo",
+      "bbox": [
+        150,
+        70,
+        500,
+        440
+      ],
+      "description": "左上角照片，展示雨滴覆盖下的绿色枫叶特写，背景为模糊的浅色，保留摄影环境。"
+    },
+    {
+      "id": "photo_2",
+      "kind": "photo",
+      "bbox": [
+        560,
+        225,
+        895,
+        485
+      ],
+      "description": "右上角照片，仰拍视角的树木，展示茂密的绿色树冠和蓝天，保留摄影环境。"
+    },
+    {
+      "id": "photo_3",
+      "kind": "photo",
+      "bbox": [
+        65,
+        478,
+        410,
+        740
+      ],
+      "description": "左下角照片，仰拍视角的树木，展示茂密的绿色树冠和蓝天，保留摄影环境。"
+    },
+    {
+      "id": "photo_4",
+      "kind": "photo",
+      "bbox": [
+        500,
+        520,
+        855,
+        910
+      ],
+      "description": "右下角照片，展示雨滴覆盖下的绿色模糊背景，保留摄影环境。"
+    },
+    {
+      "id": "text_1",
+      "kind": "text",
+      "bbox": [
+        65,
+        660,
+        575,
+        985
+      ],
+      "text": "Happiness\nIt may come and go\nLike a cloud can\nBe sure to\nTreasure the time spent\nBecause you'll never know\nThe next time you'll feel it again",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_1",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        50,
+        185,
+        110
+      ],
+      "description": "左上角的白色五角星装饰，位于照片上方。"
+    },
+    {
+      "id": "overlay_2",
+      "kind": "overlay",
+      "bbox": [
+        865,
+        195,
+        940,
+        255
+      ],
+      "description": "右上角的白色五角星装饰，位于照片上方。"
+    },
+    {
+      "id": "overlay_3",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        850,
+        930,
+        930
+      ],
+      "description": "右下角的白色五角星装饰，位于照片下方。"
+    },
+    {
+      "id": "overlay_4",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        300,
+        660,
+        630
+      ],
+      "description": "中间的白色螺旋线条装饰，连接多个照片区域。"
+    }
+  ],
+  "layer_order": [
+    "photo_1",
+    "photo_2",
+    "photo_3",
+    "photo_4",
+    "text_1",
+    "overlay_1",
+    "overlay_2",
+    "overlay_3",
+    "overlay_4"
+  ]
+}

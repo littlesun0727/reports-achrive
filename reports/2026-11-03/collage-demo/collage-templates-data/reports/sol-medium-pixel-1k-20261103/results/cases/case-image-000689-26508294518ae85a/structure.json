@@ -1,0 +1,42 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的俯拍静物照片铺满画布：深色斜向木板桌面上放着一杯饮品、木托盘和印有饮品名称的小卡片，画面上方露出浅色木板。桌面纹理与静物场景延伸至画布边缘，局部被奶油色圆点和手写文字覆盖；整体摄影环境作为可替换底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        47,
+        961,
+        1440
+      ],
+      "description": "散布在画面各处的奶油白色实心圆点装饰，大小近似，包含贴近左侧边缘的部分圆点及底部被画布边缘截断的圆点；作为一组独立叠加图案保留。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        501,
+        513,
+        821,
+        710
+      ],
+      "text": "Very little\nis needed to\nmake a happy life",
+      "color": "#F4F1DD",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_dots",
+    "text_quote"
+  ]
+}

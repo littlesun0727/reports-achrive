@@ -1,0 +1,360 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#132422"
+  },
+  "objects": [
+    {
+      "id": "photo_storefront",
+      "kind": "photo",
+      "bbox": [
+        259,
+        279,
+        635,
+        782
+      ],
+      "description": "书店入口的竖向照片，正面拍摄发光的SiSYPHE招牌、红色门楣、两侧橱窗和店内书架，入口深处有较小的人影。完整保留建筑与室内摄影环境，显示范围为矩形。"
+    },
+    {
+      "id": "photo_aisle",
+      "kind": "photo",
+      "bbox": [
+        650,
+        395,
+        938,
+        780
+      ],
+      "description": "书店走道的竖向照片，斜向拍摄左侧木质书架、上部招牌、右侧陈列台和地面，没有突出的人物主体。保留完整摄影环境，右上部分被心形零食照片遮挡。"
+    },
+    {
+      "id": "photo_books",
+      "kind": "photo",
+      "bbox": [
+        194,
+        796,
+        543,
+        1103
+      ],
+      "description": "书籍陈列的近景照片，上半部是多排正面展示的书封，下半部是水平堆叠的书与木质台面。保留书架及全部摄影环境，左上角被倾斜的独立书本照片遮挡。"
+    },
+    {
+      "id": "photo_interior",
+      "kind": "photo",
+      "bbox": [
+        557,
+        795,
+        869,
+        1211
+      ],
+      "description": "书店内部竖向照片，前景为堆满书籍的木质展示桌，后方为书架、立柱与悬挂标牌，上方可见吊灯和天花板。没有突出的人物主体，摄影环境完整保留。"
+    },
+    {
+      "id": "photo_snacks",
+      "kind": "photo",
+      "bbox": [
+        829,
+        255,
+        1059,
+        485
+      ],
+      "description": "心形区域内的零食包装近景，多袋白色包装交叠，带红黄色标签，周围还有其他包装和承放环境。保留窗口内摄影背景，白色细碎线沿完整心形窗口边缘分布；下尖角覆盖书店走道照片上部。"
+    },
+    {
+      "id": "photo_cup",
+      "kind": "photo",
+      "bbox": [
+        50,
+        377,
+        194,
+        569
+      ],
+      "description": "一杯浅米色奶饮，透明杯盖与杯身完整可见，杯身带绿色和黄色印花，杯体略倾斜。沿整杯及杯盖轮廓去除摄影背景，外侧有贴合轮廓的白色描边，周围直接露出深色底图。"
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        35,
+        663,
+        240,
+        826
+      ],
+      "description": "倾斜摆放的一本浅灰白封面书的近景，封面有橙黄色狗脸插画及可辨书名“人类的日子”。沿整本书的外轮廓显示，摄影背景已去除，白色细描边贴合书本边缘；上沿被独立小狗装饰遮挡，右下角覆盖书籍陈列照片。"
+    },
+    {
+      "id": "photo_rio",
+      "kind": "photo",
+      "bbox": [
+        934,
+        822,
+        1029,
+        1017
+      ],
+      "description": "一罐白绿配色的RIO饮料，罐身有青葡萄图案和“清爽”字样，完整罐体略向右倾。摄影背景沿罐体轮廓去除，白色描边围绕罐顶、两侧和罐底，周围露出深色底图。"
+    },
+    {
+      "id": "overlay_top_left_note",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        150,
+        221,
+        340
+      ],
+      "description": "左上六行白色手写说明，含“第一次点古茗”“这杯生椰拿铁”“很浓郁！”“就是不另外加糖”“有点过于甜了”等。字形笔画、逐字间距及行内起伏带有原有手写造型，整段作为固定字样保留。"
+    },
+    {
+      "id": "overlay_top_cat",
+      "kind": "overlay",
+      "bbox": [
+        241,
+        190,
+        310,
+        254
+      ],
+      "description": "浅黄色猫头贴纸，黑色手绘外轮廓，内有眼睛、胡须、鼻口和耳部细节，作为完整独立插画保留。"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        331,
+        162,
+        429,
+        254
+      ],
+      "description": "猫头右侧的一组三枚浅黄色手绘空心星星，大小不同、错落排列，交叉笔画属于同一局部星星装饰，整体保留。"
+    },
+    {
+      "id": "overlay_top_right_note",
+      "kind": "overlay",
+      "bbox": [
+        626,
+        108,
+        1057,
+        234
+      ],
+      "description": "右上四行白色手写零食说明，可辨“光是看到这个包装”“嘴巴里就开始分泌口水了谁懂！”及“虽然很辣但是真的很过瘾哈哈哈哈哈”等。文字大小、笔画与各行起始位置不完全统一，保留原有手写排布。"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        679,
+        313,
+        797,
+        360
+      ],
+      "description": "三颗横向排列并略相交的灰白心形装饰，左侧为实心，中间为细线空心，右侧带点状填充，三颗共同构成完整局部设计。"
+    },
+    {
+      "id": "overlay_cup_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        521,
+        104,
+        610
+      ],
+      "description": "饮料杯左下的两枚白色细线四角闪光图案，一大一小上下错落，保留完整线条及其间透明空隙。"
+    },
+    {
+      "id": "overlay_book_dog",
+      "kind": "overlay",
+      "bbox": [
+        136,
+        619,
+        223,
+        681
+      ],
+      "description": "贴在书本上沿的浅黄色小狗插画，棕色耳朵，爪子向右伸出，右上附有小型“+1”等符号。具有独立贴纸轮廓，覆盖书本上缘，不与书封插画合并。"
+    },
+    {
+      "id": "overlay_book_note",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        858,
+        187,
+        914
+      ],
+      "description": "书本下方两行白色手写字样“大笨狗的著作”“哈哈哈哈哈”，保留不规则笔画、字距和原有行间排布。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        978,
+        518,
+        1039,
+        636
+      ],
+      "description": "右侧竖向散落的青绿色手绘气泡装饰，包含大小不同的空心圆及圆内短小高光线，作为一个完整局部装饰保留。"
+    },
+    {
+      "id": "overlay_rio_note",
+      "kind": "overlay",
+      "bbox": [
+        946,
+        672,
+        1068,
+        756
+      ],
+      "description": "饮料罐上方三行白色手写说明，可辨“这个口味儿”“的RIO”“好喝！”。中英文混排带有独立手写字形和不均匀布局，整体保留。"
+    },
+    {
+      "id": "overlay_wow",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        777,
+        1000,
+        826
+      ],
+      "description": "黄色倾斜手绘“WOW!”艺术字，附有短放射线、小星点与闪光，完整字样和附属点缀共同保留。"
+    },
+    {
+      "id": "overlay_like",
+      "kind": "overlay",
+      "bbox": [
+        958,
+        1031,
+        1066,
+        1068
+      ],
+      "description": "彩色“Like”贴纸，左侧为绿色方块及粉色勾号，字母分别使用粉、黄、青等颜色，周围附小星点。文字、底板和点缀构成同一个完整设计单元。"
+    },
+    {
+      "id": "overlay_mushrooms",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        1008,
+        167,
+        1089
+      ],
+      "description": "两朵红色蘑菇插画，一大一小，菌盖带白色斑点，菌柄为灰褐色，整体带手绘质感。两朵共同构成左下局部装饰。"
+    },
+    {
+      "id": "overlay_lower_cat",
+      "kind": "overlay",
+      "bbox": [
+        139,
+        1125,
+        219,
+        1177
+      ],
+      "description": "横躺的白色小猫贴纸，黑色斑块和面部线条，周围附小型白色闪光符号，整体轮廓及附属点缀保留。"
+    },
+    {
+      "id": "overlay_music_note",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        1197,
+        274,
+        1257
+      ],
+      "description": "左下两行白色手写说明“近期听到的一首”“很好听的歌！”，字形大小和基线有轻微起伏，保留原有手写视觉形式。"
+    },
+    {
+      "id": "overlay_music_card",
+      "kind": "overlay",
+      "bbox": [
+        303,
+        1110,
+        551,
+        1357
+      ],
+      "description": "圆角音乐播放卡片，深绿色底面，粗糙白色手绘线沿外边缘围合。内部含左上圆形专辑图、小红色应用标记、右上音频图标、歌曲标题“Something to Hop…”、歌手“Phoebe Ryan”及底部上一首、暂停、下一首按钮。作为固定界面设计整体保留，不将内嵌封面另作客户照片。"
+    },
+    {
+      "id": "overlay_music_symbols",
+      "kind": "overlay",
+      "bbox": [
+        232,
+        1283,
+        302,
+        1359
+      ],
+      "description": "音乐卡片左下的一组绿色音符、黄色小闪光及青绿色四角星，上下错落，整体作为独立音乐主题装饰保留。"
+    },
+    {
+      "id": "overlay_rating_stars",
+      "kind": "overlay",
+      "bbox": [
+        339,
+        1371,
+        501,
+        1394
+      ],
+      "description": "音乐卡片下方横向排列的六颗白色实心五角星，间距规则，整体作为一条固定星级装饰保留。"
+    },
+    {
+      "id": "overlay_palm",
+      "kind": "overlay",
+      "bbox": [
+        879,
+        1097,
+        970,
+        1200
+      ],
+      "description": "右下棕榈树插画，灰绿色叶片、棕色树干、橙黄色椰果，树干前叠有浅色“holiday”标签。树与文字标签构成一个完整固定设计。"
+    },
+    {
+      "id": "overlay_bottom_note",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        1238,
+        970,
+        1398
+      ],
+      "description": "底部五行白色手写说明：“进西西弗书店随便逛了逛”“最终啥也没买～”“想起来学生时代特别喜欢逛书店”“很多时候也不买书不看书”“就单纯喜欢里面的环境和精美的陈列～”。各行居中错落、字形带手写起伏，整体保留原有文字造型与位置。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1383,
+        1076,
+        1402
+      ],
+      "description": "右下角低对比度的小型圆角水印标记，含暗色小字，文字与半透明底板作为完整固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_storefront",
+    "photo_aisle",
+    "photo_books",
+    "photo_interior",
+    "photo_snacks",
+    "photo_cup",
+    "photo_book",
+    "photo_rio",
+    "overlay_top_left_note",
+    "overlay_top_cat",
+    "overlay_top_stars",
+    "overlay_top_right_note",
+    "overlay_hearts",
+    "overlay_cup_sparkles",
+    "overlay_book_dog",
+    "overlay_book_note",
+    "overlay_bubbles",
+    "overlay_rio_note",
+    "overlay_wow",
+    "overlay_like",
+    "overlay_mushrooms",
+    "overlay_lower_cat",
+    "overlay_music_note",
+    "overlay_music_card",
+    "overlay_music_symbols",
+    "overlay_rating_stars",
+    "overlay_palm",
+    "overlay_bottom_note",
+    "overlay_watermark"
+  ]
+}

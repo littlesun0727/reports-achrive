@@ -1,0 +1,351 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1442
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1442
+      ],
+      "description": "一张连续的城市街道摄影底图，画面包含黄昏天空、电线杆、建筑立面和路面。中央的牛皮纸卡片遮挡了大部分区域，但画布四边均露出连续的街景环境，作为全画幅背景承载整体构图。",
+      "background_type": "photo",
+      "label": "一张连续的城市街道摄影底图，画面包含黄昏天空、电线杆、建筑立",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_clip_top",
+      "kind": "overlay",
+      "bbox": [
+        337,
+        92,
+        437,
+        242
+      ],
+      "description": "位于顶部边缘的金属长尾夹，下半部分压在牛皮纸卡片上，上半部分露在卡片外。",
+      "label": "位于顶部边缘的金属长尾夹，下半部分压在牛皮纸卡片上，上半部分",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_bottom",
+      "kind": "overlay",
+      "bbox": [
+        356,
+        1211,
+        459,
+        1363
+      ],
+      "description": "位于底部边缘的金属长尾夹，上半部分压在牛皮纸卡片上，下半部分露在卡片外。",
+      "label": "位于底部边缘的金属长尾夹，上半部分压在牛皮纸卡片上，下半部分",
+      "method": "extract"
+    },
+    {
+      "id": "paper_card",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        182,
+        977,
+        1269
+      ],
+      "description": "占据画面主体的矩形牛皮纸卡片，中间有一条横向的白色缝线装饰，将卡片分为上下两部分。所有照片和文字元素均附着在此卡片上。",
+      "label": "占据画面主体的矩形牛皮纸卡片，中间有一条横向的白色缝线装饰，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_summer",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        209,
+        275,
+        339
+      ],
+      "description": "左上角带有麻绳挂环的标签贴纸，上面印有“summer paradise”字样。",
+      "label": "左上角带有麻绳挂环的标签贴纸，上面印有“summer par",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        184,
+        274,
+        448,
+        469
+      ],
+      "description": "显示蓝色海面与船舷栏杆的照片，右上角贴有一张写有“The throbbing of summer is a grand encounter”的小纸条。",
+      "label": "显示蓝色海面与船舷栏杆的照片，右上角贴有一张写有“The t",
+      "method": "local"
+    },
+    {
+      "id": "overlay_starfish",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        425,
+        243,
+        505
+      ],
+      "description": "两枚白色海星图案贴纸，叠放在海面照片的左下角。",
+      "label": "两枚白色海星图案贴纸，叠放在海面照片的左下角。",
+      "method": "extract"
+    },
+    {
+      "id": "text_best_journey",
+      "kind": "text",
+      "bbox": [
+        173,
+        534,
+        346,
+        678
+      ],
+      "description": "The best\njourneyS Start\nwith a one-way\nticket in hand\nand no plan\nin mind",
+      "label": "The best\njourneyS Start\nwith a",
+      "method": "local",
+      "text": "The best\njourneyS Start\nwith a one-way\nticket in hand\nand no plan\nin mind",
+      "text_status": "known",
+      "style": {
+        "fill": "#2B2B2B",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_writing",
+      "kind": "photo",
+      "bbox": [
+        354,
+        512,
+        524,
+        685
+      ],
+      "description": "显示人物正在桌前书写的照片，左侧被文字遮挡。",
+      "label": "显示人物正在桌前书写的照片，左侧被文字遮挡。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tag_little_things",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        490,
+        551,
+        526
+      ],
+      "description": "位于书写照片右上角的报纸风格小标签，印有“LITTLE THINGS make big days.”。",
+      "label": "位于书写照片右上角的报纸风格小标签，印有“LITTLE TH",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bbq",
+      "kind": "photo",
+      "bbox": [
+        567,
+        267,
+        896,
+        512
+      ],
+      "description": "显示烤肉架和配菜碗的美食照片，左侧边缘有竖排文字“Dora:”。",
+      "label": "显示烤肉架和配菜碗的美食照片，左侧边缘有竖排文字“Dora:",
+      "method": "local"
+    },
+    {
+      "id": "overlay_note_focus",
+      "kind": "overlay",
+      "bbox": [
+        799,
+        238,
+        940,
+        310
+      ],
+      "description": "右上角倾斜放置的白色便签纸，手写内容“focus on the good”。",
+      "label": "右上角倾斜放置的白色便签纸，手写内容“focus on th",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_happy_sun",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        526,
+        918,
+        598
+      ],
+      "description": "手绘风格的太阳图案及单词“Happy”，位于中部右侧。",
+      "label": "手绘风格的太阳图案及单词“Happy”，位于中部右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "text_children_day",
+      "kind": "text",
+      "bbox": [
+        702,
+        620,
+        934,
+        685
+      ],
+      "description": "Children's Day",
+      "label": "Children's Day",
+      "method": "local",
+      "text": "Children's Day",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        184,
+        779,
+        508,
+        1182
+      ],
+      "description": "左下方的拍立得相纸框，底部留白处写有“Arrebol☆”。",
+      "photo_id": [
+        "photo_girl_field"
+      ],
+      "label": "左下方的拍立得相纸框，底部留白处写有“Arrebol☆”。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_girl_field",
+      "kind": "photo",
+      "bbox": [
+        203,
+        815,
+        486,
+        1089
+      ],
+      "description": "拍立得相纸内的照片，显示戴帽子的女孩站在草地石墙旁。",
+      "label": "拍立得相纸内的照片，显示戴帽子的女孩站在草地石墙旁。",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl_street",
+      "kind": "photo",
+      "bbox": [
+        583,
+        793,
+        869,
+        1017
+      ],
+      "description": "右侧显示穿灰色背心女孩站在车旁的照片，头部被裁剪。",
+      "label": "右侧显示穿灰色背心女孩站在车旁的照片，头部被裁剪。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_postcard_joy",
+      "kind": "overlay",
+      "bbox": [
+        805,
+        757,
+        945,
+        858
+      ],
+      "description": "右上角的明信片样式贴纸，印有邮票框和手写体“joy has a habit of returning.”。",
+      "label": "右上角的明信片样式贴纸，印有邮票框和手写体“joy has ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_to_be_continued",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        988,
+        945,
+        1031
+      ],
+      "description": "由三个独立小方块组成的装饰条，分别写着“To”、“be”、“continued”。",
+      "label": "由三个独立小方块组成的装饰条，分别写着“To”、“be”、“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_yellow",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        1038,
+        767,
+        1125
+      ],
+      "description": "黄色便签纸，上面有多行难以辨认的手写英文。",
+      "label": "黄色便签纸，上面有多行难以辨认的手写英文。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shaker",
+      "kind": "overlay",
+      "bbox": [
+        821,
+        1038,
+        929,
+        1132
+      ],
+      "description": "蓝色的沙锤或摇铃插画贴纸，周围有小星星点缀。",
+      "label": "蓝色的沙锤或摇铃插画贴纸，周围有小星星点缀。",
+      "method": "extract"
+    },
+    {
+      "id": "text_souvenir",
+      "kind": "text",
+      "bbox": [
+        637,
+        1146,
+        923,
+        1226
+      ],
+      "description": "The best Souvenir iS the\nperson you became while\nno one was watching",
+      "label": "The best Souvenir iS the\nperso",
+      "method": "local",
+      "text": "The best Souvenir iS the\nperson you became while\nno one was watching",
+      "text_status": "known",
+      "style": {
+        "fill": "#2B2B2B",
+        "font": "hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "paper_card",
+    "overlay_label_summer",
+    "photo_sea",
+    "overlay_starfish",
+    "text_best_journey",
+    "photo_writing",
+    "overlay_tag_little_things",
+    "photo_bbq",
+    "overlay_note_focus",
+    "overlay_happy_sun",
+    "text_children_day",
+    "frame_polaroid",
+    "photo_girl_field",
+    "photo_girl_street",
+    "overlay_postcard_joy",
+    "overlay_to_be_continued",
+    "overlay_note_yellow",
+    "overlay_shaker",
+    "text_souvenir",
+    "overlay_clip_top",
+    "overlay_clip_bottom"
+  ]
+}

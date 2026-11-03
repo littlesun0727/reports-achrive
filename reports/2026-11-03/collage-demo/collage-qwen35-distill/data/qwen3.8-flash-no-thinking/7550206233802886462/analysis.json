@@ -1,0 +1,335 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "bg_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "全画布固定底图，上半部分为深棕色模糊背景并散布金色星星图案，下半部分为浅棕色纹理区域，整体具有复古质感。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图，上半部分为深棕色模糊背景并散布金色星星图案，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        153,
+        148,
+        738,
+        711
+      ],
+      "description": "中央人物半身像，身穿棕色外套和条纹衬衫，手托腮微笑。主体周围有白色不规则描边轮廓，与背景分离。",
+      "label": "中央人物半身像，身穿棕色外套和条纹衬衫，手托腮微笑。主体周围",
+      "method": "local"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        126,
+        207,
+        342,
+        432
+      ],
+      "description": "左侧拍立得相纸风格边框，边缘呈撕裂状，顶部贴有胶带。内部包含一张照片窗口。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "左侧拍立得相纸风格边框，边缘呈撕裂状，顶部贴有胶带。内部包含",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        144,
+        225,
+        324,
+        414
+      ],
+      "description": "左侧框内照片，同一位人物穿着相同服装，手扶耳侧，面带微笑。",
+      "label": "左侧框内照片，同一位人物穿着相同服装，手扶耳侧，面带微笑。",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        558,
+        207,
+        774,
+        432
+      ],
+      "description": "右侧拍立得相纸风格边框，边缘呈撕裂状，顶部贴有胶带。内部包含一张照片窗口。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右侧拍立得相纸风格边框，边缘呈撕裂状，顶部贴有胶带。内部包含",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        576,
+        225,
+        756,
+        414
+      ],
+      "description": "右侧框内照片，同一位人物穿着相同服装，手指指向镜头方向，表情俏皮。",
+      "label": "右侧框内照片，同一位人物穿着相同服装，手指指向镜头方向，表情",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        351,
+        198,
+        477
+      ],
+      "description": "一只橘白相间的猫站立在左侧照片下方，作为独立装饰元素叠加在画面中。",
+      "label": "一只橘白相间的猫站立在左侧照片下方，作为独立装饰元素叠加在画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_books",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        432,
+        252,
+        522
+      ],
+      "description": "一叠复古书籍，位于猫的下方，书脊可见文字细节。",
+      "label": "一叠复古书籍，位于猫的下方，书脊可见文字细节。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        540,
+        135,
+        612
+      ],
+      "description": "一台复古胶片相机，位于左下角，镜头朝向右上方。",
+      "label": "一台复古胶片相机，位于左下角，镜头朝向右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_piano",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        378,
+        792,
+        513
+      ],
+      "description": "一架立式钢琴的局部图像，位于右侧照片下方，琴键清晰可见。",
+      "label": "一架立式钢琴的局部图像，位于右侧照片下方，琴键清晰可见。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ghetto_blaster",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        342,
+        828,
+        414
+      ],
+      "description": "一台便携式收录机（Ghetto Blaster），悬浮在右侧照片旁。",
+      "label": "一台便携式收录机（Ghetto Blaster），悬浮在右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_l",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        234,
+        162,
+        288
+      ],
+      "description": "一只蝴蝶贴纸，位于左侧照片左上方。",
+      "label": "一只蝴蝶贴纸，位于左侧照片左上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_r",
+      "kind": "overlay",
+      "bbox": [
+        711,
+        270,
+        774,
+        324
+      ],
+      "description": "一只蝴蝶贴纸，位于右侧照片右上方。",
+      "label": "一只蝴蝶贴纸，位于右侧照片右上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_l",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        423,
+        144,
+        468
+      ],
+      "description": "一个回形针图形，位于左侧书籍堆上方。",
+      "label": "一个回形针图形，位于左侧书籍堆上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip_r",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        369,
+        756,
+        414
+      ],
+      "description": "一个回形针图形，位于右侧钢琴上方。",
+      "label": "一个回形针图形，位于右侧钢琴上方。",
+      "method": "extract"
+    },
+    {
+      "id": "text_note_l",
+      "kind": "text",
+      "bbox": [
+        234,
+        414,
+        360,
+        459
+      ],
+      "description": "you keep ending up\nin my shaking hands.",
+      "label": "you keep ending up\nin my shaki",
+      "method": "local",
+      "text": "you keep ending up\nin my shaking hands.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_note_r",
+      "kind": "text",
+      "bbox": [
+        612,
+        405,
+        720,
+        450
+      ],
+      "description": "I have buried you\nin every place.",
+      "label": "I have buried you\nin every pla",
+      "method": "local",
+      "text": "I have buried you\nin every place.",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_name",
+      "kind": "text",
+      "bbox": [
+        54,
+        657,
+        171,
+        684
+      ],
+      "description": "Kim Minkyu",
+      "label": "Kim Minkyu",
+      "method": "local",
+      "text": "Kim Minkyu",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        729,
+        657,
+        828,
+        684
+      ],
+      "description": "20010312",
+      "label": "20010312",
+      "method": "local",
+      "text": "20010312",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_albums",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        522,
+        846,
+        630
+      ],
+      "description": "三张重叠排列的小专辑封面缩略图，带有“PANTONE”字样，位于右下角。",
+      "label": "三张重叠排列的小专辑封面缩略图，带有“PANTONE”字样，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_texture",
+    "photo_left",
+    "frame_left",
+    "photo_right",
+    "frame_right",
+    "overlay_cat",
+    "overlay_books",
+    "overlay_camera",
+    "overlay_piano",
+    "overlay_ghetto_blaster",
+    "overlay_butterfly_l",
+    "overlay_butterfly_r",
+    "overlay_clip_l",
+    "overlay_clip_r",
+    "text_note_l",
+    "text_note_r",
+    "photo_main",
+    "text_name",
+    "text_date",
+    "overlay_albums"
+  ]
+}

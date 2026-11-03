@@ -1,0 +1,322 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    810,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        810,
+        1440
+      ],
+      "description": "连续的暖色卧室摄影画面覆盖全画布：百叶窗与气球在左侧，床、靠枕、玩偶、花束和床品延伸至右侧及下方；场景透过拼贴照片之间的空隙并沿四边连续可见。画面中未见清晰的真实人物主体，人物出现在上层独立照片内。保留整幅卧室环境，照片卡片和装饰遮挡的部分不拆分。",
+      "background_type": "photo",
+      "label": "连续的暖色卧室摄影画面覆盖全画布：百叶窗与气球在左侧，床、靠",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_white_line",
+      "kind": "overlay",
+      "bbox": [
+        226,
+        0,
+        755,
+        1440
+      ],
+      "description": "一条细白色手绘曲线从画面上缘附近延伸，斜穿上半部并在中下部形成大弧线与回环，继续通向下缘；线条在照片卡片后方被遮挡，作为连续的独立装饰保留。",
+      "label": "一条细白色手绘曲线从画面上缘附近延伸，斜穿上半部并在中下部形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        359,
+        61,
+        419,
+        167
+      ],
+      "description": "百叶窗前的白色手绘闪光符号与小星点组成的装饰簇，保留完整笔画。",
+      "label": "百叶窗前的白色手绘闪光符号与小星点组成的装饰簇，保留完整笔画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_stars",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        322,
+        253,
+        418
+      ],
+      "description": "中央斜置照片左侧的黄色空心星和白色、粉色小星组成的装饰簇。",
+      "label": "中央斜置照片左侧的黄色空心星和白色、粉色小星组成的装饰簇。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        497,
+        427,
+        582,
+        526
+      ],
+      "description": "中央偏右的蓝色音符、粉色音符及白色小符号组成的独立手绘装饰簇。",
+      "label": "中央偏右的蓝色音符、粉色音符及白色小符号组成的独立手绘装饰簇",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        529,
+        62,
+        679,
+        249
+      ],
+      "description": "右上方竖向照片内口，年轻女性坐在床上，戴浅色帽子并捧着小蛋糕，人物居中偏右；床品与百叶窗等室内摄影环境保留。",
+      "label": "右上方竖向照片内口，年轻女性坐在床上，戴浅色帽子并捧着小蛋糕",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        519,
+        52,
+        689,
+        300
+      ],
+      "description": "右上方白色拍立得相纸框，带宽白色下边及手写韩文说明，左侧附有粉色星形和右侧蓝色小箭头贴饰；整体作为照片承载框保留。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "右上方白色拍立得相纸框，带宽白色下边及手写韩文说明，左侧附有",
+      "method": "extract"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        258,
+        326,
+        434,
+        511
+      ],
+      "description": "画面中央略倾斜的竖向照片，年轻女性长发坐在床上，身体微侧并抬手靠近脸部；保留照片内的床品、气球和百叶窗环境。",
+      "label": "画面中央略倾斜的竖向照片，年轻女性长发坐在床上，身体微侧并抬",
+      "method": "local"
+    },
+    {
+      "id": "frame_center",
+      "kind": "frame",
+      "bbox": [
+        238,
+        306,
+        450,
+        571
+      ],
+      "description": "中央倾斜的白色拍立得相纸框，具有较宽下边；右下沿附着一只白色卡通小熊贴饰，贴饰压在框边上，随该框体组合保留。",
+      "photo_id": [
+        "photo_center"
+      ],
+      "label": "中央倾斜的白色拍立得相纸框，具有较宽下边；右下沿附着一只白色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        449,
+        600,
+        657,
+        733
+      ],
+      "description": "画面中右部横向近景照片，年轻女性面对镜头嘟嘴并用手指向面前的小蛋糕；保留人物周围的床品及室内环境。",
+      "label": "画面中右部横向近景照片，年轻女性面对镜头嘟嘴并用手指向面前的",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        439,
+        584,
+        669,
+        766
+      ],
+      "description": "中右部白色横向拍立得相纸框，宽白色下边印有一行黑色手绘表情符号，作为照片承载框整体保留。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "中右部白色横向拍立得相纸框，宽白色下边印有一行黑色手绘表情符",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_stars_lower",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        915,
+        204,
+        986
+      ],
+      "description": "左侧倾斜照片上方的两枚白色空心手绘星星，作为一组独立装饰保留。",
+      "label": "左侧倾斜照片上方的两枚白色空心手绘星星，作为一组独立装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        216,
+        887,
+        332,
+        1064
+      ],
+      "description": "左下偏中的竖向照片，年轻女性戴浅色帽子捧着蛋糕坐在床上；保留照片内百叶窗、气球和床品环境。",
+      "label": "左下偏中的竖向照片，年轻女性戴浅色帽子捧着蛋糕坐在床上；保留",
+      "method": "local"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        195,
+        866,
+        369,
+        1108
+      ],
+      "description": "左下偏中的倾斜白色拍立得相纸框，照片下方留有宽白边，框体整体承载对应照片。",
+      "photo_id": [
+        "photo_lower_left"
+      ],
+      "label": "左下偏中的倾斜白色拍立得相纸框，照片下方留有宽白边，框体整体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cake_bear",
+      "kind": "overlay",
+      "bbox": [
+        369,
+        979,
+        423,
+        1062
+      ],
+      "description": "花束上方的小熊与草莓蛋糕帽卡通贴纸，带粉色、黄色和绿色细节，作为完整独立贴纸保留。",
+      "label": "花束上方的小熊与草莓蛋糕帽卡通贴纸，带粉色、黄色和绿色细节，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_birthday_left",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        1034,
+        182,
+        1169
+      ],
+      "description": "左侧浅色枕面上的黑色斜向手写艺术字“Happy Birthday”，字形、倾斜方向及细笔画造型作为整体装饰保留。",
+      "label": "左侧浅色枕面上的黑色斜向手写艺术字“Happy Birthd",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_birthday_script",
+      "kind": "overlay",
+      "bbox": [
+        463,
+        972,
+        757,
+        1105
+      ],
+      "description": "画面中右部白色手写艺术字“happy birthday”，周围连有小爱心、星点和加号等笔画装饰，整体作为一组固定字形装饰保留。",
+      "label": "画面中右部白色手写艺术字“happy birthday”，周",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_stars",
+      "kind": "overlay",
+      "bbox": [
+        368,
+        802,
+        444,
+        890
+      ],
+      "description": "床边玩偶和花束上方的黄色手绘小星星与短线组成的装饰簇。",
+      "label": "床边玩偶和花束上方的黄色手绘小星星与短线组成的装饰簇。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        1245,
+        216,
+        1318
+      ],
+      "description": "左下方白色猫咪线稿、爪印与周边小星点组成的手绘装饰簇，保留完整图案。",
+      "label": "左下方白色猫咪线稿、爪印与周边小星点组成的手绘装饰簇，保留完",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        241,
+        1202,
+        412,
+        1349
+      ],
+      "description": "画面底部倾斜的竖向照片，年轻女性穿浅色服装在床边抬手举起枕头，呈侧身姿态；保留照片内百叶窗、气球和室内环境。",
+      "label": "画面底部倾斜的竖向照片，年轻女性穿浅色服装在床边抬手举起枕头",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        220,
+        1163,
+        436,
+        1425
+      ],
+      "description": "底部倾斜的白色拍立得相纸框，照片下方宽白边印有黑色小熊线稿装饰，整体作为照片承载框保留。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "底部倾斜的白色拍立得相纸框，照片下方宽白边印有黑色小熊线稿装",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_white_line",
+    "overlay_top_sparkles",
+    "overlay_left_stars",
+    "overlay_music",
+    "photo_top",
+    "frame_top",
+    "photo_center",
+    "frame_center",
+    "overlay_left_stars_lower",
+    "photo_right",
+    "frame_right",
+    "photo_lower_left",
+    "frame_lower_left",
+    "overlay_yellow_stars",
+    "overlay_cake_bear",
+    "overlay_birthday_left",
+    "overlay_birthday_script",
+    "overlay_cat_doodle",
+    "photo_bottom",
+    "frame_bottom"
+  ]
+}
