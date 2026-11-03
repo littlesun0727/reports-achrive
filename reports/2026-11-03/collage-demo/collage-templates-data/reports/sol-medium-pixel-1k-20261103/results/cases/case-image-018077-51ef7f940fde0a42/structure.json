@@ -1,0 +1,346 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#C8C6C7"
+  },
+  "objects": [
+    {
+      "id": "paper_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        259
+      ],
+      "description": "顶部横贯画布的浅米色方格纸，带蓝灰色网格、纸张纹理和不规则撕裂下沿；右侧下沿向画布顶部抬升。作为局部固定纸张保留，不包含压在其上的标题。"
+    },
+    {
+      "id": "paper_lower",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        610,
+        1080,
+        1404
+      ],
+      "description": "横跨画面中下部的斜向浅色方格纸，保留细网格、纸纹和毛糙撕边。上边从左侧约870像素处向右上方倾斜，下边从左下角附近向右侧约1080像素处抬升；人物和标签遮住部分纸面。"
+    },
+    {
+      "id": "orange_bar",
+      "kind": "overlay",
+      "bbox": [
+        503,
+        230,
+        1040,
+        274
+      ],
+      "description": "中文标题下方的橙红色横条，左端局部受到纸张撕边和标题遮挡，右端被嘴部照片覆盖；独立于字形的固定色条。"
+    },
+    {
+      "id": "title_chinese",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        59,
+        1038,
+        253
+      ],
+      "description": "黑色超大标题“不交{作业}”，包含两侧花括号。各字及括号具有特定粗重轮廓、尺寸和错落关系，整体作为艺术字保留，不包含下方橙红横条或嘴部照片。"
+    },
+    {
+      "id": "title_english",
+      "kind": "text",
+      "bbox": [
+        57,
+        288,
+        1048,
+        375
+      ],
+      "text": "NO HOMEWORK",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "photo_mouth",
+      "kind": "photo",
+      "bbox": [
+        853,
+        192,
+        1043,
+        331
+      ],
+      "description": "单独显示的一张张开嘴部近景，包含红色嘴唇、上下牙齿、暗色口腔和舌头，无完整面孔。摄影背景沿嘴唇外轮廓去除，保留略毛糙的剪贴边缘；压住中文标题右下部、橙色横条及英文标题上缘。"
+    },
+    {
+      "id": "checker_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        397,
+        54,
+        555
+      ],
+      "description": "左侧贴着画布边缘的黑白棋盘格装饰，由交错方块及顶部孤立小方块组成，左侧部分方块被画布裁切。"
+    },
+    {
+      "id": "news_rules",
+      "kind": "overlay",
+      "bbox": [
+        515,
+        396,
+        885,
+        565
+      ],
+      "description": "中上部向右上倾斜的黄色剪报纸条，带不规则纸边与黑色混合字形，可辨“the rules.”；左侧和下部被其他剪报、对话框及人物遮住。"
+    },
+    {
+      "id": "news_society",
+      "kind": "overlay",
+      "bbox": [
+        344,
+        416,
+        945,
+        645
+      ],
+      "description": "中央偏上的宽黄色剪报纸条，斜向右上展开，可辨“society”及左侧部分文字。保留剪报纸边、印刷字形和色差，人物遮住其中较大部分。"
+    },
+    {
+      "id": "news_shocking",
+      "kind": "overlay",
+      "bbox": [
+        352,
+        502,
+        872,
+        689
+      ],
+      "description": "中央斜放的黄色文字剪报，可辨“around shocking”等片段，左端还有残缺文字；保留纸张边缘和印刷外观，上下与其他剪报重叠，前方人物遮挡局部。"
+    },
+    {
+      "id": "news_black_act",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        502,
+        904,
+        572
+      ],
+      "description": "中央偏右的小块黑底剪报标签，斜向摆放，露出浅黄色“act”字样，其余部分受到附近黄色剪报和动物人物遮挡。"
+    },
+    {
+      "id": "news_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        676,
+        365,
+        872
+      ],
+      "description": "左侧人物后方露出的黄色剪报残片，沿斜向纸边可见“it w”等不完整黑字，下部带黑底浅字印刷区域；大部分被人物和下方方格纸遮挡，按这块局部剪报保留。"
+    },
+    {
+      "id": "news_bottom_yellow",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        1085,
+        946,
+        1274
+      ],
+      "description": "右下至中央下部斜放的黄色剪报，露出“as well THE”等混合大小写文字，上部还有窄浅色文字区域。保留整块剪报的撕边与印刷，局部被人物腿部及错误对话框遮住。"
+    },
+    {
+      "id": "news_bottom_black",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        1230,
+        805,
+        1408
+      ],
+      "description": "底部斜向黑白剪报设计，含相接的黑色纸片、白色残缺英文和右侧放大的白色字形，边缘参差。中央人物脚部遮住其上方部分，保留完整可见剪报组合。"
+    },
+    {
+      "id": "pin_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        169,
+        438,
+        273,
+        534
+      ],
+      "description": "左侧动物人物头部后方的斜向黑白别针状装饰，含上端环形弯曲部分和向右下伸出的细长结构，局部被人物贴纸遮住。"
+    },
+    {
+      "id": "dancer_left",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        451,
+        399,
+        1226
+      ],
+      "description": "左侧黑白网点版画式拟人动物舞者贴纸，包含尖长头部、向左上举起的手臂、红色与浅绿色菱格上衣、黑色长腿及向右弯起的脚。完整外缘带不规则白色剪贴边；属于固定插画拼贴而非独立摄影窗口，右侧局部被中央舞者遮挡。"
+    },
+    {
+      "id": "dancer_right",
+      "kind": "overlay",
+      "bbox": [
+        531,
+        437,
+        1074,
+        1191
+      ],
+      "description": "右侧黑白网点拟人动物舞者贴纸，包含高耸尖长头部、向左右伸展的双臂、红黄菱格上衣、宽黑裙状下摆及分开的腿脚。右手伸向画布右边，完整轮廓带白色剪贴边；下半身局部被三层错误对话框遮住，左臂与中央舞者交叠。"
+    },
+    {
+      "id": "dancer_center",
+      "kind": "overlay",
+      "bbox": [
+        304,
+        618,
+        713,
+        1386
+      ],
+      "description": "中央前景黑白版画式拟人动物舞者贴纸，包含长吻动物头、向右飘动的鬃毛状线条、两侧弯曲手臂、绿色与紫色菱格衣服、交错长腿及底部鞋脚，整体带白色剪贴边。覆盖左右舞者部分肢体及底部剪报，彩色衣服属于贴纸内部设计。"
+    },
+    {
+      "id": "dialog_top_back",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        421,
+        608,
+        506
+      ],
+      "description": "上方靠后的灰色标题栏旧式错误对话框，包含标题栏文字、右上关闭按钮、红色叉号图标、浅色内容区及小字；左下部分被另一对话框遮挡，界面整体保留。"
+    },
+    {
+      "id": "dialog_top_front",
+      "kind": "overlay",
+      "bbox": [
+        307,
+        461,
+        558,
+        545
+      ],
+      "description": "上方靠前的旧式错误对话框，含深灰标题栏、右上关闭按钮、红色错误图标、黑色提示文字和底部两个按钮。整体压在后方对话框、剪报及左侧舞者头部右缘之上，内部字样随界面保留。"
+    },
+    {
+      "id": "cursor_hand",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        901,
+        129,
+        1017
+      ],
+      "description": "左下方像素风白色指向手形鼠标光标，黑色粗轮廓，食指朝右上伸出；作为独立图标保留，位于方格纸上。"
+    },
+    {
+      "id": "everyday",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        1043,
+        95,
+        1404
+      ],
+      "description": "左下沿方格纸竖向摆放的黑色“EVERYDAY”，整体由横向字样旋转形成，阅读方向从上往下；保留原有旋转排版和粗重字形。"
+    },
+    {
+      "id": "dialog_bottom_back",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        955,
+        927,
+        1053
+      ],
+      "description": "右下错误窗口组最靠后的一张，带紫蓝渐变标题栏、白色“错误”字样和右上关闭按钮；浅色内容区露出部分黑字，其余被两张前方窗口遮住。"
+    },
+    {
+      "id": "dialog_bottom_middle",
+      "kind": "overlay",
+      "bbox": [
+        732,
+        982,
+        963,
+        1088
+      ],
+      "description": "右下错误窗口组中间一张，向右下错位叠放，含紫蓝色标题栏、“错误”、关闭按钮及浅色内容面板；面板下部被最前方窗口遮挡，界面字样整体保留。"
+    },
+    {
+      "id": "dialog_bottom_front",
+      "kind": "overlay",
+      "bbox": [
+        763,
+        1018,
+        993,
+        1118
+      ],
+      "description": "右下最前方的旧式错误对话框，紫蓝渐变标题栏写“错误”，右上有关闭按钮，浅米色面板写“PhotoShop 已停止工作”，下方有“关闭程序”按钮；完整窗口压住后两张窗口和右侧舞者腿部。"
+    },
+    {
+      "id": "checker_right",
+      "kind": "overlay",
+      "bbox": [
+        1042,
+        1077,
+        1080,
+        1270
+      ],
+      "description": "右侧贴画布边缘的黑白棋盘格装饰，上下两簇方块之间留有空隙，最右侧方块被画布裁切；整体保留为一组边缘装饰。"
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        706,
+        1314,
+        1065,
+        1404
+      ],
+      "text": "The exhibition \"From Lacquer - Contemporary\nForms and Conceptual Expressions\" is an attempt\nby the Red Roof Contemporary Art Centre to\nreturn to the language of lacquer itself and rede-\nfine it. What are the boundaries of lacquer?",
+      "color": "#111111",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "paper_top",
+    "orange_bar",
+    "title_chinese",
+    "title_english",
+    "photo_mouth",
+    "checker_left",
+    "news_society",
+    "news_rules",
+    "news_shocking",
+    "news_black_act",
+    "news_left_lower",
+    "paper_lower",
+    "news_bottom_yellow",
+    "news_bottom_black",
+    "pin_upper_left",
+    "dancer_left",
+    "dancer_right",
+    "dancer_center",
+    "dialog_top_back",
+    "dialog_top_front",
+    "cursor_hand",
+    "everyday",
+    "dialog_bottom_back",
+    "dialog_bottom_middle",
+    "dialog_bottom_front",
+    "checker_right",
+    "text_footer"
+  ]
+}

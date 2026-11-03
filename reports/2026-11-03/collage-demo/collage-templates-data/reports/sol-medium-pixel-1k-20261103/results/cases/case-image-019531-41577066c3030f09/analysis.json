@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1536,
+    1024
+  ],
+  "objects": [
+    {
+      "id": "photo_harbor",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "description": "连续覆盖全画布的斯德哥尔摩港口摄影画面，包含前景草地与栏杆、中景水面和城市建筑、两侧密集帆船以及远处天空；摄影环境延伸至四边，主体为港湾与城市景观，无需按局部窗口拆分。上方地图图案和文字遮挡天空局部，替换时保留完整港口、船只、建筑、水面、草地与天空范围。",
+      "background_type": "photo",
+      "label": "连续覆盖全画布的斯德哥尔摩港口摄影画面，包含前景草地与栏杆、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stockholm_map",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1120,
+        490
+      ],
+      "description": "覆盖左上至中上部天空的半透明航海地图固定图案，包含海岸线、岛屿、道路与水域线稿、红色定位点、指南针以及 Stockholm、Gamla Stan、Skeppsholmen、Djurgården、Saltsjön、Nybroviken 等地图标注；图案边缘向右下方融入天空，作为一个完整固定设计单元保留。",
+      "label": "覆盖左上至中上部天空的半透明航海地图固定图案，包含海岸线、岛",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_harbor",
+    "overlay_stockholm_map"
+  ]
+}

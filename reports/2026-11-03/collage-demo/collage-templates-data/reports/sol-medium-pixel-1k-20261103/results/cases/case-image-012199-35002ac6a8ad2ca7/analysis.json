@@ -1,0 +1,409 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布连续的颗粒纸质底图，上部为深砖红色，向下逐渐过渡为浅灰米色，带细碎斑点和零散的小型浅色星点。四周及照片间隙均可见同一底纹；保留颜色渐变与印刷纹理，清除独立照片、文字和装饰。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的颗粒纸质底图，上部为深砖红色，向下逐渐过渡为浅灰",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_collection",
+      "kind": "photo",
+      "bbox": [
+        116,
+        69,
+        564,
+        407
+      ],
+      "description": "左上矩形照片，无人物，展示柜格中的多只毛绒玩偶、护肤用品、纸品及白色镂孔收纳篮。保留暗色柜内环境和全部物品，照片四边直接裁切，无独立框体。",
+      "label": "左上矩形照片，无人物，展示柜格中的多只毛绒玩偶、护肤用品、纸",
+      "method": "local"
+    },
+    {
+      "id": "photo_journal",
+      "kind": "photo",
+      "bbox": [
+        499,
+        425,
+        970,
+        778
+      ],
+      "description": "右上桌面照片，无人物，桌上有打开的活页手帐、贴纸纸张、笔，后方平板显示动画，右上放置深色饮料。完整保留桌面和暖色光照环境；照片为矩形，左边及下边局部被独立涂鸦遮挡。",
+      "label": "右上桌面照片，无人物，桌上有打开的活页手帐、贴纸纸张、笔，后",
+      "method": "local"
+    },
+    {
+      "id": "photo_reading",
+      "kind": "photo",
+      "bbox": [
+        85,
+        801,
+        574,
+        1168
+      ],
+      "description": "左下矩形阅读场景照片，无清晰人物，右侧平板显示文字页面，左侧摆放毛绒玩偶，下部为蓝白格纹织物，背景有红棕格纹布。保留整个摄影环境；上缘及左下角被装饰局部覆盖。",
+      "label": "左下矩形阅读场景照片，无清晰人物，右侧平板显示文字页面，左侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_noodles",
+      "kind": "photo",
+      "bbox": [
+        613,
+        959,
+        960,
+        1425
+      ],
+      "description": "右下竖向餐桌照片，无人物，下半部为装有深色拌面和配料的大碗，右侧有黑色筷子，上半部为播放视频的平板及桌面餐具。平板画面、面碗和桌面属于同一摄影单元，完整保留环境；上方及右下边缘被独立装饰覆盖。",
+      "label": "右下竖向餐桌照片，无人物，下半部为装有深色拌面和配料的大碗，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        27,
+        194,
+        125
+      ],
+      "description": "左上角相互交叠的黄色细线手绘五角星组合，线条不规则，局部压在第一张照片左上边缘，整体保留。",
+      "label": "左上角相互交叠的黄色细线手绘五角星组合，线条不规则，局部压在",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_constellation",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        266,
+        256,
+        453
+      ],
+      "description": "第一张照片左侧至下侧的蓝色手绘星星与小点组合，包含大小不同的空心五角星和细小蓝色点缀，围绕照片边缘分布，整体保留。",
+      "label": "第一张照片左侧至下侧的蓝色手绘星星与小点组合，包含大小不同的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_quote",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        94,
+        1032,
+        399
+      ],
+      "description": "右上粉色不规则波浪线文字标签，四周附黄色星星及紫色曲线。内部白色手写文字为“呜呜😭我的柜子”“好萌好萌啊!!!!”“完全被萌物充斥我的世界”。边线、附属涂鸦和文字共同构成完整设计，整体保留。",
+      "label": "右上粉色不规则波浪线文字标签，四周附黄色星星及紫色曲线。内部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_oval_quote",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        501,
+        505,
+        775
+      ],
+      "description": "左中白色与橙色交错的双椭圆手绘文字标签。内有三行白色字样：“和朋友去咖啡店坐一天”“他做图文我就做手帐”“好充实好满足!!好幸福😭”。文字、椭圆线条和相邻小点缀作为完整标签保留。",
+      "label": "左中白色与橙色交错的双椭圆手绘文字标签。内有三行白色字样：“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_flourish",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        501,
+        76,
+        558
+      ],
+      "description": "双椭圆标签左上外侧的乳白色短弧线涂鸦，带细小附属点，独立于标签轮廓。",
+      "label": "双椭圆标签左上外侧的乳白色短弧线涂鸦，带细小附属点，独立于标",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_flourish",
+      "kind": "overlay",
+      "bbox": [
+        474,
+        491,
+        533,
+        591
+      ],
+      "description": "双椭圆标签右上方的乳白色弯曲涂鸦，延伸到右上桌面照片左边并覆盖其局部，保留完整笔触。",
+      "label": "双椭圆标签右上方的乳白色弯曲涂鸦，延伸到右上桌面照片左边并覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        724,
+        63,
+        759
+      ],
+      "description": "左侧空隙中的黄色手绘双音符，作为独立装饰保留。",
+      "label": "左侧空隙中的黄色手绘双音符，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_book",
+      "kind": "overlay",
+      "bbox": [
+        494,
+        778,
+        591,
+        844
+      ],
+      "description": "青蓝色线描打开的书本图标，包含书页轮廓和页内短线，压在左下照片上缘附近，整体保留。",
+      "label": "青蓝色线描打开的书本图标，包含书页轮廓和页内短线，压在左下照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        825,
+        740,
+        871,
+        783
+      ],
+      "description": "右上桌面照片下缘的粉色手绘实心爱心，带内部深色小点，局部跨出照片边界。",
+      "label": "右上桌面照片下缘的粉色手绘实心爱心，带内部深色小点，局部跨出",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        918,
+        728,
+        956,
+        771
+      ],
+      "description": "右上桌面照片右下角的亮黄色手绘空心五角星，覆盖照片内容。",
+      "label": "右上桌面照片右下角的亮黄色手绘空心五角星，覆盖照片内容。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_outlined_star",
+      "kind": "overlay",
+      "bbox": [
+        982,
+        745,
+        1035,
+        799
+      ],
+      "description": "右侧照片外的星形贴纸，黄色星形配紫色与浅色外缘，保留多色轮廓。",
+      "label": "右侧照片外的星形贴纸，黄色星形配紫色与浅色外缘，保留多色轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_small_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        773,
+        772,
+        802,
+        802
+      ],
+      "description": "右上照片下方、正文上方的小型黄色星形涂鸦，独立保留。",
+      "label": "右上照片下方、正文上方的小型黄色星形涂鸦，独立保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_purple_dot",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        775,
+        912,
+        796
+      ],
+      "description": "粉色爱心右下方的小型紫色点状花星装饰。",
+      "label": "粉色爱心右下方的小型紫色点状花星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "text_food_note",
+      "kind": "text",
+      "bbox": [
+        630,
+        789,
+        866,
+        959
+      ],
+      "description": "炸酱面开分店了!\n刚好在附近!\n我马上去吃!!\n还是熟悉的味道!",
+      "label": "炸酱面开分店了!\n刚好在附近!\n我马上去吃!!\n还是熟悉的味",
+      "method": "local",
+      "text": "炸酱面开分店了!\n刚好在附近!\n我马上去吃!!\n还是熟悉的味道!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8EC",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_white_flower",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        872,
+        622,
+        897
+      ],
+      "description": "两张下方照片之间偏上的白色细线小花结涂鸦，由圆环花瓣和短线组成。",
+      "label": "两张下方照片之间偏上的白色细线小花结涂鸦，由圆环花瓣和短线组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        878,
+        904,
+        1048,
+        1058
+      ],
+      "description": "右下照片上方及右侧的白色泡泡涂鸦组合，包含一个较大的双线圆、两个较小圆圈及周围短十字和星形点缀，部分线条覆盖照片右上区域，整体保留。",
+      "label": "右下照片上方及右侧的白色泡泡涂鸦组合，包含一个较大的双线圆、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mushroom_character",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        1124,
+        177,
+        1216
+      ],
+      "description": "左下照片左下角的彩色卡通蘑菇角色贴纸，白粉色主体、橙色圆形侧部及黄色脚部，带手绘外缘和内部表情，整体覆盖照片与底图交界。",
+      "label": "左下照片左下角的彩色卡通蘑菇角色贴纸，白粉色主体、橙色圆形侧",
+      "method": "extract"
+    },
+    {
+      "id": "text_reading_note",
+      "kind": "text",
+      "bbox": [
+        146,
+        1167,
+        502,
+        1405
+      ],
+      "description": "做手帐做累了\n我就拾起之前没看完的书\n静静的看下去\n时间慢悠悠的过着...\n每一分每一秒过得好踏实",
+      "label": "做手帐做累了\n我就拾起之前没看完的书\n静静的看下去\n时间慢悠",
+      "method": "local",
+      "text": "做手帐做累了\n我就拾起之前没看完的书\n静静的看下去\n时间慢悠悠的过着...\n每一分每一秒过得好踏实",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFDF4",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        499,
+        1252,
+        579,
+        1364
+      ],
+      "description": "底部文字右侧的浅蓝紫色兔头贴纸，长耳朵、深色笑脸及白色不规则外描边共同保留。",
+      "label": "底部文字右侧的浅蓝紫色兔头贴纸，长耳朵、深色笑脸及白色不规则",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_upper",
+      "kind": "overlay",
+      "bbox": [
+        969,
+        1254,
+        1001,
+        1291
+      ],
+      "description": "右下照片右侧上方的粉色与黄色交错星芒花形涂鸦，位于照片外的浅色底图上。",
+      "label": "右下照片右侧上方的粉色与黄色交错星芒花形涂鸦，位于照片外的浅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_middle",
+      "kind": "overlay",
+      "bbox": [
+        939,
+        1322,
+        989,
+        1373
+      ],
+      "description": "右下照片右缘的较大粉色与黄色交错星芒花形，局部压在照片边缘。",
+      "label": "右下照片右缘的较大粉色与黄色交错星芒花形，局部压在照片边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        1403,
+        941,
+        1440
+      ],
+      "description": "右下照片底缘附近的粉色花环小点与黄色粉色十字花组合，下端被画布边界截断，保留可见完整组合。",
+      "label": "右下照片底缘附近的粉色花环小点与黄色粉色十字花组合，下端被画",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_texture",
+    "photo_collection",
+    "photo_journal",
+    "photo_reading",
+    "photo_noodles",
+    "overlay_top_stars",
+    "overlay_left_constellation",
+    "overlay_pink_quote",
+    "overlay_oval_quote",
+    "overlay_left_flourish",
+    "overlay_right_flourish",
+    "overlay_music",
+    "overlay_book",
+    "overlay_heart",
+    "overlay_yellow_star",
+    "overlay_outlined_star",
+    "overlay_small_yellow_star",
+    "overlay_purple_dot",
+    "text_food_note",
+    "overlay_white_flower",
+    "overlay_bubbles",
+    "overlay_mushroom_character",
+    "text_reading_note",
+    "overlay_bunny",
+    "overlay_flower_upper",
+    "overlay_flower_middle",
+    "overlay_flower_bottom"
+  ]
+}

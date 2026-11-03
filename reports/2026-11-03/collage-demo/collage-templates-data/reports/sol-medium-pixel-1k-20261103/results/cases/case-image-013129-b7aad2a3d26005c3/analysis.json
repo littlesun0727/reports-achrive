@@ -1,0 +1,109 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        541,
+        721
+      ],
+      "description": "左上独立生活场景照片，完整显示笔记本电脑、屏幕中的海岸风景、藤编收纳箱上的毛绒熊，以及下方的纸张和无线耳机；画面在右缘和下缘与其他照片接缝，摄影环境保留，不去除背景。",
+      "label": "左上独立生活场景照片，完整显示笔记本电脑、屏幕中的海岸风景、",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        539,
+        0,
+        1080,
+        721
+      ],
+      "description": "右上独立俯拍照片，棕色桌面上散放红色礼盒、多个不同包装的糖果和零食，完整保留桌面及物品阴影；左缘和下缘为独立照片接缝，摄影环境保留。",
+      "label": "右上独立俯拍照片，棕色桌面上散放红色礼盒、多个不同包装的糖果",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        719,
+        541,
+        1440
+      ],
+      "description": "左下独立俯拍照片，棕色桌面上放置带流苏垫的深色木质托盘，托盘内有一支唇膏或化妆品和两支黑色包装产品，右上方另有一枚粉色小夹饰；完整照片区域保留桌面环境。",
+      "label": "左下独立俯拍照片，棕色桌面上放置带流苏垫的深色木质托盘，托盘",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        539,
+        719,
+        1080,
+        1440
+      ],
+      "description": "右下独立俯拍照片，棕色桌面上可见竖放的灰色联想笔记本、下方的童话绘本或包装书、右侧蓝色零食包装和右下角装有零食的编织篮；完整显示区域保留摄影环境，左缘和上缘与相邻照片接缝。",
+      "label": "右下独立俯拍照片，棕色桌面上可见竖放的灰色联想笔记本、下方的",
+      "method": "local"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        188,
+        684,
+        917,
+        764
+      ],
+      "description": "下班做自媒体的第3天",
+      "label": "下班做自媒体的第3天",
+      "method": "local",
+      "text": "下班做自媒体的第3天",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "text_caption"
+  ]
+}

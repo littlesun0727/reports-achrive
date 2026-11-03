@@ -1,0 +1,691 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "description": "全画布由灰白、淡紫色撕纸、旧报纸小字、网格纸和磨损印刷纹理构成固定拼贴底图，四边及照片间隙均可见纸质设计。保留连续底纹及其印刷图案，清除上方独立照片、框体、贴纸和文字载体，不将摄影内容并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布由灰白、淡紫色撕纸、旧报纸小字、网格纸和磨损印刷纹理构",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        227,
+        235,
+        795,
+        1072
+      ],
+      "description": "中央最大的人像照片，一名金色短发女性穿紫色吊带上衣，头部略倾斜、正视镜头，显示头部至腰部，灰色室内墙面仍保留。完整显示区域沿不规则撕纸状边界展开，左下、右侧及底部被其他照片和装饰遮挡；没有沿人体轮廓去除环境。",
+      "label": "中央最大的人像照片，一名金色短发女性穿紫色吊带上衣，头部略倾",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        16,
+        18,
+        312,
+        377
+      ],
+      "description": "左上倾斜的镜前自拍，一名短发女性穿紫色吊带，手持银色相机，显示头部和上半身，保留灰墙与左侧暗色室内环境。矩形照片内口的下缘被心情标签覆盖，右下角被中央照片遮挡。",
+      "label": "左上倾斜的镜前自拍，一名短发女性穿紫色吊带，手持银色相机，显",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        335,
+        408
+      ],
+      "description": "左上自拍的白色相纸框，整体略倾斜，底部留白较宽，具有纸质边缘与轻微阴影。内口摄影内容独立替换，夹子、心情标签及叠加星形另列。",
+      "photo_id": [
+        "photo_upper_left"
+      ],
+      "label": "左上自拍的白色相纸框，整体略倾斜，底部留白较宽，具有纸质边缘",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        693,
+        18,
+        994,
+        421
+      ],
+      "description": "右上独立半身自拍，一名短发女性穿紫色吊带，单眼闭合并伸舌，保留深灰室内背景。照片略倾斜，显示头部至胸部，与中央人像姿态不连续；下缘被眼睛照片局部遮挡。",
+      "label": "右上独立半身自拍，一名短发女性穿紫色吊带，单眼闭合并伸舌，保",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper_right",
+      "kind": "frame",
+      "bbox": [
+        678,
+        0,
+        1013,
+        436
+      ],
+      "description": "右上照片的白色相纸框及其一体录像界面设计，包含左上“PLAY ▶”、右上电池与星形图标、左下“’24 05 20”和“PM 07:13”。保留纸框、印字与界面图案，内口照片替换。",
+      "photo_id": [
+        "photo_upper_right"
+      ],
+      "label": "右上照片的白色相纸框及其一体录像界面设计，包含左上“PLAY",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lips",
+      "kind": "photo",
+      "bbox": [
+        48,
+        419,
+        266,
+        586
+      ],
+      "description": "左侧嘴唇局部特写，嘴唇微张并露出少量牙齿，周围皮肤保留。完整矩形窗口略倾斜，下方和右侧有贴纸叠压，不把嘴唇单独抠出。",
+      "label": "左侧嘴唇局部特写，嘴唇微张并露出少量牙齿，周围皮肤保留。完整",
+      "method": "local"
+    },
+    {
+      "id": "frame_lips",
+      "kind": "frame",
+      "bbox": [
+        34,
+        403,
+        283,
+        603
+      ],
+      "description": "嘴唇特写的窄白色纸质相框，倾斜放置，边缘有轻微纸纹和阴影。银色星形与紫色心形是独立叠贴装饰。",
+      "photo_id": [
+        "photo_lips"
+      ],
+      "label": "嘴唇特写的窄白色纸质相框，倾斜放置，边缘有轻微纸纹和阴影。银",
+      "method": "extract"
+    },
+    {
+      "id": "photo_eye",
+      "kind": "photo",
+      "bbox": [
+        796,
+        429,
+        1008,
+        619
+      ],
+      "description": "右侧单只眼睛近距离特写，显示浅色虹膜、睫毛、眼周皮肤与上缘金色发丝。完整矩形摄影窗口保留，非眼睛轮廓抠图，底缘被文字标签遮挡。",
+      "label": "右侧单只眼睛近距离特写，显示浅色虹膜、睫毛、眼周皮肤与上缘金",
+      "method": "local"
+    },
+    {
+      "id": "frame_eye",
+      "kind": "frame",
+      "bbox": [
+        783,
+        414,
+        1023,
+        635
+      ],
+      "description": "眼睛照片的白色窄纸框，略有倾斜及不规则纸边，下侧与顶部叠贴星形和日文标签，这些独立装饰另列。",
+      "photo_id": [
+        "photo_eye"
+      ],
+      "label": "眼睛照片的白色窄纸框，略有倾斜及不规则纸边，下侧与顶部叠贴星",
+      "method": "extract"
+    },
+    {
+      "id": "photo_standing",
+      "kind": "photo",
+      "bbox": [
+        0,
+        674,
+        319,
+        1371
+      ],
+      "description": "左下独立全身站姿照片，一名短发女性穿紫色短上衣、灰色宽松工装裤和运动鞋，双手接近裤袋，身侧有银色包，保留灰色墙面与地面。窗口为纵向不规则撕纸边，右上侧被中央照片及标签遮挡，下部被条码和文字贴纸覆盖。",
+      "label": "左下独立全身站姿照片，一名短发女性穿紫色短上衣、灰色宽松工装",
+      "method": "local"
+    },
+    {
+      "id": "photo_seated",
+      "kind": "photo",
+      "bbox": [
+        731,
+        782,
+        1024,
+        1321
+      ],
+      "description": "右下独立坐姿照片，一名短发女性穿紫色上衣及灰色工装裤，坐在台阶上单手托脸，双腿弯曲，运动鞋可见。保留墙面、台阶及地面，纵向窗口有不规则纸边，左下部被胶片框、底部被便签和紫色心形覆盖。",
+      "label": "右下独立坐姿照片，一名短发女性穿紫色上衣及灰色工装裤，坐在台",
+      "method": "local"
+    },
+    {
+      "id": "photo_phone",
+      "kind": "photo",
+      "bbox": [
+        317,
+        998,
+        575,
+        1337
+      ],
+      "description": "底部中央手机相机界面内的竖向肖像，一名短发女性单手托脸，显示头部和紫色上衣，保留灰墙背景。随手机外壳略倾斜，照片四周被黑色相机界面覆盖。",
+      "label": "底部中央手机相机界面内的竖向肖像，一名短发女性单手托脸，显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_phone_thumbnail",
+      "kind": "photo",
+      "bbox": [
+        346,
+        1367,
+        379,
+        1404
+      ],
+      "description": "手机相机界面左下角的独立小缩略图，显示短发女性的头部和紫色上衣，摄影环境保留；属于单独可见的小照片窗口，不与上方主预览合并。",
+      "label": "手机相机界面左下角的独立小缩略图，显示短发女性的头部和紫色上",
+      "method": "local"
+    },
+    {
+      "id": "frame_phone",
+      "kind": "frame",
+      "bbox": [
+        295,
+        955,
+        597,
+        1444
+      ],
+      "description": "倾斜的白色圆角手机状照片载体，黑色相机界面包含顶端闪光灯、HDR等图标，底部模式文字、白色快门和相机图标。完整保留外壳、界面、阴影，主预览及左下缩略图分别替换。",
+      "photo_id": [
+        "photo_phone",
+        "photo_phone_thumbnail"
+      ],
+      "label": "倾斜的白色圆角手机状照片载体，黑色相机界面包含顶端闪光灯、H",
+      "method": "extract"
+    },
+    {
+      "id": "photo_film_top",
+      "kind": "photo",
+      "bbox": [
+        625,
+        1000,
+        813,
+        1198
+      ],
+      "description": "右下胶片条上格自拍，一名短发女性举银色相机靠近额头，另一手靠近脸部，显示头部与肩胸，保留室内背景。独立倾斜矩形窗口，被胶片黑边限定。",
+      "label": "右下胶片条上格自拍，一名短发女性举银色相机靠近额头，另一手靠",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_bottom",
+      "kind": "photo",
+      "bbox": [
+        602,
+        1181,
+        784,
+        1373
+      ],
+      "description": "右下胶片条下格人像，与上格姿态不同，女性转头侧望镜头，显示头肩及紫色吊带，保留室内摄影环境。独立倾斜矩形窗口，下缘略被翻盖手机装饰遮挡。",
+      "label": "右下胶片条下格人像，与上格姿态不同，女性转头侧望镜头，显示头",
+      "method": "local"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        587,
+        972,
+        836,
+        1398
+      ],
+      "description": "一体双格黑色胶片框，整体倾斜，左右具有方形齿孔，顶部及侧边印有黄色“KODAK 400”、数字等胶片标记。中间横向黑边分隔两个独立照片窗口。",
+      "photo_id": [
+        "photo_film_top",
+        "photo_film_bottom"
+      ],
+      "label": "一体双格黑色胶片框，整体倾斜，左右具有方形齿孔，顶部及侧边印",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        314,
+        61,
+        678,
+        183
+      ],
+      "description": "上方“LILAC”拼贴标题，由五张灰白、淡紫和深紫色不齐纸片及大小不同的衬线字母组成，并带局部小星形印记。各字母位置与纸片共同形成固定设计，整体保留。",
+      "label": "上方“LILAC”拼贴标题，由五张灰白、淡紫和深紫色不齐纸片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_japanese_banner",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        170,
+        682,
+        242
+      ],
+      "description": "标题下方淡紫色横向纸条，印有“自分らしく、自由に。”，右端叠接浅紫心形及小星形。纸边、文字和附属图案作为完整标签保留。",
+      "label": "标题下方淡紫色横向纸条，印有“自分らしく、自由に。”，右端叠",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_heart",
+      "kind": "overlay",
+      "bbox": [
+        643,
+        54,
+        702,
+        114
+      ],
+      "description": "标题右上角浅紫色立体空心心形，带柔和阴影，独立叠压在标题纸片附近。",
+      "label": "标题右上角浅紫色立体空心心形，带柔和阴影，独立叠压在标题纸片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        8,
+        79,
+        110
+      ],
+      "description": "左上白色相纸上沿的金属回形针，保留细长双层弯折轮廓、反光及阴影。",
+      "label": "左上白色相纸上沿的金属回形针，保留细长双层弯折轮廓、反光及阴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mood",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        329,
+        197,
+        391
+      ],
+      "description": "左上照片底部倾斜的灰白纸质标签，细线框内写“ Mood: 100% ”并有紫色小心形，连同纸边及阴影整体保留。",
+      "label": "左上照片底部倾斜的灰白纸质标签，细线框内写“ Mood: 1",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        231,
+        47,
+        275,
+        102
+      ],
+      "description": "左上自拍右上区域的淡紫色细线手绘星形，作为独立叠加图案保留，不属于拍摄场景。",
+      "label": "左上自拍右上区域的淡紫色细线手绘星形，作为独立叠加图案保留，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_shoulder",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        244,
+        87,
+        280
+      ],
+      "description": "左上自拍左侧肩部附近的浅色细线手绘星形，独立叠加在照片之上。",
+      "label": "左上自拍左侧肩部附近的浅色细线手绘星形，独立叠加在照片之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        268,
+        337,
+        319,
+        391
+      ],
+      "description": "中央照片左上灰墙区域的紫色手绘五角星，线条交叠，独立于摄影内容。",
+      "label": "中央照片左上灰墙区域的紫色手绘五角星，线条交叠，独立于摄影内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_silver_star_lips",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        402,
+        99,
+        488
+      ],
+      "description": "嘴唇照片左上角的银色立体星形装饰，具有金属高光、暗边与阴影，跨越照片和纸框。",
+      "label": "嘴唇照片左上角的银色立体星形装饰，具有金属高光、暗边与阴影，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_lips",
+      "kind": "overlay",
+      "bbox": [
+        239,
+        514,
+        299,
+        573
+      ],
+      "description": "嘴唇照片右下角的紫色心形纸贴，具有浅色轮廓、细碎纹理与投影，独立叠贴。",
+      "label": "嘴唇照片右下角的紫色心形纸贴，具有浅色轮廓、细碎纹理与投影，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stay_soft",
+      "kind": "overlay",
+      "bbox": [
+        6,
+        577,
+        231,
+        695
+      ],
+      "description": "嘴唇照片下方倾斜的浅色方格纸便签，两行紫色手写字“Stay soft”“Keep wild”，右侧附笑脸，纸纹、文字及纸边整体保留。",
+      "label": "嘴唇照片下方倾斜的浅色方格纸便签，两行紫色手写字“Stay ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_silver_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        635,
+        280,
+        718
+      ],
+      "description": "左侧中部银色立体星形，压在方格便签、站姿照片与中央照片交界处，完整金属轮廓和阴影保留。",
+      "label": "左侧中部银色立体星形，压在方格便签、站姿照片与中央照片交界处",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_eye_top_star",
+      "kind": "overlay",
+      "bbox": [
+        944,
+        377,
+        1009,
+        448
+      ],
+      "description": "眼睛照片右上角的紫色双层星形贴纸，中心浅色星形、外围深紫星形和纸质阴影组成完整装饰。",
+      "label": "眼睛照片右上角的紫色双层星形贴纸，中心浅色星形、外围深紫星形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_eye_label",
+      "kind": "overlay",
+      "bbox": [
+        845,
+        591,
+        1005,
+        648
+      ],
+      "description": "眼睛照片下缘的白色小标签，写有“きらきら☆”，右端叠贴紫色星形，纸条、文字和紧邻附属星形作为完整设计保留。",
+      "label": "眼睛照片下缘的白色小标签，写有“きらきら☆”，右端叠贴紫色星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_good_things",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        677,
+        1024,
+        804
+      ],
+      "description": "右侧浅灰白撕纸便签，两行紫色手写字“Good things”“take time ♡”，右下附紫色花朵及浅色花蕊。整体纸张、文字、花朵和阴影保留。",
+      "label": "右侧浅灰白撕纸便签，两行紫色手写字“Good things”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_daisuki",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        783,
+        331,
+        888
+      ],
+      "description": "中央照片左侧的淡紫椭圆对话气泡，写“だいすき”，下方尖尾与紫色空心星形相接。作为一个完整贴纸保留，覆盖中央人物左臂附近。",
+      "label": "中央照片左侧的淡紫椭圆对话气泡，写“だいすき”，下方尖尾与紫",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_center_right",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        817,
+        745,
+        874
+      ],
+      "description": "中央人物右侧肩臂附近的白色细线空心心形及短小附属笔画，叠加于摄影内容之上。",
+      "label": "中央人物右侧肩臂附近的白色细线空心心形及短小附属笔画，叠加于",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_center_lower",
+      "kind": "overlay",
+      "bbox": [
+        645,
+        910,
+        692,
+        961
+      ],
+      "description": "中央紫色上衣右下区域的白色手绘空心心形，保留双线交叠笔触。",
+      "label": "中央紫色上衣右下区域的白色手绘空心心形，保留双线交叠笔触。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_right_edge",
+      "kind": "overlay",
+      "bbox": [
+        992,
+        862,
+        1024,
+        919
+      ],
+      "description": "右侧坐姿照片靠画布边缘的白色空心心形，右部被画布裁切，按可见完整范围保留。",
+      "label": "右侧坐姿照片靠画布边缘的白色空心心形，右部被画布裁切，按可见",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        246,
+        1157,
+        292,
+        1245
+      ],
+      "description": "站姿照片右下侧的白色细线弯曲箭头与小闪光笔画，独立叠加在灰色摄影环境上。",
+      "label": "站姿照片右下侧的白色细线弯曲箭头与小闪光笔画，独立叠加在灰色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_barcode",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1102,
+        55,
+        1248
+      ],
+      "description": "左边缘竖向窄条码纸贴，白纸上有密集黑色线条和细小印字，左缘被画布裁切，独立覆盖站姿照片。",
+      "label": "左边缘竖向窄条码纸贴，白纸上有密集黑色线条和细小印字，左缘被",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dream",
+      "kind": "overlay",
+      "bbox": [
+        4,
+        1273,
+        124,
+        1386
+      ],
+      "description": "左下两块错落浅色纸片写有“Dream”和“on”，中间叠贴紫色心形，纸片、特殊位置关系、心形与阴影整体保留。",
+      "label": "左下两块错落浅色纸片写有“Dream”和“on”，中间叠贴紫",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_daily_reminder",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        1347,
+        340,
+        1536
+      ],
+      "description": "左下大块淡紫色撕纸便签，含带下划线的“Daily Reminder:”和多行日文“自分を信じて”“深呼吸して”“ちゃんと休もう”“大丈夫、きっとうまくいくよ”，带勾选符号和空心心形。保留完整纸纹、笔迹及被画布裁切的底边。",
+      "label": "左下大块淡紫色撕纸便签，含带下划线的“Daily Remin",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_collect",
+      "kind": "overlay",
+      "bbox": [
+        352,
+        1440,
+        589,
+        1536
+      ],
+      "description": "底部中央浅色撕纸标签，两行紫色手写字“Collect beautiful”“moments”，右侧紫色实心心形。文字与纸质载体共同保留，底边接近画布边缘。",
+      "label": "底部中央浅色撕纸标签，两行紫色手写字“Collect bea",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_encouragement",
+      "kind": "overlay",
+      "bbox": [
+        777,
+        1287,
+        1024,
+        1406
+      ],
+      "description": "右下浅色纸质便签，上行日文“今日もおつかれさま”及紫色小心形，下行“You did your best today.”，带分隔虚线、纸纹和不齐纸边，整体覆盖坐姿照片下部。",
+      "label": "右下浅色纸质便签，上行日文“今日もおつかれさま”及紫色小心形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glass_heart_upper",
+      "kind": "overlay",
+      "bbox": [
+        930,
+        1224,
+        1020,
+        1318
+      ],
+      "description": "右下坐姿照片上的大颗淡紫透明立体心形，保留玻璃状高光、折射、深紫边缘及阴影，叠压便签上沿。",
+      "label": "右下坐姿照片上的大颗淡紫透明立体心形，保留玻璃状高光、折射、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glass_heart_lower",
+      "kind": "overlay",
+      "bbox": [
+        940,
+        1381,
+        1018,
+        1458
+      ],
+      "description": "右下纸质底纹上的小颗紫色透明立体心形，带切面高光与阴影，独立于上方较大心形。",
+      "label": "右下纸质底纹上的小颗紫色透明立体心形，带切面高光与阴影，独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flip_phone",
+      "kind": "overlay",
+      "bbox": [
+        642,
+        1366,
+        790,
+        1536
+      ],
+      "description": "底部银色与淡紫色翻盖手机装饰，倾斜摆放，屏幕印有“LILA”、心形及小符号，下方键盘和外壳在画布底边被裁切。手机材质、屏幕印刷和按钮整体保留，不作为可替换人像照片。",
+      "label": "底部银色与淡紫色翻盖手机装饰，倾斜摆放，屏幕印有“LILA”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_teddy",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        1436,
+        861,
+        1536
+      ],
+      "description": "底部紫色毛绒小熊装饰，圆耳、浅色口鼻、黑色眼鼻和胸前小饰件可见，下部被画布裁切，保留完整可见毛绒轮廓。",
+      "label": "底部紫色毛绒小熊装饰，圆耳、浅色口鼻、黑色眼鼻和胸前小饰件可",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_standing",
+    "photo_seated",
+    "photo_center",
+    "frame_upper_left",
+    "photo_upper_left",
+    "frame_upper_right",
+    "photo_upper_right",
+    "overlay_title",
+    "overlay_japanese_banner",
+    "overlay_top_heart",
+    "overlay_paperclip",
+    "overlay_mood",
+    "overlay_star_upper_left",
+    "overlay_star_left_shoulder",
+    "overlay_star_center",
+    "frame_lips",
+    "photo_lips",
+    "overlay_silver_star_lips",
+    "overlay_heart_lips",
+    "overlay_stay_soft",
+    "overlay_silver_star_middle",
+    "frame_eye",
+    "photo_eye",
+    "overlay_eye_top_star",
+    "overlay_eye_label",
+    "overlay_good_things",
+    "overlay_daisuki",
+    "overlay_heart_center_right",
+    "overlay_heart_center_lower",
+    "overlay_heart_right_edge",
+    "overlay_arrow_left_lower",
+    "overlay_barcode",
+    "overlay_dream",
+    "overlay_daily_reminder",
+    "photo_phone",
+    "photo_phone_thumbnail",
+    "frame_phone",
+    "photo_film_top",
+    "photo_film_bottom",
+    "frame_film",
+    "overlay_collect",
+    "overlay_encouragement",
+    "overlay_glass_heart_upper",
+    "overlay_glass_heart_lower",
+    "overlay_flip_phone",
+    "overlay_teddy"
+  ]
+}

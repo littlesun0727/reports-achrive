@@ -1,0 +1,393 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1435
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1435
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        40,
+        268,
+        522
+      ],
+      "description": "左上竖向照片，木桌上摆着绿色饮料和多条黑白双人合照，一只手在下方拿着照片条；桌面、杯子、手及照片条共同属于摄影内容。完整窗口延伸至画布左边，四角圆润，边缘有轻微阴影，右下局部被星形装饰遮挡。",
+      "label": "左上竖向照片，木桌上摆着绿色饮料和多条黑白双人合照，一只手在",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_food",
+      "kind": "photo",
+      "bbox": [
+        282,
+        40,
+        556,
+        522
+      ],
+      "description": "第二张竖向餐桌照片，桌上有多杯绿色饮料、草莓巧克力甜点和面包，顶部露出就餐者的局部身体；保留完整餐桌环境。窗口四角圆润，边缘有轻微阴影，下部被前景人物帽子和星形装饰遮挡。",
+      "label": "第二张竖向餐桌照片，桌上有多杯绿色饮料、草莓巧克力甜点和面包",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_fit",
+      "kind": "photo",
+      "bbox": [
+        570,
+        40,
+        842,
+        522
+      ],
+      "description": "第三张竖向俯拍照片，两位女性并肩站立，各拿一杯饮料，头部在照片上缘之外；可见黑色与白色上衣、牛仔裤、鞋及阳光下的地面。保留摄影环境，窗口四角圆润，下方局部被主照片伸出的吸管遮挡。",
+      "label": "第三张竖向俯拍照片，两位女性并肩站立，各拿一杯饮料，头部在照",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_place",
+      "kind": "photo",
+      "bbox": [
+        856,
+        40,
+        1080,
+        522
+      ],
+      "description": "右上独立街边咖啡店照片，灰白建筑立面、黑色店门和遮阳篷、门前桌椅及道路构成连续画面，店招文字属于摄影内容。窗口右侧被画布裁切，左侧圆角可见，下部被下方照片伸出的手臂遮挡。",
+      "label": "右上独立街边咖啡店照片，灰白建筑立面、黑色店门和遮阳篷、门前",
+      "method": "local"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        638,
+        1080,
+        1435
+      ],
+      "description": "下半幅独立高角度广角人物照片，一位长发女性戴黑色棒球帽，穿棕色外套、白色短上衣、花纹短裙和长靴，抬头看镜头并举起绿色饮料。保留阳光下的人行道、左侧路缘和右侧花坛；照片窗口从白色信息栏下缘延伸至画布底边及左右边，人物帽子、举杯的手和吸管另有连续出框显示。",
+      "label": "下半幅独立高角度广角人物照片，一位长发女性戴黑色棒球帽，穿棕",
+      "method": "local"
+    },
+    {
+      "id": "photo_main_foreground",
+      "kind": "photo",
+      "bbox": [
+        0,
+        435,
+        1080,
+        1435
+      ],
+      "description": "延伸自下半幅人物照片的同一女性、手臂、饮料杯及吸管，沿完整主体组合轮廓显示，不带人行道背景。帽子越过照片上边覆盖白色信息栏与第二张照片下部，右手及吸管向上覆盖第三、第四张照片下部；举杯遮住右下艺术字的上部。身体仍与底层照片连续，左右及底部超出部分由画布裁切。",
+      "linked_to": "photo_main",
+      "label": "延伸自下半幅人物照片的同一女性、手臂、饮料杯及吸管，沿完整主",
+      "method": "local"
+    },
+    {
+      "id": "photo_avatar_picss",
+      "kind": "photo",
+      "bbox": [
+        14,
+        58,
+        59,
+        102
+      ],
+      "description": "第一张顶部照片左上叠加的独立圆形头像，小幅女性全身人物照片，保留头像内环境；外围有白色细边及黄粉色环，与旁边标题分开。",
+      "label": "第一张顶部照片左上叠加的独立圆形头像，小幅女性全身人物照片，",
+      "method": "local"
+    },
+    {
+      "id": "photo_avatar_food",
+      "kind": "photo",
+      "bbox": [
+        299,
+        58,
+        345,
+        102
+      ],
+      "description": "第二张顶部照片左上叠加的独立圆形女性人物头像，人物与头像内环境一同替换；外围白色细边及黄粉色环依附圆形窗口。",
+      "label": "第二张顶部照片左上叠加的独立圆形女性人物头像，人物与头像内环",
+      "method": "local"
+    },
+    {
+      "id": "photo_avatar_fit",
+      "kind": "photo",
+      "bbox": [
+        586,
+        58,
+        631,
+        102
+      ],
+      "description": "第三张顶部照片左上叠加的独立圆形女性人物头像，保留头像内摄影环境，带白色细边及黄粉色环。",
+      "label": "第三张顶部照片左上叠加的独立圆形女性人物头像，保留头像内摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_avatar_place",
+      "kind": "photo",
+      "bbox": [
+        872,
+        58,
+        917,
+        102
+      ],
+      "description": "第四张顶部照片左上叠加的独立圆形女性人物头像，保留头像内摄影环境，带白色细边及黄粉色环。",
+      "label": "第四张顶部照片左上叠加的独立圆形女性人物头像，保留头像内摄影",
+      "method": "local"
+    },
+    {
+      "id": "text_picss",
+      "kind": "text",
+      "bbox": [
+        64,
+        69,
+        112,
+        89
+      ],
+      "description": "picss",
+      "label": "picss",
+      "method": "local",
+      "text": "picss",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_food",
+      "kind": "text",
+      "bbox": [
+        351,
+        69,
+        395,
+        89
+      ],
+      "description": "food",
+      "label": "food",
+      "method": "local",
+      "text": "food",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_fit",
+      "kind": "text",
+      "bbox": [
+        638,
+        69,
+        662,
+        89
+      ],
+      "description": "fit",
+      "label": "fit",
+      "method": "local",
+      "text": "fit",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_place",
+      "kind": "text",
+      "bbox": [
+        923,
+        69,
+        972,
+        89
+      ],
+      "description": "place",
+      "label": "place",
+      "method": "local",
+      "text": "place",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_account_avatar",
+      "kind": "overlay",
+      "bbox": [
+        6,
+        556,
+        66,
+        616
+      ],
+      "description": "白色信息栏左侧的圆形棕色卡通头像，内部有戴浅棕帽子和黑色墨镜的脸部形象；头像图案与圆形底色作为完整固定单元保留。",
+      "label": "白色信息栏左侧的圆形棕色卡通头像，内部有戴浅棕帽子和黑色墨镜",
+      "method": "extract"
+    },
+    {
+      "id": "text_account",
+      "kind": "text",
+      "bbox": [
+        79,
+        562,
+        214,
+        586
+      ],
+      "description": "@inkk_ianbr",
+      "label": "@inkk_ianbr",
+      "method": "local",
+      "text": "@inkk_ianbr",
+      "text_status": "known",
+      "style": {
+        "fill": "#080808",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        80,
+        591,
+        221,
+        615
+      ],
+      "description": "good brewing",
+      "label": "good brewing",
+      "method": "local",
+      "text": "good brewing",
+      "text_status": "known",
+      "style": {
+        "fill": "#969696",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_dump",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        981,
+        1080,
+        1411
+      ],
+      "description": "右下由“Dump”组成的错落艺术字，D、u在上，m、p在下，各字具有不同倾斜与位置，浅白绿色字面、绿色边缘及暗色阴影整体保留。上方字母局部被饮料杯遮挡，右侧字母由画布裁切，不拆成普通文字。",
+      "label": "右下由“Dump”组成的错落艺术字，D、u在上，m、p在下，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple",
+      "kind": "overlay",
+      "bbox": [
+        990,
+        1022,
+        1080,
+        1151
+      ],
+      "description": "右侧绿色苹果图标，带深色果柄、小叶片、亮面和立体明暗，叠在右上艺术字旁，右侧由画布裁切；作为独立完整装饰保留。",
+      "label": "右侧绿色苹果图标，带深色果柄、小叶片、亮面和立体明暗，叠在右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        177,
+        393,
+        328,
+        545
+      ],
+      "description": "顶部照片与人物帽子交界处的五角星贴纸，浅绿到深紫渐变填充、绿色细轮廓，覆盖第一、第二张照片的下缘及帽子左上部，整体保留。",
+      "label": "顶部照片与人物帽子交界处的五角星贴纸，浅绿到深紫渐变填充、绿",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        946,
+        817,
+        1080,
+        965
+      ],
+      "description": "右侧手指和花坛前的五角星贴纸，浅绿色与紫色渐变、绿色细轮廓，压在举杯手指前方，右端被画布裁切。",
+      "label": "右侧手指和花坛前的五角星贴纸，浅绿色与紫色渐变、绿色细轮廓，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1149,
+        278,
+        1435
+      ],
+      "description": "左下大型五角星贴纸，浅绿至深紫渐变和绿色细轮廓，覆盖人行道与人物黑色包袋的一部分，左端及底部贴近并被画布边界裁切。",
+      "label": "左下大型五角星贴纸，浅绿至深紫渐变和绿色细轮廓，覆盖人行道与",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_food",
+    "photo_top_fit",
+    "photo_top_place",
+    "photo_main",
+    "photo_avatar_picss",
+    "photo_avatar_food",
+    "photo_avatar_fit",
+    "photo_avatar_place",
+    "text_picss",
+    "text_food",
+    "text_fit",
+    "text_place",
+    "overlay_account_avatar",
+    "text_account",
+    "text_caption",
+    "overlay_dump",
+    "overlay_apple",
+    "photo_main_foreground",
+    "overlay_star_top",
+    "overlay_star_right",
+    "overlay_star_bottom"
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    2327
+  ],
+  "objects": [
+    {
+      "id": "base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        2327
+      ],
+      "description": "固定底版，画布两侧为连续白色窄边，顶部露出浅乳白色区域。保留底版原有颜色与边界；独立的米色纹理纸、下方照片、文字和装饰不并入底版。",
+      "background_type": "reference_clean",
+      "label": "固定底版，画布两侧为连续白色窄边，顶部露出浅乳白色区域。保留",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_stream",
+      "kind": "photo",
+      "bbox": [
+        27,
+        1475,
+        1053,
+        2327
+      ],
+      "description": "下方独立竖幅摄影画面，一名戴浅色帽子的女性正面站在溪水中，穿白色外搭、灰色上衣与黑色短裤，双臂自然下垂。保留溪流、岩石、左侧小瀑布、倾斜树干和茂密树林。上缘被米色纸张的撕边遮挡，照片自身上边界无法完全确认；左右及下缘有明确显示边界。文字与标签叠在照片上，不属于摄影内容。",
+      "label": "下方独立竖幅摄影画面，一名戴浅色帽子的女性正面站在溪水中，穿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        114,
+        1053,
+        1570
+      ],
+      "description": "上部大幅米色纹理纸，带细小纤维、颗粒和明暗变化，上下边缘均为不规则撕纸轮廓。下缘覆盖树林照片，右侧撕边较高，中左部较低。纸张只承载文字与装饰，不形成照片框；其纸纹和完整边缘作为固定单元保留。",
+      "label": "上部大幅米色纹理纸，带细小纤维、颗粒和明暗变化，上下边缘均为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_orbit",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        246,
+        215,
+        355
+      ],
+      "description": "标题左侧的深灰色倾斜椭圆线圈，下部连接一枚实心四角星；线圈与星形共同构成一个完整装饰。",
+      "label": "标题左侧的深灰色倾斜椭圆线圈，下部连接一枚实心四角星；线圈与",
+      "method": "extract"
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        248,
+        287,
+        514,
+        355
+      ],
+      "description": "旅行回顾",
+      "label": "旅行回顾",
+      "method": "local",
+      "text": "旅行回顾",
+      "text_status": "known",
+      "style": {
+        "fill": "#363633",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_body_1",
+      "kind": "text",
+      "bbox": [
+        106,
+        451,
+        735,
+        487
+      ],
+      "description": "人生的第一次出国旅行很难忘的一段经历",
+      "label": "人生的第一次出国旅行很难忘的一段经历",
+      "method": "local",
+      "text": "人生的第一次出国旅行很难忘的一段经历",
+      "text_status": "known",
+      "style": {
+        "fill": "#363633",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        739,
+        449,
+        777,
+        488
+      ],
+      "description": "第一句末尾的黄色闪光装饰，由一大一小两枚闪亮星形组成，保留其原有彩色造型。",
+      "label": "第一句末尾的黄色闪光装饰，由一大一小两枚闪亮星形组成，保留其",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rule_1",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        517,
+        811,
+        522
+      ],
+      "description": "第一段下方的深灰色细横线，作为独立固定分隔线保留。",
+      "label": "第一段下方的深灰色细横线，作为独立固定分隔线保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_body_2",
+      "kind": "text",
+      "bbox": [
+        106,
+        587,
+        735,
+        623
+      ],
+      "description": "临行前家人还蛮担心网上泰国的负面报道",
+      "label": "临行前家人还蛮担心网上泰国的负面报道",
+      "method": "local",
+      "text": "临行前家人还蛮担心网上泰国的负面报道",
+      "text_status": "known",
+      "style": {
+        "fill": "#363633",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_rule_2",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        652,
+        768,
+        657
+      ],
+      "description": "第二段下方的深灰色细横线，长度短于第一条。",
+      "label": "第二段下方的深灰色细横线，长度短于第一条。",
+      "method": "extract"
+    },
+    {
+      "id": "text_body_3",
+      "kind": "text",
+      "bbox": [
+        106,
+        722,
+        711,
+        758
+      ],
+      "description": "但我想说的是：只有当自己去体验感受了",
+      "label": "但我想说的是：只有当自己去体验感受了",
+      "method": "local",
+      "text": "但我想说的是：只有当自己去体验感受了",
+      "text_status": "known",
+      "style": {
+        "fill": "#363633",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_rule_3",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        787,
+        744,
+        792
+      ],
+      "description": "第三段下方的深灰色细横线。",
+      "label": "第三段下方的深灰色细横线。",
+      "method": "extract"
+    },
+    {
+      "id": "text_body_4",
+      "kind": "text",
+      "bbox": [
+        106,
+        858,
+        780,
+        895
+      ],
+      "description": "才会意识到一个地区一个国家到底是什么样的",
+      "label": "才会意识到一个地区一个国家到底是什么样的",
+      "method": "local",
+      "text": "才会意识到一个地区一个国家到底是什么样的",
+      "text_status": "known",
+      "style": {
+        "fill": "#363633",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_rule_4",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        924,
+        811,
+        929
+      ],
+      "description": "第四段下方的深灰色细横线，与第一条长度接近。",
+      "label": "第四段下方的深灰色细横线，与第一条长度接近。",
+      "method": "extract"
+    },
+    {
+      "id": "text_body_5",
+      "kind": "text",
+      "bbox": [
+        106,
+        994,
+        544,
+        1031
+      ],
+      "description": "世界这本书我也才打开第一页",
+      "label": "世界这本书我也才打开第一页",
+      "method": "local",
+      "text": "世界这本书我也才打开第一页",
+      "text_status": "known",
+      "style": {
+        "fill": "#363633",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_book",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        993,
+        579,
+        1033
+      ],
+      "description": "末句右侧的棕灰色书本图标，包含书脊、封面横线及右上方红色书签，作为完整固定装饰保留。",
+      "label": "末句右侧的棕灰色书本图标，包含书脊、封面横线及右上方红色书签",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rule_5",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        1059,
+        617,
+        1064
+      ],
+      "description": "第五段下方较短的深灰色细横线。",
+      "label": "第五段下方较短的深灰色细横线。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_swoosh",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        1089,
+        1000,
+        1240
+      ],
+      "description": "段落下方的连续深灰色手绘细线，先向右弯回，再形成两次舒展折返，最后向右延伸成水平长尾；整条线作为一个装饰保留。",
+      "label": "段落下方的连续深灰色手绘细线，先向右弯回，再形成两次舒展折返",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bye",
+      "kind": "overlay",
+      "bbox": [
+        641,
+        1277,
+        1000,
+        1323
+      ],
+      "description": "纸张右下部的深灰色告别字样，包含挥手短线、由横线与倒三角组成的颜文字，以及“Bye~Bye~”。各符号具有特定位置与造型，作为整组固定字样保留。",
+      "label": "纸张右下部的深灰色告别字样，包含挥手短线、由横线与倒三角组成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_summer_title",
+      "kind": "overlay",
+      "bbox": [
+        169,
+        1756,
+        875,
+        1892
+      ],
+      "description": "覆盖树林照片的白色毛笔艺术字“再会夏日时光”，字形笔画粗细变化明显，字符位置与倾斜各异，保留整组原有书写造型。",
+      "label": "覆盖树林照片的白色毛笔艺术字“再会夏日时光”，字形笔画粗细变",
+      "method": "extract"
+    },
+    {
+      "id": "text_summer_english",
+      "kind": "text",
+      "bbox": [
+        366,
+        1933,
+        890,
+        1990
+      ],
+      "description": "Goodbye, summer time.",
+      "label": "Goodbye, summer time.",
+      "method": "local",
+      "text": "Goodbye, summer time.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_end_label",
+      "kind": "overlay",
+      "bbox": [
+        663,
+        2129,
+        931,
+        2190
+      ],
+      "description": "照片右下方的白色圆角胶囊标签，带深灰色细边及轻微阴影，内部印有间距舒展的深灰色“回忆结束”。文字与标签底板共同作为完整固定单元保留。",
+      "label": "照片右下方的白色圆角胶囊标签，带深灰色细边及轻微阴影，内部印",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "base",
+    "photo_stream",
+    "overlay_paper",
+    "overlay_orbit",
+    "text_heading",
+    "text_body_1",
+    "overlay_sparkles",
+    "overlay_rule_1",
+    "text_body_2",
+    "overlay_rule_2",
+    "text_body_3",
+    "overlay_rule_3",
+    "text_body_4",
+    "overlay_rule_4",
+    "text_body_5",
+    "overlay_book",
+    "overlay_rule_5",
+    "overlay_swoosh",
+    "overlay_bye",
+    "overlay_summer_title",
+    "text_summer_english",
+    "overlay_end_label"
+  ]
+}

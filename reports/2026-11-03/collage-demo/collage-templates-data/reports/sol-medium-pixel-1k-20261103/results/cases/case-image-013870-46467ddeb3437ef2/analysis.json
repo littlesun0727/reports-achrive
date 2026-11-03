@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1418
+  ],
+  "objects": [
+    {
+      "id": "background_gingham",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1418
+      ],
+      "description": "全画布连续的浅粉与乳白色格纹底图，四边及所有素材间隙均露出相同格纹，带柔和的颜色变化；保留格纹原样，独立照片和叠贴装饰另列。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的浅粉与乳白色格纹底图，四边及所有素材间隙均露出相",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_cream",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        121,
+        835,
+        417
+      ],
+      "description": "上方浅粉色旋转堆叠的奶油装饰，保留立体褶皱、高光和柔软边缘；下部被中央照片遮挡，左侧与吐司装饰交叠。",
+      "label": "上方浅粉色旋转堆叠的奶油装饰，保留立体褶皱、高光和柔软边缘；",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bread",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        225,
+        621,
+        885
+      ],
+      "description": "左上至中左的一片吐司装饰，双圆隆起的顶部、金黄色烤边及乳白色面包孔隙整体保留；右下部分被照片覆盖，下端被冰淇淋遮挡，没有独立照片内口。",
+      "label": "左上至中左的一片吐司装饰，双圆隆起的顶部、金黄色烤边及乳白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_strawberry",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        473,
+        982,
+        811
+      ],
+      "description": "右侧浅粉色草莓装饰，绿色叶片、果实上的粉色籽点及立体明暗整体保留；左部被照片遮挡，底端邻接黄色纽扣。",
+      "label": "右侧浅粉色草莓装饰，绿色叶片、果实上的粉色籽点及立体明暗整体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_biscuit",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        850,
+        903,
+        1206
+      ],
+      "description": "右下金黄色圆形饼干装饰，波浪花边、表面细孔和烘焙纹理整体保留；上部被照片遮挡，左部被冰淇淋覆盖，表面另叠粉色及黄色纽扣。",
+      "label": "右下金黄色圆形饼干装饰，波浪花边、表面细孔和烘焙纹理整体保留",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        305,
+        409,
+        803,
+        1062
+      ],
+      "description": "中央竖向矩形人物近景照片，一位棕色齐刘海女性正面望向镜头，一眼闭起，右侧手指靠近脸颊；可见粉色围巾、浅黄色衣服及头发上的黄色饰物。保留完整矩形内的摄影内容，不沿人物轮廓去背景；左上被蝴蝶结、中央被玩偶装饰、左下被冰淇淋及右侧被纽扣局部遮挡。",
+      "label": "中央竖向矩形人物近景照片，一位棕色齐刘海女性正面望向镜头，一",
+      "method": "local"
+    },
+    {
+      "id": "overlay_blue_button",
+      "kind": "overlay",
+      "bbox": [
+        449,
+        143,
+        567,
+        273
+      ],
+      "description": "上方浅蓝色四孔圆纽扣，内凹圆面、凸起边缘与柔和阴影作为完整装饰保留，叠在吐司顶部附近。",
+      "label": "上方浅蓝色四孔圆纽扣，内凹圆面、凸起边缘与柔和阴影作为完整装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mint_button",
+      "kind": "overlay",
+      "bbox": [
+        836,
+        341,
+        958,
+        469
+      ],
+      "description": "右上薄荷绿色四孔圆纽扣，保留圆形凸缘、孔洞和立体明暗，与下方草莓分离。",
+      "label": "右上薄荷绿色四孔圆纽扣，保留圆形凸缘、孔洞和立体明暗，与下方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        222,
+        411,
+        398,
+        593
+      ],
+      "description": "粉色缎带蝴蝶结，包含两侧结环、中央结和两条垂下的带尾，保留缎面高光与阴影；跨过照片左上边界，覆盖吐司和人物头发。",
+      "label": "粉色缎带蝴蝶结，包含两侧结环、中央结和两条垂下的带尾，保留缎",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_toy",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        619,
+        628,
+        871
+      ],
+      "description": "叠在人物照片中央偏左的彩色玩偶装饰：橙色大眼睛小人戴蓝色花朵与黄色帽饰，坐在乳白色弯曲动物造型中，左侧附格纹蝴蝶结。整个玩偶组合及立体明暗保留，不并入人物照片。",
+      "label": "叠在人物照片中央偏左的彩色玩偶装饰：橙色大眼睛小人戴蓝色花朵",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_icecream",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        813,
+        568,
+        1258
+      ],
+      "description": "左下大型乳白色冰淇淋球装饰，包含圆隆起球体、底部及右侧不规则堆叠，保留细密冰淇淋纹理与柔和明暗；覆盖照片左下、吐司下端和饼干左部。",
+      "label": "左下大型乳白色冰淇淋球装饰，包含圆隆起球体、底部及右侧不规则",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_button",
+      "kind": "overlay",
+      "bbox": [
+        763,
+        780,
+        889,
+        916
+      ],
+      "description": "右中下浅黄色四孔纽扣，凸起外缘、内凹圆面及柔和阴影整体保留；跨照片右边界，覆盖手部附近与饼干上部。",
+      "label": "右中下浅黄色四孔纽扣，凸起外缘、内凹圆面及柔和阴影整体保留；",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_button",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        1016,
+        772,
+        1140
+      ],
+      "description": "右下浅粉色四孔圆纽扣，保留圆形边缘、孔洞及立体阴影；叠在饼干上，并局部覆盖照片下边缘。",
+      "label": "右下浅粉色四孔圆纽扣，保留圆形边缘、孔洞及立体阴影；叠在饼干",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_gingham",
+    "overlay_cream",
+    "overlay_bread",
+    "overlay_strawberry",
+    "overlay_biscuit",
+    "photo_portrait",
+    "overlay_blue_button",
+    "overlay_mint_button",
+    "overlay_bow",
+    "overlay_toy",
+    "overlay_icecream",
+    "overlay_yellow_button",
+    "overlay_pink_button"
+  ]
+}

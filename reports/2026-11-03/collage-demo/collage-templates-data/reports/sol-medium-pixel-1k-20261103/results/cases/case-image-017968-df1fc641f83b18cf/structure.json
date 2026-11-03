@@ -1,0 +1,340 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_texture",
+    "description": "连续的深黑至棕金色颗粒纹理与柔和渐变覆盖整张画布，四边均延续同一固定背景；人物照片、标题、人物信息、标志和底部装饰均为独立叠加单元，清除后保留该纹理底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        384,
+        102,
+        652,
+        478
+      ],
+      "description": "上方中央男性半身肖像，正面朝向，戴眼镜并穿灰色上衣；人物以灰度抠图形式显示，下方和两侧带不规则撕裂式边缘，固定背景在人物外部可见。"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        82,
+        320,
+        361,
+        740
+      ],
+      "description": "左上男性半身肖像，略朝右侧，穿浅色西装外套和白色内搭；人物为灰度抠图，底部沿斜向撕裂边收束并与背景渐暗区域相接。"
+    },
+    {
+      "id": "photo_upper_middle_right",
+      "kind": "photo",
+      "bbox": [
+        551,
+        191,
+        816,
+        710
+      ],
+      "description": "上方偏右男性半身肖像，正面略朝左，穿黑色圆领上衣；灰度人物从背景中独立显示，身体下缘沿斜向不规则边界结束。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        749,
+        354,
+        1030,
+        781
+      ],
+      "description": "右上男性半身肖像，身体略朝左，穿黑色翻领上衣；人物为独立灰度抠图，左下和下缘带斜向撕裂式显示边界。"
+    },
+    {
+      "id": "photo_center_left",
+      "kind": "photo",
+      "bbox": [
+        286,
+        408,
+        535,
+        855
+      ],
+      "description": "中央偏左戴圆框眼镜的男性半身肖像，正面朝向，穿深色上衣；人物以灰度抠图显示，周围保留固定棕黑背景，下缘被斜向构图边界截断。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        433,
+        580,
+        729,
+        1042
+      ],
+      "description": "画面中央男性半身肖像，面带笑容，正面朝向，穿黑色上衣；灰度主体独立叠加在背景上，肩部和下方沿不规则斜向边缘收束。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        604,
+        724,
+        1009,
+        1192
+      ],
+      "description": "右下男性半身至坐姿肖像，戴圆框眼镜，双手在身前交叠，穿深色服装；灰度人物完整显示至手部和下缘，外轮廓与斜向撕裂边共同构成独立照片区域。"
+    },
+    {
+      "id": "photo_lower_left_woman",
+      "kind": "photo",
+      "bbox": [
+        66,
+        817,
+        365,
+        1233
+      ],
+      "description": "左下女性侧面半身肖像，面朝右侧，穿浅色外套和黑色内搭；灰度抠图独立显示，人物下方和右侧沿斜向不规则边缘结束。"
+    },
+    {
+      "id": "photo_lower_left_man",
+      "kind": "photo",
+      "bbox": [
+        268,
+        980,
+        521,
+        1407
+      ],
+      "description": "下方偏左男性半身肖像，戴眼镜并穿深色立领上衣，正面略朝右；人物为灰度抠图，身体下缘以斜向撕裂式边界收束。"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        453,
+        1110,
+        752,
+        1493
+      ],
+      "description": "下方中央男性半身肖像，戴圆眼镜并面朝左侧，穿深色上衣；灰度主体独立显示，肩部和身体下缘带不规则斜向边界，背景在轮廓外连续可见。"
+    },
+    {
+      "id": "overlay_label_top_center",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        350,
+        626,
+        469
+      ],
+      "description": "贴近上方中央人物的黄色姓名“陈卓”及竖排白色职务信息，作为一组固定人物标签保留，文字沿人物身体方向排布。"
+    },
+    {
+      "id": "overlay_label_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        562,
+        293,
+        687
+      ],
+      "description": "贴近左上人物的黄色姓名与白色竖排职务信息，包含“罗东&冯文”字样及附属小字，整体作为固定标签保留。"
+    },
+    {
+      "id": "overlay_label_upper_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        509,
+        783,
+        612
+      ],
+      "description": "贴近上方偏右人物的黄色姓名“黄迪”和白色竖排职务信息，作为独立固定标签叠加在人物下方区域。"
+    },
+    {
+      "id": "overlay_label_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        902,
+        640,
+        1024,
+        761
+      ],
+      "description": "贴近右上人物的黄色姓名“李嘉鹏”及白色竖排职务信息，沿人物右侧竖向排列并作为完整设计单元保留。"
+    },
+    {
+      "id": "overlay_label_center",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        764,
+        514,
+        863
+      ],
+      "description": "贴近中央笑脸人物左侧的黄色姓名“李明津”和白色竖排职务信息，整体作为固定人物标签保留。"
+    },
+    {
+      "id": "overlay_label_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        959,
+        723,
+        1073
+      ],
+      "description": "贴近右下坐姿人物的黄色姓名“倪重妆”及白色竖排职务信息，作为独立固定标签保留。"
+    },
+    {
+      "id": "overlay_label_lower_left_woman",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        1045,
+        178,
+        1136
+      ],
+      "description": "贴近左下女性人物的黄色姓名“赵菲”和白色竖排职务信息，作为固定标签整体保留。"
+    },
+    {
+      "id": "overlay_label_lower_left_man",
+      "kind": "overlay",
+      "bbox": [
+        283,
+        1220,
+        397,
+        1323
+      ],
+      "description": "贴近下方偏左男性人物的黄色姓名“张翼展”和白色竖排职务信息，作为独立固定标签保留。"
+    },
+    {
+      "id": "overlay_label_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        1384,
+        594,
+        1487
+      ],
+      "description": "贴近下方中央男性人物的黄色姓名“张志军”和白色竖排职务信息，作为固定人物信息单元保留。"
+    },
+    {
+      "id": "text_main_title",
+      "kind": "text",
+      "bbox": [
+        66,
+        51,
+        355,
+        219
+      ],
+      "text": "THE SEMI-FINAL\nCHINESE\nDESIGN ELITES",
+      "color": "#D9B98A",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_event_title",
+      "kind": "overlay",
+      "bbox": [
+        282,
+        1548,
+        805,
+        1630
+      ],
+      "description": "底部中央的大号金色中文活动标题“晋级演讲会 II”，具有装饰性字形和金属质感，作为完整艺术字单元保留。"
+    },
+    {
+      "id": "text_event_date",
+      "kind": "text",
+      "bbox": [
+        448,
+        1658,
+        646,
+        1697
+      ],
+      "text": "2023.7.11",
+      "color": "#D8B88B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_event_venue",
+      "kind": "text",
+      "bbox": [
+        396,
+        1704,
+        683,
+        1748
+      ],
+      "text": "天津·香格里拉酒店",
+      "color": "#D8B88B",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_brand_logo",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        1174,
+        1022,
+        1340
+      ],
+      "description": "右下区域的黄色几何标志、白色英文“CHINESE DESIGN ELITES”和中文“中国设计星”组成的完整品牌标识，作为固定设计单元保留。"
+    },
+    {
+      "id": "overlay_bottom_bar",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        1810,
+        1045,
+        1903
+      ],
+      "description": "画布底部横向模糊金色装饰带和其内的低辨识度文字或图形纹理，作为连续固定装饰整体保留。"
+    },
+    {
+      "id": "overlay_qr_block",
+      "kind": "overlay",
+      "bbox": [
+        889,
+        1648,
+        1016,
+        1763
+      ],
+      "description": "右下方小型灰色二维码或信息码方块，含局部黄色标记和模糊细节，作为固定信息图形整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_center",
+    "photo_upper_left",
+    "photo_upper_middle_right",
+    "photo_upper_right",
+    "photo_center_left",
+    "photo_center",
+    "photo_lower_right",
+    "photo_lower_left_woman",
+    "photo_lower_left_man",
+    "photo_bottom_center",
+    "overlay_label_top_center",
+    "overlay_label_upper_left",
+    "overlay_label_upper_middle_right",
+    "overlay_label_upper_right",
+    "overlay_label_center",
+    "overlay_label_lower_right",
+    "overlay_label_lower_left_woman",
+    "overlay_label_lower_left_man",
+    "overlay_label_bottom_center",
+    "text_main_title",
+    "overlay_brand_logo",
+    "overlay_event_title",
+    "text_event_date",
+    "text_event_venue",
+    "overlay_qr_block",
+    "overlay_bottom_bar"
+  ]
+}

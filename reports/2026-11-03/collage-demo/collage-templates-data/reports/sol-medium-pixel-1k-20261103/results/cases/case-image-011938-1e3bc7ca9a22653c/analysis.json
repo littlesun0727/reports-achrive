@@ -1,0 +1,403 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "浅米色旧纸纹理连续覆盖全画布，四边和照片、贴纸之间的空隙均呈现相同纸面；保留纸张底纹，照片与独立手写标记分别替换或重建。",
+      "background_type": "reference_clean",
+      "label": "浅米色旧纸纹理连续覆盖全画布，四边和照片、贴纸之间的空隙均呈",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_weaving",
+      "kind": "photo",
+      "bbox": [
+        88,
+        382,
+        350,
+        717
+      ],
+      "description": "左上竖向室内照片，数名女性在红色桌面前进行手工编织，近处两人俯身操作，后方可见其他人物和室内环境；保留完整摄影画面，边缘为矩形。",
+      "label": "左上竖向室内照片，数名女性在红色桌面前进行手工编织，近处两人",
+      "method": "local"
+    },
+    {
+      "id": "photo_snow",
+      "kind": "photo",
+      "bbox": [
+        722,
+        381,
+        982,
+        727
+      ],
+      "description": "右上竖向雪地照片，地面上有一人的长影，画面上方可见树冠阴影；保留摄影环境，照片上的白色手写字样和小图形属于后加标记，边缘为矩形。",
+      "label": "右上竖向雪地照片，地面上有一人的长影，画面上方可见树冠阴影；",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        377,
+        501,
+        830,
+        940
+      ],
+      "description": "中央倾斜的方形食物照片，白色方盘上放着黄色切片蛋糕及奶油装饰，盘子和周围桌面共同属于摄影画面；红色手绘线沿蛋糕外侧环绕并压在照片上，保留完整倾斜照片范围。",
+      "label": "中央倾斜的方形食物照片，白色方盘上放着黄色切片蛋糕及奶油装饰",
+      "method": "local"
+    },
+    {
+      "id": "photo_record_portrait",
+      "kind": "photo",
+      "bbox": [
+        205,
+        815,
+        334,
+        946
+      ],
+      "description": "黑胶唱片中心圆形窗口内的女性正面近景肖像，人物微笑，保留圆窗内的摄影内容。",
+      "label": "黑胶唱片中心圆形窗口内的女性正面近景肖像，人物微笑，保留圆窗",
+      "method": "local"
+    },
+    {
+      "id": "frame_record",
+      "kind": "frame",
+      "bbox": [
+        136,
+        779,
+        373,
+        988
+      ],
+      "description": "圆形黑胶唱片造型的固定承载物，包含深色唱片面、中心圆形肖像窗口及上方唱针和连接臂；唱片外圈遮住照片边缘。",
+      "photo_id": [
+        "photo_record_portrait"
+      ],
+      "label": "圆形黑胶唱片造型的固定承载物，包含深色唱片面、中心圆形肖像窗",
+      "method": "extract"
+    },
+    {
+      "id": "photo_laptop",
+      "kind": "photo",
+      "bbox": [
+        0,
+        929,
+        395,
+        1439
+      ],
+      "description": "左下角斜置的笔记本电脑局部，显示键盘、银色机身及一角绿色屏幕，主体照片延伸出左边和下边画布并被画布裁切；保留可见电脑及其摄影外观。",
+      "label": "左下角斜置的笔记本电脑局部，显示键盘、银色机身及一角绿色屏幕",
+      "method": "local"
+    },
+    {
+      "id": "photo_latte",
+      "kind": "photo",
+      "bbox": [
+        273,
+        967,
+        677,
+        1365
+      ],
+      "description": "下方偏中的咖啡杯与碟子照片，俯视杯中有奶泡拉花，杯柄朝右上方，完整杯碟及咖啡共同显示为独立摄影主体。",
+      "label": "下方偏中的咖啡杯与碟子照片，俯视杯中有奶泡拉花，杯柄朝右上方",
+      "method": "local"
+    },
+    {
+      "id": "text_calendar",
+      "kind": "text",
+      "bbox": [
+        627,
+        58,
+        976,
+        317
+      ],
+      "description": "日  一  二  三  四  五  六\n    1   2   3   4   5   6\n7   8   9   10  11  12  13\n14  15  16  17  18  19  20\n21  22  23  24  25  26  27\n28  29  30  31",
+      "label": "日  一  二  三  四  五  六\n    1   2 ",
+      "method": "local",
+      "text": "日  一  二  三  四  五  六\n    1   2   3   4   5   6\n7   8   9   10  11  12  13\n14  15  16  17  18  19  20\n21  22  23  24  25  26  27\n28  29  30  31",
+      "text_status": "known",
+      "style": {
+        "fill": "#123B5B",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_calendar_circles",
+      "kind": "overlay",
+      "bbox": [
+        661,
+        109,
+        882,
+        331
+      ],
+      "description": "日历中日期3、18、23、29外侧的四个不规则深蓝手绘圈，作为一组日历标记保留。",
+      "label": "日历中日期3、18、23、29外侧的四个不规则深蓝手绘圈，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_december_title",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        73,
+        545,
+        190
+      ],
+      "description": "左上方深蓝手写英文月份“December”，连笔字形具有独立书写造型，作为整体艺术字保留。",
+      "label": "左上方深蓝手写英文月份“December”，连笔字形具有独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_horizontal_rule",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        294,
+        540,
+        321
+      ],
+      "description": "画面上部横贯左侧至中部的粗深蓝横线，左端延伸至画布边缘。",
+      "label": "画面上部横贯左侧至中部的粗深蓝横线，左端延伸至画布边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title_chinese",
+      "kind": "overlay",
+      "bbox": [
+        417,
+        336,
+        646,
+        492
+      ],
+      "description": "中央上方深蓝手写中文标题“终章。”及其下方短横线，笔画与排布构成一组固定艺术字。",
+      "label": "中央上方深蓝手写中文标题“终章。”及其下方短横线，笔画与排布",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption_weaving",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        347,
+        370,
+        406
+      ],
+      "description": "编织照片上方的深蓝手写中文短句“体验漳州皮影戏。”，字形为手写样式，作为独立文字装饰保留。",
+      "label": "编织照片上方的深蓝手写中文短句“体验漳州皮影戏。”，字形为手",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snow_note",
+      "kind": "overlay",
+      "bbox": [
+        988,
+        375,
+        1058,
+        672
+      ],
+      "description": "雪景照片右侧竖排深蓝手写字“北京初雪。”及末尾小弯钩，整体作为手写装饰保留。",
+      "label": "雪景照片右侧竖排深蓝手写字“北京初雪。”及末尾小弯钩，整体作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snow_marks",
+      "kind": "overlay",
+      "bbox": [
+        748,
+        427,
+        967,
+        655
+      ],
+      "description": "雪景照片上叠加的白色手写短句、人物周围的圈线和零散小星点，作为一组固定照片标记保留。",
+      "label": "雪景照片上叠加的白色手写短句、人物周围的圈线和零散小星点，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_scribbles",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        436,
+        72,
+        478
+      ],
+      "description": "左侧照片旁的深蓝手绘星号状笔迹。",
+      "label": "左侧照片旁的深蓝手绘星号状笔迹。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_note",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        769,
+        206,
+        995
+      ],
+      "description": "唱片左侧深蓝手写多行中文笔记及沿左侧延伸的竖线，包含段落间原有换行和书写形态，作为整体文字装饰保留。",
+      "label": "唱片左侧深蓝手写多行中文笔记及沿左侧延伸的竖线，包含段落间原",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_record_controls",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        868,
+        500,
+        1015
+      ],
+      "description": "唱片右侧的深蓝手绘左右尖括号、暂停符号及环绕唱片下方的弧形箭头，作为一组播放界面式装饰保留。",
+      "label": "唱片右侧的深蓝手绘左右尖括号、暂停符号及环绕唱片下方的弧形箭",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_marks",
+      "kind": "overlay",
+      "bbox": [
+        337,
+        475,
+        421,
+        825
+      ],
+      "description": "蛋糕照片左侧及唱片上方散落的粉色手写和印迹状装饰，包括点划与字形笔迹，作为一组固定点缀保留。",
+      "label": "蛋糕照片左侧及唱片上方散落的粉色手写和印迹状装饰，包括点划与",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_paper",
+      "kind": "overlay",
+      "bbox": [
+        936,
+        699,
+        1025,
+        775
+      ],
+      "description": "雪景照片右下方的小块浅蓝纸片，带白色几何图案和星形点缀，整体作为贴纸保留。",
+      "label": "雪景照片右下方的小块浅蓝纸片，带白色几何图案和星形点缀，整体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_note",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        806,
+        1046,
+        954
+      ],
+      "description": "右侧照片上方的深蓝手写多行中文笔记，前后带手绘括号状标记，原有分行及笔迹作为整体装饰保留。",
+      "label": "右侧照片上方的深蓝手写多行中文笔记，前后带手绘括号状标记，原",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_sticker",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        926,
+        770,
+        1014
+      ],
+      "description": "夜景照片左上方的深青色竖向小贴纸，含白色、橙色及青色的星点和人物图案，作为完整独立贴纸保留。",
+      "label": "夜景照片左上方的深青色竖向小贴纸，含白色、橙色及青色的星点和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drink_sticker",
+      "kind": "overlay",
+      "bbox": [
+        277,
+        1028,
+        339,
+        1099
+      ],
+      "description": "咖啡杯左上方的深棕色小贴纸，含橙粉色饮品杯线稿、星点及浅色和青色圆形点缀，作为完整独立贴纸保留。",
+      "label": "咖啡杯左上方的深棕色小贴纸，含橙粉色饮品杯线稿、星点及浅色和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_latte_note",
+      "kind": "overlay",
+      "bbox": [
+        506,
+        1263,
+        704,
+        1381
+      ],
+      "description": "咖啡杯右下侧的深蓝手写两行中文短句，包含前置短横和句末圆点，保留手写排布作为整体装饰。",
+      "label": "咖啡杯右下侧的深蓝手写两行中文短句，包含前置短横和句末圆点，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_laptop_word",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        1271,
+        285,
+        1420
+      ],
+      "description": "笔记本电脑机身上方的深蓝手写大字及其周围小笔迹，字形具有独立造型，作为整体装饰保留。",
+      "label": "笔记本电脑机身上方的深蓝手写大字及其周围小笔迹，字形具有独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_check_pattern",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        701,
+        170,
+        738
+      ],
+      "description": "左侧编织照片下缘的小块红白格纹贴纸，完整保留其矩形轮廓与格纹。",
+      "label": "左侧编织照片下缘的小块红白格纹贴纸，完整保留其矩形轮廓与格纹",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "text_calendar",
+    "overlay_calendar_circles",
+    "overlay_december_title",
+    "overlay_horizontal_rule",
+    "photo_weaving",
+    "overlay_caption_weaving",
+    "overlay_left_scribbles",
+    "photo_snow",
+    "overlay_snow_marks",
+    "overlay_snow_note",
+    "overlay_title_chinese",
+    "photo_cake",
+    "overlay_pink_marks",
+    "overlay_check_pattern",
+    "photo_record_portrait",
+    "frame_record",
+    "overlay_left_note",
+    "overlay_record_controls",
+    "overlay_blue_paper",
+    "overlay_right_note",
+    "photo_laptop",
+    "photo_latte",
+    "overlay_drink_sticker",
+    "overlay_blue_sticker",
+    "overlay_latte_note",
+    "overlay_laptop_word"
+  ]
+}

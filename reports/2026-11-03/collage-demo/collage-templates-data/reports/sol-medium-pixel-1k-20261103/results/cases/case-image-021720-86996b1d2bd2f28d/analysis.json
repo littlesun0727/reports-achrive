@@ -1,0 +1,309 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1920,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "description": "浅米白色、带自然折痕与细微纸张纹理的连续底图，纹理延伸至画布四边；其上文字、照片主体和装饰均为独立单元，底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "浅米白色、带自然折痕与细微纸张纹理的连续底图，纹理延伸至画布",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        110,
+        109,
+        300,
+        139
+      ],
+      "description": "By PPT GROUP",
+      "label": "By PPT GROUP",
+      "method": "local",
+      "text": "By PPT GROUP",
+      "text_status": "known",
+      "style": {
+        "fill": "#315EAA",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_top_center",
+      "kind": "text",
+      "bbox": [
+        670,
+        109,
+        1017,
+        139
+      ],
+      "description": "Portfolio Presentation",
+      "label": "Portfolio Presentation",
+      "method": "local",
+      "text": "Portfolio Presentation",
+      "text_status": "known",
+      "style": {
+        "fill": "#315EAA",
+        "font": "mono",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        1370,
+        109,
+        1623,
+        139
+      ],
+      "description": "Graphic Designer",
+      "label": "Graphic Designer",
+      "method": "local",
+      "text": "Graphic Designer",
+      "text_status": "known",
+      "style": {
+        "fill": "#315EAA",
+        "font": "mono",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "butterfly_left",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        251,
+        219,
+        395
+      ],
+      "description": "左侧黑灰色网点风格蝴蝶插图，翅膀展开，作为独立固定装饰保留。",
+      "label": "左侧黑灰色网点风格蝴蝶插图，翅膀展开，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "title_education",
+      "kind": "text",
+      "bbox": [
+        285,
+        252,
+        1180,
+        449
+      ],
+      "description": "EDUCATION",
+      "label": "EDUCATION",
+      "method": "local",
+      "text": "EDUCATION",
+      "text_status": "known",
+      "style": {
+        "fill": "#2859B8",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "butterfly_small",
+      "kind": "overlay",
+      "bbox": [
+        1133,
+        167,
+        1247,
+        258
+      ],
+      "description": "标题上方偏右的小型灰黑网点蝴蝶插图，翅膀展开，独立于照片与文字。",
+      "label": "标题上方偏右的小型灰黑网点蝴蝶插图，翅膀展开，独立于照片与文",
+      "method": "extract"
+    },
+    {
+      "id": "hand_cutout",
+      "kind": "photo",
+      "bbox": [
+        0,
+        421,
+        261,
+        761
+      ],
+      "description": "从左侧画布边缘伸入的单只手部近景抠图，手指朝右上方伸展，指甲带蓝色点缀；保留黑白半调质感，手外有浅色轮廓边，摄影背景不可见，手腕在画布左侧和下侧被裁切。",
+      "label": "从左侧画布边缘伸入的单只手部近景抠图，手指朝右上方伸展，指甲",
+      "method": "local"
+    },
+    {
+      "id": "education_one_heading",
+      "kind": "text",
+      "bbox": [
+        284,
+        577,
+        679,
+        676
+      ],
+      "description": "University of Larana Inc\n2017 - 2021",
+      "label": "University of Larana Inc\n2017 ",
+      "method": "local",
+      "text": "University of Larana Inc\n2017 - 2021",
+      "text_status": "known",
+      "style": {
+        "fill": "#343E5A",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "education_two_heading",
+      "kind": "text",
+      "bbox": [
+        769,
+        577,
+        1195,
+        676
+      ],
+      "description": "University of Liberia & Co.\n2021 - 2022",
+      "label": "University of Liberia & Co.\n20",
+      "method": "local",
+      "text": "University of Liberia & Co.\n2021 - 2022",
+      "text_status": "known",
+      "style": {
+        "fill": "#343E5A",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "education_one_body",
+      "kind": "text",
+      "bbox": [
+        284,
+        733,
+        701,
+        840
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur\nadipiscing elit,sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua.",
+      "label": "Lorem ipsum dolor sit amet, co",
+      "method": "local",
+      "text": "Lorem ipsum dolor sit amet, consectetur\nadipiscing elit,sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua.",
+      "text_status": "known",
+      "style": {
+        "fill": "#4A4947",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "education_two_body",
+      "kind": "text",
+      "bbox": [
+        769,
+        733,
+        1184,
+        840
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur\nadipiscing elit,sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua.",
+      "label": "Lorem ipsum dolor sit amet, co",
+      "method": "local",
+      "text": "Lorem ipsum dolor sit amet, consectetur\nadipiscing elit,sed do eiusmod tempor\nincididunt ut labore et dolore magna\naliqua.",
+      "text_status": "known",
+      "style": {
+        "fill": "#4A4947",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        865,
+        928,
+        1115,
+        1080
+      ],
+      "description": "画布下边缘露出的黑灰色半调花朵插图，花瓣与深色花心部分被画布下沿裁切，作为一个独立固定装饰保留。",
+      "label": "画布下边缘露出的黑灰色半调花朵插图，花瓣与深色花心部分被画布",
+      "method": "extract"
+    },
+    {
+      "id": "display_text_top",
+      "kind": "overlay",
+      "bbox": [
+        1337,
+        0,
+        1920,
+        101
+      ],
+      "description": "画布顶边裁切的大型蓝色斜体装饰字样，可辨部分为“FULL OF OPPORTUNITI…”并有下方第二行残段；字形带破损、碎裂效果，作为整体艺术字装饰保留。",
+      "label": "画布顶边裁切的大型蓝色斜体装饰字样，可辨部分为“FULL O",
+      "method": "extract"
+    },
+    {
+      "id": "display_text_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        970,
+        757,
+        1080
+      ],
+      "description": "画布底边裁切的大型蓝色斜体装饰字样，包含可辨的“LONGEST JOURN…”及下一行“WITH A SINGLE STEP. NEVER G…”残段，字形带破损、碎裂效果，作为整体艺术字装饰保留。",
+      "label": "画布底边裁切的大型蓝色斜体装饰字样，包含可辨的“LONGES",
+      "method": "extract"
+    },
+    {
+      "id": "woman_cutout",
+      "kind": "photo",
+      "bbox": [
+        1218,
+        160,
+        1917,
+        1080
+      ],
+      "description": "右侧单人全身偏中景抠图：卷发女性面向镜头微笑，头戴皇冠，一只手举起衣物，另一只手靠近身旁的袋子；人物、衣物和袋子作为连续主体组合，呈灰度半调效果，主体外沿有浅色粗轮廓，摄影背景不可见，身体与所持物在画布下沿及右侧被裁切。",
+      "label": "右侧单人全身偏中景抠图：卷发女性面向镜头微笑，头戴皇冠，一只",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "butterfly_left",
+    "butterfly_small",
+    "flower_bottom",
+    "display_text_top",
+    "display_text_bottom",
+    "hand_cutout",
+    "title_education",
+    "text_top_left",
+    "text_top_center",
+    "text_top_right",
+    "education_one_heading",
+    "education_two_heading",
+    "education_one_body",
+    "education_two_body",
+    "woman_cutout"
+  ]
+}

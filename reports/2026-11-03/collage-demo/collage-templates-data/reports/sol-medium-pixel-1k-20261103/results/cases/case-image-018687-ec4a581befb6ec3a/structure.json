@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_sky",
+    "description": "蓝天与白云构成连续的全画布摄影底图，上部以蓝天为主，下部及右侧露出大片白云，左下边缘可见少量深色叶片。天空从四边及照片间隙连续露出，中部被大幅人物照片遮挡，右侧被两张局部照片遮挡；天空、云及边缘植物整体随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        59,
+        180,
+        897,
+        1297
+      ],
+      "description": "一名浅色头发女性在室内桌边自拍，正面略侧头看镜头，穿深蓝白格纹抹胸，半身及右侧伸出的手臂可见。完整矩形照片保留吊顶、灯具、墙面、座椅、桌面、手机和线缆等摄影环境。头戴耳机的白色线条及音乐界面是叠加设计，不属于摄影内容；照片没有沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_sign",
+      "kind": "photo",
+      "bbox": [
+        959,
+        196,
+        1080,
+        564
+      ],
+      "description": "右上窄幅矩形照片，明亮蓝天下可见斜向取景的竖直招牌及建筑边缘，招牌带深色韩文字。保留天空、招牌与建筑的摄影环境；显示窗口在画布右缘截断，与底层云天空及下方照片分别独立。"
+    },
+    {
+      "id": "photo_blue_detail",
+      "kind": "photo",
+      "bbox": [
+        950,
+        727,
+        1080,
+        1287
+      ],
+      "description": "右下窄幅矩形摄影区域，上部为亮蓝色、带密集细小斑点与反光纹理的表面，下部有大块灰色弧形前景。具体拍摄对象不完全清晰，保留整个摄影环境与上下连续内容，不只提取灰色物体；右侧被画布边缘截断。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        776,
+        451,
+        970
+      ],
+      "description": "深灰半透明圆角音乐播放界面，含左上黑白人物唱片封面、可见标题“ALL THE LOVE (feat…”及次行“Wounds get heal…”，并有“1:32”、进度条、星形收藏、上一曲和暂停图标。界面整体作为独立设计保留，不拆分印字或按钮；右侧被人物肩臂遮挡，保留可见遮挡轮廓，不补造隐藏界面。"
+    },
+    {
+      "id": "overlay_headphones",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        309,
+        679,
+        1297
+      ],
+      "description": "白色柔边手绘耳机及长线缆装饰：弧形头梁绕过人物头顶，两侧有反复圈画的耳罩，左右线缆沿肩胸向下延伸，带卷曲线圈，末端被主照片下沿截断。线条不依附人物外轮廓，不属于主体描边，整套耳机与线缆作为一个固定单元保留。"
+    },
+    {
+      "id": "overlay_top_scribble",
+      "kind": "overlay",
+      "bbox": [
+        819,
+        111,
+        1064,
+        343
+      ],
+      "description": "右上角白色细线涂鸦，多个大小不一的椭圆、回环和交叉线共同构成一团乱线，跨越天空底图、主照片上角及右上照片，整体保留。"
+    },
+    {
+      "id": "overlay_bottom_curve",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        1214,
+        1080,
+        1440
+      ],
+      "description": "右下独立白色柔边长弧线，从画布下边缘向上弯曲，在右侧形成宽大拱形后延伸出右边缘。覆盖天空及两张照片的下部边缘，与中央耳机线没有可见连接，作为独立涂鸦保留。"
+    },
+    {
+      "id": "text_day",
+      "kind": "text",
+      "bbox": [
+        54,
+        103,
+        373,
+        235
+      ],
+      "text": "Monday.\nDay Check",
+      "color": "#75A9EE",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "photo_sign",
+    "photo_blue_detail",
+    "overlay_music",
+    "overlay_headphones",
+    "text_day",
+    "overlay_top_scribble",
+    "overlay_bottom_curve"
+  ]
+}

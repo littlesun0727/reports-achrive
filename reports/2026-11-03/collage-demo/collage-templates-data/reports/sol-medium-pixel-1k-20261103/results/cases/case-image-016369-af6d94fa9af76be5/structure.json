@@ -1,0 +1,67 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_canal",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1240
+      ],
+      "description": "连续的水乡运河照片：左侧为白墙黑瓦建筑，中央及右侧为河水，远处有树木、天空和楼房；左岸台阶上有两名成人和一名穿粉色衣服的儿童，右岸有远处行人。保留完整摄影环境。照片上沿及左右上部抵达画布边缘，下部河水沿逐渐收窄的不规则开口延伸至右下方，外围被撕纸框体遮挡；不是沿人物轮廓去背景。"
+    },
+    {
+      "id": "frame_torn_paper",
+      "kind": "frame",
+      "bbox": [
+        0,
+        635,
+        1080,
+        1440
+      ],
+      "description": "覆盖画布下部的米白色纤维纸框体，左右纸面围出向右下方收窄的撕裂照片开口。完整保留纸面细碎纤维、粗糙纸纹、不规则撕口、翻起的浅色纸边、局部深色纸层及投影。纸面位于照片上方，遮住河景外围；开口中可见的河水和岸边植被属于照片，不并入框体。",
+      "photo_id": [
+        "photo_canal"
+      ]
+    },
+    {
+      "id": "overlay_pulling_figure",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        759,
+        1017,
+        1285
+      ],
+      "description": "黑色手绘拉纸人物及其关联线条组成的完整装饰。右下方小人弓步后仰，双手抓住撕口尖端；断续弧线沿左右撕口向上延伸，下方另有弧形拉动轨迹，脚边带短线和动作记号。保留所有笔画及其间空隙，叠在纸面与局部撕口上，不包含摄影河水或纸张材质。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        778,
+        1328,
+        1009,
+        1361
+      ],
+      "text": "The canal has plans.",
+      "color": "#302D27",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_canal",
+    "frame_torn_paper",
+    "overlay_pulling_figure",
+    "text_caption"
+  ]
+}

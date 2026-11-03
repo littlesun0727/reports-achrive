@@ -1,0 +1,211 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "kraft_paper",
+    "description": "棕褐色粗纸纹理铺满画布，带有分散的深色印刷小图案与笔迹；边缘和对象间隙均延续同一纸面。保留为固定底图，两张纸卡及其他单元遮挡其局部。"
+  },
+  "objects": [
+    {
+      "id": "brand_mark",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        51,
+        326,
+        103
+      ],
+      "description": "左上角红白品牌组合标识，包含红色圆角标记及白色中英文排版，作为完整固定图形保留。"
+    },
+    {
+      "id": "header_yellow",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        157,
+        714,
+        222
+      ],
+      "description": "上方白色纸卡后露出的黄色横向标签，印有深色中文文字，右侧被红色标签及纸卡遮挡。"
+    },
+    {
+      "id": "header_red",
+      "kind": "overlay",
+      "bbox": [
+        683,
+        164,
+        883,
+        220
+      ],
+      "description": "黄色标签右侧叠放的红色横向品牌标签，含白色图标与中文印字，完整作为独立标签保留。"
+    },
+    {
+      "id": "note_top",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        205,
+        955,
+        715
+      ],
+      "description": "倾斜的浅色横向纹理纸卡，带左侧三个方孔、上方小图标、中文标题、细线和手绘箭头；这些印刷与纸面细节均属于纸卡。右侧及下部被上方照片框和标签遮挡。"
+    },
+    {
+      "id": "photo_pizza_making",
+      "kind": "photo",
+      "bbox": [
+        554,
+        305,
+        867,
+        708
+      ],
+      "description": "上方竖向餐厅照片，单人厨师在室内近景中俯身搅拌大型圆形容器内的食物，周围可见顾客与餐厅环境；摄影背景保留，照片下部可见英文店名字样。完整窗口位于相纸框内。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        480,
+        255,
+        939,
+        744
+      ],
+      "description": "上方棕色文件夹形照片承托框，带不规则上沿、浅色厚相纸边及投影；白色内沿压住照片边缘，框体下缘与右侧完整可见。",
+      "photo_id": [
+        "photo_pizza_making"
+      ]
+    },
+    {
+      "id": "clip_top",
+      "kind": "overlay",
+      "bbox": [
+        712,
+        228,
+        798,
+        361
+      ],
+      "description": "斜压在上方照片框顶部的金属回形针，线状轮廓跨过框沿并遮住部分照片，作为独立装饰保留。"
+    },
+    {
+      "id": "tag_top",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        569,
+        520,
+        664
+      ],
+      "description": "上方纸卡上的红色倾斜吊牌，带圆形金属扣、深色底衬和黄色中文字样，完整保留其边缘与投影。"
+    },
+    {
+      "id": "compass_red",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        759,
+        1070,
+        1101
+      ],
+      "description": "画面右侧露出的红色圆形罗盘刻度装饰，顶部可见字母 N，左侧及下部被下方纸卡遮挡。"
+    },
+    {
+      "id": "note_bottom",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        790,
+        970,
+        1302
+      ],
+      "description": "倾斜的浅色横向纹理纸卡，印有右侧三个方孔、小图标、中文标题、细线及手绘箭头，均随纸卡保留；左侧区域被下方照片框遮挡，右侧覆盖红色罗盘的一部分。"
+    },
+    {
+      "id": "photo_pizzeria",
+      "kind": "photo",
+      "bbox": [
+        190,
+        919,
+        501,
+        1324
+      ],
+      "description": "下方竖向餐厅内部照片，近景展示柜台、菜单、货架和烤炉，未见清晰人物主体；摄影环境完整保留在矩形窗口内。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        112,
+        848,
+        570,
+        1360
+      ],
+      "description": "下方棕色文件夹形照片承托框，带不规则上沿、浅色厚相纸边及投影；框体覆盖纸卡左侧一部分，白色内沿压住照片边缘。",
+      "photo_id": [
+        "photo_pizzeria"
+      ]
+    },
+    {
+      "id": "clip_bottom",
+      "kind": "overlay",
+      "bbox": [
+        347,
+        842,
+        435,
+        978
+      ],
+      "description": "斜压在下方照片框顶部的金属回形针，跨过框沿并遮住照片上缘，作为独立装饰保留。"
+    },
+    {
+      "id": "tag_bottom",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        1171,
+        724,
+        1268
+      ],
+      "description": "下方纸卡上的红色倾斜吊牌，带圆形金属扣、深色底衬和黄色中文字样，旁边配有纸卡上的手绘箭头；箭头属于纸卡，吊牌作为独立单元保留。"
+    },
+    {
+      "id": "year_label",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        1297,
+        921,
+        1338
+      ],
+      "description": "下方纸卡右下方露出的黄色小标签，印有黑色年份数字，作为独立固定标签保留。"
+    },
+    {
+      "id": "watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1073,
+        1432
+      ],
+      "description": "画布右下角的小型浅色平台水印标记，贴近边缘，作为独立固定印记保留。"
+    }
+  ],
+  "layer_order": [
+    "brand_mark",
+    "header_yellow",
+    "header_red",
+    "note_top",
+    "frame_top",
+    "photo_pizza_making",
+    "clip_top",
+    "tag_top",
+    "compass_red",
+    "note_bottom",
+    "frame_bottom",
+    "photo_pizzeria",
+    "clip_bottom",
+    "tag_bottom",
+    "year_label",
+    "watermark"
+  ]
+}

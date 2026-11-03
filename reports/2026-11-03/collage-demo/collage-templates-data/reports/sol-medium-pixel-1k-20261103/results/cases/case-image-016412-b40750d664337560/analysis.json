@@ -1,0 +1,550 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "background_denim",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "深蓝色织物底纹覆盖整张画布，布面密布浅黄与浅蓝细小交织颗粒，四边及拼贴间隙均呈连续相同纹理。保留织物底图，清除其上的独立照片、撕纸、装饰和文字。",
+      "background_type": "reference_clean",
+      "label": "深蓝色织物底纹覆盖整张画布，布面密布浅黄与浅蓝细小交织颗粒，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_paper_upper",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        313,
+        1044,
+        1080
+      ],
+      "description": "主体建筑后方的大幅橙黄色撕纸，顶部斜向起伏，四周露出米白色毛糙纸纤维；内部有黄橙色斑驳、擦痕与褶皱。下部被街景及高楼遮挡，保留完整固定纸张，不包含建筑照片。",
+      "label": "主体建筑后方的大幅橙黄色撕纸，顶部斜向起伏，四周露出米白色毛",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paper_lower",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        1032,
+        701,
+        1450
+      ],
+      "description": "左下方独立橙色撕纸承托装饰，上缘从左侧向主楼后方延伸，下缘呈不规则尖角及米白纤维边。街景遮挡其中部，露出的左侧和底部橙色纸面属于同一单元。",
+      "label": "左下方独立橙色撕纸承托装饰，上缘从左侧向主楼后方延伸，下缘呈",
+      "method": "extract"
+    },
+    {
+      "id": "photo_pearl_skyline",
+      "kind": "photo",
+      "bbox": [
+        0,
+        49,
+        362,
+        987
+      ],
+      "description": "左侧东方明珠及周边楼群的建筑组合，无人物。东方明珠从画布上部延伸到下方楼群，包含两枚球体、支柱及塔尖，左侧楼群在画布边缘被裁切。天空沿建筑轮廓去除，完整组合外缘带米白色纸感描边，下部被前景街景遮挡。",
+      "label": "左侧东方明珠及周边楼群的建筑组合，无人物。东方明珠从画布上部",
+      "method": "local"
+    },
+    {
+      "id": "photo_financial_center",
+      "kind": "photo",
+      "bbox": [
+        665,
+        438,
+        739,
+        744
+      ],
+      "description": "中央偏右的上海环球金融中心建筑，蓝灰色塔身及顶部梯形开口可见，无人物。天空沿塔楼轮廓去除，外缘带浅色纸感边线，叠在钟楼之后；下段被钟楼遮挡，实际隐藏下缘不明确。",
+      "label": "中央偏右的上海环球金融中心建筑，蓝灰色塔身及顶部梯形开口可见",
+      "method": "local"
+    },
+    {
+      "id": "photo_bund_clock",
+      "kind": "photo",
+      "bbox": [
+        407,
+        343,
+        784,
+        756
+      ],
+      "description": "中央上方外滩建筑组合，以带旗杆和圆形钟面的海关大楼为主，左侧连接数栋较矮建筑及顶部展开的浅色楼冠，无人物。沿建筑群外轮廓去除天空，周围保留米白纸感边缘，底部被前景主楼遮挡。",
+      "label": "中央上方外滩建筑组合，以带旗杆和圆形钟面的海关大楼为主，左侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_shanghai_tower",
+      "kind": "photo",
+      "bbox": [
+        855,
+        265,
+        1021,
+        1100
+      ],
+      "description": "右侧高耸的上海中心大厦，蓝灰玻璃幕墙及圆弧形顶部完整可见，右下连接一栋较矮玻璃楼，无人物。天空沿建筑轮廓去除，边缘有米白色纸感描边；左下被金茂大厦、底部被街景局部遮挡。",
+      "label": "右侧高耸的上海中心大厦，蓝灰玻璃幕墙及圆弧形顶部完整可见，右",
+      "method": "local"
+    },
+    {
+      "id": "photo_jinmao",
+      "kind": "photo",
+      "bbox": [
+        763,
+        458,
+        898,
+        1102
+      ],
+      "description": "右侧上海中心前方的金茂大厦，尖顶、阶梯状塔冠及竖向幕墙可见，无人物。沿塔楼轮廓去除天空并带浅米白边缘，右侧叠在上海中心之前，下部与前景街区相接并受到遮挡。",
+      "label": "右侧上海中心前方的金茂大厦，尖顶、阶梯状塔冠及竖向幕墙可见，",
+      "method": "local"
+    },
+    {
+      "id": "photo_wukang_street",
+      "kind": "photo",
+      "bbox": [
+        74,
+        669,
+        1080,
+        1412
+      ],
+      "description": "下半幅武康大楼街景，中央为红砖尖角楼的完整立面与屋顶，左侧保留树木、车辆和邻楼，右侧保留道路纵深、红砖建筑及画布边缘的浅色圆角楼；底部有行人、汽车和路面。仅上方天空沿整组建筑轮廓去除，外围带米白撕纸感描边，右下路面被橙色纸片遮挡。",
+      "label": "下半幅武康大楼街景，中央为红砖尖角楼的完整立面与屋顶，左侧保",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paper_front",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        1248,
+        1055,
+        1399
+      ],
+      "description": "压在右下街景前方的独立横向橙色撕纸，顶部有凸起与凹口，底边露出宽窄变化的米白纤维纸层，纸面带浅色磨损斑点。完整保留纸边和材质，不包含下层摄影内容。",
+      "label": "压在右下街景前方的独立横向橙色撕纸，顶部有凸起与凹口，底边露",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_citywalk_badge",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        26,
+        199,
+        96
+      ],
+      "description": "左上圆角透明感标签，带浅灰双线边框，内部为黄色“Citywalk”及叠置的浅灰中文装饰字。文字、框线及透明间隙共同构成完整标签保留。",
+      "label": "左上圆角透明感标签，带浅灰双线边框，内部为黄色“Citywa",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_navigation",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        39,
+        910,
+        69
+      ],
+      "description": "顶部中央导航式装饰，黄色“ShanghaiLujiazui”位于中间，左右连接细长、略有断续的黄色横线。文字与两侧线条作为一个完整排版装饰保留。",
+      "label": "顶部中央导航式装饰，黄色“ShanghaiLujiazui”",
+      "method": "extract"
+    },
+    {
+      "id": "text_top_bund",
+      "kind": "text",
+      "bbox": [
+        930,
+        40,
+        1038,
+        68
+      ],
+      "description": "The Bund",
+      "label": "The Bund",
+      "method": "local",
+      "text": "The Bund",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFD061",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_main_chinese",
+      "kind": "text",
+      "bbox": [
+        51,
+        97,
+        1028,
+        240
+      ],
+      "description": "上海城市漫游",
+      "label": "上海城市漫游",
+      "method": "local",
+      "text": "上海城市漫游",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF5CB",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_main_english",
+      "kind": "text",
+      "bbox": [
+        193,
+        246,
+        858,
+        309
+      ],
+      "description": "ShanghaiCityWander",
+      "label": "ShanghaiCityWander",
+      "method": "local",
+      "text": "ShanghaiCityWander",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFC74D",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bottom_drops",
+      "kind": "overlay",
+      "bbox": [
+        71,
+        1462,
+        121,
+        1477
+      ],
+      "description": "左下“随心”上方的四枚黄色水滴状小标记，大小略有变化，横向紧密排列，作为一个完整点缀保留。",
+      "label": "左下“随心”上方的四枚黄色水滴状小标记，大小略有变化，横向紧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_bund",
+      "kind": "overlay",
+      "bbox": [
+        401,
+        1451,
+        651,
+        1490
+      ],
+      "description": "底部中央黄色手写“外滩”，左右各有一条细长弯曲线，字形带独特倾斜和笔画造型，文字与线条整体保留。",
+      "label": "底部中央黄色手写“外滩”，左右各有一条细长弯曲线，字形带独特",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_hatching",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        1458,
+        808,
+        1487
+      ],
+      "description": "“陆家嘴”上方的一组橙黄色斜向短笔画，排列成扁长的不规则涂写图案，保留全部笔画及内部空隙。",
+      "label": "“陆家嘴”上方的一组橙黄色斜向短笔画，排列成扁长的不规则涂写",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_arrows",
+      "kind": "overlay",
+      "bbox": [
+        934,
+        1450,
+        1026,
+        1488
+      ],
+      "description": "“摩登”上方的黄色手绘线性装饰，细横线与连续向左的折角、弧形短线构成鱼骨般图案，作为一个完整单元保留。",
+      "label": "“摩登”上方的黄色手绘线性装饰，细横线与连续向左的折角、弧形",
+      "method": "extract"
+    },
+    {
+      "id": "text_follow_chinese",
+      "kind": "text",
+      "bbox": [
+        47,
+        1499,
+        148,
+        1550
+      ],
+      "description": "随心",
+      "label": "随心",
+      "method": "local",
+      "text": "随心",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DD",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_follow_english",
+      "kind": "text",
+      "bbox": [
+        47,
+        1561,
+        232,
+        1587
+      ],
+      "description": "Follow your heart",
+      "label": "Follow your heart",
+      "method": "local",
+      "text": "Follow your heart",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFBE8",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_love_chinese",
+      "kind": "text",
+      "bbox": [
+        268,
+        1498,
+        370,
+        1550
+      ],
+      "description": "热爱",
+      "label": "热爱",
+      "method": "local",
+      "text": "热爱",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DD",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_love_english",
+      "kind": "text",
+      "bbox": [
+        295,
+        1561,
+        348,
+        1587
+      ],
+      "description": "Love",
+      "label": "Love",
+      "method": "local",
+      "text": "Love",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFBE8",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_aimless_chinese",
+      "kind": "text",
+      "bbox": [
+        437,
+        1499,
+        624,
+        1551
+      ],
+      "description": "漫无目的",
+      "label": "漫无目的",
+      "method": "local",
+      "text": "漫无目的",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DD",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_aimless_english",
+      "kind": "text",
+      "bbox": [
+        494,
+        1561,
+        575,
+        1587
+      ],
+      "description": "Aimless",
+      "label": "Aimless",
+      "method": "local",
+      "text": "Aimless",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFBE8",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_lujiazui_chinese",
+      "kind": "text",
+      "bbox": [
+        702,
+        1499,
+        849,
+        1552
+      ],
+      "description": "陆家嘴",
+      "label": "陆家嘴",
+      "method": "local",
+      "text": "陆家嘴",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DD",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_lujiazui_english",
+      "kind": "text",
+      "bbox": [
+        653,
+        1562,
+        818,
+        1588
+      ],
+      "description": "The Bund Lujiazui",
+      "label": "The Bund Lujiazui",
+      "method": "local",
+      "text": "The Bund Lujiazui",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFBE8",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_modern_chinese",
+      "kind": "text",
+      "bbox": [
+        932,
+        1499,
+        1031,
+        1550
+      ],
+      "description": "摩登",
+      "label": "摩登",
+      "method": "local",
+      "text": "摩登",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DD",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_modern_english",
+      "kind": "text",
+      "bbox": [
+        944,
+        1561,
+        1028,
+        1588
+      ],
+      "description": "Modern",
+      "label": "Modern",
+      "method": "local",
+      "text": "Modern",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFBE8",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        831,
+        1531,
+        1055,
+        1594
+      ],
+      "description": "右下浅灰白色“即梦AI”水印及左侧四角星状标志，带特定倾斜字形，叠在底部排版之上；标志和文字作为完整独立固定单元保留。",
+      "label": "右下浅灰白色“即梦AI”水印及左侧四角星状标志，带特定倾斜字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_denim",
+    "overlay_paper_upper",
+    "overlay_paper_lower",
+    "photo_pearl_skyline",
+    "photo_financial_center",
+    "photo_bund_clock",
+    "photo_shanghai_tower",
+    "photo_jinmao",
+    "photo_wukang_street",
+    "overlay_paper_front",
+    "overlay_citywalk_badge",
+    "overlay_top_navigation",
+    "text_top_bund",
+    "text_main_chinese",
+    "text_main_english",
+    "overlay_bottom_drops",
+    "overlay_bottom_bund",
+    "overlay_bottom_hatching",
+    "overlay_bottom_arrows",
+    "text_follow_chinese",
+    "text_follow_english",
+    "text_love_chinese",
+    "text_love_english",
+    "text_aimless_chinese",
+    "text_aimless_english",
+    "text_lujiazui_chinese",
+    "text_lujiazui_english",
+    "text_modern_chinese",
+    "text_modern_english",
+    "overlay_watermark"
+  ]
+}

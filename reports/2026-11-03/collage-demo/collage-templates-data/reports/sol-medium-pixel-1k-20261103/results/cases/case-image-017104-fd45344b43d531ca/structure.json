@@ -1,0 +1,90 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "一位深色头发的年轻人物正面面部特写，双手贴在脸颊两侧，头发、面部、手掌及浅色背景连续延伸至画布四边。整幅呈黑白、柔焦和明显颗粒质感；上方标题、中部彩色眼部照片及下方文字遮挡局部，但底层摄影画面连续。人物与完整摄影环境一同替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_focus",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        116,
+        895,
+        329
+      ],
+      "description": "顶部大型浅灰白色“Focus”艺术字，具有极细与极粗笔画对比、特殊衬线和倾斜椭圆形字腔，首字母明显高于其余字母。作为完整字形设计保留，覆盖底层人物头发和额头。"
+    },
+    {
+      "id": "photo_eyes",
+      "kind": "photo",
+      "bbox": [
+        90,
+        379,
+        839,
+        666
+      ],
+      "description": "横向彩色眼部特写，一位深色头发人物直视镜头，刘海覆盖额头，两侧手指贴近眼角，鼻梁下部在窗口下缘裁切。保留完整矩形摄影画面，呈暖色和颗粒质感，不沿人物轮廓去背景。红色断续直线沿照片窗口四边形成不完整边框，与照片归为同一单元；不是独立框体。"
+    },
+    {
+      "id": "overlay_vertical_question",
+      "kind": "overlay",
+      "bbox": [
+        861,
+        384,
+        899,
+        924
+      ],
+      "description": "右侧浅灰白色衬线字样“WHERE IS YOUR FOCUS?”，整句顺时针转向，沿照片右侧从上向下排列。保留完整竖向字形与排布，不并入摄影内容。"
+    },
+    {
+      "id": "overlay_red_rule",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        814,
+        55,
+        1247
+      ],
+      "description": "左下文字段落左侧的一条细长红色竖线，独立叠加在黑白摄影底图上，从首行附近延伸至末行附近，无照片承托功能。"
+    },
+    {
+      "id": "text_paragraph",
+      "kind": "text",
+      "bbox": [
+        63,
+        813,
+        240,
+        1247
+      ],
+      "text": "Focusing is the quiet\nskill of choosing what\ntruly matters and\ngiving it your full\nattention. In a world\nfull of noise, focus is\nnot about doing more\n—it is about doing\nless, but with\nintention. When you\nfocus, scattered\nthoughts begin to\nalign, and effort turns\ninto progress.\nDistractions will\nalways exist, but focus\nis the act of returning,\nagain and again, to\nyour purpose. Through\nfocus, small steps gain\nmeaning, and\nmeaningful work\nbecomes possible.",
+      "color": "#F2F2F2",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        922,
+        1259,
+        955,
+        1279
+      ],
+      "description": "右下角小型灰色圆角胶囊状水印，内部可辨“小红书”字样，文字与底板整体保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_focus",
+    "photo_eyes",
+    "overlay_vertical_question",
+    "overlay_red_rule",
+    "text_paragraph",
+    "overlay_watermark"
+  ]
+}

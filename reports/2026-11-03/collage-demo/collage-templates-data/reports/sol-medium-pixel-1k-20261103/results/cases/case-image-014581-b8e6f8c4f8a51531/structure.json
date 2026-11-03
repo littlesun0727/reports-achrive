@@ -1,0 +1,183 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "overlay_orange_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        377,
+        530,
+        1191
+      ],
+      "description": "左侧大面积橙红色纸张或底板，带有细微纸面纹理，承托下方的竖向照片，底部与黑色背景形成水平边界。"
+    },
+    {
+      "id": "photo_top_park",
+      "kind": "photo",
+      "bbox": [
+        404,
+        40,
+        1047,
+        446
+      ],
+      "description": "横向公园合影，两名穿毕业服的年轻女性并肩站立并手捧花束，人物位于画面中央，后方可见树林、草地、道路和远处行人，完整摄影环境保留在矩形照片窗口内。"
+    },
+    {
+      "id": "frame_top_polaroid",
+      "kind": "frame",
+      "bbox": [
+        377,
+        0,
+        1072,
+        542
+      ],
+      "description": "白色拍立得式照片卡，具有宽白边和下方较大的留白区域，承托上方横向公园合影，整体边缘与轻微纸张质感保留。",
+      "photo_id": [
+        "photo_top_park"
+      ]
+    },
+    {
+      "id": "photo_left_park",
+      "kind": "photo",
+      "bbox": [
+        33,
+        442,
+        496,
+        1043
+      ],
+      "description": "竖向公园合影，两名穿毕业服的女性站在树木和道路环境中，人物手持花束并在照片中央偏下位置做出举手姿势，完整摄影环境保留在矩形照片区域内。"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        458,
+        455,
+        547
+      ],
+      "description": "贴在左侧竖向照片右上附近的黄色手绘四角星贴纸，带深色描边和浅黄色外圈光晕。"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        641,
+        518,
+        754
+      ],
+      "description": "贴在左侧照片右侧中部的黄色手绘星形贴纸，带深色描边和浅黄色外圈。"
+    },
+    {
+      "id": "overlay_star_card",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        495,
+        607,
+        594
+      ],
+      "description": "位于白色照片卡左下边缘与黑色区域交界处的黄色手绘星形贴纸，带深色描边和浅黄色光晕。"
+    },
+    {
+      "id": "overlay_title_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        51,
+        280,
+        293
+      ],
+      "description": "左上黑色区域中的白色手写中文标题“我与娜”，分为上下错落的书写笔画，作为独立艺术字整体保留。"
+    },
+    {
+      "id": "overlay_right_message",
+      "kind": "overlay",
+      "bbox": [
+        618,
+        553,
+        1039,
+        728
+      ],
+      "description": "右侧黑色区域中的白色手写祝福文字，约为“在这个阳光明媚的下午，希望你未来坦途”，分成多行并采用不规则手写排版，作为固定艺术字整体保留。"
+    },
+    {
+      "id": "overlay_sun_doodle",
+      "kind": "overlay",
+      "bbox": [
+        955,
+        646,
+        1039,
+        744
+      ],
+      "description": "右侧祝福文字旁的白色手绘太阳和小装饰星点，包含圆形太阳、放射线与周围点缀，作为一个独立涂鸦单元保留。"
+    },
+    {
+      "id": "overlay_progress_design",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        747,
+        1043,
+        840
+      ],
+      "description": "右侧中部的毕业进度装饰，由蓝色斜纹圆角进度条和下方白色手写“毕业进度100%”组成，整体作为固定设计单元保留。"
+    },
+    {
+      "id": "overlay_ribbon_badge",
+      "kind": "overlay",
+      "bbox": [
+        956,
+        875,
+        1043,
+        1028
+      ],
+      "description": "右侧的彩色蝴蝶结徽章贴纸，中心有小圆形装饰和Love字样，向下延伸多条浅蓝色与白色缎带。"
+    },
+    {
+      "id": "overlay_bottom_message",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        1235,
+        350,
+        1372
+      ],
+      "description": "左下黑色区域中的白色手写中文祝福文字，约为“娜 你简直是东方美人来的”，分为两行，保留原有书写笔画和排版。"
+    },
+    {
+      "id": "photo_foreground_cutout",
+      "kind": "photo",
+      "bbox": [
+        402,
+        765,
+        1080,
+        1440
+      ],
+      "description": "前景抠图照片，两名穿毕业服的女性从胸腹部延伸至画布底边并手捧花束；左侧女性戴眼镜，右侧女性面向前方嘟嘴，人物背景被去除，沿两人及花束外轮廓保留粗白色手绘描边，整体压在橙色照片、祝福文字和黑色背景之上。"
+    }
+  ],
+  "layer_order": [
+    "overlay_orange_panel",
+    "photo_left_park",
+    "photo_top_park",
+    "frame_top_polaroid",
+    "overlay_star_upper",
+    "overlay_star_lower",
+    "overlay_star_card",
+    "overlay_title_handwriting",
+    "overlay_right_message",
+    "overlay_sun_doodle",
+    "overlay_progress_design",
+    "overlay_ribbon_badge",
+    "overlay_bottom_message",
+    "photo_foreground_cutout"
+  ]
+}

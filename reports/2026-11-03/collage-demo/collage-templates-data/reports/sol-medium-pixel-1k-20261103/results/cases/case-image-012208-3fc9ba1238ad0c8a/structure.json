@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "上半幅独立餐桌照片，无人物面部；左侧白盘盛肉片、葱丝和香菜，右上纸垫金属托盘上摆放烤串，后方及右下前景各有一杯金黄色啤酒。保留完整桌面环境、餐具、纸垫及实拍小卡片。矩形显示窗口延伸至画布上边和左右边，下边在画布中部形成清晰拼接缝，右下局部被啤酒图标贴纸遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下半幅独立餐桌近景照片，左侧上下摆放两碗不同颜色的汤，右上大白盘内是青椒炒菜，右下前景是一只手扶着盛米饭和菜的碗，右下角另有局部白色餐具。保留全部摄影环境和手部，边缘按矩形窗口裁切。与上半幅的菜品、视角不连续，上边为水平拼接缝；左下局部被餐具图标贴纸遮挡。"
+    },
+    {
+      "id": "overlay_beer",
+      "kind": "overlay",
+      "bbox": [
+        905,
+        568,
+        1024,
+        670
+      ],
+      "description": "叠在上方照片右下部的白色圆角标签，中央为一只带泡沫、金黄色酒液及右侧杯柄的啤酒杯图标。白色底板与杯子图案作为完整固定贴纸保留。"
+    },
+    {
+      "id": "overlay_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        1322,
+        154,
+        1406
+      ],
+      "description": "叠在下方照片左下部的白色小圆角标签，略有倾斜，内部为餐盘及两侧刀叉图标。底板、图案和边缘作为一个完整固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_beer",
+    "overlay_cutlery"
+  ]
+}

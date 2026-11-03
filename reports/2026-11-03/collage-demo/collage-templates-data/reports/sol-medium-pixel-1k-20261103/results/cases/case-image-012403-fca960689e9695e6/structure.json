@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        721
+      ],
+      "description": "左上独立生活桌面照片：笔记本电脑屏幕中有一位长发女性近景微笑并抬手，屏幕上可见“Recording”；桌面摆有编织篮、花朵摆件、玩偶、两只橘子和耳机等。场景环境与物品均随照片替换，矩形区域在画布顶部、左侧及中间拼接边界处截止。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        721
+      ],
+      "description": "右上独立俯拍照片：橙棕色桌面上的浅色编织篮装有饮料杯和包装食品，篮子右侧有小圆形物件，左下露出编织垫。商品、篮子及桌面环境共同属于照片，显示区域延伸至画布顶部、右侧和中间拼接边界。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        721,
+        540,
+        1440
+      ],
+      "description": "左下独立俯拍照片：橙棕色桌面上放着装有化妆品、睫毛膏和化妆刷的深色木托盘，浅色流苏织物从左上覆盖托盘一角，左下露出手部，底部及右侧可见编织垫。完整照片区域延伸至画布左侧、底部和中间拼接边界。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        721,
+        1080,
+        1440
+      ],
+      "description": "右下独立俯拍照片：编织垫上有打开的书、金属圆盘、条纹织物、白色花朵摆件和香水瓶。完整摄影环境保留，照片区域延伸至画布右侧、底部和中间拼接边界。"
+    },
+    {
+      "id": "overlay_main_caption",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        685,
+        991,
+        762
+      ],
+      "description": "跨越上下拼接边界的独立大号白色中文标题“25岁 裸辞做自媒体的第6天”，粗黑描边并带有醒目的标题字形；整段字样作为一个固定排版装饰保留。"
+    },
+    {
+      "id": "overlay_follower_caption",
+      "kind": "overlay",
+      "bbox": [
+        697,
+        780,
+        988,
+        826
+      ],
+      "description": "右下照片上方的独立白色粗体字样“粉丝310+啦~”，带黑色描边；文字左侧配有粉色蝴蝶结装饰，作为一组固定标题装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_main_caption",
+    "overlay_follower_caption"
+  ]
+}

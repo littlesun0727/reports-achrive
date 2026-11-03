@@ -1,0 +1,373 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    848,
+    1131
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        848,
+        1131
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#879597"
+      }
+    },
+    {
+      "id": "text_september",
+      "kind": "text",
+      "bbox": [
+        244,
+        116,
+        603,
+        171
+      ],
+      "description": "September",
+      "label": "September",
+      "method": "local",
+      "text": "September",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5F2E9",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_weekdays",
+      "kind": "text",
+      "bbox": [
+        158,
+        211,
+        690,
+        238
+      ],
+      "description": "Sun    Mon    Tue    Wed    Thu    Fri    Sat",
+      "label": "Sun    Mon    Tue    Wed    Th",
+      "method": "local",
+      "text": "Sun    Mon    Tue    Wed    Thu    Fri    Sat",
+      "text_status": "known",
+      "style": {
+        "fill": "#F0EEE6",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_calendar_top",
+      "kind": "text",
+      "bbox": [
+        320,
+        258,
+        689,
+        291
+      ],
+      "description": "01    02    03    04    05",
+      "label": "01    02    03    04    05",
+      "method": "local",
+      "text": "01    02    03    04    05",
+      "text_status": "known",
+      "style": {
+        "fill": "#F2F0E8",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_calendar_visible",
+      "kind": "text",
+      "bbox": [
+        404,
+        322,
+        452,
+        533
+      ],
+      "description": "09\n\n16\n\n23\n\n30",
+      "label": "09\n\n16\n\n23\n\n30",
+      "method": "local",
+      "text": "09\n\n16\n\n23\n\n30",
+      "text_status": "known",
+      "style": {
+        "fill": "#F2F0E8",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_collage_base",
+      "kind": "photo",
+      "bbox": [
+        112,
+        312,
+        727,
+        967
+      ],
+      "description": "一张铺在拼贴后方的秋日纸张与静物摄影区域，包含上方手写纸张、右侧旧报纸与秋季装饰以及下方桌面环境；部分区域被相框、标签、花束和书本照片遮挡，完整显示范围按可见矩形拼贴区域保留。",
+      "label": "一张铺在拼贴后方的秋日纸张与静物摄影区域，包含上方手写纸张、",
+      "method": "local"
+    },
+    {
+      "id": "frame_flower_photo",
+      "kind": "frame",
+      "bbox": [
+        145,
+        359,
+        415,
+        640
+      ],
+      "description": "左上方白色矩形照片卡框，具有宽白边并承载花瓶静物照片，完整框体和边角保留。",
+      "photo_id": [
+        "photo_flower"
+      ],
+      "label": "左上方白色矩形照片卡框，具有宽白边并承载花瓶静物照片，完整框",
+      "method": "extract"
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        170,
+        385,
+        394,
+        608
+      ],
+      "description": "左上方室内花瓶静物照片，包含多个花瓶、白色与粉色花朵以及粗糙棕色墙面背景，照片环境保留在矩形窗口内。",
+      "label": "左上方室内花瓶静物照片，包含多个花瓶、白色与粉色花朵以及粗糙",
+      "method": "local"
+    },
+    {
+      "id": "frame_still_life",
+      "kind": "frame",
+      "bbox": [
+        433,
+        360,
+        703,
+        777
+      ],
+      "description": "右上方白色竖向照片卡框，承载桌面静物照片，白色外框和完整底部边缘保留。",
+      "photo_id": [
+        "photo_still_life"
+      ],
+      "label": "右上方白色竖向照片卡框，承载桌面静物照片，白色外框和完整底部",
+      "method": "extract"
+    },
+    {
+      "id": "photo_still_life",
+      "kind": "photo",
+      "bbox": [
+        453,
+        386,
+        682,
+        742
+      ],
+      "description": "右上方桌面静物照片，包含打开或叠放的书本、深色笔、红色浆果和白色咖啡杯，暖棕色摄影环境保留；下部被标签和书本图像遮挡。",
+      "label": "右上方桌面静物照片，包含打开或叠放的书本、深色笔、红色浆果和",
+      "method": "local"
+    },
+    {
+      "id": "frame_bedroom_photo",
+      "kind": "frame",
+      "bbox": [
+        145,
+        646,
+        412,
+        918
+      ],
+      "description": "左下方带撕裂纸边的白色照片框，边缘不规则并带有纸张阴影，承载卧室人物照片。",
+      "photo_id": [
+        "photo_bedroom"
+      ],
+      "label": "左下方带撕裂纸边的白色照片框，边缘不规则并带有纸张阴影，承载",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bedroom",
+      "kind": "photo",
+      "bbox": [
+        170,
+        670,
+        393,
+        889
+      ],
+      "description": "左下方卧室场景照片，显示床上人物的背部或侧身、床单、窗边植物和小桌上的杯子，摄影环境保留在不规则照片窗口内。",
+      "label": "左下方卧室场景照片，显示床上人物的背部或侧身、床单、窗边植物",
+      "method": "local"
+    },
+    {
+      "id": "photo_open_book",
+      "kind": "photo",
+      "bbox": [
+        342,
+        571,
+        727,
+        967
+      ],
+      "description": "右下方秋日桌面照片，主体为打开的书本，书页上有橙色枫叶、文字与小心形图案；周围可见布面和纸张环境，顶部被两张标签遮挡，右侧与下缘保持完整可见范围。",
+      "label": "右下方秋日桌面照片，主体为打开的书本，书页上有橙色枫叶、文字",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower_bouquet",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        532,
+        219,
+        764
+      ],
+      "description": "左侧独立秋季花束装饰，包含多朵浅色小花、绿色枝叶、棕色蝴蝶结和垂落的细绳，跨在左侧照片和背景拼贴上方。",
+      "label": "左侧独立秋季花束装饰，包含多朵浅色小花、绿色枝叶、棕色蝴蝶结",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hanging_tag",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        680,
+        238,
+        750
+      ],
+      "description": "花束下方斜挂的米色小纸牌，带有棕色边缘和难以完整辨认的秋季印字，与花束绳结相连并作为固定装饰保留。",
+      "label": "花束下方斜挂的米色小纸牌，带有棕色边缘和难以完整辨认的秋季印",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_binder_clip",
+      "kind": "overlay",
+      "bbox": [
+        240,
+        299,
+        324,
+        400
+      ],
+      "description": "顶部压在左侧照片卡片上的黑色金属夹，具有银色反光边和两个下垂夹臂，作为独立固定装饰保留。",
+      "label": "顶部压在左侧照片卡片上的黑色金属夹，具有银色反光边和两个下垂",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        297,
+        737,
+        356
+      ],
+      "description": "右上方三枚金色与米色星形贴纸，大小不同并横向错落排列，覆盖在日历数字附近。",
+      "label": "右上方三枚金色与米色星形贴纸，大小不同并横向错落排列，覆盖在",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_autumn_label",
+      "kind": "overlay",
+      "bbox": [
+        281,
+        570,
+        489,
+        641
+      ],
+      "description": "横向米色撕边纸标签，覆盖照片交界处，带有黑色打字机风格的 Autumn 字样和纸张阴影；文字与标签作为一个固定设计单元保留。",
+      "label": "横向米色撕边纸标签，覆盖照片交界处，带有黑色打字机风格的 A",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fall_vibe_label",
+      "kind": "overlay",
+      "bbox": [
+        335,
+        635,
+        514,
+        679
+      ],
+      "description": "叠放在上方标签下方的窄米色纸条，带有黑色 Fall vibe 字样和不规则纸边，作为独立固定标签保留。",
+      "label": "叠放在上方标签下方的窄米色纸条，带有黑色 Fall vibe",
+      "method": "extract"
+    },
+    {
+      "id": "text_autumn",
+      "kind": "text",
+      "bbox": [
+        126,
+        914,
+        507,
+        1028
+      ],
+      "description": "Autumn",
+      "label": "Autumn",
+      "method": "local",
+      "text": "Autumn",
+      "text_status": "known",
+      "style": {
+        "fill": "#F6F3EA",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "text_is_coming",
+      "kind": "text",
+      "bbox": [
+        347,
+        1028,
+        516,
+        1061
+      ],
+      "description": "is coming",
+      "label": "is coming",
+      "method": "local",
+      "text": "is coming",
+      "text_status": "known",
+      "style": {
+        "fill": "#F6F3EA",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": true
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "text_september",
+    "text_weekdays",
+    "text_calendar_top",
+    "text_calendar_visible",
+    "photo_collage_base",
+    "frame_flower_photo",
+    "photo_flower",
+    "frame_still_life",
+    "photo_still_life",
+    "frame_bedroom_photo",
+    "photo_bedroom",
+    "photo_open_book",
+    "overlay_flower_bouquet",
+    "overlay_hanging_tag",
+    "overlay_binder_clip",
+    "overlay_stars",
+    "overlay_autumn_label",
+    "overlay_fall_vibe_label",
+    "text_autumn",
+    "text_is_coming"
+  ]
+}

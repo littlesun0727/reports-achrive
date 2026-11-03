@@ -1,0 +1,422 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#2C5B88"
+      }
+    },
+    {
+      "id": "photo_desk",
+      "kind": "photo",
+      "bbox": [
+        35,
+        39,
+        265,
+        347
+      ],
+      "description": "左上方竖向桌面照片，包含打开的书、笔记纸、笔记本电脑及带吸管的水杯，无人物。保留完整桌面摄影环境，电脑屏幕内容呈模糊块状，照片显示至矩形边界。",
+      "label": "左上方竖向桌面照片，包含打开的书、笔记纸、笔记本电脑及带吸管",
+      "method": "local"
+    },
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        449,
+        32,
+        702,
+        370
+      ],
+      "description": "上方中间的建筑局部照片，白色外墙、黑色窗框、树枝及斜向阳光共同构成摄影画面。完整矩形窗口左侧与下部被自拍人物遮挡，仍保留建筑环境，不按剩余可见区域缩框。",
+      "label": "上方中间的建筑局部照片，白色外墙、黑色窗框、树枝及斜向阳光共",
+      "method": "local"
+    },
+    {
+      "id": "photo_lake",
+      "kind": "photo",
+      "bbox": [
+        727,
+        31,
+        1055,
+        469
+      ],
+      "description": "右上竖向湖边照片，天空、远山、湖水、岸边草地和几棵高树连续可见，岸边有数名小比例人物及长椅。保留完整矩形摄影环境，下部局部被文字和狗的照片遮挡。",
+      "label": "右上竖向湖边照片，天空、远山、湖水、岸边草地和几棵高树连续可",
+      "method": "local"
+    },
+    {
+      "id": "photo_library",
+      "kind": "photo",
+      "bbox": [
+        92,
+        400,
+        404,
+        608
+      ],
+      "description": "左侧中上部横向图书馆室内照片，包含栏杆、桌椅、窗边人物和低角度阳光，前景有暗色栏杆及光斑。保留完整矩形环境，右上部分被自拍人物覆盖。",
+      "label": "左侧中上部横向图书馆室内照片，包含栏杆、桌椅、窗边人物和低角",
+      "method": "local"
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        302,
+        98,
+        588,
+        536
+      ],
+      "description": "一名长发戴眼镜的女性半身镜前自拍，穿浅色绞花毛衣和深色裤子，左侧手持手机，手腕有多条手链，脸朝向手机。沿人物、手机和手臂组成的整体轮廓去除摄影背景，外围有连续白色描边，底部腰部水平截断；覆盖建筑及图书馆照片。",
+      "label": "一名长发戴眼镜的女性半身镜前自拍，穿浅色绞花毛衣和深色裤子，",
+      "method": "local"
+    },
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        759,
+        413,
+        1023,
+        719
+      ],
+      "description": "右侧一只棕色卷毛小狗坐姿近景，穿棕色毛绒熊耳连帽衣，脸朝向画面前方，前爪与下部衣物共同保留。摄影背景沿完整主体组合轮廓去除，外缘有白色宽描边及黑色细轮廓，覆盖湖边照片下缘和邻近字样。",
+      "label": "右侧一只棕色卷毛小狗坐姿近景，穿棕色毛绒熊耳连帽衣，脸朝向画",
+      "method": "local"
+    },
+    {
+      "id": "photo_waffle",
+      "kind": "photo",
+      "bbox": [
+        36,
+        739,
+        266,
+        967
+      ],
+      "description": "左侧中下部食物近景，深色盘中是华夫饼、浅色冰淇淋、草莓、蓝莓及黄色水果块，餐具斜放其上。保留餐盘和桌面摄影环境，显示为矩形照片。",
+      "label": "左侧中下部食物近景，深色盘中是华夫饼、浅色冰淇淋、草莓、蓝莓",
+      "method": "local"
+    },
+    {
+      "id": "photo_hot_food",
+      "kind": "photo",
+      "bbox": [
+        284,
+        741,
+        512,
+        968
+      ],
+      "description": "中部食物近景，黑色锅盘中有覆盖浅黄色融化奶酪的食物，右下另有红黄色食物，后方可见白色餐具与桌面。保留完整矩形摄影窗口，右下部分被持相机女性遮挡。",
+      "label": "中部食物近景，黑色锅盘中有覆盖浅黄色融化奶酪的食物，右下另有",
+      "method": "local"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        86,
+        1008,
+        385,
+        1407
+      ],
+      "description": "左下竖向树林夕阳照片，前景树干、密集枝条、远处树林、积水地面及橙色太阳倒影共同保留。无突出近景人物，完整摄影环境显示至矩形边界。",
+      "label": "左下竖向树林夕阳照片，前景树干、密集枝条、远处树林、积水地面",
+      "method": "local"
+    },
+    {
+      "id": "photo_camera",
+      "kind": "photo",
+      "bbox": [
+        455,
+        736,
+        840,
+        1315
+      ],
+      "description": "下方中央一名长发戴眼镜的女性中景，穿浅色毛领冬季外套，双手举白色相机，脸和相机朝右，左侧露出彩色背带。摄影背景沿人物、相机、手臂及衣物整体轮廓去除，外围有白色柔和描边，衣摆底边被平直截断；上部覆盖右侧食物照片。",
+      "label": "下方中央一名长发戴眼镜的女性中景，穿浅色毛领冬季外套，双手举",
+      "method": "local"
+    },
+    {
+      "id": "photo_teddy",
+      "kind": "photo",
+      "bbox": [
+        811,
+        1146,
+        1054,
+        1391
+      ],
+      "description": "右下圆形照片，一只棕色毛绒泰迪熊坐在蓝色扶手、黄色座面的椅子上，侧向朝窗边，后方可见窗框与明亮室内环境。摄影环境保留在完整圆形显示区域内，不沿熊的轮廓去背景。",
+      "label": "右下圆形照片，一只棕色毛绒泰迪熊坐在蓝色扶手、黄色座面的椅子",
+      "method": "local"
+    },
+    {
+      "id": "overlay_exam_title",
+      "kind": "overlay",
+      "bbox": [
+        274,
+        27,
+        448,
+        75
+      ],
+      "description": "顶部白色自由手写标题，内容为期末周相关字样，字形高低及笔画不规则，后方有黄绿色圆头荧光笔横条。字样与高亮共同作为完整固定设计保留。",
+      "label": "顶部白色自由手写标题，内容为期末周相关字样，字形高低及笔画不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_brain_caption",
+      "kind": "overlay",
+      "bbox": [
+        277,
+        83,
+        449,
+        128
+      ],
+      "description": "顶部第二行白色自由手写字样“脑容量已告急…”；保留不规则字形、标点及原有位置关系，右端局部邻接自拍人物轮廓。",
+      "label": "顶部第二行白色自由手写字样“脑容量已告急…”；保留不规则字形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_selfie_note",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        133,
+        399,
+        294
+      ],
+      "description": "自拍人物左上方的青色斜向弧形手写注记，包含中文笔画、英文及波浪状符号，顺着人物左侧排列，部分笔画靠近或被人物轮廓遮挡；作为一组原有字形装饰保留。",
+      "label": "自拍人物左上方的青色斜向弧形手写注记，包含中文笔画、英文及波",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_library_title",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        350,
+        305,
+        402
+      ],
+      "description": "桌面照片下方的白色手写标题“图书馆的夕阳美！”，字形大小、笔画和基线不规则，整体保留原有手写造型。",
+      "label": "桌面照片下方的白色手写标题“图书馆的夕阳美！”，字形大小、笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lake_title",
+      "kind": "overlay",
+      "bbox": [
+        572,
+        394,
+        784,
+        435
+      ],
+      "description": "湖边照片左下方的白色手写标题“一月的湘湖”，背后带黄绿色圆头横向高亮条，文字与高亮作为完整装饰单元保留。",
+      "label": "湖边照片左下方的白色手写标题“一月的湘湖”，背后带黄绿色圆头",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sunlight_caption",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        451,
+        856,
+        504
+      ],
+      "description": "建筑照片下方白色自由手写字样“还有教学楼的阳光”，字形与笔画不规则，右端受到狗的外轮廓局部遮挡，保留整段原有视觉形式。",
+      "label": "建筑照片下方白色自由手写字样“还有教学楼的阳光”，字形与笔画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_good",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        513,
+        778,
+        572
+      ],
+      "description": "中央偏右黄色手写“美好！”字样，竖长笔画及感叹号具有独立造型，作为完整艺术字保留。",
+      "label": "中央偏右黄色手写“美好！”字样，竖长笔画及感叹号具有独立造型",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_jan",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        568,
+        706,
+        705
+      ],
+      "description": "中央大号“JAN”艺术字，浅蓝色内部、白色不规则轮廓和深浅蓝边缘笔触构成一体，三个字母带独立倾斜和夸张字形，整体保留。",
+      "label": "中央大号“JAN”艺术字，浅蓝色内部、白色不规则轮廓和深浅蓝",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dog_note",
+      "kind": "overlay",
+      "bbox": [
+        946,
+        546,
+        1039,
+        745
+      ],
+      "description": "狗照片右侧至下方的青色弧形手写注记，含中文、英文和波浪笔画，沿狗的右侧轮廓转向排列。保留全部可见笔画及相对位置，不将其并入摄影内容。",
+      "label": "狗照片右侧至下方的青色弧形手写注记，含中文、英文和波浪笔画，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_note",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        619,
+        459,
+        685
+      ],
+      "description": "左侧食物照片上方白色手写注记，包含“爱吃”开头的中文及括号内“with”字样，中文部分背后带黄绿色高亮条。字形、括号和高亮作为同一完整设计保留，部分小字不够清晰。",
+      "label": "左侧食物照片上方白色手写注记，包含“爱吃”开头的中文及括号内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_waffle_caption",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        692,
+        434,
+        748
+      ],
+      "description": "两张食物照片上方白色自由手写句子，可辨“和华夫饼好吃”及末尾空心爱心，前段食物名称不够清晰。整段不规则手写字形和爱心作为一个固定单元保留。",
+      "label": "两张食物照片上方白色自由手写句子，可辨“和华夫饼好吃”及末尾",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_favorite_photo",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        749,
+        1059,
+        800
+      ],
+      "description": "右侧中部白色手写“很喜欢的一张照片！”标题，后方为横向黄绿色高亮，左端高亮带柔化外观。保留标题、高亮及原有不规则字形。",
+      "label": "右侧中部白色手写“很喜欢的一张照片！”标题，后方为横向黄绿色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_camera_note",
+      "kind": "overlay",
+      "bbox": [
+        815,
+        814,
+        1077,
+        963
+      ],
+      "description": "持相机人物右侧的两行白色手写注记，内容为“2023年的第一条朋友”及“圈照片，开始营业”，下方配有一行黄色波浪式装饰笔画。保留原有分行、自由字形和下划装饰的整体设计。",
+      "label": "持相机人物右侧的两行白色手写注记，内容为“2023年的第一条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_teddy_caption",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        984,
+        1072,
+        1193
+      ],
+      "description": "圆形熊照片上方的错落白色手写说明“一只晒太阳的”“泰迪熊”，第二段下方有黄色小点，左下延伸一条弯曲白色箭头指向熊照片。整组文字、点缀和箭头作为完整固定设计保留。",
+      "label": "圆形熊照片上方的错落白色手写说明“一只晒太阳的”“泰迪熊”，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sunset_caption",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1014,
+        82,
+        1414
+      ],
+      "description": "画布左下边缘竖向白色手写“太阳落进橘子海”，各字逐个向下排列，末段“橘子海”外围有黄色细长椭圆圈及短射线点缀。文字、圈线和附属笔画整体保留。",
+      "label": "画布左下边缘竖向白色手写“太阳落进橘子海”，各字逐个向下排列",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cheek_caption",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        1328,
+        846,
+        1388
+      ],
+      "description": "持相机人物下方白色自由手写“这时候的脸颊肉好可爱hh”，保留不规则字形、大小变化和末尾英文字母，作为独立手写装饰。",
+      "label": "持相机人物下方白色自由手写“这时候的脸颊肉好可爱hh”，保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1002,
+        1413,
+        1075,
+        1434
+      ],
+      "description": "右下角低对比度浅蓝色圆角小标记，内部为“小红书”字样，底板和字样整体保留。",
+      "label": "右下角低对比度浅蓝色圆角小标记，内部为“小红书”字样，底板和",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_desk",
+    "photo_building",
+    "photo_lake",
+    "photo_library",
+    "photo_waffle",
+    "photo_hot_food",
+    "photo_sunset",
+    "photo_teddy",
+    "overlay_exam_title",
+    "overlay_brain_caption",
+    "overlay_selfie_note",
+    "overlay_library_title",
+    "overlay_lake_title",
+    "overlay_sunlight_caption",
+    "photo_selfie",
+    "overlay_good",
+    "overlay_jan",
+    "overlay_food_note",
+    "overlay_waffle_caption",
+    "photo_dog",
+    "overlay_dog_note",
+    "photo_camera",
+    "overlay_favorite_photo",
+    "overlay_camera_note",
+    "overlay_teddy_caption",
+    "overlay_sunset_caption",
+    "overlay_cheek_caption",
+    "overlay_watermark"
+  ]
+}

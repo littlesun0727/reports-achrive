@@ -1,0 +1,412 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "grid_paper",
+    "description": "浅灰米色方格纸纹理连续铺满画布四边，照片、标题、时间轴与局部纸片遮挡其上；清除独立对象后保留方格纸本身，不把局部米色纸片并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_women_cutout",
+      "kind": "photo",
+      "bbox": [
+        109,
+        134,
+        301,
+        561
+      ],
+      "description": "左上两名年轻女性并肩站立的全身合照，一人穿深色长裤，另一人穿牛仔短裤，身后环境基本不显；两人组合外沿有不规则白色描边，背景去除，描边随主体轮廓保留。"
+    },
+    {
+      "id": "photo_food_upper",
+      "kind": "photo",
+      "bbox": [
+        314,
+        214,
+        530,
+        501
+      ],
+      "description": "上方偏左的餐食近景，多个碗盘中有汤面、肉类及配菜，保留完整摄影环境窗口；顶部蓝色地点标签和手写说明为独立叠加设计。"
+    },
+    {
+      "id": "photo_scooter",
+      "kind": "photo",
+      "bbox": [
+        578,
+        167,
+        753,
+        456
+      ],
+      "description": "上方偏右左侧的电动车与操作场景照片，可见车辆、手部及室内背景，保留矩形照片窗口内的摄影环境。"
+    },
+    {
+      "id": "photo_receipt",
+      "kind": "photo",
+      "bbox": [
+        750,
+        181,
+        906,
+        402
+      ],
+      "description": "右上手持中文单据的近景照片，手和纸张均属于照片内容，保留矩形窗口内摄影环境；周围手写注释不属于照片。"
+    },
+    {
+      "id": "photo_salon",
+      "kind": "photo",
+      "bbox": [
+        572,
+        454,
+        848,
+        650
+      ],
+      "description": "头部护理场景近景，护理者戴手套的双手在女性头部操作，女性面部位于下方，设备环绕头部；保留完整横向照片窗口。"
+    },
+    {
+      "id": "photo_food_left",
+      "kind": "photo",
+      "bbox": [
+        69,
+        580,
+        325,
+        776
+      ],
+      "description": "左侧横向餐桌俯拍，包含多盘食材、蔬菜和蘸料，保留完整摄影画面；周围蓝色地点标记及手写说明为独立设计。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        337,
+        500,
+        528,
+        695
+      ],
+      "description": "两杯带中文印字的饮品照片，手持饮料及桌面环境均属摄影内容，保留完整窗口；杯面印字随照片替换。"
+    },
+    {
+      "id": "photo_city_night",
+      "kind": "photo",
+      "bbox": [
+        313,
+        694,
+        532,
+        859
+      ],
+      "description": "夜间城市与高楼灯光的横向照片，前景有彩色灯光，保留完整摄影环境窗口。"
+    },
+    {
+      "id": "photo_food_right",
+      "kind": "photo",
+      "bbox": [
+        575,
+        658,
+        873,
+        855
+      ],
+      "description": "右侧餐食拼盘俯拍，包含面碗、配菜及旁边的小份食物，均为同一摄影窗口内容；右侧商品小图卡及注释为独立设计。"
+    },
+    {
+      "id": "photo_park_women",
+      "kind": "photo",
+      "bbox": [
+        266,
+        881,
+        532,
+        1073
+      ],
+      "description": "公园水边两名女性并肩张开双臂的横向照片，保留水面、树木和人物构成的完整摄影环境。"
+    },
+    {
+      "id": "photo_woodland_woman",
+      "kind": "photo",
+      "bbox": [
+        573,
+        857,
+        872,
+        1069
+      ],
+      "description": "林间一名女性背对镜头站在步道旁的照片，树冠、阳光和环境一并保留在完整横向窗口内。"
+    },
+    {
+      "id": "photo_hair",
+      "kind": "photo",
+      "bbox": [
+        134,
+        978,
+        297,
+        1242
+      ],
+      "description": "竖向头发与侧脸局部近景，长发占据画面并遮住大部分面部，背景仍可见；照片为矩形窗口，左侧箭头与说明不属于照片。"
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        777,
+        965,
+        1009,
+        1130
+      ],
+      "description": "白色相纸框内两名女性戴太阳镜的户外自拍，树木为照片环境；人物与环境共同属于照片窗口，白色承载相纸另列为框体。"
+    },
+    {
+      "id": "photo_mountain_woman",
+      "kind": "photo",
+      "bbox": [
+        573,
+        1067,
+        839,
+        1268
+      ],
+      "description": "山景观景台上的女性站立照，远处山脉、天空及下方城市同属摄影画面，完整横向窗口保留。"
+    },
+    {
+      "id": "photo_food_bottom",
+      "kind": "photo",
+      "bbox": [
+        575,
+        1270,
+        785,
+        1422
+      ],
+      "description": "右下方桌面餐食照片，包含两份菜肴、餐具及周边桌面，保留完整横向摄影窗口；右侧注释与底部地点标签为独立设计。"
+    },
+    {
+      "id": "photo_sky",
+      "kind": "photo",
+      "bbox": [
+        313,
+        1110,
+        532,
+        1402
+      ],
+      "description": "左下竖向天空与城市远景照片，蓝天、云层、日落光线及地平线均属同一摄影画面，保留完整矩形窗口。"
+    },
+    {
+      "id": "frame_selfie",
+      "kind": "frame",
+      "bbox": [
+        777,
+        965,
+        1010,
+        1130
+      ],
+      "description": "包围双人自拍的白色相纸承载框，包含宽白边及下沿较宽的纸边；框体位于照片周围，照片内容独立替换。",
+      "photo_id": [
+        "photo_selfie"
+      ]
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        204,
+        49,
+        853,
+        186
+      ],
+      "description": "顶部标题组合：灰褐色不规则纸片底、白色与深棕色手绘大字及右侧棕色牌上的白色“Sep.”字样，另有粉白箭头；字形和底板作为一体化标题装饰保留。"
+    },
+    {
+      "id": "overlay_timeline",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        145,
+        583,
+        1467
+      ],
+      "description": "画面中央贯穿上下的酒红色竖向时间轴，带上下箭头、白色虚线及粉色时间标签，标签可见15:00、15:30、16:30、19:30、21:00、9:00、14:00、17:00和19:30；作为完整固定图形保留。"
+    },
+    {
+      "id": "overlay_paper_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1045,
+        1080,
+        1370
+      ],
+      "description": "横贯画布下半部的浅米色纸片带，边缘呈不规则撕纸形，覆盖方格纸并在多张下方照片后方露出；保留纸张纹理与边缘，不与全画布底图合并。"
+    },
+    {
+      "id": "overlay_left_labels",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        554,
+        347,
+        807
+      ],
+      "description": "左侧餐食区域周围的蓝色地点图钉标签、手绘中文短注、箭头与弯曲标记构成的注释组合；包含靠近上方餐食照片的地点标签，保留手写造型与粉蓝色笔迹。"
+    },
+    {
+      "id": "overlay_drink_label",
+      "kind": "overlay",
+      "bbox": [
+        290,
+        552,
+        364,
+        589
+      ],
+      "description": "饮品照片上方的蓝色地点图钉及中文手写标签，作为独立固定注释保留。"
+    },
+    {
+      "id": "overlay_right_top_notes",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        224,
+        1015,
+        466
+      ],
+      "description": "收据照片右侧及电动车照片下侧的多行深色手写中文注释、弯曲指示线和小型粉色强调字，整体作为右上区域的手写说明设计保留。"
+    },
+    {
+      "id": "overlay_salon_notes",
+      "kind": "overlay",
+      "bbox": [
+        786,
+        469,
+        1013,
+        645
+      ],
+      "description": "头部护理照片右侧的手写说明、白色弯曲箭头及粉色强调笔迹，作为独立注释组合保留。"
+    },
+    {
+      "id": "overlay_right_food_label",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        466,
+        873,
+        508
+      ],
+      "description": "护理照片与餐食照片交界处的蓝色地点标签及白色撕边底托，作为完整标签单元保留。"
+    },
+    {
+      "id": "overlay_food_right_notes",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        664,
+        1044,
+        851
+      ],
+      "description": "右侧餐食照片旁的多段手写中文说明、粉色强调字和白色指示线；包含餐食照片右上方的小型倾斜商品菜品卡片及其印字，作为该区域独立注释设计保留。"
+    },
+    {
+      "id": "overlay_city_label",
+      "kind": "overlay",
+      "bbox": [
+        439,
+        834,
+        540,
+        873
+      ],
+      "description": "夜景照片右下侧的蓝色图钉地点标签及白色撕边底托，作为完整固定标签保留。"
+    },
+    {
+      "id": "overlay_park_notes",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        889,
+        532,
+        1098
+      ],
+      "description": "公园照片周围的蓝色地点标签、中文手写说明、粉色弯曲箭头和白色手绘指示线，保留原有分散排布与笔迹；不包含照片内容。"
+    },
+    {
+      "id": "overlay_hair_notes",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        1074,
+        302,
+        1285
+      ],
+      "description": "头发照片左侧粉色指示箭头及下方手写中文说明，整体作为独立注释保留。"
+    },
+    {
+      "id": "overlay_selfie_label",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        949,
+        938,
+        986
+      ],
+      "description": "自拍相纸上沿附近的蓝色地点图钉标签及白色撕边底托，压近相纸顶部，作为独立标签保留。"
+    },
+    {
+      "id": "overlay_mountain_notes",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        899,
+        1057,
+        1274
+      ],
+      "description": "右侧公园与山景照片旁的多段中文手写说明、粉色强调字及白色指示线，按可见分组整体保留，不并入相邻摄影画面。"
+    },
+    {
+      "id": "overlay_bottom_label",
+      "kind": "overlay",
+      "bbox": [
+        748,
+        1385,
+        863,
+        1425
+      ],
+      "description": "右下餐食照片下沿附近的蓝色地点图钉标签和白色撕边底托，作为独立固定标签保留。"
+    },
+    {
+      "id": "overlay_top_marks",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        60,
+        205,
+        203
+      ],
+      "description": "标题左侧的大型白色手绘放射笔触，以及标题右侧的白色短笔触装饰，分别构成同一组标题强调标记。"
+    }
+  ],
+  "layer_order": [
+    "overlay_paper_band",
+    "photo_food_left",
+    "photo_drinks",
+    "photo_food_upper",
+    "photo_scooter",
+    "photo_receipt",
+    "photo_salon",
+    "photo_city_night",
+    "photo_food_right",
+    "photo_park_women",
+    "photo_woodland_woman",
+    "photo_hair",
+    "photo_sky",
+    "photo_mountain_woman",
+    "photo_food_bottom",
+    "frame_selfie",
+    "photo_selfie",
+    "photo_women_cutout",
+    "overlay_timeline",
+    "overlay_title",
+    "overlay_top_marks",
+    "overlay_left_labels",
+    "overlay_drink_label",
+    "overlay_right_top_notes",
+    "overlay_salon_notes",
+    "overlay_right_food_label",
+    "overlay_food_right_notes",
+    "overlay_city_label",
+    "overlay_park_notes",
+    "overlay_hair_notes",
+    "overlay_selfie_label",
+    "overlay_mountain_notes",
+    "overlay_bottom_label"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "star_pattern_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "全画布白色底上排列错行重复的黑色五角星，星形略有不规则边缘。图案在四周及照片下方连续出现，中央部分被独立照片遮挡；保留白底与星形印刷图案，不包含中央摄影内容。",
+      "background_type": "reference_clean",
+      "label": "全画布白色底上排列错行重复的黑色五角星，星形略有不规则边缘。",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        128,
+        122,
+        952,
+        1221
+      ],
+      "description": "中央竖向黑白人物照片：一人侧背对镜头，上身后仰、仰头朝左，深色短发，穿带背部图案的深色衣服，毛绒外套滑落至肩背及手臂，左侧衣袖向外伸展，下身被照片底边裁切。左侧可见窗框及窗外建筑，其余背景明亮近白，摄影环境完整保留。照片呈柔焦、低清晰度效果，按完整矩形窗口显示；右侧亮背景与白色设计底接近，但遮住该处星形图案，不是沿人物轮廓去背景。",
+      "label": "中央竖向黑白人物照片：一人侧背对镜头，上身后仰、仰头朝左，深",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "star_pattern_base",
+    "photo_portrait"
+  ]
+}

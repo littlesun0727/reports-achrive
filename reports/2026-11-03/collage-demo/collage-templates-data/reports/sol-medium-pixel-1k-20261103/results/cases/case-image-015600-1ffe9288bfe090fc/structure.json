@@ -1,0 +1,128 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "overlay_heading",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        30,
+        682,
+        167
+      ],
+      "description": "顶部两行白色粉笔手写标题，内容为“DIY戒指真好玩 !!!”和“在店里认识了一只可爱的小狗叫豆豆”。保留不规则笔画、颗粒感、字距与两行错落位置，作为完整手写设计保留。"
+    },
+    {
+      "id": "overlay_ring",
+      "kind": "overlay",
+      "bbox": [
+        499,
+        24,
+        539,
+        88
+      ],
+      "description": "标题右侧独立的白色粉笔钻戒图案，上方为菱形钻石，下方为双线圆形戒圈，保留完整线条与颗粒边缘。"
+    },
+    {
+      "id": "frame_portrait",
+      "kind": "frame",
+      "bbox": [
+        85,
+        217,
+        500,
+        839
+      ],
+      "description": "竖向照片相纸框体，左上偏橙黄、右侧及下部偏红，具有连续色彩变化与细微表面质感。四周包围单个照片内口，下沿明显宽于其余三边，左下可见细小浅色划痕；框体整体保留，内口摄影内容独立替换。",
+      "photo_id": [
+        "photo_portrait"
+      ]
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        117,
+        254,
+        475,
+        741
+      ],
+      "description": "室内双人正面合影，左侧短发男性、右侧长发女性，均穿深色上衣和围裙，微笑看向镜头，各举一张小卡片，下方可见相握的手。保留人物身后的灰色墙面、椭圆镜面、桌面器具及右侧门框等摄影环境。完整竖向矩形窗口位于橙红相纸内，人物下部随窗口裁切，无沿主体去背景。"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        517,
+        155,
+        751,
+        364
+      ],
+      "description": "右上白色粉笔小狗涂鸦，包含圆头、耳朵、点状眼鼻、笑嘴、简笔身体与翘起的尾巴，以及周围两颗小爱心和短线点缀。所有线条共同构成一个完整装饰单元，保留手绘颗粒感。"
+    },
+    {
+      "id": "overlay_happy_ending",
+      "kind": "overlay",
+      "bbox": [
+        525,
+        568,
+        763,
+        729
+      ],
+      "description": "照片右侧两行白色粉笔手写“Happy”和“Ending !”，字母大小、基线与笔画具有明显手写变化，末尾感叹号较高。保留两行完整字形、独立位置和粗糙边缘。"
+    },
+    {
+      "id": "overlay_love",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        860,
+        280,
+        997
+      ],
+      "description": "左下暗红色手绘LOVE主题装饰，L与E字母搭配两颗空心爱心，周围带短线、圆点及小星芒。各成员以错落位置组成一个完整图案，保留原有轮廓和颗粒笔触。"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        444,
+        892,
+        631,
+        940
+      ],
+      "text": "2024.12.15.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        1037,
+        786,
+        1052
+      ],
+      "description": "右下角很小的深灰色椭圆状标记，内部带低对比度微小字样，内容无法可靠辨认；作为独立完整标记保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_portrait",
+    "photo_portrait",
+    "overlay_heading",
+    "overlay_ring",
+    "overlay_dog",
+    "overlay_happy_ending",
+    "overlay_love",
+    "text_date",
+    "overlay_watermark"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#9FB2C1"
+      }
+    },
+    {
+      "id": "photo_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        630,
+        1080,
+        1440
+      ],
+      "description": "横向延展的高原风景照片，远处有浅色山脉，前景为金黄色旷野、浅水和深色湿地；保留完整摄影环境，照片从画面约 y=630 处开始并延伸至底边。",
+      "label": "横向延展的高原风景照片，远处有浅色山脉，前景为金黄色旷野、浅",
+      "method": "local"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        388,
+        248,
+        693,
+        293
+      ],
+      "description": "岗尼乡·那曲市",
+      "label": "岗尼乡·那曲市",
+      "method": "local",
+      "text": "岗尼乡·那曲市",
+      "text_status": "known",
+      "style": {
+        "fill": "#F2D4D8",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        250,
+        314,
+        831,
+        353
+      ],
+      "description": "在那曲的旷野里，和山河温柔相逢",
+      "label": "在那曲的旷野里，和山河温柔相逢",
+      "method": "local",
+      "text": "在那曲的旷野里，和山河温柔相逢",
+      "text_status": "known",
+      "style": {
+        "fill": "#F2D4D8",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_landscape",
+    "text_title",
+    "text_subtitle"
+  ]
+}

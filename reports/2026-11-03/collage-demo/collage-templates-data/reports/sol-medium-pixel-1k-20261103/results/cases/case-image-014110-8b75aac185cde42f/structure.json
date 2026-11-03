@@ -1,0 +1,107 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        655
+      ],
+      "description": "上部横幅农田风景照片，浅蓝天空、起伏的金黄色草地、大量圆柱草捆及前景铁丝围栏组成连续摄影画面，无明显近景人物。照片延伸至画布上、左、右边缘，下缘在橄榄色区域上方明确截止；保留完整摄影环境，不扩展到下方拼贴区域。"
+    },
+    {
+      "id": "overlay_lower_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        655,
+        1080,
+        1080
+      ],
+      "description": "下部横贯画布的均匀橄榄褐色矩形底板，上缘与风景照片下缘平接，承接四张错落排列的照片及底部标签。它是局部固定设计区域，不是照片框体，也不扩展为全画布底图。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        148,
+        743,
+        369,
+        929
+      ],
+      "description": "左下矩形草地照片，前景一人弯腰向右推靠大型圆柱草捆，背景有零散游客、其他草捆与秋色灌木。保留整张照片的摄影环境，右缘极小部分与中下竖幅照片相接并被其遮挡。"
+    },
+    {
+      "id": "photo_upper_middle",
+      "kind": "photo",
+      "bbox": [
+        410,
+        681,
+        670,
+        828
+      ],
+      "description": "中上横向矩形照片，一人俯卧或伏靠在大型圆柱草捆上，身体横向展开，草捆圆形端面朝向镜头；保留草地及后方黄绿色灌木。右下部分覆盖右侧照片，左下部分被中下竖幅照片遮挡，窗口仍按完整矩形记录。"
+    },
+    {
+      "id": "photo_lower_middle",
+      "kind": "photo",
+      "bbox": [
+        367,
+        799,
+        505,
+        984
+      ],
+      "description": "中下竖向矩形照片，一名戴粉色帽子的人正面跨坐在圆柱草捆上，双腿分开，一只手臂向上举起。保留草地、灌木和远处山坡，照片上部覆盖中上照片的左下角，左缘略压住左侧照片右边。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        568,
+        710,
+        927,
+        951
+      ],
+      "description": "右下较大的横向矩形照片，一名戴粉色帽子的人侧身坐在圆柱草捆顶部，面朝左，双腿向左下伸出。保留浅灰蓝天空、远处山丘、秋色灌木及草地；左上角被中上横幅照片遮挡，不沿人物轮廓去背景。"
+    },
+    {
+      "id": "overlay_bottom_label",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        1037,
+        641,
+        1075
+      ],
+      "description": "底部居中的浅金白色横向标签，两端向橄榄色底板柔和渐淡，中央为黑色手写字样，似“卡线”，左右各有一条黑色竖线。字样、竖线和渐淡底板共同构成完整固定装饰。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1053,
+        1071,
+        1073
+      ],
+      "description": "右下角低对比度的浅色小型圆角水印，内部带细小中文标识，完整保留圆角底形与内部字样。"
+    }
+  ],
+  "layer_order": [
+    "photo_landscape",
+    "overlay_lower_panel",
+    "photo_right",
+    "photo_left",
+    "photo_upper_middle",
+    "photo_lower_middle",
+    "overlay_bottom_label",
+    "overlay_watermark"
+  ]
+}

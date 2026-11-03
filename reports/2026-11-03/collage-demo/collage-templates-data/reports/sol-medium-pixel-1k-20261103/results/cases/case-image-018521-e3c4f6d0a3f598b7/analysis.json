@@ -1,0 +1,327 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "photo_wood_wall",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "连续的暖棕色木纹墙面摄影画面覆盖整张画布，木板纹理在明信片、照片卡和顶部横幅之间保持连续，四周边缘也露出同一墙面；无独立人物主体，整体为近距离平视墙面环境，客户替换范围包括完整木墙背景。",
+      "background_type": "photo",
+      "label": "连续的暖棕色木纹墙面摄影画面覆盖整张画布，木板纹理在明信片、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_top_banner",
+      "kind": "overlay",
+      "bbox": [
+        421,
+        0,
+        1080,
+        123
+      ],
+      "description": "横跨画布上方的浅色长条纸牌，带深色手写文字“允许万物穿过”，纸张阴影和完整边缘作为固定设计单元保留。",
+      "label": "横跨画布上方的浅色长条纸牌，带深色手写文字“允许万物穿过”，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_top_left",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        13,
+        416,
+        260
+      ],
+      "description": "左上方横向手写明信片，包含邮票、印章、编号格和多行手写内容，作为一张完整固定纸卡保留。",
+      "label": "左上方横向手写明信片，包含邮票、印章、编号格和多行手写内容，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_left_mid",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        299,
+        420,
+        550
+      ],
+      "description": "左侧中部横向手写明信片，带编号格、右上角小图案、横线和底部印刷标记，完整纸张及阴影保留。",
+      "label": "左侧中部横向手写明信片，带编号格、右上角小图案、横线和底部印",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_center_top",
+      "kind": "overlay",
+      "bbox": [
+        431,
+        173,
+        786,
+        417
+      ],
+      "description": "中上部横向旅行明信片，带山水小图、圆形浅色印记、邮票、编号和手写文字，作为固定完整纸卡保留。",
+      "label": "中上部横向旅行明信片，带山水小图、圆形浅色印记、邮票、编号和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_food",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        151,
+        1080,
+        302
+      ],
+      "description": "右上方竖向餐饮主题明信片，含食物插图、中文大字和浅色纸卡边缘；其下部被右侧照片框遮挡，未见部分不补造。",
+      "label": "右上方竖向餐饮主题明信片，含食物插图、中文大字和浅色纸卡边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        559,
+        201,
+        780
+      ],
+      "description": "左侧中下部横向手写明信片，带彩色邮票、人物小插图、红色印章和多行文字，左边缘被画布裁切，完整可见范围保留。",
+      "label": "左侧中下部横向手写明信片，带彩色邮票、人物小插图、红色印章和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_far_left_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        793,
+        213,
+        1008
+      ],
+      "description": "左下边缘部分可见的横向手写纸卡，包含编号框、横线和底部印刷标记，左侧超出画布，按可见完整范围记录。",
+      "label": "左下边缘部分可见的横向手写纸卡，包含编号框、横线和底部印刷标",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_dalian",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        1013,
+        214,
+        1315
+      ],
+      "description": "左下方竖向旅行主题明信片，印有“大连”、地图、景点插图和蓝色装饰图案，纸张边缘及阴影作为一个固定单元保留。",
+      "label": "左下方竖向旅行主题明信片，印有“大连”、地图、景点插图和蓝色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_center_mid",
+      "kind": "overlay",
+      "bbox": [
+        434,
+        437,
+        776,
+        661
+      ],
+      "description": "中央横向手写明信片，带编号格、密集手写文字、横线、印章和底部标记，保留整张纸卡及其轻微倾斜。",
+      "label": "中央横向手写明信片，带编号格、密集手写文字、横线、印章和底部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_hangzhou",
+      "kind": "overlay",
+      "bbox": [
+        451,
+        671,
+        763,
+        869
+      ],
+      "description": "中央偏下横向彩色旅行明信片，包含建筑、食物、花卉、地图式图案和“杭州”字样，作为印刷固定设计整体保留。",
+      "label": "中央偏下横向彩色旅行明信片，包含建筑、食物、花卉、地图式图案",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_center_lower",
+      "kind": "overlay",
+      "bbox": [
+        223,
+        902,
+        526,
+        1106
+      ],
+      "description": "下方中央横向浅色手绘纸卡，包含淡红色水彩风景、编号框和少量文字，保留纸张轮廓与印刷内容。",
+      "label": "下方中央横向浅色手绘纸卡，包含淡红色水彩风景、编号框和少量文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_right_text",
+      "kind": "overlay",
+      "bbox": [
+        758,
+        510,
+        930,
+        936
+      ],
+      "description": "右侧被大照片框部分遮挡的竖向手写纸卡，露出编号、密集文字、印章和底部横线；隐藏区域不补造，按可见纸卡范围保留。",
+      "label": "右侧被大照片框部分遮挡的竖向手写纸卡，露出编号、密集文字、印",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_right_bottom",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        727,
+        1080,
+        941
+      ],
+      "description": "右侧照片框下方的横向手写纸卡，包含顶部编号格、底部文字和印刷标记，右侧部分接近画布边缘并被照片框遮挡。",
+      "label": "右侧照片框下方的横向手写纸卡，包含顶部编号格、底部文字和印刷",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_landscape",
+      "kind": "overlay",
+      "bbox": [
+        770,
+        949,
+        1068,
+        1150
+      ],
+      "description": "右下方横向风景明信片，印有蓝天、云层、雪山或山地景观及底部文字，作为包含自身印刷图像的固定纸卡整体保留。",
+      "label": "右下方横向风景明信片，印有蓝天、云层、雪山或山地景观及底部文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        1202,
+        837,
+        1350
+      ],
+      "description": "画布底部中央部分可见的横向明信片，带编号格、地图式彩色印刷和手写内容，下缘超出画布，保留可见完整范围。",
+      "label": "画布底部中央部分可见的横向明信片，带编号格、地图式彩色印刷和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postcard_bottom_left_partial",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        1315,
+        535,
+        1350
+      ],
+      "description": "底部边缘部分露出的纸卡与照片拼贴单元，包含浅色纸面及局部印刷图案；大部分延伸出画布，按可见区域记录。",
+      "label": "底部边缘部分露出的纸卡与照片拼贴单元，包含浅色纸面及局部印刷",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mona_cat",
+      "kind": "photo",
+      "bbox": [
+        230,
+        613,
+        406,
+        857
+      ],
+      "description": "竖向独立图像窗口，显示红色调的蒙娜丽莎式人物抱着白猫，人物和猫共同构成画面主体，摄影或印刷环境不透明可见；窗口四周带深色边缘效果，完整显示区域包含被框体遮挡的边缘。",
+      "label": "竖向独立图像窗口，显示红色调的蒙娜丽莎式人物抱着白猫，人物和",
+      "method": "local"
+    },
+    {
+      "id": "frame_mona_cat",
+      "kind": "frame",
+      "bbox": [
+        214,
+        594,
+        423,
+        881
+      ],
+      "description": "承载蒙娜丽莎与白猫图像的深色矩形装饰相框，带厚重边缘、纹理和阴影，框体整体位于照片外侧并保留完整倾斜轮廓。",
+      "photo_id": [
+        "photo_mona_cat"
+      ],
+      "label": "承载蒙娜丽莎与白猫图像的深色矩形装饰相框，带厚重边缘、纹理和",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right_portrait",
+      "kind": "photo",
+      "bbox": [
+        838,
+        305,
+        1080,
+        806
+      ],
+      "description": "右侧大型竖向照片窗口，显示室内场景中的一名人物，人物戴粗针织帽并背对或侧背镜头，黑色衣物占据下部，右侧可见桌面和室内物品；摄影环境保留，照片右缘延伸至画布外并被固定纸框裁切，边缘带浅色轮廓效果。",
+      "label": "右侧大型竖向照片窗口，显示室内场景中的一名人物，人物戴粗针织",
+      "method": "local"
+    },
+    {
+      "id": "frame_right_portrait",
+      "kind": "frame",
+      "bbox": [
+        796,
+        264,
+        1080,
+        850
+      ],
+      "description": "右侧大型米白色照片承托框，具有不规则撕纸或波浪状外轮廓、厚边、阴影和底部装饰缺口；框体压在右上餐饮卡及右侧手写纸卡上，完整可见范围延伸到画布右边。",
+      "photo_id": [
+        "photo_right_portrait"
+      ],
+      "label": "右侧大型米白色照片承托框，具有不规则撕纸或波浪状外轮廓、厚边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_partial",
+      "kind": "overlay",
+      "bbox": [
+        892,
+        1171,
+        1080,
+        1350
+      ],
+      "description": "右下角部分露出的深色圆形或椭圆形固定物件，带蓝黑色表面和细微高光，位于风景明信片下方并被画布边缘裁切，作为独立固定装饰保留。",
+      "label": "右下角部分露出的深色圆形或椭圆形固定物件，带蓝黑色表面和细微",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_wood_wall",
+    "overlay_postcard_top_left",
+    "overlay_postcard_left_mid",
+    "overlay_postcard_center_top",
+    "overlay_postcard_food",
+    "overlay_postcard_left_lower",
+    "overlay_postcard_far_left_bottom",
+    "overlay_postcard_dalian",
+    "overlay_postcard_center_mid",
+    "overlay_postcard_hangzhou",
+    "overlay_postcard_center_lower",
+    "overlay_postcard_right_text",
+    "overlay_postcard_right_bottom",
+    "overlay_postcard_landscape",
+    "overlay_postcard_bottom_center",
+    "overlay_postcard_bottom_left_partial",
+    "photo_mona_cat",
+    "frame_mona_cat",
+    "photo_right_portrait",
+    "frame_right_portrait",
+    "overlay_bottom_right_partial",
+    "overlay_top_banner"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "连续的户外全身人像摄影画面铺满画布：一名身穿浅色长裙的女性正面站在画面中央偏下，身后可见树木、建筑、墙面和沙地，环境延伸至四边。墙上字样属于摄影场景；上方两张独立照片和下方固定排版遮挡局部。",
+      "background_type": "photo",
+      "label": "连续的户外全身人像摄影画面铺满画布：一名身穿浅色长裙的女性正",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        355,
+        544,
+        851
+      ],
+      "description": "左上横向人像照片，女性穿浅色礼服侧身站在书店标牌旁，标牌和人物共同属于照片；照片上缘呈浅淡半透明过渡，下缘与侧缘为清晰裁切，覆盖全画布底图。",
+      "label": "左上横向人像照片，女性穿浅色礼服侧身站在书店标牌旁，标牌和人",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        624,
+        174,
+        1080,
+        648
+      ],
+      "description": "右上横向人像照片，女性穿浅色长裙站在书店标牌旁，人物位于右侧，标牌占据左侧，保留照片内树林等摄影环境；矩形裁切，覆盖全画布底图。",
+      "label": "右上横向人像照片，女性穿浅色长裙站在书店标牌旁，人物位于右侧",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower_doodle",
+      "kind": "overlay",
+      "bbox": [
+        706,
+        54,
+        844,
+        179
+      ],
+      "description": "天空区域上的蓝色小花与绿色茎叶线描装饰，作为一组独立固定图案保留。",
+      "label": "天空区域上的蓝色小花与绿色茎叶线描装饰，作为一组独立固定图案",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ocean_design",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        1237,
+        1006,
+        1540
+      ],
+      "description": "下方白色装饰排版单元，包含超大衬线字样“OCEAN”、左侧圆形玫瑰线描及细线装饰；字样和图案彼此组合，部分被前景人物遮挡，整体作为固定设计保留。",
+      "label": "下方白色装饰排版单元，包含超大衬线字样“OCEAN”、左侧圆",
+      "method": "extract"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        252,
+        1474,
+        1008,
+        1592
+      ],
+      "description": "I hope you always smile\nhappily like this",
+      "label": "I hope you always smile\nhappil",
+      "method": "local",
+      "text": "I hope you always smile\nhappily like this",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_foreground_woman",
+      "kind": "photo",
+      "bbox": [
+        245,
+        848,
+        706,
+        1920
+      ],
+      "description": "从全画布底图中的同一女性分离出的前景主体，正面站立，浅色长裙下摆延伸至画布底边；沿完整人物轮廓显示并覆盖下方白色排版，摄影环境不随此前景层显示。",
+      "linked_to": "photo_base",
+      "label": "从全画布底图中的同一女性分离出的前景主体，正面站立，浅色长裙",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper_left",
+    "photo_upper_right",
+    "overlay_flower_doodle",
+    "overlay_ocean_design",
+    "text_caption",
+    "photo_foreground_woman"
+  ]
+}

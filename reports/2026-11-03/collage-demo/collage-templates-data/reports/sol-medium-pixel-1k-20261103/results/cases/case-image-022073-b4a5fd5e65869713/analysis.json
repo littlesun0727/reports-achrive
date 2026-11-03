@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    764,
+    1019
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        764,
+        1019
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_forest",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        764,
+        590
+      ],
+      "description": "上方横向森林与夕阳场景，树木、阳光和林间环境构成完整摄影区域；下缘在约 y=550–590 处被草地照片斜向覆盖，照片环境保留。",
+      "label": "上方横向森林与夕阳场景，树木、阳光和林间环境构成完整摄影区域",
+      "method": "local"
+    },
+    {
+      "id": "photo_grass",
+      "kind": "photo",
+      "bbox": [
+        0,
+        545,
+        764,
+        1019
+      ],
+      "description": "下方草地摄影区域，绿色草坪延伸至画布左右边缘和底边；上缘略呈斜线并覆盖森林照片下部。",
+      "label": "下方草地摄影区域，绿色草坪延伸至画布左右边缘和底边；上缘略呈",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_woman",
+      "kind": "photo",
+      "bbox": [
+        77,
+        133,
+        365,
+        625
+      ],
+      "description": "左上方全身女性抠图，戴帽子、穿浅色无袖上衣和深色短裙，侧身伸出左臂托着小物，视线朝上；双脚落在草地前。人物外轮廓独立显示，未见其原始摄影环境。",
+      "label": "左上方全身女性抠图，戴帽子、穿浅色无袖上衣和深色短裙，侧身伸",
+      "method": "local"
+    },
+    {
+      "id": "photo_large_woman",
+      "kind": "photo",
+      "bbox": [
+        328,
+        370,
+        617,
+        1019
+      ],
+      "description": "画面中央偏右的大幅女性抠图，戴帽子、穿浅色无袖上衣和深色下装，近景仰头看向左上并将手机举在耳边；身体从森林与草地交界处向下延伸，底部被画布边缘裁切，未见原始摄影环境。",
+      "label": "画面中央偏右的大幅女性抠图，戴帽子、穿浅色无袖上衣和深色下装",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_forest",
+    "photo_grass",
+    "photo_small_woman",
+    "photo_large_woman"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#F2F3F7"
+  },
+  "objects": [
+    {
+      "id": "photo_model_left",
+      "kind": "photo",
+      "bbox": [
+        35,
+        291,
+        380,
+        1327
+      ],
+      "description": "左侧全身女性模特独立抠图，戴粉色印花头巾和眼镜，穿白色花卉针织衫、阔腿牛仔裤及运动鞋，身体正面略转向右侧，一手抬起拨发；包含完整头发、手臂、衣物、鞋和垂落的包带，摄影背景不保留。"
+    },
+    {
+      "id": "photo_model_right",
+      "kind": "photo",
+      "bbox": [
+        382,
+        153,
+        1080,
+        1357
+      ],
+      "description": "右侧大型女性模特半身至大腿近景独立抠图，戴粉色印花头巾和装饰眼镜，长发披肩，一手扶眼镜，身穿白色花卉针织衫和深色牛仔裤，身体正面朝向镜头；包含右侧伸出画布的手臂、包袋及腰间飘带，摄影背景不保留，人物下缘由底部色带遮挡。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        32,
+        35,
+        1048,
+        132
+      ],
+      "text": "FLORAL SWEATER",
+      "color": "#050505",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "text_collection",
+      "kind": "text",
+      "bbox": [
+        32,
+        142,
+        515,
+        181
+      ],
+      "text": "AIPALA/26SS VOL.1",
+      "color": "#050505",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_preview",
+      "kind": "text",
+      "bbox": [
+        32,
+        194,
+        208,
+        239
+      ],
+      "text": "新品预览",
+      "color": "#050505",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        847,
+        142,
+        1029,
+        201
+      ],
+      "text": "风格甜美与优雅\n花卉毛衣",
+      "color": "#050505",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        287,
+        236,
+        517,
+        386
+      ],
+      "description": "粉玫瑰色椭圆对话气泡，底部带向右下方延伸的尖尾；内部白色粗体日期文字为“Saturday”和“11/29 18:00”，气泡与字样作为一个完整固定图形单元保留。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        915,
+        291,
+        1032,
+        425
+      ],
+      "description": "右上区域粉玫瑰色手绘线条爱心及下方两笔短划，作为一组独立装饰保留。"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        1061,
+        420,
+        1154
+      ],
+      "description": "画面下方偏左的两枚粉玫瑰色手绘空心闪光星形，大小不同、上下错落，作为一组装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1357,
+        1080,
+        1440
+      ],
+      "description": "贯穿画布底边的粉玫瑰色横向标题色带，覆盖两张人物照片的下缘；包含左侧黑色日期“11.29 18:00 PM”、中间三行小号英文说明“THE SCENERY AND LIGHT OF HAIYAN CITY / WITH A NATURAL SENSE OF RELAXATION AND A / TOUCH OF SOPHISTICATION,”以及右侧黑色手写风格“SPRING&SUMMER”，整体作为固定页脚设计保留。"
+    },
+    {
+      "id": "text_vertical_note",
+      "kind": "text",
+      "bbox": [
+        1024,
+        731,
+        1051,
+        944
+      ],
+      "text": "（新品预览已经上线）",
+      "color": "#050505",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_model_left",
+    "photo_model_right",
+    "text_title",
+    "text_collection",
+    "text_preview",
+    "text_top_right",
+    "overlay_speech_bubble",
+    "overlay_heart",
+    "overlay_sparkles",
+    "text_vertical_note",
+    "overlay_bottom_band"
+  ]
+}

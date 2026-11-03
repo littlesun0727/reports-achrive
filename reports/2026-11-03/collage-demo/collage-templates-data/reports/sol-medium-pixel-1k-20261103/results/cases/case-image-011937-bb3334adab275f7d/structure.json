@@ -1,0 +1,264 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续覆盖全画布的浅米色旧纸纹理底图，包含细微纤维、污渍和褶皱痕迹；照片、文字、日历和手绘装饰均独立叠加在其上，纸张外观保留原样。"
+  },
+  "objects": [
+    {
+      "id": "text_november",
+      "kind": "text",
+      "bbox": [
+        68,
+        88,
+        504,
+        191
+      ],
+      "text": "November",
+      "color": "#08766D",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_calendar",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        59,
+        997,
+        328
+      ],
+      "description": "右上角手绘月历设计单元，包含星期标题、日期数字以及圈出的1日、9日和19日，整体以深青绿色笔迹印绘在纸面上。"
+    },
+    {
+      "id": "overlay_horizontal_line",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        294,
+        541,
+        320
+      ],
+      "description": "画布左侧横向深青绿色粗线，边缘略带手绘或印刷不均匀感，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        99,
+        407,
+        404,
+        637
+      ],
+      "description": "横向花丛照片，画面中有多朵紫色和蓝紫色小花、绿色叶片及深色植物背景，完整矩形照片区域独立替换。"
+    },
+    {
+      "id": "overlay_flower_doodle_left",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        468,
+        112,
+        529
+      ],
+      "description": "花卉照片左侧的紫色手绘小花，中心为黄色圆点，作为独立固定涂鸦保留。"
+    },
+    {
+      "id": "overlay_flower_doodle_lower",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        550,
+        132,
+        620
+      ],
+      "description": "花卉照片左下侧的紫色手绘小花，带黄色花心，独立叠加在纸面上。"
+    },
+    {
+      "id": "overlay_flower_sprouts",
+      "kind": "overlay",
+      "bbox": [
+        123,
+        359,
+        339,
+        408
+      ],
+      "description": "花卉照片上沿的三组绿色幼苗状手绘线条，分别从照片上方伸出，作为一体的固定装饰保留。"
+    },
+    {
+      "id": "overlay_vertical_note",
+      "kind": "overlay",
+      "bbox": [
+        449,
+        416,
+        536,
+        680
+      ],
+      "description": "花卉照片与食物照片之间的深青绿色手写中文竖向短句，笔画不规则并带有手绘箭头，作为完整字形装饰保留，不拆分为普通排版文字。"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        535,
+        401,
+        1003,
+        717
+      ],
+      "description": "横向烹饪照片，显示黑色炒锅中的多种食材、蔬菜和锅铲，保留完整摄影环境及矩形显示范围；右下部被收据照片遮挡。"
+    },
+    {
+      "id": "photo_grass_box",
+      "kind": "photo",
+      "bbox": [
+        108,
+        666,
+        269,
+        881
+      ],
+      "description": "竖向草地照片，绿色植被中放置一个红白色小盒状物，保留完整照片窗口。"
+    },
+    {
+      "id": "photo_yellow_tree",
+      "kind": "photo",
+      "bbox": [
+        289,
+        666,
+        449,
+        881
+      ],
+      "description": "竖向秋季树叶照片，画面以金黄色叶片和深色树干或枝条为主，保留完整矩形显示区域。"
+    },
+    {
+      "id": "photo_menu_card",
+      "kind": "photo",
+      "bbox": [
+        477,
+        718,
+        604,
+        888
+      ],
+      "description": "小幅竖向菜单或宣传卡照片，含深绿色顶部区域、中文印字和食物图片，作为独立可替换照片保留。"
+    },
+    {
+      "id": "photo_receipt",
+      "kind": "photo",
+      "bbox": [
+        815,
+        694,
+        1016,
+        969
+      ],
+      "description": "倾斜放置的餐饮收据照片，包含中文项目明细、总金额182及粉色边缘，完整收据区域独立替换，并覆盖食物照片右下角。"
+    },
+    {
+      "id": "overlay_yellow_doodle_left",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        833,
+        125,
+        925
+      ],
+      "description": "草地照片左下方的黄色手绘叶片或花朵涂鸦，带有不规则线条和内部笔画，作为独立固定装饰。"
+    },
+    {
+      "id": "overlay_yellow_doodle_center",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        832,
+        218,
+        944
+      ],
+      "description": "两张小照片之间偏左下方的黄色手绘叶片涂鸦，包含茎和内部线条，独立叠加在纸面上。"
+    },
+    {
+      "id": "overlay_orange_backpack_doodle",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        776,
+        809,
+        872
+      ],
+      "description": "菜单和收据附近的橙色手绘背包图案及两枚橙色加号，作为同组固定涂鸦保留。"
+    },
+    {
+      "id": "photo_lake_swan_scene",
+      "kind": "photo",
+      "bbox": [
+        108,
+        906,
+        555,
+        1394
+      ],
+      "description": "大型竖向湖面照片，包含蓝色水面、芦苇、树枝和黑天鹅的完整摄影环境；照片为矩形窗口，底部和左侧部分被前景天鹅轮廓层覆盖。"
+    },
+    {
+      "id": "photo_swan_foreground",
+      "kind": "photo",
+      "bbox": [
+        62,
+        1028,
+        403,
+        1401
+      ],
+      "linked_to": "photo_lake_swan_scene",
+      "description": "从湖面照片中沿黑天鹅主体轮廓独立显示的前景照片层，天鹅头部、长颈和身体跨出原矩形照片左侧及下缘，覆盖纸面并压住底部照片边缘；主体周围保留白色手绘描边，摄影环境不随该前景层扩展。"
+    },
+    {
+      "id": "text_lower_notes",
+      "kind": "text",
+      "bbox": [
+        559,
+        915,
+        1049,
+        1378
+      ],
+      "text": "十一月是考试密集的一个月。\n匆忙的脚步路过了很多城市，\n没有来得及好好欣赏它们。\n不过也有时常出门放松心情，\n毕竟北京的秋天\n实在太美。",
+      "color": "#087563",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_autumn_leaves",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        1202,
+        1017,
+        1398
+      ],
+      "description": "右下角固定秋叶装饰，包含一片大型绿色叶片、白色手绘叶脉和笑脸样线条，以及下方橙色和棕色小叶片，整体作为一组贴纸或手绘单元保留。"
+    }
+  ],
+  "layer_order": [
+    "text_november",
+    "overlay_horizontal_line",
+    "overlay_calendar",
+    "photo_flowers",
+    "photo_food",
+    "photo_grass_box",
+    "photo_yellow_tree",
+    "photo_menu_card",
+    "photo_lake_swan_scene",
+    "photo_receipt",
+    "overlay_flower_sprouts",
+    "overlay_flower_doodle_left",
+    "overlay_flower_doodle_lower",
+    "overlay_vertical_note",
+    "overlay_yellow_doodle_left",
+    "overlay_yellow_doodle_center",
+    "overlay_orange_backpack_doodle",
+    "photo_swan_foreground",
+    "text_lower_notes",
+    "overlay_autumn_leaves"
+  ]
+}

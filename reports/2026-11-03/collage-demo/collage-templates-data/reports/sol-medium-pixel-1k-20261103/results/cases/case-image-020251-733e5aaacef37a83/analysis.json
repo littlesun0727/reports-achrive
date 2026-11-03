@@ -1,0 +1,270 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        677
+      ],
+      "description": "左上竖向近距离自拍，两名年轻女性并肩入镜；左侧女性面部和上身被画布左边缘裁切，右侧女性面向镜头，保留砖墙及室内环境。",
+      "label": "左上竖向近距离自拍，两名年轻女性并肩入镜；左侧女性面部和上身",
+      "method": "local"
+    },
+    {
+      "id": "photo_tree_seated",
+      "kind": "photo",
+      "bbox": [
+        539,
+        0,
+        1080,
+        677
+      ],
+      "description": "右上户外中景照片，一名女性坐在树下木质长椅上，身体略侧、面向镜头；树冠、墙面和长椅属于同一摄影画面。下部被绿色文字标签及中央相片框遮挡。",
+      "label": "右上户外中景照片，一名女性坐在树下木质长椅上，身体略侧、面向",
+      "method": "local"
+    },
+    {
+      "id": "photo_seated_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        676,
+        540,
+        1350
+      ],
+      "description": "左下竖向户外全身照片，同一女性坐在长椅上，双手放在腿前，身体略朝画面右侧；保留树木、墙面和长椅环境，画面下缘延伸至画布边缘。",
+      "label": "左下竖向户外全身照片，同一女性坐在长椅上，双手放在腿前，身体",
+      "method": "local"
+    },
+    {
+      "id": "photo_polaroid_scene",
+      "kind": "photo",
+      "bbox": [
+        539,
+        676,
+        1080,
+        1350
+      ],
+      "description": "右下竖向户外照片，近景手持数张拍立得相片，背景可见树木与街景；手、相片及其白色相纸边属于摄影内容。上部被中央图标与贴纸遮挡，画面延伸至右侧和下侧画布边缘。",
+      "label": "右下竖向户外照片，近景手持数张拍立得相片，背景可见树木与街景",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_left",
+      "kind": "photo",
+      "bbox": [
+        427,
+        598,
+        532,
+        738
+      ],
+      "description": "中央蓝色相片框左侧的小幅竖向室内照片，一名女性侧身拿着物件，身后有花束与室内陈设；摄影环境保留，部分边缘被蓝色框沿覆盖。",
+      "label": "中央蓝色相片框左侧的小幅竖向室内照片，一名女性侧身拿着物件，",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_right",
+      "kind": "photo",
+      "bbox": [
+        546,
+        598,
+        652,
+        738
+      ],
+      "description": "中央蓝色相片框右侧的小幅竖向室内照片，一名女性侧身拿着物件，取景和姿态与左侧小照片不同；摄影环境保留，部分边缘被蓝色框沿覆盖。",
+      "label": "中央蓝色相片框右侧的小幅竖向室内照片，一名女性侧身拿着物件，",
+      "method": "local"
+    },
+    {
+      "id": "photo_inset_hand",
+      "kind": "photo",
+      "bbox": [
+        849,
+        686,
+        1074,
+        1009
+      ],
+      "description": "右侧独立竖向户外照片，手持一张小型拍立得相片，背景为树木和街景；保留照片内完整摄影环境，四周白色相纸边另由固定框体承载。",
+      "label": "右侧独立竖向户外照片，手持一张小型拍立得相片，背景为树木和街",
+      "method": "local"
+    },
+    {
+      "id": "photo_cutout_woman",
+      "kind": "photo",
+      "bbox": [
+        354,
+        961,
+        581,
+        1350
+      ],
+      "description": "中央偏下沿人物轮廓显示的独立女性抠图，戴棕色帽子、穿印花短袖和牛仔短裤，身体略向右倾并伸手；不保留原摄影环境，下半身延伸至画布底边，压在左右下方照片之上。",
+      "label": "中央偏下沿人物轮廓显示的独立女性抠图，戴棕色帽子、穿印花短袖",
+      "method": "local"
+    },
+    {
+      "id": "frame_small_pair",
+      "kind": "frame",
+      "bbox": [
+        421,
+        552,
+        660,
+        744
+      ],
+      "description": "中央浅蓝色双窗口相片载体，顶部有凸起标签形状，蓝色边框与底板作为一个完整框体保留；两个独立照片窗口分别对应左右小照片。",
+      "photo_id": [
+        "photo_small_left",
+        "photo_small_right"
+      ],
+      "label": "中央浅蓝色双窗口相片载体，顶部有凸起标签形状，蓝色边框与底板",
+      "method": "extract"
+    },
+    {
+      "id": "frame_inset_hand",
+      "kind": "frame",
+      "bbox": [
+        838,
+        675,
+        1080,
+        1020
+      ],
+      "description": "右侧手持拍立得照片的白色矩形相纸框，具有宽白边并压在右下户外照片上方；框内照片独立替换。",
+      "photo_id": [
+        "photo_inset_hand"
+      ],
+      "label": "右侧手持拍立得照片的白色矩形相纸框，具有宽白边并压在右下户外",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_label",
+      "kind": "overlay",
+      "bbox": [
+        564,
+        454,
+        927,
+        565
+      ],
+      "description": "中央偏右绿色圆角对话气泡标签，带左下方小尖角，内部黑字为“Quanzhou Travel Memories”；文字与绿色底板构成同一固定设计单元，覆盖上方户外照片。",
+      "label": "中央偏右绿色圆角对话气泡标签，带左下方小尖角，内部黑字为“Q",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rem_iniscence",
+      "kind": "overlay",
+      "bbox": [
+        439,
+        756,
+        641,
+        805
+      ],
+      "description": "中央蓝色圆角标签及白色粗体字“Reminiscence”，整体作为独立固定贴纸保留，位于小相片框下方。",
+      "label": "中央蓝色圆角标签及白色粗体字“Reminiscence”，整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chinese_title",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        823,
+        560,
+        951
+      ],
+      "description": "画面中部白色装饰性标题“如何get✅Ins风质感”，含绿色勾选图形及向下延伸的细线和圆点；特殊字形、图标与连线作为一个整体设计保留。",
+      "label": "画面中部白色装饰性标题“如何get✅Ins风质感”，含绿色勾",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_canva_logo",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        813,
+        697,
+        945
+      ],
+      "description": "中央偏右渐变色圆角方形 Canva 标志，内部白色手写风字样作为标志图案保留。",
+      "label": "中央偏右渐变色圆角方形 Canva 标志，内部白色手写风字样",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cursor",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        916,
+        715,
+        1007
+      ],
+      "description": "Canva 标志右下方的粉白像素风鼠标指针贴图，作为独立装饰覆盖下方照片。",
+      "label": "Canva 标志右下方的粉白像素风鼠标指针贴图，作为独立装饰",
+      "method": "extract"
+    },
+    {
+      "id": "text_quanzhou",
+      "kind": "text",
+      "bbox": [
+        866,
+        1043,
+        1048,
+        1081
+      ],
+      "description": "Quanzhou 🚃",
+      "label": "Quanzhou 🚃",
+      "method": "local",
+      "text": "Quanzhou 🚃",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_selfie",
+    "photo_tree_seated",
+    "photo_seated_portrait",
+    "photo_polaroid_scene",
+    "photo_small_left",
+    "photo_small_right",
+    "photo_inset_hand",
+    "frame_small_pair",
+    "frame_inset_hand",
+    "overlay_green_label",
+    "overlay_chinese_title",
+    "overlay_rem_iniscence",
+    "overlay_canva_logo",
+    "overlay_cursor",
+    "photo_cutout_woman",
+    "text_quanzhou"
+  ]
+}

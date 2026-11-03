@@ -1,0 +1,176 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        59,
+        363,
+        595,
+        1139
+      ],
+      "description": "略微倾斜的实拍白色相纸框，具有单个照片内口，宽下边与较窄的其他边缘布满红、绿、紫等彩色圆点，保留纸面纹理、边角和阴影。下边左侧可见浅色圆润的手指状承托及其阴影，属于固定实拍载体，一并保留；左下部分被白猫贴纸遮挡。",
+      "photo_id": [
+        "photo_pair"
+      ]
+    },
+    {
+      "id": "photo_pair",
+      "kind": "photo",
+      "bbox": [
+        99,
+        416,
+        552,
+        1000
+      ],
+      "description": "相纸内的一张双人合影，两名年轻女性位于下部中央，正面站立并做手势，左侧穿浅紫外套，右侧穿蓝色外套。摄影环境包括上方树冠、天空、灰瓦屋顶及后方较暗的建筑入口和灯笼，整体随照片替换。保留完整倾斜四边形内口，不仅截取人物；画面色调较暗、略柔和，人物未沿轮廓去背景。"
+    },
+    {
+      "id": "overlay_heading",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        51,
+        883,
+        121
+      ],
+      "description": "顶部白色手写标题“趁着劳动节假期和闺闺去爬鼎湖山”。笔画具有明显书写变化，字形高低与大小不一，按完整艺术字保留，不包含右侧独立爪印。"
+    },
+    {
+      "id": "overlay_paw",
+      "kind": "overlay",
+      "bbox": [
+        898,
+        46,
+        958,
+        105
+      ],
+      "description": "标题右侧的白色线描爪印，由上方三个小趾形圈与下方较大的掌形圈组成，完整保留为一个装饰单元。"
+    },
+    {
+      "id": "overlay_subheading",
+      "kind": "overlay",
+      "bbox": [
+        219,
+        144,
+        858,
+        212
+      ],
+      "description": "第二行白色手写字样“这是下山时在门口让人帮忙拍的”，具有不规则笔画与字形大小变化，作为完整固定艺术字保留。"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        888,
+        141,
+        959,
+        220
+      ],
+      "description": "第二行右侧的白色手绘笑脸，由两笔竖向眼睛和向上弯曲的嘴组成，无外围圆圈，完整保留。"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        208,
+        217,
+        352
+      ],
+      "description": "位于第二行文字下方、照片左上方的白色细线箭头，线条先绕成环，再向下延伸，以弯曲箭头指向相纸上边，完整保留连续笔画。"
+    },
+    {
+      "id": "overlay_hiking",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        638,
+        938,
+        724
+      ],
+      "description": "照片右侧中部的白色手写英文“- hiking day.”，包含左侧短横和末尾小点。字母具有明显连笔、长下伸笔画及不均匀字间位置，作为完整艺术字保留。"
+    },
+    {
+      "id": "overlay_footprints",
+      "kind": "overlay",
+      "bbox": [
+        569,
+        808,
+        1042,
+        960
+      ],
+      "description": "照片右下侧的两行白色手写文字，第一行“在很多地方留下我们的”，第二行“足迹”；第二行右侧附带细线卷曲笔画。保留两行错落位置、特殊字形及附属卷曲装饰，整体作为一个固定设计单元。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        1036,
+        214,
+        1199
+      ],
+      "description": "覆盖相纸左下角的白猫卡通贴纸，包含粉色耳内、闭眼笑脸、吐出的粉色舌头、白色蓬松身体、两只浅粉色爪子以及下方深灰色承托形状，保留完整黑色轮廓与所有成员。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        1180,
+        430,
+        1398
+      ],
+      "description": "相纸下方偏左的暗紫色手绘装饰，中央为双环蝴蝶结及向下垂落的线条，周围配有十字星与短弧形点缀，作为一个完整疏散的装饰组合保留。"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        772,
+        1215,
+        1030,
+        1269
+      ],
+      "text": "2024、5、3",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1413,
+        1073,
+        1434
+      ],
+      "description": "右下角低对比度的深灰色圆角小标识，内含“小红书”字样，字样与其小型底板整体保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_polaroid",
+    "photo_pair",
+    "overlay_heading",
+    "overlay_paw",
+    "overlay_subheading",
+    "overlay_smile",
+    "overlay_arrow",
+    "overlay_hiking",
+    "overlay_footprints",
+    "overlay_cat",
+    "overlay_bow",
+    "text_date",
+    "overlay_watermark"
+  ]
+}

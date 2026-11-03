@@ -1,0 +1,215 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1920,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "background_red_floral",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1920,
+        1080
+      ],
+      "description": "连续的暗红色纹理背景覆盖整张画布，右侧保留红色花卉摄影区域及颗粒质感；中央人物照片、撕纸、标题和底部信息栏均为独立叠加单元，背景固定保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的暗红色纹理背景覆盖整张画布，右侧保留红色花卉摄影区域及",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_portrait",
+      "kind": "frame",
+      "bbox": [
+        894,
+        189,
+        1668,
+        1080
+      ],
+      "description": "承载人物照片的白色矩形相框，包含顶部、左侧和右侧可见白边，底部延伸至画布下边界；相框作为固定承托结构保留。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "承载人物照片的白色矩形相框，包含顶部、左侧和右侧可见白边，底",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        922,
+        276,
+        1641,
+        1080
+      ],
+      "description": "竖向近距离人物摄影窗口，单人女性面部特写，手指触碰脸颊，人物朝右上方看并露出笑容；面部、眼睛、嘴唇、手部和可见皮肤共同属于照片，矩形显示范围下缘延伸出画布，保留摄影内容，不去除照片背景。",
+      "label": "竖向近距离人物摄影窗口，单人女性面部特写，手指触碰脸颊，人物",
+      "method": "local"
+    },
+    {
+      "id": "overlay_torn_tape",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        143,
+        1158,
+        464
+      ],
+      "description": "覆盖在相框左上角及人物照片上方的浅色撕裂纸胶带，包含不规则撕裂边缘、折痕和半透明纸张质感，作为独立固定装饰保留。",
+      "label": "覆盖在相框左上角及人物照片上方的浅色撕裂纸胶带，包含不规则撕",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_main_heading",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        71,
+        607,
+        677
+      ],
+      "description": "左侧大型白色窄体标题装饰，内容为“THANK YOU / FOR YOUR / ATTENTION”，分三行排列，字形高度夸张且左侧部分被画布裁切；特殊字形和排版作为完整固定设计保留。",
+      "label": "左侧大型白色窄体标题装饰，内容为“THANK YOU / F",
+      "method": "extract"
+    },
+    {
+      "id": "text_nav_home",
+      "kind": "text",
+      "bbox": [
+        992,
+        67,
+        1084,
+        97
+      ],
+      "description": "Home",
+      "label": "Home",
+      "method": "local",
+      "text": "Home",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_nav_about",
+      "kind": "text",
+      "bbox": [
+        1166,
+        67,
+        1255,
+        97
+      ],
+      "description": "About",
+      "label": "About",
+      "method": "local",
+      "text": "About",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_nav_project",
+      "kind": "text",
+      "bbox": [
+        1340,
+        67,
+        1444,
+        97
+      ],
+      "description": "Project",
+      "label": "Project",
+      "method": "local",
+      "text": "Project",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_nav_contact",
+      "kind": "text",
+      "bbox": [
+        1515,
+        67,
+        1604,
+        97
+      ],
+      "description": "Contact",
+      "label": "Contact",
+      "method": "local",
+      "text": "Contact",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_body_copy",
+      "kind": "text",
+      "bbox": [
+        54,
+        752,
+        809,
+        857
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra orci sit\namet mauris laoreet, a hendrerit orci hendrerit. Vivamus id justo erat. Cras nec leo\nvitae augue laoreet lacinia. Aliquam eu elit in risus dictum commodo in sagittis\norci. Maecenas egestas lectus et purus finibus vestibulum.",
+      "label": "Lorem ipsum dolor sit amet, co",
+      "method": "local",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam pharetra orci sit\namet mauris laoreet, a hendrerit orci hendrerit. Vivamus id justo erat. Cras nec leo\nvitae augue laoreet lacinia. Aliquam eu elit in risus dictum commodo in sagittis\norci. Maecenas egestas lectus et purus finibus vestibulum.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_contact_bar",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        938,
+        1338,
+        1080
+      ],
+      "description": "底部横向粉色信息栏，覆盖左侧红色背景和人物照片下部，包含地球、定位和邮件图标及白色联系信息文字：“For More Information at”、“www.reallygreatsite.com”、“123 Anywhere St., Any City”和“hello@reallygreatsite.com”；粉色底板、图标和内部排版作为一个固定设计单元保留。",
+      "label": "底部横向粉色信息栏，覆盖左侧红色背景和人物照片下部，包含地球",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_red_floral",
+    "frame_portrait",
+    "photo_portrait",
+    "text_nav_home",
+    "text_nav_about",
+    "text_nav_project",
+    "text_nav_contact",
+    "overlay_torn_tape",
+    "overlay_main_heading",
+    "text_body_copy",
+    "overlay_contact_bar"
+  ]
+}

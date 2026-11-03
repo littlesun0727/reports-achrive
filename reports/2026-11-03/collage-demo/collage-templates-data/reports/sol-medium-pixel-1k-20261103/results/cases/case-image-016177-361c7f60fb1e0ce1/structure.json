@@ -1,0 +1,285 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "blue_base",
+    "description": "覆盖全画布的蓝色细颗粒纹理底图，顶部、左右边缘及照片和文字之间均露出连续一致的蓝色材质。保留底色及颗粒纹理，清除独立人物照片、文字和装饰，不将摄影内容并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        57,
+        57,
+        329,
+        454
+      ],
+      "description": "左上竖向人物照片，一名戴蓝色毛绒帽的年轻人侧身坐着，一手靠近头侧，怀抱粉红色物件，穿条纹袖上衣，右侧可见白色翅膀状物件。保留浅蓝摄影背景和照片内全部物件。矩形窗口四周有细白线，右下部分被中央大人物遮挡。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        57,
+        477,
+        329,
+        874
+      ],
+      "description": "左下独立竖向照片，同一年轻人戴蓝色毛绒帽，正面偏头看向镜头，呈半身近景，手臂伸向画面前方。保留浅色摄影背景、衣服及下方局部物件。矩形窗口沿边有细白线，右侧被中央大人物遮挡，底部叠有粉色文字标签。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        23,
+        160,
+        849,
+        1200
+      ],
+      "description": "中央至右下的大幅人物近景，一名年轻人戴蓝色毛绒帽，正面看镜头，双手各持橙黄色毛绒物贴在脸颊旁，穿白衣及红蓝条纹袖，胸前有项链与彩色物件，帽子右上连有白色翅膀状物件。沿完整人物及附属物轮廓去除摄影背景，露出蓝色设计底图；覆盖左侧两张照片的右部、条码右部和上方标题下缘，身体在右边及底边被画布裁切。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        717,
+        272,
+        810,
+        409
+      ],
+      "description": "右上小型椭圆人物照片，一名年轻人正面看镜头，双手抬至头顶，人物为黑白效果，周围可见鲜粉色及白色区域。完整显示范围为竖向椭圆，人物手部和衣服均限于该窗口内。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        318,
+        53,
+        755,
+        193
+      ],
+      "text": "Studio:R",
+      "color": "#F8F7EE",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_copyright_mark",
+      "kind": "text",
+      "bbox": [
+        754,
+        58,
+        800,
+        102
+      ],
+      "text": "©",
+      "color": "#F8F7EE",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_event",
+      "kind": "overlay",
+      "bbox": [
+        211,
+        86,
+        357,
+        105
+      ],
+      "description": "上方独立小字装饰，内容为“8/4:Special Event Open”，白色紧凑字形带明显黑色外描边，跨在左上照片与大标题交界处，整体保留字形及描边。"
+    },
+    {
+      "id": "overlay_number_08",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        77,
+        84,
+        116
+      ],
+      "description": "左上照片左边缘的蓝色椭圆编号标签，细白色外圈，中央白字“08”；标签底板、外圈和数字作为完整固定单元保留。"
+    },
+    {
+      "id": "overlay_number_04",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        495,
+        84,
+        535
+      ],
+      "description": "左下照片左上边缘的蓝色椭圆编号标签，细白色外圈，中央白字“04”，完整保留标签和数字。"
+    },
+    {
+      "id": "overlay_capture",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        332,
+        201,
+        354
+      ],
+      "description": "压在左上照片上的橙黄色窄条标签，内有白色英文“CAPTURE THE MOMENT”，字样与矩形底板整体保留。"
+    },
+    {
+      "id": "overlay_portrait_name",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        413,
+        810,
+        432
+      ],
+      "description": "椭圆肖像下方的独立名字字样“*TAKEONE RYO”，白字配黑色外描边，保留紧凑字形、星号及描边。"
+    },
+    {
+      "id": "overlay_new",
+      "kind": "overlay",
+      "bbox": [
+        772,
+        434,
+        808,
+        452
+      ],
+      "description": "右侧小型粉色矩形标签，中央白字“NEW”，底板和文字作为一个固定装饰保留。"
+    },
+    {
+      "id": "text_year",
+      "kind": "text",
+      "bbox": [
+        740,
+        475,
+        813,
+        499
+      ],
+      "text": "(2007)",
+      "color": "#E5AD4D",
+      "font": "sans",
+      "align": "right",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "text_ready",
+      "kind": "text",
+      "bbox": [
+        767,
+        505,
+        810,
+        550
+      ],
+      "text": "READY\nSET\nR",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        767,
+        575,
+        793,
+        603
+      ],
+      "description": "右侧浅蓝色小方块，内有较深蓝色五角星，为独立固定图标，保留方块与星形图案。"
+    },
+    {
+      "id": "overlay_vertical_motto",
+      "kind": "overlay",
+      "bbox": [
+        768,
+        607,
+        793,
+        708
+      ],
+      "description": "右侧白色窄竖条标签，蓝绿色中文竖排“有志者事竟成”，保留竖向字形、白色底板及完整边缘。"
+    },
+    {
+      "id": "overlay_pink_label_left",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        758,
+        112,
+        889
+      ],
+      "description": "左下照片底部左侧的粉色窄竖标签，带白色中文竖排字样，部分文字较难辨认；标签上缘位于照片内，下缘伸出照片，整体保留文字及粉色底板。"
+    },
+    {
+      "id": "overlay_pink_label_right",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        817,
+        137,
+        947
+      ],
+      "description": "左下另一条独立粉色竖标签，与左侧标签错落相邻，白色中文竖排字样可辨“鏡頭之前”及“主角”，下部叠在条码上。保留完整标签和原有字形，不与左侧标签合并。"
+    },
+    {
+      "id": "overlay_barcode",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        896,
+        208,
+        959
+      ],
+      "description": "左下白色横向条码贴纸，内部为多组黑色竖线。右侧被中央人物肩部遮挡，上部局部被粉色竖标签覆盖，保留可见白色载体和条码图案。"
+    },
+    {
+      "id": "overlay_bottom_logo",
+      "kind": "overlay",
+      "bbox": [
+        703,
+        1110,
+        809,
+        1145
+      ],
+      "description": "右下叠在人物袖口上的白色品牌小标签，左侧蓝色线描图标，右侧蓝色衬线字样“Studio:R”，图标、文字和白色载体作为完整设计保留。"
+    },
+    {
+      "id": "overlay_bottom_rights",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        1148,
+        810,
+        1163
+      ],
+      "description": "品牌标签下方的细小版权字样“©2026 Studio:R All rights reserved.”，白色文字带黑色描边，完整保留原有字形和轮廓。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_lower_left",
+    "text_title",
+    "text_copyright_mark",
+    "text_year",
+    "overlay_barcode",
+    "photo_main",
+    "overlay_event",
+    "overlay_number_08",
+    "overlay_number_04",
+    "overlay_capture",
+    "photo_portrait",
+    "overlay_portrait_name",
+    "overlay_new",
+    "text_ready",
+    "overlay_star",
+    "overlay_vertical_motto",
+    "overlay_pink_label_left",
+    "overlay_pink_label_right",
+    "overlay_bottom_logo",
+    "overlay_bottom_rights"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的海滨摄影画面覆盖全画布：浅蓝天空、远山、海面、浪线与沙滩由上至下衔接，右上垂落深色树枝。右侧近景是一只手托着撒有绿色碎粒的冰淇淋纸杯，杯内插着小勺，纸杯印字属于摄影内容。未见完整人物；手腕下部被右下照片遮挡。四边露出的环境及照片间隙支持同一全幅画面，主体和全部摄影环境一起替换。",
+      "background_type": "photo",
+      "label": "连续的海滨摄影画面覆盖全画布：浅蓝天空、远山、海面、浪线与沙",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        82,
+        145,
+        669,
+        924
+      ],
+      "description": "左上大幅海边人物照片，一名长发女性戴黑色墨镜，穿粉色长袖上衣和白色裤子，正面站立，一只手臂向左上举起，另一只手在腰间，身侧带编织包。保留天空、远山、蓝色海面、浪线和沙滩。完整照片窗口略有倾斜，右下部分被棕榈树照片遮挡；无独立纸框。",
+      "label": "左上大幅海边人物照片，一名长发女性戴黑色墨镜，穿粉色长袖上衣",
+      "method": "local"
+    },
+    {
+      "id": "photo_palms",
+      "kind": "photo",
+      "bbox": [
+        584,
+        771,
+        1050,
+        1395
+      ],
+      "description": "右下竖向海滨风景照片，近处粗树干位于左侧，多棵棕榈树分布在中央及右侧，底部有黑白栏杆和绿植，远处为沙滩、少量小人物、海面与晴朗天空。保留完整摄影环境，矩形窗口上缘遮住底图中的手腕，并覆盖左侧人物照片的右下角。",
+      "label": "右下竖向海滨风景照片，近处粗树干位于左侧，多棵棕榈树分布在中",
+      "method": "local"
+    },
+    {
+      "id": "overlay_starfish",
+      "kind": "overlay",
+      "bbox": [
+        525,
+        175,
+        654,
+        294
+      ],
+      "description": "棕橙色五臂海星贴纸，保留颗粒纹理、明暗和完整不规则轮廓，独立叠在左上人物照片的天空区域。",
+      "label": "棕橙色五臂海星贴纸，保留颗粒纹理、明暗和完整不规则轮廓，独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        721,
+        184,
+        880
+      ],
+      "description": "人物照片左下沙滩上的一组白色手绘闪光装饰，包含上方小闪光、中间细长菱形和下方较大的四角星；三枚错落排列的笔画作为完整装饰保留。",
+      "label": "人物照片左下沙滩上的一组白色手绘闪光装饰，包含上方小闪光、中",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        892,
+        622,
+        1029,
+        820
+      ],
+      "description": "右侧一组浅黄、浅绿及白色细线泡泡装饰，大小不一的圆环由右上向左下排列，部分圆环重叠，最低处有小圆环；下部跨过棕榈树照片上缘，保留整组线条。",
+      "label": "右侧一组浅黄、浅绿及白色细线泡泡装饰，大小不一的圆环由右上向",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_island",
+      "kind": "overlay",
+      "bbox": [
+        973,
+        336,
+        1015,
+        386
+      ],
+      "description": "上方英文短句右侧的迷你热带岛屿图案，包含绿色棕榈树、黄色沙地和浅蓝水边，作为独立彩色装饰保留。",
+      "label": "上方英文短句右侧的迷你热带岛屿图案，包含绿色棕榈树、黄色沙地",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shell",
+      "kind": "overlay",
+      "bbox": [
+        189,
+        1159,
+        234,
+        1203
+      ],
+      "description": "下方英文末行右侧的海螺图案，保留灰白色螺壳、暗色开口和柔和立体明暗；独立叠在沙滩摄影底图上。",
+      "label": "下方英文末行右侧的海螺图案，保留灰白色螺壳、暗色开口和柔和立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        303,
+        1222,
+        477,
+        1378
+      ],
+      "description": "底部中央偏左的白色手绘猫咪轮廓，包含向上翘起的长尾、弯曲身体、尖耳猫头、面部短线与脚下横向轮廓；整体作为一枚线描装饰保留。",
+      "label": "底部中央偏左的白色手绘猫咪轮廓，包含向上翘起的长尾、弯曲身体",
+      "method": "extract"
+    },
+    {
+      "id": "text_sea",
+      "kind": "text",
+      "bbox": [
+        685,
+        340,
+        970,
+        389
+      ],
+      "description": "Sea you soon!",
+      "label": "Sea you soon!",
+      "method": "local",
+      "text": "Sea you soon!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_ocean",
+      "kind": "text",
+      "bbox": [
+        84,
+        1045,
+        562,
+        1202
+      ],
+      "description": "The ocean heals everything.\n\nSalty breeze, happy\nheart.",
+      "label": "The ocean heals everything.\n\nS",
+      "method": "local",
+      "text": "The ocean heals everything.\n\nSalty breeze, happy\nheart.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_woman",
+    "photo_palms",
+    "overlay_starfish",
+    "overlay_sparkles",
+    "overlay_bubbles",
+    "text_sea",
+    "overlay_island",
+    "text_ocean",
+    "overlay_shell",
+    "overlay_cat"
+  ]
+}

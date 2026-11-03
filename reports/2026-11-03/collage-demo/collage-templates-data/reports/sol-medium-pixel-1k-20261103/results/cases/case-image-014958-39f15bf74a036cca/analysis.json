@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "patterned_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "连续的白色底面带细微竖向纹理和规律错列的粉红圆点，露出于照片四周，作为固定全画布底图保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的白色底面带细微竖向纹理和规律错列的粉红圆点，露出于照片",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_child",
+      "kind": "photo",
+      "bbox": [
+        129,
+        122,
+        951,
+        1220
+      ],
+      "description": "竖向矩形近景照片，一名头部侧倾的幼童占据画面，闭眼并用手指触碰鼻子，深色头发、耳朵、灰色衣物及照片内环境共同构成摄影内容；保留完整矩形显示范围，四边清晰，无独立框体。",
+      "label": "竖向矩形近景照片，一名头部侧倾的幼童占据画面，闭眼并用手指触",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "patterned_paper",
+    "photo_child"
+  ]
+}

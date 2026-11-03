@@ -1,0 +1,167 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left_base",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上拼接照片，一名长发女子穿白色上衣和蓝色牛仔裤，坐在花店门前，身旁有黑色包袋；盆栽、花束、店面和地砖均属于摄影环境。照片延伸至左上画布边缘，右侧及下侧与其他照片形成接缝，中部被独立相纸照片遮挡。"
+    },
+    {
+      "id": "photo_upper_right_base",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上拼接照片，一名长发女子穿白色无袖上衣、蓝色牛仔裤并背黑色包袋，站在街边；道路、对面建筑及上方绿叶构成完整摄影环境。中部被相纸照片遮挡，下方仍露出女子的裤装，与左侧花店照片及下方照片存在独立接缝。"
+    },
+    {
+      "id": "photo_lower_left_base",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下拼接照片，一名长发女子穿白色无袖上衣站在花店前，黑色包带沿身体垂下；周围有悬挂绿植、店门、招牌及成排盆花。照片完整占据左下区域，中部人物与环境被相纸照片遮挡，下缘露出女子衣服及包袋。"
+    },
+    {
+      "id": "photo_lower_right_base",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下拼接照片，一名长发女子穿白色上衣和牛仔裤，在花店前抬手触碰头发，身侧有黑色包袋；背景含绿植、紫色花朵、店铺招牌与银色气球。摄影环境保留，中心被相纸照片遮挡，人物下半部露在框下并被画布下缘裁切。"
+    },
+    {
+      "id": "photo_upper_left_inset",
+      "kind": "photo",
+      "bbox": [
+        91,
+        156,
+        451,
+        517
+      ],
+      "description": "左上相纸内的独立照片窗口，一名长发女子坐在花店前，身体朝右、脸转向镜头，一只手靠近脸部，白色上衣、蓝色牛仔裤及黑色包袋可见。内口保留盆花、店面与地砖环境，四边受相纸内口裁切；与下层照片分别记录，不建立出框关联。"
+    },
+    {
+      "id": "frame_upper_left",
+      "kind": "frame",
+      "bbox": [
+        61,
+        111,
+        481,
+        611
+      ],
+      "description": "左上深灰黑色拍立得相纸框，略微倾斜，上边与两侧较窄、底部留有宽阔空白。保留完整纸边、细微表面纹理和边缘阴影，单一照片内口不包含摄影内容。",
+      "photo_id": [
+        "photo_upper_left_inset"
+      ]
+    },
+    {
+      "id": "photo_upper_right_inset",
+      "kind": "photo",
+      "bbox": [
+        623,
+        148,
+        1000,
+        526
+      ],
+      "description": "右上相纸内的独立街景照片，一名长发女子站在画面偏右位置，穿白色无袖上衣和牛仔裤，双臂交叠，黑色包袋垂在身侧。保留道路、对面建筑、街边车辆及右上绿叶，四边按相纸内口裁切，没有沿人物轮廓去背景。"
+    },
+    {
+      "id": "frame_upper_right",
+      "kind": "frame",
+      "bbox": [
+        590,
+        102,
+        1032,
+        623
+      ],
+      "description": "右上深棕黑色拍立得相纸框，近方形内口，下方为宽阔空白纸边。表面有可见颗粒和皮纹般的纸张质感，完整边缘及阴影保留，框沿覆盖照片边界。",
+      "photo_id": [
+        "photo_upper_right_inset"
+      ]
+    },
+    {
+      "id": "photo_lower_left_inset",
+      "kind": "photo",
+      "bbox": [
+        94,
+        883,
+        443,
+        1238
+      ],
+      "description": "左下相纸内的独立照片，一名长发女子穿白色无袖上衣站立，面向镜头，黑色包带垂在肩侧，呈半身景别。保留花店门窗、悬挂绿植和右侧盆花，矩形内口裁切身体下部，没有去除摄影背景。"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        65,
+        839,
+        476,
+        1327
+      ],
+      "description": "左下黑灰色拍立得相纸框，稍有倾斜，窄侧边与宽底边围绕单一照片窗口。完整保留纸面细纹、外轮廓及边缘阴影，底边没有独立文字。",
+      "photo_id": [
+        "photo_lower_left_inset"
+      ]
+    },
+    {
+      "id": "photo_lower_right_inset",
+      "kind": "photo",
+      "bbox": [
+        627,
+        874,
+        992,
+        1239
+      ],
+      "description": "右下相纸内的独立照片，一名长发女子在花店前站立，穿白色上衣和牛仔裤，一手抬至头发旁，黑色包袋在右侧。保留绿植、紫色花朵、店铺招牌及上方银色气球；招牌文字属于摄影内容，身体下部由内口裁切。"
+    },
+    {
+      "id": "frame_lower_right",
+      "kind": "frame",
+      "bbox": [
+        598,
+        829,
+        1024,
+        1334
+      ],
+      "description": "右下深灰色拍立得相纸框，外轮廓略有倾斜，照片下方留宽底边，底部边角微圆。保留表面颗粒纹理、完整纸边和轻微阴影，单一内口对应右下照片。",
+      "photo_id": [
+        "photo_lower_right_inset"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left_base",
+    "photo_upper_right_base",
+    "photo_lower_left_base",
+    "photo_lower_right_base",
+    "photo_upper_left_inset",
+    "frame_upper_left",
+    "photo_upper_right_inset",
+    "frame_upper_right",
+    "photo_lower_left_inset",
+    "frame_lower_left",
+    "photo_lower_right_inset",
+    "frame_lower_right"
+  ]
+}

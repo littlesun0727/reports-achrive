@@ -1,0 +1,51 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#F05208"
+  },
+  "objects": [
+    {
+      "id": "frame_ticket",
+      "kind": "frame",
+      "bbox": [
+        191,
+        356,
+        889,
+        1084
+      ],
+      "description": "米杏色竖向票券框体，四角圆润，左右边缘在横向虚线处各有半圆缺口，上半部承载一个照片窗口。下半部的印字“NEXT STATION”“SAN FRANCISCO”“金门大桥”“YEAR”“2026”“DATE”“07/02”、细虚线及右侧白底黑色条码均属于票券自身设计，随完整框体保留。",
+      "photo_id": [
+        "photo_bridge"
+      ]
+    },
+    {
+      "id": "photo_bridge",
+      "kind": "photo",
+      "bbox": [
+        229,
+        383,
+        851,
+        781
+      ],
+      "description": "横向金门大桥风景照片，无人物。橙红色桥塔位于中央偏左，悬索和桥面向右延伸，远处城市、山丘、蓝绿色海水及天空共同保留。完整显示窗口位于票券上半部，四角圆润；摄影环境未去除，无主体出框，底部桥塔由窗口边缘裁切。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1414,
+        1073,
+        1434
+      ],
+      "description": "画布右下角极淡的小型圆角胶囊标记，包含浅色小字，文字无法可靠辨认；底板与内部字样作为一个完整固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_ticket",
+    "photo_bridge",
+    "overlay_watermark"
+  ]
+}

@@ -1,0 +1,511 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "fixed_base",
+    "description": "固定实拍海报底图，包含浅灰白纸面、细微纸纹和横向印刷细线，以及画布上缘露出的绿色草地、下缘露出的浅色石台。纸面延续至左右画布边缘，构成统一模板底层；保留这些固定外观，清除并独立重建照片、标题、标签及正文，不将摄影窗口内容保留在底图中。"
+  },
+  "objects": [
+    {
+      "id": "logo",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        49,
+        254,
+        105
+      ],
+      "description": "红色圆角胶囊标识，内含白色“小红书 VLOG”，文字与红色载体作为完整固定标识保留。"
+    },
+    {
+      "id": "main_title",
+      "kind": "overlay",
+      "bbox": [
+        139,
+        138,
+        890,
+        314
+      ],
+      "description": "深棕色手绘大标题“你的故事 灵感”，字形大小、倾斜及笔画不规则，中央夹有橙色小字“direction”；整组艺术字保留原有相对位置和笔触。"
+    },
+    {
+      "id": "corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        951,
+        118,
+        1060,
+        245
+      ],
+      "description": "右上角浅灰色细线手绘字样，多个中文笔画上下错落、交叠，并附斜线轮廓；可辨“故事”等字，作为完整手绘标记保留。"
+    },
+    {
+      "id": "orange_people",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        284,
+        212,
+        405
+      ],
+      "description": "两个人物并坐的橙色剪影插画，一人抬手，包含坐姿身体、腿部和座位式线条，整体作为独立插画保留。"
+    },
+    {
+      "id": "header_rule",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        379,
+        1040,
+        390
+      ],
+      "description": "横贯栏目标题下方的浅青色细长装饰横线，左端位于橙色人物插画下方，右端延伸至画布右侧。"
+    },
+    {
+      "id": "section_header",
+      "kind": "overlay",
+      "bbox": [
+        199,
+        310,
+        694,
+        402
+      ],
+      "description": "栏目字样“赛道(2) 我和Ta的故事”，灰绿色“赛道”、青蓝色编号与中文、橙色手绘“Ta”组合，编号上抬且字形与基线不同，整组保留。"
+    },
+    {
+      "id": "header_note",
+      "kind": "overlay",
+      "bbox": [
+        946,
+        313,
+        1053,
+        382
+      ],
+      "description": "右侧青蓝色手写英文式字样，末端带斜向短线，字形窄长且不规则，整体作为手写装饰保留。"
+    },
+    {
+      "id": "photo_horses",
+      "kind": "photo",
+      "bbox": [
+        519,
+        385,
+        1066,
+        706
+      ],
+      "description": "右上横向合影，五人在马厩前站立，其中有人举手，左右各有一匹马，保留木质棚架、地面及完整摄影环境。照片显示边界为不规则圆润横向窗口，周围浅青灰色轮廓线依附照片窗口；无主体去背景，未见人物连续出框。"
+    },
+    {
+      "id": "photo_two_women",
+      "kind": "photo",
+      "bbox": [
+        20,
+        689,
+        509,
+        1014
+      ],
+      "description": "左中两位女性户外半身合影，左侧短灰发女性微笑，右侧长黑发女性微笑并在脸旁比剪刀手，人物靠近彼此。保留浅蓝天空和摄影背景，显示于倾斜的不规则圆润窗口内，浅青灰色描边沿完整窗口边缘，不单独拆成框体。"
+    },
+    {
+      "id": "photo_three_women",
+      "kind": "photo",
+      "bbox": [
+        528,
+        1004,
+        1063,
+        1341
+      ],
+      "description": "右下三位戴墨镜的女性合影，中央女性戴帽子并举手机自拍，左侧女性抬手比剪刀手，右侧女性穿蓝色上衣并微笑。保留淡蓝色天空等摄影环境；完整显示窗口呈不规则圆润横向形状，浅青灰描边依附窗口，人物下部随窗口裁切。"
+    },
+    {
+      "id": "topic_1",
+      "kind": "overlay",
+      "bbox": [
+        142,
+        436,
+        387,
+        500
+      ],
+      "description": "橙色艺术标题“#讲一个小家故事”，不同文字大小与基线错落，含下划线及小字“Topic01”；作为完整标题设计保留。"
+    },
+    {
+      "id": "bullet_1",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        510,
+        89,
+        538
+      ],
+      "description": "第一段正文左侧的橙色不规则实心圆点。"
+    },
+    {
+      "id": "body_1_bold_start",
+      "kind": "text",
+      "bbox": [
+        95,
+        499,
+        138,
+        541
+      ],
+      "text": "家",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "body_1_start",
+      "kind": "text",
+      "bbox": [
+        137,
+        510,
+        299,
+        540
+      ],
+      "text": "是所有关系、",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_1_middle",
+      "kind": "text",
+      "bbox": [
+        24,
+        549,
+        533,
+        619
+      ],
+      "text": "情绪与自我的源头。\n记录你与家人相处过程中的感受或思考，",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_1_last_left",
+      "kind": "text",
+      "bbox": [
+        86,
+        631,
+        382,
+        663
+      ],
+      "text": "用故事带大家 重新理解",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_1_family",
+      "kind": "text",
+      "bbox": [
+        392,
+        632,
+        483,
+        663
+      ],
+      "text": "“家人”",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "body_1_last_right",
+      "kind": "text",
+      "bbox": [
+        496,
+        632,
+        572,
+        663
+      ],
+      "text": "二字。",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "topic_2",
+      "kind": "overlay",
+      "bbox": [
+        628,
+        748,
+        882,
+        804
+      ],
+      "description": "橙色艺术标题“#俗世奇人在身边”，字词大小与上下位置错落，夹有小字“Topic02”，完整保留标题造型。"
+    },
+    {
+      "id": "bullet_2",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        819,
+        689,
+        848
+      ],
+      "description": "第二段正文首行左侧的橙色不规则实心圆点。"
+    },
+    {
+      "id": "body_2_first",
+      "kind": "text",
+      "bbox": [
+        695,
+        820,
+        816,
+        850
+      ],
+      "text": "记录那些",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "body_2_second_left",
+      "kind": "text",
+      "bbox": [
+        615,
+        858,
+        706,
+        889
+      ],
+      "text": "存在于",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_2_second_bold",
+      "kind": "text",
+      "bbox": [
+        706,
+        857,
+        974,
+        890
+      ],
+      "text": "生活褶皱中的普通人，",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "body_2_third",
+      "kind": "text",
+      "bbox": [
+        560,
+        896,
+        865,
+        927
+      ],
+      "text": "带我们看见时代的缩影，",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_2_fourth",
+      "kind": "text",
+      "bbox": [
+        604,
+        934,
+        1043,
+        965
+      ],
+      "text": "也看见一个更具体、更广阔的人间。",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "topic_3",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        1045,
+        331,
+        1115
+      ],
+      "description": "橙色艺术标题“#是我的天才女友”，其中“我”显著放大，“是”“的”等字较小并错落排列，含小字“Topic03”；整体保留特殊字形和排版。"
+    },
+    {
+      "id": "bullet_3",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        1138,
+        132,
+        1167
+      ],
+      "description": "第三段正文首行左侧的橙色不规则实心圆点。"
+    },
+    {
+      "id": "body_3_first_left",
+      "kind": "text",
+      "bbox": [
+        136,
+        1139,
+        253,
+        1170
+      ],
+      "text": "当我们说",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_3_first_bold",
+      "kind": "text",
+      "bbox": [
+        252,
+        1138,
+        380,
+        1171
+      ],
+      "text": "天才女友，",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "body_3_second",
+      "kind": "text",
+      "bbox": [
+        34,
+        1179,
+        430,
+        1210
+      ],
+      "text": "我们说的是有生命力、敢对抗、",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_3_third",
+      "kind": "text",
+      "bbox": [
+        83,
+        1220,
+        528,
+        1252
+      ],
+      "text": "不按常理出牌，和活出自我的决心。",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_3_last_left",
+      "kind": "text",
+      "bbox": [
+        55,
+        1263,
+        217,
+        1294
+      ],
+      "text": "试着用镜头，",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "body_3_record",
+      "kind": "text",
+      "bbox": [
+        218,
+        1262,
+        275,
+        1295
+      ],
+      "text": "记录",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "body_3_last_right",
+      "kind": "text",
+      "bbox": [
+        276,
+        1263,
+        530,
+        1295
+      ],
+      "text": "身边的她或她们吧。",
+      "color": "#586A69",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_horses",
+    "photo_two_women",
+    "photo_three_women",
+    "header_rule",
+    "logo",
+    "main_title",
+    "corner_mark",
+    "orange_people",
+    "section_header",
+    "header_note",
+    "topic_1",
+    "bullet_1",
+    "body_1_bold_start",
+    "body_1_start",
+    "body_1_middle",
+    "body_1_last_left",
+    "body_1_family",
+    "body_1_last_right",
+    "topic_2",
+    "bullet_2",
+    "body_2_first",
+    "body_2_second_left",
+    "body_2_second_bold",
+    "body_2_third",
+    "body_2_fourth",
+    "topic_3",
+    "bullet_3",
+    "body_3_first_left",
+    "body_3_first_bold",
+    "body_3_second",
+    "body_3_third",
+    "body_3_last_left",
+    "body_3_record",
+    "body_3_last_right"
+  ]
+}

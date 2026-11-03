@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的浅米色纸张纹理覆盖整个1080×1440画布，四周及独立拼贴单元之间均可见相同底纹；建筑、山石、植物、祭坛、色块、金色路径和白色笔刷均为上层独立内容，纸底本身保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的浅米色纸张纹理覆盖整个1080×1440画布，四周及独",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_red_sun",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        378,
+        739,
+        708
+      ],
+      "description": "位于中央建筑后方的深红色圆形固定图形，大部分被建筑照片遮挡，仅露出上部和左侧弧面。",
+      "label": "位于中央建筑后方的深红色圆形固定图形，大部分被建筑照片遮挡，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_panel",
+      "kind": "overlay",
+      "bbox": [
+        775,
+        808,
+        1080,
+        1297
+      ],
+      "description": "右下方深绿色不规则圆弧形固定色块，部分被中央祭坛照片遮挡，右缘延伸至画布边界。",
+      "label": "右下方深绿色不规则圆弧形固定色块，部分被中央祭坛照片遮挡，右",
+      "method": "extract"
+    },
+    {
+      "id": "photo_rock_pine",
+      "kind": "photo",
+      "bbox": [
+        0,
+        637,
+        501,
+        1328
+      ],
+      "description": "左下方山石与松树的抠图摄影单元，包含前景孔洞岩石、后方奇石和横向松枝，沿主体组合保留不规则边缘；下部和右侧与祭坛及中央建筑区域相邻或被遮挡，摄影环境不以矩形窗口显示。",
+      "label": "左下方山石与松树的抠图摄影单元，包含前景孔洞岩石、后方奇石和",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_building",
+      "kind": "photo",
+      "bbox": [
+        286,
+        377,
+        837,
+        910
+      ],
+      "description": "中央白墙古建筑摄影单元，包含黑色屋檐、灰白墙面和中央心形窗洞，窗内可见植物与装饰；顶部屋脊和右侧边缘呈撕裂状轮廓，底部被祭坛照片及金色路径部分遮挡。",
+      "label": "中央白墙古建筑摄影单元，包含黑色屋檐、灰白墙面和中央心形窗洞",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_pagoda",
+      "kind": "photo",
+      "bbox": [
+        545,
+        71,
+        1061,
+        464
+      ],
+      "description": "右上方高层古建筑摄影单元，包含多层楼阁、山坡树木和薄雾，主体朝向正面并向右延伸；下缘和右下区域被前方大型建筑照片及金色路径遮挡，边缘保留不规则抠图效果。",
+      "label": "右上方高层古建筑摄影单元，包含多层楼阁、山坡树木和薄雾，主体",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_temple",
+      "kind": "photo",
+      "bbox": [
+        625,
+        294,
+        1080,
+        837
+      ],
+      "description": "右侧大型传统寺庙立面摄影单元，包含多层屋檐、彩绘梁柱、匾额和深色门洞，摄影内容沿建筑轮廓裁切并延伸至右画布边缘；左下边缘覆盖中央白墙建筑的一部分。",
+      "label": "右侧大型传统寺庙立面摄影单元，包含多层屋檐、彩绘梁柱、匾额和",
+      "method": "local"
+    },
+    {
+      "id": "photo_shrine",
+      "kind": "photo",
+      "bbox": [
+        364,
+        820,
+        925,
+        1440
+      ],
+      "description": "下方中央祭坛摄影单元，包含深红色木质框架、中央神像壁画、供桌、香炉、香具和两侧供器，完整显示区域延伸到画布底边；上部覆盖中央白墙建筑和部分山石，摄影环境随该单元替换。",
+      "label": "下方中央祭坛摄影单元，包含深红色木质框架、中央神像壁画、供桌",
+      "method": "local"
+    },
+    {
+      "id": "overlay_gold_path",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        178,
+        842,
+        1340
+      ],
+      "description": "从右上楼阁附近向下蜿蜒至中央香炉的金色不规则路径装饰，连续跨越多张建筑与祭坛照片，保留其宽窄变化和手绘边缘。",
+      "label": "从右上楼阁附近向下蜿蜒至中央香炉的金色不规则路径装饰，连续跨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_brush_left",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        515,
+        247,
+        588
+      ],
+      "description": "左侧空白纸面上的白色弧形手绘笔刷，包含多条不规则短线和柔和边缘，作为独立固定装饰保留。",
+      "label": "左侧空白纸面上的白色弧形手绘笔刷，包含多条不规则短线和柔和边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_brush_right",
+      "kind": "overlay",
+      "bbox": [
+        943,
+        1080,
+        1043,
+        1174
+      ],
+      "description": "右下绿色色块上的白色斜向手绘笔刷，包含多条弯曲短线和渐淡边缘，作为独立固定装饰保留。",
+      "label": "右下绿色色块上的白色斜向手绘笔刷，包含多条弯曲短线和渐淡边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        649,
+        156,
+        697,
+        239
+      ],
+      "description": "楼阁左侧空白区域的几枚小型深色飞鸟和点状飞行元素，作为一组独立固定装饰保留。",
+      "label": "楼阁左侧空白区域的几枚小型深色飞鸟和点状飞行元素，作为一组独",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "overlay_red_sun",
+    "overlay_green_panel",
+    "photo_middle_building",
+    "photo_top_pagoda",
+    "photo_rock_pine",
+    "photo_right_temple",
+    "photo_shrine",
+    "overlay_gold_path",
+    "overlay_white_brush_left",
+    "overlay_white_brush_right",
+    "overlay_birds"
+  ]
+}

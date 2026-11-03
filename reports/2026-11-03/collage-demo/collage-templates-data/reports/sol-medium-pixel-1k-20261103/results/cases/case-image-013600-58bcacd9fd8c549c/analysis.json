@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "textured_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "连续的棕灰色细密纸布纹理覆盖全画布，照片之间及四周均露出相同纹理；保留固定底纹，独立照片与涂鸦文字不属于底图。",
+      "background_type": "reference_clean",
+      "label": "连续的棕灰色细密纸布纹理覆盖全画布，照片之间及四周均露出相同",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        26,
+        239,
+        516,
+        856
+      ],
+      "description": "左上方竖向人物照片，一名年轻女性戴纸皇冠、低头微笑并手持生日蛋糕，呈坐姿半身景，身后可见室内投影与墙面。摄影环境保留在照片内；彩色手绘边线沿不规则窗口边缘环绕，边线及白色底沿随照片窗口效果记录。",
+      "label": "左上方竖向人物照片，一名年轻女性戴纸皇冠、低头微笑并手持生日",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        578,
+        594,
+        1064,
+        1223
+      ],
+      "description": "右下方竖向饮品近景，两只带奶油和节庆装饰的白色饮料杯置于桌面，前杯较大，后杯偏左；保留杯子、桌面及背景的完整摄影环境。蓝、黄、粉色手绘边线沿不规则窗口边缘环绕，白色底沿随照片窗口效果记录。",
+      "label": "右下方竖向饮品近景，两只带奶油和节庆装饰的白色饮料杯置于桌面",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        80,
+        351,
+        231
+      ],
+      "description": "画布上方一排四枚蓝、绿、橙、黄色手绘星形贴饰，周围另有零散浅色小星点，作为一组顶部固定涂鸦保留。",
+      "label": "画布上方一排四枚蓝、绿、橙、黄色手绘星形贴饰，周围另有零散浅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_crown_banner",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        218,
+        556,
+        382
+      ],
+      "description": "压在左侧人物照片右上沿的生日装饰组合：黄色皇冠图案与粉红色竖向小旗，旗面有浅色中文印字；旁有蓝绿色小涂鸦。整体作为独立固定装饰，覆盖照片边缘。",
+      "label": "压在左侧人物照片右上沿的生日装饰组合：黄色皇冠图案与粉红色竖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_quote",
+      "kind": "overlay",
+      "bbox": [
+        615,
+        190,
+        1074,
+        481
+      ],
+      "description": "右上方粉色手绘椭圆圈住的白色手写中文三行字，内容为“宜很尊重奶茶，没去冰，没少糖，没少喝”；圈外及圈线上分布绿色、黄色星形涂鸦和小白点，作为完整文字装饰单元保留。",
+      "label": "右上方粉色手绘椭圆圈住的白色手写中文三行字，内容为“宜很尊重",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_photo_doodles",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        445,
+        627,
+        587
+      ],
+      "description": "两张照片交界附近的一组独立手绘点缀，包括橙红色短线与弯曲符号、浅蓝短线、白色小点及黄色小弧线；分布于照片边缘与其间隙。",
+      "label": "两张照片交界附近的一组独立手绘点缀，包括橙红色短线与弯曲符号",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        525,
+        578,
+        828,
+        712
+      ],
+      "description": "覆盖右侧饮品照片左上部的白色手绘对话气泡，棕色手写英文为“Today is my Birthday!”并带粉色爱心，气泡尾部指向下方。文字、气泡轮廓及装饰整体保留。",
+      "label": "覆盖右侧饮品照片左上部的白色手绘对话气泡，棕色手写英文为“T",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_face",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        691,
+        642,
+        765
+      ],
+      "description": "贴在对话气泡下方并压住饮品照片左边缘的黄色笑脸贴纸，带浅蓝色外缘和小弧形造型，作为独立装饰保留。",
+      "label": "贴在对话气泡下方并压住饮品照片左边缘的黄色笑脸贴纸，带浅蓝色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drink_tree",
+      "kind": "overlay",
+      "bbox": [
+        753,
+        621,
+        1067,
+        908
+      ],
+      "description": "叠画在饮品照片杯子上方的白色线条圣诞树形涂鸦，包含顶端黄色星星、彩色圆点与弯曲树身线条；固定绘制元素覆盖摄影内容，整体作为一个装饰单元。",
+      "label": "叠画在饮品照片杯子上方的白色线条圣诞树形涂鸦，包含顶端黄色星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_quote",
+      "kind": "overlay",
+      "bbox": [
+        123,
+        901,
+        465,
+        1193
+      ],
+      "description": "左下方白色手写中文三行字“人生有两次幸运，一次遇见你，一次和你走到底”，周围配有彩色爱心、小十字及点状涂鸦；作为完整的手写文字与点缀组合保留。",
+      "label": "左下方白色手写中文三行字“人生有两次幸运，一次遇见你，一次和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_stars",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        1253,
+        219,
+        1342
+      ],
+      "description": "左下区域的三枚白色与绿色手绘星形涂鸦，彼此分散但构成一组小型装饰。",
+      "label": "左下区域的三枚白色与绿色手绘星形涂鸦，彼此分散但构成一组小型",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_leisure_caption",
+      "kind": "overlay",
+      "bbox": [
+        604,
+        1262,
+        1047,
+        1374
+      ],
+      "description": "画布底部的白色手写英文装饰字“♫ leisure time ♪”，下方有绿色与白色手绘下划线，两侧点缀橙色和黄色星形，附近另有浅色小星点；字形与装饰整体保留。",
+      "label": "画布底部的白色手写英文装饰字“♫ leisure time ",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "textured_base",
+    "photo_portrait",
+    "photo_drinks",
+    "overlay_top_stars",
+    "overlay_crown_banner",
+    "overlay_upper_quote",
+    "overlay_photo_doodles",
+    "overlay_speech_bubble",
+    "overlay_yellow_face",
+    "overlay_drink_tree",
+    "overlay_lower_quote",
+    "overlay_bottom_stars",
+    "overlay_leisure_caption"
+  ]
+}

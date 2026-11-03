@@ -1,0 +1,467 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的浅景深室内环境照片铺满画布，包含左右门框、墙面、砖墙、地面和中央通道；背景摄影内容延伸至四条画布边缘，人物与拼贴照片、贴纸和文字均叠加在其上并遮挡局部，完整环境作为客户素材替换范围保留。",
+      "background_type": "photo",
+      "label": "一张连续的浅景深室内环境照片铺满画布，包含左右门框、墙面、砖",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_bus",
+      "kind": "photo",
+      "bbox": [
+        246,
+        273,
+        511,
+        588
+      ],
+      "description": "竖向公交车内照片，年轻女性坐在座位上，面向镜头，身旁放置浅绿色行李箱和包袋；车厢座椅与窗户构成完整摄影环境，照片窗口被黄色相纸框承托。",
+      "label": "竖向公交车内照片，年轻女性坐在座位上，面向镜头，身旁放置浅绿",
+      "method": "local"
+    },
+    {
+      "id": "frame_bus",
+      "kind": "frame",
+      "bbox": [
+        227,
+        257,
+        529,
+        660
+      ],
+      "description": "浅黄色拍立得相纸框，具有厚下边和圆角边缘，底部印有深色文字“Enjoy day~”，上方悬挂粉色圆形爱心装饰；照片内口与相纸框作为固定承载单元保留。",
+      "photo_id": [
+        "photo_bus"
+      ],
+      "label": "浅黄色拍立得相纸框，具有厚下边和圆角边缘，底部印有深色文字“",
+      "method": "extract"
+    },
+    {
+      "id": "photo_desk",
+      "kind": "photo",
+      "bbox": [
+        589,
+        334,
+        870,
+        613
+      ],
+      "description": "俯拍桌面照片，画面中可见穿蓝黑条纹袖子的手臂、绿色饮料、散落照片、眼镜和纸张，摄影环境为灰色桌面；四周带粉色手绘式边缘描边。",
+      "label": "俯拍桌面照片，画面中可见穿蓝黑条纹袖子的手臂、绿色饮料、散落",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        165,
+        680,
+        423,
+        1015
+      ],
+      "description": "俯视户外桌面照片，圆木桌上放着三杯带吸管的饮品，周围可见地面、椅子和人物衣物；完整矩形照片窗口带浅蓝色边缘描边。",
+      "label": "俯视户外桌面照片，圆木桌上放着三杯带吸管的饮品，周围可见地面",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        441,
+        549,
+        720,
+        909
+      ],
+      "description": "竖向生活照片，包含薯片、糖果、手机、耳机和粉色卡通物件，人物手部位于画面右侧并压在蓝色织物上；保留完整桌面及摄影环境，部分被前景贴纸和右侧卡片遮挡。",
+      "label": "竖向生活照片，包含薯片、糖果、手机、耳机和粉色卡通物件，人物",
+      "method": "local"
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        677,
+        770,
+        943,
+        1058
+      ],
+      "description": "竖向人物近景照片，年轻女性戴灰色针织帽和围巾，手持一大片披萨并朝向镜头，背景为室内餐厅环境；照片窗口为白色卡片内口。",
+      "label": "竖向人物近景照片，年轻女性戴灰色针织帽和围巾，手持一大片披萨",
+      "method": "local"
+    },
+    {
+      "id": "frame_person",
+      "kind": "frame",
+      "bbox": [
+        657,
+        748,
+        954,
+        1153
+      ],
+      "description": "白色圆角照片卡片，承载人物照片，下方留有白色文字区，印有“Live in the moment.”及右下角空心爱心；卡片边缘和阴影作为固定载体保留。",
+      "photo_id": [
+        "photo_person"
+      ],
+      "label": "白色圆角照片卡片，承载人物照片，下方留有白色文字区，印有“L",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bowl",
+      "kind": "photo",
+      "bbox": [
+        315,
+        932,
+        650,
+        1281
+      ],
+      "description": "圆形裁切的食物照片，中央是一碗米饭、肉末、蔬菜和橙色蛋黄，置于餐桌上；圆形窗口带白色边缘描边，照片下方和两侧的餐桌环境仍属于摄影内容。",
+      "label": "圆形裁切的食物照片，中央是一碗米饭、肉末、蔬菜和橙色蛋黄，置",
+      "method": "local"
+    },
+    {
+      "id": "overlay_heart_badge",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        221,
+        414,
+        291
+      ],
+      "description": "位于公交照片相纸上沿的粉色圆形爱心贴纸，内部为白色爱心图案，作为独立固定装饰保留。",
+      "label": "位于公交照片相纸上沿的粉色圆形爱心贴纸，内部为白色爱心图案，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_aha_label",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        495,
+        284,
+        547
+      ],
+      "description": "贴在左侧拍立得和背景之间的浅蓝色小标签，内部是红色手绘“Ahah”字样及小装饰，整体作为带字贴纸保留。",
+      "label": "贴在左侧拍立得和背景之间的浅蓝色小标签，内部是红色手绘“Ah",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_happy_label",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        376,
+        623,
+        448
+      ],
+      "description": "位于右上照片左侧的黄色方形贴纸，包含白色手写“Happy Day”、小星星和笑脸图案，作为完整装饰单元保留。",
+      "label": "位于右上照片左侧的黄色方形贴纸，包含白色手写“Happy D",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_doodle",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        504,
+        888,
+        582
+      ],
+      "description": "右上照片右侧的黄绿色小方形贴纸，带白色人物和花朵线稿及手写符号，作为独立固定装饰保留。",
+      "label": "右上照片右侧的黄绿色小方形贴纸，带白色人物和花朵线稿及手写符",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_badge",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        864,
+        642,
+        936
+      ],
+      "description": "中央照片下方的粉色方形音乐贴纸，包含黑色音符和星星图案，作为完整固定装饰保留。",
+      "label": "中央照片下方的粉色方形音乐贴纸，包含黑色音符和星星图案，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_doodle",
+      "kind": "overlay",
+      "bbox": [
+        163,
+        1045,
+        309,
+        1244
+      ],
+      "description": "左下方独立黑白线稿贴纸，表现带花朵头部的简化植物和花盆，旁边有小黑色加号符号，整体作为一件装饰保留。",
+      "label": "左下方独立黑白线稿贴纸，表现带花朵头部的简化植物和花盆，旁边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        243,
+        948,
+        314
+      ],
+      "description": "右上区域叠加的黄色手写装饰文字，两行内容为“All the flowers in the campus / are still in bloom”，带短横线和下划线笔画，属于手绘设计单元而非普通排版文字。",
+      "label": "右上区域叠加的黄色手写装饰文字，两行内容为“All the ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_diary_plog",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        636,
+        998,
+        725
+      ],
+      "description": "右侧中央的装饰字样“Diary Plog”，由青绿色和粉色大字组成，并带白色点线弧形装饰及小绿色十字，作为完整艺术字单元保留。",
+      "label": "右侧中央的装饰字样“Diary Plog”，由青绿色和粉色大",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_slogan",
+      "kind": "overlay",
+      "bbox": [
+        646,
+        1172,
+        1000,
+        1285
+      ],
+      "description": "右下方粉色手写装饰语“Live a good life meet slowly.”，分为两行并带手绘笔触，作为独立艺术字保留。",
+      "label": "右下方粉色手写装饰语“Live a good life me",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        19,
+        26,
+        50,
+        55
+      ],
+      "description": "画布左上角的橙色五角星贴纸。",
+      "label": "画布左上角的橙色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_center",
+      "kind": "overlay",
+      "bbox": [
+        737,
+        23,
+        764,
+        51
+      ],
+      "description": "画布上方偏中的紫色五角星贴纸。",
+      "label": "画布上方偏中的紫色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_midleft",
+      "kind": "overlay",
+      "bbox": [
+        442,
+        158,
+        472,
+        186
+      ],
+      "description": "上方偏左的黄色五角星贴纸。",
+      "label": "上方偏左的黄色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        1023,
+        176,
+        1051,
+        205
+      ],
+      "description": "右上边缘附近的白色五角星贴纸。",
+      "label": "右上边缘附近的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_pink",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        329,
+        212,
+        359
+      ],
+      "description": "左侧中上方的粉色五角星贴纸。",
+      "label": "左侧中上方的粉色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_blue",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        589,
+        67,
+        621
+      ],
+      "description": "左侧中部的浅蓝色五角星贴纸。",
+      "label": "左侧中部的浅蓝色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_pink",
+      "kind": "overlay",
+      "bbox": [
+        987,
+        464,
+        1015,
+        495
+      ],
+      "description": "右侧中部的粉色五角星贴纸。",
+      "label": "右侧中部的粉色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_brown",
+      "kind": "overlay",
+      "bbox": [
+        963,
+        816,
+        990,
+        844
+      ],
+      "description": "右下区域的棕灰色五角星贴纸。",
+      "label": "右下区域的棕灰色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_lower_pink",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        890,
+        153,
+        920
+      ],
+      "description": "左下侧的粉色五角星贴纸。",
+      "label": "左下侧的粉色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_far_right_orange",
+      "kind": "overlay",
+      "bbox": [
+        1031,
+        1100,
+        1060,
+        1130
+      ],
+      "description": "右侧边缘的橙色五角星贴纸。",
+      "label": "右侧边缘的橙色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_left_green",
+      "kind": "overlay",
+      "bbox": [
+        19,
+        1143,
+        49,
+        1172
+      ],
+      "description": "左下边缘的浅绿色五角星贴纸。",
+      "label": "左下边缘的浅绿色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_blue",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        1278,
+        516,
+        1307
+      ],
+      "description": "圆形食物照片下方的浅蓝色五角星贴纸。",
+      "label": "圆形食物照片下方的浅蓝色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_yellow",
+      "kind": "overlay",
+      "bbox": [
+        221,
+        1372,
+        251,
+        1401
+      ],
+      "description": "画布底部偏左的黄色五角星贴纸。",
+      "label": "画布底部偏左的黄色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_pink",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        1382,
+        776,
+        1411
+      ],
+      "description": "画布底部偏右的粉色五角星贴纸。",
+      "label": "画布底部偏右的粉色五角星贴纸。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_bus",
+    "frame_bus",
+    "photo_desk",
+    "photo_drinks",
+    "photo_center",
+    "photo_person",
+    "frame_person",
+    "photo_bowl",
+    "overlay_flower_doodle",
+    "overlay_top_handwriting",
+    "overlay_heart_badge",
+    "overlay_aha_label",
+    "overlay_happy_label",
+    "overlay_green_doodle",
+    "overlay_music_badge",
+    "overlay_diary_plog",
+    "overlay_pink_slogan",
+    "overlay_star_top_left",
+    "overlay_star_top_center",
+    "overlay_star_top_midleft",
+    "overlay_star_top_right",
+    "overlay_star_left_pink",
+    "overlay_star_left_blue",
+    "overlay_star_right_pink",
+    "overlay_star_right_brown",
+    "overlay_star_left_lower_pink",
+    "overlay_star_far_right_orange",
+    "overlay_star_lower_left_green",
+    "overlay_star_bottom_blue",
+    "overlay_star_bottom_yellow",
+    "overlay_star_bottom_pink"
+  ]
+}

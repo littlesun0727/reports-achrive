@@ -1,0 +1,143 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        31,
+        111,
+        474,
+        459
+      ],
+      "description": "左上方横向舞台照片，短发戴眼镜的年轻男性半身持麦克风演唱，身穿浅色衬衫和黑白图案背心，头顶有彩色花朵装饰伞，右侧可见粉色舞台结构；摄影背景保留在矩形显示范围内。"
+    },
+    {
+      "id": "photo_heart_stage",
+      "kind": "photo",
+      "bbox": [
+        0,
+        520,
+        500,
+        911
+      ],
+      "description": "左侧中部的演唱会现场照片，画面中央偏左有发光的红色破碎爱心装置，周围可见舞台、观众和场馆结构；照片的下部与右侧被下方场馆照片及前景人物遮挡，完整显示窗口边界不完全清晰。"
+    },
+    {
+      "id": "photo_arena_orb",
+      "kind": "photo",
+      "bbox": [
+        500,
+        235,
+        1080,
+        974
+      ],
+      "description": "右上至中部的演唱会广角照片，场馆内悬挂大型粉色灯笼状装置，观众席布满粉色灯光；下部嵌有舞台屏幕画面，屏幕中一位戴宽檐帽的演唱者持麦克风，屏幕字幕属于摄影内容。照片左缘为明显直线裁切，下部被文字和下层场景局部遮挡。"
+    },
+    {
+      "id": "photo_arena_lower",
+      "kind": "photo",
+      "bbox": [
+        0,
+        738,
+        1080,
+        1440
+      ],
+      "description": "下半部横向场馆照片，包含观众席、看台、场馆屋顶与远处人员，延伸至画布底边；与左侧爱心现场及右上灯笼场景的接缝和内容连续性不明确，按独立照片区域保留。"
+    },
+    {
+      "id": "photo_cutout_singer",
+      "kind": "photo",
+      "bbox": [
+        0,
+        827,
+        333,
+        1440
+      ],
+      "description": "左下方沿人物与衣物轮廓显示的全身抠图，短发戴眼镜的年轻男性穿浅蓝衬衫和棕色长裤，手持麦克风演唱，身体略朝右；无独立摄影环境，人物周围有蓝色手绘轮廓线，轮廓线随该照片保留。"
+    },
+    {
+      "id": "overlay_white_doodle",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        458,
+        520,
+        507
+      ],
+      "description": "横跨画面中上部的白色手绘连续装饰线，包含曲线、蝴蝶结形、心形、皇冠形及小弧线，作为一组独立装饰保留。"
+    },
+    {
+      "id": "overlay_blue_stars",
+      "kind": "overlay",
+      "bbox": [
+        305,
+        1137,
+        649,
+        1294
+      ],
+      "description": "人物右侧的浅蓝色手绘星形装饰，包含一个大星和两个小星，线条轮廓整体作为一个装饰单元保留。"
+    },
+    {
+      "id": "overlay_suilong",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        1113,
+        933,
+        1238
+      ],
+      "description": "右下偏中的白色不规则贴纸底板，内有粉红色大写字样“SUILONG”及浅色下划线，字形与底板共同构成独立贴纸。"
+    },
+    {
+      "id": "overlay_pink_text_top",
+      "kind": "overlay",
+      "bbox": [
+        496,
+        106,
+        1050,
+        258
+      ],
+      "description": "右上方三行粉色手写中文艺术字：“在九月的南京 回到罗曼城充电 / 去年的横开今年的竖开 / 南京横竖都要见面”，保留原有字形、行距与手写排布。"
+    },
+    {
+      "id": "overlay_pink_text_lower",
+      "kind": "overlay",
+      "bbox": [
+        625,
+        911,
+        1063,
+        1070
+      ],
+      "description": "右侧中下部三行粉色手写中文艺术字，包含“才刚入睡又忙着醒过来”“清绪的电路永远都超载”“明明想尖叫 坚持到现在”等可辨字样；保留原有手写造型与排布，部分笔画叠在场馆照片上。"
+    },
+    {
+      "id": "overlay_blue_text",
+      "kind": "overlay",
+      "bbox": [
+        336,
+        1301,
+        840,
+        1384
+      ],
+      "description": "下方两行浅蓝色手写中文艺术字：“风把后面的布吹起来的时候 / 我才发现这是个披肩。”字形具有装饰性，保留原有笔画与行间布局。"
+    }
+  ],
+  "layer_order": [
+    "photo_arena_lower",
+    "photo_heart_stage",
+    "photo_arena_orb",
+    "photo_portrait",
+    "photo_cutout_singer",
+    "overlay_white_doodle",
+    "overlay_blue_stars",
+    "overlay_suilong",
+    "overlay_pink_text_top",
+    "overlay_pink_text_lower",
+    "overlay_blue_text"
+  ]
+}

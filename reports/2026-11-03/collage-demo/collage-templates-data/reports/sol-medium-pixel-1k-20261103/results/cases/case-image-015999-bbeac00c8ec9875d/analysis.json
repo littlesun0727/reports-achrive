@@ -1,0 +1,61 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "frame_paper",
+      "kind": "frame",
+      "bbox": [
+        64,
+        115,
+        1016,
+        1323
+      ],
+      "description": "承托单张竖向照片的白色纸质框体，左侧留边明显较宽，上、右、下侧留边较窄。纸面带浅灰色斑驳纹理、压痕与轻微不规则边缘，完整保留这些材质及边缘细节；照片内口独立替换。",
+      "photo_id": [
+        "photo_drink"
+      ],
+      "label": "承托单张竖向照片的白色纸质框体，左侧留边明显较宽，上、右、下",
+      "method": "extract"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        228,
+        164,
+        944,
+        1284
+      ],
+      "description": "单人躯干与持杯手部的竖向近景照片，头部在画面外。人物穿白色上衣和黑色下装，右侧伸出的纹身前臂与涂黑色指甲的手握住透明杯，杯内为绿色饮品，杯盖插有浅色吸管。杯身标签及其小字属于摄影内容。保留衣服、手臂、杯子和右下方灰褐色地面组成的完整摄影画面；矩形窗口裁切，无沿主体去背景或透明渐隐。",
+      "label": "单人躯干与持杯手部的竖向近景照片，头部在画面外。人物穿白色上",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_paper",
+    "photo_drink"
+  ]
+}

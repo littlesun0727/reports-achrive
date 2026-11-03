@@ -1,0 +1,488 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "蓝色天空与深色落叶树枝构成一张连续的仰拍摄影画面，没有人物。树枝从左侧、底部及右下伸入，顶部也有枝条与果实；四边露出的天空和枝干连续一致，中央被纸张拼贴与照片遮挡。整幅天空、树木及摄影环境一起替换，保留完整全画布范围。"
+  },
+  "objects": [
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        121,
+        457,
+        258
+      ],
+      "description": "白色手写标题“My Plog”，字母大小、笔画和基线具有独特变化，作为完整艺术字保留。"
+    },
+    {
+      "id": "text_english",
+      "kind": "text",
+      "bbox": [
+        500,
+        146,
+        962,
+        196
+      ],
+      "text": "Every little thing just fell into\nplace, pretty good.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_chinese",
+      "kind": "text",
+      "bbox": [
+        502,
+        210,
+        1025,
+        237
+      ],
+      "text": "每一件小事都刚好卡在还不错的位置上。",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_paper_collage",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        333,
+        943,
+        1287
+      ],
+      "description": "中央完整的固定拼贴承托底板：浅黄米色纸底、斜叠的褶皱旧纸、植物枝叶印纹、小块胶带、横线纸、英文手写纹理及深蓝撕纸片共同组成局部纸张设计。内部纸纹和印字整体保留；七张可替换照片、各自相纸、夹子及独立贴纸不属于此单元。"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        394,
+        306,
+        586,
+        416
+      ],
+      "description": "顶端金棕色纸夹，含圆顶、圆孔、横向夹口及投影，压住中央拼贴纸上缘，整体保留。"
+    },
+    {
+      "id": "overlay_my",
+      "kind": "overlay",
+      "bbox": [
+        186,
+        338,
+        367,
+        442
+      ],
+      "description": "倾斜的浅灰白纸标签，印有红色小写“my”，保留纸张质感、完整边缘和字形。"
+    },
+    {
+      "id": "overlay_style",
+      "kind": "overlay",
+      "bbox": [
+        636,
+        340,
+        939,
+        441
+      ],
+      "description": "右上倾斜长条纸标签，黑色粗重“STYLE”与右端红色底块组成一体设计，保留印刷颗粒和纸边。"
+    },
+    {
+      "id": "frame_meal_left",
+      "kind": "frame",
+      "bbox": [
+        183,
+        480,
+        425,
+        765
+      ],
+      "description": "左上倾斜的白色拍立得相纸，四边白框及较宽的底部留白整体保留，左上沿被黄色定位贴纸覆盖。",
+      "photo_id": [
+        "photo_meal_left"
+      ]
+    },
+    {
+      "id": "photo_meal_left",
+      "kind": "photo",
+      "bbox": [
+        195,
+        494,
+        409,
+        708
+      ],
+      "description": "左上独立餐食照片，无人物；俯斜视角拍摄圆形托盘上的米饭、肉类、绿色菜汤及小碟，后方有杯碗，保留暗色桌面环境。完整显示范围为倾斜相纸内口，不按餐盘轮廓去背景。"
+    },
+    {
+      "id": "frame_meal_center",
+      "kind": "frame",
+      "bbox": [
+        407,
+        521,
+        707,
+        757
+      ],
+      "description": "中央横向白色照片卡，相纸上下留白与边缘整体保留，底沿被蓝色“perfect”撕纸标签局部遮挡。",
+      "photo_id": [
+        "photo_meal_center"
+      ]
+    },
+    {
+      "id": "photo_meal_center",
+      "kind": "photo",
+      "bbox": [
+        422,
+        541,
+        693,
+        712
+      ],
+      "description": "中央横向餐桌照片，无人物；桌上有面条盘、炸物篮、烤鸡或肉类、金属碗与餐具，保留花纹桌布和完整桌面环境。照片为独立矩形内口，暖色亮光属于摄影内容。"
+    },
+    {
+      "id": "frame_coffee_top",
+      "kind": "frame",
+      "bbox": [
+        707,
+        493,
+        900,
+        712
+      ],
+      "description": "右上略倾斜的白色拍立得相纸，底部白边较宽，右上缘叠有黄色定位贴纸。",
+      "photo_id": [
+        "photo_coffee_top"
+      ]
+    },
+    {
+      "id": "photo_coffee_top",
+      "kind": "photo",
+      "bbox": [
+        719,
+        506,
+        885,
+        667
+      ],
+      "description": "右上咖啡静物照片，无人物；木桌上放心形拉花咖啡、编织杯垫、翻开的书和右下小白花，保留全部摄影环境。左下极小白字属于照片内部内容，随照片替换。"
+    },
+    {
+      "id": "overlay_pin_meal_top",
+      "kind": "overlay",
+      "bbox": [
+        208,
+        475,
+        254,
+        534
+      ],
+      "description": "亮黄色地图定位图钉贴纸，圆头内有透空圆孔，下端尖角覆盖左上照片及相纸边缘。"
+    },
+    {
+      "id": "overlay_pin_coffee_top",
+      "kind": "overlay",
+      "bbox": [
+        848,
+        464,
+        893,
+        524
+      ],
+      "description": "亮黄色定位图钉贴纸，圆孔和尖角一体保留，叠在右上咖啡照片的右上边缘。"
+    },
+    {
+      "id": "overlay_camera_small",
+      "kind": "overlay",
+      "bbox": [
+        284,
+        749,
+        435,
+        880
+      ],
+      "description": "倾斜的银黑色复古相机贴纸，含镜头、机身、按钮、可辨“FUJIFILM”字样及浅色外沿，作为固定装饰保留，不是独立待替换照片。"
+    },
+    {
+      "id": "overlay_perfect",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        733,
+        748,
+        907
+      ],
+      "description": "浅蓝色撕纸标签，带不规则白色毛边和大幅深色手写“perfect”，完整纸片与艺术字保留；上缘覆盖中央照片卡底边，左侧压住小相机贴纸的一部分。"
+    },
+    {
+      "id": "frame_cupcakes",
+      "kind": "frame",
+      "bbox": [
+        741,
+        826,
+        975,
+        1086
+      ],
+      "description": "右下倾斜白色拍立得相纸，宽底边及完整纸角保留，左下部分被冰淇淋照片卡和路牌贴纸遮挡。",
+      "photo_id": [
+        "photo_cupcakes"
+      ]
+    },
+    {
+      "id": "photo_cupcakes",
+      "kind": "photo",
+      "bbox": [
+        756,
+        840,
+        954,
+        1034
+      ],
+      "description": "右下独立甜点照片，无人物；暗色桌面上两份杯装甜点或纸杯蛋糕，上有奶油、黄色配料及绿色装饰，前方摆小杯与木托。保留完整暗色摄影环境，左侧部分被邻近照片卡遮挡。"
+    },
+    {
+      "id": "frame_coffee_bottom",
+      "kind": "frame",
+      "bbox": [
+        439,
+        946,
+        660,
+        1188
+      ],
+      "description": "下方中央略倾斜的白色拍立得相纸，完整宽底边保留；左缘被大餐食照片卡压住，右上被冰淇淋照片卡遮挡。",
+      "photo_id": [
+        "photo_coffee_bottom"
+      ]
+    },
+    {
+      "id": "photo_coffee_bottom",
+      "kind": "photo",
+      "bbox": [
+        450,
+        960,
+        644,
+        1143
+      ],
+      "description": "下方中央咖啡店桌面照片，无人物；近处是一杯拉花咖啡，后方有两盘食物、透明瓶和深色座椅，保留室内桌面环境。窗口倾斜，左右部分受邻近照片卡遮挡，仍记录完整内口。"
+    },
+    {
+      "id": "frame_food_bottom",
+      "kind": "frame",
+      "bbox": [
+        140,
+        913,
+        472,
+        1184
+      ],
+      "description": "左下大幅白色拍立得相纸，略倾斜，具有宽底边；上沿叠有黄色定位贴纸，左下角被大型相机贴纸遮挡，右缘压住中央小照片卡。",
+      "photo_id": [
+        "photo_food_bottom"
+      ]
+    },
+    {
+      "id": "photo_food_bottom",
+      "kind": "photo",
+      "bbox": [
+        156,
+        936,
+        457,
+        1139
+      ],
+      "description": "左下横向俯拍餐食照片，无人物；桌面密集摆放两份主食、汤碗、饮料罐、饮品及包装食品，保留整个彩色桌面与包装上的摄影文字。显示范围为倾斜照片内口，左下局部被相机装饰遮挡。"
+    },
+    {
+      "id": "frame_icecream",
+      "kind": "frame",
+      "bbox": [
+        623,
+        912,
+        781,
+        1087
+      ],
+      "description": "下方偏右的白色照片卡，底边留白，位于咖啡照片和右侧甜点照片上方；上沿叠有黄色定位贴纸，底部被路牌贴纸遮挡。",
+      "photo_id": [
+        "photo_icecream"
+      ]
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        634,
+        925,
+        768,
+        1051
+      ],
+      "description": "小幅甜点近景照片，无人物；浅色桌面上有两份带草莓和粉白奶油的杯装冰淇淋，保留浅色摄影背景。完整矩形内口上方受黄色图钉覆盖，下方被路牌贴纸局部遮挡。"
+    },
+    {
+      "id": "overlay_pin_food_bottom",
+      "kind": "overlay",
+      "bbox": [
+        192,
+        910,
+        237,
+        970
+      ],
+      "description": "黄色定位图钉贴纸，圆孔及向下尖角一体保留，覆盖左下大餐食照片上沿。"
+    },
+    {
+      "id": "overlay_pin_icecream",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        895,
+        752,
+        954
+      ],
+      "description": "黄色定位图钉贴纸，叠在小幅冰淇淋照片卡上沿，尖角伸入摄影画面。"
+    },
+    {
+      "id": "overlay_signpost",
+      "kind": "overlay",
+      "bbox": [
+        674,
+        1017,
+        894,
+        1194
+      ],
+      "description": "多层方向路牌贴纸，含灰蓝路牌、粉色左右箭头、竖杆及白色外边；上牌朝左，下方两牌朝右。整体压住冰淇淋卡底部和右侧照片卡，最下方被“Blue”纸标签遮挡。"
+    },
+    {
+      "id": "overlay_camera_large",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        1119,
+        283,
+        1308
+      ],
+      "description": "左下大型黑灰色数码相机贴纸，镜头朝向观者，机身略倾斜，含按钮、镜头细节及不规则白色外沿；覆盖大餐食照片卡左下角与底板边缘。"
+    },
+    {
+      "id": "overlay_no",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        1165,
+        585,
+        1307
+      ],
+      "description": "倾斜白色旧纸标签，红色粗体“NO”带磨损印刷纹理，纸边、字形和材质作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_blue",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        1146,
+        905,
+        1320
+      ],
+      "description": "右下倾斜米灰色纸标签，深蓝衬线“Blue”与下方灰色矩形色块共同构成固定设计，保留纸质纹理；上部压住路牌下端，下角伸出主底板。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        292,
+        773,
+        336
+      ],
+      "description": "顶部偏右独立白色四角手绘闪光符号，中央有蓝色透空，保留不规则笔画。"
+    },
+    {
+      "id": "overlay_star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        524,
+        129,
+        575
+      ],
+      "description": "左侧中上部独立白色四角闪光涂鸦，位于纸板外的天空上，保留全部笔画和透空间隙。"
+    },
+    {
+      "id": "overlay_star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        978,
+        650,
+        1023,
+        699
+      ],
+      "description": "右侧中部独立白色手绘闪光符号，略倾斜，内部透出摄影底图。"
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        968,
+        98,
+        1015
+      ],
+      "description": "左侧下部独立白色细笔四角闪光涂鸦，覆盖树枝摄影底图。"
+    },
+    {
+      "id": "overlay_star_right_lower",
+      "kind": "overlay",
+      "bbox": [
+        988,
+        1007,
+        1012,
+        1033
+      ],
+      "description": "右侧下部小型白色四角手绘闪光符号，独立于照片卡与其他星形装饰。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        1331,
+        469,
+        1369
+      ],
+      "description": "画布底部偏左的白色四角闪光涂鸦，位于拼贴底板下方的树枝摄影区域，保留完整形状。"
+    }
+  ],
+  "layer_order": [
+    "overlay_paper_collage",
+    "overlay_clip",
+    "overlay_my",
+    "overlay_style",
+    "frame_meal_left",
+    "photo_meal_left",
+    "frame_meal_center",
+    "photo_meal_center",
+    "frame_coffee_top",
+    "photo_coffee_top",
+    "overlay_pin_meal_top",
+    "overlay_pin_coffee_top",
+    "overlay_camera_small",
+    "overlay_perfect",
+    "frame_cupcakes",
+    "photo_cupcakes",
+    "frame_coffee_bottom",
+    "photo_coffee_bottom",
+    "frame_food_bottom",
+    "photo_food_bottom",
+    "frame_icecream",
+    "photo_icecream",
+    "overlay_pin_food_bottom",
+    "overlay_pin_icecream",
+    "overlay_signpost",
+    "overlay_camera_large",
+    "overlay_no",
+    "overlay_blue",
+    "overlay_title",
+    "text_english",
+    "text_chinese",
+    "overlay_star_top",
+    "overlay_star_left_upper",
+    "overlay_star_right_upper",
+    "overlay_star_left_lower",
+    "overlay_star_right_lower",
+    "overlay_star_bottom"
+  ]
+}

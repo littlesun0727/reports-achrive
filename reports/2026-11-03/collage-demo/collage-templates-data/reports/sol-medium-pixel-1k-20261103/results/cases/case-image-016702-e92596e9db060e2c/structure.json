@@ -1,0 +1,168 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_paper",
+    "description": "全画布为连续的暖灰米白色固定底面，四边有极细深色边线；标题周围、照片四周及底部文字间隙均露出同一底面。保留底色及外围边线，独立照片、文字与横线分别清除和重建。"
+  },
+  "objects": [
+    {
+      "id": "text_brand",
+      "kind": "text",
+      "bbox": [
+        93,
+        18,
+        302,
+        39
+      ],
+      "text": "conform.marketing",
+      "color": "#292929",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        93,
+        120,
+        450,
+        274
+      ],
+      "text": "TRUE TO\n/FORM",
+      "color": "#050505",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_upper_rule",
+      "kind": "overlay",
+      "bbox": [
+        289,
+        343,
+        831,
+        350
+      ],
+      "description": "照片上方独立的细黑横线，从画布中部向右延伸，与标题和照片均留有间距。完整保留线条及轻微边缘柔化。"
+    },
+    {
+      "id": "photo_fishing",
+      "kind": "photo",
+      "bbox": [
+        73,
+        391,
+        850,
+        907
+      ],
+      "description": "横向黑白海边摄影：一名穿深色连帽外套的人位于右下方，侧身朝左坐在折叠椅上垂钓，一手靠近面部；鱼竿横贯水面，椅旁有袋子，前景为岩石，远处为海面和低矮岛岸。完整矩形窗口保留人物、椅子、物品及摄影环境，不沿人物轮廓去背景；画面具有灰度颗粒感，无独立装饰框。"
+    },
+    {
+      "id": "text_left_heading",
+      "kind": "text",
+      "bbox": [
+        116,
+        926,
+        378,
+        945
+      ],
+      "text": "ORGANIC TAKES TIME",
+      "color": "#292929",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_right_heading",
+      "kind": "text",
+      "bbox": [
+        551,
+        925,
+        730,
+        945
+      ],
+      "text": "OUR SERVICES",
+      "color": "#292929",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        116,
+        986,
+        497,
+        1048
+      ],
+      "text": "Paid is necessary, but organic is still your bread and\nbutter. Consistency is key, and value is taken for\ngranted. Selling happens through connection.",
+      "color": "#343434",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_services",
+      "kind": "text",
+      "bbox": [
+        564,
+        982,
+        768,
+        1071
+      ],
+      "text": "• Website Copywriting\n\n• Social Media Strategy\n\n• Content Marketing",
+      "color": "#343434",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_lower_rule",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        1105,
+        818,
+        1112
+      ],
+      "description": "两栏正文下方的一条独立细黑横线，横跨大部分版心，完整保留线条和轻微柔化边缘；不承载照片。"
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        93,
+        1176,
+        377,
+        1193
+      ],
+      "text": "defy the norm / define your brand",
+      "color": "#343434",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_fishing",
+    "overlay_upper_rule",
+    "overlay_lower_rule",
+    "text_brand",
+    "text_title",
+    "text_left_heading",
+    "text_right_heading",
+    "text_body",
+    "text_services",
+    "text_footer"
+  ]
+}

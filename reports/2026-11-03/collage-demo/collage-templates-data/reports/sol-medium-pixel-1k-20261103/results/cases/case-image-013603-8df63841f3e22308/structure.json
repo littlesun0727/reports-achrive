@@ -1,0 +1,311 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_red",
+    "description": "全画布连续的砖红色织物质感底图，带细密颗粒、轻微明暗变化及零散浅色小星星和细碎斑点；四边和照片之间均可见同一底纹。保留这些固定底纹，独立照片、文字、大型星星及贴纸另列，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        18,
+        260,
+        508,
+        852
+      ],
+      "description": "左侧竖幅照片，一名长发女子戴红色针织帽，穿浅色衣服，怀抱绿色圣诞树造型玩偶，向画面右侧微笑。保留身后的树枝、灯光及室内摄影环境，人物未沿轮廓去背景。左右边缘有依附照片窗口的白色不规则线条，照片上方和两侧被帽子、箭头与星星装饰局部遮挡。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        566,
+        542,
+        1080,
+        1271
+      ],
+      "description": "右下竖幅照片，一名长发女子戴浅褐色帽子，穿红褐格纹上衣和浅色背带衣，双手戴红手套并捧至嘴前，面向左侧。保留木墙、窗户及飘雪的摄影环境，不去背景。实际摄影矩形约从[588,613]延伸至[1059,1250]，外围黄色发光手绘窗口线向右上延伸，底部断续；上沿被卡通贴纸、下部被星星遮挡。"
+    },
+    {
+      "id": "overlay_december",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        148,
+        455,
+        225
+      ],
+      "description": "橙色手写艺术字“December”，字母大小与基线略有起伏，保留原有不规则笔画和独立字形设计。"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        43,
+        113,
+        98
+      ],
+      "description": "左上角浅黄色五角星，黑色手绘轮廓，星角不规则，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_top_middle",
+      "kind": "overlay",
+      "bbox": [
+        498,
+        25,
+        566,
+        96
+      ],
+      "description": "顶部中间的浅黄色五角星，黑色不规则描边，整体略倾斜。"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        887,
+        20,
+        986,
+        138
+      ],
+      "description": "右上角较大的浅黄色五角星，黑色手绘轮廓，各星角长短不一。"
+    },
+    {
+      "id": "overlay_arrows",
+      "kind": "overlay",
+      "bbox": [
+        417,
+        227,
+        509,
+        308
+      ],
+      "description": "左侧照片右上方的两枚白色手绘弯箭头，作为一组方向提示装饰，向下指向照片帽子附近，跨过照片上边缘。"
+    },
+    {
+      "id": "overlay_santa_hat_left",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        328,
+        150,
+        424
+      ],
+      "description": "贴在左侧照片左上部的红白圣诞帽，包含红色帽尖、白色绒球和团块状白色帽沿，与摄影中的树枝和人物肩侧重叠。"
+    },
+    {
+      "id": "overlay_santa_hat_middle",
+      "kind": "overlay",
+      "bbox": [
+        244,
+        264,
+        340,
+        366
+      ],
+      "description": "贴在女子针织帽前方的红白圣诞帽，包含白色绒球、红色帽身和团块状白色帽沿，整体作为独立贴纸保留。"
+    },
+    {
+      "id": "overlay_star_left_photo",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        645,
+        120,
+        768
+      ],
+      "description": "左侧照片左下部的大型浅黄色五角星，黑色手绘轮廓，跨过照片左边缘并遮挡绿色玩偶一部分。"
+    },
+    {
+      "id": "overlay_star_between_photos",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        591,
+        543,
+        658
+      ],
+      "description": "两张照片之间的浅黄色五角星，带黑色轮廓，叠在左侧照片右边缘附近。"
+    },
+    {
+      "id": "overlay_diary_title",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        821,
+        393,
+        921
+      ],
+      "description": "黄色黑边艺术字“吃饭日记”，字形和角度不规则，连同右上与左下的小型黄色闪光点整体保留，位于左侧照片下沿附近。"
+    },
+    {
+      "id": "overlay_bowl",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        852,
+        137,
+        900
+      ],
+      "description": "标题左侧的小饭碗图标，白色米饭、粉红色碗身及黑色轮廓组成独立固定装饰。"
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        526,
+        240,
+        1005,
+        342
+      ],
+      "text": "冬天的阳光一点也不暖和\n要记得幸福随时才会感到暖和",
+      "color": "#FFF9EE",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_canteen_label",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        359,
+        945,
+        476
+      ],
+      "description": "浅黄色手绘不规则椭圆围住黄色黑边艺术字“食堂，我来辽!!”，文字高低错落并带夸张笔画；外圈、字样和内部点号整体作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        968,
+        411,
+        1023,
+        478
+      ],
+      "description": "右侧中部的浅黄色小五角星，黑色手绘轮廓，独立置于红色底纹上。"
+    },
+    {
+      "id": "overlay_winter_character",
+      "kind": "overlay",
+      "bbox": [
+        637,
+        507,
+        894,
+        674
+      ],
+      "description": "右侧照片上沿的冬日卡通贴纸组合：黄色圆脸角色戴白色耳罩和红围巾，旁边为带格纹底座的浅蓝色雪景球及小黄色部件。保留完整黑白外轮廓和内部图案，组合跨过照片上沿并遮挡黄色窗口线。"
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        78,
+        936,
+        472,
+        1305
+      ],
+      "text": "和青青小朋友在路边\n咔嚓了一张午后合照\n阳光很好\n心情也不错\n但还在思考世纪难题\n中午吃什么好呢",
+      "color": "#FFF9EE",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        1015,
+        115,
+        1050
+      ],
+      "description": "正文第二行左侧的小型灰黑色相机图标，镜头、机身和高光共同组成一个独立装饰，不属于文字内容。"
+    },
+    {
+      "id": "overlay_underlines",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        1303,
+        433,
+        1338
+      ],
+      "description": "左下正文末行下面的两条白色手绘横线，线条略弯曲，作为一组独立下划线装饰保留。"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        1192,
+        110,
+        1301
+      ],
+      "description": "左下边缘的大型浅黄色五角星，黑色轮廓，部分贴近正文第五行左端，覆盖红色底纹。"
+    },
+    {
+      "id": "overlay_star_right_photo_large",
+      "kind": "overlay",
+      "bbox": [
+        880,
+        1106,
+        981,
+        1228
+      ],
+      "description": "右侧照片下部的大型浅黄色五角星，黑色不规则轮廓，叠在人物浅色衣服前方。"
+    },
+    {
+      "id": "overlay_star_right_photo_small",
+      "kind": "overlay",
+      "bbox": [
+        1001,
+        1189,
+        1048,
+        1259
+      ],
+      "description": "右侧照片右下角的小型浅黄色五角星，黑色描边，贴近摄影矩形右边缘并覆盖照片。"
+    },
+    {
+      "id": "overlay_star_bottom_middle",
+      "kind": "overlay",
+      "bbox": [
+        528,
+        1258,
+        626,
+        1382
+      ],
+      "description": "画布下部中间的大型浅黄色五角星，黑色手绘轮廓，上角靠近右侧照片左下角及黄色底边线。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "overlay_december",
+    "overlay_star_top_left",
+    "overlay_star_top_middle",
+    "overlay_star_top_right",
+    "overlay_arrows",
+    "overlay_santa_hat_left",
+    "overlay_santa_hat_middle",
+    "overlay_star_left_photo",
+    "overlay_star_between_photos",
+    "overlay_diary_title",
+    "overlay_bowl",
+    "text_top_right",
+    "overlay_canteen_label",
+    "overlay_star_right_middle",
+    "overlay_winter_character",
+    "text_bottom_left",
+    "overlay_camera",
+    "overlay_underlines",
+    "overlay_star_bottom_left",
+    "overlay_star_right_photo_large",
+    "overlay_star_right_photo_small",
+    "overlay_star_bottom_middle"
+  ]
+}

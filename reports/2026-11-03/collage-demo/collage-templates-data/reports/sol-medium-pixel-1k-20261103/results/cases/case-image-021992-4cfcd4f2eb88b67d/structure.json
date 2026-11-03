@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的餐桌静物摄影覆盖画布四边：上半部是粗糙石墙，两杯饮料位于中上方，烤串、蘸料碗和椭圆金属盘占据下半部，背景还包括木托盘与浅色碎石纹桌面。场景、食物、饮料及其环境均作为同一完整摄影底图替换；白色手绘涂鸦叠在照片上并遮住局部。"
+  },
+  "objects": [
+    {
+      "id": "overlay_bone_face",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        112,
+        480,
+        240
+      ],
+      "description": "左上方白色手绘表情装饰，包含两侧骨状线条、眉眼和嘴部笔画，成员构成一个完整涂鸦单元，叠在石墙照片上。"
+    },
+    {
+      "id": "overlay_suki_cloud",
+      "kind": "overlay",
+      "bbox": [
+        616,
+        83,
+        808,
+        283
+      ],
+      "description": "右上方白色手绘云状思考框，内有可辨字样“Suki”，下方连接两个小圆点；作为一个完整涂鸦单元叠在石墙照片上。"
+    },
+    {
+      "id": "overlay_lightning",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        300,
+        112,
+        404
+      ],
+      "description": "左侧石墙上的白色手绘闪电形线条，两枚相邻折线组成一个装饰单元。"
+    },
+    {
+      "id": "overlay_drink_face_left",
+      "kind": "overlay",
+      "bbox": [
+        214,
+        674,
+        379,
+        750
+      ],
+      "description": "橙色饮料杯前方的白色手绘笑脸，包含眼点、脸颊短线、弯曲嘴部和舌头，独立叠加于杯身照片内容之上。"
+    },
+    {
+      "id": "overlay_drink_face_right",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        609,
+        656,
+        725
+      ],
+      "description": "绿色饮料杯前方的白色手绘笑脸，包含眼点、脸颊短线、弯曲嘴部及周围表情笔画，独立叠加于杯身照片内容之上。"
+    },
+    {
+      "id": "overlay_wow",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        442,
+        978,
+        577
+      ],
+      "description": "右侧白色手绘感叹字样“哇!!”及周围短线，字形与装饰笔画共同构成一个艺术字单元，叠在石墙照片上。"
+    },
+    {
+      "id": "overlay_sauce_face",
+      "kind": "overlay",
+      "bbox": [
+        295,
+        933,
+        407,
+        1009
+      ],
+      "description": "蘸料碗上方的白色手绘表情线条，包含弯曲的脸部轮廓、眼部和短线细节，作为一个独立涂鸦单元叠在碗与酱料的照片内容上。"
+    }
+  ],
+  "layer_order": [
+    "overlay_bone_face",
+    "overlay_suki_cloud",
+    "overlay_lightning",
+    "overlay_drink_face_left",
+    "overlay_drink_face_right",
+    "overlay_wow",
+    "overlay_sauce_face"
+  ]
+}

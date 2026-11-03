@@ -1,0 +1,492 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_table",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "实拍拼贴模板的灰色织物桌面底图，具有连续的纤维纹理、明暗变化，顶部露出浅粉米色织物。底面延伸至画布四边；保留固定桌面与布料，清除独立相纸、摄影内口、道具、贴纸及文字，不将人物照片并入底图。",
+      "background_type": "reference_clean",
+      "label": "实拍拼贴模板的灰色织物桌面底图，具有连续的纤维纹理、明暗变化",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        558,
+        389
+      ],
+      "description": "左上角实拍粉色即时成像相机固定道具，上部被画布裁切。保留机身、镜头、按钮、挂绳局部、镜头周围印字、机身上的小兔图案及接触阴影；不包含旁边独立的粉色爱心贴纸。",
+      "label": "左上角实拍粉色即时成像相机固定道具，上部被画布裁切。保留机身",
+      "method": "extract"
+    },
+    {
+      "id": "frame_upper_left",
+      "kind": "frame",
+      "bbox": [
+        49,
+        425,
+        311,
+        745
+      ],
+      "description": "左上竖向白色相纸，略微倾斜，底部白边较宽，保留纸张质感与边缘阴影。右下部分被中央斜放的相纸遮挡。",
+      "photo_id": [
+        "photo_upper_left"
+      ],
+      "label": "左上竖向白色相纸，略微倾斜，底部白边较宽，保留纸张质感与边缘",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        75,
+        451,
+        292,
+        686
+      ],
+      "description": "竖向夜间合影，约五名年轻人面向镜头站立，有人举手或比手势，人物集中在中下部；保留暗色建筑背景和上方灯光。摄影内口随相纸倾斜，右下局部被中央相纸遮挡，不沿人物去背景。",
+      "label": "竖向夜间合影，约五名年轻人面向镜头站立，有人举手或比手势，人",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper_middle",
+      "kind": "frame",
+      "bbox": [
+        334,
+        333,
+        748,
+        588
+      ],
+      "description": "上方斜放的横向白色相纸，围绕一张夜间合影，保留四边纸质白边与阴影。下方边缘被中央相纸和右侧横向相纸局部遮挡。",
+      "photo_id": [
+        "photo_upper_middle"
+      ],
+      "label": "上方斜放的横向白色相纸，围绕一张夜间合影，保留四边纸质白边与",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper_middle",
+      "kind": "photo",
+      "bbox": [
+        370,
+        362,
+        681,
+        558
+      ],
+      "description": "横向夜间合影，约五名年轻人靠近站立，穿浅色上衣，部分人举手；人物位于照片下半部，上方为大片暗色夜景及点状灯光。保留完整摄影环境，显示内口随相纸倾斜；上部手写日期另列固定装饰。",
+      "label": "横向夜间合影，约五名年轻人靠近站立，穿浅色上衣，部分人举手；",
+      "method": "local"
+    },
+    {
+      "id": "overlay_photo_date",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        386,
+        599,
+        486
+      ],
+      "description": "上方合影内口上的浅灰白色手写日期装饰，可辨为“2022.11.13”，带左侧爱心形笔画和末尾弧线。文字随照片斜向排列，保留不规则笔画及完整装饰，不并入待替换摄影内容。",
+      "label": "上方合影内口上的浅灰白色手写日期装饰，可辨为“2022.11",
+      "method": "extract"
+    },
+    {
+      "id": "frame_center",
+      "kind": "frame",
+      "bbox": [
+        247,
+        508,
+        657,
+        818
+      ],
+      "description": "中央向右下倾斜的横向白色相纸，压住左侧竖相纸和上方相纸，右侧部分位于右上横向相纸下方，下缘又被中央偏下相纸遮挡。保留完整可见白边、纸面及阴影。",
+      "photo_id": [
+        "photo_center"
+      ],
+      "label": "中央向右下倾斜的横向白色相纸，压住左侧竖相纸和上方相纸，右侧",
+      "method": "extract"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        286,
+        534,
+        615,
+        783
+      ],
+      "description": "夜间三人合影，左侧人物穿浅色长袖并举臂，中间人物穿浅色衣服，右侧人物穿红色上衣摆姿势。保留暗色夜景及点状灯光，不沿人物去背景；完整内口斜放，右边与下边被其他相纸局部遮挡。",
+      "label": "夜间三人合影，左侧人物穿浅色长袖并举臂，中间人物穿浅色衣服，",
+      "method": "local"
+    },
+    {
+      "id": "frame_right_upper",
+      "kind": "frame",
+      "bbox": [
+        591,
+        504,
+        939,
+        722
+      ],
+      "description": "右上近水平横向白色相纸，上下为窄白边，覆盖中央斜放相纸的右部。右端局部被灰色毛绒道具和兔子贴纸遮挡，隐藏边缘的具体形态不确定。",
+      "photo_id": [
+        "photo_right_upper"
+      ],
+      "label": "右上近水平横向白色相纸，上下为窄白边，覆盖中央斜放相纸的右部",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right_upper",
+      "kind": "photo",
+      "bbox": [
+        625,
+        528,
+        914,
+        702
+      ],
+      "description": "横向五人夜间近景合影，几名人物穿浅色上衣，一人戴眼镜，人物并排面对镜头比手势。保留暗色摄影背景，照片整体略斜；右上及右端被毛绒道具和兔子贴纸遮挡，内口不缩为剩余可见人物范围。",
+      "label": "横向五人夜间近景合影，几名人物穿浅色上衣，一人戴眼镜，人物并",
+      "method": "local"
+    },
+    {
+      "id": "frame_right_middle",
+      "kind": "frame",
+      "bbox": [
+        605,
+        696,
+        899,
+        948
+      ],
+      "description": "右侧中部斜放的白色相纸，承载室内双人合影，上缘在右上横向相纸下方，左下局部被中央偏下相纸覆盖，右侧较大范围被灰色毛绒道具遮挡。保留可见纸边与阴影，隐藏右端边界存在不确定性。",
+      "photo_id": [
+        "photo_right_middle"
+      ],
+      "label": "右侧中部斜放的白色相纸，承载室内双人合影，上缘在右上横向相纸",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right_middle",
+      "kind": "photo",
+      "bbox": [
+        649,
+        723,
+        884,
+        925
+      ],
+      "description": "室内双人合影，左侧人物穿菱格背心，右侧人物穿浅色外套，两人举臂在头部附近摆姿势。保留蓝灰色墙面及墙上的矩形画框，不沿人物去背景；显示窗口斜放，右侧被毛绒道具遮挡，下左侧受相纸遮挡。",
+      "label": "室内双人合影，左侧人物穿菱格背心，右侧人物穿浅色外套，两人举",
+      "method": "local"
+    },
+    {
+      "id": "frame_left_middle",
+      "kind": "frame",
+      "bbox": [
+        0,
+        735,
+        332,
+        1137
+      ],
+      "description": "左侧中下部倾斜的竖向白色相纸，左下角超出画布，底部宽白边被下方横向相纸及粉色蝴蝶结贴纸部分覆盖。保留白色纸面、完整可见边角和阴影。",
+      "photo_id": [
+        "photo_left_middle"
+      ],
+      "label": "左侧中下部倾斜的竖向白色相纸，左下角超出画布，底部宽白边被下",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        760,
+        304,
+        1071
+      ],
+      "description": "两名年轻女性的夜间合影，左侧人物穿浅蓝色上衣并高举一只手，右侧人物穿深色上衣并举手比姿势。保留黑暗摄影背景，窗口与相纸一同倾斜，左侧由画布边缘裁切，下缘局部受叠放相纸与蝴蝶结遮挡。",
+      "label": "两名年轻女性的夜间合影，左侧人物穿浅蓝色上衣并高举一只手，右",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        120,
+        1047,
+        577,
+        1356
+      ],
+      "description": "底部偏左斜放的横向白色相纸，压在左侧竖相纸下端，上部又被中央偏下相纸局部覆盖。右侧宽白边上的深色手写字随框体保留，可辨“2023”及竖排“吃烤肉！”；保留纸面、笔迹和边缘阴影。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "底部偏左斜放的横向白色相纸，压在左侧竖相纸下端，上部又被中央",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        160,
+        1072,
+        496,
+        1321
+      ],
+      "description": "夜间街边多人合影，约六名年轻人站在店面招牌前，穿浅色、橙色及蓝色衣服，部分人比手势；左下有黄色购物袋。保留人物、招牌、袋子与暗色街景整体，不将场景物件拆作装饰。显示窗口倾斜，上缘局部被相纸及蝴蝶结遮挡。",
+      "label": "夜间街边多人合影，约六名年轻人站在店面招牌前，穿浅色、橙色及",
+      "method": "local"
+    },
+    {
+      "id": "frame_center_lower",
+      "kind": "frame",
+      "bbox": [
+        329,
+        746,
+        734,
+        1148
+      ],
+      "description": "中央偏下的斜向竖相纸，宽白色下边承托双人合影。上缘压住中央相纸，下部压在底部左侧相纸之上；保留相纸四边、纸张质感及投影。",
+      "photo_id": [
+        "photo_center_lower"
+      ],
+      "label": "中央偏下的斜向竖相纸，宽白色下边承托双人合影。上缘压住中央相",
+      "method": "extract"
+    },
+    {
+      "id": "photo_center_lower",
+      "kind": "photo",
+      "bbox": [
+        363,
+        780,
+        679,
+        1092
+      ],
+      "description": "夜间双人合影，前方女性穿黑色上衣并在脸旁比手势，后方女性穿浅蓝色上衣，一只手臂向左上伸展，另一只手臂弯至头部上方。保留暗色摄影环境，完整矩形内口斜放，无人物轮廓去背景。",
+      "label": "夜间双人合影，前方女性穿黑色上衣并在脸旁比手势，后方女性穿浅",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        568,
+        980,
+        1036,
+        1378
+      ],
+      "description": "右下斜放的横向白色相纸，围绕夜间多人合影，白边宽窄随透视变化。右上白边被粉色爱心贴纸覆盖，保留完整可见纸边及阴影。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "右下斜放的横向白色相纸，围绕夜间多人合影，白边宽窄随透视变化",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        608,
+        1010,
+        971,
+        1341
+      ],
+      "description": "夜间约七名年轻人的集体合影，人物分前后两排靠拢站立，穿黑色、白色、浅蓝色等衣服，多人抬手比姿势。保留黑暗场景、树上点状灯光及人物整体，照片内口斜放，不沿人物去背景。",
+      "label": "夜间约七名年轻人的集体合影，人物分前后两排靠拢站立，穿黑色、",
+      "method": "local"
+    },
+    {
+      "id": "overlay_plush",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        0,
+        1080,
+        1041
+      ],
+      "description": "沿画布右侧摆放的灰蓝色毛绒道具，顶部和右侧超出画布，左侧伸出毛绒肢体，下部垂至标题附近。保留真实绒毛轮廓、材质和阴影；它覆盖右上及右中两张相纸的右端，不包含另列的兔子、蝴蝶结、文字或粉色笔刷。",
+      "label": "沿画布右侧摆放的灰蓝色毛绒道具，顶部和右侧超出画布，左侧伸出",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        313,
+        124,
+        412
+      ],
+      "description": "相机下方的独立粉色爱心贴纸，向右倾斜，具有深浅粉色高光、粗白色外边和轻微阴影，作为完整装饰保留。",
+      "label": "相机下方的独立粉色爱心贴纸，向右倾斜，具有深浅粉色高光、粗白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_upper",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        228,
+        784,
+        319
+      ],
+      "description": "上方相纸与大兔子之间的粉色蝴蝶结贴纸，带深色结心、垂下的缎带、粗白边和阴影，独立完整保留。",
+      "label": "上方相纸与大兔子之间的粉色蝴蝶结贴纸，带深色结心、垂下的缎带",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_upper",
+      "kind": "overlay",
+      "bbox": [
+        788,
+        46,
+        1023,
+        326
+      ],
+      "description": "右上大型灰色卡通兔头贴纸，长耳、粉色鼻子、露出的门牙、一眼闭合，脸颊带粉色爱心。兔头、爱心、白色外边及阴影共同构成一个固定装饰，覆盖毛绒道具。",
+      "label": "右上大型灰色卡通兔头贴纸，长耳、粉色鼻子、露出的门牙、一眼闭",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_middle",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        459,
+        1001,
+        621
+      ],
+      "description": "右侧中上部的小灰兔头贴纸，长耳、一眼闭合、粉色鼻子和脸颊爱心，带完整白色轮廓与阴影。贴在毛绒道具与右上相纸交界处，覆盖照片右上角。",
+      "label": "右侧中上部的小灰兔头贴纸，长耳、一眼闭合、粉色鼻子和脸颊爱心",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow_lower",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        1008,
+        269,
+        1104
+      ],
+      "description": "左侧中下部粉色蝴蝶结贴纸，结心较深、两条缎带向下，带白色外边与阴影。跨在左侧竖相纸及底部横相纸的交界处，完整保留。",
+      "label": "左侧中下部粉色蝴蝶结贴纸，结心较深、两条缎带向下，带白色外边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_brush",
+      "kind": "overlay",
+      "bbox": [
+        861,
+        979,
+        1015,
+        1025
+      ],
+      "description": "“#Daily plog”右半部下方的独立粉色涂刷装饰，由相邻的斜向笔刷条形成不规则带状轮廓，覆盖毛绒道具下缘，保留笔触和颜色变化。",
+      "label": "“#Daily plog”右半部下方的独立粉色涂刷装饰，由相",
+      "method": "extract"
+    },
+    {
+      "id": "text_daily",
+      "kind": "text",
+      "bbox": [
+        676,
+        930,
+        1018,
+        990
+      ],
+      "description": "#Daily plog",
+      "label": "#Daily plog",
+      "method": "local",
+      "text": "#Daily plog",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_heart_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        918,
+        1021,
+        1033,
+        1137
+      ],
+      "description": "右下粉色爱心贴纸，深浅粉色立体高光，粗白色外边与轻微阴影，压在右下相纸的右上白边上，完整保留。",
+      "label": "右下粉色爱心贴纸，深浅粉色立体高光，粗白色外边与轻微阴影，压",
+      "method": "extract"
+    },
+    {
+      "id": "text_cute",
+      "kind": "text",
+      "bbox": [
+        84,
+        1337,
+        280,
+        1389
+      ],
+      "description": "#Cute!",
+      "label": "#Cute!",
+      "method": "local",
+      "text": "#Cute!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "background_table",
+    "overlay_camera",
+    "frame_upper_left",
+    "photo_upper_left",
+    "frame_upper_middle",
+    "photo_upper_middle",
+    "overlay_photo_date",
+    "frame_center",
+    "photo_center",
+    "frame_right_middle",
+    "photo_right_middle",
+    "frame_right_upper",
+    "photo_right_upper",
+    "frame_left_middle",
+    "photo_left_middle",
+    "frame_bottom_left",
+    "photo_bottom_left",
+    "frame_center_lower",
+    "photo_center_lower",
+    "frame_bottom_right",
+    "photo_bottom_right",
+    "overlay_plush",
+    "overlay_heart_upper_left",
+    "overlay_bow_upper",
+    "overlay_rabbit_upper",
+    "overlay_rabbit_middle",
+    "overlay_bow_lower",
+    "overlay_pink_brush",
+    "text_daily",
+    "overlay_heart_lower_right",
+    "text_cute"
+  ]
+}

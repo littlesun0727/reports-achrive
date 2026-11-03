@@ -1,0 +1,109 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1515,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1515,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        56,
+        91,
+        512,
+        863
+      ],
+      "description": "左侧竖幅城市风景照片，无近景人物主体；两座高耸的历史建筑位于中下部，前方为石桥、河水、灌木与草地，草地右下有两名很小的人物，上半部为蓝天和薄云。完整保留摄影环境，显示范围为独立矩形，与中间照片之间有白色间隔，无可见描边或透明渐隐。",
+      "label": "左侧竖幅城市风景照片，无近景人物主体；两座高耸的历史建筑位于",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        529,
+        91,
+        986,
+        863
+      ],
+      "description": "中间竖幅城市风景照片，无突出人物主体；远处穹顶建筑及沿河建筑群位于下半部，蓝天白云占据中部，近处失焦树叶遮住左上与右侧，底部有树丛、河岸和船只。摄影中的树叶与建筑一起替换，完整保留矩形摄影环境；其取景与左右照片独立，无可见描边或透明渐隐。",
+      "label": "中间竖幅城市风景照片，无突出人物主体；远处穹顶建筑及沿河建筑",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        1003,
+        91,
+        1459,
+        863
+      ],
+      "description": "右侧竖幅雕像风景照片；一尊拉弓射箭的男性铜像位于中右部，身体侧向左方，双腿分开站在高石质基座上，弓向左上延伸。背景为茂密绿树和左侧蓝天，基座下部被照片底边裁切。雕像、基座与摄影环境共同替换，完整显示窗口为矩形，无去背景、描边或透明渐隐。",
+      "label": "右侧竖幅雕像风景照片；一尊拉弓射箭的男性铜像位于中右部，身体",
+      "method": "local"
+    },
+    {
+      "id": "overlay_day",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        941,
+        187,
+        979
+      ],
+      "description": "左下角“DAY 3”日期标识：浅米色衬线大写“DAY”置于深灰色矩形底板中，右侧为较高的深灰色数字“3”。字样大小、基线及底板组合成一个固定设计单元，整体保留。",
+      "label": "左下角“DAY 3”日期标识：浅米色衬线大写“DAY”置于深",
+      "method": "extract"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        990,
+        916,
+        1459,
+        979
+      ],
+      "description": "The last day. Finally, clear skies.\nThe Altstadt glows golden across the Elbe.",
+      "label": "The last day. Finally, clear s",
+      "method": "local",
+      "text": "The last day. Finally, clear skies.\nThe Altstadt glows golden across the Elbe.",
+      "text_status": "known",
+      "style": {
+        "fill": "#4B4B4B",
+        "font": "serif",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "overlay_day",
+    "text_caption"
+  ]
+}

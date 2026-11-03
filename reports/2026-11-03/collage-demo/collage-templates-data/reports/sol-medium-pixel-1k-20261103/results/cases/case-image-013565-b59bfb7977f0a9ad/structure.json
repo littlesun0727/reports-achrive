@@ -1,0 +1,58 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#9FB2C1"
+  },
+  "objects": [
+    {
+      "id": "photo_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        630,
+        1080,
+        1440
+      ],
+      "description": "横向延展的高原风景照片，远处有浅色山脉，前景为金黄色旷野、浅水和深色湿地；保留完整摄影环境，照片从画面约 y=630 处开始并延伸至底边。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        388,
+        248,
+        693,
+        293
+      ],
+      "text": "岗尼乡·那曲市",
+      "color": "#F2D4D8",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        250,
+        314,
+        831,
+        353
+      ],
+      "text": "在那曲的旷野里，和山河温柔相逢",
+      "color": "#F2D4D8",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_landscape",
+    "text_title",
+    "text_subtitle"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "浅米色纤维纸纹连续铺满画布，在上方纸面及下方拼贴的破损留白处可见；保留纸张底纹，城市摄影内容独立替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_city_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        552,
+        971,
+        1450
+      ],
+      "description": "下方及右侧的城市全景照片，蓝天、山丘上的卫城建筑与密集城区共同构成画面；天空在右上露出，城市延伸至左右边缘，下缘被做旧拼贴区域遮挡。"
+    },
+    {
+      "id": "photo_city_print",
+      "kind": "photo",
+      "bbox": [
+        0,
+        663,
+        778,
+        1592
+      ],
+      "description": "左侧蓝色调的城市与卫城图像，建筑和卫城位置、视角与右侧主照片不同，作为独立摄影内容保留；图像向纸面渐淡，部分被撕纸边缘及下方做旧块面遮挡。"
+    },
+    {
+      "id": "overlay_torn_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        971,
+        1338
+      ],
+      "description": "覆盖上方与左侧的大块浅米色纸面，具有纤维纹理和不规则撕裂边缘；撕边从右上侧中部斜向左下延伸，纸面上的蓝色印刷式城市痕迹与纸张整体设计一并保留。"
+    },
+    {
+      "id": "overlay_distressed_blocks",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1180,
+        971,
+        1592
+      ],
+      "description": "底部横跨画面的做旧拼贴块面，包含不规则蓝灰色矩形、浅色纸块、颗粒擦痕及破碎边缘；作为整体固定印刷装饰保留，局部覆盖城市图像。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        75,
+        276,
+        266,
+        292
+      ],
+      "text": "Stone above the city",
+      "color": "#28251F",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_city_main",
+    "photo_city_print",
+    "overlay_distressed_blocks",
+    "overlay_torn_paper",
+    "text_title"
+  ]
+}

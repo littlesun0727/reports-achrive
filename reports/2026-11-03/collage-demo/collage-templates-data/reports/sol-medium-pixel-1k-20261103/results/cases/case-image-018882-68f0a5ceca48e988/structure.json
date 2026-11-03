@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的水乡河道摄影画面覆盖全画布，绿树枝叶占据上部，左侧为旧墙与石岸，右侧沿岸停有小船，河水延伸至底边，无清晰人物主体。四边露出的树木、建筑及水面保持场景连续性，中部局部被两张饮品照片和装饰遮挡；完整环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        564,
+        114,
+        1022,
+        725
+      ],
+      "description": "右上竖向饮品照片，近景展示一杯带透明圆顶盖的绿色与白色酸奶饮品，杯身印有“楼下 酸奶”。杯子置于浅木桌面，后方可见黑色包，右侧有绿色水果和局部白色容器。保留全部摄影环境，顶部左侧被胶带遮挡，右上叠有独立白色闪光装饰。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        91,
+        753,
+        544,
+        1360
+      ],
+      "description": "左下竖向近景照片，一只手从左下握住绿色与白色酸奶饮品，透明圆顶盖及杯身占据主体，杯身印有“楼下 酸奶”。身后保留绿色店面、局部标识和横向木条等摄影环境。照片顶部被绿色星星卡片遮挡，杯盖及杯身上叠有独立浅绿色星星装饰，底部手与杯子被照片边界裁切。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        489,
+        35,
+        733,
+        243
+      ],
+      "description": "斜贴在右上照片左上角的胶带组合，浅绿色胶带带细密点纹，后方露出淡黄色胶带边，两端呈不规则撕裂和阶梯状轮廓。两层胶带共同构成完整固定装饰，覆盖照片上沿。"
+    },
+    {
+      "id": "overlay_label_upper",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        356,
+        509,
+        410
+      ],
+      "description": "横向米黄色纸条，带细微纸质纹理及深蓝色手写字样“我们的故事像被折角的旧书”。文字笔画具有特定手写造型，与纸条整体保留。"
+    },
+    {
+      "id": "overlay_label_lower",
+      "kind": "overlay",
+      "bbox": [
+        206,
+        425,
+        530,
+        479
+      ],
+      "description": "位于上一纸条下方并向右错开的米黄色纸条，带细微纸质纹理及深蓝色手写字样“风一吹，就翻到了结局。”。文字与纸条作为独立完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_card",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        582,
+        488,
+        778
+      ],
+      "description": "浅绿色横向矩形装饰卡片，内部散布七颗大小不同的五角星，包含灰绿、亮绿及带明暗纹理的星形。卡片不承担照片窗口功能，底板与内部星形作为完整设计保留，下沿覆盖左下照片顶部。"
+    },
+    {
+      "id": "overlay_green_stars",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        803,
+        472,
+        1030
+      ],
+      "description": "叠加在左下照片上的浅绿色星星装饰组，大小不同的星形散布于杯盖周围与杯身上部，包括左侧小星、杯盖顶部星形、左右较大星形及杯身上的小星。各星之间留有透明间隙，整体保留，不包含下方摄影内容。"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        890,
+        199,
+        988,
+        320
+      ],
+      "description": "右上照片内的白色手绘闪光装饰组，由一个较大的空心四角闪光及左上、右下两个小十字闪光组成，带细微粉笔状边缘，整体作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_umbrella",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        783,
+        998,
+        1356
+      ],
+      "description": "右下白色雨伞与高音谱号组合插画，伞面呈圆拱形并带波浪状下沿，伞柄融合卷曲的高音谱号，表面具有浅蓝白色纸纹。上方和两侧分布多枚白色雨滴，雨滴、伞面与谱号共同构成完整装饰，覆盖河道摄影底图。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_right",
+    "photo_lower_left",
+    "overlay_tape",
+    "overlay_label_upper",
+    "overlay_label_lower",
+    "overlay_star_card",
+    "overlay_green_stars",
+    "overlay_sparkles",
+    "overlay_umbrella"
+  ]
+}

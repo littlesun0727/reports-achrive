@@ -1,0 +1,155 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_paper",
+    "description": "全画布连续的灰米色颗粒纸纹底图，带自然明暗变化、细小斑点及散布的浅黄色星星图案；纹理在四边和照片、文字之间连续可见。保留纸纹及背景印刷图案，清除另列的照片、文字和独立手绘装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        300,
+        171,
+        1030,
+        660
+      ],
+      "description": "上方横向室内照片，一名黑发女子坐在棕色皮椅上，正面看向镜头，穿蓝色条纹上衣，双手抬起扶住黑色格纹帽。左右有高大的绿植，后方为浅灰墙面，保留完整摄影环境。照片呈清晰矩形显示，人物下身在窗口下缘裁切，左上边缘被白色爪印装饰局部覆盖。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        152,
+        745,
+        597,
+        1339
+      ],
+      "description": "左下竖向室内照片，一名黑发女子坐在棕色皮椅上，穿蓝色条纹上衣，双手扶黑色格纹帽并正面看向镜头。上半部保留大片浅灰墙面，两侧可见绿植；人物位于下半部，身体在下缘裁切。完整矩形摄影环境保留，右下边缘有独立爪印叠盖，右侧箭头指向照片。"
+    },
+    {
+      "id": "overlay_paw_top",
+      "kind": "overlay",
+      "bbox": [
+        284,
+        142,
+        345,
+        203
+      ],
+      "description": "米白色实心爪印贴饰，由一个掌垫和四个趾垫组成，整体斜向排布，跨在上方照片左上角与纸底之间。"
+    },
+    {
+      "id": "overlay_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        113,
+        518,
+        251,
+        623
+      ],
+      "description": "左侧米白色手绘兔子脸装饰，包含不连续的脸部轮廓、长耳、眼睛与小嘴，所有笔画作为一个完整单元保留。"
+    },
+    {
+      "id": "overlay_arrow_top",
+      "kind": "overlay",
+      "bbox": [
+        701,
+        756,
+        756,
+        805
+      ],
+      "description": "文字上方的米白色弯曲手绘箭头，箭头朝左上，指向上方横向照片，保留箭身和箭头笔画。"
+    },
+    {
+      "id": "overlay_film",
+      "kind": "overlay",
+      "bbox": [
+        799,
+        899,
+        842,
+        939
+      ],
+      "description": "嵌在第二行文字中间的独立胶片卷小图标，呈米黄色卷曲胶片带，带深色边线和齿孔细节，不属于摄影内容。"
+    },
+    {
+      "id": "overlay_arrow_bottom",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        1223,
+        650,
+        1270
+      ],
+      "description": "右侧文字下方的米白色弯曲手绘箭头，朝左下指向竖向照片右侧的人物肩部，末端跨入照片显示区域。"
+    },
+    {
+      "id": "overlay_paw_bottom",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        1307,
+        623,
+        1362
+      ],
+      "description": "米白色实心爪印装饰，由掌垫和四个趾垫构成，斜向跨在下方照片右下角，部分覆盖照片，部分落在纸底上。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        929,
+        1264,
+        1024,
+        1357
+      ],
+      "description": "右下角米白色手绘猫脸装饰，含两只尖耳、断续脸部轮廓、眼睛、鼻嘴及短小点线，整体作为一个独立固定单元保留。"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        414,
+        77,
+        735,
+        134
+      ],
+      "text": "2025年2月11日",
+      "color": "#F8F7EF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_note",
+      "kind": "text",
+      "bbox": [
+        626,
+        840,
+        1035,
+        1239
+      ],
+      "text": "好久没和zxr见面了\n她用胶片机   给我拍了一张\n好看!没翻车!\n感觉竖屏会比横屏好看一点呢\n这家店环境还可以\n嘿嘿嘿还送了小食给我们\n就是离市区有点距离",
+      "color": "#F8F7EF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "text_date",
+    "text_note",
+    "overlay_paw_top",
+    "overlay_rabbit",
+    "overlay_arrow_top",
+    "overlay_film",
+    "overlay_arrow_bottom",
+    "overlay_paw_bottom",
+    "overlay_cat"
+  ]
+}

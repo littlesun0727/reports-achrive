@@ -1,0 +1,349 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布连续的暖棕色至浅米黄色纸质底图，带细密颗粒、斑点和零散淡黄色小星星。四边及照片间隙露出相同纸面，保留其颜色变化和印刷纹理；独立照片、文字及贴纸不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        108,
+        164,
+        702,
+        960
+      ],
+      "description": "左侧大幅双人近景自拍，两名长发女性戴草帽，左侧女性微笑，右侧女性嘟嘴并在脸旁比剪刀手。保留帽子、衣服和少量户外摄影环境，右侧帽上的蓝色布蝴蝶结随照片替换。照片下部被合照及下方拼贴遮挡，完整显示窗口不缩到人物轮廓。"
+    },
+    {
+      "id": "photo_museum",
+      "kind": "photo",
+      "bbox": [
+        714,
+        94,
+        1009,
+        488
+      ],
+      "description": "右上竖向博物馆照片，两名长发女性背对镜头站在玻璃展柜前，左侧人物抬手观看或拍摄。保留展柜、展品、说明墙、地面和室内照明，矩形照片上缘局部被狗头贴纸覆盖。"
+    },
+    {
+      "id": "photo_drawings",
+      "kind": "photo",
+      "bbox": [
+        690,
+        533,
+        971,
+        908
+      ],
+      "description": "右侧中部近景照片，两只手分别举着绘有双人头像的纸卡，背景为店内货架和陈列物，下方可见浅蓝色衣袖与手部饰品。纸卡及其图画属于实拍内容，与手和店内环境整体替换；上沿被白色爱心装饰局部覆盖。"
+    },
+    {
+      "id": "photo_lake",
+      "kind": "photo",
+      "bbox": [
+        163,
+        999,
+        612,
+        1297
+      ],
+      "description": "下方横向湖岸远景照片，两名女性分站画面左右，在石岸边伸展手臂摆姿势。保留蓝天、白云、远山、湖水、石块与草地，上部左侧被合照遮挡，右缘被射箭照片覆盖，左下角有独立小熊贴纸叠压。"
+    },
+    {
+      "id": "photo_archery",
+      "kind": "photo",
+      "bbox": [
+        609,
+        937,
+        926,
+        1359
+      ],
+      "description": "右下竖向室内射箭照片，两名长发女性背对镜头，分别站在标有15、14的靶位前举弓；左侧还露出16号靶位。保留墙面、靶位编号、弓具、地面与完整摄影环境，上方左角被猫贴纸覆盖，下部有独立涂鸦装饰。"
+    },
+    {
+      "id": "photo_group",
+      "kind": "photo",
+      "bbox": [
+        93,
+        809,
+        476,
+        1096
+      ],
+      "description": "左下局部横向室内活动合照，约七人围在桌旁，包括前方儿童、穿蓝衣的人及多名穿红色马甲的人。保留室内墙面、桌面和人物组合，数张脸被独立兔猫头像及心形贴纸遮挡，前方另叠有小花装饰。照片覆盖大幅自拍与湖岸照片的一部分。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        111,
+        690,
+        177
+      ],
+      "description": "顶部白色手写艺术字“我们有太多太多的一起……”；笔画粗细和各字位置不完全规则，右端带连续点状省略号，整体保留原有字形。"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        689,
+        74,
+        776,
+        156
+      ],
+      "description": "棕色圆脸小狗头贴纸，带下垂耳朵、黑色眼鼻及简短嘴部笔画，叠在博物馆照片左上角。"
+    },
+    {
+      "id": "overlay_blue_drops",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        433,
+        403,
+        488
+      ],
+      "description": "两枚相邻的蓝色水滴状卡通装饰，具有浅色高光，作为完整小装饰叠在自拍中两人之间。"
+    },
+    {
+      "id": "overlay_cupcake",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        591,
+        164,
+        663
+      ],
+      "description": "自拍左侧手臂附近的杯子蛋糕贴纸，含黄色纸杯、浅色奶油和顶部小点缀，完整保留其轮廓。"
+    },
+    {
+      "id": "overlay_white_hearts",
+      "kind": "overlay",
+      "bbox": [
+        831,
+        509,
+        987,
+        579
+      ],
+      "description": "三枚相邻的白色手绘空心爱心，大小与倾斜方向不同，组成一组装饰，横跨手持画像照片的上缘。"
+    },
+    {
+      "id": "overlay_picnic_caption",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        750,
+        443,
+        814
+      ],
+      "description": "深色手写字“一起去华南植物园野餐”，沿略有起伏和倾斜的路径排列，压在自拍与下方合照的交界处；保留原有独立字形和位置。"
+    },
+    {
+      "id": "overlay_broccoli",
+      "kind": "overlay",
+      "bbox": [
+        441,
+        766,
+        479,
+        809
+      ],
+      "description": "野餐字样右端的绿色西兰花小贴纸，带浅绿色茎与深浅变化的菜冠，独立于文字保留。"
+    },
+    {
+      "id": "overlay_museum_caption",
+      "kind": "overlay",
+      "bbox": [
+        1011,
+        199,
+        1051,
+        523
+      ],
+      "description": "博物馆照片右侧白色竖向手写字“一起去博物馆看罗马展”，各字沿窄长路径排列，上端带短横笔画，整体保留原字形和字距。"
+    },
+    {
+      "id": "overlay_drawing_caption",
+      "kind": "overlay",
+      "bbox": [
+        932,
+        610,
+        1049,
+        987
+      ],
+      "description": "画像照片右侧棕红色手写字“一起被画成彩色线条小人儿”，文字路径向左弯斜，下端延伸到射箭照片旁，保留不规则排列和原笔画。"
+    },
+    {
+      "id": "overlay_group_caption",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        1057,
+        367,
+        1160
+      ],
+      "description": "合照下方棕色弧形手写说明，可辨“一起去韶关社会实践”，后段小字不够清晰。字样跨越纸底与湖岸照片上部，整体保留，避免猜写模糊文字。"
+    },
+    {
+      "id": "overlay_lake_caption",
+      "kind": "overlay",
+      "bbox": [
+        292,
+        1297,
+        617,
+        1366
+      ],
+      "description": "湖岸照片下方深色手写字，末段可辨“大湖跳love”，前段以“一起在”开头，中间地名不够清晰。字词沿向右上扬的路径排列，保留整体字形及原位置。"
+    },
+    {
+      "id": "overlay_archery_caption",
+      "kind": "overlay",
+      "bbox": [
+        932,
+        1040,
+        980,
+        1418
+      ],
+      "description": "射箭照片右侧棕红色竖向手写说明，可辨“一起射箭”“即使箭都拿不稳”等字样，局部小字不清晰。保留整段不规则手写字及上端短横笔画。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        855,
+        736,
+        1001
+      ],
+      "description": "米灰色坐姿猫贴纸，带竖耳、黄色眼睛、粉色鼻口、身上短线纹和向右弯曲的尾巴，叠在自拍右下及射箭照片左上交界处。"
+    },
+    {
+      "id": "overlay_teddy",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        1223,
+        221,
+        1337
+      ],
+      "description": "左下黄色坐姿小熊贴纸，手边带红白小物件，脚掌有深色肉垫，覆盖湖岸照片左下角及周围纸底。"
+    },
+    {
+      "id": "overlay_group_rabbit_top",
+      "kind": "overlay",
+      "bbox": [
+        149,
+        811,
+        225,
+        888
+      ],
+      "description": "合照上方左侧的灰白兔头贴纸，长耳带粉色内耳，覆盖一名穿红黑衣服人物的脸部。"
+    },
+    {
+      "id": "overlay_group_cat_left",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        901,
+        181,
+        983
+      ],
+      "description": "合照左侧灰白猫头贴纸，带粉色耳鼻及细胡须，覆盖前排蓝衣人物的脸部。"
+    },
+    {
+      "id": "overlay_group_heart_left",
+      "kind": "overlay",
+      "bbox": [
+        214,
+        880,
+        261,
+        929
+      ],
+      "description": "合照中后排偏左的浅紫蓝色心形贴纸，带较深色边缘，覆盖一名蓝衣人物的脸部。"
+    },
+    {
+      "id": "overlay_group_heart_center",
+      "kind": "overlay",
+      "bbox": [
+        276,
+        867,
+        329,
+        918
+      ],
+      "description": "合照中后排中央的粉色心形贴纸，覆盖红色马甲人物的脸部，独立于旁边心形保留。"
+    },
+    {
+      "id": "overlay_group_rabbit_front",
+      "kind": "overlay",
+      "bbox": [
+        236,
+        927,
+        306,
+        994
+      ],
+      "description": "合照前方儿童脸部的白色卡通兔头像贴纸，带粉色耳部和红粉色装饰，完整覆盖原脸部。"
+    },
+    {
+      "id": "overlay_group_flower",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        1008,
+        309,
+        1049
+      ],
+      "description": "合照前方儿童手臂附近的小花贴纸，黄色花瓣围绕深色笑脸花心，独立叠在摄影内容上。"
+    },
+    {
+      "id": "overlay_pink_bag",
+      "kind": "overlay",
+      "bbox": [
+        749,
+        1238,
+        801,
+        1282
+      ],
+      "description": "射箭照片下部两人之间的粉色小包涂鸦，带深色轮廓、提手和内部短线，作为独立固定图案保留。"
+    },
+    {
+      "id": "overlay_archery_doodle",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        1248,
+        671,
+        1314
+      ],
+      "description": "射箭照片左下的小型灰黑手写字与红色笔画组合，可辨类似“绝”字，其余笔画不清晰；作为完整涂鸦装饰保留，不拆写或猜补内容。"
+    }
+  ],
+  "layer_order": [
+    "photo_selfie",
+    "photo_museum",
+    "photo_drawings",
+    "photo_lake",
+    "photo_archery",
+    "photo_group",
+    "overlay_title",
+    "overlay_dog",
+    "overlay_blue_drops",
+    "overlay_cupcake",
+    "overlay_white_hearts",
+    "overlay_picnic_caption",
+    "overlay_broccoli",
+    "overlay_museum_caption",
+    "overlay_drawing_caption",
+    "overlay_group_caption",
+    "overlay_lake_caption",
+    "overlay_archery_caption",
+    "overlay_cat",
+    "overlay_teddy",
+    "overlay_group_rabbit_top",
+    "overlay_group_cat_left",
+    "overlay_group_heart_left",
+    "overlay_group_heart_center",
+    "overlay_group_rabbit_front",
+    "overlay_group_flower",
+    "overlay_pink_bag",
+    "overlay_archery_doodle"
+  ]
+}

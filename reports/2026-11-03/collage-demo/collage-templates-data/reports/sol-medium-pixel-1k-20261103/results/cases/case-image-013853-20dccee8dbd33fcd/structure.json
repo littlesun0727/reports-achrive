@@ -1,0 +1,80 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "frame_purple",
+      "kind": "frame",
+      "bbox": [
+        427,
+        190,
+        983,
+        865
+      ],
+      "description": "右侧紫色纹理相纸框，左右及顶部边缘较窄，下方留有宽幅紫色纸面。保留细密压纹、纸边及右侧和底部投影；承载一个近方形照片窗口，照片覆盖在纸面上。",
+      "photo_id": [
+        "photo_food"
+      ]
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        463,
+        228,
+        943,
+        722
+      ],
+      "description": "俯拍餐桌食物照片，无人物。中央是一张放在棕色垫纸和圆盘上的金黄色煎饼，带红绿椒圈；四周可见小菜碗、木桌、印刷餐垫，底部露出深色餐具与勺子。保留整个摄影环境，完整显示范围为近方形窗口，边缘略有倾斜，没有沿食物轮廓去背景。"
+    },
+    {
+      "id": "overlay_hello",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        159,
+        401,
+        305
+      ],
+      "description": "左上方黑色空心手绘“Hello!”艺术字，白色内部与画布相融。各字母大小、位置和倾角不一致，整组向右上方扬起；保留不规则轮廓及感叹号，作为完整独立装饰。"
+    },
+    {
+      "id": "overlay_08",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        411,
+        338,
+        581
+      ],
+      "description": "左侧中部大型黑色手绘数字“08”，两个数字以粗墨线构成，边缘有明显不规则笔触和粗细变化，内部留白。保留整组数字的特定笔画造型。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        66,
+        908,
+        815,
+        970
+      ],
+      "text": "“吃的是卡路里，长的是美貌”",
+      "color": "#000000",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_purple",
+    "photo_food",
+    "overlay_hello",
+    "overlay_08",
+    "text_quote"
+  ]
+}

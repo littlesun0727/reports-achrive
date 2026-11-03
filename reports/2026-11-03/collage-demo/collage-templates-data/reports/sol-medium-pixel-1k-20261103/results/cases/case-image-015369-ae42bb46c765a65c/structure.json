@@ -1,0 +1,181 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布为连续的米白色粗纤维纸底，带细微凹凸纸纹、零散褐色纤维斑点及下部横向折痕。四边和照片之间均露出相同纸面；保留纸底纹理，独立照片、相纸框、贴纸和花卉装饰不归入底图。"
+  },
+  "objects": [
+    {
+      "id": "yellow_paper",
+      "kind": "overlay",
+      "bbox": [
+        384,
+        604,
+        563,
+        784
+      ],
+      "description": "浅黄色半透明方形纸片，保留细微纸面质感；左上部分被左侧照片卡遮住，右下部分被下方照片卡遮住，不承担照片窗口功能。"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        117,
+        283,
+        443,
+        681
+      ],
+      "description": "左上大型白色相纸卡，完整保留白色纸边及轻微明暗质感，左右留白不等，内口承载一张竖向婚礼照片，下沿与照片内口接近。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        177,
+        297,
+        419,
+        679
+      ],
+      "description": "竖向婚礼双人照片：黑色西装男子位于左侧前景，穿白色婚纱的女子站在右侧较远处，均回望镜头。保留白色连续拱廊、台阶、植物和顶部蓝天，显示窗口为完整竖向矩形，人物没有沿轮廓去背景。"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        506,
+        328,
+        681,
+        535
+      ],
+      "description": "上方小型白色相纸框，围绕单张照片形成矩形内口，底部白边明显宽于顶部，保留整张相纸及淡淡边缘阴影。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        516,
+        345,
+        669,
+        499
+      ],
+      "description": "近方形单人婚礼照片，长发女子穿白色礼服站在中央偏右，手靠近脸侧；保留左侧灌木、右侧建筑立面及暗色通道环境，照片按矩形窗口显示，没有主体轮廓去背景。"
+    },
+    {
+      "id": "headphones",
+      "kind": "overlay",
+      "bbox": [
+        719,
+        319,
+        831,
+        458
+      ],
+      "description": "独立白色头戴式耳机装饰，完整包含弧形头梁、两侧连接结构和左右耳罩，带灰色细节与柔和阴影，内部空隙透出纸底。"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        779,
+        477,
+        984,
+        746
+      ],
+      "description": "右侧白色竖向相纸卡，左边留白较宽，其他边缘较窄，完整保留纸卡边角与纸面明暗，承载一张婚礼双人照片。",
+      "photo_id": [
+        "photo_right"
+      ]
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        814,
+        489,
+        969,
+        733
+      ],
+      "description": "竖向婚礼合照，黑色西装男子和白色婚纱女子位于下半部并肩站立，女子裙摆向右展开。保留白色现代建筑、玻璃门窗、台阶和两侧植物；中央人物局部被粉色囍字装饰遮挡，照片背景仍完整保留。"
+    },
+    {
+      "id": "double_happiness_right",
+      "kind": "overlay",
+      "bbox": [
+        854,
+        630,
+        926,
+        699
+      ],
+      "description": "覆盖右侧婚礼照片人物躯干的粉色“囍”字装饰，字形略倾斜，具有圆润而不规则的笔画和镂空间隙；作为完整固定字形保留，不拆成普通文字。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        452,
+        702,
+        758,
+        1088
+      ],
+      "description": "下方大型白色竖向相纸卡，左侧白边明显较宽，其余边缘较窄，保留完整纸卡和边缘轻微阴影，压在黄色纸片的右下部分之上。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        508,
+        715,
+        735,
+        1074
+      ],
+      "description": "竖向婚礼多人全身合照，约八人聚集在建筑前，新娘及浅色长裙女子位于前排两侧，深色礼服人物位于中后部。上方有粉色心形气球，气球上的手写内容属于摄影场景；保留建筑窗洞、墙面和地面，中央人物局部被粉色囍字遮住。"
+    },
+    {
+      "id": "double_happiness_bottom",
+      "kind": "overlay",
+      "bbox": [
+        603,
+        929,
+        678,
+        1013
+      ],
+      "description": "叠在下方合照中央的粉色“囍”字装饰，圆润笔画形成完整独立字形，覆盖人物部分躯干和裙装；保留原有字形及镂空，不作为普通字体文字重排。"
+    },
+    {
+      "id": "white_flower",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        981,
+        441,
+        1440
+      ],
+      "description": "左下角大型白色花卉线描装饰，完整包含展开的花瓣轮廓、向上伸出的花蕊、细长花茎及底部两侧较实的白色叶片。细线与局部实白笔触共同构成一个单元，花茎下端被画布底边裁切，空隙透出纸底。"
+    }
+  ],
+  "layer_order": [
+    "yellow_paper",
+    "frame_left",
+    "photo_left",
+    "frame_top",
+    "photo_top",
+    "headphones",
+    "frame_right",
+    "photo_right",
+    "double_happiness_right",
+    "frame_bottom",
+    "photo_bottom",
+    "double_happiness_bottom",
+    "white_flower"
+  ]
+}

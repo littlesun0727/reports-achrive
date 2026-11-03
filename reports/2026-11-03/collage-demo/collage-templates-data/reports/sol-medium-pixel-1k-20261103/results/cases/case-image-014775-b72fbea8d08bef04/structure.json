@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅蓝色皱纹纸底连续覆盖全画布，在顶部、照片间隙和底部露出一致的纤维、褶皱与明暗纹理。保留纸底原样，独立摄影素材、网点装饰和文字均不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_halftone",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        166,
+        1080,
+        662
+      ],
+      "description": "横跨画面中上部的白底蓝色细密网点装饰，具有不规则起伏边缘，右侧向上隆起至画布边缘，左侧大部分被灯塔遮挡，下部被城市照片遮挡。白底、网点及完整不规则轮廓作为同一固定设计保留。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        307,
+        18,
+        828,
+        320
+      ],
+      "description": "顶部标题组合“珠海日记”和“Zhuhai Diary”。中文采用大小错落、位置与角度各异的细长字形，“海”为蓝色，其余为白色；蓝色英文手写字横跨中文下部。保留整组特定字形、笔画、相对位置及交叠关系。"
+    },
+    {
+      "id": "photo_city_sea",
+      "kind": "photo",
+      "bbox": [
+        0,
+        414,
+        1080,
+        1082
+      ],
+      "description": "中部海滨城市摄影组合：蓝色海水占下半部，横向桥梁、远处树林与建筑位于岸线，中央有红色楼阁及巨大的白色贝壳形建筑。上缘沿建筑与岸线外形显示，摄影天空不见，贝壳形建筑外缘有白色描边；海水环境保留。左部被灯塔、右部被雕像、下部被步道遮挡，同一海面向两侧延续，被遮挡部分的具体内容无法确认。"
+    },
+    {
+      "id": "photo_lighthouse",
+      "kind": "photo",
+      "bbox": [
+        0,
+        82,
+        317,
+        946
+      ],
+      "description": "左侧大型白色灯塔近景，深蓝色尖顶、环形栏杆、窗洞和底部入口完整组成一个主体，左侧部分被画布裁切。沿灯塔外轮廓去除摄影环境，外侧附有宽浅蓝色描边；塔身及其原有标牌随照片替换。底部被前方步道照片遮挡。"
+    },
+    {
+      "id": "photo_upper_bird",
+      "kind": "photo",
+      "bbox": [
+        429,
+        329,
+        594,
+        484
+      ],
+      "description": "标题下方一只飞翔海鸟，白色身体、灰色羽翼及两条腿可见，一侧翅膀向上伸展，另一侧向右展开。沿完整鸟身与双翼轮廓去除摄影背景，外围带浅白色宽描边，独立叠在纸底上。"
+    },
+    {
+      "id": "photo_statue",
+      "kind": "photo",
+      "bbox": [
+        781,
+        493,
+        1080,
+        1279
+      ],
+      "description": "右侧金黄色女性雕像全身摄影，双手高举珠状物，长裙下接大块礁石基座，雕像与礁石为同一主体组合。沿组合外轮廓去除原摄影背景并带白色宽描边，右侧礁石被画布截断。下部礁石被前方步道及栏杆遮挡，部分仍从栏杆空隙后露出。"
+    },
+    {
+      "id": "photo_lower_bird",
+      "kind": "photo",
+      "bbox": [
+        592,
+        797,
+        690,
+        902
+      ],
+      "description": "海面中央偏右的一只小型飞翔海鸟，一翼上举、一翼向右伸展，身体和下垂的腿清晰可见。摄影背景沿鸟身轮廓去除，完整鸟形外围带白色宽描边，叠在蓝色海水上，与上方海鸟为独立显示位置。"
+    },
+    {
+      "id": "photo_promenade",
+      "kind": "photo",
+      "bbox": [
+        0,
+        933,
+        1080,
+        1411
+      ],
+      "description": "下部横跨画布的海滨步道照片，灰色砖铺路面从左侧向右下延伸，黄线沿左侧弯曲，石质栏杆由远到近横贯画面。保留路面和栏杆摄影内容，沿上缘栏杆及其空隙去除原背景，外缘带白色描边；底边呈不规则白色纸边状轮廓。覆盖海面和雕像基座，前方自行车及贝壳又遮住局部。"
+    },
+    {
+      "id": "photo_bicycle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1015,
+        414,
+        1453
+      ],
+      "description": "左下黄色共享自行车侧面近景，车头朝右，包含黑色车把、车筐、坐垫、黄色车架及双轮，左侧少量轮廓被画布裁切。沿整辆自行车轮廓去除摄影背景，外围带宽白色描边，叠在步道及底部蓝色纸底上。"
+    },
+    {
+      "id": "photo_shells",
+      "kind": "photo",
+      "bbox": [
+        807,
+        1294,
+        1056,
+        1515
+      ],
+      "description": "右下两枚贝壳组成的摄影单元：上方为较大的棕白相间螺壳，下方偏左为浅灰白色圆形贝壳，两者局部交叠。保留真实纹理与光影，沿完整贝壳组合去除摄影背景，外围有宽白色描边，覆盖步道下缘及蓝色纸底。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        26,
+        1436,
+        272,
+        1507
+      ],
+      "text": "The blue sky, white clouds,\nand gentle sea breeze\nare the hallmarks of Zhuhai.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    }
+  ],
+  "layer_order": [
+    "overlay_halftone",
+    "photo_city_sea",
+    "photo_lighthouse",
+    "photo_statue",
+    "photo_upper_bird",
+    "photo_lower_bird",
+    "photo_promenade",
+    "photo_bicycle",
+    "photo_shells",
+    "overlay_title",
+    "text_caption"
+  ]
+}

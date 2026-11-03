@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_landscape_base",
+    "description": "连续的米白色旧纸纹理、左侧深色点描树影和下方点描草地构成固定全画布底图，纸张与景观纹理延伸至四边；人物照片独立叠加替换，底图原样保留。"
+  },
+  "objects": [
+    {
+      "id": "overlay_yellow_lines",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        890,
+        875,
+        997
+      ],
+      "description": "横贯画面中部的黄色水平线及向右下方延伸的弧形细线，作为独立固定图形保留；线条在人物后方被遮挡，右侧继续显露。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        88,
+        664,
+        481,
+        1619
+      ],
+      "description": "单人全身偏侧面人物抠图：女性戴草帽、面向右侧，长发垂落，穿浅色背心和深色长裙，手部交叠于身前，身侧有包和小熊挂件；人物下部延伸出画布底边。摄影背景未保留，沿完整人物、帽子、头发、手臂、包和裙摆轮廓显示，并遮挡后方点描草地与黄色线条。"
+    },
+    {
+      "id": "text_looking_past_green",
+      "kind": "text",
+      "bbox": [
+        754,
+        882,
+        914,
+        897
+      ],
+      "text": "LOOKING PAST GREEN",
+      "color": "#4A4137",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_yellow_lines",
+    "photo_woman",
+    "text_looking_past_green"
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "gradient_background",
+    "description": "连续的深炭灰至浅灰白纵向渐变铺满画布，照片、文字与贴纸之间及四周均露出相同渐变；保留渐变底图，独立照片与装饰另行替换或重建。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        79,
+        172,
+        676,
+        771
+      ],
+      "description": "左上方水平矩形近景自拍，一名长发女性俯身将手臂置于下巴前，面向镜头，头发部分遮住脸部；保留室内浅色背景及完整照片窗口。"
+    },
+    {
+      "id": "photo_bedroom",
+      "kind": "photo",
+      "bbox": [
+        401,
+        917,
+        949,
+        1457
+      ],
+      "description": "右下方近方形卧室静物照片，白色点纹被褥、棕色泰迪熊、浅蓝床单、笔记本、桃子和耳机共同构成摄影画面；保留完整照片环境与矩形窗口。"
+    },
+    {
+      "id": "overlay_bows",
+      "kind": "overlay",
+      "bbox": [
+        253,
+        149,
+        508,
+        193
+      ],
+      "description": "沿上方人像照片顶部排列的白色手绘装饰，由三个小圆点和三个蝴蝶结组成，整体作为一组固定贴纸保留，部分压在照片上缘。"
+    },
+    {
+      "id": "overlay_star_left_photo",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        343,
+        119,
+        423
+      ],
+      "description": "白色实心手绘五角星，贴在左侧并覆盖人像照片左边缘，完整星形作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        207,
+        841,
+        256
+      ],
+      "description": "画布上方偏右的小型白色发光实心五角星，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_outline",
+      "kind": "overlay",
+      "bbox": [
+        876,
+        284,
+        931,
+        337
+      ],
+      "description": "右上方细线勾勒的空心五角星，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        721,
+        347,
+        820,
+        451
+      ],
+      "description": "右上区域较大的白色实心手绘五角星，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_mid_left",
+      "kind": "overlay",
+      "bbox": [
+        231,
+        844,
+        295,
+        905
+      ],
+      "description": "画布中部偏左的小型白色实心手绘五角星，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_right_mid",
+      "kind": "overlay",
+      "bbox": [
+        838,
+        790,
+        942,
+        887
+      ],
+      "description": "第二张照片上方偏右的大型白色实心手绘五角星，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        694,
+        870,
+        790,
+        991
+      ],
+      "description": "第二张照片上缘附近的白色手绘回形针轮廓，斜向压在照片顶部，作为完整独立贴纸保留。"
+    },
+    {
+      "id": "overlay_cloud_rain",
+      "kind": "overlay",
+      "bbox": [
+        272,
+        982,
+        338,
+        1029
+      ],
+      "description": "文字上方的小型云朵表情贴纸，带眼睛及浅蓝色雨滴，整体作为一枚独立装饰保留。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        60,
+        1071,
+        377,
+        1108
+      ],
+      "text": "Cherish the moment",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        161,
+        1238,
+        230,
+        1302
+      ],
+      "description": "画布左下区域的白色实心手绘五角星，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        1495,
+        660,
+        1597
+      ],
+      "description": "画布底部偏左的大型白色实心手绘五角星，完整显示至画布下缘附近，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "photo_bedroom",
+    "overlay_bows",
+    "overlay_star_left_photo",
+    "overlay_star_top",
+    "overlay_star_outline",
+    "overlay_star_right_upper",
+    "overlay_star_mid_left",
+    "overlay_star_right_mid",
+    "overlay_paperclip",
+    "overlay_cloud_rain",
+    "text_caption",
+    "overlay_star_left_lower",
+    "overlay_star_bottom"
+  ]
+}

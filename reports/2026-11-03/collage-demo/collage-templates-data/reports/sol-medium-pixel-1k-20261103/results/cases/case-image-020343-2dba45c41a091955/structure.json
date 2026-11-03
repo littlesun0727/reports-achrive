@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_field",
+    "description": "蓝天、云层与盛开的花田构成延伸至画布四边的连续摄影底图；右侧和底部露出的花田及顶部天空显示底图范围，左侧大幅矩形人物照片遮挡其部分区域。保留并替换整幅花田环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        0,
+        80,
+        808,
+        1268
+      ],
+      "description": "左侧大幅竖向矩形照片，包含一名戴太阳镜、穿白色连衣裙的女性坐在花田中的全身至膝上景象，人物面向镜头微笑，身旁有棕色手提包；花田、天空和地面均保留在照片内。照片硬边界在右侧及下方清晰可见，覆盖底层花田摄影画面。"
+    },
+    {
+      "id": "overlay_headline",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        132,
+        797,
+        277
+      ],
+      "description": "两行白色粗体中文艺术字，带橙红色描边和轻微阴影，横跨上方天空区域并略延伸至右侧底图上；字形和描边共同构成独立标题设计。可辨文字为“杂志风Ins排版，左划看我轻松拿下！”。"
+    },
+    {
+      "id": "overlay_emoji",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        209,
+        899,
+        273
+      ],
+      "description": "黄色圆形戴眼镜笑脸表情图标，独立位于标题右侧的天空与花田区域。"
+    }
+  ],
+  "layer_order": [
+    "photo_woman",
+    "overlay_headline",
+    "overlay_emoji"
+  ]
+}

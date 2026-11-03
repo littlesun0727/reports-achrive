@@ -1,0 +1,187 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#9E3030"
+      }
+    },
+    {
+      "id": "photo_waterfront",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        681
+      ],
+      "description": "上半幅横向水岸风景照片，无突出人物主体。前景为水面及红色浮标，中景为亮灯的商业建筑和岸边步道，远处斜拉桥与阴天天空连续可见。照片左右及上沿抵达画布边缘，下沿在红色设计区域上方平直结束，摄影环境完整保留。",
+      "label": "上半幅横向水岸风景照片，无突出人物主体。前景为水面及红色浮标",
+      "method": "local"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        161,
+        749,
+        917,
+        1348
+      ],
+      "description": "下半幅白色拍立得式相纸载体，四角略有切角，底边宽于其余边，带轻微纸面质感和阴影。单一内口约为[196,803,884,1237]，内部暗红承托底色随载体保留；左下夜景照片置于内口中，其他人物与装饰分别叠放，不拆出额外框体。",
+      "photo_id": [
+        "photo_night_sign"
+      ],
+      "label": "下半幅白色拍立得式相纸载体，四角略有切角，底边宽于其余边，带",
+      "method": "extract"
+    },
+    {
+      "id": "photo_night_sign",
+      "kind": "photo",
+      "bbox": [
+        196,
+        923,
+        483,
+        1237
+      ],
+      "description": "相纸内口左下的夜景照片，主体为红色发光的立体英文招牌，可辨部分字样为“Studio”，下方仍保留黑暗建筑、灯带等摄影环境。上方沿招牌轮廓独立显露并有白色轮廓线，左边与下边截于内口边界，右侧被中央大人物遮挡。招牌文字属于摄影内容。",
+      "label": "相纸内口左下的夜景照片，主体为红色发光的立体英文招牌，可辨部",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_woman",
+      "kind": "photo",
+      "bbox": [
+        256,
+        1077,
+        375,
+        1237
+      ],
+      "description": "左下小幅女性人物，黑色长发，穿深色无袖上衣，面向镜头，一手抬至肩旁作手势。人物沿外轮廓去除背景，外侧有白色描边，叠在夜景招牌前；下半身在相纸内口底边处截断，与中央人物姿态不同，作为独立照片替换。",
+      "label": "左下小幅女性人物，黑色长发，穿深色无袖上衣，面向镜头，一手抬",
+      "method": "local"
+    },
+    {
+      "id": "overlay_large_mushroom",
+      "kind": "overlay",
+      "bbox": [
+        701,
+        1015,
+        884,
+        1237
+      ],
+      "description": "内口右下的大型红色蘑菇帽装饰，保留白色椭圆斑点、明暗质感及浅色轮廓边。右侧和下侧被相纸内口边界截断，上部局部被跳跃人物遮住；属于固定图形，不与人物照片合并。",
+      "label": "内口右下的大型红色蘑菇帽装饰，保留白色椭圆斑点、明暗质感及浅",
+      "method": "extract"
+    },
+    {
+      "id": "photo_center_woman",
+      "kind": "photo",
+      "bbox": [
+        446,
+        904,
+        681,
+        1237
+      ],
+      "description": "内口中央偏右的大幅女性半身近景，黑色长发，戴红白蘑菇造型帽，穿深紫色无袖上衣，肩侧带包带，正面朝向镜头、嘴微张。帽子、人物及随身物件共同沿主体组合轮廓去背景，并有白色描边；覆盖左侧招牌局部，身体下沿被内口底边裁切。",
+      "label": "内口中央偏右的大幅女性半身近景，黑色长发，戴红白蘑菇造型帽，",
+      "method": "local"
+    },
+    {
+      "id": "photo_jumping_woman",
+      "kind": "photo",
+      "bbox": [
+        699,
+        933,
+        843,
+        1130
+      ],
+      "description": "内口右上小幅女性跳跃照片，穿深色无袖上衣与黑色长裤，侧身朝左，一臂向上举起，另一臂向右伸展，双腿屈起。沿完整人物轮廓去背景，保留白色描边；位于大型红色蘑菇装饰前，抬起的手靠近上方问号方块。与其余人物姿态不连续，不建立出框关联。",
+      "label": "内口右上小幅女性跳跃照片，穿深色无袖上衣与黑色长裤，侧身朝左",
+      "method": "local"
+    },
+    {
+      "id": "overlay_question_block",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        824,
+        777,
+        937
+      ],
+      "description": "黄色游戏问号方块贴纸，带立体厚度、角部铆钉、明暗面和中央浅黄色问号，外侧包有白色轮廓。位于右上跳跃人物举起的手上方，作为独立固定装饰保留。",
+      "label": "黄色游戏问号方块贴纸，带立体厚度、角部铆钉、明暗面和中央浅黄",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_small_mushroom",
+      "kind": "overlay",
+      "bbox": [
+        223,
+        842,
+        283,
+        900
+      ],
+      "description": "标题左侧的小型红白蘑菇图标，包含红色白斑帽顶、浅色短柄及立体明暗，完整作为一个固定装饰保留。",
+      "label": "标题左侧的小型红白蘑菇图标，包含红色白斑帽顶、浅色短柄及立体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_osaka_title",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        840,
+        652,
+        897
+      ],
+      "description": "白色像素式标题“Osaka USJ”，横向排列，字形由阶梯状方块笔画构成。保留特定像素轮廓、大小写和词间间隔，作为完整艺术字装饰，不拆成普通字体文字。",
+      "label": "白色像素式标题“Osaka USJ”，横向排列，字形由阶梯状",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1413,
+        1071,
+        1433
+      ],
+      "description": "画布右下角极小的半透明浅色圆角水印标识，包含外轮廓和内部难以辨清的小字，整体保留。",
+      "label": "画布右下角极小的半透明浅色圆角水印标识，包含外轮廓和内部难以",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_waterfront",
+    "frame_polaroid",
+    "photo_night_sign",
+    "photo_small_woman",
+    "overlay_large_mushroom",
+    "photo_center_woman",
+    "photo_jumping_woman",
+    "overlay_question_block",
+    "overlay_small_mushroom",
+    "overlay_osaka_title",
+    "overlay_watermark"
+  ]
+}

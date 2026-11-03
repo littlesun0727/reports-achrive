@@ -1,0 +1,132 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    972,
+    1619
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        972,
+        1619
+      ],
+      "description": "覆盖全画布的浅米黄色旧纸底，具有连续的纤维纹理、细小斑点及轻微深浅变化，四边和各设计单元之间均可见同一纸质底面。保留纸底原貌，独立清除照片、撕纸框、道路插画、蓝色图案和文字。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的浅米黄色旧纸底，具有连续的纤维纹理、细小斑点及轻",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_road",
+      "kind": "overlay",
+      "bbox": [
+        331,
+        480,
+        705,
+        826
+      ],
+      "description": "灰褐色细线手绘道路插画，弯曲的道路从照片上缘向上延伸，再向右侧远处收窄；包含道路两侧线条、断续中线、沿路小灌木及短横线。完整插画作为一个固定单元保留，下端被照片及撕纸边缘遮挡。",
+      "label": "灰褐色细线手绘道路插画，弯曲的道路从照片上缘向上延伸，再向右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_rays",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1008,
+        311,
+        1393
+      ],
+      "description": "从画布左边伸入的蓝色放射状印刷图案，由宽窄不一的斜向条带、浅色间隙和密集颗粒磨损纹理组成。各条带共同构成一个固定图案，左端被画布裁切，右端被照片及其撕纸边缘遮挡。",
+      "label": "从画布左边伸入的蓝色放射状印刷图案，由宽窄不一的斜向条带、浅",
+      "method": "extract"
+    },
+    {
+      "id": "photo_coastal_road",
+      "kind": "photo",
+      "bbox": [
+        282,
+        779,
+        930,
+        1421
+      ],
+      "description": "单张海滨街道风景照片，前景沥青道路由下方向中央海岸延伸，右下有白色汽车，远处还有车辆；左侧可见房屋、路灯和数名小比例行人，右侧有草地、树木及围栏。中远景是沙滩、白色海浪、蓝色海面、绿色丘陵和天空，摄影环境完整保留。照片以不规则撕纸形内口显示，边缘受浅色纤维纸框遮挡，没有沿人物轮廓去背景。",
+      "label": "单张海滨街道风景照片，前景沥青道路由下方向中央海岸延伸，右下",
+      "method": "local"
+    },
+    {
+      "id": "frame_torn_paper",
+      "kind": "frame",
+      "bbox": [
+        264,
+        768,
+        945,
+        1437
+      ],
+      "description": "围绕单张海滨照片的浅米色撕纸框，整体呈倾斜的不规则四边形，上边向右下倾斜，底边弯曲下落。框沿具有真实纸纤维、毛糙裂口、浅色厚度及细微阴影，属于需保留的固定纸质窗口，并非单纯轮廓描边；覆盖照片四周，也压住蓝色图案和道路插画下端。",
+      "photo_id": [
+        "photo_coastal_road"
+      ],
+      "label": "围绕单张海滨照片的浅米色撕纸框，整体呈倾斜的不规则四边形，上",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        177,
+        1359,
+        370,
+        1382
+      ],
+      "description": "STREET TO SEA",
+      "label": "STREET TO SEA",
+      "method": "local",
+      "text": "STREET TO SEA",
+      "text_status": "known",
+      "style": {
+        "fill": "#514A3D",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_archive",
+      "kind": "text",
+      "bbox": [
+        624,
+        1469,
+        805,
+        1505
+      ],
+      "description": "Archive  No. 27-6-85\nCoastal Roads Series",
+      "label": "Archive  No. 27-6-85\nCoastal R",
+      "method": "local",
+      "text": "Archive  No. 27-6-85\nCoastal Roads Series",
+      "text_status": "known",
+      "style": {
+        "fill": "#514A3D",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "overlay_road",
+    "overlay_blue_rays",
+    "photo_coastal_road",
+    "frame_torn_paper",
+    "text_title",
+    "text_archive"
+  ]
+}

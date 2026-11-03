@@ -1,0 +1,197 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_surface",
+    "description": "全画布为红褐色至浅粉灰色的细颗粒纹理台面，上部较深、下部较浅，散布浅金色小星星。台面在画布四边及相纸间隙连续可见，作为固定实拍模板底图保留；两张相纸、内口照片、持握的手、独立白色涂鸦和文字不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        122,
+        24,
+        929,
+        642
+      ],
+      "description": "上方略向右下倾斜的白色拍立得相纸，保留纸面细纹、厚度、边缘与阴影。底部宽白边有黑色手写日期，可见“2024年12月”，后续字迹被下方相纸遮住；字迹属于相纸。左边部分被持握的手遮挡，底部被下方相纸覆盖。",
+      "photo_id": [
+        "photo_top"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        154,
+        81,
+        891,
+        562
+      ],
+      "description": "上方相纸内的六位女性合影，前后三人两排，正面朝向镜头，佩戴卡通头饰并持玩偶和串状道具。背景包含橙红色书法条幅、折叠装饰及左侧卡通陈设，完整保留摄影环境。照片随相纸倾斜显示，人物及道具均限于内口，无连续出框；下缘局部被下方相纸遮挡。"
+    },
+    {
+      "id": "hand_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        303,
+        241,
+        782
+      ],
+      "description": "左侧持握上方相纸的实拍手部，包含从画布左边伸入的手指、拇指及灰粉渐变的长尖指甲，指甲带小颗金属装饰。按完整可见轮廓保留皮肤、甲面反光与阴影；拇指压住上方相纸左边，其他部分在相纸后方露出，不包含照片中的卡通物件。"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        67,
+        549,
+        966,
+        1296
+      ],
+      "description": "下方逆向倾斜的白色拍立得相纸，覆盖上方相纸下缘，具有细颗粒纸纹、厚白边及投影。底部宽白边的黄绿色手写“2024.9.6 南阳.”随相纸保留。内口照片独立替换，纸边上另贴的纸飞机、星形和纸杯蛋糕装饰不并入框体。",
+      "photo_id": [
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        108,
+        610,
+        922,
+        1176
+      ],
+      "description": "下方相纸内的六位女性合影，前景三人、后方三人，朝镜头站坐组合，佩戴帽子、眼镜及卡通头饰，手持玩偶。背景是密集的卡通图案墙和右上大型黄色、红蓝色玩偶，完整保留摄影环境。照片按倾斜的四边形内口显示，所有人物及玩偶均在窗口内，边缘局部由相纸和贴纸覆盖。"
+    },
+    {
+      "id": "overlay_plane",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        666,
+        186,
+        751
+      ],
+      "description": "贴在下方相纸左上边的纸飞机贴纸，浅蓝色飞机图案、棕红色轮廓和半透明浅色外缘作为完整单元保留，跨越白色纸边与照片内口。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        172,
+        1108,
+        236,
+        1207
+      ],
+      "description": "下方相纸左下照片边缘的细长四角星贴纸，金棕色描线、浅色内面及透明外缘整体保留；部分被前方持握的拇指遮挡。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        1040,
+        907,
+        1134
+      ],
+      "description": "贴在下方相纸右下内口边缘的四角星装饰，金棕色轮廓、浅色内面、透明外缘与轻微阴影整体保留，跨过照片与白色纸边。"
+    },
+    {
+      "id": "overlay_cupcake",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        1089,
+        818,
+        1213
+      ],
+      "description": "下方相纸底部偏右的纸杯蛋糕贴纸，蓝色轮廓、白色糖霜、蓝色星星与短条点缀、粉红色杯身及透明外缘构成一个完整装饰，压在照片下缘与宽白边上。"
+    },
+    {
+      "id": "hand_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        939,
+        489,
+        1440
+      ],
+      "description": "左下持握下方相纸的实拍手部，包含左边露出的手指、前方拇指、底部掌部与相纸下方露出的指尖。拇指有粉灰渐变长尖指甲及小颗金属装饰，右下指尖带透明尖甲。保留完整可见皮肤和反光；拇指覆盖相纸左下边，其他手指在纸后露出，隐藏部分不补造。"
+    },
+    {
+      "id": "overlay_sparkles_left",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        61,
+        118,
+        188
+      ],
+      "description": "左上红色台面上的一组白色手绘闪光涂鸦，包含上下错落的空心四角星、实心星状笔画与短小点线，作为同一局部装饰完整保留。"
+    },
+    {
+      "id": "overlay_sparkles_right",
+      "kind": "overlay",
+      "bbox": [
+        912,
+        421,
+        1043,
+        550
+      ],
+      "description": "右侧红色台面上的白色手绘闪光涂鸦组合，包含三枚空心四角星、周围小十字和下方放射短线，整体作为一个独立装饰保留。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        721,
+        1262,
+        1031,
+        1360
+      ],
+      "text": "“那一天那一刻那个场景\n你出现在我生命”",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        413,
+        1371,
+        713,
+        1421
+      ],
+      "text": "宿舍大合照 每年惯例",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_top",
+    "photo_top",
+    "hand_top",
+    "frame_bottom",
+    "photo_bottom",
+    "overlay_plane",
+    "overlay_star_left",
+    "overlay_star_right",
+    "overlay_cupcake",
+    "hand_bottom",
+    "overlay_sparkles_left",
+    "overlay_sparkles_right",
+    "text_quote",
+    "text_footer"
+  ]
+}

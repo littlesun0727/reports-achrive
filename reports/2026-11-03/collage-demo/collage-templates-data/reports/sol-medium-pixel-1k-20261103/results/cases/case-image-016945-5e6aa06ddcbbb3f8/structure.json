@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_illustration",
+    "description": "覆盖全画布的浅褐色纤维纸纹底图，含上半部的褐色屋檐与枝叶印刷图案、几何窗格纹样，以及下方照片开口周围的撕纸边缘；这些固定纹理和图案保留，彩色婚礼照片单独替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_wedding",
+      "kind": "photo",
+      "bbox": [
+        350,
+        642,
+        1024,
+        1536
+      ],
+      "description": "下半部不规则拱形撕纸开口内的彩色婚礼场景照片，完整显示灰瓦亭廊、绿树、石阶及一对新人。新郎穿黑色西装，站在画面中下部偏左；新娘穿白色婚纱、手捧花束，站在其右侧，两人面向镜头，近全身入镜。照片环境保留，顶部受拱形边界裁切，左侧沿撕纸边缘收口，右侧和底部延伸至画布边缘；红色弧形笔触覆盖其上缘局部。"
+    },
+    {
+      "id": "overlay_red_brush_arc",
+      "kind": "overlay",
+      "bbox": [
+        263,
+        606,
+        1024,
+        1025
+      ],
+      "description": "粗糙断续的红褐色手绘弧形笔触，从照片左上方纸面起笔，沿拱形开口上缘向右延伸并越出画布；局部覆盖照片上缘，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        49,
+        1090,
+        285,
+        1108
+      ],
+      "text": "A Quiet Garden Promise",
+      "color": "#33271B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_wedding",
+    "overlay_red_brush_arc",
+    "text_title"
+  ]
+}

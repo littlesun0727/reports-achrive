@@ -1,0 +1,220 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "树木与低矮石墙围绕铺石庭院，连续场景延伸至画布四边；中央抠出的人像及三张独立照片遮挡局部。保留完整庭院环境，背景照片整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        76,
+        97,
+        413,
+        550
+      ],
+      "description": "左上方竖向照片：一名穿白裙的短发女性全身坐在石台上，侧身朝右看，周围可见庭院、树篱与铺石地面。照片环境保留；四角外侧有白色手绘角标，随照片窗口一同记录。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        57,
+        1015,
+        400,
+        1365
+      ],
+      "description": "左下方照片：一名穿白裙的短发女性蹲坐在浅色铺地上，面向镜头，周围地面纹理保留。照片位于独立圆角浅色框内。"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        37,
+        996,
+        424,
+        1388
+      ],
+      "description": "左下照片外侧的浅色圆角框体，带柔和边缘与轻微阴影，完整承托照片；照片窗口内沿可见，框体右侧及下沿露出。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        626,
+        608,
+        988,
+        1098
+      ],
+      "description": "右下方横向照片：一名穿白裙的短发女性坐在石台边，身体朝前，一只手抬起；后方树篱、石墙与铺地均保留。照片周围有白色手绘矩形线条，沿窗口边缘勾画。"
+    },
+    {
+      "id": "photo_cutout",
+      "kind": "photo",
+      "bbox": [
+        282,
+        295,
+        811,
+        1391
+      ],
+      "description": "中央单人全身抠图：短黑发女性穿白色褶边连衣裙，面向镜头坐姿，黑色鞋子露出；原摄影环境不显示，沿人物完整轮廓显示，覆盖庭院背景及邻近照片的局部。"
+    },
+    {
+      "id": "overlay_cloud_upper",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        193,
+        916,
+        286
+      ],
+      "description": "右上方较大的白色手绘云朵轮廓及旁边的小弧形笔触，作为一个独立装饰单元。"
+    },
+    {
+      "id": "overlay_cloud_middle",
+      "kind": "overlay",
+      "bbox": [
+        632,
+        302,
+        762,
+        352
+      ],
+      "description": "画面上方偏右的白色小云朵线稿及紧邻的短弧形笔触。"
+    },
+    {
+      "id": "overlay_cloud_right",
+      "kind": "overlay",
+      "bbox": [
+        898,
+        325,
+        1050,
+        399
+      ],
+      "description": "右侧石墙前的白色手绘云朵线稿，包含周围短小弧形笔触。"
+    },
+    {
+      "id": "overlay_left_flecks",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        674,
+        116,
+        799
+      ],
+      "description": "左侧中部散落的白色短划、点状小笔触组成的装饰簇。"
+    },
+    {
+      "id": "overlay_plus_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        244,
+        657,
+        267,
+        680
+      ],
+      "description": "左侧中上部的小型白色手绘加号。"
+    },
+    {
+      "id": "overlay_plus_left",
+      "kind": "overlay",
+      "bbox": [
+        184,
+        729,
+        215,
+        780
+      ],
+      "description": "左侧中部较大的白色手绘加号。"
+    },
+    {
+      "id": "overlay_plus_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        838,
+        51,
+        862
+      ],
+      "description": "左侧偏下的小型白色手绘加号。"
+    },
+    {
+      "id": "overlay_starburst",
+      "kind": "overlay",
+      "bbox": [
+        218,
+        820,
+        295,
+        906
+      ],
+      "description": "左侧中下部的大型白色手绘星芒线稿，保留完整放射状笔画。"
+    },
+    {
+      "id": "overlay_tape_mark",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        955,
+        116,
+        1082
+      ],
+      "description": "左下照片框左上方斜跨的白色手绘贴纸状线稿，含内部交叉笔画，覆盖框体一角。"
+    },
+    {
+      "id": "overlay_plus_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        1273,
+        887,
+        1309
+      ],
+      "description": "右下区域的小型白色手绘加号。"
+    },
+    {
+      "id": "overlay_star_solid",
+      "kind": "overlay",
+      "bbox": [
+        1000,
+        1251,
+        1038,
+        1290
+      ],
+      "description": "右下方的白色实心小星形装饰。"
+    },
+    {
+      "id": "overlay_star_outline",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        1324,
+        991,
+        1428
+      ],
+      "description": "右下角较大的白色空心五角星线稿。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "frame_lower_left",
+    "photo_lower_left",
+    "photo_cutout",
+    "photo_lower_right",
+    "overlay_cloud_upper",
+    "overlay_cloud_middle",
+    "overlay_cloud_right",
+    "overlay_left_flecks",
+    "overlay_plus_upper_left",
+    "overlay_plus_left",
+    "overlay_plus_lower_left",
+    "overlay_starburst",
+    "overlay_plus_lower_right",
+    "overlay_star_solid",
+    "overlay_star_outline",
+    "overlay_tape_mark"
+  ]
+}

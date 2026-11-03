@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的室内镜面自拍覆盖全画布，四边可见同一场景的裸露顶棚、管线、右侧窗户与灰色地面。一名短黑发、戴圆框眼镜的女性居中偏左，穿浅粉色连帽外套，左手在胸前比剪刀手，右手持手机，微微低头噘嘴，身体下部被画布裁切。人物、手机、衣服及完整摄影环境一起替换。白色断续手绘线依附头发、肩部和右侧身体外轮廓，摄影背景仍然可见，并未沿主体去背景；上方字样和两侧装饰遮挡局部照片。"
+  },
+  "objects": [
+    {
+      "id": "overlay_yellow_title",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        60,
+        779,
+        433
+      ],
+      "description": "沿人物头顶与左侧弧形排列的黄色手写字样，内容近似“胖…美颜都救不了=)”。文字逐字改变角度，带不规则笔画与末尾表情符号，作为完整艺术字装饰保留，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_white_title",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        224,
+        1073,
+        464
+      ],
+      "description": "右上方白色手写两行字样“今天只穿了”“卫衣外套”，末尾带白色勾形点缀。笔画与字间位置不规则，文字及附属勾形整体保留为独立装饰。"
+    },
+    {
+      "id": "overlay_head_marks",
+      "kind": "overlay",
+      "bbox": [
+        581,
+        169,
+        652,
+        238
+      ],
+      "description": "人物头顶右侧的两枚白色空心水滴状手绘强调符号，与头部轮廓线分离，作为一组独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_left_marks",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        480,
+        100,
+        580
+      ],
+      "description": "左侧肩部上方的两道桃橙色弧形短笔画，彼此相邻且构成同一组强调装饰，保留不规则圆润笔触。"
+    },
+    {
+      "id": "overlay_right_marks",
+      "kind": "overlay",
+      "bbox": [
+        911,
+        660,
+        993,
+        788
+      ],
+      "description": "右侧窗户前的两道桃橙色弧形短笔画，一短一长，组成独立强调装饰，不属于摄影场景。"
+    }
+  ],
+  "layer_order": [
+    "overlay_yellow_title",
+    "overlay_white_title",
+    "overlay_head_marks",
+    "overlay_left_marks",
+    "overlay_right_marks"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "暖米白色纸质底图，带轻微不均匀的浅色纹理，上半部及文字、插画周围连续可见；下半部由独立矩形照片覆盖。保留纸底外观，文字、插画和照片均不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        0,
+        721,
+        1080,
+        1457
+      ],
+      "description": "下半部横向铺满的街头照片：一只戴黑白帽、穿胸背的长毛犬面向镜头坐在滑板上，完整身体与滑板位于中央偏下；右侧一名人物仅露出部分躯干、手臂及腿脚，手握牵引绳，腰侧挂包与折叠碗。背景包含柏油路、车道线及上沿车辆。保留全部摄影环境，四边直接裁切，无沿主体去背景或透明渐隐。"
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        394,
+        162,
+        665,
+        249
+      ],
+      "text": "tiny rider,\nbig adventure.",
+      "color": "#11110F",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_dog_drawing",
+      "kind": "overlay",
+      "bbox": [
+        337,
+        291,
+        802,
+        642
+      ],
+      "description": "完整彩色手绘插画：棕色轮廓的小狗戴蓝白帽、吐出粉色舌头，佩戴蓝色胸背，坐在蓝色滑板上；粉色牵引绳向右上延伸至绿色线描手掌，旁边悬挂绿色圆形折叠碗。左侧黄色短线、绿色弯曲线及滑板下的粉色轮子均为同一插画的附属成员，保留原有笔触及内部空隙。"
+    }
+  ],
+  "layer_order": [
+    "photo_dog",
+    "overlay_dog_drawing",
+    "text_heading"
+  ]
+}

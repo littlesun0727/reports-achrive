@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    810
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        810
+      ],
+      "description": "连续的室内摄影画面覆盖画布四边：窗边桌面上有一杯蓝色饮料，杯盖与吸管清晰可见；右侧是一只坐姿、手持粉色花朵的兔子玩偶。饮料在左中部，玩偶在右下部，窗户与桌面环境共同属于底图。彩色圆点覆盖部分画面；整张场景作为一张照片替换。",
+      "background_type": "photo",
+      "label": "连续的室内摄影画面覆盖画布四边：窗边桌面上有一杯蓝色饮料，杯",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_pastel_dots",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        43,
+        1043,
+        767
+      ],
+      "description": "散布在画面前方的半透明浅黄、粉、蓝、绿圆点图案，圆点大小近似且分布于全画面多个位置；作为一组独立固定装饰保留，覆盖摄影底图。",
+      "label": "散布在画面前方的半透明浅黄、粉、蓝、绿圆点图案，圆点大小近似",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_pastel_dots"
+  ]
+}

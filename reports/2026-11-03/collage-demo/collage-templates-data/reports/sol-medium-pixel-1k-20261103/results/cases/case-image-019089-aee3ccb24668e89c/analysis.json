@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    972,
+    1619
+  ],
+  "objects": [
+    {
+      "id": "paper_landscape_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        972,
+        1619
+      ],
+      "description": "连续的米白色旧纸纹理、左侧深色点描树影和下方点描草地构成固定全画布底图，纸张与景观纹理延伸至四边；人物照片独立叠加替换，底图原样保留。",
+      "background_type": "reference_clean",
+      "label": "连续的米白色旧纸纹理、左侧深色点描树影和下方点描草地构成固定",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_yellow_lines",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        890,
+        875,
+        997
+      ],
+      "description": "横贯画面中部的黄色水平线及向右下方延伸的弧形细线，作为独立固定图形保留；线条在人物后方被遮挡，右侧继续显露。",
+      "label": "横贯画面中部的黄色水平线及向右下方延伸的弧形细线，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        88,
+        664,
+        481,
+        1619
+      ],
+      "description": "单人全身偏侧面人物抠图：女性戴草帽、面向右侧，长发垂落，穿浅色背心和深色长裙，手部交叠于身前，身侧有包和小熊挂件；人物下部延伸出画布底边。摄影背景未保留，沿完整人物、帽子、头发、手臂、包和裙摆轮廓显示，并遮挡后方点描草地与黄色线条。",
+      "label": "单人全身偏侧面人物抠图：女性戴草帽、面向右侧，长发垂落，穿浅",
+      "method": "local"
+    },
+    {
+      "id": "text_looking_past_green",
+      "kind": "text",
+      "bbox": [
+        754,
+        882,
+        914,
+        897
+      ],
+      "description": "LOOKING PAST GREEN",
+      "label": "LOOKING PAST GREEN",
+      "method": "local",
+      "text": "LOOKING PAST GREEN",
+      "text_status": "known",
+      "style": {
+        "fill": "#4A4137",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_landscape_base",
+    "overlay_yellow_lines",
+    "photo_woman",
+    "text_looking_past_green"
+  ]
+}

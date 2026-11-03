@@ -1,0 +1,431 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "background_green",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "全画布为带颗粒纸纹的绿色固定底图，上部深绿、下部逐渐变为浅灰绿，四边及照片间隙的纹理连续；零散米黄色小星星属于底图印刷图案。保留底图纹理、颜色变化及星星，独立照片、文字和叠加装饰另列清除。",
+      "background_type": "reference_clean",
+      "label": "全画布为带颗粒纸纹的绿色固定底图，上部深绿、下部逐渐变为浅灰",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_forest",
+      "kind": "photo",
+      "bbox": [
+        521,
+        21,
+        1030,
+        371
+      ],
+      "description": "右上横向矩形森林照片，密集深绿色树冠构成完整摄影环境，无可见人物。树冠呈俯视景观，与前方人物的视角不连续，作为独立照片替换；左下被双人照片遮挡，前部被独立人物及白色闪光装饰覆盖。",
+      "label": "右上横向矩形森林照片，密集深绿色树冠构成完整摄影环境，无可见",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_top",
+      "kind": "photo",
+      "bbox": [
+        633,
+        143,
+        891,
+        371
+      ],
+      "description": "一名戴浅蓝帽、白框墨镜的长发女性，穿浅黄色无袖上衣，正面微笑，双手举起比剪刀手，显示至腰部。沿人物及双臂轮廓去除原摄影环境，叠在森林照片前方，腰部在森林照片下沿齐平截断；没有明显独立描边。",
+      "label": "一名戴浅蓝帽、白框墨镜的长发女性，穿浅黄色无袖上衣，正面微笑",
+      "method": "local"
+    },
+    {
+      "id": "photo_ferry_night",
+      "kind": "photo",
+      "bbox": [
+        30,
+        327,
+        650,
+        754
+      ],
+      "description": "左侧横向夜间轮渡合影，两名戴墨镜的女性并排站在栏杆前，左侧女性穿浅色吊带、背花纹包并举手比剪刀手，右侧女性穿蓝色外套。保留昏暗海面、暮色天空、栏杆及全部摄影环境；下沿被海上单人照片覆盖，右上叠有白色音乐涂鸦。",
+      "label": "左侧横向夜间轮渡合影，两名戴墨镜的女性并排站在栏杆前，左侧女",
+      "method": "local"
+    },
+    {
+      "id": "photo_ferry_day",
+      "kind": "photo",
+      "bbox": [
+        145,
+        752,
+        723,
+        1141
+      ],
+      "description": "中下部横向海上照片，一名戴白框墨镜的长发女性穿白色吊带、背花纹包，在船尾栏杆前面向镜头微笑，左侧手臂向上伸举。完整保留天空、蓝色海面、白色尾浪与栏杆；右侧叠有文字，下方右角覆盖餐厅照片的一小部分。",
+      "label": "中下部横向海上照片，一名戴白框墨镜的长发女性穿白色吊带、背花",
+      "method": "local"
+    },
+    {
+      "id": "photo_burger",
+      "kind": "photo",
+      "bbox": [
+        599,
+        1067,
+        1064,
+        1417
+      ],
+      "description": "右下餐厅门前双人照片，上方女性戴浅蓝帽、穿黄色无袖上衣，站立并举双手比剪刀手；下方女性穿橙色上衣，双手托脸。左侧有大型汉堡模型，背景为店铺墙面、窗框和灯光，全部属于摄影内容。左上被海上照片遮挡，右下叠加白色感叹号涂鸦。",
+      "label": "右下餐厅门前双人照片，上方女性戴浅蓝帽、穿黄色无袖上衣，站立",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pin_top",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        40,
+        197,
+        84
+      ],
+      "description": "顶部标题左侧的红色圆头地图图钉，包含细长灰色针杆和高光。",
+      "label": "顶部标题左侧的红色圆头地图图钉，包含细长灰色针杆和高光。",
+      "method": "extract"
+    },
+    {
+      "id": "text_location_top",
+      "kind": "text",
+      "bbox": [
+        213,
+        34,
+        532,
+        89
+      ],
+      "description": "大连自然博物馆旁",
+      "label": "大连自然博物馆旁",
+      "method": "local",
+      "text": "大连自然博物馆旁",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_story_top",
+      "kind": "text",
+      "bbox": [
+        41,
+        100,
+        646,
+        276
+      ],
+      "description": "逛完博物馆后和Pink到海边散步\n然后想起我们专门带的胶片相机\n于是马上安排了旅行第一张胶片",
+      "label": "逛完博物馆后和Pink到海边散步\n然后想起我们专门带的胶片相",
+      "method": "local",
+      "text": "逛完博物馆后和Pink到海边散步\n然后想起我们专门带的胶片相机\n于是马上安排了旅行第一张胶片",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_footprints",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        105,
+        657,
+        151
+      ],
+      "description": "顶部第一行叙述末端的深灰色双脚印图案，两枚脚掌及脚趾构成一个完整装饰。",
+      "label": "顶部第一行叙述末端的深灰色双脚印图案，两枚脚掌及脚趾构成一个",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_film_top",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        233,
+        640,
+        274
+      ],
+      "description": "顶部叙述末端的米黄色胶片卷图标，保留卷曲胶片、齿孔及深色线条。",
+      "label": "顶部叙述末端的米黄色胶片卷图标，保留卷曲胶片、齿孔及深色线条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        335,
+        608,
+        494
+      ],
+      "description": "夜间合影右上方的一组白色手绘音乐涂鸦，包含连音符、单音符、星形、十字、小圆点和弯曲线条；作为同一局部装饰整体保留。",
+      "label": "夜间合影右上方的一组白色手绘音乐涂鸦，包含连音符、单音符、星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_top",
+      "kind": "overlay",
+      "bbox": [
+        914,
+        292,
+        1043,
+        419
+      ],
+      "description": "森林照片右下角及其下方的一组白色四角闪光线稿，两个大小不同的闪光跨越照片下边界，整体保留。",
+      "label": "森林照片右下角及其下方的一组白色四角闪光线稿，两个大小不同的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pin_middle",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        456,
+        702,
+        501
+      ],
+      "description": "中部轮渡地点标题左侧的红色圆头地图图钉，包含高光和灰色针杆。",
+      "label": "中部轮渡地点标题左侧的红色圆头地图图钉，包含高光和灰色针杆。",
+      "method": "extract"
+    },
+    {
+      "id": "text_location_middle",
+      "kind": "text",
+      "bbox": [
+        716,
+        455,
+        979,
+        504
+      ],
+      "description": "大连-烟台轮渡",
+      "label": "大连-烟台轮渡",
+      "method": "local",
+      "text": "大连-烟台轮渡",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_story_middle",
+      "kind": "text",
+      "bbox": [
+        548,
+        516,
+        1077,
+        948
+      ],
+      "description": "旅行第一站是大连!\n就是为了坐轮渡来的!\n与世界失联的七小时\n在蓝色大海上看蓝色大海啦\n心无旁骛地看尾浪\n吹海风 喂海鸥 看日落\n拍了喜欢的照片 认识了新朋友",
+      "label": "旅行第一站是大连!\n就是为了坐轮渡来的!\n与世界失联的七小时",
+      "method": "local",
+      "text": "旅行第一站是大连!\n就是为了坐轮渡来的!\n与世界失联的七小时\n在蓝色大海上看蓝色大海啦\n心无旁骛地看尾浪\n吹海风 喂海鸥 看日落\n拍了喜欢的照片 认识了新朋友",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_watch",
+      "kind": "overlay",
+      "bbox": [
+        989,
+        646,
+        1022,
+        693
+      ],
+      "description": "“七小时”右侧的黑色智能手表图标，保留灰色表带、黑色表盘及白色指针。",
+      "label": "“七小时”右侧的黑色智能手表图标，保留灰色表带、黑色表盘及白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wave",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        716,
+        1080,
+        757
+      ],
+      "description": "海上叙述行末的蓝白海浪图标，右端贴画布边缘，保留浪尖和深蓝水面。",
+      "label": "海上叙述行末的蓝白海浪图标，右端贴画布边缘，保留浪尖和深蓝水",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sunset",
+      "kind": "overlay",
+      "bbox": [
+        1004,
+        836,
+        1051,
+        884
+      ],
+      "description": "“看日落”右侧的小型方形日落图标，具有白色外缘、橙黄色天空和深色山峰剪影，整体作为固定装饰保留。",
+      "label": "“看日落”右侧的小型方形日落图标，具有白色外缘、橙黄色天空和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wow",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        904,
+        178,
+        1084
+      ],
+      "description": "海上照片左侧的白色手绘“哇!”艺术字，文字斜向排列，带空心笔画、感叹号、闪光星形、短线和小圆点；完整局部涂鸦作为一个装饰保留。",
+      "label": "海上照片左侧的白色手绘“哇!”艺术字，文字斜向排列，带空心笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pin_bottom",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        1187,
+        213,
+        1232
+      ],
+      "description": "底部地点标题左侧的红色圆头地图图钉，包含高光及灰色针杆。",
+      "label": "底部地点标题左侧的红色圆头地图图钉，包含高光及灰色针杆。",
+      "method": "extract"
+    },
+    {
+      "id": "text_location_bottom",
+      "kind": "text",
+      "bbox": [
+        227,
+        1180,
+        469,
+        1235
+      ],
+      "description": "大连汉堡店前",
+      "label": "大连汉堡店前",
+      "method": "local",
+      "text": "大连汉堡店前",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_story_bottom",
+      "kind": "text",
+      "bbox": [
+        5,
+        1252,
+        636,
+        1428
+      ],
+      "description": "刚好当天衣服跟汉堡色很搭\n于是在这里拍了几张照片\n路人阿姨拍了照 她帮我们拍胶片",
+      "label": "刚好当天衣服跟汉堡色很搭\n于是在这里拍了几张照片\n路人阿姨拍",
+      "method": "local",
+      "text": "刚好当天衣服跟汉堡色很搭\n于是在这里拍了几张照片\n路人阿姨拍了照 她帮我们拍胶片",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        1326,
+        552,
+        1359
+      ],
+      "description": "底部“照片”右侧的灰黑色相机图标，保留机身、圆形镜头、顶部按钮和高光。",
+      "label": "底部“照片”右侧的灰黑色相机图标，保留机身、圆形镜头、顶部按",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_film_bottom",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        1382,
+        683,
+        1426
+      ],
+      "description": "底部最后一行“胶片”右侧的米黄色胶片卷图标，叠在餐厅照片左下区域，卷曲胶片与齿孔整体保留。",
+      "label": "底部最后一行“胶片”右侧的米黄色胶片卷图标，叠在餐厅照片左下",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_exclamation",
+      "kind": "overlay",
+      "bbox": [
+        993,
+        1282,
+        1052,
+        1400
+      ],
+      "description": "右下餐厅照片上的白色手绘长感叹号，附带小闪光、十字及圆点，作为一个完整局部涂鸦保留。",
+      "label": "右下餐厅照片上的白色手绘长感叹号，附带小闪光、十字及圆点，作",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_green",
+    "photo_forest",
+    "photo_woman_top",
+    "photo_ferry_night",
+    "photo_burger",
+    "photo_ferry_day",
+    "overlay_pin_top",
+    "text_location_top",
+    "text_story_top",
+    "overlay_footprints",
+    "overlay_film_top",
+    "overlay_music",
+    "overlay_sparkles_top",
+    "overlay_pin_middle",
+    "text_location_middle",
+    "text_story_middle",
+    "overlay_watch",
+    "overlay_wave",
+    "overlay_sunset",
+    "overlay_wow",
+    "overlay_pin_bottom",
+    "text_location_bottom",
+    "text_story_bottom",
+    "overlay_camera",
+    "overlay_film_bottom",
+    "overlay_exclamation"
+  ]
+}

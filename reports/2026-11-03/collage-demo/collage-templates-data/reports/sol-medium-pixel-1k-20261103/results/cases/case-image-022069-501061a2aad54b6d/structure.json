@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "forest_background",
+    "description": "日落树林与草地构成连续的全画布摄影环境，树干、阳光和地面延伸至画布四边；上层人物、字样和装饰遮挡局部。替换时保留完整环境，不把可见的点状网纹另拆为对象。"
+  },
+  "objects": [
+    {
+      "id": "photo_woman_full",
+      "kind": "photo",
+      "bbox": [
+        105,
+        137,
+        369,
+        638
+      ],
+      "description": "左上方一名女性全身抠图，戴帽，穿浅色无袖上衣、深色短裙和运动鞋，站立并朝右伸出一只手，抬头看向左上方；人物外沿有粗白色描边，摄影背景不保留。"
+    },
+    {
+      "id": "photo_woman_close",
+      "kind": "photo",
+      "bbox": [
+        383,
+        371,
+        689,
+        1022
+      ],
+      "description": "右下方一名女性从腰部以上的较大近景抠图，戴帽、穿浅色无袖上衣，侧身抬头看向左上方，一手扶耳侧；人物外沿有粗白色描边，摄影背景不保留，身体下缘延伸至画布底边。"
+    },
+    {
+      "id": "overlay_calendar",
+      "kind": "overlay",
+      "bbox": [
+        285,
+        470,
+        436,
+        589
+      ],
+      "description": "倾斜的黑色小日历牌，绿色数字牌显示“2022”，带浅色边缘和小型夹扣，作为独立装饰压在左侧人物腿部及树林草地前方。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        562,
+        368,
+        957
+      ],
+      "description": "左下方大幅白色手绘中文艺术字“世界超大的运动场”，分行错落、笔画造型不规则，作为完整字形设计保留；右侧局部靠近并被前景女性遮挡。"
+    },
+    {
+      "id": "overlay_face",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        786,
+        109,
+        897
+      ],
+      "description": "白底黑线的圆脸人物小贴画，带黑色发型与表情线条，独立叠在左下艺术字旁。"
+    },
+    {
+      "id": "overlay_top_motif",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        63,
+        177,
+        267
+      ],
+      "description": "左上方绿色花形装饰，中心有橙色圆点，并连着一段白色弯曲手绘线，线尾接近下方橙色短椭圆；作为一个完整装饰单元保留。"
+    },
+    {
+      "id": "overlay_triangle",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        570,
+        354,
+        647
+      ],
+      "description": "左侧人物脚部后方、日历牌下方露出的橙色三角形装饰，部分被人物和草地构图遮挡。"
+    },
+    {
+      "id": "overlay_sparkle_upper",
+      "kind": "overlay",
+      "bbox": [
+        291,
+        413,
+        323,
+        447
+      ],
+      "description": "位于两个人物之间上方的小型白色星芒，带黑色外沿。"
+    },
+    {
+      "id": "overlay_sparkle_middle",
+      "kind": "overlay",
+      "bbox": [
+        263,
+        462,
+        309,
+        519
+      ],
+      "description": "靠近日历牌左上方的白色手绘星芒，带黑色外沿。"
+    },
+    {
+      "id": "overlay_sparkle_text",
+      "kind": "overlay",
+      "bbox": [
+        129,
+        550,
+        163,
+        586
+      ],
+      "description": "白色小星芒，带黑色外沿，叠在左下艺术字上方。"
+    },
+    {
+      "id": "overlay_orange_dot",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        775,
+        135,
+        798
+      ],
+      "description": "左下艺术字附近的独立橙色小圆点。"
+    },
+    {
+      "id": "overlay_orange_circle",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        570,
+        758,
+        614
+      ],
+      "description": "画面右侧草地上的橙色圆形装饰，贴近画布右边缘。"
+    },
+    {
+      "id": "overlay_orange_star",
+      "kind": "overlay",
+      "bbox": [
+        673,
+        837,
+        768,
+        968
+      ],
+      "description": "右下方橙色五角星装饰，部分延伸至画布右边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_woman_full",
+    "overlay_triangle",
+    "overlay_calendar",
+    "overlay_title",
+    "overlay_face",
+    "overlay_sparkle_text",
+    "overlay_orange_dot",
+    "overlay_sparkle_upper",
+    "overlay_sparkle_middle",
+    "overlay_top_motif",
+    "overlay_orange_circle",
+    "overlay_orange_star",
+    "photo_woman_close"
+  ]
+}

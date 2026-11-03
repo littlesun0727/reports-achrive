@@ -1,0 +1,62 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "overlay_red_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        859,
+        573
+      ],
+      "description": "上半幅红色纤维纸面板，覆盖画布上沿及左右边缘，下沿为横向直边。保留纸面深浅变化、褶皱和零散金黄色纤维纹理；中央被照片相纸遮挡。这是局部固定纸底，不扩展为全画布底图。"
+    },
+    {
+      "id": "overlay_calendar",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        572,
+        859,
+        1145
+      ],
+      "description": "下半幅完整的布纹日历设计，米白织物表面带灰褐色字样“Oct.”、星期标题和1至30的日期排布，数字6外围有红色空心爱心。右侧保留不规则浅色边缘及露出的棕米色材质，整体纹理、字样与标记作为同一固定设计保留，不拆为普通文字。"
+    },
+    {
+      "id": "frame_wedding",
+      "kind": "frame",
+      "bbox": [
+        158,
+        87,
+        702,
+        507
+      ],
+      "description": "浅蓝白色单窗口相纸框，外缘略带圆角，左右与上方留窄边，下方留较宽的空白纸边。保留纸面颜色、边缘及轻微阴影；中央内口承载婚礼照片。",
+      "photo_id": [
+        "photo_wedding"
+      ]
+    },
+    {
+      "id": "photo_wedding",
+      "kind": "photo",
+      "bbox": [
+        182,
+        120,
+        684,
+        428
+      ],
+      "description": "横向婚礼现场合影，中央三名主要人物站立面向镜头：左侧白裙女子、中间穿浅金色中式礼服的女子、右侧深色西装男子。周围还有宾客，后方是建筑入口、红灯笼、花饰与红色伞，空中可见散落花瓣。完整保留人物和摄影环境，按相纸内口显示，人物下部被照片下边界裁切；无沿主体去背景或出框显示。"
+    }
+  ],
+  "layer_order": [
+    "overlay_red_paper",
+    "overlay_calendar",
+    "frame_wedding",
+    "photo_wedding"
+  ]
+}

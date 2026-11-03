@@ -1,0 +1,485 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "全画布为粉蓝渐变的细颗粒背景，上部可见连续纹理，下部过渡为云状浅色区域；边缘色彩与纹理连贯，独立人像、照片、文字和装饰覆盖其上。保留背景设计本身，不包含可替换摄影内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        1080,
+        1527
+      ],
+      "description": "画面中央的大幅年轻女性近景人像，正面略偏转，棕色长发、白色上衣，头部位于中央偏上，肩部和头发延伸至画布下缘及两侧。以人物主体组合显示，周围不保留独立摄影环境；边缘与画布边界相接。"
+    },
+    {
+      "id": "photo_polaroid_top",
+      "kind": "photo",
+      "bbox": [
+        43,
+        44,
+        348,
+        408
+      ],
+      "description": "左上倾斜的竖幅人像照片，年轻女性坐姿近景，棕色长发、手靠近脸部，照片内保留浅色背景与摄影环境。"
+    },
+    {
+      "id": "frame_polaroid_top",
+      "kind": "frame",
+      "bbox": [
+        30,
+        30,
+        361,
+        425
+      ],
+      "description": "左上白色倾斜拍立得相纸，宽白边及下方较宽留白构成完整承托框体。",
+      "photo_id": [
+        "photo_polaroid_top"
+      ]
+    },
+    {
+      "id": "photo_polaroid_left",
+      "kind": "photo",
+      "bbox": [
+        41,
+        458,
+        312,
+        793
+      ],
+      "description": "左侧竖幅人像照片，年轻女性坐姿，双手托脸，穿浅色上衣与深色下装；保留照片内浅色摄影背景。"
+    },
+    {
+      "id": "frame_polaroid_left",
+      "kind": "frame",
+      "bbox": [
+        30,
+        439,
+        327,
+        812
+      ],
+      "description": "左侧白色拍立得相纸，竖向纸框带较宽下沿，承托独立人像照片。",
+      "photo_id": [
+        "photo_polaroid_left"
+      ]
+    },
+    {
+      "id": "photo_heart_right",
+      "kind": "photo",
+      "bbox": [
+        824,
+        352,
+        1080,
+        671
+      ],
+      "description": "右上心形区域内的年轻女性半身人像，长棕发、深色上衣，保留人物及其摄影内容；照片沿心形窗口显示。"
+    },
+    {
+      "id": "frame_heart_right",
+      "kind": "frame",
+      "bbox": [
+        804,
+        329,
+        1080,
+        691
+      ],
+      "description": "右上心形照片周围的白色波浪花边承托框，心形轮廓与粉色心形底面一体呈现，右侧延伸至画布边缘。",
+      "photo_id": [
+        "photo_heart_right"
+      ]
+    },
+    {
+      "id": "photo_heart_lower",
+      "kind": "photo",
+      "bbox": [
+        76,
+        1170,
+        352,
+        1417
+      ],
+      "description": "左下心形窗口内的女性人像，粉色调并带半透明般的浅色横纹观感；人物与照片内影像共同保留。"
+    },
+    {
+      "id": "frame_heart_lower",
+      "kind": "frame",
+      "bbox": [
+        48,
+        1147,
+        371,
+        1435
+      ],
+      "description": "左下心形照片的白色波浪花边框体，围绕心形窗口形成完整装饰承托结构。",
+      "photo_id": [
+        "photo_heart_lower"
+      ]
+    },
+    {
+      "id": "overlay_pearls_top",
+      "kind": "overlay",
+      "bbox": [
+        485,
+        0,
+        1080,
+        195
+      ],
+      "description": "一串白色圆珠从画布上缘斜向右下延伸，再沿上方横向弯曲至右边缘，珠粒相连构成一体装饰。"
+    },
+    {
+      "id": "overlay_pearls_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1275,
+        1080,
+        1527
+      ],
+      "description": "画面下部的白色圆珠串横向蜿蜒，经过左下心形照片前方并在右下形成弧线，部分珠串延伸出画布边缘。"
+    },
+    {
+      "id": "overlay_key",
+      "kind": "overlay",
+      "bbox": [
+        390,
+        38,
+        504,
+        149
+      ],
+      "description": "标题左上方一枚斜放的银色复古钥匙装饰，带镂空花纹与细长钥匙柄。"
+    },
+    {
+      "id": "overlay_star_blue_top",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        10,
+        121,
+        81
+      ],
+      "description": "左上拍立得边缘叠放的蓝色五角星贴纸。"
+    },
+    {
+      "id": "overlay_star_pink",
+      "kind": "overlay",
+      "bbox": [
+        278,
+        405,
+        343,
+        472
+      ],
+      "description": "左侧两张拍立得交界附近的粉色五角星贴纸，压在照片边缘上方。"
+    },
+    {
+      "id": "overlay_button",
+      "kind": "overlay",
+      "bbox": [
+        290,
+        612,
+        352,
+        675
+      ],
+      "description": "左侧拍立得右缘附近的粉色圆形纽扣，带四个小孔及高光。"
+    },
+    {
+      "id": "overlay_tag",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        769,
+        1031,
+        1096
+      ],
+      "description": "右侧粉色长形吊牌，顶部有圆孔和金属圈，内部印有星光及“HAPPY HAERIN DAY”字样，整体作为一枚装饰保留。"
+    },
+    {
+      "id": "overlay_badge_khr",
+      "kind": "overlay",
+      "bbox": [
+        887,
+        1117,
+        1035,
+        1252
+      ],
+      "description": "右下蓝色方形徽章，白色点状边框与大型装饰字母“KHR”构成一体。"
+    },
+    {
+      "id": "overlay_star_outline",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        1147,
+        835,
+        1273
+      ],
+      "description": "中央偏右的白色点状空心五角星装饰。"
+    },
+    {
+      "id": "overlay_star_tile_blue",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        1248,
+        713,
+        1305
+      ],
+      "description": "主肖像右下侧的小型粉蓝底方形贴片，中央为蓝色五角星。"
+    },
+    {
+      "id": "overlay_star_tile_pink",
+      "kind": "overlay",
+      "bbox": [
+        836,
+        1360,
+        891,
+        1416
+      ],
+      "description": "右下方的小型浅蓝底方形贴片，中央为粉色五角星。"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        110,
+        976,
+        1410
+      ],
+      "description": "散布于画面的多枚白色细线闪光，包括十字星与放射状星芒；各小星点作为同一组固定点缀保留。"
+    },
+    {
+      "id": "overlay_heart_music",
+      "kind": "overlay",
+      "bbox": [
+        829,
+        363,
+        935,
+        556
+      ],
+      "description": "右上心形窗口内粉色区域上的白色音符符号，位于照片人物左侧，为独立印刷装饰。"
+    },
+    {
+      "id": "overlay_date_circle",
+      "kind": "overlay",
+      "bbox": [
+        876,
+        642,
+        1039,
+        807
+      ],
+      "description": "右侧照片下方的圆形日期吊饰，双层环形边框内有“(515)”字样，部分被下方粉色吊牌遮挡。"
+    },
+    {
+      "id": "overlay_korean_labels",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        838,
+        316,
+        981
+      ],
+      "description": "左侧两条倾斜叠放的蓝色与粉色标签，分别印有韩文“강해린”和“생일 축하해”；保留标签底色、字形和外轮廓为完整设计单元。"
+    },
+    {
+      "id": "overlay_age",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        1009,
+        281,
+        1102
+      ],
+      "description": "左下方白色装饰数字“(2006)”，字形高窄并带浅色描边，作为原样保留的字形装饰。"
+    },
+    {
+      "id": "overlay_heart_label",
+      "kind": "overlay",
+      "bbox": [
+        289,
+        1285,
+        466,
+        1325
+      ],
+      "description": "左下心形照片右侧的白色窄标签，印有“(HAERIN DAY)”字样，带深色描边与轻微阴影。"
+    },
+    {
+      "id": "overlay_year_circles",
+      "kind": "overlay",
+      "bbox": [
+        964,
+        1363,
+        1025,
+        1468
+      ],
+      "description": "右下角上下排列的两个细线圆环，分别标注“05”和“15”，构成一组日期图形。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        316,
+        83,
+        944,
+        460
+      ],
+      "text": "Happy\nHaerin\nDay",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "text_haerin_photo",
+      "kind": "text",
+      "bbox": [
+        82,
+        411,
+        254,
+        474
+      ],
+      "text": "Haerin",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_may_date",
+      "kind": "text",
+      "bbox": [
+        379,
+        420,
+        495,
+        455
+      ],
+      "text": "May.15th",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_korean_blocks",
+      "kind": "text",
+      "bbox": [
+        843,
+        38,
+        1005,
+        104
+      ],
+      "text": "강\n해\n린",
+      "color": "#222222",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_birthday_english",
+      "kind": "text",
+      "bbox": [
+        910,
+        204,
+        1056,
+        235
+      ],
+      "text": "HAPPY BIRTHDAY\nTO HAERIN",
+      "color": "#17131A",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_kang_haerin",
+      "kind": "text",
+      "bbox": [
+        267,
+        510,
+        430,
+        545
+      ],
+      "text": "KANG HAERIN",
+      "color": "#1D1D1D",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_birthday_japanese",
+      "kind": "text",
+      "bbox": [
+        695,
+        1075,
+        884,
+        1105
+      ],
+      "text": "お誕生日おめでとう",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        852,
+        1491,
+        1013,
+        1510
+      ],
+      "text": "LOVE FROM @NJZ_R",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_polaroid_top",
+    "frame_polaroid_top",
+    "photo_polaroid_left",
+    "frame_polaroid_left",
+    "photo_heart_right",
+    "frame_heart_right",
+    "photo_heart_lower",
+    "frame_heart_lower",
+    "photo_portrait_main",
+    "overlay_pearls_top",
+    "overlay_pearls_bottom",
+    "overlay_key",
+    "overlay_star_blue_top",
+    "overlay_star_pink",
+    "overlay_button",
+    "overlay_sparkles",
+    "overlay_heart_music",
+    "overlay_korean_labels",
+    "overlay_age",
+    "overlay_heart_label",
+    "overlay_date_circle",
+    "overlay_tag",
+    "overlay_badge_khr",
+    "overlay_star_outline",
+    "overlay_star_tile_blue",
+    "overlay_star_tile_pink",
+    "overlay_year_circles",
+    "text_title",
+    "text_haerin_photo",
+    "text_may_date",
+    "text_korean_blocks",
+    "text_birthday_english",
+    "text_kang_haerin",
+    "text_birthday_japanese",
+    "text_footer"
+  ]
+}

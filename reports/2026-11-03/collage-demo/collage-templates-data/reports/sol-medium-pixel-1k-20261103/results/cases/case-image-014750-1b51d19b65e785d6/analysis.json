@@ -1,0 +1,116 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为浅米灰色纸质底图，四边连续露出细纤维、颗粒和轻微深浅变化。保留原有纸纹与色调，中央白色承托纸、照片及独立字样不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅米灰色纸质底图，四边连续露出细纤维、颗粒和轻微深浅",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_paper",
+      "kind": "frame",
+      "bbox": [
+        174,
+        20,
+        881,
+        1420
+      ],
+      "description": "中央纵向白色纹理纸张，作为三张照片的共同承托载体。大照片占据上部，两张小照片跨在大照片下缘，纸张下部留有宽阔空白。保留纸边、细微纸纹及可见明暗，独立照片和叠加字样不并入纸张。",
+      "photo_id": [
+        "photo_main",
+        "photo_small_left",
+        "photo_small_right"
+      ],
+      "label": "中央纵向白色纹理纸张，作为三张照片的共同承托载体。大照片占据",
+      "method": "extract"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        177,
+        20,
+        879,
+        1078
+      ],
+      "description": "大幅侧转显示的列车驾驶室照片。一名戴深色帽、穿浅色短袖制服的人背向镜头，位于画面中右部；驾驶室窗框、仪表、玻璃反光及窗外铁轨、建筑、绿植共同保留。矩形照片下缘被两张小照片局部遮挡，白色日文字样为独立叠加设计。",
+      "label": "大幅侧转显示的列车驾驶室照片。一名戴深色帽、穿浅色短袖制服的",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_left",
+      "kind": "photo",
+      "bbox": [
+        225,
+        937,
+        408,
+        1212
+      ],
+      "description": "左下方独立小幅列车驾驶室照片，侧转显示。窗外平行铁轨和绿树位于上部，暗色窗框、驾驶室设备及车内结构位于下部，没有清晰完整的人物。保留全部摄影环境，矩形窗口上部覆盖大照片下缘。",
+      "label": "左下方独立小幅列车驾驶室照片，侧转显示。窗外平行铁轨和绿树位",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_right",
+      "kind": "photo",
+      "bbox": [
+        434,
+        961,
+        620,
+        1216
+      ],
+      "description": "右侧小幅列车驾驶室照片，侧转显示，与左侧小图之间有白纸间隔。一名浅色制服人物背向镜头出现在下部，周围为深色驾驶室框架、设备和透过车窗可见的绿植与轨道。保留摄影环境，上部叠在大照片下缘。",
+      "label": "右侧小幅列车驾驶室照片，侧转显示，与左侧小图之间有白纸间隔。",
+      "method": "local"
+    },
+    {
+      "id": "overlay_japanese",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        174,
+        383,
+        262
+      ],
+      "description": "叠加在大照片深色窗框区域的白色日文三行字样，整组侧转排布，可辨内容为“影は背に／進むレールと／蝉しぐれ”。保留原有字形、行间关系和方向，不属于实拍车内标牌。",
+      "label": "叠加在大照片深色窗框区域的白色日文三行字样，整组侧转排布，可",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chinese",
+      "kind": "overlay",
+      "bbox": [
+        749,
+        1221,
+        834,
+        1378
+      ],
+      "description": "白色承托纸下部偏右的黑色中文三行字样，整体侧转显示，内容为“背着自己的影，／铁轨前伸，／蝉声密密。”。保留整组字形、标点、行间位置及侧转方向，作为独立固定文字装饰。",
+      "label": "白色承托纸下部偏右的黑色中文三行字样，整体侧转显示，内容为“",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_paper",
+    "frame_paper",
+    "photo_main",
+    "photo_small_left",
+    "photo_small_right",
+    "overlay_japanese",
+    "overlay_chinese"
+  ]
+}

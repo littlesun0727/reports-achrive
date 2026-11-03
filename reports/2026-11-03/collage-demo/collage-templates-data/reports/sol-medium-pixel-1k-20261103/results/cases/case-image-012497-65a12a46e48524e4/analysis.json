@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "海边水果摊的连续竖幅摄影画面延伸至画布四边：一名戴墨镜、穿浅粉上衣和白裤的女性在中央偏右近全身入镜，一手托着椰子、另一手摆姿势，身后可见水果摊、树木、海面和沙滩。左上独立照片遮挡了部分摊位与环境；全幅人物及摄影环境共同替换。",
+      "background_type": "photo",
+      "label": "海边水果摊的连续竖幅摄影画面延伸至画布四边：一名戴墨镜、穿浅",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        67,
+        323,
+        535,
+        799
+      ],
+      "description": "左上方无边框的横向矩形照片，显示同一海边水果摊场景中的女性全身像，戴墨镜、穿浅粉上衣和白裤，举起椰子，另一手叉腰；摊位、水果、树木和海面保留在照片内。照片覆盖全幅底图的一部分，取景与底图中的女性姿态不同。",
+      "label": "左上方无边框的横向矩形照片，显示同一海边水果摊场景中的女性全",
+      "method": "local"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        173,
+        95,
+        964,
+        272
+      ],
+      "description": "Life's better with sand between\nyour toes.Waves don't wait,neither\nshould we.",
+      "label": "Life's better with sand betwee",
+      "method": "local",
+      "text": "Life's better with sand between\nyour toes.Waves don't wait,neither\nshould we.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        411,
+        222,
+        475,
+        286
+      ],
+      "description": "文字末尾旁的黄色手绘闪光星形装饰，包含大小星芒，作为独立装饰保留。",
+      "label": "文字末尾旁的黄色手绘闪光星形装饰，包含大小星芒，作为独立装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        641,
+        1013,
+        815
+      ],
+      "description": "画面右侧海面前方的白色手绘花朵轮廓，带黄色和粉色错位描线，整体作为独立装饰保留。",
+      "label": "画面右侧海面前方的白色手绘花朵轮廓，带黄色和粉色错位描线，整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coconut_rays",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        800,
+        571,
+        975
+      ],
+      "description": "围绕底图中女性手持椰子的白色手绘短线与弧线，沿椰子及其上方、两侧分布，作为一组完整强调线装饰保留。",
+      "label": "围绕底图中女性手持椰子的白色手绘短线与弧线，沿椰子及其上方、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        887,
+        198,
+        1024
+      ],
+      "description": "画面左侧的黄色填色手绘星形，带浅蓝色外轮廓，作为独立贴画保留。",
+      "label": "画面左侧的黄色填色手绘星形，带浅蓝色外轮廓，作为独立贴画保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        1096,
+        349,
+        1208
+      ],
+      "description": "画面下方偏左的较小黄色手绘星形，带浅蓝色外轮廓，作为独立贴画保留。",
+      "label": "画面下方偏左的较小黄色手绘星形，带浅蓝色外轮廓，作为独立贴画",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_inset",
+    "overlay_sparkle",
+    "overlay_flower",
+    "overlay_coconut_rays",
+    "overlay_star_left",
+    "overlay_star_lower",
+    "text_quote"
+  ]
+}

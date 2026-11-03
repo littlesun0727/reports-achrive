@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1656
+  ],
+  "objects": [
+    {
+      "id": "background_mustache",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1656
+      ],
+      "description": "全画布浅粉色底上排列深粉色卷翘胡须图案，图案在四边及照片下方连续可见。保留底色和重复图案原样，中央独立人物照片不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布浅粉色底上排列深粉色卷翘胡须图案，图案在四边及照片下方",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        92,
+        119,
+        983,
+        1317
+      ],
+      "description": "一张竖向矩形人物近景照片：一人位于画面中央偏右，棕色刘海，戴浅粉色兜帽，穿浅色外套，颈部挂耳机，面部朝左下方，双手并拢举在脸前。左侧保留浅色天空及失焦的户外环境，衣服和手部延伸至照片下缘。完整摄影画面保留在矩形窗口内，边缘清晰，无独立相纸框体；耳机上的图案及字样随摄影内容替换。",
+      "label": "一张竖向矩形人物近景照片：一人位于画面中央偏右，棕色刘海，戴",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "background_mustache",
+    "photo_portrait"
+  ]
+}

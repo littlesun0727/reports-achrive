@@ -1,0 +1,88 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立桌面照片，浅色墙面与白色书桌构成摄影环境，桌上有打开的黑色笔记本电脑、银色台灯、螺旋笔架、印刷小卡、斑点陶瓷杯、手机及局部笔记本，无人物。完整窗口延伸至画布左边和上边，右侧与藤篮照片形成明确接缝，下部被大标题遮挡；全部桌面物品随照片替换。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立俯拍照片，棕色织物表面放着圆形藤编托盘，托盘内铺浅色毛边布，摆有粉色瓶子、木质按摩梳和白色花形物件；一只穿浅色袖子的手从左下方扶住托盘。保留完整摄影环境及全部物品，右边和上边抵达画布边缘，下部被大标题遮挡，与左侧桌面照片并不连续。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立桌面照片，白色桌面上摆有浅灰色头戴耳机、叠放的米黄色杂志和右侧斑点陶瓷杯，后方为棕色沙发、局部毛绒玩具及承托物。无完整人物，保留桌面与后方摄影环境；窗口抵达画布左边和下边，上缘与上方电脑桌照片形成独立裁切接缝，右缘杯子被窗口裁切，顶部局部被字幕遮挡。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立俯拍桌面照片，上部为笔记本电脑键盘与触控板，黑色眼镜横放其上，下部是打开的黑色活页本与空白浅色纸页，右侧有印刷卡片及局部白色编织物。无人物，保留全部摄影环境与实拍物件；显示窗口抵达画布右边和下边，与左侧耳机照片具有明确竖向接缝，上部被字幕局部遮挡。"
+    },
+    {
+      "id": "overlay_main_title",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        614,
+        1050,
+        720
+      ],
+      "description": "横跨上方两张照片下部的大标题“28岁 做自媒体的第十天”，白色粗字配厚黑色外轮廓，数字与汉字组成一行，保留字形、紧凑间距和完整描边作为独立标题装饰，不包含其下方摄影内容。"
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        255,
+        753,
+        813,
+        794
+      ],
+      "text": "全职妈妈起号第十天，差点想放弃",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_main_title",
+    "text_subtitle"
+  ]
+}

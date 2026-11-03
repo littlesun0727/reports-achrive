@@ -1,0 +1,361 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_pot",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        717
+      ],
+      "description": "上半幅独立摄影画面：木桌上的深色陶锅，锅内深色液体中漂浮多片红皮水果，锅口、锅身及右侧把手共同保留，无人物。摄影环境延伸至上、左、右画布边缘，下边在横向接缝处结束；字母、星星、音符和蓝色装饰为上层叠加，不属于实拍内容。",
+      "label": "上半幅独立摄影画面：木桌上的深色陶锅，锅内深色液体中漂浮多片",
+      "method": "local"
+    },
+    {
+      "id": "photo_notes",
+      "kind": "photo",
+      "bbox": [
+        0,
+        717,
+        1080,
+        1440
+      ],
+      "description": "下半幅独立俯拍照片：黄色承托面上叠放蓝灰、粉红及紫色纸张，前方粉红纸以黄色图钉固定，带红色印章图案、手写祝福及“Welcome to 2026”等字样。纸张、图钉、笔迹及印章均为摄影内容，整体替换。上缘与锅照片形成明确水平接缝，保留左右及底部完整摄影环境。",
+      "label": "下半幅独立俯拍照片：黄色承托面上叠放蓝灰、粉红及紫色纸张，前",
+      "method": "local"
+    },
+    {
+      "id": "overlay_letter_n",
+      "kind": "overlay",
+      "bbox": [
+        372,
+        130,
+        444,
+        202
+      ],
+      "description": "白色方块上的黑色小写字母“n”，字母与方块作为一个独立固定标签保留。",
+      "label": "白色方块上的黑色小写字母“n”，字母与方块作为一个独立固定标",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_letter_i",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        239,
+        526,
+        280
+      ],
+      "description": "粉红色小方块上的白色小写字母“i”，整体保留。",
+      "label": "粉红色小方块上的白色小写字母“i”，整体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_letter_c",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        320,
+        466,
+        379
+      ],
+      "description": "黑色方块上的白色小写字母“c”，整体保留。",
+      "label": "黑色方块上的白色小写字母“c”，整体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_letter_e",
+      "kind": "overlay",
+      "bbox": [
+        276,
+        397,
+        345,
+        467
+      ],
+      "description": "白色方块上的黑色小写字母“e”，整体保留。",
+      "label": "白色方块上的黑色小写字母“e”，整体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        246,
+        261,
+        310
+      ],
+      "description": "亮蓝色方形贴纸及中央白色五角星，作为一个完整装饰保留。",
+      "label": "亮蓝色方形贴纸及中央白色五角星，作为一个完整装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        705,
+        117,
+        753,
+        165
+      ],
+      "description": "锅内上方独立的白色五角星，略有倾斜。",
+      "label": "锅内上方独立的白色五角星，略有倾斜。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_treble",
+      "kind": "overlay",
+      "bbox": [
+        890,
+        108,
+        966,
+        309
+      ],
+      "description": "右上方黑色高音谱号，笔画内带白色点状装饰，完整曲线及点饰一起保留。",
+      "label": "右上方黑色高音谱号，笔画内带白色点状装饰，完整曲线及点饰一起",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_rectangle",
+      "kind": "overlay",
+      "bbox": [
+        759,
+        389,
+        978,
+        535
+      ],
+      "description": "锅身右侧的空心蓝色矩形线框，无独立摄影内口，不承担照片窗口功能；右下部分被蓝色螺旋贴纸遮挡。",
+      "label": "锅身右侧的空心蓝色矩形线框，无独立摄影内口，不承担照片窗口功",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        912,
+        444,
+        1007,
+        611
+      ],
+      "description": "竖向亮蓝色矩形贴纸，内部为粗白色螺旋线，整体压在空心蓝色矩形右下方。",
+      "label": "竖向亮蓝色矩形贴纸，内部为粗白色螺旋线，整体压在空心蓝色矩形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        538,
+        505,
+        584,
+        551
+      ],
+      "description": "锅身中央偏下的独立白色五角星。",
+      "label": "锅身中央偏下的独立白色五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_question_banner",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        564,
+        490,
+        673
+      ],
+      "description": "横向半透明蓝紫色渐变面板，左浅右深，带白色衬线字“How do you feel today ?”。文字与其独立面板共同构成完整标签，保留透出锅身的效果。",
+      "label": "横向半透明蓝紫色渐变面板，左浅右深，带白色衬线字“How d",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        638,
+        837,
+        829
+      ],
+      "description": "白色填充、深色细描边的向下箭头，从锅照片下部跨过两张照片的接缝，箭头尖端压在蓝灰色手写纸上。",
+      "label": "白色填充、深色细描边的向下箭头，从锅照片下部跨过两张照片的接",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        828,
+        245,
+        876
+      ],
+      "description": "下半幅左上区域的独立白色五角星，叠在紫色纸与蓝灰纸交界附近。",
+      "label": "下半幅左上区域的独立白色五角星，叠在紫色纸与蓝灰纸交界附近。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_staff",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        880,
+        512,
+        1085
+      ],
+      "description": "左侧横跨纸张的白色点状音乐装饰，由弯曲的多条谱线及附属音符组成一个完整单元；左端在画布边缘截断，细小点线整体保留。",
+      "label": "左侧横跨纸张的白色点状音乐装饰，由弯曲的多条谱线及附属音符组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_stars",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        1074,
+        1047,
+        1406
+      ],
+      "description": "右下区域的白色点阵与两枚较大的白色五角星组成的局部装饰图案，上方星位于右侧，下方星位于偏左下。点阵覆盖粉红纸，局部被问号标签、小照片及蓝色水滴遮挡，作为完整固定图案保留。",
+      "label": "右下区域的白色点阵与两枚较大的白色五角星组成的局部装饰图案，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_question_mark",
+      "kind": "overlay",
+      "bbox": [
+        741,
+        1146,
+        880,
+        1283
+      ],
+      "description": "蓝色空心方框内的白色问号，问号带蓝色轮廓，字形与方框构成一个完整装饰。方框右下部分被鞋子小照片覆盖。",
+      "label": "蓝色空心方框内的白色问号，问号带蓝色轮廓，字形与方框构成一个",
+      "method": "extract"
+    },
+    {
+      "id": "photo_shoes",
+      "kind": "photo",
+      "bbox": [
+        842,
+        1193,
+        983,
+        1334
+      ],
+      "description": "右下角独立小幅照片，俯看一人的小腿、白色袜子及黑色玛丽珍鞋，两脚分别朝向左下和右下，鞋侧可见白色翼状造型。灰色地面仍完整可见，按矩形显示，上缘裁切腿部；照片覆盖问号方框右下部分，右下角被蓝色水滴遮挡。",
+      "label": "右下角独立小幅照片，俯看一人的小腿、白色袜子及黑色玛丽珍鞋，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_black_drop",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        1260,
+        162,
+        1319
+      ],
+      "description": "文字左侧的黑色水滴形装饰，内部带密集白色小点，独立保留完整轮廓。",
+      "label": "文字左侧的黑色水滴形装饰，内部带密集白色小点，独立保留完整轮",
+      "method": "extract"
+    },
+    {
+      "id": "text_are_you_okay",
+      "kind": "text",
+      "bbox": [
+        188,
+        1267,
+        453,
+        1310
+      ],
+      "description": "Are you okay ?",
+      "label": "Are you okay ?",
+      "method": "local",
+      "text": "Are you okay ?",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_text_underline",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        1310,
+        447,
+        1314
+      ],
+      "description": "“Are you okay ?”下方的独立白色细横线，保留其长度与位置。",
+      "label": "“Are you okay ?”下方的独立白色细横线，保留其",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_drop",
+      "kind": "overlay",
+      "bbox": [
+        955,
+        1301,
+        1008,
+        1371
+      ],
+      "description": "右下方亮蓝色水滴贴纸，外缘有白色细描边，尖端覆盖鞋子照片的右下部。",
+      "label": "右下方亮蓝色水滴贴纸，外缘有白色细描边，尖端覆盖鞋子照片的右",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_pot",
+    "photo_notes",
+    "overlay_letter_n",
+    "overlay_letter_i",
+    "overlay_letter_c",
+    "overlay_letter_e",
+    "overlay_blue_star",
+    "overlay_star_top",
+    "overlay_treble",
+    "overlay_blue_rectangle",
+    "overlay_spiral",
+    "overlay_star_middle",
+    "overlay_question_banner",
+    "overlay_arrow",
+    "overlay_star_left",
+    "overlay_music_staff",
+    "overlay_dot_stars",
+    "overlay_question_mark",
+    "photo_shoes",
+    "overlay_black_drop",
+    "text_are_you_okay",
+    "overlay_text_underline",
+    "overlay_blue_drop"
+  ]
+}

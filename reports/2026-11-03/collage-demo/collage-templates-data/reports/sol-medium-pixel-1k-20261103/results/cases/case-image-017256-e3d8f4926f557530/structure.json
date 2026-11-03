@@ -1,0 +1,292 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "board_base",
+    "description": "连续的黑色、带磨损颗粒与细边框的底板延伸至画布四边；照片、纸片和文字覆盖其局部，保留底板纹理与边缘。"
+  },
+  "objects": [
+    {
+      "id": "paper_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        20,
+        252,
+        426
+      ],
+      "description": "左侧不规则浅灰白粗糙纸片，带撕裂边缘、压纹与浅色印字；包含可辨字样“CAN'T TOUCH YOU / I'M GONNA / MAKE YOU”，作为一整块固定纸面保留。"
+    },
+    {
+      "id": "photo_top_detail",
+      "kind": "photo",
+      "bbox": [
+        220,
+        29,
+        405,
+        253
+      ],
+      "description": "上方倾斜的菱形近景照片，画面可见人物眼部、手部及部分衣着，摄影环境保留在照片区域内；粗白色几何描边沿照片窗口边缘。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        228,
+        34,
+        738,
+        1058
+      ],
+      "description": "右侧大型男性人物抠图，深色头发、穿黑色西装与白衬衫，身体前倾并略低头看向画面下方；完整人物组合沿白色外轮廓显示，摄影背景不随主体保留。人物下部延伸至画布底边，右侧部分被裁切，并被左下人物及前景小卡片遮挡。"
+    },
+    {
+      "id": "photo_lower_portrait",
+      "kind": "photo",
+      "bbox": [
+        4,
+        411,
+        338,
+        1058
+      ],
+      "description": "左下男性头肩至上身肖像，黑发、穿深色西装与白衬衫，面部朝左侧；摄影背景去除，沿完整人物轮廓保留白色描边。人物下身延伸至画布底边，遮挡右侧大型人物的一部分。"
+    },
+    {
+      "id": "photo_moon",
+      "kind": "photo",
+      "bbox": [
+        12,
+        674,
+        103,
+        786
+      ],
+      "description": "左侧圆形月面近景照片，灰白月面与暗色边缘共同属于摄影画面；圆形窗口完整显示，部分被左下人物覆盖。"
+    },
+    {
+      "id": "frame_stamp",
+      "kind": "frame",
+      "bbox": [
+        395,
+        485,
+        549,
+        680
+      ],
+      "description": "竖向白色邮票造型相纸框，四边有连续齿孔状轮廓，承载中央人物照片；框体与齿孔完整保留。",
+      "photo_id": [
+        "photo_stamp"
+      ]
+    },
+    {
+      "id": "photo_stamp",
+      "kind": "photo",
+      "bbox": [
+        411,
+        500,
+        534,
+        665
+      ],
+      "description": "邮票框内竖向男性半身肖像，人物穿深色西装、白衬衫和领带，面向镜头；保留浅色摄影背景，显示范围为矩形内口。"
+    },
+    {
+      "id": "photo_dark_small",
+      "kind": "photo",
+      "bbox": [
+        521,
+        622,
+        619,
+        756
+      ],
+      "description": "右下方竖向小照片，深色人物侧影与蓝白色光线构成画面，保留照片内摄影环境；矩形照片被上方邮票区域邻近遮挡。"
+    },
+    {
+      "id": "paper_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        25,
+        701,
+        236
+      ],
+      "description": "右上浅色矩形纸片，含印刷文字与细小装饰线，顶部可辨“Life is an adventure”，其余文字作为纸面印刷内容保留。"
+    },
+    {
+      "id": "label_left_text",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        156,
+        184,
+        255
+      ],
+      "description": "左侧小型浅色印刷标签，包含韩文及英文“Don't touch, don't do it”等多行文字，带细边框与纸面质感，整体作为固定标签保留。"
+    },
+    {
+      "id": "label_left_quote",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        424,
+        116,
+        534
+      ],
+      "description": "左侧窄幅浅色文字纸条，包含“Let yourself / Just be / even in / the ...”等分行印字，底部另有小型“SAT.”标签；纸条及附属小标签作为同一固定单元保留。"
+    },
+    {
+      "id": "label_right_quotes",
+      "kind": "overlay",
+      "bbox": [
+        601,
+        381,
+        715,
+        493
+      ],
+      "description": "右侧分散排布的三枚浅色小字标签，分别含“Meet warmth and hope.”、“It's OK to walk slowly.”及“As you wish.”，各自带圆角纸边，作为一组固定文字贴纸保留。"
+    },
+    {
+      "id": "paper_center_quote",
+      "kind": "overlay",
+      "bbox": [
+        265,
+        585,
+        383,
+        794
+      ],
+      "description": "中部偏左窄幅浅色印刷纸片，露出多行英文与韩文文字，部分被前景人物和邮票框遮挡；只保留可见纸片与印字，不推测遮挡部分。"
+    },
+    {
+      "id": "label_number",
+      "kind": "overlay",
+      "bbox": [
+        552,
+        563,
+        610,
+        615
+      ],
+      "description": "邮票照片右侧的小型浅色方形编号牌，中央为大型数字“2.”，带深色边框与阴影，整体作为固定图形标签保留。"
+    },
+    {
+      "id": "overlay_barcode_top",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        238,
+        721,
+        296
+      ],
+      "description": "右上方横向条码图案及其浅色底条，右侧下缘附有小段印刷文字，作为一体固定装饰保留。"
+    },
+    {
+      "id": "overlay_barcode_lower",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        684,
+        508,
+        743
+      ],
+      "description": "中下部横向条码图案与浅色底条，位于邮票框下方区域，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_rope",
+      "kind": "overlay",
+      "bbox": [
+        375,
+        686,
+        700,
+        797
+      ],
+      "description": "中下部横向白色绳索与右侧弯曲绳圈，跨在照片与底板前方，保留完整编织纹理和弯曲轮廓。"
+    },
+    {
+      "id": "title_bad_desire",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        859,
+        562,
+        911
+      ],
+      "description": "下方中央大型标题“Bad Desire”，灰色粗体字置于浅色矩形底板上，带明显阴影与描边，字形效果和底板作为整体设计保留。"
+    },
+    {
+      "id": "label_title_subtitle",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        806,
+        636,
+        858
+      ],
+      "description": "标题上方两枚浅色文字贴纸，分别含“(With or Without You)”与“Make ordinary life poetic.”，保留各自纸边及排版。"
+    },
+    {
+      "id": "label_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        815,
+        92,
+        882
+      ],
+      "description": "左下两枚浅色小标签，分别写有“It's all fun and games”及“Sweet.”，包含底板与印字，作为固定贴纸保留。"
+    },
+    {
+      "id": "label_credits",
+      "kind": "overlay",
+      "bbox": [
+        463,
+        916,
+        714,
+        1018
+      ],
+      "description": "右下浅色长方形署名纸条，含“PILLO”及多行英文、韩文人名与括号文字，边缘有轻微阴影；文字属于纸条印刷内容。"
+    },
+    {
+      "id": "label_bottom_notes",
+      "kind": "overlay",
+      "bbox": [
+        255,
+        919,
+        419,
+        974
+      ],
+      "description": "标题下方两枚独立浅色印字标签，分别写有“Love has bound me”和“azure.”，保留纸边及各自排布。"
+    },
+    {
+      "id": "label_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        474,
+        1018,
+        641,
+        1045
+      ],
+      "description": "画布右下边缘的窄幅浅色标签，写有“We have to continue tomorrow.”，底部贴近画布边缘，作为固定文字贴纸保留。"
+    }
+  ],
+  "layer_order": [
+    "paper_left",
+    "paper_upper_right",
+    "label_left_text",
+    "label_left_quote",
+    "photo_moon",
+    "photo_top_detail",
+    "photo_main",
+    "photo_lower_portrait",
+    "photo_stamp",
+    "frame_stamp",
+    "photo_dark_small",
+    "label_right_quotes",
+    "label_number",
+    "paper_center_quote",
+    "overlay_barcode_top",
+    "overlay_barcode_lower",
+    "overlay_rope",
+    "label_title_subtitle",
+    "title_bad_desire",
+    "label_lower_left",
+    "label_bottom_notes",
+    "label_credits",
+    "label_bottom_right"
+  ]
+}

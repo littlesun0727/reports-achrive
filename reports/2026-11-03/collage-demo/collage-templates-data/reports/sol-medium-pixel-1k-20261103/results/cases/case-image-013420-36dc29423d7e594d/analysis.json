@@ -1,0 +1,128 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        550,
+        735
+      ],
+      "description": "左上竖向户外照片，单人男性戴眼镜、穿黑白印花上衣和白色短裤，站在玻璃建筑旁的人行广场上，面向镜头微笑并抬手比姿势；建筑、树木和铺地均属于同一摄影画面。右侧与上缘被相邻照片及标题局部覆盖，内侧接缝呈柔和融合。",
+      "label": "左上竖向户外照片，单人男性戴眼镜、穿黑白印花上衣和白色短裤，",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        535,
+        0,
+        1080,
+        735
+      ],
+      "description": "右上横向海景照片，画面为蓝色海面、远山和天空，浪花涌向右下方沙滩；不含人物。左侧与上缘被相邻照片及标题局部覆盖，内侧接缝呈柔和融合。",
+      "label": "右上横向海景照片，画面为蓝色海面、远山和天空，浪花涌向右下方",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        710,
+        555,
+        1440
+      ],
+      "description": "左下竖向商业广场照片，绿树位于上方，前景为带有可见商场标识和中文招牌的弧形石质水景墙及喷泉；招牌文字属于摄影内容并随照片替换。上缘被标题覆盖，右缘与相邻照片柔和融合。",
+      "label": "左下竖向商业广场照片，绿树位于上方，前景为带有可见商场标识和",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        530,
+        710,
+        1080,
+        1440
+      ],
+      "description": "右下夜间情侣照片，一名长发女性手捧花束，与穿黑白印花上衣的男性相拥对视；两人位于画面下半部，后方有深色背景、帘幕和暖色灯串。上缘被英文装饰字覆盖，左缘与相邻照片柔和融合。",
+      "label": "右下夜间情侣照片，一名长发女性手捧花束，与穿黑白印花上衣的男",
+      "method": "local"
+    },
+    {
+      "id": "overlay_chinese_title",
+      "kind": "overlay",
+      "bbox": [
+        307,
+        548,
+        782,
+        716
+      ],
+      "description": "白色大型中文书法艺术字“海棠湾”，横跨上方海景与下方照片接缝，笔画有明显手写飞白和不规则轮廓，作为完整字形设计保留。",
+      "label": "白色大型中文书法艺术字“海棠湾”，横跨上方海景与下方照片接缝",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_san",
+      "kind": "overlay",
+      "bbox": [
+        302,
+        776,
+        560,
+        886
+      ],
+      "description": "白色粗笔刷风格大写艺术字“SAN”，横置于下半画面左上区域，部分覆盖树木照片并靠近两张下方照片的接缝，保留原有字形造型。",
+      "label": "白色粗笔刷风格大写艺术字“SAN”，横置于下半画面左上区域，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_birthday_me",
+      "kind": "overlay",
+      "bbox": [
+        596,
+        713,
+        1040,
+        921
+      ],
+      "description": "白色细线手写艺术字“Birthday Me”，带有延伸弧线与淡灰色偏移描边，横跨下方照片上缘并覆盖夜景情侣照片一部分；作为整体装饰字样保留。",
+      "label": "白色细线手写艺术字“Birthday Me”，带有延伸弧线与",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_chinese_title",
+    "overlay_san",
+    "overlay_birthday_me"
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_gray",
+    "description": "全画布连续的灰色颗粒纹理底图，上部深灰、向下逐渐过渡为浅灰白色，四边及对象间隙均可见同一纹理和明暗变化。保留底图原样，照片、卡片、文字和装饰分别清除，不把它们并入底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        82,
+        573,
+        289
+      ],
+      "description": "粉色手绘标题“HAPPY MOMENT”，分成两行，笔画长短、字母大小和角度不规则，完整保留其特殊字形与排布。"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        82,
+        793,
+        230
+      ],
+      "description": "浅粉色手绘笑脸，由两道竖向眼睛、宽弧形嘴和两侧浅蓝色短波浪点缀组成，作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        188,
+        970,
+        359
+      ],
+      "description": "右上相互叠压的浅蓝色与浅粉色五角星装饰，带少量白色高光笔触，粉色星在蓝色星前方，整体保留。"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        299,
+        808,
+        389
+      ],
+      "description": "白色立体小狗头装饰，垂耳带粉色渐变，蓝色眼鼻与粉色腮红，包含柔和立体明暗及边缘。"
+    },
+    {
+      "id": "overlay_palette_bubble",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        414,
+        927,
+        571
+      ],
+      "description": "浅粉色白点图案对话泡泡，内含三个棕色至浅粉灰色圆点，左下有连体泡泡及一个独立小圆点，全部属于同一装饰。"
+    },
+    {
+      "id": "frame_music",
+      "kind": "frame",
+      "bbox": [
+        137,
+        300,
+        638,
+        587
+      ],
+      "photo_id": [
+        "photo_music_flowers"
+      ],
+      "description": "圆角音乐播放器卡片，上部浅粉、下部近白，左侧承载一张方形照片。保留右侧“歌曲：”“★幸福进行时刻・・・・★”印字、下方收藏星、上一首、暂停、下一首和耳机图标及卡片边缘。"
+    },
+    {
+      "id": "photo_music_flowers",
+      "kind": "photo",
+      "bbox": [
+        165,
+        342,
+        366,
+        543
+      ],
+      "description": "方形花店近景照片，白色、橙色、黄色、淡紫色花束密集排列，可见花桶和深色店内环境，无人物。完整保留摄影背景，四角呈圆弧显示。"
+    },
+    {
+      "id": "overlay_white_bubble",
+      "kind": "overlay",
+      "bbox": [
+        386,
+        426,
+        649,
+        476
+      ],
+      "description": "叠在音乐卡片右侧的空白白色圆角对话条，左下带短小尖尾，包含下方柔和阴影，右端越过卡片边缘。"
+    },
+    {
+      "id": "overlay_waveform",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        597,
+        250,
+        625
+      ],
+      "description": "音乐卡片下方独立的深灰色声波装饰，由高低不同的短竖线横向排列组成。"
+    },
+    {
+      "id": "overlay_toolbar",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        647,
+        356,
+        720
+      ],
+      "description": "浅粉色圆角胶囊工具条，底板布满小灰粉爱心，内部依次为白色电池、双对话气泡和相机图标；底板、纹样和图标整体保留。"
+    },
+    {
+      "id": "frame_grid",
+      "kind": "frame",
+      "bbox": [
+        405,
+        605,
+        965,
+        1318
+      ],
+      "photo_id": [
+        "photo_grid_flowers",
+        "photo_grid_toys",
+        "photo_grid_candles",
+        "photo_grid_orange_flower"
+      ],
+      "description": "大型浅粉色圆角四格照片卡，四个圆角照片窗口按两行两列排列，下方留宽纸边。保留底部黑色返回箭头、省略号、加号及居中的小型表情符号装饰，包含框体边缘和轻微阴影。"
+    },
+    {
+      "id": "photo_grid_flowers",
+      "kind": "photo",
+      "bbox": [
+        428,
+        627,
+        674,
+        873
+      ],
+      "description": "左上方形花卉近景，两朵白色花在前方，后方有花枝、浅色洞洞板与室内器物，无人物。保留完整摄影环境，显示窗口四角圆润。"
+    },
+    {
+      "id": "photo_grid_toys",
+      "kind": "photo",
+      "bbox": [
+        694,
+        627,
+        940,
+        873
+      ],
+      "description": "右上方形静物照片，绿色背景前摆着花盆造型玩具、橙红色郁金香和白色卡通容器，后方有带“UOOHA littles”字样的包装。器物、包装印字及环境均随照片替换，窗口四角圆润。"
+    },
+    {
+      "id": "photo_grid_candles",
+      "kind": "photo",
+      "bbox": [
+        428,
+        894,
+        674,
+        1140
+      ],
+      "description": "左下方形静物照片，浅粉与灰绿色玻璃罐蜡烛位于前景，上方可见更多玻璃瓶和浅色货架环境，无人物。保留完整摄影环境，窗口四角圆润；左下另有独立黑色叠加文字。"
+    },
+    {
+      "id": "photo_grid_orange_flower",
+      "kind": "photo",
+      "bbox": [
+        694,
+        894,
+        940,
+        1140
+      ],
+      "description": "右下方形花卉近景，一朵橙黄色大花朝向镜头，周围有花苞和绿叶，后方可见棕色瓶子及白色洞洞板。保留完整摄影环境，窗口四角圆润。"
+    },
+    {
+      "id": "text_its_me",
+      "kind": "text",
+      "bbox": [
+        439,
+        1119,
+        513,
+        1135
+      ],
+      "text": "It's me.",
+      "color": "#171717",
+      "font": "mono",
+      "align": "left",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "photo_small_left",
+      "kind": "photo",
+      "bbox": [
+        102,
+        863,
+        240,
+        1002
+      ],
+      "description": "左侧较低位置的小方形花店照片，密集白、橙、黄和淡紫花束及花桶共同入镜，无人物，保留摄影环境。右上部分被另一张小照片及其选择框遮挡，不缩减完整照片窗口。"
+    },
+    {
+      "id": "frame_small_left",
+      "kind": "frame",
+      "bbox": [
+        85,
+        845,
+        263,
+        1022
+      ],
+      "photo_id": [
+        "photo_small_left"
+      ],
+      "description": "左下小照片外围的浅粉色编辑选择框，细矩形边线配白色方形角点和边中控制点。保留全部可见控制点，右上部分被右侧照片组合遮挡。"
+    },
+    {
+      "id": "photo_small_right",
+      "kind": "photo",
+      "bbox": [
+        230,
+        798,
+        374,
+        944
+      ],
+      "description": "左侧较高位置的小方形花店照片，花枝、花束和室内窗格构成画面，与左下照片取景不同，无人物。保留摄影环境，左下角叠压另一张小照片。"
+    },
+    {
+      "id": "frame_small_right",
+      "kind": "frame",
+      "bbox": [
+        211,
+        781,
+        391,
+        961
+      ],
+      "photo_id": [
+        "photo_small_right"
+      ],
+      "description": "右上小照片外围的浅粉色编辑选择框，细矩形边线配白色方形角点与边中控制点，底边和左下控制点位于左下照片组合之上。"
+    },
+    {
+      "id": "text_take",
+      "kind": "text",
+      "bbox": [
+        143,
+        762,
+        228,
+        782
+      ],
+      "text": "Takeeeee",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_group",
+      "kind": "text",
+      "bbox": [
+        299,
+        959,
+        347,
+        979
+      ],
+      "text": "group",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_photo",
+      "kind": "text",
+      "bbox": [
+        37,
+        1023,
+        115,
+        1042
+      ],
+      "text": "photooooo",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_aaa",
+      "kind": "text",
+      "bbox": [
+        391,
+        860,
+        430,
+        881
+      ],
+      "text": "aaa",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_tiny_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        831,
+        100,
+        847
+      ],
+      "description": "左侧小照片上方的三枚白色细线空心五角星，横向紧邻排列，作为一组装饰保留。"
+    },
+    {
+      "id": "overlay_tiny_star_top",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        766,
+        407,
+        784
+      ],
+      "description": "右上小照片选择框外侧的一枚白色细线空心五角星。"
+    },
+    {
+      "id": "overlay_tiny_stars_bottom",
+      "kind": "overlay",
+      "bbox": [
+        262,
+        1023,
+        291,
+        1040
+      ],
+      "description": "小照片组合下方的两枚白色细线空心五角星，成对保留。"
+    },
+    {
+      "id": "overlay_small_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        299,
+        1020,
+        338,
+        1061
+      ],
+      "description": "浅粉色小五角星贴纸，内部布满细小点状纹样，完整保留星形轮廓与图案。"
+    },
+    {
+      "id": "overlay_large_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        1043,
+        393,
+        1115
+      ],
+      "description": "较大的浅粉色五角星贴纸，内部为深色小圆点图案，星角略不规则，独立于左上小星。"
+    },
+    {
+      "id": "overlay_look",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        1053,
+        242,
+        1113
+      ],
+      "description": "浅蓝色手绘“Look”字样，字母大小不一并有轻微倾斜，保留圆润笔画与特殊排布。"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        1116,
+        198,
+        1181
+      ],
+      "description": "白色手绘卷曲向下箭头，线条绕圈后指向下方蓝莓盒，整体保留。"
+    },
+    {
+      "id": "photo_blueberries",
+      "kind": "photo",
+      "bbox": [
+        132,
+        1130,
+        446,
+        1391
+      ],
+      "description": "独立显示的一盒蓝莓静物，无人物。完整主体组合包括倾斜的透明塑料盒、盒内蓝莓、搭在盒边的粉色叉子及带印字的粉色心形小牌；沿物品整体轮廓去除原摄影背景，保留透明盒边、反光和柔和阴影。"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        791,
+        1223,
+        968,
+        1350
+      ],
+      "description": "右下角立体爱心组合，大号粉色渐变爱心前方叠着小号乳白色爱心，包含高光和立体明暗；覆盖四格照片卡的右下纸边。"
+    }
+  ],
+  "layer_order": [
+    "frame_music",
+    "photo_music_flowers",
+    "overlay_white_bubble",
+    "overlay_waveform",
+    "overlay_toolbar",
+    "photo_small_left",
+    "frame_small_left",
+    "photo_small_right",
+    "frame_small_right",
+    "text_take",
+    "text_group",
+    "text_photo",
+    "text_aaa",
+    "overlay_tiny_stars_left",
+    "overlay_tiny_star_top",
+    "overlay_tiny_stars_bottom",
+    "frame_grid",
+    "photo_grid_flowers",
+    "photo_grid_toys",
+    "photo_grid_candles",
+    "photo_grid_orange_flower",
+    "text_its_me",
+    "overlay_small_pink_star",
+    "overlay_large_pink_star",
+    "overlay_look",
+    "overlay_arrow",
+    "photo_blueberries",
+    "overlay_hearts",
+    "overlay_title",
+    "overlay_smile",
+    "overlay_top_stars",
+    "overlay_dog",
+    "overlay_palette_bubble"
+  ]
+}

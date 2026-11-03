@@ -1,0 +1,261 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1447
+  ],
+  "objects": [
+    {
+      "id": "background_wall",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1447
+      ],
+      "description": "连续覆盖全画布的深色涂鸦墙摄影环境，墙面纹理和大面积黑灰明暗延伸至四边；中央人物、键盘、骰子、手部、纸张、相框与文字作为上层独立构图元素遮挡局部墙面。",
+      "background_type": "photo",
+      "label": "连续覆盖全画布的深色涂鸦墙摄影环境，墙面纹理和大面积黑灰明暗",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "keyboard_graphic",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        809,
+        1080,
+        1447
+      ],
+      "description": "一条斜向延伸的黑白键盘图形，完整可见部分位于右下和左下区域，中段被中央人物遮挡，作为独立固定设计元素保留。",
+      "label": "一条斜向延伸的黑白键盘图形，完整可见部分位于右下和左下区域，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_center_figure",
+      "kind": "photo",
+      "bbox": [
+        320,
+        218,
+        832,
+        1447
+      ],
+      "description": "中央男性全身摄影主体，短发、黑色高领短袖和长裤，面向前方站立，双手插入口袋；按主体轮廓独立显示，摄影背景去除，身体下部延伸至画布底边。",
+      "label": "中央男性全身摄影主体，短发、黑色高领短袖和长裤，面向前方站立",
+      "method": "local"
+    },
+    {
+      "id": "dice_pair",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        992,
+        291,
+        1247
+      ],
+      "description": "左下方两枚深色立体骰子，带有圆形点数和高光纹理，作为独立悬浮装饰保留。",
+      "label": "左下方两枚深色立体骰子，带有圆形点数和高光纹理，作为独立悬浮",
+      "method": "extract"
+    },
+    {
+      "id": "gloves",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        418,
+        347,
+        578
+      ],
+      "description": "左侧悬浮的深色手套组合，包含两只带白色标记和字样的手套，保留完整轮廓、褶皱和印刷细节。",
+      "label": "左侧悬浮的深色手套组合，包含两只带白色标记和字样的手套，保留",
+      "method": "extract"
+    },
+    {
+      "id": "helmet_object",
+      "kind": "overlay",
+      "bbox": [
+        814,
+        448,
+        1080,
+        741
+      ],
+      "description": "右侧黑色圆形头盔或器具状装饰，带白色矩形标记、细长支架和右缘被裁切的附属结构，作为独立固定图形保留。",
+      "label": "右侧黑色圆形头盔或器具状装饰，带白色矩形标记、细长支架和右缘",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_portrait",
+      "kind": "photo",
+      "bbox": [
+        699,
+        88,
+        980,
+        404
+      ],
+      "description": "右上方竖向黑白男性肖像照片，人物侧身面向左侧并吹泡泡，头肩和浅色服装位于灰色摄影背景中，显示为独立矩形照片窗口。",
+      "label": "右上方竖向黑白男性肖像照片，人物侧身面向左侧并吹泡泡，头肩和",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_portrait",
+      "kind": "frame",
+      "bbox": [
+        673,
+        59,
+        1004,
+        453
+      ],
+      "description": "承载右上方肖像的倾斜白色拍立得相纸框，底部带有白色区域和黑色手写装饰字样，覆盖照片边缘并保留完整纸张轮廓。",
+      "photo_id": [
+        "photo_top_portrait"
+      ],
+      "label": "承载右上方肖像的倾斜白色拍立得相纸框，底部带有白色区域和黑色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left_portrait",
+      "kind": "photo",
+      "bbox": [
+        36,
+        668,
+        306,
+        923
+      ],
+      "description": "左侧倾斜的黑白男性肖像照片，人物低头侧向右侧，穿深色服装并抬手触碰颈部，保留照片内的灰色背景和完整矩形显示范围。",
+      "label": "左侧倾斜的黑白男性肖像照片，人物低头侧向右侧，穿深色服装并抬",
+      "method": "local"
+    },
+    {
+      "id": "frame_left_portrait",
+      "kind": "frame",
+      "bbox": [
+        18,
+        631,
+        322,
+        975
+      ],
+      "description": "承载左侧肖像的倾斜白色拍立得相纸框，底部带有黑色手写装饰字样，完整保留纸张边缘和照片窗口。",
+      "photo_id": [
+        "photo_left_portrait"
+      ],
+      "label": "承载左侧肖像的倾斜白色拍立得相纸框，底部带有黑色手写装饰字样",
+      "method": "extract"
+    },
+    {
+      "id": "paper_page",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        359,
+        373
+      ],
+      "description": "左上角卷起的白色纸张或页面装饰，带有黑色大标题和数行英文说明文字，右下角形成弧形卷边并遮挡后方墙面，文字与纸张作为同一固定设计单元保留。",
+      "label": "左上角卷起的白色纸张或页面装饰，带有黑色大标题和数行英文说明",
+      "method": "extract"
+    },
+    {
+      "id": "center_name",
+      "kind": "overlay",
+      "bbox": [
+        291,
+        947,
+        689,
+        1130
+      ],
+      "description": "叠加在中央人物腰腹区域的白色手写艺术字，两行排列，内容可辨为“Farez Harrison”；字形具有独立笔画造型和装饰性，作为完整艺术字单元保留。",
+      "label": "叠加在中央人物腰腹区域的白色手写艺术字，两行排列，内容可辨为",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_rule",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        1267,
+        677,
+        1277
+      ],
+      "description": "底部标题上方的一条细白色水平装饰线，作为独立固定排版元素保留。",
+      "label": "底部标题上方的一条细白色水平装饰线，作为独立固定排版元素保留",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_title",
+      "kind": "text",
+      "bbox": [
+        51,
+        1274,
+        677,
+        1321
+      ],
+      "description": "PIANOSOME PERSONIFIED",
+      "label": "PIANOSOME PERSONIFIED",
+      "method": "local",
+      "text": "PIANOSOME PERSONIFIED",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "bottom_tagline",
+      "kind": "text",
+      "bbox": [
+        45,
+        1322,
+        680,
+        1372
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_hand",
+      "kind": "photo",
+      "bbox": [
+        778,
+        1168,
+        1080,
+        1447
+      ],
+      "description": "右下角伸入画面的手部摄影主体，手指向上弯曲并佩戴多枚戒指，沿主体轮廓去除背景，带有明显白色描边，右侧和下侧被画布裁切。",
+      "label": "右下角伸入画面的手部摄影主体，手指向上弯曲并佩戴多枚戒指，沿",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "background_wall",
+    "keyboard_graphic",
+    "dice_pair",
+    "gloves",
+    "helmet_object",
+    "photo_center_figure",
+    "photo_top_portrait",
+    "frame_top_portrait",
+    "photo_left_portrait",
+    "frame_left_portrait",
+    "paper_page",
+    "center_name",
+    "bottom_rule",
+    "bottom_title",
+    "bottom_tagline",
+    "photo_hand"
+  ]
+}

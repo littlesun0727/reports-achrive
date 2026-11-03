@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的户外摄影画面铺满画布，树木、灌木与草地环绕一名站立者；人物大部分被前景相片卡遮挡，画面底部露出裤腿和白鞋。四边及卡片间隙的环境连续，整幅摄影环境与人物作为可替换底图保留。"
+  },
+  "objects": [
+    {
+      "id": "frame_upper_left",
+      "kind": "frame",
+      "bbox": [
+        124,
+        185,
+        561,
+        795
+      ],
+      "description": "左上方倾斜的白色拍立得式相纸，带宽白边与较宽下沿，承载一张竖幅照片；右下区域被右侧横幅卡片遮挡。",
+      "photo_id": [
+        "photo_upper_left"
+      ]
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        148,
+        246,
+        547,
+        771
+      ],
+      "description": "左上竖幅照片，一名长发女性穿白色制服、跪坐在园路上，手持展开的黄色雨伞；树木和石路保留在照片环境内，照片随相纸倾斜，右侧局部被相邻卡片遮挡。"
+    },
+    {
+      "id": "frame_upper_right",
+      "kind": "frame",
+      "bbox": [
+        544,
+        394,
+        1066,
+        787
+      ],
+      "description": "右上方横向白色相纸，带均匀白边，承载一张横幅照片；左侧压住左上相纸的局部。",
+      "photo_id": [
+        "photo_upper_right"
+      ]
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        570,
+        413,
+        1030,
+        765
+      ],
+      "description": "右上横幅照片，一名长发女性穿白色制服，站在树荫下手持合拢的黄色雨伞；保留园林摄影环境。"
+    },
+    {
+      "id": "frame_lower_right",
+      "kind": "frame",
+      "bbox": [
+        539,
+        785,
+        1035,
+        1511
+      ],
+      "description": "右下方竖向白色拍立得式相纸，底边较宽，承载一张竖幅照片；左侧中段被左下横幅相纸遮挡。",
+      "photo_id": [
+        "photo_lower_right"
+      ]
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        840,
+        1009,
+        1438
+      ],
+      "description": "右下竖幅照片，一名长发女性穿白色制服、手持展开的黄色雨伞，呈站立近景；树木与园路仍可见，照片左侧局部被前景相纸遮挡。"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        34,
+        793,
+        550,
+        1180
+      ],
+      "description": "左下方横向白色相纸，带宽白边，承载一张横幅照片；其右侧覆盖右下竖向相纸的局部。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        67,
+        808,
+        514,
+        1162
+      ],
+      "description": "左下横幅照片，一名长发女性穿白色制服、跪坐在园路上并手持展开的黄色雨伞；保留树木与石路环境，照片随相纸位于右下卡片前方。"
+    }
+  ],
+  "layer_order": [
+    "frame_upper_left",
+    "photo_upper_left",
+    "frame_upper_right",
+    "photo_upper_right",
+    "frame_lower_right",
+    "photo_lower_right",
+    "frame_lower_left",
+    "photo_lower_left"
+  ]
+}

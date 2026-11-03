@@ -1,0 +1,335 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1922
+  ],
+  "objects": [
+    {
+      "id": "patterned_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1922
+      ],
+      "description": "浅蓝白色全画布底图，均匀重复的蓝色圆点延伸至四边，并在照片之间及边缘露出；保留底色与圆点纹样，独立照片和涂鸦不属于底图。",
+      "background_type": "reference_clean",
+      "label": "浅蓝白色全画布底图，均匀重复的蓝色圆点延伸至四边，并在照片之",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cards",
+      "kind": "photo",
+      "bbox": [
+        75,
+        101,
+        601,
+        398
+      ],
+      "description": "左上方横向俯拍照片，多名学生围坐在草地上伸手展示卡牌，人物和草地共同构成完整摄影画面，白色放射状手绘线覆盖照片左下区域。",
+      "label": "左上方横向俯拍照片，多名学生围坐在草地上伸手展示卡牌，人物和",
+      "method": "local"
+    },
+    {
+      "id": "photo_field_crowd",
+      "kind": "photo",
+      "bbox": [
+        615,
+        170,
+        1043,
+        411
+      ],
+      "description": "右上方横向校园草地集体活动照片，前景背对镜头的学生、远处人群、教学楼和蓝天均保留在摄影画面中，白色音乐符号涂鸦覆盖天空区域。",
+      "label": "右上方横向校园草地集体活动照片，前景背对镜头的学生、远处人群",
+      "method": "local"
+    },
+    {
+      "id": "photo_skewers",
+      "kind": "photo",
+      "bbox": [
+        38,
+        477,
+        394,
+        677
+      ],
+      "description": "左侧横向俯拍照片，学生坐在草地上手持烤串，画面包含人物、烤串和地面；右下区域叠有白色手绘字样与小图形。",
+      "label": "左侧横向俯拍照片，学生坐在草地上手持烤串，画面包含人物、烤串",
+      "method": "local"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        432,
+        457,
+        1058,
+        809
+      ],
+      "description": "右侧大型横向照片，多名学生围着并举起装有食物的托盘，人物、托盘和周围环境共同保留；左侧与中部可见白色星形涂鸦。照片下缘覆盖其下方左侧饮料照片的一部分。",
+      "label": "右侧大型横向照片，多名学生围着并举起装有食物的托盘，人物、托",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        69,
+        740,
+        526,
+        998
+      ],
+      "description": "左侧竖向照片，近景手持一瓶可口可乐，后方可见人物衣袖及校园环境，瓶身印字属于摄影内容。白色手绘标记及青色手写字样覆盖照片；右下被上层校园队列照片局部遮挡。",
+      "label": "左侧竖向照片，近景手持一瓶可口可乐，后方可见人物衣袖及校园环",
+      "method": "local"
+    },
+    {
+      "id": "photo_queue",
+      "kind": "photo",
+      "bbox": [
+        476,
+        900,
+        1018,
+        1205
+      ],
+      "description": "右侧横向校园照片，学生在草地上排成长队并弯腰参与活动，背景为教学楼和蓝天；草地上覆盖白色数字、星形及小圆点涂鸦。其左上部分压住下方左侧人物照片。",
+      "label": "右侧横向校园照片，学生在草地上排成长队并弯腰参与活动，背景为",
+      "method": "local"
+    },
+    {
+      "id": "photo_fan",
+      "kind": "photo",
+      "bbox": [
+        63,
+        1089,
+        558,
+        1368
+      ],
+      "description": "左侧横向近景，两名学生坐在人群中，前景学生举扇遮住部分脸部，身后可见校园活动现场；照片上方覆盖浅色手绘对话气泡，右上附近另有白色涂鸦。",
+      "label": "左侧横向近景，两名学生坐在人群中，前景学生举扇遮住部分脸部，",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        608,
+        1240,
+        1005,
+        1464
+      ],
+      "description": "右侧横向俯拍照片，一群学生围坐成圈参与活动，草地、遮阳布和周围学生均属于摄影画面。",
+      "label": "右侧横向俯拍照片，一群学生围坐成圈参与活动，草地、遮阳布和周",
+      "method": "local"
+    },
+    {
+      "id": "photo_number_sign",
+      "kind": "photo",
+      "bbox": [
+        38,
+        1396,
+        429,
+        1657
+      ],
+      "description": "左下横向近景，学生双手举起写有大号红色数字“0869”的手绘纸牌，纸牌文字及背景人群均属于照片内容；左上方有白色闪光涂鸦。",
+      "label": "左下横向近景，学生双手举起写有大号红色数字“0869”的手绘",
+      "method": "local"
+    },
+    {
+      "id": "photo_track",
+      "kind": "photo",
+      "bbox": [
+        575,
+        1493,
+        1055,
+        1814
+      ],
+      "description": "右下横向校园操场照片，远处教学楼台阶前有一名活动参与者，前景包含红色跑道、地垫及部分人物；白色星形涂鸦覆盖建筑与跑道区域。",
+      "label": "右下横向校园操场照片，远处教学楼台阶前有一名活动参与者，前景",
+      "method": "local"
+    },
+    {
+      "id": "photo_medals",
+      "kind": "photo",
+      "bbox": [
+        224,
+        1663,
+        530,
+        1893
+      ],
+      "description": "底部偏左竖向照片，数枚奖牌悬挂在教学楼窗户前，背景建筑与奖牌共同保留在摄影画面中；奖牌右侧叠有白色星形、圆点和小星形涂鸦。",
+      "label": "底部偏左竖向照片，数枚奖牌悬挂在教学楼窗户前，背景建筑与奖牌",
+      "method": "local"
+    },
+    {
+      "id": "doodle_cards",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        212,
+        220,
+        385
+      ],
+      "description": "覆盖卡牌照片左下部的白色放射状手绘线条和末端小点，作为一个完整的独立涂鸦单元保留。",
+      "label": "覆盖卡牌照片左下部的白色放射状手绘线条和末端小点，作为一个完",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_music",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        179,
+        932,
+        270
+      ],
+      "description": "覆盖右上照片天空的白色手绘音符、旗状符号和小装饰线，整体作为一组独立涂鸦保留。",
+      "label": "覆盖右上照片天空的白色手绘音符、旗状符号和小装饰线，整体作为",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_skewers",
+      "kind": "overlay",
+      "bbox": [
+        219,
+        556,
+        374,
+        661
+      ],
+      "description": "覆盖烤串照片右下区域的白色手绘字样、线条和小菱形图案，整体保留为独立涂鸦。",
+      "label": "覆盖烤串照片右下区域的白色手绘字样、线条和小菱形图案，整体保",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_food",
+      "kind": "overlay",
+      "bbox": [
+        472,
+        485,
+        720,
+        710
+      ],
+      "description": "覆盖食物照片左侧及中部的白色空心星形和实心星形涂鸦，按完整可见范围作为一个装饰组合保留。",
+      "label": "覆盖食物照片左侧及中部的白色空心星形和实心星形涂鸦，按完整可",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_drink",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        747,
+        478,
+        984
+      ],
+      "description": "覆盖饮料照片的白色强调线、手绘轮廓和青色手写字样，笔画与周围小装饰共同构成一个独立涂鸦组合。",
+      "label": "覆盖饮料照片的白色强调线、手绘轮廓和青色手写字样，笔画与周围",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_queue",
+      "kind": "overlay",
+      "bbox": [
+        543,
+        1058,
+        819,
+        1148
+      ],
+      "description": "覆盖队列照片草地的白色手绘数字、星形和圆点装饰，作为一组固定涂鸦保留。",
+      "label": "覆盖队列照片草地的白色手绘数字、星形和圆点装饰，作为一组固定",
+      "method": "extract"
+    },
+    {
+      "id": "speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        1024,
+        388,
+        1100
+      ],
+      "description": "位于左侧人物照片上方的浅色手绘对话气泡，内有青色中文手写字样“是谁被加了16张牌？”，包含气泡轮廓与指向人物照片的小尖角，整体保留为独立装饰。",
+      "label": "位于左侧人物照片上方的浅色手绘对话气泡，内有青色中文手写字样",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_fan",
+      "kind": "overlay",
+      "bbox": [
+        372,
+        1105,
+        553,
+        1207
+      ],
+      "description": "覆盖左侧人物照片右上区域的白色手绘线条与小星形装饰，按可见的完整涂鸦组合保留。",
+      "label": "覆盖左侧人物照片右上区域的白色手绘线条与小星形装饰，按可见的",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_number_sign",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        1409,
+        112,
+        1494
+      ],
+      "description": "覆盖数字纸牌照片左上附近的白色闪光形手绘装饰，整体作为独立涂鸦保留。",
+      "label": "覆盖数字纸牌照片左上附近的白色闪光形手绘装饰，整体作为独立涂",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_track",
+      "kind": "overlay",
+      "bbox": [
+        673,
+        1560,
+        780,
+        1655
+      ],
+      "description": "覆盖操场照片中的白色手绘星形，完整轮廓作为独立装饰保留。",
+      "label": "覆盖操场照片中的白色手绘星形，完整轮廓作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_medals",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        1760,
+        507,
+        1870
+      ],
+      "description": "覆盖奖牌照片右侧的白色星形、圆环和小星形涂鸦，作为一个完整装饰组合保留。",
+      "label": "覆盖奖牌照片右侧的白色星形、圆环和小星形涂鸦，作为一个完整装",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "patterned_base",
+    "photo_cards",
+    "photo_field_crowd",
+    "photo_skewers",
+    "photo_drink",
+    "photo_food",
+    "photo_fan",
+    "photo_queue",
+    "photo_circle",
+    "photo_number_sign",
+    "photo_track",
+    "photo_medals",
+    "doodle_cards",
+    "doodle_music",
+    "doodle_skewers",
+    "doodle_food",
+    "doodle_drink",
+    "doodle_queue",
+    "speech_bubble",
+    "doodle_fan",
+    "doodle_number_sign",
+    "doodle_track",
+    "doodle_medals"
+  ]
+}

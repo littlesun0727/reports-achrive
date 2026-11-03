@@ -1,0 +1,252 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "blue_fabric_background",
+    "description": "连续覆盖整张画布的浅蓝色织物纹理底图，边缘、照片间隙和各固定单元周围均保持同一细密蓝白纤维与网格质感；人物、照片、纸片、票据和装饰均为独立对象，底图本身保留原样。"
+  },
+  "objects": [
+    {
+      "id": "frame_left_polaroid",
+      "kind": "frame",
+      "bbox": [
+        64,
+        107,
+        312,
+        876
+      ],
+      "description": "左侧竖向白色拍立得相纸框，包含三个上下排列的独立照片窗口，保留白色边框、分隔留白和纸张阴影。",
+      "photo_id": [
+        "photo_left_top",
+        "photo_left_middle",
+        "photo_left_bottom"
+      ]
+    },
+    {
+      "id": "photo_left_top",
+      "kind": "photo",
+      "bbox": [
+        82,
+        125,
+        287,
+        343
+      ],
+      "description": "左侧拍立得最上方的近距离人物照片，画面中可见金发人物的脸部、手部和深色耳饰或吊坠，摄影环境保留在矩形窗口内。"
+    },
+    {
+      "id": "photo_left_middle",
+      "kind": "photo",
+      "bbox": [
+        83,
+        365,
+        292,
+        580
+      ],
+      "description": "左侧拍立得中间的人物近景照片，一名闭眼的金发人物靠近白色风扇，人物面向画面右侧，室内摄影环境保留在窗口内。"
+    },
+    {
+      "id": "photo_left_bottom",
+      "kind": "photo",
+      "bbox": [
+        86,
+        608,
+        293,
+        825
+      ],
+      "description": "左侧拍立得下方的俯拍人物照片，一名金发人物躺在深色地面与白色几何区域之间，身体和头发姿态完整显示，摄影环境保留。"
+    },
+    {
+      "id": "frame_center_gingham",
+      "kind": "frame",
+      "bbox": [
+        350,
+        402,
+        697,
+        891
+      ],
+      "description": "中央红白格纹照片承托框，带有宽格纹边缘、底部延伸的纸质结构和轻微阴影，承载中央单张照片。",
+      "photo_id": [
+        "photo_center_umbrella"
+      ]
+    },
+    {
+      "id": "photo_center_umbrella",
+      "kind": "photo",
+      "bbox": [
+        376,
+        439,
+        672,
+        790
+      ],
+      "description": "中央矩形人物照片，一名卷发人物穿白色外套和浅色服装，在透明雨伞下站立并面向前方，背后可见蓝色雨伞、栏杆和绿色植物等摄影环境；照片窗口边缘清晰，未单独去除环境。"
+    },
+    {
+      "id": "frame_keychain_device",
+      "kind": "frame",
+      "bbox": [
+        766,
+        119,
+        1022,
+        568
+      ],
+      "description": "右上方银白色便携设备与钥匙扣整体固定框体，包含金属环、链条、装置外壳、底部三个圆形按键以及右侧粉色心形挂件，装置中央形成单张照片窗口。",
+      "photo_id": [
+        "photo_keychain_portrait"
+      ]
+    },
+    {
+      "id": "photo_keychain_portrait",
+      "kind": "photo",
+      "bbox": [
+        799,
+        376,
+        924,
+        490
+      ],
+      "description": "钥匙扣设备屏幕内的竖向人物近景照片，一名浅色头发人物闭眼或低头，面部和肩部位于屏幕窗口中，摄影环境随屏幕照片替换。"
+    },
+    {
+      "id": "overlay_receipt",
+      "kind": "overlay",
+      "bbox": [
+        764,
+        909,
+        1001,
+        1412
+      ],
+      "description": "右下方白色餐馆小票或点菜单纸片，带蓝色横线网格、顶部蓝色标题、红色日期和大号蓝色手写字样“Would\nyou be\nmine?”，连同纸张边缘、印刷细节和底部收据区域整体保留。"
+    },
+    {
+      "id": "overlay_label_would",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        301,
+        437,
+        384
+      ],
+      "description": "左上方倾斜的粉色撕纸标签，带黑色手写艺术字“Would”和纸张边缘阴影，独立压在左侧拍立得与中央区域之间。"
+    },
+    {
+      "id": "overlay_label_you",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        374,
+        513,
+        447
+      ],
+      "description": "中央上方倾斜的粉色撕纸标签，带黑色手写艺术字“You”，作为独立纸片叠在中央格纹框上沿。"
+    },
+    {
+      "id": "overlay_label_be",
+      "kind": "overlay",
+      "bbox": [
+        643,
+        765,
+        731,
+        828
+      ],
+      "description": "中央右下方的小块灰白纹理纸标签，带黑色手写字样“Be”，压在格纹框和邻近区域上方。"
+    },
+    {
+      "id": "overlay_label_mine",
+      "kind": "overlay",
+      "bbox": [
+        643,
+        837,
+        813,
+        915
+      ],
+      "description": "中央右下方的粉色撕纸标签，带黑色手写艺术字“Mine”，位于灰白标签下方并与右下纸片区域相邻。"
+    },
+    {
+      "id": "photo_cutout_woman",
+      "kind": "photo",
+      "bbox": [
+        222,
+        742,
+        501,
+        1082
+      ],
+      "description": "前景抠图人物，一名穿粉色束身服和浅色内衣的金发女性坐姿或半身姿态，左手下垂，右臂向右上方伸展；摄影背景被去除，人物轮廓带白色边缘描边，覆盖中央格纹框下部和左侧区域。"
+    },
+    {
+      "id": "overlay_label_sunmi",
+      "kind": "overlay",
+      "bbox": [
+        219,
+        1059,
+        359,
+        1121
+      ],
+      "description": "前景人物下方的粉色矩形纸标签，带白色手写字样“Sunmi”和纸张阴影，压在人物下缘附近。"
+    },
+    {
+      "id": "overlay_center_star",
+      "kind": "overlay",
+      "bbox": [
+        634,
+        349,
+        737,
+        461
+      ],
+      "description": "中央照片右上方的粉红色尖角星形贴纸，带浅色边缘和轻微纸张阴影，独立覆盖中央格纹框上沿。"
+    },
+    {
+      "id": "overlay_receipt_star",
+      "kind": "overlay",
+      "bbox": [
+        946,
+        963,
+        1007,
+        1029
+      ],
+      "description": "收据右上侧的粉红色星形贴纸，带白色小点和浅色边缘，压在收据纸片上。"
+    },
+    {
+      "id": "overlay_button_brown",
+      "kind": "overlay",
+      "bbox": [
+        726,
+        1164,
+        782,
+        1214
+      ],
+      "description": "收据左侧的棕色圆形纽扣装饰，带浅色孔洞和缝线细节，独立叠在纸片边缘。"
+    },
+    {
+      "id": "overlay_button_beige",
+      "kind": "overlay",
+      "bbox": [
+        976,
+        1287,
+        1032,
+        1354
+      ],
+      "description": "收据右侧的米白与棕色圆形纽扣装饰，带十字孔和缝线纹理，压在收据纸片边缘。"
+    }
+  ],
+  "layer_order": [
+    "frame_left_polaroid",
+    "photo_left_top",
+    "photo_left_middle",
+    "photo_left_bottom",
+    "frame_center_gingham",
+    "photo_center_umbrella",
+    "frame_keychain_device",
+    "photo_keychain_portrait",
+    "overlay_receipt",
+    "overlay_center_star",
+    "overlay_receipt_star",
+    "overlay_label_would",
+    "overlay_label_you",
+    "overlay_label_be",
+    "overlay_label_mine",
+    "photo_cutout_woman",
+    "overlay_label_sunmi",
+    "overlay_button_brown",
+    "overlay_button_beige"
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        656
+      ],
+      "description": "上方横向海岸风景照片，无人物。左侧为宽阔水面，上方为多云天空，右侧褐色草坡与岩岸向远处连续延伸，近处山坡占据右下角。保留完整摄影环境，显示窗口到达画布上边及左右边，下边与蓝色面板形成清晰水平分界，不延伸为全画布底图。"
+    },
+    {
+      "id": "overlay_lower_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        656,
+        1080,
+        1080
+      ],
+      "description": "下方横贯画布的均匀灰蓝色局部面板，承接四张错落排列的小照片及底部标题；没有独立框沿或照片内口结构，作为局部固定排版底板保留，不扩展至上方风景区域。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        107,
+        787,
+        366,
+        933
+      ],
+      "description": "左侧横向照片，一人戴红色帽子、穿深色外套，侧身坐在枯黄草坡上，双腿向右伸出，身后为蓝色水面。人物较小，位于照片左下部；保留草坡与水面的完整摄影环境，矩形边界清晰。"
+    },
+    {
+      "id": "photo_center_top",
+      "kind": "photo",
+      "bbox": [
+        393,
+        671,
+        687,
+        836
+      ],
+      "description": "中央上方横向风景照片，无人物。蓝天白云位于上部，水面居左，层叠褐色海岸山坡从右侧伸向远处，前景为枯黄草地。完整保留摄影环境，独立矩形窗口，与上方大照片取景不同。"
+    },
+    {
+      "id": "photo_center_bottom",
+      "kind": "photo",
+      "bbox": [
+        394,
+        858,
+        687,
+        1023
+      ],
+      "description": "中央下方横向照片，一名穿深色外套的人背对镜头，在金黄色草地上张开双臂，人物位于下部偏右，身体下端被照片底边裁切。天空占较大比例，云层间透出阳光，左侧可见远处电力设施；摄影环境完整保留，边界为矩形。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        716,
+        783,
+        976,
+        929
+      ],
+      "description": "右侧横向水岸照片，无人物。上部为蓝天与层叠白灰云，中部为深蓝色水面，下部为较暗的岸滩，岸线略向右上倾斜。保留完整摄影环境，与其他照片之间露出蓝色面板，矩形显示边界清晰。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        440,
+        1037,
+        640,
+        1075
+      ],
+      "description": "底部居中的标题装饰，黑色手写字“呼伦湖”位于两条黑色竖线之间，背后为横向浅白色发光底片，左右边缘柔化融入蓝色面板。字形、竖线及渐淡底片共同构成完整固定设计。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1054,
+        1075,
+        1073
+      ],
+      "description": "画布右下角低对比度的浅蓝灰色圆角胶囊状小标记，内部带难以辨认的细小字样；轮廓和内部印字整体作为独立固定标记保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "overlay_lower_panel",
+    "photo_left",
+    "photo_center_top",
+    "photo_center_bottom",
+    "photo_right",
+    "overlay_title",
+    "overlay_watermark"
+  ]
+}

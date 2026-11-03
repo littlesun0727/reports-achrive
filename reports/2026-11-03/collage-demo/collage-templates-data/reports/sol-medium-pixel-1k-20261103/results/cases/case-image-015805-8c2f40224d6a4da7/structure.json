@@ -1,0 +1,40 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的山间道路摄影画面覆盖整个画布：上方为蓝天白云，左侧是绿色山坡，公路与蓝色护栏延伸至下方，右侧有白色建筑及围墙，无可辨人物。四边露出的天空、山坡、道路和建筑具有场景连续性，中央被独立照片及相纸框遮挡；完整摄影环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        236,
+        202,
+        725,
+        695
+      ],
+      "description": "中央近方形照片，完整保留山间公路、绿色山坡、蓝天白云、蓝色护栏及右侧白色建筑，无可辨人物。道路从下方通向中央远处，取景比全画布照片更宽，作为独立照片窗口替换。摄影环境保留，没有沿主体去背景或透明渐隐，四边受相纸内口限定。"
+    },
+    {
+      "id": "frame_marble",
+      "kind": "frame",
+      "bbox": [
+        198,
+        144,
+        763,
+        820
+      ],
+      "description": "中央竖向浅粉白色大理石纹相纸框，具有灰粉色纹路、细微纸面质感、略切角的外轮廓及右侧和下方投影。单个近方形照片内口带细窄暗边，上沿和左右边较窄，下沿明显较宽；框沿围住照片边缘，纹理与阴影整体保留。",
+      "photo_id": [
+        "photo_center"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_center",
+    "frame_marble"
+  ]
+}

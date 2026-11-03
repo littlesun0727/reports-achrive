@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_dotted_fabric",
+    "description": "黑色全画布固定底图，均匀分布白色圆点，并在上方保留白色蝴蝶结与波浪虚线装饰；该纹理和装饰延伸至四边，中央花边垫、卡片、信封及照片均为上层独立单元。"
+  },
+  "objects": [
+    {
+      "id": "overlay_lace_doily",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        282,
+        808,
+        1387
+      ],
+      "description": "中央竖向椭圆蕾丝花边垫，包含完整的白色扇形花边、灰白网格纹理、内圈装饰和阴影边缘，作为独立固定装饰保留，位于卡片与信封后方。"
+    },
+    {
+      "id": "overlay_decorative_card",
+      "kind": "overlay",
+      "bbox": [
+        179,
+        460,
+        503,
+        927
+      ],
+      "description": "位于左上方并向右下倾斜的白色装饰卡片，保留蕾丝边框、细金色花纹、卷曲字样与纸张质感；卡片下部被照片和黑色信封遮挡。"
+    },
+    {
+      "id": "frame_black_envelope",
+      "kind": "frame",
+      "bbox": [
+        176,
+        541,
+        725,
+        1223
+      ],
+      "description": "承载照片的黑色信封及其固定外壳，包含完整的矩形照片承托区域、深色纸张材质、折叠线和边缘阴影；其下部前襟被单独的前景装饰覆盖。",
+      "photo_id": [
+        "photo_birthday_portrait"
+      ]
+    },
+    {
+      "id": "photo_birthday_portrait",
+      "kind": "photo",
+      "bbox": [
+        280,
+        542,
+        721,
+        1007
+      ],
+      "description": "竖向矩形生日照片，显示室内环境中的一名年轻女性，正面偏向镜头、以手托脸，面前有带草莓和红色蝴蝶结装饰的小蛋糕；人物、桌面、厨房柜台、瓶子和暗色室内背景共同属于可替换摄影内容。照片上缘和两侧完整可见，下部被黑色信封前襟遮挡，窗口边缘保持矩形显示。"
+    },
+    {
+      "id": "overlay_envelope_front",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        837,
+        725,
+        1223
+      ],
+      "description": "黑色信封前襟及其固定装饰，覆盖生日照片下部，包含折叠三角边、中央银色圆形封缄、阴影和白色立体手写体字样“Happy Birthday”；文字与信封材质、描边和阴影作为同一固定设计单元保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_lace_doily",
+    "overlay_decorative_card",
+    "frame_black_envelope",
+    "photo_birthday_portrait",
+    "overlay_envelope_front"
+  ]
+}

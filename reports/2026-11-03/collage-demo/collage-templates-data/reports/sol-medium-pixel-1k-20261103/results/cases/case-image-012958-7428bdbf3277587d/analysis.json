@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        541,
+        721
+      ],
+      "description": "左上矩形桌面照片，木纹墙与桌面构成完整摄影环境。左侧笔记本电脑屏幕显示多人影像，右侧摆有红眼镜玩偶、文具、绿色玻璃瓶和小灯，底部露出蝴蝶图案纸卡。所有桌面物品及屏幕内容随照片替换；下缘被标题局部遮挡，与右侧、下侧照片有明确裁切接缝。",
+      "label": "左上矩形桌面照片，木纹墙与桌面构成完整摄影环境。左侧笔记本电",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        541,
+        0,
+        1080,
+        721
+      ],
+      "description": "右上俯拍静物照片，棕色粗织地毯上摆有耳机、小灯、杂志、木框及黑白条纹织物，右侧两包海苔覆盖织物。包装和杂志上的文字均属于实拍内容。完整保留摄影环境，四边为拼接裁切边界，下缘被标题遮挡；与左上照片的视角和内容不连续。",
+      "label": "右上俯拍静物照片，棕色粗织地毯上摆有耳机、小灯、杂志、木框及",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        721,
+        541,
+        1440
+      ],
+      "description": "左下俯拍静物照片，棕色粗织地毯上方放置显示紫色天空与山野风景的平板，下方分布红色唇部化妆品、两盒腮红及一盒多色眼影。屏幕影像和包装文字均随整张照片替换。保留完整摄影环境，上缘被标题局部遮挡，右缘与餐盘照片形成垂直接缝。",
+      "label": "左下俯拍静物照片，棕色粗织地毯上方放置显示紫色天空与山野风景",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        541,
+        721,
+        1080,
+        1440
+      ],
+      "description": "右下桌面照片，前景白色圆盘装有花菜和肉类菜肴，盘子下缘被画布裁切；后方左侧是播放人物影像的笔记本电脑，右侧是红眼镜玩偶、小灯及带图文的桌面收纳物。保留整张照片的桌面环境和实拍文字，上部被标题及粉丝数装饰遮挡，与左上照片为独立取景。",
+      "label": "右下桌面照片，前景白色圆盘装有花菜和肉类菜肴，盘子下缘被画布",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        679,
+        978,
+        761
+      ],
+      "description": "横跨四张照片交界处的单行标题“26岁 幼师裸辞勇闯Plog第5天”，白色粗字带厚黑色外轮廓，字面紧密排布。作为完整固定字样保留其字形、描边及原有间距，不包含下方粉丝数。",
+      "label": "横跨四张照片交界处的单行标题“26岁 幼师裸辞勇闯Plog第",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_followers",
+      "kind": "overlay",
+      "bbox": [
+        613,
+        779,
+        887,
+        821
+      ],
+      "description": "位于右下照片上部的粉丝数装饰，黄色发光星形符号与“粉丝数：485”组成一行，文字为白色字面配黑色描边。星形、文字及边缘效果作为同一完整固定单元保留。",
+      "label": "位于右下照片上部的粉丝数装饰，黄色发光星形符号与“粉丝数：4",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_title",
+    "overlay_followers"
+  ]
+}

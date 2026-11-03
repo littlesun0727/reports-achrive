@@ -1,0 +1,196 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "paper_header",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        368
+      ],
+      "description": "顶部横贯画布的浅灰白纸质底板，具有连续的纤维与凹凸纹理，下边缘水平结束于下方摄影区域。仅承载标题、文字和日历，不是全画布底图；纸纹整体保留，叠加内容另列。",
+      "label": "顶部横贯画布的浅灰白纸质底板，具有连续的纤维与凹凸纹理，下边",
+      "method": "extract"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        367,
+        1080,
+        1440
+      ],
+      "description": "下方完整室内竖幅摄影画面：一名长发女子站在右侧，微笑看向镜头，一手向左上方摊掌，另一手靠在身侧；左侧木质玻璃柜陈列杯碗，柜顶有两只笑脸陶器，底部可见干花枝。保留墙面、柜体及全部摄影环境。顶部止于纸质区域的水平接缝，局部被佛像、悬浮餐碗及社交照片卡遮挡，不扩展为全画布底图。",
+      "label": "下方完整室内竖幅摄影画面：一名长发女子站在右侧，微笑看向镜头",
+      "method": "local"
+    },
+    {
+      "id": "photo_statue",
+      "kind": "photo",
+      "bbox": [
+        65,
+        318,
+        348,
+        855
+      ],
+      "description": "独立陶瓷坐姿佛像照片，戴冠、灰白披衣配橙色袍服，手持小器物，坐于深褐色岩石状底座，左侧附有蓝色小器物。整组沿外轮廓去除摄影背景，外缘有浅桃白色宽描边及柔和阴影；冠顶越过主照片上缘叠到纸底，底座覆盖柜体，与主照片没有连续出框关系。",
+      "label": "独立陶瓷坐姿佛像照片，戴冠、灰白披衣配橙色袍服，手持小器物，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bowl",
+      "kind": "photo",
+      "bbox": [
+        443,
+        400,
+        763,
+        623
+      ],
+      "description": "独立俯视餐碗照片，浅色碗内有橙色食物、绿色叶片和中央红白色甜点，顶端有亮白火焰状细节。完整保留碗沿及碗内食物组合，碗外摄影环境沿轮廓去除，边缘有轻微柔化和暗影，悬浮叠在主照片墙面及陶器上方。",
+      "label": "独立俯视餐碗照片，浅色碗内有橙色食物、绿色叶片和中央红白色甜",
+      "method": "local"
+    },
+    {
+      "id": "frame_social",
+      "kind": "frame",
+      "bbox": [
+        94,
+        914,
+        372,
+        1308
+      ],
+      "description": "略倾斜的白色社交平台照片卡，包含顶部圆形头像与“Braided girl”、右上小点、底部红心及评论分享收藏图标和多行小字，首行可辨“2022 qixi qingrenjie turan haoxiangni”。纸卡边缘、印字、头像及界面图标整体保留；中央只有一个独立照片窗口。",
+      "photo_id": [
+        "photo_bouquet"
+      ],
+      "label": "略倾斜的白色社交平台照片卡，包含顶部圆形头像与“Braide",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bouquet",
+      "kind": "photo",
+      "bbox": [
+        110,
+        960,
+        355,
+        1208
+      ],
+      "description": "社交照片卡内的独立室内照片，一名短发戴眼镜男子正面微笑，穿浅色上衣，胸前抱着黄色包装的大束浅色鲜花。保留厨房电器、柜体等摄影环境，完整显示范围为随纸卡略倾斜的矩形内口，人物和花束均不延伸到窗口外。",
+      "label": "社交照片卡内的独立室内照片，一名短发戴眼镜男子正面微笑，穿浅",
+      "method": "local"
+    },
+    {
+      "id": "overlay_april",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        20,
+        339,
+        112
+      ],
+      "description": "左上蓝绿色“April”标题，具有粗糙、不规则的打字机式衬线笔画和特定字形轮廓，作为完整艺术字保留。",
+      "label": "左上蓝绿色“April”标题，具有粗糙、不规则的打字机式衬线",
+      "method": "extract"
+    },
+    {
+      "id": "text_notes",
+      "kind": "text",
+      "bbox": [
+        36,
+        147,
+        578,
+        309
+      ],
+      "description": "*生日月，我又大一岁啦\n每天都是比前一天更好的自己\n*在景德镇收了很多好看的餐具",
+      "label": "*生日月，我又大一岁啦\n每天都是比前一天更好的自己\n*在景德",
+      "method": "local",
+      "text": "*生日月，我又大一岁啦\n每天都是比前一天更好的自己\n*在景德镇收了很多好看的餐具",
+      "text_status": "known",
+      "style": {
+        "fill": "#286A75",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        449,
+        72,
+        548,
+        169
+      ],
+      "description": "标题区上方的彩色手绘笑脸花朵，红、黄、橙、粉、绿花瓣围绕黄色笑脸花心，各花瓣带蜡笔式纹理及浅色边缘，作为一枚完整贴纸保留。",
+      "label": "标题区上方的彩色手绘笑脸花朵，红、黄、橙、粉、绿花瓣围绕黄色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_calendar",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        37,
+        978,
+        322
+      ],
+      "description": "右上完整四月日历设计，黑色“4月”标题下为七列日期网格，首行从1至5，末行从27至30；21、22、23分别叠在蓝绿色粗糙圆形色块上。保留日期的独立网格位置、标题与三处标记，作为一个固定日历单元。",
+      "label": "右上完整四月日历设计，黑色“4月”标题下为七列日期网格，首行",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_bubble",
+      "kind": "overlay",
+      "bbox": [
+        878,
+        473,
+        1028,
+        559
+      ],
+      "description": "右上墙面上的浅黄色手绘对话框装饰，圆角框下方带左向尾巴，内部有叉、括弧、蛋糕切片及餐刀线条。蛋糕带白黄分层与红色顶部点缀，整个气泡及内部图案作为一体装饰保留。",
+      "label": "右上墙面上的浅黄色手绘对话框装饰，圆角框下方带左向尾巴，内部",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "paper_header",
+    "photo_main",
+    "photo_statue",
+    "photo_bowl",
+    "frame_social",
+    "photo_bouquet",
+    "overlay_april",
+    "text_notes",
+    "overlay_flower",
+    "overlay_calendar",
+    "overlay_food_bubble"
+  ]
+}

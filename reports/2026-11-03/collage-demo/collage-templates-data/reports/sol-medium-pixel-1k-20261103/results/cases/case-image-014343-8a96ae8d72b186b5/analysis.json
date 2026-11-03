@@ -1,0 +1,657 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1536,
+    1024
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "description": "全画布为浅米色细颗粒纸纹底，四边有金棕色双线边框、内凹圆弧转角、卷草及小菱形装饰。相同纸纹连续出现在画布边缘和照片间隙；保留纸纹及原有金色印刷设计，清除其上的独立照片与白色手绘装饰，不将照片纳入固定底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅米色细颗粒纸纹底，四边有金棕色双线边框、内凹圆弧转",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_large",
+      "kind": "photo",
+      "bbox": [
+        75,
+        63,
+        681,
+        946
+      ],
+      "description": "左侧大幅竖向照片，一名短卷发男子穿米色外套、棕色上衣和白裤，站立低头看右手的黑色电话听筒，左手插袋。脚边有浅色黑带提包，身后为石质柜台、墙面公告和时钟，前景为木地板，完整保留摄影环境。照片四角圆弧，沿显示窗口有细浅金色边线；白色涂鸦另列。",
+      "label": "左侧大幅竖向照片，一名短卷发男子穿米色外套、棕色上衣和白裤，",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        700,
+        68,
+        936,
+        356
+      ],
+      "description": "右侧九宫格左上照片，一名男子从头部至大腿上部入镜，左手插袋，低头看右手电话听筒，保留深色墙面、公告和石质柜台。独立圆角矩形窗口，边缘有细浅色线，与左侧大图分别裁切。",
+      "label": "右侧九宫格左上照片，一名男子从头部至大腿上部入镜，左手插袋，",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        940,
+        68,
+        1185,
+        356
+      ],
+      "description": "九宫格上中照片，一名男子胸腰以上近景，闭眼仰头朝右侧，米色外套内穿棕色上衣，保留后方墙面、时钟及柜台。独立圆角矩形窗口，带细浅色边线。",
+      "label": "九宫格上中照片，一名男子胸腰以上近景，闭眼仰头朝右侧，米色外",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        1189,
+        68,
+        1449,
+        356
+      ],
+      "description": "九宫格右上照片，一名男子半身低头微笑看右手黑色电话听筒，保留身后公告、暗墙和柜台。独立圆角矩形窗口，细浅色边线及右上角沿窗口弧线的短白色虚线依附照片边缘。其余白色涂鸦独立保留。",
+      "label": "九宫格右上照片，一名男子半身低头微笑看右手黑色电话听筒，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        700,
+        360,
+        936,
+        645
+      ],
+      "description": "九宫格中左照片，一名男子近景侧向右方微笑，将黑色电话听筒举在耳边，下方可见手臂和电话线，保留暗色墙面及柜台。照片为独立圆角矩形窗口，沿窗口有细浅色线。",
+      "label": "九宫格中左照片，一名男子近景侧向右方微笑，将黑色电话听筒举在",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        940,
+        360,
+        1185,
+        645
+      ],
+      "description": "九宫格正中照片，一名男子全身站在石质柜台旁，侧向右方，左手插袋、右手持电话，脚边有浅色黑带提包，保留墙面、时钟、柜台和木地板。独立圆角矩形窗口，带细浅色边线。",
+      "label": "九宫格正中照片，一名男子全身站在石质柜台旁，侧向右方，左手插",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        1189,
+        360,
+        1449,
+        645
+      ],
+      "description": "九宫格中右照片，一名男子胸部以上近景，面向右方微笑，保留暗色墙面与下方柜台，右下可见场景内的电话设备。独立圆角矩形窗口，带细浅色边线。",
+      "label": "九宫格中右照片，一名男子胸部以上近景，面向右方微笑，保留暗色",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        700,
+        650,
+        936,
+        934
+      ],
+      "description": "九宫格左下照片，一名男子低头整理浅色黑带提包，双手位于包口附近，画面裁至大腿附近；保留身后暗墙和石质柜台。独立圆角矩形窗口，带细浅色边线。",
+      "label": "九宫格左下照片，一名男子低头整理浅色黑带提包，双手位于包口附",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        940,
+        650,
+        1185,
+        934
+      ],
+      "description": "九宫格下中照片，一名男子半身面向左方，右手举浅色外带杯到嘴边，保留暗墙和柜台摄影环境。独立圆角矩形窗口，带细浅色边线，杯子属于摄影内容。",
+      "label": "九宫格下中照片，一名男子半身面向左方，右手举浅色外带杯到嘴边",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        1189,
+        650,
+        1449,
+        934
+      ],
+      "description": "九宫格右下照片，一名男子背对镜头向右回头，举起右手挥手，肩背浅色黑带提包，保留公告、墙面和柜台，人物下身被窗口底边裁切。独立圆角矩形窗口，带细浅色边线。",
+      "label": "九宫格右下照片，一名男子背对镜头向右回头，举起右手挥手，肩背",
+      "method": "local"
+    },
+    {
+      "id": "doodle_large_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        73,
+        122,
+        110
+      ],
+      "description": "大照片左上角两枚上下错落的白色实心四角星，作为一组紧邻的手绘点缀保留。",
+      "label": "大照片左上角两枚上下错落的白色实心四角星，作为一组紧邻的手绘",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_hi",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        108,
+        306,
+        207
+      ],
+      "description": "白色手绘对话气泡，内有“Hi~”和两枚空心小爱心，气泡尾部、字形和爱心共同构成完整装饰。",
+      "label": "白色手绘对话气泡，内有“Hi~”和两枚空心小爱心，气泡尾部、",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_large_left_spark",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        231,
+        153,
+        310
+      ],
+      "description": "大照片左侧白色空心四角闪光及其下方短弧线、短斜线点缀，保留手绘线条的完整局部组合。",
+      "label": "大照片左侧白色空心四角闪光及其下方短弧线、短斜线点缀，保留手",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_large_left_ticks",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        335,
+        97,
+        374
+      ],
+      "description": "大照片左边缘露出的数条白色短线点缀，线条到照片边缘处截断。",
+      "label": "大照片左边缘露出的数条白色短线点缀，线条到照片边缘处截断。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_large_lower_stars",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        691,
+        145,
+        784
+      ],
+      "description": "大照片左下方一组白色闪光点缀，包含小空心星、细十字和较大的空心四角星。",
+      "label": "大照片左下方一组白色闪光点缀，包含小空心星、细十字和较大的空",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_telephone",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        727,
+        224,
+        895
+      ],
+      "description": "左下白色手绘老式转盘电话，包含听筒、电话机外形、转盘细节和向左上延伸的卷曲电话线。电话线跨出大照片进入纸底，整个相连设计作为一个固定装饰保留。",
+      "label": "左下白色手绘老式转盘电话，包含听筒、电话机外形、转盘细节和向",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_large_bottom_curve",
+      "kind": "overlay",
+      "bbox": [
+        529,
+        818,
+        673,
+        973
+      ],
+      "description": "大照片右下角白色连续曲线涂鸦，多次回环后向左下延伸，跨越照片底边进入纸底，整体保留。",
+      "label": "大照片右下角白色连续曲线涂鸦，多次回环后向左下延伸，跨越照片",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_left_side",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        119,
+        744,
+        224
+      ],
+      "description": "九宫格左上照片左侧白色空心四角星及下方几组短线，形成沿窗口左侧分布的手绘闪光装饰。",
+      "label": "九宫格左上照片左侧白色空心四角星及下方几组短线，形成沿窗口左",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_left_cross",
+      "kind": "overlay",
+      "bbox": [
+        898,
+        110,
+        924,
+        143
+      ],
+      "description": "九宫格左上照片右上方白色细线十字闪光，带短射线和小圆点。",
+      "label": "九宫格左上照片右上方白色细线十字闪光，带短射线和小圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_left_phone_ticks",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        185,
+        926,
+        241
+      ],
+      "description": "九宫格左上照片电话听筒周围的两组白色短弧线、斜线和小点，作为围绕持电话动作的局部点缀保留，不包含摄影中的听筒或手。",
+      "label": "九宫格左上照片电话听筒周围的两组白色短弧线、斜线和小点，作为",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_heart_sun",
+      "kind": "overlay",
+      "bbox": [
+        954,
+        80,
+        1012,
+        135
+      ],
+      "description": "九宫格上中照片左上角白色爱心太阳图案，圆圈内有小爱心，外围一圈长短射线，整体保留。",
+      "label": "九宫格上中照片左上角白色爱心太阳图案，圆圈内有小爱心，外围一",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_center_head_ticks",
+      "kind": "overlay",
+      "bbox": [
+        991,
+        155,
+        1012,
+        181
+      ],
+      "description": "九宫格上中照片人物头部左侧三条白色短线，构成独立的小射线点缀。",
+      "label": "九宫格上中照片人物头部左侧三条白色短线，构成独立的小射线点缀",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_center_left_star",
+      "kind": "overlay",
+      "bbox": [
+        962,
+        213,
+        976,
+        230
+      ],
+      "description": "九宫格上中照片左侧一枚白色小四角闪光。",
+      "label": "九宫格上中照片左侧一枚白色小四角闪光。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_center_right_cluster",
+      "kind": "overlay",
+      "bbox": [
+        1128,
+        163,
+        1176,
+        266
+      ],
+      "description": "九宫格上中照片右侧竖向散布的白色小星、弯曲短线、圆点和闪光符号，保留这一局部手绘点缀组合。",
+      "label": "九宫格上中照片右侧竖向散布的白色小星、弯曲短线、圆点和闪光符",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_right_star",
+      "kind": "overlay",
+      "bbox": [
+        1207,
+        111,
+        1223,
+        128
+      ],
+      "description": "九宫格右上照片左上方一枚白色实心四角星。",
+      "label": "九宫格右上照片左上方一枚白色实心四角星。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_right_heart_bubble",
+      "kind": "overlay",
+      "bbox": [
+        1380,
+        124,
+        1433,
+        169
+      ],
+      "description": "九宫格右上照片右上部的白色手绘对话气泡，内部为白色爱心，气泡尾部与爱心一体保留。",
+      "label": "九宫格右上照片右上部的白色手绘对话气泡，内部为白色爱心，气泡",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_right_music",
+      "kind": "overlay",
+      "bbox": [
+        1357,
+        188,
+        1438,
+        253
+      ],
+      "description": "九宫格右上照片电话附近的白色音符、短射线和弯曲符号，作为围绕电话动作的一组局部音乐涂鸦保留。",
+      "label": "九宫格右上照片电话附近的白色音符、短射线和弯曲符号，作为围绕",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_top_right_left_ticks",
+      "kind": "overlay",
+      "bbox": [
+        1207,
+        170,
+        1233,
+        195
+      ],
+      "description": "九宫格右上照片人物左肩附近数条白色短线和小点。",
+      "label": "九宫格右上照片人物左肩附近数条白色短线和小点。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_hello",
+      "kind": "overlay",
+      "bbox": [
+        853,
+        388,
+        932,
+        449
+      ],
+      "description": "九宫格中左照片右上部白色手绘气泡，内有“hello~”、小爱心及点状装饰。保留气泡外形、尾部和特殊手写字形，不拆为普通文字。",
+      "label": "九宫格中左照片右上部白色手绘气泡，内有“hello~”、小爱",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_left_rays",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        428,
+        734,
+        474
+      ],
+      "description": "九宫格中左照片人物头部左侧的白色放射短线和弧线。",
+      "label": "九宫格中左照片人物头部左侧的白色放射短线和弧线。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_left_phone_rays",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        473,
+        864,
+        511
+      ],
+      "description": "九宫格中左照片人物持电话一侧的三条白色短射线。",
+      "label": "九宫格中左照片人物持电话一侧的三条白色短射线。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_left_stars",
+      "kind": "overlay",
+      "bbox": [
+        902,
+        548,
+        935,
+        577
+      ],
+      "description": "九宫格中左照片右下区域两枚相邻的白色空心四角星。",
+      "label": "九宫格中左照片右下区域两枚相邻的白色空心四角星。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_center_heart",
+      "kind": "overlay",
+      "bbox": [
+        1082,
+        393,
+        1100,
+        413
+      ],
+      "description": "九宫格正中照片人物头部右侧白色手绘空心爱心。",
+      "label": "九宫格正中照片人物头部右侧白色手绘空心爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_center_cord",
+      "kind": "overlay",
+      "bbox": [
+        1083,
+        420,
+        1121,
+        580
+      ],
+      "description": "九宫格正中照片人物右侧白色断续弯曲长线，自手持电话附近向下蜿蜒，叠在柜台前面，作为独立绘制的线条装饰保留。",
+      "label": "九宫格正中照片人物右侧白色断续弯曲长线，自手持电话附近向下蜿",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_right_left_star",
+      "kind": "overlay",
+      "bbox": [
+        1227,
+        442,
+        1243,
+        459
+      ],
+      "description": "九宫格中右照片人物左侧一枚白色实心四角星。",
+      "label": "九宫格中右照片人物左侧一枚白色实心四角星。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_right_upper_spark",
+      "kind": "overlay",
+      "bbox": [
+        1383,
+        431,
+        1413,
+        464
+      ],
+      "description": "九宫格中右照片右上部白色空心闪光，四周有短射线与小圆点，整体保留。",
+      "label": "九宫格中右照片右上部白色空心闪光，四周有短射线与小圆点，整体",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_right_ticks",
+      "kind": "overlay",
+      "bbox": [
+        1371,
+        473,
+        1404,
+        517
+      ],
+      "description": "九宫格中右照片人物面部右侧的白色短弧线、短射线和小弯曲符号。",
+      "label": "九宫格中右照片人物面部右侧的白色短弧线、短射线和小弯曲符号。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_middle_right_lower_star",
+      "kind": "overlay",
+      "bbox": [
+        1407,
+        560,
+        1425,
+        577
+      ],
+      "description": "九宫格中右照片右下部一枚白色细线空心四角星。",
+      "label": "九宫格中右照片右下部一枚白色细线空心四角星。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_bottom_left_bag_rays",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        750,
+        919,
+        826
+      ],
+      "description": "九宫格左下照片人物手部和提包上方的白色放射线，长短线条呈半环状围绕动作区域，不包含摄影中的手和包。",
+      "label": "九宫格左下照片人物手部和提包上方的白色放射线，长短线条呈半环",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_coffee",
+      "kind": "overlay",
+      "bbox": [
+        1110,
+        671,
+        1172,
+        769
+      ],
+      "description": "九宫格下中照片右上部手写“Coffee”、上下空心爱心和下方杯碟小图案，具有独立错落位置，作为完整白色咖啡主题装饰保留。",
+      "label": "九宫格下中照片右上部手写“Coffee”、上下空心爱心和下方",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_bottom_center_cup_rays",
+      "kind": "overlay",
+      "bbox": [
+        941,
+        734,
+        960,
+        777
+      ],
+      "description": "九宫格下中照片左边缘、摄影杯子左侧的白色短射线。",
+      "label": "九宫格下中照片左边缘、摄影杯子左侧的白色短射线。",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_bottom_center_shoulder_cluster",
+      "kind": "overlay",
+      "bbox": [
+        1106,
+        773,
+        1166,
+        845
+      ],
+      "description": "九宫格下中照片人物右肩附近的白色短射线、小点、曲线及空心闪光，形成一个紧邻的局部装饰组合。",
+      "label": "九宫格下中照片人物右肩附近的白色短射线、小点、曲线及空心闪光",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_see_you",
+      "kind": "overlay",
+      "bbox": [
+        1196,
+        717,
+        1277,
+        767
+      ],
+      "description": "九宫格右下照片左上部白色手写“See you”及右上、下方的小空心爱心，保留字词错落位置与附属图案。",
+      "label": "九宫格右下照片左上部白色手写“See you”及右上、下方的",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_bottom_right_hand_rays",
+      "kind": "overlay",
+      "bbox": [
+        1389,
+        658,
+        1436,
+        721
+      ],
+      "description": "九宫格右下照片举起的手周围白色短弧线、射线和小点，强调挥手动作，不包含摄影中的手。",
+      "label": "九宫格右下照片举起的手周围白色短弧线、射线和小点，强调挥手动",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_bottom_right_waves",
+      "kind": "overlay",
+      "bbox": [
+        1215,
+        803,
+        1239,
+        858
+      ],
+      "description": "九宫格右下照片人物左侧两条竖向白色波浪曲线，作为独立的动作点缀保留。",
+      "label": "九宫格右下照片人物左侧两条竖向白色波浪曲线，作为独立的动作点",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_large",
+    "photo_top_left",
+    "photo_top_center",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right",
+    "doodle_large_top_stars",
+    "doodle_hi",
+    "doodle_large_left_spark",
+    "doodle_large_left_ticks",
+    "doodle_large_lower_stars",
+    "doodle_telephone",
+    "doodle_large_bottom_curve",
+    "doodle_top_left_side",
+    "doodle_top_left_cross",
+    "doodle_top_left_phone_ticks",
+    "doodle_heart_sun",
+    "doodle_top_center_head_ticks",
+    "doodle_top_center_left_star",
+    "doodle_top_center_right_cluster",
+    "doodle_top_right_star",
+    "doodle_top_right_heart_bubble",
+    "doodle_top_right_music",
+    "doodle_top_right_left_ticks",
+    "doodle_hello",
+    "doodle_middle_left_rays",
+    "doodle_middle_left_phone_rays",
+    "doodle_middle_left_stars",
+    "doodle_middle_center_heart",
+    "doodle_middle_center_cord",
+    "doodle_middle_right_left_star",
+    "doodle_middle_right_upper_spark",
+    "doodle_middle_right_ticks",
+    "doodle_middle_right_lower_star",
+    "doodle_bottom_left_bag_rays",
+    "doodle_coffee",
+    "doodle_bottom_center_cup_rays",
+    "doodle_bottom_center_shoulder_cluster",
+    "doodle_see_you",
+    "doodle_bottom_right_hand_rays",
+    "doodle_bottom_right_waves"
+  ]
+}

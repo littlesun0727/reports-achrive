@@ -1,0 +1,333 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为浅米灰色纤维纸底，带细碎黑点、纸纤维、折痕及边缘局部露出的旧报刊印字。四边纹理连续，中央卡片遮挡其大部分区域；保留纸底原有纹理与印刷痕迹，独立照片、卡片和文字另列。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅米灰色纤维纸底，带细碎黑点、纸纤维、折痕及边缘局部",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_card",
+      "kind": "frame",
+      "bbox": [
+        112,
+        76,
+        969,
+        1301
+      ],
+      "description": "中央竖向固定卡片，顶部和两侧带细棕色边线，上半部为大面积白色留白，下半部承载大幅矩形照片。白色区域靠下排列五个圆形照片窗口；标题、输入栏及装饰分别记录，不并入照片。",
+      "photo_id": [
+        "photo_book",
+        "photo_cups",
+        "photo_coffee",
+        "photo_flowers",
+        "photo_tulips",
+        "photo_portrait"
+      ],
+      "label": "中央竖向固定卡片，顶部和两侧带细棕色边线，上半部为大面积白色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        563,
+        490,
+        627,
+        554
+      ],
+      "description": "左起第一个圆形生活照片，桌面上摊开的书本占主要位置，后方可见杯具和桌面环境；完整显示范围为圆形小窗口，无主体出框。",
+      "label": "左起第一个圆形生活照片，桌面上摊开的书本占主要位置，后方可见",
+      "method": "local"
+    },
+    {
+      "id": "photo_cups",
+      "kind": "photo",
+      "bbox": [
+        640,
+        490,
+        705,
+        554
+      ],
+      "description": "第二个圆形生活照片，浅棕色与灰蓝色杯具置于托盘或桌面上，保留周围桌面环境；与相邻圆图为独立取景。",
+      "label": "第二个圆形生活照片，浅棕色与灰蓝色杯具置于托盘或桌面上，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        718,
+        490,
+        782,
+        555
+      ],
+      "description": "第三个圆形生活照片，俯视桌面上的两杯咖啡饮品，可见杯中奶泡与浅色桌面；摄影内容限制在完整圆形窗口内。",
+      "label": "第三个圆形生活照片，俯视桌面上的两杯咖啡饮品，可见杯中奶泡与",
+      "method": "local"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        795,
+        490,
+        860,
+        555
+      ],
+      "description": "第四个圆形照片，蓝色背景前有多枝浅色小花与细枝，保留蓝色摄影背景，整体显示于圆形窗口。",
+      "label": "第四个圆形照片，蓝色背景前有多枝浅色小花与细枝，保留蓝色摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_tulips",
+      "kind": "photo",
+      "bbox": [
+        872,
+        490,
+        936,
+        555
+      ],
+      "description": "第五个圆形照片，白色花瓶插着黄色郁金香，置于室内墙面前；花瓶、花枝及室内环境共同属于照片，圆形窗口裁切显示。",
+      "label": "第五个圆形照片，白色花瓶插着黄色郁金香，置于室内墙面前；花瓶",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        112,
+        658,
+        968,
+        1300
+      ],
+      "description": "下方横向咖啡馆照片，一名长卷发女性戴黑色墨镜、穿黑色上衣和浅灰裤子，坐在窗边，手持分层咖啡杯靠近嘴部。左侧明亮窗户、后方棕色墙面与座椅、前方木桌上的水杯、白盘和耳机均保留。照片完整矩形窗口延伸至卡片左右及底边，八个白色圆点叠盖局部，人物没有沿轮廓去背景。",
+      "label": "下方横向咖啡馆照片，一名长卷发女性戴黑色墨镜、穿黑色上衣和浅",
+      "method": "local"
+    },
+    {
+      "id": "text_monthly",
+      "kind": "text",
+      "bbox": [
+        163,
+        125,
+        348,
+        155
+      ],
+      "description": "monthly recap",
+      "label": "monthly recap",
+      "method": "local",
+      "text": "monthly recap",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_august",
+      "kind": "text",
+      "bbox": [
+        231,
+        165,
+        435,
+        194
+      ],
+      "description": "(August edition)",
+      "label": "(August edition)",
+      "method": "local",
+      "text": "(August edition)",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_add",
+      "kind": "overlay",
+      "bbox": [
+        424,
+        574,
+        483,
+        633
+      ],
+      "description": "浅灰色圆形加号按钮，内部为较深灰色加号。按钮底板和符号作为一个完整固定界面装饰保留。",
+      "label": "浅灰色圆形加号按钮，内部为较深灰色加号。按钮底板和符号作为一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_input",
+      "kind": "overlay",
+      "bbox": [
+        494,
+        573,
+        936,
+        631
+      ],
+      "description": "横向圆角输入栏，白色内部、浅灰细边，左侧灰色中文“八月生活碎片”，右侧灰色麦克风图标。文字、边线和图标共同构成完整界面载体，整体保留。",
+      "label": "横向圆角输入栏，白色内部、浅灰细边，左侧灰色中文“八月生活碎",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_top",
+      "kind": "overlay",
+      "bbox": [
+        305,
+        658,
+        371,
+        715
+      ],
+      "description": "大照片上缘附近的独立白色圆点，顶部被照片上边界截去一小段，可见部分覆盖棕色墙面。",
+      "label": "大照片上缘附近的独立白色圆点，顶部被照片上边界截去一小段，可",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_left",
+      "kind": "overlay",
+      "bbox": [
+        193,
+        779,
+        256,
+        842
+      ],
+      "description": "照片左上窗户区域的独立白色实心圆点，覆盖明亮窗框和窗边摄影内容。",
+      "label": "照片左上窗户区域的独立白色实心圆点，覆盖明亮窗框和窗边摄影内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        698,
+        860,
+        761
+      ],
+      "description": "照片右上墙面处的独立白色实心圆点。",
+      "label": "照片右上墙面处的独立白色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        824,
+        770,
+        887
+      ],
+      "description": "照片中右侧、人物头部右方的独立白色实心圆点，覆盖墙面。",
+      "label": "照片中右侧、人物头部右方的独立白色实心圆点，覆盖墙面。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_right",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        901,
+        860,
+        965
+      ],
+      "description": "照片右侧较低位置的独立白色实心圆点，覆盖棕色墙面。",
+      "label": "照片右侧较低位置的独立白色实心圆点，覆盖棕色墙面。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_center",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        1032,
+        531,
+        1095
+      ],
+      "description": "照片中央偏下的独立白色实心圆点，叠盖女性胸前的头发和黑色衣服。",
+      "label": "照片中央偏下的独立白色实心圆点，叠盖女性胸前的头发和黑色衣服",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        223,
+        1109,
+        287,
+        1173
+      ],
+      "description": "照片左下窗台附近的独立白色实心圆点，覆盖窗边与木质座位区域。",
+      "label": "照片左下窗台附近的独立白色实心圆点，覆盖窗边与木质座位区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        676,
+        1109,
+        739,
+        1173
+      ],
+      "description": "照片下部偏右的独立白色实心圆点，覆盖人物衣服边缘及深棕色座椅。",
+      "label": "照片下部偏右的独立白色实心圆点，覆盖人物衣服边缘及深棕色座椅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_update",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        1342,
+        626,
+        1410
+      ],
+      "description": "卡片下方纸底上的黑色手写花体“Update”，字母连笔、大小变化并带明显向下延伸的笔画；保留其特定书写造型，作为完整艺术字装饰。",
+      "label": "卡片下方纸底上的黑色手写花体“Update”，字母连笔、大小",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "frame_card",
+    "photo_book",
+    "photo_cups",
+    "photo_coffee",
+    "photo_flowers",
+    "photo_tulips",
+    "photo_portrait",
+    "text_monthly",
+    "text_august",
+    "overlay_add",
+    "overlay_input",
+    "overlay_dot_top",
+    "overlay_dot_left",
+    "overlay_dot_upper_right",
+    "overlay_dot_middle_right",
+    "overlay_dot_right",
+    "overlay_dot_center",
+    "overlay_dot_lower_left",
+    "overlay_dot_lower_right",
+    "overlay_update"
+  ]
+}

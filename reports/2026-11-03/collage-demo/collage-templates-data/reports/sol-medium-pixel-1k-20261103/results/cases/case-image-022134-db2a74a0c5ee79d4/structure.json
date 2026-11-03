@@ -1,0 +1,813 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布连续的米色旧纸底，带浅方格、纤维纹理、折痕及零散淡蓝笔迹，四边和各拼贴间隙均可见。保留纸底原有材质，清除独立照片、纸卡、文字及装饰，不将多张旅行照片合并为底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_main_title",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        29,
+        542,
+        202
+      ],
+      "description": "完整旅行标题设计，含斜置手写“Hualien”、粗笔中文“花蓮旅行日記”、副标题“山海之間，遇見最純粹的感動”、黄色底刷痕、蓝色爱心及短线点缀，保留字形和错落排版。"
+    },
+    {
+      "id": "frame_cliff",
+      "kind": "frame",
+      "bbox": [
+        216,
+        153,
+        742,
+        571
+      ],
+      "description": "承托悬崖照片的浅米白撕边相纸，边缘不规则，右上部分被海面照片和圆形自拍遮挡。",
+      "photo_id": [
+        "photo_cliff"
+      ]
+    },
+    {
+      "id": "photo_cliff",
+      "kind": "photo",
+      "bbox": [
+        230,
+        174,
+        726,
+        550
+      ],
+      "description": "海岸远景，无人物；左侧陡峭绿山与岩壁向远处延伸，右侧蓝绿色海湾、白色浪线及上方云天空共同保留。完整照片窗口位于撕边相纸内，右上被海面照片遮挡，下部有独立手写装饰。"
+    },
+    {
+      "id": "frame_sea",
+      "kind": "frame",
+      "bbox": [
+        683,
+        132,
+        1024,
+        458
+      ],
+      "description": "海面照片的浅白色纸卡框，左缘和下缘明显，右侧超出画布；上缘局部被圆形自拍遮挡。",
+      "photo_id": [
+        "photo_sea"
+      ]
+    },
+    {
+      "id": "photo_sea",
+      "kind": "photo",
+      "bbox": [
+        700,
+        148,
+        1024,
+        440
+      ],
+      "description": "横向海面照片，无人物；深蓝海水上有多只浮出水面的海豚，远方海平线和浅灰天空仍保留。与悬崖照片取景不连续，单独替换；左上被自拍遮挡，下缘被胶带覆盖。"
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        567,
+        17,
+        805,
+        252
+      ],
+      "description": "一名棕发女性在船上自拍的近景，戴黑色墨镜，穿透明雨衣与红色救生衣，面对镜头噘嘴；船栏、海面和船上环境保留在圆形显示范围内。圆周浅色边沿及外侧黑色断续轮廓依附照片窗口，一并记录；右上被“出發！”标签压住。"
+    },
+    {
+      "id": "overlay_departure",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        3,
+        834,
+        74
+      ],
+      "description": "倾斜的浅蓝白纸标签，黑色手写“出發！”，带细边框、纸张阴影及边角细节，叠在自拍右上缘。"
+    },
+    {
+      "id": "overlay_sea_breeze",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        15,
+        1024,
+        166
+      ],
+      "description": "右上浅赭色水彩对话装饰，含“海風吹拂～”“心情超好”及红心，附黄色短笔画和向下弯曲的虚线，整体保留。"
+    },
+    {
+      "id": "overlay_cliff_heading",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        213,
+        195,
+        277
+      ],
+      "description": "“清水斷崖”手写地点标题，带红褐色定位针、浅蓝刷痕及下方蓝色双短线，作为完整标题装饰保留。"
+    },
+    {
+      "id": "text_cliff_note",
+      "kind": "text",
+      "bbox": [
+        26,
+        282,
+        218,
+        443
+      ],
+      "text": "太平洋的壯闊，讓人\n覺得自己的煩惱好渺小\n站在懸崖邊，連呼吸\n都變得自由。",
+      "color": "#49463E",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_camera_small",
+      "kind": "overlay",
+      "bbox": [
+        168,
+        391,
+        226,
+        451
+      ],
+      "description": "倾斜的蓝灰色线描小相机，含镜头、按钮及小短线，位于清水断崖文字右下方。"
+    },
+    {
+      "id": "overlay_wow",
+      "kind": "overlay",
+      "bbox": [
+        603,
+        373,
+        677,
+        446
+      ],
+      "description": "悬崖照片右下方白色斜排手写“Wow!”与小箭头，字母角度和位置不规则，独立保留。"
+    },
+    {
+      "id": "overlay_cliff_tape",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        510,
+        701,
+        583
+      ],
+      "description": "斜贴在悬崖相纸下沿的半透明米色窄胶带，带浅蓝平行线和纸纹。"
+    },
+    {
+      "id": "overlay_sea_tape",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        407,
+        944,
+        461
+      ],
+      "description": "压住海面照片下沿的蓝白斜纹胶带，略有不规则切边，横向贴放。"
+    },
+    {
+      "id": "overlay_sea_heading",
+      "kind": "overlay",
+      "bbox": [
+        758,
+        456,
+        949,
+        514
+      ],
+      "description": "浅蓝纸条标题“出海追海豚！”，含深蓝下划线及纸条边缘，整体保留。"
+    },
+    {
+      "id": "text_sea_note",
+      "kind": "text",
+      "bbox": [
+        767,
+        525,
+        979,
+        657
+      ],
+      "text": "真的看到海豚在跳躍！\n那一刻整個人都嗨翻了～\n大自然的驚喜\n永遠最動人",
+      "color": "#49463E",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_dolphin",
+      "kind": "overlay",
+      "bbox": [
+        901,
+        576,
+        1007,
+        672
+      ],
+      "description": "蓝色跃起海豚线描插画，带下方水波、黄色细小十字及旁侧闪光点缀，位于出海文字右侧。"
+    },
+    {
+      "id": "overlay_sea_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        629,
+        892,
+        656
+      ],
+      "description": "出海文字末行右侧的一组金黄色四角闪光和小点。"
+    },
+    {
+      "id": "overlay_qixingtan_panel",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        480,
+        269,
+        754
+      ],
+      "description": "七星潭区域的浅蓝不规则水彩纸片，包含上方红色定位针、“七星潭”标题及蓝色下划线。水彩底向下延伸到石堆照片后方；说明文字独立排版，不并入此单元。"
+    },
+    {
+      "id": "text_qixingtan_note",
+      "kind": "text",
+      "bbox": [
+        42,
+        543,
+        236,
+        613
+      ],
+      "text": "堆了7顆石頭，許下小願望\n希望一切都能越來越好",
+      "color": "#49463E",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_qixingtan_heart",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        577,
+        255,
+        598
+      ],
+      "description": "七星潭说明文字末尾的一枚小红心。"
+    },
+    {
+      "id": "frame_stones",
+      "kind": "frame",
+      "bbox": [
+        0,
+        620,
+        244,
+        875
+      ],
+      "description": "石堆照片的浅色不规则纸边，左侧被画布截断，右缘部分压在相邻照片边缘附近。",
+      "photo_id": [
+        "photo_stones"
+      ]
+    },
+    {
+      "id": "photo_stones",
+      "kind": "photo",
+      "bbox": [
+        10,
+        634,
+        231,
+        859
+      ],
+      "description": "海滩石堆近景，无人物；前景大小灰色鹅卵石层叠，顶端为小块暖色石头，背景保留海浪、海平线和浅蓝天空。完整独立照片区域，不与旁边俯拍海滩照片合并。"
+    },
+    {
+      "id": "frame_beach",
+      "kind": "frame",
+      "bbox": [
+        219,
+        530,
+        466,
+        858
+      ],
+      "description": "竖向海滩照片的米白撕边纸框，顶部和右侧留有纸边，下沿不规则，与左侧石堆照片局部重叠。",
+      "photo_id": [
+        "photo_beach"
+      ]
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        232,
+        545,
+        453,
+        842
+      ],
+      "description": "一人第一视角向下拍摄海滩：画面下方有双脚与黑白运动鞋，右侧伸出戴手链的手臂并比剪刀手，上方为海浪与泡沫，下方为深灰鹅卵石地面。保留完整摄影环境，手臂没有连续越出窗口。"
+    },
+    {
+      "id": "text_stones_caption",
+      "kind": "text",
+      "bbox": [
+        57,
+        853,
+        236,
+        925
+      ],
+      "text": "一顆一顆，慢慢堆起\n內心也慢慢平靜了",
+      "color": "#49463E",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_caption_marks",
+      "kind": "overlay",
+      "bbox": [
+        204,
+        853,
+        320,
+        922
+      ],
+      "description": "石堆照片说明旁的浅蓝线描星形、黄色小星、短线和句末小红心点缀，保留这一局部装饰组合。"
+    },
+    {
+      "id": "overlay_mountain_doodle",
+      "kind": "overlay",
+      "bbox": [
+        386,
+        868,
+        463,
+        913
+      ],
+      "description": "浅蓝色山峰与小岛线描涂鸦，位于两张海滩照片下方、人物照片上方的纸底空隙。"
+    },
+    {
+      "id": "overlay_food_heading",
+      "kind": "overlay",
+      "bbox": [
+        476,
+        570,
+        711,
+        666
+      ],
+      "description": "“花蓮在地美食”标题贴饰，浅蓝刷痕承托黑色手写字，左侧附蓝色花朵、黄色花心和绿叶，整体保留。"
+    },
+    {
+      "id": "frame_mochi",
+      "kind": "frame",
+      "bbox": [
+        480,
+        688,
+        780,
+        1008
+      ],
+      "description": "斜置的白色照片纸卡，细蓝线边缘及纸纹随框体保留，承托麻糬照片；上部被文字撕纸覆盖。",
+      "photo_id": [
+        "photo_mochi"
+      ]
+    },
+    {
+      "id": "photo_mochi",
+      "kind": "photo",
+      "bbox": [
+        496,
+        705,
+        763,
+        989
+      ],
+      "description": "食物近景，一只手握透明包装中的白色麻糬，麻糬开口露出黄色颗粒馅料；保留手、塑料袋和暖色失焦环境。倾斜照片窗口的左上部分被说明纸遮挡。"
+    },
+    {
+      "id": "overlay_mochi_note",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        673,
+        663,
+        859
+      ],
+      "description": "覆盖麻糬照片左上方的米色撕纸说明，含“必吃！ 麻糬”、蓝色下划线、黄色小心形及“花生口味超Q彈／甜而不膩，忍不住／一顆接一顆～”，保留纸边和原排版。"
+    },
+    {
+      "id": "frame_tart",
+      "kind": "frame",
+      "bbox": [
+        740,
+        691,
+        1024,
+        1026
+      ],
+      "description": "香菜蛋挞照片的浅色纸卡框，右缘接近画布边，底部有细蓝线与轻微阴影，上部被说明撕纸遮挡。",
+      "photo_id": [
+        "photo_tart"
+      ]
+    },
+    {
+      "id": "photo_tart",
+      "kind": "photo",
+      "bbox": [
+        757,
+        706,
+        1010,
+        1010
+      ],
+      "description": "一只手托着装在纸袋中的金黄色蛋挞，挞心铺有绿色香菜，近距离拍摄，保留手、包装和暖色背景。照片上方被文字纸片覆盖，右侧有独立白色手写字样。"
+    },
+    {
+      "id": "overlay_tart_note",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        674,
+        1024,
+        860
+      ],
+      "description": "香菜蛋挞照片上方的米白撕纸说明，含“神奇的香菜蛋撻”、蓝色下划线、金色皇冠与小点，以及“KFC居然有香菜蛋撻？！／鹹香酥脆超特別～／意外的很好吃耶！”，纸片与文字整体保留。"
+    },
+    {
+      "id": "overlay_yummy",
+      "kind": "overlay",
+      "bbox": [
+        948,
+        834,
+        1015,
+        864
+      ],
+      "description": "蛋挞照片右侧白色手写“yummy!”，保留倾斜字形和不规则笔画。"
+    },
+    {
+      "id": "frame_portrait",
+      "kind": "frame",
+      "bbox": [
+        17,
+        922,
+        316,
+        1290
+      ],
+      "description": "左下人物照片的倾斜白色相纸，四周窄白边、底边较宽，左上压有胶带，左下被花朵贴饰遮挡。",
+      "photo_id": [
+        "photo_portrait"
+      ]
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        30,
+        935,
+        301,
+        1273
+      ],
+      "description": "一名年轻棕发女性在海岸观景处的中景肖像，双麻花辫、白色短袖上衣，正面看镜头，一手叉腰，另一手在脸旁比手势。保留身后的绿山、海湾和天空；与圆形自拍为不同姿态的独立照片。"
+    },
+    {
+      "id": "overlay_portrait_tape",
+      "kind": "overlay",
+      "bbox": [
+        7,
+        935,
+        92,
+        1026
+      ],
+      "description": "人物相纸左上角斜贴的半透明灰绿色胶带，带分块色差及纸质边缘。"
+    },
+    {
+      "id": "overlay_portrait_flower",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        1218,
+        89,
+        1294
+      ],
+      "description": "人物相纸左下角的淡蓝紫花朵贴饰，黄色花心，附小绿叶和浅色轮廓，覆盖相纸边缘。"
+    },
+    {
+      "id": "overlay_travel_meaning",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        919,
+        552,
+        1258
+      ],
+      "description": "人物照片右侧灰蓝色不规则撕纸，含标题“旅行的意義：”及“用心感受每一處風景，／用味蕾記住每一種味道，／用眼睛收藏每一份感動。／謝謝花蓮，讓我／再次感歡上大自然／也更喜歡自由的自己”等手写段落，纸纹与原字形整体保留。"
+    },
+    {
+      "id": "overlay_camera_large",
+      "kind": "overlay",
+      "bbox": [
+        458,
+        1163,
+        536,
+        1238
+      ],
+      "description": "叠在旅行意义纸片右下边缘的蓝色相机插画，含镜头、按钮、上方小轮廓涂鸦和红心。"
+    },
+    {
+      "id": "overlay_return_heading",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        1010,
+        780,
+        1092
+      ],
+      "description": "“回到台北”手写标题及黄色底线，右侧为蓝色台北101线描和金色闪光，作为同一局部标题设计保留。"
+    },
+    {
+      "id": "text_return_note",
+      "kind": "text",
+      "bbox": [
+        554,
+        1097,
+        821,
+        1162
+      ],
+      "text": "帶著滿滿的回憶踏上回家的路～\n期待下一次出發！",
+      "color": "#49463E",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_return_heart",
+      "kind": "overlay",
+      "bbox": [
+        708,
+        1137,
+        726,
+        1155
+      ],
+      "description": "回家段落第二行末尾的小红心。"
+    },
+    {
+      "id": "overlay_wave_doodle",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        1160,
+        770,
+        1219
+      ],
+      "description": "回家段落下方的浅蓝海浪涂鸦，含数道波线、小圆点、短竖线和右侧十字笔迹。"
+    },
+    {
+      "id": "frame_ticket",
+      "kind": "frame",
+      "bbox": [
+        790,
+        1036,
+        1024,
+        1328
+      ],
+      "description": "右下倾斜的白色票据照片卡，周围白纸边和阴影整体保留，右上由赭色胶带固定，下方覆盖部分胶片卡。",
+      "photo_id": [
+        "photo_ticket"
+      ]
+    },
+    {
+      "id": "photo_ticket",
+      "kind": "photo",
+      "bbox": [
+        804,
+        1053,
+        1011,
+        1298
+      ],
+      "description": "手持橙黄色火车票的近景，手指压在票面左下，票上可辨“2026.04.05”“花蓮”“台北”、时间及二维码等实拍印字，随照片一并替换；背景为暗色失焦环境。"
+    },
+    {
+      "id": "overlay_ticket_tape",
+      "kind": "overlay",
+      "bbox": [
+        923,
+        1006,
+        1024,
+        1131
+      ],
+      "description": "贴在票据照片卡右上角的赭黄色半透明宽胶带，斜向伸展，带折线、纸纹和不规则末端。"
+    },
+    {
+      "id": "overlay_left_whale",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        1157,
+        823,
+        1259
+      ],
+      "description": "票据卡左侧露出的蓝色鲸豚插画与弧形水波，局部被票据卡和下方胶片框遮挡，保留可见轮廓。"
+    },
+    {
+      "id": "overlay_right_whales",
+      "kind": "overlay",
+      "bbox": [
+        968,
+        1185,
+        1024,
+        1301
+      ],
+      "description": "票据卡右下后方露出的黄色与蓝色鲸豚、水波小插画，右侧被画布裁切，左侧被票据卡遮挡。"
+    },
+    {
+      "id": "overlay_notebook",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1230,
+        709,
+        1536
+      ],
+      "description": "底部打开的米色旅行笔记本，棕色封皮边、左右纸页和金属活页环作为整体固定单元。左页“花蓮旅行清單”及五项勾选，右页“旅行碎碎念”与手写段落、底部贝壳和海星图案随纸页保留；右上被胶片照片覆盖，底部由画布截断。"
+    },
+    {
+      "id": "overlay_notebook_flower",
+      "kind": "overlay",
+      "bbox": [
+        527,
+        1235,
+        603,
+        1285
+      ],
+      "description": "笔记本上沿的小花与绿叶装饰，浅黄色花瓣、暖色花心，跨在封皮与纸底交界处。"
+    },
+    {
+      "id": "overlay_hydrangea",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1343,
+        111,
+        1536
+      ],
+      "description": "画布左下的蓝紫色绣球花贴饰，含多朵小花、绿叶和细茎，压住笔记本左页及封皮，左侧与底部被画布裁切。"
+    },
+    {
+      "id": "photo_station_sign",
+      "kind": "photo",
+      "bbox": [
+        600,
+        1292,
+        752,
+        1426
+      ],
+      "description": "胶片框左窗口的车站室内照片，彩色发光信息牌位于上方，背景为失焦站厅设施，无清晰人物主体；保留摄影环境。"
+    },
+    {
+      "id": "photo_station_person",
+      "kind": "photo",
+      "bbox": [
+        744,
+        1274,
+        882,
+        1408
+      ],
+      "description": "胶片框右窗口的车站照片，一人背对镜头站在室内通道或设备旁，穿浅暖色上衣与深色下装；保留周围站厅环境。与左窗口为独立裁切位置。"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        582,
+        1239,
+        901,
+        1453
+      ],
+      "description": "倾斜的双窗口深灰黑胶片框，四边保留浅色齿孔、磨损和纸质纹理；右上被票据卡遮挡，下部被咖啡相纸覆盖，两个内口分别替换。",
+      "photo_id": [
+        "photo_station_sign",
+        "photo_station_person"
+      ]
+    },
+    {
+      "id": "frame_coffee",
+      "kind": "frame",
+      "bbox": [
+        649,
+        1401,
+        792,
+        1536
+      ],
+      "description": "底部倾斜白色拍立得相纸，承托咖啡照片，底部被画布截断，上沿叠在胶片框上。",
+      "photo_id": [
+        "photo_coffee"
+      ]
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        664,
+        1418,
+        781,
+        1536
+      ],
+      "description": "一只手拿着红色外带咖啡杯的近景，杯盖为浅色，身后为暖色室内桌面或座椅环境；保留完整内口摄影内容，底部随画布裁切。"
+    },
+    {
+      "id": "overlay_happy_note",
+      "kind": "overlay",
+      "bbox": [
+        766,
+        1416,
+        910,
+        1536
+      ],
+      "description": "咖啡照片右侧浅灰蓝撕纸便签，含“小幸福時刻”、蓝色下划线、红心及“旅途中，總有些／小確幸讓人微笑／好喜歡這樣的日子”等手写文字，纸边和原排版整体保留，底部被画布裁切。"
+    },
+    {
+      "id": "overlay_anchor",
+      "kind": "overlay",
+      "bbox": [
+        913,
+        1325,
+        1003,
+        1379
+      ],
+      "description": "右下纸底上的灰蓝线描船锚，附弧形绳线、水波和金色小闪光。"
+    },
+    {
+      "id": "overlay_bear",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        1396,
+        1002,
+        1524
+      ],
+      "description": "右下棕色小熊贴饰，坐姿、腮红、腹前捧着珍珠饮料，保留描边、杯子和脚掌细节。"
+    }
+  ],
+  "layer_order": [
+    "overlay_qixingtan_panel",
+    "frame_cliff",
+    "photo_cliff",
+    "frame_sea",
+    "photo_sea",
+    "frame_beach",
+    "photo_beach",
+    "frame_stones",
+    "photo_stones",
+    "frame_mochi",
+    "photo_mochi",
+    "frame_tart",
+    "photo_tart",
+    "frame_portrait",
+    "photo_portrait",
+    "overlay_travel_meaning",
+    "overlay_notebook",
+    "overlay_left_whale",
+    "overlay_right_whales",
+    "photo_station_sign",
+    "photo_station_person",
+    "frame_film",
+    "frame_ticket",
+    "photo_ticket",
+    "frame_coffee",
+    "photo_coffee",
+    "overlay_main_title",
+    "photo_selfie",
+    "overlay_departure",
+    "overlay_sea_breeze",
+    "overlay_cliff_heading",
+    "text_cliff_note",
+    "overlay_camera_small",
+    "overlay_wow",
+    "overlay_cliff_tape",
+    "overlay_sea_tape",
+    "overlay_sea_heading",
+    "text_sea_note",
+    "overlay_dolphin",
+    "overlay_sea_sparkles",
+    "text_qixingtan_note",
+    "overlay_qixingtan_heart",
+    "text_stones_caption",
+    "overlay_caption_marks",
+    "overlay_mountain_doodle",
+    "overlay_food_heading",
+    "overlay_mochi_note",
+    "overlay_tart_note",
+    "overlay_yummy",
+    "overlay_portrait_tape",
+    "overlay_portrait_flower",
+    "overlay_camera_large",
+    "overlay_return_heading",
+    "text_return_note",
+    "overlay_return_heart",
+    "overlay_wave_doodle",
+    "overlay_ticket_tape",
+    "overlay_notebook_flower",
+    "overlay_hydrangea",
+    "overlay_happy_note",
+    "overlay_anchor",
+    "overlay_bear"
+  ]
+}

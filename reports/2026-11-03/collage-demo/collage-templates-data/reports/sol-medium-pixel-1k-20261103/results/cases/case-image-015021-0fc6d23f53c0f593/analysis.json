@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1310
+  ],
+  "objects": [
+    {
+      "id": "textured_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1310
+      ],
+      "description": "全画布为深灰黑色菱形交织纹理底板，纹理连续出现在四边及照片下方较宽的留白区域，带有细微磨损和明暗变化。保留固定底板的纹理与材质，中央独立照片及右下角小标记另列，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为深灰黑色菱形交织纹理底板，纹理连续出现在四边及照片下",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_pair",
+      "kind": "photo",
+      "bbox": [
+        60,
+        63,
+        1018,
+        1044
+      ],
+      "description": "一张近方形双人合影，完整显示范围包含两位年轻女性及浅色室内墙面、座椅环境。左侧人物穿白色黑领上衣，束发，抬手贴近脸颊并微笑；右侧人物披长直发，穿黑色无袖上衣和牛仔裤，侧身靠近左侧人物，手臂横跨前方，两人面向镜头。人物下身被照片下边裁切。保留摄影背景，画面呈柔和偏暖、略泛白的印相质感，表面可见细微划痕；没有沿人物轮廓去背景或连续出框。",
+      "label": "一张近方形双人合影，完整显示范围包含两位年轻女性及浅色室内墙",
+      "method": "local"
+    },
+    {
+      "id": "overlay_mark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1283,
+        1073,
+        1304
+      ],
+      "description": "画布右下角独立的微小灰色圆角标记，内部带深色小字，文字无法可靠辨认；底板轮廓和内部字样整体保留。",
+      "label": "画布右下角独立的微小灰色圆角标记，内部带深色小字，文字无法可",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "textured_base",
+    "photo_pair",
+    "overlay_mark"
+  ]
+}

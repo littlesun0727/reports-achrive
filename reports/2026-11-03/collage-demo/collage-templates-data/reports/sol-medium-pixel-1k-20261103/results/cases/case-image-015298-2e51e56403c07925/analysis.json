@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        640
+      ],
+      "description": "上方完整横向餐桌摄影画面。前景一只手举着白色拍立得相纸，纸内是一名戴眼镜、穿白衣的男子端着蛋糕；后景一名长发女子坐在餐桌旁，双手举起小卡片，人物及花束、饮料、餐盘呈失焦效果。手、相纸和纸内影像均属于同一实拍场景，随整张照片替换；保留完整摄影环境，四边直接裁切，无去背景或透明渐隐。",
+      "label": "上方完整横向餐桌摄影画面。前景一只手举着白色拍立得相纸，纸内",
+      "method": "local"
+    },
+    {
+      "id": "paper_middle",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        640,
+        1080,
+        1280
+      ],
+      "description": "横贯画布中部的独立米灰色纸张面板，上下边缘平直，与两张照片形成三段布局。完整保留细密纤维、颗粒和不均匀的浅褐色纸纹；不承载照片窗口。中央黑色文字另列，不并入纸张。",
+      "label": "横贯画布中部的独立米灰色纸张面板，上下边缘平直，与两张照片形",
+      "method": "extract"
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        356,
+        919,
+        725,
+        997
+      ],
+      "description": "with you",
+      "label": "with you",
+      "method": "local",
+      "text": "with you",
+      "text_status": "known",
+      "style": {
+        "fill": "#080806",
+        "font": "mono",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1280,
+        1080,
+        1920
+      ],
+      "description": "下方完整横向餐桌摄影画面，与上图人物姿态及取景不连续。左侧前景一只留长指甲的手举着白色拍立得相纸，纸内是一名长发女子端着蛋糕；后景一名白衣男子低头坐在桌旁，右侧有花束和橙色饮料，下方可见蛋糕、餐盘及餐具。手、相纸和纸内影像属于该实拍场景，随整张照片替换；保留失焦的摄影环境，画布左右及下缘直接裁切，无去背景或透明渐隐。",
+      "label": "下方完整横向餐桌摄影画面，与上图人物姿态及取景不连续。左侧前",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "paper_middle",
+    "text_middle"
+  ]
+}

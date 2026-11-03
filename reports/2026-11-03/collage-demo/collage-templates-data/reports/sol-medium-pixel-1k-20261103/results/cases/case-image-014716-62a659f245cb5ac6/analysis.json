@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_foliage",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        721
+      ],
+      "description": "上方横向照片，仰拍浓密绿色树叶与交错枝条，叶隙透出明亮天空；保留完整摄影画面，底边与下方草地照片在约 y=720 处水平相接。",
+      "label": "上方横向照片，仰拍浓密绿色树叶与交错枝条，叶隙透出明亮天空；",
+      "method": "local"
+    },
+    {
+      "id": "photo_graduate",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下方竖向照片，一名年轻女性穿黑色学位服、戴学士帽，坐在草地中央，双腿向画面下方伸出；人物为全身偏远景，双手撑在身体两侧，保留草地环境。照片从 y=720 延伸至画布底边，与上方树叶照片水平相接。",
+      "label": "下方竖向照片，一名年轻女性穿黑色学位服、戴学士帽，坐在草地中",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_foliage",
+    "photo_graduate"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为落在灰白碎石路面上的橙褐色刺壳板栗近景，无人物。摄影画面经过明显虚化，路面纹理及果实在四边连续露出，中央被深灰照片卡遮挡；完整背景照片连同果实、路面和虚化外观一起替换。",
+      "background_type": "photo",
+      "label": "全画布为落在灰白碎石路面上的橙褐色刺壳板栗近景，无人物。摄影",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_card",
+      "kind": "frame",
+      "bbox": [
+        98,
+        132,
+        982,
+        1308
+      ],
+      "description": "深炭灰色竖向照片卡，外缘略带圆角。顶部承托一张横向照片，四周留窄边，照片下方延伸为大面积深灰留白。完整卡体保留，正文、日期和地点字样分别列为独立对象。",
+      "photo_id": [
+        "photo_chestnuts"
+      ],
+      "label": "深炭灰色竖向照片卡，外缘略带圆角。顶部承托一张横向照片，四周",
+      "method": "extract"
+    },
+    {
+      "id": "photo_chestnuts",
+      "kind": "photo",
+      "bbox": [
+        128,
+        166,
+        952,
+        719
+      ],
+      "description": "横向板栗静物近景，无人物。灰白碎石路面上，中央偏左排列数枚橙褐色带刺栗壳，右侧有露出光亮棕色果实的开口栗壳，上缘还裁入一枚较远的栗壳。完整保留路面摄影环境，画面清晰，四边由矩形照片窗口裁切。",
+      "label": "横向板栗静物近景，无人物。灰白碎石路面上，中央偏左排列数枚橙",
+      "method": "local"
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        128,
+        741,
+        549,
+        864
+      ],
+      "description": "山野里的丰收季，果香浓郁\n随处可见的板栗、柿子、橘子 菌菇\n开启个治愈感的世界",
+      "label": "山野里的丰收季，果香浓郁\n随处可见的板栗、柿子、橘子 菌菇\n",
+      "method": "local",
+      "text": "山野里的丰收季，果香浓郁\n随处可见的板栗、柿子、橘子 菌菇\n开启个治愈感的世界",
+      "text_status": "known",
+      "style": {
+        "fill": "#BDBDBB",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        801,
+        1211,
+        952,
+        1235
+      ],
+      "description": "2026/10/02",
+      "label": "2026/10/02",
+      "method": "local",
+      "text": "2026/10/02",
+      "text_status": "known",
+      "style": {
+        "fill": "#626262",
+        "font": "sans",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_location_pin",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        1255,
+        840,
+        1280
+      ],
+      "description": "深灰卡片右下角的浅灰色空心地图定位图标，水滴状外轮廓内含小圆孔，与右侧地点文字并排，作为独立装饰保留。",
+      "label": "深灰卡片右下角的浅灰色空心地图定位图标，水滴状外轮廓内含小圆",
+      "method": "extract"
+    },
+    {
+      "id": "text_location",
+      "kind": "text",
+      "bbox": [
+        847,
+        1252,
+        952,
+        1279
+      ],
+      "description": "江苏·苏州",
+      "label": "江苏·苏州",
+      "method": "local",
+      "text": "江苏·苏州",
+      "text_status": "known",
+      "style": {
+        "fill": "#777777",
+        "font": "cjk",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1415,
+        1073,
+        1435
+      ],
+      "description": "画布右下角极淡的小型白色线框标记，呈横向圆角胶囊状，内部带细小符号；内容不清晰，整体保留其原有视觉形式。",
+      "label": "画布右下角极淡的小型白色线框标记，呈横向圆角胶囊状，内部带细",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "frame_card",
+    "photo_chestnuts",
+    "text_body",
+    "text_date",
+    "overlay_location_pin",
+    "text_location",
+    "overlay_corner_mark"
+  ]
+}

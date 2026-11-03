@@ -1,0 +1,423 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的夕阳湖景与玻璃观景平台摄影底图覆盖全画布，暖色天空从顶部延续到中部，湖水、山坡、栏杆延续至左右及底边。一名短发男子位于中下部偏左，穿黑色无袖上衣和灰色长裤，胸前挂相机，面向镜头站立，下身被画布底边裁切。上方照片、文字和右侧另一个人物遮挡局部；男子与完整摄影环境共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_woman_top",
+      "kind": "photo",
+      "bbox": [
+        232,
+        57,
+        500,
+        258
+      ],
+      "description": "上方横向室内照片，一名长发女子穿浅色裙装坐在白色沙发上，身体朝右，侧脸望向窗外。保留大窗、靠垫、沙发及窗外景物，矩形显示，下缘局部被标题遮挡。"
+    },
+    {
+      "id": "photo_woman_left",
+      "kind": "photo",
+      "bbox": [
+        44,
+        321,
+        366,
+        564
+      ],
+      "description": "左侧横向室内照片，同一长发女子穿浅色裙装侧卧在白色沙发上，双手靠近头部并望向镜头，保留窗户、沙发和靠垫。照片外围有蓝色不规则手绘窗口线，完整线条沿四边延伸，顶部与标题附近相交。"
+    },
+    {
+      "id": "frame_couple",
+      "kind": "frame",
+      "bbox": [
+        450,
+        317,
+        777,
+        568
+      ],
+      "description": "中央白色拍立得相纸，略有灰色纸纹，四周窄边、下方宽边，底部印有“@Polaroid”和“MM/DD/YYYY”。右上局部被甜点照片遮挡，标题压住上沿。",
+      "photo_id": [
+        "photo_couple"
+      ]
+    },
+    {
+      "id": "photo_couple",
+      "kind": "photo",
+      "bbox": [
+        463,
+        331,
+        764,
+        520
+      ],
+      "description": "中央横向夕阳合影，两人上半身背光，男子在左背向镜头，长发女子在右侧身面向男子。太阳位于两人上方，保留天空与远方水面，照片为完整矩形内口，右上被甜点局部遮挡。"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        810,
+        107,
+        1052,
+        429
+      ],
+      "description": "右上竖向咖啡店人物照片，一名长发女子穿白色上衣坐在桌后，脸朝镜头，身体在中下部。保留玻璃窗、建筑倒影、室内设备和桌面。矩形照片左下方被甜点及饮料组合遮挡，外围白色波浪与圆点为独立装饰。"
+    },
+    {
+      "id": "photo_desserts",
+      "kind": "photo",
+      "bbox": [
+        700,
+        332,
+        906,
+        453
+      ],
+      "description": "右上照片前方的甜点与饮料摄影组合，包含白盘上的奶油草莓蛋糕、一杯浅色饮料及后方粉色饮料。沿食物、杯体和盘子外轮廓显示，不保留周围摄影背景；横跨中央相纸右上角和右上人物照片左下部。与人物照片是否同源不明确，按独立可替换组合记录。"
+    },
+    {
+      "id": "frame_mirror",
+      "kind": "frame",
+      "bbox": [
+        26,
+        608,
+        234,
+        885
+      ],
+      "description": "左下浅蓝色竖向照片卡框，带白色星星、细小圆点及内口边缘的柔白装饰，一体图案随框体保留。",
+      "photo_id": [
+        "photo_mirror"
+      ]
+    },
+    {
+      "id": "photo_mirror",
+      "kind": "photo",
+      "bbox": [
+        46,
+        630,
+        215,
+        865
+      ],
+      "description": "左下竖向镜面自拍，一名长发女子穿浅蓝外套，手持黑色相机，面向镜头，取景为上半身。保留明亮室内与镜面摄影环境，照片边缘呈柔和浅白过渡，外侧由蓝色星星相框承托。"
+    },
+    {
+      "id": "frame_drinks",
+      "kind": "frame",
+      "bbox": [
+        782,
+        494,
+        1070,
+        785
+      ],
+      "description": "右中竖向照片的浅色纸质承托框，带粉米色宽边、左右白色纸条及上下横向半透明白胶带，纸边略有不齐和交叠，完整框体与胶带作为一个固定单元保留。",
+      "photo_id": [
+        "photo_drinks"
+      ]
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        823,
+        544,
+        1037,
+        734
+      ],
+      "description": "右中餐桌近景照片，两只手从左右伸入，举起盛有橙红色饮料的玻璃杯碰杯。保留桌上的食物、盘子、左侧屏幕中的人物及较暗的室内背景，照片为略带倾斜的四边形内口。"
+    },
+    {
+      "id": "photo_man_right",
+      "kind": "photo",
+      "bbox": [
+        679,
+        804,
+        870,
+        1147
+      ],
+      "description": "右下独立男子主体，穿黑色无袖上衣和灰色裤子，胸前挂相机，双臂在身前弯曲，身体侧向左方。沿身体轮廓去除摄影环境，下身止于栏杆附近；头部被卡通头像完全覆盖。上衣和手臂边缘有依附主体轮廓的白色虚线，保留其完整可见走向。与底图男子姿态不同，不建立出框关联。"
+    },
+    {
+      "id": "overlay_cartoon_head",
+      "kind": "overlay",
+      "bbox": [
+        649,
+        690,
+        808,
+        859
+      ],
+      "description": "覆盖右侧男子头部的黑色尖发卡通头像，含完整发型、肤色脸部、表情及粗黑轮廓；下缘压住男子领口。"
+    },
+    {
+      "id": "overlay_top_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        27,
+        545,
+        315
+      ],
+      "description": "环绕顶部室内照片的白色手绘星光装饰组，包括顶部大小闪光星、右上空心星、两侧点线和小符号、左下空心星及底部闪光。内部透明空隙保留，不包含照片或蓝色标题。"
+    },
+    {
+      "id": "overlay_color_marks",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        151,
+        186,
+        278
+      ],
+      "description": "左上独立彩色手绘涂鸦组，包括绿色、黄色和粉色的三个不规则空心长框，绿色空心星与周围短线、小点。"
+    },
+    {
+      "id": "overlay_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        269,
+        114,
+        342
+      ],
+      "description": "左侧照片左上角附近的蓝色手绘装饰，含一枚实心大星、小星、十字和圆点，独立于照片的窗口线保留。"
+    },
+    {
+      "id": "overlay_february",
+      "kind": "overlay",
+      "bbox": [
+        317,
+        248,
+        771,
+        340
+      ],
+      "description": "大型蓝色“February”艺术字，字形高低错落、带蜡笔颗粒纹理，横跨上方与中间照片，完整字样作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_left_music",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        542,
+        377,
+        601
+      ],
+      "description": "左侧室内照片右下角附近的蓝色音乐涂鸦组，包括音符、谱线状笔画和小星点，部分压在照片下缘。"
+    },
+    {
+      "id": "overlay_white_curve",
+      "kind": "overlay",
+      "bbox": [
+        388,
+        318,
+        422,
+        597
+      ],
+      "description": "左侧照片与中央相纸之间的一条白色纵向波浪曲线，沿间隙向下延伸，作为独立线条装饰保留。"
+    },
+    {
+      "id": "overlay_cafe_border",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        75,
+        1077,
+        458
+      ],
+      "description": "右上咖啡店照片外围的白色手绘装饰组，左右各一条长波浪线，顶部与底部散布白色圆点，右上带弯钩。线条不构成实体照片框，完整装饰保留。"
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        59,
+        920,
+        176
+      ],
+      "description": "右上天空中两枚小型绿色飞鸟装饰，一枚位于照片左上方，另一枚位于照片上方偏右，保留细小翅膀和深色笔触。"
+    },
+    {
+      "id": "overlay_cafe_caption",
+      "kind": "overlay",
+      "bbox": [
+        799,
+        458,
+        1035,
+        508
+      ],
+      "description": "右上照片下方白色手写“知足幸福易如反掌”，下有不规则波浪下划线；笔画形态和文字与线条的组合整体保留。"
+    },
+    {
+      "id": "overlay_halo",
+      "kind": "overlay",
+      "bbox": [
+        301,
+        586,
+        493,
+        693
+      ],
+      "description": "底图男子头顶的白色双圈倾斜光环，带粉笔颗粒感，周围附着黄色大小星点，完整作为一个装饰保留。"
+    },
+    {
+      "id": "overlay_arrow_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        257,
+        603,
+        305,
+        686
+      ],
+      "description": "蓝色自拍框右上方的白色弯曲箭头，向左上回转，尾部接近男子头顶光环。"
+    },
+    {
+      "id": "overlay_arrow_up",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        603,
+        635,
+        691
+      ],
+      "description": "男子头部右侧白色长曲线箭头，斜向右上延伸，箭头落在中央相纸下方。"
+    },
+    {
+      "id": "overlay_arrow_right",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        660,
+        773,
+        725
+      ],
+      "description": "中部天空中的白色长弧形箭头，从左下指向右上，位于夕阳下方和卡通头像上方。"
+    },
+    {
+      "id": "overlay_arrow_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        239,
+        740,
+        314,
+        769
+      ],
+      "description": "男子左侧、蓝色自拍框右边的白色短弯箭头，箭头指向左侧照片。"
+    },
+    {
+      "id": "overlay_chevron",
+      "kind": "overlay",
+      "bbox": [
+        523,
+        742,
+        538,
+        765
+      ],
+      "description": "男子头部右侧的小型白色向右折角符号，独立保留。"
+    },
+    {
+      "id": "overlay_power",
+      "kind": "overlay",
+      "bbox": [
+        835,
+        843,
+        1024,
+        915
+      ],
+      "description": "右侧男子旁的浅黄色手写“power!”艺术字，右上附短放射线，字样略带弧度，完整保留。"
+    },
+    {
+      "id": "overlay_left_captions",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        915,
+        310,
+        1225
+      ],
+      "description": "左下倾斜手写说明装饰组，白字分四条错落排列：“小曹专属摄影”“专业拎包”“专车司机”“专业剩饭回收桶”，含各行黄色小点、粉色卷曲线及首行末的小相机图案。角度、笔画与附属图案整体保留。"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        1047,
+        684,
+        1146
+      ],
+      "description": "右下文字上方的米白色相机贴纸，带深色手绘相机轮廓、镜头和顶部闪光星，完整纸边与内部图案保留。"
+    },
+    {
+      "id": "overlay_bottom_oval",
+      "kind": "overlay",
+      "bbox": [
+        555,
+        1055,
+        1055,
+        1378
+      ],
+      "description": "右下文字外围的双重浅蓝色不规则椭圆线装饰，含顶部粉色空心星、右侧蓝色空心星及小圆圈、底部米黄色空心星，以及右下浅蓝、黄色、紫色音符。各附属成员与椭圆线组成完整装饰组，内部透明保留。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        768,
+        1142,
+        817,
+        1192
+      ],
+      "description": "右下首行文字末尾的粉色立体爱心，顶部附两道弧形小线，作为独立图形保留。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        630,
+        1148,
+        987,
+        1268
+      ],
+      "text": "幸福2月\n抚仙湖永远是我们的\n快！乐！老！家！",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_woman_top",
+    "photo_woman_left",
+    "frame_couple",
+    "photo_couple",
+    "photo_cafe",
+    "frame_mirror",
+    "photo_mirror",
+    "frame_drinks",
+    "photo_drinks",
+    "photo_man_right",
+    "overlay_birds",
+    "overlay_top_sparkles",
+    "overlay_color_marks",
+    "overlay_blue_star",
+    "overlay_white_curve",
+    "overlay_left_music",
+    "overlay_february",
+    "overlay_cafe_border",
+    "photo_desserts",
+    "overlay_cafe_caption",
+    "overlay_halo",
+    "overlay_arrow_left_upper",
+    "overlay_arrow_up",
+    "overlay_arrow_right",
+    "overlay_arrow_left_lower",
+    "overlay_chevron",
+    "overlay_cartoon_head",
+    "overlay_power",
+    "overlay_left_captions",
+    "overlay_camera",
+    "overlay_bottom_oval",
+    "text_bottom",
+    "overlay_heart"
+  ]
+}

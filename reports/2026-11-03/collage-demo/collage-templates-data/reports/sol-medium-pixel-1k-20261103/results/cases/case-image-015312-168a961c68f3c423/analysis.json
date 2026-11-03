@@ -1,0 +1,61 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    958,
+    1512
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        958,
+        1512
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "frame_pink_card",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        958,
+        1512
+      ],
+      "description": "承载单张照片的完整圆角厚纸卡框，上部为珊瑚橙粉色，下部渐变为玫瑰粉色，保留细微纸纹、磨损白点、内口暗边和外缘阴影。左右边框较窄，下方留有宽阔空白，未见独立文字。这是具有照片内口的固定载体，不将其渐变纸面另拆为底图。",
+      "photo_id": [
+        "photo_castle"
+      ],
+      "label": "承载单张照片的完整圆角厚纸卡框，上部为珊瑚橙粉色，下部渐变为",
+      "method": "extract"
+    },
+    {
+      "id": "photo_castle",
+      "kind": "photo",
+      "bbox": [
+        67,
+        130,
+        890,
+        1226
+      ],
+      "description": "单张竖幅游乐园城堡合影，完整保留浅灰天空、蓝色尖顶与石砌城堡、舞台礼物及前沿石台。前景三位玩偶角色分别为左侧灰兔、中间黄色犬形角色和右侧粉色猫，面向镜头站立并挥手，后方另有数名表演者。城堡占据画面上部，人物集中在下部。摄影环境连续，照片在纸卡矩形内口中显示，四边受内口限制，无沿人物轮廓去背景或独立出框。",
+      "label": "单张竖幅游乐园城堡合影，完整保留浅灰天空、蓝色尖顶与石砌城堡",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_pink_card",
+    "photo_castle"
+  ]
+}

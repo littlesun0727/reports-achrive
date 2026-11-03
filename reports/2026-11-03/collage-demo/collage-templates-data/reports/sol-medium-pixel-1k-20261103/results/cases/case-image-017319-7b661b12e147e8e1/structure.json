@@ -1,0 +1,281 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture",
+    "description": "连续的浅灰白纸张纹理覆盖整个画布，四周和独立拼贴单元之间均可见相同的细微颗粒质感；人物、相框、标签、手写字样和装饰线条均为独立对象，纸底原样保留。"
+  },
+  "objects": [
+    {
+      "id": "loop_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        565,
+        177,
+        770
+      ],
+      "description": "画布左侧露出的黑色手绘环线，部分被左侧相框遮挡，作为独立固定装饰保留。"
+    },
+    {
+      "id": "loop_right",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        265,
+        1080,
+        438
+      ],
+      "description": "右上方相框后方露出的黑色手绘环线，延伸至画布右边缘并被相框局部遮挡。"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        69,
+        440,
+        462,
+        835
+      ],
+      "description": "左侧倾斜的矩形灰度时装照片，显示布料、链条和服装细节，完整照片窗口被相框边缘和中央人物局部遮挡。"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        57,
+        395,
+        480,
+        945
+      ],
+      "description": "承载左侧照片的倾斜浅色纸质拍立得相框，包含厚边、底部刻印和纸张阴影，完整框体保留。",
+      "photo_id": [
+        "photo_left"
+      ]
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        648,
+        345,
+        997,
+        735
+      ],
+      "description": "右侧倾斜的矩形灰度时装照片，显示服装、链条和身体局部，完整照片窗口被相框边缘及中央人物部分遮挡。"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        634,
+        281,
+        1015,
+        814
+      ],
+      "description": "承载右侧照片的倾斜浅色纸质拍立得相框，包含宽边、底部细小印字和纸张阴影，完整框体保留。",
+      "photo_id": [
+        "photo_right"
+      ]
+    },
+    {
+      "id": "label_top_left",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        320,
+        361,
+        383
+      ],
+      "description": "左上方撕边浅灰纸条，带黑色手写字样“Haute de gamme”，作为带字固定标签整体保留。"
+    },
+    {
+      "id": "label_top_right",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        249,
+        947,
+        321
+      ],
+      "description": "右上方撕边浅灰纸条，带黑色手写字样“Editions limitées”，作为带字固定标签整体保留。"
+    },
+    {
+      "id": "arrow_top_left",
+      "kind": "overlay",
+      "bbox": [
+        313,
+        357,
+        443,
+        431
+      ],
+      "description": "从左上标签指向左侧相框的黑色手绘箭头线，箭头与弯曲线条作为一个独立装饰保留。"
+    },
+    {
+      "id": "arrow_top_right",
+      "kind": "overlay",
+      "bbox": [
+        589,
+        307,
+        746,
+        373
+      ],
+      "description": "从右上标签指向右侧照片区域的黑色手绘箭头线，作为独立固定装饰保留。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        405,
+        262,
+        762,
+        1179
+      ],
+      "description": "居中的全身女性抠图照片，女性面向左侧站立，穿深色无袖连衣裙、黑色丝袜和长靴，手臂抱着蓝灰色外套并提黑色手袋；摄影背景去除，主体完整覆盖两张相框及其部分边缘。"
+    },
+    {
+      "id": "title_parisian",
+      "kind": "overlay",
+      "bbox": [
+        245,
+        88,
+        876,
+        320
+      ],
+      "description": "画布上方深红色大型手写书法字样“Parisian”，包含夸张首字母、连笔和独立重音笔画，作为艺术字整体保留。"
+    },
+    {
+      "id": "title_vibes",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        773,
+        959,
+        970
+      ],
+      "description": "右下方深红色大型手写书法字样“Vibes”，包含连笔、粗细变化和装饰性笔画，作为艺术字整体保留。"
+    },
+    {
+      "id": "label_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        141,
+        994,
+        451,
+        1072
+      ],
+      "description": "左下方撕边浅灰纸条，带黑色手写字样“Eco responsable”，作为带字固定标签整体保留。"
+    },
+    {
+      "id": "label_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        993,
+        946,
+        1060
+      ],
+      "description": "右下方撕边浅灰纸条，带黑色手写字样“Made in France”，作为带字固定标签整体保留。"
+    },
+    {
+      "id": "arrow_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        236,
+        816,
+        418,
+        969
+      ],
+      "description": "指向左下标签区域的黑色手绘弯曲箭头，部分经过左侧相框下方，作为独立线稿装饰保留。"
+    },
+    {
+      "id": "arrow_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        699,
+        1056,
+        899,
+        1152
+      ],
+      "description": "右下标签下方的黑色弧形手绘箭头，箭头指向标签，作为独立固定装饰保留。"
+    },
+    {
+      "id": "underline_vibes",
+      "kind": "overlay",
+      "bbox": [
+        803,
+        892,
+        1048,
+        956
+      ],
+      "description": "位于红色“Vibes”下方的两条黑色手绘下划线，带有不规则笔触和倾斜方向，作为独立装饰保留。"
+    },
+    {
+      "id": "ground_scribble",
+      "kind": "overlay",
+      "bbox": [
+        212,
+        1077,
+        656,
+        1250
+      ],
+      "description": "人物脚下及左侧延伸的黑色手绘地面线、折线和箭头状笔画，部分位于人物后方并从脚边露出，作为一个连续的装饰线稿单元保留。"
+    },
+    {
+      "id": "text_alba",
+      "kind": "text",
+      "bbox": [
+        108,
+        1220,
+        191,
+        1251
+      ],
+      "text": "ALBA",
+      "color": "#222222",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_website",
+      "kind": "text",
+      "bbox": [
+        523,
+        1218,
+        976,
+        1253
+      ],
+      "text": "WWW.ALBA-DESIGNPARIS.COM",
+      "color": "#222222",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "loop_left",
+    "loop_right",
+    "photo_left",
+    "frame_left",
+    "photo_right",
+    "frame_right",
+    "ground_scribble",
+    "arrow_top_left",
+    "arrow_top_right",
+    "label_top_left",
+    "label_top_right",
+    "arrow_bottom_left",
+    "label_bottom_left",
+    "label_bottom_right",
+    "arrow_bottom_right",
+    "underline_vibes",
+    "photo_woman",
+    "title_parisian",
+    "title_vibes",
+    "text_alba",
+    "text_website"
+  ]
+}

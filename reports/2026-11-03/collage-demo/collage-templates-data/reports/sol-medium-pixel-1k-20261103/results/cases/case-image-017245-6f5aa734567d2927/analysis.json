@@ -1,0 +1,470 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1280,
+    905
+  ],
+  "objects": [
+    {
+      "id": "notebook_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1280,
+        905
+      ],
+      "description": "全画布为固定笔记本设计底图，白色纸面带浅蓝横线、淡红竖线、中央深灰装订环及散布的粉色花瓣图案。纸面结构在四边和对象间隙连续可见，保留这些印刷与装订设计；独立人物、服饰照片、纸片和文字装饰不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为固定笔记本设计底图，白色纸面带浅蓝横线、淡红竖线、中",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "paper_tan",
+      "kind": "overlay",
+      "bbox": [
+        334,
+        0,
+        524,
+        239
+      ],
+      "description": "上方中央的棕黄色撕边纸片，带细微纸纹与不规则边缘，下部被两名人物遮挡。它是局部装饰底板，不承载照片窗口。",
+      "label": "上方中央的棕黄色撕边纸片，带细微纸纹与不规则边缘，下部被两名",
+      "method": "extract"
+    },
+    {
+      "id": "paper_gray",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        563,
+        234,
+        689
+      ],
+      "description": "左下人物后方的灰色便签纸片，带小字、心形涂画和红色回形针式图案；可辨开头为“What”。纸片下部被坐姿人物遮挡，整体保留其印字和附属图案。",
+      "label": "左下人物后方的灰色便签纸片，带小字、心形涂画和红色回形针式图",
+      "method": "extract"
+    },
+    {
+      "id": "paper_pink",
+      "kind": "overlay",
+      "bbox": [
+        674,
+        474,
+        834,
+        730
+      ],
+      "description": "中部偏右的浅粉色纸片，略微倾斜，带黑色笑脸及粗体英文，局部可辨“HAVE”“NICE”。上方被紫色卫衣人物遮挡，下方被绿色开衫人物遮挡，作为完整固定纸片保留。",
+      "label": "中部偏右的浅粉色纸片，略微倾斜，带黑色笑脸及粗体英文，局部可",
+      "method": "extract"
+    },
+    {
+      "id": "activity_card",
+      "kind": "overlay",
+      "bbox": [
+        845,
+        271,
+        1033,
+        412
+      ],
+      "description": "右上中部倾斜的浅色不规则纸质字样装饰，彩色粗字与浅粉、浅灰图案共同构成设计，可见英文片段“ivity”。左侧被紫色卫衣人物遮挡，右下部分被棕色卫衣人物遮挡，不拆分内部文字。",
+      "label": "右上中部倾斜的浅色不规则纸质字样装饰，彩色粗字与浅粉、浅灰图",
+      "method": "extract"
+    },
+    {
+      "id": "photo_jeans",
+      "kind": "photo",
+      "bbox": [
+        38,
+        46,
+        158,
+        373
+      ],
+      "description": "左上单件蓝色高腰微喇牛仔裤产品照片，正面展示，腰头、口袋、两条裤腿和裤脚完整可见。摄影背景已沿服装轮廓去除，裤腿间露出笔记本底图。",
+      "label": "左上单件蓝色高腰微喇牛仔裤产品照片，正面展示，腰头、口袋、两",
+      "method": "local"
+    },
+    {
+      "id": "photo_argyle_sweater",
+      "kind": "photo",
+      "bbox": [
+        121,
+        232,
+        277,
+        428
+      ],
+      "description": "左侧棕米色菱格纹短款长袖毛衣产品照片，正面展示，包含领口、衣身及两条下垂袖子。沿衣物外形去除摄影背景，内部织物纹理和菱格随照片替换。",
+      "label": "左侧棕米色菱格纹短款长袖毛衣产品照片，正面展示，包含领口、衣",
+      "method": "local"
+    },
+    {
+      "id": "photo_back_woman",
+      "kind": "photo",
+      "bbox": [
+        480,
+        23,
+        603,
+        498
+      ],
+      "description": "上方中央偏右的一名金发女性全身照片，身体侧向右，穿深色菱格上衣、浅色长裤和运动鞋。沿人物及服装轮廓去背景，左侧身体被前方棕色毛衣人物遮挡，脚部仍可见。",
+      "label": "上方中央偏右的一名金发女性全身照片，身体侧向右，穿深色菱格上",
+      "method": "local"
+    },
+    {
+      "id": "photo_brown_woman",
+      "kind": "photo",
+      "bbox": [
+        354,
+        77,
+        558,
+        623
+      ],
+      "description": "中央偏左的一名长发女性全身照片，穿棕色菱格毛衣、黑色短裙、白袜和黑色短靴，正面略向左站立，双臂自然下垂。沿完整人物轮廓去除摄影环境，覆盖后方金发女性及棕色纸片，右侧局部被白色英文纸条覆盖。",
+      "label": "中央偏左的一名长发女性全身照片，穿棕色菱格毛衣、黑色短裙、白",
+      "method": "local"
+    },
+    {
+      "id": "photo_boots",
+      "kind": "photo",
+      "bbox": [
+        706,
+        57,
+        870,
+        188
+      ],
+      "description": "上方偏右的一双黑色系带厚底短靴产品照片，两个鞋筒及鞋底组成完整单元，侧向展示。摄影背景已去除，前下部被白色运动鞋照片遮挡。",
+      "label": "上方偏右的一双黑色系带厚底短靴产品照片，两个鞋筒及鞋底组成完",
+      "method": "local"
+    },
+    {
+      "id": "photo_sneakers",
+      "kind": "photo",
+      "bbox": [
+        698,
+        145,
+        903,
+        247
+      ],
+      "description": "上方偏右的一双白色低帮运动鞋产品照片，侧面鞋身、鞋底及后方另一只鞋共同显示。沿整组鞋轮廓去背景，叠在黑靴前方，并遮挡下方人物头顶附近。",
+      "label": "上方偏右的一双白色低帮运动鞋产品照片，侧面鞋身、鞋底及后方另",
+      "method": "local"
+    },
+    {
+      "id": "photo_lavender_woman",
+      "kind": "photo",
+      "bbox": [
+        705,
+        240,
+        900,
+        754
+      ],
+      "description": "中部一名长发女性站姿照片，戴蓝色口罩，穿浅紫色宽松卫衣、蓝色百褶短裙，肩背黑色包。摄影环境已沿人物组合轮廓去除；头顶被白鞋遮挡，下方腿部及浅蓝花纹配件被前方绿色开衫人物和右侧人物遮挡，遮挡区域内的具体细节不确定。",
+      "label": "中部一名长发女性站姿照片，戴蓝色口罩，穿浅紫色宽松卫衣、蓝色",
+      "method": "local"
+    },
+    {
+      "id": "photo_black_skirt_woman",
+      "kind": "photo",
+      "bbox": [
+        0,
+        407,
+        208,
+        890
+      ],
+      "description": "左下的一名女性全身照片，穿黑灰菱格背心、黑色长袖及黑色百褶短裙，双手抬至头侧，脚穿浅色袜和厚底鞋，并带棕色肩包。沿人物与随身物品轮廓去背景，左臂触及画布左边，下方与坐姿人物照片交叠。",
+      "label": "左下的一名女性全身照片，穿黑灰菱格背心、黑色长袖及黑色百褶短",
+      "method": "local"
+    },
+    {
+      "id": "photo_seated_woman",
+      "kind": "photo",
+      "bbox": [
+        0,
+        623,
+        336,
+        899
+      ],
+      "description": "左下的一名女性坐姿照片，穿蓝色菱格针织背心、白色短袖和棕色长裤，一手抬至额前，另一手向右撑地，双腿向左伸展并被画布边缘裁切。摄影环境已去除，整个人物组合叠在灰色便签和左侧站姿人物的局部前方。",
+      "label": "左下的一名女性坐姿照片，穿蓝色菱格针织背心、白色短袖和棕色长",
+      "method": "local"
+    },
+    {
+      "id": "photo_plaid_skirt",
+      "kind": "photo",
+      "bbox": [
+        449,
+        570,
+        591,
+        700
+      ],
+      "description": "中央下方的灰米粉色格纹短裙产品照片，正面展示腰头、格纹裙身和褶皱下摆。沿服装轮廓去除摄影背景，左上靠近棕色毛衣人物的靴子，下部叠在棒球夹克上方。",
+      "label": "中央下方的灰米粉色格纹短裙产品照片，正面展示腰头、格纹裙身和",
+      "method": "local"
+    },
+    {
+      "id": "photo_varsity_jacket",
+      "kind": "photo",
+      "bbox": [
+        310,
+        654,
+        589,
+        817
+      ],
+      "description": "下方中央的短款棒球夹克产品照片，深棕衣身配米色长袖，包含领口、罗纹边、口袋和衣身字母标志，两袖向两侧展开。沿完整衣物轮廓去背景，右上部分被格纹短裙遮挡。",
+      "label": "下方中央的短款棒球夹克产品照片，深棕衣身配米色长袖，包含领口",
+      "method": "local"
+    },
+    {
+      "id": "photo_brown_nike_woman",
+      "kind": "photo",
+      "bbox": [
+        858,
+        364,
+        1054,
+        882
+      ],
+      "description": "右侧一名金发女性全身侧向站姿照片，面朝右，穿棕色字母卫衣与棕色长裤、深色鞋，黑色厚外套披挂在手臂，手提小型花纹包。人物、外套和包作为完整摄影组合去背景；左下部分被绿色开衫人物遮挡。",
+      "label": "右侧一名金发女性全身侧向站姿照片，面朝右，穿棕色字母卫衣与棕",
+      "method": "local"
+    },
+    {
+      "id": "photo_green_woman",
+      "kind": "photo",
+      "bbox": [
+        665,
+        595,
+        1006,
+        905
+      ],
+      "description": "下方偏右的一名女性近景照片，戴绿色花纹头巾与耳饰，穿浅绿色开衫和米色上衣，面朝右，抬手靠近脸侧，左肩带大型浅色包。人物、手臂和随身包组成同一去背景单元，下部由画布底边裁切，遮挡后方紫色及棕色服装人物。",
+      "label": "下方偏右的一名女性近景照片，戴绿色花纹头巾与耳饰，穿浅绿色开",
+      "method": "local"
+    },
+    {
+      "id": "photo_loafers_legs",
+      "kind": "photo",
+      "bbox": [
+        1022,
+        468,
+        1280,
+        890
+      ],
+      "description": "画布最右侧的局部人物下身照片，包含一只露出的手、两条穿黑色长袜的腿及两只黑色系带厚底皮鞋；一腿斜向左伸出，另一腿向下延伸。沿完整可见人体与鞋袜组合去背景，上身和右侧部分在画布边缘裁切。",
+      "label": "画布最右侧的局部人物下身照片，包含一只露出的手、两条穿黑色长",
+      "method": "local"
+    },
+    {
+      "id": "free_label",
+      "kind": "overlay",
+      "bbox": [
+        441,
+        302,
+        511,
+        499
+      ],
+      "description": "叠在棕色毛衣人物右侧腿部附近的细长白色纸条，倾斜竖排黑色粗字“YOU, TOO, CAN BE FREE”。纸边与特定字样位置整体保留，不拆成普通文字。",
+      "label": "叠在棕色毛衣人物右侧腿部附近的细长白色纸条，倾斜竖排黑色粗字",
+      "method": "extract"
+    },
+    {
+      "id": "note_jeans",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        35,
+        292,
+        105
+      ],
+      "description": "牛仔裤右上方的黑色手写“微喇裤”及其向左下延伸的指示线，文字倾斜且笔画不规则，作为一个完整注释装饰保留。",
+      "label": "牛仔裤右上方的黑色手写“微喇裤”及其向左下延伸的指示线，文字",
+      "method": "extract"
+    },
+    {
+      "id": "note_argyle",
+      "kind": "overlay",
+      "bbox": [
+        196,
+        162,
+        382,
+        234
+      ],
+      "description": "毛衣与中央人物之间的黑色手写菱格纹注释，可辨“菱格纹”，含两侧弯曲指示箭头和斜向分行字样，整体保留原有笔画和布局。",
+      "label": "毛衣与中央人物之间的黑色手写菱格纹注释，可辨“菱格纹”，含两",
+      "method": "extract"
+    },
+    {
+      "id": "arrows_brown_legs",
+      "kind": "overlay",
+      "bbox": [
+        311,
+        350,
+        398,
+        514
+      ],
+      "description": "中央棕色毛衣人物左侧的两条细黑色长弧箭头，一条向下，另一条沿腿旁回转。两条线共同形成局部强调装饰，空隙透明，保留完整线条。",
+      "label": "中央棕色毛衣人物左侧的两条细黑色长弧箭头，一条向下，另一条沿",
+      "method": "extract"
+    },
+    {
+      "id": "note_left_styling",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        498,
+        362,
+        623
+      ],
+      "description": "左侧两名人物之间的多行黑色手写搭配注释，斜向排布，含从左下弯向文字的长箭头。可辨文字片段“美式”“以”“格子”，其余笔画按原样保留，不推测完整原文。",
+      "label": "左侧两名人物之间的多行黑色手写搭配注释，斜向排布，含从左下弯",
+      "method": "extract"
+    },
+    {
+      "id": "note_varsity_upper",
+      "kind": "overlay",
+      "bbox": [
+        278,
+        603,
+        390,
+        746
+      ],
+      "description": "坐姿人物右上和棒球夹克左上之间的黑色斜排注释，可辨“棒球服”，包含两行手写字与向夹克延伸的弯曲箭头，整体作为独立装饰保留。",
+      "label": "坐姿人物右上和棒球夹克左上之间的黑色斜排注释，可辨“棒球服”",
+      "method": "extract"
+    },
+    {
+      "id": "note_varsity_lower",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        752,
+        551,
+        894
+      ],
+      "description": "棒球夹克下方的多行黑色手写说明和短弯箭头，文字随斜向基线错落排列，可辨“当代美式校园”“流行”。特定手写笔画与整体排布一并保留。",
+      "label": "棒球夹克下方的多行黑色手写说明和短弯箭头，文字随斜向基线错落",
+      "method": "extract"
+    },
+    {
+      "id": "note_neutral_items",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        23,
+        1072,
+        183
+      ],
+      "description": "黑靴右上方的黑色手写注释，可辨“中性单品”，下方另有斜排手写内容；包含从靴子附近向右上弯曲的箭头及向上的长指示线。文字与箭头共同作为完整固定注释保留。",
+      "label": "黑靴右上方的黑色手写注释，可辨“中性单品”，下方另有斜排手写",
+      "method": "extract"
+    },
+    {
+      "id": "text_campus",
+      "kind": "text",
+      "bbox": [
+        914,
+        111,
+        1274,
+        226
+      ],
+      "description": "Contemporary American campus wear is more bold,\nkeeping knitted vests, hoodies, pleated skirts,\nand flaxy pants, mixing with diamond lattice,\nletters, checkered elements. In order to elongate\nthe proportion, they are mainly short with some\nneutral items such as jeans to highlight youth.",
+      "label": "Contemporary American campus w",
+      "method": "local",
+      "text": "Contemporary American campus wear is more bold,\nkeeping knitted vests, hoodies, pleated skirts,\nand flaxy pants, mixing with diamond lattice,\nletters, checkered elements. In order to elongate\nthe proportion, they are mainly short with some\nneutral items such as jeans to highlight youth.",
+      "text_status": "known",
+      "style": {
+        "fill": "#354A78",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "note_sport_style",
+      "kind": "overlay",
+      "bbox": [
+        920,
+        338,
+        1190,
+        486
+      ],
+      "description": "彩色字卡右侧的黑色多行手写注释，包含从字卡向右弯曲的箭头及向上斜指的箭头，可辨“运动”“休闲”等片段。字行各有角度和位置变化，整体保留原有视觉形式。",
+      "label": "彩色字卡右侧的黑色多行手写注释，包含从字卡向右弯曲的箭头及向",
+      "method": "extract"
+    },
+    {
+      "id": "note_bag",
+      "kind": "overlay",
+      "bbox": [
+        1003,
+        565,
+        1121,
+        692
+      ],
+      "description": "棕色长裤人物与左伸皮鞋之间的黑色手写注释，含加号、向左指示线和弯曲箭头，可辨“腋下包”。字样与指示线整体保留，不将其归入人物照片。",
+      "label": "棕色长裤人物与左伸皮鞋之间的黑色手写注释，含加号、向左指示线",
+      "method": "extract"
+    },
+    {
+      "id": "note_socks",
+      "kind": "overlay",
+      "bbox": [
+        1110,
+        533,
+        1230,
+        615
+      ],
+      "description": "右侧长袜上方的黑色手写“长筒袜”及向右下弯曲的指示线，倾斜笔画和箭头共同组成独立装饰。",
+      "label": "右侧长袜上方的黑色手写“长筒袜”及向右下弯曲的指示线，倾斜笔",
+      "method": "extract"
+    },
+    {
+      "id": "arrow_lower_shoe",
+      "kind": "overlay",
+      "bbox": [
+        1167,
+        794,
+        1216,
+        841
+      ],
+      "description": "右下皮鞋鞋口附近的黑色短弯箭头涂画，指向鞋袜交界，独立于摄影内容保留。",
+      "label": "右下皮鞋鞋口附近的黑色短弯箭头涂画，指向鞋袜交界，独立于摄影",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "notebook_base",
+    "paper_tan",
+    "paper_gray",
+    "paper_pink",
+    "activity_card",
+    "photo_jeans",
+    "photo_argyle_sweater",
+    "photo_back_woman",
+    "photo_brown_woman",
+    "photo_lavender_woman",
+    "photo_boots",
+    "photo_sneakers",
+    "photo_black_skirt_woman",
+    "photo_seated_woman",
+    "photo_varsity_jacket",
+    "photo_plaid_skirt",
+    "photo_brown_nike_woman",
+    "photo_green_woman",
+    "photo_loafers_legs",
+    "free_label",
+    "note_jeans",
+    "note_argyle",
+    "arrows_brown_legs",
+    "note_left_styling",
+    "note_varsity_upper",
+    "note_varsity_lower",
+    "note_neutral_items",
+    "text_campus",
+    "note_sport_style",
+    "note_bag",
+    "note_socks",
+    "arrow_lower_shoe"
+  ]
+}

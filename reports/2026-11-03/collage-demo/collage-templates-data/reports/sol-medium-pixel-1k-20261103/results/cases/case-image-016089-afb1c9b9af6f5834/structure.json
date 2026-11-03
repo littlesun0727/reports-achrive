@@ -1,0 +1,42 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布连续的白色纸质底图，带细微颗粒纹理与边缘浅灰阴影；照片四周及下方文字区均露出同一纸底。保留纸底纹理和边缘外观，照片与独立文字另列，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        53,
+        104,
+        1027,
+        1402
+      ],
+      "description": "一张竖向人物照片：一名长发女性穿白色无袖衣服、戴宽沿毛边草帽，面向镜头微笑，右侧手臂抬起扶帽，另一侧手臂伸向画面左边并被照片边缘裁切，身体下部被下缘裁切。身后为绿色门窗、成串水果、果篮与盆栽组成的店铺环境，顶部保留屋顶和横梁。人物、草帽、水果及完整摄影环境共同替换；照片以清晰矩形边界显示，无沿主体去背景或透明渐隐。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        40,
+        1459,
+        494,
+        1569
+      ],
+      "text": "by OPPO Reno16 Pro\n25/5/2026",
+      "color": "#111111",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "text_caption"
+  ]
+}

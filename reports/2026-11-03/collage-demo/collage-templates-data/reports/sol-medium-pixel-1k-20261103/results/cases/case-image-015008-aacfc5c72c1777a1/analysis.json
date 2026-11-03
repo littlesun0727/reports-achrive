@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1696
+  ],
+  "objects": [
+    {
+      "id": "background_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1696
+      ],
+      "description": "覆盖全画布的浅灰蓝与淡紫色抽象图案底图，包含紫红、深蓝曲线、白色圆环、点阵、花形及青蓝色蝴蝶状图案。四边与中央照片周围的图案连续，中央被独立照片遮挡；固定底图整体保留，不将照片内容并入。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的浅灰蓝与淡紫色抽象图案底图，包含紫红、深蓝曲线、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        99,
+        223,
+        981,
+        1325
+      ],
+      "description": "中央矩形独立照片，画面中的一名紫色长发人物横向侧置，头部朝画布右侧，呈上半身近景，穿白色衣服，手持深色条纹领带并佩戴戒指。保留绿色地面、黑色线缆、设备及浅色墙面等完整摄影环境；人物与环境共同横置显示，四边为清晰矩形边界，无可见独立框体、主体去背景或透明渐隐。",
+      "label": "中央矩形独立照片，画面中的一名紫色长发人物横向侧置，头部朝画",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "background_pattern",
+    "photo_center"
+  ]
+}

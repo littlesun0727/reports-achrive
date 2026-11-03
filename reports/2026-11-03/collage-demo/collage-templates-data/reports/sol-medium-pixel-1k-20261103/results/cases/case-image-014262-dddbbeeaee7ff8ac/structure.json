@@ -1,0 +1,273 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_room",
+    "description": "无人室内场景的连续摄影底图，灰米色墙面、桌面和深色椅凳延伸至画布四边，整体失焦。中央照片卡、下方装饰板及兔子装饰遮挡大部分场景；保留完整室内摄影环境，随客户照片整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        212,
+        174,
+        860,
+        583
+      ],
+      "description": "横向静物照片，无人物。左侧大玻璃杯盛橙黄色饮料，杯内有橙片，斜插浅色圆点吸管，杯沿搭着樱桃；右侧为翻开的小书，桌上另有一颗深色樱桃，左下露出橙子。完整保留木桌和灰色织物背景，显示于上方相纸内口，局部被兔子和闪光装饰遮挡。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        181,
+        124,
+        895,
+        694
+      ],
+      "description": "白色拍立得式相纸框，横向照片内口四周有窄白边，下方留有较宽白色区域；保留略不规则的纸边、轻微明暗和投影。底部独立文字、左下兔子及顶部回形针不属于相纸本身。",
+      "photo_id": [
+        "photo_drink"
+      ]
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        486,
+        65,
+        579,
+        191
+      ],
+      "description": "斜向银灰色金属回形针，双重弯曲线圈跨过相纸上沿，下端压在照片顶部及吸管附近，保留金属高光和暗边。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        491,
+        592,
+        831,
+        708
+      ],
+      "text": "My Polaroid\nMy Utopia",
+      "color": "#100F0A",
+      "font": "mono",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_rabbit_left",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        500,
+        256,
+        831
+      ],
+      "description": "青绿色绒质兔子装饰，粉色内耳和圆形口鼻，黑色亮眼、细胡须，短手臂和分开的双脚构成完整轮廓。位于上方相纸左下，遮住照片角、相纸边，并覆盖下方装饰板左上少量区域。"
+    },
+    {
+      "id": "overlay_rabbit_right_top",
+      "kind": "overlay",
+      "bbox": [
+        851,
+        260,
+        1018,
+        507
+      ],
+      "description": "蓝色绒质兔子装饰，双耳、白色圆脸、粉色鼻子、黑色眼睛和细胡须，保留身体、双臂及双脚。叠在上方相纸右边，遮挡右侧白边与少量照片边缘。"
+    },
+    {
+      "id": "overlay_lower_board",
+      "kind": "overlay",
+      "bbox": [
+        183,
+        767,
+        901,
+        1318
+      ],
+      "description": "完整黑色拼贴装饰板，上边灰色条重复印有“Don't put in mouth.”，下边灰色条重复印有“instax FUJIFILM”。黑色区域内包含日文纸条、卡通人物、淡紫兔形图案、鱼、星星、月亮、花朵、圆点、笔记本、笔筒及蓝色杯子等固定图案，保留各成员原有位置、材质、板边和阴影，不含独立摄影窗口。"
+    },
+    {
+      "id": "overlay_rabbit_right_bottom",
+      "kind": "overlay",
+      "bbox": [
+        815,
+        1052,
+        1031,
+        1403
+      ],
+      "description": "粉色绒质兔子装饰，长耳、黑色高光眼睛、粉色鼻子、嘴线和细胡须，完整保留双臂、身体及双脚。覆盖下方黑色装饰板的右下边和部分底部品牌条。"
+    },
+    {
+      "id": "overlay_sparkle_top_left",
+      "kind": "overlay",
+      "bbox": [
+        187,
+        148,
+        253,
+        222
+      ],
+      "description": "相纸内口左上角的浅金白色四向闪光，含中心亮点、斜向细长光芒和柔光。"
+    },
+    {
+      "id": "overlay_sparkle_top_right",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        144,
+        888,
+        226
+      ],
+      "description": "相纸内口右上角的浅金白色星状闪光，细光芒跨过照片与白色框沿。"
+    },
+    {
+      "id": "overlay_sparkle_glass",
+      "kind": "overlay",
+      "bbox": [
+        448,
+        352,
+        524,
+        430
+      ],
+      "description": "饮料杯正面叠加的金黄色四向闪光，中心明亮，斜向光芒细长，不属于杯中摄影内容。"
+    },
+    {
+      "id": "overlay_sparkle_left_edge",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        528,
+        267,
+        623
+      ],
+      "description": "青绿色兔子右耳旁与相纸左下交界处的金白色闪光，光芒横跨兔子、照片角和白色纸边。"
+    },
+    {
+      "id": "overlay_sparkle_right_edge",
+      "kind": "overlay",
+      "bbox": [
+        813,
+        538,
+        890,
+        614
+      ],
+      "description": "照片内口右下角的细长金白色星状闪光，中心位于照片和相纸交界。"
+    },
+    {
+      "id": "overlay_sparkle_caption_top",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        565,
+        649,
+        650
+      ],
+      "description": "第一行标题中部附近的淡金色交叉光芒，中心位于“Polaroid”前部附近，叠在字样和白色相纸上。"
+    },
+    {
+      "id": "overlay_sparkle_caption_middle",
+      "kind": "overlay",
+      "bbox": [
+        606,
+        590,
+        694,
+        675
+      ],
+      "description": "两行标题中间偏右的浅金色星状光芒，透明细线跨越标题区域，与相邻闪光局部相交。"
+    },
+    {
+      "id": "overlay_sparkle_caption_bottom",
+      "kind": "overlay",
+      "bbox": [
+        703,
+        635,
+        798,
+        727
+      ],
+      "description": "第二行“Utopia”右部的浅金色四向闪光，光芒向相纸下方延伸。"
+    },
+    {
+      "id": "overlay_sparkle_board_top",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        795,
+        518,
+        895
+      ],
+      "description": "下方黑色装饰板上部的白金色闪光，中心位于上方日文图案左上附近，保留明亮光核和多向细光线。"
+    },
+    {
+      "id": "overlay_sparkle_board_middle",
+      "kind": "overlay",
+      "bbox": [
+        537,
+        878,
+        591,
+        933
+      ],
+      "description": "下方装饰板中上部小标签旁的细小金白色闪光，叠在固定图案上。"
+    },
+    {
+      "id": "overlay_sparkle_board_character",
+      "kind": "overlay",
+      "bbox": [
+        546,
+        1002,
+        609,
+        1061
+      ],
+      "description": "黑色装饰板卡通人物左侧的白色闪光，带小亮点和交叉细光芒。"
+    },
+    {
+      "id": "overlay_sparkle_board_bottom",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        1064,
+        776,
+        1147
+      ],
+      "description": "下方日文纸条右上角附近的金白色四向闪光，光芒跨过纸条与黑色底板。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1414,
+        1068,
+        1433
+      ],
+      "description": "右下角极小的深色圆角水印标识，内有细小中文印字，作为完整固定标识保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_polaroid",
+    "photo_drink",
+    "overlay_lower_board",
+    "text_caption",
+    "overlay_clip",
+    "overlay_rabbit_left",
+    "overlay_rabbit_right_top",
+    "overlay_rabbit_right_bottom",
+    "overlay_sparkle_top_left",
+    "overlay_sparkle_top_right",
+    "overlay_sparkle_glass",
+    "overlay_sparkle_left_edge",
+    "overlay_sparkle_right_edge",
+    "overlay_sparkle_caption_top",
+    "overlay_sparkle_caption_middle",
+    "overlay_sparkle_caption_bottom",
+    "overlay_sparkle_board_top",
+    "overlay_sparkle_board_middle",
+    "overlay_sparkle_board_character",
+    "overlay_sparkle_board_bottom",
+    "overlay_watermark"
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#AFBFCE"
+      }
+    },
+    {
+      "id": "photo_tree",
+      "kind": "photo",
+      "bbox": [
+        137,
+        0,
+        951,
+        1090
+      ],
+      "description": "中央版面底层的海边树林照片，无近景人物。左侧粗树干及横向枝条、右侧细枝、阴天天空和下方海面连续，远处可见船只、码头吊机，近处有船沿。保留完整摄影环境；中央白色载体与下方照片卡遮挡其大部。左右显示边界明确，下缘被圆角卡遮住，隐藏部分的实际终止位置不确定。",
+      "label": "中央版面底层的海边树林照片，无近景人物。左侧粗树干及横向枝条",
+      "method": "local"
+    },
+    {
+      "id": "frame_center",
+      "kind": "frame",
+      "bbox": [
+        321,
+        0,
+        768,
+        1019
+      ],
+      "description": "中央白色竖向照片承托单元，上端接画布顶边，中部向两侧扩成宽白边圆形照片窗口，下端延伸至下方卡片后。保留载体上的灰色框内“hulang hiling”、定位图标、“Singkawang, Kalimantan Barat”、三点图案及“Enjoy your week day!”印字；不包含跨出载体边界的主标题和问候字样。",
+      "photo_id": [
+        "photo_circle"
+      ],
+      "label": "中央白色竖向照片承托单元，上端接画布顶边，中部向两侧扩成宽白",
+      "method": "extract"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        342,
+        522,
+        746,
+        926
+      ],
+      "description": "圆形海滩照片，一名穿棕色头巾和长裙、白色外衣的女子以侧背面站在沙滩上，右臂向海面伸出，衣摆向左展开，完整人物位于中下部。保留沙滩、海水、远山和多云天空，左侧远处另有小人物；摄影环境未去除，人物没有越过圆形显示边界。",
+      "label": "圆形海滩照片，一名穿棕色头巾和长裙、白色外衣的女子以侧背面站",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        326,
+        303,
+        608,
+        464
+      ],
+      "description": "两行大号灰色“Sunday”“Best.”标题，带贴合字形的宽白色外轮廓，整体跨在左侧树林照片与中央白色载体上。保留原有字形、两行布局和轮廓，作为独立艺术字单元。",
+      "label": "两行大号灰色“Sunday”“Best.”标题，带贴合字形的",
+      "method": "extract"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        524,
+        438,
+        692,
+        457
+      ],
+      "description": "Minggu, 31 July 2022",
+      "label": "Minggu, 31 July 2022",
+      "method": "local",
+      "text": "Minggu, 31 July 2022",
+      "text_status": "known",
+      "style": {
+        "fill": "#808080",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_greeting",
+      "kind": "overlay",
+      "bbox": [
+        356,
+        939,
+        570,
+        973
+      ],
+      "description": "灰色“Hallo Instagram!”问候字样，带明显的白色字形外轮廓，左端跨出中央白色载体，叠在海边底层照片上；完整保留文字造型与轮廓。",
+      "label": "灰色“Hallo Instagram!”问候字样，带明显的白",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        137,
+        1016,
+        951,
+        1440
+      ],
+      "description": "横跨中央版面的白色三窗口照片卡，上方两角圆润，带白色顶部标题区、两条竖向分隔和底部留白，底边接画布边缘。顶部自身印字依次为斜体“in samudra indah”、细灰框内“Another Photos”、斜体“capture every moment”，随卡体整体保留。三个独立照片内口分别替换。",
+      "photo_id": [
+        "photo_bottom_left",
+        "photo_bottom_middle",
+        "photo_bottom_right"
+      ],
+      "label": "横跨中央版面的白色三窗口照片卡，上方两角圆润，带白色顶部标题",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        137,
+        1090,
+        382,
+        1380
+      ],
+      "description": "左下竖向海边照片，一名穿头巾、白色上衣和深色长裙的女子站在浅海水中，双臂抬起，身体侧向，人物位于中下部。保留波纹海水、地平线及泛黄灰蓝的云层天空，画面较暗；完整矩形内口没有主体出框。",
+      "label": "左下竖向海边照片，一名穿头巾、白色上衣和深色长裙的女子站在浅",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_middle",
+      "kind": "photo",
+      "bbox": [
+        399,
+        1090,
+        689,
+        1380
+      ],
+      "description": "下方中央俯拍照片，底部可见浅棕色衣摆和一双深蓝色鞋，面对上方涌到沙滩上的白色泡沫海浪。衣物、鞋、黄色湿沙及海水属于同一摄影画面，完整保留矩形内口中的环境。",
+      "label": "下方中央俯拍照片，底部可见浅棕色衣摆和一双深蓝色鞋，面对上方",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        707,
+        1090,
+        951,
+        1380
+      ],
+      "description": "右下海滩照片，一名穿棕色头巾与白色外衣的女子在近处沙滩上蹲坐，低头并伸手触沙，人物位于下半部。保留向远处延伸的沙滩、右侧海水、远处岸线与阴天天空，完整矩形显示范围与另外两张下方照片独立。",
+      "label": "右下海滩照片，一名穿棕色头巾与白色外衣的女子在近处沙滩上蹲坐",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_tree",
+    "frame_center",
+    "photo_circle",
+    "overlay_title",
+    "text_date",
+    "overlay_greeting",
+    "frame_bottom",
+    "photo_bottom_left",
+    "photo_bottom_middle",
+    "photo_bottom_right"
+  ]
+}

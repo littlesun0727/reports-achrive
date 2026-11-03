@@ -1,0 +1,202 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    971,
+    1619
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        971,
+        1619
+      ],
+      "description": "浅米黄色纸张纹理连续覆盖整张画布，四边及各设计单元之间均露出相同纸底；保留纸纹与零星斑点，中央照片、撕纸框和装饰均为独立单元。",
+      "background_type": "reference_clean",
+      "label": "浅米黄色纸张纹理连续覆盖整张画布，四边及各设计单元之间均露出",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "botanical_upper",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        416,
+        930,
+        1085
+      ],
+      "description": "细线手绘植物枝条，带多处分叉和小叶，从中央上方延展至右侧下方；作为完整的独立线稿装饰保留。",
+      "label": "细线手绘植物枝条，带多处分叉和小叶，从中央上方延展至右侧下方",
+      "method": "extract"
+    },
+    {
+      "id": "botanical_lower",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        1117,
+        255,
+        1275
+      ],
+      "description": "左下方细线手绘植物枝条，带小叶，横向延伸并靠近中央撕纸框，作为独立线稿装饰保留。",
+      "label": "左下方细线手绘植物枝条，带小叶，横向延伸并靠近中央撕纸框，作",
+      "method": "extract"
+    },
+    {
+      "id": "halftone_upper",
+      "kind": "overlay",
+      "bbox": [
+        161,
+        656,
+        296,
+        798
+      ],
+      "description": "标题下方偏左的绿色印刷网点纹样，呈不规则点阵块状，局部被中央撕纸照片区域遮挡；完整可见纹样作为一个装饰单元保留。",
+      "label": "标题下方偏左的绿色印刷网点纹样，呈不规则点阵块状，局部被中央",
+      "method": "extract"
+    },
+    {
+      "id": "halftone_lower",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        1150,
+        456,
+        1352
+      ],
+      "description": "左下方绿色印刷网点纹样，呈倾斜的不规则点阵块，靠近并部分延伸至撕纸框下方；作为完整装饰单元保留。",
+      "label": "左下方绿色印刷网点纹样，呈倾斜的不规则点阵块，靠近并部分延伸",
+      "method": "extract"
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        160,
+        600,
+        296,
+        617
+      ],
+      "description": "GREEN PASSAGE",
+      "label": "GREEN PASSAGE",
+      "method": "local",
+      "text": "GREEN PASSAGE",
+      "text_status": "known",
+      "style": {
+        "fill": "#50483A",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "heading_dashes",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        633,
+        297,
+        641
+      ],
+      "description": "标题下方一行短小的青绿色手绘虚线，作为独立装饰保留。",
+      "label": "标题下方一行短小的青绿色手绘虚线，作为独立装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_pool",
+      "kind": "photo",
+      "bbox": [
+        215,
+        646,
+        824,
+        1261
+      ],
+      "description": "中央不规则撕纸窗口内的高处俯拍水潭照片：碧蓝水面中央有数名游泳者和一艘黄色小船，四周被浓密绿色树冠围绕。摄影环境保留在完整窗口内，边缘沿不规则照片窗口显示；照片上缘和左侧局部被纸片及框沿遮挡。",
+      "label": "中央不规则撕纸窗口内的高处俯拍水潭照片：碧蓝水面中央有数名游",
+      "method": "local"
+    },
+    {
+      "id": "frame_torn",
+      "kind": "frame",
+      "bbox": [
+        157,
+        618,
+        868,
+        1284
+      ],
+      "description": "围绕水潭照片的厚实米白色撕边纸框，轮廓不规则，带可见纸纤维、浅色阴影和下缘褶皱；左侧局部被青绿色撕纸片覆盖。",
+      "photo_id": [
+        "photo_pool"
+      ],
+      "label": "围绕水潭照片的厚实米白色撕边纸框，轮廓不规则，带可见纸纤维、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_teal_torn",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        848,
+        259,
+        1117
+      ],
+      "description": "覆盖撕纸框左侧及照片边缘的青绿色不规则撕纸片，轮廓有明显纸纤维边缘，作为独立固定装饰保留。",
+      "label": "覆盖撕纸框左侧及照片边缘的青绿色不规则撕纸片，轮廓有明显纸纤",
+      "method": "extract"
+    },
+    {
+      "id": "text_archive",
+      "kind": "text",
+      "bbox": [
+        581,
+        1294,
+        885,
+        1326
+      ],
+      "description": "ARCHIVE 17A-08-21 / SUMMER FIELD NOTES\nlat. 42.71 lon. 18.40",
+      "label": "ARCHIVE 17A-08-21 / SUMMER FIE",
+      "method": "local",
+      "text": "ARCHIVE 17A-08-21 / SUMMER FIELD NOTES\nlat. 42.71 lon. 18.40",
+      "text_status": "known",
+      "style": {
+        "fill": "#544B3C",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "archive_rule",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        1334,
+        858,
+        1342
+      ],
+      "description": "档案文字下方一条细短的淡绿色手绘虚线，作为独立装饰保留。",
+      "label": "档案文字下方一条细短的淡绿色手绘虚线，作为独立装饰保留。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "botanical_upper",
+    "botanical_lower",
+    "halftone_upper",
+    "halftone_lower",
+    "heading_dashes",
+    "photo_pool",
+    "frame_torn",
+    "overlay_teal_torn",
+    "text_heading",
+    "text_archive",
+    "archive_rule"
+  ]
+}

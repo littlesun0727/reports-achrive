@@ -1,0 +1,53 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#B5A245"
+  },
+  "objects": [
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        630,
+        1080,
+        1440
+      ],
+      "description": "下方横向餐桌细节照片，完整显示窗口横跨画布，下缘止于画布底边。左侧为带有“(atio)”及中英文印字的浅色纸卡，右侧为白色浅碗和撒有黄色花瓣的方形糕点，保留粗糙石质桌面环境。碗及糕点在右侧被画布裁切，照片左上部分被上方竖向照片遮挡；纸卡及其印字属于实拍内容，随照片替换。"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        89,
+        103,
+        585,
+        765
+      ],
+      "description": "左上竖向餐饮照片，无人物。灰色桌面上斜放浅色长方形石质托板，板上有一杯深色饮品、印字纸卡、盛方形黄色糕点的白色小碟和金属餐具；上部露出地面与局部室内环境。保留整个矩形摄影画面，底部叠在下方餐桌细节照片上，无独立框体。"
+    },
+    {
+      "id": "text_location",
+      "kind": "text",
+      "bbox": [
+        699,
+        332,
+        972,
+        362
+      ],
+      "text": "atio · Hangzhou",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_bottom",
+    "photo_top",
+    "text_location"
+  ]
+}

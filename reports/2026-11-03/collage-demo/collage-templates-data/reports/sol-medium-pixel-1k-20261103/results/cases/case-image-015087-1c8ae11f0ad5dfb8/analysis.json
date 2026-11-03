@@ -1,0 +1,659 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的透明球体摄影画面覆盖全画布：上方为灰米色墙面，下方为深色环境，多枚透明球体带有明亮反光和细小光点。四边及照片卡之间露出的场景连续，中央和下方球体被照片与装饰局部遮挡。无人，保留并整体替换球体、墙面及暗部摄影环境，不将其拆成固定装饰。",
+      "background_type": "photo",
+      "label": "连续的透明球体摄影画面覆盖全画布：上方为灰米色墙面，下方为深",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        51,
+        150,
+        464,
+        405
+      ],
+      "description": "横向浅粉米色相纸框，四周留有宽窄不同的纸边，承载左上照片；完整纸张及轻微色泽变化保留。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "横向浅粉米色相纸框，四周留有宽窄不同的纸边，承载左上照片；完",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        78,
+        162,
+        392,
+        394
+      ],
+      "description": "两人半身合照，左侧黑衣人物戴黑口罩并举手在额前比手势，右侧长发人物穿浅色外套、戴灰紫色兜帽并举手。保留暗色室内背景，照片显示在相纸内口，人物与环境均不去背景。",
+      "label": "两人半身合照，左侧黑衣人物戴黑口罩并举手在额前比手势，右侧长",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        483,
+        150,
+        896,
+        405
+      ],
+      "description": "横向浅粉米色相纸框，完整保留四周纸边及纸面色泽，承载右上照片。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "横向浅粉米色相纸框，完整保留四周纸边及纸面色泽，承载右上照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        506,
+        162,
+        821,
+        394
+      ],
+      "description": "两人半身合照，左侧黑衣人物戴黑口罩、双手在胸前握拳，右侧人物穿白色外套、戴灰紫色兜帽并双手拉住衣领。保留暗色摄影背景；白色手绘小图案是上层独立装饰，不属于照片内容。",
+      "label": "两人半身合照，左侧黑衣人物戴黑口罩、双手在胸前握拳，右侧人物",
+      "method": "local"
+    },
+    {
+      "id": "frame_middle_left",
+      "kind": "frame",
+      "bbox": [
+        185,
+        445,
+        598,
+        699
+      ],
+      "description": "横向浅灰白色相纸框，纸面有轻微斑点与色泽变化，围绕中部左侧照片保留完整纸边。",
+      "photo_id": [
+        "photo_middle_left"
+      ],
+      "label": "横向浅灰白色相纸框，纸面有轻微斑点与色泽变化，围绕中部左侧照",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        220,
+        461,
+        524,
+        683
+      ],
+      "description": "两人近景合照，左侧长发人物戴白色毛绒帽、穿浅色衣服并在脸旁比手势，右侧人物戴黑口罩、穿浅色连帽衣并在额前比手势。保留暗色室内背景与竖向浅色结构，白色小涂鸦另列。",
+      "label": "两人近景合照，左侧长发人物戴白色毛绒帽、穿浅色衣服并在脸旁比",
+      "method": "local"
+    },
+    {
+      "id": "frame_middle_right",
+      "kind": "frame",
+      "bbox": [
+        617,
+        445,
+        1030,
+        699
+      ],
+      "description": "横向浅灰白色相纸框，四周纸边包围中部右侧照片，完整保留纸面与边缘。",
+      "photo_id": [
+        "photo_middle_right"
+      ],
+      "label": "横向浅灰白色相纸框，四周纸边包围中部右侧照片，完整保留纸面与",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        648,
+        458,
+        955,
+        687
+      ],
+      "description": "两人近景合照，左侧人物戴白色毛绒帽、长发垂下并举手在帽边，右侧戴黑口罩的浅色衣服人物抬手横放在头顶。保留深色室内背景，姿态与左侧照片不同，为独立照片窗口。",
+      "label": "两人近景合照，左侧人物戴白色毛绒帽、长发垂下并举手在帽边，右",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        51,
+        1036,
+        464,
+        1290
+      ],
+      "description": "横向浅米粉色相纸框，完整四周纸边承载下方左侧照片，保留纸面轻微色差。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "横向浅米粉色相纸框，完整四周纸边承载下方左侧照片，保留纸面轻",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        79,
+        1047,
+        393,
+        1280
+      ],
+      "description": "两人半身合照，左侧人物戴浅色带毛绒边的帽子、穿银灰色亮面外套并举剪刀手；右侧人物穿黑衣、戴黑口罩并在胸前举剪刀手。保留暗色室内摄影环境。",
+      "label": "两人半身合照，左侧人物戴浅色带毛绒边的帽子、穿银灰色亮面外套",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        475,
+        1036,
+        888,
+        1290
+      ],
+      "description": "横向浅灰白色相纸框，四周完整纸边承载下方右侧照片。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "横向浅灰白色相纸框，四周完整纸边承载下方右侧照片。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        503,
+        1047,
+        817,
+        1278
+      ],
+      "description": "两人半身合照，左侧人物戴装饰性头饰、穿黑色皮外套和条纹衬衣，在脸旁举剪刀手；右侧人物戴浅色帽子、穿银灰色外套并举手靠近脸。保留暗色背景，白色闪电涂鸦作为独立上层装饰。",
+      "label": "两人半身合照，左侧人物戴装饰性头饰、穿黑色皮外套和条纹衬衣，",
+      "method": "local"
+    },
+    {
+      "id": "text_date_top",
+      "kind": "text",
+      "bbox": [
+        56,
+        117,
+        260,
+        141
+      ],
+      "description": "2025.12.13 忘忧世界",
+      "label": "2025.12.13 忘忧世界",
+      "method": "local",
+      "text": "2025.12.13 忘忧世界",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        726,
+        42,
+        899,
+        136
+      ],
+      "description": "A\nSORROW\nFORGOTTEN\nWORLD",
+      "label": "A\nSORROW\nFORGOTTEN\nWORLD",
+      "method": "local",
+      "text": "A\nSORROW\nFORGOTTEN\nWORLD",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_stay_healthy",
+      "kind": "text",
+      "bbox": [
+        50,
+        548,
+        178,
+        599
+      ],
+      "description": "STAY\nHEALTHY",
+      "label": "STAY\nHEALTHY",
+      "method": "local",
+      "text": "STAY\nHEALTHY",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date_middle",
+      "kind": "text",
+      "bbox": [
+        188,
+        714,
+        389,
+        738
+      ],
+      "description": "2025.12.14 忘忧世界",
+      "label": "2025.12.14 忘忧世界",
+      "method": "local",
+      "text": "2025.12.14 忘忧世界",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date_bottom",
+      "kind": "text",
+      "bbox": [
+        59,
+        1296,
+        264,
+        1320
+      ],
+      "description": "2025.12.12 忘忧世界",
+      "label": "2025.12.12 忘忧世界",
+      "method": "local",
+      "text": "2025.12.12 忘忧世界",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_dont_get_sick",
+      "kind": "text",
+      "bbox": [
+        683,
+        1305,
+        953,
+        1333
+      ],
+      "description": "DON'T GET SICK",
+      "label": "DON'T GET SICK",
+      "method": "local",
+      "text": "DON'T GET SICK",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_top_left_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        543,
+        219,
+        585,
+        269
+      ],
+      "description": "右上照片左侧的两枚白色手绘星芒及短线，作为同一局部涂鸦组合保留，覆盖暗色摄影背景。",
+      "label": "右上照片左侧的两枚白色手绘星芒及短线，作为同一局部涂鸦组合保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_doodle",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        220,
+        812,
+        260
+      ],
+      "description": "右上照片右侧的白色手绘弯曲小图案，包含相连的线条和末端小圈，独立叠加在摄影内容上。",
+      "label": "右上照片右侧的白色手绘弯曲小图案，包含相连的线条和末端小圈，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_left_doodle",
+      "kind": "overlay",
+      "bbox": [
+        234,
+        549,
+        266,
+        576
+      ],
+      "description": "中部左侧照片中，左侧人物手旁的白色双瓣弯曲涂鸦，完整保留其手绘轮廓。",
+      "label": "中部左侧照片中，左侧人物手旁的白色双瓣弯曲涂鸦，完整保留其手",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_right_doodle",
+      "kind": "overlay",
+      "bbox": [
+        463,
+        475,
+        490,
+        511
+      ],
+      "description": "中部左侧照片中，右侧人物头部上方的白色弯曲双瓣涂鸦，与左侧涂鸦是分离的独立装饰。",
+      "label": "中部左侧照片中，右侧人物头部上方的白色弯曲双瓣涂鸦，与左侧涂",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_left_lightning",
+      "kind": "overlay",
+      "bbox": [
+        546,
+        1078,
+        566,
+        1116
+      ],
+      "description": "下方右侧照片左上部的白色手绘闪电符号，独立覆盖照片。",
+      "label": "下方右侧照片左上部的白色手绘闪电符号，独立覆盖照片。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_lightning",
+      "kind": "overlay",
+      "bbox": [
+        764,
+        1104,
+        789,
+        1134
+      ],
+      "description": "下方右侧照片右上部的白色折线闪电符号，独立覆盖暗色摄影背景。",
+      "label": "下方右侧照片右上部的白色折线闪电符号，独立覆盖暗色摄影背景。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        798,
+        980,
+        978
+      ],
+      "description": "横跨画布中下部的波浪形五线谱与音符装饰，左侧及上部为青绿色，右侧及下部转为粉红色，含散布的音符与升号。线谱在五枚白色人物贴纸后方连续延伸，整体保留。",
+      "label": "横跨画布中下部的波浪形五线谱与音符装饰，左侧及上部为青绿色，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dancer_purple",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        785,
+        256,
+        965
+      ],
+      "description": "左侧倒立姿态的白色卡通人物贴纸，黑色手绘轮廓、粗白外边，身体上有紫色小心形；完整四肢与轮廓保留，压在五线谱上。",
+      "label": "左侧倒立姿态的白色卡通人物贴纸，黑色手绘轮廓、粗白外边，身体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dancer_orange",
+      "kind": "overlay",
+      "bbox": [
+        310,
+        799,
+        447,
+        975
+      ],
+      "description": "第二枚弯身舞蹈的白色卡通人物贴纸，黑色轮廓与粗白外边，胸前橙色心形，头部和伸出的手臂构成完整一体造型，覆盖五线谱。",
+      "label": "第二枚弯身舞蹈的白色卡通人物贴纸，黑色轮廓与粗白外边，胸前橙",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dancer_green",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        780,
+        604,
+        968
+      ],
+      "description": "中央一手高举、一手弯曲的白色卡通人物贴纸，黑色轮廓与粗白外边，胸前绿色心形，完整人物造型叠在五线谱前。",
+      "label": "中央一手高举、一手弯曲的白色卡通人物贴纸，黑色轮廓与粗白外边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dancer_yellow",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        786,
+        777,
+        971
+      ],
+      "description": "第四枚双臂上举、身体弯曲的白色卡通人物贴纸，黑色线条与粗白外边，胸前黄色心形，完整轮廓覆盖五线谱。",
+      "label": "第四枚双臂上举、身体弯曲的白色卡通人物贴纸，黑色线条与粗白外",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dancer_blue",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        811,
+        960,
+        962
+      ],
+      "description": "最右侧向右迈步、双臂展开的白色卡通人物贴纸，黑色轮廓与粗白外边，胸前蓝色心形，完整人物造型覆盖五线谱。",
+      "label": "最右侧向右迈步、双臂展开的白色卡通人物贴纸，黑色轮廓与粗白外",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_top",
+      "kind": "overlay",
+      "bbox": [
+        910,
+        203,
+        960,
+        250
+      ],
+      "description": "右上方竖排装饰中的第一枚苹果贴纸，白色底与外边、黑色手绘苹果轮廓和短梗，完整保留。",
+      "label": "右上方竖排装饰中的第一枚苹果贴纸，白色底与外边、黑色手绘苹果",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_middle",
+      "kind": "overlay",
+      "bbox": [
+        912,
+        260,
+        961,
+        308
+      ],
+      "description": "右上方竖排装饰中的第二枚苹果贴纸，白底黑色手绘轮廓，带短梗和白色外边。",
+      "label": "右上方竖排装饰中的第二枚苹果贴纸，白底黑色手绘轮廓，带短梗和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_lower",
+      "kind": "overlay",
+      "bbox": [
+        912,
+        317,
+        962,
+        369
+      ],
+      "description": "右上方竖排装饰中的第三枚苹果贴纸，白底黑色轮廓、上翘短梗及完整白色外边。",
+      "label": "右上方竖排装饰中的第三枚苹果贴纸，白底黑色轮廓、上翘短梗及完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        989,
+        105,
+        1036
+      ],
+      "description": "下方左侧照片框上方横排苹果中的第一枚，白色贴纸底、黑色手绘苹果轮廓及短梗，独立保留。",
+      "label": "下方左侧照片框上方横排苹果中的第一枚，白色贴纸底、黑色手绘苹",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_bottom_middle",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        990,
+        170,
+        1036
+      ],
+      "description": "下方左侧照片框上方横排苹果中的第二枚，白底、黑色手绘轮廓及短梗，独立保留。",
+      "label": "下方左侧照片框上方横排苹果中的第二枚，白底、黑色手绘轮廓及短",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        185,
+        988,
+        234,
+        1036
+      ],
+      "description": "下方左侧照片框上方横排苹果中的第三枚，白色外边与黑色手绘轮廓组成完整贴纸。",
+      "label": "下方左侧照片框上方横排苹果中的第三枚，白色外边与黑色手绘轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_candy_top",
+      "kind": "overlay",
+      "bbox": [
+        902,
+        1091,
+        971,
+        1128
+      ],
+      "description": "下方右侧竖排糖果装饰中的第一枚，横向椭圆糖身、两端包装扭结，黑色手绘线条和白色贴纸外边。",
+      "label": "下方右侧竖排糖果装饰中的第一枚，横向椭圆糖身、两端包装扭结，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_candy_middle",
+      "kind": "overlay",
+      "bbox": [
+        903,
+        1158,
+        972,
+        1202
+      ],
+      "description": "下方右侧竖排糖果装饰中的第二枚，略向右下倾斜，完整保留白色糖身、黑色包装轮廓和白色外边。",
+      "label": "下方右侧竖排糖果装饰中的第二枚，略向右下倾斜，完整保留白色糖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_candy_bottom",
+      "kind": "overlay",
+      "bbox": [
+        903,
+        1220,
+        969,
+        1261
+      ],
+      "description": "下方右侧竖排糖果装饰中的第三枚，略向右上倾斜，白色椭圆糖身及两端扭结组成完整贴纸。",
+      "label": "下方右侧竖排糖果装饰中的第三枚，略向右上倾斜，白色椭圆糖身及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1413,
+        1075,
+        1434
+      ],
+      "description": "画布右下角的小型深灰半透明圆角标识，内部含难以辨清的中文小字；文字与底板作为完整固定标识保留。",
+      "label": "画布右下角的小型深灰半透明圆角标识，内部含难以辨清的中文小字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "frame_top_left",
+    "photo_top_left",
+    "frame_top_right",
+    "photo_top_right",
+    "frame_middle_left",
+    "photo_middle_left",
+    "frame_middle_right",
+    "photo_middle_right",
+    "frame_bottom_left",
+    "photo_bottom_left",
+    "frame_bottom_right",
+    "photo_bottom_right",
+    "overlay_music",
+    "overlay_dancer_purple",
+    "overlay_dancer_orange",
+    "overlay_dancer_green",
+    "overlay_dancer_yellow",
+    "overlay_dancer_blue",
+    "overlay_top_left_sparkles",
+    "overlay_top_right_doodle",
+    "overlay_middle_left_doodle",
+    "overlay_middle_right_doodle",
+    "overlay_bottom_left_lightning",
+    "overlay_bottom_right_lightning",
+    "overlay_apple_top",
+    "overlay_apple_middle",
+    "overlay_apple_lower",
+    "overlay_apple_bottom_left",
+    "overlay_apple_bottom_middle",
+    "overlay_apple_bottom_right",
+    "overlay_candy_top",
+    "overlay_candy_middle",
+    "overlay_candy_bottom",
+    "text_date_top",
+    "text_top_right",
+    "text_stay_healthy",
+    "text_date_middle",
+    "text_date_bottom",
+    "text_dont_get_sick",
+    "overlay_watermark"
+  ]
+}

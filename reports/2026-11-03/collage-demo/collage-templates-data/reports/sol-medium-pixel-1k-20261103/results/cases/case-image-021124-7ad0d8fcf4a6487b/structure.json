@@ -1,0 +1,106 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "wood_base",
+    "description": "全画布为连续的棕色纵向木纹底图，四边均露出相同木质纹理，中央被浅色纸张及照片遮挡。保留木纹的颜色变化、纹理与自然结疤；独立纸张、照片、文字和装饰不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "frame_paper",
+      "kind": "frame",
+      "bbox": [
+        82,
+        115,
+        1000,
+        1323
+      ],
+      "description": "中央大幅浅米色半透明纸张承托上下两张矩形照片，宽阔纸边及照片之间的空白均保留。纸面具有细微纤维纹理，透出下方木纹，边缘柔和；作为同一完整双照片承托纸张保留。",
+      "photo_id": [
+        "photo_top",
+        "photo_bottom"
+      ]
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        263,
+        235,
+        818,
+        653
+      ],
+      "description": "上方横向室内人物近景，一名黑色短发、戴红棕色眼镜的女性正面看向镜头，双手举在眼镜两侧，穿米色针织衫并围深色围巾。保留书架、书籍及浅色墙面的摄影环境，照片为完整矩形显示；左上部分被票签遮挡，右下部分被叠加字样遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        263,
+        789,
+        818,
+        1206
+      ],
+      "description": "下方横向室内照片，一名黑色短发、戴眼镜的女性以侧身姿态回望镜头，手持打开的书，穿米色针织衫、深色围巾与酒红色下装。保留左侧书架、浅色墙面和右侧深色家具等环境，矩形边界清晰；左下被棕色叶片遮挡，右上被白色艺术字及英文文字遮挡。"
+    },
+    {
+      "id": "overlay_memories",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        91,
+        459,
+        308
+      ],
+      "description": "向右上倾斜的米黄色旧票签，具有锯齿状短边、纸面斑点和红色圆角细线内框，中央印有深色大写“MEMORIES”。票签的文字、边框及纸张材质作为完整装饰保留，压住承托纸张与上方照片左上角。"
+    },
+    {
+      "id": "overlay_autumn",
+      "kind": "overlay",
+      "bbox": [
+        658,
+        575,
+        952,
+        863
+      ],
+      "description": "大幅白色书写式“秋”字，笔画粗细和伸展方向富于变化，作为完整艺术字保留。位于两张照片右侧之间，部分笔画覆盖照片和纸张，并处于棕色英文段落下方。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        681,
+        548,
+        931,
+        892
+      ],
+      "text": "Autumn is\na second\nspring\nwhen every\nleaf is a\nflower",
+      "color": "#776449",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_leaf",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        990,
+        375,
+        1295
+      ],
+      "description": "左下方棕色干燥橡树叶装饰，包含完整分裂叶缘、细长叶柄、深浅叶脉及沿边缘的浅色细线。叶片略向左倾，覆盖下方照片左下角并延伸到承托纸张底部，整体作为一个固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_paper",
+    "photo_top",
+    "photo_bottom",
+    "overlay_memories",
+    "overlay_autumn",
+    "text_quote",
+    "overlay_leaf"
+  ]
+}

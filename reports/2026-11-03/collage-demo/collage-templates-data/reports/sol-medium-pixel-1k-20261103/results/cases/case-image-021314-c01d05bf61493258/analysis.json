@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1483
+  ],
+  "objects": [
+    {
+      "id": "background_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1483
+      ],
+      "description": "浅薄荷绿色的粗颗粒纸张底图，纹理连续延伸至画布四边，在上方左侧、左右间隙及底部露出。保留纸张颜色与印刷质感；叠加的彩纸、摄影拼贴及剪报分别列为独立对象。",
+      "background_type": "reference_clean",
+      "label": "浅薄荷绿色的粗颗粒纸张底图，纹理连续延伸至画布四边，在上方左",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_cyan_paper",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        0,
+        1080,
+        1386
+      ],
+      "description": "大面积青蓝色纹理纸片，上端与右上端伸出画布，左上边斜向转折，下部在嘴唇两侧露出并形成不规则折角轮廓。中央被摄影拼贴遮挡，按可见的纸面连续性保留为一个固定纸张单元，不补绘隐藏细节。",
+      "label": "大面积青蓝色纹理纸片，上端与右上端伸出画布，左上边斜向转折，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cream_left",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        214,
+        679,
+        589
+      ],
+      "description": "嘴唇左上方的斜置米白纸片，顶部尖角及左侧斜边可见，右下部分被嘴唇遮住；保留纸面颗粒、切边及完整可见轮廓。",
+      "label": "嘴唇左上方的斜置米白纸片，顶部尖角及左侧斜边可见，右下部分被",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cream_right",
+      "kind": "overlay",
+      "bbox": [
+        1013,
+        42,
+        1080,
+        636
+      ],
+      "description": "从右上画布边缘伸入的米白撕纸，左边呈连续不规则撕裂轮廓，右侧超出画布，保留原有纸纹与毛糙边缘。",
+      "label": "从右上画布边缘伸入的米白撕纸，左边呈连续不规则撕裂轮廓，右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_paper",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        1387,
+        1080,
+        1483
+      ],
+      "description": "画布底部露出的深蓝绿色纹理纸片，上沿具有起伏不齐的撕裂轮廓，下方与右方被画布裁切。",
+      "label": "画布底部露出的深蓝绿色纹理纸片，上沿具有起伏不齐的撕裂轮廓，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_red_circle",
+      "kind": "overlay",
+      "bbox": [
+        1012,
+        794,
+        1080,
+        956
+      ],
+      "description": "右侧边缘露出的红色圆形装饰，仅显示圆的左侧部分，右侧被画布截断，独立于中央嘴唇。",
+      "label": "右侧边缘露出的红色圆形装饰，仅显示圆的左侧部分，右侧被画布截",
+      "method": "extract"
+    },
+    {
+      "id": "photo_galaxy",
+      "kind": "photo",
+      "bbox": [
+        211,
+        516,
+        875,
+        1032
+      ],
+      "description": "嘴巴内口中的深色宇宙照片，蓝白色旋涡星系位于中上部，周围保留黑蓝星空与星点。完整显示范围沿嘴巴内口延伸，顶部被牙齿和唇缘遮挡，下部被花园场景覆盖；星空不因这些遮挡缩为仅有旋涡的范围。",
+      "label": "嘴巴内口中的深色宇宙照片，蓝白色旋涡星系位于中上部，周围保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_garden",
+      "kind": "photo",
+      "bbox": [
+        213,
+        577,
+        866,
+        1032
+      ],
+      "description": "嘴巴内下半部的花园露台摄影组合，包含左侧攀爬花木、下方灌木和浅色地面，以及中右部坐在椅上的一人和穿红衣扶自行车的一人，两人均为较小的全身远景。上缘沿花木及场景轮廓显示，原天空不再可见，露出下层星空；下缘与左右部分被唇缘遮挡。",
+      "label": "嘴巴内下半部的花园露台摄影组合，包含左侧攀爬花木、下方灌木和",
+      "method": "local"
+    },
+    {
+      "id": "photo_earth",
+      "kind": "photo",
+      "bbox": [
+        521,
+        676,
+        619,
+        775
+      ],
+      "description": "独立悬浮在星系前方的蓝色地球球体，显示云层、海洋与陆地，右侧偏暗。沿完整球体外轮廓显示，周围没有原摄影背景，与下方花园人物不是同一连续摄影画面。",
+      "label": "独立悬浮在星系前方的蓝色地球球体，显示云层、海洋与陆地，右侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_lips",
+      "kind": "photo",
+      "bbox": [
+        111,
+        249,
+        967,
+        1233
+      ],
+      "description": "一张张嘴的极近景摄影剪贴，完整红橙色上下嘴唇及上排牙齿构成中央大轮廓，唇面有明显湿润高光和颗粒质感。外侧面部背景已去除，嘴巴内口让独立星空、地球与花园照片显露；唇缘和牙齿压住内口场景边缘。左侧及右上侧局部被剪报遮挡，无额外独立描边。",
+      "label": "一张张嘴的极近景摄影剪贴，完整红橙色上下嘴唇及上排牙齿构成中",
+      "method": "local"
+    },
+    {
+      "id": "overlay_news_left",
+      "kind": "overlay",
+      "bbox": [
+        114,
+        691,
+        180,
+        978
+      ],
+      "description": "贴在嘴唇左侧的狭长米白剪报，顶部及右边为不规则裁切轮廓，下端渐窄。纸上密集黑色英文印字随剪报整体保留，文字不作为独立排版；剪报覆盖部分红色唇面。",
+      "label": "贴在嘴唇左侧的狭长米白剪报，顶部及右边为不规则裁切轮廓，下端",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_news_right",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        343,
+        959,
+        722
+      ],
+      "description": "压在嘴唇右上侧的竖长杂志剪片，包含白色纸面、红橙色竖块、黑底白色截断标题、灰色小字和底部黑白印刷图案。各部分共同属于这一完整剪片，保留其不齐纸边与印刷质感，不拆出文字或内部色块。",
+      "label": "压在嘴唇右上侧的竖长杂志剪片，包含白色纸面、红橙色竖块、黑底",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_paper",
+    "overlay_cyan_paper",
+    "overlay_cream_left",
+    "overlay_cream_right",
+    "overlay_bottom_paper",
+    "overlay_red_circle",
+    "photo_galaxy",
+    "photo_garden",
+    "photo_earth",
+    "photo_lips",
+    "overlay_news_left",
+    "overlay_news_right"
+  ]
+}

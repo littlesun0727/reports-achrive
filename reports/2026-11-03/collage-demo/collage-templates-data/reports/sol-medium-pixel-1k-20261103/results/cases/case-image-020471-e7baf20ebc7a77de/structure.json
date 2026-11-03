@@ -1,0 +1,74 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_panel",
+    "description": "蓝灰色竖向纹理底板覆盖画布主体，底部可见浅色横向边带及细微边缘阴影；纹理连续延伸至画布左右边缘，照片框和文字为独立单元，底板外观整体保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        340,
+        371,
+        698,
+        999
+      ],
+      "description": "竖向人像照片，一名短发女性正面近景，抬手置于头顶，身穿浅色上衣；人物及后方模糊环境均保留在矩形照片窗口内，四周被蕾丝框体包围。"
+    },
+    {
+      "id": "frame_lace",
+      "kind": "frame",
+      "bbox": [
+        242,
+        278,
+        793,
+        1095
+      ],
+      "description": "围绕人像照片的奶油白蕾丝相框，带有镂空花纹、波浪花边及内侧细密装饰线；完整框体位于照片上方并遮住照片窗口边缘。",
+      "photo_id": [
+        "photo_portrait"
+      ]
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        434,
+        130,
+        601,
+        155
+      ],
+      "text": "JUST MY LIFE",
+      "color": "#F5F4EF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        405,
+        1195,
+        629,
+        1249
+      ],
+      "text": "JUST LITTLE\nRANDOM PHOTOS",
+      "color": "#F5F4EF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "frame_lace",
+    "text_top",
+    "text_bottom"
+  ]
+}

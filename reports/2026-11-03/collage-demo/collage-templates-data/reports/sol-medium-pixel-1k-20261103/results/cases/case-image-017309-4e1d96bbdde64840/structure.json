@@ -1,0 +1,66 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的浅米色纸张纹理覆盖整个画布，顶部和中央留有大面积纸面，照片与灰色撕纸单元叠放其上；保留纸张的细微颗粒和不均匀色泽，不将局部摄影内容并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_sea_road",
+      "kind": "photo",
+      "bbox": [
+        0,
+        610,
+        971,
+        1619
+      ],
+      "description": "一张纵向摄影拼贴，显示从不规则撕裂上缘延伸至画布底部的连续场景：中央为强烈蓝色海面或天空，远处有浅色岩岸，深色道路向前延伸，一名戴浅色帽子、穿青绿色外套和浅色长裤的人背对观者走向远方。摄影环境保留，照片下部扩展至画布左右边缘；上方两侧部分被灰色撕纸覆盖，照片自身边缘呈粗糙撕裂效果。"
+    },
+    {
+      "id": "overlay_gray_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        376,
+        323,
+        1180
+      ],
+      "description": "画布左侧独立的灰褐色粗糙撕纸形单元，从左边缘上部斜向下延伸，内侧形成不规则撕裂边，覆盖中央摄影区域左侧；保留纸张颗粒、阴影和完整可见轮廓。"
+    },
+    {
+      "id": "overlay_gray_right",
+      "kind": "overlay",
+      "bbox": [
+        773,
+        377,
+        971,
+        1180
+      ],
+      "description": "画布右侧独立的灰褐色粗糙撕纸形单元，从右边缘上部向下延伸，内侧形成不规则撕裂边，覆盖中央摄影区域右侧；保留纸张颗粒、阴影和完整可见轮廓。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        89,
+        147,
+        253,
+        164
+      ],
+      "text": "Toward the blue",
+      "color": "#4D4A43",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_sea_road",
+    "overlay_gray_left",
+    "overlay_gray_right",
+    "text_title"
+  ]
+}

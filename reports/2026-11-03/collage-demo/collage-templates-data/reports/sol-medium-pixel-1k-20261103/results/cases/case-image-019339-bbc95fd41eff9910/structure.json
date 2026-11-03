@@ -1,0 +1,71 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_brown_field",
+    "description": "全画布由固定的上下双色棕色背景承载：顶部为深棕色留白区，底部为较浅的棕橙色区域；中央照片和底部文字、白色小装饰独立叠加其上，背景颜色范围保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_cafe_scene",
+      "kind": "photo",
+      "bbox": [
+        3,
+        202,
+        1080,
+        1645
+      ],
+      "description": "几乎铺满画布宽度的竖向咖啡馆室内照片，包含窗户、城市街景、吊灯、柱子、桌椅和多名正在用餐或工作的成年人；前景左侧有一名侧身人物，中部有数名侧身或背对镜头的人，右侧有一名背对镜头坐着的人。摄影环境完整保留，照片为矩形显示区域，底部被文字部分覆盖。"
+    },
+    {
+      "id": "text_chinese_caption",
+      "kind": "text",
+      "bbox": [
+        707,
+        1526,
+        1060,
+        1585
+      ],
+      "text": "让我想起了在DDL最后一天还在写\n论文最后一个章节的自己😭😭",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_english_caption",
+      "kind": "text",
+      "bbox": [
+        773,
+        1597,
+        1057,
+        1724
+      ],
+      "text": "This scene reminds me of\nmyself, writing the last\nchapter of my paper on the\nfinal day of the deadline",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "id": "overlay_white_paper_mark",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        1673,
+        721,
+        1727
+      ],
+      "description": "底部文字左侧的白色不规则纸片或手绘涂抹装饰，带有粗糙边缘和内部阴影，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_cafe_scene",
+    "text_chinese_caption",
+    "text_english_caption",
+    "overlay_white_paper_mark"
+  ]
+}

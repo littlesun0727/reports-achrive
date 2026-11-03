@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    720
+  ],
+  "objects": [
+    {
+      "id": "paper_editorial_board",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "连续的浅灰白色编辑展板底图，覆盖整张画布，包含纸面色调、细微纹理、版式中的小型说明文字、引导线与固定信息区；独立城市照片、集市场景照片、粉色圆形图案、底部白色结构图板和中央品牌标识作为上层单元替换或保留。",
+      "background_type": "reference_clean",
+      "label": "连续的浅灰白色编辑展板底图，覆盖整张画布，包含纸面色调、细微",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_city_building",
+      "kind": "photo",
+      "bbox": [
+        30,
+        15,
+        805,
+        522
+      ],
+      "description": "左侧至中部的城市街景照片，包含道路、行人、树木、低层商业建筑和中央高层白色建筑，远处可见山地；为横向完整摄影区域，底部部分被白色结构图板和其他设计元素遮挡，摄影环境保留。",
+      "label": "左侧至中部的城市街景照片，包含道路、行人、树木、低层商业建筑",
+      "method": "local"
+    },
+    {
+      "id": "photo_market_square",
+      "kind": "photo",
+      "bbox": [
+        477,
+        248,
+        1047,
+        633
+      ],
+      "description": "右侧横向市场或广场照片，包含山坡背景、露天摊位、桌椅及多名站立或行走的人物，人物姿态和朝向各不相同；照片窗口延伸至画布右边和下方附近，左上及下缘被结构图板和固定版式元素局部遮挡。",
+      "label": "右侧横向市场或广场照片，包含山坡背景、露天摊位、桌椅及多名站",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pink_circle",
+      "kind": "overlay",
+      "bbox": [
+        142,
+        103,
+        527,
+        411
+      ],
+      "description": "位于左中部城市照片上方的半透明粉色圆形图案，覆盖天空和建筑后方区域，并与周围标注线及说明文字共同构成编辑展板的固定视觉层；圆形边缘完整可见的部分保留。",
+      "label": "位于左中部城市照片上方的半透明粉色圆形图案，覆盖天空和建筑后",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_structure_panels",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        510,
+        1047,
+        634
+      ],
+      "description": "横跨底部照片区域的白色建筑结构示意板与透视折面，包含倾斜多边形面板、细线连接、局部阴影和附属小型标注，作为一个连续的固定设计单元覆盖两张照片下缘。",
+      "label": "横跨底部照片区域的白色建筑结构示意板与透视折面，包含倾斜多边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_soda_studio_logo",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        671,
+        654,
+        699
+      ],
+      "description": "底部中央的黑色品牌标识“© SODA STUDIO”，具有粗体字标和圆形版权符号的整体造型，作为固定艺术字标识保留，不拆分为普通文字。",
+      "label": "底部中央的黑色品牌标识“© SODA STUDIO”，具有粗",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_editorial_board",
+    "photo_city_building",
+    "photo_market_square",
+    "overlay_pink_circle",
+    "overlay_bottom_structure_panels",
+    "overlay_soda_studio_logo"
+  ]
+}

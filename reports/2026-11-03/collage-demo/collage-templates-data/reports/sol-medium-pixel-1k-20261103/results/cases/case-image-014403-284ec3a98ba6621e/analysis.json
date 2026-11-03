@@ -1,0 +1,169 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    750,
+    1344
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        750,
+        1344
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#F3E5CF"
+      }
+    },
+    {
+      "id": "photo_car",
+      "kind": "photo",
+      "bbox": [
+        57,
+        59,
+        694,
+        1285
+      ],
+      "description": "单张竖向汽车局部特写，无人物。橙黄色复古汽车的车门、窗框、把手和车轮占据左侧及中下部，右侧保留暗处环境与反射影像，枝叶投影横跨车身。画面带明显颗粒、柔焦与暖暗色调；摄影环境完整保留，矩形显示边界清晰，局部被纸标签及文字遮挡。照片未延伸到画布四边。",
+      "label": "单张竖向汽车局部特写，无人物。橙黄色复古汽车的车门、窗框、把",
+      "method": "local"
+    },
+    {
+      "id": "overlay_streets",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        275,
+        657,
+        380
+      ],
+      "description": "右上方浅米色撕边纸标签，略微倾斜，保留不规则纸边、细微纸纹及深色印字“Streets filled 车流”。文字与纸张共同构成完整固定装饰，覆盖汽车照片。",
+      "label": "右上方浅米色撕边纸标签，略微倾斜，保留不规则纸边、细微纸纹及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_alleyways",
+      "kind": "overlay",
+      "bbox": [
+        106,
+        491,
+        368,
+        615
+      ],
+      "description": "左侧中部浅米色撕边纸标签，向右下倾斜，保留纸张纹理、毛糙边缘及深色印字“Retro Alleyways 复古街巷”。整体覆盖汽车车门，不承载照片。",
+      "label": "左侧中部浅米色撕边纸标签，向右下倾斜，保留纸张纹理、毛糙边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_vintage_rides",
+      "kind": "overlay",
+      "bbox": [
+        395,
+        695,
+        592,
+        828
+      ],
+      "description": "中下部右侧浅米色撕边纸标签，向右上倾斜，保留不规则轮廓、纸纹及深色印字“Vintage rides座驾”。文字随纸张整体保留，覆盖车轮附近的摄影画面。",
+      "label": "中下部右侧浅米色撕边纸标签，向右上倾斜，保留不规则轮廓、纸纹",
+      "method": "extract"
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        85,
+        95,
+        295,
+        114
+      ],
+      "description": "CHASE THE OLD DAYS",
+      "label": "CHASE THE OLD DAYS",
+      "method": "local",
+      "text": "CHASE THE OLD DAYS",
+      "text_status": "known",
+      "style": {
+        "fill": "#F3E5CF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        565,
+        84,
+        662,
+        114
+      ],
+      "description": "07/14",
+      "label": "07/14",
+      "method": "local",
+      "text": "07/14",
+      "text_status": "known",
+      "style": {
+        "fill": "#F3E5CF",
+        "font": "sans",
+        "align": "right",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_old_days",
+      "kind": "text",
+      "bbox": [
+        84,
+        997,
+        173,
+        1041
+      ],
+      "description": "(旧日)",
+      "label": "(旧日)",
+      "method": "local",
+      "text": "(旧日)",
+      "text_status": "known",
+      "style": {
+        "fill": "#F3E5CF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_bottom_copy",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        1089,
+        469,
+        1181
+      ],
+      "description": "照片左下的浅米色英文排版，无独立底板。四行文字以不均匀大间隔分布，保留原有字词位置和整体视觉形式。可辨内容为“Vehicles wind through old streets.”、“Vintage cars wander”、“amid the worldly bustle, freezing a stretch of time that once”、“flowed gently.”。",
+      "label": "照片左下的浅米色英文排版，无独立底板。四行文字以不均匀大间隔",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_car",
+    "overlay_streets",
+    "overlay_alleyways",
+    "overlay_vintage_rides",
+    "text_heading",
+    "text_date",
+    "text_old_days",
+    "overlay_bottom_copy"
+  ]
+}

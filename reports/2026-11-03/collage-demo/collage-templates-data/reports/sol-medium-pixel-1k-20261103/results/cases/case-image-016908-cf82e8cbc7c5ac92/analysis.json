@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_autumn_trees",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        978
+      ],
+      "description": "横向取景的仰视秋树照片，橙黄叶片与枝条铺展在蓝天下，左侧可见绿色树叶，右下有较粗的树干和枝干；完整照片区域延伸至画布左右边缘及顶部，下缘被下方固定海报遮挡，保留照片内天空、树木和其他摄影环境。",
+      "label": "横向取景的仰视秋树照片，橙黄叶片与枝条铺展在蓝天下，左侧可见",
+      "method": "local"
+    },
+    {
+      "id": "overlay_botanical_poster",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        976,
+        1080,
+        1920
+      ],
+      "description": "覆盖画布下半部的整块浅米色裂纹纸质植物学风格海报，包含中央枝叶与圆形测绘线、多个彩色圆形及方形图案、细小说明文字和排版标记；作为具有统一纸纹与印刷设计的固定单元整体保留。其上缘覆盖上方秋树照片的下缘。",
+      "label": "覆盖画布下半部的整块浅米色裂纹纸质植物学风格海报，包含中央枝",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        1842,
+        1048,
+        1887
+      ],
+      "description": "海报右下方的白色斜体品牌水印，包含图形标记及可辨文字“即梦AI”，作为独立叠加标记保留。",
+      "label": "海报右下方的白色斜体品牌水印，包含图形标记及可辨文字“即梦A",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_autumn_trees",
+    "overlay_botanical_poster",
+    "overlay_watermark"
+  ]
+}

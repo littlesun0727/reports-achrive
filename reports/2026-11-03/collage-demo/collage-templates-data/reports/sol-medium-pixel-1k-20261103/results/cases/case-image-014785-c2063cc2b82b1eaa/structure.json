@@ -1,0 +1,208 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅褐色纤维纸纹连续铺满画布四边，并在照片、卡片与装饰之间的空隙中保持一致；照片和固定装饰独立于纸底，清除后保留原纸纹。"
+  },
+  "objects": [
+    {
+      "id": "photo_left_top",
+      "kind": "photo",
+      "bbox": [
+        138,
+        165,
+        621,
+        453
+      ],
+      "description": "左上横向合影照片，两名年轻女性坐在黄色玩偶旁，面向镜头并在中间伸手互动；保留卡通墙面、沙发及室内环境，窗口为横向矩形。"
+    },
+    {
+      "id": "photo_left_middle",
+      "kind": "photo",
+      "bbox": [
+        138,
+        452,
+        621,
+        740
+      ],
+      "description": "左侧中间横向合影照片，两名女性在同一黄色玩偶前摆姿势，左侧女性举手，右侧女性坐在玩偶旁；人物姿势与上下照片不同，保留室内摄影环境，右侧被白色卡片遮挡。"
+    },
+    {
+      "id": "photo_left_bottom",
+      "kind": "photo",
+      "bbox": [
+        138,
+        739,
+        621,
+        1027
+      ],
+      "description": "左下横向合影照片，两名女性在黄色玩偶前张开手臂摆姿势；保留卡通墙面及室内环境，右侧被白色卡片遮挡，下部局部被前景人物与玩偶照片遮挡。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        642,
+        104,
+        966,
+        494
+      ],
+      "description": "右上倾斜的竖向照片，画面中可见印有卡通图案和文字的纸张、小册子及下方的手；保留照片内拍摄环境，白色手绘云状线条和星光装饰压在照片周围及局部边缘。"
+    },
+    {
+      "id": "photo_mascot_scene",
+      "kind": "photo",
+      "bbox": [
+        42,
+        889,
+        341,
+        1269
+      ],
+      "description": "左下方沿主体组合外形显示的照片，包含戴花环的大型粉色卡通玩偶，以及背对镜头、举手机拍摄的女性；人物穿白裤并背浅色包，主体组合与浅色地面一同保留，外缘为不规则裁切，部分覆盖左下合影照片。"
+    },
+    {
+      "id": "photo_card_portrait",
+      "kind": "photo",
+      "bbox": [
+        531,
+        721,
+        1018,
+        1220
+      ],
+      "description": "白色圆角卡片内的横向双人近景自拍，两名年轻女性靠近镜头，前景女性面向镜头，另一人位于左后方；上方可见密集花朵背景，照片环境完整保留，卡片白色标题区和底部按钮区不属于照片。"
+    },
+    {
+      "id": "frame_card",
+      "kind": "frame",
+      "bbox": [
+        523,
+        532,
+        1020,
+        1325
+      ],
+      "description": "承载单张双人自拍的白色圆角界面卡片，包含照片上方的标题与说明文字区域、底部分隔线及蓝色“Decline”“Accept”按钮字样；完整卡片覆盖左侧照片局部，照片窗口位于卡片下半部。",
+      "photo_id": [
+        "photo_card_portrait"
+      ]
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        48,
+        621,
+        236
+      ],
+      "description": "画面上方数行白色手写中文及标点，内容可辨为“我们有着相似的审美和兴趣”“看展总能约到一块儿～”“你喜欢朱迪 我就答应配上尼克的同款曲调”“要穿的双人默契！”。笔画风格和行间位置构成一组独立手写设计。"
+    },
+    {
+      "id": "overlay_upper_right_doodle",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        10,
+        1015,
+        540
+      ],
+      "description": "围绕右上倾斜照片的白色手绘云状轮廓、星形与闪光笔画组成的装饰；轮廓跨在照片边缘外侧，完整保留其不规则线条及附属小图形。"
+    },
+    {
+      "id": "overlay_left_stars",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        207,
+        98,
+        790
+      ],
+      "description": "左侧分布的数枚浅黄色手绘小星星，彼此间隔较远但均为同一列边缘点缀，保留各星形和细小笔触。"
+    },
+    {
+      "id": "overlay_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        494,
+        679,
+        554,
+        766
+      ],
+      "description": "卡片左上侧、两张照片交界附近的粉色立体爱心贴画，带短弧线装饰，压在照片与卡片边缘上方。"
+    },
+    {
+      "id": "overlay_lower_caption",
+      "kind": "overlay",
+      "bbox": [
+        318,
+        1081,
+        578,
+        1237
+      ],
+      "description": "下方中央白色手写中文“浪漫和艺术 永不落幕”及围绕文字的浅黄色不规则环形线条，文字与环线共同构成一组装饰，部分区域被右侧卡片遮挡。"
+    },
+    {
+      "id": "overlay_bottom_hearts",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        1210,
+        248,
+        1278
+      ],
+      "description": "左下方并排的三枚白色手绘空心爱心，大小和轮廓各异，作为一组独立线条装饰保留。"
+    },
+    {
+      "id": "overlay_sparkle_right",
+      "kind": "overlay",
+      "bbox": [
+        1008,
+        973,
+        1047,
+        1031
+      ],
+      "description": "卡片右侧的黄色手绘闪光星形，独立悬在纸底上。"
+    },
+    {
+      "id": "overlay_cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        477,
+        1238,
+        646,
+        1363
+      ],
+      "description": "卡片底部下方的红粉色手绘猫形线稿，带黄色小点和青色边缘小装饰，整体作为一枚完整的独立涂鸦保留。"
+    },
+    {
+      "id": "overlay_bottom_right_marks",
+      "kind": "overlay",
+      "bbox": [
+        828,
+        1322,
+        1008,
+        1423
+      ],
+      "description": "右下角白色手绘短线与倾斜笔形轮廓，旁有浅绿色小星点，作为一组边缘装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left_top",
+    "photo_left_middle",
+    "photo_left_bottom",
+    "photo_upper_right",
+    "photo_card_portrait",
+    "photo_mascot_scene",
+    "frame_card",
+    "overlay_left_stars",
+    "overlay_top_handwriting",
+    "overlay_upper_right_doodle",
+    "overlay_lower_caption",
+    "overlay_bottom_hearts",
+    "overlay_pink_heart",
+    "overlay_sparkle_right",
+    "overlay_cat_doodle",
+    "overlay_bottom_right_marks"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的幽暗植物园景观照片覆盖全画布，无人物。上部为树冠、枝干与浓密绿叶，中下部可见明亮水雾、水面及底边横贯的深色岩石；这些环境沿四边及照片间隙连续露出，局部被上层照片、装饰和文字遮挡。树木、水雾、水面与岩石均随底图整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        337,
+        216,
+        483,
+        362
+      ],
+      "description": "上方独立方形花卉近景照片，数朵白色、淡黄色花心的鸡蛋花相互叠放，保留花朵之间及边缘露出的暗色摄影背景。窗口边缘平直，右下部分被绿色文字标签遮挡。"
+    },
+    {
+      "id": "photo_portrait_left",
+      "kind": "photo",
+      "bbox": [
+        103,
+        412,
+        482,
+        918
+      ],
+      "description": "左侧竖向矩形人物照片，一名黑发女性佩戴白色发饰，穿白色抹胸服装，站立并面向镜头，显示头部至腰腹附近。保留身后高大仙人掌和下方地面，人物与环境共同替换；下缘平直裁切，右下角被白色花形涂鸦局部覆盖。"
+    },
+    {
+      "id": "photo_portrait_right",
+      "kind": "photo",
+      "bbox": [
+        527,
+        501,
+        1033,
+        1401
+      ],
+      "description": "右侧大幅竖向矩形人物照片，一名黑发女性佩戴白色发饰、穿白色裙装，坐姿身体略侧转，抬头望向镜头，双臂伸向左下方。显示头部、手臂及大部分裙摆，保留周围阔叶植物、树干和地面。画面下部有明亮泛白的光雾感，但仍可见摄影内容；上沿局部被唱片装饰遮挡。"
+    },
+    {
+      "id": "photo_garden_detail",
+      "kind": "photo",
+      "bbox": [
+        75,
+        973,
+        483,
+        1203
+      ],
+      "description": "左下横向矩形植物园景观照片，无人物。前景为宽大绿叶，后方是浓密林木及穿透枝叶的明亮光束、水雾，完整保留摄影环境。四周为清楚的矩形裁切边界，与全画布景观是独立取景。"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        153,
+        249,
+        264
+      ],
+      "description": "左上独立白色手绘闪光装饰，由一枚较大的细长四角星、一枚小四角星及周围短小点划组成，完整保留不规则笔画与成员间空隙。"
+    },
+    {
+      "id": "overlay_plog",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        342,
+        620,
+        432
+      ],
+      "description": "绿色矩形标签，中央为白色衬线字样“Plog:)”，文字与绿色底板共同组成一个固定设计单元。左上部分压在花卉照片右下角，保留底板、字形及边缘。"
+    },
+    {
+      "id": "overlay_record",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        280,
+        1044,
+        560
+      ],
+      "description": "右上黑色黑胶唱片与右侧弯折唱臂组成的完整固定装饰。唱片带同心纹理、高光和棕黄色中心标签，标签内有细小印字与图案；唱臂上端有浅色椭圆环，下端搭在唱片右下部。整体覆盖右侧人物照片的上沿。"
+    },
+    {
+      "id": "overlay_flower_doodle",
+      "kind": "overlay",
+      "bbox": [
+        448,
+        889,
+        552,
+        982
+      ],
+      "description": "两张人物照片之间的独立白色手绘五瓣花，空心花瓣轮廓内带一个实心白色圆点。保留完整不规则线条与透明内域，左上部分覆盖左侧照片右下角，右侧跨入大幅人物照片左边缘。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        75,
+        1241,
+        500,
+        1371
+      ],
+      "text": "The succulent area in the\nbotanical garden looks\nbetter than imagined and\nis very tall",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_flower",
+    "photo_portrait_left",
+    "photo_portrait_right",
+    "photo_garden_detail",
+    "overlay_sparkles",
+    "overlay_plog",
+    "overlay_record",
+    "overlay_flower_doodle",
+    "text_caption"
+  ]
+}

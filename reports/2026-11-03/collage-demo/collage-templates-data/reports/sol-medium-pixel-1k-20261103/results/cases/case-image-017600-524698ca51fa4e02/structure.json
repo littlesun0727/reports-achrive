@@ -1,0 +1,337 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "覆盖1080×1350画布的连续旧报纸纸张底图，保留米白色纸张、折痕、颗粒、污渍、卷曲边缘和印刷磨损；画布四边及各独立照片、文字和线条之间均显示同一纸张纹理。照片与排版元素独立替换或重建，不将其并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_city_top_left",
+      "kind": "photo",
+      "bbox": [
+        37,
+        45,
+        152,
+        153
+      ],
+      "description": "左上方小幅纽约城市天际线照片，可见帝国大厦及远处建筑，竖向矩形显示区域，四周带细黑边，照片环境完整保留。"
+    },
+    {
+      "id": "photo_street_top_right",
+      "kind": "photo",
+      "bbox": [
+        928,
+        45,
+        1043,
+        153
+      ],
+      "description": "右上方小幅城市街景照片，可见建筑立面与Fifth Ave街牌，竖向矩形显示区域，四周带细黑边，街道环境完整保留。"
+    },
+    {
+      "id": "photo_main_portrait",
+      "kind": "photo",
+      "bbox": [
+        190,
+        470,
+        894,
+        1234
+      ],
+      "description": "中央大幅人物摄影，一名女性中近景肖像，长发、戴深色太阳镜、穿深色外套，身体位于画面中央偏右并略朝右侧，背景为虚化的人群和城市环境；完整矩形照片窗口保留，边缘带细黑色矩形描边，摄影环境仍然可见。"
+    },
+    {
+      "id": "photo_city_left",
+      "kind": "photo",
+      "bbox": [
+        38,
+        477,
+        161,
+        669
+      ],
+      "description": "左侧栏上方城市天际线照片，可见帝国大厦、街道和密集建筑，竖向矩形显示区域，周围有细边框，摄影环境完整保留。"
+    },
+    {
+      "id": "photo_street_right",
+      "kind": "photo",
+      "bbox": [
+        921,
+        478,
+        1042,
+        669
+      ],
+      "description": "右侧栏上方时装街景照片，可见店铺立面及FASHION LIVES HERE字样，竖向矩形显示区域，周围有细边框，照片中的建筑和街道环境随素材替换。"
+    },
+    {
+      "id": "photo_shoes_right",
+      "kind": "photo",
+      "bbox": [
+        923,
+        1017,
+        1042,
+        1175
+      ],
+      "description": "右侧栏下方鞋履照片，可见穿高跟鞋的腿部和街道路面，竖向矩形显示区域，周围有细边框，保留完整摄影环境。"
+    },
+    {
+      "id": "text_masthead",
+      "kind": "text",
+      "bbox": [
+        194,
+        48,
+        888,
+        144
+      ],
+      "text": "THE CITY EDIT",
+      "color": "#171717",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_issue_line",
+      "kind": "text",
+      "bbox": [
+        378,
+        181,
+        704,
+        197
+      ],
+      "text": "NEW YORK • FASHION DESK • 2026",
+      "color": "#292421",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_headline",
+      "kind": "text",
+      "bbox": [
+        96,
+        225,
+        987,
+        402
+      ],
+      "text": "SHE DIDN’T CHANGE.\nSHE ARRIVED.",
+      "color": "#171717",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_subheadline",
+      "kind": "text",
+      "bbox": [
+        116,
+        413,
+        967,
+        447
+      ],
+      "text": "The girl everyone underestimated learned the language of power.",
+      "color": "#171717",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_red_rule",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        162,
+        1043,
+        173
+      ],
+      "description": "横贯页眉下方的深红色粗水平印刷线，作为独立固定排版装饰保留。"
+    },
+    {
+      "id": "overlay_header_rule",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        204,
+        1043,
+        207
+      ],
+      "description": "页眉信息下方的细黑水平分隔线，连接左右栏并保留原有印刷位置。"
+    },
+    {
+      "id": "overlay_main_photo_rules",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        466,
+        910,
+        1239
+      ],
+      "description": "中央照片两侧及上下相邻的细黑版式分隔线，围合主图区域并与报纸栏线共同形成固定排版结构。"
+    },
+    {
+      "id": "overlay_bottom_rule",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        1241,
+        1043,
+        1246
+      ],
+      "description": "底部四栏文字区域上方的细黑水平分隔线，作为固定报纸版式保留。"
+    },
+    {
+      "id": "text_left_article_top",
+      "kind": "text",
+      "bbox": [
+        38,
+        680,
+        161,
+        941
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_left_article_bottom",
+      "kind": "text",
+      "bbox": [
+        38,
+        974,
+        161,
+        1228
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_right_article_top",
+      "kind": "text",
+      "bbox": [
+        921,
+        680,
+        1042,
+        1007
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_right_article_bottom",
+      "kind": "text",
+      "bbox": [
+        923,
+        1179,
+        1042,
+        1227
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_column_one",
+      "kind": "text",
+      "bbox": [
+        47,
+        1258,
+        299,
+        1305
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_column_two",
+      "kind": "text",
+      "bbox": [
+        322,
+        1258,
+        529,
+        1305
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_column_three",
+      "kind": "text",
+      "bbox": [
+        553,
+        1258,
+        780,
+        1305
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_column_four",
+      "kind": "text",
+      "bbox": [
+        804,
+        1258,
+        1034,
+        1305
+      ],
+      "text": null,
+      "color": "#35302B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_city_top_left",
+    "photo_street_top_right",
+    "photo_city_left",
+    "photo_street_right",
+    "photo_shoes_right",
+    "photo_main_portrait",
+    "overlay_red_rule",
+    "overlay_header_rule",
+    "overlay_main_photo_rules",
+    "overlay_bottom_rule",
+    "text_left_article_top",
+    "text_left_article_bottom",
+    "text_right_article_top",
+    "text_right_article_bottom",
+    "text_bottom_column_one",
+    "text_bottom_column_two",
+    "text_bottom_column_three",
+    "text_bottom_column_four",
+    "text_issue_line",
+    "text_masthead",
+    "text_headline",
+    "text_subheadline"
+  ]
+}

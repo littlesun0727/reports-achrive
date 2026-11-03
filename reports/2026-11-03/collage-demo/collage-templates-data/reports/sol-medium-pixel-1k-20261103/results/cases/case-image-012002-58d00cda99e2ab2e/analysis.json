@@ -1,0 +1,282 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        744
+      ],
+      "description": "上方独立街头人物照片。一名短黑发女性侧倾头部看向镜头，穿浅绿色格纹上衣和牛仔裤，手持绿色饮品并挎白色铆钉包；保留街道、车辆、行人、建筑、蓝天及右侧店面文字等完整摄影环境。照片左右及上缘抵达画布边缘，下部被绿色镂空横带遮挡，孔内仍可见手部、牛仔裤和店面。与下方照片的接缝藏在横带内，下边界约在744像素处，具体位置不确定。",
+      "label": "上方独立街头人物照片。一名短黑发女性侧倾头部看向镜头，穿浅绿",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        744,
+        1080,
+        1440
+      ],
+      "description": "下方独立静物照片，以黄色汽车前部和引擎盖为主体，盖上摆有黄色包、三杯绿色饮品、食物餐盒、钥匙与绿色手机，背景包含挡风玻璃、墙面和植物，无人物主体。保留完整摄影场景，左右及下缘抵达画布边缘。上部被绿色镂空横带遮挡，部分环境透过圆孔可见；与上方人物照取景不连续，接缝约在744像素处，精确位置被遮挡。",
+      "label": "下方独立静物照片，以黄色汽车前部和引擎盖为主体，盖上摆有黄色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_perforated_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        642,
+        1080,
+        862
+      ],
+      "description": "横贯画布的浅黄绿色实色装饰带，上下边缘平直，内部及边缘分布大小不一的圆形镂空，边缘部分圆孔形成缺口。全部孔洞属于同一横带设计，透出下层两张照片；横带不承担照片窗口或承托功能。",
+      "label": "横贯画布的浅黄绿色实色装饰带，上下边缘平直，内部及边缘分布大",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_top",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        0,
+        808,
+        28
+      ],
+      "description": "画布顶部偏右的浅黄绿色圆点，圆形上部超出画布，仅保留可见部分，叠在人物照片上。",
+      "label": "画布顶部偏右的浅黄绿色圆点，圆形上部超出画布，仅保留可见部分",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        128,
+        157,
+        173
+      ],
+      "description": "左上建筑前的独立浅黄绿色实心圆点。",
+      "label": "左上建筑前的独立浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_upper_middle",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        198,
+        493,
+        259
+      ],
+      "description": "人物头部左侧、街道背景上的独立浅黄绿色实心圆点。",
+      "label": "人物头部左侧、街道背景上的独立浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        949,
+        145,
+        1039,
+        235
+      ],
+      "description": "右上店面前的较大浅黄绿色实心圆点。",
+      "label": "右上店面前的较大浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_right_edge",
+      "kind": "overlay",
+      "bbox": [
+        1055,
+        255,
+        1080,
+        303
+      ],
+      "description": "右侧画布边缘的浅黄绿色圆点，右部被画布裁切。",
+      "label": "右侧画布边缘的浅黄绿色圆点，右部被画布裁切。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_street_small",
+      "kind": "overlay",
+      "bbox": [
+        233,
+        301,
+        258,
+        326
+      ],
+      "description": "左侧车辆与树木附近的独立小浅黄绿色圆点。",
+      "label": "左侧车辆与树木附近的独立小浅黄绿色圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        450,
+        90,
+        511
+      ],
+      "description": "左侧路面上的独立浅黄绿色实心圆点。",
+      "label": "左侧路面上的独立浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_person_lower",
+      "kind": "overlay",
+      "bbox": [
+        417,
+        567,
+        473,
+        623
+      ],
+      "description": "叠在人物左侧手腕及牛仔裤附近的独立浅黄绿色实心圆点。",
+      "label": "叠在人物左侧手腕及牛仔裤附近的独立浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_band_right",
+      "kind": "overlay",
+      "bbox": [
+        1031,
+        618,
+        1080,
+        684
+      ],
+      "description": "横带右上缘的浅黄绿色圆形装饰，右侧被画布裁切，下方带可见的白色偏移圆弧边缘；整体压在照片与横带交界处。",
+      "label": "横带右上缘的浅黄绿色圆形装饰，右侧被画布裁切，下方带可见的白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_bag",
+      "kind": "overlay",
+      "bbox": [
+        186,
+        973,
+        225,
+        1013
+      ],
+      "description": "下方照片黄色包左侧附近的独立浅黄绿色小圆点。",
+      "label": "下方照片黄色包左侧附近的独立浅黄绿色小圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_windshield",
+      "kind": "overlay",
+      "bbox": [
+        989,
+        960,
+        1049,
+        1020
+      ],
+      "description": "下方照片右侧挡风玻璃上的独立浅黄绿色实心圆点。",
+      "label": "下方照片右侧挡风玻璃上的独立浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_hood_small",
+      "kind": "overlay",
+      "bbox": [
+        392,
+        1069,
+        435,
+        1112
+      ],
+      "description": "引擎盖中部偏左、饮品下方的独立浅黄绿色小圆点。",
+      "label": "引擎盖中部偏左、饮品下方的独立浅黄绿色小圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_car_left",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        1200,
+        124,
+        1255
+      ],
+      "description": "下方照片左侧汽车前部附近的独立浅黄绿色实心圆点。",
+      "label": "下方照片左侧汽车前部附近的独立浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_hood_right",
+      "kind": "overlay",
+      "bbox": [
+        828,
+        1283,
+        896,
+        1351
+      ],
+      "description": "引擎盖右下区域的独立浅黄绿色实心圆点。",
+      "label": "引擎盖右下区域的独立浅黄绿色实心圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_bottom",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        1410,
+        400,
+        1440
+      ],
+      "description": "画布底部偏左的浅黄绿色大圆点，下部超出画布，呈可见圆弧片段。",
+      "label": "画布底部偏左的浅黄绿色大圆点，下部超出画布，呈可见圆弧片段。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_perforated_band",
+    "overlay_dot_top",
+    "overlay_dot_upper_left",
+    "overlay_dot_upper_middle",
+    "overlay_dot_upper_right",
+    "overlay_dot_right_edge",
+    "overlay_dot_street_small",
+    "overlay_dot_left_middle",
+    "overlay_dot_person_lower",
+    "overlay_dot_band_right",
+    "overlay_dot_bag",
+    "overlay_dot_windshield",
+    "overlay_dot_hood_small",
+    "overlay_dot_car_left",
+    "overlay_dot_hood_right",
+    "overlay_dot_bottom"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为一张明显失焦的餐厅用餐场景，上部是暗色室内环境，下部可见桌面、餐盘及右侧金黄色饮品，未见清晰可辨的人物。摄影内容在四边及上层照片间隙连续延伸，三张清晰照片和文字装饰遮挡局部；完整背景场景随客户照片替换。",
+      "background_type": "photo",
+      "label": "全画布为一张明显失焦的餐厅用餐场景，上部是暗色室内环境，下部",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        113,
+        144,
+        566,
+        747
+      ],
+      "description": "左上竖幅餐厅照片，一名戴浅色棒球帽、穿深色格纹衣服的女性坐在桌后，低头双手看手机，呈半身景别。前景有贝类、餐盘、筷子和饮品，后方可见其他食客及店内墙面招牌；摄影环境完整保留。照片窗口四周附有白色颗粒状边线，顶部、左侧及底部被独立白星遮挡。",
+      "label": "左上竖幅餐厅照片，一名戴浅色棒球帽、穿深色格纹衣服的女性坐在",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        637,
+        287,
+        958,
+        713
+      ],
+      "description": "右上竖幅饮品特写，一只印有黑色字样的金黄色饮料杯占据中央与右部，左下有贝类餐盘，后方保留餐厅招牌和食客。杯身文字属于实拍内容。完整照片窗口带白色颗粒状边线，顶部被星级装饰覆盖，左边局部被白星遮挡。",
+      "label": "右上竖幅饮品特写，一只印有黑色字样的金黄色饮料杯占据中央与右",
+      "method": "local"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        350,
+        804,
+        1003,
+        1299
+      ],
+      "description": "下方横幅俯拍餐桌照片，无人物。中央为一大盘贝类，左侧有绿色蔬菜与蓝色海鲜盘，上方有饼皮和葱段，右侧有蔬菜碗及金黄色饮品，下缘露出红色菜肴。保留全部桌面环境和完整显示窗口，外围附白色颗粒状边线；部分区域被点阵、文字与星形装饰覆盖。",
+      "label": "下方横幅俯拍餐桌照片，无人物。中央为一大盘贝类，左侧有绿色蔬",
+      "method": "local"
+    },
+    {
+      "id": "overlay_life",
+      "kind": "overlay",
+      "bbox": [
+        604,
+        176,
+        749,
+        254
+      ],
+      "description": "白色粉笔质感的手写“Life”艺术字，各字母大小及基线不完全一致，整体保留笔画纹理与不规则排布。",
+      "label": "白色粉笔质感的手写“Life”艺术字，各字母大小及基线不完全",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_utensils",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        157,
+        968,
+        265
+      ],
+      "description": "餐具与字样组成的完整装饰：上方是白色线描叉子，下方是白色线描勺子，柄内有圆点；两者之间为粉色手写“美味ing...”。保留线条、点缀和内部文字的原有位置。",
+      "label": "餐具与字样组成的完整装饰：上方是白色线描叉子，下方是白色线描",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rating",
+      "kind": "overlay",
+      "bbox": [
+        803,
+        303,
+        1018,
+        356
+      ],
+      "description": "横排五颗白色手绘星组成的星级装饰，左侧三颗实心，右侧两颗空心，覆盖右上饮品照片的上沿并延伸到其右侧。",
+      "label": "横排五颗白色手绘星组成的星级装饰，左侧三颗实心，右侧两颗空心",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_doodles",
+      "kind": "overlay",
+      "bbox": [
+        874,
+        716,
+        1034,
+        872
+      ],
+      "description": "右侧成组的淡黄色手绘装饰，包含三颗线描五角星和三条向下方照片指引的短线，位于两张右侧照片之间并跨过下方照片上边缘。",
+      "label": "右侧成组的淡黄色手绘装饰，包含三颗线描五角星和三条向下方照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        376,
+        105,
+        441,
+        169
+      ],
+      "description": "顶部独立白色实心五角星，叠在左上照片上边缘，星尖伸入背景。",
+      "label": "顶部独立白色实心五角星，叠在左上照片上边缘，星尖伸入背景。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        330,
+        165,
+        409
+      ],
+      "description": "左侧独立白色实心五角星，横跨左上人物照片的左边缘。",
+      "label": "左侧独立白色实心五角星，横跨左上人物照片的左边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_person_bottom",
+      "kind": "overlay",
+      "bbox": [
+        314,
+        710,
+        376,
+        772
+      ],
+      "description": "独立白色实心五角星，覆盖左上人物照片的下边缘，向下伸入照片间的背景。",
+      "label": "独立白色实心五角星，覆盖左上人物照片的下边缘，向下伸入照片间",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_drink_left",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        474,
+        663,
+        523
+      ],
+      "description": "独立白色实心五角星，位于右上饮品照片左边中部，跨越照片边线。",
+      "label": "独立白色实心五角星，位于右上饮品照片左边中部，跨越照片边线。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_food_top",
+      "kind": "overlay",
+      "bbox": [
+        637,
+        845,
+        686,
+        893
+      ],
+      "description": "独立白色实心五角星，叠在下方餐桌照片上部的饼皮附近。",
+      "label": "独立白色实心五角星，叠在下方餐桌照片上部的饼皮附近。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_food_right",
+      "kind": "overlay",
+      "bbox": [
+        958,
+        1023,
+        1022,
+        1085
+      ],
+      "description": "独立白色实心五角星，叠在下方照片右侧饮品附近，跨越照片右边缘。",
+      "label": "独立白色实心五角星，叠在下方照片右侧饮品附近，跨越照片右边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        1226,
+        178,
+        1298
+      ],
+      "description": "左下背景上的独立白色实心五角星，与照片边缘不相连。",
+      "label": "左下背景上的独立白色实心五角星，与照片边缘不相连。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_grid",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        881,
+        452,
+        1262
+      ],
+      "description": "左下区域规则排列的黑色小圆点阵列，作为一个完整纹样保留。点阵从背景延伸至下方照片的左部，照片内白色餐盘及桌面上仍可见圆点；部分圆点被文字遮挡。",
+      "label": "左下区域规则排列的黑色小圆点阵列，作为一个完整纹样保留。点阵",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_summer_words",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        964,
+        408,
+        1177
+      ],
+      "description": "三行白色粗体英文装饰字，依次为“in July”“in summer”“in life”，带青绿色细描边和轻微发光感。三行居中错落排布，第二行向右覆盖下方照片左边缘；整体保留字形效果与原有行位。",
+      "label": "三行白色粗体英文装饰字，依次为“in July”“in su",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_love_words",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        1195,
+        1015,
+        1340
+      ],
+      "description": "右下白色手写装饰字，分三行呈现“i LOVE”“TODAY'S”“COLORS”，字母大小、位置和倾斜不完全一致。前两行叠在下方照片内，最后一行越过照片底边落在背景上，整体保留。",
+      "label": "右下白色手写装饰字，分三行呈现“i LOVE”“TODAY'",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_person",
+    "photo_drink",
+    "photo_food",
+    "overlay_dot_grid",
+    "overlay_life",
+    "overlay_utensils",
+    "overlay_rating",
+    "overlay_yellow_doodles",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_person_bottom",
+    "overlay_star_drink_left",
+    "overlay_star_food_top",
+    "overlay_star_food_right",
+    "overlay_star_bottom_left",
+    "overlay_summer_words",
+    "overlay_love_words"
+  ]
+}

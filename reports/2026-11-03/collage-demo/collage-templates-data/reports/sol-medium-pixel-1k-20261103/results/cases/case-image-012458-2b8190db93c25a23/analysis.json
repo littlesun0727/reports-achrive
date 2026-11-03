@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "一张连续的室内静物摄影覆盖全画布，无人物。浅灰墙面与台面相连，左侧金属双层架摆放护肤瓶罐，右侧黑框英文手写诗句画板被画布右边裁切；前景白色椭圆托盘内有鸡蛋花与金黄色滴管精油瓶。墙面、物品、台面及自然阴影属于同一摄影场景，连续延伸到画布四边；上方爱心贴纸和白色字样等为后加装饰。替换时保留整个摄影范围，画板文字与产品印字随照片替换。",
+      "background_type": "photo",
+      "label": "一张连续的室内静物摄影覆盖全画布，无人物。浅灰墙面与台面相连",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_heart_cloud",
+      "kind": "overlay",
+      "bbox": [
+        324,
+        240,
+        499,
+        397
+      ],
+      "description": "白色蓬松云团与中央立体粉红爱心组成的完整贴纸，周围附有四枚小粉心和左下白色小圆球，保留柔和阴影与高光。",
+      "label": "白色蓬松云团与中央立体粉红爱心组成的完整贴纸，周围附有四枚小",
+      "method": "extract"
+    },
+    {
+      "id": "text_share",
+      "kind": "text",
+      "bbox": [
+        102,
+        407,
+        392,
+        463
+      ],
+      "description": "#share",
+      "label": "#share",
+      "method": "local",
+      "text": "#share",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_oil_symbols",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        1270,
+        288,
+        1318
+      ],
+      "description": "下方成组装饰：左右白色弯引号之间依次排列金黄色油滴轮廓、浅蓝粉色透明气泡和绿色叶片；整组图案作为一个固定设计单元保留。",
+      "label": "下方成组装饰：左右白色弯引号之间依次排列金黄色油滴轮廓、浅蓝",
+      "method": "extract"
+    },
+    {
+      "id": "text_skin",
+      "kind": "text",
+      "bbox": [
+        150,
+        1353,
+        270,
+        1383
+      ],
+      "description": "以油养肤",
+      "label": "以油养肤",
+      "method": "local",
+      "text": "以油养肤",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1018,
+        1593,
+        1073,
+        1620
+      ],
+      "description": "右下角低透明度白色圆角线框标记，底部被画布边缘裁切，内部细节不清，按可见整体保留。",
+      "label": "右下角低透明度白色圆角线框标记，底部被画布边缘裁切，内部细节",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_heart_cloud",
+    "text_share",
+    "overlay_oil_symbols",
+    "text_skin",
+    "overlay_corner_mark"
+  ]
+}

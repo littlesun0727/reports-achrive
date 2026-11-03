@@ -1,0 +1,223 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "background_blue",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "全画布连续深蓝色固定设计底图，带浅蓝色褶皱状色块、磨损颗粒和散布在画布边缘的黄色狮子纹样。四边及中央撕纸外侧均露出同一底图；保留这些底纹，独立人物、标牌、旗帜、文字装饰和中央纸板另列。",
+      "background_type": "reference_clean",
+      "label": "全画布连续深蓝色固定设计底图，带浅蓝色褶皱状色块、磨损颗粒和",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_chelsea_flag",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        0,
+        650,
+        202
+      ],
+      "description": "左上方斜置的蓝色切尔西旗帜装饰，包含布面褶皱、白色侧边、圆形队徽及可见的CHELSEA字样。顶部被画布裁切，下部被中央撕纸和人物遮挡，作为固定俱乐部主题素材保留。",
+      "label": "左上方斜置的蓝色切尔西旗帜装饰，包含布面褶皱、白色侧边、圆形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_torn_panel",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        92,
+        1063,
+        1193
+      ],
+      "description": "中央大型撕纸面板，蓝色内面印有亮蓝斜向折线和白色磨损颗粒，外围为不规则白色毛糙纸边及轻微阴影。上边、左右边和下边组成同一完整纸板，局部被人物、标题和标牌遮挡；不形成照片内口。",
+      "label": "中央大型撕纸面板，蓝色内面印有亮蓝斜向折线和白色磨损颗粒，外",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_name_mount",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        253,
+        410,
+        441
+      ],
+      "description": "左上倾斜的深蓝色姓名标签，白色大写MOUNT采用狭长、局部磨损的字形，带蓝色承托底板及下缘阴影。保留字形、倾斜排布与底板为一个完整装饰。",
+      "label": "左上倾斜的深蓝色姓名标签，白色大写MOUNT采用狭长、局部磨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_name_mason",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        234,
+        276,
+        296
+      ],
+      "description": "叠在MOUNT标签上缘的浅灰白纸签，印有深蓝色MASON，字面带磨损，纸面有细微纹理和不齐整边缘。文字与纸签整体保留。",
+      "label": "叠在MOUNT标签上缘的浅灰白纸签，印有深蓝色MASON，字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_number_19",
+      "kind": "overlay",
+      "bbox": [
+        377,
+        186,
+        591,
+        404
+      ],
+      "description": "姓名右侧的大号荧光黄色19，采用倾斜的手刷笔画，含飞白、刮痕和不规则细线。数字作为完整艺术字装饰保留，右侧局部被主人物轮廓遮挡。",
+      "label": "姓名右侧的大号荧光黄色19，采用倾斜的手刷笔画，含飞白、刮痕",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stamford_sign",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        31,
+        1080,
+        273
+      ],
+      "description": "右上方斜置的白色街道路牌，右侧伸出画布；包含STAMFORD、BRIDGE SW6、CHELSEA FOOTBALL CLUB、横向分隔线及右上切尔西队徽。保留路牌轮廓、印字和队徽，左缘局部在主人物之后。",
+      "label": "右上方斜置的白色街道路牌，右侧伸出画布；包含STAMFORD",
+      "method": "extract"
+    },
+    {
+      "id": "photo_standing",
+      "kind": "photo",
+      "bbox": [
+        489,
+        49,
+        979,
+        1121
+      ],
+      "description": "右侧最大的一名年轻男性球员，短棕发，穿蓝色切尔西球衣，近乎正面站立并略向右看，双手在胸前鼓掌，右臂下夹着黑白橙色足球。球员、球衣和夹持足球属于同一摄影主体组合，环境已去除，外围有白色宽轮廓及局部黄色外沿。下半身被前方滑跪人物遮挡，完整下缘在遮挡处无法确认。",
+      "label": "右侧最大的一名年轻男性球员，短棕发，穿蓝色切尔西球衣，近乎正",
+      "method": "local"
+    },
+    {
+      "id": "photo_kicking",
+      "kind": "photo",
+      "bbox": [
+        14,
+        415,
+        475,
+        1131
+      ],
+      "description": "左侧一名单独的全身男性球员，穿蓝色球衣、短裤和白色长袜，低头看向右下方，一腿支撑、另一腿向右踢出，双臂展开。保留鞋、腿和双手的完整组合，摄影环境已去除，沿全身轮廓有白色边缘及黄色外沿；与右侧人物为不同姿态的独立照片。",
+      "label": "左侧一名单独的全身男性球员，穿蓝色球衣、短裤和白色长袜，低头",
+      "method": "local"
+    },
+    {
+      "id": "photo_flying_ball",
+      "kind": "photo",
+      "bbox": [
+        885,
+        710,
+        1080,
+        926
+      ],
+      "description": "右侧独立飞行足球，白黑橙色球面带明显横向运动模糊，右部被画布边缘裁切。球体及其模糊拖影共同保留，不包含摄影环境，与主人物臂下清晰足球不是同一个显示位置。",
+      "label": "右侧独立飞行足球，白黑橙色球面带明显横向运动模糊，右部被画布",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lightning",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        700,
+        803,
+        852
+      ],
+      "description": "叠在主人物腹部的三道黄色闪电组成一组固定点缀，上方较短，中间横向较长，下方为斜向碎裂闪电。保留三道闪电之间的透明间隙，不并入球衣摄影内容。",
+      "label": "叠在主人物腹部的三道黄色闪电组成一组固定点缀，上方较短，中间",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_brush",
+      "kind": "overlay",
+      "bbox": [
+        403,
+        1254,
+        1030,
+        1306
+      ],
+      "description": "画面底部横向黄色干刷笔迹，左端向外渐散，右端带细碎颗粒，沿滑跪人物下方延伸。作为独立笔刷装饰保留，与人物身上的轮廓描边分开。",
+      "label": "画面底部横向黄色干刷笔迹，左端向外渐散，右端带细碎颗粒，沿滑",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sliding",
+      "kind": "photo",
+      "bbox": [
+        477,
+        638,
+        1007,
+        1297
+      ],
+      "description": "前景一名男性球员穿蓝色球衣短裤和白色长袜，双膝滑跪、身体后仰，脸朝右并吐舌，双臂展开，两腿及球鞋延伸至底部。摄影环境已去除，沿完整主体组合有白色宽边和局部黄色外沿。人物覆盖站立球员的下半身，是独立姿态照片，不与后方人物建立出框关联。",
+      "label": "前景一名男性球员穿蓝色球衣短裤和白色长袜，双膝滑跪、身体后仰",
+      "method": "local"
+    },
+    {
+      "id": "overlay_jh_logo",
+      "kind": "overlay",
+      "bbox": [
+        502,
+        1297,
+        581,
+        1343
+      ],
+      "description": "底部中央浅蓝色JH几何字母标志，笔画带定制切口及组合造型，作为完整标识装饰保留。",
+      "label": "底部中央浅蓝色JH几何字母标志，笔画带定制切口及组合造型，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1323,
+        1073,
+        1343
+      ],
+      "description": "右下角极小的低透明度圆角水印标签，内有浅色中文小字，疑似小红书标记。文字与圆角载体整体保留。",
+      "label": "右下角极小的低透明度圆角水印标签，内有浅色中文小字，疑似小红",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_blue",
+    "overlay_chelsea_flag",
+    "overlay_torn_panel",
+    "overlay_name_mount",
+    "overlay_name_mason",
+    "overlay_number_19",
+    "overlay_stamford_sign",
+    "photo_standing",
+    "photo_kicking",
+    "photo_flying_ball",
+    "overlay_lightning",
+    "overlay_bottom_brush",
+    "photo_sliding",
+    "overlay_jh_logo",
+    "overlay_watermark"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的竖幅近景照片铺满画布：一只穿浅棕色袖口的手从左下方托着装有橙色饮品的透明塑料杯，杯身标签可见，吸管向上延伸；手和杯子位于画面中央偏左，深色室内背景延伸至四边。画面边缘及对象间隙均保持同一摄影场景，手绘文字与涂鸦遮挡局部；整体摄影环境由客户照片替换。",
+      "background_type": "photo",
+      "label": "一张连续的竖幅近景照片铺满画布：一只穿浅棕色袖口的手从左下方",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_sun_doodle",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        61,
+        276,
+        266
+      ],
+      "description": "左上方一组黄色手绘太阳涂鸦，由中央螺旋状线条和周围短放射形笔画组成，整体作为一个固定装饰保留。",
+      "label": "左上方一组黄色手绘太阳涂鸦，由中央螺旋状线条和周围短放射形笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_caption_top",
+      "kind": "overlay",
+      "bbox": [
+        244,
+        310,
+        706,
+        478
+      ],
+      "description": "杯盖上方横向倾斜排列的黄色手写中文装饰字样，含数字与标点，笔画具有明显手绘造型，作为完整字样保留。",
+      "label": "杯盖上方横向倾斜排列的黄色手写中文装饰字样，含数字与标点，笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_caption_side",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        393,
+        763,
+        684
+      ],
+      "description": "杯子右侧纵向排列的黄色手写中文装饰字样，笔画与上方字样风格相近，作为独立完整字样保留。",
+      "label": "杯子右侧纵向排列的黄色手写中文装饰字样，笔画与上方字样风格相",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coral_marks",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        370,
+        860,
+        512
+      ],
+      "description": "右上方三枚珊瑚粉色手绘短线与三角形符号，彼此组成一组独立涂鸦装饰。",
+      "label": "右上方三枚珊瑚粉色手绘短线与三角形符号，彼此组成一组独立涂鸦",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_marks",
+      "kind": "overlay",
+      "bbox": [
+        202,
+        486,
+        352,
+        746
+      ],
+      "description": "杯子左侧的白色手绘弯括号线与斜向长线，二者分隔分布但属于同一组白色标记，作为整体保留。",
+      "label": "杯子左侧的白色手绘弯括号线与斜向长线，二者分隔分布但属于同一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coral_parenthesis",
+      "kind": "overlay",
+      "bbox": [
+        168,
+        622,
+        220,
+        682
+      ],
+      "description": "杯子左侧一对珊瑚粉色手绘弧形短笔画，作为独立涂鸦保留。",
+      "label": "杯子左侧一对珊瑚粉色手绘弧形短笔画，作为独立涂鸦保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_arrow",
+      "kind": "overlay",
+      "bbox": [
+        813,
+        823,
+        913,
+        1012
+      ],
+      "description": "右侧指向杯托的黄色手绘弯箭头，带有弯曲尾部与箭头笔画，整体作为固定装饰保留。",
+      "label": "右侧指向杯托的黄色手绘弯箭头，带有弯曲尾部与箭头笔画，整体作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_caption",
+      "kind": "overlay",
+      "bbox": [
+        408,
+        1064,
+        1031,
+        1301
+      ],
+      "description": "画面下方两行白色手写中文装饰字样，末尾带珊瑚粉色引号；字形有明显笔画造型与不规则排布，文字与引号作为同一完整设计保留。",
+      "label": "画面下方两行白色手写中文装饰字样，末尾带珊瑚粉色引号；字形有",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_sun_doodle",
+    "overlay_yellow_caption_top",
+    "overlay_yellow_caption_side",
+    "overlay_coral_marks",
+    "overlay_white_marks",
+    "overlay_coral_parenthesis",
+    "overlay_yellow_arrow",
+    "overlay_bottom_caption"
+  ]
+}

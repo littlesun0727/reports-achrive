@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的室内桌面近景摄影覆盖全画布：左侧是盛着红心柚果肉的花边盘，右下是西瓜造型的绿色肥皂盒，周围可见木桌、黑白格纹布、毛绒物和印花靠垫。物件与环境延伸至画布边缘，文字、手绘线条和贴纸遮挡其局部；整体摄影环境作为客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_top_caption",
+      "kind": "overlay",
+      "bbox": [
+        258,
+        269,
+        844,
+        320
+      ],
+      "description": "画面上方一行白色手写中文“红心柚水分好多，也不怎么酸”，末尾带黄色星星图案；文字与星星构成同一独立叠加设计，保留原有字形和笔画。"
+    },
+    {
+      "id": "overlay_fruit_doodle",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        429,
+        399,
+        721
+      ],
+      "description": "柚子果肉上方的白色手绘环形线条、弯曲小线、闪光符号和圆点组成的装饰涂鸦，作为一个完整设计单元保留。"
+    },
+    {
+      "id": "overlay_cat_sticker",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        619,
+        897,
+        697
+      ],
+      "description": "西瓜盒上沿处的小白猫贴纸，猫咪蜷坐并面向左侧，带浅色轮廓和细部表情。"
+    },
+    {
+      "id": "overlay_yellow_arrow",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        1054,
+        330,
+        1190
+      ],
+      "description": "桌面左下方的黄色手绘弯箭头，指向西瓜造型肥皂盒，保留箭头和连续曲线。"
+    },
+    {
+      "id": "overlay_bottom_caption",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        1217,
+        473,
+        1338
+      ],
+      "description": "左下方两行白色手写中文，内容为“新入手的肥皂盒太可爱了”和“几块钱的快乐”，末尾配有表情及派对图案；按原有手写字形、行距和附属图案整体保留。"
+    },
+    {
+      "id": "overlay_character_sticker",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        1231,
+        684,
+        1432
+      ],
+      "description": "画面底部偏右的独立卡通人物贴纸，戴有写着“LARS”的蓝色帽子，坐在小滑板上；保留人物、帽子、滑板及贴纸轮廓。"
+    },
+    {
+      "id": "overlay_confetti_stars",
+      "kind": "overlay",
+      "bbox": [
+        427,
+        1340,
+        519,
+        1418
+      ],
+      "description": "卡通人物左侧下方散落的粉色、紫色和黄色小星星装饰，彼此分离但作为一组独立点缀保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_top_caption",
+    "overlay_fruit_doodle",
+    "overlay_cat_sticker",
+    "overlay_yellow_arrow",
+    "overlay_bottom_caption",
+    "overlay_character_sticker",
+    "overlay_confetti_stars"
+  ]
+}

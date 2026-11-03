@@ -1,0 +1,467 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#22562F"
+      }
+    },
+    {
+      "id": "photo_room_top",
+      "kind": "photo",
+      "bbox": [
+        39,
+        45,
+        396,
+        237
+      ],
+      "description": "左上横向室内照片，无清晰人物；钢琴、座椅、窗帘、台灯及室内陈设共同保留，完整矩形窗口显示摄影环境，上沿局部被灯串遮挡。",
+      "label": "左上横向室内照片，无清晰人物；钢琴、座椅、窗帘、台灯及室内陈",
+      "method": "local"
+    },
+    {
+      "id": "photo_living_room",
+      "kind": "photo",
+      "bbox": [
+        42,
+        273,
+        391,
+        464
+      ],
+      "description": "左侧第二张横向客厅照片，圣诞树、壁炉、沙发及右侧坐着的一名人物共同构成远景，保留完整室内摄影环境。",
+      "label": "左侧第二张横向客厅照片，圣诞树、壁炉、沙发及右侧坐着的一名人",
+      "method": "local"
+    },
+    {
+      "id": "photo_kitchen",
+      "kind": "photo",
+      "bbox": [
+        40,
+        495,
+        397,
+        685
+      ],
+      "description": "左侧第三张横向厨房照片，岛台、圆凳、灶具、悬挂锅具和后方橱柜共同保留；矩形摄影窗口，右下局部被大型人物及帽子遮挡。",
+      "label": "左侧第三张横向厨房照片，岛台、圆凳、灶具、悬挂锅具和后方橱柜",
+      "method": "local"
+    },
+    {
+      "id": "photo_house_night",
+      "kind": "photo",
+      "bbox": [
+        42,
+        718,
+        398,
+        933
+      ],
+      "description": "左下横向夜景照片，一名人物背向镜头走向布满彩灯的住宅，保留雪地、道路、树木与房屋环境；右部被中央大人物遮挡，窗口不是按剩余可见部分裁切。",
+      "label": "左下横向夜景照片，一名人物背向镜头走向布满彩灯的住宅，保留雪",
+      "method": "local"
+    },
+    {
+      "id": "photo_shop_boy",
+      "kind": "photo",
+      "bbox": [
+        493,
+        45,
+        787,
+        248
+      ],
+      "description": "上方中间横向照片，一名戴针织帽、围红围巾的男孩半身朝右看，背后可见店铺货架及另一人的局部手臂，完整保留摄影环境；左上被毛衣装饰覆盖。",
+      "label": "上方中间横向照片，一名戴针织帽、围红围巾的男孩半身朝右看，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_boy_gun",
+      "kind": "photo",
+      "bbox": [
+        753,
+        212,
+        1025,
+        390
+      ],
+      "description": "右上横向男孩半身照片，男孩穿浅色毛衣并拿着黑色长枪状物，面向镜头，保留室内背景；左下被提袋男孩遮挡，右下被红围巾装饰覆盖。",
+      "label": "右上横向男孩半身照片，男孩穿浅色毛衣并拿着黑色长枪状物，面向",
+      "method": "local"
+    },
+    {
+      "id": "photo_boy_bags",
+      "kind": "photo",
+      "bbox": [
+        604,
+        272,
+        846,
+        566
+      ],
+      "description": "中央偏上独立男孩全身主体，戴帽子、围红围巾，两手分别提白色购物袋；沿男孩及两只袋子的完整外轮廓去除摄影背景，脚部下缘被大型圣诞帽遮挡。",
+      "label": "中央偏上独立男孩全身主体，戴帽子、围红围巾，两手分别提白色购",
+      "method": "local"
+    },
+    {
+      "id": "photo_tree_boy",
+      "kind": "photo",
+      "bbox": [
+        831,
+        597,
+        991,
+        779
+      ],
+      "description": "右侧相框内的竖向照片，一名穿红色上衣的男孩侧身抬手装饰圣诞树，另一手拿着浅色盒状物；人物和室内圣诞树环境一起保留，下方局部被大型帽子遮挡。",
+      "label": "右侧相框内的竖向照片，一名穿红色上衣的男孩侧身抬手装饰圣诞树",
+      "method": "local"
+    },
+    {
+      "id": "frame_tree_boy",
+      "kind": "frame",
+      "bbox": [
+        814,
+        581,
+        1008,
+        794
+      ],
+      "description": "承托单张竖向照片的红色矩形相纸框，内口周围有绿白斜纹边及圆角细边，整体固定设计保留；右上叠有独立铃铛装饰，下方被大型圣诞帽遮挡。",
+      "photo_id": [
+        "photo_tree_boy"
+      ],
+      "label": "承托单张竖向照片的红色矩形相纸框，内口周围有绿白斜纹边及圆角",
+      "method": "extract"
+    },
+    {
+      "id": "photo_room_small",
+      "kind": "photo",
+      "bbox": [
+        921,
+        787,
+        1064,
+        962
+      ],
+      "description": "右侧下方小幅竖向室内照片，显示壁炉、圣诞树、礼物及暖色房间陈设，没有清晰人物；保留矩形摄影环境，左上区域被大型圣诞帽遮挡。",
+      "label": "右侧下方小幅竖向室内照片，显示壁炉、圣诞树、礼物及暖色房间陈",
+      "method": "local"
+    },
+    {
+      "id": "photo_main_boy",
+      "kind": "photo",
+      "bbox": [
+        120,
+        731,
+        995,
+        1440
+      ],
+      "description": "占据下半画布的大型男孩近景，金色头发、双手贴脸、睁大眼睛张口，穿红黑针织毛衣；沿头部、手臂和躯干轮廓去除摄影背景，躯干在画布底边裁切，头顶被独立圣诞帽覆盖，右侧被趴卧男孩组合遮挡。",
+      "label": "占据下半画布的大型男孩近景，金色头发、双手贴脸、睁大眼睛张口",
+      "method": "local"
+    },
+    {
+      "id": "photo_two_men",
+      "kind": "photo",
+      "bbox": [
+        219,
+        997,
+        350,
+        1236
+      ],
+      "description": "左下两名成年男子的全身组合，前方男子戴黑帽、穿长外套，身上缠绕彩色灯泡；后方较高男子穿棕红外套和红围巾并俯身靠近。两人及随身衣物、灯串作为同一摄影主体组合去背景保留。",
+      "label": "左下两名成年男子的全身组合，前方男子戴黑帽、穿长外套，身上缠",
+      "method": "local"
+    },
+    {
+      "id": "photo_prone_boy",
+      "kind": "photo",
+      "bbox": [
+        804,
+        928,
+        1080,
+        1368
+      ],
+      "description": "右下沿轮廓去背景的摄影组合：一名红色上衣男孩背向镜头趴卧，抬手握住长杆，杆顶附近有一名戴黑帽男子的头部。完整保留男孩、长杆与男子头部，覆盖中央人物毛衣及圣诞树装饰，男孩腿脚在右边缘裁切。",
+      "label": "右下沿轮廓去背景的摄影组合：一名红色上衣男孩背向镜头趴卧，抬",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lights",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        0,
+        458,
+        94
+      ],
+      "description": "画布顶部一整串暖黄色发光灯泡和弯曲细线，包含灯泡周围光晕；细线在上边缘裁切，跨过绿色底色及左上照片，作为完整固定装饰保留。",
+      "label": "画布顶部一整串暖黄色发光灯泡和弯曲细线，包含灯泡周围光晕；细",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sweater",
+      "kind": "overlay",
+      "bbox": [
+        447,
+        33,
+        517,
+        134
+      ],
+      "description": "小型长袖针织毛衣装饰，带多色横向几何花纹、领口及完整袖口轮廓，叠在上方店铺照片左上边缘。",
+      "label": "小型长袖针织毛衣装饰，带多色横向几何花纹、领口及完整袖口轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pattern_red",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        46,
+        903,
+        144
+      ],
+      "description": "右上独立红色方形花纹纸片，包含密集白色、绿色圣诞几何纹样；右下部分被另一张格纹纸片覆盖。",
+      "label": "右上独立红色方形花纹纸片，包含密集白色、绿色圣诞几何纹样；右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pattern_plaid",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        104,
+        974,
+        194
+      ],
+      "description": "右上独立方形格纹纸片，米白底上交织红绿斜向格线，完整纸片叠在红色花纹纸片右下方。",
+      "label": "右上独立方形格纹纸片，米白底上交织红绿斜向格线，完整纸片叠在",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pattern_knit",
+      "kind": "overlay",
+      "bbox": [
+        546,
+        263,
+        654,
+        372
+      ],
+      "description": "中央偏上红白针织图案方形纸片，包含横向雪花、树形及几何纹样；左下局部被另一张深红花纹纸片覆盖。",
+      "label": "中央偏上红白针织图案方形纸片，包含横向雪花、树形及几何纹样；",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pattern_dark",
+      "kind": "overlay",
+      "bbox": [
+        481,
+        353,
+        590,
+        462
+      ],
+      "description": "中央偏左深红色方形花纹纸片，白色小人、菱形、雪花状图案分行排列，叠在上方红白针织图案纸片的左下区域。",
+      "label": "中央偏左深红色方形花纹纸片，白色小人、菱形、雪花状图案分行排",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_scarf",
+      "kind": "overlay",
+      "bbox": [
+        903,
+        346,
+        1080,
+        551
+      ],
+      "description": "右侧独立红色围巾装饰，完整保留环形围绕部分、交叠结及两条下垂末端的织物明暗与边缘；上部覆盖持枪男孩照片，右侧在画布边缘裁切。",
+      "label": "右侧独立红色围巾装饰，完整保留环形围绕部分、交叠结及两条下垂",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_santa_hat",
+      "kind": "overlay",
+      "bbox": [
+        341,
+        510,
+        932,
+        899
+      ],
+      "description": "大型红色圣诞帽固定装饰，包含弯垂帽身、宽白色绒毛帽沿及右侧白色毛球，保留布料褶皱与绒毛边缘；戴在中央男孩头顶，遮挡提袋男孩下部、左侧照片以及右侧相框和小室内照片。",
+      "label": "大型红色圣诞帽固定装饰，包含弯垂帽身、宽白色绒毛帽沿及右侧白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bells",
+      "kind": "overlay",
+      "bbox": [
+        949,
+        554,
+        1044,
+        622
+      ],
+      "description": "相框右上角独立圣诞铃铛贴饰，金色双铃铛配红色蝴蝶结、绿色松针及浅色细碎点缀，整体覆盖框体和照片上角。",
+      "label": "相框右上角独立圣诞铃铛贴饰，金色双铃铛配红色蝴蝶结、绿色松针",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_christmas_tree",
+      "kind": "overlay",
+      "bbox": [
+        914,
+        916,
+        1074,
+        1179
+      ],
+      "description": "右下卡通圣诞树完整装饰，包含分层绿色枝叶、彩色球饰、树干、底部红黄礼物盒，以及顶部金黄色星星与环绕弧线；上部覆盖小室内照片下缘，左侧及下部被趴卧男孩组合遮挡。",
+      "label": "右下卡通圣诞树完整装饰，包含分层绿色枝叶、彩色球饰、树干、底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_lime",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        912,
+        134,
+        1025
+      ],
+      "description": "左下倾斜的浅黄绿色色卡，包含白色纸边、绿色色块、下方白色信息栏及小号英文印字；作为一个完整卡片保留，上角压在夜景照片下缘。",
+      "label": "左下倾斜的浅黄绿色色卡，包含白色纸边、绿色色块、下方白色信息",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_red",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        942,
+        241,
+        1046
+      ],
+      "description": "左下略倾斜的红色色卡，白色纸边围绕红色块，下方信息栏可辨“Fiery Red”等小号英文；卡片纸边和所有印字整体保留。",
+      "label": "左下略倾斜的红色色卡，白色纸边围绕红色块，下方信息栏可辨“F",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_forest",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        999,
+        178,
+        1105
+      ],
+      "description": "左下向右倾斜的深绿色色卡，带白色边框与下方英文信息栏，可辨“Forest Green”；上方局部被浅黄绿色色卡覆盖，整体作为固定卡片。",
+      "label": "左下向右倾斜的深绿色色卡，带白色边框与下方英文信息栏，可辨“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_sage",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        1087,
+        149,
+        1192
+      ],
+      "description": "左下向左倾斜的灰绿色色卡，包含色块、白色纸边和底部小号英文信息，作为独立完整纸卡保留。",
+      "label": "左下向左倾斜的灰绿色色卡，包含色块、白色纸边和底部小号英文信",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_brown",
+      "kind": "overlay",
+      "bbox": [
+        141,
+        1110,
+        235,
+        1218
+      ],
+      "description": "左下偏右倾斜的棕色色卡，包含棕色块、白色纸边和底部英文信息栏，右上区域被两名男子主体局部遮挡。",
+      "label": "左下偏右倾斜的棕色色卡，包含棕色块、白色纸边和底部英文信息栏",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_yellow",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        1170,
+        161,
+        1288
+      ],
+      "description": "左下黄色色卡，明显倾斜，完整保留黄色色块、白色边框与底部小号英文信息；上角被灰绿色色卡覆盖。",
+      "label": "左下黄色色卡，明显倾斜，完整保留黄色色块、白色边框与底部小号",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_card_tan",
+      "kind": "overlay",
+      "bbox": [
+        7,
+        1264,
+        108,
+        1380
+      ],
+      "description": "左下最底部倾斜的浅棕色色卡，白色纸边、浅棕色块及底部英文信息栏组成完整固定卡片，与上方黄色卡片保持独立。",
+      "label": "左下最底部倾斜的浅棕色色卡，白色纸边、浅棕色块及底部英文信息",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1414,
+        1072,
+        1433
+      ],
+      "description": "右下角低对比度绿色圆角小标记，内含“小红书”字样，字样与底板作为完整固定标识保留。",
+      "label": "右下角低对比度绿色圆角小标记，内含“小红书”字样，字样与底板",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_room_top",
+    "photo_living_room",
+    "photo_kitchen",
+    "photo_house_night",
+    "photo_shop_boy",
+    "photo_boy_gun",
+    "overlay_pattern_red",
+    "overlay_pattern_plaid",
+    "overlay_pattern_knit",
+    "overlay_pattern_dark",
+    "photo_room_small",
+    "frame_tree_boy",
+    "photo_tree_boy",
+    "overlay_bells",
+    "photo_boy_bags",
+    "overlay_scarf",
+    "photo_main_boy",
+    "overlay_santa_hat",
+    "overlay_christmas_tree",
+    "overlay_card_forest",
+    "overlay_card_lime",
+    "overlay_card_red",
+    "overlay_card_brown",
+    "overlay_card_yellow",
+    "overlay_card_sage",
+    "overlay_card_tan",
+    "photo_two_men",
+    "photo_prone_boy",
+    "overlay_sweater",
+    "overlay_lights",
+    "overlay_watermark"
+  ]
+}

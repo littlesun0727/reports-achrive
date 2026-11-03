@@ -1,0 +1,239 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#0B49C5"
+      }
+    },
+    {
+      "id": "overlay_dots",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        264,
+        469
+      ],
+      "description": "左上角沿画布边缘散布的黄色、白色和橙色圆点装饰，大小不一，整体向右下逐渐疏散；左侧及顶部部分圆点被画布裁切，作为一个完整点阵装饰保留。",
+      "label": "左上角沿画布边缘散布的黄色、白色和橙色圆点装饰，大小不一，整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_life_updates",
+      "kind": "overlay",
+      "bbox": [
+        251,
+        125,
+        901,
+        277
+      ],
+      "description": "白色手绘标题“Life Updates”，笔画粗细和字母形状不规则，各字母位置及高度错落，保留完整艺术字造型。",
+      "label": "白色手绘标题“Life Updates”，笔画粗细和字母形状",
+      "method": "extract"
+    },
+    {
+      "id": "photo_forest",
+      "kind": "photo",
+      "bbox": [
+        645,
+        352,
+        1026,
+        612
+      ],
+      "description": "一名卷曲长发女性的户外半身照片，面向镜头，穿蓝紫色外套及黄色内搭，人物位于照片中部偏右；保留身后的树林、树干及右侧灰色竖向结构。照片显示边缘略不规则，右上局部被白色人脸涂鸦遮挡，右下被橙色线条遮挡，不沿人物轮廓去背景。",
+      "label": "一名卷曲长发女性的户外半身照片，面向镜头，穿蓝紫色外套及黄色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_face",
+      "kind": "overlay",
+      "bbox": [
+        874,
+        233,
+        1064,
+        476
+      ],
+      "description": "白色细线手绘长卷发人脸，包含头发外轮廓、眉眼、鼻子、微笑嘴部和颈部线条；位于右上方，下部头发跨过树林照片的上沿。",
+      "label": "白色细线手绘长卷发人脸，包含头发外轮廓、眉眼、鼻子、微笑嘴部",
+      "method": "extract"
+    },
+    {
+      "id": "text_upper",
+      "kind": "text",
+      "bbox": [
+        112,
+        437,
+        717,
+        701
+      ],
+      "description": "1月至4月底，花了四个月写完论文\n再用一个月处理毕业琐事\n6月，从校园剧情线正式杀青\n7月，以职场新人身份入职\n完成了硬性身份转换\n——尽管心态上直到今天都没有调整好",
+      "label": "1月至4月底，花了四个月写完论文\n再用一个月处理毕业琐事\n6",
+      "method": "local",
+      "text": "1月至4月底，花了四个月写完论文\n再用一个月处理毕业琐事\n6月，从校园剧情线正式杀青\n7月，以职场新人身份入职\n完成了硬性身份转换\n——尽管心态上直到今天都没有调整好",
+      "text_status": "known",
+      "style": {
+        "fill": "#DDE7DC",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_orange_line",
+      "kind": "overlay",
+      "bbox": [
+        839,
+        539,
+        1080,
+        947
+      ],
+      "description": "画布右侧橙色粗线自由涂鸦，包含多个长弧和回环，上部跨在树林照片右下角，右侧部分延伸到画布外并被裁切；全部连续线条作为一个装饰保留。",
+      "label": "画布右侧橙色粗线自由涂鸦，包含多个长弧和回环，上部跨在树林照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_transition",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        762,
+        710,
+        854
+      ],
+      "description": "白色手绘标题“The Transition”，粗圆笔画、字母高度与基线不规则，保留整组艺术字的特定造型和排布。",
+      "label": "白色手绘标题“The Transition”，粗圆笔画、字母",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_crown",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        729,
+        748,
+        783
+      ],
+      "description": "黄色实心手绘小皇冠，具有不规则尖顶和略倾斜的底边，独立位于英文标题右上方。",
+      "label": "黄色实心手绘小皇冠，具有不规则尖顶和略倾斜的底边，独立位于英",
+      "method": "extract"
+    },
+    {
+      "id": "photo_seated",
+      "kind": "photo",
+      "bbox": [
+        24,
+        894,
+        391,
+        1277
+      ],
+      "description": "一名黑色长发女性坐姿照片，抬眼看向镜头，穿黑色上衣和黑白格纹长裤，手持透明饮料杯；完整组合包括人物、杯子、交叠腿部以及身后的灰白色座椅和靠垫。组合沿外轮廓去除摄影环境，外围有连续白色粗描边，底部保留鞋脚及椅边，不与上方照片关联。",
+      "label": "一名黑色长发女性坐姿照片，抬眼看向镜头，穿黑色上衣和黑白格纹",
+      "method": "local"
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        455,
+        947,
+        1010,
+        1120
+      ],
+      "description": "在公司宿舍住满一个月后果断搬出来\n找到了属于自己的小空间\n一个人住 意味着同时拥有了\n“孤独的自由”和“热闹的自主权”",
+      "label": "在公司宿舍住满一个月后果断搬出来\n找到了属于自己的小空间\n一",
+      "method": "local",
+      "text": "在公司宿舍住满一个月后果断搬出来\n找到了属于自己的小空间\n一个人住 意味着同时拥有了\n“孤独的自由”和“热闹的自主权”",
+      "text_status": "known",
+      "style": {
+        "fill": "#DDE7DC",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        325,
+        1193,
+        712,
+        1412
+      ],
+      "description": "开始早睡早起，按部就班\n在规则里运转\n也用自己赚来的劳动所得\n在有限的空间里\n奔赴一些自己喜欢的事物",
+      "label": "开始早睡早起，按部就班\n在规则里运转\n也用自己赚来的劳动所得",
+      "method": "local",
+      "text": "开始早睡早起，按部就班\n在规则里运转\n也用自己赚来的劳动所得\n在有限的空间里\n奔赴一些自己喜欢的事物",
+      "text_status": "known",
+      "style": {
+        "fill": "#DDE7DC",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_figures",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        1186,
+        1080,
+        1407
+      ],
+      "description": "右下角浅灰白色线描双人涂鸦，两个人形并肩相接，分别带笑脸、伸展手臂和双腿，外侧手中各有一个倾斜的空心四边形；整组相连人物及附属线条共同保留，最右侧略受画布裁切。",
+      "label": "右下角浅灰白色线描双人涂鸦，两个人形并肩相接，分别带笑脸、伸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1052,
+        1413,
+        1077,
+        1433
+      ],
+      "description": "右下角极小的浅蓝色半透明方形标记，内有难以辨认的小字或图形，作为独立固定标记保留。",
+      "label": "右下角极小的浅蓝色半透明方形标记，内有难以辨认的小字或图形，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_dots",
+    "photo_forest",
+    "overlay_life_updates",
+    "overlay_face",
+    "text_upper",
+    "overlay_orange_line",
+    "overlay_transition",
+    "overlay_crown",
+    "photo_seated",
+    "text_middle",
+    "text_bottom",
+    "overlay_figures",
+    "overlay_watermark"
+  ]
+}

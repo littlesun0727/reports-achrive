@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1919
+  ],
+  "objects": [
+    {
+      "id": "background_dots",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1919
+      ],
+      "description": "深棕色织物质感底图，均匀散布米白色大圆点，纹理与圆点延续至画布四边，并在中央装饰四周连续可见。保留底色、布纹及圆点，清除独立照片和中央固定设计单元。",
+      "background_type": "reference_clean",
+      "label": "深棕色织物质感底图，均匀散布米白色大圆点，纹理与圆点延续至画",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_lace",
+      "kind": "frame",
+      "bbox": [
+        57,
+        275,
+        1016,
+        1666
+      ],
+      "description": "米白色长方形蕾丝照片框，外围由连续扇形花边、镂空圆孔及细密花纹构成，内侧为围绕照片的宽米白色纸边。完整保留蕾丝及内侧纸框；下部被棕色信封遮住，照片内口下沿无法直接看清。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "米白色长方形蕾丝照片框，外围由连续扇形花边、镂空圆孔及细密花",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        241,
+        485,
+        850,
+        1487
+      ],
+      "description": "竖向餐厅人物照片，一位留深色长直发和刘海的年轻女性居中面对镜头，双手托着浅色餐盘，盘中有点燃蜡烛的小蛋糕。保留人物、餐盘、火焰和身后的桌椅、吧台等摄影环境，无沿主体轮廓去背景。显示窗口上沿及左右沿由米白纸框确定，下部被信封遮挡；下沿依据纸框内口估计，具体裁切位置不可见。",
+      "label": "竖向餐厅人物照片，一位留深色长直发和刘海的年轻女性居中面对镜",
+      "method": "local"
+    },
+    {
+      "id": "overlay_envelope",
+      "kind": "overlay",
+      "bbox": [
+        189,
+        963,
+        893,
+        1538
+      ],
+      "description": "覆盖照片下部的棕色纸信封装饰，保留两侧斜向折片、中央交叠折线、纸张明暗和完整底边。正面带米白色花体“Happy Birthday”，分两行，具有特定连笔与长笔画，随信封整体保留。它在此处作为遮挡照片的独立前景装饰，不另建立照片窗口；中央圆形封印单列。",
+      "label": "覆盖照片下部的棕色纸信封装饰，保留两侧斜向折片、中央交叠折线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_seal",
+      "kind": "overlay",
+      "bbox": [
+        496,
+        1223,
+        585,
+        1311
+      ],
+      "description": "信封折片交会处的米金色圆形封印，边缘略不规则，中央有压印式花卉纹样，保留凸起质感、边缘及投影。封印具有独立外轮廓，叠在信封上方。",
+      "label": "信封折片交会处的米金色圆形封印，边缘略不规则，中央有压印式花",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_dots",
+    "photo_portrait",
+    "frame_lace",
+    "overlay_envelope",
+    "overlay_seal"
+  ]
+}

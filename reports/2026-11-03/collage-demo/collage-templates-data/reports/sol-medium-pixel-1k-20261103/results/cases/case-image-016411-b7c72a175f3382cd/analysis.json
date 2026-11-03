@@ -1,0 +1,444 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "background_blue",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "覆盖全画布的深蓝色印刷纹理底图，带密集青蓝网点、颗粒、磨损及细小浅色杂点；四边和拼贴间隙中的纹理连续。保留此固定底图，建筑照片、撕纸载体及独立文字装饰另行记录。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的深蓝色印刷纹理底图，带密集青蓝网点、颗粒、磨损及",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        30,
+        326,
+        606,
+        1124
+      ],
+      "description": "左侧橙黄色撕纸承托单元，具有不规则米白纸边、印刷颗粒和磨损，承载东方明珠及陆家嘴建筑照片。右侧部分被前景建筑遮挡；橙色区域不是摄影天空。",
+      "photo_id": [
+        "photo_lujiazui"
+      ],
+      "label": "左侧橙黄色撕纸承托单元，具有不规则米白纸边、印刷颗粒和磨损，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lujiazui",
+      "kind": "photo",
+      "bbox": [
+        39,
+        105,
+        600,
+        1072
+      ],
+      "description": "东方明珠与周围陆家嘴楼群的滨江远景，无人物。完整组合包含高耸塔尖、楼群、岸边树木、船只和下方江面；天空沿建筑轮廓去除，露出橙色纸张。塔尖延伸至标题区域并被文字遮挡，右侧楼群被前景酒店遮挡，江面下沿呈撕裂状。照片带暖黄、黑色颗粒的复古印刷观感。",
+      "label": "东方明珠与周围陆家嘴楼群的滨江远景，无人物。完整组合包含高耸",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        590,
+        344,
+        1055,
+        1116
+      ],
+      "description": "右侧纵向橙色撕纸承托单元，保留米白毛糙纸边、橙色印刷纹理及细小磨损，承载上海中心与环球金融中心照片。下半部被前景酒店大面积覆盖。",
+      "photo_id": [
+        "photo_towers"
+      ],
+      "label": "右侧纵向橙色撕纸承托单元，保留米白毛糙纸边、橙色印刷纹理及细",
+      "method": "extract"
+    },
+    {
+      "id": "photo_towers",
+      "kind": "photo",
+      "bbox": [
+        640,
+        379,
+        982,
+        990
+      ],
+      "description": "上海中心大厦与上海环球金融中心的仰视建筑照片，无人物，保留灰白云天。上海中心位于右侧，环球金融中心位于左下；照片显示边缘为不规则撕纸状，外围露出橙色载体。下部被前景酒店遮挡，完整下沿位置存在遮挡不确定性；整体带复古颗粒印刷质感。",
+      "label": "上海中心大厦与上海环球金融中心的仰视建筑照片，无人物，保留灰",
+      "method": "local"
+    },
+    {
+      "id": "frame_bund",
+      "kind": "frame",
+      "bbox": [
+        40,
+        1057,
+        552,
+        1389
+      ],
+      "description": "左下外滩照片的米白撕纸承托边，保留粗糙纸纤维、参差下沿和浅色纸张质感；右侧被前景酒店遮住，不包含内口中的建筑与天空。",
+      "photo_id": [
+        "photo_bund"
+      ],
+      "label": "左下外滩照片的米白撕纸承托边，保留粗糙纸纤维、参差下沿和浅色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bund",
+      "kind": "photo",
+      "bbox": [
+        42,
+        1024,
+        552,
+        1367
+      ],
+      "description": "左下外滩历史建筑群的横向远景，中央偏左有钟楼，周围排列石材建筑，下方保留道路与沿岸景物，无清晰人物主体。保留灰蓝天空，钟楼尖顶高于主要照片上缘；上下边缘呈撕纸状，右部被前景酒店遮挡。照片为暖灰黄色颗粒印刷观感。",
+      "label": "左下外滩历史建筑群的横向远景，中央偏左有钟楼，周围排列石材建",
+      "method": "local"
+    },
+    {
+      "id": "photo_hotel",
+      "kind": "photo",
+      "bbox": [
+        487,
+        658,
+        1074,
+        1410
+      ],
+      "description": "前景大型转角历史酒店建筑，暖棕砖墙、弧形屋顶、窗户、阳台与底层拱门连续组成同一摄影主体，右侧附带相邻建筑，下方保留道路和车辆。天空沿屋顶及建筑外轮廓去除，覆盖后方两组楼群与左下外滩照片；底部道路呈不规则撕纸边并带米白纸状边缘。无独立出框关联，整体带复古颗粒与高对比印刷效果。",
+      "label": "前景大型转角历史酒店建筑，暖棕砖墙、弧形屋顶、窗户、阳台与底",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_watermark",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        26,
+        200,
+        97
+      ],
+      "description": "左上角低透明度灰蓝色圆角矩形标记，内部可辨“AI生成”，保留边框、原有字形和半透明印记，位于Citywalk文字后方。",
+      "label": "左上角低透明度灰蓝色圆角矩形标记，内部可辨“AI生成”，保留",
+      "method": "extract"
+    },
+    {
+      "id": "text_citywalk",
+      "kind": "text",
+      "bbox": [
+        62,
+        61,
+        188,
+        92
+      ],
+      "description": "Citywalk",
+      "label": "Citywalk",
+      "method": "local",
+      "text": "Citywalk",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFD268",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_top_english",
+      "kind": "text",
+      "bbox": [
+        642,
+        61,
+        1017,
+        92
+      ],
+      "description": "ShanghaiLujiazui The Bund",
+      "label": "ShanghaiLujiazui The Bund",
+      "method": "local",
+      "text": "ShanghaiLujiazui The Bund",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFD268",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_main_title",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        105,
+        1029,
+        261
+      ],
+      "description": "巨大的米黄色“上海城市漫游”艺术标题，字形厚重、向右倾斜，保留特定切角、笔画比例和细微斑驳印刷纹理；作为完整标题设计保留，覆盖东方明珠塔尖的一部分。",
+      "label": "巨大的米黄色“上海城市漫游”艺术标题，字形厚重、向右倾斜，保",
+      "method": "extract"
+    },
+    {
+      "id": "text_main_english",
+      "kind": "text",
+      "bbox": [
+        52,
+        275,
+        1028,
+        383
+      ],
+      "description": "ShanghaiCityWander",
+      "label": "ShanghaiCityWander",
+      "method": "local",
+      "text": "ShanghaiCityWander",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF0BC",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_follow_title",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        1438,
+        288,
+        1517
+      ],
+      "description": "左下“随心 热爱”固定标题组合，米黄色大字“随心”与右下较小白色“热爱”形成高低错落排版；保留粗厚特殊笔画及字间位置，不包含下方英文。",
+      "label": "左下“随心 热爱”固定标题组合，米黄色大字“随心”与右下较小",
+      "method": "extract"
+    },
+    {
+      "id": "text_follow",
+      "kind": "text",
+      "bbox": [
+        61,
+        1526,
+        277,
+        1557
+      ],
+      "description": "Follow your heart",
+      "label": "Follow your heart",
+      "method": "local",
+      "text": "Follow your heart",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_separator_left",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        1456,
+        321,
+        1510
+      ],
+      "description": "底部第一处分隔线，细长米白色竖线，独立分隔左侧“随心”与中间“外滩”文字区域。",
+      "label": "底部第一处分隔线，细长米白色竖线，独立分隔左侧“随心”与中间",
+      "method": "extract"
+    },
+    {
+      "id": "text_aimless_chinese",
+      "kind": "text",
+      "bbox": [
+        375,
+        1396,
+        505,
+        1432
+      ],
+      "description": "漫无目的",
+      "label": "漫无目的",
+      "method": "local",
+      "text": "漫无目的",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DF",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bund_title",
+      "kind": "overlay",
+      "bbox": [
+        355,
+        1438,
+        514,
+        1516
+      ],
+      "description": "米黄色“外滩”粗体艺术字，保留略带倾斜的特定笔画、切角和斑驳印刷外观，独立于上下两行普通文字。",
+      "label": "米黄色“外滩”粗体艺术字，保留略带倾斜的特定笔画、切角和斑驳",
+      "method": "extract"
+    },
+    {
+      "id": "text_aimless",
+      "kind": "text",
+      "bbox": [
+        386,
+        1526,
+        483,
+        1556
+      ],
+      "description": "Aimless",
+      "label": "Aimless",
+      "method": "local",
+      "text": "Aimless",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_separator_right",
+      "kind": "overlay",
+      "bbox": [
+        552,
+        1456,
+        558,
+        1510
+      ],
+      "description": "底部第二处分隔线，细长米白色竖线，独立分隔“外滩”与“陆家嘴”文字区域。",
+      "label": "底部第二处分隔线，细长米白色竖线，独立分隔“外滩”与“陆家嘴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lujiazui_title",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        1438,
+        820,
+        1515
+      ],
+      "description": "米黄色“陆家嘴”粗厚艺术字，保留原有紧密字距、特殊笔画和印刷质感，不包含下方英文。",
+      "label": "米黄色“陆家嘴”粗厚艺术字，保留原有紧密字距、特殊笔画和印刷",
+      "method": "extract"
+    },
+    {
+      "id": "text_bund_lujiazui",
+      "kind": "text",
+      "bbox": [
+        629,
+        1526,
+        849,
+        1557
+      ],
+      "description": "The Bund Lujiazui",
+      "label": "The Bund Lujiazui",
+      "method": "local",
+      "text": "The Bund Lujiazui",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_modern_title",
+      "kind": "overlay",
+      "bbox": [
+        865,
+        1438,
+        1028,
+        1516
+      ],
+      "description": "右下米黄色“摩登”艺术字，保留粗厚且略倾斜的独特字形、笔画比例和印刷外观。",
+      "label": "右下米黄色“摩登”艺术字，保留粗厚且略倾斜的独特字形、笔画比",
+      "method": "extract"
+    },
+    {
+      "id": "text_modern",
+      "kind": "text",
+      "bbox": [
+        905,
+        1527,
+        1002,
+        1557
+      ],
+      "description": "Modern",
+      "label": "Modern",
+      "method": "local",
+      "text": "Modern",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFF8DF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bottom_watermark",
+      "kind": "overlay",
+      "bbox": [
+        833,
+        1537,
+        1048,
+        1594
+      ],
+      "description": "右下浅灰白色半透明品牌水印，由左侧飘带形图标和“即梦AI”特殊字形组成，保留整组标志及透明空隙，局部与底部英文区域相叠。",
+      "label": "右下浅灰白色半透明品牌水印，由左侧飘带形图标和“即梦AI”特",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_blue",
+    "frame_left",
+    "frame_right",
+    "photo_lujiazui",
+    "photo_towers",
+    "frame_bund",
+    "photo_bund",
+    "photo_hotel",
+    "overlay_top_watermark",
+    "text_citywalk",
+    "text_top_english",
+    "overlay_main_title",
+    "text_main_english",
+    "overlay_follow_title",
+    "text_follow",
+    "overlay_separator_left",
+    "text_aimless_chinese",
+    "overlay_bund_title",
+    "text_aimless",
+    "overlay_separator_right",
+    "overlay_lujiazui_title",
+    "text_bund_lujiazui",
+    "overlay_modern_title",
+    "text_modern",
+    "overlay_bottom_watermark"
+  ]
+}

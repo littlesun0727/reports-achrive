@@ -1,0 +1,241 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "连续的浅米色纸张底图覆盖整张画布，四边和拼贴元素间隙都显示相同的细微纸纹与旧化颗粒；人物、物件、彩色纸形、网格和标签均为上层独立单元，底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "overlay_grid",
+      "kind": "overlay",
+      "bbox": [
+        119,
+        153,
+        968,
+        646
+      ],
+      "description": "覆盖后方区域的细线方格纸图案，包含完整网格、边缘刻度和淡色印刷痕迹，作为独立固定设计单元保留。"
+    },
+    {
+      "id": "overlay_yellow_shape",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        173,
+        959,
+        889
+      ],
+      "description": "后方不规则黄色纸形与涂刷块，沿画布中部和右下方露出，包含完整的撕裂边缘及被其他单元遮挡的连续区域。"
+    },
+    {
+      "id": "overlay_red_shape",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        272,
+        923,
+        1019
+      ],
+      "description": "后方大面积鲜红色不规则纸形，覆盖中部、右侧和下方区域，保留其弯曲轮廓、局部尖角和被照片遮挡的完整设计范围。"
+    },
+    {
+      "id": "overlay_white_top",
+      "kind": "overlay",
+      "bbox": [
+        501,
+        20,
+        750,
+        197
+      ],
+      "description": "上方物件后面的白色撕纸底片，边缘不规则并带有纸张质感，作为独立固定纸片保留。"
+    },
+    {
+      "id": "overlay_white_left",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        631,
+        164,
+        650
+      ],
+      "description": "左侧露出的狭长白色撕纸条，位于网格和拼贴形状之间，保留其不规则边缘。"
+    },
+    {
+      "id": "overlay_white_bottom",
+      "kind": "overlay",
+      "bbox": [
+        219,
+        965,
+        466,
+        1035
+      ],
+      "description": "底部中央露出的白色撕纸片，部分被主照片和文字遮挡，保留可见纸张纹理与撕裂轮廓。"
+    },
+    {
+      "id": "overlay_ticket_left",
+      "kind": "overlay",
+      "bbox": [
+        222,
+        279,
+        444,
+        468
+      ],
+      "description": "左上中部的黄色票据与红色边缘纸卡组合，含黑色编号、竖排印字、邮戳和手写痕迹；文字与纸张属于同一固定票据单元。"
+    },
+    {
+      "id": "overlay_plate_top",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        138,
+        458,
+        216
+      ],
+      "description": "顶部偏左的深绿色车牌样标签，含白色编号、红色小栏和黄色小标，完整保留其矩形轮廓与印刷内容。"
+    },
+    {
+      "id": "overlay_label_black",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        262,
+        452,
+        280
+      ],
+      "description": "黄色票据上方横向的黑色窄标签，含白色小写字样和分隔点，作为带字固定标签整体保留。"
+    },
+    {
+      "id": "overlay_plate_blue",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        518,
+        328,
+        599
+      ],
+      "description": "左侧中部的蓝色车牌样标签，含人物图案、白色大号数字和多行小字，完整保留其纸卡边缘与印刷设计。"
+    },
+    {
+      "id": "overlay_label_york",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        588,
+        224,
+        613
+      ],
+      "description": "左侧横向黑底白字标签，显示可辨识的 THE YORK 字样，带有固定纸条轮廓和轻微印刷磨损。"
+    },
+    {
+      "id": "overlay_news_clipping",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        422,
+        935,
+        540
+      ],
+      "description": "右侧红黄色区域上的报纸剪报与黑色色块组合，含横向和竖向新闻文字、紫色日期字样及矩形色块；文字随固定剪报载体保留。"
+    },
+    {
+      "id": "overlay_plate_bottom",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        754,
+        976,
+        821
+      ],
+      "description": "右下方深红色车牌样标签，含白色 FEB MISSOURI 字样和大号编号，作为独立固定标签保留。"
+    },
+    {
+      "id": "overlay_bottom_typography",
+      "kind": "overlay",
+      "bbox": [
+        169,
+        901,
+        514,
+        974
+      ],
+      "description": "底部左侧露出的浅蓝绿色大型艺术字与数字组合，字形、间距和残缺遮挡共同构成固定装饰，不拆分为普通文字。"
+    },
+    {
+      "id": "overlay_caption_strip",
+      "kind": "overlay",
+      "bbox": [
+        403,
+        937,
+        625,
+        963
+      ],
+      "description": "底部主照片前方的黑色窄字幕条，含一行小号白色德文印刷字，文字与黑色纸条作为整体固定单元保留。"
+    },
+    {
+      "id": "photo_main_woman",
+      "kind": "photo",
+      "bbox": [
+        108,
+        205,
+        852,
+        941
+      ],
+      "description": "中央大幅黑白人物照片，包含一名戴圆点帽、穿浅色衬衣并坐在椅子上的女性，人物身体、手臂、手部、衣物、椅子和可见黑白摄影质感共同构成完整主体组合；主体沿不规则轮廓显示，摄影背景基本去除，边缘带有纸张式拼贴效果。"
+    },
+    {
+      "id": "photo_upper_objects",
+      "kind": "photo",
+      "bbox": [
+        407,
+        28,
+        810,
+        459
+      ],
+      "description": "中央上方独立的黑白物件照片，包含多件交叠的鞋子、织物、纸片和金属或塑料物件，整体沿不规则剪贴轮廓显示并压在主人物照片上；照片内容作为一个可替换物件组合保留。"
+    },
+    {
+      "id": "overlay_upper_caption",
+      "kind": "overlay",
+      "bbox": [
+        458,
+        221,
+        658,
+        319
+      ],
+      "description": "斜置在上方黑白物件照片前的浅灰纸条，含大号浅色印字和深色下缘，作为独立带字纸片整体保留。"
+    },
+    {
+      "id": "photo_children_group",
+      "kind": "photo",
+      "bbox": [
+        670,
+        582,
+        935,
+        978
+      ],
+      "description": "右下方独立黑白人物照片，包含一名站立成年男性和三名儿童，人物朝向与姿态各不相同，脚部和衣物完整可见；摄影背景去除，沿人物组合轮廓显示，并覆盖中央照片及下方彩色纸形。"
+    }
+  ],
+  "layer_order": [
+    "overlay_grid",
+    "overlay_yellow_shape",
+    "overlay_red_shape",
+    "overlay_white_top",
+    "overlay_white_left",
+    "overlay_white_bottom",
+    "overlay_ticket_left",
+    "overlay_plate_top",
+    "overlay_label_black",
+    "overlay_plate_blue",
+    "overlay_label_york",
+    "overlay_news_clipping",
+    "overlay_plate_bottom",
+    "overlay_bottom_typography",
+    "photo_main_woman",
+    "photo_upper_objects",
+    "overlay_upper_caption",
+    "photo_children_group",
+    "overlay_caption_strip"
+  ]
+}

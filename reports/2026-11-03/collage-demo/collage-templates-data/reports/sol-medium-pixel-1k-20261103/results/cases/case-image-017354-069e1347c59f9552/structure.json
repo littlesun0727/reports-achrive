@@ -1,0 +1,156 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "全画布为带斑驳颗粒和污点的浅米白纸张底图，顶部左侧露出大型浅灰米色字样“GARD”局部，底部右侧露出大型“DESIGN”字样；中央摄影画面遮挡了部分背景文字，纸张纹理和固定大字保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main_scene",
+      "kind": "photo",
+      "bbox": [
+        119,
+        121,
+        980,
+        1268
+      ],
+      "description": "竖向室内摄影画面，灰色混凝土墙、地面、木桌、椅子和植物叶片构成完整环境；右侧一名年轻女性坐在椅子上，穿红色开衫、黑色短裙、白色长袜和红色鞋子，右臂举起外带咖啡杯，身体朝向镜头。画面保留摄影环境和人物，不去除背景；四周带细白色矩形描边，显示范围被上层照片卡片和装饰局部遮挡。"
+    },
+    {
+      "id": "photo_polaroid_upper",
+      "kind": "photo",
+      "bbox": [
+        225,
+        482,
+        462,
+        708
+      ],
+      "description": "上方倾斜拍立得窗口内的独立照片，一名年轻女性坐在室内，穿红色上衣并手持咖啡杯，人物位于照片中央偏右，保留室内背景和桌面环境；照片按白色卡片内口显示，外缘被固定相纸框包围。"
+    },
+    {
+      "id": "frame_polaroid_upper",
+      "kind": "frame",
+      "bbox": [
+        208,
+        467,
+        490,
+        782
+      ],
+      "description": "上方倾斜的白色拍立得相纸卡片，包含宽白边、矩形照片内口和下方留白区域，承载上方独立人物照片；卡片边角和倾斜后的完整范围保留。",
+      "photo_id": [
+        "photo_polaroid_upper"
+      ]
+    },
+    {
+      "id": "photo_polaroid_lower",
+      "kind": "photo",
+      "bbox": [
+        316,
+        765,
+        563,
+        1008
+      ],
+      "description": "下方倾斜拍立得窗口内的独立照片，一名年轻女性穿红色开衫坐在室内，双手附近可见包装食品，人物位于画面中央，保留照片内的暗色室内环境；照片按白色卡片内口显示。"
+    },
+    {
+      "id": "frame_polaroid_lower",
+      "kind": "frame",
+      "bbox": [
+        295,
+        741,
+        585,
+        1082
+      ],
+      "description": "下方倾斜的白色拍立得相纸卡片，包含宽白边、矩形照片内口和下方留白区域，承载下方独立人物照片；完整卡片边角、边框和阴影保留。",
+      "photo_id": [
+        "photo_polaroid_lower"
+      ]
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        416,
+        246,
+        566
+      ],
+      "description": "左侧悬挂的黑色小型手持摄像设备，包含镜头、机身、握柄和细小标记，作为独立固定装饰叠放在主摄影画面及上方照片卡片左侧。"
+    },
+    {
+      "id": "overlay_scarf",
+      "kind": "overlay",
+      "bbox": [
+        408,
+        408,
+        493,
+        567
+      ],
+      "description": "上方照片卡片附近悬挂的白色针织围巾或衣物，布面印有重复红色小心形图案，顶部呈弧形并带有下垂褶皱，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_cardigan",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        742,
+        329,
+        927
+      ],
+      "description": "左下方悬挂展示的红色针织开衫，包含衣领、长袖、纽扣和衣标，作为独立服装装饰保留；其右侧部分被下方拍立得卡片遮挡。"
+    },
+    {
+      "id": "overlay_shoes",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        981,
+        340,
+        1074
+      ],
+      "description": "左下方成对摆放的红色系带鞋，包含鞋带、鞋底和金属装饰，作为独立固定服装配件保留；位于下方拍立得卡片左下侧。"
+    },
+    {
+      "id": "overlay_title_script",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        239,
+        624,
+        315
+      ],
+      "description": "主摄影画面上方的红色手写花体字样“New look for”，具有明显连笔、粗细变化和装饰性笔画，作为完整艺术字单元保留。"
+    },
+    {
+      "id": "text_brand",
+      "kind": "text",
+      "bbox": [
+        308,
+        315,
+        608,
+        357
+      ],
+      "text": "benmingnian",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main_scene",
+    "frame_polaroid_upper",
+    "photo_polaroid_upper",
+    "frame_polaroid_lower",
+    "photo_polaroid_lower",
+    "overlay_cardigan",
+    "overlay_shoes",
+    "overlay_scarf",
+    "overlay_camera",
+    "overlay_title_script",
+    "text_brand"
+  ]
+}

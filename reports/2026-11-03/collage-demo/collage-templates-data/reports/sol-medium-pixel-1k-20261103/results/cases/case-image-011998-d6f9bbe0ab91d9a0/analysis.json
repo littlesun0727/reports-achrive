@@ -1,0 +1,184 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_dots",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为浅粉色底上规则错列的灰褐色圆点图案，四边及中央相纸周围连续可见。保留底色与圆点纹理，中央照片、相纸及独立贴纸不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅粉色底上规则错列的灰褐色圆点图案，四边及中央相纸周",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        255,
+        232,
+        832,
+        1053
+      ],
+      "description": "单人竖幅坐姿中近景照片：长棕发女子穿米色针织衣，双手靠在脸颊两侧，面向镜头；右下有粉白格纹、蓝色包边的包。保留身后的车窗、蓝色天空、树影与座椅，人物和包均属于摄影内容。完整矩形显示内口的部分边缘被星星贴纸遮挡，没有沿人物轮廓去背景。",
+      "label": "单人竖幅坐姿中近景照片：长棕发女子穿米色针织衣，双手靠在脸颊",
+      "method": "local"
+    },
+    {
+      "id": "frame_dotted",
+      "kind": "frame",
+      "bbox": [
+        168,
+        155,
+        912,
+        1290
+      ],
+      "description": "竖向白色相纸框，表面均匀散布浅粉圆点，四周有细灰边和轻微阴影。上方及两侧留白较窄，下方留白宽，中央只有一个矩形照片内口，内口边缘有暗色细线。圆点随框体保留，叠贴的星星、心形气泡和小狗另列。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "竖向白色相纸框，表面均匀散布浅粉圆点，四周有细灰边和轻微阴影",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        308,
+        240,
+        458
+      ],
+      "description": "左上独立粉色对话气泡贴纸，细灰黑轮廓，右下带尖尾，内部为黑色手绘实心爱心，保留笔触和纸面质感。贴纸跨过相纸左边缘。",
+      "label": "左上独立粉色对话气泡贴纸，细灰黑轮廓，右下带尖尾，内部为黑色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        399,
+        206,
+        466,
+        269
+      ],
+      "description": "照片上沿偏左的小型粉色五角星贴纸，中央有灰色小星，带浅暗投影，跨在照片与相纸的交界上，完整作为一个单元保留。",
+      "label": "照片上沿偏左的小型粉色五角星贴纸，中央有灰色小星，带浅暗投影",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        779,
+        181,
+        889,
+        284
+      ],
+      "description": "相纸右上角的大灰色五角星贴纸，中央嵌粉色小星，边缘带阴影，覆盖照片右上角边界和相纸上部。",
+      "label": "相纸右上角的大灰色五角星贴纸，中央嵌粉色小星，边缘带阴影，覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        505,
+        288,
+        566
+      ],
+      "description": "照片左侧中上部的小灰色五角星贴纸，中央有粉色小星，跨压照片左边界，保留完整星形及边缘阴影。",
+      "label": "照片左侧中上部的小灰色五角星贴纸，中央有粉色小星，跨压照片左",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        792,
+        627,
+        859,
+        691
+      ],
+      "description": "照片右侧中部的粉色五角星贴纸，中央有灰色小星，带轻微阴影，覆盖照片右边界与相纸。",
+      "label": "照片右侧中部的粉色五角星贴纸，中央有灰色小星，带轻微阴影，覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        822,
+        290,
+        884
+      ],
+      "description": "照片左侧下部的小粉色五角星贴纸，中央有灰色小星，跨压照片左边界，完整保留轮廓与浅暗阴影。",
+      "label": "照片左侧下部的小粉色五角星贴纸，中央有灰色小星，跨压照片左边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        741,
+        984,
+        889,
+        1128
+      ],
+      "description": "照片右下角的大粉色五角星贴纸，中央为灰色小星，上部压住照片中的包和照片下边缘，下部伸入相纸留白，保留轮廓及阴影。",
+      "label": "照片右下角的大粉色五角星贴纸，中央为灰色小星，上部压住照片中",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        227,
+        1071,
+        348,
+        1191
+      ],
+      "description": "相纸下方留白左侧的大灰色五角星贴纸，中央为粉色小星，完整独立显示，不承担照片窗口功能。",
+      "label": "相纸下方留白左侧的大灰色五角星贴纸，中央为粉色小星，完整独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        708,
+        1136,
+        999,
+        1312
+      ],
+      "description": "右下角手绘小狗头贴纸，淡奶黄色脸、两只粉色垂耳、灰黑细轮廓，黑色眼鼻与两侧青色蝴蝶结点缀组成完整单元。跨压相纸右边和下边，伸入圆点底图。",
+      "label": "右下角手绘小狗头贴纸，淡奶黄色脸、两只粉色垂耳、灰黑细轮廓，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_dots",
+    "photo_portrait",
+    "frame_dotted",
+    "overlay_heart",
+    "overlay_star_top",
+    "overlay_star_upper_right",
+    "overlay_star_left_middle",
+    "overlay_star_right_middle",
+    "overlay_star_left_lower",
+    "overlay_star_bottom_right",
+    "overlay_star_bottom_left",
+    "overlay_dog"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_gradient",
+    "description": "全画布为从顶部近黑色逐渐过渡至底部浅灰橄榄色的连续渐变底图，四周及照片之间的空隙均露出该渐变。保留渐变原样，独立照片、文字标签及水印不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_tree",
+      "kind": "photo",
+      "bbox": [
+        141,
+        174,
+        1014,
+        1049
+      ],
+      "description": "上方近方形夜间树木照片，仰拍一棵树的粗树干和大片绿黄树叶，闪光照亮枝叶；保留黑色夜空、院墙、右侧窗户及屋顶设备等完整摄影环境，无人物。树干在下边缘被裁切，左下局部被独立文字标签遮挡。"
+    },
+    {
+      "id": "photo_lower_street",
+      "kind": "photo",
+      "bbox": [
+        33,
+        1074,
+        757,
+        1798
+      ],
+      "description": "左下近方形夜间街边照片，近处绿黄枝叶占据左侧及下缘，左上为建筑墙面与门口，中上有树干，右侧为暖黄色路灯照明的道路和落叶，远处可见很小的行人。保留完整摄影环境；右侧中段被另一张路面照片覆盖，显示窗口不缩为剩余可见区域。"
+    },
+    {
+      "id": "photo_right_leaves",
+      "kind": "photo",
+      "bbox": [
+        636,
+        1185,
+        1080,
+        1690
+      ],
+      "description": "右下独立竖向路面照片，画面中心是深色沥青步道，两侧和下部堆积暖黄色落叶，右下有少量绿色叶片，无可辨人物。保留路面与落叶的摄影环境；矩形左边及下边形成明确接缝，覆盖左下照片右侧，右边延伸至画布边缘。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        998,
+        298,
+        1033
+      ],
+      "description": "黑色横向矩形文字标签，内含白色字样“人工落叶是这样的”。黑底和文字作为完整固定单元保留，横跨渐变底图与上方照片的左下部。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1894,
+        1077,
+        1915
+      ],
+      "description": "右下角极浅色的小型圆角水印标识，包含微小字形，辨识度较低；按完整固定标识保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_tree",
+    "photo_lower_street",
+    "photo_right_leaves",
+    "overlay_caption",
+    "overlay_watermark"
+  ]
+}

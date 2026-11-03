@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    864,
+    1152
+  ],
+  "objects": [
+    {
+      "id": "collage_paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        864,
+        1152
+      ],
+      "description": "连续铺满画布的复古拼贴底图，由米黄色纸张、撕裂报纸、旧广告、建筑街景、红绿纸片、印刷文字和纹理构成，内容延伸至四边并在主体周围连续可见。该固定底图保留原样，中央人物与动物照片独立叠加其上。",
+      "background_type": "reference_clean",
+      "label": "连续铺满画布的复古拼贴底图，由米黄色纸张、撕裂报纸、旧广告、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_walking_person_with_animals",
+      "kind": "photo",
+      "bbox": [
+        218,
+        230,
+        657,
+        1091
+      ],
+      "description": "单人全身抠图照片：一名穿棕色外套和长裤、背黑色手提包的人物位于画面中央，身体向右下方行走，头部转向左侧；肩部和胸前有一只橙色猫，身前及下方带有毛茸茸的犬类动物和红色牵引绳。人物、动物、包和牵引绳作为完整主体组合保留，摄影环境已去除，沿主体轮廓可见不规则浅黄色边缘和轻微阴影，与拼贴底图重叠。",
+      "label": "单人全身抠图照片：一名穿棕色外套和长裤、背黑色手提包的人物位",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "collage_paper_base",
+    "photo_walking_person_with_animals"
+  ]
+}

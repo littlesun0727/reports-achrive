@@ -1,0 +1,203 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    810,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        810,
+        1440
+      ],
+      "description": "连续的全画布港口摄影背景，包含暮色天空、海面、远处船只与码头，并在下半部呈现明显虚化；同一环境延伸至四边及五个竖向照片窗口之间，窗口和文字区域仅遮挡局部。",
+      "background_type": "photo",
+      "label": "连续的全画布港口摄影背景，包含暮色天空、海面、远处船只与码头",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        126,
+        351,
+        220,
+        807
+      ],
+      "description": "左侧竖向海港照片窗口，显示天空、远处海面和船只，保留矩形摄影环境；白色细描边与右下方阴影沿照片窗口附着。",
+      "label": "左侧竖向海港照片窗口，显示天空、远处海面和船只，保留矩形摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        239,
+        177,
+        335,
+        631
+      ],
+      "description": "左上较高的竖向海港照片窗口，显示天空、码头、船只和水面，摄影内容在窗口内完整替换；白色细描边与右下方阴影属于该照片显示效果。",
+      "label": "左上较高的竖向海港照片窗口，显示天空、码头、船只和水面，摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        358,
+        274,
+        454,
+        730
+      ],
+      "description": "中央竖向海港照片窗口，显示太阳能路灯、码头、夜间灯光、船只和水面，保留照片内摄影环境；白色描边和右下方阴影依附于窗口。",
+      "label": "中央竖向海港照片窗口，显示太阳能路灯、码头、夜间灯光、船只和",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        483,
+        179,
+        579,
+        634
+      ],
+      "description": "右上竖向海港照片窗口，显示天空、远处船只、码头灯光与水面，矩形窗口内保留摄影环境；白色细描边与右下方阴影随照片替换。",
+      "label": "右上竖向海港照片窗口，显示天空、远处船只、码头灯光与水面，矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        598,
+        357,
+        693,
+        811
+      ],
+      "description": "右侧竖向海港照片窗口，显示云层、海面和远处船只，保留完整窗口范围及摄影环境；白色描边与右下方阴影沿照片边缘呈现。",
+      "label": "右侧竖向海港照片窗口，显示云层、海面和远处船只，保留完整窗口",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title_bar",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        874,
+        266,
+        897
+      ],
+      "description": "标题上方的橙色横向矩形底板，作为独立固定装饰位于标题文字后方。",
+      "label": "标题上方的橙色横向矩形底板，作为独立固定装饰位于标题文字后方",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        104,
+        895,
+        372,
+        940
+      ],
+      "description": "TUMBUH",
+      "label": "TUMBUH",
+      "method": "local",
+      "text": "TUMBUH",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        112,
+        969,
+        532,
+        1098
+      ],
+      "description": "Belakangan ini hidupku nyaman, tapi sering\nmuncul pikiran \"ada yang salah dengan semua\nini\". Tapi apa? tidak kunjung ketemu.\n\nSampai aku sadar, aku sibuk menuai, aku lupa\nmenggemburkan tanah, menanam dan kegiatan\nmelelahkan lainnya.\n\nAku lupa untuk tumbuh",
+      "label": "Belakangan ini hidupku nyaman,",
+      "method": "local",
+      "text": "Belakangan ini hidupku nyaman, tapi sering\nmuncul pikiran \"ada yang salah dengan semua\nini\". Tapi apa? tidak kunjung ketemu.\n\nSampai aku sadar, aku sibuk menuai, aku lupa\nmenggemburkan tanah, menanam dan kegiatan\nmelelahkan lainnya.\n\nAku lupa untuk tumbuh",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_handle",
+      "kind": "text",
+      "bbox": [
+        113,
+        1164,
+        205,
+        1180
+      ],
+      "description": "@KUNTOAJI",
+      "label": "@KUNTOAJI",
+      "method": "local",
+      "text": "@KUNTOAJI",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "text_credit",
+      "kind": "text",
+      "bbox": [
+        113,
+        1237,
+        290,
+        1255
+      ],
+      "description": "Created by Hirupangin",
+      "label": "Created by Hirupangin",
+      "method": "local",
+      "text": "Created by Hirupangin",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_left",
+    "photo_upper_left",
+    "photo_center",
+    "photo_upper_right",
+    "photo_right",
+    "overlay_title_bar",
+    "text_title",
+    "text_body",
+    "text_handle",
+    "text_credit"
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "overlay_ribbon_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        293,
+        1056
+      ],
+      "description": "左侧银白色半透明纱带装饰，从画布顶边进入，沿左边形成扭转、蝴蝶结和垂落的弧形长尾；保留网纱纹理、透光层次和完整可见轮廓。下端向右延伸，在中央照片左缘后方被遮挡。"
+    },
+    {
+      "id": "overlay_ribbon_bottom",
+      "kind": "overlay",
+      "bbox": [
+        555,
+        1380,
+        1080,
+        1854
+      ],
+      "description": "右下方独立银白色纱带装饰，上端从中央照片下缘后方露出，向下形成结与宽大的回环，带尾横向延伸至画布右边并被截断；网纱纹理、折叠高光和半透明边缘整体保留。"
+    },
+    {
+      "id": "photo_birthday",
+      "kind": "photo",
+      "bbox": [
+        235,
+        558,
+        839,
+        1385
+      ],
+      "description": "中央竖向矩形生日照片，一名黑发女子穿黑色无袖服装，坐在桌后，低头闭眼微笑，双手托住脸颊。前景为白色奶油蛋糕、红色莓果、燃烧的细蜡烛和深红蝴蝶结，后方保留昏暗室内、灯光及陈设。完整摄影环境显示在矩形窗口内，没有沿人物轮廓去背景；照片边缘清晰，无独立相纸框体。"
+    },
+    {
+      "id": "overlay_title_top",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        103,
+        1033,
+        504
+      ],
+      "description": "顶部两行银白色艺术字“Happy Birthday”，具有大幅花体卷曲笔画、倾斜字形、颗粒闪光质感及依附笔画的星芒。两行共同构成完整标题装饰，保留其特殊字形和错落排布，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_title_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1416,
+        470,
+        1848
+      ],
+      "description": "左下角独立的两行银白色“Happy Birthday”花体装饰，左侧部分字形被画布边缘裁切。保留可见卷曲笔画、银色颗粒质感、星芒及两行错落布局，与顶部标题为两个独立显示位置。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1897,
+        1073,
+        1918
+      ],
+      "description": "右下角极小的暗灰色圆角胶囊状标记，内有难以辨认的深色字样；作为独立固定标记保留整体外形和内部印字。"
+    }
+  ],
+  "layer_order": [
+    "overlay_ribbon_left",
+    "overlay_ribbon_bottom",
+    "photo_birthday",
+    "overlay_title_top",
+    "overlay_title_bottom",
+    "overlay_watermark"
+  ]
+}

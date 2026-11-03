@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "calendar_base",
+    "description": "全画布为白底日历界面，顶部星期与日期栏、选中的蓝色日期、日期标题、小时刻度、横线及浅蓝色日程卡片构成连续固定模板；这些界面元素在照片间隙和四周保持一致，清除独立照片与说明字样后保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_pond",
+      "kind": "photo",
+      "bbox": [
+        264,
+        625,
+        620,
+        1002
+      ],
+      "description": "左侧竖向圆角照片，玻璃幕墙旁可见铺满浮叶的水池、石质步道及几位坐着或站着的人，保留完整摄影环境；照片右下区域被前景人像照片遮挡。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        578,
+        793,
+        934,
+        1167
+      ],
+      "description": "右侧横向圆角照片，一名身穿浅蓝传统服饰的年轻女性侧身低头整理发辫，头戴蓝白花饰；她位于画面中央偏左，身后可见树干与明亮绿植，摄影环境保留。照片覆盖左侧水池照片的右下部分，并压住下方合照的上缘。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        1030,
+        539,
+        1083
+      ],
+      "description": "两行黑色窄体装饰字样，内容为“A duo shot, lol - this / headpiece is so heavy!”；位于左侧水池照片下方、合照上方，字形风格明显，作为完整固定字样保留。"
+    },
+    {
+      "id": "photo_group",
+      "kind": "photo",
+      "bbox": [
+        369,
+        1110,
+        623,
+        1367
+      ],
+      "description": "下方竖向照片，两名身穿浅蓝与粉色传统服饰的年轻女性并肩入镜，抬手整理头饰；人物为户外近景，身后有树木与逆光，左侧另有一名人物的局部入镜，完整摄影环境保留，照片上缘被右侧人像照片遮挡。"
+    }
+  ],
+  "layer_order": [
+    "photo_pond",
+    "photo_group",
+    "photo_portrait",
+    "overlay_caption"
+  ]
+}

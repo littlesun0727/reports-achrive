@@ -1,0 +1,433 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "连续覆盖全画布的浅米白色纸张与柔和褶皱纹理，四周及照片间隙均可见同一纸面；独立照片、胶带、花朵和手绘装饰叠加其上，纸张纹理本身保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的浅米白色纸张与柔和褶皱纹理，四周及照片间隙均",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        27,
+        17,
+        411,
+        899
+      ],
+      "description": "左侧竖向全身照片，一名戴红格围巾、穿黑色外套的年轻女性站在户外木栈道上，面向镜头举相机拍摄；栏杆、建筑和栈道环境完整保留，照片四周有不规则白色纸边与轻微阴影。",
+      "label": "左侧竖向全身照片，一名戴红格围巾、穿黑色外套的年轻女性站在户",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        405,
+        13,
+        780,
+        351
+      ],
+      "description": "右侧拼贴上方中央的横向照片，女性伏在栏杆上闭眼微笑，身体朝向画面右侧；城市建筑和栏杆作为摄影环境保留，四周由白色不规则照片边界分隔。",
+      "label": "右侧拼贴上方中央的横向照片，女性伏在栏杆上闭眼微笑，身体朝向",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        759,
+        20,
+        1055,
+        367
+      ],
+      "description": "右上竖向照片，女性站在户外栏杆旁回头看向镜头，穿黑色外套并围红色围巾；背景建筑和栈道环境保留，照片显示范围包含完整白色边缘。",
+      "label": "右上竖向照片，女性站在户外栏杆旁回头看向镜头，穿黑色外套并围",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        402,
+        341,
+        654,
+        648
+      ],
+      "description": "拼贴中部左侧竖向照片，女性一手遮在额前、略向镜头倾斜，保留黑色外套、红格围巾以及户外栏杆背景；窗口边缘为倾斜的不规则白色照片边。",
+      "label": "拼贴中部左侧竖向照片，女性一手遮在额前、略向镜头倾斜，保留黑",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        643,
+        349,
+        874,
+        665
+      ],
+      "description": "拼贴中部中央照片，女性面向镜头举起手做剪刀手姿势并微笑，身后为户外栈道和栏杆；完整摄影环境保留，周围有白色斜向分隔边。",
+      "label": "拼贴中部中央照片，女性面向镜头举起手做剪刀手姿势并微笑，身后",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        861,
+        353,
+        1060,
+        686
+      ],
+      "description": "拼贴中部右侧竖向照片，女性将围巾拉到脸部附近并看向镜头，保留黑色外套、红格围巾和户外建筑背景；照片边界由不规则白色边缘形成。",
+      "label": "拼贴中部右侧竖向照片，女性将围巾拉到脸部附近并看向镜头，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        377,
+        634,
+        642,
+        1032
+      ],
+      "description": "拼贴底部左侧竖向照片，女性举起银色相机遮住部分脸部，身穿黑色外套和红格围巾；户外栈道环境完整可见，照片带白色倾斜边缘。",
+      "label": "拼贴底部左侧竖向照片，女性举起银色相机遮住部分脸部，身穿黑色",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        626,
+        652,
+        857,
+        1049
+      ],
+      "description": "拼贴底部中央照片，女性在户外栏杆旁张开一只手臂并侧身微笑，黑色外套和红格围巾清晰可见；保留栈道与建筑背景以及完整白色照片边界。",
+      "label": "拼贴底部中央照片，女性在户外栏杆旁张开一只手臂并侧身微笑，黑",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        835,
+        668,
+        1062,
+        1050
+      ],
+      "description": "拼贴右下照片，女性背对镜头沿木栈道走远，手提浅色包，完整显示背影、栈道、栏杆和建筑环境；照片窗口带不规则白色边缘。",
+      "label": "拼贴右下照片，女性背对镜头沿木栈道走远，手提浅色包，完整显示",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_left_tape",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        13,
+        126,
+        113
+      ],
+      "description": "左上角斜向粉色方格纸胶带，覆盖纸面与左侧照片上沿，包含白色点状装饰和撕裂边缘，作为独立固定装饰保留。",
+      "label": "左上角斜向粉色方格纸胶带，覆盖纸面与左侧照片上沿，包含白色点",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_good_day",
+      "kind": "overlay",
+      "bbox": [
+        446,
+        28,
+        579,
+        146
+      ],
+      "description": "位于上方中央照片内的白色手绘云朵对话框，内部可辨文字“Good day”，带小圆点和气泡尾部；文字与边框作为同一装饰单元保留。",
+      "label": "位于上方中央照片内的白色手绘云朵对话框，内部可辨文字“Goo",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hi_bubble",
+      "kind": "overlay",
+      "bbox": [
+        954,
+        93,
+        1072,
+        181
+      ],
+      "description": "右上照片边缘的白色手绘对话框，内部可辨文字“Hi~”，带弯曲气泡轮廓，跨近照片右上区域，作为完整贴加装饰保留。",
+      "label": "右上照片边缘的白色手绘对话框，内部可辨文字“Hi~”，带弯曲",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_heart",
+      "kind": "overlay",
+      "bbox": [
+        973,
+        20,
+        1054,
+        91
+      ],
+      "description": "右上角粉红色爱心贴纸，带白色粗描边和内部斜线纹理，覆盖纸面与右上照片边缘。",
+      "label": "右上角粉红色爱心贴纸，带白色粗描边和内部斜线纹理，覆盖纸面与",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_doodle_line",
+      "kind": "overlay",
+      "bbox": [
+        419,
+        238,
+        899,
+        326
+      ],
+      "description": "横跨上方照片下缘的白色手绘曲线装饰，包含卷曲线条、心形和小环状笔画，作为连续独立涂鸦保留。",
+      "label": "横跨上方照片下缘的白色手绘曲线装饰，包含卷曲线条、心形和小环",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_doodles",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        180,
+        1068,
+        347
+      ],
+      "description": "右上区域的白色手绘装饰组合，包含放射线、星形、心形曲线和弯折线条，分布在照片上方并作为同组涂鸦保留。",
+      "label": "右上区域的白色手绘装饰组合，包含放射线、星形、心形曲线和弯折",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        151,
+        176,
+        315
+      ],
+      "description": "左侧照片上方的白色手绘装饰组合，包含星芒、心形线条和弯曲花饰，沿照片左缘与上部叠加显示。",
+      "label": "左侧照片上方的白色手绘装饰组合，包含星芒、心形线条和弯曲花饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_sun_doodle",
+      "kind": "overlay",
+      "bbox": [
+        348,
+        193,
+        405,
+        280
+      ],
+      "description": "左侧照片右上附近的白色放射线手绘装饰，包含短线与弯曲笔画，贴近照片边缘显示。",
+      "label": "左侧照片右上附近的白色放射线手绘装饰，包含短线与弯曲笔画，贴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_sun",
+      "kind": "overlay",
+      "bbox": [
+        422,
+        346,
+        520,
+        436
+      ],
+      "description": "中部左侧照片上方的白色太阳涂鸦，由圆形中心和放射线组成，作为独立固定手绘装饰保留。",
+      "label": "中部左侧照片上方的白色太阳涂鸦，由圆形中心和放射线组成，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dashed_heart",
+      "kind": "overlay",
+      "bbox": [
+        672,
+        396,
+        851,
+        607
+      ],
+      "description": "覆盖中部中央照片的白色虚线心形轮廓，旁边带短放射线笔画，是独立的手绘装饰，不属于摄影内容。",
+      "label": "覆盖中部中央照片的白色虚线心形轮廓，旁边带短放射线笔画，是独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_brrr_cloud",
+      "kind": "overlay",
+      "bbox": [
+        869,
+        365,
+        1077,
+        454
+      ],
+      "description": "中右照片上方的白色手绘气泡与小云朵装饰，气泡内可辨文字“Brrr~”，边缘带心形和圆点细节，整体作为固定贴纸保留。",
+      "label": "中右照片上方的白色手绘气泡与小云朵装饰，气泡内可辨文字“Br",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_stars",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        538,
+        470,
+        630
+      ],
+      "description": "中部左侧照片下方的白色星芒与短线涂鸦组合，沿照片左边缘叠加显示。",
+      "label": "中部左侧照片下方的白色星芒与短线涂鸦组合，沿照片左边缘叠加显",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cheese_bubble",
+      "kind": "overlay",
+      "bbox": [
+        412,
+        633,
+        531,
+        710
+      ],
+      "description": "底部左侧照片上方的白色手绘对话框，内部可辨文字“Cheese!”，带小星星和气泡尾部，作为完整装饰单元保留。",
+      "label": "底部左侧照片上方的白色手绘对话框，内部可辨文字“Cheese",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_notes",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        632,
+        617,
+        708
+      ],
+      "description": "底部左侧与中央照片交界处的白色音乐符号涂鸦，包含音符和短线，作为独立固定装饰保留。",
+      "label": "底部左侧与中央照片交界处的白色音乐符号涂鸦，包含音符和短线，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_camera_doodles",
+      "kind": "overlay",
+      "bbox": [
+        511,
+        944,
+        622,
+        1035
+      ],
+      "description": "底部左侧照片内的白色相机手绘图标及周围小圆点和短线，作为一组独立涂鸦装饰叠加在照片上。",
+      "label": "底部左侧照片内的白色相机手绘图标及周围小圆点和短线，作为一组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_see_you_bubble",
+      "kind": "overlay",
+      "bbox": [
+        952,
+        686,
+        1074,
+        776
+      ],
+      "description": "右下照片上方的白色手绘对话框，内部可辨文字“See you!”，带小爱心和气泡尾部，作为整体装饰保留。",
+      "label": "右下照片上方的白色手绘对话框，内部可辨文字“See you!",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_doodles",
+      "kind": "overlay",
+      "bbox": [
+        838,
+        842,
+        956,
+        1024
+      ],
+      "description": "右下照片上的白色手绘爱心曲线、星形和环绕线条组合，跨照片下部显示，作为独立固定涂鸦保留。",
+      "label": "右下照片上的白色手绘爱心曲线、星形和环绕线条组合，跨照片下部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_tape",
+      "kind": "overlay",
+      "bbox": [
+        959,
+        994,
+        1073,
+        1070
+      ],
+      "description": "右下角斜向粉色方格纸胶带，覆盖照片边缘与纸面，带白色网格和撕裂边缘，作为独立固定装饰保留。",
+      "label": "右下角斜向粉色方格纸胶带，覆盖照片边缘与纸面，带白色网格和撕",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flowers",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        912,
+        179,
+        1055
+      ],
+      "description": "左下角纸面上的小雏菊与叶片花束，包含白色和淡黄色花朵及绿色茎叶，是独立的固定装饰组合。",
+      "label": "左下角纸面上的小雏菊与叶片花束，包含白色和淡黄色花朵及绿色茎",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_hearts",
+      "kind": "overlay",
+      "bbox": [
+        163,
+        924,
+        343,
+        1072
+      ],
+      "description": "左下至中下方纸面上的粉红与白色手绘爱心组合，包含粗描边、细线心形和小装饰笔画，作为一组固定贴纸保留。",
+      "label": "左下至中下方纸面上的粉红与白色手绘爱心组合，包含粗描边、细线",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "overlay_flowers",
+    "overlay_bottom_hearts",
+    "photo_left",
+    "photo_top_center",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right",
+    "overlay_left_doodles",
+    "overlay_left_sun_doodle",
+    "overlay_top_left_tape",
+    "overlay_good_day",
+    "overlay_top_doodle_line",
+    "overlay_hi_bubble",
+    "overlay_top_right_heart",
+    "overlay_top_right_doodles",
+    "overlay_middle_sun",
+    "overlay_dashed_heart",
+    "overlay_brrr_cloud",
+    "overlay_middle_stars",
+    "overlay_cheese_bubble",
+    "overlay_music_notes",
+    "overlay_camera_doodles",
+    "overlay_see_you_bubble",
+    "overlay_bottom_right_doodles",
+    "overlay_bottom_right_tape"
+  ]
+}

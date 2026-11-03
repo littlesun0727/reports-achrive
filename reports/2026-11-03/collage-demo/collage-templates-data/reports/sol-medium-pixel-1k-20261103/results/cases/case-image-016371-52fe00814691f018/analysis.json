@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "暖米白色纤维纸底，带细碎纸屑、浅褐色纤维和不均匀纸纹，下部及海景不规则边缘外连续可见。作为贯穿画布的固定纸底保留；上方海天画面、月亮及下方独立绘画与字样不并入纸底，不补造被遮挡的纹理细节。",
+      "background_type": "reference_clean",
+      "label": "暖米白色纤维纸底，带细碎纸屑、浅褐色纤维和不均匀纸纹，下部及",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_seascape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1273
+      ],
+      "description": "无人海天远景，上部为蓝色至粉橙色的暮色天空，水平海平线横贯画面，下面是蓝色海面与中央浅金粉色纵向波光。天空和海面属于同一连续画面，完整显示范围包含向下延伸的波光。下部两侧以不规则纸化、水彩般边缘露出纸底，海面逐渐收窄至下方中央并有局部柔化；不是沿某个主体去背景。右上月亮和底部线描为独立叠加内容。",
+      "label": "无人海天远景，上部为蓝色至粉橙色的暮色天空，水平海平线横贯画",
+      "method": "local"
+    },
+    {
+      "id": "overlay_moon",
+      "kind": "overlay",
+      "bbox": [
+        815,
+        107,
+        876,
+        174
+      ],
+      "description": "右上天空中的独立月亮装饰，略呈椭圆，保留灰白月面斑驳细节及柔和的浅色边缘；与下方海面波光不构成连续的摄影主体。",
+      "label": "右上天空中的独立月亮装饰，略呈椭圆，保留灰白月面斑驳细节及柔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_shore",
+      "kind": "overlay",
+      "bbox": [
+        360,
+        1110,
+        861,
+        1398
+      ],
+      "description": "下方中央的完整铅笔线描小景：一只背对观看者、竖耳坐着的深灰小猫，尾巴向左弯曲；猫前方及两侧有断续的弯曲岸线，身后有向左下延伸的数组小脚印。猫、岸线和脚印共同组成局部绘画单元，保留手绘笔触与各成员间的纸底空隙，不包含海面或纸张纹理。",
+      "label": "下方中央的完整铅笔线描小景：一只背对观看者、竖耳坐着的深灰小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        706,
+        1298,
+        946,
+        1358
+      ],
+      "description": "右下独立手写字样“Moon comes closer.”，细灰褐色笔画，整句略向右上倾斜，字母高度、连接与基线不规则。保留原有手写造型及句末圆点，不改为常规字体排版。",
+      "label": "右下独立手写字样“Moon comes closer.”，细",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_seascape",
+    "overlay_moon",
+    "overlay_cat_shore",
+    "overlay_caption"
+  ]
+}

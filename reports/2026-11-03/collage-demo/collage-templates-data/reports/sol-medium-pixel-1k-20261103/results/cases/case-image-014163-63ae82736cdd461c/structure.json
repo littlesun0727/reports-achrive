@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "frame_viewfinder",
+      "kind": "frame",
+      "bbox": [
+        790,
+        165,
+        1620,
+        987
+      ],
+      "description": "右侧复古取景器式固定框体，暗色外壳围绕一个圆角照片内口，边缘有灰白反光和柔和光晕。上方橙色三角标记、下方黄色倒置字符及左上内沿反光随框体整体保留；不包含内口的夕阳摄影内容。",
+      "photo_id": [
+        "photo_sunset"
+      ]
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        857,
+        298,
+        1504,
+        801
+      ],
+      "description": "一张无人夕阳风景照片，橙红天空占据上部，太阳位于右侧偏下，左侧高树与下方成片裸枝形成深色剪影。保留完整天空和树林环境，显示在右侧圆角内口中；四周被取景器框沿遮挡，下缘受到灰白反光覆盖，不沿树木轮廓去背景。"
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        15,
+        275,
+        590,
+        376
+      ],
+      "text": "碳水小狗说：",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_message",
+      "kind": "text",
+      "bbox": [
+        109,
+        471,
+        697,
+        679
+      ],
+      "text": "再见和日落\n都是未完待续。",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_dog_doodle",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        746,
+        741,
+        938
+      ],
+      "description": "左下白色手绘小狗涂鸦，包含圆弧脸形、两只带斜线填充的圆耳、鼻口点画，以及左下铅笔状小图形和右侧小三角点缀。各部分共同构成一组手绘装饰，保留原始笔画及内部黑色空隙。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1551,
+        1040,
+        1608,
+        1068
+      ],
+      "description": "右下角低对比度深灰色圆角小标签，内含可辨认的“小红书”字样，文字与底板作为完整固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_sunset",
+    "frame_viewfinder",
+    "text_heading",
+    "text_message",
+    "overlay_dog_doodle",
+    "overlay_watermark"
+  ]
+}

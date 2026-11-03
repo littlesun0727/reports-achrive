@@ -1,0 +1,139 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "blue_textured_base",
+    "description": "细密颗粒纹理的蓝色底图连续铺满画布，四边及照片、文字之间均可见同一底色纹理；保留底图原样，照片与图文设计作为独立对象处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_models",
+      "kind": "photo",
+      "bbox": [
+        62,
+        168,
+        737,
+        819
+      ],
+      "description": "竖向照片窗口内有两名女性时装模特，均为半身至近全身景；左侧女性穿浅色套装、面向前方，右侧女性穿蓝色套装、侧向画面右方。人物及身后的浅色褶皱摄影背景一并替换，照片窗口略有倾斜，边缘受白色相纸框遮挡。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        41,
+        117,
+        766,
+        987
+      ],
+      "description": "倾斜的白色复古拍立得相纸，带有纸张污渍、颗粒和磨损；上部照片窗口下方有宽白色留白区及淡淡的印刷数字和线迹，均属于相纸固定设计。相纸边沿覆盖照片窗口边缘。",
+      "photo_id": [
+        "photo_models"
+      ]
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        866,
+        113,
+        1787,
+        324
+      ],
+      "description": "右上区域的白色粗体、颗粒磨损效果标题设计，分两行写有“ABOUT”和“THE COMPANY”；字形具有不规则做旧边缘，作为整体固定字样保留。"
+    },
+    {
+      "id": "overlay_scribble",
+      "kind": "overlay",
+      "bbox": [
+        1469,
+        49,
+        1920,
+        118
+      ],
+      "description": "画布右上边缘附近的白色手绘连续波浪线，末端延伸至画布右边界，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_brand_pill",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        696,
+        1184,
+        775
+      ],
+      "description": "细白线勾勒的横向圆角胶囊形标签边框，位于正文上方；与标签文字共同构成品牌标识单元。"
+    },
+    {
+      "id": "text_brand",
+      "kind": "text",
+      "bbox": [
+        869,
+        714,
+        1153,
+        755
+      ],
+      "text": "Rimberio Fashion",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_body_left",
+      "kind": "text",
+      "bbox": [
+        838,
+        810,
+        1297,
+        971
+      ],
+      "text": "Rimberio Fashion is a top leading\nwomen’s fashion brand that has been in\nthe market for 10 years.\nThey offer various fashion products such\nas suits, dresses, pants, Blouses, bags,\nand other women’s accessories.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_body_right",
+      "kind": "text",
+      "bbox": [
+        1353,
+        810,
+        1813,
+        971
+      ],
+      "text": "They started their business in a small\nshop then have been growing into a\nnotable player in the industry till now.\nThey decided to elevate their presence\ndigitally through a strategic move on\nsocial media.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1836,
+        1033,
+        1908,
+        1067
+      ],
+      "description": "画布右下角可见的低对比度浅蓝色小型圆角标记，内部细节不清，作为一体的固定图形保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_models",
+    "frame_polaroid",
+    "overlay_title",
+    "overlay_scribble",
+    "overlay_brand_pill",
+    "text_brand",
+    "text_body_left",
+    "text_body_right",
+    "overlay_corner_mark"
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "desk_texture",
+    "description": "棕褐色斑驳、带划痕和细线的纸面纹理连续铺满画布，笔记本、照片和贴纸遮住局部；保留原有固定纹理，不作为可替换摄影内容。"
+  },
+  "objects": [
+    {
+      "id": "left_notebook_page",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        240,
+        196,
+        1365
+      ],
+      "description": "左侧露出的浅米色横纹活页纸及沿右侧排列的灰色金属环，环孔和纸张边缘完整保留，作为笔记本固定结构。"
+    },
+    {
+      "id": "yellow_index_tab",
+      "kind": "overlay",
+      "bbox": [
+        954,
+        736,
+        1074,
+        1271
+      ],
+      "description": "右侧露出的黄色竖向索引标签，印有纵向文字“HOT”和“ON RED”，完整保留纸边、印字和阴影。"
+    },
+    {
+      "id": "main_notebook_page",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        165,
+        1033,
+        1362
+      ],
+      "description": "覆盖画面中央的大张白色横纹笔记页，带圆角、纸张纹理及边缘阴影。页上原有手写中文段落、橙色定位图钉、细线、箭头、圈线和下划线均作为页面固定设计保留；独立照片、标签和南瓜贴纸另行记录。"
+    },
+    {
+      "id": "photo_bun_shop",
+      "kind": "photo",
+      "bbox": [
+        215,
+        214,
+        483,
+        559
+      ],
+      "description": "竖向照片内口，近景展示托盘上多个圆形烘焙面包，后方可见木柴、绿植及人物下半身。摄影环境保留；照片内容位于黑色胶片框内，框孔与边缘上的白色斑点纹理不属于照片。"
+    },
+    {
+      "id": "photo_autumn_room",
+      "kind": "photo",
+      "bbox": [
+        625,
+        549,
+        910,
+        890
+      ],
+      "description": "倾斜的室内秋日场景照片，人物坐在窗边桌旁，窗外可见金黄色树叶；保留人物、室内陈设和窗景的完整摄影画面。"
+    },
+    {
+      "id": "photo_pottery",
+      "kind": "photo",
+      "bbox": [
+        316,
+        966,
+        550,
+        1315
+      ],
+      "description": "竖向手作陶艺场景照片，可见桌面陶艺工具、颜料盘、手和未完成的陶片；保留照片内全部摄影环境。"
+    },
+    {
+      "id": "frame_bun_shop",
+      "kind": "frame",
+      "bbox": [
+        197,
+        199,
+        533,
+        578
+      ],
+      "description": "包围面包照片的黑色胶片条框，带上下齿孔、白色划痕与颗粒印记；照片从框孔和内口显露，框体压在照片边缘。",
+      "photo_id": [
+        "photo_bun_shop"
+      ]
+    },
+    {
+      "id": "frame_autumn_room",
+      "kind": "frame",
+      "bbox": [
+        575,
+        495,
+        973,
+        927
+      ],
+      "description": "倾斜摆放的黑色胶片条框，环绕秋日室内照片，带齿孔及白色划痕、颗粒印记；框体完整保留并压住照片边缘。",
+      "photo_id": [
+        "photo_autumn_room"
+      ]
+    },
+    {
+      "id": "frame_pottery",
+      "kind": "frame",
+      "bbox": [
+        267,
+        952,
+        600,
+        1332
+      ],
+      "description": "包围陶艺照片的黑色胶片条框，带上下齿孔和白色划痕、颗粒印记；照片独立替换，框体设计保留。",
+      "photo_id": [
+        "photo_pottery"
+      ]
+    },
+    {
+      "id": "tape_bun_shop",
+      "kind": "overlay",
+      "bbox": [
+        424,
+        193,
+        504,
+        234
+      ],
+      "description": "贴在上方胶片框顶边的半透明米色胶带，横向压住框体上沿。"
+    },
+    {
+      "id": "paperclip_bun_shop",
+      "kind": "overlay",
+      "bbox": [
+        231,
+        179,
+        284,
+        266
+      ],
+      "description": "夹在上方胶片框左上方的橙色金属回形针，整体作为独立固定装饰保留。"
+    },
+    {
+      "id": "label_bun_shop",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        496,
+        588,
+        541
+      ],
+      "description": "压在上方胶片照片下缘的橙色横向账号标签，白字“@33在路上”及标签底色作为一个完整单元保留。"
+    },
+    {
+      "id": "label_autumn_room",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        548,
+        1008,
+        628
+      ],
+      "description": "斜贴在右侧胶片照片上部的橙色账号标签，白字“@窝才没有烦恼”与橙色底条作为一个完整单元保留。"
+    },
+    {
+      "id": "tape_autumn_room",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        509,
+        806,
+        556
+      ],
+      "description": "贴在右侧倾斜胶片框上边缘的半透明米色胶带，压住框体并作为独立装饰保留。"
+    },
+    {
+      "id": "tape_pottery",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        933,
+        501,
+        979
+      ],
+      "description": "贴在下方胶片框顶部的半透明米色胶带，横向压住框体上沿。"
+    },
+    {
+      "id": "label_pottery",
+      "kind": "overlay",
+      "bbox": [
+        259,
+        1233,
+        528,
+        1274
+      ],
+      "description": "压在下方胶片照片下缘的橙色横向账号标签，白字“@Kseniaaaaa”与标签底色作为一个完整单元保留。"
+    },
+    {
+      "id": "pumpkin_sticker",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        1214,
+        725,
+        1385
+      ],
+      "description": "覆盖笔记页下方边缘的橙黄色手绘南瓜贴纸，带棕色瓜蒂、轮廓线和阴影，完整作为独立装饰保留。"
+    },
+    {
+      "id": "xiaohongshu_mark",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        46,
+        205,
+        120
+      ],
+      "description": "左上角红色圆角胶囊形标记，内有白色“小红书”字样；字样与红色底形作为一个固定设计单元保留。"
+    }
+  ],
+  "layer_order": [
+    "left_notebook_page",
+    "yellow_index_tab",
+    "main_notebook_page",
+    "photo_bun_shop",
+    "frame_bun_shop",
+    "paperclip_bun_shop",
+    "tape_bun_shop",
+    "label_bun_shop",
+    "photo_autumn_room",
+    "frame_autumn_room",
+    "tape_autumn_room",
+    "label_autumn_room",
+    "photo_pottery",
+    "frame_pottery",
+    "tape_pottery",
+    "label_pottery",
+    "pumpkin_sticker",
+    "xiaohongshu_mark"
+  ]
+}

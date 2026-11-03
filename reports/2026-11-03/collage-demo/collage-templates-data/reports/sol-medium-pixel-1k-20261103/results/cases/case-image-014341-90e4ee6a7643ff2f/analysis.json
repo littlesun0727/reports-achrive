@@ -1,0 +1,486 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "background_panel",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        1080
+      ],
+      "description": "全画布固定底板：外围为极浅蓝灰色留边，内有大幅圆角浅蓝紫面板，带柔和明暗变化及边缘阴影。保留底板的渐变、圆角和阴影；左侧猫照片、右侧九宫格、白色虚线及各处装饰均独立列出，不并入底板。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底板：外围为极浅蓝灰色留边，内有大幅圆角浅蓝紫面板",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        18,
+        19,
+        650,
+        1063
+      ],
+      "description": "左侧大幅单猫近景，银白虎斑猫坐立，头朝右上方仰望，胸腹延伸至画布下缘；左下有实拍小雏菊，身后为浅蓝色失焦环境。保留猫、花草及摄影背景，左侧贴合面板圆角，右侧背景柔化并淡入浅色底板，部分被九宫格遮挡；遮挡后的右向延伸范围不明确。",
+      "label": "左侧大幅单猫近景，银白虎斑猫坐立，头朝右上方仰望，胸腹延伸至",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        645,
+        94,
+        890,
+        392
+      ],
+      "description": "九宫格左上单猫胸部以上近景，猫侧身仰望右上方，双耳、头部和胸部可见，保留浅蓝灰失焦室内背景；显示于第一格完整窗口，边缘被白色框沿遮盖。",
+      "label": "九宫格左上单猫胸部以上近景，猫侧身仰望右上方，双耳、头部和胸",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_middle",
+      "kind": "photo",
+      "bbox": [
+        889,
+        94,
+        1151,
+        392
+      ],
+      "description": "九宫格上中单猫躺卧近景，头倒向画面右下，前爪弯在头部上方，注视镜头；保留浅色床面及室内背景，显示于第二格完整窗口。",
+      "label": "九宫格上中单猫躺卧近景，头倒向画面右下，前爪弯在头部上方，注",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        1150,
+        94,
+        1399,
+        392
+      ],
+      "description": "九宫格右上单猫侧面半身照，猫朝右看向窗外，前爪搭在窗台，保留窗框、窗台及浅色室内环境；右上角随整体九宫格外轮廓裁切。",
+      "label": "九宫格右上单猫侧面半身照，猫朝右看向窗外，前爪搭在窗台，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        645,
+        391,
+        890,
+        690
+      ],
+      "description": "九宫格中左单猫坐姿半身照，猫位于窗口偏右下，抬头看向左上，保留浅蓝灰色失焦室内背景。上方彩色泡泡和白色涂鸦为独立叠加装饰，不属于摄影场景。",
+      "label": "九宫格中左单猫坐姿半身照，猫位于窗口偏右下，抬头看向左上，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_middle",
+      "kind": "photo",
+      "bbox": [
+        889,
+        391,
+        1151,
+        690
+      ],
+      "description": "九宫格中央单猫近景，猫正面略仰头，一只前爪伸向画面右上，爪端靠近镜头且略失焦；保留灰蓝室内背景，爪与身体均在本格窗口内裁切，无连续出框。",
+      "label": "九宫格中央单猫近景，猫正面略仰头，一只前爪伸向画面右上，爪端",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        1150,
+        391,
+        1399,
+        690
+      ],
+      "description": "九宫格中右单猫胸部以上近景，猫闭眼仰头，画面右侧可见人的手指抚摸猫下巴；猫、手和浅蓝灰背景共同属于照片，右侧手部被窗口边缘裁切。",
+      "label": "九宫格中右单猫胸部以上近景，猫闭眼仰头，画面右侧可见人的手指",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        645,
+        689,
+        890,
+        989
+      ],
+      "description": "九宫格左下单猫躺卧近景，头侧倒在浅色床面上，面向镜头，上方举起一只前爪；保留床面及室内背景，左下随九宫格圆角外轮廓裁切。",
+      "label": "九宫格左下单猫躺卧近景，头侧倒在浅色床面上，面向镜头，上方举",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_middle",
+      "kind": "photo",
+      "bbox": [
+        889,
+        689,
+        1151,
+        989
+      ],
+      "description": "九宫格下中单猫正面坐姿半身照，猫双耳竖起并直视镜头，胸部延伸至窗口底边；右侧有实拍小白花和绿叶，保留全部摄影环境。",
+      "label": "九宫格下中单猫正面坐姿半身照，猫双耳竖起并直视镜头，胸部延伸",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        1150,
+        689,
+        1399,
+        989
+      ],
+      "description": "九宫格右下单猫半身近景，猫闭眼张大嘴打哈欠，头朝右上，保留浅蓝灰室内背景；右下边缘随九宫格圆角外轮廓裁切。",
+      "label": "九宫格右下单猫半身近景，猫闭眼张大嘴打哈欠，头朝右上，保留浅",
+      "method": "local"
+    },
+    {
+      "id": "frame_grid",
+      "kind": "frame",
+      "bbox": [
+        633,
+        89,
+        1407,
+        1002
+      ],
+      "description": "一个完整九宫格固定照片框，白色圆角外框内含两条竖向和两条横向白色分隔框沿，形成九个独立窗口。保留外缘淡阴影及左侧隐约点线细节；框沿压在各照片边缘上方，不包含照片和窗口内叠加涂鸦。",
+      "photo_id": [
+        "photo_top_left",
+        "photo_top_middle",
+        "photo_top_right",
+        "photo_middle_left",
+        "photo_middle_middle",
+        "photo_middle_right",
+        "photo_bottom_left",
+        "photo_bottom_middle",
+        "photo_bottom_right"
+      ],
+      "label": "一个完整九宫格固定照片框，白色圆角外框内含两条竖向和两条横向",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_outer_border",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        31,
+        1413,
+        1052
+      ],
+      "description": "沿大面板四周环绕的白色细虚线圆角轮廓，作为一个完整装饰边界保留；覆盖左侧照片和右侧底板，不承担照片窗口功能。",
+      "label": "沿大面板四周环绕的白色细虚线圆角轮廓，作为一个完整装饰边界保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        77,
+        119,
+        282
+      ],
+      "description": "左上竖向排列的一组白色手绘星光，包含顶部空心五角星、旁边小短笔画及下方两枚细长四角闪光，保留不规则线条和相互位置。",
+      "label": "左上竖向排列的一组白色手绘星光，包含顶部空心五角星、旁边小短",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_left",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        494,
+        137,
+        572
+      ],
+      "description": "左侧中部白色手绘弯曲心形线条，带长弧形尾线及下方细小点划，整体叠在大猫照片上。",
+      "label": "左侧中部白色手绘弯曲心形线条，带长弧形尾线及下方细小点划，整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_bottom",
+      "kind": "overlay",
+      "bbox": [
+        234,
+        963,
+        286,
+        1023
+      ],
+      "description": "大照片下部独立白色手绘空心爱心，左上有两条短强调线及小点，整体保留。",
+      "label": "大照片下部独立白色手绘空心爱心，左上有两条短强调线及小点，整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_top",
+      "kind": "overlay",
+      "bbox": [
+        547,
+        62,
+        623,
+        136
+      ],
+      "description": "大照片右上方一枚半透明虹彩泡泡，保留圆形高光、淡粉蓝彩色边缘及透明中心。",
+      "label": "大照片右上方一枚半透明虹彩泡泡，保留圆形高光、淡粉蓝彩色边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_top",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        40,
+        726,
+        85
+      ],
+      "description": "九宫格上方白色小猫爪印及周围稀疏点状印迹，作为局部完整装饰保留。",
+      "label": "九宫格上方白色小猫爪印及周围稀疏点状印迹，作为局部完整装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_top_right",
+      "kind": "overlay",
+      "bbox": [
+        1335,
+        27,
+        1381,
+        71
+      ],
+      "description": "面板右上角的一枚白色猫爪印，含主掌垫、趾垫和附近淡小点。",
+      "label": "面板右上角的一枚白色猫爪印，含主掌垫、趾垫和附近淡小点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        497,
+        988,
+        552,
+        1035
+      ],
+      "description": "大照片右下区域的一枚白色猫爪印，保留大小掌垫和趾垫组成的完整造型。",
+      "label": "大照片右下区域的一枚白色猫爪印，保留大小掌垫和趾垫组成的完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_lower_middle",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        918,
+        609,
+        982
+      ],
+      "description": "九宫格左下外侧较大的白色猫爪印，主掌垫与多个圆形趾垫整体保留。",
+      "label": "九宫格左下外侧较大的白色猫爪印，主掌垫与多个圆形趾垫整体保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_bottom",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        1010,
+        729,
+        1037
+      ],
+      "description": "九宫格下方偏左的一枚较小白色猫爪印，保留淡白色完整印迹。",
+      "label": "九宫格下方偏左的一枚较小白色猫爪印，保留淡白色完整印迹。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        1357,
+        1009,
+        1393,
+        1039
+      ],
+      "description": "面板右下角独立白色小猫爪印，位于九宫格外框下方。",
+      "label": "面板右下角独立白色小猫爪印，位于九宫格外框下方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_top_left",
+      "kind": "overlay",
+      "bbox": [
+        649,
+        123,
+        881,
+        362
+      ],
+      "description": "左上照片窗口的白色手绘装饰组：猫耳上方短线、右侧四角闪光、左下小闪光和卷曲弧线，以及右下带空心爱心的上扬尾线。线条不沿猫轮廓形成描边，整体作为窗口内固定涂鸦保留。",
+      "label": "左上照片窗口的白色手绘装饰组：猫耳上方短线、右侧四角闪光、左",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_top_middle",
+      "kind": "overlay",
+      "bbox": [
+        1045,
+        114,
+        1115,
+        229
+      ],
+      "description": "上中窗口右上白色爱心对话气泡，圆形气泡内有实心爱心，下方附三条短强调线，整体保留。",
+      "label": "上中窗口右上白色爱心对话气泡，圆形气泡内有实心爱心，下方附三",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_top_right",
+      "kind": "overlay",
+      "bbox": [
+        1181,
+        122,
+        1395,
+        286
+      ],
+      "description": "右上窗口的白色涂鸦组，包含猫耳左侧两枚四角闪光、面朝方向的三条短线，以及右边一大一小空心爱心。",
+      "label": "右上窗口的白色涂鸦组，包含猫耳左侧两枚四角闪光、面朝方向的三",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubbles_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        405,
+        854,
+        546
+      ],
+      "description": "中左窗口左上区域的一组半透明虹彩泡泡，包含顶部较大泡泡和向左下错落分布的三个小泡泡，保留各自高光与彩色薄边，不包含猫照片。",
+      "label": "中左窗口左上区域的一组半透明虹彩泡泡，包含顶部较大泡泡和向左",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        451,
+        873,
+        636
+      ],
+      "description": "中左窗口白色手绘装饰组，猫头上方有一段弧线、细短线和小水滴形强调笔画，左下有两段相连的云朵状弧线；与虹彩泡泡分别保留。",
+      "label": "中左窗口白色手绘装饰组，猫头上方有一段弧线、细短线和小水滴形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_middle_middle",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        428,
+        1137,
+        654
+      ],
+      "description": "中央窗口白色手绘装饰组：猫头左上和伸爪旁的短强调笔画，左下空心星星，右下连续卷曲线及小点划。没有沿主体轮廓形成完整描边。",
+      "label": "中央窗口白色手绘装饰组：猫头左上和伸爪旁的短强调笔画，左下空",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        1167,
+        418,
+        1379,
+        606
+      ],
+      "description": "中右窗口白色手绘装饰组，左上为内含爱心的对话气泡，右上散布实心小爱心、短弧和小点，左下为一枚空心爱心，整体保持原有错落排布。",
+      "label": "中右窗口白色手绘装饰组，左上为内含爱心的对话气泡，右上散布实",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        712,
+        874,
+        959
+      ],
+      "description": "左下窗口白色涂鸦组，右上为实心爱心对话气泡，左侧有空心爱心，猫头右侧两条短弧，窗口底部有两条弯曲强调线。",
+      "label": "左下窗口白色涂鸦组，右上为实心爱心对话气泡，左侧有空心爱心，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_bottom_middle",
+      "kind": "overlay",
+      "bbox": [
+        905,
+        719,
+        1113,
+        875
+      ],
+      "description": "下中窗口白色手绘大爱心轮廓环绕猫头上方与两侧，配有左下空心星星、右侧及右下多枚四角闪光。爱心线是独立装饰而非沿猫主体轮廓的描边。",
+      "label": "下中窗口白色手绘大爱心轮廓环绕猫头上方与两侧，配有左下空心星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        1167,
+        710,
+        1395,
+        891
+      ],
+      "description": "右下窗口白色手绘装饰组，包含猫耳上方与头两侧短线、右上小爱心及短笔画，以及右下写有“Zzz”的睡眠对话气泡；气泡字样与载体一体保留，不拆为普通文字。",
+      "label": "右下窗口白色手绘装饰组，包含猫耳上方与头两侧短线、右上小爱心",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_panel",
+    "photo_left",
+    "photo_top_left",
+    "photo_top_middle",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_middle_middle",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_middle",
+    "photo_bottom_right",
+    "frame_grid",
+    "overlay_outer_border",
+    "overlay_stars_left",
+    "overlay_heart_left",
+    "overlay_heart_bottom",
+    "overlay_bubble_top",
+    "overlay_paw_top",
+    "overlay_paw_top_right",
+    "overlay_paw_lower_left",
+    "overlay_paw_lower_middle",
+    "overlay_paw_bottom",
+    "overlay_paw_bottom_right",
+    "overlay_doodle_top_left",
+    "overlay_doodle_top_middle",
+    "overlay_doodle_top_right",
+    "overlay_bubbles_middle_left",
+    "overlay_doodle_middle_left",
+    "overlay_doodle_middle_middle",
+    "overlay_doodle_middle_right",
+    "overlay_doodle_bottom_left",
+    "overlay_doodle_bottom_middle",
+    "overlay_doodle_bottom_right"
+  ]
+}
