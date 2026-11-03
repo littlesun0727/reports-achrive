@@ -1,0 +1,107 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的桌面静物摄影覆盖全画布，无人物。深棕色木桌中央偏上放着盛有尖顶奶油饮品的花纹杯和碟子，左侧有手机及小玩偶，下方是带蕾丝、蝴蝶结和插画纸页的打开式手账，右侧摆着两只毛绒玩偶及小饰物。木纹延伸至右边和底边，左上为同一场景的暗部；上层文字、纸片和圆点遮挡局部。全部实拍物品及摄影环境随客户照片整体替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_punched_paper",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        47,
+        239,
+        215
+      ],
+      "description": "左上浅灰紫色方形纸片，边缘与内部有多个黑色圆形缺口或圆点，整体作为固定设计保留；左上部分被百合插画纸片覆盖，右侧叠有独立白色诗句。"
+    },
+    {
+      "id": "overlay_lily",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        66,
+        126,
+        146
+      ],
+      "description": "浅青色矩形小纸片，内部为细线绘制的百合花、花蕾和叶片，叠在灰紫色纸片左上部；纸片与插画作为一个完整固定装饰保留。"
+    },
+    {
+      "id": "text_remember",
+      "kind": "text",
+      "bbox": [
+        154,
+        91,
+        268,
+        266
+      ],
+      "text": "Remember\nto bring\na bunch\nof lilies\nnext time\nwe meet",
+      "color": "#EDF7F3",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_miss",
+      "kind": "text",
+      "bbox": [
+        278,
+        285,
+        479,
+        385
+      ],
+      "text": "I miss u (TωT) o···\nI miss u (TωT) o···\nI miss u (TωT) o···",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_pastel_dots",
+      "kind": "overlay",
+      "bbox": [
+        709,
+        164,
+        990,
+        415
+      ],
+      "description": "画面右侧的一组散布式半透明圆点，浅紫、灰青和淡蓝色圆点从杯子右上方延伸到右侧玩偶脸部，透出下方木纹或玩偶细节；作为完整圆点装饰组保留，不属于实拍场景。上方标题标签覆盖其中局部。"
+    },
+    {
+      "id": "overlay_summer_label",
+      "kind": "overlay",
+      "bbox": [
+        909,
+        65,
+        1049,
+        251
+      ],
+      "description": "右上半透明棕色矩形标题标签，包含薄荷青色特殊细线字形“夏天”、顶部细横线、四角小圆点，以及底部浅色三行英文“Who woke / up the / summer.”。文字与标签共同组成固定设计，整体保留，底下摄影木纹仍可透见。"
+    },
+    {
+      "id": "overlay_summer_script",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        489,
+        224,
+        748
+      ],
+      "description": "左下白色花体艺术字，内容为“Looking forward to everything in summer”，分层错落排列，带夸张的长弧线、卷曲笔画和附属小圆点；完整字形与点缀作为一个装饰保留，叠在手机下缘及木桌上。"
+    }
+  ],
+  "layer_order": [
+    "overlay_punched_paper",
+    "overlay_lily",
+    "text_remember",
+    "text_miss",
+    "overlay_pastel_dots",
+    "overlay_summer_label",
+    "overlay_summer_script"
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的海岸山坡花园全景覆盖整个画布：上部为蓝天、云层与海湾，中部有岛屿、船只、沿岸建筑，下部为仙人掌、灌木、岩石、步道及多名远处游客。天空、海面和花园在画布四边及叠放照片之间连续可见，三张人物照片与装饰遮挡其局部；整个摄影环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        72,
+        114,
+        496,
+        398
+      ],
+      "description": "左上横向照片，一名戴浅色帽子、穿浅蓝外套并背白色布袋的长发女子侧身回头，呈半身景别。树荫、石栏、湖面和远山保留在同一照片内，完整矩形窗口的左下局部被小相纸装饰遮挡。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        328,
+        468,
+        813,
+        793
+      ],
+      "description": "中央横向照片，一名戴花纹头巾、穿白色无袖衣裙的长发女子正面站立，一只手扶栏杆，胸前挂墨镜。保留身后的海湾、天空、仙人掌与栏杆，完整矩形显示区域左上角被小相纸和星形装饰局部遮挡。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        526,
+        911,
+        964,
+        1205
+      ],
+      "description": "右下横向照片，一名戴浅色帽子、穿浅蓝外套的女子坐在红色长椅上，一手扶帽，一手拿相机，白色衣物搭在腿部。保留黑色栏杆、水面及对岸建筑，完整矩形窗口右上缘被浅蓝胶片贴纸遮挡。"
+    },
+    {
+      "id": "overlay_clip_upper",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        64,
+        128,
+        140
+      ],
+      "description": "上方粉色花朵发夹贴纸，花瓣带浅色细节，夹身向右下倾斜，包含完整花朵、镂空夹身及边缘阴影，压在左上照片上沿附近。"
+    },
+    {
+      "id": "overlay_clip_lower",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        106,
+        119,
+        161
+      ],
+      "description": "下方粉色花朵发夹贴纸，花朵位于左侧，镂空夹身向右下延伸，与另一枚发夹错落排列，完整轮廓与边缘阴影一起保留。"
+    },
+    {
+      "id": "overlay_clover",
+      "kind": "overlay",
+      "bbox": [
+        811,
+        89,
+        876,
+        152
+      ],
+      "description": "右上独立四叶草贴纸，四片圆润叶瓣呈黄绿色细密格点纹理，略向右倾斜，内部纹理和完整轮廓作为固定设计保留。"
+    },
+    {
+      "id": "overlay_quote",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        155,
+        843,
+        374
+      ],
+      "description": "右上四行英文拼贴标签，黄绿与浅绿网格纸条错落排列，黑色手写斜体字与纸条共同组成一个固定字样单元。可辨“Ever beaming”“Bright as noon”，其余字样按原有笔画保留；保留各纸条的间隙、错位及纹理，不拆成普通文字。"
+    },
+    {
+      "id": "frame_mini_sunset",
+      "kind": "frame",
+      "bbox": [
+        310,
+        367,
+        392,
+        464
+      ],
+      "description": "小型倾斜相纸框，暖白色纸边围绕一张棕金色风景照片，下部相纸较宽，右下部分被另外两张小相纸遮挡。纸张轮廓、材质与阴影整体保留。",
+      "photo_id": [
+        "photo_mini_sunset"
+      ]
+    },
+    {
+      "id": "photo_mini_sunset",
+      "kind": "photo",
+      "bbox": [
+        318,
+        375,
+        383,
+        443
+      ],
+      "description": "上方小相纸中的暖棕色风景照片，可见横向明暗层次与亮色地平线，无清晰人物。保留倾斜照片内口的全部摄影内容，下缘局部受前方相纸遮挡。"
+    },
+    {
+      "id": "frame_mini_sea",
+      "kind": "frame",
+      "bbox": [
+        302,
+        434,
+        404,
+        535
+      ],
+      "description": "左下倾斜的小相纸框，灰白纸边包围冷灰色海景内口，底部留有较宽纸边。框体压在上方暖色相纸之上，右上缘又被鸟群相纸局部覆盖，保留纸张质感和阴影。",
+      "photo_id": [
+        "photo_mini_sea"
+      ]
+    },
+    {
+      "id": "photo_mini_sea",
+      "kind": "photo",
+      "bbox": [
+        314,
+        446,
+        390,
+        519
+      ],
+      "description": "左下小相纸中的冷灰色海面照片，可见水面纹理及远处明暗交界，没有清晰人物。完整显示范围按倾斜内口保留，右上部分被相邻鸟群相纸遮挡。"
+    },
+    {
+      "id": "frame_mini_birds",
+      "kind": "frame",
+      "bbox": [
+        375,
+        418,
+        445,
+        499
+      ],
+      "description": "右侧近乎直立的小相纸框，浅灰白纸边围绕鸟群照片，底部留白略宽。整体叠在另外两张小相纸前方，保留略旧的纸面、边缘与阴影。",
+      "photo_id": [
+        "photo_mini_birds"
+      ]
+    },
+    {
+      "id": "photo_mini_birds",
+      "kind": "photo",
+      "bbox": [
+        383,
+        425,
+        436,
+        482
+      ],
+      "description": "右侧小相纸内口为浅灰蓝天空中的数只深色飞鸟，鸟群与天空共同保留，显示范围为该相纸的完整矩形内口，不单独拆出飞鸟。"
+    },
+    {
+      "id": "overlay_mini_stars",
+      "kind": "overlay",
+      "bbox": [
+        322,
+        389,
+        430,
+        549
+      ],
+      "description": "围绕三张小相纸分布的一组深灰色小五角星点缀，上方、照片边缘及下方均有星形，部分压在小照片或相纸上。作为同一局部装饰组保留，星形间的透明空隙不填充。"
+    },
+    {
+      "id": "overlay_happy",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        829,
+        395,
+        931
+      ],
+      "description": "左下“#happy”艺术字贴纸，浅蓝填色配白色外沿，字母大小、基线与角度不统一，整串字样斜向右上。保留特定手写笔画和完整外轮廓，不改为通用字体排版。"
+    },
+    {
+      "id": "overlay_white_doodle",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        824,
+        608,
+        922
+      ],
+      "description": "中央偏下的白色手绘装饰组，包含一枚较大的空心五角星、一枚较小星形及向右下散开的两段短线。所有笔画共同构成独立点缀，透明空隙保留。"
+    },
+    {
+      "id": "overlay_film_tape",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        854,
+        1013,
+        984
+      ],
+      "description": "右下照片右上角的浅蓝色胶片形贴纸，斜向右下，双侧排列深浅相间的齿孔，中间分为半透明色块。没有独立摄影内口，整段胶片造型、色块和边缘一起保留，并覆盖照片上沿。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_middle",
+    "photo_lower",
+    "frame_mini_sunset",
+    "photo_mini_sunset",
+    "frame_mini_sea",
+    "photo_mini_sea",
+    "frame_mini_birds",
+    "photo_mini_birds",
+    "overlay_mini_stars",
+    "overlay_clip_upper",
+    "overlay_clip_lower",
+    "overlay_clover",
+    "overlay_quote",
+    "overlay_happy",
+    "overlay_white_doodle",
+    "overlay_film_tape"
+  ]
+}

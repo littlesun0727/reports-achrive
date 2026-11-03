@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_train",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        360
+      ],
+      "description": "顶部横向海边列车照片：绿色与米色车厢占据画面中央和右侧，左侧可见海面、沙滩及栏杆；车窗、车身及其中的标识文字均属于摄影内容。照片显示至画布左右边缘，下缘在 y=360 处与下一张照片形成清晰水平接缝。",
+      "label": "顶部横向海边列车照片：绿色与米色车厢占据画面中央和右侧，左侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        0,
+        360,
+        1080,
+        720
+      ],
+      "description": "第二条横向照片，红白花朵与绿叶枝丛横跨画面下半部，背景为蓝天和云；照片显示至画布左右边缘，上下缘分别在 y=360 和 y=720 处与相邻照片形成清晰水平接缝。",
+      "label": "第二条横向照片，红白花朵与绿叶枝丛横跨画面下半部，背景为蓝天",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1080
+      ],
+      "description": "第三条横向近景照片，中央是置于浅色蛋筒或纸托中的奶油甜点，顶部有一颗草莓，周围是绿色植物背景；甜点与环境共同属于照片，显示至画布左右边缘，上下缘在 y=720 和 y=1080 处与相邻照片形成清晰水平接缝。",
+      "label": "第三条横向近景照片，中央是置于浅色蛋筒或纸托中的奶油甜点，顶",
+      "method": "local"
+    },
+    {
+      "id": "photo_sparkling_water",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1080,
+        1080,
+        1440
+      ],
+      "description": "底部横向水面照片，深蓝色波纹上散布多处明亮闪光；照片延伸至画布左右及下缘，上缘在 y=1080 处与上一张照片形成清晰水平接缝。",
+      "label": "底部横向水面照片，深蓝色波纹上散布多处明亮闪光；照片延伸至画",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_train",
+    "photo_flowers",
+    "photo_dessert",
+    "photo_sparkling_water"
+  ]
+}

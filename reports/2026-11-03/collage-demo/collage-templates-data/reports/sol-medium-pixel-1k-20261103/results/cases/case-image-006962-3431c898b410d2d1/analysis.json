@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "background_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "全画布连续的米 beige 色细颗粒纸质底纹，上部偏暖浅黄，下部逐渐转为灰褐色，四边及照片之间的空隙均露出同一底纹。保留其纹理和明暗变化，独立照片、贴纸及字样不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的米 beige 色细颗粒纸质底纹，上部偏暖浅黄，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        50,
+        518,
+        700,
+        1384
+      ],
+      "description": "左侧竖向矩形人物照片，一名黑色长发齐刘海女生穿棕色长袖上衣，双手托脸并看向镜头，呈近距离半身坐姿。窗户、桌椅及室内地面等摄影环境完整保留，不沿人物去背景。右上局部被心形照片覆盖，右下边缘被面包照片遮挡；头发上的星星和胸前闪光为独立装饰。",
+      "label": "左侧竖向矩形人物照片，一名黑色长发齐刘海女生穿棕色长袖上衣，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bear",
+      "kind": "photo",
+      "bbox": [
+        410,
+        99,
+        985,
+        590
+      ],
+      "description": "上方心形照片，左侧为装有深色饮料、冰淇淋和蛋筒的玻璃杯，右侧为棕色小熊玩偶及带爪印的叉形餐具，桌面和后方浅灰环境仍然可见。整个摄影画面共同显示于心形区域，不按物体轮廓去背景；下方尖端压住人物照片，右上部分被白色思考气泡遮挡。",
+      "label": "上方心形照片，左侧为装有深色饮料、冰淇淋和蛋筒的玻璃杯，右侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_bread",
+      "kind": "photo",
+      "bbox": [
+        484,
+        1363,
+        1019,
+        1797
+      ],
+      "description": "右下横向照片，藤篮和白色镂空织物上摆放多枚棕色小熊造型面包，间有三枚白色兔子造型装饰。保留篮筐、织物及食物的完整摄影环境，照片显示边缘为圆角矩形。左上部分覆盖人物照片下缘，左下区域被白色韩文标签横向遮挡。",
+      "label": "右下横向照片，藤篮和白色镂空织物上摆放多枚棕色小熊造型面包，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_thought",
+      "kind": "overlay",
+      "bbox": [
+        873,
+        77,
+        1080,
+        294
+      ],
+      "description": "右上白色细线椭圆思考气泡，带柔和白色光晕和向左下延伸的多个小气泡，内部写有“사랑해♡”。气泡内口可见下层底纹及照片，不是独立摄影内容；文字、轮廓和附属小气泡作为完整装饰保留，压在小熊照片右上方，右缘到达画布边界。",
+      "label": "右上白色细线椭圆思考气泡，带柔和白色光晕和向左下延伸的多个小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        349,
+        542,
+        410,
+        603
+      ],
+      "description": "人物头顶偏右的一枚黄色五角星贴纸，中央浅黄高光、边缘金黄色并带柔和阴影，完整覆盖在黑色头发上。",
+      "label": "人物头顶偏右的一枚黄色五角星贴纸，中央浅黄高光、边缘金黄色并",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        222,
+        612,
+        282,
+        672
+      ],
+      "description": "人物头发上部偏左的一枚黄色五角星贴纸，带浅色高光和金黄边缘，与另两枚星星分离，独立保留。",
+      "label": "人物头发上部偏左的一枚黄色五角星贴纸，带浅色高光和金黄边缘，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        728,
+        210,
+        790
+      ],
+      "description": "人物头发左侧的一枚黄色五角星贴纸，带立体高光和柔和阴影，位置低于另外两枚星星。",
+      "label": "人物头发左侧的一枚黄色五角星贴纸，带立体高光和柔和阴影，位置",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        1031,
+        611,
+        1076
+      ],
+      "description": "人物右侧头发与胸前位置的一组浅黄色闪光涂鸦，由两端空心五角星、中间叉形闪光及小光点构成，成员共同组成横向装饰，保留细线和柔和发光效果。",
+      "label": "人物右侧头发与胸前位置的一组浅黄色闪光涂鸦，由两端空心五角星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_heart",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        934,
+        938,
+        1025
+      ],
+      "description": "右侧空白底纹上的独立白色立体爱心贴纸，顶部双圆弧、下端尖角略向左偏，表面有浅灰明暗和柔和阴影。",
+      "label": "右侧空白底纹上的独立白色立体爱心贴纸，顶部双圆弧、下端尖角略",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_korean_label",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        1660,
+        660,
+        1699
+      ],
+      "description": "横跨底纹与面包照片左下区域的窄白色标签，包含黑色心形与点状符号、韩文“고목에서봉이울때”、右向三角及浅灰耳机图标。文字和图标共同属于标签设计，保留白色底板及完整排布。",
+      "label": "横跨底纹与面包照片左下区域的窄白色标签，包含黑色心形与点状符",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1893,
+        1074,
+        1916
+      ],
+      "description": "画布右下角极淡的小型圆角胶囊状水印，内部有难以辨认的浅色字样，作为独立固定标记保留其低对比度外观。",
+      "label": "画布右下角极淡的小型圆角胶囊状水印，内部有难以辨认的浅色字样",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_paper",
+    "photo_portrait",
+    "photo_bear",
+    "photo_bread",
+    "overlay_star_top",
+    "overlay_star_middle",
+    "overlay_star_left",
+    "overlay_sparkles",
+    "overlay_thought",
+    "overlay_white_heart",
+    "overlay_korean_label",
+    "overlay_watermark"
+  ]
+}

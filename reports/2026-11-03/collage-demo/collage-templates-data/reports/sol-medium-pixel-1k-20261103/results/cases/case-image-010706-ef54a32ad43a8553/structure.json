@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_gradient",
+    "description": "全画布连续的暖棕色渐变底图，上方为浅杏米色，下方逐渐变为深灰棕色，画布四边及照片之间均露出同一渐变。保留固定渐变外观，独立照片、贴纸和字样不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_drinks_cake",
+      "kind": "photo",
+      "bbox": [
+        462,
+        249,
+        967,
+        753
+      ],
+      "description": "上方一张饮品与蛋糕的近景照片，左侧是粉色饮品，中间是绿色饮品，右下为绿色葡萄装饰的奶油蛋糕，纸盒、桌面与椅背共同保留。摄影内容在各部分之间连续，整体显示于带圆弧及内凹边缘的窗口中，不沿单个物品去背景。"
+    },
+    {
+      "id": "photo_portrait_close",
+      "kind": "photo",
+      "bbox": [
+        468,
+        1000,
+        1005,
+        1717
+      ],
+      "description": "右下竖向矩形人物近景，一名长发女性正面看向镜头，画面包含头部、肩胸部、浅色针织上衣及少量室内背景。保留摄影环境，没有沿人物轮廓去背景；左上部分被左侧花瓣形照片遮挡，上缘右侧被白色小狗装饰覆盖。"
+    },
+    {
+      "id": "photo_portrait_dining",
+      "kind": "photo",
+      "bbox": [
+        21,
+        690,
+        564,
+        1230
+      ],
+      "description": "左侧花瓣状窗口中的餐厅人物照片，一名长发女性坐在桌前，一手托住下巴，身体朝前，桌上可见餐盘、杯碟及手机，身后保留餐厅墙面和桌椅。整张照片按起伏的花瓣边界显示，不沿人物去背景；右下侧叠在竖向近景照片的左上区域。"
+    },
+    {
+      "id": "overlay_cake_bubble",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        171,
+        417,
+        307
+      ],
+      "description": "左上独立蛋糕贴纸，白色圆形气泡内放置一块带草莓装饰的黄色夹层蛋糕图案，右下附浅灰色气泡尾部与阴影，作为一个完整固定单元保留。"
+    },
+    {
+      "id": "overlay_utensils",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        479,
+        413,
+        554
+      ],
+      "description": "饮品照片左侧的一组白色发光手绘餐具图案，由并排的叉子和刀形轮廓组成，包含外围柔和光晕，作为独立固定装饰整体保留。"
+    },
+    {
+      "id": "overlay_dog",
+      "kind": "overlay",
+      "bbox": [
+        873,
+        818,
+        1062,
+        1024
+      ],
+      "description": "右侧白色双线手绘小狗装饰，包含趴卧小狗、尾巴、上方带骨头及感叹号的椭圆想象气泡和连接小圆点。整组作为完整固定单元保留，小狗下部覆盖右下人物照片上缘。"
+    },
+    {
+      "id": "overlay_beautiful_life",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        1462,
+        381,
+        1617
+      ],
+      "description": "左下粉色手绘艺术字装饰，文字分两行呈现“Beautiful”和“Life”，字母大小与位置不规则，周围附短线光芒、小点及花朵线稿；文字与附属图案共同作为完整设计保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1894,
+        1074,
+        1913
+      ],
+      "description": "右下角极淡的小型圆角胶囊状水印，内部可辨“醒图”字样，底板及文字共同保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_drinks_cake",
+    "photo_portrait_close",
+    "photo_portrait_dining",
+    "overlay_cake_bubble",
+    "overlay_utensils",
+    "overlay_dog",
+    "overlay_beautiful_life",
+    "overlay_watermark"
+  ]
+}

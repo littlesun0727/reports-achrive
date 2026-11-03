@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的室内咖啡店自拍摄影画面铺满画布：一名戴深色针织帽的女性坐在窗边，正面半身近景，手持放有吐司、香蕉和冰淇淋的盘子；窗户、墙面、桌面及饮品均属于同一摄影环境。画面延伸至四边，左下卡通贴纸和底部文字牌遮挡部分区域，整体环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_cartoon_girl",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        493,
+        477,
+        1012
+      ],
+      "description": "独立卡通贴纸：戴白色针织帽、穿蓝色上衣的长发女孩手持叉子和小盘甜点，盘中有香蕉、吐司与冰淇淋；人物、餐盘、餐具及一体阴影共同保留，覆盖背景照片左下区域。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        1105,
+        1045,
+        1371
+      ],
+      "description": "底部横向奶油色不规则手绘文字牌，含粗体棕色中文两行“暂时放下岛屿的劳作，／寻一间窗边小店享用下午茶。”及下缘中央的小黄色三角点缀；文字与底板、点缀构成同一固定设计单元，覆盖照片下部。"
+    },
+    {
+      "id": "overlay_toto",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        1075,
+        285,
+        1169
+      ],
+      "description": "粉红色倾斜圆角徽章，白色粗体字样“TOTO”，位于奶油色文字牌左上方并压住其边缘，作为完整独立贴纸保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_cartoon_girl",
+    "overlay_caption",
+    "overlay_toto"
+  ]
+}

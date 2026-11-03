@@ -1,0 +1,180 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#211615"
+  },
+  "objects": [
+    {
+      "id": "paper_strip_top",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        74,
+        1012,
+        347
+      ],
+      "description": "横向浅灰绿色纹理纸底板，承托上方三张拍立得照片；纸纹和完整矩形边缘保留。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        103,
+        126,
+        348,
+        282
+      ],
+      "description": "左上横向照片，一名穿浅色服装的女性坐在木墙与木地板前，双手靠近胸前，腿向前伸；木质环境保留在矩形照片内。"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        90,
+        110,
+        361,
+        322
+      ],
+      "description": "左侧白色拍立得相纸，包含照片四周较宽白边和下方空白纸边。",
+      "photo_id": [
+        "photo_top_left"
+      ]
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        422,
+        126,
+        664,
+        282
+      ],
+      "description": "上方中央横向泳池照片，蓝色池水前有木质圆筒与小物件，背景为庭院植物和石质池边；保留完整矩形摄影环境。"
+    },
+    {
+      "id": "frame_top_center",
+      "kind": "frame",
+      "bbox": [
+        405,
+        110,
+        676,
+        321
+      ],
+      "description": "中央白色拍立得相纸，包含照片四周白边及下方空白纸边。",
+      "photo_id": [
+        "photo_top_center"
+      ]
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        728,
+        124,
+        969,
+        282
+      ],
+      "description": "右上横向近景照片，一名黑发女性侧身望向左侧，穿浅粉色上衣，身后可见木墙与窗外绿植；保留矩形照片内的环境。"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        715,
+        109,
+        986,
+        320
+      ],
+      "description": "右侧白色拍立得相纸，包含照片四周白边及下方空白纸边。",
+      "photo_id": [
+        "photo_top_right"
+      ]
+    },
+    {
+      "id": "paper_panel_main",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        420,
+        1008,
+        1355
+      ],
+      "description": "下方大幅浅灰绿色细纹理纸底板，露出于信封和花朵周围，完整矩形边缘保留。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        263,
+        606,
+        807,
+        1031
+      ],
+      "description": "中央竖向人物照片，一名长发女性穿灰白条纹露肩上衣，在绿植覆盖的拱形步道中张开双臂；步道、栏杆和远景均保留，照片下部被前景信封折片遮挡。"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        222,
+        560,
+        844,
+        1040
+      ],
+      "description": "中央白色照片卡纸，围绕单张竖向照片形成矩形窗口，保留宽白边；下缘与前景信封折片交叠。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "envelope",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        435,
+        904,
+        1334
+      ],
+      "description": "浅色纹理信封及折片整体，包含照片上方露出的半透明三角形后 flap、两侧纸边和覆盖照片下部的大型前折片；前折片印有散布的紫灰色星形，并遮住照片下缘。"
+    },
+    {
+      "id": "flower_cluster",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        807,
+        285,
+        1022
+      ],
+      "description": "信封左侧叠放的一簇白色花朵，含多朵盛开的花、花蕾及深色叶片，部分压在信封边缘上。"
+    },
+    {
+      "id": "location_label",
+      "kind": "overlay",
+      "bbox": [
+        398,
+        1128,
+        682,
+        1178
+      ],
+      "description": "信封前折片中央的黑色横向标签，白色粗体字写有“Marked a location”，文字与黑色底板作为一个固定标签保留。"
+    }
+  ],
+  "layer_order": [
+    "paper_strip_top",
+    "photo_top_left",
+    "frame_top_left",
+    "photo_top_center",
+    "frame_top_center",
+    "photo_top_right",
+    "frame_top_right",
+    "paper_panel_main",
+    "envelope",
+    "frame_main",
+    "photo_main",
+    "flower_cluster",
+    "location_label"
+  ]
+}

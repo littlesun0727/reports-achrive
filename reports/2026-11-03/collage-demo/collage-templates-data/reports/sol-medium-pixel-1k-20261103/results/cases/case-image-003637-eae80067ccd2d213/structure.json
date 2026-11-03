@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "全画布为暗色室内人物摄影的放大虚化画面，四边连续可见深色环境，底部和左下可见模糊的白色衣袖、人物及前景物品。一名长发女性位于中下部，主体大部分被中央清晰照片遮挡。该底图保留完整摄影环境及虚化外观，整体随客户照片替换，不与中央独立照片合并。"
+  },
+  "objects": [
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        115,
+        333,
+        695,
+        1107
+      ],
+      "description": "中央竖向矩形照片，一名长卷发女性穿白色露肩长袖短裙，身体正对镜头，微侧头嘟嘴，双手托着带花朵装饰的奶油蛋糕及方形托板。人物从头部显示至大腿，保留暗色室内墙面、左下花束与座椅、底部桌面等摄影环境。照片边界清晰，无独立固定框体；星环和两侧翅膀为后加装饰，不属于摄影内容。"
+    },
+    {
+      "id": "overlay_dots_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        299,
+        398,
+        621
+      ],
+      "description": "左上方开放折角式圆点装饰，顶部两排错列白色小圆点横向延伸，左侧两列圆点向下延伸并逐渐变暗。圆点整体构成一个固定装饰单元，保留点列间距与明暗变化。"
+    },
+    {
+      "id": "overlay_dots_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        457,
+        822,
+        733,
+        1146
+      ],
+      "description": "右下方开放折角式圆点装饰，右侧两列错位小圆点向下延伸，底部两排点列向左延伸；上方较亮，下方及左端较暗。整体保留为独立固定单元。"
+    },
+    {
+      "id": "overlay_star_halo",
+      "kind": "overlay",
+      "bbox": [
+        264,
+        429,
+        542,
+        494
+      ],
+      "description": "悬在人物头顶上方的扁椭圆星星光环，后侧为细小密集星点，前侧为较大的白色五角星，带柔和灰白光晕。整个星环作为一个独立装饰保留。"
+    },
+    {
+      "id": "overlay_wing_left",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        666,
+        187,
+        776
+      ],
+      "description": "左侧白色圆点勾勒的单只天使翅膀，包含向外伸出的羽状轮廓、内侧卷曲线及左边附属十字星点。整体作为一枚固定装饰，部分叠在中央照片左侧。"
+    },
+    {
+      "id": "overlay_wing_right",
+      "kind": "overlay",
+      "bbox": [
+        624,
+        666,
+        794,
+        776
+      ],
+      "description": "右侧白色圆点勾勒的单只天使翅膀，包含羽状轮廓、内侧卷曲线及右边附属十字星点，与左侧翅膀方向相对。整体独立保留，部分叠在中央照片右侧。"
+    },
+    {
+      "id": "overlay_birthday_banner",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1227,
+        811,
+        1297
+      ],
+      "description": "横贯画布的半透明深灰色横条及居中的白色闪亮花体字“Happy birthday”，字母具有特定连笔、装饰性大写笔画和细碎亮点。横条与字样共同构成底部祝福标题设计，整体保留，不拆为普通文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_center",
+    "overlay_dots_upper_left",
+    "overlay_dots_lower_right",
+    "overlay_star_halo",
+    "overlay_wing_left",
+    "overlay_wing_right",
+    "overlay_birthday_banner"
+  ]
+}

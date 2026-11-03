@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_photo",
+    "description": "连续的海岸摄影画面覆盖整个画布，包含上部翻涌的海水、中部深色海面、下部岩石海岸及岩石上的人物，摄影环境延伸至四条画布边缘；白色手写字样叠加在海面与岩石上方，局部遮挡底图但不改变其完整替换范围。"
+  },
+  "objects": [
+    {
+      "id": "overlay_main_script",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        667,
+        1024,
+        861
+      ],
+      "description": "横跨画面中下部海面的白色大型手写艺术字，带有明显的连笔、长横线和下垂笔画，作为独立固定设计单元保留，不按普通文字排版拆分。"
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        408,
+        1305,
+        662,
+        1384
+      ],
+      "description": "位于下方岩石区域中央的白色手写署名字样及其细长装饰笔画，作为独立艺术字装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_main_script",
+    "overlay_signature"
+  ]
+}

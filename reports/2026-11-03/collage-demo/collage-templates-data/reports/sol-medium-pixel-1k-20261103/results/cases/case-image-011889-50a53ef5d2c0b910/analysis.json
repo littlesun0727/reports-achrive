@@ -1,0 +1,571 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "kraft_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布连续的浅棕色牛皮纸底，具有纤维、细小斑点和不均匀纸纹，四边及纸张外围均可见。保留固定纸质底图，独立照片、叠纸和装饰不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的浅棕色牛皮纸底，具有纤维、细小斑点和不均匀纸纹，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "newspaper_top",
+      "kind": "overlay",
+      "bbox": [
+        723,
+        88,
+        1014,
+        229
+      ],
+      "description": "右上方露出的不规则黑白报纸碎片，含密集栏文、粗体标题和撕纸边，部分被下方叠纸遮住；印刷文字随纸片保留。",
+      "label": "右上方露出的不规则黑白报纸碎片，含密集栏文、粗体标题和撕纸边",
+      "method": "extract"
+    },
+    {
+      "id": "newspaper_bottom",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        1241,
+        493,
+        1427
+      ],
+      "description": "左下方露出的倾斜黑白报纸碎片，包含多栏印刷文字和不规则纸边，上部被承托纸张遮挡。",
+      "label": "左下方露出的倾斜黑白报纸碎片，包含多栏印刷文字和不规则纸边，",
+      "method": "extract"
+    },
+    {
+      "id": "yellow_paper_top",
+      "kind": "overlay",
+      "bbox": [
+        359,
+        82,
+        736,
+        183
+      ],
+      "description": "上方浅黄色矩形便笺纸，露出上沿及两侧，下部被大张白纸遮挡，保留纸面色差与边缘。",
+      "label": "上方浅黄色矩形便笺纸，露出上沿及两侧，下部被大张白纸遮挡，保",
+      "method": "extract"
+    },
+    {
+      "id": "tan_backing_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        157,
+        1018,
+        1358
+      ],
+      "description": "白色笔记纸下方倾斜的浅棕色承托纸，左侧可见孔洞与纸边，右侧和底部露出宽窄不一的纸面及折边；不形成独立照片窗口。",
+      "label": "白色笔记纸下方倾斜的浅棕色承托纸，左侧可见孔洞与纸边，右侧和",
+      "method": "extract"
+    },
+    {
+      "id": "cream_backing_paper",
+      "kind": "overlay",
+      "bbox": [
+        121,
+        173,
+        992,
+        1308
+      ],
+      "description": "位于笔记纸与棕色承托纸之间的浅奶油色纸张，上部、右侧及底边局部露出，保留柔和纸面和边缘阴影，不补画被遮挡细节。",
+      "label": "位于笔记纸与棕色承托纸之间的浅奶油色纸张，上部、右侧及底边局",
+      "method": "extract"
+    },
+    {
+      "id": "notebook_sheet",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        166,
+        987,
+        1299
+      ],
+      "description": "主要白色横线笔记纸，左侧整列圆形装订孔、略不规则的纸边、浅灰横线和纸张阴影为完整固定单元。其上照片与贴纸均独立记录，纸张本身不形成照片内口。",
+      "label": "主要白色横线笔记纸，左侧整列圆形装订孔、略不规则的纸边、浅灰",
+      "method": "extract"
+    },
+    {
+      "id": "frame_drinks",
+      "kind": "frame",
+      "bbox": [
+        215,
+        246,
+        545,
+        687
+      ],
+      "description": "左上倾斜照片的白色撕边纸框，四周具有不规则纸纤维轮廓及灰色投影，完整框体保留。",
+      "photo_id": [
+        "photo_drinks"
+      ],
+      "label": "左上倾斜照片的白色撕边纸框，四周具有不规则纸纤维轮廓及灰色投",
+      "method": "extract"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        230,
+        269,
+        533,
+        666
+      ],
+      "description": "桌面餐饮竖幅照片，两杯深色饮品、浅色奶泡、餐盘中的面包及右侧小碟位于桌上，后方保留窗户与百叶帘。完整倾斜照片内口显示摄影环境，左上和左下局部被胶带、贴纸遮挡。",
+      "label": "桌面餐饮竖幅照片，两杯深色饮品、浅色奶泡、餐盘中的面包及右侧",
+      "method": "local"
+    },
+    {
+      "id": "frame_hotpot",
+      "kind": "frame",
+      "bbox": [
+        500,
+        522,
+        810,
+        775
+      ],
+      "description": "中右横幅照片的白色撕边纸框，保留不规则四边与阴影，上右侧被格纹胶带覆盖，右下侧被绿色便笺遮挡。",
+      "photo_id": [
+        "photo_hotpot"
+      ],
+      "label": "中右横幅照片的白色撕边纸框，保留不规则四边与阴影，上右侧被格",
+      "method": "extract"
+    },
+    {
+      "id": "photo_hotpot",
+      "kind": "photo",
+      "bbox": [
+        516,
+        542,
+        795,
+        753
+      ],
+      "description": "火锅餐桌近景，左右锅具、肉片托盘、蘸料碗和多只小动物玩偶共同属于照片，保留完整餐桌摄影环境；上右角及右下角被固定装饰局部遮住。",
+      "label": "火锅餐桌近景，左右锅具、肉片托盘、蘸料碗和多只小动物玩偶共同",
+      "method": "local"
+    },
+    {
+      "id": "frame_plush",
+      "kind": "frame",
+      "bbox": [
+        237,
+        705,
+        549,
+        953
+      ],
+      "description": "中左横幅照片的白色撕边纸框，带粗糙纸边和柔和阴影，左上被黑灰格纹胶带压住，右下局部被前方照片纸框遮挡。",
+      "photo_id": [
+        "photo_plush"
+      ],
+      "label": "中左横幅照片的白色撕边纸框，带粗糙纸边和柔和阴影，左上被黑灰",
+      "method": "extract"
+    },
+    {
+      "id": "photo_plush",
+      "kind": "photo",
+      "bbox": [
+        253,
+        725,
+        534,
+        934
+      ],
+      "description": "草叶与三叶草间的浅灰色兔子玩偶近景，玩偶横向倾斜，右侧带粉色和蓝色配件，右下可见托住玩偶的手。绿植环境保留，按完整矩形照片内口显示，没有沿玩偶轮廓去背景。",
+      "label": "草叶与三叶草间的浅灰色兔子玩偶近景，玩偶横向倾斜，右侧带粉色",
+      "method": "local"
+    },
+    {
+      "id": "frame_shop",
+      "kind": "frame",
+      "bbox": [
+        492,
+        790,
+        829,
+        1216
+      ],
+      "description": "右下倾斜竖幅照片的白色撕边纸框，完整保留纸边、下缘和灰色阴影，左下边缘被棕色圆点胶带覆盖。",
+      "photo_id": [
+        "photo_shop"
+      ],
+      "label": "右下倾斜竖幅照片的白色撕边纸框，完整保留纸边、下缘和灰色阴影",
+      "method": "extract"
+    },
+    {
+      "id": "photo_shop",
+      "kind": "photo",
+      "bbox": [
+        511,
+        812,
+        814,
+        1192
+      ],
+      "description": "店内墙面与玻璃展示柜的竖幅照片，深色墙上有饮品菜单海报，下部可见绿植和玻璃柜。菜单字样属于实拍场景，摄影环境整体替换；左下局部被胶带遮挡。",
+      "label": "店内墙面与玻璃展示柜的竖幅照片，深色墙上有饮品菜单海报，下部",
+      "method": "local"
+    },
+    {
+      "id": "tape_drinks",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        231,
+        311,
+        365
+      ],
+      "description": "斜贴在左上照片纸框上的半透明浅棕色胶带，带纸质纹理、不规则断口及淡色图案，作为完整胶带保留。",
+      "label": "斜贴在左上照片纸框上的半透明浅棕色胶带，带纸质纹理、不规则断",
+      "method": "extract"
+    },
+    {
+      "id": "green_face_sticker",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        559,
+        297,
+        645
+      ],
+      "description": "压在左上照片左下边缘的绿色方形贴纸，细密白点底纹、浅绿色五角星及黑色小表情组成完整设计。",
+      "label": "压在左上照片左下边缘的绿色方形贴纸，细密白点底纹、浅绿色五角",
+      "method": "extract"
+    },
+    {
+      "id": "tape_hotpot",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        486,
+        842,
+        593
+      ],
+      "description": "中右照片上沿的倾斜浅棕白色格纹胶带，包含胶带上的浅黄色小星图案及纸边，覆盖照片和纸框。",
+      "label": "中右照片上沿的倾斜浅棕白色格纹胶带，包含胶带上的浅黄色小星图",
+      "method": "extract"
+    },
+    {
+      "id": "clover_note",
+      "kind": "overlay",
+      "bbox": [
+        754,
+        690,
+        867,
+        805
+      ],
+      "description": "照片右下方的浅奶油色方形贴纸，中央为浅绿色四叶草图案，上部有极小印字，整体覆盖火锅照片与白色纸框。",
+      "label": "照片右下方的浅奶油色方形贴纸，中央为浅绿色四叶草图案，上部有",
+      "method": "extract"
+    },
+    {
+      "id": "tape_plush",
+      "kind": "overlay",
+      "bbox": [
+        214,
+        689,
+        332,
+        797
+      ],
+      "description": "斜贴在玩偶照片左上角的黑灰米白格纹胶带，保留完整交错线纹及不规则端部。",
+      "label": "斜贴在玩偶照片左上角的黑灰米白格纹胶带，保留完整交错线纹及不",
+      "method": "extract"
+    },
+    {
+      "id": "tape_shop",
+      "kind": "overlay",
+      "bbox": [
+        456,
+        1095,
+        581,
+        1207
+      ],
+      "description": "压在右下照片左下边缘的斜向棕色胶带，带均匀奶白圆点和锯齿状断口，完整胶带独立保留。",
+      "label": "压在右下照片左下边缘的斜向棕色胶带，带均匀奶白圆点和锯齿状断",
+      "method": "extract"
+    },
+    {
+      "id": "apple_quote",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        244,
+        804,
+        468
+      ],
+      "description": "右上苹果形文字贴纸，包含红色苹果外缘、奶油色横线内底、棕色果梗及浅绿色叶片。内部手写文字为“我的存在／就是一个永恒的惊喜／生命本是惊喜”，字形与苹果载体整体保留，局部被绿色星贴遮挡。",
+      "label": "右上苹果形文字贴纸，包含红色苹果外缘、奶油色横线内底、棕色果",
+      "method": "extract"
+    },
+    {
+      "id": "green_star_top",
+      "kind": "overlay",
+      "bbox": [
+        711,
+        248,
+        809,
+        346
+      ],
+      "description": "苹果右上方的绿色五角星贴纸，具有浅色虚线内边及细微纹理，叠压苹果边缘。",
+      "label": "苹果右上方的绿色五角星贴纸，具有浅色虚线内边及细微纹理，叠压",
+      "method": "extract"
+    },
+    {
+      "id": "green_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        588,
+        382,
+        684,
+        482
+      ],
+      "description": "苹果左下方的绿色五角星贴纸，保留浅色虚线内边及下方微小附属印字，覆盖苹果轮廓和文字区域的一角。",
+      "label": "苹果左下方的绿色五角星贴纸，保留浅色虚线内边及下方微小附属印",
+      "method": "extract"
+    },
+    {
+      "id": "mint_star_apple",
+      "kind": "overlay",
+      "bbox": [
+        722,
+        446,
+        748,
+        471
+      ],
+      "description": "苹果底缘偏右的一枚浅薄荷绿色小星形点缀，独立于苹果红色轮廓。",
+      "label": "苹果底缘偏右的一枚浅薄荷绿色小星形点缀，独立于苹果红色轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "blue_star_cluster",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        302,
+        878,
+        500
+      ],
+      "description": "苹果右侧竖向淡蓝灰色装饰簇，包含数枚浅色星形、斜线填纹、白色圆点及带“wow”字样的倾斜小标签，作为同一区域的完整轻淡装饰保留。",
+      "label": "苹果右侧竖向淡蓝灰色装饰簇，包含数枚浅色星形、斜线填纹、白色",
+      "method": "extract"
+    },
+    {
+      "id": "pink_star_right",
+      "kind": "overlay",
+      "bbox": [
+        879,
+        507,
+        905,
+        535
+      ],
+      "description": "右侧纸面上的独立粉色小五角星。",
+      "label": "右侧纸面上的独立粉色小五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "purple_dot_right",
+      "kind": "overlay",
+      "bbox": [
+        848,
+        607,
+        867,
+        627
+      ],
+      "description": "右侧纸面上的独立浅紫色圆点。",
+      "label": "右侧纸面上的独立浅紫色圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "yellow_star_quote",
+      "kind": "overlay",
+      "bbox": [
+        202,
+        967,
+        445,
+        1207
+      ],
+      "description": "左下大型黄色星形文字贴纸，保留浅色网格、虚线边、白色外缘及阴影。手写文字为“独立而自由的灵魂／才是幸福之源／做自己／比任何事情都重要”，下方微小印字随贴纸保留。",
+      "label": "左下大型黄色星形文字贴纸，保留浅色网格、虚线边、白色外缘及阴",
+      "method": "extract"
+    },
+    {
+      "id": "gray_star_label",
+      "kind": "overlay",
+      "bbox": [
+        384,
+        965,
+        490,
+        1020
+      ],
+      "description": "黄色星形贴纸右上方的灰米色不规则短标签，内部黑色手绘空心星星、点线及小星图案整体保留。",
+      "label": "黄色星形贴纸右上方的灰米色不规则短标签，内部黑色手绘空心星星",
+      "method": "extract"
+    },
+    {
+      "id": "yellow_speech_sticker",
+      "kind": "overlay",
+      "bbox": [
+        829,
+        873,
+        933,
+        948
+      ],
+      "description": "右侧黄色对话气泡贴纸，含白色星形、白色感叹号及星内细小笔画，完整保留气泡尾部和纸面纹理。",
+      "label": "右侧黄色对话气泡贴纸，含白色星形、白色感叹号及星内细小笔画，",
+      "method": "extract"
+    },
+    {
+      "id": "gray_large_star",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        980,
+        920,
+        1081
+      ],
+      "description": "右侧灰米色五角星贴纸，带黑色双重手绘轮廓与虚线内边，完整纸质轮廓保留。",
+      "label": "右侧灰米色五角星贴纸，带黑色双重手绘轮廓与虚线内边，完整纸质",
+      "method": "extract"
+    },
+    {
+      "id": "music_sticker",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        1137,
+        944,
+        1233
+      ],
+      "description": "右下音乐装饰，浅色不规则纸底上有黑色五线谱、连音符及周围三枚手绘小星，附属图案作为一个完整贴纸保留。",
+      "label": "右下音乐装饰，浅色不规则纸底上有黑色五线谱、连音符及周围三枚",
+      "method": "extract"
+    },
+    {
+      "id": "mint_star_left",
+      "kind": "overlay",
+      "bbox": [
+        206,
+        869,
+        231,
+        893
+      ],
+      "description": "玩偶照片左侧纸面上的薄荷绿色小五角星。",
+      "label": "玩偶照片左侧纸面上的薄荷绿色小五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "white_dot_plush",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        896,
+        296,
+        913
+      ],
+      "description": "叠加在玩偶照片左下草叶区域的纯白色小圆点，不属于摄影内容。",
+      "label": "叠加在玩偶照片左下草叶区域的纯白色小圆点，不属于摄影内容。",
+      "method": "extract"
+    },
+    {
+      "id": "pink_star_plush",
+      "kind": "overlay",
+      "bbox": [
+        343,
+        925,
+        367,
+        949
+      ],
+      "description": "玩偶照片下沿中央偏左的粉色小五角星，跨在照片和白色纸框边缘。",
+      "label": "玩偶照片下沿中央偏左的粉色小五角星，跨在照片和白色纸框边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "blue_dot_left",
+      "kind": "overlay",
+      "bbox": [
+        201,
+        971,
+        218,
+        989
+      ],
+      "description": "黄色星形文字贴纸左上方纸面上的浅蓝色小圆点。",
+      "label": "黄色星形文字贴纸左上方纸面上的浅蓝色小圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "yellow_small_star",
+      "kind": "overlay",
+      "bbox": [
+        274,
+        963,
+        299,
+        987
+      ],
+      "description": "黄色星形文字贴纸上方的独立浅黄色小五角星。",
+      "label": "黄色星形文字贴纸上方的独立浅黄色小五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "purple_dot_left",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        1012,
+        333,
+        1031
+      ],
+      "description": "黄色星形文字贴纸上部叠加的浅紫色小圆点，独立于网格底纹。",
+      "label": "黄色星形文字贴纸上部叠加的浅紫色小圆点，独立于网格底纹。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "kraft_background",
+    "newspaper_top",
+    "newspaper_bottom",
+    "yellow_paper_top",
+    "tan_backing_paper",
+    "cream_backing_paper",
+    "notebook_sheet",
+    "frame_drinks",
+    "photo_drinks",
+    "frame_hotpot",
+    "photo_hotpot",
+    "frame_plush",
+    "photo_plush",
+    "frame_shop",
+    "photo_shop",
+    "tape_drinks",
+    "green_face_sticker",
+    "tape_hotpot",
+    "clover_note",
+    "tape_plush",
+    "tape_shop",
+    "apple_quote",
+    "green_star_top",
+    "green_star_bottom",
+    "mint_star_apple",
+    "blue_star_cluster",
+    "pink_star_right",
+    "purple_dot_right",
+    "yellow_star_quote",
+    "gray_star_label",
+    "yellow_speech_sticker",
+    "gray_large_star",
+    "music_sticker",
+    "mint_star_left",
+    "white_dot_plush",
+    "pink_star_plush",
+    "blue_dot_left",
+    "yellow_small_star",
+    "purple_dot_left"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1640,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1640,
+        1080
+      ],
+      "description": "昏暗、带颗粒感的俯拍摄影画面连续铺满画布：中央可见一部带圆点图案的手机及局部手部，周围是深色纹理表面和左侧浅色物件；主体与环境延伸至画布四边，覆盖其上的大号文字遮挡局部。",
+      "background_type": "photo",
+      "label": "昏暗、带颗粒感的俯拍摄影画面连续铺满画布：中央可见一部带圆点",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        116,
+        72,
+        1472,
+        986
+      ],
+      "description": "i love listening\nto music and\nimagining stuff\nhappening",
+      "label": "i love listening\nto music and\n",
+      "method": "local",
+      "text": "i love listening\nto music and\nimagining stuff\nhappening",
+      "text_status": "known",
+      "style": {
+        "fill": "#090909",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_quote"
+  ]
+}

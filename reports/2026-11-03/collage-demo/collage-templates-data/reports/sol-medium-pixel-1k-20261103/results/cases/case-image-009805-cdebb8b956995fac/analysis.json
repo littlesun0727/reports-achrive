@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1025,
+    1536
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1025,
+        1536
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1025,
+        608
+      ],
+      "description": "上方横向生日场景照片，一名短发女子穿浅色印花睡衣，坐在白色桌面后，低头张口并将一只手抬到眼旁，另一只手靠近蛋糕。桌上有礼盒造型蛋糕及小熊装饰，身后有浅黄、浅蓝气球、窗户和夜间室内环境。摄影背景完整保留，照片左右及上缘抵达画布边缘，下缘由中央纸条覆盖，无沿主体去背景的迹象。",
+      "label": "上方横向生日场景照片，一名短发女子穿浅色印花睡衣，坐在白色桌",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        932,
+        1025,
+        1536
+      ],
+      "description": "下方独立横向近景照片，画面集中展示一名穿浅色印花睡衣者的躯干、双手及桌上的生日蛋糕，头部不在显示窗口内。双手分列蛋糕两侧，礼盒造型蛋糕上有系粉色蝴蝶结的小熊，前方卡片带线描动物图案，均属于摄影内容。保留桌面和室内背景，左右及下缘抵达画布边缘，上缘紧邻中央纸条；与上方照片景别及手势不连续。",
+      "label": "下方独立横向近景照片，画面集中展示一名穿浅色印花睡衣者的躯干",
+      "method": "local"
+    },
+    {
+      "id": "overlay_birthday_strip",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        606,
+        1025,
+        934
+      ],
+      "description": "横贯画布中央的浅棕色牛皮纸质感长条，具有颗粒、纤维和深浅斑点，中央印有黑色“Happy Birthday”。文字与纸质载体构成完整生日标签，一并保留，不拆成独立文字；该纸条不承担照片窗口功能，上下边缘遮住两张照片的交界。",
+      "label": "横贯画布中央的浅棕色牛皮纸质感长条，具有颗粒、纤维和深浅斑点",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_birthday_strip"
+  ]
+}

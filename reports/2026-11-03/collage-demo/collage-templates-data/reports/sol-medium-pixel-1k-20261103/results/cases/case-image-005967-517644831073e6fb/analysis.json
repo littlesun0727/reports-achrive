@@ -1,0 +1,120 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    839,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "background_gray",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        839,
+        1441
+      ],
+      "description": "全画布连续灰色渐变底图，顶部为深炭灰色，向下逐渐过渡到浅暖灰色；四周边缘、照片之间及底部留白均露出这一底图。保留渐变外观，四张独立照片、中央横条及文字另列，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布连续灰色渐变底图，顶部为深炭灰色，向下逐渐过渡到浅暖灰",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        41,
+        85,
+        407,
+        635
+      ],
+      "description": "左上竖向餐桌照片，无人物。斜向俯拍的桌面上有餐盘、肉食、沙拉、酒杯和调味瓶，左后方摆着花束与兔子玩偶，右侧是深色椅子，后方为暗色玻璃及室内环境。保留完整矩形摄影画面，边缘清晰，无可见独立描边或透明渐隐。",
+      "label": "左上竖向餐桌照片，无人物。斜向俯拍的桌面上有餐盘、肉食、沙拉",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        433,
+        85,
+        800,
+        635
+      ],
+      "description": "右上竖向礼物近景照片，无人物。浅色桌面中央有白色长耳兔玩偶和花束，左侧礼品袋被照片边缘裁切，右下为打开的白色礼盒，内有粉色化妆品与纸质填充物，后方可见椅子及室内设施。完整保留摄影环境，矩形窗口与左侧照片分离。",
+      "label": "右上竖向礼物近景照片，无人物。浅色桌面中央有白色长耳兔玩偶和",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        37,
+        764,
+        403,
+        1314
+      ],
+      "description": "左下竖向卧室照片，无人物。白色床铺上摆放一大一小两只长耳兔玩偶、浅色花束、印有DIOR字样的礼品袋与盒子，以及前景的小蛋糕；后方可见枕头、床头灯带和深色窗帘。袋盒文字属于实拍内容，随照片替换。保留完整矩形摄影环境，无去背景或渐隐。",
+      "label": "左下竖向卧室照片，无人物。白色床铺上摆放一大一小两只长耳兔玩",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        432,
+        764,
+        799,
+        1314
+      ],
+      "description": "右下竖向暗色餐厅环境照片，无清晰可辨人物。上部为深色天花与吊灯，中后部有窗帘、反光墙面及吧台，前景分布深色座椅、圆桌、盘子和高脚杯。独立拍摄视角与其余三图不连续，保留完整矩形室内画面，暗部为摄影明暗而非透明效果。",
+      "label": "右下竖向暗色餐厅环境照片，无清晰可辨人物。上部为深色天花与吊",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title_strip",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        676,
+        839,
+        732
+      ],
+      "description": "横贯画布的深灰色半透明感标题底条，位于上下两排照片之间，具有平直的上下边缘；仅承托标题，不形成照片窗口，作为独立固定设计单元保留。",
+      "label": "横贯画布的深灰色半透明感标题底条，位于上下两排照片之间，具有",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        292,
+        688,
+        548,
+        718
+      ],
+      "description": "Fragments of life",
+      "label": "Fragments of life",
+      "method": "local",
+      "text": "Fragments of life",
+      "text_status": "known",
+      "style": {
+        "fill": "#D8D8D5",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "background_gray",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_title_strip",
+    "text_title"
+  ]
+}

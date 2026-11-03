@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的户外静物摄影覆盖全画布，无人物。下半部中央是一张深色木凳，凳面放着翻开的书、两个水果和一杯带冰块的橙色饮料；粗糙地面及树影延伸至四边，上方地面失焦。木凳及物品的投影属于摄影内容，整体随客户照片替换。上叠浅色圆点和手写字样，未改变底图的完整显示范围。"
+  },
+  "objects": [
+    {
+      "id": "overlay_dot_top",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        12,
+        793,
+        92
+      ],
+      "description": "画面顶部偏右的浅奶油色实心圆点，独立叠加在摄影画面上，保留略柔和的边缘。"
+    },
+    {
+      "id": "overlay_dot_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        175,
+        97,
+        254,
+        176
+      ],
+      "description": "左上方浅奶油色实心圆点，与其他圆点分离，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_dot_left_edge",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        242,
+        9,
+        295
+      ],
+      "description": "左侧画布边缘露出的浅奶油色圆点弧形残部，其余部分在画布之外；仅记录画布内显示范围。"
+    },
+    {
+      "id": "overlay_dot_center",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        351,
+        495,
+        430
+      ],
+      "description": "上半部中央偏左的浅奶油色实心圆点，独立覆盖地面摄影内容。"
+    },
+    {
+      "id": "overlay_dot_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        754,
+        412,
+        834,
+        491
+      ],
+      "description": "手写字样下方偏右的浅奶油色实心圆点，与文字不相连，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_dot_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        632,
+        152,
+        712
+      ],
+      "description": "木凳左上侧的浅奶油色实心圆点，叠在地面摄影内容上，不属于实拍物品。"
+    },
+    {
+      "id": "overlay_dot_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        864,
+        886,
+        944
+      ],
+      "description": "木凳右侧的浅奶油色实心圆点，与其他装饰分离，保留完整圆形及柔和边缘。"
+    },
+    {
+      "id": "overlay_dot_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        1068,
+        307,
+        1148
+      ],
+      "description": "画面下部偏左、木凳腿附近的浅奶油色实心圆点，独立覆盖摄影内容。"
+    },
+    {
+      "id": "overlay_dot_bottom",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        1203,
+        735,
+        1283
+      ],
+      "description": "靠近画布底边偏右的浅奶油色实心圆点，完整显示，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_lettering",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        150,
+        875,
+        362
+      ],
+      "description": "右上方浅奶油色细线手写英文装饰，分三行写着“Very little”“is needed to”“make a happy life”。字母大小、基线和倾斜角度不规则，首行大写V突出，末行向右上倾斜；保留整组原有笔画与相对排布，不拆为普通文字。"
+    }
+  ],
+  "layer_order": [
+    "overlay_dot_top",
+    "overlay_dot_upper_left",
+    "overlay_dot_left_edge",
+    "overlay_dot_center",
+    "overlay_dot_upper_right",
+    "overlay_dot_middle_left",
+    "overlay_dot_middle_right",
+    "overlay_dot_lower_left",
+    "overlay_dot_bottom",
+    "overlay_lettering"
+  ]
+}

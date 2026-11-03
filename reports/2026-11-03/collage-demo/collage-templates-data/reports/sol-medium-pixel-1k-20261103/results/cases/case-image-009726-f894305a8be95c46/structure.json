@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        480
+      ],
+      "description": "上方横向室内静物照片：左侧为插有浅色干花的陶罐，中央垂挂白布，右侧有藤编篮及室内陈设；保留完整摄影环境，矩形照片下缘与中间照片在 y=480 处直接拼接。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        1080,
+        963
+      ],
+      "description": "中间横向桌面静物照片：白色桌布上有玻璃器皿、黑色圆形物件、盘子和装有小物件的藤篮，右侧有白色碗及部分入镜物品；保留完整摄影环境，照片上下缘分别与相邻照片在 y=480、y=963 处直接拼接。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        963,
+        1080,
+        1439
+      ],
+      "description": "下方横向室内陈设照片：中央为木质玻璃门柜，左侧有藤篮、陶器和格纹布，柜内可见餐具；保留完整摄影环境，矩形照片从 y=963 延伸至画布底边。"
+    },
+    {
+      "id": "overlay_top_dots",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        137,
+        819,
+        317
+      ],
+      "description": "叠在上方照片上的白色点阵装饰字样，呈分散的大字形与横向点列，造型化且无法可靠辨读，作为完整固定图形保留。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        289,
+        627,
+        792,
+        836
+      ],
+      "description": "中间照片上的白色装饰标题组合，包含斜体衬线字样“Memory archive”及周围星形、十字和点状闪光，字形与点缀共同构成固定设计。"
+    },
+    {
+      "id": "overlay_bottom_dots",
+      "kind": "overlay",
+      "bbox": [
+        263,
+        1097,
+        819,
+        1282
+      ],
+      "description": "叠在下方照片上的白色点阵装饰字样，呈大型分散字形及横向点列，造型化且无法可靠辨读，作为完整固定图形保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_top_dots",
+    "overlay_title",
+    "overlay_bottom_dots"
+  ]
+}

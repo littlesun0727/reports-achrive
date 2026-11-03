@@ -1,0 +1,102 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "dark_bars_base",
+    "description": "画布由顶部近黑色横向留白、中央独立摄影画面位置以及底部深灰色横向留白构成，保留固定的上下色块背景；中央照片、字幕条、贴纸和底部小水印作为独立对象替换或重建。"
+  },
+  "objects": [
+    {
+      "id": "photo_fit_check",
+      "kind": "photo",
+      "bbox": [
+        0,
+        240,
+        1080,
+        1680
+      ],
+      "description": "竖向完整摄影画面，拍摄黑色服装和鞋子位于深色瓷砖地面上的俯视穿搭场景，画面上方可见腿部、线缆和暗部环境，下方可见鞋子与外套；摄影环境保留在矩形显示窗口内，中央字幕条和贴纸遮挡局部。"
+    },
+    {
+      "id": "overlay_caption_bar",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1001,
+        1080,
+        1096
+      ],
+      "description": "横跨中央摄影画面的半透明黑色字幕承托条，覆盖照片中部并作为独立固定界面单元保留。"
+    },
+    {
+      "id": "overlay_heart_sticker",
+      "kind": "overlay",
+      "bbox": [
+        183,
+        815,
+        254,
+        885
+      ],
+      "description": "照片左侧偏下位置的银灰色立体心形贴纸，带有高光和暗色描边，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_lips_sticker",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        1221,
+        872,
+        1277
+      ],
+      "description": "照片右侧偏下位置的红色嘴唇贴纸，覆盖在瓷砖地面区域，作为独立装饰保留。"
+    },
+    {
+      "id": "text_fit_check",
+      "kind": "text",
+      "bbox": [
+        398,
+        1032,
+        575,
+        1074
+      ],
+      "text": "Fit check",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_caption_emojis",
+      "kind": "overlay",
+      "bbox": [
+        572,
+        1022,
+        681,
+        1075
+      ],
+      "description": "字幕右侧紧接文字的蓝灰色摄像机表情和蓝色菱形表情组合，作为固定图标装饰整体保留。"
+    },
+    {
+      "id": "overlay_bottom_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1892,
+        1072,
+        1910
+      ],
+      "description": "画布右下角底部灰色区域中的微小浅灰色平台水印标记，作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_fit_check",
+    "overlay_heart_sticker",
+    "overlay_lips_sticker",
+    "overlay_caption_bar",
+    "text_fit_check",
+    "overlay_caption_emojis",
+    "overlay_bottom_watermark"
+  ]
+}

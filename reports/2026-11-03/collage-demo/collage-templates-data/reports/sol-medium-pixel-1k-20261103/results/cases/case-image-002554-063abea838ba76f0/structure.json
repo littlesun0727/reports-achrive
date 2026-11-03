@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "日落海滩的连续摄影画面覆盖全画布：上半部为蓝灰天空，地平线横贯画面中部，下方是浅滩、海水与前景沙地。画布四边及上方小照片之间均可见同一环境；中央矩形人像照片和上方三张小照片遮挡其局部。"
+  },
+  "objects": [
+    {
+      "id": "photo_chair",
+      "kind": "photo",
+      "bbox": [
+        105,
+        127,
+        314,
+        337
+      ],
+      "description": "左上方竖向海边照片，白色座椅立在浅海中，包含天空、海面与岸边；矩形窗口内保留完整摄影环境。"
+    },
+    {
+      "id": "photo_sand_drawing",
+      "kind": "photo",
+      "bbox": [
+        439,
+        127,
+        645,
+        334
+      ],
+      "description": "上方中央近方形照片，浅色沙地上有深色线条构成的星形图案；沙地纹理与图案均属于照片，矩形窗口完整显示。"
+    },
+    {
+      "id": "photo_fan",
+      "kind": "photo",
+      "bbox": [
+        773,
+        130,
+        979,
+        338
+      ],
+      "description": "右上方竖向海边照片，手持白色小风扇置于前景，背景可见海面与岸边；保留照片内完整摄影环境，矩形窗口显示。"
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        392,
+        463,
+        1000,
+        1291
+      ],
+      "description": "中央偏右的大幅竖向海滩照片，一名戴深色帽子的成年人全身面向镜头站在浅滩，双臂向两侧伸展，手持小物；穿浅色上衣与深色宽腿裤。天空、海面、浪边及沙地均保留在矩形照片窗口内，照片覆盖全画布底图的局部。"
+    },
+    {
+      "id": "overlay_star_large",
+      "kind": "overlay",
+      "bbox": [
+        312,
+        1178,
+        448,
+        1317
+      ],
+      "description": "照片左下方叠放一枚亮蓝色五角海星贴纸，带浅色描边与内部纹理，完整外轮廓保留；部分压在中央照片边缘之外。"
+    },
+    {
+      "id": "overlay_star_small",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        1292,
+        522,
+        1366
+      ],
+      "description": "画面下方中央偏左的一枚小型亮蓝色五角海星贴纸，带浅色描边与内部纹理，位于大照片下缘之外并叠在背景上。"
+    }
+  ],
+  "layer_order": [
+    "photo_chair",
+    "photo_sand_drawing",
+    "photo_fan",
+    "photo_person",
+    "overlay_star_large",
+    "overlay_star_small"
+  ]
+}

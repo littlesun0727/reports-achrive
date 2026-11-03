@@ -1,0 +1,426 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "striped_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "浅粉色与白色细斜条纹构成固定底纹，在画布顶部及左右上角连续露出，下部被深褐色面板遮挡。保留条纹和织物般的细微质感，不包含上叠的蕾丝、蝴蝶结、文字与照片。",
+      "background_type": "reference_clean",
+      "label": "浅粉色与白色细斜条纹构成固定底纹，在画布顶部及左右上角连续露",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "lace_doily",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        86,
+        965,
+        319
+      ],
+      "description": "大块浅粉白色蕾丝垫，顶部及两侧呈连续花瓣状镂空边缘，内部有细密织纹。下部被深褐色面板遮挡，按可见范围保留，不推测遮挡下的纹样。",
+      "label": "大块浅粉白色蕾丝垫，顶部及两侧呈连续花瓣状镂空边缘，内部有细",
+      "method": "extract"
+    },
+    {
+      "id": "lace_bow",
+      "kind": "overlay",
+      "bbox": [
+        322,
+        0,
+        801,
+        310
+      ],
+      "description": "顶部中央白色半透明蕾丝蝴蝶结，包含左右蝴蝶结环、中央结和向下展开的两条带尾，顶端被画布截断，整体压在粉色蕾丝垫上。",
+      "label": "顶部中央白色半透明蕾丝蝴蝶结，包含左右蝴蝶结环、中央结和向下",
+      "method": "extract"
+    },
+    {
+      "id": "brown_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        316,
+        1080,
+        1441
+      ],
+      "description": "覆盖画布中下部的深褐色固定界面面板，顶部两角圆弧，左右及底部延伸至画布边缘。包含横贯标题区下方的细灰色分隔线；照片、文字、标签和选择图标均为另外的独立对象。",
+      "label": "覆盖画布中下部的深褐色固定界面面板，顶部两角圆弧，左右及底部",
+      "method": "extract"
+    },
+    {
+      "id": "profile_photo",
+      "kind": "photo",
+      "bbox": [
+        45,
+        360,
+        213,
+        530
+      ],
+      "description": "左上小幅人物头像，一名黑发人物闭眼，双手托在脸颊附近，近距离正面取景，浅色摄影背景仍可见。照片显示在圆角方形区域内，角部及两侧被另列的卡通装饰局部覆盖。",
+      "label": "左上小幅人物头像，一名黑发人物闭眼，双手托在脸颊附近，近距离",
+      "method": "local"
+    },
+    {
+      "id": "profile_decoration",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        360,
+        213,
+        504
+      ],
+      "description": "围绕头像的固定卡通点缀组合，包括左上角被截断的白黄衣袖与手部线稿、左侧黄色星形以及右下侧小星光，保留各成员之间的空隙，不包含人物照片。",
+      "label": "围绕头像的固定卡通点缀组合，包括左上角被截断的白黄衣袖与手部",
+      "method": "extract"
+    },
+    {
+      "id": "title_text",
+      "kind": "text",
+      "bbox": [
+        234,
+        358,
+        702,
+        412
+      ],
+      "description": "Own the moment",
+      "label": "Own the moment",
+      "method": "local",
+      "text": "Own the moment",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "location_icon",
+      "kind": "overlay",
+      "bbox": [
+        246,
+        415,
+        277,
+        458
+      ],
+      "description": "白色细线定位图标，内部有小圆环，位于Happiness文字左侧，独立保留完整轮廓。",
+      "label": "白色细线定位图标，内部有小圆环，位于Happiness文字左",
+      "method": "extract"
+    },
+    {
+      "id": "happiness_text",
+      "kind": "text",
+      "bbox": [
+        282,
+        421,
+        473,
+        460
+      ],
+      "description": "Happiness",
+      "label": "Happiness",
+      "method": "local",
+      "text": "Happiness",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "good_vibes_label",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        466,
+        493,
+        535
+      ],
+      "description": "细白线胶囊形标签，内部白色文字为“Good vibes”。文字与独立圆角轮廓共同组成完整固定标签。",
+      "label": "细白线胶囊形标签，内部白色文字为“Good vibes”。文",
+      "method": "extract"
+    },
+    {
+      "id": "left_food_photo",
+      "kind": "photo",
+      "bbox": [
+        0,
+        631,
+        249,
+        1333
+      ],
+      "description": "左侧竖向餐桌照片，近景展示金属锅中的橙红色虾、蔬菜及配菜，下方可见红色锅座、桌面和浅色盘子，上方有局部手臂。保留完整摄影环境；右侧两角为圆角，左侧显示窗口被画布截断。上叠文字、方框、缩略照片及勾选图标另列。",
+      "label": "左侧竖向餐桌照片，近景展示金属锅中的橙红色虾、蔬菜及配菜，下",
+      "method": "local"
+    },
+    {
+      "id": "center_card",
+      "kind": "frame",
+      "bbox": [
+        277,
+        626,
+        804,
+        1328
+      ],
+      "description": "中央竖向圆角照片卡片，承载一个上部照片窗口。下部为浅粉色白短点纹面板，含灰色双眼和白灰色熊脸造型，底部两角圆润；这些固定图案随卡片整体保留，右下勾选按钮另列。",
+      "photo_id": [
+        "center_portrait"
+      ],
+      "label": "中央竖向圆角照片卡片，承载一个上部照片窗口。下部为浅粉色白短",
+      "method": "extract"
+    },
+    {
+      "id": "center_portrait",
+      "kind": "photo",
+      "bbox": [
+        278,
+        626,
+        803,
+        1111
+      ],
+      "description": "中央人物照片，一名长黑发年轻女子戴白色发夹，穿浅色系带上衣，低头看向下方，胸部以上正面取景，右侧可见餐叉。保留身后的绿植、墙面和木质餐厅环境。上方两角圆润，下沿被粉色卡片面板整齐截住，没有沿人体轮廓去背景。",
+      "label": "中央人物照片，一名长黑发年轻女子戴白色发夹，穿浅色系带上衣，",
+      "method": "local"
+    },
+    {
+      "id": "right_food_photo",
+      "kind": "photo",
+      "bbox": [
+        827,
+        626,
+        1080,
+        1325
+      ],
+      "description": "右侧独立竖向餐桌照片，金属锅中有橙红色虾、蔬菜和大片配菜，左侧可见餐具与黑色器物，下部为锅座和灰色桌面，上部有局部手部。与左侧照片的取景和器物位置不同，保留自身摄影环境；左侧两角圆润，右侧窗口被画布截断。",
+      "label": "右侧独立竖向餐桌照片，金属锅中有橙红色虾、蔬菜和大片配菜，左",
+      "method": "local"
+    },
+    {
+      "id": "left_good_day",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        700,
+        72,
+        729
+      ],
+      "description": "叠在左侧锅照上方的粉白装饰字样，末段可辨为“Day!”，左端被画布截断。保留粗厚特殊字形及浅色描边。",
+      "label": "叠在左侧锅照上方的粉白装饰字样，末段可辨为“Day!”，左端",
+      "method": "extract"
+    },
+    {
+      "id": "left_square_decoration",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        745,
+        161,
+        940
+      ],
+      "description": "左侧锅照上的几何装饰组合，由相互交叠的细白色空心方框和一块半透明粉色小方块组成；这些线条不沿照片窗口或食物轮廓，作为完整固定点缀保留。",
+      "label": "左侧锅照上的几何装饰组合，由相互交叠的细白色空心方框和一块半",
+      "method": "extract"
+    },
+    {
+      "id": "left_with_you",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        1025,
+        214,
+        1050
+      ],
+      "description": "左侧锅照中下部粉白色“With You”装饰字样，带粗厚圆润字形及浅色边缘，整体保留。",
+      "label": "左侧锅照中下部粉白色“With You”装饰字样，带粗厚圆润",
+      "method": "extract"
+    },
+    {
+      "id": "left_food_thumbnail",
+      "kind": "photo",
+      "bbox": [
+        93,
+        1118,
+        192,
+        1246
+      ],
+      "description": "叠在左侧大照片下部的小幅食物照片，展示盘中多块寿司或卷状食物，保留盘子、桌面及背景。小矩形略有倾斜，细粉色边线沿照片窗口附着，下部遮住大照片的锅座与桌面。",
+      "label": "叠在左侧大照片下部的小幅食物照片，展示盘中多块寿司或卷状食物",
+      "method": "local"
+    },
+    {
+      "id": "left_mode_label",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1259,
+        86,
+        1285
+      ],
+      "description": "左侧照片底部粉白色装饰字样，画布内可见末段“ty Mode”，其余被左边界截断。保留原有字形、描边和裁切状态。",
+      "label": "左侧照片底部粉白色装饰字样，画布内可见末段“ty Mode”",
+      "method": "extract"
+    },
+    {
+      "id": "left_check",
+      "kind": "overlay",
+      "bbox": [
+        184,
+        1254,
+        239,
+        1309
+      ],
+      "description": "左侧照片右下方的选择图标，深褐色圆形底、细白色圆周线及粗白色对勾组成一个完整按钮。",
+      "label": "左侧照片右下方的选择图标，深褐色圆形底、细白色圆周线及粗白色",
+      "method": "extract"
+    },
+    {
+      "id": "center_check",
+      "kind": "overlay",
+      "bbox": [
+        736,
+        1248,
+        789,
+        1301
+      ],
+      "description": "中央粉色卡片右下方的选择图标，深褐色圆底、浅色边缘和粗白色对勾整体保留，覆盖卡片点纹。",
+      "label": "中央粉色卡片右下方的选择图标，深褐色圆底、浅色边缘和粗白色对",
+      "method": "extract"
+    },
+    {
+      "id": "right_good_label",
+      "kind": "overlay",
+      "bbox": [
+        1002,
+        695,
+        1080,
+        723
+      ],
+      "description": "右侧锅照顶部粉白色装饰字样，可见“Goooo…”部分，右端被画布裁切。保留厚实字形和浅色描边，不补全画布外文字。",
+      "label": "右侧锅照顶部粉白色装饰字样，可见“Goooo…”部分，右端被",
+      "method": "extract"
+    },
+    {
+      "id": "right_square_decoration",
+      "kind": "overlay",
+      "bbox": [
+        980,
+        798,
+        1080,
+        934
+      ],
+      "description": "右侧锅照中的细浅粉色空心方框装饰，覆盖食物但不沿其轮廓，右侧部分超出画布，保留可见线段。",
+      "label": "右侧锅照中的细浅粉色空心方框装饰，覆盖食物但不沿其轮廓，右侧",
+      "method": "extract"
+    },
+    {
+      "id": "right_sweet_label",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        904,
+        915,
+        930
+      ],
+      "description": "右侧照片左中部粉白色“Sweet”装饰字样，具有粗厚圆润字形和浅色轮廓，作为固定艺术字保留。",
+      "label": "右侧照片左中部粉白色“Sweet”装饰字样，具有粗厚圆润字形",
+      "method": "extract"
+    },
+    {
+      "id": "right_arrow",
+      "kind": "overlay",
+      "bbox": [
+        899,
+        973,
+        974,
+        1050
+      ],
+      "description": "浅粉色宽笔画斜向右上箭头，位于右侧缩略食物照片上方，指向大锅中的食物，独立覆盖大照片。",
+      "label": "浅粉色宽笔画斜向右上箭头，位于右侧缩略食物照片上方，指向大锅",
+      "method": "extract"
+    },
+    {
+      "id": "right_food_thumbnail",
+      "kind": "photo",
+      "bbox": [
+        850,
+        1048,
+        975,
+        1174
+      ],
+      "description": "右侧大照片下部叠放的小幅方形食物照片，俯视展示拌有酱汁、海苔碎和多种配料的一盘食物，盘子及局部环境一起保留。细粉色边线依附于照片窗口，不单独建立框体。",
+      "label": "右侧大照片下部叠放的小幅方形食物照片，俯视展示拌有酱汁、海苔",
+      "method": "local"
+    },
+    {
+      "id": "right_bottom_label",
+      "kind": "overlay",
+      "bbox": [
+        1059,
+        1252,
+        1080,
+        1279
+      ],
+      "description": "右侧照片靠近底部的粉白色装饰文字残段，可见开头“Fr”，后续文字被画布右边界截断，保留原有特殊字形和描边。",
+      "label": "右侧照片靠近底部的粉白色装饰文字残段，可见开头“Fr”，后续",
+      "method": "extract"
+    },
+    {
+      "id": "watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1075,
+        1435
+      ],
+      "description": "画布右下角低对比度灰褐色小型圆角水印，内部可辨“小红书”，保留文字与胶囊形底板的完整组合。",
+      "label": "画布右下角低对比度灰褐色小型圆角水印，内部可辨“小红书”，保",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "striped_background",
+    "lace_doily",
+    "lace_bow",
+    "brown_panel",
+    "profile_photo",
+    "profile_decoration",
+    "title_text",
+    "location_icon",
+    "happiness_text",
+    "good_vibes_label",
+    "left_food_photo",
+    "center_card",
+    "center_portrait",
+    "right_food_photo",
+    "left_good_day",
+    "left_square_decoration",
+    "left_with_you",
+    "left_food_thumbnail",
+    "left_mode_label",
+    "left_check",
+    "center_check",
+    "right_good_label",
+    "right_square_decoration",
+    "right_sweet_label",
+    "right_arrow",
+    "right_food_thumbnail",
+    "right_bottom_label",
+    "watermark"
+  ]
+}

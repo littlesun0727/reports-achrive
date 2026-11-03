@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1000,
+    1667
+  ],
+  "objects": [
+    {
+      "id": "background_gradient",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1000,
+        1667
+      ],
+      "description": "覆盖全画布的柔和棕米色渐变底图，左侧偏暖灰棕，向右侧过渡为浅奶油色，照片之间及四周露出连续色彩变化。保留此固定渐变设计，独立照片、字样和贴纸不属于底图。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的柔和棕米色渐变底图，左侧偏暖灰棕，向右侧过渡为浅",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        140,
+        355,
+        859,
+        1314
+      ],
+      "description": "中央竖向矩形照片，两名长发女性紧靠合影，呈上半身至腰部景别；左侧女性闭眼噘嘴，右侧女性面向镜头并将手贴在脸侧。保留身后的酒柜、瓶子和室内环境。右上部分被小照片遮挡，左下部分被椭圆照片遮挡，右下角被心形装饰覆盖；显示范围仍为完整矩形，没有沿人物轮廓去背景。",
+      "label": "中央竖向矩形照片，两名长发女性紧靠合影，呈上半身至腰部景别；",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        613,
+        138,
+        937,
+        509
+      ],
+      "description": "右上独立照片，两名长发女性并肩坐在昏暗餐饮空间中，左侧女性低头微笑，右侧女性低头看向桌面，前景有两只装浅色饮品的高脚杯。保留完整摄影环境，照片以四角圆润的竖向窗口显示，下部覆盖中央照片的右上区域。",
+      "label": "右上独立照片，两名长发女性并肩坐在昏暗餐饮空间中，左侧女性低",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        25,
+        1118,
+        353,
+        1527
+      ],
+      "description": "左下独立双人照片，竖向椭圆窗口内两名长发女性靠坐，左侧女性看向镜头，右侧女性低头，底部可见一只高脚杯及局部手臂。保留昏暗室内环境，按椭圆边界显示而非沿人物去背景；照片上部和右侧压住中央照片左下区域。",
+      "label": "左下独立双人照片，竖向椭圆窗口内两名长发女性靠坐，左侧女性看",
+      "method": "local"
+    },
+    {
+      "id": "overlay_script",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        286,
+        395,
+        369
+      ],
+      "description": "左上白色花体字样“Is loving you”，保留细长连笔、夸张首字母和长弧线，以及字样附近的小圆点与菱形点缀。字形带特定书法造型，整体作为固定艺术字保留，末端及下伸笔画叠在中央照片上沿附近。",
+      "label": "左上白色花体字样“Is loving you”，保留细长连笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        508,
+        238,
+        571,
+        303
+      ],
+      "description": "上方靠中右的一枚白色空心五角星，细线轮廓略有不规则手绘感，带轻微柔亮边缘，独立置于渐变底图上。",
+      "label": "上方靠中右的一枚白色空心五角星，细线轮廓略有不规则手绘感，带",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        960,
+        114,
+        1036
+      ],
+      "description": "左侧中下部的一枚白色空心五角星，轮廓略倾斜，保留手绘线条及柔亮边缘，与中央照片之间留有底图间隙。",
+      "label": "左侧中下部的一枚白色空心五角星，轮廓略倾斜，保留手绘线条及柔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        1361,
+        739,
+        1459
+      ],
+      "description": "下方偏右的一枚较大的白色空心五角星，保留不规则五角轮廓、细线和柔亮边缘，独立位于中央照片下方的渐变底图上。",
+      "label": "下方偏右的一枚较大的白色空心五角星，保留不规则五角轮廓、细线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        764,
+        1207,
+        949,
+        1379
+      ],
+      "description": "右下完整组合贴纸：具有深棕描边和高光的棕色立体心形，右上附巧克力豆饼干，左下附白色咖啡杯与碟子，两侧散布金黄色闪光星点。全部作为同一固定装饰保留，心形及星点覆盖中央照片右下边缘，咖啡杯延伸至照片下方。",
+      "label": "右下完整组合贴纸：具有深棕描边和高光的棕色立体心形，右上附巧",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_gradient",
+    "photo_center",
+    "photo_upper_right",
+    "photo_lower_left",
+    "overlay_script",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_bottom",
+    "overlay_heart"
+  ]
+}

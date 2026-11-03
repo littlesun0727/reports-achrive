@@ -1,0 +1,221 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "background_market",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "连续的市场室内摄影环境延伸至画布边缘：顶部可见木质屋顶梁架，右侧可见深色墙面和窗格，中部为深蓝墙面区域。独立照片、文字和装饰遮住部分环境；保留这张全幅环境照片，局部墙面文字不并入背景。",
+      "background_type": "photo",
+      "label": "连续的市场室内摄影环境延伸至画布边缘：顶部可见木质屋顶梁架，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_market_woman",
+      "kind": "photo",
+      "bbox": [
+        23,
+        226,
+        404,
+        733
+      ],
+      "description": "左上竖向市场照片，年轻女子站在人群中举着水果并手持菠萝，周围顾客和摊位环境一并保留；矩形显示区域，上缘被胶带遮住，右侧邻接水果摊照片。",
+      "label": "左上竖向市场照片，年轻女子站在人群中举着水果并手持菠萝，周围",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        188,
+        258,
+        246
+      ],
+      "description": "压在左上市场照片顶部的浅米色半透明皱纹胶带，作为独立贴附装饰保留。",
+      "label": "压在左上市场照片顶部的浅米色半透明皱纹胶带，作为独立贴附装饰",
+      "method": "extract"
+    },
+    {
+      "id": "photo_produce",
+      "kind": "photo",
+      "bbox": [
+        343,
+        44,
+        867,
+        543
+      ],
+      "description": "上方中央水果摊照片，成堆的柑橘、芒果、青果及摊位背景共同构成摄影内容；周边白色断续手绘线沿照片窗口弧形环绕，照片下部被标题区域遮挡，左下与左侧市场照片相接。",
+      "label": "上方中央水果摊照片，成堆的柑橘、芒果、青果及摊位背景共同构成",
+      "method": "local"
+    },
+    {
+      "id": "photo_vendor_cutout",
+      "kind": "photo",
+      "bbox": [
+        697,
+        69,
+        1000,
+        445
+      ],
+      "description": "右上方沿人物组合轮廓显示的摊贩抠图：戴草帽、围粉色围巾的女性手持绿色水果，身旁有装着蔬菜的篮子；摄影环境不保留，白色粗描边沿人物、手中水果和篮子外轮廓连续包围。",
+      "label": "右上方沿人物组合轮廓显示的摊贩抠图：戴草帽、围粉色围巾的女性",
+      "method": "local"
+    },
+    {
+      "id": "overlay_slogan",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        457,
+        1045,
+        526
+      ],
+      "description": "右上区域的白色手写中文短句及中间的绿色叶片图案，整体作为一组固定装饰字样保留。",
+      "label": "右上区域的白色手写中文短句及中间的绿色叶片图案，整体作为一组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        467,
+        539,
+        860,
+        662
+      ],
+      "description": "深蓝墙面上的金黄色立体艺术字“Grandma’s Home Cooking School”，两行衬线字带阴影和装饰性笔画，整体作为固定标题保留。",
+      "label": "深蓝墙面上的金黄色立体艺术字“Grandma’s Home ",
+      "method": "extract"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        0,
+        728,
+        579,
+        1441
+      ],
+      "description": "左下方竖向餐食照片组合，包含饮料、汤碗、芒果糯米饭及多盘泰式菜肴，餐桌和周围环境仍可见；白色手绘轮廓沿多道菜品边缘描绘，并有少量相连的白色手绘点缀，完整区域延伸至画布左边和下边。",
+      "label": "左下方竖向餐食照片组合，包含饮料、汤碗、芒果糯米饭及多盘泰式",
+      "method": "local"
+    },
+    {
+      "id": "overlay_special_menu",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        769,
+        280,
+        818
+      ],
+      "description": "左侧餐食照片上的白色心形图标和斜体粗字“Special Menu”，带轻微阴影及描边，作为一体装饰保留。",
+      "label": "左侧餐食照片上的白色心形图标和斜体粗字“Special Me",
+      "method": "extract"
+    },
+    {
+      "id": "photo_menu_page",
+      "kind": "photo",
+      "bbox": [
+        388,
+        724,
+        554,
+        950
+      ],
+      "description": "橙色笔记本框体内的一张竖向菜单纸照片，纸面上有印刷菜单和手写标记；仅替换内页照片内容，四周橙色纸框独立保留。",
+      "label": "橙色笔记本框体内的一张竖向菜单纸照片，纸面上有印刷菜单和手写",
+      "method": "local"
+    },
+    {
+      "id": "frame_menu_notebook",
+      "kind": "frame",
+      "bbox": [
+        315,
+        674,
+        613,
+        987
+      ],
+      "description": "围绕菜单内页的橙棕色手绘笔记本纸框，带浅色粗描边、左侧线圈孔和纸张阴影；框体压住内页边缘并保留完整外形。",
+      "photo_id": [
+        "photo_menu_page"
+      ],
+      "label": "围绕菜单内页的橙棕色手绘笔记本纸框，带浅色粗描边、左侧线圈孔",
+      "method": "extract"
+    },
+    {
+      "id": "text_comment",
+      "kind": "text",
+      "bbox": [
+        628,
+        706,
+        1067,
+        839
+      ],
+      "description": "老师：emm为什么你的粉是 一坨\n用泰国糯料炒出了干炒牛河的\n味道\n不愧是中华小当家",
+      "label": "老师：emm为什么你的粉是 一坨\n用泰国糯料炒出了干炒牛河的",
+      "method": "local",
+      "text": "老师：emm为什么你的粉是 一坨\n用泰国糯料炒出了干炒牛河的\n味道\n不愧是中华小当家",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_chicken",
+      "kind": "photo",
+      "bbox": [
+        526,
+        897,
+        1045,
+        1441
+      ],
+      "description": "右下方竖向照片，年轻女子穿黄色吊带裙、戴草帽，双手举起，头顶有一只鸡；身后木墙、地面及周围环境均保留，矩形窗口延伸至画布右边和下边。",
+      "label": "右下方竖向照片，年轻女子穿黄色吊带裙、戴草帽，双手举起，头顶",
+      "method": "local"
+    },
+    {
+      "id": "overlay_chicken_marks",
+      "kind": "overlay",
+      "bbox": [
+        576,
+        866,
+        974,
+        1111
+      ],
+      "description": "围绕右下人物和鸡的白色手绘短线、感叹号及弧形标记，作为独立的一组强调装饰叠在照片上。",
+      "label": "围绕右下人物和鸡的白色手绘短线、感叹号及弧形标记，作为独立的",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_market",
+    "photo_market_woman",
+    "photo_produce",
+    "photo_food",
+    "photo_menu_page",
+    "photo_chicken",
+    "frame_menu_notebook",
+    "overlay_tape",
+    "photo_vendor_cutout",
+    "overlay_title",
+    "overlay_slogan",
+    "overlay_special_menu",
+    "text_comment",
+    "overlay_chicken_marks"
+  ]
+}

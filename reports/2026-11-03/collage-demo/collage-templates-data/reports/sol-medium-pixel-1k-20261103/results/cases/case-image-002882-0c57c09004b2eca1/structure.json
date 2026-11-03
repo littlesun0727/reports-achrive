@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅暖白色纸面纹理连续铺满画布，照片、标题与右下角小型摊位拼贴之间及周围均露出相同底纸；保留纸面底图原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_market",
+      "kind": "photo",
+      "bbox": [
+        12,
+        16,
+        1068,
+        721
+      ],
+      "description": "画面上方的宽幅市场摊位照片，橙色水果装在多个橙色塑料筐中，筐前和摊位上有韩文标牌；可见店面、货架、木质台面与前方地面，保留完整摄影环境。照片边界接近矩形，四周露出浅色纸底。"
+    },
+    {
+      "id": "photo_citrus_collage",
+      "kind": "photo",
+      "bbox": [
+        693,
+        1049,
+        1000,
+        1306
+      ],
+      "description": "右下方独立的小型摊位图像：深色店面背景前排列着橙色水果筐，顶部有小牌与叶片，整体呈剪贴拼贴般的层叠外观并带浅色边缘；作为一个完整的可替换图像单元，边缘之外露出纸底。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        694,
+        964,
+        914,
+        994
+      ],
+      "text": "CITRUS STALL",
+      "color": "#4C4A45",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_market",
+    "photo_citrus_collage",
+    "text_title"
+  ]
+}

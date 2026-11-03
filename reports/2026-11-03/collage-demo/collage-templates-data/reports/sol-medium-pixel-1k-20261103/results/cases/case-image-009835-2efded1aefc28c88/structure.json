@@ -1,0 +1,90 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅米色纤维纸纹连续覆盖全画布，露出于中央不规则照片窗口周围及各处装饰间隙；保留纸纹，不包含可替换的夜景照片或独立文字、拼贴装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_night_city",
+      "kind": "photo",
+      "bbox": [
+        80,
+        0,
+        950,
+        1536
+      ],
+      "description": "一张贯穿画面中央的竖向夜景照片：高处可见亮灯的多层佛塔、密集城市建筑和寺庙屋顶，视线向下延伸至拥挤的寺院街道与行人；无单一人物主体。摄影环境连续，沿不规则撕纸状窗口显示，顶部及底部延伸至画布边缘，照片左右边缘被纸面遮住。"
+    },
+    {
+      "id": "overlay_left_upper_halftone",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        211,
+        146,
+        582
+      ],
+      "description": "左侧上半部的深灰黑色网点拼贴，包括靠近照片左缘的竖向细线、上方网点块及中段横向网点块；作为一组独立印刷装饰保留。"
+    },
+    {
+      "id": "overlay_left_lower_collage",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        644,
+        328,
+        1536
+      ],
+      "description": "左侧下半部的拼贴装饰组合，包含沿照片边缘的珊瑚红撕纸形色块、黑色阶梯状与斜向几何块，以及散布的深色网点矩形和细线；保留各成员的粗粝印刷质感与相对位置。"
+    },
+    {
+      "id": "overlay_right_upper_halftone",
+      "kind": "overlay",
+      "bbox": [
+        866,
+        489,
+        1024,
+        648
+      ],
+      "description": "右上照片边缘外侧的深灰黑色网点矩形与横向短线拼贴，部分贴近并压在照片窗口边缘，作为一组固定印刷装饰保留。"
+    },
+    {
+      "id": "overlay_right_lower_collage",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        1003,
+        949,
+        1461
+      ],
+      "description": "右下方沿照片窗口分布的珊瑚红斜向撕纸带、黑色斜线和深色几何网点块组合，包含右下部较大的横向网点矩形；作为一组固定拼贴装饰保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        669,
+        291,
+        988,
+        316
+      ],
+      "text": "Lanterns · Eaves · Night",
+      "color": "#36312B",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_night_city",
+    "overlay_left_upper_halftone",
+    "overlay_left_lower_collage",
+    "overlay_right_upper_halftone",
+    "overlay_right_lower_collage",
+    "text_title"
+  ]
+}

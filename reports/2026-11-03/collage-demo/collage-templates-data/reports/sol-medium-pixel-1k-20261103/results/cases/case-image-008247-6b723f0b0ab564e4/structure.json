@@ -1,0 +1,60 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "photo_products",
+      "kind": "photo",
+      "bbox": [
+        40,
+        409,
+        1052,
+        1595
+      ],
+      "description": "一组无人物的产品近景：米白底棕色斑点陶瓷杯侧倒，杯口朝左下，两支浅色软管从杯口向左下和下方伸出，均带黑色管盖；前方较长软管遮住后方软管及部分杯口。杯子、两支软管及包装上的印字共同属于同一摄影主体组合，沿组合外轮廓去除摄影背景，内部保留真实材质与阴影。完整组合外围有米白色粗轮廓线，轮廓线与产品之间留有黑色间隔，随照片一起记录。"
+    },
+    {
+      "id": "overlay_hand",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        1476,
+        324,
+        1519
+      ],
+      "description": "左下方米白色英文艺术字“hand”，采用方块化、切角及镂空的特殊字形，独立位于产品左侧，整体保留原有笔画造型。"
+    },
+    {
+      "id": "overlay_cream",
+      "kind": "overlay",
+      "bbox": [
+        563,
+        1488,
+        787,
+        1519
+      ],
+      "description": "右下方米白色英文艺术字“cream”，采用方块化、切角及镂空的特殊字形，与左侧“hand”隔着产品排列，作为独立字样保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1036,
+        1893,
+        1080,
+        1918
+      ],
+      "description": "画布右下角的小型暗粉色圆角徽标，内有低对比度深色短字样，疑似“对味”；保留徽标外形及内部字样，不拆分重排。"
+    }
+  ],
+  "layer_order": [
+    "photo_products",
+    "overlay_hand",
+    "overlay_cream",
+    "overlay_watermark"
+  ]
+}

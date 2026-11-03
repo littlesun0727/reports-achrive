@@ -1,0 +1,71 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        541,
+        812
+      ],
+      "description": "左上矩形山野照片，云层与蓝天、远处山脉和草坡上吃草的牛共同构成画面；下缘及右缘被其他照片或前景人物遮挡。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        541,
+        0,
+        1080,
+        812
+      ],
+      "description": "右上矩形山坡照片，远处有建筑与围墙，近处为起伏草坡及牛；左缘与下缘被其他照片或前景人物遮挡。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        812,
+        541,
+        1621
+      ],
+      "description": "左下矩形山地照片，蓝天、远山、绿色山坡及山脊建筑构成摄影画面；上缘和右侧局部被前景人物遮挡。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        541,
+        812,
+        1080,
+        1621
+      ],
+      "description": "右下矩形山谷照片，蓝色远山、林木与绿色坡地延伸至画面底边；上缘及左侧局部被前景人物遮挡。"
+    },
+    {
+      "id": "photo_hiker",
+      "kind": "photo",
+      "bbox": [
+        85,
+        449,
+        852,
+        1621
+      ],
+      "description": "去除摄影背景后独立显示的单人全身登山者，穿蓝色连帽外套、黑色短裤和长袜，背着深色背包并携带登山装备，身体倾斜、俯身伸展，一条腿抬起；人物从画面中部延伸至底边，覆盖四张山野照片。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "photo_hiker"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的玩偶商店室内摄影画面覆盖全画布：一名年轻女性坐在画面右下至中部，穿浅色上衣、长发、戴毛绒发箍，面向左侧伸手指向左上方玩偶；全身及店内货架、玩偶和木地板共同属于同一照片。画面延伸至四边，顶部商品海报、右侧货架和下方地板相互连续；上层思考气泡、左下椭圆照片及贴纸遮挡局部，底图环境仍保留并可整体替换。"
+  },
+  "objects": [
+    {
+      "id": "frame_thought",
+      "kind": "frame",
+      "bbox": [
+        293,
+        231,
+        644,
+        537
+      ],
+      "description": "白色云朵形思考气泡固定载体，带粗深色外轮廓和向右下延伸的小尾巴，内部承载一张人物照片；完整云朵与尾部作为一个框体保留。",
+      "photo_id": [
+        "photo_thought"
+      ]
+    },
+    {
+      "id": "photo_thought",
+      "kind": "photo",
+      "bbox": [
+        326,
+        264,
+        611,
+        501
+      ],
+      "description": "思考气泡内的柔和边缘人物近景照片：年轻女性居中面向镜头，身旁抱着浅色毛绒玩偶，背景可见店内玩偶陈列；保留照片中的环境，显示范围受云朵窗口约束，边缘柔化并与白色气泡载体相接。"
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        28,
+        884,
+        343,
+        1326
+      ],
+      "description": "左下方竖向椭圆照片，年轻女性坐着抱一只粉色毛绒玩偶，面向镜头；照片内仍可见店内陈列环境。沿椭圆窗口有白色细密点状描边，完整照片窗口和描边作为同一照片单元显示，部分覆盖底图人物腿部与地面。"
+    },
+    {
+      "id": "overlay_star_pink_left",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        574,
+        184,
+        672
+      ],
+      "description": "左侧玩偶前方的粉色五角星贴纸，完整星形轮廓独立覆盖商店底图。"
+    },
+    {
+      "id": "overlay_star_yellow_top",
+      "kind": "overlay",
+      "bbox": [
+        887,
+        357,
+        967,
+        427
+      ],
+      "description": "右上货架前方的黄色五角星贴纸，完整星形独立显示。"
+    },
+    {
+      "id": "overlay_star_blue_inset",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        954,
+        121,
+        1054
+      ],
+      "description": "左下椭圆照片左上方的浅蓝色五角星贴纸，压在照片边缘附近，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_blue_right",
+      "kind": "overlay",
+      "bbox": [
+        928,
+        963,
+        1020,
+        1050
+      ],
+      "description": "画面右侧木地板上的浅蓝色五角星贴纸，完整星形独立显示。"
+    },
+    {
+      "id": "overlay_star_pink_inset",
+      "kind": "overlay",
+      "bbox": [
+        242,
+        1232,
+        319,
+        1307
+      ],
+      "description": "左下椭圆照片右下缘附近的粉色五角星贴纸，覆盖照片边缘与人物鞋腿附近。"
+    },
+    {
+      "id": "overlay_wordmark",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        1338,
+        938,
+        1414
+      ],
+      "description": "画面底部的白色手写风格艺术字“ShellieMay”，字母连写并带装饰性笔画，作为完整字形设计保留，不拆分为普通文字。"
+    },
+    {
+      "id": "overlay_star_yellow_bottom",
+      "kind": "overlay",
+      "bbox": [
+        539,
+        1334,
+        614,
+        1411
+      ],
+      "description": "底部艺术字左侧的黄色五角星贴纸，独立于字形保留。"
+    },
+    {
+      "id": "overlay_star_pink_bottom",
+      "kind": "overlay",
+      "bbox": [
+        958,
+        1328,
+        1032,
+        1407
+      ],
+      "description": "底部艺术字右侧的粉色五角星贴纸，完整星形独立显示。"
+    }
+  ],
+  "layer_order": [
+    "frame_thought",
+    "photo_thought",
+    "photo_inset",
+    "overlay_star_pink_left",
+    "overlay_star_yellow_top",
+    "overlay_star_blue_inset",
+    "overlay_star_blue_right",
+    "overlay_star_pink_inset",
+    "overlay_star_yellow_bottom",
+    "overlay_wordmark",
+    "overlay_star_pink_bottom"
+  ]
+}

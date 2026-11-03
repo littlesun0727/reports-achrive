@@ -1,0 +1,212 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "patterned_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "棕褐色底纸与不规则白色圆点构成连续固定背景，覆盖画布上方及照片周围的可见区域；独立摄影内容、贴纸和装饰叠加其上，底纸纹理与圆点图案保留原样。",
+      "background_type": "reference_clean",
+      "label": "棕褐色底纸与不规则白色圆点构成连续固定背景，覆盖画布上方及照",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_table_scene",
+      "kind": "photo",
+      "bbox": [
+        0,
+        245,
+        1060,
+        1080
+      ],
+      "description": "大幅桌面饮品摄影，完整显示木桌、黑色托盘、草莓奶油饮品、绿色饮品、饼干、白色玩偶和左下角手写纸张等环境与主体；照片从画布左边及约245像素处开始，底部延伸至画布边缘，右侧局部被画布外缘裁切。",
+      "label": "大幅桌面饮品摄影，完整显示木桌、黑色托盘、草莓奶油饮品、绿色",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert_card",
+      "kind": "photo",
+      "bbox": [
+        56,
+        153,
+        325,
+        322
+      ],
+      "description": "横向甜点近景照片，显示分层巧克力蛋糕或奶油甜点的完整矩形画面，位于左上方卡片内，摄影内容可独立替换。",
+      "label": "横向甜点近景照片，显示分层巧克力蛋糕或奶油甜点的完整矩形画面",
+      "method": "local"
+    },
+    {
+      "id": "frame_dessert_card",
+      "kind": "frame",
+      "bbox": [
+        50,
+        142,
+        330,
+        329
+      ],
+      "description": "承载甜点照片的深棕色矩形卡片框，带明显边缘和阴影，完整覆盖照片四周并保留卡片材质。",
+      "photo_id": [
+        "photo_dessert_card"
+      ],
+      "label": "承载甜点照片的深棕色矩形卡片框，带明显边缘和阴影，完整覆盖照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_look_up",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        124,
+        247,
+        160
+      ],
+      "description": "贴在甜点卡片上方的浅米色手撕纸条，包含可辨识的英文手写字样“look up”，纸边和字样作为一个固定装饰单元保留。",
+      "label": "贴在甜点卡片上方的浅米色手撕纸条，包含可辨识的英文手写字样“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_stars",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        165,
+        420,
+        203
+      ],
+      "description": "横向浅米色手撕纸条，叠在甜点照片上沿，包含可辨识的英文手写字样“you’ll see the stars”，保留不规则纸边和整体排版。",
+      "label": "横向浅米色手撕纸条，叠在甜点照片上沿，包含可辨识的英文手写字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_stickers",
+      "kind": "overlay",
+      "bbox": [
+        834,
+        40,
+        1003,
+        130
+      ],
+      "description": "右上方两枚重叠的棕色小熊贴纸，位于文字气泡后方，保留各自的卡通轮廓、颜色和重叠关系。",
+      "label": "右上方两枚重叠的棕色小熊贴纸，位于文字气泡后方，保留各自的卡",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_quote_label",
+      "kind": "overlay",
+      "bbox": [
+        758,
+        109,
+        1062,
+        216
+      ],
+      "description": "右上方白色不规则圆角文字贴纸，带浅色阴影和两行英文装饰字样“One day, there will be nothing left, but stories.”；文字与贴纸底板共同作为固定设计单元保留。",
+      "label": "右上方白色不规则圆角文字贴纸，带浅色阴影和两行英文装饰字样“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_1",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        421,
+        133,
+        478
+      ],
+      "description": "位于左侧桌面照片上的棕灰色圆形固定装饰，覆盖摄影画面并作为独立圆点保留。",
+      "label": "位于左侧桌面照片上的棕灰色圆形固定装饰，覆盖摄影画面并作为独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_2",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        362,
+        938,
+        440
+      ],
+      "description": "位于主饮品右上侧照片区域的深棕色圆形固定装饰，独立叠加在摄影画面上。",
+      "label": "位于主饮品右上侧照片区域的深棕色圆形固定装饰，独立叠加在摄影",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_3",
+      "kind": "overlay",
+      "bbox": [
+        980,
+        497,
+        1032,
+        553
+      ],
+      "description": "靠近画布右侧边缘的浅灰棕色圆形固定装饰，部分接近画布边界，完整可见范围保留。",
+      "label": "靠近画布右侧边缘的浅灰棕色圆形固定装饰，部分接近画布边界，完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_4",
+      "kind": "overlay",
+      "bbox": [
+        264,
+        579,
+        343,
+        659
+      ],
+      "description": "位于桌面中央偏左的棕色圆形固定装饰，覆盖主照片并保持独立图层。",
+      "label": "位于桌面中央偏左的棕色圆形固定装饰，覆盖主照片并保持独立图层",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_5",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        767,
+        104,
+        825
+      ],
+      "description": "左下方桌面上的浅灰棕色圆形固定装饰，独立叠加于主摄影区域。",
+      "label": "左下方桌面上的浅灰棕色圆形固定装饰，独立叠加于主摄影区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_6",
+      "kind": "overlay",
+      "bbox": [
+        916,
+        716,
+        976,
+        775
+      ],
+      "description": "右下方饼干与饮品附近的深棕色圆形固定装饰，位于摄影画面上层并完整保留。",
+      "label": "右下方饼干与饮品附近的深棕色圆形固定装饰，位于摄影画面上层并",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "patterned_paper",
+    "photo_table_scene",
+    "photo_dessert_card",
+    "frame_dessert_card",
+    "overlay_dot_1",
+    "overlay_dot_2",
+    "overlay_dot_3",
+    "overlay_dot_4",
+    "overlay_dot_5",
+    "overlay_dot_6",
+    "overlay_tape_look_up",
+    "overlay_tape_stars",
+    "overlay_bear_stickers",
+    "overlay_quote_label"
+  ]
+}

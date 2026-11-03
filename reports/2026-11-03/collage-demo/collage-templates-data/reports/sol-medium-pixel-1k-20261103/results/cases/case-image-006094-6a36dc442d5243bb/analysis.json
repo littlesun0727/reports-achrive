@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_dotted",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "覆盖全画布的浅奶油色底图，均匀分布灰色圆点纹理；画布四边及对象间隙均保持连续的点状图案，中央粉白色卡片、照片和贴纸均为独立对象。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的浅奶油色底图，均匀分布灰色圆点纹理；画布四边及对",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_pink_card",
+      "kind": "frame",
+      "bbox": [
+        137,
+        318,
+        956,
+        1131
+      ],
+      "description": "大型粉白渐变照片卡片，包含白色上部区域、粉色两侧与下部、柔和阴影，以及卡片内的信号图标和电池图标；作为单张照片的固定承托框体保留。",
+      "photo_id": [
+        "photo_center"
+      ],
+      "label": "大型粉白渐变照片卡片，包含白色上部区域、粉色两侧与下部、柔和",
+      "method": "extract"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        303,
+        466,
+        779,
+        1044
+      ],
+      "description": "竖向街景人物照片，完整显示楼梯、店铺橱窗、花卉图案墙面和木质墙面等摄影环境；一名年轻女性坐在阶梯中央，面向镜头，双手放在膝前，双腿向前伸展，人物位于画面下半部并被周围环境包围。照片为矩形显示窗口，边缘局部被固定装饰遮挡。",
+      "label": "竖向街景人物照片，完整显示楼梯、店铺橱窗、花卉图案墙面和木质",
+      "method": "local"
+    },
+    {
+      "id": "overlay_green_bubble",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        442,
+        320,
+        595
+      ],
+      "description": "位于卡片左侧并压住照片左上区域的浅绿色对话气泡贴纸，带黑色手写符号和尖角，作为完整固定装饰保留。",
+      "label": "位于卡片左侧并压住照片左上区域的浅绿色对话气泡贴纸，带黑色手",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cup",
+      "kind": "overlay",
+      "bbox": [
+        646,
+        222,
+        825,
+        376
+      ],
+      "description": "漂浮在卡片上方的黄色咖啡杯贴纸，杯中可见红色饮品，杯身有紫色星形图案，右侧带黄色杯柄，覆盖卡片上边缘。",
+      "label": "漂浮在卡片上方的黄色咖啡杯贴纸，杯中可见红色饮品，杯身有紫色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_relax_thought",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        107,
+        891,
+        243
+      ],
+      "description": "位于咖啡杯上方的白色椭圆思想气泡及两个小圆气泡，主气泡内有“Relax”和手写表情符号，作为带字固定贴纸整体保留。",
+      "label": "位于咖啡杯上方的白色椭圆思想气泡及两个小圆气泡，主气泡内有“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_bubble",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        1046,
+        1002,
+        1191
+      ],
+      "description": "压在粉色卡片右下角并延伸到卡片外的白色对话气泡贴纸，带黑色手写符号和尖角，作为完整固定装饰保留。",
+      "label": "压在粉色卡片右下角并延伸到卡片外的白色对话气泡贴纸，带黑色手",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_dotted",
+    "frame_pink_card",
+    "photo_center",
+    "overlay_green_bubble",
+    "overlay_cup",
+    "overlay_relax_thought",
+    "overlay_bottom_bubble"
+  ]
+}

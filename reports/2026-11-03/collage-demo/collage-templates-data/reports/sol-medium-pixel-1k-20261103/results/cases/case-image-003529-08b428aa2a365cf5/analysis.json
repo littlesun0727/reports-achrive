@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        137,
+        58,
+        943,
+        663
+      ],
+      "description": "上方横向自拍照片，单人女性近景，黑色长发、浅蓝开衫，面向镜头；室内墙面、货架与桌椅保留在矩形照片窗口内。",
+      "label": "上方横向自拍照片，单人女性近景，黑色长发、浅蓝开衫，面向镜头",
+      "method": "local"
+    },
+    {
+      "id": "photo_seated",
+      "kind": "photo",
+      "bbox": [
+        0,
+        721,
+        1080,
+        1440
+      ],
+      "description": "下方横向显示的独立室内照片，画面呈侧向构图；一名女性坐在桌边看手机，人物与桌椅、地面、货架及墙面共同保留在照片中，照片延伸至画布左右边缘和底边。",
+      "label": "下方横向显示的独立室内照片，画面呈侧向构图；一名女性坐在桌边",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_seated",
+    "photo_portrait"
+  ]
+}

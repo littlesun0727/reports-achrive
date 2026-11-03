@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1756
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1756
+      ],
+      "description": "浅灰白色细纹纸面连续铺满画布，照片卡片周围及下方留白均可见同类纸纹；卡片与照片独立替换，纸面纹理保留。",
+      "background_type": "reference_clean",
+      "label": "浅灰白色细纹纸面连续铺满画布，照片卡片周围及下方留白均可见同",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        37,
+        96,
+        1036,
+        1428
+      ],
+      "description": "竖向海边人像照片，一名年轻女性中景转身回望镜头，位于画面中央偏右，穿浅色上衣与红白格纹下装；蓝天、海面及远处岸线保留在同一矩形照片窗口内。",
+      "label": "竖向海边人像照片，一名年轻女性中景转身回望镜头，位于画面中央",
+      "method": "local"
+    },
+    {
+      "id": "frame_photo_card",
+      "kind": "frame",
+      "bbox": [
+        35,
+        94,
+        1038,
+        1511
+      ],
+      "description": "承载照片的浅色竖向纸卡，照片下方留有较宽的白色说明区，印有黑色字样“by OPPO Reno16 Pro”；照片周围可见细暗边和轻微阴影，卡片底边位于说明区下方。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "承载照片的浅色竖向纸卡，照片下方留有较宽的白色说明区，印有黑",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "frame_photo_card",
+    "photo_portrait"
+  ]
+}

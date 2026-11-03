@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        640
+      ],
+      "description": "顶部横向海边日落照片，前景是密集的棕榈叶与金属栏杆，远处可见海面和暖色天空；摄影环境保留，画面完整延伸到左右边缘，下缘与中间照片在约 y=640 处直接相接。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        640,
+        1080,
+        1280
+      ],
+      "description": "中间横向海边日落人像照片，一名戴眼镜和浅色头巾的女性从腰部以上入镜，身体倾斜并以手扶头，位于画面中央偏左；海面、落日、栏杆与沿海建筑共同保留在摄影环境中，照片延伸至左右边缘，与上下照片在约 y=640 和 y=1280 处直接相接。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1280,
+        1080,
+        1920
+      ],
+      "description": "底部横向海边日落照片，一名金发女性背对镜头站在画面偏左，身穿条纹上衣并背紫色包；停车车辆、路边行人、栏杆、海面和右侧立柱均属于摄影环境并保留，照片延伸至画布左右及底边，与中间照片在约 y=1280 处直接相接。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1440,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1440,
+        1080
+      ],
+      "description": "连续的浅粉白色桌面静物摄影覆盖全画布：中央为樱桃图案白色背包，透明前袋内并排放着多只粉白玩偶；左侧有粉色板和手机、书本，右侧及下方有兔子玩偶和粉色小包。整体明亮、柔和、低对比。桌面及物件在四周保持场景连续，左下独立照片、右下心形照片和上下蕾丝装饰遮挡局部；背包、玩偶及全部实拍环境一起替换。",
+      "background_type": "photo",
+      "label": "连续的浅粉白色桌面静物摄影覆盖全画布：中央为樱桃图案白色背包",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        619,
+        587,
+        1080
+      ],
+      "description": "左下独立背包照片，拍摄一只白色樱桃图案背包，提手位于上部，透明前袋中有粉白玩偶，右侧露出粉色格纹物件，保留浅色墙面及桌面环境。与主画面取景和背包姿态不连续。矩形窗口顶边和右边有浅粉色细描边；底部被白色蕾丝遮挡，实际下缘不可见，显示范围延续至画布底边。",
+      "label": "左下独立背包照片，拍摄一只白色樱桃图案背包，提手位于上部，透",
+      "method": "local"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        963,
+        667,
+        1440,
+        1080
+      ],
+      "description": "右下心形窗口中的独立静物近景，透明粉色手机壳竖放在斜向书本上，壳上有浅蓝蝴蝶结等图案，保留书本与浅色背景；书本上的可见字样属于摄影内容。完整窗口呈双圆弧顶部及向下收尖的心形，沿窗口有白色描边，右缘被画布裁切，下部被蕾丝遮住；不是主体去背景。",
+      "label": "右下心形窗口中的独立静物近景，透明粉色手机壳竖放在斜向书本上",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dotted_flourish",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        288,
+        607,
+        774
+      ],
+      "description": "左侧至中部的白色发光点阵曲线装饰，由密集小光点组成连续的弯曲、回绕线带；上段绕过粉色板和背包左侧，下段跨越桌面及左下照片上部，形成数个弧形回环。保留点阵、柔光与透明间隙，不并入摄影内容。",
+      "label": "左侧至中部的白色发光点阵曲线装饰，由密集小光点组成连续的弯曲",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        284,
+        82,
+        373
+      ],
+      "description": "左边缘独立白色五角星光斑，中心明亮、外围柔光，左端被画布裁切。",
+      "label": "左边缘独立白色五角星光斑，中心明亮、外围柔光，左端被画布裁切",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glint_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        148,
+        119,
+        199
+      ],
+      "description": "左上浅色环境上的小型白色十字星芒，带柔和光晕。",
+      "label": "左上浅色环境上的小型白色十字星芒，带柔和光晕。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glint_bag",
+      "kind": "overlay",
+      "bbox": [
+        330,
+        177,
+        397,
+        254
+      ],
+      "description": "背包左上提带附近的独立白色闪光星芒，纵横尖角与柔光整体保留。",
+      "label": "背包左上提带附近的独立白色闪光星芒，纵横尖角与柔光整体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        1337,
+        176,
+        1415,
+        253
+      ],
+      "description": "右上灰白背景上的独立白色五角星闪光，带明亮中心和柔化光晕。",
+      "label": "右上灰白背景上的独立白色五角星闪光，带明亮中心和柔化光晕。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glint_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        1199,
+        448,
+        1270,
+        519
+      ],
+      "description": "背包右侧下部的白色十字闪光，覆盖实拍包带附近，保留柔光边缘。",
+      "label": "背包右侧下部的白色十字闪光，覆盖实拍包带附近，保留柔光边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glint_center_bottom",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        607,
+        675,
+        680
+      ],
+      "description": "画面下部中央、小玩偶上方的白色十字星芒，位于主摄影画面之上。",
+      "label": "画面下部中央、小玩偶上方的白色十字星芒，位于主摄影画面之上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glint_inset",
+      "kind": "overlay",
+      "bbox": [
+        516,
+        869,
+        588,
+        944
+      ],
+      "description": "左下照片右侧的白色十字星芒，覆盖照片内的浅色背景及粉色物件附近。",
+      "label": "左下照片右侧的白色十字星芒，覆盖照片内的浅色背景及粉色物件附",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glint_heart",
+      "kind": "overlay",
+      "bbox": [
+        1305,
+        848,
+        1406,
+        948
+      ],
+      "description": "右下心形照片上的大型白色十字闪光，覆盖手机壳右下部，具有柔和发光边缘。",
+      "label": "右下心形照片上的大型白色十字闪光，覆盖手机壳右下部，具有柔和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        516,
+        793,
+        565
+      ],
+      "description": "中央偏下的白色水印组合，包含四个取景框式圆角短线、可辨字样“@eikoca”、分隔线及“小红书”标识。字样与标识、外围短线共同构成完整固定单元。",
+      "label": "中央偏下的白色水印组合，包含四个取景框式圆角短线、可辨字样“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lace_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1440,
+        105
+      ],
+      "description": "横贯画布顶边的白色蕾丝装饰带，包含细密网孔、重复花形及向下的波浪花边；左右被画布截断，整条纹样与半透明孔隙保留。",
+      "label": "横贯画布顶边的白色蕾丝装饰带，包含细密网孔、重复花形及向下的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lace_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        972,
+        1440,
+        1080
+      ],
+      "description": "横贯画布底边的白色蕾丝装饰带，上缘呈重复花瓣状起伏，内部有细密网孔和花形纹样，底部有横向细纹。遮挡主摄影画面及两张局部照片的下部，作为独立完整装饰保留。",
+      "label": "横贯画布底边的白色蕾丝装饰带，上缘呈重复花瓣状起伏，内部有细",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_lower_left",
+    "photo_heart",
+    "overlay_dotted_flourish",
+    "overlay_star_left",
+    "overlay_glint_upper_left",
+    "overlay_glint_bag",
+    "overlay_star_upper_right",
+    "overlay_glint_right_middle",
+    "overlay_glint_center_bottom",
+    "overlay_glint_inset",
+    "overlay_glint_heart",
+    "overlay_watermark",
+    "overlay_lace_top",
+    "overlay_lace_bottom"
+  ]
+}

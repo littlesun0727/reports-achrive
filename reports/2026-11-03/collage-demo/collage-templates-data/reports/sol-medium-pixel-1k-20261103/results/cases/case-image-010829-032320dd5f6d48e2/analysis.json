@@ -1,0 +1,131 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1438
+  ],
+  "objects": [
+    {
+      "id": "background_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1438
+      ],
+      "description": "全画布固定设计底图：中央为深灰棕色平面，上下边缘是浅黄色底、棕色圆点的连续装饰带，中央空隙散布浅黄色小星星。边带及棕色底面延伸至画布四边，保留其配色、图案和可见质感；独立照片、房屋框体及两处装饰字样不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布固定设计底图：中央为深灰棕色平面，上下边缘是浅黄色底、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_house",
+      "kind": "frame",
+      "bbox": [
+        165,
+        273,
+        906,
+        1220
+      ],
+      "description": "浅黄色手绘房屋形四窗口框体，包含三角屋顶、略不规则的屋身线条、两侧垂下并以圆点收尾的短绳，以及四个照片内口的细框沿。四个窗口按两行两列排列，完整框体统一保留；屋顶内的装饰字样另列。",
+      "photo_id": [
+        "photo_top_left",
+        "photo_top_right",
+        "photo_bottom_left",
+        "photo_bottom_right"
+      ],
+      "label": "浅黄色手绘房屋形四窗口框体，包含三角屋顶、略不规则的屋身线条",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        242,
+        580,
+        523,
+        859
+      ],
+      "description": "左上方双人近景合照。左侧红发人物戴黑框眼镜和黄色布丁狗造型帽，右侧黑发双辫人物戴白色红蝴蝶结猫咪造型帽，手指靠近下巴，两人朝向镜头。照片保留头部、上身及身后的彩色商品环境，矩形显示区域被浅黄色框沿围住，没有沿人物轮廓去背景。",
+      "label": "左上方双人近景合照。左侧红发人物戴黑框眼镜和黄色布丁狗造型帽",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        559,
+        579,
+        837,
+        859
+      ],
+      "description": "右上方双人近景合照。黑发人物在左，戴白色红蝴蝶结猫咪帽、穿灰色上衣；红发人物在右，戴黄色布丁狗帽和黑框眼镜，抬手靠近脸侧。两人面向镜头，保留人物与后方彩色商品环境，完整显示范围为右上矩形内口，四边受框沿限定。",
+      "label": "右上方双人近景合照。黑发人物在左，戴白色红蝴蝶结猫咪帽、穿灰",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        242,
+        893,
+        523,
+        1173
+      ],
+      "description": "左下方双人近景合照，与上排姿态不同。左侧黑发双辫人物戴白色猫咪帽，闭眼并用手在眼旁做手势；右侧红发人物戴黄色布丁狗帽和眼镜，吐舌并在下方做手势。保留帽子、上身、双手及彩色商品背景，未沿主体去背景，显示边界为左下照片内口。",
+      "label": "左下方双人近景合照，与上排姿态不同。左侧黑发双辫人物戴白色猫",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        558,
+        895,
+        837,
+        1174
+      ],
+      "description": "右下方双人近景合照。红发戴眼镜人物位于左侧，黑发双辫人物位于右侧，分别戴黄色布丁狗帽和白色红蝴蝶结猫咪帽，正面看向镜头。帽顶部分贴近上边并被窗口裁切，人物上身及后方室内商品环境一起保留，四边由照片内口限定。",
+      "label": "右下方双人近景合照。红发戴眼镜人物位于左侧，黑发双辫人物位于",
+      "method": "local"
+    },
+    {
+      "id": "overlay_baby_girl",
+      "kind": "overlay",
+      "bbox": [
+        353,
+        404,
+        722,
+        500
+      ],
+      "description": "屋顶内部的浅黄色“baby girl”装饰字样，使用粗厚、不规则且带磨损缺口的字形，两个词略有错落；连同字样左侧、上方和右下方的三枚小星形点缀作为完整标题装饰保留，不拆为普通文字。",
+      "label": "屋顶内部的浅黄色“baby girl”装饰字样，使用粗厚、不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bestie",
+      "kind": "overlay",
+      "bbox": [
+        330,
+        1235,
+        752,
+        1281
+      ],
+      "description": "房屋框体下方的浅黄色“Bestie vibes only.”独立装饰字样，单行居中，粗厚字形带不规则边缘与颗粒状磨损，保留原有字形、词间位置及末尾句点。",
+      "label": "房屋框体下方的浅黄色“Bestie vibes only.”",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_pattern",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "frame_house",
+    "overlay_baby_girl",
+    "overlay_bestie"
+  ]
+}

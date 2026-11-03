@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "pastel_music_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "连续铺满画布的浅色粉彩底图，带柔和彩色斑点、圆形装饰及斜向五线谱和音符；这些图案在照片之间及画布边缘保持连续，作为固定设计保留。",
+      "background_type": "reference_clean",
+      "label": "连续铺满画布的浅色粉彩底图，带柔和彩色斑点、圆形装饰及斜向五",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        96,
+        297,
+        987,
+        963
+      ],
+      "description": "中央横向室内照片，一名年轻女性戴白色动物造型帽、眨眼并双手各拿一个毛绒玩偶，人物居中近景，身后可见室内陈设。保留完整摄影环境；画面上有沿人物及玩偶周围分布的白色星星装饰，矩形窗口边缘带细绿色线框。",
+      "label": "中央横向室内照片，一名年轻女性戴白色动物造型帽、眨眼并双手各",
+      "method": "local"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        216,
+        110,
+        466,
+        329
+      ],
+      "description": "上方小幅横向室内照片，近距离拍到黄色毛绒玩偶及桌面上的盘子和其他玩偶，左侧可见手部；保留照片内环境，边缘带细绿色线框。下缘覆盖中央大照片上缘。",
+      "label": "上方小幅横向室内照片，近距离拍到黄色毛绒玩偶及桌面上的盘子和",
+      "method": "local"
+    },
+    {
+      "id": "photo_cyan",
+      "kind": "photo",
+      "bbox": [
+        145,
+        892,
+        439,
+        1070
+      ],
+      "description": "中央大照片下方偏左的横向蓝青色画面，包含明亮的卡通或插画形象及闪亮点状效果；按独立图像区域保留，边缘带细绿色线框。其下部被左下照片遮挡。",
+      "label": "中央大照片下方偏左的横向蓝青色画面，包含明亮的卡通或插画形象",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        45,
+        1006,
+        395,
+        1245
+      ],
+      "description": "左下横向近景照片，两只并排的浅色动物玩偶穿粉色裙装，背景为浅色；画面内可见小草莓、云朵和蝴蝶结装饰，边缘带细绿色线框。覆盖蓝青色图像的下部。",
+      "label": "左下横向近景照片，两只并排的浅色动物玩偶穿粉色裙装，背景为浅",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        692,
+        887,
+        972,
+        1171
+      ],
+      "description": "右下近方形俯拍照片，棕色桌面上并排放着三个彩色小玩偶或挂饰；保留桌面摄影环境，边缘带细绿色线框。照片上沿附近另有白蓝色独立装饰图形覆盖。",
+      "label": "右下近方形俯拍照片，棕色桌面上并排放着三个彩色小玩偶或挂饰；",
+      "method": "local"
+    },
+    {
+      "id": "overlay_blue_mark",
+      "kind": "overlay",
+      "bbox": [
+        841,
+        867,
+        971,
+        947
+      ],
+      "description": "右下照片上沿右侧的白色与浅蓝色粗线装饰图形，轮廓类似三个相连的弯曲笔画，跨在照片上边缘，作为独立固定装饰保留。",
+      "label": "右下照片上沿右侧的白色与浅蓝色粗线装饰图形，轮廓类似三个相连",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "pastel_music_background",
+    "photo_main",
+    "photo_top",
+    "photo_cyan",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_blue_mark"
+  ]
+}

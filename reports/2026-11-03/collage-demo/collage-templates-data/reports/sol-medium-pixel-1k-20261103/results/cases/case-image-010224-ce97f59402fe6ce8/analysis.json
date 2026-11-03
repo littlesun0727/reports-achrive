@@ -1,0 +1,315 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1620,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1620,
+        1080
+      ],
+      "description": "暖色调室内卧室摄影，无人物。左侧及下方是带黄色靠垫和条纹织物的床，右侧为墙面、暖气片及地毯，上缘露出黄色圆形灯具和垂落电线。摄影场景连续延伸至画布四边，三张独立照片遮挡其中局部；完整室内环境随底图一起替换。",
+      "background_type": "photo",
+      "label": "暖色调室内卧室摄影，无人物。左侧及下方是带黄色靠垫和条纹织物",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        137,
+        123,
+        557,
+        543
+      ],
+      "description": "左上方独立室内照片，无人物，包含墙上日历、圆镜、耳机、黄色灯具，以及黄色桌面上的杯子、盆栽和桌面小物。摄影环境完整保留，显示为方形区域，边缘清晰；白色星星叠在右上和左下边缘。",
+      "label": "左上方独立室内照片，无人物，包含墙上日历、圆镜、耳机、黄色灯",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        834,
+        187,
+        1476,
+        615
+      ],
+      "description": "右上横向卧室照片，无人物，左侧为条纹靠垫、黄色靠垫及床铺，右侧为黄色圆凳、白色小电器、垃圾桶和地毯。保留完整摄影环境，矩形显示，左下部分覆盖下方桌面照片。",
+      "label": "右上横向卧室照片，无人物，左侧为条纹靠垫、黄色靠垫及床铺，右",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        429,
+        557,
+        916,
+        882
+      ],
+      "description": "下方横向桌面俯拍照片，无人物，白色桌面上有绿色瓶盖的小瓶、一碗红色水果、叉子、饮品杯、茶包标签和红边条纹圆垫。保留桌面环境，矩形边缘清晰；右上角被卧室照片遮挡，左侧边缘叠有白色星星。",
+      "label": "下方横向桌面俯拍照片，无人物，白色桌面上有绿色瓶盖的小瓶、一",
+      "method": "local"
+    },
+    {
+      "id": "text_daily",
+      "kind": "text",
+      "bbox": [
+        136,
+        76,
+        301,
+        105
+      ],
+      "description": "Daily Vlog",
+      "label": "Daily Vlog",
+      "method": "local",
+      "text": "Daily Vlog",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_happy",
+      "kind": "text",
+      "bbox": [
+        733,
+        225,
+        966,
+        252
+      ],
+      "description": "Happy Moment",
+      "label": "Happy Moment",
+      "method": "local",
+      "text": "Happy Moment",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_photographs",
+      "kind": "text",
+      "bbox": [
+        1384,
+        548,
+        1585,
+        575
+      ],
+      "description": "Photographs",
+      "label": "Photographs",
+      "method": "local",
+      "text": "Photographs",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_freedom",
+      "kind": "text",
+      "bbox": [
+        816,
+        862,
+        1248,
+        884
+      ],
+      "description": "Freedom is my attitude towards life",
+      "label": "Freedom is my attitude towards",
+      "method": "local",
+      "text": "Freedom is my attitude towards life",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "star_daily",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        68,
+        130,
+        103
+      ],
+      "description": "位于“Daily Vlog”左侧的独立白色实心五角星，保留略带圆润的完整轮廓。",
+      "label": "位于“Daily Vlog”左侧的独立白色实心五角星，保留略",
+      "method": "extract"
+    },
+    {
+      "id": "star_top",
+      "kind": "overlay",
+      "bbox": [
+        1080,
+        13,
+        1118,
+        50
+      ],
+      "description": "画布上方黄色灯具前的独立白色实心五角星。",
+      "label": "画布上方黄色灯具前的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        537,
+        157,
+        577,
+        195
+      ],
+      "description": "跨在左上照片右边缘的独立白色实心五角星。",
+      "label": "跨在左上照片右边缘的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        1453,
+        169,
+        1493,
+        207
+      ],
+      "description": "跨在右上卧室照片右上角的独立白色实心五角星。",
+      "label": "跨在右上卧室照片右上角的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        519,
+        156,
+        558
+      ],
+      "description": "跨在左上照片左下角的独立白色实心五角星。",
+      "label": "跨在左上照片左下角的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "star_right_left",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        453,
+        855,
+        491
+      ],
+      "description": "叠在右上卧室照片左边缘、靠垫附近的独立白色实心五角星。",
+      "label": "叠在右上卧室照片左边缘、靠垫附近的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        691,
+        453,
+        728
+      ],
+      "description": "跨在下方桌面照片左边缘的独立白色实心五角星。",
+      "label": "跨在下方桌面照片左边缘的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "star_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        1223,
+        811,
+        1262,
+        850
+      ],
+      "description": "位于下方英文句子上方偏右、叠在卧室底图墙面上的独立白色实心五角星。",
+      "label": "位于下方英文句子上方偏右、叠在卧室底图墙面上的独立白色实心五",
+      "method": "extract"
+    },
+    {
+      "id": "star_canvas_left",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        941,
+        97,
+        978
+      ],
+      "description": "画布左下方黄色靠垫前的独立白色实心五角星。",
+      "label": "画布左下方黄色靠垫前的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "star_canvas_right",
+      "kind": "overlay",
+      "bbox": [
+        1558,
+        977,
+        1598,
+        1015
+      ],
+      "description": "画布右下方暖气片前的独立白色实心五角星。",
+      "label": "画布右下方暖气片前的独立白色实心五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1553,
+        1041,
+        1608,
+        1076
+      ],
+      "description": "右下角低透明度灰白色小型圆角标记，内部细小图形和文字不清晰，作为独立叠加标记整体保留。",
+      "label": "右下角低透明度灰白色小型圆角标记，内部细小图形和文字不清晰，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_left",
+    "photo_bottom",
+    "photo_right",
+    "text_daily",
+    "text_happy",
+    "text_photographs",
+    "text_freedom",
+    "star_daily",
+    "star_top",
+    "star_left_upper",
+    "star_right_upper",
+    "star_left_lower",
+    "star_right_left",
+    "star_bottom_left",
+    "star_middle_right",
+    "star_canvas_left",
+    "star_canvas_right",
+    "overlay_watermark"
+  ]
+}

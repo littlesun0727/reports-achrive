@@ -1,0 +1,186 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "艺术村店铺外部的连续摄影画面，包含上方深色墙面与鸟形墙面图案、下方桌椅及建筑环境，无清晰主要人物。摄影内容在上沿、左侧及底部装饰间隙连续露出，作为全画布底图；局部被人物照片、花形照片框、泳池照片和胶片拼贴遮挡，店铺环境整体随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_pool",
+      "kind": "photo",
+      "bbox": [
+        59,
+        470,
+        536,
+        969
+      ],
+      "description": "木屋与蓝绿色泳池的独立照片，保留树木、木屋阳台、池水及倒影，无突出人物。照片窗口左上部分被花形框遮挡，右侧被大型人物照片遮挡；白色短虚线沿完整矩形窗口排列，属于照片边缘效果，不另拆固定框体。"
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        31,
+        225,
+        307,
+        486
+      ],
+      "description": "圆形近景合影，前景两名长发女性并肩，右侧女性举手拍摄，身后保留店内陈设及其他顾客。摄影环境完整保留，圆形显示边缘被花形框内圈及其弧形字样覆盖。"
+    },
+    {
+      "id": "frame_flower",
+      "kind": "frame",
+      "bbox": [
+        0,
+        78,
+        435,
+        601
+      ],
+      "photo_id": [
+        "photo_flower"
+      ],
+      "description": "单圆形照片窗口的金黄色向日葵框，包含层叠花瓣的褶皱质感、白色外缘、黑色轮廓、浅紫色内圈与阴影。内口上、下沿的弧形浅蓝字样“you are my Sunshine”属于完整框体设计，叠在照片边缘上；左侧花瓣被画布裁切。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        456,
+        34,
+        1080,
+        1091
+      ],
+      "description": "右侧大型单人自拍，一名长直黑发女性穿浅金色吊带裙，正面看镜头，一手轻扶头发，另一侧手臂延伸至右边界。保留灰色座椅、左侧窗边及坐垫等摄影环境，并非仅沿人体去背景。显示窗口外缘不规则，上方呈拱形，四周有宽白色毛糙边缘；覆盖泳池照片右侧，底部局部被胶片拼贴遮挡。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        397,
+        897,
+        896
+      ],
+      "description": "人物头发及胸前散布的一组大小不同的黄色五角星，带细微明暗和柔边，从左耳附近延伸至两侧长发末端。作为一组独立固定装饰覆盖人物照片，不属于摄影内容或人物轮廓描边。"
+    },
+    {
+      "id": "overlay_planet",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        0,
+        1080,
+        261
+      ],
+      "description": "右上白色手绘环形星球涂鸦，包含斜向椭圆环、球体弧线、下方小圆点与星点，以及向画布上沿延伸的波浪线。整体覆盖人物照片上方及其右侧，部分线条在画布边缘被裁切。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        307,
+        37,
+        667,
+        141
+      ],
+      "text": "大声蛐蛐隔壁疯狂情侣\n后发现亚洲女是正宗\nChinese...",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_pool_caption",
+      "kind": "text",
+      "bbox": [
+        14,
+        978,
+        442,
+        1014
+      ],
+      "text": "比想象中好逛非常多的艺术村",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_shop",
+      "kind": "photo",
+      "bbox": [
+        126,
+        1090,
+        538,
+        1440
+      ],
+      "description": "底部胶片左侧窗口的店铺陈设照片，包含橙色椅子、立式椭圆镜、圆形镜及彩色贴画墙，无主要人物。保留完整摄影环境；倾斜窗口下部延伸至画布底边，周围被白色胶片框沿遮挡。"
+    },
+    {
+      "id": "photo_graffiti",
+      "kind": "photo",
+      "bbox": [
+        486,
+        1055,
+        859,
+        1382
+      ],
+      "description": "底部胶片右侧窗口的墙面涂鸦照片，左部是黑白眼睛与红色字母，右部是粉红底上的绿色青蛙及英文手写涂鸦。墙面质感、图案和墙上文字共同属于摄影内容，完整保留；窗口倾斜，与左侧店铺照片为独立取景，边缘被胶片框遮挡。"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        1007,
+        930,
+        1440
+      ],
+      "photo_id": [
+        "photo_shop",
+        "photo_graffiti"
+      ],
+      "description": "底部横贯画布、向右上方倾斜的连续双窗口胶片框。包含粗糙模糊的白色框沿、上下排列的方形齿孔、窗口间隔条、左端竖向印字及“200”数字，整体质感与附属边缘保留。左右照片分别替换，框沿压在照片上，左端与下缘被画布裁切，右下部分被相机贴纸遮挡。"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        1197,
+        1069,
+        1408
+      ],
+      "description": "右下白底相机贴纸，包含棕色手绘相机机身、镜头同心圆、顶部按钮、右侧曲线及上方两枚闪光星形。保留点状纸面纹理、完整白色异形外缘与细微阴影，覆盖胶片右下边缘。"
+    },
+    {
+      "id": "overlay_mark",
+      "kind": "overlay",
+      "bbox": [
+        1032,
+        1413,
+        1077,
+        1438
+      ],
+      "description": "右下角小型浅灰色圆角水印标记，内部有极小图形与字样，内容难以准确辨认；作为独立固定标记整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_pool",
+    "photo_flower",
+    "frame_flower",
+    "photo_portrait",
+    "overlay_stars",
+    "overlay_planet",
+    "text_top",
+    "text_pool_caption",
+    "photo_shop",
+    "photo_graffiti",
+    "frame_film",
+    "overlay_camera",
+    "overlay_mark"
+  ]
+}

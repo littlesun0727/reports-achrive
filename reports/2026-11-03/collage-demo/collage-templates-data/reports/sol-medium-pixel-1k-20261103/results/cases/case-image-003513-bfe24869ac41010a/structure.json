@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_brown",
+    "description": "全画布为由上方深棕色向下方浅米棕色过渡的连续柔和渐变底图，四边及照片外侧均可见同一底色变化。保留渐变外观，三张照片、星星贴纸及右下角淡色标记独立处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        181,
+        245,
+        899,
+        723
+      ],
+      "description": "上方横向照片，一名穿蓝金纹样浅色传统服装、戴黑色高髻及金色发饰的女子呈半身景别，面朝镜头略向右看，嘴唇微嘟，胸前有红色串珠。完整保留蓝天、树木、水面、石岸及右后方古建筑。矩形显示，下缘与中间照片紧接，左上及右侧边缘被星星贴纸局部覆盖。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        181,
+        723,
+        899,
+        1196
+      ],
+      "description": "中间横向照片，同装束的一名女子面向镜头微笑，一只手抬至脸侧，宽大袖口向左展开，半身取景。保留蓝天、水面、远处建筑和岸边树木，不沿人物轮廓去背景。上下边分别与另外两张照片齐边拼接，姿态及场景取景重新起始，是独立照片；左侧边缘被星星贴纸遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        181,
+        1196,
+        899,
+        1674
+      ],
+      "description": "下方横向照片，一名同装束女子居中面向镜头，一手在左侧举起细柄，身前持浅色圆扇，显示至腰部附近。保留蓝天、树木、河岸建筑及水面倒影。矩形照片与上方照片紧接但人物姿态和取景不同；右侧及左下边缘被独立星星贴纸局部遮挡。"
+    },
+    {
+      "id": "star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        141,
+        188,
+        222,
+        268
+      ],
+      "description": "左上角黄色五角星贴纸，带白黄色高光、金黄边缘和柔和立体明暗，完整保留，跨在上方照片左上角与棕色底图之间。"
+    },
+    {
+      "id": "star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        458,
+        935,
+        535
+      ],
+      "description": "上方照片右侧的黄色五角星贴纸，具有浅色高光和金黄色立体边缘，跨越照片右边界，作为完整独立装饰保留。"
+    },
+    {
+      "id": "star_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        900,
+        212,
+        980
+      ],
+      "description": "中间照片左侧黄色五角星贴纸，带亮色高光和金黄阴影，部分覆盖照片左边缘，部分位于棕色底图上。"
+    },
+    {
+      "id": "star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        869,
+        1317,
+        942,
+        1384
+      ],
+      "description": "下方照片右侧的小型黄色五角星贴纸，带浅色高光及金黄色边缘，跨在照片右侧边界上，完整保留其造型。"
+    },
+    {
+      "id": "star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        1619,
+        232,
+        1697
+      ],
+      "description": "下方照片左下角黄色五角星贴纸，带浅色高光和金黄立体明暗，覆盖照片左下角并向外延伸至棕色底图。"
+    },
+    {
+      "id": "watermark_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1894,
+        1075,
+        1913
+      ],
+      "description": "画布右下角极淡的小型浅色圆角标记，内部字样难以可靠辨认，作为完整固定标记保留，不拆分文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "star_top_left",
+    "star_upper_right",
+    "star_middle_left",
+    "star_lower_right",
+    "star_bottom_left",
+    "watermark_bottom_right"
+  ]
+}

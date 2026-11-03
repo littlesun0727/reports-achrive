@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "连续的俯拍摄影画面覆盖整个画布，包含深色石板路、鞋子和白袜等环境与前景，内容延伸至四边；上方九张独立美食及餐厅照片和右下方手写字样遮挡局部。客户素材替换范围为完整画布摄影环境。",
+      "background_type": "photo",
+      "label": "连续的俯拍摄影画面覆盖整个画布，包含深色石板路、鞋子和白袜等",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_food_top_left",
+      "kind": "photo",
+      "bbox": [
+        332,
+        163,
+        559,
+        409
+      ],
+      "description": "倾斜的独立美食照片，显示饮品、木桌和切开的水果，完整矩形照片区域带有深色边缘与阴影，摄影内容可替换。",
+      "label": "倾斜的独立美食照片，显示饮品、木桌和切开的水果，完整矩形照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_food_top_center",
+      "kind": "photo",
+      "bbox": [
+        489,
+        263,
+        708,
+        494
+      ],
+      "description": "倾斜的独立餐桌照片，显示多人用餐、锅物、点心和饮品，保留完整照片窗口及其暗色边缘，摄影内容可替换。",
+      "label": "倾斜的独立餐桌照片，显示多人用餐、锅物、点心和饮品，保留完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_food_top_right",
+      "kind": "photo",
+      "bbox": [
+        649,
+        354,
+        870,
+        583
+      ],
+      "description": "倾斜的独立美食照片，显示竹蒸笼、橙色水果和餐厅桌面，完整显示矩形范围，带有深色边缘与投影，摄影内容可替换。",
+      "label": "倾斜的独立美食照片，显示竹蒸笼、橙色水果和餐厅桌面，完整显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_restaurant_left",
+      "kind": "photo",
+      "bbox": [
+        238,
+        303,
+        458,
+        536
+      ],
+      "description": "倾斜的独立餐厅室内照片，显示墙面、木门、座椅和绿植，保留完整室内摄影环境及暗色照片边缘，摄影内容可替换。",
+      "label": "倾斜的独立餐厅室内照片，显示墙面、木门、座椅和绿植，保留完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_noodles_center",
+      "kind": "photo",
+      "bbox": [
+        378,
+        465,
+        602,
+        688
+      ],
+      "description": "倾斜的独立餐桌近景照片，显示面条、配菜、饮品和餐具，完整照片窗口带有深色边缘与阴影，摄影内容可替换。",
+      "label": "倾斜的独立餐桌近景照片，显示面条、配菜、饮品和餐具，完整照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_restaurant_right",
+      "kind": "photo",
+      "bbox": [
+        531,
+        503,
+        767,
+        744
+      ],
+      "description": "倾斜的独立餐厅环境照片，显示室内桌椅、窗户和窗外绿色景观，保留完整摄影环境及照片暗边，摄影内容可替换。",
+      "label": "倾斜的独立餐厅环境照片，显示室内桌椅、窗户和窗外绿色景观，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_dining_left",
+      "kind": "photo",
+      "bbox": [
+        132,
+        466,
+        369,
+        706
+      ],
+      "description": "倾斜的独立餐厅桌面照片，显示多人用餐、饮品、餐盘和装饰，完整矩形照片区域带有暗色边缘与阴影，摄影内容可替换。",
+      "label": "倾斜的独立餐厅桌面照片，显示多人用餐、饮品、餐盘和装饰，完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert_lower",
+      "kind": "photo",
+      "bbox": [
+        278,
+        566,
+        522,
+        807
+      ],
+      "description": "倾斜的独立甜点照片，显示装盘甜点、餐具和暖色餐厅背景，保留完整摄影范围、深色边缘及投影，摄影内容可替换。",
+      "label": "倾斜的独立甜点照片，显示装盘甜点、餐具和暖色餐厅背景，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_storefront_bottom",
+      "kind": "photo",
+      "bbox": [
+        424,
+        675,
+        661,
+        907
+      ],
+      "description": "倾斜的独立餐厅门店照片，显示夜间店面、招牌、门窗和室内灯光，完整照片窗口带有暗色边缘与阴影，摄影内容可替换。",
+      "label": "倾斜的独立餐厅门店照片，显示夜间店面、招牌、门窗和室内灯光，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_handwritten_caption",
+      "kind": "overlay",
+      "bbox": [
+        595,
+        858,
+        1040,
+        1118
+      ],
+      "description": "右下区域的独立手写装饰字样，包含白色手写中文、短横线以及蓝色等号样式，整体作为特殊字形与排版装饰保留，不拆分为普通文字。",
+      "label": "右下区域的独立手写装饰字样，包含白色手写中文、短横线以及蓝色",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_food_top_left",
+    "photo_food_top_center",
+    "photo_food_top_right",
+    "photo_restaurant_left",
+    "photo_noodles_center",
+    "photo_restaurant_right",
+    "photo_dining_left",
+    "photo_dessert_lower",
+    "photo_storefront_bottom",
+    "overlay_handwritten_caption"
+  ]
+}

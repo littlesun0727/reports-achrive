@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_gradient",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为从顶部浅暖灰逐渐过渡到底部深灰褐色的连续渐变底图，四边及白色纸卡外围均可见相同渐变。保留此固定底图，纸卡、照片、回形针与文字装饰分别处理。",
+      "background_type": "reference_clean",
+      "label": "全画布为从顶部浅暖灰逐渐过渡到底部深灰褐色的连续渐变底图，四",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        325,
+        505,
+        754,
+        934
+      ],
+      "description": "正方形俯拍食物照片：白碗内盛汤粉、葱花和青柠，黑色筷子横跨碗的上部，碗外保留棕色编织餐垫环境。完整显示窗口包含碗和周围餐垫，不沿食物轮廓去背景；上方叠有白色网格线，摄影内容在各格之间连续，属于同一张照片。",
+      "label": "正方形俯拍食物照片：白碗内盛汤粉、葱花和青柠，黑色筷子横跨碗",
+      "method": "local"
+    },
+    {
+      "id": "frame_paper",
+      "kind": "frame",
+      "bbox": [
+        214,
+        281,
+        865,
+        1158
+      ],
+      "description": "竖向白色纸卡，中央承载一张正方形照片，照片上覆盖两条竖向与两条横向细白线。卡面上方印有三行浅灰衬线文字“What kind of / day did you / have in autumn?”，另有四个灰色圆点及分散的“(1)”“(2)”“(3)”标记，均随固定纸卡设计保留。左上被回形针压住，右下被秋日文字装饰局部遮挡。",
+      "photo_id": [
+        "photo_food"
+      ],
+      "label": "竖向白色纸卡，中央承载一张正方形照片，照片上覆盖两条竖向与两",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        248,
+        234,
+        312,
+        346
+      ],
+      "description": "左上方灰色线状回形针，略向左倾斜，上半部伸出白色纸卡，下半部覆盖纸卡上沿。保留完整双回折轮廓及线条边缘，独立于纸卡。",
+      "label": "左上方灰色线状回形针，略向左倾斜，上半部伸出白色纸卡，下半部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_autumn",
+      "kind": "overlay",
+      "bbox": [
+        773,
+        1067,
+        920,
+        1241
+      ],
+      "description": "跨在白色纸卡右下边缘的秋日文字组合：浅灰色大号艺术字“秋”为底，前方叠有褐色粗字六行“Autumn is / a second / spring / when every / leaf is a / flower”。英文与大字交错重叠，作为完整固定艺术字装饰保留。",
+      "label": "跨在白色纸卡右下边缘的秋日文字组合：浅灰色大号艺术字“秋”为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1414,
+        1076,
+        1434
+      ],
+      "description": "画布右下角很小的灰色圆角胶囊状水印，内部为“醒图”字样，保留外框与文字组成的完整标记。",
+      "label": "画布右下角很小的灰色圆角胶囊状水印，内部为“醒图”字样，保留",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_gradient",
+    "photo_food",
+    "frame_paper",
+    "overlay_clip",
+    "overlay_autumn",
+    "overlay_watermark"
+  ]
+}

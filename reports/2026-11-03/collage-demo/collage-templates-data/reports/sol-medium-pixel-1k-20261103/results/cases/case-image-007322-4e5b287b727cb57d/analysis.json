@@ -1,0 +1,67 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#544434"
+      }
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        0,
+        625,
+        1080,
+        1440
+      ],
+      "description": "下方横贯画布的书刊近景照片，斜向俯拍展开的浅灰白书页，上部翻起的纸页形成斜线与阴影，右上角露出浅色织物。页面上印有深棕色室内照片，可见局部人物手臂、手和家具；这些印刷内容与书页共同属于摄影场景，整体替换。完整显示窗口从上方水平分界延伸至画布左右及底边，保留纸张纹理、摄影颗粒和环境，不沿物体轮廓去背景。",
+      "label": "下方横贯画布的书刊近景照片，斜向俯拍展开的浅灰白书页，上部翻",
+      "method": "local"
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        354,
+        257,
+        729,
+        395
+      ],
+      "description": "The color in daily life\n-\nMagazine",
+      "label": "The color in daily life\n-\nMaga",
+      "method": "local",
+      "text": "The color in daily life\n-\nMagazine",
+      "text_status": "known",
+      "style": {
+        "fill": "#F2EFE6",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_book",
+    "text_heading"
+  ]
+}

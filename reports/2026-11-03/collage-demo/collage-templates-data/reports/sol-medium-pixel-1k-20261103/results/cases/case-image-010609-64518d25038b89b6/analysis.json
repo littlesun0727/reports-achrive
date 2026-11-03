@@ -1,0 +1,321 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的咖啡馆室内摄影画面覆盖画布四边，可见木梁天花、墙面、桌椅与前景木桌；三张独立餐饮照片遮挡了部分场景，但四周及其间隙的环境连续，作为一张全幅可替换照片保留。",
+      "background_type": "photo",
+      "label": "连续的咖啡馆室内摄影画面覆盖画布四边，可见木梁天花、墙面、桌",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_meal_1",
+      "kind": "photo",
+      "bbox": [
+        558,
+        138,
+        993,
+        720
+      ],
+      "description": "右上竖向餐点照片，桌面上有一盘贝果、蓝莓和芽菜，旁边是咖啡杯与白色花瓶；保留照片内完整桌面与花瓶环境，矩形显示。",
+      "label": "右上竖向餐点照片，桌面上有一盘贝果、蓝莓和芽菜，旁边是咖啡杯",
+      "method": "local"
+    },
+    {
+      "id": "photo_meal_2",
+      "kind": "photo",
+      "bbox": [
+        168,
+        493,
+        449,
+        868
+      ],
+      "description": "左侧竖向甜点照片，深色木桌上有饮品和一块装饰水果的蛋糕；保留完整摄影画面，矩形显示。",
+      "label": "左侧竖向甜点照片，深色木桌上有饮品和一块装饰水果的蛋糕；保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_meal_3",
+      "kind": "photo",
+      "bbox": [
+        329,
+        904,
+        796,
+        1255
+      ],
+      "description": "下方横向餐桌照片，圆桌上有饮品、甜点和餐具，背景为浅色墙面；保留完整摄影环境，矩形显示。",
+      "label": "下方横向餐桌照片，圆桌上有饮品、甜点和餐具，背景为浅色墙面；",
+      "method": "local"
+    },
+    {
+      "id": "overlay_mask",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        97,
+        319,
+        237
+      ],
+      "description": "左上方白色带黑色圆点的面具形贴纸，包含两个眼孔及完整外轮廓，独立叠加在咖啡馆背景上。",
+      "label": "左上方白色带黑色圆点的面具形贴纸，包含两个眼孔及完整外轮廓，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        283,
+        307,
+        483,
+        392
+      ],
+      "description": "上方偏左的一对白色点状翅膀装饰，左右成组，完整保留点状纹理与轮廓。",
+      "label": "上方偏左的一对白色点状翅膀装饰，左右成组，完整保留点状纹理与",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        366,
+        451,
+        428,
+        540
+      ],
+      "description": "左侧照片上沿附近的白色手绘回形针贴纸，完整轮廓叠在照片与背景交界处。",
+      "label": "左侧照片上沿附近的白色手绘回形针贴纸，完整轮廓叠在照片与背景",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_1",
+      "kind": "overlay",
+      "bbox": [
+        661,
+        182,
+        709,
+        230
+      ],
+      "description": "右上照片内的白色圆形编号贴纸，中心为黑色数字“1”，作为整体图形保留。",
+      "label": "右上照片内的白色圆形编号贴纸，中心为黑色数字“1”，作为整体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dots_paws",
+      "kind": "overlay",
+      "bbox": [
+        571,
+        259,
+        700,
+        488
+      ],
+      "description": "右上照片左侧的白色点阵与数枚爪印形装饰，作为一组独立点状图案保留，叠加于照片上。",
+      "label": "右上照片左侧的白色点阵与数枚爪印形装饰，作为一组独立点状图案",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_meal_1",
+      "kind": "overlay",
+      "bbox": [
+        904,
+        622,
+        966,
+        686
+      ],
+      "description": "右上照片右下区域的白色五角星贴纸，完整保留星形轮廓。",
+      "label": "右上照片右下区域的白色五角星贴纸，完整保留星形轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_2",
+      "kind": "overlay",
+      "bbox": [
+        192,
+        600,
+        234,
+        643
+      ],
+      "description": "左侧照片上部的白色圆形编号贴纸，中心为黑色数字“2”，作为整体图形保留。",
+      "label": "左侧照片上部的白色圆形编号贴纸，中心为黑色数字“2”，作为整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_meal_2",
+      "kind": "overlay",
+      "bbox": [
+        229,
+        642,
+        408,
+        843
+      ],
+      "description": "左侧照片内两枚分散的浅色五角星贴纸，作为同一照片上的装饰组合保留。",
+      "label": "左侧照片内两枚分散的浅色五角星贴纸，作为同一照片上的装饰组合",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cursor",
+      "kind": "overlay",
+      "bbox": [
+        541,
+        669,
+        620,
+        779
+      ],
+      "description": "照片交界处的大型黑白像素箭头指针贴纸，斜向上指，完整保留像素边缘并覆盖相邻照片与背景。",
+      "label": "照片交界处的大型黑白像素箭头指针贴纸，斜向上指，完整保留像素",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_center",
+      "kind": "overlay",
+      "bbox": [
+        555,
+        748,
+        784,
+        856
+      ],
+      "description": "画面中央偏右的白色手绘音乐符号与多条弯曲五线谱线条，作为连续的独立装饰整体保留。",
+      "label": "画面中央偏右的白色手绘音乐符号与多条弯曲五线谱线条，作为连续",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hearts_wall",
+      "kind": "overlay",
+      "bbox": [
+        815,
+        740,
+        1005,
+        876
+      ],
+      "description": "右侧墙面上的多枚灰白色心形及小圆环装饰，带柔和阴影，形成一组固定图形，独立于咖啡馆照片内容。",
+      "label": "右侧墙面上的多枚灰白色心形及小圆环装饰，带柔和阴影，形成一组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_3",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        1178,
+        772,
+        1225
+      ],
+      "description": "下方照片右下角的白色圆形编号贴纸，中心为黑色数字“3”，作为整体图形保留。",
+      "label": "下方照片右下角的白色圆形编号贴纸，中心为黑色数字“3”，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_meal_3",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        939,
+        768,
+        1067
+      ],
+      "description": "下方照片内的两枚白色五角星和一枚黑色点状星形贴纸，分布在照片上半部，作为一组装饰保留。",
+      "label": "下方照片内的两枚白色五角星和一枚黑色点状星形贴纸，分布在照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_lower",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1117,
+        336,
+        1239
+      ],
+      "description": "左下方白色手绘五线谱、音符与谱号组成的连续音乐装饰，部分延伸至画布左边缘，整体保留。",
+      "label": "左下方白色手绘五线谱、音符与谱号组成的连续音乐装饰，部分延伸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_hearts",
+      "kind": "overlay",
+      "bbox": [
+        256,
+        943,
+        377,
+        1053
+      ],
+      "description": "下方偏左的半透明白色对话气泡，内部有深色心形与小型装饰符号，连同气泡尾部作为一个固定贴纸保留。",
+      "label": "下方偏左的半透明白色对话气泡，内部有深色心形与小型装饰符号，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        1234,
+        311,
+        1303
+      ],
+      "description": "前景木桌上方的一组浅色星形贴纸与周围小点、圆形点缀，作为一体的散布式装饰保留。",
+      "label": "前景木桌上方的一组浅色星形贴纸与周围小点、圆形点缀，作为一体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        1165,
+        987,
+        1254
+      ],
+      "description": "右下区域两枚黑色描边的闪光菱形装饰，大小不同，作为一组固定图形保留。",
+      "label": "右下区域两枚黑色描边的闪光菱形装饰，大小不同，作为一组固定图",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apr",
+      "kind": "overlay",
+      "bbox": [
+        649,
+        1370,
+        739,
+        1401
+      ],
+      "description": "画布底部偏右的白色描边字母标记“APR”，每个字母置于独立小方框内，按完整艺术字图形保留。",
+      "label": "画布底部偏右的白色描边字母标记“APR”，每个字母置于独立小",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_meal_1",
+    "photo_meal_2",
+    "photo_meal_3",
+    "overlay_mask",
+    "overlay_wings",
+    "overlay_clip",
+    "overlay_label_1",
+    "overlay_dots_paws",
+    "overlay_star_meal_1",
+    "overlay_label_2",
+    "overlay_stars_meal_2",
+    "overlay_cursor",
+    "overlay_music_center",
+    "overlay_hearts_wall",
+    "overlay_stars_meal_3",
+    "overlay_label_3",
+    "overlay_music_lower",
+    "overlay_speech_hearts",
+    "overlay_star_lower",
+    "overlay_sparkles",
+    "overlay_apr"
+  ]
+}

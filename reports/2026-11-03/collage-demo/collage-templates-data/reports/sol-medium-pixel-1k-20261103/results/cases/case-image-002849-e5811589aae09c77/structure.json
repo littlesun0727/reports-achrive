@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_spread",
+    "description": "浅米白色的整页纸张底图，带有可见纸面纹理、轻微污渍和贯穿画面中央的纵向书页折痕；四周及照片、文字周围均连续可见。保留纸张与折痕原样，照片和叠加字样独立处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_coast",
+      "kind": "photo",
+      "bbox": [
+        95,
+        230,
+        984,
+        823
+      ],
+      "description": "横向海边日落照片：无人，远景中有海面、道路和一座小屋，前景是金色草穗，左侧天空呈橙黄色，右侧可见海平线。完整矩形照片窗口；环境与主体一同替换。下沿被叠加的手写字样局部覆盖。"
+    },
+    {
+      "id": "overlay_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        770,
+        500,
+        938
+      ],
+      "description": "黑色手写英文艺术字“Hug me until I smell like you”，分两行并带有环绕式下划线和小型笔触点缀；保留整组字形与笔画造型，独立叠在照片下缘及其下方纸面上。"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        685,
+        964,
+        977,
+        1306
+      ],
+      "text": "Summer arrives with\nlong days and warm\nsunlight that wraps\naround every corner.\nThe air is light and sweet,\nfilled with the sound of\nwind and quiet joy.\nThere’s no rush in summer,\njust simple happiness\nunder the sun.\nLet us wander freely,\nbreathe in the warm air,\nand cherish every\nbright and peaceful\nmoment this wonderful\nseason brings.",
+      "color": "#514D45",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_coast",
+    "overlay_handwriting",
+    "text_poem"
+  ]
+}

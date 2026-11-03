@@ -1,0 +1,64 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的餐桌甜品摄影覆盖全画布，无人物。前景白色椭圆盘内有吉事果、香蕉片、香草冰淇淋球及巧克力酱杯，盘子左右边缘被画布裁切；右上方是一杯浅色饮品，后方为棕色粗糙墙面，下方露出深色桌面。墙面、桌面及食物场景连续延伸至画布四边，左上局部被甜品装饰和文字覆盖；整个摄影场景随客户照片替换。",
+      "background_type": "photo",
+      "label": "一张连续的餐桌甜品摄影覆盖全画布，无人物。前景白色椭圆盘内有",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_dessert",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        46,
+        529,
+        384
+      ],
+      "description": "左上独立甜品插画贴纸：浅色椭圆餐盘承放巧克力酱杯、金黄色吉事果、香蕉片和浅黄色冰淇淋球，盘外环绕白色手绘虚线。下方沿弧线排列白色字样“香蕉🍌吉事果”。插画、虚线、弧形文字及香蕉图案共同构成完整固定装饰，不属于下方实拍场景。",
+      "label": "左上独立甜品插画贴纸：浅色椭圆餐盘承放巧克力酱杯、金黄色吉事",
+      "method": "extract"
+    },
+    {
+      "id": "text_description",
+      "kind": "text",
+      "bbox": [
+        82,
+        412,
+        617,
+        555
+      ],
+      "description": "超惊艳的一道，\n外酥里嫩的吉事果\n蘸上香草冰淇淋和巧克力🍫\n甜品脑袋千万不要放过～好吃爱吃",
+      "label": "超惊艳的一道，\n外酥里嫩的吉事果\n蘸上香草冰淇淋和巧克力🍫\n",
+      "method": "local",
+      "text": "超惊艳的一道，\n外酥里嫩的吉事果\n蘸上香草冰淇淋和巧克力🍫\n甜品脑袋千万不要放过～好吃爱吃",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_dessert",
+    "text_description"
+  ]
+}

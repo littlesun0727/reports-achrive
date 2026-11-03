@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "illustrated_forest_base",
+    "description": "连续的手绘森林与草地插画底图，包含蓝天空、云朵、飞鸟、仙人掌、草地、苹果、底部毛毛虫及右上角带有“HAPPY FOREST”字样的对话泡泡；固定插画延伸至画布四边，照片、木框和粉色角色遮挡的区域作为后续清除范围，底图其余纹理与装饰保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_girl_cafe",
+      "kind": "photo",
+      "bbox": [
+        316,
+        256,
+        991,
+        1076
+      ],
+      "description": "木制画框内的一张竖向近景生活照，画面中一名戴圆框眼镜的年轻女性面向镜头，身穿彩色圆点上衣并佩戴项链，前景可见咖啡杯，背景保留室内咖啡店、窗户、店员和货架等摄影环境；照片窗口略带透视倾斜，左下及下方部分被粉色手绘角色遮挡。"
+    },
+    {
+      "id": "frame_wooden_easel",
+      "kind": "frame",
+      "bbox": [
+        271,
+        139,
+        1042,
+        1247
+      ],
+      "description": "承载单张照片的棕色手绘木制画框与画架一体结构，包含倾斜木框、白色木纹高光、顶部夹持木块、两枚黄色表情夹、底部横梁和支撑腿；框沿覆盖照片边缘，完整框体及画架结构作为固定载体保留。",
+      "photo_id": [
+        "photo_girl_cafe"
+      ]
+    },
+    {
+      "id": "overlay_pink_forest_character",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        652,
+        591,
+        1199
+      ],
+      "description": "位于画框前方的独立粉色手绘角色组合，包含大耳朵和短腿的粉色主体、左侧手持的环形道具以及右侧举起的棕色小旗杆；黑色手绘轮廓、面部细节和内部阴影完整保留，角色遮挡画框左下部、照片左下区域及部分画架结构。"
+    }
+  ],
+  "layer_order": [
+    "photo_girl_cafe",
+    "frame_wooden_easel",
+    "overlay_pink_forest_character"
+  ]
+}

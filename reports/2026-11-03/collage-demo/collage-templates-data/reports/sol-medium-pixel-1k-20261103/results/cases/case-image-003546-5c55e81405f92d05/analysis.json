@@ -1,0 +1,352 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_tree",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        692,
+        930
+      ],
+      "description": "左侧大幅竖向植物摄影，包含树干、密集绿叶和明亮的户外环境，完整矩形显示区域延伸至画布上边、左边和下边，右侧被拼贴单元遮挡。",
+      "label": "左侧大幅竖向植物摄影，包含树干、密集绿叶和明亮的户外环境，完",
+      "method": "local"
+    },
+    {
+      "id": "overlay_food_collage",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        0,
+        1056,
+        252
+      ],
+      "description": "右上方独立的饮食主题固定拼贴，包含两碗面食、饮品、筷子和下方分瓣餐盘形图案，保留其白底、黑色线稿和印刷细节。",
+      "label": "右上方独立的饮食主题固定拼贴，包含两碗面食、饮品、筷子和下方",
+      "method": "extract"
+    },
+    {
+      "id": "photo_leaf",
+      "kind": "photo",
+      "bbox": [
+        78,
+        282,
+        250,
+        658
+      ],
+      "description": "从植物摄影中独立显示的深绿色大叶片抠图，沿叶片轮廓带白色手绘描边，主体跨在左侧树木照片上方，完整叶柄和叶缘均保留。",
+      "label": "从植物摄影中独立显示的深绿色大叶片抠图，沿叶片轮廓带白色手绘",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tag",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        266,
+        382,
+        657
+      ],
+      "description": "倾斜的浅蓝色手写卡片，带白色不规则边缘和蓝色中文手写字样，压在左侧叶片与树木照片上方，卡片轮廓和内部文字作为一个固定设计单元保留。",
+      "label": "倾斜的浅蓝色手写卡片，带白色不规则边缘和蓝色中文手写字样，压",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tree_caption",
+      "kind": "overlay",
+      "bbox": [
+        406,
+        389,
+        601,
+        484
+      ],
+      "description": "树木照片右侧的白色斜向手写说明字样，带轻微手绘装饰线，作为独立叠加文字装饰保留。",
+      "label": "树木照片右侧的白色斜向手写说明字样，带轻微手绘装饰线，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "photo_plant",
+      "kind": "photo",
+      "bbox": [
+        355,
+        442,
+        507,
+        686
+      ],
+      "description": "盆栽植物抠图，包含枝叶、花盆及其完整组合，外围有明显白色手绘描边，置于左侧树木摄影和绿色文字卡片上方。",
+      "label": "盆栽植物抠图，包含枝叶、花盆及其完整组合，外围有明显白色手绘",
+      "method": "local"
+    },
+    {
+      "id": "overlay_green_note",
+      "kind": "overlay",
+      "bbox": [
+        384,
+        691,
+        693,
+        905
+      ],
+      "description": "右下方绿色矩形便签，包含多行白色手写中文和纸面固定底色，整体作为带字标签保留，覆盖左侧植物照片的下部。",
+      "label": "右下方绿色矩形便签，包含多行白色手写中文和纸面固定底色，整体",
+      "method": "extract"
+    },
+    {
+      "id": "photo_landscape_day",
+      "kind": "photo",
+      "bbox": [
+        718,
+        308,
+        1047,
+        556
+      ],
+      "description": "右侧中上部横向风景照片，显示屋顶、树木、远处建筑和夕阳云层，照片边界为独立矩形，顶部有白色手写说明字样叠加。",
+      "label": "右侧中上部横向风景照片，显示屋顶、树木、远处建筑和夕阳云层，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_day_caption",
+      "kind": "overlay",
+      "bbox": [
+        723,
+        313,
+        906,
+        365
+      ],
+      "description": "覆盖在上方夕景照片左上区域的白色多行手写中文说明，属于独立固定叠加字样。",
+      "label": "覆盖在上方夕景照片左上区域的白色多行手写中文说明，属于独立固",
+      "method": "extract"
+    },
+    {
+      "id": "photo_landscape_evening",
+      "kind": "photo",
+      "bbox": [
+        718,
+        572,
+        1047,
+        777
+      ],
+      "description": "右侧中部横向风景照片，显示山景、房屋、月亮和蓝灰色晚霞，保留完整矩形摄影范围，顶部有白色手写说明叠加。",
+      "label": "右侧中部横向风景照片，显示山景、房屋、月亮和蓝灰色晚霞，保留",
+      "method": "local"
+    },
+    {
+      "id": "overlay_evening_caption",
+      "kind": "overlay",
+      "bbox": [
+        723,
+        577,
+        942,
+        634
+      ],
+      "description": "覆盖在下方山景照片左上区域的白色多行手写中文说明，作为独立固定文字装饰保留。",
+      "label": "覆盖在下方山景照片左上区域的白色多行手写中文说明，作为独立固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_april_title",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        972,
+        285,
+        1061
+      ],
+      "description": "左下区域绿色英文艺术字“April”，带流动书写笔画和装饰性首字母，属于特殊字形装饰而非普通排版文字。",
+      "label": "左下区域绿色英文艺术字“April”，带流动书写笔画和装饰性",
+      "method": "extract"
+    },
+    {
+      "id": "photo_train",
+      "kind": "photo",
+      "bbox": [
+        372,
+        957,
+        668,
+        1222
+      ],
+      "description": "下方中部横向车站摄影，显示站台上的多人、行李和墙体环境，完整矩形照片独立放置在白色画布上。",
+      "label": "下方中部横向车站摄影，显示站台上的多人、行李和墙体环境，完整",
+      "method": "local"
+    },
+    {
+      "id": "overlay_train_arrow",
+      "kind": "overlay",
+      "bbox": [
+        264,
+        1039,
+        374,
+        1112
+      ],
+      "description": "从左下手写说明指向车站照片的绿色弧形箭头，笔刷线条和箭头尖端作为独立固定装饰保留。",
+      "label": "从左下手写说明指向车站照片的绿色弧形箭头，笔刷线条和箭头尖端",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_journal",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        1107,
+        355,
+        1384
+      ],
+      "description": "左下方大段绿色手写中文日志文字，分多行排列并带手绘笔触，作为完整艺术化文字单元保留。",
+      "label": "左下方大段绿色手写中文日志文字，分多行排列并带手绘笔触，作为",
+      "method": "extract"
+    },
+    {
+      "id": "photo_board",
+      "kind": "photo",
+      "bbox": [
+        835,
+        850,
+        1063,
+        1154
+      ],
+      "description": "右下上方的竖向车站信息屏摄影，包含彩色班次屏幕、站内墙面和旁边行人，保留完整矩形摄影范围。",
+      "label": "右下上方的竖向车站信息屏摄影，包含彩色班次屏幕、站内墙面和旁",
+      "method": "local"
+    },
+    {
+      "id": "overlay_board_caption",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        916,
+        1056,
+        1108
+      ],
+      "description": "围绕车站信息屏左侧和上方的蓝色手写中文说明及弧形指示箭头，作为一个相互关联的固定标注单元保留。",
+      "label": "围绕车站信息屏左侧和上方的蓝色手写中文说明及弧形指示箭头，作",
+      "method": "extract"
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        644,
+        1073,
+        862,
+        1395
+      ],
+      "description": "下方偏右的竖向人物自拍照片，显示长发人物、衣物和室内背景，脸部覆盖白色纸张及黑色眼镜贴图，整体摄影画面作为一张可替换照片保留。",
+      "label": "下方偏右的竖向人物自拍照片，显示长发人物、衣物和室内背景，脸",
+      "method": "local"
+    },
+    {
+      "id": "overlay_selfie_sleep_mark",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        1085,
+        844,
+        1120
+      ],
+      "description": "自拍照片右上方的小型白色睡眠符号装饰，叠加在照片边缘附近，作为独立固定贴纸保留。",
+      "label": "自拍照片右上方的小型白色睡眠符号装饰，叠加在照片边缘附近，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_small_doodle",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        1298,
+        510,
+        1404
+      ],
+      "description": "车站照片下方偏左的白色手绘卡通脸和旁边浅色手写注释，包含不规则轮廓和小表情，作为完整装饰单元保留。",
+      "label": "车站照片下方偏左的白色手绘卡通脸和旁边浅色手写注释，包含不规",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_note",
+      "kind": "overlay",
+      "bbox": [
+        477,
+        1249,
+        650,
+        1399
+      ],
+      "description": "车站照片与自拍照片之间的浅灰褐色多行手写说明，带轻微手绘线条和不规则排版，作为固定文字装饰保留。",
+      "label": "车站照片与自拍照片之间的浅灰褐色多行手写说明，带轻微手绘线条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cartoon_group",
+      "kind": "overlay",
+      "bbox": [
+        891,
+        1219,
+        1054,
+        1381
+      ],
+      "description": "右下角米色手写祝语、红蓝装饰和四个卡通人物组成的独立庆祝贴纸，保留整体轮廓、颜色和内部图案。",
+      "label": "右下角米色手写祝语、红蓝装饰和四个卡通人物组成的独立庆祝贴纸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_fineprint",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1383,
+        344,
+        1414
+      ],
+      "description": "画布左下边缘的一行极细浅绿色手写小字和装饰线，作为底部独立注释保留。",
+      "label": "画布左下边缘的一行极细浅绿色手写小字和装饰线，作为底部独立注",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_tree",
+    "photo_landscape_day",
+    "photo_landscape_evening",
+    "photo_train",
+    "photo_board",
+    "photo_selfie",
+    "overlay_food_collage",
+    "photo_leaf",
+    "overlay_tag",
+    "overlay_tree_caption",
+    "photo_plant",
+    "overlay_green_note",
+    "overlay_april_title",
+    "overlay_train_arrow",
+    "overlay_left_journal",
+    "overlay_day_caption",
+    "overlay_evening_caption",
+    "overlay_board_caption",
+    "overlay_selfie_sleep_mark",
+    "overlay_small_doodle",
+    "overlay_bottom_note",
+    "overlay_cartoon_group",
+    "overlay_bottom_fineprint"
+  ]
+}

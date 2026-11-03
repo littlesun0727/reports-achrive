@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的室内静物摄影覆盖全画布：木桌上有两只高纸杯和两只矮纸杯，盛放草莓、黄色水果及乳白色甜品，左下桌面另有一颗草莓。后方一名穿黑衣的人仅露出躯干和托书的部分手部，打开的书横跨画面中上部，左后方为灰墙。桌面、墙面及黑衣区域连续延伸至画布边缘，局部被红色字样和烟花装饰覆盖。人物、书本、杯身印花、水果及全部摄影环境一起替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_hello",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        84,
+        531,
+        461
+      ],
+      "description": "左上红色粗糙手绘字样“Hello”和“2026”，两行错落倾斜排列，右侧有长斜笔画，左下有两道放射状强调线。字形、笔触和附属线条共同组成一个完整装饰，覆盖灰墙、黑衣及书页上方。"
+    },
+    {
+      "id": "overlay_firework_upper",
+      "kind": "overlay",
+      "bbox": [
+        494,
+        305,
+        803,
+        615
+      ],
+      "description": "书本右上方的白色与金黄色手绘烟花，弯曲放射线围绕中心展开，外围散布白色、金色圆点和短线。全部笔画与散点作为一个完整装饰保留，叠在黑衣与书页上。"
+    },
+    {
+      "id": "overlay_firework_left",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        456,
+        414,
+        717
+      ],
+      "description": "书本左下方的橙红、橙黄与浅黄色烟花装饰，以黄色五角星为中心，包含弯曲放射线、爱心、星形、圆点及沿不同方向排布的细小手写中文，可辨“万事胜意”等祝福字样。整体覆盖书页及左侧高杯顶部附近，保留完整笔触与文字设计。"
+    },
+    {
+      "id": "overlay_firework_right",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        752,
+        1009,
+        1012
+      ],
+      "description": "右侧矮杯上方的白色、荧光黄色烟花装饰，包含向四周弯曲展开的光线、细小星芒及沿弧线排布的中文祝福文字，可辨“2026”“一定”等字样。文字与放射线共同构成固定设计，整体叠在后方黑衣、高杯右缘和矮杯内口上方。"
+    },
+    {
+      "id": "overlay_firework_bottom",
+      "kind": "overlay",
+      "bbox": [
+        349,
+        941,
+        642,
+        1225
+      ],
+      "description": "前方草莓矮杯周围的白色与金黄色放射装饰，包含长短直线、金色五角星、白色空心圆及小圆点。上部线条伸入两只高杯之间，下部星形与散点覆盖前方矮杯杯身，全部成员作为一个完整装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_hello",
+    "overlay_firework_upper",
+    "overlay_firework_left",
+    "overlay_firework_right",
+    "overlay_firework_bottom"
+  ]
+}

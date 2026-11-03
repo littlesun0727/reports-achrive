@@ -1,0 +1,125 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1421
+  ],
+  "objects": [
+    {
+      "id": "paper_lace_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1421
+      ],
+      "description": "连续的浅粉色纸布底图覆盖全画布，保留可见的细微纹理、白色蕾丝横带、散布的小白点及斜向缝线；中央两张人物照片和其他独立元素遮挡局部，底图本身不替换。",
+      "background_type": "reference_clean",
+      "label": "连续的浅粉色纸布底图覆盖全画布，保留可见的细微纹理、白色蕾丝",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_portrait",
+      "kind": "photo",
+      "bbox": [
+        125,
+        157,
+        955,
+        710
+      ],
+      "description": "横向室内人物照片，一名长粉发女性坐在右侧椅上，身体朝向左侧，手持花束，桌上有蛋糕和粉色玩偶；人物、家具及花纹墙帘均保留为摄影内容。",
+      "label": "横向室内人物照片，一名长粉发女性坐在右侧椅上，身体朝向左侧，",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_portrait",
+      "kind": "photo",
+      "bbox": [
+        125,
+        710,
+        955,
+        1265
+      ],
+      "description": "横向室内人物照片，同一名长粉发女性坐在右侧，手靠近下巴并面向镜头，桌上可见花束、蛋糕和粉色玩偶；保留完整室内环境，与上方照片在水平边界处相接，姿态和取景不同，作为独立照片替换。",
+      "label": "横向室内人物照片，同一名长粉发女性坐在右侧，手靠近下巴并面向",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake_inset",
+      "kind": "photo",
+      "bbox": [
+        38,
+        630,
+        372,
+        791
+      ],
+      "description": "左侧小幅横向俯拍照片，展示桌面上的蛋糕、餐具和粉色装饰，保留摄影环境；照片外沿可见细白边及右侧窄粉色边，压在两张主照片交界处。",
+      "label": "左侧小幅横向俯拍照片，展示桌面上的蛋糕、餐具和粉色装饰，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_crucifix",
+      "kind": "photo",
+      "bbox": [
+        737,
+        47,
+        989,
+        300
+      ],
+      "description": "右上方近景方形照片，银色十字架吊坠垂在浅色背景前，链条和右侧浅色雕像细节属于同一摄影画面；矩形照片边界清晰，局部覆盖粉色底板。",
+      "label": "右上方近景方形照片，银色十字架吊坠垂在浅色背景前，链条和右侧",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pink_panel",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        133,
+        1050,
+        383
+      ],
+      "description": "右上区域半透明粉色矩形装饰底板，位于十字架照片和右侧文字标签下方，边缘与底图纹理仍隐约可见。",
+      "label": "右上区域半透明粉色矩形装饰底板，位于十字架照片和右侧文字标签",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_label",
+      "kind": "overlay",
+      "bbox": [
+        918,
+        341,
+        1068,
+        413
+      ],
+      "description": "右侧浅粉色半透明矩形标签，内部有一行黑色表情符号式装饰字样，整体作为带字固定标签保留。",
+      "label": "右侧浅粉色半透明矩形标签，内部有一行黑色表情符号式装饰字样，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rose",
+      "kind": "overlay",
+      "bbox": [
+        754,
+        1086,
+        1080,
+        1403
+      ],
+      "description": "右下角大型粉色玫瑰花朵抠图，带浅色花瓣和叶片，沿花朵外形显示并覆盖下方照片及底图，右侧接近画布边缘。",
+      "label": "右下角大型粉色玫瑰花朵抠图，带浅色花瓣和叶片，沿花朵外形显示",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_lace_background",
+    "photo_upper_portrait",
+    "photo_lower_portrait",
+    "photo_cake_inset",
+    "overlay_pink_panel",
+    "photo_crucifix",
+    "overlay_text_label",
+    "overlay_rose"
+  ]
+}

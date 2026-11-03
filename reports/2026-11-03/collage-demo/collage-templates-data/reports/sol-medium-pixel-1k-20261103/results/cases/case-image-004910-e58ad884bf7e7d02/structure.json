@@ -1,0 +1,227 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "brown_paper_base",
+    "description": "全画布连续的棕色颗粒纸纹底图，上部较深、下部偏浅暖棕，四边及照片周围均露出同一纹理。保留底色变化与纸纹；照片、圆点星星装饰、点阵、文字及下方浅色横带独立列出，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_birthday",
+      "kind": "photo",
+      "bbox": [
+        193,
+        338,
+        860,
+        1201
+      ],
+      "description": "一张竖向餐厅生日照片：一名深色盘发女子坐在画面右侧，穿浅色衣裙和半透明长手套，低头看向伸出的双手与左下方蛋糕。桌面还有烛杯、酒杯和饰物；后方可见其他客人、座椅、树木、灯串、墙面与露台设施。完整矩形窗口保留全部摄影环境，未沿人物轮廓去背景；上部被棕色圆点及Brown字样叠盖，右下部有白星装饰覆盖。"
+    },
+    {
+      "id": "overlay_dots_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        718,
+        48,
+        1047,
+        665
+      ],
+      "description": "右上角规则排列的细小白色点阵，横纵间距均匀，延伸至右侧画布边缘。作为完整局部点阵装饰保留，不属于纸张颗粒纹理。"
+    },
+    {
+      "id": "overlay_dots_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        700,
+        342,
+        1317
+      ],
+      "description": "左侧中下部的规则白色细点阵，照片左侧及下方可见，右上部分被照片遮挡。保留这一局部点阵的完整可见分布，不把照片边缘当作点阵自身边界。"
+    },
+    {
+      "id": "overlay_stars_upper",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        138,
+        440,
+        339
+      ],
+      "description": "左上方一组九枚大小不同的白色五角星，散落成斜向星点图案，最下方星尖接近照片上沿。各星的角度与大小不一，作为这一局部星群装饰整体保留。"
+    },
+    {
+      "id": "overlay_circle_1",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        49,
+        361,
+        94
+      ],
+      "description": "画布上部偏左的一枚深棕色实心圆点，边缘略有纸面颗粒感，独立保留。"
+    },
+    {
+      "id": "overlay_circle_2",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        132,
+        594,
+        177
+      ],
+      "description": "画布上部偏右、照片上方的一枚深棕色实心圆点，独立保留。"
+    },
+    {
+      "id": "overlay_circle_3",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        210,
+        156,
+        256
+      ],
+      "description": "左上星群旁的一枚深棕色实心圆点，与附近白星为不同可见成员，独立保留。"
+    },
+    {
+      "id": "overlay_circle_4",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        340,
+        88,
+        386
+      ],
+      "description": "照片左上方外侧的一枚深棕色实心圆点，独立保留。"
+    },
+    {
+      "id": "overlay_circle_5",
+      "kind": "overlay",
+      "bbox": [
+        327,
+        324,
+        374,
+        371
+      ],
+      "description": "压在照片上沿偏左位置的深棕色实心圆点，上半部落在纸底、下半部遮盖树木摄影内容，完整圆形独立保留。"
+    },
+    {
+      "id": "overlay_circle_6",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        323,
+        556,
+        369
+      ],
+      "description": "压在照片上沿中部的深棕色实心圆点，横跨纸底与照片边界，独立保留。"
+    },
+    {
+      "id": "overlay_circle_7",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        443,
+        294,
+        488
+      ],
+      "description": "照片左上区域树木前方的一枚深棕色实心圆点，属于后加装饰而非摄影内容。"
+    },
+    {
+      "id": "overlay_circle_8",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        397,
+        654,
+        443
+      ],
+      "description": "照片上部偏右的一枚深棕色实心圆点，覆盖枝叶与深色环境，独立保留。"
+    },
+    {
+      "id": "overlay_stars_lower",
+      "kind": "overlay",
+      "bbox": [
+        664,
+        1099,
+        1020,
+        1303
+      ],
+      "description": "照片右下角及其外侧的一组九枚白色五角星，大小、角度错落；左上两枚覆盖照片，其余散落在下方及右侧棕色纸底。完整局部星群作为一个装饰保留。"
+    },
+    {
+      "id": "overlay_beige_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1380,
+        1047,
+        1449
+      ],
+      "description": "下方横贯画布的浅米黄色半透明纸感横带，具有轻微颗粒与底色透出，位于生日字样后方；只承载文字装饰，不承载照片。"
+    },
+    {
+      "id": "overlay_happy_birthday",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        1245,
+        691,
+        1458
+      ],
+      "description": "黑色细笔手写艺术字，分两行写着Happy与Birthday。大写首字母、连笔与长弧形收笔具有特定造型，第二行跨在浅色横带上，整体保留原有笔画和两行错落布局。"
+    },
+    {
+      "id": "text_chocolate",
+      "kind": "text",
+      "bbox": [
+        65,
+        101,
+        244,
+        133
+      ],
+      "text": "Chocolate",
+      "color": "#574326",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_brown",
+      "kind": "text",
+      "bbox": [
+        431,
+        468,
+        546,
+        502
+      ],
+      "text": "Brown",
+      "color": "#574326",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_dots_upper_right",
+    "overlay_dots_lower_left",
+    "overlay_beige_band",
+    "photo_birthday",
+    "overlay_stars_upper",
+    "overlay_circle_1",
+    "overlay_circle_2",
+    "overlay_circle_3",
+    "overlay_circle_4",
+    "overlay_circle_5",
+    "overlay_circle_6",
+    "overlay_circle_7",
+    "overlay_circle_8",
+    "overlay_stars_lower",
+    "text_chocolate",
+    "text_brown",
+    "overlay_happy_birthday"
+  ]
+}

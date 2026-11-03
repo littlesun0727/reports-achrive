@@ -1,0 +1,357 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "striped_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "全画布为蓝绿色与灰米色相间的细密竖条纹底图，带轻微纹理和色调变化；四边及六张邮票式照片卡之间的空隙均连续露出同一底纹。保留条纹底图，照片卡、照片及独立叠加装饰另行处理。",
+      "background_type": "reference_clean",
+      "label": "全画布为蓝绿色与灰米色相间的细密竖条纹底图，带轻微纹理和色调",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        84,
+        94,
+        325,
+        334
+      ],
+      "description": "一名深色蓬松短发青年正面半身肖像，直视镜头，穿深色立领上衣，位于画面中央。保留浅灰色摄影背景，整体呈深蓝与灰白双色调；完整显示范围为上方左侧卡片的矩形内口，右上角被圆形邮戳局部遮挡。",
+      "label": "一名深色蓬松短发青年正面半身肖像，直视镜头，穿深色立领上衣，",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_left",
+      "kind": "frame",
+      "bbox": [
+        51,
+        55,
+        358,
+        484
+      ],
+      "description": "竖向白色邮票式照片卡，四边为连续半圆齿孔轮廓，保留纸面与轻微阴影。照片下方一体印有蓝灰色横条、MEMORIES及小字take us back.，底部为浅蓝心电线和实心爱心；这些印刷设计随框体整体保留。",
+      "photo_id": [
+        "photo_top_left"
+      ],
+      "label": "竖向白色邮票式照片卡，四边为连续半圆齿孔轮廓，保留纸面与轻微",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left_letters",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        183,
+        307,
+        259
+      ],
+      "description": "照片中部左右分置的大号白色字母S与U，字母位置和间距构成固定版式，中间留出人物所在区域。保留两处可见字形及透明间隙，不将人物并入装饰。",
+      "label": "照片中部左右分置的大号白色字母S与U，字母位置和间距构成固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left_postmark",
+      "kind": "overlay",
+      "bbox": [
+        262,
+        75,
+        345,
+        155
+      ],
+      "description": "深蓝色圆形邮戳，具有粗细不齐的圆环及弧形文字，可辨LONDON.W、DE 2、78。跨在左上照片右上角与白色框边之间，保留完整印章字形和印刷质感。",
+      "label": "深蓝色圆形邮戳，具有粗细不齐的圆环及弧形文字，可辨LONDO",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_middle",
+      "kind": "photo",
+      "bbox": [
+        419,
+        95,
+        661,
+        337
+      ],
+      "description": "一名深色中分头发青年半身近景，头部略偏转并看向镜头，穿深色翻领上衣，肩胸占据下半部。保留浅灰色摄影背景，整体为深蓝灰白双色调；矩形内口右上角被圆形邮戳遮挡。",
+      "label": "一名深色中分头发青年半身近景，头部略偏转并看向镜头，穿深色翻",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_middle",
+      "kind": "frame",
+      "bbox": [
+        387,
+        55,
+        695,
+        487
+      ],
+      "description": "竖向白色邮票式照片卡，四周连续齿孔边缘带轻微阴影。照片下方一体印有蓝灰色MEMORIES横条及小字take us back.，底部印有浅蓝心电线和爱心，全部作为框体内部设计保留。",
+      "photo_id": [
+        "photo_top_middle"
+      ],
+      "label": "竖向白色邮票式照片卡，四周连续齿孔边缘带轻微阴影。照片下方一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_middle_letters",
+      "kind": "overlay",
+      "bbox": [
+        423,
+        193,
+        656,
+        219
+      ],
+      "description": "横贯照片中上部的白色粗体英文设计字样，左侧可见TWEN，右侧可见WO X，中部被人物头脸遮住。保留原有可见字形片段、位置与中间缺口，遮挡部分的原文不补写。",
+      "label": "横贯照片中上部的白色粗体英文设计字样，左侧可见TWEN，右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_middle_postmark",
+      "kind": "overlay",
+      "bbox": [
+        598,
+        75,
+        682,
+        155
+      ],
+      "description": "深蓝色圆形邮戳，圆环上有弧形LONDON.W字样，内部可辨DE 2与78。叠压中上照片右上角和白色卡边，作为独立印章装饰保留。",
+      "label": "深蓝色圆形邮戳，圆环上有弧形LONDON.W字样，内部可辨D",
+      "method": "extract"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        737,
+        168,
+        1038,
+        368
+      ],
+      "description": "横向青年半身肖像，一名蓬松深色头发青年穿深色上衣，头偏向左下，手托在下巴附近。保留灰色摄影背景，呈深蓝灰白双色调；显示范围为右上邮票卡的完整矩形内口，局部被框体的星形、月份字样和圆点图案覆盖。",
+      "label": "横向青年半身肖像，一名蓬松深色头发青年穿深色上衣，头偏向左下",
+      "method": "local"
+    },
+    {
+      "id": "frame_top_right",
+      "kind": "frame",
+      "bbox": [
+        719,
+        152,
+        1054,
+        391
+      ],
+      "description": "横向白色邮票框，四周为连续半圆齿孔边缘。内部固定印刷设计包括右上浅色空心星、左下灰蓝实心星、左下白色花体JANUARY，以及右下深蓝底白色圆点小块；保留这些模板图案、边缘及轻微阴影，照片内容单独替换。",
+      "photo_id": [
+        "photo_top_right"
+      ],
+      "label": "横向白色邮票框，四周为连续半圆齿孔边缘。内部固定印刷设计包括",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        79,
+        569,
+        346,
+        921
+      ],
+      "description": "一名深色蓬松头发青年正面胸像，直视镜头，穿带浅色星形领部图案的牛仔外套并佩戴项链。衣服星形属于实拍内容，随照片替换。保留灰色摄影背景及蓝灰双色调，完整矩形窗口上方叠有日期和椭圆邮戳。",
+      "label": "一名深色蓬松头发青年正面胸像，直视镜头，穿带浅色星形领部图案",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_left",
+      "kind": "frame",
+      "bbox": [
+        60,
+        534,
+        366,
+        961
+      ],
+      "description": "左下竖向白色邮票式照片框，围绕一个较高的矩形照片内口，四边具有连续半圆齿孔，底边留有白色纸边。保留完整白色框体、纸面和轻微阴影。",
+      "photo_id": [
+        "photo_bottom_left"
+      ],
+      "label": "左下竖向白色邮票式照片框，围绕一个较高的矩形照片内口，四边具",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom_left_date",
+      "kind": "text",
+      "bbox": [
+        81,
+        573,
+        187,
+        665
+      ],
+      "description": "2005\n11-19",
+      "label": "2005\n11-19",
+      "method": "local",
+      "text": "2005\n11-19",
+      "text_status": "known",
+      "style": {
+        "fill": "#F4F2F1",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bottom_left_postmark",
+      "kind": "overlay",
+      "bbox": [
+        253,
+        550,
+        354,
+        627
+      ],
+      "description": "倾斜的深蓝椭圆邮戳，跨在左下照片右上角与白色框边上；可辨FORWARDED、BY、CROSBY & CO、SHIP CHANDLERS、AND SHIP AGENTS、CALLAO PERU。完整保留椭圆轮廓、分行印字及印刷质感。",
+      "label": "倾斜的深蓝椭圆邮戳，跨在左下照片右上角与白色框边上；可辨FO",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_middle",
+      "kind": "photo",
+      "bbox": [
+        407,
+        566,
+        674,
+        918
+      ],
+      "description": "一名深色蓬松头发青年正面胸像，直视镜头，穿浅色连帽上衣并佩戴项链。保留浅灰摄影背景，整体呈柔和蓝灰双色调；完整显示窗口为中下卡片矩形内口，顶部叠有日期和邮戳，右下角被白色撕纸条局部遮挡。",
+      "label": "一名深色蓬松头发青年正面胸像，直视镜头，穿浅色连帽上衣并佩戴",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_middle",
+      "kind": "frame",
+      "bbox": [
+        389,
+        532,
+        693,
+        956
+      ],
+      "description": "中下竖向白色邮票式照片框，单一矩形内口，四边连续半圆齿孔，底部留白。保留完整白色纸框、边缘形态与轻微阴影。",
+      "photo_id": [
+        "photo_bottom_middle"
+      ],
+      "label": "中下竖向白色邮票式照片框，单一矩形内口，四边连续半圆齿孔，底",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom_middle_date",
+      "kind": "text",
+      "bbox": [
+        412,
+        570,
+        500,
+        646
+      ],
+      "description": "2007\n01-12",
+      "label": "2007\n01-12",
+      "method": "local",
+      "text": "2007\n01-12",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5F3F2",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bottom_middle_postmark",
+      "kind": "overlay",
+      "bbox": [
+        580,
+        548,
+        678,
+        623
+      ],
+      "description": "深蓝椭圆邮戳，跨压中下照片右上角与白色框边，可辨FORWARDED、BY、CROSBY & CO、SHIP CHANDLERS、AND SHIP AGENTS、CALLAO PERU。保留完整印章边线、内部小字和不均匀印刷效果。",
+      "label": "深蓝椭圆邮戳，跨压中下照片右上角与白色框边，可辨FORWAR",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_middle_paper",
+      "kind": "overlay",
+      "bbox": [
+        579,
+        881,
+        678,
+        914
+      ],
+      "description": "叠在中下照片右下方的短条白色撕纸或纸胶带，具有不规则撕裂端头、细微折痕和灰色纸面纹理；右端伸至照片边缘附近，作为独立固定装饰保留。",
+      "label": "叠在中下照片右下方的短条白色撕纸或纸胶带，具有不规则撕裂端头",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        740,
+        632,
+        1045,
+        818
+      ],
+      "description": "横向青年近景，一名深色头发青年向左下倾斜，脸颊靠在手上并看向镜头，穿深色翻领上衣，人物占画面中右部。保留浅灰摄影背景及蓝灰双色调；完整矩形内口上叠有框体的两枚星形和白色月份字样。",
+      "label": "横向青年近景，一名深色头发青年向左下倾斜，脸颊靠在手上并看向",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom_right",
+      "kind": "frame",
+      "bbox": [
+        721,
+        606,
+        1063,
+        852
+      ],
+      "description": "右下横向白色邮票框，四周连续半圆齿孔，保留纸边和轻微阴影。模板内部一体设计包括右上浅色空心星、左下灰蓝实心星，以及沿下缘排列的白色花体NOVEMBER；这些固定印刷设计随框体保留，照片独立替换。",
+      "photo_id": [
+        "photo_bottom_right"
+      ],
+      "label": "右下横向白色邮票框，四周连续半圆齿孔，保留纸边和轻微阴影。模",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "striped_base",
+    "photo_top_left",
+    "photo_top_middle",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_middle",
+    "photo_bottom_right",
+    "frame_top_left",
+    "frame_top_middle",
+    "frame_top_right",
+    "frame_bottom_left",
+    "frame_bottom_middle",
+    "frame_bottom_right",
+    "overlay_top_left_letters",
+    "overlay_top_middle_letters",
+    "text_bottom_left_date",
+    "text_bottom_middle_date",
+    "overlay_top_left_postmark",
+    "overlay_top_middle_postmark",
+    "overlay_bottom_left_postmark",
+    "overlay_bottom_middle_postmark",
+    "overlay_bottom_middle_paper"
+  ]
+}

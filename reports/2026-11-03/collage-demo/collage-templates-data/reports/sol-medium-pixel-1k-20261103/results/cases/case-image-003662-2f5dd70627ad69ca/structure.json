@@ -1,0 +1,148 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "overlay_top_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        665
+      ],
+      "description": "覆盖画布上部的连续深灰棕色固定底板，延伸至左右边缘并在 y=665 附近与下方摄影区域衔接；其均匀色面作为拼贴照片和装饰的承托背景保留。"
+    },
+    {
+      "id": "photo_main_lower",
+      "kind": "photo",
+      "bbox": [
+        0,
+        665,
+        1080,
+        1437
+      ],
+      "description": "下半幅独立摄影画面，完整显示深色木质背景、左侧玫瑰花瓶和草莓蛋糕、中央紫色奶油蛋糕，以及右侧黑衣人物的手臂和手；摄影环境保留，顶部被文字叠加，画面延伸至画布下边缘。"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        250,
+        160,
+        521,
+        446
+      ],
+      "description": "上方偏左的独立甜点静物照片，包含草莓奶油蛋糕、紫色蛋糕、花瓶、餐桌和手持菜单等完整摄影环境；矩形显示区域带有粗糙白色手绘描边，右下及下缘部分被其他照片遮挡。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        541,
+        159,
+        821,
+        445
+      ],
+      "description": "上方偏右的独立甜点与茶具静物照片，包含蓝白花纹茶壶、茶杯、蛋糕和桌面环境；完整矩形显示区域带粗糙白色手绘描边，右下区域与下方照片相交。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        68,
+        331,
+        355,
+        621
+      ],
+      "description": "左下方独立摄影照片，显示黑衣人物手部、绿色蛋糕及花纹餐盘和桌面；摄影环境保留，矩形边缘带粗糙白色手绘描边，整体压在上方偏左照片的左下区域。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        708,
+        344,
+        985,
+        622
+      ],
+      "description": "右下方独立甜点陈列照片，显示多层奶油蛋糕、草莓装饰、桌面及背景环境；矩形显示区域带粗糙白色手绘描边，覆盖上方偏右照片的右下部分。"
+    },
+    {
+      "id": "overlay_left_bow_doodles",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        231,
+        231,
+        315
+      ],
+      "description": "位于左上拼贴空白处的白色手绘装饰组合，包括蝴蝶结、星形、圆点和小闪光符号，作为独立固定贴纸保留。"
+    },
+    {
+      "id": "overlay_left_lower_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        578,
+        82,
+        629
+      ],
+      "description": "靠近左下照片左下侧的白色星光和闪烁点装饰，独立叠加在深色底板与照片边缘附近，完整保留其手绘轮廓。"
+    },
+    {
+      "id": "overlay_center_dessert_icons",
+      "kind": "overlay",
+      "bbox": [
+        448,
+        500,
+        629,
+        557
+      ],
+      "description": "位于两排照片之间的白色手绘甜点图标组合，包括杯状甜点、带蒸汽的杯子、蛋糕和两侧小点缀，作为一个连续固定装饰单元保留。"
+    },
+    {
+      "id": "overlay_right_stars",
+      "kind": "overlay",
+      "bbox": [
+        892,
+        283,
+        1044,
+        429
+      ],
+      "description": "右侧照片外沿及照片间隙中的白色星星和闪光装饰组合，包含大小不同的实心星形与小闪点，部分贴近并叠在右侧照片边缘。"
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        801,
+        698,
+        1008,
+        820
+      ],
+      "text": "喜欢一切细碎的仪式感\n在细水长流的日子里\n不盼永久\n只争朝夕",
+      "color": "#E7DDB8",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_top_panel",
+    "photo_main_lower",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_left_bow_doodles",
+    "overlay_left_lower_sparkles",
+    "overlay_center_dessert_icons",
+    "overlay_right_stars",
+    "text_poem"
+  ]
+}

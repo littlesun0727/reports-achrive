@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_ocean_base",
+    "description": "俯视蓝绿色海面，波纹、浪花和反光连续延伸至画布四边及照片之间的空隙，左下角露出斜向白色船沿，无人物。三张局部照片和装饰遮挡海面，但不改变底图的全幅范围；海水与船沿共同作为完整摄影环境替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        48,
+        145,
+        526,
+        782
+      ],
+      "description": "左上竖幅船上自拍，一名长发女子穿橙色背心，正面半身近景，手臂伸向右侧；后方另有一名背对镜头的人。保留船顶、红色立柱、座椅、海水及远岸建筑，完整矩形照片没有去背景。下缘局部被白色涂鸦和蓝色海星贴纸覆盖。"
+    },
+    {
+      "id": "photo_hat_basin",
+      "kind": "photo",
+      "bbox": [
+        172,
+        826,
+        565,
+        1345
+      ],
+      "description": "左下竖幅俯拍照片，一人戴宽檐编织草帽低头，帽子遮住面部，两只手位于白色水盆两侧；盆中可见水和真实小鱼，周围为船上浅棕色地面。完整保留摄影环境，上方被绿色海星覆盖，右上部分被右侧照片遮挡；盆上的彩色鱼类图案是独立叠加装饰。"
+    },
+    {
+      "id": "photo_fishing",
+      "kind": "photo",
+      "bbox": [
+        550,
+        490,
+        1037,
+        1140
+      ],
+      "description": "右侧略倾斜的竖幅船上照片，一名长发女子穿橙色背心和浅色长裤，低头看向下方，一手高举钓线及小鱼，另一手持钓竿，显示头部至大腿上部。保留船内座椅、栏杆、蓝色海面、远岸楼房、山丘和天空，不去背景。左上边缘局部被绿色海星贴纸遮挡，左下边压住左下照片。"
+    },
+    {
+      "id": "overlay_upper_doodles",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        406,
+        949,
+        469
+      ],
+      "description": "右侧照片上方的一整组浅蓝与白色手绘涂鸦，包含卷曲小线条、放射星形、圆圈、点和右端空心爱心。各成员共同构成横向装饰带，保留原有笔画、位置与透明间隙。"
+    },
+    {
+      "id": "overlay_lower_doodles",
+      "kind": "overlay",
+      "bbox": [
+        115,
+        766,
+        402,
+        814
+      ],
+      "description": "左上照片下缘的一整组细白线涂鸦，包含左端空心五角海星、大小星号、圆点、圆圈、小蝴蝶结、加号及弧形短线。横跨照片边缘与海面，作为完整装饰带保留。"
+    },
+    {
+      "id": "overlay_blue_starfish",
+      "kind": "overlay",
+      "bbox": [
+        399,
+        690,
+        533,
+        822
+      ],
+      "description": "浅蓝色五臂海星贴纸，带蓝色点状纹理、浅色轮廓和微笑面孔；完整保留不规则外形及细微边缘阴影，覆盖左上自拍的右下角并伸到海面上。"
+    },
+    {
+      "id": "overlay_green_starfish",
+      "kind": "overlay",
+      "bbox": [
+        487,
+        772,
+        624,
+        913
+      ],
+      "description": "浅绿色五臂海星贴纸，带绿色点状纹理、浅色边缘和微笑面孔；位于两张下方照片交接处，覆盖左下照片上边和右侧照片左边，完整保留其轮廓、纹理与边缘阴影。"
+    },
+    {
+      "id": "overlay_bowl_fish",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        1150,
+        364,
+        1278
+      ],
+      "description": "叠在左下照片白色水盆内部的一组彩色卡通海洋小图案，包含蓝色、粉色、黄色的小鱼及带泡泡的紫蓝色小图案。它们区别于盆内实拍鱼，作为同一局部装饰组合保留，各成员之间保持透明空隙，不包含水盆和摄影内容。"
+    }
+  ],
+  "layer_order": [
+    "photo_selfie",
+    "photo_hat_basin",
+    "photo_fishing",
+    "overlay_upper_doodles",
+    "overlay_lower_doodles",
+    "overlay_blue_starfish",
+    "overlay_green_starfish",
+    "overlay_bowl_fish"
+  ]
+}

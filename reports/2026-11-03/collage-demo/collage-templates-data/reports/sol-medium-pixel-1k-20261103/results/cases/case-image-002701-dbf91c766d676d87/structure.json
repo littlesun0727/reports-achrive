@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "speckled_paper",
+    "description": "白色底面布满浅蓝色不规则颗粒与斑点，纹理连续延伸至画布四边，并在各单元之间可见；保留固定底纹，独立照片和装饰另行替换或重建。"
+  },
+  "objects": [
+    {
+      "id": "panel_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        64,
+        532,
+        424
+      ],
+      "description": "左上方横向灰褐色矩形面板，带粗红色边框；面板内包含红橙色圆球、绿色圆点及黄色小圆点，作为一体固定图形保留。下缘被中央照片遮挡。"
+    },
+    {
+      "id": "photo_tire_scene",
+      "kind": "photo",
+      "bbox": [
+        298,
+        310,
+        861,
+        1025
+      ],
+      "description": "中央偏右的去背景照片组合：两层红褐色轮胎堆成的种植装置，顶部有土壤和植物，底部为方形承台；一只灰白猫坐在装置右侧。摄影环境未显示，主体外沿带有红色粗描边，完整轮廓随照片保留；左下被前景猫遮挡。"
+    },
+    {
+      "id": "photo_foreground_cat",
+      "kind": "photo",
+      "bbox": [
+        190,
+        672,
+        575,
+        1183
+      ],
+      "description": "左下方黑白猫的完整抠图，身体朝右、尾巴竖起并向上弯曲，四肢落在画面下方；摄影环境未显示，主体外沿带暗绿色描边。猫遮住轮胎装置的左下部。"
+    },
+    {
+      "id": "text_note",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        143,
+        955,
+        347
+      ],
+      "description": "右上方浅绿色水彩状圆形底迹上叠有三行橙红色手写英文：“The hot summer was too / Short Every second / deserves To be loved.”；字迹与底迹构成同一固定装饰单元。"
+    },
+    {
+      "id": "doodle_bag",
+      "kind": "overlay",
+      "bbox": [
+        106,
+        635,
+        267,
+        828
+      ],
+      "description": "左侧浅蓝色手绘束口袋轮廓，袋口系有橙色蝴蝶结，袋内下方有两团橙红色涂画，整体作为一枚固定涂鸦保留。"
+    },
+    {
+      "id": "sticker_star_tire",
+      "kind": "overlay",
+      "bbox": [
+        593,
+        654,
+        709,
+        757
+      ],
+      "description": "覆盖轮胎装置前方的绿色五角星贴纸，带白色弯眼与微笑表情，作为独立装饰保留。"
+    },
+    {
+      "id": "doodle_star_right",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        760,
+        895,
+        878
+      ],
+      "description": "轮胎装置右侧的绿色手绘五角星，内部有绿色笑脸，轮廓完整可见，作为独立涂鸦保留。"
+    },
+    {
+      "id": "doodle_swirl_underline",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        988,
+        868,
+        1185
+      ],
+      "description": "右下方两枚橙红色螺旋涂鸦及其下方两道倾斜的绿色短线，作为同一组固定手绘装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "panel_upper_left",
+    "photo_tire_scene",
+    "photo_foreground_cat",
+    "text_note",
+    "doodle_bag",
+    "sticker_star_tire",
+    "doodle_star_right",
+    "doodle_swirl_underline"
+  ]
+}

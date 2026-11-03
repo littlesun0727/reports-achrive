@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        640
+      ],
+      "description": "上方横向餐桌照片：前景白盘盛有煎蛋、米饭和烤肉，左侧有饮料，后方可见其他餐盘与饮品；保留完整桌面摄影环境，画面延伸至左右画布边缘。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        640,
+        1080,
+        1280
+      ],
+      "description": "中间横向餐食照片：前景灰绿色盘中为蓝莓奶酪吐司，左上有水果碗，右上可见餐具与玻璃杯；保留完整桌面环境，画面延伸至左右画布边缘。照片下方中央可见的“DJI OSMO POCKET 3”字样随摄影内容保留。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1280,
+        1080,
+        1920
+      ],
+      "description": "下方横向近景照片：手持小铝箔杯中的黄色蛋挞馅，旁边是纸袋包着的烘焙点心，背景为暖色模糊陈列环境；手和食物共同属于照片，保留完整摄影画面并延伸至左右画布边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

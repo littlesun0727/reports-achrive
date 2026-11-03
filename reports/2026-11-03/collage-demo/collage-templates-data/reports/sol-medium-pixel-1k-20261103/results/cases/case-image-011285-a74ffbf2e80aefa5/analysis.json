@@ -1,0 +1,300 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_black",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "覆盖全画布的近黑色固定底图，散布少量红、金、紫色碎屑状光点和细微颗粒，四边及照片之间连续可见。保留黑底与零散纹理，独立照片、文字和圈线装饰不并入底图。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的近黑色固定底图，散布少量红、金、紫色碎屑状光点和",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        54,
+        198,
+        486,
+        523
+      ],
+      "description": "左上横向咖啡店合照，两人坐在窗边，前景浅色长发女性看向镜头并举手比剪刀手，右后方戴眼镜的短发人物也举手。保留玻璃窗、深色窗框、座椅及室内环境，完整矩形显示，无沿人物轮廓去背景。",
+      "label": "左上横向咖啡店合照，两人坐在窗边，前景浅色长发女性看向镜头并",
+      "method": "local"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        761,
+        51,
+        1043,
+        429
+      ],
+      "description": "右上竖向餐桌俯拍照片，左侧金属餐盘内有煎蛋和肉类，右上红盘盛炒面与虾，右下金属盘盛绿色蔬菜，保留桌面、餐具和印刷垫纸。矩形照片下部被中央演出照片局部覆盖。",
+      "label": "右上竖向餐桌俯拍照片，左侧金属餐盘内有煎蛋和肉类，右上红盘盛",
+      "method": "local"
+    },
+    {
+      "id": "photo_stage",
+      "kind": "photo",
+      "bbox": [
+        560,
+        374,
+        884,
+        804
+      ],
+      "description": "中央偏右竖向演出照片，一名长发女歌手穿浅色无袖上衣和深色长裤，手持麦克风歌唱，另一手向右伸出；背景有舞台屏幕及密集彩色纸屑。摄影背景保留，不沿人物去背景；下部被建筑照片和白色文字局部遮挡，右侧伸出的手臂受照片边缘裁切。",
+      "label": "中央偏右竖向演出照片，一名长发女歌手穿浅色无袖上衣和深色长裤",
+      "method": "local"
+    },
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        318,
+        754,
+        717,
+        1053
+      ],
+      "description": "中央偏下的横向仰拍街景照片，灰色多层建筑外墙、窗户、空调和管线完整保留，黄色路灯位于画面中央偏右，下方窗户透出暖光。矩形显示，上缘压住演出照片左下部，左上叠有独立白色文字。",
+      "label": "中央偏下的横向仰拍街景照片，灰色多层建筑外墙、窗户、空调和管",
+      "method": "local"
+    },
+    {
+      "id": "photo_singer_cutout",
+      "kind": "photo",
+      "bbox": [
+        24,
+        927,
+        414,
+        1440
+      ],
+      "description": "左下独立女歌手近景，长发受蓝色舞台灯照亮，穿灰色吊带服装，一手持麦克风靠近嘴边，另一手抬起张开。沿头发、肩臂和身体轮廓去除摄影环境，保留完整可见人物与麦克风组合；服装和身体下部在画布底边截断，右侧抬手与中央文字局部相叠。",
+      "label": "左下独立女歌手近景，长发受蓝色舞台灯照亮，穿灰色吊带服装，一",
+      "method": "local"
+    },
+    {
+      "id": "photo_concert_selfie",
+      "kind": "photo",
+      "bbox": [
+        740,
+        1031,
+        1033,
+        1420
+      ],
+      "description": "右下竖向演唱会现场照片，一名浅色长发女性坐在观众席，面对镜头，双手举起比剪刀手，其中一手持深色物件。保留红色灯光、周围观众、座椅与现场纸屑环境；完整矩形显示，上部叠加两行白色说明文字。",
+      "label": "右下竖向演唱会现场照片，一名浅色长发女性坐在观众席，面对镜头",
+      "method": "local"
+    },
+    {
+      "id": "overlay_travel_callout",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        532,
+        458,
+        761
+      ],
+      "description": "浅黄色手绘椭圆圈与圈内三行白色手写字构成完整宣言装饰，圈线左上留有断口，右侧弧线向上收拢。文字为“我爱旅游 我爱音乐”“我不想一直做无聊的大人”“我希望我鲜活 热烈 自由”。保留圈线的不规则笔触及内部文字布局，不包含下方建筑照片。",
+      "label": "浅黄色手绘椭圆圈与圈内三行白色手写字构成完整宣言装饰，圈线左",
+      "method": "extract"
+    },
+    {
+      "id": "text_cafe",
+      "kind": "text",
+      "bbox": [
+        53,
+        106,
+        302,
+        190
+      ],
+      "description": "上午抵港直奔🍎店买手机\n回酒店放好行李后\n就来上环喝咖啡啦～",
+      "label": "上午抵港直奔🍎店买手机\n回酒店放好行李后\n就来上环喝咖啡啦～",
+      "method": "local",
+      "text": "上午抵港直奔🍎店买手机\n回酒店放好行李后\n就来上环喝咖啡啦～",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_food",
+      "kind": "text",
+      "bbox": [
+        458,
+        51,
+        762,
+        267
+      ],
+      "description": "去吃了一家米芝莲上榜泰餐\n好吃是真的好吃\n就是我们这个英语太烂了只听懂\n服务员给我们上了个60块的水\n淘宝搜了一下同款，仅需12元\n秉持着不浪费一分钟的想法\n一顿饭下来猛猛喝水",
+      "label": "去吃了一家米芝莲上榜泰餐\n好吃是真的好吃\n就是我们这个英语太",
+      "method": "local",
+      "text": "去吃了一家米芝莲上榜泰餐\n好吃是真的好吃\n就是我们这个英语太烂了只听懂\n服务员给我们上了个60块的水\n淘宝搜了一下同款，仅需12元\n秉持着不浪费一分钟的想法\n一顿饭下来猛猛喝水",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_stage_caption",
+      "kind": "text",
+      "bbox": [
+        702,
+        747,
+        1057,
+        807
+      ],
+      "description": "这一跳生命力都溢出屏幕了\n当时看到这一幕，不知道为什么很想哭",
+      "label": "这一跳生命力都溢出屏幕了\n当时看到这一幕，不知道为什么很想哭",
+      "method": "local",
+      "text": "这一跳生命力都溢出屏幕了\n当时看到这一幕，不知道为什么很想哭",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_building",
+      "kind": "text",
+      "bbox": [
+        337,
+        780,
+        448,
+        838
+      ],
+      "description": "随手拍的\n很有感觉～",
+      "label": "随手拍的\n很有感觉～",
+      "method": "local",
+      "text": "随手拍的\n很有感觉～",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_singer_label",
+      "kind": "text",
+      "bbox": [
+        30,
+        928,
+        141,
+        956
+      ],
+      "description": "尊嘟好美！",
+      "label": "尊嘟好美！",
+      "method": "local",
+      "text": "尊嘟好美！",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_concert_reflection",
+      "kind": "text",
+      "bbox": [
+        342,
+        1080,
+        740,
+        1390
+      ],
+      "description": "好像，有四五年没看演唱会了吧\n已经忘记那是一种什么感觉了\n在开场前我依旧极其淡定\n但……随着灯光暗下音乐响起\n我那颗满是班味的心好像又活过来\n\n在短暂的几个小时里\n我忽略掉了所有的烦恼\n跟着她/她们享受这段只属于我们的时间\n去尖叫 呐喊 高歌",
+      "label": "好像，有四五年没看演唱会了吧\n已经忘记那是一种什么感觉了\n在",
+      "method": "local",
+      "text": "好像，有四五年没看演唱会了吧\n已经忘记那是一种什么感觉了\n在开场前我依旧极其淡定\n但……随着灯光暗下音乐响起\n我那颗满是班味的心好像又活过来\n\n在短暂的几个小时里\n我忽略掉了所有的烦恼\n跟着她/她们享受这段只属于我们的时间\n去尖叫 呐喊 高歌",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_selfie_caption",
+      "kind": "text",
+      "bbox": [
+        745,
+        1034,
+        1026,
+        1093
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1072,
+        1433
+      ],
+      "description": "画布右下角的小型深灰椭圆标记，内部有低对比度细小字样，文字无法可靠辨认；作为完整固定标记保留。",
+      "label": "画布右下角的小型深灰椭圆标记，内部有低对比度细小字样，文字无",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_black",
+    "photo_cafe",
+    "photo_food",
+    "photo_stage",
+    "photo_building",
+    "photo_singer_cutout",
+    "photo_concert_selfie",
+    "overlay_travel_callout",
+    "text_cafe",
+    "text_food",
+    "text_stage_caption",
+    "text_building",
+    "text_singer_label",
+    "text_concert_reflection",
+    "text_selfie_caption",
+    "overlay_corner_mark"
+  ]
+}

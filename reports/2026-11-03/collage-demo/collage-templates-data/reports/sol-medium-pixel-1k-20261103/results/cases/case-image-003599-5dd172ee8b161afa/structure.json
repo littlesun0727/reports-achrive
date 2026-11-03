@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture_base",
+    "description": "连续覆盖全画布的浅米灰纸张纹理底图，上方偏浅、下方偏灰，并带细微颗粒质感；两张独立照片、贴纸和装饰覆盖其局部，照片外露出的空隙均保持同一底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        51,
+        87,
+        470,
+        647
+      ],
+      "description": "上方竖向人物照片，年轻女性站在室内门框和沙发旁，正面偏侧身朝向镜头，穿白色泡泡袖上衣和深色短裙；保留完整室内摄影环境，矩形照片边界清晰，右侧和下方邻近装饰位于照片外。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        309,
+        732,
+        740,
+        1306
+      ],
+      "description": "下方竖向人物近景照片，同一女性在室内门框和沙发旁面对镜头，穿白色泡泡袖上衣，身体姿态和取景不同于上方照片；保留完整摄影环境，矩形显示区域延伸至照片边界。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        427,
+        51,
+        507,
+        158
+      ],
+      "description": "画布上方靠近上方照片右上角的灰色纸夹与折角星形装饰，纸夹弯曲线条、半透明灰色几何头部及阴影作为一个固定贴饰整体保留。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        688,
+        148,
+        725,
+        193
+      ],
+      "description": "右上空白区域的一枚白色五角星贴纸，带柔和发光边缘，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        567,
+        290,
+        611,
+        334
+      ],
+      "description": "画布右上中部的一枚白色五角星贴纸，带柔和发光效果，独立于其他星形装饰。"
+    },
+    {
+      "id": "overlay_star_photo_edge",
+      "kind": "overlay",
+      "bbox": [
+        465,
+        420,
+        508,
+        469
+      ],
+      "description": "位于上方照片右下侧边缘附近的白色五角星贴纸，带柔和发光边缘，覆盖在纸张底图上并靠近照片边界。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        867,
+        161,
+        916
+      ],
+      "description": "下方照片左侧空白区域的一枚白色五角星贴纸，带柔和发光效果，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fish_left",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        642,
+        480,
+        695
+      ],
+      "description": "两张照片之间偏右位置的白色手绘鱼形线稿，包含鱼身、尾部和不规则手绘轮廓，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_fish_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        638,
+        627,
+        677
+      ],
+      "description": "两张照片之间右侧的白色手绘鱼形线稿，包含圆润鱼身和分叉尾部，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_fish_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        689,
+        572,
+        727
+      ],
+      "description": "下方照片上方偏右的白色手绘鱼形线稿，轮廓带轻微不规则手绘感，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        247,
+        700,
+        393,
+        845
+      ],
+      "description": "下方照片左上方跨近照片边缘的蓝白色手绘蝴蝶结丝带，包含环形结、长飘带和细线阴影，作为完整固定装饰保留并位于照片上方。"
+    },
+    {
+      "id": "overlay_mace_logo",
+      "kind": "overlay",
+      "bbox": [
+        184,
+        1065,
+        318,
+        1111
+      ],
+      "description": "下方照片左侧的装饰性“mace”标志，白色字母与蓝色星形字母组合，并带小型蓝色点缀；其特殊字形和图形结合形式作为整体固定贴饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "overlay_star_upper_right",
+    "overlay_star_mid_right",
+    "overlay_star_photo_edge",
+    "overlay_star_lower_left",
+    "overlay_fish_left",
+    "overlay_fish_upper_right",
+    "overlay_fish_lower_right",
+    "overlay_ribbon",
+    "overlay_mace_logo",
+    "overlay_paperclip"
+  ]
+}

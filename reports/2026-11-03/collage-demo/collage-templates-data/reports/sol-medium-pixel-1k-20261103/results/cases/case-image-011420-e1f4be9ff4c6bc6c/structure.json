@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        640
+      ],
+      "description": "上方横幅照片：一名长发女子戴毛绒圆耳蝴蝶结发箍，穿粉色上衣，正面半身入镜，眨眼张嘴微笑，双手举在肩旁。保留金色茶杯座椅、后方紫色茶杯、游客、栏杆、绿树及顶部黄色旗饰等完整摄影环境。照片铺满此分区，与中间照片在横向直边处发生姿态和场景取景变化，无主体去背景。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        640,
+        1080,
+        1280
+      ],
+      "description": "中间横幅照片：一名戴同款发箍、穿粉色上衣的长发女子正面半身入镜，画面左侧举手在脸旁比剪刀手。保留金色座椅、栏杆、立柱、绿树、彩色游乐设施及游客，完整窗口铺满中间分区。左下摄影内容被两条独立装饰标签遮挡，照片范围不随遮挡缩小；上下边为与其他照片的拼接直边。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1280,
+        1080,
+        1920
+      ],
+      "description": "下方横幅照片：一名戴毛绒圆耳蝴蝶结发箍的长发女子穿粉色上衣，正面微笑，画面右侧举手在脸旁比剪刀手，身体下部被画布底边裁切。保留金色座椅、左侧青绿色茶杯、游客、栏杆、立柱、绿树与游乐设施。顶部与中间照片独立拼接，发箍上部在该照片边界处被裁切，无跨层出框。"
+    },
+    {
+      "id": "overlay_emoji_label",
+      "kind": "overlay",
+      "bbox": [
+        107,
+        1124,
+        373,
+        1182
+      ],
+      "description": "中间照片左下的浅米色半透明长方形标签，内部横排魔法棒、粉色蝴蝶结、泰迪熊、蜂蜜罐、甜甜圈和糖果图案，下方带黑色横线。底板、图案与横线作为一个完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_magical_label",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        1194,
+        484,
+        1255
+      ],
+      "description": "位于图案标签下方的浅米色半透明长条标签，左端带旋转木马图案，黑色手写字样为“:Have a magical day!!!”，下方有贯穿标签的黑色线条。文字、图案、底板和线条共同构成固定设计，整体保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1893,
+        1073,
+        1913
+      ],
+      "description": "画布右下角的极淡浅色圆角胶囊状小水印，内部有难以辨认的小字，独立叠加在下方照片上，按原有整体外观保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_emoji_label",
+    "overlay_magical_label",
+    "overlay_watermark"
+  ]
+}

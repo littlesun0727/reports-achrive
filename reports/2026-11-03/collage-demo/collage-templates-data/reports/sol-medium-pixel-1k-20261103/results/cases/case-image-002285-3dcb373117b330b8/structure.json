@@ -1,0 +1,143 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_base",
+    "description": "全画布由上下两段连续的固定底材构成：上半部为蓝色平面，下半部为棕色纸张纹理，水平交界约在 y=739；保留蓝色底和纸纹，照片、文字及黄色图案作为独立对象处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_tomato",
+      "kind": "photo",
+      "bbox": [
+        361,
+        273,
+        758,
+        630
+      ],
+      "description": "画面中央偏上的圆形红番茄近景，绿色星状萼片和果蒂朝向镜头；仅显示番茄主体，未见周围场景。黄色耳机线、耳罩及番茄下方的表情线条是独立叠加设计，不属于照片。"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        365,
+        907,
+        722,
+        1376
+      ],
+      "description": "下方中央透明圆盖塑料杯装深色饮品的正面近景，杯身有彩色卡通印花；杯盖中的蓝色小物也在照片内。摄影环境仍可见为杯后黑色区域及下方蓝色平面，照片范围按完整矩形显示窗口记录。"
+    },
+    {
+      "id": "overlay_headphones",
+      "kind": "overlay",
+      "bbox": [
+        362,
+        273,
+        758,
+        529
+      ],
+      "description": "番茄周围的黄色手绘耳机设计，包含跨过番茄上方的弧形头带、两侧椭圆耳罩及蓝色螺旋图案；独立叠在番茄照片上。"
+    },
+    {
+      "id": "overlay_face",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        540,
+        656,
+        605
+      ],
+      "description": "番茄下部的黄色手绘表情，由两段短横线和一个弯曲嘴形组成，独立叠加在番茄照片上。"
+    },
+    {
+      "id": "overlay_sun_rays",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        632,
+        683,
+        822
+      ],
+      "description": "番茄下方、纸张上方的黄色手绘短竖线光芒，分成上下两排，作为一组独立装饰。"
+    },
+    {
+      "id": "overlay_drink_heart",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        817,
+        842,
+        1393
+      ],
+      "description": "围绕饮品的黄色手绘心形轮廓及沿轮廓分布的短线放射装饰；轮廓从杯盖上方开始，包围杯身并在下方收拢，线条叠在饮品照片和纸张上。"
+    },
+    {
+      "id": "overlay_math_doodles",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        40,
+        939,
+        382
+      ],
+      "description": "上半部蓝底上的黄色手绘数学符号与标点装饰，包括加减号、井号、星号、问号、感叹号、等号、百分号及短线，作为分散但同一风格的装饰组保留。"
+    },
+    {
+      "id": "overlay_raindrops",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        305,
+        1023,
+        1390
+      ],
+      "description": "蓝底与纸张上的水滴形装饰：上半部数枚灰绿色水滴，下半部左侧两枚淡黄色水滴；各水滴作为同组固定图案保留。"
+    },
+    {
+      "id": "text_left",
+      "kind": "text",
+      "bbox": [
+        37,
+        516,
+        233,
+        1131
+      ],
+      "text": "Summer is a\n\nseason full of light.\n\nThe sunlight falls\n\neverywhere, paints\n\nwarm tones on\n\nevery corner, and\n\nwrites soft stories\n\nfor everyone.",
+      "color": "#E7E86A",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_right",
+      "kind": "text",
+      "bbox": [
+        916,
+        780,
+        1044,
+        1412
+      ],
+      "text": "Let summer\n\ncarry all our\n\nyouth,\n\nlaughter and\n\nwild wishes,\n\nflowing\n\nslowly with\n\nthe wind\n\nuntil the end\n\nof August",
+      "color": "#E7E86A",
+      "font": "sans",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_tomato",
+    "photo_drink",
+    "overlay_math_doodles",
+    "overlay_raindrops",
+    "overlay_headphones",
+    "overlay_face",
+    "overlay_sun_rays",
+    "overlay_drink_heart",
+    "text_left",
+    "text_right"
+  ]
+}

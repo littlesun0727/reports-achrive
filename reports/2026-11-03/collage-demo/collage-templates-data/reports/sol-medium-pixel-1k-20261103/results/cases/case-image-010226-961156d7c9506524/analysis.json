@@ -1,0 +1,394 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "全画布为连续的浅米白色床品摄影画面，褶皱织物、左侧枕头、下方毯面共同延伸至四边；左下露出干花，右下有被画布裁切的粉白毛绒玩偶，无人物。中央肖像及小照片遮住部分场景，底层仍保留完整摄影环境，整体随客户照片替换。",
+      "background_type": "photo",
+      "label": "全画布为连续的浅米白色床品摄影画面，褶皱织物、左侧枕头、下方",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_portrait",
+      "kind": "frame",
+      "bbox": [
+        258,
+        57,
+        821,
+        807
+      ],
+      "description": "棕灰色矩形照片承托框，顶边与左边可见，印有间隔排列的白色五角星；右部和下部被肖像照片遮住。星星为框体自身印刷，整体保留。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "棕灰色矩形照片承托框，顶边与左边可见，印有间隔排列的白色五角",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        326,
+        95,
+        993,
+        982
+      ],
+      "description": "一名黑色长发女性坐在浅绿色沙发上，穿米白色半透明长袖、白色蕾丝上衣和深色格纹短裙，身体斜向左下，脸朝镜头。显示头部至大腿，左侧保留黑色桌面，右侧保留墙面与沙发，摄影背景没有去除。完整矩形窗口下部被文字条和白色装饰局部覆盖。",
+      "label": "一名黑色长发女性坐在浅绿色沙发上，穿米白色半透明长袖、白色蕾",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pixel_bow",
+      "kind": "overlay",
+      "bbox": [
+        241,
+        58,
+        506,
+        216
+      ],
+      "description": "白色像素点阵蝴蝶结及下垂飘带，跨在棕色框左上角与肖像照片上，保留点阵镂空和不规则轮廓。",
+      "label": "白色像素点阵蝴蝶结及下垂飘带，跨在棕色框左上角与肖像照片上，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_symbols",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        70,
+        960,
+        131
+      ],
+      "description": "右上横向白色手绘符号组合，包含小圆点、云状线条、空心五角星、弯曲符号与小十字，作为同一装饰组保留。",
+      "label": "右上横向白色手绘符号组合，包含小圆点、云状线条、空心五角星、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        243,
+        427,
+        429
+      ],
+      "description": "白色矩形对话气泡，右下伸出尖尾，内部黑色手写韩文“멋진강아지”和小狗脸线描共同构成固定贴纸；覆盖棕色框及肖像左上部分。",
+      "label": "白色矩形对话气泡，右下伸出尖尾，内部黑色手写韩文“멋진강아지",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        369,
+        82,
+        460
+      ],
+      "description": "左侧白色细线蝴蝶结状蝴蝶、弯曲尾线及上方小星星组成的手绘装饰。",
+      "label": "左侧白色细线蝴蝶结状蝴蝶、弯曲尾线及上方小星星组成的手绘装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_edge_circle",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        478,
+        32,
+        561
+      ],
+      "description": "画布左边缘露出的半透明白色圆形装饰，左部被画布裁切。",
+      "label": "画布左边缘露出的半透明白色圆形装饰，左部被画布裁切。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_silver_heart",
+      "kind": "overlay",
+      "bbox": [
+        967,
+        356,
+        1046,
+        441
+      ],
+      "description": "右侧立体白银色爱心贴纸，保留灰色边缘、柔和高光与阴影。",
+      "label": "右侧立体白银色爱心贴纸，保留灰色边缘、柔和高光与阴影。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        447,
+        435,
+        535
+      ],
+      "description": "肖像左侧白色细线猫脸涂鸦，含尖耳、笑脸弧线和右上空心小星星，线条及附属星星整体保留。",
+      "label": "肖像左侧白色细线猫脸涂鸦，含尖耳、笑脸弧线和右上空心小星星，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        215,
+        539,
+        282,
+        594
+      ],
+      "description": "棕色框左侧附近的白色手绘螺旋圆圈，保留重叠笔触和不规则线边。",
+      "label": "棕色框左侧附近的白色手绘螺旋圆圈，保留重叠笔触和不规则线边。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_dots",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        502,
+        268,
+        587
+      ],
+      "description": "左侧框边附近两枚小白色圆点，位于猫脸涂鸦左侧及螺旋左下方，构成局部散点装饰。",
+      "label": "左侧框边附近两枚小白色圆点，位于猫脸涂鸦左侧及螺旋左下方，构",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_circle",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        671,
+        273,
+        730
+      ],
+      "description": "棕色框左下附近的一枚大白色圆点及上方小圆点，叠在框边和织物背景之上。",
+      "label": "棕色框左下附近的一枚大白色圆点及上方小圆点，叠在框边和织物背",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chinese_label",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        610,
+        461,
+        653
+      ],
+      "description": "半透明浅白色横向标签，带黑色手写中文“再也不要吃眼泪包饭啦”及末尾小圆点和动物表情符号，底板与字样作为整体保留。",
+      "label": "半透明浅白色横向标签，带黑色手写中文“再也不要吃眼泪包饭啦”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_autumn",
+      "kind": "overlay",
+      "bbox": [
+        114,
+        842,
+        270,
+        972
+      ],
+      "description": "左下白色云朵贴纸与下方疏排小写“autumn”组成的装饰，包含云内细小纹样及底部小星星，整体保留。",
+      "label": "左下白色云朵贴纸与下方疏排小写“autumn”组成的装饰，包",
+      "method": "extract"
+    },
+    {
+      "id": "photo_plate",
+      "kind": "photo",
+      "bbox": [
+        142,
+        965,
+        456,
+        1174
+      ],
+      "description": "独立近方形俯拍照片，灰米色桌面上放着蓝灰色花瓣形盘子，中央浅色圆面有兔子线描，右上另有一张兔子图案小卡片。盘子、卡片和桌面均属于摄影内容，保留完整背景，不沿物体去背景。",
+      "label": "独立近方形俯拍照片，灰米色桌面上放着蓝灰色花瓣形盘子，中央浅",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_leg",
+      "kind": "overlay",
+      "bbox": [
+        419,
+        872,
+        458,
+        908
+      ],
+      "description": "叠在肖像左下大腿上的白色五角星，边缘柔和，作为独立固定点缀保留。",
+      "label": "叠在肖像左下大腿上的白色五角星，边缘柔和，作为独立固定点缀保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_sofa",
+      "kind": "overlay",
+      "bbox": [
+        831,
+        723,
+        879,
+        765
+      ],
+      "description": "肖像右侧沙发上部的白色五角星，带柔和发亮边缘。",
+      "label": "肖像右侧沙发上部的白色五角星，带柔和发亮边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle_sofa",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        811,
+        824,
+        851
+      ],
+      "description": "肖像右侧沙发中下部的白色五角星，位于人物右臂旁。",
+      "label": "肖像右侧沙发中下部的白色五角星，位于人物右臂旁。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_sofa",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        902,
+        924,
+        947
+      ],
+      "description": "肖像右下沙发上的较大白色五角星，保留柔和边缘。",
+      "label": "肖像右下沙发上的较大白色五角星，保留柔和边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_korean_label",
+      "kind": "overlay",
+      "bbox": [
+        450,
+        963,
+        906,
+        1013
+      ],
+      "description": "横跨肖像下边缘的白色长条标签，内部为黑色手写韩文“두고두고 나를 떠올려줬으면 좋겠다.”，字形与纸条整体保留。",
+      "label": "横跨肖像下边缘的白色长条标签，内部为黑色手写韩文“두고두고 ",
+      "method": "extract"
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        424,
+        1155,
+        641,
+        1295
+      ],
+      "description": "下方独立横向花朵近景照片，一朵浅白色花占据大部分画面，花心和灰色摄影背景仍可见，呈低饱和浅灰效果。矩形窗口四周依附细白色描边，照片及窗口描边同属此项，没有沿花瓣去背景。",
+      "label": "下方独立横向花朵近景照片，一朵浅白色花占据大部分画面，花心和",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bottom_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        1147,
+        223,
+        1307
+      ],
+      "description": "左下白色手绘装饰组，包含弧形散点、短线、小人状线描、音符和小星点；各成员共同形成局部涂鸦簇，保留原有疏密与透明空隙。",
+      "label": "左下白色手绘装饰组，包含弧形散点、短线、小人状线描、音符和小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_angular_marks",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        1086,
+        864,
+        1199
+      ],
+      "description": "玩偶左上方三枚倾斜白色空心长方形短条，呈放射状排列，作为同一强调线装饰保留。",
+      "label": "玩偶左上方三枚倾斜白色空心长方形短条，呈放射状排列，作为同一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_curled_heart",
+      "kind": "overlay",
+      "bbox": [
+        645,
+        1156,
+        733,
+        1263
+      ],
+      "description": "花朵照片右侧的白色弯曲心形涂鸦，含内卷螺旋和柔软模糊的线条边缘，叠在织物背景上。",
+      "label": "花朵照片右侧的白色弯曲心形涂鸦，含内卷螺旋和柔软模糊的线条边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_circle",
+      "kind": "overlay",
+      "bbox": [
+        991,
+        1101,
+        1047,
+        1155
+      ],
+      "description": "右下玩偶上方的一枚半透明白色圆形点缀，保留轻微柔化边缘。",
+      "label": "右下玩偶上方的一枚半透明白色圆形点缀，保留轻微柔化边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_footer",
+      "kind": "overlay",
+      "bbox": [
+        398,
+        1310,
+        772,
+        1350
+      ],
+      "description": "底边浅色横向文字贴条，含细小黑色手写中文“让我偷偷变成幸福女主”及后接特殊颜文字、弯曲线条；特殊字形与整段视觉形式一起保留，末端接近画布下缘。",
+      "label": "底边浅色横向文字贴条，含细小黑色手写中文“让我偷偷变成幸福女",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "frame_portrait",
+    "photo_portrait",
+    "photo_plate",
+    "photo_flower",
+    "overlay_pixel_bow",
+    "overlay_top_symbols",
+    "overlay_left_butterfly",
+    "overlay_left_edge_circle",
+    "overlay_silver_heart",
+    "overlay_cat_doodle",
+    "overlay_spiral",
+    "overlay_left_dots",
+    "overlay_middle_circle",
+    "overlay_speech",
+    "overlay_chinese_label",
+    "overlay_autumn",
+    "overlay_star_leg",
+    "overlay_star_upper_sofa",
+    "overlay_star_middle_sofa",
+    "overlay_star_lower_sofa",
+    "overlay_korean_label",
+    "overlay_bottom_left_doodles",
+    "overlay_angular_marks",
+    "overlay_curled_heart",
+    "overlay_bottom_right_circle",
+    "overlay_footer"
+  ]
+}

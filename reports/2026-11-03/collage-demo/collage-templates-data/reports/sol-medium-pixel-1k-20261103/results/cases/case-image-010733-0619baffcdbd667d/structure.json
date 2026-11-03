@@ -1,0 +1,95 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的户外楼梯摄影画面覆盖全画布，无人物；中央台阶向上延伸，两侧有蓝灰色栏杆，左侧及顶部为绿树枝叶与透出的天空，右侧为砖墙和建筑。四边露出的树木、建筑与下方台阶相互连续，中部被四张独立照片和文字局部遮挡。整体呈柔和朦胧、偏绿色且带颗粒的可见质感，完整摄影环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_seated",
+      "kind": "photo",
+      "bbox": [
+        318,
+        211,
+        735,
+        768
+      ],
+      "description": "中央偏上竖向照片，一位戴浅色草帽、长黑发的女子坐在花草地上，穿白色上衣和蓝白格裙，双手将红番茄举到嘴边，身体正对镜头。保留完整的绿色植物、零星小花及落花地面，阳光在人物衣裙和草地上形成明亮光斑；矩形显示边界清晰，未沿人物轮廓去背景。"
+    },
+    {
+      "id": "photo_hand",
+      "kind": "photo",
+      "bbox": [
+        101,
+        724,
+        464,
+        1208
+      ],
+      "description": "左下竖向近景照片，戴银色戒指的手从左下伸入，托着一颗带绿色萼片的大红番茄；背景为蓝紫色小花、绿叶和下方白色衣料、少量蓝白格布。保留整个矩形摄影窗口，手和衣料在画面边缘被裁切，光照明亮；右上部分被中央坐姿照片遮挡。"
+    },
+    {
+      "id": "photo_tomato",
+      "kind": "photo",
+      "bbox": [
+        765,
+        622,
+        1040,
+        973
+      ],
+      "description": "右侧竖向照片，无人物，一颗红番茄放在深绿色草地上，位于画面中部偏下，四周保留草叶、少量落叶与斑驳日光。矩形摄影环境完整保留，右下区域较暗，边界清晰；下部覆盖下方人物楼梯照片的右上区域。"
+    },
+    {
+      "id": "photo_stairs",
+      "kind": "photo",
+      "bbox": [
+        512,
+        880,
+        881,
+        1372
+      ],
+      "description": "下方偏右竖向照片，一位戴浅色草帽、长黑发的女子在楼梯上低头站立，穿白色长上衣和蓝白格裙，肩背深色包，双臂伸向两侧栏杆。保留蓝灰色栏杆、落花台阶及周围绿色植物的完整矩形环境，右上部分被番茄草地照片遮住；下沿附近叠有独立英文标题，没有主体出框。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        744,
+        471,
+        995,
+        587
+      ],
+      "text": "you will always\nbe the summer\nof freedom",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        337,
+        1367,
+        684,
+        1400
+      ],
+      "text": "SUMMER MOMENT",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_hand",
+    "photo_stairs",
+    "photo_seated",
+    "photo_tomato",
+    "text_quote",
+    "text_title"
+  ]
+}

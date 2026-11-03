@@ -1,0 +1,351 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的店内陈列近景覆盖全画布，无人物。木质洞洞板上悬挂项链、钥匙饰物和蓝色织物，右侧可见帽子及木架，左侧露出室内通道与地面，下方延续木板和挂件。四边场景连续，中央大部分被纸质拼贴遮挡；木架、商品与完整摄影环境共同替换。",
+      "background_type": "photo",
+      "label": "一张连续的店内陈列近景覆盖全画布，无人物。木质洞洞板上悬挂项",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        203,
+        225,
+        877,
+        675
+      ],
+      "description": "上方横向店铺陈列照片，无人物，完整保留木制货架、室内梁架、杯碟、蓝白花纹餐具及右侧彩色线束。取景正对陈列台，摄影环境仍然可见；矩形显示窗口四周由牛皮纸框围合，右侧叠有白色字母与细线标记。",
+      "label": "上方横向店铺陈列照片，无人物，完整保留木制货架、室内梁架、杯",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        240,
+        844,
+        525,
+        1223
+      ],
+      "description": "左下竖向店铺商品照片，无人物，斜向俯看摆满杯碟、餐具、花瓶和花枝的桌面，后方还有木架与彩色摆件。完整保留室内摄影环境，矩形窗口左侧局部被白色短诗遮挡。",
+      "label": "左下竖向店铺商品照片，无人物，斜向俯看摆满杯碟、餐具、花瓶和",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        566,
+        844,
+        850,
+        1223
+      ],
+      "description": "右下竖向商品陈列照片，无人物，斜向俯看木质桌面上的深色小瓶、木块、纸卡，后方可见盒装物、海报和玻璃器皿。完整保留摄影环境，矩形窗口下缘右侧被文字纸标签遮挡。",
+      "label": "右下竖向商品陈列照片，无人物，斜向俯看木质桌面上的深色小瓶、",
+      "method": "local"
+    },
+    {
+      "id": "frame_notebook",
+      "kind": "frame",
+      "bbox": [
+        142,
+        191,
+        939,
+        1305
+      ],
+      "description": "中央大型浅棕牛皮纸线圈相册框体，整体包含上、下两片纸页、纸张斑驳纤维质感、边缘阴影及横跨中部的金属装订线圈。上页一个横向窗口，下页两个并排竖向窗口，共同作为完整三窗口框体保留，不包含内口摄影内容。",
+      "photo_id": [
+        "photo_top",
+        "photo_bottom_left",
+        "photo_bottom_right"
+      ],
+      "label": "中央大型浅棕牛皮纸线圈相册框体，整体包含上、下两片纸页、纸张",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        175,
+        133,
+        271,
+        240
+      ],
+      "description": "夹在相册左上边缘的深棕色长尾夹，包含矩形夹体、上方弯曲金属手柄和细小反光，整体覆盖纸框上沿。",
+      "label": "夹在相册左上边缘的深棕色长尾夹，包含矩形夹体、上方弯曲金属手",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        300,
+        811,
+        450,
+        834
+      ],
+      "description": "bits of bliss",
+      "label": "bits of bliss",
+      "method": "local",
+      "text": "bits of bliss",
+      "text_status": "known",
+      "style": {
+        "fill": "#594231",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_poem",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        809,
+        302,
+        1203
+      ],
+      "description": "左下纸页与照片左缘上的白色短诗设计，逐行写有“long / to / know / everything / about / life, / every / little / joy / and / unseen / grace.”。多行文字配有选择性的横向划线，保留原有分行、笔画、线条和位置关系，作为一个完整装饰单元。",
+      "label": "左下纸页与照片左缘上的白色短诗设计，逐行写有“long / ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_memory_label",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        1200,
+        901,
+        1256
+      ],
+      "description": "覆盖右下照片底边并延伸到牛皮纸上的浅米色横向纸标签，带细微纸纹，印有深棕色衬线字“core memories”；标签底板与字样整体保留。",
+      "label": "覆盖右下照片底边并延伸到牛皮纸上的浅米色横向纸标签，带细微纸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_window_marks",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        240,
+        828,
+        655
+      ],
+      "description": "上方照片右侧纵向排列的一组白色细线字母标记，从上到下为a、b、c、d、e；各字母附近配短横线，顶部和底部有多道线条。作为同一局部标注设计整体保留，叠在摄影内容上，不属于实拍商品。",
+      "label": "上方照片右侧纵向排列的一组白色细线字母标记，从上到下为a、b",
+      "method": "extract"
+    },
+    {
+      "id": "text_mark_top_a",
+      "kind": "text",
+      "bbox": [
+        698,
+        28,
+        755,
+        68
+      ],
+      "description": "(a)",
+      "label": "(a)",
+      "method": "local",
+      "text": "(a)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mark_top_c",
+      "kind": "text",
+      "bbox": [
+        561,
+        109,
+        606,
+        142
+      ],
+      "description": "(c)",
+      "label": "(c)",
+      "method": "local",
+      "text": "(c)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mark_left_top_b",
+      "kind": "text",
+      "bbox": [
+        79,
+        362,
+        129,
+        400
+      ],
+      "description": "(b)",
+      "label": "(b)",
+      "method": "local",
+      "text": "(b)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mark_left_middle_b",
+      "kind": "text",
+      "bbox": [
+        38,
+        834,
+        86,
+        872
+      ],
+      "description": "(b)",
+      "label": "(b)",
+      "method": "local",
+      "text": "(b)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mark_right_c",
+      "kind": "text",
+      "bbox": [
+        937,
+        704,
+        980,
+        745
+      ],
+      "description": "(c)",
+      "label": "(c)",
+      "method": "local",
+      "text": "(c)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mark_right_d",
+      "kind": "text",
+      "bbox": [
+        957,
+        913,
+        999,
+        952
+      ],
+      "description": "(d)",
+      "label": "(d)",
+      "method": "local",
+      "text": "(d)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mark_bottom_left_b",
+      "kind": "text",
+      "bbox": [
+        79,
+        1326,
+        133,
+        1368
+      ],
+      "description": "(b)",
+      "label": "(b)",
+      "method": "local",
+      "text": "(b)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mark_bottom_right_d",
+      "kind": "text",
+      "bbox": [
+        911,
+        1385,
+        960,
+        1422
+      ],
+      "description": "(d)",
+      "label": "(d)",
+      "method": "local",
+      "text": "(d)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "frame_notebook",
+    "overlay_clip",
+    "text_title",
+    "overlay_poem",
+    "overlay_memory_label",
+    "overlay_window_marks",
+    "text_mark_top_a",
+    "text_mark_top_c",
+    "text_mark_left_top_b",
+    "text_mark_left_middle_b",
+    "text_mark_right_c",
+    "text_mark_right_d",
+    "text_mark_bottom_left_b",
+    "text_mark_bottom_right_d"
+  ]
+}

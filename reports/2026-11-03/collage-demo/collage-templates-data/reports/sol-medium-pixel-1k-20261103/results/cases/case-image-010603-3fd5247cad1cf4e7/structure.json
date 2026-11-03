@@ -1,0 +1,346 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "dark_backdrop",
+    "description": "深棕至近黑的连续暗色底面覆盖全画布，带有轻微明暗渐变和横向色带；边缘与装饰、照片及金属盒周围均露出同一底面，保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_plate_dessert",
+      "kind": "photo",
+      "bbox": [
+        589,
+        547,
+        975,
+        839
+      ],
+      "description": "右上横向矩形餐点照片，木桌、叉子、白色波浪边盘和绿色圆形甜点均属于同一摄影画面；照片环境保留，白色手绘感细描边沿矩形窗口四周。"
+    },
+    {
+      "id": "photo_lid_portrait",
+      "kind": "photo",
+      "bbox": [
+        356,
+        919,
+        539,
+        1144
+      ],
+      "description": "金属盒上盖内右侧的倾斜人物照片，一名长发女性坐在花丛中，身体前倾并手持食物，周围花草属于照片环境；保留摄影背景，局部被盒内其他照片及装饰遮挡。"
+    },
+    {
+      "id": "photo_lid_small",
+      "kind": "photo",
+      "bbox": [
+        190,
+        1027,
+        266,
+        1107
+      ],
+      "description": "上盖内左侧的小幅倾斜方形照片，浅色天空或景物与手写字样同属摄影画面；完整小照片窗口被周边贴纸和盒内物件局部遮挡。"
+    },
+    {
+      "id": "photo_lid_table",
+      "kind": "photo",
+      "bbox": [
+        273,
+        987,
+        380,
+        1201
+      ],
+      "description": "上盖内偏左的竖向餐桌场景照片，可见桌面、玻璃杯及桌上物件，保留照片环境；与人物照片及盒内装饰相邻并有局部遮挡。"
+    },
+    {
+      "id": "photo_base_restaurant",
+      "kind": "photo",
+      "bbox": [
+        267,
+        1263,
+        487,
+        1531
+      ],
+      "description": "金属盒下部内侧的倾斜餐厅桌景照片，可见室内桌椅、桌面饮品和餐点，保留完整摄影环境；部分被前景贴纸、夹子及心形照片遮挡。"
+    },
+    {
+      "id": "photo_base_heart",
+      "kind": "photo",
+      "bbox": [
+        438,
+        1227,
+        645,
+        1439
+      ],
+      "description": "下部内侧偏右的心形照片窗口，展示木桌上的甜点、绿色饮品和水果餐点；摄影内容随照片替换，完整心形边缘可见，顶部被对白气泡局部覆盖。"
+    },
+    {
+      "id": "frame_box_lid",
+      "kind": "frame",
+      "bbox": [
+        60,
+        819,
+        648,
+        1288
+      ],
+      "description": "开启的金属盒上盖，呈倾斜圆角矩形，具有厚实银灰金属边、磨砂反光内衬及铰链；承载内部多张照片和贴纸，盒盖上的一体金属结构整体保留。",
+      "photo_id": [
+        "photo_lid_portrait",
+        "photo_lid_small",
+        "photo_lid_table"
+      ]
+    },
+    {
+      "id": "frame_box_base",
+      "kind": "frame",
+      "bbox": [
+        176,
+        1137,
+        762,
+        1607
+      ],
+      "description": "金属盒下部托盘，倾斜的圆角矩形银灰边框和浅色反光内衬构成照片承托结构；铰链、金属边缘及阴影一并保留。",
+      "photo_id": [
+        "photo_base_restaurant",
+        "photo_base_heart"
+      ]
+    },
+    {
+      "id": "overlay_upper_wings",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        174,
+        921,
+        285
+      ],
+      "description": "画面上方偏右的一对浅蓝色像素风翅膀贴纸，左右成对、带浅色描边与小弧线细节，作为一个完整装饰单元保留。"
+    },
+    {
+      "id": "overlay_cloud_text",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        362,
+        979,
+        386
+      ],
+      "description": "右上方小型白色装饰字样，含符号、英文“please call me”和电话听筒图形，字与图标共同构成一条固定装饰。"
+    },
+    {
+      "id": "overlay_weather",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        426,
+        812,
+        497
+      ],
+      "description": "白色云朵和雨滴图标，右侧伴有两行浅色韩文及表情符号；图标与文字组成同一组天气装饰。"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        258,
+        465,
+        438,
+        650
+      ],
+      "description": "蓝白发光螺旋图案，周围散布细小白点，整体为一个方形区域内的装饰组合。"
+    },
+    {
+      "id": "overlay_dots_left",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        299,
+        501,
+        751
+      ],
+      "description": "画面左侧由多行递减尺寸白圆点组成的点阵装饰，包含所有可见圆点，作为一个完整图案保留。"
+    },
+    {
+      "id": "overlay_quote",
+      "kind": "overlay",
+      "bbox": [
+        215,
+        700,
+        538,
+        829
+      ],
+      "description": "两条浅蓝色矩形文字贴纸，含韩文、符号、扬声器和音频波形图样，周围有三枚蓝色小爱心；所有成员作为一组固定装饰保留。"
+    },
+    {
+      "id": "overlay_music_notes",
+      "kind": "overlay",
+      "bbox": [
+        124,
+        844,
+        193,
+        902
+      ],
+      "description": "左侧金属盒上方的白色音乐符号、音符和小星点组合，保持完整手绘轮廓。"
+    },
+    {
+      "id": "overlay_lid_collage_decor",
+      "kind": "overlay",
+      "bbox": [
+        121,
+        889,
+        581,
+        1215
+      ],
+      "description": "上盖照片周围的固定拼贴装饰组合，包括蓝色韩文字圆贴、粉色手写字标签、小房子贴纸、花朵和旋涡贴纸、粉色星点、白色星星及兔子线稿；照片内容不包含在此对象内。"
+    },
+    {
+      "id": "overlay_pointer",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        902,
+        771,
+        1044
+      ],
+      "description": "右侧白色虚线填充的倾斜鼠标指针形贴纸，含细小圆点纹样，作为单独装饰保留。"
+    },
+    {
+      "id": "overlay_glow_heart",
+      "kind": "overlay",
+      "bbox": [
+        851,
+        909,
+        977,
+        1010
+      ],
+      "description": "右侧发光白色心形线稿，外缘带柔光和数个闪光星芒，整体作为一枚装饰贴纸保留。"
+    },
+    {
+      "id": "overlay_music_staff",
+      "kind": "overlay",
+      "bbox": [
+        717,
+        1081,
+        919,
+        1201
+      ],
+      "description": "右侧白色手绘五线谱形贴纸，包含粗线谱、黑色音符及周边星形符号，整体为一个独立装饰单元。"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        582,
+        1176,
+        658,
+        1279
+      ],
+      "description": "下部盒内心形照片上方的白色对话气泡，黑色字样为“:-D”，带尖角和细描边，作为完整贴纸保留。"
+    },
+    {
+      "id": "overlay_lid_clip",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        1236,
+        422,
+        1306
+      ],
+      "description": "压在下部照片上缘附近的蓝色夹子贴纸，包含夹体和圆形铆点，整体保留。"
+    },
+    {
+      "id": "overlay_base_decor",
+      "kind": "overlay",
+      "bbox": [
+        214,
+        1294,
+        702,
+        1571
+      ],
+      "description": "金属盒下部照片周围的固定拼贴装饰组合，包括绿色四叶草和心形圆贴、白色天使翅膀、粉色音符与星星、细线涂鸦及小型贴花；摄影区域保持独立。"
+    },
+    {
+      "id": "overlay_cloud_left",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        1324,
+        157,
+        1373
+      ],
+      "description": "金属盒左侧的小型浅蓝白色云朵贴纸，带蓝色星形细节和柔和描边。"
+    },
+    {
+      "id": "overlay_dot_pattern_right",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        1230,
+        1015,
+        1633
+      ],
+      "description": "画面右下方由多行白色圆点构成的递增点阵，包含所有可见圆点，整体作为一组固定图案。"
+    },
+    {
+      "id": "overlay_character_sticker",
+      "kind": "overlay",
+      "bbox": [
+        834,
+        1387,
+        916,
+        1465
+      ],
+      "description": "右下区域的白底蓝线卡通动物贴纸，带厚白色外轮廓，作为完整独立贴纸保留。"
+    },
+    {
+      "id": "overlay_star_badge",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        1500,
+        192,
+        1600
+      ],
+      "description": "左下方白色圆形徽章，中央为青绿色五角星，圆形底板和星形图案构成一个整体。"
+    },
+    {
+      "id": "overlay_daily_photos",
+      "kind": "overlay",
+      "bbox": [
+        453,
+        1584,
+        627,
+        1628
+      ],
+      "description": "底部偏中的粉色圆角胶囊标签，带小图标与白色字样“daily photos”，左侧另有粉色圆点；整体为一组固定标签装饰。"
+    }
+  ],
+  "layer_order": [
+    "photo_plate_dessert",
+    "frame_box_lid",
+    "photo_lid_small",
+    "photo_lid_table",
+    "photo_lid_portrait",
+    "overlay_lid_collage_decor",
+    "frame_box_base",
+    "photo_base_restaurant",
+    "photo_base_heart",
+    "overlay_base_decor",
+    "overlay_dots_left",
+    "overlay_spiral",
+    "overlay_quote",
+    "overlay_music_notes",
+    "overlay_upper_wings",
+    "overlay_cloud_text",
+    "overlay_weather",
+    "overlay_pointer",
+    "overlay_glow_heart",
+    "overlay_music_staff",
+    "overlay_speech_bubble",
+    "overlay_lid_clip",
+    "overlay_cloud_left",
+    "overlay_dot_pattern_right",
+    "overlay_character_sticker",
+    "overlay_star_badge",
+    "overlay_daily_photos"
+  ]
+}

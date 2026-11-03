@@ -1,0 +1,232 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1623
+  ],
+  "objects": [
+    {
+      "id": "background_ui",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1623
+      ],
+      "description": "连续的移动应用界面底图，包含顶部状态栏、浏览器地址与搜索区域、蓝色导航栏、黑色功能导航栏、灰色内容区及底部工具栏；独立照片、星星、编号圆圈和底部文案从其上分层呈现，清除后保留界面结构与灰色底面。",
+      "background_type": "reference_clean",
+      "label": "连续的移动应用界面底图，包含顶部状态栏、浏览器地址与搜索区域",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_large",
+      "kind": "photo",
+      "bbox": [
+        57,
+        629,
+        660,
+        1430
+      ],
+      "description": "左侧大型竖向照片，显示庭院或温室般的户外环境、悬挂红灯笼、绿植以及两名背对镜头的人物；人物位于照片下半部，照片完整窗口为竖向矩形，边缘带白色手绘点状描边。",
+      "label": "左侧大型竖向照片，显示庭院或温室般的户外环境、悬挂红灯笼、绿",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        708,
+        683,
+        1025,
+        1001
+      ],
+      "description": "右上方小型横向照片，显示一名长发人物的近景自拍，前景有手指横向遮挡脸部；照片保留室内摄影环境，窗口边缘带红色描边。",
+      "label": "右上方小型横向照片，显示一名长发人物的近景自拍，前景有手指横",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        516,
+        1122,
+        904,
+        1382
+      ],
+      "description": "右下方横向照片，显示两名戴帽或压低帽檐的人物并排靠在桌面前，保留暖色室内环境；照片部分覆盖左侧大型照片，窗口边缘带青蓝色描边。",
+      "label": "右下方横向照片，显示两名戴帽或压低帽檐的人物并排靠在桌面前，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        297,
+        570,
+        345,
+        615
+      ],
+      "description": "灰色内容区上方、左侧大型照片上沿附近的白色五角星装饰。",
+      "label": "灰色内容区上方、左侧大型照片上沿附近的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        918,
+        45,
+        965
+      ],
+      "description": "左侧灰色内容区边缘的白色五角星装饰，部分贴近画布左边界。",
+      "label": "左侧灰色内容区边缘的白色五角星装饰，部分贴近画布左边界。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_large_photo",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        1296,
+        157,
+        1348
+      ],
+      "description": "叠放在左侧大型照片左下区域上的白色五角星装饰，覆盖照片内容。",
+      "label": "叠放在左侧大型照片左下区域上的白色五角星装饰，覆盖照片内容。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        961,
+        588,
+        1008,
+        634
+      ],
+      "description": "右上区域、上方小照片上侧的白色五角星装饰。",
+      "label": "右上区域、上方小照片上侧的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_photo_gap",
+      "kind": "overlay",
+      "bbox": [
+        736,
+        936,
+        783,
+        980
+      ],
+      "description": "上方小照片左下附近、灰色区域中的白色五角星装饰，局部贴近照片边缘。",
+      "label": "上方小照片左下附近、灰色区域中的白色五角星装饰，局部贴近照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        951,
+        1108,
+        1000,
+        1154
+      ],
+      "description": "右侧两张照片之间灰色区域中的白色五角星装饰。",
+      "label": "右侧两张照片之间灰色区域中的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        912,
+        1397,
+        963,
+        1446
+      ],
+      "description": "右下照片下方灰色区域中的白色五角星装饰。",
+      "label": "右下照片下方灰色区域中的白色五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_number_1",
+      "kind": "overlay",
+      "bbox": [
+        7,
+        1424,
+        91,
+        1507
+      ],
+      "description": "左下方青蓝色圆形编号装饰，圆圈内为数字1，位于大型照片左下侧。",
+      "label": "左下方青蓝色圆形编号装饰，圆圈内为数字1，位于大型照片左下侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_number_2",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        584,
+        889,
+        668
+      ],
+      "description": "上方小照片上侧的青蓝色圆形编号装饰，圆圈内为数字2。",
+      "label": "上方小照片上侧的青蓝色圆形编号装饰，圆圈内为数字2。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_number_3",
+      "kind": "overlay",
+      "bbox": [
+        946,
+        1224,
+        1037,
+        1312
+      ],
+      "description": "右侧中下部的青蓝色圆形编号装饰，圆圈内为数字3。",
+      "label": "右侧中下部的青蓝色圆形编号装饰，圆圈内为数字3。",
+      "method": "extract"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        199,
+        1454,
+        918,
+        1497
+      ],
+      "description": "* Pray that everything goes well with us *",
+      "label": "* Pray that everything goes we",
+      "method": "local",
+      "text": "* Pray that everything goes well with us *",
+      "text_status": "known",
+      "style": {
+        "fill": "#63C8ED",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "background_ui",
+    "photo_large",
+    "photo_upper_right",
+    "photo_lower_right",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_large_photo",
+    "overlay_star_upper_right",
+    "overlay_star_photo_gap",
+    "overlay_star_right_middle",
+    "overlay_star_lower_right",
+    "overlay_number_1",
+    "overlay_number_2",
+    "overlay_number_3",
+    "text_caption"
+  ]
+}

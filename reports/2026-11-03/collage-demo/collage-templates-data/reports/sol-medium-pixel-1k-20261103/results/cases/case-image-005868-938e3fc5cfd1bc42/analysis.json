@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    973,
+    971
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        973,
+        971
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#E3C8D1"
+      }
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        28,
+        20,
+        945,
+        944
+      ],
+      "description": "圆形近景自拍，一名长发深色头发的年轻女性面向镜头，头部微倾，左上方举手比出手势；面部、头发、衣物及照片内环境共同保留。照片显示为圆形窗口，外围有贴合圆周的宽白色发光描边，摄影环境在窗口内仍可见。",
+      "label": "圆形近景自拍，一名长发深色头发的年轻女性面向镜头，头部微倾，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_doodles",
+      "kind": "overlay",
+      "bbox": [
+        344,
+        7,
+        815,
+        275
+      ],
+      "description": "照片上方的白色手绘装饰组合：两侧弧形线条与两个小三角形符号，整体悬置在圆形照片上方，作为独立固定装饰保留。",
+      "label": "照片上方的白色手绘装饰组合：两侧弧形线条与两个小三角形符号，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        599,
+        500,
+        668
+      ],
+      "description": "照片左下区域的白色装饰字样“初めての雪”，两侧搭配星形、闪光点和雪云图案；字与图案共同构成一组固定设计，保留原有字形和排列。",
+      "label": "照片左下区域的白色装饰字样“初めての雪”，两侧搭配星形、闪光",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_portrait",
+    "overlay_top_doodles",
+    "overlay_caption"
+  ]
+}

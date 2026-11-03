@@ -1,0 +1,307 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    818,
+    1024
+  ],
+  "objects": [
+    {
+      "id": "background_dark",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        818,
+        1024
+      ],
+      "description": "全画布近黑色固定底图，上部略带深绿色，下部更接近纯黑，存在轻微色调变化。四边与主体周围的空白连续，保留此暗底，清除独立照片、星星及右下角标记。",
+      "background_type": "reference_clean",
+      "label": "全画布近黑色固定底图，上部略带深绿色，下部更接近纯黑，存在轻",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        17,
+        200,
+        802,
+        715
+      ],
+      "description": "双手从左右握住金色双耳金属浅锅，锅内叠放焦糖色烤吐司；两侧露出深灰针织袖口，不见人物脸部。双手、袖口、锅与食物构成一个完整摄影主体组合，沿组合轮廓去除原摄影环境。外围白色粗糙粉笔状线条依附主体组合外形，左右绕过袖口和手部，下方绕过锅底，上方沿凹下的轮廓连接；线条与主体间留有黑底间隙，局部被彩色星星遮挡。",
+      "label": "双手从左右握住金色双耳金属浅锅，锅内叠放焦糖色烤吐司；两侧露",
+      "method": "local"
+    },
+    {
+      "id": "star_yellow_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        192,
+        159,
+        250
+      ],
+      "description": "左上黄色五角星贴纸，带轻微纸纹和不规则边缘，压在袖口上方的白色轮廓线上。",
+      "label": "左上黄色五角星贴纸，带轻微纸纹和不规则边缘，压在袖口上方的白",
+      "method": "extract"
+    },
+    {
+      "id": "star_red_left_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        254,
+        42,
+        300
+      ],
+      "description": "左侧上段红色五角星，覆盖白色轮廓线，左端被画布边缘截断。",
+      "label": "左侧上段红色五角星，覆盖白色轮廓线，左端被画布边缘截断。",
+      "method": "extract"
+    },
+    {
+      "id": "star_green_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        195,
+        279,
+        243,
+        325
+      ],
+      "description": "左上凹口附近的绿色五角星，具有纸纹，叠在白色轮廓线上。",
+      "label": "左上凹口附近的绿色五角星，具有纸纹，叠在白色轮廓线上。",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_top",
+      "kind": "overlay",
+      "bbox": [
+        313,
+        294,
+        370,
+        351
+      ],
+      "description": "锅上方偏左的蓝色五角星，覆盖横向白色轮廓线，边缘略不规则。",
+      "label": "锅上方偏左的蓝色五角星，覆盖横向白色轮廓线，边缘略不规则。",
+      "method": "extract"
+    },
+    {
+      "id": "star_red_top",
+      "kind": "overlay",
+      "bbox": [
+        438,
+        296,
+        483,
+        341
+      ],
+      "description": "锅上方中央偏右的红色五角星，叠在白色轮廓线上。",
+      "label": "锅上方中央偏右的红色五角星，叠在白色轮廓线上。",
+      "method": "extract"
+    },
+    {
+      "id": "star_yellow_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        315,
+        612,
+        373
+      ],
+      "description": "锅右上方黄色五角星，覆盖白色轮廓线的下凹转折，保留其纸纹与不规则边缘。",
+      "label": "锅右上方黄色五角星，覆盖白色轮廓线的下凹转折，保留其纸纹与不",
+      "method": "extract"
+    },
+    {
+      "id": "star_green_right_top",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        237,
+        694,
+        282
+      ],
+      "description": "右上斜向轮廓线上的绿色五角星，位于右侧袖口外上方。",
+      "label": "右上斜向轮廓线上的绿色五角星，位于右侧袖口外上方。",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        180,
+        812,
+        239
+      ],
+      "description": "右上蓝色五角星，压住白色轮廓线顶端，带轻微纹理与不规则尖角。",
+      "label": "右上蓝色五角星，压住白色轮廓线顶端，带轻微纹理与不规则尖角。",
+      "method": "extract"
+    },
+    {
+      "id": "star_red_right",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        307,
+        818,
+        352
+      ],
+      "description": "右侧上段红色五角星，覆盖竖向白色轮廓线，右端到达画布边缘。",
+      "label": "右侧上段红色五角星，覆盖竖向白色轮廓线，右端到达画布边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "star_yellow_right",
+      "kind": "overlay",
+      "bbox": [
+        766,
+        425,
+        818,
+        486
+      ],
+      "description": "右侧中段黄色五角星，叠在白色轮廓线上，右侧尖角被画布裁切。",
+      "label": "右侧中段黄色五角星，叠在白色轮廓线上，右侧尖角被画布裁切。",
+      "method": "extract"
+    },
+    {
+      "id": "star_green_right_bottom",
+      "kind": "overlay",
+      "bbox": [
+        775,
+        554,
+        818,
+        600
+      ],
+      "description": "右侧下段绿色五角星，覆盖手部外侧的白色轮廓线，右端被画布裁切。",
+      "label": "右侧下段绿色五角星，覆盖手部外侧的白色轮廓线，右端被画布裁切",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        617,
+        721,
+        674
+      ],
+      "description": "右下蓝色五角星，压在右手下方的白色轮廓线上，星形带纸纹。",
+      "label": "右下蓝色五角星，压在右手下方的白色轮廓线上，星形带纸纹。",
+      "method": "extract"
+    },
+    {
+      "id": "star_red_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        549,
+        647,
+        595,
+        691
+      ],
+      "description": "锅底右下方红色五角星，覆盖白色轮廓线的转折。",
+      "label": "锅底右下方红色五角星，覆盖白色轮廓线的转折。",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_bottom",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        671,
+        336,
+        729
+      ],
+      "description": "锅底偏左下方蓝色五角星，覆盖底部白色轮廓线，保留完整五角造型和纸纹。",
+      "label": "锅底偏左下方蓝色五角星，覆盖底部白色轮廓线，保留完整五角造型",
+      "method": "extract"
+    },
+    {
+      "id": "star_red_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        161,
+        656,
+        209,
+        701
+      ],
+      "description": "左下红色五角星，叠在左手下方弯曲的白色轮廓线上。",
+      "label": "左下红色五角星，叠在左手下方弯曲的白色轮廓线上。",
+      "method": "extract"
+    },
+    {
+      "id": "star_yellow_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        606,
+        104,
+        667
+      ],
+      "description": "左下黄色五角星，覆盖左侧白色轮廓线的下转角，带不规则边缘和轻微纹理。",
+      "label": "左下黄色五角星，覆盖左侧白色轮廓线的下转角，带不规则边缘和轻",
+      "method": "extract"
+    },
+    {
+      "id": "star_green_left_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        498,
+        43,
+        545
+      ],
+      "description": "左侧下段绿色五角星，覆盖竖向白色轮廓线，左端被画布边缘裁切。",
+      "label": "左侧下段绿色五角星，覆盖竖向白色轮廓线，左端被画布边缘裁切。",
+      "method": "extract"
+    },
+    {
+      "id": "star_blue_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        372,
+        51,
+        429
+      ],
+      "description": "左侧中段蓝色五角星，覆盖白色轮廓线并局部压住手部外缘，左端被画布裁切。",
+      "label": "左侧中段蓝色五角星，覆盖白色轮廓线并局部压住手部外缘，左端被",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        1004,
+        813,
+        1019
+      ],
+      "description": "右下角极小的深灰圆角胶囊状标记，内含低对比度细小字样，疑似“小红书”；文字与胶囊载体整体保留。",
+      "label": "右下角极小的深灰圆角胶囊状标记，内含低对比度细小字样，疑似“",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_dark",
+    "photo_food",
+    "star_yellow_upper_left",
+    "star_red_left_top",
+    "star_green_upper_left",
+    "star_blue_top",
+    "star_red_top",
+    "star_yellow_upper_right",
+    "star_green_right_top",
+    "star_blue_upper_right",
+    "star_red_right",
+    "star_yellow_right",
+    "star_green_right_bottom",
+    "star_blue_lower_right",
+    "star_red_lower_right",
+    "star_blue_bottom",
+    "star_red_lower_left",
+    "star_yellow_lower_left",
+    "star_green_left_bottom",
+    "star_blue_left",
+    "overlay_corner_mark"
+  ]
+}

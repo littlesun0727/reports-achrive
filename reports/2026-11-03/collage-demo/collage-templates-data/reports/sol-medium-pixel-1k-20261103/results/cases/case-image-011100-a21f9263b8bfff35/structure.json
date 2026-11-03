@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_trees",
+    "description": "仰拍树冠的连续摄影画面覆盖整个画布，无人物；上方是密集的绿色阔叶和交错枝条，左右可见树干，下方是茂密树木，间隙露出蓝天。枝叶与天空在中央遮挡区两侧保持连续，中央暗色面板、食物照片和白色装饰覆盖其上；整幅树木与天空环境一起替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_dark_panel",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        137,
+        922,
+        1306
+      ],
+      "description": "中央竖向半透明深色矩形面板，上下左右为平直边界，下层树叶、枝干及天空仍透过面板可见。面板使中央区域整体变暗，位于两组摄影主体及白色装饰下方，不承担照片窗口功能。"
+    },
+    {
+      "id": "photo_kitty_tray",
+      "kind": "photo",
+      "bbox": [
+        289,
+        347,
+        770,
+        721
+      ],
+      "description": "沿完整物件组合轮廓显示的摄影单元：木质长方托盘上，左侧玻璃杯内坐着戴粉色蝴蝶结、穿粉色衣服的白色猫咪玩偶，右侧放着摊开的小书，书页有红色图案。原拍摄环境已去除，保留玩偶、玻璃杯、书和托盘，不拆分其中物件；托盘下缘局部被前方沙拉碗遮挡。"
+    },
+    {
+      "id": "photo_salad",
+      "kind": "photo",
+      "bbox": [
+        307,
+        688,
+        834,
+        1095
+      ],
+      "description": "俯拍灰色圆碗沙拉，碗内有两半溏心蛋、粉色肉片、牛油果、生菜和番茄，右侧一把金属叉子斜伸出碗沿。沿碗与叉子的完整组合轮廓去除原摄影背景，保留食材及器皿；碗的上缘覆盖后方木托盘下缘，无独立轮廓描边。"
+    },
+    {
+      "id": "overlay_thought",
+      "kind": "overlay",
+      "bbox": [
+        507,
+        242,
+        736,
+        400
+      ],
+      "description": "玩偶右上方的白色手绘思考气泡，包含一个不规则大气泡和向左下延伸的两个小圆圈，气泡内有手写“好吃”字样。轮廓、内部文字和小圆圈共同构成完整固定装饰，内部空隙透出下层树叶。"
+    },
+    {
+      "id": "overlay_magic_salad",
+      "kind": "overlay",
+      "bbox": [
+        242,
+        874,
+        458,
+        1159
+      ],
+      "description": "沙拉碗左侧至左下方的白色手写“Magic Salad”装饰字样，字词沿弯曲路径排列并随路径改变角度，不是规则横向排版。保留整组字形、笔画及其相对位置，透明间隙露出下层树木。"
+    }
+  ],
+  "layer_order": [
+    "overlay_dark_panel",
+    "photo_kitty_tray",
+    "photo_salad",
+    "overlay_thought",
+    "overlay_magic_salad"
+  ]
+}

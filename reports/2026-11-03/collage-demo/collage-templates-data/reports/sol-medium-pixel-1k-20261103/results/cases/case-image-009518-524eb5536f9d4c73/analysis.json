@@ -1,0 +1,123 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "panel_stripes",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        638
+      ],
+      "description": "上部横贯画布的固定条纹面板，由密集的浅灰与白色水平条纹组成，下沿平直。只覆盖画布上部，不扩展为全画布底图；雨伞和散布符号另列。",
+      "label": "上部横贯画布的固定条纹面板，由密集的浅灰与白色水平条纹组成，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        0,
+        638,
+        1080,
+        1440
+      ],
+      "description": "下部独立俯拍照片：一人的黑色衣袖和手从右侧伸向中央，握着带透明杯盖的浅色饮料杯，杯旁有浅色毛绒小物，底部露出鞋尖与衣物，背景为深色粗糙路面。保留完整摄影环境，照片从条纹面板下沿延伸到左右及底部画布边缘；整体光线较暗，上有独立白色符号与文字叠加。杯身印字属于摄影内容。",
+      "label": "下部独立俯拍照片：一人的黑色衣袖和手从右侧伸向中央，握着带透",
+      "method": "local"
+    },
+    {
+      "id": "overlay_symbols",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "遍布全画布的稀疏白色符号图案，按多行错落排列，包含“*”“#”“%”“:3”“<3”等，部分成员在画布边缘被截断。符号跨越上部条纹与下部照片，作为同一重复装饰图案保留；上部局部被雨伞遮住。",
+      "label": "遍布全画布的稀疏白色符号图案，按多行错落排列，包含“*”“#",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_umbrella",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        76,
+        865,
+        658
+      ],
+      "description": "居中的黑白波点雨伞图形：黑色宽伞面内排列白色圆点，顶部有短直黑杆，中央长柄向下伸出并在末端形成向右弯的钩。完整伞面、波点与伞柄作为一个固定设计单元保留，位于条纹面板上方，柄钩略越过面板下沿。",
+      "label": "居中的黑白波点雨伞图形：黑色宽伞面内排列白色圆点，顶部有短直",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_phrase",
+      "kind": "overlay",
+      "bbox": [
+        701,
+        763,
+        824,
+        1035
+      ],
+      "description": "照片右侧的白色英文装饰排版，可辨内容自上而下为“go”“where”“you”“feel”“light”。各词左右错落，每行带不同长度的细横线，文字与横线共同构成一个完整固定装饰，不拆成普通文字。",
+      "label": "照片右侧的白色英文装饰排版，可辨内容自上而下为“go”“wh",
+      "method": "extract"
+    },
+    {
+      "id": "text_options",
+      "kind": "text",
+      "bbox": [
+        84,
+        1074,
+        140,
+        1355
+      ],
+      "description": "( a )\n( b )\n( c )\n( d )\n( e )",
+      "label": "( a )\n( b )\n( c )\n( d )\n( e )",
+      "method": "local",
+      "text": "( a )\n( b )\n( c )\n( d )\n( e )",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "panel_stripes",
+    "photo_drink",
+    "overlay_symbols",
+    "overlay_umbrella",
+    "overlay_phrase",
+    "text_options"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_gradient",
+    "description": "全画布灰褐色至深棕色的纵向渐变底图，上方较浅、下方较深，照片四周及底部装饰周围连续露出。保留底图的颜色变化，中央照片、叠加文字和底部装饰独立处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_room",
+      "kind": "photo",
+      "bbox": [
+        65,
+        204,
+        745,
+        1112
+      ],
+      "description": "一张竖向室内照片，完整保留酒店房间环境。右下方一名挽发、穿浅色长袖衣服的女性坐在地毯上，侧背朝向镜头，俯身看向面前的小蛋糕；左侧是装满白色花朵、带提柄与丝带的花篮。后方可见床铺、金色躺椅、黑色家具和镜面反射。照片为边界清晰的矩形，摄影背景保留，没有沿人物轮廓去背景；多处白色文字叠在照片上。"
+    },
+    {
+      "id": "text_happy",
+      "kind": "text",
+      "bbox": [
+        450,
+        475,
+        538,
+        509
+      ],
+      "text": "Happy",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_good_luck_upper",
+      "kind": "text",
+      "bbox": [
+        290,
+        557,
+        428,
+        590
+      ],
+      "text": "Good luck",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_happiness",
+      "kind": "text",
+      "bbox": [
+        578,
+        546,
+        692,
+        575
+      ],
+      "text": "Happiness",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_brave",
+      "kind": "text",
+      "bbox": [
+        329,
+        640,
+        405,
+        671
+      ],
+      "text": "brave",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_attract_wealth",
+      "kind": "text",
+      "bbox": [
+        570,
+        624,
+        756,
+        650
+      ],
+      "text": "To attract wealth",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_good_luck_lower",
+      "kind": "text",
+      "bbox": [
+        309,
+        728,
+        448,
+        760
+      ],
+      "text": "Good luck",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        588,
+        717,
+        643,
+        743
+      ],
+      "text": "Love",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_safe",
+      "kind": "text",
+      "bbox": [
+        238,
+        806,
+        398,
+        833
+      ],
+      "text": "Safe and sound",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_richer",
+      "kind": "text",
+      "bbox": [
+        674,
+        825,
+        745,
+        852
+      ],
+      "text": "Richer",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_birthday_symbols",
+      "kind": "overlay",
+      "bbox": [
+        347,
+        1134,
+        463,
+        1176
+      ],
+      "description": "照片下方居中的一排彩色表情式装饰，由带蜡烛的白色生日蛋糕、浅蓝白色羽翼和金色闪光星组成。三者共同构成紧凑的生日祝福装饰行，保留各自造型、色彩及其间透明空隙。"
+    }
+  ],
+  "layer_order": [
+    "photo_room",
+    "text_happy",
+    "text_good_luck_upper",
+    "text_happiness",
+    "text_brave",
+    "text_attract_wealth",
+    "text_good_luck_lower",
+    "text_love",
+    "text_safe",
+    "text_richer",
+    "overlay_birthday_symbols"
+  ]
+}

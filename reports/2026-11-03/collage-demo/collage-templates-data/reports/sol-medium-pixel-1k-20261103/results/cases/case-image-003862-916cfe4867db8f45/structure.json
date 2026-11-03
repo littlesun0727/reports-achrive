@@ -1,0 +1,256 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海岸风景摄影覆盖全画布：上部为蓝天与薄云，下部为蓝色海水，左侧及底边露出岸边岩石与远处绿坡，无清晰人物主体。天空、海水和岸线在照片及装饰之间连续可见，上层拼贴遮住部分场景；完整海岸摄影环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "frame_beach",
+      "kind": "frame",
+      "bbox": [
+        0,
+        74,
+        442,
+        504
+      ],
+      "description": "左上照片外围的白色粉笔质感框体，多重不规则圆角线错位叠绕，右侧和下侧明显超出照片内口，左上带附属蝴蝶结状笔画。保留完整粗糙线条与内部透明间隙，照片内容独立替换。",
+      "photo_id": [
+        "photo_beach"
+      ]
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        30,
+        149,
+        399,
+        426
+      ],
+      "description": "左上横向海滩风景照片，无人物；蓝天积云、远山、浅蓝海水及右下弧形沙滩共同构成矩形摄影窗口。保留全部摄影环境，右下小部分被中央照片遮挡。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        307,
+        417,
+        868,
+        840
+      ],
+      "description": "中央横向照片，一位戴草帽、穿浅色上衣和彩色裙子的女子站在木质海滩招牌前，抬手扶帽；树冠、木架、围栏、沙滩与海面均保留。招牌英文属于实拍内容。右侧被上下两张照片遮挡，左下被情侣照片遮挡。"
+    },
+    {
+      "id": "photo_island",
+      "kind": "photo",
+      "bbox": [
+        780,
+        188,
+        1056,
+        551
+      ],
+      "description": "右上竖向照片，一位戴帽女子站在蓝色圆形背景前张开双臂，周围环绕彩色船板状装置，背景有白色“西岛”字样，均为摄影内容。保留完整环境；窗口外围有紧贴边缘的细白色圆角线。下部压住中央照片。"
+    },
+    {
+      "id": "photo_palms",
+      "kind": "photo",
+      "bbox": [
+        130,
+        884,
+        517,
+        1398
+      ],
+      "description": "左下竖向照片，一位穿浅色上衣和彩裙的女子背向镜头走在椰林草地上，周围椰树、石块及远处海面完整保留。上部左侧被情侣照片遮挡；照片窗口沿边缘带细白色手绘圆角描边。"
+    },
+    {
+      "id": "photo_couple",
+      "kind": "photo",
+      "bbox": [
+        30,
+        662,
+        361,
+        912
+      ],
+      "description": "左侧中部横向情侣照片，一男一女戴帽或穿浅色衣服并肩坐在海边石墙上，男子穿蓝色外衫，女子穿彩裙。保留海面、远处码头及右上树叶；照片覆盖中央照片左下和椰林照片上部。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        780,
+        620,
+        1060,
+        994
+      ],
+      "description": "右侧中部竖向照片，一位戴宽檐草帽、穿浅色上衣和彩裙的女子侧身坐在海边石墙上，红鞋与右侧椰子一起属于摄影内容。保留天空、海面和石墙，人物未沿轮廓去背景；窗口左侧覆盖中央照片。"
+    },
+    {
+      "id": "photo_man",
+      "kind": "photo",
+      "bbox": [
+        580,
+        980,
+        969,
+        1383
+      ],
+      "description": "右下近圆形照片，一位戴墨镜、穿蓝色外衫和浅色短裤的男子坐在沙滩木船上，面向左侧。保留沙地、树干、枝叶、海面和木船，按近圆形窗口显示而非主体去背景；外围有沿窗口环绕的白色手绘虚线。"
+    },
+    {
+      "id": "overlay_drops",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        3,
+        179,
+        205
+      ],
+      "description": "左上四枚上下错落的白色水滴涂鸦，两枚实心、两枚空心，跨在天空、粉笔框及海滩照片上方，作为一组独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_top_caption",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        48,
+        494,
+        88
+      ],
+      "description": "顶部一行纤细白色中文手写字样，字形笔画与基线略有起伏，位于粉笔框上方；部分文字难以可靠辨认，保留原有手写视觉形式，不重新编造文字。"
+    },
+    {
+      "id": "overlay_fish",
+      "kind": "overlay",
+      "bbox": [
+        521,
+        139,
+        688,
+        300
+      ],
+      "description": "上部中央白色手绘鱼与泡泡装饰：不规则圆形水泡内有一条鱼、数个小圆泡和弧线，右下附一个独立小泡泡。整组细线设计保留。"
+    },
+    {
+      "id": "overlay_spoon",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        0,
+        916,
+        178
+      ],
+      "description": "右上天空中的白色长柄勺状线描，周围附小星形、菱形、圆点与短线，顶部少量图案被画布裁切；整组固定涂鸦保留。"
+    },
+    {
+      "id": "overlay_rain_cloud",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        518,
+        295,
+        745
+      ],
+      "description": "左侧中部白色手绘云朵与下方多枚斜向雨滴组成一组装饰，云朵位于天空，部分雨滴叠到情侣照片和中央照片边缘，保留完整线条及粉笔质感。"
+    },
+    {
+      "id": "overlay_tree_doodle",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        497,
+        718,
+        568
+      ],
+      "description": "中央照片树冠上叠加的小型白色涂鸦，包括云团状轮廓、斜短线及右下小叶状笔画，不属于摄影场景，作为完整局部装饰保留。"
+    },
+    {
+      "id": "overlay_upper_stars",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        627,
+        1045,
+        691
+      ],
+      "description": "右侧中部照片上缘附近的白色星星、爱心与细线涂鸦带，左侧垂落星形跨到中央照片树干上，其余图案横跨女子照片天空区域，整组保留。"
+    },
+    {
+      "id": "overlay_lower_stars",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        970,
+        1048,
+        1034
+      ],
+      "description": "女子照片下缘的一组白色手绘装饰，由大小星形、实心爱心、小点和短线组成，部分伸到下方海水和圆形照片上方，完整保留。"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        883,
+        422,
+        997
+      ],
+      "description": "从左侧海水横跨椰林照片上部的白色弧形箭头，左端附小星形，右端箭头向右上弯起；保留整条手绘曲线及箭头，不属于照片描边。"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1309,
+        89,
+        1433
+      ],
+      "description": "左下角白色手绘猫脸轮廓，带尖耳、眼鼻和短须，左边被画布截断，叠在海岸岩石上，保留可见完整装饰。"
+    },
+    {
+      "id": "overlay_small_scribble",
+      "kind": "overlay",
+      "bbox": [
+        961,
+        1301,
+        1002,
+        1350
+      ],
+      "description": "右下圆形照片右侧海水上的小型白色弯曲涂鸦，呈卷曲水纹或小螺旋状，独立于照片虚线边缘，按原线条保留。"
+    },
+    {
+      "id": "overlay_bottom_caption",
+      "kind": "overlay",
+      "bbox": [
+        618,
+        1362,
+        980,
+        1434
+      ],
+      "description": "圆形照片下方叠加的两行白色中文手写说明，字形大小与位置略不规则，第二行更靠左；部分内容难以可靠辨认，保留两行原有笔画和排布，不编造原文。"
+    }
+  ],
+  "layer_order": [
+    "frame_beach",
+    "photo_beach",
+    "photo_palms",
+    "photo_center",
+    "photo_island",
+    "photo_couple",
+    "photo_woman",
+    "photo_man",
+    "overlay_drops",
+    "overlay_top_caption",
+    "overlay_fish",
+    "overlay_spoon",
+    "overlay_rain_cloud",
+    "overlay_tree_doodle",
+    "overlay_upper_stars",
+    "overlay_lower_stars",
+    "overlay_arrow",
+    "overlay_cat",
+    "overlay_small_scribble",
+    "overlay_bottom_caption"
+  ]
+}

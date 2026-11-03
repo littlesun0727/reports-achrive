@@ -1,0 +1,65 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_harbor",
+      "kind": "photo",
+      "bbox": [
+        130,
+        85,
+        555,
+        609
+      ],
+      "description": "左上竖向港湾照片，蓝天、远处绿色岛屿、蓝绿色海面、左侧白色船舶及码头共同构成完整摄影环境，前景有一艘白色小艇和数艘红色小艇。照片为清晰的矩形显示窗口，右下部分被另一张照片遮挡，完整窗口仍延伸至原有右边和下边。"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        494,
+        364,
+        1007,
+        1002
+      ],
+      "description": "右下竖向咖啡馆照片，桌面中央为装有深色饮料和冰块的透明玻璃杯，一根深红色吸管斜向左上；杯上印有“FREE LIKE A BIRD”，属于实拍内容。背景保留落地窗、蓝天、窗框及左右两侧失焦的人物，右侧有餐盘。完整矩形窗口覆盖左上港湾照片的右下角，无主体出框或透明渐隐。"
+    },
+    {
+      "id": "overlay_bird",
+      "kind": "overlay",
+      "bbox": [
+        131,
+        626,
+        440,
+        876
+      ],
+      "description": "左下独立黑色细线飞鸟装饰，以连续弯曲线条勾勒展翅、头部、身体和尾部，内部留白透出画布底色。完整线描造型作为一个固定设计单元保留，不与下方文字合并。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        239,
+        851,
+        352,
+        985
+      ],
+      "text": "FREE\nLIKE A\nBIRD",
+      "color": "#351113",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_harbor",
+    "photo_drink",
+    "overlay_bird",
+    "text_title"
+  ]
+}

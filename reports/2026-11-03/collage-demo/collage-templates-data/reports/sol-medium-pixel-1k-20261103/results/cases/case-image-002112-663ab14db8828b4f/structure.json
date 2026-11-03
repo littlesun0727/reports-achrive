@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_gradient",
+    "description": "连续的全画布灰色纵向渐变底图，从顶部浅灰逐渐过渡至底部深炭灰；两张独立人像照片及装饰遮挡局部，渐变底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        89,
+        120,
+        474,
+        634
+      ],
+      "description": "上方竖幅人像照片：一名年轻女性黑色长发垂落，低头微侧，身穿黑色上衣并佩戴多层项链；白色室内背景与人物共同属于照片，保留完整矩形显示范围。照片左侧和右下边缘有心形装饰压叠。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        303,
+        727,
+        743,
+        1314
+      ],
+      "description": "下方竖幅人像照片：一名年轻女性正面看向镜头，一只手臂抬至头后，身穿黑色上衣并佩戴项链；白色室内环境属于照片，保留完整矩形显示范围。左侧及下缘有圆点装饰局部叠在照片上。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        104,
+        136,
+        139
+      ],
+      "description": "上方照片左上角外侧的白色点状蝴蝶结装饰，整体作为独立固定图案保留，部分靠近照片左上边缘。"
+    },
+    {
+      "id": "overlay_heart_top",
+      "kind": "overlay",
+      "bbox": [
+        255,
+        105,
+        293,
+        144
+      ],
+      "description": "上方照片顶部附近的黑色立体心形装饰，独立于照片内容。"
+    },
+    {
+      "id": "overlay_heart_right",
+      "kind": "overlay",
+      "bbox": [
+        487,
+        271,
+        512,
+        296
+      ],
+      "description": "上方照片右侧灰色留白处的小型黑色立体心形装饰。"
+    },
+    {
+      "id": "overlay_heart_left",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        425,
+        104,
+        455
+      ],
+      "description": "压在上方照片左侧边缘的黑色立体心形装饰，完整保留心形轮廓。"
+    },
+    {
+      "id": "overlay_heart_bottom",
+      "kind": "overlay",
+      "bbox": [
+        463,
+        601,
+        501,
+        638
+      ],
+      "description": "上方照片右下角外侧的黑色立体心形装饰，贴近并覆盖照片边缘。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        548,
+        308,
+        713,
+        388
+      ],
+      "description": "右上方的白色装饰字样“# in my feeling s”，字形大小和样式有变化，周围配有数枚小黑星点；文字与星点构成一个独立排版装饰单元。"
+    },
+    {
+      "id": "overlay_dot_pattern",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        731,
+        375,
+        1372
+      ],
+      "description": "画面左下区域的白灰色圆点装饰图案，由上部规则错列的小点、向下渐隐的点列及下方较大的散落圆点组成；部分圆点叠在下方照片左缘及下缘，整体作为一个固定图案保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "overlay_bow",
+    "overlay_heart_top",
+    "overlay_heart_right",
+    "overlay_heart_left",
+    "overlay_heart_bottom",
+    "overlay_caption",
+    "photo_lower",
+    "overlay_dot_pattern"
+  ]
+}

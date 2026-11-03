@@ -1,0 +1,69 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的竖幅近景摄影覆盖全画布：上方是带蕨类植物的木质花槽，中部为橙棕色挡板，下方是桌面上的绿色甜品碗、餐具、白色小杯和右下角的毛绒玩偶。场景与透视连贯延伸至四边；局部被叠加的精灵星星、发光表情和甜品五官遮挡。替换时保留并整体替换全部摄影主体及环境。",
+      "background_type": "photo",
+      "label": "一张连续的竖幅近景摄影覆盖全画布：上方是带蕨类植物的木质花槽",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_fairy_stars",
+      "kind": "overlay",
+      "bbox": [
+        253,
+        69,
+        612,
+        677
+      ],
+      "description": "左上方薄荷色翅膀的卡通小精灵与向下延伸至甜品上方的黄色星星轨迹，作为一组独立贴纸设计保留；部分星星叠在木质挡板和甜品摄影画面上。",
+      "label": "左上方薄荷色翅膀的卡通小精灵与向下延伸至甜品上方的黄色星星轨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dessert_face",
+      "kind": "overlay",
+      "bbox": [
+        339,
+        950,
+        515,
+        1064
+      ],
+      "description": "叠在绿色甜品正面的卡通五官，由两个白底棕色瞳孔的圆眼和红色椭圆鼻子组成，作为一组独立固定图形保留。",
+      "label": "叠在绿色甜品正面的卡通五官，由两个白底棕色瞳孔的圆眼和红色椭",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glowing_emoticon",
+      "kind": "overlay",
+      "bbox": [
+        818,
+        376,
+        1009,
+        426
+      ],
+      "description": "木质挡板右上区域的黄色点状发光表情符号，含左右弯曲符号、短横线和中心点缀，保留其原有像素灯效果与整体字形造型。",
+      "label": "木质挡板右上区域的黄色点状发光表情符号，含左右弯曲符号、短横",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_fairy_stars",
+    "overlay_glowing_emoticon",
+    "overlay_dessert_face"
+  ]
+}

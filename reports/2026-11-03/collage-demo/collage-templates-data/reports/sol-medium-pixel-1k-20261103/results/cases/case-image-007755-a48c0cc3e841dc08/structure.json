@@ -1,0 +1,114 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "cosmic_base",
+    "description": "深灰黑色星空与闪耀光点构成连续的全画布装饰底图，沿四边及照片之间均可见；保留星点和光效，不将其并入人物照片。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        43,
+        258,
+        290,
+        596
+      ],
+      "description": "左侧倾斜小幅女性近景照片，人物正面朝向镜头，双手靠近脸部；照片窗口内保留明亮摄影背景，局部被中央人物及装饰遮挡。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        748,
+        211,
+        1036,
+        601
+      ],
+      "description": "右侧女性近景照片，人物正面朝向镜头，头部略偏，照片内可见明亮背景；窗口部分被中央人物和星形装饰遮挡。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        181,
+        111,
+        890,
+        1080
+      ],
+      "description": "中央女性大幅人像，单人近景至上半身，正面看向镜头，双手举在脸侧并持有垂落的珍珠饰链；主体覆盖两侧照片局部并延伸至画布下缘，摄影背景未见明确连续边界，周围星空仍可见。"
+    },
+    {
+      "id": "overlay_border",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        26,
+        1057,
+        1056
+      ],
+      "description": "沿画面四周的大型白色圆角矩形线框，顶部、左右及底部边缘均可见，部分被亮光和中央人像遮挡。"
+    },
+    {
+      "id": "overlay_left_ui",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        181,
+        291,
+        649
+      ],
+      "description": "与左侧倾斜照片配套的白色社交媒体界面条及其图标，包含上方带小字的横条和下方主页、搜索等图标条；固定界面设计整体保留，部分被中央人像遮挡。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "散布在画面各处的固定白色星形、蝴蝶结状亮片和闪光装饰，包含较大的边缘星形及顶部、右侧和底部亮片；不包含星空底图中的细小摄影光点。"
+    },
+    {
+      "id": "overlay_melody",
+      "kind": "overlay",
+      "bbox": [
+        336,
+        145,
+        607,
+        221
+      ],
+      "description": "中央人物头发上方的白色手写风装饰字样“melody”，带音符及小弧线点缀，作为一个完整艺术字单元保留。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        82,
+        701,
+        633,
+        734
+      ],
+      "text": "Summer is warm and colorful, and so am I.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "overlay_left_ui",
+    "photo_main",
+    "overlay_border",
+    "overlay_stars",
+    "overlay_melody",
+    "text_caption"
+  ]
+}

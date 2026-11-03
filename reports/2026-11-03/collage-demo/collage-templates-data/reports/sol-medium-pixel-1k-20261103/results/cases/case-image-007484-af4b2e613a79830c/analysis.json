@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "background_stars",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "浅蓝色底上均匀散布白色五角星，连续延伸至画布四边，并在人物插画、对话气泡和照片周围露出。保留全画布星星图案及底色，独立插画、气泡和照片不并入底图。",
+      "background_type": "reference_clean",
+      "label": "浅蓝色底上均匀散布白色五角星，连续延伸至画布四边，并在人物插",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_bubble_left",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        165,
+        422,
+        295
+      ],
+      "description": "左上白色圆角对话气泡，下侧带短尖尾，内部为深灰色韩文手写字，可辨内容为“네가 제일 좋아”，右端部分被人物头发遮挡。气泡轮廓与内部字样作为完整固定设计保留。",
+      "label": "左上白色圆角对话气泡，下侧带短尖尾，内部为深灰色韩文手写字，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble_top",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        15,
+        1073,
+        147
+      ],
+      "description": "右上横向白色圆角对话气泡，右下带尖尾，内部深灰色韩文手写字为“나의 우상 천하제일”。字形与气泡共同构成固定装饰，整体保留。",
+      "label": "右上横向白色圆角对话气泡，右下带尖尾，内部深灰色韩文手写字为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cartoon",
+      "kind": "overlay",
+      "bbox": [
+        231,
+        124,
+        947,
+        1076
+      ],
+      "description": "大型双马尾女孩插画，深棕头发、齐刘海、闭眼表情、粉橙色面颊与手臂，穿灰色线条勾勒的白色衣服。完整保留两侧马尾、浅蓝色发蝴蝶结、左侧心形点缀、衣服下部蝴蝶结、白色“YOUNG”字样及底部蓝色小段。头发遮挡左侧气泡，圆形照片压住脸部下方及胸前，握持的手臂从照片下方露出。",
+      "label": "大型双马尾女孩插画，深棕头发、齐刘海、闭眼表情、粉橙色面颊与",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        259,
+        521,
+        667,
+        896
+      ],
+      "description": "一名黑发年轻男子的近景照片，身穿深蓝色衣服，低头看向左下，一只手抬至头后，耳饰与腕部饰品可见。保留男子及身后浅色百叶窗等摄影环境，整体显示于近圆形窗口内，没有沿人物轮廓去背景。窗口周边有连续浅蓝色描边，描边依附照片边界；照片覆盖女孩插画的下半张脸与胸前区域。",
+      "label": "一名黑发年轻男子的近景照片，身穿深蓝色衣服，低头看向左下，一",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "background_stars",
+    "overlay_bubble_left",
+    "overlay_bubble_top",
+    "overlay_cartoon",
+    "photo_portrait"
+  ]
+}

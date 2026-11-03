@@ -1,0 +1,333 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_tan",
+    "description": "全画布连续的暖米棕色底图，上部较浅、下部逐渐偏深，四边及照片间隙均露出相同的柔和色彩变化。保留原有渐变外观，独立照片、标签和装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_room_card",
+      "kind": "photo",
+      "bbox": [
+        29,
+        282,
+        654,
+        1116
+      ],
+      "description": "竖向室内照片，一只涂浅绿色指甲的手在前景举着黑色拍立得说明卡，后方有床铺、窗帘和右侧电视。卡上的印字与图案属于实拍内容。保留完整摄影环境，矩形窗口上部被文字标签及小相纸遮挡，右下部分被双人照片遮挡。"
+    },
+    {
+      "id": "frame_lake",
+      "kind": "frame",
+      "bbox": [
+        501,
+        178,
+        738,
+        462
+      ],
+      "description": "浅白色拍立得相纸，四周有实体纸边，下方留白明显宽于上方，保留纸面细微色差。只有一个湖畔照片内口。",
+      "photo_id": [
+        "photo_lake"
+      ]
+    },
+    {
+      "id": "photo_lake",
+      "kind": "photo",
+      "bbox": [
+        516,
+        203,
+        725,
+        414
+      ],
+      "description": "湖畔人物照片，一位戴眼镜、穿白色上衣的长发女性位于中下部，一手抬至脸旁，另一手放在腰侧。身后为暮色或晨光下的湖面、远岸树影及天空，完整保留摄影环境，显示在相纸的单个矩形内口中。"
+    },
+    {
+      "id": "photo_eating",
+      "kind": "photo",
+      "bbox": [
+        654,
+        317,
+        1075,
+        934
+      ],
+      "description": "一位戴眼镜的长发女性上半身近景，穿星星图案浅色睡衣，嘴边夹着绿色蔬菜，白色筷子从右侧伸入，右下保留餐盘及盘内食物。沿头发和肩部轮廓去除摄影背景，人物、筷子与餐盘作为完整主体组合；左侧和底部仍呈窗口裁切边界。"
+    },
+    {
+      "id": "photo_two_women",
+      "kind": "photo",
+      "bbox": [
+        343,
+        925,
+        569,
+        1304
+      ],
+      "description": "两位年轻长发女性靠在一起的近景主体组合，左侧女性举手比手势，右侧女性张嘴微笑并在前方比手势，身前保留衣物与浅蓝色织物。沿人物组合外轮廓去除背景，下部显示范围被左下室内照片遮挡，右下边缘仍可见。"
+    },
+    {
+      "id": "photo_lobby",
+      "kind": "photo",
+      "bbox": [
+        70,
+        1132,
+        456,
+        1647
+      ],
+      "description": "竖向广角自拍照片，两位长发女性位于前景，右侧女性伸出手臂自拍，左侧女性低头看手机并拿着帽子。身后保留酒店休息区的沙发、桌椅、窗户及远处其他人物，矩形完整摄影窗口上方叠有两枚白色文字标签。"
+    },
+    {
+      "id": "photo_hotel_night",
+      "kind": "photo",
+      "bbox": [
+        575,
+        947,
+        998,
+        1507
+      ],
+      "description": "略有倾斜的竖向夜景照片，一位女性站在酒店入口前的道路上，一手举起、另一手持手机，人物全身位于下半部。保留夜空、建筑立面、入口灯光及地面，楼体上的HOTEL字样属于摄影内容。矩形窗口局部被幽灵贴纸、文字标签和荷花遮挡。"
+    },
+    {
+      "id": "overlay_caption_dawn_1",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        299,
+        382,
+        342
+      ],
+      "description": "白色矩形文字标签，黑字为“小灵灵说刷到西湖有朝霞”。白底与印字作为完整固定标签保留，叠在左侧室内照片上。"
+    },
+    {
+      "id": "overlay_caption_dawn_2",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        349,
+        419,
+        391
+      ],
+      "description": "白色矩形文字标签，黑字为“那好哇！反正我们也好晚才眠的”。保留整块白底及印字。"
+    },
+    {
+      "id": "overlay_caption_dawn_3",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        399,
+        487,
+        442
+      ],
+      "description": "横向白色矩形文字标签，黑字为“天没亮 世界也没进入轨道 西湖却有很多人”。作为独立标签完整保留。"
+    },
+    {
+      "id": "overlay_caption_breakfast_1",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        200,
+        1038,
+        239
+      ],
+      "description": "右上白色矩形文字标签，黑字为“熬穿了那叫一个油光满面”，白底及印字整体保留。"
+    },
+    {
+      "id": "overlay_caption_breakfast_2",
+      "kind": "overlay",
+      "bbox": [
+        757,
+        248,
+        1068,
+        289
+      ],
+      "description": "右上第二枚白色矩形文字标签，黑字为“坚持吃了早餐再睡的小宝宝呀”，作为完整固定标签保留。"
+    },
+    {
+      "id": "overlay_lettuce",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        537,
+        652,
+        608
+      ],
+      "description": "独立绿色生菜叶图案贴纸，带浅色叶梗和柔和边缘阴影，叠在左侧照片的电视附近，不属于摄影内容。"
+    },
+    {
+      "id": "overlay_bowl",
+      "kind": "overlay",
+      "bbox": [
+        667,
+        509,
+        718,
+        565
+      ],
+      "description": "独立蓝色小碗与灰色勺子组合贴纸，勺柄向上倾斜，完整保留立体明暗和边缘。"
+    },
+    {
+      "id": "text_waiting",
+      "kind": "text",
+      "bbox": [
+        280,
+        894,
+        602,
+        922
+      ],
+      "text": "等待的过程就和黑卡所说的一样",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_caption_afternoon_1",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        1176,
+        210,
+        1218
+      ],
+      "description": "白色矩形文字标签，黑字为“一觉醒来下午了”。标签向左越出室内自拍照片的边界，白底和文字整体保留。"
+    },
+    {
+      "id": "overlay_caption_afternoon_2",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        1227,
+        239,
+        1270
+      ],
+      "description": "白色矩形文字标签，黑字为“再次粗发！”，叠在左下室内自拍照片上。"
+    },
+    {
+      "id": "overlay_ghost",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        1063,
+        755,
+        1184
+      ],
+      "description": "白色圆形底板上的灰白吐舌幽灵表情贴纸，包含黑色眼睛、粉红舌头及柔和阴影，整枚贴纸叠在酒店夜景照片上。"
+    },
+    {
+      "id": "overlay_caption_departure",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        1273,
+        704,
+        1312
+      ],
+      "description": "白色小矩形标签，黑字“粗发”右侧带蓝色小飞机图案，文字、图案与底板作为一个完整单元保留。"
+    },
+    {
+      "id": "overlay_date_bar",
+      "kind": "overlay",
+      "bbox": [
+        516,
+        1521,
+        993,
+        1590
+      ],
+      "description": "横向白色圆角界面条，左侧圆形返回箭头、中央浅色圆角日期区及右侧三点按钮组成完整单元。中央印字分两行显示“7月29日”和“03:51”。下沿局部被大荷花遮挡，右端被另一荷花遮挡。"
+    },
+    {
+      "id": "overlay_lotus_left",
+      "kind": "overlay",
+      "bbox": [
+        532,
+        1366,
+        687,
+        1484
+      ],
+      "description": "独立粉色荷花贴纸，花瓣向两侧展开，下方有垂落花瓣，保留黄色花心、渐变明暗与外缘，跨在酒店夜景照片左侧边界。"
+    },
+    {
+      "id": "overlay_lotus_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        889,
+        1306,
+        1049,
+        1434
+      ],
+      "description": "独立粉色荷花贴纸，中央黄色花心，外侧粉色花瓣围合，下方可见短小绿色部分，跨在酒店夜景照片右侧边缘。"
+    },
+    {
+      "id": "overlay_lotus_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        1430,
+        1009,
+        1590
+      ],
+      "description": "右下独立粉色荷花贴纸，宽展花瓣、黄色花心、下垂花瓣及右侧绿色花茎整体保留，同时覆盖酒店夜景照片下缘与白色日期条右端。"
+    },
+    {
+      "id": "overlay_lotus_bottom",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        1552,
+        675,
+        1742
+      ],
+      "description": "底部较大的独立粉色荷花贴纸，包含层叠花瓣、黄色花心、向下伸出的花瓣及右侧弯曲附属部分。完整保留立体明暗，覆盖左下自拍照片的右下角和日期条左下部。"
+    },
+    {
+      "id": "overlay_caption_bottom_1",
+      "kind": "overlay",
+      "bbox": [
+        728,
+        1609,
+        977,
+        1644
+      ],
+      "description": "底部第一枚白色矩形文字标签，黑字为“这个世界到处都是充电站呀”，白底和印字作为完整单元保留。"
+    },
+    {
+      "id": "overlay_caption_bottom_2",
+      "kind": "overlay",
+      "bbox": [
+        689,
+        1656,
+        1042,
+        1691
+      ],
+      "description": "底部第二枚白色矩形文字标签，黑字为“当天空破晓时 我们都要比昨天更幸福！”，完整保留白色底板及文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_room_card",
+    "frame_lake",
+    "photo_lake",
+    "photo_eating",
+    "photo_two_women",
+    "photo_lobby",
+    "photo_hotel_night",
+    "overlay_caption_dawn_1",
+    "overlay_caption_dawn_2",
+    "overlay_caption_dawn_3",
+    "overlay_caption_breakfast_1",
+    "overlay_caption_breakfast_2",
+    "overlay_lettuce",
+    "overlay_bowl",
+    "text_waiting",
+    "overlay_caption_afternoon_1",
+    "overlay_caption_afternoon_2",
+    "overlay_ghost",
+    "overlay_caption_departure",
+    "overlay_date_bar",
+    "overlay_lotus_left",
+    "overlay_lotus_upper_right",
+    "overlay_lotus_lower_right",
+    "overlay_lotus_bottom",
+    "overlay_caption_bottom_1",
+    "overlay_caption_bottom_2"
+  ]
+}

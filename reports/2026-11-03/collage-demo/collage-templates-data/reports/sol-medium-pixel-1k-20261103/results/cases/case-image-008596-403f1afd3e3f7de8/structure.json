@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_beige",
+    "description": "全画布为连续的浅灰米色固定底图，带柔和明暗变化及淡淡横向色带，四边和照片间隙均可见。保留底图原貌，独立照片、蝴蝶结、胶带及生日装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        345,
+        117,
+        771,
+        682
+      ],
+      "description": "右上竖向矩形照片，一名长发女子戴浅色生日帽坐在餐桌后，双手合拢靠近下巴、低头看向面前点燃蜡烛的白色蛋糕。保留吊灯、门窗、座椅、餐具和右侧香槟杯等完整室内摄影环境；上缘右侧被圆点胶带遮挡，照片无可见去背景或透明渐隐。"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        40,
+        760,
+        472,
+        1330
+      ],
+      "description": "左下竖向矩形蛋糕近景照片，无人物。白色蛋糕带珍珠状装饰、透明球饰、白色缎带及一根点燃的蜡烛，放在黑色方形底托上；保留桌面、玻璃杯、金属器皿和餐具环境。上部叠有两颗白心，下部左侧被独立蝴蝶结遮挡，摄影画面仍完整保留。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        70,
+        754,
+        174
+      ],
+      "description": "右上竖贴的乳白色半透明纸胶带，内部为大小略有差异的灰色圆点，纸边略不规则。跨过上方照片顶边，一部分落在米色底图上，作为完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_bow_top",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        264,
+        254,
+        346
+      ],
+      "description": "左上第一枚白色点阵蝴蝶结，包含左右环圈、中央结和两条下垂尾带，带柔和发光般的浅色边缘，整体保留。"
+    },
+    {
+      "id": "overlay_bow_middle",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        374,
+        254,
+        457
+      ],
+      "description": "左侧中间一枚白色点阵蝴蝶结，左右环圈与两条斜向下垂尾带组成完整装饰，与上下蝴蝶结之间有明显间隔。"
+    },
+    {
+      "id": "overlay_bow_bottom",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        485,
+        254,
+        569
+      ],
+      "description": "左侧第三枚白色点阵蝴蝶结，包含双环、中央结及下垂尾带，整体固定保留，不与上方两枚合并。"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        901,
+        223,
+        958
+      ],
+      "description": "下方蛋糕照片上叠加的一对白色心形贴纸，横向并排，表面带浅灰立体明暗，两个心形共同构成局部装饰，不属于蛋糕摄影内容。"
+    },
+    {
+      "id": "overlay_birthday",
+      "kind": "overlay",
+      "bbox": [
+        474,
+        832,
+        801,
+        1277
+      ],
+      "description": "右下完整生日装饰单元：规则分布的白色小圆点、微小的“LOVE”、错落手写体“Happy”和“Birthday”，以及下方带红色点缀和点燃蜡烛的小蛋糕图标与周围白色短射线。文字位置和笔画造型与图案共同构成设计，整体保留，空隙透出米色底图。"
+    },
+    {
+      "id": "overlay_bow_large",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        1273,
+        165,
+        1386
+      ],
+      "description": "左下较大的白色点阵蝴蝶结，双环和长尾带组成完整轮廓；上部压住蛋糕照片左下角，下垂尾带延伸到照片外的米色底图上。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "photo_cake",
+    "overlay_tape",
+    "overlay_bow_top",
+    "overlay_bow_middle",
+    "overlay_bow_bottom",
+    "overlay_hearts",
+    "overlay_birthday",
+    "overlay_bow_large"
+  ]
+}

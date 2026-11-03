@@ -1,0 +1,126 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的餐厅室内摄影画面覆盖整个画布，包含木质天花、墙面、沙发、餐桌、餐具和陈设，内容延伸至四条画布边缘。三张独立矩形美食照片及装饰覆盖局部；背景保留完整餐厅环境，画面中未见人物。"
+  },
+  "objects": [
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        125,
+        541,
+        518,
+        1063
+      ],
+      "description": "左侧竖向矩形美食照片，显示两杯带奶油和水果装饰的饮品、礼盒、毛绒玩偶、草莓及两张甜品卡片，保留照片内的木桌和餐厅局部环境；上方和右侧局部被其他元素遮挡。"
+    },
+    {
+      "id": "photo_top_food",
+      "kind": "photo",
+      "bbox": [
+        466,
+        86,
+        883,
+        642
+      ],
+      "description": "上方竖向矩形美食照片，显示桌面上的奶油汤锅、便携炉具、配菜、馒头和毛绒玩偶，保留照片内的墙面、桌面和完整摄影环境；左下区域与左侧照片相交。"
+    },
+    {
+      "id": "photo_bottom_food",
+      "kind": "photo",
+      "bbox": [
+        605,
+        808,
+        1000,
+        1308
+      ],
+      "description": "右下竖向矩形美食照片，显示砂锅、两盘肉类和蔬菜菜肴，保留照片内的木桌及墙面环境；上方部分被黑色夹子装饰遮挡。"
+    },
+    {
+      "id": "overlay_paperclip_left",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        456,
+        262,
+        650
+      ],
+      "description": "银色手绘质感的大号回形针，斜向跨在左侧照片上沿及餐厅背景之间，完整保留其轮廓、金属边缘和重叠关系。"
+    },
+    {
+      "id": "overlay_paperclip_top",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        58,
+        927,
+        215
+      ],
+      "description": "银色大号回形针斜向压在上方美食照片右上区域，并延伸到照片外的背景上，作为独立固定装饰保留完整轮廓。"
+    },
+    {
+      "id": "overlay_star_doodles",
+      "kind": "overlay",
+      "bbox": [
+        169,
+        601,
+        483,
+        1003
+      ],
+      "description": "覆盖左侧饮品照片的多枚白色手绘星形涂鸦，分布在饮品、礼盒和卡片周围，作为一组独立装饰保留各星形成员、描边和透明间隙。"
+    },
+    {
+      "id": "overlay_binder_clip",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        719,
+        954,
+        856
+      ],
+      "description": "黑色金属长尾夹装饰，横跨餐厅背景与右下美食照片上沿，完整保留夹体、金属臂和其对下方照片的遮挡。"
+    },
+    {
+      "id": "overlay_utensil_bubble",
+      "kind": "overlay",
+      "bbox": [
+        932,
+        662,
+        1042,
+        792
+      ],
+      "description": "右上方独立的白色像素风对话框贴纸，内部有勺子和叉子图标，下方带两个小圆点，整体作为固定装饰保留黑色描边和完整造型。"
+    },
+    {
+      "id": "text_meal_greeting",
+      "kind": "text",
+      "bbox": [
+        35,
+        1205,
+        496,
+        1240
+      ],
+      "text": "I hope you enjoy your meal",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": true
+    }
+  ],
+  "layer_order": [
+    "photo_drinks",
+    "photo_top_food",
+    "photo_bottom_food",
+    "overlay_paperclip_left",
+    "overlay_paperclip_top",
+    "overlay_star_doodles",
+    "overlay_binder_clip",
+    "overlay_utensil_bubble",
+    "text_meal_greeting"
+  ]
+}

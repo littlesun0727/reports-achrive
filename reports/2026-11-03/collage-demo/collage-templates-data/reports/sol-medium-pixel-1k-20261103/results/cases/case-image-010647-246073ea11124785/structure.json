@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的蓝色天空至橙色日落渐变摄影画面，带有散焦的深色热气球剪影及底部地平线，延伸至画布四边；三张清晰气球照片和涂鸦遮挡局部，底图环境整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        136,
+        130,
+        623,
+        499
+      ],
+      "description": "左上方横向热气球风景照片，多个气球漂浮在金色日落山峦上，保留照片内天空与地景。照片外侧环绕不规则白色手绘线条，依照片窗口边缘延伸。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        586,
+        531,
+        974,
+        1048
+      ],
+      "description": "右侧竖向峡谷照片，两侧岩壁围出远处山谷与蓝色暮色天空，数个热气球分布在画面中央，保留完整摄影环境。外侧有不规则白色手绘线条沿照片周围延伸，部分线段断开。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        112,
+        818,
+        496,
+        1330
+      ],
+      "description": "左下方竖向日落热气球照片，前景可见一名背向镜头的人物剪影及左侧设备轮廓，远处有大量气球、山地与低位夕阳。保留照片内摄影环境；照片外沿有不规则白色手绘线条，底部局部断开。"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        379,
+        35,
+        628,
+        96
+      ],
+      "description": "画面顶部横排的四枚白色手绘爱心，其中两枚带青绿色填色点缀，作为一组独立涂鸦装饰。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        133,
+        963,
+        420
+      ],
+      "description": "右上方青白色气泡涂鸦组合，包含圆泡、带高光的小泡、笑脸泡泡及小十字点缀；下方配有手写字样“① Bubble”，整体作为一组固定装饰保留。"
+    },
+    {
+      "id": "overlay_popsicle",
+      "kind": "overlay",
+      "bbox": [
+        172,
+        566,
+        253,
+        686
+      ],
+      "description": "左中部白色手绘冰棒图案，含棒体和短柄，作为独立涂鸦保留。"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        376,
+        589,
+        506,
+        711
+      ],
+      "description": "中部偏左的白色手绘太阳脸，圆形笑脸周围带有放射短线，作为完整独立涂鸦保留。"
+    },
+    {
+      "id": "overlay_blue_sea",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        736,
+        435,
+        772
+      ],
+      "description": "两张下方照片之间的横向装饰字样与符号组合，包含白色手写“Blue sea”、星形与海浪图案、泡泡和小装饰点，字形与图案共同构成固定贴饰。"
+    },
+    {
+      "id": "overlay_balloon_right",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        1015,
+        1037,
+        1165
+      ],
+      "description": "右下方白色手绘热气球线稿，内部有小爱心，包含完整气囊与吊篮，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_balloon_bottom",
+      "kind": "overlay",
+      "bbox": [
+        538,
+        1202,
+        647,
+        1390
+      ],
+      "description": "画面下部偏左的白色手绘热气球线稿，含纵向装饰线、吊篮及黄色星形点缀，作为完整独立装饰保留。"
+    },
+    {
+      "id": "overlay_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        1245,
+        179,
+        1381
+      ],
+      "description": "左下角附近的三枚青白色星形装饰，大小和颜色不同，作为一组分散的固定点缀保留。"
+    },
+    {
+      "id": "overlay_stars_center",
+      "kind": "overlay",
+      "bbox": [
+        667,
+        1117,
+        782,
+        1293
+      ],
+      "description": "下方中部的四枚白色空心星形涂鸦，大小各异并分散排列，作为一组装饰保留。"
+    },
+    {
+      "id": "overlay_stars_right",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        1172,
+        1067,
+        1378
+      ],
+      "description": "右下方的四枚白色空心星形涂鸦，包含大小不同的星形，作为一组装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_right",
+    "photo_lower",
+    "overlay_hearts",
+    "overlay_bubbles",
+    "overlay_popsicle",
+    "overlay_sun",
+    "overlay_blue_sea",
+    "overlay_balloon_right",
+    "overlay_balloon_bottom",
+    "overlay_stars_left",
+    "overlay_stars_center",
+    "overlay_stars_right"
+  ]
+}

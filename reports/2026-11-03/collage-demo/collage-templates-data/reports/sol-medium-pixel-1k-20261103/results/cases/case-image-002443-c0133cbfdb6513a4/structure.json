@@ -1,0 +1,107 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "overlay_blue_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        972
+      ],
+      "description": "覆盖画布上部的蓝灰色细密纹理底板，平直下缘位于约 y=972；作为局部固定设计保留，不延伸到下方照片区域。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        108,
+        106,
+        362,
+        361
+      ],
+      "description": "左上方方形照片，一只虎斑猫站在红色圆形物体上，身体朝左、转头面向镜头；保留浅色室内背景，矩形窗口裁切。"
+    },
+    {
+      "id": "photo_flower",
+      "kind": "photo",
+      "bbox": [
+        412,
+        106,
+        667,
+        361
+      ],
+      "description": "上方中央方形照片，蓝紫色绣球花位于画面中央，周围是深绿色叶片；保留完整摄影环境，矩形窗口裁切。"
+    },
+    {
+      "id": "photo_meal",
+      "kind": "photo",
+      "bbox": [
+        717,
+        106,
+        972,
+        361
+      ],
+      "description": "右上方方形照片，桌前人物的手臂、餐盘、米饭、饮料和木桌共同构成画面；人物上身被画面上缘裁切，保留摄影环境，矩形窗口裁切。"
+    },
+    {
+      "id": "photo_ferris_wheel",
+      "kind": "photo",
+      "bbox": [
+        0,
+        971,
+        1080,
+        1440
+      ],
+      "description": "下半部横向摄影画面，蓝天下的大型摩天轮横跨画面，彩色座舱沿轮缘分布；照片从画布左右边缘延伸至底边，上缘与蓝色纹理底板在 y≈971 处水平相接。"
+    },
+    {
+      "id": "overlay_clock",
+      "kind": "overlay",
+      "bbox": [
+        342,
+        780,
+        727,
+        1160
+      ],
+      "description": "跨越上部蓝色底板与下方摩天轮照片的白色时钟状线稿，由中央圆点、两根指针和周围短刻线组成；线稿覆盖两侧画面并压在照片与底板之上。"
+    },
+    {
+      "id": "overlay_poem",
+      "kind": "overlay",
+      "bbox": [
+        243,
+        430,
+        839,
+        709
+      ],
+      "description": "蓝色纹理底板上的四行白色细手写体诗句，保留原有字形、行距与居中排布：“Summer is the dissolving fizzy tablet” / “mixing with the sunset” / “and the sea of love” / “to hold up the entire sky”。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        1315,
+        934,
+        1353
+      ],
+      "description": "摩天轮照片上的一行白色手写大写字样“YOU WILL ALWAYS BE A FREE SUMMER”，字形疏朗，横向居中，作为固定文字设计保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_blue_panel",
+    "photo_cat",
+    "photo_flower",
+    "photo_meal",
+    "photo_ferris_wheel",
+    "overlay_clock",
+    "overlay_poem",
+    "overlay_caption"
+  ]
+}

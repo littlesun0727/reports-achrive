@@ -1,0 +1,174 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_gradient",
+    "description": "全画布连续的棕灰至浅米褐色纵向渐变底图，上部较深、下部较浅，四边及照片间隙均露出同一底色变化。保留渐变和细微边缘外观，独立照片、装饰及标题区域另列。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        28,
+        450,
+        498,
+        1077
+      ],
+      "description": "左侧竖向餐厅照片，一位长发女子坐在桌前，单手托脸，睁眼面向镜头，另一手臂横放桌上；前景有插蜡烛的人脸造型蛋糕，后方为藤编隔板、座椅及餐厅陈设。保留完整摄影环境，矩形显示，上缘被蝴蝶结飘带局部遮挡，照片上的蛋糕小图标和星星为独立装饰。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        521,
+        450,
+        992,
+        1077
+      ],
+      "description": "右侧独立竖向餐厅照片，同一长发女子坐在桌前，单手托脸，闭眼微笑，另一手臂放在桌面；前景有插蜡烛的人脸造型蛋糕，保留藤编隔板、座椅及周边餐厅环境。姿态与左图不同，属于独立照片窗口；矩形上缘被蝴蝶结飘带遮挡，酒杯及星星另列装饰。"
+    },
+    {
+      "id": "overlay_title_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1154,
+        1019,
+        1234
+      ],
+      "description": "横贯画布的半透明灰褐色矩形标题承托带，上下边缘平直，不承担照片窗口功能；标题文字独立排在其上。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        296,
+        264,
+        723,
+        567
+      ],
+      "description": "奶白色手绘丝带蝴蝶结，包含两侧环形结、中间结点与向左右下方弯曲的长飘带，内部留空透出下层。左右飘带分别越过两张照片的上沿，完整造型作为一个固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        298,
+        685,
+        330
+      ],
+      "description": "蝴蝶结右上方独立的奶白色五角星，略带倾斜与不规则尖角。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        438,
+        100,
+        472
+      ],
+      "description": "左侧照片上沿附近的独立奶白色五角星，跨在照片与渐变底图之间。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        965,
+        578,
+        1002,
+        615
+      ],
+      "description": "右侧照片右边缘的独立奶白色五角星，部分覆盖照片，部分伸入底图。"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        481,
+        756,
+        516,
+        792
+      ],
+      "description": "两张照片中间偏左的独立奶白色五角星，覆盖左侧照片右缘并伸入两图间隙。"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        1057,
+        168,
+        1095
+      ],
+      "description": "左侧照片下缘的独立奶白色五角星，跨越照片底边。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        874,
+        1096,
+        910,
+        1130
+      ],
+      "description": "右侧照片下方、标题带上方的独立奶白色五角星。"
+    },
+    {
+      "id": "overlay_cake_icon",
+      "kind": "overlay",
+      "bbox": [
+        330,
+        612,
+        383,
+        671
+      ],
+      "description": "叠在左侧照片藤编隔板上的小型生日蛋糕图标，白色圆形蛋糕、红色点缀及三支点燃蜡烛构成完整贴纸；不是桌上实拍蛋糕的一部分。"
+    },
+    {
+      "id": "overlay_glasses_icon",
+      "kind": "overlay",
+      "bbox": [
+        805,
+        614,
+        854,
+        671
+      ],
+      "description": "叠在右侧照片藤编隔板上的碰杯图标，两只装有金黄色酒液的细脚香槟杯相向倾斜，作为一个完整固定装饰保留。"
+    },
+    {
+      "id": "text_birthday",
+      "kind": "text",
+      "bbox": [
+        338,
+        1166,
+        682,
+        1217
+      ],
+      "text": "Happy birthday",
+      "color": "#FFF9EC",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "overlay_title_band",
+    "overlay_bow",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_right",
+    "overlay_star_middle",
+    "overlay_star_bottom_left",
+    "overlay_star_bottom_right",
+    "overlay_cake_icon",
+    "overlay_glasses_icon",
+    "text_birthday"
+  ]
+}

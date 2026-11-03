@@ -1,0 +1,253 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "painted_wash",
+    "description": "浅色纸白边缘与中央薄荷绿、青绿色水彩晕染构成连续的全画布纹理底图；纹理延伸至四边，照片、树和底部绿色地面板覆盖局部，保留其余底图原样。"
+  },
+  "objects": [
+    {
+      "id": "ground_panel",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        1178,
+        1080,
+        1440
+      ],
+      "description": "画面底部独立的横向绿色水彩地面板，带深浅斑驳纹理，左上边缘从画布内部开始，右侧和下侧延伸出画布。"
+    },
+    {
+      "id": "tree",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        193,
+        903,
+        1366
+      ],
+      "description": "中央大型裸枝树的完整剪影，棕灰树干与分叉枝条带细绿色描边，从画面中部延伸至底部地面；根部落在地面板上，枝干与局部照片、花朵及装饰相交，作为一个固定设计单元保留。"
+    },
+    {
+      "id": "photo_wings",
+      "kind": "photo",
+      "bbox": [
+        240,
+        90,
+        471,
+        224
+      ],
+      "description": "上方偏左的横向照片，窗边或玻璃前有一对浅色翅膀形物件及室外绿植反光；保留完整矩形摄影画面，照片下方有棕色细线向下延伸。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        634,
+        46,
+        884,
+        294
+      ],
+      "description": "右上方竖向近景自拍，一名年轻女性倚靠浅色毛绒玩具，面朝镜头，头部和手部清晰可见；保留室内环境及矩形照片范围。"
+    },
+    {
+      "id": "photo_baking",
+      "kind": "photo",
+      "bbox": [
+        34,
+        275,
+        211,
+        452
+      ],
+      "description": "左上方小幅竖向室内照片，一名女性坐在沙发旁看向摆有糕点的托盘，人物与周围家具共同保留在矩形摄影画面中。"
+    },
+    {
+      "id": "photo_lamp",
+      "kind": "photo",
+      "bbox": [
+        855,
+        428,
+        1032,
+        605
+      ],
+      "description": "右侧横向室内照片，画面中央偏左是一盏细杆落地灯，右侧可见窗框；保留完整矩形摄影环境。"
+    },
+    {
+      "id": "photo_round_object",
+      "kind": "photo",
+      "bbox": [
+        267,
+        597,
+        397,
+        727
+      ],
+      "description": "画面中部偏左的近方形照片，主体为带红褐色圆形图案的浅色圆盘状物件，背景含深色表面与浅色布料；保留完整照片范围。"
+    },
+    {
+      "id": "photo_wall_lamp",
+      "kind": "photo",
+      "bbox": [
+        117,
+        804,
+        337,
+        1023
+      ],
+      "description": "左下方近方形照片，展示粗糙深色墙面上的灯具及右下角植物；保留完整摄影环境与矩形裁切范围。"
+    },
+    {
+      "id": "flower_white",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        319,
+        579,
+        505
+      ],
+      "description": "树枝交汇处左侧的白色百合花贴图，含黄色花蕊、淡色星形点缀和周围蓝色圆点，整体作为独立花朵装饰保留。"
+    },
+    {
+      "id": "flower_pink",
+      "kind": "overlay",
+      "bbox": [
+        687,
+        612,
+        855,
+        770
+      ],
+      "description": "树枝右侧的粉色百合花贴图，含花瓣纹理与浅色描绘，独立叠在枝条前方。"
+    },
+    {
+      "id": "butterfly",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        226,
+        1017,
+        345
+      ],
+      "description": "右上区域的绿色蝴蝶贴图，翅膀带黑色韩文和星形图案，文字与翅膀图案属于同一装饰单元。"
+    },
+    {
+      "id": "doodle_photo_baking",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        259,
+        196,
+        306
+      ],
+      "description": "左上烘焙照片上方的白色手绘椭圆环涂鸦，作为独立线条装饰保留。"
+    },
+    {
+      "id": "doodle_photo_portrait",
+      "kind": "overlay",
+      "bbox": [
+        606,
+        253,
+        703,
+        301
+      ],
+      "description": "右上人像照片下缘附近的白色手绘双环涂鸦，完整保留线条形状。"
+    },
+    {
+      "id": "doodle_photo_round",
+      "kind": "overlay",
+      "bbox": [
+        263,
+        621,
+        412,
+        694
+      ],
+      "description": "圆盘照片上横跨的白色细线、星形点缀及小圆点组成一组手绘装饰，整体独立保留。"
+    },
+    {
+      "id": "doodle_photo_wall_lamp",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        790,
+        369,
+        984
+      ],
+      "description": "左下灯具照片周围的绿色白点蝴蝶结及照片内横向白色弧线、星形点缀组成的装饰；蝴蝶结压在照片左上侧，整体作为固定装饰单元保留。"
+    },
+    {
+      "id": "doodle_tree_base",
+      "kind": "overlay",
+      "bbox": [
+        366,
+        1198,
+        752,
+        1413
+      ],
+      "description": "树根周围的多层白色手绘椭圆环，配有黄色星形、绿色星形和粉色星形点缀，整体围绕树根与地面板叠放。"
+    },
+    {
+      "id": "text_left_title",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        475,
+        252,
+        675
+      ],
+      "description": "左侧白色手写艺术字分三行排列：THE、Melody、of Summer，字形与笔画具有手绘造型，作为整体装饰保留。"
+    },
+    {
+      "id": "text_right_quote",
+      "kind": "overlay",
+      "bbox": [
+        601,
+        348,
+        830,
+        584
+      ],
+      "description": "树枝右侧的白色手写法文分四行排列，内容为“L'été, c'est / le temps / de l'innocence et / de l'oubli...” ，保留原有手写字形与行间布局。"
+    },
+    {
+      "id": "text_ground_left",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        1282,
+        365,
+        1344
+      ],
+      "description": "底部绿色地面板左侧的白色手写字样“In summer.”，作为独立艺术字装饰保留。"
+    },
+    {
+      "id": "text_ground_right",
+      "kind": "overlay",
+      "bbox": [
+        797,
+        1296,
+        1036,
+        1370
+      ],
+      "description": "底部绿色地面板右侧的大型白色手写字样“Shadow”，作为独立艺术字装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "ground_panel",
+    "tree",
+    "photo_wings",
+    "photo_baking",
+    "photo_portrait",
+    "photo_lamp",
+    "photo_round_object",
+    "photo_wall_lamp",
+    "flower_white",
+    "flower_pink",
+    "butterfly",
+    "doodle_photo_baking",
+    "doodle_photo_portrait",
+    "doodle_photo_round",
+    "doodle_photo_wall_lamp",
+    "doodle_tree_base",
+    "text_left_title",
+    "text_right_quote",
+    "text_ground_left",
+    "text_ground_right"
+  ]
+}

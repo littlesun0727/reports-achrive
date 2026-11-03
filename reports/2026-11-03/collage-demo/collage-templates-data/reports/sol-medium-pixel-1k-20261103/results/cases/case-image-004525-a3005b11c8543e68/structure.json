@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        562,
+        370
+      ],
+      "description": "上方横向摄影画面：一位扎深色马尾、穿浅色露肩上衣的女性以半身侧面朝右，双手托着白色蛋糕底板，蛋糕上有一支燃烧的蜡烛。保留人物、蛋糕、台面、左侧陈列柜及后方暗色室内环境；照片左右及上沿到达画布边缘，下沿止于中央设计面板，未见沿主体去背景或透明渐隐。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        657,
+        562,
+        1000
+      ],
+      "description": "下方独立餐桌近景照片：中央白色花瓣状装饰蛋糕切出一块缺口，蛋糕上有多支点燃的小蜡烛；左右前景各有玻璃烛台和高蜡烛，左后方为浅色包装花束，右侧有白花与容器，后方可见椅背。完整保留桌面及摄影环境，显示窗口延伸至画布左右和底边；与上方照片取景不连续，无去背景或透明渐隐。"
+    },
+    {
+      "id": "overlay_birthday_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        370,
+        562,
+        657
+      ],
+      "description": "横贯画布中央的浅奶油色矩形设计面板，内部为黑色两行英文艺术字“Happy Birthday”，带夸张连笔、长弧线与下方回环，另有右上和左下两枚细线星形点缀。文字具有特定笔画造型与错落位置，连同面板及星形作为一个完整固定设计单元保留，不拆为普通文字；不承担照片窗口功能。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_birthday_panel"
+  ]
+}

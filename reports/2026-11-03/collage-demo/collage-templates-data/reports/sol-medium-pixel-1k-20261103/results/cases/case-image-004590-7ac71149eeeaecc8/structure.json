@@ -1,0 +1,98 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_road",
+      "kind": "photo",
+      "bbox": [
+        0,
+        570,
+        1080,
+        1440
+      ],
+      "description": "画面下部的街道路面照片，包含灰色粗糙路面、黄色道路标线及左侧路缘；完整显示区域延伸至画布左右边缘和底边，上缘被浅色纸面与前景人物遮挡。"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        690
+      ],
+      "description": "覆盖画面上部的浅米色颗粒纹理纸面，底缘不规则地与下方道路照片交界，并散布黑色印刷状字符和点阵图案；保留纸面材质及其图案。"
+    },
+    {
+      "id": "overlay_glyph_collage",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        75,
+        1080,
+        1385
+      ],
+      "description": "围绕中央人物散布的黑色字符、点阵与浅色撕纸状块面构成的完整拼贴装饰；部分字符延伸至画面上方和右侧，人物遮挡其局部，整体作为固定图形保留。"
+    },
+    {
+      "id": "photo_main_figure",
+      "kind": "photo",
+      "bbox": [
+        205,
+        225,
+        975,
+        1335
+      ],
+      "description": "单人全身动态奔跑姿态，女性面向画面右侧，卷发向左扬起，穿蓝色上衣、深色百褶裙、浅色袜子和红棕色鞋，手持小杯。人物沿完整外轮廓独立显示，去除摄影环境，覆盖字符拼贴及下方道路。"
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        53,
+        67,
+        404,
+        489
+      ],
+      "description": "左上方倾斜小照片中的同一女性全身奔跑，保留照片内灰色路面和黄色标线等摄影环境；照片由白色纸卡承载，边缘被卡框遮住。"
+    },
+    {
+      "id": "frame_inset",
+      "kind": "frame",
+      "bbox": [
+        18,
+        48,
+        420,
+        508
+      ],
+      "description": "左上方倾斜的浅色纸卡相框，带细窄白边、淡灰边缘和投影，承载单张人物照片；完整卡片轮廓及其边缘细节保留。",
+      "photo_id": [
+        "photo_inset"
+      ]
+    },
+    {
+      "id": "overlay_star_sticker",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        1185,
+        204,
+        1255
+      ],
+      "description": "道路左下区域上的绿色小贴纸，带红色五角星图案，作为一个完整独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_road",
+    "overlay_paper",
+    "overlay_glyph_collage",
+    "photo_inset",
+    "frame_inset",
+    "photo_main_figure",
+    "overlay_star_sticker"
+  ]
+}

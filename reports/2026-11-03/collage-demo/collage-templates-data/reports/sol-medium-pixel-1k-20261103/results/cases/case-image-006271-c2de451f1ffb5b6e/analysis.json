@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "连续的竖幅夜间隧道驾驶摄影画面覆盖整个画布，包含昏暗的隧道结构、车道、灯光和前后方车辆；摄影环境从四边延伸至画布边缘，右上方的半透明音乐卡片遮挡局部，但不改变底图的全画布范围。",
+      "background_type": "photo",
+      "label": "连续的竖幅夜间隧道驾驶摄影画面覆盖整个画布，包含昏暗的隧道结",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_music_card",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        139,
+        1039,
+        660
+      ],
+      "description": "右上方独立的圆角半透明深灰色音乐播放卡片，包含白色歌曲歌词、歌曲名、艺人名、Apple Music标识及分隔区域；文字与卡片上的界面排版作为固定设计整体保留，卡片遮挡下方隧道摄影画面。",
+      "label": "右上方独立的圆角半透明深灰色音乐播放卡片，包含白色歌曲歌词、",
+      "method": "extract"
+    },
+    {
+      "id": "photo_album_art",
+      "kind": "photo",
+      "bbox": [
+        418,
+        508,
+        533,
+        625
+      ],
+      "description": "音乐卡片左下区域的独立方形专辑封面照片，显示雾白色调的树林、竖直树干和远处小人物，完整显示在圆角照片窗口内；圆角边缘属于该照片窗口效果，照片内容可独立替换。",
+      "label": "音乐卡片左下区域的独立方形专辑封面照片，显示雾白色调的树林、",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_music_card",
+    "photo_album_art"
+  ]
+}

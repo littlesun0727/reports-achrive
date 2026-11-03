@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布连续的动物园摄影画面：一只黑熊位于中下部，侧身朝右直立在岩石间；周围包含岩壁、树干、绿树、蓝天及玻璃反光，右侧有大片深色树干或反射遮挡。摄影环境延伸至画布四边，上方局部被另一张照片覆盖，下方被文字贴纸和星形装饰覆盖；主体与完整摄影环境一起替换。",
+      "background_type": "photo",
+      "label": "全画布连续的动物园摄影画面：一只黑熊位于中下部，侧身朝右直立",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        34,
+        152,
+        577,
+        515
+      ],
+      "description": "左上方独立横向照片，一只黑熊四足站在浅色岩石上，身体朝右，头部朝向镜头附近；保留身后的树干、绿树、岩壁及右下方洞口等摄影环境。照片为完整矩形显示区域，与底图中的黑熊姿态及取景不连续，四周没有独立固定框体。",
+      "label": "左上方独立横向照片，一只黑熊四足站在浅色岩石上，身体朝右，头",
+      "method": "local"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        442,
+        1005,
+        1004,
+        1292
+      ],
+      "description": "右下方斜向上扬的白色不规则长条文字贴纸，包含黑色手绘内轮廓、白色外沿及随轮廓弯曲排列的手写字样“全红山最给面子的熊！”。文字、纸形底板和轮廓作为完整固定设计保留，覆盖底图中的岩石。",
+      "label": "右下方斜向上扬的白色不规则长条文字贴纸，包含黑色手绘内轮廓、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        1220,
+        328,
+        1294
+      ],
+      "description": "下方偏左的较大手绘五角星装饰，黑色内部配不规则白色轮廓，略有倾斜，独立叠加在岩石摄影画面上。",
+      "label": "下方偏左的较大手绘五角星装饰，黑色内部配不规则白色轮廓，略有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        348,
+        1269,
+        402,
+        1331
+      ],
+      "description": "较大星形右下方的一枚较小手绘五角星，黑色内部配白色轮廓，与左侧星形之间露出摄影内容，作为独立固定装饰保留。",
+      "label": "较大星形右下方的一枚较小手绘五角星，黑色内部配白色轮廓，与左",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_inset",
+    "overlay_caption",
+    "overlay_star_left",
+    "overlay_star_right"
+  ]
+}

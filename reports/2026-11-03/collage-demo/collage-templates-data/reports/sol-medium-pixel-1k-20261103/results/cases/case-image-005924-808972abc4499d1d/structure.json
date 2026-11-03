@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_gray",
+    "description": "全画布连续的灰色纹理底图，带不均匀的深浅变化、模糊纵向痕迹及右下方淡绿色区域；画布四边和照片间隙均露出同一底图。保留这些固定纹理与色彩变化，清除另列的照片、线框和装饰，不将摄影内容并入底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_square_chain",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        8,
+        509,
+        368
+      ],
+      "description": "左上方五个蓝色细线空心正方形，依次向右下方错落交叠，构成完整的阶梯式线框装饰；内部透明，整体保留线条和相互交叠关系，不承担照片窗口功能。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        333,
+        31,
+        414,
+        112
+      ],
+      "description": "画面上方独立的红色实心五角星，位于蓝色阶梯线框右上侧。"
+    },
+    {
+      "id": "photo_dessert_closeup",
+      "kind": "photo",
+      "bbox": [
+        74,
+        374,
+        481,
+        916
+      ],
+      "description": "左侧竖向甜点特写照片，无人物；上部是一颗带梗红樱桃，周围为白色奶油，下部是浅黄色甜点。完整矩形摄影窗口保留食物与摄影背景，四周亮黄色描边依附照片窗口；左中部被独立红星遮挡。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        524,
+        169,
+        1025,
+        671
+      ],
+      "description": "右上方近方形照片，一名黑色长发、齐刘海女子正面半身坐姿，双手捧浅绿色饮品靠近嘴边，目光看向画面左侧，穿彩色图案毛衣。保留身后的浅色砖墙、管线和右侧明亮区域；红色描边沿完整照片窗口分布，无沿人物轮廓去背景。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        549,
+        180,
+        632
+      ],
+      "description": "红色实心五角星叠加在左侧甜点照片中部偏左的白色奶油区域，是独立固定装饰，不属于食物摄影内容。"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        523,
+        684,
+        606,
+        765
+      ],
+      "description": "两张右侧照片之间的独立红色实心五角星，位于上方人物照片左下方、下方饮品照片左上方的灰色间隙内。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        908,
+        528,
+        1431
+      ],
+      "description": "左下方红色乐谱装饰，由大型高音谱号、多条向右上方斜升的谱线和沿线分布的音符组成，整体保留。左侧和下侧在画布边缘被截断，右上端接近并局部被右下照片左边缘遮挡。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        522,
+        780,
+        984,
+        1241
+      ],
+      "description": "右下方近方形桌面静物照片，无人物；前景左侧为一杯浅绿色饮品，后方右侧高脚玻璃碗中盛浅黄色甜点、白色奶油和红樱桃，下方有圆形托盘，背景可见椅子与室内环境。保留完整摄影场景，蓝色描边沿照片窗口分布，右下边缘被红星遮挡。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        940,
+        1118,
+        1023,
+        1203
+      ],
+      "description": "右下方独立红色实心五角星，跨越饮品照片右侧蓝色边缘，左部覆盖照片，右部伸入灰色底图。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1032,
+        1404,
+        1074,
+        1425
+      ],
+      "description": "右下角很小的浅灰色半透明圆角标记，包含低对比度小字，文字无法可靠辨认；作为完整固定标记保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_square_chain",
+    "overlay_star_top",
+    "overlay_music",
+    "photo_dessert_closeup",
+    "photo_woman",
+    "photo_drinks",
+    "overlay_star_left",
+    "overlay_star_middle",
+    "overlay_star_bottom",
+    "overlay_watermark"
+  ]
+}

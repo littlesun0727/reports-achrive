@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        812
+      ],
+      "description": "上半幅独立海边照片，一名戴毛绒护耳帽的女子闭眼微笑，穿白色长羽绒服、花纹毛衣和蓝色手套，双臂水平展开，胸前挂相机，下方露出牛仔裤。完整保留天空、海面、沙滩及左侧远处球形建筑；人物与环境共同替换。画面有淡白色虚化雪点，下缘被接缝处装饰局部遮挡，与下方照片姿态和取景不连续。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        812,
+        1080,
+        1621
+      ],
+      "description": "下半幅独立海边照片，同样装束的一名女子闭眼微笑，双臂斜向上举，蓝色手套接近照片上部，身体及相机延伸至画布下缘并被裁切。完整保留天空、海平线、浪花和湿沙滩，背景未沿人物轮廓去除；画面有淡白色虚化雪点。上部被白色粉雪装饰和云朵贴纸遮挡。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        27,
+        343,
+        277
+      ],
+      "description": "左上白色粉笔手写字样，分三行可辨为“烟台海边”“的浪漫”“听～”。字形大小、笔画和行间位置不规则，整体保留手写视觉形式，无独立底板。"
+    },
+    {
+      "id": "overlay_left_words",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        377,
+        347,
+        518
+      ],
+      "description": "上幅左侧白色粉笔手写文字装饰，上行可辨“海…的声音”，下方带小星号及拟声式字符。保留完整不规则笔画、符号和上下排布，不将不清晰字符另行编写。"
+    },
+    {
+      "id": "overlay_right_words",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        369,
+        1058,
+        620
+      ],
+      "description": "上幅右侧白色手写字样，可辨“很安静呢，”“风真的”“好大好大”，三行大小和间距不一，末行字词紧连。保留原有粉笔笔触及独立字词造型。"
+    },
+    {
+      "id": "overlay_top_snowflakes",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        98,
+        837,
+        246
+      ],
+      "description": "上幅人物头部右上方的一组白色雪花装饰，包含一枚较大的六角雪花及周围四枚小雪花，带颗粒状粉笔质感，整体作为局部图案保留。"
+    },
+    {
+      "id": "overlay_snow_sweep",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        795,
+        1080,
+        1010
+      ],
+      "description": "横跨两张照片接缝的白色粉雪喷刷装饰，从左边延伸至右边，呈起伏的宽带和散落颗粒，内部有透出照片的空隙。覆盖下幅天空及部分上举手套，也略伸入上幅下缘；不包含云朵贴纸和下方独立雪花图案。"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        789,
+        278,
+        978
+      ],
+      "description": "接缝左侧的白色卡通云朵贴纸，左边被画布裁切，带深灰手绘轮廓、两只眼睛、微笑、左右简笔小手和左下圆形线描物件。保留完整内部图案与边缘，覆盖接缝粉雪及下幅左手附近。"
+    },
+    {
+      "id": "overlay_bottom_left_snowflakes",
+      "kind": "overlay",
+      "bbox": [
+        326,
+        944,
+        485,
+        1105
+      ],
+      "description": "下幅人物左上方天空中的白色雪花小组，一枚大六角雪花及周边三枚小雪花，大小错落，带柔白颗粒笔触，与接缝粉雪带分开保留。"
+    },
+    {
+      "id": "overlay_bottom_right_snowflakes",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        1034,
+        960,
+        1170
+      ],
+      "description": "下幅人物右上方天空中的白色雪花小组，包含一枚较大六角雪花和上、下两枚小雪花，完整保留颗粒质感及组内间隙。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_title",
+    "overlay_left_words",
+    "overlay_right_words",
+    "overlay_top_snowflakes",
+    "overlay_bottom_left_snowflakes",
+    "overlay_bottom_right_snowflakes",
+    "overlay_snow_sweep",
+    "overlay_cloud"
+  ]
+}

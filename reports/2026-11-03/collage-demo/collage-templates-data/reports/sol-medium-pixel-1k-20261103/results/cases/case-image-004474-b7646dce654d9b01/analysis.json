@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "overlay_gray_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        655
+      ],
+      "description": "画布上部的深灰色矩形设计面板，横跨左右边缘，表面有轻微明暗变化，下沿与下方照片形成清晰水平接缝。仅保留这一区域，不将其扩展为全画布底图；标题另列。",
+      "label": "画布上部的深灰色矩形设计面板，横跨左右边缘，表面有轻微明暗变",
+      "method": "extract"
+    },
+    {
+      "id": "photo_puppy",
+      "kind": "photo",
+      "bbox": [
+        0,
+        655,
+        1080,
+        1440
+      ],
+      "description": "下部横跨画布的独立矩形照片：一只浅杏色卷毛小狗全身趴在户外灰色路面上，身体向左延伸，头在中右部朝向镜头，前爪向右下伸出。完整保留路面、阳光、树影及地面零星碎屑，摄影环境未去除，没有可见描边或透明渐隐。照片上沿为明确水平裁切边，左右及下沿抵达画布边缘。",
+      "label": "下部横跨画布的独立矩形照片：一只浅杏色卷毛小狗全身趴在户外灰",
+      "method": "local"
+    },
+    {
+      "id": "overlay_puppyhood",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        285,
+        753,
+        355
+      ],
+      "description": "灰色面板上方居中偏上的白色标题“Puppyhood”，单行衬线字带不规则打字机式笔画及磨损边缘。作为完整固定字样保留其特定字形，无独立底板。",
+      "label": "灰色面板上方居中偏上的白色标题“Puppyhood”，单行衬",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_gray_panel",
+    "photo_puppy",
+    "overlay_puppyhood"
+  ]
+}

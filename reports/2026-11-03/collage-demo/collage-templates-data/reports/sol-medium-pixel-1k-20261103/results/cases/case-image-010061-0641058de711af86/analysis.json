@@ -1,0 +1,190 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_stars",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "棕色底与散布全幅的白色空心星星构成固定背景，星星大小不同，部分带柔亮边缘，画布边缘也有被截断的星星。照片及贴纸之间露出的底色和星星图案连续一致；保留这套全画布设计，独立照片、文字和贴纸不归入底图。",
+      "background_type": "reference_clean",
+      "label": "棕色底与散布全幅的白色空心星星构成固定背景，星星大小不同，部",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        165,
+        308,
+        591,
+        702
+      ],
+      "description": "左上矩形照片，一位黑色长发女子穿浅蓝灰色针织上衣，半身略向前倾，脸转向左侧。保留庭院廊亭的柱子、木栏杆、吊灯、树木和石板地面。照片边缘略柔，右下部分被右侧照片及下方圆形照片遮挡，显示窗口不缩到人物范围。",
+      "label": "左上矩形照片，一位黑色长发女子穿浅蓝灰色针织上衣，半身略向前",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        572,
+        460,
+        879,
+        766
+      ],
+      "description": "右上近方形照片，一位扎发女子穿格纹衬衫和灰色内搭，半身朝左，右手抬到后脑。保留窗框、玻璃上的实拍字样及窗外树木建筑，摄影背景没有去除。左下角被圆形照片遮挡，右下边缘有黑色心形贴纸叠压。",
+      "label": "右上近方形照片，一位扎发女子穿格纹衬衫和灰色内搭，半身朝左，",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        288,
+        675,
+        638,
+        1025
+      ],
+      "description": "中央偏左的圆形照片，一位扎发女子穿浅蓝灰色开衫和白色内搭，坐在餐桌前，抬起一只手置于脑后，脸朝左。完整圆形窗口内保留浅色墙、木质靠背、餐桌和餐盘，不沿人物轮廓去背景。圆形上部覆盖两张上方照片，下方右侧被横向照片遮挡。",
+      "label": "中央偏左的圆形照片，一位扎发女子穿浅蓝灰色开衫和白色内搭，坐",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        520,
+        933,
+        925,
+        1179
+      ],
+      "description": "右下横向矩形照片，一位长发女子穿浅蓝灰色开衫，坐在餐厅内，头偏向右侧，伸出的手举着一瓶深色饮料。保留身后的座椅、餐桌、浅色砖墙和吊灯，饮料瓶属于摄影内容。照片上左角覆盖圆形照片的右下部分。",
+      "label": "右下横向矩形照片，一位长发女子穿浅蓝灰色开衫，坐在餐厅内，头",
+      "method": "local"
+    },
+    {
+      "id": "overlay_thought",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        235,
+        930,
+        489
+      ],
+      "description": "右上白色云朵状思考气泡，黑色细轮廓，内部及边缘带灰色网点，含黑色星星、加号和水滴图案。中央手写韩文为“기대하는 날.”，右侧另有加号。下方两枚逐渐缩小的白色思考小泡属于同一装饰，最小泡叠在右上照片边缘。",
+      "label": "右上白色云朵状思考气泡，黑色细轮廓，内部及边缘带灰色网点，含",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_face",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        755,
+        269,
+        905
+      ],
+      "description": "左侧黑白像素风表情气泡贴纸，包含粗黑阶梯状外轮廓、白色内部、两只竖向黑眼睛、粉色脸颊、上方两个短突起及右下方气泡尾巴，整体保留。",
+      "label": "左侧黑白像素风表情气泡贴纸，包含粗黑阶梯状外轮廓、白色内部、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_black_heart",
+      "kind": "overlay",
+      "bbox": [
+        863,
+        723,
+        944,
+        803
+      ],
+      "description": "黑色立体心形贴纸，带灰白高光、深色轮廓及下端尖角，独立叠压右上照片的右下边缘。",
+      "label": "黑色立体心形贴纸，带灰白高光、深色轮廓及下端尖角，独立叠压右",
+      "method": "extract"
+    },
+    {
+      "id": "text_wish",
+      "kind": "text",
+      "bbox": [
+        661,
+        858,
+        894,
+        925
+      ],
+      "description": "Have a good\nrest of your day",
+      "label": "Have a good\nrest of your day",
+      "method": "local",
+      "text": "Have a good\nrest of your day",
+      "text_status": "known",
+      "style": {
+        "fill": "#F6EFE4",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_peach_heart",
+      "kind": "overlay",
+      "bbox": [
+        833,
+        864,
+        862,
+        891
+      ],
+      "description": "祝福文字第一行右侧的桃粉色小爱心，轮廓略不规则，内部带浅色颗粒质感，作为独立装饰保留。",
+      "label": "祝福文字第一行右侧的桃粉色小爱心，轮廓略不规则，内部带浅色颗",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        408,
+        1206,
+        699,
+        1425
+      ],
+      "description": "底部中央的白色粉笔涂鸦猫头贴纸，包含两只尖耳、黑灰色轮廓、圆眼睛、小嘴及左右胡须，白色涂抹和外围毛糙颗粒边缘共同保留，不拆分内部笔画。",
+      "label": "底部中央的白色粉笔涂鸦猫头贴纸，包含两只尖耳、黑灰色轮廓、圆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1412,
+        1074,
+        1435
+      ],
+      "description": "右下角低对比度的小型圆角胶囊水印，内含微小中文标记，疑似“小红书”；文字和圆角底板作为一个固定单元保留。",
+      "label": "右下角低对比度的小型圆角胶囊水印，内含微小中文标记，疑似“小",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_stars",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_circle",
+    "photo_lower_right",
+    "overlay_thought",
+    "overlay_pixel_face",
+    "overlay_black_heart",
+    "text_wish",
+    "overlay_peach_heart",
+    "overlay_cat",
+    "overlay_watermark"
+  ]
+}

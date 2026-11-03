@@ -1,0 +1,324 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "overlay_grid",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        582
+      ],
+      "description": "上半部浅粉色固定网格底板，带白色方格、细小点纹和斜向细线。右侧被大幅人物照片遮挡，下沿在约582像素处结束；不扩展为全画布底图。",
+      "label": "上半部浅粉色固定网格底板，带白色方格、细小点纹和斜向细线。右",
+      "method": "extract"
+    },
+    {
+      "id": "photo_toys",
+      "kind": "photo",
+      "bbox": [
+        0,
+        579,
+        1080,
+        1441
+      ],
+      "description": "下半部独立摄影画面，以灰白绒面、浅黄色软垫和毛绒玩具为主，右下有戴透明大眼镜的白色玩偶及粉色耳部。保留摄影环境，左侧及中右部被两张人物照片遮挡。上方与粉色网格存在水平接缝；与右上人物照片的连续性不足，不合并为全幅照片。",
+      "label": "下半部独立摄影画面，以灰白绒面、浅黄色软垫和毛绒玩具为主，右",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        286,
+        0,
+        516,
+        199
+      ],
+      "description": "顶部略倾斜的卡通蛋糕贴纸，白色奶油、浅黄色夹层、粉色笑脸和顶端红色装饰组成完整单元，顶部被画布裁切。",
+      "label": "顶部略倾斜的卡通蛋糕贴纸，白色奶油、浅黄色夹层、粉色笑脸和顶",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        151,
+        269,
+        419
+      ],
+      "description": "左上白色心形纸饰，外围有层叠褶皱花边和柔和阴影，心面带淡粉色小点缀，左缘被画布裁切。",
+      "label": "左上白色心形纸饰，外围有层叠褶皱花边和柔和阴影，心面带淡粉色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chocolate",
+      "kind": "overlay",
+      "bbox": [
+        255,
+        218,
+        456,
+        410
+      ],
+      "description": "倾斜的深棕色巧克力板贴纸，包含分块刻线、浅色小圆点、粉色心形及右下白色曲线点缀；右侧被人物照片遮挡。",
+      "label": "倾斜的深棕色巧克力板贴纸，包含分块刻线、浅色小圆点、粉色心形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_lower",
+      "kind": "overlay",
+      "bbox": [
+        152,
+        392,
+        451,
+        584
+      ],
+      "description": "粉色网格下部的白色心形纸饰，带波浪花边、层叠纸面和淡粉色心形点缀，下端在网格底板与下方摄影区域交界处被遮挡。",
+      "label": "粉色网格下部的白色心形纸饰，带波浪花边、层叠纸面和淡粉色心形",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        431,
+        0,
+        1080,
+        837
+      ],
+      "description": "右上大幅单人照片，长发双马尾女子正面看镜头，穿浅粉图案睡衣，一手拿手机，另一侧托着粉色小蛋糕；保留窗帘、巨大蝴蝶结、彩色气球及床上环境。左侧呈弧形显示边界，顶部及右侧抵达画布边缘，下缘延至人物衣服附近并被下方照片及装饰遮挡；未见必须另拆出框前景的依据。",
+      "label": "右上大幅单人照片，长发双马尾女子正面看镜头，穿浅粉图案睡衣，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_birthday",
+      "kind": "overlay",
+      "bbox": [
+        479,
+        244,
+        754,
+        318
+      ],
+      "description": "白色圆角发光标签，内有浅灰蓝色斜体字“Happy Birthday”，淡黄色光晕与标签整体保留，位于右上照片左上区域。",
+      "label": "白色圆角发光标签，内有浅灰蓝色斜体字“Happy Birth",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_emoji",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        321,
+        679,
+        396
+      ],
+      "description": "白色圆角小标签及淡黄色光晕，内部横排黄色爱心、粉色蝴蝶结、小熊、花朵和棒棒糖图案，作为完整固定装饰保留。",
+      "label": "白色圆角小标签及淡黄色光晕，内部横排黄色爱心、粉色蝴蝶结、小",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        15,
+        654,
+        593,
+        1425
+      ],
+      "description": "左下竖向矩形单人全身坐姿照片，女子穿浅粉色图案睡衣盘腿坐在黄色床面上，一手举到头顶，另一手抱花束；保留窗帘、蝴蝶结、气球、玩偶和下方小蛋糕等摄影内容。窗口四周有细深棕色线条，描边依附整个矩形照片边界，与照片一并记录。",
+      "label": "左下竖向矩形单人全身坐姿照片，女子穿浅粉色图案睡衣盘腿坐在黄",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        658,
+        805,
+        1014,
+        1276
+      ],
+      "description": "右下倾斜椭圆窗口中的单人脸部近景，女子正面望向镜头，长发、头顶盘旋形发饰及浅蓝毛绒装饰均属于照片内容；窗口内仍保留少量周围摄影背景。完整椭圆边缘带细粉色描边，右上边缘被蝴蝶结贴纸遮挡。",
+      "label": "右下倾斜椭圆窗口中的单人脸部近景，女子正面望向镜头，长发、头",
+      "method": "local"
+    },
+    {
+      "id": "overlay_glowing_heart",
+      "kind": "overlay",
+      "bbox": [
+        431,
+        548,
+        727,
+        790
+      ],
+      "description": "中央白色发光手绘空心爱心，带柔和外光和向右下延伸的收笔线，跨越右上照片中的蛋糕及左下矩形照片上缘；不是照片轮廓描边。",
+      "label": "中央白色发光手绘空心爱心，带柔和外光和向右下延伸的收笔线，跨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        845,
+        1007,
+        957
+      ],
+      "description": "右下椭圆肖像右上角的粉色蝴蝶结贴纸，两翼布满白色圆点，中央有小圆结，外围白色描边，叠在照片边缘上。",
+      "label": "右下椭圆肖像右上角的粉色蝴蝶结贴纸，两翼布满白色圆点，中央有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_flower",
+      "kind": "overlay",
+      "bbox": [
+        134,
+        632,
+        180,
+        687
+      ],
+      "description": "左下矩形照片上沿附近的半透明粉色小花形点缀，覆盖照片上边及其上方灰色摄影区域。",
+      "label": "左下矩形照片上沿附近的半透明粉色小花形点缀，覆盖照片上边及其",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_center",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        833,
+        715,
+        855
+      ],
+      "description": "椭圆肖像左上方灰色区域上的独立淡粉色小爱心。",
+      "label": "椭圆肖像左上方灰色区域上的独立淡粉色小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        588,
+        989,
+        611,
+        1012
+      ],
+      "description": "左下矩形照片右缘外侧、椭圆肖像左侧的淡粉色小爱心。",
+      "label": "左下矩形照片右缘外侧、椭圆肖像左侧的淡粉色小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_bottom",
+      "kind": "overlay",
+      "bbox": [
+        588,
+        1299,
+        611,
+        1321
+      ],
+      "description": "左下矩形照片右缘外侧、靠近底部的淡粉色小爱心。",
+      "label": "左下矩形照片右缘外侧、靠近底部的淡粉色小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        293,
+        783,
+        320,
+        810
+      ],
+      "description": "叠在左下照片人物头顶附近的白色半透明五角星点缀。",
+      "label": "叠在左下照片人物头顶附近的白色半透明五角星点缀。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_balloon",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        909,
+        62,
+        934
+      ],
+      "description": "叠在左下照片黄色气球上的白色半透明五角星。",
+      "label": "叠在左下照片黄色气球上的白色半透明五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_hair",
+      "kind": "overlay",
+      "bbox": [
+        238,
+        971,
+        265,
+        997
+      ],
+      "description": "左下照片人物左侧头发附近的白色五角星点缀。",
+      "label": "左下照片人物左侧头发附近的白色五角星点缀。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        170,
+        1283,
+        196,
+        1309
+      ],
+      "description": "左下照片盘腿人物左侧、靠近脚部的白色半透明五角星点缀。",
+      "label": "左下照片盘腿人物左侧、靠近脚部的白色半透明五角星点缀。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_grid",
+    "photo_toys",
+    "overlay_cake",
+    "overlay_heart_left",
+    "overlay_chocolate",
+    "overlay_heart_lower",
+    "photo_upper",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_birthday",
+    "overlay_emoji",
+    "overlay_glowing_heart",
+    "overlay_bow",
+    "overlay_pink_flower",
+    "overlay_heart_center",
+    "overlay_heart_left_middle",
+    "overlay_heart_bottom",
+    "overlay_star_upper",
+    "overlay_star_balloon",
+    "overlay_star_hair",
+    "overlay_star_lower"
+  ]
+}

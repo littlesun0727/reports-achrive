@@ -1,0 +1,283 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1094,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "blue_pattern_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1094,
+        1080
+      ],
+      "description": "连续覆盖全画布的蓝色渐变与细密网格纹理底图，右侧保留白色圆点装饰及整体蓝色印刷质感；画布四边均露出该固定底图，独立照片、文字和贴纸叠加在其上。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的蓝色渐变与细密网格纹理底图，右侧保留白色圆点",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main_portrait",
+      "kind": "photo",
+      "bbox": [
+        39,
+        37,
+        726,
+        1043
+      ],
+      "description": "大型竖向人物照片，画面中是一名长发女性的近距离半身或胸像，面向镜头，头发遮挡部分脸部，身后可见浅蓝色摄影环境；照片完整显示区域被白色边框和其他叠加元素局部覆盖。",
+      "label": "大型竖向人物照片，画面中是一名长发女性的近距离半身或胸像，面",
+      "method": "local"
+    },
+    {
+      "id": "frame_main_portrait",
+      "kind": "frame",
+      "bbox": [
+        35,
+        32,
+        731,
+        1048
+      ],
+      "description": "围绕大型人物照片的白色矩形细边框，覆盖完整外框轮廓并作为照片承托结构保留。",
+      "photo_id": [
+        "photo_main_portrait"
+      ],
+      "label": "围绕大型人物照片的白色矩形细边框，覆盖完整外框轮廓并作为照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_inset_portrait",
+      "kind": "photo",
+      "bbox": [
+        101,
+        121,
+        251,
+        340
+      ],
+      "description": "左上方叠在主照片上的小型竖向照片，显示一名姿态倒置或侧向的人物及深色背景，内容与主照片独立裁切，四周被白色细框包围。",
+      "label": "左上方叠在主照片上的小型竖向照片，显示一名姿态倒置或侧向的人",
+      "method": "local"
+    },
+    {
+      "id": "frame_inset_portrait",
+      "kind": "frame",
+      "bbox": [
+        97,
+        118,
+        254,
+        343
+      ],
+      "description": "承载左上方小型人物照片的白色矩形相片框，完整保留边框和四角。",
+      "photo_id": [
+        "photo_inset_portrait"
+      ],
+      "label": "承载左上方小型人物照片的白色矩形相片框，完整保留边框和四角。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_phone_collage",
+      "kind": "photo",
+      "bbox": [
+        755,
+        36,
+        1006,
+        351
+      ],
+      "description": "右上方独立矩形照片，显示多部早期移动电话和蓝色背景，手机彼此重叠摆放，保留该照片内的完整摄影环境。",
+      "label": "右上方独立矩形照片，显示多部早期移动电话和蓝色背景，手机彼此",
+      "method": "local"
+    },
+    {
+      "id": "frame_phone_collage",
+      "kind": "frame",
+      "bbox": [
+        751,
+        32,
+        1010,
+        356
+      ],
+      "description": "围绕右上方手机照片的浅色矩形相框，保留圆角、边缘和内框结构。",
+      "photo_id": [
+        "photo_phone_collage"
+      ],
+      "label": "围绕右上方手机照片的浅色矩形相框，保留圆角、边缘和内框结构。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_activekids",
+      "kind": "overlay",
+      "bbox": [
+        442,
+        61,
+        696,
+        220
+      ],
+      "description": "叠加在主照片上方的黄色矩形与蓝色立体字组合，内容可辨为“ActiveKids”，带有倾斜和重影式装饰效果，作为完整固定艺术字单元保留。",
+      "label": "叠加在主照片上方的黄色矩形与蓝色立体字组合，内容可辨为“Ac",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_center_rules",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        478,
+        1094,
+        595
+      ],
+      "description": "横跨画布中部的固定白色细线与装饰性文字组合区域，包含上下横向线条及其与中央标题的叠加关系；线条和文字的描边、阴影及混合颜色作为整体设计保留。",
+      "label": "横跨画布中部的固定白色细线与装饰性文字组合区域，包含上下横向",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_center_title",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        495,
+        1064,
+        581
+      ],
+      "description": "横跨主照片和右侧蓝色区域的装饰性标题，文字可辨为“Please choose your millennial world”，白色描边字中“millennial”带红蓝混合效果，整体具有粗描边和阴影，不拆分为普通文字。",
+      "label": "横跨主照片和右侧蓝色区域的装饰性标题，文字可辨为“Pleas",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_blue_card",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        421,
+        999,
+        651
+      ],
+      "description": "右侧中部独立的白色圆角卡片或贴纸，内部有蓝色抽象块面与弧形图案，部分被中央标题和横线遮挡，固定轮廓和内部图案整体保留。",
+      "label": "右侧中部独立的白色圆角卡片或贴纸，内部有蓝色抽象块面与弧形图",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower_left_panel",
+      "kind": "photo",
+      "bbox": [
+        747,
+        737,
+        852,
+        1043
+      ],
+      "description": "右下区域左侧的竖向独立照片或图像窗口，显示蓝绿色背景中的强烈白色反光和模糊主体，完整矩形范围包含细边框与摄影内容。",
+      "label": "右下区域左侧的竖向独立照片或图像窗口，显示蓝绿色背景中的强烈",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_middle_panel",
+      "kind": "photo",
+      "bbox": [
+        866,
+        808,
+        926,
+        1043
+      ],
+      "description": "右下区域中部的窄竖向独立照片，显示蓝灰色背景与底部明亮反光，位置低于左侧照片并保留其完整矩形显示范围。",
+      "label": "右下区域中部的窄竖向独立照片，显示蓝灰色背景与底部明亮反光，",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right_panel",
+      "kind": "photo",
+      "bbox": [
+        937,
+        900,
+        1005,
+        1043
+      ],
+      "description": "右下区域最右侧的窄竖向独立照片，显示深蓝背景和底部白色高光，完整显示区域包含其细边缘。",
+      "label": "右下区域最右侧的窄竖向独立照片，显示深蓝背景和底部白色高光，",
+      "method": "local"
+    },
+    {
+      "id": "text_2000s_rules",
+      "kind": "text",
+      "bbox": [
+        867,
+        727,
+        1059,
+        872
+      ],
+      "description": "2000s\nrules",
+      "label": "2000s\nrules",
+      "method": "local",
+      "text": "2000s\nrules",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_red_prohibition",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        839,
+        911,
+        1001
+      ],
+      "description": "覆盖在右下左侧竖向照片上的红色圆形禁止符号，包含完整圆环和斜交叉线，作为独立固定标记保留。",
+      "label": "覆盖在右下左侧竖向照片上的红色圆形禁止符号，包含完整圆环和斜",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        714,
+        235,
+        1073
+      ],
+      "description": "主照片左下方叠加的一组蓝色透明气泡或圆形高光装饰，包含大小不同的多个气泡、白色反光和边缘高光，作为同一组独立贴纸单元保留。",
+      "label": "主照片左下方叠加的一组蓝色透明气泡或圆形高光装饰，包含大小不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_edge_symbol",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        966,
+        20,
+        1002
+      ],
+      "description": "画布左边缘露出的白色小型箭头或装饰符号，仅显示部分轮廓，作为独立固定边缘装饰保留。",
+      "label": "画布左边缘露出的白色小型箭头或装饰符号，仅显示部分轮廓，作为",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "blue_pattern_base",
+    "photo_main_portrait",
+    "frame_main_portrait",
+    "photo_lower_left_panel",
+    "photo_lower_middle_panel",
+    "photo_lower_right_panel",
+    "photo_inset_portrait",
+    "frame_inset_portrait",
+    "photo_phone_collage",
+    "frame_phone_collage",
+    "overlay_white_blue_card",
+    "text_2000s_rules",
+    "overlay_left_edge_symbol",
+    "overlay_blue_bubbles",
+    "overlay_activekids",
+    "overlay_center_rules",
+    "overlay_center_title",
+    "overlay_red_prohibition"
+  ]
+}

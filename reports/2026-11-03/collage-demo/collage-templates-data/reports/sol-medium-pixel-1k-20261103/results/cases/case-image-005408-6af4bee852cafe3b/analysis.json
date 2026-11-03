@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        552
+      ],
+      "description": "顶部独立人物近景照片，一名湿发女子正面略低头，脸部上半截被画布顶边裁切，露出嘴唇、肩颈、彩色宝石金链及耳饰；两侧可见虚化的手与浅色纸页，保留浅色和水蓝色摄影环境。下部在肩胸及纸页附近柔和过渡，与中部照片重叠，交界没有清晰硬边。",
+      "label": "顶部独立人物近景照片，一名湿发女子正面略低头，脸部上半截被画",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        345,
+        1080,
+        1188
+      ],
+      "description": "中部独立人物近景照片，一名湿发女子仰脸看向镜头，头部位于中右侧，肩胸位于下方；左侧抬起的手戴戒指，手持浅色纸页，纸页斜跨照片上部并遮住部分额头。保留水蓝色摄影环境、首饰和衣物，不沿人物轮廓去背景。上缘与顶部照片柔和交叠，下缘在肩胸和头发附近渐隐至底部照片。",
+      "label": "中部独立人物近景照片，一名湿发女子仰脸看向镜头，头部位于中右",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1025,
+        1080,
+        1440
+      ],
+      "description": "底部独立横向人物特写，女子侧卧或倾斜，局部脸部位于左下，颈部及多条彩色宝石金链横贯中央，右侧为棕色衣物和金色扣件；左上有斜向前臂遮挡部分脸部，湿发延伸至左下边缘。摄影内容保留至左右及底部画布边缘，上部与中间照片柔和叠接；姿态和取景重新起始，不属于中部照片的连续延伸。",
+      "label": "底部独立横向人物特写，女子侧卧或倾斜，局部脸部位于左下，颈部",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

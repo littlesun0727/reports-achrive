@@ -1,0 +1,218 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    955,
+    1273
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        955,
+        1273
+      ],
+      "description": "一张连续的室内静物摄影覆盖整个画布，无人物。黑色圆桌上放着一杯带透明杯盖的浅棕色饮料及一个黑发、穿白裙的布偶，饮料居中偏左，布偶居中偏右；桌面、桌脚、灰色地砖和右上深色区域连续延伸至画布边缘。中央取景框内外的场景及物体位置连续，属于同一照片，不是拼接照片。整个摄影环境与静物共同替换，上方取景标记、星星和文字独立保留。",
+      "background_type": "photo",
+      "label": "一张连续的室内静物摄影覆盖整个画布，无人物。黑色圆桌上放着一",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_viewfinder",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        955,
+        1273
+      ],
+      "description": "完整的相机取景设计单元：中央约[267,234,691,975]为白色竖向矩形取景标记，包含外沿、角部及边中加粗短线，内部有两条竖线与两条横线组成九宫格；框外摄影画面覆盖半透明深色遮罩，框内较明亮。线条与外围遮罩共同保留，摄影内容不归入此单元；它是叠加取景标记，并非承载另一张照片的实体框体。",
+      "label": "完整的相机取景设计单元：中央约[267,234,691,97",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        211,
+        46,
+        273,
+        109
+      ],
+      "description": "上方偏左的白色五角星，带柔和白色发光边缘，独立悬浮在摄影画面上。",
+      "label": "上方偏左的白色五角星，带柔和白色发光边缘，独立悬浮在摄影画面",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_center",
+      "kind": "overlay",
+      "bbox": [
+        514,
+        88,
+        578,
+        153
+      ],
+      "description": "上方中间的白色五角星，带柔和发光边缘，完整保留星形轮廓。",
+      "label": "上方中间的白色五角星，带柔和发光边缘，完整保留星形轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        64,
+        905,
+        142
+      ],
+      "description": "右上角白色五角星，略有倾斜，外围带柔和白色光晕。",
+      "label": "右上角白色五角星，略有倾斜，外围带柔和白色光晕。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        250,
+        136,
+        328
+      ],
+      "description": "左侧上部白色五角星，带柔和发光边缘，与中央取景标记分离。",
+      "label": "左侧上部白色五角星，带柔和发光边缘，与中央取景标记分离。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        407,
+        822,
+        491
+      ],
+      "description": "右侧中上部倾斜的白色五角星，带柔和白色光晕。",
+      "label": "右侧中上部倾斜的白色五角星，带柔和白色光晕。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        597,
+        184,
+        677
+      ],
+      "description": "左侧桌面区域上的白色五角星，带发光边缘，不属于桌面摄影内容。",
+      "label": "左侧桌面区域上的白色五角星，带发光边缘，不属于桌面摄影内容。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        714,
+        919,
+        792
+      ],
+      "description": "右侧桌面边缘附近的白色五角星，带柔和发光边缘。",
+      "label": "右侧桌面边缘附近的白色五角星，带柔和发光边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        925,
+        151,
+        1016
+      ],
+      "description": "左下桌沿附近较大的白色五角星，略有倾斜，包含外围柔和光晕。",
+      "label": "左下桌沿附近较大的白色五角星，略有倾斜，包含外围柔和光晕。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        984,
+        831,
+        1062
+      ],
+      "description": "右下方地面区域上的白色五角星，带柔和发光边缘。",
+      "label": "右下方地面区域上的白色五角星，带柔和发光边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        305,
+        1128,
+        377,
+        1201
+      ],
+      "description": "底部偏左、桌脚前方的白色五角星，带柔和白色光晕。",
+      "label": "底部偏左、桌脚前方的白色五角星，带柔和白色光晕。",
+      "method": "extract"
+    },
+    {
+      "id": "text_before",
+      "kind": "text",
+      "bbox": [
+        550,
+        1110,
+        750,
+        1158
+      ],
+      "description": "before",
+      "label": "before",
+      "method": "local",
+      "text": "before",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        907,
+        1250,
+        945,
+        1267
+      ],
+      "description": "右下角很小的半透明灰色椭圆水印，内部有难以辨清的浅色字样；椭圆载体与内部字样整体保留。",
+      "label": "右下角很小的半透明灰色椭圆水印，内部有难以辨清的浅色字样；椭",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_viewfinder",
+    "overlay_star_top_left",
+    "overlay_star_top_center",
+    "overlay_star_top_right",
+    "overlay_star_upper_left",
+    "overlay_star_upper_right",
+    "overlay_star_middle_left",
+    "overlay_star_middle_right",
+    "overlay_star_lower_left",
+    "overlay_star_lower_right",
+    "overlay_star_bottom",
+    "text_before",
+    "overlay_watermark"
+  ]
+}

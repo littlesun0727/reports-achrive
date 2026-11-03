@@ -1,0 +1,447 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "pattern_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布固定图案底图，浅薄荷绿色底上，左侧排列淡蓝紫色大圆点，右侧排列淡蓝紫色宽横条，两种图案在约x=419处转换。图案连续露出于四边和各对象间隙；保留底图，独立照片和装饰不并入其中。",
+      "background_type": "reference_clean",
+      "label": "全画布固定图案底图，浅薄荷绿色底上，左侧排列淡蓝紫色大圆点，",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        146,
+        188,
+        934,
+        1243
+      ],
+      "description": "中央大幅竖向自拍，一名金色长发人物戴浅蓝色帽子，穿白色配蓝绿滚边上衣，头部向右倾斜并看向镜头，显示头部、上身和右侧手臂。保留身后的草地、木桩、树木及浅色建筑，完整窗口延伸至底部，局部被两张小照片和贴纸遮挡。照片窗口四周有青绿色细描边，属于该照片；摄影画面内可见柔亮高光。",
+      "label": "中央大幅竖向自拍，一名金色长发人物戴浅蓝色帽子，穿白色配蓝绿",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        86,
+        121,
+        366,
+        284
+      ],
+      "description": "左上横向小照片，拍摄建筑窗户与竖向窗框，含深色玻璃和浅色结构，没有人物，摄影环境保留。矩形窗口有细暗色边缘，下方压住中央照片上缘；发光音符装饰另列。",
+      "label": "左上横向小照片，拍摄建筑窗户与竖向窗框，含深色玻璃和浅色结构",
+      "method": "local"
+    },
+    {
+      "id": "photo_doll",
+      "kind": "photo",
+      "bbox": [
+        721,
+        140,
+        1005,
+        305
+      ],
+      "description": "右上横向玩偶脸部近景，一只青绿色头发的大眼玩偶闭着眼睛，眼皮有青色圆点，脸部居中，头发与浅色背景保留。窗口带白色细边和柔亮外缘，左上及右下分别被星形贴纸遮挡，下缘叠在中央照片上方。",
+      "label": "右上横向玩偶脸部近景，一只青绿色头发的大眼玩偶闭着眼睛，眼皮",
+      "method": "local"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        140,
+        343,
+        273
+      ],
+      "description": "叠在左上建筑照片上的浅蓝白色发光音乐符号组合，含左侧高音谱号、上方连音符及右下弯曲音符；作为同一局部音乐装饰保留，不属于建筑摄影内容。",
+      "label": "叠在左上建筑照片上的浅蓝白色发光音乐符号组合，含左侧高音谱号",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cross",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        223,
+        168,
+        383
+      ],
+      "description": "紫粉色十字形宝石贴纸，包含圆点镶嵌纹理、深色轮廓及阴影，覆盖左上照片左下角并伸到图案底上。",
+      "label": "紫粉色十字形宝石贴纸，包含圆点镶嵌纹理、深色轮廓及阴影，覆盖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_333",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        360,
+        332,
+        471
+      ],
+      "description": "白色粗体“<333*”装饰字样，带明显蓝灰色阴影，整体略有倾斜，横跨中央照片左上边缘，按完整艺术字保留。",
+      "label": "白色粗体“<333*”装饰字样，带明显蓝灰色阴影，整体略有倾",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_star",
+      "kind": "overlay",
+      "bbox": [
+        683,
+        107,
+        764,
+        189
+      ],
+      "description": "浅粉色透明切面五角星宝石，包含高光和暗粉色边缘，叠压玩偶照片左上角。",
+      "label": "浅粉色透明切面五角星宝石，包含高光和暗粉色边缘，叠压玩偶照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_star",
+      "kind": "overlay",
+      "bbox": [
+        934,
+        224,
+        1046,
+        339
+      ],
+      "description": "亮粉色闪粉五角星贴纸，保留颗粒纹理与边缘阴影，覆盖玩偶照片右下边缘。",
+      "label": "亮粉色闪粉五角星贴纸，保留颗粒纹理与边缘阴影，覆盖玩偶照片右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_round_gem",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        511,
+        198,
+        593
+      ],
+      "description": "青蓝色圆形切面宝石，含明暗切面及外缘阴影，贴在中央照片左边界上。",
+      "label": "青蓝色圆形切面宝石，含明暗切面及外缘阴影，贴在中央照片左边界",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_outline_star",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        653,
+        209,
+        752
+      ],
+      "description": "粉色双层五角星贴纸，深粉色内星、浅粉色环带和细外轮廓整体保留，跨越中央照片左边缘。",
+      "label": "粉色双层五角星贴纸，深粉色内星、浅粉色环带和细外轮廓整体保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_heart",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        776,
+        158,
+        847
+      ],
+      "description": "金黄色心形切面宝石贴纸，带白色高光和暖色阴影，位于中央照片左侧边缘。",
+      "label": "金黄色心形切面宝石贴纸，带白色高光和暖色阴影，位于中央照片左",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chest_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        215,
+        855,
+        285,
+        925
+      ],
+      "description": "粉红色心形切面宝石，叠在中央人物胸前绿色吊坠位置，具有清晰多边形高光，作为独立贴纸保留，照片中的吊坠与项链仍归照片。",
+      "label": "粉红色心形切面宝石，叠在中央人物胸前绿色吊坠位置，具有清晰多",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_blue_heart",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        939,
+        203,
+        1010
+      ],
+      "description": "深青蓝色心形切面宝石，带亮色反光与暗色轮廓，覆盖中央照片左侧下段边界。",
+      "label": "深青蓝色心形切面宝石，带亮色反光与暗色轮廓，覆盖中央照片左侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_purple_flower",
+      "kind": "overlay",
+      "bbox": [
+        894,
+        446,
+        972,
+        519
+      ],
+      "description": "五瓣淡紫色小花贴纸，包含深紫轮廓、透明感花瓣和小花心，跨在中央照片右上边缘。",
+      "label": "五瓣淡紫色小花贴纸，包含深紫轮廓、透明感花瓣和小花心，跨在中",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_blue_flower",
+      "kind": "overlay",
+      "bbox": [
+        855,
+        581,
+        978,
+        696
+      ],
+      "description": "蓝色多瓣宝石花贴纸，浅蓝花心和深浅蓝色切面花瓣组成完整单元，覆盖中央照片右边缘。",
+      "label": "蓝色多瓣宝石花贴纸，浅蓝花心和深浅蓝色切面花瓣组成完整单元，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_333",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        778,
+        1045,
+        876
+      ],
+      "description": "白色粗体“<333*”装饰字样，带蓝灰色阴影，叠在中央照片右侧并延伸到条纹底图，整体视觉形式保留。",
+      "label": "白色粗体“<333*”装饰字样，带蓝灰色阴影，叠在中央照片右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        871,
+        930,
+        955,
+        1015
+      ],
+      "description": "蓝色闪粉五角星贴纸，含细密颗粒和外缘阴影，跨越中央照片右下边缘。",
+      "label": "蓝色闪粉五角星贴纸，含细密颗粒和外缘阴影，跨越中央照片右下边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shoulder_star_left",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        484,
+        206,
+        514
+      ],
+      "description": "浅青蓝色小型立体五角星装饰，位于人物左侧肩部附近，保留亮面及细小阴影。",
+      "label": "浅青蓝色小型立体五角星装饰，位于人物左侧肩部附近，保留亮面及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shoulder_star_right",
+      "kind": "overlay",
+      "bbox": [
+        264,
+        462,
+        290,
+        494
+      ],
+      "description": "青蓝色小型立体五角星装饰，位于中央照片左上肩部区域，与左侧小星分处两个独立位置。",
+      "label": "青蓝色小型立体五角星装饰，位于中央照片左上肩部区域，与左侧小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sleeve_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        681,
+        834,
+        727,
+        881
+      ],
+      "description": "青蓝色立体五角星贴纸，叠在人物右侧袖子的上段，含明亮切面和深色投影。",
+      "label": "青蓝色立体五角星贴纸，叠在人物右侧袖子的上段，含明亮切面和深",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sleeve_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        720,
+        986,
+        790,
+        1051
+      ],
+      "description": "较大的青蓝色立体五角星贴纸，叠在人物右侧袖子下段，保留锐角、切面高光和阴影。",
+      "label": "较大的青蓝色立体五角星贴纸，叠在人物右侧袖子下段，保留锐角、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_face_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        567,
+        811,
+        669
+      ],
+      "description": "人物右侧脸颊与头发上的白色闪光装饰组合，一枚较大的四向光芒配左上方小闪光，包含柔亮光晕，整体作为局部装饰保留。",
+      "label": "人物右侧脸颊与头发上的白色闪光装饰组合，一枚较大的四向光芒配",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_loading",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        1021,
+        360,
+        1107
+      ],
+      "description": "完整加载界面贴纸：白色长条框中排列青绿色进度格，末端留白，下方左侧写“Loading”、右侧写“80%”。保留外框、文字描边和阴影，不拆开内部排版。",
+      "label": "完整加载界面贴纸：白色长条框中排列青绿色进度格，末端留白，下",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bear_treat",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        1085,
+        303,
+        1300
+      ],
+      "description": "浅黄色熊头造型食物贴纸，具有两只圆耳、膨松颗粒材质及彩色碎粒，包含自然明暗和边缘阴影。位于左下方，遮住中央照片下边及左边，底部被紫色星贴纸覆盖。",
+      "label": "浅黄色熊头造型食物贴纸，具有两只圆耳、膨松颗粒材质及彩色碎粒",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_left_star",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        1242,
+        255,
+        1346
+      ],
+      "description": "紫粉色闪粉五角星贴纸，包含颗粒纹理与边缘暗影，覆盖熊头食物贴纸下部并伸至底图。",
+      "label": "紫粉色闪粉五角星贴纸，包含颗粒纹理与边缘暗影，覆盖熊头食物贴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_round_gem",
+      "kind": "overlay",
+      "bbox": [
+        370,
+        1180,
+        453,
+        1256
+      ],
+      "description": "青蓝色圆形切面宝石，带白色高光和深青色边缘，跨在中央照片底边。",
+      "label": "青蓝色圆形切面宝石，带白色高光和深青色边缘，跨在中央照片底边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        503,
+        1186,
+        594,
+        1278
+      ],
+      "description": "亮粉色心形切面宝石贴纸，略向右倾，含透明感切面与暗粉色外缘，覆盖中央照片底边。",
+      "label": "亮粉色心形切面宝石贴纸，略向右倾，含透明感切面与暗粉色外缘，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_panel",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        1122,
+        989,
+        1282
+      ],
+      "description": "右下青蓝色细点纹矩形贴纸，内部上下排列两枚浅绿色苹果剖面图案，配黄色及粉红色轮廓、橙黄色果籽和果梗。底板与内部图案作为完整固定装饰保留，不承担照片窗口功能。",
+      "label": "右下青蓝色细点纹矩形贴纸，内部上下排列两枚浅绿色苹果剖面图案",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_round_gem",
+      "kind": "overlay",
+      "bbox": [
+        895,
+        1055,
+        982,
+        1139
+      ],
+      "description": "粉红色圆形珠宝贴纸，含细密闪粉、亮侧高光及暗侧阴影，覆盖中央照片右边缘和苹果贴纸上边。",
+      "label": "粉红色圆形珠宝贴纸，含细密闪粉、亮侧高光及暗侧阴影，覆盖中央",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_pink_flower",
+      "kind": "overlay",
+      "bbox": [
+        729,
+        1181,
+        825,
+        1273
+      ],
+      "description": "淡粉色五瓣宝石花，包含深粉轮廓、半透明切面花瓣与花心，叠在苹果贴纸左侧，同时覆盖中央照片底部。",
+      "label": "淡粉色五瓣宝石花，包含深粉轮廓、半透明切面花瓣与花心，叠在苹",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "pattern_background",
+    "photo_main",
+    "photo_upper_left",
+    "photo_doll",
+    "overlay_music",
+    "overlay_cross",
+    "overlay_left_333",
+    "overlay_top_star",
+    "overlay_top_right_star",
+    "overlay_shoulder_star_left",
+    "overlay_shoulder_star_right",
+    "overlay_left_round_gem",
+    "overlay_left_outline_star",
+    "overlay_yellow_heart",
+    "overlay_chest_pink_heart",
+    "overlay_left_blue_heart",
+    "overlay_upper_purple_flower",
+    "overlay_face_sparkle",
+    "overlay_right_blue_flower",
+    "overlay_right_333",
+    "overlay_sleeve_star_upper",
+    "overlay_sleeve_star_lower",
+    "overlay_right_blue_star",
+    "overlay_loading",
+    "overlay_bear_treat",
+    "overlay_bottom_left_star",
+    "overlay_bottom_round_gem",
+    "overlay_bottom_pink_heart",
+    "overlay_apple_panel",
+    "overlay_pink_round_gem",
+    "overlay_bottom_pink_flower"
+  ]
+}

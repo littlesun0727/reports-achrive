@@ -1,0 +1,321 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "暖黄绿色、明显失焦的酒吧室内摄影画面，包含暗处陈设、灯光及左下方明亮的屏幕状区域，没有可清晰辨认的人物。摄影内容在四周及两张矩形照片之间连续露出，承载整个画布；中央被照片和字样遮挡，背景摄影环境整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        75,
+        168,
+        760,
+        643
+      ],
+      "description": "横向酒吧合照，前景一名穿白色连帽衣的女性蹲坐并抱着小白狗，另一只较大的白狗卧在右前方；右后方有一名坐着的女性及一名暗处男性。保留桌椅、气球、玩偶、地毯和暗色室内环境，照片中部偏上有明亮闪光。完整矩形显示，叠加字样及星形装饰另列。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        74,
+        708,
+        1006,
+        1352
+      ],
+      "description": "下方较大的横向酒吧合照，四名主要人物横向坐在椅子上，左侧人物抱着浅色小狗，中间女性面向镜头，右侧白衣女性举杯，最右人物穿深色衣服；前景有卧着的白狗及黄色玩偶。保留室内桌椅、屏幕、气球、玩偶和地面，中上部有粉白色摄影闪光，完整矩形窗口。"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        79,
+        140,
+        214,
+        163
+      ],
+      "text": "2024·10·6",
+      "color": "#FFF9E8",
+      "font": "hand",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_date_star",
+      "kind": "overlay",
+      "bbox": [
+        226,
+        128,
+        261,
+        172
+      ],
+      "description": "日期右侧浅黄色手绘五角星，包含不规则交叉笔画，独立于日期排版。"
+    },
+    {
+      "id": "overlay_top_star",
+      "kind": "overlay",
+      "bbox": [
+        755,
+        85,
+        835,
+        177
+      ],
+      "description": "画布上部偏右的白色不规则空心星星，内部带黄色小笔画，左侧附有短白笔触，完整保留。"
+    },
+    {
+      "id": "overlay_top_flash_outline",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        153,
+        417,
+        309
+      ],
+      "description": "上方照片闪光位置叠加的白色手绘四芒星轮廓，上下长笔画及下方短折线共同组成一个装饰；内部真实摄影亮光属于照片。"
+    },
+    {
+      "id": "overlay_top_left_star",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        348,
+        102,
+        427
+      ],
+      "description": "跨在上方照片左边缘的浅黄色细线四芒星，竖向尖角较长。"
+    },
+    {
+      "id": "overlay_top_caption",
+      "kind": "overlay",
+      "bbox": [
+        557,
+        196,
+        748,
+        239
+      ],
+      "description": "上方照片右上角白色手写字样，以“Miss”开头，后接中文及小笑脸。字形大小、笔画和位置不规则，中文部分辨认不确定，整体视觉形式保留。"
+    },
+    {
+      "id": "overlay_top_heart",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        299,
+        597,
+        323
+      ],
+      "description": "上方照片中后排女性左侧的一枚浅黄色手绘空心爱心。"
+    },
+    {
+      "id": "overlay_dog_note",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        428,
+        238,
+        596
+      ],
+      "description": "上方照片左下角的完整手写标注，白字“小狗有／什么坏心思？”配右侧长曲线括号，下方有黄色小爱心和倾斜的“露出ing”字样；作为同一局部标注整体保留。"
+    },
+    {
+      "id": "overlay_dog_caption",
+      "kind": "overlay",
+      "bbox": [
+        552,
+        491,
+        671,
+        533
+      ],
+      "description": "上方照片右下部浅黄色弧形手写字“小可爱一枚”，字词沿弧线错落排列，覆盖狗和玩偶附近的摄影内容。"
+    },
+    {
+      "id": "overlay_happy_note",
+      "kind": "overlay",
+      "bbox": [
+        766,
+        524,
+        1048,
+        638
+      ],
+      "description": "上方照片右侧空隙中的浅黄色手写留言“好幸福啊，／整个国庆都好幸福！”，包含右上弯曲短线、空心爱心及末行下方波浪强调线，作为完整手写装饰保留。"
+    },
+    {
+      "id": "text_trip",
+      "kind": "text",
+      "bbox": [
+        526,
+        647,
+        827,
+        701
+      ],
+      "text": "超绝错峰出行！",
+      "color": "#F4E9A2",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_middle_star",
+      "kind": "overlay",
+      "bbox": [
+        838,
+        647,
+        958,
+        834
+      ],
+      "description": "跨越下方照片上边缘的大型手绘星形装饰，白色纵向长芒与淡黄色交叉星形叠合，周围附短线和小点；完整装饰位于照片上方。"
+    },
+    {
+      "id": "text_wuhan",
+      "kind": "text",
+      "bbox": [
+        94,
+        730,
+        312,
+        829
+      ],
+      "text": "喜欢武汉，\n凌晨的黎黄陂",
+      "color": "#F5F5EE",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_lower_gold_glow",
+      "kind": "overlay",
+      "bbox": [
+        387,
+        741,
+        474,
+        886
+      ],
+      "description": "下方照片上部偏左的金黄色发光四芒星装饰，中心明亮、周围柔和光晕，上下附有短黄色笔触；覆盖暗色摄影环境。"
+    },
+    {
+      "id": "overlay_lower_left_gold_star",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        857,
+        159,
+        951
+      ],
+      "description": "下方照片左侧浅黄色多笔画星星，具有上下长芒及左右短线、小点，部分接近照片左边缘。"
+    },
+    {
+      "id": "overlay_lower_center_star",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        836,
+        633,
+        894
+      ],
+      "description": "下方照片上部中间的白色空心五角星，内部黄色短线，右下附一枚小黄色爱心，作为局部星心组合保留。"
+    },
+    {
+      "id": "overlay_happiness_title",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        886,
+        947,
+        1087
+      ],
+      "description": "下方照片中央偏右的大型浅黄色空心手写艺术字“幸福定格”，保留双线轮廓、错落字形和不规则笔画；左下与右下的小爱心作为该标题的附属点缀一起保留。"
+    },
+    {
+      "id": "overlay_lower_right_star",
+      "kind": "overlay",
+      "bbox": [
+        925,
+        849,
+        988,
+        937
+      ],
+      "description": "下方照片右上部白色四芒星轮廓，内部有黄色交叉笔画，右下附黄色空心爱心。"
+    },
+    {
+      "id": "overlay_lower_small_star",
+      "kind": "overlay",
+      "bbox": [
+        964,
+        969,
+        997,
+        1007
+      ],
+      "description": "下方照片右侧独立的小型白色空心五角星，内部带淡黄色笔触。"
+    },
+    {
+      "id": "overlay_bottom_left_star",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        1258,
+        156,
+        1401
+      ],
+      "description": "跨越下方照片左下边缘的白色手绘多芒星，竖向笔画拉长，包含周围短线和点状笔触，整体保留。"
+    },
+    {
+      "id": "text_location",
+      "kind": "text",
+      "bbox": [
+        669,
+        1314,
+        974,
+        1348
+      ],
+      "text": "At · 巴公房子前の 移动小酒馆",
+      "color": "#F1F1E7",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_bottom_star",
+      "kind": "overlay",
+      "bbox": [
+        618,
+        1327,
+        670,
+        1408
+      ],
+      "description": "下方照片底边附近的浅黄色细线星形，向下延伸长笔画并附小点，位于地点文字左侧且跨出照片下边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "text_date",
+    "overlay_date_star",
+    "overlay_top_star",
+    "overlay_top_flash_outline",
+    "overlay_top_left_star",
+    "overlay_top_caption",
+    "overlay_top_heart",
+    "overlay_dog_note",
+    "overlay_dog_caption",
+    "overlay_happy_note",
+    "text_trip",
+    "overlay_middle_star",
+    "text_wuhan",
+    "overlay_lower_gold_glow",
+    "overlay_lower_left_gold_star",
+    "overlay_lower_center_star",
+    "overlay_happiness_title",
+    "overlay_lower_right_star",
+    "overlay_lower_small_star",
+    "overlay_bottom_left_star",
+    "text_location",
+    "overlay_bottom_star"
+  ]
+}

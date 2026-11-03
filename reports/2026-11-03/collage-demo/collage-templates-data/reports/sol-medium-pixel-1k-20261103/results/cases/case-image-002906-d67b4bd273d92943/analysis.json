@@ -1,0 +1,69 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1298,
+    975
+  ],
+  "objects": [
+    {
+      "id": "background_design",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1298,
+        975
+      ],
+      "description": "浅色压纹纸面铺满画布，带有顶部和底部蕾丝边、淡色星形装饰及若隐若现的纹理结构；中央照片遮挡部分底图。保留照片窗口外的固定设计原样。",
+      "background_type": "reference_clean",
+      "label": "浅色压纹纸面铺满画布，带有顶部和底部蕾丝边、淡色星形装饰及若",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        263,
+        220,
+        1048,
+        789
+      ],
+      "description": "中央横向矩形人像照片，单人女性近景，长深色头发，正面看向镜头，一只手贴在脸侧；人物居中，肩部和蓝绿色摄影背景一并保留并随照片替换。下缘被前景蕾丝装饰遮挡。",
+      "label": "中央横向矩形人像照片，单人女性近景，长深色头发，正面看向镜头",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        61,
+        1298,
+        965
+      ],
+      "description": "白色星形与小星点组成的固定装饰，包括散布在画面和照片上的星星，以及两侧环绕照片的弯曲星点轨迹；保留完整可见图案，部分星形压在照片上方。",
+      "label": "白色星形与小星点组成的固定装饰，包括散布在画面和照片上的星星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lace_front",
+      "kind": "overlay",
+      "bbox": [
+        233,
+        644,
+        1065,
+        789
+      ],
+      "description": "横跨中央照片下缘的白色蕾丝装饰，含连续花朵、网状纹理和 scalloped 花边，作为独立前景设计保留并遮住照片下部。",
+      "label": "横跨中央照片下缘的白色蕾丝装饰，含连续花朵、网状纹理和 sc",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_design",
+    "photo_portrait",
+    "overlay_stars",
+    "overlay_lace_front"
+  ]
+}

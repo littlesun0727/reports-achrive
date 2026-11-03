@@ -1,0 +1,153 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的竖幅近景摄影贯穿画布四边：一名浅金色长发、刘海遮住部分眼睛的人物正面低头微笑，手指轻触嘴唇，另一只手在胸前做手势；人物头部居中偏上，手臂和浅色衣物延伸至画面下方。人物及室内浅灰背景、衣物共同属于可替换照片。边缘的星星涂鸦、上方发光线条和下方文字贴饰遮挡或叠加在照片之上。",
+      "background_type": "photo",
+      "label": "一张连续的竖幅近景摄影贯穿画布四边：一名浅金色长发、刘海遮住",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_top_left_doodle",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        26,
+        318,
+        389
+      ],
+      "description": "左上方白色手绘发光线条组成的环绕涂鸦，顶部云状区域内写有“happy”，线条、文字及小白点为同一组固定装饰；另有靠近左上画布边缘的小蓝色笔触及下方白色小星形，整体作为独立涂鸦保留。",
+      "label": "左上方白色手绘发光线条组成的环绕涂鸦，顶部云状区域内写有“h",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_doodle",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        24,
+        854,
+        245
+      ],
+      "description": "右上方白色发光椭圆环及其上沿的小蓝色星形笔触，作为一个独立手绘装饰单元保留。",
+      "label": "右上方白色发光椭圆环及其上沿的小蓝色星形笔触，作为一个独立手",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_stars",
+      "kind": "overlay",
+      "bbox": [
+        978,
+        323,
+        1045,
+        764
+      ],
+      "description": "画面右侧两枚独立白色与蓝色手绘星星，分别位于中上部和中下部，作为固定涂鸦装饰保留。",
+      "label": "画面右侧两枚独立白色与蓝色手绘星星，分别位于中上部和中下部，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        319,
+        99,
+        386
+      ],
+      "description": "左侧头发旁的小型白色手绘星光涂鸦，作为独立固定装饰保留。",
+      "label": "左侧头发旁的小型白色手绘星光涂鸦，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_caption",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        1133,
+        718,
+        1178
+      ],
+      "description": "横跨胸前的白色装饰性英文手写字样“★  ♟ + ♡ Soft clouds ☆ + ★”，字形、心形、星形及小图标共同构成一条装饰排版，保留为整体而非普通文字。",
+      "label": "横跨胸前的白色装饰性英文手写字样“★  ♟ + ♡ Soft",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_character",
+      "kind": "overlay",
+      "bbox": [
+        786,
+        1141,
+        1011,
+        1385
+      ],
+      "description": "右下角白色手绘小熊或玩偶形象，带红色围巾及深色五官，包含完整头部、身体、四肢和细小手绘点缀，作为一个独立贴画保留。",
+      "label": "右下角白色手绘小熊或玩偶形象，带红色围巾及深色五官，包含完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_lower_left_star",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        1207,
+        152,
+        1280
+      ],
+      "description": "左下衣物区域上的蓝色手绘星形涂鸦，作为独立固定装饰保留。",
+      "label": "左下衣物区域上的蓝色手绘星形涂鸦，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_lower_left_star",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        1362,
+        370,
+        1430
+      ],
+      "description": "画面下方偏左的白色手绘星形，包含完整可见笔画，作为独立固定装饰保留。",
+      "label": "画面下方偏左的白色手绘星形，包含完整可见笔画，作为独立固定装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_scattered_specks",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        48,
+        1064,
+        1428
+      ],
+      "description": "散布于画面边缘的少量白色小点状手绘装饰，分别可见于右上角、人物两侧衣物附近及画布底边；作为同一组稀疏点缀保留。",
+      "label": "散布于画面边缘的少量白色小点状手绘装饰，分别可见于右上角、人",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_scattered_specks",
+    "overlay_top_left_doodle",
+    "overlay_top_right_doodle",
+    "overlay_left_sparkle",
+    "overlay_right_stars",
+    "overlay_blue_lower_left_star",
+    "overlay_white_lower_left_star",
+    "overlay_bottom_caption",
+    "overlay_bottom_right_character"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "decorated_base",
+    "description": "固定的粉色日系装饰底图贯穿全画布，边缘与照片周围可见白色波浪区域、彩色圆点和星星、气泡、黄色点状边饰及底部六颗彩色星形图案。中心人物照片和贴附的卡通兔子遮挡局部；保留可见的固定图案与底图，不将中心摄影内容并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        58,
+        203,
+        1024,
+        1210
+      ],
+      "description": "中央大幅人物照片，单人年轻女性上半身近景，正面看向镜头，戴浅色毛绒帽，穿白色印花上衣，手持粉色饮料罐；人物位于画面中央，头部、手臂和衣身连同室内摄影环境共同属于照片。照片边缘在四周呈柔和渐隐，与粉色装饰底图融合；下方两只卡通兔子遮住照片部分下缘及角部。"
+    },
+    {
+      "id": "overlay_rabbit_top",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        27,
+        1064,
+        291
+      ],
+      "description": "右上角蓝色描边的白色卡通兔子贴纸，长耳朵、粉色脸颊和蓝色外轮廓，独立覆盖装饰底图及中央照片上缘。"
+    },
+    {
+      "id": "overlay_rabbit_left",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        873,
+        503,
+        1212
+      ],
+      "description": "左下角粉色描边的白色卡通兔子贴纸，带长耳朵及橙色长方形点缀，整体作为独立贴纸保留；遮住中央照片左下部。"
+    },
+    {
+      "id": "overlay_rabbit_right",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        900,
+        1066,
+        1206
+      ],
+      "description": "右下角绿色描边的白色卡通兔子贴纸，带长耳朵、粉色脸颊和小装饰，整体作为独立贴纸保留；遮住中央照片右下部。"
+    },
+    {
+      "id": "frame_top_clip",
+      "kind": "overlay",
+      "bbox": [
+        371,
+        0,
+        711,
+        111
+      ],
+      "description": "画布顶部中央露出的浅灰米色矩形夹框下半部，具有厚边和内侧浅色区域，作为固定装饰保留；上部被画布边缘裁切。"
+    }
+  ],
+  "layer_order": [
+    "photo_center",
+    "frame_top_clip",
+    "overlay_rabbit_top",
+    "overlay_rabbit_left",
+    "overlay_rabbit_right"
+  ]
+}

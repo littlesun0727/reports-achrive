@@ -1,0 +1,337 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的竖向自拍摄影画面覆盖整张画布：人物坐在布偶和玩偶前方，双手抱着右侧浅灰色玩偶，身体、衣袖、长发、棕色熊玩偶及室内背景共同延伸至四边。脸部区域被上层蓝色卡通面罩遮挡，四周及下方仍露出连续摄影环境；替换时保留完整人物姿态、玩偶和室内场景，不包含后加的贴纸装饰。"
+  },
+  "objects": [
+    {
+      "id": "overlay_blue_mask",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        146,
+        1021,
+        1020
+      ],
+      "description": "覆盖人物脸部的大型深蓝色卡通面罩，呈圆润不规则头部轮廓，包含模糊黑色眼睛、红色嘴唇、顶部浅色高光和右侧绿色蝴蝶结，作为完整固定贴纸叠在摄影人物上方。"
+    },
+    {
+      "id": "overlay_dessert_glass",
+      "kind": "overlay",
+      "bbox": [
+        211,
+        47,
+        304,
+        254
+      ],
+      "description": "左上方独立甜品玻璃杯贴纸，杯中有奶油和红色水果，带高脚杯轮廓及浅色装饰。"
+    },
+    {
+      "id": "overlay_cake_slice",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        255,
+        125,
+        427
+      ],
+      "description": "画布左上边缘的粉色奶油蛋糕切片贴纸，部分贴纸延伸到画布外，保留分层蛋糕、奶油和水果细节。"
+    },
+    {
+      "id": "overlay_top_cup",
+      "kind": "overlay",
+      "bbox": [
+        589,
+        68,
+        751,
+        165
+      ],
+      "description": "顶部偏右的粉色茶杯与浅蓝色碟子贴纸，包含杯内弧线和杯柄等完整图案。"
+    },
+    {
+      "id": "overlay_top_strawberry",
+      "kind": "overlay",
+      "bbox": [
+        772,
+        116,
+        853,
+        211
+      ],
+      "description": "顶部右侧独立红色草莓贴纸，带绿色叶冠和白色籽点。"
+    },
+    {
+      "id": "overlay_top_cake",
+      "kind": "overlay",
+      "bbox": [
+        928,
+        63,
+        1060,
+        243
+      ],
+      "description": "右上角粉色奶油圆蛋糕贴纸，带蜡烛、樱桃色装饰、分层蛋糕体和蝴蝶结图案。"
+    },
+    {
+      "id": "overlay_lower_cake",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1346,
+        177,
+        1520
+      ],
+      "description": "左下区域的绿色托盘粉色方形蛋糕贴纸，顶部有奶油和红色水果，带完整托盘轮廓。"
+    },
+    {
+      "id": "overlay_cat_pair",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        1577,
+        476,
+        1854
+      ],
+      "description": "下方偏左的白色与黑色双猫玩偶贴纸，两个角色并列站立，保留耳朵、表情、身体和脚部的完整组合。"
+    },
+    {
+      "id": "overlay_lower_bow",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1779,
+        164,
+        1920
+      ],
+      "description": "左下边缘的粉色蝴蝶结贴纸，部分超出画布下边和左边，保留双环、飘带及内部线稿。"
+    },
+    {
+      "id": "overlay_lower_strawberry",
+      "kind": "overlay",
+      "bbox": [
+        858,
+        1762,
+        1009,
+        1896
+      ],
+      "description": "右下方独立红色草莓贴纸，带绿色叶冠、籽点和手绘轮廓。"
+    },
+    {
+      "id": "overlay_lower_cup",
+      "kind": "overlay",
+      "bbox": [
+        954,
+        1533,
+        1080,
+        1640
+      ],
+      "description": "右下边缘的粉色茶杯与蓝色碟子贴纸，部分图案贴近并延伸到画布右边。"
+    },
+    {
+      "id": "overlay_light_grid",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        1370,
+        827,
+        1683
+      ],
+      "description": "覆盖衣袖和下方摄影区域的白色点阵光栅装饰，由多行规则小亮点组成，作为独立半透明固定图形保留。"
+    },
+    {
+      "id": "overlay_chinese_label",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        1148,
+        730,
+        1244
+      ],
+      "description": "斜放在人物浅色衣袖附近的白色矩形文字贴纸，带粗黑中文字样“我宝宝萌…”及黑色边缘，文字与标签底板作为一个固定装饰整体保留。"
+    },
+    {
+      "id": "overlay_top_green_star",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        3,
+        461,
+        64
+      ],
+      "description": "顶部偏左的浅绿色手绘星形贴纸。"
+    },
+    {
+      "id": "overlay_top_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        14,
+        872,
+        74
+      ],
+      "description": "顶部偏右的深蓝色手绘星形贴纸。"
+    },
+    {
+      "id": "overlay_top_pink_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        31,
+        529,
+        113
+      ],
+      "description": "顶部中央的粉红色菱形闪光贴纸，带细长上下尖角和内部高光线。"
+    },
+    {
+      "id": "overlay_left_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        143,
+        30,
+        180
+      ],
+      "description": "左侧画布边缘露出的粉色小星形贴纸，部分超出画布。"
+    },
+    {
+      "id": "overlay_left_pink_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        143,
+        412,
+        258
+      ],
+      "description": "左上偏中的粉色菱形闪光贴纸，具有细长手绘放射线和中心亮部。"
+    },
+    {
+      "id": "overlay_right_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        264,
+        1080,
+        318
+      ],
+      "description": "右上侧边缘的黄色星形贴纸，部分贴纸被画布边界裁切。"
+    },
+    {
+      "id": "overlay_left_yellow_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        476,
+        91,
+        559
+      ],
+      "description": "左侧中部的黄色菱形闪光贴纸，带细线放射结构。"
+    },
+    {
+      "id": "overlay_right_diamond",
+      "kind": "overlay",
+      "bbox": [
+        994,
+        463,
+        1068,
+        574
+      ],
+      "description": "右侧中上部的浅色钻石形闪光贴纸，带灰色手绘轮廓和内部高光。"
+    },
+    {
+      "id": "overlay_right_lower_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        1007,
+        716,
+        1054,
+        797
+      ],
+      "description": "右侧中下部的小型黄色菱形闪光贴纸。"
+    },
+    {
+      "id": "overlay_left_music_note",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        607,
+        98,
+        705
+      ],
+      "description": "左侧人物和布偶旁的粉红色音乐符号贴纸，包含弯曲音符杆和圆形音符头。"
+    },
+    {
+      "id": "overlay_lower_cherries",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        1521,
+        131,
+        1584
+      ],
+      "description": "左下点阵区域上方的小红樱桃贴纸，带细茎和两颗果实。"
+    },
+    {
+      "id": "overlay_bottom_music_note",
+      "kind": "overlay",
+      "bbox": [
+        994,
+        1802,
+        1050,
+        1920
+      ],
+      "description": "右下边缘的粉红色音乐符号贴纸，沿画布下边延伸并被边界裁切。"
+    },
+    {
+      "id": "overlay_bottom_left_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1535,
+        38,
+        1592
+      ],
+      "description": "左下边缘靠近蛋糕和樱桃的浅黄色小星形贴纸，部分延伸出画布。"
+    },
+    {
+      "id": "overlay_bottom_pink_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1849,
+        39,
+        1911
+      ],
+      "description": "左下角边缘的粉色闪光贴纸，部分被画布裁切。"
+    }
+  ],
+  "layer_order": [
+    "overlay_blue_mask",
+    "overlay_dessert_glass",
+    "overlay_cake_slice",
+    "overlay_top_cup",
+    "overlay_top_strawberry",
+    "overlay_top_cake",
+    "overlay_top_green_star",
+    "overlay_top_blue_star",
+    "overlay_top_pink_sparkle",
+    "overlay_left_pink_star",
+    "overlay_left_pink_sparkle",
+    "overlay_right_yellow_star",
+    "overlay_left_yellow_sparkle",
+    "overlay_right_diamond",
+    "overlay_right_lower_sparkle",
+    "overlay_left_music_note",
+    "overlay_lower_cake",
+    "overlay_light_grid",
+    "overlay_chinese_label",
+    "overlay_lower_cherries",
+    "overlay_cat_pair",
+    "overlay_lower_cup",
+    "overlay_lower_bow",
+    "overlay_lower_strawberry",
+    "overlay_bottom_music_note",
+    "overlay_bottom_left_star",
+    "overlay_bottom_pink_sparkle"
+  ]
+}

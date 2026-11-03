@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的室内摄影环境覆盖全画布：上方可见蕨类植物与种植槽，中央为橙棕色木质挡板，下方为深色地面及木面。环境在画布边缘和主体周围连续；前景两张抠图照片遮挡局部，底图保留完整场景。"
+  },
+  "objects": [
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        278,
+        644,
+        1011,
+        1402
+      ],
+      "description": "前景食物静物照片，黑色圆碗中盛有炸物和蔬菜，置于长方木板上；碗、食物与木板作为完整主体组合沿外形抠出，摄影环境不保留。主体外侧环绕白色不规则剪贴边，边缘带黑色小点图案，属于照片轮廓效果。"
+    },
+    {
+      "id": "photo_doll",
+      "kind": "photo",
+      "bbox": [
+        0,
+        478,
+        367,
+        1144
+      ],
+      "description": "左侧前景玩偶照片，毛绒玩偶戴深蓝色牛仔帽、穿蓝白针织衣并带红色心形装饰，斜向坐姿，完整玩偶沿外形抠出，摄影环境不保留。外侧白色不规则剪贴边带黑色小点图案，属于照片轮廓效果；照片压在食物照片左侧局部之前。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        482,
+        722,
+        648
+      ],
+      "description": "中央偏上黄色手绘艺术字“eattt”，带白色手绘轮廓及左侧星形线稿、右侧加号等相连笔画装饰，作为完整字形设计保留。"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        534,
+        69,
+        552
+      ],
+      "description": "玩偶照片上方左侧的小黄色星形贴饰，独立于照片轮廓。"
+    },
+    {
+      "id": "overlay_star_top_small",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        343,
+        738,
+        366
+      ],
+      "description": "木质挡板上的小黄色星形贴饰。"
+    },
+    {
+      "id": "overlay_star_top_large",
+      "kind": "overlay",
+      "bbox": [
+        825,
+        324,
+        887,
+        386
+      ],
+      "description": "木质挡板右上区域的较大黄色星形贴饰。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        552,
+        902,
+        574
+      ],
+      "description": "木质挡板右侧的黄色小星形贴饰。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        1174,
+        156,
+        1232
+      ],
+      "description": "画面左下方深色地面上的较大黄色星形贴饰。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        189,
+        1279,
+        211,
+        1306
+      ],
+      "description": "画面左下方靠近底边的小黄色星形贴饰。"
+    },
+    {
+      "id": "overlay_food_doodle",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        1135,
+        929,
+        1306
+      ],
+      "description": "木板右下部的黄色手绘兔子图案及其旁边的小加号、闪光笔画，作为独立的连贯涂鸦设计保留。"
+    },
+    {
+      "id": "overlay_food_caption",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        1214,
+        805,
+        1313
+      ],
+      "description": "木板下部白色手写“Yummy Yummy”字样及相邻的短线、闪光笔画，保留为手绘字样设计，不拆分为普通排版文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_food",
+    "photo_doll",
+    "overlay_title",
+    "overlay_star_upper_left",
+    "overlay_star_top_small",
+    "overlay_star_top_large",
+    "overlay_star_right",
+    "overlay_star_lower_left",
+    "overlay_star_bottom",
+    "overlay_food_doodle",
+    "overlay_food_caption"
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1442
+  ],
+  "objects": [
+    {
+      "id": "polka_dot_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1442
+      ],
+      "description": "白色画布铺有均匀浅灰圆点，圆点图案延伸至四边，并在各独立照片与装饰之间连续可见；保留底图原样。",
+      "background_type": "reference_clean",
+      "label": "白色画布铺有均匀浅灰圆点，圆点图案延伸至四边，并在各独立照片",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_shop",
+      "kind": "photo",
+      "bbox": [
+        67,
+        117,
+        694,
+        850
+      ],
+      "description": "左上方大型矩形生活照：一名年轻女性在室内近景对镜头展示毛绒玩偶，戴白色动物帽、穿浅黄白格纹衣，人物居中偏左，背景可见店内陈设与窗外街景。保留完整摄影环境，照片边缘被前景苹果、蝴蝶结及下方照片局部遮挡。",
+      "label": "左上方大型矩形生活照：一名年轻女性在室内近景对镜头展示毛绒玩",
+      "method": "local"
+    },
+    {
+      "id": "photo_polaroid",
+      "kind": "photo",
+      "bbox": [
+        374,
+        708,
+        1001,
+        1150
+      ],
+      "description": "右下方倾斜的横向照片，近景中一只手拿着与上图相似的毛绒玩偶，桌上有木纹、饮料和水果装饰；保留完整摄影画面与环境，四周由白色相纸框承托。",
+      "label": "右下方倾斜的横向照片，近景中一只手拿着与上图相似的毛绒玩偶，",
+      "method": "local"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        346,
+        665,
+        1035,
+        1249
+      ],
+      "description": "倾斜的白色拍立得相纸框，横向内口承载下方照片，保留宽白边、下方较宽的留白及纸面阴影。",
+      "photo_id": [
+        "photo_polaroid"
+      ],
+      "label": "倾斜的白色拍立得相纸框，横向内口承载下方照片，保留宽白边、下",
+      "method": "extract"
+    },
+    {
+      "id": "apple_cutout",
+      "kind": "photo",
+      "bbox": [
+        601,
+        472,
+        882,
+        757
+      ],
+      "description": "一片浅绿色苹果横切面，带短梗，独立沿主体轮廓显示，未见周围摄影环境；覆盖左上照片右下区域并压在下方相纸照片上缘。",
+      "label": "一片浅绿色苹果横切面，带短梗，独立沿主体轮廓显示，未见周围摄",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_pattern",
+      "kind": "overlay",
+      "bbox": [
+        509,
+        38,
+        771,
+        414
+      ],
+      "description": "上方偏中的浅黄绿色矩形底板，印有规则白色圆点，作为完整局部图案保留；部分被黑色音乐符号遮挡。",
+      "label": "上方偏中的浅黄绿色矩形底板，印有规则白色圆点，作为完整局部图",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_notes",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        45,
+        856,
+        228
+      ],
+      "description": "覆盖浅绿色圆点底板上方的黑色音乐符号组合，包含高音谱号、音符和白色圆点纹样，整体作为独立装饰保留。",
+      "label": "覆盖浅绿色圆点底板上方的黑色音乐符号组合，包含高音谱号、音符",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shell",
+      "kind": "overlay",
+      "bbox": [
+        867,
+        29,
+        1057,
+        191
+      ],
+      "description": "右上角浅色扇贝壳装饰，具有放射状棱纹与自然不规则外轮廓。",
+      "label": "右上角浅色扇贝壳装饰，具有放射状棱纹与自然不规则外轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_you",
+      "kind": "overlay",
+      "bbox": [
+        719,
+        180,
+        968,
+        252
+      ],
+      "description": "白底黑边的横向标签，框内为黑色打字机风格文字“You are”；标签及文字作为一个完整固定设计单元保留。",
+      "label": "白底黑边的横向标签，框内为黑色打字机风格文字“You are",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label_angel",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        245,
+        1080,
+        317
+      ],
+      "description": "白底黑边的横向标签，框内为黑色打字机风格文字“My Angel”；标签及文字作为一个完整固定设计单元保留，右侧贴近画布边缘。",
+      "label": "白底黑边的横向标签，框内为黑色打字机风格文字“My Ange",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        289,
+        696,
+        475,
+        883
+      ],
+      "description": "覆盖两张照片交界处的白色缎带蝴蝶结，带有环形结、垂带和柔和阴影，作为独立装饰保留。",
+      "label": "覆盖两张照片交界处的白色缎带蝴蝶结，带有环形结、垂带和柔和阴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        770,
+        297,
+        966
+      ],
+      "description": "左下照片旁的绿色四叶草，四片叶与细茎构成一个完整装饰单元。",
+      "label": "左下照片旁的绿色四叶草，四片叶与细茎构成一个完整装饰单元。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_staff",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        884,
+        375,
+        1125
+      ],
+      "description": "左侧下方延伸至画布边缘的黑色乐谱装饰，包含五线谱、音符及大型高音谱号，作为连续的整体图形保留。",
+      "label": "左侧下方延伸至画布边缘的黑色乐谱装饰，包含五线谱、音符及大型",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_art",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        1027,
+        516,
+        1381
+      ],
+      "description": "下方偏中的浅灰点阵剪影装饰，呈像素化轮廓并含多个相连点阵部分，整体保留，不补绘被照片遮住的部分。",
+      "label": "下方偏中的浅灰点阵剪影装饰，呈像素化轮廓并含多个相连点阵部分",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_note",
+      "kind": "overlay",
+      "bbox": [
+        925,
+        800,
+        1028,
+        905
+      ],
+      "description": "右侧相纸边缘旁的绿色双音符装饰，带深色描边与轻微阴影，独立于照片内容。",
+      "label": "右侧相纸边缘旁的绿色双音符装饰，带深色描边与轻微阴影，独立于",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        792,
+        1056,
+        1008,
+        1271
+      ],
+      "description": "右下方浅薄荷绿色心形线框装饰，具有双层轮廓与柔和立体阴影，部分覆盖白色相纸下缘。",
+      "label": "右下方浅薄荷绿色心形线框装饰，具有双层轮廓与柔和立体阴影，部",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "polka_dot_base",
+    "photo_shop",
+    "frame_polaroid",
+    "photo_polaroid",
+    "overlay_top_pattern",
+    "overlay_staff",
+    "overlay_pixel_art",
+    "overlay_clover",
+    "overlay_top_notes",
+    "overlay_shell",
+    "overlay_label_you",
+    "overlay_label_angel",
+    "apple_cutout",
+    "overlay_bow",
+    "overlay_green_note",
+    "overlay_heart"
+  ]
+}

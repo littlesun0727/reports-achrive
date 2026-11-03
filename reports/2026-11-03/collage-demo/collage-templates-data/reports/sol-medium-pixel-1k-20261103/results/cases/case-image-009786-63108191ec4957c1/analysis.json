@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1607
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1607
+      ],
+      "description": "连续的海岸摄影画面铺满画布：左侧主要露出蓝天与白色浪花，右侧及边缘可见海水和岩岸纹理，场景延伸至四边且无独立底图接缝。画面中没有可辨认的人物主体；中央拼贴照片与贴纸遮挡局部，未遮挡环境随底图整体替换。",
+      "background_type": "photo",
+      "label": "连续的海岸摄影画面铺满画布：左侧主要露出蓝天与白色浪花，右侧",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        48,
+        191,
+        683,
+        618
+      ],
+      "description": "左上方横向海岸照片，包含蓝天、海面、浪花、海滨道路及栏杆，未见清晰人物主体；摄影环境保留在矩形显示区域内。右下区域被中部照片遮挡。",
+      "label": "左上方横向海岸照片，包含蓝天、海面、浪花、海滨道路及栏杆，未",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        113,
+        869,
+        967,
+        1443
+      ],
+      "description": "下方横向海滩照片，画面中一名女性穿深色长外套坐在左前景，一名男性坐在右侧海堤上，远处有海滩、游客、海面、建筑与坡地。人物均为中远景，环境保留在矩形显示区域内；上部被中间照片局部遮挡。",
+      "label": "下方横向海滩照片，画面中一名女性穿深色长外套坐在左前景，一名",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        461,
+        582,
+        1021,
+        958
+      ],
+      "description": "右侧横向海滨道路照片，远处为海面和海岸线，近处有道路、铁路道口栏杆、标志牌及右侧一名背向或侧向的深色衣着人物。保留完整摄影环境，矩形照片覆盖下方照片上缘及左上照片右下部分。",
+      "label": "右侧横向海滨道路照片，远处为海面和海岸线，近处有道路、铁路道",
+      "method": "local"
+    },
+    {
+      "id": "overlay_starfish",
+      "kind": "overlay",
+      "bbox": [
+        610,
+        133,
+        722,
+        264
+      ],
+      "description": "青绿色方形贴纸，中央为白色手绘海星及短线点缀，整体作为独立装饰保留；压住左上照片的上缘并覆盖背景。",
+      "label": "青绿色方形贴纸，中央为白色手绘海星及短线点缀，整体作为独立装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wave_strip",
+      "kind": "overlay",
+      "bbox": [
+        424,
+        697,
+        510,
+        911
+      ],
+      "description": "深灰色竖向窄底板，内有三组上下排列的白色手绘波浪线及水滴状笔画，整体为一枚独立贴纸；压在中间照片左侧，并覆盖下方照片的左上区域。",
+      "label": "深灰色竖向窄底板，内有三组上下排列的白色手绘波浪线及水滴状笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        918,
+        216,
+        1043
+      ],
+      "description": "赭黄色方形贴纸，中央为黑色手绘圆润动物或贝壳状图案，带有内部线条与小头部轮廓；作为完整独立装饰压在下方照片左上边缘及背景上。",
+      "label": "赭黄色方形贴纸，中央为黑色手绘圆润动物或贝壳状图案，带有内部",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_top",
+    "photo_bottom",
+    "photo_middle",
+    "overlay_starfish",
+    "overlay_wave_strip",
+    "overlay_doodle"
+  ]
+}

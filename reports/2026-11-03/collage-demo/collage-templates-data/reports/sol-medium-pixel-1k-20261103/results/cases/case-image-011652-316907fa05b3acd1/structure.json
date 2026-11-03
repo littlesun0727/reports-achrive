@@ -1,0 +1,170 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的静物近景照片覆盖全画布，无人物。紫红色郁金香与绿色叶片从中央伸向右侧，牛皮包装纸占据左侧和中下部，米白色编织网袋及提带横跨下方并绕至右侧，浅色褶皱织物铺在四周。画布边缘的织物、纸张和网袋场景连续，上层标题及装饰仅遮挡局部。整体摄影色调略暗、柔和，全部花束、包装与环境一起替换。"
+  },
+  "objects": [
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        23,
+        62,
+        1890,
+        524
+      ],
+      "text": "MY CONTENT\nFOCUS",
+      "color": "#FFFFA6",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_line",
+      "kind": "overlay",
+      "bbox": [
+        726,
+        585,
+        1194,
+        590
+      ],
+      "description": "标题下方居中的浅黄色细水平线，独立固定装饰，完整保留。"
+    },
+    {
+      "id": "overlay_flower_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        414,
+        441,
+        470
+      ],
+      "description": "位于FOCUS左侧的白色放射状小花装饰，由密集圆头花瓣构成，完整轮廓作为一个固定单元保留。"
+    },
+    {
+      "id": "overlay_flower_right",
+      "kind": "overlay",
+      "bbox": [
+        1583,
+        537,
+        1640,
+        593
+      ],
+      "description": "右侧中部的浅黄色放射状小花装饰，叠在摄影画面的网袋提带附近，完整保留花瓣轮廓。"
+    },
+    {
+      "id": "overlay_flower_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        129,
+        749,
+        185,
+        806
+      ],
+      "description": "左下方的浅黄色放射状小花装饰，叠在横向编织袋带上方，独立于摄影内容。"
+    },
+    {
+      "id": "overlay_flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        996,
+        865,
+        1054,
+        922
+      ],
+      "description": "下方偏右的白色放射状小花装饰，位于底部第三段文字上方，完整保留。"
+    },
+    {
+      "id": "text_cover",
+      "kind": "text",
+      "bbox": [
+        108,
+        943,
+        271,
+        968
+      ],
+      "text": "COVER PAGE",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_about",
+      "kind": "text",
+      "bbox": [
+        568,
+        943,
+        704,
+        968
+      ],
+      "text": "ABOUT ME",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_competencies",
+      "kind": "text",
+      "bbox": [
+        1006,
+        943,
+        1329,
+        968
+      ],
+      "text": "CORE COMPETENCIES ME",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_ideas",
+      "kind": "text",
+      "bbox": [
+        1583,
+        943,
+        1812,
+        968
+      ],
+      "text": "IDEAS THAT STICK",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1820,
+        1033,
+        1907,
+        1072
+      ],
+      "description": "右下角极淡的半透明圆角水印标签，内部含难以清晰辨认的小字及标记，按完整固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "text_title",
+    "overlay_line",
+    "overlay_flower_left_upper",
+    "overlay_flower_right",
+    "overlay_flower_left_lower",
+    "overlay_flower_bottom",
+    "text_cover",
+    "text_about",
+    "text_competencies",
+    "text_ideas",
+    "overlay_watermark"
+  ]
+}

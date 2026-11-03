@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_stripes",
+    "description": "全画布为深灰与略浅灰交替的宽横条纹固定底图，条纹在四边及照片、装饰之间连续可见。保留条纹的颜色变化和原有质感，独立照片、音乐装饰及字样不归入底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_piano_keys",
+      "kind": "overlay",
+      "bbox": [
+        855,
+        84,
+        1080,
+        1322
+      ],
+      "description": "右侧纵向排列的钢琴键装饰，黑色键块与深色水平分隔线共同组成完整固定单元，右端被画布裁切，左侧部分被大型高音谱号遮挡。"
+    },
+    {
+      "id": "overlay_large_clef",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        0,
+        928,
+        1440
+      ],
+      "description": "贯穿画布右侧的巨大黑色高音谱号，带白色轮廓及柔化边缘，上下端触及画布边界，覆盖部分钢琴键；整套笔画作为一个固定装饰保留。"
+    },
+    {
+      "id": "overlay_top_symbols",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        90,
+        544,
+        165
+      ],
+      "description": "左上横向白色装饰符号带，包含蘑菇状线描、树枝状符号、螺旋、圆点、小方块及加号，彼此构成一组对称的固定排布，不作为普通文字重排。"
+    },
+    {
+      "id": "overlay_wing",
+      "kind": "overlay",
+      "bbox": [
+        303,
+        243,
+        370,
+        335
+      ],
+      "description": "单枚浅蓝白色翅膀贴纸，羽毛层次、明暗和柔化外缘整体保留，位于左上符号带与背包照片之间。"
+    },
+    {
+      "id": "photo_backpack",
+      "kind": "photo",
+      "bbox": [
+        441,
+        172,
+        778,
+        601
+      ],
+      "description": "上方花瓣状窗口内为一只黑色背包的近景照片，背包置于白色室内台面，包上有圆形徽章、小翅膀及悬挂饰物，这些均属于实拍内容。保留窗口内台面和浅色环境，不沿背包去背景；白色细轮廓依附整个花瓣状照片窗口。"
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        45,
+        450,
+        489,
+        1079
+      ],
+      "description": "左侧竖向椭圆窗口内是一名深色双辫人物的全身照，穿格纹短袖衬衫、牛仔短裤和运动鞋，背黑色背包，双臂向左右展开，脸朝画面右侧。保留浅色墙面、地面和低矮白色家具，不去背景；白色轮廓沿完整椭圆窗口，下方右侧被心形照片遮挡。"
+    },
+    {
+      "id": "photo_red_fixture",
+      "kind": "photo",
+      "bbox": [
+        357,
+        878,
+        653,
+        1308
+      ],
+      "description": "下方心形窗口内为红色消防设施的近景，顶部把手、圆鼓状主体及下方柱体共同显示，前方有白色金属护架，旁边可见碎石和浅色墙地环境。保留这些摄影内容，不沿红色物体去背景；白色细轮廓依附心形窗口，窗口左上叠在人物照片右下部分。"
+    },
+    {
+      "id": "overlay_middle_symbols",
+      "kind": "overlay",
+      "bbox": [
+        507,
+        687,
+        765,
+        748
+      ],
+      "description": "中部偏右的一组白色装饰字形与符号，包括树枝状箭头、圆点、螺旋、双点竖笔、花枝状符号、小方块以及左下短波浪线，保留原有相对位置，整体作为艺术符号装饰。"
+    },
+    {
+      "id": "overlay_small_music",
+      "kind": "overlay",
+      "bbox": [
+        163,
+        1188,
+        249,
+        1277
+      ],
+      "description": "左下小型五线谱与黑色高音谱号组合贴纸，包含谱线、左侧竖线及谱号的立体明暗，整体保留；右上部分邻接并被白色爱心局部覆盖。"
+    },
+    {
+      "id": "overlay_white_heart",
+      "kind": "overlay",
+      "bbox": [
+        237,
+        1173,
+        311,
+        1246
+      ],
+      "description": "小型白色爱心贴纸，带浅灰立体明暗和柔和边缘，位于小五线谱右上方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_symbols",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        1310,
+        597,
+        1377
+      ],
+      "description": "底部横向白色装饰带，由不同大小的实心圆、空心圆及中央一对弯曲字形构成，字形位置和笔画造型固定，整体保留，不拆为普通文字。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1413,
+        1076,
+        1436
+      ],
+      "description": "右下角极淡的小型圆角水印标记，内部细小字形无法可靠辨认，保留其原有整体视觉形式。"
+    }
+  ],
+  "layer_order": [
+    "overlay_piano_keys",
+    "overlay_large_clef",
+    "photo_backpack",
+    "photo_person",
+    "photo_red_fixture",
+    "overlay_top_symbols",
+    "overlay_wing",
+    "overlay_middle_symbols",
+    "overlay_small_music",
+    "overlay_white_heart",
+    "overlay_bottom_symbols",
+    "overlay_watermark"
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        728
+      ],
+      "description": "上部独立横向摄影画面，一名红棕色头发、齐刘海的女性正面睁大眼睛，脸部近景占据上半部，中央前方摆着红发积木人偶，下方可见衣服和头发。人物、人偶及原有摄影环境一起替换，不沿主体去背景。画面延伸至上、左、右边缘，下缘被笔记本遮挡；左右露出的照片在约728处结束。"
+    },
+    {
+      "id": "overlay_dot_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        725,
+        1080,
+        1440
+      ],
+      "description": "画布下部的青绿色固定底板，带细密纹理及错列排列的浅粉白色圆点，延伸至左右和底部画布边缘。中央被笔记本遮挡，作为局部完整设计底板保留，不扩展为全画布背景。"
+    },
+    {
+      "id": "frame_notebook",
+      "kind": "frame",
+      "bbox": [
+        27,
+        630,
+        1035,
+        1386
+      ],
+      "description": "展开的白色双页笔记本照片载体，左右纸页略有倾斜，具有圆润纸边、中央青绿色装订脊和粉色线圈。完整保留粉色横线、星形点缀、蛋糕涂鸦及手写的“sweet birthday”“birthday happy”等印绘内容。左右页各承载一个独立照片窗口，照片内容不属于固定纸页。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        116,
+        755,
+        495,
+        1244
+      ],
+      "description": "左页略倾斜的竖向室内照片，一名红棕色头发女性站立面向镜头，双手在腹前拿着展示物，穿浅色上衣与浅色长裙。保留窗帘、窗户、生日主题布帘和右侧沙发等完整摄影环境；显示范围为纸页上的四边形照片窗口，无主体去背景，底部被窗口裁切。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        605,
+        929,
+        957,
+        1279
+      ],
+      "description": "右页略倾斜的近景照片，一名齐刘海女性位于右侧，面向镜头微笑；前方展示台上有红发积木人偶、彩色生日蛋糕模型及包装展示物。保留这些物件与左侧生日布帘等摄影环境，作为同一张照片整体替换，按四边形窗口显示，不沿人物或人偶去背景。"
+    },
+    {
+      "id": "overlay_happy",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        360,
+        377,
+        461
+      ],
+      "description": "独立“Happy”艺术字，粉色圆润手绘字形配白色厚描边，字母高低与倾斜不完全一致，覆盖上部照片左侧头发，完整保留字形及轮廓。"
+    },
+    {
+      "id": "overlay_birthday",
+      "kind": "overlay",
+      "bbox": [
+        701,
+        372,
+        1055,
+        472
+      ],
+      "description": "独立“birthday”艺术字，粉色手绘字形配白色厚描边，字母排列略有起伏，覆盖上部照片右侧头发，完整保留特殊字形及描边。"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        237,
+        132,
+        266,
+        170
+      ],
+      "description": "左上头发上的一枚小白色手绘五角星，保留不规则交叉笔画和内部空隙。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        966,
+        138,
+        1015,
+        189
+      ],
+      "description": "右上头发上的一枚粉色手绘五角星，保留涂画笔触及不规则外形。"
+    },
+    {
+      "id": "overlay_star_cheek_left",
+      "kind": "overlay",
+      "bbox": [
+        339,
+        183,
+        388,
+        248
+      ],
+      "description": "人物左侧脸颊上的白色空心手绘五角星，独立叠加在摄影画面上。"
+    },
+    {
+      "id": "overlay_star_cheek_right",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        194,
+        803,
+        249
+      ],
+      "description": "人物右侧脸颊上的白色空心手绘五角星，保留交叉线条和不规则星角。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        246,
+        117,
+        298
+      ],
+      "description": "画面左侧头发上的粉色手绘五角星，完整保留交叉笔画与外伸短线。"
+    },
+    {
+      "id": "overlay_star_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        232,
+        291,
+        274,
+        339
+      ],
+      "description": "“Happy”字样上方、左侧头发上的白色小五角星，为独立手绘装饰。"
+    },
+    {
+      "id": "overlay_star_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        871,
+        292,
+        908,
+        333
+      ],
+      "description": "“birthday”字样上方、右侧头发上的白色小五角星，保留粗细不均的手绘笔触。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        298,
+        568,
+        346,
+        619
+      ],
+      "description": "上部照片左下方头发上的粉色五角星，位于笔记本上缘上方，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        522,
+        824,
+        557
+      ],
+      "description": "上部照片右下方头发上的小白色五角星，位于生日字样与笔记本之间。"
+    }
+  ],
+  "layer_order": [
+    "overlay_dot_panel",
+    "photo_top",
+    "frame_notebook",
+    "photo_left",
+    "photo_right",
+    "overlay_happy",
+    "overlay_birthday",
+    "overlay_star_upper_left",
+    "overlay_star_upper_right",
+    "overlay_star_cheek_left",
+    "overlay_star_cheek_right",
+    "overlay_star_left",
+    "overlay_star_middle_left",
+    "overlay_star_middle_right",
+    "overlay_star_lower_left",
+    "overlay_star_lower_right"
+  ]
+}

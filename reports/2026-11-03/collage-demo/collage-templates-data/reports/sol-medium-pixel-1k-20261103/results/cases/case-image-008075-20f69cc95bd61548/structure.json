@@ -1,0 +1,265 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "一张失焦的餐厅室内摄影画面连续覆盖全画布，天花板、墙面黑板、货架、桌椅及地面在四边和拼贴间隙连续可见，没有清晰可辨的人物主体。两张清晰人物照片及贴纸遮挡其局部；完整餐厅环境随客户底图替换，不将环境作为固定设计保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        129,
+        123,
+        592,
+        738
+      ],
+      "description": "上方竖向餐厅照片，一位戴黑白条纹帽、留浅色长发的女子坐在餐桌前，正面半身入镜，一手拿黑色杯子，另一手将瓶子举在头旁。下方可见餐盘和小碗，身后保留窗外树木、室内吊灯与墙面。完整照片窗口被左上胶带和下方文字纸条局部遮住；白色粗糙线沿照片窗口四边形成描边，不沿人物去背景。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        504,
+        752,
+        970,
+        1367
+      ],
+      "description": "右下竖向餐厅照片，同一位条纹帽长发女子坐在桌前，脸转向左侧，一手持餐具，另一手在肩旁举瓶，前景有大餐盘、小碗和杯子。窗外树木、吊灯及座位环境保留，与上方照片姿态和取景不同，为独立显示位置。完整窗口上沿被文字纸条和纽扣遮挡，四边有白色粗糙描边，人物没有出框。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        110,
+        285,
+        276
+      ],
+      "description": "斜贴在上方照片左上角的灰褐色与米白色格纹胶带，保留不规则纸边、格纹及中央黄色星形印饰，整体作为一个固定单元。"
+    },
+    {
+      "id": "overlay_cheers",
+      "kind": "overlay",
+      "bbox": [
+        622,
+        146,
+        998,
+        406
+      ],
+      "description": "右上白色粉笔手绘祝酒装饰，包括碰杯的两只啤酒杯、飞溅小线圈、不规则字样“CHEERS!!!”以及周围三枚十字星。字形大小和笔画不规则，整组视觉设计保留。"
+    },
+    {
+      "id": "overlay_hot_food",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        410,
+        972,
+        696
+      ],
+      "description": "右侧卡通吃烫食的女孩贴纸：深色短发、粉红上衣、张嘴伸舌，一手持勺，另一手垂下；左侧包含勺上的黄色食物碎粒及两团白色热气。完整人物与附属图案共同保留。"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        113,
+        430,
+        143,
+        459
+      ],
+      "description": "上方照片左边缘附近的一枚小黄色手绘星形装饰，部分覆盖照片边线。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        390,
+        585,
+        439
+      ],
+      "description": "上方照片右侧靠近人物肩部的黄色五角星装饰，覆盖照片内的深色环境。"
+    },
+    {
+      "id": "overlay_star_plate",
+      "kind": "overlay",
+      "bbox": [
+        299,
+        632,
+        350,
+        684
+      ],
+      "description": "覆盖上方照片餐盘的黄色手绘五角星，形状和颜色属于后加装饰，不属于餐食摄影内容。"
+    },
+    {
+      "id": "overlay_love_tape",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        685,
+        671,
+        785
+      ],
+      "description": "跨在两张照片之间、向右上倾斜的浅灰白撕边纸条，印有不规则手写字“I believe in love”及黑色小爱心。纸张、折痕、撕边和文字整体保留。"
+    },
+    {
+      "id": "overlay_bite_tape",
+      "kind": "overlay",
+      "bbox": [
+        472,
+        743,
+        760,
+        807
+      ],
+      "description": "位于上一条纸条右下方的近水平浅灰白撕边纸条，印有手写字“with first bite.”，覆盖右下照片上沿；保留纸边、细微纹理和原字形。"
+    },
+    {
+      "id": "overlay_dinner",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        774,
+        362,
+        886
+      ],
+      "description": "左侧白色手绘晚餐装饰，包含一碗堆高的米饭、弯曲上指箭头和不规则字样“Dinner”，作为完整粉笔风格设计保留。"
+    },
+    {
+      "id": "overlay_button",
+      "kind": "overlay",
+      "bbox": [
+        862,
+        731,
+        976,
+        846
+      ],
+      "description": "右下照片右上角叠放的一枚白色四孔纽扣，保留圆形立体外缘、四个深色孔、明暗和阴影；不承担照片窗口功能。"
+    },
+    {
+      "id": "overlay_steak_girl",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        929,
+        442,
+        1370
+      ],
+      "description": "左下完整卡通用餐贴纸，一位深色短发女孩穿粉红袖上衣和白围裙，闭眼微笑，双手拿刀叉，前方木色桌板上放牛排铁盘；周围附属黄色闪光星与人物、桌板共同构成一个设计单元。"
+    },
+    {
+      "id": "overlay_iced_drink",
+      "kind": "overlay",
+      "bbox": [
+        477,
+        1261,
+        573,
+        1387
+      ],
+      "description": "右下照片左下边缘叠放的手绘冰饮杯贴纸，包含杯盖、斜插吸管、杯中冰块、褐色饮料及深色轮廓，杯身延伸到照片外。"
+    },
+    {
+      "id": "overlay_drop_top",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        695,
+        555,
+        722
+      ],
+      "description": "上方照片下缘与倾斜文字纸条交接处的小黄色水滴状装饰，下部被纸条遮挡，只记录有依据的可见范围。"
+    },
+    {
+      "id": "overlay_drop_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        854,
+        832,
+        881,
+        887
+      ],
+      "description": "右下照片右上部、纽扣下方及吊灯旁的黄色长水滴装饰，覆盖深色摄影背景。"
+    },
+    {
+      "id": "overlay_drop_left",
+      "kind": "overlay",
+      "bbox": [
+        499,
+        938,
+        517,
+        975
+      ],
+      "description": "右下照片左边线中上段的一枚黄色水滴装饰，跨压白色照片描边。"
+    },
+    {
+      "id": "overlay_drop_right",
+      "kind": "overlay",
+      "bbox": [
+        965,
+        1091,
+        983,
+        1128
+      ],
+      "description": "右下照片右边缘中段的小黄色水滴装饰，局部位于照片窗口外。"
+    },
+    {
+      "id": "overlay_drop_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        543,
+        1159,
+        570,
+        1209
+      ],
+      "description": "右下照片左下部、餐具与桌面上方的一枚黄色长水滴装饰，覆盖摄影内容。"
+    },
+    {
+      "id": "overlay_drop_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        920,
+        1199,
+        943,
+        1240
+      ],
+      "description": "右下照片右下部、人物袖侧与桌面附近的一枚黄色水滴装饰。"
+    },
+    {
+      "id": "overlay_drop_plate",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        1266,
+        647,
+        1311
+      ],
+      "description": "右下照片大餐盘中央偏左的黄色短水滴状图案，与画面其他黄色点缀一致，作为覆盖餐食的固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "overlay_star_upper_left",
+    "overlay_star_upper_right",
+    "overlay_star_plate",
+    "overlay_drop_top",
+    "overlay_drop_upper_right",
+    "overlay_drop_left",
+    "overlay_drop_right",
+    "overlay_drop_lower_left",
+    "overlay_drop_lower_right",
+    "overlay_drop_plate",
+    "overlay_tape",
+    "overlay_cheers",
+    "overlay_hot_food",
+    "overlay_love_tape",
+    "overlay_bite_tape",
+    "overlay_dinner",
+    "overlay_button",
+    "overlay_steak_girl",
+    "overlay_iced_drink"
+  ]
+}

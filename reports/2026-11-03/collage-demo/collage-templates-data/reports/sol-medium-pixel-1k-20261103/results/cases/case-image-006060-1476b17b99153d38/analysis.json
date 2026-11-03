@@ -1,0 +1,240 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "background_stripes",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "覆盖全画布的暖棕色固定设计底图，细密竖条纹贯穿四边，叠有柔和的金色光斑、深浅渐变与零星细小亮点。照片及中央承托面板为独立单元，清除后保留底图纹理，不将其简化为纯色。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的暖棕色固定设计底图，细密竖条纹贯穿四边，叠有柔和",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_panel",
+      "kind": "frame",
+      "bbox": [
+        122,
+        279,
+        949,
+        1354
+      ],
+      "description": "中央直立的半透明浅米棕色矩形承托面板，四周宽边露出下层条纹，内承载一张竖向照片。保留面板的透明质感与完整外缘，星形装饰及照片下方的蝴蝶结线饰分别记录。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "中央直立的半透明浅米棕色矩形承托面板，四周宽边露出下层条纹，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        209,
+        386,
+        870,
+        1235
+      ],
+      "description": "一名盘发女子穿深色露肩礼服坐在椅子上，半身至裙摆入镜，侧脸朝右，双手托着带点燃蜡烛的白色天鹅蛋糕。保留灰棕色室内墙面、左侧座椅及右下圆桌、桌上小物等完整摄影环境。照片为清晰竖向矩形，人物未沿轮廓去背景；底部叠有独立白色蝴蝶结虚线装饰。",
+      "label": "一名盘发女子穿深色露肩礼服坐在椅子上，半身至裙摆入镜，侧脸朝",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        1153,
+        763,
+        1193
+      ],
+      "description": "照片下部的白色手绘线饰，中央为蝴蝶结，左右延伸为轻微起伏的虚线，整体作为一个独立装饰保留，覆盖裙摆和桌面。",
+      "label": "照片下部的白色手绘线饰，中央为蝴蝶结，左右延伸为轻微起伏的虚",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        0,
+        818,
+        40
+      ],
+      "description": "画布顶端偏右的小型浅奶油色五角星，略有倾斜，上端被画布边缘裁切。",
+      "label": "画布顶端偏右的小型浅奶油色五角星，略有倾斜，上端被画布边缘裁",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        664,
+        97,
+        769,
+        198
+      ],
+      "description": "右上方较大的浅奶油色五角星，轮廓略不规则，独立叠在暖棕条纹底图上。",
+      "label": "右上方较大的浅奶油色五角星，轮廓略不规则，独立叠在暖棕条纹底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        183,
+        214,
+        218,
+        247
+      ],
+      "description": "左上方的小型浅奶油色五角星，位于中央承托面板上方，保留其倾斜轮廓。",
+      "label": "左上方的小型浅奶油色五角星，位于中央承托面板上方，保留其倾斜",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_panel_top",
+      "kind": "overlay",
+      "bbox": [
+        370,
+        324,
+        419,
+        368
+      ],
+      "description": "中央面板上边带内的小型浅奶油色五角星，位于照片上方，与面板边缘没有连接。",
+      "label": "中央面板上边带内的小型浅奶油色五角星，位于照片上方，与面板边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_hidden",
+      "kind": "overlay",
+      "bbox": [
+        869,
+        539,
+        887,
+        570
+      ],
+      "description": "照片右侧上半部露出的浅奶油色星形尖角，其余部分被照片遮挡；仅据可见部分记录范围，不补造隐藏轮廓。",
+      "label": "照片右侧上半部露出的浅奶油色星形尖角，其余部分被照片遮挡；仅",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_hidden",
+      "kind": "overlay",
+      "bbox": [
+        177,
+        898,
+        211,
+        958
+      ],
+      "description": "照片左侧中下部露出的浅奶油色星形装饰，右部被照片边缘遮挡，可见左向尖角及下部轮廓。",
+      "label": "照片左侧中下部露出的浅奶油色星形装饰，右部被照片边缘遮挡，可",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        932,
+        963,
+        970,
+        1000
+      ],
+      "description": "画布右侧中下部的小型浅奶油色五角星，靠近面板右缘，部分跨出面板范围。",
+      "label": "画布右侧中下部的小型浅奶油色五角星，靠近面板右缘，部分跨出面",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        1173,
+        133,
+        1271
+      ],
+      "description": "画布左下侧较大的浅奶油色五角星，位于面板左侧，轮廓略有倾斜。",
+      "label": "画布左下侧较大的浅奶油色五角星，位于面板左侧，轮廓略有倾斜。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_panel_bottom",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        1258,
+        891,
+        1346
+      ],
+      "description": "中央面板右下角内的大型浅奶油色五角星，位于照片下方的宽边区域，保留不规则尖角轮廓。",
+      "label": "中央面板右下角内的大型浅奶油色五角星，位于照片下方的宽边区域",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        1378,
+        185,
+        1414
+      ],
+      "description": "面板下方偏左的小型浅奶油色五角星，独立分布在条纹底图上。",
+      "label": "面板下方偏左的小型浅奶油色五角星，独立分布在条纹底图上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        1446,
+        629,
+        1545
+      ],
+      "description": "画布下部偏中央的大型浅奶油色五角星，轻微倾斜，与上方面板分离。",
+      "label": "画布下部偏中央的大型浅奶油色五角星，轻微倾斜，与上方面板分离",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        784,
+        1565,
+        831,
+        1607
+      ],
+      "description": "靠近画布底边偏右的小型浅奶油色五角星，完整可见，保留其不规则轮廓。",
+      "label": "靠近画布底边偏右的小型浅奶油色五角星，完整可见，保留其不规则",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_stripes",
+    "frame_panel",
+    "overlay_star_top",
+    "overlay_star_upper_right",
+    "overlay_star_upper_left",
+    "overlay_star_panel_top",
+    "overlay_star_right_hidden",
+    "overlay_star_left_hidden",
+    "overlay_star_middle_right",
+    "overlay_star_lower_left",
+    "overlay_star_panel_bottom",
+    "overlay_star_bottom_left",
+    "overlay_star_bottom_center",
+    "overlay_star_bottom_right",
+    "photo_portrait",
+    "overlay_bow"
+  ]
+}

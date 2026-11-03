@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布为连续的灰棕色笔记纸设计，带粉色横向细线、左侧竖向页边线及沿左栏重复排列的小爱心。相同底色和线条在四边及照片、装饰之间连续露出，作为固定底图保留；独立照片、贴纸和字样不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        179,
+        212,
+        638,
+        822
+      ],
+      "description": "上方竖向三人合照，保留明亮室内的天花板、墙面和地面。左侧穿浅蓝裙的长发女子站立俯身，下方中间女子托腮，右侧戴眼镜的长发女子靠近镜头并将手放在下巴旁。完整矩形照片下缘右部被下方照片遮挡，左右边缘叠有独立手绘翅膀，右上角叠有粉色蝴蝶结。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        567,
+        746,
+        970,
+        1277
+      ],
+      "description": "右下竖向三人镜面合照，三名女子蹲坐并靠拢，左侧穿粉色上衣，中间女子举手机，右侧穿浅蓝裙。保留商店内的镜面、灯光、陈列和瓷砖地面。照片上缘覆盖上方合照右下部，周边有细浅色边线，下缘叠有粉色音符装饰；摄影环境完整保留。"
+    },
+    {
+      "id": "overlay_heart_patch",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        50,
+        338,
+        173
+      ],
+      "description": "左上独立方形贴片，灰棕底上排列浅色小圆点，中央为大粉色爱心。底板、圆点与爱心共同构成一个固定设计单元。"
+    },
+    {
+      "id": "overlay_spiral_card",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        76,
+        604,
+        169
+      ],
+      "description": "顶部白色横向小卡片，内部为粉色手绘椭圆螺旋线；完整保留白色载体和螺旋笔画，不承担照片窗口功能。"
+    },
+    {
+      "id": "overlay_date_header",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        23,
+        1066,
+        116
+      ],
+      "description": "右上日期填写设计，由浅奶油色细长手写字样“date”和右侧粉色矩形填写栏组成，栏内有两条浅色斜杠。字样的特殊笔画与填写栏整体保留。"
+    },
+    {
+      "id": "overlay_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        178,
+        723,
+        413
+      ],
+      "description": "照片右上方的浅粉色细带蝴蝶结，包含两个结环和向下垂落的两条弯曲飘带，局部压住上方照片边缘，作为完整独立装饰保留。"
+    },
+    {
+      "id": "overlay_wing_left",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        438,
+        195,
+        539
+      ],
+      "description": "上方照片左侧的奶油白手绘翅膀，包含外侧圆弧轮廓、内侧螺旋及相邻小星形点缀，部分线条叠在照片左边缘。"
+    },
+    {
+      "id": "overlay_wing_right",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        438,
+        733,
+        541
+      ],
+      "description": "上方照片右侧的奶油白手绘翅膀，包含弧形外轮廓、内部螺旋和小星形点缀，左侧局部压住照片右边缘。"
+    },
+    {
+      "id": "overlay_house_patch",
+      "kind": "overlay",
+      "bbox": [
+        741,
+        365,
+        1011,
+        635
+      ],
+      "description": "右侧房屋状装饰贴片，上部为粉色小圆点三角形，下部为灰棕色圆点方形，方形内竖向排列三个奶油白蝴蝶结图案。三角顶、方形底板及印刷图案构成完整固定单元，不含照片窗口。"
+    },
+    {
+      "id": "overlay_star_row",
+      "kind": "overlay",
+      "bbox": [
+        701,
+        666,
+        948,
+        701
+      ],
+      "description": "房屋状贴片下方的一排六颗奶油白五角星，等距横向排列，作为完整的星星横排装饰保留。"
+    },
+    {
+      "id": "overlay_life_lettering",
+      "kind": "overlay",
+      "bbox": [
+        208,
+        829,
+        552,
+        1361
+      ],
+      "description": "左下奶油白手写艺术字，共五行，依次为“Live”“a Slow”“and”“Concrete”“Life”。细线笔画、大小不一的字母、各行不同的位置和间距共同构成自由手写排版，整体保留原有视觉形式。"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        645,
+        1251,
+        815,
+        1379
+      ],
+      "description": "下方粉色手绘音乐装饰，由左侧连梁音符、中央高音谱号和右侧单音符组成，紧邻且共同构成一组；上部笔画覆盖右下照片的下边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "overlay_heart_patch",
+    "overlay_spiral_card",
+    "overlay_date_header",
+    "overlay_house_patch",
+    "overlay_star_row",
+    "overlay_life_lettering",
+    "overlay_ribbon",
+    "overlay_wing_left",
+    "overlay_wing_right",
+    "overlay_music"
+  ]
+}

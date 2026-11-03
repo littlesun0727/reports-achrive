@@ -1,0 +1,100 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布连续的浅褐色纸质底纹，带细微纤维、斑驳与明暗变化，四边及装饰间隙均可见同一纸面。保留纸底原样，独立照片、蕾丝框和叠贴装饰分别清除与重建。"
+  },
+  "objects": [
+    {
+      "id": "lace_frame",
+      "kind": "frame",
+      "bbox": [
+        82,
+        339,
+        996,
+        1580
+      ],
+      "description": "承托中央单张竖向照片的米白色蕾丝框体，四边具有完整波浪花边、网眼、花朵及叶片刺绣纹样。照片覆盖中央区域，外围蕾丝连续露出；左上被蝴蝶结遮挡，右下被纸签和贴饰遮挡，整体保留蕾丝材质与边缘。",
+      "photo_id": [
+        "portrait_photo"
+      ]
+    },
+    {
+      "id": "portrait_photo",
+      "kind": "photo",
+      "bbox": [
+        177,
+        510,
+        903,
+        1411
+      ],
+      "description": "单张竖向生日餐桌照片。一位长发女性穿粉色衣裙坐在右侧，闭眼微笑，双手在下巴前比心；左下是大束浅粉鲜花，前景桌面有红色花瓣与生日字样，背景保留玻璃窗、树影和灯光倒影。完整矩形摄影窗口覆盖蕾丝框中央，不去除摄影环境；左上及右下局部被固定装饰遮挡。"
+    },
+    {
+      "id": "ribbon_button",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        390,
+        480,
+        931
+      ],
+      "description": "照片左上角的金米色缎带蝴蝶结与棕色圆纽扣组合。保留左右绳环、中央结、向右延伸的短带及沿照片左边垂下的长带，包含缎面织纹、纽扣孔和阴影；整体叠在蕾丝与照片上。"
+    },
+    {
+      "id": "handwritten_note",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        1353,
+        1027,
+        1586
+      ],
+      "description": "右下角不规则撕边的棕色纸签，斜置并跨过照片右下边缘及蕾丝框。纸上带多行深色英文手写祝福，可辨有“Smile”和小爱心；文字与纸张作为完整固定设计保留，不拆成普通文字。上缘被白花遮挡，左下被小熊遮挡。"
+    },
+    {
+      "id": "white_flower",
+      "kind": "overlay",
+      "bbox": [
+        907,
+        1314,
+        1025,
+        1424
+      ],
+      "description": "纸签右上方的一朵白色花贴饰，浅黄花心，花瓣带柔和纹理与阴影，左侧附有少量纤细白色线状点缀。完整花朵压在纸签上缘，并与蕾丝右边及照片右下区域相邻。"
+    },
+    {
+      "id": "teddy_sticker",
+      "kind": "overlay",
+      "bbox": [
+        761,
+        1472,
+        900,
+        1635
+      ],
+      "description": "右下方坐姿棕色毛绒小熊贴饰，包含圆耳、面部、双臂、双脚及颈部金色蝴蝶结，保留毛绒质感与边缘阴影。小熊覆盖纸签左下部分，脚部伸至蕾丝框下方的纸底上。"
+    },
+    {
+      "id": "birthday_lettering",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        1608,
+        725,
+        1857
+      ],
+      "description": "画布下方居中的白色珠点艺术字装饰，两行内容为“Happy”和“Birthday”。字母采用连笔花体，包含左上珠点蝴蝶结、右侧小闪光星形、字间点缀及底部卷曲长线；这些点状笔画和附属图案作为一个完整设计保留。"
+    }
+  ],
+  "layer_order": [
+    "lace_frame",
+    "portrait_photo",
+    "ribbon_button",
+    "handwritten_note",
+    "white_flower",
+    "teddy_sticker",
+    "birthday_lettering"
+  ]
+}

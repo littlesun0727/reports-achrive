@@ -1,0 +1,157 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        488
+      ],
+      "description": "上方横向车内照片，一名戴黑米色编织桶帽、穿白色纹理上衣的短发女子坐在后排，侧身朝右并转脸看向镜头，嘴部张开。保留车窗外景、车门、座椅及右侧大幅前座头枕，摄影环境完整保留；下边界与中间照片形成水平接缝，右侧叠有黄色手写字样。",
+      "label": "上方横向车内照片，一名戴黑米色编织桶帽、穿白色纹理上衣的短发",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        488,
+        1080,
+        961
+      ],
+      "description": "中间独立横向车内照片，同一装束的一名女子位于左侧，双手靠近脸颊，侧脸朝右，阳光照亮面部和白色衣袖。保留左侧头枕、后座、车窗外景及右侧车门；与上图姿态和取景不连续。下缘被下方照片遮接，右下区域被餐桌照片延伸出的帽子和人物局部遮挡。",
+      "label": "中间独立横向车内照片，同一装束的一名女子位于左侧，双手靠近脸",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        961,
+        1080,
+        1440
+      ],
+      "description": "底部横向餐馆照片，一名戴编织桶帽、穿白色上衣的女子坐在餐桌前，持筷子夹食物靠近嘴部，另一只手抬起，面前有粉色餐碗与黑色汤匙。保留餐馆桌椅、饮水瓶、金属容器及墙面环境；完整照片窗口从中下方水平接缝延伸至画布底边。人物上部连续越过窗口上边，由关联前景单独表达。",
+      "label": "底部横向餐馆照片，一名戴编织桶帽、穿白色上衣的女子坐在餐桌前",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_foreground",
+      "kind": "photo",
+      "bbox": [
+        0,
+        814,
+        1044,
+        1440
+      ],
+      "description": "延伸自底部餐馆照片的连续前景，包含女子完整可见的帽子、头发、面部、双臂、白色上衣、筷子，以及前方餐碗、汤匙和相连桌面。帽子越过底部照片上边，覆盖中间车内照片的下部。人物外侧及相连桌面边界带白色细碎描边，轮廓外不保留餐馆背景；桌面左侧到达画布边缘，下部被画布底边裁切。",
+      "linked_to": "photo_bottom",
+      "label": "延伸自底部餐馆照片的连续前景，包含女子完整可见的帽子、头发、",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_lettering",
+      "kind": "overlay",
+      "bbox": [
+        514,
+        258,
+        958,
+        482
+      ],
+      "description": "上方照片右侧的浅黄色手写字样组合，可辨为“HERE on EARTH”和“Joy is young.”，末端附手绘笑脸。大小写、笔画长度和各词位置不规则，两行及笑脸作为完整艺术字装饰保留，无独立底板。",
+      "label": "上方照片右侧的浅黄色手写字样组合，可辨为“HERE on E",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_heart",
+      "kind": "overlay",
+      "bbox": [
+        699,
+        520,
+        745,
+        575
+      ],
+      "description": "中间照片车窗区域的一枚浅黄色空心手绘爱心，细长双弧笔画构成独立装饰，与下方字样分开保留。",
+      "label": "中间照片车窗区域的一枚浅黄色空心手绘爱心，细长双弧笔画构成独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_lettering",
+      "kind": "overlay",
+      "bbox": [
+        527,
+        615,
+        1014,
+        830
+      ],
+      "description": "中间照片右侧浅黄色手写艺术字组合，上行可辨为“Here on earth Joy’s”，中行“Yours”后接波浪线，右下另有长引线及“Your cute”。字词大小、位置及笔画不规则，完整保留这组错落字样与附属线条。",
+      "label": "中间照片右侧浅黄色手写艺术字组合，上行可辨为“Here on",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_accents",
+      "kind": "overlay",
+      "bbox": [
+        373,
+        1018,
+        435,
+        1095
+      ],
+      "description": "底部人物左侧、帽檐与肩部附近的三条白色短笔画，呈放射状强调动作，独立于人物外沿描边，作为一组固定装饰保留。",
+      "label": "底部人物左侧、帽檐与肩部附近的三条白色短笔画，呈放射状强调动",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_steam",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        1251,
+        628,
+        1376
+      ],
+      "description": "餐碗上方的两条亮黄色手绘弯曲蒸汽线，覆盖白色衣服和碗内食物，作为完整独立装饰保留。",
+      "label": "餐碗上方的两条亮黄色手绘弯曲蒸汽线，覆盖白色衣服和碗内食物，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_top_lettering",
+    "overlay_middle_heart",
+    "overlay_middle_lettering",
+    "photo_bottom_foreground",
+    "overlay_white_accents",
+    "overlay_steam"
+  ]
+}

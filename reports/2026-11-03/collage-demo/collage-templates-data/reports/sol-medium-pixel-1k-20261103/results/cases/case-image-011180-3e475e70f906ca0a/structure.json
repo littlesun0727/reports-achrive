@@ -1,0 +1,519 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_cafe_background",
+    "description": "暖色咖啡馆内的连续摄影画面，窗户、绿植、吊灯、墙面、木桌和座椅延伸至画布四边。右上方一名戴草帽、穿白色上衣的长发女子侧身伏在手臂上看向镜头，右侧可见格纹衣物。人物与室内环境整体替换；中央纸张、照片和装饰遮挡大部分场景，没有明确的独立人物照片窗口或出框边界。"
+  },
+  "objects": [
+    {
+      "id": "overlay_top_tab",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        107,
+        684,
+        246
+      ],
+      "description": "顶部玫红色凸起标签形装饰，带浅粉圆点、白色星星和中央蓝色蝴蝶；下沿被中央半透明纸张遮挡，整体保留。"
+    },
+    {
+      "id": "overlay_upper_paper",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        238,
+        921,
+        781
+      ],
+      "description": "中央上半部的半透明暖米色纸张底板，保留轻微纸纹、色差及边缘。下层咖啡馆场景隐约透出，上面叠放照片卡、标题、唱片和装饰；不是一张独立摄影画面。"
+    },
+    {
+      "id": "frame_notebook",
+      "kind": "frame",
+      "bbox": [
+        116,
+        742,
+        950,
+        1335
+      ],
+      "description": "下半部大型半透明白色活页本承托结构，包含圆角页面、外缘、叠页和上沿金属装订环。页面上承载右下饮品照片，其他卡片、餐食和文字贴纸另列；页面材质与装订环整体保留。",
+      "photo_id": [
+        "photo_drinks"
+      ]
+    },
+    {
+      "id": "photo_portrait_top",
+      "kind": "photo",
+      "bbox": [
+        121,
+        323,
+        250,
+        451
+      ],
+      "description": "左上照片卡内的第一张女子照片，一名长发女子穿浅色上衣，面对镜头，手持饮品或餐具，显示头部至上半身。保留暗色咖啡馆摄影环境，右下部分与第二个照片位置相邻并受卡体遮挡。"
+    },
+    {
+      "id": "photo_portrait_bottom",
+      "kind": "photo",
+      "bbox": [
+        202,
+        413,
+        338,
+        612
+      ],
+      "description": "同一照片卡右下位置的第二张女子照片，长发女子穿浅色上衣，坐在桌前看向镜头，一侧手臂抬起，前方可见餐食。保留木质室内环境；这是姿态与取景重新起始的独立照片。"
+    },
+    {
+      "id": "frame_portraits",
+      "kind": "frame",
+      "bbox": [
+        80,
+        269,
+        373,
+        656
+      ],
+      "description": "左上双照片深灰褐色卡框，包含错落的两个照片内口、深色留白、上下圆点、细小英文印字和小标签；可辨有“Beautiful Life”等字样。外围白色断续线围绕整个卡片布局，作为此完整框体设计保留。",
+      "photo_id": [
+        "photo_portrait_top",
+        "photo_portrait_bottom"
+      ]
+    },
+    {
+      "id": "overlay_yummy",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        195,
+        204,
+        338
+      ],
+      "description": "压在照片卡左上角的餐具贴纸，圆形灰底内有粉色椭圆与浅蓝叉匙，附带圆点、下垂色块及写有“Yummy”的浅色横条，整体保留。"
+    },
+    {
+      "id": "overlay_cloud_note",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        571,
+        208,
+        677
+      ],
+      "description": "照片卡左下方的浅灰云朵便签，黑色手写韩文“날씨가 맑습니다.”，周围带星星、弧线与小装饰；便签轮廓、文字及点缀作为一个固定单元保留。"
+    },
+    {
+      "id": "overlay_dotted_heart",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        650,
+        224,
+        757
+      ],
+      "description": "云朵便签下方的白色点状爱心与闪光点，呈松散手绘轮廓，内部透明，整体作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_happiness_title",
+      "kind": "overlay",
+      "bbox": [
+        392,
+        298,
+        713,
+        425
+      ],
+      "description": "中央上方白色手写标题组合，包含心形线条、“幸福指数upup!”、下方韩文“첫사랑맛”、英文“First love”及散布的小星点。字形、大小和位置不统一，作为完整标题装饰保留。"
+    },
+    {
+      "id": "overlay_black_music",
+      "kind": "overlay",
+      "bbox": [
+        359,
+        431,
+        638,
+        601
+      ],
+      "description": "中央偏左的黑色音乐文字图案，由多行中文、英文“chill”、音符和小咖啡杯组成，可辨“音乐”“享受在这里的下午时光”等内容；字符与音符交错排布，整体保留。"
+    },
+    {
+      "id": "overlay_cassette_pink",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        312,
+        896,
+        475
+      ],
+      "description": "右上倾斜的黑色粉红磁带装饰，包含标签、磁带轮、壳体细节和阴影；标签上的细小文字随磁带保留。"
+    },
+    {
+      "id": "overlay_cassette_gray",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        399,
+        1076,
+        596
+      ],
+      "description": "右侧较大的倾斜灰白磁带，带手写“Moment”、黑色磁带轮、透明壳体纹理及细小印字；压在粉红磁带局部之上，整体保留。"
+    },
+    {
+      "id": "overlay_cassette_orange",
+      "kind": "overlay",
+      "bbox": [
+        770,
+        561,
+        993,
+        732
+      ],
+      "description": "右下方橙色标签的倾斜磁带，包含灰色透明壳、两个磁带轮、黑白边线、字母“B”和“DR”等印字，覆盖灰白磁带下缘。"
+    },
+    {
+      "id": "overlay_record",
+      "kind": "overlay",
+      "bbox": [
+        604,
+        422,
+        813,
+        625
+      ],
+      "description": "中央偏右的黑色唱片贴纸，外圈为青蓝色与黄色，中心为红黄圆盘，白色侧标写有“ROCK”“MUSIC”；上方粉黄尖角点缀和完整边缘一起保留。"
+    },
+    {
+      "id": "overlay_earphone_line",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        144,
+        1046,
+        478
+      ],
+      "description": "叠在右上女子与磁带附近的浅青色耳机线涂鸦，包含耳侧两颗星形端点、沿脸颊和肩部延伸的细线、交汇小结及右侧下垂曲线；不属于摄影人物，整体保留。"
+    },
+    {
+      "id": "overlay_green_drink",
+      "kind": "overlay",
+      "bbox": [
+        304,
+        584,
+        399,
+        730
+      ],
+      "description": "照片卡右下附近的绿色饮品装饰，包含透明高杯、浅绿色饮料、顶部叶片与小白花、细长吸管和杯脚附近的白色蝴蝶结线稿，整体保留。"
+    },
+    {
+      "id": "overlay_yes",
+      "kind": "overlay",
+      "bbox": [
+        408,
+        626,
+        463,
+        677
+      ],
+      "description": "黄色黑边小对话气泡，内部写有“YES”，尾部朝下，作为独立贴纸保留。"
+    },
+    {
+      "id": "overlay_life_title",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        650,
+        650,
+        705
+      ],
+      "description": "中央黑边白字与黄字组成的手写中文标题，可辨“此生…了!”；文字中穿插黄色花朵造型，笔画、花朵与感叹号共同作为装饰保留。"
+    },
+    {
+      "id": "overlay_white_cat",
+      "kind": "overlay",
+      "bbox": [
+        589,
+        591,
+        646,
+        654
+      ],
+      "description": "唱片左下侧的白色坐姿小猫剪影，长尾向左上弯曲，位于文字与音符上方，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_music_swoosh",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        678,
+        1013,
+        836
+      ],
+      "description": "跨越上方纸张和活页本上沿的音乐装饰组合，包含青绿色弯曲五线谱、音符和高音谱号，右侧散布白色音符、闪光点及“每天点小确幸。”字样。保留线条的完整走向和内部透明间隙。"
+    },
+    {
+      "id": "frame_food_collage",
+      "kind": "frame",
+      "bbox": [
+        146,
+        808,
+        449,
+        1040
+      ],
+      "description": "左下餐食拼贴的米色菜单纸卡，包含多个餐食显示位置、纸纹、星形印花、细小标记及“PERSONALITY FASHION CLOTHES”字样。固定纸卡与印刷整体保留，餐食摄影内容分别替换。",
+      "photo_id": [
+        "photo_food_spread",
+        "photo_food_sushi",
+        "photo_food_rice",
+        "photo_food_pasta",
+        "photo_food_meat"
+      ]
+    },
+    {
+      "id": "photo_food_spread",
+      "kind": "photo",
+      "bbox": [
+        149,
+        809,
+        313,
+        1032
+      ],
+      "description": "菜单纸卡左侧的大幅俯拍餐桌照片，多只餐盘中有肉类、米饭及配菜，深色桌面和餐具共同保留。显示范围为竖向餐食区域，右下局部被独立小餐盘照片覆盖。"
+    },
+    {
+      "id": "photo_food_sushi",
+      "kind": "photo",
+      "bbox": [
+        325,
+        820,
+        384,
+        902
+      ],
+      "description": "菜单纸卡上部的小幅餐食照片，深色背景前有一份盛放在小器皿中的寿司或米饭料理，俯斜视角，保留该矩形摄影区域内的环境。"
+    },
+    {
+      "id": "photo_food_rice",
+      "kind": "photo",
+      "bbox": [
+        385,
+        854,
+        447,
+        910
+      ],
+      "description": "菜单纸卡右上部的圆碗餐食照片，黑色碗内为橙褐色米饭，按完整碗形独立显示，碗外没有连续摄影背景。"
+    },
+    {
+      "id": "photo_food_pasta",
+      "kind": "photo",
+      "bbox": [
+        261,
+        957,
+        350,
+        1028
+      ],
+      "description": "菜单纸卡下方偏左的独立俯拍餐盘照片，浅色圆盘内盛有意面或细丝餐食及小块配料，沿完整餐盘轮廓显示，覆盖左侧大餐桌照片的一部分。"
+    },
+    {
+      "id": "photo_food_meat",
+      "kind": "photo",
+      "bbox": [
+        362,
+        958,
+        441,
+        1021
+      ],
+      "description": "菜单纸卡右下方的小幅矩形餐食照片，盘中有棕色肉块与浅色配料，保留深色盘面及窗口内摄影内容。"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        66,
+        973,
+        221,
+        1088
+      ],
+      "description": "左下独立咖啡杯与碟子的摄影组合，奶白色杯中可见拉花，杯柄朝右，浅色碟子与小勺共同显示。沿杯、碟和附属餐具外形去除原摄影环境，保留柔和阴影。"
+    },
+    {
+      "id": "photo_pudding",
+      "kind": "photo",
+      "bbox": [
+        469,
+        816,
+        617,
+        928
+      ],
+      "description": "活页本上缘的焦糖布丁摄影组合，圆形浅色盘中放置金黄色布丁，右后方有小白兔造型点缀。盘子、布丁和附属点缀共同沿外形显示，摄影环境去除，下沿覆盖聊天卡左上部分。"
+    },
+    {
+      "id": "photo_food_set",
+      "kind": "photo",
+      "bbox": [
+        342,
+        991,
+        548,
+        1131
+      ],
+      "description": "页面中部偏左的独立餐食组合，包含红色切片食物、中央竹筒或木质小炉器皿、右侧蔬菜碗及数只小调料碟。整个组合共同去除摄影环境，浅色柔化边缘覆盖白色页面，不按各只碗拆分。"
+    },
+    {
+      "id": "overlay_chat_card",
+      "kind": "overlay",
+      "bbox": [
+        521,
+        847,
+        907,
+        1033
+      ],
+      "description": "三层错位叠放的白色圆角聊天卡，带黑色细边和右上角绿黄粉圆点；最上层文字为“睡到自然醒，吃到无聊，玩到嗨！”。文字随卡片保留，右下部分被眼睛贴纸遮挡。"
+    },
+    {
+      "id": "overlay_eyes",
+      "kind": "overlay",
+      "bbox": [
+        779,
+        976,
+        902,
+        1065
+      ],
+      "description": "聊天卡右下的双眼贴纸，两个白色长椭圆眼球内带黑色瞳孔、亮点和灰色阴影，作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_duck",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        1026,
+        655,
+        1110
+      ],
+      "description": "页面中下部的立体黄色小鸭贴纸，圆头、橙色嘴和张开的翅膀，保留柔和高光与底部阴影。"
+    },
+    {
+      "id": "overlay_green_fruit",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        1035,
+        742,
+        1097
+      ],
+      "description": "黄色小鸭右侧的绿色果实线稿组合，一枚实色绿色苹果和一枚浅色黑绿描边的小果实，包含叶片、表情及附近短线，整体保留。"
+    },
+    {
+      "id": "overlay_mint_dots",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        1076,
+        613,
+        1278
+      ],
+      "description": "页面中部散布的浅青绿色圆点装饰，大小不一，从餐食组合右下延伸至下方文字与饮品照片之间；圆点之间保持透明空隙。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        608,
+        1085,
+        926,
+        1295
+      ],
+      "description": "右下矩形饮品照片，草地和苔藓环境中并排摆放黄色与浅蓝色杯子，左杯配绿色叶片，右杯上方有深色圆形食物。杯身标签和文字属于摄影内容，整体随照片替换。窗口外围有灰色断续线及浅色边缘，依附此照片范围保留。"
+    },
+    {
+      "id": "overlay_chinese_note",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        1079,
+        398,
+        1189
+      ],
+      "description": "咖啡杯右下的两行黑色手写字“我要学会”“享受当下”，置于不规则白色刷痕底上，第二行末端带太阳线稿；文字、白色底痕和太阳作为完整贴纸保留。"
+    },
+    {
+      "id": "overlay_love_strip",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        1186,
+        530,
+        1267
+      ],
+      "description": "底部偏左的不规则白色长纸条，上有黑色手写“Love in the moment”。纸条边缘有刷痕、断口和轻微灰影，文字随纸条整体保留。"
+    },
+    {
+      "id": "overlay_blue_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        1271,
+        194,
+        1380
+      ],
+      "description": "左下蓝色蝴蝶贴纸，左右翅膀带浅色细小中文、星点与渐变，保留特殊翅形、印字和柔和边缘。"
+    },
+    {
+      "id": "overlay_travel_cartoon",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        1253,
+        572,
+        1383
+      ],
+      "description": "底部中央的旅行卡通贴纸组合，包含人物、蓝色票券、黑白场记板、手提物、橙色点缀及黄色锯齿便签，便签可辨“Let's go~”“出发…”。所有成员及粗黑轮廓整体保留。"
+    },
+    {
+      "id": "overlay_continue_label",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        1298,
+        967,
+        1369
+      ],
+      "description": "右下浅蓝色长方形标签，含“To be continued....”、右指箭头及底部多色像素格条；文字、底板和像素图案作为一个固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_top_tab",
+    "overlay_upper_paper",
+    "frame_notebook",
+    "photo_portrait_top",
+    "photo_portrait_bottom",
+    "frame_portraits",
+    "overlay_yummy",
+    "overlay_cloud_note",
+    "overlay_dotted_heart",
+    "overlay_happiness_title",
+    "overlay_black_music",
+    "overlay_cassette_pink",
+    "overlay_cassette_gray",
+    "overlay_cassette_orange",
+    "overlay_record",
+    "overlay_earphone_line",
+    "overlay_green_drink",
+    "overlay_yes",
+    "overlay_life_title",
+    "overlay_white_cat",
+    "overlay_music_swoosh",
+    "frame_food_collage",
+    "photo_food_spread",
+    "photo_food_sushi",
+    "photo_food_rice",
+    "photo_food_meat",
+    "photo_food_pasta",
+    "photo_coffee",
+    "photo_food_set",
+    "overlay_chat_card",
+    "photo_pudding",
+    "overlay_eyes",
+    "overlay_mint_dots",
+    "photo_drinks",
+    "overlay_duck",
+    "overlay_green_fruit",
+    "overlay_chinese_note",
+    "overlay_love_strip",
+    "overlay_blue_butterfly",
+    "overlay_travel_cartoon",
+    "overlay_continue_label"
+  ]
+}

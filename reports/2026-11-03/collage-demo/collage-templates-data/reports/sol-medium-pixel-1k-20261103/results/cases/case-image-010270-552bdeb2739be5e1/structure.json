@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        711
+      ],
+      "description": "左上独立竖向照片，画面中一名女性穿浅色碎花连衣裙，手持白色毛绒玩具，人物与深色木门地面共同属于照片；右缘和下缘在拼接处截断。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        711
+      ],
+      "description": "右上独立照片，一只手托着透明盒装草莓蛋糕，背景为深色家具及地面，画面下方可见脚部；与左侧照片在竖直接缝处重新起始。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        711,
+        540,
+        1431
+      ],
+      "description": "左下独立照片，深色桌面上有红色西瓜气泡饮，旁边可见毛绒玩具和半个西瓜；保留完整照片环境，画面在画布边缘裁切。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        711,
+        1080,
+        1431
+      ],
+      "description": "右下独立俯拍照片，桌面上有笔记本电脑、蛋糕盒及铺在圆点布上的两盒餐食，右侧可见餐具；与上方照片在水平接缝处重新起始，保留照片环境。"
+    },
+    {
+      "id": "overlay_caption_left",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        414,
+        245,
+        477
+      ],
+      "description": "左上照片上的白色手写风格两行字样，含“ootd:”及中文短句，作为整体独立字样保留。"
+    },
+    {
+      "id": "overlay_caption_top_right",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        115,
+        1007,
+        176
+      ],
+      "description": "右上照片上方的白色手写风格两行中文标题，作为整体独立字样保留。"
+    },
+    {
+      "id": "overlay_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        907,
+        509,
+        986,
+        565
+      ],
+      "description": "右上照片中的白色手绘闪光符号与小圆点，构成一个独立装饰单元。"
+    },
+    {
+      "id": "overlay_watermelon",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        1185,
+        461,
+        1216
+      ],
+      "description": "左下照片中饮料旁的小型西瓜片与绿色叶片贴纸，作为一个独立装饰单元保留。"
+    },
+    {
+      "id": "overlay_caption_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        1303,
+        483,
+        1343
+      ],
+      "description": "左下照片底部的白色手写风格中文说明，末尾带黄色闪光符号，文字与符号作为整体装饰字样保留。"
+    },
+    {
+      "id": "overlay_caption_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        914,
+        1306,
+        1080,
+        1348
+      ],
+      "description": "右下照片底部的白色手写风格中文短句，右侧延伸至画布边缘并被画布裁切，作为整体装饰字样保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_caption_left",
+    "overlay_caption_top_right",
+    "overlay_sparkle",
+    "overlay_watermelon",
+    "overlay_caption_bottom_left",
+    "overlay_caption_bottom_right"
+  ]
+}

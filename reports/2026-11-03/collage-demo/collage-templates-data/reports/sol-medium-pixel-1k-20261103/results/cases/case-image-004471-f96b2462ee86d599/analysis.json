@@ -1,0 +1,81 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        0,
+        655,
+        1080,
+        1440
+      ],
+      "description": "下半幅为一张俯拍书籍的连续照片，没有人物。浅粉色书籍居中置于灰色粗糙纹理表面，书本下部被画布底边截断。封面可见黑色竖排中文“庆祝什么也不干的一天”，以及书本、红玫瑰、草帽和水果的印刷图像；这些均属于被拍摄书籍，随整张照片替换。保留书籍两侧的摄影环境，照片上缘与上方粉褐色面板水平相接。",
+      "label": "下半幅为一张俯拍书籍的连续照片，没有人物。浅粉色书籍居中置于",
+      "method": "local"
+    },
+    {
+      "id": "overlay_upper_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        656
+      ],
+      "description": "覆盖画布上部的粉褐色矩形固定面板，具有轻微的明暗与色泽变化，下缘为横贯画布的平直边界。不承载照片窗口；面板外观整体保留，中央法文另列为独立文字。",
+      "label": "覆盖画布上部的粉褐色矩形固定面板，具有轻微的明暗与色泽变化，",
+      "method": "extract"
+    },
+    {
+      "id": "text_french",
+      "kind": "text",
+      "bbox": [
+        211,
+        334,
+        867,
+        379
+      ],
+      "description": "Le meilleur est à venir.",
+      "label": "Le meilleur est à venir.",
+      "method": "local",
+      "text": "Le meilleur est à venir.",
+      "text_status": "known",
+      "style": {
+        "fill": "#F4F1E7",
+        "font": "mono",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_book",
+    "overlay_upper_panel",
+    "text_french"
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "red_fabric_background",
+    "description": "全画布为连续的深酒红色绒面织物底图，四边及餐盘、餐具周围均露出相同材质，具有细密绒纹、明暗变化和柔和阴影。保留固定织物底图，餐盘、照片卡、餐具、装饰与文字分别清除和重建。"
+  },
+  "objects": [
+    {
+      "id": "silver_plate",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        258,
+        965,
+        1104
+      ],
+      "description": "中央大型复古银色圆餐盘，包含完整盘面、同心凹槽、繁复卷叶花纹盘沿、金属磨损质感及外缘阴影。照片卡叠在盘面中央，餐具覆盖部分盘沿，底部红玫瑰压在盘面上；餐盘不是照片窗口或专用框体。"
+    },
+    {
+      "id": "photo_card",
+      "kind": "frame",
+      "bbox": [
+        255,
+        503,
+        828,
+        861
+      ],
+      "description": "横向灰银色照片卡，中央具有单个矩形照片内口，外围为宽卡边、细线压纹和四角折线装饰，包含纸面质感及下缘阴影。红色唇印作为跨越卡边的独立装饰另列，照片内容独立替换。",
+      "photo_id": [
+        "birthday_photo"
+      ]
+    },
+    {
+      "id": "birthday_photo",
+      "kind": "photo",
+      "bbox": [
+        383,
+        541,
+        760,
+        824
+      ],
+      "description": "横向室内生日照片，一位戴小皇冠、穿浅色吊带礼服的长发女性位于右侧，半身侧向左下方，双手合拢靠近脸部，低头看向前方点燃蜡烛的花朵蛋糕。左侧保留花束、小台灯与室内背景，右后方较暗。完整矩形摄影环境保留，边缘有贴合窗口的细白色不规则线，顶部及右侧局部被红唇印覆盖，下方身体由窗口裁切。"
+    },
+    {
+      "id": "lip_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        355,
+        514,
+        446,
+        582
+      ],
+      "description": "照片卡左上方独立红色唇印，保留上下唇的细碎纹路与不规则轮廓，斜贴在卡面并跨过照片窗口上缘。"
+    },
+    {
+      "id": "lip_right",
+      "kind": "overlay",
+      "bbox": [
+        711,
+        590,
+        802,
+        662
+      ],
+      "description": "照片卡右上部独立红色唇印，保留唇纹和斜向轮廓，横跨照片右边界，部分覆盖照片暗色背景，部分落在银灰卡边上。"
+    },
+    {
+      "id": "lip_left",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        677,
+        366,
+        734
+      ],
+      "description": "照片卡左侧宽边上的独立红色唇印，略向右上倾斜，完整保留双唇轮廓及内部纹理。"
+    },
+    {
+      "id": "lip_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        803,
+        829,
+        875
+      ],
+      "description": "照片卡右下角独立红色唇印，斜压在卡边及照片窗口下角，末端越过卡片下缘，保留完整不规则轮廓和唇纹。"
+    },
+    {
+      "id": "silver_fork",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        741,
+        377,
+        1129
+      ],
+      "description": "左下斜向右上的复古银叉，四根叉齿、叉颈及雕花长柄构成完整单元，保留金属反光、磨损和阴影。叉齿压住照片卡左下边缘及餐盘，手柄向左下延伸并被画布左边裁切。"
+    },
+    {
+      "id": "silver_knife",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        288,
+        1080,
+        790
+      ],
+      "description": "右上斜向右下的复古银刀，圆头长刀身、连接部和雕花刀柄整体保留，刀身有细密金属划痕及明暗反光。刀身压在餐盘右上沿，刀柄延伸至画布右边并被裁切。"
+    },
+    {
+      "id": "red_rose",
+      "kind": "overlay",
+      "bbox": [
+        492,
+        925,
+        605,
+        1020
+      ],
+      "description": "餐盘下部的一朵独立深红玫瑰花头，正面略倾斜，保留层叠花瓣、暗部和柔和边缘；没有可见花茎，作为固定装饰置于盘面上。"
+    },
+    {
+      "id": "music_note_left",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        191,
+        239,
+        306
+      ],
+      "description": "左上方小型银白水钻双音符装饰，由两条斜向连接横杆、细长竖杆和两个圆形音符头构成，整体保留珠粒高光和阴影。"
+    },
+    {
+      "id": "music_note_right",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        73,
+        925,
+        219
+      ],
+      "description": "右上方较大的银白水钻双音符装饰，倾斜放置，完整保留珠粒组成的双横杆、竖杆、圆形音符头及阴影，与左上音符为两个独立显示单元。"
+    },
+    {
+      "id": "birthday_text",
+      "kind": "text",
+      "bbox": [
+        328,
+        1193,
+        793,
+        1294
+      ],
+      "text": "Happy Birthday",
+      "color": "#F9F6EE",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1351,
+        1074,
+        1372
+      ],
+      "description": "右下角极小的暗红色横向圆角标记，内部含难以辨认的小字，整体作为原有固定标记保留。"
+    }
+  ],
+  "layer_order": [
+    "silver_plate",
+    "photo_card",
+    "birthday_photo",
+    "lip_upper_left",
+    "lip_right",
+    "lip_left",
+    "lip_lower_right",
+    "silver_fork",
+    "silver_knife",
+    "red_rose",
+    "music_note_left",
+    "music_note_right",
+    "birthday_text",
+    "corner_mark"
+  ]
+}

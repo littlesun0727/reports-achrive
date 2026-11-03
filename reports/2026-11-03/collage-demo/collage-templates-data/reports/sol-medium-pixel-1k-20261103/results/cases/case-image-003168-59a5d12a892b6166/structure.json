@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        608
+      ],
+      "description": "上方横向室内照片：一名年轻女性穿黄色上衣，背着黑色乐器箱，身体微微前倾并朝画面右侧微笑；人物为中景，身后可见室内门厅。完整照片区域铺满画布宽度，与下方照片以水平边界分隔，保留摄影环境。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        608,
+        1080,
+        1212
+      ],
+      "description": "中间横向照片为浅色方格纸页面，右侧有多行中文手写或印刷文字及铅笔标记，左上有深色标题字样。纸张纹理、网格和全部字迹均属于摄影内容；照片区域铺满画布宽度，边界与上下照片分明。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1212,
+        1080,
+        1817
+      ],
+      "description": "下方横向近景人像照片：一名女性的脸部占据画面，面朝画面左侧并略向上看，右侧可见深色头发和耳坠，左侧为室内背景。保留完整摄影环境；照片区域铺满画布宽度，与中间照片以水平边界分隔。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

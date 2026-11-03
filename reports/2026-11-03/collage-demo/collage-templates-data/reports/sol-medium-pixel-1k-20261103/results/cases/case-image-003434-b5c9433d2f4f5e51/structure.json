@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "浅蓝白色的连续水彩纹理纸底，覆盖整个画布并在照片之间及四周可见；照片、文字和鱼形装饰均为独立单元，保留纸底原有纹理。"
+  },
+  "objects": [
+    {
+      "id": "photo_harbor",
+      "kind": "photo",
+      "bbox": [
+        136,
+        70,
+        581,
+        717
+      ],
+      "description": "左上竖幅海港照片，远处海平线、港池、防波堤、沙滩及一名小比例站立人物共同构成摄影画面；保留天空和水面环境，四边有随窗口轮廓的白色手绘描边。"
+    },
+    {
+      "id": "photo_station",
+      "kind": "photo",
+      "bbox": [
+        471,
+        650,
+        968,
+        1386
+      ],
+      "description": "下方偏右的竖幅车站建筑照片，仰视可见蓝天、站房、站台栏杆、立柱及一名远处人物；保留完整摄影环境，四边带白色手绘描边。上部被右上照片遮挡。"
+    },
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        679,
+        270,
+        1054,
+        798
+      ],
+      "description": "右上倾斜的街道照片，包含蓝天、沿街建筑、电线、人行道及两侧围栏；保留摄影环境，窗口边缘带白色手绘描边，覆盖下方车站照片的上部。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        849,
+        446,
+        1100
+      ],
+      "description": "左侧两行白色中文艺术字，内容为“海远远地发声，／回响。”，整体倾斜并采用手写字形与装饰性笔画，作为一组固定文字设计保留。"
+    },
+    {
+      "id": "overlay_fish_icon",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        75,
+        878,
+        195
+      ],
+      "description": "右上浅蓝色鱼形线稿图案，内部带装饰性字母样笔画，上方另有两个浅蓝小圆点；成员共同组成一枚固定装饰。"
+    },
+    {
+      "id": "overlay_fish_school",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        1124,
+        478,
+        1361
+      ],
+      "description": "左下多枚深蓝与浅蓝色小鱼剪影，疏密错落并伴有淡白蓝色水迹状笔触，作为一组固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_harbor",
+    "photo_station",
+    "photo_street",
+    "text_quote",
+    "overlay_fish_school",
+    "overlay_fish_icon"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1919
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1919
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        721
+      ],
+      "description": "顶部横向人物照片：一名长发女性坐在室内桌前，近景正面低头闭眼，双手交握置于胸前；身后灰色墙面、左侧局部家具及右侧椅子均属于摄影环境。照片完整显示至画布左右边缘和水平下缘。",
+      "label": "顶部横向人物照片：一名长发女性坐在室内桌前，近景正面低头闭眼",
+      "method": "local"
+    },
+    {
+      "id": "paper_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        721,
+        1080,
+        1197
+      ],
+      "description": "横贯画布的浅棕米色纸质纹理面板，边缘为水平矩形，表面有细微斑驳纹理；作为独立固定设计单元保留，中央印字另行记录。",
+      "label": "横贯画布的浅棕米色纸质纹理面板，边缘为水平矩形，表面有细微斑",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1197,
+        1080,
+        1919
+      ],
+      "description": "底部横向餐桌照片：木桌中央是一只白色圆盘，盘中有插着燃烧细蜡烛的小圆蛋糕；左上有浅色纸卡，右侧有窄长纸条。桌面、纸张及其印字均属于摄影内容，照片完整延伸至画布左右边缘和底边。",
+      "label": "底部横向餐桌照片：木桌中央是一只白色圆盘，盘中有插着燃烧细蜡",
+      "method": "local"
+    },
+    {
+      "id": "text_birthday",
+      "kind": "text",
+      "bbox": [
+        305,
+        930,
+        775,
+        997
+      ],
+      "description": "Happy Birthday.",
+      "label": "Happy Birthday.",
+      "method": "local",
+      "text": "Happy Birthday.",
+      "text_status": "known",
+      "style": {
+        "fill": "#241417",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "paper_panel",
+    "photo_cake",
+    "text_birthday"
+  ]
+}

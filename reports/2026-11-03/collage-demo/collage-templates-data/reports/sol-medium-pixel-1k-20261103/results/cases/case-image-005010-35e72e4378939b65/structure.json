@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_fabric",
+    "description": "全画布为黑色织物底图，左侧及下方可见灰白色佩斯利纹样和细密织纹，向右侧过渡为较暗的黑色区域；纹理在画布边缘及相纸周围连续显露。保留织物纹理与明暗变化，清除上方独立照片、相纸、纸条和水印。"
+  },
+  "objects": [
+    {
+      "id": "photo_couple",
+      "kind": "photo",
+      "bbox": [
+        405,
+        286,
+        946,
+        1009
+      ],
+      "description": "竖向双人户外合影，后方人物戴深色毛边帽、穿黑色冬衣，面对镜头微笑；前方人物戴浅色连帽，面对镜头噘嘴。显示范围包含两人的上半身及蓝天、植物、灰色建筑背景，底部身体由照片窗口裁切。保留完整摄影环境，无沿人物轮廓去背景；右侧局部被相纸上的小爱心图案覆盖。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        370,
+        228,
+        982,
+        1203
+      ],
+      "description": "白色竖向拍立得相纸，外缘略圆，带轻微边缘阴影；上方及左右留窄边，下方留宽白边，只有一个矩形照片内口。右侧纵向分布灰、黑及浅色小爱心，部分延伸到照片显示区域，作为框体的一体装饰保留。左下角被手写纸条遮挡。",
+      "photo_id": [
+        "photo_couple"
+      ]
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        1135,
+        608,
+        1247
+      ],
+      "description": "叠在相纸左下角的浅米色纸条，纸边不规则并略微弯曲，带细微纸质纹理。黑色手写字为“赶在日落之前。”，两端带引号，字形大小与位置不规则；纸张、文字和附属笔画作为完整装饰保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1414,
+        1073,
+        1433
+      ],
+      "description": "右下角深灰色小胶囊形水印，内部为低对比度的“醒图”字样，底板与文字整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_couple",
+    "frame_polaroid",
+    "overlay_note",
+    "overlay_watermark"
+  ]
+}

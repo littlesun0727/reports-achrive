@@ -1,0 +1,153 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的室内角落摄影画面覆盖整个画布，无人物。左侧近景为浅色墙柱、黄色香蕉奶包装和便利店标志盒，下方有悬挂纸袋；中部及右侧可见布料、悬挂星形饰物、置物架、杯子和室内杂物。墙面与室内景物连续延伸至四边，局部被上叠纸卡和涂鸦遮挡。保留完整摄影环境，实拍包装文字及悬挂装饰均随客户照片整体替换。",
+      "background_type": "photo",
+      "label": "一张连续的室内角落摄影画面覆盖整个画布，无人物。左侧近景为浅",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        139,
+        260,
+        174
+      ],
+      "description": "左上墙面上的小型白色手绘五角星，交错线条构成完整独立涂鸦。",
+      "label": "左上墙面上的小型白色手绘五角星，交错线条构成完整独立涂鸦。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_middle",
+      "kind": "overlay",
+      "bbox": [
+        545,
+        234,
+        627,
+        308
+      ],
+      "description": "上方中部叠在摄影布料上的白色手绘五角星，多重粗细不均的线条交叉，完整保留其笔触。",
+      "label": "上方中部叠在摄影布料上的白色手绘五角星，多重粗细不均的线条交",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        579,
+        103,
+        634
+      ],
+      "description": "左侧墙面上的白色手绘五角星，带向两侧延伸的交叉笔画，独立于墙面摄影内容。",
+      "label": "左侧墙面上的白色手绘五角星，带向两侧延伸的交叉笔画，独立于墙",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        468,
+        674,
+        611
+      ],
+      "description": "画面中央的大型浅粉色五角星贴纸，内部为细小粉白格点图案，边缘柔和；覆盖室内摄影内容，与实拍悬挂星饰分开保留。",
+      "label": "画面中央的大型浅粉色五角星贴纸，内部为细小粉白格点图案，边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        489,
+        1065,
+        703
+      ],
+      "description": "右侧浅灰白矩形纸卡，承载四行蓝灰色手写字，整体保留纸面和不规则字形。可辨文字为“你要去哪裡 我都跟著你／讓我陪你 淋一場雨／你的愛跟晴天一樣 講麗和溫柔／我都不想離開”；部分字迹辨识不确定，不另拆普通文字。",
+      "label": "右侧浅灰白矩形纸卡，承载四行蓝灰色手写字，整体保留纸面和不规",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_note",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        619,
+        919,
+        666
+      ],
+      "description": "纸卡末行文字前方叠加的小型白色手绘五角星，交叉线条遮住局部蓝灰字迹，作为独立装饰保留。",
+      "label": "纸卡末行文字前方叠加的小型白色手绘五角星，交叉线条遮住局部蓝",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        404,
+        875,
+        512,
+        973
+      ],
+      "description": "便利店标志盒右侧的白色手绘螺旋涂鸦，由外圈弧线连续卷向中心，部分笔画覆盖标志盒，整体保留。",
+      "label": "便利店标志盒右侧的白色手绘螺旋涂鸦，由外圈弧线连续卷向中心，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        873,
+        941,
+        950,
+        1018
+      ],
+      "description": "右下方独立浅粉白五角星贴纸，内部有细小粉色格点，叠在背景置物区域前方。",
+      "label": "右下方独立浅粉白五角星贴纸，内部有细小粉色格点，叠在背景置物",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        1198,
+        458,
+        1229
+      ],
+      "description": "下方偏左的小型白色手绘五角星，细线交叉形成星形，独立叠加在摄影场景上。",
+      "label": "下方偏左的小型白色手绘五角星，细线交叉形成星形，独立叠加在摄",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_star_top_left",
+    "overlay_star_top_middle",
+    "overlay_star_left",
+    "overlay_star_middle",
+    "overlay_note",
+    "overlay_star_note",
+    "overlay_spiral",
+    "overlay_star_lower_right",
+    "overlay_star_bottom"
+  ]
+}

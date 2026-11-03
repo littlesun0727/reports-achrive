@@ -1,0 +1,180 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "background_gradient",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "覆盖全画布的固定纵向渐变底图，由顶部灰褐色逐渐过渡至底部近白色。四周及照片之间的空隙呈连续渐变，保留原样；独立照片与叠加文字不属于底图。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的固定纵向渐变底图，由顶部灰褐色逐渐过渡至底部近白",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_bird_top",
+      "kind": "photo",
+      "bbox": [
+        113,
+        152,
+        678,
+        530
+      ],
+      "description": "左上横向照片，一只浅蓝白色虎皮鹦鹉站在斜向木栖杆上，头朝左，身体及尾羽向下延伸。左侧明亮窗户、后方格纹窗帘与木杆均属于摄影内容，保留完整环境。照片上部被独立白字遮挡。",
+      "label": "左上横向照片，一只浅蓝白色虎皮鹦鹉站在斜向木栖杆上，头朝左，",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        762,
+        173,
+        994,
+        504
+      ],
+      "description": "右上竖向饮品近景，一只手握着紫红色冰饮杯，顶部有厚白色奶盖，杯身可见“古茗 goodme”标志。手、杯子及后方暗色环境共同替换，保留矩形摄影范围，标志属于实拍内容。",
+      "label": "右上竖向饮品近景，一只手握着紫红色冰饮杯，顶部有厚白色奶盖，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bird_middle",
+      "kind": "photo",
+      "bbox": [
+        482,
+        598,
+        1026,
+        961
+      ],
+      "description": "中部右侧横向照片，一只浅蓝白色虎皮鹦鹉站在木栖杆上，低头向胸前梳理羽毛。窗户位于左侧，格纹窗帘位于后方，木杆斜穿画面下部。保留摄影环境；与左上照片姿态和取景不同，是独立显示位置。",
+      "label": "中部右侧横向照片，一只浅蓝白色虎皮鹦鹉站在木栖杆上，低头向胸",
+      "method": "local"
+    },
+    {
+      "id": "photo_refrigerator",
+      "kind": "photo",
+      "bbox": [
+        54,
+        752,
+        435,
+        1005
+      ],
+      "description": "中部左侧横向照片，深绿色双扇冰箱门的正面近景，中间有竖向门缝，右门印有白色开门示意图及“随手关冰箱门 / Keep refrigerator closed”，左门上部有两条小标签。图案、文字及门体均为实拍内容，随照片整体替换。",
+      "label": "中部左侧横向照片，深绿色双扇冰箱门的正面近景，中间有竖向门缝",
+      "method": "local"
+    },
+    {
+      "id": "photo_books",
+      "kind": "photo",
+      "bbox": [
+        247,
+        1037,
+        1001,
+        1799
+      ],
+      "description": "下部大幅倾斜矩形照片，拍摄黑色电子阅读界面的多行图书封面，包括英文、中文与韩文书名以及阅读进度。全部封面和界面字样属于同一摄影画面，不拆分。照片向左倾斜，上缘右端较高，左上部分被独立白字与书本图标遮挡。",
+      "label": "下部大幅倾斜矩形照片，拍摄黑色电子阅读界面的多行图书封面，包",
+      "method": "local"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        357,
+        188,
+        732,
+        268
+      ],
+      "description": "怎么有这么好喝的东西\n进入中国浙江",
+      "label": "怎么有这么好喝的东西\n进入中国浙江",
+      "method": "local",
+      "text": "怎么有这么好喝的东西\n进入中国浙江",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        59,
+        594,
+        431,
+        674
+      ],
+      "description": "臭小鸟我想你了\n喜欢你我亲亲亲咬咬咬",
+      "label": "臭小鸟我想你了\n喜欢你我亲亲亲咬咬咬",
+      "method": "local",
+      "text": "臭小鸟我想你了\n喜欢你我亲亲亲咬咬咬",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        97,
+        1071,
+        394,
+        1150
+      ],
+      "description": "好喜欢图书的页面\n求求了多多读书吧",
+      "label": "好喜欢图书的页面\n求求了多多读书吧",
+      "method": "local",
+      "text": "好喜欢图书的页面\n求求了多多读书吧",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_book_icon",
+      "kind": "overlay",
+      "bbox": [
+        396,
+        1116,
+        433,
+        1147
+      ],
+      "description": "位于下方文字第二行末尾的展开书本小图标，蓝色外边与浅色书页构成完整装饰，叠在倾斜图书照片上方。",
+      "label": "位于下方文字第二行末尾的展开书本小图标，蓝色外边与浅色书页构",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_gradient",
+    "photo_bird_top",
+    "photo_drink",
+    "photo_bird_middle",
+    "photo_refrigerator",
+    "photo_books",
+    "text_top",
+    "text_middle",
+    "text_bottom",
+    "overlay_book_icon"
+  ]
+}

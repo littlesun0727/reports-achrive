@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续铺满画布的山地村落摄影环境，包含远山、天空、树林、屋顶和烟雾，景观从四边延伸并在多张独立照片之间保持连续；上层三张照片和白色手绘设计遮挡局部，背景摄影环境整体保留并由客户素材替换。",
+      "background_type": "photo",
+      "label": "连续铺满画布的山地村落摄影环境，包含远山、天空、树林、屋顶和",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        351,
+        121,
+        1010,
+        563
+      ],
+      "description": "右上方横向矩形照片，显示山景露台上的年轻女性半身或中近景，女性面向镜头微笑并坐在餐桌旁，桌面有餐具和食物，背后是栏杆、树林与远山；摄影环境保留，照片下缘被左侧中部照片局部遮挡。",
+      "label": "右上方横向矩形照片，显示山景露台上的年轻女性半身或中近景，女",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        72,
+        503,
+        472,
+        770
+      ],
+      "description": "左侧中部横向矩形照片，显示穿粉色外套的年轻女性站在山村露台前张开双臂，人物面向镜头，背景包含屋顶、山谷与远山；保留完整摄影环境，照片上缘覆盖右上方照片的局部下缘。",
+      "label": "左侧中部横向矩形照片，显示穿粉色外套的年轻女性站在山村露台前",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        509,
+        897,
+        1008,
+        1251
+      ],
+      "description": "右下方横向矩形照片，显示一名穿白色服装的年轻女性站在木质村屋门前举起双臂，人物面向镜头，周围有木门、招牌、悬挂的绿色植物和店铺环境；保留完整摄影环境，矩形照片覆盖连续背景。",
+      "label": "右下方横向矩形照片，显示一名穿白色服装的年轻女性站在木质村屋",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        53,
+        153,
+        139
+      ],
+      "description": "画布左上方的白色手绘星星、短线和点状装饰，作为一个独立的固定涂鸦单元保留。",
+      "label": "画布左上方的白色手绘星星、短线和点状装饰，作为一个独立的固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mountain_icon",
+      "kind": "overlay",
+      "bbox": [
+        256,
+        314,
+        329,
+        368
+      ],
+      "description": "左上区域山景附近的小型彩色山峰插画装饰，具有独立轮廓并叠加在背景摄影上，整体作为固定图形保留。",
+      "label": "左上区域山景附近的小型彩色山峰插画装饰，具有独立轮廓并叠加在",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        184,
+        344,
+        238
+      ],
+      "description": "左上方横向白色手写中文装饰字样，笔画不规则并带有手绘排版特征，作为完整艺术字单元保留，不拆分为通用文字。",
+      "label": "左上方横向白色手写中文装饰字样，笔画不规则并带有手绘排版特征",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        389,
+        322,
+        486
+      ],
+      "description": "左侧中部的大号白色手写中文艺术字，笔画和字距具有独立手绘造型，叠加在背景摄影上并作为完整装饰保留。",
+      "label": "左侧中部的大号白色手写中文艺术字，笔画和字距具有独立手绘造型",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        626,
+        1035,
+        808
+      ],
+      "description": "画布右中部覆盖在山林背景上的多行白色手写中文文字组合，包含不规则笔画、行间距和手绘排版，作为一个完整固定艺术字单元保留。",
+      "label": "画布右中部覆盖在山林背景上的多行白色手写中文文字组合，包含不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_doodles",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        805,
+        808,
+        920
+      ],
+      "description": "右中部手写文字下方的白色星形、弧线和小型涂鸦装饰，部分位于下方照片上方区域，作为独立固定手绘单元保留。",
+      "label": "右中部手写文字下方的白色星形、弧线和小型涂鸦装饰，部分位于下",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        908,
+        207,
+        979
+      ],
+      "description": "左下方屋顶背景上的白色手绘猫咪涂鸦，包含猫形轮廓和小心形等附属笔画，整体作为一个固定装饰单元保留。",
+      "label": "左下方屋顶背景上的白色手绘猫咪涂鸦，包含猫形轮廓和小心形等附",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_label",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        1209,
+        697,
+        1440
+      ],
+      "description": "画布底部覆盖在屋顶和下方照片边缘上的白色手绘标签框，包含不规则矩形边框、边角笔画和两行中文手写文字；完整保留其框线、文字与手绘效果。",
+      "label": "画布底部覆盖在屋顶和下方照片边缘上的白色手绘标签框，包含不规",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_bottom_right",
+    "overlay_top_stars",
+    "overlay_mountain_icon",
+    "overlay_top_handwriting",
+    "overlay_middle_handwriting",
+    "overlay_right_handwriting",
+    "overlay_lower_doodles",
+    "overlay_cat_doodle",
+    "overlay_bottom_label"
+  ]
+}

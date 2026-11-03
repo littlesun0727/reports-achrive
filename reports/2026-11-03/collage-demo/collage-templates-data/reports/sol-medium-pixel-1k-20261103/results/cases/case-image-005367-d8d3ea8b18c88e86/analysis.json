@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的室内静物照片覆盖全画布，无人物。中央偏下是深棕色圆桌及弧形桌腿，桌上有绿色提手编织包、摊放的画册与绿色丝巾、白色有线耳机、装有珠饰的浅棕托盘及白色毛绒饰物。背景为浅灰米色墙面、踢脚线与浅色织纹地毯，摄影环境连续延伸至四边。画册印刷内容及桌上物件均属于实拍场景，随整张客户照片替换；上方字样与左下雪花为独立叠加装饰。",
+      "background_type": "photo",
+      "label": "一张连续的室内静物照片覆盖全画布，无人物。中央偏下是深棕色圆",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_good",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        64,
+        400,
+        175
+      ],
+      "description": "左上白色粉笔手绘风格“GOOD”字样，两个O内部各带笑脸，周围三枚大小不同的四角闪光与字样共同构成完整装饰。保留不规则笔触及各成员位置，不拆为普通文字。",
+      "label": "左上白色粉笔手绘风格“GOOD”字样，两个O内部各带笑脸，周",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        222,
+        487,
+        405
+      ],
+      "description": "上方偏左的四行白字与深灰色矩形底条组成完整文字标签设计，各行底条宽度不同、居中错落排列。文字依次为“带灰色底的字体”“MTXX-文字-素材”“里面有很多既成模板可以用，”“不用哼哧哼哧自己编辑啦。”。灰底与文字整体保留。",
+      "label": "上方偏左的四行白字与深灰色矩形底条组成完整文字标签设计，各行",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snowflake_large",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        940,
+        282,
+        1047
+      ],
+      "description": "桌面左下方、地毯上叠加的一枚较大白色手绘雪花，具有分叉枝端及柔软模糊的笔触边缘，作为独立固定装饰保留。",
+      "label": "桌面左下方、地毯上叠加的一枚较大白色手绘雪花，具有分叉枝端及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snowflake_middle",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        1090,
+        142,
+        1167
+      ],
+      "description": "左下靠近画布左边的中等大小白色手绘雪花，分叉笔画略不规则，边缘柔软，独立叠加于地毯照片上。",
+      "label": "左下靠近画布左边的中等大小白色手绘雪花，分叉笔画略不规则，边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snowflake_small",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        1241,
+        274,
+        1287
+      ],
+      "description": "下方偏左的一枚小白色雪花状星点，保留短小分叉笔画及柔软边缘，与上方两枚雪花分开定位。",
+      "label": "下方偏左的一枚小白色雪花状星点，保留短小分叉笔画及柔软边缘，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_good",
+    "overlay_caption",
+    "overlay_snowflake_large",
+    "overlay_snowflake_middle",
+    "overlay_snowflake_small"
+  ]
+}

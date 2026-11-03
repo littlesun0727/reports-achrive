@@ -1,0 +1,142 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1874,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1874,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "overlay_lettering",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1874,
+        1080
+      ],
+      "description": "占据画布的韩文艺术字“연준”，作为完整固定字样保留。左字内部为浅蓝灰色细格纹，右字内部为浅蓝白色大方格；字形均带粗灰色内轮廓、宽白边和浅蓝色外轮廓。两字并排构成统一设计，局部被贴纸、蝴蝶结和心形照片遮挡，不属于照片窗口。",
+      "label": "占据画布的韩文艺术字“연준”，作为完整固定字样保留。左字内部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        139,
+        185,
+        513,
+        547
+      ],
+      "description": "左上灰色五角星贴纸，内部布满白色小圆点，外围有灰白多重边缘；右上角附着两枚交叠的银灰色回形针。星形、回形针及边缘细节作为一个完整局部装饰保留。",
+      "label": "左上灰色五角星贴纸，内部布满白色小圆点，外围有灰白多重边缘；",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_small_heart",
+      "kind": "overlay",
+      "bbox": [
+        532,
+        313,
+        729,
+        492
+      ],
+      "description": "左字上部的白色心形装饰，外围为略有手绘起伏的粗灰线，心形内部左上有一颗灰色小五角星；内部图案与心形整体保留。",
+      "label": "左字上部的白色心形装饰，外围为略有手绘起伏的粗灰线，心形内部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_stroke",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        697,
+        993,
+        1004
+      ],
+      "description": "画面中下部的白色粗线装饰，左段自左字竖笔下部向下延伸并折向右上，右段沿两字之间向下弯曲，端部圆润；部分线段与字形白边重合，连接处不完全清晰，按可见完整线条保留。",
+      "label": "画面中下部的白色粗线装饰，左段自左字竖笔下部向下延伸并折向右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        599,
+        1095,
+        772
+      ],
+      "description": "两字之间偏下的银白色缎带蝴蝶结，包含中央结、左右卷曲环带和两条向左下及右下伸展的带尾，带有真实织物明暗和柔和边缘，独立叠在字形上。",
+      "label": "两字之间偏下的银白色缎带蝴蝶结，包含中央结、左右卷曲环带和两",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_top",
+      "kind": "overlay",
+      "bbox": [
+        1548,
+        102,
+        1800,
+        329
+      ],
+      "description": "右上白色猫脸甜点贴纸，深蓝灰色外轮廓，猫脸有浅蓝腮红、黄色小鼻子及一闭一睁的眼睛；下方连接奶油滴落状边缘和浅黄色弧形甜点底部，整枚贴纸保留。",
+      "label": "右上白色猫脸甜点贴纸，深蓝灰色外轮廓，猫脸有浅蓝腮红、黄色小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_bottom",
+      "kind": "overlay",
+      "bbox": [
+        184,
+        913,
+        415,
+        1080
+      ],
+      "description": "左下白色猫脸贴纸，深蓝灰色外轮廓，左耳附近有浅蓝蝴蝶结，脸上有浅蓝腮红、黄色鼻子和闭眼表情，右下附带竖起手指的小爪子；整体覆盖左字下沿，底部接近画布边缘。",
+      "label": "左下白色猫脸贴纸，深蓝灰色外轮廓，左耳附近有浅蓝蝴蝶结，脸上",
+      "method": "extract"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        1446,
+        604,
+        1718,
+        868
+      ],
+      "description": "右侧中下部的一张心形人物近景照片，一名浅棕色中分头发的年轻人物正面看向镜头，脸部位于中下方，身穿白色毛绒帽兜，周围可见浅灰白色摄影内容。照片整体限制在心形显示区域内，外围有连续宽白色轮廓，底部尖角压住大字横笔；没有可见的连续出框主体。",
+      "label": "右侧中下部的一张心形人物近景照片，一名浅棕色中分头发的年轻人",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_lettering",
+    "overlay_white_stroke",
+    "overlay_star",
+    "overlay_small_heart",
+    "overlay_bow",
+    "overlay_cat_top",
+    "overlay_cat_bottom",
+    "photo_heart"
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1021
+      ],
+      "description": "上方街巷人物照片：一位长发女子侧身回望镜头，戴浅蓝色发花和金色首饰，穿蓝黄花纹服装；身后有石砌建筑、彩色凸窗、店铺招牌、路人、遮阳伞及远处海面。摄影环境完整保留，左右及上缘抵达画布边缘，下方与独立港口照片柔和交叠。招牌上的文字属于实拍场景，随照片替换。"
+    },
+    {
+      "id": "photo_harbor",
+      "kind": "photo",
+      "bbox": [
+        0,
+        933,
+        1080,
+        1440
+      ],
+      "description": "下方独立港口照片，无突出人物主体；浅色沿岸建筑、密集帆船桅杆、白色游艇、蓝色水面及底部局部露出的彩色小船共同构成完整摄影画面。左右和下缘抵达画布边缘，上缘在桅杆与建筑上方柔和渐隐，与街巷照片及女子下部交叠；不是上方街景的连续延伸。"
+    },
+    {
+      "id": "overlay_yellow_lettering",
+      "kind": "overlay",
+      "bbox": [
+        233,
+        640,
+        1040,
+        930
+      ],
+      "description": "两行亮黄色手写英文艺术字，笔画粗细和字母高度不规则，各词具有独立倾斜及错落位置，整体作为固定字样保留。上行可辨“The”及“ummer”，下行可辨“I tu”及“to pretty”；中央部分字画被女子的头发和身体遮挡，不补写无法确认的隐藏文字。"
+    },
+    {
+      "id": "photo_woman_foreground",
+      "kind": "photo",
+      "bbox": [
+        329,
+        466,
+        688,
+        1021
+      ],
+      "description": "来自上方街巷照片的同一女子前景，包含长发、浅蓝发花、面部、首饰、侧转的上身、花纹服装及右侧浅色肩包，沿主体组合轮廓显示，摄影环境不随此前景保留。头发和身体压住黄色字样的中央笔画，与底层人物姿态连续；下部在港口照片的柔和上缘处被遮挡并融入交叠区域，无额外主体描边。",
+      "linked_to": "photo_street"
+    }
+  ],
+  "layer_order": [
+    "photo_street",
+    "overlay_yellow_lettering",
+    "photo_woman_foreground",
+    "photo_harbor"
+  ]
+}

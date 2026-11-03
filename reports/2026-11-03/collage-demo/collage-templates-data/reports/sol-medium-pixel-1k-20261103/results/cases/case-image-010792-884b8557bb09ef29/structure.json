@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_bows",
+    "description": "浅蓝色全画布固定底图，规则散布柔白色发光蝴蝶结图案，图案在四边和照片、装饰之间连续出现。保留底色、颜色变化及全部蝴蝶结纹样，清除上方独立照片、贴纸和文字，不将摄影内容并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        143,
+        543,
+        745
+      ],
+      "description": "左上竖向矩形自拍，一名长直发女性穿蓝白条纹衬衫，坐在汽车内，头部略倾斜，面向镜头微笑，显示头部和上半身。保留车座、车门等摄影环境；左上角被银蓝色蝴蝶结遮挡，右下角被下方另一张照片局部覆盖。"
+    },
+    {
+      "id": "photo_breakfast",
+      "kind": "photo",
+      "bbox": [
+        602,
+        63,
+        1064,
+        548
+      ],
+      "description": "右上心形早餐照片，浅色桌面上有一杯咖啡、餐盘、两片搭配奶油和莓果的吐司，以及横放的叉子。保留食物与桌面摄影环境，整张照片按心形显示，心形窗口外围有连续的柔白色发光边缘；该边缘依附照片窗口，不另列框体。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        521,
+        688,
+        998,
+        1323
+      ],
+      "description": "右下竖向矩形自拍，一名长直发女性穿蓝白条纹衬衫，坐在汽车内，面向镜头，嘴唇微嘟，显示头部及上半身。保留浅色车座、左侧箱包与车内环境，姿态和取景不同于左上照片。右上被爱心思考泡泡遮挡，右下被翻盖手机贴纸遮挡。"
+    },
+    {
+      "id": "overlay_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        90,
+        213,
+        251
+      ],
+      "description": "银蓝色缎带蝴蝶结贴纸，包含两侧折叠蝴蝶结、中央结和向下延伸的两条带尾，保留缎面反光及完整边缘。叠在左上照片的左上角，部分伸到照片外的蓝色底图上。"
+    },
+    {
+      "id": "overlay_thought_heart",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        598,
+        1073,
+        770
+      ],
+      "description": "白色立体云状思考泡泡贴纸，中央为浅蓝色爱心，外围附有小蓝色爱心，左下带一颗独立白色思考圆点。整组保留柔灰阴影和立体边缘，覆盖右下照片的右上角。"
+    },
+    {
+      "id": "text_korean",
+      "kind": "text",
+      "bbox": [
+        147,
+        871,
+        384,
+        1021
+      ],
+      "text": "너가\n너무 보고싶어",
+      "color": "#658EB1",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_grid_paper",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        1193,
+        214,
+        1349
+      ],
+      "description": "左下浅色方格纸片，带细淡红灰色网格，略微倾斜；上部和右部被明信片遮住，下沿及左侧露出。作为独立局部纸片保留，不承载照片，也不扩展为全画布底图。"
+    },
+    {
+      "id": "overlay_postcard",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        1095,
+        452,
+        1320
+      ],
+      "description": "米白色横向明信片装饰，保留纸边、轻微阴影、邮戳波纹、邮票、分隔线、地址栏、底部细字及深蓝手写文字。左侧可辨文字以“Today I told someone that I loved them”开头，以“XOXO”结尾；这些印字与手写排布属于卡片设计，不独立拆成文字。右上被天鹅贴纸覆盖，下沿被蓝莓贴纸覆盖。"
+    },
+    {
+      "id": "overlay_swan",
+      "kind": "overlay",
+      "bbox": [
+        333,
+        1035,
+        502,
+        1159
+      ],
+      "description": "面向左侧的天鹅贴纸，长颈弯曲，身体为奶白色，外围带深蓝色边界及浅蓝灰色贴纸边缘。保留完整天鹅造型与贴纸质感，叠在明信片右上角，颈部和背部伸出卡片上缘。"
+    },
+    {
+      "id": "overlay_blueberries",
+      "kind": "overlay",
+      "bbox": [
+        124,
+        1296,
+        204,
+        1343
+      ],
+      "description": "一小簇蓝莓与绿色叶片贴纸，保留深浅蓝果实、高光及叶片完整轮廓。位于左下纸张组合底部，同时覆盖明信片下缘和露出的方格纸。"
+    },
+    {
+      "id": "overlay_flip_phone",
+      "kind": "overlay",
+      "bbox": [
+        905,
+        1192,
+        1074,
+        1393
+      ],
+      "description": "浅蓝色打开的翻盖手机贴纸，整体向右上倾斜，包含天线、上盖屏幕、铰链、圆形导航键和下半部数字键盘，保留屏幕细节、机身反光及阴影。覆盖右下照片的右下边缘，下半部伸到蓝色底图上。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_breakfast",
+    "photo_lower_right",
+    "overlay_grid_paper",
+    "overlay_postcard",
+    "overlay_swan",
+    "overlay_blueberries",
+    "text_korean",
+    "overlay_ribbon",
+    "overlay_thought_heart",
+    "overlay_flip_phone"
+  ]
+}

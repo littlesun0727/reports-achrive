@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "gradient_dot_background",
+    "description": "连续的深灰至浅灰纵向渐变底图，带有分布在上右侧及中下部的白色规则小点图案；渐变与点阵延伸至画布边缘，照片、装饰和生日横幅作为独立对象覆盖其上，固定底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        158,
+        253,
+        740,
+        1009
+      ],
+      "description": "竖向矩形室内人像照片，一名戴粉色皇冠的长发女性侧身低头坐在画面右侧，身旁抱着大束白色花朵，背景可见深色沙发和浅色墙面；保留完整摄影环境，矩形照片下部右侧被圆形照片覆盖。"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        527,
+        946,
+        944,
+        1362
+      ],
+      "description": "圆形显示的另一张室内人像照片，一名戴粉色皇冠的长发女性正面看向镜头，坐在白色花束旁，保留沙发与室内摄影环境；圆形窗口完整，覆盖主矩形照片的右下部分。"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        80,
+        480,
+        318
+      ],
+      "description": "散布在画面上方及主照片上沿附近的九枚白色五角星，大小和角度各异，作为一组独立星形装饰保留；部分星星压在主照片上沿。"
+    },
+    {
+      "id": "overlay_lower_stars",
+      "kind": "overlay",
+      "bbox": [
+        540,
+        1274,
+        970,
+        1518
+      ],
+      "description": "圆形照片下方及周围散布的白色五角星装饰，大小和角度各异，部分贴近并覆盖圆形照片下缘，作为一组完整星形装饰保留。"
+    },
+    {
+      "id": "overlay_bows",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        470,
+        960,
+        767
+      ],
+      "description": "右侧纵向排列的三枚白色点状蝴蝶结装饰，造型相同、彼此留有间隔，作为一组固定装饰保留。"
+    },
+    {
+      "id": "overlay_i_love_you",
+      "kind": "overlay",
+      "bbox": [
+        189,
+        1123,
+        409,
+        1324
+      ],
+      "description": "左下方黑色艺术字组合“I”、带黑色小爱心图案的浅色大心形和“YOU”，字形、心形图案及组合排版构成一个独立设计单元。"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        504,
+        1069,
+        982,
+        1187
+      ],
+      "description": "环绕圆形照片左右两侧的一对发光白色翅膀线稿装饰，左右造型相对，跨在圆形照片边缘之上，作为一组独立装饰保留。"
+    },
+    {
+      "id": "overlay_halo",
+      "kind": "overlay",
+      "bbox": [
+        705,
+        909,
+        833,
+        954
+      ],
+      "description": "圆形照片上方悬浮的白色发光椭圆光环，细线环形装饰，位于照片窗口边缘附近。"
+    },
+    {
+      "id": "overlay_birthday_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1553,
+        1039,
+        1624
+      ],
+      "description": "横贯画布的浅色水平生日标题带，边界笔直，承载居中的黑色生日文字，作为独立固定横幅保留。"
+    },
+    {
+      "id": "text_birthday",
+      "kind": "text",
+      "bbox": [
+        318,
+        1561,
+        721,
+        1611
+      ],
+      "text": "Happy Birthday!",
+      "color": "#111111",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "overlay_top_stars",
+    "overlay_bows",
+    "overlay_i_love_you",
+    "photo_circle",
+    "overlay_halo",
+    "overlay_wings",
+    "overlay_lower_stars",
+    "overlay_birthday_band",
+    "text_birthday"
+  ]
+}

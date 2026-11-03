@@ -1,0 +1,149 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "overlay_film_strip",
+      "kind": "overlay",
+      "bbox": [
+        666,
+        332,
+        1080,
+        952
+      ],
+      "description": "横向向右延伸的黑灰色胶卷条，带连续矩形齿孔和中央浅蓝绿色失焦摄影画面，右侧延伸至画布边缘；作为固定插画结构保留，位于相机主体后方。"
+    },
+    {
+      "id": "overlay_camera_body",
+      "kind": "overlay",
+      "bbox": [
+        231,
+        216,
+        733,
+        1005
+      ],
+      "description": "中央大型手绘胶片相机插画，包含黑色顶部取景结构、蓝黄色机身、白色STAR与Kodak等印字、EXTRACHROME Color Reversal Film字样及粗糙铅笔状边缘；整体作为一个固定设计单元保留，并遮挡胶卷条左侧。"
+    },
+    {
+      "id": "overlay_top_arrows",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        76,
+        382,
+        164
+      ],
+      "description": "左上方三个连续的黑色手绘左尖括号状箭头，笔触粗糙并略带颗粒边缘，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_top_label",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        130,
+        1043,
+        280
+      ],
+      "description": "右上方粉色手绘椭圆环及其内部黑色手写SP_3000字样，包含不规则粉色笔触和周边小星号装饰，作为带字装饰单元整体保留。"
+    },
+    {
+      "id": "overlay_top_doodles",
+      "kind": "overlay",
+      "bbox": [
+        367,
+        42,
+        1035,
+        201
+      ],
+      "description": "画布上方散布的粉色小花、心形、圆点、黄色星星和小闪光符号，位于相机和标签周围，作为一组轻量手绘装饰保留。"
+    },
+    {
+      "id": "overlay_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        49,
+        250,
+        239,
+        1054
+      ],
+      "description": "画布左侧散布的粉色心形、圆点、黄色星星、闪光和浅色小涂鸦，避开中央相机主体并延伸至下方，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        64,
+        1000,
+        326,
+        1314
+      ],
+      "description": "左下区域的浅色小圆点、粉色心形、黄色星星及淡色手绘符号，分散排列在白色画布上，作为独立装饰集合保留。"
+    },
+    {
+      "id": "overlay_rainbow_ripples",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        1083,
+        512,
+        1167
+      ],
+      "description": "左下偏中的两组彩色手绘同心波纹，使用粉、蓝、黄、绿等细线构成，属于独立的固定涂鸦装饰。"
+    },
+    {
+      "id": "overlay_bottom_right_doodles",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        1214,
+        912,
+        1310
+      ],
+      "description": "右下区域的黄色星星和小型彩色装饰符号，分散在底部文字右侧和下方，作为固定手绘点缀保留。"
+    },
+    {
+      "id": "overlay_film_canister",
+      "kind": "overlay",
+      "bbox": [
+        765,
+        1120,
+        813,
+        1159
+      ],
+      "description": "底部文字上方的小型棕黄色胶卷罐图标，带深色横向细节和手绘轮廓，作为独立固定图标保留。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        548,
+        1165,
+        1019,
+        1211
+      ],
+      "text": "跟我一起開啟膠卷盒吧(｡ω｡*)✧",
+      "color": "#252525",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_film_strip",
+    "overlay_camera_body",
+    "overlay_top_arrows",
+    "overlay_top_doodles",
+    "overlay_top_label",
+    "overlay_left_doodles",
+    "overlay_bottom_left_doodles",
+    "overlay_rainbow_ripples",
+    "overlay_bottom_right_doodles",
+    "overlay_film_canister",
+    "text_bottom"
+  ]
+}

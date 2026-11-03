@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的户外俯拍照片覆盖全画布，灰色方砖地面延伸至四边，左上有黄色地面标线。画面包含两人：上方人物穿浅色条纹衬衫和黑裤，向镜头展示手机并递出饮料；下方拍摄者露出浅色衣裤、粉色鞋、戴浅色表带的手臂及手中饮料，右下可见随身包。手机屏幕内容、饮料包装及地面均属于摄影内容，一起替换。白色网格、星星和底部字样叠加其上，不改变底图完整范围。",
+      "background_type": "photo",
+      "label": "一张连续的户外俯拍照片覆盖全画布，灰色方砖地面延伸至四边，左",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_viewfinder",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        94,
+        919,
+        1376
+      ],
+      "description": "白色竖向取景网格装饰，包含完整矩形外沿、两条竖向及两条横向细分格线，以及四角和边缘的短粗白线。摄影画面在框内外连续，并非独立照片窗口；整个网格作为一个固定装饰保留。",
+      "label": "白色竖向取景网格装饰，包含完整矩形外沿、两条竖向及两条横向细",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        294,
+        12,
+        357,
+        78
+      ],
+      "description": "顶部偏左的白色五角星，边缘带柔和白色光晕，独立叠在人物手臂上。",
+      "label": "顶部偏左的白色五角星，边缘带柔和白色光晕，独立叠在人物手臂上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_center",
+      "kind": "overlay",
+      "bbox": [
+        619,
+        20,
+        687,
+        88
+      ],
+      "description": "顶部中间的白色五角星，保留完整星形及柔和光晕，叠在条纹衬衫上。",
+      "label": "顶部中间的白色五角星，保留完整星形及柔和光晕，叠在条纹衬衫上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        974,
+        62,
+        1055,
+        141
+      ],
+      "description": "右上方较大的白色五角星，带柔和光晕，独立叠在条纹衬衫上。",
+      "label": "右上方较大的白色五角星，带柔和光晕，独立叠在条纹衬衫上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        285,
+        152,
+        368
+      ],
+      "description": "左侧上部的白色五角星，位于取景网格左侧地面区域，包含边缘光晕。",
+      "label": "左侧上部的白色五角星，位于取景网格左侧地面区域，包含边缘光晕",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        475,
+        994,
+        561
+      ],
+      "description": "右侧中上部的白色五角星，紧邻取景网格右边，叠在手臂旁的地面区域，带柔和光晕。",
+      "label": "右侧中上部的白色五角星，紧邻取景网格右边，叠在手臂旁的地面区",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        681,
+        192,
+        767
+      ],
+      "description": "左侧中部的白色五角星，位于取景网格左边附近，保留完整五角轮廓及光晕。",
+      "label": "左侧中部的白色五角星，位于取景网格左边附近，保留完整五角轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        955,
+        811,
+        1038,
+        894
+      ],
+      "description": "右侧中下部的白色五角星，独立位于地面上，包含柔和白色光晕。",
+      "label": "右侧中下部的白色五角星，独立位于地面上，包含柔和白色光晕。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1085,
+        94,
+        1179
+      ],
+      "description": "左下靠画布边缘的较大白色五角星，叠在拍摄者手臂上，保留画布内可见星形和柔和光晕。",
+      "label": "左下靠画布边缘的较大白色五角星，叠在拍摄者手臂上，保留画布内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_bottom",
+      "kind": "overlay",
+      "bbox": [
+        909,
+        1116,
+        989,
+        1198
+      ],
+      "description": "右下方的白色五角星，靠近取景网格右边，叠在地面与包边附近，带柔和光晕。",
+      "label": "右下方的白色五角星，靠近取景网格右边，叠在地面与包边附近，带",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        279,
+        1367,
+        350,
+        1436
+      ],
+      "description": "底部偏左的白色五角星，位于取景网格下沿外侧，叠在浅色衣物上，保留完整轮廓和光晕。",
+      "label": "底部偏左的白色五角星，位于取景网格下沿外侧，叠在浅色衣物上，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_be_free",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        1374,
+        994,
+        1434
+      ],
+      "description": "底部右侧白色艺术字“be free”，字形粗圆且具有不规则弯曲笔画，字母大小与基线略有变化；作为完整固定字样保留，不拆为通用字体文字。",
+      "label": "底部右侧白色艺术字“be free”，字形粗圆且具有不规则弯",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_viewfinder",
+    "overlay_star_top_left",
+    "overlay_star_top_center",
+    "overlay_star_top_right",
+    "overlay_star_left_upper",
+    "overlay_star_right_upper",
+    "overlay_star_left_middle",
+    "overlay_star_right_middle",
+    "overlay_star_left_bottom",
+    "overlay_star_right_bottom",
+    "overlay_star_bottom",
+    "overlay_be_free"
+  ]
+}

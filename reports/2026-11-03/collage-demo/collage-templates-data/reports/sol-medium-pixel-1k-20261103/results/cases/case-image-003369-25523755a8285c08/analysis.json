@@ -1,0 +1,243 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1428
+  ],
+  "objects": [
+    {
+      "id": "background_dots",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1428
+      ],
+      "description": "全画布为浅粉色底与规则排列的灰褐色圆点，四边和各装饰间隙均连续可见。圆点图案及底色作为固定设计保留，照片、相框、文字装饰和贴纸分别清除，不将其并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅粉色底与规则排列的灰褐色圆点，四边和各装饰间隙均连",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        181,
+        224,
+        574,
+        787
+      ],
+      "description": "上方竖幅单人半身自拍，长黑发女子正面看镜头，穿黑色露肩衣服，右侧抬手靠近脸颊，头发佩戴星形发饰，手上有星形与蝴蝶结饰物。保留身后的灰色墙面和条纹靠垫，完整矩形照片窗口上缘被对话气泡遮挡，右下角被兔子花朵贴纸遮挡；胸前另有独立星形贴纸。",
+      "label": "上方竖幅单人半身自拍，长黑发女子正面看镜头，穿黑色露肩衣服，",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        49,
+        96,
+        693,
+        908
+      ],
+      "description": "大型浅粉色长方形相框，外沿为连续圆润波浪边，框面布满棕色圆点，带立体厚度、灰紫色投影和内口浅色边沿。完整框体保留，顶部被蝴蝶结和对话气泡遮挡，右下部分被下方花形相框及兔子贴纸覆盖。",
+      "photo_id": [
+        "photo_upper"
+      ],
+      "label": "大型浅粉色长方形相框，外沿为连续圆润波浪边，框面布满棕色圆点",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        574,
+        786,
+        974,
+        1210
+      ],
+      "description": "下方独立单人半身自拍，同一长黑发女子眨一只眼，手指贴着脸颊，穿黑色露肩衣服，左侧头发带小型白色发饰。保留身后的条纹座椅与室内环境，照片完整显示范围为花形内口，不按人物轮廓去背景；边缘由周围相框遮挡，与上方照片姿态和裁切均不同。",
+      "label": "下方独立单人半身自拍，同一长黑发女子眨一只眼，手指贴着脸颊，",
+      "method": "local"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        494,
+        705,
+        1060,
+        1291
+      ],
+      "description": "右下浅粉色多瓣花形相框，框面布满棕色圆点，外缘圆鼓并带灰紫色立体投影，中心形成一个花形照片窗口。框体左上部分压住上方长方形相框，顶端局部被兔子花朵贴纸遮挡。",
+      "photo_id": [
+        "photo_lower"
+      ],
+      "label": "右下浅粉色多瓣花形相框，框面布满棕色圆点，外缘圆鼓并带灰紫色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        137,
+        260,
+        303
+      ],
+      "description": "叠在上方相框左上角的粉色缎带蝴蝶结，带白色小圆点、半透明织物质感、折痕和两条下垂带尾，作为完整独立装饰保留。",
+      "label": "叠在上方相框左上角的粉色缎带蝴蝶结，带白色小圆点、半透明织物",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        54,
+        706,
+        354
+      ],
+      "description": "浅粉色椭圆对话气泡与向左下延伸的尖尾，覆盖上方相框和照片顶端。内部包含黑色实心及空心星、音符、颜文字，以及两行韩文“두 눈을 맞추고”“긴 머리 날리고”；文字与气泡共同保留，不拆分排版。",
+      "label": "浅粉色椭圆对话气泡与向左下延伸的尖尾，覆盖上方相框和照片顶端",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_words",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        76,
+        1067,
+        166
+      ],
+      "description": "右上浅粉色立体韩文艺术字“사랑해”，字形圆润，带浮雕般的亮面和阴影，字间位置具有设计性，整体作为固定装饰保留。",
+      "label": "右上浅粉色立体韩文艺术字“사랑해”，字形圆润，带浮雕般的亮面",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_glasses",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        314,
+        1031,
+        437
+      ],
+      "description": "白粉色立体眼镜贴纸，两个圆角镜圈、鼻梁、右侧小蝴蝶结及附属白色闪光星共同组成一个完整设计，保留其高光与阴影。",
+      "label": "白粉色立体眼镜贴纸，两个圆角镜圈、鼻梁、右侧小蝴蝶结及附属白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_stars",
+      "kind": "overlay",
+      "bbox": [
+        712,
+        480,
+        824,
+        593
+      ],
+      "description": "右侧中部由一颗较大白色五角星和两颗小白色闪光星组成的独立星光装饰簇，位于眼镜下方、粉色立体星左上方。",
+      "label": "右侧中部由一颗较大白色五角星和两颗小白色闪光星组成的独立星光",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_stars",
+      "kind": "overlay",
+      "bbox": [
+        798,
+        532,
+        1080,
+        861
+      ],
+      "description": "右侧浅粉色鼓起星形装饰簇，包含中部大星、右下较小星形和画布右缘被截断的星形成员，带柔和高光、白色闪光和轻微阴影。下部被花形相框遮挡，整体固定设计保留，不推测遮挡处细节。",
+      "label": "右侧浅粉色鼓起星形装饰簇，包含中部大星、右下较小星形和画布右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chest_star",
+      "kind": "overlay",
+      "bbox": [
+        282,
+        641,
+        329,
+        690
+      ],
+      "description": "上方照片中胸前头发上的独立银灰色立体五角星贴纸，带白色高光和暗色边缘，叠加在摄影内容之上。",
+      "label": "上方照片中胸前头发上的独立银灰色立体五角星贴纸，带白色高光和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_flower",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        688,
+        658,
+        843
+      ],
+      "description": "两张相框交界处的白色鼓起花朵贴纸，中心是灰色兔子头像，包含粉色耳朵、花瓣阴影及右下方小白色圆珠点缀。作为一个完整装饰保留，压住上方照片右下角和两张相框交界。",
+      "label": "两张相框交界处的白色鼓起花朵贴纸，中心是灰色兔子头像，包含粉",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wing_heart",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        999,
+        514,
+        1269
+      ],
+      "description": "左下完整爱心翅膀装饰，两只白色立体小翅膀左右相向，周围粉白色小珠点围成心形轮廓。保留翅膀卷曲造型、高光、阴影和整圈附属珠点，左侧翅膀边缘抵达画布边界。",
+      "label": "左下完整爱心翅膀装饰，两只白色立体小翅膀左右相向，周围粉白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_words",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        1273,
+        434,
+        1378
+      ],
+      "description": "左下浅粉色立体韩文艺术字“아기”，右侧附有空心爱心及小实心爱心，文字笔画、爱心和浮雕阴影构成完整固定装饰。",
+      "label": "左下浅粉色立体韩文艺术字“아기”，右侧附有空心爱心及小实心爱",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral",
+      "kind": "overlay",
+      "bbox": [
+        877,
+        1247,
+        996,
+        1362
+      ],
+      "description": "右下白色锯齿花边圆形贴纸，中心为粉色旋涡图案，带鼓起质感及灰色投影，位于花形相框下方附近。",
+      "label": "右下白色锯齿花边圆形贴纸，中心为粉色旋涡图案，带鼓起质感及灰",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_dots",
+    "overlay_pink_stars",
+    "photo_upper",
+    "frame_upper",
+    "overlay_chest_star",
+    "photo_lower",
+    "frame_lower",
+    "overlay_bow",
+    "overlay_speech",
+    "overlay_top_words",
+    "overlay_glasses",
+    "overlay_white_stars",
+    "overlay_rabbit_flower",
+    "overlay_wing_heart",
+    "overlay_bottom_words",
+    "overlay_spiral"
+  ]
+}

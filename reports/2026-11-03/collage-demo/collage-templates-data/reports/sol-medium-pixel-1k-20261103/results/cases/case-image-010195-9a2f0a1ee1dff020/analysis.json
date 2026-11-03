@@ -1,0 +1,123 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_dawn",
+      "kind": "photo",
+      "bbox": [
+        80,
+        52,
+        960,
+        712
+      ],
+      "description": "上方横向飞机窗外照片，无人物；深蓝天空下有橙色晨光和暗色云层，右侧为机翼剪影。天空、地平线与机翼属于同一完整摄影画面，保留摄影环境。下部很暗，与黑色画布接近，左侧被正文覆盖，右下被另一张照片遮挡，底边位置辨识较弱。",
+      "label": "上方横向飞机窗外照片，无人物；深蓝天空下有橙色晨光和暗色云层",
+      "method": "local"
+    },
+    {
+      "id": "photo_mountains",
+      "kind": "photo",
+      "bbox": [
+        635,
+        539,
+        960,
+        971
+      ],
+      "description": "右侧竖向飞机窗外照片，无人物；上方是蓝色天空与橙黄日出带，下方为连绵雪山，右侧机翼及发动机局部进入画面。与上方照片取景和地面内容不同，作为独立照片替换；保留完整摄影环境，显示边界略倾斜。",
+      "label": "右侧竖向飞机窗外照片，无人物；上方是蓝色天空与橙黄日出带，下",
+      "method": "local"
+    },
+    {
+      "id": "text_story",
+      "kind": "text",
+      "bbox": [
+        76,
+        458,
+        447,
+        1024
+      ],
+      "description": "飞机窗外的blue hour\n六点半起飞林芝\n19年里赶过最早的飞机\n飞之前就知道大概会有雪山和日出\n所以完全舍不得睡觉\n但是还是困晕了\n\n雪山！雪山！连绵的雪山！\n对于从小生活在东部平原的人\n在飞机上看这些已经足够震撼了\n整个窗子除了机翼就是雪山\n感动得想流泪。",
+      "label": "飞机窗外的blue hour\n六点半起飞林芝\n19年里赶过最",
+      "method": "local",
+      "text": "飞机窗外的blue hour\n六点半起飞林芝\n19年里赶过最早的飞机\n飞之前就知道大概会有雪山和日出\n所以完全舍不得睡觉\n但是还是困晕了\n\n雪山！雪山！连绵的雪山！\n对于从小生活在东部平原的人\n在飞机上看这些已经足够震撼了\n整个窗子除了机翼就是雪山\n感动得想流泪。",
+      "text_status": "known",
+      "style": {
+        "fill": "#DDDDDD",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_music_card",
+      "kind": "overlay",
+      "bbox": [
+        373,
+        995,
+        752,
+        1311
+      ],
+      "description": "下方略倾斜的灰色音乐歌词卡片，完整保留底板、白色歌词、底部播放三角和曲目信息。歌词分五行：你问我去哪？我问我去哪？／你问我去哪？我问我去哪？／你问我去哪？我要去哪？／踏过千条水和万重山／在人间漂流。底部为“漂流人间 — Chinese Football”。文字与播放器共同组成固定卡片，不另拆文字。",
+      "label": "下方略倾斜的灰色音乐歌词卡片，完整保留底板、白色歌词、底部播",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        935,
+        613,
+        1030
+      ],
+      "description": "独立浅灰色圆形装饰，位于音乐卡片上沿中央，跨出卡片并遮住第一行歌词的局部；完整保留圆形轮廓。",
+      "label": "独立浅灰色圆形装饰，位于音乐卡片上沿中央，跨出卡片并遮住第一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1074,
+        1434
+      ],
+      "description": "画布右下角的小型灰色圆角标记，内部为“小红书”字样；底板与字样作为完整固定标记保留。",
+      "label": "画布右下角的小型灰色圆角标记，内部为“小红书”字样；底板与字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_dawn",
+    "photo_mountains",
+    "text_story",
+    "overlay_music_card",
+    "overlay_circle",
+    "overlay_watermark"
+  ]
+}

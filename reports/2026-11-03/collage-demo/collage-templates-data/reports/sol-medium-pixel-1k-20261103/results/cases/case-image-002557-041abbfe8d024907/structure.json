@@ -1,0 +1,150 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的室内入口摄影画面覆盖全画布，左侧为棕色门框与墙面，中间露出浅色墙壁和门窗结构，下方为碎石地面，右侧有绿植。画布四边及照片之间的空隙显示相互连贯的环境，上方人物照片和下方两张局部照片遮住部分场景。底图没有清晰可见的人物，全部摄影环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        258,
+        91,
+        1044,
+        736
+      ],
+      "description": "上方一名戴眼镜、黑发束起、穿黑色上衣的人物半身照片，面向左侧，一手抬至额前遮住部分面部，另一手托着白盘，盘中有绿色奶油与草莓蛋糕。人物身后的浅色墙面和深色座椅仍可见，并非仅沿人体轮廓显示；外围呈大面积柔化渐隐，与下层门框和植物环境融合，下缘部分被蛋糕小照片遮挡。"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        113,
+        665,
+        454,
+        990
+      ],
+      "description": "左侧独立近方形蛋糕俯拍照片，绿色圆形蛋糕上有花瓣状白奶油和一颗红草莓，表面撒有糖粉。浅灰白色承托表面和摄影背景完整保留，窗口边界清楚，与上方人物手中蛋糕的拍摄视角不同；左下缘被蓝绿色星星装饰局部覆盖。"
+    },
+    {
+      "id": "photo_umbrella",
+      "kind": "photo",
+      "bbox": [
+        509,
+        820,
+        908,
+        1368
+      ],
+      "description": "右下独立竖向照片，浅色墙角放着高筒藤编伞篮，内有多把透明伞和白色弯柄，底部可见碎石与深色地面，上缘露出木色横沿。保留完整摄影环境，照片四边略倾斜，篮筐没有出框；右下部叠有蓝绿色星星。"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        287,
+        164,
+        337
+      ],
+      "description": "左上棕色门框区域的一枚浅蓝绿色五角星装饰，带亮色内纹与柔和发光边缘，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        111,
+        974,
+        165
+      ],
+      "description": "右上深色区域的一枚浅蓝绿色五角星装饰，保留内部亮纹和外围朦胧光晕。"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        738,
+        644,
+        810
+      ],
+      "description": "人物照片下方、两张小照片之间的一枚浅蓝绿色五角星，中心较亮，外围有柔化光晕。"
+    },
+    {
+      "id": "overlay_star_cake",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        916,
+        183,
+        978
+      ],
+      "description": "叠在蛋糕照片左下边缘的浅蓝绿色五角星，部分伸到照片外，整体保留亮色纹理与模糊发光边缘。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        386,
+        1143,
+        451,
+        1198
+      ],
+      "description": "下部浅色墙面与深色区域交界附近的一枚浅蓝绿色五角星，独立于照片内容，带柔和光晕。"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        821,
+        1293,
+        878,
+        1343
+      ],
+      "description": "右下伞篮照片碎石区域上的小型浅蓝绿色五角星，保留内部亮纹和柔化外缘。"
+    },
+    {
+      "id": "text_cake",
+      "kind": "text",
+      "bbox": [
+        159,
+        1004,
+        351,
+        1057
+      ],
+      "text": "( cake. )",
+      "color": "#AD2424",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1036,
+        1403,
+        1074,
+        1423
+      ],
+      "description": "画布右下角很小的浅色圆角标识，含难以辨清的字样与细轮廓，整体作为固定标识保留，不拆分内部文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_person",
+    "photo_cake",
+    "photo_umbrella",
+    "overlay_star_upper_left",
+    "overlay_star_upper_right",
+    "overlay_star_middle",
+    "overlay_star_cake",
+    "overlay_star_lower_left",
+    "overlay_star_lower_right",
+    "text_cake",
+    "overlay_watermark"
+  ]
+}

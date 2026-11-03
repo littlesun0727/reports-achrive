@@ -1,0 +1,92 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        394,
+        505,
+        1046
+      ],
+      "description": "左侧浅粉白色胶片框体，带细密颗粒纹理、上下两排白色齿孔和深色印字。可见上方残缺的“K”、数字“200”“21”，下方箭头与“9A”等胶片标记；这些均属于框体印刷。左边部分超出画布，右侧保留竖向框沿，整体承载一个照片窗口。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "左侧浅粉白色胶片框体，带细密颗粒纹理、上下两排白色齿孔和深色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        492,
+        474,
+        948
+      ],
+      "description": "左侧独立照片，保留红砖墙、浅色长椅、地面及左下绿植等摄影环境。前方一名成人穿浅色开衫、灰色上衣、白色短裤和棕色长靴，头部被照片上边裁掉；右后方一名扎发小女孩低头拿着物品，站立全身可见。左缘还有被裁切的卡通造型，属于实拍场景。照片按矩形内口显示，无沿人物轮廓去背景或透明渐隐。",
+      "label": "左侧独立照片，保留红砖墙、浅色长椅、地面及左下绿植等摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        575,
+        394,
+        1080,
+        1046
+      ],
+      "description": "右侧独立浅粉白色胶片框体，保留颗粒纹理、上下两排白色齿孔、上方“KODAK 200”及下方箭头与数字“9”等一体印刷。左侧有竖向框沿，右端在画布边缘被截断，承载一个照片窗口，与左侧框体之间露出白色底色。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右侧独立浅粉白色胶片框体，保留颗粒纹理、上下两排白色齿孔、上",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        606,
+        492,
+        1080,
+        948
+      ],
+      "description": "右侧独立合影照片，一名扎发小女孩位于右下，面向镜头微笑，穿浅色长袖与浅棕裤子；左侧是大头、黄色上衣的查理布朗雕像。雕像头顶及女孩下身被窗口边缘裁切，身后可见绿植、浅色墙面和绿色横向结构。雕像与环境均属摄影内容，随照片整体替换；保留摄影背景，按矩形内口显示。",
+      "label": "右侧独立合影照片，一名扎发小女孩位于右下，面向镜头微笑，穿浅",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_left",
+    "photo_left",
+    "frame_right",
+    "photo_right"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡馆桌面照片覆盖全画布：木桌上摆有八个不同造型的毛绒玩偶，左上是绿色饮料，中央前方是带奶油和樱桃的布丁，后方有蛋糕与餐盘。玩偶分布在桌面左右及前后，顶部露出就座人物的局部躯干和手臂。桌面、餐具及室内环境连续延伸至画布边缘，顶部花藤与钥匙、底部粉色栏杆遮挡局部；所有实拍内容及环境整体替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_top_vine",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        17,
+        984,
+        157
+      ],
+      "description": "横贯画面上方的薄荷绿色卷曲花藤装饰，包含连续的旋涡枝条、粉色玫瑰及左侧粉色心形点缀，带柔和发光边缘。整体叠加在饮料、人物及室内摄影内容上，不包含杯身实拍的四叶草图案。"
+    },
+    {
+      "id": "overlay_key_left",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        8,
+        94,
+        164
+      ],
+      "description": "左上角独立的淡紫色钥匙装饰，顶部由对称卷线构成心形钥匙环，下方是长直钥匙柄和横向齿，轮廓带白紫色柔光，完整保留。"
+    },
+    {
+      "id": "overlay_key_right",
+      "kind": "overlay",
+      "bbox": [
+        985,
+        8,
+        1056,
+        163
+      ],
+      "description": "右上角独立的淡紫色心形钥匙装饰，与左侧钥匙相呼应，包含心形卷线钥匙环、竖直柄和横向齿，带柔和发光轮廓，叠在摄影画面上。"
+    },
+    {
+      "id": "overlay_bottom_fence",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        618,
+        1080,
+        810
+      ],
+      "description": "贯穿画布底部的粉色装饰栏杆，包含上沿连续卷曲花纹与小心形、下方重复的细长心形栏杆、竖向支柱和底部横条，边缘带柔光。整个连续固定单元覆盖前方玩偶、餐盘与桌面，下缘延伸至画布边界。"
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        770,
+        103,
+        793
+      ],
+      "description": "左下方叠在粉色栏杆上的小型白色花体署名字样，以“@”开头，后续字符无法可靠辨认；字形带连笔和卷曲笔画，作为完整固定字样保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_top_vine",
+    "overlay_key_left",
+    "overlay_key_right",
+    "overlay_bottom_fence",
+    "overlay_signature"
+  ]
+}

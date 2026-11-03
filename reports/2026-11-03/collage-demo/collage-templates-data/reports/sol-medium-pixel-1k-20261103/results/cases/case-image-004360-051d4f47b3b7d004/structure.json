@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_taupe",
+    "description": "覆盖全画布的灰褐色渐变底图，上部偏浅灰米色，下部逐渐变为深褐色，带轻微横向色阶变化。四边和照片间隙连续露出同一底图；保留其颜色变化，独立照片及装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        78,
+        75,
+        662,
+        844
+      ],
+      "description": "上方略倾斜的竖幅照片：一位长发女子坐在餐桌前，正面看向镜头，一手靠近脸颊，另一手托着放有小甜点的白色盘子。保留灰色墙壁、右侧深色竖框、座椅和下沿木桌等摄影环境，墙上小标牌属于照片内容。右下角被蛋糕照片遮挡，完整显示窗口仍延伸至该遮挡区域，无独立相框。"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        501,
+        759,
+        1007,
+        1095
+      ],
+      "description": "中间偏右的横幅蛋糕近景照片，方形蛋糕表面密集排列浅色奶油花，中央有点燃的蜡烛，周围保留深色托盘和暗色摄影环境。照片左上部分覆盖上方人物照片，左下部分被下方人物照片遮挡；保留完整矩形显示窗口。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        138,
+        1057,
+        730,
+        1846
+      ],
+      "description": "下方独立竖幅人物照片：一位长发女子坐在木桌前，面对镜头，一手靠近脸颊，另一手托着白色甜点盘。与上方照片取景及姿态细节不同，分别替换。保留灰墙、深色竖框、座椅、木桌及桌上餐具等完整摄影环境，上沿覆盖蛋糕照片左下部分，无独立相框。"
+    },
+    {
+      "id": "overlay_white_doodle",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        409,
+        934,
+        456
+      ],
+      "description": "右上空白区域的一组白色手绘装饰，由空心爱心及右侧短小曲线、点状笔迹组成。各笔迹共同形成横向装饰，保留不规则线条和原有间距，不按普通文字重排。"
+    },
+    {
+      "id": "overlay_cake_sticker",
+      "kind": "overlay",
+      "bbox": [
+        807,
+        1525,
+        884,
+        1610
+      ],
+      "description": "下方人物照片右侧的独立生日蛋糕贴纸：白色小蛋糕带卡通双眼，顶端排列点燃的细蜡烛，配有红色点缀和柔和阴影，整体保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1892,
+        1074,
+        1915
+      ],
+      "description": "画布右下角极淡的小型圆角水印标记，含难以辨认的微小字样，连同其外形整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_cake",
+    "photo_lower",
+    "overlay_white_doodle",
+    "overlay_cake_sticker",
+    "overlay_watermark"
+  ]
+}

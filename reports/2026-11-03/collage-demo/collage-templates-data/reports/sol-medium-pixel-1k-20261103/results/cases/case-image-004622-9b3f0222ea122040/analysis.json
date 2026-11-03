@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1619
+  ],
+  "objects": [
+    {
+      "id": "background_hearts",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1619
+      ],
+      "description": "全画布固定底图由上深下浅的灰黑至近白渐变及规则排列的小爱心图案组成，四边与相纸周围连续可见；爱心随所在位置呈不同灰度。保留渐变和爱心图案，清除上方独立相纸及照片，不将摄影内容并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布固定底图由上深下浅的灰黑至近白渐变及规则排列的小爱心图",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        118,
+        244,
+        965,
+        1483
+      ],
+      "description": "竖向白色拍立得相纸，顶部和左右边较窄，下方留有宽白边，包含轻微纸面质感、边缘及底部投影。底部以银色水钻状笔画组成花体“Snow”，两侧附有小水钻点缀，属于相纸上的完整固定设计，一并保留。相纸承托一张矩形照片。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "竖向白色拍立得相纸，顶部和左右边较窄，下方留有宽白边，包含轻",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        167,
+        298,
+        914,
+        1228
+      ],
+      "description": "单人竖向室内半身照片：长直深棕发女子穿浅色衬衣，位于中部偏右，侧身朝左并低头看向手中托着的黑色盘子，盘上有花朵装饰的小蛋糕。保留左侧曲面墙体、灯光、后方墙面及地面等完整摄影环境。照片在相纸内口呈矩形显示，人物与托盘在下缘被窗口裁切，没有沿主体轮廓去背景或连续出框。",
+      "label": "单人竖向室内半身照片：长直深棕发女子穿浅色衬衣，位于中部偏右",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "background_hearts",
+    "frame_polaroid",
+    "photo_portrait"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的室内摄影画面铺满画布：一名年轻女性坐在画面右侧，穿白色针织衫和浅色牛仔裤，侧身俯向手中的生日蛋糕；左侧是深色花纹沙发，右侧可见浅色墙面与薄纱。人物、蛋糕、沙发及环境属于同一摄影场景，延伸至画布边缘，局部被手绘字样和装饰遮挡。白色手绘轮廓沿人物外缘勾勒，摄影环境仍然可见。"
+  },
+  "objects": [
+    {
+      "id": "overlay_title_left",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        70,
+        560,
+        350
+      ],
+      "description": "左上方白色手绘艺术字“Sweet Moment”，带下划线、弯曲箭头、星形点缀和小装饰笔画；文字与附属笔画共同构成一组固定涂鸦。"
+    },
+    {
+      "id": "overlay_title_right",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        30,
+        1040,
+        266
+      ],
+      "description": "右上方白色手写艺术字“Today is a good day”，含两道手绘下划线、笑脸及周围小星点，作为完整固定涂鸦保留。"
+    },
+    {
+      "id": "overlay_heart_top",
+      "kind": "overlay",
+      "bbox": [
+        461,
+        44,
+        557,
+        148
+      ],
+      "description": "顶部偏左的粉色手绘爱心，内部有短线纹理，作为独立固定装饰。"
+    },
+    {
+      "id": "overlay_yummy",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        401,
+        288,
+        585
+      ],
+      "description": "左侧白色手写艺术字“Yummy”，下方有爱心、箭头及小弯曲笔画，组成一组固定涂鸦。"
+    },
+    {
+      "id": "overlay_happy_me",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        427,
+        1043,
+        634
+      ],
+      "description": "右侧白色手写艺术字“Happy me”，带小爱心及指向人物的弯曲箭头，整体作为一组固定涂鸦保留。"
+    },
+    {
+      "id": "overlay_cake_left",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        780,
+        257,
+        1323
+      ],
+      "description": "左下区域的白色手绘蛋糕图标及椭圆托盘，周围有星形、爱心、加号和小点；下方配有艺术字“Cake lover”及下划线，作为一组固定装饰。"
+    },
+    {
+      "id": "overlay_cute",
+      "kind": "overlay",
+      "bbox": [
+        341,
+        1137,
+        542,
+        1308
+      ],
+      "description": "底部偏左白色手写艺术字“So cute!”及其下划线和附属笔画，保留为一组固定涂鸦。"
+    },
+    {
+      "id": "overlay_delicious",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        1094,
+        1065,
+        1335
+      ],
+      "description": "右下区域的白色手绘蛋糕切片和叉子图标，配有艺术字“Delicious”、下划线及粉色小爱心，作为一组固定装饰。"
+    }
+  ],
+  "layer_order": [
+    "overlay_title_left",
+    "overlay_title_right",
+    "overlay_heart_top",
+    "overlay_yummy",
+    "overlay_happy_me",
+    "overlay_cake_left",
+    "overlay_cute",
+    "overlay_delicious"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的城市斜坡街道摄影画面覆盖全画布：两侧高楼、外墙空调、上方浅色天空、下方道路及右侧停靠汽车相互连续，街道远处可见小比例行人。上方相纸和左下胶片照片遮住局部，但四边露出的建筑与路面支持同一完整场景；主体和全部摄影环境一起替换。",
+      "background_type": "photo",
+      "label": "一张连续的城市斜坡街道摄影画面覆盖全画布：两侧高楼、外墙空调",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        363,
+        137,
+        971,
+        615
+      ],
+      "description": "上方白色拍立得式相纸，具有较窄的上边及侧边、较宽的下边，保留纸面细微纹理、边缘和阴影。承载一张横向照片，右下部分被红色点阵装饰覆盖。",
+      "photo_id": [
+        "photo_upper"
+      ],
+      "label": "上方白色拍立得式相纸，具有较窄的上边及侧边、较宽的下边，保留",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        391,
+        178,
+        946,
+        528
+      ],
+      "description": "一名黑发女性的半身近景，穿黑色连帽外套，正面看向镜头，一手横放在下巴旁，另一侧手臂向左延伸并被窗口裁切。保留身后深色站台墙面、设备及右侧告示板；墙上的“中環 Central”为摄影场景内文字。照片显示于相纸矩形内口，右下角被点阵装饰遮挡。",
+      "label": "一名黑发女性的半身近景，穿黑色连帽外套，正面看向镜头，一手横",
+      "method": "local"
+    },
+    {
+      "id": "overlay_dolphin",
+      "kind": "overlay",
+      "bbox": [
+        121,
+        318,
+        306,
+        496
+      ],
+      "description": "左上方金黄色立体海豚贴纸，向左跃起，包含周围的小黄花、爱心、闪光及上方白色小花点缀，作为一个完整装饰单元保留。",
+      "label": "左上方金黄色立体海豚贴纸，向左跃起，包含周围的小黄花、爱心、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_heart",
+      "kind": "overlay",
+      "bbox": [
+        703,
+        446,
+        952,
+        708
+      ],
+      "description": "红色像素点阵心形装饰，内部带有数字显示般的断续纹样，周围附有少量绿色小闪光。整体从上方照片右下部跨过白色相纸下沿，延伸到街景上，完整保留点阵空隙和附属闪光。",
+      "label": "红色像素点阵心形装饰，内部带有数字显示般的断续纹样，周围附有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_line",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        652,
+        453,
+        683
+      ],
+      "description": "左侧两张照片之间的白色细线装饰，左端为空心爱心，中部包含“99”形字样，右端连接小圆点、菱形闪光及弯箭头，属于同一横向设计单元。",
+      "label": "左侧两张照片之间的白色细线装饰，左端为空心爱心，中部包含“9",
+      "method": "extract"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        3,
+        702,
+        543,
+        1379
+      ],
+      "description": "左下竖向黑色胶片框，包含两侧成列的胶片齿孔、黄色“FUJI”“RDP II”及数字印字，完整保留边缘和框体设计。只有一个照片窗口；右侧局部被白色标签和棕色胶带遮挡。",
+      "photo_id": [
+        "photo_lower"
+      ],
+      "label": "左下竖向黑色胶片框，包含两侧成列的胶片齿孔、黄色“FUJI”",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        56,
+        712,
+        490,
+        1369
+      ],
+      "description": "一名女性的全身街拍，穿黑色外套和浅蓝牛仔裤，肩背浅色布包，身体侧向左并回头看镜头，一条腿向后抬起。保留栏杆、道路及白色建筑拱窗的完整摄影环境，人物下端随矩形窗口裁切；右侧部分环境被标签与胶带遮挡，与上方照片为独立取景。",
+      "label": "一名女性的全身街拍，穿黑色外套和浅蓝牛仔裤，肩背浅色布包，身",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        746,
+        708,
+        913
+      ],
+      "description": "中右部白色立体云朵贴纸，云朵上缘及下方带黄色爱心、小花和闪光点，下方花朵呈悬垂分布，完整组合独立于街景保留。",
+      "label": "中右部白色立体云朵贴纸，云朵上缘及下方带黄色爱心、小花和闪光",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plog",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        994,
+        774,
+        1075
+      ],
+      "description": "横向白色标签，底面散布灰色小星点，包含黑色旋涡、“Plog”、蓝色播放按钮、黑色竖线节奏图案、空心星形和加号。文字与图标共同组成固定设计，整体覆盖左下胶片照片右侧并延伸到街景上。",
+      "label": "横向白色标签，底面散布灰色小星点，包含黑色旋涡、“Plog”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        1108,
+        622,
+        1205
+      ],
+      "description": "棕色白圆点胶带，横贴在左下照片与街景交界，左边略不规则，右边有明显撕裂斜边和浅色纸纤维，完整保留胶带轮廓、圆点及边缘质感。",
+      "label": "棕色白圆点胶带，横贴在左下照片与街景交界，左边略不规则，右边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_upper",
+      "kind": "overlay",
+      "bbox": [
+        882,
+        1098,
+        935,
+        1156
+      ],
+      "description": "右下街景墙面上的黄色十字闪光装饰，具有柔亮光晕，与附近摄影招牌分离，作为独立点缀保留。",
+      "label": "右下街景墙面上的黄色十字闪光装饰，具有柔亮光晕，与附近摄影招",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_lower",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        1238,
+        929,
+        1288
+      ],
+      "description": "右下汽车前部上方的黄色十字闪光装饰，带柔化光晕，与上方闪光距离较远，单独保留。",
+      "label": "右下汽车前部上方的黄色十字闪光装饰，带柔化光晕，与上方闪光距",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "frame_upper",
+    "photo_upper",
+    "frame_lower",
+    "photo_lower",
+    "overlay_dolphin",
+    "overlay_dot_heart",
+    "overlay_white_line",
+    "overlay_cloud",
+    "overlay_plog",
+    "overlay_tape",
+    "overlay_sparkle_upper",
+    "overlay_sparkle_lower"
+  ]
+}

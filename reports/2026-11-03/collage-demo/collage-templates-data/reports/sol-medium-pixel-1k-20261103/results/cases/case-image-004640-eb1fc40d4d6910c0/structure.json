@@ -1,0 +1,48 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#2D251F"
+  },
+  "objects": [
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        630,
+        1080,
+        1440
+      ],
+      "description": "下方横向饮品摄影画面，完整窗口从画布中部延伸至左右边及底边。木质托盘上从左至右摆放深色咖啡高脚玻璃杯、带叶形拉花的白色咖啡杯和盛牛奶的玻璃壶，保留黑色桌面、托盘及下方实拍菜单；菜单文字随照片替换。左侧杯口及下方菜单被画布边缘裁切，左上部分被上方独立照片遮挡。摄影环境保留，边缘为直接裁切，无可见装饰描边。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        77,
+        166,
+        492,
+        719
+      ],
+      "description": "左上竖向饮品照片，无人物。两只盛深色咖啡的白色小杯与透明玻璃咖啡壶摆在橙棕色长方形木托板上，后方有透明玻璃器皿；保留灰色桌面和深绿色竖向板墙。完整显示范围为矩形，底部覆盖下方饮品照片的左上区域，没有可见框体、描边或透明渐隐。"
+    },
+    {
+      "id": "overlay_combo",
+      "kind": "overlay",
+      "bbox": [
+        674,
+        433,
+        785,
+        503
+      ],
+      "description": "位于上半部右侧棕色留白上的浅米白色手写字样“Combo”。大写C具有明显的大幅弧线，后续字母细长连写并带倾斜笔势，整体作为签名字形装饰保留，没有独立底板。"
+    }
+  ],
+  "layer_order": [
+    "photo_bottom",
+    "photo_top_left",
+    "overlay_combo"
+  ]
+}

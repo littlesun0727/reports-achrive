@@ -1,0 +1,42 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的甜品实拍画面覆盖全画布，无人物。中央偏左近景展示一碗桃子雪冰，顶部放整颗去皮桃子与薄荷叶，周围铺桃肉；右下为小碗奶液，右侧放木勺，均置于木托盘上。黑色桌面与棕色墙面延伸至画布边缘，右上局部被插画和文字遮挡。甜品、器皿、托盘及完整摄影环境一起替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_dessert",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        0,
+        1023,
+        306
+      ],
+      "description": "右上角完整甜品插画装饰：深色托盘上放桃肉雪冰碗、顶部桃子与绿叶、右侧小奶碗和勺子，外围有白色手绘虚线。下方附小桃子图标及略带弧形排布的白色“水蜜桃雪冰”字样。插画、虚线及标题共同作为固定设计保留。"
+    },
+    {
+      "id": "text_description",
+      "kind": "text",
+      "bbox": [
+        734,
+        322,
+        991,
+        421
+      ],
+      "text": "一整颗水蜜桃，\n底部牛奶冰香香甜甜\n桃子用料真的是，\n成功晋升2025本命雪冰",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_dessert",
+    "text_description"
+  ]
+}

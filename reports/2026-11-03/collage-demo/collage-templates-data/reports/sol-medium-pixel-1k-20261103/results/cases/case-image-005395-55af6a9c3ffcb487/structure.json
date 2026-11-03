@@ -1,0 +1,126 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_cafe",
+    "description": "连续的咖啡馆室内摄影画面覆盖全画布：顶部木质窗框，中央立柱与壁灯，左侧和中部茂密盆栽，右侧明亮窗外树木，下方餐桌、杯具及木质柜台。右下远处可见一位坐着的客人，身体被植物和桌椅遮挡。场景在四边及前景餐盘周围连续，中央局部被独立餐盘照片遮住；整个室内外摄影环境随底图替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_dish",
+      "kind": "photo",
+      "bbox": [
+        104,
+        392,
+        1080,
+        961
+      ],
+      "description": "独立近景食物照片，完整主体组合包括浅黄色大餐盘、中央撒碎坚果的白色圆形奶包、周围红皮桃块与绿色水果，以及从右侧伸入并延伸至画布右边的金属餐叉。原摄影背景沿餐盘和餐叉外轮廓去除，露出下层咖啡馆；黄色粗糙手绘描边沿整个主体组合外缘分布，属于该照片。右端餐叉被画布边缘裁切，盘面另被六枚独立星星装饰覆盖。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        631,
+        432,
+        684,
+        491
+      ],
+      "description": "餐盘上方偏右的一枚黄色五角星，带白色细描边，略有倾斜，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        615,
+        256,
+        672
+      ],
+      "description": "餐盘左侧的一枚黄色五角星，带白色细描边，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        775,
+        598,
+        826,
+        653
+      ],
+      "description": "餐盘右上侧、桃块外侧的一枚黄色五角星，带白色细描边，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_center_right",
+      "kind": "overlay",
+      "bbox": [
+        665,
+        694,
+        718,
+        750
+      ],
+      "description": "奶包右下方绿色水果上的一枚黄色五角星，带白色细描边，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        742,
+        412,
+        797
+      ],
+      "description": "餐盘左下方桃块上的一枚倾斜黄色五角星，带白色细描边，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        883,
+        665,
+        942
+      ],
+      "description": "餐盘下沿偏右的一枚黄色五角星，带白色细描边，叠在盘缘及照片轮廓附近，作为独立装饰保留。"
+    },
+    {
+      "id": "text_dish_name",
+      "kind": "text",
+      "bbox": [
+        332,
+        1201,
+        756,
+        1287
+      ],
+      "text": "Chunxue Peach\nFragrant Milk Bun",
+      "color": "#FFFFFF",
+      "font": "mono",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1074,
+        1435
+      ],
+      "description": "右下角低透明度浅色圆角小标记，内有极小中文字样，无法可靠辨认；底板与字样共同作为完整固定标记保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_dish",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_right",
+    "overlay_star_center_right",
+    "overlay_star_lower_left",
+    "overlay_star_bottom",
+    "text_dish_name",
+    "overlay_watermark"
+  ]
+}

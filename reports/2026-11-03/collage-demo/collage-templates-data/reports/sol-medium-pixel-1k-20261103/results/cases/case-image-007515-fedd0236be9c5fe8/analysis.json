@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_damask",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为近黑底色上的深灰色重复花卉、卷叶与藤蔓暗纹，四边及相框外侧连续可见，属于需要原样保留的固定图案底图。中央肖像照片、华丽框体、底部文字及右下角小标记分别独立，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为近黑底色上的深灰色重复花卉、卷叶与藤蔓暗纹，四边及相",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        193,
+        145,
+        888,
+        1218
+      ],
+      "description": "中央单人正面半身肖像：黑色短发及刘海，目视镜头，穿黑色蕾丝荷叶边服装，胸前有大蝴蝶结、十字架饰物和长项链。浅灰紫色墙面摄影背景仍然保留，没有沿人物轮廓去背景。完整照片显示范围延伸至华丽框体内缘后方，四周局部被卷叶框沿遮挡，底部衣服被下框沿覆盖；框沿遮挡不作为照片自身裁切边界。",
+      "label": "中央单人正面半身肖像：黑色短发及刘海，目视镜头，穿黑色蕾丝荷",
+      "method": "local"
+    },
+    {
+      "id": "frame_ornate",
+      "kind": "frame",
+      "bbox": [
+        136,
+        79,
+        942,
+        1260
+      ],
+      "description": "承载中央单张肖像的完整黑色巴洛克式装饰框，四边由对称卷叶、涡旋和花饰连接，带多重灰白细线勾边及细微纹理。内缘凹凸起伏并遮挡照片边缘，顶部、底部和四角的外伸花饰均属于同一框体，整体保留。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "承载中央单张肖像的完整黑色巴洛克式装饰框，四边由对称卷叶、涡",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        258,
+        1298,
+        824,
+        1337
+      ],
+      "description": "UNDERGROUND♥IDOL",
+      "label": "UNDERGROUND♥IDOL",
+      "method": "local",
+      "text": "UNDERGROUND♥IDOL",
+      "text_status": "known",
+      "style": {
+        "fill": "#C5C5C5",
+        "font": "serif",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1073,
+        1433
+      ],
+      "description": "右下角独立的小型灰色半透明圆角标记，内部含深色微小字样，清晰度不足以可靠辨认。底板与内部字样作为完整固定单元保留。",
+      "label": "右下角独立的小型灰色半透明圆角标记，内部含深色微小字样，清晰",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_damask",
+    "photo_portrait",
+    "frame_ornate",
+    "text_title",
+    "overlay_watermark"
+  ]
+}

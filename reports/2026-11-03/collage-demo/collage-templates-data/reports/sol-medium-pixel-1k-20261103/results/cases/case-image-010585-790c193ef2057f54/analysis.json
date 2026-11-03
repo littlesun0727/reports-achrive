@@ -1,0 +1,185 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    797,
+    1417
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        797,
+        1417
+      ],
+      "description": "全画布为米白色粗糙纸纹底图，四边分布浅灰褐色卷曲藤蔓纹样，中央与对象间隙连续露出同一纸纹。纸张质感及边缘印刷花纹整体保留，独立人物、蛋糕、数字、文字和贴纸不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为米白色粗糙纸纹底图，四边分布浅灰褐色卷曲藤蔓纹样，中",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "number_18",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        285,
+        746,
+        945
+      ],
+      "description": "巨大的灰粉褐色手绘数字“18”，笔画宽厚且轮廓不规则，横跨画面中部。两个数字共同构成主标题设计，数字8中部的浅色小缺口随设计保留；下部被女孩遮挡。",
+      "label": "巨大的灰粉褐色手绘数字“18”，笔画宽厚且轮廓不规则，横跨画",
+      "method": "extract"
+    },
+    {
+      "id": "birthday_sticker",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        157,
+        204,
+        332
+      ],
+      "description": "左上方不规则灰褐色纸质贴纸，含黑色线描生日蛋糕、蜡烛、周围小闪光及“HAPPY BIRTHDAY”印字，纸边与整体纹理一并保留。",
+      "label": "左上方不规则灰褐色纸质贴纸，含黑色线描生日蛋糕、蜡烛、周围小",
+      "method": "extract"
+    },
+    {
+      "id": "small_star",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        89,
+        469,
+        220
+      ],
+      "description": "上方中央的细长四角星贴纸，灰褐色不规则纸底上有乳白色手绘星形轮廓，包含纸边和轻微阴影。",
+      "label": "上方中央的细长四角星贴纸，灰褐色不规则纸底上有乳白色手绘星形",
+      "method": "extract"
+    },
+    {
+      "id": "large_star",
+      "kind": "overlay",
+      "bbox": [
+        584,
+        194,
+        730,
+        378
+      ],
+      "description": "右上方倾斜的多角星贴纸，米褐色纸底配乳白色不规则星形线条，完整保留尖角、纸边及阴影。",
+      "label": "右上方倾斜的多角星贴纸，米褐色纸底配乳白色不规则星形线条，完",
+      "method": "extract"
+    },
+    {
+      "id": "pink_party_hat",
+      "kind": "overlay",
+      "bbox": [
+        619,
+        360,
+        725,
+        464
+      ],
+      "description": "数字8右上沿的粉色派对帽装饰，帽身带白色星点和圆点，帽沿为浅青色波浪边，周围附有黄色星形及彩色碎屑；所有附属点缀作为同一装饰保留。",
+      "label": "数字8右上沿的粉色派对帽装饰，帽身带白色星点和圆点，帽沿为浅",
+      "method": "extract"
+    },
+    {
+      "id": "girl_photo",
+      "kind": "photo",
+      "bbox": [
+        177,
+        492,
+        471,
+        947
+      ],
+      "description": "一名黑发小女孩的独立人物照片，从头部显示至大腿附近，穿粉色与蓝色泳装，面朝前方微侧，笑着向两侧伸手，左腿抬起。摄影环境已沿人物轮廓去除，完整人物外沿带较宽、不规则白色纸边及浅灰阴影；底部近水平裁切。人物压住数字18，头顶局部被独立线描帽贴纸遮挡。",
+      "label": "一名黑发小女孩的独立人物照片，从头部显示至大腿附近，穿粉色与",
+      "method": "local"
+    },
+    {
+      "id": "drawn_party_hat",
+      "kind": "overlay",
+      "bbox": [
+        336,
+        441,
+        451,
+        572
+      ],
+      "description": "叠在女孩头顶的灰褐色纸质生日帽贴纸，帽尖有黑色放射短线，锥形帽身带黑色弧线，帽沿由一串圆形绒球组成；完整纸边与线描作为一个固定装饰保留。",
+      "label": "叠在女孩头顶的灰褐色纸质生日帽贴纸，帽尖有黑色放射短线，锥形",
+      "method": "extract"
+    },
+    {
+      "id": "birthday_greeting",
+      "kind": "text",
+      "bbox": [
+        59,
+        950,
+        750,
+        1001
+      ],
+      "description": "HAPPY BIRTHDAY TO YANNIE",
+      "label": "HAPPY BIRTHDAY TO YANNIE",
+      "method": "local",
+      "text": "HAPPY BIRTHDAY TO YANNIE",
+      "text_status": "known",
+      "style": {
+        "fill": "#88664F",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "birthday_date",
+      "kind": "text",
+      "bbox": [
+        218,
+        1018,
+        593,
+        1086
+      ],
+      "description": "2008.01.22",
+      "label": "2008.01.22",
+      "method": "local",
+      "text": "2008.01.22",
+      "text_status": "known",
+      "style": {
+        "fill": "#88664F",
+        "font": "hand",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "cake_hand_photo",
+      "kind": "photo",
+      "bbox": [
+        264,
+        1102,
+        484,
+        1304
+      ],
+      "description": "底部中央的独立摄影组合：一只灰黑色手掌从左侧托住白色蛋糕托盘，手腕向右下弯曲；托盘上为棕色圆蛋糕，顶部有白色奶油花与红色樱桃。手、托盘和蛋糕共同沿外轮廓显示，无摄影环境，完整组合替换；手部呈黑白而蛋糕保留颜色。",
+      "label": "底部中央的独立摄影组合：一只灰黑色手掌从左侧托住白色蛋糕托盘",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "number_18",
+    "birthday_sticker",
+    "small_star",
+    "large_star",
+    "pink_party_hat",
+    "girl_photo",
+    "drawn_party_hat",
+    "birthday_greeting",
+    "birthday_date",
+    "cake_hand_photo"
+  ]
+}

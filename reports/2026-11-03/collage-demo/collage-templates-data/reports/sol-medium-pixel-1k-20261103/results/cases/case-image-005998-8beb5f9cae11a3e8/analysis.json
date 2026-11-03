@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "background_floral",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "全画布为浅白、淡紫与少量灰绿色交织的花纹底图，带朦胧花瓣、细碎斑点和柔软纸状纹理，四边及下方均可见。保留这层固定纹理；中央人物照片和叠加的百合、卷草装饰另列，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅白、淡紫与少量灰绿色交织的花纹底图，带朦胧花瓣、细",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        79,
+        77,
+        996,
+        998
+      ],
+      "description": "中央单人室内半身肖像：长直发女性戴圆框眼镜，正面看向镜头，穿浅色紫花泡袖上衣，一只手放在胸前。照片保留左侧浅紫墙面及右侧柜体等摄影环境，不沿人物轮廓去背景。完整显示范围包括人物周围的室内背景，顶部被百合遮挡，左右及底部柔化渐隐，与浅色花纹底图融合；上缘局部边界被装饰遮住。",
+      "label": "中央单人室内半身肖像：长直发女性戴圆框眼镜，正面看向镜头，穿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        349,
+        54,
+        503,
+        139
+      ],
+      "description": "人物头顶偏左的粉红色心形点缀，具有浅粉至玫红的颜色变化，下部被头发及前方百合花梗遮挡。作为独立叠加装饰保留可见造型。",
+      "label": "人物头顶偏左的粉红色心形点缀，具有浅粉至玫红的颜色变化，下部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lilies",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        902,
+        394
+      ],
+      "description": "横跨顶部的浅紫百合花组合：左上大型花朵向左侧出画，中央至右上的另一朵花展开宽阔花瓣，带深紫花蕊、花丝和斜向花梗。整组保留半透明花瓣、细腻明暗及柔软边缘，覆盖照片上沿、头顶和粉红心形的一部分。",
+      "label": "横跨顶部的浅紫百合花组合：左上大型花朵向左侧出画，中央至右上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_right_scroll",
+      "kind": "overlay",
+      "bbox": [
+        723,
+        104,
+        981,
+        609
+      ],
+      "description": "右上方紫色闪粉卷草装饰，包含上部密集环形花纹、向下盘绕的细线、右侧小卷曲，以及中部浅色叶瓣。整体叠在照片右侧柜体前，保留颗粒质感、细线和局部半透明外观。",
+      "label": "右上方紫色闪粉卷草装饰，包含上部密集环形花纹、向下盘绕的细线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_right_scroll",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        484,
+        994,
+        975
+      ],
+      "description": "右下紫色藤蔓卷草，细长弧线由人物胸前附近延伸至手部和右侧，大型螺旋在右前臂及照片右下侧展开，底部带多条细叶状分枝。作为一个完整装饰保留，覆盖摄影内容，线条有深浅及透明度变化。",
+      "label": "右下紫色藤蔓卷草，细长弧线由人物胸前附近延伸至手部和右侧，大",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_scroll",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        672,
+        589,
+        1080
+      ],
+      "description": "左下至底部中央的紫色音乐卷草组合，包含左侧多组螺旋曲线、横向弯曲的五线谱、音符及向下展开的卷曲枝条。整体跨过照片左臂和下缘，延伸到底部花纹区域，最下端由画布裁切；保留所有附属音符、细线及淡紫纹理。",
+      "label": "左下至底部中央的紫色音乐卷草组合，包含左侧多组螺旋曲线、横向",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_floral",
+    "photo_portrait",
+    "overlay_pink_heart",
+    "overlay_lilies",
+    "overlay_upper_right_scroll",
+    "overlay_lower_right_scroll",
+    "overlay_music_scroll"
+  ]
+}

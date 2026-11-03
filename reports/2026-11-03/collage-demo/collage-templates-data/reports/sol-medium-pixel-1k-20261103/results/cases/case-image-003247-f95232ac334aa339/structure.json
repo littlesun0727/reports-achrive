@@ -1,0 +1,219 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "star_pattern",
+    "description": "浅蓝白色底上连续重复的蓝色五角星图案，覆盖全画布；星纹在照片、卡片与界面元素之间及四周保持一致，作为固定底图保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        199,
+        255,
+        556,
+        620
+      ],
+      "description": "左上方近方形户外照片，一名长发人物侧身低头，穿白色羽毛状服饰，周围有蓝色飘带与金属网格；保留完整摄影环境，照片边缘可见白色选框效果。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        690,
+        199,
+        970,
+        572
+      ],
+      "description": "右上方竖向近景照片，人物穿蓝绿色圆点衣物，手持蓝色星形物件，脸部上方可见蓝色装饰；保留照片内环境，显示于浅色界面框的矩形窗口内。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        143,
+        749,
+        535,
+        1136
+      ],
+      "description": "左下方近方形人物近景，长发人物手持白色网状装饰遮在脸前，眼部闭合，身后为户外网格；保留完整摄影环境，照片窗口下缘与白色卡片相接。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        599,
+        652,
+        1028,
+        1011
+      ],
+      "description": "右下方横向户外照片，一名长发人物坐在网格围栏旁，穿蓝色服饰并被蓝色飘带环绕，手持透明小杯；保留完整摄影环境，照片显示在界面面板的矩形窗口内。"
+    },
+    {
+      "id": "frame_upper_right",
+      "kind": "frame",
+      "bbox": [
+        667,
+        140,
+        994,
+        603
+      ],
+      "description": "右上照片的浅灰白色界面框，含细密横纹底板及顶部蓝灰色标签栏，标签文字为“OOTD”“PLOG”“TODAY”；整体承托单张照片。",
+      "photo_id": [
+        "photo_upper_right"
+      ]
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        130,
+        746,
+        550,
+        1255
+      ],
+      "description": "左下照片的白色圆角卡片，照片下方印有黑色文字“Live in the moment.”，卡片与印字作为同一固定载体保留。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "frame_lower_right",
+      "kind": "frame",
+      "bbox": [
+        589,
+        603,
+        1034,
+        1065
+      ],
+      "description": "右下照片的浅灰色界面面板，顶部栏显示返回符号、“Today”和关闭符号，照片下方连接浅色底栏；整体承托单张照片。",
+      "photo_id": [
+        "photo_lower_right"
+      ]
+    },
+    {
+      "id": "title_upper_left",
+      "kind": "text",
+      "bbox": [
+        156,
+        211,
+        432,
+        240
+      ],
+      "text": "最高の夏のひととき",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "speech_bubble_pink",
+      "kind": "overlay",
+      "bbox": [
+        492,
+        51,
+        654,
+        145
+      ],
+      "description": "上方白色像素风对话气泡，灰色像素描边及尾部，内部有粉色装饰符号；作为一体的固定图形保留。"
+    },
+    {
+      "id": "speech_bubble_blue",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        128,
+        575,
+        222
+      ],
+      "description": "中上部白色像素风对话气泡，灰色像素描边及向下尾部，内部有蓝色装饰符号；作为一体的固定图形保留。"
+    },
+    {
+      "id": "hearts_left",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        659,
+        195,
+        934
+      ],
+      "description": "左侧纵向排列的三个蓝色渐亮心形贴纸，尺寸相近，彼此略有重叠，作为同组装饰保留。"
+    },
+    {
+      "id": "toggle_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        807,
+        1017,
+        1068,
+        1088
+      ],
+      "description": "右下界面照片面板下方的浅蓝白色开关装饰，含灰色“ON”和白色“OFF”字样及椭圆滑块，整体作为固定界面元素保留。"
+    },
+    {
+      "id": "layer_list",
+      "kind": "overlay",
+      "bbox": [
+        489,
+        1096,
+        720,
+        1316
+      ],
+      "description": "画面下方偏中的图层列表界面，包含三行星形缩略图、符号文字、眼睛图标、“Normal”标签及右侧菜单线；保留为完整固定界面单元。"
+    },
+    {
+      "id": "sticker_cyan",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        1206,
+        901,
+        1324
+      ],
+      "description": "右下方青绿色方形贴纸，带细边框、点状纹样和黑色手绘表情符号，作为完整固定装饰保留。"
+    },
+    {
+      "id": "sticker_paw",
+      "kind": "overlay",
+      "bbox": [
+        915,
+        1294,
+        999,
+        1372
+      ],
+      "description": "右下角浅黄色方形贴纸，内部为深色爪印图案，保留完整方形边框与图案。"
+    },
+    {
+      "id": "side_slider",
+      "kind": "overlay",
+      "bbox": [
+        7,
+        771,
+        28,
+        892
+      ],
+      "description": "左侧靠边的竖向浅色圆角滑块状界面装饰，带淡灰蓝边缘与阴影。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "frame_upper_right",
+    "photo_upper_right",
+    "photo_lower_left",
+    "frame_lower_left",
+    "photo_lower_right",
+    "frame_lower_right",
+    "side_slider",
+    "title_upper_left",
+    "speech_bubble_pink",
+    "speech_bubble_blue",
+    "hearts_left",
+    "toggle_lower_right",
+    "layer_list",
+    "sticker_cyan",
+    "sticker_paw"
+  ]
+}

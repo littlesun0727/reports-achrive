@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的竖幅近景自拍覆盖全画布：一名长发女性正面朝向镜头，头部与肩部占据画面中央和右侧，身穿浅色衣物并戴项链，室内墙面和座椅等环境在边缘可见。左上与左下的星形照片及白色涂鸦遮挡局部，均不改变底图延伸至画布四边的连续性；替换时整体保留摄影环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_star_upper",
+      "kind": "photo",
+      "bbox": [
+        13,
+        27,
+        415,
+        510
+      ],
+      "description": "左上方星形显示的独立自拍，一名长发女性俯身面向镜头，穿浅色针织上衣，照片内保留人物周围的室内环境。完整星形边缘带粗细略不均的白色手绘描边，覆盖底图左上区域。"
+    },
+    {
+      "id": "photo_star_lower",
+      "kind": "photo",
+      "bbox": [
+        88,
+        696,
+        573,
+        1235
+      ],
+      "description": "左下方星形显示的独立自拍，一名长发女性斜靠并面向镜头，穿浅色针织上衣，照片内保留室内环境。完整星形边缘带白色手绘描边，覆盖底图左下区域。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        823,
+        126,
+        911,
+        215
+      ],
+      "description": "右上方白色空心手绘五角星涂鸦，独立压在底图人物头发区域。"
+    },
+    {
+      "id": "overlay_star_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        310,
+        529,
+        413,
+        622
+      ],
+      "description": "左侧中部白色空心手绘五角星涂鸦，位于底图人物肩部附近。"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        647,
+        982,
+        763
+      ],
+      "description": "右侧中部白色空心手绘五角星涂鸦，覆盖底图人物衣袖与头发边缘。"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        1015,
+        834,
+        1167
+      ],
+      "description": "右下方较大的白色空心手绘五角星涂鸦，位于底图人物头发与衣物区域。"
+    },
+    {
+      "id": "overlay_scribble_upper",
+      "kind": "overlay",
+      "bbox": [
+        340,
+        382,
+        449,
+        427
+      ],
+      "description": "左侧中上部一笔白色手绘弯曲涂鸦，靠近上方星形照片右下侧，作为独立线条装饰保留。"
+    },
+    {
+      "id": "overlay_scribble_lower",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        911,
+        695,
+        978
+      ],
+      "description": "画面中下部一笔白色手绘卷曲线条，位于下方星形照片右侧并覆盖底图，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_star_upper",
+    "photo_star_lower",
+    "overlay_star_upper_right",
+    "overlay_star_left_middle",
+    "overlay_star_right_middle",
+    "overlay_star_lower_right",
+    "overlay_scribble_upper",
+    "overlay_scribble_lower"
+  ]
+}

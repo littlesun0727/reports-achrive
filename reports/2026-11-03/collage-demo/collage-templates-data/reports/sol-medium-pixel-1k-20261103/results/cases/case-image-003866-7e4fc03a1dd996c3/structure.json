@@ -1,0 +1,515 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "暖橙色灯光下的餐厅摄影环境，桌椅和室内结构高度失焦，没有清晰可辨的人物。暗色与橙黄色场景在画布四边及食物照片之间连续显露，构成完整全幅摄影底图；上层食物拼贴和文字遮住局部，替换时保留全幅摄影环境的范围。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_pot",
+      "kind": "photo",
+      "bbox": [
+        57,
+        128,
+        243,
+        354
+      ],
+      "description": "左上方斜向展示的黑色双耳锅，内有土豆、肉块、辣椒与葱等炒菜。沿锅体及把手外轮廓独立显示，不保留原场景背景；外围白色粗虚线依附完整锅体轮廓。"
+    },
+    {
+      "id": "photo_upper_stirfry",
+      "kind": "photo",
+      "bbox": [
+        225,
+        135,
+        419,
+        270
+      ],
+      "description": "上方偏左的白底红边圆盘，盘内为切碎的蔬菜肉末炒菜，俯视略倾斜。仅保留盘子和菜品，外围白色粗虚线沿盘缘分布，右侧局部与邻近菜盘相叠。"
+    },
+    {
+      "id": "photo_upper_greens",
+      "kind": "photo",
+      "bbox": [
+        385,
+        121,
+        541,
+        258
+      ],
+      "description": "上方白色浅盘中的深绿色炒蔬菜，带红椒和肉末，斜俯视呈近方形盘面。沿盘子轮廓独立显示，外围白色粗虚线属于照片边缘；左下部分被相邻菜盘及下方纸托遮挡。"
+    },
+    {
+      "id": "photo_tofu_skewers",
+      "kind": "photo",
+      "bbox": [
+        201,
+        229,
+        558,
+        440
+      ],
+      "description": "上部中央倾斜的浅棕色纸托，内有两串金黄色方块烤豆腐，竹签向左下延伸。纸托、食物及完整可见竹签共同属于摄影主体，沿组合轮廓去除背景，白色粗虚线环绕纸托和伸出的竹签。"
+    },
+    {
+      "id": "photo_small_rice",
+      "kind": "photo",
+      "bbox": [
+        213,
+        393,
+        366,
+        468
+      ],
+      "description": "纸托下方露出的浅色米饭碗，碗口呈椭圆，米饭表面可见少量配料。仅保留碗和米饭，碗的上部与纸托重叠，下部被前方白盘遮挡；完整显示范围依据椭圆碗口判断，外围有白色虚线。"
+    },
+    {
+      "id": "photo_top_dessert",
+      "kind": "photo",
+      "bbox": [
+        793,
+        85,
+        903,
+        186
+      ],
+      "description": "右上方小号白色杯碗，外壁有绿色叶片图案，盛白色冰凉甜品，右侧伸出小勺柄。杯碗、甜品和勺柄沿整体轮廓独立显示，不保留周围摄影环境。"
+    },
+    {
+      "id": "photo_top_coconut",
+      "kind": "photo",
+      "bbox": [
+        893,
+        24,
+        1048,
+        181
+      ],
+      "description": "右上角切开顶部的绿色椰子，露出浅色椰壳切面，插着向右上伸出的浅色吸管。椰子和吸管作为完整摄影组合沿轮廓显示，背景已去除。"
+    },
+    {
+      "id": "photo_fruit_soup",
+      "kind": "photo",
+      "bbox": [
+        699,
+        232,
+        895,
+        441
+      ],
+      "description": "右侧上部深棕色圆碗，内盛乳白色甜汤以及粉红、黄色水果块，俯视略倾斜。沿碗体去除背景，外围有白色虚线；右缘部分被生菜包照片覆盖。"
+    },
+    {
+      "id": "photo_lettuce_wrap",
+      "kind": "photo",
+      "bbox": [
+        855,
+        201,
+        1036,
+        478
+      ],
+      "description": "右上中部一只手托着大片绿色生菜，叶片上有炸肉和黄色菠萝块。手、生菜与食物组成完整主体，沿外轮廓独立显示，不保留背景，外围白色虚线包住整个组合。"
+    },
+    {
+      "id": "photo_fruit_plate",
+      "kind": "photo",
+      "bbox": [
+        0,
+        422,
+        174,
+        600
+      ],
+      "description": "左侧贴边的灰蓝色圆盘，盛粉红、黄色与乳白色方块水果，俯视展示。盘子左缘被画布裁切，保留完整可见盘面，背景去除，白色虚线沿盘缘分布。"
+    },
+    {
+      "id": "photo_fried_plate",
+      "kind": "photo",
+      "bbox": [
+        153,
+        441,
+        303,
+        589
+      ],
+      "description": "左侧上中部白色圆盘，内有三块金黄色煎炸点心或食物，局部带棕色酱汁。仅显示盘子与食物，外围白色粗虚线沿圆盘轮廓形成，位于米饭碗前方。"
+    },
+    {
+      "id": "photo_salad_plate",
+      "kind": "photo",
+      "bbox": [
+        285,
+        487,
+        424,
+        648
+      ],
+      "description": "中左部倾斜的灰蓝色椭圆盘，盛沙拉、浅色面条、蔬菜和小块食物。整盘沿轮廓独立显示，没有周围场景背景，外围有白色粗虚线。"
+    },
+    {
+      "id": "photo_small_rice_bowl",
+      "kind": "photo",
+      "bbox": [
+        87,
+        575,
+        189,
+        684
+      ],
+      "description": "左中部小号白色圆碗，盛带绿色蔬菜、黄色配料的米饭，俯视呈椭圆。碗和饭共同沿轮廓去背景，白色虚线环绕碗缘。"
+    },
+    {
+      "id": "photo_snack_plate",
+      "kind": "photo",
+      "bbox": [
+        168,
+        576,
+        337,
+        757
+      ],
+      "description": "左中部较大的灰蓝色圆盘，盛小番茄、薯条、香肠和浅色肉片等食物，斜俯视展示。沿整盘轮廓独立显示，外围白色虚线与相邻小碗接近但分别依附各自照片。"
+    },
+    {
+      "id": "photo_two_eggs",
+      "kind": "photo",
+      "bbox": [
+        325,
+        635,
+        421,
+        729
+      ],
+      "description": "中央偏左的小号浅蓝边白碗，内有两个带棕色斑点的浅色圆形食物。沿碗体轮廓去除背景，白色虚线环绕；右下方被放射状线条装饰覆盖。"
+    },
+    {
+      "id": "photo_center_noodles",
+      "kind": "photo",
+      "bbox": [
+        449,
+        428,
+        740,
+        714
+      ],
+      "description": "画面中央大黑碗，俯视显示浅色细面、绿色生菜、葱花和金黄色浇头。整只碗及食物沿外轮廓独立显示，没有周围摄影环境，外围为较细的白色虚线。"
+    },
+    {
+      "id": "photo_cucumber_tray",
+      "kind": "photo",
+      "bbox": [
+        736,
+        533,
+        901,
+        764
+      ],
+      "description": "中央偏右倾斜的浅色纸托，上半部放深红色蘸酱，下半部整齐排列绿色黄瓜条。纸托、酱料与黄瓜属于同一摄影单元，沿纸托轮廓去背景，白色虚线围绕，右缘部分被面碗遮挡。"
+    },
+    {
+      "id": "photo_right_fried_noodles",
+      "kind": "photo",
+      "bbox": [
+        873,
+        532,
+        1080,
+        736
+      ],
+      "description": "右侧贴边的花纹圆碗，内有炒面、蔬菜及一个金黄色煎炸圆饼，筷子从右侧伸入。碗、食物与可见筷子共同沿轮廓显示，右缘由画布裁切，外围白色虚线依附碗缘。"
+    },
+    {
+      "id": "photo_hand_coconut",
+      "kind": "photo",
+      "bbox": [
+        0,
+        646,
+        170,
+        953
+      ],
+      "description": "左侧一只手从下方托起绿色椰子，椰子顶部削平，细长吸管向上延伸到小饭碗附近。手、椰子和吸管作为同一主体沿轮廓去背景；手腕在左侧画布边缘裁切，下部被炒菜碗遮挡。"
+    },
+    {
+      "id": "photo_lower_stirfry",
+      "kind": "photo",
+      "bbox": [
+        0,
+        921,
+        111,
+        1049
+      ],
+      "description": "左下侧贴边的浅棕色圆碗，盛肉块、蔬菜和红绿辣椒炒菜。碗的左侧被画布裁切，沿其可见外轮廓去除背景并带白色虚线，覆盖托椰子的手腕下部。"
+    },
+    {
+      "id": "photo_greens_plate",
+      "kind": "photo",
+      "bbox": [
+        91,
+        922,
+        255,
+        1120
+      ],
+      "description": "左下部浅色盘中堆放大量长条绿色蔬菜，斜俯视呈纵向组合。盘与蔬菜共同沿轮廓显示，叶片伸出盘边仍属照片，外围白色虚线包围整体。"
+    },
+    {
+      "id": "photo_lower_egg_plate",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1034,
+        112,
+        1183
+      ],
+      "description": "左下边缘浅蓝边白色圆盘，盘中有两块带金黄色中心的煎蛋状食物。左侧被画布裁切，照片沿圆盘轮廓去背景并带白色虚线。"
+    },
+    {
+      "id": "photo_round_bread",
+      "kind": "photo",
+      "bbox": [
+        89,
+        1095,
+        244,
+        1230
+      ],
+      "description": "左下方白色浅盘，放一个带划纹和浅色条状点缀的圆形金黄色面饼。沿整盘轮廓独立显示，背景去除，外围有白色粗虚线。"
+    },
+    {
+      "id": "photo_lower_pot",
+      "kind": "photo",
+      "bbox": [
+        219,
+        829,
+        503,
+        1130
+      ],
+      "description": "左下中部黑色炖锅置于倾斜的方形炉架上，锅内有肉块、土豆、红枣、辣椒和葱段，一把金属汤勺搭在上沿。锅、炉架、食物与勺子共同沿整体外轮廓去背景，外围白色虚线包住完整组合。"
+    },
+    {
+      "id": "photo_meat_skewers",
+      "kind": "photo",
+      "bbox": [
+        450,
+        745,
+        803,
+        1064
+      ],
+      "description": "下部中央倾斜的浅色皱褶纸托，上面摆多串烤肉，右侧有一堆红色辣椒粉。长竹签从纸托向下伸出，纸托、肉串、竹签和调味粉共同沿外轮廓显示，外围白色虚线包围组合，右下角被汤面碗遮挡。"
+    },
+    {
+      "id": "photo_lower_dry_noodles",
+      "kind": "photo",
+      "bbox": [
+        805,
+        762,
+        1075,
+        1044
+      ],
+      "description": "右下中部花纹圆碗，俯视展示浅色细面、肉块和蔬菜。沿整个碗体轮廓去背景，外围白色虚线依附盘缘；上部叠有独立白色装饰字样，下部被前方汤面碗遮挡。"
+    },
+    {
+      "id": "photo_noodle_soup",
+      "kind": "photo",
+      "bbox": [
+        691,
+        963,
+        971,
+        1257
+      ],
+      "description": "右下方大号白色花边碗，盛棕色汤汁、粗面条及大量葱花，斜俯视展示。整碗沿轮廓独立显示，背景去除，外围白色粗虚线环绕，覆盖后方干面碗和肉串纸托的一部分。"
+    },
+    {
+      "id": "photo_flat_noodles",
+      "kind": "photo",
+      "bbox": [
+        943,
+        1025,
+        1070,
+        1259
+      ],
+      "description": "右下边缘纵向白色长方盘，内有浅色宽面条、豆芽和少量蔬菜。沿完整盘体去除背景，外围带白色虚线，左缘部分被大汤面碗遮住。"
+    },
+    {
+      "id": "photo_bottom_hand_dessert",
+      "kind": "photo",
+      "bbox": [
+        109,
+        1272,
+        323,
+        1440
+      ],
+      "description": "底部偏左，一只涂彩色指甲的手托着透明圆杯，杯内有乳白色甜汤、黑色配料和黄色水果块。手、杯与甜品作为完整主体去背景，手腕在画布底边裁切。"
+    },
+    {
+      "id": "photo_bottom_dessert_bowl",
+      "kind": "photo",
+      "bbox": [
+        326,
+        1260,
+        529,
+        1429
+      ],
+      "description": "底部中央偏左的浅黄色花瓣边碗，盛乳白色甜汤、黄色水果块和小颗粒配料，左侧可见小把手。沿碗和把手轮廓去背景，外缘有贴合轮廓的白色手绘线。"
+    },
+    {
+      "id": "photo_bottom_ice_cup",
+      "kind": "photo",
+      "bbox": [
+        559,
+        1224,
+        780,
+        1440
+      ],
+      "description": "底部中央偏右的大号透明杯，盛白色冰沙甜品，一把透明勺向右上伸出。杯身蓝红印字随摄影内容一起替换，可辨有清补凉相关字样。杯、甜品与勺子沿整体轮廓去背景并带白色细线，杯底在画布底边裁切，右侧被文字覆盖。"
+    },
+    {
+      "id": "overlay_exclamation",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        34,
+        220,
+        212
+      ],
+      "description": "左上角白色手绘装饰，由倾斜排列的多个空心感叹号及左侧弧形线构成。保留完整笔画组合，下方弧线部分被黑锅照片遮挡。"
+    },
+    {
+      "id": "overlay_coconut_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        878,
+        13,
+        998,
+        88
+      ],
+      "description": "右上椰子附近的白色手绘闪光点缀，包含短射线和空心四角星造型，位于椰子上方及左上侧，作为一组局部装饰保留。"
+    },
+    {
+      "id": "overlay_shooting_star",
+      "kind": "overlay",
+      "bbox": [
+        566,
+        165,
+        741,
+        290
+      ],
+      "description": "上部中央白色手绘笑脸五角星，右上拖出双线流星尾，周围附有小十字星与点。完整星形、尾迹及附属点缀共同保留。"
+    },
+    {
+      "id": "overlay_yummy",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        416,
+        1076,
+        564
+      ],
+      "description": "右侧倾斜的白色手写艺术字“Yummy”，带不规则粗笔画，周围有大小空心爱心，左下有短箭头式线条。字样与附属装饰构成完整固定设计，覆盖食物照片之间的空隙及黄瓜纸托上缘。"
+    },
+    {
+      "id": "overlay_burst",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        613,
+        525,
+        802
+      ],
+      "description": "中央偏左白色与浅灰色手绘放射状线条装饰，长短线从中心向四周伸展，夹杂小星点和细小涂鸦。完整组合覆盖小碗右侧，并延伸到黑色面碗左下附近。"
+    },
+    {
+      "id": "overlay_noodle_lettering",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        817,
+        1063,
+        899
+      ],
+      "description": "右下干面碗上方横跨盘面的白色弯曲手写装饰字样，笔画有独立卷曲造型和不规则间距，内容无法可靠辨认。保留原有字形与位置，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        439,
+        1076,
+        605,
+        1235
+      ],
+      "description": "下部中央白色手绘餐具图标，多重圆圈中斜放刀、叉与勺，线条具有粉笔状毛边。圆圈和整套餐具构成一个完整装饰单元。"
+    },
+    {
+      "id": "overlay_glasses",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1268,
+        162,
+        1440
+      ],
+      "description": "左下角白色手绘双高脚杯碰杯图案，杯口上方有飞溅线、短射线和小星点。两只杯及附属点缀整体保留，左侧及底部部分笔画被画布裁切。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        346,
+        15,
+        736,
+        111
+      ],
+      "text": "吃不惯海鲜的两人\n再次满地寻找米饭 面条",
+      "color": "#FFFBEA",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        718,
+        1323,
+        1078,
+        1437
+      ],
+      "text": "短短几天\n已被清补凉狠狠占据每一餐\nps. 结局就是胖了七八斤",
+      "color": "#FFFBEA",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_exclamation",
+    "overlay_coconut_sparkles",
+    "photo_upper_greens",
+    "photo_upper_pot",
+    "photo_upper_stirfry",
+    "photo_small_rice",
+    "photo_tofu_skewers",
+    "photo_top_dessert",
+    "photo_top_coconut",
+    "photo_fruit_soup",
+    "photo_lettuce_wrap",
+    "photo_fruit_plate",
+    "photo_fried_plate",
+    "photo_salad_plate",
+    "photo_small_rice_bowl",
+    "photo_snack_plate",
+    "photo_two_eggs",
+    "photo_center_noodles",
+    "photo_cucumber_tray",
+    "photo_right_fried_noodles",
+    "photo_hand_coconut",
+    "photo_lower_stirfry",
+    "photo_greens_plate",
+    "photo_lower_egg_plate",
+    "photo_round_bread",
+    "photo_lower_pot",
+    "photo_meat_skewers",
+    "photo_lower_dry_noodles",
+    "photo_flat_noodles",
+    "photo_noodle_soup",
+    "photo_bottom_hand_dessert",
+    "photo_bottom_dessert_bowl",
+    "photo_bottom_ice_cup",
+    "overlay_shooting_star",
+    "overlay_yummy",
+    "overlay_burst",
+    "overlay_noodle_lettering",
+    "overlay_cutlery",
+    "overlay_glasses",
+    "text_top",
+    "text_bottom"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        449,
+        1080
+      ],
+      "description": "左侧竖向近距离猫咪照片，白色猫脸正对镜头，粉色鼻子和伸出的舌头显著，周围可见室内环境。照片区域延伸至画布左边及上下边，右缘在约 x=449 处与另一张照片形成清晰竖直接缝。"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        449,
+        0,
+        1080,
+        1080
+      ],
+      "description": "右侧竖向人物近景自拍，黑发女性正对镜头，脸部占据画面上半部，右侧前景举着一件紫红色、带亮片般反光纹理的物品；下方可见浅色蕾丝衣领及深色头发。保留照片内全部摄影内容，区域延伸至画布右边及上下边，左缘与猫咪照片在约 x=449 处形成清晰竖直接缝。"
+    }
+  ],
+  "layer_order": [
+    "photo_cat",
+    "photo_woman"
+  ]
+}

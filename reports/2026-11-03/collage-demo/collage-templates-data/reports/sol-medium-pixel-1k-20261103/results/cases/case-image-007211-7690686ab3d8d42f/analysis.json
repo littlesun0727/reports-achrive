@@ -1,0 +1,520 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1621
+  ],
+  "objects": [
+    {
+      "id": "background_rays",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1621
+      ],
+      "description": "覆盖全画布的浅粉与白色弯曲放射条纹底图，四边及中央卡片外的间隙均连续可见，带少量淡灰白闪光纹样。保留固定底纹，不包含中央白色卡片、独立照片、文字及叠贴装饰。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的浅粉与白色弯曲放射条纹底图，四边及中央卡片外的间",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_profile",
+      "kind": "frame",
+      "bbox": [
+        40,
+        336,
+        1040,
+        1270
+      ],
+      "description": "中央白色圆角资料卡及柔灰投影，承载左侧圆形和右侧方形两个照片位置。顶部灰色界面栏、左侧方块X按钮、love profile !!!字样及右侧颜文字属于卡片内部设计，整体保留；不包含照片和另行叠贴的装饰。",
+      "photo_id": [
+        "photo_plush",
+        "photo_album"
+      ],
+      "label": "中央白色圆角资料卡及柔灰投影，承载左侧圆形和右侧方形两个照片",
+      "method": "extract"
+    },
+    {
+      "id": "photo_plush",
+      "kind": "photo",
+      "bbox": [
+        154,
+        522,
+        504,
+        870
+      ],
+      "description": "左侧圆形照片，一只灰色长耳玩偶正面坐在粉灰色相册或盒子上，头部有粉色刺绣，胸前有粉色蝴蝶结和白色蕾丝。完整显示包括玩偶、底部物品和浅灰摄影背景，不沿玩偶轮廓去背景。下缘被白色翅膀装饰遮挡，右侧可见细小白色水印。",
+      "label": "左侧圆形照片，一只灰色长耳玩偶正面坐在粉灰色相册或盒子上，头",
+      "method": "local"
+    },
+    {
+      "id": "photo_album",
+      "kind": "photo",
+      "bbox": [
+        610,
+        543,
+        919,
+        851
+      ],
+      "description": "右侧近方形照片，近距离拍摄粉灰格纹相册页面，上缘有灰底白色花朵和爱心图案，中央偏右为带中文印字的灰色登记卡槽。保留完整摄影内容及其印刷文字，无人物；照片窗口边缘有浅粉色细边，底部略呈圆角。",
+      "label": "右侧近方形照片，近距离拍摄粉灰格纹相册页面，上缘有灰底白色花",
+      "method": "local"
+    },
+    {
+      "id": "overlay_wings",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        763,
+        507,
+        873
+      ],
+      "description": "一对白色立体卡通小翅膀，左右对称，带浅灰描边、卷曲羽根和柔和阴影，作为完整配对装饰压在圆形照片下部边缘。",
+      "label": "一对白色立体卡通小翅膀，左右对称，带浅灰描边、卷曲羽根和柔和",
+      "method": "extract"
+    },
+    {
+      "id": "text_my_angel",
+      "kind": "text",
+      "bbox": [
+        261,
+        494,
+        358,
+        516
+      ],
+      "description": "my angel",
+      "label": "my angel",
+      "method": "local",
+      "text": "my angel",
+      "text_status": "known",
+      "style": {
+        "fill": "#646464",
+        "font": "mono",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_angel_heart",
+      "kind": "overlay",
+      "bbox": [
+        368,
+        484,
+        397,
+        514
+      ],
+      "description": "位于my angel右侧的灰黑色手绘空心爱心，轮廓略不规则，独立保留。",
+      "label": "位于my angel右侧的灰黑色手绘空心爱心，轮廓略不规则，",
+      "method": "extract"
+    },
+    {
+      "id": "text_song",
+      "kind": "text",
+      "bbox": [
+        677,
+        512,
+        820,
+        537
+      ],
+      "description": "my fav song",
+      "label": "my fav song",
+      "method": "local",
+      "text": "my fav song",
+      "text_status": "known",
+      "style": {
+        "fill": "#646464",
+        "font": "mono",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_song_heart",
+      "kind": "overlay",
+      "bbox": [
+        819,
+        504,
+        846,
+        534
+      ],
+      "description": "my fav song右侧的灰黑色手绘空心爱心，作为独立小装饰保留。",
+      "label": "my fav song右侧的灰黑色手绘空心爱心，作为独立小装",
+      "method": "extract"
+    },
+    {
+      "id": "text_about",
+      "kind": "text",
+      "bbox": [
+        170,
+        919,
+        236,
+        944
+      ],
+      "description": "about",
+      "label": "about",
+      "method": "local",
+      "text": "about",
+      "text_status": "known",
+      "style": {
+        "fill": "#646464",
+        "font": "mono",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_about_heart",
+      "kind": "overlay",
+      "bbox": [
+        245,
+        909,
+        278,
+        943
+      ],
+      "description": "about右侧较大的灰黑色手绘空心爱心，保留不规则线条。",
+      "label": "about右侧较大的灰黑色手绘空心爱心，保留不规则线条。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_quote",
+      "kind": "overlay",
+      "bbox": [
+        124,
+        913,
+        531,
+        1205
+      ],
+      "description": "浅粉色不规则尖角爆炸形纸片，带灰色偏移阴影，内部黑灰字样分四行：i love them with／all my heart !／they make me so／happy。文字与尖角底板共同构成完整设计，上部被粉色爱心贴纸局部覆盖。",
+      "label": "浅粉色不规则尖角爆炸形纸片，带灰色偏移阴影，内部黑灰字样分四",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        914,
+        879,
+        1200
+      ],
+      "description": "右下黑色字符画小兔装饰，包含由字符构成的耳朵、脸、身体及举起的手，左上排列两枚实心黑爱心、小圆点和细小十字闪光。字符位置与图案共同形成整体造型，完整保留，不拆成普通文字。",
+      "label": "右下黑色字符画小兔装饰，包含由字符构成的耳朵、脸、身体及举起",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_heart_top",
+      "kind": "overlay",
+      "bbox": [
+        277,
+        321,
+        358,
+        397
+      ],
+      "description": "卡片上沿偏左的浅粉色爱心贴纸，带白色宽边和灰色投影，跨压卡片顶部。",
+      "label": "卡片上沿偏左的浅粉色爱心贴纸，带白色宽边和灰色投影，跨压卡片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_heart_song",
+      "kind": "overlay",
+      "bbox": [
+        637,
+        470,
+        720,
+        547
+      ],
+      "description": "右侧照片标题左上方的浅粉色爱心贴纸，带白边和投影，下尖端遮住标题开头一部分。",
+      "label": "右侧照片标题左上方的浅粉色爱心贴纸，带白边和投影，下尖端遮住",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_heart_left",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        631,
+        124,
+        732
+      ],
+      "description": "卡片左边缘中段的大号浅粉爱心贴纸，带白色宽边和右下灰影，跨越卡片与放射底纹。",
+      "label": "卡片左边缘中段的大号浅粉爱心贴纸，带白色宽边和右下灰影，跨越",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_heart_quote",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        966,
+        411,
+        1047
+      ],
+      "description": "粉色尖角文字纸片上部的浅粉爱心贴纸，白边带灰影，遮挡纸片上缘及第一行文字局部。",
+      "label": "粉色尖角文字纸片上部的浅粉爱心贴纸，白边带灰影，遮挡纸片上缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_heart_right",
+      "kind": "overlay",
+      "bbox": [
+        954,
+        1012,
+        1049,
+        1106
+      ],
+      "description": "卡片右边缘下半部的浅粉爱心贴纸，带白色轮廓和柔灰投影，跨压卡片边缘。",
+      "label": "卡片右边缘下半部的浅粉爱心贴纸，带白色轮廓和柔灰投影，跨压卡",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_heart_bottom",
+      "kind": "overlay",
+      "bbox": [
+        704,
+        1204,
+        788,
+        1281
+      ],
+      "description": "卡片下沿偏右的浅粉爱心贴纸，带白色宽边与右下阴影，下尖端伸出白色卡片。",
+      "label": "卡片下沿偏右的浅粉爱心贴纸，带白色宽边与右下阴影，下尖端伸出",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_heart_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        536,
+        203,
+        563
+      ],
+      "description": "圆形照片左上侧的黑灰色像素空心小爱心。",
+      "label": "圆形照片左上侧的黑灰色像素空心小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_heart_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        904,
+        485,
+        932,
+        511
+      ],
+      "description": "右侧标题上方偏右的黑灰色像素空心小爱心。",
+      "label": "右侧标题上方偏右的黑灰色像素空心小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_heart_center",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        657,
+        589,
+        692
+      ],
+      "description": "两张照片之间的黑色像素空心爱心，尺寸略大于上方小爱心。",
+      "label": "两张照片之间的黑色像素空心爱心，尺寸略大于上方小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_heart_right",
+      "kind": "overlay",
+      "bbox": [
+        940,
+        831,
+        992,
+        877
+      ],
+      "description": "方形照片右下外侧的大号黑色像素空心爱心。",
+      "label": "方形照片右下外侧的大号黑色像素空心爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_heart_lower_center",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        989,
+        560,
+        1017
+      ],
+      "description": "尖角纸片右上外侧的黑灰色像素空心小爱心。",
+      "label": "尖角纸片右上外侧的黑灰色像素空心小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_heart_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        1138,
+        125,
+        1172
+      ],
+      "description": "卡片左下区域的黑灰色像素空心爱心。",
+      "label": "卡片左下区域的黑灰色像素空心爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_heart_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        945,
+        1172,
+        976,
+        1201
+      ],
+      "description": "卡片右下角内侧的黑灰色像素空心小爱心。",
+      "label": "卡片右下角内侧的黑灰色像素空心小爱心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_top_left",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        329,
+        124,
+        382
+      ],
+      "description": "叠在白色卡片左上边缘的白色四角闪光，带淡灰柔影。",
+      "label": "叠在白色卡片左上边缘的白色四角闪光，带淡灰柔影。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_header",
+      "kind": "overlay",
+      "bbox": [
+        891,
+        359,
+        974,
+        428
+      ],
+      "description": "顶部灰色界面栏右侧的大号白色四角闪光，覆盖栏内颜文字局部。",
+      "label": "顶部灰色界面栏右侧的大号白色四角闪光，覆盖栏内颜文字局部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_right",
+      "kind": "overlay",
+      "bbox": [
+        975,
+        625,
+        1021,
+        670
+      ],
+      "description": "白色卡片右侧中上部的淡白四角闪光，中心有浅灰阴影。",
+      "label": "白色卡片右侧中上部的淡白四角闪光，中心有浅灰阴影。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_album_bottom",
+      "kind": "overlay",
+      "bbox": [
+        780,
+        834,
+        820,
+        882
+      ],
+      "description": "方形照片下沿偏右的淡白四角闪光，部分压在照片边缘，部分落在白色卡片上。",
+      "label": "方形照片下沿偏右的淡白四角闪光，部分压在照片边缘，部分落在白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_about_left",
+      "kind": "overlay",
+      "bbox": [
+        119,
+        934,
+        150,
+        968
+      ],
+      "description": "about标题左下外侧的小型淡灰白四角闪光。",
+      "label": "about标题左下外侧的小型淡灰白四角闪光。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_lower_center",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        1027,
+        582,
+        1058
+      ],
+      "description": "尖角纸片与字符画之间的小型淡灰白闪光。",
+      "label": "尖角纸片与字符画之间的小型淡灰白闪光。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_bottom",
+      "kind": "overlay",
+      "bbox": [
+        307,
+        1197,
+        356,
+        1244
+      ],
+      "description": "尖角纸片下方、白色卡片底边上方的白色四角闪光，带浅灰中心。",
+      "label": "尖角纸片下方、白色卡片底边上方的白色四角闪光，带浅灰中心。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_left_edge",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1138,
+        49,
+        1185
+      ],
+      "description": "卡片左侧下部外缘的白色四角闪光，左侧到达画布边缘，横向尖角邻接卡片边缘。",
+      "label": "卡片左侧下部外缘的白色四角闪光，左侧到达画布边缘，横向尖角邻",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_rays",
+    "frame_profile",
+    "photo_plush",
+    "photo_album",
+    "text_my_angel",
+    "overlay_angel_heart",
+    "text_song",
+    "overlay_song_heart",
+    "text_about",
+    "overlay_about_heart",
+    "overlay_quote",
+    "overlay_bunny",
+    "overlay_wings",
+    "overlay_pixel_heart_upper_left",
+    "overlay_pixel_heart_upper_right",
+    "overlay_pixel_heart_center",
+    "overlay_pixel_heart_right",
+    "overlay_pixel_heart_lower_center",
+    "overlay_pixel_heart_lower_left",
+    "overlay_pixel_heart_lower_right",
+    "overlay_pink_heart_top",
+    "overlay_pink_heart_song",
+    "overlay_pink_heart_left",
+    "overlay_pink_heart_quote",
+    "overlay_pink_heart_right",
+    "overlay_pink_heart_bottom",
+    "overlay_sparkle_top_left",
+    "overlay_sparkle_header",
+    "overlay_sparkle_right",
+    "overlay_sparkle_album_bottom",
+    "overlay_sparkle_about_left",
+    "overlay_sparkle_lower_center",
+    "overlay_sparkle_bottom",
+    "overlay_sparkle_left_edge"
+  ]
+}

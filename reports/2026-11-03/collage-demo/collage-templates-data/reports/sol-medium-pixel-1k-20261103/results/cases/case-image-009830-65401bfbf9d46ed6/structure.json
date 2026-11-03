@@ -1,0 +1,90 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的傍晚海岸风景照片覆盖全画布，无人物；上部为灰蓝至暖橙色天空，中部右侧是层叠山体和岸边灯光，下部为海水、浪花与右侧深色沙滩。摄影内容延伸至画布四边，两张矩形照片及文字装饰遮住局部，底层海岸场景仍连续，整体随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        87,
+        145,
+        540,
+        749
+      ],
+      "description": "左上竖向矩形自拍照片，一名戴黑框眼镜、穿深色条纹连帽外套的长发人物仰头看镜头，伸出的手臂朝右下延伸并被照片边缘裁切。保留身后的木栏杆、海浪和脚下地面，照片边界清晰；帽子上方被独立贝壳思考气泡遮挡。"
+    },
+    {
+      "id": "overlay_shell_bubble",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        193,
+        500,
+        339
+      ],
+      "description": "叠在左上自拍帽子上方的白色思考气泡贴纸，包含云朵状气泡、下方小圆点及中央灰粉色贝壳，带柔和立体阴影；整组为独立装饰，不属于摄影内容。"
+    },
+    {
+      "id": "text_destination",
+      "kind": "text",
+      "bbox": [
+        82,
+        805,
+        586,
+        853
+      ],
+      "text": "From Chaozhou to Shantou",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_island",
+      "kind": "overlay",
+      "bbox": [
+        605,
+        795,
+        659,
+        855
+      ],
+      "description": "英文文字右侧独立的彩色小岛图案，包含绿色棕榈树、黄色沙岛和青蓝色水面，保留完整表情符号式造型。"
+    },
+    {
+      "id": "photo_beach_person",
+      "kind": "photo",
+      "bbox": [
+        362,
+        885,
+        1005,
+        1741
+      ],
+      "description": "右下竖向矩形海边人物照片，一名穿深色条纹连帽外套及宽松长裤的人物位于下半部中央，侧身朝左面向海面，双手置于衣袋附近，下身被照片底边裁切。完整保留上方浅色天空、海平线、海水、浪花和沙滩，背景没有去除，四边为清晰的照片裁切边界。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1818,
+        1073,
+        1838
+      ],
+      "description": "画布右下角很小的半透明浅灰圆角水印标记，内部细小字样无法可靠辨认，作为带字底板的完整固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_selfie",
+    "photo_beach_person",
+    "overlay_shell_bubble",
+    "text_destination",
+    "overlay_island",
+    "overlay_watermark"
+  ]
+}

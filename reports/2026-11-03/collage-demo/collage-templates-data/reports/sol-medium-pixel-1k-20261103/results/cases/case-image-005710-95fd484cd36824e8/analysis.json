@@ -1,0 +1,165 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    961,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        961,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        961,
+        646
+      ],
+      "description": "顶部横幅自拍照片，一人穿灰色连帽衫、黑色外套，戴黑色棒球帽和头戴耳机，举手机遮住大部分面部，另一只手横在右侧。左侧粗糙灰墙与右侧浅色砖墙属于摄影环境，完整保留。画面整体偏暗，下边缘水平结束，其上叠有独立白线装饰。",
+      "label": "顶部横幅自拍照片，一人穿灰色连帽衫、黑色外套，戴黑色棒球帽和",
+      "method": "local"
+    },
+    {
+      "id": "photo_basket",
+      "kind": "photo",
+      "bbox": [
+        24,
+        767,
+        477,
+        1069
+      ],
+      "description": "左下横向俯拍照片，一人黑袖手臂提着购物篮，篮内有印花物品与浅色小物，下方可见裤腿和鞋，背景为商店货架及地面。保留完整矩形摄影环境，右下部分被手掌照片覆盖；白色连线与红点是上叠装饰，不属于照片。",
+      "label": "左下横向俯拍照片，一人黑袖手臂提着购物篮，篮内有印花物品与浅",
+      "method": "local"
+    },
+    {
+      "id": "photo_hand",
+      "kind": "photo",
+      "bbox": [
+        314,
+        1002,
+        560,
+        1247
+      ],
+      "description": "下方近方形照片，黑色袖口伸出一只摊开的手，掌心放着数枚浅色及棕色卡通小挂件，背景为灰色地面。保留手掌及摄影环境，整体偏暗；右上区域被杯子照片覆盖，另有蓝色矩形线框和白线红点叠在上方。",
+      "label": "下方近方形照片，黑色袖口伸出一只摊开的手，掌心放着数枚浅色及",
+      "method": "local"
+    },
+    {
+      "id": "photo_cup",
+      "kind": "photo",
+      "bbox": [
+        522,
+        836,
+        912,
+        1128
+      ],
+      "description": "右侧横向室内照片，一只手在前景握住蓝色卡通图案饮料杯，后方可见显示器、桌面、键盘、照片及玩偶陈列。杯身印字和背景陈列均属于摄影内容，随照片替换。保留完整矩形环境，左下角覆盖手掌照片，前方叠有白色连线、红点和蓝色线框。",
+      "label": "右侧横向室内照片，一只手在前景握住蓝色卡通图案饮料杯，后方可",
+      "method": "local"
+    },
+    {
+      "id": "overlay_upper_rectangle",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        98,
+        491,
+        324
+      ],
+      "description": "顶部照片左上区域的细白色空心矩形，内部仍显示原照片，矩形不对应独立照片窗口。作为独立固定线条装饰保留，右下附近有另一组白色连线经过。",
+      "label": "顶部照片左上区域的细白色空心矩形，内部仍显示原照片，矩形不对",
+      "method": "extract"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        439,
+        788,
+        888,
+        811
+      ],
+      "description": "Soft winds carry quiet hopes",
+      "label": "Soft winds carry quiet hopes",
+      "method": "local",
+      "text": "Soft winds carry quiet hopes",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_connection",
+      "kind": "overlay",
+      "bbox": [
+        123,
+        188,
+        647,
+        1044
+      ],
+      "description": "一组连续的白色细连线与四个红色实心圆点：顶部手机镜头附近的红点为共同起点，三条线分别向左下购物篮、正下方手掌照片上部及右下蓝色杯子延伸，各端点均有红点。整组跨越顶部照片、黑底和下方照片，作为一个完整固定装饰保留。",
+      "label": "一组连续的白色细连线与四个红色实心圆点：顶部手机镜头附近的红",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_left",
+      "kind": "overlay",
+      "bbox": [
+        334,
+        1060,
+        627,
+        1199
+      ],
+      "description": "下方偏左的深蓝色空心矩形线框，横跨手掌照片、杯子照片左下部及右侧黑底，不沿照片实际边界形成窗口。保留完整四边，右上部分与另一蓝色矩形相交。",
+      "label": "下方偏左的深蓝色空心矩形线框，横跨手掌照片、杯子照片左下部及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_right",
+      "kind": "overlay",
+      "bbox": [
+        546,
+        919,
+        898,
+        1086
+      ],
+      "description": "右侧照片上的深蓝色空心矩形线框，围过杯子和部分桌面，但不对应照片裁切边界。完整四边作为独立装饰保留，下边与左下蓝色矩形相交，上边横过白色连线。",
+      "label": "右侧照片上的深蓝色空心矩形线框，围过杯子和部分桌面，但不对应",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_basket",
+    "photo_hand",
+    "photo_cup",
+    "overlay_upper_rectangle",
+    "text_caption",
+    "overlay_connection",
+    "overlay_blue_left",
+    "overlay_blue_right"
+  ]
+}

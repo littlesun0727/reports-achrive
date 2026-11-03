@@ -1,0 +1,556 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_photo",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "模糊的室内店铺或咖啡馆环境连续铺满画布，四边及拼贴间隙均可见同一环境；前景照片、文字和涂鸦遮挡局部。替换整张环境照片，不拆分其中的室内陈设。",
+      "background_type": "photo",
+      "label": "模糊的室内店铺或咖啡馆环境连续铺满画布，四边及拼贴间隙均可见",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_crochet_star",
+      "kind": "photo",
+      "bbox": [
+        94,
+        185,
+        340,
+        394
+      ],
+      "description": "左上方由深色底面、白色边缘及蓝、绿、粉、黄等钩织花朵组成的星形主体组合，沿主体轮廓显示并保留内部摄影内容；白色轮廓线贴合组合外缘。",
+      "label": "左上方由深色底面、白色边缘及蓝、绿、粉、黄等钩织花朵组成的星",
+      "method": "local"
+    },
+    {
+      "id": "photo_sandwich",
+      "kind": "photo",
+      "bbox": [
+        263,
+        257,
+        571,
+        667
+      ],
+      "description": "中上部竖向餐食照片，包含两杯饮品、三明治及餐盘，保留完整桌面摄影环境；右下方有独立猫咪贴纸遮挡照片边缘。",
+      "label": "中上部竖向餐食照片，包含两杯饮品、三明治及餐盘，保留完整桌面",
+      "method": "local"
+    },
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        582,
+        284,
+        923,
+        528
+      ],
+      "description": "右上方横向街景照片，树木、道路、车辆及暮色天空均属于照片内容，保留摄影环境；白色手绘云朵状线条沿照片窗口边缘环绕。",
+      "label": "右上方横向街景照片，树木、道路、车辆及暮色天空均属于照片内容",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert_upper",
+      "kind": "photo",
+      "bbox": [
+        576,
+        542,
+        876,
+        755
+      ],
+      "description": "右侧上方甜品照片，玻璃碗中的冰淇淋、华夫饼和桌面共同构成画面，保留摄影环境；下方与另一张甜品照片相接。",
+      "label": "右侧上方甜品照片，玻璃碗中的冰淇淋、华夫饼和桌面共同构成画面",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert_lower",
+      "kind": "photo",
+      "bbox": [
+        621,
+        738,
+        877,
+        945
+      ],
+      "description": "右侧下方另一张甜品照片，碗装冰淇淋、华夫饼及桌面完整保留；与上方甜品照片取景不同，白色手绘线条点缀碗中甜品表面。",
+      "label": "右侧下方另一张甜品照片，碗装冰淇淋、华夫饼及桌面完整保留；与",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        230,
+        678,
+        556,
+        934
+      ],
+      "description": "中部橘白猫咪近景，猫面向画面前方，身后可见室内环境；白色手绘线条沿猫咪及局部轮廓描绘，照片压在左侧餐食照片上方。",
+      "label": "中部橘白猫咪近景，猫面向画面前方，身后可见室内环境；白色手绘",
+      "method": "local"
+    },
+    {
+      "id": "photo_meal_spread",
+      "kind": "photo",
+      "bbox": [
+        54,
+        775,
+        403,
+        1035
+      ],
+      "description": "左侧多道餐食拼盘照片，包含沙拉、意面、炸物及小碟食物，保留各餐盘之间的摄影内容；不规则白色线条沿餐食组合外缘描边。",
+      "label": "左侧多道餐食拼盘照片，包含沙拉、意面、炸物及小碟食物，保留各",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_print",
+      "kind": "photo",
+      "bbox": [
+        250,
+        960,
+        354,
+        1034
+      ],
+      "description": "餐食组合右下区域的一张小型横向人物合影照片，含矩形相纸边缘，内容与周围餐食取景不连续，作为独立可替换照片。",
+      "label": "餐食组合右下区域的一张小型横向人物合影照片，含矩形相纸边缘，",
+      "method": "local"
+    },
+    {
+      "id": "photo_fruit",
+      "kind": "photo",
+      "bbox": [
+        714,
+        883,
+        966,
+        1026
+      ],
+      "description": "右侧橙色柿子及绿色叶片组成的水果主体组合，沿主体外形显示，白色轮廓线贴合果实和叶片边缘。",
+      "label": "右侧橙色柿子及绿色叶片组成的水果主体组合，沿主体外形显示，白",
+      "method": "local"
+    },
+    {
+      "id": "photo_parcels",
+      "kind": "photo",
+      "bbox": [
+        414,
+        918,
+        835,
+        1328
+      ],
+      "description": "右下区域的包裹与取件场景，包含堆叠纸箱、塑料包装和伸入画面的手臂，背景可见挂满照片与物品的墙面，保留完整摄影环境。",
+      "label": "右下区域的包裹与取件场景，包含堆叠纸箱、塑料包装和伸入画面的",
+      "method": "local"
+    },
+    {
+      "id": "photo_food_oval",
+      "kind": "photo",
+      "bbox": [
+        202,
+        1114,
+        510,
+        1317
+      ],
+      "description": "左下方椭圆形近景照片，画面中可见手持食物、碗中食物及黑色衣物，椭圆窗口边缘清晰，保留窗口内摄影内容。",
+      "label": "左下方椭圆形近景照片，画面中可见手持食物、碗中食物及黑色衣物",
+      "method": "local"
+    },
+    {
+      "id": "photo_bouquet",
+      "kind": "photo",
+      "bbox": [
+        812,
+        1064,
+        967,
+        1254
+      ],
+      "description": "右下偏右的手持粉色包装花束主体，手臂和花束一同沿主体轮廓显示，白色边缘线贴合外缘；局部覆盖包裹照片。",
+      "label": "右下偏右的手持粉色包装花束主体，手臂和花束一同沿主体轮廓显示",
+      "method": "local"
+    },
+    {
+      "id": "overlay_music_doodles",
+      "kind": "overlay",
+      "bbox": [
+        317,
+        183,
+        542,
+        252
+      ],
+      "description": "上方偏左的一组白色手绘音符、小星点及装饰线条，成员构成同一组音乐涂鸦。",
+      "label": "上方偏左的一组白色手绘音符、小星点及装饰线条，成员构成同一组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        174,
+        913,
+        275
+      ],
+      "description": "顶部偏右的白色细长手写艺术字“SEPT&OCT”，字形具有独立造型，作为整体装饰保留。",
+      "label": "顶部偏右的白色细长手写艺术字“SEPT&OCT”，字形具有独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_sticker",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        605,
+        571,
+        669
+      ],
+      "description": "覆盖三明治照片右下角的黑白小猫线稿贴纸，含猫头、爪子及内部线条，作为完整贴纸保留。",
+      "label": "覆盖三明治照片右下角的黑白小猫线稿贴纸，含猫头、爪子及内部线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        516,
+        101,
+        547
+      ],
+      "description": "左侧白色手绘五角星装饰。",
+      "label": "左侧白色手绘五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_mid",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        517,
+        236,
+        547
+      ],
+      "description": "中左部白色手绘五角星装饰。",
+      "label": "中左部白色手绘五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        623,
+        118,
+        655
+      ],
+      "description": "左侧餐食附近的白色手绘五角星装饰。",
+      "label": "左侧餐食附近的白色手绘五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        817,
+        944,
+        857
+      ],
+      "description": "右侧甜品旁的白色手绘五角星装饰。",
+      "label": "右侧甜品旁的白色手绘五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_far_right",
+      "kind": "overlay",
+      "bbox": [
+        1028,
+        941,
+        1060,
+        977
+      ],
+      "description": "画布右侧边缘附近的白色手绘五角星装饰。",
+      "label": "画布右侧边缘附近的白色手绘五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        914,
+        1017,
+        950,
+        1054
+      ],
+      "description": "右下方水果与花束附近的白色手绘五角星装饰。",
+      "label": "右下方水果与花束附近的白色手绘五角星装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        1104,
+        194,
+        1249
+      ],
+      "description": "左下区域的白色手绘空心爱心，带有小点状附属笔触，整体作为一个涂鸦单元保留。",
+      "label": "左下区域的白色手绘空心爱心，带有小点状附属笔触，整体作为一个",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        866,
+        1272,
+        1000,
+        1374
+      ],
+      "description": "右下方白色手绘星芒、弧线及小点组成的装饰组。",
+      "label": "右下方白色手绘星芒、弧线及小点组成的装饰组。",
+      "method": "extract"
+    },
+    {
+      "id": "text_crochet_caption",
+      "kind": "text",
+      "bbox": [
+        14,
+        408,
+        259,
+        453
+      ],
+      "description": "和倪倪学钩织",
+      "label": "和倪倪学钩织",
+      "method": "local",
+      "text": "和倪倪学钩织",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_sandwich_caption",
+      "kind": "text",
+      "bbox": [
+        148,
+        574,
+        420,
+        645
+      ],
+      "description": "早起去吃三明治\n滑蛋蟹柳的巨好吃",
+      "label": "早起去吃三明治\n滑蛋蟹柳的巨好吃",
+      "method": "local",
+      "text": "早起去吃三明治\n滑蛋蟹柳的巨好吃",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_street_caption",
+      "kind": "text",
+      "bbox": [
+        661,
+        546,
+        878,
+        608
+      ],
+      "description": "赶在店铺下班前\n吃上香草冰淇淋",
+      "label": "赶在店铺下班前\n吃上香草冰淇淋",
+      "method": "local",
+      "text": "赶在店铺下班前\n吃上香草冰淇淋",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_cat_caption",
+      "kind": "text",
+      "bbox": [
+        244,
+        689,
+        359,
+        726
+      ],
+      "description": "谁家猫咪",
+      "label": "谁家猫咪",
+      "method": "local",
+      "text": "谁家猫咪",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_happiness_caption",
+      "kind": "text",
+      "bbox": [
+        458,
+        905,
+        740,
+        944
+      ],
+      "description": "如果幸福是一块毛毡板",
+      "label": "如果幸福是一块毛毡板",
+      "method": "local",
+      "text": "如果幸福是一块毛毡板",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_meal_caption",
+      "kind": "text",
+      "bbox": [
+        64,
+        1041,
+        339,
+        1104
+      ],
+      "description": "吃个饭\n还有小雷小朋友的事儿",
+      "label": "吃个饭\n还有小雷小朋友的事儿",
+      "method": "local",
+      "text": "吃个饭\n还有小雷小朋友的事儿",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_parcel_caption",
+      "kind": "text",
+      "bbox": [
+        531,
+        1274,
+        803,
+        1358
+      ],
+      "description": "驿站上班我上学了\n放学了驿站下班了\n咋整堆到周末呗",
+      "label": "驿站上班我上学了\n放学了驿站下班了\n咋整堆到周末呗",
+      "method": "local",
+      "text": "驿站上班我上学了\n放学了驿站下班了\n咋整堆到周末呗",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bouquet_caption",
+      "kind": "text",
+      "bbox": [
+        776,
+        1247,
+        993,
+        1286
+      ],
+      "description": "路边带一束给倪倪",
+      "label": "路边带一束给倪倪",
+      "method": "local",
+      "text": "路边带一束给倪倪",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_food_oval_caption",
+      "kind": "text",
+      "bbox": [
+        173,
+        1319,
+        492,
+        1383
+      ],
+      "description": "倪倪又研究什么黑暗料理\n锅包肉蘸甜筒谁敢吃",
+      "label": "倪倪又研究什么黑暗料理\n锅包肉蘸甜筒谁敢吃",
+      "method": "local",
+      "text": "倪倪又研究什么黑暗料理\n锅包肉蘸甜筒谁敢吃",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "background_photo",
+    "photo_crochet_star",
+    "photo_sandwich",
+    "photo_street",
+    "photo_dessert_upper",
+    "photo_dessert_lower",
+    "photo_meal_spread",
+    "photo_cat",
+    "photo_small_print",
+    "photo_fruit",
+    "photo_parcels",
+    "photo_food_oval",
+    "photo_bouquet",
+    "overlay_music_doodles",
+    "overlay_title",
+    "overlay_star_left",
+    "overlay_star_mid",
+    "overlay_star_lower_left",
+    "overlay_star_right",
+    "overlay_star_far_right",
+    "overlay_star_lower_right",
+    "overlay_heart",
+    "overlay_sparkles",
+    "overlay_cat_sticker",
+    "text_crochet_caption",
+    "text_sandwich_caption",
+    "text_street_caption",
+    "text_cat_caption",
+    "text_happiness_caption",
+    "text_meal_caption",
+    "text_parcel_caption",
+    "text_bouquet_caption",
+    "text_food_oval_caption"
+  ]
+}

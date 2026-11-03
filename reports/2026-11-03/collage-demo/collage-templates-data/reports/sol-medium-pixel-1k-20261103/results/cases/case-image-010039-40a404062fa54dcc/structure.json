@@ -1,0 +1,162 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "全画布为同一张秋日户外静物照片，无人物；橙黄落叶铺满地面，深色木质长椅从右上斜向左下延伸，左下可见虚焦杯子。整幅摄影环境明显失焦，四边与中央对象间隙的场景连续；中央两张清晰照片、线框及文字遮住局部，底层摄影画面仍完整覆盖画布并整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        421,
+        310,
+        659,
+        629
+      ],
+      "description": "上方竖向静物照片，无人物；俯拍深色木桌上的打开书本、压在书页上的橙色枫叶、拉花饮品与黑色杯子，桌边及周围地面散布秋叶。完整矩形窗口保留桌面和落叶环境，边缘清晰，无沿物体轮廓去背景。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        379,
+        741,
+        701,
+        1172
+      ],
+      "description": "下方竖向庭院静物照片，无人物；前景木桌上放着一盘橙色果实、深色杯子和落叶，左侧露出藤椅，后方为黑色大陶盆、树干、浅墙与草叶，地面铺有枯叶。保留完整摄影环境，矩形边界清晰，左上部分有独立手写装饰叠加。"
+    },
+    {
+      "id": "frame_double",
+      "kind": "frame",
+      "bbox": [
+        360,
+        235,
+        717,
+        1203
+      ],
+      "description": "中央细淡黄色双格照片框体，整体为高竖矩形，约在y=716处有贯通左右的水平分隔线。两张照片分别位于上下格内，与框线之间留有露出底层摄影画面的间距；框体没有不透明填充，完整外框和共享分隔线作为一个双窗口固定单元保留。",
+      "photo_id": [
+        "photo_upper",
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "text_photos",
+      "kind": "text",
+      "bbox": [
+        540,
+        83,
+        737,
+        140
+      ],
+      "text": "photos",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_one",
+      "kind": "text",
+      "bbox": [
+        273,
+        470,
+        330,
+        513
+      ],
+      "text": "(1)",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_of",
+      "kind": "text",
+      "bbox": [
+        833,
+        577,
+        892,
+        624
+      ],
+      "text": "of",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_two",
+      "kind": "text",
+      "bbox": [
+        745,
+        933,
+        805,
+        975
+      ],
+      "text": "(2)",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_autumn",
+      "kind": "text",
+      "bbox": [
+        251,
+        1275,
+        470,
+        1321
+      ],
+      "text": "autumn",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_handwritten_note",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        836,
+        447,
+        1037
+      ],
+      "description": "左下乳白色英文手写文字装饰，细而不规则的笔画分成多行，行内字词位置不齐；上方有较小的“Come”，正文可辨“Sitting in my room”“the window”“could just right here”等片段，下方另有尖角形笔画及“stand still”。整段字样和附属笔画一体保留，右侧部分跨入下方照片。"
+    },
+    {
+      "id": "overlay_hello_autumn",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        1273,
+        950,
+        1325
+      ],
+      "description": "右下黄色手写“Hello Autumn”装饰，字母具有不规则连笔与高低变化，左下和右上各配一枚小星芒；字样与两侧星芒共同构成完整横向装饰单元，保留原有笔画与相对位置。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "frame_double",
+    "text_photos",
+    "text_one",
+    "text_of",
+    "text_two",
+    "text_autumn",
+    "overlay_handwritten_note",
+    "overlay_hello_autumn"
+  ]
+}

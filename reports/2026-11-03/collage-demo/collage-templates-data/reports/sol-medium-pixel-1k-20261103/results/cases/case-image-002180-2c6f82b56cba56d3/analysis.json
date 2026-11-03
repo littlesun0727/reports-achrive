@@ -1,0 +1,272 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的游乐园户外摄影画面延伸至画布四边，可见树木、游客、步道及大型绿色与橙黄色设施，局部被人物、照片卡和贴纸遮挡，保留完整环境。画面中央另有一名戴毛绒耳朵头饰的年轻女性全身主体，正面蹲姿、双手抬起作爪状动作并抱着毛绒玩偶；主体作为前景单独显示。",
+      "background_type": "photo",
+      "label": "连续的游乐园户外摄影画面延伸至画布四边，可见树木、游客、步道",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main_subject",
+      "kind": "photo",
+      "bbox": [
+        197,
+        356,
+        800,
+        1340
+      ],
+      "description": "从全画布摄影画面延伸出的女性与毛绒玩偶前景组合；女性戴毛绒耳朵头饰，正面蹲姿、双手抬起，穿白色上衣与浅色裙装，脚穿白鞋，怀抱大型浅棕色毛绒玩偶。沿主体组合轮廓显示，摄影环境仍由底图保留；主体下缘完整可见。",
+      "linked_to": "photo_base",
+      "label": "从全画布摄影画面延伸出的女性与毛绒玩偶前景组合；女性戴毛绒耳",
+      "method": "local"
+    },
+    {
+      "id": "photo_inset_upper_left",
+      "kind": "photo",
+      "bbox": [
+        84,
+        143,
+        363,
+        425
+      ],
+      "description": "左上方小幅竖向照片，年轻女性坐姿面向镜头，戴浅色毛绒耳朵头饰并抱着毛绒玩偶；照片内可见游乐园设施与地面，矩形窗口显示，边缘有白色细框。",
+      "label": "左上方小幅竖向照片，年轻女性坐姿面向镜头，戴浅色毛绒耳朵头饰",
+      "method": "local"
+    },
+    {
+      "id": "frame_inset_upper_left",
+      "kind": "frame",
+      "bbox": [
+        76,
+        135,
+        373,
+        435
+      ],
+      "description": "承载左上照片的浅色矩形相片框，细白边并带轻微阴影，照片窗口内口与框体相对应。",
+      "photo_id": [
+        "photo_inset_upper_left"
+      ],
+      "label": "承载左上照片的浅色矩形相片框，细白边并带轻微阴影，照片窗口内",
+      "method": "extract"
+    },
+    {
+      "id": "photo_inset_lower_right",
+      "kind": "photo",
+      "bbox": [
+        670,
+        835,
+        948,
+        1112
+      ],
+      "description": "右下方小幅竖向照片，年轻女性戴毛绒耳朵头饰、面向镜头举手摆姿势；保留照片内的游乐园设施与环境，矩形窗口显示，边缘有白色细框。",
+      "label": "右下方小幅竖向照片，年轻女性戴毛绒耳朵头饰、面向镜头举手摆姿",
+      "method": "local"
+    },
+    {
+      "id": "frame_inset_lower_right",
+      "kind": "frame",
+      "bbox": [
+        660,
+        824,
+        962,
+        1125
+      ],
+      "description": "承载右下照片的浅色相片框，白色细边并带轻微阴影，完整围绕照片窗口。",
+      "photo_id": [
+        "photo_inset_lower_right"
+      ],
+      "label": "承载右下照片的浅色相片框，白色细边并带轻微阴影，完整围绕照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_label",
+      "kind": "overlay",
+      "bbox": [
+        727,
+        793,
+        895,
+        846
+      ],
+      "description": "压在右下相片框上沿的浅灰白色窄纸条，带一行细小中文印字，作为独立标签保留。",
+      "label": "压在右下相片框上沿的浅灰白色窄纸条，带一行细小中文印字，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_leopard",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        295,
+        183,
+        490
+      ],
+      "description": "左侧上方的黄色卡通豹贴纸，穿蓝色衣裤并带白色外轮廓，部分压住橙色设施及左上相片框边缘。",
+      "label": "左侧上方的黄色卡通豹贴纸，穿蓝色衣裤并带白色外轮廓，部分压住",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        436,
+        281,
+        543
+      ],
+      "description": "左上偏中的绿色四叶草贴纸，含叶片纹理与茎部，独立叠在橙色设施上。",
+      "label": "左上偏中的绿色四叶草贴纸，含叶片纹理与茎部，独立叠在橙色设施",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cartoon_character_left",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        550,
+        272,
+        714
+      ],
+      "description": "左侧中部张嘴欢笑的棕色卡通角色贴纸，穿蓝绿色服装，带浅色外轮廓与阴影。",
+      "label": "左侧中部张嘴欢笑的棕色卡通角色贴纸，穿蓝绿色服装，带浅色外轮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_left",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        864,
+        233,
+        1097
+      ],
+      "description": "左下方竖耳兔子卡通贴纸，穿蓝色衣服，双耳朝上，带白色外轮廓与阴影。",
+      "label": "左下方竖耳兔子卡通贴纸，穿蓝色衣服，双耳朝上，带白色外轮廓与",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fox_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        85,
+        1125,
+        416,
+        1376
+      ],
+      "description": "左下方奔跑姿态的红棕色狐狸卡通贴纸，穿粉紫色衣服，带白色外轮廓与阴影。",
+      "label": "左下方奔跑姿态的红棕色狐狸卡通贴纸，穿粉紫色衣服，带白色外轮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rabbit_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        812,
+        382,
+        984,
+        536
+      ],
+      "description": "右上区域奔跑姿态的灰色兔子卡通贴纸，耳朵带粉色内侧，穿蓝绿色服装并带白色外轮廓。",
+      "label": "右上区域奔跑姿态的灰色兔子卡通贴纸，耳朵带粉色内侧，穿蓝绿色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fox_right",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        596,
+        931,
+        854
+      ],
+      "description": "右侧中部站立的红棕色狐狸卡通贴纸，穿粉色上衣并带白色外轮廓，叠在绿色设施及右下照片标签附近。",
+      "label": "右侧中部站立的红棕色狐狸卡通贴纸，穿粉色上衣并带白色外轮廓，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snake",
+      "kind": "overlay",
+      "bbox": [
+        833,
+        1080,
+        1016,
+        1303
+      ],
+      "description": "右下方蓝绿色蛇形卡通贴纸，黄色眼镜状眼部与浅色腹部清晰可见，带白色外轮廓和小型星点装饰。",
+      "label": "右下方蓝绿色蛇形卡通贴纸，黄色眼镜状眼部与浅色腹部清晰可见，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_upper",
+      "kind": "overlay",
+      "bbox": [
+        603,
+        59,
+        1030,
+        425
+      ],
+      "description": "右上黑色设施周围的一组白色手绘符号、短线、星形与类似代码的装饰字样，沿设施和绿色背景分布，整体作为一组固定涂鸦保留。",
+      "label": "右上黑色设施周围的一组白色手绘符号、短线、星形与类似代码的装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        1019,
+        428,
+        1432
+      ],
+      "description": "左下步道上的白色手绘符号、点线与星形涂鸦，周围散布少量粉色、黄色和蓝色小星点及圆点，整体作为一组固定装饰保留。",
+      "label": "左下步道上的白色手绘符号、点线与星形涂鸦，周围散布少量粉色、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        688,
+        1209,
+        831,
+        1353
+      ],
+      "description": "右下绿色设施上的浅色星芒、短线、圆点和小型彩色装饰符号，作为一组独立点缀保留。",
+      "label": "右下绿色设施上的浅色星芒、短线、圆点和小型彩色装饰符号，作为",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_main_subject",
+    "photo_inset_upper_left",
+    "frame_inset_upper_left",
+    "overlay_leopard",
+    "overlay_clover",
+    "overlay_cartoon_character_left",
+    "overlay_rabbit_left",
+    "overlay_fox_lower_left",
+    "overlay_rabbit_upper_right",
+    "overlay_doodle_upper",
+    "photo_inset_lower_right",
+    "frame_inset_lower_right",
+    "overlay_label",
+    "overlay_fox_right",
+    "overlay_sparkles_lower_right",
+    "overlay_snake",
+    "overlay_doodle_lower_left"
+  ]
+}

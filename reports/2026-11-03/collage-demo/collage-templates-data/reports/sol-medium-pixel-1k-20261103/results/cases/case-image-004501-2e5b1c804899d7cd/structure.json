@@ -1,0 +1,193 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的俯拍摄影画面覆盖整个画布，展示粉色与薄荷绿色调的手工饰品、缎带、蕾丝、玩偶和装饰盒组成的桌面静物场景；摄影环境延伸至四边，画面中的物件、材质、阴影和印刷内容均随客户照片替换。重复出现的规则粉色像素心形为叠加的固定图形，不属于底图摄影内容。"
+  },
+  "objects": [
+    {
+      "id": "overlay_heart_top_left",
+      "kind": "overlay",
+      "bbox": [
+        2,
+        29,
+        88,
+        103
+      ],
+      "description": "画布左上角的粉色像素网格心形固定装饰，完整可见并叠加在摄影画面上。"
+    },
+    {
+      "id": "overlay_heart_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        193,
+        224,
+        280,
+        299
+      ],
+      "description": "左上区域、毛绒玩偶附近的粉色像素网格心形固定装饰，保持规则方格轮廓。"
+    },
+    {
+      "id": "overlay_heart_top_center",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        125,
+        899,
+        198
+      ],
+      "description": "画面上方中央偏右、花边饰品前方的粉色像素网格心形固定装饰。"
+    },
+    {
+      "id": "overlay_heart_top_right",
+      "kind": "overlay",
+      "bbox": [
+        1180,
+        27,
+        1264,
+        101
+      ],
+      "description": "画布右上方的粉色像素网格心形固定装饰，完整显示在摄影背景之上。"
+    },
+    {
+      "id": "overlay_heart_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        1294,
+        207,
+        1380,
+        279
+      ],
+      "description": "右上区域黑色心形饰品附近的粉色像素网格心形固定装饰。"
+    },
+    {
+      "id": "overlay_heart_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        447,
+        123,
+        521
+      ],
+      "description": "画面左侧中部的粉色像素网格心形固定装饰，覆盖在玩偶和桌面摄影内容上方。"
+    },
+    {
+      "id": "overlay_heart_center",
+      "kind": "overlay",
+      "bbox": [
+        644,
+        560,
+        731,
+        635
+      ],
+      "description": "画面中央偏下、粉色布料和蕾丝附近的粉色像素网格心形固定装饰。"
+    },
+    {
+      "id": "overlay_heart_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        1335,
+        713,
+        1423,
+        795
+      ],
+      "description": "画面右侧中下部的粉色像素网格心形固定装饰，接近画布右边缘。"
+    },
+    {
+      "id": "overlay_heart_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        1065,
+        745,
+        1151,
+        817
+      ],
+      "description": "右下区域装饰盒上方的粉色像素网格心形固定装饰。"
+    },
+    {
+      "id": "overlay_heart_far_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        1268,
+        902,
+        1356,
+        983
+      ],
+      "description": "画面右下方、紫粉色饰品附近的粉色像素网格心形固定装饰。"
+    },
+    {
+      "id": "overlay_heart_left_edge_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        803,
+        50,
+        864
+      ],
+      "description": "左下侧贴近画布边缘的粉色像素网格心形固定装饰，左侧部分被画布边界裁切。"
+    },
+    {
+      "id": "overlay_heart_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        171,
+        976,
+        258,
+        1054
+      ],
+      "description": "画面左下区域、白色玩偶旁的粉色像素网格心形固定装饰。"
+    },
+    {
+      "id": "overlay_heart_lower_center_left",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        936,
+        501,
+        1011
+      ],
+      "description": "画面下方偏左、绿色蝴蝶结附近的粉色像素网格心形固定装饰。"
+    },
+    {
+      "id": "overlay_heart_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        1003,
+        905,
+        1078
+      ],
+      "description": "画布底部中央偏左的粉色像素网格心形固定装饰，底部接近画布边界。"
+    },
+    {
+      "id": "overlay_heart_bottom_right_center",
+      "kind": "overlay",
+      "bbox": [
+        1061,
+        981,
+        1147,
+        1056
+      ],
+      "description": "画布底部偏右、紫粉色饰品上方的粉色像素网格心形固定装饰。"
+    }
+  ],
+  "layer_order": [
+    "overlay_heart_top_left",
+    "overlay_heart_upper_left",
+    "overlay_heart_top_center",
+    "overlay_heart_top_right",
+    "overlay_heart_upper_right",
+    "overlay_heart_left_middle",
+    "overlay_heart_center",
+    "overlay_heart_right_middle",
+    "overlay_heart_lower_right",
+    "overlay_heart_far_lower_right",
+    "overlay_heart_left_edge_bottom",
+    "overlay_heart_lower_left",
+    "overlay_heart_lower_center_left",
+    "overlay_heart_bottom_center",
+    "overlay_heart_bottom_right_center"
+  ]
+}

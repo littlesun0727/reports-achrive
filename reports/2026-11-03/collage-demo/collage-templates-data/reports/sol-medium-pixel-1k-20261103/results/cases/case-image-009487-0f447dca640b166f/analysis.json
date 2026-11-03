@@ -1,0 +1,288 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的咖啡馆室内摄影画面覆盖全画布，无人物；上部为木色窗框及窗外绿色树林，下部为暖棕色座椅、圆桌和室内地面。整体明显虚化，四边露出的窗框与家具位置连续；三张清晰的局部照片及文字贴纸覆盖其上。室内环境与窗外景物共同随底图替换。",
+      "background_type": "photo",
+      "label": "连续的咖啡馆室内摄影画面覆盖全画布，无人物；上部为木色窗框及",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_stairs",
+      "kind": "photo",
+      "bbox": [
+        487,
+        163,
+        878,
+        677
+      ],
+      "description": "上方偏右的竖向建筑照片，无人物；米灰色墙面、楼梯转折和右侧黑色网格栏杆构成完整摄影环境，栏杆附近有细小白色花枝。保留矩形内的全部场景，左下部分被饮品照片覆盖，上沿被胶带遮挡，左上角有浅色三角形设计覆盖。",
+      "label": "上方偏右的竖向建筑照片，无人物；米灰色墙面、楼梯转折和右侧黑",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        104,
+        546,
+        508,
+        1084
+      ],
+      "description": "左侧竖向咖啡与糕点近景，无人物；前景为盛有浅棕色饮品的透明玻璃杯，后方左侧为透明罩内的糕点，保留木桌、光照及杯子的投影。完整矩形照片覆盖楼梯照片左下缘，上沿被黄色夹子遮挡，右上和中上部分被文字标签覆盖，左下角有白色折角。",
+      "label": "左侧竖向咖啡与糕点近景，无人物；前景为盛有浅棕色饮品的透明玻",
+      "method": "local"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        576,
+        771,
+        995,
+        1334
+      ],
+      "description": "右下竖向咖啡馆室内照片，无人物；上部为窗户及窗外树林，左侧有窗帘与绿植，下部有橙棕色扶手椅、细腿圆桌和局部桌面。完整保留摄影环境，构图与虚化底图不同，是独立照片；上部被咖啡标识标签遮挡，右上边缘有回形针覆盖。",
+      "label": "右下竖向咖啡馆室内照片，无人物；上部为窗户及窗外树林，左侧有",
+      "method": "local"
+    },
+    {
+      "id": "overlay_stairs_corner",
+      "kind": "overlay",
+      "bbox": [
+        487,
+        163,
+        592,
+        272
+      ],
+      "description": "楼梯照片左上角的浅米色三角形折角状设计，沿照片上边和左边对齐，斜边向右上延伸；作为局部固定角饰保留，不包含照片内容。",
+      "label": "楼梯照片左上角的浅米色三角形折角状设计，沿照片上边和左边对齐",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drink_corner",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        1055,
+        150,
+        1084
+      ],
+      "description": "饮品照片左下角的小块乳白色三角折角，贴合照片左边及下边，覆盖木桌影像，整体保留。",
+      "label": "饮品照片左下角的小块乳白色三角折角，贴合照片左边及下边，覆盖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        768,
+        81,
+        956,
+        246
+      ],
+      "description": "斜贴在楼梯照片右上角的浅米黄色纸胶带，带不规则撕口、轻微纸纹和折痕，从照片外跨过上边及右边，完整保留。",
+      "label": "斜贴在楼梯照片右上角的浅米黄色纸胶带，带不规则撕口、轻微纸纹",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_clip",
+      "kind": "overlay",
+      "bbox": [
+        222,
+        437,
+        373,
+        573
+      ],
+      "description": "黄色塑料夹子，顶部为圆环、下部为横向圆角夹口，带高光和立体阴影；夹在饮品照片上边，主体向照片外伸出，整体作为固定装饰保留。",
+      "label": "黄色塑料夹子，顶部为圆环、下部为横向圆角夹口，带高光和立体阴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cake_top",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        168,
+        433,
+        258
+      ],
+      "description": "上方独立小蛋糕贴纸，浅黄色蛋糕体上有巧克力淋面、方形奶油片及红色草莓，带立体高光和阴影，完整保留。",
+      "label": "上方独立小蛋糕贴纸，浅黄色蛋糕体上有巧克力淋面、方形奶油片及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cake_right",
+      "kind": "overlay",
+      "bbox": [
+        938,
+        508,
+        1016,
+        584
+      ],
+      "description": "右侧独立小蛋糕贴纸，浅黄色圆形蛋糕、白色奶油顶和数颗红色莓果组成一个完整单元，略微倾斜并带立体阴影。",
+      "label": "右侧独立小蛋糕贴纸，浅黄色圆形蛋糕、白色奶油顶和数颗红色莓果",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_emoticon",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        114,
+        214,
+        164
+      ],
+      "description": "左上白色颜文字装饰，圆括号、手势及小型表情字符组合成特殊字形布局，约为“(っ'ω'c)”，按整体视觉形式保留。",
+      "label": "左上白色颜文字装饰，圆括号、手势及小型表情字符组合成特殊字形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_korean",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        325,
+        531,
+        377
+      ],
+      "description": "横跨底图与楼梯照片左缘的白色手写韩文字样“행복에 휩싸인 요즘”，末尾带星点及小圆形符号；字符高低与间距不完全规则，整体作为手写装饰保留。",
+      "label": "横跨底图与楼梯照片左缘的白色手写韩文字样“행복에 휩싸인 요",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_face_spoon",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        227,
+        857,
+        277
+      ],
+      "description": "楼梯照片上部的局部表情装饰：两个白色圆点与中间弯曲小嘴组成表情，右侧配一把斜放的银色小勺。表情和小勺作为同一局部点缀组合保留，保留内部空隙。",
+      "label": "楼梯照片上部的局部表情装饰：两个白色圆点与中间弯曲小嘴组成表",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tayoyo",
+      "kind": "overlay",
+      "bbox": [
+        341,
+        619,
+        488,
+        672
+      ],
+      "description": "饮品照片右上部的半透明浅米色矩形标签，内有棕色手写“Tayoyo”，保留纸色、透明感、字形和完整边界，不另拆文字。",
+      "label": "饮品照片右上部的半透明浅米色矩形标签，内有棕色手写“Tayo",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chinese_label",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        702,
+        904,
+        757
+      ],
+      "description": "跨过饮品照片及中部底图的长条半透明米色标签，棕灰色手写文字为“适合拍照 食物一般咖啡太甜了！”。文字与标签共同构成固定设计，整体保留。",
+      "label": "跨过饮品照片及中部底图的长条半透明米色标签，棕灰色手写文字为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee_label",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        806,
+        779,
+        879
+      ],
+      "description": "右下照片上部的乳白色矩形标识贴纸，中央为棕色断续块状字形“COFFEE”，下面有小字“casual café”。特殊标识字形与纸底一起保留，不拆为普通文字。",
+      "label": "右下照片上部的乳白色矩形标识贴纸，中央为棕色断续块状字形“C",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        935,
+        736,
+        1040,
+        841
+      ],
+      "description": "右下照片右上边缘的银蓝色回形针，斜向放置，双层弯曲金属线带高光与阴影，跨越照片边界，完整保留。",
+      "label": "右下照片右上边缘的银蓝色回形针，斜向放置，双层弯曲金属线带高",
+      "method": "extract"
+    },
+    {
+      "id": "text_english",
+      "kind": "text",
+      "bbox": [
+        93,
+        1184,
+        445,
+        1278
+      ],
+      "description": "Coffee in hand\nproblems cancelled.",
+      "label": "Coffee in hand\nproblems cancel",
+      "method": "local",
+      "text": "Coffee in hand\nproblems cancelled.",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5F2E9",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_cup",
+      "kind": "overlay",
+      "bbox": [
+        386,
+        1168,
+        450,
+        1223
+      ],
+      "description": "英文第一行右侧的白色咖啡杯与碟子小贴纸，杯内为深色咖啡，顶部有淡灰色热气，带立体明暗，完整保留。",
+      "label": "英文第一行右侧的白色咖啡杯与碟子小贴纸，杯内为深色咖啡，顶部",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_stairs",
+    "overlay_stairs_corner",
+    "photo_drink",
+    "overlay_drink_corner",
+    "photo_cafe",
+    "overlay_tape",
+    "overlay_yellow_clip",
+    "overlay_cake_top",
+    "overlay_cake_right",
+    "overlay_emoticon",
+    "overlay_korean",
+    "overlay_face_spoon",
+    "overlay_tayoyo",
+    "overlay_chinese_label",
+    "overlay_coffee_label",
+    "overlay_paperclip",
+    "text_english",
+    "overlay_cup"
+  ]
+}

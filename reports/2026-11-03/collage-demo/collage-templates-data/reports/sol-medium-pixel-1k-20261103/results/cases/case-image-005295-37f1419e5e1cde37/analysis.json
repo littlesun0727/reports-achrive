@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    790,
+    1404
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        790,
+        1404
+      ],
+      "description": "连续的户外摄影画面覆盖全画布：一名戴浅粉色渔夫帽、穿浅色上衣和短裙的长发女子坐在左下白色长椅上，手持牵引绳，双腿向下方及右侧伸展；一只长毛犬位于右下前景，身体被右边和下边裁切。后方为高大绿篱、树木、天空、石板步道及远处行人，左上露出写有“BASEMENT.FG / WELCOME”的实景招牌。环境在四边连续，局部被叠加字样和贴纸遮挡；人物、犬、长椅及全部摄影环境一起替换。",
+      "background_type": "photo",
+      "label": "连续的户外摄影画面覆盖全画布：一名戴浅粉色渔夫帽、穿浅色上衣",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_emoji",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        405,
+        157,
+        495
+      ],
+      "description": "黄色圆脸表情贴纸，包含头顶黑色墨镜、向上看的大眼睛及两侧手势，完整保留立体阴影和不规则轮廓，叠在左侧绿篱上。",
+      "label": "黄色圆脸表情贴纸，包含头顶黑色墨镜、向上看的大眼睛及两侧手势",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_oh_yeah",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        515,
+        274,
+        557
+      ],
+      "description": "白色粗衬线字样“Oh..yeah!!”及其下方白色横线构成完整文字装饰，位于黄色表情下方，保留原有字形与横线的相对位置。",
+      "label": "白色粗衬线字样“Oh..yeah!!”及其下方白色横线构成完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_thought_cloud",
+      "kind": "overlay",
+      "bbox": [
+        355,
+        498,
+        501,
+        640
+      ],
+      "description": "白色蓬松思绪云贴纸，主云团由多个圆鼓形组成，下方偏左附一枚小圆点，边缘带灰色柔和立体阴影；整体叠在女子头部右上方的绿篱上。",
+      "label": "白色蓬松思绪云贴纸，主云团由多个圆鼓形组成，下方偏左附一枚小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_bow",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        621,
+        638,
+        676
+      ],
+      "description": "远处步道左侧叠加的粉色蝴蝶结装饰，包含左右结环、中央结及下垂尾带，保留深粉色折痕和完整轮廓；与下方摄影中的座椅分别归属。",
+      "label": "远处步道左侧叠加的粉色蝴蝶结装饰，包含左右结环、中央结及下垂",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_drop",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        826,
+        704,
+        874
+      ],
+      "description": "独立蓝色水滴贴纸，尖端朝上，带浅蓝高光与深蓝边缘，位于下方文字右上侧的石板步道上。",
+      "label": "独立蓝色水滴贴纸，尖端朝上，带浅蓝高光与深蓝边缘，位于下方文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fun_caption",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        875,
+        710,
+        918
+      ],
+      "description": "白色粗衬线字样“#fun time with-:”及下方横线构成一体的文字装饰，横跨女子持绳手部右侧与犬头上方，完整保留字形、标点和下划横线。",
+      "label": "白色粗衬线字样“#fun time with-:”及下方横线",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_emoji",
+    "overlay_oh_yeah",
+    "overlay_thought_cloud",
+    "overlay_pink_bow",
+    "overlay_blue_drop",
+    "overlay_fun_caption"
+  ]
+}

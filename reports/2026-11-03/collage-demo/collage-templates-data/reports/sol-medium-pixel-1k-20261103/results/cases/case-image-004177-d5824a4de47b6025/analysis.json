@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#4B0D0D"
+      }
+    },
+    {
+      "id": "photo_house_scene",
+      "kind": "photo",
+      "bbox": [
+        20,
+        20,
+        1065,
+        1423
+      ],
+      "description": "竖向户外建筑摄影，完整显示红砖房屋、门窗、台阶、春节装饰、下方正在挥手的年轻男子、身旁的年轻女子和前景小狗；照片区域四周露出深酒红色画布边缘。摄影环境保留，人物与建筑共同属于同一张连续照片。",
+      "label": "竖向户外建筑摄影，完整显示红砖房屋、门窗、台阶、春节装饰、下",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_woman",
+      "kind": "photo",
+      "bbox": [
+        121,
+        210,
+        266,
+        457
+      ],
+      "description": "沿人物轮廓独立显示的年轻女子贴纸式照片，人物站立并朝向正面，手持扇子和红色串饰，摄影背景已去除；外沿带白色与黑色描边，底部被JANUARY字样遮挡。",
+      "label": "沿人物轮廓独立显示的年轻女子贴纸式照片，人物站立并朝向正面，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        476,
+        0,
+        1080,
+        580
+      ],
+      "description": "右上方不规则撕边的米白色纸张固定单元，带白色纸边、阴影和手写风格中文内容，内容讲述新年、工作、拍摄新年照及一只工具狗，并含狗狗图案；纸张从画布上边和右边裁切，覆盖房屋照片。",
+      "label": "右上方不规则撕边的米白色纸张固定单元，带白色纸边、阴影和手写",
+      "method": "extract"
+    },
+    {
+      "id": "photo_note_woman",
+      "kind": "photo",
+      "bbox": [
+        936,
+        288,
+        1080,
+        505
+      ],
+      "description": "右上方独立抠图照片，一名穿红色上衣的年轻女子手持红色串饰，身体朝向画面左侧；摄影背景去除，外沿保留白色撕纸状边缘和深色描边，人物压在米白色便签右侧边缘之上并被画布右边裁切。",
+      "label": "右上方独立抠图照片，一名穿红色上衣的年轻女子手持红色串饰，身",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_pair",
+      "kind": "photo",
+      "bbox": [
+        627,
+        980,
+        1080,
+        1441
+      ],
+      "description": "右下方独立抠图合照，两名年轻人坐姿并排，穿白色服装并手持红色福字卡片，人物组合及手中卡片完整显示；摄影背景去除，外围带不规则白色撕纸边和阴影，右侧及下侧被画布裁切。",
+      "label": "右下方独立抠图合照，两名年轻人坐姿并排，穿白色服装并手持红色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_january",
+      "kind": "overlay",
+      "bbox": [
+        71,
+        390,
+        791,
+        672
+      ],
+      "description": "横跨画面中部的手绘艺术字JANUARY，红色填充配厚重黑色轮廓和不规则手写字形，作为独立固定装饰覆盖房屋照片、上方人物下部及米白色便签左下区域。",
+      "label": "横跨画面中部的手绘艺术字JANUARY，红色填充配厚重黑色轮",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_house_scene",
+    "photo_upper_woman",
+    "overlay_note",
+    "photo_note_woman",
+    "photo_lower_pair",
+    "overlay_january"
+  ]
+}

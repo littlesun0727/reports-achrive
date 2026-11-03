@@ -1,0 +1,81 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "overlay_top_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        284
+      ],
+      "description": "顶部横贯画布的均匀灰褐色矩形底板，下边缘与下方照片平直相接，仅占画布顶部，不承担照片窗口功能；中央白色文字另列。",
+      "label": "顶部横贯画布的均匀灰褐色矩形底板，下边缘与下方照片平直相接，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_child",
+      "kind": "photo",
+      "bbox": [
+        0,
+        284,
+        1080,
+        1440
+      ],
+      "description": "一张车内侧面拍摄的照片，完整显示窗口从顶部底板下缘延伸至画布左右边缘及底边。一名幼儿穿浅色衣服，系着安全带，向右半躺在白色与米色儿童安全座椅内，双眼闭合。座椅占据中下部，车窗、车门、左侧座椅及窗外建筑、车辆和绿化均为同一摄影环境，完整保留；座椅上的品牌字样、彩色条纹及说明标签属于实拍内容。照片边界平直，无可见去背景或透明渐隐。",
+      "label": "一张车内侧面拍摄的照片，完整显示窗口从顶部底板下缘延伸至画布",
+      "method": "local"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        353,
+        152,
+        732,
+        190
+      ],
+      "description": "一路上睡得好香好安稳",
+      "label": "一路上睡得好香好安稳",
+      "method": "local",
+      "text": "一路上睡得好香好安稳",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5F2EC",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_top_panel",
+    "photo_child",
+    "text_top"
+  ]
+}

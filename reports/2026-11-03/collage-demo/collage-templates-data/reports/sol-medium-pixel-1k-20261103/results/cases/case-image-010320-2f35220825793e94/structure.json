@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "blue_bokeh_base",
+    "description": "浅蓝到近白色的连续渐变底图，布有大小不一的白色圆点，延伸覆盖画布四边，并在照片周围及照片间隙可见；作为固定图案保留，两张人物照片独立替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        205,
+        166,
+        876,
+        670
+      ],
+      "description": "上方横向矩形近景照片，一名短黑发女性正面看向镜头，手臂从画面上方伸入、手掌搭在头顶，肩部与浅色及青绿色衣带可见；保留照片内浅色室内环境，画面边界清晰，底部邻接文字装饰。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        205,
+        749,
+        876,
+        1218
+      ],
+      "description": "下方横向矩形近景照片，同一短黑发女性正面看向镜头，一只手横托下巴，肩部与浅色及青绿色衣带可见；姿态和取景与上方照片不同，保留照片内浅色室内环境，矩形照片下缘被圆点图案背景衬托。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        681,
+        969,
+        729
+      ],
+      "description": "位于两张照片之间的白色手写风格英文装饰字样，内容可辨为“★ ♡ One in ten thousand is you.”，两侧伴有小型星形及点状笔触；字形与点缀共同构成一条独立装饰，不承担照片承托功能。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "overlay_caption"
+  ]
+}

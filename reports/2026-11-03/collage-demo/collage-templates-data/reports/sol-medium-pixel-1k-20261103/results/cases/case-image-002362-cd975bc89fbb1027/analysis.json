@@ -1,0 +1,176 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "graphic_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "固定蓝色上半区与黄色下半区构成全画布底图，黄色区域上的蓝色圆点属于同一背景设计；保留原有色块分界和图形，不包含上方照片卡片、独立文字或前景披萨。",
+      "background_type": "reference_clean",
+      "label": "固定蓝色上半区与黄色下半区构成全画布底图，黄色区域上的蓝色圆",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        41,
+        359,
+        347,
+        583
+      ],
+      "description": "左上卡片下半部的饮品与水果近景，黑色碗中盛有绿色水果，旁有浅绿色饮料，木桌和室内背景均属于照片；保留完整矩形显示区域。",
+      "label": "左上卡片下半部的饮品与水果近景，黑色碗中盛有绿色水果，旁有浅",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        387,
+        369,
+        695,
+        583
+      ],
+      "description": "上方中央的披萨俯拍照片，披萨置于橙色桌面上，边缘有彩色弧形装饰；保留矩形摄影区域及其中的桌面环境。",
+      "label": "上方中央的披萨俯拍照片，披萨置于橙色桌面上，边缘有彩色弧形装",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        734,
+        360,
+        1035,
+        581
+      ],
+      "description": "右上卡片下半部的饮品与水果近景，红色饮料、黑色碗中的浅色水果、木桌和室内背景共同属于照片；保留完整矩形显示区域。",
+      "label": "右上卡片下半部的饮品与水果近景，红色饮料、黑色碗中的浅色水果",
+      "method": "local"
+    },
+    {
+      "id": "panel_left",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        175,
+        347,
+        360
+      ],
+      "description": "左上卡片的浅绿色固定图文面板，含白色字样、云朵和星点等小型装饰；作为照片上方的独立设计单元保留。",
+      "label": "左上卡片的浅绿色固定图文面板，含白色字样、云朵和星点等小型装",
+      "method": "extract"
+    },
+    {
+      "id": "panel_center",
+      "kind": "overlay",
+      "bbox": [
+        387,
+        173,
+        695,
+        373
+      ],
+      "description": "上方中央的橙色固定图文面板，含白色字样、手绘线条、星形及小图案；覆盖中央照片上缘，作为完整设计单元保留。",
+      "label": "上方中央的橙色固定图文面板，含白色字样、手绘线条、星形及小图",
+      "method": "extract"
+    },
+    {
+      "id": "panel_right",
+      "kind": "overlay",
+      "bbox": [
+        734,
+        179,
+        1035,
+        362
+      ],
+      "description": "右上卡片的浅桃色固定图文面板，含白色字样、彩色短线、点状装饰和小图案；作为照片上方的独立设计单元保留。",
+      "label": "右上卡片的浅桃色固定图文面板，含白色字样、彩色短线、点状装饰",
+      "method": "extract"
+    },
+    {
+      "id": "circle_left",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        205,
+        64,
+        261
+      ],
+      "description": "压在左上卡片左侧边缘的黄色圆形装饰。",
+      "label": "压在左上卡片左侧边缘的黄色圆形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "circle_right",
+      "kind": "overlay",
+      "bbox": [
+        1001,
+        493,
+        1057,
+        549
+      ],
+      "description": "压在右上卡片右侧边缘的黄色圆形装饰。",
+      "label": "压在右上卡片右侧边缘的黄色圆形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "caption",
+      "kind": "text",
+      "bbox": [
+        61,
+        620,
+        1009,
+        812
+      ],
+      "description": "Sunset in Qianhai Stone Park,\nFerris wheel in Happy Harbor,\nand jackfruit trees always bearing fruit on the roadside.\nThe phone case is hand-painted with\n\"Bay Area Li… vines,\nwith a refreshing b… color scheme.",
+      "label": "Sunset in Qianhai Stone Park,\n",
+      "method": "local",
+      "text": "Sunset in Qianhai Stone Park,\nFerris wheel in Happy Harbor,\nand jackfruit trees always bearing fruit on the roadside.\nThe phone case is hand-painted with\n\"Bay Area Li… vines,\nwith a refreshing b… color scheme.",
+      "text_status": "known",
+      "style": {
+        "fill": "#F2DF4C",
+        "font": "mono",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "pizza_foreground",
+      "kind": "photo",
+      "bbox": [
+        161,
+        738,
+        928,
+        1377
+      ],
+      "description": "大型单张披萨主体抠图，俯视近景，圆形烤饼边缘完整可见，底部略有阴影；摄影背景未显示，披萨覆盖下方黄色区域并遮挡说明文字的部分行。",
+      "label": "大型单张披萨主体抠图，俯视近景，圆形烤饼边缘完整可见，底部略",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "graphic_background",
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "panel_left",
+    "panel_center",
+    "panel_right",
+    "circle_left",
+    "circle_right",
+    "caption",
+    "pizza_foreground"
+  ]
+}

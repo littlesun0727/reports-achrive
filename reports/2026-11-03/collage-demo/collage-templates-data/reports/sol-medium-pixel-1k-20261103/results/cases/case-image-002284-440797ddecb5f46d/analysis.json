@@ -1,0 +1,308 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1436
+  ],
+  "objects": [
+    {
+      "id": "blue_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1436
+      ],
+      "description": "浅蓝色、带细微纸感纹理的连续底图，纹理铺满画布边缘及图案间隙；保留底图原样，独立替换播放器屏幕内的照片。",
+      "background_type": "reference_clean",
+      "label": "浅蓝色、带细微纸感纹理的连续底图，纹理铺满画布边缘及图案间隙",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_screen",
+      "kind": "photo",
+      "bbox": [
+        625,
+        599,
+        879,
+        855
+      ],
+      "description": "播放器屏幕内的方形海边静物照片：两只白色杯子和红色心形物件放在前景礁石上，背景可见海面与天空；保留完整摄影环境，照片边缘有细白色手绘轮廓。",
+      "label": "播放器屏幕内的方形海边静物照片：两只白色杯子和红色心形物件放",
+      "method": "local"
+    },
+    {
+      "id": "overlay_player_earphones",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        218,
+        944,
+        1260
+      ],
+      "description": "一组连贯的白色手绘有线耳机与随身播放器插画：左上黄色月牙形耳塞、上方白色耳塞、分叉并向下延伸打结的线缆、黄色线缆接头，以及右侧圆角矩形播放器外轮廓。播放器内含照片窗口周围的白色手绘边线、黄色刻度与滑块、上一首/暂停/下一首按钮；整体作为固定插画保留，照片内容单独替换。",
+      "label": "一组连贯的白色手绘有线耳机与随身播放器插画：左上黄色月牙形耳",
+      "method": "extract"
+    },
+    {
+      "id": "text_summer",
+      "kind": "text",
+      "bbox": [
+        154,
+        85,
+        275,
+        108
+      ],
+      "description": "(‘Summer)",
+      "label": "(‘Summer)",
+      "method": "local",
+      "text": "(‘Summer)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_but",
+      "kind": "text",
+      "bbox": [
+        891,
+        99,
+        946,
+        122
+      ],
+      "description": "(but)",
+      "label": "(but)",
+      "method": "local",
+      "text": "(but)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_is_short",
+      "kind": "text",
+      "bbox": [
+        546,
+        201,
+        645,
+        225
+      ],
+      "description": "(is short)",
+      "label": "(is short)",
+      "method": "local",
+      "text": "(is short)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_gorgeous",
+      "kind": "text",
+      "bbox": [
+        214,
+        473,
+        334,
+        497
+      ],
+      "description": "(gorgeous)",
+      "label": "(gorgeous)",
+      "method": "local",
+      "text": "(gorgeous)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_leaving",
+      "kind": "text",
+      "bbox": [
+        744,
+        414,
+        839,
+        437
+      ],
+      "description": "(leaving)",
+      "label": "(leaving)",
+      "method": "local",
+      "text": "(leaving)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_countless",
+      "kind": "text",
+      "bbox": [
+        327,
+        794,
+        449,
+        819
+      ],
+      "description": "(countless)",
+      "label": "(countless)",
+      "method": "local",
+      "text": "(countless)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_warm",
+      "kind": "text",
+      "bbox": [
+        110,
+        1023,
+        189,
+        1047
+      ],
+      "description": "(warm)",
+      "label": "(warm)",
+      "method": "local",
+      "text": "(warm)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_in",
+      "kind": "text",
+      "bbox": [
+        550,
+        1142,
+        586,
+        1166
+      ],
+      "description": "(in)",
+      "label": "(in)",
+      "method": "local",
+      "text": "(in)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_ordinary",
+      "kind": "text",
+      "bbox": [
+        832,
+        1150,
+        939,
+        1174
+      ],
+      "description": "(ordinary)",
+      "label": "(ordinary)",
+      "method": "local",
+      "text": "(ordinary)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_fragments",
+      "kind": "text",
+      "bbox": [
+        146,
+        1277,
+        274,
+        1302
+      ],
+      "description": "(fragments)",
+      "label": "(fragments)",
+      "method": "local",
+      "text": "(fragments)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_life",
+      "kind": "text",
+      "bbox": [
+        942,
+        1314,
+        994,
+        1338
+      ],
+      "description": "(life)",
+      "label": "(life)",
+      "method": "local",
+      "text": "(life)",
+      "text_status": "known",
+      "style": {
+        "fill": "#D7EAF5",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "blue_texture",
+    "photo_screen",
+    "overlay_player_earphones",
+    "text_summer",
+    "text_but",
+    "text_is_short",
+    "text_gorgeous",
+    "text_leaving",
+    "text_countless",
+    "text_warm",
+    "text_in",
+    "text_ordinary",
+    "text_fragments",
+    "text_life"
+  ]
+}

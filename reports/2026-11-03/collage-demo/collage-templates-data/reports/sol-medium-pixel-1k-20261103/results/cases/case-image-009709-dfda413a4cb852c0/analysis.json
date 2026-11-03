@@ -1,0 +1,69 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "gradient_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "全画布连续的纵向蓝色至深蓝、近黑渐变底图，边缘和照片周围均延续同一渐变，并可见细微水平色带；保留底图原样，独立照片与贴纸不并入。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的纵向蓝色至深蓝、近黑渐变底图，边缘和照片周围均延",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        129,
+        283,
+        901,
+        1312
+      ],
+      "description": "居中的竖幅夜景花木照片。粉色花簇与深色枝叶占据下半部，左上有浅色长叶伸入，蓝色夜空铺在上方并可见细小月亮；完整矩形照片窗口内保留天空和植物环境。",
+      "label": "居中的竖幅夜景花木照片。粉色花簇与深色枝叶占据下半部，左上有",
+      "method": "local"
+    },
+    {
+      "id": "overlay_weather_sticker",
+      "kind": "overlay",
+      "bbox": [
+        667,
+        1508,
+        969,
+        1632
+      ],
+      "description": "右下方独立白色圆角长方形贴纸，内部从左至右为黑色“@”符号、带雨滴的云和蓝色水滴图案，整体作为一个固定装饰单元保留。",
+      "label": "右下方独立白色圆角长方形贴纸，内部从左至右为黑色“@”符号、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1893,
+        1072,
+        1911
+      ],
+      "description": "画布右下角贴近边缘的微小半透明深灰色平台水印，含图标及可辨认的“小红书”字样，作为整体保留。",
+      "label": "画布右下角贴近边缘的微小半透明深灰色平台水印，含图标及可辨认",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "gradient_background",
+    "photo_flowers",
+    "overlay_weather_sticker",
+    "overlay_watermark"
+  ]
+}

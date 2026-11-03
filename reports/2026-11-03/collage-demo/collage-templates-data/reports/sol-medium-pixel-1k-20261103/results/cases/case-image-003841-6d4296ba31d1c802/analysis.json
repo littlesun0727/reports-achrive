@@ -1,0 +1,209 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    810
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        810
+      ],
+      "description": "一张连续的低饱和近黑白餐桌摄影覆盖全画布：粗纹木桌上放着白色多边形餐盘与一块奶油蛋糕，叉子斜向右下，右下露出一只握叉的手和长袖，顶部露出浅色布料。木纹及桌面场景在四边连续，上层小照片和几何装饰遮住局部；餐具、食物、手及完整摄影环境一起替换。",
+      "background_type": "photo",
+      "label": "一张连续的低饱和近黑白餐桌摄影覆盖全画布：粗纹木桌上放着白色",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        668,
+        113,
+        1003,
+        341
+      ],
+      "description": "右上横向独立彩色照片，木桌上左下是一只白色多边形盘和带奶油的三角蛋糕，右上是一杯带绿色果片的饮料，左上露出窗边结构，无人物。保留完整摄影环境；照片窗口四周有依附窗口的白色圆角描边，上沿被黑白圆点胶带遮挡，下沿局部被浅黄色圆形装饰覆盖。",
+      "label": "右上横向独立彩色照片，木桌上左下是一只白色多边形盘和带奶油的",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        749,
+        91,
+        839,
+        133
+      ],
+      "description": "贴在右上照片上沿中央的短条黑色胶带，内部密布白色圆点，带不规则撕裂边缘及浅色边线，整体作为独立固定装饰保留。",
+      "label": "贴在右上照片上沿中央的短条黑色胶带，内部密布白色圆点，带不规",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_pattern",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        14,
+        345,
+        342
+      ],
+      "description": "左上角完整的白色圆点阵装饰，各行向右、各列向下逐渐变小并减少，形成向右下收尖的疏密渐变三角分布；全部圆点作为同一设计单元保留，点间露出底层摄影。",
+      "label": "左上角完整的白色圆点阵装饰，各行向右、各列向下逐渐变小并减少",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_top",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        25,
+        686,
+        121
+      ],
+      "description": "顶部偏右的浅黄色圆形装饰，颜色略有透明感，叠在底图深色横向区域及浅色布料前方。",
+      "label": "顶部偏右的浅黄色圆形装饰，颜色略有透明感，叠在底图深色横向区",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        342,
+        104,
+        413,
+        175
+      ],
+      "description": "上方偏左的浅黄色半透明圆形装饰，底图木纹可透过圆面看到。",
+      "label": "上方偏左的浅黄色半透明圆形装饰，底图木纹可透过圆面看到。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_plate",
+      "kind": "overlay",
+      "bbox": [
+        302,
+        328,
+        338,
+        364
+      ],
+      "description": "餐盘左上区域的小型浅黄色半透明圆形装饰，独立叠加于白色餐盘摄影内容之上。",
+      "label": "餐盘左上区域的小型浅黄色半透明圆形装饰，独立叠加于白色餐盘摄",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        337,
+        191,
+        465
+      ],
+      "description": "左侧中部的浅黄色半透明圆面与略向右上错位的白色细圆环组成一个完整装饰，木桌纹理透过圆面可见。",
+      "label": "左侧中部的浅黄色半透明圆面与略向右上错位的白色细圆环组成一个",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_inset",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        322,
+        795,
+        379
+      ],
+      "description": "右上小照片下沿附近的浅黄色半透明小圆面和向右下错位的白色细圆环，整体为同一装饰；跨越照片白色下边缘并覆盖其局部。",
+      "label": "右上小照片下沿附近的浅黄色半透明小圆面和向右下错位的白色细圆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_right",
+      "kind": "overlay",
+      "bbox": [
+        942,
+        410,
+        1032,
+        500
+      ],
+      "description": "画面右侧中部的浅黄色半透明圆形装饰，完整圆面叠在木桌摄影上，内部仍可见木纹。",
+      "label": "画面右侧中部的浅黄色半透明圆形装饰，完整圆面叠在木桌摄影上，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rectangles",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        550,
+        401,
+        661
+      ],
+      "description": "左下餐盘边缘处两只错位相交的白色细线空心矩形，上方矩形较小、下方矩形较宽，组成一个完整几何装饰，内部透明并露出摄影内容。",
+      "label": "左下餐盘边缘处两只错位相交的白色细线空心矩形，上方矩形较小、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_lower_middle",
+      "kind": "overlay",
+      "bbox": [
+        685,
+        607,
+        758,
+        681
+      ],
+      "description": "餐盘右下缘及叉柄附近的浅黄色半透明圆形装饰，覆盖餐盘边缘与木桌的局部，摄影细节透过圆面可见。",
+      "label": "餐盘右下缘及叉柄附近的浅黄色半透明圆形装饰，覆盖餐盘边缘与木",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_bottom",
+      "kind": "overlay",
+      "bbox": [
+        222,
+        728,
+        396,
+        810
+      ],
+      "description": "底边偏左的浅黄色半透明大圆面与向左错位的白色细圆环组成一个完整装饰，两者下部均被画布底边截断，仅记录画布内显示部分。",
+      "label": "底边偏左的浅黄色半透明大圆面与向左错位的白色细圆环组成一个完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        989,
+        613,
+        1080,
+        773
+      ],
+      "description": "右下角覆盖袖口摄影内容的浅黄色半透明大圆形装饰，右侧超出画布而被截断，保留画布内可见圆面及边缘。",
+      "label": "右下角覆盖袖口摄影内容的浅黄色半透明大圆形装饰，右侧超出画布",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_dot_pattern",
+    "overlay_circle_top",
+    "overlay_circle_upper_left",
+    "overlay_circle_plate",
+    "overlay_circle_left",
+    "overlay_circle_right",
+    "overlay_rectangles",
+    "overlay_circle_lower_middle",
+    "overlay_circle_bottom",
+    "overlay_circle_lower_right",
+    "photo_inset",
+    "overlay_tape",
+    "overlay_circle_inset"
+  ]
+}

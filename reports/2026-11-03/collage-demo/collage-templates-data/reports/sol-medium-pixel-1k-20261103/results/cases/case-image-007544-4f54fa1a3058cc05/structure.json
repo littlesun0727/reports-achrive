@@ -1,0 +1,285 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "pink_base",
+    "description": "全画布连续的浅粉色底面，带细微纸质纹理、柔和明暗变化，四边与物件间隙均可见。保留固定底面原貌，银盘、餐具、卡片、照片、星星及文字分别记录，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "silver_plate",
+      "kind": "overlay",
+      "bbox": [
+        67,
+        392,
+        1055,
+        1346
+      ],
+      "description": "大型银色复古餐盘，包含完整波浪盘沿、浮雕玫瑰、珠状边饰、金属反光与落影。作为固定餐桌装饰保留，盘面被纸卡、照片和餐具遮挡，不是照片自身的边框。"
+    },
+    {
+      "id": "fork",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        954,
+        419,
+        1556
+      ],
+      "description": "左下斜置的银色餐叉，包含叉齿、金属叉柄、乳白色握柄和右侧投影；上部部分被照片遮挡，握柄延伸至画布下边并被截断。"
+    },
+    {
+      "id": "knife",
+      "kind": "overlay",
+      "bbox": [
+        679,
+        451,
+        1061,
+        1485
+      ],
+      "description": "右侧斜放的餐刀，包含细锯齿银色刀刃、雕花金属连接部、乳白色握柄及投影。刀刃从餐盘上方延伸至右下，覆盖盘沿，照片右缘位于刀刃前方。"
+    },
+    {
+      "id": "paper_card",
+      "kind": "frame",
+      "bbox": [
+        430,
+        617,
+        687,
+        1114
+      ],
+      "description": "近乎竖直的浅米色纸卡，位于照片下方并承托单张照片。保留纸张色泽、边缘、细微阴影及下方露出的少量深色印字；中部被倾斜照片遮挡，不推测隐藏印刷。",
+      "photo_id": [
+        "portrait_photo"
+      ]
+    },
+    {
+      "id": "portrait_photo",
+      "kind": "photo",
+      "bbox": [
+        297,
+        694,
+        804,
+        1136
+      ],
+      "description": "倾斜的矩形室内人物照片：一名长发女子戴粉色小皇冠、穿浅粉礼服，坐于右半部，侧脸低头望向左下的大束白花；右下可见粉色裙摆，后方保留黑色靠垫和浅色室内墙面。整个照片窗口保留摄影环境，四边有依附矩形窗口的细白色描边；左上缘被粉色丝带遮挡。"
+    },
+    {
+      "id": "name_label",
+      "kind": "overlay",
+      "bbox": [
+        300,
+        654,
+        554,
+        819
+      ],
+      "description": "向右上倾斜的灰绿色织物质感姓名标签，黑色细长字样为“Aurvelle”。保留标签完整外缘、织纹和字形，压在米色纸卡上，位于照片左上方。"
+    },
+    {
+      "id": "ribbon_left",
+      "kind": "overlay",
+      "bbox": [
+        236,
+        790,
+        460,
+        988
+      ],
+      "description": "系在照片左上角的浅粉色细丝带蝴蝶结，包含两侧环结、垂下的弯曲长带和向右延伸的带尾；整体跨过照片白边，部分丝带覆盖照片中的白花。"
+    },
+    {
+      "id": "bow_bottom",
+      "kind": "overlay",
+      "bbox": [
+        491,
+        1205,
+        636,
+        1291
+      ],
+      "description": "餐盘下沿中央的浅粉色缎面蝴蝶结，包含中心结、左右宽环和尖角带尾，保留褶皱、高光及柔和阴影，叠在银色盘沿上。"
+    },
+    {
+      "id": "star_top_small",
+      "kind": "overlay",
+      "bbox": [
+        266,
+        117,
+        297,
+        148
+      ],
+      "description": "上方偏左的一枚小型白色五角星，保留略不规则的星尖轮廓。"
+    },
+    {
+      "id": "star_top_large",
+      "kind": "overlay",
+      "bbox": [
+        385,
+        153,
+        434,
+        205
+      ],
+      "description": "上方中左的一枚较大白色五角星，星尖略有倾斜。"
+    },
+    {
+      "id": "star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        204,
+        238,
+        254
+      ],
+      "description": "左上区域的一枚白色五角星，保留不完全对称的星尖造型。"
+    },
+    {
+      "id": "star_left",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        249,
+        104,
+        298
+      ],
+      "description": "靠近左边缘的一枚倾斜白色五角星。"
+    },
+    {
+      "id": "star_left_small",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        308,
+        175,
+        340
+      ],
+      "description": "左侧两枚大星之间偏下的一枚小型白色五角星。"
+    },
+    {
+      "id": "star_mid_small",
+      "kind": "overlay",
+      "bbox": [
+        333,
+        251,
+        365,
+        280
+      ],
+      "description": "上方中左的一枚小型白色五角星，位于姓名标签上方较远处。"
+    },
+    {
+      "id": "star_above_plate_left",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        340,
+        364,
+        391
+      ],
+      "description": "餐盘左上方的一枚较大白色五角星。"
+    },
+    {
+      "id": "star_upper_center_small",
+      "kind": "overlay",
+      "bbox": [
+        511,
+        226,
+        541,
+        257
+      ],
+      "description": "画布上部中央的一枚小型白色五角星。"
+    },
+    {
+      "id": "star_upper_center_large",
+      "kind": "overlay",
+      "bbox": [
+        487,
+        278,
+        537,
+        327
+      ],
+      "description": "上部中央偏左的一枚较大白色五角星，位于小星下方。"
+    },
+    {
+      "id": "star_right_edge",
+      "kind": "overlay",
+      "bbox": [
+        1028,
+        240,
+        1059,
+        271
+      ],
+      "description": "靠近右边缘上部的一枚小型白色五角星。"
+    },
+    {
+      "id": "star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        947,
+        332,
+        998,
+        382
+      ],
+      "description": "右上区域的一枚较大白色五角星。"
+    },
+    {
+      "id": "star_above_plate_right",
+      "kind": "overlay",
+      "bbox": [
+        811,
+        377,
+        861,
+        428
+      ],
+      "description": "餐盘右上方的一枚倾斜白色五角星。"
+    },
+    {
+      "id": "star_right_small",
+      "kind": "overlay",
+      "bbox": [
+        902,
+        439,
+        932,
+        469
+      ],
+      "description": "餐盘右上外侧的一枚小型白色五角星。"
+    },
+    {
+      "id": "birthday_text",
+      "kind": "text",
+      "bbox": [
+        344,
+        1387,
+        799,
+        1484
+      ],
+      "text": "Happy Birthday",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "star_top_small",
+    "star_top_large",
+    "star_upper_left",
+    "star_left",
+    "star_left_small",
+    "star_mid_small",
+    "star_above_plate_left",
+    "star_upper_center_small",
+    "star_upper_center_large",
+    "star_right_edge",
+    "star_upper_right",
+    "star_above_plate_right",
+    "star_right_small",
+    "silver_plate",
+    "fork",
+    "knife",
+    "paper_card",
+    "name_label",
+    "portrait_photo",
+    "ribbon_left",
+    "bow_bottom",
+    "birthday_text"
+  ]
+}

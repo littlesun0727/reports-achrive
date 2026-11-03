@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_sea_background",
+    "description": "一张连续的海天远景照片覆盖全画布，无人物。灰蓝色天空占据上方大部分区域，水平海平线位于靠下位置，带细密波纹的海面延伸至底边；天空与海面连续抵达画布四边。整体呈低饱和、细颗粒质感，中央道路照片和白色文字遮挡局部，天空与海洋环境整体随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_road",
+      "kind": "photo",
+      "bbox": [
+        348,
+        475,
+        734,
+        1053
+      ],
+      "description": "中央竖向道路风景照片，无明显人物。公路从下方通向远处，左侧有落叶树木，右侧为浅色田野及成列电线杆，电线伸向上方天空，远处可见小型建筑。完整摄影环境保留，显示为边缘清晰的矩形窗口，未见独立框体或主体出框。画面色调柔和、偏灰蓝。"
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        400,
+        386,
+        680,
+        436
+      ],
+      "text": "Good views are always\non the road",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_year",
+      "kind": "text",
+      "bbox": [
+        512,
+        1120,
+        571,
+        1141
+      ],
+      "text": "2023",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_road",
+    "text_heading",
+    "text_year"
+  ]
+}

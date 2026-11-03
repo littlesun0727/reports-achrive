@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_design",
+    "description": "黑色全画布固定底层，间有稀疏紫色光点与短光痕；照片之间及四周的黑色区域连续可见，作为固定底图保留。独立演唱会照片、白色边框和金属头部图案位于其上。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left_screen",
+      "kind": "photo",
+      "bbox": [
+        43,
+        29,
+        570,
+        331
+      ],
+      "description": "左上横向舞台屏幕画面，包含两侧表演者影像与中央游戏界面，作为一个连续的矩形摄影显示区域；外侧白色手绘边线随照片窗口呈框状，不另拆框体。"
+    },
+    {
+      "id": "photo_upper_right_performer",
+      "kind": "photo",
+      "bbox": [
+        596,
+        133,
+        920,
+        450
+      ],
+      "description": "右上竖向近景照片，一名浅发歌手穿亮片服装，抬手在脸旁比手势，背景仍为演出现场；白色手绘线沿矩形照片窗口边缘。"
+    },
+    {
+      "id": "photo_mid_left_stage",
+      "kind": "photo",
+      "bbox": [
+        116,
+        338,
+        479,
+        596
+      ],
+      "description": "左侧中部舞台照片，彩色玩偶与表演装置位于紫粉色灯光和烟雾前，保留完整舞台摄影环境；右侧边缘部分被下方照片框遮挡。"
+    },
+    {
+      "id": "photo_yellow_performer",
+      "kind": "photo",
+      "bbox": [
+        176,
+        590,
+        558,
+        969
+      ],
+      "description": "中左竖向黑底舞台照片，一名穿黄色服装的表演者站在小型阶梯装置上抬臂，画面下方有舞台平台；白色手绘矩形边线及左侧连续环形笔画沿该照片窗口显示。"
+    },
+    {
+      "id": "photo_main_concert",
+      "kind": "photo",
+      "bbox": [
+        558,
+        460,
+        1080,
+        1018
+      ],
+      "description": "右侧大型横向演唱会现场照片，歌手位于舞台左下区域，右侧有大型彩色舞台造型，观众、飘落纸屑与灯光构成摄影环境；上缘及左侧局部被其他照片和画面元素遮挡。"
+    },
+    {
+      "id": "photo_lower_left_singer",
+      "kind": "photo",
+      "bbox": [
+        102,
+        1055,
+        376,
+        1352
+      ],
+      "description": "左下竖向舞台屏幕照片，浅发歌手身着紫红色服装持麦演唱，画面含原有竖排字样及底部屏幕字样，均随摄影内容保留；白色手绘线沿矩形窗口边缘。"
+    },
+    {
+      "id": "photo_lower_center_stage",
+      "kind": "photo",
+      "bbox": [
+        375,
+        970,
+        711,
+        1362
+      ],
+      "description": "下方中央横向演唱会照片，紫色荧光棒观众构成背景，黄色服装表演者在小型阶梯装置上低身表演；照片与右侧大型演唱会画面取景边界独立，保留各自摄影环境。"
+    },
+    {
+      "id": "photo_lower_right_performer",
+      "kind": "photo",
+      "bbox": [
+        726,
+        1028,
+        968,
+        1266
+      ],
+      "description": "右下方近方形舞台照片，一名表演者正面站立，穿棕金色舞台服装，背后为深色演出屏幕；白色手绘线沿照片窗口边缘。"
+    },
+    {
+      "id": "overlay_skull_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        916,
+        29,
+        1064,
+        192
+      ],
+      "description": "右上角独立的银白色网格金属头部图案，带紫色反光和几何面罩细节，整体作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_skull_mid_left",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        594,
+        133,
+        704
+      ],
+      "description": "左侧中部独立银白色网格头部图案，带紫色反光与几何面罩细节，浮置于黑色区域。"
+    },
+    {
+      "id": "overlay_skull_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        1290,
+        145,
+        1439
+      ],
+      "description": "左下角银白色机械装置与网格结构组成的固定装饰，带紫蓝色反光，完整可见部分延伸至画布下边缘。"
+    },
+    {
+      "id": "overlay_skull_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        859,
+        1244,
+        1067,
+        1439
+      ],
+      "description": "右下角大型银白色机械头部装饰，具有深色面罩、紫蓝色反光和底部机械结构，部分延伸至画布下边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left_screen",
+    "photo_upper_right_performer",
+    "photo_mid_left_stage",
+    "photo_yellow_performer",
+    "photo_main_concert",
+    "photo_lower_left_singer",
+    "photo_lower_center_stage",
+    "photo_lower_right_performer",
+    "overlay_skull_upper_right",
+    "overlay_skull_mid_left",
+    "overlay_skull_bottom_left",
+    "overlay_skull_bottom_right"
+  ]
+}

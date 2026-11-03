@@ -1,0 +1,329 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_base",
+    "description": "全画布固定双色底图，上部为浅粉色，下部为浅蓝色，水平分界约在y=498，两种色域均延伸至画布边缘。保留双色分区结构；照片、文字、圆点和其他独立装饰不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_tulips",
+      "kind": "photo",
+      "bbox": [
+        61,
+        380,
+        726,
+        1080
+      ],
+      "description": "左下独立竖幅静物照片，无人物。黄白郁金香及绿色叶片装在牛皮纸袋中，位于画面右下，背景为有褶皱的浅色布料。保留完整摄影环境，照片上端两角圆润，下端延伸至画布外而被画布裁切；白色圆点及左下曲线装饰覆盖其局部。"
+    },
+    {
+      "id": "overlay_upper_dots",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        134,
+        632,
+        556
+      ],
+      "description": "左上至照片上半部的一组白色圆点，疏散排列，完整保留各圆点及其间的透明空隙。圆点跨越粉色底与照片上沿，部分位于标题及正文后方，照片区域内的圆点位于照片上方。"
+    },
+    {
+      "id": "overlay_lower_dots",
+      "kind": "overlay",
+      "bbox": [
+        1510,
+        777,
+        1920,
+        1080
+      ],
+      "description": "右下成组的白色圆点装饰，分布于浅蓝底上，右侧及底部部分圆点被画布截断。整组保留，位于右侧文字及分隔线后方。"
+    },
+    {
+      "id": "overlay_upper_curve",
+      "kind": "overlay",
+      "bbox": [
+        1679,
+        0,
+        1920,
+        292
+      ],
+      "description": "右上深灰绿色细弧线与同色四角星组成的完整装饰。弧线从画布顶边进入，绕过星形向右边延伸，右端被画布裁切，星形位于两段弧线之间。"
+    },
+    {
+      "id": "overlay_center_stars",
+      "kind": "overlay",
+      "bbox": [
+        1080,
+        289,
+        1183,
+        389
+      ],
+      "description": "粉色区域偏右下的一大一小灰绿色四角星组合，小星位于大星右上，作为一个完整装饰保留。"
+    },
+    {
+      "id": "overlay_lower_curve",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        778,
+        284,
+        1080
+      ],
+      "description": "左下白色细弧线与白色四角星组成的完整装饰，弧线从左边进入并向底边弯曲，星形位于两段弧线之间。覆盖蓝色底与花束照片，左端和下端由画布截断。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        77,
+        87,
+        1160,
+        164
+      ],
+      "text": "Professional Milestones",
+      "color": "#5D7965",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_intro",
+      "kind": "text",
+      "bbox": [
+        77,
+        214,
+        1050,
+        292
+      ],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pharetra iaculis euismod. Donec hendrerit varius\nmassa, sed congue quam molestie id. Ut gravida libero ac diam ultricies ullamcorper. Etiam laoreet leo nec\nmassa egestas placerat. Ut tempus pulvinar metus, in accumsan lacus euismod volutpat.",
+      "color": "#666163",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_seal_01",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        563,
+        931,
+        687
+      ],
+      "description": "第一行粉色蜡封样式圆形徽章，包含不规则外沿、内圈压纹、蝴蝶结浮雕和白色编号“01”，材质高光及阴影随完整徽章保留。"
+    },
+    {
+      "id": "overlay_seal_02",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        714,
+        931,
+        837
+      ],
+      "description": "第二行粉色蜡封样式圆形徽章，包含不规则外沿、内圈压纹、蝴蝶结浮雕和白色编号“02”，材质高光及阴影随完整徽章保留。"
+    },
+    {
+      "id": "overlay_seal_03",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        860,
+        931,
+        984
+      ],
+      "description": "第三行粉色蜡封样式圆形徽章，包含不规则外沿、内圈压纹、蝴蝶结浮雕和白色编号“03”，材质高光及阴影随完整徽章保留。"
+    },
+    {
+      "id": "text_value_01",
+      "kind": "text",
+      "bbox": [
+        960,
+        607,
+        1091,
+        654
+      ],
+      "text": "150+",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_value_02",
+      "kind": "text",
+      "bbox": [
+        960,
+        752,
+        1073,
+        798
+      ],
+      "text": "80+",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_value_03",
+      "kind": "text",
+      "bbox": [
+        960,
+        896,
+        1109,
+        942
+      ],
+      "text": "200+",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_arrow_01",
+      "kind": "overlay",
+      "bbox": [
+        1151,
+        629,
+        1302,
+        647
+      ],
+      "description": "第一行灰绿色水平向右箭头，包含细直线与短折线箭头，作为完整独立装饰保留。"
+    },
+    {
+      "id": "overlay_arrow_02",
+      "kind": "overlay",
+      "bbox": [
+        1151,
+        769,
+        1302,
+        787
+      ],
+      "description": "第二行灰绿色水平向右箭头，包含细直线与短折线箭头，作为完整独立装饰保留。"
+    },
+    {
+      "id": "overlay_arrow_03",
+      "kind": "overlay",
+      "bbox": [
+        1151,
+        916,
+        1302,
+        934
+      ],
+      "description": "第三行灰绿色水平向右箭头，包含细直线与短折线箭头，作为完整独立装饰保留。"
+    },
+    {
+      "id": "text_label_01",
+      "kind": "text",
+      "bbox": [
+        1352,
+        617,
+        1649,
+        649
+      ],
+      "text": "Projects Completed",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_label_02",
+      "kind": "text",
+      "bbox": [
+        1352,
+        762,
+        1669,
+        794
+      ],
+      "text": "Happy Collaborations",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_label_03",
+      "kind": "text",
+      "bbox": [
+        1352,
+        906,
+        1584,
+        934
+      ],
+      "text": "Creative Assets",
+      "color": "#000000",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_rule_01",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        703,
+        1813,
+        705
+      ],
+      "description": "第一行下方横向灰色细分隔线，横贯右侧数据区域，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_rule_02",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        847,
+        1813,
+        850
+      ],
+      "description": "第二行下方横向灰色细分隔线，横贯右侧数据区域，叠在右下白色圆点装饰上方。"
+    },
+    {
+      "id": "overlay_rule_03",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        994,
+        1813,
+        997
+      ],
+      "description": "第三行下方横向灰色细分隔线，横贯右侧数据区域，作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_tulips",
+    "overlay_upper_dots",
+    "overlay_lower_dots",
+    "overlay_upper_curve",
+    "overlay_center_stars",
+    "overlay_lower_curve",
+    "text_title",
+    "text_intro",
+    "overlay_seal_01",
+    "overlay_seal_02",
+    "overlay_seal_03",
+    "text_value_01",
+    "text_value_02",
+    "text_value_03",
+    "overlay_arrow_01",
+    "overlay_arrow_02",
+    "overlay_arrow_03",
+    "text_label_01",
+    "text_label_02",
+    "text_label_03",
+    "overlay_rule_01",
+    "overlay_rule_02",
+    "overlay_rule_03"
+  ]
+}

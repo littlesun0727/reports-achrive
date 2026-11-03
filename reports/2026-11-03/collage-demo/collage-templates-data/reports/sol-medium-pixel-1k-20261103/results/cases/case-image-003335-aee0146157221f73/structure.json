@@ -1,0 +1,82 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "gray_gradient_bg",
+    "description": "浅灰至中灰的连续柔和渐变底面，覆盖全画布并在相片卡片四周完整可见；保留渐变外观，卡片与横向半透明深灰条遮挡其局部。"
+  },
+  "objects": [
+    {
+      "id": "photo_strip_frame",
+      "kind": "frame",
+      "bbox": [
+        66,
+        347,
+        1014,
+        1573
+      ],
+      "description": "一张整体倾斜的白色双格相片纸框，包含上下两个照片窗口、白色边缘、左侧三角标记与数字“26”，以及右侧竖排印字“AND2BLE”和“PHOT...”；所有印刷内容与纸框作为一个固定载体保留。",
+      "photo_id": [
+        "photo_upper",
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        135,
+        360,
+        882,
+        997
+      ],
+      "description": "上方倾斜矩形窗口内的双人合照：一名黑发男子在左侧近景举手比出手势，一名长发女子在右侧做手势，两人面向镜头，背景为浅灰摄影环境；照片下缘被横向深灰条遮挡，保留完整窗口画面。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        191,
+        924,
+        946,
+        1558
+      ],
+      "description": "下方倾斜矩形窗口内的双人合照：黑发男子位于左侧，长发女子位于右侧并戴有鹿角造型头饰，男子伸手靠近女子面部，两人面向镜头；保留浅灰摄影背景及完整窗口范围。"
+    },
+    {
+      "id": "name_bar",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        912,
+        1080,
+        1009
+      ],
+      "description": "横贯画布的半透明深灰色长条，覆盖双格相片纸框中部及两张照片的相接区域；保留完整矩形条带。"
+    },
+    {
+      "id": "name_text",
+      "kind": "text",
+      "bbox": [
+        474,
+        946,
+        606,
+        984
+      ],
+      "text": "gyuvin",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_strip_frame",
+    "photo_upper",
+    "photo_lower",
+    "name_bar",
+    "name_text"
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的餐厅庆生摄影画面覆盖全画布，四边的墙面、座椅和餐桌属于同一场景。中央一位长黑发女子穿浅色针织衫，坐姿半身，低头闭眼、双手交握；身后可见其他用餐者及暖色木质餐厅环境。下方餐桌上的草莓蛋糕、燃烧的细棒及亮光、餐具和水杯均属摄影内容，随整张照片替换。白色翅膀、云状文字和下方字样为上层独立装饰。"
+  },
+  "objects": [
+    {
+      "id": "overlay_thought",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        86,
+        990,
+        368
+      ],
+      "description": "右上方白色粉笔颗粒质感的思考气泡，包含云状外轮廓、下方两个小圆圈、内部手写“小幸福”及小爱心点缀。文字与气泡共同构成完整固定装饰，整体保留。"
+    },
+    {
+      "id": "overlay_wing_left",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        502,
+        214,
+        681
+      ],
+      "description": "女子左肩外侧的独立白色手绘小翅膀，圆弧外缘与内侧卷曲线条连成完整造型，带粉笔颗粒和散点边缘；叠在餐厅照片上，不依附人物轮廓。"
+    },
+    {
+      "id": "overlay_wing_right",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        478,
+        897,
+        653
+      ],
+      "description": "女子右肩外侧的独立白色手绘小翅膀，包含上方圆弧及下方卷曲笔画，保留颗粒质感与边缘散点；与左侧翅膀分处两个独立显示位置。"
+    },
+    {
+      "id": "overlay_happy_time",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        1219,
+        943,
+        1305
+      ],
+      "description": "叠在草莓蛋糕上的白色细线手写“Happy Time”，字母具有特定连笔造型，两个词的位置和基线错落，作为完整艺术字保留，不属于蛋糕实拍内容。"
+    },
+    {
+      "id": "overlay_face",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        1316,
+        909,
+        1393
+      ],
+      "description": "蛋糕下部的白色手绘颜文字装饰，含两侧弯曲括号、眼睛、嘴部和短线点缀，整体呈轻微倾斜的独立图案，保留全部笔画及颗粒边缘。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1392,
+        1073,
+        1419
+      ],
+      "description": "右下角低对比度的小型圆角标记，内部可辨“醒图”字样，文字与底形作为一个完整水印装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_thought",
+    "overlay_wing_left",
+    "overlay_wing_right",
+    "overlay_happy_time",
+    "overlay_face",
+    "overlay_watermark"
+  ]
+}

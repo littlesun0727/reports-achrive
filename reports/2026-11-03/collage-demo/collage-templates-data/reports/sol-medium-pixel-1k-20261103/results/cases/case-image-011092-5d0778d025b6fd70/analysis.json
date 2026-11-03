@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的户外烧烤合影覆盖全画布：上方为深色棚顶，中部可见夕阳天空、栏杆、建筑和远处树林，下方一名男子与三名女子围坐餐桌，男子在左，三名女子分布中间及右侧，多人向镜头比手势。桌上烤盘、餐具、食物和周围座椅均属于摄影环境。画面四边的场景连续，上方局部被另一张烧烤特写及文字遮挡；整体摄影内容连同偏暗、颗粒感的可见外观一起替换。",
+      "background_type": "photo",
+      "label": "连续的户外烧烤合影覆盖全画布：上方为深色棚顶，中部可见夕阳天",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_grill",
+      "kind": "photo",
+      "bbox": [
+        383,
+        40,
+        1049,
+        557
+      ],
+      "description": "右上方独立烧烤桌俯拍近景，中央为放有肉片及蔬菜的黑色烤盘，周围有食材碗盘、纸杯和筷子，上沿可见数人的手臂及局部衣服。摄影环境保留，显示范围呈宽椭圆状；外围浅奶白色手绘线沿照片窗口环绕，包含上沿略分离的弧线，属于此照片的边缘。照片内另叠有独立手写标注。",
+      "label": "右上方独立烧烤桌俯拍近景，中央为放有肉片及蔬菜的黑色烤盘，周",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        20,
+        369,
+        425
+      ],
+      "description": "左上黄色手绘轮廓标题，上行为“烤肉”，下行为“TiME”。字形细长、笔画不规则，各字构成特定排布，整体作为独立艺术字保留。",
+      "label": "左上黄色手绘轮廓标题，上行为“烤肉”，下行为“TiME”。字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sun_days",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        670,
+        1063,
+        911
+      ],
+      "description": "横跨画面中部的“SUN-soaked DAYS”大型艺术字。奶白色粗笔画带毛糙纹理和黄色偏移边缘，各字大小、倾斜及基线不统一，整体覆盖摄影画面，完整保留为一个标题设计单元。",
+      "label": "横跨画面中部的“SUN-soaked DAYS”大型艺术字。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_top",
+      "kind": "overlay",
+      "bbox": [
+        581,
+        77,
+        752,
+        142
+      ],
+      "description": "烧烤特写上沿的黄色斜向手写标注，分两行，可辨“两位”及“Mommy”，其余中文笔画不够清楚；保留原有字形、倾斜与相对位置。",
+      "label": "烧烤特写上沿的黄色斜向手写标注，分两行，可辨“两位”及“Mo",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_left",
+      "kind": "overlay",
+      "bbox": [
+        426,
+        170,
+        510,
+        228
+      ],
+      "description": "烧烤特写左上部的小型白色手写英文标注，分行斜排，可辨“dept.”，下行较模糊；作为独立手写装饰完整保留。",
+      "label": "烧烤特写左上部的小型白色手写英文标注，分行斜排，可辨“dep",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_right",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        126,
+        992,
+        200
+      ],
+      "description": "烧烤特写右上部的白色手写“Miss.\nwhite”，两行错落并倾斜排列，保留不规则字形与原有位置关系。",
+      "label": "烧烤特写右上部的白色手写“Miss.\nwhite”，两行错落",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_tofu",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        355,
+        599,
+        485
+      ],
+      "description": "烧烤特写左下部的白色手写“小豆腐”相关标注，上方文字可辨“巨香”，并带一条向上弯曲、指向食物的细白引导线。文字与引导线作为同一完整标注保留。",
+      "label": "烧烤特写左下部的白色手写“小豆腐”相关标注，上方文字可辨“巨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_praise",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        375,
+        974,
+        413
+      ],
+      "description": "烧烤特写右下部的白色手写“超赞！”短标注，字形及标点带随手书写的错落感，独立保留。",
+      "label": "烧烤特写右下部的白色手写“超赞！”短标注，字形及标点带随手书",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note_bottom",
+      "kind": "overlay",
+      "bbox": [
+        560,
+        487,
+        927,
+        537
+      ],
+      "description": "沿烧烤特写下沿排列的黄色手写“战斗力很low的四位…”标注，字形大小不一并随下边缘略呈弧形排布，作为完整艺术字单元保留。",
+      "label": "沿烧烤特写下沿排列的黄色手写“战斗力很low的四位…”标注，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_outline",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        865,
+        1025,
+        1385
+      ],
+      "description": "包围下方合影区域的细黄色手绘装饰线，左右为不规则竖向曲线，底部为连续波浪线，并带小卷曲和环形笔触；上方开放，不形成独立照片窗口，也不承托照片。整套相连线条保留为一个固定装饰。",
+      "label": "包围下方合影区域的细黄色手绘装饰线，左右为不规则竖向曲线，底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_date_location",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        974,
+        269,
+        1047
+      ],
+      "description": "下方合影左侧的黄色手写日期与地点标注，上行为“2025·8·25”，下行含位置图标及中文地点，地点文字不完全清晰。两行及位置图标构成同一小型标注，保留原有字形。",
+      "label": "下方合影左侧的黄色手写日期与地点标注，上行为“2025·8·",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_barbecue_caption",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        1051,
+        220,
+        1112
+      ],
+      "description": "日期下方另置的黄色手写短句“幸福的\n自助烧烤”，两行略倾斜且字号不均，独立于日期地点标注，保留原有手写视觉形式。",
+      "label": "日期下方另置的黄色手写短句“幸福的\n自助烧烤”，两行略倾斜且",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_grill",
+    "overlay_title",
+    "overlay_note_top",
+    "overlay_note_left",
+    "overlay_note_right",
+    "overlay_note_tofu",
+    "overlay_note_praise",
+    "overlay_note_bottom",
+    "overlay_outline",
+    "overlay_sun_days",
+    "overlay_date_location",
+    "overlay_barbecue_caption"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "concert_background",
+    "description": "夜间大型演唱会全景摄影，舞台、观众席、灯光装置及舞台屏幕中的歌手共同构成连续画面，摄影内容延伸至画布四边。上方文字与下方三张独立照片覆盖局部；替换时保留完整演唱会场景，不拆分其中的舞台屏幕和观众环境。"
+  },
+  "objects": [
+    {
+      "id": "photo_left_inset",
+      "kind": "photo",
+      "bbox": [
+        64,
+        1024,
+        408,
+        1202
+      ],
+      "description": "左下方横向独立画面，呈现歌手与舞台影像、圆形装置及卡通屏幕的拼接式演出视觉；保留其自身完整显示范围，外围可见柔和浅色阴影，与全画布演唱会底图区分。"
+    },
+    {
+      "id": "photo_right_inset",
+      "kind": "photo",
+      "bbox": [
+        750,
+        1070,
+        991,
+        1275
+      ],
+      "description": "右下方横向独立演出画面，左侧为黑衣歌手近景，右侧有写着“I MISS YOU”的屏幕内容；作为一张完整照片替换，外围带柔和浅色阴影。"
+    },
+    {
+      "id": "photo_bottom_inset",
+      "kind": "photo",
+      "bbox": [
+        343,
+        1224,
+        541,
+        1432
+      ],
+      "description": "画布下方偏中间的竖向歌手近景照片，浅发歌手身穿黑色服装，照片背景较暗并带紫色边缘光；保留完整矩形显示范围及外围柔和阴影。"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        53,
+        24,
+        295,
+        81
+      ],
+      "text": "我给世界唱歌\n却给了自己孤单的角色",
+      "color": "#F6D8FF",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_top_middle",
+      "kind": "text",
+      "bbox": [
+        356,
+        49,
+        528,
+        137
+      ],
+      "text": "时间从不对你好\n在眼泪落下之前\n我们好好聊天",
+      "color": "#F6D8FF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_top_center",
+      "kind": "text",
+      "bbox": [
+        579,
+        84,
+        853,
+        125
+      ],
+      "text": "每一次难便都是预谋已久的见面",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        805,
+        39,
+        1006,
+        67
+      ],
+      "text": "我依然期待没有的安可",
+      "color": "#F6D8FF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_right_short",
+      "kind": "text",
+      "bbox": [
+        954,
+        90,
+        1055,
+        117
+      ],
+      "text": "祝我快乐",
+      "color": "#F6D8FF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_mid_right",
+      "kind": "text",
+      "bbox": [
+        677,
+        156,
+        820,
+        180
+      ],
+      "text": "演唱会最好在 也最困难",
+      "color": "#F6D8FF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_morse_line",
+      "kind": "overlay",
+      "bbox": [
+        334,
+        476,
+        805,
+        497
+      ],
+      "description": "画面中部偏上的一行白色点、短横与斜线组成的摩斯码式装饰字样，保持原有符号排列和整体横向造型，作为独立叠加设计保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left_inset",
+    "photo_right_inset",
+    "photo_bottom_inset",
+    "overlay_morse_line",
+    "text_top_left",
+    "text_top_middle",
+    "text_top_center",
+    "text_top_right",
+    "text_right_short",
+    "text_mid_right"
+  ]
+}

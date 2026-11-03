@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    2160
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        2160
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        1080
+      ],
+      "description": "左上独立竖向照片：一名长发女子穿棕色羽绒服和豹纹裤，站在大型长颈鹿造型旁，抬起左侧手臂，面向镜头。长颈鹿头部占据左上方，颈部延伸至下方；保留树枝、天空、石墙、墙面字样及地面等摄影环境。照片在画布中线处与右侧照片形成独立裁切接缝，下沿与下方照片相接，人物下部被窗口截断，无独立去背景或描边。",
+      "label": "左上独立竖向照片：一名长发女子穿棕色羽绒服和豹纹裤，站在大型",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        1080
+      ],
+      "description": "右上独立竖向照片：一名短发男子穿灰色连帽衫和牛仔外套，位于右下部，侧头望向左上方的大型长颈鹿头部，一手伸向其下颌附近。保留上方枝叶与天空、后方石墙、墙上标牌和字样及下部植被。左边界与女子照片的取景不连续，下边界截断男子下身；摄影环境完整保留，无独立去背景或边缘装饰。",
+      "label": "右上独立竖向照片：一名短发男子穿灰色连帽衫和牛仔外套，位于右",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1080,
+        1080,
+        2160
+      ],
+      "description": "下半幅独立照片：一名戴黑框眼镜的长发女子穿棕色羽绒服与豹纹裤，双臂交叉站在右侧，面向镜头；左侧是一尊大型橙白黑配色卡通老虎，右后方另有局部可见的老虎造型。保留绿化、落叶、铺石地面、浅绿色承台以及印有“IMMERSE IN THE OUTDOORS”的现场标牌，均随照片替换。上沿与两张长颈鹿照片形成水平接缝，左右及下沿抵达画布边缘，人物腿部由下沿截断。",
+      "label": "下半幅独立照片：一名戴黑框眼镜的长发女子穿棕色羽绒服与豹纹裤",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower"
+  ]
+}

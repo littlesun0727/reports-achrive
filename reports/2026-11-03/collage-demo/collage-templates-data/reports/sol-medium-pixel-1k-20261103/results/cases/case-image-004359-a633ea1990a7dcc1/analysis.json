@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "filmstrip_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "连续的黑色胶片版式底图覆盖整个画布，保留三段胶片窗口之间的黑色间隔、胶片边缘、黄色手绘线框、胶片编号与箭头标记，以及各处固定印刷文字和颗粒质感。三张照片为独立可替换内容，分别位于上、中、下三个胶片窗口，底图不包含这些摄影画面。",
+      "background_type": "reference_clean",
+      "label": "连续的黑色胶片版式底图覆盖整个画布，保留三段胶片窗口之间的黑",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        32,
+        62,
+        1046,
+        614
+      ],
+      "description": "上方横向人物照片，画面中一名长发女性正面面向镜头，手持筷子和盛有面条的黑色碗，保留餐厅墙面、椅子、衣物和桌面等完整摄影环境；照片窗口为横向矩形，边缘由胶片底图包围。",
+      "label": "上方横向人物照片，画面中一名长发女性正面面向镜头，手持筷子和",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        32,
+        689,
+        1043,
+        1238
+      ],
+      "description": "中部横向食物照片，近距离展示一大碗汤面、青菜和汤汁，碗及餐桌环境共同构成完整摄影画面；显示区域为横向矩形，外围黄色手绘线框属于固定版式。",
+      "label": "中部横向食物照片，近距离展示一大碗汤面、青菜和汤汁，碗及餐桌",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        32,
+        1312,
+        1045,
+        1864
+      ],
+      "description": "下方横向人物照片，画面中一名长发女性面向镜头并手持筷子和面碗，姿态与上方照片不同，保留餐厅墙面、椅子、衣物和桌面等摄影环境；照片窗口为横向矩形。",
+      "label": "下方横向人物照片，画面中一名长发女性面向镜头并手持筷子和面碗",
+      "method": "local"
+    },
+    {
+      "id": "overlay_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        727,
+        390,
+        1004
+      ],
+      "description": "叠加在中部面条照片左侧的粉色手写装饰字样，分为多行，内容可辨为“growing / and / glowing / grateful”；保留其手写笔画、粉色线条和原有位置，不作为普通文字排版。",
+      "label": "叠加在中部面条照片左侧的粉色手写装饰字样，分为多行，内容可辨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_right",
+      "kind": "overlay",
+      "bbox": [
+        556,
+        1083,
+        1016,
+        1179
+      ],
+      "description": "叠加在中部面条照片右下区域的粉色手写装饰字样，内容可辨为“May all the good / thing come to me”；保留其手写笔画、粉色线条和原有位置，不作为普通文字排版。",
+      "label": "叠加在中部面条照片右下区域的粉色手写装饰字样，内容可辨为“M",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "filmstrip_base",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_middle_left",
+    "overlay_middle_right"
+  ]
+}

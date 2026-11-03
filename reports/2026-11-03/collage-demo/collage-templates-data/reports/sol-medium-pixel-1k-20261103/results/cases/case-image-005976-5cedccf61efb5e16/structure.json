@@ -1,0 +1,733 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "illustrated_base",
+    "description": "全画布固定插画底图：浅黄色略有色差的底面，上方为棕色流淌状区域，下方接白色波浪边。该底面在照片四周连续露出，保留原有颜色变化及边界结构；中央食品照片和独立涂鸦装饰不归入底图，被遮挡部分不推测具体图案。"
+  },
+  "objects": [
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        67,
+        180,
+        1007,
+        1304
+      ],
+      "description": "一张俯拍餐桌食品照片，无人物。左上是红汤食材锅，右下是面条、蔬菜和长条食材组成的浅色汤锅，右上及左下各有蘸料碗，两双黑色筷子横跨锅碗。全部餐具、食物和浅色桌面属于同一连续摄影画面，保留摄影环境。完整矩形显示区域的上沿被棕色流淌底图遮住，侧缘局部被涂鸦覆盖，下沿为水平裁切，没有沿食物轮廓去背景。"
+    },
+    {
+      "id": "overlay_top_left_cross",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        42,
+        34,
+        81
+      ],
+      "description": "左上贴画布边缘的浅蓝色不规则十字，左侧被画布裁切。"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        45,
+        177,
+        104
+      ],
+      "description": "浅蓝描边的五瓣手绘花，中央带淡黄色短椭圆，内部透出棕色底面。"
+    },
+    {
+      "id": "overlay_top_white_cross",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        27,
+        234,
+        62
+      ],
+      "description": "顶部白色手绘十字。"
+    },
+    {
+      "id": "overlay_top_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        38,
+        309,
+        68
+      ],
+      "description": "顶部粉色空心手绘小爱心。"
+    },
+    {
+      "id": "overlay_top_wave",
+      "kind": "overlay",
+      "bbox": [
+        232,
+        83,
+        304,
+        110
+      ],
+      "description": "花朵右下方的浅粉色短波浪线。"
+    },
+    {
+      "id": "overlay_top_white_dot",
+      "kind": "overlay",
+      "bbox": [
+        400,
+        109,
+        418,
+        124
+      ],
+      "description": "棕色区域内的白色不规则小圆点。"
+    },
+    {
+      "id": "overlay_top_mint_dot",
+      "kind": "overlay",
+      "bbox": [
+        581,
+        26,
+        600,
+        44
+      ],
+      "description": "画布顶部偏右的薄荷色小圆点。"
+    },
+    {
+      "id": "overlay_top_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        494,
+        78,
+        540,
+        120
+      ],
+      "description": "顶部中央淡黄色实心手绘星星。"
+    },
+    {
+      "id": "overlay_top_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        59,
+        765,
+        124
+      ],
+      "description": "顶部偏右的浅蓝色空心五角星。"
+    },
+    {
+      "id": "overlay_top_yellow_loop",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        39,
+        866,
+        84
+      ],
+      "description": "苹果左上方的淡黄色卷曲手绘线。"
+    },
+    {
+      "id": "overlay_apple_cloud",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        41,
+        1035,
+        281
+      ],
+      "description": "右上角完整苹果插画：粉色苹果带深灰轮廓和弯曲果梗，下方为白色不规则云朵状承底，保留叠接关系及全部线条。"
+    },
+    {
+      "id": "overlay_top_right_cross",
+      "kind": "overlay",
+      "bbox": [
+        1031,
+        26,
+        1062,
+        58
+      ],
+      "description": "右上角浅蓝色手绘十字。"
+    },
+    {
+      "id": "overlay_right_lavender_dot",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        129,
+        1061,
+        152
+      ],
+      "description": "苹果右侧的浅紫色不规则圆点。"
+    },
+    {
+      "id": "overlay_right_pink_dot",
+      "kind": "overlay",
+      "bbox": [
+        1054,
+        175,
+        1071,
+        191
+      ],
+      "description": "右侧棕色底面上的粉色小圆点。"
+    },
+    {
+      "id": "overlay_left_blue_dot",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        179,
+        207,
+        196
+      ],
+      "description": "照片上方左侧棕色区域内的浅蓝色小圆点。"
+    },
+    {
+      "id": "overlay_top_white_heart",
+      "kind": "overlay",
+      "bbox": [
+        604,
+        154,
+        653,
+        194
+      ],
+      "description": "照片上方的白色空心手绘爱心。"
+    },
+    {
+      "id": "overlay_left_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        197,
+        93,
+        255
+      ],
+      "description": "照片左上边缘的淡黄色星星，带灰褐色手绘轮廓，压住照片边界。"
+    },
+    {
+      "id": "overlay_left_white_star",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        266,
+        55,
+        309
+      ],
+      "description": "左侧棕色区域中的白色实心星星。"
+    },
+    {
+      "id": "overlay_left_pink_cross",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        338,
+        51,
+        367
+      ],
+      "description": "左侧棕色边栏上的浅粉色十字。"
+    },
+    {
+      "id": "overlay_upper_right_pink_cross",
+      "kind": "overlay",
+      "bbox": [
+        793,
+        247,
+        830,
+        279
+      ],
+      "description": "右上棕色流淌区域内的粉色十字。"
+    },
+    {
+      "id": "overlay_drip_mint_dot",
+      "kind": "overlay",
+      "bbox": [
+        858,
+        342,
+        876,
+        360
+      ],
+      "description": "棕色下垂区域近底端的浅薄荷色小圆点。"
+    },
+    {
+      "id": "overlay_left_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        433,
+        88,
+        492
+      ],
+      "description": "左侧浅蓝色实心五角星，带深灰手绘轮廓，局部跨入照片。"
+    },
+    {
+      "id": "overlay_right_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        983,
+        426,
+        1049,
+        494
+      ],
+      "description": "右侧粉色五角星，带深灰轮廓，覆盖右上蘸料碗照片边缘。"
+    },
+    {
+      "id": "overlay_left_white_heart",
+      "kind": "overlay",
+      "bbox": [
+        4,
+        493,
+        56,
+        540
+      ],
+      "description": "左侧棕色区域中的白色空心爱心。"
+    },
+    {
+      "id": "overlay_right_mint_heart",
+      "kind": "overlay",
+      "bbox": [
+        1026,
+        488,
+        1080,
+        535
+      ],
+      "description": "右侧薄荷色空心爱心及相连短曲线，右端被画布裁切。"
+    },
+    {
+      "id": "overlay_right_peach_star",
+      "kind": "overlay",
+      "bbox": [
+        1038,
+        558,
+        1080,
+        624
+      ],
+      "description": "右边缘淡桃色星星，带深色轮廓，右侧被画布裁切。"
+    },
+    {
+      "id": "overlay_right_white_star",
+      "kind": "overlay",
+      "bbox": [
+        1026,
+        389,
+        1070,
+        426
+      ],
+      "description": "右侧棕色边栏上的白色实心星星。"
+    },
+    {
+      "id": "overlay_left_middle_white_star",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        709,
+        56,
+        749
+      ],
+      "description": "左侧黄色边栏中的白色小星星。"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        734,
+        145,
+        852
+      ],
+      "description": "左侧完整蝴蝶结贴画，浅紫白色双翼、粉色中心结和装饰短线，带灰色外轮廓，左端出画布，右翼覆盖照片。"
+    },
+    {
+      "id": "overlay_left_blue_circle",
+      "kind": "overlay",
+      "bbox": [
+        9,
+        882,
+        48,
+        920
+      ],
+      "description": "左侧浅蓝色圆形，带灰色手绘轮廓。"
+    },
+    {
+      "id": "overlay_left_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        920,
+        80,
+        974
+      ],
+      "description": "左侧细长四角闪光图案，淡桃色内部配灰色轮廓，跨照片左边缘。"
+    },
+    {
+      "id": "overlay_left_lower_pink_cross",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        979,
+        47,
+        1010
+      ],
+      "description": "左侧黄色边栏上的粉色十字。"
+    },
+    {
+      "id": "overlay_left_tiny_heart",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        1073,
+        35,
+        1096
+      ],
+      "description": "左下侧深灰色空心小爱心。"
+    },
+    {
+      "id": "overlay_pink_wedge",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        1071,
+        103,
+        1159
+      ],
+      "description": "左侧粉色圆角三角形小插画，下方有灰褐色分段厚边，整体带手绘轮廓，右端压在照片上。"
+    },
+    {
+      "id": "overlay_right_blue_heart",
+      "kind": "overlay",
+      "bbox": [
+        1039,
+        827,
+        1080,
+        875
+      ],
+      "description": "右侧浅蓝色空心爱心，右端被画布裁切。"
+    },
+    {
+      "id": "overlay_right_purple_cross",
+      "kind": "overlay",
+      "bbox": [
+        1013,
+        883,
+        1053,
+        925
+      ],
+      "description": "右侧紫粉色十字，带较深的短笔画。"
+    },
+    {
+      "id": "overlay_right_mint_circle",
+      "kind": "overlay",
+      "bbox": [
+        1043,
+        922,
+        1080,
+        965
+      ],
+      "description": "右侧浅薄荷色圆形，带灰色轮廓，紧贴画布右边缘。"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        974,
+        980,
+        1076,
+        1089
+      ],
+      "description": "右侧乳白色兔头形贴画，两只长耳朵和圆润头部组成完整轮廓，深灰描边，覆盖照片内的筷子末端。"
+    },
+    {
+      "id": "overlay_blue_heart_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        968,
+        1108,
+        1075,
+        1205
+      ],
+      "description": "右侧蓝色弯曲飘带状插画，中间围出黄色小爱心，带深灰轮廓，左侧部分覆盖照片。"
+    },
+    {
+      "id": "overlay_right_small_ring",
+      "kind": "overlay",
+      "bbox": [
+        1043,
+        1184,
+        1065,
+        1207
+      ],
+      "description": "蓝色飘带下方的深灰色小空心圆环。"
+    },
+    {
+      "id": "overlay_right_lower_white_star",
+      "kind": "overlay",
+      "bbox": [
+        1019,
+        1229,
+        1061,
+        1270
+      ],
+      "description": "右下黄色边栏中的白色实心星星。"
+    },
+    {
+      "id": "overlay_bottom_green_star",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        1371,
+        109,
+        1449
+      ],
+      "description": "底部左侧浅绿色五角星，带灰褐色手绘轮廓。"
+    },
+    {
+      "id": "overlay_bottom_left_cross",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        1465,
+        40,
+        1491
+      ],
+      "description": "底部左侧灰褐色小十字。"
+    },
+    {
+      "id": "overlay_strawberry",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        1470,
+        191,
+        1598
+      ],
+      "description": "底部粉色草莓插画，绿色叶冠、白色短条籽和灰色轮廓作为完整单元保留。"
+    },
+    {
+      "id": "overlay_bottom_white_dot",
+      "kind": "overlay",
+      "bbox": [
+        215,
+        1491,
+        233,
+        1509
+      ],
+      "description": "草莓右上方的白色小圆点。"
+    },
+    {
+      "id": "overlay_bottom_blue_cloud",
+      "kind": "overlay",
+      "bbox": [
+        226,
+        1542,
+        293,
+        1592
+      ],
+      "description": "底部浅蓝色小云朵，带灰色不规则轮廓。"
+    },
+    {
+      "id": "overlay_bottom_left_wave",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        1598,
+        225,
+        1611
+      ],
+      "description": "底部白色区域内的灰褐色短波浪线。"
+    },
+    {
+      "id": "overlay_bottom_ring",
+      "kind": "overlay",
+      "bbox": [
+        313,
+        1586,
+        339,
+        1613
+      ],
+      "description": "底部白色区域内的灰褐色空心圆环。"
+    },
+    {
+      "id": "overlay_bottom_peach_star",
+      "kind": "overlay",
+      "bbox": [
+        342,
+        1508,
+        424,
+        1571
+      ],
+      "description": "底部淡桃色五角星，带灰褐色轮廓。"
+    },
+    {
+      "id": "overlay_bottom_middle_cross",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        1458,
+        605,
+        1482
+      ],
+      "description": "底部中央偏右的灰褐色小十字。"
+    },
+    {
+      "id": "overlay_bottom_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        631,
+        1457,
+        713,
+        1511
+      ],
+      "description": "底部粉色扁五角星，带灰褐色手绘轮廓。"
+    },
+    {
+      "id": "overlay_ticket",
+      "kind": "overlay",
+      "bbox": [
+        474,
+        1512,
+        639,
+        1603
+      ],
+      "description": "底部略倾斜的粉色锯齿边标签，内有白色矩形、灰色双层线框及“I”、粉色爱心、黄色布丁图案。字与图案共同构成标签设计，完整保留，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_bottom_right_white_dot",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        1540,
+        668,
+        1558
+      ],
+      "description": "标签右侧的白色小圆点。"
+    },
+    {
+      "id": "overlay_bottom_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        1571,
+        731,
+        1613
+      ],
+      "description": "底部粉色实心小爱心，带灰色外轮廓。"
+    },
+    {
+      "id": "overlay_green_heart",
+      "kind": "overlay",
+      "bbox": [
+        708,
+        1497,
+        842,
+        1607
+      ],
+      "description": "底部绿色大爱心插画，内部有浅黄色心形和深色短点装饰，右侧被蓝莓插画局部遮挡。"
+    },
+    {
+      "id": "overlay_watermelon",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        1355,
+        1080,
+        1604
+      ],
+      "description": "右下角斜置的桃粉色瓜片插画，浅绿色瓜皮、灰色轮廓和浅色短线整体保留，右侧被画布裁切，左下缘被蓝莓局部覆盖。"
+    },
+    {
+      "id": "overlay_blueberries",
+      "kind": "overlay",
+      "bbox": [
+        791,
+        1472,
+        916,
+        1603
+      ],
+      "description": "底部两颗相连的浅紫蓝色蓝莓，一大一小，各带星状萼片和深灰轮廓，作为完整果实组合保留，覆盖绿色爱心右缘及瓜片左下缘。"
+    },
+    {
+      "id": "overlay_bottom_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        949,
+        1397,
+        1025,
+        1462
+      ],
+      "description": "右下角浅蓝色五角星，带灰色轮廓，叠在瓜片斜边上。"
+    },
+    {
+      "id": "overlay_bottom_right_wave",
+      "kind": "overlay",
+      "bbox": [
+        893,
+        1444,
+        955,
+        1463
+      ],
+      "description": "右下蓝色星星左侧的灰褐色短波浪线。"
+    }
+  ],
+  "layer_order": [
+    "photo_food",
+    "overlay_top_left_cross",
+    "overlay_flower",
+    "overlay_top_white_cross",
+    "overlay_top_pink_heart",
+    "overlay_top_wave",
+    "overlay_top_white_dot",
+    "overlay_top_mint_dot",
+    "overlay_top_yellow_star",
+    "overlay_top_blue_star",
+    "overlay_top_yellow_loop",
+    "overlay_apple_cloud",
+    "overlay_top_right_cross",
+    "overlay_right_lavender_dot",
+    "overlay_right_pink_dot",
+    "overlay_left_blue_dot",
+    "overlay_top_white_heart",
+    "overlay_left_yellow_star",
+    "overlay_left_white_star",
+    "overlay_left_pink_cross",
+    "overlay_upper_right_pink_cross",
+    "overlay_drip_mint_dot",
+    "overlay_left_blue_star",
+    "overlay_right_pink_star",
+    "overlay_left_white_heart",
+    "overlay_right_mint_heart",
+    "overlay_right_peach_star",
+    "overlay_right_white_star",
+    "overlay_left_middle_white_star",
+    "overlay_bow",
+    "overlay_left_blue_circle",
+    "overlay_left_sparkle",
+    "overlay_left_lower_pink_cross",
+    "overlay_left_tiny_heart",
+    "overlay_pink_wedge",
+    "overlay_right_blue_heart",
+    "overlay_right_purple_cross",
+    "overlay_right_mint_circle",
+    "overlay_bunny",
+    "overlay_blue_heart_ribbon",
+    "overlay_right_small_ring",
+    "overlay_right_lower_white_star",
+    "overlay_bottom_green_star",
+    "overlay_bottom_left_cross",
+    "overlay_strawberry",
+    "overlay_bottom_white_dot",
+    "overlay_bottom_blue_cloud",
+    "overlay_bottom_left_wave",
+    "overlay_bottom_ring",
+    "overlay_bottom_peach_star",
+    "overlay_bottom_middle_cross",
+    "overlay_bottom_pink_star",
+    "overlay_ticket",
+    "overlay_bottom_right_white_dot",
+    "overlay_bottom_pink_heart",
+    "overlay_green_heart",
+    "overlay_watermelon",
+    "overlay_blueberries",
+    "overlay_bottom_blue_star",
+    "overlay_bottom_right_wave"
+  ]
+}

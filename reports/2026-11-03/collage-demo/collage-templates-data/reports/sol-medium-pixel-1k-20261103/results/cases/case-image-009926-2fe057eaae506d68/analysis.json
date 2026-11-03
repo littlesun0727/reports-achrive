@@ -1,0 +1,350 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#403022"
+      }
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        526,
+        108,
+        963,
+        692
+      ],
+      "description": "右上竖幅咖啡馆室内照片，无明显人物，保留顶灯、咖啡设备、吧台、置物架与右侧窗户构成的完整环境。左侧被餐盘和意面照片遮挡，左下被饮料照片遮挡；这些遮挡不改变其完整矩形显示范围。",
+      "label": "右上竖幅咖啡馆室内照片，无明显人物，保留顶灯、咖啡设备、吧台",
+      "method": "local"
+    },
+    {
+      "id": "photo_pasta",
+      "kind": "photo",
+      "bbox": [
+        128,
+        373,
+        495,
+        740
+      ],
+      "description": "左侧方形食物近景照片，白盘中盛有酱汁意面、番茄和顶部刨碎的奶酪，保留盘面与拍摄环境。上缘部分被圆形餐盘照片遮住，右下部分被饮料照片覆盖。",
+      "label": "左侧方形食物近景照片，白盘中盛有酱汁意面、番茄和顶部刨碎的奶",
+      "method": "local"
+    },
+    {
+      "id": "photo_brunch",
+      "kind": "photo",
+      "bbox": [
+        338,
+        168,
+        610,
+        403
+      ],
+      "description": "上方偏左的俯拍餐盘近景，白色圆盘内有肉块、蔬菜和配菜，盘子完整显示，盘外摄影背景不可见。外围有沿餐盘外形形成的白色双线轮廓，与照片作为同一单元，叠在咖啡馆照片和意面照片上。",
+      "label": "上方偏左的俯拍餐盘近景，白色圆盘内有肉块、蔬菜和配菜，盘子完",
+      "method": "local"
+    },
+    {
+      "id": "photo_restaurant",
+      "kind": "photo",
+      "bbox": [
+        163,
+        778,
+        575,
+        1294
+      ],
+      "description": "左下竖幅餐厅环境照片，无明显人物，保留木桌、椅子、桌上细长花枝、窗边植物及室内外景深。完整矩形窗口上方右侧被饮料照片覆盖，左侧叠有星形装饰和餐厅文字。",
+      "label": "左下竖幅餐厅环境照片，无明显人物，保留木桌、椅子、桌上细长花",
+      "method": "local"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        605,
+        728,
+        933,
+        1058
+      ],
+      "description": "右下方形桌面饮品近景，木托盘上有透明水杯、小杯深色咖啡、白色杯装咖啡和玻璃瓶，后方可见一块蛋糕及深色环境。保留整个摄影场景，左上局部被饮料照片遮挡，上方另叠咖啡标签。",
+      "label": "右下方形桌面饮品近景，木托盘上有透明水杯、小杯深色咖啡、白色",
+      "method": "local"
+    },
+    {
+      "id": "photo_soda",
+      "kind": "photo",
+      "bbox": [
+        399,
+        608,
+        638,
+        847
+      ],
+      "description": "中央方形饮料近景，透明玻璃杯中有冰块、青柠片、绿色叶片和白色吸管，杯子放在暖黄色桌面上。摄影背景保留，矩形照片覆盖意面、咖啡馆、餐厅和咖啡照片的相邻边缘，顶端叠有饮料标签。",
+      "label": "中央方形饮料近景，透明玻璃杯中有冰块、青柠片、绿色叶片和白色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        81,
+        393,
+        266
+      ],
+      "description": "左上白色粉笔质感的不规则双瓣气泡涂鸦，包含气泡外轮廓、内部手写中文字样及外围小圆点。整体作为独立装饰保留，不将内部笔画拆开。",
+      "label": "左上白色粉笔质感的不规则双瓣气泡涂鸦，包含气泡外轮廓、内部手",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_corner_top",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        76,
+        993,
+        176
+      ],
+      "description": "咖啡馆照片右上方的白色手绘直角线，由水平短线与向下的竖线组成，带不均匀粉笔边缘，独立叠在照片边缘及棕色底上。",
+      "label": "咖啡馆照片右上方的白色手绘直角线，由水平短线与向下的竖线组成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars_left",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        766,
+        236,
+        871
+      ],
+      "description": "餐厅照片左上侧的一组白色手绘星星和短线，包含一个大五角星、一个小五角星、点状笔触及三条斜短线，作为完整涂鸦组合保留。",
+      "label": "餐厅照片左上侧的一组白色手绘星星和短线，包含一个大五角星、一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_right",
+      "kind": "overlay",
+      "bbox": [
+        889,
+        616,
+        949,
+        773
+      ],
+      "description": "咖啡馆照片右下与咖啡照片右上之间的纵向白色闪光涂鸦组合，包含中间较大的细长四角星、上方小十字和下方小星形笔触，带粉笔质感，跨越两张照片边缘。",
+      "label": "咖啡馆照片右下与咖啡照片右上之间的纵向白色闪光涂鸦组合，包含",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_corner_bottom",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        1277,
+        195,
+        1313
+      ],
+      "description": "餐厅照片左下角的白色手绘直角短线，竖线沿照片左缘，横线伸向右侧，保留不规则笔触。",
+      "label": "餐厅照片左下角的白色手绘直角短线，竖线沿照片左缘，横线伸向右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_autumn",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        1077,
+        925,
+        1274
+      ],
+      "description": "右下完整手写装饰组合，浅粉色“Hello Autumn”上下错落排列，附有黄色小星、菱形、叶片状图案、叶片旁“Hi”小字、右侧短点及底部两段下划线。文字具有特定笔画与独立位置，全部作为一个艺术字装饰保留。",
+      "label": "右下完整手写装饰组合，浅粉色“Hello Autumn”上下",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1036,
+        1413,
+        1074,
+        1433
+      ],
+      "description": "画布右下角极小的低对比度圆角胶囊状标记，内部文字无法可靠辨认，连同其底板整体保留。",
+      "label": "画布右下角极小的低对比度圆角胶囊状标记，内部文字无法可靠辨认",
+      "method": "extract"
+    },
+    {
+      "id": "text_brunch",
+      "kind": "text",
+      "bbox": [
+        164,
+        304,
+        338,
+        347
+      ],
+      "description": "(brunch)",
+      "label": "(brunch)",
+      "method": "local",
+      "text": "(brunch)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFDF7",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_cafe",
+      "kind": "text",
+      "bbox": [
+        826,
+        190,
+        938,
+        231
+      ],
+      "description": "(cafe)",
+      "label": "(cafe)",
+      "method": "local",
+      "text": "(cafe)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFDF7",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_pasta",
+      "kind": "text",
+      "bbox": [
+        395,
+        487,
+        535,
+        534
+      ],
+      "description": "(pasta)",
+      "label": "(pasta)",
+      "method": "local",
+      "text": "(pasta)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFDF7",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_soda",
+      "kind": "text",
+      "bbox": [
+        528,
+        613,
+        766,
+        656
+      ],
+      "description": "(Soda water)",
+      "label": "(Soda water)",
+      "method": "local",
+      "text": "(Soda water)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFDF7",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_restaurant",
+      "kind": "text",
+      "bbox": [
+        114,
+        903,
+        355,
+        947
+      ],
+      "description": "(restaurant)",
+      "label": "(restaurant)",
+      "method": "local",
+      "text": "(restaurant)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFDF7",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_coffee",
+      "kind": "text",
+      "bbox": [
+        778,
+        800,
+        933,
+        844
+      ],
+      "description": "(coffee)",
+      "label": "(coffee)",
+      "method": "local",
+      "text": "(coffee)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFDF7",
+        "font": "mono",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_cafe",
+    "photo_pasta",
+    "photo_restaurant",
+    "photo_coffee",
+    "photo_brunch",
+    "photo_soda",
+    "overlay_bubble",
+    "overlay_corner_top",
+    "overlay_stars_left",
+    "overlay_sparkles_right",
+    "overlay_corner_bottom",
+    "overlay_autumn",
+    "text_brunch",
+    "text_cafe",
+    "text_pasta",
+    "text_soda",
+    "text_restaurant",
+    "text_coffee",
+    "overlay_watermark"
+  ]
+}

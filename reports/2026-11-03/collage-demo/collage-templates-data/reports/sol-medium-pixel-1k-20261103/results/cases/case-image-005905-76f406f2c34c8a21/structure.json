@@ -1,0 +1,100 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_photo",
+    "description": "主题乐园商店外的连续摄影画面，铺至画布四边，可见浅黄色卡通字母墙、地面及大型红色波点蝴蝶结装饰；蝴蝶结位于中央照片上方，局部照片和文字遮挡墙面。整幅环境作为固定背景保留，独立人物照片分别替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        48,
+        50,
+        544,
+        711
+      ],
+      "description": "左上竖向全身照片，一名戴帽女性穿红色上衣和宽松牛仔裤，在城堡、绿篱、花坛和栏杆前侧身站立并抬起一条腿；保留完整摄影环境，照片边缘有红色粗糙手绘描边，底部被中央照片局部遮挡。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        676,
+        430,
+        1017,
+        689
+      ],
+      "description": "右上横向近景自拍，一名棕发女性眨眼微笑，身后可见同行者和室内环境；保留摄影背景，窗口边缘有红色描边，部分被上方装饰文字覆盖。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        112,
+        870,
+        411,
+        1166
+      ],
+      "description": "左下方小幅横向合影，数名女性穿着米奇主题服装坐在黄色游乐设施内，周围有卡通图案；保留照片内环境，画面被黄色相纸框承载。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        389,
+        655,
+        935,
+        1383
+      ],
+      "description": "中央大型竖向合影，三名年轻女性在商店入口内并排摆姿势，穿红色、浅色和黄白条纹服装；保留商店货架、拱形入口和地面等摄影环境，上缘被背景中的大型蝴蝶结遮挡，左上区域被相邻照片覆盖。"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        104,
+        860,
+        419,
+        1174
+      ],
+      "description": "左下照片的黄色厚边相纸框，带橙色内缘并完整围住单张照片；框体压在照片边缘上方。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "overlay_korean_title",
+      "kind": "overlay",
+      "bbox": [
+        606,
+        328,
+        940,
+        469
+      ],
+      "description": "照片上方的黄色韩文装饰字样“어떻게”，带深色描边与阴影，左侧附有黄色星形爆裂点缀；文字与点缀作为一个完整艺术字设计保留。"
+    },
+    {
+      "id": "overlay_question_mark",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        764,
+        490,
+        904
+      ],
+      "description": "中央照片左上侧的黑色描边黄色问号装饰，旁边带白色尖角轮廓，整体作为独立贴纸保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_center",
+    "photo_upper_right",
+    "photo_lower_left",
+    "frame_lower_left",
+    "overlay_question_mark",
+    "overlay_korean_title"
+  ]
+}

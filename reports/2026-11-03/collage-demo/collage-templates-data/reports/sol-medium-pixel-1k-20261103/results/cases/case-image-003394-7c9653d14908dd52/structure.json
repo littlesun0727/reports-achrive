@@ -1,0 +1,60 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_vending",
+      "kind": "photo",
+      "bbox": [
+        82,
+        73,
+        531,
+        410
+      ],
+      "description": "左上方横向照片，年轻女性穿浅粉色上衣站在饮料售卖亭前，身体略侧向镜头并回头微笑，手提粉色包；红色遮阳棚、饮料柜和树木均属于照片内容，画面内可见印刷字样随照片替换。"
+    },
+    {
+      "id": "photo_pose",
+      "kind": "photo",
+      "bbox": [
+        87,
+        484,
+        461,
+        983
+      ],
+      "description": "左下方竖向全身照片，年轻女性站在橙色遮阳棚和木门前，双手叉腰，面向镜头微笑，穿浅粉上衣、浅色外搭和宽松长裤；保留街景摄影环境，照片上缘及右上部分被中央照片遮挡。"
+    },
+    {
+      "id": "photo_carousel",
+      "kind": "photo",
+      "bbox": [
+        394,
+        292,
+        681,
+        675
+      ],
+      "description": "中央竖向照片，年轻女性穿浅粉色上衣，手抬至头顶，面向镜头，手提粉色包；身后可见旋转木马、游乐场人群和地面。照片覆盖左上照片的右下角及左下照片的右上区域。"
+    },
+    {
+      "id": "photo_door_crop",
+      "kind": "photo",
+      "bbox": [
+        768,
+        0,
+        1024,
+        1024
+      ],
+      "description": "画布右侧独立的竖向照片区域，显示树冠、橙色遮阳棚、木门、墙面与地面，右下边缘露出人物局部；摄影画面延伸至画布上、右、下边界，左侧为清晰直线裁切边。"
+    }
+  ],
+  "layer_order": [
+    "photo_vending",
+    "photo_pose",
+    "photo_door_crop",
+    "photo_carousel"
+  ]
+}

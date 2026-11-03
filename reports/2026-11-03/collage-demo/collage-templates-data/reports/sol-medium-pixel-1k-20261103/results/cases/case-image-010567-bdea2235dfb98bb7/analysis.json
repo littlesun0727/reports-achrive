@@ -1,0 +1,223 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "textured_brown_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "连续覆盖全画布的深棕色织物或粗糙纸张纹理底图，纹理延伸至四条画布边缘；两张独立咖啡馆照片、半透明文字卡片和彩色装饰贴纸叠加其上，底图纹理需保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的深棕色织物或粗糙纸张纹理底图，纹理延伸至四条",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "sticker_orange_top",
+      "kind": "overlay",
+      "bbox": [
+        281,
+        130,
+        383,
+        177
+      ],
+      "description": "位于左上照片上方、部分被照片遮挡的橙色圆形装饰，仅露出上部弧面。",
+      "label": "位于左上照片上方、部分被照片遮挡的橙色圆形装饰，仅露出上部弧",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_yellow_crescent",
+      "kind": "overlay",
+      "bbox": [
+        664,
+        36,
+        744,
+        127
+      ],
+      "description": "画布上方偏右的黄色手绘月牙或鸟形装饰，带有小型内部缺口和边缘细节。",
+      "label": "画布上方偏右的黄色手绘月牙或鸟形装饰，带有小型内部缺口和边缘",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_purple_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        281,
+        27,
+        357
+      ],
+      "description": "贴近左画布边缘的淡紫色半圆装饰，部分超出画布范围。",
+      "label": "贴近左画布边缘的淡紫色半圆装饰，部分超出画布范围。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_purple_tree",
+      "kind": "overlay",
+      "bbox": [
+        847,
+        151,
+        943,
+        244
+      ],
+      "description": "右上区域的紫色树冠形装饰，带有较深色的细小树干或枝干。",
+      "label": "右上区域的紫色树冠形装饰，带有较深色的细小树干或枝干。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_orange_left",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        866,
+        72,
+        920
+      ],
+      "description": "左下区域的橙色圆形装饰贴纸。",
+      "label": "左下区域的橙色圆形装饰贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_pink_center",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        811,
+        477,
+        847
+      ],
+      "description": "两张照片交界附近、位于下方照片左侧的粉色圆形或花瓣状装饰。",
+      "label": "两张照片交界附近、位于下方照片左侧的粉色圆形或花瓣状装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_green_right",
+      "kind": "overlay",
+      "bbox": [
+        1020,
+        1052,
+        1080,
+        1120
+      ],
+      "description": "右侧画布边缘中下部的绿色圆形装饰，右缘被画布裁切。",
+      "label": "右侧画布边缘中下部的绿色圆形装饰，右缘被画布裁切。",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_pink_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        1254,
+        153,
+        1331
+      ],
+      "description": "左下角附近的粉色圆形装饰，靠近绿色树形贴纸并部分贴近画布边缘。",
+      "label": "左下角附近的粉色圆形装饰，靠近绿色树形贴纸并部分贴近画布边缘",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cafe_seated",
+      "kind": "photo",
+      "bbox": [
+        114,
+        155,
+        606,
+        811
+      ],
+      "description": "竖向咖啡馆室内照片，完整显示一名戴白色针织帽、围深色围巾和外套的女性坐在椅子上，双腿交叠并朝向镜头；周围可见餐桌、餐食、椅子、玻璃隔断和店内人物，摄影环境保留在矩形照片范围内。",
+      "label": "竖向咖啡馆室内照片，完整显示一名戴白色针织帽、围深色围巾和外",
+      "method": "local"
+    },
+    {
+      "id": "overlay_autumn_quote_card",
+      "kind": "overlay",
+      "bbox": [
+        607,
+        303,
+        867,
+        696
+      ],
+      "description": "右上至中部的半透明灰米色纸卡，保留纸张质感、边缘和内部固定印刷设计；卡面有秋季主题英文排版、浅色大型手写或装饰字形、树枝花朵图案及顶部彩色树形装饰，作为一个完整固定设计单元，不拆分其中的文字。",
+      "label": "右上至中部的半透明灰米色纸卡，保留纸张质感、边缘和内部固定印",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cafe_eating",
+      "kind": "photo",
+      "bbox": [
+        517,
+        695,
+        997,
+        1335
+      ],
+      "description": "右下方竖向咖啡馆照片，完整显示同一女性戴白色针织帽、穿深色服装坐在椅子上，身体转向右侧并手持食物靠近嘴部；画面保留咖啡馆玻璃窗、桌面、餐盘、手袋、椅子及室内人物等摄影环境。该照片的左上区域覆盖左上照片的右下部分。",
+      "label": "右下方竖向咖啡馆照片，完整显示同一女性戴白色针织帽、穿深色服",
+      "method": "local"
+    },
+    {
+      "id": "overlay_autumn_handwritten_card",
+      "kind": "overlay",
+      "bbox": [
+        218,
+        884,
+        428,
+        1260
+      ],
+      "description": "左下部的半透明浅灰纸卡，保留纸张纹理、半透明效果和手写英文短句“the calm of autumn”及星形点缀；文字与图案共同构成固定卡片设计，不单独拆分为普通文字。",
+      "label": "左下部的半透明浅灰纸卡，保留纸张纹理、半透明效果和手写英文短",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_branch_berries",
+      "kind": "overlay",
+      "bbox": [
+        301,
+        848,
+        481,
+        997
+      ],
+      "description": "从下方纸卡上方横向伸出的固定植物装饰，包含绿色枝茎、蓝色叶片或果实、少量棕色枝节和小型点缀，部分覆盖纸卡上缘并向右侧延伸。",
+      "label": "从下方纸卡上方横向伸出的固定植物装饰，包含绿色枝茎、蓝色叶片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_tree",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        1137,
+        278,
+        1342
+      ],
+      "description": "左下区域的绿色手绘圣诞树或树形贴纸，带有橙色树干、圆点装饰和不规则浅绿色枝叶轮廓。",
+      "label": "左下区域的绿色手绘圣诞树或树形贴纸，带有橙色树干、圆点装饰和",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "textured_brown_base",
+    "sticker_orange_top",
+    "sticker_yellow_crescent",
+    "sticker_purple_left",
+    "sticker_purple_tree",
+    "sticker_orange_left",
+    "sticker_pink_center",
+    "sticker_green_right",
+    "sticker_pink_bottom_left",
+    "photo_cafe_seated",
+    "overlay_autumn_quote_card",
+    "photo_cafe_eating",
+    "overlay_autumn_handwritten_card",
+    "overlay_branch_berries",
+    "overlay_green_tree"
+  ]
+}

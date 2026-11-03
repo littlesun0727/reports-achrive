@@ -1,0 +1,265 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "brown_gradient",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "全画布连续的棕褐色至浅金棕色纵向渐变底图，顶部较深、底部较浅；照片、文字条和贴纸遮挡局部，露出的空白区域显示同一渐变，保留底图原样。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的棕褐色至浅金棕色纵向渐变底图，顶部较深、底部较浅",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_dining",
+      "kind": "photo",
+      "bbox": [
+        30,
+        475,
+        770,
+        1787
+      ],
+      "description": "左侧大型餐桌照片，包含火锅、各式餐食与桌面环境；上部可见一名长发女孩，照片显示为竖向矩形，右侧被饮品及餐盒贴图局部遮挡。",
+      "label": "左侧大型餐桌照片，包含火锅、各式餐食与桌面环境；上部可见一名",
+      "method": "local"
+    },
+    {
+      "id": "photo_shopping",
+      "kind": "photo",
+      "bbox": [
+        571,
+        225,
+        962,
+        616
+      ],
+      "description": "右上方桌面购物照片，多只纸袋和外卖袋放在室内桌面上，保留袋子及周围环境；圆角不规则窗口显示，底边部分被餐桌照片及右侧贴图遮挡。",
+      "label": "右上方桌面购物照片，多只纸袋和外卖袋放在室内桌面上，保留袋子",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl_upper",
+      "kind": "photo",
+      "bbox": [
+        299,
+        406,
+        597,
+        705
+      ],
+      "description": "一名长发幼童的上半身抠图，面向镜头张口微笑并用手指向桌面，浅色短袖衣服；无可见摄影背景，轮廓跨在餐桌照片上沿并覆盖其局部。",
+      "label": "一名长发幼童的上半身抠图，面向镜头张口微笑并用手指向桌面，浅",
+      "method": "local"
+    },
+    {
+      "id": "photo_girl_lower",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1450,
+        328,
+        1920
+      ],
+      "description": "同一名长发幼童的近景抠图，位于左下角，张口微笑并伸手，浅色衣服；无可见摄影背景，主体被画布左边和下边裁切，并覆盖餐桌照片左下区域。",
+      "label": "同一名长发幼童的近景抠图，位于左下角，张口微笑并伸手，浅色衣",
+      "method": "local"
+    },
+    {
+      "id": "overlay_hand_bubble",
+      "kind": "overlay",
+      "bbox": [
+        408,
+        194,
+        535,
+        315
+      ],
+      "description": "白色圆形对话气泡及右下方小尾巴，内部有一只伸出的手的图像，作为完整固定贴图保留。",
+      "label": "白色圆形对话气泡及右下方小尾巴，内部有一只伸出的手的图像，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption_left",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        271,
+        387,
+        434
+      ],
+      "description": "左上三条黑底白字横向字幕条，文字依次为“吃了个韩料 坐车晕晕”“两个人怎么吃这么多主食!”“恭喜我又吃上了鲷鱼饼”，各条独立错落排列，按整体字幕设计保留。",
+      "label": "左上三条黑底白字横向字幕条，文字依次为“吃了个韩料 坐车晕晕",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption_top",
+      "kind": "overlay",
+      "bbox": [
+        689,
+        157,
+        1043,
+        199
+      ],
+      "description": "右上黑底白字字幕条，内容为“一个中午要点多少才能善罢甘休”，作为带底板的固定文字设计保留。",
+      "label": "右上黑底白字字幕条，内容为“一个中午要点多少才能善罢甘休”，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_emojis",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        582,
+        224,
+        635
+      ],
+      "description": "餐桌照片左上区域的餐具图标与粉色猪鼻图标，两个相邻表情贴图作为一组保留。",
+      "label": "餐桌照片左上区域的餐具图标与粉色猪鼻图标，两个相邻表情贴图作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_badge_1",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        746,
+        203,
+        817
+      ],
+      "description": "蓝色渐变圆角方形数字徽章“1”，压在餐桌照片左侧。",
+      "label": "蓝色渐变圆角方形数字徽章“1”，压在餐桌照片左侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_badge_2",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        1026,
+        558,
+        1089
+      ],
+      "description": "蓝色渐变圆角方形数字徽章“2”，叠在火锅照片下部。",
+      "label": "蓝色渐变圆角方形数字徽章“2”，叠在火锅照片下部。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_badge_3",
+      "kind": "overlay",
+      "bbox": [
+        66,
+        1028,
+        121,
+        1085
+      ],
+      "description": "蓝色渐变圆角方形数字徽章“3”，位于餐桌照片左侧食物附近。",
+      "label": "蓝色渐变圆角方形数字徽章“3”，位于餐桌照片左侧食物附近。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_badge_4",
+      "kind": "overlay",
+      "bbox": [
+        113,
+        1376,
+        177,
+        1438
+      ],
+      "description": "蓝色渐变圆角方形数字徽章“4”，位于左下女孩上方的餐桌照片区域。",
+      "label": "蓝色渐变圆角方形数字徽章“4”，位于左下女孩上方的餐桌照片区",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_thumb",
+      "kind": "overlay",
+      "bbox": [
+        931,
+        594,
+        1005,
+        654
+      ],
+      "description": "黑色小方底上的浅色竖拇指图标，位于右侧购物照片下方，作为一体贴图保留。",
+      "label": "黑色小方底上的浅色竖拇指图标，位于右侧购物照片下方，作为一体",
+      "method": "extract"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        679,
+        642,
+        1068,
+        975
+      ],
+      "description": "三杯不同外带饮品的抠图组合，包含杯身与吸管，沿杯子和吸管外缘有白色手绘描边；摄影背景不可见，整体叠在右侧棕色底图及餐桌照片右缘上。",
+      "label": "三杯不同外带饮品的抠图组合，包含杯身与吸管，沿杯子和吸管外缘",
+      "method": "local"
+    },
+    {
+      "id": "photo_takeout_meals",
+      "kind": "photo",
+      "bbox": [
+        758,
+        983,
+        1080,
+        1497
+      ],
+      "description": "打开的外卖餐盒及旁边配餐的抠图组合，包含盒盖、食物和餐盒边缘，沿组合外形有白色手绘描边；摄影背景不可见，右侧部分被画布边缘裁切。",
+      "label": "打开的外卖餐盒及旁边配餐的抠图组合，包含盒盖、食物和餐盒边缘",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        952,
+        1500,
+        1064,
+        1620
+      ],
+      "description": "右下区域一组大小不一的半透明蓝色肥皂泡装饰，气泡带高光，独立叠在渐变底图上。",
+      "label": "右下区域一组大小不一的半透明蓝色肥皂泡装饰，气泡带高光，独立",
+      "method": "extract"
+    },
+    {
+      "id": "photo_fried_fish",
+      "kind": "photo",
+      "bbox": [
+        550,
+        1546,
+        940,
+        1735
+      ],
+      "description": "一块金黄色炸鱼形点心的抠图，沿食物外缘有白色手绘描边；摄影背景不可见，横向位于画面下方并叠在餐桌照片及渐变底图上。",
+      "label": "一块金黄色炸鱼形点心的抠图，沿食物外缘有白色手绘描边；摄影背",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "brown_gradient",
+    "photo_dining",
+    "photo_shopping",
+    "overlay_food_emojis",
+    "overlay_badge_1",
+    "overlay_badge_2",
+    "overlay_badge_3",
+    "overlay_badge_4",
+    "photo_girl_upper",
+    "photo_girl_lower",
+    "overlay_hand_bubble",
+    "overlay_caption_left",
+    "overlay_caption_top",
+    "overlay_thumb",
+    "photo_drinks",
+    "photo_takeout_meals",
+    "overlay_bubbles",
+    "photo_fried_fish"
+  ]
+}

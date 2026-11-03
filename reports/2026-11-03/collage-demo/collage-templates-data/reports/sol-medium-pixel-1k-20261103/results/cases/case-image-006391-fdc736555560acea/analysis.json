@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "一张连续的室内摄影画面覆盖全画布：上方中央是吊灯与白色灯罩，深棕墙面延伸至画面两侧；下方为深色木质桌面及两杯饮品。墙面与桌面交界、四周场景连续，固定插画叠加其上；保留完整摄影环境并由客户照片整体替换。",
+      "background_type": "photo",
+      "label": "一张连续的室内摄影画面覆盖全画布：上方中央是吊灯与白色灯罩，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_fairy",
+      "kind": "overlay",
+      "bbox": [
+        448,
+        146,
+        582,
+        240
+      ],
+      "description": "灯罩左侧的彩色小精灵插画，带翅膀并手持魔法棒，周围有少量小星点；作为独立固定装饰保留，叠在摄影灯罩前。",
+      "label": "灯罩左侧的彩色小精灵插画，带翅膀并手持魔法棒，周围有少量小星",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_trail",
+      "kind": "overlay",
+      "bbox": [
+        428,
+        250,
+        711,
+        674
+      ],
+      "description": "从灯罩下方垂落至画面中央偏下的一串大小不一的黄色星星，分散排列形成弧形星路；作为一组固定装饰叠在墙面摄影内容上。",
+      "label": "从灯罩下方垂落至画面中央偏下的一串大小不一的黄色星星，分散排",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_firework_left",
+      "kind": "overlay",
+      "bbox": [
+        340,
+        862,
+        490,
+        1008
+      ],
+      "description": "左侧饮品上方的橙红色烟花线描，中心有黄色星形，周围带细小中文手写字与短线点缀；整体作为固定装饰保留，叠在木墙摄影内容前。",
+      "label": "左侧饮品上方的橙红色烟花线描，中心有黄色星形，周围带细小中文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_firework_right",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        858,
+        728,
+        1005
+      ],
+      "description": "右侧饮品上方的白色与黄色弧线烟花线描，附有细小字样及点状装饰；整体作为固定装饰保留，叠在木墙摄影内容前。",
+      "label": "右侧饮品上方的白色与黄色弧线烟花线描，附有细小字样及点状装饰",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_fairy",
+    "overlay_star_trail",
+    "overlay_firework_left",
+    "overlay_firework_right"
+  ]
+}

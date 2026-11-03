@@ -1,0 +1,209 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一张连续的海边人物照片覆盖全画布：浅色天空、远处桥梁与岸线、海水及沙滩从上至下连续衔接，并延伸至四边。一名戴浅色帽子的长发女孩位于下半部中央，面向镜头微笑，双臂向两侧展开，坐在沙滩上，穿白色与浅蓝格纹长裙。文字和手绘装饰叠加在照片上，人物与完整摄影环境一起替换。",
+      "background_type": "photo",
+      "label": "一张连续的海边人物照片覆盖全画布：浅色天空、远处桥梁与岸线、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        897,
+        107,
+        959,
+        173
+      ],
+      "description": "右上天空中的玫红色实心手绘五角星，保留不规则笔触和轮廓。",
+      "label": "右上天空中的玫红色实心手绘五角星，保留不规则笔触和轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        303,
+        124,
+        386
+      ],
+      "description": "左侧靠近海平线的浅粉色空心手绘五角星，保留交叠线条与不均匀笔画。",
+      "label": "左侧靠近海平线的浅粉色空心手绘五角星，保留交叠线条与不均匀笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ring",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        258,
+        280,
+        293
+      ],
+      "description": "左上天空中的青绿色手绘小圆环，内部露出摄影底图。",
+      "label": "左上天空中的青绿色手绘小圆环，内部露出摄影底图。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_upper",
+      "kind": "overlay",
+      "bbox": [
+        837,
+        298,
+        870,
+        331
+      ],
+      "description": "右上远岸上方的荧黄色手绘圆点，形状略不规则，保留内部笔触。",
+      "label": "右上远岸上方的荧黄色手绘圆点，形状略不规则，保留内部笔触。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        721,
+        243,
+        787
+      ],
+      "description": "左侧海水区域上的玫红色实心手绘五角星，独立于摄影内容。",
+      "label": "左侧海水区域上的玫红色实心手绘五角星，独立于摄影内容。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cross_right",
+      "kind": "overlay",
+      "bbox": [
+        971,
+        672,
+        1055,
+        752
+      ],
+      "description": "右侧海水与浪边上方的亮蓝色手绘十字星，横竖笔画粗细不均，整体保留。",
+      "label": "右侧海水与浪边上方的亮蓝色手绘十字星，横竖笔画粗细不均，整体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_party_hat",
+      "kind": "overlay",
+      "bbox": [
+        497,
+        684,
+        560,
+        794
+      ],
+      "description": "叠在女孩实拍帽子顶端的橙色线描生日尖帽装饰，包含弧形帽底、帽内圆点及顶部小花状线结；整体作为固定装饰保留，不属于摄影帽子。",
+      "label": "叠在女孩实拍帽子顶端的橙色线描生日尖帽装饰，包含弧形帽底、帽",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_purple",
+      "kind": "overlay",
+      "bbox": [
+        612,
+        832,
+        713,
+        911
+      ],
+      "description": "女孩头部右侧、展开手臂上方的浅紫色手绘星形，保留多方向尖角和重叠笔触。",
+      "label": "女孩头部右侧、展开手臂上方的浅紫色手绘星形，保留多方向尖角和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_happiness",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        972,
+        1080,
+        1054
+      ],
+      "description": "横跨女孩双臂下方的浅蓝色手写字样，可见“Happiness comes in wav”，末尾在画布右边被截断。字母大小、基线和笔画具有不规则手绘特征，作为完整艺术字保留；文字叠在照片上，不属于摄影内容。",
+      "label": "横跨女孩双臂下方的浅蓝色手写字样，可见“Happiness ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_lower",
+      "kind": "overlay",
+      "bbox": [
+        347,
+        1017,
+        374,
+        1041
+      ],
+      "description": "位于“Happiness”字样下缘附近的独立黄色手绘小圆点，保留不规则轮廓。",
+      "label": "位于“Happiness”字样下缘附近的独立黄色手绘小圆点，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_happy",
+      "kind": "overlay",
+      "bbox": [
+        193,
+        1135,
+        420,
+        1210
+      ],
+      "description": "女孩裙子左侧的浅蓝色手写“happy”，字母高低和笔画形态不规则，作为独立艺术字单元保留。",
+      "label": "女孩裙子左侧的浅蓝色手写“happy”，字母高低和笔画形态不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_birthday",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        1129,
+        991,
+        1208
+      ],
+      "description": "女孩裙子右侧的浅蓝色手写“birthday”，与左侧“happy”分开布置，保留原有手绘字形及字母位置。",
+      "label": "女孩裙子右侧的浅蓝色手写“birthday”，与左侧“hap",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        1144,
+        134,
+        1252
+      ],
+      "description": "左下沙滩上的浅粉色实心手绘星形，包含不规则尖角及向下延伸的笔画，作为一个完整装饰保留。",
+      "label": "左下沙滩上的浅粉色实心手绘星形，包含不规则尖角及向下延伸的笔",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_star_top_right",
+    "overlay_star_top_left",
+    "overlay_ring",
+    "overlay_dot_upper",
+    "overlay_star_left_middle",
+    "overlay_cross_right",
+    "overlay_party_hat",
+    "overlay_star_purple",
+    "overlay_happiness",
+    "overlay_dot_lower",
+    "overlay_happy",
+    "overlay_birthday",
+    "overlay_star_bottom_left"
+  ]
+}

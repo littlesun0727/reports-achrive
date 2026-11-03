@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_black_base",
+    "description": "覆盖全画布的黑色粗糙纸张纹理底图，边缘和上方文字间隙均持续可见；下方独立演唱会照片与白色手撕线框叠加其上，黑色纹理底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_concert_singer",
+      "kind": "photo",
+      "bbox": [
+        0,
+        386,
+        1080,
+        1919
+      ],
+      "description": "下半部独立演唱会摄影画面，前景为一名穿白色服装的男性歌手正面近景，手持麦克风演唱并向右前方伸手；左后方可见另一名手持麦克风的表演者及其身体局部，周围保留昏暗舞台环境和黑色背景。照片显示范围从白色手撕线框附近延伸至画布底边，未去除摄影环境。"
+    },
+    {
+      "id": "overlay_top_letter_collage",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        27,
+        1027,
+        151
+      ],
+      "description": "顶部由不同纸张、颜色、字形和底纹拼贴成的剪报字母设计，组成可辨文字“it'S BETWEEN”；各字母保持独立错落的剪贴轮廓、阴影和纸张质感，作为完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_letter_collage",
+      "kind": "overlay",
+      "bbox": [
+        199,
+        188,
+        1080,
+        310
+      ],
+      "description": "第二行剪报字母设计，组成可辨文字“You and me”；字母采用不同纸片、字形和颜色，右侧“me”延伸至画布边缘并被裁切，整体作为固定拼贴装饰保留。"
+    },
+    {
+      "id": "overlay_torn_white_frame",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        382,
+        1080,
+        1919
+      ],
+      "description": "围绕下方摄影画面的白色手撕纸质线框，顶部为粗糙横向撕边，两侧以不规则斜线向画布边缘延伸，部分边线在画布边界处被裁切；线框位于演唱会照片上方，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_concert_singer",
+    "overlay_torn_white_frame",
+    "overlay_top_letter_collage",
+    "overlay_bottom_letter_collage"
+  ]
+}

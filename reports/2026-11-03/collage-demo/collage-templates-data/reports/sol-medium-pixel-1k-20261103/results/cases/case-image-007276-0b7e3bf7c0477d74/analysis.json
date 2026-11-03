@@ -1,0 +1,282 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        430,
+        436,
+        868
+      ],
+      "description": "左侧独立照片窗口，一名长发女子穿绿色上衣，侧身回头朝镜头微笑，显示头部至腰部附近。保留身后暖色、明亮失焦的户外摄影环境；照片左侧被画布截断，上下边及右边由胶片框沿限定，没有沿人物轮廓去背景。",
+      "label": "左侧独立照片窗口，一名长发女子穿绿色上衣，侧身回头朝镜头微笑",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        474,
+        433,
+        979,
+        870
+      ],
+      "description": "中间独立照片窗口，一名黑色长发女子穿浅色印花短袖，正面半身站立，脸朝画面右侧，神情严肃。保留身后车辆及失焦街景，衣服上的印字属于摄影内容。四周由胶片框限定，右上白色字样为另外叠加的文字。",
+      "label": "中间独立照片窗口，一名黑色长发女子穿浅色印花短袖，正面半身站",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        1006,
+        433,
+        1080,
+        870
+      ],
+      "description": "右侧独立照片窗口仅有窄条露在画布内，可见暖棕色室内陈设、上方浅色物体，以及右下浅色衣服和深色头发的一部分。内容与中间照片在竖向框边处重新起始，作为独立照片保留；人物人数及姿态无法由露出部分确定，右侧范围被画布截断。",
+      "label": "右侧独立照片窗口仅有窄条露在画布内，可见暖棕色室内陈设、上方",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        335,
+        1080,
+        945
+      ],
+      "description": "横贯画布的灰黑色做旧胶片框，包含上下两条带白色齿孔的粗横边、窗口之间的竖向隔条和磨损纹理。整体形成三个照片窗口，左右端均被画布截断；框沿压住照片边缘，完整框体及其纹理共同保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_middle",
+        "photo_right"
+      ],
+      "label": "横贯画布的灰黑色做旧胶片框，包含上下两条带白色齿孔的粗横边、",
+      "method": "extract"
+    },
+    {
+      "id": "text_broadcast",
+      "kind": "text",
+      "bbox": [
+        825,
+        438,
+        927,
+        458
+      ],
+      "description": "正在热播",
+      "label": "正在热播",
+      "method": "local",
+      "text": "正在热播",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": true
+      }
+    },
+    {
+      "id": "overlay_dog_garland",
+      "kind": "overlay",
+      "bbox": [
+        711,
+        58,
+        1030,
+        338
+      ],
+      "description": "右上完整卡通装饰：黑色细线勾勒的白色蓬松狗脸，带黑眼睛、鼻嘴和淡粉腮红；下方是三只黄色小鸟、细线蝴蝶结及蓝色、粉色、紫色三个椭圆小牌。保留各成员、点状边沿、连接曲线及内部留白，不包含下方胶片框。",
+      "label": "右上完整卡通装饰：黑色细线勾勒的白色蓬松狗脸，带黑眼睛、鼻嘴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_left",
+      "kind": "overlay",
+      "bbox": [
+        113,
+        49,
+        144,
+        84
+      ],
+      "description": "左上独立浅蓝色手绘螺旋装饰，保留柔和的线条边缘。",
+      "label": "左上独立浅蓝色手绘螺旋装饰，保留柔和的线条边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        22,
+        377,
+        41
+      ],
+      "description": "画布顶部偏左的极浅蓝色小五角星，边缘柔和。",
+      "label": "画布顶部偏左的极浅蓝色小五角星，边缘柔和。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_middle",
+      "kind": "overlay",
+      "bbox": [
+        442,
+        155,
+        471,
+        187
+      ],
+      "description": "上方中央偏左的浅蓝色五角星，保留淡色和柔和边缘。",
+      "label": "上方中央偏左的浅蓝色五角星，保留淡色和柔和边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        156,
+        220,
+        175,
+        242
+      ],
+      "description": "左侧上方独立的小蓝色五角星，颜色比周围浅蓝装饰更深。",
+      "label": "左侧上方独立的小蓝色五角星，颜色比周围浅蓝装饰更深。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_middle",
+      "kind": "overlay",
+      "bbox": [
+        562,
+        261,
+        594,
+        296
+      ],
+      "description": "胶片框上方、画布中部偏右的浅蓝色手绘螺旋装饰。",
+      "label": "胶片框上方、画布中部偏右的浅蓝色手绘螺旋装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_whale_bubble",
+      "kind": "overlay",
+      "bbox": [
+        138,
+        994,
+        504,
+        1274
+      ],
+      "description": "左下蓝色鲸鱼形空白对话框，包含不规则圆腹、右上鱼尾、右下尖角，蓝色边带及黑色断续线。顶部喷水小线条、右下水花和底部卷曲小装饰共同属于这一完整单元，内部保持白色，无文字。",
+      "label": "左下蓝色鲸鱼形空白对话框，包含不规则圆腹、右上鱼尾、右下尖角",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_cluster",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        1018,
+        901,
+        1216
+      ],
+      "description": "右下独立星星组合：一颗白色内部、灰黑色细线勾勒的不规则大五角星，右侧及右下排列四颗实心黑色小星星。保留整组线条、各小星位置及成员间空隙。",
+      "label": "右下独立星星组合：一颗白色内部、灰黑色细线勾勒的不规则大五角",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_yellow",
+      "kind": "overlay",
+      "bbox": [
+        647,
+        973,
+        687,
+        1013
+      ],
+      "description": "胶片框下方偏右的一颗浅黄色五角星，带柔和的淡色边缘。",
+      "label": "胶片框下方偏右的一颗浅黄色五角星，带柔和的淡色边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_blue_right",
+      "kind": "overlay",
+      "bbox": [
+        962,
+        998,
+        980,
+        1016
+      ],
+      "description": "右下区域上方的一颗独立浅蓝色小五角星。",
+      "label": "右下区域上方的一颗独立浅蓝色小五角星。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pink",
+      "kind": "overlay",
+      "bbox": [
+        925,
+        1159,
+        969,
+        1208
+      ],
+      "description": "右下靠近画布边缘的淡粉色五角星，轮廓柔和。",
+      "label": "右下靠近画布边缘的淡粉色五角星，轮廓柔和。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_pale_bottom",
+      "kind": "overlay",
+      "bbox": [
+        737,
+        1208,
+        758,
+        1228
+      ],
+      "description": "大星星装饰左下方的一颗极浅蓝色小五角星。",
+      "label": "大星星装饰左下方的一颗极浅蓝色小五角星。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_middle",
+    "photo_right",
+    "frame_filmstrip",
+    "text_broadcast",
+    "overlay_dog_garland",
+    "overlay_spiral_left",
+    "overlay_star_top",
+    "overlay_star_upper_middle",
+    "overlay_star_upper_left",
+    "overlay_spiral_middle",
+    "overlay_whale_bubble",
+    "overlay_star_cluster",
+    "overlay_star_yellow",
+    "overlay_star_blue_right",
+    "overlay_star_pink",
+    "overlay_star_pale_bottom"
+  ]
+}
