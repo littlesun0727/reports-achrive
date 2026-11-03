@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "chalk_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "深色、带颗粒与磨损痕迹的黑色粉笔板纹理延伸至画布四边，中央摄影画面边缘呈柔和渐隐；保留全画布纹理，独立照片与彩色粉笔字、图案不属于底图。",
+      "background_type": "reference_clean",
+      "label": "深色、带颗粒与磨损痕迹的黑色粉笔板纹理延伸至画布四边，中央摄",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_scene",
+      "kind": "photo",
+      "bbox": [
+        128,
+        188,
+        953,
+        1245
+      ],
+      "description": "一张竖向桌面商品场景照片，画面含印有彩色图案的包装袋、右侧饮料杯和下方手机等物件，保留完整摄影环境；边缘柔和渐隐至深色底面。中央矩形近景照片与左上倾斜小照片遮挡其局部。",
+      "label": "一张竖向桌面商品场景照片，画面含印有彩色图案的包装袋、右侧饮",
+      "method": "local"
+    },
+    {
+      "id": "photo_package_small",
+      "kind": "photo",
+      "bbox": [
+        202,
+        413,
+        421,
+        665
+      ],
+      "description": "左上方倾斜的包装商品近景照片，画面中可见包装上的彩色印刷字样与图案，保留照片内环境，边缘为倾斜的硬裁切；右下部分被中央照片遮挡。",
+      "label": "左上方倾斜的包装商品近景照片，画面中可见包装上的彩色印刷字样",
+      "method": "local"
+    },
+    {
+      "id": "photo_package_closeup",
+      "kind": "photo",
+      "bbox": [
+        389,
+        548,
+        913,
+        1074
+      ],
+      "description": "中央较大的矩形商品近景照片，包装袋正面占主要位置，右侧有饮料杯，下方带有桌面物件；保留完整摄影环境，清晰矩形边界覆盖后方场景照片及左上小照片的一角。",
+      "label": "中央较大的矩形商品近景照片，包装袋正面占主要位置，右侧有饮料",
+      "method": "local"
+    },
+    {
+      "id": "lettering_top",
+      "kind": "overlay",
+      "bbox": [
+        619,
+        28,
+        1069,
+        556
+      ],
+      "description": "右上至中右的彩色粉笔手写艺术字，分行写有“Seek adventures that open your mind”；笔画粗糙、有粉末颗粒感，文字与颜色变化作为完整装饰字样保留。",
+      "label": "右上至中右的彩色粉笔手写艺术字，分行写有“Seek adve",
+      "method": "extract"
+    },
+    {
+      "id": "lettering_lower",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        998,
+        304,
+        1362
+      ],
+      "description": "左下方彩色粉笔手写艺术字，分行写有“(Venture Outside Your Comfort Zone »)”；括号、箭头、字形及笔画风格共同构成完整装饰单元。",
+      "label": "左下方彩色粉笔手写艺术字，分行写有“(Venture Out",
+      "method": "extract"
+    },
+    {
+      "id": "doodles_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        111,
+        241,
+        478
+      ],
+      "description": "左侧三枚蓝紫色粉笔空心星形涂鸦，分布在上方至中部，保留各自不规则轮廓与粉末质感。",
+      "label": "左侧三枚蓝紫色粉笔空心星形涂鸦，分布在上方至中部，保留各自不",
+      "method": "extract"
+    },
+    {
+      "id": "doodles_stars",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        209,
+        943,
+        827
+      ],
+      "description": "散布在画面上部与中部的多枚彩色小星星、圆点及少量灰色粉笔痕迹，作为一组分散的粉笔点缀保留；部分位于摄影画面之上。",
+      "label": "散布在画面上部与中部的多枚彩色小星星、圆点及少量灰色粉笔痕迹",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        1157,
+        405,
+        1249
+      ],
+      "description": "左下文字旁的黄色小星形粉笔涂鸦，以及下方一枚小黑色星形记号，作为同一区域的独立点缀组合保留。",
+      "label": "左下文字旁的黄色小星形粉笔涂鸦，以及下方一枚小黑色星形记号，",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_flower_right",
+      "kind": "overlay",
+      "bbox": [
+        862,
+        1084,
+        1023,
+        1204
+      ],
+      "description": "右下方紫色粗线空心花形粉笔涂鸦，中心有蓝色圆点，整体轮廓与中心点作为一个完整装饰单元保留。",
+      "label": "右下方紫色粗线空心花形粉笔涂鸦，中心有蓝色圆点，整体轮廓与中",
+      "method": "extract"
+    },
+    {
+      "id": "doodle_flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        1223,
+        855,
+        1365
+      ],
+      "description": "下方偏右的黄色粗线空心花形粉笔涂鸦，中心为粉色圆点，整体轮廓与中心点作为一个完整装饰单元保留。",
+      "label": "下方偏右的黄色粗线空心花形粉笔涂鸦，中心为粉色圆点，整体轮廓",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "chalk_texture",
+    "photo_scene",
+    "photo_package_small",
+    "photo_package_closeup",
+    "doodles_stars",
+    "lettering_top",
+    "lettering_lower",
+    "doodles_upper_left",
+    "doodle_lower_left",
+    "doodle_flower_right",
+    "doodle_flower_bottom"
+  ]
+}

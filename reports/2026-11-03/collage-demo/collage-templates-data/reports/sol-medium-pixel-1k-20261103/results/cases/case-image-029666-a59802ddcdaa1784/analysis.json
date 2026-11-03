@@ -1,0 +1,156 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "浅暖白色、带轻微纸感的底面，在中间留白区及照片间隙可见；上下两张独立照片分别替换，底面保留原样。",
+      "background_type": "reference_clean",
+      "label": "浅暖白色、带轻微纸感的底面，在中间留白区及照片间隙可见；上下",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        801
+      ],
+      "description": "上方横向湖景照片，中央偏右是一名戴眼镜、穿白色上衣的女性半身像，侧身举着粉色球形玩偶；湖面、树木、船只及彩色球形装置共同属于照片。画面延伸至画布顶部和左右边缘，下缘被圆点装饰带遮住。",
+      "label": "上方横向湖景照片，中央偏右是一名戴眼镜、穿白色上衣的女性半身",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1096,
+        1080,
+        1439
+      ],
+      "description": "下方横向湖景照片，湖面前排列蓝、橙、粉、绿、黄五个大型球形装置，远处可见岸边树林与船只，底部有水面和岸边植物；照片延伸至左右及底部画布边缘。",
+      "label": "下方横向湖景照片，湖面前排列蓝、橙、粉、绿、黄五个大型球形装",
+      "method": "local"
+    },
+    {
+      "id": "photo_polaroid",
+      "kind": "photo",
+      "bbox": [
+        143,
+        144,
+        404,
+        408
+      ],
+      "description": "左上拍立得内的独立横向照片：一名穿白色上衣的女性站在湖边，身后可见彩色球形装置、湖面和树木；完整显示区域为矩形。",
+      "label": "左上拍立得内的独立横向照片：一名穿白色上衣的女性站在湖边，身",
+      "method": "local"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        124,
+        121,
+        422,
+        484
+      ],
+      "description": "浅蓝色拍立得相纸框，承载单张内口照片；下方宽边印有白色手写风格字样“Maydayland”及星形、心形涂鸦，整体作为固定载体保留。",
+      "photo_id": [
+        "photo_polaroid"
+      ],
+      "label": "浅蓝色拍立得相纸框，承载单张内口照片；下方宽边印有白色手写风",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dotted_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        797,
+        1080,
+        922
+      ],
+      "description": "横贯画布的浅色纸带，均匀散布彩色圆点，覆盖上方照片下缘并与下方照片之间留有空白。",
+      "label": "横贯画布的浅色纸带，均匀散布彩色圆点，覆盖上方照片下缘并与下",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_badge_1",
+      "kind": "overlay",
+      "bbox": [
+        982,
+        584,
+        1051,
+        657
+      ],
+      "description": "上方照片右下区域的浅黄绿色圆形编号贴，内有白色数字“1”。",
+      "label": "上方照片右下区域的浅黄绿色圆形编号贴，内有白色数字“1”。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_badge_2",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        808,
+        90,
+        881
+      ],
+      "description": "圆点纸带左侧的粉色圆形编号贴，带细密点状纹理，内有白色数字“2”。",
+      "label": "圆点纸带左侧的粉色圆形编号贴，带细密点状纹理，内有白色数字“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_badge_3",
+      "kind": "overlay",
+      "bbox": [
+        381,
+        197,
+        452,
+        270
+      ],
+      "description": "叠在拍立得右上角的浅蓝色圆形编号贴，带细密点状纹理，内有白色数字“3”。",
+      "label": "叠在拍立得右上角的浅蓝色圆形编号贴，带细密点状纹理，内有白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        551,
+        950,
+        708,
+        1064
+      ],
+      "description": "下方照片上方留白处的黄色手绘对话气泡，带尖尾；内部包含白色星形小图案、简笔表情和感叹号，作为一个完整装饰单元保留。",
+      "label": "下方照片上方留白处的黄色手绘对话气泡，带尖尾；内部包含白色星",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_top",
+    "photo_bottom",
+    "photo_polaroid",
+    "frame_polaroid",
+    "overlay_dotted_band",
+    "overlay_badge_1",
+    "overlay_badge_2",
+    "overlay_badge_3",
+    "overlay_speech_bubble"
+  ]
+}

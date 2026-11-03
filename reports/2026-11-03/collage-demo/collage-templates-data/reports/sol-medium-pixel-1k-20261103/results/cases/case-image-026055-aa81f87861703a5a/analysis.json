@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下半幅为倾斜取景的户外自拍：一名戴棕色眼镜、穿深色外套并系蓝色领巾的年轻男子位于画面中央偏右，右上边缘另有一名戴浅色帽子、穿黄色衣物的人物被画面裁切；街道、摊位及周围环境保留在摄影画面内。矩形照片从画布左右边缘延伸至底边，上缘与上方纸张单元相接。",
+      "label": "下半幅为倾斜取景的户外自拍：一名戴棕色眼镜、穿深色外套并系蓝",
+      "method": "local"
+    },
+    {
+      "id": "overlay_notepaper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "上半幅为横向铺开的浅棕色纹理纸张，顶部有一排六个圆形穿孔及其阴影；纸面保留黑色手写中文笔迹和右下方的手写日期。文字具有自由书写的独特笔画，不拆分为普通文字对象。纸张覆盖照片上缘，底边为横向直边。",
+      "label": "上半幅为横向铺开的浅棕色纹理纸张，顶部有一排六个圆形穿孔及其",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_selfie",
+    "overlay_notepaper"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        713,
+        1080
+      ],
+      "description": "左侧纵向地铁站人物照片，一名戴棕色帽子的长发女性面向镜头微笑，穿棕色上衣与黑色长裤，双手握着手机及肩带，身体延伸至画布下边缘。身旁的行李箱、包袋、栏杆及身后的站内标识、墙面和地面均属于摄影内容，保留完整环境。照片右侧局部被右上和右下两张照片覆盖；显示窗口为矩形，无主体去背景。",
+      "label": "左侧纵向地铁站人物照片，一名戴棕色帽子的长发女性面向镜头微笑",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        447,
+        129,
+        1041,
+        524
+      ],
+      "description": "右上横向地铁站照片，一名戴帽子的长发女性位于右半部，侧身微笑，双臂弯曲，棕色上衣和肩包可见，下身被照片下边裁切。身后白色圆柱上可见“人民广场”“People’s Square”及线路标识，左侧暗色站厅与顶部灯光均随照片替换。保留摄影环境和矩形显示范围，与左侧大照片姿态及取景不连续，独立叠放在其上。",
+      "label": "右上横向地铁站照片，一名戴帽子的长发女性位于右半部，侧身微笑",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        446,
+        592,
+        1045,
+        989
+      ],
+      "description": "右下横向镜面自拍照片，中央偏左是一名举起拍摄设备的人物倒影，面部被强烈闪光遮住，身体呈暗色剪影。镜面边沿、背后的明亮窗户、右侧深色墙面及反光均为摄影内容，完整保留，不去背景；闪光是照片中的光线而非透明效果。矩形照片左缘覆盖左侧大照片的包袋及站内环境。",
+      "label": "右下横向镜面自拍照片，中央偏左是一名举起拍摄设备的人物倒影，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_upper_right",
+    "photo_lower_right"
+  ]
+}

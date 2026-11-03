@@ -1,0 +1,853 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_green",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布由深浅绿色水滴玻璃纹理及色块拼贴构成，四边和照片间隙均可见这一固定设计底层。保留水滴、绿色纹理及非具象拼贴结构；人物照片、独立场景小图和叠加装饰分别列出，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布由深浅绿色水滴玻璃纹理及色块拼贴构成，四边和照片间隙均",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_foliage_top_left",
+      "kind": "photo",
+      "bbox": [
+        8,
+        19,
+        122,
+        206
+      ],
+      "description": "左上竖向植物小景，深绿色叶丛间有细碎白花和光斑，保留摄影环境；右下部分被大幅人物照片遮挡，上部被苹果装饰覆盖。",
+      "label": "左上竖向植物小景，深绿色叶丛间有细碎白花和光斑，保留摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_bokeh_top",
+      "kind": "photo",
+      "bbox": [
+        371,
+        10,
+        477,
+        81
+      ],
+      "description": "顶部小幅横向植物光斑照片，枝叶与散射亮点构成画面，保留背景，矩形显示。",
+      "label": "顶部小幅横向植物光斑照片，枝叶与散射亮点构成画面，保留背景，",
+      "method": "local"
+    },
+    {
+      "id": "photo_flower_top",
+      "kind": "photo",
+      "bbox": [
+        303,
+        40,
+        421,
+        109
+      ],
+      "description": "顶部偏左小幅植物照片，绿色背景中有白色花朵和枝叶，保留完整矩形摄影区域。",
+      "label": "顶部偏左小幅植物照片，绿色背景中有白色花朵和枝叶，保留完整矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_top_left",
+      "kind": "photo",
+      "bbox": [
+        35,
+        119,
+        410,
+        401
+      ],
+      "description": "一名黑发女子的室内半身近景，穿绿色吊带，双手托着青苹果，头略向右转，侧边马尾系白色布饰。保留椅子、绿植和水果等摄影环境，人物与背景共同在矩形窗口内显示。",
+      "label": "一名黑发女子的室内半身近景，穿绿色吊带，双手托着青苹果，头略",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_top_center",
+      "kind": "photo",
+      "bbox": [
+        457,
+        54,
+        664,
+        330
+      ],
+      "description": "一名黑发女子上半身近景，绿色吊带、白色发饰，手持青苹果靠近右侧脸颊，面向镜头。保留室内绿色台灯及植物背景，右上局部被花朵装饰遮挡。",
+      "label": "一名黑发女子上半身近景，绿色吊带、白色发饰，手持青苹果靠近右",
+      "method": "local"
+    },
+    {
+      "id": "photo_reclining_top",
+      "kind": "photo",
+      "bbox": [
+        680,
+        20,
+        868,
+        148
+      ],
+      "description": "顶部横向小照片，一名女子侧卧或斜倚在床上，双手靠近面部，头朝左侧，保留床铺、花叶和室内环境；左侧被浅黄花朵覆盖。",
+      "label": "顶部横向小照片，一名女子侧卧或斜倚在床上，双手靠近面部，头朝",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_top_right",
+      "kind": "photo",
+      "bbox": [
+        776,
+        106,
+        1036,
+        452
+      ],
+      "description": "右上竖向人物照片，一名女子坐在床边，身体侧向左、脸转向镜头，双手将青苹果捧在胸前。保留床铺、绿植和室内陈设，右下被苹果串装饰遮挡。",
+      "label": "右上竖向人物照片，一名女子坐在床边，身体侧向左、脸转向镜头，",
+      "method": "local"
+    },
+    {
+      "id": "photo_lily_still_life",
+      "kind": "photo",
+      "bbox": [
+        388,
+        334,
+        624,
+        463
+      ],
+      "description": "上部中间横向暗色静物照片，玻璃器皿、枝叶和白色百合处于室内光影中，保留摄影背景；左侧有浅灰叠片效果，右侧被独立百合花簇遮挡。",
+      "label": "上部中间横向暗色静物照片，玻璃器皿、枝叶和白色百合处于室内光",
+      "method": "local"
+    },
+    {
+      "id": "overlay_apples_top",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        0,
+        205,
+        83
+      ],
+      "description": "顶部左侧横向青苹果切片装饰，数片果肉与绿色果皮相互重叠，带细梗，整体轮廓及柔和边缘保留。",
+      "label": "顶部左侧横向青苹果切片装饰，数片果肉与绿色果皮相互重叠，带细",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        292,
+        106,
+        379,
+        186
+      ],
+      "description": "浅黄绿色蝴蝶装饰，双翅展开并倾斜，覆盖左上人物照片上沿，保留翅脉和柔和边缘。",
+      "label": "浅黄绿色蝴蝶装饰，双翅展开并倾斜，覆盖左上人物照片上沿，保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flowers_top",
+      "kind": "overlay",
+      "bbox": [
+        639,
+        0,
+        721,
+        128
+      ],
+      "description": "顶部浅黄白色花簇，带少量绿色叶片，整体纵向垂落，覆盖两张顶部人物照片之间的区域。",
+      "label": "顶部浅黄白色花簇，带少量绿色叶片，整体纵向垂落，覆盖两张顶部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_book_top_right",
+      "kind": "overlay",
+      "bbox": [
+        976,
+        25,
+        1080,
+        121
+      ],
+      "description": "右上角倾斜的摊开书本装饰，浅色纸页、书脊、绿色小叶及左侧手部共同构成完整单元，右边被画布裁切；页内细字随载体保留。",
+      "label": "右上角倾斜的摊开书本装饰，浅色纸页、书脊、绿色小叶及左侧手部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lilies_top_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        247,
+        139,
+        477
+      ],
+      "description": "左侧白色百合与垂坠小叶组成的花枝装饰，含花瓣、花蕊、长茎和弯曲枝条，覆盖左上照片左下角，左缘被画布裁切。",
+      "label": "左侧白色百合与垂坠小叶组成的花枝装饰，含花瓣、花蕊、长茎和弯",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lilies_top_right",
+      "kind": "overlay",
+      "bbox": [
+        533,
+        255,
+        777,
+        479
+      ],
+      "description": "上部偏右白色百合花簇，包含多朵开放花、花苞、绿色长叶及茎，覆盖静物小图和水滴底层，整体保留。",
+      "label": "上部偏右白色百合花簇，包含多朵开放花、花苞、绿色长叶及茎，覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apples_right",
+      "kind": "overlay",
+      "bbox": [
+        1006,
+        306,
+        1080,
+        474
+      ],
+      "description": "右边缘纵向苹果切片串，浅色果肉、绿色果皮、果核及细梗相连，覆盖右上人物照片边缘，右侧被画布裁切。",
+      "label": "右边缘纵向苹果切片串，浅色果肉、绿色果皮、果核及细梗相连，覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_light_dots",
+      "kind": "overlay",
+      "bbox": [
+        309,
+        350,
+        453,
+        471
+      ],
+      "description": "上部照片下方一组独立白色及浅灰圆点，大小不一，散布于水滴底层和静物图左侧，作为同一局部点缀保留。",
+      "label": "上部照片下方一组独立白色及浅灰圆点，大小不一，散布于水滴底层",
+      "method": "extract"
+    },
+    {
+      "id": "photo_window_middle_left",
+      "kind": "photo",
+      "bbox": [
+        181,
+        491,
+        342,
+        584
+      ],
+      "description": "中段左侧横向室内窗景小照片，窗框、玻璃及明暗植物影像可见，保留环境；下缘被坐姿人物照片覆盖。",
+      "label": "中段左侧横向室内窗景小照片，窗框、玻璃及明暗植物影像可见，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_window_middle_center",
+      "kind": "photo",
+      "bbox": [
+        393,
+        492,
+        507,
+        579
+      ],
+      "description": "中段靠中间的小幅窗景照片，浅色窗帘、窗框和窗外植物受光，保留摄影环境，右下被人物照片及苹果装饰覆盖。",
+      "label": "中段靠中间的小幅窗景照片，浅色窗帘、窗框和窗外植物受光，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_forest_middle_right",
+      "kind": "photo",
+      "bbox": [
+        706,
+        484,
+        807,
+        724
+      ],
+      "description": "中段偏右竖向森林光影照片，树干、绿叶和明亮透光构成连续场景；中部被小图覆盖，右边被相机人物照片遮挡。",
+      "label": "中段偏右竖向森林光影照片，树干、绿叶和明亮透光构成连续场景；",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_sitting",
+      "kind": "photo",
+      "bbox": [
+        72,
+        579,
+        319,
+        910
+      ],
+      "description": "左中竖向人物照片，一名绿色吊带女子侧坐在床上，白色短裤，双腿向右，头转向镜头。保留植物、鱼缸、床单、书本、相机及果盘等实拍内容，右侧局部被花枝和小图遮挡。",
+      "label": "左中竖向人物照片，一名绿色吊带女子侧坐在床上，白色短裤，双腿",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_apple_middle",
+      "kind": "photo",
+      "bbox": [
+        490,
+        523,
+        693,
+        792
+      ],
+      "description": "中间竖向半身人物照片，一名女子坐在床上，双手在胸前捧青苹果，头稍向左转，白色发饰垂于肩侧。保留床铺、暖色鱼缸和室内背景，左下被阅读人物遮挡。",
+      "label": "中间竖向半身人物照片，一名女子坐在床上，双手在胸前捧青苹果，",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_reading_middle",
+      "kind": "photo",
+      "bbox": [
+        377,
+        620,
+        605,
+        958
+      ],
+      "description": "中段前景一名女子坐姿阅读，头朝右上方，双手持摊开的书，绿色吊带与白色短裤清晰可见。沿人物、书本和腿部的组合轮廓去除摄影背景，轮廓外直接露出水滴底层及其他照片；不是相邻捧苹果照片的连续出框。",
+      "label": "中段前景一名女子坐姿阅读，头朝右上方，双手持摊开的书，绿色吊",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_camera_upper",
+      "kind": "photo",
+      "bbox": [
+        806,
+        494,
+        1080,
+        698
+      ],
+      "description": "右中横向人物近景，一名女子面对镜头，双手举着黑银色相机及展开的屏幕。保留绿色台灯、植物和暖色室内背景，右缘随画布裁切。",
+      "label": "右中横向人物近景，一名女子面对镜头，双手举着黑银色相机及展开",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_camera_lower",
+      "kind": "photo",
+      "bbox": [
+        756,
+        722,
+        962,
+        954
+      ],
+      "description": "右中下方竖向人物照片，一名女子低头查看手中的相机，保留床铺、百叶窗、绿植和室内环境；右边局部被植物与鱼缸小图遮挡。",
+      "label": "右中下方竖向人物照片，一名女子低头查看手中的相机，保留床铺、",
+      "method": "local"
+    },
+    {
+      "id": "photo_glass_green",
+      "kind": "photo",
+      "bbox": [
+        663,
+        558,
+        755,
+        628
+      ],
+      "description": "中段小幅横向绿色玻璃静物照片，可见弧形透明器皿及反光，保留深绿摄影背景，独立矩形显示。",
+      "label": "中段小幅横向绿色玻璃静物照片，可见弧形透明器皿及反光，保留深",
+      "method": "local"
+    },
+    {
+      "id": "photo_dark_window",
+      "kind": "photo",
+      "bbox": [
+        705,
+        625,
+        769,
+        675
+      ],
+      "description": "绿色玻璃小图下方的暗色窗景照片，玻璃窗格、垂直结构及微弱植物影像可见，保留矩形摄影范围。",
+      "label": "绿色玻璃小图下方的暗色窗景照片，玻璃窗格、垂直结构及微弱植物",
+      "method": "local"
+    },
+    {
+      "id": "photo_forest_middle_bottom",
+      "kind": "photo",
+      "bbox": [
+        540,
+        800,
+        732,
+        958
+      ],
+      "description": "中段下沿的林地与玻璃温室小景，阳光、树木及直线窗架构成摄影画面；左侧被阅读人物遮挡，前方叠有弯曲花茎装饰。",
+      "label": "中段下沿的林地与玻璃温室小景，阳光、树木及直线窗架构成摄影画",
+      "method": "local"
+    },
+    {
+      "id": "photo_forest_right",
+      "kind": "photo",
+      "bbox": [
+        959,
+        695,
+        1080,
+        801
+      ],
+      "description": "右侧中段横向树林小照片，浅蓝天空、绿色树冠和细枝可见，保留环境，右边被画布裁切。",
+      "label": "右侧中段横向树林小照片，浅蓝天空、绿色树冠和细枝可见，保留环",
+      "method": "local"
+    },
+    {
+      "id": "photo_aquarium_right",
+      "kind": "photo",
+      "bbox": [
+        922,
+        868,
+        1040,
+        958
+      ],
+      "description": "右中下沿横向鱼缸照片，绿色水草、玻璃反光及数条橙色鱼可见，保留水下环境，上方被植物和较大的金鱼装饰遮挡。",
+      "label": "右中下沿横向鱼缸照片，绿色水草、玻璃反光及数条橙色鱼可见，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_light_right",
+      "kind": "photo",
+      "bbox": [
+        1034,
+        797,
+        1080,
+        956
+      ],
+      "description": "最右侧窄幅明亮水景或玻璃景物照片，顶部有强光与枝叶，下方为深绿水色和反光；右缘被画布裁切，中部被金鱼装饰覆盖。",
+      "label": "最右侧窄幅明亮水景或玻璃景物照片，顶部有强光与枝叶，下方为深",
+      "method": "local"
+    },
+    {
+      "id": "photo_aquarium_middle_left",
+      "kind": "photo",
+      "bbox": [
+        239,
+        848,
+        373,
+        950
+      ],
+      "description": "中段左下的小幅鱼缸静物照片，透明玻璃、橙色鱼及水草可见，保留摄影背景；上部被花枝和相邻人物照片局部覆盖。",
+      "label": "中段左下的小幅鱼缸静物照片，透明玻璃、橙色鱼及水草可见，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_forest_left_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        874,
+        139,
+        958
+      ],
+      "description": "左侧中段下沿横向林地小图，绿色枝叶、树干和亮光可见，保留摄影环境，左缘被画布裁切，前方叠有透明泡泡。",
+      "label": "左侧中段下沿横向林地小图，绿色枝叶、树干和亮光可见，保留摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_water_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        784,
+        49,
+        875
+      ],
+      "description": "左边缘窄幅暗绿水下或玻璃静物小照片，可见叶片、反光及圆形器皿局部，保留环境，左缘被画布裁切。",
+      "label": "左边缘窄幅暗绿水下或玻璃静物小照片，可见叶片、反光及圆形器皿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_fish_bowls_hanging",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        483,
+        191,
+        610
+      ],
+      "description": "中段左上两只悬挂玻璃鱼球装饰，包含吊线、金属色上盖、透明球体、水面和橙色小鱼，作为完整局部组合保留。",
+      "label": "中段左上两只悬挂玻璃鱼球装饰，包含吊线、金属色上盖、透明球体",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_book_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        576,
+        83,
+        666
+      ],
+      "description": "左边缘倾斜的摊开书本装饰，浅色书页、密集印字和绿色叶片整体保留，左端被画布裁切。",
+      "label": "左边缘倾斜的摊开书本装饰，浅色书页、密集印字和绿色叶片整体保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_book",
+      "kind": "overlay",
+      "bbox": [
+        327,
+        535,
+        417,
+        606
+      ],
+      "description": "中段偏左带四叶草图案的书页或卡片装饰，含白色纸面、绿色叶形、右侧深色书脊和页边，作为一个完整固定单元保留。",
+      "label": "中段偏左带四叶草图案的书页或卡片装饰，含白色纸面、绿色叶形、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_apple_half",
+      "kind": "overlay",
+      "bbox": [
+        445,
+        552,
+        515,
+        623
+      ],
+      "description": "中段上方半颗青苹果装饰，浅色切面、果核、绿色果皮及短梗可见，覆盖照片接缝。",
+      "label": "中段上方半颗青苹果装饰，浅色切面、果核、绿色果皮及短梗可见，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_daisies",
+      "kind": "overlay",
+      "bbox": [
+        289,
+        692,
+        385,
+        879
+      ],
+      "description": "中段左侧细长白色雏菊花枝，包含多朵小花、黄色花心、细茎和浅绿叶片，覆盖人物照片右侧与水滴底层。",
+      "label": "中段左侧细长白色雏菊花枝，包含多朵小花、黄色花心、细茎和浅绿",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_camera",
+      "kind": "overlay",
+      "bbox": [
+        688,
+        752,
+        793,
+        843
+      ],
+      "description": "中段偏右倾斜的绿色小型相机贴饰，镜头、机身按钮、印字及边缘阴影整体保留，不与人物手中的实拍相机合并。",
+      "label": "中段偏右倾斜的绿色小型相机贴饰，镜头、机身按钮、印字及边缘阴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ribbon_flower",
+      "kind": "overlay",
+      "bbox": [
+        604,
+        797,
+        747,
+        969
+      ],
+      "description": "林地小图前的浅绿弯曲长茎装饰，顶部带白色小花与叶片，下部数条细带状茎弯曲垂落，完整轮廓作为一项保留。",
+      "label": "林地小图前的浅绿弯曲长茎装饰，顶部带白色小花与叶片，下部数条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ivy",
+      "kind": "overlay",
+      "bbox": [
+        944,
+        745,
+        1033,
+        879
+      ],
+      "description": "右中独立常春藤状植物装饰，密集深浅绿叶及垂落枝条形成不规则轮廓，跨越人物照片与右侧小图边界，整体保留。",
+      "label": "右中独立常春藤状植物装饰，密集深浅绿叶及垂落枝条形成不规则轮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_goldfish",
+      "kind": "overlay",
+      "bbox": [
+        993,
+        832,
+        1080,
+        923
+      ],
+      "description": "右边缘大型橙色金鱼装饰，身体、展开的尾鳍和胸鳍沿轮廓独立显示，覆盖鱼缸小图和明亮窄幅照片，右侧部分被裁切。",
+      "label": "右边缘大型橙色金鱼装饰，身体、展开的尾鳍和胸鳍沿轮廓独立显示",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubble",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        864,
+        121,
+        946
+      ],
+      "description": "左中下方透明泡泡装饰，保留椭圆状透明体、亮白弧形反光及柔和边缘，覆盖林地小图。",
+      "label": "左中下方透明泡泡装饰，保留椭圆状透明体、亮白弧形反光及柔和边",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sleeping",
+      "kind": "photo",
+      "bbox": [
+        486,
+        972,
+        709,
+        1138
+      ],
+      "description": "下段顶部横向室内照片，一名绿色吊带女子侧卧在床上，头靠枕头、双腿向左，前方有书本、相机、苹果和红色果盘。保留完整床铺及室内背景，下缘被前景人物遮挡。",
+      "label": "下段顶部横向室内照片，一名绿色吊带女子侧卧在床上，头靠枕头、",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        56,
+        1034,
+        299,
+        1357
+      ],
+      "description": "左下竖向人物近景，一名女子将青苹果举在一只眼睛前，另一只眼看向镜头，白色发饰垂于左肩。保留百叶窗、绿植与室内背景，顶部及右下被花朵装饰覆盖。",
+      "label": "左下竖向人物近景，一名女子将青苹果举在一只眼睛前，另一只眼看",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        389,
+        1086,
+        603,
+        1440
+      ],
+      "description": "下方中央一名女子正面坐姿，黑色马尾配白色布饰，穿绿色吊带，双手持摊开的书本。沿人物、手臂和书本组合轮廓去除摄影背景，周围露出水滴底层，底部被画布裁切；左侧被百合装饰局部遮挡。",
+      "label": "下方中央一名女子正面坐姿，黑色马尾配白色布饰，穿绿色吊带，双",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        645,
+        1071,
+        1032,
+        1355
+      ],
+      "description": "右下横向人物近景，一名女子面对镜头，左侧手持青苹果靠近脸颊，另一只手向镜头伸出更大的青苹果。保留床铺、绿植及暖色鱼缸环境，顶部被叶形文字装饰覆盖，右下被森林小图遮挡。",
+      "label": "右下横向人物近景，一名女子面对镜头，左侧手持青苹果靠近脸颊，",
+      "method": "local"
+    },
+    {
+      "id": "photo_bamboo_bottom",
+      "kind": "photo",
+      "bbox": [
+        708,
+        986,
+        786,
+        1073
+      ],
+      "description": "睡姿照片右侧的小幅深绿竹叶照片，细长叶片与暗色背景可见，保留矩形摄影区域。",
+      "label": "睡姿照片右侧的小幅深绿竹叶照片，细长叶片与暗色背景可见，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_aquarium_left_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        973,
+        34,
+        1177
+      ],
+      "description": "下段最左侧窄幅鱼缸或室内水景照片，橙色鱼、水草、玻璃反光和横向结构可见，左缘被画布裁切，上部叠有白花。",
+      "label": "下段最左侧窄幅鱼缸或室内水景照片，橙色鱼、水草、玻璃反光和横",
+      "method": "local"
+    },
+    {
+      "id": "photo_garden_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1276,
+        74,
+        1393
+      ],
+      "description": "左下边缘小幅庭院水景照片，绿色植物、石块、水面及明亮上缘可见，保留环境，右上被人物照片遮挡。",
+      "label": "左下边缘小幅庭院水景照片，绿色植物、石块、水面及明亮上缘可见",
+      "method": "local"
+    },
+    {
+      "id": "photo_grass_bottom",
+      "kind": "photo",
+      "bbox": [
+        600,
+        1315,
+        729,
+        1440
+      ],
+      "description": "底部中央偏右的草地照片，日光照亮细草，远处有暗绿植物，保留摄影环境；上部被右下人物照片覆盖，下缘被画布裁切。",
+      "label": "底部中央偏右的草地照片，日光照亮细草，远处有暗绿植物，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_forest_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        936,
+        1294,
+        1080,
+        1388
+      ],
+      "description": "右下角横向森林照片，树干、浅绿草地和明亮透光形成独立场景，覆盖人物照片右下角，右缘被画布裁切。",
+      "label": "右下角横向森林照片，树干、浅绿草地和明亮透光形成独立场景，覆",
+      "method": "local"
+    },
+    {
+      "id": "overlay_flower_left_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        991,
+        34,
+        1043
+      ],
+      "description": "左边缘小朵白花与绿色叶片装饰，覆盖窄幅鱼缸照片，部分花瓣被画布裁切。",
+      "label": "左边缘小朵白花与绿色叶片装饰，覆盖窄幅鱼缸照片，部分花瓣被画",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_flower_bottom",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        990,
+        347,
+        1121
+      ],
+      "description": "下段左上大型白色花朵装饰，数层圆润花瓣、淡黄色花心及少量绿叶整体保留，覆盖左下人物照片上沿。",
+      "label": "下段左上大型白色花朵装饰，数层圆润花瓣、淡黄色花心及少量绿叶",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish_globe_small",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        987,
+        506,
+        1077
+      ],
+      "description": "下段上方较小的圆形透明鱼球，内部有绿色水草、橙色鱼及可见数字“62”，球体反光和边缘整体保留。",
+      "label": "下段上方较小的圆形透明鱼球，内部有绿色水草、橙色鱼及可见数字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish_globe_large",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        1038,
+        457,
+        1141
+      ],
+      "description": "下段较大的透明玻璃鱼球装饰，底部蓝色砂砾、绿色水草及橙色小鱼可见，保留球体、开口和反光，右下被前景人物头部遮挡。",
+      "label": "下段较大的透明玻璃鱼球装饰，底部蓝色砂砾、绿色水草及橙色小鱼",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_leaf_message",
+      "kind": "overlay",
+      "bbox": [
+        928,
+        977,
+        1080,
+        1152
+      ],
+      "description": "右下上方深绿色星状叶片装饰，附浅色细枝和垂落叶线；叶面手写字样可辨为“YOU HAVE A RIGHT TO BE HAPPY”，文字与叶片的特殊布局整体保留，不拆成普通文字。",
+      "label": "右下上方深绿色星状叶片装饰，附浅色细枝和垂落叶线；叶面手写字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lilies_bottom",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        1172,
+        449,
+        1440
+      ],
+      "description": "底部偏左大型白色百合花枝，包含开放花、浅绿花苞、长茎及叶片，覆盖两个人物照片之间并遮住中央人物左侧，茎叶延伸至画布下缘。",
+      "label": "底部偏左大型白色百合花枝，包含开放花、浅绿花苞、长茎及叶片，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_bottom",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        1236,
+        678,
+        1333
+      ],
+      "description": "底部中央偏右绿色四叶草装饰，叶面带水滴光泽，叶柄向下，覆盖人物照片左下侧与草地照片上方。",
+      "label": "底部中央偏右绿色四叶草装饰，叶面带水滴光泽，叶柄向下，覆盖人",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_green",
+    "photo_foliage_top_left",
+    "photo_bokeh_top",
+    "photo_flower_top",
+    "photo_portrait_top_left",
+    "photo_portrait_top_center",
+    "photo_reclining_top",
+    "photo_portrait_top_right",
+    "photo_lily_still_life",
+    "overlay_apples_top",
+    "overlay_butterfly",
+    "overlay_flowers_top",
+    "overlay_book_top_right",
+    "overlay_lilies_top_left",
+    "overlay_lilies_top_right",
+    "overlay_apples_right",
+    "overlay_light_dots",
+    "photo_window_middle_left",
+    "photo_window_middle_center",
+    "photo_forest_middle_right",
+    "photo_water_left",
+    "photo_forest_left_middle",
+    "photo_forest_middle_bottom",
+    "photo_forest_right",
+    "photo_light_right",
+    "photo_portrait_sitting",
+    "photo_portrait_apple_middle",
+    "photo_portrait_camera_upper",
+    "photo_portrait_camera_lower",
+    "photo_glass_green",
+    "photo_dark_window",
+    "photo_aquarium_middle_left",
+    "photo_aquarium_right",
+    "overlay_fish_bowls_hanging",
+    "overlay_book_left",
+    "overlay_clover_book",
+    "overlay_apple_half",
+    "photo_portrait_reading_middle",
+    "overlay_daisies",
+    "overlay_green_camera",
+    "overlay_ribbon_flower",
+    "overlay_ivy",
+    "overlay_goldfish",
+    "overlay_bubble",
+    "photo_aquarium_left_bottom",
+    "photo_garden_bottom_left",
+    "photo_grass_bottom",
+    "photo_bamboo_bottom",
+    "photo_sleeping",
+    "photo_portrait_bottom_left",
+    "photo_portrait_bottom_right",
+    "overlay_flower_left_bottom",
+    "overlay_white_flower_bottom",
+    "overlay_fish_globe_small",
+    "overlay_fish_globe_large",
+    "photo_portrait_bottom_center",
+    "overlay_leaf_message",
+    "photo_forest_bottom_right",
+    "overlay_lilies_bottom",
+    "overlay_clover_bottom"
+  ]
+}

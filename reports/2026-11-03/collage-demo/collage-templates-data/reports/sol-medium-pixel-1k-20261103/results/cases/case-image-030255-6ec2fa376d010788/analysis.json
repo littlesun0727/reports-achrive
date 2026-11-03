@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1622,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1622,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        45,
+        260,
+        819,
+        977
+      ],
+      "description": "左侧独立摄影画面，两个手持透明塑料杯饮品，左杯带粉红奶油或果酱装饰，右杯为浅蓝灰色饮品，左右两只手分别从下方托举；保留杯体、手部及墙面环境，照片边缘呈圆角般的柔和渐隐并向黑色背景过渡，下方可见橙色相机参数样式字样。",
+      "label": "左侧独立摄影画面，两个手持透明塑料杯饮品，左杯带粉红奶油或果",
+      "method": "local"
+    },
+    {
+      "id": "overlay_orange_mark",
+      "kind": "overlay",
+      "bbox": [
+        589,
+        223,
+        623,
+        240
+      ],
+      "description": "位于左侧照片上方黑色区域中的小型橙色手绘箭头或三角标记，作为独立固定装饰保留。",
+      "label": "位于左侧照片上方黑色区域中的小型橙色手绘箭头或三角标记，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pencil",
+      "kind": "overlay",
+      "bbox": [
+        768,
+        174,
+        859,
+        316
+      ],
+      "description": "主标题左侧的白色手绘铅笔图标，包含倾斜的笔身、笔尖和内部线条，作为独立固定装饰保留。",
+      "label": "主标题左侧的白色手绘铅笔图标，包含倾斜的笔身、笔尖和内部线条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        873,
+        187,
+        1539,
+        638
+      ],
+      "description": "右上至中部的大段白色手写中文艺术字，内容可辨为“碳水小狗说：\n所有暴气都会在见面\n的那一刻悄悄消散~”，三行字形具有不规则手绘笔画和统一白色轮廓，作为完整艺术字装饰保留，不拆分为普通文字。",
+      "label": "右上至中部的大段白色手写中文艺术字，内容可辨为“碳水小狗说：",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dog_doodle",
+      "kind": "overlay",
+      "bbox": [
+        1326,
+        764,
+        1516,
+        903
+      ],
+      "description": "右下角白色手绘小狗或小动物头像涂鸦，包含圆润外轮廓、耳朵和面部细节，作为独立固定装饰保留。",
+      "label": "右下角白色手绘小狗或小动物头像涂鸦，包含圆润外轮廓、耳朵和面",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_drinks",
+    "overlay_orange_mark",
+    "overlay_pencil",
+    "overlay_title",
+    "overlay_dog_doodle"
+  ]
+}

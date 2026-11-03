@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内窗边摄影环境覆盖整个画布，包含窗框、白色窗帘、墙面、植物、桌面与暖色室内光线；画布四边均露出同一场景，独立照片和贴纸仅遮挡局部，完整环境作为可替换摄影底图保留。",
+      "background_type": "photo",
+      "label": "连续的室内窗边摄影环境覆盖整个画布，包含窗框、白色窗帘、墙面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        654,
+        241,
+        1080,
+        1003
+      ],
+      "description": "右侧大幅花卉照片，包含成簇浅色小花、深色花盆、窗边台面及后方植物环境，显示为从画布右缘延伸的矩形照片区域；中部被唱片贴纸和蛋糕照片局部遮挡。",
+      "label": "右侧大幅花卉照片，包含成簇浅色小花、深色花盆、窗边台面及后方",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        153,
+        296,
+        568,
+        558
+      ],
+      "description": "左上方横向甜点照片，银色高脚碗中放有绿色甜品、冰淇淋和红色樱桃，后方可见黑色灯具；照片环境保留，矩形显示区域的下方和右侧边缘清晰可见。",
+      "label": "左上方横向甜点照片，银色高脚碗中放有绿色甜品、冰淇淋和红色樱",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        410,
+        637,
+        693,
+        1014
+      ],
+      "description": "中央偏下的竖向甜点照片，显示绿色粉末覆盖的圆形蛋糕、中央浅色奶油以及周围红色配料，照片四周带有橙色桌面和盘子环境；右侧区域被花卉照片和蛋糕切片贴纸局部遮挡。",
+      "label": "中央偏下的竖向甜点照片，显示绿色粉末覆盖的圆形蛋糕、中央浅色",
+      "method": "local"
+    },
+    {
+      "id": "photo_lamp",
+      "kind": "photo",
+      "bbox": [
+        163,
+        854,
+        446,
+        1139
+      ],
+      "description": "左下方横向灯具照片，暗色背景中有一盏发光的花瓣形吊灯，完整矩形照片区域保留，右上部被中央蛋糕照片轻微覆盖。",
+      "label": "左下方横向灯具照片，暗色背景中有一盏发光的花瓣形吊灯，完整矩",
+      "method": "local"
+    },
+    {
+      "id": "photo_cup_character",
+      "kind": "photo",
+      "bbox": [
+        576,
+        1000,
+        1057,
+        1290
+      ],
+      "description": "右下方横向照片，展示白色带装饰的茶杯、金色勺子、杯后戴兜帽的小人偶以及红棕色背景；照片区域完整保留，底部和右侧边缘被画布裁切。",
+      "label": "右下方横向照片，展示白色带装饰的茶杯、金色勺子、杯后戴兜帽的",
+      "method": "local"
+    },
+    {
+      "id": "overlay_googly_eyes",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        456,
+        356,
+        531
+      ],
+      "description": "贴在左上甜点照片上的一对白底黑瞳卡通眼睛，两个眼睛作为同一组独立固定贴纸保留。",
+      "label": "贴在左上甜点照片上的一对白底黑瞳卡通眼睛，两个眼睛作为同一组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        832,
+        165,
+        977,
+        314
+      ],
+      "description": "花卉照片上沿的黑色手绘五角星贴纸，带白色不规则外边和黑色描线，顶部部分压住照片区域。",
+      "label": "花卉照片上沿的黑色手绘五角星贴纸，带白色不规则外边和黑色描线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_record",
+      "kind": "overlay",
+      "bbox": [
+        807,
+        603,
+        1080,
+        858
+      ],
+      "description": "右侧花卉照片上的唱片主题固定贴纸，包含黑色唱片、红橙色中心、白色弧线、黑色唱针孔及周围黄色、粉色、蓝色和绿色装饰点缀，右缘延伸至画布边界。",
+      "label": "右侧花卉照片上的唱片主题固定贴纸，包含黑色唱片、红橙色中心、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cake_slice",
+      "kind": "overlay",
+      "bbox": [
+        641,
+        808,
+        782,
+        925
+      ],
+      "description": "覆盖在中央蛋糕照片右下部的手绘蛋糕切片贴纸，带白色纸状外边、黑色描线和顶部小装饰。",
+      "label": "覆盖在中央蛋糕照片右下部的手绘蛋糕切片贴纸，带白色纸状外边、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snowflake_left",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        1147,
+        293,
+        1227
+      ],
+      "description": "左下区域的黑色手绘雪花贴纸，带白色不规则外边和粗黑描线。",
+      "label": "左下区域的黑色手绘雪花贴纸，带白色不规则外边和粗黑描线。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_snowflake_right",
+      "kind": "overlay",
+      "bbox": [
+        301,
+        1197,
+        370,
+        1276
+      ],
+      "description": "左下区域第二枚黑色手绘雪花贴纸，带白色不规则外边和粗黑描线，与另一枚雪花保持独立。",
+      "label": "左下区域第二枚黑色手绘雪花贴纸，带白色不规则外边和粗黑描线，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_flowers",
+    "photo_dessert",
+    "photo_lamp",
+    "photo_cake",
+    "photo_cup_character",
+    "overlay_googly_eyes",
+    "overlay_star",
+    "overlay_record",
+    "overlay_cake_slice",
+    "overlay_snowflake_left",
+    "overlay_snowflake_right"
+  ]
+}

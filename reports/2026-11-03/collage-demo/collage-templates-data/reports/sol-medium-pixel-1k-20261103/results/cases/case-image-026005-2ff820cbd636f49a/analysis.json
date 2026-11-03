@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        469
+      ],
+      "description": "上方横幅建筑照片，白色现代高层建筑从低角度仰拍，前景有树木，背景为晴朗蓝天；照片完整铺满该矩形区域，下缘止于白色横向分隔带。",
+      "label": "上方横幅建筑照片，白色现代高层建筑从低角度仰拍，前景有树木，",
+      "method": "local"
+    },
+    {
+      "id": "photo_school_scene",
+      "kind": "photo",
+      "bbox": [
+        0,
+        485,
+        1080,
+        1439
+      ],
+      "description": "下方竖幅校园场景照片：左侧近景是一名长发女生侧脸张口呼喊，穿白色水手服并向右伸出手臂；右上方远处另一名穿水手服的女生张开双臂站在护栏旁。蓝天、铁丝网围栏及右侧金属棚架构成连续摄影环境，保留照片内的“OPPO Reno15 Pro”白色水印；照片完整延伸至画布左右边缘和底边。",
+      "label": "下方竖幅校园场景照片：左侧近景是一名长发女生侧脸张口呼喊，穿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_separator",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        469,
+        1080,
+        485
+      ],
+      "description": "上下两张照片之间贯穿画布的窄白色水平分隔带，作为独立固定设计单元保留。",
+      "label": "上下两张照片之间贯穿画布的窄白色水平分隔带，作为独立固定设计",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_building",
+    "photo_school_scene",
+    "overlay_separator"
+  ]
+}

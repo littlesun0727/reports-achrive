@@ -1,0 +1,454 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_ice_cream",
+      "kind": "photo",
+      "bbox": [
+        0,
+        451,
+        527,
+        1024
+      ],
+      "description": "左侧独立美食照片，近景拍到手持玻璃杯中的黄色冰淇淋，周围可见餐桌和衣物等摄影环境；画面中的水印随照片替换。照片延伸至画布左边缘，显示区域被胶片条的边框和孔洞分割遮挡。",
+      "label": "左侧独立美食照片，近景拍到手持玻璃杯中的黄色冰淇淋，周围可见",
+      "method": "local"
+    },
+    {
+      "id": "photo_desserts",
+      "kind": "photo",
+      "bbox": [
+        527,
+        451,
+        1080,
+        1024
+      ],
+      "description": "右侧独立美食照片，斜俯拍桌面上的餐盒、长条点心、切块蛋糕及餐具，右侧可见人物局部；保留完整摄影环境。照片延伸至画布右边缘，显示区域被胶片条的边框和孔洞分割遮挡。",
+      "label": "右侧独立美食照片，斜俯拍桌面上的餐盒、长条点心、切块蛋糕及餐",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        435,
+        1080,
+        1044
+      ],
+      "description": "横贯画面的深灰色手绘胶片框，边缘粗糙并带有上下两排矩形穿孔，中间有分隔两张照片的竖向胶片条；完整框体覆盖照片边缘，孔洞露出下方照片。",
+      "photo_id": [
+        "photo_ice_cream",
+        "photo_desserts"
+      ],
+      "label": "横贯画面的深灰色手绘胶片框，边缘粗糙并带有上下两排矩形穿孔，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        367,
+        205,
+        716,
+        322
+      ],
+      "description": "胶片框上方的两行灰色中文手写字，笔画形态不规则，作为一组手写设计保留；部分字与心形线条相邻。",
+      "label": "胶片框上方的两行灰色中文手写字，笔画形态不规则，作为一组手写",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        283,
+        141,
+        503,
+        391
+      ],
+      "description": "上方偏左的双层手绘心形轮廓，分别以淡紫色和浅青色绘制，心形内部留白，作为一体的装饰保留。",
+      "label": "上方偏左的双层手绘心形轮廓，分别以淡紫色和浅青色绘制，心形内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow_up",
+      "kind": "overlay",
+      "bbox": [
+        690,
+        307,
+        766,
+        437
+      ],
+      "description": "胶片框上方的灰色手绘弯箭头，箭头朝左上方指向照片区域，笔画与箭头尖端整体保留。",
+      "label": "胶片框上方的灰色手绘弯箭头，箭头朝左上方指向照片区域，笔画与",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smiley",
+      "kind": "overlay",
+      "bbox": [
+        761,
+        211,
+        834,
+        267
+      ],
+      "description": "右上方绿色手绘笑脸，由弧形嘴线和短竖线组成，作为一个独立图案保留。",
+      "label": "右上方绿色手绘笑脸，由弧形嘴线和短竖线组成，作为一个独立图案",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        831,
+        136,
+        949,
+        323
+      ],
+      "description": "右上方一组分散的彩色手绘圆圈和小环，包含黄、青、绿等不同颜色的空心圆，作为同一局部装饰组合保留。",
+      "label": "右上方一组分散的彩色手绘圆圈和小环，包含黄、青、绿等不同颜色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        431,
+        1129,
+        845,
+        1227
+      ],
+      "description": "画布下半部右侧的两行灰色中文手写字，笔画呈手写装饰效果，作为完整文字图案保留。",
+      "label": "画布下半部右侧的两行灰色中文手写字，笔画呈手写装饰效果，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow_down",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        1077,
+        335,
+        1154
+      ],
+      "description": "照片下方偏左的灰色手绘弯箭头，朝右下方指向猫咪图案附近，完整弯曲线条和箭头尖端作为一个装饰保留。",
+      "label": "照片下方偏左的灰色手绘弯箭头，朝右下方指向猫咪图案附近，完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        1194,
+        370,
+        1326
+      ],
+      "description": "左下方粉色手绘猫脸线稿，含尖耳、眼睛、鼻口、脸部轮廓以及周围黄色强调线和小型粉色闪光点，作为一个完整装饰组合保留。",
+      "label": "左下方粉色手绘猫脸线稿，含尖耳、眼睛、鼻口、脸部轮廓以及周围",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_top_left",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        69,
+        107,
+        88
+      ],
+      "description": "画布左上方的小型粉色手绘加号装饰。",
+      "label": "画布左上方的小型粉色手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_top_mid",
+      "kind": "overlay",
+      "bbox": [
+        340,
+        94,
+        356,
+        112
+      ],
+      "description": "画布上方偏左的粉色手绘加号装饰。",
+      "label": "画布上方偏左的粉色手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_left",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        316,
+        82,
+        341
+      ],
+      "description": "画布左侧的绿色手绘加号装饰。",
+      "label": "画布左侧的绿色手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cross_left",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        187,
+        170,
+        211
+      ],
+      "description": "画布左上区域的青色手绘十字形装饰。",
+      "label": "画布左上区域的青色手绘十字形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_heart",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        244,
+        269,
+        306
+      ],
+      "description": "心形左侧的两枚淡紫色小型手绘闪光符号，彼此邻近，作为一组点缀保留。",
+      "label": "心形左侧的两枚淡紫色小型手绘闪光符号，彼此邻近，作为一组点缀",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_heart",
+      "kind": "overlay",
+      "bbox": [
+        403,
+        269,
+        419,
+        291
+      ],
+      "description": "心形与手写字之间的绿色小型手绘加号装饰。",
+      "label": "心形与手写字之间的绿色小型手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_photo_left",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        424,
+        89,
+        443
+      ],
+      "description": "胶片框上沿附近的黄色手绘加号装饰，局部靠近胶片框边缘。",
+      "label": "胶片框上沿附近的黄色手绘加号装饰，局部靠近胶片框边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_photo_mid",
+      "kind": "overlay",
+      "bbox": [
+        323,
+        403,
+        338,
+        420
+      ],
+      "description": "胶片框上方偏左的黄色手绘加号装饰。",
+      "label": "胶片框上方偏左的黄色手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_photo_bottom",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        1008,
+        554,
+        1026
+      ],
+      "description": "胶片框下沿附近的粉色手绘加号装饰，压近框体边缘。",
+      "label": "胶片框下沿附近的粉色手绘加号装饰，压近框体边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_bottom_mid",
+      "kind": "overlay",
+      "bbox": [
+        787,
+        1032,
+        805,
+        1052
+      ],
+      "description": "胶片框下方偏右的粉色手绘加号装饰。",
+      "label": "胶片框下方偏右的粉色手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        1165,
+        151,
+        1185
+      ],
+      "description": "猫咪图案上方的浅黄色小型手绘闪光点，作为独立点缀保留。",
+      "label": "猫咪图案上方的浅黄色小型手绘闪光点，作为独立点缀保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_cat_right",
+      "kind": "overlay",
+      "bbox": [
+        339,
+        1207,
+        371,
+        1234
+      ],
+      "description": "猫咪右上方的粉色和浅黄色小型手绘闪光符号，作为一组点缀保留。",
+      "label": "猫咪右上方的粉色和浅黄色小型手绘闪光符号，作为一组点缀保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_cat_lower",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        1280,
+        135,
+        1324
+      ],
+      "description": "猫咪左下方的粉色四角手绘闪光符号，完整弯曲线条作为独立装饰保留。",
+      "label": "猫咪左下方的粉色四角手绘闪光符号，完整弯曲线条作为独立装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_cat_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        338,
+        1296,
+        362,
+        1327
+      ],
+      "description": "猫咪右下方的两枚黄色手绘小闪光符号，作为一组点缀保留。",
+      "label": "猫咪右下方的两枚黄色手绘小闪光符号，作为一组点缀保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_bottom_text",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        1253,
+        529,
+        1279
+      ],
+      "description": "下方手写字左侧的绿色手绘加号装饰。",
+      "label": "下方手写字左侧的绿色手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cross_bottom_text",
+      "kind": "overlay",
+      "bbox": [
+        600,
+        1123,
+        618,
+        1148
+      ],
+      "description": "下方手写字上方的青色手绘十字形装饰。",
+      "label": "下方手写字上方的青色手绘十字形装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        845,
+        1208,
+        867,
+        1233
+      ],
+      "description": "下方手写字右侧的绿色手绘加号装饰。",
+      "label": "下方手写字右侧的绿色手绘加号装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_lower_center",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        1361,
+        535,
+        1381
+      ],
+      "description": "画布下方偏中的黄色手绘小型闪光符号。",
+      "label": "画布下方偏中的黄色手绘小型闪光符号。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plus_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        768,
+        1338,
+        784,
+        1359
+      ],
+      "description": "画布右下区域的黄色手绘加号装饰。",
+      "label": "画布右下区域的黄色手绘加号装饰。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_ice_cream",
+    "photo_desserts",
+    "frame_filmstrip",
+    "overlay_heart",
+    "overlay_top_handwriting",
+    "overlay_arrow_up",
+    "overlay_smiley",
+    "overlay_bubbles",
+    "overlay_plus_top_left",
+    "overlay_plus_top_mid",
+    "overlay_plus_left",
+    "overlay_cross_left",
+    "overlay_sparkles_heart",
+    "overlay_plus_heart",
+    "overlay_plus_photo_left",
+    "overlay_plus_photo_mid",
+    "overlay_bottom_handwriting",
+    "overlay_arrow_down",
+    "overlay_cat",
+    "overlay_sparkles_bottom_left",
+    "overlay_sparkles_cat_right",
+    "overlay_sparkle_cat_lower",
+    "overlay_sparkles_cat_lower_right",
+    "overlay_plus_photo_bottom",
+    "overlay_plus_bottom_mid",
+    "overlay_plus_bottom_text",
+    "overlay_cross_bottom_text",
+    "overlay_plus_bottom_right",
+    "overlay_sparkle_lower_center",
+    "overlay_plus_lower_right"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1079,
+    1438
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1079,
+        1438
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        47,
+        26,
+        1032,
+        700
+      ],
+      "description": "上方横向建筑摄影，完整显示屋顶、树枝、前景灌木、中央立柱和建筑立面上的红色标识，画面内文字与环境随照片替换；照片窗口四角圆润，边缘带较暗的柔和过渡。",
+      "label": "上方横向建筑摄影，完整显示屋顶、树枝、前景灌木、中央立柱和建",
+      "method": "local"
+    },
+    {
+      "id": "photo_painting",
+      "kind": "photo",
+      "bbox": [
+        48,
+        745,
+        406,
+        1415
+      ],
+      "description": "左下方竖向绘画照片，显示蓝色背景与粉红色、白色笔触组成的抽象画面，完整窗口为竖向矩形并带圆角，右缘与右侧照片相接并局部被其覆盖。",
+      "label": "左下方竖向绘画照片，显示蓝色背景与粉红色、白色笔触组成的抽象",
+      "method": "local"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        394,
+        745,
+        1032,
+        1415
+      ],
+      "description": "右下方竖向花束摄影，黄色和橙色菊花插在浅色花瓶中，置于黑色摄影背景前；完整照片窗口包含花束、花瓶及周围黑色区域，四角圆润，左缘压住左侧绘画照片的一小段。",
+      "label": "右下方竖向花束摄影，黄色和橙色菊花插在浅色花瓶中，置于黑色摄",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_building",
+    "photo_painting",
+    "photo_flowers"
+  ]
+}

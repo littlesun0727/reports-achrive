@@ -1,0 +1,161 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1024,
+    1364
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1024,
+        1364
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        548,
+        259,
+        978
+      ],
+      "description": "左侧胶片窗口中的独立樱花照片，近距离枝条和粉色花朵位于画面前景，背景呈柔和虚化的粉绿色环境；照片左缘延伸到画布边界，上下被胶片框体遮挡。",
+      "label": "左侧胶片窗口中的独立樱花照片，近距离枝条和粉色花朵位于画面前",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        285,
+        539,
+        968,
+        978
+      ],
+      "description": "中部胶片窗口中的独立樱花照片，蓝色天空占据背景，多组深色枝条和粉色花朵从四周伸入；完整矩形显示区域的边缘被黑色胶片框体遮挡。",
+      "label": "中部胶片窗口中的独立樱花照片，蓝色天空占据背景，多组深色枝条",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        1002,
+        548,
+        1024,
+        978
+      ],
+      "description": "右侧仅部分可见的独立胶片照片窗口，显示浅色天空或背景与细密枝叶状内容；窗口继续向画布右侧之外延伸，当前仅记录画布内可见范围。",
+      "label": "右侧仅部分可见的独立胶片照片窗口，显示浅色天空或背景与细密枝",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        447,
+        1024,
+        1078
+      ],
+      "description": "横向黑色胶片条固定框体，包含上下两排白色方形齿孔、黑色上下边框、窗口间竖向分隔和边缘遮挡；承载三个独立照片窗口，框体上的模糊印刷痕迹与粗糙手绘质感整体保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_center",
+        "photo_right"
+      ],
+      "label": "横向黑色胶片条固定框体，包含上下两排白色方形齿孔、黑色上下边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_top",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        241,
+        366,
+        346
+      ],
+      "description": "画布上方偏左的蓝色手绘云朵涂鸦，由多个圆弧轮廓、蓝色斜线填充和底部拖长线组成，作为独立固定装饰保留。",
+      "label": "画布上方偏左的蓝色手绘云朵涂鸦，由多个圆弧轮廓、蓝色斜线填充",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_edge",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        347,
+        53,
+        403
+      ],
+      "description": "左侧画布边缘露出的蓝色手绘云朵局部，包含弧形轮廓与底部横向拖线；其余部分被画布裁切，按可见范围记录。",
+      "label": "左侧画布边缘露出的蓝色手绘云朵局部，包含弧形轮廓与底部横向拖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gray_scribble",
+      "kind": "overlay",
+      "bbox": [
+        800,
+        173,
+        1015,
+        304
+      ],
+      "description": "右上方浅灰色铅笔或蜡笔质感的斜向涂鸦块，带有不规则轮廓和密集斜线填充，作为独立固定装饰保留。",
+      "label": "右上方浅灰色铅笔或蜡笔质感的斜向涂鸦块，带有不规则轮廓和密集",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_bottom",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        1141,
+        464,
+        1250
+      ],
+      "description": "胶片条下方偏左的蓝色手绘小图案，上部为密集蓝色涂画，下方带零散浅蓝短线和点状痕迹，作为一个完整固定涂鸦单元保留。",
+      "label": "胶片条下方偏左的蓝色手绘小图案，上部为密集蓝色涂画，下方带零",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_notes",
+      "kind": "overlay",
+      "bbox": [
+        866,
+        1139,
+        1024,
+        1209
+      ],
+      "description": "右下方绿色手写涂鸦与字符组合，包含类似“f8”和右侧被画布裁切的数字或符号，笔画不规则并带独立手绘装饰属性，整体作为固定 overlay 保留。",
+      "label": "右下方绿色手写涂鸦与字符组合，包含类似“f8”和右侧被画布裁",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "frame_filmstrip",
+    "overlay_cloud_top",
+    "overlay_cloud_edge",
+    "overlay_gray_scribble",
+    "overlay_blue_bottom",
+    "overlay_green_notes"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1442
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1442
+      ],
+      "description": "连续覆盖全画布的浅米色旧纸纹理底图，带细微斑点、纸张颗粒和右侧竖向折痕；照片、纸框、贴纸和手写内容均为独立叠加元素，纸底纹理保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的浅米色旧纸纹理底图，带细微斑点、纸张颗粒和右",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_forest_road",
+      "kind": "photo",
+      "bbox": [
+        100,
+        291,
+        769,
+        786
+      ],
+      "description": "横向森林公路照片，画面包含秋季树林、蓝色天空、弯道路面和多个道路指示牌，无人物；完整矩形照片窗口延伸至可见边缘，右下和下方部分被手写纸条遮挡，摄影环境整体保留。",
+      "label": "横向森林公路照片，画面包含秋季树林、蓝色天空、弯道路面和多个",
+      "method": "local"
+    },
+    {
+      "id": "frame_photo_mount",
+      "kind": "frame",
+      "bbox": [
+        76,
+        264,
+        824,
+        812
+      ],
+      "description": "承载森林公路照片的浅色纸质卡框，带圆角矩形外轮廓和照片四周留白，完整保留框体边缘及其纸张质感。",
+      "photo_id": [
+        "photo_forest_road"
+      ],
+      "label": "承载森林公路照片的浅色纸质卡框，带圆角矩形外轮廓和照片四周留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_melody_note",
+      "kind": "overlay",
+      "bbox": [
+        711,
+        548,
+        956,
+        716
+      ],
+      "description": "斜向贴在照片右侧的半透明浅灰纸条，带黑色手写字样“If you Just remember this melody”，纸条边缘、倾斜姿态和手写内容作为完整固定装饰保留。",
+      "label": "斜向贴在照片右侧的半透明浅灰纸条，带黑色手写字样“If yo",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shining_note",
+      "kind": "overlay",
+      "bbox": [
+        609,
+        709,
+        778,
+        768
+      ],
+      "description": "覆盖在照片右下区域的浅灰手写纸条，写有“SHINING”，作为独立固定贴纸保留，部分压在照片和其他纸条上方。",
+      "label": "覆盖在照片右下区域的浅灰手写纸条，写有“SHINING”，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_as_you_wish_note",
+      "kind": "overlay",
+      "bbox": [
+        649,
+        757,
+        922,
+        823
+      ],
+      "description": "位于照片下方并向右伸出的浅灰手写纸条，写有“AS YOU WISH”，右端带黑色星形装饰；纸条整体及其遮挡关系保留。",
+      "label": "位于照片下方并向右伸出的浅灰手写纸条，写有“AS YOU W",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_handwritten_lyrics",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        899,
+        961,
+        1320
+      ],
+      "description": "纸面下半部的大块黑色手写歌词与笔记设计，包含多行不规则英文手写、下划线、引号及左侧涂写符号；作为一个完整的固定手写排版单元保留，不拆分为普通文字。",
+      "label": "纸面下半部的大块黑色手写歌词与笔记设计，包含多行不规则英文手",
+      "method": "extract"
+    },
+    {
+      "id": "text_butterman",
+      "kind": "text",
+      "bbox": [
+        468,
+        101,
+        614,
+        123
+      ],
+      "description": "BUTTERMAN",
+      "label": "BUTTERMAN",
+      "method": "local",
+      "text": "BUTTERMAN",
+      "text_status": "known",
+      "style": {
+        "fill": "#171512",
+        "font": "serif",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "frame_photo_mount",
+    "photo_forest_road",
+    "overlay_melody_note",
+    "overlay_shining_note",
+    "overlay_as_you_wish_note",
+    "overlay_handwritten_lyrics",
+    "text_butterman"
+  ]
+}

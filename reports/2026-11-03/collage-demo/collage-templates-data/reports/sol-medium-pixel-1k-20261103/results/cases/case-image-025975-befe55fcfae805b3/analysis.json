@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        17,
+        181,
+        1063,
+        899
+      ],
+      "description": "中央横向海滨公园照片，完整显示海面、栏杆、草地、支撑树木的大树及右侧步行人物，天空和地面环境共同属于同一摄影画面；照片四周露出白色画布边缘，顶部左侧与右侧被两张独立照片覆盖。",
+      "label": "中央横向海滨公园照片，完整显示海面、栏杆、草地、支撑树木的大",
+      "method": "local"
+    },
+    {
+      "id": "photo_bushes",
+      "kind": "photo",
+      "bbox": [
+        80,
+        243,
+        410,
+        471
+      ],
+      "description": "左上方独立横向照片，显示城市高楼前的成片灌木与裸露土地区域，矩形照片边界清晰，覆盖在中央海滨公园照片之上。",
+      "label": "左上方独立横向照片，显示城市高楼前的成片灌木与裸露土地区域，",
+      "method": "local"
+    },
+    {
+      "id": "photo_leaf",
+      "kind": "photo",
+      "bbox": [
+        782,
+        208,
+        1021,
+        555
+      ],
+      "description": "右上方独立竖向照片，显示草地和泥土上的浅色圆叶、细长叶片及小块枯叶，完整矩形摄影区域覆盖在中央海滨公园照片之上。",
+      "label": "右上方独立竖向照片，显示草地和泥土上的浅色圆叶、细长叶片及小",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_main",
+    "photo_bushes",
+    "photo_leaf"
+  ]
+}

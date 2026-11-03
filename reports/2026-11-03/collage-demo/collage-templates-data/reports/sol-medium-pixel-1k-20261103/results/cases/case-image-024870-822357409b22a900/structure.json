@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的竖幅近距离餐桌摄影画面覆盖整个画布，包含餐桌上的饮品、餐盘和食物、左下方手托着的粉色甜点盒、中央玻璃杯以及右侧手部和金色戒指；摄影内容延伸至四条画布边缘，固定贴纸和音乐图案仅遮挡局部，人物、食物、餐具与环境整体作为可替换摄影底图保留。"
+  },
+  "objects": [
+    {
+      "id": "overlay_music_graphic",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        33,
+        1080,
+        365
+      ],
+      "description": "横跨画面上方的固定音乐装饰，由左侧粉色高音谱号和向右延伸的白色点阵音符、音符线条组成，作为一个连续的独立图案覆盖饮品和背景摄影区域。"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        625,
+        325,
+        723,
+        426
+      ],
+      "description": "位于中央玻璃杯右上方的黄色描边五角星贴纸，内部为青绿色和蓝色填充，并带有黄色、绿色细节边线，独立叠加在摄影画面和音乐装饰附近。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        346,
+        898,
+        431
+      ],
+      "description": "位于右侧手部上方的较小黄色描边五角星贴纸，内部为青绿色和蓝色填充，作为独立固定装饰叠加在摄影画面上。"
+    },
+    {
+      "id": "overlay_star_cyan_left",
+      "kind": "overlay",
+      "bbox": [
+        406,
+        581,
+        480,
+        667
+      ],
+      "description": "位于中央偏左手指和玻璃杯附近的青蓝色放射状星芒贴纸，带黑色外轮廓和尖锐不规则星形，独立覆盖摄影内容。"
+    },
+    {
+      "id": "overlay_star_lavender",
+      "kind": "overlay",
+      "bbox": [
+        549,
+        544,
+        618,
+        622
+      ],
+      "description": "位于玻璃杯和手部之间的浅紫蓝色星芒贴纸，带黑色轮廓和不规则尖角，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_pink",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        555,
+        807,
+        619
+      ],
+      "description": "位于右侧手部上方的紫粉色小型星芒贴纸，带黑色描边和不规则尖角，独立叠加在摄影画面上。"
+    },
+    {
+      "id": "overlay_star_yellow_hand",
+      "kind": "overlay",
+      "bbox": [
+        659,
+        603,
+        755,
+        716
+      ],
+      "description": "覆盖在中央偏右手部上的黄色星芒贴纸，带黑色外轮廓和多方向尖角，完整作为一个独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_turquoise_lower",
+      "kind": "overlay",
+      "bbox": [
+        508,
+        665,
+        580,
+        756
+      ],
+      "description": "位于中央下方手指和餐桌区域附近的青绿色星芒贴纸，带黑色描边和不规则尖角，独立覆盖摄影内容。"
+    },
+    {
+      "id": "overlay_sparkle_upper",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        844,
+        825,
+        915
+      ],
+      "description": "位于餐盘中央偏右、汤碗上方的白色四角闪光装饰，包含主菱形亮点及小型附属亮点，作为一个完整贴纸单元保留。"
+    },
+    {
+      "id": "overlay_sparkle_lower",
+      "kind": "overlay",
+      "bbox": [
+        653,
+        954,
+        723,
+        1027
+      ],
+      "description": "位于下方餐盘和汤碗之间的白色四角闪光装饰，包含主亮点及细小附属亮点，独立叠加在摄影画面上。"
+    }
+  ],
+  "layer_order": [
+    "overlay_music_graphic",
+    "overlay_star_upper_left",
+    "overlay_star_upper_right",
+    "overlay_star_cyan_left",
+    "overlay_star_lavender",
+    "overlay_star_pink",
+    "overlay_star_yellow_hand",
+    "overlay_star_turquoise_lower",
+    "overlay_sparkle_upper",
+    "overlay_sparkle_lower"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "blue_base",
+    "description": "覆盖全画布的蓝色渐变底图，上部偏深蓝，下部与中部偏浅蓝，四边及照片、装饰间隙均连续可见。保留原有颜色变化，清除独立照片、文字和装饰，不将局部海滩摄影并入底图。"
+  },
+  "objects": [
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        106,
+        87,
+        1006,
+        301
+      ],
+      "text": null,
+      "color": "#E5EDF4",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_orange",
+      "kind": "photo",
+      "bbox": [
+        378,
+        83,
+        705,
+        413
+      ],
+      "description": "上方中央的一只橙子近景，饱满橙色果皮带细密凹凸与高光，右上可见小型绿色果蒂。完整果实沿外轮廓独立显示，无摄影环境，覆盖上方英文文字的中央部分；白色表情另属叠加装饰。"
+    },
+    {
+      "id": "overlay_face",
+      "kind": "overlay",
+      "bbox": [
+        478,
+        282,
+        606,
+        385
+      ],
+      "description": "叠在橙子下半部的白色手绘表情，由两条倾斜眉线、两个圆点眼睛及一条倾斜短嘴线组成，作为完整表情装饰保留。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        411,
+        193,
+        487
+      ],
+      "description": "左上方白色不规则放射星形贴画，内部有蓝色细线螺旋，完整尖角与内部线条一并保留。"
+    },
+    {
+      "id": "overlay_bird",
+      "kind": "overlay",
+      "bbox": [
+        313,
+        405,
+        400,
+        512
+      ],
+      "description": "橙子左下方的白色手绘飞鸟状装饰，上下卷曲羽翼含蓝色螺旋及细线，整体作为一个固定单元保留。"
+    },
+    {
+      "id": "overlay_moon",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        411,
+        774,
+        507
+      ],
+      "description": "橙子右下方的白色弯月装饰，月牙内含少量蓝色小笔画与星状点缀，完整轮廓和内部设计一并保留。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        420,
+        995,
+        497
+      ],
+      "description": "右上方白色手绘心形装饰，内部具有蓝色螺旋与短线，外沿不规则笔触随整个单元保留。"
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        193,
+        577,
+        890,
+        1282
+      ],
+      "description": "中下方近方形海滩照片，无人物。完整摄影环境包含大面积蓝天、远山与海面、沙滩、两把蓝白条纹遮阳伞、条纹软座及右侧白色小屋。保留整个矩形显示窗口，不缩到伞或房屋；上部天空被白色雨线覆盖，左右边缘局部被装订装饰遮挡。"
+    },
+    {
+      "id": "overlay_rain",
+      "kind": "overlay",
+      "bbox": [
+        363,
+        439,
+        722,
+        815
+      ],
+      "description": "橙子下方向下展开的一组白色手绘短雨线，上窄下宽，跨过蓝色底图并覆盖海滩照片上部天空。全部断续笔画属于同一个雨线装饰，保留笔触与内部空隙。"
+    },
+    {
+      "id": "overlay_rings_top",
+      "kind": "overlay",
+      "bbox": [
+        152,
+        606,
+        236,
+        665
+      ],
+      "description": "照片左上边缘的两枚横向金属装订环，包含银灰色环杆、深色端部与阴影；两环作为同一局部装订装饰保留，跨接蓝色底图与照片。"
+    },
+    {
+      "id": "overlay_rings_middle",
+      "kind": "overlay",
+      "bbox": [
+        152,
+        883,
+        236,
+        942
+      ],
+      "description": "照片左侧中部的两枚横向金属装订环，银灰环杆两端带深色连接点与阴影，整体压在照片边缘上。"
+    },
+    {
+      "id": "overlay_rings_bottom",
+      "kind": "overlay",
+      "bbox": [
+        152,
+        1195,
+        237,
+        1254
+      ],
+      "description": "照片左下边缘的两枚横向金属装订环，保留金属明暗、深色端部及阴影，与上方两组装订环分别独立定位。"
+    },
+    {
+      "id": "overlay_right_binding",
+      "kind": "overlay",
+      "bbox": [
+        865,
+        590,
+        909,
+        1275
+      ],
+      "description": "照片右侧从上至下排列的一整列白色手绘横向短线，构成装订齿状边饰，短线跨越照片右边缘。保留全列笔画及间隙，不将其作为照片描边。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        232,
+        1331,
+        852,
+        1392
+      ],
+      "text": "Slow down your pace in summer, stop rushing forward and take time to\nfeel every little beauty around you",
+      "color": "#E3EDF5",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1414,
+        1073,
+        1434
+      ],
+      "description": "画布右下角极淡的圆角小标识，含难以辨清的小字，保留其整体轮廓与低透明度可见外观。"
+    }
+  ],
+  "layer_order": [
+    "text_top",
+    "photo_beach",
+    "photo_orange",
+    "overlay_face",
+    "overlay_star",
+    "overlay_bird",
+    "overlay_moon",
+    "overlay_heart",
+    "overlay_rain",
+    "overlay_rings_top",
+    "overlay_rings_middle",
+    "overlay_rings_bottom",
+    "overlay_right_binding",
+    "text_bottom",
+    "overlay_watermark"
+  ]
+}

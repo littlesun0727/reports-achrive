@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        641
+      ],
+      "description": "顶部横向海边饮品照片，完整画面包含树枝与天空、海面、木桌上的一杯饮品和一瓶啤酒；桌面中央偏下有白色“DJI OSMO POCKET 3”字样。照片延伸至画布左右边缘，底边在约 y=641 处与下一张照片形成清晰接缝。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        641,
+        1080,
+        1281
+      ],
+      "description": "中部横向海滩照片，包含前景树木、成排橙白条纹遮阳伞、沙滩、海面及远处岛屿；下方中央叠有白色“DJI OSMO POCKET 3”字样。独立照片窗口从 y=641 延伸至约 y=1281，底边与下一张照片形成水平接缝。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1281,
+        1080,
+        1920
+      ],
+      "description": "底部竖向海边餐桌照片，完整画面包含左侧树木与遮阳篷、天空和海面、卵石地面上的桌椅及桌面摆设；画面下方中央有白色“DJI OSMO POCKET 3”字样。照片从约 y=1281 的水平接缝延伸至画布底边。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

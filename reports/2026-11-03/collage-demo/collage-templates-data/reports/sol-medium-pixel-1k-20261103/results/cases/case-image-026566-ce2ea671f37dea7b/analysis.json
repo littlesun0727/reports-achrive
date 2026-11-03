@@ -1,0 +1,265 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "textured_gray_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "连续覆盖全画布的灰色粗糙纸张纹理，四边及各独立照片之间均可见相同材质；所有照片、数字卡片和手写装饰均叠加在其上，纸纹本身保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的灰色粗糙纸张纹理，四边及各独立照片之间均可见",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "number_card_blue",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        58,
+        283,
+        375
+      ],
+      "description": "左上方深蓝紫色织物质感数字卡片，中央印有大号灰色数字3，保留卡片轮廓、纹理和印刷效果。",
+      "label": "左上方深蓝紫色织物质感数字卡片，中央印有大号灰色数字3，保留",
+      "method": "extract"
+    },
+    {
+      "id": "number_card_red",
+      "kind": "overlay",
+      "bbox": [
+        168,
+        319,
+        359,
+        591
+      ],
+      "description": "左侧偏下的浅灰色数字卡片，中央印有大号红色数字3，保留纸张纹理、倾斜边缘和完整卡片范围。",
+      "label": "左侧偏下的浅灰色数字卡片，中央印有大号红色数字3，保留纸张纹",
+      "method": "extract"
+    },
+    {
+      "id": "photo_tree_canopy",
+      "kind": "photo",
+      "bbox": [
+        381,
+        34,
+        708,
+        470
+      ],
+      "description": "竖向矩形树木照片，粗大树干从左下向上延伸，枝叶和蓝天占据画面，完整保留摄影环境，底部和右侧被相邻构图元素局部遮挡。",
+      "label": "竖向矩形树木照片，粗大树干从左下向上延伸，枝叶和蓝天占据画面",
+      "method": "local"
+    },
+    {
+      "id": "photo_garden_arch",
+      "kind": "photo",
+      "bbox": [
+        773,
+        129,
+        1040,
+        373
+      ],
+      "description": "右上方横向花园布置照片，可见白色布景、花卉拱门、草地、灌木和远处建筑，保留完整矩形摄影环境。",
+      "label": "右上方横向花园布置照片，可见白色布景、花卉拱门、草地、灌木和",
+      "method": "local"
+    },
+    {
+      "id": "photo_flower_bouquet",
+      "kind": "photo",
+      "bbox": [
+        775,
+        365,
+        1041,
+        512
+      ],
+      "description": "右上方花园照片下方独立的花束近景照片，橙色、黄色和粉色花朵占据主要区域，显示为横向矩形并与上方花园照片相接。",
+      "label": "右上方花园照片下方独立的花束近景照片，橙色、黄色和粉色花朵占",
+      "method": "local"
+    },
+    {
+      "id": "photo_sea_cliff_vertical",
+      "kind": "photo",
+      "bbox": [
+        541,
+        464,
+        839,
+        856
+      ],
+      "description": "中央竖向海岸照片， rocky 峡谷从前景通向蓝色海面，远处有人群和海边景观，保留完整摄影环境；上方被相机主体遮挡，底部与行程图相接。",
+      "label": "中央竖向海岸照片， rocky 峡谷从前景通向蓝色海面，远处",
+      "method": "local"
+    },
+    {
+      "id": "photo_camera_cutout",
+      "kind": "photo",
+      "bbox": [
+        585,
+        388,
+        853,
+        740
+      ],
+      "description": "独立抠图的浅蓝色拍立得相机及其串珠装饰，主体组合悬浮在中央照片上方，周围摄影背景被去除，沿相机和珠链轮廓显示。",
+      "label": "独立抠图的浅蓝色拍立得相机及其串珠装饰，主体组合悬浮在中央照",
+      "method": "local"
+    },
+    {
+      "id": "photo_cliff_pool",
+      "kind": "photo",
+      "bbox": [
+        276,
+        830,
+        564,
+        1213
+      ],
+      "description": "左下方竖向海蚀悬崖照片，浅色岩壁围出深蓝色海水和洞穴，保留完整摄影环境，顶部与中央行程图相邻。",
+      "label": "左下方竖向海蚀悬崖照片，浅色岩壁围出深蓝色海水和洞穴，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_itinerary_page",
+      "kind": "photo",
+      "bbox": [
+        557,
+        849,
+        807,
+        1184
+      ],
+      "description": "中央偏下的旅行行程页面照片，纸面包含标题、彩色手写行程、分栏和小插图，作为一张独立可替换的平面图像保留完整页面范围。",
+      "label": "中央偏下的旅行行程页面照片，纸面包含标题、彩色手写行程、分栏",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_pines",
+      "kind": "photo",
+      "bbox": [
+        810,
+        814,
+        1059,
+        1189
+      ],
+      "description": "右下方竖向人物照片，戴帽和墨镜的女性站在松树林中，双手举在头部两侧，穿深色外套和浅色裙子，保留人物及树林摄影环境。",
+      "label": "右下方竖向人物照片，戴帽和墨镜的女性站在松树林中，双手举在头",
+      "method": "local"
+    },
+    {
+      "id": "photo_icecream_cone",
+      "kind": "photo",
+      "bbox": [
+        26,
+        883,
+        279,
+        1350
+      ],
+      "description": "左下角沿主体轮廓显示的冰淇淋华夫筒照片，筒内装满彩色糖果或果冻状配料，背景被去除并延伸至画布下边缘。",
+      "label": "左下角沿主体轮廓显示的冰淇淋华夫筒照片，筒内装满彩色糖果或果",
+      "method": "local"
+    },
+    {
+      "id": "overlay_black_date",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        0,
+        342,
+        107
+      ],
+      "description": "画布左上方黑色手写日期装饰，内容可辨为“2025/03”，笔画粗细和倾斜书写形态作为完整艺术字保留。",
+      "label": "画布左上方黑色手写日期装饰，内容可辨为“2025/03”，笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_black_title",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        613,
+        448,
+        846
+      ],
+      "description": "左侧中部黑色手写标题组合，包含两行粗黑中文书写和加号，内容约为“三月小记”及“去驿本呐+坪潭”，保留特殊笔画、行间关系和整体排版。",
+      "label": "左侧中部黑色手写标题组合，包含两行粗黑中文书写和加号，内容约",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_top_note",
+      "kind": "overlay",
+      "bbox": [
+        684,
+        0,
+        1072,
+        180
+      ],
+      "description": "右上方白色手写说明与指向箭头，包含“2025年度最好看”及“明信片”等字样，箭头指向右上花园照片，作为独立白色艺术字装饰保留。",
+      "label": "右上方白色手写说明与指向箭头，包含“2025年度最好看”及“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_sweet_note",
+      "kind": "overlay",
+      "bbox": [
+        702,
+        183,
+        1079,
+        511
+      ],
+      "description": "覆盖右侧花园和花束照片的白色手写装饰组合，包含英文“sweet”、弧形连线及多行中文字样，线条跨越照片边缘并位于照片上方，整体保留。",
+      "label": "覆盖右侧花园和花束照片的白色手写装饰组合，包含英文“swee",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_camera_note",
+      "kind": "overlay",
+      "bbox": [
+        819,
+        516,
+        1078,
+        641
+      ],
+      "description": "相机右侧的白色手写注释和箭头，箭头指向中央相机及珠链，包含多行中文说明，作为独立艺术字和线条组合保留。",
+      "label": "相机右侧的白色手写注释和箭头，箭头指向中央相机及珠链，包含多",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_bottom_caption",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        1215,
+        1060,
+        1317
+      ],
+      "description": "画布底部横向白色手写句子，内容可辨为“看到人生中的第一片海”，笔画自然伸展并作为完整艺术字装饰保留。",
+      "label": "画布底部横向白色手写句子，内容可辨为“看到人生中的第一片海”",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "textured_gray_base",
+    "number_card_blue",
+    "number_card_red",
+    "photo_tree_canopy",
+    "photo_garden_arch",
+    "photo_flower_bouquet",
+    "photo_sea_cliff_vertical",
+    "photo_cliff_pool",
+    "photo_itinerary_page",
+    "photo_woman_pines",
+    "photo_icecream_cone",
+    "photo_camera_cutout",
+    "overlay_black_date",
+    "overlay_black_title",
+    "overlay_white_top_note",
+    "overlay_white_sweet_note",
+    "overlay_white_camera_note",
+    "overlay_white_bottom_caption"
+  ]
+}

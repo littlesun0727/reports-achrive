@@ -1,0 +1,297 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1448
+  ],
+  "objects": [
+    {
+      "id": "circus_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1448
+      ],
+      "description": "全画布连续的马戏棚风格固定底图，白底上有蓝、黄、橙红色弧边布面、深色边线及细绳连接结构，画布四边和照片间隙均能看到同一设计。保留布面纹理、色彩变化及绳索结构；独立照片、承托面板、圆点和立体角色装饰另列，不随底图保留。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的马戏棚风格固定底图，白底上有蓝、黄、橙红色弧边布",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_upper_panel",
+      "kind": "frame",
+      "bbox": [
+        109,
+        144,
+        962,
+        711
+      ],
+      "description": "上半部横向浅灰色承托面板，左侧照片与面板上下缘齐平，右上承载一张小矩形照片，右下留有浅灰区域供双人主体叠放。面板右侧可见下层黄色弧形设计透出的浅色变化，底部有连续浅灰留边。右下双人主体没有独立框口，不计为面板照片窗口。",
+      "photo_id": [
+        "photo_upper_left",
+        "photo_upper_right"
+      ],
+      "label": "上半部横向浅灰色承托面板，左侧照片与面板上下缘齐平，右上承载",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        109,
+        144,
+        535,
+        711
+      ],
+      "description": "竖向广角活动现场照片，一名橙色长发女性穿黄色上衣，侧身朝右，近处手臂向画面下方伸出；周围可见人群、绿色地面、阴天和大型钢架棚顶。保留整个矩形摄影环境，左上局部被灰紫色角色装饰遮住，右下边缘被蓝色圆点遮挡。",
+      "label": "竖向广角活动现场照片，一名橙色长发女性穿黄色上衣，侧身朝右，",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        591,
+        201,
+        904,
+        410
+      ],
+      "description": "横向双人近景照片，左侧长发女性戴灰色帽子、穿浅色外套，侧身面对右侧戴黄色眼镜、穿绿色外套的橙发女性。保留两人背后的活动现场、棚顶彩色图案和绿色场地，照片以完整矩形显示。",
+      "label": "横向双人近景照片，左侧长发女性戴灰色帽子、穿浅色外套，侧身面",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_pair",
+      "kind": "photo",
+      "bbox": [
+        592,
+        453,
+        896,
+        668
+      ],
+      "description": "右侧下方独立双人半身摄影主体，左侧深色头发女性穿浅色外套，仰头笑并将手放在腹前；右侧橙发女性头戴黄色眼镜、穿绿色外套，笑着抱住棕色物件。沿两人外轮廓去除摄影环境，露出下层浅灰面板和浅黄色设计，两人的下缘在同一水平位置截断。与上方照片姿态不同，不作连续出框关联。",
+      "label": "右侧下方独立双人半身摄影主体，左侧深色头发女性穿浅色外套，仰",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        108,
+        755,
+        963,
+        1327
+      ],
+      "description": "下半部横向三人合影，三名女性倾身靠拢：橙发女性在左上举手比手势，戴灰帽及眼镜的女性在右侧向右上伸臂，深色头发戴眼镜的女性在下方穿红色外套。完整矩形中保留钢架棚顶、场地、人群与右侧花簇；左下、右上和右下部分被固定角色装饰遮挡，上沿被黄色圆点叠压。",
+      "label": "下半部横向三人合影，三名女性倾身靠拢：橙发女性在左上举手比手",
+      "method": "local"
+    },
+    {
+      "id": "overlay_upper_character",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        81,
+        289,
+        349
+      ],
+      "description": "左上灰紫色立体角色胸像贴饰，包含蓬松长发、眼部叉号、面部泪滴、颈部环带、针织上衣及斜肩带。整体沿角色外形独立显示，下缘为斜向截边，覆盖上方蓝色底图和左侧照片。",
+      "label": "左上灰紫色立体角色胸像贴饰，包含蓬松长发、眼部叉号、面部泪滴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_horse",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        538,
+        1027,
+        817
+      ],
+      "description": "右侧白色立体玩具马装饰，包含长耳、分节颈部、躯干、四肢及红色蹄端，完整造型和阴影作为一个单元保留。位于上方面板右下方，向下跨过照片间隙并遮住底部合影右上区域。",
+      "label": "右侧白色立体玩具马装饰，包含长耳、分节颈部、躯干、四肢及红色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pinwheel",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        927,
+        109,
+        1030
+      ],
+      "description": "左侧独立小风车装饰，红黄蓝相间的折片围绕中心排列，带斜向细杆和橙色中心连接部分，整体保留，位于下方照片左侧边缘之外。",
+      "label": "左侧独立小风车装饰，红黄蓝相间的折片围绕中心排列，带斜向细杆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_left_toy",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        958,
+        240,
+        1448
+      ],
+      "description": "左下完整玩具游乐组合，包含绿色长肢角色、粉白条纹腹部、粉红脚部、上方橙红色连接件，以及左侧橙黄放射轮和底部彩色拱形、黑白格纹承托结构。各成员组成连续的立体装饰，左边与底边被画布截断，整体覆盖底部合影左下角。",
+      "label": "左下完整玩具游乐组合，包含绿色长肢角色、粉白条纹腹部、粉红脚",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_right_character",
+      "kind": "overlay",
+      "bbox": [
+        850,
+        1086,
+        1080,
+        1448
+      ],
+      "description": "右下紫色长鼻立体角色装饰，戴红色帽子，身体有浅色星形图案，带粉色鼻部、眼睛、金色爪状手指及红白肢体。完整可见角色和附属肢体一起保留，右侧及底部被画布裁切，遮挡底部合影右下角。",
+      "label": "右下紫色长鼻立体角色装饰，戴红色帽子，身体有浅色星形图案，带",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_red_top_left",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        0,
+        183,
+        62
+      ],
+      "description": "左上红色圆形装饰，带暗色细边，顶部被画布截断，覆盖蓝白布面交界。",
+      "label": "左上红色圆形装饰，带暗色细边，顶部被画布截断，覆盖蓝白布面交",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_top",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        25,
+        690,
+        83
+      ],
+      "description": "顶部偏右的黄色圆点，完整圆形固定装饰，位于白色布面上。",
+      "label": "顶部偏右的黄色圆点，完整圆形固定装饰，位于白色布面上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_red_top_right",
+      "kind": "overlay",
+      "bbox": [
+        1002,
+        54,
+        1058,
+        111
+      ],
+      "description": "右上红色圆点，带轻微暗色边缘，叠在布面边线和细绳连接处。",
+      "label": "右上红色圆点，带轻微暗色边缘，叠在布面边线和细绳连接处。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        930,
+        333,
+        987,
+        390
+      ],
+      "description": "右上中部蓝紫色圆点，覆盖浅灰面板右边缘附近，保持独立完整圆形。",
+      "label": "右上中部蓝紫色圆点，覆盖浅灰面板右边缘附近，保持独立完整圆形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_middle",
+      "kind": "overlay",
+      "bbox": [
+        516,
+        444,
+        577,
+        505
+      ],
+      "description": "中上部蓝紫色圆点，跨在左侧竖向照片右缘和浅灰面板之间，完整圆形覆盖照片边界。",
+      "label": "中上部蓝紫色圆点，跨在左侧竖向照片右缘和浅灰面板之间，完整圆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_red_left",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        577,
+        120,
+        634
+      ],
+      "description": "左侧中部红色圆点，覆盖白色底图及竖向照片左缘，完整圆形保留。",
+      "label": "左侧中部红色圆点，覆盖白色底图及竖向照片左缘，完整圆形保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_middle",
+      "kind": "overlay",
+      "bbox": [
+        353,
+        729,
+        409,
+        786
+      ],
+      "description": "上下照片之间的黄色圆点，上半部位于白色间隙，下半部压住底部合影上沿。",
+      "label": "上下照片之间的黄色圆点，上半部位于白色间隙，下半部压住底部合",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_right",
+      "kind": "overlay",
+      "bbox": [
+        935,
+        1024,
+        991,
+        1080
+      ],
+      "description": "右侧中下部黄色圆点，跨在底部合影右缘与红色布面上，作为独立圆形装饰保留。",
+      "label": "右侧中下部黄色圆点，跨在底部合影右缘与红色布面上，作为独立圆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_bottom",
+      "kind": "overlay",
+      "bbox": [
+        623,
+        1400,
+        695,
+        1448
+      ],
+      "description": "底边偏右蓝紫色圆形装饰，圆的下部超出画布，仅保留画布内可见部分，叠在白色布面及细绳区域上。",
+      "label": "底边偏右蓝紫色圆形装饰，圆的下部超出画布，仅保留画布内可见部",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "circus_base",
+    "frame_upper_panel",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_middle_pair",
+    "photo_bottom",
+    "overlay_upper_character",
+    "overlay_white_horse",
+    "overlay_pinwheel",
+    "overlay_lower_left_toy",
+    "overlay_lower_right_character",
+    "overlay_red_top_left",
+    "overlay_yellow_top",
+    "overlay_red_top_right",
+    "overlay_blue_upper_right",
+    "overlay_blue_middle",
+    "overlay_red_left",
+    "overlay_yellow_middle",
+    "overlay_yellow_right",
+    "overlay_blue_bottom"
+  ]
+}

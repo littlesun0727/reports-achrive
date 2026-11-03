@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "overlay_center_band",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        207,
+        1080,
+        1234
+      ],
+      "description": "横贯画布的浅灰白色水平底带，位于中央胶片下方；上下露出纯白画布区域，保留其与白色底色的分界。"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        18,
+        383,
+        516,
+        1082
+      ],
+      "description": "胶片左侧的竖向咖啡馆室内照片，可见金属椅、圆桌与杯具，背景有窗框和木质百叶；保留完整室内摄影画面，显示在胶片左侧矩形窗口内。"
+    },
+    {
+      "id": "photo_coffee_cake",
+      "kind": "photo",
+      "bbox": [
+        559,
+        383,
+        1061,
+        1082
+      ],
+      "description": "胶片右侧的竖向桌面静物照片，可见咖啡杯、盘中的莓果蛋糕及桌面环境；保留完整摄影画面，显示在胶片右侧矩形窗口内。"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        264,
+        1080,
+        1189
+      ],
+      "description": "横向黑色胶片框，包含上下两排圆角方形齿孔、两处照片窗口及胶片边缘的细小印刷痕迹；上沿有黄色“RDP III”和右端局部字样，下沿中央有黄色箭头图案，均为框体印刷设计。框沿覆盖照片窗口边缘。",
+      "photo_id": [
+        "photo_cafe",
+        "photo_coffee_cake"
+      ]
+    }
+  ],
+  "layer_order": [
+    "overlay_center_band",
+    "photo_cafe",
+    "photo_coffee_cake",
+    "frame_filmstrip"
+  ]
+}

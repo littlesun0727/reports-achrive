@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅米色、带明显纤维纹理的纸面连续覆盖全画布，照片周围及下方均露出相同纸纹；保留纸底原样，照片与书法字样为独立单元。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        224,
+        141,
+        856,
+        1088
+      ],
+      "description": "竖向矩形人像照片，单人女性肩部以上近景，身体朝向画面右侧并侧脸回望；黑发盘起，佩戴白色花饰与耳饰，穿无袖浅色上衣。人物身后可见虚化的绿植和少量建筑环境，摄影背景保留在矩形照片窗口内。"
+    },
+    {
+      "id": "overlay_script_quote",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        1185,
+        747,
+        1288
+      ],
+      "description": "照片下方居中的两行深灰色细笔画英文连笔书法，内容可辨为“There are only the pursued, the pursuing, the busy and the tired.”；具有明显的装饰性字形与笔画造型，作为完整书法设计保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "overlay_script_quote"
+  ]
+}

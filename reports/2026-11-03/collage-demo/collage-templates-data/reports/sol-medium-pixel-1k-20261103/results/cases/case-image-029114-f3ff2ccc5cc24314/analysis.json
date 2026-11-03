@@ -1,0 +1,90 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_bag",
+      "kind": "photo",
+      "bbox": [
+        52,
+        270,
+        499,
+        893
+      ],
+      "description": "左侧竖向照片，黑色手提包放在浅色石质台面上，后方可见水面；保留完整摄影环境，画面边缘由胶片框窗口裁切。",
+      "label": "左侧竖向照片，黑色手提包放在浅色石质台面上，后方可见水面；保",
+      "method": "local"
+    },
+    {
+      "id": "photo_mountain",
+      "kind": "photo",
+      "bbox": [
+        588,
+        270,
+        1034,
+        893
+      ],
+      "description": "右侧竖向风景照片，粉色暮色天空下可见层叠山影、树木、电线与前景栏杆，画面中央偏右有高耸电杆；完整保留摄影环境，显示于胶片框窗口内。",
+      "label": "右侧竖向风景照片，粉色暮色天空下可见层叠山影、树木、电线与前",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        163,
+        1080,
+        990
+      ],
+      "description": "横向黑色胶片框体，包含上下两排白色圆角齿孔、中央上沿的金黄色“FUJI RDPⅢ”字样、下沿左侧黄色箭头及零散浅色颗粒；两个照片窗口分别位于左右，框体边缘围绕并局部压住照片。",
+      "photo_id": [
+        "photo_bag",
+        "photo_mountain"
+      ],
+      "label": "横向黑色胶片框体，包含上下两排白色圆角齿孔、中央上沿的金黄色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bag_label",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        744,
+        361,
+        796
+      ],
+      "description": "叠在左侧照片手提包下缘附近的黄色小标签，带白色斜体“billie Veromca”字样及左侧小锁形点缀，作为完整固定贴饰保留。",
+      "label": "叠在左侧照片手提包下缘附近的黄色小标签，带白色斜体“bill",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_bag",
+    "photo_mountain",
+    "frame_filmstrip",
+    "overlay_bag_label"
+  ]
+}

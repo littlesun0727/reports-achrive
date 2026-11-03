@@ -1,0 +1,103 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1429
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1429
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        712
+      ],
+      "description": "上方横幅彩色室内合照，完整摄影窗口从画布顶部延伸至橙色区域上沿。一男一女全身站在中央，男子穿深色西装，女子穿金棕色长裙，两人相向而立。保留大窗、天花板、立柱、沙发、前景桌椅、盆栽及地毯等全部摄影环境；左右家具被画布边缘裁切，与下方照片为不同姿态和取景的独立画面。",
+      "label": "上方横幅彩色室内合照，完整摄影窗口从画布顶部延伸至橙色区域上",
+      "method": "local"
+    },
+    {
+      "id": "overlay_orange_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        712,
+        1080,
+        1429
+      ],
+      "description": "覆盖画布下半部的橙色固定设计底板，上沿平直，与上方照片形成明确横向接缝。整体保留橙黄颜色变化、颗粒纸感、散布的白色亮点及黄绿粉色光斑；中央被照片和白色承托纸局部遮挡。它只承载下半部，不扩展为全画布底图。",
+      "label": "覆盖画布下半部的橙色固定设计底板，上沿平直，与上方照片形成明",
+      "method": "extract"
+    },
+    {
+      "id": "frame_lower",
+      "kind": "frame",
+      "bbox": [
+        390,
+        867,
+        751,
+        1349
+      ],
+      "description": "下方照片背后的白色矩形承托纸，向照片右侧和底部错位露出，形成宽白边。左上部分被照片遮住，保留可见完整纸张轮廓；没有独立印字或图案，位于照片下方。",
+      "photo_id": [
+        "photo_lower"
+      ],
+      "label": "下方照片背后的白色矩形承托纸，向照片右侧和底部错位露出，形成",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        357,
+        831,
+        722,
+        1315
+      ],
+      "description": "下方居中的竖向黑白照片，一男一女全身并肩向前行走，男子在左穿西装，女子在右穿长裙，两人低头。完整保留窗户、中央立柱、沙发、桌椅和地面环境，矩形照片不沿人物去背景。照片上可见少量粉白、绿色光点，人物和摄影环境仍连续可见；右边与底边前方另有错位白纸承托。",
+      "label": "下方居中的竖向黑白照片，一男一女全身并肩向前行走，男子在左穿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_photo_logo",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        1299,
+        567,
+        1313
+      ],
+      "description": "位于下方黑白照片底边内的小型白色斜体字标，具有紧凑的特殊字形，字样近似“FXUN”。作为独立叠加标记保留，不并入可替换摄影内容。",
+      "label": "位于下方黑白照片底边内的小型白色斜体字标，具有紧凑的特殊字形",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "overlay_orange_panel",
+    "frame_lower",
+    "photo_lower",
+    "overlay_photo_logo"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_dark",
+    "description": "全画布连续的黑灰色细颗粒纹理底，四边、两张照片之间及下方均有露出，局部有柔和的明暗变化。保留暗色纹理和底图外观，清除其上的两张独立照片及右下角标记，不将雪地摄影环境并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        104,
+        99,
+        972,
+        592
+      ],
+      "description": "上方横向雪地照片，两人全身背向镜头，在积雪坡地上牵手跃起，左侧人物穿白色外套和红白帽，右侧人物穿深蓝外套，双方外侧手臂向上伸展。照片完整保留雪地、脚印、灌木与树枝，主体没有去背景。四周边缘柔化并渐隐至下方黑灰底，完整显示范围包含边缘的摄影环境。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        103,
+        802,
+        973,
+        1296
+      ],
+      "description": "下方独立横向雪地照片，两人全身位于左半部，白衣人物在左、深蓝衣人物在右，面向镜头举起双手，姿态与上图不连续。保留周围积雪、坡地、脚印和树枝，右侧有较大雪地空间，主体没有去背景。照片四周柔化并渐隐至黑灰底，与上图之间保留宽阔暗色间隔。"
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1414,
+        1075,
+        1436
+      ],
+      "description": "右下角独立的小型灰白色圆角胶囊状标记，内部含深色微小中文，文字难以准确辨认；底板、字样与边缘作为一个完整固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_corner_mark"
+  ]
+}

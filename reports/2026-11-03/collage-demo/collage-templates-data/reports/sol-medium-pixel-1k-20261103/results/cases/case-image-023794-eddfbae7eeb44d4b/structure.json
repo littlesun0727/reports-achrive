@@ -1,0 +1,203 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立餐食照片，无人物。左侧为插着吸管的外带饮料，上方为黄色标签的鸡爪罐，右下为盛有鸡爪及调料的浅黄色餐盘，后方可见玩偶、包装及桌面。保留完整摄影环境，显示窗口覆盖左上分区；右边和下边与不同取景照片形成明确接缝。饮料包装和罐身文字属于实拍内容，叠加字幕及黑色表情装饰另列。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立静物照片，无人物。中央为带粉色盖子和粉色把手的奶黄色杯子，盖上有兔形握柄，旁边露出粉色勺柄；杯子置于粉色格纹书盒上，后方有礼品盒、玩偶及卡通背景。保留全部摄影环境及实拍印字，完整窗口为右上分区，与左侧及下方照片取景不连续。悬浮兔子装饰和灰底字幕另列。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立桌面静物照片，无人物。前景为敞口奶黄色杯子，杯内有饮品和勺子，粉色把手位于右侧；左上为黑盖蓝白标签的食品罐，后方为粉色礼品盒及卡通背景，左下露出餐盘和餐具。保留完整摄影环境，窗口覆盖左下分区，杯子及餐盘在画布边缘自然截断。罐盖上方卡通贴纸、杯旁表情和底部爱心脸装饰另列。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立静物照片，无人物。右侧为银盖黄色标签鸡爪罐，左侧为显示黄色插画界面的笔记本电脑及键盘，罐后露出浅绿色毛绒玩偶，底部为浅黄色餐盘。保留完整摄影环境，窗口覆盖右下分区；与上方及左侧照片存在独立裁切和取景变化。屏幕界面及罐身印字随照片替换，叠加字幕、老虎和餐食恐龙装饰另列。"
+    },
+    {
+      "id": "overlay_coffee_caption",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        268,
+        220,
+        312
+      ],
+      "description": "叠在左上饮料区域的半透明深灰色横向标签，白色手写字为“小黄油拿铁”。底板和文字共同构成独立字幕单元，整体保留。"
+    },
+    {
+      "id": "overlay_chicken_caption",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        350,
+        533,
+        431
+      ],
+      "description": "左上餐盘上方的两行半透明深灰色字幕标签，白色手写字分别为“酸酸辣辣”“超级过瘾~”。两行错落底板及字样共同作为完整装饰保留，不包含下方餐食。"
+    },
+    {
+      "id": "overlay_top_left_face",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        600,
+        132,
+        634
+      ],
+      "description": "左上照片下部桌面上的黑色颜文字装饰，由括号、面部符号及左侧小音符式笔画组成，采用特殊符号位置关系，作为完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_floating_bunny",
+      "kind": "overlay",
+      "bbox": [
+        826,
+        180,
+        894,
+        239
+      ],
+      "description": "右上杯盖上方、礼品盒前的独立小兔装饰，白色立体兔子带粉色耳朵，坐在白色云状底座上，含自身柔和阴影。与杯盖上的实拍兔形握柄不是同一成员。"
+    },
+    {
+      "id": "overlay_cup_caption",
+      "kind": "overlay",
+      "bbox": [
+        849,
+        515,
+        1041,
+        597
+      ],
+      "description": "右上杯子右下方的两行灰色半透明字幕，白色手写字为“朋友送的杯子”“好可爱好可爱🥰”。保留两行底板、文字及末尾表情，整体覆盖杯子下缘附近与书盒局部。"
+    },
+    {
+      "id": "overlay_jar_cartoon",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        779,
+        218,
+        858
+      ],
+      "description": "叠在左下食品罐黑色盖子上的白色趴卧卡通小动物贴纸，带灰色斑纹、浅黄色细节，左右附有小星星与点缀。整组装饰独立保留，不包含罐盖或食品罐。"
+    },
+    {
+      "id": "overlay_bottom_left_face",
+      "kind": "overlay",
+      "bbox": [
+        359,
+        1246,
+        425,
+        1282
+      ],
+      "description": "左下杯身右上侧的黑色颜文字小装饰，包含两侧括号、眼睛及粉色小嘴，与杯身原有英文和羊形印刷图案分开保留。"
+    },
+    {
+      "id": "overlay_peach_face",
+      "kind": "overlay",
+      "bbox": [
+        164,
+        1378,
+        273,
+        1440
+      ],
+      "description": "左下画布底边的粉色笑脸卡通贴纸，带举起的小手、脸部深色点状五官以及左右红粉爱心。下部被画布边缘截断，完整可见成员作为一个装饰单元保留。"
+    },
+    {
+      "id": "overlay_purchase_caption",
+      "kind": "overlay",
+      "bbox": [
+        772,
+        842,
+        979,
+        890
+      ],
+      "description": "右下照片上部、罐盖左上方的半透明深灰横向标签，白色手写字为“买的无骨鸡爪到啦”。底板与文字整体保留，覆盖电脑屏幕和后方环境局部。"
+    },
+    {
+      "id": "overlay_tiger",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        1092,
+        683,
+        1178
+      ],
+      "description": "右下键盘上的独立橙黄色卡通老虎装饰，带黑色条纹、蓝紫色耳部细节和右侧伸出的爪子，保留完整轮廓及自身阴影。"
+    },
+    {
+      "id": "overlay_healthy_caption",
+      "kind": "overlay",
+      "bbox": [
+        656,
+        1134,
+        809,
+        1211
+      ],
+      "description": "右下键盘区域的两行半透明深灰字幕，第一行为“0添加”，其中数字0带蓝色方块外观；第二行为“好吃又健康😋”。两行字样、灰底和表情共同保留为独立装饰。"
+    },
+    {
+      "id": "overlay_food_dinosaur",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        1340,
+        883,
+        1434
+      ],
+      "description": "右下餐盘前景的组合贴纸，左侧有薯条、汉堡和插吸管的饮料杯，右侧为绿色小恐龙，周围附有粉色小花及黄色闪光点。所有成员组成同一局部装饰，整体保留，不包含餐盘及其印刷图案。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_coffee_caption",
+    "overlay_chicken_caption",
+    "overlay_top_left_face",
+    "overlay_floating_bunny",
+    "overlay_cup_caption",
+    "overlay_jar_cartoon",
+    "overlay_bottom_left_face",
+    "overlay_peach_face",
+    "overlay_purchase_caption",
+    "overlay_tiger",
+    "overlay_healthy_caption",
+    "overlay_food_dinosaur"
+  ]
+}

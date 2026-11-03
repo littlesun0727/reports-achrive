@@ -1,0 +1,652 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#F2EFE7"
+      }
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        63,
+        545,
+        450,
+        1076
+      ],
+      "description": "竖幅室内全身镜自拍照，年轻女性穿蓝绿色短袖连衣裙坐在圆凳旁，一手举手机、另一手撑墙，身旁有手袋，前景可见鞋子与浅色长袜；墙面、地面及圆凳均属于照片中的摄影环境。照片为完整矩形显示区域，底部叠有粉色和浅蓝色圆角装饰条。",
+      "label": "竖幅室内全身镜自拍照，年轻女性穿蓝绿色短袖连衣裙坐在圆凳旁，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pink_bar",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        1044,
+        216,
+        1064
+      ],
+      "description": "照片底部左侧的粉色横向圆角胶囊形装饰，作为独立固定色块保留。",
+      "label": "照片底部左侧的粉色横向圆角胶囊形装饰，作为独立固定色块保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_bar",
+      "kind": "overlay",
+      "bbox": [
+        234,
+        1044,
+        319,
+        1064
+      ],
+      "description": "照片底部右侧的浅蓝色横向圆角胶囊形装饰，作为独立固定色块保留。",
+      "label": "照片底部右侧的浅蓝色横向圆角胶囊形装饰，作为独立固定色块保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_vertical_rule",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        131,
+        528,
+        1193
+      ],
+      "description": "页面中央偏右的浅灰色细竖线，分隔左侧介绍与右侧目录。",
+      "label": "页面中央偏右的浅灰色细竖线，分隔左侧介绍与右侧目录。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_horizontal_rules",
+      "kind": "overlay",
+      "bbox": [
+        584,
+        280,
+        1023,
+        961
+      ],
+      "description": "右侧目录各条目之间的六条浅灰色细横线，彼此平行、长度相近，作为同一组版式分隔线保留。",
+      "label": "右侧目录各条目之间的六条浅灰色细横线，彼此平行、长度相近，作",
+      "method": "extract"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        57,
+        41,
+        278,
+        55
+      ],
+      "description": "LORA & ÉLAN / THE QUIET EDIT",
+      "label": "LORA & ÉLAN / THE QUIET EDIT",
+      "method": "local",
+      "text": "LORA & ÉLAN / THE QUIET EDIT",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        831,
+        41,
+        1024,
+        55
+      ],
+      "description": "BRAND / STYLE / CONTENT",
+      "label": "BRAND / STYLE / CONTENT",
+      "method": "local",
+      "text": "BRAND / STYLE / CONTENT",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_headline",
+      "kind": "text",
+      "bbox": [
+        62,
+        151,
+        297,
+        246
+      ],
+      "description": "MADE TO\nBE SEEN.",
+      "label": "MADE TO\nBE SEEN.",
+      "method": "local",
+      "text": "MADE TO\nBE SEEN.",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_intro",
+      "kind": "text",
+      "bbox": [
+        63,
+        351,
+        402,
+        404
+      ],
+      "description": "为品牌、穿搭与内容表达预留足够空间，\n让图片、信息与个人风格自然被看见。",
+      "label": "为品牌、穿搭与内容表达预留足够空间，\n让图片、信息与个人风格",
+      "method": "local",
+      "text": "为品牌、穿搭与内容表达预留足够空间，\n让图片、信息与个人风格自然被看见。",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_01_number",
+      "kind": "text",
+      "bbox": [
+        584,
+        205,
+        603,
+        218
+      ],
+      "description": "01",
+      "label": "01",
+      "method": "local",
+      "text": "01",
+      "text_status": "known",
+      "style": {
+        "fill": "#B87F83",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_01_title",
+      "kind": "text",
+      "bbox": [
+        647,
+        197,
+        782,
+        220
+      ],
+      "description": "品牌形象展示",
+      "label": "品牌形象展示",
+      "method": "local",
+      "text": "品牌形象展示",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_01_subtitle",
+      "kind": "text",
+      "bbox": [
+        647,
+        242,
+        853,
+        257
+      ],
+      "description": "Brand profile and visual story",
+      "label": "Brand profile and visual story",
+      "method": "local",
+      "text": "Brand profile and visual story",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_02_number",
+      "kind": "text",
+      "bbox": [
+        584,
+        341,
+        603,
+        354
+      ],
+      "description": "02",
+      "label": "02",
+      "method": "local",
+      "text": "02",
+      "text_status": "known",
+      "style": {
+        "fill": "#B87F83",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_02_title",
+      "kind": "text",
+      "bbox": [
+        647,
+        333,
+        821,
+        356
+      ],
+      "description": "穿搭与造型作品集",
+      "label": "穿搭与造型作品集",
+      "method": "local",
+      "text": "穿搭与造型作品集",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_02_subtitle",
+      "kind": "text",
+      "bbox": [
+        647,
+        378,
+        846,
+        393
+      ],
+      "description": "Fashion and styling portfolio",
+      "label": "Fashion and styling portfolio",
+      "method": "local",
+      "text": "Fashion and styling portfolio",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_03_number",
+      "kind": "text",
+      "bbox": [
+        584,
+        477,
+        603,
+        490
+      ],
+      "description": "03",
+      "label": "03",
+      "method": "local",
+      "text": "03",
+      "text_status": "known",
+      "style": {
+        "fill": "#B87F83",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_03_title",
+      "kind": "text",
+      "bbox": [
+        647,
+        469,
+        821,
+        492
+      ],
+      "description": "自媒体内容作品集",
+      "label": "自媒体内容作品集",
+      "method": "local",
+      "text": "自媒体内容作品集",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_03_subtitle",
+      "kind": "text",
+      "bbox": [
+        647,
+        514,
+        819,
+        529
+      ],
+      "description": "Social content portfolio",
+      "label": "Social content portfolio",
+      "method": "local",
+      "text": "Social content portfolio",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_04_number",
+      "kind": "text",
+      "bbox": [
+        584,
+        613,
+        603,
+        626
+      ],
+      "description": "04",
+      "label": "04",
+      "method": "local",
+      "text": "04",
+      "text_status": "known",
+      "style": {
+        "fill": "#B87F83",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_04_title",
+      "kind": "text",
+      "bbox": [
+        647,
+        605,
+        803,
+        628
+      ],
+      "description": "博主个人媒体包",
+      "label": "博主个人媒体包",
+      "method": "local",
+      "text": "博主个人媒体包",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_04_subtitle",
+      "kind": "text",
+      "bbox": [
+        647,
+        650,
+        855,
+        665
+      ],
+      "description": "Creator profile and media kit",
+      "label": "Creator profile and media kit",
+      "method": "local",
+      "text": "Creator profile and media kit",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_05_number",
+      "kind": "text",
+      "bbox": [
+        584,
+        749,
+        603,
+        762
+      ],
+      "description": "05",
+      "label": "05",
+      "method": "local",
+      "text": "05",
+      "text_status": "known",
+      "style": {
+        "fill": "#B87F83",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_05_title",
+      "kind": "text",
+      "bbox": [
+        647,
+        741,
+        821,
+        764
+      ],
+      "description": "品牌合作与提案",
+      "label": "品牌合作与提案",
+      "method": "local",
+      "text": "品牌合作与提案",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_05_subtitle",
+      "kind": "text",
+      "bbox": [
+        647,
+        786,
+        903,
+        801
+      ],
+      "description": "Campaign and partnership proposal",
+      "label": "Campaign and partnership propo",
+      "method": "local",
+      "text": "Campaign and partnership proposal",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_06_number",
+      "kind": "text",
+      "bbox": [
+        584,
+        885,
+        603,
+        898
+      ],
+      "description": "06",
+      "label": "06",
+      "method": "local",
+      "text": "06",
+      "text_status": "known",
+      "style": {
+        "fill": "#B87F83",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_06_title",
+      "kind": "text",
+      "bbox": [
+        647,
+        877,
+        847,
+        900
+      ],
+      "description": "季度主题与新品编辑",
+      "label": "季度主题与新品编辑",
+      "method": "local",
+      "text": "季度主题与新品编辑",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_item_06_subtitle",
+      "kind": "text",
+      "bbox": [
+        647,
+        922,
+        882,
+        937
+      ],
+      "description": "Seasonal edit and product launch",
+      "label": "Seasonal edit and product laun",
+      "method": "local",
+      "text": "Seasonal edit and product launch",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        57,
+        1376,
+        366,
+        1390
+      ],
+      "description": "BRAND / FASHION / SOCIAL MEDIA / CAMPAIGN",
+      "label": "BRAND / FASHION / SOCIAL MEDIA",
+      "method": "local",
+      "text": "BRAND / FASHION / SOCIAL MEDIA / CAMPAIGN",
+      "text_status": "known",
+      "style": {
+        "fill": "#77756F",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_right",
+      "kind": "text",
+      "bbox": [
+        869,
+        1376,
+        1024,
+        1390
+      ],
+      "description": "WHITE SPACE PROJECT",
+      "label": "WHITE SPACE PROJECT",
+      "method": "local",
+      "text": "WHITE SPACE PROJECT",
+      "text_status": "known",
+      "style": {
+        "fill": "#242321",
+        "font": "sans",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_portrait",
+    "overlay_vertical_rule",
+    "overlay_horizontal_rules",
+    "overlay_pink_bar",
+    "overlay_blue_bar",
+    "text_top_left",
+    "text_top_right",
+    "text_headline",
+    "text_intro",
+    "text_item_01_number",
+    "text_item_01_title",
+    "text_item_01_subtitle",
+    "text_item_02_number",
+    "text_item_02_title",
+    "text_item_02_subtitle",
+    "text_item_03_number",
+    "text_item_03_title",
+    "text_item_03_subtitle",
+    "text_item_04_number",
+    "text_item_04_title",
+    "text_item_04_subtitle",
+    "text_item_05_number",
+    "text_item_05_title",
+    "text_item_05_subtitle",
+    "text_item_06_number",
+    "text_item_06_title",
+    "text_item_06_subtitle",
+    "text_bottom_left",
+    "text_bottom_right"
+  ]
+}

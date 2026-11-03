@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        154,
+        1080,
+        939
+      ],
+      "description": "中央横向矩形人物照片：一名金色长发人物抬脸看向高处镜头，身体前倾，双手靠近腿部，穿黑色无袖服装并佩戴项链、手链，手臂可见纹身。灰色墙面或地面摄影环境完整保留，人物下部被照片下沿裁切。画面有颗粒、柔焦和闪光照明感，没有沿人物轮廓去背景；上下边缘与独立深色文字条相接。"
+    },
+    {
+      "id": "overlay_header",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        157
+      ],
+      "description": "顶部通栏深黑紫色标题条，包含细长、纵向拉伸且边缘模糊发光的浅色字样“this is me btw :3 if u even care..”，右侧另有分置的“^_^”表情笔画。文字、表情与带轻微颗粒的深色条底作为完整固定设计保留，不拆为普通文字；下沿与中央照片相接。"
+    },
+    {
+      "id": "overlay_footer",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        938,
+        1080,
+        1085
+      ],
+      "description": "底部通栏深黑紫色标签条，中央为浅色发光字样“zip.2000s”，字缘带柔化及轻微彩色晕边。文字与深色条底共同构成独立固定单元，整体保留，上沿压住中央照片的下边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "overlay_header",
+    "overlay_footer"
+  ]
+}

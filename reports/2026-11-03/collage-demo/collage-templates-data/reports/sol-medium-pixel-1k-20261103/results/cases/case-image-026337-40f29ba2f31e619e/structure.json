@@ -1,0 +1,97 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "秋日街道的连续竖幅摄影画面，金黄与橙色树冠覆盖上方和两侧，左上露出浅色天空，下方为道路、停放的摩托车、交通锥及远处少量行人。环境延伸至画布四边，两张矩形照片和装饰遮挡中间部分；整张街景及其摄影环境一同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_hand",
+      "kind": "photo",
+      "bbox": [
+        201,
+        213,
+        836,
+        637
+      ],
+      "description": "上方横向矩形俯拍照片，一人穿白色长袖与浅色裤子，摊开的手掌朝向镜头，掌心放着一片黄色小叶，底部可见双脚与白鞋。保留黑色粗糙路面和零散落叶等完整摄影环境；左上被人物贴纸遮挡，右下被独立枫叶装饰覆盖。"
+    },
+    {
+      "id": "photo_cup",
+      "kind": "photo",
+      "bbox": [
+        204,
+        807,
+        845,
+        1235
+      ],
+      "description": "下方横向矩形近景照片，米黄色陶瓷杯内盛有深褐色饮品，杯柄朝右，杯身印有小熊及可辨文字“Butterbear”“Pink Bear”。保留深色桌面及背景，杯底在照片下缘被裁切；左上叠有白色放射线，杯子及周围叠有发光星星装饰。"
+    },
+    {
+      "id": "overlay_character",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        119,
+        324,
+        310
+      ],
+      "description": "压在上方照片左上角的手绘小人物贴纸，包含黄色竖起的发髻、橙色脸部、黑色粗轮廓和向两侧下垂的蓝白条纹衣袖，以及左侧小黑点。完整不规则轮廓作为一个固定装饰保留。"
+    },
+    {
+      "id": "overlay_maple_leaf",
+      "kind": "overlay",
+      "bbox": [
+        723,
+        460,
+        946,
+        710
+      ],
+      "description": "红、橙、黄色渐变的写实枫叶装饰，尖角叶片、叶脉及向下延伸的细叶柄整体保留。跨在上方照片右下边缘，部分覆盖照片，部分伸入下方街景；不是掌心照片内的小黄叶。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        332,
+        677,
+        726,
+        749
+      ],
+      "description": "两张照片之间的浅灰米色横向纸条，带黑色随性手写字“你是我荒漠里的雨季……”；字形大小和笔画位置不规则。纸条与整段手写字作为完整带字标签保留，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_white_rays",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        786,
+        346,
+        966
+      ],
+      "description": "下方照片左上角的三条白色手绘放射短线，分别向左上、上方和左侧伸出，带圆钝端头及轻微斑驳笔触。三条线构成一个强调符号，跨越照片边缘，整体保留。"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        521,
+        844,
+        817,
+        1166
+      ],
+      "description": "叠在下方杯子照片上的一组疏散发光星点，覆盖杯口上方、杯身、杯柄和右侧深色区域。包含大小不一的淡黄色四角星与周围柔和光晕，作为同一局部闪光装饰图案整体保留，不属于杯子实拍内容。"
+    }
+  ],
+  "layer_order": [
+    "photo_hand",
+    "photo_cup",
+    "overlay_character",
+    "overlay_maple_leaf",
+    "overlay_caption",
+    "overlay_white_rays",
+    "overlay_stars"
+  ]
+}

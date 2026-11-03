@@ -1,0 +1,48 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        47,
+        26,
+        1032,
+        700
+      ],
+      "description": "上方横向建筑摄影，完整显示屋顶、树枝、前景灌木、中央立柱和建筑立面上的红色标识，画面内文字与环境随照片替换；照片窗口四角圆润，边缘带较暗的柔和过渡。"
+    },
+    {
+      "id": "photo_painting",
+      "kind": "photo",
+      "bbox": [
+        48,
+        745,
+        406,
+        1415
+      ],
+      "description": "左下方竖向绘画照片，显示蓝色背景与粉红色、白色笔触组成的抽象画面，完整窗口为竖向矩形并带圆角，右缘与右侧照片相接并局部被其覆盖。"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        394,
+        745,
+        1032,
+        1415
+      ],
+      "description": "右下方竖向花束摄影，黄色和橙色菊花插在浅色花瓶中，置于黑色摄影背景前；完整照片窗口包含花束、花瓶及周围黑色区域，四角圆润，左缘压住左侧绘画照片的一小段。"
+    }
+  ],
+  "layer_order": [
+    "photo_building",
+    "photo_painting",
+    "photo_flowers"
+  ]
+}

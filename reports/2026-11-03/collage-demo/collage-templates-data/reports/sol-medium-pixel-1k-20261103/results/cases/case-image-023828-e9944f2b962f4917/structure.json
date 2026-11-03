@@ -1,0 +1,115 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_film_poster",
+    "description": "连续的黑色与深红色颗粒质感底图覆盖整张画布，左侧有橙红色光晕和渐变漏光，左右画布边缘保留黑色区域；中央胶片、独立照片窗口和文字装饰叠加其上，照片内容可替换而底图纹理与光色结构保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_partial",
+      "kind": "photo",
+      "bbox": [
+        493,
+        38,
+        822,
+        146
+      ],
+      "description": "胶片最上方的局部横向照片窗口，显示浅色暖调的模糊摄影画面，照片上缘延伸到画布顶部并被胶片框边界截断。"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        493,
+        186,
+        822,
+        722
+      ],
+      "description": "上方竖向照片窗口，包含一名面向右侧的女性侧面剪影、夕阳、水面和暖色光斑，摄影环境保留在完整窗口内；窗口四角圆润，周围胶片边框遮挡其边缘。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        493,
+        734,
+        822,
+        1241
+      ],
+      "description": "下方竖向照片窗口，包含一名面向右侧的女性侧脸近景，处于车厢或窗边的暖色夜景环境中，背景有橙色灯光和深色结构；完整照片区域被圆角胶片窗口裁切。"
+    },
+    {
+      "id": "photo_bottom_partial",
+      "kind": "photo",
+      "bbox": [
+        493,
+        1281,
+        822,
+        1402
+      ],
+      "description": "胶片最下方的局部横向照片窗口，显示暖橙色与深色的模糊摄影画面，窗口下缘延伸到画布底部并被画布边界截断。"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        156,
+        38,
+        924,
+        1402
+      ],
+      "description": "贯穿画布中部的竖向黑色胶片框体，包含四个照片窗口周围的黑色边框、两侧连续排列的圆角齿孔、白色编号和TITLE印字、颗粒磨损与细小亮色斑点；作为承载四张照片的完整固定胶片单元保留。",
+      "photo_id": [
+        "photo_top_partial",
+        "photo_upper",
+        "photo_lower",
+        "photo_bottom_partial"
+      ]
+    },
+    {
+      "id": "overlay_script_phrase",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        155,
+        386,
+        765
+      ],
+      "description": "左侧红色区域上的大型橙红至黄色手写风格艺术字，整体沿竖向倾斜排列，包含连续笔画和装饰性连接，具体字形作为固定图形保留，不拆分为普通文字。"
+    },
+    {
+      "id": "overlay_wish_caption",
+      "kind": "overlay",
+      "bbox": [
+        247,
+        891,
+        293,
+        1050
+      ],
+      "description": "左下红色区域上的小号暖黄色复古衬线印刷字样，沿竖向旋转排布，包含多行短句和细小字距，作为固定排版装饰保留。"
+    },
+    {
+      "id": "overlay_iso_label",
+      "kind": "overlay",
+      "bbox": [
+        255,
+        1237,
+        279,
+        1322
+      ],
+      "description": "左下深色区域上的竖向橙褐色ISO/100摄影参数标记，作为独立固定印刷标签保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_partial",
+    "photo_upper",
+    "photo_lower",
+    "photo_bottom_partial",
+    "frame_filmstrip",
+    "overlay_script_phrase",
+    "overlay_wish_caption",
+    "overlay_iso_label"
+  ]
+}

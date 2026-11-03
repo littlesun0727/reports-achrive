@@ -1,0 +1,126 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的户外摄影画面覆盖全画布：中央偏左的手持玩偶近景，玩偶前方可见手指，背景为树木、草地与暮色天空。人物与环境连续延伸至画布边缘；上层白色涂鸦、星形、彩色符号和文字遮挡局部，均不改变底图范围。"
+  },
+  "objects": [
+    {
+      "id": "overlay_mushroom_doodle",
+      "kind": "overlay",
+      "bbox": [
+        165,
+        315,
+        357,
+        480
+      ],
+      "description": "左侧白色手绘椭圆框内包含蘑菇、小星光和弧线等涂鸦，作为一个完整的独立装饰单元。"
+    },
+    {
+      "id": "overlay_staff_doodle",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        547,
+        355,
+        793
+      ],
+      "description": "左下角白色手绘音乐线条与音符组合，包含弯曲线条、音符和小装饰符号，完整保留为一个独立装饰单元。"
+    },
+    {
+      "id": "overlay_treble_clef",
+      "kind": "overlay",
+      "bbox": [
+        909,
+        130,
+        1072,
+        564
+      ],
+      "description": "画面中右侧的大型银白色纹理高音谱号，含其下方圆形音符部分，作为完整独立装饰保留。"
+    },
+    {
+      "id": "overlay_music_notes",
+      "kind": "overlay",
+      "bbox": [
+        1237,
+        454,
+        1400,
+        565
+      ],
+      "description": "右侧白色手绘的数个独立音符及其符杆组成一组音乐涂鸦，完整保留。"
+    },
+    {
+      "id": "overlay_lower_clef",
+      "kind": "overlay",
+      "bbox": [
+        1108,
+        819,
+        1207,
+        926
+      ],
+      "description": "右下方银白色纹理的独立低音谱号涂鸦，包含相连的曲线与小点。"
+    },
+    {
+      "id": "overlay_white_stars",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        24,
+        1434,
+        1047
+      ],
+      "description": "散布于画面各处的白色发光星形装饰，包含大小不一的星形成员；彼此同属重复星形点缀，完整保留其分散位置。"
+    },
+    {
+      "id": "overlay_yellow_symbols",
+      "kind": "overlay",
+      "bbox": [
+        3,
+        17,
+        1435,
+        1042
+      ],
+      "description": "画面中散布的黄色加号、圆环、小圆点及星形符号组成重复的装饰点缀，完整保留各成员的分散位置。"
+    },
+    {
+      "id": "overlay_color_squares",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        12,
+        1156,
+        1060
+      ],
+      "description": "散布在画面各处的彩色小方块，包括蓝、绿、粉、橙、黄和紫色块，作为重复的独立几何装饰保留。"
+    },
+    {
+      "id": "text_lyrics",
+      "kind": "text",
+      "bbox": [
+        105,
+        776,
+        514,
+        887
+      ],
+      "text": "Tastes like strawberries on a summer evening\nAnd it sounds just like a song\nI want more berries and that summer feeling\nIt's so wonderful and warm",
+      "color": "#E5E0B4",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_mushroom_doodle",
+    "overlay_staff_doodle",
+    "overlay_treble_clef",
+    "overlay_music_notes",
+    "overlay_lower_clef",
+    "overlay_white_stars",
+    "overlay_yellow_symbols",
+    "overlay_color_squares",
+    "text_lyrics"
+  ]
+}

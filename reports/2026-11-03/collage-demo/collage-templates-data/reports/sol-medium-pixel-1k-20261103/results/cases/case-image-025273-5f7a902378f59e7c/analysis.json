@@ -1,0 +1,260 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "lace_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "灰米色底面上的白色花卉蕾丝纹理连续覆盖画布四边，并在照片之间及下方大面积露出，属于需原样保留的全画布固定底图。上面的三张照片、相纸、夹子、蝴蝶结和纽扣装饰独立列出，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "灰米色底面上的白色花卉蕾丝纹理连续覆盖画布四边，并在照片之间",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        204,
+        161,
+        879,
+        668
+      ],
+      "description": "横向白色相纸，四周印有浅灰圆点，下边留有较宽纸边，承载一张牧场照片。底部隐约印字属于相纸自身设计，部分被蕾丝遮挡；顶部被蓝色夹子及紫色花形装饰压住。",
+      "photo_id": [
+        "photo_cow"
+      ],
+      "label": "横向白色相纸，四周印有浅灰圆点，下边留有较宽纸边，承载一张牧",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cow",
+      "kind": "photo",
+      "bbox": [
+        249,
+        206,
+        839,
+        568
+      ],
+      "description": "横向牧场远景，前景左下有一头朝右站立的棕色白脸牛，上方远处另有一头较小的牛。草地、灌木及散落石块共同保留，完整显示窗口为矩形，主体没有去背景。画面上叠有独立白色闪光装饰。",
+      "label": "横向牧场远景，前景左下有一头朝右站立的棕色白脸牛，上方远处另",
+      "method": "local"
+    },
+    {
+      "id": "overlay_blue_clip",
+      "kind": "overlay",
+      "bbox": [
+        362,
+        59,
+        717,
+        189
+      ],
+      "description": "浅蓝色立体宽夹子，上部有椭圆孔，下部横向夹口压在上方相纸边缘。夹子表面带斜写的“Archive”字样，字样、材质高光及阴影随整个夹子保留。",
+      "label": "浅蓝色立体宽夹子，上部有椭圆孔，下部横向夹口压在上方相纸边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_clip",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        122,
+        290,
+        293
+      ],
+      "description": "紫色五瓣花形纽扣与其下方露出的细长灰白夹件构成一个完整装饰，花心有四个孔，带圆润高光和阴影，压在上方相纸左上角。",
+      "label": "紫色五瓣花形纽扣与其下方露出的细长灰白夹件构成一个完整装饰，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lace_strip",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        574,
+        878,
+        675
+      ],
+      "description": "横向白色半透蕾丝带叠在上方相纸底边，保留连续花纹、网眼和起伏的花边轮廓；它是局部固定装饰，不承担照片窗口功能。中央部分被蝴蝶结覆盖。",
+      "label": "横向白色半透蕾丝带叠在上方相纸底边，保留连续花纹、网眼和起伏",
+      "method": "extract"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        98,
+        695,
+        502,
+        1215
+      ],
+      "description": "左下竖向浅粉色照片卡框，内缘为宽白色波浪花边，并有向照片内部延伸的白色圆点装饰。粉色外卡、波浪边和附属圆点作为完整框体保留，照片独立替换。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "左下竖向浅粉色照片卡框，内缘为宽白色波浪花边，并有向照片内部",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        109,
+        703,
+        491,
+        1206
+      ],
+      "description": "一名长发女子的近距离自拍，戴迷彩帽、穿浅蓝色上衣，正面看向镜头，头部位于上半部，身体延伸至下边。树干、户外座椅和地面仍在摄影背景中，保留完整竖向照片范围；四周被固定波浪框及圆点遮挡，不沿人物轮廓去背景。",
+      "label": "一名长发女子的近距离自拍，戴迷彩帽、穿浅蓝色上衣，正面看向镜",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        571,
+        694,
+        977,
+        1215
+      ],
+      "description": "右下竖向浅粉色照片卡框，围绕照片的白色波浪内缘与散布在内缘附近的白色圆点为一体设计。右下角被绿色星形纽扣覆盖，上边中央附近被蝴蝶结尾部局部遮挡。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右下竖向浅粉色照片卡框，围绕照片的白色波浪内缘与散布在内缘附",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        582,
+        702,
+        965,
+        1207
+      ],
+      "description": "一名戴帽、穿浅蓝色上衣和深色长裤的女子坐在户外木板秋千上，身体向后倾斜，双臂展开握住两侧绳索，双腿伸向左下。树木、草地、桌椅及远处遮阳设施保留在同一摄影画面内。完整竖向窗口被波浪框遮住四周，人物不出框。",
+      "label": "一名戴帽、穿浅蓝色上衣和深色长裤的女子坐在户外木板秋千上，身",
+      "method": "local"
+    },
+    {
+      "id": "overlay_bow",
+      "kind": "overlay",
+      "bbox": [
+        437,
+        566,
+        651,
+        734
+      ],
+      "description": "中央白色网纱蝴蝶结，带深灰褐色圆点，两侧蝴蝶结环与向下垂落的两条尾带作为完整单元保留。覆盖横向蕾丝带，并向下伸至两张竖向照片卡的上缘附近。",
+      "label": "中央白色网纱蝴蝶结，带深灰褐色圆点，两侧蝴蝶结环与向下垂落的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_button",
+      "kind": "overlay",
+      "bbox": [
+        909,
+        1146,
+        1034,
+        1266
+      ],
+      "description": "浅黄绿色五角星形立体纽扣，中央四孔，带边缘高光与投影；独立叠贴在右下照片卡的右下角，部分伸到蕾丝底图上。",
+      "label": "浅黄绿色五角星形立体纽扣，中央四孔，带边缘高光与投影；独立叠",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_right",
+      "kind": "overlay",
+      "bbox": [
+        760,
+        221,
+        831,
+        344
+      ],
+      "description": "牧场照片右上区域的一组白色闪光点，包括较大的四角星、下方十字亮点及数个小亮星，带柔和光晕，作为局部固定闪光装饰保留。",
+      "label": "牧场照片右上区域的一组白色闪光点，包括较大的四角星、下方十字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        276,
+        359,
+        304
+      ],
+      "description": "牧场照片左上草地处的小型白色闪光组合，包含一个较亮的小星点及右下附近的微小亮点，属于叠加装饰。",
+      "label": "牧场照片左上草地处的小型白色闪光组合，包含一个较亮的小星点及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_left",
+      "kind": "overlay",
+      "bbox": [
+        282,
+        457,
+        301,
+        478
+      ],
+      "description": "牧场照片左侧、前景牛尾附近的一枚白色小十字闪光，带微弱光晕，独立于摄影内容。",
+      "label": "牧场照片左侧、前景牛尾附近的一枚白色小十字闪光，带微弱光晕，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_bottom",
+      "kind": "overlay",
+      "bbox": [
+        319,
+        541,
+        333,
+        558
+      ],
+      "description": "牧场照片下边附近的一枚细小白色闪光点，位于草地上，为独立叠加装饰。",
+      "label": "牧场照片下边附近的一枚细小白色闪光点，位于草地上，为独立叠加",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_middle",
+      "kind": "overlay",
+      "bbox": [
+        391,
+        381,
+        406,
+        398
+      ],
+      "description": "牧场照片中部偏左、前景牛上方的一枚小白色闪光点，带淡光晕，为独立固定装饰。",
+      "label": "牧场照片中部偏左、前景牛上方的一枚小白色闪光点，带淡光晕，为",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "lace_background",
+    "frame_top",
+    "photo_cow",
+    "overlay_sparkles_right",
+    "overlay_sparkles_upper_left",
+    "overlay_sparkle_left",
+    "overlay_sparkle_bottom",
+    "overlay_sparkle_middle",
+    "overlay_lace_strip",
+    "photo_left",
+    "frame_left",
+    "photo_right",
+    "frame_right",
+    "overlay_bow",
+    "overlay_blue_clip",
+    "overlay_flower_clip",
+    "overlay_star_button"
+  ]
+}

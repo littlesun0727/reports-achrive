@@ -1,0 +1,380 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#5599CC"
+      }
+    },
+    {
+      "id": "overlay_zipper_line",
+      "kind": "overlay",
+      "bbox": [
+        407,
+        718,
+        566,
+        1441
+      ],
+      "description": "从照片底部白色卡片凸起处向下延伸至画布底边的白色弯曲拉链线，包含连续的横向齿状细节，作为独立固定装饰保留。",
+      "label": "从照片底部白色卡片凸起处向下延伸至画布底边的白色弯曲拉链线，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_music_doodles",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        416,
+        323,
+        596
+      ],
+      "description": "照片左侧的三条白色波浪线及其上的黄色星点、橙色音符、粉色旋涡和蓝色音符组合，作为一组独立手绘装饰保留；右端靠近并被照片边缘遮挡。",
+      "label": "照片左侧的三条白色波浪线及其上的黄色星点、橙色音符、粉色旋涡",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_spiral",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        873,
+        402,
+        1116
+      ],
+      "description": "左下方文字旁的黄色圆形旋涡线稿及中心圆点，作为独立固定图形保留。",
+      "label": "左下方文字旁的黄色圆形旋涡线稿及中心圆点，作为独立固定图形保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_music_note",
+      "kind": "overlay",
+      "bbox": [
+        534,
+        1137,
+        782,
+        1395
+      ],
+      "description": "右下方白色双音符线稿，内部带蓝色十字点缀，作为独立固定装饰保留。",
+      "label": "右下方白色双音符线稿，内部带蓝色十字点缀，作为独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        317,
+        242,
+        798,
+        721
+      ],
+      "description": "白色卡片内的矩形咖啡甜品照片，包含桌面、圆桌、两只饮品杯、左下方奶油甜点和右下方水果蛋糕，保留完整摄影环境与室内背景；照片边缘带白色窗口边界。",
+      "label": "白色卡片内的矩形咖啡甜品照片，包含桌面、圆桌、两只饮品杯、左",
+      "method": "local"
+    },
+    {
+      "id": "frame_cafe_card",
+      "kind": "frame",
+      "bbox": [
+        307,
+        232,
+        808,
+        768
+      ],
+      "description": "承载咖啡甜品照片的白色拍立得式卡片框，包含四周白边、圆角边缘、底部中央凸出的连接片及柔和阴影，固定框体整体保留。",
+      "photo_id": [
+        "photo_cafe"
+      ],
+      "label": "承载咖啡甜品照片的白色拍立得式卡片框，包含四周白边、圆角边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_star",
+      "kind": "overlay",
+      "bbox": [
+        218,
+        148,
+        395,
+        358
+      ],
+      "description": "照片左上方跨压照片框边缘的绿色六角星贴纸，带白色圆点图案，作为独立固定装饰保留。",
+      "label": "照片左上方跨压照片框边缘的绿色六角星贴纸，带白色圆点图案，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_star_right",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        829,
+        982,
+        1040
+      ],
+      "description": "画布右侧中部的粉色六角星贴纸，带白色圆点图案，作为独立固定装饰保留。",
+      "label": "画布右侧中部的粉色六角星贴纸，带白色圆点图案，作为独立固定装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_star_music",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        1075,
+        808,
+        1211
+      ],
+      "description": "右下方白色音符线稿上方叠放的粉色圆点六角星贴纸，部分遮挡音符顶部，作为独立固定装饰保留。",
+      "label": "右下方白色音符线稿上方叠放的粉色圆点六角星贴纸，部分遮挡音符",
+      "method": "extract"
+    },
+    {
+      "id": "text_every",
+      "kind": "text",
+      "bbox": [
+        134,
+        91,
+        225,
+        113
+      ],
+      "description": "(Every )",
+      "label": "(Every )",
+      "method": "local",
+      "text": "(Every )",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_summer",
+      "kind": "text",
+      "bbox": [
+        501,
+        105,
+        613,
+        129
+      ],
+      "description": "(summer)",
+      "label": "(summer)",
+      "method": "local",
+      "text": "(summer)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_is_a",
+      "kind": "text",
+      "bbox": [
+        899,
+        107,
+        967,
+        130
+      ],
+      "description": "(is a )",
+      "label": "(is a )",
+      "method": "local",
+      "text": "(is a )",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_brand",
+      "kind": "text",
+      "bbox": [
+        931,
+        386,
+        1008,
+        409
+      ],
+      "description": "(brand )",
+      "label": "(brand )",
+      "method": "local",
+      "text": "(brand )",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_twenty",
+      "kind": "text",
+      "bbox": [
+        62,
+        658,
+        117,
+        686
+      ],
+      "description": "(20)",
+      "label": "(20)",
+      "method": "local",
+      "text": "(20)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_twentysix",
+      "kind": "text",
+      "bbox": [
+        192,
+        754,
+        248,
+        779
+      ],
+      "description": "(26)",
+      "label": "(26)",
+      "method": "local",
+      "text": "(26)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_new",
+      "kind": "text",
+      "bbox": [
+        876,
+        693,
+        955,
+        716
+      ],
+      "description": "(new )",
+      "label": "(new )",
+      "method": "local",
+      "text": "(new )",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_story",
+      "kind": "text",
+      "bbox": [
+        903,
+        1171,
+        975,
+        1195
+      ],
+      "description": "(story)",
+      "label": "(story)",
+      "method": "local",
+      "text": "(story)",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_poem",
+      "kind": "text",
+      "bbox": [
+        61,
+        839,
+        268,
+        1378
+      ],
+      "description": "Run freely under\nthe bright\nsummer sun,\ndon’t hold back\nlaughter, and\nkeep all youthful\nvitality in this\nseason",
+      "label": "Run freely under\nthe bright\nsu",
+      "method": "local",
+      "text": "Run freely under\nthe bright\nsummer sun,\ndon’t hold back\nlaughter, and\nkeep all youthful\nvitality in this\nseason",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1416,
+        1072,
+        1432
+      ],
+      "description": "右下角贴近画布边缘的浅灰色小型平台水印标记，作为参考图中可见的独立固定元素保留。",
+      "label": "右下角贴近画布边缘的浅灰色小型平台水印标记，作为参考图中可见",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_zipper_line",
+    "overlay_left_music_doodles",
+    "overlay_yellow_spiral",
+    "overlay_bottom_music_note",
+    "photo_cafe",
+    "frame_cafe_card",
+    "overlay_green_star",
+    "overlay_pink_star_right",
+    "overlay_pink_star_music",
+    "text_every",
+    "text_summer",
+    "text_is_a",
+    "text_brand",
+    "text_twenty",
+    "text_twentysix",
+    "text_new",
+    "text_story",
+    "text_poem",
+    "overlay_watermark"
+  ]
+}

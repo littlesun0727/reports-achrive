@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为连续的水滴与失焦光斑摄影画面，无人物；左侧为灰米色，中央及右侧为蓝绿色，近处透明水滴散布其间。画面延伸到四边，两张婚纱照片、竖条和字样遮住局部，底层摄影环境整体替换。",
+      "background_type": "photo",
+      "label": "全画布为连续的水滴与失焦光斑摄影画面，无人物；左侧为灰米色，",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_bride_upper",
+      "kind": "photo",
+      "bbox": [
+        218,
+        235,
+        544,
+        723
+      ],
+      "description": "左上竖向婚纱照片，一名短发新娘穿白色露肩长袖婚纱，站立低头看向手中的橙粉色花束，裙摆向左铺展。完整矩形窗口保留草地、花丛、树木和木质背景，背景上的小型白色图案属于摄影内容；没有沿人物轮廓去背景。",
+      "label": "左上竖向婚纱照片，一名短发新娘穿白色露肩长袖婚纱，站立低头看",
+      "method": "local"
+    },
+    {
+      "id": "photo_bride_lower",
+      "kind": "photo",
+      "bbox": [
+        689,
+        788,
+        953,
+        1183
+      ],
+      "description": "右下独立竖向婚纱照片，取景从新娘肩颈附近至裙摆，头部被窗口上缘裁切，手持带橙色垂带的花束，白色裙摆向右延伸。完整矩形窗口保留花丛、草地和木质环境，与左上照片的取景及裙摆方向不同，不合并。",
+      "label": "右下独立竖向婚纱照片，取景从新娘肩颈附近至裙摆，头部被窗口上",
+      "method": "local"
+    },
+    {
+      "id": "overlay_vertical_bar",
+      "kind": "overlay",
+      "bbox": [
+        595,
+        567,
+        639,
+        866
+      ],
+      "description": "位于两张照片之间、略偏右的浅蓝白色半透明竖向矩形装饰条，底层蓝绿色摄影画面透过其表面可见；不承载照片，也不构成照片窗口。",
+      "label": "位于两张照片之间、略偏右的浅蓝白色半透明竖向矩形装饰条，底层",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        312,
+        986,
+        541,
+        1010
+      ],
+      "description": "左下偏中的白色细线花体字样，可辨为“XLXM PHOTO”，字母带卷曲笔画、斜向姿态和疏朗间隔；作为完整署名字样保留原有视觉形式，没有独立底板。",
+      "label": "左下偏中的白色细线花体字样，可辨为“XLXM PHOTO”，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_bride_upper",
+    "photo_bride_lower",
+    "overlay_vertical_bar",
+    "overlay_signature"
+  ]
+}

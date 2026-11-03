@@ -1,0 +1,153 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    900
+  ],
+  "objects": [
+    {
+      "id": "grid_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        900
+      ],
+      "description": "深色九宫格拼贴的固定底层结构，保留画布边缘与各单元之间的深灰分隔缝；六个摄影格和顶部三个黑色设计格作为独立对象替换或保留，底层不包含摄影内容。",
+      "background_type": "reference_clean",
+      "label": "深色九宫格拼贴的固定底层结构，保留画布边缘与各单元之间的深灰",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        1,
+        304,
+        291,
+        595
+      ],
+      "description": "左侧中排竖向人物照片，一名短发女性穿黑色上衣，手持带蜡烛的生日蛋糕并抬手靠近脸部；浅色室内背景中散落彩色纸屑，完整照片窗口被九宫格分隔缝包围。",
+      "label": "左侧中排竖向人物照片，一名短发女性穿黑色上衣，手持带蜡烛的生",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        304,
+        304,
+        595,
+        595
+      ],
+      "description": "中间中排人物照片，一名短发女性穿黑色衣服，面向镜头微笑并双手托着生日蛋糕；身后可见沙发、浅色墙面和彩色纸屑，保留完整摄影环境与方形显示范围。",
+      "label": "中间中排人物照片，一名短发女性穿黑色衣服，面向镜头微笑并双手",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        608,
+        304,
+        899,
+        595
+      ],
+      "description": "右侧中排人物照片，一名短发女性穿黑色衣服坐在室内，头部向右侧倾斜并面向镜头微笑，生日蛋糕位于下方前景；保留墙面、沙发和完整方形照片窗口。",
+      "label": "右侧中排人物照片，一名短发女性穿黑色衣服坐在室内，头部向右侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        1,
+        608,
+        291,
+        899
+      ],
+      "description": "左侧下排人物照片，一名短发女性戴生日帽、穿黑色衣服坐在沙发前，双手向两侧展开；浅色墙面和散落彩屑构成摄影环境，保留完整方形显示范围。",
+      "label": "左侧下排人物照片，一名短发女性戴生日帽、穿黑色衣服坐在沙发前",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        304,
+        608,
+        595,
+        899
+      ],
+      "description": "中间下排人物照片，一名短发女性穿黑色衣服，抬手比出手势并托着生日蛋糕，正面面向镜头；背景包含墙面、沙发和彩色织物，保留完整方形照片窗口。",
+      "label": "中间下排人物照片，一名短发女性穿黑色衣服，抬手比出手势并托着",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        608,
+        608,
+        899,
+        899
+      ],
+      "description": "右侧下排人物照片，一名短发女性戴彩色生日帽、穿黑色衣服侧坐在室内，手持带蜡烛的生日蛋糕并面向镜头；保留沙发、墙面、彩屑和下方花朵等摄影环境。",
+      "label": "右侧下排人物照片，一名短发女性戴彩色生日帽、穿黑色衣服侧坐在",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_left",
+      "kind": "overlay",
+      "bbox": [
+        1,
+        1,
+        291,
+        291
+      ],
+      "description": "顶部左侧黑色方形固定设计格，包含白色手写生日祝福字样以及左上和上方散布的星光、花火状笔触；文字与装饰具有手绘书法造型，作为一个整体保留。",
+      "label": "顶部左侧黑色方形固定设计格，包含白色手写生日祝福字样以及左上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_center",
+      "kind": "overlay",
+      "bbox": [
+        304,
+        1,
+        595,
+        291
+      ],
+      "description": "顶部中间黑色方形固定设计格，中央横向排列白色手写中文生日祝福字样，笔画为不规则刷写效果；黑色底面与书法字形作为独立整体保留。",
+      "label": "顶部中间黑色方形固定设计格，中央横向排列白色手写中文生日祝福",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        1,
+        899,
+        291
+      ],
+      "description": "顶部右侧黑色方形固定设计格，包含白色手写生日祝福字样、顶部生日帽线稿、星星和装饰性短线；文字与图案共同构成固定手绘单元，整体保留。",
+      "label": "顶部右侧黑色方形固定设计格，包含白色手写生日祝福字样、顶部生",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "grid_base",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right",
+    "overlay_top_left",
+    "overlay_top_center",
+    "overlay_top_right"
+  ]
+}

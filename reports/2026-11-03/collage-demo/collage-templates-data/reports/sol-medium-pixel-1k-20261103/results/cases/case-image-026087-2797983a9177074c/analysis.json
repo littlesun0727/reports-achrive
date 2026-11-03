@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "深色粗粒路面与下方伸入画面的手臂、手和橙红色叶片构成连续的全画布摄影画面。单只手从右下方伸向画面中央，捏持两片叶子；棕色袖口和衣袖延伸至右下边缘。路面环境一直延伸到画布四边，上层照片、白色曲线和文字遮挡局部；整体作为可替换摄影底图保留。",
+      "background_type": "photo",
+      "label": "深色粗粒路面与下方伸入画面的手臂、手和橙红色叶片构成连续的全",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_leaf_hand",
+      "kind": "photo",
+      "bbox": [
+        76,
+        239,
+        341,
+        589
+      ],
+      "description": "左上竖向近景照片，一只手从下方捏着一片鲜黄色叶子，叶片占据画面主体；保留照片内环境，窗口边缘带白色手绘虚线描边，描边随照片窗口一并重建。",
+      "label": "左上竖向近景照片，一只手从下方捏着一片鲜黄色叶子，叶片占据画",
+      "method": "local"
+    },
+    {
+      "id": "photo_indoor_table",
+      "kind": "photo",
+      "bbox": [
+        407,
+        56,
+        664,
+        370
+      ],
+      "description": "上方中央竖向室内照片，画面从上至下可见收纳物、深色沙发和木桌，桌上有一只带图案的杯子及小物件；保留完整摄影环境，窗口边缘带白色手绘虚线描边，描边随照片窗口一并重建。",
+      "label": "上方中央竖向室内照片，画面从上至下可见收纳物、深色沙发和木桌",
+      "method": "local"
+    },
+    {
+      "id": "photo_tree",
+      "kind": "photo",
+      "bbox": [
+        773,
+        332,
+        1007,
+        634
+      ],
+      "description": "右上竖向夜间树木近景，枝干与浓密绿叶被点状暖光照亮；保留完整摄影环境，窗口边缘带白色手绘虚线描边，描边随照片窗口一并重建。",
+      "label": "右上竖向夜间树木近景，枝干与浓密绿叶被点状暖光照亮；保留完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_open_book",
+      "kind": "photo",
+      "bbox": [
+        114,
+        656,
+        351,
+        939
+      ],
+      "description": "左下竖向近景照片，深色木面上摊开一本书，书页上放着一片带浅色斑点的棕叶；保留完整摄影环境，窗口边缘带白色手绘虚线描边，描边随照片窗口一并重建。",
+      "label": "左下竖向近景照片，深色木面上摊开一本书，书页上放着一片带浅色",
+      "method": "local"
+    },
+    {
+      "id": "photo_leaf_book",
+      "kind": "photo",
+      "bbox": [
+        688,
+        703,
+        918,
+        1004
+      ],
+      "description": "右下竖向俯拍照片，木板地面上散落多片叶子，中间摊开一本摆有叶片的小册子；保留完整摄影环境，窗口边缘带白色手绘虚线描边，描边随照片窗口一并重建。",
+      "label": "右下竖向俯拍照片，木板地面上散落多片叶子，中间摊开一本摆有叶",
+      "method": "local"
+    },
+    {
+      "id": "overlay_arc",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        82,
+        970,
+        1078
+      ],
+      "description": "粗白色手绘圆弧，在照片拼贴后方环绕画面中部；多段弧线因上层照片遮挡而中断，整体作为一条连续的装饰曲线保留。",
+      "label": "粗白色手绘圆弧，在照片拼贴后方环绕画面中部；多段弧线因上层照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_center_doodle",
+      "kind": "overlay",
+      "bbox": [
+        472,
+        386,
+        673,
+        706
+      ],
+      "description": "画面中央的白色手绘涂绕圆形、向上箭头与斜向下箭头组成的连贯涂鸦，周围附有小十字和点状笔画；整体作为一个固定装饰单元保留。",
+      "label": "画面中央的白色手绘涂绕圆形、向上箭头与斜向下箭头组成的连贯涂",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_stars",
+      "kind": "overlay",
+      "bbox": [
+        879,
+        182,
+        989,
+        286
+      ],
+      "description": "右上方三枚白色手绘空心星形与小点组成的装饰簇，整体保留。",
+      "label": "右上方三枚白色手绘空心星形与小点组成的装饰簇，整体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        982,
+        281,
+        1068
+      ],
+      "description": "左下方一枚较大的白色手绘闪光星及两枚小闪光符号组成的装饰簇，整体保留。",
+      "label": "左下方一枚较大的白色手绘闪光星及两枚小闪光符号组成的装饰簇，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chinese_lettering",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        1177,
+        584,
+        1329
+      ],
+      "description": "左下区域两行白色手写中文艺术字，内容为“幸福有个小名／叫做普通的一天！”，字形和笔画具有明显手绘造型，作为整体字形设计保留。",
+      "label": "左下区域两行白色手写中文艺术字，内容为“幸福有个小名／叫做普",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_arc",
+    "photo_leaf_hand",
+    "photo_indoor_table",
+    "photo_tree",
+    "photo_open_book",
+    "photo_leaf_book",
+    "overlay_upper_stars",
+    "overlay_lower_sparkles",
+    "overlay_center_doodle",
+    "overlay_chinese_lettering"
+  ]
+}

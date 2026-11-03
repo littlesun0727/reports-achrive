@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        728
+      ],
+      "description": "横向摄影画面，左侧为打开的紫色笔记本电脑和桌面，右侧为白色盘子、磨菇味零食包装及两杯粉色小食品，背景墙上有多张粉色装饰卡片；画面连续铺满上部宽幅区域，底缘被下方照片和文字遮挡，保留完整摄影环境。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下方竖向摄影画面，粉色毛绒玩偶横卧在桌面上，周围有装饰卡片、两杯粉色小食品和一只盛放蘑菇形食品的白色盘子；保留人物替代物、桌面及墙面摄影环境，矩形显示区域的上缘与上方照片相接并被文字局部覆盖。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下方竖向摄影画面，白色桌面上的金属线篮内放有磨菇味零食包装、粉色食品包装和多杯粉色小食品，后方有粉色墙面装饰卡片；保留完整摄影环境，矩形显示区域与左下照片并列，顶部和上部区域被文字覆盖。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        112,
+        648,
+        1005,
+        805
+      ],
+      "text": "26岁 打工人副业做自媒体的\n第十二天",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "text_title"
+  ]
+}

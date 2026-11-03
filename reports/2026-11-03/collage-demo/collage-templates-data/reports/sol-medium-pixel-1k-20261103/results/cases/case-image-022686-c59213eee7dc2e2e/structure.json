@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        607
+      ],
+      "description": "上半幅横向夜景照片，右侧天空绽放多簇大型白色烟花，中下部有红色光点、金色烟火和烟雾，左侧为红色灯带勾勒的弧形建筑，底部保留舞台设施及观众暗色剪影。完整摄影环境保留，显示窗口覆盖画布上半幅；下沿与另一张不同烟花状态的照片直接拼接，底部中央叠有白色品牌字样。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        607,
+        1080,
+        1214
+      ],
+      "description": "下半幅独立横向夜景照片，中央天空为红色烟花，右上有较暗的烟花光线，下方横向展开密集白色与红色烟火；左侧保留红色弧形建筑，底部有舞台、观众背影、手机和发光物。摄影环境完整保留，与上图的烟花状态和建筑位置不连续；矩形窗口延伸至画布左右及底边，底部中央叠有白色品牌字样。"
+    },
+    {
+      "id": "overlay_logo_top",
+      "kind": "overlay",
+      "bbox": [
+        439,
+        564,
+        644,
+        591
+      ],
+      "description": "上方照片底部中央的白色品牌水印，由特定连笔造型的 DJI 标志及右侧横排“OSMO POCKET 3”组成，作为完整固定字标保留，不属于夜景拍摄内容。"
+    },
+    {
+      "id": "overlay_logo_bottom",
+      "kind": "overlay",
+      "bbox": [
+        439,
+        1170,
+        644,
+        1198
+      ],
+      "description": "下方照片底部中央的独立白色品牌水印，由特定连笔造型的 DJI 标志及右侧横排“OSMO POCKET 3”组成，整体保留原有字标视觉形式。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_logo_top",
+    "overlay_logo_bottom"
+  ]
+}

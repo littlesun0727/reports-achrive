@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        675
+      ],
+      "description": "上方横向摄影画面，从上边和左右边延伸至画布约三分之二高度。俯拍一名穿白色裙装的人，头部不入画，右侧手握裙边，中上部可见裙摆、深色鞋及袜子；草地和左侧阳光投影共同保留。下方中央被独立园景照片遮挡，摄影环境未去除。"
+    },
+    {
+      "id": "overlay_lower_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        675,
+        1080,
+        1080
+      ],
+      "description": "下部通栏白色局部排版底板，左右及底边抵达画布边缘，上缘水平。没有独立照片内口，中央部分被跨越上缘的园景照片覆盖，底部留出标题排版空间。"
+    },
+    {
+      "id": "photo_garden",
+      "kind": "photo",
+      "bbox": [
+        209,
+        541,
+        938,
+        983
+      ],
+      "description": "独立横向矩形园景照片，完整显示浅色天空、茂密树林、中央穹顶与长排石质拱廊、前方水池及高喷水柱，建筑附近有多名远景游人。保留全部摄影环境，四边直接裁切，无可见独立框体；照片跨在上方草地照片与下方白色底板之上。"
+    },
+    {
+      "id": "overlay_center_graphic",
+      "kind": "overlay",
+      "bbox": [
+        429,
+        317,
+        640,
+        521
+      ],
+      "description": "叠在草地上的白色细线与微小字样组成的完整设计单元：左侧连续曲线形成上下两段弧形，向右下方延伸收尾；周围分散排有“(3)”“(4)”“is”“(5)”和“Everything”。字词位置与曲线共同构成特殊排版，整体保留，不拆为普通文字。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        331,
+        1023,
+        750,
+        1044
+      ],
+      "text": "Free to wander, green to wonder",
+      "color": "#292B20",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "overlay_lower_panel",
+    "photo_garden",
+    "overlay_center_graphic",
+    "text_bottom"
+  ]
+}

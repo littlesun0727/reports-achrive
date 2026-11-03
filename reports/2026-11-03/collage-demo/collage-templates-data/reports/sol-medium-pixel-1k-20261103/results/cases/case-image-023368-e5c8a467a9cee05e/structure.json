@@ -1,0 +1,203 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_base",
+    "description": "全画布为白色至浅灰色的柔和底图，带大面积模糊的灰色块状变化，四边及图文间隙均有延续，不是均匀纯色或连续摄影场景。保留这些底色变化，独立照片、文字标签和水印不归入底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_top_heading",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        145,
+        778,
+        202
+      ],
+      "description": "浅灰白色横向标题标签，包含黑色粗体大写文字“WE ARE ALL BEAUTIFUL GIRL”。文字与矩形承托底板作为完整固定单元保留。"
+    },
+    {
+      "id": "overlay_top_quote",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        211,
+        778,
+        309
+      ],
+      "description": "浅灰色矩形文字标签，包含两行黑色中文：“生活，”和“不需要太多的理由，只需要坚定的方向”。保留文字、底板及其整体排版。"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        287,
+        318,
+        430,
+        461
+      ],
+      "description": "左上方方形室内照片，无清晰人物主体。深色斗柜、墙上画作、暖黄色圆灯及室内陈设共同构成画面，保留完整摄影环境；四边为清楚的照片窗口边界。"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        439,
+        318,
+        582,
+        461
+      ],
+      "description": "上方中间方形人物照片，一名长发女性背向镜头、头部略向左转，穿露肩浅棕色衣服，呈腰部以上近景。人物与身后的昏暗室内座椅及陈设一起保留，照片按方形窗口显示。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        591,
+        318,
+        734,
+        461
+      ],
+      "description": "右上方方形室内照片，暖黄色球形灯位于中右部，左侧可见浅色花束，下方有深色家具，后方为墙面及挂画。没有清晰人物，保留全部室内摄影环境。"
+    },
+    {
+      "id": "overlay_lower_heading",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        622,
+        778,
+        680
+      ],
+      "description": "浅灰白色横向标题标签，左侧印有黑色粗体衬线英文“better late than never.”，文字和矩形底板共同保留。"
+    },
+    {
+      "id": "photo_dark_room",
+      "kind": "photo",
+      "bbox": [
+        287,
+        689,
+        430,
+        832
+      ],
+      "description": "下半部分左侧第一张方形照片，拍摄昏暗的室内或夜间休闲空间，中央偏下有发亮的小屏幕，底部有暖黄色灯光和桌面物件，远处散布微弱光点。保留原有低照度摄影环境，暗部不是透明区域。"
+    },
+    {
+      "id": "overlay_hope_quote",
+      "kind": "overlay",
+      "bbox": [
+        439,
+        692,
+        745,
+        760
+      ],
+      "description": "两行黑色中文“心怀希望 脚步不停”和“你终会遇见更好的自己”，第二行末尾附有带高光的黑色爱心。文字与爱心组成同一局部字样设计，完整保留，不把爱心并入邻近照片。"
+    },
+    {
+      "id": "photo_drinks_left",
+      "kind": "photo",
+      "bbox": [
+        439,
+        841,
+        582,
+        984
+      ],
+      "description": "中下部左侧方形酒吧桌面照片，画面较暗，可见杯碟、饮品及桌面小物，保留摄影环境。白色账号水印和取景角标叠在照片上方，不属于摄影内容；照片窗口完整保留，不按水印遮挡缩小。"
+    },
+    {
+      "id": "photo_drinks_right",
+      "kind": "photo",
+      "bbox": [
+        591,
+        841,
+        734,
+        984
+      ],
+      "description": "中下部右侧方形饮品近景照片，前景为装有深色饮料的矮玻璃杯，后方有透明高杯和吧台陈设，一条明亮斜线穿过上半部。保留杯子及完整摄影环境，叠加的白色水印独立归属装饰。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        449,
+        883,
+        715,
+        953
+      ],
+      "description": "跨在两张饮品照片上的白色水印单元，含四个圆转角取景角标、账号文字“@红颜商业咨询”、分隔竖线及“小红书”字样。角标与文字共同组成完整标记，保持两张照片之间空隙处的连续显示。"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        287,
+        993,
+        430,
+        1136
+      ],
+      "description": "左侧方形近景照片，粉色花束位于中央，周围是深色座椅或衣物，右侧可见人物局部手臂，未显示完整人物。花束、人物局部及所在环境均属于同一摄影单元，按完整方形窗口显示。"
+    },
+    {
+      "id": "text_effort",
+      "kind": "text",
+      "bbox": [
+        439,
+        997,
+        736,
+        1061
+      ],
+      "text": "努力和收获总有时差\n做好当下就是最好的解法",
+      "color": "#292929",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_lamp",
+      "kind": "photo",
+      "bbox": [
+        287,
+        1145,
+        430,
+        1288
+      ],
+      "description": "左下方方形室内照片，左侧为浅色灯罩和多段圆润灯座，右侧有桌面、书本及深色百叶，后方可见垂直帘幕。无人，保留全部室内摄影环境及清楚的方形显示边界。"
+    },
+    {
+      "id": "text_self",
+      "kind": "text",
+      "bbox": [
+        439,
+        1149,
+        627,
+        1251
+      ],
+      "text": "仰望他人\n消耗自己的心力\n...",
+      "color": "#292929",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_top_heading",
+    "overlay_top_quote",
+    "photo_top_left",
+    "photo_top_center",
+    "photo_top_right",
+    "overlay_lower_heading",
+    "photo_dark_room",
+    "photo_drinks_left",
+    "photo_drinks_right",
+    "photo_flowers",
+    "photo_lamp",
+    "overlay_hope_quote",
+    "text_effort",
+    "text_self",
+    "overlay_watermark"
+  ]
+}

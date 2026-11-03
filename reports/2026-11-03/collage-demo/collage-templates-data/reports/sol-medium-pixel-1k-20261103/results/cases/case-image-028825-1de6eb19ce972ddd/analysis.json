@@ -1,0 +1,61 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    915
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        915
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "frame_film_strip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        1080,
+        915
+      ],
+      "description": "完整的黑色胶卷底片框体，包含上下两排白色齿孔、顶部的 KODAK 400 印字、底部的 KODAK 2010TX 印字与 14 标记，以及胶片边缘的刻度和纹理。中央圆角照片窗口由该胶卷框体承托，框体固定设计整体保留。",
+      "photo_id": [
+        "photo_sky_birds"
+      ],
+      "label": "完整的黑色胶卷底片框体，包含上下两排白色齿孔、顶部的 KOD",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sky_birds",
+      "kind": "photo",
+      "bbox": [
+        66,
+        162,
+        1007,
+        743
+      ],
+      "description": "中央圆角矩形摄影窗口，显示蓝色天空和一群分散飞行的黑色鸟群，鸟群主要位于窗口中部至右下区域；摄影环境完整保留在窗口内，照片边缘沿圆角窗口裁切，未见独立去背景主体或跨出窗口的前景内容。",
+      "label": "中央圆角矩形摄影窗口，显示蓝色天空和一群分散飞行的黑色鸟群，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_film_strip",
+    "photo_sky_birds"
+  ]
+}

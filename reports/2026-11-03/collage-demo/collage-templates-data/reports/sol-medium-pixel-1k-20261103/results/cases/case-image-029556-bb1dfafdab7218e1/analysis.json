@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "上半幅横向双人近景合照，两位戴眼镜的长发女性面向镜头，右侧人物更靠近镜头，戴黑白格围巾，遮挡左侧人物部分身体。保留身后的树林、暗部环境及左侧强烈金色逆光和光晕。照片完整显示至画布上、左、右边缘，下边在横向拼接线处结束；左上白色手写字为独立叠加装饰。",
+      "label": "上半幅横向双人近景合照，两位戴眼镜的长发女性面向镜头，右侧人",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下半幅独立横向人物照片，一位戴眼镜的长发女性居中偏左，穿深色外套，双手戴浅色手套并张开掌心朝向镜头，身体下部被画布底边裁切。保留树林、树干、灌木及左上照入的金色阳光，摄影背景未去除。上边与双人照片形成清晰接缝，人物姿态和取景重新起始；右上手写字独立于摄影内容。",
+      "label": "下半幅独立横向人物照片，一位戴眼镜的长发女性居中偏左，穿深色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_note",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        108,
+        261,
+        388
+      ],
+      "description": "左上白色手写日期与中文游园记录组成的完整字样装饰，可辨日期为“2026.1.2”，正文提及南京红山动物园、动物与暖暖的阳光。各行起点、字形大小和笔画均不规则，保留原有手写笔触、分行及错落位置，无独立纸张底板，叠加于上方照片。",
+      "label": "左上白色手写日期与中文游园记录组成的完整字样装饰，可辨日期为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_note",
+      "kind": "overlay",
+      "bbox": [
+        741,
+        787,
+        1040,
+        1025
+      ],
+      "description": "下方照片右上区域的白色手写记录，包含日期“2026.1.2”及四行中文正文，可辨内容提及逛动物园和拍了一张胶片。日期与正文采用错落起点和不规则手写笔画，作为完整独立字样装饰保留，无纸张底板，覆盖在树干及暗色摄影环境之上。",
+      "label": "下方照片右上区域的白色手写记录，包含日期“2026.1.2”",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_top_note",
+    "overlay_bottom_note"
+  ]
+}

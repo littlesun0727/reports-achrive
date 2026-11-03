@@ -1,0 +1,136 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_leaves",
+      "kind": "photo",
+      "bbox": [
+        20,
+        20,
+        520,
+        665
+      ],
+      "description": "左上竖幅仰拍树冠照片，无人物；绿色枝叶从四周伸入，中央及上部露出蓝色天空。保留完整枝叶、天空与摄影明暗，照片显示至胶片内口边界，不沿叶片轮廓去背景。",
+      "label": "左上竖幅仰拍树冠照片，无人物；绿色枝叶从四周伸入，中央及上部",
+      "method": "local"
+    },
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        560,
+        20,
+        1060,
+        665
+      ],
+      "description": "右上竖幅建筑外景照片，无人物；上半部为灰色建筑与成排窗户，下半部有深色门面、灌木、矮墙和绿色草地。整幅具有明显横向运动模糊，中央偏右有白色亮斑；保留完整摄影环境，四边由胶片内口限定。",
+      "label": "右上竖幅建筑外景照片，无人物；上半部为灰色建筑与成排窗户，下",
+      "method": "local"
+    },
+    {
+      "id": "photo_white_roses",
+      "kind": "photo",
+      "bbox": [
+        20,
+        685,
+        520,
+        1330
+      ],
+      "description": "左下竖幅花卉近景照片，无人物；两朵白色玫瑰位于中下部，绿色枝叶延伸至底边，背景为蓝色竖向板墙。花枝在墙面投下深色阴影，左侧还有暗色叶片；全部属于同一摄影画面，保留背景，不沿花枝去背景。",
+      "label": "左下竖幅花卉近景照片，无人物；两朵白色玫瑰位于中下部，绿色枝",
+      "method": "local"
+    },
+    {
+      "id": "photo_pink_flowers",
+      "kind": "photo",
+      "bbox": [
+        560,
+        685,
+        1060,
+        1330
+      ],
+      "description": "右下竖幅花丛照片，无人物；多簇粉色小花散布在茂密绿色枝叶之间，枝条向下垂落，下部及右侧露出深色环境和局部灰色结构。完整保留花丛及摄影背景，显示范围为胶片矩形内口，与其他三张照片独立。",
+      "label": "右下竖幅花丛照片，无人物；多簇粉色小花散布在茂密绿色枝叶之间",
+      "method": "local"
+    },
+    {
+      "id": "frame_left_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        540,
+        1350
+      ],
+      "description": "左列黑色竖向胶片条，具有上下两个独立照片窗口，中间为黑色横向间隔。两侧保留金黄色竖排胶片印字、编号及三角标记，可辨“SLXE FILM”等字样；这些印刷和完整黑色框体一起保留。",
+      "photo_id": [
+        "photo_leaves",
+        "photo_white_roses"
+      ],
+      "label": "左列黑色竖向胶片条，具有上下两个独立照片窗口，中间为黑色横向",
+      "method": "extract"
+    },
+    {
+      "id": "frame_right_film",
+      "kind": "frame",
+      "bbox": [
+        540,
+        0,
+        1080,
+        1350
+      ],
+      "description": "右列黑色竖向胶片条，具有上下两个独立照片窗口，与左列并排。上下及两侧黑色框沿、中央横向间隔、金黄色竖排印字、编号和三角标记共同构成固定框体，可辨“SLXE FILM”等字样，整体保留。",
+      "photo_id": [
+        "photo_building",
+        "photo_pink_flowers"
+      ],
+      "label": "右列黑色竖向胶片条，具有上下两个独立照片窗口，与左列并排。上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1324,
+        1072,
+        1343
+      ],
+      "description": "右下角小型半透明灰黑色圆角水印标签，内部可辨“小红书”字样，跨在右下照片底沿与黑色胶片边框上，标签及文字整体保留。",
+      "label": "右下角小型半透明灰黑色圆角水印标签，内部可辨“小红书”字样，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_leaves",
+    "photo_building",
+    "photo_white_roses",
+    "photo_pink_flowers",
+    "frame_left_film",
+    "frame_right_film",
+    "overlay_watermark"
+  ]
+}

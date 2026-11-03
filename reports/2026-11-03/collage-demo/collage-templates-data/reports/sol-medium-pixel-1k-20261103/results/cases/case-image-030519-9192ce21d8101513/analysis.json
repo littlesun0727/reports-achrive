@@ -1,0 +1,461 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1414,
+    1051
+  ],
+  "objects": [
+    {
+      "id": "paper_spread",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1414,
+        1051
+      ],
+      "description": "连续的白色双页纸张底图，包含中央书脊的浅灰阴影、页面边缘和轻微纸张质感，覆盖整个1414×1051画布；照片、纸张面板、贴纸和手写内容均为上层独立单元。",
+      "background_type": "reference_clean",
+      "label": "连续的白色双页纸张底图，包含中央书脊的浅灰阴影、页面边缘和轻",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left_top_door",
+      "kind": "photo",
+      "bbox": [
+        91,
+        97,
+        219,
+        268
+      ],
+      "description": "竖向街景照片，画面中两名人物站在店铺或建筑入口处，保留门口和地面环境，矩形照片窗口。",
+      "label": "竖向街景照片，画面中两名人物站在店铺或建筑入口处，保留门口和",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_top_truck",
+      "kind": "photo",
+      "bbox": [
+        222,
+        97,
+        351,
+        268
+      ],
+      "description": "竖向街景照片，红色小型货车停在城市街道中央，保留建筑、道路和车辆周围环境。",
+      "label": "竖向街景照片，红色小型货车停在城市街道中央，保留建筑、道路和",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_top_sign",
+      "kind": "photo",
+      "bbox": [
+        353,
+        97,
+        482,
+        268
+      ],
+      "description": "竖向城市照片，蓝黄色停车标志位于画面中央，保留建筑立面和街道环境。",
+      "label": "竖向城市照片，蓝黄色停车标志位于画面中央，保留建筑立面和街道",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_top_cat",
+      "kind": "photo",
+      "bbox": [
+        485,
+        96,
+        612,
+        268
+      ],
+      "description": "竖向近景照片，黑色门口和悬挂的小型人物或猫咪装饰位于画面上方，底部有浅色织物，保留摄影背景。",
+      "label": "竖向近景照片，黑色门口和悬挂的小型人物或猫咪装饰位于画面上方",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_middle_woman",
+      "kind": "photo",
+      "bbox": [
+        86,
+        274,
+        220,
+        447
+      ],
+      "description": "竖向街景人物照片，一名女性站在店铺入口前，人物位于中央，保留招牌、门面和道路环境。",
+      "label": "竖向街景人物照片，一名女性站在店铺入口前，人物位于中央，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_middle_sky",
+      "kind": "photo",
+      "bbox": [
+        223,
+        274,
+        350,
+        448
+      ],
+      "description": "竖向城市照片，一名人物在建筑和蓝灰天空前举手或持物，保留城市背景和街道环境。",
+      "label": "竖向城市照片，一名人物在建筑和蓝灰天空前举手或持物，保留城市",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_middle_face",
+      "kind": "photo",
+      "bbox": [
+        353,
+        274,
+        482,
+        449
+      ],
+      "description": "竖向街景照片，人物站在带有夸张巨大脸部招牌的店铺前，保留店面、文字招牌和人物。",
+      "label": "竖向街景照片，人物站在带有夸张巨大脸部招牌的店铺前，保留店面",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_middle_statue",
+      "kind": "photo",
+      "bbox": [
+        486,
+        274,
+        614,
+        447
+      ],
+      "description": "竖向街景照片，彩色大型人物或雕像位于黄色结构前，保留完整建筑和户外环境。",
+      "label": "竖向街景照片，彩色大型人物或雕像位于黄色结构前，保留完整建筑",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_lower_shop",
+      "kind": "photo",
+      "bbox": [
+        86,
+        452,
+        350,
+        509
+      ],
+      "description": "横向街景照片，深色店面、招牌和悬挂的鱼形或大型装饰构成完整摄影区域，矩形显示。",
+      "label": "横向街景照片，深色店面、招牌和悬挂的鱼形或大型装饰构成完整摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_lower_snack",
+      "kind": "photo",
+      "bbox": [
+        352,
+        451,
+        615,
+        509
+      ],
+      "description": "横向街景照片，巨大的卡通食品人物和建筑外墙占据画面，保留完整摄影环境。",
+      "label": "横向街景照片，巨大的卡通食品人物和建筑外墙占据画面，保留完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_snack_hand",
+      "kind": "photo",
+      "bbox": [
+        149,
+        507,
+        661,
+        674
+      ],
+      "description": "横向近景照片，戴手套的手拿着包装食品，后方可见卡通食品人物和店铺环境；摄影背景保留，照片上方和下方被文字及相邻单元遮挡。",
+      "label": "横向近景照片，戴手套的手拿着包装食品，后方可见卡通食品人物和",
+      "method": "local"
+    },
+    {
+      "id": "overlay_osaka_poster",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        509,
+        155,
+        678
+      ],
+      "description": "独立的复古旅行海报，印有OSAKA字样、城堡插图和树木图案，作为固定平面设计单元保留。",
+      "label": "独立的复古旅行海报，印有OSAKA字样、城堡插图和树木图案，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_diary_text",
+      "kind": "overlay",
+      "bbox": [
+        178,
+        570,
+        617,
+        738
+      ],
+      "description": "覆盖左侧拼贴中部的多行中文手写日记文字，字形和行距具有手写装饰特征，作为整体固定文字图形保留。",
+      "label": "覆盖左侧拼贴中部的多行中文手写日记文字，字形和行距具有手写装",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_left_shrine",
+      "kind": "photo",
+      "bbox": [
+        27,
+        753,
+        228,
+        902
+      ],
+      "description": "横向街景照片，红色建筑或神社入口位于画面左侧，保留门面、装饰和街道环境。",
+      "label": "横向街景照片，红色建筑或神社入口位于画面左侧，保留门面、装饰",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_building",
+      "kind": "photo",
+      "bbox": [
+        232,
+        753,
+        430,
+        902
+      ],
+      "description": "横向城市照片，人物站在浅色建筑入口下方，保留建筑结构、灯具和街道环境。",
+      "label": "横向城市照片，人物站在浅色建筑入口下方，保留建筑结构、灯具和",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_billboard",
+      "kind": "photo",
+      "bbox": [
+        434,
+        753,
+        548,
+        902
+      ],
+      "description": "竖向城市街景照片，人物站在高楼广告牌和城市招牌前，保留完整街景环境。",
+      "label": "竖向城市街景照片，人物站在高楼广告牌和城市招牌前，保留完整街",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left_signs",
+      "kind": "photo",
+      "bbox": [
+        550,
+        753,
+        660,
+        902
+      ],
+      "description": "竖向城市街景照片，人物站在密集的彩色广告牌和建筑立面前，保留摄影环境。",
+      "label": "竖向城市街景照片，人物站在密集的彩色广告牌和建筑立面前，保留",
+      "method": "local"
+    },
+    {
+      "id": "overlay_left_bottom_text",
+      "kind": "overlay",
+      "bbox": [
+        304,
+        868,
+        425,
+        958
+      ],
+      "description": "叠加在左下照片上的多行中文手写注记，具有独立手写排版和装饰性，作为整体固定文字图形保留。",
+      "label": "叠加在左下照片上的多行中文手写注记，具有独立手写排版和装饰性",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_paper",
+      "kind": "overlay",
+      "bbox": [
+        971,
+        78,
+        1358,
+        978
+      ],
+      "description": "右页竖向浅米色粗纹理纸张面板，顶部和底部边缘不规则，承载圆形照片、标签、文字和人物图像；其纸张材质与轮廓整体保留。",
+      "label": "右页竖向浅米色粗纹理纸张面板，顶部和底部边缘不规则，承载圆形",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right_circle_left",
+      "kind": "photo",
+      "bbox": [
+        810,
+        157,
+        958,
+        321
+      ],
+      "description": "圆形照片窗口，人物手持浅色纸张或包装，背景可见建筑和户外环境；摄影画面按圆形窗口显示。",
+      "label": "圆形照片窗口，人物手持浅色纸张或包装，背景可见建筑和户外环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_circle_center",
+      "kind": "photo",
+      "bbox": [
+        918,
+        158,
+        1067,
+        321
+      ],
+      "description": "圆形照片窗口，多名人物站在带有装饰和猫咪图案的背景前，保留摄影环境并按圆形窗口裁切。",
+      "label": "圆形照片窗口，多名人物站在带有装饰和猫咪图案的背景前，保留摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_circle_right",
+      "kind": "photo",
+      "bbox": [
+        1040,
+        159,
+        1204,
+        320
+      ],
+      "description": "圆形照片窗口，人物穿浅色针织衣物并在木质乐器或桌面旁操作，保留手部、衣物和室内摄影环境。",
+      "label": "圆形照片窗口，人物穿浅色针织衣物并在木质乐器或桌面旁操作，保",
+      "method": "local"
+    },
+    {
+      "id": "overlay_yellow_circle",
+      "kind": "overlay",
+      "bbox": [
+        1122,
+        33,
+        1205,
+        114
+      ],
+      "description": "右页纸张顶部的黄色圆形贴纸，带有轻微纸张阴影，作为独立固定装饰保留。",
+      "label": "右页纸张顶部的黄色圆形贴纸，带有轻微纸张阴影，作为独立固定装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smiley",
+      "kind": "overlay",
+      "bbox": [
+        1243,
+        337,
+        1344,
+        441
+      ],
+      "description": "右页中部右侧的黑色手绘笑脸圆形贴纸，包含圆圈、眼睛和弧形嘴部，整体作为固定装饰保留。",
+      "label": "右页中部右侧的黑色手绘笑脸圆形贴纸，包含圆圈、眼睛和弧形嘴部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_label",
+      "kind": "overlay",
+      "bbox": [
+        1002,
+        397,
+        1289,
+        550
+      ],
+      "description": "右页纸张上的浅色矩形标签，包含圆形手写印记、中文文字和狗脸插图，纸张边缘与内部图案作为一个固定设计单元保留。",
+      "label": "右页纸张上的浅色矩形标签，包含圆形手写印记、中文文字和狗脸插",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_diary_text",
+      "kind": "overlay",
+      "bbox": [
+        1036,
+        562,
+        1300,
+        818
+      ],
+      "description": "右页中下部的多行中文手写日记文字，覆盖在米色纸张上，保留原有手写字形、行距和整体排版。",
+      "label": "右页中下部的多行中文手写日记文字，覆盖在米色纸张上，保留原有",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right_city_anime",
+      "kind": "photo",
+      "bbox": [
+        742,
+        494,
+        934,
+        646
+      ],
+      "description": "竖向照片窗口，上半部为城市建筑和动画风格人物场景，人物位于街道中央，保留完整矩形显示范围。",
+      "label": "竖向照片窗口，上半部为城市建筑和动画风格人物场景，人物位于街",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_woman",
+      "kind": "photo",
+      "bbox": [
+        742,
+        649,
+        934,
+        780
+      ],
+      "description": "竖向人物照片，一名戴帽女性站在城市街道中，保留建筑、道路和周围摄影环境。",
+      "label": "竖向人物照片，一名戴帽女性站在城市街道中，保留建筑、道路和周",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_anime_group",
+      "kind": "photo",
+      "bbox": [
+        742,
+        783,
+        934,
+        885
+      ],
+      "description": "横向动画风格图像，多名角色和明亮背景构成独立照片区域，按矩形窗口显示。",
+      "label": "横向动画风格图像，多名角色和明亮背景构成独立照片区域，按矩形",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_bottom_group",
+      "kind": "photo",
+      "bbox": [
+        982,
+        796,
+        1357,
+        978
+      ],
+      "description": "沿人物轮廓显示的前景人物组合，四名穿相似浅色服装的女性分布在纸张底部，摄影背景被去除，人物跨在右侧纸张下沿并覆盖其前方。",
+      "label": "沿人物轮廓显示的前景人物组合，四名穿相似浅色服装的女性分布在",
+      "method": "local"
+    },
+    {
+      "id": "overlay_center_arrow",
+      "kind": "overlay",
+      "bbox": [
+        615,
+        738,
+        757,
+        824
+      ],
+      "description": "跨越书脊附近的黑色手绘箭头和弧线标记，指向右侧照片区域，作为独立固定涂鸦装饰保留。",
+      "label": "跨越书脊附近的黑色手绘箭头和弧线标记，指向右侧照片区域，作为",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_spread",
+    "photo_left_top_door",
+    "photo_left_top_truck",
+    "photo_left_top_sign",
+    "photo_left_top_cat",
+    "photo_left_middle_woman",
+    "photo_left_middle_sky",
+    "photo_left_middle_face",
+    "photo_left_middle_statue",
+    "photo_left_lower_shop",
+    "photo_left_lower_snack",
+    "photo_left_snack_hand",
+    "overlay_osaka_poster",
+    "photo_bottom_left_shrine",
+    "photo_bottom_left_building",
+    "photo_bottom_left_billboard",
+    "photo_bottom_left_signs",
+    "overlay_right_paper",
+    "photo_right_city_anime",
+    "photo_right_woman",
+    "photo_right_anime_group",
+    "photo_right_circle_left",
+    "photo_right_circle_center",
+    "photo_right_circle_right",
+    "overlay_yellow_circle",
+    "overlay_right_label",
+    "overlay_smiley",
+    "overlay_left_diary_text",
+    "overlay_left_bottom_text",
+    "overlay_right_diary_text",
+    "overlay_center_arrow",
+    "photo_right_bottom_group"
+  ]
+}

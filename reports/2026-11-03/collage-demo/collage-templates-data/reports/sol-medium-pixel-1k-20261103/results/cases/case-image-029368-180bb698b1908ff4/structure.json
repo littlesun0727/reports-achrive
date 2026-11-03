@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "film_strip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        163,
+        1080,
+        990
+      ],
+      "description": "横向黑色胶片条，包含上下两排白色齿孔、顶部中央黄色“FUJI RDPⅢ”字样及左下黄色箭头标记；整体为承载两张独立照片窗口的连续框体，照片覆盖内口，框体保留其黑色底材、印字和齿孔。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        271,
+        498,
+        893
+      ],
+      "description": "左侧竖幅照片，船上前景可见多人，近处有戴黄色帽子的背影，远处为海面与沿岸建筑；保留完整摄影环境，画面位于胶片条左侧窗口内。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        588,
+        271,
+        1034,
+        893
+      ],
+      "description": "右侧竖幅照片，蓝天下有大片白云，白色建筑与前景浓密绿树构成完整摄影画面；保留摄影环境，画面位于胶片条右侧窗口内。"
+    }
+  ],
+  "layer_order": [
+    "film_strip",
+    "photo_left",
+    "photo_right"
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    2340
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        2340
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_main_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        742,
+        1080,
+        2340
+      ],
+      "description": "大幅竖向人物摄影，红发女性正面近距离肖像，身穿豹纹服装并佩戴项链，保留人物、服装和摄影环境，完整显示区域向下延伸至画布底边；上方唇贴、文字标签和小照片局部遮挡。",
+      "label": "大幅竖向人物摄影，红发女性正面近距离肖像，身穿豹纹服装并佩戴",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        529,
+        811
+      ],
+      "description": "左上独立摄影区域，红发女性戴黑色宽檐帽并用手遮住部分脸部，呈侧向近景姿态，保留帽子、手部、头发及暗色环境；右缘和下缘被其他拼贴元素遮挡。",
+      "label": "左上独立摄影区域，红发女性戴黑色宽檐帽并用手遮住部分脸部，呈",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        528,
+        0,
+        1080,
+        812
+      ],
+      "description": "右上独立摄影区域，红发女性面向镜头的近景肖像，周围可见车内或设备环境，右上有屏幕和装饰物，保留完整摄影环境；左侧与下缘受拼贴层遮挡。",
+      "label": "右上独立摄影区域，红发女性面向镜头的近景肖像，周围可见车内或",
+      "method": "local"
+    },
+    {
+      "id": "photo_small_portrait",
+      "kind": "photo",
+      "bbox": [
+        23,
+        1362,
+        167,
+        1567
+      ],
+      "description": "左侧白框内的竖向人物照片，红发女性身穿豹纹服装面对镜头，显示为独立矩形照片窗口，保留照片内环境。",
+      "label": "左侧白框内的竖向人物照片，红发女性身穿豹纹服装面对镜头，显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_insert",
+      "kind": "photo",
+      "bbox": [
+        736,
+        1088,
+        1055,
+        1535
+      ],
+      "description": "右上嵌入式竖向照片，红发女性坐在黑色服装人群或舞台环境中，背景有室内建筑和旗帜，保留完整摄影场景。",
+      "label": "右上嵌入式竖向照片，红发女性坐在黑色服装人群或舞台环境中，背",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_insert",
+      "kind": "photo",
+      "bbox": [
+        648,
+        1783,
+        964,
+        2193
+      ],
+      "description": "右下嵌入式照片，红发女性穿豹纹服装侧身坐在小型摩托或车辆上，背景为室内红墙和装饰结构，保留完整摄影环境。",
+      "label": "右下嵌入式照片，红发女性穿豹纹服装侧身坐在小型摩托或车辆上，",
+      "method": "local"
+    },
+    {
+      "id": "frame_small_portrait",
+      "kind": "frame",
+      "bbox": [
+        13,
+        1352,
+        177,
+        1578
+      ],
+      "description": "左侧小照片的白色圆角相纸框，具有较厚白边并完整包围照片窗口，照片内容独立替换。",
+      "photo_id": [
+        "photo_small_portrait"
+      ],
+      "label": "左侧小照片的白色圆角相纸框，具有较厚白边并完整包围照片窗口，",
+      "method": "extract"
+    },
+    {
+      "id": "frame_upper_insert",
+      "kind": "frame",
+      "bbox": [
+        724,
+        1077,
+        1067,
+        1548
+      ],
+      "description": "右上嵌入照片的厚白色圆角框体，完整承托单张竖向照片，白边和圆角保留。",
+      "photo_id": [
+        "photo_upper_insert"
+      ],
+      "label": "右上嵌入照片的厚白色圆角框体，完整承托单张竖向照片，白边和圆",
+      "method": "extract"
+    },
+    {
+      "id": "frame_lower_insert",
+      "kind": "frame",
+      "bbox": [
+        636,
+        1771,
+        976,
+        2205
+      ],
+      "description": "右下嵌入照片的厚白色圆角框体，完整包围单张照片窗口并保留白色承托边。",
+      "photo_id": [
+        "photo_lower_insert"
+      ],
+      "label": "右下嵌入照片的厚白色圆角框体，完整包围单张照片窗口并保留白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_supernova",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        25,
+        313,
+        59
+      ],
+      "description": "左上红色横向标签，内含白色未来感大写字样“SUPERNOVA”，作为完整固定贴纸保留。",
+      "label": "左上红色横向标签，内含白色未来感大写字样“SUPERNOVA",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drama_asyla",
+      "kind": "overlay",
+      "bbox": [
+        392,
+        72,
+        563,
+        171
+      ],
+      "description": "上方中央红色矩形标签，内含两行白色哥特装饰字样“Drama / asyla”，红底和特殊字形作为一个固定设计单元保留。",
+      "label": "上方中央红色矩形标签，内含两行白色哥特装饰字样“Drama ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        898,
+        89,
+        1080,
+        390
+      ],
+      "description": "右上红黑色蝴蝶贴纸，跨在右上人物照片边缘，具有对称翅膀和深色描边，作为独立固定装饰保留。",
+      "label": "右上红黑色蝴蝶贴纸，跨在右上人物照片边缘，具有对称翅膀和深色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lips_strip",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        738,
+        707,
+        853
+      ],
+      "description": "横向排列的多枚红色嘴唇图案贴纸，覆盖主照片和上方照片的交界区域，包含完整唇形、牙齿和阴影效果。",
+      "label": "横向排列的多枚红色嘴唇图案贴纸，覆盖主照片和上方照片的交界区",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_gothic_label",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        808,
+        235,
+        949
+      ],
+      "description": "左侧红底黑白哥特字样标签，部分超出画布左边缘，保留完整可见的装饰字形、描边和底板。",
+      "label": "左侧红底黑白哥特字样标签，部分超出画布左边缘，保留完整可见的",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clapperboard",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        964,
+        158,
+        1097
+      ],
+      "description": "左侧小型黑白电影场记板贴纸，带斜向条纹拍板和细小英文印字，作为独立固定装饰保留。",
+      "label": "左侧小型黑白电影场记板贴纸，带斜向条纹拍板和细小英文印字，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_giselle",
+      "kind": "overlay",
+      "bbox": [
+        557,
+        838,
+        946,
+        1005
+      ],
+      "description": "中央偏右黑色矩形字标，内含大型多层描边装饰字样“GISELLE”，具有白色、红色和金色立体边缘，整体作为固定设计单元保留。",
+      "label": "中央偏右黑色矩形字标，内含大型多层描边装饰字样“GISELL",
+      "method": "extract"
+    },
+    {
+      "id": "text_designed_by",
+      "kind": "text",
+      "bbox": [
+        668,
+        763,
+        1054,
+        823
+      ],
+      "description": "Designed BY Coisini-SY",
+      "label": "Designed BY Coisini-SY",
+      "method": "local",
+      "text": "Designed BY Coisini-SY",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_001030",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        969,
+        1032,
+        1033
+      ],
+      "description": "右侧红色小标签，内含白色哥特数字字样“001030”，带深色描边和固定底板。",
+      "label": "右侧红色小标签，内含白色哥特数字字样“001030”，带深色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_lyrics",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        1561,
+        1080,
+        1688
+      ],
+      "description": "主照片右侧的黑色歌词标签组合，包含多行白色哥特英文歌词和红色强调字，部分文字被画布右边缘裁切，黑底、字形和分行作为整体保留。",
+      "label": "主照片右侧的黑色歌词标签组合，包含多行白色哥特英文歌词和红色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bona",
+      "kind": "overlay",
+      "bbox": [
+        774,
+        1725,
+        1034,
+        1812
+      ],
+      "description": "右侧红色矩形装饰标签，内含白色黑边哥特字样“BONA”，作为独立固定字标保留。",
+      "label": "右侧红色矩形装饰标签，内含白色黑边哥特字样“BONA”，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_lyrics",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        2188,
+        1080,
+        2340
+      ],
+      "description": "画布右下方延续的黑红歌词装饰区域，含多行白色和红色哥特英文文字，部分内容在底边和右边被裁切，保留可见范围及其黑底排版。",
+      "label": "画布右下方延续的黑红歌词装饰区域，含多行白色和红色哥特英文文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_leopard_sticker",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1552,
+        83,
+        1673
+      ],
+      "description": "左边缘露出的豹纹手形或动物纹贴纸局部，覆盖主照片边缘，保留其不规则轮廓和豹纹材质。",
+      "label": "左边缘露出的豹纹手形或动物纹贴纸局部，覆盖主照片边缘，保留其",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_main_portrait",
+    "photo_top_left",
+    "photo_top_right",
+    "overlay_lips_strip",
+    "overlay_supernova",
+    "overlay_drama_asyla",
+    "overlay_butterfly",
+    "overlay_left_gothic_label",
+    "overlay_clapperboard",
+    "overlay_giselle",
+    "text_designed_by",
+    "overlay_001030",
+    "frame_small_portrait",
+    "photo_small_portrait",
+    "frame_upper_insert",
+    "photo_upper_insert",
+    "overlay_upper_lyrics",
+    "overlay_bona",
+    "frame_lower_insert",
+    "photo_lower_insert",
+    "overlay_leopard_sticker",
+    "overlay_lower_lyrics"
+  ]
+}

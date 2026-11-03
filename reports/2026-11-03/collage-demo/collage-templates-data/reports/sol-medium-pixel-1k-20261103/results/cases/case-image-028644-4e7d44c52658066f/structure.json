@@ -1,0 +1,137 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        520,
+        185,
+        956
+      ],
+      "description": "左侧竖向照片窗口，显示人物白色衣袖抬起的局部及夜间街道环境；照片向画布左边延伸，右侧被胶片边框遮住。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        210,
+        526,
+        708,
+        961
+      ],
+      "description": "中间横向照片，年轻女性戴白色针织帽、穿白衣坐在街边，身体转向一侧并回望镜头；身后可见店面和街道，照片下缘被胶片边框遮住。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        723,
+        527,
+        1080,
+        959
+      ],
+      "description": "右侧横向照片，年轻女性戴蓝色针织帽和围脖、穿灰色针织衫，面向镜头并手持衣领；背景是户外木结构和树木，照片右侧延伸至画布边缘，下缘被胶片边框遮住。"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        435,
+        1080,
+        1044
+      ],
+      "description": "横贯画面的黑灰色手绘胶片条，带有上下两排白色方形齿孔和粗糙铅笔质感，围绕并遮住三张照片的边缘；三个窗口属于同一连续框体。",
+      "photo_id": [
+        "photo_left",
+        "photo_center",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "title_tuesday",
+      "kind": "overlay",
+      "bbox": [
+        390,
+        124,
+        704,
+        367
+      ],
+      "description": "粉色手绘粗体块状字样“TUESDAY”，分两行错落排列，带深色粗描边和不规则字形，作为整体装饰字样保留。"
+    },
+    {
+      "id": "tree_doodle",
+      "kind": "overlay",
+      "bbox": [
+        779,
+        203,
+        919,
+        417
+      ],
+      "description": "绿色树冠与细长黑色树干组成的手绘树形涂鸦，保留不规则轮廓和线条。"
+    },
+    {
+      "id": "speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        931,
+        162,
+        1005,
+        225
+      ],
+      "description": "右上方黑色手绘对话气泡，内部有三个点，包含气泡尖角和完整描边。"
+    },
+    {
+      "id": "rain_cloud",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        985,
+        223,
+        1128
+      ],
+      "description": "胶片条下方的黑色手绘小云和数道下落雨线，云与雨线构成同一组涂鸦。"
+    },
+    {
+      "id": "penguin_doodle",
+      "kind": "overlay",
+      "bbox": [
+        177,
+        1160,
+        266,
+        1266
+      ],
+      "description": "左下方黑白手绘企鹅，包含头部、身体、短翅和脚，保留粗细不均的手绘轮廓。"
+    },
+    {
+      "id": "camp_doodle",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        1140,
+        1026,
+        1380
+      ],
+      "description": "右下方一组露营主题涂鸦，包括帐篷、营火、吊灯、矮桌、折叠椅和写有“camp”的带轮小车；各物件作为同一组手绘场景保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "frame_filmstrip",
+    "title_tuesday",
+    "tree_doodle",
+    "speech_bubble",
+    "rain_cloud",
+    "penguin_doodle",
+    "camp_doodle"
+  ]
+}

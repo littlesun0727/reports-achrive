@@ -1,0 +1,587 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "全画布连续的暖米黄色旧纸底，带细小颗粒、斑点和轻微颜色变化，四边及排版间隙均可见同类纸纹。保留纸底原样，独立文字、拼贴摄影和装饰分别清除或替换。"
+  },
+  "objects": [
+    {
+      "id": "brand_top",
+      "kind": "overlay",
+      "bbox": [
+        32,
+        25,
+        223,
+        185
+      ],
+      "description": "顶部酒红色品牌标识，包含弯月、四角星、紧凑的“NIGHT UNFINISHED”和间隔排列的“夜 未 央”，作为完整标志保留。"
+    },
+    {
+      "id": "text_top_story",
+      "kind": "text",
+      "bbox": [
+        323,
+        29,
+        490,
+        64
+      ],
+      "text": "SAME DRINKS\nDIFFERENT STORIES",
+      "color": "#79162A",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "top_short_rule",
+      "kind": "overlay",
+      "bbox": [
+        323,
+        74,
+        365,
+        77
+      ],
+      "description": "顶部两段英文之间的短酒红色横线。"
+    },
+    {
+      "id": "text_top_night",
+      "kind": "text",
+      "bbox": [
+        323,
+        87,
+        512,
+        123
+      ],
+      "text": "FOR THOSE WHO KEEP\nTHE NIGHT ALIVE.",
+      "color": "#79162A",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "top_vertical_rule",
+      "kind": "overlay",
+      "bbox": [
+        836,
+        24,
+        838,
+        110
+      ],
+      "description": "右上期号区域左侧的细酒红色竖线。"
+    },
+    {
+      "id": "text_volume",
+      "kind": "text",
+      "bbox": [
+        880,
+        23,
+        973,
+        55
+      ],
+      "text": "VOL.04",
+      "color": "#761329",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "globe_icon",
+      "kind": "overlay",
+      "bbox": [
+        896,
+        64,
+        950,
+        110
+      ],
+      "description": "右上酒红色经纬线地球图标，保留椭圆轮廓和内部弧线。"
+    },
+    {
+      "id": "keys_art",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        145,
+        799,
+        703
+      ],
+      "description": "巨大的酒红色“KEYS”艺术字，字顶斜向上升，字形极度拉长，内部有旧印刷颗粒与磨损。下部被城市、乐谱和钢琴拼贴遮挡，整体按固定艺术字保留。"
+    },
+    {
+      "id": "text_midnight",
+      "kind": "text",
+      "bbox": [
+        821,
+        132,
+        998,
+        278
+      ],
+      "text": "MIDNIGHT\nKEYS",
+      "color": "#761329",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_chinese_title",
+      "kind": "text",
+      "bbox": [
+        820,
+        304,
+        995,
+        345
+      ],
+      "text": "键 声 未 央",
+      "color": "#79162A",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "right_title_rule",
+      "kind": "overlay",
+      "bbox": [
+        825,
+        361,
+        958,
+        365
+      ],
+      "description": "右侧中文标题下方的酒红色细横线。"
+    },
+    {
+      "id": "text_chinese_intro",
+      "kind": "text",
+      "bbox": [
+        823,
+        376,
+        977,
+        456
+      ],
+      "text": "当钢琴落下第一\n个音，夜晚就有\n了温度。",
+      "color": "#79162A",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "right_short_rule",
+      "kind": "overlay",
+      "bbox": [
+        825,
+        478,
+        876,
+        482
+      ],
+      "description": "右侧中文说明与浅色文字条之间的短酒红色横线。"
+    },
+    {
+      "id": "quiet_label",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        491,
+        1018,
+        559
+      ],
+      "description": "浅米色横向文字底条，内有两行酒红色中文“不必赶时间，”“先让情绪坐下来。”；矩形底条与文字共同保留。"
+    },
+    {
+      "id": "text_right_mood",
+      "kind": "text",
+      "bbox": [
+        826,
+        572,
+        997,
+        632
+      ],
+      "text": "PIANO, POURS,\nAND AFTER-HOURS\nMOOD.",
+      "color": "#79162A",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "black_quote_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        484,
+        153,
+        751
+      ],
+      "description": "左侧黑色粗糙撕纸标签，具有米色毛边和旧印刷斑点，内含四行浅色文字“A LITTLE / QUIETER. / A LOT / DEEPER.”。其右侧撕裂边与城市摄影区域分离，整块标签保留。"
+    },
+    {
+      "id": "photo_city_upper",
+      "kind": "photo",
+      "bbox": [
+        143,
+        511,
+        479,
+        826
+      ],
+      "description": "上方独立夜景照片，无人物，密集高楼位于中部，灯光及其水面倒影延伸至下方。黑白暖调、粗颗粒印刷外观，沿不规则撕纸边显示，边缘带浅色纸纤维；右下被乐谱和钢琴遮挡，保留建筑与水面环境。"
+    },
+    {
+      "id": "red_collage_paper",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        815,
+        1024,
+        1323
+      ],
+      "description": "中下部酒红色粗颗粒撕纸承底，在杯子后方、底部横带以及唱片右下方露出，边缘有不规则浅色纸纤维。大部分被摄影拼贴遮挡，仅依据露出区域保留整体承底，不补画隐藏图案。"
+    },
+    {
+      "id": "music_sheet",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        693,
+        556,
+        1132
+      ],
+      "description": "倾斜的泛黄撕边乐谱纸，包含黑色五线谱、音符及“A Night Like This”标题；上部横向展开，下部窄片在杯子与钢琴之间露出。纸面印刷和撕裂毛边整体保留，不与摄影合并。"
+    },
+    {
+      "id": "photo_city_lower",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1006,
+        405,
+        1220
+      ],
+      "description": "左下另一张独立城市滨水夜景，无人物，建筑灯光和水面倒影共同保留，与上方夜景在接缝处重新取景。照片呈黑白暖调和旧印刷颗粒，外沿为浅色毛边撕纸轮廓，上部被杯子及乐谱遮挡。"
+    },
+    {
+      "id": "photo_piano",
+      "kind": "photo",
+      "bbox": [
+        392,
+        586,
+        970,
+        1344
+      ],
+      "description": "斜向近景钢琴摄影，无人物，黑色琴身从右上向左下展开，明亮琴键占中央下部，底部可见三枚金属踏板。保留琴体与琴键的完整组合，外围按不规则撕纸边显示，带浅色纸缘和粗颗粒。琴身可见月星标记及“NIGHT UNFINISHED”，右下被节拍器遮挡。"
+    },
+    {
+      "id": "photo_record",
+      "kind": "photo",
+      "bbox": [
+        830,
+        724,
+        1024,
+        1053
+      ],
+      "description": "右侧独立黑胶唱片近景，圆盘右部被画布边缘裁切，黑色沟槽与酒红色中心标签完整归属照片；标签可见月星标记和“NIGHT UNFINISHED”。外围沿唱片及撕纸轮廓显示，带浅色纸缘，左下被节拍器遮挡。"
+    },
+    {
+      "id": "photo_cocktail",
+      "kind": "photo",
+      "bbox": [
+        109,
+        846,
+        417,
+        1265
+      ],
+      "description": "左下独立高脚浅碟鸡尾酒杯，杯中酒红色液体，杯口左侧有樱桃和斜插的细签，透明杯柄及圆形杯底均完整显示。沿杯子、樱桃与签的组合轮廓去背景，带浅米色轮廓边和颗粒旧印刷外观，覆盖乐谱及下方城市照片。"
+    },
+    {
+      "id": "photo_metronome",
+      "kind": "photo",
+      "bbox": [
+        722,
+        905,
+        970,
+        1258
+      ],
+      "description": "右下独立机械节拍器近景，无人物，黑色梯形机身、刻度板、斜摆杆及右侧旋钮共同保留；下部可见“GOOD MUSIC BETTER NIGHTS”。沿完整器物轮廓去背景，外沿有浅色撕纸边及颗粒，叠在钢琴和唱片前方。"
+    },
+    {
+      "id": "text_left_menu",
+      "kind": "text",
+      "bbox": [
+        31,
+        745,
+        151,
+        813
+      ],
+      "text": "PIANO ·\nCOCKTAILS ·\nNIGHT MOODS",
+      "color": "#79162A",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "left_menu_rule",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        829,
+        84,
+        832
+      ],
+      "description": "左侧三行项目文字下方的短酒红色横线。"
+    },
+    {
+      "id": "left_moon_icon",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        846,
+        89,
+        905
+      ],
+      "description": "左侧小型酒红色弯月与四角星标志，保留特殊轮廓。"
+    },
+    {
+      "id": "text_left_music",
+      "kind": "text",
+      "bbox": [
+        32,
+        917,
+        126,
+        1011
+      ],
+      "text": "MUSIC\nTURNS\nORDINARY\nNIGHTS\nINTO\nBETTER ONES.",
+      "color": "#79162A",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "left_music_rule",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        1029,
+        70,
+        1032
+      ],
+      "description": "左侧音乐说明下方的短酒红色横线。"
+    },
+    {
+      "id": "text_open",
+      "kind": "text",
+      "bbox": [
+        32,
+        1311,
+        184,
+        1372
+      ],
+      "text": "OPEN\n19:00—02:00",
+      "color": "#761329",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "footer_left_upper_rule",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        1387,
+        94,
+        1390
+      ],
+      "description": "营业时间与地址之间的酒红色短横线。"
+    },
+    {
+      "id": "text_address_chinese",
+      "kind": "text",
+      "bbox": [
+        33,
+        1408,
+        256,
+        1431
+      ],
+      "text": "浙江省杭州市拱墅区",
+      "color": "#79162A",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_address_english",
+      "kind": "text",
+      "bbox": [
+        34,
+        1436,
+        302,
+        1454
+      ],
+      "text": "HANGZHOU · GONGSHU DISTRICT",
+      "color": "#79162A",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "footer_left_lower_rule",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        1469,
+        84,
+        1472
+      ],
+      "description": "左下英文地址下方的酒红色短横线。"
+    },
+    {
+      "id": "footer_divider_left",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        1348,
+        354,
+        1477
+      ],
+      "description": "底部左栏与中栏之间的细酒红色竖线。"
+    },
+    {
+      "id": "brand_bottom",
+      "kind": "overlay",
+      "bbox": [
+        411,
+        1348,
+        619,
+        1407
+      ],
+      "description": "底部中央品牌字标，由紧凑的“NIGHT UNFINISHED”及间隔排列的“夜 未 央”组成，保持完整标志排布。"
+    },
+    {
+      "id": "footer_center_rule",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        1419,
+        556,
+        1423
+      ],
+      "description": "底部中央品牌字标下方的酒红色细横线。"
+    },
+    {
+      "id": "text_footer_center",
+      "kind": "text",
+      "bbox": [
+        392,
+        1441,
+        635,
+        1473
+      ],
+      "text": "A TAVERN FOR\nBRIGHT MINDS AND LATE NIGHTS.",
+      "color": "#79162A",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "footer_divider_right",
+      "kind": "overlay",
+      "bbox": [
+        671,
+        1348,
+        674,
+        1477
+      ],
+      "description": "底部中栏与右栏之间的细酒红色竖线。"
+    },
+    {
+      "id": "baicheng_logo",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        1342,
+        1000,
+        1419
+      ],
+      "description": "右下酒红色品牌标志，包含几何“BC”图形、“百诚”、“BAICHENG”及附属英文小字“Built on Integrity, Bound for Possibility”，整个专用字形标识保留。"
+    },
+    {
+      "id": "footer_right_rule",
+      "kind": "overlay",
+      "bbox": [
+        931,
+        1429,
+        993,
+        1433
+      ],
+      "description": "右下品牌标志与口号之间的酒红色短横线。"
+    },
+    {
+      "id": "text_footer_right",
+      "kind": "text",
+      "bbox": [
+        868,
+        1445,
+        995,
+        1482
+      ],
+      "text": "GOOD PEOPLE\nBETTER NIGHTS",
+      "color": "#79162A",
+      "font": "serif",
+      "align": "right",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "keys_art",
+    "red_collage_paper",
+    "photo_city_upper",
+    "photo_city_lower",
+    "black_quote_paper",
+    "music_sheet",
+    "photo_piano",
+    "photo_record",
+    "photo_cocktail",
+    "photo_metronome",
+    "brand_top",
+    "text_top_story",
+    "top_short_rule",
+    "text_top_night",
+    "top_vertical_rule",
+    "text_volume",
+    "globe_icon",
+    "text_midnight",
+    "text_chinese_title",
+    "right_title_rule",
+    "text_chinese_intro",
+    "right_short_rule",
+    "quiet_label",
+    "text_right_mood",
+    "text_left_menu",
+    "left_menu_rule",
+    "left_moon_icon",
+    "text_left_music",
+    "left_music_rule",
+    "text_open",
+    "footer_left_upper_rule",
+    "text_address_chinese",
+    "text_address_english",
+    "footer_left_lower_rule",
+    "footer_divider_left",
+    "brand_bottom",
+    "footer_center_rule",
+    "text_footer_center",
+    "footer_divider_right",
+    "baicheng_logo",
+    "footer_right_rule",
+    "text_footer_right"
+  ]
+}

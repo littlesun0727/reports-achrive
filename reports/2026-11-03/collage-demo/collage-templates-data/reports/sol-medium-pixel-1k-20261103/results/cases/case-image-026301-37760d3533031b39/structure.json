@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_blurred_base",
+    "description": "暖米色与棕色的连续失焦室内摄影画面铺满画布四边，场景主体无法从模糊细节中可靠辨认；两张清晰婚礼照片遮挡中央局部，底图环境保留并作为整体替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_translucent_panel",
+      "kind": "overlay",
+      "bbox": [
+        428,
+        398,
+        753,
+        830
+      ],
+      "description": "位于两张照片后方的半透明浅色竖向矩形面板；可见上边、左边、右边和下边的范围，部分被照片遮挡，不承担照片窗口功能。"
+    },
+    {
+      "id": "photo_couple",
+      "kind": "photo",
+      "bbox": [
+        142,
+        568,
+        643,
+        1235
+      ],
+      "description": "竖幅婚礼合影，前景女性穿白色礼服，俯身靠近镜头并举手比V；后方男性穿深色西装站立。保留帷幕、花饰和室内地面等摄影环境，矩形显示区域的上部被右上照片遮挡；底部可见照片内印字。"
+    },
+    {
+      "id": "photo_groom",
+      "kind": "photo",
+      "bbox": [
+        540,
+        242,
+        856,
+        675
+      ],
+      "description": "右上方竖幅近景照片，男性只显示颈部以下至腰部，穿深色礼服并手持酒杯，胸前有黄色与粉色花饰；保留周围室内摄影环境，矩形照片压住下方合影的右上部分，底部可见照片内印字。"
+    }
+  ],
+  "layer_order": [
+    "overlay_translucent_panel",
+    "photo_couple",
+    "photo_groom"
+  ]
+}

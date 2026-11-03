@@ -1,0 +1,258 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        317,
+        531,
+        813
+      ],
+      "description": "左侧横向博物馆展厅照片，中央为雕像与展品，前景有一名背对镜头的女性，保留展厅柱体、地面和摄影环境；照片窗口被胶片框边缘及粉色手绘线局部遮挡。",
+      "label": "左侧横向博物馆展厅照片，中央为雕像与展品，前景有一名背对镜头",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        317,
+        1080,
+        814
+      ],
+      "description": "右侧横向桌面手帐与文具照片，画面包含打开的手写笔记本、彩色图案、印章和笔具，保留完整桌面摄影环境；照片上叠有粉色手写标题，右下可见照片内水印。",
+      "label": "右侧横向桌面手帐与文具照片，画面包含打开的手写笔记本、彩色图",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        247,
+        1080,
+        868
+      ],
+      "description": "横向黑色胶片框体，包含上下胶片齿孔带、左右边缘和中间分隔条，承托左右两张照片并形成两个独立窗口；框体边缘覆盖照片局部。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横向黑色胶片框体，包含上下胶片齿孔带、左右边缘和中间分隔条，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left_note",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        78,
+        312,
+        228
+      ],
+      "description": "画布左上方黑色手写说明文字块，分为多行并带手写标点，作为独立固定注释保留。",
+      "label": "画布左上方黑色手写说明文字块，分为多行并带手写标点，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_center_note",
+      "kind": "overlay",
+      "bbox": [
+        437,
+        46,
+        577,
+        171
+      ],
+      "description": "胶片框上方中央的黑色手写说明文字块，包含多行中文及英文缩写，保留原有手写排版。",
+      "label": "胶片框上方中央的黑色手写说明文字块，包含多行中文及英文缩写，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_note",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        81,
+        783,
+        246
+      ],
+      "description": "右上区域、胶片框上方的黑色手写说明文字块，分为多行并作为独立注释保留。",
+      "label": "右上区域、胶片框上方的黑色手写说明文字块，分为多行并作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_callout_watch",
+      "kind": "overlay",
+      "bbox": [
+        302,
+        43,
+        515,
+        420
+      ],
+      "description": "绿色手绘椭圆气泡与向下延伸的尖角指示，内部是黑色手写“看展”字样及粉色下划线，整体作为一个固定装饰单元保留；尖角指向左侧展厅照片。",
+      "label": "绿色手绘椭圆气泡与向下延伸的尖角指示，内部是黑色手写“看展”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_callout_handbook",
+      "kind": "overlay",
+      "bbox": [
+        680,
+        30,
+        1033,
+        376
+      ],
+      "description": "右上方绿色手绘气泡及长尖角指示，内部含黑色手写字样和粉色下划线，尖角延伸至右侧手帐照片上方，整体作为独立固定单元保留。",
+      "label": "右上方绿色手绘气泡及长尖角指示，内部含黑色手写字样和粉色下划",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_left_scribble",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        545,
+        408,
+        652
+      ],
+      "description": "左侧展厅照片上的粉色手绘弯曲线与箭头状笔画，跨越照片下部并覆盖胶片窗口，作为独立装饰保留。",
+      "label": "左侧展厅照片上的粉色手绘弯曲线与箭头状笔画，跨越照片下部并覆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_title",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        379,
+        1075,
+        591
+      ],
+      "description": "横跨右侧照片的粉色手写大标题及其连贯笔画，覆盖手帐照片和局部胶片边缘，保留原有倾斜手写造型。",
+      "label": "横跨右侧照片的粉色手写大标题及其连贯笔画，覆盖手帐照片和局部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_callout_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        749,
+        120,
+        1080
+      ],
+      "description": "左下角被画布边缘裁切的绿色手绘气泡与尖角指示，部分黑色手写内容位于其内部或邻近区域，完整显示范围延伸至画布左下边缘。",
+      "label": "左下角被画布边缘裁切的绿色手绘气泡与尖角指示，部分黑色手写内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_left_note",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        901,
+        240,
+        1008
+      ],
+      "description": "左下方黑色手写说明文字块，位于胶片框下方并与绿色指示单元相邻，保留多行手写排版。",
+      "label": "左下方黑色手写说明文字块，位于胶片框下方并与绿色指示单元相邻",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_date",
+      "kind": "overlay",
+      "bbox": [
+        214,
+        839,
+        548,
+        1041
+      ],
+      "description": "底部中央绿色日期与英文月份手写字样，包含“6-8”和“JUNE-AUG”及周围粉色点缀，整体作为独立固定图形保留。",
+      "label": "底部中央绿色日期与英文月份手写字样，包含“6-8”和“JUN",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_callout_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        587,
+        760,
+        826,
+        1021
+      ],
+      "description": "右下方绿色手绘气泡与上指尖角，内部包含黑色手写字样及粉色下划线，尖角指向右侧手帐照片，整体作为一个固定装饰单元保留。",
+      "label": "右下方绿色手绘气泡与上指尖角，内部包含黑色手写字样及粉色下划",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_right_note",
+      "kind": "overlay",
+      "bbox": [
+        816,
+        886,
+        1037,
+        1006
+      ],
+      "description": "右下方黑色手写说明文字块，包含百分比和多行中文说明，位于绿色气泡右侧并作为独立注释保留。",
+      "label": "右下方黑色手写说明文字块，包含百分比和多行中文说明，位于绿色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_arrow",
+      "kind": "overlay",
+      "bbox": [
+        944,
+        972,
+        1057,
+        1012
+      ],
+      "description": "右下角粉色手绘弯箭头，位于说明文字下方，作为独立固定装饰保留。",
+      "label": "右下角粉色手绘弯箭头，位于说明文字下方，作为独立固定装饰保留",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right",
+    "frame_filmstrip",
+    "overlay_top_left_note",
+    "overlay_top_center_note",
+    "overlay_top_right_note",
+    "overlay_callout_watch",
+    "overlay_callout_handbook",
+    "overlay_pink_left_scribble",
+    "overlay_pink_title",
+    "overlay_callout_lower_left",
+    "overlay_lower_left_note",
+    "overlay_date",
+    "overlay_callout_lower_right",
+    "overlay_lower_right_note",
+    "overlay_pink_arrow"
+  ]
+}

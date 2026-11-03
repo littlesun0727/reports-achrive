@@ -1,0 +1,91 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    872,
+    1162
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        872,
+        1162
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "frame_triptych",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        872,
+        1162
+      ],
+      "description": "贯穿画布的黑色相片承托框，四周有细黑边，内部以两道粗黑横隔分成三个独立照片窗口；作为一个连续框体保留。",
+      "photo_id": [
+        "photo_lighthouse",
+        "photo_mountain",
+        "photo_wall"
+      ],
+      "label": "贯穿画布的黑色相片承托框，四周有细黑边，内部以两道粗黑横隔分",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lighthouse",
+      "kind": "photo",
+      "bbox": [
+        8,
+        8,
+        864,
+        385
+      ],
+      "description": "顶部横向海岸照片：远处防波堤中央有灯塔，前景为海面及一艘载有两人的小船，左下露出岩石。保留完整摄影环境，矩形窗口显示，边缘被黑色承托框围住。",
+      "label": "顶部横向海岸照片：远处防波堤中央有灯塔，前景为海面及一艘载有",
+      "method": "local"
+    },
+    {
+      "id": "photo_mountain",
+      "kind": "photo",
+      "bbox": [
+        8,
+        393,
+        864,
+        769
+      ],
+      "description": "中部横向山景照片：背对镜头的长发人物位于右侧前景，面对远处山峰，周围可见岩坡与森林。保留人物及完整摄影环境，矩形窗口显示，边缘被黑色承托框围住。",
+      "label": "中部横向山景照片：背对镜头的长发人物位于右侧前景，面对远处山",
+      "method": "local"
+    },
+    {
+      "id": "photo_wall",
+      "kind": "photo",
+      "bbox": [
+        8,
+        777,
+        864,
+        1154
+      ],
+      "description": "底部横向城市墙面照片：旧白砖墙上有壁画和涂写，左侧可见围栏、工业建筑及照明。保留完整摄影环境与墙面可见文字，矩形窗口显示，边缘被黑色承托框围住。",
+      "label": "底部横向城市墙面照片：旧白砖墙上有壁画和涂写，左侧可见围栏、",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_triptych",
+    "photo_lighthouse",
+    "photo_mountain",
+    "photo_wall"
+  ]
+}

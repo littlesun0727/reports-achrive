@@ -1,0 +1,100 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_texture",
+    "description": "全画布深灰黑色颗粒纹理底图，带棕色暖光和局部明暗变化，右下及上缘间隙可见。保留固定纹理与色调，不包含上层人物照片、胶片框、字样和装饰。"
+  },
+  "objects": [
+    {
+      "id": "overlay_rear_film",
+      "kind": "overlay",
+      "bbox": [
+        276,
+        0,
+        1080,
+        123
+      ],
+      "description": "画布顶部斜向露出的后层棕黑色胶片带残段，包含黑色齿孔、浅色编号与印字，部分被前方胶片框遮住；没有可明确辨认的独立照片内口，作为固定装饰保留。"
+    },
+    {
+      "id": "photo_film",
+      "kind": "photo",
+      "bbox": [
+        0,
+        130,
+        1080,
+        923
+      ],
+      "description": "胶片内的一张倾斜人物舞台照片，单名黑发男性戴白色羽毛头饰，侧向右方举麦克风，保留服装及暗色舞台环境。整张照片呈低饱和灰紫色、网点颗粒和较暗的可见效果，左右浅灰区域随摄影画面保留。完整窗口位于上下胶片带之间，中下部被前景人物大面积遮挡，不按剩余可见碎片缩小。"
+    },
+    {
+      "id": "frame_main_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1095
+      ],
+      "description": "承载单张倾斜照片的棕色胶片框，上下胶片带横贯画布并向右下倾斜，侧端超出画布。保留黑色方形齿孔、棕色材质、边缘及浅橙色印字，包括上沿“200-6 FRAME”“FILM 200-6”和下沿局部数字字样；下方大部分被前景人物遮挡。",
+      "photo_id": [
+        "photo_film"
+      ]
+    },
+    {
+      "id": "photo_foreground",
+      "kind": "photo",
+      "bbox": [
+        0,
+        210,
+        840,
+        1438
+      ],
+      "description": "独立彩色人物主体，单名黑发年轻男性戴白羽毛头饰及耳返，穿黑色羽毛肩饰外套和白色长领带，身体朝前、脸转向右，一手靠近耳侧，另一手握麦克风。保留完整人物、头饰、宽大羽毛袖口及麦克风组合，沿外轮廓去除摄影环境，头发与肩部外缘可见深色轮廓阴影。左侧及下方被画布裁切，覆盖后方胶片照片与下胶片带；与后方照片姿态不同，不构成连续出框关联。"
+    },
+    {
+      "id": "overlay_cyan_pattern",
+      "kind": "overlay",
+      "bbox": [
+        1043,
+        1177,
+        1080,
+        1438
+      ],
+      "description": "右下角贴着画布右边和底边的窄竖向青蓝色装饰，内部为规则排列的发光十字及菱形点阵，保留完整可见图案；其上局部被黄色花体字遮挡。"
+    },
+    {
+      "id": "overlay_may",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        1200,
+        1080,
+        1347
+      ],
+      "description": "右下角浅黄色花体艺术字“May”，具有细长倾斜笔画、大幅连笔和延伸花饰，右端被画布裁切，部分笔画压在青蓝色点阵上。作为完整艺术字保留，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1438
+      ],
+      "description": "横跨画面的低透明度重复水印层，包含浅灰中文标记、局部“99”数字及交叉斜向细线，叠在胶片、背景照片和前景人物表面。中文内容不能可靠辨认，保留其现有重复布局与可见外观。"
+    }
+  ],
+  "layer_order": [
+    "overlay_rear_film",
+    "photo_film",
+    "frame_main_film",
+    "photo_foreground",
+    "overlay_cyan_pattern",
+    "overlay_may",
+    "overlay_watermark"
+  ]
+}

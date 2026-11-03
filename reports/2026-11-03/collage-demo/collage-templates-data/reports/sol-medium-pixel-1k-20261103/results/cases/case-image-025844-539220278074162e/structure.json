@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "仰拍的深绿色树林与枝叶构成连续全画布摄影画面，夹杂透过树冠的亮白天空，整体呈明显的斜向运动模糊。四边及照片之间的空隙均露出相连的树林画面，中央被独立照片和装饰遮挡；整幅树林与天空共同替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        142,
+        154,
+        938,
+        752
+      ],
+      "description": "上方横向照片，一位戴绿色紫花针织帽的女子仰躺在木条长椅上，头部朝画面下方，睁眼微笑，双臂向两侧伸展，穿浅紫与浅蓝拼色上衣。保留长椅、石砖地面、花束及下方植物等完整摄影环境；下缘被第二张照片及粉色装饰局部覆盖。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        55,
+        670,
+        749,
+        1162
+      ],
+      "description": "左下横向照片，同一位戴绿色紫花针织帽的女子仰躺在长椅上，头朝下方，闭眼微笑，双手抬至帽子两侧，与上方照片姿态不同。保留木椅、石砖、花束和前景绿叶；照片上缘明确，右侧被艺术字、花朵及竖向树林照片遮挡，隐藏右边界位置略有不确定。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        615,
+        866,
+        963,
+        1320
+      ],
+      "description": "右下竖向仰拍树冠照片，深绿色叶片、树枝、零散粉红花朵与明亮天空共同保留，没有人物。照片外围有紧贴矩形窗口的粉色不规则手绘描边，包含四边完整线条；上缘左部被独立大花朵遮挡，左侧覆盖下方人物照片。"
+    },
+    {
+      "id": "overlay_flower",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        747,
+        837,
+        920
+      ],
+      "description": "独立粉红花朵贴饰，层叠圆润花瓣围绕黄色花蕊，保留花瓣的真实明暗与不规则外轮廓。位于两张人物照片和右下树林照片交接处，压住竖向照片上边的粉色线条。"
+    },
+    {
+      "id": "overlay_calligraphy",
+      "kind": "overlay",
+      "bbox": [
+        595,
+        609,
+        855,
+        816
+      ],
+      "description": "大型粉色手写汉字艺术字，笔画粗细不均，具有向右舒展的长笔画及向左下弯出的笔画，保留原有字形与倾斜布局，不转为通用字体。跨在上下两张人物照片交界处，下部与花朵贴饰相邻。"
+    },
+    {
+      "id": "overlay_top_scribble",
+      "kind": "overlay",
+      "bbox": [
+        647,
+        136,
+        858,
+        183
+      ],
+      "description": "顶部独立粉色连续线圈涂鸦，数个相连的弯曲环形笔画组成一条横向装饰，跨过上方照片顶边，完整保留手绘线条。"
+    },
+    {
+      "id": "overlay_star_1",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        126,
+        154,
+        164
+      ],
+      "description": "上方照片左上角外侧的一枚粉色手绘星花状装饰，具有不规则放射笔画，局部靠近照片角部。"
+    },
+    {
+      "id": "overlay_star_2",
+      "kind": "overlay",
+      "bbox": [
+        186,
+        160,
+        215,
+        195
+      ],
+      "description": "上方照片内、靠近顶边的一枚粉色手绘星花状装饰，保留不规则笔画及略向下延伸的形状。"
+    },
+    {
+      "id": "overlay_star_3",
+      "kind": "overlay",
+      "bbox": [
+        152,
+        211,
+        182,
+        241
+      ],
+      "description": "上方照片左边缘内侧的一枚粉色手绘小星花装饰，独立叠加在石砖摄影内容上。"
+    },
+    {
+      "id": "overlay_star_4",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        211,
+        114,
+        247
+      ],
+      "description": "上方照片左侧树林区域的一枚粉色手绘小星花装饰，具有不规则短笔画，与照片内的星花分开显示。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "photo_lower_right",
+    "overlay_calligraphy",
+    "overlay_flower",
+    "overlay_top_scribble",
+    "overlay_star_1",
+    "overlay_star_2",
+    "overlay_star_3",
+    "overlay_star_4"
+  ]
+}

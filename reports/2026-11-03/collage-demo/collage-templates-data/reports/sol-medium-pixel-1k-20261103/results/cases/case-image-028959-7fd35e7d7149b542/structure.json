@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "textured_paper",
+    "description": "深绿色渐变至浅灰绿色的连续粗纹纸底铺满画布，散布的浅金色星星与纸纹共同构成固定底图；三张独立照片及手绘文字装饰覆盖其上，保留底图原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        407,
+        67,
+        953,
+        429
+      ],
+      "description": "右上方横向室内近景照片，一名戴帽眼镜的女性坐在窗边，手捧花束，桌面与窗外景物共同构成摄影环境；照片为矩形显示，环境保留。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        99,
+        477,
+        496,
+        1076
+      ],
+      "description": "左侧竖向全身照片，一名戴帽眼镜的女性站在草地上，手持花束，身后有树林；人物面向镜头，脚下可见铺地，完整矩形照片环境保留。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        376,
+        1122,
+        993,
+        1531
+      ],
+      "description": "下方横向合影，三名女性在草地边并肩站立，右侧女性手持花束，背景为树木与夕照；完整矩形摄影环境保留。"
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        126,
+        338,
+        275
+      ],
+      "description": "左上方倾斜排列的白色手写中文与“kitty”字样，末尾有黄色闪光笔画；字形、笔画和点缀作为一个手绘文字设计整体保留。"
+    },
+    {
+      "id": "overlay_desserts",
+      "kind": "overlay",
+      "bbox": [
+        156,
+        302,
+        340,
+        425
+      ],
+      "description": "两件独立摆放的立体甜点装饰：左侧小杯形甜点，右侧带草莓顶饰的方形蛋糕及浅色底托；均位于上方照片左下方，作为固定装饰保留。"
+    },
+    {
+      "id": "overlay_bubbles",
+      "kind": "overlay",
+      "bbox": [
+        492,
+        468,
+        583,
+        632
+      ],
+      "description": "照片右侧的四个青蓝色手绘空心泡泡，大小不一、由下向上散开，作为一组线条装饰保留。"
+    },
+    {
+      "id": "overlay_message",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        527,
+        1038,
+        974
+      ],
+      "description": "右侧黄色手绘不规则对话框，内有多行白色手写中文，并在右下附蛋糕片与黄色星形点缀；框线、文字和附属图案共同构成一个完整设计单元。"
+    },
+    {
+      "id": "overlay_date",
+      "kind": "overlay",
+      "bbox": [
+        631,
+        1048,
+        889,
+        1099
+      ],
+      "description": "下方照片上方的粉色蝴蝶结与白色手写日期“2025年5月”组合，左右蝴蝶结和中间文字作为一体式日期装饰保留。"
+    },
+    {
+      "id": "overlay_dog_doodle",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        1208,
+        288,
+        1364
+      ],
+      "description": "左下方浅绿色手绘狗脸轮廓，配有青蓝色蝴蝶结和内部线条，保留完整涂画造型。"
+    },
+    {
+      "id": "overlay_photo_confetti",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        1142,
+        936,
+        1379
+      ],
+      "description": "散布在下方合影上的多枚彩色圆点贴饰，包含橙、黄、蓝紫、粉与橄榄绿圆点，作为一组独立覆盖照片的装饰保留。"
+    },
+    {
+      "id": "overlay_happy_accident",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        1422,
+        504,
+        1505
+      ],
+      "description": "左下方多色细线手写艺术字“Happy Accident”，字母以不同颜色绘制并带有引号式小笔画，作为整体字形装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_top_handwriting",
+    "overlay_desserts",
+    "overlay_bubbles",
+    "overlay_message",
+    "overlay_date",
+    "overlay_dog_doodle",
+    "overlay_photo_confetti",
+    "overlay_happy_accident"
+  ]
+}

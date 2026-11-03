@@ -1,0 +1,654 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "覆盖整张画布的浅蓝色纸张纹理底图，四周和照片之间均连续可见；独立照片、文字与贴纸叠放其上，纸张颜色与颗粒质感保留原样。",
+      "background_type": "reference_clean",
+      "label": "覆盖整张画布的浅蓝色纸张纹理底图，四周和照片之间均连续可见；",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        69,
+        61,
+        331,
+        355
+      ],
+      "description": "左上方横向餐桌照片，包含室内木质餐厅、多人份早餐餐盘、饮料和桌面环境，完整照片区域为矩形，边缘带浅色手绘装饰线。",
+      "label": "左上方横向餐桌照片，包含室内木质餐厅、多人份早餐餐盘、饮料和",
+      "method": "local"
+    },
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        434,
+        70,
+        743,
+        479
+      ],
+      "description": "中上部竖向街景照片，包含老建筑、石门、街道、树木和电线，保留完整摄影环境；照片下缘被下方蓝色照片和装饰部分遮挡。",
+      "label": "中上部竖向街景照片，包含老建筑、石门、街道、树木和电线，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle_street",
+      "kind": "photo",
+      "bbox": [
+        682,
+        20,
+        878,
+        214
+      ],
+      "description": "右上方圆形街景照片窗口，显示街道、药房招牌、树木和建筑，摄影内容沿圆形窗口裁切，周围有固定手绘文字与装饰。",
+      "label": "右上方圆形街景照片窗口，显示街道、药房招牌、树木和建筑，摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        51,
+        437,
+        402,
+        928
+      ],
+      "description": "左侧大幅海边人物照片，包含前景两名戴墨镜的女性、后方人物、草地与海面，人物面向镜头并有伸手自拍姿态；完整照片窗口保留，周围叠有心形和手绘线条。",
+      "label": "左侧大幅海边人物照片，包含前景两名戴墨镜的女性、后方人物、草",
+      "method": "local"
+    },
+    {
+      "id": "photo_group_main",
+      "kind": "photo",
+      "bbox": [
+        473,
+        538,
+        995,
+        916
+      ],
+      "description": "中下部横向海边合影照片，包含海岸、蓝天、滑翔伞和多名站立或坐姿人物，人物面向镜头或彼此互动；完整摄影环境保留。",
+      "label": "中下部横向海边合影照片，包含海岸、蓝天、滑翔伞和多名站立或坐",
+      "method": "local"
+    },
+    {
+      "id": "photo_group_small",
+      "kind": "photo",
+      "bbox": [
+        811,
+        513,
+        1060,
+        658
+      ],
+      "description": "右上侧小幅海边合影照片，显示多名人物在海边举手合影，天空和海面保留；该照片叠在中下部大合影的右上区域。",
+      "label": "右上侧小幅海边合影照片，显示多名人物在海边举手合影，天空和海",
+      "method": "local"
+    },
+    {
+      "id": "photo_group_back",
+      "kind": "photo",
+      "bbox": [
+        254,
+        979,
+        1019,
+        1420
+      ],
+      "description": "底部大幅海边背影合影照片，包含六名女性背对镜头举手面向海面、天空、海浪和多只滑翔伞，完整矩形显示区域延伸至画布下缘附近。",
+      "label": "底部大幅海边背影合影照片，包含六名女性背对镜头举手面向海面、",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_sun_book",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        38,
+        112,
+        115
+      ],
+      "description": "左上角黄色太阳贴纸、黑色手绘书本图标及其白色边缘装饰，作为一个固定贴纸组合保留。",
+      "label": "左上角黄色太阳贴纸、黑色手绘书本图标及其白色边缘装饰，作为一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_drink",
+      "kind": "overlay",
+      "bbox": [
+        274,
+        195,
+        391,
+        384
+      ],
+      "description": "餐桌照片右侧的黄色饮料瓶、手绘饮料杯和黑色线稿装饰，固定贴在照片边缘并覆盖局部照片。",
+      "label": "餐桌照片右侧的黄色饮料瓶、手绘饮料杯和黑色线稿装饰，固定贴在",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_label",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        354,
+        129,
+        378
+      ],
+      "description": "餐桌照片下方左侧的蓝色小标签贴纸，含白色和深色短线图案，作为独立固定装饰保留。",
+      "label": "餐桌照片下方左侧的蓝色小标签贴纸，含白色和深色短线图案，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_caption",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        381,
+        322,
+        421
+      ],
+      "description": "餐桌照片下方的白色圆角手写标签底板，承载一行中文说明文字，纸边和阴影整体保留。",
+      "label": "餐桌照片下方的白色圆角手写标签底板，承载一行中文说明文字，纸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_street_caption",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        51,
+        635,
+        83
+      ],
+      "description": "街景照片上方的白色不规则纸条，承载黑色中文手写标题，作为带字固定标签整体保留。",
+      "label": "街景照片上方的白色不规则纸条，承载黑色中文手写标题，作为带字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_doodles",
+      "kind": "overlay",
+      "bbox": [
+        879,
+        48,
+        1040,
+        243
+      ],
+      "description": "圆形街景照片右侧的黑色蝴蝶、音符、彩色星星和粉色曲线等手绘装饰组合，独立叠加在蓝色纸底上。",
+      "label": "圆形街景照片右侧的黑色蝴蝶、音符、彩色星星和粉色曲线等手绘装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_caption",
+      "kind": "overlay",
+      "bbox": [
+        739,
+        134,
+        972,
+        252
+      ],
+      "description": "圆形街景照片周围的黑色中文手写字、箭头和小型线稿装饰，作为同一组固定涂鸦保留。",
+      "label": "圆形街景照片周围的黑色中文手写字、箭头和小型线稿装饰，作为同",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plastic_bag",
+      "kind": "overlay",
+      "bbox": [
+        844,
+        208,
+        1057,
+        411
+      ],
+      "description": "右上部透明塑料袋及手部照片式装饰，带有袋内浅蓝物体和白色手写字样，作为独立固定贴图叠在纸底上。",
+      "label": "右上部透明塑料袋及手部照片式装饰，带有袋内浅蓝物体和白色手写",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_portrait_caption",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        425,
+        94,
+        507
+      ],
+      "description": "左侧人物照片左上方的白色手绘贝壳或手掌形贴纸，部分压住照片边缘。",
+      "label": "左侧人物照片左上方的白色手绘贝壳或手掌形贴纸，部分压住照片边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_portrait_hearts",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        490,
+        279,
+        574
+      ],
+      "description": "人物照片上方的三枚白色和黑色描边爱心贴纸组合，覆盖后方人物头部区域，作为固定装饰保留。",
+      "label": "人物照片上方的三枚白色和黑色描边爱心贴纸组合，覆盖后方人物头",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_portrait_swirl",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        696,
+        418,
+        813
+      ],
+      "description": "人物照片右侧跨出照片边缘的粉色螺旋线稿，独立固定装饰并覆盖蓝色纸底。",
+      "label": "人物照片右侧跨出照片边缘的粉色螺旋线稿，独立固定装饰并覆盖蓝",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_main_doodles",
+      "kind": "overlay",
+      "bbox": [
+        412,
+        482,
+        703,
+        799
+      ],
+      "description": "中部大合影左上方的大型黑色中文艺术字、白色星星、手绘星形轮廓和相邻线条装饰，作为完整艺术字贴纸组合保留。",
+      "label": "中部大合影左上方的大型黑色中文艺术字、白色星星、手绘星形轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_main_character",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        347,
+        810,
+        536
+      ],
+      "description": "街景照片与大合影交界处的白色卡通人物、云朵、圆脸图标和小花装饰组合，跨越照片边缘并叠放在照片上方。",
+      "label": "街景照片与大合影交界处的白色卡通人物、云朵、圆脸图标和小花装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_player",
+      "kind": "overlay",
+      "bbox": [
+        878,
+        422,
+        1068,
+        512
+      ],
+      "description": "右侧叠在小合影附近的浅色音乐播放器贴纸，包含专辑缩略图、歌曲标题、进度条和播放控制图标，作为固定界面装饰保留。",
+      "label": "右侧叠在小合影附近的浅色音乐播放器贴纸，包含专辑缩略图、歌曲",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_main_caption",
+      "kind": "overlay",
+      "bbox": [
+        604,
+        493,
+        833,
+        539
+      ],
+      "description": "大合影上方的白色圆角手写标签底板，承载黑色中文说明文字并覆盖照片上缘。",
+      "label": "大合影上方的白色圆角手写标签底板，承载黑色中文说明文字并覆盖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_main_stars",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        532,
+        685,
+        799
+      ],
+      "description": "大合影左侧和上方的白色星星、线稿星形及蓝色纸底上的手绘装饰组合，部分压住照片边缘。",
+      "label": "大合影左侧和上方的白色星星、线稿星形及蓝色纸底上的手绘装饰组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_title",
+      "kind": "overlay",
+      "bbox": [
+        271,
+        950,
+        544,
+        1036
+      ],
+      "description": "底部照片上方的大型白色手写英文艺术字装饰，内容为 Take a Photo.，带有延伸线条和不规则笔画，作为艺术字整体保留。",
+      "label": "底部照片上方的大型白色手写英文艺术字装饰，内容为 Take ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_music_label",
+      "kind": "overlay",
+      "bbox": [
+        552,
+        958,
+        842,
+        1007
+      ],
+      "description": "底部照片上缘的浅蓝色音乐标签，包含爱心、Lovely day、耳机图标和均衡器图形，作为带字固定贴纸整体保留。",
+      "label": "底部照片上缘的浅蓝色音乐标签，包含爱心、Lovely day",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish_label",
+      "kind": "overlay",
+      "bbox": [
+        216,
+        981,
+        258,
+        1083
+      ],
+      "description": "底部照片左上侧的黑色竖向鱼图标标签，带棕色底板和白色鱼形线稿，独立固定装饰。",
+      "label": "底部照片左上侧的黑色竖向鱼图标标签，带棕色底板和白色鱼形线稿",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_happy_label",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        1118,
+        294,
+        1157
+      ],
+      "description": "左下方黄色矩形英文贴纸，印有黑色 Haaaaaaaapy!! 字样，作为带字标签整体保留。",
+      "label": "左下方黄色矩形英文贴纸，印有黑色 Haaaaaaaapy!!",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_stars",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        1017,
+        224,
+        1218
+      ],
+      "description": "底部照片左侧的白色星星、粉色星形、音符和小型线稿装饰组合，散落在蓝色纸底上并作为固定元素保留。",
+      "label": "底部照片左侧的白色星星、粉色星形、音符和小型线稿装饰组合，散",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_doodles",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        920,
+        1014,
+        1000
+      ],
+      "description": "底部照片上方右侧的一组白色圆形表情、爱心、星星和小图标装饰，沿照片上缘排列。",
+      "label": "底部照片上方右侧的一组白色圆形表情、爱心、星星和小图标装饰，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_corner_doodles",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        24,
+        1070,
+        1434
+      ],
+      "description": "散布在画布四周的白色星点、螺旋线、星形轮廓和小型手绘符号，作为不规则但统一的固定涂鸦装饰保留；不包含独立照片内容。",
+      "label": "散布在画布四周的白色星点、螺旋线、星形轮廓和小型手绘符号，作",
+      "method": "extract"
+    },
+    {
+      "id": "text_top_mood",
+      "kind": "text",
+      "bbox": [
+        97,
+        38,
+        210,
+        63
+      ],
+      "description": "特别有氛围感",
+      "label": "特别有氛围感",
+      "method": "local",
+      "text": "特别有氛围感",
+      "text_status": "known",
+      "style": {
+        "fill": "#222222",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_food_drink",
+      "kind": "text",
+      "bbox": [
+        395,
+        243,
+        432,
+        328
+      ],
+      "description": "好\n喝\n好\n喝",
+      "label": "好\n喝\n好\n喝",
+      "method": "local",
+      "text": "好\n喝\n好\n喝",
+      "text_status": "known",
+      "style": {
+        "fill": "#222222",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_portrait_caption",
+      "kind": "text",
+      "bbox": [
+        78,
+        945,
+        269,
+        971
+      ],
+      "description": "还要一起去更多的地方",
+      "label": "还要一起去更多的地方",
+      "method": "local",
+      "text": "还要一起去更多的地方",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_main_english",
+      "kind": "text",
+      "bbox": [
+        625,
+        598,
+        800,
+        638
+      ],
+      "description": "give me five",
+      "label": "give me five",
+      "method": "local",
+      "text": "give me five",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_caption",
+      "kind": "text",
+      "bbox": [
+        475,
+        918,
+        807,
+        950
+      ],
+      "description": "想出在这里遇到的真是太棒!!!",
+      "label": "想出在这里遇到的真是太棒!!!",
+      "method": "local",
+      "text": "想出在这里遇到的真是太棒!!!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_left",
+      "kind": "text",
+      "bbox": [
+        77,
+        1176,
+        244,
+        1307
+      ],
+      "description": "好幸运的我们\n特别的自由鲜活\n等我下一次冒险",
+      "label": "好幸运的我们\n特别的自由鲜活\n等我下一次冒险",
+      "method": "local",
+      "text": "好幸运的我们\n特别的自由鲜活\n等我下一次冒险",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_right",
+      "kind": "text",
+      "bbox": [
+        660,
+        1007,
+        946,
+        1080
+      ],
+      "description": "折返小时再一把的滑翔伞\n哈哈了!!!特别特别值得!!",
+      "label": "折返小时再一把的滑翔伞\n哈哈了!!!特别特别值得!!",
+      "method": "local",
+      "text": "折返小时再一把的滑翔伞\n哈哈了!!!特别特别值得!!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bubble_happy",
+      "kind": "text",
+      "bbox": [
+        43,
+        1015,
+        108,
+        1047
+      ],
+      "description": "开心~",
+      "label": "开心~",
+      "method": "local",
+      "text": "开心~",
+      "text_status": "known",
+      "style": {
+        "fill": "#222222",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bubble_world",
+      "kind": "text",
+      "bbox": [
+        38,
+        1325,
+        223,
+        1371
+      ],
+      "description": "世界就在我们眼前",
+      "label": "世界就在我们眼前",
+      "method": "local",
+      "text": "世界就在我们眼前",
+      "text_status": "known",
+      "style": {
+        "fill": "#222222",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_food",
+    "photo_street",
+    "photo_portrait",
+    "photo_group_main",
+    "photo_group_back",
+    "photo_circle_street",
+    "photo_group_small",
+    "overlay_top_sun_book",
+    "overlay_food_label",
+    "overlay_food_drink",
+    "overlay_food_caption",
+    "overlay_street_caption",
+    "overlay_circle_doodles",
+    "overlay_circle_caption",
+    "overlay_plastic_bag",
+    "overlay_portrait_caption",
+    "overlay_portrait_hearts",
+    "overlay_portrait_swirl",
+    "overlay_main_doodles",
+    "overlay_main_character",
+    "overlay_music_player",
+    "overlay_main_caption",
+    "overlay_main_stars",
+    "overlay_bottom_title",
+    "overlay_bottom_music_label",
+    "overlay_fish_label",
+    "overlay_happy_label",
+    "overlay_bottom_stars",
+    "overlay_bottom_right_doodles",
+    "overlay_corner_doodles",
+    "text_top_mood",
+    "text_food_drink",
+    "text_portrait_caption",
+    "text_main_english",
+    "text_bottom_caption",
+    "text_bottom_left",
+    "text_bottom_right",
+    "text_bubble_happy",
+    "text_bubble_world"
+  ]
+}

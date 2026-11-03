@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        270,
+        498,
+        893
+      ],
+      "description": "左侧竖向矩形照片窗口，包含三名穿浅色校服的年轻女性，前景人物坐姿并向镜头做张手势，中后景两人坐在草地上；画面保留树木、围墙、操场和白色气球等完整摄影环境，照片边缘由胶片框遮挡。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        589,
+        270,
+        1034,
+        893
+      ],
+      "description": "右侧竖向矩形照片窗口，包含两名穿浅色校服的年轻女性，前景人物面向镜头坐姿，后方人物侧身朝右坐在草地上；画面保留树木、围墙、草地和天空等完整摄影环境，照片边缘由胶片框遮挡。"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        163,
+        1080,
+        990
+      ],
+      "description": "横向黑色胶片框体，覆盖画布中部并承载左右两个独立照片窗口；完整保留上下两排白色齿孔、中央黑色间隔、边缘阴影、顶部橙黄色“FUJI RDP III”印字和底部左侧黄色箭头标记。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "frame_filmstrip"
+  ]
+}

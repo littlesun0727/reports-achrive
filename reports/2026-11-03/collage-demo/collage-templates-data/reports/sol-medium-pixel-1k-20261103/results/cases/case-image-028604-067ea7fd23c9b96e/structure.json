@@ -1,0 +1,111 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "filmstrip_frame",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1424
+      ],
+      "description": "覆盖全画布的黑色胶片承托框，包含左右两列白色齿孔、上下两张照片之间的黑色间隔、外框边缘和暗色胶片材质；两个矩形照片窗口嵌入同一完整胶片框体中。",
+      "photo_id": [
+        "photo_upper",
+        "photo_lower"
+      ]
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        139,
+        61,
+        958,
+        648
+      ],
+      "description": "上方横向便利店冷藏柜照片，包含一名手持红色饮料、面向镜头微笑的年轻女性，人物位于左侧并向右伸手，背景保留整排饮料柜、玻璃反光、地面和下方墙面；照片窗口被胶片框包围，画面内叠有固定插画与文字设计。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        139,
+        767,
+        958,
+        1354
+      ],
+      "description": "下方横向便利店冷藏柜照片，包含一名站在画面中部、面向镜头并双手举起两瓶饮料的年轻女性，人物穿黑色针织服装；背景保留冷藏柜、瓶装水、冰箱门和广告反光，照片窗口被胶片框包围，画面内叠有固定贴纸与文字设计。"
+    },
+    {
+      "id": "overlay_upper_hi",
+      "kind": "overlay",
+      "bbox": [
+        433,
+        190,
+        555,
+        264
+      ],
+      "description": "位于上方照片中部偏右的白色手绘对话气泡，内部有可辨文字“Hi”，包含气泡轮廓、尾部和文字，作为一个独立固定涂鸦单元保留。"
+    },
+    {
+      "id": "overlay_upper_annotation",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        224,
+        934,
+        422
+      ],
+      "description": "上方照片右侧的综合固定涂鸦单元，包含蓝色和白色手写中文、指向文字的白色箭头与短线、右上角黄色手形符号、下方蜡笔小新风格人物以及围绕人物的白色虚线轮廓；文字与插画位置和笔画共同保留，不拆分为普通文本。"
+    },
+    {
+      "id": "overlay_lower_label",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        956,
+        395,
+        1103
+      ],
+      "description": "下方照片左侧冰箱门上的白色固定标签组合，包含两个简化表情图标和手写文字“曼谷限定”“kitty水”，文字、图标和整体排布共同构成独立装饰单元。"
+    },
+    {
+      "id": "overlay_lower_kitty_left",
+      "kind": "overlay",
+      "bbox": [
+        373,
+        906,
+        469,
+        1022
+      ],
+      "description": "下方照片中左侧饮料瓶上的独立Hello Kitty风格贴纸，包含粉色蝴蝶结、耳朵、脸部和粉色装饰线，贴纸图形随固定设计保留，不包含其下方摄影瓶体。"
+    },
+    {
+      "id": "overlay_lower_kitty_right",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        915,
+        657,
+        1057
+      ],
+      "description": "下方照片中右侧饮料瓶上的独立Hello Kitty风格贴纸，包含粉色蝴蝶结、耳朵、脸部和粉色装饰线，贴纸图形随固定设计保留，不包含其下方摄影瓶体。"
+    }
+  ],
+  "layer_order": [
+    "filmstrip_frame",
+    "photo_upper",
+    "photo_lower",
+    "overlay_upper_hi",
+    "overlay_upper_annotation",
+    "overlay_lower_label",
+    "overlay_lower_kitty_left",
+    "overlay_lower_kitty_right"
+  ]
+}

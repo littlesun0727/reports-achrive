@@ -1,0 +1,265 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的海港摄影画面覆盖整张画布，顶部为蓝天与缆车线路，中下部为渔港建筑、船只和前景海水；画面边缘均延续同一场景，独立照片与白色路线涂鸦仅遮挡局部。底图保留完整港口环境并由客户素材替换。",
+      "background_type": "photo",
+      "label": "连续的海港摄影画面覆盖整张画布，顶部为蓝天与缆车线路，中下部",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_route",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        0,
+        909,
+        1412
+      ],
+      "description": "覆盖画面的白色手绘旅行路线、连接节点、星形涂鸦和手写时间标记，包括“11:28”“12:55”“14:19”“18:25”等；作为一个连续的固定设计单元保留，部分路线被独立照片遮挡。",
+      "label": "覆盖画面的白色手绘旅行路线、连接节点、星形涂鸦和手写时间标记",
+      "method": "extract"
+    },
+    {
+      "id": "photo_monkey",
+      "kind": "photo",
+      "bbox": [
+        21,
+        213,
+        185,
+        420
+      ],
+      "description": "左上方竖向猴子照片，猴子坐在植被和栏杆附近，保留完整树林环境与主体，矩形照片区域的下缘邻近下方人物照片。",
+      "label": "左上方竖向猴子照片，猴子坐在植被和栏杆附近，保留完整树林环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_monkeys",
+      "kind": "photo",
+      "bbox": [
+        191,
+        295,
+        391,
+        465
+      ],
+      "description": "左上中部横向猴群照片，多只猴子位于阳光照射的地面和网格围栏前，保留完整摄影环境，矩形窗口独立显示。",
+      "label": "左上中部横向猴群照片，多只猴子位于阳光照射的地面和网格围栏前",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        422,
+        228,
+        646
+      ],
+      "description": "左侧人物照片，年轻女性在海边观景处侧身面对镜头并举手比手势，身后可见海面、山岸和黄色车体结构，保留摄影环境。",
+      "label": "左侧人物照片，年轻女性在海边观景处侧身面对镜头并举手比手势，",
+      "method": "local"
+    },
+    {
+      "id": "photo_city_view",
+      "kind": "photo",
+      "bbox": [
+        228,
+        575,
+        425,
+        707
+      ],
+      "description": "左中部横向城市与海湾风景照片，从高处拍摄城市、山坡和海面，保留完整远景环境，部分位置与白色路线相邻。",
+      "label": "左中部横向城市与海湾风景照片，从高处拍摄城市、山坡和海面，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_harbor_top",
+      "kind": "photo",
+      "bbox": [
+        716,
+        79,
+        899,
+        215
+      ],
+      "description": "右上方横向港口照片，包含海边建筑、码头和水面倒影，保留完整摄影环境，独立矩形窗口显示。",
+      "label": "右上方横向港口照片，包含海边建筑、码头和水面倒影，保留完整摄",
+      "method": "local"
+    },
+    {
+      "id": "photo_turquoise_water",
+      "kind": "photo",
+      "bbox": [
+        907,
+        95,
+        1073,
+        220
+      ],
+      "description": "右上方蓝绿色海水照片，画面主要为带有细小漂浮纹理的水面，保留完整水面摄影内容。",
+      "label": "右上方蓝绿色海水照片，画面主要为带有细小漂浮纹理的水面，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_boat",
+      "kind": "photo",
+      "bbox": [
+        792,
+        227,
+        927,
+        408
+      ],
+      "description": "右上中部人物近景照片，年轻女性坐在船上面对镜头，穿蓝白服装，背景可见船舱和港口环境，摄影背景随照片替换。",
+      "label": "右上中部人物近景照片，年轻女性坐在船上面对镜头，穿蓝白服装，",
+      "method": "local"
+    },
+    {
+      "id": "photo_boat_wake",
+      "kind": "photo",
+      "bbox": [
+        935,
+        250,
+        1068,
+        430
+      ],
+      "description": "右侧竖向船行照片，近处是船尾水花和航行水面，远处可见海岸建筑与山体，保留完整摄影环境。",
+      "label": "右侧竖向船行照片，近处是船尾水花和航行水面，远处可见海岸建筑",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_sign",
+      "kind": "photo",
+      "bbox": [
+        799,
+        671,
+        960,
+        895
+      ],
+      "description": "右中部人物照片，女性坐在沙地或海边景点前，背景包含大型景点标志、树木和海岸环境，保留人物与完整摄影场景。",
+      "label": "右中部人物照片，女性坐在沙地或海边景点前，背景包含大型景点标",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_right",
+      "kind": "photo",
+      "bbox": [
+        951,
+        605,
+        1080,
+        805
+      ],
+      "description": "右侧竖向人物近景照片，女性抬手遮挡阳光并面对镜头，身后有树木和户外环境，照片左缘与邻近人物照片局部相交。",
+      "label": "右侧竖向人物近景照片，女性抬手遮挡阳光并面对镜头，身后有树木",
+      "method": "local"
+    },
+    {
+      "id": "photo_beach_legs",
+      "kind": "photo",
+      "bbox": [
+        928,
+        905,
+        1074,
+        1103
+      ],
+      "description": "右下方海滩照片，画面显示坐在沙滩上的人物腿部、黑色相机或设备以及海岸背景，保留完整摄影内容。",
+      "label": "右下方海滩照片，画面显示坐在沙滩上的人物腿部、黑色相机或设备",
+      "method": "local"
+    },
+    {
+      "id": "photo_wave",
+      "kind": "photo",
+      "bbox": [
+        707,
+        908,
+        910,
+        1100
+      ],
+      "description": "右下中部海浪照片，白色浪花冲向浅色沙滩，保留完整海水、浪花和沙滩环境，矩形窗口独立显示。",
+      "label": "右下中部海浪照片，白色浪花冲向浅色沙滩，保留完整海水、浪花和",
+      "method": "local"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        12,
+        1070,
+        184,
+        1211
+      ],
+      "description": "左下方日落海景照片，太阳位于云层与海面附近，前景有暗色礁石或海岸，保留完整天空、海面和岸线。",
+      "label": "左下方日落海景照片，太阳位于云层与海面附近，前景有暗色礁石或",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_rocks",
+      "kind": "photo",
+      "bbox": [
+        183,
+        1144,
+        313,
+        1302
+      ],
+      "description": "左下中部人物全身照片，女性站在岩石海岸上，手持红色桶状物，身后是海面和岩石环境，保留完整人物与摄影背景。",
+      "label": "左下中部人物全身照片，女性站在岩石海岸上，手持红色桶状物，身",
+      "method": "local"
+    },
+    {
+      "id": "photo_night_boat",
+      "kind": "photo",
+      "bbox": [
+        5,
+        1262,
+        222,
+        1360
+      ],
+      "description": "左下角夜间船上照片，人物位于船头或船内，前方可见夜色海面、灯光和红色标记，保留完整夜景摄影内容。",
+      "label": "左下角夜间船上照片，人物位于船头或船内，前方可见夜色海面、灯",
+      "method": "local"
+    },
+    {
+      "id": "photo_bucket_water",
+      "kind": "photo",
+      "bbox": [
+        234,
+        1250,
+        404,
+        1371
+      ],
+      "description": "底部偏左竖向照片，手持红色桶或容器接取翻涌海水，画面包含手部、容器和水面，保留完整摄影环境。",
+      "label": "底部偏左竖向照片，手持红色桶或容器接取翻涌海水，画面包含手部",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_route",
+    "photo_monkey",
+    "photo_monkeys",
+    "photo_woman_left",
+    "photo_city_view",
+    "photo_harbor_top",
+    "photo_turquoise_water",
+    "photo_woman_boat",
+    "photo_boat_wake",
+    "photo_woman_sign",
+    "photo_woman_right",
+    "photo_wave",
+    "photo_beach_legs",
+    "photo_sunset",
+    "photo_woman_rocks",
+    "photo_night_boat",
+    "photo_bucket_water"
+  ]
+}

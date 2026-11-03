@@ -1,0 +1,379 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内摄影环境覆盖整张画布，画布四边均露出同一空间的墙面、门柜和地面，局部被拼贴照片、标签与装饰遮挡；背景环境整体作为可替换客户照片保留，不拆分为局部窗口。",
+      "background_type": "photo",
+      "label": "连续的室内摄影环境覆盖整张画布，画布四边均露出同一空间的墙面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_cups_top",
+      "kind": "photo",
+      "bbox": [
+        140,
+        129,
+        388,
+        358
+      ],
+      "description": "左上方横向照片，显示桌面上的多只外带饮料杯及其室内环境，完整照片区域为矩形，右上部分被箭头形纸片遮挡。",
+      "label": "左上方横向照片，显示桌面上的多只外带饮料杯及其室内环境，完整",
+      "method": "local"
+    },
+    {
+      "id": "overlay_arrow_note",
+      "kind": "overlay",
+      "bbox": [
+        322,
+        67,
+        463,
+        229
+      ],
+      "description": "白色星星图案的右向箭头纸片，带有可辨的“to be continued”字样，覆盖左上照片右上区域，作为完整固定纸张单元保留。",
+      "label": "白色星星图案的右向箭头纸片，带有可辨的“to be cont",
+      "method": "extract"
+    },
+    {
+      "id": "text_call_me",
+      "kind": "text",
+      "bbox": [
+        592,
+        77,
+        989,
+        106
+      ],
+      "description": "please call me",
+      "label": "please call me",
+      "method": "local",
+      "text": "please call me",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_legs_coffee",
+      "kind": "photo",
+      "bbox": [
+        280,
+        297,
+        456,
+        531
+      ],
+      "description": "左上中部竖向照片，显示穿黑色裙装、蓝色袜子和黑鞋的人坐在地面上并手持饮料杯，照片环境仍然可见，四周带白色细描边。",
+      "label": "左上中部竖向照片，显示穿黑色裙装、蓝色袜子和黑鞋的人坐在地面",
+      "method": "local"
+    },
+    {
+      "id": "overlay_yeah",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        350,
+        231,
+        434
+      ],
+      "description": "深灰色矩形字样贴纸，内含大型灰白色“YEAH”排版，作为具有独立轮廓和特殊字形的固定装饰整体保留。",
+      "label": "深灰色矩形字样贴纸，内含大型灰白色“YEAH”排版，作为具有",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mirror_selfie",
+      "kind": "photo",
+      "bbox": [
+        552,
+        212,
+        952,
+        759
+      ],
+      "description": "右上至中部的大幅竖向镜面自拍照片，单人站立并手持手机遮住面部，另一只手扶在左侧门边，镜面室内环境完整保留。",
+      "label": "右上至中部的大幅竖向镜面自拍照片，单人站立并手持手机遮住面部",
+      "method": "local"
+    },
+    {
+      "id": "frame_mirror_selfie",
+      "kind": "frame",
+      "bbox": [
+        536,
+        173,
+        964,
+        787
+      ],
+      "description": "围绕大幅自拍照片的白色横条与两侧分段边条构成的固定照片承托框，包含完整外缘和装饰性间隔条，位于照片窗口外侧。",
+      "photo_id": [
+        "photo_mirror_selfie"
+      ],
+      "label": "围绕大幅自拍照片的白色横条与两侧分段边条构成的固定照片承托框",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        839,
+        247,
+        1007,
+        337
+      ],
+      "description": "覆盖自拍照片右上方的白色椭圆对话气泡，带尖角和黑色颜文字“す_す”，作为独立固定贴纸保留。",
+      "label": "覆盖自拍照片右上方的白色椭圆对话气泡，带尖角和黑色颜文字“す",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_note",
+      "kind": "overlay",
+      "bbox": [
+        504,
+        378,
+        555,
+        430
+      ],
+      "description": "自拍照片左侧的白色音乐符号装饰，带有小型点状附属笔画，作为独立固定图形保留。",
+      "label": "自拍照片左侧的白色音乐符号装饰，带有小型点状附属笔画，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_diagonal_tape",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        537,
+        244,
+        667
+      ],
+      "description": "左中部斜向黑白条纹胶带，具有不规则纸带轮廓，压在下方照片上方作为固定装饰保留。",
+      "label": "左中部斜向黑白条纹胶带，具有不规则纸带轮廓，压在下方照片上方",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower_selfie",
+      "kind": "photo",
+      "bbox": [
+        110,
+        593,
+        375,
+        946
+      ],
+      "description": "左下方竖向镜自拍照片，单人侧身站在室内并用手机拍摄，衣物、镜面和室内背景共同属于照片内容；上方被斜纹胶带局部遮挡。",
+      "label": "左下方竖向镜自拍照片，单人侧身站在室内并用手机拍摄，衣物、镜",
+      "method": "local"
+    },
+    {
+      "id": "text_my_feelings",
+      "kind": "text",
+      "bbox": [
+        131,
+        850,
+        316,
+        878
+      ],
+      "description": "#in my feelings",
+      "label": "#in my feelings",
+      "method": "local",
+      "text": "#in my feelings",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_dot_trail",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        780,
+        398,
+        1073
+      ],
+      "description": "沿左侧照片、下方区域和心形照片边缘散布的黑色、白色与半透明灰色圆点装饰，作为一组具有连续构图关系的固定点状单元保留。",
+      "label": "沿左侧照片、下方区域和心形照片边缘散布的黑色、白色与半透明灰",
+      "method": "extract"
+    },
+    {
+      "id": "photo_calendar_cups",
+      "kind": "photo",
+      "bbox": [
+        441,
+        841,
+        660,
+        1062
+      ],
+      "description": "中下部方形照片，俯拍多只饮料杯和餐具摆在地面上的场景，月份文字分布在照片内部并随摄影内容替换。",
+      "label": "中下部方形照片，俯拍多只饮料杯和餐具摆在地面上的场景，月份文",
+      "method": "local"
+    },
+    {
+      "id": "photo_doll_bed",
+      "kind": "photo",
+      "bbox": [
+        715,
+        914,
+        993,
+        1288
+      ],
+      "description": "右下方竖向照片，显示床上穿白衣的玩偶、枕被和纸片，完整床面环境保留，照片四周带白色细描边。",
+      "label": "右下方竖向照片，显示床上穿白衣的玩偶、枕被和纸片，完整床面环",
+      "method": "local"
+    },
+    {
+      "id": "overlay_feelings_label",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        905,
+        910,
+        959
+      ],
+      "description": "压在右下照片上沿的白色横向标签，带浅灰点状纹理和“inmyfeelings”字样，作为带字固定纸标签整体保留。",
+      "label": "压在右下照片上沿的白色横向标签，带浅灰点状纹理和“inmyf",
+      "method": "extract"
+    },
+    {
+      "id": "photo_heart_bear",
+      "kind": "photo",
+      "bbox": [
+        57,
+        981,
+        341,
+        1352
+      ],
+      "description": "左下方心形轮廓照片，显示手持棕色熊玩偶、黑色裤袜和地面背景的完整组合；照片沿心形轮廓显示，并带白色手绘虚线边缘。",
+      "label": "左下方心形轮廓照片，显示手持棕色熊玩偶、黑色裤袜和地面背景的",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paperclip_heart",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        967,
+        111,
+        1060
+      ],
+      "description": "夹在心形照片左上边缘的白色手绘回形针，跨越照片轮廓并作为独立固定装饰保留。",
+      "label": "夹在心形照片左上边缘的白色手绘回形针，跨越照片轮廓并作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "photo_coffee_bottom",
+      "kind": "photo",
+      "bbox": [
+        387,
+        1094,
+        612,
+        1321
+      ],
+      "description": "下方中部竖向咖啡照片，显示木桌上的玻璃咖啡杯、奶泡和白色碟子，完整摄影环境可见，外围带白色细描边。",
+      "label": "下方中部竖向咖啡照片，显示木桌上的玻璃咖啡杯、奶泡和白色碟子",
+      "method": "local"
+    },
+    {
+      "id": "text_emoticon_bottom",
+      "kind": "text",
+      "bbox": [
+        367,
+        1288,
+        535,
+        1335
+      ],
+      "description": "(>~す)",
+      "label": "(>~す)",
+      "method": "local",
+      "text": "(>~す)",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_girl_loves_note",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        661,
+        682,
+        808
+      ],
+      "description": "覆盖自拍照片下方的白色便签纸，带灰色粗体排版“this girl loves ...*”及底部点状装饰，纸张和文字作为一个固定标签整体保留。",
+      "label": "覆盖自拍照片下方的白色便签纸，带灰色粗体排版“this gi",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dotted_square",
+      "kind": "overlay",
+      "bbox": [
+        590,
+        630,
+        682,
+        720
+      ],
+      "description": "便签右上方叠放的半透明灰色方形点阵纸片，具有独立矩形轮廓和透明叠加效果，作为固定装饰保留。",
+      "label": "便签右上方叠放的半透明灰色方形点阵纸片，具有独立矩形轮廓和透",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cup_star_sticker",
+      "kind": "overlay",
+      "bbox": [
+        879,
+        1193,
+        1034,
+        1341
+      ],
+      "description": "右下角浅灰色方形贴纸，带白色爱心点缀、黑色星形和白色杯子图案，覆盖右下照片下部边缘，作为独立固定装饰整体保留。",
+      "label": "右下角浅灰色方形贴纸，带白色爱心点缀、黑色星形和白色杯子图案",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_cups_top",
+    "photo_legs_coffee",
+    "photo_mirror_selfie",
+    "frame_mirror_selfie",
+    "photo_lower_selfie",
+    "photo_calendar_cups",
+    "photo_doll_bed",
+    "photo_heart_bear",
+    "photo_coffee_bottom",
+    "overlay_yeah",
+    "overlay_arrow_note",
+    "overlay_diagonal_tape",
+    "overlay_dot_trail",
+    "overlay_paperclip_heart",
+    "overlay_speech_bubble",
+    "overlay_music_note",
+    "overlay_feelings_label",
+    "overlay_girl_loves_note",
+    "overlay_dotted_square",
+    "overlay_cup_star_sticker",
+    "text_call_me",
+    "text_my_feelings",
+    "text_emoticon_bottom"
+  ]
+}

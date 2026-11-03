@@ -1,0 +1,169 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的咖啡馆室内摄影画面覆盖全画布：木质窗框和大面积玻璃位于中上部，两盏吊灯分别位于左右，左侧有绿植，下部为桌椅，窗外可见树木、街道及白色车辆，无清晰可辨的主体人物。画面整体明显失焦，暖棕色室内与窗外绿色环境共同保留并替换。四边的场景及结构连续，白色手绘装饰仅叠加遮挡局部，不改变底图的完整范围。"
+  },
+  "objects": [
+    {
+      "id": "overlay_rays",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        108,
+        760,
+        239
+      ],
+      "description": "上方三枚白色手绘放射状强调符号，每枚为细长封闭轮廓并带斜向短线，作为同一组固定装饰整体保留。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        299,
+        797,
+        338
+      ],
+      "description": "上部偏右的一枚白色实心手绘五角星，独立叠加在窗外绿景上。"
+    },
+    {
+      "id": "overlay_star_lamp",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        401,
+        286,
+        439
+      ],
+      "description": "左侧吊灯亮部上方的一枚白色手绘小星星，属于后加装饰，不属于吊灯摄影内容。"
+    },
+    {
+      "id": "overlay_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        572,
+        180,
+        691
+      ],
+      "description": "左侧一组略微倾斜的白色手绘叉子与餐刀线稿，两件餐具共同构成独立装饰，内部空隙透出底图。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        884,
+        634,
+        936,
+        687
+      ],
+      "description": "画面右侧中部的一枚较大的白色实心手绘五角星。"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        724,
+        453,
+        763
+      ],
+      "description": "画面中部偏左的一枚白色实心手绘小五角星。"
+    },
+    {
+      "id": "overlay_curl_right",
+      "kind": "overlay",
+      "bbox": [
+        972,
+        815,
+        1009,
+        875
+      ],
+      "description": "右侧窗框附近的白色手绘弯曲线条，带小环及向上延伸的尾部，完整保留其不规则笔画。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        862,
+        109,
+        900
+      ],
+      "description": "左侧靠近绿植下部的一枚白色实心手绘小五角星。"
+    },
+    {
+      "id": "overlay_star_above_title",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        986,
+        677,
+        1015
+      ],
+      "description": "下部标题上方的一枚白色实心小星星，与标题外轮廓之间留有空隙，独立保留。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        1013,
+        983,
+        1334
+      ],
+      "description": "下部大型白色手绘碗状轮廓及一体连接的底座，内部写有“Bits and pieces”。文字随碗形弧度分布，各字位置和角度不一，属于完整艺术字装饰。保留外轮廓、底座、全部字形及透明内部，不将其作为照片框或普通文字拆分。"
+    },
+    {
+      "id": "overlay_curl_left",
+      "kind": "overlay",
+      "bbox": [
+        102,
+        1233,
+        140,
+        1278
+      ],
+      "description": "标题左下方的一枚白色手绘小弯线，带环状转折，独立于标题轮廓。"
+    },
+    {
+      "id": "overlay_star_bottom",
+      "kind": "overlay",
+      "bbox": [
+        811,
+        1295,
+        849,
+        1335
+      ],
+      "description": "标题右下侧的一枚白色实心手绘五角星，与碗状标题装饰分离。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1073,
+        1435
+      ],
+      "description": "右下角小型深色圆角胶囊状平台水印，内有低对比度的“小红书”字样；文字与底板作为一个固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_rays",
+    "overlay_star_top",
+    "overlay_star_lamp",
+    "overlay_cutlery",
+    "overlay_star_right",
+    "overlay_star_center",
+    "overlay_curl_right",
+    "overlay_star_left",
+    "overlay_star_above_title",
+    "overlay_title",
+    "overlay_curl_left",
+    "overlay_star_bottom",
+    "overlay_watermark"
+  ]
+}

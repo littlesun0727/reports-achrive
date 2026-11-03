@@ -1,0 +1,35 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_group",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下半部为一张横向室内集体合影，约二十余人围坐或站立在桌边，面向镜头挥手；人物从中景至全身，桌面物品、前景沙发及右上方显示“BLUE SECRET”的蓝色屏幕均属于照片内容。矩形照片区域从画面中部横向接缝处延伸至画布底边，摄影环境保留。"
+    },
+    {
+      "id": "overlay_paper_note",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        721
+      ],
+      "description": "覆盖画面上半部的横向浅褐色穿孔纸页，保留纸张纹理、顶部六个圆孔及其上的黑色手写中文句子、引号、下划线和右下方小字日期；整体作为独立固定纸张设计单元，压住下方合影的上缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_group",
+    "overlay_paper_note"
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "bg_paper",
+    "description": "灰绿色细密斑驳纹理连续铺满画布，并在照片间隙与四周可见，属于固定纸面底纹；保留纹理原样，照片及叠加文字、贴纸独立处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_group_seaside",
+      "kind": "photo",
+      "bbox": [
+        76,
+        84,
+        568,
+        454
+      ],
+      "description": "左上横向海边合影，约十余名年轻女性并排坐在海岸栏边面向镜头，穿浅色夏装，部分举手或比手势；海面、天空及人物共同属于照片，画面保持可见摄影环境。"
+    },
+    {
+      "id": "photo_archway",
+      "kind": "photo",
+      "bbox": [
+        645,
+        49,
+        960,
+        453
+      ],
+      "description": "右上竖向照片，两名年轻女性背对镜头站在海边木栏前，一人穿浅色裙、一人穿蓝白格纹裙；人物与海天环境保留在拱形窗口内，窗口外的灰墙和木栏属于独立固定设计。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        31,
+        488,
+        210,
+        668
+      ],
+      "description": "左侧小幅室内近景，数只手举着红色可乐罐碰杯，保留室内背景及照片矩形显示范围。"
+    },
+    {
+      "id": "photo_two_friends",
+      "kind": "photo",
+      "bbox": [
+        194,
+        581,
+        520,
+        1016
+      ],
+      "description": "中部竖向室内合照，两名年轻女性坐在交通工具座位上，前方女性微笑并举手比耶，另一人靠近镜头；保留座椅、窗户等摄影环境。"
+    },
+    {
+      "id": "photo_handheld_prints",
+      "kind": "photo",
+      "bbox": [
+        557,
+        583,
+        690,
+        739
+      ],
+      "description": "右侧中上方手持两张小幅照片的近景，手与照片均为摄影内容，背景为户外景色；显示范围包含完整手部及两张照片。"
+    },
+    {
+      "id": "photo_sea_view",
+      "kind": "photo",
+      "bbox": [
+        630,
+        494,
+        992,
+        723
+      ],
+      "description": "右侧横向海景照片，一名戴宽檐草帽的女性背对镜头，抬手站在观景栏边，面向蓝色海面与岩岸；保留完整摄影环境，手持照片对象在其左下方相邻遮挡边缘。"
+    },
+    {
+      "id": "photo_food_baskets",
+      "kind": "photo",
+      "bbox": [
+        93,
+        1094,
+        490,
+        1360
+      ],
+      "description": "左下横向俯拍照片，多只红色提篮装着食品，周围可见伸入画面的手臂；保留篮筐、食物和地面等摄影内容。"
+    },
+    {
+      "id": "photo_dining_group",
+      "kind": "photo",
+      "bbox": [
+        559,
+        773,
+        1006,
+        1404
+      ],
+      "description": "右下大型室内聚餐合照，约八名年轻女性围坐长桌，前景女性伸手自拍并看向镜头，桌面有餐食和饮料，背景为木质棚顶与暖色吊灯；照片保留完整室内摄影环境。"
+    },
+    {
+      "id": "photo_food_closeup",
+      "kind": "photo",
+      "bbox": [
+        449,
+        1201,
+        640,
+        1413
+      ],
+      "description": "底部偏中圆形呈现的餐食近景，多只白盘盛有小份菜点；照片环境仍可见，白色手绘圆线及其周围小星点依附照片窗口边缘，作为该照片的固定可见描边效果保留。"
+    },
+    {
+      "id": "frame_archway",
+      "kind": "frame",
+      "bbox": [
+        645,
+        49,
+        960,
+        453
+      ],
+      "description": "右上灰白墙面与深色木栏构成的固定拱形照片承托结构，照片位于拱形内口，底部木栏与两侧墙体属于完整框体。",
+      "photo_id": [
+        "photo_archway"
+      ]
+    },
+    {
+      "id": "overlay_right_heart",
+      "kind": "overlay",
+      "bbox": [
+        876,
+        386,
+        1070,
+        584
+      ],
+      "description": "右上照片旁独立的蓝色心形及其内部海岸小景与手持水面的小图组合，带白色手绘心形线条，整体作为固定贴纸保留。"
+    },
+    {
+      "id": "overlay_left_card",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        751,
+        167,
+        832
+      ],
+      "description": "左侧独立横向深色小卡片，带细边框、微小印刷字样及图片纹理，按完整卡片设计保留。"
+    },
+    {
+      "id": "overlay_round_inset",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        912,
+        169,
+        1052
+      ],
+      "description": "左侧圆形小照片贴纸，显示人物腿部、鞋子与地面，外沿有白色手绘放射短线；作为固定圆形装饰单元整体保留。"
+    },
+    {
+      "id": "overlay_camera_doodle",
+      "kind": "overlay",
+      "bbox": [
+        544,
+        744,
+        623,
+        806
+      ],
+      "description": "照片交界处的白色手绘相机贴纸，包含相机轮廓、镜头和小装饰线条，整体作为独立固定图案保留。"
+    },
+    {
+      "id": "overlay_phone_doodle",
+      "kind": "overlay",
+      "bbox": [
+        534,
+        67,
+        584,
+        131
+      ],
+      "description": "左上照片右上方倾斜的白色手机手绘贴纸，机身内有小图案和按键细节。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        923,
+        724,
+        1045,
+        852
+      ],
+      "description": "右侧照片上方的大型白色手绘空心星形，带细长不规则尖角，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_small",
+      "kind": "overlay",
+      "bbox": [
+        627,
+        407,
+        699,
+        477
+      ],
+      "description": "中上部照片之间的蓝紫色手绘空心星形，带白色边线与内部短线，整体为独立贴纸。"
+    },
+    {
+      "id": "overlay_bunny",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        631,
+        222,
+        681
+      ],
+      "description": "中部照片左侧的小型棕色兔子手绘贴纸，含面部和身体轮廓。"
+    },
+    {
+      "id": "overlay_bunny_small",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        995,
+        536,
+        1035
+      ],
+      "description": "中部照片右下边缘的小型棕色兔子手绘贴纸，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_cat_pair",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        1021,
+        97,
+        1084
+      ],
+      "description": "左侧两个并排的白色猫咪线稿贴纸，含完整耳朵、面部、身体轮廓与小星点。"
+    },
+    {
+      "id": "overlay_cat_figure",
+      "kind": "overlay",
+      "bbox": [
+        980,
+        1292,
+        1051,
+        1408
+      ],
+      "description": "右下角白色线稿女孩贴纸，长发、服饰和姿势均为同一完整装饰造型，含黑色细节线。"
+    },
+    {
+      "id": "overlay_music_note",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        52,
+        83,
+        104
+      ],
+      "description": "左上角黑色手绘音符与小星形组合，作为一组独立线稿装饰。"
+    },
+    {
+      "id": "overlay_starburst_top",
+      "kind": "overlay",
+      "bbox": [
+        982,
+        67,
+        1043,
+        130
+      ],
+      "description": "右上角白色细线手绘星芒，长短不一的尖角构成完整装饰。"
+    },
+    {
+      "id": "overlay_sticker_star",
+      "kind": "overlay",
+      "bbox": [
+        482,
+        188,
+        539,
+        257
+      ],
+      "description": "左上照片右缘附近的白色黑边手绘五角星贴纸，内部有简化表情细节。"
+    },
+    {
+      "id": "overlay_doodle_hearts",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        1100,
+        84,
+        1238
+      ],
+      "description": "左下照片左侧纵向排列的三个白色手绘爱心，作为同一组独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        924,
+        1352,
+        971,
+        1402
+      ],
+      "description": "右下聚餐照片边缘旁的白色空心五角星贴纸，带黑色内线和小亮点。"
+    },
+    {
+      "id": "overlay_small_doodles",
+      "kind": "overlay",
+      "bbox": [
+        16,
+        151,
+        1067,
+        732
+      ],
+      "description": "散布在照片间隙与照片表面的多枚独立手绘点缀，包括右侧竖向人物小线稿、白色及蓝色星星、音符、闪光线和小圆点；不包含已单列的大型星形、手机、相机或心形贴纸。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        103,
+        37,
+        349,
+        69
+      ],
+      "text": "佩尼岛我们来啦",
+      "color": "#F5F4EA",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_photo_group",
+      "kind": "text",
+      "bbox": [
+        120,
+        97,
+        436,
+        129
+      ],
+      "text": "遇到了一群很热情的中国人",
+      "color": "#F7F5EE",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_speech",
+      "kind": "text",
+      "bbox": [
+        326,
+        146,
+        523,
+        222
+      ],
+      "text": "干杯!!!",
+      "color": "#222222",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_left_labels",
+      "kind": "text",
+      "bbox": [
+        46,
+        154,
+        149,
+        223
+      ],
+      "text": "特别默契啊!!\n一个色系的",
+      "color": "#222222",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_vertical",
+      "kind": "text",
+      "bbox": [
+        606,
+        121,
+        632,
+        404
+      ],
+      "text": "等等等坐船ing风景好美好美",
+      "color": "#F1EEE5",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_archway_caption",
+      "kind": "overlay",
+      "bbox": [
+        828,
+        143,
+        984,
+        189
+      ],
+      "description": "压在右上拱形照片上的白底黑字圆角气泡，手写字样可辨为“权威只需眼里出神”，连同气泡轮廓作为固定装饰整体保留。"
+    },
+    {
+      "id": "text_mid_caption",
+      "kind": "text",
+      "bbox": [
+        704,
+        454,
+        866,
+        487
+      ],
+      "text": ":) 周导版手捧",
+      "color": "#F4F1E8",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_center_caption",
+      "kind": "text",
+      "bbox": [
+        238,
+        476,
+        540,
+        560
+      ],
+      "text": "比划在放海阔天空!!!\n这个船长特别特别会放歌",
+      "color": "#F4F1E8",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_drinks_caption",
+      "kind": "text",
+      "bbox": [
+        11,
+        677,
+        188,
+        710
+      ],
+      "text": "一瓶可乐就是vip二样",
+      "color": "#F1EEE5",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_drinks_bubble",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        618,
+        149,
+        649
+      ],
+      "description": "覆盖左侧可乐照片下部的白色圆角气泡，内有黑色左右箭头样式符号，作为带字形图案的固定标签保留。"
+    },
+    {
+      "id": "text_friend_bubble",
+      "kind": "overlay",
+      "bbox": [
+        399,
+        609,
+        536,
+        646
+      ],
+      "description": "中部合照上沿的白色圆角气泡，黑色字样可辨为“海量了的两个人”，气泡与文字整体保留。"
+    },
+    {
+      "id": "text_memory",
+      "kind": "text",
+      "bbox": [
+        169,
+        1022,
+        507,
+        1082
+      ],
+      "text": "这个薯片去了几天吃了几天哈哈哈哈\n特别美味啊 每天都能找到新零食😊",
+      "color": "#F4F1E8",
+      "font": "cjk-hand",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_food_bubble",
+      "kind": "overlay",
+      "bbox": [
+        246,
+        1193,
+        338,
+        1224
+      ],
+      "description": "左下食物照片上的白色手绘圆角气泡，黑色字样可辨为“满载而归”，作为带字标签整体保留。"
+    },
+    {
+      "id": "text_happy_bubble",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        1282,
+        124,
+        1321
+      ],
+      "description": "左下照片旁的白色圆角气泡，黑字为“好幸福”，整体作为固定标签保留。"
+    },
+    {
+      "id": "text_dining_caption",
+      "kind": "text",
+      "bbox": [
+        752,
+        877,
+        958,
+        937
+      ],
+      "text": "又到了一个新酒店!!!\n美美享受一下小泡面",
+      "color": "#F4F1E8",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_caption",
+      "kind": "text",
+      "bbox": [
+        615,
+        1364,
+        935,
+        1421
+      ],
+      "text": "今天是冰冰粉掌镜",
+      "color": "#F4F1E8",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_group_seaside",
+    "photo_archway",
+    "photo_drinks",
+    "photo_two_friends",
+    "photo_handheld_prints",
+    "photo_sea_view",
+    "photo_food_baskets",
+    "photo_dining_group",
+    "photo_food_closeup",
+    "frame_archway",
+    "overlay_round_inset",
+    "overlay_left_card",
+    "overlay_right_heart",
+    "overlay_camera_doodle",
+    "overlay_phone_doodle",
+    "overlay_star_small",
+    "overlay_star_right",
+    "overlay_bunny",
+    "overlay_bunny_small",
+    "overlay_cat_pair",
+    "overlay_cat_figure",
+    "overlay_music_note",
+    "overlay_starburst_top",
+    "overlay_sticker_star",
+    "overlay_doodle_hearts",
+    "overlay_star_lower",
+    "overlay_small_doodles",
+    "text_top",
+    "text_photo_group",
+    "text_vertical",
+    "text_speech",
+    "text_left_labels",
+    "text_archway_caption",
+    "text_mid_caption",
+    "text_center_caption",
+    "text_drinks_caption",
+    "text_drinks_bubble",
+    "text_friend_bubble",
+    "text_memory",
+    "text_food_bubble",
+    "text_happy_bubble",
+    "text_dining_caption",
+    "text_bottom_caption"
+  ]
+}

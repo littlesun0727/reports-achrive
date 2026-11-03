@@ -1,0 +1,265 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "单张连续的全幅街景照片：一名红棕色长发女性以全身景别站在画面中央，身体略侧、头部转向画面左侧，一手扶腰，穿浅黄色上衣和浅色波点短裤；墙面、门洞、树叶花枝与地面延伸至画布四边，人物和环境共同属于可替换照片。上层小图与贴纸遮挡局部，未见其他照片接缝或独立背景区域。",
+      "background_type": "photo",
+      "label": "单张连续的全幅街景照片：一名红棕色长发女性以全身景别站在画面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_illustration",
+      "kind": "photo",
+      "bbox": [
+        121,
+        235,
+        263,
+        339
+      ],
+      "description": "左上方小幅横向矩形图，显示粉白色动漫人物插画及其浅色背景；作为独立图像保留完整矩形显示范围。",
+      "label": "左上方小幅横向矩形图，显示粉白色动漫人物插画及其浅色背景；作",
+      "method": "local"
+    },
+    {
+      "id": "photo_bunny",
+      "kind": "photo",
+      "bbox": [
+        850,
+        282,
+        966,
+        394
+      ],
+      "description": "右上方小幅矩形图，浅色背景上有一只浅棕色兔子玩偶和旁边的装饰物；保留完整矩形图像范围。",
+      "label": "右上方小幅矩形图，浅色背景上有一只浅棕色兔子玩偶和旁边的装饰",
+      "method": "local"
+    },
+    {
+      "id": "photo_pastry",
+      "kind": "photo",
+      "bbox": [
+        208,
+        480,
+        300,
+        572
+      ],
+      "description": "左侧上方小幅方形甜点照片，浅色底上的棕色方形点缀甜点，保留完整照片窗口。",
+      "label": "左侧上方小幅方形甜点照片，浅色底上的棕色方形点缀甜点，保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        148,
+        543,
+        229,
+        625
+      ],
+      "description": "左侧下方小幅甜点照片，显示浅色圆形甜点及粉色装饰，保留完整照片窗口；与右上方甜点图为独立裁切。",
+      "label": "左侧下方小幅甜点照片，显示浅色圆形甜点及粉色装饰，保留完整照",
+      "method": "local"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        777,
+        343,
+        885,
+        449
+      ],
+      "description": "右上区域的心形贴纸，含粉白色心形图案、虚线装饰边和小字“Happy 52”；整体作为固定装饰保留，部分遮住后方兔子小图。",
+      "label": "右上区域的心形贴纸，含粉白色心形图案、虚线装饰边和小字“Ha",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_cluster",
+      "kind": "overlay",
+      "bbox": [
+        130,
+        493,
+        205,
+        536
+      ],
+      "description": "甜点图左上方的白色手绘闪光、圆环和小装饰线构成一个紧邻的涂鸦组合，整体保留。",
+      "label": "甜点图左上方的白色手绘闪光、圆环和小装饰线构成一个紧邻的涂鸦",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_stars",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        650,
+        273,
+        724
+      ],
+      "description": "画面左中部的一组白色手绘星形、圆环和小闪光，分布紧密且风格一致，作为一组固定涂鸦保留。",
+      "label": "画面左中部的一组白色手绘星形、圆环和小闪光，分布紧密且风格一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        954,
+        466,
+        1010,
+        521
+      ],
+      "description": "右上侧单独的白色五角星贴纸。",
+      "label": "右上侧单独的白色五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wing",
+      "kind": "overlay",
+      "bbox": [
+        841,
+        607,
+        951,
+        726
+      ],
+      "description": "右侧粉白色手绘翅膀形贴纸，带小圆点和装饰线，整体作为独立固定图案保留。",
+      "label": "右侧粉白色手绘翅膀形贴纸，带小圆点和装饰线，整体作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_mid",
+      "kind": "overlay",
+      "bbox": [
+        918,
+        780,
+        985,
+        851
+      ],
+      "description": "右侧中部独立的浅黄色点缀五角星贴纸。",
+      "label": "右侧中部独立的浅黄色点缀五角星贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        11,
+        813,
+        44,
+        845
+      ],
+      "description": "左侧上方独立的浅黄色小星形贴纸。",
+      "label": "左侧上方独立的浅黄色小星形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_mid",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        876,
+        167,
+        924
+      ],
+      "description": "左侧中部独立的浅黄色星形贴纸。",
+      "label": "左侧中部独立的浅黄色星形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_lower",
+      "kind": "overlay",
+      "bbox": [
+        846,
+        987,
+        888,
+        1027
+      ],
+      "description": "右侧中下部独立的浅黄色小星形贴纸。",
+      "label": "右侧中下部独立的浅黄色小星形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        1275,
+        101,
+        1323
+      ],
+      "description": "左下方独立的浅黄色大星形贴纸。",
+      "label": "左下方独立的浅黄色大星形贴纸。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_grid",
+      "kind": "overlay",
+      "bbox": [
+        919,
+        1230,
+        989,
+        1303
+      ],
+      "description": "右侧中下方带浅黄色与粉色点状装饰的星形贴纸，整体保留。",
+      "label": "右侧中下方带浅黄色与粉色点状装饰的星形贴纸，整体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_bottom",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        1310,
+        964,
+        1389
+      ],
+      "description": "右下方靠近画布边缘的白色圆环与闪光涂鸦，整体作为一组固定装饰保留。",
+      "label": "右下方靠近画布边缘的白色圆环与闪光涂鸦，整体作为一组固定装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_small_bottom",
+      "kind": "overlay",
+      "bbox": [
+        982,
+        1237,
+        1017,
+        1270
+      ],
+      "description": "画面右侧下方、深色地面格栅上的独立浅色小星形贴纸。",
+      "label": "画面右侧下方、深色地面格栅上的独立浅色小星形贴纸。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_illustration",
+    "photo_bunny",
+    "photo_pastry",
+    "photo_dessert",
+    "overlay_sparkle_cluster",
+    "overlay_heart",
+    "overlay_left_stars",
+    "overlay_star_right_upper",
+    "overlay_wing",
+    "overlay_star_right_mid",
+    "overlay_star_left_upper",
+    "overlay_star_left_mid",
+    "overlay_star_right_lower",
+    "overlay_star_left_lower",
+    "overlay_star_grid",
+    "overlay_star_small_bottom",
+    "overlay_sparkles_bottom"
+  ]
+}

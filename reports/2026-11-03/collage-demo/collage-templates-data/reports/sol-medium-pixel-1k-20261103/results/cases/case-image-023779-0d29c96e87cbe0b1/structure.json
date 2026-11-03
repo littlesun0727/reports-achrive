@@ -1,0 +1,630 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的咖啡馆室内摄影画面覆盖全画布，可见深色木质天花板、吊灯、左侧浅色墙面与吉他、摆有蜡烛的桌面，以及右侧和下方木质装修、白色圆桌。没有独立可见的人物主体。四周环境与透视连续，三张人物照片和手绘装饰遮挡局部；替换范围包含完整室内环境，不包含后加的文字、照片及装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        578,
+        225,
+        993,
+        799
+      ],
+      "description": "右上竖向照片，一名黑色中长发、穿灰色短袖的年轻女子正面望向镜头，双手向前托着盛有绿色蛋糕的白盘。保留身后的咖啡馆柜台、设备及前方木桌、绿色饮料。照片窗口四周有黄色实线描边，下缘左部被中央照片遮挡；摄影环境未去除。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        226,
+        669,
+        775,
+        1094
+      ],
+      "description": "中央横向照片，一名黑色中长发、穿灰色短袖的年轻女子坐在木桌前，头部略倾斜，一手拿着吸管，另一手扶绿色饮料杯。保留店内柜台、椅子和桌面等摄影环境，四周有白色实线描边。上缘覆盖右上照片下部，左下被猫脸贴纸遮挡，右下被下方照片覆盖。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        601,
+        1002,
+        1002,
+        1326
+      ],
+      "description": "右下横向照片，一名黑色中长发、穿灰色短袖的年轻女子坐在桌边，正面看镜头，双手举在脸颊两侧。保留咖啡馆柜台、木桌、白盘上的绿色蛋糕、绿色饮料及右缘另一位坐者的局部身体。窗口四周有黄色实线描边，覆盖中央照片的右下部；没有沿人物轮廓去背景。"
+    },
+    {
+      "id": "overlay_top_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        4,
+        286,
+        258
+      ],
+      "description": "左上淡黄色兔子插画，含长耳、眨眼表情、粉色脸颊、头顶小帽及抱在身前的圆形点心。黑褐色手绘轮廓和内部纹理作为完整贴纸保留。"
+    },
+    {
+      "id": "overlay_top_candy",
+      "kind": "overlay",
+      "bbox": [
+        307,
+        29,
+        381,
+        80
+      ],
+      "description": "顶部兔子右侧的小糖果插画，浅色糖心、两端扭结包装及深色手绘轮廓整体保留。"
+    },
+    {
+      "id": "overlay_top_label",
+      "kind": "overlay",
+      "bbox": [
+        324,
+        93,
+        551,
+        145
+      ],
+      "description": "顶部偏左的半透明黄绿色圆角长标签，内部有深色中文手写字样及右端爱心，文字较模糊。底板、字样和爱心作为同一固定设计保留。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        541,
+        176,
+        1030,
+        225
+      ],
+      "description": "上方白色装饰标题“Lucky clover.”，采用连写斜体字形，左侧配空心爱心与小星，右侧配四瓣花和小加号。各字形及附属装饰组成完整标题单元保留。"
+    },
+    {
+      "id": "overlay_cupcake",
+      "kind": "overlay",
+      "bbox": [
+        955,
+        31,
+        1027,
+        136
+      ],
+      "description": "右上角奶油纸杯蛋糕手绘贴纸，包含顶部红色小果实、浅色奶油、黄色杯身和深色轮廓。"
+    },
+    {
+      "id": "overlay_top_cookie",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        117,
+        1080,
+        195
+      ],
+      "description": "右上边缘黄色小饼干插画，带深色颗粒及波浪外缘，右侧被画布裁切。"
+    },
+    {
+      "id": "overlay_top_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        813,
+        55,
+        864,
+        94
+      ],
+      "description": "天花板右上方淡粉色手绘爱心，保留不均匀填色与柔淡边缘。"
+    },
+    {
+      "id": "overlay_top_left_star",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        124,
+        124,
+        171
+      ],
+      "description": "叠在左上兔子附近的白色交叉线五角星，作为独立手绘装饰保留。"
+    },
+    {
+      "id": "overlay_top_right_star",
+      "kind": "overlay",
+      "bbox": [
+        895,
+        123,
+        945,
+        171
+      ],
+      "description": "标题右上方白色交叉线五角星，完整线条保留。"
+    },
+    {
+      "id": "overlay_upper_glints",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        0,
+        803,
+        249
+      ],
+      "description": "上方天花板区域的白色细长十字闪光组合，含顶部及标题附近的亮点、纵横光芒与柔淡光晕，作为固定闪光装饰保留。"
+    },
+    {
+      "id": "overlay_left_mint_heart",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        286,
+        95,
+        326
+      ],
+      "description": "左侧墙面上的浅薄荷绿色空心手绘爱心。"
+    },
+    {
+      "id": "overlay_upper_dotted_heart",
+      "kind": "overlay",
+      "bbox": [
+        219,
+        266,
+        640,
+        563
+      ],
+      "description": "左上至中部的大型白色点状爱心轮廓，附有周围小亮点、加号和下方小菱形闪光。右侧部分叠在右上照片左缘，轮廓及附属亮点完整保留。"
+    },
+    {
+      "id": "overlay_left_large_star",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        376,
+        194,
+        453
+      ],
+      "description": "左侧墙面中段的大型白色空心五角星，由交叉手绘直线组成。"
+    },
+    {
+      "id": "overlay_yellow_arrow",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        467,
+        575,
+        661
+      ],
+      "description": "吉他前方黄色颗粒笔触弯曲箭头，向下卷曲后指向左下方，旁边配一条细长黄色水滴形笔触。整组手绘笔迹保留。"
+    },
+    {
+      "id": "overlay_star_card",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        529,
+        289,
+        776
+      ],
+      "description": "左中黄色方形贴纸，白色外缘、细密点阵底纹和中央薄荷青色多重空心星形组成完整设计。它不承载照片；右下部被中央照片覆盖。"
+    },
+    {
+      "id": "overlay_cursor",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        676,
+        274,
+        767
+      ],
+      "description": "黄色星形方贴前方的白色鼠标箭头贴纸，带粗黑轮廓，箭头及边缘作为一个完整单元保留。"
+    },
+    {
+      "id": "overlay_middle_small_star",
+      "kind": "overlay",
+      "bbox": [
+        286,
+        552,
+        332,
+        600
+      ],
+      "description": "黄色方贴右上方的白色交叉线五角星。"
+    },
+    {
+      "id": "overlay_left_edge_star",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        713,
+        40,
+        755
+      ],
+      "description": "左侧画布边缘的小型白色交叉线五角星，左端被画布裁切。"
+    },
+    {
+      "id": "overlay_photo_burst",
+      "kind": "overlay",
+      "bbox": [
+        870,
+        283,
+        948,
+        466
+      ],
+      "description": "右上照片右侧的黄色与橙色强调笔触组合，包括两枚橙色短块及下方黄色小星，叠加在照片上，独立于摄影内容。"
+    },
+    {
+      "id": "overlay_photo_top_star",
+      "kind": "overlay",
+      "bbox": [
+        747,
+        266,
+        775,
+        298
+      ],
+      "description": "右上照片靠近上缘的淡黄色小星形装饰。"
+    },
+    {
+      "id": "overlay_right_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        987,
+        249,
+        1018,
+        286
+      ],
+      "description": "右上照片外侧、黄色边线旁的淡黄色小星形插画。"
+    },
+    {
+      "id": "overlay_right_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        1023,
+        271,
+        1058,
+        305
+      ],
+      "description": "右上墙面上的浅粉色小星形印记。"
+    },
+    {
+      "id": "overlay_right_mint_star",
+      "kind": "overlay",
+      "bbox": [
+        1064,
+        291,
+        1080,
+        320
+      ],
+      "description": "右上画布边缘的浅薄荷绿色小星形，右侧被画布裁切。"
+    },
+    {
+      "id": "overlay_right_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        1027,
+        548,
+        1053,
+        584
+      ],
+      "description": "右侧木质竖边上的淡粉色空心爱心装饰。"
+    },
+    {
+      "id": "overlay_white_dot_grid",
+      "kind": "overlay",
+      "bbox": [
+        866,
+        639,
+        1063,
+        931
+      ],
+      "description": "右侧白色圆点阵装饰，右方两列纵向排列，下方延伸为数排横向圆点。大小略有变化的全部圆点作为同一连续点阵单元保留。"
+    },
+    {
+      "id": "overlay_pointer_trail",
+      "kind": "overlay",
+      "bbox": [
+        707,
+        752,
+        1026,
+        1002
+      ],
+      "description": "中央照片右侧至右上照片外缘的细黑线鼠标指针轨迹，多枚空心箭头沿斜向路径连续排列；部分覆盖照片边缘，整段轨迹作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_right_dotted_heart",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        884,
+        1080,
+        1107
+      ],
+      "description": "右下方白色点状爱心轮廓与附属小闪光，右端延伸到画布边缘；上方带交叉线小星，底部亮点叠在下方人物照片上。"
+    },
+    {
+      "id": "overlay_center_yellow_mark",
+      "kind": "overlay",
+      "bbox": [
+        362,
+        851,
+        387,
+        924
+      ],
+      "description": "中央照片左侧内部叠加的细长黄色颗粒笔触，呈水滴状，独立于照片中的物品。"
+    },
+    {
+      "id": "overlay_cat_sticker",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        971,
+        318,
+        1155
+      ],
+      "description": "左下叠在中央照片边缘的黑底猫脸贴纸，外形近似带耳朵的不规则圆团，白色描边，内部排列米色与棕色猫脸、小星及底部亮光。整体作为一个固定素材保留。"
+    },
+    {
+      "id": "overlay_left_lower_mint_heart",
+      "kind": "overlay",
+      "bbox": [
+        8,
+        1029,
+        51,
+        1078
+      ],
+      "description": "左下桌面区域的浅薄荷绿色空心手绘爱心。"
+    },
+    {
+      "id": "overlay_left_lower_yellow_mark",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        1067,
+        119,
+        1147
+      ],
+      "description": "猫脸贴纸左下侧的细长黄色水滴形笔触。"
+    },
+    {
+      "id": "text_summer",
+      "kind": "text",
+      "bbox": [
+        269,
+        1102,
+        641,
+        1133
+      ],
+      "text": null,
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_phone_earphones",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        1043,
+        632,
+        1367
+      ],
+      "description": "下方白色手绘手机与有线耳机组合，含倾斜手机外框、底部圆键、两只耳塞、弯曲连线及连线附近黄色四角闪光。跨越木质背景和白色桌面，局部压住白色英文文字，完整组合保留。"
+    },
+    {
+      "id": "overlay_lower_center_star",
+      "kind": "overlay",
+      "bbox": [
+        401,
+        1096,
+        440,
+        1137
+      ],
+      "description": "白色英文文字中段附近的小型交叉线五角星。"
+    },
+    {
+      "id": "overlay_lower_left_dotted_heart",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        1110,
+        315,
+        1312
+      ],
+      "description": "左下木质背景上的白色点状爱心轮廓，含轮廓周围小加号及亮点，上部部分被猫脸贴纸与斜向桌沿遮挡。"
+    },
+    {
+      "id": "overlay_lower_left_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        1186,
+        99,
+        1230
+      ],
+      "description": "左下斜向浅色桌沿上的粉色手绘爱心，内部填色略有斑驳。"
+    },
+    {
+      "id": "overlay_lower_right_rabbit",
+      "kind": "overlay",
+      "bbox": [
+        834,
+        1182,
+        1080,
+        1440
+      ],
+      "description": "右下大型黄色兔子插画，含长耳、深色眼睛、粉色脸颊及嘴部，带黑褐色外轮廓。上部被右下照片遮挡，右侧和下方被画布裁切；保留有依据的完整可见范围，不补画隐藏部分。"
+    },
+    {
+      "id": "overlay_right_lower_star",
+      "kind": "overlay",
+      "bbox": [
+        996,
+        1124,
+        1028,
+        1175
+      ],
+      "description": "右下照片右侧的白色交叉线五角星，左部被照片边缘遮挡。"
+    },
+    {
+      "id": "overlay_bottom_donuts",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        1312,
+        253,
+        1428
+      ],
+      "description": "左下角三枚相邻甜甜圈插画，浅黄色糕体、不同色糖霜和深色手绘轮廓组成一组完整点心装饰。"
+    },
+    {
+      "id": "overlay_bottom_left_star",
+      "kind": "overlay",
+      "bbox": [
+        173,
+        1317,
+        214,
+        1362
+      ],
+      "description": "甜甜圈组上方的白色交叉线五角星。"
+    },
+    {
+      "id": "overlay_bottom_candy",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        1360,
+        388,
+        1426
+      ],
+      "description": "下方木质区域的小糖果插画，黄绿色糖心、两端包装及深色描边作为完整单元保留。"
+    },
+    {
+      "id": "overlay_table_candy",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        1293,
+        470,
+        1349
+      ],
+      "description": "白色圆桌左上部的粉色糖果插画，含两端扭结包装和深色手绘轮廓，部分与白色耳机连线相交。"
+    },
+    {
+      "id": "overlay_bottom_star_cluster",
+      "kind": "overlay",
+      "bbox": [
+        477,
+        1306,
+        730,
+        1418
+      ],
+      "description": "白色圆桌底部的黄色星点组合，包含两枚较大五角星、中间小星、左侧白色线星和下方橙黄色圆点；沿桌面形成紧邻的一组装饰。"
+    },
+    {
+      "id": "overlay_bottom_lollipop",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        1324,
+        658,
+        1404
+      ],
+      "description": "底部白色桌面上的螺旋棒棒糖插画，浅黄圆形糖面、深色螺旋线与斜向糖棍完整保留。"
+    },
+    {
+      "id": "overlay_bottom_cake",
+      "kind": "overlay",
+      "bbox": [
+        724,
+        1325,
+        800,
+        1377
+      ],
+      "description": "右下照片下缘外侧的小块夹层蛋糕插画，浅黄色糕体、粉色夹层和深色外轮廓整体保留。"
+    },
+    {
+      "id": "overlay_bottom_cookie",
+      "kind": "overlay",
+      "bbox": [
+        662,
+        1383,
+        743,
+        1440
+      ],
+      "description": "底部边缘黄色圆饼干插画，带波浪外缘和深色颗粒，下部被画布裁切。"
+    },
+    {
+      "id": "overlay_bottom_pink_heart",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        1380,
+        841,
+        1417
+      ],
+      "description": "底部白色桌面、兔子左侧的粉色手绘爱心。"
+    },
+    {
+      "id": "overlay_bottom_mint_hearts",
+      "kind": "overlay",
+      "bbox": [
+        810,
+        1329,
+        837,
+        1377
+      ],
+      "description": "小蛋糕右侧上下紧邻的两枚浅薄荷绿色空心爱心，作为一组局部装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_top_rabbit",
+    "overlay_top_candy",
+    "overlay_top_label",
+    "overlay_cupcake",
+    "overlay_top_cookie",
+    "overlay_top_pink_heart",
+    "overlay_top_left_star",
+    "overlay_top_right_star",
+    "overlay_upper_glints",
+    "overlay_left_mint_heart",
+    "overlay_left_large_star",
+    "overlay_yellow_arrow",
+    "overlay_star_card",
+    "overlay_middle_small_star",
+    "overlay_left_edge_star",
+    "overlay_right_yellow_star",
+    "overlay_right_pink_star",
+    "overlay_right_mint_star",
+    "overlay_right_pink_heart",
+    "overlay_left_lower_mint_heart",
+    "overlay_left_lower_yellow_mark",
+    "overlay_lower_left_dotted_heart",
+    "overlay_lower_left_pink_heart",
+    "overlay_lower_right_rabbit",
+    "overlay_bottom_donuts",
+    "overlay_bottom_left_star",
+    "overlay_bottom_candy",
+    "overlay_table_candy",
+    "overlay_bottom_star_cluster",
+    "overlay_bottom_lollipop",
+    "overlay_bottom_cake",
+    "overlay_bottom_cookie",
+    "overlay_bottom_pink_heart",
+    "overlay_bottom_mint_hearts",
+    "photo_upper_right",
+    "overlay_title",
+    "overlay_upper_dotted_heart",
+    "overlay_photo_burst",
+    "overlay_photo_top_star",
+    "photo_center",
+    "overlay_cursor",
+    "overlay_center_yellow_mark",
+    "overlay_pointer_trail",
+    "text_summer",
+    "overlay_cat_sticker",
+    "overlay_phone_earphones",
+    "overlay_lower_center_star",
+    "overlay_right_lower_star",
+    "photo_lower_right",
+    "overlay_white_dot_grid",
+    "overlay_right_dotted_heart"
+  ]
+}

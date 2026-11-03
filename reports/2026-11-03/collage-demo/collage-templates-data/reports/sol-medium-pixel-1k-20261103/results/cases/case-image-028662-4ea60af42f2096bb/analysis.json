@@ -1,0 +1,76 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        44,
+        229,
+        513,
+        849
+      ],
+      "description": "左侧竖向食物照片，俯拍一杯咖啡和盘中的三明治，保留大理石桌面、餐具与阴影等完整摄影环境；圆角窗口内显示，边缘被胶片框遮住。",
+      "label": "左侧竖向食物照片，俯拍一杯咖啡和盘中的三明治，保留大理石桌面",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        565,
+        229,
+        1034,
+        849
+      ],
+      "description": "右侧竖向食物照片，近景展示夹有馅料的烘焙面包，保留白色餐盘及背景中的餐具等摄影环境；圆角窗口内显示，边缘被胶片框遮住。",
+      "label": "右侧竖向食物照片，近景展示夹有馅料的烘焙面包，保留白色餐盘及",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        80,
+        1080,
+        983
+      ],
+      "description": "横贯画布的黑色胶片框，包含上下两排白色齿孔、胶片边缘的倒置编号与“KODAK”字样，以及两个圆角照片窗口间的黑色分隔带。整体作为承载两张独立照片的固定框体保留；照片窗口的框沿遮住照片边缘。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横贯画布的黑色胶片框，包含上下两排白色齿孔、胶片边缘的倒置编",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right",
+    "frame_filmstrip"
+  ]
+}

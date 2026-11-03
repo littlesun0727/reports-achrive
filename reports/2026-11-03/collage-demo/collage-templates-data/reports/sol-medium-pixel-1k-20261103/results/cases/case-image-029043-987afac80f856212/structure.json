@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        52,
+        271,
+        498,
+        893
+      ],
+      "description": "左侧竖向照片，三名穿浅色运动上衣的年轻女性在户外栏杆旁合影；左侧人物向镜头伸手并举起手臂，中间人物前倾，右侧人物抬臂，背景可见建筑、树木、栏杆和地面，完整照片窗口为略带倾斜感的矩形。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        589,
+        271,
+        1034,
+        893
+      ],
+      "description": "右侧竖向照片，三名穿浅色运动上衣的年轻女性并排站在户外栏杆旁，人物均为站立姿态并朝向镜头或侧前方；背景可见建筑、树木、金属栏杆和地面，完整照片窗口为略带倾斜感的矩形。"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        163,
+        1080,
+        990
+      ],
+      "description": "横向黑色胶片条固定框体，承载左右两个独立照片窗口；上下边缘有连续白色齿孔，顶部印有橙黄色“FUJI RDP III”字样，底部左侧有橙黄色箭头标记，保留黑色材质、孔洞、印字和整体胶片轮廓。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_right",
+    "frame_filmstrip"
+  ]
+}

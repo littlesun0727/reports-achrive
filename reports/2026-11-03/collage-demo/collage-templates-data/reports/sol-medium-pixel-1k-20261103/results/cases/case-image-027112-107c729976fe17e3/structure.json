@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "pink_polka_dot_base",
+    "description": "连续的浅粉色底图带规则棕色圆点图案，完整覆盖画布并在中央照片上下方露出；照片和贴纸遮挡局部，圆点纹理与底色作为固定设计保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_room_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        229,
+        1080,
+        1209
+      ],
+      "description": "横向覆盖画布宽度的室内摄影画面，包含坐在地毯上的一名长发女性、帽子、格纹服装、手中物品、前景毛绒玩具及后方座椅和衣物；人物位于画面下方偏中，保留完整室内环境和地面，矩形照片上下边界清晰，部分区域被固定贴纸和图案覆盖。"
+    },
+    {
+      "id": "overlay_chef_sticker",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        88,
+        314,
+        320
+      ],
+      "description": "左上方白色手绘厨师角色贴纸，包含厨师帽、围裙、手持工具以及周围的小星星和闪光装饰，作为一个完整固定插画单元保留。"
+    },
+    {
+      "id": "overlay_thought_bubble",
+      "kind": "overlay",
+      "bbox": [
+        645,
+        91,
+        1035,
+        410
+      ],
+      "description": "右上方白色云朵形对话气泡及其下方两个小圆气泡，内部包含韩文“기대하는 날..”、水滴和星形图案；文字与气泡图案属于同一固定贴纸单元。"
+    },
+    {
+      "id": "overlay_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        343,
+        199,
+        415
+      ],
+      "description": "照片左侧的白色手绘符号、短线和爱心装饰，作为相互邻近的一组固定涂鸦叠加在摄影画面上。"
+    },
+    {
+      "id": "overlay_rabbit_face",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        486,
+        261,
+        647
+      ],
+      "description": "左侧地毯区域的兔子脸贴纸，带长耳朵、蓝色蝴蝶结和周围浅色点缀，独立覆盖在照片上。"
+    },
+    {
+      "id": "overlay_dotted_ring",
+      "kind": "overlay",
+      "bbox": [
+        754,
+        477,
+        966,
+        725
+      ],
+      "description": "右侧座椅和地毯区域上方的白色点状弧形环及其点缀，属于独立固定装饰，叠加在摄影画面之上。"
+    },
+    {
+      "id": "overlay_paw_prints",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        845,
+        1005,
+        1019
+      ],
+      "description": "右下侧摄影画面上的两枚白色爪印图案，大小不同，作为一组固定装饰覆盖在地毯上。"
+    },
+    {
+      "id": "overlay_bottom_star",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        1057,
+        146,
+        1151
+      ],
+      "description": "左下方照片区域中的白色手绘五角星贴纸，带黑色轮廓和轻微阴影，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_cutie_label",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        1235,
+        411,
+        1363
+      ],
+      "description": "底部粉色圆点区域上的黑色标签贴纸，顶部带三角形尖角，内部为白色“#cutie”字样；标签轮廓、文字和阴影作为完整固定单元保留。"
+    },
+    {
+      "id": "overlay_bottom_bunny",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        1122,
+        790,
+        1351
+      ],
+      "description": "底部中央偏右的白色兔子卡通贴纸，包含长耳朵、粉色耳内、面部细节和手部动作，独立叠加在粉色底图和照片边界附近。"
+    },
+    {
+      "id": "overlay_love_card",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        1125,
+        1019,
+        1344
+      ],
+      "description": "右下方白色矩形文字卡片，包含“I love you so much <3”排版，其中心形为粉色图案；卡片底板、文字和图形作为一个固定设计单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_room_portrait",
+    "overlay_left_doodles",
+    "overlay_chef_sticker",
+    "overlay_rabbit_face",
+    "overlay_dotted_ring",
+    "overlay_paw_prints",
+    "overlay_bottom_star",
+    "overlay_thought_bubble",
+    "overlay_cutie_label",
+    "overlay_bottom_bunny",
+    "overlay_love_card"
+  ]
+}

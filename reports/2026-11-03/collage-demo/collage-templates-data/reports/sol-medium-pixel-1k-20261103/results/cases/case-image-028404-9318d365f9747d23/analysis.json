@@ -1,0 +1,133 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的教室人像摄影画面覆盖全画布：一名长发女学生穿白色校服、坐在课桌前，双手交叠托在胸前，正面中景；人物居中偏下，教室窗户、桌椅和书本环境延伸至画布四边。上方弧形胶片条遮挡部分背景，底图仍为同一完整画面。",
+      "background_type": "photo",
+      "label": "连续的教室人像摄影画面覆盖全画布：一名长发女学生穿白色校服、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_film_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        145,
+        194,
+        590
+      ],
+      "description": "胶片条最左侧的竖向照片，一名穿白色校服的女生站在栏杆旁，夕阳照亮场景；保留整张照片内的天空、栏杆和光线，窗口边缘受胶片框遮挡。",
+      "label": "胶片条最左侧的竖向照片，一名穿白色校服的女生站在栏杆旁，夕阳",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_brick",
+      "kind": "photo",
+      "bbox": [
+        187,
+        140,
+        582,
+        475
+      ],
+      "description": "胶片条中央较大的横向近景照片，一名长发女生穿白色校服，面向镜头微笑，旁有伸入画面的手和纸折物，身后是红砖墙；摄影环境保留在照片内。",
+      "label": "胶片条中央较大的横向近景照片，一名长发女生穿白色校服，面向镜",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_profile",
+      "kind": "photo",
+      "bbox": [
+        548,
+        163,
+        800,
+        424
+      ],
+      "description": "胶片条右侧第一格斜置照片，一名穿白色校服的长发女生侧身朝右，身处明亮室内；保留照片内的窗户和室内环境。",
+      "label": "胶片条右侧第一格斜置照片，一名穿白色校服的长发女生侧身朝右，",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_tie",
+      "kind": "photo",
+      "bbox": [
+        724,
+        219,
+        927,
+        432
+      ],
+      "description": "胶片条右侧第二格斜置照片，一名穿白色校服的女生面向镜头，手靠近领结；保留照片内明亮窗边环境。",
+      "label": "胶片条右侧第二格斜置照片，一名穿白色校服的女生面向镜头，手靠",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_prayer",
+      "kind": "photo",
+      "bbox": [
+        854,
+        280,
+        1027,
+        453
+      ],
+      "description": "胶片条右侧第三格斜置照片，一名穿白色校服的女生双手在胸前合拢，面向镜头微笑；保留照片内背景环境。",
+      "label": "胶片条右侧第三格斜置照片，一名穿白色校服的女生双手在胸前合拢",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_small",
+      "kind": "photo",
+      "bbox": [
+        951,
+        330,
+        1080,
+        482
+      ],
+      "description": "胶片条最右侧可见的小幅斜置照片，女生穿白色校服，坐姿或俯身，画面右侧延伸至画布边缘；保留照片内环境，部分显示范围被胶片框遮挡。",
+      "label": "胶片条最右侧可见的小幅斜置照片，女生穿白色校服，坐姿或俯身，",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        60,
+        1080,
+        680
+      ],
+      "description": "一条横跨画布上部并向右下弯曲的黑色胶片框，带连续圆角齿孔和七个不同大小、倾斜方向的照片窗口；完整胶片轮廓与齿孔作为一个固定框体保留，框沿遮住各照片窗口边缘并叠在全画布人像底图上。",
+      "photo_id": [
+        "photo_film_left",
+        "photo_film_brick",
+        "photo_film_profile",
+        "photo_film_tie",
+        "photo_film_prayer",
+        "photo_film_small"
+      ],
+      "label": "一条横跨画布上部并向右下弯曲的黑色胶片框，带连续圆角齿孔和七",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_film_left",
+    "photo_film_brick",
+    "photo_film_profile",
+    "photo_film_tie",
+    "photo_film_prayer",
+    "photo_film_small",
+    "frame_filmstrip"
+  ]
+}

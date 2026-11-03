@@ -1,0 +1,397 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1519
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1519
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        367
+      ],
+      "description": "顶部横向风景照片，画面包含山林、草坡、车辆和远处的两个人物，人物位于右侧中景；照片完整铺满画布宽度，下缘与中部照片相接，保留完整摄影环境。",
+      "label": "顶部横向风景照片，画面包含山林、草坡、车辆和远处的两个人物，",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        367,
+        1080,
+        660
+      ],
+      "description": "中部横向人物照片，画面包含车内或车旁的女孩与右侧成年人物，女孩位于左中部并回头，成年人物位于右侧近景；照片完整铺满横向区域，上下边界与相邻照片形成独立裁切。",
+      "label": "中部横向人物照片，画面包含车内或车旁的女孩与右侧成年人物，女",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        660,
+        1080,
+        1519
+      ],
+      "description": "底部竖向人物近景照片，画面主体为穿黄色外套、戴透明网罩的女性侧脸，人物位于中央偏右，保留草地与背光摄影环境；照片从中部横向接缝延伸至画布底边。",
+      "label": "底部竖向人物近景照片，画面主体为穿黄色外套、戴透明网罩的女性",
+      "method": "local"
+    },
+    {
+      "id": "overlay_award_logo",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        43,
+        243,
+        132
+      ],
+      "description": "左上角白色电影节奖项标识组合，包含人物图形、奖项文字和小号说明文字，作为具有特殊字形与图形构成的完整固定设计保留。",
+      "label": "左上角白色电影节奖项标识组合，包含人物图形、奖项文字和小号说",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        199,
+        333,
+        882,
+        368
+      ],
+      "description": "“네가 믿는 것에 대한 확신, 그게 믿음이란다.”",
+      "label": "“네가 믿는 것에 대한 확신, 그게 믿음이란다.”",
+      "method": "local",
+      "text": "“네가 믿는 것에 대한 확신, 그게 믿음이란다.”",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_butterfly_top_center",
+      "kind": "overlay",
+      "bbox": [
+        292,
+        25,
+        341,
+        67
+      ],
+      "description": "顶部山景上方的白色手绘蝴蝶装饰，独立叠加在摄影画面上。",
+      "label": "顶部山景上方的白色手绘蝴蝶装饰，独立叠加在摄影画面上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_top_right",
+      "kind": "overlay",
+      "bbox": [
+        887,
+        20,
+        929,
+        55
+      ],
+      "description": "右上角白色线描云朵装饰，独立叠加在顶部照片上。",
+      "label": "右上角白色线描云朵装饰，独立叠加在顶部照片上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        995,
+        231,
+        1050,
+        274
+      ],
+      "description": "顶部照片右侧的白色蝴蝶装饰，独立叠加在草坡区域。",
+      "label": "顶部照片右侧的白色蝴蝶装饰，独立叠加在草坡区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_middle_left",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        452,
+        120,
+        506
+      ],
+      "description": "中部照片左侧的白色蝴蝶装饰，独立叠加在背景与人物照片上。",
+      "label": "中部照片左侧的白色蝴蝶装饰，独立叠加在背景与人物照片上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_middle_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        642,
+        226,
+        697
+      ],
+      "description": "中部照片下缘左侧的白色线描云朵装饰，跨接照片分界并保持完整轮廓。",
+      "label": "中部照片下缘左侧的白色线描云朵装饰，跨接照片分界并保持完整轮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_middle_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        947,
+        639,
+        1010,
+        696
+      ],
+      "description": "中部照片下缘右侧的白色线描云朵装饰，跨接照片分界并独立叠加。",
+      "label": "中部照片下缘右侧的白色线描云朵装饰，跨接照片分界并独立叠加。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_left_edge",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        790,
+        51,
+        829
+      ],
+      "description": "底部照片左边缘附近的白色蝴蝶装饰，部分贴近画布边界并完整保留可见轮廓。",
+      "label": "底部照片左边缘附近的白色蝴蝶装饰，部分贴近画布边界并完整保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        124,
+        1150,
+        176,
+        1189
+      ],
+      "description": "底部照片左侧中段的白色蝴蝶装饰，独立叠加在草地背景上。",
+      "label": "底部照片左侧中段的白色蝴蝶装饰，独立叠加在草地背景上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        1200,
+        76,
+        1265
+      ],
+      "description": "底部左侧的白色线描云朵装饰，独立叠加在人物照片背景上。",
+      "label": "底部左侧的白色线描云朵装饰，独立叠加在人物照片背景上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_lower_right_edge",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        934,
+        1080,
+        971
+      ],
+      "description": "底部照片右侧边缘的白色蝴蝶装饰，部分贴近画布边界。",
+      "label": "底部照片右侧边缘的白色蝴蝶装饰，部分贴近画布边界。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_hood",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        832,
+        851,
+        881
+      ],
+      "description": "人物黄色网罩区域上的白色小蝴蝶装饰，作为独立贴加图形保留。",
+      "label": "人物黄色网罩区域上的白色小蝴蝶装饰，作为独立贴加图形保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_butterfly_title_left",
+      "kind": "overlay",
+      "bbox": [
+        376,
+        1289,
+        427,
+        1324
+      ],
+      "description": "底部标题右侧的小型白色蝴蝶装饰，位于标题区域上方并独立叠加。",
+      "label": "底部标题右侧的小型白色蝴蝶装饰，位于标题区域上方并独立叠加。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_title_center",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        1286,
+        521,
+        1341
+      ],
+      "description": "底部标题右侧的白色线描云朵装饰，独立叠加在人物服装区域。",
+      "label": "底部标题右侧的白色线描云朵装饰，独立叠加在人物服装区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_title_right",
+      "kind": "overlay",
+      "bbox": [
+        808,
+        1298,
+        860,
+        1350
+      ],
+      "description": "底部右侧标题区域附近的白色线描云朵装饰，独立叠加在摄影背景上。",
+      "label": "底部右侧标题区域附近的白色线描云朵装饰，独立叠加在摄影背景上",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        48,
+        1278,
+        377,
+        1374
+      ],
+      "description": "2만 종의 벌",
+      "label": "2만 종의 벌",
+      "method": "local",
+      "text": "2만 종의 벌",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        51,
+        1381,
+        657,
+        1410
+      ],
+      "description": "에스테발리스 우레솔라 슬라그렌 감독  —  소피아 오테로  —  파트리샤 로페스 아나이스",
+      "label": "에스테발리스 우레솔라 슬라그렌 감독  —  소피아 오테",
+      "method": "local",
+      "text": "에스테발리스 우레솔라 슬라그렌 감독  —  소피아 오테로  —  파트리샤 로페스 아나이스",
+      "text_status": "known",
+      "style": {
+        "fill": "#F7F1D8",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_credits",
+      "kind": "text",
+      "bbox": [
+        51,
+        1411,
+        762,
+        1474
+      ],
+      "description": "SOFIA OTERO / PATRICIA LÓPEZ ARNÁIZ / ANE GABARAIN / ITZIAR LAZKANO / MARTXELLO RUBIO / SARA CÓZAR / UNAX HAYDEN / ANDERE GARABITETA / MIGUEL GARCÉS\nPRODUCED BY GARIZA FILMS, IRUSOIN FILMS AND ESPECIES DE AVES, IN ASSOCIATION WITH SORRIN FILMS",
+      "label": "SOFIA OTERO / PATRICIA LÓPEZ A",
+      "method": "local",
+      "text": "SOFIA OTERO / PATRICIA LÓPEZ ARNÁIZ / ANE GABARAIN / ITZIAR LAZKANO / MARTXELLO RUBIO / SARA CÓZAR / UNAX HAYDEN / ANDERE GARABITETA / MIGUEL GARCÉS\nPRODUCED BY GARIZA FILMS, IRUSOIN FILMS AND ESPECIES DE AVES, IN ASSOCIATION WITH SORRIN FILMS",
+      "text_status": "known",
+      "style": {
+        "fill": "#F7F1D8",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        846,
+        1450,
+        1050,
+        1500
+      ],
+      "description": "2023.12.27",
+      "label": "2023.12.27",
+      "method": "local",
+      "text": "2023.12.27",
+      "text_status": "known",
+      "style": {
+        "fill": "#72B7C0",
+        "font": "sans",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_award_logo",
+    "text_quote",
+    "overlay_butterfly_top_center",
+    "overlay_cloud_top_right",
+    "overlay_butterfly_upper_right",
+    "overlay_butterfly_middle_left",
+    "overlay_cloud_middle_lower_left",
+    "overlay_cloud_middle_lower_right",
+    "overlay_butterfly_left_edge",
+    "overlay_butterfly_lower_left",
+    "overlay_cloud_lower_left",
+    "overlay_butterfly_lower_right_edge",
+    "overlay_butterfly_hood",
+    "overlay_butterfly_title_left",
+    "overlay_cloud_title_center",
+    "overlay_cloud_title_right",
+    "text_title",
+    "text_subtitle",
+    "text_credits",
+    "text_date"
+  ]
+}

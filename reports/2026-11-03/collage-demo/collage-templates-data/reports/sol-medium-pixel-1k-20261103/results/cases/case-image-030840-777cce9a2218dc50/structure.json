@@ -1,0 +1,195 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#28130B"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        304,
+        150,
+        1080,
+        784
+      ],
+      "description": "横向室内人物照片，女性戴橙色贝雷帽和眼镜，坐在餐桌旁正面朝向镜头，身后是深色木质室内环境，右下可见玻璃杯；照片为完整矩形窗口，部分被下方文字和左侧相框遮挡。"
+    },
+    {
+      "id": "photo_left_portrait",
+      "kind": "photo",
+      "bbox": [
+        66,
+        622,
+        445,
+        1000
+      ],
+      "description": "竖向人物照片，女性穿橙色上衣、戴橙色帽子并背白色包，双臂交叉站立，黑色摄影背景保留在完整照片窗口内。"
+    },
+    {
+      "id": "frame_left_portrait",
+      "kind": "frame",
+      "bbox": [
+        51,
+        607,
+        461,
+        1017
+      ],
+      "description": "承载左侧竖向人物照片的棕色毛绒质感相框，四周边框和柔软阴影完整保留，照片位于相框内口中。",
+      "photo_id": [
+        "photo_left_portrait"
+      ]
+    },
+    {
+      "id": "photo_snow_cone",
+      "kind": "photo",
+      "bbox": [
+        485,
+        893,
+        1010,
+        1245
+      ],
+      "description": "横向餐桌照片，前景是红白冰淇淋或刨冰甜品，后方可见举手遮脸的用餐者、餐具和木桌，保留完整室内摄影环境；照片右侧和下方被其他设计元素及下方照片局部遮挡。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        66,
+        1120,
+        694,
+        1543
+      ],
+      "description": "横向室内人物照片，女性穿黑色外套并扎双辫坐在桌旁，前景可见红白甜品、玻璃杯和桌面物件，背景为深色餐厅环境；完整矩形照片窗口的右侧被故事标志部分覆盖。"
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        71,
+        705,
+        232
+      ],
+      "description": "画布顶部的白色手写中文文字，分为三行，内容为“穿成小南瓜 / 但没有遇到任何一盏南瓜灯 / 的一天”，作为独立手写装饰整体保留。"
+    },
+    {
+      "id": "overlay_pumpkin",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        268,
+        458,
+        422
+      ],
+      "description": "位于顶部照片左侧的浅粉色手绘南瓜脸线稿，包含南瓜轮廓、叶柄、三角眼和锯齿嘴，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_green_mark",
+      "kind": "overlay",
+      "bbox": [
+        689,
+        238,
+        786,
+        317
+      ],
+      "description": "顶部人物帽子上方的绿色手绘勾形装饰，覆盖照片内容并作为独立贴画保留。"
+    },
+    {
+      "id": "overlay_left_caption",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        468,
+        407,
+        562
+      ],
+      "description": "左侧照片上方的白色手写中文说明文字，分两行，内容为“背景扣出一片漆黑 / 实际上是暖暖的街道”，保留原有手写笔画和排版。"
+    },
+    {
+      "id": "overlay_winter_caption",
+      "kind": "overlay",
+      "bbox": [
+        478,
+        817,
+        933,
+        872
+      ],
+      "description": "顶部照片和刨冰照片之间的白色手写中文说明，内容为“冬天也很适合吃刨冰”，作为独立文字装饰保留。"
+    },
+    {
+      "id": "overlay_circle_doodle",
+      "kind": "overlay",
+      "bbox": [
+        942,
+        847,
+        1042,
+        1008
+      ],
+      "description": "刨冰照片右上方的白色手绘圆形箭头标记，箭头指向照片中的甜品，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_snow_cone_rays",
+      "kind": "overlay",
+      "bbox": [
+        835,
+        965,
+        910,
+        1042
+      ],
+      "description": "刨冰照片右侧的两笔白色手绘强调线，作为与甜品相关的独立装饰保留。"
+    },
+    {
+      "id": "overlay_with_caption",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        1087,
+        317,
+        1155
+      ],
+      "description": "底部照片左上方的白色手写标题“with 翠丝”，带有下划线和手写字形，作为完整艺术字装饰保留。"
+    },
+    {
+      "id": "overlay_witch_doodle",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        1172,
+        126,
+        1293
+      ],
+      "description": "底部照片左侧的白色手绘小女巫或人物线稿，包含帽子、身体和伸展的四肢，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_story_logo",
+      "kind": "overlay",
+      "bbox": [
+        628,
+        1275,
+        940,
+        1501
+      ],
+      "description": "底部照片右侧的白色手写标志，包含中文“另一半”和英文“STORY”，外有粗糙手绘矩形边框，作为完整固定艺术字单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_left_portrait",
+    "frame_left_portrait",
+    "photo_snow_cone",
+    "photo_bottom",
+    "overlay_top_handwriting",
+    "overlay_left_caption",
+    "overlay_winter_caption",
+    "overlay_with_caption",
+    "overlay_pumpkin",
+    "overlay_green_mark",
+    "overlay_circle_doodle",
+    "overlay_snow_cone_rays",
+    "overlay_witch_doodle",
+    "overlay_story_logo"
+  ]
+}

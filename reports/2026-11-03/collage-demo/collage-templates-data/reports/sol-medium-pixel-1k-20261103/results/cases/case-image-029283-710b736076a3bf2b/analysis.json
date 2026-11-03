@@ -1,0 +1,76 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        52,
+        269,
+        499,
+        893
+      ],
+      "description": "左侧竖向照片中，一名穿白色连衣裙的女性站在绿色青蛙造型人偶旁，面向镜头并举手比耶；街边建筑和环境保留在完整矩形照片窗口内。",
+      "label": "左侧竖向照片中，一名穿白色连衣裙的女性站在绿色青蛙造型人偶旁",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        588,
+        269,
+        1034,
+        893
+      ],
+      "description": "右侧竖向照片中，一名穿白色连衣裙的女性站在厨师造型人偶旁，面向镜头；人偶举着食物造型物件，砖墙与地面等环境保留在完整矩形照片窗口内。",
+      "label": "右侧竖向照片中，一名穿白色连衣裙的女性站在厨师造型人偶旁，面",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        163,
+        1080,
+        990
+      ],
+      "description": "横向黑色胶卷相框，包含上下两排白色圆角齿孔、中央双照片窗口、顶部黄色“FUJI RDPⅢ”字样及左下黄色箭头；保留胶片边缘的磨损和颗粒。框体横跨画布，照片窗口分别对应左右两张照片。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横向黑色胶卷相框，包含上下两排白色圆角齿孔、中央双照片窗口、",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right",
+    "frame_filmstrip"
+  ]
+}

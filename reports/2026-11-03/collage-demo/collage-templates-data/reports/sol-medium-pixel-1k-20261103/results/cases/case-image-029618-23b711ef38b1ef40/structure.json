@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "filmstrip_base",
+    "description": "黑色胶片风格版式连续覆盖全画布，保留各照片窗口之间及四周的黑色区域、胶片边框、棕黄色箭头和小型印刷标记；三个独立照片窗口中的摄影内容替换，不把任何一张照片扩展为全画布底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_ocean",
+      "kind": "photo",
+      "bbox": [
+        40,
+        55,
+        1045,
+        462
+      ],
+      "description": "横向海面日落照片，金橙色天空与海浪共同构成完整摄影画面，太阳位于画面中央偏上；显示为胶片上方的矩形窗口。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        39,
+        518,
+        1042,
+        923
+      ],
+      "description": "横向饮品照片，画面中有四杯带冰饮料，近处两杯被画面边缘裁切，后方可见托盘与浅蓝色背景；沿窗口四周有不规则黄色手绘描边，描边依附此照片窗口。"
+    },
+    {
+      "id": "photo_noodles",
+      "kind": "photo",
+      "bbox": [
+        40,
+        979,
+        1045,
+        1385
+      ],
+      "description": "横向餐食照片，中央是一碗带炸物的面条，碗置于木桌上，右侧有筷子；桌面和餐具均属于照片中的摄影内容。"
+    },
+    {
+      "id": "overlay_lyrics_ocean",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        62,
+        1045,
+        450
+      ],
+      "description": "橙红色手写歌词装饰，分行写有“on the moon.”、“But I don't”、“wanna dance”和“another”，叠写在上方海景照片上，保留原有手写笔画与排布。"
+    },
+    {
+      "id": "overlay_with",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        443,
+        294,
+        583
+      ],
+      "description": "粉色手写单词“with”，位于中间饮品照片左上区域，作为独立字形装饰保留。"
+    },
+    {
+      "id": "overlay_you_heart",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        686,
+        270,
+        839
+      ],
+      "description": "粉色手写单词“you”及其旁边的小爱心，位于中间饮品照片左侧；笔画和爱心作为同一组手写装饰保留。"
+    },
+    {
+      "id": "overlay_lyrics_noodles_yellow",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        1040,
+        530,
+        1376
+      ],
+      "description": "黄色手写歌词装饰，分行写有“And on the”、“moon.”和“But I don't”，覆盖下方面条照片左侧，保留其手写字形及排布。"
+    },
+    {
+      "id": "overlay_lyrics_noodles_cyan",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        961,
+        1037,
+        1116
+      ],
+      "description": "青蓝色手写歌词装饰，分行写有“wanna dance”和“another”，覆盖下方面条照片右上区域，保留其手写字形及排布。"
+    }
+  ],
+  "layer_order": [
+    "photo_ocean",
+    "photo_drinks",
+    "photo_noodles",
+    "overlay_lyrics_ocean",
+    "overlay_with",
+    "overlay_you_heart",
+    "overlay_lyrics_noodles_yellow",
+    "overlay_lyrics_noodles_cyan"
+  ]
+}

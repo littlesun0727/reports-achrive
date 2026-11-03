@@ -1,0 +1,293 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_restaurant",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "餐厅室内的连续摄影画面覆盖全画布：上方可见菜单牌与吊灯，中部为墙面、窗户和吧台，下方延伸至沙发、桌面及地面。各处场景与透视连续，独立照片、贴图和文字遮挡局部；底图保留完整餐厅环境并由客户照片替换。",
+      "background_type": "photo",
+      "label": "餐厅室内的连续摄影画面覆盖全画布：上方可见菜单牌与吊灯，中部",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_display",
+      "kind": "photo",
+      "bbox": [
+        84,
+        334,
+        392,
+        725
+      ],
+      "description": "左侧竖向矩形照片，展示室内万圣节陈列，包括南瓜、黑色装饰与白色幽灵布偶，照片内保留货架及环境。照片边缘附近有白色手绘不规则环线和黄色星形点缀，环线沿照片周边延伸；右侧及下方被其他元素局部遮挡。",
+      "label": "左侧竖向矩形照片，展示室内万圣节陈列，包括南瓜、黑色装饰与白",
+      "method": "local"
+    },
+    {
+      "id": "photo_pizza",
+      "kind": "photo",
+      "bbox": [
+        469,
+        568,
+        715,
+        783
+      ],
+      "description": "画面中部偏左的圆形披萨近景，表面有配料和酱料，沿披萨外形可见白色手绘虚线描边；主体外未见可辨摄影环境，作为独立贴图显示。",
+      "label": "画面中部偏左的圆形披萨近景，表面有配料和酱料，沿披萨外形可见",
+      "method": "local"
+    },
+    {
+      "id": "photo_ghost",
+      "kind": "photo",
+      "bbox": [
+        579,
+        832,
+        732,
+        976
+      ],
+      "description": "披着白布、戴紫色尖帽并带小南瓜装饰的幽灵布偶贴图，完整主体独立显示，周围餐厅环境不属于该贴图。",
+      "label": "披着白布、戴紫色尖帽并带小南瓜装饰的幽灵布偶贴图，完整主体独",
+      "method": "local"
+    },
+    {
+      "id": "photo_pumpkin_stack",
+      "kind": "photo",
+      "bbox": [
+        673,
+        690,
+        861,
+        1043
+      ],
+      "description": "右侧中部的黑帽南瓜灯与下方数个橙色南瓜灯组成的纵向装饰主体，保留完整组合，叠在餐厅摄影环境前方。",
+      "label": "右侧中部的黑帽南瓜灯与下方数个橙色南瓜灯组成的纵向装饰主体，",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink_left",
+      "kind": "photo",
+      "bbox": [
+        838,
+        504,
+        936,
+        693
+      ],
+      "description": "右上区域一杯红色鸡尾酒的独立贴图，含高脚杯、装饰水果与吸管，沿杯体显示，背景与餐厅环境分离。",
+      "label": "右上区域一杯红色鸡尾酒的独立贴图，含高脚杯、装饰水果与吸管，",
+      "method": "local"
+    },
+    {
+      "id": "photo_drink_right",
+      "kind": "photo",
+      "bbox": [
+        912,
+        543,
+        1033,
+        743
+      ],
+      "description": "最右侧红色鸡尾酒独立贴图，含高脚杯、装饰水果与吸管，部分靠近画布右边缘，背景与餐厅环境分离。",
+      "label": "最右侧红色鸡尾酒独立贴图，含高脚杯、装饰水果与吸管，部分靠近",
+      "method": "local"
+    },
+    {
+      "id": "photo_salad",
+      "kind": "photo",
+      "bbox": [
+        811,
+        778,
+        1025,
+        956
+      ],
+      "description": "右侧白盘沙拉贴图，盘中可见蔬菜、鸡蛋及橙色食材，完整餐盘独立显示，叠在餐厅摄影环境前方。",
+      "label": "右侧白盘沙拉贴图，盘中可见蔬菜、鸡蛋及橙色食材，完整餐盘独立",
+      "method": "local"
+    },
+    {
+      "id": "photo_menu_collage",
+      "kind": "photo",
+      "bbox": [
+        192,
+        900,
+        591,
+        1414
+      ],
+      "description": "下方偏左的竖向矩形餐品拼贴照片，画面内有多道菜品、饮料、南瓜图案及小字，整体作为单张完整摄影画面替换；照片内部的拼贴、字样和白色涂鸦随照片内容保留。",
+      "label": "下方偏左的竖向矩形餐品拼贴照片，画面内有多道菜品、饮料、南瓜",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        646,
+        1028,
+        930,
+        1370
+      ],
+      "description": "右下方竖向矩形餐品照片，显示黑色碎屑铺盘、白色甜品、南瓜装饰及桌面上的灯笼和蜘蛛摆件；照片内可见小字与彩色装饰，整体作为单张照片替换。",
+      "label": "右下方竖向矩形餐品照片，显示黑色碎屑铺盘、白色甜品、南瓜装饰",
+      "method": "local"
+    },
+    {
+      "id": "overlay_hanging_hearts",
+      "kind": "overlay",
+      "bbox": [
+        632,
+        41,
+        979,
+        194
+      ],
+      "description": "吊灯上方沿斜向排列的白色手绘小爱心与引号状笔画，作为一组独立涂鸦保留。",
+      "label": "吊灯上方沿斜向排列的白色手绘小爱心与引号状笔画，作为一组独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        190,
+        1013,
+        1083
+      ],
+      "description": "散布于画面各处的白色手绘星形和闪光符号，包含左上、右上、中部及下方可见成员，作为同一组固定装饰保留。",
+      "label": "散布于画面各处的白色手绘星形和闪光符号，包含左上、右上、中部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_photo_doodles",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        296,
+        447,
+        736
+      ],
+      "description": "围绕左侧万圣节照片的白色手绘不规则环线及黄色星形点缀，完整保留其沿照片周边绕行、局部压在照片上的外观。",
+      "label": "围绕左侧万圣节照片的白色手绘不规则环线及黄色星形点缀，完整保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_halloween_icons",
+      "kind": "overlay",
+      "bbox": [
+        534,
+        414,
+        981,
+        459
+      ],
+      "description": "主标题上方的一组小型白色手绘符号与万圣节图标，包括卷曲线、幽灵、星芒、南瓜、闪光和骷髅样式图案，按整体装饰组合保留。",
+      "label": "主标题上方的一组小型白色手绘符号与万圣节图标，包括卷曲线、幽",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        498,
+        462,
+        898,
+        506
+      ],
+      "description": "白色手写风格艺术字“Happy Halloween!”及左侧小星形装饰，具有明确的手绘字形设计，作为整体固定图形保留。",
+      "label": "白色手写风格艺术字“Happy Halloween!”及左侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_potion",
+      "kind": "overlay",
+      "bbox": [
+        751,
+        583,
+        818,
+        668
+      ],
+      "description": "披肩状轮廓的白色小药水瓶贴图，瓶中为紫色液体并带小型黑色符号，作为独立万圣节装饰保留。",
+      "label": "披肩状轮廓的白色小药水瓶贴图，瓶中为紫色液体并带小型黑色符号",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_candles_spider",
+      "kind": "overlay",
+      "bbox": [
+        809,
+        691,
+        906,
+        776
+      ],
+      "description": "右侧中部的橙色发光蜡烛与黑色蜘蛛组合贴图，作为一个完整固定装饰单元保留。",
+      "label": "右侧中部的橙色发光蜡烛与黑色蜘蛛组合贴图，作为一个完整固定装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_small_icons",
+      "kind": "overlay",
+      "bbox": [
+        230,
+        746,
+        516,
+        798
+      ],
+      "description": "左侧照片下方的一组小型白色表情、爱心、纸箱、感叹号、卷纸和糖果符号，整体作为独立装饰保留。",
+      "label": "左侧照片下方的一组小型白色表情、爱心、纸箱、感叹号、卷纸和糖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_quote",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        801,
+        600,
+        856
+      ],
+      "description": "白色粗斜体装饰字“Little things make life big.”及末尾棕色爱心图案，字形与附属图案共同构成固定艺术字单元。",
+      "label": "白色粗斜体装饰字“Little things make li",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_handdrawn_lower",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        896,
+        815,
+        1405
+      ],
+      "description": "下半部覆盖照片与背景的白色手绘装饰组合，包含左侧箭头状笔画、中央弧线与吊灯草图，以及右下方回形针、星点和小涂鸦；照片内部已印制的涂鸦不包含在此单元内。",
+      "label": "下半部覆盖照片与背景的白色手绘装饰组合，包含左侧箭头状笔画、",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_restaurant",
+    "photo_display",
+    "photo_pizza",
+    "photo_pumpkin_stack",
+    "photo_drink_left",
+    "photo_drink_right",
+    "photo_salad",
+    "photo_menu_collage",
+    "photo_dessert",
+    "photo_ghost",
+    "overlay_hanging_hearts",
+    "overlay_photo_doodles",
+    "overlay_stars",
+    "overlay_halloween_icons",
+    "overlay_title",
+    "overlay_potion",
+    "overlay_candles_spider",
+    "overlay_small_icons",
+    "overlay_quote",
+    "overlay_handdrawn_lower"
+  ]
+}

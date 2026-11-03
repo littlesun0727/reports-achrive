@@ -1,0 +1,134 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "仰拍户外场景，蓝色天空贯穿上方及画布两侧，右侧和下方是连续的落叶树枝，左下为带空调外机的砖墙、屋檐，底部可见远处山坡与建筑。无人物，摄影场景连续延伸至四边，上层三张照片和白色装饰遮挡局部；整幅天空、树木及建筑随客户照片一起替换。",
+      "background_type": "photo",
+      "label": "仰拍户外场景，蓝色天空贯穿上方及画布两侧，右侧和下方是连续的",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_leaf",
+      "kind": "photo",
+      "bbox": [
+        269,
+        210,
+        598,
+        606
+      ],
+      "description": "左上竖向照片，一只手从左下伸入，捏着一片金黄色银杏叶，背景为蓝天及下方虚化树木；保留摄影环境。照片窗口外沿附有浅黄色粗线断续描边，上角弯曲、两侧分段，整体范围包含这些依附窗口的线条。白色音乐播放器装饰叠在手与叶片前方。",
+      "label": "左上竖向照片，一只手从左下伸入，捏着一片金黄色银杏叶，背景为",
+      "method": "local"
+    },
+    {
+      "id": "photo_leaves_heart",
+      "kind": "photo",
+      "bbox": [
+        186,
+        615,
+        603,
+        1160
+      ],
+      "description": "左下竖向俯拍照片，黄色落叶在灰色砖地上围出心形，底部可见一人的米色外套、黑裤和并拢的浅色鞋；人物与铺地环境整体替换。窗口外围为浅黄色粗线断续描边，包含弯曲角部及上下横向线段，照片下缘裁切衣服。",
+      "label": "左下竖向俯拍照片，黄色落叶在灰色砖地上围出心形，底部可见一人",
+      "method": "local"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        575,
+        470,
+        897,
+        872
+      ],
+      "description": "右中竖向黄昏照片，金黄色天空下是黑色山脊，左侧有高树剪影，下方可见道路、矮树和小型路牌，无清晰人物；保留完整摄影环境。照片窗口四角呈弧形，外围依附浅黄色粗线断续描边，下沿和侧边分段，叠在全画布树枝场景上。",
+      "label": "右中竖向黄昏照片，金黄色天空下是黑色山脊，左侧有高树剪影，下",
+      "method": "local"
+    },
+    {
+      "id": "overlay_player",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        269,
+        484,
+        524
+      ],
+      "description": "叠在左上照片上的白色手绘音乐播放器装饰，完整保留双线圆角外框、内部方形封面框、黄色月亮及白色环绕曲线、小星光、进度线、爱心和播放切换图标。封面下方小字可辨为“中秋快乐”；这些文字与图案属于同一播放器设计，不并入摄影内容。",
+      "label": "叠在左上照片上的白色手绘音乐播放器装饰，完整保留双线圆角外框",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_left",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        508,
+        222,
+        598
+      ],
+      "description": "左侧一大一小两枚白色空心四角闪光，大小错落排列，作为同一局部手绘装饰保留，位于上方照片左侧。",
+      "label": "左侧一大一小两枚白色空心四角闪光，大小错落排列，作为同一局部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles_right",
+      "kind": "overlay",
+      "bbox": [
+        880,
+        977,
+        976,
+        1105
+      ],
+      "description": "右下树枝前方一大一小两枚白色空心四角闪光，上大下小，完整保留细线轮廓及两枚之间的空隙。",
+      "label": "右下树枝前方一大一小两枚白色空心四角闪光，上大下小，完整保留",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        514,
+        343,
+        1003,
+        386
+      ],
+      "description": "Collecting light and silence.",
+      "label": "Collecting light and silence.",
+      "method": "local",
+      "text": "Collecting light and silence.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_leaf",
+    "photo_leaves_heart",
+    "photo_sunset",
+    "overlay_player",
+    "overlay_sparkles_left",
+    "overlay_sparkles_right",
+    "text_title"
+  ]
+}

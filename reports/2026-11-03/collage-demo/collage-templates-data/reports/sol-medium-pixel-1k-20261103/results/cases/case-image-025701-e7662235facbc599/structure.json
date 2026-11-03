@@ -1,0 +1,71 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        479
+      ],
+      "description": "顶部横幅婚宴敬酒照片：右侧穿黑色礼服的年轻男子举杯，中央年长女性与宾客交谈，左前景有虚化人物；保留完整宴会环境。与下方照片在水平接缝处重新起始，属于独立照片。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        479,
+        1080,
+        1049
+      ],
+      "description": "中部横幅婚宴照片：年轻男子穿黑色礼服，与身穿绿色礼服的年轻女性并肩举杯，左前景有被截切的宾客，背景是暖色宴会灯光；保留完整摄影环境。上下边缘与相邻照片形成明确水平接缝。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1049,
+        1080,
+        1439
+      ],
+      "description": "底部横幅近景照片：右侧黑色礼服人物的手持酒杯，胸前有黄色花饰，左侧为虚化暖色背景；保留完整摄影环境。图中可见白色摄影师签名字样，作为照片上的固定叠加标记单独记录。"
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        1275,
+        628,
+        1311
+      ],
+      "description": "叠在底部照片酒杯和手部附近的白色手写摄影师签名及小字标记，整体作为独立固定图形保留。"
+    },
+    {
+      "id": "overlay_platform_mark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1413,
+        1072,
+        1433
+      ],
+      "description": "画布右下角的小型半透明平台标记，作为独立叠加图形保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_signature",
+    "overlay_platform_mark"
+  ]
+}

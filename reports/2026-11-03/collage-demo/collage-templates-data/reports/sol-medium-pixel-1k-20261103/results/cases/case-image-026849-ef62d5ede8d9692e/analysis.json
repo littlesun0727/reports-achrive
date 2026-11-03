@@ -1,0 +1,148 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    988,
+    540
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        988,
+        540
+      ],
+      "description": "连续的复古拼贴纸张底图，包含浅米色纸张纹理、顶部蓝灰色区域、撕裂状纸张边缘及圆角画布边界；城市摄影、建筑人物、轨道车、贴纸和文字均为独立对象，纸张与固定纹理保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续的复古拼贴纸张底图，包含浅米色纸张纹理、顶部蓝灰色区域、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_city_panorama",
+      "kind": "photo",
+      "bbox": [
+        90,
+        220,
+        988,
+        540
+      ],
+      "description": "横向重庆城市全景照片，包含密集高楼、江面、夜间灯光和右侧红色桥梁，摄影环境完整保留并延伸至画布右侧和底部；上缘被标题、标签及前景建筑局部遮挡。",
+      "label": "横向重庆城市全景照片，包含密集高楼、江面、夜间灯光和右侧红色",
+      "method": "local"
+    },
+    {
+      "id": "photo_tower",
+      "kind": "photo",
+      "bbox": [
+        27,
+        13,
+        231,
+        449
+      ],
+      "description": "左侧独立建筑摄影主体，呈高塔与钟楼式建筑的竖向近景，主体沿轮廓抠出并带浅色及深色外描边，底部与城市景观和雕像区域相接，摄影背景不保留。",
+      "label": "左侧独立建筑摄影主体，呈高塔与钟楼式建筑的竖向近景，主体沿轮",
+      "method": "local"
+    },
+    {
+      "id": "photo_statue_group",
+      "kind": "photo",
+      "bbox": [
+        28,
+        312,
+        337,
+        540
+      ],
+      "description": "左下方独立雕像组合摄影主体，包含坐姿人物、站立人物及底部石质基座，沿主体组合轮廓抠出并带明显浅色描边和阴影，底部被画布裁切，城市摄影环境不保留。",
+      "label": "左下方独立雕像组合摄影主体，包含坐姿人物、站立人物及底部石质",
+      "method": "local"
+    },
+    {
+      "id": "photo_tram",
+      "kind": "photo",
+      "bbox": [
+        679,
+        0,
+        988,
+        253
+      ],
+      "description": "右上方独立红色轨道车摄影主体，包含车厢、上方支架及延伸至右侧的线路结构，沿整体轮廓抠出并带浅色和深色描边；顶部与右侧部分超出画布范围。",
+      "label": "右上方独立红色轨道车摄影主体，包含车厢、上方支架及延伸至右侧",
+      "method": "local"
+    },
+    {
+      "id": "overlay_quote_sticker",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        8,
+        232,
+        114
+      ],
+      "description": "左上方倾斜的米白色纸质引号贴纸，包含深棕色大号引号、纸张纹理、阴影及不规则边缘，作为完整固定装饰保留。",
+      "label": "左上方倾斜的米白色纸质引号贴纸，包含深棕色大号引号、纸张纹理",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        256,
+        125,
+        657,
+        226
+      ],
+      "description": "谢谢观看",
+      "label": "谢谢观看",
+      "method": "local",
+      "text": "谢谢观看",
+      "text_status": "known",
+      "style": {
+        "fill": "#8D3A28",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_welcome_label",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        246,
+        635,
+        330
+      ],
+      "description": "标题下方的撕裂边缘米白色纸条标签，带立体阴影和深棕色文字“欢迎来重庆玩！”，文字与纸条载体共同作为固定设计单元保留。",
+      "label": "标题下方的撕裂边缘米白色纸条标签，带立体阴影和深棕色文字“欢",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_subtitle_label",
+      "kind": "overlay",
+      "bbox": [
+        375,
+        347,
+        596,
+        414
+      ],
+      "description": "中央下方的双层小标签，由上方红棕色纸条和下方浅米色纸条组成，包含“山城之旅·等你开启”及“WELCOME TO CHONGQING”字样，纸边、印刷文字和阴影整体保留。",
+      "label": "中央下方的双层小标签，由上方红棕色纸条和下方浅米色纸条组成，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_city_panorama",
+    "photo_tower",
+    "photo_tram",
+    "photo_statue_group",
+    "text_title",
+    "overlay_quote_sticker",
+    "overlay_welcome_label",
+    "overlay_subtitle_label"
+  ]
+}

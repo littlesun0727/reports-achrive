@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    870,
+    1159
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        870,
+        1159
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_wedding",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        470,
+        1159
+      ],
+      "description": "左侧纵向婚礼照片，五人在木构神社前的石阶上行走：白色传统婚服、戴白色头饰的新娘居中，左侧为穿条纹袴的新郎，身后有深色礼服男子，另有浅黄色和灰色服装的两名女子陪同。保留屋檐、木柱、树叶和石阶等完整摄影环境，人物下方仍显示较大范围台阶。右缘柔化，与右侧绘马照片交叠融合；过渡区的精确窗口边界不清晰。",
+      "label": "左侧纵向婚礼照片，五人在木构神社前的石阶上行走：白色传统婚服",
+      "method": "local"
+    },
+    {
+      "id": "photo_prayer_plaques",
+      "kind": "photo",
+      "bbox": [
+        413,
+        0,
+        870,
+        1159
+      ],
+      "description": "右侧纵向绘马近景照片，多组浅色木质祈愿牌由浅蓝色绳索悬挂于深色横向木栏上，从顶部延续至画布底部，底部牌组被画布裁切。保留牌上的手写文字、树干、地面落叶及栏杆等摄影内容，不将木牌和文字拆为装饰。左缘与婚礼照片柔和交叠；两侧取景和内容不连续，为独立照片，交叠处准确边界存在少量不确定性。",
+      "label": "右侧纵向绘马近景照片，多组浅色木质祈愿牌由浅蓝色绳索悬挂于深",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_prayer_plaques",
+    "photo_wedding"
+  ]
+}

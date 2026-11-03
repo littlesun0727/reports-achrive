@@ -1,0 +1,135 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#F5EAE2"
+  },
+  "objects": [
+    {
+      "id": "photo_group",
+      "kind": "photo",
+      "bbox": [
+        107,
+        97,
+        1507,
+        870
+      ],
+      "description": "一张横向团体合影，约十三名成人与一名婴儿在明亮的室内装饰背景前合影；多人站立或蹲坐，面向镜头微笑并做手势，新娘着黄色礼服位于前景中央。摄影环境保留在矩形照片窗口内，照片下缘被欢迎文字版面相接遮挡。"
+    },
+    {
+      "id": "overlay_film_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1620,
+        50
+      ],
+      "description": "画布顶部横贯全宽的黑色胶片边带，内部一排白色圆角长孔，作为完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_film_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1036,
+        1620,
+        1080
+      ],
+      "description": "画布底部横贯全宽的黑色胶片边带，内部一排白色圆角长孔，作为完整固定装饰保留。"
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        699,
+        55,
+        923,
+        82
+      ],
+      "text": "Aug  24th.2025",
+      "color": "#92713A",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_right_brand",
+      "kind": "overlay",
+      "bbox": [
+        1398,
+        456,
+        1587,
+        665
+      ],
+      "description": "照片右侧浅色区域上的固定品牌组合：灰绿色卡通猫图、黑色衬线大写字样“PHOTOBOOTH”及下方中文“龙猫摄影”，整体保留。"
+    },
+    {
+      "id": "overlay_left_brand_duck",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        759,
+        263,
+        1004
+      ],
+      "description": "左下角黑色线描鸭子及与其重叠的灰绿色卡通猫品牌图组合，包含图案上的“PHOTOBOOTH”字样和中文“龙猫摄影”；作为一个紧密叠合的固定装饰整体保留。"
+    },
+    {
+      "id": "overlay_giraffe",
+      "kind": "overlay",
+      "bbox": [
+        1402,
+        700,
+        1594,
+        1023
+      ],
+      "description": "右下角独立的卡通长颈鹿线描，奶油色身体带棕色斑点与粉色脸颊，完整轮廓作为固定装饰保留。"
+    },
+    {
+      "id": "text_welcome",
+      "kind": "text",
+      "bbox": [
+        566,
+        881,
+        1048,
+        955
+      ],
+      "text": "WELCOME",
+      "color": "#92713A",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_names",
+      "kind": "text",
+      "bbox": [
+        565,
+        983,
+        1057,
+        1014
+      ],
+      "text": "HE JIE & WANG XIUYUE",
+      "color": "#111111",
+      "font": "serif",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_group",
+    "overlay_film_top",
+    "overlay_film_bottom",
+    "text_date",
+    "overlay_right_brand",
+    "overlay_left_brand_duck",
+    "overlay_giraffe",
+    "text_welcome",
+    "text_names"
+  ]
+}

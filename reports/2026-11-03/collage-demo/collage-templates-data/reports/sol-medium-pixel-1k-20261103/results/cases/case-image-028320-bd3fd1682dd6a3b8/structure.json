@@ -1,0 +1,94 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_holiday",
+      "kind": "photo",
+      "bbox": [
+        100,
+        221,
+        600,
+        554
+      ],
+      "description": "左上横向夜景照片，画面中一名女性站在有圣诞装饰、卡通图案和“HAPPY HOLIDAY”字样的橱窗前，人物正面站立；雪点和橱窗内容均属于照片，完整矩形窗口显示。"
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        681,
+        425,
+        1015,
+        926
+      ],
+      "description": "右侧竖向秋日户外照片，一名背对镜头、背着背包的人站在路灯和树木前，双手举过头顶；保留天空、树木、建筑与地面等完整摄影环境，照片底部可见的白色韩文随照片替换。"
+    },
+    {
+      "id": "text_love",
+      "kind": "text",
+      "bbox": [
+        753,
+        340,
+        887,
+        378
+      ],
+      "text": "사랑해",
+      "color": "#000000",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        886,
+        337,
+        933,
+        378
+      ],
+      "description": "位于右上方文字末尾的黄色实心手绘爱心，作为独立装饰保留。"
+    },
+    {
+      "id": "text_snow_message",
+      "kind": "text",
+      "bbox": [
+        108,
+        628,
+        580,
+        718
+      ],
+      "text": "눈은 항상 사람들에게 낭만을\n가져다 줍니다!",
+      "color": "#000000",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_snow",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        679,
+        395,
+        719
+      ],
+      "description": "位于下方韩文句子末尾的浅蓝灰色云朵与蓝色雪花组合，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_holiday",
+    "photo_autumn",
+    "text_love",
+    "overlay_heart",
+    "text_snow_message",
+    "overlay_snow"
+  ]
+}

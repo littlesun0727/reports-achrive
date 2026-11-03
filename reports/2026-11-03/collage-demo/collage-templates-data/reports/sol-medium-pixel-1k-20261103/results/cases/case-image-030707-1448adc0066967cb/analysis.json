@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的办公室摄影画面覆盖全画布，天花板、玻璃隔断、桌面与右侧墙面贯通四边。两人背向镜头：左下长发女子坐在黑色办公椅上，右侧短发男子穿白色短袖与黑色短裤，抬起左臂举着印花杯，腿部被画布下缘裁切。桌面杂物、座椅、杯子及环境均随照片替换；文字和涂鸦遮挡局部。女子头发、肩臂外侧有浅黄色轮廓描边，杯子外沿有薄荷绿色轮廓描边，均依附摄影主体；摄影背景仍完整保留，没有沿人物去背景。",
+      "background_type": "photo",
+      "label": "连续的办公室摄影画面覆盖全画布，天花板、玻璃隔断、桌面与右侧",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_title_worker",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        5,
+        558,
+        238
+      ],
+      "description": "顶部偏左的白色空心手绘艺术字“打工人”，三个字的大小、角度和笔画不规则，内部透出摄影底图；完整保留粗白轮廓与手绘边缘。",
+      "label": "顶部偏左的白色空心手绘艺术字“打工人”，三个字的大小、角度和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title_work",
+      "kind": "overlay",
+      "bbox": [
+        552,
+        68,
+        1035,
+        254
+      ],
+      "description": "顶部偏右薄荷绿色实心艺术字“上班的”，字形粗大且错落，保留不规则笔画、字间位置与局部纹理，不拆为普通文字。",
+      "label": "顶部偏右薄荷绿色实心艺术字“上班的”，字形粗大且错落，保留不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title_spirit",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        229,
+        472,
+        510
+      ],
+      "description": "左上部薄荷绿色艺术字“精神”，周围附有不规则白色外轮廓和短线，字形与外围手绘笔画构成完整固定设计。",
+      "label": "左上部薄荷绿色艺术字“精神”，周围附有不规则白色外轮廓和短线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title_food",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        460,
+        511,
+        733
+      ],
+      "description": "左侧中部薄荷绿色艺术字“食粮”，两字角度和大小错落，外围带白色折线式轮廓及短弧线，整体保留。",
+      "label": "左侧中部薄荷绿色艺术字“食粮”，两字角度和大小错落，外围带白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title_question",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        704,
+        571,
+        911
+      ],
+      "description": "中下部白色艺术字“竟然是？！”；各字与标点大小、倾角和基线明显不同，作为整段固定字形设计保留，背景摄影不属于该单元。",
+      "label": "中下部白色艺术字“竟然是？！”；各字与标点大小、倾角和基线明",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cup_pink_accents",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        205,
+        745,
+        500
+      ],
+      "description": "围绕举起杯子的粉色手绘强调符号：左上两枚倾斜小块，块内有浅色短笔画，左侧一条竖向长线，右侧一条斜向长线。各笔画构成杯子周围的一组强调装饰，不包含杯子的摄影内容或薄荷绿轮廓。",
+      "label": "围绕举起杯子的粉色手绘强调符号：左上两枚倾斜小块，块内有浅色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        759,
+        270,
+        819,
+        347
+      ],
+      "description": "杯子右上方的荧光黄四角闪光星，轮廓不规则，作为独立手绘装饰保留。",
+      "label": "杯子右上方的荧光黄四角闪光星，轮廓不规则，作为独立手绘装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_orange",
+      "kind": "overlay",
+      "bbox": [
+        732,
+        386,
+        769,
+        429
+      ],
+      "description": "杯子右侧、男子头部左上方的一枚橙色不规则椭圆点。",
+      "label": "杯子右侧、男子头部左上方的一枚橙色不规则椭圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_lime",
+      "kind": "overlay",
+      "bbox": [
+        700,
+        542,
+        732,
+        585
+      ],
+      "description": "男子抬起的手臂下方、长管右侧的一枚黄绿色倾斜小椭圆点。",
+      "label": "男子抬起的手臂下方、长管右侧的一枚黄绿色倾斜小椭圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_question",
+      "kind": "overlay",
+      "bbox": [
+        538,
+        775,
+        591,
+        864
+      ],
+      "description": "白色感叹号附近的黄绿色闪光装饰，尖角向上下及右侧延伸，部分被白色标点遮挡；与文字分开保留。",
+      "label": "白色感叹号附近的黄绿色闪光装饰，尖角向上下及右侧延伸，部分被",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        514,
+        875,
+        596,
+        995
+      ],
+      "description": "画面中下部、桌面上方的橙色四角闪光星，纵向较长，保留手绘不规则边缘。",
+      "label": "画面中下部、桌面上方的橙色四角闪光星，纵向较长，保留手绘不规",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_charging_tube",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        529,
+        716,
+        1288
+      ],
+      "description": "从举起的杯子底部向下延伸、在女子右手附近回弯的长管状涂鸦。保留薄荷绿双侧轮廓、内部蓝黑相间短横纹、伴随的粉色长线与底端弯钩，以及回弯左上方的薄荷绿放射短线。整组压在办公室和人物照片之上，上端连接杯底，但不包含杯子摄影内容。",
+      "label": "从举起的杯子底部向下延伸、在女子右手附近回弯的长管状涂鸦。保",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_star_question",
+    "overlay_title_worker",
+    "overlay_title_work",
+    "overlay_title_spirit",
+    "overlay_title_food",
+    "overlay_title_question",
+    "overlay_cup_pink_accents",
+    "overlay_star_top",
+    "overlay_dot_orange",
+    "overlay_dot_lime",
+    "overlay_star_lower",
+    "overlay_charging_tube"
+  ]
+}

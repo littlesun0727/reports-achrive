@@ -1,0 +1,421 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_sky_base",
+    "description": "连续的浅蓝色纸张与柔和白色云状纹理覆盖整个画布，四边均延伸至画布边缘；拼贴照片、纸张、贴纸和文字均为独立前景单元，背景纹理保留原样。"
+  },
+  "objects": [
+    {
+      "id": "overlay_left_note",
+      "kind": "overlay",
+      "bbox": [
+        136,
+        447,
+        423,
+        682
+      ],
+      "description": "左侧米白色便签纸及其浅黄色网格纸边，包含手写英文装饰和小爱心，作为独立纸张单元保留，位于左下人物照片和左上拍立得照片下方。"
+    },
+    {
+      "id": "overlay_binder_clip",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        434,
+        280,
+        564
+      ],
+      "description": "夹在左侧便签纸上方的黑色金属夹，包含夹体、弯曲金属脚和阴影，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_korean_lettering",
+      "kind": "overlay",
+      "bbox": [
+        211,
+        321,
+        384,
+        407
+      ],
+      "description": "画布左上区域的黑色手写韩文艺术字，笔画具有独立手绘造型，不按普通文字排版拆分。"
+    },
+    {
+      "id": "overlay_outline_star_left",
+      "kind": "overlay",
+      "bbox": [
+        292,
+        90,
+        484,
+        258
+      ],
+      "description": "左上方跨越背景和拍立得上缘的白色线描星形装饰，完整保留其不规则轮廓。"
+    },
+    {
+      "id": "overlay_tape_left",
+      "kind": "overlay",
+      "bbox": [
+        365,
+        164,
+        452,
+        226
+      ],
+      "description": "压在左上拍立得顶部的米色半透明胶带，保留纸张纹理、斜向贴合和边缘形状。"
+    },
+    {
+      "id": "frame_portrait_left",
+      "kind": "frame",
+      "bbox": [
+        380,
+        175,
+        684,
+        538
+      ],
+      "description": "左上方白色拍立得相纸框，包含白色边框和底部印刷区域；承载一张人物照片，框体上的小字和粗体艺术字随固定相纸保留。",
+      "photo_id": [
+        "photo_portrait_left"
+      ]
+    },
+    {
+      "id": "photo_portrait_left",
+      "kind": "photo",
+      "bbox": [
+        393,
+        198,
+        664,
+        471
+      ],
+      "description": "左上拍立得内的单人近景自拍，人物仰卧在白色床品和枕头间，面朝镜头；床上环境随照片替换，照片内口为近似矩形，边缘受白色拍立得框遮挡。"
+    },
+    {
+      "id": "photo_center_bed",
+      "kind": "photo",
+      "bbox": [
+        594,
+        305,
+        1089,
+        916
+      ],
+      "description": "中央大幅横向摄影画面，单人穿白色无袖上衣躺在床上，白色床单覆盖头部并向两侧展开，人物位于画面中央，双臂向两侧伸展；完整床铺环境保留在照片显示范围内，部分边缘被周围拼贴单元遮挡。"
+    },
+    {
+      "id": "frame_film_strip",
+      "kind": "frame",
+      "bbox": [
+        405,
+        520,
+        677,
+        807
+      ],
+      "description": "中央偏左的黑色胶片条框，包含胶片齿孔、竖向编号和三格固定边框，承载其中的人物照片，作为完整胶片设计保留。",
+      "photo_id": [
+        "photo_film_strip"
+      ]
+    },
+    {
+      "id": "photo_film_strip",
+      "kind": "photo",
+      "bbox": [
+        438,
+        548,
+        650,
+        785
+      ],
+      "description": "胶片框内的单人和蒙面人物组合照片，人物位于室内或棚拍环境中，显示为竖向多格摄影内容；照片环境保留在胶片窗口内。"
+    },
+    {
+      "id": "photo_portrait_lower_left",
+      "kind": "photo",
+      "bbox": [
+        222,
+        555,
+        481,
+        889
+      ],
+      "description": "左下独立人物照片，单人戴大型黑色太阳镜，面向镜头作近景自拍，背景中可见浅色衣物和局部蓝色区域；照片为倾斜的矩形显示区域，右上部被胶片框和中央拼贴遮挡。"
+    },
+    {
+      "id": "frame_portrait_right",
+      "kind": "frame",
+      "bbox": [
+        1065,
+        192,
+        1398,
+        548
+      ],
+      "description": "右上方白色拍立得相纸框，包含宽白边、底部浅色印刷区域和顶部被装饰覆盖的边缘，承载一张人物自拍照片。",
+      "photo_id": [
+        "photo_portrait_right"
+      ]
+    },
+    {
+      "id": "photo_portrait_right",
+      "kind": "photo",
+      "bbox": [
+        1084,
+        220,
+        1378,
+        501
+      ],
+      "description": "右上拍立得内的单人近景自拍，人物戴黑色太阳镜并手持手机，面向镜头举手，身后可见蓝色天空或建筑环境；摄影环境随照片替换，边缘受拍立得框遮挡。"
+    },
+    {
+      "id": "overlay_pin_right",
+      "kind": "overlay",
+      "bbox": [
+        1209,
+        161,
+        1242,
+        223
+      ],
+      "description": "固定在右上拍立得顶部的黑色图钉，包含圆形钉帽和短底座，覆盖相纸上沿。"
+    },
+    {
+      "id": "overlay_star_right_top",
+      "kind": "overlay",
+      "bbox": [
+        1329,
+        166,
+        1389,
+        228
+      ],
+      "description": "贴在右上拍立得右上角的黑色不规则星形贴纸，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_right_paper",
+      "kind": "overlay",
+      "bbox": [
+        1367,
+        396,
+        1596,
+        851
+      ],
+      "description": "右侧竖向米白色手写纸张，包含密集黑色手写线条、纸张边缘和局部阴影，作为固定纸张装饰保留；其上方及旁侧的邮票图案另列为独立单元。"
+    },
+    {
+      "id": "overlay_right_stamp",
+      "kind": "overlay",
+      "bbox": [
+        1451,
+        398,
+        1557,
+        513
+      ],
+      "description": "右侧纸张上方的圆形复古邮票贴纸，含锯齿边、字母和中心图案，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_outline_star_right",
+      "kind": "overlay",
+      "bbox": [
+        1368,
+        300,
+        1518,
+        468
+      ],
+      "description": "右上区域横跨背景和纸张的白色线描星形装饰，完整保留不规则线条。"
+    },
+    {
+      "id": "overlay_quote_strips",
+      "kind": "overlay",
+      "bbox": [
+        1004,
+        481,
+        1249,
+        619
+      ],
+      "description": "叠放在中央和右下照片之间的四条灰白色纸质英文短句标签，包含 the darker、the night、the brighter、the stars，纸条位置和黑色印字作为一个固定装饰组保留。"
+    },
+    {
+      "id": "overlay_sparkle_right",
+      "kind": "overlay",
+      "bbox": [
+        1307,
+        511,
+        1412,
+        585
+      ],
+      "description": "右侧照片和文字纸条之间的黑色放射线星芒涂鸦，作为独立手绘装饰保留。"
+    },
+    {
+      "id": "frame_social_photo",
+      "kind": "frame",
+      "bbox": [
+        1058,
+        568,
+        1401,
+        907
+      ],
+      "description": "右下方带社交媒体界面的白色照片卡框，包含白色边框、底部爱心评论图标、分页点和收藏图标，并承载一张人物照片；底部 DANIELLEE 字样作为框体印刷设计保留。",
+      "photo_id": [
+        "photo_social_portrait"
+      ]
+    },
+    {
+      "id": "photo_social_portrait",
+      "kind": "photo",
+      "bbox": [
+        1079,
+        588,
+        1376,
+        850
+      ],
+      "description": "右下照片卡内的单人半身人物，穿白色衣物并将白色床单或衣物罩在头部，面向镜头；背景为室内床铺或墙面，摄影环境保留在照片窗口内。"
+    },
+    {
+      "id": "overlay_star_center_right",
+      "kind": "overlay",
+      "bbox": [
+        1039,
+        706,
+        1094,
+        768
+      ],
+      "description": "压在中央照片和右下照片卡交界处的黑色星形贴纸，覆盖两层照片边缘。"
+    },
+    {
+      "id": "overlay_new_label",
+      "kind": "overlay",
+      "bbox": [
+        723,
+        686,
+        1007,
+        815
+      ],
+      "description": "中央下方倾斜的白色纸质 New 标签，带粗大的红色 New 字样和深色边缘阴影，作为完整固定标签保留。"
+    },
+    {
+      "id": "overlay_record_collage",
+      "kind": "overlay",
+      "bbox": [
+        475,
+        768,
+        1018,
+        1006
+      ],
+      "description": "画布下方中央的复古唱片拼贴单元，包含黑色唱片、米白唱片标签、旧报纸纹理、Music 字样和白色手写 summer 装饰，作为整体固定纸张与图像拼贴保留。"
+    },
+    {
+      "id": "overlay_sunglasses_bottom",
+      "kind": "overlay",
+      "bbox": [
+        784,
+        760,
+        1048,
+        1005
+      ],
+      "description": "覆盖在唱片拼贴右侧的橙色镜片黑框太阳镜图像，作为独立固定装饰单元保留，镜框和镜片反光均包含在范围内。"
+    },
+    {
+      "id": "overlay_barcode_label",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        846,
+        339,
+        954
+      ],
+      "description": "左下方白色圆角条码标签，包含条码、数字和浅色边框阴影，作为独立固定贴纸保留。"
+    },
+    {
+      "id": "overlay_line_doodle_left",
+      "kind": "overlay",
+      "bbox": [
+        113,
+        777,
+        340,
+        877
+      ],
+      "description": "条码标签左侧的黑色连线涂鸦，包含节点圆点、斜线和浅蓝及米色圆形节点，作为完整手绘装饰保留。"
+    },
+    {
+      "id": "overlay_outline_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        807,
+        483,
+        990
+      ],
+      "description": "左下照片与条码附近的白色线描星形装饰，部分被条码和照片遮挡，完整可见轮廓作为独立单元保留。"
+    },
+    {
+      "id": "overlay_star_bottom_center",
+      "kind": "overlay",
+      "bbox": [
+        784,
+        926,
+        834,
+        980
+      ],
+      "description": "唱片拼贴下缘附近的黑色星形贴纸，覆盖在固定拼贴边缘上。"
+    },
+    {
+      "id": "overlay_sparkle_bottom",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        910,
+        1125,
+        1019
+      ],
+      "description": "右下方照片卡和唱片拼贴之间的黑色放射线星芒涂鸦，作为独立手绘装饰保留。"
+    },
+    {
+      "id": "overlay_wow_burst",
+      "kind": "overlay",
+      "bbox": [
+        1517,
+        808,
+        1634,
+        912
+      ],
+      "description": "右下纸张旁的黑色爆炸形 Wow! 手绘贴纸，包含外轮廓、文字和放射状边缘，作为完整艺术字装饰保留。"
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        814,
+        1032,
+        917,
+        1059
+      ],
+      "description": "画布底部中央的小号黑色手写署名装饰，保留其斜体手写轮廓和位置。"
+    }
+  ],
+  "layer_order": [
+    "overlay_left_note",
+    "overlay_right_paper",
+    "overlay_record_collage",
+    "photo_center_bed",
+    "photo_portrait_lower_left",
+    "frame_film_strip",
+    "photo_film_strip",
+    "frame_portrait_left",
+    "photo_portrait_left",
+    "overlay_binder_clip",
+    "overlay_tape_left",
+    "frame_portrait_right",
+    "photo_portrait_right",
+    "overlay_pin_right",
+    "overlay_star_right_top",
+    "overlay_right_stamp",
+    "overlay_quote_strips",
+    "frame_social_photo",
+    "photo_social_portrait",
+    "overlay_new_label",
+    "overlay_sunglasses_bottom",
+    "overlay_barcode_label",
+    "overlay_line_doodle_left",
+    "overlay_outline_star_left",
+    "overlay_outline_star_right",
+    "overlay_outline_star_bottom_left",
+    "overlay_korean_lettering",
+    "overlay_sparkle_right",
+    "overlay_star_center_right",
+    "overlay_star_bottom_center",
+    "overlay_sparkle_bottom",
+    "overlay_wow_burst",
+    "overlay_signature"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "上方独立横向旅行照片，完整显示雪山、森林、湖泊、岸边和一名戴眼镜的女性半身人物；人物位于下方中央，面向镜头并抬手遮阳。照片在画布四边延伸至该区域边界，下缘与下方照片形成清晰水平接缝，摄影环境随客户素材替换保留。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下方独立竖向旅行照片，完整显示蓝天、雪山、森林山坡、湖泊、岸边植被及远处游客或设施；没有人物主体近景，景别较远。照片从画布左右边缘延伸，并以 y=720 的水平裁切边与上方照片分开，摄影环境随客户素材替换保留。"
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        215,
+        992,
+        351
+      ],
+      "description": "叠加在上方湖山照片右上区域的白色手写旅行注记，包含日期“2026.4.30”及关于天山天池、山、湖和雪的中文短句；笔画具有手写装饰性，作为一个独立固定字样单元保留，不拆分为普通文字。"
+    },
+    {
+      "id": "overlay_bottom_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        901,
+        516,
+        1154
+      ],
+      "description": "叠加在下方照片左上至中部天空区域的白色多行手写旅行文字，包含日期“2026.4.30”、关于天池景色和行程的中文短句及末尾感叹语；各行具有不规则手写笔画和独立位置，整体作为固定装饰字样保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "overlay_top_handwriting",
+    "overlay_bottom_handwriting"
+  ]
+}

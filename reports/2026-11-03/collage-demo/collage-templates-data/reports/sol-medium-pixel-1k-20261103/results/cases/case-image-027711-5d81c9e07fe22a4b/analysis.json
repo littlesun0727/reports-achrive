@@ -1,0 +1,156 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        360,
+        480
+      ],
+      "description": "左上独立矩形照片，展示室内窗户、白色垂落布料及墙面上的小型木质装置，完整显示范围覆盖该网格单元。",
+      "label": "左上独立矩形照片，展示室内窗户、白色垂落布料及墙面上的小型木",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        360,
+        0,
+        720,
+        480
+      ],
+      "description": "上方中间独立矩形照片，展示笼舍内部的黄色小鸟、栖木、金属网架和悬挂的玩偶，完整显示范围覆盖该网格单元。",
+      "label": "上方中间独立矩形照片，展示笼舍内部的黄色小鸟、栖木、金属网架",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        720,
+        0,
+        1080,
+        480
+      ],
+      "description": "右上独立矩形照片，展示室内悬挂的白色布幅、建筑窗户和深色天花结构，布幅上可见英文文字“Tell me about your day, I care.”，文字属于照片内容。",
+      "label": "右上独立矩形照片，展示室内悬挂的白色布幅、建筑窗户和深色天花",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        360,
+        960
+      ],
+      "description": "中间左侧独立矩形照片，展示笼舍中的黄色小鸟、橙色栖木、金属网架及下方悬挂的玩偶，完整显示范围覆盖该网格单元。",
+      "label": "中间左侧独立矩形照片，展示笼舍中的黄色小鸟、橙色栖木、金属网",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        360,
+        480,
+        720,
+        960
+      ],
+      "description": "中间独立矩形照片，展示室内店铺或展览空间、木框陈列窗、白色灯笼、人物和带有日文字符的彩色招牌，完整显示范围覆盖该网格单元。",
+      "label": "中间独立矩形照片，展示室内店铺或展览空间、木框陈列窗、白色灯",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        720,
+        480,
+        1080,
+        960
+      ],
+      "description": "中间右侧独立矩形照片，展示笼舍中的黄色小鸟近景、橙色栖木、金属网架和背景中的深色器皿，完整显示范围覆盖该网格单元。",
+      "label": "中间右侧独立矩形照片，展示笼舍中的黄色小鸟近景、橙色栖木、金",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        360,
+        1440
+      ],
+      "description": "左下独立矩形照片，展示室内高处视角、窗户、吊挂金属网架、盆栽植物和浅色地面，完整显示范围覆盖该网格单元。",
+      "label": "左下独立矩形照片，展示室内高处视角、窗户、吊挂金属网架、盆栽",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        360,
+        960,
+        720,
+        1440
+      ],
+      "description": "下方中间独立矩形照片，展示室内柜台、洗手液、墙面灯具以及站在白色装置上的黄色小鸟，完整显示范围覆盖该网格单元。",
+      "label": "下方中间独立矩形照片，展示室内柜台、洗手液、墙面灯具以及站在",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        720,
+        960,
+        1080,
+        1440
+      ],
+      "description": "右下独立矩形照片，展示室内吊灯、深色天花、白色悬挂布幅和墙面空间，布幅上可见“nadaka”字样，文字属于照片内容。",
+      "label": "右下独立矩形照片，展示室内吊灯、深色天花、白色悬挂布幅和墙面",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_center",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right"
+  ]
+}

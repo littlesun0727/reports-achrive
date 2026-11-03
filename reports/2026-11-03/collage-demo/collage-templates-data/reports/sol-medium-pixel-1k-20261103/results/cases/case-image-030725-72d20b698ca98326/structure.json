@@ -1,0 +1,584 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_books",
+    "description": "全幅为低对比度、泛白的旧书架与书脊纹理，叠有半透明纸张质感，四边及照片之间的空隙可见连续底纹。作为固定拼贴底图保留，独立照片、手写标注、装饰及上下牛皮纸另列，不随客户摄影素材替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_paper_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        835,
+        269
+      ],
+      "description": "顶部斜向覆盖的棕色牛皮纸，保留粗糙纤维、颜色起伏和不规则撕裂下缘，左侧延伸至画布边界。"
+    },
+    {
+      "id": "overlay_paper_bottom",
+      "kind": "overlay",
+      "bbox": [
+        288,
+        1239,
+        1080,
+        1528
+      ],
+      "description": "右下至底边的斜向牛皮纸，带粗糙纸纹和不规则撕边，覆盖书架底纹，右边与下边被画布裁切。"
+    },
+    {
+      "id": "photo_soup",
+      "kind": "photo",
+      "bbox": [
+        93,
+        258,
+        278,
+        411
+      ],
+      "description": "一碗清汤面线近景，蓝白瓷碗中可见面线、配料与葱花，金属汤匙从碗内伸向右上。沿碗和汤匙的完整组合轮廓显示，周围摄影环境已去除。"
+    },
+    {
+      "id": "overlay_soup_label",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        405,
+        154,
+        442
+      ],
+      "description": "绿色手写“面线糊”，字形大小和位置不规则，整体保留为独立手写装饰。"
+    },
+    {
+      "id": "photo_temple",
+      "kind": "photo",
+      "bbox": [
+        395,
+        187,
+        615,
+        484
+      ],
+      "description": "竖向寺庙建筑照片，橙色瓦顶、门楼牌匾和下方少量游客完整保留，上部有树冠与天空；无人作为单独主体，摄影环境保留，四边为矩形显示边界。"
+    },
+    {
+      "id": "overlay_temple_label",
+      "kind": "overlay",
+      "bbox": [
+        353,
+        200,
+        385,
+        346
+      ],
+      "description": "棕红色定位针及竖排手写“开元寺”，文字带浅色衬底，作为一组完整装饰保留。"
+    },
+    {
+      "id": "overlay_cat_music",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        184,
+        874,
+        259
+      ],
+      "description": "两只彩色线描猫头、黑色音符和多条彩色波浪线组成的横向涂鸦，保留内部空隙与完整笔画。"
+    },
+    {
+      "id": "frame_taipei",
+      "kind": "frame",
+      "bbox": [
+        630,
+        258,
+        973,
+        699
+      ],
+      "description": "浅粉色双窗口照片承托纸框，上下两个矩形内口，中间为浅色分隔条；右侧留有宽纸边及白色弧线装饰。框体纸色、边缘及附属线条整体保留。",
+      "photo_id": [
+        "photo_drinks",
+        "photo_taipei_shop"
+      ]
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        647,
+        273,
+        913,
+        442
+      ],
+      "description": "横向饮品近景，两只手分别举起两杯带品牌印字的奶茶，后方可见失焦店内顾客和柜台。保留整个摄影环境，手与杯子不另拆，矩形窗口内显示。"
+    },
+    {
+      "id": "photo_taipei_shop",
+      "kind": "photo",
+      "bbox": [
+        647,
+        453,
+        913,
+        680
+      ],
+      "description": "店铺正面照片，黄色“大台北”招牌、玻璃门、台阶、左右广告及门内人物均属于摄影内容。保留环境，独立于上方饮品照片，矩形显示。"
+    },
+    {
+      "id": "overlay_drink_note",
+      "kind": "overlay",
+      "bbox": [
+        915,
+        354,
+        1042,
+        480
+      ],
+      "description": "蓝色多行手写饮品评语，可辨“真的好古早”“的味道”等字样；字行长度、字形和位置不规则，整体保留，不拆为通用字体文字。"
+    },
+    {
+      "id": "photo_street_woman",
+      "kind": "photo",
+      "bbox": [
+        159,
+        383,
+        374,
+        676
+      ],
+      "description": "竖向街边店铺照片，一名长发年轻女性穿浅蓝上衣、深色短裤站在店门前，接近全身，后方有行人、招牌和货架。保留完整街景，左下角被手持包装照片遮挡。"
+    },
+    {
+      "id": "overlay_note_left",
+      "kind": "overlay",
+      "bbox": [
+        95,
+        468,
+        173,
+        627
+      ],
+      "description": "街景照片左侧露出的白色窄纸片，上有灰黑印字、数字和较小的手写笔记，右部被照片遮住；按可见完整纸片单元保留。"
+    },
+    {
+      "id": "photo_hand_packet",
+      "kind": "photo",
+      "bbox": [
+        54,
+        608,
+        178,
+        714
+      ],
+      "description": "一只手从左下伸入，捏着蓝白色小包装袋，袋上红蓝图案和印字随摄影内容替换。沿手与包装袋组合轮廓显示，无周围摄影背景，压在街景照片及纸片上。"
+    },
+    {
+      "id": "overlay_street_note",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        673,
+        252,
+        729
+      ],
+      "description": "街景下沿叠贴的白色横向便笺，含浅灰手写文字、划线和粉红叉号，保留纸边与不规则手写排版。"
+    },
+    {
+      "id": "overlay_street_location",
+      "kind": "overlay",
+      "bbox": [
+        249,
+        688,
+        363,
+        725
+      ],
+      "description": "棕红色定位针与“老字号”手写标注，浅色不规则衬底和笔画共同作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_menu",
+      "kind": "overlay",
+      "bbox": [
+        395,
+        519,
+        557,
+        753
+      ],
+      "description": "米黄色复古印刷纸卡，橙红大字“泉州”及“初湟”、小号中文、英文、边饰和图标构成完整设计；保留印刷纹理、纸边及阴影，不包含旁边照片。"
+    },
+    {
+      "id": "overlay_button_strip",
+      "kind": "overlay",
+      "bbox": [
+        569,
+        501,
+        625,
+        889
+      ],
+      "description": "竖向浅色织带装饰，带绿色细格与多枚彩色圆纽扣，自上而下包括绿、红、浅黄、白、紫和棕色纽扣；织带、扣眼、光泽与阴影整体保留。"
+    },
+    {
+      "id": "photo_breakfast",
+      "kind": "photo",
+      "bbox": [
+        115,
+        735,
+        333,
+        972
+      ],
+      "description": "外带早餐组合近景，打开的浅色餐盒内有包子和金黄色食物，前方两只纸碗装清汤丸子。餐盒、食物和两碗作为同一主体组合沿轮廓显示，周围摄影环境去除。"
+    },
+    {
+      "id": "overlay_breakfast_top_note",
+      "kind": "overlay",
+      "bbox": [
+        246,
+        753,
+        323,
+        822
+      ],
+      "description": "蓝色两行手写“每个都／好吃！”，字形与位置自由变化，作为完整手写标注保留。"
+    },
+    {
+      "id": "overlay_bun_label",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        791,
+        124,
+        840
+      ],
+      "description": "绿色手写“煎包”及小点缀，位于早餐照片左侧，保留独特笔画与错落位置。"
+    },
+    {
+      "id": "overlay_breakfast_blue_note",
+      "kind": "overlay",
+      "bbox": [
+        50,
+        851,
+        137,
+        923
+      ],
+      "description": "早餐左侧蓝色多行手写评语，可辨“这种口感”“吃过”等字样，保留原有不规则行列和笔画。"
+    },
+    {
+      "id": "overlay_fishball_label",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        927,
+        164,
+        1002
+      ],
+      "description": "绿色手写“福州”“鱼丸”及弯曲引导线，字词分散错落，按一组食物标注保留。"
+    },
+    {
+      "id": "overlay_meat_label",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        934,
+        328,
+        1000
+      ],
+      "description": "绿色两行手写“福鼎”“肉片”及附近小笔画，作为早餐右下方的独立标注整体保留。"
+    },
+    {
+      "id": "photo_door_woman",
+      "kind": "photo",
+      "bbox": [
+        333,
+        792,
+        560,
+        1094
+      ],
+      "description": "竖向人物照片，一名长发女性穿浅蓝无袖上衣和深色短裤，站在蓝色门前，一手抬起、一手拿透明伞，双腿错开。保留门、墙面及贴纸环境，底部接近脚部被窗口裁切。"
+    },
+    {
+      "id": "overlay_yellow_dot",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        775,
+        459,
+        816
+      ],
+      "description": "浅黄色圆形纸贴，略有纸面质感，叠在蓝门人物照片上沿。"
+    },
+    {
+      "id": "frame_umbrella",
+      "kind": "frame",
+      "bbox": [
+        133,
+        1011,
+        390,
+        1185
+      ],
+      "description": "浅奶黄色横向照片纸框，四边留白、下边较宽，承托伞下人物近景，纸边和浅色材质完整保留。",
+      "photo_id": [
+        "photo_umbrella"
+      ]
+    },
+    {
+      "id": "photo_umbrella",
+      "kind": "photo",
+      "bbox": [
+        159,
+        1023,
+        378,
+        1172
+      ],
+      "description": "横向人物近景，一名长发女性在透明伞下回望镜头，可见头部和上半身，蓝色门及伞骨保留在摄影画面内。与上方站姿照片取景不同，不建立出框关联。"
+    },
+    {
+      "id": "overlay_door_location",
+      "kind": "overlay",
+      "bbox": [
+        409,
+        1106,
+        500,
+        1172
+      ],
+      "description": "棕红色定位针、手写“开门”和下行“One Door”，分别落在浅色不规则衬底上，整体作为地点装饰保留。"
+    },
+    {
+      "id": "photo_cup_tray",
+      "kind": "photo",
+      "bbox": [
+        803,
+        617,
+        992,
+        762
+      ],
+      "description": "玻璃杯、深棕色小木托及白色红蓝花边杯垫组成的近景，杯内为浅色饮品，杯身有红色图案。沿完整杯子、木托和杯垫组合去除背景，叠在粉色框右下角。"
+    },
+    {
+      "id": "overlay_taipei_location",
+      "kind": "overlay",
+      "bbox": [
+        651,
+        703,
+        762,
+        740
+      ],
+      "description": "棕红定位针与手写“大台北”，带浅色衬底，完整保留为店铺地点标注。"
+    },
+    {
+      "id": "overlay_wheat",
+      "kind": "overlay",
+      "bbox": [
+        750,
+        747,
+        830,
+        845
+      ],
+      "description": "倾斜的金绿色麦穗枝叶装饰，包含细茎和两侧叶片，位于杯子下方与圆形照片右侧，整体保留。"
+    },
+    {
+      "id": "photo_small_glass_left",
+      "kind": "photo",
+      "bbox": [
+        846,
+        788,
+        898,
+        852
+      ],
+      "description": "左侧透明矮玻璃杯的独立近景，杯身红色“愛”字，杯底和淡灰反光可见；沿玻璃杯轮廓显示，周围摄影背景去除。"
+    },
+    {
+      "id": "photo_small_glass_middle",
+      "kind": "photo",
+      "bbox": [
+        905,
+        777,
+        957,
+        853
+      ],
+      "description": "中间透明小高脚玻璃杯，杯身红色“愛”字，下方短脚与底座完整可见；作为独立显示位置保留，周围摄影背景去除。"
+    },
+    {
+      "id": "photo_small_glass_right",
+      "kind": "photo",
+      "bbox": [
+        960,
+        774,
+        1016,
+        857
+      ],
+      "description": "右侧透明小高脚玻璃杯，杯身红色心形笑脸图案，短脚和底座可见；沿完整杯体轮廓显示，无周围摄影环境。"
+    },
+    {
+      "id": "photo_magnet_display",
+      "kind": "photo",
+      "bbox": [
+        592,
+        790,
+        790,
+        915
+      ],
+      "description": "店内纪念品陈列近景，密集彩色磁贴和文字图案铺在展示板上，下沿可见少量绿色物品。保留陈列环境，在横向椭圆范围显示，外围有贴合窗口的浅色纸感边缘。"
+    },
+    {
+      "id": "overlay_magnet_arc",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        775,
+        802,
+        848
+      ],
+      "description": "圆形陈列照片上方及右侧的棕红色断续弧线，线段形成独立引导装饰，不是完整照片窗口描边。"
+    },
+    {
+      "id": "photo_souvenirs",
+      "kind": "photo",
+      "bbox": [
+        685,
+        863,
+        989,
+        1155
+      ],
+      "description": "近方形纪念品照片，左侧是大眼粉色毛绒挂件，右侧和下方散放红粉印刷纸品、刺绣或磁贴、剪刀形饰品等。全部属于同一拍摄陈列，保留摄影背景，不按物品拆分。"
+    },
+    {
+      "id": "overlay_souvenir_note",
+      "kind": "overlay",
+      "bbox": [
+        563,
+        963,
+        682,
+        1088
+      ],
+      "description": "蓝色多行手写纪念品评语，可辨“泉州文创店”等字样，位置与行宽自由变化，作为完整手写装饰保留。"
+    },
+    {
+      "id": "photo_owl",
+      "kind": "photo",
+      "bbox": [
+        514,
+        1086,
+        618,
+        1210
+      ],
+      "description": "灰褐色猫头鹰陶艺小摆件及其下方浅色圆盘，猫头鹰有尖耳、大眼和翅膀。沿摆件与圆盘完整组合轮廓去背景，覆盖人物照片下缘及底部照片上缘。"
+    },
+    {
+      "id": "photo_bird",
+      "kind": "photo",
+      "bbox": [
+        623,
+        1137,
+        680,
+        1196
+      ],
+      "description": "深灰褐色陶艺小鸟摆件，侧面朝左，尾部抬起，可见刻划羽纹和底部。沿完整小鸟轮廓显示，无摄影背景。"
+    },
+    {
+      "id": "overlay_ripples",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        1173,
+        232,
+        1295
+      ],
+      "description": "半透明浅色纸片上的青绿色水滴与同心涟漪线描，附有小红色螺旋点，纸片褶皱和全部涂鸦共同保留。"
+    },
+    {
+      "id": "photo_cat_cookie",
+      "kind": "photo",
+      "bbox": [
+        254,
+        1203,
+        364,
+        1335
+      ],
+      "description": "浅黄色猫形饼干或点心近景，圆头、胡须、黑色五官和红色心形笑脸图案清晰，尾巴向右上弯曲。沿完整点心轮廓去除背景。"
+    },
+    {
+      "id": "photo_cafe_drink",
+      "kind": "photo",
+      "bbox": [
+        381,
+        1191,
+        560,
+        1379
+      ],
+      "description": "咖啡店桌面竖向照片，玻璃杯浅色饮品与圆形甜点放在金属托盘上，后方可见椅子、墙砖和店内陈设。保留完整摄影环境，矩形窗口显示。"
+    },
+    {
+      "id": "photo_garden_woman",
+      "kind": "photo",
+      "bbox": [
+        576,
+        1191,
+        825,
+        1380
+      ],
+      "description": "横向人物照片，一名长发女性穿浅蓝无袖上衣，站在绿植与旧墙旁，一手抬起触碰枝叶，身体朝前、头稍向下。保留树叶、墙面和门廊环境，画面下缘裁切于大腿附近。"
+    },
+    {
+      "id": "photo_skewer",
+      "kind": "photo",
+      "bbox": [
+        849,
+        1172,
+        909,
+        1272
+      ],
+      "description": "倾斜的两根串签及其深棕色圆形食物近景，竹签向右上延伸，食物有红褐色高光。沿串签与食物完整组合轮廓显示，摄影背景去除。"
+    },
+    {
+      "id": "overlay_cafe_location",
+      "kind": "overlay",
+      "bbox": [
+        284,
+        1393,
+        502,
+        1425
+      ],
+      "description": "棕红色定位针和“COSY JAR”及后续中文手写店名，带浅色不规则衬底。英文与中文笔画位置自由，作为整组地点装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_paper_top",
+    "overlay_paper_bottom",
+    "overlay_note_left",
+    "photo_street_woman",
+    "overlay_street_note",
+    "photo_hand_packet",
+    "photo_soup",
+    "overlay_soup_label",
+    "photo_temple",
+    "overlay_temple_label",
+    "overlay_cat_music",
+    "frame_taipei",
+    "photo_drinks",
+    "photo_taipei_shop",
+    "overlay_drink_note",
+    "overlay_street_location",
+    "overlay_menu",
+    "overlay_button_strip",
+    "photo_breakfast",
+    "overlay_breakfast_top_note",
+    "overlay_bun_label",
+    "overlay_breakfast_blue_note",
+    "overlay_fishball_label",
+    "overlay_meat_label",
+    "photo_door_woman",
+    "overlay_yellow_dot",
+    "frame_umbrella",
+    "photo_umbrella",
+    "overlay_door_location",
+    "photo_cup_tray",
+    "overlay_taipei_location",
+    "overlay_wheat",
+    "photo_small_glass_left",
+    "photo_small_glass_middle",
+    "photo_small_glass_right",
+    "photo_souvenirs",
+    "photo_magnet_display",
+    "overlay_magnet_arc",
+    "overlay_souvenir_note",
+    "overlay_ripples",
+    "photo_cafe_drink",
+    "photo_garden_woman",
+    "photo_owl",
+    "photo_bird",
+    "photo_cat_cookie",
+    "photo_skewer",
+    "overlay_cafe_location"
+  ]
+}

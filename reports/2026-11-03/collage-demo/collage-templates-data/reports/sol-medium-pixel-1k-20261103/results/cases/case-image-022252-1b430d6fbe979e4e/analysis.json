@@ -1,0 +1,260 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "覆盖整个画布的浅米白色手工纸底，带有可见纤维、细微褶皱和淡黄色斑痕；四周露出连续纸纹，中央城市照片与胶带为独立对象，纸底保留原样。",
+      "background_type": "reference_clean",
+      "label": "覆盖整个画布的浅米白色手工纸底，带有可见纤维、细微褶皱和淡黄",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_harbour_city",
+      "kind": "photo",
+      "bbox": [
+        145,
+        165,
+        934,
+        1318
+      ],
+      "description": "一张竖向城市夜景照片，街道从前景向海港延伸，两侧是高层建筑，中景有电车、汽车和行人，远处可见海面、船只、灯光与深蓝天空；完整矩形照片窗口被周围半透明胶带局部覆盖，摄影环境保留，不进行去背景。",
+      "label": "一张竖向城市夜景照片，街道从前景向海港延伸，两侧是高层建筑，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_gray_top_tape",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        164,
+        935,
+        229
+      ],
+      "description": "横向半透明灰蓝色纸胶带，覆盖城市照片上沿，带有颗粒、纤维和不规则边缘，作为独立固定胶带保留。",
+      "label": "横向半透明灰蓝色纸胶带，覆盖城市照片上沿，带有颗粒、纤维和不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gray_left_tape",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        164,
+        184,
+        1302
+      ],
+      "description": "沿照片左侧延伸的半透明灰色竖向纸胶带，覆盖照片左边缘并带有蓝灰斑点和纸张纹理，完整可见范围作为一个固定单元保留。",
+      "label": "沿照片左侧延伸的半透明灰色竖向纸胶带，覆盖照片左边缘并带有蓝",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gray_right_tape",
+      "kind": "overlay",
+      "bbox": [
+        890,
+        165,
+        935,
+        1319
+      ],
+      "description": "沿照片右侧延伸的半透明灰色竖向纸胶带，带有纤维质感和不均匀透明度，覆盖照片右边缘，作为独立固定单元保留。",
+      "label": "沿照片右侧延伸的半透明灰色竖向纸胶带，带有纤维质感和不均匀透",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_gray_bottom_tape",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        1238,
+        935,
+        1319
+      ],
+      "description": "横向半透明灰色纸胶带覆盖城市照片下沿，带有褐灰色纸纹和不规则透明斑驳，与其他边缘胶带分开记录。",
+      "label": "横向半透明灰色纸胶带覆盖城市照片下沿，带有褐灰色纸纹和不规则",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_top_left_horizontal",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        109,
+        376,
+        171
+      ],
+      "description": "左上方横向黄褐色半透明纸胶带，越过纸底并靠近照片上沿，边缘略不规则，保留其黄色染色、纸纤维和透明斑驳。",
+      "label": "左上方横向黄褐色半透明纸胶带，越过纸底并靠近照片上沿，边缘略",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_top_left_vertical",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        109,
+        184,
+        436
+      ],
+      "description": "左侧上方竖向黄褐色半透明纸胶带，从画布上部延伸至照片左侧中段，带有圆形色斑和不均匀边缘，作为独立胶带保留。",
+      "label": "左侧上方竖向黄褐色半透明纸胶带，从画布上部延伸至照片左侧中段",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_top_right_horizontal",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        113,
+        1000,
+        171
+      ],
+      "description": "右上方横向黄褐色半透明纸胶带，覆盖纸底与照片上方区域，右端带有斜切轮廓和纸张纹理。",
+      "label": "右上方横向黄褐色半透明纸胶带，覆盖纸底与照片上方区域，右端带",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_top_right_vertical",
+      "kind": "overlay",
+      "bbox": [
+        890,
+        114,
+        1011,
+        240
+      ],
+      "description": "右上方斜向下延伸的黄色半透明胶带，与右侧照片边缘相邻并覆盖部分蓝白条纹区域，保留完整斜切边和透明染色。",
+      "label": "右上方斜向下延伸的黄色半透明胶带，与右侧照片边缘相邻并覆盖部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_right_stripe_tape",
+      "kind": "overlay",
+      "bbox": [
+        934,
+        166,
+        982,
+        549
+      ],
+      "description": "照片右侧外缘的竖向蓝白条纹胶带，包含重复的深蓝横条、白色间隙和半透明纸质底，作为独立固定装饰保留。",
+      "label": "照片右侧外缘的竖向蓝白条纹胶带，包含重复的深蓝横条、白色间隙",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_left_tape",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        478,
+        273,
+        712
+      ],
+      "description": "照片左侧中部覆盖的蓝色半透明胶带，呈不规则矩形并带有深浅蓝色块、边缘透明过渡和纸张纹理，独立于照片记录。",
+      "label": "照片左侧中部覆盖的蓝色半透明胶带，呈不规则矩形并带有深浅蓝色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_left_lower_tape",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        899,
+        146,
+        1002
+      ],
+      "description": "照片左下侧边缘的一小段黄色半透明胶带，局部压在灰色竖向胶带和照片边缘附近，保留其不规则轮廓与淡黄色染色。",
+      "label": "照片左下侧边缘的一小段黄色半透明胶带，局部压在灰色竖向胶带和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_bottom_left_tape",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        1241,
+        184,
+        1346
+      ],
+      "description": "左下方跨越照片底边的黄色半透明胶带，具有斜切端部、纸纤维和不均匀透明效果，作为固定装饰保留。",
+      "label": "左下方跨越照片底边的黄色半透明胶带，具有斜切端部、纸纤维和不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_bottom_tape",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        1242,
+        434,
+        1351
+      ],
+      "description": "照片底部中央偏左的绿色半透明纸胶带，覆盖下沿并向纸底延伸，包含深浅绿色叠色和不规则纸边。",
+      "label": "照片底部中央偏左的绿色半透明纸胶带，覆盖下沿并向纸底延伸，包",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_bottom_right_tape",
+      "kind": "overlay",
+      "bbox": [
+        884,
+        1241,
+        1032,
+        1353
+      ],
+      "description": "右下方跨越照片底边的黄色半透明胶带，带有宽阔斜切端部、浅黄色染色和纸张纤维纹理，作为独立固定单元保留。",
+      "label": "右下方跨越照片底边的黄色半透明胶带，带有宽阔斜切端部、浅黄色",
+      "method": "extract"
+    },
+    {
+      "id": "text_harbour_blue",
+      "kind": "text",
+      "bbox": [
+        382,
+        1378,
+        704,
+        1414
+      ],
+      "description": "HARBOUR BLUE",
+      "label": "HARBOUR BLUE",
+      "method": "local",
+      "text": "HARBOUR BLUE",
+      "text_status": "known",
+      "style": {
+        "fill": "#735142",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_harbour_city",
+    "overlay_gray_top_tape",
+    "overlay_gray_left_tape",
+    "overlay_gray_right_tape",
+    "overlay_gray_bottom_tape",
+    "overlay_yellow_top_left_horizontal",
+    "overlay_yellow_top_left_vertical",
+    "overlay_yellow_top_right_horizontal",
+    "overlay_yellow_top_right_vertical",
+    "overlay_blue_right_stripe_tape",
+    "overlay_blue_left_tape",
+    "overlay_yellow_left_lower_tape",
+    "overlay_yellow_bottom_left_tape",
+    "overlay_green_bottom_tape",
+    "overlay_yellow_bottom_right_tape",
+    "text_harbour_blue"
+  ]
+}

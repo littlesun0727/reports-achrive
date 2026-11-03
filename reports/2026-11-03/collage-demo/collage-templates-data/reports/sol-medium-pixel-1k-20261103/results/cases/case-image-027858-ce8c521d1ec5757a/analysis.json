@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        627,
+        925
+      ],
+      "description": "左上独立饮品照片，无人物；前景为带布丁狗图案的高杯饮品，杯顶有白色奶油和角色造型装饰，后方保留店内墙面、挂画及台面环境。照片延伸到画布上边和左边，右侧至下侧呈连续弯曲边界，沿照片窗口边缘可见明亮黄色宽描边及柔亮边缘；白色区域不属于摄影环境。",
+      "label": "左上独立饮品照片，无人物；前景为带布丁狗图案的高杯饮品，杯顶",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        249,
+        557,
+        916,
+        1080
+      ],
+      "description": "右下独立饮品近景，无人物；两只带布丁狗面部图案的透明杯并排，杯底可见深色珍珠，保留杯间和杯后的室内摄影环境。与左上照片取景不连续。完整显示位置自中部拱形上缘延伸至画布底边，左缘向左下弯曲，右缘有亮黄色描边及柔亮边缘；底部被画布裁切。",
+      "label": "右下独立饮品近景，无人物；两只带布丁狗面部图案的透明杯并排，",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        948,
+        62,
+        1080
+      ],
+      "description": "左下角另一个局部摄影显示位置，仅露出窄小的蓝灰色、米色室内景物，没有可辨人物。左侧与底侧被画布裁切，右侧为倾斜弯曲边界，附有黄色亮边。它与上方照片之间隔着白色区域，无法确认来源是否相同，按独立显示位置保留，不推测画布外内容。",
+      "label": "左下角另一个局部摄影显示位置，仅露出窄小的蓝灰色、米色室内景",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_lower_right",
+    "photo_lower_left"
+  ]
+}

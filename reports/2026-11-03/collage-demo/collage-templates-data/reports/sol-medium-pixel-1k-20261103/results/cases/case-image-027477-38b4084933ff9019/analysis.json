@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_satin",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为香槟金与乳白色相间的柔滑绸缎质感底图，斜向褶皱、亮带及柔和阴影连续延伸至四边，并在两张照片之间可见。作为固定设计保留，独立照片与字样不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为香槟金与乳白色相间的柔滑绸缎质感底图，斜向褶皱、亮带",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        394,
+        243,
+        684,
+        678
+      ],
+      "description": "上方竖向彩色照片：一位穿白色衣裙、留双辫并系白色流苏的年轻女性，上半身近景，脸朝画面左侧；左侧另有人局部露出手臂及黑色衣服，正在为她整理妆发。保留室内暖色摄影环境及其他人物的可见部分，完整矩形窗口显示，无主体去背景。",
+      "label": "上方竖向彩色照片：一位穿白色衣裙、留双辫并系白色流苏的年轻女",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        430,
+        789,
+        651,
+        1119
+      ],
+      "description": "下方独立竖向黑白照片：白衣双辫女性的局部近景，头部上半截被照片上边裁切，画面包含嘴部、颈肩、胸前衣服和两侧辫子，右侧有深色局部。保留窗口内摄影内容，呈灰度效果，与上方照片取景不同，不合并为同一显示位置。",
+      "label": "下方独立竖向黑白照片：白衣双辫女性的局部近景，头部上半截被照",
+      "method": "local"
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        1221,
+        353,
+        1243
+      ],
+      "description": "左下方一行纤细棕金色英文花体署名字样，字符间距较大，末尾可辨为“PHOTO”。笔画带连写、倾斜和特定花体造型，作为完整固定艺术字保留。",
+      "label": "左下方一行纤细棕金色英文花体署名字样，字符间距较大，末尾可辨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1036,
+        1415,
+        1073,
+        1434
+      ],
+      "description": "右下角极淡的白色小型圆角徽标，包含外轮廓与内部微小字形；文字无法可靠辨认，作为完整固定标记保留。",
+      "label": "右下角极淡的白色小型圆角徽标，包含外轮廓与内部微小字形；文字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_satin",
+    "photo_top",
+    "photo_bottom",
+    "overlay_signature",
+    "overlay_watermark"
+  ]
+}

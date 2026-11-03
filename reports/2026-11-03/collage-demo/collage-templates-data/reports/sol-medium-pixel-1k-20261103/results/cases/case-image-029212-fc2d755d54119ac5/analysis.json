@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left_portrait",
+      "kind": "photo",
+      "bbox": [
+        44,
+        18,
+        748,
+        1062
+      ],
+      "description": "大型竖向人物照片，单人全身至大半身构图；人物正面朝向镜头，双手举在头部两侧，戴红色装饰帽，身穿蓝白条纹服装，身后可见游乐园或主题商店内的玩偶、道具和衣物。照片为完整矩形显示区域，右上部被另一张照片覆盖，摄影环境随照片替换。",
+      "label": "大型竖向人物照片，单人全身至大半身构图；人物正面朝向镜头，双",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right_portrait",
+      "kind": "photo",
+      "bbox": [
+        622,
+        51,
+        1024,
+        353
+      ],
+      "description": "右上方横向人物近景照片，单人面向镜头，黑色短发遮额，穿蓝白细条纹衬衫；人物后方可见户外游乐设施、行人和栏杆。照片为独立矩形窗口，覆盖左侧大照片的右上区域，摄影环境保留并随客户素材替换。",
+      "label": "右上方横向人物近景照片，单人面向镜头，黑色短发遮额，穿蓝白细",
+      "method": "local"
+    },
+    {
+      "id": "photo_sign",
+      "kind": "photo",
+      "bbox": [
+        816,
+        464,
+        993,
+        597
+      ],
+      "description": "右侧中部小型横向照片，画面主体为户外彩色字母招牌和游乐场设施，背景为蓝天与植被；独立矩形显示区域，四周露出白色底色，摄影内容整体替换。",
+      "label": "右侧中部小型横向照片，画面主体为户外彩色字母招牌和游乐场设施",
+      "method": "local"
+    },
+    {
+      "id": "photo_toyland",
+      "kind": "photo",
+      "bbox": [
+        814,
+        630,
+        1080,
+        1014
+      ],
+      "description": "右下方竖向户外人物与主题景观照片，画面包含大型玩偶雕像、彩色招牌、植被和前景人物；照片从右侧延伸至画布边缘，右边缘被画布裁切，完整可见显示范围按画布边界记录，摄影环境随客户素材替换。",
+      "label": "右下方竖向户外人物与主题景观照片，画面包含大型玩偶雕像、彩色",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left_portrait",
+    "photo_upper_right_portrait",
+    "photo_sign",
+    "photo_toyland"
+  ]
+}

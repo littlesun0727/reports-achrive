@@ -1,0 +1,310 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "浅白色纸面连续铺满画布，周边空白和照片拼贴之间可见同一底色与轻微纸面质感；保留纸底，独立照片及手绘文字、图案另行处理。",
+      "background_type": "reference_clean",
+      "label": "浅白色纸面连续铺满画布，周边空白和照片拼贴之间可见同一底色与",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        130,
+        80,
+        420,
+        205
+      ],
+      "description": "至今想起那段\n初春的乡村生活，\n依旧能给我治愈的力量~",
+      "label": "至今想起那段\n初春的乡村生活，\n依旧能给我治愈的力量~",
+      "method": "local",
+      "text": "至今想起那段\n初春的乡村生活，\n依旧能给我治愈的力量~",
+      "text_status": "known",
+      "style": {
+        "fill": "#242424",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_top_left_green_doodles",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        98,
+        111,
+        201
+      ],
+      "description": "左上方两枚绿色手绘环状小图案，分别位于文字左侧，作为一组独立装饰保留。",
+      "label": "左上方两枚绿色手绘环状小图案，分别位于文字左侧，作为一组独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_pink_cloud",
+      "kind": "overlay",
+      "bbox": [
+        334,
+        34,
+        533,
+        115
+      ],
+      "description": "顶部偏左的粉色手绘云状曲线，带短尾和起伏轮廓，独立于旁边文字与照片。",
+      "label": "顶部偏左的粉色手绘云状曲线，带短尾和起伏轮廓，独立于旁边文字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_green_lettering",
+      "kind": "overlay",
+      "bbox": [
+        399,
+        83,
+        602,
+        267
+      ],
+      "description": "顶部中间偏左的绿色大号手绘字母与笔触图案，包含上方弯曲笔形和下方“APR.”字样，作为整体装饰保留。",
+      "label": "顶部中间偏左的绿色大号手绘字母与笔触图案，包含上方弯曲笔形和",
+      "method": "extract"
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        549,
+        43,
+        830,
+        162
+      ],
+      "description": "2024最幸福的事：\n去景德镇学了",
+      "label": "2024最幸福的事：\n去景德镇学了",
+      "method": "local",
+      "text": "2024最幸福的事：\n去景德镇学了",
+      "text_status": "known",
+      "style": {
+        "fill": "#292929",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_top_title",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        73,
+        1009,
+        165
+      ],
+      "description": "右上方黑色粗笔手写“陶艺”字样，笔画造型醒目，属于独立艺术字装饰。",
+      "label": "右上方黑色粗笔手写“陶艺”字样，笔画造型醒目，属于独立艺术字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_pink_arrow",
+      "kind": "overlay",
+      "bbox": [
+        906,
+        176,
+        1006,
+        365
+      ],
+      "description": "右上方粉色手绘回转箭头，带弯曲长线与小环形末端，作为一个完整装饰单元保留。",
+      "label": "右上方粉色手绘回转箭头，带弯曲长线与小环形末端，作为一个完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_characters",
+      "kind": "overlay",
+      "bbox": [
+        622,
+        168,
+        854,
+        253
+      ],
+      "description": "胶片上沿附近的粉色与绿色手绘小人和点状笔触，包含两枚有表情的彩色小角色及粉色小图案，整体作为装饰保留。",
+      "label": "胶片上沿附近的粉色与绿色手绘小人和点状笔触，包含两枚有表情的",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        16,
+        311,
+        550,
+        808
+      ],
+      "description": "左侧横向照片，建筑临水倒影前有大片白色花枝，近处可见水面与栏杆，保留完整摄影环境；显示窗口被胶片框包围，局部被绿色手绘标签覆盖。",
+      "label": "左侧横向照片，建筑临水倒影前有大片白色花枝，近处可见水面与栏",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        566,
+        311,
+        1065,
+        808
+      ],
+      "description": "右侧横向室内照片，画面中有大窗、窗外树木、左侧陈列架及室内桌椅，保留完整摄影环境；显示窗口被胶片框包围，前景有白色手绘水滴和粉白字样遮挡。",
+      "label": "右侧横向室内照片，画面中有大窗、窗外树木、左侧陈列架及室内桌",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        249,
+        1080,
+        870
+      ],
+      "description": "横跨画面的黑色胶片条框体，上下边缘排列白色矩形齿孔，中间形成左右两个独立照片窗口；胶片材质、孔洞与边缘纹理整体保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横跨画面的黑色胶片条框体，上下边缘排列白色矩形齿孔，中间形成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_vertical_label",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        296,
+        168,
+        564
+      ],
+      "description": "覆盖左侧照片左边缘的绿色手绘椭圆与弯折指向线，内部竖排白字“曲苑风荷”；轮廓、笔画和文字作为一个完整手绘标签保留。",
+      "label": "覆盖左侧照片左边缘的绿色手绘椭圆与弯折指向线，内部竖排白字“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_raindrops",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        324,
+        1016,
+        702
+      ],
+      "description": "叠在右侧室内照片上的四枚白色手绘雨滴状线条，分散于窗户及室内区域，作为同组独立装饰保留。",
+      "label": "叠在右侧室内照片上的四枚白色手绘雨滴状线条，分散于窗户及室内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_calligraphy",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        540,
+        1035,
+        804
+      ],
+      "description": "右侧照片前景的粉白手绘装饰字样与环绕曲线，包含两处黑色粗笔中文笔画、白色涂抹底形及粉色旋绕线，整体作为艺术字装饰保留。",
+      "label": "右侧照片前景的粉白手绘装饰字样与环绕曲线，包含两处黑色粗笔中",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_left_green_mark",
+      "kind": "overlay",
+      "bbox": [
+        28,
+        827,
+        245,
+        1007
+      ],
+      "description": "左下方绿色手写字母与数字组合图案，包含“MAR.”及大号数字“3”和相连的手绘线条，整体作为装饰保留。",
+      "label": "左下方绿色手写字母与数字组合图案，包含“MAR.”及大号数字",
+      "method": "extract"
+    },
+    {
+      "id": "text_bottom_caption",
+      "kind": "text",
+      "bbox": [
+        210,
+        943,
+        596,
+        1027
+      ],
+      "description": "不用上班，我可以随时\n奔赴某一棵 开花的大树",
+      "label": "不用上班，我可以随时\n奔赴某一棵 开花的大树",
+      "method": "local",
+      "text": "不用上班，我可以随时\n奔赴某一棵 开花的大树",
+      "text_status": "known",
+      "style": {
+        "fill": "#292929",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_bottom_pink_note",
+      "kind": "overlay",
+      "bbox": [
+        563,
+        847,
+        806,
+        986
+      ],
+      "description": "底部中间偏右的粉色手绘对话泡形轮廓及其中分散排布的黑色手写词语，包含“花”“晚樱”“海棠”“玉兰”“雪柳”等可辨字样，作为整体手写装饰保留。",
+      "label": "底部中间偏右的粉色手绘对话泡形轮廓及其中分散排布的黑色手写词",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_right_green_circle",
+      "kind": "overlay",
+      "bbox": [
+        934,
+        850,
+        1080,
+        1040
+      ],
+      "description": "右下方被画布边缘截断的绿色手绘椭圆及内部黑色粗笔字样，附有粉色短线装饰；保留画面中可见的完整范围，不补全画外内容。",
+      "label": "右下方被画布边缘截断的绿色手绘椭圆及内部黑色粗笔字样，附有粉",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_left",
+    "photo_right",
+    "frame_filmstrip",
+    "overlay_left_vertical_label",
+    "overlay_right_raindrops",
+    "overlay_right_calligraphy",
+    "overlay_top_left_green_doodles",
+    "overlay_top_pink_cloud",
+    "overlay_top_green_lettering",
+    "text_top_left",
+    "text_top_right",
+    "overlay_top_title",
+    "overlay_top_pink_arrow",
+    "overlay_top_characters",
+    "overlay_bottom_left_green_mark",
+    "text_bottom_caption",
+    "overlay_bottom_pink_note",
+    "overlay_bottom_right_green_circle"
+  ]
+}

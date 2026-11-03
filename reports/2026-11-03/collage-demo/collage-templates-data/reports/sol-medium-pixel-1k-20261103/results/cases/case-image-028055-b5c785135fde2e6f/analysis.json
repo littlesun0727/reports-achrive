@@ -1,0 +1,196 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    922,
+    1383
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        922,
+        1383
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#DDE2EB"
+      }
+    },
+    {
+      "id": "frame_left_strip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        156,
+        462,
+        1383
+      ],
+      "description": "左列连续双窗口胶片式框体，浅灰色宽边围绕上下两张照片，保留中央横向间隔、两侧黑色细小标记、编号及竖排“KODAK PORTRA 400 2”印字。左侧部分标记被画布边缘截断；这些印字属于框体，不独立排字。",
+      "photo_id": [
+        "photo_flowers",
+        "photo_branches"
+      ],
+      "label": "左列连续双窗口胶片式框体，浅灰色宽边围绕上下两张照片，保留中",
+      "method": "extract"
+    },
+    {
+      "id": "frame_right_strip",
+      "kind": "frame",
+      "bbox": [
+        465,
+        23,
+        922,
+        1140
+      ],
+      "description": "右列双窗口胶片式固定框体，浅灰边沿承载上下两张照片，左侧保留黑色三角、小编号及细小印刷标记，上方窗口右边可见深色细边。两窗口之间的浅灰间隔被绿色SUMMER字样局部覆盖。",
+      "photo_id": [
+        "photo_lakeside",
+        "photo_hanging_foliage"
+      ],
+      "label": "右列双窗口胶片式固定框体，浅灰边沿承载上下两张照片，左侧保留",
+      "method": "extract"
+    },
+    {
+      "id": "photo_flowers",
+      "kind": "photo",
+      "bbox": [
+        11,
+        266,
+        441,
+        791
+      ],
+      "description": "左上竖幅植物近景，一簇白色小花位于中下部，周围为大块绿色叶片与细枝，后方有蓝绿失焦光斑。保留完整摄影环境，照片以矩形窗口显示，没有沿花叶轮廓去背景。",
+      "label": "左上竖幅植物近景，一簇白色小花位于中下部，周围为大块绿色叶片",
+      "method": "local"
+    },
+    {
+      "id": "photo_branches",
+      "kind": "photo",
+      "bbox": [
+        12,
+        843,
+        441,
+        1370
+      ],
+      "description": "左下竖幅仰拍枝叶照片，深色交错枝条和透光绿叶集中在上半部，浅蓝天空延伸至底部，细长弯曲枝条垂入天空区域。整个矩形内的天空、枝叶共同替换，不拆分主体。",
+      "label": "左下竖幅仰拍枝叶照片，深色交错枝条和透光绿叶集中在上半部，浅",
+      "method": "local"
+    },
+    {
+      "id": "photo_lakeside",
+      "kind": "photo",
+      "bbox": [
+        492,
+        24,
+        915,
+        578
+      ],
+      "description": "右上竖幅湖边照片，粗树干从左下斜向上方，细枝及浅绿嫩叶垂在水面前，后方保留湖水倒影与远岸。摄影环境完整保留，下部被绿色SUMMER字样覆盖；文字遮挡不缩小照片窗口。",
+      "label": "右上竖幅湖边照片，粗树干从左下斜向上方，细枝及浅绿嫩叶垂在水",
+      "method": "local"
+    },
+    {
+      "id": "photo_hanging_foliage",
+      "kind": "photo",
+      "bbox": [
+        484,
+        599,
+        915,
+        1127
+      ],
+      "description": "右下竖幅植物照片，大片嫩绿枝叶与浅色垂挂花序由左上向中下部展开，右侧及枝叶间露出浅蓝天空。保留摄影背景和完整矩形窗口，与上方湖边照片取景不连续，独立替换。",
+      "label": "右下竖幅植物照片，大片嫩绿枝叶与浅色垂挂花序由左上向中下部展",
+      "method": "local"
+    },
+    {
+      "id": "overlay_summer_heading",
+      "kind": "overlay",
+      "bbox": [
+        10,
+        59,
+        448,
+        226
+      ],
+      "description": "左上青绿色大写“SUMMER”标题，字形极高、紧密排列，具有显著压窄的粗重笔画和特定字面比例。作为完整艺术字保留，不拆成普通文字或并入胶片框体。",
+      "label": "左上青绿色大写“SUMMER”标题，字形极高、紧密排列，具有",
+      "method": "extract"
+    },
+    {
+      "id": "text_summer",
+      "kind": "text",
+      "bbox": [
+        479,
+        505,
+        922,
+        582
+      ],
+      "description": "SUMMER",
+      "label": "SUMMER",
+      "method": "local",
+      "text": "SUMMER",
+      "text_status": "known",
+      "style": {
+        "fill": "#76B570",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        1127,
+        739,
+        1181
+      ],
+      "description": "右下照片下方的黑色飞鸟剪影小装饰，包含上方短翼形笔触和下方两只展开双翼的小鸟，呈疏散错落排列。整组保留原有轮廓与模糊边缘，独立于照片和下方文字。",
+      "label": "右下照片下方的黑色飞鸟剪影小装饰，包含上方短翼形笔触和下方两",
+      "method": "extract"
+    },
+    {
+      "id": "text_spring",
+      "kind": "text",
+      "bbox": [
+        504,
+        1179,
+        807,
+        1348
+      ],
+      "description": "Spring is\nsure to\nfollow.",
+      "label": "Spring is\nsure to\nfollow.",
+      "method": "local",
+      "text": "Spring is\nsure to\nfollow.",
+      "text_status": "known",
+      "style": {
+        "fill": "#A4B872",
+        "font": "serif",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_left_strip",
+    "frame_right_strip",
+    "photo_flowers",
+    "photo_branches",
+    "photo_lakeside",
+    "photo_hanging_foliage",
+    "overlay_summer_heading",
+    "text_summer",
+    "overlay_birds",
+    "text_spring"
+  ]
+}

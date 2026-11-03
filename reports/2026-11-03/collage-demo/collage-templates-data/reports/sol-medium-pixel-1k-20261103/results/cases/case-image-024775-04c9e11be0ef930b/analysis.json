@@ -1,0 +1,260 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "background_black",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "全画布连续的黑色颗粒纹理底，带细碎灰白磨损、纤维和划痕，四边及各拼贴单元之间均可见。保留黑色底材原貌，独立照片、花卉装饰、纸框和线条另列，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的黑色颗粒纹理底，带细碎灰白磨损、纤维和划痕，四边",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_floral",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        203,
+        999,
+        1100
+      ],
+      "description": "斜贯画面中部的灰米色、暗橄榄色花卉枝叶装饰，包含上方花朵、左中部大花、中央分枝与下方花簇。整体呈低对比、旧印刷般的半透效果，局部被左右纸框和底部照片遮挡，作为连续花枝单元保留，不包含独立蝴蝶。",
+      "label": "斜贯画面中部的灰米色、暗橄榄色花卉枝叶装饰，包含上方花朵、左",
+      "method": "extract"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        203,
+        273,
+        1159
+      ],
+      "description": "左侧被画布裁切的长条照片承托纸框，浅黄绿色旧纸质感，带青绿色弧形纹样、植物纹理及上下绿色衬纸区域。右侧留有较宽装饰边，下部露出花纹纸面；内口照片独立替换，纸面图案与边缘整体保留。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "左侧被画布裁切的长条照片承托纸框，浅黄绿色旧纸质感，带青绿色",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        373,
+        178,
+        995
+      ],
+      "description": "左侧狭长竖向户外照片，无明确人物。上部及中部是垂落的绿色树枝、树叶，下部保留浅色水面或远景、岸边植物，左下有被画布裁切的灰色石块。摄影环境完整保留，左边到达画布边缘，显示窗口不缩到树木主体。",
+      "label": "左侧狭长竖向户外照片，无明确人物。上部及中部是垂落的绿色树枝",
+      "method": "local"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        314,
+        63,
+        639,
+        307
+      ],
+      "description": "上方独立横向睡莲照片，两朵主要的浅粉白色花位于左上和右下，周围保留深色水面、浮叶及池塘环境。矩形照片整体偏暗、低对比，没有独立纸框，也没有沿花朵轮廓去除背景。",
+      "label": "上方独立横向睡莲照片，两朵主要的浅粉白色花位于左上和右下，周",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        714,
+        200,
+        1080,
+        808
+      ],
+      "description": "右侧被画布裁切的大型照片纸框，外层是浅米灰绿色斑驳纸面，内层为绿色植物纹理衬板，围绕单个八角形照片内口形成几何花纹框沿。内口带灰白色立体窄边，框体材质和一体纹样整体保留；叠贴蝴蝶另列。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右侧被画布裁切的大型照片纸框，外层是浅米灰绿色斑驳纸面，内层",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        932,
+        309,
+        1080,
+        650
+      ],
+      "description": "右侧八角形内口中的局部摄影画面，右边被画布裁切。可见近黑色室内或建筑空间、下部灰绿色水平结构，右下角露出少量绿叶及粉黑色图案局部，无法明确确认人物数量。保留内口全部摄影内容，左侧部分被大蝴蝶遮挡，不据此缩小窗口。",
+      "label": "右侧八角形内口中的局部摄影画面，右边被画布裁切。可见近黑色室",
+      "method": "local"
+    },
+    {
+      "id": "overlay_right_top_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        260,
+        1017,
+        304
+      ],
+      "description": "右侧纸框上沿附近的一只横向灰褐色蝴蝶装饰，双翼舒展，具有纸质旧印刷纹理，独立叠在绿色衬板及其花纹上，保留完整翅膀、身体和细小附属线条。",
+      "label": "右侧纸框上沿附近的一只横向灰褐色蝴蝶装饰，双翼舒展，具有纸质",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_large_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        807,
+        371,
+        1008,
+        545
+      ],
+      "description": "右侧照片左缘的大型侧向蝴蝶贴饰，左侧为弯曲触角和红褐色斑纹，中央有浅色点列，右侧灰褐色长翅向上及向右展开。跨越绿色框沿并遮住八角照片左边，完整身体、翅膀和触角作为一个单元保留。",
+      "label": "右侧照片左缘的大型侧向蝴蝶贴饰，左侧为弯曲触角和红褐色斑纹，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_bottom_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        884,
+        654,
+        987,
+        749
+      ],
+      "description": "右侧纸框下部的一只浅米褐色蝴蝶贴饰，斜向展开双翼，带淡色斑点与细小身体线条，叠在绿色衬板下沿及浅色外层纸面上。",
+      "label": "右侧纸框下部的一只浅米褐色蝴蝶贴饰，斜向展开双翼，带淡色斑点",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_green_corner",
+      "kind": "overlay",
+      "bbox": [
+        658,
+        305,
+        1080,
+        839
+      ],
+      "description": "浅绿色双线直角花饰，左侧两条竖线自画面上中部向下延伸，在右侧纸框左下方形成卷曲叶片、圆环与小圆点，再接两条水平线延伸至画布右边。完整细线和卷草花纹作为一个固定装饰保留，覆盖底层花枝及纸框下沿附近。",
+      "label": "浅绿色双线直角花饰，左侧两条竖线自画面上中部向下延伸，在右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_lines",
+      "kind": "overlay",
+      "bbox": [
+        1057,
+        153,
+        1080,
+        180
+      ],
+      "description": "画布右上边缘露出的两段浅绿色平行短横线，右端被画布裁切，与下方卷草角饰之间没有可见连续连接，单独保留。",
+      "label": "画布右上边缘露出的两段浅绿色平行短横线，右端被画布裁切，与下",
+      "method": "extract"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        466,
+        984,
+        916,
+        1281
+      ],
+      "description": "底部横向照片的浅绿色花纹纸框，印有密集植物与卷草纹理。左边和右边为不等宽承托边，上沿右侧较高，底边向右形成圆弧收尾，完整不规则纸边及可见阴影保留；仅承载一个照片窗口。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "底部横向照片的浅绿色花纹纸框，印有密集植物与卷草纹理。左边和",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        523,
+        1011,
+        852,
+        1255
+      ],
+      "description": "底部横向睡莲池照片，无人物。多朵粉色睡莲聚集于画面中部，上方可见岸边树根或木质结构，周围及下半部保留暗绿色水面和浮叶。照片整体色调偏暗，摄影背景未去除；完整矩形显示区域覆盖纸框内口。",
+      "label": "底部横向睡莲池照片，无人物。多朵粉色睡莲聚集于画面中部，上方",
+      "method": "local"
+    },
+    {
+      "id": "overlay_lower_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        878,
+        954,
+        1079,
+        1048
+      ],
+      "description": "下方纸框右上侧的一只浅灰米色大蝴蝶，横向展开双翼，带淡斑点、细长身体与向下弯曲的线条。左翼局部叠在底部纸框右上角，右翼延伸至黑色底材上，整体作为独立装饰保留。",
+      "label": "下方纸框右上侧的一只浅灰米色大蝴蝶，横向展开双翼，带淡斑点、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_right_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        1008,
+        1108,
+        1080,
+        1202
+      ],
+      "description": "画布右下边缘露出的浅灰米色蝴蝶装饰，部分翅膀、斑点和身体可见，右侧被画布裁切，与上方大蝴蝶空间分离，单独保留可见完整范围。",
+      "label": "画布右下边缘露出的浅灰米色蝴蝶装饰，部分翅膀、斑点和身体可见",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1324,
+        1074,
+        1345
+      ],
+      "description": "右下角极小的暗灰色圆角标记，内部可辨识为“小红书”字样。文字与其小型底板共同构成标记，整体保留，不另拆文字。",
+      "label": "右下角极小的暗灰色圆角标记，内部可辨识为“小红书”字样。文字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_black",
+    "overlay_floral",
+    "frame_left",
+    "photo_left",
+    "photo_top",
+    "frame_right",
+    "photo_right",
+    "overlay_right_top_butterfly",
+    "overlay_right_large_butterfly",
+    "overlay_right_bottom_butterfly",
+    "overlay_green_corner",
+    "overlay_top_right_lines",
+    "frame_bottom",
+    "photo_bottom",
+    "overlay_lower_butterfly",
+    "overlay_lower_right_butterfly",
+    "overlay_watermark"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "overlay_pink_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        640
+      ],
+      "description": "上半幅横向粉色纸质底板，具有纤维、细小杂点和不均匀纸纹，承托相机造型。下边界与下方风景照片形成水平分区；没有证据表明纸底延伸至整个画布，因此作为局部固定单元保留。",
+      "label": "上半幅横向粉色纸质底板，具有纤维、细小杂点和不均匀纸纹，承托",
+      "method": "extract"
+    },
+    {
+      "id": "photo_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        639,
+        1080,
+        1440
+      ],
+      "description": "下半幅独立风景照片，完整窗口横贯画布并延伸至底边。粉紫色夕阳天空占上部，右侧为高大棕榈树，远处可见低矮山体和零散树木，下部为暗色建筑、棚顶及反光水面，无清晰人物主体。保留完整摄影环境，画面有颗粒感和偏暗的绿色阴影，与上方相机屏幕是两个独立显示位置。",
+      "label": "下半幅独立风景照片，完整窗口横贯画布并延伸至底边。粉紫色夕阳",
+      "method": "local"
+    },
+    {
+      "id": "photo_camera_screen",
+      "kind": "photo",
+      "bbox": [
+        288,
+        234,
+        572,
+        447
+      ],
+      "description": "相机背面屏幕内的独立横向风景照片，粉色黄昏天空、右侧棕榈树、远处山体和下方暗色建筑共同构成完整画面，无清晰人物主体。保留摄影环境，显示边缘受到黑色屏幕内沿限制，银色相机框体围绕并遮住照片边缘；不与下半幅照片合并。",
+      "label": "相机背面屏幕内的独立横向风景照片，粉色黄昏天空、右侧棕榈树、",
+      "method": "local"
+    },
+    {
+      "id": "frame_camera",
+      "kind": "frame",
+      "bbox": [
+        248,
+        115,
+        836,
+        509
+      ],
+      "description": "银色数码相机背面造型，左侧具有一个照片屏幕窗口，右侧保留圆形方向键、按钮、扬声孔和模式图标，上沿保留取景窗及凸起部件。Canon、MENU、JUMP等机身印字随框体保留，金属反光、黑色屏幕内沿和落在粉色纸上的阴影均属于该完整固定载体。",
+      "photo_id": [
+        "photo_camera_screen"
+      ],
+      "label": "银色数码相机背面造型，左侧具有一个照片屏幕窗口，右侧保留圆形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_camera_stamp",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1411,
+        1075,
+        1440
+      ],
+      "description": "右下角低对比度的小型圆形相机应用印章，包含圆圈轮廓及可辨的DAZZ CAM字样，整体叠加在下方风景照片上，作为固定装饰保留。",
+      "label": "右下角低对比度的小型圆形相机应用印章，包含圆圈轮廓及可辨的D",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_pink_paper",
+    "photo_landscape",
+    "photo_camera_screen",
+    "frame_camera",
+    "overlay_camera_stamp"
+  ]
+}

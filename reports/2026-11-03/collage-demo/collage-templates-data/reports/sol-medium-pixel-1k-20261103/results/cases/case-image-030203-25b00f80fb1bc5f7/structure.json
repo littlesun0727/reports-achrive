@@ -1,0 +1,309 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的庭院店铺摄影画面覆盖全画布：上部为浓密绿叶与交错树枝，左侧可见石墙、浅色门窗和盆栽，下部为木平台、围栏及植物。四边露出的枝叶、建筑和地面保持场景连续；三张独立照片及文字装饰遮住局部。底图无明显人物，庭院及全部摄影环境整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        152,
+        128,
+        479,
+        558
+      ],
+      "description": "左上竖向室内照片，包含木门、墙面陈设、桌椅、花瓶和桌面上卧着的一只黑白猫，无人物。完整摄影环境保留；照片四周有依附矩形窗口的白色圆头虚线，顶部局部被双色标签遮挡。"
+    },
+    {
+      "id": "photo_seaside",
+      "kind": "photo",
+      "bbox": [
+        429,
+        428,
+        935,
+        1093
+      ],
+      "description": "中右竖向海边照片，一位穿浅色长裙、戴蓝色发饰的女子坐在草地上，侧背朝镜头看海，身旁放着编织篮。海面、天空、树木和木栏均属于照片，保留摄影环境。四周有白色圆头虚线；左下被餐桌照片遮挡，左侧与下部叠有文字装饰，不据遮挡缩小窗口。"
+    },
+    {
+      "id": "photo_meal",
+      "kind": "photo",
+      "bbox": [
+        260,
+        1006,
+        590,
+        1335
+      ],
+      "description": "下方近方形俯拍餐桌照片，白色圆桌上有两杯橙黄色饮品、一碗菜肴和小份配菜，后方可见木椅，无人物。桌面及室内环境一起保留，四周白色圆头虚线依附照片窗口，左侧被粉色文字装饰局部覆盖。"
+    },
+    {
+      "id": "overlay_date",
+      "kind": "overlay",
+      "bbox": [
+        116,
+        114,
+        388,
+        164
+      ],
+      "description": "压在左上照片顶部的横向双色标签，上条青绿色、下条粉色，带细小白色印字及可辨的“5.1”。文字、色条和完整边缘作为一个固定设计保留。"
+    },
+    {
+      "id": "overlay_le",
+      "kind": "overlay",
+      "bbox": [
+        633,
+        174,
+        695,
+        231
+      ],
+      "description": "淡黄色小方纸块，中央为黑色粗笔画“乐”，作为带字贴纸整体保留。"
+    },
+    {
+      "id": "overlay_holiday",
+      "kind": "overlay",
+      "bbox": [
+        703,
+        132,
+        831,
+        205
+      ],
+      "description": "粉色矩形字块，黑色大字“假期”，保留纸块与字形组成的完整装饰。"
+    },
+    {
+      "id": "overlay_summer_letter",
+      "kind": "overlay",
+      "bbox": [
+        809,
+        180,
+        914,
+        239
+      ],
+      "description": "浅桃色横向纸块，上有黑色“夏天来信”，左侧叠在“假期”字块的右下方，整体保留。"
+    },
+    {
+      "id": "overlay_relax",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        242,
+        679,
+        301
+      ],
+      "description": "粉色矩形贴纸，黑色大字“放松”，保留字形与色块。"
+    },
+    {
+      "id": "overlay_summer_label",
+      "kind": "overlay",
+      "bbox": [
+        622,
+        295,
+        715,
+        340
+      ],
+      "description": "青绿色横向小标签，黑色英文“summer”，与自身色块整体保留。"
+    },
+    {
+      "id": "overlay_happiness",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        230,
+        950,
+        310
+      ],
+      "description": "青绿色竖向方形贴纸，黑色“幸福”，保留字块原有视觉形式。"
+    },
+    {
+      "id": "overlay_summer_check",
+      "kind": "overlay",
+      "bbox": [
+        725,
+        242,
+        824,
+        320
+      ],
+      "description": "位于上方字块之间的小型装饰组合，包含青绿色“summer”、向下折转的青绿色勾形线和末端粉色圆点；线条与文字共同形成固定设计，不与相邻纸块合并。"
+    },
+    {
+      "id": "overlay_money",
+      "kind": "overlay",
+      "bbox": [
+        821,
+        313,
+        897,
+        383
+      ],
+      "description": "淡黄色方纸块，中央为黑色大字“钱”，完整保留纸块与字形。"
+    },
+    {
+      "id": "overlay_good_luck",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        345,
+        744,
+        404
+      ],
+      "description": "淡黄色矩形字块，印有黑色“顺利”，整体保留。"
+    },
+    {
+      "id": "overlay_health",
+      "kind": "overlay",
+      "bbox": [
+        597,
+        383,
+        689,
+        441
+      ],
+      "description": "粉色矩形字块，印有黑色“健康”，下缘靠近海边照片上沿，作为独立贴纸保留。"
+    },
+    {
+      "id": "overlay_escape_label",
+      "kind": "overlay",
+      "bbox": [
+        852,
+        378,
+        945,
+        419
+      ],
+      "description": "粉色横向小字块，黑色“夏日出逃”，位于“钱”字块下方，保留完整色块和文字。"
+    },
+    {
+      "id": "overlay_happy_label",
+      "kind": "overlay",
+      "bbox": [
+        705,
+        415,
+        832,
+        478
+      ],
+      "description": "浅桃色横向贴纸，黑色英文“happy”，跨在海边照片上沿，文字与纸块整体保留。"
+    },
+    {
+      "id": "overlay_summer_escape",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        679,
+        533,
+        884
+      ],
+      "description": "中左大型夏日标题装饰，含粉色粗体“summer”、细笔画“夏日出逃”、环绕文字的粉色与浅黄色椭圆曲线及青绿色小圆点。曲线跨过庭院底图和海边照片左边界，作为完整固定设计保留。"
+    },
+    {
+      "id": "text_seaside_line_1",
+      "kind": "text",
+      "bbox": [
+        610,
+        579,
+        769,
+        589
+      ],
+      "text": null,
+      "color": "#F4A4BE",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_seaside_line_2",
+      "kind": "text",
+      "bbox": [
+        639,
+        601,
+        743,
+        611
+      ],
+      "text": null,
+      "color": "#F3DF8B",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_seaside_line_3",
+      "kind": "text",
+      "bbox": [
+        647,
+        623,
+        733,
+        634
+      ],
+      "text": "Soak in a day of light.",
+      "color": "#22CEB5",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_escape_plan",
+      "kind": "overlay",
+      "bbox": [
+        105,
+        1104,
+        326,
+        1306
+      ],
+      "description": "左下粉色三角形山峰式装饰，含青绿色“夏日出逃计划”、浅黄色环绕弧线与星点，以及底部细小“WORKERS' DAY!”字样。整体跨在庭院底图与餐桌照片左侧，保留完整图文设计。"
+    },
+    {
+      "id": "overlay_happy_summer",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        1043,
+        970,
+        1325
+      ],
+      "description": "右下大型艺术字组合，上行为粉色细长“Happy”，下行为青绿色细长“summer”，周围散布粉色、青绿色和淡黄色圆点。字形高低错落，与附属圆点构成完整装饰，覆盖海边照片下沿及庭院底图。"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        415,
+        1342,
+        665,
+        1378
+      ],
+      "text": "“Interestingly, ‘Workers’ Day’ on May 1st\nis a celebration for every ordinary worker.”",
+      "color": "#B9D8C6",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_seaside",
+    "photo_cafe",
+    "photo_meal",
+    "overlay_date",
+    "overlay_le",
+    "overlay_holiday",
+    "overlay_summer_letter",
+    "overlay_relax",
+    "overlay_summer_label",
+    "overlay_happiness",
+    "overlay_summer_check",
+    "overlay_money",
+    "overlay_good_luck",
+    "overlay_health",
+    "overlay_escape_label",
+    "overlay_happy_label",
+    "text_seaside_line_1",
+    "text_seaside_line_2",
+    "text_seaside_line_3",
+    "overlay_summer_escape",
+    "overlay_escape_plan",
+    "overlay_happy_summer",
+    "text_bottom"
+  ]
+}

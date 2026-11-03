@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_room",
+    "description": "连续的复古欧式室内摄影画面覆盖全画布，包含雕花天花板、吊灯、窗帘、窗户、家具、茶具和花纹地毯，无清晰人物主体。四边露出的建筑与地面具有连续性，中央人物照片、时钟及纸片遮挡其局部；完整室内环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "paper_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        154,
+        209,
+        471,
+        645
+      ],
+      "description": "中央照片左上方露出的泛黄英文手稿纸片，包含黑褐色斜体书写、纸张纹理和不规则撕裂边缘。上部较宽，下部沿照片左侧收窄，作为完整固定纸片保留，字迹不另拆文字。"
+    },
+    {
+      "id": "paper_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        539,
+        665,
+        818,
+        1185
+      ],
+      "description": "中央照片右下侧的泛黄手稿纸片，右边近于竖直，朝向照片的一边呈不规则撕裂轮廓，下部向左展开。保留纸纹及倾斜英文书写，局部被发光蝴蝶和右下眼部照片遮挡。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        163,
+        220,
+        807,
+        1185
+      ],
+      "description": "中央竖向人物照片，一名长发年轻女性穿白色蕾丝服装与头纱，正面看向镜头，双手在肩侧提起头纱，显示头部至腰胯附近。保留楼梯、栏杆、灯光及上方模糊远景人物等室内摄影环境。照片整体显示区域延伸至上下边，左上及右下呈不规则撕裂状边界，与手稿纸交错；不是沿人物轮廓去背景。"
+    },
+    {
+      "id": "overlay_clock",
+      "kind": "overlay",
+      "bbox": [
+        639,
+        61,
+        965,
+        386
+      ],
+      "description": "右上方独立圆形复古时钟装饰，包含米金色旧化外框、铆钉、罗马数字、花纹表盘、黑色指针及边缘阴影。覆盖中央照片上部右角和室内底图，整体保留。"
+    },
+    {
+      "id": "overlay_butterfly_top",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        73,
+        385,
+        328
+      ],
+      "description": "左上方白色发光蝴蝶装饰，包含展开的翅膀、细小暖色内部痕迹及外围柔和光晕。跨在手稿纸上缘与室内底图之间，完整轮廓和辉光一起保留。"
+    },
+    {
+      "id": "overlay_floral_note",
+      "kind": "overlay",
+      "bbox": [
+        109,
+        1021,
+        247,
+        1367
+      ],
+      "description": "左下独立竖向米白色撕边纸标签，印有玫瑰枝叶线描、顶部花体标题及多行细小法文，部分可辨为“DE CI DE LA PLISE”。纸边、印刷图文和纸张质感作为一个完整固定单元保留，叠在人物照片左下边缘及室内底图上。"
+    },
+    {
+      "id": "overlay_butterfly_bottom",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        947,
+        858,
+        1119
+      ],
+      "description": "中央偏右下的白色发光蝴蝶装饰，翅膀与外围辉光形成柔软明亮轮廓，覆盖人物照片右下边缘和手稿纸，位于眼部照片上方附近；作为独立装饰保留。"
+    },
+    {
+      "id": "photo_eye",
+      "kind": "photo",
+      "bbox": [
+        580,
+        1124,
+        1060,
+        1401
+      ],
+      "description": "右下横向矩形眼部特写照片，显示一只闭合的眼睛、睫毛、眉毛及周围皮肤，眼皮带金铜色闪亮眼妆。保留完整摄影内容，四边为清晰矩形裁切，遮住中央人物照片、手稿纸及室内底图的部分下方区域。"
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1027,
+        1414,
+        1076,
+        1440
+      ],
+      "description": "画布右下角的小型浅米色圆角标记，内部有难以辨认的细小印字，底部贴近画布边缘。底板和印字作为完整固定标记保留。"
+    }
+  ],
+  "layer_order": [
+    "paper_upper_left",
+    "paper_lower_right",
+    "photo_portrait",
+    "overlay_clock",
+    "overlay_butterfly_top",
+    "overlay_floral_note",
+    "overlay_butterfly_bottom",
+    "photo_eye",
+    "overlay_corner_mark"
+  ]
+}

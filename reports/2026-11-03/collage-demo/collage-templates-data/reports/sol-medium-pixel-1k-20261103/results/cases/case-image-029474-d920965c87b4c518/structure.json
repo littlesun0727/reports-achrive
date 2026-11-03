@@ -1,0 +1,39 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_scene",
+      "kind": "photo",
+      "bbox": [
+        31,
+        53,
+        1049,
+        1401
+      ],
+      "description": "竖向室内人像照片，一名年轻女性坐在画面下方中央偏右的地面上，身穿紫粉色长裙并带有黑色长发饰带，身体面向镜头、姿态低坐，完整保留礼堂或大厅内的高窗、木质墙面、椅子、地砖和明亮环境；照片显示为矩形窗口，四周被胶片样式框体遮挡，摄影背景仍然可见。"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        19,
+        33,
+        1061,
+        1412
+      ],
+      "description": "包围单张人像照片的黑色胶片样式框体，包含顶部黑色边带、黄色技术标记文字、左右黑边和底部黑边；框体形成中央照片窗口并覆盖照片边缘，作为固定承托与胶片视觉设计整体保留。",
+      "photo_id": [
+        "photo_scene"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_scene",
+    "frame_film"
+  ]
+}

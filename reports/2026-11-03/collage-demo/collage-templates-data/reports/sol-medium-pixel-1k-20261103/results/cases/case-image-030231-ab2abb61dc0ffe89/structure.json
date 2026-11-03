@@ -1,0 +1,177 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_seaside_base",
+    "description": "连续的海边摄影画面覆盖整个画布，天空、海面、远处岛屿、岸边礁石、漂浮物和前景座椅构成同一宽景环境；画面上方为开阔蓝天，下方延续至海岸与近岸水面，未见人物。四张独立小照片和文字装饰遮挡局部，但画布四边仍显示连续背景，整体摄影环境作为客户素材替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_birds",
+      "kind": "photo",
+      "bbox": [
+        284,
+        216,
+        467,
+        379
+      ],
+      "description": "上方独立矩形照片，显示海面上的多只海鸟及远处水面，保留照片内完整摄影环境；白色弧形装饰位于其左右两侧。"
+    },
+    {
+      "id": "overlay_birds_parentheses",
+      "kind": "overlay",
+      "bbox": [
+        248,
+        299,
+        485,
+        355
+      ],
+      "description": "围绕海鸟照片左右两侧的白色手绘弧形括号装饰，作为一组独立固定图形保留。"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        515,
+        484,
+        708,
+        659
+      ],
+      "description": "中部独立矩形照片，显示灰色猫咪俯身靠近橙色瓶子和手部的场景，保留照片内地面与主体组合；两侧有白色弧形装饰。"
+    },
+    {
+      "id": "overlay_cat_parentheses",
+      "kind": "overlay",
+      "bbox": [
+        474,
+        539,
+        752,
+        598
+      ],
+      "description": "围绕猫咪照片左右两侧的白色弧形括号装饰，作为一组独立固定图形保留。"
+    },
+    {
+      "id": "photo_shell",
+      "kind": "photo",
+      "bbox": [
+        260,
+        752,
+        431,
+        922
+      ],
+      "description": "左下独立矩形照片，显示一只手托着彩色贝壳，背景为海边地面与浅色泡沫区域；照片两侧有白色弧形装饰。"
+    },
+    {
+      "id": "overlay_shell_parentheses",
+      "kind": "overlay",
+      "bbox": [
+        241,
+        816,
+        454,
+        873
+      ],
+      "description": "围绕手托贝壳照片左右两侧的白色弧形括号装饰，作为一组独立固定图形保留。"
+    },
+    {
+      "id": "photo_ice_cream",
+      "kind": "photo",
+      "bbox": [
+        651,
+        1075,
+        847,
+        1239
+      ],
+      "description": "下方独立矩形照片，显示手持装有白色冰淇淋或甜品的杯子，背景为海面与岸边；照片两侧有白色弧形装饰。"
+    },
+    {
+      "id": "overlay_ice_cream_parentheses",
+      "kind": "overlay",
+      "bbox": [
+        625,
+        1128,
+        870,
+        1185
+      ],
+      "description": "围绕甜品照片左右两侧的白色弧形括号装饰，作为一组独立固定图形保留。"
+    },
+    {
+      "id": "text_blue_sky",
+      "kind": "text",
+      "bbox": [
+        527,
+        307,
+        866,
+        351
+      ],
+      "text": "The blue sky",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_mood",
+      "kind": "text",
+      "bbox": [
+        280,
+        549,
+        442,
+        591
+      ],
+      "text": "Mood",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_see_the_scenery",
+      "kind": "text",
+      "bbox": [
+        496,
+        824,
+        935,
+        867
+      ],
+      "text": "See the scenery",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_on_my_own",
+      "kind": "text",
+      "bbox": [
+        275,
+        1136,
+        577,
+        1177
+      ],
+      "text": "On my own",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_birds",
+    "overlay_birds_parentheses",
+    "photo_cat",
+    "overlay_cat_parentheses",
+    "photo_shell",
+    "overlay_shell_parentheses",
+    "photo_ice_cream",
+    "overlay_ice_cream_parentheses",
+    "text_blue_sky",
+    "text_mood",
+    "text_see_the_scenery",
+    "text_on_my_own"
+  ]
+}

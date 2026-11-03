@@ -1,0 +1,184 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_paper",
+    "description": "连续的浅灰绿色纸张纹理与深绿色渐变构成全画布固定底图，纹理和颜色变化延伸至四边，并在独立照片、卡片、贴纸和文字周围持续可见；独立摄影内容替换时保留该底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_leaves",
+      "kind": "photo",
+      "bbox": [
+        158,
+        120,
+        587,
+        693
+      ],
+      "description": "左上方竖向树叶照片，画面包含密集的绿色枫叶、枝条和透过叶隙的明亮天空，摄影环境完整保留为矩形窗口。"
+    },
+    {
+      "id": "photo_shoe",
+      "kind": "photo",
+      "bbox": [
+        649,
+        585,
+        945,
+        864
+      ],
+      "description": "右上中部方形照片，俯拍一只穿棕色凉鞋的脚，周围可见深色地面、排水格栅及照片内的白色手绘文字图案，完整摄影内容作为独立窗口替换。"
+    },
+    {
+      "id": "photo_cat_garden",
+      "kind": "photo",
+      "bbox": [
+        194,
+        738,
+        548,
+        1092
+      ],
+      "description": "左下方横向花园照片，包含闭眼微笑的橙色猫咪雕像、花丛、绿色植物和棕色编织结构，完整环境保留为独立矩形照片。"
+    },
+    {
+      "id": "photo_hydrangea",
+      "kind": "photo",
+      "bbox": [
+        570,
+        908,
+        999,
+        1229
+      ],
+      "description": "右下方横向花卉照片，包含成片白色、淡绿色和淡蓝色绣球花及深绿色叶片，完整摄影环境作为独立矩形窗口替换。"
+    },
+    {
+      "id": "overlay_card",
+      "kind": "overlay",
+      "bbox": [
+        628,
+        225,
+        968,
+        565
+      ],
+      "description": "右上区域的浅米色纹理纸卡，具有完整矩形轮廓和纸张材质，是承载独立文字的固定装饰底板，不承载照片。"
+    },
+    {
+      "id": "overlay_tape_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        76,
+        220,
+        177
+      ],
+      "description": "贴在左上照片上沿附近的半透明米黄色胶带，包含不规则撕裂边和纸张纹理，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_tape_center",
+      "kind": "overlay",
+      "bbox": [
+        554,
+        652,
+        627,
+        724
+      ],
+      "description": "斜向贴在左上照片右下边缘附近的米黄色胶带，具有不规则纸边和半透明材质，覆盖照片与绿色底图交界处。"
+    },
+    {
+      "id": "overlay_cat_stars",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        765,
+        545,
+        966
+      ],
+      "description": "叠加在猫咪花园照片上的白色星形装饰组合，包含大小不同的四角星和闪光点，整体作为独立贴纸单元保留。"
+    },
+    {
+      "id": "overlay_top_sticker",
+      "kind": "overlay",
+      "bbox": [
+        987,
+        109,
+        1064,
+        208
+      ],
+      "description": "标题右侧的固定卡通贴纸，包含灰白色卷曲图形、绿色叶片和黄色小装饰，整体轮廓与内部细节作为一个装饰单元保留。"
+    },
+    {
+      "id": "overlay_dog_guitar",
+      "kind": "overlay",
+      "bbox": [
+        31,
+        1180,
+        159,
+        1298
+      ],
+      "description": "左下方位于引文旁的卡通小狗贴纸，角色抱着黄色棕色吉他，包含白色身体、棕色耳朵和完整装饰细节，作为独立固定贴纸保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        625,
+        126,
+        941,
+        190
+      ],
+      "text": "CITY WLAK",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_card",
+      "kind": "text",
+      "bbox": [
+        680,
+        388,
+        918,
+        405
+      ],
+      "text": "Soak in a day of light.",
+      "color": "#111111",
+      "font": "mono",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        163,
+        1196,
+        844,
+        1280
+      ],
+      "text": "The chirping of cicadas is the gradually\ncounting down bell outside the window.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_leaves",
+    "photo_shoe",
+    "photo_cat_garden",
+    "photo_hydrangea",
+    "overlay_card",
+    "overlay_tape_upper_left",
+    "overlay_tape_center",
+    "overlay_cat_stars",
+    "overlay_top_sticker",
+    "overlay_dog_guitar",
+    "text_title",
+    "text_card",
+    "text_quote"
+  ]
+}

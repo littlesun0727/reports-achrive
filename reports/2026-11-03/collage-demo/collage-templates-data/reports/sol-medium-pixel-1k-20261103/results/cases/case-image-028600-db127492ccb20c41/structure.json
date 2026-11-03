@@ -1,0 +1,76 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        130,
+        1080,
+        962
+      ],
+      "description": "横向黑色胶片框体，包含上下黑色边带、交替黄色与白色圆角齿孔及两处照片窗口；作为承载两张独立照片的连续固定框体保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        49,
+        236,
+        501,
+        869
+      ],
+      "description": "左侧竖向照片窗口内，一名长发女性穿浅蓝色上衣摆姿势，身后是室内陈列背景；画面呈侧向旋转的拍摄方向，保留完整摄影环境，窗口边缘被胶片框包围。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        587,
+        237,
+        1038,
+        869
+      ],
+      "description": "右侧竖向合照窗口内，四名年轻女性穿不同浅色及粉色服装，在卡通图案背景前摆姿势；画面呈侧向旋转的拍摄方向，保留完整摄影环境，窗口边缘被胶片框包围。"
+    },
+    {
+      "id": "overlay_left_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        433,
+        440,
+        859
+      ],
+      "description": "覆盖左侧照片的青绿色手写中文笔迹与数字涂写，字形、分布和笔画效果构成一个整体固定装饰，随照片窗口上的叠加设计保留。"
+    },
+    {
+      "id": "overlay_right_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        847,
+        246,
+        1035,
+        860
+      ],
+      "description": "覆盖右侧照片的粉色手写中文笔迹与涂鸦，包含错落排布的笔画和线条，作为一个整体固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_filmstrip",
+    "photo_left",
+    "photo_right",
+    "overlay_left_handwriting",
+    "overlay_right_handwriting"
+  ]
+}

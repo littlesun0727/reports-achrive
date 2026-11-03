@@ -1,0 +1,208 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "连续的全画布摄影底图延伸至四边，包含蓝天下的富士山、湖畔城镇、远景建筑、前景桌面、白色咖啡杯和富士山造型甜点；上方人物照片、头像、气泡及底部界面控件遮挡局部，但边缘与间隙显示为同一连续场景，整体环境由客户照片替换。",
+      "background_type": "photo",
+      "label": "连续的全画布摄影底图延伸至四边，包含蓝天下的富士山、湖畔城镇",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_avatar",
+      "kind": "photo",
+      "bbox": [
+        54,
+        77,
+        178,
+        203
+      ],
+      "description": "顶部左侧的圆形小照片窗口，显示户外风景和桌面上的物体，外围带白色圆形描边；照片内容与背景底图独立替换。",
+      "label": "顶部左侧的圆形小照片窗口，显示户外风景和桌面上的物体，外围带",
+      "method": "local"
+    },
+    {
+      "id": "text_username",
+      "kind": "text",
+      "bbox": [
+        210,
+        96,
+        448,
+        134
+      ],
+      "description": "NemoNemo",
+      "label": "NemoNemo",
+      "method": "local",
+      "text": "NemoNemo",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_timestamp",
+      "kind": "text",
+      "bbox": [
+        211,
+        157,
+        275,
+        184
+      ],
+      "description": "now",
+      "label": "now",
+      "method": "local",
+      "text": "now",
+      "text_status": "known",
+      "style": {
+        "fill": "#DCEBFA",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_brand",
+      "kind": "text",
+      "bbox": [
+        730,
+        91,
+        1019,
+        140
+      ],
+      "description": "InFrame.",
+      "label": "InFrame.",
+      "method": "local",
+      "text": "InFrame.",
+      "text_status": "known",
+      "style": {
+        "fill": "#72A9D8",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_location",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        237,
+        298,
+        328
+      ],
+      "description": "左上区域的半透明浅蓝色圆角地点标签，包含白色定位图标和文字“Japan”，作为带字固定界面单元整体保留。",
+      "label": "左上区域的半透明浅蓝色圆角地点标签，包含白色定位图标和文字“",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        71,
+        443,
+        532,
+        1068
+      ],
+      "description": "左侧竖向圆角照片窗口，显示一名戴绿色头巾和黑色眼镜的女性侧面近景，面朝右侧，长发和肩部可见，背景保留蓝天及远处山景；照片窗口沿圆角边缘带薄荷绿色描边，描边随该照片窗口重建。",
+      "label": "左侧竖向圆角照片窗口，显示一名戴绿色头巾和黑色眼镜的女性侧面",
+      "method": "local"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        289,
+        406,
+        679,
+        504
+      ],
+      "description": "覆盖在人物照片上方的白色圆角对话气泡，右下方带尖角指向照片，内部有青绿色斜体字样“love here! ! ^o^”；气泡、文字和尖角作为一个固定设计单元保留。",
+      "label": "覆盖在人物照片上方的白色圆角对话气泡，右下方带尖角指向照片，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_friend_button",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        1702,
+        188,
+        1815
+      ],
+      "description": "底部左侧的深色半透明圆角按钮，包含白色人物加号图标，作为独立固定界面控件保留。",
+      "label": "底部左侧的深色半透明圆角按钮，包含白色人物加号图标，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_friends_button",
+      "kind": "overlay",
+      "bbox": [
+        240,
+        1702,
+        628,
+        1815
+      ],
+      "description": "底部中左的深色半透明长圆角按钮，包含白色锁形图标和文字“My Friends”，作为完整固定界面控件保留。",
+      "label": "底部中左的深色半透明长圆角按钮，包含白色锁形图标和文字“My",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_send_button",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        1702,
+        865,
+        1815
+      ],
+      "description": "底部中右的深色半透明圆角按钮，包含白色纸飞机图标和空心圆形图标，作为独立固定界面控件保留。",
+      "label": "底部中右的深色半透明圆角按钮，包含白色纸飞机图标和空心圆形图",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_button",
+      "kind": "overlay",
+      "bbox": [
+        880,
+        1702,
+        1039,
+        1815
+      ],
+      "description": "底部右侧的深色半透明圆角按钮，包含白色音乐音符图标，作为独立固定界面控件保留。",
+      "label": "底部右侧的深色半透明圆角按钮，包含白色音乐音符图标，作为独立",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_avatar",
+    "text_username",
+    "text_timestamp",
+    "text_brand",
+    "overlay_location",
+    "photo_portrait",
+    "overlay_speech_bubble",
+    "overlay_friend_button",
+    "overlay_friends_button",
+    "overlay_send_button",
+    "overlay_music_button"
+  ]
+}

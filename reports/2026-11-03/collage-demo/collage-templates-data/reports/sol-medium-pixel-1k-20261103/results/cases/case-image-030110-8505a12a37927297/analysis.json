@@ -1,0 +1,165 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "collage_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "蓝色颗粒纸面与手写字、涂鸦、照片碎片及下方器物图像构成连续的全画布拼贴底图；这些底纹和图像在画布边缘及上层胶片框之间连续可见，作为固定设计保留，不并入前景照片。",
+      "background_type": "reference_clean",
+      "label": "蓝色颗粒纸面与手写字、涂鸦、照片碎片及下方器物图像构成连续的",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_shoe_left",
+      "kind": "photo",
+      "bbox": [
+        48,
+        99,
+        362,
+        515
+      ],
+      "description": "左上胶片框内的竖向鞋子照片，画面是一只白色高帮运动鞋的斜侧面近景，鞋头朝左下，深色背景与鞋子同属摄影内容；完整窗口被胶片框遮住边缘。",
+      "label": "左上胶片框内的竖向鞋子照片，画面是一只白色高帮运动鞋的斜侧面",
+      "method": "local"
+    },
+    {
+      "id": "photo_shoe_closeup",
+      "kind": "photo",
+      "bbox": [
+        464,
+        133,
+        1000,
+        450
+      ],
+      "description": "右上胶片框内的横向鞋子局部照片，白色运动鞋横向伸展，鞋面和鞋底占据画面，周围可见木纹、蓝色与红色背景；完整矩形窗口被胶片框包围。",
+      "label": "右上胶片框内的横向鞋子局部照片，白色运动鞋横向伸展，鞋面和鞋",
+      "method": "local"
+    },
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        244,
+        713,
+        735,
+        1331
+      ],
+      "description": "下方胶片框的大幅竖向照片，一名短发男子侧身坐在画面中央偏右，低头看向左下方，穿白色上衣、深绿色裤子和白鞋；人物与蓝色墙面及室内器物共同保留在照片窗口内。",
+      "label": "下方胶片框的大幅竖向照片，一名短发男子侧身坐在画面中央偏右，",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_right_top",
+      "kind": "photo",
+      "bbox": [
+        771,
+        713,
+        963,
+        904
+      ],
+      "description": "下方胶片框右上方的小型方形照片窗口，显示蓝色背景、细线涂鸦和淡色字迹；窗口内摄影或印刷画面的性质不完全明确，按独立窗口保留。",
+      "label": "下方胶片框右上方的小型方形照片窗口，显示蓝色背景、细线涂鸦和",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_right_middle",
+      "kind": "photo",
+      "bbox": [
+        771,
+        926,
+        963,
+        1117
+      ],
+      "description": "下方胶片框右侧中间的小型方形照片窗口，蓝色区域带有淡色文字，下缘露出黄色圆形纹理及浅色表面；完整内容作为独立窗口保留。",
+      "label": "下方胶片框右侧中间的小型方形照片窗口，蓝色区域带有淡色文字，",
+      "method": "local"
+    },
+    {
+      "id": "photo_film_right_bottom",
+      "kind": "photo",
+      "bbox": [
+        771,
+        1140,
+        963,
+        1331
+      ],
+      "description": "下方胶片框右下方的小型方形照片窗口，显示黄色网状圆形图案、浅色表面和右侧深色椭圆细节；完整窗口保留。",
+      "label": "下方胶片框右下方的小型方形照片窗口，显示黄色网状圆形图案、浅",
+      "method": "local"
+    },
+    {
+      "id": "frame_film_left",
+      "kind": "frame",
+      "bbox": [
+        0,
+        62,
+        409,
+        548
+      ],
+      "description": "左上倾斜的黑色胶片框，包含两侧齿孔、竖排白色标记和完整框体边缘，承载一张鞋子照片。",
+      "photo_id": [
+        "photo_shoe_left"
+      ],
+      "label": "左上倾斜的黑色胶片框，包含两侧齿孔、竖排白色标记和完整框体边",
+      "method": "extract"
+    },
+    {
+      "id": "frame_film_top",
+      "kind": "frame",
+      "bbox": [
+        447,
+        64,
+        1049,
+        522
+      ],
+      "description": "右上横向黑色胶片框，包含顶部白色标题条与小字、边缘齿孔及底部编号标记，承载中央鞋子照片。",
+      "photo_id": [
+        "photo_shoe_closeup"
+      ],
+      "label": "右上横向黑色胶片框，包含顶部白色标题条与小字、边缘齿孔及底部",
+      "method": "extract"
+    },
+    {
+      "id": "frame_film_bottom",
+      "kind": "frame",
+      "bbox": [
+        153,
+        662,
+        1038,
+        1382
+      ],
+      "description": "下方大型黑色多格胶片框，左侧为一格竖向主窗口、右侧为三格小窗口；保留框体、橙黄色边缘编号和字样，承载四个独立照片窗口。",
+      "photo_id": [
+        "photo_person",
+        "photo_film_right_top",
+        "photo_film_right_middle",
+        "photo_film_right_bottom"
+      ],
+      "label": "下方大型黑色多格胶片框，左侧为一格竖向主窗口、右侧为三格小窗",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "collage_base",
+    "photo_shoe_left",
+    "frame_film_left",
+    "photo_shoe_closeup",
+    "frame_film_top",
+    "photo_person",
+    "photo_film_right_top",
+    "photo_film_right_middle",
+    "photo_film_right_bottom",
+    "frame_film_bottom"
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_room",
+    "description": "昏暗室内的连续摄影画面铺满画布，边缘可见写满字的墙面、桌面及右侧灯光；两张独立照片遮挡中央局部。底图保留原有环境，不拆分可见的墙面、地面或灯光。"
+  },
+  "objects": [
+    {
+      "id": "photo_person",
+      "kind": "photo",
+      "bbox": [
+        114,
+        260,
+        904,
+        795
+      ],
+      "description": "横向室内照片，画面中央一名坐着的长发人物低头托腮，戴浅色帽子、穿浅色衣物，桌椅和室内陈设仍作为摄影环境可见。白色手绘矩形线沿照片窗口外围勾画，顶部中央有一段斜线阴影式的擦痕；照片与描边共同呈现，左、右及下缘被白线包围。"
+    },
+    {
+      "id": "photo_table",
+      "kind": "photo",
+      "bbox": [
+        280,
+        774,
+        1008,
+        1303
+      ],
+      "description": "竖向桌面静物照片，木桌上有白色兔子玩偶、两份蛋糕及餐盘、勺子和一只印字心形陶瓷盘；摄影环境保留，陶瓷盘上的字样属于照片内容。白色手绘线沿照片窗口外围勾画，照片上缘部分被上方人物照片及线条遮挡，底缘被手绘横线框住。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        194,
+        556,
+        298
+      ],
+      "description": "压在上方照片白色手绘上沿中央的白色斜纹胶带涂鸦，保留完整不规则轮廓和内部线条。"
+    },
+    {
+      "id": "overlay_star_top_left",
+      "kind": "overlay",
+      "bbox": [
+        337,
+        136,
+        391,
+        190
+      ],
+      "description": "画布上方偏左的白色手绘星形贴画，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_top_right",
+      "kind": "overlay",
+      "bbox": [
+        751,
+        228,
+        795,
+        280
+      ],
+      "description": "上方照片边缘附近的白色手绘星形贴画，覆盖照片右上方边缘区域。"
+    },
+    {
+      "id": "overlay_star_photo",
+      "kind": "overlay",
+      "bbox": [
+        412,
+        703,
+        470,
+        758
+      ],
+      "description": "上方照片下缘木栏处的白色手绘星形贴画，压在照片内容之上。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        895,
+        90,
+        950
+      ],
+      "description": "画布左侧墙面上的白色手绘星形贴画，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        148,
+        1359,
+        197,
+        1413
+      ],
+      "description": "画布左下区域的白色手绘星形贴画，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        894,
+        1347,
+        954,
+        1405
+      ],
+      "description": "画布右下区域的白色手绘星形贴画，作为独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_table",
+    "photo_person",
+    "overlay_star_top_left",
+    "overlay_star_top_right",
+    "overlay_star_photo",
+    "overlay_star_left",
+    "overlay_star_bottom_left",
+    "overlay_star_bottom_right",
+    "overlay_tape"
+  ]
+}

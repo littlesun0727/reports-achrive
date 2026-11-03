@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        407,
+        1080
+      ],
+      "description": "左侧通高的夜间街头竖幅照片。一名长发女子位于左下前景，穿黑色上衣，手贴脸颊看向镜头，身体被画布左边和下边裁切；身后有多名行人、店铺、招牌及灯光。上下街景连续，完整保留摄影环境。照片带明显颗粒和暗部，黄色手写字叠在上半部，不属于摄影内容。",
+      "label": "左侧通高的夜间街头竖幅照片。一名长发女子位于左下前景，穿黑色",
+      "method": "local"
+    },
+    {
+      "id": "photo_store",
+      "kind": "photo",
+      "bbox": [
+        656,
+        443,
+        1066,
+        716
+      ],
+      "description": "右侧中部横向夜间店面照片，无明确前景人物。玻璃门窗、发光横向招牌和中央立柱组成完整场景，右侧有箭头及英文店面印字，均随摄影内容替换。保留整个矩形摄影窗口，画面偏暗、带颗粒，与周围黑底之间边界清晰。",
+      "label": "右侧中部横向夜间店面照片，无明确前景人物。玻璃门窗、发光横向",
+      "method": "local"
+    },
+    {
+      "id": "photo_poster",
+      "kind": "photo",
+      "bbox": [
+        505,
+        741,
+        888,
+        997
+      ],
+      "description": "右侧下方横向近景照片，拍摄室内或店门旁的展示区域，无人物。右半部为白色海报板，上有钥匙扣图案及可辨的“RIIZE”字样；左侧为竖向文字牌与玻璃结构。海报、支架、墙面和暗部共同属于摄影场景，保留完整矩形窗口，不将实拍海报另拆为固定框体。",
+      "label": "右侧下方横向近景照片，拍摄室内或店门旁的展示区域，无人物。右",
+      "method": "local"
+    },
+    {
+      "id": "overlay_yellow_title",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        80,
+        348,
+        500
+      ],
+      "description": "叠在左侧街景上的黄色粗笔手写艺术字，上部为“My”，下部为“eong”，共同组成错落的“Myeong”字样。笔画边缘粗糙，字母大小不一，y与g具有很长的下伸笔画；完整保留其特殊字形与两行布局。",
+      "label": "叠在左侧街景上的黄色粗笔手写艺术字，上部为“My”，下部为“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_title",
+      "kind": "overlay",
+      "bbox": [
+        420,
+        53,
+        1073,
+        334
+      ],
+      "description": "右上黑底上的白色粉笔风标题设计，上行为“7.9”，下行为“THE LAST DAY”。字形具有不规则倾斜、空心与反复描画的粗糙笔触，两行字号及位置不同，作为完整艺术字单元保留，不改为常规字体排版。",
+      "label": "右上黑底上的白色粉笔风标题设计，上行为“7.9”，下行为“T",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1053,
+        1073,
+        1074
+      ],
+      "description": "右下角极小的深灰色圆角胶囊水印，内部可辨“小红书”字样；底板与印字作为同一个固定标签保留。",
+      "label": "右下角极小的深灰色圆角胶囊水印，内部可辨“小红书”字样；底板",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_store",
+    "photo_poster",
+    "overlay_yellow_title",
+    "overlay_white_title",
+    "overlay_watermark"
+  ]
+}

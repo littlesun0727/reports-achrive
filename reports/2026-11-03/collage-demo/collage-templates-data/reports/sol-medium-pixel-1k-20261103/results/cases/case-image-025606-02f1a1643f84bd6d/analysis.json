@@ -1,0 +1,156 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1442
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1442
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "overlay_paper_panel",
+      "kind": "overlay",
+      "bbox": [
+        675,
+        0,
+        1080,
+        1442
+      ],
+      "description": "右侧竖向浅棕色纸张纹理面板，覆盖从顶部到底部的完整可见区域，作为照片与贴纸的固定承托背景保留。",
+      "label": "右侧竖向浅棕色纸张纹理面板，覆盖从顶部到底部的完整可见区域，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_pizza_storefront",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        680,
+        1442
+      ],
+      "description": "左侧连续竖向街景照片，包含顶部建筑与文字招牌、中部大型红色PIZZA招牌、红色遮阳篷、餐厅门面及底部多名路人，摄影环境完整保留；右缘被右侧纸张面板、贴纸与校车局部遮挡。",
+      "label": "左侧连续竖向街景照片，包含顶部建筑与文字招牌、中部大型红色P",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cocoa_label",
+      "kind": "overlay",
+      "bbox": [
+        691,
+        18,
+        1021,
+        232
+      ],
+      "description": "右上方深棕色热可可装饰标签，带白色描边、波浪外轮廓和可辨识的“HOT COCOA”及副文字，作为完整固定贴纸保留；下部被草莓蛋糕照片遮挡。",
+      "label": "右上方深棕色热可可装饰标签，带白色描边、波浪外轮廓和可辨识的",
+      "method": "extract"
+    },
+    {
+      "id": "photo_strawberry_cake",
+      "kind": "photo",
+      "bbox": [
+        712,
+        153,
+        1078,
+        495
+      ],
+      "description": "右上方草莓奶油蛋糕切片照片，包含多颗草莓、奶油和分层蛋糕主体，沿主体外缘带明显白色贴纸状描边；背景大部分去除，底部被蓝色文字标签遮挡。",
+      "label": "右上方草莓奶油蛋糕切片照片，包含多颗草莓、奶油和分层蛋糕主体",
+      "method": "local"
+    },
+    {
+      "id": "overlay_best_banner",
+      "kind": "overlay",
+      "bbox": [
+        677,
+        485,
+        1080,
+        539
+      ],
+      "description": "横跨右侧区域的深蓝色矩形文字标签，印有白色大写文字“AND IT WAS THE BEST”，作为带字固定底板整体保留，并遮挡草莓蛋糕下缘及纸张背景。",
+      "label": "横跨右侧区域的深蓝色矩形文字标签，印有白色大写文字“AND ",
+      "method": "extract"
+    },
+    {
+      "id": "photo_film_strip",
+      "kind": "photo",
+      "bbox": [
+        704,
+        536,
+        1080,
+        1006
+      ],
+      "description": "右侧中部倾斜的胶片与电影胶卷照片，包含棕红色胶片盒、黑色胶片条、白色齿孔和大号数字图案，作为独立摄影拼贴单元保留；下部被其他拼贴照片和前景校车遮挡。",
+      "label": "右侧中部倾斜的胶片与电影胶卷照片，包含棕红色胶片盒、黑色胶片",
+      "method": "local"
+    },
+    {
+      "id": "photo_newspaper_clipping",
+      "kind": "photo",
+      "bbox": [
+        820,
+        908,
+        1080,
+        1126
+      ],
+      "description": "右侧中下部倾斜的报纸文字照片，显示黑色英文报纸段落和粗黑图形，独立叠放在胶片拼贴下方，底部及右缘被校车照片遮挡。",
+      "label": "右侧中下部倾斜的报纸文字照片，显示黑色英文报纸段落和粗黑图形",
+      "method": "local"
+    },
+    {
+      "id": "photo_mustard_bottle",
+      "kind": "photo",
+      "bbox": [
+        700,
+        747,
+        916,
+        1055
+      ],
+      "description": "右侧中部倾斜的黄色芥末瓶抠图照片，带黄色瓶盖、红白标签及可辨识的“French’s”字样，摄影背景去除并置于胶片和报纸拼贴上方。",
+      "label": "右侧中部倾斜的黄色芥末瓶抠图照片，带黄色瓶盖、红白标签及可辨",
+      "method": "local"
+    },
+    {
+      "id": "photo_school_bus",
+      "kind": "photo",
+      "bbox": [
+        468,
+        1059,
+        1080,
+        1442
+      ],
+      "description": "底部前景黄色校车照片，车头朝向右侧，包含车窗、车灯、格栅、车牌和车身编号等完整可见主体；沿主体轮廓显示并覆盖左侧街景照片、右侧报纸及其他下方拼贴，底部继续被画布裁切。",
+      "label": "底部前景黄色校车照片，车头朝向右侧，包含车窗、车灯、格栅、车",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_paper_panel",
+    "photo_pizza_storefront",
+    "overlay_cocoa_label",
+    "photo_film_strip",
+    "photo_newspaper_clipping",
+    "photo_strawberry_cake",
+    "overlay_best_banner",
+    "photo_mustard_bottle",
+    "photo_school_bus"
+  ]
+}

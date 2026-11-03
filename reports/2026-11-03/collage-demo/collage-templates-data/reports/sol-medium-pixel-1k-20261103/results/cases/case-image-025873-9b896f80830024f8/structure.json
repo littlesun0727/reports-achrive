@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_green",
+    "description": "全画布连续的浅灰绿色至草绿色渐变底图，带柔和斑驳、颗粒与纸面般纹理，上部较浅、下部较深。相同底纹在画布四周及各照片间隙连续可见，保留固定底图，独立照片、文字和贴纸不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        261,
+        189,
+        595,
+        635
+      ],
+      "description": "竖向公园风景照片，无人物；上半部为深色树冠与成排树干，下半部为开阔绿色草地，保留完整摄影环境。矩形窗口左上角被胶带覆盖，下部左侧被云朵照片遮挡，照片本身仍延伸至完整矩形下缘。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        225,
+        147,
+        327,
+        246
+      ],
+      "description": "一条斜贴的黄褐色纸胶带，横跨树林照片左上角与绿色底图；保留不规则端部、轻微褶皱及纸张质感，作为独立固定装饰。"
+    },
+    {
+      "id": "overlay_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        635,
+        224,
+        852,
+        257
+      ],
+      "description": "白色细笔连写英文装饰字样，内容近似“The wild places”，左侧带小引号状笔画。字母连接、长横向笔势及不规则字间位置构成整体艺术字，保留原有视觉形式。"
+    },
+    {
+      "id": "overlay_moment",
+      "kind": "overlay",
+      "bbox": [
+        630,
+        389,
+        889,
+        648
+      ],
+      "description": "白色方形底板上叠有灰白色皱褶撕纸图案，纸片左右边缘不规则，内部黑色粗衬线字分三行写着“Lost / in a / Moment”。底板、纸片、褶皱阴影和印字共同构成完整固定标签，不含可替换照片窗口。"
+    },
+    {
+      "id": "photo_clouds",
+      "kind": "photo",
+      "bbox": [
+        162,
+        586,
+        533,
+        855
+      ],
+      "description": "横向天空照片，无人物；蓝色天空中有大团白色积云，云团占据中下部并在窗口下缘截断。保留完整天空环境，显示为矩形，右上区域覆盖树林照片的左下部。"
+    },
+    {
+      "id": "photo_plate",
+      "kind": "photo",
+      "bbox": [
+        573,
+        682,
+        897,
+        926
+      ],
+      "description": "俯拍静物照片，无人物；白色纹理桌布上放着浅色椭圆盘，盘中有多个红色圆果、粉色软管及带绿色环扣的小物件。物件上的印字属于实拍内容，随照片替换。保留桌布和完整矩形摄影窗口，左下角被下方手持果实照片局部遮挡。"
+    },
+    {
+      "id": "photo_hand",
+      "kind": "photo",
+      "bbox": [
+        370,
+        904,
+        637,
+        1260
+      ],
+      "description": "竖向近景照片，仅见一只手和部分前臂，从左下方伸入并举起一枚贴有彩色小图案的红色圆果，果梗朝上；背景为明亮蓝天。保留天空环境，手臂在左边及下边被矩形窗口截断，照片右上部被独立白色文字覆盖。"
+    },
+    {
+      "id": "text_mood",
+      "kind": "text",
+      "bbox": [
+        504,
+        955,
+        914,
+        1022
+      ],
+      "text": "Today's mood: blooming like wildflowers.\nRemember: you're allowed to grow softly.\nToday's mantra: progress > 'perfection.",
+      "color": "#F4F5E8",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_autumn",
+      "kind": "text",
+      "bbox": [
+        204,
+        1124,
+        359,
+        1146
+      ],
+      "text": "\"Stay in Autumn\"",
+      "color": "#F4F5E8",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_trees",
+    "photo_clouds",
+    "photo_plate",
+    "photo_hand",
+    "overlay_tape",
+    "overlay_handwriting",
+    "overlay_moment",
+    "text_mood",
+    "text_autumn"
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1560
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1560
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "overlay_upper_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        778
+      ],
+      "description": "上半幅固定设计底板，左侧近白色、右侧浅薄荷绿色，带柔和渐变、细微纸纹和散布的淡彩小星星、圆点。下沿在约778像素处与下方照片形成水平分界，没有证据将该局部底板扩展至全画布；其印刷纹样整体保留。",
+      "label": "上半幅固定设计底板，左侧近白色、右侧浅薄荷绿色，带柔和渐变、",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        4,
+        777,
+        1077,
+        1560
+      ],
+      "description": "下半幅横向铺开的独立海边照片。一名穿白裙、白袜和蓝色鞋的女子背向镜头、略朝右站立，肩背蓝包并手持饮料；完整保留海面、远山、桥梁、岸边植物、石柱、铁链和前景步道。照片四边为矩形显示边界，上方取景与草地照片不连续。画面整体偏暗，彩色圆点及白色笑脸水滴是另加装饰。",
+      "label": "下半幅横向铺开的独立海边照片。一名穿白裙、白袜和蓝色鞋的女子",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper",
+      "kind": "frame",
+      "bbox": [
+        299,
+        76,
+        871,
+        710
+      ],
+      "description": "上方照片的固定纸卡承托，照片覆盖左侧大部分，右侧露出宽粉色竖条，其上有白色、淡黄色圆点。保留露出的纸面、印刷圆点及外缘；这是一个照片窗口的载体，不与旁边文字或星形装饰合并。",
+      "photo_id": [
+        "photo_upper"
+      ],
+      "label": "上方照片的固定纸卡承托，照片覆盖左侧大部分，右侧露出宽粉色竖",
+      "method": "extract"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        300,
+        77,
+        780,
+        709
+      ],
+      "description": "上方竖向草地照片，一名女子穿白色连衣裙，肩背蓝色小包，右侧手持带盖饮料杯，另一只手搭在包带附近；头部被照片上边裁掉，下方可见白袜和蓝色鞋。保留整个绿色草地摄影环境，矩形窗口覆盖完整取景，后加的青色耳机线和星形遮住部分画面。",
+      "label": "上方竖向草地照片，一名女子穿白色连衣裙，肩背蓝色小包，右侧手",
+      "method": "local"
+    },
+    {
+      "id": "overlay_pink_star",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        261,
+        232,
+        432
+      ],
+      "description": "左上独立手绘五角星，浅粉色双重轮廓、淡色内部和中央浅蓝色螺旋组成完整贴纸，保留柔和边缘与笔触。",
+      "label": "左上独立手绘五角星，浅粉色双重轮廓、淡色内部和中央浅蓝色螺旋",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_headphones",
+      "kind": "overlay",
+      "bbox": [
+        233,
+        106,
+        855,
+        937
+      ],
+      "description": "一整组青绿色手绘耳机装饰：照片左上和右上各有放射状星形耳罩，两侧长线沿照片绕下，在腿部附近交会；线缆继续伸出照片下缘，经过小接头向下弯曲，再沿下方海景照片上部向右延伸至末端。完整星形、线条、接头和笔触整体保留，局部被薄荷色大星形遮住。",
+      "label": "一整组青绿色手绘耳机装饰：照片左上和右上各有放射状星形耳罩，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_summer",
+      "kind": "overlay",
+      "bbox": [
+        79,
+        651,
+        301,
+        818
+      ],
+      "description": "左侧半透明淡黄色方形标签，内有粉色描边花体“Summer”及小星形点缀。字形、纸面、透明叠色和附属图案共同作为一个固定设计保留；下部跨过上下区域分界，压在海景照片上。",
+      "label": "左侧半透明淡黄色方形标签，内有粉色描边花体“Summer”及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mint_burst",
+      "kind": "overlay",
+      "bbox": [
+        594,
+        573,
+        838,
+        800
+      ],
+      "description": "照片右下方独立浅薄荷色不规则放射星形，尖角长短不一，覆盖草地照片下角、耳机线和上方底板，并略跨入下方海景照片。与其上叠加的规则文字分开保留。",
+      "label": "照片右下方独立浅薄荷色不规则放射星形，尖角长短不一，覆盖草地",
+      "method": "extract"
+    },
+    {
+      "id": "text_cicadas",
+      "kind": "text",
+      "bbox": [
+        714,
+        653,
+        1080,
+        753
+      ],
+      "description": "The chirping of cicadas is th\ngradually counting down be\noutside the window.",
+      "label": "The chirping of cicadas is th\n",
+      "method": "local",
+      "text": "The chirping of cicadas is th\ngradually counting down be\noutside the window.",
+      "text_status": "known",
+      "style": {
+        "fill": "#9D947D",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_dot_pink_large",
+      "kind": "overlay",
+      "bbox": [
+        38,
+        818,
+        81,
+        861
+      ],
+      "description": "海景照片左上方独立粉色圆点，边缘略柔和。",
+      "label": "海景照片左上方独立粉色圆点，边缘略柔和。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_purple",
+      "kind": "overlay",
+      "bbox": [
+        73,
+        906,
+        96,
+        929
+      ],
+      "description": "海景照片左侧独立淡紫色小圆点。",
+      "label": "海景照片左侧独立淡紫色小圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_yellow",
+      "kind": "overlay",
+      "bbox": [
+        4,
+        947,
+        33,
+        978
+      ],
+      "description": "海景照片左边缘独立浅黄色圆点，完整保留可见圆形。",
+      "label": "海景照片左边缘独立浅黄色圆点，完整保留可见圆形。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_cyan",
+      "kind": "overlay",
+      "bbox": [
+        75,
+        1012,
+        109,
+        1047
+      ],
+      "description": "海景照片左侧独立浅青色圆点，位于左侧大笑脸水滴旁。",
+      "label": "海景照片左侧独立浅青色圆点，位于左侧大笑脸水滴旁。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_pink_small",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        1027,
+        44,
+        1044
+      ],
+      "description": "海景照片左侧独立粉色小圆点。",
+      "label": "海景照片左侧独立粉色小圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_purple_edge",
+      "kind": "overlay",
+      "bbox": [
+        4,
+        1080,
+        16,
+        1103
+      ],
+      "description": "海景照片左画布边缘露出的淡紫色圆点残部，其左侧被画布裁切。",
+      "label": "海景照片左画布边缘露出的淡紫色圆点残部，其左侧被画布裁切。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dot_white",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        1118,
+        73,
+        1151
+      ],
+      "description": "海景照片左侧独立白色圆点。",
+      "label": "海景照片左侧独立白色圆点。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        922,
+        836,
+        981,
+        931
+      ],
+      "description": "海景照片右上方白色手绘水滴笑脸，尖顶外轮廓、两条短竖眼和弯曲嘴部整体保留，内部透出摄影内容。",
+      "label": "海景照片右上方白色手绘水滴笑脸，尖顶外轮廓、两条短竖眼和弯曲",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_left",
+      "kind": "overlay",
+      "bbox": [
+        127,
+        978,
+        194,
+        1083
+      ],
+      "description": "海面左侧较大的白色手绘水滴笑脸，保留不规则外轮廓、眼睛与笑嘴，内部透明。",
+      "label": "海面左侧较大的白色手绘水滴笑脸，保留不规则外轮廓、眼睛与笑嘴",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_center",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        984,
+        694,
+        1052
+      ],
+      "description": "海面中间偏右的小型白色水滴笑脸，外轮廓、两眼和弯嘴构成一个独立装饰。",
+      "label": "海面中间偏右的小型白色水滴笑脸，外轮廓、两眼和弯嘴构成一个独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_right_post",
+      "kind": "overlay",
+      "bbox": [
+        842,
+        1203,
+        890,
+        1279
+      ],
+      "description": "右侧石柱上叠加的白色手绘水滴笑脸，保留完整尖顶轮廓和内部表情，不属于石柱摄影内容。",
+      "label": "右侧石柱上叠加的白色手绘水滴笑脸，保留完整尖顶轮廓和内部表情",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        196,
+        1317,
+        254,
+        1410
+      ],
+      "description": "左下植物和铁链前叠加的白色手绘水滴笑脸，保留外轮廓、双眼和笑嘴，内部透出照片。",
+      "label": "左下植物和铁链前叠加的白色手绘水滴笑脸，保留外轮廓、双眼和笑",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_upper_paper",
+    "photo_lower",
+    "frame_upper",
+    "photo_upper",
+    "overlay_pink_star",
+    "overlay_headphones",
+    "overlay_summer",
+    "overlay_mint_burst",
+    "text_cicadas",
+    "overlay_dot_pink_large",
+    "overlay_dot_purple",
+    "overlay_dot_yellow",
+    "overlay_dot_cyan",
+    "overlay_dot_pink_small",
+    "overlay_dot_purple_edge",
+    "overlay_dot_white",
+    "overlay_drop_upper_right",
+    "overlay_drop_left",
+    "overlay_drop_center",
+    "overlay_drop_right_post",
+    "overlay_drop_lower_left"
+  ]
+}

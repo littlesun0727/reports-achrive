@@ -1,0 +1,171 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        731,
+        1080,
+        1440
+      ],
+      "description": "横向摄影画面覆盖画布下半部，显示手持粉色书册或卡片、手部与手表、木质背景及叠加在画面中的大型浅色字样；完整摄影区域从画布左右边缘延伸至底边，作为可替换照片保留。"
+    },
+    {
+      "id": "photo_a",
+      "kind": "photo",
+      "bbox": [
+        168,
+        145,
+        492,
+        578
+      ],
+      "description": "竖向室内全身镜自拍照片，单人站在画面中央，手持手机遮挡面部，穿浅色上衣、黑色长裙和靴子并携带黑色手袋；镜面、室内家具和地面作为摄影环境一并保留，矩形照片边界完整显示。"
+    },
+    {
+      "id": "photo_b",
+      "kind": "photo",
+      "bbox": [
+        605,
+        145,
+        926,
+        574
+      ],
+      "description": "竖向室内半身照片，单人坐姿或倚坐在画面中央，低头戴眼镜，穿浅色上衣并带黑色围巾和手袋；窗户、砖墙及室内陈设作为摄影环境一并保留，矩形照片边界完整显示。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        383,
+        75,
+        420,
+        111
+      ],
+      "description": "顶部偏左的小型浅灰色五角星贴纸，带细微蓝灰描边和阴影，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        280,
+        120,
+        335
+      ],
+      "description": "左侧中部较大的浅灰色五角星贴纸，带蓝灰描边和轻微阴影，独立位于两张上方照片左侧。"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        556,
+        466,
+        585,
+        497
+      ],
+      "description": "两张上方照片之间偏下位置的小型浅灰色五角星贴纸，带细描边和阴影。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        966,
+        363,
+        995,
+        395
+      ],
+      "description": "右侧中部的小型浅灰色五角星贴纸，带细微蓝灰描边和阴影。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        220,
+        608,
+        252,
+        637
+      ],
+      "description": "左下方照片标签上方的小型浅灰色五角星贴纸，带细描边和阴影。"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        813,
+        664,
+        850,
+        700
+      ],
+      "description": "下方摄影区域上方偏右的小型浅灰色五角星贴纸，带细微蓝灰描边和阴影。"
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        685,
+        88,
+        968,
+        207
+      ],
+      "text": "** CTRL MY <3\n<3\n<3",
+      "color": "#171717",
+      "font": "sans",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_label_a",
+      "kind": "text",
+      "bbox": [
+        304,
+        608,
+        353,
+        643
+      ],
+      "text": "(A)",
+      "color": "#111111",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_label_b",
+      "kind": "text",
+      "bbox": [
+        740,
+        608,
+        789,
+        643
+      ],
+      "text": "(B)",
+      "color": "#111111",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_bottom",
+    "photo_a",
+    "photo_b",
+    "overlay_star_top",
+    "overlay_star_left",
+    "overlay_star_center",
+    "overlay_star_right",
+    "overlay_star_lower_left",
+    "overlay_star_lower_right",
+    "text_top_right",
+    "text_label_a",
+    "text_label_b"
+  ]
+}

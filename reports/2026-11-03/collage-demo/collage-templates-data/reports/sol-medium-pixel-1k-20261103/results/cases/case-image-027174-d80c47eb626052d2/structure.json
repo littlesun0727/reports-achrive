@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture_base",
+    "description": "连续的全画布纸张底图，上部为浅米色斑驳纸纹，下部自约 y=725 起为深红色粗糙纹理，并以水平边界连接；三张独立婚礼照片覆盖中部局部区域，照片之外的纸纹和颜色结构保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        382,
+        59,
+        698,
+        481
+      ],
+      "description": "上方竖向婚礼合照，包含一男一女站立人物、红色婚庆布景、花饰及中文婚庆牌匾；人物和完整室内摄影环境共同属于该矩形照片，照片边界清晰，无独立固定相框。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        382,
+        508,
+        698,
+        930
+      ],
+      "description": "中部竖向婚礼合照，包含一男一女坐姿人物、红色灯笼、喜字装饰、礼盒和室内布景；摄影环境与人物共同替换，照片为独立矩形显示区域，无独立固定相框。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        382,
+        959,
+        698,
+        1381
+      ],
+      "description": "下方竖向婚礼合照，包含一男一女站立人物、红色礼服、花束、花饰、喜字装饰、桌面及婚庆背景；完整摄影环境保留在照片替换范围内，照片为独立矩形显示区域，无独立固定相框。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

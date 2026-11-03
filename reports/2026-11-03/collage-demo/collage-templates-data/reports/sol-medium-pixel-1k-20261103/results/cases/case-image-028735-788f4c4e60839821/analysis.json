@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "蓝色细颗粒纹理纸面连续铺满画布，并在照片之间及四周露出；保留纸纹与底色，独立照片、文字和装饰不并入底图。",
+      "background_type": "reference_clean",
+      "label": "蓝色细颗粒纹理纸面连续铺满画布，并在照片之间及四周露出；保留",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        134,
+        111,
+        945,
+        669
+      ],
+      "description": "上方横幅室内合照，前景两名戴眼镜的女性坐在桌边，左侧另有一人局部入镜；保留人物、桌面物品及室内环境，矩形照片窗口。",
+      "label": "上方横幅室内合照，前景两名戴眼镜的女性坐在桌边，左侧另有一人",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        46,
+        930,
+        660,
+        1353
+      ],
+      "description": "左下横幅室内合照，数名女性围坐在桌边，前排两人分别穿白色上衣和黑色上衣；保留房间、灯具及桌面环境，矩形照片窗口，右上部分被另一张照片覆盖。",
+      "label": "左下横幅室内合照，数名女性围坐在桌边，前排两人分别穿白色上衣",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        434,
+        751,
+        986,
+        1131
+      ],
+      "description": "中右横幅室内合照，多名女性围坐在桌边，后排数人站或坐在房间深处；保留室内灯具、柜体和桌面环境，矩形照片窗口，左下部分覆盖左下照片。",
+      "label": "中右横幅室内合照，多名女性围坐在桌边，后排数人站或坐在房间深",
+      "method": "local"
+    },
+    {
+      "id": "overlay_left_doodle",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        77,
+        113,
+        696
+      ],
+      "description": "画布左侧纵向彩色手写涂鸦，紫、青绿、粉红与黄色笔画上下串接，作为完整独立装饰保留。",
+      "label": "画布左侧纵向彩色手写涂鸦，紫、青绿、粉红与黄色笔画上下串接，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_doodle",
+      "kind": "overlay",
+      "bbox": [
+        963,
+        84,
+        1012,
+        697
+      ],
+      "description": "画布右侧纵向彩色手写涂鸦，黄色、紫色、青绿与粉红笔画上下串接，作为完整独立装饰保留。",
+      "label": "画布右侧纵向彩色手写涂鸦，黄色、紫色、青绿与粉红笔画上下串接",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        136,
+        719,
+        396,
+        876
+      ],
+      "description": "照片左下方三行白色手写中文“酒酒合体！群像的温度快要冲出屏幕了”，字形带手写装饰感，作为完整字样保留，不拆分为普通文字。",
+      "label": "照片左下方三行白色手写中文“酒酒合体！群像的温度快要冲出屏幕",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_stars",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        86,
+        1035,
+        1412
+      ],
+      "description": "散布在蓝色纸面边缘与照片周围的白色小星星和闪光点，作为同一组固定星形点缀保留；不包含照片内容。",
+      "label": "散布在蓝色纸面边缘与照片周围的白色小星星和闪光点，作为同一组",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_strokes",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        1152,
+        870,
+        1338
+      ],
+      "description": "右下方两道独立的白色弧形手绘笔触，位于照片外侧的蓝色纸面上，整体作为装饰保留。",
+      "label": "右下方两道独立的白色弧形手绘笔触，位于照片外侧的蓝色纸面上，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_lower_left",
+    "photo_middle_right",
+    "photo_top",
+    "overlay_left_doodle",
+    "overlay_right_doodle",
+    "overlay_caption",
+    "overlay_white_stars",
+    "overlay_white_strokes"
+  ]
+}

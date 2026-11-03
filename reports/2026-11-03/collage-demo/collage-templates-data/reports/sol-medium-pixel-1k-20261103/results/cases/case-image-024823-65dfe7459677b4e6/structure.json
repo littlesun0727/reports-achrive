@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的竖幅雨景静物照片覆盖全画布，无人物。透明收拢的雨伞位于中下部，蓝色弯柄伸至上部中央偏左，伞骨与透明伞布向下延伸并被画布底边裁切；后方为黑色栏杆，上部是暗绿色失焦环境，下部透出蓝灰色景物。四边的环境及栏杆结构连续，局部被日历字样和金黄色水滴装饰覆盖。整体有暗调、颗粒及织纹般的可见质感，雨伞与全部摄影环境一起替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_calendar",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        23,
+        595,
+        337
+      ],
+      "description": "上部中央的白色手写日历装饰，包含“12月”、错落排列的日期数字及散布其间的星点、十字闪光和小短划。笔画发光、模糊且排布不规则，底部部分数字叠在雨伞弯柄附近；整体作为一个完整固定设计保留，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_drop_top_right",
+      "kind": "overlay",
+      "bbox": [
+        629,
+        65,
+        670,
+        150
+      ],
+      "description": "右上方独立金黄色水滴，尖端朝上、底部圆鼓，内部带深色斑点和不均匀手绘纹理；完整保留轮廓与内部质感。"
+    },
+    {
+      "id": "overlay_drop_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        206,
+        174,
+        231,
+        227
+      ],
+      "description": "上部偏左的细长金黄色水滴，独立叠在暗绿色摄影环境上，尖端朝上，边缘及内部具有斑驳手绘质感。"
+    },
+    {
+      "id": "overlay_drop_left_edge",
+      "kind": "overlay",
+      "bbox": [
+        39,
+        243,
+        64,
+        305
+      ],
+      "description": "左侧靠近画布边缘的独立金黄色水滴，位于栏杆横梁上方；轮廓细长、边缘柔涩，内部有深浅不一的纹理。"
+    },
+    {
+      "id": "overlay_drop_center",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        422,
+        614,
+        486
+      ],
+      "description": "中央偏右的独立金黄色水滴，上半部覆盖黑色栏杆，下半部伸入蓝色摄影环境；保留尖顶、圆底及颗粒状手绘纹理。"
+    },
+    {
+      "id": "overlay_drop_right",
+      "kind": "overlay",
+      "bbox": [
+        814,
+        493,
+        846,
+        549
+      ],
+      "description": "右侧蓝色区域内的独立金黄色水滴，尖端向上，底端圆润，内部色彩较均匀但保留可见纸纹般质感。"
+    },
+    {
+      "id": "overlay_drop_umbrella_left",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        613,
+        155,
+        691
+      ],
+      "description": "左侧中部叠在透明伞布与伞骨附近的独立金黄色水滴，形体较长，尖端向上，完整保留不规则轮廓及浅淡内部纹理。"
+    },
+    {
+      "id": "overlay_drop_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        674,
+        777,
+        736
+      ],
+      "description": "右侧中下部的独立金黄色水滴，跨在黑色竖栏杆与右侧蓝灰色环境的交界处，内部有明显暗色颗粒与斑驳笔触。"
+    },
+    {
+      "id": "overlay_drop_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        792,
+        287,
+        865
+      ],
+      "description": "下部偏左叠在伞布及黑色伞骨上的独立金黄色水滴，尖端细长、下端圆鼓，保留边缘和内部的手绘颗粒纹理。"
+    },
+    {
+      "id": "overlay_bottom_mark",
+      "kind": "overlay",
+      "bbox": [
+        834,
+        1147,
+        876,
+        1170
+      ],
+      "description": "右下角靠近底边的低对比度浅灰白小标记，可见小型椭圆或云状图形及附属细小笔画，内容无法可靠辨认；作为完整固定标记保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_calendar",
+    "overlay_drop_top_right",
+    "overlay_drop_upper_left",
+    "overlay_drop_left_edge",
+    "overlay_drop_center",
+    "overlay_drop_right",
+    "overlay_drop_umbrella_left",
+    "overlay_drop_lower_right",
+    "overlay_drop_lower_left",
+    "overlay_bottom_mark"
+  ]
+}

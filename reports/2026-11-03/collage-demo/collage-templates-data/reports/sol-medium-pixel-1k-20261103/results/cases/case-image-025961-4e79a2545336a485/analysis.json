@@ -1,0 +1,58 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_waterfront",
+      "kind": "photo",
+      "bbox": [
+        244,
+        0,
+        1080,
+        1080
+      ],
+      "description": "右侧贯穿画布上下的竖向滨水风景照片，无人物。上半部为大片浅蓝天空，下半部为蓝绿色水面，中远景有两艘帆船、城市楼群及右侧摩天轮。摄影环境完整保留，照片边缘为清晰矩形，右侧景物由画布边缘裁切；左下部分被另一张横向照片遮挡，但其完整显示窗口仍从顶部延伸至底部。",
+      "label": "右侧贯穿画布上下的竖向滨水风景照片，无人物。上半部为大片浅蓝",
+      "method": "local"
+    },
+    {
+      "id": "photo_tree_person",
+      "kind": "photo",
+      "bbox": [
+        52,
+        456,
+        577,
+        836
+      ],
+      "description": "左侧叠放的横向滨水照片，左部是一棵高大的落叶树，近下缘中央偏左有一名侧身朝右站在栏杆旁的人，人物以远景全身显示。栏杆、岸边道路、水面、对岸楼群及浅色天空共同属于照片，完整保留摄影环境。照片为清晰矩形，无可见独立框体，右部覆盖竖向风景照片，左部落在白色底上。",
+      "label": "左侧叠放的横向滨水照片，左部是一棵高大的落叶树，近下缘中央偏",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_waterfront",
+    "photo_tree_person"
+  ]
+}

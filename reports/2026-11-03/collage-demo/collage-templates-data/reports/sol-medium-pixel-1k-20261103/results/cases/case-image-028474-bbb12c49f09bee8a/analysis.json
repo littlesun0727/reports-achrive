@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1076
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1076
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FDFDFD"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        19,
+        290,
+        526,
+        731
+      ],
+      "description": "左侧独立照片，一名戴浅蓝色帽子的年轻女性正面半身近景，穿棕色雪花图案毛衣，长发编成辫子，右侧手持金属勺。保留身后的浅色室内墙面、灯光及底部少量餐桌物件。完整显示范围为胶片左侧内口，四周被灰色框沿遮挡；与右侧照片拍摄环境和姿态不连续。",
+      "label": "左侧独立照片，一名戴浅蓝色帽子的年轻女性正面半身近景，穿棕色",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        553,
+        290,
+        1061,
+        724
+      ],
+      "description": "右侧独立照片，一名黑发女性穿黑色外套和蓝色牛仔裤，站在画面左侧，双臂交叉、面向镜头，显示至大腿附近。右侧为挂有橙黄色果实、红色吊牌和流苏的树，背景含砖墙及深色门窗；这些均属于摄影场景。保留完整环境，显示范围为胶片右侧内口，边缘被框沿遮挡。",
+      "label": "右侧独立照片，一名黑发女性穿黑色外套和蓝色牛仔裤，站在画面左",
+      "method": "local"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        198,
+        1080,
+        811
+      ],
+      "description": "横贯画布的灰黑色手绘胶片框，是具有两个独立照片窗口的连续固定框体。上下为带一排白色齿孔的宽边，左右边及中央隔条围住两张照片；包含粗糙铅笔擦痕、不规则轮廓与边缘浅灰笔触。框体两端在画布边缘裁切，框沿覆盖照片边缘，整体保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横贯画布的灰黑色手绘胶片框，是具有两个独立照片窗口的连续固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        119,
+        380,
+        180
+      ],
+      "description": "左上方深灰色手写标题“寒假美好生活”，字形细长，笔画和字间位置不规则，作为完整艺术字保留，不转换为通用字体排版。",
+      "label": "左上方深灰色手写标题“寒假美好生活”，字形细长，笔画和字间位",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        102,
+        496,
+        177
+      ],
+      "description": "标题右侧的一枚深灰色手绘实心爱心，包含铅笔涂抹纹理、浅色擦痕及粗糙轮廓，与文字分离，作为独立装饰保留。",
+      "label": "标题右侧的一枚深灰色手绘实心爱心，包含铅笔涂抹纹理、浅色擦痕",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sun",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        835,
+        1041,
+        1048
+      ],
+      "description": "右下角黑色线条手绘太阳，包含不规则圆形外圈、闭眼与微笑表情，以及四周长短不一的放射线。内部留白和所有附属线条共同构成一个完整装饰。",
+      "label": "右下角黑色线条手绘太阳，包含不规则圆形外圈、闭眼与微笑表情，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right",
+    "frame_film",
+    "overlay_title",
+    "overlay_heart",
+    "overlay_sun"
+  ]
+}

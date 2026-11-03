@@ -1,0 +1,76 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        194,
+        493,
+        901
+      ],
+      "description": "左侧竖向照片窗口内是一位戴圆框眼镜、穿浅粉色连帽衫的女性半身像，面向镜头；身后可见花店招牌、建筑墙面和树木。保留完整摄影环境，招牌文字属于照片内容。",
+      "label": "左侧竖向照片窗口内是一位戴圆框眼镜、穿浅粉色连帽衫的女性半身",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        594,
+        194,
+        1080,
+        901
+      ],
+      "description": "右侧竖向照片窗口内是一位穿灰黑格纹外套的男性半身像，面向镜头；身后可见花店招牌、建筑墙面和树木。保留完整摄影环境，招牌文字属于照片内容。",
+      "label": "右侧竖向照片窗口内是一位穿灰黑格纹外套的男性半身像，面向镜头",
+      "method": "local"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        109,
+        1080,
+        971
+      ],
+      "description": "横向黑色胶片框，作为一个连续固定框体，承载左右两个独立照片窗口；上下边缘有交替排列的圆角白色与黄色齿孔，中间有宽黑色竖隔带，保留完整胶片造型。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横向黑色胶片框，作为一个连续固定框体，承载左右两个独立照片窗",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_filmstrip",
+    "photo_left",
+    "photo_right"
+  ]
+}

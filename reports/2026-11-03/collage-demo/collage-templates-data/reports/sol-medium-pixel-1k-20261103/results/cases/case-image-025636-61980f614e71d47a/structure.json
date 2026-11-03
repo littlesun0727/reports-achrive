@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_texture",
+    "description": "全画布连续的灰白颗粒纹理底图，带柔和的深浅光影变化，四边及中央叠放单元周围均可见同一纹理。作为固定设计保留，中央照片和独立品牌字样不属于底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_monochrome",
+      "kind": "photo",
+      "bbox": [
+        235,
+        284,
+        889,
+        1416
+      ],
+      "description": "后方竖向黑白局部特写照片，上部可见浅灰亮面及数条弯曲的深色细丝状线条，下部为大面积深暗区域，具有明显颗粒感；没有完整人脸可见，具体被摄部位不确定。完整矩形窗口由上下边及两侧露出部分确定，中段被两张彩色人物照片遮挡，不能缩为剩余可见区域。"
+    },
+    {
+      "id": "photo_full_length",
+      "kind": "photo",
+      "bbox": [
+        155,
+        613,
+        620,
+        1310
+      ],
+      "description": "左下竖向彩色照片，一名盘发女性穿银色露肩长礼服，背向镜头略向右转头，站立全身及拖地裙摆可见。保留室内深色墙面、浅色扶手椅、木质家具和地面，整体光线较暗。照片为清晰矩形窗口，右上部分被右侧近景照片遮挡，上部品牌字样为独立叠加设计。"
+    },
+    {
+      "id": "photo_closeup",
+      "kind": "photo",
+      "bbox": [
+        469,
+        345,
+        963,
+        1085
+      ],
+      "description": "右上竖向彩色人物近景，一名盘发女性背向镜头，头部转向左侧，一只手搭在肩部，银色露肩礼服及背部占据画面下半部。保留浅色室内摄影环境，背景与前景局部失焦，暖暗肤色与侧向亮光形成对比。完整矩形照片覆盖后方黑白照片和左下照片的一部分，下部白色品牌字样独立叠加。"
+    },
+    {
+      "id": "overlay_logo_left",
+      "kind": "overlay",
+      "bbox": [
+        273,
+        683,
+        469,
+        738
+      ],
+      "description": "左下照片上部的白色品牌标识，由连笔签名字形、细小中文品牌名、斜线及英文“WEDDING PHOTOGRAPHY”组成。字形大小和位置共同构成完整固定标识，不拆为普通文字；右端被右侧近景照片截挡。"
+    },
+    {
+      "id": "overlay_logo_right",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        927,
+        883,
+        994
+      ],
+      "description": "右侧近景照片下部的白色品牌标识，上方为带长弧形笔画的连笔签名字形，下方为细小中文品牌名、斜线和疏排英文“WEDDING PHOTOGRAPHY STUDIO”。签名与小字作为完整固定设计保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1033,
+        1593,
+        1075,
+        1618
+      ],
+      "description": "画布右下角很淡的小型圆角水印标识，包含浅色轮廓及内部难以辨认的字形，作为独立固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_monochrome",
+    "photo_full_length",
+    "overlay_logo_left",
+    "photo_closeup",
+    "overlay_logo_right",
+    "overlay_watermark"
+  ]
+}

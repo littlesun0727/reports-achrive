@@ -1,0 +1,107 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        1,
+        1,
+        289,
+        290
+      ],
+      "description": "左上方独立生日庆祝照片，女性坐在蛋糕和蜡烛前，戴生日皇冠并侧头托腮，保留餐桌、香槟杯、蛋糕及室内摄影环境；矩形照片区域被黑色网格分隔。"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        304,
+        1,
+        590,
+        290
+      ],
+      "description": "上方中央独立生日装饰照片，画面主体为黑色数字26蜡烛及火焰，置于浅色背景前；保留完整矩形摄影区域，左右和下方由黑色网格分隔。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        605,
+        1,
+        892,
+        290
+      ],
+      "description": "右上方独立生日庆祝照片，女性手托脸颊面对镜头，身旁有蜡烛、蛋糕、酒杯和彩色纸屑背景；保留完整矩形摄影区域。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        1,
+        605,
+        289,
+        892
+      ],
+      "description": "左下方独立庆祝照片，桌面上的鲜花装饰蛋糕和燃烧的蜡烛位于前景，背景为虚化的花束与室内环境；保留完整矩形摄影区域。"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        304,
+        605,
+        590,
+        892
+      ],
+      "description": "下方中央独立庆祝照片，黑色车内或深色背景中放置粉色生日皇冠，皇冠上可见英文生日字样；上方叠有白色手写祝福字样，均作为照片内容保留。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        605,
+        605,
+        892,
+        892
+      ],
+      "description": "右下方独立生日餐桌照片，画面包含披萨、牛排意面、薯条、餐盘、餐具和酱料；保留完整矩形摄影区域。"
+    },
+    {
+      "id": "overlay_grid",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        894,
+        894
+      ],
+      "description": "贯穿全画布的黑色三列三行分隔网格，形成照片之间约十四至十五像素的黑色间隔，并作为各独立区域之间的固定遮挡结构保留。"
+    },
+    {
+      "id": "overlay_birthday_strip",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        304,
+        894,
+        593
+      ],
+      "description": "横跨中间一整行的固定生日装饰单元，黑色底上包含粉色手写中文祝福、黄色皇冠、彩色烟花、弧形彩带、英文“Happy Birthday”字样和生日蛋糕图案；内容跨越三列区域，作为完整装饰保留，不拆分其中的文字和图案。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_center",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right",
+    "overlay_grid",
+    "overlay_birthday_strip"
+  ]
+}

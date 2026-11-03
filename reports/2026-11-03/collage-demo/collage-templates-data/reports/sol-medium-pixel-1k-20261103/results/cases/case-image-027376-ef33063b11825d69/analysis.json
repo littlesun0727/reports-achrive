@@ -1,0 +1,64 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "黑色背景上的产品静物摄影连续延伸至画布四边，中央偏下是一册斜放、带金属活页环的浅色小本，黄色柠檬横置在本子右下部；主体与黑色环境共同替换，上方及四周留有大面积黑色空间，未见独立照片边界。",
+      "background_type": "photo",
+      "label": "黑色背景上的产品静物摄影连续延伸至画布四边，中央偏下是一册斜",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_lemon",
+      "kind": "text",
+      "bbox": [
+        690,
+        1086,
+        930,
+        1140
+      ],
+      "description": "#lemon",
+      "label": "#lemon",
+      "method": "local",
+      "text": "#lemon",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1414,
+        1072,
+        1435
+      ],
+      "description": "右下角小型半透明灰色圆角水印底及其中的浅色中文标记，作为一体的固定叠加标识保留。",
+      "label": "右下角小型半透明灰色圆角水印底及其中的浅色中文标记，作为一体",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_lemon",
+    "overlay_watermark"
+  ]
+}

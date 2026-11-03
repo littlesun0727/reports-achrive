@@ -1,0 +1,83 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立生活方式照片，画面包含打开的笔记本电脑、屏幕中的女性自拍、桌面上的书籍、玩偶、收纳篮、口红和葡萄柚；保留完整室内摄影环境，矩形区域在下缘与右侧被其他照片及文字遮挡。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上俯拍美妆产品照片，棕色织物背景上放置木质托盘、护肤品和一只手；保留地毯、白色毛巾及产品陈列的完整摄影环境，矩形区域在下缘被标题和下方照片遮挡。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1439
+      ],
+      "description": "左下独立生活方式照片，包含铺在桌面上的书籍、白色花束、饮品、口红和人物脚部，背景可见棕色地毯与圆桌；保留完整摄影环境，顶部被标题和上方照片局部遮挡。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1439
+      ],
+      "description": "右下俯拍美妆与办公照片，包含打开的笔记本电脑、木质托盘、粉色化妆刷、眼影盘和白色书本，背景为浅色布面；保留完整摄影环境，顶部被标题和右上照片局部遮挡。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        674,
+        1052,
+        771
+      ],
+      "description": "横跨画布中部的独立标题字样“30+ 干班从0做自媒体的第7天”，白色粗体字配厚黑色描边，作为完整固定文字装饰叠加在四张照片上。"
+    },
+    {
+      "id": "overlay_follower_stat",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        795,
+        443,
+        857
+      ],
+      "description": "左下方独立数据标签，包含黄色爱心、白色“粉丝”字样、红色上升折线图标和白色“441”数字，整体叠加在左下照片上并作为一个固定设计单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_title",
+    "overlay_follower_stat"
+  ]
+}

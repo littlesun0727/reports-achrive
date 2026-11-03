@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    971,
+    1619
+  ],
+  "objects": [
+    {
+      "id": "paper_landscape_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        971,
+        1619
+      ],
+      "description": "浅米色纤维纸纹铺满画布，左侧印有灰褐色山脉、深色松林和蓝色蜿蜒道路的拼贴式固定图案；保留纸纹及左侧图案，右侧和下方被独立风景照片遮挡。",
+      "background_type": "reference_clean",
+      "label": "浅米色纤维纸纹铺满画布，左侧印有灰褐色山脉、深色松林和蓝色蜿",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_mountain_road",
+      "kind": "photo",
+      "bbox": [
+        82,
+        282,
+        971,
+        1619
+      ],
+      "description": "一张连续的山地公路风景照片，包含右上蓝天下的月亮、远山、中景林地与蜿蜒道路，以及下方横跨画面的公路和一辆白色车辆；摄影环境保留，照片沿不规则撕边轮廓覆盖纸面图案，显示范围延伸至画布右侧和底边。",
+      "label": "一张连续的山地公路风景照片，包含右上蓝天下的月亮、远山、中景",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "paper_landscape_base",
+    "photo_mountain_road"
+  ]
+}

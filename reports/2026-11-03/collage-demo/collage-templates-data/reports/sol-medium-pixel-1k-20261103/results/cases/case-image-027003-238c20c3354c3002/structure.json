@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅色、带明显纤维与皱褶纹理的纸面连续铺满画布，照片之间及四周均可见同一纸纹；保留纸面原样，独立替换两张照片及其上的文字。"
+  },
+  "objects": [
+    {
+      "id": "photo_bride",
+      "kind": "photo",
+      "bbox": [
+        185,
+        245,
+        553,
+        796
+      ],
+      "description": "左上方竖幅婚礼现场照片，一位穿白色蓬裙婚纱的新娘站立并举起一只手，手持花束，身后可见宾客与室内背景；保留完整矩形照片画面及摄影环境。"
+    },
+    {
+      "id": "photo_groomsmen",
+      "kind": "photo",
+      "bbox": [
+        677,
+        963,
+        918,
+        1110
+      ],
+      "description": "右下方横幅近景照片，三名穿深色西装的男性并排侧身朝向左侧，中间人物最清晰突出；保留完整矩形照片画面及室内摄影环境。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        692,
+        1135,
+        906,
+        1174
+      ],
+      "text": "fashion trend\nHappy and ordinary are the most romantic.\nFashion is the pursuit of many people",
+      "color": "#59534F",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_bride",
+    "photo_groomsmen",
+    "text_caption"
+  ]
+}

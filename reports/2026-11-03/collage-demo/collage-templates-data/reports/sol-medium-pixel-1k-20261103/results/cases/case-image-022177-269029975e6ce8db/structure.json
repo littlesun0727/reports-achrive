@@ -1,0 +1,383 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#F4F3DB"
+  },
+  "objects": [
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        673,
+        26,
+        926,
+        407
+      ],
+      "description": "右上竖向黑白街景照片，保留建筑墙面、窗户、地面和一名站立人物的摄影环境。矩形窗口右边与上下边清晰，左下区域被中央彩色人物遮挡，不能按露出的残片缩小范围。"
+    },
+    {
+      "id": "overlay_newspaper",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        139,
+        720,
+        518
+      ],
+      "description": "中央偏右的旧报纸拼贴底片，带密集黑色外文印刷、泛黄纸色及略倾斜的纸边。上部与下部露出的报纸属于同一承底单元，中间被小照片、年份标签和大人物遮挡；保留可见印刷与纸张外观，不补写被遮挡文字。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        459,
+        193,
+        633,
+        449
+      ],
+      "description": "中央竖向彩色照片，一名短卷发女性侧身站立并回头看向镜头，穿浅色上衣、蓝色牛仔裤，携带棕色包；白色建筑外墙和灰色铺地完整保留。窗口四周有依附矩形边界的深绿色粗线，右侧与下部被大人物及标签遮挡。"
+    },
+    {
+      "id": "overlay_center_tape",
+      "kind": "overlay",
+      "bbox": [
+        478,
+        177,
+        540,
+        220
+      ],
+      "description": "压在中央照片左上边缘的灰橄榄色胶带，斜向贴附，两端具有不规则撕裂轮廓，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_unique",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        210,
+        574,
+        273
+      ],
+      "description": "叠在中央照片左上方的黑色手写装饰字“unique and authentic”，含错落的行位、倾斜连笔与下方细长划线，整体保留原有字形，不属于照片实拍内容。"
+    },
+    {
+      "id": "overlay_fashion_card",
+      "kind": "overlay",
+      "bbox": [
+        411,
+        320,
+        520,
+        419
+      ],
+      "description": "倾斜的白色纸标签与其后方错位棕色衬纸组成完整固定装饰，压住中央照片左下区域。纸上排有“FASHION AND STYLE TO REMEMBER”，其中“AND”较大；保留纸边、字样、衬纸及阴影，不包含内口照片。"
+    },
+    {
+      "id": "overlay_paperclip",
+      "kind": "overlay",
+      "bbox": [
+        427,
+        325,
+        454,
+        345
+      ],
+      "description": "卡在时尚纸标签上沿的细线金属回形针，倾斜的双重环形轮廓跨越纸边，独立于纸标签保留。"
+    },
+    {
+      "id": "overlay_year",
+      "kind": "overlay",
+      "bbox": [
+        478,
+        418,
+        610,
+        479
+      ],
+      "description": "压在中央照片底部的倾斜浅卡其色年份标签，带大号黑色“1970”字样；完整保留纸片轮廓和不规则字形，右端被大人物遮挡。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        581,
+        135,
+        881,
+        518
+      ],
+      "description": "中央偏右的大幅女性半身至髋部主体，短卷发，穿棕色夹克、浅色内搭与深色裤子，一只手臂抬起横在额前，另一侧身体垂直延伸至画面下方。沿完整人物及抬臂轮廓去除摄影背景，外周有浅米色宽描边；遮挡报纸、小照片、年份标签及右侧黑白照片。与小照片姿态不同，不建立连续出框关联。"
+    },
+    {
+      "id": "photo_left_portrait",
+      "kind": "photo",
+      "bbox": [
+        34,
+        352,
+        140,
+        473
+      ],
+      "description": "左下小幅女性肩胸近景，短卷发、戴圆形墨镜，身体侧转并朝右侧看。摄影背景沿头发、肩膀和胸部轮廓去除，外围带不规则浅棕米色描边，下缘水平截断；头顶被小胶带局部遮挡。"
+    },
+    {
+      "id": "overlay_portrait_tape",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        341,
+        93,
+        369
+      ],
+      "description": "斜贴在左下人物头顶的小段灰橄榄色胶带，带锯齿状撕裂端部，覆盖人物照片及其外缘描边。"
+    },
+    {
+      "id": "overlay_search",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        26,
+        239,
+        54
+      ],
+      "description": "页首左侧搜索栏固定设计，包含细卡其色矩形外框、左侧黑色放大镜图标与右侧小字“SEARCH”，内部沿用浅色底色，整体保留。"
+    },
+    {
+      "id": "text_home",
+      "kind": "text",
+      "bbox": [
+        295,
+        34,
+        333,
+        46
+      ],
+      "text": "HOME",
+      "color": "#20221D",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_catalogue",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        34,
+        432,
+        50
+      ],
+      "description": "页首导航“CATALOGUE”及紧贴下方的细横线，构成带下划线的完整导航字样，保留其原有组合外观。"
+    },
+    {
+      "id": "text_gallery",
+      "kind": "text",
+      "bbox": [
+        456,
+        34,
+        513,
+        46
+      ],
+      "text": "GALLERY",
+      "color": "#20221D",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_contacts",
+      "kind": "text",
+      "bbox": [
+        547,
+        34,
+        613,
+        46
+      ],
+      "text": "CONTACTS",
+      "color": "#20221D",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        35,
+        118,
+        414,
+        215
+      ],
+      "text": "FESTIVAL\nOF MEMORIES",
+      "color": "#20211D",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_intro",
+      "kind": "text",
+      "bbox": [
+        38,
+        224,
+        265,
+        287
+      ],
+      "text": "LOREM IPSUM DOLOR SIT AMET, CON-\nSECTETUR ADIPISICING ELIT, SED DO\nEIUSMOD TEMPOR INCIDIDUNT UT\nLABORE ET DOLORE MAGNA ALIQUA. UT",
+      "color": "#282A24",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_read_more",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        297,
+        144,
+        332
+      ],
+      "description": "浅卡其色矩形按钮及居中的黑色衬线字“READ MORE”，文字属于按钮载体，作为一个完整固定单元保留。"
+    },
+    {
+      "id": "overlay_inspiration",
+      "kind": "overlay",
+      "bbox": [
+        622,
+        84,
+        798,
+        150
+      ],
+      "description": "横跨浅色底与右上照片左缘的深灰色“Inspiration”连笔艺术字，带大幅弧形起笔、倾斜字势与延伸笔画，保留原有字形。"
+    },
+    {
+      "id": "overlay_style_quote",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        71,
+        888,
+        148
+      ],
+      "description": "叠在右上黑白照片上的白色连笔装饰字，分三行写有“style that will / never go out / of style”。行位与倾斜字形具有独立设计感，整段保留。"
+    },
+    {
+      "id": "overlay_arrow_top",
+      "kind": "overlay",
+      "bbox": [
+        712,
+        45,
+        831,
+        101
+      ],
+      "description": "右上照片顶部的黑色手绘弧线箭头，弧线从右上向左下弯曲，左端箭头指向照片左侧，保留完整不规则线条。"
+    },
+    {
+      "id": "overlay_arrow_right",
+      "kind": "overlay",
+      "bbox": [
+        855,
+        149,
+        900,
+        308
+      ],
+      "description": "右上照片右侧的黑色手绘向下弯曲箭头，长弧线贴着彩色人物右方延伸，末端在黑白照片中下部形成箭头，独立于摄影内容。"
+    },
+    {
+      "id": "text_footer_title",
+      "kind": "text",
+      "bbox": [
+        33,
+        481,
+        358,
+        498
+      ],
+      "text": "IN HONOR OF OLD FASHION",
+      "color": "#20221D",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_footer_social",
+      "kind": "text",
+      "bbox": [
+        33,
+        505,
+        344,
+        518
+      ],
+      "text": "INSTAGRAM/FACEBOOK @FESTMEMORIES24",
+      "color": "#282A24",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_date",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        437,
+        929,
+        480
+      ],
+      "description": "右下日期设计，上方为大号不规则黑色数字“20”，下方为较小粗衬线“APRIL”及细下划线，作为完整日期标识保留不同字号与字形关系。"
+    },
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        787,
+        490,
+        823,
+        518
+      ],
+      "description": "右下黑色几何标识，两侧相向三角形与中间浅色竖向间隙组成一体图案，保留完整轮廓。"
+    },
+    {
+      "id": "overlay_palette",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        492,
+        927,
+        517
+      ],
+      "description": "右下横向排列的三个等大色块，依次为棕色、深蓝绿色和灰卡其色，中间保留均匀浅色间隙，作为完整配色条装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_right",
+    "overlay_newspaper",
+    "photo_center",
+    "overlay_center_tape",
+    "overlay_unique",
+    "overlay_fashion_card",
+    "overlay_paperclip",
+    "overlay_year",
+    "photo_main",
+    "photo_left_portrait",
+    "overlay_portrait_tape",
+    "overlay_search",
+    "text_home",
+    "overlay_catalogue",
+    "text_gallery",
+    "text_contacts",
+    "text_title",
+    "text_intro",
+    "overlay_read_more",
+    "overlay_arrow_top",
+    "overlay_arrow_right",
+    "overlay_inspiration",
+    "overlay_style_quote",
+    "text_footer_title",
+    "text_footer_social",
+    "overlay_date",
+    "overlay_logo",
+    "overlay_palette"
+  ]
+}

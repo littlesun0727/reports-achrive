@@ -1,0 +1,137 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        540,
+        194,
+        952
+      ],
+      "description": "左侧胶片窗口中的独立横向照片，显示一名穿深色服装的人物局部及其户外环境，人物在左侧被画布边缘和胶片框裁切，照片显示区域为矩形。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        226,
+        537,
+        697,
+        952
+      ],
+      "description": "中间胶片窗口中的独立人物照片，显示一名戴浅色动物耳朵发箍、穿黑色皮夹克的年轻男子半身近景，面朝右侧，背后有建筑、树木和人群环境，照片显示区域为矩形。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        727,
+        535,
+        1080,
+        952
+      ],
+      "description": "右侧胶片窗口中的独立夜景照片，显示一名穿深色衣服、戴耳机的年轻人物半身像，位于画面右侧偏中位置，周围保留暗色环境和零散灯光，照片显示区域为矩形。"
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        439,
+        1080,
+        1044
+      ],
+      "description": "横跨画布的黑灰色手绘胶片框，包含上下两条带连续矩形齿孔的胶片边框以及三个独立照片窗口，保留粗糙手绘轮廓、纹理和遮挡照片边缘的框条。",
+      "photo_id": [
+        "photo_left",
+        "photo_center",
+        "photo_right"
+      ]
+    },
+    {
+      "id": "overlay_title_letters",
+      "kind": "overlay",
+      "bbox": [
+        393,
+        130,
+        704,
+        365
+      ],
+      "description": "顶部粉色手绘粗体字母组合，分散排列形成“TUESDAY”字样的装饰标题，带深色不规则描边和手绘填充，作为整体艺术字单元保留，不按普通文字排版拆分。"
+    },
+    {
+      "id": "overlay_tree",
+      "kind": "overlay",
+      "bbox": [
+        779,
+        205,
+        921,
+        420
+      ],
+      "description": "标题右侧的绿色手绘树木图案，包含圆团状树冠、深色轮廓和细长树干，作为独立固定插画保留。"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        930,
+        166,
+        1005,
+        226
+      ],
+      "description": "右上角黑色手绘对话气泡图标，内部有三个点和向左下伸出的气泡尾部，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_rain_cloud",
+      "kind": "overlay",
+      "bbox": [
+        144,
+        983,
+        226,
+        1136
+      ],
+      "description": "胶片框左下方的黑色手绘小云朵及下方雨滴图案，云朵与雨滴共同构成一个独立装饰单元。"
+    },
+    {
+      "id": "overlay_penguin",
+      "kind": "overlay",
+      "bbox": [
+        177,
+        1164,
+        268,
+        1271
+      ],
+      "description": "左下方黑色手绘企鹅插画，包含圆身体、白色脸腹、眼睛、脚和两侧鳍状轮廓，作为完整贴图保留。"
+    },
+    {
+      "id": "overlay_camping_scene",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        1174,
+        1018,
+        1385
+      ],
+      "description": "右下方露营主题手绘组合插画，包含帐篷、悬挂灯、篝火、折叠椅、箱体及写有“Camp”的小推车，成员共同构成一个固定场景装饰并整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "frame_filmstrip",
+    "overlay_title_letters",
+    "overlay_tree",
+    "overlay_speech_bubble",
+    "overlay_rain_cloud",
+    "overlay_penguin",
+    "overlay_camping_scene"
+  ]
+}

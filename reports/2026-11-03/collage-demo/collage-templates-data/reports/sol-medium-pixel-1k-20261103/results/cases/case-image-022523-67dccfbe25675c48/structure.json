@@ -1,0 +1,259 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture_base",
+    "description": "连续的浅灰白色纸张纹理覆盖整个1080×1440画布，并包含画面四周可见的淡灰线稿与印刷质感；独立照片、文字、标签和装饰叠加其上，后续保留纸张与基础线稿并替换摄影内容。"
+  },
+  "objects": [
+    {
+      "id": "text_background_heading",
+      "kind": "text",
+      "bbox": [
+        188,
+        268,
+        361,
+        294
+      ],
+      "text": "BACKGROUND",
+      "color": "#4A4A4A",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_owner_guide",
+      "kind": "text",
+      "bbox": [
+        188,
+        314,
+        556,
+        391
+      ],
+      "text": "Owner's Guide\nTo better understand the world around you, observe the people, places and stories that shape it.",
+      "color": "#666666",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_context_observation",
+      "kind": "text",
+      "bbox": [
+        188,
+        467,
+        394,
+        612
+      ],
+      "text": "Context & Perspective\nWhen examining the world, look beyond the obvious details and consider how different elements connect with one another.",
+      "color": "#666666",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_lower_left_body",
+      "kind": "text",
+      "bbox": [
+        188,
+        667,
+        360,
+        806
+      ],
+      "text": null,
+      "color": "#666666",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_map_road",
+      "kind": "photo",
+      "bbox": [
+        416,
+        548,
+        890,
+        777
+      ],
+      "description": "独立的道路与地图类摄影画面，包含弯曲公路、车道线和右侧车辆，作为中央人物后方的矩形摄影区域显示；边缘带有青绿色描边，摄影环境整体随客户素材替换。"
+    },
+    {
+      "id": "photo_upper_photographers",
+      "kind": "photo",
+      "bbox": [
+        628,
+        250,
+        902,
+        570
+      ],
+      "description": "右上方摄影师组合的抠图照片，至少三名人物举起相机进行观察或拍摄，人物朝向画面左侧与前方；背景已去除，仅保留完整人物、相机和身体轮廓，并沿外轮廓保留青绿色描边。"
+    },
+    {
+      "id": "photo_center_man",
+      "kind": "photo",
+      "bbox": [
+        412,
+        425,
+        704,
+        739
+      ],
+      "description": "中央男性半身抠图照片，人物正面朝向观者，双手展开并持有地图或纸张；人物覆盖道路照片左侧区域，摄影背景去除，完整主体边缘保留青绿色描边。"
+    },
+    {
+      "id": "photo_center_woman",
+      "kind": "photo",
+      "bbox": [
+        421,
+        575,
+        790,
+        903
+      ],
+      "description": "中央女性半身抠图照片，人物面向前方并抬起双手作疑问姿态，位于男性和道路照片前方；摄影背景去除，仅保留完整人物组合，并沿轮廓保留青绿色描边。"
+    },
+    {
+      "id": "photo_tree_center",
+      "kind": "photo",
+      "bbox": [
+        443,
+        793,
+        704,
+        978
+      ],
+      "description": "中央偏下的树木抠图照片，包含完整树冠、树干和底部地面轮廓，位于中央人物下方及底部摄影人物后方；背景去除，边缘保留青绿色描边。"
+    },
+    {
+      "id": "photo_lower_person",
+      "kind": "photo",
+      "bbox": [
+        242,
+        808,
+        688,
+        1203
+      ],
+      "description": "下方大型人物摄影抠图，人物侧向朝右并举起相机观察，旁边可见另一位人物的头部或身体局部；完整主体组合延伸至画面底部，摄影背景去除，轮廓带青绿色描边。"
+    },
+    {
+      "id": "photo_tree_lower_left",
+      "kind": "photo",
+      "bbox": [
+        172,
+        1043,
+        425,
+        1200
+      ],
+      "description": "左下方独立树木抠图，完整保留树冠、树干和底部轮廓，叠放在下方人物左侧前景区域；背景去除，沿树木外轮廓保留青绿色描边。"
+    },
+    {
+      "id": "overlay_label_man",
+      "kind": "overlay",
+      "bbox": [
+        416,
+        565,
+        555,
+        591
+      ],
+      "description": "覆盖在中央男性胸前的黑色横向标签，带细浅色边缘和白色小字，作为完整固定标签保留。"
+    },
+    {
+      "id": "overlay_label_woman",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        693,
+        645,
+        719
+      ],
+      "description": "覆盖在中央女性胸前的黑色横向标签，带细浅色边缘和白色小字，作为完整固定标签保留。"
+    },
+    {
+      "id": "overlay_label_road",
+      "kind": "overlay",
+      "bbox": [
+        698,
+        615,
+        838,
+        641
+      ],
+      "description": "位于道路摄影区域上的黑色横向标签，带细浅色边缘和白色小字，独立压在照片上方。"
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        679,
+        791,
+        913,
+        958
+      ],
+      "description": "右下区域的多只飞鸟线稿装饰，分散排列在浅色纸面上，作为独立固定图形保留，不属于摄影内容。"
+    },
+    {
+      "id": "text_our_goal",
+      "kind": "text",
+      "bbox": [
+        752,
+        957,
+        884,
+        977
+      ],
+      "text": "Our Goal",
+      "color": "#555555",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_our_goal_body",
+      "kind": "text",
+      "bbox": [
+        740,
+        988,
+        899,
+        1112
+      ],
+      "text": null,
+      "color": "#666666",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        696,
+        1159,
+        897,
+        1208
+      ],
+      "description": "右下方黑色手写签名文字及其细长横线装饰，具有独立手写字形和连续笔画，作为完整艺术字装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "text_background_heading",
+    "text_owner_guide",
+    "text_context_observation",
+    "text_lower_left_body",
+    "text_our_goal",
+    "text_our_goal_body",
+    "photo_map_road",
+    "photo_upper_photographers",
+    "photo_center_man",
+    "photo_center_woman",
+    "photo_tree_center",
+    "photo_lower_person",
+    "photo_tree_lower_left",
+    "overlay_birds",
+    "overlay_label_man",
+    "overlay_label_road",
+    "overlay_label_woman",
+    "overlay_signature"
+  ]
+}

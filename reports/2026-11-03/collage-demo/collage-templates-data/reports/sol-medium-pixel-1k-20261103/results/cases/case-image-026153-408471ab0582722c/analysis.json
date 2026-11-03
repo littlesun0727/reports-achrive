@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        718
+      ],
+      "description": "横向山坡风景照片，完整显示天空、云层、草地、山脊上的游客、风力发电机和右侧观景建筑，摄影环境保留为矩形画面；下缘被中间纸张条带分隔。",
+      "label": "横向山坡风景照片，完整显示天空、云层、草地、山脊上的游客、风",
+      "method": "local"
+    },
+    {
+      "id": "overlay_laughter_marks",
+      "kind": "overlay",
+      "bbox": [
+        376,
+        243,
+        668,
+        451
+      ],
+      "description": "叠加在上方风景照片天空区域的黑色手绘笑声设计，包括多处“HA”字样及两侧短线，作为一个独立固定图形整体保留。",
+      "label": "叠加在上方风景照片天空区域的黑色手绘笑声设计，包括多处“HA",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_quote_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        718,
+        1080,
+        879
+      ],
+      "description": "横跨全宽的浅色旧纸质感条带，带有手写中文句子“走去就走，出发的飞鸟，永不回头”和下方横线；纸张纹理、边缘和文字作为同一固定设计单元保留。",
+      "label": "横跨全宽的浅色旧纸质感条带，带有手写中文句子“走去就走，出发",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        879,
+        1080,
+        1440
+      ],
+      "description": "横向近距离人物照片，画面中一名戴宽檐帽和防晒面罩的年轻人物从下方仰拍，手部在脸前比出手势，穿浅色衣物，背景为明亮天空；保留完整摄影环境和人物姿态，照片下缘延伸至画布底边。",
+      "label": "横向近距离人物照片，画面中一名戴宽檐帽和防晒面罩的年轻人物从",
+      "method": "local"
+    },
+    {
+      "id": "overlay_go_bubble",
+      "kind": "overlay",
+      "bbox": [
+        119,
+        943,
+        381,
+        1148
+      ],
+      "description": "位于下方人物照片左上区域的白色云朵形对话气泡，带黑色手绘轮廓和黑色斜体“go”字样；气泡覆盖照片背景，作为独立固定贴纸整体保留。",
+      "label": "位于下方人物照片左上区域的白色云朵形对话气泡，带黑色手绘轮廓",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_landscape",
+    "overlay_laughter_marks",
+    "overlay_quote_paper",
+    "photo_bottom_portrait",
+    "overlay_go_bubble"
+  ]
+}

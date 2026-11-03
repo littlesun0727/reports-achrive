@@ -1,0 +1,76 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        53,
+        271,
+        498,
+        893
+      ],
+      "description": "左侧竖幅照片，一位黑色短发女性穿蓝白格纹短袖上衣和白色长裙，在户外道路上蹲坐，面向镜头微笑，双臂抬起将冰淇淋举在头顶。保留完整摄影环境，包括蓝灰色路面、白色道路标线及人物投影；照片显示于胶片左侧内口，边缘受黑色框沿遮挡，没有沿人物轮廓去背景。",
+      "label": "左侧竖幅照片，一位黑色短发女性穿蓝白格纹短袖上衣和白色长裙，",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        589,
+        271,
+        1034,
+        893
+      ],
+      "description": "右侧竖幅照片，一位黑色短发女性穿蓝白格纹短袖上衣，侧身靠近白色网格围栏，转头看向镜头，一手持冰淇淋，另一手靠在围栏上。画面为半身近景，保留围栏和远处虚化的户外环境；照片显示于胶片右侧内口，边缘受黑色框沿遮挡，没有沿人物轮廓去背景。",
+      "label": "右侧竖幅照片，一位黑色短发女性穿蓝白格纹短袖上衣，侧身靠近白",
+      "method": "local"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        162,
+        1080,
+        991
+      ],
+      "description": "横贯画布的黑色双窗口胶片框，左右两端被画布截断，完整保留上下两排浅色齿孔、两张照片之间的宽黑色分隔带、窗口周围不规则暗色边沿、磨损颗粒与细微划痕。上缘黄色印字为“FUJI RDPⅢ”，下缘左侧有黄色空心箭头，均属于框体自身设计。框沿位于照片上方，遮住照片边缘。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横贯画布的黑色双窗口胶片框，左右两端被画布截断，完整保留上下",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right",
+    "frame_film"
+  ]
+}

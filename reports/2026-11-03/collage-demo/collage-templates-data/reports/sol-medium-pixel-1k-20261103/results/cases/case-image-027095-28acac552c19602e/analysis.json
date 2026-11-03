@@ -1,0 +1,128 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    2339
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        2339
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        771
+      ],
+      "description": "顶部独立横向摄影画面，浅色纸页斜向铺开，纸面有淡灰树枝投影，左侧露出纸页边缘，顶部和底部露出局部深色图像。纸面可辨倾斜字样“BingXiSuiBi”，随被摄纸页保留。完整保留纸张、投影及周围摄影内容，下缘在横向拼接处裁切，不按纸页轮廓去背景。",
+      "label": "顶部独立横向摄影画面，浅色纸页斜向铺开，纸面有淡灰树枝投影，",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        771,
+        1080,
+        1571
+      ],
+      "description": "中部独立横向照片，一只穿浅色宽袖衣服的手从左下伸入，举着透明包装的方形唱片，封面是黑发、蓝色泪滴的卡通面孔，右上有价格标签；背景为灰色铺地，右上露出深色区域。手、唱片及地面共同替换，保留完整摄影环境；上方白色字样和点阵装饰是独立叠加内容。",
+      "label": "中部独立横向照片，一只穿浅色宽袖衣服的手从左下伸入，举着透明",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1571,
+        1080,
+        2339
+      ],
+      "description": "底部独立摄影画面，一枝细长绿色花茎与白色花朵位于中间偏右，沿灰色砖块和粗糙路面的接缝伸展，右侧地面可见枝叶投影。无人物，完整保留花朵、茎叶、砖块、路面及投影，照片延伸至画布左右和底边，与中部照片在上缘直接拼接。",
+      "label": "底部独立摄影画面，一枝细长绿色花茎与白色花朵位于中间偏右，沿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_rain_lettering",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        771,
+        631,
+        973
+      ],
+      "description": "中部照片上缘的白色细线英文花体“cry in the rain”，包含长弧形起笔、连写笔画和向左下延伸的花体线条。字形有特定笔画造型，作为完整艺术字保留；左侧及顶部部分笔画被该区域边界截断。",
+      "label": "中部照片上缘的白色细线英文花体“cry in the rai",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dotted_left",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        975,
+        302,
+        1246
+      ],
+      "description": "中部照片左侧、手部上方的白色点阵星芒装饰，由疏密变化的小圆点形成多方向尖角及内部纹样，整体作为一个固定装饰保留，不包含后方地面。",
+      "label": "中部照片左侧、手部上方的白色点阵星芒装饰，由疏密变化的小圆点",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dotted_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        771,
+        1058,
+        1071
+      ],
+      "description": "中部照片右上角的白色点阵星形组合，包含相互叠接的星形轮廓和内部散点；顶部被中部区域上边界截断，下部伸向唱片上方。连续的点阵组合整体保留，不并入照片。",
+      "label": "中部照片右上角的白色点阵星形组合，包含相互叠接的星形轮廓和内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dotted_bottom_fragment",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        1539,
+        884,
+        1571
+      ],
+      "description": "中部照片靠近下缘、偏右位置可见的一小段白色点阵装饰，数个亮点竖向排列，下端在照片拼接边界处截断。只记录可见残段，不推测画布中未显示的完整造型。",
+      "label": "中部照片靠近下缘、偏右位置可见的一小段白色点阵装饰，数个亮点",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_rain_lettering",
+    "overlay_dotted_left",
+    "overlay_dotted_upper_right",
+    "overlay_dotted_bottom_fragment"
+  ]
+}

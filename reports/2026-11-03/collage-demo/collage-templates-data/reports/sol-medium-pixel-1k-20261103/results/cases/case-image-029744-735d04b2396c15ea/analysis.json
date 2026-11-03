@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_couple",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        822,
+        1440
+      ],
+      "description": "左侧竖幅室内双人近景照片：穿深色衣服的男子从上方俯身靠近女子，女子仰头闭眼，两人手部相握；窗边自然光与室内环境均保留。照片显示区域延伸至画布上、左、下边缘，右侧以笔直边界结束，未见抠除摄影背景。",
+      "label": "左侧竖幅室内双人近景照片：穿深色衣服的男子从上方俯身靠近女子",
+      "method": "local"
+    },
+    {
+      "id": "overlay_panel",
+      "kind": "overlay",
+      "bbox": [
+        822,
+        0,
+        1080,
+        1440
+      ],
+      "description": "右侧贯穿全高的独立纯白竖向留白面板，与左侧照片沿直线边界相接，作为固定版面设计保留。",
+      "label": "右侧贯穿全高的独立纯白竖向留白面板，与左侧照片沿直线边界相接",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_wordmark",
+      "kind": "overlay",
+      "bbox": [
+        1003,
+        75,
+        1027,
+        417
+      ],
+      "description": "白色面板上的黑色竖向字标“SHIZHI STUDIO”，字母大写、衬线、字距疏朗，整体沿竖直方向排列；作为具有特定版式造型的固定艺术字整体保留。",
+      "label": "白色面板上的黑色竖向字标“SHIZHI STUDIO”，字母",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_couple",
+    "overlay_panel",
+    "overlay_wordmark"
+  ]
+}

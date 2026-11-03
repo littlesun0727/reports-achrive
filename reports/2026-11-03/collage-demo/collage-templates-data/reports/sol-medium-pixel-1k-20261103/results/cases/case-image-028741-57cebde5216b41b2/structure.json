@@ -1,0 +1,301 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续覆盖1080×1440画布的棕金色纸张纹理底图，边缘和照片之间均保持同一颗粒、明暗与纸面质感；三张独立照片、手绘线条、文字和装饰覆盖其上，底图本身不承担摄影内容替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        412,
+        56,
+        1028,
+        479
+      ],
+      "description": "横向山野人物照片，画面包含蓝天、远山、草地和一名位于右侧的女性全身或大半身人物，人物侧身朝左并携带蓝色包袋；摄影环境完整保留，矩形照片区域被下方橙色手绘箭头局部覆盖。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        192,
+        512,
+        768,
+        911
+      ],
+      "description": "横向山谷风景照片，包含天空、云层、山脊、草坡、左侧观景平台上的游客及远处零散人物；摄影环境完整保留，照片右下区域被蓝色杯子涂鸦局部覆盖，橙色和黄色箭头位于照片及其边缘上方。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        76,
+        946,
+        676,
+        1360
+      ],
+      "description": "横向山地湖景人物照片，包含湖泊、山脉、草地和前景一名侧身女性，人物带红色头发并携带红色手提袋；摄影环境完整保留，照片上方有黄色箭头涂鸦，右下邻近紫色手绘括号。"
+    },
+    {
+      "id": "overlay_top_yellow_bracket",
+      "kind": "overlay",
+      "bbox": [
+        368,
+        10,
+        607,
+        250
+      ],
+      "description": "位于顶部照片左上方的黄色手绘直角线条，由顶部横线和左侧竖线组成，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_orange_arrow",
+      "kind": "overlay",
+      "bbox": [
+        463,
+        421,
+        611,
+        626
+      ],
+      "description": "从中部照片下方弯曲指向顶部照片人物区域的橙色手绘箭头，包含完整弧线、箭头头部和覆盖照片边缘的笔画。"
+    },
+    {
+      "id": "overlay_yellow_arrow",
+      "kind": "overlay",
+      "bbox": [
+        159,
+        878,
+        345,
+        1058
+      ],
+      "description": "连接中部照片与底部照片的黄色手绘弯曲箭头，包含完整曲线、圆环状转折和指向左下方的箭头头部。"
+    },
+    {
+      "id": "overlay_ice_lettering",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        487,
+        980,
+        737
+      ],
+      "description": "右侧连续排列的青绿色、蓝色和紫色手绘“ice”字样及其小点状笔画，作为独立装饰文字整体保留，不按普通字体文字拆分。"
+    },
+    {
+      "id": "overlay_cup_doodle",
+      "kind": "overlay",
+      "bbox": [
+        721,
+        792,
+        828,
+        1010
+      ],
+      "description": "中右侧蓝色手绘饮料杯，包含杯口、杯身、内部冰块、绿色吸管和绿色装饰笔画，整体作为独立固定涂鸦并覆盖中部照片右下区域。"
+    },
+    {
+      "id": "overlay_purple_bracket",
+      "kind": "overlay",
+      "bbox": [
+        399,
+        1186,
+        716,
+        1403
+      ],
+      "description": "底部照片右下方的紫色手绘直角括号，由右侧竖线和底部横线组成，包含完整笔刷边缘。"
+    },
+    {
+      "id": "overlay_left_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        139,
+        366,
+        463
+      ],
+      "description": "画布左侧六行白色手写中文宣传文字，字形不规则并带有手绘笔画和装饰点，作为整体艺术字样保留，不拆分为普通文字对象。"
+    },
+    {
+      "id": "overlay_right_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        721,
+        1105,
+        1004,
+        1336
+      ],
+      "description": "画布右下侧四行白色手写中文文字，内容可辨识为关于留白、小仪写真、红色包包和赞助的说明，字形和排版具有手绘装饰性，整体作为固定艺术字样保留。"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        133,
+        85,
+        161,
+        114
+      ],
+      "description": "左上区域纸面上的浅黄色手绘星形装饰。"
+    },
+    {
+      "id": "overlay_star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        209,
+        52,
+        236
+      ],
+      "description": "画布左侧上方的浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_left_center",
+      "kind": "overlay",
+      "bbox": [
+        134,
+        250,
+        157,
+        273
+      ],
+      "description": "左侧文字附近的小型浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_left_mid",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        449,
+        96,
+        475
+      ],
+      "description": "左侧文字下方的浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_left_small",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        543,
+        59,
+        560
+      ],
+      "description": "左侧中部的小型浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        674,
+        81,
+        701
+      ],
+      "description": "左侧下方的浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_far_left_lower",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        756,
+        46,
+        774
+      ],
+      "description": "画布左侧靠下的小型浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        1013,
+        679,
+        1034,
+        703
+      ],
+      "description": "右侧中上方的小型浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_right_mid",
+      "kind": "overlay",
+      "bbox": [
+        887,
+        769,
+        917,
+        798
+      ],
+      "description": "杯子涂鸦右上方的浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_right_large",
+      "kind": "overlay",
+      "bbox": [
+        961,
+        929,
+        998,
+        970
+      ],
+      "description": "右侧文字上方的大型浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_right_text",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        1091,
+        900,
+        1117
+      ],
+      "description": "右侧手写文字附近的小型浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_right_lower",
+      "kind": "overlay",
+      "bbox": [
+        994,
+        1126,
+        1026,
+        1155
+      ],
+      "description": "右侧手写文字旁的浅黄色星形装饰。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        871,
+        1258,
+        901,
+        1287
+      ],
+      "description": "画布右下区域的浅黄色星形装饰。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_top_yellow_bracket",
+    "overlay_orange_arrow",
+    "overlay_yellow_arrow",
+    "overlay_ice_lettering",
+    "overlay_cup_doodle",
+    "overlay_purple_bracket",
+    "overlay_left_handwriting",
+    "overlay_right_handwriting",
+    "overlay_star_top",
+    "overlay_star_left_upper",
+    "overlay_star_left_center",
+    "overlay_star_left_mid",
+    "overlay_star_left_small",
+    "overlay_star_left_lower",
+    "overlay_star_far_left_lower",
+    "overlay_star_right_upper",
+    "overlay_star_right_mid",
+    "overlay_star_right_large",
+    "overlay_star_right_text",
+    "overlay_star_right_lower",
+    "overlay_star_bottom_right"
+  ]
+}

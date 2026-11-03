@@ -1,0 +1,60 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        34,
+        28,
+        524,
+        760
+      ],
+      "description": "左侧竖幅山地风景照片，蓝天、积雪山峰与前景荒地共同构成完整摄影画面；照片边缘为直线，右下部分被叠放的下方照片遮挡。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        704,
+        54,
+        1080,
+        476
+      ],
+      "description": "右上方横幅照片，远处雪山、山脚植被、建筑街道及行人车辆共同构成摄影画面；矩形照片窗口完整显示，周围露出黑色底色。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        486,
+        494,
+        1080,
+        1052
+      ],
+      "description": "右下方横幅照片，蓝天、林线、土黄色空地与前景木栅栏共同构成完整摄影画面；左上区域覆盖左侧照片的右下部分，照片下沿上方露出黑色底色。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1053,
+        1073,
+        1073
+      ],
+      "description": "画布右下角黑色留白上的小型浅色平台标记，包含圆角底形与细小字样，作为整体固定水印保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_upper_right",
+    "photo_lower_right",
+    "overlay_watermark"
+  ]
+}

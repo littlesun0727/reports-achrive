@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "purple_texture_base",
+    "description": "全画布连续的紫黑色颗粒纹理底图，中部偏浅紫，底部偏黑，颜色变化与噪点延伸至四边。保留渐变和颗粒质感；人物、线框、文字及贴纸均为独立上层内容，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "overlay_perspective_grid",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        560,
+        208
+      ],
+      "description": "左上方蓝紫色透视网格，横纵线共同构成向画布上缘收缩的网面，上端和左端被画布裁切，整体作为独立固定线稿保留。"
+    },
+    {
+      "id": "overlay_geometric_lines",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        179,
+        623,
+        840
+      ],
+      "description": "左侧至中部的一组相互交叠的蓝紫色几何线框，包含倾斜长方形、横向矩形、小方框及左下斜线结构。完整保留细线与交叉关系；局部被记事本、电脑贴纸和人物遮挡，左侧部分伸出画布。"
+    },
+    {
+      "id": "overlay_wifi",
+      "kind": "overlay",
+      "bbox": [
+        891,
+        35,
+        1066,
+        174
+      ],
+      "description": "右上角无线网络图标，三层弧带由紫色过渡到蓝色，下方带蓝色圆点，保留各成员之间的空隙及颗粒质感。"
+    },
+    {
+      "id": "overlay_notepad",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        230,
+        461,
+        348
+      ],
+      "description": "紫色标题栏的复古记事本窗口，包含应用图标、最小化和关闭按钮、白色编辑区及滚动条。标题为“Untitled - Notepad”，菜单为“File Edit Format View Help”，正文分两行为“you are the thought that keeps me”和“up at night.”，末尾带光标。全部界面及文字随完整窗口保留。"
+    },
+    {
+      "id": "text_emptiness",
+      "kind": "text",
+      "bbox": [
+        154,
+        457,
+        505,
+        532
+      ],
+      "text": "emptiness",
+      "color": "#5833E5",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_double_drops",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        403,
+        582,
+        470
+      ],
+      "description": "中部偏左并排的两枚水滴装饰，左大右小，内部为浅青色，外缘为白色与淡紫色线条。两滴构成同一局部点缀，完整保留轮廓和间隙。"
+    },
+    {
+      "id": "overlay_computer",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        542,
+        416,
+        802
+      ],
+      "description": "左下偏中的像素风立体台式电脑贴纸，包含灰紫色CRT显示器、青色屏幕、屏幕内的小图标和下方主机底座。保留像素阶梯轮廓、黑色结构线、亮部和暗部，整体为固定装饰。"
+    },
+    {
+      "id": "overlay_nice",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        837,
+        478,
+        1039
+      ],
+      "description": "左下方倾斜的“Nice”艺术字，紫色书法笔画配青绿色立体偏移侧面，字母彼此连贯，保留特定笔画造型、多色边缘和立体质感，不拆为普通文字。"
+    },
+    {
+      "id": "photo_man",
+      "kind": "photo",
+      "bbox": [
+        516,
+        154,
+        1055,
+        1080
+      ],
+      "description": "右侧一名黑发年轻男性，穿蓝色短袖T恤，站立，身体朝向正面，头转向左侧，双臂自然下垂，显示头部至腰胯附近，双手与下身被画布底缘裁切。摄影环境已沿完整人物轮廓去除，人物及衣服带颗粒质感，外侧有宽淡紫色轮廓描边，覆盖身后的几何线框；描边属于此照片，不是独立底板。"
+    },
+    {
+      "id": "overlay_single_drop",
+      "kind": "overlay",
+      "bbox": [
+        869,
+        237,
+        930,
+        307
+      ],
+      "description": "人物头部右上方的独立水滴贴纸，淡蓝紫色填充、紫色外缘及右侧白色弯曲高光，完整保留水滴造型。"
+    }
+  ],
+  "layer_order": [
+    "overlay_perspective_grid",
+    "overlay_geometric_lines",
+    "overlay_wifi",
+    "overlay_notepad",
+    "text_emptiness",
+    "overlay_double_drops",
+    "overlay_computer",
+    "overlay_nice",
+    "photo_man",
+    "overlay_single_drop"
+  ]
+}

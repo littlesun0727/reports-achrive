@@ -1,0 +1,90 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#40311E"
+      }
+    },
+    {
+      "id": "photo_interior",
+      "kind": "photo",
+      "bbox": [
+        0,
+        630,
+        1080,
+        1440
+      ],
+      "description": "下方横向室内摄影画面，无人物。两把棕色编织折叠椅位于中央，左边缘露出另一把椅子；玻璃桌上摆有餐盘、杯具和搭垂的红色布巾。落地窗外可见白色汽车、灰白院墙及绿叶，右侧有立柱和黑色箱体，下方保留木地板。完整照片窗口从水平上边界延伸至画布左右边及底边，保留全部摄影环境，边缘为清晰裁切。",
+      "label": "下方横向室内摄影画面，无人物。两把棕色编织折叠椅位于中央，左",
+      "method": "local"
+    },
+    {
+      "id": "text_mid_afternoon",
+      "kind": "text",
+      "bbox": [
+        469,
+        288,
+        612,
+        309
+      ],
+      "description": "mid- afternoon",
+      "label": "mid- afternoon",
+      "method": "local",
+      "text": "mid- afternoon",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5ECD9",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        518,
+        324,
+        562,
+        341
+      ],
+      "description": "17:24",
+      "label": "17:24",
+      "method": "local",
+      "text": "17:24",
+      "text_status": "known",
+      "style": {
+        "fill": "#F5ECD9",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_interior",
+    "text_mid_afternoon",
+    "text_time"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "lipprint_background",
+    "description": "浅乳白色、带细微旧纸质感的底图，印有多枚红色唇印；顶部与底部的唇印及纸纹共同构成固定设计。中央人像照片遮住其间部分底图，保留底图原样，不将局部唇印拆作独立对象。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        359,
+        1080,
+        1080
+      ],
+      "description": "横向铺满画宽的女性近景自拍照片：一名长发女性正面看向镜头，头部与肩部入镜，右侧露出肩臂及室内背景。照片显示为横向矩形，上下边缘清晰；摄影环境保留。数枚红色唇印图案叠在照片上，另作独立装饰记录。"
+    },
+    {
+      "id": "overlay_lip_upper_center",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        244,
+        731,
+        411
+      ],
+      "description": "红色唇印装饰位于画面上方中央，跨越人像照片的上边缘，部分压在照片之上；保留不规则印痕和纸感纹理。"
+    },
+    {
+      "id": "overlay_lip_left",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        592,
+        296,
+        778
+      ],
+      "description": "照片左侧头发上的红色唇印装饰，带深色局部印痕，作为独立图案保留。"
+    },
+    {
+      "id": "overlay_lip_right",
+      "kind": "overlay",
+      "bbox": [
+        777,
+        586,
+        1080,
+        892
+      ],
+      "description": "照片右侧、肩臂上方的大片红色唇印装饰，部分延伸至画布右边缘，带深色印痕和不均匀的印刷纹理。"
+    },
+    {
+      "id": "overlay_lip_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        936,
+        370,
+        1080
+      ],
+      "description": "照片左下方头发上的红色唇印装饰，延伸至画布左边缘及照片下边缘，保留完整可见范围与不规则印痕。"
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "overlay_lip_upper_center",
+    "overlay_lip_left",
+    "overlay_lip_right",
+    "overlay_lip_lower_left"
+  ]
+}

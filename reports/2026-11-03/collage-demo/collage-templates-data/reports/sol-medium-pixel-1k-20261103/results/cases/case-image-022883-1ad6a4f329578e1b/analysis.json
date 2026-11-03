@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    2139
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        2139
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        718
+      ],
+      "description": "顶部横向演唱会照片，单人男性歌手穿灰色西装、手持麦克风站在画面左中部，面向前方；身后是紫蓝色舞台灯光与飘落彩带，右上角带有摄影画面内的标识。照片完整铺满顶部区域，底缘与下一张照片直接拼接。",
+      "label": "顶部横向演唱会照片，单人男性歌手穿灰色西装、手持麦克风站在画",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        718,
+        1080,
+        1428
+      ],
+      "description": "中部横向舞台全景照片，明亮灯架、观众灯海、舞台上的多名表演者和中央卡通形象共同构成完整摄影画面；中间屏幕上的白色中文书法为照片内的舞台内容，不单独拆分为文字对象。照片完整铺满中部区域，与上下照片形成直接拼接。",
+      "label": "中部横向舞台全景照片，明亮灯架、观众灯海、舞台上的多名表演者",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1428,
+        1080,
+        2139
+      ],
+      "description": "底部横向演唱会照片，左侧为手持麦克风并举起黄色物件的男性歌手，右侧为穿白蓝宇航服的大型卡通宇航员玩偶，背景有舞台屏幕、彩纸和紫色灯带；两者及完整舞台环境属于同一摄影画面，底缘延伸至画布边界。",
+      "label": "底部横向演唱会照片，左侧为手持麦克风并举起黄色物件的男性歌手",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

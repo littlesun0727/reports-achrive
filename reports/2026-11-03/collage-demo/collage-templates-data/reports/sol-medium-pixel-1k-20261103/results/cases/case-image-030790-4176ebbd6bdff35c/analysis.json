@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    972,
+    1619
+  ],
+  "objects": [
+    {
+      "id": "paper_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        972,
+        1619
+      ],
+      "description": "连续覆盖全画布的暖米色纸张纹理，作为固定拼贴底材保留；纸纹出现在照片不覆盖的四周和撕裂边缘间隙，独立照片与蓝色笔刷图形不并入底图。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的暖米色纸张纹理，作为固定拼贴底材保留；纸纹出",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_blue_brush_river",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        89,
+        972,
+        1619
+      ],
+      "description": "固定的深蓝色手绘笔刷状蜿蜒图形，沿画布右上方和底部延伸，中段被中央景观照片遮挡，保留粗糙笔触、断裂边缘和不规则覆盖范围，作为照片下方的独立装饰层。",
+      "label": "固定的深蓝色手绘笔刷状蜿蜒图形，沿画布右上方和底部延伸，中段",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lake_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        972,
+        1428
+      ],
+      "description": "一张俯视湖泊与森林的风景照片，主体为青蓝色弯曲湖水、两侧针叶林和金黄色秋树，摄影环境完整保留；照片以不规则撕纸形状显示，边缘露出纸底，部分区域覆盖下方蓝色笔刷图形。",
+      "label": "一张俯视湖泊与森林的风景照片，主体为青蓝色弯曲湖水、两侧针叶",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "paper_texture",
+    "overlay_blue_brush_river",
+    "photo_lake_landscape"
+  ]
+}

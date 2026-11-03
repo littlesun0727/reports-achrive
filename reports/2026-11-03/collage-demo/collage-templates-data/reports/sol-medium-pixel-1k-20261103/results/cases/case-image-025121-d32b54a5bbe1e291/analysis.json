@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1024,
+    1536
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1024,
+        720
+      ],
+      "description": "上半幅横向照片：一名长发女子穿灰黑外套、浅色裤子，坐在广场地面中央偏右，面向镜头微笑；周围有多只白鸽与灰鸽，上缘可见行人的腿、推车和地面长影，右缘有局部入镜的人。保留完整石板广场摄影环境，照片延伸至画布上、左、右三边，下缘呈水平裁切，人物下部随窗口截断。",
+      "label": "上半幅横向照片：一名长发女子穿灰黑外套、浅色裤子，坐在广场地",
+      "method": "local"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        720,
+        1024,
+        1536
+      ],
+      "description": "仅覆盖下半幅的浅米黄色纸张底板，上缘水平，与上方照片相接，左右及下缘抵达画布边界。保留纸纤维、泛黄斑驳和零散深色小斑点；不承担照片窗口功能。其上文字和人物鸽群插画分别列为独立对象，不并入纸张。",
+      "label": "仅覆盖下半幅的浅米黄色纸张底板，上缘水平，与上方照片相接，左",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_illustration",
+      "kind": "overlay",
+      "bbox": [
+        277,
+        1006,
+        975,
+        1364
+      ],
+      "description": "下部完整艺术插画：中央偏右为无五官的长发坐姿女子，黑色与灰色外套、米色裤子，以粗糙印刷笔触表现；周围分布数只白色鸽子，右侧鸽子有黑尾，下方横贯深蓝色宽阔刷痕。人物、鸽群及蓝色地面笔触共同构成固定插画单元，保留内部留白和斑驳质感，不作为摄影内容替换。",
+      "label": "下部完整艺术插画：中央偏右为无五官的长发坐姿女子，黑色与灰色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_calligraphy",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        850,
+        454,
+        1139
+      ],
+      "description": "左下独立黑色手写书法字样，共五行：“众鸽归于虚空”“灵魂归于自由”“剪碎那些标签般的定义”“她本身”“就是一首不需要翻译的诗”。各行长度不同，笔画具有不规则书写造型，整体保留原有字形、行间布局和墨迹边缘；末行位于插画左侧鸽群之前。",
+      "label": "左下独立黑色手写书法字样，共五行：“众鸽归于虚空”“灵魂归于",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "overlay_paper",
+    "photo_top",
+    "overlay_illustration",
+    "overlay_calligraphy"
+  ]
+}

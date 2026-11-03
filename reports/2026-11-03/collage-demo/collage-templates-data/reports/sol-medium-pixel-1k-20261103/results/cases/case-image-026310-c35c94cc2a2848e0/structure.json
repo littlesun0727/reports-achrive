@@ -1,0 +1,187 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        0,
+        920,
+        1080,
+        1440
+      ],
+      "description": "下半部独立户外照片，草地、树木和阴暗林地构成完整摄影画面，人物横向躺在草地上，头部位于画面右侧、双腿伸向左侧，整体显示区域延伸至画布下边缘。"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        924
+      ],
+      "description": "上半部独立户外照片，包含大树、池塘、树林、草地和一名撑白色雨伞的女性，女性位于左中部并面向右侧，保留完整摄影环境，底缘被横向装饰带局部遮挡。"
+    },
+    {
+      "id": "overlay_banner",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        918,
+        1080,
+        1000
+      ],
+      "description": "横跨画布的半透明深色装饰带，包含白色猫形图标、圆点、爱心、星星、加号及手写字样“Soft clouds”，作为一个整体固定设计单元覆盖上下两张照片的接缝。"
+    },
+    {
+      "id": "photo_oval",
+      "kind": "photo",
+      "bbox": [
+        761,
+        663,
+        1035,
+        1048
+      ],
+      "description": "右侧椭圆照片窗口内的独立户外照片，女性撑伞站在树旁的小路和水边，人物位于窗口中下部，保留树木、草地和水面环境，照片内容按椭圆窗口显示。"
+    },
+    {
+      "id": "frame_oval",
+      "kind": "frame",
+      "bbox": [
+        744,
+        644,
+        1050,
+        1062
+      ],
+      "description": "承载右侧椭圆照片的浅绿色椭圆框体，包含不规则手绘感边缘和完整外轮廓，框沿覆盖照片边缘并作为独立固定窗口保留。",
+      "photo_id": [
+        "photo_oval"
+      ]
+    },
+    {
+      "id": "overlay_music_notes",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        190,
+        365,
+        273
+      ],
+      "description": "位于左上树干前方的白色手绘音乐符号组合，包含音符、五线式短线、圆点和星形点缀，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_cloud_left",
+      "kind": "overlay",
+      "bbox": [
+        101,
+        588,
+        235,
+        706
+      ],
+      "description": "女性左侧树干与草地附近的白色发光云朵线稿装饰，包含连续云形轮廓和内部小圆点，整体作为一个固定单元保留。"
+    },
+    {
+      "id": "overlay_cloud_right",
+      "kind": "overlay",
+      "bbox": [
+        381,
+        596,
+        491,
+        704
+      ],
+      "description": "女性右侧池塘上方的白色发光云朵线稿装饰，包含云形轮廓、圆点和小星形点缀，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_top_dots",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        0,
+        897,
+        205
+      ],
+      "description": "画面右上树叶区域的白色点阵装饰，形成分散的矩形点阵和局部渐隐效果，独立叠加在摄影画面之上。"
+    },
+    {
+      "id": "overlay_pond_dots",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        695,
+        797,
+        844
+      ],
+      "description": "池塘中央偏下的白色点阵与星光装饰，包含弧形点线、散落圆点和小星形符号，作为完整固定图案保留。"
+    },
+    {
+      "id": "overlay_frame_flower",
+      "kind": "overlay",
+      "bbox": [
+        928,
+        613,
+        1012,
+        723
+      ],
+      "description": "椭圆照片框右上方跨在边缘附近的白色植物与花瓣线稿装饰，包含叶片、花瓣和细线轮廓，独立覆盖在椭圆框附近。"
+    },
+    {
+      "id": "overlay_lower_heart",
+      "kind": "overlay",
+      "bbox": [
+        201,
+        1287,
+        339,
+        1393
+      ],
+      "description": "下半部左侧草地上的白色爱心线稿和点阵装饰，包含心形轮廓、散落圆点与小光点，作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_lower_flowers",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        1202,
+        894,
+        1376
+      ],
+      "description": "下半部右侧树林前的白色手绘花朵装饰，包含两朵花、旋涡线、圆点、菱形和星形点缀，整体作为独立图案保留。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        650,
+        260,
+        1014,
+        380
+      ],
+      "text": "The light slowly softens, the sky\nfading from orange to lilac. Doing\nnothing but watching this gentle fade\nas if everything can be forgiven,\neverything embraced.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_lower",
+    "photo_upper",
+    "overlay_banner",
+    "photo_oval",
+    "frame_oval",
+    "overlay_music_notes",
+    "overlay_cloud_left",
+    "overlay_cloud_right",
+    "overlay_top_dots",
+    "overlay_pond_dots",
+    "overlay_frame_flower",
+    "overlay_lower_heart",
+    "overlay_lower_flowers",
+    "text_quote"
+  ]
+}

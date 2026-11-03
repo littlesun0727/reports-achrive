@@ -1,0 +1,130 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "浅暖灰米色纸面连续铺满全画布，带轻微细腻纸纹与色差；胶片条、纸票、鞋子插画和 KYOTO 字样均为独立单元，底纸保留原样。",
+      "background_type": "reference_clean",
+      "label": "浅暖灰米色纸面连续铺满全画布，带轻微细腻纸纹与色差；胶片条、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "frame_filmstrip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        394,
+        1080,
+        1038
+      ],
+      "description": "横贯画面的深灰黑色纹理胶片条，边缘略不规则，上下两排白色方形齿孔；形成三个独立照片窗口，作为一体式固定承载框体保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_center",
+        "photo_right"
+      ],
+      "label": "横贯画面的深灰黑色纹理胶片条，边缘略不规则，上下两排白色方形",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        528,
+        100,
+        912
+      ],
+      "description": "胶片条最左侧窗口中的窄幅照片，可见橙褐色岩壁与深色洞口一角；摄影环境保留，窗口在画布左边缘处被截断。",
+      "label": "胶片条最左侧窗口中的窄幅照片，可见橙褐色岩壁与深色洞口一角；",
+      "method": "local"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        125,
+        529,
+        708,
+        914
+      ],
+      "description": "横向遗址照片，古代圆形剧场石阶与柱廊构成环境；一名戴宽檐帽和墨镜、穿蓝色花裙的女性站在画面偏右处，近全身入镜，朝向镜头。摄影环境保留在矩形窗口内。",
+      "label": "横向遗址照片，古代圆形剧场石阶与柱廊构成环境；一名戴宽檐帽和",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        732,
+        529,
+        1080,
+        914
+      ],
+      "description": "横向河岸草地照片，左侧有一辆自行车，右侧一名穿浅色衣裤的女性坐在草地上，面向左侧并抬手；背景可见河道、桥、树木与天空。摄影环境保留，窗口延伸至画布右边缘。",
+      "label": "横向河岸草地照片，左侧有一辆自行车，右侧一名穿浅色衣裤的女性",
+      "method": "local"
+    },
+    {
+      "id": "overlay_ticket",
+      "kind": "overlay",
+      "bbox": [
+        608,
+        28,
+        1024,
+        363
+      ],
+      "description": "右上方倾斜的浅橙米色纸票，外缘略不规则，带黑色日文手写字样、竖向分隔线及小符号；字迹与纸张作为同一固定票据设计整体保留。",
+      "label": "右上方倾斜的浅橙米色纸票，外缘略不规则，带黑色日文手写字样、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shoes",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1080,
+        145,
+        1397
+      ],
+      "description": "左下方一组黑白手绘鞋履插画，两个鞋形上下错开，带粗黑填色与白色边缘；部分被画布左边缘截断，作为完整可见的固定插画保留。",
+      "label": "左下方一组黑白手绘鞋履插画，两个鞋形上下错开，带粗黑填色与白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_kyoto",
+      "kind": "overlay",
+      "bbox": [
+        453,
+        1128,
+        900,
+        1276
+      ],
+      "description": "画面下方中央的装饰性 KYOTO 字样，红橙色手绘填色带深色细描边，字母造型不规则，作为整体艺术字设计保留。",
+      "label": "画面下方中央的装饰性 KYOTO 字样，红橙色手绘填色带深色",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg_paper",
+    "frame_filmstrip",
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "overlay_ticket",
+    "overlay_shoes",
+    "overlay_kyoto"
+  ]
+}

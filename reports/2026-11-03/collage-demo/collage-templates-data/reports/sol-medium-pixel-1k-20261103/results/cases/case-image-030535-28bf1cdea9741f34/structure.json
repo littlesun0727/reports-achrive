@@ -1,0 +1,66 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的竖幅户外街角摄影画面，无人物。仰视浅色建筑外墙，顶部枝叶间悬挂红灯笼及编织灯罩，右侧与底部排列花束、盆栽和绿叶，阳光在墙面形成斑驳树影。墙上的蓝色“福州”及其他墙面文字属于实拍场景。摄影内容连续延伸至画布四边，上方文案、黑色标签和白色兔子涂鸦仅遮挡局部；整张照片连同建筑、植物、灯笼及光影一起替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_logo",
+      "kind": "overlay",
+      "bbox": [
+        41,
+        36,
+        182,
+        91
+      ],
+      "description": "左上角白色手绘品牌标记，包含两行紧凑英文字母、左下相机小图标和右侧小型线描点缀；下行可辨“TWENTY”。字母造型与附属图案共同构成完整固定装饰，保留原有视觉形式。"
+    },
+    {
+      "id": "text_top",
+      "kind": "text",
+      "bbox": [
+        118,
+        107,
+        962,
+        322
+      ],
+      "text": "穿过小路小店，没想到有一个这么美的打卡墙，是以前都没注意到地方，\n所以即使是常走的路线，也是有可能有新的风景，在等着我去发现Ta。\n\n那天天气很好，有好多游客在这里打卡拍照📷\n感觉那天的光影也给这面墙增加了许多美感与韵味。",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_black_label",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        564,
+        685,
+        646
+      ],
+      "description": "画面中上部偏左的横向黑色矩形标签，内部有两行白色中文小字，首行左侧带相机图标，内容介绍打卡点及初次发现这面墙、被光影吸引的感受。黑底、两行印字和图标构成同一个带字标签，整体保留，不并入摄影墙面。"
+    },
+    {
+      "id": "overlay_rabbit_doodle",
+      "kind": "overlay",
+      "bbox": [
+        208,
+        744,
+        762,
+        1217
+      ],
+      "description": "墙面中下部的完整手绘涂鸦组合：中央白色长耳兔子头像及抬起的手，内部有绿色细线细节，周围分布白色星芒、闪光短线、感叹号及右上方手写“Good!”。这些笔画共同组成一个固定装饰单元，带透明空隙叠在摄影墙面、窗户和植物前，不包含下方实拍绿叶。"
+    }
+  ],
+  "layer_order": [
+    "overlay_logo",
+    "text_top",
+    "overlay_black_label",
+    "overlay_rabbit_doodle"
+  ]
+}

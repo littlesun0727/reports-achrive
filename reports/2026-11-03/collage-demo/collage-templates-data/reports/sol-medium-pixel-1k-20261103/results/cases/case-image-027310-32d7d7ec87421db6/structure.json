@@ -1,0 +1,35 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_halloween_table",
+      "kind": "photo",
+      "bbox": [
+        0,
+        827,
+        1024,
+        1536
+      ],
+      "description": "下半幅独立横向摄影画面，展示木桌上的万圣节聚餐场景：画面上方中央有一名坐着的人，仅露出上身、双手和部分长发，右手附近拿着蓝色手机；桌面上摆有南瓜、沙拉、披萨、虾料理、花椰菜、黑色爱心形餐盘中的肉类、中央甜点、饮品、黑色灯笼、两个玩偶和南瓜灯等。照片保留完整桌面环境、人物和所有餐具道具，显示区域覆盖画布下部，顶部边界被固定菜单面板水平截断。"
+    },
+    {
+      "id": "overlay_illustrated_menu_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1024,
+        827
+      ],
+      "description": "覆盖画布上部的浅米色纸张菜单面板，保留纸张纹理、手绘彩色装饰和九组固定插画及标签：Pizza、Salad、Sangria、Prawn、Cauliflower、lantern、两个不同造型的 doll，以及 dirt cake；同时保留四周的星星、爱心、彩色点状和短线装饰。面板下缘在 y=827 处形成横向直边，与下方摄影画面相接；插画文字属于该固定设计，不独立拆分为 text。"
+    }
+  ],
+  "layer_order": [
+    "photo_halloween_table",
+    "overlay_illustrated_menu_panel"
+  ]
+}

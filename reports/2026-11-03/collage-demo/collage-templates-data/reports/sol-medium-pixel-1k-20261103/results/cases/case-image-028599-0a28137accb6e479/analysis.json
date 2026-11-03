@@ -1,0 +1,174 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        26,
+        230,
+        506,
+        868
+      ],
+      "description": "左侧独立夜间照片，画面侧向显示。两名年轻女性一前一后站立，前方女性穿白色上衣与蓝色短裤、张开手臂，后方女性穿红色裙装。保留暗色户外环境及下方蓝色座椅等摄影内容；完整照片窗口被黑色胶片框围住，部分摄影内容被橙色手写装饰覆盖，不沿人物轮廓去背景。",
+      "label": "左侧独立夜间照片，画面侧向显示。两名年轻女性一前一后站立，前",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        587,
+        233,
+        1040,
+        868
+      ],
+      "description": "右侧独立日间照片，画面侧向显示。一名年轻女性穿白色点纹上衣，戴项链和腕表，双手举在脸旁，呈半身近景。保留身后的玻璃窗、窗框及城市建筑，与左侧夜间照片不是连续场景。完整显示窗口被黑色胶片框围住，上部和左侧叠有白色手写内容；没有主体去背景或透明渐隐。",
+      "label": "右侧独立日间照片，画面侧向显示。一名年轻女性穿白色点纹上衣，",
+      "method": "local"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        130,
+        1080,
+        964
+      ],
+      "description": "横贯画布中部的完整黑色双窗口胶片框，包含上下两条黑色胶片边、交替排列的黄色与白色圆角齿孔、两侧边缘和中央黑色分隔带，以及框体细微纹理。两个独立照片内口左右排列，黑色框沿遮住照片边缘；画布上下的白色留白不属于框体。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横贯画布中部的完整黑色双窗口胶片框，包含上下两条黑色胶片边、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_note",
+      "kind": "overlay",
+      "bbox": [
+        138,
+        236,
+        477,
+        487
+      ],
+      "description": "左侧照片上部的橙色手写感想，数行侧向文字组成一个完整字样单元，笔画粗细不均，各行长度与位置错落。可辨部分包括“生命力”“当时正好”“越来越大”等，保留原有手写笔画和布局，不转换为普通横排文字。",
+      "label": "左侧照片上部的橙色手写感想，数行侧向文字组成一个完整字样单元",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_date",
+      "kind": "overlay",
+      "bbox": [
+        63,
+        467,
+        158,
+        860
+      ],
+      "description": "左侧照片靠左下的橙色侧向手写日期与备注组合，可辨“2025.8.11”“with cyf”，另有一行中文备注。保留两列错落排布、原始手写造型及标点，作为独立固定字样叠在照片上。",
+      "label": "左侧照片靠左下的橙色侧向手写日期与备注组合，可辨“2025.",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_doodle",
+      "kind": "overlay",
+      "bbox": [
+        159,
+        800,
+        221,
+        862
+      ],
+      "description": "左侧照片下缘附近的小型橙色手绘涂鸦，由弯曲线条与短小笔画共同构成，与日期字样和右侧合照装饰分离，整体保留。",
+      "label": "左侧照片下缘附近的小型橙色手绘涂鸦，由弯曲线条与短小笔画共同",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_group_photo_label",
+      "kind": "overlay",
+      "bbox": [
+        296,
+        721,
+        478,
+        870
+      ],
+      "description": "叠在左侧照片下部蓝色座椅上的手写合照装饰，橙色字样配不规则白色外轮廓及黑色承底，可辨“人生合照”及感叹号。字形、轮廓和附属小笔画构成同一完整固定单元，不属于座椅或人物的照片描边。",
+      "label": "叠在左侧照片下部蓝色座椅上的手写合照装饰，橙色字样配不规则白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_main_note",
+      "kind": "overlay",
+      "bbox": [
+        588,
+        291,
+        747,
+        866
+      ],
+      "description": "右侧照片靠左的两行白色侧向手写文字，包含日期“2025.8.11”及地点、见闻备注，笔画大小不一，沿照片长边错落延伸。整组文字叠在窗框与玻璃摄影内容上，保留原有手写布局，不与照片合并。",
+      "label": "右侧照片靠左的两行白色侧向手写文字，包含日期“2025.8.",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_upper_note",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        238,
+        840,
+        482
+      ],
+      "description": "右侧照片上部偏左的独立白色手写短句，数行文字错落排列，可辨“景色”“很不错”等部分；与长日期备注在位置和行组上分离，保留原有字形及不规则行距。",
+      "label": "右侧照片上部偏左的独立白色手写短句，数行文字错落排列，可辨“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_heart_note",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        238,
+        978,
+        472
+      ],
+      "description": "右侧照片上部偏右的白色手写短句与爱心指示装饰，包含数行中文、斜向箭头及下方空心爱心。箭头指向爱心附近，文字和图案共同构成一个完整固定单元，全部叠在玻璃窗与建筑摄影内容上。",
+      "label": "右侧照片上部偏右的白色手写短句与爱心指示装饰，包含数行中文、",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right",
+    "frame_film",
+    "overlay_left_note",
+    "overlay_left_date",
+    "overlay_left_doodle",
+    "overlay_group_photo_label",
+    "overlay_right_main_note",
+    "overlay_right_upper_note",
+    "overlay_right_heart_note"
+  ]
+}

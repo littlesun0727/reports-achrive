@@ -1,0 +1,69 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_fabric",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为米白、浅粉灰色的柔软织物底图，布面褶皱、弧形亮部及柔和阴影连续延伸至四边，并在两张照片周围和间隙露出。保留整幅织物的纹理、色调变化与光影；叠加照片及局部白色设计单元另列，不并入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为米白、浅粉灰色的柔软织物底图，布面褶皱、弧形亮部及柔",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_white_panel",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        844,
+        832,
+        952
+      ],
+      "description": "照片交叠处后方露出的半透明乳白色矩形设计块，具有水平上缘及竖直右缘。左侧被大照片遮挡，下侧被小照片遮挡；记录可见范围，隐藏部分的边界无法确定。没有明确照片内口或框沿，不作为照片框体。",
+      "label": "照片交叠处后方露出的半透明乳白色矩形设计块，具有水平上缘及竖",
+      "method": "extract"
+    },
+    {
+      "id": "photo_couple_full",
+      "kind": "photo",
+      "bbox": [
+        107,
+        201,
+        730,
+        998
+      ],
+      "description": "竖向完整场景照片：一男一女站在金铜色高大门厅前，男子穿黑色西装位于左侧，女子穿红色长裙位于右侧，两人相向牵手，呈全身景别。保留门框、玻璃、室内壁画、门外地面及上部建筑环境，矩形边界清晰，没有沿人物轮廓去背景。右下角被另一张照片覆盖；底部中央的小白色摄影标识属于照片。",
+      "label": "竖向完整场景照片：一男一女站在金铜色高大门厅前，男子穿黑色西",
+      "method": "local"
+    },
+    {
+      "id": "photo_couple_detail",
+      "kind": "photo",
+      "bbox": [
+        539,
+        951,
+        972,
+        1277
+      ],
+      "description": "横向近景照片：左侧黑西装男子与右侧红裙女子的脸部被上边裁切，两人举起手掌，并共同托着一块装有橙色书法纸的矩形框牌。保留人物上身、手臂、框牌及后方餐桌、餐具等摄影环境，书法和底部小白色摄影标识随照片替换。显示窗口为完整矩形，覆盖大照片右下部，无主体去背景或透明渐隐。",
+      "label": "横向近景照片：左侧黑西装男子与右侧红裙女子的脸部被上边裁切，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "background_fabric",
+    "overlay_white_panel",
+    "photo_couple_full",
+    "photo_couple_detail"
+  ]
+}

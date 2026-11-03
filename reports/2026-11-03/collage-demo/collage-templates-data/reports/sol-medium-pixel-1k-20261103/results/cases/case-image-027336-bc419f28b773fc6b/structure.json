@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅米色斑驳纸纹连续覆盖全画布，边缘和照片之间均可见相同纹理；保留纸纹，独立照片、浅色局部方形底板与艺术字分别处理。"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        322,
+        272,
+        903,
+        661
+      ],
+      "description": "上方横向近景照片，年轻新郎新娘并肩贴近镜头，身着浅色婚礼服装，面向镜头；新娘双手托脸，新郎微笑，浅色室内摄影背景保留。矩形照片内口，底边被艺术字局部覆盖。"
+    },
+    {
+      "id": "panel_top",
+      "kind": "overlay",
+      "bbox": [
+        203,
+        170,
+        565,
+        652
+      ],
+      "description": "上方照片后方可见的浅灰米色半透明方形底板，边缘清晰，顶部和左侧露出较多、右下部分被照片遮挡；作为独立固定设计保留。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        214,
+        748,
+        547,
+        1244
+      ],
+      "description": "左下竖向婚礼照片，新郎新娘中景并排面向镜头，新郎穿浅色西装举手展示戒指，新娘双手靠近脸部并展示戒指；保留室内摄影背景，矩形照片下部完整可见，上缘被艺术字笔画覆盖。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        573,
+        749,
+        903,
+        1245
+      ],
+      "description": "右下竖向婚礼照片，新郎新娘全身站立，新郎倾身微笑，新娘持花束；前景有白色花朵，保留完整摄影环境，矩形照片上缘被艺术字笔画局部覆盖。"
+    },
+    {
+      "id": "overlay_wedding",
+      "kind": "overlay",
+      "bbox": [
+        357,
+        638,
+        773,
+        837
+      ],
+      "description": "红色手写风格“Wedding”艺术字，带心形点缀及向右延伸的长笔画，并有白色与红色流畅装饰线条；整体作为一组固定字形设计，跨在上方照片下缘与两张下方照片上缘之间。"
+    }
+  ],
+  "layer_order": [
+    "panel_top",
+    "photo_top",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_wedding"
+  ]
+}

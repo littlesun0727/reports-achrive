@@ -1,0 +1,76 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        285,
+        522,
+        799
+      ],
+      "description": "左侧独立照片，一名长发女孩的半身近景，戴黑色圆耳及红白波点蝴蝶结发箍，穿深灰外套和红色格纹围巾，双手抬至肩旁，目光朝画面左上方。保留身后浅黄色瓷砖墙与右侧金属设施的摄影环境；完整显示窗口延伸至画布左边，顶部、底部和右侧边缘被胶片框遮挡，与右侧照片内容不连续。",
+      "label": "左侧独立照片，一名长发女孩的半身近景，戴黑色圆耳及红白波点蝴",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        543,
+        282,
+        1080,
+        789
+      ],
+      "description": "右侧独立特写照片，一只从深色衣袖伸出的手握着米色皮质证件夹，夹上有金色星形警徽，可辨英文包含“OFFICER”“TRUST”和“POLICE”。手、皮夹、警徽及暗色织物背景均属于摄影内容，一起替换，不另拆装饰或文字。照片显示至画布右边，四周局部被胶片框覆盖，无主体出框。",
+      "label": "右侧独立特写照片，一只从深色衣袖伸出的手握着米色皮质证件夹，",
+      "method": "local"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        181,
+        1080,
+        894
+      ],
+      "description": "横贯画布的灰黑色手绘胶片框，具有两个并列照片窗口；上下两条框带包含不规则白色齿孔，中央竖向分隔条隔开两张照片。整体保留粗糙铅笔涂抹纹理、不规则轮廓及全部齿孔结构，左右端被画布裁切。框沿位于照片上方，遮住两张照片的边缘。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横贯画布的灰黑色手绘胶片框，具有两个并列照片窗口；上下两条框",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_right",
+    "frame_film"
+  ]
+}

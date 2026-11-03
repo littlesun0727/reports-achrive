@@ -1,0 +1,61 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_film_window",
+      "kind": "photo",
+      "bbox": [
+        0,
+        303,
+        1060,
+        868
+      ],
+      "description": "横向照片窗口中的户外园林场景，蓝天、树木、白墙、灰瓦屋顶及中央建筑共同构成连续摄影画面；照片显示区域延伸至左侧和右侧窗口边缘，上下边缘被胶片框遮挡，摄影环境整体随客户素材替换。",
+      "label": "横向照片窗口中的户外园林场景，蓝天、树木、白墙、灰瓦屋顶及中",
+      "method": "local"
+    },
+    {
+      "id": "frame_film_strip",
+      "kind": "frame",
+      "bbox": [
+        0,
+        180,
+        1080,
+        990
+      ],
+      "description": "覆盖画面中部的黑色胶片条固定框体，包含上下边缘、左右暗色边界、两排白色齿孔以及胶片上的灰色编号和箭头印刷；中部开口承载单张横向照片，框体设计与印刷细节整体保留。",
+      "photo_id": [
+        "photo_film_window"
+      ],
+      "label": "覆盖画面中部的黑色胶片条固定框体，包含上下边缘、左右暗色边界",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_film_window",
+    "frame_film_strip"
+  ]
+}

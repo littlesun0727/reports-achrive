@@ -1,0 +1,300 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        355,
+        1080,
+        1140
+      ],
+      "description": "横贯画布并在左右两端被裁切的浅灰色胶片框体，上下边缘有连续白色齿孔，灰色部分带铅笔涂擦纹理及不规则边缘。承托左右两处照片，中间放置独立白色图案卡片；整个胶片结构保留。",
+      "photo_id": [
+        "photo_left",
+        "photo_right"
+      ],
+      "label": "横贯画布并在左右两端被裁切的浅灰色胶片框体，上下边缘有连续白",
+      "method": "extract"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        530,
+        145,
+        983
+      ],
+      "description": "左侧被画布边缘裁切的黑白竖向照片。一名戴眼镜的人坐在桌边，手靠近脸部并低头看书；保留桌面书本、身后书架及上方灯光。完整可见窗口为狭长矩形，人物左侧随画布裁切，不沿主体去背景。",
+      "label": "左侧被画布边缘裁切的黑白竖向照片。一名戴眼镜的人坐在桌边，手",
+      "method": "local"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        559,
+        526,
+        1080,
+        987
+      ],
+      "description": "右侧黑白横向照片，一名长发女性半身侧向右方，手持化妆镜并将唇刷靠近嘴唇。左后方可见另一人的部分头脸，背景有深色竖向结构，底部有桌面或镜前台面。保留全部摄影环境，右缘被画布裁切，无主体去背景。",
+      "label": "右侧黑白横向照片，一名长发女性半身侧向右方，手持化妆镜并将唇",
+      "method": "local"
+    },
+    {
+      "id": "overlay_beans_card",
+      "kind": "overlay",
+      "bbox": [
+        180,
+        526,
+        525,
+        986
+      ],
+      "description": "胶片中央的独立白色矩形图案卡片，上有三个带笑脸及短脚的豆子状铅笔小人，下方为两行手绘字样“HAPPY”“Beans”。纸面、图案与不规则手写笔画整体保留，不作为照片窗口或普通文字拆分。",
+      "label": "胶片中央的独立白色矩形图案卡片，上有三个带笑脸及短脚的豆子状",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left_fragment",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        202,
+        23,
+        249
+      ],
+      "description": "画布左上边缘露出的灰色铅笔放射状星形装饰残部，左侧被画布截断。",
+      "label": "画布左上边缘露出的灰色铅笔放射状星形装饰残部，左侧被画布截断",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_left_loop",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        273,
+        42,
+        312
+      ],
+      "description": "左侧边缘的独立倾斜椭圆铅笔线圈，线条粗糙，左侧轻微被画布裁切。",
+      "label": "左侧边缘的独立倾斜椭圆铅笔线圈，线条粗糙，左侧轻微被画布裁切",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_star",
+      "kind": "overlay",
+      "bbox": [
+        306,
+        211,
+        374,
+        279
+      ],
+      "description": "上方偏左的空心五角星，灰色铅笔轮廓带自然断续和粗细变化。",
+      "label": "上方偏左的空心五角星，灰色铅笔轮廓带自然断续和粗细变化。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dark_star",
+      "kind": "overlay",
+      "bbox": [
+        139,
+        330,
+        223,
+        419
+      ],
+      "description": "胶片上沿左侧的深灰手绘五角星贴纸，内部有铅笔涂黑纹理，外侧带白色不规则贴纸边，压住胶片上沿。",
+      "label": "胶片上沿左侧的深灰手绘五角星贴纸，内部有铅笔涂黑纹理，外侧带",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_planet",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        238,
+        619,
+        454
+      ],
+      "description": "上方中央的倾斜土星贴纸，深灰色交叉铅笔纹理球体与双线环带组成完整单元，外围有白色贴纸边，底部覆盖胶片上沿。",
+      "label": "上方中央的倾斜土星贴纸，深灰色交叉铅笔纹理球体与双线环带组成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_right_star",
+      "kind": "overlay",
+      "bbox": [
+        971,
+        212,
+        1056,
+        309
+      ],
+      "description": "右上方独立空心五角星，保留灰色铅笔线条及不规则星角。",
+      "label": "右上方独立空心五角星，保留灰色铅笔线条及不规则星角。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_left_fragment",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1127,
+        29,
+        1283
+      ],
+      "description": "画布左下边缘露出的独立纸页状铅笔装饰残部，可见倾斜的双线边框、局部短线及白色内部；大部分位于画布外，不补全不可见内容。",
+      "label": "画布左下边缘露出的独立纸页状铅笔装饰残部，可见倾斜的双线边框",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tv",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        1070,
+        262,
+        1299
+      ],
+      "description": "左下方老式电视机手绘贴纸，含双杆天线、圆角机身、屏幕、右侧按钮和竖向扬声器、底部支脚，屏幕内写有“2026”。外围白色贴纸边与铅笔纹理整体保留，上部压住胶片下沿。",
+      "label": "左下方老式电视机手绘贴纸，含双杆天线、圆角机身、屏幕、右侧按",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_large_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        316,
+        1043,
+        443,
+        1242
+      ],
+      "description": "下方偏左的高瘦四角闪光星贴纸，深灰铅笔涂绘内部和白色外沿组成完整单元，上尖角覆盖胶片下沿。",
+      "label": "下方偏左的高瘦四角闪光星贴纸，深灰铅笔涂绘内部和白色外沿组成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_small_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        294,
+        1214,
+        376,
+        1317
+      ],
+      "description": "大闪光星左下方的独立小四角星，深灰铅笔涂绘，四个尖角长短不一。",
+      "label": "大闪光星左下方的独立小四角星，深灰铅笔涂绘，四个尖角长短不一",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smile_middle",
+      "kind": "overlay",
+      "bbox": [
+        586,
+        1101,
+        691,
+        1217
+      ],
+      "description": "胶片下沿附近的独立笑脸贴纸，圆角不规则闭合外轮廓内有两道短竖线眼睛和弧形嘴，灰色铅笔线及外围白边整体保留。",
+      "label": "胶片下沿附近的独立笑脸贴纸，圆角不规则闭合外轮廓内有两道短竖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smile_lower",
+      "kind": "overlay",
+      "bbox": [
+        663,
+        1228,
+        754,
+        1318
+      ],
+      "description": "底部中央偏右的独立圆形笑脸，灰色铅笔外圈、两只短线眼睛和弯曲笑嘴作为完整装饰保留。",
+      "label": "底部中央偏右的独立圆形笑脸，灰色铅笔外圈、两只短线眼睛和弯曲",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_double_note",
+      "kind": "overlay",
+      "bbox": [
+        778,
+        1128,
+        899,
+        1256
+      ],
+      "description": "下方右侧的一组双音符，两个涂黑的椭圆音符头由斜向双横梁与竖杆连接，保留粗糙铅笔纹理和完整形状。",
+      "label": "下方右侧的一组双音符，两个涂黑的椭圆音符头由斜向双横梁与竖杆",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_single_note",
+      "kind": "overlay",
+      "bbox": [
+        960,
+        1177,
+        1044,
+        1288
+      ],
+      "description": "右下角独立单音符，涂黑椭圆音符头、向上竖杆和弯曲旗尾组成完整铅笔装饰。",
+      "label": "右下角独立单音符，涂黑椭圆音符头、向上竖杆和弯曲旗尾组成完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smile_right",
+      "kind": "overlay",
+      "bbox": [
+        990,
+        1062,
+        1080,
+        1157
+      ],
+      "description": "右侧胶片下沿的圆形笑脸贴纸，灰色铅笔圆圈内有两只短线眼睛和弧形笑嘴，外围白色边缘压住胶片，右侧随画布边缘裁切。",
+      "label": "右侧胶片下沿的圆形笑脸贴纸，灰色铅笔圆圈内有两只短线眼睛和弧",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_film",
+    "photo_left",
+    "photo_right",
+    "overlay_beans_card",
+    "overlay_top_left_fragment",
+    "overlay_top_left_loop",
+    "overlay_top_star",
+    "overlay_dark_star",
+    "overlay_planet",
+    "overlay_top_right_star",
+    "overlay_bottom_left_fragment",
+    "overlay_tv",
+    "overlay_large_sparkle",
+    "overlay_small_sparkle",
+    "overlay_smile_middle",
+    "overlay_smile_lower",
+    "overlay_double_note",
+    "overlay_single_note",
+    "overlay_smile_right"
+  ]
+}

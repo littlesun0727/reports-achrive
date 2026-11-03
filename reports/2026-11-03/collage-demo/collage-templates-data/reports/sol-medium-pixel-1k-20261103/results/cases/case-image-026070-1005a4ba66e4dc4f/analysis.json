@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        534,
+        1080
+      ],
+      "description": "左侧贯穿画布上下的竖幅园林照片，蓝天白云、树木、草地、池塘和弯曲步道构成连续摄影环境，远处步道上有一名很小的人物。画面略有运动模糊，保留完整环境；右侧中段被两张独立横幅照片遮挡，文字叠在下部草地上。",
+      "label": "左侧贯穿画布上下的竖幅园林照片，蓝天白云、树木、草地、池塘和",
+      "method": "local"
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        408,
+        193,
+        909,
+        549
+      ],
+      "description": "右上横幅照片，近景为一只手托着翻开的书，书页扬起，手从右下方进入；背景保留池水、对岸浅色建筑及树木，背景失焦。书上印字属于摄影内容。完整显示区域为矩形，左缘覆盖左侧园林照片。",
+      "label": "右上横幅照片，近景为一只手托着翻开的书，书页扬起，手从右下方",
+      "method": "local"
+    },
+    {
+      "id": "photo_fountain",
+      "kind": "photo",
+      "bbox": [
+        408,
+        570,
+        909,
+        928
+      ],
+      "description": "右下横幅园林照片，左侧有高耸的喷泉水柱，中下部为浅色拱廊和水池，右侧及上部被近处绿色枝叶遮映。保留全部摄影环境，矩形窗口独立于上方书本照片，左缘覆盖左侧竖幅照片。",
+      "label": "右下横幅园林照片，左侧有高耸的喷泉水柱，中下部为浅色拱廊和水",
+      "method": "local"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        190,
+        787,
+        345,
+        997
+      ],
+      "description": "But the\nreality\nis that\nmany people\nlike to\nstop\nand\nwatch.",
+      "label": "But the\nreality\nis that\nmany p",
+      "method": "local",
+      "text": "But the\nreality\nis that\nmany people\nlike to\nstop\nand\nwatch.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "photo_book",
+    "photo_fountain",
+    "text_quote"
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1023,
+    1365
+  ],
+  "objects": [
+    {
+      "id": "background_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1023,
+        1365
+      ],
+      "description": "全画布白色固定设计底图，上部散布浅蓝、灰蓝、淡黄及粉色星星、小圆圈和细小点纹，下部散布彩色小方块。图案随底图保留；中央胶片框、两张照片、独立字样和下方插画不属于底图。四周及对象间隙露出连续白底。",
+      "background_type": "reference_clean",
+      "label": "全画布白色固定设计底图，上部散布浅蓝、灰蓝、淡黄及粉色星星、",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_seaside",
+      "kind": "photo",
+      "bbox": [
+        15,
+        438,
+        752,
+        910
+      ],
+      "description": "左侧横向海边照片，无人物，一架棕色立式钢琴置于黑色礁石和绿色植物间，远处为海面、水平海岸线及浅蓝多云天空。完整摄影环境保留，显示窗口延伸至胶片框内口四边，边缘被灰黑框沿遮挡。",
+      "label": "左侧横向海边照片，无人物，一架棕色立式钢琴置于黑色礁石和绿色",
+      "method": "local"
+    },
+    {
+      "id": "photo_night_street",
+      "kind": "photo",
+      "bbox": [
+        783,
+        444,
+        1023,
+        914
+      ],
+      "description": "右侧独立夜间街景照片，深黑夜色中有绿色、黄色和红色发光招牌及街道灯光，无清晰可辨人物。保留摄影环境，左、上、下边受胶片框沿遮挡，右侧窗口延伸至画布边缘；与左侧海景的场景和取景明显不连续。",
+      "label": "右侧独立夜间街景照片，深黑夜色中有绿色、黄色和红色发光招牌及",
+      "method": "local"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        334,
+        1023,
+        1005
+      ],
+      "description": "横贯画布的灰黑色手绘胶片框，带粗糙铅笔涂抹纹理、上下两排白色齿孔和中央竖向分隔框沿。左侧为完整横向照片窗口，右侧为被画布右边裁切的第二窗口。框沿压住照片边缘，整体框体与内部笔触保留。",
+      "photo_id": [
+        "photo_seaside",
+        "photo_night_street"
+      ],
+      "label": "横贯画布的灰黑色手绘胶片框，带粗糙铅笔涂抹纹理、上下两排白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_words",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        128,
+        598,
+        237
+      ],
+      "description": "上方两行黑色手写字样，首行为“谁能想到它是咖啡店设的打卡点！”，次行为“在海边真的有点太幸福噜”并带颜文字。字形大小和笔画不规则，末尾表情具有独立笔画造型，整段作为固定手写设计保留，不包含周围彩色星纹。",
+      "label": "上方两行黑色手写字样，首行为“谁能想到它是咖啡店设的打卡点！",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        1086,
+        231,
+        1188
+      ],
+      "description": "左下方浅蓝青色星形装饰组合，包含一枚较大的柔和五角星、内部白色点纹、右侧细小喷点及右下方小星形。各成员共同构成局部星星点缀，保留淡化边缘和完整纹理。",
+      "label": "左下方浅蓝青色星形装饰组合，包含一枚较大的柔和五角星、内部白",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_girls",
+      "kind": "overlay",
+      "bbox": [
+        513,
+        1086,
+        858,
+        1352
+      ],
+      "description": "右下方黑色细线手绘三位女生半身插画：左侧长发女生双手托脸，中间扎发女生双手抬至肩旁，右侧丸子头女生抬手靠近脸颊。三人周围的爱心、小星星、短线以及底部波浪线和小花均属于同一完整插画，白色内部与纤细轮廓保留。",
+      "label": "右下方黑色细线手绘三位女生半身插画：左侧长发女生双手托脸，中",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_words",
+      "kind": "overlay",
+      "bbox": [
+        114,
+        1239,
+        461,
+        1276
+      ],
+      "description": "左下方一行黑色手写“Q版的我们”，后接含圆点和ω形笔画的颜文字。文字与表情大小、笔画及间隔具有手绘造型，整体作为独立固定字样保留。",
+      "label": "左下方一行黑色手写“Q版的我们”，后接含圆点和ω形笔画的颜文",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_pattern",
+    "photo_seaside",
+    "photo_night_street",
+    "frame_film",
+    "overlay_top_words",
+    "overlay_blue_star",
+    "overlay_girls",
+    "overlay_bottom_words"
+  ]
+}

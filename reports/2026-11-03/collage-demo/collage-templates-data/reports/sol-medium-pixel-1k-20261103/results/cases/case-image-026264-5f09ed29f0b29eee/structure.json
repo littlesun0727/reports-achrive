@@ -1,0 +1,359 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_green",
+    "description": "覆盖全画布的浅米灰至深绿色渐变纹理底图，左上较浅、右侧及右下较深，带细密纸纹和颗粒。四边及照片间隙均延续这一固定底图；保留纹理与颜色变化，清除独立照片、纸片、文字和装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        158,
+        120,
+        588,
+        693
+      ],
+      "description": "竖向近景照片：一只戴白色厨师帽、系红围巾的玩偶坐在岩石上，右侧露出书本，后方为绿叶及蓝白绣球花。完整保留岩石、花叶和书本等摄影环境；左上角与右下角被胶带局部覆盖，玩偶上方的白色涂鸦是独立装饰。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        193,
+        737,
+        548,
+        1091
+      ],
+      "description": "近方形自然微距照片，前景为暗色苔藓树干或岩面，其上生长一排嫩绿小叶，背景有明亮失焦光斑和树干。保留完整摄影环境，下缘被白色放射星装饰局部遮挡。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        650,
+        586,
+        945,
+        883
+      ],
+      "description": "近方形园林照片，左侧树干向上伸展，绿色树冠覆盖上半部，后方可见深色瓦顶与红色立柱建筑。完整保留树木、建筑及植被，与上下照片的内容和裁切独立。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        571,
+        907,
+        999,
+        1228
+      ],
+      "description": "横向近景照片，打开的彩色图文书占下半部，蓝紫绣球花、绿叶和石面占上半部及周围。书内印字属于摄影内容，随照片替换；右边被星形装饰覆盖，下方被独立英文文字叠压。"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        628,
+        224,
+        968,
+        565
+      ],
+      "description": "浅米粉色方形纹理纸片，不承载照片。上部有两朵细白线花形，下部中央印有黑色字样“Soak in a day of light.”，纸纹、花形与印字作为完整固定设计保留。"
+    },
+    {
+      "id": "overlay_tape_top",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        76,
+        222,
+        178
+      ],
+      "description": "斜贴在左上照片左上角的半透明米黄色胶带，保留不规则裁切边缘、纸质纹理及透出的底层颜色。"
+    },
+    {
+      "id": "overlay_tape_lower",
+      "kind": "overlay",
+      "bbox": [
+        553,
+        651,
+        628,
+        726
+      ],
+      "description": "斜贴在左上照片右下角的短米黄色胶带，跨越照片边缘与绿色底图，保留斜向轮廓和材质。"
+    },
+    {
+      "id": "overlay_doodle",
+      "kind": "overlay",
+      "bbox": [
+        185,
+        276,
+        307,
+        366
+      ],
+      "description": "玩偶上方的白色手绘涂鸦，由两组云朵状弧线及向右下延伸的短线构成。线条不沿玩偶轮廓，作为一组独立装饰保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        626,
+        124,
+        965,
+        194
+      ],
+      "text": "CITY WLAK",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_bottom",
+      "kind": "text",
+      "bbox": [
+        163,
+        1194,
+        839,
+        1287
+      ],
+      "text": "The chirping of cicadas is the gradually\ncounting down bell outside the window.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_star_left_small",
+      "kind": "overlay",
+      "bbox": [
+        26,
+        540,
+        49,
+        563
+      ],
+      "description": "左侧靠近画布边缘的一枚小白色五角星。"
+    },
+    {
+      "id": "overlay_star_left_upper",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        516,
+        138,
+        554
+      ],
+      "description": "左上照片左侧的一枚较大白色五角星，轮廓略不规则。"
+    },
+    {
+      "id": "overlay_burst_left",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        632,
+        120,
+        678
+      ],
+      "description": "左侧中上部白色多尖放射星，带长短不一的尖角。"
+    },
+    {
+      "id": "overlay_star_right_upper",
+      "kind": "overlay",
+      "bbox": [
+        1020,
+        501,
+        1045,
+        526
+      ],
+      "description": "右侧靠近纸片高度的一枚小白色五角星。"
+    },
+    {
+      "id": "overlay_burst_note",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        536,
+        920,
+        586
+      ],
+      "description": "叠在浅色纸片右下边缘的白色放射星，尖角跨入下方绿色间隙。"
+    },
+    {
+      "id": "overlay_star_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        819,
+        69,
+        843
+      ],
+      "description": "左侧两张照片之间高度附近的一枚小白色五角星。"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        1031,
+        820,
+        1055,
+        845
+      ],
+      "description": "右侧园林照片旁的一枚小白色五角星。"
+    },
+    {
+      "id": "overlay_burst_moss",
+      "kind": "overlay",
+      "bbox": [
+        260,
+        1036,
+        334,
+        1104
+      ],
+      "description": "压在苔藓照片下缘的白色多尖放射星，部分尖角伸出照片进入绿色底图。"
+    },
+    {
+      "id": "overlay_star_hydrangea",
+      "kind": "overlay",
+      "bbox": [
+        979,
+        932,
+        1025,
+        973
+      ],
+      "description": "叠在右下绣球花照片右上边缘的白色五角星，右侧伸出照片。"
+    },
+    {
+      "id": "overlay_sparkle_flower",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        1019,
+        885,
+        1046
+      ],
+      "description": "蓝色绣球花中央的一枚小白色闪光星，覆盖花瓣，为独立叠加装饰。"
+    },
+    {
+      "id": "overlay_star_photo_right",
+      "kind": "overlay",
+      "bbox": [
+        1000,
+        1086,
+        1032,
+        1119
+      ],
+      "description": "右下照片右侧边缘外的一枚白色五角星。"
+    },
+    {
+      "id": "overlay_burst_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        958,
+        1280,
+        1020,
+        1351
+      ],
+      "description": "画布右下部的白色放射星，尖角长短不一，略向右上伸展。"
+    },
+    {
+      "id": "overlay_star_bottom_large",
+      "kind": "overlay",
+      "bbox": [
+        695,
+        1330,
+        751,
+        1385
+      ],
+      "description": "下方偏右的一枚大白色五角星。"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        1000,
+        1390,
+        1023,
+        1417
+      ],
+      "description": "靠近右下角的小白色五角星。"
+    },
+    {
+      "id": "overlay_burst_bottom",
+      "kind": "overlay",
+      "bbox": [
+        834,
+        1406,
+        883,
+        1440
+      ],
+      "description": "底边偏右的白色放射星，下部被画布边界裁切，仅保留参考图内可见范围。"
+    },
+    {
+      "id": "overlay_star_bottom_left",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        1422,
+        153,
+        1440
+      ],
+      "description": "底边左侧的一枚小白色星形，下部被画布边界截断。"
+    },
+    {
+      "id": "overlay_bottom_tip",
+      "kind": "overlay",
+      "bbox": [
+        561,
+        1436,
+        572,
+        1440
+      ],
+      "description": "底边中部露出的微小白色尖角，其主体在画布外，无法确认完整形状，仅记录可见部分。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1037,
+        1413,
+        1072,
+        1434
+      ],
+      "description": "右下角极淡的小型圆角胶囊状标记，内部细小字样无法可靠辨认，整体保留原有轮廓和低对比外观。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_lower_left",
+    "photo_middle_right",
+    "photo_lower_right",
+    "overlay_note",
+    "overlay_tape_top",
+    "overlay_tape_lower",
+    "overlay_doodle",
+    "text_title",
+    "overlay_star_left_small",
+    "overlay_star_left_upper",
+    "overlay_burst_left",
+    "overlay_star_right_upper",
+    "overlay_burst_note",
+    "overlay_star_left_middle",
+    "overlay_star_right_middle",
+    "overlay_burst_moss",
+    "overlay_star_hydrangea",
+    "overlay_sparkle_flower",
+    "overlay_star_photo_right",
+    "text_bottom",
+    "overlay_burst_lower_right",
+    "overlay_star_bottom_large",
+    "overlay_star_bottom_right",
+    "overlay_burst_bottom",
+    "overlay_star_bottom_left",
+    "overlay_bottom_tip",
+    "overlay_watermark"
+  ]
+}

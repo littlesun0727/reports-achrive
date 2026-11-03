@@ -1,0 +1,203 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "连续的海滩人物近景摄影覆盖全画布：一名戴迷彩帽和黑色墨镜的人俯身面向镜头，手托在嘴边，肩膀及手臂沾有沙粒；上方为蓝天和彩色遮阳伞，右侧为海水和沙滩，下方为深色毛巾。摄影场景延伸至四边，左上局部被独立照片遮挡，其他位置被文字和贴纸覆盖；人物、服饰、伞及完整海滩环境一起替换。",
+      "background_type": "photo",
+      "label": "连续的海滩人物近景摄影覆盖全画布：一名戴迷彩帽和黑色墨镜的人",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_beach_items",
+      "kind": "photo",
+      "bbox": [
+        36,
+        312,
+        456,
+        882
+      ],
+      "description": "左上竖向照片，俯拍沙滩上的一双浅色运动鞋，以及铺在沙上的浅色毛巾、打开的书、眼镜和黑色头戴耳机。保留全部摄影环境，完整显示窗口为圆角矩形；鲜红描边沿照片窗口四周延伸，属于照片边缘效果。右上部分被白色聊天气泡遮挡。",
+      "label": "左上竖向照片，俯拍沙滩上的一双浅色运动鞋，以及铺在沙上的浅色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tomato",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        154,
+        258,
+        290
+      ],
+      "description": "一枚红色番茄表情贴纸，带绿色萼片、立体明暗和高光，位于左上蓝天区域，完整保留外形与内部细节。",
+      "label": "一枚红色番茄表情贴纸，带绿色萼片、立体明暗和高光，位于左上蓝",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chat",
+      "kind": "overlay",
+      "bbox": [
+        398,
+        432,
+        853,
+        532
+      ],
+      "description": "白色圆角聊天气泡，左下带尖角尾巴，横跨左侧照片右上边缘和人物帽子；内部为橙红色粗体“chill moment”和灰色时间“16:31”。气泡与内部文字构成一个固定设计单元，整体保留。",
+      "label": "白色圆角聊天气泡，左下带尖角尾巴，横跨左侧照片右上边缘和人物",
+      "method": "extract"
+    },
+    {
+      "id": "text_sunset",
+      "kind": "text",
+      "bbox": [
+        723,
+        264,
+        922,
+        307
+      ],
+      "description": "(1) sunset",
+      "label": "(1) sunset",
+      "method": "local",
+      "text": "(1) sunset",
+      "text_status": "known",
+      "style": {
+        "fill": "#EDFF00",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_beach",
+      "kind": "text",
+      "bbox": [
+        68,
+        980,
+        254,
+        1022
+      ],
+      "description": "(2) beach",
+      "label": "(2) beach",
+      "method": "local",
+      "text": "(2) beach",
+      "text_status": "known",
+      "style": {
+        "fill": "#EDFF00",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_pin",
+      "kind": "overlay",
+      "bbox": [
+        351,
+        1235,
+        456,
+        1278
+      ],
+      "description": "叠加在人物胸前的白色粗体“@pin”字样及下划线；下划线为可见设计的一部分，与字样整体保留。",
+      "label": "叠加在人物胸前的白色粗体“@pin”字样及下划线；下划线为可",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_beer",
+      "kind": "overlay",
+      "bbox": [
+        759,
+        1312,
+        946,
+        1487
+      ],
+      "description": "右下两只相碰的啤酒杯表情贴纸，包含金黄色酒液、白色泡沫、透明杯把及立体阴影；两杯共同构成一个完整装饰单元。",
+      "label": "右下两只相碰的啤酒杯表情贴纸，包含金黄色酒液、白色泡沫、透明",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        1546,
+        308,
+        1723
+      ],
+      "description": "左下橘白猫表情贴纸，侧身站立、头朝左、尾巴向上弯曲，保留完整四肢、尾巴、条纹和立体明暗。",
+      "label": "左下橘白猫表情贴纸，侧身站立、头朝左、尾巴向上弯曲，保留完整",
+      "method": "extract"
+    },
+    {
+      "id": "text_ootd",
+      "kind": "text",
+      "bbox": [
+        776,
+        1657,
+        929,
+        1700
+      ],
+      "description": "(3) ootd",
+      "label": "(3) ootd",
+      "method": "local",
+      "text": "(3) ootd",
+      "text_status": "known",
+      "style": {
+        "fill": "#EDFF00",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_inframe",
+      "kind": "text",
+      "bbox": [
+        404,
+        1813,
+        675,
+        1861
+      ],
+      "description": "InFrame.",
+      "label": "InFrame.",
+      "method": "local",
+      "text": "InFrame.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF66",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_beach_items",
+    "overlay_tomato",
+    "overlay_chat",
+    "text_sunset",
+    "text_beach",
+    "overlay_pin",
+    "overlay_beer",
+    "overlay_cat",
+    "text_ootd",
+    "text_inframe"
+  ]
+}

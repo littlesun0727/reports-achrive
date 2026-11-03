@@ -1,0 +1,157 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture_base",
+    "description": "连续的浅色纸张纹理覆盖整个1080×1438画布，四周边缘及照片、标签和手绘装饰之间均露出一致纸纹；独立照片和固定拼贴元素替换或清除后，纸张纹理保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_meadow",
+      "kind": "photo",
+      "bbox": [
+        47,
+        79,
+        754,
+        554
+      ],
+      "description": "横向公园草地照片，包含天空、柳树、远处树林、开阔草坪和右上方深色树冠，摄影环境完整保留；左下区域叠有白色手写标注，照片边缘为矩形。"
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        785,
+        398,
+        1019,
+        554
+      ],
+      "description": "横向近距离自拍照片，一名女性面向镜头，手指靠近脸部，背景为较暗的室外或车内环境；完整照片窗口为矩形。"
+    },
+    {
+      "id": "photo_sunset_road",
+      "kind": "photo",
+      "bbox": [
+        54,
+        600,
+        502,
+        901
+      ],
+      "description": "横向傍晚道路照片，中央道路向远处延伸，两侧树木形成暗色剪影，远处有车辆和落日余光；右上天空区域叠有棕色手写字样，摄影环境保留。"
+    },
+    {
+      "id": "photo_bench_snack",
+      "kind": "photo",
+      "bbox": [
+        571,
+        612,
+        1007,
+        902
+      ],
+      "description": "横向公园长椅与食物照片，画面中有木质长椅、白色饮料杯、吸管和包装食品，背景为草地和树影；下缘被橙色标签局部遮挡。"
+    },
+    {
+      "id": "photo_bottom_park",
+      "kind": "photo",
+      "bbox": [
+        382,
+        963,
+        1028,
+        1394
+      ],
+      "description": "横向树林草地照片，包含多棵树、林间草坪和右侧近距离粗大树干，光线从树林上方照入；完整照片窗口为矩形。"
+    },
+    {
+      "id": "overlay_top_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        87,
+        453,
+        426,
+        529
+      ],
+      "description": "叠加在顶部草地照片左下方的白色手写两行文字装饰，保留原有笔画、行距和不规则手写轮廓；文字与照片内容分属独立单元。"
+    },
+    {
+      "id": "overlay_top_label",
+      "kind": "overlay",
+      "bbox": [
+        682,
+        299,
+        1043,
+        381
+      ],
+      "description": "横向棕褐色矩形手写标签，包含两行白色中文手写字样，位于顶部照片右侧并作为独立固定纸签保留。"
+    },
+    {
+      "id": "overlay_road_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        295,
+        621,
+        420,
+        701
+      ],
+      "description": "叠加在傍晚道路照片右上天空区域的棕色手写字样，保留独立笔画和原有倾斜排布，不并入可替换的道路摄影内容。"
+    },
+    {
+      "id": "overlay_bench_label",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        884,
+        1038,
+        936
+      ],
+      "description": "橙色横向矩形手写标签，包含白色中文手写字样，覆盖在长椅食物照片下缘上方并遮挡照片局部。"
+    },
+    {
+      "id": "overlay_left_label",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        959,
+        359,
+        1064
+      ],
+      "description": "左下方深棕色矩形手写标签，包含两行白色中文手写字样，位于底部树林照片左侧，作为独立固定标签保留。"
+    },
+    {
+      "id": "overlay_clover",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        80,
+        965,
+        265
+      ],
+      "description": "画布右上方独立的深绿色四叶草手绘装饰，包含四片叶瓣、中心连接处和下方弯曲茎部，完整轮廓与笔触保留。"
+    },
+    {
+      "id": "overlay_tree_drawing",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        1096,
+        305,
+        1369
+      ],
+      "description": "画布左下方独立的深棕色手绘针叶树装饰，包含树冠轮廓、内部点状细节和树干，作为完整固定图案保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_meadow",
+    "photo_selfie",
+    "photo_sunset_road",
+    "photo_bench_snack",
+    "photo_bottom_park",
+    "overlay_top_handwriting",
+    "overlay_top_label",
+    "overlay_road_handwriting",
+    "overlay_bench_label",
+    "overlay_left_label",
+    "overlay_clover",
+    "overlay_tree_drawing"
+  ]
+}

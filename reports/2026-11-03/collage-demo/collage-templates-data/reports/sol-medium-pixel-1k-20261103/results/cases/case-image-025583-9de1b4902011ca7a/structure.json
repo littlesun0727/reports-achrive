@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "leopard_print_base",
+    "description": "豹纹图案连续铺满画布四边，并在中央矩形人像照片周围露出；保留原有图案与色彩，照片区域独立替换。"
+  },
+  "objects": [
+    {
+      "id": "portrait_photo",
+      "kind": "photo",
+      "bbox": [
+        40,
+        102,
+        1040,
+        1352
+      ],
+      "description": "单人竖幅近距离人像照片：一位成年女性正面看向镜头，深色蓬松卷发围绕居中的面部，画面下方可见颈部；人物占据大部分画面，背景为浅灰紫色。照片呈完整矩形，带有粉红光晕与颗粒、划痕质感，四周豹纹底图露出；照片右下区域被红色唇印图案遮挡。"
+    },
+    {
+      "id": "lip_print",
+      "kind": "overlay",
+      "bbox": [
+        748,
+        1051,
+        825,
+        1119
+      ],
+      "description": "鲜红色唇印图案，独立叠加在照片右下方、女性颈肩旁；保留完整唇形及内部纹理。"
+    }
+  ],
+  "layer_order": [
+    "portrait_photo",
+    "lip_print"
+  ]
+}

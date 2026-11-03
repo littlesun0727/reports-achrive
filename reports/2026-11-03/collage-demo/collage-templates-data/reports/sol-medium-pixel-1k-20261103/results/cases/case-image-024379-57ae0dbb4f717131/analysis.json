@@ -1,0 +1,112 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的暗色夜间户外摄影环境覆盖整个画布，包含远处微光、模糊地面与道路反光，内容延伸至四边；上方两张红色相框照片和下方文字遮挡局部，背景环境整体作为可替换摄影底图保留。",
+      "background_type": "photo",
+      "label": "连续的暗色夜间户外摄影环境覆盖整个画布，包含远处微光、模糊地",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        155,
+        425,
+        495,
+        770
+      ],
+      "description": "左侧竖向照片窗口，显示一名身穿浅色羽绒服、戴图案帽子的女性近景，人物位于前景偏左并面向右侧，身后是夜间户外地面、山坡和燃烧的火堆，摄影环境完整保留；照片窗口为矩形，边缘由红色固定相框围绕。",
+      "label": "左侧竖向照片窗口，显示一名身穿浅色羽绒服、戴图案帽子的女性近",
+      "method": "local"
+    },
+    {
+      "id": "frame_left",
+      "kind": "frame",
+      "bbox": [
+        130,
+        395,
+        520,
+        868
+      ],
+      "description": "左侧红色拍立得式固定相框，包含上、下、左、右四周的宽红色边框，承载左侧单张照片；相框自身的平面颜色和完整矩形轮廓保留。",
+      "photo_id": [
+        "photo_left"
+      ],
+      "label": "左侧红色拍立得式固定相框，包含上、下、左、右四周的宽红色边框",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        595,
+        423,
+        935,
+        769
+      ],
+      "description": "右侧竖向夜景照片窗口，显示黑色夜空中由中心向外扩散的烟花或光点轨迹，底部可见少量地面亮点；摄影环境保留在矩形窗口内，边缘由红色固定相框围绕。",
+      "label": "右侧竖向夜景照片窗口，显示黑色夜空中由中心向外扩散的烟花或光",
+      "method": "local"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        570,
+        393,
+        959,
+        866
+      ],
+      "description": "右侧红色拍立得式固定相框，包含完整的宽红色边框和较大的下方留白区域，承载右侧单张夜景照片；相框材质、颜色和矩形外轮廓整体保留。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右侧红色拍立得式固定相框，包含完整的宽红色边框和较大的下方留",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        143,
+        909,
+        492,
+        1294
+      ],
+      "description": "I say\n\nit's Best\nat\nthe Moment",
+      "label": "I say\n\nit's Best\nat\nthe Moment",
+      "method": "local",
+      "text": "I say\n\nit's Best\nat\nthe Moment",
+      "text_status": "known",
+      "style": {
+        "fill": "#E8E6D8",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_left",
+    "frame_left",
+    "photo_right",
+    "frame_right",
+    "text_quote"
+  ]
+}

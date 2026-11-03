@@ -1,0 +1,128 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_desk",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立桌面生活照片，包含打开的笔记本电脑、饮品、香水、手表及桌面物件，电脑屏幕内的人像和“PLAYLIST”字样属于照片内容；完整矩形区域延伸至画布左边、上边及中部拼接边界。",
+      "label": "左上独立桌面生活照片，包含打开的笔记本电脑、饮品、香水、手表",
+      "method": "local"
+    },
+    {
+      "id": "photo_bag",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立静物照片，几何拼片手提包及周围化妆品摆放在编织垫上，后方为室内墙面；完整矩形区域延伸至画布上边、右边及中部拼接边界。",
+      "label": "右上独立静物照片，几何拼片手提包及周围化妆品摆放在编织垫上，",
+      "method": "local"
+    },
+    {
+      "id": "photo_teddy",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立静物照片，泰迪熊坐在床品与布面桌面之间，周围有平板、杯子、耳机、手表和笔记本；完整矩形区域延伸至画布左边、下边及中部拼接边界。",
+      "label": "左下独立静物照片，泰迪熊坐在床品与布面桌面之间，周围有平板、",
+      "method": "local"
+    },
+    {
+      "id": "photo_outfit",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立穿搭镜自拍，单人全身站立，戴黑色帽子并以手机遮住脸，身穿灰色上衣和深色短裙，背景为室内墙面与门；完整矩形区域延伸至画布右边、下边及中部拼接边界。",
+      "label": "右下独立穿搭镜自拍，单人全身站立，戴黑色帽子并以手机遮住脸，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        237,
+        31,
+        789,
+        153
+      ],
+      "description": "跨在上方两张照片顶部的多行中文社交配文，白字分别置于不等宽半透明深灰条上，保留整组文字与底条的原有排布和可见字样。",
+      "label": "跨在上方两张照片顶部的多行中文社交配文，白字分别置于不等宽半",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_post_card",
+      "kind": "overlay",
+      "bbox": [
+        836,
+        47,
+        1050,
+        136
+      ],
+      "description": "右上照片内靠近右上角的白色社交平台信息卡片，含头像表情、短中文信息、分隔线及底部小图标文字，作为完整固定界面卡片保留。",
+      "label": "右上照片内靠近右上角的白色社交平台信息卡片，含头像表情、短中",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ootd",
+      "kind": "overlay",
+      "bbox": [
+        571,
+        880,
+        701,
+        914
+      ],
+      "description": "右下照片内人物左侧的黑色粗体艺术字“#OOTD”，作为独立叠加字样保留。",
+      "label": "右下照片内人物左侧的黑色粗体艺术字“#OOTD”，作为独立叠",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_desk",
+    "photo_bag",
+    "photo_teddy",
+    "photo_outfit",
+    "overlay_caption",
+    "overlay_post_card",
+    "overlay_ootd"
+  ]
+}

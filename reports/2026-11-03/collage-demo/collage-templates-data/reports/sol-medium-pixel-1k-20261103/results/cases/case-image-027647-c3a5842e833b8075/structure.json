@@ -1,0 +1,132 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        17,
+        17,
+        358,
+        358
+      ],
+      "description": "左上方黑白人物肖像，一名短发男子戴黑色方框眼镜，穿白衬衫、领带及深色外套，头部朝左，显示头肩近景。保留暗色摄影背景，完整显示窗口为方形，人物下部被窗口下缘裁切。"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        375,
+        17,
+        707,
+        358
+      ],
+      "description": "上方中央黑白地面照片，俯视深色路面及上缘的浅色铺路石，路面上可见粉笔手写的“James”。文字属于被拍摄场景，随整张照片替换；保留地面纹理、石块接缝及完整矩形取景。"
+    },
+    {
+      "id": "photo_top_right_left",
+      "kind": "photo",
+      "bbox": [
+        723,
+        17,
+        859,
+        358
+      ],
+      "description": "右上方组合中的左侧窄幅人物照片，一名浅色刘海男子穿黑色皮衣，面对镜头闭眼或眯眼、张嘴，抬手在脸旁做张开的手势。保留暗色摄影背景，头发、手及衣服均按窄矩形窗口裁切；右缘与另一张不同姿态照片直接相接。"
+    },
+    {
+      "id": "photo_top_right_right",
+      "kind": "photo",
+      "bbox": [
+        859,
+        17,
+        1064,
+        358
+      ],
+      "description": "右上方组合中的右侧人物照片，一名浅色刘海男子穿黑色皮衣，面对镜头眯眼露齿，张开的手横向伸在脸旁。与左侧照片的脸部和手势位置不连续，为独立取景；保留暗色背景及矩形窗口内的完整摄影内容，右侧头部被画布内的照片边缘裁切。"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        17,
+        375,
+        358,
+        707
+      ],
+      "description": "中排左侧黑白面部极近景，画面包含一名男子的耳朵、金属耳环、鬓发、单侧眉眼及脸颊，眼睛位于右侧。保留左下方深色衣物与其余摄影内容，显示范围为完整矩形窗口，不沿五官轮廓去背景。"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        375,
+        375,
+        707,
+        707
+      ],
+      "description": "中排中央黑白面部极近景，正面取景集中于额头、两侧眉眼和鼻梁，鼻梁下部可见小痣，两只眼睛分别靠近左右边缘并被裁切。该位置有独立矩形显示边界，保留全部面部摄影内容，不与左右窗口合并。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        723,
+        375,
+        1064,
+        707
+      ],
+      "description": "中排右侧黑白面部极近景，主要显示一只眼睛、眉毛、脸颊以及右侧耳朵和金属耳环，右下角露出深色衣领。完整显示区域为矩形，保留摄影内容；与另外两张面部近景之间均有白色间隔，各自独立替换。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        17,
+        723,
+        358,
+        1064
+      ],
+      "description": "左下方黑白镜面自拍，一名短发男子穿敞开的黑色皮衣，露出胸腹，身体略侧转，一手叉腰，另一手举手机靠近脸部并看向手机。保留粗糙墙面、左上方管道及镜中场景，显示上半身至腰部，下缘裁切身体。"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        375,
+        723,
+        707,
+        1064
+      ],
+      "description": "下方中央黑白雾景照片，枯树枝从顶部和两侧伸入，远处有尖顶建筑及拱门，右侧石柱上停着一只黑鸟，下方为朦胧地面与植被。保留完整场景，雾气和柔和明暗属于摄影内容，并非透明渐隐。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        723,
+        723,
+        1064,
+        1064
+      ],
+      "description": "右下方黑白人物照片，一名短发男子穿浅色无袖上衣，头部转向左侧、嘴部微张，显示头肩和部分上身。右下方斜向车窗或车门结构遮住身体，后方保留建筑墙面；这些均属于同一摄影场景，完整显示窗口为矩形。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_center",
+    "photo_top_right_left",
+    "photo_top_right_right",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right"
+  ]
+}

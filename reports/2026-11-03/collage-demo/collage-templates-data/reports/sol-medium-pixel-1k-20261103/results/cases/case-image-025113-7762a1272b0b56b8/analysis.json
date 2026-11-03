@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1349
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1349
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_left_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        729,
+        1058
+      ],
+      "description": "左侧竖向人物摄影画面，包含一名身着红金传统服饰、佩戴大型花饰头冠的女性半身至坐姿形象，以及灯笼、花纹和黑色室内环境；照片以完整矩形显示，右侧和下方被前景人物局部遮挡，画面内的装饰纹理与淡色文字随照片替换。",
+      "label": "左侧竖向人物摄影画面，包含一名身着红金传统服饰、佩戴大型花饰",
+      "method": "local"
+    },
+    {
+      "id": "overlay_gold_corner_ornament",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        0,
+        1080,
+        263
+      ],
+      "description": "右上角独立金色装饰单元，包含斜向细长纹样、卷曲花纹和右侧几何边框，置于黑色底面上并位于前景人物头部后方，作为固定设计整体保留。",
+      "label": "右上角独立金色装饰单元，包含斜向细长纹样、卷曲花纹和右侧几何",
+      "method": "extract"
+    },
+    {
+      "id": "photo_foreground_figure",
+      "kind": "photo",
+      "bbox": [
+        376,
+        159,
+        1080,
+        1349
+      ],
+      "description": "前景独立人物摄影主体，一名身着红橙金色传统服饰、佩戴大型红色花饰头冠的女性，面向左下方并抬手触碰头侧，完整包含头饰、脸部、手臂、衣袖和延伸至画布底部的裙装；摄影背景去除，黑色画布在主体轮廓外可见，主体覆盖左侧照片的右下区域并延伸至画布右边和下边。",
+      "label": "前景独立人物摄影主体，一名身着红橙金色传统服饰、佩戴大型红色",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left_portrait",
+    "overlay_gold_corner_ornament",
+    "photo_foreground_figure"
+  ]
+}

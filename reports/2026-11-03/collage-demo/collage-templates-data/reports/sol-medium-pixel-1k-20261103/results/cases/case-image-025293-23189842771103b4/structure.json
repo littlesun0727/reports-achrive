@@ -1,0 +1,40 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_lace",
+    "description": "白色底上的浅粉色花朵、叶片与网状蕾丝图案，上下画布边缘均露出同类固定纹样，作为全画布设计底图保留。中央照片及其花边框独立处理；被遮挡部分不补造具体花纹。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        250,
+        1080,
+        1723
+      ],
+      "description": "中央竖向室内人物照片，一名黑金双色头发的年轻女性坐在椅上，穿粉色短袖上衣和蓝色短裙，双手持高脚饮料杯，吸管靠近嘴边，面朝镜头，显示头部至膝部附近。保留完整摄影环境，包括左侧青绿色珠帘及后方人物、花砖地面、右侧木柜、玻璃桌与粉色垫子。照片左右抵达画布边缘，上下为明确裁切边界；粉色玫瑰花边覆盖照片四周，人物未沿轮廓去背景。"
+    },
+    {
+      "id": "frame_roses",
+      "kind": "frame",
+      "bbox": [
+        0,
+        250,
+        1080,
+        1723
+      ],
+      "description": "围绕中央单张照片的粉色玫瑰藤蔓装饰框，包含四周玫瑰、卷曲枝蔓、小花及浅色轮廓线，作为同一完整框体保留。左右部分贴近画布边缘，上下花纹在照片边界处截断；框内空隙透出摄影内容，花朵与藤蔓叠在照片之上。浅粉色蕾丝底图不属于此框体。",
+      "photo_id": [
+        "photo_portrait"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_portrait",
+    "frame_roses"
+  ]
+}

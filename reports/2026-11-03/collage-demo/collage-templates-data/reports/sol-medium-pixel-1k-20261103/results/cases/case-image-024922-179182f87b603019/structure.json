@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_coastal_scene",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1024,
+        770
+      ],
+      "description": "画面上方横向海岸摄影，完整窗口从画布左右边缘延伸至约 y=770；可见蓝天、海面、草地、树木、建筑和左下方一名坐着的人，环境与人物共同替换。下缘为清晰水平裁切边界。"
+    },
+    {
+      "id": "overlay_paper_sheet",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        770,
+        1024,
+        1536
+      ],
+      "description": "下半幅浅乳白色、带细微斑驳纸纹的整块纸面，从上方照片的水平下缘延伸至画布底边；作为局部固定承托底纸保留。"
+    },
+    {
+      "id": "overlay_cut_paper_scene",
+      "kind": "overlay",
+      "bbox": [
+        136,
+        1031,
+        862,
+        1334
+      ],
+      "description": "纸面中央的完整剪贴画式海岸场景：蓝色长方形海面、左侧灰色屋顶和细杆、右侧树冠与树干及栏杆、右边窄橙色建筑块，以及屋顶旁穿浅色衣服的小人。各部分共同构成一幅固定的纸艺拼贴，边缘呈不规则剪贴质感，整体保留，不拆分为照片或独立装饰。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        392,
+        1390,
+        632,
+        1428
+      ],
+      "text": "A small bay,\nkeeps the big blue whole.",
+      "color": "#25231F",
+      "font": "mono",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_paper_sheet",
+    "photo_coastal_scene",
+    "overlay_cut_paper_scene",
+    "text_caption"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的城市日落摄影画面覆盖全画布：上部为蓝灰天空与金色云层，下部为建筑、树木剪影、路灯、栏杆和道路，无明确人物主体。天空与地面场景延伸至四边，三张局部照片和文字装饰遮挡其中部分区域；完整城市环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        39,
+        486,
+        392,
+        956
+      ],
+      "description": "左侧竖向照片，从高处俯拍一名浅色头发、戴墨镜的黑衣人物，人物位于画面右侧并举手机朝上拍摄。左侧为斜向甜点展示柜，下方可见糕点，后方为蓝色花纹地砖。保留完整摄影环境，照片以清晰矩形边界显示。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        460,
+        540,
+        731,
+        901
+      ],
+      "description": "中央竖向人物近景，一名金色长发、穿黑衣的人正对镜头，单眼闭起，墨镜架在头顶，右侧举起白色咖啡杯。保留身后的木质家具、花纹座椅及室内环境，显示范围为完整矩形照片。"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        798,
+        588,
+        998,
+        854
+      ],
+      "description": "右侧较小的竖向餐桌照片，无人物。俯视白色桌面上的粉色花纹餐盘、牛角包、马卡龙、杯碟、金属茶具及白花，顶部保留灰色地面环境。整个餐桌摄影画面以矩形窗口显示。"
+    },
+    {
+      "id": "text_where",
+      "kind": "text",
+      "bbox": [
+        67,
+        404,
+        293,
+        458
+      ],
+      "text": "@ Where",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_who",
+      "kind": "text",
+      "bbox": [
+        512,
+        476,
+        640,
+        520
+      ],
+      "text": "@ Who",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_what",
+      "kind": "text",
+      "bbox": [
+        820,
+        535,
+        957,
+        577
+      ],
+      "text": "@ What",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_arrow_left",
+      "kind": "overlay",
+      "bbox": [
+        346,
+        456,
+        417,
+        483
+      ],
+      "description": "左侧照片上沿右侧的白色细线手绘弯箭头，箭头朝左下指向照片，保留完整弧线和箭头笔画。"
+    },
+    {
+      "id": "overlay_arrow_center",
+      "kind": "overlay",
+      "bbox": [
+        714,
+        515,
+        761,
+        535
+      ],
+      "description": "中央照片右上方的白色细线弯箭头，向左下指向照片上沿，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_arrow_right",
+      "kind": "overlay",
+      "bbox": [
+        1017,
+        571,
+        1057,
+        590
+      ],
+      "description": "右侧照片右上方的白色细线弯箭头，箭头朝左下，完整保留弧线和箭头端部。"
+    },
+    {
+      "id": "overlay_location_icon",
+      "kind": "overlay",
+      "bbox": [
+        410,
+        1196,
+        482,
+        1270
+      ],
+      "description": "底部位置标识图标：白色圆角方块内有黑色空心地图定位针，包含方块的轻微纹理及完整图标轮廓；与右侧文字相邻，无照片承载功能。"
+    },
+    {
+      "id": "text_location",
+      "kind": "text",
+      "bbox": [
+        505,
+        1213,
+        677,
+        1251
+      ],
+      "text": "Location",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1414,
+        1073,
+        1434
+      ],
+      "description": "右下角小型半透明灰色圆角胶囊水印，内部可辨“小红书”字样；底板与内部印字作为一个完整固定单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left",
+    "photo_center",
+    "photo_right",
+    "text_where",
+    "text_who",
+    "text_what",
+    "overlay_arrow_left",
+    "overlay_arrow_center",
+    "overlay_arrow_right",
+    "overlay_location_icon",
+    "text_location",
+    "overlay_watermark"
+  ]
+}

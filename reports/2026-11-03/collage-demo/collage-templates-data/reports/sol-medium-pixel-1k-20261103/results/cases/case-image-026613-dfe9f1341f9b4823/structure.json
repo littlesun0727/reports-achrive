@@ -1,0 +1,409 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_stars",
+    "description": "全画布连续的浅冰蓝色底图，带柔和的明暗变化、蓝灰色大小星星、空心星形及细碎散点。相同纹理延伸至四边及拼贴间隙；中央人物照片与叠加装饰独立列出，清除后保留固定星空底图，不补造被遮挡的图案。"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        166,
+        720,
+        876,
+        1581
+      ],
+      "description": "中央大幅俯拍人物照片，一名黑发人物穿白领条纹上衣，头戴白色毛绒饰物，面对镜头眨眼，右侧抬手做剪刀手。下半部保留衣服、配饰和灰色地砖，右侧保留局部深色摄影环境。照片外围柔化并渐隐至蓝色底图，上缘及下缘尤为明显；左右和下方被多个贴纸遮挡，范围不按剩余可见碎片缩小。"
+    },
+    {
+      "id": "photo_small",
+      "kind": "photo",
+      "bbox": [
+        98,
+        582,
+        357,
+        807
+      ],
+      "description": "左上独立倾斜近景照片，同一黑发人物侧脸朝右，穿白领条纹上衣，头顶可见白色毛绒饰物，背后保留室内深浅背景。取景和姿态与中央照片不同。照片外缘柔化，左上被白色圆环遮挡，下部被竖向标签和蓝色星形遮挡。"
+    },
+    {
+      "id": "overlay_top_tape",
+      "kind": "overlay",
+      "bbox": [
+        613,
+        565,
+        985,
+        617
+      ],
+      "description": "上方横向蓝白格纹胶带，保留斜纹、格线及不齐的端部。位于心形饰品和右侧竖排韩文字样后方，不承担照片窗口功能。"
+    },
+    {
+      "id": "overlay_blue_dot",
+      "kind": "overlay",
+      "bbox": [
+        941,
+        530,
+        1005,
+        597
+      ],
+      "description": "上方胶带右端附近的浅蓝色圆形贴纸，独立叠在底图上。"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        566,
+        872,
+        685
+      ],
+      "description": "相邻的两枚半透明立体心形饰品，左侧偏蓝且有银色内部纹样，右侧透明银白且带细碎反光纹理；作为一个成对饰品单元保留完整轮廓和材质，覆盖上方胶带。"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        763,
+        663,
+        886,
+        798
+      ],
+      "description": "蓝灰色小型摄像机贴纸，包含翻开的侧屏、机身、镜头、细小印字和反光质感，位于心形饰品下方及白色文字气泡后方。"
+    },
+    {
+      "id": "overlay_korean_caption",
+      "kind": "overlay",
+      "bbox": [
+        558,
+        681,
+        774,
+        726
+      ],
+      "description": "白色不规则贴纸上的黑色手绘字样，可辨为“사랑인가요..”，右端带小圆点脸部造型。保留原有笔画、白色轮廓与附属点缀，不拆为普通文字。"
+    },
+    {
+      "id": "overlay_right_vertical_words",
+      "kind": "overlay",
+      "bbox": [
+        889,
+        447,
+        948,
+        971
+      ],
+      "description": "右侧长条竖排韩文艺术字，可辨为“매일매일 조금이라도 행복하자”。字形带蓝色外轮廓和白色内部，按竖向逐字排列，完整保留其特殊排版，覆盖上方胶带及右侧装饰区域。"
+    },
+    {
+      "id": "overlay_paw_tape",
+      "kind": "overlay",
+      "bbox": [
+        939,
+        717,
+        984,
+        1058
+      ],
+      "description": "右侧窄竖条白色装饰胶带，重复印有浅蓝色小爪印，完整保留上下端和连续印花。"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        708,
+        736,
+        898,
+        938
+      ],
+      "description": "白色椭圆文字气泡，内部黑色韩文分列竖排，可辨为“언니 나 봐”；左上附有白色星形和蓝底白星胶带。气泡、胶带、星形及印字组成一体装饰，覆盖摄像机和人物手部附近。"
+    },
+    {
+      "id": "overlay_small_ring",
+      "kind": "overlay",
+      "bbox": [
+        406,
+        695,
+        483,
+        773
+      ],
+      "description": "中央照片左上缘附近的浅蓝灰色粗线空心圆环，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_small_photo_ring",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        598,
+        159,
+        710
+      ],
+      "description": "左上小照片上的白色粗线空心圆环，局部覆盖人物毛绒饰物和摄影背景，环内仍透出下层内容。"
+    },
+    {
+      "id": "overlay_small_photo_star",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        731,
+        350,
+        824
+      ],
+      "description": "小照片右下方的大号浅蓝五角星，覆盖小照片下缘并叠在中央照片左上区域。"
+    },
+    {
+      "id": "overlay_envelope",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        945,
+        289,
+        1079
+      ],
+      "description": "左侧倾斜浅蓝色信封装饰，具有三角折线、封口和深浅纸面变化。这里只作装饰，没有独立照片窗口；右部被竖向标签遮挡。"
+    },
+    {
+      "id": "overlay_left_vertical_label",
+      "kind": "overlay",
+      "bbox": [
+        160,
+        759,
+        205,
+        1147
+      ],
+      "description": "左侧蓝色窄长标签，白色中文竖排“你的存在是幸福本身”。印字与蓝色载体整体保留，上端压住小照片，下端延伸至中央照片左侧。"
+    },
+    {
+      "id": "overlay_left_dotted_tape",
+      "kind": "overlay",
+      "bbox": [
+        198,
+        972,
+        233,
+        1200
+      ],
+      "description": "左侧白底浅蓝圆点竖向胶带，位于信封右侧和人物照片左缘，保留重复圆点与完整条带。"
+    },
+    {
+      "id": "overlay_my_angel",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        1190,
+        358,
+        1237
+      ],
+      "description": "浅蓝色小条幅贴纸，带白色手写“My angel”和不规则轻盈边缘，叠在圆点胶带下端与人物衣服之上。"
+    },
+    {
+      "id": "overlay_right_rings",
+      "kind": "overlay",
+      "bbox": [
+        785,
+        969,
+        951,
+        1139
+      ],
+      "description": "右侧两枚相交的白色粗线空心圆环，大环在上，小环在左下，组成完整环形装饰。覆盖人物照片右缘，环内显示下层照片与蓝色底图。"
+    },
+    {
+      "id": "overlay_cream_plate",
+      "kind": "overlay",
+      "bbox": [
+        843,
+        1101,
+        1080,
+        1303
+      ],
+      "description": "右侧奶油樱桃盘装饰，包含蓝灰色椭圆盘沿、白色奶油堆和带长梗的红樱桃，保留立体反光和阴影。右缘由画布裁切，下缘被白色文字标签遮挡。"
+    },
+    {
+      "id": "overlay_jelly",
+      "kind": "overlay",
+      "bbox": [
+        121,
+        1254,
+        322,
+        1424
+      ],
+      "description": "左下蓝色果冻甜点贴纸，包含白色椭圆小盘、蓝色半透明果冻、顶部透明花状饰物和高光。保留完整甜点组合，局部被上方白星和下方蓝色圆环遮挡。"
+    },
+    {
+      "id": "overlay_white_star",
+      "kind": "overlay",
+      "bbox": [
+        271,
+        1238,
+        395,
+        1349
+      ],
+      "description": "人物衣服左下侧的大号白色五角星贴纸，覆盖照片并压住蓝色果冻装饰上部。"
+    },
+    {
+      "id": "overlay_white_dot",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        1314,
+        119,
+        1353
+      ],
+      "description": "果冻左侧的小白色实心圆点，独立置于蓝色底图上。"
+    },
+    {
+      "id": "overlay_left_blue_ring",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        1369,
+        207,
+        1516
+      ],
+      "description": "左下大号浅蓝色粗线空心圆环，覆盖果冻盘边缘及冰块组合左上部，环内透出下层图像。"
+    },
+    {
+      "id": "overlay_ice",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        1412,
+        496,
+        1662
+      ],
+      "description": "左下成堆透明蓝色冰块装饰，包含上下错落的多枚方冰、折射纹理、深蓝边缘及接触阴影。作为完整冰块组合保留，不按单块拆分，上部局部被圆环和青色小标签遮挡。"
+    },
+    {
+      "id": "overlay_cyan_label",
+      "kind": "overlay",
+      "bbox": [
+        381,
+        1445,
+        511,
+        1513
+      ],
+      "description": "冰块右上方的青色圆角小标签，带白色韩文字形和柔和边缘阴影，保留文字与载体的整体外观。"
+    },
+    {
+      "id": "overlay_message_box",
+      "kind": "overlay",
+      "bbox": [
+        663,
+        1282,
+        1017,
+        1382
+      ],
+      "description": "右下白色横向标签，带黑色双层矩形边线、像素风韩文“길을 잃었다흑흑,, ”及右端圆形笑脸符号，上边附浅蓝小圆点。印字、边框、笑脸和附属圆点整体保留，覆盖奶油盘下缘及人物照片。"
+    },
+    {
+      "id": "overlay_message_star",
+      "kind": "overlay",
+      "bbox": [
+        995,
+        1317,
+        1064,
+        1381
+      ],
+      "description": "白色消息标签右侧的浅蓝色五角星，部分压在标签右边缘，作为独立装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_tape",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        1384,
+        1080,
+        1452
+      ],
+      "description": "右下横向蓝白斜条纹胶带，含交错纹理和不齐端部，右端到达画布边缘，位于英文标签上方。"
+    },
+    {
+      "id": "overlay_sky_label",
+      "kind": "overlay",
+      "bbox": [
+        756,
+        1440,
+        1010,
+        1517
+      ],
+      "description": "浅蓝色圆角横向标签，内部深灰色规则英文“you are the sky”。文字与圆角色块构成固定带字标签，整体保留。"
+    },
+    {
+      "id": "overlay_everything_label",
+      "kind": "overlay",
+      "bbox": [
+        710,
+        1516,
+        1014,
+        1593
+      ],
+      "description": "下方浅蓝色圆角横向标签，内部深灰色英文“you are everything”，右端有小尖角。整体保留，右侧部分文字被白色圆环遮挡。"
+    },
+    {
+      "id": "overlay_label_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        694,
+        1457,
+        763,
+        1523
+      ],
+      "description": "上方英文标签左侧的亮浅蓝五角星，独立叠在照片渐隐区与底图上。"
+    },
+    {
+      "id": "overlay_bottom_white_ring",
+      "kind": "overlay",
+      "bbox": [
+        853,
+        1525,
+        993,
+        1670
+      ],
+      "description": "右下白色粗线空心圆环，覆盖下方英文标签右部，环内透出标签和蓝色星空底图。"
+    },
+    {
+      "id": "overlay_bottom_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        939,
+        1615,
+        1006,
+        1682
+      ],
+      "description": "右下亮浅蓝色五角星，压住白色圆环的右下边缘，作为独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_main",
+    "photo_small",
+    "overlay_top_tape",
+    "overlay_blue_dot",
+    "overlay_hearts",
+    "overlay_camera",
+    "overlay_paw_tape",
+    "overlay_korean_caption",
+    "overlay_right_vertical_words",
+    "overlay_speech",
+    "overlay_small_ring",
+    "overlay_small_photo_ring",
+    "overlay_envelope",
+    "overlay_left_vertical_label",
+    "overlay_left_dotted_tape",
+    "overlay_small_photo_star",
+    "overlay_my_angel",
+    "overlay_right_rings",
+    "overlay_cream_plate",
+    "overlay_jelly",
+    "overlay_white_star",
+    "overlay_white_dot",
+    "overlay_ice",
+    "overlay_left_blue_ring",
+    "overlay_cyan_label",
+    "overlay_message_box",
+    "overlay_message_star",
+    "overlay_bottom_tape",
+    "overlay_sky_label",
+    "overlay_everything_label",
+    "overlay_label_blue_star",
+    "overlay_bottom_white_ring",
+    "overlay_bottom_blue_star"
+  ]
+}

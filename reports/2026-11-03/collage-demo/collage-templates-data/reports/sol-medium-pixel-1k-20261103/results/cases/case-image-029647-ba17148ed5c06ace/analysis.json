@@ -1,0 +1,195 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "全画布连续的粗纤维纸质底图，上部为灰褐玫瑰色，向下渐变为浅灰米色，散布淡金色小星星和细碎斑点。纸纹与颜色变化在四边及照片间隙连续可见，作为固定底图保留；三张独立照片及上叠彩色涂鸦不属于底图。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的粗纤维纸质底图，上部为灰褐玫瑰色，向下渐变为浅灰",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_castle",
+      "kind": "photo",
+      "bbox": [
+        85,
+        60,
+        758,
+        510
+      ],
+      "description": "左上横向夜景照片，粉紫灯光照亮的童话城堡居中，尖塔向上延伸，前方有发光灯饰，左上边缘露出截断的路灯。完整保留深蓝夜空及建筑环境，矩形照片边界清晰，上方局部被白色星光涂鸦覆盖。",
+      "label": "左上横向夜景照片，粉紫灯光照亮的童话城堡居中，尖塔向上延伸，",
+      "method": "local"
+    },
+    {
+      "id": "photo_window",
+      "kind": "photo",
+      "bbox": [
+        329,
+        548,
+        914,
+        940
+      ],
+      "description": "中部偏右的横向建筑近景照片，浅黄色墙面上有灰蓝色大窗和左侧窄窗，窗下花槽种植粉色郁金香与白色小花，底部为绿色灌木；大窗玻璃中可见反射及模糊人物。保留完整摄影环境，矩形显示，右上边缘被黄色涂鸦覆盖。",
+      "label": "中部偏右的横向建筑近景照片，浅黄色墙面上有灰蓝色大窗和左侧窄",
+      "method": "local"
+    },
+    {
+      "id": "photo_carousel",
+      "kind": "photo",
+      "bbox": [
+        89,
+        966,
+        931,
+        1530
+      ],
+      "description": "下部大幅横向夜景照片，中央为金色灯串勾勒的旋转木马建筑，左前方一盏明亮高路灯，右侧多盏路灯，背景有深蓝夜空和树木剪影，下缘可见暗处游客及地面。完整保留摄影环境，矩形显示，左上边缘与黄色闪光装饰局部重叠。",
+      "label": "下部大幅横向夜景照片，中央为金色灯串勾勒的旋转木马建筑，左前",
+      "method": "local"
+    },
+    {
+      "id": "overlay_white_spark_left",
+      "kind": "overlay",
+      "bbox": [
+        212,
+        71,
+        331,
+        185
+      ],
+      "description": "城堡照片上方偏左的一组白色粉笔涂鸦，由四角星、斜向长线及短划组成，保留粗糙笔触和完整组合，独立覆盖在照片上。",
+      "label": "城堡照片上方偏左的一组白色粉笔涂鸦，由四角星、斜向长线及短划",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_spark_right",
+      "kind": "overlay",
+      "bbox": [
+        539,
+        53,
+        617,
+        160
+      ],
+      "description": "城堡照片上方偏右的一组白色粉笔涂鸦，由斜向长线、顶部短划及右下四角星组成；长线顶端越过照片上边缘，保留完整笔触。",
+      "label": "城堡照片上方偏右的一组白色粉笔涂鸦，由斜向长线、顶部短划及右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_large",
+      "kind": "overlay",
+      "bbox": [
+        804,
+        173,
+        867,
+        244
+      ],
+      "description": "右上纸底上的大号手绘爱心，黄色外缘与青蓝色内部线条交错，带随手涂画的多重笔触，作为独立装饰整体保留。",
+      "label": "右上纸底上的大号手绘爱心，黄色外缘与青蓝色内部线条交错，带随",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_small",
+      "kind": "overlay",
+      "bbox": [
+        889,
+        254,
+        923,
+        297
+      ],
+      "description": "大爱心右下方的小号手绘爱心，浅绿色与蓝紫色线条叠画，保留不规则轮廓和内部笔触。",
+      "label": "大爱心右下方的小号手绘爱心，浅绿色与蓝紫色线条叠画，保留不规",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_mark",
+      "kind": "overlay",
+      "bbox": [
+        798,
+        311,
+        823,
+        330
+      ],
+      "description": "右上纸底上的独立粉色小圈状涂鸦，内部有浅色短笔触，整体保留。",
+      "label": "右上纸底上的独立粉色小圈状涂鸦，内部有浅色短笔触，整体保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_cross",
+      "kind": "overlay",
+      "bbox": [
+        994,
+        276,
+        1025,
+        318
+      ],
+      "description": "靠右边缘的黄色手绘十字闪光，纵向笔画较长、横向笔画短，保留不规则线条。",
+      "label": "靠右边缘的黄色手绘十字闪光，纵向笔画较长、横向笔画短，保留不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_lower",
+      "kind": "overlay",
+      "bbox": [
+        929,
+        392,
+        992,
+        463
+      ],
+      "description": "右侧中上部独立手绘爱心，由粉橙色和淡紫色线条交叠构成，内部有重复涂画笔触，整体保留。",
+      "label": "右侧中上部独立手绘爱心，由粉橙色和淡紫色线条交叠构成，内部有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_window_spark",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        520,
+        905,
+        578
+      ],
+      "description": "中部照片右上角的黄色手绘闪光符号，竖线与短横线交叉，顶部附有小折笔；跨越纸底与照片上边缘，作为独立装饰保留。",
+      "label": "中部照片右上角的黄色手绘闪光符号，竖线与短横线交叉，顶部附有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_double_spark",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        853,
+        305,
+        974
+      ],
+      "description": "中部左侧的一组双闪光装饰，左侧为较大的弯边四角星，右侧为细长小四角星，均为亮黄色填充和棕色手绘外缘。完整保留两星组合，较大星的下尖端叠到下方夜景照片上缘。",
+      "label": "中部左侧的一组双闪光装饰，左侧为较大的弯边四角星，右侧为细长",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_castle",
+    "photo_window",
+    "photo_carousel",
+    "overlay_white_spark_left",
+    "overlay_white_spark_right",
+    "overlay_heart_large",
+    "overlay_heart_small",
+    "overlay_pink_mark",
+    "overlay_yellow_cross",
+    "overlay_heart_lower",
+    "overlay_window_spark",
+    "overlay_double_spark"
+  ]
+}

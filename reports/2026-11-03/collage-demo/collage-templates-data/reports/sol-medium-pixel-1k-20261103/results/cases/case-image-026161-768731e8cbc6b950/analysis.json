@@ -1,0 +1,151 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        688
+      ],
+      "description": "上方独立的夜间体育场全景照片，左侧为灯光与烟雾中的舞台，中下部是密集观众和彩色荧光棒，远处看台、顶棚及高楼延伸至左右画布边缘。保留完整摄影环境；下缘与中间照片柔化交叠，交界处部分场景被覆盖，与下方人物照片的拍摄视角不连续。",
+      "label": "上方独立的夜间体育场全景照片，左侧为灯光与烟雾中的舞台，中下",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        606,
+        1080,
+        1370
+      ],
+      "description": "中间独立横向照片，一名长卷发、戴圆框眼镜的女性位于右侧，半身朝左上方看，手持白色演唱会应援棒；左侧及身后保留舞台屏幕、场馆结构、观众与橙色围栏。屏幕和应援棒上的文字属于实拍内容。照片左右延伸至画布边缘，上下接缝有柔化叠合，下部被白色文字、线条和蝴蝶装饰覆盖；交叠区域的精确边界略不清晰。",
+      "label": "中间独立横向照片，一名长卷发、戴圆框眼镜的女性位于右侧，半身",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1250,
+        1080,
+        1920
+      ],
+      "description": "下方独立的演唱会远景照片，前景为举起橙色荧光棒的密集观众，中部舞台上可见数名表演者，右侧强烈白色光束斜向左下，背景看台布满蓝色及橙色灯点。保留整个摄影场景，显示范围到达左右及底部画布边缘；上缘柔化并与中间照片交叠，其上叠有白色长线和右侧蝴蝶，底部另有发光手写字。",
+      "label": "下方独立的演唱会远景照片，前景为举起橙色荧光棒的密集观众，中",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_title",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        82,
+        1080,
+        153
+      ],
+      "description": "顶部横向标题装饰，包含蓝色蝴蝶、浅蓝色空心描线字样“SOUL POWER II”，以及两端短小的手绘点线。空心字的特定轮廓与附属图案作为完整固定设计保留，右端点线抵达画布边缘。",
+      "label": "顶部横向标题装饰，包含蓝色蝴蝶、浅蓝色空心描线字样“SOUL",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_line",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1157,
+        879,
+        1344
+      ],
+      "description": "白色手绘爱心与下方长横线组成的线稿装饰。爱心位于左侧、笔画带不规则粗细；横线从左画布边缘延伸至右侧蝴蝶附近，略有弯曲及末端淡化。整体跨在中间与下方照片接缝处，保留原有笔触。",
+      "label": "白色手绘爱心与下方长横线组成的线稿装饰。爱心位于左侧、笔画带",
+      "method": "extract"
+    },
+    {
+      "id": "text_middle",
+      "kind": "text",
+      "bbox": [
+        184,
+        1202,
+        880,
+        1270
+      ],
+      "description": "Come on ! let’s fall in love",
+      "label": "Come on ! let’s fall in love",
+      "method": "local",
+      "text": "Come on ! let’s fall in love",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_butterfly",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        1243,
+        1060,
+        1402
+      ],
+      "description": "右侧独立蓝色蝴蝶贴纸，双翅展开，翅面由亮青蓝渐变至深蓝，具有黑色轮廓、翅脉及白色小点。跨在人物照片与下方观众照片之间，覆盖白色长线右端附近，完整保留翅尖与触角。",
+      "label": "右侧独立蓝色蝴蝶贴纸，双翅展开，翅面由亮青蓝渐变至深蓝，具有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_words",
+      "kind": "overlay",
+      "bbox": [
+        678,
+        1750,
+        1003,
+        1852
+      ],
+      "description": "右下方白色手写艺术字“就这么简单”，具有倾斜、不规则连笔及明显的灰白发光晕，叠在观众照片上。字形与光晕共同构成独立固定装饰，整体保留。",
+      "label": "右下方白色手写艺术字“就这么简单”，具有倾斜、不规则连笔及明",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_top_title",
+    "overlay_heart_line",
+    "text_middle",
+    "overlay_butterfly",
+    "overlay_bottom_words"
+  ]
+}

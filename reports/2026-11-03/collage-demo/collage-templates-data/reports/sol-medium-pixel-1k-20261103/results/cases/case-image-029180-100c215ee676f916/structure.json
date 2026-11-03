@@ -1,0 +1,38 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_fireworks",
+      "kind": "photo",
+      "bbox": [
+        64,
+        159,
+        1009,
+        744
+      ],
+      "description": "横向夜景照片窗口，中央偏上的位置有一簇绽放的烟花，底部可见零散升空火花；保留整幅黑夜摄影画面，显示范围为圆角矩形。"
+    },
+    {
+      "id": "frame_film",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        1080,
+        915
+      ],
+      "description": "覆盖画布的黑色胶片边框，含上下两排白色齿孔、细微颗粒纹理及印字“KODAK 400”“14”和“KODAK 2010TX”；中央开窗露出烟花照片，固定胶片设计整体保留。",
+      "photo_id": [
+        "photo_fireworks"
+      ]
+    }
+  ],
+  "layer_order": [
+    "photo_fireworks",
+    "frame_film"
+  ]
+}

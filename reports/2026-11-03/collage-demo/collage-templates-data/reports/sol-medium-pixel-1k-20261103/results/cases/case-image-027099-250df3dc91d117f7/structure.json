@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top_architecture",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        774
+      ],
+      "description": "顶部独立横向摄影区域，拍摄砖墙、深色金属结构、壁灯与黑色门牌，门牌上可见白色数字9和分数形式的3/4。画面覆盖整幅宽度，底缘与中部照片在水平接缝处相邻，摄影环境随该照片替换。"
+    },
+    {
+      "id": "photo_middle_teddy",
+      "kind": "photo",
+      "bbox": [
+        0,
+        773,
+        1080,
+        1574
+      ],
+      "description": "中部独立摄影区域，一只棕色泰迪熊侧躺在浅色长绒织物上，身上有浅绿色布料，主体位于画面下半部，背景为深色沙发或软垫。照片覆盖整幅宽度，上下边界与其他照片形成水平拼接；摄影环境保留，主体未独立去背景。"
+    },
+    {
+      "id": "photo_bottom_record_player",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1570,
+        1080,
+        2339
+      ],
+      "description": "底部独立横向摄影区域，展示室内唱片播放设备、唱片机、唱片及周围包装和唱片封套，中央封套可见HONNE字样。照片覆盖整幅宽度，顶部与中部照片形成水平接缝，所有设备、桌面和印刷文字均属于该摄影内容。"
+    },
+    {
+      "id": "overlay_thought_bubble",
+      "kind": "overlay",
+      "bbox": [
+        247,
+        796,
+        461,
+        958
+      ],
+      "description": "位于中部泰迪熊照片上方的独立白色描边思维气泡，包含小圆连接点及“I WISH ...”字样。气泡和字样采用像素感装饰形式，作为叠加固定设计整体保留，不拆分为普通文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_architecture",
+    "photo_middle_teddy",
+    "photo_bottom_record_player",
+    "overlay_thought_bubble"
+  ]
+}

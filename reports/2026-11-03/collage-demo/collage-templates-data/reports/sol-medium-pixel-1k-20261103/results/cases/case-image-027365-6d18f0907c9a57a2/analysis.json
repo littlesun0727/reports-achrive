@@ -1,0 +1,240 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        481
+      ],
+      "description": "上方横向演出现场照片，中央悬挂由粉色方块组成的大型心形装置，周围为黑色舞台结构、灯光和漫天粉色纸屑，无清晰人物。完整摄影环境保留，四周由画布及横向拼接边界裁切；与下方照片取景不连续。",
+      "label": "上方横向演出现场照片，中央悬挂由粉色方块组成的大型心形装置，",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        481,
+        1080,
+        1061
+      ],
+      "description": "中间横向双人近景自拍，两位年轻女性面向镜头嘟嘴，左侧短发女性抬手在脸旁比心，右侧长发女性穿粉色上衣与深色马甲。下方中央共同展示粉色破裂心形物件，保留身后室内人群、墙面及灯光；人物和物件均属于同一照片，叠加的粉色手绘装饰另列。",
+      "label": "中间横向双人近景自拍，两位年轻女性面向镜头嘟嘴，左侧短发女性",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1061,
+        1080,
+        1440
+      ],
+      "description": "下方独立横向演出现场照片，黑色金属舞台桁架、白色灯光与大量飞散的粉色纸屑充满画面，无清晰人物。保留完整摄影环境；其视角及结构与顶部心形装置照片不同，上边界为独立拼接裁切，中央被充电完成装饰局部覆盖。",
+      "label": "下方独立横向演出现场照片，黑色金属舞台桁架、白色灯光与大量飞",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_words",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        0,
+        1074,
+        95
+      ],
+      "description": "顶部右侧白色手写艺术字“我们不散场”，字形笔画细长、大小与位置不规则，连同延伸笔画整体保留，叠在舞台照片上。",
+      "label": "顶部右侧白色手写艺术字“我们不散场”，字形笔画细长、大小与位",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        495,
+        201,
+        538
+      ],
+      "description": "中间照片上沿偏左的粉色涂鸦小爱心，保留粗糙笔触、内部空隙与不规则外缘。",
+      "label": "中间照片上沿偏左的粉色涂鸦小爱心，保留粗糙笔触、内部空隙与不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        911,
+        485,
+        969,
+        533
+      ],
+      "description": "中间照片上沿偏右的粉色涂鸦爱心，带斜向笔触及内部留空，作为独立装饰保留。",
+      "label": "中间照片上沿偏右的粉色涂鸦爱心，带斜向笔触及内部留空，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_loop",
+      "kind": "overlay",
+      "bbox": [
+        782,
+        492,
+        816,
+        525
+      ],
+      "description": "右侧女性额角旁的小型粉色斜椭圆手绘圈，内部留空，是独立叠加笔画而非摄影内容。",
+      "label": "右侧女性额角旁的小型粉色斜椭圆手绘圈，内部留空，是独立叠加笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_small_left",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        575,
+        159,
+        614
+      ],
+      "description": "左侧背景人群上方的粉色实心小爱心，保留不规则涂画边缘。",
+      "label": "左侧背景人群上方的粉色实心小爱心，保留不规则涂画边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_far_left",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        609,
+        103,
+        688
+      ],
+      "description": "中间照片左侧的较大粉色涂鸦爱心，粗密笔触围成心形，局部内部留黑色空隙。",
+      "label": "中间照片左侧的较大粉色涂鸦爱心，粗密笔触围成心形，局部内部留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_left_hand",
+      "kind": "overlay",
+      "bbox": [
+        183,
+        602,
+        271,
+        686
+      ],
+      "description": "左侧女性抬手外侧的粉色粗笔爱心装饰，靠近手部的右侧轮廓局部不完整，保留可见笔画，不补造被手部邻接遮住的细节。",
+      "label": "左侧女性抬手外侧的粉色粗笔爱心装饰，靠近手部的右侧轮廓局部不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_large_right",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        577,
+        952,
+        702
+      ],
+      "description": "右侧女性肩旁背景上的大粉色涂鸦爱心，密集粗糙笔画组成宽阔轮廓，中央有明显留空。",
+      "label": "右侧女性肩旁背景上的大粉色涂鸦爱心，密集粗糙笔画组成宽阔轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_small_right",
+      "kind": "overlay",
+      "bbox": [
+        960,
+        633,
+        1010,
+        681
+      ],
+      "description": "右侧背景人物脸旁的粉色实心小爱心，形态紧凑，保留原有笔触边缘。",
+      "label": "右侧背景人物脸旁的粉色实心小爱心，形态紧凑，保留原有笔触边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_far_right",
+      "kind": "overlay",
+      "bbox": [
+        998,
+        568,
+        1068,
+        648
+      ],
+      "description": "中间照片最右侧的粉色空心涂鸦爱心，双瓣细长、笔画粗糙，完整保留独立轮廓。",
+      "label": "中间照片最右侧的粉色空心涂鸦爱心，双瓣细长、笔画粗糙，完整保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        778,
+        49,
+        813
+      ],
+      "description": "左侧女性袖子外缘附近的一枚小粉色爱心装饰，贴近画布左边，保留可见不规则形状。",
+      "label": "左侧女性袖子外缘附近的一枚小粉色爱心装饰，贴近画布左边，保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_charge",
+      "kind": "overlay",
+      "bbox": [
+        327,
+        1160,
+        769,
+        1291
+      ],
+      "description": "底部照片中央的“充电完成”组合装饰，包含倾斜错落的白色粗体字、左侧黄色闪电，以及右上方亮粉色叠合爱心和黄色闪光点。文字与图标共同形成完整设计，保留轮廓、彩色边缘及附属点缀，不拆成普通文字。",
+      "label": "底部照片中央的“充电完成”组合装饰，包含倾斜错落的白色粗体字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_top_words",
+    "overlay_heart_upper_left",
+    "overlay_heart_upper_right",
+    "overlay_pink_loop",
+    "overlay_heart_small_left",
+    "overlay_heart_far_left",
+    "overlay_heart_left_hand",
+    "overlay_heart_large_right",
+    "overlay_heart_small_right",
+    "overlay_heart_far_right",
+    "overlay_heart_lower_left",
+    "overlay_charge"
+  ]
+}

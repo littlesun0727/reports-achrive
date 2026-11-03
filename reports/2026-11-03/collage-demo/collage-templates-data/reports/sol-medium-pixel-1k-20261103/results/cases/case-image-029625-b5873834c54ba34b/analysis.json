@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        443
+      ],
+      "description": "顶部横向照片，年轻女性半身侧身朝右，长黑发、浅色发箍并穿浅色上衣，身后是水面；保留完整摄影环境，照片窗口延伸至画布左右边缘。",
+      "label": "顶部横向照片，年轻女性半身侧身朝右，长黑发、浅色发箍并穿浅色",
+      "method": "local"
+    },
+    {
+      "id": "divider_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        443,
+        1080,
+        452
+      ],
+      "description": "顶部照片与中部照片之间的窄黑色水平分隔条，贯穿画布宽度。",
+      "label": "顶部照片与中部照片之间的窄黑色水平分隔条，贯穿画布宽度。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        452,
+        1080,
+        986
+      ],
+      "description": "中部横向近景照片，女性长黑发和浅色上衣占据中右部，脸部在画面右上方被窗口边缘裁切，左侧及身后可见水面；保留摄影环境，照片窗口延伸至画布左右边缘。",
+      "label": "中部横向近景照片，女性长黑发和浅色上衣占据中右部，脸部在画面",
+      "method": "local"
+    },
+    {
+      "id": "divider_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        986,
+        1080,
+        995
+      ],
+      "description": "中部照片与底部照片之间的窄黑色水平分隔条，贯穿画布宽度。",
+      "label": "中部照片与底部照片之间的窄黑色水平分隔条，贯穿画布宽度。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        995,
+        1080,
+        1439
+      ],
+      "description": "底部横向近景照片，女性戴浅色发箍、长黑发，侧脸朝右并位于画面左侧，身后是水面及远处岸边；保留摄影环境，照片窗口延伸至画布左右边缘并在画布下缘裁切。",
+      "label": "底部横向近景照片，女性戴浅色发箍、长黑发，侧脸朝右并位于画面",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "divider_top",
+    "photo_middle",
+    "divider_bottom",
+    "photo_bottom"
+  ]
+}
