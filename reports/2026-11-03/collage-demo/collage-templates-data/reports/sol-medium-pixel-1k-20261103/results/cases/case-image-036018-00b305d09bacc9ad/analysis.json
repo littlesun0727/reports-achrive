@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立生活方式照片，画面包含播放视频的笔记本电脑、床上休息的人物、窗边光线、玩偶、书本、抹茶饮品和水果吐司；矩形显示区域延伸至画布左边和上边，右侧与右上照片形成硬切接缝，下缘被主标题遮挡。照片内电脑画面和物品文字随客户素材替换。",
+      "label": "左上独立生活方式照片，画面包含播放视频的笔记本电脑、床上休息",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立静物照片，包含薯片袋、可乐瓶、编织篮和条纹织物，俯拍构图；矩形显示区域延伸至画布上边和右边，左侧与左上照片形成硬切接缝，下缘被主标题局部遮挡。包装文字和品牌内容属于照片本身。",
+      "label": "右上独立静物照片，包含薯片袋、可乐瓶、编织篮和条纹织物，俯拍",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立静物照片，包含木质托盘、口红、白色花朵装饰和条纹织物，俯拍构图；矩形显示区域延伸至画布左边和下边，上缘被主标题遮挡，右侧与右下照片形成硬切接缝。",
+      "label": "左下独立静物照片，包含木质托盘、口红、白色花朵装饰和条纹织物",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立早餐生活方式照片，包含木桌、打开的书、饮品、面包、餐盘、水果、鸡蛋、坚果和托盘边缘的手；矩形显示区域延伸至画布右边和下边，上方有黑色粉丝标签遮挡，左侧与左下照片形成硬切接缝。",
+      "label": "右下独立早餐生活方式照片，包含木桌、打开的书、饮品、面包、餐",
+      "method": "local"
+    },
+    {
+      "id": "overlay_main_title",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        667,
+        1004,
+        765
+      ],
+      "description": "横跨四格照片接缝的独立中文主标题“30+ 做自媒体的第3天”，白色粗字配厚黑色描边，整体作为固定标题装饰保留；标题位于上方照片下缘和下方照片上缘之上。",
+      "label": "横跨四格照片接缝的独立中文主标题“30+ 做自媒体的第3天”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_follower_label",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        779,
+        954,
+        867
+      ],
+      "description": "右下区域上方的黑色矩形粉丝标签，包含橙色回转箭头图标及白色文字“粉丝：221”，作为带图标和底板的完整固定装饰保留，并遮挡右下早餐照片的上部。",
+      "label": "右下区域上方的黑色矩形粉丝标签，包含橙色回转箭头图标及白色文",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_main_title",
+    "overlay_follower_label"
+  ]
+}

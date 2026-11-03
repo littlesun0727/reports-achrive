@@ -1,0 +1,180 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的深绿色雨滴玻璃、模糊树木与地面环境覆盖整个1080×1440画布，四边均露出同一摄影场景；中央拼贴照片、圆形装置、文字和耳机线遮挡局部，底图环境整体作为可替换摄影背景保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_swan",
+      "kind": "photo",
+      "bbox": [
+        219,
+        407,
+        425,
+        613
+      ],
+      "description": "左上方独立方形照片，黑天鹅漂浮在绿色水面上，完整保留水面反光与周围环境；照片边界清晰，右侧靠近中央卡片但未与其合并。"
+    },
+    {
+      "id": "photo_magazine",
+      "kind": "photo",
+      "bbox": [
+        496,
+        351,
+        590,
+        485
+      ],
+      "description": "顶部米白色卡片内的竖向照片窗口，显示树木、道路和远处人物或物体的户外场景；照片范围仅为卡片内口，周围印刷文字和纸张属于固定框体。"
+    },
+    {
+      "id": "frame_magazine",
+      "kind": "frame",
+      "bbox": [
+        446,
+        306,
+        638,
+        570
+      ],
+      "description": "中央上方的米白色印刷卡片，带有顶部小字、右上方“AROUND”、照片窗口、底部英文句子和右侧条码；作为承载单张照片的完整固定框体保留。",
+      "photo_id": [
+        "photo_magazine"
+      ]
+    },
+    {
+      "id": "photo_drink_card",
+      "kind": "photo",
+      "bbox": [
+        660,
+        418,
+        855,
+        613
+      ],
+      "description": "右上方独立照片，木桌上放有带青柠片的深色饮料、浅色圆盘和印刷卡片；照片保留完整桌面环境及卡片内容，矩形显示边界清晰。"
+    },
+    {
+      "id": "photo_trees",
+      "kind": "photo",
+      "bbox": [
+        83,
+        645,
+        989,
+        878
+      ],
+      "description": "中部横向独立照片，树干、明亮草地和右侧木桌构成连续摄影画面；左侧树景与右侧果篮位于同一照片范围内，中央圆形装置遮挡中部区域，完整窗口按可见照片边界记录。"
+    },
+    {
+      "id": "photo_fruit_basket",
+      "kind": "photo",
+      "bbox": [
+        660,
+        645,
+        989,
+        878
+      ],
+      "description": "中右方照片区域中的竹篮与绿色水果、切开的粉色水果，置于深色木桌上；该区域作为可替换摄影内容保留，左侧被中央圆形装置部分遮挡。"
+    },
+    {
+      "id": "photo_circular_window",
+      "kind": "photo",
+      "bbox": [
+        406,
+        637,
+        667,
+        894
+      ],
+      "description": "中央圆形窗口内的独立摄影内容，显示倾斜的绿色调书籍或印刷页面及其大号文字；照片被裁成圆形显示，边缘被黑色圆形框体遮住。"
+    },
+    {
+      "id": "frame_circular",
+      "kind": "frame",
+      "bbox": [
+        326,
+        558,
+        729,
+        978
+      ],
+      "description": "中央大型圆形固定装置，包含深色内圈、绿色外圈和厚重边缘，形成圆形照片窗口；其边缘压住中部树景照片以及下方照片的上缘，完整装置作为照片承载框体保留。",
+      "photo_id": [
+        "photo_circular_window"
+      ]
+    },
+    {
+      "id": "photo_book_grass",
+      "kind": "photo",
+      "bbox": [
+        208,
+        899,
+        417,
+        1108
+      ],
+      "description": "左下方独立方形照片，打开的书放在草地上，书页中央有绿色圆形物体；完整保留草地环境，右上区域被中央圆形装置遮挡。"
+    },
+    {
+      "id": "photo_lotus",
+      "kind": "photo",
+      "bbox": [
+        434,
+        900,
+        646,
+        1187
+      ],
+      "description": "下方中部竖向照片，粉色莲花从绿色荷叶和水面中盛开；照片保留花朵、茎叶及水面环境，上缘靠近并部分位于中央圆形装置后方。"
+    },
+    {
+      "id": "photo_purple_flowers",
+      "kind": "photo",
+      "bbox": [
+        670,
+        908,
+        866,
+        1104
+      ],
+      "description": "右下方独立方形照片，紫色小花簇生于绿色背景中；完整保留花朵与户外环境，照片边界清晰且未与相邻照片合并。"
+    },
+    {
+      "id": "overlay_earbud_cable",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        359,
+        650,
+        657
+      ],
+      "description": "白色耳机线和插头状末端组成的独立固定装饰，从上方米白色卡片区域向下弯曲，跨过圆形装置并压在其上；线缆、分叉和末端插头作为一个完整单元保留。"
+    },
+    {
+      "id": "text_song_time",
+      "kind": "text",
+      "bbox": [
+        322,
+        165,
+        762,
+        204
+      ],
+      "text": "please give me the time of a song.",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": true
+    }
+  ],
+  "layer_order": [
+    "photo_swan",
+    "photo_magazine",
+    "photo_drink_card",
+    "photo_trees",
+    "photo_fruit_basket",
+    "photo_book_grass",
+    "photo_lotus",
+    "photo_purple_flowers",
+    "photo_circular_window",
+    "frame_magazine",
+    "frame_circular",
+    "overlay_earbud_cable",
+    "text_song_time"
+  ]
+}

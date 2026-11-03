@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_desk",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        480
+      ],
+      "description": "顶部横向桌面照片，包含左侧显示食物照片的黑色设备、下方波点桌布与耳机，以及右侧带饮品速写的浅色纸张。纸张和设备属于同一连续拍摄场景，照片延伸至画布上边与左右边；下缘在 y=480 与中间自拍照片形成清晰接缝。",
+      "label": "顶部横向桌面照片，包含左侧显示食物照片的黑色设备、下方波点桌",
+      "method": "local"
+    },
+    {
+      "id": "photo_selfie",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        1080,
+        960
+      ],
+      "description": "中间横向自拍照片，一名长发女性近景面对镜头，手持带有水彩小画与手写字的本子，身穿浅色衣物并戴有线耳机；室内陈设保留在摄影环境中。照片铺满该横向区域，顶部和底部边缘分别与相邻照片形成清晰接缝。",
+      "label": "中间横向自拍照片，一名长发女性近景面对镜头，手持带有水彩小画",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_desk",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        1080,
+        1440
+      ],
+      "description": "底部横向桌面照片，中央打开的画册上有饮品与食物水彩画及手写字，周围可见波点桌布、颜料盒、画笔、耳机和局部手机壳；这些物品均属于同一摄影画面。照片延伸至画布左右边与下边，上缘在 y=960 与自拍照片形成清晰接缝。",
+      "label": "底部横向桌面照片，中央打开的画册上有饮品与食物水彩画及手写字",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_desk",
+    "photo_selfie",
+    "photo_bottom_desk"
+  ]
+}

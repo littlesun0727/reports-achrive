@@ -1,0 +1,237 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "连续的海边建筑与树木摄影画面铺满全画布：黑色树枝横贯上部和两侧，黄色建筑、海面及左下橙色晚霞延伸至画布边缘。多张独立人物、店铺及广告照片遮挡其局部；替换时保留整幅环境，不拆分树木、建筑与天空。",
+      "background_type": "photo",
+      "label": "连续的海边建筑与树木摄影画面铺满全画布：黑色树枝横贯上部和两",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        246,
+        420,
+        659,
+        951
+      ],
+      "description": "竖向海边建筑照片，一名穿浅色羽绒服的年轻女性站在栏杆前，树干与分叉树枝占据画面中央，海面及两侧建筑作为摄影环境保留；完整矩形显示区域被周围拼贴局部遮挡。",
+      "label": "竖向海边建筑照片，一名穿浅色羽绒服的年轻女性站在栏杆前，树干",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        381,
+        155,
+        758,
+        425
+      ],
+      "description": "横向海岸照片，一名穿浅色羽绒服的年轻女性居中站在岩石海岸前，远处海面与天空可见；保留完整摄影环境，照片边缘有白色不规则手绘线条，线条依附照片窗口。",
+      "label": "横向海岸照片，一名穿浅色羽绒服的年轻女性居中站在岩石海岸前，",
+      "method": "local"
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        118,
+        313,
+        345,
+        547
+      ],
+      "description": "竖向街巷照片，一名背对镜头坐着的长发女性戴粉色兔耳帽，穿浅色外套，周围可见墙面、栏杆与街巷；保留完整摄影环境，矩形窗口被中央照片局部覆盖。",
+      "label": "竖向街巷照片，一名背对镜头坐着的长发女性戴粉色兔耳帽，穿浅色",
+      "method": "local"
+    },
+    {
+      "id": "photo_garden",
+      "kind": "photo",
+      "bbox": [
+        656,
+        421,
+        960,
+        827
+      ],
+      "description": "竖向花园门廊照片，一名穿浅色衣服的女性站在深色拱形窗门前，周围有浓密绿植和庭院摆设；保留照片内环境，窗口为近似矩形，底部有白色小字样及装饰符号叠在照片上。",
+      "label": "竖向花园门廊照片，一名穿浅色衣服的女性站在深色拱形窗门前，周",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        51,
+        875,
+        414,
+        1134
+      ],
+      "description": "横向海边人物近景，一名长发女性穿浅色羽绒服并侧身抬手靠近头部，身后可见海面与岸边；摄影环境保留，白色手绘矩形线沿照片窗口边缘环绕。",
+      "label": "横向海边人物近景，一名长发女性穿浅色羽绒服并侧身抬手靠近头部",
+      "method": "local"
+    },
+    {
+      "id": "photo_shop",
+      "kind": "photo",
+      "bbox": [
+        758,
+        824,
+        975,
+        1045
+      ],
+      "description": "竖向街边水果店照片，红色中文招牌、绿色遮阳棚、店面及门前商品共同属于摄影画面；矩形照片叠在右侧背景建筑前，并被下方区域局部遮挡。",
+      "label": "竖向街边水果店照片，红色中文招牌、绿色遮阳棚、店面及门前商品",
+      "method": "local"
+    },
+    {
+      "id": "photo_displays",
+      "kind": "photo",
+      "bbox": [
+        425,
+        871,
+        819,
+        1380
+      ],
+      "description": "大型竖向街景照片，前景为数块展示架上的人物海报与照片拼版，周围可见街面和底座；保留全部摄影内容，显示窗口顶部不规则，左右边缘倾斜，底部为宽弧形裁切，并覆盖中央照片下部及背景。",
+      "label": "大型竖向街景照片，前景为数块展示架上的人物海报与照片拼版，周",
+      "method": "local"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        19,
+        69,
+        405,
+        208
+      ],
+      "description": "左上方浅米色不规则纸条，带两行深色手写中文“消失的下雨天 / 我好想再淋一遍”；纸张轮廓、手写字形与纸面整体作为一个固定设计单元保留。",
+      "label": "左上方浅米色不规则纸条，带两行深色手写中文“消失的下雨天 /",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_doodles",
+      "kind": "overlay",
+      "bbox": [
+        90,
+        137,
+        960,
+        421
+      ],
+      "description": "上半部白色手绘装饰组合，包括左侧照片附近的线描符号、上方照片边缘的零散笔画，以及右侧音符和耳机状涂鸦；保留彼此分散但属于同一手绘装饰层的可见线条，不含照片内容。",
+      "label": "上半部白色手绘装饰组合，包括左侧照片附近的线描符号、上方照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        140,
+        565,
+        197,
+        765
+      ],
+      "description": "左侧树枝与建筑间的白色手绘小符号和弯曲线条，作为一组独立装饰保留。",
+      "label": "左侧树枝与建筑间的白色手绘小符号和弯曲线条，作为一组独立装饰",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_garden_marks",
+      "kind": "overlay",
+      "bbox": [
+        719,
+        781,
+        892,
+        825
+      ],
+      "description": "花园照片下部叠加的一行白色小型手写字符与圆点、心形等符号，作为独立固定装饰保留，不并入照片替换内容。",
+      "label": "花园照片下部叠加的一行白色小型手写字符与圆点、心形等符号，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shop_marks",
+      "kind": "overlay",
+      "bbox": [
+        864,
+        1043,
+        1021,
+        1083
+      ],
+      "description": "水果店照片右下方附近的一组白色手绘星点、圆形和心形符号，作为独立装饰保留。",
+      "label": "水果店照片右下方附近的一组白色手绘星点、圆形和心形符号，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tree_doodle",
+      "kind": "overlay",
+      "bbox": [
+        247,
+        1150,
+        436,
+        1290
+      ],
+      "description": "左下晚霞区域的白色线描双树与小草涂鸦，包含树冠内部圆点及树干底部短线，整体作为一个固定装饰单元保留。",
+      "label": "左下晚霞区域的白色线描双树与小草涂鸦，包含树冠内部圆点及树干",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dotted_line",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        1099,
+        509,
+        1274
+      ],
+      "description": "展示架照片左侧延伸至下方的白色手绘断续弧线，包含短线段与点状笔迹，作为独立装饰保留。",
+      "label": "展示架照片左侧延伸至下方的白色手绘断续弧线，包含短线段与点状",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cozy_day",
+      "kind": "overlay",
+      "bbox": [
+        753,
+        1214,
+        935,
+        1327
+      ],
+      "description": "右下方两行白色描边艺术字“COZY / DAY”，字形带阴影感并采用装饰性轮廓，作为整体固定字样保留。",
+      "label": "右下方两行白色描边艺术字“COZY / DAY”，字形带阴影",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_center",
+    "photo_left",
+    "photo_upper",
+    "photo_garden",
+    "photo_portrait",
+    "photo_shop",
+    "photo_displays",
+    "overlay_note",
+    "overlay_upper_doodles",
+    "overlay_left_doodles",
+    "overlay_garden_marks",
+    "overlay_shop_marks",
+    "overlay_tree_doodle",
+    "overlay_dotted_line",
+    "overlay_cozy_day"
+  ]
+}

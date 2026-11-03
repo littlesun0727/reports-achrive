@@ -1,0 +1,388 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的热带海滩摄影画面覆盖四边，可见蓝天、海面、沙滩及中央棕榈树，场景在画面边缘和卡片间隙连贯；人物贴纸、手写标注及五张独立照片卡片遮挡局部。整幅环境作为可替换摄影底图保留，不拆分棕榈树、天空、海面或沙滩。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        692,
+        55,
+        905,
+        277
+      ],
+      "description": "右上卡片内的竖向道路与蓝天风景照片，保留完整照片窗口；白色卡片边缘遮住其边沿，白色兔子相机插画叠在照片前方。"
+    },
+    {
+      "id": "frame_upper_right",
+      "kind": "frame",
+      "bbox": [
+        675,
+        38,
+        921,
+        339
+      ],
+      "description": "右上白色拍立得卡片，完整保留白边及下方留白区域；承载单张道路风景照片，卡片下缘与右侧附近有手写标注。",
+      "photo_id": [
+        "photo_upper_right"
+      ]
+    },
+    {
+      "id": "overlay_tape_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        13,
+        880,
+        84
+      ],
+      "description": "贴在右上白色卡片上沿的浅黄色折叠胶带，保留纸张折痕与完整轮廓。"
+    },
+    {
+      "id": "overlay_bunny_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        746,
+        135,
+        856,
+        278
+      ],
+      "description": "白色黑边兔子与手持相机的手绘贴纸，位于右上道路照片前方；作为完整插画保留。"
+    },
+    {
+      "id": "overlay_note_shoot_u",
+      "kind": "overlay",
+      "bbox": [
+        484,
+        45,
+        681,
+        91
+      ],
+      "description": "画布上方偏中的灰黑色手写字样“I shoot U”，保留原有手绘字形与位置。"
+    },
+    {
+      "id": "overlay_note_shoot_me",
+      "kind": "overlay",
+      "bbox": [
+        500,
+        124,
+        699,
+        219
+      ],
+      "description": "右上照片左侧的灰黑色手写字样“U shoot me”及其弯曲箭头，箭头指向右上卡片，作为一组连贯手写标注保留。"
+    },
+    {
+      "id": "overlay_note_japan",
+      "kind": "overlay",
+      "bbox": [
+        856,
+        285,
+        1032,
+        335
+      ],
+      "description": "右上卡片下方的灰黑色手写“Japan”字样与定位图钉符号，保留为一组固定手写装饰。"
+    },
+    {
+      "id": "photo_left_produce",
+      "kind": "photo",
+      "bbox": [
+        222,
+        366,
+        430,
+        581
+      ],
+      "description": "左侧卡片内的横向蔬果摊照片，可见水果、价格牌及摊位环境；保留完整照片窗口，猫形插画叠在照片前方。"
+    },
+    {
+      "id": "frame_left_produce",
+      "kind": "frame",
+      "bbox": [
+        205,
+        349,
+        445,
+        641
+      ],
+      "description": "左侧白色拍立得卡片，完整保留白色相纸边框及下方浅灰色小字标记；承载单张蔬果摊照片。",
+      "photo_id": [
+        "photo_left_produce"
+      ]
+    },
+    {
+      "id": "overlay_tape_left_produce",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        326,
+        380,
+        386
+      ],
+      "description": "贴在左侧白色卡片上沿的蓝色折叠胶带，保留完整折叠造型。"
+    },
+    {
+      "id": "overlay_cat_produce",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        450,
+        395,
+        583
+      ],
+      "description": "蔬果照片前方的白色黑边猫形手绘贴纸，带黄色小装饰；保留猫、轮廓线及附属细节。"
+    },
+    {
+      "id": "overlay_note_strawberries",
+      "kind": "overlay",
+      "bbox": [
+        74,
+        226,
+        476,
+        412
+      ],
+      "description": "左上方灰黑色手写标注“Fresas de Huelva / España”及指向蔬果卡片的弯曲箭头，保留两行字和箭头的整体排布。"
+    },
+    {
+      "id": "photo_mid_right",
+      "kind": "photo",
+      "bbox": [
+        683,
+        539,
+        884,
+        744
+      ],
+      "description": "右侧粉色卡片内的街景照片，可见街道、建筑与远处城市环境；保留完整照片窗口，双猫插画叠在照片前方。"
+    },
+    {
+      "id": "frame_mid_right",
+      "kind": "frame",
+      "bbox": [
+        668,
+        519,
+        900,
+        801
+      ],
+      "description": "右侧粉色照片卡片，完整保留粉色卡纸、照片承托边缘及下方印写区域；承载单张街景照片。",
+      "photo_id": [
+        "photo_mid_right"
+      ]
+    },
+    {
+      "id": "overlay_tape_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        728,
+        499,
+        857,
+        540
+      ],
+      "description": "贴在粉色卡片上沿的银灰色皱褶胶带，保留不规则边缘与褶皱。"
+    },
+    {
+      "id": "overlay_happy_day",
+      "kind": "overlay",
+      "bbox": [
+        687,
+        539,
+        882,
+        565
+      ],
+      "description": "粉色卡片照片上方的手写“HAPPY DAY”及心形符号，字样位于照片区域内，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_cats_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        706,
+        637,
+        873,
+        733
+      ],
+      "description": "粉色卡片街景照片前方并排的两只白色黑边猫形手绘贴纸，连同各自的小型彩色附属装饰作为一组完整插画保留。"
+    },
+    {
+      "id": "overlay_caption_mid_right",
+      "kind": "overlay",
+      "bbox": [
+        736,
+        765,
+        865,
+        789
+      ],
+      "description": "粉色卡片下方卡纸上的小号深色手写说明字样，保留原有字形与位置。"
+    },
+    {
+      "id": "overlay_note_two_cats",
+      "kind": "overlay",
+      "bbox": [
+        242,
+        705,
+        653,
+        761
+      ],
+      "description": "画面中部的灰黑色手写“U two. number one”，对应右侧双猫卡片，保留原有手绘排版。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        137,
+        829,
+        345,
+        1043
+      ],
+      "description": "左下卡片内的海滩与棕榈树照片，白色猫形插画位于照片前方；保留完整矩形照片窗口及可见的摄影环境。"
+    },
+    {
+      "id": "frame_lower_left",
+      "kind": "frame",
+      "bbox": [
+        121,
+        810,
+        360,
+        1103
+      ],
+      "description": "左下白色拍立得卡片，完整保留白色相纸边框及下方留白区域；承载单张海滩照片。",
+      "photo_id": [
+        "photo_lower_left"
+      ]
+    },
+    {
+      "id": "overlay_tape_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        788,
+        307,
+        833
+      ],
+      "description": "贴在左下白色卡片上沿的蓝白斜纹胶带，保留条纹和折叠轮廓。"
+    },
+    {
+      "id": "overlay_cat_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        176,
+        925,
+        312,
+        1044
+      ],
+      "description": "左下海滩照片前方的白色黑边猫形手绘贴纸，戴粉色太阳镜并拿着饮品；保留完整猫形轮廓和配件。"
+    },
+    {
+      "id": "overlay_note_barefoot",
+      "kind": "overlay",
+      "bbox": [
+        338,
+        867,
+        860,
+        1090
+      ],
+      "description": "画面中央偏下的灰黑色手写“Go Barefoot”“One and Only Reethirah”“Maldives”及小型装饰符号与指向左下卡片的弯曲箭头，作为整体手写标注保留。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        691,
+        1081,
+        903,
+        1300
+      ],
+      "description": "右下卡片内的街景照片，可见建筑与道路环境；保留完整照片窗口，猫形吉他插画和手写字样叠在照片区域。"
+    },
+    {
+      "id": "frame_lower_right",
+      "kind": "frame",
+      "bbox": [
+        674,
+        1063,
+        918,
+        1344
+      ],
+      "description": "右下白色拍立得卡片，完整保留白色相纸边框及承托结构；承载单张街景照片。",
+      "photo_id": [
+        "photo_lower_right"
+      ]
+    },
+    {
+      "id": "overlay_tape_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        1036,
+        840,
+        1083
+      ],
+      "description": "贴在右下白色卡片上沿的橙色折叠胶带，保留纸张折痕与完整轮廓。"
+    },
+    {
+      "id": "overlay_french_note",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        1085,
+        904,
+        1291
+      ],
+      "description": "右下照片区域上的深色手写法语字样，包含上方及两侧可见的多行标注；保留原有手写字形和分布，部分区域被前景猫形插画遮住。"
+    },
+    {
+      "id": "overlay_cat_guitar",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        1173,
+        883,
+        1303
+      ],
+      "description": "右下街景照片前方的白色黑边猫形手绘贴纸，手持红色吉他；保留完整猫形、吉他和轮廓细节，并遮挡其后的照片与部分手写字样。"
+    },
+    {
+      "id": "overlay_note_ciel_bleu",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        1334,
+        1004,
+        1416
+      ],
+      "description": "右下卡片下方的灰黑色手写“Ciel bleu. Fleurs et moi”及音符符号，保留两行字样和原有排布。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_right",
+    "frame_upper_right",
+    "photo_left_produce",
+    "frame_left_produce",
+    "photo_mid_right",
+    "frame_mid_right",
+    "photo_lower_left",
+    "frame_lower_left",
+    "photo_lower_right",
+    "frame_lower_right",
+    "overlay_tape_upper_right",
+    "overlay_tape_left_produce",
+    "overlay_tape_mid_right",
+    "overlay_tape_lower_left",
+    "overlay_tape_lower_right",
+    "overlay_bunny_upper_right",
+    "overlay_cat_produce",
+    "overlay_happy_day",
+    "overlay_cats_mid_right",
+    "overlay_caption_mid_right",
+    "overlay_cat_lower_left",
+    "overlay_cat_guitar",
+    "overlay_french_note",
+    "overlay_note_shoot_u",
+    "overlay_note_shoot_me",
+    "overlay_note_strawberries",
+    "overlay_note_japan",
+    "overlay_note_two_cats",
+    "overlay_note_barefoot",
+    "overlay_note_ciel_bleu"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_bridge_cityscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        628,
+        1080,
+        1440
+      ],
+      "description": "横向城市黄昏照片，完整显示悬索桥、桥下城市天际线、江面、粉紫色天空以及右侧伸入画面的树枝，照片窗口从画布左右边缘延伸至底部；粉色圆形光点位于摄影画面内，随照片替换。"
+    },
+    {
+      "id": "overlay_pink_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        629
+      ],
+      "description": "覆盖画布上部的整幅雾粉色固定矩形面板，与下方照片形成清晰水平分界；作为局部固定底板保留，不承担照片承载功能。"
+    },
+    {
+      "id": "text_location_date",
+      "kind": "text",
+      "bbox": [
+        362,
+        340,
+        754,
+        368
+      ],
+      "text": "Fuzhou, Sunset , April 10 2026",
+      "color": "#171313",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_bridge_cityscape",
+    "overlay_pink_panel",
+    "text_location_date"
+  ]
+}

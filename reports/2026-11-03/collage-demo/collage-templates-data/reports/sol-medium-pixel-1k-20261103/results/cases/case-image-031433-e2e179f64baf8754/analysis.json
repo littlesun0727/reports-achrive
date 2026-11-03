@@ -1,0 +1,405 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "连续的街区或商场外部摄影环境覆盖整张画布，顶部为几何金属或玻璃顶棚，中部为红色屋檐与竖向格栅，底部延续至建筑和街景区域；画面中的食物照片、人物插图、贴纸和文字覆盖其局部，但边缘露出的结构与光线保持连续。背景摄影环境整体作为可替换客户素材，不拆分人物、天空或建筑区域。",
+      "background_type": "photo",
+      "label": "连续的街区或商场外部摄影环境覆盖整张画布，顶部为几何金属或玻",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top_soup",
+      "kind": "photo",
+      "bbox": [
+        426,
+        0,
+        729,
+        270
+      ],
+      "description": "上方偏中的一碗汤或粥类食物照片，包含碗、汤面及上方可见的摄影环境，沿外缘带白色手绘式描边和局部柔化，顶部被画布裁切。",
+      "label": "上方偏中的一碗汤或粥类食物照片，包含碗、汤面及上方可见的摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_bowl",
+      "kind": "photo",
+      "bbox": [
+        752,
+        0,
+        1018,
+        207
+      ],
+      "description": "右上方深色碗装食物照片，包含完整碗体、汤或粥以及配料，右上和上缘被画布裁切，外缘带白色描边。",
+      "label": "右上方深色碗装食物照片，包含完整碗体、汤或粥以及配料，右上和",
+      "method": "local"
+    },
+    {
+      "id": "photo_noodles",
+      "kind": "photo",
+      "bbox": [
+        930,
+        112,
+        1080,
+        447
+      ],
+      "description": "最右侧竖向面条照片，包含碗中的面条、配菜和汤汁，照片窗口从右侧画布边缘进入并被右缘裁切，外缘带白色手绘描边。",
+      "label": "最右侧竖向面条照片，包含碗中的面条、配菜和汤汁，照片窗口从右",
+      "method": "local"
+    },
+    {
+      "id": "photo_lotus_root",
+      "kind": "photo",
+      "bbox": [
+        0,
+        242,
+        272,
+        524
+      ],
+      "description": "左上方莲藕或藕片菜肴照片，包含透明碗、莲藕和酱汁，左缘被画布裁切，圆形照片边缘带白色描边。",
+      "label": "左上方莲藕或藕片菜肴照片，包含透明碗、莲藕和酱汁，左缘被画布",
+      "method": "local"
+    },
+    {
+      "id": "photo_dumplings",
+      "kind": "photo",
+      "bbox": [
+        454,
+        238,
+        966,
+        716
+      ],
+      "description": "中央偏上的大碗汤饺照片，包含碗、多个饺子、汤汁和绿色配料，保留完整食物环境；照片外缘以白色不规则描边强调，部分区域被其他食物和文字覆盖。",
+      "label": "中央偏上的大碗汤饺照片，包含碗、多个饺子、汤汁和绿色配料，保",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_pastry",
+      "kind": "photo",
+      "bbox": [
+        0,
+        501,
+        269,
+        735
+      ],
+      "description": "左侧中部透明碗中的油炸或粽类点心照片，包含点心、碗和摄影环境，左缘及下缘被画布和邻近元素裁切，边缘带白色描边。",
+      "label": "左侧中部透明碗中的油炸或粽类点心照片，包含点心、碗和摄影环境",
+      "method": "local"
+    },
+    {
+      "id": "photo_left_boiled_food",
+      "kind": "photo",
+      "bbox": [
+        0,
+        704,
+        283,
+        1229
+      ],
+      "description": "左侧竖向水煮或麻辣类菜肴照片，包含绿色汤汁、蔬菜和鱼或肉类食材，显示区域为被白色圆角线框强调的照片窗口，左缘贴近画布边界。",
+      "label": "左侧竖向水煮或麻辣类菜肴照片，包含绿色汤汁、蔬菜和鱼或肉类食",
+      "method": "local"
+    },
+    {
+      "id": "photo_fish_dish",
+      "kind": "photo",
+      "bbox": [
+        435,
+        595,
+        1009,
+        844
+      ],
+      "description": "中部偏右的浅色大盘鱼类菜肴照片，包含鱼肉、酱汁、辣椒和盘体，照片以不规则椭圆形显示并带白色描边，下方被其他食物照片遮挡。",
+      "label": "中部偏右的浅色大盘鱼类菜肴照片，包含鱼肉、酱汁、辣椒和盘体，",
+      "method": "local"
+    },
+    {
+      "id": "photo_crab_bowl",
+      "kind": "photo",
+      "bbox": [
+        204,
+        733,
+        665,
+        1139
+      ],
+      "description": "中央下方红边大碗中的螃蟹或海鲜照片，包含蟹肉、汤汁和碗体，窗口为倾斜的椭圆形并沿边缘带白色描边，覆盖左侧和中部背景。",
+      "label": "中央下方红边大碗中的螃蟹或海鲜照片，包含蟹肉、汤汁和碗体，窗",
+      "method": "local"
+    },
+    {
+      "id": "photo_chicken_feet",
+      "kind": "photo",
+      "bbox": [
+        615,
+        746,
+        1080,
+        1136
+      ],
+      "description": "右下方大碗红烧鸡脚或鸡爪照片，包含碗、鸡脚、辣椒和深色汤汁，照片窗口向右侧画布边缘延伸，外缘带白色描边并遮挡下方建筑背景。",
+      "label": "右下方大碗红烧鸡脚或鸡爪照片，包含碗、鸡脚、辣椒和深色汤汁，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_chef_character",
+      "kind": "overlay",
+      "bbox": [
+        276,
+        323,
+        590,
+        798
+      ],
+      "description": "中央偏左的厨师卡通人物固定装饰，人物戴高耸厨师帽、穿白色厨师服并伸手举起绿色对勾牌；人物与对勾牌作为同一组独立插图保留，覆盖后方饺子照片。",
+      "label": "中央偏左的厨师卡通人物固定装饰，人物戴高耸厨师帽、穿白色厨师",
+      "method": "extract"
+    },
+    {
+      "id": "photo_tanghulu",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1120,
+        249,
+        1920
+      ],
+      "description": "左下方手持多串白色或糖衣点心的照片抠图，包含手部、竹签、点心及下方可见的纸袋元素，沿主体轮廓有白色描边，左缘和下缘延伸至画布边界。",
+      "label": "左下方手持多串白色或糖衣点心的照片抠图，包含手部、竹签、点心",
+      "method": "local"
+    },
+    {
+      "id": "photo_snack_bag",
+      "kind": "photo",
+      "bbox": [
+        113,
+        1657,
+        354,
+        1908
+      ],
+      "description": "左下方独立的纸袋或小吃包装照片，包含手持包装、纸袋印字和袋内食物，作为独立摄影单元叠在建筑背景和糖果串附近。",
+      "label": "左下方独立的纸袋或小吃包装照片，包含手持包装、纸袋印字和袋内",
+      "method": "local"
+    },
+    {
+      "id": "photo_bus",
+      "kind": "photo",
+      "bbox": [
+        354,
+        1382,
+        1080,
+        1920
+      ],
+      "description": "右下方黄色餐车或公交车照片，包含车头、玻璃窗、笑脸贴纸、车灯和车身文字，沿顶部弧形轮廓有白色描边，向右缘和下缘延伸至画布外，覆盖底部建筑背景。",
+      "label": "右下方黄色餐车或公交车照片，包含车头、玻璃窗、笑脸贴纸、车灯",
+      "method": "local"
+    },
+    {
+      "id": "overlay_main_title",
+      "kind": "overlay",
+      "bbox": [
+        86,
+        50,
+        565,
+        175
+      ],
+      "description": "左上方白色手写或书法风格标题“南昌美食”，字形带粗重笔画和不规则装饰效果，作为独立艺术字整体保留，不拆分为普通文字。",
+      "label": "左上方白色手写或书法风格标题“南昌美食”，字形带粗重笔画和不",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_comment",
+      "kind": "overlay",
+      "bbox": [
+        183,
+        169,
+        756,
+        410
+      ],
+      "description": "覆盖顶部和中央区域的半透明深色斜向文字底板及白色手写说明文字，内容围绕瓦罐汤和南昌美食；底板、文字、描边和倾斜排版作为一个固定设计单元保留。",
+      "label": "覆盖顶部和中央区域的半透明深色斜向文字底板及白色手写说明文字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lotus_caption",
+      "kind": "overlay",
+      "bbox": [
+        93,
+        438,
+        275,
+        532
+      ],
+      "description": "贴在左上莲藕照片下方的半透明深色标签及白色手写说明文字，包含对莲藕口感的评价，随照片附近的独立标签整体保留。",
+      "label": "贴在左上莲藕照片下方的半透明深色标签及白色手写说明文字，包含",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pastry_caption",
+      "kind": "overlay",
+      "bbox": [
+        114,
+        566,
+        301,
+        702
+      ],
+      "description": "位于左侧点心照片旁的白色手写说明文字及半透明暗色承托区域，描述皮蛋或粽子类食物，保持原有多行手写构图和倾斜关系。",
+      "label": "位于左侧点心照片旁的白色手写说明文字及半透明暗色承托区域，描",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_food_caption",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        769,
+        292,
+        969
+      ],
+      "description": "叠在左侧水煮食物照片上的白色手写说明与半透明深色文字区域，内容描述特色水煮及麻辣口感，作为固定标签整体保留。",
+      "label": "叠在左侧水煮食物照片上的白色手写说明与半透明深色文字区域，内",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_caption",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        376,
+        1080,
+        569
+      ],
+      "description": "位于右侧面条和中央汤饺区域之上的白色竖向手写文字及半透明底板，描述南昌拌粉等食物，右侧文字被画布裁切，整体作为艺术化标签保留。",
+      "label": "位于右侧面条和中央汤饺区域之上的白色竖向手写文字及半透明底板",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fish_caption",
+      "kind": "overlay",
+      "bbox": [
+        814,
+        657,
+        1080,
+        807
+      ],
+      "description": "覆盖鱼类菜肴照片右侧的白色手写说明文字，包含蓝色鱼表情装饰和黄色笑脸，文字、表情及其轻微阴影作为一个固定贴纸单元保留。",
+      "label": "覆盖鱼类菜肴照片右侧的白色手写说明文字，包含蓝色鱼表情装饰和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chicken_caption",
+      "kind": "overlay",
+      "bbox": [
+        745,
+        965,
+        1080,
+        1156
+      ],
+      "description": "覆盖右下鸡脚照片下方的白色多行手写说明，描述红烧鸡脚和酱汁拌饭，右缘部分文字被画布裁切，整体保留原有手写设计。",
+      "label": "覆盖右下鸡脚照片下方的白色多行手写说明，描述红烧鸡脚和酱汁拌",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mid_right_caption",
+      "kind": "overlay",
+      "bbox": [
+        790,
+        1194,
+        1080,
+        1430
+      ],
+      "description": "位于中右部建筑格栅上的白色手写小字说明，列出季季红火锅及相关食物，包含半透明暗色底板和多行不规则排版，作为固定装饰整体保留。",
+      "label": "位于中右部建筑格栅上的白色手写小字说明，列出季季红火锅及相关",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tanghulu_caption",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        1357,
+        351,
+        1538
+      ],
+      "description": "贴在左下糖果串旁的半透明深色标签与白色手写文字，内容描述白糖糕，标签边缘和文字阴影随同一设计单元保留。",
+      "label": "贴在左下糖果串旁的半透明深色标签与白色手写文字，内容描述白糖",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bus_caption",
+      "kind": "overlay",
+      "bbox": [
+        375,
+        1688,
+        1001,
+        1855
+      ],
+      "description": "覆盖黄色餐车照片上方和车身区域的黄色手写标题及铃铛、笑脸等装饰，形成“铛铛车 开往美食街”风格的独立艺术字贴纸，整体保留。",
+      "label": "覆盖黄色餐车照片上方和车身区域的黄色手写标题及铃铛、笑脸等装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_doodles",
+      "kind": "overlay",
+      "bbox": [
+        161,
+        1488,
+        389,
+        1783
+      ],
+      "description": "左下糖果串与餐车之间的白色手绘线条、星星、闪光和小装饰符号，属于独立涂鸦贴纸单元，保留其透明间隙和不规则轮廓。",
+      "label": "左下糖果串与餐车之间的白色手绘线条、星星、闪光和小装饰符号，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dining_characters",
+      "kind": "overlay",
+      "bbox": [
+        962,
+        676,
+        1080,
+        768
+      ],
+      "description": "右侧白色文字附近的蓝色鱼形图标和黄色笑脸表情装饰，作为固定小贴纸与邻近说明文字分开保留。",
+      "label": "右侧白色文字附近的蓝色鱼形图标和黄色笑脸表情装饰，作为固定小",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_top_soup",
+    "photo_top_bowl",
+    "photo_noodles",
+    "photo_lotus_root",
+    "photo_left_pastry",
+    "photo_left_boiled_food",
+    "photo_dumplings",
+    "photo_fish_dish",
+    "photo_crab_bowl",
+    "photo_chicken_feet",
+    "photo_tanghulu",
+    "photo_snack_bag",
+    "photo_bus",
+    "overlay_chef_character",
+    "overlay_main_title",
+    "overlay_top_comment",
+    "overlay_lotus_caption",
+    "overlay_pastry_caption",
+    "overlay_left_food_caption",
+    "overlay_right_caption",
+    "overlay_fish_caption",
+    "overlay_chicken_caption",
+    "overlay_mid_right_caption",
+    "overlay_tanghulu_caption",
+    "overlay_bottom_doodles",
+    "overlay_dining_characters",
+    "overlay_bus_caption"
+  ]
+}

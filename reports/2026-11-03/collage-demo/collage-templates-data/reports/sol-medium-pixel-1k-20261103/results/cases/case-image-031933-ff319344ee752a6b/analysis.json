@@ -1,0 +1,172 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "一名长发女性的室内近景照片，面部大部分裁在画布上方，身穿灰色翻领半拉链针织衫，衣身带酒红与蓝灰横条，右手插兜。人物、身后的米色墙面、黑框窗户和右下家具构成连续摄影画面，延伸至画布四边；全部摄影内容随客户照片替换，叠加字样与标识不属于照片。",
+      "background_type": "photo",
+      "label": "一名长发女性的室内近景照片，面部大部分裁在画布上方，身穿灰色",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        860,
+        161,
+        1025,
+        330
+      ],
+      "description": "右上方白色粗笔手写装饰字样，可见弯钩形笔画和向右下伸出的长斜笔画；左下部分被人物肩部遮住，文字无法完整辨认。保留可见笔画造型，不补造隐藏文字。",
+      "label": "右上方白色粗笔手写装饰字样，可见弯钩形笔画和向右下伸出的长斜",
+      "method": "extract"
+    },
+    {
+      "id": "photo_subject_front",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "来自全画布底图的同一女性前景，包含长发、下颌与颈部、灰色条纹针织衫及插兜的右臂，沿完整人物轮廓显示，不带室内环境。人物在上方、左侧、右侧局部及底部被画布裁切；右肩覆盖右上白色手写字样，其他身体部分与底图连续一致。",
+      "linked_to": "photo_base",
+      "label": "来自全画布底图的同一女性前景，包含长发、下颌与颈部、灰色条纹",
+      "method": "local"
+    },
+    {
+      "id": "overlay_brand",
+      "kind": "overlay",
+      "bbox": [
+        149,
+        555,
+        241,
+        579
+      ],
+      "description": "左胸位置叠加的小型白色品牌字标，字母间含星形符号，末端带特殊几何笔画，可辨近似为“B★OYEZI”。作为完整字标保留，不属于针织衫实拍纹样。",
+      "label": "左胸位置叠加的小型白色品牌字标，字母间含星形符号，末端带特殊",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lifemovie",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        599,
+        219,
+        674
+      ],
+      "description": "白色双圆果实状图标及其下方紧凑排列的“LIFEMOVIE”“NO.11”小字组成一个完整标识，位于品牌字标下方，保留图标与内部排版。",
+      "label": "白色双圆果实状图标及其下方紧凑排列的“LIFEMOVIE”“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chinese_logo",
+      "kind": "overlay",
+      "bbox": [
+        150,
+        687,
+        241,
+        720
+      ],
+      "description": "左侧白色中文制作标识，可辨“红书製”，左端带斜线形图标，文字上下配细横线；作为完整固定字标保留。",
+      "label": "左侧白色中文制作标识，可辨“红书製”，左端带斜线形图标，文字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_winter_title",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        1207,
+        619,
+        1312
+      ],
+      "description": "底部居中的白色冬季标题装饰，包含上方三枚雪花状星号、斜向细线、中文“冬日特辑”、下方横线及小字“WINTERS TIMELINE”。这些成员共同构成完整标题设计，整体保留。",
+      "label": "底部居中的白色冬季标题装饰，包含上方三枚雪花状星号、斜向细线",
+      "method": "extract"
+    },
+    {
+      "id": "text_japanese",
+      "kind": "text",
+      "bbox": [
+        327,
+        1327,
+        745,
+        1355
+      ],
+      "description": "北海道の冬はほんとうに寒いですよ。",
+      "label": "北海道の冬はほんとうに寒いですよ。",
+      "method": "local",
+      "text": "北海道の冬はほんとうに寒いですよ。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_english_footer",
+      "kind": "text",
+      "bbox": [
+        211,
+        1358,
+        869,
+        1381
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_corner_mark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1416,
+        1073,
+        1435
+      ],
+      "description": "右下角贴近画布边缘的小型深色圆角胶囊标记，内部有低对比度细小字形，无法可靠辨认；保留胶囊轮廓与内部字形。",
+      "label": "右下角贴近画布边缘的小型深色圆角胶囊标记，内部有低对比度细小",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_upper_right",
+    "photo_subject_front",
+    "overlay_brand",
+    "overlay_lifemovie",
+    "overlay_chinese_logo",
+    "overlay_winter_title",
+    "text_japanese",
+    "text_english_footer",
+    "overlay_corner_mark"
+  ]
+}

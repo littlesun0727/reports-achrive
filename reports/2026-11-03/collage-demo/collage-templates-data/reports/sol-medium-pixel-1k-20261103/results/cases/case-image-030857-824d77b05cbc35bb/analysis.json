@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        480
+      ],
+      "description": "顶部横向独立照片，完整显示黑色木桌上的打开书本、覆盖书页的大型棕色落叶、粉色茶包夹、松果及周围零散秋叶；照片在下缘与中部照片相接，保留原有摄影环境。",
+      "label": "顶部横向独立照片，完整显示黑色木桌上的打开书本、覆盖书页的大",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        1080,
+        960
+      ],
+      "description": "中部横向独立照片，蓝色天空中居中的大型黄色银杏叶占据主要画面，下方可见白云和深色木质边缘；摄影背景完整保留，照片区域为矩形，中央叠有独立白色文字。",
+      "label": "中部横向独立照片，蓝色天空中居中的大型黄色银杏叶占据主要画面",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        1080,
+        1440
+      ],
+      "description": "底部横向独立照片，完整显示公园木长椅上的木质托板、两杯粉色饮品、右侧高脚盘中的苹果，以及长椅和前景散落的秋叶、松果；保留完整摄影环境和物体遮挡关系。",
+      "label": "底部横向独立照片，完整显示公园木长椅上的木质托板、两杯粉色饮",
+      "method": "local"
+    },
+    {
+      "id": "text_ginkgo",
+      "kind": "text",
+      "bbox": [
+        405,
+        731,
+        661,
+        759
+      ],
+      "description": "Pick up a ginkgo leaf...",
+      "label": "Pick up a ginkgo leaf...",
+      "method": "local",
+      "text": "Pick up a ginkgo leaf...",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "text_ginkgo"
+  ]
+}

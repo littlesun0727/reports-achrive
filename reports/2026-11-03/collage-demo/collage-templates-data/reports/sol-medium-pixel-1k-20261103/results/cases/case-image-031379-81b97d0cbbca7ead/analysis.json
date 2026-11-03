@@ -1,0 +1,81 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_donkeys",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        714
+      ],
+      "description": "横向高原摄影画面，完整显示多头驴在裸露山脊上活动，远处为蓝天和低云，摄影环境随照片整体替换；画面下缘在约714像素处与下方独立照片形成清晰水平接缝。",
+      "label": "横向高原摄影画面，完整显示多头驴在裸露山脊上活动，远处为蓝天",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_mountain_road",
+      "kind": "photo",
+      "bbox": [
+        0,
+        714,
+        1080,
+        1440
+      ],
+      "description": "竖向高原道路摄影画面，包含阴云天空、雪山、荒原、电线杆和弯曲公路，完整显示区域从约714像素延伸至画布底边；下方文字叠加在摄影画面上，照片环境保留并整体替换。",
+      "label": "竖向高原道路摄影画面，包含阴云天空、雪山、荒原、电线杆和弯曲",
+      "method": "local"
+    },
+    {
+      "id": "text_travel_note",
+      "kind": "text",
+      "bbox": [
+        22,
+        1127,
+        740,
+        1387
+      ],
+      "description": "离开拉萨，一路往山南去。\n冬季的青藏高原，荒凉、缺氧、高寒，\n但也因此愈加广阔、纯净与美好。\n\n穿过草原，绕着湖泊，走在雪山与雪山之间，\n我总在这样的时刻，觉得生命值得，觉得活着真好。",
+      "label": "离开拉萨，一路往山南去。\n冬季的青藏高原，荒凉、缺氧、高寒，",
+      "method": "local",
+      "text": "离开拉萨，一路往山南去。\n冬季的青藏高原，荒凉、缺氧、高寒，\n但也因此愈加广阔、纯净与美好。\n\n穿过草原，绕着湖泊，走在雪山与雪山之间，\n我总在这样的时刻，觉得生命值得，觉得活着真好。",
+      "text_status": "known",
+      "style": {
+        "fill": "#F4F4F1",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_donkeys",
+    "photo_bottom_mountain_road",
+    "text_travel_note"
+  ]
+}

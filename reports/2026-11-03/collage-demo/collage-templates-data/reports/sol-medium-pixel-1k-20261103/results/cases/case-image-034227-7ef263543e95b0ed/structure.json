@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的俯拍摄影画面覆盖整个画布，黑色桌面、银色托盘、多杯彩色饮品、左下手部、中央握杯的手与蓝色格纹衣袖、右上蕾丝布料和Hello Kitty玩偶共同构成完整环境；摄影内容延伸至四条画布边缘，白色手写字样与涂鸦覆盖并遮挡局部，但不改变底图的连续性。"
+  },
+  "objects": [
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        35,
+        419,
+        193
+      ],
+      "description": "左上方独立的白色手写标题“今天有点幸福～”，包含弧形下划线、爱心、星星和笑脸等一体化涂鸦装饰，作为完整固定字画单元保留。"
+    },
+    {
+      "id": "overlay_black_table_note",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        199,
+        355,
+        333
+      ],
+      "description": "左上中部关于黑色桌面与微暗氛围的白色手写说明，旁边带虚线弧线、圆点和箭头涂鸦，文字与装饰共同作为独立固定单元保留。"
+    },
+    {
+      "id": "overlay_blue_drink_note",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        414,
+        325,
+        604
+      ],
+      "description": "左侧蓝色冰饮旁的白色手写说明，包含“蓝色冰饮”标题、两行项目说明、圆点、虚线和指向饮品的箭头，整体作为独立字画装饰保留。"
+    },
+    {
+      "id": "overlay_purple_drink_note",
+      "kind": "overlay",
+      "bbox": [
+        33,
+        630,
+        329,
+        793
+      ],
+      "description": "左侧紫色气泡饮旁的白色手写说明，包含标题、两行项目说明、圆点和弯曲箭头涂鸦，文字与附属笔画保持为一个固定单元。"
+    },
+    {
+      "id": "overlay_kitty_note",
+      "kind": "overlay",
+      "bbox": [
+        902,
+        431,
+        1077,
+        586
+      ],
+      "description": "右上Hello Kitty玩偶旁的白色手写说明，包含英文Hello Kitty、中文说明、爱心和指向玩偶的箭头，作为叠加在摄影画面上的独立字画单元。"
+    },
+    {
+      "id": "overlay_red_cup_note",
+      "kind": "overlay",
+      "bbox": [
+        786,
+        574,
+        1050,
+        773
+      ],
+      "description": "右侧红色小杯旁的白色手写说明，包含标题、两行口味描述、圆点、弧线和指向红杯的箭头涂鸦，整体固定保留。"
+    },
+    {
+      "id": "overlay_milk_drink_note",
+      "kind": "overlay",
+      "bbox": [
+        877,
+        951,
+        1078,
+        1162
+      ],
+      "description": "右下奶白色饮品旁的白色手写说明，包含标题、三行描述、圆点和弯曲指示箭头，文字与手绘装饰构成一个独立单元。"
+    },
+    {
+      "id": "overlay_hand_note",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1244,
+        332,
+        1434
+      ],
+      "description": "左下手持饮品旁的白色手写说明，包含关于伸手瞬间和奶外小杯的多行文字、爱心、圆点及指示箭头；部分文字贴近画布下边缘，完整可见范围作为固定字画保留。"
+    },
+    {
+      "id": "overlay_mint_drink_note",
+      "kind": "overlay",
+      "bbox": [
+        344,
+        1268,
+        649,
+        1432
+      ],
+      "description": "画布下方中部薄荷冰饮旁的白色手写说明，包含标题、两行描述、圆点、向上箭头和小星形装饰，作为独立固定字画单元保留。"
+    },
+    {
+      "id": "overlay_orange_drink_note",
+      "kind": "overlay",
+      "bbox": [
+        671,
+        1254,
+        900,
+        1429
+      ],
+      "description": "右下橙子气泡饮旁的白色手写说明，包含标题、两行描述、闪光和圆点装饰，文字采用手写造型并与附属涂鸦整体保留。"
+    },
+    {
+      "id": "overlay_tray_note",
+      "kind": "overlay",
+      "bbox": [
+        891,
+        1208,
+        1078,
+        1429
+      ],
+      "description": "右下银色托盘旁的白色手写说明，包含关于银色托盘的两行文字、指向托盘的箭头和星形装饰，作为独立固定字画单元保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_title",
+    "overlay_black_table_note",
+    "overlay_blue_drink_note",
+    "overlay_purple_drink_note",
+    "overlay_kitty_note",
+    "overlay_red_cup_note",
+    "overlay_milk_drink_note",
+    "overlay_hand_note",
+    "overlay_mint_drink_note",
+    "overlay_orange_drink_note",
+    "overlay_tray_note"
+  ]
+}

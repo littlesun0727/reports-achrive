@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "dotted_paper",
+    "description": "浅粉白底上均匀重复的灰色圆点图案贯穿全画布，沿四边及对象间隙均可见；照片和贴纸为独立单元，清除它们后保留整幅点状底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        528,
+        197,
+        991,
+        539
+      ],
+      "description": "右上方横向食物与厨房台面照片，粉色厨具、甜点和水果盘共同构成完整摄影画面，保留环境；左下部分被中央人物照片遮挡。"
+    },
+    {
+      "id": "photo_restaurant",
+      "kind": "photo",
+      "bbox": [
+        140,
+        420,
+        592,
+        1021
+      ],
+      "description": "左侧竖向餐厅照片，戴浅色帽子的女性坐在桌前比手势，周围可见餐桌、其他用餐者和深色墙面；摄影环境保留，右上角覆盖食物照片的左下部分。"
+    },
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        832,
+        105,
+        964,
+        236
+      ],
+      "description": "右上方圆形裁切的小型浅色犬只近景，狗面向镜头，周围仍可见淡色摄影背景；圆形照片叠在食物照片上方。"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        219,
+        430,
+        379
+      ],
+      "description": "白色椭圆对话气泡，黑色细描边并带向下的小尖角，内部有韩文大字、中文小字和粉色星形点缀；文字与气泡共同构成固定设计单元。"
+    },
+    {
+      "id": "overlay_heart_card",
+      "kind": "overlay",
+      "bbox": [
+        572,
+        586,
+        700,
+        716
+      ],
+      "description": "棕粉色方形小卡片，表面有浅色点状图案和中央粉色爱心，卡片压住中央人物照片的右侧边缘。"
+    },
+    {
+      "id": "photo_mirror",
+      "kind": "photo",
+      "bbox": [
+        613,
+        779,
+        970,
+        1141
+      ],
+      "description": "右下方竖向镜面自拍照片，穿深色衣服和帽子的女性蹲在粉色行李箱旁举手机自拍，保留镜面、墙面和地面环境；右下区域被牙齿卡通贴纸遮挡。"
+    },
+    {
+      "id": "overlay_puppy_card",
+      "kind": "overlay",
+      "bbox": [
+        305,
+        1074,
+        520,
+        1289
+      ],
+      "description": "浅黄绿色方形卡片，含白色小狗插画、粉色装饰和上方浅色英文“PUPPY”；整张卡片及其印刷内容作为一个固定设计单元保留。"
+    },
+    {
+      "id": "overlay_tooth",
+      "kind": "overlay",
+      "bbox": [
+        820,
+        1087,
+        1024,
+        1227
+      ],
+      "description": "白色手绘牙齿卡通贴纸，带黑色表情线条和两侧粉色小手，贴在镜面自拍照片右下方并遮挡照片边缘。"
+    }
+  ],
+  "layer_order": [
+    "photo_food",
+    "photo_restaurant",
+    "photo_mirror",
+    "photo_dog",
+    "overlay_speech_bubble",
+    "overlay_heart_card",
+    "overlay_puppy_card",
+    "overlay_tooth"
+  ]
+}

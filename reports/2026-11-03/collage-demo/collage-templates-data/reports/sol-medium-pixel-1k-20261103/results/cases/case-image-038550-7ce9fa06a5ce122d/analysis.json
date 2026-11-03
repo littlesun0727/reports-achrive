@@ -1,0 +1,78 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内桌面静物摄影覆盖全画布并延伸至四边：上方有黑色海报与麻布背景，中部为浅色墙面和两只玩偶，下方为深色桌面、华夫饼、布丁及咖啡杯；无人物。上层食品拼贴和文字遮挡局部，但不改变底层照片的完整范围，客户素材替换时保留整幅环境与静物关系。",
+      "background_type": "photo",
+      "label": "连续的室内桌面静物摄影覆盖全画布并延伸至四边：上方有黑色海报",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_small_food_trio",
+      "kind": "photo",
+      "bbox": [
+        292,
+        518,
+        508,
+        571
+      ],
+      "description": "位于中上部浅色桌面上的小型食品组合，包含迷你咖啡杯、华夫饼和布丁杯，作为独立的摄影装饰单元显示，周围保留透明或无明显矩形边界，与底层桌面照片分离。",
+      "label": "位于中上部浅色桌面上的小型食品组合，包含迷你咖啡杯、华夫饼和",
+      "method": "local"
+    },
+    {
+      "id": "photo_food_collage",
+      "kind": "photo",
+      "bbox": [
+        472,
+        169,
+        1017,
+        555
+      ],
+      "description": "上方独立食品拼贴，包含左侧草莓布丁、中部水果华夫饼及右侧蓝色咖啡杯和叉子，主体组合沿不规则轮廓显示并带完整白色描边；摄影环境不随该单元保留，白色轮廓依附于拼贴外形，整体覆盖底层墙面与麻布背景。",
+      "label": "上方独立食品拼贴，包含左侧草莓布丁、中部水果华夫饼及右侧蓝色",
+      "method": "local"
+    },
+    {
+      "id": "text_food_caption",
+      "kind": "text",
+      "bbox": [
+        678,
+        582,
+        1066,
+        708
+      ],
+      "description": "Waffles, coffee,\nand pudding.",
+      "label": "Waffles, coffee,\nand pudding.",
+      "method": "local",
+      "text": "Waffles, coffee,\nand pudding.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_small_food_trio",
+    "photo_food_collage",
+    "text_food_caption"
+  ]
+}

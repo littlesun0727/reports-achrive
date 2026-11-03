@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        641
+      ],
+      "description": "顶部横向海岸照片，棕榈树、天空、海面和前景灌木构成完整摄影画面，海上可见一艘船，右侧有两位人物；保留摄影环境，底缘与中部照片在水平接缝处相接。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        641,
+        1080,
+        1282
+      ],
+      "description": "中部横向沙地近景照片，画面中散布浅色珊瑚碎块与砂砾，不见人物；保留完整沙地摄影环境，上下缘分别与相邻照片在水平接缝处相接。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1282,
+        1080,
+        1921
+      ],
+      "description": "底部横向海滩照片，左侧为浅绿蓝色海水与白色浪花，右侧为弧形沙滩和碎石岸；保留完整摄影环境，顶部叠有独立海岛主题装饰字样。"
+    },
+    {
+      "id": "overlay_island",
+      "kind": "overlay",
+      "bbox": [
+        379,
+        1300,
+        711,
+        1349
+      ],
+      "description": "压在底部海滩照片上方的独立海岛主题装饰字样，包含可辨的斜体“Island”、贝壳、星形、圆点与小泡泡等连成一组的浅色图案；特殊字形与点缀作为整体固定设计保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_island"
+  ]
+}

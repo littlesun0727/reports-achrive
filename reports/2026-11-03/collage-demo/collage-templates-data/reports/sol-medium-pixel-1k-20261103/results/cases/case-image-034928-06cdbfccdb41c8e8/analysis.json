@@ -1,0 +1,143 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        346,
+        355,
+        700
+      ],
+      "description": "左上竖向海边照片，一名穿白色长裙的女性背向镜头站在浅水中，头发被风吹向左侧；保留海面与天空，照片窗口为独立矩形。",
+      "label": "左上竖向海边照片，一名穿白色长裙的女性背向镜头站在浅水中，头",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        367,
+        346,
+        1080,
+        700
+      ],
+      "description": "右上横向海边照片，画面中可见白裙女性的手臂与裙装、近处水面及海浪；保留摄影环境，矩形窗口与相邻照片之间有白色间隔。",
+      "label": "右上横向海边照片，画面中可见白裙女性的手臂与裙装、近处水面及",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        713,
+        355,
+        1060
+      ],
+      "description": "中左竖向海边照片，一名穿白色长裙的女性侧身回望镜头，站在浅水与浪边；保留人物、海面和天空的完整摄影画面。",
+      "label": "中左竖向海边照片，一名穿白色长裙的女性侧身回望镜头，站在浅水",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        367,
+        713,
+        1080,
+        1060
+      ],
+      "description": "中右横向海边照片，主要可见白色长裙下摆、浪花与海面，右侧有裙摆状白色布料；保留完整矩形摄影窗口，未被上层主体覆盖的环境仍可见。",
+      "label": "中右横向海边照片，主要可见白色长裙下摆、浪花与海面，右侧有裙",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1073,
+        355,
+        1427
+      ],
+      "description": "左下竖向海边照片，一名穿白色长裙的女性背身侧向海面，手提裙摆；海面、浪花与橙色浮标均属于照片内容。",
+      "label": "左下竖向海边照片，一名穿白色长裙的女性背身侧向海面，手提裙摆",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        367,
+        1073,
+        714,
+        1427
+      ],
+      "description": "下方中央竖向海边照片，一名穿白色长裙的女性背对镜头抬手整理头发，背景为海面与浪花，保留完整矩形摄影窗口。",
+      "label": "下方中央竖向海边照片，一名穿白色长裙的女性背对镜头抬手整理头",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        727,
+        1073,
+        1080,
+        1427
+      ],
+      "description": "右下竖向海边照片，一名穿白色长裙的女性侧身望向左侧海面，站在浪边；保留人物及海面环境的完整矩形画面。",
+      "label": "右下竖向海边照片，一名穿白色长裙的女性侧身望向左侧海面，站在",
+      "method": "local"
+    },
+    {
+      "id": "photo_cutout",
+      "kind": "photo",
+      "bbox": [
+        548,
+        103,
+        877,
+        1060
+      ],
+      "description": "同一白裙女性的较大前景主体，从头部至裙摆完整可见，头部位于画面上方中央偏右，身体向下延伸至中右区域；沿主体轮廓显示，摄影背景未保留，覆盖上方留白及右上、中右照片的部分区域。",
+      "linked_to": "photo_top_right",
+      "label": "同一白裙女性的较大前景主体，从头部至裙摆完整可见，头部位于画",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right",
+    "photo_cutout"
+  ]
+}

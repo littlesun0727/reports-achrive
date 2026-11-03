@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续铺满画布的暖红、米 beige 色调虚焦摄影画面，边缘及照片间隙均延续相同的柔和色块与模糊光影；三张清晰照片遮挡其局部。底图保留完整摄影环境并作为可替换摄影内容，不拆分为固定色块。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        93,
+        41,
+        601,
+        719
+      ],
+      "description": "左上方竖幅后台照片：前景一位穿浅色礼服的女性坐在椅上面向镜头，后方戴口罩的工作人员为她整理头发，周围可见化妆间窗户与用品。保留完整室内摄影环境，矩形显示；右下部分被中右照片遮挡。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        562,
+        331,
+        901,
+        784
+      ],
+      "description": "中右方竖幅后台照片：画面左侧镜中可见穿金色服饰的女性与化妆台，右上有举相机的工作人员，右下有一位坐着的女性；门框和室内空间贯穿画面。保留照片内摄影环境，矩形显示，左上部分压住左上方照片。"
+    },
+    {
+      "id": "photo_lower_center",
+      "kind": "photo",
+      "bbox": [
+        272,
+        808,
+        720,
+        1405
+      ],
+      "description": "下方居中的竖幅化妆镜照片：镜中女性穿华丽金红色服饰、佩戴发饰并侧身看向左方，周围可见镜灯和化妆台；右侧及前景有虚焦的人物轮廓。保留完整摄影环境，矩形显示。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_middle_right",
+    "photo_lower_center"
+  ]
+}

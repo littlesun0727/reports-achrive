@@ -1,0 +1,149 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "全画布为连续的黑白雨窗摄影，无人物。右侧近景玻璃布满水滴，粗黑窗框纵向及斜向穿过画面，窗外建筑与横向结构模糊可见；左侧为同一场景中近乎全黑的室内暗部。摄影内容延伸至画布四边，左侧叠加白色文字，没有独立照片接缝。替换范围包含雨滴、窗框、窗外环境和左侧暗部。"
+  },
+  "objects": [
+    {
+      "id": "text_day",
+      "kind": "text",
+      "bbox": [
+        48,
+        475,
+        78,
+        498
+      ],
+      "text": "01",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_month",
+      "kind": "text",
+      "bbox": [
+        83,
+        481,
+        116,
+        496
+      ],
+      "text": "Dec",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        45,
+        565,
+        217,
+        650
+      ],
+      "text": "Last\nChapter",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_title_dash",
+      "kind": "text",
+      "bbox": [
+        230,
+        614,
+        266,
+        642
+      ],
+      "text": "—",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        49,
+        696,
+        250,
+        821
+      ],
+      "text": "Challenge myself for\ntrying Black & White\nPhotography.\n\nSemoga bisa konsisten\ndan mendapat pengalaman\nserta nambahin pengetahuan\ntentang genre fotografi ini.",
+      "color": "#EAEAEA",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_photo_credit",
+      "kind": "text",
+      "bbox": [
+        51,
+        858,
+        164,
+        873
+      ],
+      "text": "pict @syhdrbin_",
+      "color": "#EAEAEA",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_created_by",
+      "kind": "text",
+      "bbox": [
+        51,
+        963,
+        140,
+        979
+      ],
+      "text": "created by",
+      "color": "#EAEAEA",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_creator",
+      "kind": "text",
+      "bbox": [
+        51,
+        983,
+        169,
+        1001
+      ],
+      "text": "nandafauzan",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "text_day",
+    "text_month",
+    "text_title",
+    "text_title_dash",
+    "text_body",
+    "text_photo_credit",
+    "text_created_by",
+    "text_creator"
+  ]
+}

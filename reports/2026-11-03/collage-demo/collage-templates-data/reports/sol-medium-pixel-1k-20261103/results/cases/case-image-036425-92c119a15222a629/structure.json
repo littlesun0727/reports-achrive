@@ -1,0 +1,220 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的餐厅室内摄影画面覆盖画布四边，可见墙面、灯带、桌椅与吧台；人物或独立物件未构成全幅主体。上层照片、贴纸和文字遮挡局部，整幅餐厅环境随客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_meal",
+      "kind": "photo",
+      "bbox": [
+        171,
+        151,
+        552,
+        656
+      ],
+      "description": "左上方竖向餐食照片，包含桌面上的玩偶、饮料、两盘主食和薯条，完整摄影环境保留；四周可见细白矩形边线，照片下缘被蛋糕贴图局部遮挡。"
+    },
+    {
+      "id": "photo_blossoms",
+      "kind": "photo",
+      "bbox": [
+        749,
+        193,
+        998,
+        520
+      ],
+      "description": "右上方竖向户外照片，紫色花树、枝叶、灯具与砖墙共同构成画面；周围白色虚线沿矩形照片窗口环绕，照片下部与右侧被下方花束蛋糕照片局部遮挡。"
+    },
+    {
+      "id": "photo_roses_cake",
+      "kind": "photo",
+      "bbox": [
+        662,
+        468,
+        970,
+        879
+      ],
+      "description": "右侧竖向桌面照片，粉色玫瑰花束、桌面装饰和蓝绿色圆蛋糕均在摄影环境中，保留完整照片画面；上缘压住上方户外照片的下部。"
+    },
+    {
+      "id": "photo_toast",
+      "kind": "photo",
+      "bbox": [
+        368,
+        640,
+        609,
+        861
+      ],
+      "description": "中央偏左的独立方形甜点照片，呈现带白色奶油和碎屑装饰的烤面包甜点及下方托盘；摄影背景未见，外沿有白色手绘虚线轮廓，覆盖餐厅底图并被下方熊形框体局部压住。"
+    },
+    {
+      "id": "photo_food_window",
+      "kind": "photo",
+      "bbox": [
+        274,
+        1005,
+        484,
+        1242
+      ],
+      "description": "下方偏左的竖向餐食照片，展示摆满多种菜品的餐盘与烤盘，保留照片内环境，显示于熊形卡通框体的中央窗口内。"
+    },
+    {
+      "id": "frame_bear",
+      "kind": "frame",
+      "bbox": [
+        247,
+        857,
+        497,
+        1292
+      ],
+      "description": "橙白色卡通熊形照片框，包含耳朵、脸部、手爪及粉色描边的一体造型；中央开窗显示餐食照片，框体位于照片上方。",
+      "photo_id": [
+        "photo_food_window"
+      ]
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        678,
+        1024,
+        962,
+        1311
+      ],
+      "description": "右下方饮品组合，包含一杯橙色饮料、一杯浅棕色饮品和一只透明杯，均为保留摄影内容的独立抠图组合；白色手绘描边沿杯体外形环绕，覆盖餐厅底图。"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        676,
+        1248,
+        881,
+        1400
+      ],
+      "description": "右下方一盘切片芝士蛋糕与盘子，作为保留主体组合的独立抠图显示，白色手绘描边沿盘和甜点外形环绕，位于饮品下方并与其局部相邻。"
+    },
+    {
+      "id": "overlay_audio",
+      "kind": "overlay",
+      "bbox": [
+        697,
+        17,
+        1032,
+        69
+      ],
+      "description": "画面顶端的一体白色音乐播放器风格装饰，包括音符、分隔竖线、耳机、均衡器和音符图形，作为固定装饰整体保留。"
+    },
+    {
+      "id": "overlay_turquoise_doodles",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        80,
+        613,
+        558
+      ],
+      "description": "散布在上半部餐厅背景上的青蓝色手绘音符与星形涂鸦，包含左上、左侧、中央及照片间隙处可见的笔画和小星点，作为同组点缀保留。"
+    },
+    {
+      "id": "overlay_hashtag",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        791,
+        277,
+        839
+      ],
+      "description": "左侧白色粗衬线艺术字“#Daily :)”及其下方短横线，字形和下划线共同构成固定装饰。"
+    },
+    {
+      "id": "overlay_rays",
+      "kind": "overlay",
+      "bbox": [
+        492,
+        585,
+        648,
+        677
+      ],
+      "description": "蛋糕照片右上方的黄色放射状手绘强调线，三条斜向粗线与小型黄色点缀作为一个装饰单元保留。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        925,
+        945,
+        999
+      ],
+      "description": "下方中央偏右的白色手写中文短语“日常碎片”，右侧连接绿色拼图片形装饰，文字与拼图片共同构成固定贴纸设计。"
+    },
+    {
+      "id": "overlay_pink_character",
+      "kind": "overlay",
+      "bbox": [
+        476,
+        968,
+        671,
+        1278
+      ],
+      "description": "熊形框体右侧的大型粉色手绘中文字符，带粗白色外描边和轻微阴影，保持原有笔画造型及整体轮廓。"
+    },
+    {
+      "id": "overlay_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        514,
+        1317,
+        610,
+        1384
+      ],
+      "description": "底部中央偏左的浅色餐叉、餐盘和刀具细线图标，作为一组固定线稿装饰保留。"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        885,
+        1319,
+        1051,
+        1406
+      ],
+      "description": "右下角白色椭圆气泡贴纸，带尖角和一行深色小字，气泡轮廓与文字作为完整固定装饰保留。"
+    },
+    {
+      "id": "overlay_glass_marks",
+      "kind": "overlay",
+      "bbox": [
+        855,
+        1028,
+        994,
+        1120
+      ],
+      "description": "饮品上方及右侧的几笔白色细线手绘强调标记，彼此分散但构成同组点缀，保留其完整可见笔画。"
+    }
+  ],
+  "layer_order": [
+    "photo_meal",
+    "photo_blossoms",
+    "photo_roses_cake",
+    "photo_toast",
+    "photo_food_window",
+    "frame_bear",
+    "photo_drinks",
+    "photo_dessert",
+    "overlay_audio",
+    "overlay_turquoise_doodles",
+    "overlay_hashtag",
+    "overlay_rays",
+    "overlay_caption",
+    "overlay_pink_character",
+    "overlay_cutlery",
+    "overlay_speech_bubble",
+    "overlay_glass_marks"
+  ]
+}

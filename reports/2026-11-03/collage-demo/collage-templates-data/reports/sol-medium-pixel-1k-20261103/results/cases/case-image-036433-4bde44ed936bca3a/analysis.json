@@ -1,0 +1,180 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        721
+      ],
+      "description": "左上独立山景照片，远山、雾气、树林和前景植物共同构成完整摄影画面，显示为矩形区域，右缘与右侧湖景照片形成垂直接缝。",
+      "label": "左上独立山景照片，远山、雾气、树林和前景植物共同构成完整摄影",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        721
+      ],
+      "description": "右上独立湖面或海湾景观照片，包含天空、水面、远岸和下方建筑树木，显示为矩形区域，左缘与左侧山景照片直接拼接。",
+      "label": "右上独立湖面或海湾景观照片，包含天空、水面、远岸和下方建筑树",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立花束场景照片，包含粉色墙面、木质背景和花朵环境，显示区域延伸至画布左侧与底部；花束主体另有前景显示并遮挡中部手机图形。",
+      "label": "左下独立花束场景照片，包含粉色墙面、木质背景和花朵环境，显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立咖啡店或饮品场景照片，包含木质门面、树影和右下背景，显示区域延伸至画布右侧与底部；上方甜品杯为独立前景摄影内容。",
+      "label": "右下独立咖啡店或饮品场景照片，包含木质门面、树影和右下背景，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_phone_calendar",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        676,
+        918,
+        1440
+      ],
+      "description": "斜向叠放的黑色手机及其浅灰屏幕界面固定设计单元，屏幕内包含日期、绿色日历圆点、缩略图和中文界面文字，底部被画布裁切；手机覆盖下方照片并被花束和甜品杯局部遮挡。",
+      "label": "斜向叠放的黑色手机及其浅灰屏幕界面固定设计单元，屏幕内包含日",
+      "method": "extract"
+    },
+    {
+      "id": "photo_flower_foreground",
+      "kind": "photo",
+      "bbox": [
+        0,
+        752,
+        540,
+        1440
+      ],
+      "description": "从左下花束照片中连续显示的前景花束主体，包含多朵粉色花朵、绿色花茎和红色绑带，沿主体轮廓保留并跨越手机界面前方，底部和左缘延伸至画布边界。",
+      "linked_to": "photo_bottom_left",
+      "label": "从左下花束照片中连续显示的前景花束主体，包含多朵粉色花朵、绿",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert_cup",
+      "kind": "photo",
+      "bbox": [
+        758,
+        785,
+        1080,
+        1175
+      ],
+      "description": "右侧独立前景甜品或冰饮杯的抠图摄影内容，包含黑色杯沿、奶油冰淇淋和焦糖色淋酱，摄影背景未保留，覆盖手机右侧并延伸到画布右缘。",
+      "label": "右侧独立前景甜品或冰饮杯的抠图摄影内容，包含黑色杯沿、奶油冰",
+      "method": "local"
+    },
+    {
+      "id": "overlay_speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        885,
+        633,
+        1029,
+        776
+      ],
+      "description": "右上甜品杯附近的白色手绘对话气泡及其中“好呀!”字样，作为完整固定装饰单元保留，气泡覆盖右下照片并位于甜品杯上方。",
+      "label": "右上甜品杯附近的白色手绘对话气泡及其中“好呀!”字样，作为完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_caption_bars",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        1283,
+        425,
+        1371
+      ],
+      "description": "左下花束上的两条黑色横向文字标签及其白色中文内容，分别为“桌面的记录仪式感 >>”和“不錯过每个精彩时刻”，黑色底条、文字和黄色闪光点作为一个固定设计单元保留，覆盖花束前景。",
+      "label": "左下花束上的两条黑色横向文字标签及其白色中文内容，分别为“桌",
+      "method": "extract"
+    },
+    {
+      "id": "text_summer",
+      "kind": "text",
+      "bbox": [
+        907,
+        1315,
+        1058,
+        1383
+      ],
+      "description": "夏天呀!",
+      "label": "夏天呀!",
+      "method": "local",
+      "text": "夏天呀!",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_phone_calendar",
+    "photo_flower_foreground",
+    "photo_dessert_cup",
+    "overlay_speech_bubble",
+    "overlay_caption_bars",
+    "text_summer"
+  ]
+}

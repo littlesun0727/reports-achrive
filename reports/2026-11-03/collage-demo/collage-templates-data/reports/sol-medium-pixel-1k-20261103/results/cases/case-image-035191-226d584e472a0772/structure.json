@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_texture",
+    "description": "全画布为固定的拼接纹理底图：左侧约0至430像素是深红色粗糙纹理，右侧为浅米色斑驳纸纹，二者沿竖直边界连续延伸至画布上下边缘。中央照片及局部色块遮挡部分底图；保留底图纹理，不作为可替换照片。"
+  },
+  "objects": [
+    {
+      "id": "overlay_upper_cream",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        336,
+        389,
+        564
+      ],
+      "description": "照片左上方露出的浅米色方形纹理纸片，边缘清晰；位于背景与中央照片之间，右下部分被照片遮挡，作为独立固定色块保留。"
+    },
+    {
+      "id": "overlay_lower_red",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        841,
+        764,
+        1037
+      ],
+      "description": "照片右下方露出的深红色纹理方形色块，边缘清晰；位于背景与中央照片之间，左上部分被照片遮挡，作为独立固定色块保留。"
+    },
+    {
+      "id": "photo_couple",
+      "kind": "photo",
+      "bbox": [
+        230,
+        367,
+        668,
+        1025
+      ],
+      "description": "竖幅婚礼合照：一男一女全身站立，男子穿黑色西装位于左侧，女子穿红色上衣和浅色长裙位于右侧，依偎并手持花束；身后可见深红色帷幕与上方花饰，摄影环境保留在矩形照片范围内。照片遮住两块纹理色块及部分背景，底边有轻微不规则白边。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        1339,
+        1058,
+        1418
+      ],
+      "description": "画布右下角的浅色平台水印，包含圆角胶囊形小标识和其下方一行账号字样；作为一个固定水印单元保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_upper_cream",
+    "overlay_lower_red",
+    "photo_couple",
+    "overlay_watermark"
+  ]
+}

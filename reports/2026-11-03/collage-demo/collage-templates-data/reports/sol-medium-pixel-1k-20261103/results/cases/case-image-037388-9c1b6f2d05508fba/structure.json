@@ -1,0 +1,121 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "black_texture_base",
+    "description": "连续的黑色微纹理底图覆盖整张画布，四周边缘及各独立照片和装饰之间均露出同一黑色纹理；照片、文字纸条、相机、胶卷和星形装饰均为上层独立单元，底图本身保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_left_tree_roof",
+      "kind": "photo",
+      "bbox": [
+        0,
+        22,
+        388,
+        1059
+      ],
+      "description": "左侧竖向摄影画面，包含蓝天空、裸树枝干和斜向传统建筑屋檐，完整矩形照片延伸至画布左边和下边，右侧及上方露出黑色底图。摄影环境整体保留，未见独立去背景主体。"
+    },
+    {
+      "id": "photo_upper_right_branches",
+      "kind": "photo",
+      "bbox": [
+        724,
+        438,
+        1034,
+        672
+      ],
+      "description": "右上方横向树枝照片，包含浅色天空、裸枝以及右缘的建筑屋檐，完整矩形显示区域独立置于黑色底图上，摄影环境保留。"
+    },
+    {
+      "id": "photo_bottom_golden_leaves",
+      "kind": "photo",
+      "bbox": [
+        475,
+        696,
+        947,
+        1049
+      ],
+      "description": "下方横向树叶照片，包含金黄色树叶、枝干、蓝天空和远处环境，完整矩形照片独立置于画布下部，摄影环境保留。"
+    },
+    {
+      "id": "overlay_handwritten_title",
+      "kind": "overlay",
+      "bbox": [
+        453,
+        116,
+        982,
+        163
+      ],
+      "description": "画布上方的白色手写中文艺术字，采用不规则手写笔画和独立字距，作为完整固定装饰保留，不拆分为普通文字对象。"
+    },
+    {
+      "id": "overlay_paper_label",
+      "kind": "overlay",
+      "bbox": [
+        432,
+        326,
+        811,
+        391
+      ],
+      "description": "横向米白色撕边纸条，带有深色手写中文内容“季节要让你看到不一样的风景”及纸张边缘质感；纸条是独立固定装饰，右侧被相机局部遮挡。"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        809,
+        297,
+        1008,
+        411
+      ],
+      "description": "右上区域的复古胶片相机固定装饰，包含金属机身、镜头、取景部件和阴影，位于纸条右侧并遮挡纸条末端，整体作为不可拆分的设计单元保留。"
+    },
+    {
+      "id": "overlay_film_roll",
+      "kind": "overlay",
+      "bbox": [
+        596,
+        460,
+        724,
+        647
+      ],
+      "description": "中央偏左的绿色胶卷和胶卷盒固定装饰，包含卷筒、绿色胶卷主体、白色标签块及右侧棕色盒体，背景透明并独立叠放在黑色底图上。"
+    },
+    {
+      "id": "overlay_green_star",
+      "kind": "overlay",
+      "bbox": [
+        984,
+        748,
+        1074,
+        840
+      ],
+      "description": "右侧中下部的绿色手绘五角星装饰，保留粗糙笔触和不规则轮廓，独立叠放在黑色底图上。"
+    },
+    {
+      "id": "overlay_yellow_star",
+      "kind": "overlay",
+      "bbox": [
+        1000,
+        928,
+        1074,
+        1010
+      ],
+      "description": "右下部的黄色手绘五角星装饰，保留不规则线条和手绘质感，独立叠放在黑色底图上。"
+    }
+  ],
+  "layer_order": [
+    "photo_left_tree_roof",
+    "photo_upper_right_branches",
+    "photo_bottom_golden_leaves",
+    "overlay_handwritten_title",
+    "overlay_paper_label",
+    "overlay_film_roll",
+    "overlay_camera",
+    "overlay_green_star",
+    "overlay_yellow_star"
+  ]
+}

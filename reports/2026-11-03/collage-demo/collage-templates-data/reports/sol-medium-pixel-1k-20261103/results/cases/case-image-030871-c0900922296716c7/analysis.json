@@ -1,0 +1,113 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_moonlit_sea",
+      "kind": "photo",
+      "bbox": [
+        209,
+        49,
+        871,
+        932
+      ],
+      "description": "竖向夜间海景照片，包含黑暗天空、月亮、海面反光、近处黑色海岸和右侧礁石岛屿；月亮位于上方中央，海面亮光延伸至下方，完整照片窗口为矩形。摄影环境整体随客户素材替换，画面底部叠有白色“9PM.”字样。",
+      "label": "竖向夜间海景照片，包含黑暗天空、月亮、海面反光、近处黑色海岸",
+      "method": "local"
+    },
+    {
+      "id": "text_9pm",
+      "kind": "text",
+      "bbox": [
+        263,
+        838,
+        425,
+        898
+      ],
+      "description": "9PM.",
+      "label": "9PM.",
+      "method": "local",
+      "text": "9PM.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_poem_main",
+      "kind": "text",
+      "bbox": [
+        435,
+        977,
+        900,
+        1222
+      ],
+      "description": "天空渐渐暗下来\n海边上忽闪着一片亮光\n跟着波浪轻轻晃动\n惊讶地发现 月光居然那么亮",
+      "label": "天空渐渐暗下来\n海边上忽闪着一片亮光\n跟着波浪轻轻晃动\n惊讶",
+      "method": "local",
+      "text": "天空渐渐暗下来\n海边上忽闪着一片亮光\n跟着波浪轻轻晃动\n惊讶地发现 月光居然那么亮",
+      "text_status": "known",
+      "style": {
+        "fill": "#63351F",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_poem_end",
+      "kind": "text",
+      "bbox": [
+        435,
+        1282,
+        690,
+        1393
+      ],
+      "description": "海上升明月\n比岁月更是了。",
+      "label": "海上升明月\n比岁月更是了。",
+      "method": "local",
+      "text": "海上升明月\n比岁月更是了。",
+      "text_status": "known",
+      "style": {
+        "fill": "#63351F",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_moonlit_sea",
+    "text_9pm",
+    "text_poem_main",
+    "text_poem_end"
+  ]
+}

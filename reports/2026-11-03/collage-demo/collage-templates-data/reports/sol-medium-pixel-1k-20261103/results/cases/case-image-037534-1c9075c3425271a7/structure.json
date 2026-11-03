@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture_base",
+    "description": "连续覆盖全画布的浅灰粉色颗粒纸张纹理，带有柔和的粉色和灰色渐变及底部模糊色块；两张独立照片和中央半透明面板遮挡局部，间隙与四边仍保持同一固定底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        108,
+        65,
+        452,
+        572
+      ],
+      "description": "上方竖向人物合照，画面中一男一女近距离入镜；男性位于左上后方俯视或低头，女性位于前景中央偏下并朝向镜头，保留室内摄影环境和完整矩形显示范围。下部及右下区域被中央半透明面板局部遮挡。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        487,
+        643,
+        827,
+        1154
+      ],
+      "description": "下方竖向人物合照，画面中一男一女从较低角度入镜；男性位于左上方，女性位于右下方，两人面向镜头，前景有较大的手臂或手部模糊遮挡，保留室内摄影环境和完整矩形显示范围。左上边缘及上部区域被中央半透明面板局部覆盖。"
+    },
+    {
+      "id": "overlay_center_panel",
+      "kind": "overlay",
+      "bbox": [
+        350,
+        484,
+        595,
+        730
+      ],
+      "description": "位于两张照片之间的浅白粉色半透明矩形固定面板，覆盖上方照片右下区域并压住下方照片左上区域，边缘为清晰的水平和垂直直线；作为独立装饰单元保留其透明度和叠加效果。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "overlay_center_panel"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "一张连续的桌面静物照片覆盖全画布：中央偏上是金属台灯，左侧有显示器和键盘，右侧有两盒饮品及装有水果和面包的盘子；桌面与墙面环境连续延伸至四边。下方偏左的文字设计遮挡部分键盘和桌面，整体摄影环境随底图替换。",
+      "background_type": "photo",
+      "label": "一张连续的桌面静物照片覆盖全画布：中央偏上是金属台灯，左侧有",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_text_backing",
+      "kind": "overlay",
+      "bbox": [
+        65,
+        843,
+        655,
+        1072
+      ],
+      "description": "文字后方数条半透明浅橙米色矩形底条，按文字行长分段排列，整体构成一组左对齐的局部衬底；不承载照片。",
+      "label": "文字后方数条半透明浅橙米色矩形底条，按文字行长分段排列，整体",
+      "method": "extract"
+    },
+    {
+      "id": "text_advice",
+      "kind": "text",
+      "bbox": [
+        68,
+        850,
+        651,
+        1065
+      ],
+      "description": "想要账号长久走下去，人设塑造要跟上：\n⭐展现真实的自己，不用刻意wan美，\n把成长里的不完美写出来，更容易引发共鸣\n⭐明确你的价值定位，想清楚你能给大家带来什么\n⭐可以挖掘一点反差感，会让你的人设更有记忆点",
+      "label": "想要账号长久走下去，人设塑造要跟上：\n⭐展现真实的自己，不用",
+      "method": "local",
+      "text": "想要账号长久走下去，人设塑造要跟上：\n⭐展现真实的自己，不用刻意wan美，\n把成长里的不完美写出来，更容易引发共鸣\n⭐明确你的价值定位，想清楚你能给大家带来什么\n⭐可以挖掘一点反差感，会让你的人设更有记忆点",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_text_backing",
+    "text_advice"
+  ]
+}

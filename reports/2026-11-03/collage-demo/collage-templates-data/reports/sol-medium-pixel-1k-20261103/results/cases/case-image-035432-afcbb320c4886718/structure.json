@@ -1,0 +1,172 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "newspaper_collage",
+    "description": "复古报纸版面拼贴连续铺满画布四边，包含米白纸张、黑色印刷文字、栏线和旧纸纹理；各报纸标题与版面作为固定底图保留，中央照片、纸卡及贴纸覆盖其局部。"
+  },
+  "objects": [
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        170,
+        435,
+        902,
+        1630
+      ],
+      "description": "中央竖向黑白颗粒照片，完整矩形显示区域延伸至中部纸条遮挡处；上半部可见树木与远处地景，下半部可见人物及其周围环境。摄影环境保留，照片边缘被米白相纸承托，中央大字纸条遮住中段。"
+    },
+    {
+      "id": "frame_photo",
+      "kind": "frame",
+      "bbox": [
+        139,
+        402,
+        936,
+        1705
+      ],
+      "description": "承托中央照片的竖向米白旧纸相片框，带纸张纹理、轻微污渍和不规则边缘；照片窗口被中部撕边纸条遮挡，框体下缘及周边仍可见。",
+      "photo_id": [
+        "photo_center"
+      ]
+    },
+    {
+      "id": "overlay_news_strip",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        777,
+        983,
+        1227
+      ],
+      "description": "横向米白撕边纸条覆盖中央照片，纸面有折痕与旧纸质感；中央为巨大的黑色衬线艺术字“NEWS”，下方依次印有“CUETTERIZON”“STICKER LAYER”“VINTAGE PRINT”，整体作为一张固定设计纸条保留。"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        370,
+        1022,
+        533
+      ],
+      "description": "右上方黑色手绘空心五角星线稿，叠在报纸背景与中央相片框右上区域。"
+    },
+    {
+      "id": "overlay_blue_button",
+      "kind": "overlay",
+      "bbox": [
+        877,
+        746,
+        996,
+        867
+      ],
+      "description": "中央纸条右侧的圆形蓝色贴片，带白色外圈、深色细边和内部圆环，压住纸条右边缘及照片框区域。"
+    },
+    {
+      "id": "overlay_heart",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        1187,
+        255,
+        1377
+      ],
+      "description": "左下区域红色心形贴纸，带白色粗边、细微表面划痕和投影，覆盖照片框左侧及报纸背景。"
+    },
+    {
+      "id": "overlay_halftone_circle",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        1273,
+        322,
+        1402
+      ],
+      "description": "红心右下方的白底黑色网点圆形贴纸，带深色外缘，局部与红心及中央相片框重叠。"
+    },
+    {
+      "id": "overlay_dotted_patch",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1467,
+        281,
+        1681
+      ],
+      "description": "左下方白底黑色圆点纸片，呈矩形并覆盖相片框左下角与报纸背景；纸片本身的圆点图案和边缘作为一个固定单元保留。"
+    },
+    {
+      "id": "overlay_tape_upper",
+      "kind": "overlay",
+      "bbox": [
+        683,
+        428,
+        907,
+        540
+      ],
+      "description": "中央照片右上方横向半透明灰白撕边胶带，表面有褶皱和反光，压在照片区域及相片框上。"
+    },
+    {
+      "id": "overlay_tape_lower",
+      "kind": "overlay",
+      "bbox": [
+        566,
+        1535,
+        901,
+        1679
+      ],
+      "description": "中央照片右下方半透明灰白皱褶胶带，呈横向不规则撕边，覆盖照片下部和相片框下缘。"
+    },
+    {
+      "id": "overlay_tape_green",
+      "kind": "overlay",
+      "bbox": [
+        738,
+        1302,
+        889,
+        1448
+      ],
+      "description": "绿色长方形印刷票券，略微倾斜，带深色边框、细小印字和数字图样；票券压在中央照片右下区域及半透明撕边胶带上，印字随票券整体保留。"
+    },
+    {
+      "id": "overlay_yellow_ticket",
+      "kind": "overlay",
+      "bbox": [
+        229,
+        1571,
+        495,
+        1720
+      ],
+      "description": "底部偏左的黄色长条票券，带圆角、边缘缺口、黑色条码和细小印字，略微倾斜并跨压照片框下缘与报纸背景；所有票面印刷作为同一固定票券保留。"
+    },
+    {
+      "id": "overlay_star_lower",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        1586,
+        724,
+        1680
+      ],
+      "description": "相片框下部偏右的黑色手绘五角星线稿，中心有浅色填面，压在底部半透明胶带与报纸背景上。"
+    }
+  ],
+  "layer_order": [
+    "frame_photo",
+    "photo_center",
+    "overlay_tape_upper",
+    "overlay_tape_lower",
+    "overlay_news_strip",
+    "overlay_star_upper",
+    "overlay_heart",
+    "overlay_halftone_circle",
+    "overlay_dotted_patch",
+    "overlay_blue_button",
+    "overlay_tape_green",
+    "overlay_yellow_ticket",
+    "overlay_star_lower"
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内窗边摄影环境覆盖画布四边，可见蓝天、窗框、海景、桌椅和室内地面；中央纸箱及其中的照片、相机、贴纸和纸张遮挡中部区域，背景摄影环境整体作为客户素材替换。",
+      "background_type": "photo",
+      "label": "连续的室内窗边摄影环境覆盖画布四边，可见蓝天、窗框、海景、桌",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_cardboard_box",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        211,
+        940,
+        1227
+      ],
+      "description": "展开的棕色瓦楞纸箱及其上盖、侧翼、上下折板和内部横向分隔结构，作为中央固定承托造型整体保留，覆盖背景摄影环境。",
+      "label": "展开的棕色瓦楞纸箱及其上盖、侧翼、上下折板和内部横向分隔结构",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        306,
+        377,
+        553,
+        633
+      ],
+      "description": "上方左侧竖向人物照片，一名长发女性戴蓝色帽子正面近景，人物位于画面中央，身后保留户外蓝天和绿色环境；照片为矩形窗口，边缘有白色纸张承托。",
+      "label": "上方左侧竖向人物照片，一名长发女性戴蓝色帽子正面近景，人物位",
+      "method": "local"
+    },
+    {
+      "id": "frame_portrait_card",
+      "kind": "frame",
+      "bbox": [
+        303,
+        359,
+        559,
+        702
+      ],
+      "description": "承载人物照片的白色拍立得式纸卡，包含上方白边、下方宽白边及底部细小印刷字样，完整纸张轮廓和材质保留。",
+      "photo_id": [
+        "photo_portrait"
+      ],
+      "label": "承载人物照片的白色拍立得式纸卡，包含上方白边、下方宽白边及底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_newspaper",
+      "kind": "overlay",
+      "bbox": [
+        228,
+        447,
+        324,
+        722
+      ],
+      "description": "从人物纸卡左侧露出的倾斜白色报纸或杂志页，包含黑色标题和多行小字，作为独立固定纸张保留，部分被人物纸卡遮挡。",
+      "label": "从人物纸卡左侧露出的倾斜白色报纸或杂志页，包含黑色标题和多行",
+      "method": "extract"
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        596,
+        510,
+        782,
+        695
+      ],
+      "description": "上方右侧方形甜筒照片，一只手拿着带动物造型装饰的冰淇淋，背景为海面与天空；摄影环境保留在矩形窗口内，外侧叠有白色心形线稿。",
+      "label": "上方右侧方形甜筒照片，一只手拿着带动物造型装饰的冰淇淋，背景",
+      "method": "local"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        303,
+        802,
+        477
+      ],
+      "description": "上方中央偏右的银色数码相机固定装饰，包含镜头、按键、机身阴影和顶部白色韩文标签，整体作为独立实物保留。",
+      "label": "上方中央偏右的银色数码相机固定装饰，包含镜头、按键、机身阴影",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_upper",
+      "kind": "overlay",
+      "bbox": [
+        279,
+        345,
+        374,
+        413
+      ],
+      "description": "贴在人物纸卡左上角的白色黑点装饰胶带，呈斜向矩形，覆盖纸卡边缘并作为独立贴纸保留。",
+      "label": "贴在人物纸卡左上角的白色黑点装饰胶带，呈斜向矩形，覆盖纸卡边",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_lower",
+      "kind": "overlay",
+      "bbox": [
+        496,
+        641,
+        589,
+        706
+      ],
+      "description": "贴在上方照片组合右下侧的白色黑点装饰胶带，呈斜向矩形并压住纸张边缘，作为独立贴纸保留。",
+      "label": "贴在上方照片组合右下侧的白色黑点装饰胶带，呈斜向矩形并压住纸",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_icecream_clip",
+      "kind": "overlay",
+      "bbox": [
+        588,
+        489,
+        626,
+        550
+      ],
+      "description": "冰淇淋照片左上侧的白色线稿回形针装饰，跨在照片上沿附近，作为独立固定贴纸保留。",
+      "label": "冰淇淋照片左上侧的白色线稿回形针装饰，跨在照片上沿附近，作为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_icecream_heart",
+      "kind": "overlay",
+      "bbox": [
+        589,
+        507,
+        799,
+        704
+      ],
+      "description": "围绕冰淇淋照片形成的白色手绘心形线条和局部装饰笔画，跨在照片表面及边缘上方，作为独立固定图形保留。",
+      "label": "围绕冰淇淋照片形成的白色手绘心形线条和局部装饰笔画，跨在照片",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        489,
+        388,
+        685,
+        519
+      ],
+      "description": "上层纸箱内部和相机、冰淇淋照片周围的白色闪光和圆点装饰，包含散落的小星芒与圆形点缀，作为一组固定装饰保留。",
+      "label": "上层纸箱内部和相机、冰淇淋照片周围的白色闪光和圆点装饰，包含",
+      "method": "extract"
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        289,
+        798,
+        535,
+        1119
+      ],
+      "description": "下方笔记本左页的海边人物照片，一名穿浅色上衣和深色裤子的人站在沙滩上举手遮挡面部，背后是海面、城市天际线和天空；完整矩形摄影区域保留。",
+      "label": "下方笔记本左页的海边人物照片，一名穿浅色上衣和深色裤子的人站",
+      "method": "local"
+    },
+    {
+      "id": "photo_coffee",
+      "kind": "photo",
+      "bbox": [
+        600,
+        831,
+        741,
+        971
+      ],
+      "description": "下方笔记本右页上方的小型咖啡与甜点照片，包含咖啡杯、盘中甜点、餐具和桌面环境，显示为独立矩形照片窗口。",
+      "label": "下方笔记本右页上方的小型咖啡与甜点照片，包含咖啡杯、盘中甜点",
+      "method": "local"
+    },
+    {
+      "id": "frame_notebook",
+      "kind": "frame",
+      "bbox": [
+        280,
+        795,
+        794,
+        1122
+      ],
+      "description": "下方横向线圈笔记本页面，左侧承载海边照片，右侧为白色圆点纸页并包含咖啡照片、灰色圆点、浅色方格纸和印刷文字“this girl loves ...”，线圈、纸张、图案和文字整体保留。",
+      "photo_id": [
+        "photo_beach",
+        "photo_coffee"
+      ],
+      "label": "下方横向线圈笔记本页面，左侧承载海边照片，右侧为白色圆点纸页",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper",
+      "kind": "overlay",
+      "bbox": [
+        308,
+        823,
+        338,
+        853
+      ],
+      "description": "海边照片左上方的白色五角星贴纸，带黑色小点装饰，作为独立固定贴纸保留。",
+      "label": "海边照片左上方的白色五角星贴纸，带黑色小点装饰，作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        478,
+        912,
+        516,
+        955
+      ],
+      "description": "海边照片右侧的白色五角星贴纸，带黑色小点装饰并叠在照片上方，作为独立固定贴纸保留。",
+      "label": "海边照片右侧的白色五角星贴纸，带黑色小点装饰并叠在照片上方，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        292,
+        1044,
+        338,
+        1090
+      ],
+      "description": "笔记本左下方靠近海边照片的白色五角星贴纸，部分跨出照片区域，作为独立固定装饰保留。",
+      "label": "笔记本左下方靠近海边照片的白色五角星贴纸，部分跨出照片区域，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        462,
+        1054,
+        516,
+        1111
+      ],
+      "description": "海边照片右下方的大型白色五角星贴纸，带黑色点状纹理，压在笔记本及照片边缘上方。",
+      "label": "海边照片右下方的大型白色五角星贴纸，带黑色点状纹理，压在笔记",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_black_star",
+      "kind": "overlay",
+      "bbox": [
+        294,
+        1089,
+        346,
+        1145
+      ],
+      "description": "笔记本左下侧的黑色条纹五角星贴纸，部分位于纸箱内部边缘附近，作为独立固定装饰保留。",
+      "label": "笔记本左下侧的黑色条纹五角星贴纸，部分位于纸箱内部边缘附近，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_cardboard_box",
+    "overlay_newspaper",
+    "frame_portrait_card",
+    "photo_portrait",
+    "photo_icecream",
+    "overlay_upper_sparkles",
+    "overlay_camera",
+    "overlay_tape_upper",
+    "overlay_tape_lower",
+    "overlay_icecream_clip",
+    "overlay_icecream_heart",
+    "frame_notebook",
+    "photo_beach",
+    "photo_coffee",
+    "overlay_star_upper",
+    "overlay_star_right",
+    "overlay_star_lower_left",
+    "overlay_star_lower_right",
+    "overlay_black_star"
+  ]
+}

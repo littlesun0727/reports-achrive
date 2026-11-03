@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_left_strip",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        76,
+        1080
+      ],
+      "description": "画布左侧露出的一条竖向摄影内容，上部可见树枝与树干，中部为水面，下部为草地；被白色留白区域及前景照片遮挡。完整照片窗口边界无法从可见部分确认，按可见窄条记录，不推断其余范围。",
+      "label": "画布左侧露出的一条竖向摄影内容，上部可见树枝与树干，中部为水",
+      "method": "local"
+    },
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        19,
+        265,
+        540,
+        959
+      ],
+      "description": "左侧竖幅街景照片：一名长发女性全身站在人行道边，穿浅色上衣与深色长裤，身后可见橙色圆顶建筑、树木、车辆和斑马线；摄影环境保留，照片上缘与右缘被上方及右下照片局部遮挡。",
+      "label": "左侧竖幅街景照片：一名长发女性全身站在人行道边，穿浅色上衣与",
+      "method": "local"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        427,
+        503,
+        1080,
+        1080
+      ],
+      "description": "右下方横向咖啡馆门面照片，可见玻璃门窗、门上方的“OLDJACK CAFE”字样及室外座椅；保留完整摄影环境，左上区域覆盖左侧街景照片的一部分，显示延伸至画布右边和下边。",
+      "label": "右下方横向咖啡馆门面照片，可见玻璃门窗、门上方的“OLDJA",
+      "method": "local"
+    },
+    {
+      "id": "photo_seaside",
+      "kind": "photo",
+      "bbox": [
+        377,
+        0,
+        1012,
+        476
+      ],
+      "description": "右上方横向海滨照片：一名长发女性近全身站在草地上，身穿浅色上衣与深色长裤，身旁有背包；背景可见树冠、海面、帆船、岸边行人及雕像，摄影环境保留。照片延伸至画布上边，左下部分叠在建筑照片上。",
+      "label": "右上方横向海滨照片：一名长发女性近全身站在草地上，身穿浅色上",
+      "method": "local"
+    },
+    {
+      "id": "overlay_quote",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        61,
+        1012,
+        415
+      ],
+      "description": "叠加在右上海滨照片上的浅色手写英文引语，分多行横向铺排，内容以“FOR THE MEANING OF LIFE DIFFERS”开头；保留其不规则手写字形、行距与整体排版，不拆分为普通文字。",
+      "label": "叠加在右上海滨照片上的浅色手写英文引语，分多行横向铺排，内容",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left_strip",
+    "photo_building",
+    "photo_seaside",
+    "photo_cafe",
+    "overlay_quote"
+  ]
+}

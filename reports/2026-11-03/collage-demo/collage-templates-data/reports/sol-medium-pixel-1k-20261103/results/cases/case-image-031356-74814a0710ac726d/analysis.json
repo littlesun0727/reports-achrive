@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的山崖、裸枝与湖水摄影画面承载全画布，岩壁在顶部和两侧露出，湖水延伸至下方边缘；画面无人物。上层多张矩形水面照片遮挡其中局部，但底图仍覆盖完整画布并保留原有环境。",
+      "background_type": "photo",
+      "label": "连续的山崖、裸枝与湖水摄影画面承载全画布，岩壁在顶部和两侧露",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_left_strip",
+      "kind": "photo",
+      "bbox": [
+        0,
+        536,
+        247,
+        1440
+      ],
+      "description": "左侧竖向独立湖水照片，显示透明蓝绿色水面及水下纹理，完整显示区域贴合左画布边缘并延伸至底部；与上方岩壁背景及中央照片存在明确的直线裁切边界。",
+      "label": "左侧竖向独立湖水照片，显示透明蓝绿色水面及水下纹理，完整显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_right_strip",
+      "kind": "photo",
+      "bbox": [
+        1045,
+        312,
+        1080,
+        1440
+      ],
+      "description": "右侧窄幅独立湖水照片，显示蓝绿色水面和浅色水下纹理，沿右画布边缘贯穿下方区域；其左侧与中央竖向照片形成清晰直线边界。",
+      "label": "右侧窄幅独立湖水照片，显示蓝绿色水面和浅色水下纹理，沿右画布",
+      "method": "local"
+    },
+    {
+      "id": "photo_center_vertical",
+      "kind": "photo",
+      "bbox": [
+        247,
+        312,
+        1045,
+        1400
+      ],
+      "description": "中央大幅竖向湖景照片，包含浅色湖岸、深蓝绿色水面以及大量从上方和右侧伸入的裸树枝，保留完整摄影环境；矩形显示区域从中央上方延伸至接近画布底部，左缘和右缘为明确裁切边界。",
+      "label": "中央大幅竖向湖景照片，包含浅色湖岸、深蓝绿色水面以及大量从上",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_water",
+      "kind": "photo",
+      "bbox": [
+        39,
+        43,
+        697,
+        537
+      ],
+      "description": "左上方横向独立水下湖景照片，显示青蓝色透明水面、水下岩石和底部浅色水纹，呈完整矩形窗口；其下缘覆盖中央竖向照片的上部，四周保留明确的直线裁切边界。",
+      "label": "左上方横向独立水下湖景照片，显示青蓝色透明水面、水下岩石和底",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_left_strip",
+    "photo_right_strip",
+    "photo_center_vertical",
+    "photo_top_water"
+  ]
+}

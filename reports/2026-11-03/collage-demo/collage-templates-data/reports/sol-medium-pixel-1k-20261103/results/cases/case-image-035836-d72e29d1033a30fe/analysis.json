@@ -1,0 +1,265 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_fabric",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "米白色针织纹理与规则排列的深灰小爱心构成连续全画布底图，顶部、左右边缘及底部间隙均露出相同织物图案。保留织纹与爱心印花，清除上层纸张、照片及装饰。",
+      "background_type": "reference_clean",
+      "label": "米白色针织纹理与规则排列的深灰小爱心构成连续全画布底图，顶部",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_large_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        122,
+        1012,
+        1440
+      ],
+      "description": "大型浅灰白纸张底板，顶部具有圆角翻折边和黑色圆形细节，左侧为灰色细纹纸面及长篇打字机印字，右侧较浅。可辨开头为“There is a specific magic in the first truly warm day of spring.”，文字作为纸张自身印刷保留。纸张延伸至画布底边，中央被三格照片架大面积遮挡。",
+      "label": "大型浅灰白纸张底板，顶部具有圆角翻折边和黑色圆形细节，左侧为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postmark",
+      "kind": "overlay",
+      "bbox": [
+        99,
+        44,
+        327,
+        270
+      ],
+      "description": "左上黑灰色圆形邮戳，包含双层不完整圆环、弧形地名字母及日期时间印字，可辨“DEC 23”“7:30PM”“1929”等。整体具有磨损、断墨效果，压在大纸张上沿。",
+      "label": "左上黑灰色圆形邮戳，包含双层不完整圆环、弧形地名字母及日期时",
+      "method": "extract"
+    },
+    {
+      "id": "frame_small_top",
+      "kind": "frame",
+      "bbox": [
+        156,
+        404,
+        255,
+        505
+      ],
+      "description": "左侧最上方倾斜的小型米色照片纸卡，保留旧纸质感、窄边及下方手写式“Flower Shop”题字，照片内容单独替换。",
+      "photo_id": [
+        "photo_small_top"
+      ],
+      "label": "左侧最上方倾斜的小型米色照片纸卡，保留旧纸质感、窄边及下方手",
+      "method": "extract"
+    },
+    {
+      "id": "photo_small_top",
+      "kind": "photo",
+      "bbox": [
+        169,
+        413,
+        244,
+        478
+      ],
+      "description": "小纸卡内的花店或花卉陈列近景，画面呈暖灰褐色，可见花朵与店面细节，无清晰人物。摄影内容保留完整小型倾斜窗口，不包含下方纸卡题字。",
+      "label": "小纸卡内的花店或花卉陈列近景，画面呈暖灰褐色，可见花朵与店面",
+      "method": "local"
+    },
+    {
+      "id": "frame_small_middle",
+      "kind": "frame",
+      "bbox": [
+        125,
+        512,
+        220,
+        611
+      ],
+      "description": "左侧中间的小型米色照片纸卡，轻微倾斜，带旧纸边缘和下方手写式“Piano Memories”题字，整体作为固定照片载体保留。",
+      "photo_id": [
+        "photo_small_middle"
+      ],
+      "label": "左侧中间的小型米色照片纸卡，轻微倾斜，带旧纸边缘和下方手写式",
+      "method": "extract"
+    },
+    {
+      "id": "photo_small_middle",
+      "kind": "photo",
+      "bbox": [
+        136,
+        522,
+        207,
+        583
+      ],
+      "description": "钢琴黑白琴键的斜向近景照片，无人物，呈低饱和暖褐色。保留琴键及周围摄影内容，显示在独立小纸卡内口中。",
+      "label": "钢琴黑白琴键的斜向近景照片，无人物，呈低饱和暖褐色。保留琴键",
+      "method": "local"
+    },
+    {
+      "id": "frame_small_bottom",
+      "kind": "frame",
+      "bbox": [
+        174,
+        590,
+        269,
+        690
+      ],
+      "description": "左侧最下方倾斜的米色小照片纸卡，包含旧纸边缘及底部“Old Sheet Music”手写式题字，上缘与中间纸卡局部相叠。",
+      "photo_id": [
+        "photo_small_bottom"
+      ],
+      "label": "左侧最下方倾斜的米色小照片纸卡，包含旧纸边缘及底部“Old ",
+      "method": "extract"
+    },
+    {
+      "id": "photo_small_bottom",
+      "kind": "photo",
+      "bbox": [
+        183,
+        599,
+        251,
+        654
+      ],
+      "description": "旧乐谱纸张的局部近景，可见密集谱线和音符，呈灰褐色。乐谱内容随摄影画面替换，完整显示范围为小纸卡上部倾斜内口。",
+      "label": "旧乐谱纸张的局部近景，可见密集谱线和音符，呈灰褐色。乐谱内容",
+      "method": "local"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        242,
+        175,
+        968,
+        1354
+      ],
+      "description": "向右倾斜的深棕色三格长条照片架，具有粗厚外缘、两道横向隔条和宽底边，表面呈颗粒状旧皮革或纸板质感。三个独立照片窗口纵向排列，整体框体保留；顶部被棕色夹子压住，右下局部被便笺与信封遮挡。",
+      "photo_id": [
+        "photo_portrait",
+        "photo_food",
+        "photo_plush"
+      ],
+      "label": "向右倾斜的深棕色三格长条照片架，具有粗厚外缘、两道横向隔条和",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        461,
+        212,
+        923,
+        595
+      ],
+      "description": "上方窗口内为一名长黑发女性的半身近景，穿浅卡其外套和黑色上衣，身体与脸朝向镜头。保留室内货架、叠放纸盒和灰蓝墙面等摄影环境。照片随长条框倾斜，完整窗口四周由棕色框沿限定，没有沿人物轮廓去背景。",
+      "label": "上方窗口内为一名长黑发女性的半身近景，穿浅卡其外套和黑色上衣",
+      "method": "local"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        382,
+        545,
+        855,
+        926
+      ],
+      "description": "中间窗口内为餐桌俯斜视角照片，无人物；中央圆形烤盘上有红色食物，周围排列黄色长条食物、蔬菜、蛋及多个小碟，右侧可见小型摆件。全部桌面环境随照片替换，完整倾斜窗口位于上下棕色隔条之间。",
+      "label": "中间窗口内为餐桌俯斜视角照片，无人物；中央圆形烤盘上有红色食",
+      "method": "local"
+    },
+    {
+      "id": "photo_plush",
+      "kind": "photo",
+      "bbox": [
+        304,
+        878,
+        766,
+        1258
+      ],
+      "description": "下方窗口内为三个拟人食物毛绒玩具的近景，左侧绿色星形玩具、中间细长黄色玩具、右侧圆形浅棕玩具，后方可见成串香蕉，底部有台面与标签。玩具、香蕉及环境共同属于同一照片，保留摄影背景，四边由倾斜照片窗口裁切。",
+      "label": "下方窗口内为三个拟人食物毛绒玩具的近景，左侧绿色星形玩具、中",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        637,
+        105,
+        820,
+        267
+      ],
+      "description": "顶部棕色宽口夹子，带圆形穿孔把手、圆润横向夹口及立体高光阴影。独立压在三格照片架上沿，完整夹具造型作为固定装饰保留。",
+      "label": "顶部棕色宽口夹子，带圆形穿孔把手、圆润横向夹口及立体高光阴影",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        716,
+        1147,
+        1013,
+        1419
+      ],
+      "description": "右下米色便笺纸，带蓝色横向书写线和中间竖线，印有两行打字机字样“Welcome to\nmy life”，右上带棕金色五角星。纸张、线条、文字和星形点缀作为完整便笺设计保留；上沿被小票标签遮挡，下部被信封口遮挡。",
+      "label": "右下米色便笺纸，带蓝色横向书写线和中间竖线，印有两行打字机字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ticket",
+      "kind": "overlay",
+      "bbox": [
+        801,
+        1119,
+        928,
+        1202
+      ],
+      "description": "叠在便笺上沿的浅棕色复古票券，具有阶梯式边角、双线边框及细小侧边印字，中央为“HAPPY\nENTRY”，底部为红色编号“012345”。文字与票券载体整体保留。",
+      "label": "叠在便笺上沿的浅棕色复古票券，具有阶梯式边角、双线边框及细小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_envelope",
+      "kind": "overlay",
+      "bbox": [
+        693,
+        1318,
+        1017,
+        1440
+      ],
+      "description": "右下浅米白色信封口袋，左右斜向折边在下方形成交叠，底部被画布裁切；覆盖便笺下部及照片架右下角。正面带红色椭圆邮戳式印记，折痕、纸边、阴影和印记随信封整体保留。",
+      "label": "右下浅米白色信封口袋，左右斜向折边在下方形成交叠，底部被画布",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_fabric",
+    "overlay_large_paper",
+    "overlay_postmark",
+    "frame_small_top",
+    "photo_small_top",
+    "frame_small_bottom",
+    "photo_small_bottom",
+    "frame_small_middle",
+    "photo_small_middle",
+    "frame_main",
+    "photo_portrait",
+    "photo_food",
+    "photo_plush",
+    "overlay_clip",
+    "overlay_note",
+    "overlay_ticket",
+    "overlay_envelope"
+  ]
+}

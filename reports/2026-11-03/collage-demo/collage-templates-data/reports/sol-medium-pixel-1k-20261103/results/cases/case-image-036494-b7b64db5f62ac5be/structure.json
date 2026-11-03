@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "park_background",
+    "description": "连续的主题乐园摄影画面覆盖全画布，边缘及照片间隙可见连贯的树木、游乐设施、围栏和地面；中央下方有大型橙色狗形雕像，右侧为游乐设施。上层四张独立照片遮挡局部，底图保留完整环境并由客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_woody",
+      "kind": "photo",
+      "bbox": [
+        53,
+        73,
+        484,
+        647
+      ],
+      "description": "左上方竖向矩形照片，画面中一名女性站在大型牛仔玩偶旁摆姿势，人物位于下半部，玩偶占据左侧和上方；保留照片内的游乐设施与树木环境。"
+    },
+    {
+      "id": "photo_mickey",
+      "kind": "photo",
+      "bbox": [
+        613,
+        8,
+        1005,
+        524
+      ],
+      "description": "右上方竖向矩形自拍照片，一名女性伸手持机拍摄，与米老鼠角色近距离同框；人物在画面下方，米老鼠位于中上部，周围可见彩色长椅和游乐场环境。"
+    },
+    {
+      "id": "photo_park_pose",
+      "kind": "photo",
+      "bbox": [
+        68,
+        887,
+        457,
+        1407
+      ],
+      "description": "左下方竖向矩形照片，一名女性站在游乐设施旁举手摆姿势，人物全身可见并位于画面中部；保留蓝天、围栏、彩色设施及地面环境。"
+    },
+    {
+      "id": "photo_ride_circle",
+      "kind": "photo",
+      "bbox": [
+        650,
+        916,
+        1002,
+        1271
+      ],
+      "description": "右下方圆形照片窗口，画面为蓝天下的弧形游乐设施及周围树木；窗口外缘有白色手绘虚线环绕，虚线随圆形照片轮廓一并保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_woody",
+    "photo_mickey",
+    "photo_park_pose",
+    "photo_ride_circle"
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#F1F1F1"
+  },
+  "objects": [
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        53,
+        54,
+        639,
+        639
+      ],
+      "description": "上方竖幅公园步道照片：树冠围绕中央向远处延伸的砖石小路，远处有行人，两侧为草地、树木和园林设施；保留完整摄影环境，矩形窗口显示。"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        53,
+        927,
+        639,
+        1174
+      ],
+      "description": "下方横幅照片，仍是树木夹道的公园步道及远处行人，与上方为不同裁切显示位置；保留摄影环境，矩形窗口显示。"
+    },
+    {
+      "id": "text_quiet",
+      "kind": "text",
+      "bbox": [
+        52,
+        674,
+        113,
+        691
+      ],
+      "text": "QUIET",
+      "color": "#111111",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_silence",
+      "kind": "text",
+      "bbox": [
+        303,
+        674,
+        389,
+        691
+      ],
+      "text": "SILENCE",
+      "color": "#111111",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_alone",
+      "kind": "text",
+      "bbox": [
+        569,
+        674,
+        637,
+        691
+      ],
+      "text": "ALONE",
+      "color": "#111111",
+      "font": "sans",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "overlay_quote_rules",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        723,
+        638,
+        890
+      ],
+      "description": "引用文字区域的固定细黑线版式：上方一条横线，下方两条紧邻横线，右侧竖线分隔日期栏；线条作为同一组装饰结构保留。"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        52,
+        750,
+        451,
+        811
+      ],
+      "text": "Lebih baik sendiri di jalan yang terang daripada\ndibersamai dengan seseorang tapi pelan-pelan\nmembawamu pada sisi gelap dari kehidupan.",
+      "color": "#222222",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_attribution",
+      "kind": "text",
+      "bbox": [
+        52,
+        839,
+        216,
+        858
+      ],
+      "text": "– Dian Hasriana",
+      "color": "#222222",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_date",
+      "kind": "overlay",
+      "bbox": [
+        533,
+        762,
+        601,
+        839
+      ],
+      "description": "右侧分隔栏内的日期字样组合：大号细线数字“23”上方叠有小型手写风格的“day”，按完整固定字形设计保留。"
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        258,
+        1191,
+        434,
+        1205
+      ],
+      "text": "instagram.com/d.alyna_",
+      "color": "#222222",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_page_border",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        692,
+        1229
+      ],
+      "description": "画布最外缘可见的极细深色矩形边线，完整环绕浅色页面。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper",
+    "photo_lower",
+    "overlay_quote_rules",
+    "text_quiet",
+    "text_silence",
+    "text_alone",
+    "text_quote",
+    "text_attribution",
+    "overlay_date",
+    "text_footer",
+    "overlay_page_border"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_ocean_background",
+    "description": "连续的海面与天空摄影画面覆盖完整画布，海平线横贯中部偏下，底部为带阳光反光的海水；三张独立人物照片和粉色字样遮挡局部，但四周仍显示同一连续海景。背景仅替换整幅海天环境，不包含上层照片中的人物。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_seaside",
+      "kind": "photo",
+      "bbox": [
+        296,
+        189,
+        784,
+        513
+      ],
+      "description": "上方横向矩形人物照片，戴草帽和大框眼镜的女性在海边近距离自拍，面向镜头，海水、码头和天空保留在照片环境中；照片边界清晰，未见独立相框。"
+    },
+    {
+      "id": "photo_left_road",
+      "kind": "photo",
+      "bbox": [
+        84,
+        771,
+        536,
+        1073
+      ],
+      "description": "左下方横向矩形人物照片，戴草帽和眼镜的女性在临海道路旁侧身或背向镜头，身穿浅色衣物，画面保留道路、建筑和天空环境；右下区域被右侧照片遮挡。"
+    },
+    {
+      "id": "photo_bottom_seaside",
+      "kind": "photo",
+      "bbox": [
+        452,
+        960,
+        902,
+        1260
+      ],
+      "description": "右下方横向矩形人物照片，戴草帽和大框眼镜的女性近距离面向镜头并抬手触碰帽檐，穿浅色上衣，背景为明亮天空和海边环境；照片覆盖左侧照片的右下部分。"
+    },
+    {
+      "id": "overlay_handwritten_lyrics",
+      "kind": "overlay",
+      "bbox": [
+        224,
+        515,
+        780,
+        950
+      ],
+      "description": "大段粉色手写体歌词装饰，分多行斜向铺陈在画面中央，内容可辨为“When I say / I want it that way / But worlds apart / Can't reach to / your heart / When you say”；字迹带长笔画和装饰性延伸，作为完整艺术字单元保留，并叠在部分照片与海景之上。"
+    },
+    {
+      "id": "overlay_white_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        171,
+        833,
+        326
+      ],
+      "description": "靠近上方照片右上方的白色手绘闪光、星星和点状装饰，部分覆盖照片上缘及右侧天空，作为独立固定贴纸单元整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_seaside",
+    "photo_left_road",
+    "photo_bottom_seaside",
+    "overlay_handwritten_lyrics",
+    "overlay_white_sparkles"
+  ]
+}

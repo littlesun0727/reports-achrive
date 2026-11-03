@@ -1,0 +1,138 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的热带海岛泻湖摄影画面覆盖整个画布，边缘可见蓝绿色海水、白色沙洲、远处岛屿、船只和水中游客；上方人物照片与下方沙滩照片为独立矩形照片，遮挡底图局部但不改变其全画布连续范围。底图主体为宽景海湾环境，无需拆分环境内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_beach",
+      "kind": "photo",
+      "bbox": [
+        276,
+        135,
+        1040,
+        656
+      ],
+      "description": "上方横向海岛照片，画面中一名戴草帽的女性在海边观景平台上站立，身体朝向镜头并手持白色外搭，背景保留天空、海水、沙洲、树林和栏杆等完整摄影环境；矩形照片边界清晰，覆盖下方连续海湾底图。"
+    },
+    {
+      "id": "photo_lower_sandbar",
+      "kind": "photo",
+      "bbox": [
+        82,
+        890,
+        593,
+        1572
+      ],
+      "description": "左下竖向沙滩照片，一名女性戴墨镜在浅色沙滩上蹲坐并俯身触碰沙面，穿浅绿色服装，周围可见沙粒、落叶和浅水；保留完整摄影环境与矩形显示范围，右侧及下方与连续海湾底图相接。"
+    },
+    {
+      "id": "overlay_pixel_palm",
+      "kind": "overlay",
+      "bbox": [
+        247,
+        402,
+        543,
+        648
+      ],
+      "description": "叠加在上方照片左下区域的像素风棕榈树与彩色方块装饰，包含棕榈叶、树干、彩色花朵和水波线，作为独立固定图案保留并覆盖照片内容。"
+    },
+    {
+      "id": "overlay_top_doodles",
+      "kind": "overlay",
+      "bbox": [
+        565,
+        222,
+        1079,
+        716
+      ],
+      "description": "覆盖上方照片及其周边的白色手绘涂鸦，包括天空中的圆形标记、照片右侧的圆点与星形笔画，以及照片下方延伸至海面的手绘线条和小圆标记；作为一组独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_star_cluster",
+      "kind": "overlay",
+      "bbox": [
+        944,
+        112,
+        1079,
+        246
+      ],
+      "description": "画布右上角的一组棕色手绘星星、花形星和圆点装饰，彼此聚集但不承载照片，作为独立贴纸式固定单元保留。"
+    },
+    {
+      "id": "text_location",
+      "kind": "text",
+      "bbox": [
+        143,
+        698,
+        598,
+        758
+      ],
+      "text": "Whitehaven Beach",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_yellow_drops",
+      "kind": "overlay",
+      "bbox": [
+        111,
+        658,
+        625,
+        818
+      ],
+      "description": "围绕地点文字分布的黄色手绘水滴与细线装饰，包含左侧水滴、文字右侧和下方的细长水滴笔画，作为独立固定涂鸦保留。"
+    },
+    {
+      "id": "overlay_white_route_doodles",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        807,
+        780,
+        1404
+      ],
+      "description": "跨越下方照片和海面区域的白色手绘装饰组合，包括左侧放射状星形、弯曲线条、心形气泡、中央圆润角色轮廓及向上弯折的虚线箭头；装饰压在下方照片和底图之上，保留其跨边界遮挡关系。"
+    },
+    {
+      "id": "overlay_bottom_fish",
+      "kind": "overlay",
+      "bbox": [
+        625,
+        1348,
+        877,
+        1561
+      ],
+      "description": "画布右下海水区域的黄色手绘鱼和绿色水波、气泡装饰，包含两条鱼及周围水线和气泡，作为不承载照片的独立固定涂鸦保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1587,
+        1068,
+        1603
+      ],
+      "description": "画布右下角的小型半透明标记，作为参考图中可见的独立固定印记保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_beach",
+    "photo_lower_sandbar",
+    "overlay_pixel_palm",
+    "overlay_star_cluster",
+    "overlay_top_doodles",
+    "overlay_yellow_drops",
+    "text_location",
+    "overlay_white_route_doodles",
+    "overlay_bottom_fish",
+    "overlay_watermark"
+  ]
+}

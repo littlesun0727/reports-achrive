@@ -1,0 +1,172 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的餐桌火锅摄影画面覆盖全画布。中央至右下为沸腾的铜制烟囱火锅，保留汤汁、食材、蒸汽、炉架、木桌及左侧杯碟；上方有一位穿浅色上衣的用餐者，头部被画布上缘裁切，右侧露出另一人的局部手臂。摄影环境延伸到四边，文字与白色装饰叠在其上，整幅场景共同替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        215,
+        84,
+        869,
+        415
+      ],
+      "description": "白色粗笔刷英文标题“WHAT I EAT / IN A DAY”，分成两行，字母大小、位置与倾斜角度各异，边缘有粗糙笔触。完整保留特殊字形和错落排版，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_fork",
+      "kind": "overlay",
+      "bbox": [
+        153,
+        175,
+        280,
+        360
+      ],
+      "description": "标题左侧的白色手绘叉子轮廓，叉齿朝左上、柄向右下，包含旁侧弯曲短线，作为完整餐具装饰保留。"
+    },
+    {
+      "id": "overlay_knife",
+      "kind": "overlay",
+      "bbox": [
+        794,
+        184,
+        931,
+        390
+      ],
+      "description": "标题右侧的白色手绘餐刀轮廓，刀尖朝右上、柄朝左下，连同下方短弯笔画整体保留，覆盖摄影中的黑色烟囱上部。"
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        330,
+        368,
+        684,
+        388
+      ],
+      "text": "Don’t forget to have something nice today",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_delicious",
+      "kind": "overlay",
+      "bbox": [
+        757,
+        428,
+        1062,
+        601
+      ],
+      "description": "右上方白色手写“Delicious”，文字沿斜向弧线排列，左右各接一条弯曲引线，整体跨过烟囱右侧与锅沿上方，保留为完整艺术字装饰。"
+    },
+    {
+      "id": "overlay_upper_rays",
+      "kind": "overlay",
+      "bbox": [
+        104,
+        473,
+        216,
+        567
+      ],
+      "description": "铜锅左上沿外侧的四枚白色短粗放射笔画，方向各异，共同组成一组强调装饰。"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        100,
+        597,
+        178,
+        719
+      ],
+      "description": "锅体左侧上下排列的两枚白色空心四角闪光，大小不同，保留不规则手绘轮廓，作为一组完整点缀。"
+    },
+    {
+      "id": "overlay_caption_rays",
+      "kind": "overlay",
+      "bbox": [
+        143,
+        891,
+        241,
+        1018
+      ],
+      "description": "中文文案左侧的一组白色斜向强调线，上下两笔向文字方向展开；为独立手绘装饰，不属于摄影中的炉架。"
+    },
+    {
+      "id": "text_chinese",
+      "kind": "text",
+      "bbox": [
+        209,
+        927,
+        872,
+        990
+      ],
+      "text": "入秋必吃热腾腾的铜锅子",
+      "color": "#FFFFFF",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_yummy",
+      "kind": "overlay",
+      "bbox": [
+        76,
+        1035,
+        368,
+        1272
+      ],
+      "description": "左下方白色手写“Yummy”，单词斜向右下排列，首尾各有一条长短不一的弯曲引线，整体覆盖桌面和炉架区域，保留原有字形、角度与附属笔画。"
+    },
+    {
+      "id": "overlay_lower_rays",
+      "kind": "overlay",
+      "bbox": [
+        852,
+        1091,
+        961,
+        1178
+      ],
+      "description": "铜锅右下沿附近的一组四枚白色短粗放射笔画，呈弧形分布，压在食材及锅沿摄影内容上。"
+    },
+    {
+      "id": "text_footer",
+      "kind": "text",
+      "bbox": [
+        306,
+        1342,
+        774,
+        1403
+      ],
+      "text": "barbecue sauce for a perfect barbecue\nThe sweetness of grilling create scrumptious desserts without heating up the kitchen\nwhy do make ahead recipes work so well to reduce your dinner party stress",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_title",
+    "overlay_fork",
+    "overlay_knife",
+    "text_subtitle",
+    "overlay_delicious",
+    "overlay_upper_rays",
+    "overlay_sparkles",
+    "overlay_caption_rays",
+    "text_chinese",
+    "overlay_yummy",
+    "overlay_lower_rays",
+    "text_footer"
+  ]
+}

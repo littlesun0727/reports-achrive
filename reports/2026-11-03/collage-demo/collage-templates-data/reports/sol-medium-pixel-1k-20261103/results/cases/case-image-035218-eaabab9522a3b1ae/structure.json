@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_wall",
+    "description": "全画布连续的灰褐色细纹墙面底图，带不规则的明亮散斑、柔焦树影及上深下浅的光照变化，四边与照片间隙均可见相同材质。作为固定设计底图保留原样，四张婚纱照片及各自白色签名字样独立处理，不并入底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        115,
+        81,
+        531,
+        722
+      ],
+      "description": "左上竖幅婚纱双人中近景。新娘位于左前方，穿白色蕾丝婚纱与头纱、手持花束；戴眼镜的新郎在右后方，穿黑色西装举透明雨伞，两人朝右。保留雨伞、绿色树林和花草地等完整摄影环境，显示为直立矩形，边缘清晰。下部叠有独立白色签名。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        643,
+        154,
+        959,
+        638
+      ],
+      "description": "右上竖幅婚纱双人照片，新娘在左侧前景，白色头纱与裙摆沿左下延伸，新郎在其后举透明雨伞。人物与花束明显失焦，右侧山峰和下方花草地仍可见；保留完整摄影环境，失焦不是透明渐隐。矩形窗口边缘清晰，底部叠有独立白色签名。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        175,
+        807,
+        482,
+        1293
+      ],
+      "description": "左下竖幅双人全身远景，新娘背向镜头略朝右，位于中下部，手持花束，长头纱向左下飘展；新郎位于右后方，背向镜头站在花草地中。保留上部山峰、天空、中部树林及下部花草地，完整矩形摄影窗口，无主体出框；裙摆处叠有独立白色签名。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        592,
+        727,
+        1008,
+        1368
+      ],
+      "description": "右下竖幅双人全身远景，新郎与新娘在下部花草地中相对站立，新郎在左、新娘在右，白色长头纱和裙摆向右侧铺展。大面积云雾山峰、绿色山坡与树林属于同一照片并完整保留。显示为清晰直立矩形，人物不越出窗口，底部中央叠有独立白色签名。"
+    },
+    {
+      "id": "signature_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        282,
+        658,
+        355,
+        702
+      ],
+      "description": "左上照片下部的白色中文书法签名，包含飘逸主字、延伸笔画及细小附字，整体保留原有字形；为叠加在照片上的独立标识，不属于新娘婚纱纹样。"
+    },
+    {
+      "id": "signature_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        590,
+        825,
+        624
+      ],
+      "description": "右上照片底部中央的白色中文书法签名，主字与细小附字组成完整固定标识，保留特殊笔画及相对排布，不拆为普通文字。"
+    },
+    {
+      "id": "signature_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        303,
+        1238,
+        352,
+        1272
+      ],
+      "description": "左下照片中叠在新娘裙摆上的白色中文书法签名，包含主字、细小附字和延伸笔画，作为一个完整固定标识保留。"
+    },
+    {
+      "id": "signature_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        761,
+        1308,
+        830,
+        1349
+      ],
+      "description": "右下照片底部花草地上的白色中文书法签名，包含飘逸主字、延伸笔画及细小附字，作为独立完整装饰保留，不与摄影中的花草合并。"
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "signature_upper_left",
+    "signature_upper_right",
+    "signature_lower_left",
+    "signature_lower_right"
+  ]
+}

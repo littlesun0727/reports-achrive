@@ -1,0 +1,127 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_car_window",
+      "kind": "photo",
+      "bbox": [
+        0,
+        630,
+        1080,
+        1440
+      ],
+      "description": "横向车窗视角的独立摄影画面，窗外可见大片深红色花树，前景包含黑色车窗框、车门内饰和下方暗部结构；照片从画布第630像素处开始，完整延伸至左右边缘和底部。",
+      "label": "横向车窗视角的独立摄影画面，窗外可见大片深红色花树，前景包含",
+      "method": "local"
+    },
+    {
+      "id": "overlay_maroon_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        630
+      ],
+      "description": "覆盖画布上半部的连续深酒红色固定面板，矩形边界在第630像素处与下方摄影区域相接；面板作为独立固定底板保留。",
+      "label": "覆盖画布上半部的连续深酒红色固定面板，矩形边界在第630像素",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        378,
+        233,
+        702,
+        263
+      ],
+      "description": "Record my daily life",
+      "label": "Record my daily life",
+      "method": "local",
+      "text": "Record my daily life",
+      "text_status": "known",
+      "style": {
+        "fill": "#E9DCE5",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        484,
+        327,
+        596,
+        353
+      ],
+      "description": "12:30am",
+      "label": "12:30am",
+      "method": "local",
+      "text": "12:30am",
+      "text_status": "known",
+      "style": {
+        "fill": "#E9DCE5",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_chinese_caption",
+      "kind": "text",
+      "bbox": [
+        309,
+        447,
+        771,
+        521
+      ],
+      "description": "下雨天  在车窗里遇见一整个春天\n好享受在车内一个人独处的静谧时刻",
+      "label": "下雨天  在车窗里遇见一整个春天\n好享受在车内一个人独处的静",
+      "method": "local",
+      "text": "下雨天  在车窗里遇见一整个春天\n好享受在车内一个人独处的静谧时刻",
+      "text_status": "known",
+      "style": {
+        "fill": "#F4EFF2",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_car_window",
+    "overlay_maroon_panel",
+    "text_title",
+    "text_time",
+    "text_chinese_caption"
+  ]
+}

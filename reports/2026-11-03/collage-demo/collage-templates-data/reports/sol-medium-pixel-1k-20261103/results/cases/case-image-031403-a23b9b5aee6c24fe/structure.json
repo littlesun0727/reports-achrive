@@ -1,0 +1,41 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#10A6BF"
+  },
+  "objects": [
+    {
+      "id": "photo_coast",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下半画布的横向海湾风景照片，无人物。前景松树围绕蓝绿色海水与浅色岩岸，远处可见山脊、海面和浅蓝天空；完整摄影环境共同替换。照片上沿为水平直线，左右及下沿抵达画布边缘，无可见描边或透明渐隐。"
+    },
+    {
+      "id": "text_location_time",
+      "kind": "text",
+      "bbox": [
+        320,
+        337,
+        752,
+        423
+      ],
+      "text": "Calanque d'En-vau, Cassis\n12:43 05/01",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_coast",
+    "text_location_time"
+  ]
+}

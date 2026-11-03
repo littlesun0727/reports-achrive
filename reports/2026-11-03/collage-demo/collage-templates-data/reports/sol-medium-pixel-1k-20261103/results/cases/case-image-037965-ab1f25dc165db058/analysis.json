@@ -1,0 +1,178 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        722
+      ],
+      "description": "左上独立竖向照片，内容为树叶形成的暗色拱景、橙色晚霞、街道、路灯和远处商业街景，摄影环境完整保留；右缘与右上照片形成明确直线接缝。",
+      "label": "左上独立竖向照片，内容为树叶形成的暗色拱景、橙色晚霞、街道、",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        722
+      ],
+      "description": "右上独立竖向照片，近景为多杯外带饮品和甜品饮料，置于室内桌面上，后方仍可见其他饮品与餐具；左缘与左上照片形成明确直线接缝。",
+      "label": "右上独立竖向照片，近景为多杯外带饮品和甜品饮料，置于室内桌面",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        722,
+        540,
+        1440
+      ],
+      "description": "左下独立竖向照片，展示火锅餐桌、牛肉片、蔬菜、玉米、南瓜、面条、蘸料和锅具，保留完整桌面及室内用餐环境；上缘与右下照片形成明确直线接缝。",
+      "label": "左下独立竖向照片，展示火锅餐桌、牛肉片、蔬菜、玉米、南瓜、面",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        722,
+        1080,
+        1440
+      ],
+      "description": "右下独立竖向照片，展示黄色货架和木盒中的手工毛毡玩偶及商品吊牌，包含灰色、黄色、白色和粉色玩偶，保留完整店内陈列环境。",
+      "label": "右下独立竖向照片，展示黄色货架和木盒中的手工毛毡玩偶及商品吊",
+      "method": "local"
+    },
+    {
+      "id": "text_upper_left",
+      "kind": "text",
+      "bbox": [
+        305,
+        48,
+        513,
+        154
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_upper_right",
+      "kind": "text",
+      "bbox": [
+        693,
+        391,
+        1026,
+        429
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_lower_left",
+      "kind": "text",
+      "bbox": [
+        167,
+        1174,
+        424,
+        1287
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_lower_right",
+      "kind": "text",
+      "bbox": [
+        574,
+        814,
+        870,
+        904
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "text_upper_left",
+    "text_upper_right",
+    "text_lower_left",
+    "text_lower_right"
+  ]
+}

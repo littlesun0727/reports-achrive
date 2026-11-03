@@ -1,0 +1,184 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        194,
+        489,
+        591,
+        1018
+      ],
+      "description": "竖向人物近景照片，单人正面看向镜头，头肩和上半身位于画面中央，保留人物身后的室内及座椅环境，矩形显示区域完整保留。",
+      "label": "竖向人物近景照片，单人正面看向镜头，头肩和上半身位于画面中央",
+      "method": "local"
+    },
+    {
+      "id": "photo_city_road",
+      "kind": "photo",
+      "bbox": [
+        613,
+        308,
+        898,
+        687
+      ],
+      "description": "竖向城市道路摄影照片，雨滴覆盖车窗，车辆、道路、高楼和远处城市环境共同构成完整画面；照片内的城市标志与道路细节随摄影内容替换，矩形显示区域完整保留。",
+      "label": "竖向城市道路摄影照片，雨滴覆盖车窗，车辆、道路、高楼和远处城",
+      "method": "local"
+    },
+    {
+      "id": "overlay_red_squares",
+      "kind": "overlay",
+      "bbox": [
+        613,
+        326,
+        888,
+        649
+      ],
+      "description": "覆盖在城市道路照片上的多枚独立红色方块与小型红色标记，分散排列并遮挡部分雨景，作为同一组固定图形装饰保留。",
+      "label": "覆盖在城市道路照片上的多枚独立红色方块与小型红色标记，分散排",
+      "method": "extract"
+    },
+    {
+      "id": "photo_eye_detail",
+      "kind": "photo",
+      "bbox": [
+        509,
+        932,
+        664,
+        1086
+      ],
+      "description": "独立方形眼部局部照片，显示人物一只眼睛、眉眼和部分鼻梁面部细节，位于人物照片右下方并覆盖其边缘，摄影内容按该独立裁切区域替换。",
+      "label": "独立方形眼部局部照片，显示人物一只眼睛、眉眼和部分鼻梁面部细",
+      "method": "local"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        161,
+        359,
+        206
+      ],
+      "description": "画布上方偏左的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "label": "画布上方偏左的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        331,
+        283,
+        367,
+        317
+      ],
+      "description": "左上区域的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "label": "左上区域的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_upper_middle",
+      "kind": "overlay",
+      "bbox": [
+        436,
+        269,
+        470,
+        304
+      ],
+      "description": "上方中部的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "label": "上方中部的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_middle",
+      "kind": "overlay",
+      "bbox": [
+        445,
+        381,
+        480,
+        414
+      ],
+      "description": "人物照片上方偏中的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "label": "人物照片上方偏中的深蓝色五角星固定装饰，独立显示于白色背景上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right_middle",
+      "kind": "overlay",
+      "bbox": [
+        742,
+        722,
+        770,
+        748
+      ],
+      "description": "城市照片下方、文字上方的小型深蓝色五角星固定装饰。",
+      "label": "城市照片下方、文字上方的小型深蓝色五角星固定装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        917,
+        1193,
+        951,
+        1228
+      ],
+      "description": "画布右下区域的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "label": "画布右下区域的深蓝色五角星固定装饰，独立显示于白色背景上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        660,
+        818,
+        918,
+        1118
+      ],
+      "description": "深蓝色粗体英文排版装饰，内容为“The” “sky” “is” “weeping”，四行纵向排列且各行水平位置错落，作为具有独立字词位置的整体固定设计保留。",
+      "label": "深蓝色粗体英文排版装饰，内容为“The” “sky” “is",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_portrait",
+    "photo_city_road",
+    "photo_eye_detail",
+    "overlay_red_squares",
+    "overlay_star_top",
+    "overlay_star_upper_left",
+    "overlay_star_upper_middle",
+    "overlay_star_middle",
+    "overlay_star_right_middle",
+    "overlay_star_bottom_right",
+    "overlay_title"
+  ]
+}

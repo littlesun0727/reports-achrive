@@ -1,0 +1,171 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_gallery_wall",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内展陈与装饰墙摄影场景覆盖整张画布，包含左侧粉色墙面与瓷瓶、中央马赛克墙、右侧大型彩绘陶瓷器物及下方展板，摄影环境延伸至四边；三张独立拍立得照片、文字和彩色装饰覆盖并遮挡局部背景，底图本身保留完整环境。",
+      "background_type": "photo",
+      "label": "连续的室内展陈与装饰墙摄影场景覆盖整张画布，包含左侧粉色墙面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        391,
+        93,
+        669,
+        439
+      ],
+      "description": "上方竖向人物照片，单人坐在彩色马赛克艺术墙前，人物位于画面中央偏下，正面朝向镜头；马赛克墙、座面和环境共同保留在矩形摄影窗口内。",
+      "label": "上方竖向人物照片，单人坐在彩色马赛克艺术墙前，人物位于画面中",
+      "method": "local"
+    },
+    {
+      "id": "frame_top",
+      "kind": "frame",
+      "bbox": [
+        359,
+        55,
+        688,
+        532
+      ],
+      "description": "略向左倾斜的浅粉色拍立得相纸框，带宽边和下方较宽留白，围绕上方人物照片形成独立窗口，完整保留纸张轮廓与倾斜后的边角。",
+      "photo_id": [
+        "photo_top"
+      ],
+      "label": "略向左倾斜的浅粉色拍立得相纸框，带宽边和下方较宽留白，围绕上",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        358,
+        498,
+        689,
+        878
+      ],
+      "description": "中部倾斜的人物照片，单人站在马赛克墙与浅色展陈背景前，身体朝右侧并略向镜头，照片内保留完整室内环境和人物全身范围。",
+      "label": "中部倾斜的人物照片，单人站在马赛克墙与浅色展陈背景前，身体朝",
+      "method": "local"
+    },
+    {
+      "id": "frame_middle",
+      "kind": "frame",
+      "bbox": [
+        327,
+        454,
+        734,
+        956
+      ],
+      "description": "向右下方倾斜的浅粉色拍立得相纸框，承载中部人物照片，具有宽边和下方留白；其上缘与上方相纸发生遮挡关系，完整保留框体外轮廓。",
+      "photo_id": [
+        "photo_middle"
+      ],
+      "label": "向右下方倾斜的浅粉色拍立得相纸框，承载中部人物照片，具有宽边",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        455,
+        1003,
+        691,
+        1354
+      ],
+      "description": "下方竖向街景人物照片，单人站在林荫街道中央，人物面向镜头并携带蓝色包，远处有树木、道路和建筑；照片窗口在画布下部完整可见但承载卡片延伸至画布底边。",
+      "label": "下方竖向街景人物照片，单人站在林荫街道中央，人物面向镜头并携",
+      "method": "local"
+    },
+    {
+      "id": "frame_bottom",
+      "kind": "frame",
+      "bbox": [
+        359,
+        962,
+        720,
+        1440
+      ],
+      "description": "向右下方倾斜的浅粉色拍立得相纸框，承载下方街景照片，带宽边和较宽下方留白；框体下缘延伸出画布并被画布边界裁切，保留所有可见纸张边角。",
+      "photo_id": [
+        "photo_bottom"
+      ],
+      "label": "向右下方倾斜的浅粉色拍立得相纸框，承载下方街景照片，带宽边和",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        53,
+        647,
+        332,
+        1413
+      ],
+      "description": "Wishing you\nto be the most\nwonderful version\nof yourself amidst\nthe blooming\nflowers.\nThe end of every\nwinter is a warm\nspring with\nblooming\nflowers.\nSome days you\nbloom,\nsome days\nyou grow roots.\nBoth matter.\nLife is ten\nthousand\nbeautiful spring\nscenery.",
+      "label": "Wishing you\nto be the most\nwon",
+      "method": "local",
+      "text": "Wishing you\nto be the most\nwonderful version\nof yourself amidst\nthe blooming\nflowers.\nThe end of every\nwinter is a warm\nspring with\nblooming\nflowers.\nSome days you\nbloom,\nsome days\nyou grow roots.\nBoth matter.\nLife is ten\nthousand\nbeautiful spring\nscenery.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_color_dots",
+      "kind": "overlay",
+      "bbox": [
+        92,
+        626,
+        291,
+        1415
+      ],
+      "description": "沿左侧英文引语分布的多枚彩色圆点装饰，包含粉色、绿色、黄色和红色小圆点，作为一组独立固定贴纸元素保留；部分圆点贴近或覆盖文字边缘。",
+      "label": "沿左侧英文引语分布的多枚彩色圆点装饰，包含粉色、绿色、黄色和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_white_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        137,
+        342,
+        887,
+        1015
+      ],
+      "description": "散布在三张相纸周围、左侧文字附近及右下区域的白色手绘星光、十字和小点装饰，作为独立固定装饰保留，部分标记位于照片与背景交界附近。",
+      "label": "散布在三张相纸周围、左侧文字附近及右下区域的白色手绘星光、十",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_gallery_wall",
+    "photo_top",
+    "frame_top",
+    "photo_middle",
+    "frame_middle",
+    "photo_bottom",
+    "frame_bottom",
+    "text_quote",
+    "overlay_color_dots",
+    "overlay_white_sparkles"
+  ]
+}

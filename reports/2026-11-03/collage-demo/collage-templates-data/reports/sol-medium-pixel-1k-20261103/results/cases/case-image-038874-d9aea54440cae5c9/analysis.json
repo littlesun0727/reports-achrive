@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "连续的俯拍甜点摄影画面覆盖整个画布，深色木桌延伸至四边，中央为装有奶油、水果和球状甜点的白色装饰盘；盘面、食物及桌面环境共同属于同一张照片，上层手写字样和涂鸦线条仅遮挡局部。",
+      "background_type": "photo",
+      "label": "连续的俯拍甜点摄影画面覆盖整个画布，深色木桌延伸至四边，中央",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_white_frame_lines",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        247,
+        1078,
+        1235
+      ],
+      "description": "围绕中央甜点盘绘制的多段白色手绘弧线与边框线，分布在画布上方、右侧及下方，作为同一组装饰性框景线条整体保留。",
+      "label": "围绕中央甜点盘绘制的多段白色手绘弧线与边框线，分布在画布上方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_handlettering",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        53,
+        1003,
+        342
+      ],
+      "description": "画面顶部的大组橙色与白色错位描边手写中文标题，具有粗笔刷和手绘字形效果，作为固定艺术字整体保留，不拆分为普通文字。",
+      "label": "画面顶部的大组橙色与白色错位描边手写中文标题，具有粗笔刷和手",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_upper",
+      "kind": "overlay",
+      "bbox": [
+        1010,
+        213,
+        1061,
+        310
+      ],
+      "description": "右上方独立的黄色、粉色和橙色手绘闪光星形贴纸装饰，轮廓与内部颜色整体保留。",
+      "label": "右上方独立的黄色、粉色和橙色手绘闪光星形贴纸装饰，轮廓与内部",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkle_middle",
+      "kind": "overlay",
+      "bbox": [
+        983,
+        363,
+        1036,
+        470
+      ],
+      "description": "右侧中部独立的黄色、粉色和橙色手绘闪光星形装饰，与上方闪光图案分开显示，作为独立固定单元保留。",
+      "label": "右侧中部独立的黄色、粉色和橙色手绘闪光星形装饰，与上方闪光图",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_handlettering",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        1065,
+        1037,
+        1419
+      ],
+      "description": "画面底部的大组橙色与白色错位描边手写中文宣传字样，包含末尾感叹号，具有统一的粗笔刷艺术字效果，作为整体装饰保留。",
+      "label": "画面底部的大组橙色与白色错位描边手写中文宣传字样，包含末尾感",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_white_frame_lines",
+    "overlay_top_handlettering",
+    "overlay_sparkle_upper",
+    "overlay_sparkle_middle",
+    "overlay_bottom_handlettering"
+  ]
+}

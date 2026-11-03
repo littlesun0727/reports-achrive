@@ -1,0 +1,237 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内窗边摄影画面覆盖全画布，包含阳光下的水面、窗框、两把椅子、木桌、冰橙汁玻璃瓶、吸管、搅拌棒和橙子片；场景从四边延伸并在局部被白色手写标注遮挡，摄影环境与主体整体作为可替换底图保留。",
+      "background_type": "photo",
+      "label": "连续的室内窗边摄影画面覆盖全画布，包含阳光下的水面、窗框、两",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_sunlight_note",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        28,
+        232,
+        275
+      ],
+      "description": "左上角白色手写标注“今天的光 很温柔”，包含太阳涂鸦、弧形箭头和虚线指向水面，作为一组独立固定装饰保留。",
+      "label": "左上角白色手写标注“今天的光 很温柔”，包含太阳涂鸦、弧形箭",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fountain_note",
+      "kind": "overlay",
+      "bbox": [
+        468,
+        226,
+        580,
+        354
+      ],
+      "description": "水面上方关于喷泉的白色手写说明“小喷泉 咕噜噜泡泡 好治愈~”，带箭头指向中央水柱，文字与线条作为一组固定标注保留。",
+      "label": "水面上方关于喷泉的白色手写说明“小喷泉 咕噜噜泡泡 好治愈~",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_window_note",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        50,
+        1079,
+        190
+      ],
+      "description": "右上角关于窗边位置的白色手写说明，包含“窗边位置 很安静 适合发呆♡”及左向虚线箭头，作为独立固定标注保留。",
+      "label": "右上角关于窗边位置的白色手写说明，包含“窗边位置 很安静 适",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_water_note",
+      "kind": "overlay",
+      "bbox": [
+        149,
+        477,
+        305,
+        625
+      ],
+      "description": "左侧椅面上的白色手写说明“水面亮晶晶的 像撒了一把星星”，包含弯曲箭头和小装饰线，作为一组固定标注保留。",
+      "label": "左侧椅面上的白色手写说明“水面亮晶晶的 像撒了一把星星”，包",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chair_note",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        707,
+        287,
+        847
+      ],
+      "description": "左下椅面上的白色手写说明“这把椅子 有种空空的 松弛感”，带左向箭头和笑脸符号，作为一组独立固定标注保留。",
+      "label": "左下椅面上的白色手写说明“这把椅子 有种空空的 松弛感”，带",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_straw_note",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        284,
+        780,
+        446
+      ],
+      "description": "右侧椅背上的白色手写说明“粗吸管 超好吸~”，带弯曲箭头指向玻璃瓶中的浅色吸管，文字与箭头作为固定装饰保留。",
+      "label": "右侧椅背上的白色手写说明“粗吸管 超好吸~”，带弯曲箭头指向",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stirrer_note",
+      "kind": "overlay",
+      "bbox": [
+        853,
+        523,
+        1033,
+        654
+      ],
+      "description": "右侧关于搅拌棒的白色手写说明“搅拌棒 小帮手!”，带虚线箭头指向深色搅拌棒，作为独立固定标注保留。",
+      "label": "右侧关于搅拌棒的白色手写说明“搅拌棒 小帮手!”，带虚线箭头",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_orange_note",
+      "kind": "overlay",
+      "bbox": [
+        857,
+        796,
+        1055,
+        955
+      ],
+      "description": "右侧关于橙子片的白色手写说明“橙子片 点点果香 刚刚好~”，带箭头和切片图标指向饮料中的橙子片，作为一组固定标注保留。",
+      "label": "右侧关于橙子片的白色手写说明“橙子片 点点果香 刚刚好~”，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ice_note",
+      "kind": "overlay",
+      "bbox": [
+        417,
+        838,
+        572,
+        965
+      ],
+      "description": "玻璃瓶左侧关于冰块的白色手写说明“冰块 清清爽爽 超解渴!”，带箭头指向饮料中的冰块，作为独立固定标注保留。",
+      "label": "玻璃瓶左侧关于冰块的白色手写说明“冰块 清清爽爽 超解渴!”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottle_note",
+      "kind": "overlay",
+      "bbox": [
+        507,
+        1030,
+        904,
+        1268
+      ],
+      "description": "橙汁瓶身上的白色手写说明“这瓶橙子汽水 冰冰的、甜甜的 很适合现在!”，包含爱心、箭头和下方弯线，作为一组覆盖摄影画面的固定标注保留。",
+      "label": "橙汁瓶身上的白色手写说明“这瓶橙子汽水 冰冰的、甜甜的 很适",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_table_note",
+      "kind": "overlay",
+      "bbox": [
+        957,
+        1150,
+        1079,
+        1320
+      ],
+      "description": "右下角关于木桌的白色手写说明“木桌面 晒着太阳 暖暖的~”，带箭头和笑脸符号，作为独立固定标注保留。",
+      "label": "右下角关于木桌的白色手写说明“木桌面 晒着太阳 暖暖的~”，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_item_list",
+      "kind": "overlay",
+      "bbox": [
+        21,
+        981,
+        315,
+        1336
+      ],
+      "description": "左下角白色手绘圆角清单框，标题为“画面里的东西”，列出橙子汽水、果汁、冰块、喷泉、吸管、椅子、搅拌棒、桌子、橙子片、阳光和水面亮点；框线、分隔线、项目符号及底部爱心作为完整固定单元保留。",
+      "label": "左下角白色手绘圆角清单框，标题为“画面里的东西”，列出橙子汽",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        459,
+        486,
+        558,
+        606
+      ],
+      "description": "水面中央偏左的白色闪光、星星和小爱心装饰，独立叠加在摄影画面上，作为一组固定手绘点缀保留。",
+      "label": "水面中央偏左的白色闪光、星星和小爱心装饰，独立叠加在摄影画面",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_slogan",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        1350,
+        914,
+        1439
+      ],
+      "description": "画布底部白色手写生活感文案“一个人静静坐着，看光看水，心也慢慢静下来啦~”，带左右爱心和下方横线，作为独立固定装饰保留。",
+      "label": "画布底部白色手写生活感文案“一个人静静坐着，看光看水，心也慢",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_smiley",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        1360,
+        214,
+        1439
+      ],
+      "description": "底部左侧白色手绘笑脸及两枚小爱心装饰，与底部文案相邻但轮廓独立，作为独立固定点缀保留。",
+      "label": "底部左侧白色手绘笑脸及两枚小爱心装饰，与底部文案相邻但轮廓独",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_sunlight_note",
+    "overlay_fountain_note",
+    "overlay_window_note",
+    "overlay_water_note",
+    "overlay_chair_note",
+    "overlay_straw_note",
+    "overlay_stirrer_note",
+    "overlay_orange_note",
+    "overlay_ice_note",
+    "overlay_bottle_note",
+    "overlay_table_note",
+    "overlay_item_list",
+    "overlay_sparkles",
+    "overlay_bottom_slogan",
+    "overlay_bottom_smiley"
+  ]
+}

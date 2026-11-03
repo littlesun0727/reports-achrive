@@ -1,0 +1,181 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_beach_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的海滩摄影画面覆盖整张画布，包含上方灰蓝天空、中部海面与远处海岸线、下方湿沙和远处行人；画面延伸至四边。三张独立照片、手写字样和涂鸦覆盖其局部，底层海滩环境作为整体替换。",
+      "background_type": "photo",
+      "label": "连续的海滩摄影画面覆盖整张画布，包含上方灰蓝天空、中部海面与",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_beach_huts",
+      "kind": "photo",
+      "bbox": [
+        97,
+        359,
+        716,
+        772
+      ],
+      "description": "横向海滩照片，远处有低矮海边建筑、沙地、海岸植被和天空，画面中部可见一根高杆；完整矩形照片窗口，部分被手绘线条和右上方文字遮挡。",
+      "label": "横向海滩照片，远处有低矮海边建筑、沙地、海岸植被和天空，画面",
+      "method": "local"
+    },
+    {
+      "id": "photo_shadow_pair",
+      "kind": "photo",
+      "bbox": [
+        468,
+        657,
+        939,
+        971
+      ],
+      "description": "横向沙滩照片，浅色沙地上出现两个人的并列影子，其中一人举手比出手势；照片带有明显闪光星芒效果，完整矩形区域被保留，右下附近叠有蓝色星星涂鸦。",
+      "label": "横向沙滩照片，浅色沙地上出现两个人的并列影子，其中一人举手比",
+      "method": "local"
+    },
+    {
+      "id": "photo_feet_on_sand",
+      "kind": "photo",
+      "bbox": [
+        164,
+        869,
+        710,
+        1233
+      ],
+      "description": "俯拍沙地照片，画面下方可见穿黑色长裤和红白鞋的人双脚，右下有一件绿色与红色物件，沙面布满鞋印和脚印；完整矩形照片压在其他海滩画面上。",
+      "label": "俯拍沙地照片，画面下方可见穿黑色长裤和红白鞋的人双脚，右下有",
+      "method": "local"
+    },
+    {
+      "id": "overlay_face_line",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        273,
+        272,
+        566
+      ],
+      "description": "白色连续手绘人脸轮廓线，从额头、鼻梁、嘴唇延伸至下巴和颈部，跨越背景与上方海滩照片，作为独立线稿装饰保留。",
+      "label": "白色连续手绘人脸轮廓线，从额头、鼻梁、嘴唇延伸至下巴和颈部，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        171,
+        875,
+        620
+      ],
+      "description": "右上区域的蓝紫色手写艺术字，分多行排列，内容可辨为“I like the flowers / in spring, / the wind / in summer, / the dusk / in autumn, / the sun / in winter, / and you / every day.”；字形带有手写笔触和局部半透明效果，作为完整装饰保留。",
+      "label": "右上区域的蓝紫色手写艺术字，分多行排列，内容可辨为“I li",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_cyan",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        170,
+        130,
+        204
+      ],
+      "description": "左上方的小型青色手绘空心爱心，独立漂浮在天空区域。",
+      "label": "左上方的小型青色手绘空心爱心，独立漂浮在天空区域。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_pink",
+      "kind": "overlay",
+      "bbox": [
+        950,
+        224,
+        984,
+        255
+      ],
+      "description": "右上方的小型粉色手绘空心爱心，独立漂浮在文字右侧。",
+      "label": "右上方的小型粉色手绘空心爱心，独立漂浮在文字右侧。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_purple",
+      "kind": "overlay",
+      "bbox": [
+        972,
+        544,
+        1007,
+        579
+      ],
+      "description": "右侧中部的小型淡紫色手绘空心爱心，位于文字和海滩背景旁。",
+      "label": "右侧中部的小型淡紫色手绘空心爱心，位于文字和海滩背景旁。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_heart_yellow",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        953,
+        134,
+        1004
+      ],
+      "description": "左下方的黄色手绘空心爱心，带略不规则的手绘轮廓，位于背景沙滩区域。",
+      "label": "左下方的黄色手绘空心爱心，带略不规则的手绘轮廓，位于背景沙滩",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_stars",
+      "kind": "overlay",
+      "bbox": [
+        841,
+        789,
+        985,
+        855
+      ],
+      "description": "中右部叠在影子照片上的一组蓝色手绘星星及短线装饰，由一颗较大的五角星和右侧较小星形组成，作为同一组固定涂鸦保留。",
+      "label": "中右部叠在影子照片上的一组蓝色手绘星星及短线装饰，由一颗较大",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_color_confetti",
+      "kind": "overlay",
+      "bbox": [
+        762,
+        970,
+        915,
+        1102
+      ],
+      "description": "影子照片右下方及其下方背景上的多色散落点状和短线彩色装饰，包含黄、绿、蓝、粉等颜色，作为独立的彩色涂鸦簇保留。",
+      "label": "影子照片右下方及其下方背景上的多色散落点状和短线彩色装饰，包",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_beach_base",
+    "photo_beach_huts",
+    "photo_shadow_pair",
+    "photo_feet_on_sand",
+    "overlay_face_line",
+    "overlay_handwriting",
+    "overlay_heart_cyan",
+    "overlay_heart_pink",
+    "overlay_heart_purple",
+    "overlay_heart_yellow",
+    "overlay_blue_stars",
+    "overlay_color_confetti"
+  ]
+}

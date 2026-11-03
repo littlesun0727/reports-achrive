@@ -1,0 +1,209 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "stationery_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为浅米色纸张纹理与蓝色手绘信封结构，底部信封口和两侧蓝色纸片延伸至画布边缘；中央白色页面、照片、文字及贴纸覆盖其上。保留纸纹、信封和边缘装订孔等固定底图，不包含独立页面内容。",
+      "background_type": "reference_clean",
+      "label": "全画布为浅米色纸张纹理与蓝色手绘信封结构，底部信封口和两侧蓝",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "page_panel",
+      "kind": "overlay",
+      "bbox": [
+        84,
+        47,
+        990,
+        1290
+      ],
+      "description": "中央大型白色圆角纸页，带顶部细线、星形点缀和横向手绘分隔线；作为独立固定页面底板保留，承接标题与下方照片构图，底部部分被前景信封遮挡。",
+      "label": "中央大型白色圆角纸页，带顶部细线、星形点缀和横向手绘分隔线；",
+      "method": "extract"
+    },
+    {
+      "id": "title_art",
+      "kind": "overlay",
+      "bbox": [
+        251,
+        151,
+        832,
+        469
+      ],
+      "description": "页面上方的大型棕色中文艺术字“生活灵感预报”，笔画粗大且具有手写造型；右侧有“FORECAST.”，左上有红色“小红书 VLOG”胶囊标识，左侧有两行斜体“LIFE. / INSPIRATION.”。这些字样与标题共同构成固定排版设计，整体保留。",
+      "label": "页面上方的大型棕色中文艺术字“生活灵感预报”，笔画粗大且具有",
+      "method": "extract"
+    },
+    {
+      "id": "subtitle_strip",
+      "kind": "overlay",
+      "bbox": [
+        142,
+        455,
+        691,
+        535
+      ],
+      "description": "标题下方的浅灰蓝色不规则笔刷横条，带蓝色“Vol.2”、黑色“#liveplog”和蓝色中文“生活随记”，字形与底纹共同构成一体的副标题装饰。",
+      "label": "标题下方的浅灰蓝色不规则笔刷横条，带蓝色“Vol.2”、黑色",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_camera_top",
+      "kind": "overlay",
+      "bbox": [
+        712,
+        145,
+        843,
+        254
+      ],
+      "description": "页面右上方的蓝灰色摄像机贴纸，带蓝色齿状邮票边和浅色内框，整体作为独立固定插图保留。",
+      "label": "页面右上方的蓝灰色摄像机贴纸，带蓝色齿状邮票边和浅色内框，整",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_plane",
+      "kind": "overlay",
+      "bbox": [
+        830,
+        219,
+        897,
+        283
+      ],
+      "description": "右上方小型蓝白纸飞机贴纸，带邮票式浅蓝边框和短虚线装饰，作为独立单元保留。",
+      "label": "右上方小型蓝白纸飞机贴纸，带邮票式浅蓝边框和短虚线装饰，作为",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_megaphone",
+      "kind": "overlay",
+      "bbox": [
+        128,
+        319,
+        228,
+        423
+      ],
+      "description": "页面左侧蓝色邮票边框内的扩音器插画，周围有少量浅色手绘点线装饰，作为一个完整贴纸单元保留。",
+      "label": "页面左侧蓝色邮票边框内的扩音器插画，周围有少量浅色手绘点线装",
+      "method": "extract"
+    },
+    {
+      "id": "sticker_small_camera",
+      "kind": "overlay",
+      "bbox": [
+        185,
+        259,
+        224,
+        312
+      ],
+      "description": "页面左上标题旁的小型蓝边相机贴纸，保留相机图案与窄邮票边框。",
+      "label": "页面左上标题旁的小型蓝边相机贴纸，保留相机图案与窄邮票边框。",
+      "method": "extract"
+    },
+    {
+      "id": "camera_card",
+      "kind": "overlay",
+      "bbox": [
+        848,
+        328,
+        1056,
+        561
+      ],
+      "description": "页面右侧倾斜的浅蓝白色相机图案卡片，含复古摄像机插画、右上星形和蓝色虚线；上方有蓝色图钉，卡片下缘有黄色弯角，整体为独立装饰单元。",
+      "label": "页面右侧倾斜的浅蓝白色相机图案卡片，含复古摄像机插画、右上星",
+      "method": "extract"
+    },
+    {
+      "id": "photo_park",
+      "kind": "photo",
+      "bbox": [
+        315,
+        578,
+        950,
+        1245
+      ],
+      "description": "下半部竖向公园照片，可见树木、草地与道路环境，画面上缘露出树干和绿叶，右侧及下部露出公园景色；完整照片区域被前方倾斜的黑色视频画面和底部信封局部遮挡。",
+      "label": "下半部竖向公园照片，可见树木、草地与道路环境，画面上缘露出树",
+      "method": "local"
+    },
+    {
+      "id": "photo_video",
+      "kind": "photo",
+      "bbox": [
+        205,
+        590,
+        854,
+        1440
+      ],
+      "description": "前景倾斜的黑色竖向视频截图，画面中有树荫下的道路、远处行人和右侧围墙，顶部含“LIVE”界面字样，底部有多行中文字幕；这些内容均随该截图作为摄影画面整体替换。左上及两侧边缘覆盖后方公园照片，底部被信封遮挡。",
+      "label": "前景倾斜的黑色竖向视频截图，画面中有树荫下的道路、远处行人和",
+      "method": "local"
+    },
+    {
+      "id": "to_label",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        1125,
+        250,
+        1157
+      ],
+      "description": "视频画面左侧露出的棕色手写“To:”字样及点状笔迹，作为独立固定字样保留。",
+      "label": "视频画面左侧露出的棕色手写“To:”字样及点状笔迹，作为独立",
+      "method": "extract"
+    },
+    {
+      "id": "envelope_foreground",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        914,
+        1080,
+        1440
+      ],
+      "description": "画面底部的大型浅蓝色手绘信封前景，含左右折角、交叠纸片、深色轮廓线和右侧黄色内边；覆盖白色页面及两张照片的下部，整体作为固定装饰结构保留。",
+      "label": "画面底部的大型浅蓝色手绘信封前景，含左右折角、交叠纸片、深色",
+      "method": "extract"
+    },
+    {
+      "id": "wax_seal",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        1356,
+        619,
+        1440
+      ],
+      "description": "画布底边中央可见的圆形黄色信封封蜡装饰，带浅色描边，部分延伸出画布下缘，作为信封前景上的独立固定单元保留。",
+      "label": "画布底边中央可见的圆形黄色信封封蜡装饰，带浅色描边，部分延伸",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "stationery_background",
+    "page_panel",
+    "photo_park",
+    "title_art",
+    "subtitle_strip",
+    "sticker_small_camera",
+    "sticker_megaphone",
+    "sticker_camera_top",
+    "sticker_plane",
+    "camera_card",
+    "photo_video",
+    "to_label",
+    "envelope_foreground",
+    "wax_seal"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#0B0908"
+      }
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        0,
+        668,
+        1080,
+        1440
+      ],
+      "description": "画布下半部的横向餐桌照片，近景可见多道菜肴、铜锅、餐盘和饮品，后方有暗色室内环境；完整显示区域从约 y=668 延伸至画布底边，顶部与深色底面相接，左右边缘延伸至画布边缘。摄影环境保留在照片内，无独立框体。",
+      "label": "画布下半部的横向餐桌照片，近景可见多道菜肴、铜锅、餐盘和饮品",
+      "method": "local"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        378,
+        231,
+        702,
+        264
+      ],
+      "description": "Record my daily life",
+      "label": "Record my daily life",
+      "method": "local",
+      "text": "Record my daily life",
+      "text_status": "known",
+      "style": {
+        "fill": "#E8E5E3",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        483,
+        326,
+        597,
+        354
+      ],
+      "description": "12:30am",
+      "label": "12:30am",
+      "method": "local",
+      "text": "12:30am",
+      "text_status": "known",
+      "style": {
+        "fill": "#E8E5E3",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        304,
+        424,
+        777,
+        455
+      ],
+      "description": "每周吃一次漂亮饭·发现野果还挺好吃",
+      "label": "每周吃一次漂亮饭·发现野果还挺好吃",
+      "method": "local",
+      "text": "每周吃一次漂亮饭·发现野果还挺好吃",
+      "text_status": "known",
+      "style": {
+        "fill": "#F0EFED",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_food",
+    "text_title",
+    "text_time",
+    "text_caption"
+  ]
+}

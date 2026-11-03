@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        469
+      ],
+      "description": "顶部独立横向摄影区域，包含蓝天白云、城市高楼和坐姿女性上半身，画面延伸至左右画布边缘；下缘被白色分隔带和跨区女性主体局部遮挡。",
+      "label": "顶部独立横向摄影区域，包含蓝天白云、城市高楼和坐姿女性上半身",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        485,
+        1080,
+        954
+      ],
+      "description": "中部独立横向摄影区域，主体为蓝天下的弧形砖石建筑，建筑从下方中央向右上方延伸，左右边缘铺满该显示区域；上缘和下缘由白色分隔带限定，部分建筑被前景女性主体遮挡。",
+      "label": "中部独立横向摄影区域，主体为蓝天下的弧形砖石建筑，建筑从下方",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        970,
+        1080,
+        1440
+      ],
+      "description": "底部独立横向摄影区域，显示女性近距离面部、编发和粉色条纹服装，背景为建筑立面与蓝天；照片完整延伸至左右及画布下边缘，上缘由白色分隔带限定。",
+      "label": "底部独立横向摄影区域，显示女性近距离面部、编发和粉色条纹服装",
+      "method": "local"
+    },
+    {
+      "id": "overlay_divider_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        469,
+        1080,
+        485
+      ],
+      "description": "横贯画布的白色水平分隔带，位于顶部照片与中部照片之间；女性跨区主体在其上方遮挡分隔带的局部区域。",
+      "label": "横贯画布的白色水平分隔带，位于顶部照片与中部照片之间；女性跨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_divider_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        954,
+        1080,
+        970
+      ],
+      "description": "横贯画布的白色水平分隔带，位于中部照片与底部照片之间，作为固定拼贴结构保留。",
+      "label": "横贯画布的白色水平分隔带，位于中部照片与底部照片之间，作为固",
+      "method": "extract"
+    },
+    {
+      "id": "photo_foreground_woman",
+      "kind": "photo",
+      "bbox": [
+        264,
+        157,
+        747,
+        767
+      ],
+      "description": "从顶部摄影区域延伸出的同一位女性主体，包含头部、粉色上衣、蓝色腰部服装、米色裙装、灰色长袜和黑色鞋，身体从顶部照片内跨过上方白色分隔带并覆盖中部建筑照片；按主体轮廓显示，环境在其延伸区域不保留。",
+      "linked_to": "photo_top",
+      "label": "从顶部摄影区域延伸出的同一位女性主体，包含头部、粉色上衣、蓝",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "overlay_divider_top",
+    "overlay_divider_bottom",
+    "photo_foreground_woman"
+  ]
+}

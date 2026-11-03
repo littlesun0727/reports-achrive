@@ -1,0 +1,181 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        35,
+        36,
+        307,
+        226
+      ],
+      "description": "左上方横向海岸摄影照片，显示蓝色湖海、水岸、远处山体和下缘道路护栏，完整矩形照片区域独立替换。"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        325,
+        36,
+        865,
+        793
+      ],
+      "description": "中央纵向湖畔道路摄影照片，包含蓝色湖面、远山、风车、树木、护栏、道路和一辆车辆，摄影环境完整保留并作为独立矩形照片替换。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        884,
+        266,
+        1155,
+        455
+      ],
+      "description": "右上方横向湖山摄影照片，显示湖面、远山、岸边建筑和船只，完整矩形照片区域独立替换。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        884,
+        473,
+        1155,
+        793
+      ],
+      "description": "右下方纵向湖面摄影照片，显示湖水、成群水鸟、岸边树木和倒影，完整矩形照片区域独立替换。"
+    },
+    {
+      "id": "overlay_left_quote",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        334,
+        53,
+        348
+      ],
+      "description": "标题左侧的黑色装饰性中文引号，具有独立笔画造型，作为固定艺术装饰保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        36,
+        359,
+        270,
+        386
+      ],
+      "text": "苍山洱海｜风花雪月",
+      "color": "#222222",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        37,
+        397,
+        171,
+        424
+      ],
+      "text": "Dali a city\nin Yunnan province",
+      "color": "#333333",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_right_quote",
+      "kind": "overlay",
+      "bbox": [
+        280,
+        380,
+        298,
+        395
+      ],
+      "description": "标题右侧的黑色装饰性中文引号，具有独立笔画造型，作为固定艺术装饰保留。"
+    },
+    {
+      "id": "overlay_red_seal",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        431,
+        56,
+        465
+      ],
+      "description": "标题下方的红色篆刻印章图形，包含白色印文和不规则印面边缘，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        36,
+        481,
+        283,
+        608
+      ],
+      "text": "“苍山为证，洱海为凭”，大理像漂浮在现实之外的乌托邦，是多少人梦开始的地方。如诗如画的洱海，是天下旅客的心之所向，人们爱它的温柔，更爱它的自由。骑一辆单车，或是一租电动车、驾一辆车，沿着洱海路一路慢慢地行驶。在阳光明媚的日子与苍山洱海的美，来一场不期而遇。",
+      "color": "#333333",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_page_left",
+      "kind": "text",
+      "bbox": [
+        292,
+        813,
+        304,
+        824
+      ],
+      "text": "10",
+      "color": "#222222",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_page_right",
+      "kind": "text",
+      "bbox": [
+        894,
+        813,
+        906,
+        824
+      ],
+      "text": "11",
+      "color": "#222222",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_upper_left",
+    "photo_center",
+    "photo_upper_right",
+    "photo_lower_right",
+    "overlay_left_quote",
+    "text_title",
+    "text_subtitle",
+    "overlay_right_quote",
+    "overlay_red_seal",
+    "text_body",
+    "text_page_left",
+    "text_page_right"
+  ]
+}

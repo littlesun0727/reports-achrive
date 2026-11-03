@@ -1,0 +1,71 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的暖白色纸张底图覆盖整个画布，底部大面积留白及照片与中央图像周围的纸面保持相同的细微纸纹；上方照片、中央图像和文字作为独立单元叠加其上，纸底本身保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_scene",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        659
+      ],
+      "description": "横向夕阳水镇摄影画面，包含拱桥、桥上行人、垂柳、传统屋顶建筑和右上方多层塔楼，完整显示区域横跨画布全宽并在下缘形成水平裁切；摄影环境随客户素材替换。"
+    },
+    {
+      "id": "photo_center_scene",
+      "kind": "photo",
+      "bbox": [
+        310,
+        805,
+        773,
+        1091
+      ],
+      "description": "中央独立的桥梁与水镇场景图像，包含拱桥、桥上栏杆、垂柳、亭台建筑和高塔，采用浅色褪印效果并沿四周柔化、渐隐在纸底上；作为独立摄影内容替换，完整显示范围按图像外缘保留。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        465,
+        1200,
+        617,
+        1221
+      ],
+      "text": "WATER TOWN",
+      "color": "#55504A",
+      "font": "mono",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        382,
+        1245,
+        700,
+        1267
+      ],
+      "text": "bridge / sunset / history",
+      "color": "#69635C",
+      "font": "mono",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top_scene",
+    "photo_center_scene",
+    "text_title",
+    "text_subtitle"
+  ]
+}

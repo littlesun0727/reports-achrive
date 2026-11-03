@@ -1,0 +1,394 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1501
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1501
+      ],
+      "description": "无人咖啡店墙面摄影底图，灰色水泥墙、纵横木梁及中央带有HAN NAMDONG字样的店牌构成连续场景，摄影纹理延伸至画布四边。上层人物照片、店内细节照片和手绘装饰遮挡局部；墙面、木梁、实拍店牌及其文字共同随底图替换。",
+      "background_type": "photo",
+      "label": "无人咖啡店墙面摄影底图，灰色水泥墙、纵横木梁及中央带有HAN",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_seated",
+      "kind": "photo",
+      "bbox": [
+        177,
+        225,
+        510,
+        605
+      ],
+      "description": "一名长发女子坐在咖啡店门前台阶上，正面朝向镜头，穿灰色短袖、黑色长裤及白鞋，双手放在腿间。矩形照片保留门窗、室内顾客、植物、花盆和台阶环境，外围另有白色手绘笔记本框及叠加装饰。",
+      "label": "一名长发女子坐在咖啡店门前台阶上，正面朝向镜头，穿灰色短袖、",
+      "method": "local"
+    },
+    {
+      "id": "frame_notebook",
+      "kind": "frame",
+      "bbox": [
+        133,
+        198,
+        513,
+        619
+      ],
+      "description": "承载左上人物照片的白色粉笔质感笔记本框，包含不规则四周框沿和左侧连续装订环圈；框沿压在照片边缘，整套笔记本造型保留。",
+      "photo_id": [
+        "photo_seated"
+      ],
+      "label": "承载左上人物照片的白色粉笔质感笔记本框，包含不规则四周框沿和",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cafe_window",
+      "kind": "photo",
+      "bbox": [
+        579,
+        118,
+        817,
+        357
+      ],
+      "description": "上方独立矩形咖啡店橱窗照片，窗内有暖色吊灯、木质背景及局部人物身影，下部为一排粉色盆栽、白色窗帘和灰色窗台。保留完整摄影环境，与其他照片取景独立。",
+      "label": "上方独立矩形咖啡店橱窗照片，窗内有暖色吊灯、木质背景及局部人",
+      "method": "local"
+    },
+    {
+      "id": "photo_cafe_sign",
+      "kind": "photo",
+      "bbox": [
+        156,
+        711,
+        370,
+        957
+      ],
+      "description": "左侧中部竖向矩形店牌近景，灰色墙上挂有带杯子图案及HANNAMDONG字样的金属牌，右侧露出绿色植物。牌面文字、墙壁与植物均属于摄影内容，上方左侧被蛋糕手绘装饰遮挡。",
+      "label": "左侧中部竖向矩形店牌近景，灰色墙上挂有带杯子图案及HANNA",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        549,
+        484,
+        1036,
+        845
+      ],
+      "description": "银色托盘上放有两杯冰咖啡、小圆木盘上的两枚甜点及条纹吸管，斜向俯拍。沿托盘、杯子及完整食物组合外轮廓显示，外部摄影背景不再可见，外围有浅蓝手绘描边；左下部分被独立相机照片遮挡。",
+      "label": "银色托盘上放有两杯冰咖啡、小圆木盘上的两枚甜点及条纹吸管，斜",
+      "method": "local"
+    },
+    {
+      "id": "photo_camera",
+      "kind": "photo",
+      "bbox": [
+        517,
+        702,
+        771,
+        874
+      ],
+      "description": "黑色小型相机横放，机身上可见OLYMPUS字样，右侧腕带向下弯曲垂落。机身与完整腕带共同沿轮廓显示，外部摄影背景不见，外围带浅蓝手绘描边，覆盖托盘照片的左下沿。",
+      "label": "黑色小型相机横放，机身上可见OLYMPUS字样，右侧腕带向下",
+      "method": "local"
+    },
+    {
+      "id": "photo_fan",
+      "kind": "photo",
+      "bbox": [
+        420,
+        850,
+        699,
+        1079
+      ],
+      "description": "心形窗口中的咖啡店桌面细节照片，包含金属小风扇、木质台面、纸巾及容器，右下露出一面小镜子。保留窗口内摄影环境，心形边缘带不规则白色粉笔描边，不按风扇主体去背景。",
+      "label": "心形窗口中的咖啡店桌面细节照片，包含金属小风扇、木质台面、纸",
+      "method": "local"
+    },
+    {
+      "id": "photo_standing",
+      "kind": "photo",
+      "bbox": [
+        241,
+        991,
+        509,
+        1344
+      ],
+      "description": "下方竖向矩形全身照片，一名长发女子正面站在咖啡店外，穿灰色短袖、黑色长裤和白鞋，肩背白色包，一手扶肩带。完整保留橱窗、盆栽、长凳与铺砖地面，上方左角被白色花朵装饰遮挡。",
+      "label": "下方竖向矩形全身照片，一名长发女子正面站在咖啡店外，穿灰色短",
+      "method": "local"
+    },
+    {
+      "id": "overlay_location",
+      "kind": "overlay",
+      "bbox": [
+        668,
+        25,
+        1044,
+        103
+      ],
+      "description": "浅蓝手写地点标题，由定位针图案及“汉南洞café”字样组成；笔画大小、间距和字形不规则，作为完整艺术字装饰保留。",
+      "label": "浅蓝手写地点标题，由定位针图案及“汉南洞café”字样组成；",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_flower",
+      "kind": "overlay",
+      "bbox": [
+        239,
+        92,
+        298,
+        152
+      ],
+      "description": "上部独立小花涂鸦，深棕色环形花瓣笔画配不规则白色底边，整体保留。",
+      "label": "上部独立小花涂鸦，深棕色环形花瓣笔画配不规则白色底边，整体保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_book",
+      "kind": "overlay",
+      "bbox": [
+        59,
+        160,
+        212,
+        258
+      ],
+      "description": "白色打开的书本贴纸，深棕色手绘书页与封面线条构成完整图案，叠在人物照片框的左上角。",
+      "label": "白色打开的书本贴纸，深棕色手绘书页与封面线条构成完整图案，叠",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hearts",
+      "kind": "overlay",
+      "bbox": [
+        521,
+        113,
+        680,
+        176
+      ],
+      "description": "四枚相连排列的白色爱心涂鸦，大小不同，带深棕色轮廓，整体横跨上方橱窗照片的左上沿。",
+      "label": "四枚相连排列的白色爱心涂鸦，大小不同，带深棕色轮廓，整体横跨",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hi",
+      "kind": "overlay",
+      "bbox": [
+        222,
+        299,
+        303,
+        364
+      ],
+      "description": "人物照片左上部的白色手绘对话气泡，深棕轮廓及短尾巴，内部写有“Hi”，字与气泡整体保留。",
+      "label": "人物照片左上部的白色手绘对话气泡，深棕轮廓及短尾巴，内部写有",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee_beans",
+      "kind": "overlay",
+      "bbox": [
+        469,
+        428,
+        608,
+        516
+      ],
+      "description": "人物照片右侧一簇深棕色咖啡豆涂鸦，含白色分割线、两枚白底线描小豆及旁边细小笔画，作为同一完整装饰保留。",
+      "label": "人物照片右侧一簇深棕色咖啡豆涂鸦，含白色分割线、两枚白底线描",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_diary",
+      "kind": "overlay",
+      "bbox": [
+        692,
+        302,
+        995,
+        465
+      ],
+      "description": "粉色不规则艺术字“DiAry”，带白色粗轮廓；周围配有粉色螺旋、左下粉色星形及右上白色星形，组成完整标题设计。",
+      "label": "粉色不规则艺术字“DiAry”，带白色粗轮廓；周围配有粉色螺",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drink_caption",
+      "kind": "overlay",
+      "bbox": [
+        898,
+        460,
+        1054,
+        529
+      ],
+      "description": "饮品上方浅蓝手写“苹果美式”及向左下盘旋的引导笔画，字形与引导线作为完整注释装饰保留。",
+      "label": "饮品上方浅蓝手写“苹果美式”及向左下盘旋的引导笔画，字形与引",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cake",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        717,
+        231,
+        814
+      ],
+      "description": "白底深棕线描的圆形蛋糕与椭圆餐盘，蛋糕侧面有深棕填色，上沿附小装饰，整体压住左侧店牌照片上部。",
+      "label": "白底深棕线描的圆形蛋糕与椭圆餐盘，蛋糕侧面有深棕填色，上沿附",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_icon_row",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        844,
+        1020,
+        902
+      ],
+      "description": "横向白色粉笔涂鸦图标组，包含菱形符号、相机、爱心和笑脸，周围附短线与小点，作为完整一组保留。",
+      "label": "横向白色粉笔涂鸦图标组，包含菱形符号、相机、爱心和笑脸，周围",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_flower",
+      "kind": "overlay",
+      "bbox": [
+        191,
+        968,
+        261,
+        1048
+      ],
+      "description": "下方人物照片左上角叠贴的白色花朵，中心与花瓣为深棕色手绘线条，不规则白色外形整体保留。",
+      "label": "下方人物照片左上角叠贴的白色花朵，中心与花瓣为深棕色手绘线条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cleanfit",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        1095,
+        210,
+        1179
+      ],
+      "description": "浅蓝手写“#cleanfit”与下一行偏右的“today”，笔画及两行位置具有独特涂鸦排版，作为完整艺术字保留。",
+      "label": "浅蓝手写“#cleanfit”与下一行偏右的“today”，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ootd",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        1107,
+        649,
+        1168
+      ],
+      "description": "白色手写“Ootd”，左侧带卷曲引导笔画，紧邻下方人物照片右缘，保留原有字形及整组位置关系。",
+      "label": "白色手写“Ootd”，左侧带卷曲引导笔画，紧邻下方人物照片右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat",
+      "kind": "overlay",
+      "bbox": [
+        658,
+        1021,
+        825,
+        1128
+      ],
+      "description": "白色猫头涂鸦，深棕色额头条纹和五官，左右有细线胡须；左上方配椭圆气泡和小圆点，作为完整猫咪气泡装饰保留。",
+      "label": "白色猫头涂鸦，深棕色额头条纹和五官，左右有细线胡须；左上方配",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mug",
+      "kind": "overlay",
+      "bbox": [
+        168,
+        1233,
+        258,
+        1351
+      ],
+      "description": "下方人物照片左侧的白色笑脸咖啡杯涂鸦，含右侧杯柄、深棕色杯口与五官，以及上方两缕白色蒸汽，整体保留。",
+      "label": "下方人物照片左侧的白色笑脸咖啡杯涂鸦，含右侧杯柄、深棕色杯口",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_enjoy_coffee",
+      "kind": "overlay",
+      "bbox": [
+        574,
+        1192,
+        1029,
+        1338
+      ],
+      "description": "大幅“Enjoy Coffee”艺术字，深棕色粗笔画配错位、不规则白色粉笔边缘，字母大小和基线变化明显，整体保留特定字形效果。",
+      "label": "大幅“Enjoy Coffee”艺术字，深棕色粗笔画配错位、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_steam",
+      "kind": "overlay",
+      "bbox": [
+        1002,
+        1114,
+        1080,
+        1243
+      ],
+      "description": "右侧独立的两条弯曲蒸汽涂鸦，深棕色内部配白色不规则轮廓，右侧一条在画布边缘被截断。",
+      "label": "右侧独立的两条弯曲蒸汽涂鸦，深棕色内部配白色不规则轮廓，右侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_coffee_bag",
+      "kind": "overlay",
+      "bbox": [
+        952,
+        1333,
+        1032,
+        1415
+      ],
+      "description": "右下角白色咖啡包装袋涂鸦，深棕线条绘出袋口、折边及中央心形图案，包含完整不规则白色边缘。",
+      "label": "右下角白色咖啡包装袋涂鸦，深棕线条绘出袋口、折边及中央心形图",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_seated",
+    "photo_cafe_window",
+    "photo_cafe_sign",
+    "photo_standing",
+    "frame_notebook",
+    "photo_drinks",
+    "photo_camera",
+    "photo_fan",
+    "overlay_location",
+    "overlay_top_flower",
+    "overlay_book",
+    "overlay_hearts",
+    "overlay_hi",
+    "overlay_coffee_beans",
+    "overlay_diary",
+    "overlay_drink_caption",
+    "overlay_cake",
+    "overlay_icon_row",
+    "overlay_lower_flower",
+    "overlay_cleanfit",
+    "overlay_ootd",
+    "overlay_cat",
+    "overlay_mug",
+    "overlay_enjoy_coffee",
+    "overlay_steam",
+    "overlay_coffee_bag"
+  ]
+}

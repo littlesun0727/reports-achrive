@@ -1,0 +1,72 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_mountain_view",
+      "kind": "photo",
+      "bbox": [
+        70,
+        93,
+        1010,
+        564
+      ],
+      "description": "上方横向风景照片，远处层叠山峦与山谷城镇，前景为树林、草坪、白色遮阳伞和弯曲道路；保留完整摄影环境，矩形边缘下方可见柔和投影。"
+    },
+    {
+      "id": "photo_family_meal",
+      "kind": "photo",
+      "bbox": [
+        70,
+        660,
+        1010,
+        1130
+      ],
+      "description": "中间横向聚餐照片，桌上摆满各式菜肴，中央有绿植景观摆饰，画面上缘可见用餐者局部；保留完整摄影环境，矩形边缘下方可见柔和投影。"
+    },
+    {
+      "id": "photo_village_house",
+      "kind": "photo",
+      "bbox": [
+        70,
+        1227,
+        1010,
+        1697
+      ],
+      "description": "下方横向乡村建筑照片，蓝天下有传统房屋、石墙、树木和前景瓦顶；保留完整摄影环境，矩形边缘下方可见柔和投影。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        1805,
+        538,
+        1840
+      ],
+      "description": "画布底部左侧的黑色手写中文题字“悠闲的家庭聚会，畅进东山村的山野”，末尾附有小型山景图案；文字与图案构成一个独立装饰单元，保留原有笔触和排列。"
+    },
+    {
+      "id": "overlay_date",
+      "kind": "overlay",
+      "bbox": [
+        897,
+        1806,
+        1012,
+        1838
+      ],
+      "description": "画布底部右侧黑色手写日期“2026/09/27”，作为独立题字保留原有笔触。"
+    }
+  ],
+  "layer_order": [
+    "photo_mountain_view",
+    "photo_family_meal",
+    "photo_village_house",
+    "overlay_caption",
+    "overlay_date"
+  ]
+}

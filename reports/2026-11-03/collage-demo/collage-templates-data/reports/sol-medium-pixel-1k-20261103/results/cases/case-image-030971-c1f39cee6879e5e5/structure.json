@@ -1,0 +1,605 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_ocean_base",
+    "description": "连续的海岸摄影画面覆盖整张841×1870画布：上部为灰蓝天空与海蚀崖，中部为海浪与海面，下部为礁石、海水和远处人物。摄影内容延伸至四边，底部半透明面板、文字、三张小照片和二维码仅遮挡局部；整幅海岸环境作为可替换客户照片保留。"
+  },
+  "objects": [
+    {
+      "id": "overlay_bottom_panel",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        1102,
+        831,
+        1870
+      ],
+      "description": "覆盖画面下部的深色半透明圆角信息面板，顶部为弧形圆角，海面纹理仍可透过面板可见；承载价格、行程、三张照片、二维码和底部宣传信息，作为独立固定设计单元保留。"
+    },
+    {
+      "id": "overlay_main_title",
+      "kind": "overlay",
+      "bbox": [
+        119,
+        264,
+        727,
+        626
+      ],
+      "description": "画面中央覆盖在海崖与海浪上的大型白色中文艺术字标题“赴向山海”，笔画细长并带有明显装饰性变形，作为完整艺术字单元保留。"
+    },
+    {
+      "id": "overlay_feel_logo",
+      "kind": "overlay",
+      "bbox": [
+        470,
+        204,
+        741,
+        280
+      ],
+      "description": "右上区域的浅黄色英文艺术字与细小副字组合，包括大写意式“Feel”、the mood和the soul等字样，具有独立装饰排版和细线元素，整体作为固定艺术字保留。"
+    },
+    {
+      "id": "overlay_seaside_logo",
+      "kind": "overlay",
+      "bbox": [
+        257,
+        677,
+        616,
+        800
+      ],
+      "description": "海面中央的白色英文装饰标题“SEASIDE CHARMING”，含大写衬线字、手写斜体字和延伸笔画，作为一体化艺术字单元保留。"
+    },
+    {
+      "id": "text_top_left",
+      "kind": "text",
+      "bbox": [
+        48,
+        53,
+        133,
+        65
+      ],
+      "text": "SUMMER VIBES",
+      "color": "#E8EE86",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_top_center",
+      "kind": "text",
+      "bbox": [
+        362,
+        53,
+        467,
+        65
+      ],
+      "text": "AESTHETIC SALON",
+      "color": "#E8EE86",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_top_right",
+      "kind": "text",
+      "bbox": [
+        698,
+        53,
+        792,
+        65
+      ],
+      "text": "WOMAN STUDIO",
+      "color": "#E8EE86",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_center_tagline",
+      "kind": "text",
+      "bbox": [
+        267,
+        128,
+        577,
+        153
+      ],
+      "text": "｛奔向下一个目的地 女性能量美学｝",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_upper_quote",
+      "kind": "text",
+      "bbox": [
+        472,
+        232,
+        578,
+        270
+      ],
+      "text": "在陋里·悄的你\n我们底 同一种自在",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_june",
+      "kind": "text",
+      "bbox": [
+        66,
+        453,
+        141,
+        481
+      ],
+      "text": "a june",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "text_right_vertical_top",
+      "kind": "text",
+      "bbox": [
+        737,
+        589,
+        763,
+        670
+      ],
+      "text": "心在山野",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_right_vertical_bottom",
+      "kind": "text",
+      "bbox": [
+        738,
+        755,
+        763,
+        833
+      ],
+      "text": "向往大海",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_yellow_motto",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        814,
+        265,
+        891
+      ],
+      "description": "左下海面上的黄色弧形英文格言、弧线和中文“团队赋能”组合，包含弧形排版和装饰性字形，不作为普通文字拆分，整体固定保留。"
+    },
+    {
+      "id": "overlay_brand_logo",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        1027,
+        168,
+        1080
+      ],
+      "description": "黑色礁石上方左侧的白色品牌组合标识，包含小号salon与大号Brand字样，字形和比例构成独立标志，整体保留。"
+    },
+    {
+      "id": "text_salon_right",
+      "kind": "text",
+      "bbox": [
+        691,
+        1045,
+        777,
+        1076
+      ],
+      "text": "SALON",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_offer_label",
+      "kind": "text",
+      "bbox": [
+        65,
+        1149,
+        145,
+        1177
+      ],
+      "text": "限时特惠价",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_offer_price",
+      "kind": "text",
+      "bbox": [
+        47,
+        1183,
+        286,
+        1265
+      ],
+      "text": "¥2999 /人起",
+      "color": "#E8F06B",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_offer_note",
+      "kind": "text",
+      "bbox": [
+        61,
+        1275,
+        287,
+        1303
+      ],
+      "text": "4天3晚 · 双人同行立减300",
+      "color": "#E8F06B",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_itinerary_heading",
+      "kind": "text",
+      "bbox": [
+        379,
+        1130,
+        464,
+        1162
+      ],
+      "text": "行程亮点",
+      "color": "#E8F06B",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_itinerary_detail",
+      "kind": "text",
+      "bbox": [
+        379,
+        1169,
+        785,
+        1195
+      ],
+      "text": "悬崖观海｜落日晚宴｜沙滩活动｜海边旅拍｜自由市集",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_hotel_heading",
+      "kind": "text",
+      "bbox": [
+        379,
+        1213,
+        465,
+        1244
+      ],
+      "text": "精选住宿",
+      "color": "#E8F06B",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_hotel_detail",
+      "kind": "text",
+      "bbox": [
+        379,
+        1251,
+        746,
+        1277
+      ],
+      "text": "海景度假酒店3晚｜含早餐｜步行至沙滩5分钟",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_food_heading",
+      "kind": "text",
+      "bbox": [
+        379,
+        1291,
+        464,
+        1322
+      ],
+      "text": "在地美食",
+      "color": "#E8F06B",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_food_detail",
+      "kind": "text",
+      "bbox": [
+        379,
+        1328,
+        770,
+        1354
+      ],
+      "text": "海鲜烤物｜日落下午茶｜特色甜品｜欢迎晚宴",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_hotel",
+      "kind": "photo",
+      "bbox": [
+        48,
+        1383,
+        267,
+        1531
+      ],
+      "description": "海景酒店客房摄影，显示卧室、床、落地窗、海景和室内家具，完整照片窗口为横向矩形；摄影环境随客户素材替换，照片四周由固定白色相纸框承载。"
+    },
+    {
+      "id": "frame_hotel",
+      "kind": "frame",
+      "bbox": [
+        32,
+        1372,
+        279,
+        1563
+      ],
+      "description": "左侧白色拍立得式相纸框，包含酒店照片窗口、厚白边和底部固定灰色 caption“海景度假酒店”，完整框体与纸张质感保留。",
+      "photo_id": [
+        "photo_hotel"
+      ]
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        304,
+        1383,
+        532,
+        1530
+      ],
+      "description": "海鲜烤物晚餐摄影，显示餐桌、海鲜、酒杯和植物装饰，完整照片窗口为横向矩形；摄影内容随客户素材替换，四周由固定白色相纸框承载。"
+    },
+    {
+      "id": "frame_food",
+      "kind": "frame",
+      "bbox": [
+        294,
+        1372,
+        541,
+        1563
+      ],
+      "description": "中间白色拍立得式相纸框，包含晚餐照片窗口、厚白边和底部固定灰色 caption“海鲜烤物晚餐”，整体纸卡材质与边缘保留。",
+      "photo_id": [
+        "photo_food"
+      ]
+    },
+    {
+      "id": "photo_beach_portrait",
+      "kind": "photo",
+      "bbox": [
+        568,
+        1383,
+        793,
+        1530
+      ],
+      "description": "海边旅拍摄影，显示夕阳海面前的女性侧身剪影、飘动头发和裙摆，完整照片窗口为横向矩形；摄影环境和人物随客户素材替换，四周由固定相纸框承载。"
+    },
+    {
+      "id": "frame_beach_portrait",
+      "kind": "frame",
+      "bbox": [
+        556,
+        1372,
+        802,
+        1563
+      ],
+      "description": "右侧白色拍立得式相纸框，包含海边人物照片窗口、厚白边和底部固定灰色 caption“海边旅拍剪影”，整体作为固定照片载体保留。",
+      "photo_id": [
+        "photo_beach_portrait"
+      ]
+    },
+    {
+      "id": "overlay_destination_icon",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        1599,
+        65,
+        1631
+      ],
+      "description": "目的地文字左侧的黄色定位图标，作为独立固定图标保留。"
+    },
+    {
+      "id": "text_destination",
+      "kind": "text",
+      "bbox": [
+        76,
+        1604,
+        534,
+        1634
+      ],
+      "text": "目的地：梦幻海岸 · 山海湾",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_calendar_icon",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        1662,
+        67,
+        1692
+      ],
+      "description": "出发日期文字左侧的黄色日历图标，作为独立固定图标保留。"
+    },
+    {
+      "id": "text_departure",
+      "kind": "text",
+      "bbox": [
+        77,
+        1664,
+        507,
+        1694
+      ],
+      "text": "出发日期：6月－9月  每周五出发",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_qr_code",
+      "kind": "overlay",
+      "bbox": [
+        583,
+        1595,
+        682,
+        1698
+      ],
+      "description": "底部右侧黑白二维码及其白色方形底板，作为独立固定信息图形保留，不随摄影内容替换。"
+    },
+    {
+      "id": "text_qr_prompt",
+      "kind": "text",
+      "bbox": [
+        700,
+        1628,
+        787,
+        1687
+      ],
+      "text": "扫码咨询\n/ 预订名额",
+      "color": "#E8F06B",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_slogan",
+      "kind": "text",
+      "bbox": [
+        174,
+        1736,
+        700,
+        1786
+      ],
+      "text": "向海出发，遇见更自由的自己",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_bottom_swoosh",
+      "kind": "overlay",
+      "bbox": [
+        126,
+        1760,
+        701,
+        1794
+      ],
+      "description": "底部宣传语下方的黄色手绘弧线装饰，横跨底部区域并与宣传语形成整体排版，作为固定装饰保留。"
+    },
+    {
+      "id": "text_bottom_branding",
+      "kind": "text",
+      "bbox": [
+        178,
+        1800,
+        674,
+        1824
+      ],
+      "text": "B R A N D      S A L O N      T R A V E L",
+      "color": "#E8F06B",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_bottom_panel",
+    "photo_hotel",
+    "frame_hotel",
+    "photo_food",
+    "frame_food",
+    "photo_beach_portrait",
+    "frame_beach_portrait",
+    "overlay_main_title",
+    "overlay_feel_logo",
+    "overlay_seaside_logo",
+    "overlay_yellow_motto",
+    "overlay_brand_logo",
+    "overlay_destination_icon",
+    "overlay_calendar_icon",
+    "overlay_qr_code",
+    "overlay_bottom_swoosh",
+    "text_top_left",
+    "text_top_center",
+    "text_top_right",
+    "text_center_tagline",
+    "text_upper_quote",
+    "text_june",
+    "text_right_vertical_top",
+    "text_right_vertical_bottom",
+    "text_salon_right",
+    "text_offer_label",
+    "text_offer_price",
+    "text_offer_note",
+    "text_itinerary_heading",
+    "text_itinerary_detail",
+    "text_hotel_heading",
+    "text_hotel_detail",
+    "text_food_heading",
+    "text_food_detail",
+    "text_destination",
+    "text_departure",
+    "text_qr_prompt",
+    "text_bottom_slogan",
+    "text_bottom_branding"
+  ]
+}

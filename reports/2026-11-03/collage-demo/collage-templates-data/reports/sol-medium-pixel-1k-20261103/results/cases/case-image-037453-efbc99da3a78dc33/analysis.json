@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    993,
+    1325
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        993,
+        1325
+      ],
+      "description": "咖啡馆室内的连续摄影画面覆盖全画布：浅灰墙面、左侧镜面反射的店内桌椅、右上绿色挂画、下方地面及右侧盆栽均属于同一场景。画面没有独立照片边界，边缘与物件间隙持续呈现同一室内环境；前景食物饮品拼贴遮挡局部。保留完整室内环境并由客户照片替换。",
+      "background_type": "photo",
+      "label": "咖啡馆室内的连续摄影画面覆盖全画布：浅灰墙面、左侧镜面反射的",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_dessert_cup",
+      "kind": "photo",
+      "bbox": [
+        164,
+        460,
+        406,
+        768
+      ],
+      "description": "左侧一杯浅黄色冰饮，上方放有圆形冰淇淋球和少量绿色点缀，保留杯中内容；摄影背景不可见，白色粗糙手绘描边沿杯体及杯口外轮廓环绕。",
+      "label": "左侧一杯浅黄色冰饮，上方放有圆形冰淇淋球和少量绿色点缀，保留",
+      "method": "local"
+    },
+    {
+      "id": "photo_whole_cake",
+      "kind": "photo",
+      "bbox": [
+        347,
+        358,
+        676,
+        627
+      ],
+      "description": "中央上方一只粉色小蛋糕，顶部有白色花瓣状奶油和黄色中心，放在浅色圆盘上；摄影背景不可见，白色粗糙手绘描边沿蛋糕与圆盘的组合外轮廓延伸，右侧局部被柠檬饮品遮挡，下部被蛋糕切片遮挡。",
+      "label": "中央上方一只粉色小蛋糕，顶部有白色花瓣状奶油和黄色中心，放在",
+      "method": "local"
+    },
+    {
+      "id": "photo_lemon_drink",
+      "kind": "photo",
+      "bbox": [
+        665,
+        269,
+        867,
+        642
+      ],
+      "description": "右上方一杯透明高杯柠檬饮品，可见冰块和黄色柠檬片；摄影背景不可见，白色粗糙手绘描边沿杯体外轮廓环绕，局部覆盖中央蛋糕及其圆盘。",
+      "label": "右上方一杯透明高杯柠檬饮品，可见冰块和黄色柠檬片；摄影背景不",
+      "method": "local"
+    },
+    {
+      "id": "photo_cake_slice",
+      "kind": "photo",
+      "bbox": [
+        398,
+        548,
+        827,
+        900
+      ],
+      "description": "中央偏下的一块粉色奶油蛋糕切片，露出浅黄色蛋糕层，顶部及侧面有白色花瓣状奶油和黄色装饰，置于白色多边形盘中；摄影背景不可见，白色粗糙手绘描边沿蛋糕与盘子的组合外轮廓环绕，并覆盖中央小蛋糕的下部。",
+      "label": "中央偏下的一块粉色奶油蛋糕切片，露出浅黄色蛋糕层，顶部及侧面",
+      "method": "local"
+    },
+    {
+      "id": "overlay_cafe_label",
+      "kind": "overlay",
+      "bbox": [
+        603,
+        909,
+        858,
+        961
+      ],
+      "description": "蛋糕切片下方的白色做旧字样“CAFE no.”，字母具有粗糙不规则的印刷笔触，作为完整独立艺术字保留。",
+      "label": "蛋糕切片下方的白色做旧字样“CAFE no.”，字母具有粗糙",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_whole_cake",
+    "photo_dessert_cup",
+    "photo_lemon_drink",
+    "photo_cake_slice",
+    "overlay_cafe_label"
+  ]
+}

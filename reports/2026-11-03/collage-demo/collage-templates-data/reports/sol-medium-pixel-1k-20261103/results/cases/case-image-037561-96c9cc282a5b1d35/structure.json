@@ -1,0 +1,59 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_mirror_selfie",
+      "kind": "photo",
+      "bbox": [
+        0,
+        538,
+        1080,
+        1440
+      ],
+      "description": "下半部为连续的室内镜自拍照片，画面中央偏左是一名长发年轻女性的全身至膝上景，穿白色上衣和深色下装，举手机对镜拍摄，另一手扶在腰侧；室内陈设、镜面及底部金色雕花镜框均属于照片。矩形照片延伸至画布左右边缘和底边，上缘与橙色区域相接，照片环境保留。"
+    },
+    {
+      "id": "overlay_orange_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        538
+      ],
+      "description": "画布上方横贯全宽的平涂橙色区域，底边为水平直线；作为独立固定色块保留，不属于下方照片。"
+    },
+    {
+      "id": "overlay_upper_stars",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        8,
+        1057,
+        501
+      ],
+      "description": "橙色区域内散布的多枚大小不一的五角星装饰，内部呈不同的深色、金色、灰色或条纹质感，部分带折叠或阴影外观；整体作为同一组星形装饰保留。"
+    },
+    {
+      "id": "overlay_lower_stars",
+      "kind": "overlay",
+      "bbox": [
+        146,
+        724,
+        1057,
+        1280
+      ],
+      "description": "下方自拍照片上散布的多枚橙色五角星装饰，大小不一，分布于人物周围及画面边缘；整体作为一组独立叠加装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_orange_panel",
+    "photo_mirror_selfie",
+    "overlay_upper_stars",
+    "overlay_lower_stars"
+  ]
+}

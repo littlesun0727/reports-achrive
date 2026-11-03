@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        658
+      ],
+      "description": "上方独立竖向演唱会现场照片，体育场看台、舞台灯光和悬吊的巨型白色机器人共同构成完整画面；顶部延伸至画布边缘，下缘被中部照片覆盖，画面中的DJI标识随照片替换。",
+      "label": "上方独立竖向演唱会现场照片，体育场看台、舞台灯光和悬吊的巨型",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        624,
+        1080,
+        1291
+      ],
+      "description": "中部独立演唱会屏幕与场馆照片，包含大面积观众席、舞台结构、蓝色灯光、屏幕中的机器人影像及嵌入画面的“AGE OF ROMANCE”与相关小字；上缘覆盖顶部照片，下缘被底部照片覆盖，文字和水印均属于摄影内容。",
+      "label": "中部独立演唱会屏幕与场馆照片，包含大面积观众席、舞台结构、蓝",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1259,
+        1080,
+        1920
+      ],
+      "description": "下方独立竖向演唱会现场照片，观众席和蓝色荧光灯海占据背景，中央偏下有一名背向镜头的白色机器人及舞台区域；上缘压住中部照片并延伸至画布底边，照片中的DJI标识随摄影内容替换。",
+      "label": "下方独立竖向演唱会现场照片，观众席和蓝色荧光灯海占据背景，中",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

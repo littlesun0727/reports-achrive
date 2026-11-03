@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_beach",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        800
+      ],
+      "description": "上方横向海滩日落照片：无人物，远景可见云层、海面与卵石滩，一只鸟在画面中央偏下的岸边展翅飞起。天空、海面和沙滩属于同一连续摄影画面；照片下缘与另一张照片相接，未见独立框体。",
+      "label": "上方横向海滩日落照片：无人物，远景可见云层、海面与卵石滩，一",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_palms",
+      "kind": "photo",
+      "bbox": [
+        0,
+        796,
+        1080,
+        1440
+      ],
+      "description": "下方独立照片，呈现运动模糊的棕榈树、海面与天空，底部有草地；右侧可见一条红褐色竖向结构及窄灰色边缘，均保留在照片范围内。与上方海滩照片在水平接缝处相接。",
+      "label": "下方独立照片，呈现运动模糊的棕榈树、海面与天空，底部有草地；",
+      "method": "local"
+    },
+    {
+      "id": "overlay_caption_backing",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        817,
+        528,
+        866
+      ],
+      "description": "下方文字后方的半透明深色横向矩形底衬，覆盖在下方照片上并延伸至文字右侧，作为独立固定装饰保留。",
+      "label": "下方文字后方的半透明深色横向矩形底衬，覆盖在下方照片上并延伸",
+      "method": "extract"
+    },
+    {
+      "id": "text_upper_caption",
+      "kind": "text",
+      "bbox": [
+        15,
+        711,
+        466,
+        788
+      ],
+      "description": "如果可以，多希望用旅途标记\n我生命中每一个重要节点。",
+      "label": "如果可以，多希望用旅途标记\n我生命中每一个重要节点。",
+      "method": "local",
+      "text": "如果可以，多希望用旅途标记\n我生命中每一个重要节点。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_lower_caption",
+      "kind": "text",
+      "bbox": [
+        15,
+        828,
+        511,
+        861
+      ],
+      "description": "如果可以，我想这样描述我的一生：",
+      "label": "如果可以，我想这样描述我的一生：",
+      "method": "local",
+      "text": "如果可以，我想这样描述我的一生：",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_beach",
+    "photo_lower_palms",
+    "overlay_caption_backing",
+    "text_upper_caption",
+    "text_lower_caption"
+  ]
+}

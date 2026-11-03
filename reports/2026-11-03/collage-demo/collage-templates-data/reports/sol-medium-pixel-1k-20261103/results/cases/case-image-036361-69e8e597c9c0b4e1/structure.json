@@ -1,0 +1,156 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_drink_scene",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "横向连续的饮品摄影场景，画面包含前景两只装有琥珀色饮料的玻璃杯、桌面及虚化背景，完整显示区域从画布左右边缘延伸至底部；上方固定黄色设计区域和中央拼贴元素遮挡其部分区域。"
+    },
+    {
+      "id": "overlay_yellow_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        721
+      ],
+      "description": "覆盖画布上半部的均匀浅黄色固定底板，与下方饮品照片在约720像素处形成水平分界；保留其纯色外观及边界，不承担照片承载功能。"
+    },
+    {
+      "id": "overlay_note_stars",
+      "kind": "overlay",
+      "bbox": [
+        570,
+        66,
+        1025,
+        550
+      ],
+      "description": "右上方倾斜的浅色手写便签及其周围两枚白色发光星形涂鸦，便签上的棕色手写中文和浅色底纹作为同一固定设计单元保留；便签下缘被中央照片卡部分遮挡。"
+    },
+    {
+      "id": "overlay_leaf",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        52,
+        532,
+        508
+      ],
+      "description": "左上方的大型橙黄色秋叶，包含完整叶片轮廓、褐色叶脉、叶柄及叶面上的黄色手写装饰字样；叶片位于照片卡后方并有部分叶柄叠到卡片上方。"
+    },
+    {
+      "id": "photo_postcard_scene",
+      "kind": "photo",
+      "bbox": [
+        382,
+        388,
+        741,
+        1000
+      ],
+      "description": "竖向复古照片卡内的独立摄影画面，显示老式建筑、树木和前景干花，保留完整矩形照片窗口及其摄影环境；照片边缘带有旧纸质感和柔和边缘效果。"
+    },
+    {
+      "id": "frame_postcard",
+      "kind": "frame",
+      "bbox": [
+        355,
+        360,
+        761,
+        1032
+      ],
+      "description": "承载中央复古照片的竖向浅色拍立得式纸卡，包含不规则旧纸边、底部留白和整体纸张阴影；纸卡边缘在照片内容上方形成遮挡。",
+      "photo_id": [
+        "photo_postcard_scene"
+      ]
+    },
+    {
+      "id": "overlay_flower_sprig",
+      "kind": "overlay",
+      "bbox": [
+        483,
+        575,
+        911,
+        1069
+      ],
+      "description": "从中央照片卡下部向右下方延伸的干花枝装饰，包含多朵米色和棕色小花、细长茎叶及交错枝条；主体跨出照片卡右侧并覆盖卡片和下方摄影背景。"
+    },
+    {
+      "id": "overlay_left_mark",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        658,
+        177,
+        790
+      ],
+      "description": "左侧黄色区域与下方照片交界处的深棕色抽象印章式标记，包含完整手写图形和下垂笔画，作为独立固定装饰保留。"
+    },
+    {
+      "id": "text_chinese_title",
+      "kind": "text",
+      "bbox": [
+        386,
+        1065,
+        703,
+        1100
+      ],
+      "text": "秋天的影像诗",
+      "color": "#FFF4D8",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_english_title",
+      "kind": "text",
+      "bbox": [
+        336,
+        1110,
+        758,
+        1142
+      ],
+      "text": "Autumn Image Poem",
+      "color": "#FFF4D8",
+      "font": "hand",
+      "align": "center",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "id": "overlay_photo_credit",
+      "kind": "overlay",
+      "bbox": [
+        883,
+        1361,
+        1057,
+        1418
+      ],
+      "description": "右下角叠加在饮品照片上的白色手写摄影署名字样，包含完整笔画、倾斜排布和轻微阴影，作为固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_drink_scene",
+    "overlay_yellow_panel",
+    "overlay_note_stars",
+    "overlay_left_mark",
+    "photo_postcard_scene",
+    "frame_postcard",
+    "overlay_leaf",
+    "overlay_flower_sprig",
+    "text_chinese_title",
+    "text_english_title",
+    "overlay_photo_credit"
+  ]
+}

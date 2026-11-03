@@ -1,0 +1,41 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "camera_doodle_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "白色画布上的连续手绘相机与胶片风格线稿构成固定底图，包含顶部相机结构、右侧取景与按钮、底部装饰及中右部中文手写文案；线稿延伸覆盖整张画布，左侧照片遮挡其中一部分，照片替换后保留其余固定设计原样。",
+      "background_type": "reference_clean",
+      "label": "白色画布上的连续手绘相机与胶片风格线稿构成固定底图，包含顶部",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        27,
+        228,
+        576,
+        867
+      ],
+      "description": "竖向矩形宠物照片，画面中一只灰色卷毛小狗被人抱在怀中，狗面向镜头，近距离取景；可见黑色衣物、手臂及室外背景，完整照片窗口被固定相机线稿包围，边缘为直接矩形裁切，无独立承载框体。",
+      "label": "竖向矩形宠物照片，画面中一只灰色卷毛小狗被人抱在怀中，狗面向",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "camera_doodle_base",
+    "photo_dog"
+  ]
+}

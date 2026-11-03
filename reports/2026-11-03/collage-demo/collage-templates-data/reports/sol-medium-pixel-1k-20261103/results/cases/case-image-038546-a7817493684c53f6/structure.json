@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "一张连续的餐桌近景照片覆盖全画布，无人物。下方中央是不锈钢碗装乌冬面、半颗溏心蛋及葱丝，左边另一个面碗被画布裁切；后方左侧有水杯，中央有戴厨师帽的白色玩偶，右侧为带黑色图案和印字的棕色纸袋。黄色桌面及接缝延伸至画布边缘，场景连续；右上贴纸、表情装饰和下方文字遮挡局部。玩偶、餐具、食物、纸袋及完整摄影环境一起替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_udon_bowl",
+      "kind": "overlay",
+      "bbox": [
+        634,
+        276,
+        1039,
+        619
+      ],
+      "description": "右上方独立的立体插画面碗贴纸，包含灰色碗、盘绕的金黄色乌冬面、绿色配菜和顶部半颗橙黄色溏心蛋。整体带粗白色外轮廓，覆盖背景纸袋图案，所有内部造型及白边作为一个固定装饰保留，不属于下方实拍面碗。"
+    },
+    {
+      "id": "overlay_emoji_row",
+      "kind": "overlay",
+      "bbox": [
+        784,
+        679,
+        1013,
+        760
+      ],
+      "description": "面碗贴纸下方的一组小型表情装饰，从左至右为带筷子和面条的小面碗、白色鸡蛋、橙色爱心。三者共同形成一行局部装饰，保留各自造型、色彩、间隙及立体明暗。"
+    },
+    {
+      "id": "text_udon",
+      "kind": "text",
+      "bbox": [
+        144,
+        1212,
+        569,
+        1265
+      ],
+      "text": "udon noodles",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_udon_bowl",
+    "overlay_emoji_row",
+    "text_udon"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#79501F"
+      }
+    },
+    {
+      "id": "frame_ticket",
+      "kind": "frame",
+      "bbox": [
+        121,
+        154,
+        959,
+        1290
+      ],
+      "description": "深棕色竖版票卡，带圆角上部、柔和投影及底边中央半圆缺口；承托上方照片。下方印有白色“民乐 / MINYUE”、“2025 - 11”、“NO.13428”、条码及其上方编号“SZO13MHO”，均为卡片一体印刷内容。",
+      "photo_id": [
+        "photo_landscape"
+      ],
+      "label": "深棕色竖版票卡，带圆角上部、柔和投影及底边中央半圆缺口；承托",
+      "method": "extract"
+    },
+    {
+      "id": "photo_landscape",
+      "kind": "photo",
+      "bbox": [
+        129,
+        162,
+        951,
+        919
+      ],
+      "description": "票卡上半部的横向窗口照片，呈现高原山地、远处雪山、草原、围栏和小型建筑车辆；画面中无清晰人物。保留完整摄影环境，窗口上角为圆角，下缘呈轻微不规则边缘。",
+      "label": "票卡上半部的横向窗口照片，呈现高原山地、远处雪山、草原、围栏",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_ticket",
+    "photo_landscape"
+  ]
+}

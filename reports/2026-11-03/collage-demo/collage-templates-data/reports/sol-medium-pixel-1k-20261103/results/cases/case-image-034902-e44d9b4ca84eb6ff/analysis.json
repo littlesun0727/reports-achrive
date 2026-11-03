@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1621
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1621
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        510
+      ],
+      "description": "画面上方横向海滩照片：蓝天、海面、浪花及远处少量冲浪者和右侧秋千共同构成连续摄影画面，完整显示至画布左右边缘；下缘在约 y=510 处与下一张照片形成水平接缝。",
+      "label": "画面上方横向海滩照片：蓝天、海面、浪花及远处少量冲浪者和右侧",
+      "method": "local"
+    },
+    {
+      "id": "photo_palms",
+      "kind": "photo",
+      "bbox": [
+        0,
+        510,
+        1080,
+        1140
+      ],
+      "description": "中间横向人像照片，一名长发女性在棕榈树与蓝色暮色天空前半身入镜，面向镜头，头发遮住部分脸部，人物位于画面中下部；保留棕榈树、天空及其他摄影环境，照片上下边缘与相邻照片形成清晰水平接缝。",
+      "label": "中间横向人像照片，一名长发女性在棕榈树与蓝色暮色天空前半身入",
+      "method": "local"
+    },
+    {
+      "id": "photo_night_crowd",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1140,
+        1080,
+        1621
+      ],
+      "description": "画面下方夜间人群现场照片，观众举起手机，背景可见霓虹招牌、舞台灯光和棕榈树；保留完整摄影环境，照片从 y=1140 左右的水平接缝延伸至画布底边。",
+      "label": "画面下方夜间人群现场照片，观众举起手机，背景可见霓虹招牌、舞",
+      "method": "local"
+    },
+    {
+      "id": "text_hainan",
+      "kind": "text",
+      "bbox": [
+        235,
+        299,
+        846,
+        436
+      ],
+      "description": "Hainan",
+      "label": "Hainan",
+      "method": "local",
+      "text": "Hainan",
+      "text_status": "known",
+      "style": {
+        "fill": "#F32D91",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_summer",
+      "kind": "text",
+      "bbox": [
+        38,
+        700,
+        934,
+        881
+      ],
+      "description": "Summer is warm\nand colorful, so am i",
+      "label": "Summer is warm\nand colorful, s",
+      "method": "local",
+      "text": "Summer is warm\nand colorful, so am i",
+      "text_status": "known",
+      "style": {
+        "fill": "#E6008F",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_beach",
+    "photo_palms",
+    "photo_night_crowd",
+    "text_hainan",
+    "text_summer"
+  ]
+}

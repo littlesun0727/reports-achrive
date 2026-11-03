@@ -1,0 +1,174 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        721
+      ],
+      "description": "左上独立照片，近景树木、粗大树干与传统屋顶共同构成完整摄影画面，树冠和屋顶延伸至照片边界；下缘被中央手机装置及文字区域局部遮挡，照片环境保留。",
+      "label": "左上独立照片，近景树木、粗大树干与传统屋顶共同构成完整摄影画",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        721
+      ],
+      "description": "右上独立照片，蓝天空下的柿子树枝、叶片和大量橙色果实构成完整摄影画面，显示为右上矩形区域；下缘被文字及中央手机装置局部遮挡，摄影环境保留。",
+      "label": "右上独立照片，蓝天空下的柿子树枝、叶片和大量橙色果实构成完整",
+      "method": "local"
+    },
+    {
+      "id": "overlay_quote_backing",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        505,
+        841,
+        667
+      ],
+      "description": "承托上方中文引文的半透明深灰色矩形底板，分段覆盖两张上方照片的交界区域，边缘和透明叠加效果作为独立固定设计保留。",
+      "label": "承托上方中文引文的半透明深灰色矩形底板，分段覆盖两张上方照片",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        201,
+        509,
+        837,
+        658
+      ],
+      "description": "人要生活，就一定要有信仰。信仰什么？相信\n一切事和一切时刻的合理的内在联系，相信生\n活作为整体将永远继续下去，相信最近的东西\n和最远的东西。/ 卡夫卡《午夜的沉默》",
+      "label": "人要生活，就一定要有信仰。信仰什么？相信\n一切事和一切时刻的",
+      "method": "local",
+      "text": "人要生活，就一定要有信仰。信仰什么？相信\n一切事和一切时刻的合理的内在联系，相信生\n活作为整体将永远继续下去，相信最近的东西\n和最远的东西。/ 卡夫卡《午夜的沉默》",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立照片，浅景深中的人物或人物群像位于室内或生活场景中，主体明显虚化；完整照片区域延伸到左侧和底部画布边界，中央手机装置遮挡其右侧。",
+      "label": "左下独立照片，浅景深中的人物或人物群像位于室内或生活场景中，",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立照片，深色水面与岸边环境中有一只白色水鸟，主体位于下方偏右区域；照片完整延伸至右侧和底部画布边界，中央手机装置遮挡左侧，右下文字叠加在摄影画面上。",
+      "label": "右下独立照片，深色水面与岸边环境中有一只白色水鸟，主体位于下",
+      "method": "local"
+    },
+    {
+      "id": "overlay_phone",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        684,
+        690,
+        1440
+      ],
+      "description": "中央竖向黑色手机及其屏幕界面固定设计单元，包含圆角屏幕、状态栏、日期日历卡片、缩略图卡片和底部被画布裁切的机身；整体压在四张照片上，屏幕中的小图和界面文字随固定装置保留。",
+      "label": "中央竖向黑色手机及其屏幕界面固定设计单元，包含圆角屏幕、状态",
+      "method": "extract"
+    },
+    {
+      "id": "text_lower_quote",
+      "kind": "text",
+      "bbox": [
+        706,
+        1257,
+        1007,
+        1372
+      ],
+      "description": "真实感受\n和记录当下的每一天\n积极乐观，感恩生活的给予",
+      "label": "真实感受\n和记录当下的每一天\n积极乐观，感恩生活的给予",
+      "method": "local",
+      "text": "真实感受\n和记录当下的每一天\n积极乐观，感恩生活的给予",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_coffee_set",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        1320,
+        278,
+        1440
+      ],
+      "description": "左下角独立固定装饰，由纸质咖啡包装袋、咖啡杯、杯碟和咖啡豆图案组成，压在左下照片及手机底部之上；完整可见轮廓延伸到画布底边，内部印刷与阴影整体保留。",
+      "label": "左下角独立固定装饰，由纸质咖啡包装袋、咖啡杯、杯碟和咖啡豆图",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_quote_backing",
+    "text_quote",
+    "overlay_phone",
+    "text_lower_quote",
+    "overlay_coffee_set"
+  ]
+}

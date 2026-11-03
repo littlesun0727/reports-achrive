@@ -1,0 +1,109 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_water",
+    "description": "青绿色湖水的连续摄影画面铺满画布四边，并在各拼贴照片之间及边缘露出，作为可替换的全画布底图；上层照片遮挡局部。"
+  },
+  "objects": [
+    {
+      "id": "photo_autumn_canopy",
+      "kind": "photo",
+      "bbox": [
+        70,
+        140,
+        649,
+        663
+      ],
+      "description": "左上横向秋景照片，橙黄色树叶与深色枝干占据上部，林木和湖岸位于下部；保留完整摄影环境，右下区域被下方人物照片遮挡。"
+    },
+    {
+      "id": "photo_pine_sky",
+      "kind": "photo",
+      "bbox": [
+        672,
+        81,
+        956,
+        365
+      ],
+      "description": "右上竖向照片，蓝天下可见松树枝叶及左下方浅色树叶，保留完整摄影环境；右下部分被相邻湖景照片遮挡。"
+    },
+    {
+      "id": "photo_autumn_lake",
+      "kind": "photo",
+      "bbox": [
+        761,
+        320,
+        1050,
+        608
+      ],
+      "description": "右上中部横向湖景照片，枝叶从上方和左侧伸入，中央为蓝色湖面，远处可见岸线及山林；保留摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_narrow_lakeside",
+      "kind": "photo",
+      "bbox": [
+        517,
+        662,
+        649,
+        1010
+      ],
+      "description": "画面中央偏左的窄幅竖向湖岸照片，可见蓝绿色水面和岸边枝叶；完整窗口大部分被左侧人物照片及右侧横向照片遮挡，保留其摄影环境。"
+    },
+    {
+      "id": "photo_mid_lake_branches",
+      "kind": "photo",
+      "bbox": [
+        590,
+        682,
+        1045,
+        938
+      ],
+      "description": "右侧横向湖景照片，深色树干与枝叶从左上延伸，背景为浅蓝绿色湖面和粉色岸边；保留完整摄影环境，显示区域为矩形。"
+    },
+    {
+      "id": "photo_person_lakeside",
+      "kind": "photo",
+      "bbox": [
+        0,
+        604,
+        518,
+        1383
+      ],
+      "description": "左侧竖向人物照片，一名背对镜头的人物戴浅色贝雷帽、穿深色外套并背包，站在湖边栏杆前；人物为中远景，湖水、秋树及栏杆均保留在照片环境中，照片覆盖上方秋景照片的下缘及中央窄幅照片。"
+    },
+    {
+      "id": "photo_rock",
+      "kind": "photo",
+      "bbox": [
+        584,
+        966,
+        1047,
+        1226
+      ],
+      "description": "右侧横向近景照片，画面为灰绿色粗糙岩石表面，保留完整摄影画面，矩形边界清晰。"
+    },
+    {
+      "id": "photo_lower_lake",
+      "kind": "photo",
+      "bbox": [
+        583,
+        1268,
+        1051,
+        1531
+      ],
+      "description": "右下横向湖景照片，平静的深青色水面占主要区域，底部有草叶和少量橙黄色枝叶，右侧可见细枝；保留完整摄影环境，矩形边界清晰。"
+    }
+  ],
+  "layer_order": [
+    "photo_autumn_canopy",
+    "photo_pine_sky",
+    "photo_narrow_lakeside",
+    "photo_autumn_lake",
+    "photo_mid_lake_branches",
+    "photo_person_lakeside",
+    "photo_rock",
+    "photo_lower_lake"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "overlay_stripes",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        250,
+        452
+      ],
+      "description": "左上角局部蓝白竖条纹设计块，条纹整齐重复，作为独立固定图案保留。"
+    },
+    {
+      "id": "photo_curtain",
+      "kind": "photo",
+      "bbox": [
+        299,
+        0,
+        558,
+        351
+      ],
+      "description": "顶部竖向室内照片，画面为带细密横纹的窗帘和白色半透明纱帘，纱帘上有两只浅色鸟形图案，底部可见一抹粉红色；照片从画布上边缘开始，保留完整可见窗口及摄影环境。"
+    },
+    {
+      "id": "photo_phone",
+      "kind": "photo",
+      "bbox": [
+        157,
+        351,
+        518,
+        622
+      ],
+      "description": "左上方横向俯拍照片，一人穿浅灰色衣物并手持带装饰手机壳的手机，周围可见椅子和地面；保留完整矩形摄影画面，右侧部分压在下方大幅人像照片上。"
+    },
+    {
+      "id": "photo_portrait_top",
+      "kind": "photo",
+      "bbox": [
+        303,
+        480,
+        1080,
+        949
+      ],
+      "description": "右上方横向自拍照片，一名长发女性坐在浅色沙发前，面向镜头，穿白色上衣，室内背景仍可见；保留完整矩形照片窗口，左上部分被手机照片遮挡。"
+    },
+    {
+      "id": "text_whimsy",
+      "kind": "text",
+      "bbox": [
+        418,
+        449,
+        1030,
+        489
+      ],
+      "text": "try and match my whimsy ho",
+      "color": "#4D56C3",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "photo_torso",
+      "kind": "photo",
+      "bbox": [
+        359,
+        995,
+        1039,
+        1378
+      ],
+      "description": "画面中部横向照片，女性穿白色短款上衣和蓝色牛仔裤，抬起一只手臂，长发垂在胸前；沙发、手机及室内环境均保留在摄影画面中。"
+    },
+    {
+      "id": "overlay_fairies",
+      "kind": "overlay",
+      "bbox": [
+        58,
+        1037,
+        332,
+        1278
+      ],
+      "description": "左侧浅蓝色成对仙子剪影装饰，两个人形相对、伸手相牵，带有翅膀及流动的肢体轮廓，作为完整固定图案保留。"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        172,
+        985,
+        215,
+        1037
+      ],
+      "description": "仙子图案上方独立的蓝色四角闪光星形装饰。"
+    },
+    {
+      "id": "overlay_dots_torso",
+      "kind": "overlay",
+      "bbox": [
+        402,
+        1284,
+        478,
+        1377
+      ],
+      "description": "叠加在中部照片左下区域的白色点阵闪光图案，含像素状弯曲纹样和小星点，作为独立装饰保留。"
+    },
+    {
+      "id": "photo_portrait_bottom",
+      "kind": "photo",
+      "bbox": [
+        303,
+        1416,
+        1080,
+        1884
+      ],
+      "description": "底部横向室内自拍照片，一名长发女性坐在浅色沙发前，面向镜头，穿白色上衣，背景可见墙面、沙发和室内物件；保留完整矩形摄影画面，与上方照片之间留有白色间隔。"
+    },
+    {
+      "id": "overlay_dots_bottom",
+      "kind": "overlay",
+      "bbox": [
+        303,
+        1417,
+        455,
+        1704
+      ],
+      "description": "覆盖在底部照片左侧的白色点阵装饰，呈分段的像素状几何纹样并带闪光星点，作为独立固定图案保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_stripes",
+    "photo_curtain",
+    "photo_portrait_top",
+    "photo_phone",
+    "text_whimsy",
+    "photo_torso",
+    "overlay_dots_torso",
+    "photo_portrait_bottom",
+    "overlay_dots_bottom",
+    "overlay_fairies",
+    "overlay_star"
+  ]
+}

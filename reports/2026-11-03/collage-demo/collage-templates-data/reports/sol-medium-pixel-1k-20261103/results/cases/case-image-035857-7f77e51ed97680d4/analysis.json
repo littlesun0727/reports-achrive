@@ -1,0 +1,235 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#606060"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        92,
+        76,
+        502,
+        486
+      ],
+      "description": "横向户外照片，树干、草地、木牌和手持白色毛绒玩偶共同构成完整摄影画面，人物手臂从左下方进入，照片边界为矩形。",
+      "label": "横向户外照片，树干、草地、木牌和手持白色毛绒玩偶共同构成完整",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        680,
+        78,
+        1008,
+        407
+      ],
+      "description": "横向近景照片，一只手托着吐司形毛毡小物，背景为室内环境，文字和装饰图案属于照片内容，显示区域为矩形。",
+      "label": "横向近景照片，一只手托着吐司形毛毡小物，背景为室内环境，文字",
+      "method": "local"
+    },
+    {
+      "id": "photo_dog",
+      "kind": "photo",
+      "bbox": [
+        478,
+        331,
+        804,
+        765
+      ],
+      "description": "竖向室内照片，一只小型棕色犬坐在木桌旁，面向镜头，右下有纸张和桌面物品；完整摄影环境保留，照片下部压住左侧书房照片。",
+      "label": "竖向室内照片，一只小型棕色犬坐在木桌旁，面向镜头，右下有纸张",
+      "method": "local"
+    },
+    {
+      "id": "photo_room",
+      "kind": "photo",
+      "bbox": [
+        148,
+        548,
+        545,
+        1076
+      ],
+      "description": "竖向室内书房照片，包含书架、书籍、镜框、绿植、桌面和地面，完整显示区域被上方波点胶带及右侧狗照片局部遮挡。",
+      "label": "竖向室内书房照片，包含书架、书籍、镜框、绿植、桌面和地面，完",
+      "method": "local"
+    },
+    {
+      "id": "photo_daisies",
+      "kind": "photo",
+      "bbox": [
+        45,
+        1024,
+        302,
+        1366
+      ],
+      "description": "竖向户外花卉照片，密集白色雏菊和深色花坛构成完整摄影画面，上缘被白色像素标签局部遮挡。",
+      "label": "竖向户外花卉照片，密集白色雏菊和深色花坛构成完整摄影画面，上",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        579,
+        794,
+        1013,
+        1372
+      ],
+      "description": "竖向室内人物照片，一名长发女性站在画面右侧，手持手机并用另一只手遮住脸部，穿白色上衣和黑色下装，背景为浅色墙面及镜子，完整照片窗口延伸至下边界。",
+      "label": "竖向室内人物照片，一名长发女性站在画面右侧，手持手机并用另一",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_sparkles",
+      "kind": "overlay",
+      "bbox": [
+        27,
+        18,
+        127,
+        168
+      ],
+      "description": "位于左上照片外侧及左上照片边缘附近的白色手绘闪光星星和小点装饰，作为一个独立的固定涂鸦单元保留。",
+      "label": "位于左上照片外侧及左上照片边缘附近的白色手绘闪光星星和小点装",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fireworks",
+      "kind": "overlay",
+      "bbox": [
+        513,
+        190,
+        680,
+        375
+      ],
+      "description": "位于两张上方照片之间的白色手绘烟花、弧线和星点装饰，独立叠加在灰色底面上。",
+      "label": "位于两张上方照片之间的白色手绘烟花、弧线和星点装饰，独立叠加",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_polka_tape",
+      "kind": "overlay",
+      "bbox": [
+        118,
+        519,
+        273,
+        586
+      ],
+      "description": "覆盖书房照片上缘的灰黑色白色圆点胶带形装饰，包含不规则纸边和全部波点，作为独立固定贴纸保留。",
+      "label": "覆盖书房照片上缘的灰黑色白色圆点胶带形装饰，包含不规则纸边和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_dog_doodle",
+      "kind": "overlay",
+      "bbox": [
+        484,
+        666,
+        670,
+        867
+      ],
+      "description": "覆盖狗照片下部并延伸到照片外侧的白色手绘线条涂鸦，包含圆形轮廓、弯曲线条和小短线，作为独立固定装饰叠在摄影内容上方。",
+      "label": "覆盖狗照片下部并延伸到照片外侧的白色手绘线条涂鸦，包含圆形轮",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_quote_sheep",
+      "kind": "overlay",
+      "bbox": [
+        917,
+        731,
+        1012,
+        808
+      ],
+      "description": "位于右侧人物照片上方边缘附近的白色手绘小羊装饰，包含主体轮廓、脸部和短肢，独立叠加并局部压住人物照片上缘。",
+      "label": "位于右侧人物照片上方边缘附近的白色手绘小羊装饰，包含主体轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pixel_label",
+      "kind": "overlay",
+      "bbox": [
+        34,
+        987,
+        189,
+        1048
+      ],
+      "description": "位于雏菊照片左上方的白色矩形像素风标签，内部有黑色像素表情和符号，作为带图形的独立固定贴纸保留。",
+      "label": "位于雏菊照片左上方的白色矩形像素风标签，内部有黑色像素表情和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_enjoy_doodle",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        1127,
+        534,
+        1290
+      ],
+      "description": "画布下方中部的白色手绘装饰组合，包含心形、花状星点、蝴蝶结轮廓以及手写样式的“Enjoy it.”字样，整体作为一个固定艺术字涂鸦单元保留。",
+      "label": "画布下方中部的白色手绘装饰组合，包含心形、花状星点、蝴蝶结轮",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        817,
+        474,
+        1029,
+        681
+      ],
+      "description": "Real and gentle,\nRealistic but not\nSophisticated\".",
+      "label": "Real and gentle,\nRealistic but",
+      "method": "local",
+      "text": "Real and gentle,\nRealistic but not\nSophisticated\".",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_room",
+    "photo_daisies",
+    "photo_dog",
+    "photo_woman",
+    "overlay_top_sparkles",
+    "overlay_fireworks",
+    "overlay_polka_tape",
+    "overlay_pixel_label",
+    "overlay_dog_doodle",
+    "overlay_enjoy_doodle",
+    "overlay_quote_sheep",
+    "text_quote"
+  ]
+}

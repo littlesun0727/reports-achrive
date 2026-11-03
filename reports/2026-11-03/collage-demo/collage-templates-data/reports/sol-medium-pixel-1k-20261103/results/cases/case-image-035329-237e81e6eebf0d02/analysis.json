@@ -1,0 +1,265 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    900,
+    1197
+  ],
+  "objects": [
+    {
+      "id": "background_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        900,
+        1197
+      ],
+      "description": "全画布连续的浅奶黄色纸质底图，带细微纹理及不均匀色泽，四周和照片、贴纸之间均可见。保留纸底原有外观，清除并独立处理上方照片、夹子、贴纸和文字纸条。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的浅奶黄色纸质底图，带细微纹理及不均匀色泽，四周和",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        94,
+        91,
+        467,
+        587
+      ],
+      "description": "左上竖向户外自拍，一名长发女子穿粉色吊带上衣，戴项链，正面望向镜头，一只手抬至额头上方。保留蓝天、树木及远处建筑等摄影环境，完整矩形照片上沿被黑色长尾夹局部遮挡。",
+      "label": "左上竖向户外自拍，一名长发女子穿粉色吊带上衣，戴项链，正面望",
+      "method": "local"
+    },
+    {
+      "id": "photo_street",
+      "kind": "photo",
+      "bbox": [
+        550,
+        390,
+        827,
+        760
+      ],
+      "description": "右侧竖向街景照片，一名戴帽女子站在砖墙店门前，穿浅色上衣和红色短裤，手靠近脸部，一腿向右伸出，身旁有红色提包及蓝绿色衣物。保留店面、砖墙、门头文字和铺石地面；左上被猫照片遮挡，左下被冰淇淋照片及樱桃装饰遮挡。",
+      "label": "右侧竖向街景照片，一名戴帽女子站在砖墙店门前，穿浅色上衣和红",
+      "method": "local"
+    },
+    {
+      "id": "photo_icecream",
+      "kind": "photo",
+      "bbox": [
+        295,
+        662,
+        606,
+        1077
+      ],
+      "description": "中下方竖向静物照片，两个装有浅黄色冰淇淋球的纸杯放在金属托盘上，杯身分别为红褐色和绿色，附近有勺子、绿白条纹吸管及印字纸张。保留灰色桌面和背景，完整矩形窗口上缘被樱桃贴纸遮挡，右侧被英文纸条和餐盘装饰局部遮挡。",
+      "label": "中下方竖向静物照片，两个装有浅黄色冰淇淋球的纸杯放在金属托盘",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        474,
+        177,
+        675,
+        431
+      ],
+      "description": "上方偏右的一只灰色短毛猫，正面低头看向镜头，双耳竖起，身体横向展开，一条前腿向下垂伸。沿完整猫主体组合去除摄影背景，轮廓外围有宽白色描边；下垂前腿覆盖街景照片的左上边缘。",
+      "label": "上方偏右的一只灰色短毛猫，正面低头看向镜头，双耳竖起，身体横",
+      "method": "local"
+    },
+    {
+      "id": "overlay_clip",
+      "kind": "overlay",
+      "bbox": [
+        235,
+        9,
+        326,
+        117
+      ],
+      "description": "夹在左上人物照片上沿的黑色长尾夹，包含黑色夹体、银色金属折线手柄及反光边缘。手柄向上伸至纸底区域，夹体压住照片，作为一个完整固定装饰保留。",
+      "label": "夹在左上人物照片上沿的黑色长尾夹，包含黑色夹体、银色金属折线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_emoji_bubble",
+      "kind": "overlay",
+      "bbox": [
+        507,
+        53,
+        721,
+        163
+      ],
+      "description": "上方白色圆角对话框贴纸，左下有尖角，边缘带轻微阴影。内部横向排列三个黄色圆脸表情，脸颊、眼睛和嘴部图案与白色载体整体保留。",
+      "label": "上方白色圆角对话框贴纸，左下有尖角，边缘带轻微阴影。内部横向",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_smile",
+      "kind": "overlay",
+      "bbox": [
+        699,
+        157,
+        858,
+        370
+      ],
+      "description": "右上白底紫红色手绘双层对话泡装饰，上方小泡内为五个深色圆点，下方大泡内写有“Smile”。包含外围短线点缀、全部轮廓和下方尖尾，保留特定手写字形，不拆为普通文字。",
+      "label": "右上白底紫红色手绘双层对话泡装饰，上方小泡内为五个深色圆点，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cherry",
+      "kind": "overlay",
+      "bbox": [
+        394,
+        508,
+        608,
+        696
+      ],
+      "description": "画面中央的心形樱桃贴纸，包含蓝黄白棋盘格心形底板、红色樱桃及果梗、外围小星光和白边手写“Cherry”字样。整个贴纸覆盖人物照片右下角、街景照片左侧及冰淇淋照片上沿。",
+      "label": "画面中央的心形樱桃贴纸，包含蓝黄白棋盘格心形底板、红色樱桃及",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_love",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        612,
+        305,
+        751
+      ],
+      "description": "左侧蓝色椭圆对话泡贴纸，带红色外边、右下尖尾及立体阴影文字“LOVE YOURSELFFFF”。内部两处浅黄色星形图案带“CANDY”小字，所有字形、底板和点缀作为一个完整装饰保留。",
+      "label": "左侧蓝色椭圆对话泡贴纸，带红色外边、右下尖尾及立体阴影文字“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_russian_1",
+      "kind": "overlay",
+      "bbox": [
+        136,
+        749,
+        299,
+        805
+      ],
+      "description": "略倾斜的浅色纸条，上印紫灰色俄文“я люблю”。保留纸条完整边缘、纸面质感和印刷字样，作为独立叠贴单元。",
+      "label": "略倾斜的浅色纸条，上印紫灰色俄文“я люблю”。保留纸条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_russian_2",
+      "kind": "overlay",
+      "bbox": [
+        70,
+        842,
+        287,
+        882
+      ],
+      "description": "左侧第二条浅色横向纸条，上印紫灰色俄文“тебя больше”。文字属于纸条载体，纸边、轻微色差和原有排版整体保留。",
+      "label": "左侧第二条浅色横向纸条，上印紫灰色俄文“тебя больш",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_russian_3",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        906,
+        277,
+        946
+      ],
+      "description": "左侧第三条浅色横向纸条，上印紫灰色俄文“всего на свете.”。保留完整纸条与文字，和上下纸条分开记录。",
+      "label": "左侧第三条浅色横向纸条，上印紫灰色俄文“всего на с",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_russian_4",
+      "kind": "overlay",
+      "bbox": [
+        40,
+        974,
+        265,
+        1026
+      ],
+      "description": "左下浅色纸条，上写深蓝色手写俄文“БИЛЕТ НА ПОЕЗД В”。纸条上角略圆，保留纸面、边缘及不规则手写笔画。",
+      "label": "左下浅色纸条，上写深蓝色手写俄文“БИЛЕТ НА ПОЕЗ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_russian_5",
+      "kind": "overlay",
+      "bbox": [
+        68,
+        1048,
+        331,
+        1105
+      ],
+      "description": "左下略倾斜的长条浅色纸片，上写深蓝色手写俄文“ТВОЕ НЕПРЕСТУПНОЕ”。右端叠在冰淇淋照片左下边缘，保留完整纸条及原有字形。",
+      "label": "左下略倾斜的长条浅色纸片，上写深蓝色手写俄文“ТВОЕ НЕ",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_russian_6",
+      "kind": "overlay",
+      "bbox": [
+        162,
+        1118,
+        289,
+        1168
+      ],
+      "description": "底部独立浅色小纸条，上写深蓝色手写俄文“СЕРДЦЕ”。保留纸片边缘、微小倾斜及手写字形，不与上方相隔的纸条合并。",
+      "label": "底部独立浅色小纸条，上写深蓝色手写俄文“СЕРДЦЕ”。保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_best_label",
+      "kind": "overlay",
+      "bbox": [
+        592,
+        782,
+        859,
+        852
+      ],
+      "description": "街景照片下方的浅粉米色横向纸标签，内部规则深蓝色衬线大写字样“YOU’RE THE BEST”。文字属于带纹理的纸质载体，纸边、上下细线及整体印刷外观共同保留，左端覆盖冰淇淋照片右缘。",
+      "label": "街景照片下方的浅粉米色横向纸标签，内部规则深蓝色衬线大写字样",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_breakfast_plate",
+      "kind": "overlay",
+      "bbox": [
+        568,
+        895,
+        886,
+        1174
+      ],
+      "description": "右下大型手绘早餐餐盘贴纸，包含带黄色外缘和深色双圈的白色餐盘、长有表情与手脚的吐司、橙红色食物、煎蛋及右侧餐具。整组图案具有共同白色轮廓，作为一个完整装饰保留，左上部分覆盖冰淇淋照片。",
+      "label": "右下大型手绘早餐餐盘贴纸，包含带黄色外缘和深色双圈的白色餐盘",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_paper",
+    "photo_portrait",
+    "photo_street",
+    "photo_icecream",
+    "overlay_clip",
+    "overlay_emoji_bubble",
+    "photo_cat",
+    "overlay_smile",
+    "overlay_cherry",
+    "overlay_love",
+    "overlay_russian_1",
+    "overlay_russian_2",
+    "overlay_russian_3",
+    "overlay_russian_4",
+    "overlay_russian_5",
+    "overlay_russian_6",
+    "overlay_best_label",
+    "overlay_breakfast_plate"
+  ]
+}

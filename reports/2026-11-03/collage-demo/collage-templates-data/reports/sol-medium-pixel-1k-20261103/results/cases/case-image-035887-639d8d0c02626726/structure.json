@@ -1,0 +1,160 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        719,
+        1089
+      ],
+      "description": "左侧竖幅近距离购物场景照片，年轻女性戴浅色帽子、穿黑色衣服，面向镜头并举着一只棕白色毛绒玩偶；人物和玩偶占据前景，商店货架及室内环境完整保留。照片沿画布左边、上边和下边显示，右边在 x=719 处与青绿色图案面板形成清晰直边。"
+    },
+    {
+      "id": "panel_pattern",
+      "kind": "overlay",
+      "bbox": [
+        719,
+        0,
+        1080,
+        1089
+      ],
+      "description": "右侧贯穿全高的青绿色竖向底板，均布浅薄荷色圆点，并有零散较亮的柔和圆点效果；作为独立固定图案面板保留，内含一张照片及底部文字区域。"
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        750,
+        339,
+        1059,
+        751
+      ],
+      "description": "右侧面板中的竖幅商店照片，女性戴浅色帽子、穿黑色服装并抱着棕白色毛绒玩偶，人物以较完整的站姿呈现，货架、商品和店内环境仍可见。照片窗口四周有粗糙手绘白色轮廓，轮廓沿照片边缘延伸并随照片一并记录；照片压在图案面板上。"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        752,
+        133,
+        860,
+        285
+      ],
+      "description": "右上面板内浅薄荷色斜向箭头贴纸，带细小浅色字样及环绕箭头的虚线轨迹，作为一个完整装饰单元保留。"
+    },
+    {
+      "id": "overlay_music_top",
+      "kind": "overlay",
+      "bbox": [
+        20,
+        43,
+        218,
+        207
+      ],
+      "description": "左上照片区域上的青绿色音乐装饰组合，包含大型高音谱号、两枚音符和数颗小星形点缀，整体作为一组固定图案保留。"
+    },
+    {
+      "id": "overlay_heart_text",
+      "kind": "overlay",
+      "bbox": [
+        585,
+        528,
+        687,
+        617
+      ],
+      "description": "主照片右侧的青绿色装饰字样“I ♥ mint”，爱心带浅色星点纹样，文字与图形共同构成独立设计单元。"
+    },
+    {
+      "id": "overlay_music_bottom",
+      "kind": "overlay",
+      "bbox": [
+        530,
+        919,
+        688,
+        1076
+      ],
+      "description": "主照片下部的青绿色音乐装饰组合，包含大型高音谱号、音符和小星形点缀，作为一组固定图案保留。"
+    },
+    {
+      "id": "overlay_heart_marks",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        442,
+        223,
+        488
+      ],
+      "description": "主照片左侧玩偶上方的青绿色“<333”装饰字样，保留其原有字形和位置。"
+    },
+    {
+      "id": "overlay_lower_marks",
+      "kind": "overlay",
+      "bbox": [
+        472,
+        771,
+        582,
+        819
+      ],
+      "description": "主照片中下部黑色衣物上的青绿色“<333”装饰字样，保留其原有字形和位置。"
+    },
+    {
+      "id": "overlay_inset_marks",
+      "kind": "overlay",
+      "bbox": [
+        980,
+        663,
+        1080,
+        712
+      ],
+      "description": "右侧小照片右下边缘附近的青绿色“<33”装饰字样，部分延伸至画布右边缘，作为独立图形文字保留。"
+    },
+    {
+      "id": "overlay_top_marks",
+      "kind": "overlay",
+      "bbox": [
+        713,
+        421,
+        814,
+        471
+      ],
+      "description": "主照片与右侧面板交界处的青绿色“<333”装饰字样，横跨照片和面板边界，压在两者之上。"
+    },
+    {
+      "id": "text_panel",
+      "kind": "text",
+      "bbox": [
+        746,
+        927,
+        1065,
+        1055
+      ],
+      "text": "I miss u (TωT) o···\nI miss u (TωT) o···\nI miss u (TωT) o···",
+      "color": "#E7FFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "panel_pattern",
+    "photo_main",
+    "photo_inset",
+    "overlay_music_top",
+    "overlay_heart_text",
+    "overlay_music_bottom",
+    "overlay_heart_marks",
+    "overlay_lower_marks",
+    "overlay_inset_marks",
+    "overlay_top_marks",
+    "overlay_arrow",
+    "text_panel"
+  ]
+}

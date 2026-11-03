@@ -1,0 +1,146 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_background",
+    "description": "浅米色旧纸质感与细密斑驳纹理连续覆盖全画布，四周及各元素间隙均可见同一纸面；保留纸底，独立照片、文字和装饰分别处理。"
+  },
+  "objects": [
+    {
+      "id": "title_lockup",
+      "kind": "overlay",
+      "bbox": [
+        120,
+        118,
+        468,
+        195
+      ],
+      "description": "上方居中的标题组合：大写衬线字“COMMEMORATE”，下方为中文书法“长久之约”；两行字形风格不同但共同构成固定标题设计。"
+    },
+    {
+      "id": "upper_chinese_poem",
+      "kind": "overlay",
+      "bbox": [
+        91,
+        217,
+        279,
+        500
+      ],
+      "description": "左上方两段重复的中文手写诗句，共十行，笔迹为深色书法风格；作为完整的固定文字设计保留，不拆分为普通排版文字。"
+    },
+    {
+      "id": "stamp_photo",
+      "kind": "photo",
+      "bbox": [
+        211,
+        584,
+        383,
+        798
+      ],
+      "description": "中央邮票内的竖幅黑白照片，画面中可见两人牵手及身体局部，人物以近景裁切呈现，背景含建筑墙面和地面；保留照片自身完整矩形显示区域。"
+    },
+    {
+      "id": "postage_frame",
+      "kind": "frame",
+      "bbox": [
+        183,
+        550,
+        413,
+        833
+      ],
+      "description": "围绕中央照片的浅色邮票式纸框，外缘为不规则齿孔边，含框内上方“LOVE POST”、下方“NO.0829”及邮票纸面纹理，整体作为承载照片的固定框体保留。",
+      "photo_id": [
+        "stamp_photo"
+      ]
+    },
+    {
+      "id": "sample_cancellation",
+      "kind": "overlay",
+      "bbox": [
+        374,
+        531,
+        449,
+        580
+      ],
+      "description": "邮票右上方独立的圆形“Sample”印章及数道弧形邮戳线，压在邮票框外缘上方，作为一组固定邮政装饰保留。"
+    },
+    {
+      "id": "original_cancellation",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        777,
+        228,
+        842
+      ],
+      "description": "邮票左下方跨出框边的圆形邮戳，含手写式“Original”字样与小星形印记，作为独立固定印章装饰保留。"
+    },
+    {
+      "id": "dear_you_lettering",
+      "kind": "overlay",
+      "bbox": [
+        275,
+        790,
+        459,
+        855
+      ],
+      "description": "邮票下缘前方的红褐色书法艺术字“Dear you”，连同环绕字形的弧线整体保留；其上方附近的“2026”小字属于邮票设计的一部分。"
+    },
+    {
+      "id": "lower_poem",
+      "kind": "text",
+      "bbox": [
+        91,
+        885,
+        283,
+        1106
+      ],
+      "text": "Shall I compare thee to\na summer's day?\nThou art more lovely\nand more temperate:\nRough winds do shake\nthe darling buds of\nMay,\nAnd summer's lease\nhath all too short a date:\nBut thy eternal summer\nshall not fade.",
+      "color": "#211D18",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "pressed_flower",
+      "kind": "photo",
+      "bbox": [
+        336,
+        932,
+        526,
+        1237
+      ],
+      "description": "右下方一朵浅褐色干燥花的独立主体照片，正面花朵占据上部，细长弯曲花茎向下延伸至画布底部附近；花瓣与花茎完整可见，周围纸面仍可见，无明显矩形照片边界。"
+    },
+    {
+      "id": "poem_attribution",
+      "kind": "text",
+      "bbox": [
+        360,
+        1136,
+        531,
+        1169
+      ],
+      "text": "Text excerpt from Sonnet 18\nJuly 28, 2026",
+      "color": "#211D18",
+      "font": "serif",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "stamp_photo",
+    "postage_frame",
+    "sample_cancellation",
+    "original_cancellation",
+    "dear_you_lettering",
+    "title_lockup",
+    "upper_chinese_poem",
+    "lower_poem",
+    "pressed_flower",
+    "poem_attribution"
+  ]
+}

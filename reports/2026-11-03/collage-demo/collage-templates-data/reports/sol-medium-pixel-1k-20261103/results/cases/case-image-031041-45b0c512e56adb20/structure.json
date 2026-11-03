@@ -1,0 +1,229 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "无人物的海边日落远景，蓝灰色天空、橙黄色地平线及下方深色海岸呈明显失焦。摄影场景在画布四边连续露出，中部被剪贴板整体遮挡，支持其为覆盖全画布的连续照片；替换范围包含完整天空、海面与海岸，失焦不视为透明渐隐。"
+  },
+  "objects": [
+    {
+      "id": "overlay_clipboard",
+      "kind": "overlay",
+      "bbox": [
+        145,
+        109,
+        951,
+        1303
+      ],
+      "description": "棕色硬质剪贴板、上方深色金属夹及夹下的淡黄色横线纸共同组成固定承托设计。保留金属反光、纸张横线与左侧竖线、板材纹理、边缘及阴影；其上相机、卡片、照片和贴纸均另列，不并入此单元。"
+    },
+    {
+      "id": "frame_camera",
+      "kind": "frame",
+      "bbox": [
+        228,
+        448,
+        669,
+        737
+      ],
+      "description": "银灰色数码相机背面造型，左侧屏幕形成一个照片窗口，右侧按钮、图标、刻字、顶部凸起和机身阴影整体保留。屏幕摄影内容独立替换，两条格纹胶带及屏幕左下角标签另列。",
+      "photo_id": [
+        "photo_camera"
+      ]
+    },
+    {
+      "id": "photo_camera",
+      "kind": "photo",
+      "bbox": [
+        269,
+        516,
+        529,
+        713
+      ],
+      "description": "相机屏幕内的海边人物照片：一人位于中央偏右，穿浅色宽松上衣和深色下装，双手举到脸前拍摄，显示约大半身；身后蓝色海水、浪花及脚下沙滩均保留。完整显示范围为屏幕内口，左下局部被标签和圆点遮挡，无主体出框。"
+    },
+    {
+      "id": "overlay_camera_tape_top",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        432,
+        333,
+        534
+      ],
+      "description": "相机左上角斜贴的浅色黑灰格纹胶带，保留完整斜向纸条、格线和边缘；压住相机机身上沿。"
+    },
+    {
+      "id": "overlay_camera_tape_bottom",
+      "kind": "overlay",
+      "bbox": [
+        546,
+        653,
+        689,
+        758
+      ],
+      "description": "相机右下角斜贴的浅色黑灰格纹胶带，完整保留格线和不规则纸边，覆盖机身右下部并延伸至黄色纸底。"
+    },
+    {
+      "id": "overlay_next_day",
+      "kind": "overlay",
+      "bbox": [
+        205,
+        606,
+        370,
+        756
+      ],
+      "description": "叠贴在相机屏幕左下区域的标签装饰组，包含蓝色“Next”和“Day”字样的白色小纸片、中间空白纸片、黑色“06”圆标及下方灰色圆点。保留各纸片倾斜关系、细线、纸边与整组排布，不拆成普通文字。"
+    },
+    {
+      "id": "overlay_cassette",
+      "kind": "overlay",
+      "bbox": [
+        699,
+        460,
+        884,
+        728
+      ],
+      "description": "竖放的透明灰色磁带装饰，完整保留塑料壳、两个卷轴、黑色磁带与白色标签。可辨印字包括“Road Trip Mix”“DR-I”“90”“FUJI”；它是固定装饰，不是可替换照片窗口。"
+    },
+    {
+      "id": "overlay_star_labels",
+      "kind": "overlay",
+      "bbox": [
+        669,
+        421,
+        778,
+        551
+      ],
+      "description": "磁带左上角的三枚错落叠贴星星纸片组成一组装饰：上方浅色纸片为黑色实心星，右侧和下方米棕纸片为手绘空心星。保留纸片轮廓、各自角度与叠贴关系，压住磁带左上部。"
+    },
+    {
+      "id": "frame_shell_card",
+      "kind": "frame",
+      "bbox": [
+        238,
+        823,
+        515,
+        1166
+      ],
+      "description": "左下白色圆角照片卡，具有一个上部照片窗口和较宽下边栏，下边栏右侧带黑色空心爱心。保留卡纸外形和一体爱心印记；顶部及底部棕色文字标签、左侧叠放小相纸均另列。",
+      "photo_id": [
+        "photo_shells"
+      ]
+    },
+    {
+      "id": "photo_shells",
+      "kind": "photo",
+      "bbox": [
+        246,
+        833,
+        505,
+        1086
+      ],
+      "description": "俯拍深棕色沙地上的贝壳与海星组合，无人物。浅色贝壳散布在中下部，两枚海星位于上部偏左和右下；完整保留沙地摄影环境。照片显示于白色卡片的近方形内口，上沿被文字标签、左缘被小相纸局部遮挡。"
+    },
+    {
+      "id": "overlay_cloud_label",
+      "kind": "overlay",
+      "bbox": [
+        356,
+        824,
+        542,
+        860
+      ],
+      "description": "压在贝壳照片卡上沿的棕色窄纸标签，黑色手写字分两行：“The Summer white clouds”“look unusually lazy”。文字与纸条作为完整固定装饰保留，右端伸出照片卡。"
+    },
+    {
+      "id": "overlay_weather_label",
+      "kind": "overlay",
+      "bbox": [
+        206,
+        1096,
+        425,
+        1144
+      ],
+      "description": "贴在左下照片卡宽白边上的棕色纸标签，黑色手写字分两行：“The weather”“report was very good”。保留纸条、字形和排布，左端越过白卡边缘。"
+    },
+    {
+      "id": "frame_small_polaroid",
+      "kind": "frame",
+      "bbox": [
+        165,
+        860,
+        285,
+        994
+      ],
+      "description": "倾斜叠放在贝壳照片左侧的小型米白拍立得相纸，包含单个照片内口、宽下白边及右下粉红小星星印记。相纸压住大照片卡左缘，保留完整纸边和一体星星。",
+      "photo_id": [
+        "photo_city"
+      ]
+    },
+    {
+      "id": "photo_city",
+      "kind": "photo",
+      "bbox": [
+        178,
+        875,
+        268,
+        970
+      ],
+      "description": "小拍立得内的深色城市夜景照片，可见建筑、灯光与街道，无清晰可辨人物。摄影环境完整保留，显示范围随倾斜相纸内口，底部受相纸白边裁切。"
+    },
+    {
+      "id": "frame_portrait",
+      "kind": "frame",
+      "bbox": [
+        553,
+        804,
+        870,
+        1217
+      ],
+      "description": "右下竖向浅灰白纹理相纸，单个大照片窗口下方留有宽纸边，宽边带细小淡色印字及纸面纹理。完整保留相纸材质、边缘和附属印字；顶部棕色圆点胶带另列。",
+      "photo_id": [
+        "photo_portrait"
+      ]
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        564,
+        831,
+        855,
+        1133
+      ],
+      "description": "海边木栈道上的单人照片：短发人物穿浅色外套与深色裤子，身体朝画面右侧行走并回头看镜头，呈大半身至腿部景别。木栏杆、栈道、蓝色海面和远山完整保留；照片位于竖向相纸内口，顶部局部被圆点胶带遮挡，无沿主体轮廓去背景或出框。"
+    },
+    {
+      "id": "overlay_dot_tape",
+      "kind": "overlay",
+      "bbox": [
+        657,
+        789,
+        773,
+        842
+      ],
+      "description": "右下相纸顶部的棕色白圆点胶带，横向贴放，带不规则撕裂纸边；同时覆盖相纸上边与照片窗口顶端，圆点图案随胶带整体保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_clipboard",
+    "frame_camera",
+    "photo_camera",
+    "overlay_camera_tape_top",
+    "overlay_camera_tape_bottom",
+    "overlay_next_day",
+    "overlay_cassette",
+    "overlay_star_labels",
+    "frame_shell_card",
+    "photo_shells",
+    "overlay_cloud_label",
+    "overlay_weather_label",
+    "frame_small_polaroid",
+    "photo_city",
+    "frame_portrait",
+    "photo_portrait",
+    "overlay_dot_tape"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#10A6BF"
+      }
+    },
+    {
+      "id": "photo_coast",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下半画布的横向海湾风景照片，无人物。前景松树围绕蓝绿色海水与浅色岩岸，远处可见山脊、海面和浅蓝天空；完整摄影环境共同替换。照片上沿为水平直线，左右及下沿抵达画布边缘，无可见描边或透明渐隐。",
+      "label": "下半画布的横向海湾风景照片，无人物。前景松树围绕蓝绿色海水与",
+      "method": "local"
+    },
+    {
+      "id": "text_location_time",
+      "kind": "text",
+      "bbox": [
+        320,
+        337,
+        752,
+        423
+      ],
+      "description": "Calanque d'En-vau, Cassis\n12:43 05/01",
+      "label": "Calanque d'En-vau, Cassis\n12:4",
+      "method": "local",
+      "text": "Calanque d'En-vau, Cassis\n12:43 05/01",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_coast",
+    "text_location_time"
+  ]
+}

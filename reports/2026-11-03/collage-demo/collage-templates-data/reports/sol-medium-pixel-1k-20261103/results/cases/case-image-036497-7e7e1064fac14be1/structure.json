@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        540
+      ],
+      "description": "顶部横向夜间游行照片，画面中有海盗船造型花车、穿玩偶服饰的表演者和前景观众，观众举起手机拍摄；保留完整的夜空、建筑、灯光与人群摄影环境，矩形照片边界与中部照片直接相接。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        540,
+        1080,
+        1080
+      ],
+      "description": "中部横向室内或半室内舞台演出照片，红色和粉色灯光照亮舞台、舞者、挥手的观众及大量手机屏幕；保留完整的舞台空间、灯光烟雾和人群摄影环境，矩形照片边界与上下照片相接。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1080,
+        1080,
+        1620
+      ],
+      "description": "底部横向夜间户外表演照片，中央为带紫色与绿色发光装饰的花车或舞台，前方有表演者和密集观众，周围可见树木与路灯；保留完整的夜景、人群、灯光和表演环境，矩形照片延伸至画布底边。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

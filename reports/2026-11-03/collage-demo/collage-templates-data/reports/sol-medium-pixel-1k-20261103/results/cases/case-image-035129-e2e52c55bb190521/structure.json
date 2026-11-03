@@ -1,0 +1,64 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_night_city",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1024,
+        684
+      ],
+      "description": "横向夜景城市滨水照片，完整画面包含多栋高层建筑、岸边红色灯光地标、前景水面及倒影；无可见人物，摄影环境保留在矩形显示区域内，照片下缘与纸面区域相接。"
+    },
+    {
+      "id": "overlay_paper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        683,
+        1024,
+        1536
+      ],
+      "description": "下半幅浅米色纹理纸张，覆盖画布下方并延伸至左右及底边；左侧可见不规则撕边，上缘与夜景照片相接，纸纹作为固定底板保留。"
+    },
+    {
+      "id": "overlay_city_print",
+      "kind": "overlay",
+      "bbox": [
+        317,
+        856,
+        1000,
+        1408
+      ],
+      "description": "印在纸面上的做旧城市版画组合：多栋高低错落的建筑剪影、中央红色地标、深色横向岸线以及下方浅蓝灰与红色水面倒影；各部分构成一幅完整固定图案，保留其斑驳印刷质感。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        96,
+        1390,
+        355,
+        1440
+      ],
+      "text": "Light writes the city,\\nwater keeps the memory.",
+      "color": "#30251F",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_night_city",
+    "overlay_paper",
+    "overlay_city_print",
+    "text_caption"
+  ]
+}

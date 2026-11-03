@@ -1,0 +1,352 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        440
+      ],
+      "description": "上部海边摄影画面，包含灰蓝色海水、沙滩、礁石、右上白色栏杆，以及中央偏右占据大幅画面的橙黄色花状物。保留摄影环境，无独立人物主体；下部被文字条和贝壳照片遮挡，具体下边界部分不清晰，不将其扩为全画布底图。",
+      "label": "上部海边摄影画面，包含灰蓝色海水、沙滩、礁石、右上白色栏杆，",
+      "method": "local"
+    },
+    {
+      "id": "photo_shells",
+      "kind": "photo",
+      "bbox": [
+        0,
+        391,
+        1080,
+        915
+      ],
+      "description": "中部独立贝壳近景照片，左侧是褐色圆形贝壳，右侧是浅黄白色带深褐斑纹的长形贝壳，中央还露出粉白色贝壳和深色间隙。摄影环境保留，完整显示区域横贯画布；中央大部分被棕榈树照片覆盖，上缘被文字和人物照片遮住，下缘与底部照片形成水平接缝。",
+      "label": "中部独立贝壳近景照片，左侧是褐色圆形贝壳，右侧是浅黄白色带深",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        914,
+        1080,
+        1350
+      ],
+      "description": "底部独立物件近景照片，浅灰纹样布面与带汉字的褐色纸面上摆放红色小牌、金色扣链及人物造型挂件；下缘露出写有“Just Smile”的指甲。上述文字和物件均属于实拍内容，随照片替换。保留完整摄影环境，上部被心形人物照片及文字条局部遮挡。",
+      "label": "底部独立物件近景照片，浅灰纹样布面与带汉字的褐色纸面上摆放红",
+      "method": "local"
+    },
+    {
+      "id": "photo_palms",
+      "kind": "photo",
+      "bbox": [
+        188,
+        466,
+        881,
+        856
+      ],
+      "description": "中央横向矩形海滨照片，蓝灰天空下中央是一棵高大棕榈树，右侧还有较小棕榈树，底部可见海面、岸边及远处小人物。完整保留摄影背景，边界清晰，没有独立框体；右上部分被竖向人物照片覆盖，左下部分被心形双人照片覆盖。",
+      "label": "中央横向矩形海滨照片，蓝灰天空下中央是一棵高大棕榈树，右侧还",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        881,
+        91,
+        1066,
+        338
+      ],
+      "description": "右上竖向女性近景照片，一名女子佩戴粉黄花朵组成的华丽头饰，黑发盘起，脸朝左侧，画面左缘露出手机，底部可见粉色衣领。保留身后的摄影背景，按完整矩形窗口显示，无独立框体。",
+      "label": "右上竖向女性近景照片，一名女子佩戴粉黄花朵组成的华丽头饰，黑",
+      "method": "local"
+    },
+    {
+      "id": "photo_full_body",
+      "kind": "photo",
+      "bbox": [
+        730,
+        289,
+        928,
+        554
+      ],
+      "description": "右侧中上部竖向全身人物照片，一名戴花饰的女子穿浅色长裙及粉色披帛，站在红砖与灰色墙面前，身体略侧向，双手位于身前。墙上字样属于摄影环境。矩形照片完整保留背景，右上区域被上方女性近景照片遮挡，下部压住棕榈树照片。",
+      "label": "右侧中上部竖向全身人物照片，一名戴花饰的女子穿浅色长裙及粉色",
+      "method": "local"
+    },
+    {
+      "id": "photo_heart",
+      "kind": "photo",
+      "bbox": [
+        39,
+        715,
+        346,
+        993
+      ],
+      "description": "左下心形显示的双人照片，两名戴墨镜的长发女子并肩站立，左侧穿浅棕色外套，右侧穿浅灰色外套，身后保留屋瓦、墙面和栏杆。照片沿心形边界显示，外围有柔白色发光及边缘渐柔效果；不是沿人物轮廓去背景，整体叠在贝壳、棕榈树及底部物件照片之上。",
+      "label": "左下心形显示的双人照片，两名戴墨镜的长发女子并肩站立，左侧穿",
+      "method": "local"
+    },
+    {
+      "id": "overlay_top_quote",
+      "kind": "overlay",
+      "bbox": [
+        89,
+        159,
+        420,
+        201
+      ],
+      "description": "浅米白色窄纸条与黑色中文印字构成一个固定标签，可辨文字为“道别与问候在匆匆一瞥间”。保留纸边、底色和原有字形，不拆成独立文字。",
+      "label": "浅米白色窄纸条与黑色中文印字构成一个固定标签，可辨文字为“道",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_middle_quote",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        390,
+        712,
+        439
+      ],
+      "description": "横跨画面左中部的浅米白色长纸条，带黑色中文“我偏爱不把一切都归咎于理性的想法。”；边缘略不齐，纸底和整段印字作为完整固定标签保留。",
+      "label": "横跨画面左中部的浅米白色长纸条，带黑色中文“我偏爱不把一切都",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_identity_quote",
+      "kind": "overlay",
+      "bbox": [
+        263,
+        940,
+        513,
+        996
+      ],
+      "description": "位于心形照片右下方的浅色纸条，黑色较大字样为“我就是我。”。纸条与字形整体保留，左上局部与心形照片邻接。",
+      "label": "位于心形照片右下方的浅色纸条，黑色较大字样为“我就是我。”。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_memory_quote",
+      "kind": "overlay",
+      "bbox": [
+        52,
+        1188,
+        329,
+        1237
+      ],
+      "description": "左下第一条浅色纸质文字标签，黑字为“我摇动我的记忆”，保留完整纸边、底色及印字。",
+      "label": "左下第一条浅色纸质文字标签，黑字为“我摇动我的记忆”，保留完",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_branch_quote",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        1256,
+        334,
+        1307
+      ],
+      "description": "左下第二条独立浅色纸质文字标签，与上一条之间留有明显间隙，黑字为“也许在它枝桠间”。保留完整载体和字形。",
+      "label": "左下第二条独立浅色纸质文字标签，与上一条之间留有明显间隙，黑",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_rose_quote",
+      "kind": "overlay",
+      "bbox": [
+        522,
+        1175,
+        997,
+        1229
+      ],
+      "description": "右下浅米白色长纸条，覆盖挂件照片，可辨黑字为“等候自己开放成玫瑰。”，末端另有闭合引号。整条纸底、印字及边缘作为一个固定装饰保留。",
+      "label": "右下浅米白色长纸条，覆盖挂件照片，可辨黑字为“等候自己开放成",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_purple_top",
+      "kind": "overlay",
+      "bbox": [
+        135,
+        57,
+        171,
+        134
+      ],
+      "description": "左上独立蓝紫色手绘空心水滴，长弧形两侧与底部相连，保留不均匀笔触。",
+      "label": "左上独立蓝紫色手绘空心水滴，长弧形两侧与底部相连，保留不均匀",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_pink_top",
+      "kind": "overlay",
+      "bbox": [
+        258,
+        109,
+        288,
+        161
+      ],
+      "description": "上方偏左独立粉色手绘空心水滴，轮廓窄长，保留完整笔画。",
+      "label": "上方偏左独立粉色手绘空心水滴，轮廓窄长，保留完整笔画。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_orange",
+      "kind": "overlay",
+      "bbox": [
+        352,
+        114,
+        378,
+        161
+      ],
+      "description": "上方中部独立橙色手绘空心水滴，位于粉色水滴右侧，保留完整轮廓和笔触。",
+      "label": "上方中部独立橙色手绘空心水滴，位于粉色水滴右侧，保留完整轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_green",
+      "kind": "overlay",
+      "bbox": [
+        196,
+        191,
+        222,
+        241
+      ],
+      "description": "顶端文字条下方的亮绿色手绘空心水滴，上端略压到纸条下边缘，作为独立装饰保留。",
+      "label": "顶端文字条下方的亮绿色手绘空心水滴，上端略压到纸条下边缘，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_blue",
+      "kind": "overlay",
+      "bbox": [
+        156,
+        236,
+        193,
+        310
+      ],
+      "description": "左侧中上部蓝紫色长形手绘空心水滴，底部向右鼓出，保留完整不规则笔画。",
+      "label": "左侧中上部蓝紫色长形手绘空心水滴，底部向右鼓出，保留完整不规",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_cyan",
+      "kind": "overlay",
+      "bbox": [
+        254,
+        257,
+        289,
+        321
+      ],
+      "description": "左中部浅青色手绘空心水滴，位于蓝紫色水滴右下方，保留完整轮廓。",
+      "label": "左中部浅青色手绘空心水滴，位于蓝紫色水滴右下方，保留完整轮廓",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_pink_middle",
+      "kind": "overlay",
+      "bbox": [
+        317,
+        222,
+        344,
+        274
+      ],
+      "description": "中上部浅粉色手绘空心水滴，位于青色水滴的右上方，保留原有笔触。",
+      "label": "中上部浅粉色手绘空心水滴，位于青色水滴的右上方，保留原有笔触",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_lilac_middle",
+      "kind": "overlay",
+      "bbox": [
+        386,
+        244,
+        414,
+        302
+      ],
+      "description": "中上部淡紫色手绘空心水滴，位于浅粉色水滴右侧，完整轮廓独立保留。",
+      "label": "中上部淡紫色手绘空心水滴，位于浅粉色水滴右侧，完整轮廓独立保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_yellow",
+      "kind": "overlay",
+      "bbox": [
+        337,
+        312,
+        376,
+        380
+      ],
+      "description": "长文字条上方的明黄色手绘空心水滴，底部圆弧向右展开，保留完整笔画。",
+      "label": "长文字条上方的明黄色手绘空心水滴，底部圆弧向右展开，保留完整",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_drop_lilac_lower",
+      "kind": "overlay",
+      "bbox": [
+        444,
+        320,
+        475,
+        370
+      ],
+      "description": "黄色水滴右侧独立紫色手绘空心水滴，体积较小，保留完整不规则轮廓。",
+      "label": "黄色水滴右侧独立紫色手绘空心水滴，体积较小，保留完整不规则轮",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_beach",
+    "photo_shells",
+    "photo_bottom",
+    "photo_palms",
+    "photo_full_body",
+    "photo_portrait",
+    "photo_heart",
+    "overlay_top_quote",
+    "overlay_middle_quote",
+    "overlay_identity_quote",
+    "overlay_memory_quote",
+    "overlay_branch_quote",
+    "overlay_rose_quote",
+    "overlay_drop_purple_top",
+    "overlay_drop_pink_top",
+    "overlay_drop_orange",
+    "overlay_drop_green",
+    "overlay_drop_blue",
+    "overlay_drop_cyan",
+    "overlay_drop_pink_middle",
+    "overlay_drop_lilac_middle",
+    "overlay_drop_yellow",
+    "overlay_drop_lilac_lower"
+  ]
+}

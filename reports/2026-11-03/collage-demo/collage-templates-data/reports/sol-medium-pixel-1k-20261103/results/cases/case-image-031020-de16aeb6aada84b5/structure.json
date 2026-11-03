@@ -1,0 +1,289 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "background_dots",
+    "description": "炭黑色底面铺满规则错列的粉红圆点，四边持续可见，构成完整画布的固定图案底图。保留底色与圆点纹样，中央浅灰面板、照片和白色装饰分别作为独立对象处理。"
+  },
+  "objects": [
+    {
+      "id": "overlay_panel",
+      "kind": "overlay",
+      "bbox": [
+        55,
+        58,
+        1020,
+        1384
+      ],
+      "description": "中央大幅浅灰色矩形面板，四周留出黑色粉红圆点底图；面板上保留粉红与浅白圆点及柔和明暗变化。它是整个拼贴的局部底板，不承担单张照片窗口功能。"
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        96,
+        269,
+        400,
+        665
+      ],
+      "description": "左上独立竖向照片，一名长发女子穿白色花朵上衣和彩色短裙，在玩具店内站立，双手举着小玩具，身后为密集货架。保留完整店内环境，照片略倾斜；外围深灰手绘线依附照片窗口，顶部被猪脸贴纸遮挡，左下被音符遮挡。范围包含窗口及外围线条，不仅是人物。"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        428,
+        110,
+        965,
+        514
+      ],
+      "description": "右上横向玩具店陈列照片，无人物主体，展示密集货架、红色小柜、Hello Kitty玩偶、吊挂商品和墙面盒装物品。完整矩形窗口保留全部摄影环境，下缘与右缘局部被白色星形装饰覆盖；与其他照片的取景不连续。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        617,
+        615,
+        989,
+        878
+      ],
+      "description": "中右独立椭圆形陈列照片，展示多层货架上的彩色卡通玩偶，左下有红白色球状物，右下有密集商品。摄影背景保留在完整椭圆窗口内，无人物，也未沿玩偶轮廓去背景。"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        112,
+        707,
+        577,
+        1329
+      ],
+      "description": "左下大幅竖向照片，一名长发女子正面站在玩具货架前，穿白色花朵上衣和彩色短裙，左侧手持小玩具，另一只手在身侧抬起。保留墙面、货架、玩偶和左侧绿色球体等完整摄影环境；顶部音符、右侧星形及右下猪脸装饰遮挡局部。"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        665,
+        932,
+        965,
+        1329
+      ],
+      "description": "右下独立竖向商品照片，无人物，墙上挂有圆形卡通时钟、卡片和包装商品，下部摆放Hello Kitty等玩偶及红色陈列架。保留完整矩形摄影窗口，左上角被相机贴纸局部遮挡；与右上照片虽为相似店内场景，但为不同裁切与取景。"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        83,
+        79,
+        353,
+        255
+      ],
+      "description": "左上白色手绘对话气泡，带灰黑双层不规则边线及向下尖角。内部黑色手写字可辨为“It's my lovely”“life record ♥”“happy!!”，字形、行间位置与气泡共同组成固定设计，整体保留。"
+    },
+    {
+      "id": "overlay_pig_top",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        240,
+        298,
+        322
+      ],
+      "description": "覆盖左上照片顶边的白色猪脸贴纸，包含尖耳、黑色鼻孔、灰黑轮廓和白色外缘，整枚保留，不包含下方摄影内容。"
+    },
+    {
+      "id": "overlay_music_top",
+      "kind": "overlay",
+      "bbox": [
+        332,
+        200,
+        405,
+        261
+      ],
+      "description": "左上照片右上方的双音符贴纸，深灰手绘线、白色填充和宽白外缘构成完整独立装饰。"
+    },
+    {
+      "id": "overlay_music_left",
+      "kind": "overlay",
+      "bbox": [
+        96,
+        618,
+        147,
+        695
+      ],
+      "description": "左上照片左下角的倾斜单音符贴纸，深灰线条和白色外缘完整保留，压住照片外围线及灰色面板。"
+    },
+    {
+      "id": "overlay_diary",
+      "kind": "overlay",
+      "bbox": [
+        430,
+        538,
+        729,
+        627
+      ],
+      "description": "中央“Diary”手绘艺术字，字母大小与位置不规则，具有深灰轮廓、白色内部及连续白色外缘；上方小星形作为字样的附属设计一起保留。"
+    },
+    {
+      "id": "overlay_music_middle",
+      "kind": "overlay",
+      "bbox": [
+        463,
+        663,
+        552,
+        730
+      ],
+      "description": "中央偏左的双音符贴纸，整体向一侧倾斜，深灰描线与白色宽边组成独立单元，下部覆盖左下大照片顶边。"
+    },
+    {
+      "id": "overlay_treble",
+      "kind": "overlay",
+      "bbox": [
+        589,
+        788,
+        638,
+        862
+      ],
+      "description": "两张下方照片之间、椭圆照片左下侧的高音谱号贴纸，黑灰手绘线配宽白边，完整保留曲线与底端。"
+    },
+    {
+      "id": "overlay_camera",
+      "kind": "overlay",
+      "bbox": [
+        617,
+        889,
+        732,
+        979
+      ],
+      "description": "右下照片左上角的白色相机贴纸，含双层灰黑机身轮廓、圆形镜头、小取景窗和顶部凸起，整体略倾斜并压住照片上沿。"
+    },
+    {
+      "id": "overlay_music_bottom",
+      "kind": "overlay",
+      "bbox": [
+        587,
+        1145,
+        640,
+        1213
+      ],
+      "description": "下方两张矩形照片之间的单音符贴纸，灰黑手绘轮廓与白色外边组成独立固定装饰。"
+    },
+    {
+      "id": "overlay_pig_bottom",
+      "kind": "overlay",
+      "bbox": [
+        504,
+        1221,
+        645,
+        1365
+      ],
+      "description": "底部猪脸与花束状涂鸦组成的完整白色贴纸，具有灰黑手绘轮廓、猪鼻和密集环状笔画，覆盖左下照片右下角并延伸到照片外的灰色面板。"
+    },
+    {
+      "id": "overlay_star_upper_right",
+      "kind": "overlay",
+      "bbox": [
+        955,
+        411,
+        993,
+        452
+      ],
+      "description": "右上照片右边缘的一枚白色手绘星形，跨越照片边界，整体保留。"
+    },
+    {
+      "id": "overlay_star_under_top",
+      "kind": "overlay",
+      "bbox": [
+        632,
+        497,
+        679,
+        538
+      ],
+      "description": "右上照片下缘偏左的白色星形装饰，上部覆盖摄影画面，下部落在灰色面板上。"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        730,
+        516,
+        769,
+        557
+      ],
+      "description": "右上照片下方、Diary字样右上侧的小白色星形，独立置于灰色面板上。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        809,
+        557,
+        851,
+        600
+      ],
+      "description": "椭圆照片上方偏右的白色星形装饰，完整显示于灰色面板中。"
+    },
+    {
+      "id": "overlay_star_left_middle",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        632,
+        460,
+        666
+      ],
+      "description": "Diary字样左下方、左下照片上方的一枚小白色星形，作为独立点缀保留。"
+    },
+    {
+      "id": "overlay_star_oval_left",
+      "kind": "overlay",
+      "bbox": [
+        595,
+        680,
+        640,
+        723
+      ],
+      "description": "椭圆照片左侧的白色星形，位于灰色间隙并靠近椭圆窗口左边缘。"
+    },
+    {
+      "id": "overlay_star_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        768,
+        564,
+        802
+      ],
+      "description": "左下大照片右上区域的小白色星形，覆盖货架摄影内容，独立于照片中的玩偶。"
+    }
+  ],
+  "layer_order": [
+    "overlay_panel",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_middle_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_speech",
+    "overlay_pig_top",
+    "overlay_music_top",
+    "overlay_music_left",
+    "overlay_diary",
+    "overlay_music_middle",
+    "overlay_treble",
+    "overlay_camera",
+    "overlay_music_bottom",
+    "overlay_pig_bottom",
+    "overlay_star_upper_right",
+    "overlay_star_under_top",
+    "overlay_star_center",
+    "overlay_star_right",
+    "overlay_star_left_middle",
+    "overlay_star_oval_left",
+    "overlay_star_lower_left"
+  ]
+}

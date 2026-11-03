@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1728,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "background_scene",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1728,
+        1080
+      ],
+      "description": "连续的户外摄影环境铺满画布四边，可见虚焦的绿叶、树影与浅绿色地面；中央打开的 scrapbook 页面遮挡中部区域，四周露出的环境保持连续，因此作为完整摄影底图保留并可整体替换。",
+      "background_type": "photo",
+      "label": "连续的户外摄影环境铺满画布四边，可见虚焦的绿叶、树影与浅绿色",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "frame_scrapbook",
+      "kind": "frame",
+      "bbox": [
+        78,
+        37,
+        1537,
+        1043
+      ],
+      "description": "横向展开的浅蓝与白色双页 scrapbook 纸面，带圆角、中央折页和柔和投影，作为五张独立照片的承载页面保留。页面印有粉色点阵、浅灰色星形点状图案、左上方的“[WANDER]”、右侧的“[FREELY]”及左下区域的“无数个MOMENT / 拼凑起来就是FOREVER”；这些印刷文字和装饰属于页面本身。",
+      "photo_id": [
+        "photo_hand_red_leaf",
+        "photo_bicycle_road",
+        "photo_hand_yellow_leaf",
+        "photo_tree_lake",
+        "photo_leaves_water"
+      ],
+      "label": "横向展开的浅蓝与白色双页 scrapbook 纸面，带圆角、",
+      "method": "extract"
+    },
+    {
+      "id": "photo_hand_red_leaf",
+      "kind": "photo",
+      "bbox": [
+        137,
+        91,
+        562,
+        422
+      ],
+      "description": "左上方横向照片，一只戴灰色针织手套的手托着红色枫叶，背景是散落红叶的地面；保留完整矩形摄影画面，无独立描边。",
+      "label": "左上方横向照片，一只戴灰色针织手套的手托着红色枫叶，背景是散",
+      "method": "local"
+    },
+    {
+      "id": "photo_bicycle_road",
+      "kind": "photo",
+      "bbox": [
+        451,
+        440,
+        768,
+        692
+      ],
+      "description": "左页中部横向照片，背对镜头的人骑自行车沿海边道路前行，远处有建筑、海面与晚霞；保留完整矩形摄影画面，无独立描边。",
+      "label": "左页中部横向照片，背对镜头的人骑自行车沿海边道路前行，远处有",
+      "method": "local"
+    },
+    {
+      "id": "photo_hand_yellow_leaf",
+      "kind": "photo",
+      "bbox": [
+        156,
+        716,
+        501,
+        986
+      ],
+      "description": "左下方横向照片，一只手举着黄色叶片，背景可见白色房屋、树木和秋叶；保留完整矩形摄影画面，无独立描边。",
+      "label": "左下方横向照片，一只手举着黄色叶片，背景可见白色房屋、树木和",
+      "method": "local"
+    },
+    {
+      "id": "photo_tree_lake",
+      "kind": "photo",
+      "bbox": [
+        1126,
+        151,
+        1470,
+        611
+      ],
+      "description": "右上方竖向照片，湖岸边一棵枝叶繁密的树映在水面上，树叶呈红色与深绿色；保留完整矩形摄影画面，无独立描边。",
+      "label": "右上方竖向照片，湖岸边一棵枝叶繁密的树映在水面上，树叶呈红色",
+      "method": "local"
+    },
+    {
+      "id": "photo_leaves_water",
+      "kind": "photo",
+      "bbox": [
+        851,
+        707,
+        1239,
+        944
+      ],
+      "description": "右下方横向照片，水面映出树影，数片黄色与橙色落叶漂浮其上，右侧可见岸边石面；保留完整矩形摄影画面，无独立描边。",
+      "label": "右下方横向照片，水面映出树影，数片黄色与橙色落叶漂浮其上，右",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "background_scene",
+    "frame_scrapbook",
+    "photo_hand_red_leaf",
+    "photo_bicycle_road",
+    "photo_hand_yellow_leaf",
+    "photo_tree_lake",
+    "photo_leaves_water"
+  ]
+}

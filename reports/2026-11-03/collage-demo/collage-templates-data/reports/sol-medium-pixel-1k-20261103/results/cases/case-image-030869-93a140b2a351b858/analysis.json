@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_ocean_lawn",
+      "kind": "photo",
+      "bbox": [
+        50,
+        60,
+        545,
+        802
+      ],
+      "description": "左上竖幅海岸与草坪景观照片，包含海面、岩岸、树木、草地和棕榈树，完整矩形照片窗口可见。",
+      "label": "左上竖幅海岸与草坪景观照片，包含海面、岩岸、树木、草地和棕榈",
+      "method": "local"
+    },
+    {
+      "id": "photo_sunset_portrait",
+      "kind": "photo",
+      "bbox": [
+        675,
+        569,
+        1014,
+        1078
+      ],
+      "description": "右侧竖幅人物照片，一名女性穿浅色无袖上衣，侧身仰头望向海边天空，人物位于画面下半部；保留海面、暮色天空及栏杆等摄影环境。照片下缘压住下方云景照片的右上区域。",
+      "label": "右侧竖幅人物照片，一名女性穿浅色无袖上衣，侧身仰头望向海边天",
+      "method": "local"
+    },
+    {
+      "id": "photo_cloud_palms",
+      "kind": "photo",
+      "bbox": [
+        360,
+        1013,
+        900,
+        1373
+      ],
+      "description": "下方横幅天空照片，几棵棕榈树剪影位于左侧和下缘，云层与夕照天空占据主要画面；右上部分被人物照片遮挡。",
+      "label": "下方横幅天空照片，几棵棕榈树剪影位于左侧和下缘，云层与夕照天",
+      "method": "local"
+    },
+    {
+      "id": "lettering_notes",
+      "kind": "overlay",
+      "bbox": [
+        69,
+        864,
+        648,
+        1077
+      ],
+      "description": "左侧棕色手写中文短句，分为两段共四行，笔画具有手写造型，作为完整字样设计保留；下方照片靠近其右下方，未遮挡可见字迹。",
+      "label": "左侧棕色手写中文短句，分为两段共四行，笔画具有手写造型，作为",
+      "method": "extract"
+    },
+    {
+      "id": "lettering_time",
+      "kind": "overlay",
+      "bbox": [
+        879,
+        490,
+        1010,
+        539
+      ],
+      "description": "右上方深棕色装饰字样“6PM.”，粗笔画带有复古印刷质感，作为完整字样设计保留。",
+      "label": "右上方深棕色装饰字样“6PM.”，粗笔画带有复古印刷质感，作",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_ocean_lawn",
+    "photo_cloud_palms",
+    "photo_sunset_portrait",
+    "lettering_notes",
+    "lettering_time"
+  ]
+}

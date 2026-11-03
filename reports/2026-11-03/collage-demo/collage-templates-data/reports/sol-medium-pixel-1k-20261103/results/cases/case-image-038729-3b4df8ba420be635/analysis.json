@@ -1,0 +1,132 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立生活方式照片，画面包含打开的笔记本电脑、屏幕中的人物阅读画面、桌面上的石榴碗、玩偶、藤编篮、折叠书页和笔筒等完整摄影环境；矩形照片延伸至画布左边、上边及中部接缝，右侧和下侧与相邻照片拼接。",
+      "label": "左上独立生活方式照片，画面包含打开的笔记本电脑、屏幕中的人物",
+      "method": "local"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立俯拍照片，棕色床面和白色布料上放置木质托盘，托盘内有洗护用品和香水瓶；完整摄影环境保留，矩形照片延伸至画布上边、右边及中部接缝。",
+      "label": "右上独立俯拍照片，棕色床面和白色布料上放置木质托盘，托盘内有",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立生活方式照片，棕色织物背景上有藤编托盘、条纹布、折叠书页、饮料瓶和白色花朵装饰；完整摄影环境保留，矩形照片延伸至画布左边、下边及中部接缝。",
+      "label": "左下独立生活方式照片，棕色织物背景上有藤编托盘、条纹布、折叠",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立俯拍生活方式照片，浅色桌面和织物上摆放打开的书、石榴碗、藤编篮及穿戴派对帽的卷发玩偶；完整摄影环境保留，矩形照片延伸至画布右边、下边及中部接缝。",
+      "label": "右下独立俯拍生活方式照片，浅色桌面和织物上摆放打开的书、石榴",
+      "method": "local"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        89,
+        684,
+        1005,
+        755
+      ],
+      "description": "27岁 裸辞宝妈做自媒体Day 8",
+      "label": "27岁 裸辞宝妈做自媒体Day 8",
+      "method": "local",
+      "text": "27岁 裸辞宝妈做自媒体Day 8",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        540,
+        857,
+        1037,
+        908
+      ],
+      "description": "💛📈粉2022的blog起号sop",
+      "label": "💛📈粉2022的blog起号sop",
+      "method": "local",
+      "text": "💛📈粉2022的blog起号sop",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "text_title",
+    "text_subtitle"
+  ]
+}

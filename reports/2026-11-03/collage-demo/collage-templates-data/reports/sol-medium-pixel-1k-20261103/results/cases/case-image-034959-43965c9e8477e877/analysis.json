@@ -1,0 +1,83 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "餐厅室内与一兰拉面店面构成连续的全画布摄影环境，木质墙面、中央店面招牌、窗户和室内光线延伸至四边；上层两张抠图拉面照片及白色描边遮挡局部，背景环境整体保留并可由客户照片替换。",
+      "background_type": "photo",
+      "label": "餐厅室内与一兰拉面店面构成连续的全画布摄影环境，木质墙面、中",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_ramen_top",
+      "kind": "photo",
+      "bbox": [
+        8,
+        0,
+        678,
+        598
+      ],
+      "description": "上方独立拉面摄影单元，包含一只盛有汤面、葱和辣油的黑色拉面碗、汤勺、筷子，以及后方可见的配菜小碗和海苔；主体组合沿不规则轮廓显示，保留白色主体描边，摄影环境大部分被去除。",
+      "label": "上方独立拉面摄影单元，包含一只盛有汤面、葱和辣油的黑色拉面碗",
+      "method": "local"
+    },
+    {
+      "id": "photo_ramen_bottom",
+      "kind": "photo",
+      "bbox": [
+        292,
+        744,
+        1067,
+        1440
+      ],
+      "description": "下方独立拉面摄影单元，包含黑色拉面碗、汤面、葱、木耳、半熟鸡蛋、叉烧肉、海苔和汤勺；沿完整主体组合保留不规则白色描边，摄影环境被去除，底部主体延伸至画布下边并被画布裁切。",
+      "label": "下方独立拉面摄影单元，包含黑色拉面碗、汤面、葱、木耳、半熟鸡",
+      "method": "local"
+    },
+    {
+      "id": "overlay_ramen_title",
+      "kind": "overlay",
+      "bbox": [
+        594,
+        18,
+        908,
+        340
+      ],
+      "description": "右上方白色手写风格艺术字“ramen ramen”，沿斜向排列并悬置在餐厅摄影背景上；字形、粗糙边缘和整体倾斜位置作为独立固定装饰保留。",
+      "label": "右上方白色手写风格艺术字“ramen ramen”，沿斜向排",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_ichiran_title",
+      "kind": "overlay",
+      "bbox": [
+        132,
+        802,
+        506,
+        1188
+      ],
+      "description": "左下方白色手写风格艺术字“ichiran ramen”，沿斜向路径排列并位于下方拉面照片左侧及上方背景区域；保留原有字形、间距、倾斜方向和不规则边缘，作为独立固定装饰处理。",
+      "label": "左下方白色手写风格艺术字“ichiran ramen”，沿斜",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_ramen_top",
+    "photo_ramen_bottom",
+    "overlay_ramen_title",
+    "overlay_ichiran_title"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "background_cafe",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的户外咖啡馆摄影画面铺满画布，包含建筑立面、桌椅、树木与绿植；画面边缘及中央半透明深色矩形之外均可见同一场景，深色面板和食物主体遮挡局部。保留完整摄影环境作为可替换底图。",
+      "background_type": "photo",
+      "label": "连续的户外咖啡馆摄影画面铺满画布，包含建筑立面、桌椅、树木与",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_dark_panel",
+      "kind": "overlay",
+      "bbox": [
+        167,
+        220,
+        913,
+        1221
+      ],
+      "description": "覆盖画面中央的大幅半透明深灰色矩形面板，边缘笔直，咖啡馆背景仍透出其下；独立保留面板及其透明效果。",
+      "label": "覆盖画面中央的大幅半透明深灰色矩形面板，边缘笔直，咖啡馆背景",
+      "method": "extract"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        197,
+        318,
+        884,
+        1125
+      ],
+      "description": "一组去除原摄影背景的餐食主体：上方为盛有拿铁的杯碟，下方为装有两份吐司、鸡蛋、奶酪和蔬菜配料的大白盘，整体略呈斜向构图。主体组合外沿有连续的手绘白色粗线描边，摄影背景不保留。",
+      "label": "一组去除原摄影背景的餐食主体：上方为盛有拿铁的杯碟，下方为装",
+      "method": "local"
+    },
+    {
+      "id": "overlay_yellow_doodles",
+      "kind": "overlay",
+      "bbox": [
+        194,
+        242,
+        884,
+        760
+      ],
+      "description": "围绕咖啡及其上方区域散布的黄色手绘装饰组合，包括星形闪光、小圆点、两颗爱心及亮光效果，并夹有数个半透明彩色泡泡；作为独立装饰整体保留。",
+      "label": "围绕咖啡及其上方区域散布的黄色手绘装饰组合，包括星形闪光、小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_delicious",
+      "kind": "overlay",
+      "bbox": [
+        437,
+        266,
+        645,
+        435
+      ],
+      "description": "沿斜向排列的白色手写风格字样“delicious”，字形和倾斜排布构成艺术字装饰，位于画面上方偏中部。",
+      "label": "沿斜向排列的白色手写风格字样“delicious”，字形和倾",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_good_day",
+      "kind": "overlay",
+      "bbox": [
+        676,
+        815,
+        869,
+        1157
+      ],
+      "description": "白色手写风格的弧形文字“have a good day”，沿餐盘右侧弯曲向下排列，保留其特殊字形与整体弧线排布。",
+      "label": "白色手写风格的弧形文字“have a good day”，沿",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yummy",
+      "kind": "overlay",
+      "bbox": [
+        182,
+        1077,
+        444,
+        1201
+      ],
+      "description": "左下方白色手写艺术字“Yummy”，带有手绘下划线及小型表情符号点缀，整体作为一组文字装饰保留。",
+      "label": "左下方白色手写艺术字“Yummy”，带有手绘下划线及小型表情",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_doodle",
+      "kind": "overlay",
+      "bbox": [
+        735,
+        1101,
+        977,
+        1254
+      ],
+      "description": "右下方奶油色猫脸贴纸，带深色手绘五官、胡须、耳朵及旁侧音乐符号，保留完整外轮廓和内部线稿。",
+      "label": "右下方奶油色猫脸贴纸，带深色手绘五官、胡须、耳朵及旁侧音乐符",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_cafe",
+    "overlay_dark_panel",
+    "overlay_delicious",
+    "overlay_yellow_doodles",
+    "photo_food",
+    "overlay_good_day",
+    "overlay_yummy",
+    "overlay_cat_doodle"
+  ]
+}

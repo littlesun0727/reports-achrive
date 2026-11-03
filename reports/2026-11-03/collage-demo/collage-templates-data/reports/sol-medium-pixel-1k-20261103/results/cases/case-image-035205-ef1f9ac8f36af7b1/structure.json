@@ -1,0 +1,54 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续的暖白色固定底面覆盖整个1080×1662画布，照片、下方丝带装饰和品牌文字均为独立叠加单元；底面保留原有干净的浅色外观。"
+  },
+  "objects": [
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        28,
+        28,
+        1051,
+        1393
+      ],
+      "description": "竖向咖啡馆摄影画面，前景是一名戴红色帽子和红绿围巾的人物，手持叉子靠近桌面，面前有一盘切块华夫饼和水果甜点；中景可见桌椅及其他用餐者，背景有大窗、植物、室内装饰和地面光影。人物位于画面下半部中央，摄影环境完整保留，矩形照片边界延伸至该显示区域四边。"
+    },
+    {
+      "id": "overlay_ribbon",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1390,
+        1080,
+        1662
+      ],
+      "description": "照片下方暖白区域中的半透明浅金色缎带装饰，包含从左侧进入并在中央及右侧形成多个宽大环形弯曲的完整丝带图案，作为独立固定设计保留，品牌文字叠加在其上方。"
+    },
+    {
+      "id": "text_brand",
+      "kind": "text",
+      "bbox": [
+        317,
+        1507,
+        764,
+        1552
+      ],
+      "text": "OPPO Reno15 Pro",
+      "color": "#171717",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_cafe",
+    "overlay_ribbon",
+    "text_brand"
+  ]
+}

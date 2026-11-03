@@ -1,0 +1,124 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_scene",
+    "description": "连续的全画布摄影场景：深色木质窗框与顶部格栅围住窗外的浅蓝天空、石像、树木、花坛和步道。窗框及户外环境在画布边缘和中央区域保持连续；上层照片卡片与人物遮挡部分画面，底图仍延伸至四边并整体保留为可替换摄影内容。"
+  },
+  "objects": [
+    {
+      "id": "photo_temple_rect",
+      "kind": "photo",
+      "bbox": [
+        210,
+        62,
+        885,
+        519
+      ],
+      "description": "上方横向矩形照片，展示树木环绕的中式亭阁，保留亭阁、树冠和天空的完整摄影环境。照片边缘带白色圆角描边，描边沿照片窗口延伸；照片压在全画布场景上方。"
+    },
+    {
+      "id": "photo_temple_bubble",
+      "kind": "photo",
+      "bbox": [
+        589,
+        557,
+        926,
+        888
+      ],
+      "description": "右侧不规则云状窗口中的亭阁照片，包含树叶、屋顶、建筑和少量人物，摄影环境保留在窗口内。白色粗描边沿窗口轮廓，照片覆盖全画布场景；周围另有白色手绘短线装饰。"
+    },
+    {
+      "id": "photo_statue_person",
+      "kind": "photo",
+      "bbox": [
+        8,
+        860,
+        596,
+        1578
+      ],
+      "description": "左下方背对画面的单人上半身抠图，人物头发扎成低马尾，穿格纹上衣，朝向画面中央。背景不保留，人物轮廓带深绿色手绘描边，覆盖底图中的步道和花坛。"
+    },
+    {
+      "id": "photo_inset",
+      "kind": "photo",
+      "bbox": [
+        575,
+        1012,
+        896,
+        1447
+      ],
+      "description": "右下方竖向照片，画面上半部为石像与天空，下半部为草坪、栏杆及一名站立并向右伸腿的女性；保留照片内完整摄影环境。照片位于白色圆角相纸窗口内。"
+    },
+    {
+      "id": "frame_inset",
+      "kind": "frame",
+      "bbox": [
+        560,
+        997,
+        912,
+        1464
+      ],
+      "description": "承载右下竖向照片的白色圆角相纸框，具有明显的白色边沿并完整环绕单一照片窗口；框体局部压在左侧人物轮廓及底图之上。",
+      "photo_id": [
+        "photo_inset"
+      ]
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        174,
+        441,
+        305,
+        554
+      ],
+      "description": "上方照片左下侧的两枚叠置手绘星形装饰，一枚浅青色实心线条星形和一枚浅绿色空心星形，跨在照片边缘及其下方区域。"
+    },
+    {
+      "id": "overlay_bubble_marks",
+      "kind": "overlay",
+      "bbox": [
+        599,
+        597,
+        952,
+        829
+      ],
+      "description": "云状亭阁照片周边的白色手绘点缀，包括左上短线、右侧短线及照片下部的弧形笔画，作为一组独立装饰保留。"
+    },
+    {
+      "id": "overlay_person_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        831,
+        161,
+        929
+      ],
+      "description": "左侧人物头部上方的白色手绘闪光符号，由菱形星光和小型十字点构成，位于人物轮廓之外并叠在底图上。"
+    },
+    {
+      "id": "overlay_inset_sparkle",
+      "kind": "overlay",
+      "bbox": [
+        520,
+        1417,
+        582,
+        1488
+      ],
+      "description": "右下照片框左下侧的白色手绘星形装饰，跨近人物轮廓与相纸框边缘，作为独立固定点缀保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_temple_rect",
+    "photo_temple_bubble",
+    "overlay_top_stars",
+    "overlay_bubble_marks",
+    "photo_statue_person",
+    "overlay_person_sparkle",
+    "photo_inset",
+    "frame_inset",
+    "overlay_inset_sparkle"
+  ]
+}

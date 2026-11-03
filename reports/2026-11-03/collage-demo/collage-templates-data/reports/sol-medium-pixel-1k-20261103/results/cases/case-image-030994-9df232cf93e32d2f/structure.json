@@ -1,0 +1,182 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_bg",
+    "description": "贯穿全画布的白色活页纸底，带均匀灰黑小点纹理；左侧可见纵向装订线及三组金属活页环。照片、文字和贴纸为独立叠加单元，纸面纹理与装订结构保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_fruit_close",
+      "kind": "photo",
+      "bbox": [
+        302,
+        185,
+        474,
+        357
+      ],
+      "description": "左上方小幅方形近景照片，橙色与绿色水果造型物及白色缎带置于浅色桌面上，摄影环境保留；周围深绿色宽边是独立固定承托框。"
+    },
+    {
+      "id": "frame_green",
+      "kind": "frame",
+      "bbox": [
+        263,
+        147,
+        513,
+        396
+      ],
+      "description": "深绿色方形厚边照片框，包围单张方形照片，完整保留绿色框体。",
+      "photo_id": [
+        "photo_fruit_close"
+      ]
+    },
+    {
+      "id": "photo_still_life",
+      "kind": "photo",
+      "bbox": [
+        551,
+        149,
+        878,
+        394
+      ],
+      "description": "右上横向静物照片，白色桌面与帘幕前摆放多件橙绿水果造型物，左侧有白瓶插花、右侧有小盆栽；保留完整摄影环境。"
+    },
+    {
+      "id": "photo_rotated_fruit",
+      "kind": "photo",
+      "bbox": [
+        187,
+        436,
+        518,
+        685
+      ],
+      "description": "中左横向照片，桌面上的橙绿水果造型物与缎带呈侧向排列，浅色帘幕和桌面均保留；与其他静物照片为独立取景。"
+    },
+    {
+      "id": "photo_rotated_plant",
+      "kind": "photo",
+      "bbox": [
+        557,
+        444,
+        877,
+        684
+      ],
+      "description": "中右横向照片，一只手托着装有深绿色植被的棕色花盆，绿色枝叶延伸至黄色花朵，背景为浅色帘幕；保留摄影环境。"
+    },
+    {
+      "id": "photo_green_fruit",
+      "kind": "photo",
+      "bbox": [
+        195,
+        821,
+        434,
+        1077
+      ],
+      "description": "左下方竖幅近景照片，浅色台面上的绿色水果造型物缠绕白色缎带，主体旁有细长绿色枝条；摄影背景保留，照片外缘由浅绿色圆角线框出。"
+    },
+    {
+      "id": "overlay_green_outline",
+      "kind": "overlay",
+      "bbox": [
+        187,
+        813,
+        444,
+        1085
+      ],
+      "description": "围绕左下照片窗口的浅绿色圆角外框线，依附照片边缘之外形成完整边框。"
+    },
+    {
+      "id": "photo_tomato_hand",
+      "kind": "photo",
+      "bbox": [
+        723,
+        1156,
+        971,
+        1407
+      ],
+      "description": "右下方方形照片，一只手托着红色番茄，背景有粉色与棕色店面招牌及咖啡相关字样；背景文字属于摄影内容并随照片替换，外缘由浅橙色圆角线框出。"
+    },
+    {
+      "id": "overlay_orange_outline",
+      "kind": "overlay",
+      "bbox": [
+        715,
+        1148,
+        981,
+        1416
+      ],
+      "description": "围绕右下照片窗口的浅橙色圆角外框线，完整包围照片边缘。"
+    },
+    {
+      "id": "overlay_fruit_doodles",
+      "kind": "overlay",
+      "bbox": [
+        781,
+        96,
+        984,
+        176
+      ],
+      "description": "右上方三个黑色手绘水果拟人涂鸦，带表情与短梗，整体作为一组独立线描装饰保留。"
+    },
+    {
+      "id": "overlay_apple_doodle",
+      "kind": "overlay",
+      "bbox": [
+        876,
+        836,
+        934,
+        898
+      ],
+      "description": "中文段落右侧的红色手绘苹果图案，带绿色叶片与短线装饰，作为一个独立小插画保留。"
+    },
+    {
+      "id": "text_chinese_note",
+      "kind": "text",
+      "bbox": [
+        480,
+        858,
+        1028,
+        1045
+      ],
+      "text": "自带清冷绿意的青苹果，\n是夏天最干净的温柔。\n没有黏人的甜腻，只有恰到好处\n的酸甜脆爽，一口咔嚓脆响，瞬间\n抚平所有燥热与烦躁。",
+      "color": "#171717",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_summer_note",
+      "kind": "text",
+      "bbox": [
+        247,
+        1214,
+        662,
+        1352
+      ],
+      "text": "Quiet Summer\n不用热烈的甜\n淡淡的清爽，刚刚好",
+      "color": "#171717",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_fruit_close",
+    "frame_green",
+    "photo_still_life",
+    "photo_rotated_fruit",
+    "photo_rotated_plant",
+    "photo_green_fruit",
+    "overlay_green_outline",
+    "text_chinese_note",
+    "overlay_apple_doodle",
+    "text_summer_note",
+    "photo_tomato_hand",
+    "overlay_orange_outline",
+    "overlay_fruit_doodles"
+  ]
+}

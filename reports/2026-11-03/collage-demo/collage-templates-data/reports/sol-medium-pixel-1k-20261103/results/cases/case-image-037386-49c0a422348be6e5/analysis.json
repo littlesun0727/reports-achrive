@@ -1,0 +1,167 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "black_texture",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "黑色带细微斑驳纹理的底图，露在中央海报、右上照片、唱片、吉他和波形周围并延伸至画布边缘；保留纹理，不含这些独立单元。",
+      "background_type": "reference_clean",
+      "label": "黑色带细微斑驳纹理的底图，露在中央海报、右上照片、唱片、吉他",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_seaside",
+      "kind": "photo",
+      "bbox": [
+        150,
+        159,
+        734,
+        937
+      ],
+      "description": "中央竖向海边画面，天空、云层、海面和右侧一名站立的女性共同构成连续摄影内容；女性为中远景，面向画面，海面与天空保留在同一矩形显示区域。画面上可见的文字和装饰图形与摄影内容的边界不完全清晰，未将其另行拆分。",
+      "label": "中央竖向海边画面，天空、云层、海面和右侧一名站立的女性共同构",
+      "method": "local"
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        938,
+        61,
+        1080,
+        440
+      ],
+      "description": "右上方独立竖向照片，蓝天、树枝和橙黄色秋叶共同构成摄影画面，沿画布上边、右边裁切。",
+      "label": "右上方独立竖向照片，蓝天、树枝和橙黄色秋叶共同构成摄影画面，",
+      "method": "local"
+    },
+    {
+      "id": "photo_record_label",
+      "kind": "photo",
+      "bbox": [
+        686,
+        432,
+        907,
+        741
+      ],
+      "description": "黑色唱片中央圆形标签内的蓝色云天与亮白云层摄影画面，显示为圆形窗口，部分被中央海边画面遮挡。",
+      "label": "黑色唱片中央圆形标签内的蓝色云天与亮白云层摄影画面，显示为圆",
+      "method": "local"
+    },
+    {
+      "id": "overlay_record",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        365,
+        978,
+        808
+      ],
+      "description": "右侧大型黑色唱片，包含完整深色圆盘、外缘和中央圆形标签的承托区域；唱片部分被中央海边画面遮住。",
+      "label": "右侧大型黑色唱片，包含完整深色圆盘、外缘和中央圆形标签的承托",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cable",
+      "kind": "overlay",
+      "bbox": [
+        740,
+        232,
+        887,
+        467
+      ],
+      "description": "从唱片上方向下弯曲的白色音频线及末端接头，作为完整一体装饰保留，压在唱片上方。",
+      "label": "从唱片上方向下弯曲的白色音频线及末端接头，作为完整一体装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_guitar",
+      "kind": "overlay",
+      "bbox": [
+        108,
+        708,
+        320,
+        1044
+      ],
+      "description": "左下方倾斜的紫红色电吉他贴纸，包含琴身、琴颈、琴头、浅色不规则外边和细节，跨在海边画面左下角与黑色底图上。",
+      "label": "左下方倾斜的紫红色电吉他贴纸，包含琴身、琴颈、琴头、浅色不规",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_waveform",
+      "kind": "overlay",
+      "bbox": [
+        621,
+        969,
+        930,
+        1028
+      ],
+      "description": "画布下方偏右的白色音频波形与两侧点状短线，作为一组独立图形保留。",
+      "label": "画布下方偏右的白色音频波形与两侧点状短线，作为一组独立图形保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_stars",
+      "kind": "overlay",
+      "bbox": [
+        183,
+        692,
+        431,
+        832
+      ],
+      "description": "海边画面左下区域的多枚白色手绘星形及小点装饰，整体作为一组固定图形保留，局部靠近吉他贴纸。",
+      "label": "海边画面左下区域的多枚白色手绘星形及小点装饰，整体作为一组固",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cloud_icon",
+      "kind": "overlay",
+      "bbox": [
+        197,
+        445,
+        252,
+        502
+      ],
+      "description": "海边画面左侧的小型白色云朵状卡通图标，带蓝绿色内部细节和旁侧小圆点，作为完整独立装饰保留。",
+      "label": "海边画面左侧的小型白色云朵状卡通图标，带蓝绿色内部细节和旁侧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_silhouette_outline",
+      "kind": "overlay",
+      "bbox": [
+        266,
+        375,
+        584,
+        745
+      ],
+      "description": "海面与天空前方的不规则白色手绘人形轮廓线，内部仍显示海边摄影内容；按完整可见轮廓作为固定装饰保留。",
+      "label": "海面与天空前方的不规则白色手绘人形轮廓线，内部仍显示海边摄影",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "black_texture",
+    "photo_autumn",
+    "overlay_record",
+    "photo_record_label",
+    "photo_seaside",
+    "overlay_stars",
+    "overlay_cloud_icon",
+    "overlay_silhouette_outline",
+    "overlay_guitar",
+    "overlay_cable",
+    "overlay_waveform"
+  ]
+}

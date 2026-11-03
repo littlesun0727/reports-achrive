@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "background_pattern",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "连续覆盖全画布的浅灰绿色柔和渐变底图，带均匀分布的白色星形图案和轻微朦胧纹理；三张照片、胶带和手写字样覆盖局部，照片替换时保留该固定背景原样。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的浅灰绿色柔和渐变底图，带均匀分布的白色星形图",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_meadow_person",
+      "kind": "photo",
+      "bbox": [
+        92,
+        86,
+        791,
+        612
+      ],
+      "description": "横向户外照片，画面中一名戴棕色宽檐帽、穿白色上衣和浅色裤子的人背对镜头站在开满黄色花朵的草地中，远处可见蓝色水面和天空；完整矩形显示区域保留摄影环境，右下方被另一张照片遮挡。",
+      "label": "横向户外照片，画面中一名戴棕色宽檐帽、穿白色上衣和浅色裤子的",
+      "method": "local"
+    },
+    {
+      "id": "photo_picnic_scene",
+      "kind": "photo",
+      "bbox": [
+        456,
+        438,
+        1017,
+        1180
+      ],
+      "description": "竖向户外野餐照片，包含木质小屋、草地、松树、餐桌、餐具、饮品和花卉布置；完整照片窗口带有沿四周的粗糙白色手绘描边，左上区域覆盖上方草地照片，左下区域覆盖松鼠照片。",
+      "label": "竖向户外野餐照片，包含木质小屋、草地、松树、餐桌、餐具、饮品",
+      "method": "local"
+    },
+    {
+      "id": "photo_squirrel",
+      "kind": "photo",
+      "bbox": [
+        103,
+        967,
+        559,
+        1567
+      ],
+      "description": "竖向近景自然照片，一只灰色与棕色相间的松鼠趴在林地落叶、松针和泥土上进食；完整照片窗口带有粗糙白色手绘描边，右上方被野餐照片局部遮挡。",
+      "label": "竖向近景自然照片，一只灰色与棕色相间的松鼠趴在林地落叶、松针",
+      "method": "local"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        46,
+        48,
+        230,
+        214
+      ],
+      "description": "斜向贴在上方草地照片左上角的浅绿色格纹胶带，包含半透明纸张质感、白色格线和完整不规则边缘，作为独立固定装饰保留。",
+      "label": "斜向贴在上方草地照片左上角的浅绿色格纹胶带，包含半透明纸张质",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_leader_lettering",
+      "kind": "overlay",
+      "bbox": [
+        563,
+        192,
+        1009,
+        293
+      ],
+      "description": "位于上方照片右上区域并延伸到背景上的白色手写中文艺术字“最好的领队”，右侧带黄色点赞表情，底部连接浅绿色手绘下划线；字形、表情、线条和手绘效果作为一个固定装饰整体保留。",
+      "label": "位于上方照片右上区域并延伸到背景上的白色手写中文艺术字“最好",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_picnic_lettering",
+      "kind": "overlay",
+      "bbox": [
+        271,
+        756,
+        639,
+        862
+      ],
+      "description": "位于两张下方照片之间的白色手写中文艺术字“森林野餐”，下方带浅绿色手绘下划线，线条向右延伸至野餐照片区域；文字造型和装饰线作为独立艺术字单元整体保留。",
+      "label": "位于两张下方照片之间的白色手写中文艺术字“森林野餐”，下方带",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "background_pattern",
+    "photo_meadow_person",
+    "photo_squirrel",
+    "photo_picnic_scene",
+    "overlay_tape",
+    "overlay_leader_lettering",
+    "overlay_picnic_lettering"
+  ]
+}

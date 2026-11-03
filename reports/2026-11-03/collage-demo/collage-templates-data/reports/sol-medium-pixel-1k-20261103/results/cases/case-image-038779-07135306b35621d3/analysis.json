@@ -1,0 +1,189 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "连续的城市街景摄影画面覆盖整个画布，包含中央拱门、两侧建筑、蓝天、街道、树木、行人和车辆。前景中央是一名穿黄色针织背心、白衬衫和黑色短裙的女性，手提白色包；右下中景有一名穿粉色长裙的女性。摄影内容延伸至四条画布边缘，标题、标签和引文覆盖上方局部但未改变底图范围。",
+      "background_type": "photo",
+      "label": "连续的城市街景摄影画面覆盖整个画布，包含中央拱门、两侧建筑、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "title_main",
+      "kind": "text",
+      "bbox": [
+        241,
+        87,
+        803,
+        375
+      ],
+      "description": "纽约秋天\n日常vlog",
+      "label": "纽约秋天\n日常vlog",
+      "method": "local",
+      "text": "纽约秋天\n日常vlog",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "copyright_mark",
+      "kind": "text",
+      "bbox": [
+        812,
+        101,
+        862,
+        153
+      ],
+      "description": "©",
+      "label": "©",
+      "method": "local",
+      "text": "©",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "label_dream",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        394,
+        275,
+        480
+      ],
+      "description": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“梦要”，保留标签的完整纸边、文字和倾斜构图。",
+      "label": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“梦要”，保留标",
+      "method": "extract"
+    },
+    {
+      "id": "label_personally",
+      "kind": "overlay",
+      "bbox": [
+        267,
+        384,
+        405,
+        467
+      ],
+      "description": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“亲自”，作为独立固定贴纸保留完整轮廓和文字。",
+      "label": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“亲自”，作为独",
+      "method": "extract"
+    },
+    {
+      "id": "label_realize",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        376,
+        531,
+        456
+      ],
+      "description": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“实现”，保留纸张边缘、黑色字形和独立贴纸形态。",
+      "label": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“实现”，保留纸",
+      "method": "extract"
+    },
+    {
+      "id": "label_world",
+      "kind": "overlay",
+      "bbox": [
+        542,
+        393,
+        711,
+        478
+      ],
+      "description": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“世界要”，保留完整标签轮廓及其独立叠贴关系。",
+      "label": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“世界要”，保留",
+      "method": "extract"
+    },
+    {
+      "id": "label_see",
+      "kind": "overlay",
+      "bbox": [
+        732,
+        388,
+        936,
+        478
+      ],
+      "description": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“亲自去看”，保留完整纸张外形、文字和倾斜排列。",
+      "label": "一张略微倾斜的浅黄色纸质标签，带黑色粗体中文“亲自去看”，保",
+      "method": "extract"
+    },
+    {
+      "id": "quote_text",
+      "kind": "text",
+      "bbox": [
+        279,
+        518,
+        803,
+        590
+      ],
+      "description": "Life is like a box of chocolates.\nYou never know what you're gonna get.",
+      "label": "Life is like a box of chocolat",
+      "method": "local",
+      "text": "Life is like a box of chocolates.\nYou never know what you're gonna get.",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "bottom_small_text",
+      "kind": "text",
+      "bbox": [
+        107,
+        1348,
+        971,
+        1426
+      ],
+      "description": "无法辨认的独立文字",
+      "label": "无法辨认的独立文字",
+      "method": "local",
+      "text": null,
+      "text_status": "unreadable",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "mono",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "title_main",
+    "copyright_mark",
+    "label_dream",
+    "label_personally",
+    "label_realize",
+    "label_world",
+    "label_see",
+    "quote_text",
+    "bottom_small_text"
+  ]
+}

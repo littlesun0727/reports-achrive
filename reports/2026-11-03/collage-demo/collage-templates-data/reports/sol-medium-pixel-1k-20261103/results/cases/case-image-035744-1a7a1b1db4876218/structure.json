@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的室外建筑摄影画面延伸至画布四边，可见红褐色砖墙、浅色墙面、黑色金属栏杆、枝叶和深色石材墙面；四张独立照片遮挡其中大部分区域，照片之间及画布边缘露出的场景保持连续。"
+  },
+  "objects": [
+    {
+      "id": "photo_products",
+      "kind": "photo",
+      "bbox": [
+        43,
+        68,
+        537,
+        727
+      ],
+      "description": "左上方竖向照片，灌木前的白色石台上摆着绿色、粉色和黄色饮品纸盒，保留叶丛、石台及地面等完整摄影环境；矩形照片边界清晰。"
+    },
+    {
+      "id": "photo_drink",
+      "kind": "photo",
+      "bbox": [
+        579,
+        229,
+        1042,
+        849
+      ],
+      "description": "右上方竖向近景照片，一只戴黑色手表和戒指的手在吧台上用长匙搅拌透明杯中的棕色饮料，前景可见金属摇壶和器具；保留人物手部、吧台及室内环境，矩形照片边界清晰。"
+    },
+    {
+      "id": "photo_bridge",
+      "kind": "photo",
+      "bbox": [
+        66,
+        753,
+        600,
+        1383
+      ],
+      "description": "左下方竖向城市景观照片，黄昏蓝粉色天空下的斜拉桥居中，桥下有棕榈树和城市建筑；保留完整天空与景观环境，矩形照片边界清晰。"
+    },
+    {
+      "id": "photo_coconut",
+      "kind": "photo",
+      "bbox": [
+        600,
+        929,
+        1050,
+        1529
+      ],
+      "description": "右下方竖向近景照片，一只手倾倒切开的绿色椰子，将液体倒入金属锅中，锅内可见食材；后方有餐具和桌面，保留完整室内摄影环境，矩形照片边界清晰。"
+    }
+  ],
+  "layer_order": [
+    "photo_products",
+    "photo_drink",
+    "photo_bridge",
+    "photo_coconut"
+  ]
+}

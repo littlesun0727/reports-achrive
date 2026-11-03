@@ -1,0 +1,211 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    720,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        720,
+        1280
+      ],
+      "description": "全画布为连续的黑白雨窗摄影，无人物。右侧近景玻璃布满水滴，粗黑窗框纵向及斜向穿过画面，窗外建筑与横向结构模糊可见；左侧为同一场景中近乎全黑的室内暗部。摄影内容延伸至画布四边，左侧叠加白色文字，没有独立照片接缝。替换范围包含雨滴、窗框、窗外环境和左侧暗部。",
+      "background_type": "photo",
+      "label": "全画布为连续的黑白雨窗摄影，无人物。右侧近景玻璃布满水滴，粗",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_day",
+      "kind": "text",
+      "bbox": [
+        48,
+        475,
+        78,
+        498
+      ],
+      "description": "01",
+      "label": "01",
+      "method": "local",
+      "text": "01",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_month",
+      "kind": "text",
+      "bbox": [
+        83,
+        481,
+        116,
+        496
+      ],
+      "description": "Dec",
+      "label": "Dec",
+      "method": "local",
+      "text": "Dec",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        45,
+        565,
+        217,
+        650
+      ],
+      "description": "Last\nChapter",
+      "label": "Last\nChapter",
+      "method": "local",
+      "text": "Last\nChapter",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_title_dash",
+      "kind": "text",
+      "bbox": [
+        230,
+        614,
+        266,
+        642
+      ],
+      "description": "—",
+      "label": "—",
+      "method": "local",
+      "text": "—",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_body",
+      "kind": "text",
+      "bbox": [
+        49,
+        696,
+        250,
+        821
+      ],
+      "description": "Challenge myself for\ntrying Black & White\nPhotography.\n\nSemoga bisa konsisten\ndan mendapat pengalaman\nserta nambahin pengetahuan\ntentang genre fotografi ini.",
+      "label": "Challenge myself for\ntrying Bl",
+      "method": "local",
+      "text": "Challenge myself for\ntrying Black & White\nPhotography.\n\nSemoga bisa konsisten\ndan mendapat pengalaman\nserta nambahin pengetahuan\ntentang genre fotografi ini.",
+      "text_status": "known",
+      "style": {
+        "fill": "#EAEAEA",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_photo_credit",
+      "kind": "text",
+      "bbox": [
+        51,
+        858,
+        164,
+        873
+      ],
+      "description": "pict @syhdrbin_",
+      "label": "pict @syhdrbin_",
+      "method": "local",
+      "text": "pict @syhdrbin_",
+      "text_status": "known",
+      "style": {
+        "fill": "#EAEAEA",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_created_by",
+      "kind": "text",
+      "bbox": [
+        51,
+        963,
+        140,
+        979
+      ],
+      "description": "created by",
+      "label": "created by",
+      "method": "local",
+      "text": "created by",
+      "text_status": "known",
+      "style": {
+        "fill": "#EAEAEA",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_creator",
+      "kind": "text",
+      "bbox": [
+        51,
+        983,
+        169,
+        1001
+      ],
+      "description": "nandafauzan",
+      "label": "nandafauzan",
+      "method": "local",
+      "text": "nandafauzan",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "text_day",
+    "text_month",
+    "text_title",
+    "text_title_dash",
+    "text_body",
+    "text_photo_credit",
+    "text_created_by",
+    "text_creator"
+  ]
+}

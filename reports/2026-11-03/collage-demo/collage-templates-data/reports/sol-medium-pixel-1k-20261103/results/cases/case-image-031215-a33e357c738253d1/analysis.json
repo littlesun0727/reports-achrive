@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内市集商店摄影环境覆盖整张画布，包含木质梁柱、砖墙、展柜、灯具、商品和地面，内容延伸至四边；三张独立照片、标题牌、蝴蝶结及白色涂鸦覆盖局部，底层环境保留并可由客户照片整体替换。",
+      "background_type": "photo",
+      "label": "连续的室内市集商店摄影环境覆盖整张画布，包含木质梁柱、砖墙、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        96,
+        40,
+        575,
+        680
+      ],
+      "description": "左上方竖向人物照片，年轻女性长发半身站在砖墙与市集摊位之间，身体朝向镜头并略向右倾，保留人物、街巷、商品和自然光构成的完整摄影画面；照片为矩形窗口，右侧与下方被其他构图元素邻接或遮挡。",
+      "label": "左上方竖向人物照片，年轻女性长发半身站在砖墙与市集摊位之间，",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        574,
+        81,
+        1035,
+        700
+      ],
+      "description": "右上方横向室内商店照片，展示木梁、砖墙、橱窗、灯具和彩色编织包等商品，保留完整店铺环境和矩形显示范围；下缘附近叠有白色星点与虚线装饰。",
+      "label": "右上方横向室内商店照片，展示木梁、砖墙、橱窗、灯具和彩色编织",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        465,
+        700,
+        954,
+        1350
+      ],
+      "description": "右下方竖向人物照片，年轻女性长发穿白色上衣和浅黄色裙子，站在店内展柜与彩色编织商品前，身体正面略向左并双手交叠于身前；保留人物及店铺环境的完整矩形照片窗口。",
+      "label": "右下方竖向人物照片，年轻女性长发穿白色上衣和浅黄色裙子，站在",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        560,
+        72,
+        1035,
+        157
+      ],
+      "description": "位于右上照片上方的绿色半透明横向标题牌，包含奶油色手写字样“One Nimman”和下方黄色短划线；字形、色块与整体排版作为一个固定装饰单元保留。",
+      "label": "位于右上照片上方的绿色半透明横向标题牌，包含奶油色手写字样“",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_shop_doodles",
+      "kind": "overlay",
+      "bbox": [
+        648,
+        530,
+        975,
+        889
+      ],
+      "description": "叠在右侧照片及其下方区域的白色手绘装饰，包括星形、圆点和沿照片边缘延伸的短虚线，作为独立固定涂鸦单元保留。",
+      "label": "叠在右侧照片及其下方区域的白色手绘装饰，包括星形、圆点和沿照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_bow",
+      "kind": "overlay",
+      "bbox": [
+        397,
+        642,
+        618,
+        984
+      ],
+      "description": "横跨中部照片接缝的浅粉色丝带蝴蝶结，中央有结头并向下垂落两条长带，覆盖照片与底层店铺背景，完整轮廓作为独立装饰保留。",
+      "label": "横跨中部照片接缝的浅粉色丝带蝴蝶结，中央有结头并向下垂落两条",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mirror_stars",
+      "kind": "overlay",
+      "bbox": [
+        82,
+        795,
+        416,
+        1142
+      ],
+      "description": "分布在左下展示区域前方的白色手绘星形装饰，包含大小不同的空心星和实心描边星，跨越镜面、木质柜面及其周围区域，作为一组固定涂鸦保留。",
+      "label": "分布在左下展示区域前方的白色手绘星形装饰，包含大小不同的空心",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_paw_marks",
+      "kind": "overlay",
+      "bbox": [
+        188,
+        1272,
+        418,
+        1440
+      ],
+      "description": "画布底部左侧的白色手绘爪印图案，由两枚部分出画布的爪印组成，覆盖木质柜面并在下边缘被画布裁切，完整可见范围作为固定装饰保留。",
+      "label": "画布底部左侧的白色手绘爪印图案，由两枚部分出画布的爪印组成，",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_right",
+    "overlay_title",
+    "overlay_shop_doodles",
+    "overlay_pink_bow",
+    "overlay_mirror_stars",
+    "overlay_paw_marks"
+  ]
+}

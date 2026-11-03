@@ -1,0 +1,467 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1055,
+    1491
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1055,
+        1491
+      ],
+      "description": "连续覆盖全画布的浅米色纸张纹理与轻微旧纸颗粒，四周和各独立单元之间均保持一致；照片、地图、便签、贴纸和装饰均为上层独立对象，底纸本身保留原样。",
+      "background_type": "reference_clean",
+      "label": "连续覆盖全画布的浅米色纸张纹理与轻微旧纸颗粒，四周和各独立单",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "title_lettering",
+      "kind": "overlay",
+      "bbox": [
+        72,
+        22,
+        895,
+        158
+      ],
+      "description": "顶部绿色与深棕色手写标题“青海手账｜在群山与草场之间”，含不规则笔画和手绘字形效果，作为完整艺术字装饰保留。",
+      "label": "顶部绿色与深棕色手写标题“青海手账｜在群山与草场之间”，含不",
+      "method": "extract"
+    },
+    {
+      "id": "top_left_cloud",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        22,
+        97,
+        66
+      ],
+      "description": "标题左上方的浅蓝色手绘云朵，带细线轮廓，作为独立固定装饰保留。",
+      "label": "标题左上方的浅蓝色手绘云朵，带细线轮廓，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "top_center_cloud",
+      "kind": "overlay",
+      "bbox": [
+        655,
+        18,
+        765,
+        64
+      ],
+      "description": "标题上方偏右的浅蓝色手绘云朵，保留其虚线轮廓和轻淡填色。",
+      "label": "标题上方偏右的浅蓝色手绘云朵，保留其虚线轮廓和轻淡填色。",
+      "method": "extract"
+    },
+    {
+      "id": "top_sun",
+      "kind": "overlay",
+      "bbox": [
+        912,
+        10,
+        1054,
+        130
+      ],
+      "description": "右上角黄色手绘太阳及放射状光线，包含笑脸表情和不规则笔触，作为一个固定装饰单元保留。",
+      "label": "右上角黄色手绘太阳及放射状光线，包含笑脸表情和不规则笔触，作",
+      "method": "extract"
+    },
+    {
+      "id": "top_heart",
+      "kind": "overlay",
+      "bbox": [
+        987,
+        134,
+        1024,
+        177
+      ],
+      "description": "标题右侧的粉红色手绘爱心贴饰，带淡色阴影和不规则边缘。",
+      "label": "标题右侧的粉红色手绘爱心贴饰，带淡色阴影和不规则边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "route_map",
+      "kind": "overlay",
+      "bbox": [
+        7,
+        163,
+        1050,
+        513
+      ],
+      "description": "顶部横向手绘旅行地图，包含山脉、云朵、树林、草地、铁路、列车、地点标记及“德令哈、海晏、门源、西宁”等地图内文字，整体作为固定插画单元保留。",
+      "label": "顶部横向手绘旅行地图，包含山脉、云朵、树林、草地、铁路、列车",
+      "method": "extract"
+    },
+    {
+      "id": "top_note_clip",
+      "kind": "overlay",
+      "bbox": [
+        36,
+        477,
+        79,
+        585
+      ],
+      "description": "左上便签顶部的金属夹子，跨在纸张上缘并压住便签，作为独立固定装饰保留。",
+      "label": "左上便签顶部的金属夹子，跨在纸张上缘并压住便签，作为独立固定",
+      "method": "extract"
+    },
+    {
+      "id": "top_note",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        477,
+        371,
+        759
+      ],
+      "description": "左上方撕边横向米白便签，带孔洞、阴影和手写中文段落“枕豫了很久，不知该如何落笔西北的这段旅程，总觉得‘此中有真意，欲辨已忘言’。”，纸张与字迹作为完整固定单元保留。",
+      "label": "左上方撕边横向米白便签，带孔洞、阴影和手写中文段落“枕豫了很",
+      "method": "extract"
+    },
+    {
+      "id": "left_green_tape",
+      "kind": "overlay",
+      "bbox": [
+        22,
+        724,
+        150,
+        839
+      ],
+      "description": "左侧斜贴在便签下方的绿色格纹胶带，保留撕裂边缘、格纹和纸张阴影。",
+      "label": "左侧斜贴在便签下方的绿色格纹胶带，保留撕裂边缘、格纹和纸张阴",
+      "method": "extract"
+    },
+    {
+      "id": "flower_sprig_upper",
+      "kind": "overlay",
+      "bbox": [
+        356,
+        525,
+        456,
+        638
+      ],
+      "description": "主照片左上方的小型黄色花枝装饰，包含花朵、茎叶和手绘轮廓，作为独立贴饰保留。",
+      "label": "主照片左上方的小型黄色花枝装饰，包含花朵、茎叶和手绘轮廓，作",
+      "method": "extract"
+    },
+    {
+      "id": "postcard_stamp",
+      "kind": "overlay",
+      "bbox": [
+        845,
+        497,
+        1053,
+        672
+      ],
+      "description": "右上方斜放的青海风景邮票与延伸到纸面的圆形邮戳，包含“80分”和“中国邮政 CHINA”等印刷内容，作为完整邮政装饰保留。",
+      "label": "右上方斜放的青海风景邮票与延伸到纸面的圆形邮戳，包含“80分",
+      "method": "extract"
+    },
+    {
+      "id": "qinghai_sign",
+      "kind": "overlay",
+      "bbox": [
+        858,
+        688,
+        1005,
+        793
+      ],
+      "description": "右侧木牌形标签，带金色边框、木纹、挂绳效果及“青海 QINGHAI”字样，文字随固定标签整体保留。",
+      "label": "右侧木牌形标签，带金色边框、木纹、挂绳效果及“青海 QING",
+      "method": "extract"
+    },
+    {
+      "id": "main_photo",
+      "kind": "photo",
+      "bbox": [
+        158,
+        625,
+        817,
+        1031
+      ],
+      "description": "中央横向风景照片，完整显示蓝天、层叠白云、远山、树林和绿色草地，照片环境随客户素材替换；矩形照片内口被白色纸框包围，边缘带细虚线装饰，右侧和下方局部被花朵及下方照片遮挡。",
+      "label": "中央横向风景照片，完整显示蓝天、层叠白云、远山、树林和绿色草",
+      "method": "local"
+    },
+    {
+      "id": "main_photo_frame",
+      "kind": "frame",
+      "bbox": [
+        139,
+        603,
+        837,
+        1051
+      ],
+      "description": "承载中央风景照片的白色纸质相片框，带不规则纸边、阴影和沿内口的浅色虚线，框体完整保留并覆盖照片边缘。",
+      "photo_id": [
+        "main_photo"
+      ],
+      "label": "承载中央风景照片的白色纸质相片框，带不规则纸边、阴影和沿内口",
+      "method": "extract"
+    },
+    {
+      "id": "camera_sticker",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        878,
+        181,
+        1053
+      ],
+      "description": "左下方复古相机贴纸，包含相机机身、镜头、背带和一张小风景照片，作为完整固定插画装饰保留。",
+      "label": "左下方复古相机贴纸，包含相机机身、镜头、背带和一张小风景照片",
+      "method": "extract"
+    },
+    {
+      "id": "right_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        842,
+        814,
+        1042,
+        956
+      ],
+      "description": "右侧橄榄绿色手写装饰文字“随风而行\n心向远方”，带弧线、爱心和不规则手绘笔画，作为艺术字整体保留。",
+      "label": "右侧橄榄绿色手写装饰文字“随风而行\n心向远方”，带弧线、爱心",
+      "method": "extract"
+    },
+    {
+      "id": "right_birds",
+      "kind": "overlay",
+      "bbox": [
+        953,
+        958,
+        1049,
+        1055
+      ],
+      "description": "右侧两只飞鸟剪影，作为独立的深色手绘装饰保留。",
+      "label": "右侧两只飞鸟剪影，作为独立的深色手绘装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "flower_cluster",
+      "kind": "overlay",
+      "bbox": [
+        739,
+        889,
+        950,
+        1050
+      ],
+      "description": "中央照片右下方跨在照片边缘的花束贴饰，包含白色和黄色花朵、绿叶及不规则白色描边，位于照片框上方。",
+      "label": "中央照片右下方跨在照片边缘的花束贴饰，包含白色和黄色花朵、绿",
+      "method": "extract"
+    },
+    {
+      "id": "lower_photo",
+      "kind": "photo",
+      "bbox": [
+        487,
+        1036,
+        987,
+        1290
+      ],
+      "description": "右下方横向风景照片，显示云层、远山、湖泊或田野与村落景观，完整照片环境随客户素材替换；上缘和右侧部分被纸框、花束及胶带遮挡。",
+      "label": "右下方横向风景照片，显示云层、远山、湖泊或田野与村落景观，完",
+      "method": "local"
+    },
+    {
+      "id": "lower_photo_frame",
+      "kind": "frame",
+      "bbox": [
+        462,
+        1018,
+        1004,
+        1315
+      ],
+      "description": "承载右下方风景照片的白色倾斜纸质相框，带厚白边、纸张阴影和细虚线内框，框体作为独立固定承托结构保留。",
+      "photo_id": [
+        "lower_photo"
+      ],
+      "label": "承载右下方风景照片的白色倾斜纸质相框，带厚白边、纸张阴影和细",
+      "method": "extract"
+    },
+    {
+      "id": "lower_left_note_tape",
+      "kind": "overlay",
+      "bbox": [
+        45,
+        1036,
+        171,
+        1102
+      ],
+      "description": "左下便签顶部的浅蓝色白点胶带，覆盖便签上缘并保留撕裂边和点状图案。",
+      "label": "左下便签顶部的浅蓝色白点胶带，覆盖便签上缘并保留撕裂边和点状",
+      "method": "extract"
+    },
+    {
+      "id": "lower_left_note",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        1040,
+        443,
+        1321
+      ],
+      "description": "左下方撕边横向米白便签，带孔洞、阴影、蓝色箭头和手写中文段落“因为这里的生活与我熟悉的环境相差太大，所以初次涉足，所有的一切都带给我新奇的体验，都在刷新我此前二十多年人生积攒下来的认知。”，整体作为固定纸张单元保留。",
+      "label": "左下方撕边横向米白便签，带孔洞、阴影、蓝色箭头和手写中文段落",
+      "method": "extract"
+    },
+    {
+      "id": "green_backpack",
+      "kind": "overlay",
+      "bbox": [
+        13,
+        1278,
+        241,
+        1491
+      ],
+      "description": "左下角绿色旅行背包插画，包含肩带、皮革扣件、侧袋和小风景贴片，作为完整固定贴纸保留。",
+      "label": "左下角绿色旅行背包插画，包含肩带、皮革扣件、侧袋和小风景贴片",
+      "method": "extract"
+    },
+    {
+      "id": "travel_notebook",
+      "kind": "overlay",
+      "bbox": [
+        190,
+        1302,
+        397,
+        1462
+      ],
+      "description": "背包右侧打开的旅行手账本，包含线圈、页面、山景插图和绿色树形图案，纸张、装订和内部图案整体保留。",
+      "label": "背包右侧打开的旅行手账本，包含线圈、页面、山景插图和绿色树形",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_note",
+      "kind": "overlay",
+      "bbox": [
+        378,
+        1330,
+        819,
+        1462
+      ],
+      "description": "底部中央撕边浅绿色便签，带叶片、粉色爱心和手写中文“我如同一个初生的儿童，贪婪地探索着崭新的世界。”，便签纸张与字迹作为一个固定设计单元保留。",
+      "label": "底部中央撕边浅绿色便签，带叶片、粉色爱心和手写中文“我如同一",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_route_dashes",
+      "kind": "overlay",
+      "bbox": [
+        382,
+        1421,
+        817,
+        1491
+      ],
+      "description": "底部便签下方延伸的棕色虚线路径和小装饰点，作为独立的手绘旅行路线元素保留。",
+      "label": "底部便签下方延伸的棕色虚线路径和小装饰点，作为独立的手绘旅行",
+      "method": "extract"
+    },
+    {
+      "id": "bottom_flowers",
+      "kind": "overlay",
+      "bbox": [
+        292,
+        1327,
+        437,
+        1491
+      ],
+      "description": "底部左侧靠近手账本和便签的黄色、蓝色花草装饰，包含多朵小花、叶片和手绘茎干，作为固定贴饰保留。",
+      "label": "底部左侧靠近手账本和便签的黄色、蓝色花草装饰，包含多朵小花、",
+      "method": "extract"
+    },
+    {
+      "id": "right_green_tape",
+      "kind": "overlay",
+      "bbox": [
+        858,
+        1238,
+        1021,
+        1322
+      ],
+      "description": "右下风景照片旁斜贴的绿色格纹胶带，覆盖照片框边缘并保留格纹、撕裂边和阴影。",
+      "label": "右下风景照片旁斜贴的绿色格纹胶带，覆盖照片框边缘并保留格纹、",
+      "method": "extract"
+    },
+    {
+      "id": "right_star",
+      "kind": "overlay",
+      "bbox": [
+        995,
+        1162,
+        1054,
+        1233
+      ],
+      "description": "右侧中下部的黄色五角星手绘装饰，带不规则轮廓和淡色填充。",
+      "label": "右侧中下部的黄色五角星手绘装饰，带不规则轮廓和淡色填充。",
+      "method": "extract"
+    },
+    {
+      "id": "right_flower_sprig",
+      "kind": "overlay",
+      "bbox": [
+        1000,
+        1236,
+        1054,
+        1330
+      ],
+      "description": "右侧五角星下方的黄色小花与绿色枝叶装饰，作为独立固定贴饰保留。",
+      "label": "右侧五角星下方的黄色小花与绿色枝叶装饰，作为独立固定贴饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "yellow_suitcase",
+      "kind": "overlay",
+      "bbox": [
+        817,
+        1327,
+        1038,
+        1491
+      ],
+      "description": "右下角黄色旅行箱插画，包含拉杆、提手、皮革细节和多张风景贴片，完整作为固定旅行主题装饰保留。",
+      "label": "右下角黄色旅行箱插画，包含拉杆、提手、皮革细节和多张风景贴片",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "route_map",
+    "top_left_cloud",
+    "top_center_cloud",
+    "top_sun",
+    "top_heart",
+    "title_lettering",
+    "top_note",
+    "top_note_clip",
+    "left_green_tape",
+    "flower_sprig_upper",
+    "postcard_stamp",
+    "qinghai_sign",
+    "main_photo",
+    "main_photo_frame",
+    "camera_sticker",
+    "right_handwriting",
+    "right_birds",
+    "lower_left_note",
+    "lower_left_note_tape",
+    "flower_cluster",
+    "lower_photo",
+    "lower_photo_frame",
+    "right_green_tape",
+    "right_star",
+    "right_flower_sprig",
+    "green_backpack",
+    "travel_notebook",
+    "bottom_flowers",
+    "bottom_note",
+    "bottom_route_dashes",
+    "yellow_suitcase"
+  ]
+}

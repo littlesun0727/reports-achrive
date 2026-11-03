@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的室内摄影环境覆盖全画布，包含左侧木色门框与暖色墙面、中央装饰花卉字样以及右侧蓝白花墙，场景延伸至四条画布边缘；多个火锅、饮料和文字贴纸遮挡局部，但背景环境整体保留并作为可替换摄影底图。",
+      "background_type": "photo",
+      "label": "连续的室内摄影环境覆盖全画布，包含左侧木色门框与暖色墙面、中",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        48,
+        74,
+        418,
+        216
+      ],
+      "description": "左上角白色圆角标签，包含黑色中文标题“顺德Day2晚餐\n粤蒸粤鲜”和红色图钉图案，作为带字固定设计单元整体保留。",
+      "label": "左上角白色圆角标签，包含黑色中文标题“顺德Day2晚餐\n粤蒸",
+      "method": "extract"
+    },
+    {
+      "id": "photo_hotpot_beef",
+      "kind": "photo",
+      "bbox": [
+        405,
+        52,
+        1080,
+        606
+      ],
+      "description": "右上方大型火锅照片，锅内有牛肉片、绿色蔬菜和多根黑色筷子，锅体与把手完整显示，沿主体外轮廓带白色手绘描边并去除原摄影背景，右侧部分延伸至画布边缘。",
+      "label": "右上方大型火锅照片，锅内有牛肉片、绿色蔬菜和多根黑色筷子，锅",
+      "method": "local"
+    },
+    {
+      "id": "photo_hotpot_small",
+      "kind": "photo",
+      "bbox": [
+        575,
+        608,
+        876,
+        841
+      ],
+      "description": "画面中部偏右的小型火锅照片，锅内有白色肉片、蔬菜和筷子，包含左下方握筷子的手部，沿完整主体组合保留白色手绘描边并与背景分离。",
+      "label": "画面中部偏右的小型火锅照片，锅内有白色肉片、蔬菜和筷子，包含",
+      "method": "local"
+    },
+    {
+      "id": "photo_hotpot_seafood",
+      "kind": "photo",
+      "bbox": [
+        696,
+        806,
+        1080,
+        1116
+      ],
+      "description": "右侧中部火锅照片，锅内有白色海鲜、蛤蜊和蔬菜，锅体及两侧把手完整可见，沿主体外轮廓有白色手绘描边，右侧被画布边缘裁切。",
+      "label": "右侧中部火锅照片，锅内有白色海鲜、蛤蜊和蔬菜，锅体及两侧把手",
+      "method": "local"
+    },
+    {
+      "id": "overlay_handwritten_note",
+      "kind": "overlay",
+      "bbox": [
+        54,
+        916,
+        445,
+        1113
+      ],
+      "description": "左下方白色手绘气泡轮廓及其内部手写装饰文字，文字内容可辨为“趁这个筷子\n可想高知一群人的战斗力\n够”，旁有红黑短线和小圆点，作为特殊手写设计整体保留。",
+      "label": "左下方白色手绘气泡轮廓及其内部手写装饰文字，文字内容可辨为“",
+      "method": "extract"
+    },
+    {
+      "id": "photo_hotpot_mixed",
+      "kind": "photo",
+      "bbox": [
+        325,
+        1017,
+        794,
+        1354
+      ],
+      "description": "下方中央大型火锅照片，锅内包含鱼片、肉丸、肉片、海鲜和蔬菜，锅体、把手与多根筷子完整显示，主体周围有白色手绘描边，照片主体压住左侧手写气泡的部分区域。",
+      "label": "下方中央大型火锅照片，锅内包含鱼片、肉丸、肉片、海鲜和蔬菜，",
+      "method": "local"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        696,
+        1080,
+        1051,
+        1440
+      ],
+      "description": "右下方饮料照片，两只绿色杯盖饮品由手部托举，杯身带有中文包装文字，包含双手及前臂的完整主体组合，沿人物和饮料外轮廓保留白色与蓝色手绘描边，底部延伸并被画布边缘裁切。",
+      "label": "右下方饮料照片，两只绿色杯盖饮品由手部托举，杯身带有中文包装",
+      "method": "local"
+    },
+    {
+      "id": "overlay_rating",
+      "kind": "overlay",
+      "bbox": [
+        21,
+        1309,
+        631,
+        1399
+      ],
+      "description": "左下角米白色手绘标签，黑色粗描边，包含文字“评价：NPC（中规中矩）”，作为独立带字纸片整体保留并覆盖下方火锅照片的左下区域。",
+      "label": "左下角米白色手绘标签，黑色粗描边，包含文字“评价：NPC（中",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_hotpot_beef",
+    "photo_hotpot_small",
+    "photo_hotpot_seafood",
+    "overlay_handwritten_note",
+    "photo_hotpot_mixed",
+    "photo_drinks",
+    "overlay_title",
+    "overlay_rating"
+  ]
+}

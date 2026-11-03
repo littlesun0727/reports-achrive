@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_drinks_book",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        960
+      ],
+      "description": "左上独立竖向生活方式照片，完整显示木桌上的两杯饮品、玻璃花瓶、纸巾、桌面以及下方倾斜摆放的书籍；照片在右缘与右侧室内照片形成清晰直线接缝，画面内的书中文字属于摄影内容。",
+      "label": "左上独立竖向生活方式照片，完整显示木桌上的两杯饮品、玻璃花瓶",
+      "method": "local"
+    },
+    {
+      "id": "photo_cafe_interior",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        960
+      ],
+      "description": "右上独立室内环境照片，显示带百叶窗的餐厅或休息空间、木地板、多人座椅、桌面和右侧立柱；完整显示区域由左侧竖直接缝和下方水平接缝界定，人物与室内环境共同属于该照片。",
+      "label": "右上独立室内环境照片，显示带百叶窗的餐厅或休息空间、木地板、",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman_reading",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        1080,
+        1920
+      ],
+      "description": "下方独立人物生活方式照片，完整显示戴宽檐帽、穿浅色无袖连衣裙的女性坐在白色座椅上低头阅读，手中持书，身旁有黑色手袋和紫色物品；背景为木质百叶墙，照片覆盖整幅下半区域并与上方两张照片在水平边界处相接。",
+      "label": "下方独立人物生活方式照片，完整显示戴宽檐帽、穿浅色无袖连衣裙",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_drinks_book",
+    "photo_cafe_interior",
+    "photo_woman_reading"
+  ]
+}

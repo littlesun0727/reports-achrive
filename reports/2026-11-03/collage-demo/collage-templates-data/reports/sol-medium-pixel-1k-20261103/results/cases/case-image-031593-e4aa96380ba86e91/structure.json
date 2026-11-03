@@ -1,0 +1,290 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "海岛旅游摄影底图，上方为覆盖绿植的灰色石灰岩峭壁，下方为蓝绿色海水，一艘长尾船横向停在左侧，船上有数名小比例人物。顶部、两侧窄边及底部露出的海水支持同一画面连续延伸至画布四边；中下部被浅色版面大面积遮挡。替换范围包含船、人物、山崖和完整海水环境，不编造遮挡区细节。"
+  },
+  "objects": [
+    {
+      "id": "frame_content_panel",
+      "kind": "frame",
+      "bbox": [
+        1,
+        365,
+        767,
+        1112
+      ],
+      "description": "中下部的大幅浅灰白色承托版面，带轻微纸面色差，承载四处照片和右侧说明文字。保留完整纸面及外缘，照片与独立文字分别替换或排版；右上小照片越过版面上沿。",
+      "photo_id": [
+        "photo_snorkeling",
+        "photo_aerial_top",
+        "photo_beach",
+        "photo_aerial_bottom"
+      ]
+    },
+    {
+      "id": "photo_snorkeling",
+      "kind": "photo",
+      "bbox": [
+        11,
+        381,
+        373,
+        609
+      ],
+      "description": "左上横向水下照片，一名戴潜水面镜和呼吸管的游泳者面向镜头，双臂向两侧伸展，上部可见水面反光，下部和左侧为珊瑚及鱼。完整保留水下摄影环境，矩形显示，未沿人物去背景。"
+    },
+    {
+      "id": "photo_aerial_top",
+      "kind": "photo",
+      "bbox": [
+        615,
+        313,
+        745,
+        511
+      ],
+      "description": "右上竖向航拍照片，左上为植被覆盖的峭壁和浅色岸线，右下为清澈青绿色海水，一艘小长尾船斜向停在水面。照片独立于底图，越过浅色版面上沿；保留全部摄影环境和矩形边缘的细白边。"
+    },
+    {
+      "id": "photo_beach",
+      "kind": "photo",
+      "bbox": [
+        11,
+        621,
+        748,
+        962
+      ],
+      "description": "中部宽幅海滩照片，蓝天白云、两侧绿色山坡、海湾及白沙滩连续组成完整画面。前景排列白色遮阳伞和躺椅，中远景有多名游客；左下局部被另一张航拍照片覆盖。保留完整矩形窗口，不缩为剩余可见区域；画面中浅淡水印随摄影内容替换。"
+    },
+    {
+      "id": "photo_aerial_bottom",
+      "kind": "photo",
+      "bbox": [
+        25,
+        823,
+        274,
+        1098
+      ],
+      "description": "左下竖向海岸航拍照片，上部为绿色树林和白色沙滩，下部为透明蓝绿色海水，前景一艘长尾船斜向横陈，中部还有浮桥与小船。完整保留摄影环境，细白色窗口边缘依附照片；上部覆盖宽幅海滩照片的左下角。"
+    },
+    {
+      "id": "overlay_phuket_logo",
+      "kind": "overlay",
+      "bbox": [
+        35,
+        25,
+        143,
+        70
+      ],
+      "description": "左上旅游标识，白色倾斜英文“PHUKET”与粗白中文“墅说普吉”组合，含橙色圆形点缀及深色边缘效果。文字位置和造型形成完整标识，整体保留。"
+    },
+    {
+      "id": "overlay_script_title",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        101,
+        578,
+        173
+      ],
+      "description": "金黄色连笔英文艺术标题“Phuket Tourism”，细长手写笔画带夸张起收笔，跨字连接并与下方中文标题接近。作为完整艺术字保留，不拆为普通文字。"
+    },
+    {
+      "id": "text_selected_journey",
+      "kind": "text",
+      "bbox": [
+        575,
+        58,
+        752,
+        78
+      ],
+      "text": "SELECTED JOURNEY",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "right",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_title_left",
+      "kind": "text",
+      "bbox": [
+        60,
+        161,
+        305,
+        207
+      ],
+      "text": "24°C的海岛",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_title_right",
+      "kind": "text",
+      "bbox": [
+        319,
+        160,
+        655,
+        207
+      ],
+      "text": "感受普吉的海风",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_title_english",
+      "kind": "text",
+      "bbox": [
+        62,
+        222,
+        681,
+        237
+      ],
+      "text": "E X P E R I E N C E  T H E  S E A  B R E E Z E  O F  P H U K E T",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_feel_sea",
+      "kind": "text",
+      "bbox": [
+        385,
+        379,
+        570,
+        438
+      ],
+      "text": "FEEL THE\nSEA BREEZE",
+      "color": "#121713",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_phi_title",
+      "kind": "text",
+      "bbox": [
+        387,
+        459,
+        514,
+        491
+      ],
+      "text": "大小PP岛",
+      "color": "#111611",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_phi_english",
+      "kind": "text",
+      "bbox": [
+        389,
+        493,
+        498,
+        512
+      ],
+      "text": "PHI PHI DON",
+      "color": "#141813",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_phi_description",
+      "kind": "text",
+      "bbox": [
+        392,
+        526,
+        748,
+        606
+      ],
+      "text": "PP岛，PP岛其实属于甲米，离普吉岛42公里，大船航行需\n要2个小时，PP岛是不允许居住的，上面也没有酒店，著名\n的MAYA BAY(玛雅湾)就在这里，附近的浮潜点也漂亮，值得\n一去。",
+      "color": "#353C36",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_racha_title",
+      "kind": "text",
+      "bbox": [
+        294,
+        976,
+        383,
+        1007
+      ],
+      "text": "帝王岛",
+      "color": "#101610",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_racha_english",
+      "kind": "text",
+      "bbox": [
+        298,
+        1009,
+        365,
+        1028
+      ],
+      "text": "RACHA",
+      "color": "#131813",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_racha_description",
+      "kind": "text",
+      "bbox": [
+        398,
+        979,
+        749,
+        1080
+      ],
+      "text": "皇帝岛算是一个非常新的面孔。岛上不仅有优美完整的天然\n热带岛屿风光，珊瑚礁的海岸景色同样让人难忘。由于开发\n较晚，到此的游客数量比较少，与喧闹的普吉岛相较，这里\n沙滩的环境格外清幽，附近只有零星泳客、滑浪发烧友和耳\n畔传来的浪涛拍岸声，简直就是世外桃源！",
+      "color": "#353C36",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "frame_content_panel",
+    "photo_snorkeling",
+    "photo_aerial_top",
+    "photo_beach",
+    "photo_aerial_bottom",
+    "overlay_phuket_logo",
+    "overlay_script_title",
+    "text_selected_journey",
+    "text_title_left",
+    "text_title_right",
+    "text_title_english",
+    "text_feel_sea",
+    "text_phi_title",
+    "text_phi_english",
+    "text_phi_description",
+    "text_racha_title",
+    "text_racha_english",
+    "text_racha_description"
+  ]
+}

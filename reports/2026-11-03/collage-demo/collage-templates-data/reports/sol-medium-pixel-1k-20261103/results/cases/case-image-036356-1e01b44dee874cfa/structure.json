@@ -1,0 +1,85 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的全画布铁路摄影环境，铁轨从画面下方向城市地平线延伸，左右为树林、建筑与电力设施，上方为蓝天白云；画面无人物，属于广角远景。三张独立照片和固定文字、星星线条覆盖局部，但铁路、天空、树林和城市环境连续延伸至四边，作为可替换的完整摄影底图保留。"
+  },
+  "objects": [
+    {
+      "id": "photo_forest_stream",
+      "kind": "photo",
+      "bbox": [
+        53,
+        686,
+        416,
+        1171
+      ],
+      "description": "左下方竖向森林溪流照片，包含树木、浅溪、石块和林间彩色装置，保留完整摄影环境；照片四周有不规则白色手绘描边，右下区域被中部水面照片部分遮挡。"
+    },
+    {
+      "id": "photo_heart_forest",
+      "kind": "photo",
+      "bbox": [
+        665,
+        451,
+        1005,
+        901
+      ],
+      "description": "右上方竖向树林近景照片，深色树冠和光照形成背景，前景有浅蓝色手绘心形线条；保留照片内的森林环境，四周有不规则白色手绘描边，下缘与中部照片发生遮挡关系。"
+    },
+    {
+      "id": "photo_stream_water",
+      "kind": "photo",
+      "bbox": [
+        386,
+        864,
+        751,
+        1345
+      ],
+      "description": "画面中下方竖向溪水照片，包含反光水面、河石和岸边阴影，保留完整摄影环境；四周有不规则白色手绘描边，并覆盖左侧照片的右下区域及右侧照片的下部交界。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        307,
+        108,
+        774,
+        406
+      ],
+      "description": "画面上方的固定艺术字组合，包含大型白色中文手写标题、右上方浅橙色英文两行字以及橙色斜线和连接笔画；特殊笔画、颜色和手绘外观作为一个独立设计单元保留。"
+    },
+    {
+      "id": "overlay_constellation",
+      "kind": "overlay",
+      "bbox": [
+        250,
+        612,
+        822,
+        808
+      ],
+      "description": "横跨左侧照片、中部铁路和右侧照片的固定装饰，包含浅青色星星、细线连接图案及附近的白色文字“Autumn”和“life”；星星、线条、文字和手绘装饰作为同一组叠加单元保留，位于照片上方。"
+    },
+    {
+      "id": "overlay_signature",
+      "kind": "overlay",
+      "bbox": [
+        897,
+        909,
+        1017,
+        974
+      ],
+      "description": "右下方叠加在铁路和树林环境上的金黄色手写署名字样“Photo by MJ”，保留其艺术字形、颜色和倾斜笔画。"
+    }
+  ],
+  "layer_order": [
+    "photo_forest_stream",
+    "photo_heart_forest",
+    "photo_stream_water",
+    "overlay_constellation",
+    "overlay_signature",
+    "overlay_title"
+  ]
+}

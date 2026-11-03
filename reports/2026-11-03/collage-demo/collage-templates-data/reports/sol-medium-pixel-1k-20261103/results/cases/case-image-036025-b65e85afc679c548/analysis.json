@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        640
+      ],
+      "description": "横向裁切的室内节日陈列照片，画面包含摆满彩绘餐具和礼盒的多层展示架、右侧圣诞树、前景虚化绿叶以及暖黄色墙面；底部可见嵌入照片内容的白色 DJI OSMO POCKET 4P 水印。完整显示区域为画布上缘至第一条横向接缝，摄影环境保留。",
+      "label": "横向裁切的室内节日陈列照片，画面包含摆满彩绘餐具和礼盒的多层",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        640,
+        1080,
+        1280
+      ],
+      "description": "独立的室内仰拍照片，展示玻璃天窗、深色天花结构以及多组悬挂的橙红色球形和花簇状节日装饰；底部可见嵌入照片内容的白色 DJI OSMO POCKET 4P 水印。照片从上方接缝延伸至下方接缝，显示区域为完整横向矩形，摄影环境保留。",
+      "label": "独立的室内仰拍照片，展示玻璃天窗、深色天花结构以及多组悬挂的",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1280,
+        1080,
+        1920
+      ],
+      "description": "独立的梦幻森林主题室内布景照片，包含左侧藤蔓与树屋般装置、覆盖地面的苔藓和木屑、中央及右侧发光蝴蝶和蘑菇装饰；底部可见嵌入照片内容的白色 DJI OSMO POCKET 4P 水印。完整显示区域从第二条横向接缝延伸至画布下缘，摄影环境保留。",
+      "label": "独立的梦幻森林主题室内布景照片，包含左侧藤蔓与树屋般装置、覆",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

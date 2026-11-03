@@ -1,0 +1,131 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_grass_background",
+    "description": "连续的绿色草地摄影环境覆盖整张1080×1440画布，草纹在四边保持连续；中央拼贴照片、纸卡、书本和文字均为上层独立单元，局部遮挡草地但不改变底图的全画布范围。"
+  },
+  "objects": [
+    {
+      "id": "photo_apple",
+      "kind": "photo",
+      "bbox": [
+        297,
+        533,
+        531,
+        765
+      ],
+      "description": "方形苹果照片，绿色草地中放置一只明黄色苹果，完整保留照片内的草地环境；上缘被左上深色照片局部遮挡。"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        265,
+        331,
+        489,
+        556
+      ],
+      "description": "竖向深色黄昏风景照片，包含风力发电机、远山、落日和摄影画面中的白色“setting sun.”字样；矩形照片完整显示，上方左侧有胶带覆盖，右上方被纸卡遮挡，下缘压住苹果照片。"
+    },
+    {
+      "id": "photo_perfume",
+      "kind": "photo",
+      "bbox": [
+        557,
+        535,
+        789,
+        766
+      ],
+      "description": "方形香水瓶照片，透明方瓶斜靠在树干和叶片之间，完整保留树皮、绿色叶片及瓶身标签等摄影环境；上缘部分被右上果园照片遮挡。"
+    },
+    {
+      "id": "photo_orchard",
+      "kind": "photo",
+      "bbox": [
+        609,
+        343,
+        827,
+        560
+      ],
+      "description": "横向果园照片，包含草地、低矮树木和树冠，完整保留摄影环境；左上区域被纸卡遮挡，下缘压住香水照片的上部。"
+    },
+    {
+      "id": "overlay_paper_card",
+      "kind": "overlay",
+      "bbox": [
+        443,
+        220,
+        649,
+        426
+      ],
+      "description": "白色竖向撕纸卡片，带有灰色纸张纹理、撕裂边缘和居中的黑色文字“Lost in a Moment”；作为独立固定纸张装饰，覆盖深色照片和果园照片的局部。"
+    },
+    {
+      "id": "overlay_tape",
+      "kind": "overlay",
+      "bbox": [
+        231,
+        302,
+        315,
+        383
+      ],
+      "description": "一段倾斜的米黄色纸胶带，跨贴在深色照片左上边缘并延伸到草地上，保留其纸张纹理、斜向轮廓和遮挡关系。"
+    },
+    {
+      "id": "photo_book_lemon",
+      "kind": "photo",
+      "bbox": [
+        378,
+        895,
+        700,
+        1141
+      ],
+      "description": "下方独立摄影画面，展开的白色书本置于草地上，书页中央放着一只黄色柑橘类水果；书本、页面文字、草地和柔和的照片边缘均属于该照片，显示区域带有轻微柔化渐隐效果。"
+    },
+    {
+      "id": "text_top_phrase",
+      "kind": "text",
+      "bbox": [
+        670,
+        270,
+        882,
+        297
+      ],
+      "text": "The mild places",
+      "color": "#FFFFFF",
+      "font": "hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_bottom_message",
+      "kind": "text",
+      "bbox": [
+        336,
+        1208,
+        745,
+        1273
+      ],
+      "text": "Today's mood: blooming like wildflowers.\nRemember: you're allowed to grow softly.\nToday's mantra: progress > 'perfection.",
+      "color": "#FFFFFF",
+      "font": "sans",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_apple",
+    "photo_sunset",
+    "photo_perfume",
+    "photo_orchard",
+    "overlay_paper_card",
+    "overlay_tape",
+    "photo_book_lemon",
+    "text_top_phrase",
+    "text_bottom_message"
+  ]
+}

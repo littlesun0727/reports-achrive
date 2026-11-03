@@ -1,0 +1,118 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "text_dash",
+      "kind": "text",
+      "bbox": [
+        533,
+        109,
+        547,
+        122
+      ],
+      "description": "-",
+      "label": "-",
+      "method": "local",
+      "text": "-",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_heading",
+      "kind": "text",
+      "bbox": [
+        309,
+        145,
+        773,
+        227
+      ],
+      "description": "不一定要等到去旷野才撒野\n不一定要等到功成名就才开香槟",
+      "label": "不一定要等到去旷野才撒野\n不一定要等到功成名就才开香槟",
+      "method": "local",
+      "text": "不一定要等到去旷野才撒野\n不一定要等到功成名就才开香槟",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        69,
+        269,
+        1011,
+        775
+      ],
+      "description": "上方横向矩形照片，正面近距离拍摄红色墙面上的发光广告灯箱，无人物。灯箱白色画面写有“不一定要等到去旷野才撒野”，下方有红色“年底了·松口气”及品牌标识；这些文字、灯箱金属边框、红墙和顶部结构均属于实拍内容，随照片整体替换。保留完整摄影环境，边缘清晰，无沿主体去背景或透明渐隐。",
+      "label": "上方横向矩形照片，正面近距离拍摄红色墙面上的发光广告灯箱，无",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        67,
+        820,
+        1013,
+        1363
+      ],
+      "description": "下方横向矩形照片，无人物，斜向拍摄室内通道，红色广告墙从左前方向右后方延伸，保留顶部灯具与条形天花、右侧通道和反光地面。左侧大型灯箱写有“不一定要等到功成名就才开香槟”，远处另有多块灯箱，所有广告文字和设施均属同一实拍场景，整体替换。与上方照片视角不连续，独立显示；保留完整摄影环境，无去背景或透明渐隐。",
+      "label": "下方横向矩形照片，无人物，斜向拍摄室内通道，红色广告墙从左前",
+      "method": "local"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1412,
+        1074,
+        1433
+      ],
+      "description": "画布右下角极暗的圆角胶囊形“小红书”水印，包含底板与内部字样，作为完整固定标识保留。",
+      "label": "画布右下角极暗的圆角胶囊形“小红书”水印，包含底板与内部字样",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper",
+    "photo_lower",
+    "text_dash",
+    "text_heading",
+    "overlay_watermark"
+  ]
+}

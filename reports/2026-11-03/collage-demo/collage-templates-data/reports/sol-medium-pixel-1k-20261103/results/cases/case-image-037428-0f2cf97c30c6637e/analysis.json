@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        730
+      ],
+      "description": "画面上方的独立横向风景照片，包含云层、远山、起伏草坡和前景草地；完整显示区域延伸至画布左右边缘，向下与中部照片在雾状渐隐区域交叠。",
+      "label": "画面上方的独立横向风景照片，包含云层、远山、起伏草坡和前景草",
+      "method": "local"
+    },
+    {
+      "id": "photo_woman",
+      "kind": "photo",
+      "bbox": [
+        0,
+        590,
+        1080,
+        1370
+      ],
+      "description": "中部横向草原照片，一名女性背对镜头站在画面中央，戴浅色帽子、穿浅色上衣和格纹长裙，双臂向两侧伸展，右手拿着物件；人物置于草地、云层和远山环境中，摄影背景保留。照片上下缘与相邻风景在薄雾般的渐隐区域交叠，下部被前景山景遮住。",
+      "label": "中部横向草原照片，一名女性背对镜头站在画面中央，戴浅色帽子、",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_landscape",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1260,
+        1080,
+        1920
+      ],
+      "description": "下方独立横向高山河谷风景照片，包含前景山脉、远处谷地、村落和底部黄绿色农田；完整显示至画布底边，顶部山脊覆盖中部照片下缘及女性裙摆，顶部交界带有柔和渐隐。",
+      "label": "下方独立横向高山河谷风景照片，包含前景山脉、远处谷地、村落和",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_landscape",
+    "photo_woman",
+    "photo_bottom_landscape"
+  ]
+}

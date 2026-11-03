@@ -1,0 +1,35 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "上方横向合照，三位年轻女性穿深色上衣并肩坐在室内沙发上，左侧人物身体斜靠，中央人物坐在中间，右侧人物靠向镜头；可见沙发、浅色墙面及床铺等摄影环境。照片完整显示至画布左右边缘和上方边缘，下缘在约 y=720 处被水平裁切，与下方近景照片接合。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下方横向近距离自拍，两位女性并排面向镜头，左侧人物以手扶脸，右侧人物戴圆框眼镜；脸上的圆点和方块为照片中可见的拍摄效果。保留人物头发、衣物及照片内环境，完整显示至画布左右边缘和下方边缘，上缘在约 y=720 处与上方照片形成明显水平接缝。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom"
+  ]
+}

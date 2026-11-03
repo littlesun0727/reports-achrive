@@ -1,0 +1,116 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FDFDFC"
+  },
+  "objects": [
+    {
+      "id": "overlay_gray_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        127,
+        245,
+        311
+      ],
+      "description": "左上区域的浅灰色矩形固定底板，覆盖画布左边缘并承载上方标题设计，保留其完整颜色与矩形边界。"
+    },
+    {
+      "id": "overlay_good_morning_title",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        168,
+        352,
+        272
+      ],
+      "description": "左上方大号无衬线标题设计，分为两行“GOOD”和“MORNING”；GOOD与MOR为黑色，ING为灰绿色，标题跨越浅灰底板右边缘，作为整体固定字形设计保留。"
+    },
+    {
+      "id": "text_intro_english",
+      "kind": "text",
+      "bbox": [
+        54,
+        338,
+        361,
+        378
+      ],
+      "text": "LIFE IS NOT LIKE THIS, AND IT CAN ONLY GROW AFTER\nREPEATED TESTS; EVEN IF IT'S RAINING, SNOWING AND\nHAZY, WE SHOULD PURSUE THE SUNSHINE.",
+      "color": "#424242",
+      "font": "sans",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_intro_credit",
+      "kind": "text",
+      "bbox": [
+        54,
+        387,
+        145,
+        401
+      ],
+      "text": null,
+      "color": "#424242",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_lower_quote",
+      "kind": "text",
+      "bbox": [
+        245,
+        645,
+        395,
+        701
+      ],
+      "text": null,
+      "color": "#555555",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_lower_heading",
+      "kind": "text",
+      "bbox": [
+        354,
+        694,
+        487,
+        719
+      ],
+      "text": "去追寻阳光",
+      "color": "#85856A",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "photo_garden_woman",
+      "kind": "photo",
+      "bbox": [
+        245,
+        740,
+        487,
+        1042
+      ],
+      "description": "竖向矩形摄影窗口，显示一名女性坐在花田中，身穿浅色连衣裙并戴宽檐草帽；人物面向右侧，左手抬至帽檐，右手向右侧伸展，周围保留白色花朵与树木背景。照片边界为清晰矩形，完整显示区域位于右下方。"
+    }
+  ],
+  "layer_order": [
+    "overlay_gray_panel",
+    "overlay_good_morning_title",
+    "text_intro_english",
+    "text_intro_credit",
+    "text_lower_quote",
+    "text_lower_heading",
+    "photo_garden_woman"
+  ]
+}

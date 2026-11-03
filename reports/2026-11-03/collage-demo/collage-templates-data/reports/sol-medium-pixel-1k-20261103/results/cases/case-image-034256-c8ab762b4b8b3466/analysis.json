@@ -1,0 +1,139 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1441
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1441
+      ],
+      "description": "一张连续的餐饮近景摄影覆盖全画布，四边可见的室内背景、绿植、桌面与下方托举木盘的手属于同一画面。无完整人物，前景木盘上摆放五份餐饮：左上竹篮炸物、上中柠檬茶与木勺、右中双耳锅炒牛肉、左下瓷碗藕丝、右下金属盘鸡肉。餐具相互遮挡，后方室内环境失焦，摄影环境完整保留并随客户照片整体替换。各餐具外围可见依附其轮廓的白色手绘实线与断续线，属于本摄影画面的主体轮廓描边；没有独立照片窗口，也没有主体出框。叠加的菜名、星星爪印和餐具图案另列。",
+      "background_type": "photo",
+      "label": "一张连续的餐饮近景摄影覆盖全画布，四边可见的室内背景、绿植、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_stars_paws",
+      "kind": "overlay",
+      "bbox": [
+        686,
+        7,
+        1024,
+        362
+      ],
+      "description": "右上方独立白色手绘装饰组，由散布的九枚大小不一的空心星星和两枚实心动物爪印组成。星星与爪印之间保留透明空隙，整体叠在失焦室内摄影环境上，不包含后方绿植及灯光。",
+      "label": "右上方独立白色手绘装饰组，由散布的九枚大小不一的空心星星和两",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tea_label",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        232,
+        654,
+        329
+      ],
+      "description": "上中柠檬茶上方的白色手写菜名“金桔柠檬茶”。各字随弧线错落排列，字形与角度不完全统一，作为原有艺术字整体保留；不包含茶碗及其轮廓描边。",
+      "label": "上中柠檬茶上方的白色手写菜名“金桔柠檬茶”。各字随弧线错落排",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_mushroom_label",
+      "kind": "overlay",
+      "bbox": [
+        42,
+        359,
+        342,
+        439
+      ],
+      "description": "左上竹篮炸物上方的白色手写菜名“咸蛋黄蟹味菇”。字词略呈弧形排列，保留各字的手绘笔画和错落位置；与竹篮摄影内容及沿篮缘的白色描边分别归属。",
+      "label": "左上竹篮炸物上方的白色手写菜名“咸蛋黄蟹味菇”。字词略呈弧形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_beef_label",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        473,
+        1080,
+        576
+      ],
+      "description": "右中双耳锅上方的白色手写菜名“猫儿山的小黄牛”。字词沿上拱弧线排列，右端接近画布边缘，保留可见笔画及原有错落角度，不包含锅柄和锅缘描边。",
+      "label": "右中双耳锅上方的白色手写菜名“猫儿山的小黄牛”。字词沿上拱弧",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lotus_label",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        1234,
+        398,
+        1308
+      ],
+      "description": "左下瓷碗下方的白色手写菜名“醋溜藕丝”。四字大小和位置略有变化，整体沿斜向弧线排布，保留独特笔画；瓷碗内原有蓝色印字属于摄影内容，不并入此标签。",
+      "label": "左下瓷碗下方的白色手写菜名“醋溜藕丝”。四字大小和位置略有变",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_chicken_label",
+      "kind": "overlay",
+      "bbox": [
+        589,
+        1175,
+        833,
+        1256
+      ],
+      "description": "右下鸡肉金属盘下方的白色手写菜名“酸萝卜手撕鸡”。文字沿向右上扬的弧线错落排列，完整保留手写字形及字间位置，不包含金属盘和盘缘描边。",
+      "label": "右下鸡肉金属盘下方的白色手写菜名“酸萝卜手撕鸡”。文字沿向右",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cutlery",
+      "kind": "overlay",
+      "bbox": [
+        861,
+        1159,
+        1080,
+        1321
+      ],
+      "description": "右下角独立白色线描餐具装饰，包含一把叉子、一把勺子、周围短线与菱形闪光，以及底部小弧线点缀。餐具略有倾斜，所有附属笔画作为同一完整手绘装饰保留，最右侧笔画在画布边缘截断。",
+      "label": "右下角独立白色线描餐具装饰，包含一把叉子、一把勺子、周围短线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1414,
+        1073,
+        1434
+      ],
+      "description": "画布右下角很小的半透明灰色圆角胶囊形标记，内部有难以可靠辨认的小字。底板与内部字样整体保留，不猜写文字内容。",
+      "label": "画布右下角很小的半透明灰色圆角胶囊形标记，内部有难以可靠辨认",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "overlay_stars_paws",
+    "overlay_tea_label",
+    "overlay_mushroom_label",
+    "overlay_beef_label",
+    "overlay_lotus_label",
+    "overlay_chicken_label",
+    "overlay_cutlery",
+    "overlay_watermark"
+  ]
+}

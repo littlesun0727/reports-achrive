@@ -1,0 +1,280 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture_base",
+    "description": "连续的浅灰白色纸张纹理覆盖整个1080×1440画布，四周和拼贴对象之间均可见相同的褶皱与纤维质感；照片、绿色照片卡、文字和贴纸均为上层独立单元，纸张底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "frame_green_card",
+      "kind": "frame",
+      "bbox": [
+        307,
+        20,
+        1080,
+        625
+      ],
+      "description": "右上方浅绿色纸卡，承载一张横向餐桌照片；卡面保留粉色字样、黄色星星、竖排中文文字和白色手绘装饰，完整外框及纸张阴影均属于固定框体。",
+      "photo_id": [
+        "photo_top_table"
+      ]
+    },
+    {
+      "id": "photo_top_table",
+      "kind": "photo",
+      "bbox": [
+        521,
+        56,
+        1069,
+        586
+      ],
+      "description": "绿色纸卡内的横向餐桌摄影，包含黄色茶杯、茶具、青菜、披萨或焗烤食物及右侧盛放餐食的木盘，完整矩形照片窗口保留摄影环境；照片边缘带细白边并被绿色卡面承托。"
+    },
+    {
+      "id": "photo_sandwich",
+      "kind": "photo",
+      "bbox": [
+        0,
+        328,
+        198,
+        486
+      ],
+      "description": "左上区域黑色盘中的两块三角形夹层或糕点摄影，连同盘面和可见食物环境整体替换，底部和右侧被其他茶具及文字局部遮挡。"
+    },
+    {
+      "id": "photo_teapot",
+      "kind": "photo",
+      "bbox": [
+        156,
+        172,
+        431,
+        414
+      ],
+      "description": "左上拼贴中的彩绘白色茶壶抠图，包含壶盖、壶身、壶嘴和把手，沿主体外形保留白色描边，背景基本被去除并压在绿色卡片和纸张之上。"
+    },
+    {
+      "id": "photo_teacup",
+      "kind": "photo",
+      "bbox": [
+        181,
+        386,
+        370,
+        541
+      ],
+      "description": "茶壶下方的黄色圆碗或茶杯抠图，包含杯沿、杯身和浅色饮品，沿可见主体保留白色边缘，与茶壶及左侧文字发生局部重叠。"
+    },
+    {
+      "id": "photo_people",
+      "kind": "photo",
+      "bbox": [
+        429,
+        469,
+        1080,
+        1055
+      ],
+      "description": "右下方两位女性合照抠图，人物均为近景自拍姿态，左侧女性托脸，右侧戴黑框眼镜并用手指托住脸颊；两人长发、面部和右侧浅色衣服完整显示，周围保留白色手绘轮廓，右缘延伸至画布边界。"
+    },
+    {
+      "id": "photo_green_vegetable",
+      "kind": "photo",
+      "bbox": [
+        0,
+        660,
+        314,
+        1001
+      ],
+      "description": "左下方倾斜的矩形餐盘照片，主体为炒空心菜或绿叶蔬菜，包含盘面、蔬菜和可见调味配料；照片沿外轮廓带粗黄色描边，右下部被中间菜盘遮挡。"
+    },
+    {
+      "id": "photo_pepper_chicken",
+      "kind": "photo",
+      "bbox": [
+        213,
+        737,
+        620,
+        1011
+      ],
+      "description": "中左区域白色椭圆盘中的辣椒炒肉或鸡肉照片，包含肉块、青椒、红椒和盘面，整体以倾斜餐盘形状显示并带黄色外描边，上方有固定菜名装饰字样。"
+    },
+    {
+      "id": "photo_tofu",
+      "kind": "photo",
+      "bbox": [
+        0,
+        925,
+        314,
+        1181
+      ],
+      "description": "左侧中下方的豆腐或彩椒包菜餐盘照片，包含白盘、浅黄色豆腐块和红绿配菜，矩形餐盘窗口带黄色描边，右侧被牛肉菜盘和前景排骨盘遮挡。"
+    },
+    {
+      "id": "photo_beef",
+      "kind": "photo",
+      "bbox": [
+        296,
+        894,
+        682,
+        1199
+      ],
+      "description": "中部倾斜餐盘中的炒牛肉照片，包含牛肉、洋葱、青椒、红椒和盘面，完整照片窗口沿餐盘外缘带黄色描边，并被前景排骨盘部分覆盖。"
+    },
+    {
+      "id": "photo_ribs",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1050,
+        476,
+        1400
+      ],
+      "description": "左下最前方的大盘排骨照片，包含炸或炒排骨、红辣椒、绿叶和白色餐盘，沿不规则餐盘轮廓带粗黄色描边，覆盖左侧其他菜盘的下部。"
+    },
+    {
+      "id": "photo_mushroom",
+      "kind": "photo",
+      "bbox": [
+        608,
+        1134,
+        908,
+        1399
+      ],
+      "description": "右下方倾斜餐盘中的炒牛肝菌或杂菌照片，包含蘑菇、青椒、胡萝卜和浅色汤汁，餐盘外沿带黄色描边，右侧与底部接近画布边界。"
+    },
+    {
+      "id": "overlay_top_title",
+      "kind": "overlay",
+      "bbox": [
+        15,
+        52,
+        412,
+        230
+      ],
+      "description": "左上纸张上的粉色手绘英文标题“CATCH THE GOOD”，分为上下两行，笔刷字形和字距作为固定艺术字整体保留。"
+    },
+    {
+      "id": "overlay_top_stars",
+      "kind": "overlay",
+      "bbox": [
+        125,
+        247,
+        180,
+        304
+      ],
+      "description": "茶壶左上方的黄色手绘五角星装饰，具有不规则笔画和独立轮廓，作为固定贴纸保留。"
+    },
+    {
+      "id": "overlay_bottom_note",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        534,
+        464,
+        637
+      ],
+      "description": "左侧中部纸张上的黑色手写中文说明文字，分为多行并带笑脸表情符号，作为纸面固定手写设计整体保留。"
+    },
+    {
+      "id": "overlay_bunny_doodle",
+      "kind": "overlay",
+      "bbox": [
+        412,
+        291,
+        527,
+        420
+      ],
+      "description": "绿色卡片左下边缘附近的白色手绘小动物或兔子轮廓，带黄色圆点和短线点缀，作为独立装饰压在卡面与照片交界处。"
+    },
+    {
+      "id": "overlay_food_labels_left",
+      "kind": "overlay",
+      "bbox": [
+        80,
+        746,
+        509,
+        1112
+      ],
+      "description": "覆盖左侧多张菜品照片的白色或浅黄色中文菜名与手绘箭头，包括绿叶菜、辣椒炒肉和豆腐等标签；每个标签随其照片附近的独立装饰笔画整体保留。"
+    },
+    {
+      "id": "overlay_food_labels_center",
+      "kind": "overlay",
+      "bbox": [
+        239,
+        1006,
+        596,
+        1119
+      ],
+      "description": "中下部牛肉和排骨照片上的浅黄色中文菜名、弧形标记和箭头，作为固定的手写式菜品标注整体保留。"
+    },
+    {
+      "id": "overlay_food_label_right",
+      "kind": "overlay",
+      "bbox": [
+        767,
+        1165,
+        894,
+        1227
+      ],
+      "description": "右下蘑菇菜盘上方的浅黄色中文菜名与箭头标注，依附在照片上方但属于独立固定装饰。"
+    },
+    {
+      "id": "overlay_plog_lettering",
+      "kind": "overlay",
+      "bbox": [
+        681,
+        974,
+        1008,
+        1154
+      ],
+      "description": "人物照片下方的大型粉色和绿色手绘“PLOG”艺术字，带浅色描边和不规则字形，作为独立固定艺术字整体保留。"
+    },
+    {
+      "id": "overlay_duck_stickers",
+      "kind": "overlay",
+      "bbox": [
+        586,
+        938,
+        1080,
+        1043
+      ],
+      "description": "人物照片下缘和PLOG上方的一组黄色小鸭贴纸及黑白小点装饰，包含多个独立小鸭和粉色、黄色点缀，作为连续贴纸组合保留。"
+    },
+    {
+      "id": "overlay_right_label",
+      "kind": "overlay",
+      "bbox": [
+        978,
+        1051,
+        1080,
+        1344
+      ],
+      "description": "右侧竖向粉色标签，包含黑色中文“青木厨房”和旁侧竖排小字，标签本身带不规则纸边并覆盖背景及右下照片区域。"
+    }
+  ],
+  "layer_order": [
+    "frame_green_card",
+    "photo_top_table",
+    "photo_sandwich",
+    "photo_teapot",
+    "photo_teacup",
+    "overlay_top_title",
+    "overlay_top_stars",
+    "overlay_bottom_note",
+    "overlay_bunny_doodle",
+    "photo_green_vegetable",
+    "photo_pepper_chicken",
+    "photo_tofu",
+    "photo_beef",
+    "photo_people",
+    "photo_mushroom",
+    "photo_ribs",
+    "overlay_food_labels_left",
+    "overlay_food_labels_center",
+    "overlay_food_label_right",
+    "overlay_plog_lettering",
+    "overlay_duck_stickers",
+    "overlay_right_label"
+  ]
+}

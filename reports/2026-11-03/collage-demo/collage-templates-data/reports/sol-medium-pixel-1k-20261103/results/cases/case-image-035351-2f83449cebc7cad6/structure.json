@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "background_zoo",
+    "description": "动物园环境的连续摄影底图，竹林、植被及横贯中部的彩绘说明牌延伸至画布边缘；多张红熊猫照片、剪影和中央信息卡遮住局部。底图保留完整场景，替换为客户的环境照片。"
+  },
+  "objects": [
+    {
+      "id": "photo_left_panda",
+      "kind": "photo",
+      "bbox": [
+        14,
+        0,
+        355,
+        1165
+      ],
+      "description": "左侧一只红熊猫竖向全身背身攀立，头部朝向画面右侧，主体沿不规则外轮廓显示，保留毛发及其间可见的细枝草叶；周围摄影环境去除，外缘有宽白色手绘描边。"
+    },
+    {
+      "id": "photo_center_panda",
+      "kind": "photo",
+      "bbox": [
+        412,
+        165,
+        908,
+        707
+      ],
+      "description": "画面中央偏上的红熊猫正面近景，低伏在深色前景上，后方保留树枝和叶片等摄影环境；显示范围为不规则圆润轮廓，外围有宽白色描边，右上部分被另一张熊猫头像及苹果云朵贴纸遮挡。"
+    },
+    {
+      "id": "photo_head_panda",
+      "kind": "photo",
+      "bbox": [
+        753,
+        174,
+        1080,
+        439
+      ],
+      "description": "右上角一只红熊猫正面头部近景，耳朵和脸部完整可见，周围摄影背景不明显，沿头部组合外缘呈不规则窗口并带宽白色描边；右侧显示延伸至画布边缘，局部压住中央照片。"
+    },
+    {
+      "id": "photo_lower_panda",
+      "kind": "photo",
+      "bbox": [
+        307,
+        1064,
+        1080,
+        1461
+      ],
+      "description": "下方横向红熊猫照片，动物卧伏在竹枝和叶片间，摄影环境保留；不规则窗口外围有宽白色描边，右侧延伸至画布边缘并遮住底层说明牌及右下矩形照片的上部。"
+    },
+    {
+      "id": "photo_bottom_left_panda",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1390,
+        608,
+        1717
+      ],
+      "description": "左下方一只红熊猫横向行走，头朝右，完整身体及脚部可见，周围摄影环境去除，沿主体组合外缘带宽白色描边；左侧主体延伸出画布边缘，下方与左侧文字区域相邻。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        484,
+        1517,
+        1006,
+        1902
+      ],
+      "description": "右下矩形照片中，一只红熊猫在草地小径上朝右行走，旁有一只直立的深色大型水鸟；保留完整户外摄影环境，矩形照片边缘清晰，部分被前景植被及上方不规则照片遮挡。"
+    },
+    {
+      "id": "overlay_article_card",
+      "kind": "overlay",
+      "bbox": [
+        354,
+        724,
+        844,
+        1037
+      ],
+      "description": "中央偏右的横向纸质科普文章卡片，圆角矩形，上方为深红棕色标题栏及白色中文标题，下方为浅色纸面、细小中文正文和淡色印刷纹理；作为完整固定卡片保留。"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        478,
+        47,
+        1008,
+        194
+      ],
+      "description": "画面顶部两行白色手写风格中文标题，带深红棕色粗描边，末尾有哭泣表情图案；各字与表情共同构成一组独立装饰字样。"
+    },
+    {
+      "id": "overlay_apple_cloud",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        431,
+        1049,
+        641
+      ],
+      "description": "中央偏右的白色蓬松云朵形贴纸，中心为红苹果图案，左下附一个小白圆点；整体作为独立贴纸压在中央照片上。"
+    },
+    {
+      "id": "overlay_article_caption",
+      "kind": "overlay",
+      "bbox": [
+        549,
+        787,
+        953,
+        846
+      ],
+      "description": "覆盖在科普卡片标题栏及其下缘的白色手写风格中文短句，带深红棕色描边，右端附爱心眼表情；作为完整装饰字样保留。"
+    },
+    {
+      "id": "overlay_bottom_caption",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        1712,
+        432,
+        1908
+      ],
+      "description": "左下角三行白色手写风格中文字样，带深红棕色粗描边，末尾有蓝色云朵图案；行列与附属图案共同构成独立装饰。"
+    }
+  ],
+  "layer_order": [
+    "photo_bottom_right",
+    "photo_left_panda",
+    "photo_center_panda",
+    "photo_lower_panda",
+    "photo_bottom_left_panda",
+    "photo_head_panda",
+    "overlay_article_card",
+    "overlay_title",
+    "overlay_apple_cloud",
+    "overlay_article_caption",
+    "overlay_bottom_caption"
+  ]
+}

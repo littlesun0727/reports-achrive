@@ -1,0 +1,75 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#0B0908"
+  },
+  "objects": [
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        0,
+        668,
+        1080,
+        1440
+      ],
+      "description": "画布下半部的横向餐桌照片，近景可见多道菜肴、铜锅、餐盘和饮品，后方有暗色室内环境；完整显示区域从约 y=668 延伸至画布底边，顶部与深色底面相接，左右边缘延伸至画布边缘。摄影环境保留在照片内，无独立框体。"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        378,
+        231,
+        702,
+        264
+      ],
+      "text": "Record my daily life",
+      "color": "#E8E5E3",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_time",
+      "kind": "text",
+      "bbox": [
+        483,
+        326,
+        597,
+        354
+      ],
+      "text": "12:30am",
+      "color": "#E8E5E3",
+      "font": "serif",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        304,
+        424,
+        777,
+        455
+      ],
+      "text": "每周吃一次漂亮饭·发现野果还挺好吃",
+      "color": "#F0EFED",
+      "font": "cjk",
+      "align": "center",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_food",
+    "text_title",
+    "text_time",
+    "text_caption"
+  ]
+}

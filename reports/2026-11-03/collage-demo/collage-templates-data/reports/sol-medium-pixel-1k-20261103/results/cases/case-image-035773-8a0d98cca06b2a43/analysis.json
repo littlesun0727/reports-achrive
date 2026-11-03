@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "连续的黄昏城市摄影画面覆盖全画布：橙粉色天空与云层、两侧高楼及下方深色屋顶和树木构成同一远景场景，无人物。中央偏上的矩形照片和下方矩形照片遮挡局部；四边露出的场景连续，保留为可整体替换的全幅摄影底图。",
+      "background_type": "photo",
+      "label": "连续的黄昏城市摄影画面覆盖全画布：橙粉色天空与云层、两侧高楼",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        403,
+        155,
+        686,
+        438
+      ],
+      "description": "中央偏上的方形城市黄昏照片，画面包含暮色云层、远处低矮屋顶和暗色建筑剪影，无人物；摄影环境保留，硬边矩形显示，覆盖全幅底图的一部分。",
+      "label": "中央偏上的方形城市黄昏照片，画面包含暮色云层、远处低矮屋顶和",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        417,
+        685,
+        692,
+        961
+      ],
+      "description": "下方中央的近方形黄昏城市照片，画面包含楼体、树枝和橙色天空，无人物；摄影环境保留，硬边矩形显示，覆盖全幅底图的一部分。",
+      "label": "下方中央的近方形黄昏城市照片，画面包含楼体、树枝和橙色天空，",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_upper",
+    "photo_lower"
+  ]
+}

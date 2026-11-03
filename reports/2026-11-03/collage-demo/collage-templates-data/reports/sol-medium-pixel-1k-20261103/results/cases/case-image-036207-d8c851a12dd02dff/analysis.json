@@ -1,0 +1,337 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    833,
+    1111
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        833,
+        1111
+      ],
+      "description": "连续的浅绿色户外自然环境摄影画面铺满全画布，边缘和各对象之间可见模糊的绿色树林与草地；人物、织物、露营场景、招牌照片及文字贴纸遮挡局部。底图保留完整环境并由客户摄影素材替换。",
+      "background_type": "photo",
+      "label": "连续的浅绿色户外自然环境摄影画面铺满全画布，边缘和各对象之间",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_textile_circle",
+      "kind": "photo",
+      "bbox": [
+        48,
+        112,
+        371,
+        438
+      ],
+      "description": "左上圆形照片窗口，显示编织织物、彩色刺绣文字和布料纹理，照片内容沿圆形边界裁切；摄影环境不单独保留，边缘效果随照片窗口重建。",
+      "label": "左上圆形照片窗口，显示编织织物、彩色刺绣文字和布料纹理，照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_camping_main",
+      "kind": "photo",
+      "bbox": [
+        237,
+        289,
+        598,
+        767
+      ],
+      "description": "画面中央偏下的大幅露营地照片，包含山林、树木、帐篷、溪流和游客活动，完整矩形显示区域部分被上方人物、圆形招牌照片、左下照片及右下相框遮挡。",
+      "label": "画面中央偏下的大幅露营地照片，包含山林、树木、帐篷、溪流和游",
+      "method": "local"
+    },
+    {
+      "id": "photo_group_cutout",
+      "kind": "photo",
+      "bbox": [
+        442,
+        53,
+        751,
+        399
+      ],
+      "description": "右上方三位女性的完整抠图组合，人物站立并向镜头或侧前方活动，左右人物举起手臂，中间人物手持手机；人物外沿有明显白色描边，背景去除，整体覆盖中央露营照片。",
+      "label": "右上方三位女性的完整抠图组合，人物站立并向镜头或侧前方活动，",
+      "method": "local"
+    },
+    {
+      "id": "photo_sign_circle",
+      "kind": "photo",
+      "bbox": [
+        557,
+        405,
+        792,
+        651
+      ],
+      "description": "右侧圆形照片窗口，显示木制入口、树木和带有中文文字的露营地招牌，照片沿圆形边界裁切并压住中央露营照片。",
+      "label": "右侧圆形照片窗口，显示木制入口、树木和带有中文文字的露营地招",
+      "method": "local"
+    },
+    {
+      "id": "photo_stream_lower_left",
+      "kind": "photo",
+      "bbox": [
+        57,
+        665,
+        305,
+        995
+      ],
+      "description": "左下竖向自然景观照片，显示山林、溪流、岩石、帐篷和前景植物，完整矩形照片位于中央露营照片上方。",
+      "label": "左下竖向自然景观照片，显示山林、溪流、岩石、帐篷和前景植物，",
+      "method": "local"
+    },
+    {
+      "id": "photo_wood_door",
+      "kind": "photo",
+      "bbox": [
+        537,
+        739,
+        783,
+        981
+      ],
+      "description": "右下相框内的竖向照片，显示带草帘的木门和木板墙，照片内的中文标牌属于摄影内容并随客户照片替换。",
+      "label": "右下相框内的竖向照片，显示带草帘的木门和木板墙，照片内的中文",
+      "method": "local"
+    },
+    {
+      "id": "frame_wood_door",
+      "kind": "frame",
+      "bbox": [
+        521,
+        722,
+        783,
+        1047
+      ],
+      "description": "右下浅蓝色矩形照片卡框，包含照片窗口、宽边底板和固定的纸卡结构；框体位于照片外围并覆盖下方摄影内容。",
+      "photo_id": [
+        "photo_wood_door"
+      ],
+      "label": "右下浅蓝色矩形照片卡框，包含照片窗口、宽边底板和固定的纸卡结",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_tape_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        17,
+        633,
+        143,
+        707
+      ],
+      "description": "斜向贴在左下照片左上方的浅色圆点胶带，作为独立固定装饰保留。",
+      "label": "斜向贴在左下照片左上方的浅色圆点胶带，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_star_small",
+      "kind": "overlay",
+      "bbox": [
+        257,
+        56,
+        310,
+        111
+      ],
+      "description": "织物照片上方的粉色点状五角星贴纸，带深色点状图案和不规则边缘，作为独立装饰保留。",
+      "label": "织物照片上方的粉色点状五角星贴纸，带深色点状图案和不规则边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_pink_star_large",
+      "kind": "overlay",
+      "bbox": [
+        279,
+        84,
+        379,
+        181
+      ],
+      "description": "位于左上照片上方的较大粉色点状五角星贴纸，部分覆盖背景并与小星贴纸相邻，作为独立装饰保留。",
+      "label": "位于左上照片上方的较大粉色点状五角星贴纸，部分覆盖背景并与小",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_bow",
+      "kind": "overlay",
+      "bbox": [
+        670,
+        53,
+        787,
+        141
+      ],
+      "description": "右上人物附近的蓝色手绘蝴蝶结装饰，包含双侧环带和下垂丝带，独立叠加在背景上。",
+      "label": "右上人物附近的蓝色手绘蝴蝶结装饰，包含双侧环带和下垂丝带，独",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        61,
+        72,
+        133,
+        179
+      ],
+      "description": "左上区域的一组白色手绘线条、感叹号和星形涂鸦，成员彼此接近并作为同一组固定装饰保留。",
+      "label": "左上区域的一组白色手绘线条、感叹号和星形涂鸦，成员彼此接近并",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_star_small",
+      "kind": "overlay",
+      "bbox": [
+        405,
+        247,
+        434,
+        275
+      ],
+      "description": "中央露营照片上方的小型白色手绘星形涂鸦，作为独立固定装饰保留。",
+      "label": "中央露营照片上方的小型白色手绘星形涂鸦，作为独立固定装饰保留",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_star_left",
+      "kind": "overlay",
+      "bbox": [
+        454,
+        363,
+        484,
+        393
+      ],
+      "description": "中央照片左侧边缘附近的白色手绘星形涂鸦，独立叠加在摄影内容上。",
+      "label": "中央照片左侧边缘附近的白色手绘星形涂鸦，独立叠加在摄影内容上",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_star_large",
+      "kind": "overlay",
+      "bbox": [
+        487,
+        406,
+        536,
+        453
+      ],
+      "description": "中央照片下方偏左的大型白色手绘星形涂鸦，部分位于照片区域上方，作为独立装饰保留。",
+      "label": "中央照片下方偏左的大型白色手绘星形涂鸦，部分位于照片区域上方",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_star_right",
+      "kind": "overlay",
+      "bbox": [
+        575,
+        374,
+        613,
+        422
+      ],
+      "description": "人物与圆形招牌照片之间的白色手绘星形涂鸦，独立叠加在背景和照片边缘上。",
+      "label": "人物与圆形招牌照片之间的白色手绘星形涂鸦，独立叠加在背景和照",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_doodle_star_far_right",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        285,
+        682,
+        315
+      ],
+      "description": "右上人物下方的小型白色手绘星形涂鸦，作为独立固定装饰保留。",
+      "label": "右上人物下方的小型白色手绘星形涂鸦，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "text_left_caption",
+      "kind": "text",
+      "bbox": [
+        24,
+        436,
+        252,
+        535
+      ],
+      "description": "一个免门票的\n可以消遣的好地方\n多祝寨水camping",
+      "label": "一个免门票的\n可以消遣的好地方\n多祝寨水camping",
+      "method": "local",
+      "text": "一个免门票的\n可以消遣的好地方\n多祝寨水camping",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_center_caption",
+      "kind": "text",
+      "bbox": [
+        363,
+        821,
+        506,
+        919
+      ],
+      "description": "直白的厕所\n客家人懂hhh",
+      "label": "直白的厕所\n客家人懂hhh",
+      "method": "local",
+      "text": "直白的厕所\n客家人懂hhh",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_caption",
+      "kind": "text",
+      "bbox": [
+        245,
+        1007,
+        496,
+        1039
+      ],
+      "description": "好舒服的景色",
+      "label": "好舒服的景色",
+      "method": "local",
+      "text": "好舒服的景色",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk-hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_camping_main",
+    "photo_textile_circle",
+    "photo_stream_lower_left",
+    "photo_sign_circle",
+    "photo_wood_door",
+    "frame_wood_door",
+    "photo_group_cutout",
+    "overlay_tape_lower_left",
+    "overlay_pink_star_small",
+    "overlay_pink_star_large",
+    "overlay_doodle_upper_left",
+    "overlay_doodle_star_small",
+    "overlay_doodle_star_left",
+    "overlay_doodle_star_large",
+    "overlay_doodle_star_right",
+    "overlay_doodle_star_far_right",
+    "overlay_blue_bow",
+    "text_left_caption",
+    "text_center_caption",
+    "text_bottom_caption"
+  ]
+}

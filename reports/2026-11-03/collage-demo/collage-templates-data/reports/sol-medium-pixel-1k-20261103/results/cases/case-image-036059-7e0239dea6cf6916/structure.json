@@ -1,0 +1,71 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        532,
+        720
+      ],
+      "description": "左上独立竖向人像照片，单人近距离半身构图，金发人物面向镜头并用手托住脸侧，身后可见浅蓝色室内背景与头饰。照片完整延伸至画布左边、上边和下边，右缘与右侧照片相接，边缘区域被上方及下方的固定花朵珍珠装饰部分覆盖。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        531,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立竖向人像照片，单人近距离半身构图，金发人物面向镜头并以手遮在脸颊前，身后可见浅蓝色室内背景与头饰。照片完整延伸至画布上边、右边和下边，左缘与左侧照片相接，边缘区域被固定花朵珍珠装饰部分覆盖。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "下方独立横向摄影画面，中央为粉白色奶油蛋糕或甜点，周围可见粉色圆盘、礼物蝴蝶结、花朵与绿色叶片装饰，右侧有发光的日文字符“夢”；该区域从画布左右边缘延伸至底边，与上方人像照片在y约720处形成明确裁切接缝。"
+    },
+    {
+      "id": "overlay_top_garland",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        96
+      ],
+      "description": "横跨画布顶部的固定装饰单元，由粉色小花、白色花朵和珍珠状圆点组成，覆盖左右两张人物照片的上缘，部分成员在画布边缘被裁切；作为连续的独立花朵珍珠装饰保留。"
+    },
+    {
+      "id": "overlay_lower_garland",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        542,
+        1080,
+        720
+      ],
+      "description": "横跨上方照片下缘的固定装饰单元，由粉色花朵、白色珍珠状圆点和浅绿色丝带元素组成，左侧附带较大的蝴蝶结与花朵组合，覆盖两张人像照片的下部并在边缘处被裁切；整体作为一组独立装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_right",
+    "photo_bottom",
+    "overlay_top_garland",
+    "overlay_lower_garland"
+  ]
+}

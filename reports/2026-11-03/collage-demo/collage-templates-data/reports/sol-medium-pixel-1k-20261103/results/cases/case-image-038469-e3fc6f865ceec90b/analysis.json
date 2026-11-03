@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立摄影区域，桌面上的显示器、键盘、书本、毛绒玩偶和水果盘共同构成完整画面；显示器画面内可见女性近景及英文 Recording 字样，均随该照片替换。下缘被中央标题覆盖。",
+      "label": "左上独立摄影区域，桌面上的显示器、键盘、书本、毛绒玩偶和水果",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立俯拍摄影区域，棕色桌面上有编织篮、黄色饮品罐、两支包装管、花朵和粉色卡片；完整桌面环境保留在照片窗口内，下缘被中央标题覆盖。",
+      "label": "右上独立俯拍摄影区域，棕色桌面上有编织篮、黄色饮品罐、两支包",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立俯拍摄影区域，棕色桌面上放置木质托盘、三件护肤或日用品，左下有佩戴手链的手伸入画面；后方可见米色织物，完整摄影环境随照片替换。上缘被中央标题覆盖。",
+      "label": "左下独立俯拍摄影区域，棕色桌面上放置木质托盘、三件护肤或日用",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立俯拍摄影区域，浅色桌面上有橙汁包装瓶、白色键盘及右下角的彩色书本或卡片；完整摄影环境和物件均属于该照片，上缘被中央标题及粉丝数量标注局部覆盖。",
+      "label": "右下独立俯拍摄影区域，浅色桌面上有橙汁包装瓶、白色键盘及右下",
+      "method": "local"
+    },
+    {
+      "id": "overlay_main_title",
+      "kind": "overlay",
+      "bbox": [
+        23,
+        674,
+        1058,
+        769
+      ],
+      "description": "横跨四格照片接缝的超大中文标题“27岁失业做自媒体第24天”，白色粗字配黑色厚描边，作为独立固定文字图形压在照片上方。",
+      "label": "横跨四格照片接缝的超大中文标题“27岁失业做自媒体第24天”",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_follower_count",
+      "kind": "overlay",
+      "bbox": [
+        650,
+        833,
+        1026,
+        893
+      ],
+      "description": "位于右下照片上方的独立粉丝数量标注“❤️粉丝宝宝：1644”，包含红色爱心、白色粗体中文与数字及黑色描边，作为固定文字装饰保留。",
+      "label": "位于右下照片上方的独立粉丝数量标注“❤️粉丝宝宝：1644”",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right",
+    "overlay_main_title",
+    "overlay_follower_count"
+  ]
+}

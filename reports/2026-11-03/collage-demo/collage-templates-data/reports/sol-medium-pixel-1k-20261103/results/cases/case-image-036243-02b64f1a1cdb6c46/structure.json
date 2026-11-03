@@ -1,0 +1,165 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "layout_base",
+    "description": "固定的全画布几何底图由左上浅奶油色、右上白色、中段棕色横带及底部白色与浅奶油色分区组成，边界贯穿画布并在照片、插画和装饰周围露出；保留这些纯色分区，独立照片与设计单元分别替换或清除。"
+  },
+  "objects": [
+    {
+      "id": "photo_building",
+      "kind": "photo",
+      "bbox": [
+        232,
+        328,
+        748,
+        1018
+      ],
+      "description": "竖向建筑与秋景照片：仰拍浅黄色建筑、窗户及投在墙面的树影，画面上半为蓝天和橙色秋叶树枝；完整矩形照片窗口，顶部和右侧局部被前景饮品遮挡。"
+    },
+    {
+      "id": "frame_building",
+      "kind": "frame",
+      "bbox": [
+        232,
+        307,
+        768,
+        1018
+      ],
+      "description": "承托建筑照片的深棕色矩形框体，顶部横边和右侧竖边清晰可见，其余部分被照片遮住；框体位于照片下方。",
+      "photo_id": [
+        "photo_building"
+      ]
+    },
+    {
+      "id": "photo_drink_cookie",
+      "kind": "photo",
+      "bbox": [
+        477,
+        103,
+        904,
+        570
+      ],
+      "description": "抠出的饮品、饼干和勺子组合：中央为透明杯装奶油色分层饮品，顶部有碎屑，深棕勺柄向右上伸出；右侧有两片叠放的棕色饼干。摄影背景不显示，组合外沿有深棕色不规则描边及白色虚线，底部压住建筑照片。"
+    },
+    {
+      "id": "overlay_leaf_drink",
+      "kind": "overlay",
+      "bbox": [
+        526,
+        315,
+        707,
+        454
+      ],
+      "description": "覆盖饮品杯身的大型橙色枫叶装饰，保留完整叶片轮廓、叶脉和细长叶柄。"
+    },
+    {
+      "id": "overlay_leaf_small",
+      "kind": "overlay",
+      "bbox": [
+        770,
+        249,
+        868,
+        323
+      ],
+      "description": "饮品右上方独立的小型橙色枫叶及细枝装饰，悬置于白色区域。"
+    },
+    {
+      "id": "text_october",
+      "kind": "text",
+      "bbox": [
+        121,
+        173,
+        456,
+        250
+      ],
+      "text": "OCTOBER",
+      "color": "#11100C",
+      "font": "serif",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "overlay_autumn_label",
+      "kind": "overlay",
+      "bbox": [
+        460,
+        462,
+        710,
+        484
+      ],
+      "description": "横跨饮品与照片的棕色窄标签，白色字母间隔排印“AUTUMN LIFE”；标签底板与文字作为一个固定设计单元保留。"
+    },
+    {
+      "id": "overlay_swatches",
+      "kind": "overlay",
+      "bbox": [
+        200,
+        441,
+        265,
+        764
+      ],
+      "description": "照片左缘纵向排列的四枚圆形色样，依次为棕橙、橙色、金黄和浅奶油色，均带细白边，作为一组装饰保留。"
+    },
+    {
+      "id": "overlay_trees",
+      "kind": "overlay",
+      "bbox": [
+        192,
+        910,
+        350,
+        1124
+      ],
+      "description": "左下方三棵秋季树木插画，包含橙黄树冠、可见树枝和棕色树干，带细腻颗粒质感，整体作为一组固定插画保留。"
+    },
+    {
+      "id": "overlay_yellow_leaf",
+      "kind": "overlay",
+      "bbox": [
+        490,
+        710,
+        903,
+        1239
+      ],
+      "description": "右下方大型金黄色叶片装饰，叶片带放射状纹理、星形点缀和柔和阴影，细长叶柄向右下延伸至末端；叶片覆盖照片和底色分区。"
+    },
+    {
+      "id": "overlay_brown_dots",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        576,
+        868,
+        620
+      ],
+      "description": "右侧白色区域内相邻的两枚棕色圆点，大小不同，作为一组小型装饰保留。"
+    },
+    {
+      "id": "overlay_yellow_dots",
+      "kind": "overlay",
+      "bbox": [
+        489,
+        1038,
+        540,
+        1067
+      ],
+      "description": "下方棕色区域内相邻的两枚黄色圆点，大小不同，作为一组小型装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "frame_building",
+    "photo_building",
+    "text_october",
+    "overlay_swatches",
+    "overlay_trees",
+    "photo_drink_cookie",
+    "overlay_leaf_small",
+    "overlay_leaf_drink",
+    "overlay_autumn_label",
+    "overlay_brown_dots",
+    "overlay_yellow_dots",
+    "overlay_yellow_leaf"
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1350
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1350
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_tree_base",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        1350
+      ],
+      "description": "左半幅竖向秋季树木摄影，金黄色银杏树冠、蓝天、树干及下方建筑环境共同构成完整照片，显示区域延伸至画布左侧、上侧和下侧边缘，右缘与苹果照片拼接。",
+      "label": "左半幅竖向秋季树木摄影，金黄色银杏树冠、蓝天、树干及下方建筑",
+      "method": "local"
+    },
+    {
+      "id": "photo_apples_base",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        1350
+      ],
+      "description": "右半幅竖向红苹果近距离摄影，多枚苹果及其枝梗、暗色承托环境共同构成完整照片，显示区域延伸至画布右侧、上侧和下侧边缘，左缘与树木照片拼接。",
+      "label": "右半幅竖向红苹果近距离摄影，多枚苹果及其枝梗、暗色承托环境共",
+      "method": "local"
+    },
+    {
+      "id": "photo_september",
+      "kind": "photo",
+      "bbox": [
+        239,
+        460,
+        540,
+        890
+      ],
+      "description": "中央偏左的竖向秋景照片，画面为两段粗树干之间的绿色环境与一枚红苹果，完整照片窗口位于左侧基础照片上方，右缘与相邻中央照片相接；摄影环境保留。",
+      "label": "中央偏左的竖向秋景照片，画面为两段粗树干之间的绿色环境与一枚",
+      "method": "local"
+    },
+    {
+      "id": "photo_autumn",
+      "kind": "photo",
+      "bbox": [
+        540,
+        460,
+        841,
+        890
+      ],
+      "description": "中央偏右的竖向秋季树木照片，金黄色树冠、蓝天和下方树木环境共同构成完整摄影画面，覆盖右侧苹果基础照片的局部，左缘与相邻中央照片相接；摄影环境保留。",
+      "label": "中央偏右的竖向秋季树木照片，金黄色树冠、蓝天和下方树木环境共",
+      "method": "local"
+    },
+    {
+      "id": "text_september",
+      "kind": "text",
+      "bbox": [
+        328,
+        603,
+        464,
+        627
+      ],
+      "description": "September",
+      "label": "September",
+      "method": "local",
+      "text": "September",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_autumn",
+      "kind": "text",
+      "bbox": [
+        641,
+        781,
+        740,
+        806
+      ],
+      "description": "Autumn",
+      "label": "Autumn",
+      "method": "local",
+      "text": "Autumn",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_tree_base",
+    "photo_apples_base",
+    "photo_september",
+    "photo_autumn",
+    "text_september",
+    "text_autumn"
+  ]
+}

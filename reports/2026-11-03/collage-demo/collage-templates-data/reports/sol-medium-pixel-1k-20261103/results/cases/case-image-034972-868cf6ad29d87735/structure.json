@@ -1,0 +1,47 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        560
+      ],
+      "description": "顶部横向牧场照片：一名戴深色帽子、穿黑色衣服的女性背对镜头站在画面中央偏左，手持相机，右侧挂着包；草地上分布牛群，远处有山脉。保留整幅摄影环境，底边与中间照片的水平接缝相邻。"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        560,
+        1080,
+        1195
+      ],
+      "description": "中部横向风景照片：开阔草地上有多头牛群，远处为层叠山脉与天空，景别宽广；保留完整摄影环境。上下边缘分别与顶部和底部照片的水平接缝相邻，内容与相邻照片独立。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1195,
+        1080,
+        1800
+      ],
+      "description": "底部横向牧场照片：一名戴深色帽子、穿黑色衣服的女性位于画面右侧，以侧身姿态举相机拍摄，身后及远处草地上有牛群，背景为山脉与云层。保留整幅摄影环境，顶部与中间照片的水平接缝相邻。"
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

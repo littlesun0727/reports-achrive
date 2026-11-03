@@ -1,0 +1,193 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    536,
+    1158
+  ],
+  "objects": [
+    {
+      "id": "background_paper",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        536,
+        1158
+      ],
+      "description": "全画布连续的近白色固定底面，四周有极细的浅褐色边线；大面积留白及照片、文字之间的底色一致。保留底面与画布边线，清除其上的独立照片和文字。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的近白色固定底面，四周有极细的浅褐色边线；大面积留",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_reading",
+      "kind": "photo",
+      "bbox": [
+        284,
+        178,
+        483,
+        375
+      ],
+      "description": "右上方近方形照片，一名棕发女子穿条纹上衣和棕色长裤，侧身坐在浅色石台上，低头阅读手中打开的书。左侧有灰蓝色门板，身后是浅色粗糙墙面，身旁有篮子、棕色肩包及右下方植物；这些均属于摄影内容。保留完整摄影环境，四边为清晰的照片窗口，无沿人物轮廓去背景。",
+      "label": "右上方近方形照片，一名棕发女子穿条纹上衣和棕色长裤，侧身坐在",
+      "method": "local"
+    },
+    {
+      "id": "text_credit",
+      "kind": "text",
+      "bbox": [
+        67,
+        297,
+        153,
+        309
+      ],
+      "description": "N维美学陆麻设计",
+      "label": "N维美学陆麻设计",
+      "method": "local",
+      "text": "N维美学陆麻设计",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_hello",
+      "kind": "text",
+      "bbox": [
+        57,
+        308,
+        288,
+        366
+      ],
+      "description": "HELLO",
+      "label": "HELLO",
+      "method": "local",
+      "text": "HELLO",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_thursday",
+      "kind": "text",
+      "bbox": [
+        80,
+        376,
+        484,
+        434
+      ],
+      "description": "THURSDAY",
+      "label": "THURSDAY",
+      "method": "local",
+      "text": "THURSDAY",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_live",
+      "kind": "text",
+      "bbox": [
+        81,
+        444,
+        225,
+        482
+      ],
+      "description": "LIVE IN A STATE YOU LIKE\nAND INSIST ON DOING\nWHAT YOU LOVE.",
+      "label": "LIVE IN A STATE YOU LIKE\nAND I",
+      "method": "local",
+      "text": "LIVE IN A STATE YOU LIKE\nAND INSIST ON DOING\nWHAT YOU LOVE.",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "sans",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_underlined_words",
+      "kind": "overlay",
+      "bbox": [
+        366,
+        808,
+        483,
+        839
+      ],
+      "description": "右下区域靠上的两行小号黑色中文及紧贴各行文字下方的细横线，作为完整带下划线字样保留。内容为“活在自己喜欢的状态里”“坚持做自己热爱的事情”，两行右侧对齐，无独立底板。",
+      "label": "右下区域靠上的两行小号黑色中文及紧贴各行文字下方的细横线，作",
+      "method": "extract"
+    },
+    {
+      "id": "text_chinese_bottom",
+      "kind": "text",
+      "bbox": [
+        299,
+        896,
+        483,
+        937
+      ],
+      "description": "让自己成为光\n从喜欢里得到快乐和力量",
+      "label": "让自己成为光\n从喜欢里得到快乐和力量",
+      "method": "local",
+      "text": "让自己成为光\n从喜欢里得到快乐和力量",
+      "text_status": "known",
+      "style": {
+        "fill": "#111111",
+        "font": "cjk",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_english_bottom",
+      "kind": "text",
+      "bbox": [
+        295,
+        960,
+        483,
+        982
+      ],
+      "description": "LET YOURSELF BE THE LIGHT, AND GET\nHAPPINESS AND STRENGTH FROM LIKING.",
+      "label": "LET YOURSELF BE THE LIGHT, AND",
+      "method": "local",
+      "text": "LET YOURSELF BE THE LIGHT, AND GET\nHAPPINESS AND STRENGTH FROM LIKING.",
+      "text_status": "known",
+      "style": {
+        "fill": "#777777",
+        "font": "sans",
+        "align": "right",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "background_paper",
+    "photo_reading",
+    "text_credit",
+    "text_hello",
+    "text_thursday",
+    "text_live",
+    "overlay_underlined_words",
+    "text_chinese_bottom",
+    "text_english_bottom"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "photo_ice_cream",
+      "kind": "photo",
+      "bbox": [
+        139,
+        190,
+        780,
+        667
+      ],
+      "description": "相机屏幕内的一张横向近景照片：中央偏右是一只竖起的巧克力脆皮雪糕，顶部露出浅绿色雪糕，左下有部分包装袋和印刷的雪糕图案；灰色地面构成照片环境。保留完整摄影画面，屏幕边缘及角标覆盖局部。"
+    },
+    {
+      "id": "frame_camera",
+      "kind": "frame",
+      "bbox": [
+        49,
+        94,
+        1032,
+        758
+      ],
+      "description": "黑色粗糙手绘摄像机机身与屏幕承托框，外沿为灰白色不规则描边。右侧一体绘有横线、圆点、红蓝按钮及大型转盘，屏幕左上有红点和“REC”字样，四角有取景标记；这些控制图形、文字和机身纹理均属于固定框体。包围并承载一张照片。",
+      "photo_id": [
+        "photo_ice_cream"
+      ]
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        151,
+        789,
+        920,
+        1029
+      ],
+      "description": "四行白色手写中文艺术字，居中错落排布，内容为“我最爱吃的就是巧克力口味的雪糕，浓有的巧克力味简直让我欲罢不能。雪糕真是夏天的必备品，甜甜的口感让人心情愉悦。”字形具有独立手写造型，作为整体装饰保留。"
+    },
+    {
+      "id": "overlay_watermark",
+      "kind": "overlay",
+      "bbox": [
+        1034,
+        1053,
+        1072,
+        1074
+      ],
+      "description": "画布右下角的小红书平台水印，浅灰色小型标记与文字作为一个整体保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_ice_cream",
+    "frame_camera",
+    "overlay_caption",
+    "overlay_watermark"
+  ]
+}

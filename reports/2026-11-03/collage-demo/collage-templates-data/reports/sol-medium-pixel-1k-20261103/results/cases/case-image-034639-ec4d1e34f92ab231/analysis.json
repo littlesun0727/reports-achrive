@@ -1,0 +1,283 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的餐厅室内与餐桌摄影画面延伸至画布四边，边缘可见木质桌面、餐具和室内陈设；多张独立照片及文字装饰遮挡其局部。保留完整餐厅环境，无明显人物主体。",
+      "background_type": "photo",
+      "label": "连续的餐厅室内与餐桌摄影画面延伸至画布四边，边缘可见木质桌面",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_parrots",
+      "kind": "photo",
+      "bbox": [
+        69,
+        321,
+        366,
+        689
+      ],
+      "description": "左侧竖向鸟舍照片，两只绿色鹦鹉停在树枝上，周围可见枝叶、树干和笼网；摄影环境保留，右上部分被上方人物照片遮挡。",
+      "label": "左侧竖向鸟舍照片，两只绿色鹦鹉停在树枝上，周围可见枝叶、树干",
+      "method": "local"
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        296,
+        114,
+        783,
+        481
+      ],
+      "description": "上方横向照片，一名戴棕色帽子的女性坐在大型黑白狗造型雕塑旁，旁有蛋糕模型；保留户外地面和背景，左下缘与下缘被相邻照片遮挡。",
+      "label": "上方横向照片，一名戴棕色帽子的女性坐在大型黑白狗造型雕塑旁，",
+      "method": "local"
+    },
+    {
+      "id": "photo_cat",
+      "kind": "photo",
+      "bbox": [
+        348,
+        466,
+        779,
+        718
+      ],
+      "description": "中部照片显示一只橘猫侧卧在灰色铺砖地面上，摄影环境保留；照片下缘呈弧形裁切，局部被前景文字遮挡。",
+      "label": "中部照片显示一只橘猫侧卧在灰色铺砖地面上，摄影环境保留；照片",
+      "method": "local"
+    },
+    {
+      "id": "photo_cameras",
+      "kind": "photo",
+      "bbox": [
+        168,
+        741,
+        541,
+        943
+      ],
+      "description": "左中部横向照片，桌面上密集排列多台黑色相机；保留桌面和相机陈列，右侧及下缘被其他照片和文字局部遮挡。",
+      "label": "左中部横向照片，桌面上密集排列多台黑色相机；保留桌面和相机陈",
+      "method": "local"
+    },
+    {
+      "id": "photo_chef",
+      "kind": "photo",
+      "bbox": [
+        308,
+        861,
+        717,
+        1111
+      ],
+      "description": "中下部横向照片，厨师以喷火工具炙烤餐盘中的食物，画面主要显示上身、手部、火焰和操作台；保留厨房摄影环境，部分边缘被前景照片与标签遮挡。",
+      "label": "中下部横向照片，厨师以喷火工具炙烤餐盘中的食物，画面主要显示",
+      "method": "local"
+    },
+    {
+      "id": "photo_restaurant",
+      "kind": "photo",
+      "bbox": [
+        72,
+        1028,
+        395,
+        1334
+      ],
+      "description": "左下竖向餐厅室内照片，可见明亮的窗格、桌椅及就餐人影；保留完整摄影环境，右侧局部被餐盘图形和甜点照片遮挡。",
+      "label": "左下竖向餐厅室内照片，可见明亮的窗格、桌椅及就餐人影；保留完",
+      "method": "local"
+    },
+    {
+      "id": "photo_shrimp",
+      "kind": "photo",
+      "bbox": [
+        744,
+        960,
+        1016,
+        1298
+      ],
+      "description": "右下竖向菜品照片，白盘中摆有虾、蔬菜和黄色酱汁；保留餐桌背景，显示为矩形照片，部分被上方文字标签遮挡。",
+      "label": "右下竖向菜品照片，白盘中摆有虾、蔬菜和黄色酱汁；保留餐桌背景",
+      "method": "local"
+    },
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        395,
+        1147,
+        727,
+        1384
+      ],
+      "description": "底部横向甜点照片，白盘上有煎制甜点、莓果和酱汁，周围可见编织桌垫；保留摄影环境，照片下缘接近画布底部。",
+      "label": "底部横向甜点照片，白盘上有煎制甜点、莓果和酱汁，周围可见编织",
+      "method": "local"
+    },
+    {
+      "id": "overlay_leaves",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        164,
+        265,
+        300
+      ],
+      "description": "左上方两枚橙黄色手绘叶片贴纸，一枚为轮廓叶、一枚为线描叶，作为一个相邻的固定装饰组合保留。",
+      "label": "左上方两枚橙黄色手绘叶片贴纸，一枚为轮廓叶、一枚为线描叶，作",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_speech",
+      "kind": "overlay",
+      "bbox": [
+        708,
+        54,
+        920,
+        176
+      ],
+      "description": "右上方白色云形手绘对话泡泡，内有韩文手写字样及小气泡尾部；文字与泡泡造型作为同一固定装饰保留。",
+      "label": "右上方白色云形手绘对话泡泡，内有韩文手写字样及小气泡尾部；文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_party_cat",
+      "kind": "overlay",
+      "bbox": [
+        827,
+        229,
+        1007,
+        439
+      ],
+      "description": "右上部白色手绘猫脸与派对帽装饰，包含星点、胡须和帽子上的蝴蝶结，整体作为一枚固定线描贴纸保留。",
+      "label": "右上部白色手绘猫脸与派对帽装饰，包含星点、胡须和帽子上的蝴蝶",
+      "method": "extract"
+    },
+    {
+      "id": "text_nine",
+      "kind": "text",
+      "bbox": [
+        674,
+        388,
+        994,
+        712
+      ],
+      "description": "9",
+      "label": "9",
+      "method": "local",
+      "text": "9",
+      "text_status": "known",
+      "style": {
+        "fill": "#FF987D",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_sep",
+      "kind": "text",
+      "bbox": [
+        509,
+        694,
+        825,
+        836
+      ],
+      "description": "Sep",
+      "label": "Sep",
+      "method": "local",
+      "text": "Sep",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_cat_costume",
+      "kind": "overlay",
+      "bbox": [
+        818,
+        676,
+        1018,
+        833
+      ],
+      "description": "右侧小型猫咪贴纸，猫脸从圆形棕色绒毛造型中露出，带白色轮廓线及两侧和底部的小肢体造型；整体作为固定贴纸保留。",
+      "label": "右侧小型猫咪贴纸，猫脸从圆形棕色绒毛造型中露出，带白色轮廓线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_plate_icon",
+      "kind": "overlay",
+      "bbox": [
+        240,
+        1051,
+        411,
+        1180
+      ],
+      "description": "覆盖在左下餐厅照片上的白色方形装饰卡，底纹为浅灰小图案，中央是餐盘、刀叉和餐具线描；卡片与图案作为一个固定单元保留。",
+      "label": "覆盖在左下餐厅照片上的白色方形装饰卡，底纹为浅灰小图案，中央",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_top_label",
+      "kind": "overlay",
+      "bbox": [
+        258,
+        85,
+        473,
+        123
+      ],
+      "description": "顶部橙色长方形文字标签，黑色中文印字“在武汉边逛边拍”，文字与底色作为同一固定标签保留。",
+      "label": "顶部橙色长方形文字标签，黑色中文印字“在武汉边逛边拍”，文字",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_food_label",
+      "kind": "overlay",
+      "bbox": [
+        519,
+        1108,
+        784,
+        1148
+      ],
+      "description": "中下部橙色长方形文字标签，黑色中文印字“9月吃了很多好吃的”，文字与底色作为同一固定标签保留。",
+      "label": "中下部橙色长方形文字标签，黑色中文印字“9月吃了很多好吃的”",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_parrots",
+    "photo_top",
+    "photo_cat",
+    "photo_cameras",
+    "photo_chef",
+    "photo_restaurant",
+    "photo_shrimp",
+    "photo_dessert",
+    "overlay_leaves",
+    "overlay_speech",
+    "overlay_party_cat",
+    "text_nine",
+    "text_sep",
+    "overlay_cat_costume",
+    "overlay_plate_icon",
+    "overlay_top_label",
+    "overlay_food_label"
+  ]
+}

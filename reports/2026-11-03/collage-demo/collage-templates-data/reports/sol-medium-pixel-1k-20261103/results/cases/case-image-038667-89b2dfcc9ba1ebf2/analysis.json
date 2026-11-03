@@ -1,0 +1,128 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFD4"
+      }
+    },
+    {
+      "id": "photo_plate_scene",
+      "kind": "photo",
+      "bbox": [
+        72,
+        72,
+        1009,
+        1009
+      ],
+      "description": "中央圆盘及盘中食物、手和兔子玩偶组成一张独立摄影内容，保留盘子与主体周围可见的摄影质感；完整显示范围沿圆盘外缘及其阴影，不延伸到周围浅黄色画布。",
+      "label": "中央圆盘及盘中食物、手和兔子玩偶组成一张独立摄影内容，保留盘",
+      "method": "local"
+    },
+    {
+      "id": "clover_upper_left",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        116,
+        200,
+        258
+      ],
+      "description": "左上方一枚绿色四叶草图案，保留完整叶片、茎部连接处及柔和边缘，作为独立固定装饰。",
+      "label": "左上方一枚绿色四叶草图案，保留完整叶片、茎部连接处及柔和边缘",
+      "method": "extract"
+    },
+    {
+      "id": "clover_lower_left",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        849,
+        185,
+        1080
+      ],
+      "description": "左下方较大的绿色四叶草图案及向画布底边延伸的细茎，完整保留；茎部在画布下边缘被裁切。",
+      "label": "左下方较大的绿色四叶草图案及向画布底边延伸的细茎，完整保留；",
+      "method": "extract"
+    },
+    {
+      "id": "clover_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        869,
+        1024,
+        1033
+      ],
+      "description": "右下方绿色四叶草图案及向下弯曲的细茎，作为一个独立固定装饰保留。",
+      "label": "右下方绿色四叶草图案及向下弯曲的细茎，作为一个独立固定装饰保",
+      "method": "extract"
+    },
+    {
+      "id": "sparkle_accents",
+      "kind": "overlay",
+      "bbox": [
+        329,
+        383,
+        800,
+        738
+      ],
+      "description": "叠在盘中摄影内容上的数道白色星芒与细长光线，整体作为一组固定闪光装饰保留。",
+      "label": "叠在盘中摄影内容上的数道白色星芒与细长光线，整体作为一组固定",
+      "method": "extract"
+    },
+    {
+      "id": "speech_bubble",
+      "kind": "overlay",
+      "bbox": [
+        862,
+        35,
+        1061,
+        423
+      ],
+      "description": "右上方白色放射状漫画气泡，带黑色外轮廓、点状网纹及竖排粗黑字“可愛過ぎでしょ”和多行“!!!”；字样与气泡共同构成固定装饰单元，并压住中央圆盘的右上缘。",
+      "label": "右上方白色放射状漫画气泡，带黑色外轮廓、点状网纹及竖排粗黑字",
+      "method": "extract"
+    },
+    {
+      "id": "watermark",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        857,
+        489,
+        911
+      ],
+      "description": "圆盘下部叠加的白色平台水印，包含小图标、“@Zhang”及其后的图形标记，以及较小的“From 小红书”，作为完整固定标记保留。",
+      "label": "圆盘下部叠加的白色平台水印，包含小图标、“@Zhang”及其",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_plate_scene",
+    "clover_upper_left",
+    "clover_lower_left",
+    "clover_lower_right",
+    "sparkle_accents",
+    "watermark",
+    "speech_bubble"
+  ]
+}

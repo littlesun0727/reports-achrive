@@ -1,0 +1,95 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        720
+      ],
+      "description": "上方横向户外照片：一名戴浅色针织帽和墨镜、穿绿色外套的人物居中偏右，手持饮料瓶，低角度拍摄，人物下半身被画面下缘裁切；蓝天占据大部分背景，右下边缘可见少量树枝。摄影环境保留，矩形照片下缘被白色面板覆盖。",
+      "label": "上方横向户外照片：一名戴浅色针织帽和墨镜、穿绿色外套的人物居",
+      "method": "local"
+    },
+    {
+      "id": "panel_lower",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        720,
+        1080,
+        1440
+      ],
+      "description": "覆盖画布下半部的纯白色横向固定面板，顶边与上方照片下缘相接并压住其下沿；承载标题和下方独立照片。",
+      "label": "覆盖画布下半部的纯白色横向固定面板，顶边与上方照片下缘相接并",
+      "method": "extract"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        352,
+        828,
+        727,
+        1328
+      ],
+      "description": "白色面板中央的竖向户外照片：一名穿绿色外套、戴针织帽的人物背对镜头站在岩石岸边，面向海面与右侧海崖；天空、海水、岩岸和人物共同构成完整摄影画面，矩形边缘清晰，无独立相框。",
+      "label": "白色面板中央的竖向户外照片：一名穿绿色外套、戴针织帽的人物背",
+      "method": "local"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        480,
+        756,
+        601,
+        796
+      ],
+      "description": "Плащ",
+      "label": "Плащ",
+      "method": "local",
+      "text": "Плащ",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper",
+    "panel_lower",
+    "photo_lower",
+    "text_title"
+  ]
+}

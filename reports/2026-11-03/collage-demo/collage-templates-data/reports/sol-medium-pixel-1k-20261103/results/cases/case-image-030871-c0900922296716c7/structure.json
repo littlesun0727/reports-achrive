@@ -1,0 +1,75 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_moonlit_sea",
+      "kind": "photo",
+      "bbox": [
+        209,
+        49,
+        871,
+        932
+      ],
+      "description": "竖向夜间海景照片，包含黑暗天空、月亮、海面反光、近处黑色海岸和右侧礁石岛屿；月亮位于上方中央，海面亮光延伸至下方，完整照片窗口为矩形。摄影环境整体随客户素材替换，画面底部叠有白色“9PM.”字样。"
+    },
+    {
+      "id": "text_9pm",
+      "kind": "text",
+      "bbox": [
+        263,
+        838,
+        425,
+        898
+      ],
+      "text": "9PM.",
+      "color": "#FFFFFF",
+      "font": "serif",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "id": "text_poem_main",
+      "kind": "text",
+      "bbox": [
+        435,
+        977,
+        900,
+        1222
+      ],
+      "text": "天空渐渐暗下来\n海边上忽闪着一片亮光\n跟着波浪轻轻晃动\n惊讶地发现 月光居然那么亮",
+      "color": "#63351F",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "id": "text_poem_end",
+      "kind": "text",
+      "bbox": [
+        435,
+        1282,
+        690,
+        1393
+      ],
+      "text": "海上升明月\n比岁月更是了。",
+      "color": "#63351F",
+      "font": "cjk-hand",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_moonlit_sea",
+    "text_9pm",
+    "text_poem_main",
+    "text_poem_end"
+  ]
+}

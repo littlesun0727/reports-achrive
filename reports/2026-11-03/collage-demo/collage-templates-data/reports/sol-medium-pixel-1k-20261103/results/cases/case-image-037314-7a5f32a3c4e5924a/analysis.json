@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    971,
+    1294
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        971,
+        1294
+      ],
+      "description": "全画布连续的米白色细颗粒纸纹底图，四边及照片间隙均可见相同纹理；底部带浅蜜桃色起伏波形色块，同样具有颗粒质感，作为底图固定图案保留。独立照片、黑色曲线及标题不属于底图，需清除后保留底图原貌。",
+      "background_type": "reference_clean",
+      "label": "全画布连续的米白色细颗粒纸纹底图，四边及照片间隙均可见相同纹",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        111,
+        52,
+        381,
+        410
+      ],
+      "description": "左上竖向建筑照片，蓝色天空下是浅米色屋顶、雕塑状烟囱及栏杆，栏杆附近可见数名小比例游客。完整摄影环境保留，照片按矩形显示，没有可见独立框体；右下部分被中间的大照片遮挡，显示窗口仍包含该被遮挡区域。",
+      "label": "左上竖向建筑照片，蓝色天空下是浅米色屋顶、雕塑状烟囱及栏杆，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_black_curve",
+      "kind": "overlay",
+      "bbox": [
+        550,
+        64,
+        745,
+        391
+      ],
+      "description": "右上方单条不规则黑色细曲线，从上部短斜线向下蜿蜒，在大照片背后被遮挡，随后于照片右侧重新露出并弯向左下。属于独立手绘线条装饰，保留可见笔画及自然粗细变化，不编造遮挡处的具体走向。",
+      "label": "右上方单条不规则黑色细曲线，从上部短斜线向下蜿蜒，在大照片背",
+      "method": "extract"
+    },
+    {
+      "id": "photo_center",
+      "kind": "photo",
+      "bbox": [
+        303,
+        260,
+        676,
+        819
+      ],
+      "description": "中部偏右的大幅竖向建筑人物照片，蓝天背景中可见带多个深色圆孔的浅色雕塑状烟囱，右侧是高大的浅米色曲面建筑。一名戴墨镜、穿浅色上衣和短裤的人站在下部偏右，身体侧向左，脚部被照片下边裁切。建筑、人物与天空共同替换，保留完整矩形摄影环境；左侧部分被标题叠压，上左角覆盖小照片。",
+      "label": "中部偏右的大幅竖向建筑人物照片，蓝天背景中可见带多个深色圆孔",
+      "method": "local"
+    },
+    {
+      "id": "text_casa",
+      "kind": "text",
+      "bbox": [
+        109,
+        478,
+        366,
+        533
+      ],
+      "description": "C A S A",
+      "label": "C A S A",
+      "method": "local",
+      "text": "C A S A",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mila",
+      "kind": "text",
+      "bbox": [
+        110,
+        558,
+        300,
+        599
+      ],
+      "description": "M I L A",
+      "label": "M I L A",
+      "method": "local",
+      "text": "M I L A",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_upper_left",
+    "overlay_black_curve",
+    "photo_center",
+    "text_casa",
+    "text_mila"
+  ]
+}

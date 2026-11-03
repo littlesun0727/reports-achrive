@@ -1,0 +1,42 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的俯拍摄影画面覆盖整张画布：棕色餐盘置于地毯上，中央有装着苹果块的黑色碗，右侧为叉子，下方有水果包装袋和Hello Kitty造型物件；画面中无人物。摄影环境从四边延伸至画布边缘，白色涂鸦和底部文字叠加并遮挡局部，餐盘、食物及周围环境作为完整客户照片替换。"
+  },
+  "objects": [
+    {
+      "id": "overlay_doodles",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        50,
+        1014,
+        1287
+      ],
+      "description": "覆盖在摄影画面上的白色手绘装饰整体，包括环绕餐盘和物件的断续圆角虚线、上方及下方的闪光星星、左下和食物包装附近的爱心以及零散小点和短线；这些固定涂鸦共同构成一个装饰单元，位于底部文字上方。"
+    },
+    {
+      "id": "text_caption",
+      "kind": "text",
+      "bbox": [
+        35,
+        1288,
+        1004,
+        1409
+      ],
+      "text": "今日kitty水果盘供应小苹果🍎\n吃🍎的时候会觉得秋天就要到了🍂",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": true,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "overlay_doodles",
+    "text_caption"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#89552F"
+      }
+    },
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        33,
+        48,
+        414,
+        334
+      ],
+      "description": "左上方横向矩形实拍照片，展示户外场景中的多个冰淇淋造型雕塑，中央为戴棕色帽状外壳的粉色人物雕塑，周围可见其他雕塑、行人和地面；完整照片区域保留摄影环境。",
+      "label": "左上方横向矩形实拍照片，展示户外场景中的多个冰淇淋造型雕塑，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_main_card",
+      "kind": "overlay",
+      "bbox": [
+        320,
+        384,
+        1042,
+        1395
+      ],
+      "description": "画面中央偏右的大幅手绘风格卡片，黑色不规则描边，内部是街景与多个冰淇淋造型人物的彩色插画；上方白色横栏写有“How are you today?”，下方白色横栏写有“The starman doesn't need the sun, he carries his own galaxy within.”，文字、插画、边框及卡片整体作为一个固定设计单元保留。",
+      "label": "画面中央偏右的大幅手绘风格卡片，黑色不规则描边，内部是街景与",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_party_hat",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        150,
+        1013,
+        371
+      ],
+      "description": "右上方米色纸感贴纸，绘有黑色手绘线条的派对帽，带圆形帽球和底部装饰；作为独立装饰保留。",
+      "label": "右上方米色纸感贴纸，绘有黑色手绘线条的派对帽，带圆形帽球和底",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        57,
+        1097,
+        275,
+        1387
+      ],
+      "description": "左下方竖向白色纸张，纸面有铅笔风格的人物小画、星星点缀和手写小字；纸张及其内部绘画与文字作为一个完整固定单元保留。",
+      "label": "左下方竖向白色纸张，纸面有铅笔风格的人物小画、星星点缀和手写",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_balloons",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        974,
+        295,
+        1188
+      ],
+      "description": "左下方纸张上缘附近的米色手绘气球贴纸，两个气球带细长飘带，附有小星形笔触；整体作为独立装饰保留，并遮住下方纸张的一部分。",
+      "label": "左下方纸张上缘附近的米色手绘气球贴纸，两个气球带细长飘带，附",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_top",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        69,
+        454,
+        133
+      ],
+      "description": "左上照片右上侧的浅棕色圆形装饰，局部压在照片边缘上方。",
+      "label": "左上照片右上侧的浅棕色圆形装饰，局部压在照片边缘上方。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_left",
+      "kind": "overlay",
+      "bbox": [
+        283,
+        662,
+        351,
+        729
+      ],
+      "description": "中央卡片左侧边缘处的浅黄色圆形装饰，覆盖卡片左边框的一部分。",
+      "label": "中央卡片左侧边缘处的浅黄色圆形装饰，覆盖卡片左边框的一部分。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_right",
+      "kind": "overlay",
+      "bbox": [
+        998,
+        1175,
+        1059,
+        1238
+      ],
+      "description": "中央卡片右下侧的橙色圆形装饰，覆盖卡片右边缘的一部分。",
+      "label": "中央卡片右下侧的橙色圆形装饰，覆盖卡片右边缘的一部分。",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top_left",
+    "overlay_main_card",
+    "overlay_note",
+    "overlay_balloons",
+    "overlay_party_hat",
+    "overlay_circle_top",
+    "overlay_circle_left",
+    "overlay_circle_right"
+  ]
+}

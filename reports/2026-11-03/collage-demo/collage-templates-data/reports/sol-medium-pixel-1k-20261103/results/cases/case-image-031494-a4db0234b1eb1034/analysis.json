@@ -1,0 +1,149 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "覆盖全画布的浅米色纸张底图，保留纸张纹理、边缘撕裂感及上下留白区域；上方窗景、下方图像窗口、邮戳和文字作为独立对象覆盖其上。",
+      "background_type": "reference_clean",
+      "label": "覆盖全画布的浅米色纸张底图，保留纸张纹理、边缘撕裂感及上下留",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper_landscape",
+      "kind": "photo",
+      "bbox": [
+        98,
+        81,
+        982,
+        624
+      ],
+      "description": "上方横向窗内的写实草原景观照片，包含蓝天、云朵、起伏草地、树木、围栏和前景草地，摄影环境完整保留；显示区域被窗框、窗帘和窗台部分遮挡。",
+      "label": "上方横向窗内的写实草原景观照片，包含蓝天、云朵、起伏草地、树",
+      "method": "local"
+    },
+    {
+      "id": "frame_upper_window",
+      "kind": "frame",
+      "bbox": [
+        0,
+        0,
+        1080,
+        668
+      ],
+      "description": "承载上方景观照片的完整窗户结构，包括左右窗帘、顶部窗框、玻璃边缘、底部窗台及其阴影；固定窗体覆盖照片边缘并形成照片窗口。",
+      "photo_id": [
+        "photo_upper_landscape"
+      ],
+      "label": "承载上方景观照片的完整窗户结构，包括左右窗帘、顶部窗框、玻璃",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        465,
+        724,
+        616,
+        762
+      ],
+      "description": "草原之窗",
+      "label": "草原之窗",
+      "method": "local",
+      "text": "草原之窗",
+      "text_status": "known",
+      "style": {
+        "fill": "#263846",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "photo_lower_landscape",
+      "kind": "photo",
+      "bbox": [
+        220,
+        857,
+        871,
+        1238
+      ],
+      "description": "下方窗口内的横向草原景观摄影内容，以印刷化、颗粒化的视觉呈现显示；包含天空、云层、远处草坡、树木、围栏和前景草地，完整照片区域位于下方固定图像框内。",
+      "label": "下方窗口内的横向草原景观摄影内容，以印刷化、颗粒化的视觉呈现",
+      "method": "local"
+    },
+    {
+      "id": "frame_lower_print_window",
+      "kind": "frame",
+      "bbox": [
+        121,
+        797,
+        965,
+        1274
+      ],
+      "description": "下方照片的固定粗糙印刷式窗框，包含两侧浅色窗帘形结构、上下横向边框、磨损纹理和不规则墨绿色边缘；内口承载下方景观照片。",
+      "photo_id": [
+        "photo_lower_landscape"
+      ],
+      "label": "下方照片的固定粗糙印刷式窗框，包含两侧浅色窗帘形结构、上下横",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_postmark",
+      "kind": "overlay",
+      "bbox": [
+        824,
+        608,
+        1080,
+        776
+      ],
+      "description": "右上纸面上的深蓝色邮戳装饰，由圆形印章、横向波纹邮戳线和斑驳印刷痕迹组成，部分延伸至画布右边缘，作为独立固定图案保留。",
+      "label": "右上纸面上的深蓝色邮戳装饰，由圆形印章、横向波纹邮戳线和斑驳",
+      "method": "extract"
+    },
+    {
+      "id": "text_metadata",
+      "kind": "text",
+      "bbox": [
+        341,
+        1348,
+        742,
+        1378
+      ],
+      "description": "地点 · PLACE        日期 · DATE",
+      "label": "地点 · PLACE        日期 · DATE",
+      "method": "local",
+      "text": "地点 · PLACE        日期 · DATE",
+      "text_status": "known",
+      "style": {
+        "fill": "#36404A",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_base",
+    "photo_upper_landscape",
+    "frame_upper_window",
+    "photo_lower_landscape",
+    "frame_lower_print_window",
+    "text_title",
+    "overlay_postmark",
+    "text_metadata"
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        740
+      ],
+      "description": "上方独立海滩摄影画面，近景展现海面、浪花、沙滩和被夕阳照亮的湿沙，完整矩形区域延伸至画布左右边缘，下缘在横向接缝处结束。",
+      "label": "上方独立海滩摄影画面，近景展现海面、浪花、沙滩和被夕阳照亮的",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        740,
+        1080,
+        1440
+      ],
+      "description": "下方独立海岛海滩摄影画面，前景为倾斜的椰子树树干和大片叶片，远处可见海面、礁石与沙滩；矩形照片从横向接缝处重新开始并覆盖至画布底边。",
+      "label": "下方独立海岛海滩摄影画面，前景为倾斜的椰子树树干和大片叶片，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_text_bar_1",
+      "kind": "overlay",
+      "bbox": [
+        251,
+        589,
+        829,
+        632
+      ],
+      "description": "位于上方照片中的半透明深灰色横向文字底条，承托第一行白色中文文字，作为独立固定叠加单元保留。",
+      "label": "位于上方照片中的半透明深灰色横向文字底条，承托第一行白色中文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_bar_2",
+      "kind": "overlay",
+      "bbox": [
+        156,
+        634,
+        925,
+        680
+      ],
+      "description": "位于上方照片中的半透明深灰色横向文字底条，承托第二行白色中文文字，作为独立固定叠加单元保留。",
+      "label": "位于上方照片中的半透明深灰色横向文字底条，承托第二行白色中文",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_text_bar_3",
+      "kind": "overlay",
+      "bbox": [
+        219,
+        684,
+        864,
+        740
+      ],
+      "description": "位于上方照片下缘的半透明深灰色横向文字底条，承托第三行白色中文文字，并延伸至上下照片的横向接缝处。",
+      "label": "位于上方照片下缘的半透明深灰色横向文字底条，承托第三行白色中",
+      "method": "extract"
+    },
+    {
+      "id": "text_main",
+      "kind": "text",
+      "bbox": [
+        157,
+        598,
+        924,
+        727
+      ],
+      "description": "28岁自由职业后的初次旅行，冬日海岛，\n海岸尽头的发射基地，载着人类对宇宙的好奇和梦想。\n我贴着海浪散步，无法熄灭的热情在心里翻涌",
+      "label": "28岁自由职业后的初次旅行，冬日海岛，\n海岸尽头的发射基地，",
+      "method": "local",
+      "text": "28岁自由职业后的初次旅行，冬日海岛，\n海岸尽头的发射基地，载着人类对宇宙的好奇和梦想。\n我贴着海浪散步，无法熄灭的热情在心里翻涌",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_quote_bar",
+      "kind": "overlay",
+      "bbox": [
+        252,
+        757,
+        828,
+        806
+      ],
+      "description": "位于下方椰林海滩照片上方的半透明深灰色横向文字底条，承托独立引用文字，作为固定标签单元保留。",
+      "label": "位于下方椰林海滩照片上方的半透明深灰色横向文字底条，承托独立",
+      "method": "extract"
+    },
+    {
+      "id": "text_quote",
+      "kind": "text",
+      "bbox": [
+        269,
+        766,
+        811,
+        800
+      ],
+      "description": "“还是很想做点什么，给自己，给世界”",
+      "label": "“还是很想做点什么，给自己，给世界”",
+      "method": "local",
+      "text": "“还是很想做点什么，给自己，给世界”",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_bottom",
+    "overlay_text_bar_1",
+    "overlay_text_bar_2",
+    "overlay_text_bar_3",
+    "overlay_quote_bar",
+    "text_main",
+    "text_quote"
+  ]
+}

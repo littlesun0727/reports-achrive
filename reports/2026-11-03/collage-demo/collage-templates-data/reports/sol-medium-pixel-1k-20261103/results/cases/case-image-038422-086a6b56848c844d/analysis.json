@@ -1,0 +1,165 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "photo_cake",
+      "kind": "photo",
+      "bbox": [
+        28,
+        233,
+        552,
+        884
+      ],
+      "description": "左侧竖幅蛋糕照片，画面为粉色双层奶油蛋糕，顶部有蓝色字样，蛋糕置于透明展示盒内并可见粉色缎带和周围室内环境；保留完整矩形摄影画面，底边与右边为照片自身边界。",
+      "label": "左侧竖幅蛋糕照片，画面为粉色双层奶油蛋糕，顶部有蓝色字样，蛋",
+      "method": "local"
+    },
+    {
+      "id": "overlay_upper_illustration",
+      "kind": "overlay",
+      "bbox": [
+        142,
+        130,
+        980,
+        545
+      ],
+      "description": "深棕色手绘线条构成上方弧形轮廓，并在右侧形成带有刘海和面部线条的简化侧脸图案；整体笔触与波浪边缘作为一组固定插画保留，部分弧线位于蛋糕照片上方。",
+      "label": "深棕色手绘线条构成上方弧形轮廓，并在右侧形成带有刘海和面部线",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_candle",
+      "kind": "overlay",
+      "bbox": [
+        524,
+        49,
+        622,
+        221
+      ],
+      "description": "顶部中央的红色手绘蜡烛与黄色火焰，蜡烛压在深色上方弧线之上，保留斜向白色烛纹。",
+      "label": "顶部中央的红色手绘蜡烛与黄色火焰，蜡烛压在深色上方弧线之上，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_strawberry_row",
+      "kind": "overlay",
+      "bbox": [
+        155,
+        808,
+        895,
+        938
+      ],
+      "description": "画面下方一排红色手绘草莓，含深色籽点、绿色缺省的红色果形及相连的红色涂抹笔触，作为连续装饰组保留。",
+      "label": "画面下方一排红色手绘草莓，含深色籽点、绿色缺省的红色果形及相",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lower_bracket",
+      "kind": "overlay",
+      "bbox": [
+        81,
+        894,
+        985,
+        1007
+      ],
+      "description": "草莓下方的深棕色手绘长括线，包含圆角折返两端和内部横向短线，作为独立装饰保留。",
+      "label": "草莓下方的深棕色手绘长括线，包含圆角折返两端和内部横向短线，",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_sun_marks",
+      "kind": "overlay",
+      "bbox": [
+        840,
+        53,
+        1028,
+        194
+      ],
+      "description": "右上角黄色手绘短线与卷曲涡旋装饰，彼此构成一组小型点缀。",
+      "label": "右上角黄色手绘短线与卷曲涡旋装饰，彼此构成一组小型点缀。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_upper_left_marks",
+      "kind": "overlay",
+      "bbox": [
+        60,
+        68,
+        196,
+        134
+      ],
+      "description": "左上方两道黄色手绘短弧线，作为一组独立点缀。",
+      "label": "左上方两道黄色手绘短弧线，作为一组独立点缀。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_right_side_marks",
+      "kind": "overlay",
+      "bbox": [
+        831,
+        520,
+        1037,
+        1003
+      ],
+      "description": "右侧黄色手绘装饰，包括靠近文字旁的竖向涂抹线、草莓上方的卷曲线以及右下方弯曲短线；彼此分布在同一侧边作为一组点缀保留。",
+      "label": "右侧黄色手绘装饰，包括靠近文字旁的竖向涂抹线、草莓上方的卷曲",
+      "method": "extract"
+    },
+    {
+      "id": "text_greeting",
+      "kind": "text",
+      "bbox": [
+        597,
+        539,
+        786,
+        761
+      ],
+      "description": "祝我自己\n成为\n最幸福的\n大人",
+      "label": "祝我自己\n成为\n最幸福的\n大人",
+      "method": "local",
+      "text": "祝我自己\n成为\n最幸福的\n大人",
+      "text_status": "known",
+      "style": {
+        "fill": "#32191B",
+        "font": "cjk-hand",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_cake",
+    "overlay_upper_illustration",
+    "overlay_lower_bracket",
+    "overlay_strawberry_row",
+    "overlay_sun_marks",
+    "overlay_upper_left_marks",
+    "overlay_right_side_marks",
+    "overlay_candle",
+    "text_greeting"
+  ]
+}

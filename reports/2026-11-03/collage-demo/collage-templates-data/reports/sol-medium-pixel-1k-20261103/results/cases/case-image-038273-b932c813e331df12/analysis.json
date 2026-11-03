@@ -1,0 +1,86 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_upper_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        540,
+        720
+      ],
+      "description": "左上独立矩形照片，近景拍摄黑色墙面上的大型黄色麦当劳拱门标志，上方保留横向结构和一盏照亮墙面的射灯。标志左侧被照片边界裁切，整体光线昏暗；墙面、灯光及标志均为摄影内容。显示窗口完整占据左上区，与右侧及下方照片形成清晰接缝。",
+      "label": "左上独立矩形照片，近景拍摄黑色墙面上的大型黄色麦当劳拱门标志",
+      "method": "local"
+    },
+    {
+      "id": "photo_upper_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        0,
+        1080,
+        720
+      ],
+      "description": "右上独立矩形照片，桌面上的白色浅碗盛有黄色水果、白色圆形甜点、丸子和透明配料；右上伸入一只黑袖手臂，倾斜白色小壶向碗中倒入液体。保留灰色墙面、深色桌面及右侧椅背，人物仅露局部手臂。画面偏暗，与左侧照片场景不连续，所有物品及环境随照片替换。",
+      "label": "右上独立矩形照片，桌面上的白色浅碗盛有黄色水果、白色圆形甜点",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        720,
+        540,
+        1440
+      ],
+      "description": "左下独立矩形俯拍照片，一份多层牛肉芝士汉堡放在展开的包装纸上，位于穿深色裤子的坐姿人物腿间；左上可见一只黑白帆布鞋，背景为灰色颗粒路面。人物不露脸，双腿被画布左右及下缘裁切。保留汉堡、包装、腿部、鞋和地面完整摄影环境，整体色调偏暗，与上方照片在横向接缝处重新起始。",
+      "label": "左下独立矩形俯拍照片，一份多层牛肉芝士汉堡放在展开的包装纸上",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower_right",
+      "kind": "photo",
+      "bbox": [
+        540,
+        720,
+        1080,
+        1440
+      ],
+      "description": "右下独立矩形咖啡店吧台照片，前景台面上左右摆放两只带白色杯盖和绿色星巴克标志的纸杯，台面有白色网格和数字。后方可见金属水槽、龙头、设备、斜置杯架与右侧吸管收纳，左后方有局部工作人员身影。保留完整店内环境及昏暗光线，杯身标志和台面文字均属于实拍内容，不单独拆分。",
+      "label": "右下独立矩形咖啡店吧台照片，前景台面上左右摆放两只带白色杯盖",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_upper_left",
+    "photo_upper_right",
+    "photo_lower_left",
+    "photo_lower_right"
+  ]
+}

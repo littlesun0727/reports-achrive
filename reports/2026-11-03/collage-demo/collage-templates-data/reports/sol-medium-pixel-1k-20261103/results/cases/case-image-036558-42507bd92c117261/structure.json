@@ -1,0 +1,208 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "树木、树干、天空与浓密绿植构成连续的户外摄影画面，沿画布四边及拼贴照片之间的空隙可见，树干和植被位置连续，判断为覆盖全画布的底图。局部被照片、相机框、文字纸条和涂鸦遮挡；保留完整户外环境并由客户照片整体替换。"
+  },
+  "objects": [
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        59,
+        108,
+        414,
+        337
+      ],
+      "description": "左上方椭圆形甜点近景，方形蛋糕及盘中装饰构成完整摄影画面，窗口内环境随照片替换；画面边缘为椭圆裁切，周围白色涂鸦不属于照片。"
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        175,
+        238,
+        634,
+        729
+      ],
+      "description": "中央竖向人物照片，一名浅色长发女性坐在室内，身穿白色印字上衣并抬手遮在额前，背景有店铺招牌和座位。保留完整矩形照片及摄影环境；下部被前景餐食照片和相机框遮挡。"
+    },
+    {
+      "id": "photo_roses_cake",
+      "kind": "photo",
+      "bbox": [
+        633,
+        135,
+        853,
+        357
+      ],
+      "description": "右上方横向甜点照片，粉色玫瑰装饰背景前有浅蓝色圆蛋糕，保留完整矩形摄影画面；右侧延伸至画布边缘。"
+    },
+    {
+      "id": "photo_drinks",
+      "kind": "photo",
+      "bbox": [
+        634,
+        394,
+        853,
+        614
+      ],
+      "description": "右侧中部室内饮品照片，桌面上有两杯饮料及暖色灯光，保留完整矩形摄影画面；右侧延伸至画布边缘。"
+    },
+    {
+      "id": "photo_food_small",
+      "kind": "photo",
+      "bbox": [
+        175,
+        727,
+        369,
+        889
+      ],
+      "description": "中央偏左的小幅餐食照片，浅色桌面上有甜点、餐盘与食物，保留矩形窗口内摄影环境；右侧被相机框遮挡。"
+    },
+    {
+      "id": "photo_camera_food",
+      "kind": "photo",
+      "bbox": [
+        432,
+        782,
+        665,
+        953
+      ],
+      "description": "相机机身显示屏内的横向聚餐照片，可见多盘菜肴、番茄和餐具，保留显示屏内完整矩形摄影画面。"
+    },
+    {
+      "id": "photo_meal",
+      "kind": "photo",
+      "bbox": [
+        0,
+        999,
+        314,
+        1127
+      ],
+      "description": "左下方横向餐桌近景，多个碗盘中有汤、蔬菜、米饭及配菜，保留完整矩形摄影画面；左侧和下缘与画布边缘相接。"
+    },
+    {
+      "id": "frame_camera",
+      "kind": "frame",
+      "bbox": [
+        367,
+        727,
+        805,
+        976
+      ],
+      "description": "银灰色复古数码相机造型框体，包含镜头、按钮、机身印记及屏幕周边细节，整体覆盖在中央人物照和小幅餐食照片前方；屏幕内为独立餐食照片。",
+      "photo_id": [
+        "photo_camera_food"
+      ]
+    },
+    {
+      "id": "overlay_doodle_top_left",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        48,
+        210,
+        177
+      ],
+      "description": "左上方白色手绘线条涂鸦，呈抽象花冠或轮廓形，整体作为独立装饰保留，覆盖在甜点照片与户外底图上方。"
+    },
+    {
+      "id": "overlay_doodle_top_center",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        48,
+        598,
+        186
+      ],
+      "description": "上方中央白色手绘缠绕曲线涂鸦，整体为一个独立装饰单元，压在背景树枝与天空区域上。"
+    },
+    {
+      "id": "overlay_doodle_camera",
+      "kind": "overlay",
+      "bbox": [
+        652,
+        94,
+        834,
+        168
+      ],
+      "description": "右上方白色手绘相机轮廓涂鸦，作为一个完整固定装饰覆盖在照片与背景交界处。"
+    },
+    {
+      "id": "overlay_doodle_drops",
+      "kind": "overlay",
+      "bbox": [
+        51,
+        331,
+        156,
+        533
+      ],
+      "description": "左侧由三个分开的白色手绘水滴形轮廓组成的涂鸦组，彼此位置固定，作为一个完整装饰单元覆盖户外底图。"
+    },
+    {
+      "id": "overlay_doodle_smile",
+      "kind": "overlay",
+      "bbox": [
+        103,
+        564,
+        222,
+        703
+      ],
+      "description": "左侧白色手绘笑脸轮廓，包含内部眼睛和弧形嘴部，整体作为一枚独立涂鸦覆盖在户外底图与照片边缘上。"
+    },
+    {
+      "id": "overlay_doodle_loop",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        676,
+        430,
+        939
+      ],
+      "description": "左下区域的大型白色手绘环绕线条，含宽弧形与相连曲线，跨越小幅餐食照片边缘并覆盖背景，按连续涂鸦整体保留。"
+    },
+    {
+      "id": "overlay_banner",
+      "kind": "overlay",
+      "bbox": [
+        270,
+        1025,
+        734,
+        1118
+      ],
+      "description": "横向不规则白色皱纸条，承载绿色斜体字样“Each day brings a new beginning”；纸张边缘和印字共同构成独立固定设计单元，覆盖底部绿植背景。"
+    },
+    {
+      "id": "overlay_doodle_bottom_right",
+      "kind": "overlay",
+      "bbox": [
+        683,
+        1118,
+        832,
+        1254
+      ],
+      "description": "右下角白色手绘花朵或团状笑脸轮廓，带深色内部短笔画，整体作为独立涂鸦覆盖户外底图。"
+    }
+  ],
+  "layer_order": [
+    "photo_dessert",
+    "photo_portrait",
+    "photo_roses_cake",
+    "photo_drinks",
+    "photo_food_small",
+    "photo_meal",
+    "photo_camera_food",
+    "frame_camera",
+    "overlay_doodle_top_left",
+    "overlay_doodle_top_center",
+    "overlay_doodle_camera",
+    "overlay_doodle_drops",
+    "overlay_doodle_smile",
+    "overlay_doodle_loop",
+    "overlay_banner",
+    "overlay_doodle_bottom_right"
+  ]
+}

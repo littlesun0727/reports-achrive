@@ -1,0 +1,293 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    998,
+    694
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        998,
+        694
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        455,
+        694
+      ],
+      "description": "左侧独立摄影画面，一名长发女子戴浅色帽子、穿白色吊带裙，正面站立并用双手食指指向脸颊，身体下部被画布裁切。保留周围绿色植物、花朵和蓝色背景；上方摄影环境延伸至画布顶边，右部被浅绿色底板、相册及文字遮挡，右侧隐藏边界不能完全确认。",
+      "label": "左侧独立摄影画面，一名长发女子戴浅色帽子、穿白色吊带裙，正面",
+      "method": "local"
+    },
+    {
+      "id": "overlay_green_panel",
+      "kind": "overlay",
+      "bbox": [
+        363,
+        0,
+        572,
+        694
+      ],
+      "description": "中央浅黄绿色纵向固定底板，下半部可见较明确的竖直左边界，贯穿画布高度。上部被双窗相册遮挡，右侧被白色撕纸框体和右侧照片覆盖，承接中央大字及底部标签；不将其扩为全画布底图。",
+      "label": "中央浅黄绿色纵向固定底板，下半部可见较明确的竖直左边界，贯穿",
+      "method": "extract"
+    },
+    {
+      "id": "frame_right",
+      "kind": "frame",
+      "bbox": [
+        449,
+        0,
+        998,
+        694
+      ],
+      "description": "右侧大照片的白色纸质承托框体，主要露出左侧贯穿上下边缘的宽纸边，带细微纹理与不规则撕裂轮廓。右侧和上下外缘在画布边界截断，照片覆盖其右部；白色纸边作为固定载体保留。",
+      "photo_id": [
+        "photo_right"
+      ],
+      "label": "右侧大照片的白色纸质承托框体，主要露出左侧贯穿上下边缘的宽纸",
+      "method": "extract"
+    },
+    {
+      "id": "photo_right",
+      "kind": "photo",
+      "bbox": [
+        550,
+        0,
+        998,
+        694
+      ],
+      "description": "右侧独立人物近景，一名长发女子戴白色针织帽，帽上有蓝白花朵，双手托腮，面向镜头微笑，白色衣服及肩部延伸至底边。保留帽子周围和画面上缘的绿色植物摄影环境；左侧沿不规则纸边显示，右侧及底部被画布裁切，脸部下方被绿色四叶草心电线装饰遮挡。",
+      "label": "右侧独立人物近景，一名长发女子戴白色针织帽，帽上有蓝白花朵，",
+      "method": "local"
+    },
+    {
+      "id": "frame_album",
+      "kind": "frame",
+      "bbox": [
+        203,
+        31,
+        618,
+        263
+      ],
+      "description": "横向双窗口绿色相册框体，包含白色圆点边框、浅色内沿、中央金属感活页线圈，以及中央上下的浅绿色蝴蝶结。两页共同构成一个完整固定载体，内口摄影内容分别替换，保留框体细线和阴影。",
+      "photo_id": [
+        "photo_album_left",
+        "photo_album_right"
+      ],
+      "label": "横向双窗口绿色相册框体，包含白色圆点边框、浅色内沿、中央金属",
+      "method": "extract"
+    },
+    {
+      "id": "photo_album_left",
+      "kind": "photo",
+      "bbox": [
+        230,
+        65,
+        393,
+        227
+      ],
+      "description": "相册左窗口内的一名长发女子半身照片，穿浅色衣服，头部略侧转并向镜头微笑。保留浅色摄影背景及头侧花朵，完整显示范围为相册左页矩形内口，不只定位人物。",
+      "label": "相册左窗口内的一名长发女子半身照片，穿浅色衣服，头部略侧转并",
+      "method": "local"
+    },
+    {
+      "id": "photo_album_right",
+      "kind": "photo",
+      "bbox": [
+        440,
+        67,
+        598,
+        227
+      ],
+      "description": "相册右窗口内的一名长发女子近景照片，面对镜头，手持红色心形棒棒糖遮在一只眼睛前。保留浅色摄影背景、手和棒棒糖，完整显示范围为右页矩形内口，与左页姿态独立。",
+      "label": "相册右窗口内的一名长发女子近景照片，面对镜头，手持红色心形棒",
+      "method": "local"
+    },
+    {
+      "id": "overlay_upper_note",
+      "kind": "overlay",
+      "bbox": [
+        94,
+        17,
+        258,
+        155
+      ],
+      "description": "左上浅绿色不规则花瓣形便签，包含三行深绿色手写字“자연의 초록빛은 / 가장 아름다운 / 힐링이다”。保留波浪状轮廓、字形及整体排布，右缘叠在相册左上角。",
+      "label": "左上浅绿色不规则花瓣形便签，包含三行深绿色手写字“자연의 초",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_left_note",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        131,
+        161,
+        265
+      ],
+      "description": "左侧浅蓝绿色花瓣形便签，整体略倾斜，包含深绿色手写字“초록이 가득한 / 평온함을 가져다 / 시켜준다”，部分字形较模糊。保留原有文字造型与不规则边缘，左缘在画布边界截断。",
+      "label": "左侧浅蓝绿色花瓣形便签，整体略倾斜，包含深绿色手写字“초록이",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lucky_day",
+      "kind": "overlay",
+      "bbox": [
+        536,
+        225,
+        682,
+        276
+      ],
+      "description": "相册右下方的浅黄绿色连瓣云朵标签，深绿色细描边，内含手写“럭키한 하루~♪”及小点缀。完整标签覆盖相册下缘和右侧照片左边，文字与载体一起保留。",
+      "label": "相册右下方的浅黄绿色连瓣云朵标签，深绿色细描边，内含手写“럭",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_good_luck",
+      "kind": "overlay",
+      "bbox": [
+        868,
+        41,
+        993,
+        115
+      ],
+      "description": "右上浅黄色椭圆贴纸，带深绿色“Good Luck”字样及两侧小花形点缀，压在人物帽子与头发上。保留椭圆底板、特定字形和附属图案。",
+      "label": "右上浅黄色椭圆贴纸，带深绿色“Good Luck”字样及两侧",
+      "method": "extract"
+    },
+    {
+      "id": "text_esther",
+      "kind": "text",
+      "bbox": [
+        222,
+        274,
+        614,
+        390
+      ],
+      "description": "esther",
+      "label": "esther",
+      "method": "local",
+      "text": "esther",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_cat",
+      "kind": "text",
+      "bbox": [
+        346,
+        396,
+        556,
+        494
+      ],
+      "description": "cat",
+      "label": "cat",
+      "method": "local",
+      "text": "cat",
+      "text_status": "known",
+      "style": {
+        "fill": "#000000",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "overlay_nature_label",
+      "kind": "overlay",
+      "bbox": [
+        210,
+        514,
+        512,
+        558
+      ],
+      "description": "下方第一枚浅绿色圆角长标签，白色粗体字“Nature green heals everything.”居中排布。文字与圆角底板构成完整贴纸，覆盖左侧人物照片和中央底板。",
+      "label": "下方第一枚浅绿色圆角长标签，白色粗体字“Nature gre",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_peace_label",
+      "kind": "overlay",
+      "bbox": [
+        274,
+        579,
+        578,
+        620
+      ],
+      "description": "下方第二枚浅绿色圆角长标签，内含白色字“Find peace in every shade of green.”。保留整块底板及文字，横跨中央底板、白色纸边和右侧人物肩部左缘。",
+      "label": "下方第二枚浅绿色圆角长标签，内含白色字“Find peace",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_hope_label",
+      "kind": "overlay",
+      "bbox": [
+        157,
+        638,
+        439,
+        677
+      ],
+      "description": "靠近底边的浅绿色圆角标签，内含白色字“Green is the quiet color of hope.”。文字与载体整体保留，覆盖左侧人物下半身及中央底板。",
+      "label": "靠近底边的浅绿色圆角标签，内含白色字“Green is th",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_clover_heartbeat",
+      "kind": "overlay",
+      "bbox": [
+        591,
+        462,
+        998,
+        694
+      ],
+      "description": "右下亮黄绿色四叶草与横贯画面的心电折线组成一体装饰。四枚心形叶片叠在人物双手附近，折线向左右延伸并形成多处尖峰，右端及下方尖峰在画布边缘截断；完整线条、叶片与浅色边缘一起保留。",
+      "label": "右下亮黄绿色四叶草与横贯画面的心电折线组成一体装饰。四枚心形",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_left",
+    "overlay_green_panel",
+    "frame_right",
+    "photo_right",
+    "frame_album",
+    "photo_album_left",
+    "photo_album_right",
+    "overlay_upper_note",
+    "overlay_left_note",
+    "text_esther",
+    "text_cat",
+    "overlay_lucky_day",
+    "overlay_good_luck",
+    "overlay_nature_label",
+    "overlay_peace_label",
+    "overlay_hope_label",
+    "overlay_clover_heartbeat"
+  ]
+}

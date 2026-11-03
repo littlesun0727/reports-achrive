@@ -1,0 +1,153 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的虚化室内摄影画面覆盖全画布，顶部呈灰褐色墙面或空间，画布下半部边缘和照片间隙可见模糊的店内陈列与环境；前景拼贴照片和文字遮挡局部。保留完整背景摄影环境，不与上层独立照片合并。",
+      "background_type": "photo",
+      "label": "连续的虚化室内摄影画面覆盖全画布，顶部呈灰褐色墙面或空间，画",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "text_top",
+      "kind": "overlay",
+      "bbox": [
+        53,
+        130,
+        379,
+        301
+      ],
+      "description": "左上方黑色手写中文短句，分四行排列，末行旁有粉色购物袋图案；字形和图案共同构成一组固定装饰，完整保留。",
+      "label": "左上方黑色手写中文短句，分四行排列，末行旁有粉色购物袋图案；",
+      "method": "extract"
+    },
+    {
+      "id": "photo_circle",
+      "kind": "photo",
+      "bbox": [
+        314,
+        96,
+        643,
+        420
+      ],
+      "description": "上方中央圆形裁切照片，红色桌面上放着两张白边小照片，画面边缘可见木桌；保留照片内环境，圆形窗口边界完整。",
+      "label": "上方中央圆形裁切照片，红色桌面上放着两张白边小照片，画面边缘",
+      "method": "local"
+    },
+    {
+      "id": "photo_pottery",
+      "kind": "photo",
+      "bbox": [
+        48,
+        345,
+        384,
+        772
+      ],
+      "description": "左侧竖向陶器陈列照片，桌面上摆有多只不同颜色和纹样的杯、碗及陶制品；保留摄影环境，矩形显示区域下部被前景照片覆盖。",
+      "label": "左侧竖向陶器陈列照片，桌面上摆有多只不同颜色和纹样的杯、碗及",
+      "method": "local"
+    },
+    {
+      "id": "photo_portrait_right",
+      "kind": "photo",
+      "bbox": [
+        679,
+        156,
+        1002,
+        641
+      ],
+      "description": "右上竖向人物照片，一名戴眼镜、长发女性坐在陶瓷器皿陈列架旁，人物位于画面中下部并朝向左侧；保留货架和器皿等摄影环境，矩形显示。",
+      "label": "右上竖向人物照片，一名戴眼镜、长发女性坐在陶瓷器皿陈列架旁，",
+      "method": "local"
+    },
+    {
+      "id": "photo_merchandise",
+      "kind": "photo",
+      "bbox": [
+        383,
+        490,
+        644,
+        813
+      ],
+      "description": "中央偏上的竖向店铺商品照片，展示格纹服饰、卡片和小型商品陈列；保留摄影环境，照片覆盖左侧陶器照片的一部分。",
+      "label": "中央偏上的竖向店铺商品照片，展示格纹服饰、卡片和小型商品陈列",
+      "method": "local"
+    },
+    {
+      "id": "text_bottom",
+      "kind": "overlay",
+      "bbox": [
+        653,
+        691,
+        1073,
+        835
+      ],
+      "description": "右侧黑色手写中文短句，分三行排列，末行含引号并以粉紫色小装饰收尾；作为一组固定手写字样和附属图案保留。",
+      "label": "右侧黑色手写中文短句，分三行排列，末行含引号并以粉紫色小装饰",
+      "method": "extract"
+    },
+    {
+      "id": "photo_portrait_left",
+      "kind": "photo",
+      "bbox": [
+        49,
+        772,
+        432,
+        1344
+      ],
+      "description": "左下竖向人物照片，一名长发女性穿深色上衣和长格纹裙，坐在陶器店门口，人物位于画面中下部；保留店内货架、门框和地面等摄影环境，照片覆盖左侧陶器照片下缘及中央商品照片左下部。",
+      "label": "左下竖向人物照片，一名长发女性穿深色上衣和长格纹裙，坐在陶器",
+      "method": "local"
+    },
+    {
+      "id": "photo_basket",
+      "kind": "photo",
+      "bbox": [
+        627,
+        887,
+        991,
+        1372
+      ],
+      "description": "右下矩形俯拍照片，黑色网篮内放有多件陶瓷碗、盘及小物，保留篮子和周围摄影环境；左下区域与前景水果主体照片相邻并局部被其遮挡。",
+      "label": "右下矩形俯拍照片，黑色网篮内放有多件陶瓷碗、盘及小物，保留篮",
+      "method": "local"
+    },
+    {
+      "id": "photo_fruit_cutout",
+      "kind": "photo",
+      "bbox": [
+        365,
+        1137,
+        719,
+        1440
+      ],
+      "description": "下方中央沿主体组合轮廓显示的照片，双手托着摆有蓝莓、葡萄、番茄和桃子等小型仿真水果的托盘，摄影背景不显示；白色手绘虚线沿主体组合外缘环绕，底部主体延伸至画布边缘，并覆盖左下人物照片的一小部分。",
+      "label": "下方中央沿主体组合轮廓显示的照片，双手托着摆有蓝莓、葡萄、番",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_bg",
+    "text_top",
+    "photo_circle",
+    "photo_pottery",
+    "photo_portrait_right",
+    "photo_merchandise",
+    "text_bottom",
+    "photo_portrait_left",
+    "photo_basket",
+    "photo_fruit_cutout"
+  ]
+}

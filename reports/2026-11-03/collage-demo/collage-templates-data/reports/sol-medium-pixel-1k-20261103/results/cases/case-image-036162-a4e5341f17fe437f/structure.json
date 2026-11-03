@@ -1,0 +1,37 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "暗调室内桌面静物摄影，无人物；圆桌后方是深棕色皮革座椅和暗墙，桌上有黄色饮品、透明水杯、蓝白盖碗、点燃的玻璃罩灯、菜单、卡片、纸巾及带长柄的小铜器。墙面、座椅与桌面连续延伸至画布四边，中央局部被放大的甜品杯和环形字样遮挡。整幅摄影环境随客户照片替换，实拍物件及其印字不另拆为装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_dessert",
+      "kind": "photo",
+      "bbox": [
+        356,
+        552,
+        732,
+        1080
+      ],
+      "description": "中央独立放大的高脚玻璃甜品杯近景，无人物；杯内是浅色冰沙或甜品，顶部覆黄色果浆、果籽和红色碎粒。完整显示杯口、杯身、细柄及圆形底座，沿整个甜品与杯具组合轮廓去除摄影背景，外围有连续白色手绘状描边。杯底保留蓝紫色反光，整体覆盖后方桌面与部分器皿；不与底层照片建立连续出框关联。"
+    },
+    {
+      "id": "overlay_circular_lettering",
+      "kind": "overlay",
+      "bbox": [
+        112,
+        337,
+        971,
+        1188
+      ],
+      "description": "围绕中央甜品的整圈白色手写英文艺术字，字词沿近圆形路径逐步转向，连同局部下划线、圈线、短弧及点状笔画整体保留。可辨内容为“FOR THE LOVE. FOR LAUGHTER. I FLEW UP TO YOUR ARMS. I HAVE LOVED YOU FOR THE LAST TIME. I HAVE TOUCHED YOU FOR THE LAST TIME.”；LAUGHTER带椭圆圈线，部分词带强调线。属于独立叠加设计，不是摄影中的文字。"
+    }
+  ],
+  "layer_order": [
+    "photo_dessert",
+    "overlay_circular_lettering"
+  ]
+}

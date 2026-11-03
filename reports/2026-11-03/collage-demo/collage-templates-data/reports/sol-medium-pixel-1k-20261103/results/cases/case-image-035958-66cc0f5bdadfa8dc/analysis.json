@@ -1,0 +1,176 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#FFFFFF"
+      }
+    },
+    {
+      "id": "frame_groceries",
+      "kind": "frame",
+      "bbox": [
+        98,
+        254,
+        386,
+        591
+      ],
+      "description": "左上照片后方的灰色承托纸片，向照片的左侧和上侧错位露出，带深浅灰色不规则块状图案。保留纸片的完整可见设计，不包含其上独立替换的购物篮照片。",
+      "photo_id": [
+        "photo_groceries"
+      ],
+      "label": "左上照片后方的灰色承托纸片，向照片的左侧和上侧错位露出，带深",
+      "method": "extract"
+    },
+    {
+      "id": "photo_groceries",
+      "kind": "photo",
+      "bbox": [
+        124,
+        277,
+        461,
+        614
+      ],
+      "description": "左上竖向购物篮照片，俯拍白色塑料购物篮中的多袋彩色零食与瓶装饮料，红色篮柄斜穿右上部。保留篮子、商品包装、地面及全部摄影环境，显示边界为完整矩形；包装文字属于照片内容。",
+      "label": "左上竖向购物篮照片，俯拍白色塑料购物篮中的多袋彩色零食与瓶装",
+      "method": "local"
+    },
+    {
+      "id": "photo_can",
+      "kind": "photo",
+      "bbox": [
+        383,
+        564,
+        696,
+        877
+      ],
+      "description": "中央近方形照片，一只手从左侧握住粉红色饮料罐，罐体位于画面中央偏右，顶部拉环可见，后方有室内桌面与模糊物品。保留完整摄影环境，左下区域被织物文字标签遮挡，照片窗口不随遮挡缩小。",
+      "label": "中央近方形照片，一只手从左侧握住粉红色饮料罐，罐体位于画面中",
+      "method": "local"
+    },
+    {
+      "id": "frame_cup",
+      "kind": "frame",
+      "bbox": [
+        702,
+        901,
+        969,
+        1168
+      ],
+      "description": "右下饮料照片后方的浅灰色纹理纸卡，主要从照片右侧和下侧露出，底边带细小黑色印刷文字。纸卡作为照片承托结构整体保留，包括纹理和原有印字；上部被照片遮挡，不推测隐藏细节。",
+      "photo_id": [
+        "photo_cup"
+      ],
+      "label": "右下饮料照片后方的浅灰色纹理纸卡，主要从照片右侧和下侧露出，",
+      "method": "extract"
+    },
+    {
+      "id": "photo_cup",
+      "kind": "photo",
+      "bbox": [
+        696,
+        796,
+        924,
+        1136
+      ],
+      "description": "右下竖向饮料杯近景照片，白色高杯占据主要画面，杯身有黑色中文与紫绿配色图案，后方为明亮浅色环境。照片整体曝光较亮，仍保留杯子周围的摄影背景；完整矩形窗口覆盖灰色承托纸卡，杯身印字和图案随照片替换。",
+      "label": "右下竖向饮料杯近景照片，白色高杯占据主要画面，杯身有黑色中文",
+      "method": "local"
+    },
+    {
+      "id": "overlay_life",
+      "kind": "overlay",
+      "bbox": [
+        451,
+        393,
+        830,
+        508
+      ],
+      "description": "上方偏右的“Life is…”艺术字组合，字母使用黑灰交替与局部叠印效果，一条细黑色倾斜椭圆轨迹穿过并环绕字样，右侧有三个灰黑圆点，左侧附有浅灰点阵方块。各成员共同组成固定标题设计，整体保留其相对位置、线条和字形。",
+      "label": "上方偏右的“Life is…”艺术字组合，字母使用黑灰交替与",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_fabric_label",
+      "kind": "overlay",
+      "bbox": [
+        122,
+        788,
+        461,
+        927
+      ],
+      "description": "中央偏左的浅米灰色织物纹理矩形标签，内部有灰色文字底块及紧密错落的黑色中文“允许一切发生”“然后做一个勇敢的人”。织物边缘、半透明质感、底块与文字整体保留；右上部分压在中央饮料罐照片上。",
+      "label": "中央偏左的浅米灰色织物纹理矩形标签，内部有灰色文字底块及紧密",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_lips",
+      "kind": "overlay",
+      "bbox": [
+        769,
+        667,
+        950,
+        781
+      ],
+      "description": "右侧黑白嘴唇图案贴纸，嘴唇以颗粒化印刷效果呈现在浅灰圆角矩形小卡内，外围有多重细框和柔和阴影。嘴唇、卡面纹理、框线及阴影属于同一固定设计，右下角被蓝色星形贴纸覆盖。",
+      "label": "右侧黑白嘴唇图案贴纸，嘴唇以颗粒化印刷效果呈现在浅灰圆角矩形",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_blue_star",
+      "kind": "overlay",
+      "bbox": [
+        900,
+        738,
+        944,
+        783
+      ],
+      "description": "嘴唇卡片右下角独立叠贴的蓝色五角星，带深浅蓝色变化及细微边缘阴影，跨越卡片下沿和右侧边缘，作为独立固定装饰保留。",
+      "label": "嘴唇卡片右下角独立叠贴的蓝色五角星，带深浅蓝色变化及细微边缘",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music",
+      "kind": "overlay",
+      "bbox": [
+        265,
+        957,
+        655,
+        1134
+      ],
+      "description": "下方中央的一组灰色音符与小圆点装饰，多个不同大小的单音符、连音符在留白中疏散分布，圆点穿插其间。保留整组的细线笔画、浅灰色调及原有分布，不拆为单个音符。",
+      "label": "下方中央的一组灰色音符与小圆点装饰，多个不同大小的单音符、连",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "frame_groceries",
+    "frame_cup",
+    "photo_groceries",
+    "photo_can",
+    "photo_cup",
+    "overlay_life",
+    "overlay_fabric_label",
+    "overlay_lips",
+    "overlay_blue_star",
+    "overlay_music"
+  ]
+}

@@ -1,0 +1,353 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1439
+  ],
+  "objects": [
+    {
+      "id": "photo_pub_interior",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1439
+      ],
+      "description": "连续的昏暗酒吧内部摄影画面覆盖整个画布，包含木质屋顶、吧台、啤酒龙头、酒柜和室内灯光；画布四边均露出同一环境，独立照片、贴纸和文字覆盖局部但不改变全画布摄影底图范围。",
+      "background_type": "photo",
+      "label": "连续的昏暗酒吧内部摄影画面覆盖整个画布，包含木质屋顶、吧台、",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_penguins",
+      "kind": "photo",
+      "bbox": [
+        137,
+        113,
+        444,
+        508
+      ],
+      "description": "竖向企鹅摄影照片，画面中有多只企鹅在地面上行走，背景为深蓝色夜景和地面，完整矩形照片区域显示在酒吧底图上。",
+      "label": "竖向企鹅摄影照片，画面中有多只企鹅在地面上行走，背景为深蓝色",
+      "method": "local"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        468,
+        296,
+        846,
+        548
+      ],
+      "description": "横向酒吧或咖啡馆内部照片，包含吧台、桌椅、金属管道和室内灯光，完整矩形照片区域位于画布上方中部。",
+      "label": "横向酒吧或咖啡馆内部照片，包含吧台、桌椅、金属管道和室内灯光",
+      "method": "local"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        626,
+        944,
+        896,
+        1211
+      ],
+      "description": "竖向餐桌摄影照片，显示两杯啤酒、餐盘、肉类、薯条和绿色配菜，完整矩形照片位于右下区域。",
+      "label": "竖向餐桌摄影照片，显示两杯啤酒、餐盘、肉类、薯条和绿色配菜，",
+      "method": "local"
+    },
+    {
+      "id": "photo_couple",
+      "kind": "photo",
+      "bbox": [
+        385,
+        1078,
+        633,
+        1409
+      ],
+      "description": "竖向人物合照，画面中一名女性和一名男性面对镜头并举着啤酒杯，人物位于室内砖墙和酒吧环境前，照片下缘接近画布底部。",
+      "label": "竖向人物合照，画面中一名女性和一名男性面对镜头并举着啤酒杯，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        744,
+        157,
+        995,
+        351
+      ],
+      "description": "右上方独立的浅色方格便签，顶部有三个棕色爱心，纸面保留手写英文祝福、笑脸符号、下划线和纸张边缘阴影。",
+      "label": "右上方独立的浅色方格便签，顶部有三个棕色爱心，纸面保留手写英",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_flower_doodle",
+      "kind": "overlay",
+      "bbox": [
+        88,
+        285,
+        176,
+        381
+      ],
+      "description": "企鹅照片左侧的白色花朵状手绘贴纸，包含黑色旋涡、短线和不规则轮廓，作为一个完整装饰单元保留。",
+      "label": "企鹅照片左侧的白色花朵状手绘贴纸，包含黑色旋涡、短线和不规则",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_penguin_cartoon",
+      "kind": "overlay",
+      "bbox": [
+        43,
+        571,
+        336,
+        708
+      ],
+      "description": "左中部独立卡通贴纸，包含蓝色企鹅群、黑色圆形遮挡、树木、建筑和浅蓝色底板，整体作为一枚完整固定图案保留。",
+      "label": "左中部独立卡通贴纸，包含蓝色企鹅群、黑色圆形遮挡、树木、建筑",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_korean",
+      "kind": "overlay",
+      "bbox": [
+        321,
+        505,
+        545,
+        705
+      ],
+      "description": "中央偏左的白色卡通贴纸，包含带韩文手写字的气泡、白色小动物、黑色描边和阴影，气泡与角色构成同一完整装饰单元，并压住酒吧照片下缘。",
+      "label": "中央偏左的白色卡通贴纸，包含带韩文手写字的气泡、白色小动物、",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_top",
+      "kind": "overlay",
+      "bbox": [
+        640,
+        216,
+        674,
+        258
+      ],
+      "description": "上方中部的黄色手绘星星贴纸，带不规则笔画和浅色边缘。",
+      "label": "上方中部的黄色手绘星星贴纸，带不规则笔画和浅色边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        881,
+        347,
+        916,
+        391
+      ],
+      "description": "右上区域便签下方的黄色手绘星星贴纸，作为独立固定装饰保留。",
+      "label": "右上区域便签下方的黄色手绘星星贴纸，作为独立固定装饰保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_cafe",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        518,
+        769,
+        558
+      ],
+      "description": "中部酒吧照片右下方的黄色星形手绘贴纸，覆盖在摄影底图上。",
+      "label": "中部酒吧照片右下方的黄色星形手绘贴纸，覆盖在摄影底图上。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_left",
+      "kind": "overlay",
+      "bbox": [
+        321,
+        622,
+        354,
+        656
+      ],
+      "description": "卡通企鹅贴纸右侧的黄色小星星装饰，带黑色或深色边缘。",
+      "label": "卡通企鹅贴纸右侧的黄色小星星装饰，带黑色或深色边缘。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_center",
+      "kind": "overlay",
+      "bbox": [
+        488,
+        610,
+        530,
+        657
+      ],
+      "description": "中央卡通贴纸右侧的黄色手绘星星，作为独立装饰单元保留。",
+      "label": "中央卡通贴纸右侧的黄色手绘星星，作为独立装饰单元保留。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star_lower_right",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        551,
+        909,
+        584
+      ],
+      "description": "画布中部偏右的黄色小星星贴纸，位于酒吧背景和装饰文字附近。",
+      "label": "画布中部偏右的黄色小星星贴纸，位于酒吧背景和装饰文字附近。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_cat_pair",
+      "kind": "overlay",
+      "bbox": [
+        134,
+        977,
+        415,
+        1218
+      ],
+      "description": "左下区域的卡通贴纸组合，包含带韩文手写字的白色气泡、两只白色小动物、红色腮红、黄色泪滴和黑色描边，整体作为一个固定装饰单元保留。",
+      "label": "左下区域的卡通贴纸组合，包含带韩文手写字的白色气泡、两只白色",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_upper",
+      "kind": "overlay",
+      "bbox": [
+        741,
+        562,
+        784,
+        608
+      ],
+      "description": "中部偏右的白色手绘旋涡装饰，位于酒吧背景文字上方，保留不规则描边和发光效果。",
+      "label": "中部偏右的白色手绘旋涡装饰，位于酒吧背景文字上方，保留不规则",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_spiral_lower",
+      "kind": "overlay",
+      "bbox": [
+        425,
+        911,
+        478,
+        970
+      ],
+      "description": "啤酒龙头和人物照片之间的白色手绘旋涡装饰，作为独立固定图案保留。",
+      "label": "啤酒龙头和人物照片之间的白色手绘旋涡装饰，作为独立固定图案保",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_circle_doodles",
+      "kind": "overlay",
+      "bbox": [
+        203,
+        1270,
+        321,
+        1373
+      ],
+      "description": "左下方的白色手绘圆环与小星点装饰组合，包含两个不规则圆环和周围的小白色闪光，整体作为同一固定贴纸保留。",
+      "label": "左下方的白色手绘圆环与小星点装饰组合，包含两个不规则圆环和周",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_handwritten_quote",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        1214,
+        1034,
+        1382
+      ],
+      "description": "右下方叠加在酒吧背景上的金色手写英文装饰文字，包含多行斜体笔画和下方小型文字，属于特殊字形的完整艺术字单元。",
+      "label": "右下方叠加在酒吧背景上的金色手写英文装饰文字，包含多行斜体笔",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_yellow_drops",
+      "kind": "overlay",
+      "bbox": [
+        366,
+        849,
+        400,
+        900
+      ],
+      "description": "卡通贴纸与啤酒龙头区域之间的黄色泪滴状手绘装饰，包含不规则轮廓和浅色边缘。",
+      "label": "卡通贴纸与啤酒龙头区域之间的黄色泪滴状手绘装饰，包含不规则轮",
+      "method": "extract"
+    },
+    {
+      "id": "text_penguin_caption",
+      "kind": "text",
+      "bbox": [
+        67,
+        417,
+        293,
+        490
+      ],
+      "description": "看着小蓝企鹅，归巢\n有一只受伤的企鹅爸爸还在\n很努力的爬回家，真的很感动",
+      "label": "看着小蓝企鹅，归巢\n有一只受伤的企鹅爸爸还在\n很努力的爬回家",
+      "method": "local",
+      "text": "看着小蓝企鹅，归巢\n有一只受伤的企鹅爸爸还在\n很努力的爬回家，真的很感动",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_food_caption",
+      "kind": "text",
+      "bbox": [
+        632,
+        1254,
+        814,
+        1317
+      ],
+      "description": "新西兰的啤酒\n也不好喝",
+      "label": "新西兰的啤酒\n也不好喝",
+      "method": "local",
+      "text": "新西兰的啤酒\n也不好喝",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_pub_interior",
+    "photo_penguins",
+    "photo_cafe",
+    "photo_couple",
+    "photo_food",
+    "overlay_flower_doodle",
+    "overlay_penguin_cartoon",
+    "overlay_star_top",
+    "overlay_star_right",
+    "overlay_star_cafe",
+    "overlay_star_left",
+    "overlay_star_center",
+    "overlay_star_lower_right",
+    "overlay_cat_korean",
+    "overlay_spiral_upper",
+    "overlay_spiral_lower",
+    "overlay_cat_pair",
+    "overlay_circle_doodles",
+    "overlay_yellow_drops",
+    "overlay_note",
+    "overlay_handwritten_quote",
+    "text_penguin_caption",
+    "text_food_caption"
+  ]
+}

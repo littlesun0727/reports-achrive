@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "全画布为一张连续的粉色演唱会观众席摄影画面，呈明显柔焦模糊；中央偏下可见背对镜头、长发并穿粉色衣物的单人身影，周围是场馆与人群。画面延伸至四边，中央的点点相纸遮挡其大部分区域，露出的四周仍是同一连续摄影环境；整体替换为客户照片并保留柔焦显示效果。"
+  },
+  "objects": [
+    {
+      "id": "photo_concert",
+      "kind": "photo",
+      "bbox": [
+        218,
+        437,
+        862,
+        1297
+      ],
+      "description": "相纸内口的竖幅演唱会观众席照片。前景中央偏下是一位背对镜头、长发、戴浅色帽子并穿粉色上衣的女性，举起一只手，另一手持粉色圆扇；远处为拥挤观众、场馆顶棚及粉色舞台设施。保留完整摄影环境，显示为矩形窗口，四周被相纸遮住。"
+    },
+    {
+      "id": "frame_polaroid",
+      "kind": "frame",
+      "bbox": [
+        153,
+        379,
+        926,
+        1542
+      ],
+      "description": "竖向浅粉色拍立得式相纸，环绕单张照片并留有宽阔下边栏；整张相纸均布灰紫色圆点图案，包含完整纸面与图案。相纸承托内口照片，纸面位于照片上方并遮住其边缘。",
+      "photo_id": [
+        "photo_concert"
+      ]
+    },
+    {
+      "id": "overlay_script",
+      "kind": "overlay",
+      "bbox": [
+        289,
+        1574,
+        790,
+        1641
+      ],
+      "description": "相纸下方独立的白色细线手写艺术字，内容为“Create be graypink”；字形连笔且具有装饰性，作为整体字形设计保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_concert",
+    "frame_polaroid",
+    "overlay_script"
+  ]
+}

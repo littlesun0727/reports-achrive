@@ -1,0 +1,277 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1527
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1527
+      ],
+      "description": "连续的全画布海岸摄影背景，顶部为蓝色天空，底部露出海面、远岸与深色礁石；背景环境延伸至画布四边，并被中央大照片、三张中部照片及底部双照片遮挡。背景摄影环境作为整体替换，不拆分为固定底图。",
+      "background_type": "photo",
+      "label": "连续的全画布海岸摄影背景，顶部为蓝色天空，底部露出海面、远岸",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        57,
+        315,
+        1034,
+        930
+      ],
+      "description": "大幅圆角海岸照片，包含富士山、海湾、海滩、沿岸建筑与海面，远景环境完整保留；照片底部被中部三张小照片覆盖，边缘带浅色圆角描边效果。",
+      "label": "大幅圆角海岸照片，包含富士山、海湾、海滩、沿岸建筑与海面，远",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        108,
+        827,
+        385,
+        1088
+      ],
+      "description": "左侧竖向海边电车照片，包含海岸道路、轨道、电车、行人和电线杆，采用圆角矩形照片窗口；上缘覆盖大幅照片下部。",
+      "label": "左侧竖向海边电车照片，包含海岸道路、轨道、电车、行人和电线杆",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        399,
+        827,
+        677,
+        1088
+      ],
+      "description": "中部海边铁路道口照片，包含铁路信号、道口、海面、天空与远处海岸，采用圆角矩形照片窗口；上缘覆盖大幅照片下部。",
+      "label": "中部海边铁路道口照片，包含铁路信号、道口、海面、天空与远处海",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        690,
+        826,
+        968,
+        1088
+      ],
+      "description": "右侧海边电车照片，包含电车车厢、道口、海岸、天空和电线，采用圆角矩形照片窗口；上缘覆盖大幅照片下部。",
+      "label": "右侧海边电车照片，包含电车车厢、道口、海岸、天空和电线，采用",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        57,
+        1111,
+        592,
+        1471
+      ],
+      "description": "左下横向海岸铁路照片，包含沿海植被、海湾、铁路线和行驶中的彩色列车，采用圆角矩形照片窗口；其上叠加白色说明文字和红色地点标签。",
+      "label": "左下横向海岸铁路照片，包含沿海植被、海湾、铁路线和行驶中的彩",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        600,
+        1111,
+        1034,
+        1471
+      ],
+      "description": "右下横向海岸铁路照片，包含海面、防波堤、岸边铁路和红色列车，采用圆角矩形照片窗口。",
+      "label": "右下横向海岸铁路照片，包含海面、防波堤、岸边铁路和红色列车，",
+      "method": "local"
+    },
+    {
+      "id": "overlay_main_location",
+      "kind": "overlay",
+      "bbox": [
+        97,
+        380,
+        198,
+        436
+      ],
+      "description": "大幅照片左上区域的红色地点标签及下方红色定位图标，标签文字为“日本镰仓”；作为带字和图标的独立固定装饰保留。",
+      "label": "大幅照片左上区域的红色地点标签及下方红色定位图标，标签文字为",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_bottom_location",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        1317,
+        207,
+        1375
+      ],
+      "description": "左下照片中的红色地点标签及下方定位图标，标签文字为“伊豆观海列车”；作为带字和图标的独立固定装饰保留。",
+      "label": "左下照片中的红色地点标签及下方定位图标，标签文字为“伊豆观海",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        339,
+        84,
+        742,
+        161
+      ],
+      "description": "特别の安排",
+      "label": "特别の安排",
+      "method": "local",
+      "text": "特别の安排",
+      "text_status": "known",
+      "style": {
+        "fill": "#00518A",
+        "font": "cjk",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_subtitle",
+      "kind": "text",
+      "bbox": [
+        360,
+        173,
+        715,
+        207
+      ],
+      "description": ">>特别なアレンジ<<",
+      "label": ">>特别なアレンジ<<",
+      "method": "local",
+      "text": ">>特别なアレンジ<<",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_route_title",
+      "kind": "text",
+      "bbox": [
+        220,
+        211,
+        841,
+        257
+      ],
+      "description": "•青春记忆-镰仓·伊豆观海列车•",
+      "label": "•青春记忆-镰仓·伊豆观海列车•",
+      "method": "local",
+      "text": "•青春记忆-镰仓·伊豆观海列车•",
+      "text_status": "known",
+      "style": {
+        "fill": "#00518A",
+        "font": "cjk",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_english_title",
+      "kind": "text",
+      "bbox": [
+        299,
+        268,
+        782,
+        285
+      ],
+      "description": "A THRILLING POLAR EXPERIENCE",
+      "label": "A THRILLING POLAR EXPERIENCE",
+      "method": "local",
+      "text": "A THRILLING POLAR EXPERIENCE",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "sans",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_main_description",
+      "kind": "text",
+      "bbox": [
+        204,
+        377,
+        1002,
+        432
+      ],
+      "description": "日本神奈川县的古老城市，保留众多古迹与神社。\n湘南海滩风光迷人，江之电沿途满是浪漫景致，是历史与文艺完美交融之地。",
+      "label": "日本神奈川县的古老城市，保留众多古迹与神社。\n湘南海滩风光迷",
+      "method": "local",
+      "text": "日本神奈川县的古老城市，保留众多古迹与神社。\n湘南海滩风光迷人，江之电沿途满是浪漫景致，是历史与文艺完美交融之地。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_bottom_description",
+      "kind": "text",
+      "bbox": [
+        78,
+        1148,
+        310,
+        1289
+      ],
+      "description": "搭乘伊豆观海列车，\n开启一场奇妙的海滨之旅。\n沿着海岸线缓缓前行，\n窗外每帧画面都洋溢\n浪漫与诗意。",
+      "label": "搭乘伊豆观海列车，\n开启一场奇妙的海滨之旅。\n沿着海岸线缓缓",
+      "method": "local",
+      "text": "搭乘伊豆观海列车，\n开启一场奇妙的海滨之旅。\n沿着海岸线缓缓前行，\n窗外每帧画面都洋溢\n浪漫与诗意。",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_main",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_right",
+    "overlay_main_location",
+    "text_main_description",
+    "overlay_bottom_location",
+    "text_bottom_description",
+    "text_title",
+    "text_subtitle",
+    "text_route_title",
+    "text_english_title"
+  ]
+}

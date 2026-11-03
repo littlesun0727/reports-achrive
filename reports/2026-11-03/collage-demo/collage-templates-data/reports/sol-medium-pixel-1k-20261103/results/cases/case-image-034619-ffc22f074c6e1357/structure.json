@@ -1,0 +1,119 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_bedroom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        360,
+        450
+      ],
+      "description": "左上卧室照片，床铺占据前景，后方可见电视、房门和室内墙面；保留完整室内摄影环境，矩形裁切。"
+    },
+    {
+      "id": "photo_closeup",
+      "kind": "photo",
+      "bbox": [
+        360,
+        0,
+        720,
+        450
+      ],
+      "description": "上方中央人物局部近景，画面可见下半张脸、手部和粉色毛绒衣物；保留黑色衣物及周围摄影内容，矩形裁切。"
+    },
+    {
+      "id": "photo_dining",
+      "kind": "photo",
+      "bbox": [
+        720,
+        0,
+        1080,
+        450
+      ],
+      "description": "右上餐桌照片，可见餐食、碗筷、伸出的手臂及室内电视和花卉；这些内容共同属于同一摄影画面，矩形裁切。"
+    },
+    {
+      "id": "photo_lakeside",
+      "kind": "photo",
+      "bbox": [
+        0,
+        450,
+        540,
+        990
+      ],
+      "description": "左侧中部湖景照片，水面、远岸树木、停在水边的白色鸟和近处岸边设施同属一张摄影画面；下部被中央云朵贴纸局部遮挡，保留完整矩形显示范围。"
+    },
+    {
+      "id": "photo_sign_street",
+      "kind": "photo",
+      "bbox": [
+        540,
+        450,
+        1080,
+        990
+      ],
+      "description": "右侧中部夜间街景照片，上方是带红色“我爱杭州”字样的白色招牌，下方可见夜色街道和建筑；招牌文字属于摄影内容，中央部分被云朵贴纸遮挡，保留完整矩形显示范围。"
+    },
+    {
+      "id": "photo_cafe",
+      "kind": "photo",
+      "bbox": [
+        0,
+        990,
+        360,
+        1440
+      ],
+      "description": "左下餐厅照片，桌面上的餐盘和饮品在前景，窗边座椅及室外景象在后方；保留完整摄影环境，矩形裁切。"
+    },
+    {
+      "id": "photo_walkway",
+      "kind": "photo",
+      "bbox": [
+        360,
+        990,
+        720,
+        1440
+      ],
+      "description": "下方中央俯拍步行照片，可见铺装人行道、路边绿植和行走者的腿脚及粉色衣物；与其他照片为独立裁切，矩形显示范围。"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        720,
+        990,
+        1080,
+        1440
+      ],
+      "description": "右下湖畔日落照片，天空由蓝紫渐变至橙色，水面映出暮色，岸边树木和远处建筑沿边缘可见；保留完整摄影环境，矩形裁切。"
+    },
+    {
+      "id": "overlay_cloud",
+      "kind": "overlay",
+      "bbox": [
+        364,
+        731,
+        730,
+        1150
+      ],
+      "description": "白底黑色手绘描边的云朵形贴纸，主体内写有黑色手写“杭州”，左下方连接两个由小到大的白色圆形气泡；整体作为一个独立装饰单元，覆盖湖景、夜间街景及下方中央步行照片的交界区域。"
+    }
+  ],
+  "layer_order": [
+    "photo_bedroom",
+    "photo_closeup",
+    "photo_dining",
+    "photo_lakeside",
+    "photo_sign_street",
+    "photo_cafe",
+    "photo_walkway",
+    "photo_sunset",
+    "overlay_cloud"
+  ]
+}

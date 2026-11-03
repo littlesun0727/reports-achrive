@@ -1,0 +1,108 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "photo_left_strip",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        100,
+        1080
+      ],
+      "description": "画布左侧狭长的浅蓝灰色雪地或冰面摄影区域，带有深色细线状纹理，沿左边缘纵向延伸；可见范围被黑色底色及相邻照片边缘截断，具体场景不确定。"
+    },
+    {
+      "id": "photo_food_top",
+      "kind": "photo",
+      "bbox": [
+        66,
+        26,
+        399,
+        249
+      ],
+      "description": "左上横向餐桌照片，画面中有多盘菜、餐具和深色背景，保留完整摄影环境；矩形照片窗口。"
+    },
+    {
+      "id": "photo_burgers",
+      "kind": "photo",
+      "bbox": [
+        60,
+        284,
+        400,
+        513
+      ],
+      "description": "左侧中上横向餐桌照片，显示汉堡、薯条和桌面上的纸张，保留完整摄影环境；矩形照片窗口。"
+    },
+    {
+      "id": "photo_food_lower",
+      "kind": "photo",
+      "bbox": [
+        60,
+        540,
+        400,
+        769
+      ],
+      "description": "左侧中下横向餐桌照片，显示多碗餐食及盘中的兔子造型甜点，保留完整摄影环境；矩形照片窗口。"
+    },
+    {
+      "id": "photo_sweets_box",
+      "kind": "photo",
+      "bbox": [
+        57,
+        804,
+        405,
+        1036
+      ],
+      "description": "左下方横向照片，手托着装有多枚甜点的盒子，后方可见印有月份与日期的日历纸；人物手部、盒子和环境共同属于照片，保留完整摄影画面。"
+    },
+    {
+      "id": "photo_bookshop",
+      "kind": "photo",
+      "bbox": [
+        420,
+        200,
+        660,
+        881
+      ],
+      "description": "画面中央的竖向书店橱窗照片，书架与书籍透过蓝色玻璃可见，玻璃反射树枝和天空，保留全部摄影环境；完整矩形窗口。"
+    },
+    {
+      "id": "photo_art_wall",
+      "kind": "photo",
+      "bbox": [
+        681,
+        0,
+        1080,
+        936
+      ],
+      "description": "右侧纵向室内照片，包含顶部彩色手工作品、浅色墙面、下方多张插画纸张及底部室内一角；纸上的图画和可辨字样属于摄影内容，保留完整摄影环境。照片从画布顶部和右侧延伸至边缘，下部在黑色区域前结束。"
+    },
+    {
+      "id": "photo_window_inset",
+      "kind": "photo",
+      "bbox": [
+        938,
+        137,
+        1080,
+        498
+      ],
+      "description": "右侧叠放的竖向照片，显示灰色墙面、树枝影子及下方窗户与室外景色，保留照片自身的摄影环境；左侧及底部边界覆盖在右侧室内照片上。"
+    }
+  ],
+  "layer_order": [
+    "photo_left_strip",
+    "photo_food_top",
+    "photo_burgers",
+    "photo_food_lower",
+    "photo_sweets_box",
+    "photo_bookshop",
+    "photo_art_wall",
+    "photo_window_inset"
+  ]
+}

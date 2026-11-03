@@ -1,0 +1,115 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    853,
+    1280
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        853,
+        1280
+      ],
+      "description": "全画布暖米黄色纸质底图，带细密颗粒、纤维感及轻微明暗变化；在两张山景照片之间、下方及侧边连续露出。保留纸底原有质感，清除并独立处理照片、邮戳装饰和文字，不将摄影山景并入纸底。",
+      "background_type": "reference_clean",
+      "label": "全画布暖米黄色纸质底图，带细密颗粒、纤维感及轻微明暗变化；在",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "photo_upper",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        853,
+        686
+      ],
+      "description": "上方横向丹霞地貌远景照片，无人物；浅色天空、层叠的红橙与灰黄色山脊、谷地道路及中央偏右的小车辆共同属于摄影内容。照片延伸至画布上边和左右边，下沿呈起伏的撕纸状边界，沿该窗口附有窄白色毛边；保留完整山景环境，不沿山体去背景。",
+      "label": "上方横向丹霞地貌远景照片，无人物；浅色天空、层叠的红橙与灰黄",
+      "method": "local"
+    },
+    {
+      "id": "photo_lower",
+      "kind": "photo",
+      "bbox": [
+        85,
+        814,
+        773,
+        1165
+      ],
+      "description": "下方独立横向丹霞山景，无人物；近处橙红色山坡、横贯中部的浅色谷地道路与后方灰黄色山脊共同构成完整摄影画面，取景与上方照片不同。画面呈浅赭色、低对比的旧印刷观感，四周为不规则刷痕状边缘，内部有斑驳露出纸底的细碎缺口；无独立相框。",
+      "label": "下方独立横向丹霞山景，无人物；近处橙红色山坡、横贯中部的浅色",
+      "method": "local"
+    },
+    {
+      "id": "overlay_postmark",
+      "kind": "overlay",
+      "bbox": [
+        654,
+        614,
+        853,
+        775
+      ],
+      "description": "右侧蓝灰色仿旧邮戳装饰，包含双圈圆章、上弧“丹霞地貌”字样、章内山峰线描和向右延伸的多道波浪邮政线。完整保留磨损断墨及全部线条，右侧波浪线被画布边缘截断；整体位于纸底上，局部接近上方照片的撕纸下沿。",
+      "label": "右侧蓝灰色仿旧邮戳装饰，包含双圈圆章、上弧“丹霞地貌”字样、",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        73,
+        682,
+        163,
+        704
+      ],
+      "description": "七彩丹霞",
+      "label": "七彩丹霞",
+      "method": "local",
+      "text": "七彩丹霞",
+      "text_status": "known",
+      "style": {
+        "fill": "#555249",
+        "font": "cjk",
+        "align": "left",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_information",
+      "kind": "text",
+      "bbox": [
+        242,
+        1196,
+        614,
+        1239
+      ],
+      "description": "地点 · 甘肃 张掖 | PLACE · ZHANGYE, GANSU\n日期 · 2024.05.20 | DATE · 2024.05.20",
+      "label": "地点 · 甘肃 张掖 | PLACE · ZHANGYE, ",
+      "method": "local",
+      "text": "地点 · 甘肃 张掖 | PLACE · ZHANGYE, GANSU\n日期 · 2024.05.20 | DATE · 2024.05.20",
+      "text_status": "known",
+      "style": {
+        "fill": "#666156",
+        "font": "serif",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "photo_upper",
+    "photo_lower",
+    "overlay_postmark",
+    "text_title",
+    "text_information"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_base",
+    "description": "连续覆盖全画布的浅黄色织物状纸张纹理底图，边缘和三张照片之间均保持一致的细密交叉纹理；照片与手写装饰独立叠加，后续仅替换摄影内容，纸张材质保留原样。"
+  },
+  "objects": [
+    {
+      "id": "handwritten_quote",
+      "kind": "overlay",
+      "bbox": [
+        257,
+        153,
+        1010,
+        1174
+      ],
+      "description": "一整组棕黄色手写英文句子装饰，采用不规则手写笔触，纵向分行铺陈在纸面上；部分文字被上方、左中部和下方照片遮挡，作为固定的整体手写设计保留，不拆分为普通文字对象。"
+    },
+    {
+      "id": "photo_stream",
+      "kind": "photo",
+      "bbox": [
+        530,
+        144,
+        973,
+        434
+      ],
+      "description": "右上方横向户外照片，画面包含溪流中的白色水花、岩石、穿黑色短裤的人体下半身以及右上角伸出的手势，摄影环境完整保留在矩形照片区域内；下方和周围部分手写字被照片遮挡。"
+    },
+    {
+      "id": "photo_grilled_wings",
+      "kind": "photo",
+      "bbox": [
+        130,
+        522,
+        613,
+        855
+      ],
+      "description": "左侧中部横向烧烤照片，显示多串正在烤网上烹调的鸡翅或鸡肉串、烤架和焦香表面，完整摄影画面为矩形窗口；其上方和下方的手写装饰在照片边缘处被遮挡。"
+    },
+    {
+      "id": "photo_grilled_assortment",
+      "kind": "photo",
+      "bbox": [
+        427,
+        938,
+        778,
+        1373
+      ],
+      "description": "下方偏右的竖向烧烤照片，包含烤网上的香肠、圆形蔬菜或肉片、下方多串烤肉以及左上角的调味容器，摄影内容完整保留在矩形区域内，并覆盖后方部分手写文字。"
+    }
+  ],
+  "layer_order": [
+    "handwritten_quote",
+    "photo_stream",
+    "photo_grilled_wings",
+    "photo_grilled_assortment"
+  ]
+}

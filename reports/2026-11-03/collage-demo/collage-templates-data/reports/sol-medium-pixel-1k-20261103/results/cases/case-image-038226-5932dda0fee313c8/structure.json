@@ -1,0 +1,120 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#000000"
+  },
+  "objects": [
+    {
+      "id": "photo_top_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        295,
+        295
+      ],
+      "description": "左上方俯视街道路面照片，画面中可见穿深色衣物和白鞋的人体下部、伸出的手以及路面上的小型黑色标记；完整方形照片窗口保留摄影环境。"
+    },
+    {
+      "id": "photo_top_center",
+      "kind": "photo",
+      "bbox": [
+        307,
+        0,
+        602,
+        295
+      ],
+      "description": "建筑入口或店铺外部的方形照片，正对开放门面、柱体、室内座椅和前方台阶，保留完整建筑环境与现场视角。"
+    },
+    {
+      "id": "photo_top_right",
+      "kind": "photo",
+      "bbox": [
+        614,
+        0,
+        910,
+        295
+      ],
+      "description": "昏暗环境中的电子屏幕照片，中央浅色屏幕前有黑色手臂或手势剪影，周围保留设备界面和暗部环境。"
+    },
+    {
+      "id": "photo_middle_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        307,
+        295,
+        602
+      ],
+      "description": "夜间车内照片，从驾驶位置看到方向盘、仪表与发光中控屏，车窗外有道路和树木，整体摄影环境保留。"
+    },
+    {
+      "id": "photo_middle_center",
+      "kind": "photo",
+      "bbox": [
+        307,
+        307,
+        602,
+        602
+      ],
+      "description": "室内人物自拍照片，人物佩戴黑色面罩并靠近镜头，后方可见另一名人物、墙面和室内陈设，保留完整方形取景。"
+    },
+    {
+      "id": "photo_middle_right",
+      "kind": "photo",
+      "bbox": [
+        614,
+        307,
+        910,
+        602
+      ],
+      "description": "昏暗室内或车内的垂直构图照片，中央悬挂或摆放一串浅色装饰物，周围是深色木质或布面环境。"
+    },
+    {
+      "id": "photo_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        0,
+        614,
+        295,
+        910
+      ],
+      "description": "俯视购物车和行人的街景照片，画面中可见多人手臂、购物车、地面及车内物品，完整保留现场摄影环境。"
+    },
+    {
+      "id": "photo_bottom_center",
+      "kind": "photo",
+      "bbox": [
+        307,
+        614,
+        602,
+        910
+      ],
+      "description": "室内镜前全身自拍照片，人物手持手机遮挡面部，穿深色上衣和长裤，背景可见衣物、家具和房间陈设。"
+    },
+    {
+      "id": "photo_bottom_right",
+      "kind": "photo",
+      "bbox": [
+        614,
+        614,
+        910,
+        910
+      ],
+      "description": "俯视黑色包袋或座椅的照片，画面中有手持粉色玩偶或装饰物，右侧叠加浅色小字样；摄影环境和可见文字均随照片替换。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_left",
+    "photo_top_center",
+    "photo_top_right",
+    "photo_middle_left",
+    "photo_middle_center",
+    "photo_middle_right",
+    "photo_bottom_left",
+    "photo_bottom_center",
+    "photo_bottom_right"
+  ]
+}

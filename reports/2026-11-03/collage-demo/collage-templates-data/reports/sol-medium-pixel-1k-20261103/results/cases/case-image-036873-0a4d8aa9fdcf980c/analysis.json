@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_portrait",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        809,
+        1080
+      ],
+      "description": "左侧竖向人物照片：一位长黑发女性正面半身坐姿，穿白色蕾丝服装，双手举起白色羽翼状扇子遮住口鼻，目光朝向镜头。保留浅灰墙面、衣袖、座椅及左下角局部家具等摄影环境。照片完整显示窗口上接画布顶边、下接底边，右侧止于白色音乐面板；左上部分被猫咪天使装饰和灰色箭头遮挡。人物未沿轮廓去背景。",
+      "label": "左侧竖向人物照片：一位长黑发女性正面半身坐姿，穿白色蕾丝服装",
+      "method": "local"
+    },
+    {
+      "id": "overlay_angel_cat",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        107,
+        293,
+        682
+      ],
+      "description": "左上猫咪天使组合装饰：白色心形底片中有灰色猫咪和两侧浅色羽翼，右上写有黑色花体“Angel”。心形周围连接银灰色浮雕卷纹，下方延伸出较大的灰色羽翼及浅色枝叶，左端部分被画布裁切。心形、猫咪、文字、卷纹和附属羽翼枝叶作为一个固定装饰保留，不随人物照片替换。",
+      "label": "左上猫咪天使组合装饰：白色心形底片中有灰色猫咪和两侧浅色羽翼",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrows",
+      "kind": "overlay",
+      "bbox": [
+        207,
+        230,
+        384,
+        433
+      ],
+      "description": "心形装饰与人物之间的浅灰色双向箭头组合，两根斜向平行长杆分别带三角箭头，整体沿左上至右下方向排列，末端靠近人物手持扇子的左上缘。保留两根箭杆及全部箭头，作为独立固定装饰。",
+      "label": "心形装饰与人物之间的浅灰色双向箭头组合，两根斜向平行长杆分别",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_music_panel",
+      "kind": "overlay",
+      "bbox": [
+        809,
+        0,
+        1080,
+        1080
+      ],
+      "description": "右侧贯穿画布全高的白色局部设计面板，与左侧照片形成明确竖直分界。面板上布置黑色大高音谱号、不同形态的音符、短横线及多条弯曲交织的黑色虚线，图案在顶部、右侧和底部被画布截断。白色承底和音乐图案整体保留；中部浅灰色重复字样另列，不包含在本单元内。",
+      "label": "右侧贯穿画布全高的白色局部设计面板，与左侧照片形成明确竖直分",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_angel_baby",
+      "kind": "overlay",
+      "bbox": [
+        816,
+        467,
+        999,
+        626
+      ],
+      "description": "右侧音乐面板中部的浅灰色文字装饰，共五行，每行均为“angel baby”。各行左右错落，部分字母与黑色音符及弯曲虚线交叠；保留原有纤细字形、五行独立位置和淡灰外观，作为完整固定字样，不并入音乐面板或人物照片。",
+      "label": "右侧音乐面板中部的浅灰色文字装饰，共五行，每行均为“ange",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_portrait",
+    "overlay_angel_cat",
+    "overlay_arrows",
+    "overlay_music_panel",
+    "overlay_angel_baby"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#CDBBD0"
+  },
+  "objects": [
+    {
+      "id": "grid_paper",
+      "kind": "overlay",
+      "bbox": [
+        30,
+        36,
+        873,
+        842
+      ],
+      "description": "倾斜铺放的白色方格纸，带细灰网格、纸张边缘和阴影，作为主照片及左侧标签的固定承托背景。"
+    },
+    {
+      "id": "top_tape",
+      "kind": "overlay",
+      "bbox": [
+        336,
+        0,
+        609,
+        94
+      ],
+      "description": "贴在方格纸上沿的橙棕色胶带，包含略透明的纸张质感、边缘和阴影。"
+    },
+    {
+      "id": "label_poetry",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        335,
+        137,
+        416
+      ],
+      "description": "左侧深紫色横向标签，带白色手写体“Poetry”字样、边缘和阴影；标签左侧部分超出画布。"
+    },
+    {
+      "id": "label_charm",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        444,
+        170,
+        524
+      ],
+      "description": "左侧深紫色横向标签，带白色手写体“Charm”字样、边缘和阴影；标签左侧部分超出画布。"
+    },
+    {
+      "id": "photo_main",
+      "kind": "photo",
+      "bbox": [
+        235,
+        162,
+        846,
+        931
+      ],
+      "description": "倾斜的竖向人物环境照片，画面中有一名侧身回望的女性，背对镜头并面向左侧，头发上戴粉紫色花饰；背景保留街巷屋顶、建筑和右侧砖墙，照片右缘还包含红黑色竖向图案区域。照片环境完整保留，边缘由固定紫色框体围合。"
+    },
+    {
+      "id": "frame_main",
+      "kind": "frame",
+      "bbox": [
+        215,
+        151,
+        870,
+        969
+      ],
+      "description": "围绕主照片的深紫色倾斜相框，包含完整外轮廓、宽边、边缘阴影及下方较宽的框沿；照片从框体内口显示。",
+      "photo_id": [
+        "photo_main"
+      ]
+    },
+    {
+      "id": "butterfly_upper",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        625,
+        417,
+        1018
+      ],
+      "description": "覆盖主照片左下区域的大型白灰色蝴蝶装饰，保留完整翅膀、身体、纸张质感和阴影；左侧部分超出画布，并遮挡相框及照片下缘。"
+    },
+    {
+      "id": "quote_card",
+      "kind": "overlay",
+      "bbox": [
+        77,
+        1112,
+        755,
+        1365
+      ],
+      "description": "浅粉色矩形引文卡片，带紫色斜体手写诗句“The purple pride / which on thy soft cheek for complexion dwells, / in my love’s veins / thou hast too grossly dyed.”；文字、卡片底色和整体排版作为固定设计单元保留。"
+    },
+    {
+      "id": "dictionary_paper",
+      "kind": "overlay",
+      "bbox": [
+        505,
+        1505,
+        947,
+        1838
+      ],
+      "description": "右下方撕边的浅色词典纸片，印有“love·able”和“love”等黑色词典释义文字，保留不规则纸边、印刷内容和阴影。"
+    },
+    {
+      "id": "cocktail_glass",
+      "kind": "overlay",
+      "bbox": [
+        726,
+        1407,
+        1014,
+        1837
+      ],
+      "description": "右下方独立的透明鸡尾酒杯装饰，包含酒液、杯梗、柠檬片及顶部装饰签，覆盖词典纸片右侧并保留其摄影质感和阴影。"
+    },
+    {
+      "id": "butterfly_lower",
+      "kind": "overlay",
+      "bbox": [
+        480,
+        1668,
+        722,
+        1855
+      ],
+      "description": "词典纸片左下方的黑白蝴蝶装饰，带浅色外缘和投影，覆盖纸片下部并作为完整固定剪贴单元保留。"
+    }
+  ],
+  "layer_order": [
+    "grid_paper",
+    "top_tape",
+    "label_poetry",
+    "label_charm",
+    "frame_main",
+    "photo_main",
+    "butterfly_upper",
+    "quote_card",
+    "dictionary_paper",
+    "cocktail_glass",
+    "butterfly_lower"
+  ]
+}

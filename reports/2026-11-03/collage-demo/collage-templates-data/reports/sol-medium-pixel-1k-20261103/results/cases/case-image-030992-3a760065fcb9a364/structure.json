@@ -1,0 +1,48 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "solid_color",
+    "color": "#FFFFFF"
+  },
+  "objects": [
+    {
+      "id": "photo_teddy_bed",
+      "kind": "photo",
+      "bbox": [
+        220,
+        272,
+        901,
+        1179
+      ],
+      "description": "竖幅矩形室内照片：一只穿浅蓝白睡衣、抱着浅色枕头的棕色泰迪熊坐在床上，床品与木质地面共同构成摄影画面；保留完整矩形窗口及其中环境，照片内床品印字随摄影内容替换。下部被蓝色手写引文覆盖。"
+    },
+    {
+      "id": "overlay_title_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        302,
+        104,
+        820,
+        236
+      ],
+      "description": "照片上方的两行蓝色手写英文装饰字样“Never underestimate / your power to change yourself”，保留原有手写笔画与排布。"
+    },
+    {
+      "id": "overlay_quote_handwriting",
+      "kind": "overlay",
+      "bbox": [
+        78,
+        891,
+        1037,
+        1597
+      ],
+      "description": "画面下半部的大段蓝色手写英文引文，含引号、分行及其中划掉的单词；作为完整手写字样保留。文字跨过照片下部并延伸至白色画布区域，遮挡照片局部。"
+    }
+  ],
+  "layer_order": [
+    "photo_teddy_bed",
+    "overlay_title_handwriting",
+    "overlay_quote_handwriting"
+  ]
+}

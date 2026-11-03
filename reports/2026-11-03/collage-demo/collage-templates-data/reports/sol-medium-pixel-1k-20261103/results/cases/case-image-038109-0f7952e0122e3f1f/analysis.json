@@ -1,0 +1,103 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_hotpot_table",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "连续的火锅餐桌摄影画面覆盖整个1080×1440画布，包含锅具、餐盘、肉片、蔬菜、蘸料和餐具等环境；画面边缘均延伸为同一桌面场景。上方白色卡片、下方拍立得照片及标签遮挡局部，底层完整摄影环境保留并可由客户素材替换。",
+      "background_type": "photo",
+      "label": "连续的火锅餐桌摄影画面覆盖整个1080×1440画布，包含锅",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_group_polaroid",
+      "kind": "photo",
+      "bbox": [
+        207,
+        756,
+        876,
+        1181
+      ],
+      "description": "拍立得相纸内的一张室内合影照片，三名年轻女性并排站立面对镜头，中间人物穿白色外套，两侧人物穿深色服装，画面整体明显虚焦并带暖色室内环境；完整照片显示区域位于下方相纸内口。",
+      "label": "拍立得相纸内的一张室内合影照片，三名年轻女性并排站立面对镜头",
+      "method": "local"
+    },
+    {
+      "id": "frame_group_polaroid",
+      "kind": "frame",
+      "bbox": [
+        192,
+        744,
+        889,
+        1196
+      ],
+      "description": "下方独立的米白色拍立得相纸框，四周保留宽边、轻微阴影和倾斜照片窗口；框体承载一张三人合影，照片内口与相纸边缘完整保留。",
+      "photo_id": [
+        "photo_group_polaroid"
+      ],
+      "label": "下方独立的米白色拍立得相纸框，四周保留宽边、轻微阴影和倾斜照",
+      "method": "extract"
+    },
+    {
+      "id": "frame_meat_card",
+      "kind": "frame",
+      "bbox": [
+        192,
+        245,
+        888,
+        697
+      ],
+      "description": "上方白色纸卡式照片承托单元，包含左侧肉片蛋糕照片区域、顶部手写账号样式字样、中央竖向点号分隔、右上虚线方框及右侧手写中文排版和相机图标；纸张边缘、印刷内容、虚线和阴影作为整体固定设计保留，承载一张不规则照片窗口。",
+      "photo_id": [
+        "photo_meat_cake"
+      ],
+      "label": "上方白色纸卡式照片承托单元，包含左侧肉片蛋糕照片区域、顶部手",
+      "method": "extract"
+    },
+    {
+      "id": "photo_meat_cake",
+      "kind": "photo",
+      "bbox": [
+        205,
+        315,
+        556,
+        568
+      ],
+      "description": "不规则抠图式摄影单元，主体为由红白牛肉片堆叠成蛋糕状的火锅肉盘，顶部和底部点缀香草、蔬菜与小花，并可见托盘及两侧端托盘的手；摄影环境基本被去除，主体沿轮廓显示在白色纸卡上，边缘带轻微柔和描边效果。",
+      "label": "不规则抠图式摄影单元，主体为由红白牛肉片堆叠成蛋糕状的火锅肉",
+      "method": "local"
+    },
+    {
+      "id": "overlay_meat_caption",
+      "kind": "overlay",
+      "bbox": [
+        117,
+        546,
+        403,
+        606
+      ],
+      "description": "从上方白色纸卡左下边缘向外伸出的白色圆角标签，带黑色手写中文“小妮的“肉肉蛋糕””字样；标签作为独立固定纸片覆盖纸卡和下方摄影环境，保留其圆角、纸面和手写排版。",
+      "label": "从上方白色纸卡左下边缘向外伸出的白色圆角标签，带黑色手写中文",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_hotpot_table",
+    "photo_group_polaroid",
+    "frame_group_polaroid",
+    "frame_meat_card",
+    "photo_meat_cake",
+    "overlay_meat_caption"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_base",
+    "description": "连续的海滩摄影画面覆盖整个画布，包含灰蓝天空、海平线、海面、浪花与前景湿沙；四周露出的场景连续一致，上层拼贴照片遮挡局部。保留整幅海滩环境作为可替换底图。"
+  },
+  "objects": [
+    {
+      "id": "photo_rocky_surf",
+      "kind": "photo",
+      "bbox": [
+        587,
+        191,
+        948,
+        673
+      ],
+      "description": "右上方竖向海岸照片，白色浪花拍打深色礁石，保留完整海水与礁石摄影环境；矩形显示区域被中央夜景照片局部遮挡。"
+    },
+    {
+      "id": "photo_night_trees",
+      "kind": "photo",
+      "bbox": [
+        426,
+        279,
+        809,
+        567
+      ],
+      "description": "中央偏上横向夜景照片，深蓝夜空下有一棵裸枝树及右侧松树剪影，树枝间可见零星亮点；保留完整摄影环境，矩形区域压在右上礁石照片之上。"
+    },
+    {
+      "id": "photo_selfie_phone",
+      "kind": "photo",
+      "bbox": [
+        109,
+        382,
+        534,
+        807
+      ],
+      "description": "左侧近景自拍照片，一位戴编织宽檐帽和黑框眼镜的女性手持手机遮住部分面部，身穿白衣，背景可见蓝天与海岸；保留照片内环境，矩形区域覆盖夜景照片左下部分。"
+    },
+    {
+      "id": "photo_golden_water",
+      "kind": "photo",
+      "bbox": [
+        684,
+        818,
+        950,
+        1142
+      ],
+      "description": "右下方竖向水面照片，金色夕照在深色波纹水面上形成反光；摄影环境保留在矩形显示区域内，照片上叠有白色手写字样与小型装饰笔画。"
+    },
+    {
+      "id": "photo_selfie_portrait",
+      "kind": "photo",
+      "bbox": [
+        208,
+        733,
+        684,
+        1210
+      ],
+      "description": "下方较大的方形近景自拍，一位戴编织宽檐帽和黑框眼镜的女性正面看向镜头，长发垂在白衣两侧，佩戴绿色垂坠耳饰；保留照片内海边环境，矩形照片覆盖左侧手持手机自拍的下部。"
+    },
+    {
+      "id": "overlay_upper_stars",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        137,
+        392,
+        302
+      ],
+      "description": "左上方白色手绘星星与小型闪光点组成的装饰簇，包含两枚空心不规则星形及周围细小点状笔画，作为一个独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_birds",
+      "kind": "overlay",
+      "bbox": [
+        685,
+        109,
+        901,
+        153
+      ],
+      "description": "画布上方偏右的一组浅青色手绘飞鸟剪影，大小与朝向略有变化，作为一组固定装饰保留。"
+    },
+    {
+      "id": "overlay_center_star",
+      "kind": "overlay",
+      "bbox": [
+        525,
+        698,
+        566,
+        734
+      ],
+      "description": "两张人物照片交界上方附近的白色手绘空心星形及相邻小点，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_left_star",
+      "kind": "overlay",
+      "bbox": [
+        119,
+        1012,
+        179,
+        1071
+      ],
+      "description": "左下区域的一枚白色手绘空心星形，周围带少量细小点状笔画，作为独立固定装饰保留。"
+    },
+    {
+      "id": "overlay_greeting",
+      "kind": "overlay",
+      "bbox": [
+        743,
+        900,
+        891,
+        1042
+      ],
+      "description": "叠在右下金色水面照片上的白色手写装饰字样“Have a nice day”，分行排列并带有小型星光笔画；字形具有手绘造型，连同附属笔画作为一个固定装饰保留。"
+    },
+    {
+      "id": "overlay_lower_stars",
+      "kind": "overlay",
+      "bbox": [
+        736,
+        1144,
+        888,
+        1301
+      ],
+      "description": "右下方白色手绘星星与闪光点装饰簇，包含两枚空心不规则星形及数个小点状笔画，作为一个独立固定装饰保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_rocky_surf",
+    "photo_night_trees",
+    "photo_selfie_phone",
+    "photo_golden_water",
+    "photo_selfie_portrait",
+    "overlay_upper_stars",
+    "overlay_birds",
+    "overlay_center_star",
+    "overlay_left_star",
+    "overlay_greeting",
+    "overlay_lower_stars"
+  ]
+}

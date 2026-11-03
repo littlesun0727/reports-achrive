@@ -1,0 +1,49 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "photographic",
+    "id": "photo_background",
+    "description": "连续的办公室桌面摄影画面覆盖全画布，包含显示器、办公隔断、天花板、键盘、鼠标和桌面环境；画面延伸至四边，两个食物碗和底部字样遮挡局部。背景中的办公环境整体作为可替换摄影底图保留，不拆分为局部窗口。"
+  },
+  "objects": [
+    {
+      "id": "photo_left_bowl",
+      "kind": "photo",
+      "bbox": [
+        0,
+        424,
+        557,
+        969
+      ],
+      "description": "左侧独立食物照片，包含一只黑色碗及碗内的辣汤、豆制品、蔬菜和其他配料，主体从画布左边缘进入并在下方完整显示；摄影环境基本去除，仅保留碗和食物组合。白色手绘描边沿整个主体轮廓延伸，部分边缘贴近或被画布边界裁切。"
+    },
+    {
+      "id": "photo_right_bowl",
+      "kind": "photo",
+      "bbox": [
+        467,
+        483,
+        1080,
+        1061
+      ],
+      "description": "右侧独立食物照片，包含一只黑色碗及碗内的大块炸物、豆制品、蔬菜、粉条和汤汁，主体从右侧进入并延伸至画布右边缘；摄影环境基本去除，仅保留碗和食物组合。白色手绘描边沿主体外轮廓显示，右缘和部分下缘被画布边界裁切，并覆盖左侧食物碗的右侧区域。"
+    },
+    {
+      "id": "overlay_caption",
+      "kind": "overlay",
+      "bbox": [
+        178,
+        1074,
+        794,
+        1194
+      ],
+      "description": "底部独立白色手写风格字样，内容为“Lunchtime for office workers”，沿轻微弧形和倾斜基线排列；字样不依附照片窗口，作为完整固定艺术字保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_left_bowl",
+    "photo_right_bowl",
+    "overlay_caption"
+  ]
+}

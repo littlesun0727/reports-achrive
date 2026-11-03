@@ -1,0 +1,72 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        480
+      ],
+      "description": "顶部横向照片：左侧是传统建筑的深色屋檐、墙面和石灯笼，右侧及前景有盛开的浅粉色花木与枝叶，背景为明亮天空。照片在 y=480 处水平截断，与中间照片取景不连续。",
+      "label": "顶部横向照片：左侧是传统建筑的深色屋檐、墙面和石灯笼，右侧及",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        480,
+        1080,
+        960
+      ],
+      "description": "中间横向街景照片：中央偏上的蓝色多方向道路指示牌，周围是树木、建筑和道路设施；画面上部有一片斜向延伸的浅色模糊前景。路牌文字属于照片内容。照片显示区域为 y=480 至 y=960 的独立横幅，与上下照片分界清晰。",
+      "label": "中间横向街景照片：中央偏上的蓝色多方向道路指示牌，周围是树木",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        960,
+        1080,
+        1440
+      ],
+      "description": "底部横向照片：左侧与前景伸入大量绿叶和白色花簇，右侧可见灰色墙面及下方瓦屋顶，背景有较暗的树枝。完整横幅延伸至画布左右边缘和底边，与中间照片在 y=960 处分界。",
+      "label": "底部横向照片：左侧与前景伸入大量绿叶和白色花簇，右侧可见灰色",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom"
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "wood_texture_base",
+    "description": "连续的深棕色木纹背景覆盖整个画布，木纹和明暗变化延伸至四边，并在各照片窗口、照片间隙及边缘露出；照片和白色手绘装饰为其上方独立单元，木纹底图保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_food_table",
+      "kind": "photo",
+      "bbox": [
+        69,
+        77,
+        677,
+        825
+      ],
+      "description": "左上大型不规则照片窗口，展示多人聚餐桌面的中近景，包括蓝白瓷器、虾料理、蔬菜、糕点、肉类和米饭；餐桌环境保留在摄影内容中，照片外沿为白色撕纸状描边与柔和边缘，不去除摄影背景。"
+    },
+    {
+      "id": "photo_drinks_shop",
+      "kind": "photo",
+      "bbox": [
+        725,
+        144,
+        1028,
+        610
+      ],
+      "description": "右上竖向不规则照片窗口，展示两杯手持饮料及店铺门面环境，杯身文字和杯顶装饰属于摄影内容；白色撕纸状边缘沿完整窗口保留，摄影背景未去除。"
+    },
+    {
+      "id": "photo_colorful_drinks",
+      "kind": "photo",
+      "bbox": [
+        748,
+        600,
+        974,
+        833
+      ],
+      "description": "右侧中部小型近方形照片窗口，展示绿色和橙黄色饮品、果片装饰及桌面环境；窗口四周为白色固定纸边效果，照片内环境完整保留。"
+    },
+    {
+      "id": "photo_bottled_snacks",
+      "kind": "photo",
+      "bbox": [
+        98,
+        865,
+        519,
+        1338
+      ],
+      "description": "左下不规则照片窗口，展示两只手举起的黄色包装瓶或食品，背景为店铺入口和街面环境；照片沿完整不规则窗口保留白色撕纸状描边，未进行主体去背景。"
+    },
+    {
+      "id": "photo_cartoon_cups",
+      "kind": "photo",
+      "bbox": [
+        605,
+        856,
+        1020,
+        1381
+      ],
+      "description": "右下大型不规则照片窗口，展示两只手持的彩色卡通图案杯，后方可见窗户、绿色户外景色和桌面；摄影环境保留，窗口边缘带白色撕纸状描边和柔化边缘。"
+    },
+    {
+      "id": "overlay_top_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        25,
+        705,
+        290
+      ],
+      "description": "覆盖画面左上区域的白色手写字样、短线、星星及餐具涂鸦，部分笔画叠在左上照片内部，整体作为固定手绘装饰保留。"
+    },
+    {
+      "id": "overlay_top_right_doodles",
+      "kind": "overlay",
+      "bbox": [
+        647,
+        27,
+        1079,
+        614
+      ],
+      "description": "覆盖右上区域的白色手写字样、星星、短线和围绕饮料照片的粗虚线装饰，部分内容压在右上照片边缘上方，作为独立固定涂鸦单元保留。"
+    },
+    {
+      "id": "overlay_center_doodles",
+      "kind": "overlay",
+      "bbox": [
+        493,
+        548,
+        1080,
+        923
+      ],
+      "description": "位于画布中央及中右区域的白色手写字样、箭头、星星、鱼形小图案和连接照片的虚线装饰，环绕并局部叠在中部饮品照片上，整体保留原有手绘轮廓。"
+    },
+    {
+      "id": "overlay_bottom_left_doodles",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        819,
+        598,
+        1439
+      ],
+      "description": "围绕左下瓶装照片的白色手写字样、星形图案、短线和虚线路径，部分装饰压在照片边缘上方；包含其附属手绘笔画并作为固定区域装饰保留。"
+    },
+    {
+      "id": "overlay_bottom_right_doodles",
+      "kind": "overlay",
+      "bbox": [
+        518,
+        824,
+        1080,
+        1439
+      ],
+      "description": "围绕右下杯子照片的白色手写字样、星星、鱼形图案、短线和虚线装饰，部分笔画叠在照片窗口边缘及其周围，作为独立固定手绘单元保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_food_table",
+    "photo_drinks_shop",
+    "photo_colorful_drinks",
+    "photo_bottled_snacks",
+    "photo_cartoon_cups",
+    "overlay_top_left_doodles",
+    "overlay_top_right_doodles",
+    "overlay_center_doodles",
+    "overlay_bottom_left_doodles",
+    "overlay_bottom_right_doodles"
+  ]
+}

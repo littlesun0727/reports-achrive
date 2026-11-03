@@ -1,0 +1,35 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_airplane_city",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        868,
+        876
+      ],
+      "description": "上半部为飞机窗外的连续航拍照片：机翼从右侧伸入，翼尖位于上方偏左；下方是暮色中的城市与道路灯光，天空、机翼和城市均属于同一摄影画面。照片下缘呈不规则撕裂状，与下方纸面插画交错衔接。"
+    },
+    {
+      "id": "overlay_paper_map",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        827,
+        868,
+        1448
+      ],
+      "description": "下半部连续的暖白色纸面插画单元，包含橙色灯线勾勒的城市道路与建筑、左侧坐在边缘的长发人物线稿，以及左下方手写文字“The city looks different when you're up here.”和短下划线。纸面上缘为不规则撕裂边，与上方照片交错；插画、人物和文字均作为同一固定设计保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_airplane_city",
+    "overlay_paper_map"
+  ]
+}

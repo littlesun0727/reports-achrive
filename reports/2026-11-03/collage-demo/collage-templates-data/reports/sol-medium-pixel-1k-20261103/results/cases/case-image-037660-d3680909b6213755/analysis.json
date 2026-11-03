@@ -1,0 +1,97 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "paper_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "全画布为连续的浅米色纤维纸底，带细碎灰褐色斑点、纸纤维及不均匀浅色纹理；四边和照片间隙均可见同一纸底。保留纸底原有纹理，三张独立照片及局部色块不归入底图。",
+      "background_type": "reference_clean",
+      "label": "全画布为连续的浅米色纤维纸底，带细碎灰褐色斑点、纸纤维及不均",
+      "method": "extract",
+      "rotation": 0
+    },
+    {
+      "id": "overlay_beige_panel",
+      "kind": "overlay",
+      "bbox": [
+        232,
+        147,
+        294,
+        589
+      ],
+      "description": "上方照片左侧露出的浅灰米色矩形装饰色块，具有平直左边、上边和下边，与纹理纸底存在色差。右部被照片遮挡，隐藏范围无法确定；保留可见部分，不将其扩为全画布底图。",
+      "label": "上方照片左侧露出的浅灰米色矩形装饰色块，具有平直左边、上边和",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_light_panel",
+      "kind": "overlay",
+      "bbox": [
+        371,
+        931,
+        519,
+        968
+      ],
+      "description": "下方横向照片上沿后方露出的浅乳白色矩形装饰块，可见水平顶边及两侧短边，下部被照片遮挡；作为独立局部固定装饰保留，隐藏范围不确定。",
+      "label": "下方横向照片上沿后方露出的浅乳白色矩形装饰块，可见水平顶边及",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bride",
+      "kind": "photo",
+      "bbox": [
+        293,
+        52,
+        734,
+        733
+      ],
+      "description": "上方竖向婚纱照，一位新娘穿白色长裙、手持花束，身体背向镜头并向左回头，完整裙摆落在林间草地上。保留高大树木、透光天空和坡地摄影环境，照片按矩形完整显示，无沿人物轮廓去背景；右下角被中右侧合影遮挡。",
+      "label": "上方竖向婚纱照，一位新娘穿白色长裙、手持花束，身体背向镜头并",
+      "method": "local"
+    },
+    {
+      "id": "photo_mountain_couple",
+      "kind": "photo",
+      "bbox": [
+        164,
+        968,
+        646,
+        1301
+      ],
+      "description": "下方横向远景婚纱照，新郎穿黑色西装、新娘穿白色婚纱，两人背对镜头牵手走向山景，人物全身及裙摆可见。保留蓝天、远处山脉和前景草坡，矩形窗口无主体去背景；右上部分被中右侧合影覆盖，完整照片窗口仍延伸至右边和上边。",
+      "label": "下方横向远景婚纱照，新郎穿黑色西装、新娘穿白色婚纱，两人背对",
+      "method": "local"
+    },
+    {
+      "id": "photo_embrace",
+      "kind": "photo",
+      "bbox": [
+        569,
+        680,
+        951,
+        1063
+      ],
+      "description": "中右侧近方形婚纱合影，两人在树林中相拥，新郎位于左侧并侧背向镜头，新娘位于右侧、面部朝左前方，裙身在下边被窗口裁切。保留树木、亮天空及林间地面，不沿人物轮廓去背景；矩形照片覆盖上方竖照的右下角和下方横照的右上角。",
+      "label": "中右侧近方形婚纱合影，两人在树林中相拥，新郎位于左侧并侧背向",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "paper_background",
+    "overlay_beige_panel",
+    "overlay_light_panel",
+    "photo_bride",
+    "photo_mountain_couple",
+    "photo_embrace"
+  ]
+}

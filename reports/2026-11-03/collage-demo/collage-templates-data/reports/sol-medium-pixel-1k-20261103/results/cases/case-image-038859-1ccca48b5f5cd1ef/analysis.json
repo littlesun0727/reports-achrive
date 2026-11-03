@@ -1,0 +1,114 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1080
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1080
+      ],
+      "description": "Solid canvas",
+      "background_type": "solid_color",
+      "label": "Solid canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#000000"
+      }
+    },
+    {
+      "id": "photo_hand_crafts",
+      "kind": "photo",
+      "bbox": [
+        0,
+        185,
+        770,
+        1080
+      ],
+      "description": "手掌托着两件像素珠饰的近景照片：下方是白色兔子造型饰物，右上方是黄色像素图案饰物，串珠链连接在手指附近；手和饰物共同构成一组摄影主体，摄影背景与黑色画布难以区分，完整显示范围按可见主体组合估计，左侧及下缘延伸出画布。",
+      "label": "手掌托着两件像素珠饰的近景照片：下方是白色兔子造型饰物，右上",
+      "method": "local"
+    },
+    {
+      "id": "overlay_title",
+      "kind": "overlay",
+      "bbox": [
+        25,
+        31,
+        1056,
+        196
+      ],
+      "description": "画面顶部一行白色手绘风格艺术字“哇！秋天第一拼！”，笔画粗细和字形具有明显装饰造型，作为整体保留。",
+      "label": "画面顶部一行白色手绘风格艺术字“哇！秋天第一拼！”，笔画粗细",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_star",
+      "kind": "overlay",
+      "bbox": [
+        62,
+        232,
+        176,
+        360
+      ],
+      "description": "左上方白色手绘四角星形装饰，轮廓为不规则粗线条。",
+      "label": "左上方白色手绘四角星形装饰，轮廓为不规则粗线条。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_arrow",
+      "kind": "overlay",
+      "bbox": [
+        733,
+        274,
+        930,
+        405
+      ],
+      "description": "右上方白色弯曲手绘箭头，箭头朝向左下方的黄色像素饰物。",
+      "label": "右上方白色弯曲手绘箭头，箭头朝向左下方的黄色像素饰物。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_squiggle",
+      "kind": "overlay",
+      "bbox": [
+        510,
+        845,
+        614,
+        982
+      ],
+      "description": "照片右侧、手部旁的白色手绘弯曲线条装饰。",
+      "label": "照片右侧、手部旁的白色手绘弯曲线条装饰。",
+      "method": "extract"
+    },
+    {
+      "id": "overlay_note",
+      "kind": "overlay",
+      "bbox": [
+        674,
+        451,
+        1057,
+        1044
+      ],
+      "description": "右下方白色手绘不规则圆角对话框，内部包含多行白色装饰字“把零散的时光拼成完整的快乐。（ps：和可爱的米菲一起迎接秋天！）”及一片带笑脸的橙色秋叶插画；边框、文字和叶片共同构成一个完整固定设计单元。",
+      "label": "右下方白色手绘不规则圆角对话框，内部包含多行白色装饰字“把零",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_hand_crafts",
+    "overlay_title",
+    "overlay_star",
+    "overlay_arrow",
+    "overlay_squiggle",
+    "overlay_note"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "俯拍浅溪中的岩石、砂砾河床与水面，无人物。画面上半部的大岩石上放着一本展开的书，书页及印字属于实拍内容；右侧有阳光反射，下半部可见弯曲水纹。岩石、河床和水面连续延伸至画布四边，构成完整摄影底图，局部被六个圆形照片覆盖。整幅摄影场景一起替换，不将书本或溪流拆为固定装饰。",
+      "background_type": "photo",
+      "label": "俯拍浅溪中的岩石、砂砾河床与水面，无人物。画面上半部的大岩石",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_circle_upper_right",
+      "kind": "photo",
+      "bbox": [
+        940,
+        240,
+        993,
+        293
+      ],
+      "description": "右上方独立圆形照片，显示浅灰白色水面与淡淡的斜向明暗纹理，无人物。摄影内容保留在整个圆形窗口内，边界清晰，覆盖底图的深色溪水；不沿水纹轮廓去背景。",
+      "label": "右上方独立圆形照片，显示浅灰白色水面与淡淡的斜向明暗纹理，无",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle_left",
+      "kind": "photo",
+      "bbox": [
+        77,
+        785,
+        170,
+        878
+      ],
+      "description": "左侧中下部独立圆形照片，呈灰白色水流、泡沫或水面反光近景，无人物。圆内保留完整摄影纹理，圆形边缘清晰，覆盖河床底图，与周围场景不是连续摄影区域。",
+      "label": "左侧中下部独立圆形照片，呈灰白色水流、泡沫或水面反光近景，无",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle_middle_right",
+      "kind": "photo",
+      "bbox": [
+        754,
+        730,
+        806,
+        782
+      ],
+      "description": "中部偏右的小圆形照片，显示浅黄绿色、带横向明暗带的水面近景，无人物，细节较模糊。整个圆形窗口保留摄影内容，边缘清晰且不透明，叠在砂砾河床上。",
+      "label": "中部偏右的小圆形照片，显示浅黄绿色、带横向明暗带的水面近景，",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle_center_lower",
+      "kind": "photo",
+      "bbox": [
+        494,
+        967,
+        573,
+        1046
+      ],
+      "description": "中下部独立圆形照片，左侧为浅灰白色区域，右侧为蓝绿色水面纹理，两者在圆内形成倾斜分界，无人物。完整保留圆内摄影内容，边界清晰，覆盖底图水纹与河床，不拆分圆内不同颜色区域。",
+      "label": "中下部独立圆形照片，左侧为浅灰白色区域，右侧为蓝绿色水面纹理",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle_lower_right",
+      "kind": "photo",
+      "bbox": [
+        977,
+        1150,
+        1062,
+        1235
+      ],
+      "description": "右下方独立圆形照片，显示浅青绿色水流或泡沫的近景纹理，无人物。摄影环境保留在圆形窗口内，轮廓清晰，覆盖深褐色河床，没有可见透明渐隐。",
+      "label": "右下方独立圆形照片，显示浅青绿色水流或泡沫的近景纹理，无人物",
+      "method": "local"
+    },
+    {
+      "id": "photo_circle_bottom_left",
+      "kind": "photo",
+      "bbox": [
+        214,
+        1270,
+        283,
+        1339
+      ],
+      "description": "底部偏左独立圆形照片，显示青灰色水面与浅色波纹近景，无人物。整个圆内摄影内容独立替换，边界清晰，叠在底图弯曲水纹及砂砾区域上，不与其他圆形照片合并。",
+      "label": "底部偏左独立圆形照片，显示青灰色水面与浅色波纹近景，无人物。",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_circle_upper_right",
+    "photo_circle_left",
+    "photo_circle_middle_right",
+    "photo_circle_center_lower",
+    "photo_circle_lower_right",
+    "photo_circle_bottom_left"
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1620
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1620
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_desktop",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        810
+      ],
+      "description": "画面上半部为一张连续的桌面摄影画面：上方显示一段有人吃面的视频，前景可见键盘、耳机线和戴眼镜的小玩偶；摄影环境保留在完整矩形区域内，底边在约 y=810 处与下方纸面拼接。视频中的文字和播放控件属于摄影内容。",
+      "label": "画面上半部为一张连续的桌面摄影画面：上方显示一段有人吃面的视",
+      "method": "local"
+    },
+    {
+      "id": "paper_panel",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        810,
+        1080,
+        1620
+      ],
+      "description": "画面下半部的浅色、带细微纹理纸面底板，从水平拼接处延伸至画布底边；保留纸张颜色变化和纹理，承载下方插画与文字。",
+      "label": "画面下半部的浅色、带细微纹理纸面底板，从水平拼接处延伸至画布",
+      "method": "extract"
+    },
+    {
+      "id": "illustration_laptop",
+      "kind": "overlay",
+      "bbox": [
+        98,
+        957,
+        331,
+        1137
+      ],
+      "description": "纸面左上位置的水彩质感笔记本电脑插画，包含打开的屏幕、键盘和底座，作为完整固定图案保留。",
+      "label": "纸面左上位置的水彩质感笔记本电脑插画，包含打开的屏幕、键盘和",
+      "method": "extract"
+    },
+    {
+      "id": "illustration_noodles",
+      "kind": "overlay",
+      "bbox": [
+        418,
+        968,
+        680,
+        1125
+      ],
+      "description": "纸面上方中央的水彩质感面碗插画，包含碗、面条、配料和斜放的筷子，作为一个完整固定图案保留。",
+      "label": "纸面上方中央的水彩质感面碗插画，包含碗、面条、配料和斜放的筷",
+      "method": "extract"
+    },
+    {
+      "id": "illustration_tea",
+      "kind": "overlay",
+      "bbox": [
+        806,
+        990,
+        988,
+        1127
+      ],
+      "description": "纸面右上位置的水彩质感茶杯插画，包含杯把和垂下的茶包标签，作为完整固定图案保留。",
+      "label": "纸面右上位置的水彩质感茶杯插画，包含杯把和垂下的茶包标签，作",
+      "method": "extract"
+    },
+    {
+      "id": "illustration_friend",
+      "kind": "overlay",
+      "bbox": [
+        110,
+        1258,
+        293,
+        1454
+      ],
+      "description": "纸面左下位置的戴眼镜小玩偶插画，包含玩偶、眼镜和身后的浅色环状配件，作为完整固定图案保留。",
+      "label": "纸面左下位置的戴眼镜小玩偶插画，包含玩偶、眼镜和身后的浅色环",
+      "method": "extract"
+    },
+    {
+      "id": "illustration_earphones",
+      "kind": "overlay",
+      "bbox": [
+        414,
+        1285,
+        667,
+        1448
+      ],
+      "description": "纸面下方中央的白色有线耳机插画，包含两个耳塞及弯曲延伸的线缆，作为一个完整固定图案保留。",
+      "label": "纸面下方中央的白色有线耳机插画，包含两个耳塞及弯曲延伸的线缆",
+      "method": "extract"
+    },
+    {
+      "id": "illustration_pouch",
+      "kind": "overlay",
+      "bbox": [
+        779,
+        1318,
+        986,
+        1433
+      ],
+      "description": "纸面右下位置的深蓝色拉链收纳包插画，包含拉链头和正面的浅色小图案，作为完整固定图案保留。",
+      "label": "纸面右下位置的深蓝色拉链收纳包插画，包含拉链头和正面的浅色小",
+      "method": "extract"
+    },
+    {
+      "id": "text_laptop",
+      "kind": "text",
+      "bbox": [
+        148,
+        1155,
+        281,
+        1186
+      ],
+      "description": "my laptop",
+      "label": "my laptop",
+      "method": "local",
+      "text": "my laptop",
+      "text_status": "known",
+      "style": {
+        "fill": "#68635D",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_noodles",
+      "kind": "text",
+      "bbox": [
+        497,
+        1157,
+        590,
+        1186
+      ],
+      "description": "noodles",
+      "label": "noodles",
+      "method": "local",
+      "text": "noodles",
+      "text_status": "known",
+      "style": {
+        "fill": "#68635D",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_tea",
+      "kind": "text",
+      "bbox": [
+        832,
+        1157,
+        962,
+        1187
+      ],
+      "description": "my tea",
+      "label": "my tea",
+      "method": "local",
+      "text": "my tea",
+      "text_status": "known",
+      "style": {
+        "fill": "#68635D",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_friend",
+      "kind": "text",
+      "bbox": [
+        134,
+        1473,
+        273,
+        1505
+      ],
+      "description": "little friend",
+      "label": "little friend",
+      "method": "local",
+      "text": "little friend",
+      "text_status": "known",
+      "style": {
+        "fill": "#68635D",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_earphones",
+      "kind": "text",
+      "bbox": [
+        483,
+        1474,
+        603,
+        1505
+      ],
+      "description": "earphones",
+      "label": "earphones",
+      "method": "local",
+      "text": "earphones",
+      "text_status": "known",
+      "style": {
+        "fill": "#68635D",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_pouch",
+      "kind": "text",
+      "bbox": [
+        816,
+        1474,
+        953,
+        1505
+      ],
+      "description": "my pouch",
+      "label": "my pouch",
+      "method": "local",
+      "text": "my pouch",
+      "text_status": "known",
+      "style": {
+        "fill": "#68635D",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_date",
+      "kind": "text",
+      "bbox": [
+        465,
+        1548,
+        616,
+        1580
+      ],
+      "description": "2024.12.11",
+      "label": "2024.12.11",
+      "method": "local",
+      "text": "2024.12.11",
+      "text_status": "known",
+      "style": {
+        "fill": "#554D45",
+        "font": "mono",
+        "align": "center",
+        "bold": true,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_desktop",
+    "paper_panel",
+    "illustration_laptop",
+    "illustration_noodles",
+    "illustration_tea",
+    "illustration_friend",
+    "illustration_earphones",
+    "illustration_pouch",
+    "text_laptop",
+    "text_noodles",
+    "text_tea",
+    "text_friend",
+    "text_earphones",
+    "text_pouch",
+    "text_date"
+  ]
+}

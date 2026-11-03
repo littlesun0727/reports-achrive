@@ -1,0 +1,536 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1414
+  ],
+  "objects": [
+    {
+      "id": "photo_background",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1414
+      ],
+      "description": "连续的模糊摄影环境覆盖整个画布，包含绿色植物、浅色桌面、文具和背景物体，内容从四边延伸并在九张照片卡片及文字后方连续可见；人物与环境共同作为可替换的全画布摄影底图。",
+      "background_type": "photo",
+      "label": "连续的模糊摄影环境覆盖整个画布，包含绿色植物、浅色桌面、文具",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_book",
+      "kind": "photo",
+      "bbox": [
+        136,
+        242,
+        353,
+        449
+      ],
+      "description": "上排左侧的独立方形照片，展示书本、手写卡片和手持纸张，照片环境保留在完整内口范围内。",
+      "label": "上排左侧的独立方形照片，展示书本、手写卡片和手持纸张，照片环",
+      "method": "local"
+    },
+    {
+      "id": "frame_book",
+      "kind": "frame",
+      "bbox": [
+        113,
+        215,
+        374,
+        477
+      ],
+      "description": "承载书本照片的白色方形相纸框，保留完整白色边框和卡片轮廓。",
+      "photo_id": [
+        "photo_book"
+      ],
+      "label": "承载书本照片的白色方形相纸框，保留完整白色边框和卡片轮廓。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_shin_chan",
+      "kind": "photo",
+      "bbox": [
+        467,
+        243,
+        672,
+        448
+      ],
+      "description": "上排中间的独立方形照片，展示躺在卡通杯子中的玩偶人物及杯子，完整照片环境保留在内口内。",
+      "label": "上排中间的独立方形照片，展示躺在卡通杯子中的玩偶人物及杯子，",
+      "method": "local"
+    },
+    {
+      "id": "frame_shin_chan",
+      "kind": "frame",
+      "bbox": [
+        441,
+        217,
+        697,
+        473
+      ],
+      "description": "承载玩偶照片的白色方形相纸框，保留完整白色边框。",
+      "photo_id": [
+        "photo_shin_chan"
+      ],
+      "label": "承载玩偶照片的白色方形相纸框，保留完整白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_ice_cream",
+      "kind": "photo",
+      "bbox": [
+        792,
+        247,
+        987,
+        443
+      ],
+      "description": "上排右侧的独立方形照片，展示包装中的多支冰淇淋或冷冻甜品，保留照片内包装和浅色背景。",
+      "label": "上排右侧的独立方形照片，展示包装中的多支冰淇淋或冷冻甜品，保",
+      "method": "local"
+    },
+    {
+      "id": "frame_ice_cream",
+      "kind": "frame",
+      "bbox": [
+        766,
+        222,
+        1011,
+        468
+      ],
+      "description": "承载冰淇淋照片的白色方形相纸框，保留完整边框和轻微纸张阴影。",
+      "photo_id": [
+        "photo_ice_cream"
+      ],
+      "label": "承载冰淇淋照片的白色方形相纸框，保留完整边框和轻微纸张阴影。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_mushroom",
+      "kind": "photo",
+      "bbox": [
+        136,
+        599,
+        352,
+        815
+      ],
+      "description": "中排左侧的独立方形照片，展示悬挂在墙面前的蘑菇造型布艺物件，包含其完整摄影背景。",
+      "label": "中排左侧的独立方形照片，展示悬挂在墙面前的蘑菇造型布艺物件，",
+      "method": "local"
+    },
+    {
+      "id": "frame_mushroom",
+      "kind": "frame",
+      "bbox": [
+        109,
+        572,
+        379,
+        842
+      ],
+      "description": "承载蘑菇照片的白色方形相纸框，保留完整白色边框。",
+      "photo_id": [
+        "photo_mushroom"
+      ],
+      "label": "承载蘑菇照片的白色方形相纸框，保留完整白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_sunset",
+      "kind": "photo",
+      "bbox": [
+        460,
+        602,
+        669,
+        812
+      ],
+      "description": "中排中间的独立方形照片，展示橙红色晚霞、云层和建筑剪影，完整天空摄影画面保留在照片内口中。",
+      "label": "中排中间的独立方形照片，展示橙红色晚霞、云层和建筑剪影，完整",
+      "method": "local"
+    },
+    {
+      "id": "frame_sunset",
+      "kind": "frame",
+      "bbox": [
+        433,
+        577,
+        695,
+        838
+      ],
+      "description": "承载晚霞照片的白色方形相纸框，保留完整白色边框。",
+      "photo_id": [
+        "photo_sunset"
+      ],
+      "label": "承载晚霞照片的白色方形相纸框，保留完整白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_ray",
+      "kind": "photo",
+      "bbox": [
+        796,
+        608,
+        994,
+        806
+      ],
+      "description": "中排右侧的独立方形照片，展示带白色圆点光斑效果的浅色室内空间和柜体，摄影环境保留在完整窗口内。",
+      "label": "中排右侧的独立方形照片，展示带白色圆点光斑效果的浅色室内空间",
+      "method": "local"
+    },
+    {
+      "id": "frame_ray",
+      "kind": "frame",
+      "bbox": [
+        771,
+        583,
+        1019,
+        831
+      ],
+      "description": "承载室内照片的白色方形相纸框，保留完整边框。",
+      "photo_id": [
+        "photo_ray"
+      ],
+      "label": "承载室内照片的白色方形相纸框，保留完整边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_felt_craft",
+      "kind": "photo",
+      "bbox": [
+        155,
+        975,
+        353,
+        1182
+      ],
+      "description": "下排左侧的独立方形照片，展示多件彩色手工布艺玩偶和手工材料，完整照片环境保留在内口范围内。",
+      "label": "下排左侧的独立方形照片，展示多件彩色手工布艺玩偶和手工材料，",
+      "method": "local"
+    },
+    {
+      "id": "frame_felt_craft",
+      "kind": "frame",
+      "bbox": [
+        129,
+        950,
+        380,
+        1207
+      ],
+      "description": "承载布艺手工作品照片的白色方形相纸框，保留完整白色边框。",
+      "photo_id": [
+        "photo_felt_craft"
+      ],
+      "label": "承载布艺手工作品照片的白色方形相纸框，保留完整白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_food",
+      "kind": "photo",
+      "bbox": [
+        472,
+        976,
+        669,
+        1176
+      ],
+      "description": "下排中间的独立方形照片，展示桌面上的面食、配菜和餐具，保留完整俯拍摄影环境。",
+      "label": "下排中间的独立方形照片，展示桌面上的面食、配菜和餐具，保留完",
+      "method": "local"
+    },
+    {
+      "id": "frame_food",
+      "kind": "frame",
+      "bbox": [
+        447,
+        951,
+        694,
+        1208
+      ],
+      "description": "承载食物照片的白色方形相纸框，保留完整边框。",
+      "photo_id": [
+        "photo_food"
+      ],
+      "label": "承载食物照片的白色方形相纸框，保留完整边框。",
+      "method": "extract"
+    },
+    {
+      "id": "photo_plush_toy",
+      "kind": "photo",
+      "bbox": [
+        797,
+        974,
+        994,
+        1176
+      ],
+      "description": "下排右侧的独立方形照片，展示靠在木质背景前的黑白企鹅毛绒玩偶，完整照片环境保留在内口内。",
+      "label": "下排右侧的独立方形照片，展示靠在木质背景前的黑白企鹅毛绒玩偶",
+      "method": "local"
+    },
+    {
+      "id": "frame_plush_toy",
+      "kind": "frame",
+      "bbox": [
+        772,
+        949,
+        1018,
+        1203
+      ],
+      "description": "承载企鹅毛绒玩偶照片的白色方形相纸框，保留完整白色边框。",
+      "photo_id": [
+        "photo_plush_toy"
+      ],
+      "label": "承载企鹅毛绒玩偶照片的白色方形相纸框，保留完整白色边框。",
+      "method": "extract"
+    },
+    {
+      "id": "text_title",
+      "kind": "text",
+      "bbox": [
+        48,
+        75,
+        1000,
+        153
+      ],
+      "description": "What do you do in summer?",
+      "label": "What do you do in summer?",
+      "method": "local",
+      "text": "What do you do in summer?",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_book",
+      "kind": "text",
+      "bbox": [
+        164,
+        487,
+        341,
+        558
+      ],
+      "description": "book",
+      "label": "book",
+      "method": "local",
+      "text": "book",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_shin_chan",
+      "kind": "text",
+      "bbox": [
+        426,
+        497,
+        675,
+        557
+      ],
+      "description": "Shin-chan",
+      "label": "Shin-chan",
+      "method": "local",
+      "text": "Shin-chan",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_ice_cream",
+      "kind": "text",
+      "bbox": [
+        804,
+        475,
+        974,
+        571
+      ],
+      "description": "ice\ncream",
+      "label": "ice\ncream",
+      "method": "local",
+      "text": "ice\ncream",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_mushroom",
+      "kind": "text",
+      "bbox": [
+        124,
+        868,
+        366,
+        919
+      ],
+      "description": "mushroom",
+      "label": "mushroom",
+      "method": "local",
+      "text": "mushroom",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_sunset",
+      "kind": "text",
+      "bbox": [
+        488,
+        858,
+        649,
+        914
+      ],
+      "description": "sunset",
+      "label": "sunset",
+      "method": "local",
+      "text": "sunset",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_ray",
+      "kind": "text",
+      "bbox": [
+        837,
+        852,
+        959,
+        910
+      ],
+      "description": "ray",
+      "label": "ray",
+      "method": "local",
+      "text": "ray",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_felt_craft",
+      "kind": "text",
+      "bbox": [
+        143,
+        1236,
+        361,
+        1294
+      ],
+      "description": "felt craft",
+      "label": "felt craft",
+      "method": "local",
+      "text": "felt craft",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_food",
+      "kind": "text",
+      "bbox": [
+        493,
+        1228,
+        642,
+        1286
+      ],
+      "description": "food",
+      "label": "food",
+      "method": "local",
+      "text": "food",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    },
+    {
+      "id": "text_plush_toy",
+      "kind": "text",
+      "bbox": [
+        799,
+        1227,
+        1000,
+        1287
+      ],
+      "description": "plush toy",
+      "label": "plush toy",
+      "method": "local",
+      "text": "plush toy",
+      "text_status": "known",
+      "style": {
+        "fill": "#FFFFFF",
+        "font": "hand",
+        "align": "center",
+        "bold": false,
+        "italic": false
+      }
+    }
+  ],
+  "layer_order": [
+    "photo_background",
+    "photo_book",
+    "photo_shin_chan",
+    "photo_ice_cream",
+    "photo_mushroom",
+    "photo_sunset",
+    "photo_ray",
+    "photo_felt_craft",
+    "photo_food",
+    "photo_plush_toy",
+    "frame_book",
+    "frame_shin_chan",
+    "frame_ice_cream",
+    "frame_mushroom",
+    "frame_sunset",
+    "frame_ray",
+    "frame_felt_craft",
+    "frame_food",
+    "frame_plush_toy",
+    "text_title",
+    "text_book",
+    "text_shin_chan",
+    "text_ice_cream",
+    "text_mushroom",
+    "text_sunset",
+    "text_ray",
+    "text_felt_craft",
+    "text_food",
+    "text_plush_toy"
+  ]
+}

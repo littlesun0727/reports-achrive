@@ -1,0 +1,52 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "transparent"
+  },
+  "objects": [
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        784
+      ],
+      "description": "上方独立横向山地村落照片，完整显示蓝天、积雪山峰、山麓建筑、树木和前景杂物，摄影环境保留并延伸至画布左右边缘；下缘在784像素处与下方照片形成明确水平接缝。照片中的文字为后加的独立叠加文字，不属于摄影内容。"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        784,
+        1080,
+        1440
+      ],
+      "description": "下方独立横向高山野生动物照片，完整显示两只山地动物、碎石地面、灌木林、远处雪山和蓝天，摄影环境保留并覆盖画布下半部；上缘在784像素处与上方照片形成明确水平接缝。"
+    },
+    {
+      "id": "text_travel_note",
+      "kind": "text",
+      "bbox": [
+        30,
+        47,
+        634,
+        343
+      ],
+      "text": "感谢这样的心态和旅行方式，\n我仍会为这颗美丽的星球频频发出惊叹。\n\n上月行至西藏，有一天不知道该往哪儿走了，\n在时间、路程和心境的抉择中迷路。\n\n沮丧吃早餐时，刷到了一篇令我兴奋的笔记，\n喜马拉雅山麓的雪山前，动物与人类长久共居。",
+      "color": "#FFFFFF",
+      "font": "cjk",
+      "align": "left",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "layer_order": [
+    "photo_top",
+    "photo_bottom",
+    "text_travel_note"
+  ]
+}

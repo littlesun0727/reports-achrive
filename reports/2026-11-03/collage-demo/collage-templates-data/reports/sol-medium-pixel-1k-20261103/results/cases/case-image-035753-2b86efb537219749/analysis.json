@@ -1,0 +1,100 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1920
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        639
+      ],
+      "description": "横向公园草地照片，前景有两名坐在草地上的人物，远处草坪、树木和零散人群共同构成完整摄影画面；照片显示区域铺满画布宽度，下缘与白色分隔带相接，保留摄影环境。",
+      "label": "横向公园草地照片，前景有两名坐在草地上的人物，远处草坪、树木",
+      "method": "local"
+    },
+    {
+      "id": "separator_top",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        639,
+        1080,
+        649
+      ],
+      "description": "横贯全宽的白色水平分隔带，位于上方公园照片与中部滨水照片之间，作为独立固定留白保留。",
+      "label": "横贯全宽的白色水平分隔带，位于上方公园照片与中部滨水照片之间",
+      "method": "extract"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        649,
+        1080,
+        1280
+      ],
+      "description": "横向滨水照片，画面中有一名坐在水边的男性和一只棕色狗，背景为水面，右侧为混凝土岸边并带有阴影；照片显示区域铺满画布宽度，上下边缘被白色分隔带限定，保留完整摄影环境。",
+      "label": "横向滨水照片，画面中有一名坐在水边的男性和一只棕色狗，背景为",
+      "method": "local"
+    },
+    {
+      "id": "separator_bottom",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        1280,
+        1080,
+        1291
+      ],
+      "description": "横贯全宽的白色水平分隔带，位于中部滨水照片与下方草地照片之间，作为独立固定留白保留。",
+      "label": "横贯全宽的白色水平分隔带，位于中部滨水照片与下方草地照片之间",
+      "method": "extract"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1291,
+        1080,
+        1920
+      ],
+      "description": "横向草地照片，左侧有两名坐在草地上的女性，右侧和前景散落餐盒、纸袋及食物；草地环境延伸至照片边缘，照片显示区域铺满画布宽度并延伸至画布底边。",
+      "label": "横向草地照片，左侧有两名坐在草地上的女性，右侧和前景散落餐盒",
+      "method": "local"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "separator_top",
+    "photo_middle",
+    "separator_bottom",
+    "photo_bottom"
+  ]
+}

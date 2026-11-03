@@ -1,0 +1,184 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1822
+  ],
+  "objects": [
+    {
+      "id": "bg",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1822
+      ],
+      "description": "Transparent canvas",
+      "background_type": "solid_color",
+      "label": "Transparent canvas",
+      "method": "local",
+      "rotation": 0,
+      "style": {
+        "fill": "#00000000"
+      }
+    },
+    {
+      "id": "photo_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        0,
+        1080,
+        608
+      ],
+      "description": "上方横向演唱会远景照片，蓝色灯光下的大型舞台屏幕显示一名红发歌手及舞台影像，前景为观众和场地；整段场景保留为可替换摄影画面。",
+      "label": "上方横向演唱会远景照片，蓝色灯光下的大型舞台屏幕显示一名红发",
+      "method": "local"
+    },
+    {
+      "id": "photo_middle",
+      "kind": "photo",
+      "bbox": [
+        0,
+        608,
+        1080,
+        1290
+      ],
+      "description": "中间横向演唱会远景照片，红橙色灯光照亮大型舞台屏幕，屏幕上有演出者和舞台画面，前景为观众席；与上下段场景和光线明显不同，独立替换。",
+      "label": "中间横向演唱会远景照片，红橙色灯光照亮大型舞台屏幕，屏幕上有",
+      "method": "local"
+    },
+    {
+      "id": "photo_bottom",
+      "kind": "photo",
+      "bbox": [
+        0,
+        1290,
+        1080,
+        1822
+      ],
+      "description": "下方横向演唱会远景照片，暗色场地与红色灯光环绕舞台，屏幕中显示歌手及明亮的夕照画面，前景为观众和场地；独立替换。",
+      "label": "下方横向演唱会远景照片，暗色场地与红色灯光环绕舞台，屏幕中显",
+      "method": "local"
+    },
+    {
+      "id": "title_top",
+      "kind": "overlay",
+      "bbox": [
+        458,
+        389,
+        1080,
+        567
+      ],
+      "description": "叠在上方照片下部的大型蓝色书法风格字样“少年有为”，字形、笔画和整体布局作为一个固定标题装饰保留。",
+      "label": "叠在上方照片下部的大型蓝色书法风格字样“少年有为”，字形、笔",
+      "method": "extract"
+    },
+    {
+      "id": "brand_top",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        551,
+        678,
+        583
+      ],
+      "description": "上方照片下部中央的白色相机品牌标识与小型金色字样，包含图形标记和排版细节，作为一体水印装饰保留。",
+      "label": "上方照片下部中央的白色相机品牌标识与小型金色字样，包含图形标",
+      "method": "extract"
+    },
+    {
+      "id": "title_middle",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        974,
+        365,
+        1153
+      ],
+      "description": "叠在中间照片左下部的浅紫色大型书法风格字样“老街”，部分贴近画布左边缘，作为整体标题装饰保留。",
+      "label": "叠在中间照片左下部的浅紫色大型书法风格字样“老街”，部分贴近",
+      "method": "extract"
+    },
+    {
+      "id": "brand_middle",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        1160,
+        678,
+        1193
+      ],
+      "description": "中间照片下部中央的白色相机品牌标识与小型金色字样，包含图形标记和排版细节，作为一体水印装饰保留。",
+      "label": "中间照片下部中央的白色相机品牌标识与小型金色字样，包含图形标",
+      "method": "extract"
+    },
+    {
+      "id": "title_bottom",
+      "kind": "overlay",
+      "bbox": [
+        315,
+        1585,
+        746,
+        1770
+      ],
+      "description": "叠在下方照片下半部中央的白色大型书法风格字样“起点”，笔画有明显手写造型，作为一个整体标题装饰保留。",
+      "label": "叠在下方照片下半部中央的白色大型书法风格字样“起点”，笔画有",
+      "method": "extract"
+    },
+    {
+      "id": "accent_bottom",
+      "kind": "overlay",
+      "bbox": [
+        884,
+        1642,
+        952,
+        1753
+      ],
+      "description": "下方照片右侧的红色斜向笔触装饰，独立于标题字形，作为固定图形保留。",
+      "label": "下方照片右侧的红色斜向笔触装饰，独立于标题字形，作为固定图形",
+      "method": "extract"
+    },
+    {
+      "id": "brand_bottom",
+      "kind": "overlay",
+      "bbox": [
+        389,
+        1770,
+        678,
+        1803
+      ],
+      "description": "下方照片底部中央的白色相机品牌标识与小型金色字样，包含图形标记和排版细节，作为一体水印装饰保留。",
+      "label": "下方照片底部中央的白色相机品牌标识与小型金色字样，包含图形标",
+      "method": "extract"
+    },
+    {
+      "id": "platform_mark",
+      "kind": "overlay",
+      "bbox": [
+        1035,
+        1796,
+        1070,
+        1815
+      ],
+      "description": "画布右下角的小型深色平台标记，含浅色图形和字样，作为独立水印保留。",
+      "label": "画布右下角的小型深色平台标记，含浅色图形和字样，作为独立水印",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "bg",
+    "photo_top",
+    "photo_middle",
+    "photo_bottom",
+    "brand_top",
+    "title_top",
+    "title_middle",
+    "brand_middle",
+    "title_bottom",
+    "accent_bottom",
+    "brand_bottom",
+    "platform_mark"
+  ]
+}

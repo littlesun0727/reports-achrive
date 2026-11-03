@@ -1,0 +1,55 @@
+{
+  "schema_version": "collage-analysis-v1",
+  "reference_size": [
+    1080,
+    1440
+  ],
+  "objects": [
+    {
+      "id": "photo_base",
+      "kind": "background",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1440
+      ],
+      "description": "咖啡店门面与室内环境构成连续的竖幅摄影底图，招牌、灯具、门窗及下方自行车和雨伞共同延伸至画布边缘；中央偏下的甜点盘抠图遮挡部分店面，底图其余摄影环境保留并由客户照片替换。",
+      "background_type": "photo",
+      "label": "咖啡店门面与室内环境构成连续的竖幅摄影底图，招牌、灯具、门窗",
+      "method": "local",
+      "rotation": 0
+    },
+    {
+      "id": "photo_dessert_plate",
+      "kind": "photo",
+      "bbox": [
+        71,
+        501,
+        836,
+        1118
+      ],
+      "description": "中央偏下的抠图主体组合：蓝色圆盘上放着哈密瓜奶油蛋糕、饼干小人及左侧餐具。摄影背景不保留，主体组合外缘有完整白色粗糙手绘描边，覆盖并遮挡店面底图。",
+      "label": "中央偏下的抠图主体组合：蓝色圆盘上放着哈密瓜奶油蛋糕、饼干小",
+      "method": "local"
+    },
+    {
+      "id": "overlay_holic_coffee",
+      "kind": "overlay",
+      "bbox": [
+        499,
+        1126,
+        911,
+        1191
+      ],
+      "description": "盘子下方偏右的白色装饰字样“ Holic coffee”，字形呈不规则打字机风格，作为完整固定文字设计保留；不属于底图招牌文字。",
+      "label": "盘子下方偏右的白色装饰字样“ Holic coffee”，字",
+      "method": "extract"
+    }
+  ],
+  "layer_order": [
+    "photo_base",
+    "photo_dessert_plate",
+    "overlay_holic_coffee"
+  ]
+}

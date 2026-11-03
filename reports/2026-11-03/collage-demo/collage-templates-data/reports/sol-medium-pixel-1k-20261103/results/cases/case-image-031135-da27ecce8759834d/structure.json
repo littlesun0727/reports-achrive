@@ -1,0 +1,397 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "green_paper_base",
+    "description": "橄榄绿色、带明显纤维与斑驳纹理的纸面连续铺满画布，照片之间及四周露出的部分纹理一致；保留纸底原样，替换独立照片并清除其上的固定文字与装饰。"
+  },
+  "objects": [
+    {
+      "id": "photo_portrait_top",
+      "kind": "photo",
+      "bbox": [
+        0,
+        166,
+        221,
+        468
+      ],
+      "description": "左上竖向人物近景照片，一名戴蓝色宽檐帽、穿深色外套的女性面向镜头微笑，身后及周围可见菜园植物；矩形照片边缘直接裁切画面。"
+    },
+    {
+      "id": "photo_garden_top_left",
+      "kind": "photo",
+      "bbox": [
+        158,
+        183,
+        408,
+        478
+      ],
+      "description": "上排左侧横向菜园照片，密集绿叶与种植行构成完整摄影画面，人物照片遮住左侧一部分；可见区域为圆角矩形窗口。"
+    },
+    {
+      "id": "photo_eggplant",
+      "kind": "photo",
+      "bbox": [
+        426,
+        190,
+        642,
+        477
+      ],
+      "description": "上排中间竖向菜园照片，叶片间可见茄子及地面，保留照片内植物与环境；下部中央的紫色茄子手绘贴纸覆盖照片边缘。"
+    },
+    {
+      "id": "photo_tomato_garden",
+      "kind": "photo",
+      "bbox": [
+        665,
+        192,
+        875,
+        476
+      ],
+      "description": "上排右侧竖向菜园照片，番茄植株、枝叶和地面共同构成画面，保留摄影环境；显示在橙红色圆角照片框内。"
+    },
+    {
+      "id": "photo_watermelon",
+      "kind": "photo",
+      "bbox": [
+        151,
+        552,
+        359,
+        836
+      ],
+      "description": "中排左侧竖向菜园照片，叶蔓间有一枚西瓜，地面与植株均保留；显示在深绿色圆角照片框内。"
+    },
+    {
+      "id": "photo_cucumber_garden",
+      "kind": "photo",
+      "bbox": [
+        401,
+        551,
+        614,
+        839
+      ],
+      "description": "中排中央竖向菜园照片，黄瓜藤叶覆盖种植地面，保留完整摄影环境；显示在深绿色圆角照片框内。"
+    },
+    {
+      "id": "photo_hand_melon",
+      "kind": "photo",
+      "bbox": [
+        653,
+        545,
+        857,
+        822
+      ],
+      "description": "中排右侧横向菜园照片，绿色叶片背景前有手托着切开的浅色瓜果，手与果实属于同一照片内容；照片右上区域被画面外的手臂部分遮挡，显示在黄色圆角照片框内。"
+    },
+    {
+      "id": "photo_corn",
+      "kind": "photo",
+      "bbox": [
+        164,
+        920,
+        399,
+        1177
+      ],
+      "description": "下排左侧菜园照片，近景为挺立的玉米植株，保留叶片及周围菜园环境；显示在绿色圆角照片框内。"
+    },
+    {
+      "id": "photo_soybean",
+      "kind": "photo",
+      "bbox": [
+        432,
+        917,
+        648,
+        1204
+      ],
+      "description": "下排中间竖向菜地照片，低矮植株分布在裸露地面上，保留完整摄影环境；上方被圆形放大照片窗口局部覆盖。"
+    },
+    {
+      "id": "photo_cabbage",
+      "kind": "photo",
+      "bbox": [
+        674,
+        887,
+        916,
+        1201
+      ],
+      "description": "下排右侧竖向照片，蓝绿色卷心菜叶片占据画面，保留菜叶与田间环境；显示在蓝色圆角照片框内，右下部分被人物照片遮挡。"
+    },
+    {
+      "id": "photo_plant_detail",
+      "kind": "photo",
+      "bbox": [
+        587,
+        904,
+        691,
+        1007
+      ],
+      "description": "覆盖下排中间照片上沿的圆形菜叶近景，放大显示一片绿色叶面，保留圆形窗口内的摄影内容。"
+    },
+    {
+      "id": "photo_portrait_bottom",
+      "kind": "photo",
+      "bbox": [
+        904,
+        1122,
+        1080,
+        1358
+      ],
+      "description": "右下角竖向人物近景照片，一名戴蓝色宽檐帽、穿蓝色外套的女性坐姿面向镜头，身后有少量户外环境；照片延伸至画布右边缘和下方文字区域上方。"
+    },
+    {
+      "id": "overlay_top_title",
+      "kind": "overlay",
+      "bbox": [
+        18,
+        12,
+        725,
+        152
+      ],
+      "description": "左上方白色手绘标题组合，包含“a day”“in SUMMER!”及相邻的中文手写标题，并带少量彩色圆点与绿色点缀，保留原有不规则字形和整体排布。"
+    },
+    {
+      "id": "overlay_top_speech",
+      "kind": "overlay",
+      "bbox": [
+        728,
+        10,
+        1056,
+        180
+      ],
+      "description": "右上黑色手绘对话框，内有两行黑色中文手写字及框内彩色点缀，整体作为一个带字气泡装饰保留。"
+    },
+    {
+      "id": "overlay_eggplant_sticker",
+      "kind": "overlay",
+      "bbox": [
+        578,
+        338,
+        719,
+        487
+      ],
+      "description": "照片中下部的紫色茄子拟人贴纸，带绿色叶冠、表情和描边，压在上排中间照片下缘。"
+    },
+    {
+      "id": "overlay_tomato_red",
+      "kind": "overlay",
+      "bbox": [
+        902,
+        185,
+        1048,
+        317
+      ],
+      "description": "右上方红色拟人番茄贴纸，带绿色叶冠、黑色表情和深色描边。"
+    },
+    {
+      "id": "overlay_tomato_green",
+      "kind": "overlay",
+      "bbox": [
+        908,
+        416,
+        1032,
+        525
+      ],
+      "description": "右侧绿色拟人番茄贴纸，带叶冠、面部细节和深绿色描边。"
+    },
+    {
+      "id": "overlay_star_right",
+      "kind": "overlay",
+      "bbox": [
+        953,
+        332,
+        1025,
+        410
+      ],
+      "description": "右侧单枚亮绿色手绘五角星贴纸，带较深绿色边线。"
+    },
+    {
+      "id": "overlay_chili",
+      "kind": "overlay",
+      "bbox": [
+        14,
+        444,
+        78,
+        543
+      ],
+      "description": "左侧红色辣椒拟人贴纸，带绿色蒂、表情和深色描边。"
+    },
+    {
+      "id": "overlay_green_pepper",
+      "kind": "overlay",
+      "bbox": [
+        56,
+        500,
+        123,
+        603
+      ],
+      "description": "左侧绿色辣椒贴纸，弯曲椒身带深绿色斑点与叶蒂，作为独立手绘装饰保留。"
+    },
+    {
+      "id": "overlay_watermelon_drawing",
+      "kind": "overlay",
+      "bbox": [
+        29,
+        674,
+        124,
+        792
+      ],
+      "description": "左侧椭圆西瓜手绘贴纸，内部有深绿色条纹和小叶片，保留完整插画轮廓。"
+    },
+    {
+      "id": "overlay_corn",
+      "kind": "overlay",
+      "bbox": [
+        37,
+        962,
+        164,
+        1151
+      ],
+      "description": "左侧玉米插画，黄色玉米粒外包绿色叶片，保留完整手绘造型与描边。"
+    },
+    {
+      "id": "overlay_radish",
+      "kind": "overlay",
+      "bbox": [
+        380,
+        1071,
+        498,
+        1213
+      ],
+      "description": "下排中间偏左的白色萝卜拟人贴纸，周围有绿色叶片、手绘白色线条和面部细节，整体作为一个装饰单元保留。"
+    },
+    {
+      "id": "overlay_broccoli",
+      "kind": "overlay",
+      "bbox": [
+        875,
+        978,
+        1035,
+        1138
+      ],
+      "description": "右侧绿色西兰花拟人贴纸，包含团簇状顶部、浅绿茎部、面部细节及深绿色描边。"
+    },
+    {
+      "id": "overlay_watermelon_bottom",
+      "kind": "overlay",
+      "bbox": [
+        345,
+        1306,
+        538,
+        1439
+      ],
+      "description": "底部偏左的横向西瓜手绘贴纸，带浅绿果肉、深绿色条纹与外轮廓，部分压住底部白色英文标题区域。"
+    },
+    {
+      "id": "overlay_green_speech",
+      "kind": "overlay",
+      "bbox": [
+        12,
+        1232,
+        388,
+        1403
+      ],
+      "description": "左下黑色手绘对话框，内有两行中文手写字，气泡尾部向下，整体连同不规则边框与文字保留。"
+    },
+    {
+      "id": "overlay_melon_smile",
+      "kind": "overlay",
+      "bbox": [
+        925,
+        823,
+        1080,
+        977
+      ],
+      "description": "右侧亮绿色圆形瓜果拟人贴纸，带浅绿色叶片线条、笑脸和深绿色外描边，右侧接近画布边缘。"
+    },
+    {
+      "id": "overlay_bottom_title",
+      "kind": "overlay",
+      "bbox": [
+        511,
+        1297,
+        1070,
+        1416
+      ],
+      "description": "底部白色手绘英文标题“so many things to do”，分两行排布，字形粗细与字距不规则，作为艺术字整体保留。"
+    },
+    {
+      "id": "overlay_scattered_doodles",
+      "kind": "overlay",
+      "bbox": [
+        0,
+        0,
+        1080,
+        1237
+      ],
+      "description": "散布在纸面与照片周围的彩色手绘点和小星形装饰，包括画布边缘的白、黄、橙、粉、紫色圆点以及多个绿色星形；按各自可见位置整体作为零散点缀保留，不包括已单列的主体蔬果贴纸。"
+    },
+    {
+      "id": "overlay_caption_row_top",
+      "kind": "overlay",
+      "bbox": [
+        158,
+        486,
+        911,
+        530
+      ],
+      "description": "上排照片下方的手写中文说明组合，含绿色、黑色和橙色笔迹，按原有字形、颜色与相邻排布作为一组艺术字保留。"
+    },
+    {
+      "id": "overlay_caption_row_middle",
+      "kind": "overlay",
+      "bbox": [
+        123,
+        850,
+        909,
+        906
+      ],
+      "description": "中排照片下方与右侧的中文手写说明组合，包含深绿色与橙色字样，保留各段的原有位置和笔触。"
+    },
+    {
+      "id": "overlay_caption_row_bottom",
+      "kind": "overlay",
+      "bbox": [
+        166,
+        1208,
+        903,
+        1294
+      ],
+      "description": "下排照片下方的多段中文手写说明，分别以绿色和蓝色书写，包含相邻行文字与原有笔触排布，整体作为固定艺术字单元保留。"
+    }
+  ],
+  "layer_order": [
+    "overlay_scattered_doodles",
+    "photo_portrait_top",
+    "photo_garden_top_left",
+    "photo_eggplant",
+    "photo_tomato_garden",
+    "photo_watermelon",
+    "photo_cucumber_garden",
+    "photo_hand_melon",
+    "photo_corn",
+    "photo_soybean",
+    "photo_cabbage",
+    "photo_plant_detail",
+    "photo_portrait_bottom",
+    "overlay_top_title",
+    "overlay_top_speech",
+    "overlay_caption_row_top",
+    "overlay_caption_row_middle",
+    "overlay_caption_row_bottom",
+    "overlay_eggplant_sticker",
+    "overlay_tomato_red",
+    "overlay_tomato_green",
+    "overlay_star_right",
+    "overlay_chili",
+    "overlay_green_pepper",
+    "overlay_watermelon_drawing",
+    "overlay_corn",
+    "overlay_radish",
+    "overlay_broccoli",
+    "overlay_watermelon_bottom",
+    "overlay_green_speech",
+    "overlay_melon_smile",
+    "overlay_bottom_title"
+  ]
+}

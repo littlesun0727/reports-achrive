@@ -1,0 +1,397 @@
+{
+  "version": "structure-analysis-v9-12-frame-photo-list",
+  "coordinate_mode": "pixel",
+  "background": {
+    "type": "reference_clean",
+    "id": "paper_texture_background",
+    "description": "连续覆盖1080×1920画布的浅棕色纸张纹理底图，带细小黄色斑点和颗粒变化；两张社交动态卡片、月份日历、雪人、烟花、相机、酒杯和手写文字均为独立上层单元，底图纹理保留原样。"
+  },
+  "objects": [
+    {
+      "id": "photo_top_avatar",
+      "kind": "photo",
+      "bbox": [
+        57,
+        56,
+        115,
+        114
+      ],
+      "description": "顶部动态卡片左上角的小幅女性头像近景，人物面向镜头，身后可见蓝绿色户外环境；照片显示在独立方形头像窗口内。"
+    },
+    {
+      "id": "photo_top_1",
+      "kind": "photo",
+      "bbox": [
+        125,
+        138,
+        264,
+        277
+      ],
+      "description": "顶部动态九宫格第一张户外雪山照片，人物站在道路和路牌附近，保留天空、雪地及周围环境，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_2",
+      "kind": "photo",
+      "bbox": [
+        267,
+        138,
+        406,
+        277
+      ],
+      "description": "顶部动态九宫格第二张雪山远景照片，画面以连绵雪峰、蓝天和云层为主，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_3",
+      "kind": "photo",
+      "bbox": [
+        409,
+        138,
+        547,
+        277
+      ],
+      "description": "顶部动态九宫格第三张雪山人物照片，人物张开双臂站在高山路牌附近，保留山体和天空环境，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_4",
+      "kind": "photo",
+      "bbox": [
+        125,
+        280,
+        264,
+        418
+      ],
+      "description": "顶部动态九宫格第四张雪山道路照片，包含山坡、道路和左侧路牌，保留完整摄影环境，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_5",
+      "kind": "photo",
+      "bbox": [
+        267,
+        280,
+        406,
+        418
+      ],
+      "description": "顶部动态九宫格第五张连续雪山远景，主要显示深色山脊、雪线和天空，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_6",
+      "kind": "photo",
+      "bbox": [
+        409,
+        280,
+        547,
+        418
+      ],
+      "description": "顶部动态九宫格第六张雪峰近景照片，浅色雪山占据画面主体并保留天空，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_7",
+      "kind": "photo",
+      "bbox": [
+        125,
+        421,
+        264,
+        560
+      ],
+      "description": "顶部动态九宫格第七张高山景观照片，包含雪坡、山路和左侧彩色路牌，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_8",
+      "kind": "photo",
+      "bbox": [
+        267,
+        421,
+        406,
+        560
+      ],
+      "description": "顶部动态九宫格第八张雪山远景照片，画面由灰白色山脊、雪地和淡蓝天空构成，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_top_9",
+      "kind": "photo",
+      "bbox": [
+        409,
+        421,
+        547,
+        560
+      ],
+      "description": "顶部动态九宫格第九张雪山近景照片，远处雪峰和浅色天空占据画面，显示为方形照片窗口。"
+    },
+    {
+      "id": "frame_top_post",
+      "kind": "frame",
+      "bbox": [
+        40,
+        34,
+        595,
+        636
+      ],
+      "description": "顶部白色社交动态卡片，包含头像窗口、昵称“小张吃饭得用缸”、中文动态文字、雪山九宫格、日期时间、删除图标和右下角菜单按钮；白色卡片及其固定界面元素整体保留，照片窗口独立替换。",
+      "photo_id": [
+        "photo_top_avatar",
+        "photo_top_1",
+        "photo_top_2",
+        "photo_top_3",
+        "photo_top_4",
+        "photo_top_5",
+        "photo_top_6",
+        "photo_top_7",
+        "photo_top_8",
+        "photo_top_9"
+      ]
+    },
+    {
+      "id": "calendar_jan",
+      "kind": "overlay",
+      "bbox": [
+        620,
+        141,
+        1019,
+        541
+      ],
+      "description": "右上方独立的一月日历设计单元，包含黑色JAN标题、星期行和1至31的日期排布，整体印刷在纸张背景上并保留黄色斑点穿插效果。"
+    },
+    {
+      "id": "snowman",
+      "kind": "overlay",
+      "bbox": [
+        789,
+        542,
+        965,
+        802
+      ],
+      "description": "右上区域的白色手绘雪人贴纸，带蓝色帽子和围巾、橙色鼻子、黑色眼睛纽扣及旁侧白色小字装饰，作为完整固定插画保留。"
+    },
+    {
+      "id": "quote_top",
+      "kind": "overlay",
+      "bbox": [
+        47,
+        681,
+        667,
+        889
+      ],
+      "description": "左中部白色手写风格诗句装饰，包含多行中文文字及右侧署名“——余秀华《雪山》”，字形、笔画和行间布局作为整体固定设计保留。"
+    },
+    {
+      "id": "fireworks",
+      "kind": "overlay",
+      "bbox": [
+        181,
+        882,
+        414,
+        1122
+      ],
+      "description": "左中部偏下的白色手绘烟花线稿，包含中心放射线、圆点和弧形笔画，作为独立固定装饰整体保留。"
+    },
+    {
+      "id": "calendar_may",
+      "kind": "overlay",
+      "bbox": [
+        24,
+        1078,
+        458,
+        1436
+      ],
+      "description": "左下方独立的五月日历设计单元，包含黑色MAY标题、星期行和1至31的日期排布，整体固定排版及纸面斑点效果保留。"
+    },
+    {
+      "id": "photo_bottom_avatar",
+      "kind": "photo",
+      "bbox": [
+        515,
+        985,
+        571,
+        1041
+      ],
+      "description": "下方动态卡片左上角的小幅女性头像近景，人物面向镜头，保留蓝绿色户外背景，显示在独立方形头像窗口内。"
+    },
+    {
+      "id": "photo_bottom_1",
+      "kind": "photo",
+      "bbox": [
+        582,
+        1131,
+        716,
+        1267
+      ],
+      "description": "下方动态九宫格第一张海面照片，近处有船只和蓝绿色海水，保留海面及远处环境，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_2",
+      "kind": "photo",
+      "bbox": [
+        720,
+        1131,
+        854,
+        1267
+      ],
+      "description": "下方动态九宫格第二张海岸照片，包含岩石海湾、植被和蓝色海面，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_3",
+      "kind": "photo",
+      "bbox": [
+        858,
+        1131,
+        991,
+        1267
+      ],
+      "description": "下方动态九宫格第三张海边植物照片，前景有枝叶和海水，保留户外摄影环境，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_4",
+      "kind": "photo",
+      "bbox": [
+        582,
+        1270,
+        716,
+        1403
+      ],
+      "description": "下方动态九宫格第四张海湾风景照片，包含岩石、沙滩、蓝色海水和远处岸线，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_5",
+      "kind": "photo",
+      "bbox": [
+        720,
+        1270,
+        854,
+        1403
+      ],
+      "description": "下方动态九宫格第五张双人海边合影，前景为两位戴墨镜的人物，身后是海湾和天空，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_6",
+      "kind": "photo",
+      "bbox": [
+        858,
+        1270,
+        991,
+        1403
+      ],
+      "description": "下方动态九宫格第六张浅海和礁石照片，包含清澈海水、岸线与远处小船，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_7",
+      "kind": "photo",
+      "bbox": [
+        582,
+        1407,
+        716,
+        1541
+      ],
+      "description": "下方动态九宫格第七张海堤照片，前景为平静海面和石质码头，保留水平线与天空，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_8",
+      "kind": "photo",
+      "bbox": [
+        720,
+        1407,
+        854,
+        1541
+      ],
+      "description": "下方动态九宫格第八张海边松树照片，前景为枝叶，背景为海湾与岛屿，显示为方形照片窗口。"
+    },
+    {
+      "id": "photo_bottom_9",
+      "kind": "photo",
+      "bbox": [
+        858,
+        1407,
+        991,
+        1541
+      ],
+      "description": "下方动态九宫格第九张港湾照片，包含多艘小船、海面和远处岸线，显示为方形照片窗口。"
+    },
+    {
+      "id": "frame_bottom_post",
+      "kind": "frame",
+      "bbox": [
+        498,
+        965,
+        1038,
+        1616
+      ],
+      "description": "下方白色社交动态卡片，包含头像窗口、昵称“小张吃饭得用缸”、中文动态文字、海边九宫格、日期地点信息、删除图标和右下角菜单按钮；白色卡片及固定界面元素整体保留，照片窗口独立替换。",
+      "photo_id": [
+        "photo_bottom_avatar",
+        "photo_bottom_1",
+        "photo_bottom_2",
+        "photo_bottom_3",
+        "photo_bottom_4",
+        "photo_bottom_5",
+        "photo_bottom_6",
+        "photo_bottom_7",
+        "photo_bottom_8",
+        "photo_bottom_9"
+      ]
+    },
+    {
+      "id": "quote_bottom",
+      "kind": "overlay",
+      "bbox": [
+        44,
+        1517,
+        677,
+        1844
+      ],
+      "description": "左下区域白色手写风格诗句装饰，包含多行中文文字及底部署名“——余光中”，保留原有书写笔画、行距和整体排版。"
+    },
+    {
+      "id": "camera_illustration",
+      "kind": "overlay",
+      "bbox": [
+        454,
+        1696,
+        694,
+        1863
+      ],
+      "description": "画面下方中央偏左的蓝色手绘相机插画，包含机身、镜头、顶部按钮和CAMERA字样，作为独立固定装饰整体保留。"
+    },
+    {
+      "id": "wine_glasses",
+      "kind": "overlay",
+      "bbox": [
+        776,
+        1628,
+        1015,
+        1881
+      ],
+      "description": "右下方两只白色手绘酒杯线稿及周围小装饰笔画，包含杯体、酒液纹理、杯梗和散落星形细节，作为完整固定插画保留。"
+    }
+  ],
+  "layer_order": [
+    "photo_top_avatar",
+    "photo_top_1",
+    "photo_top_2",
+    "photo_top_3",
+    "photo_top_4",
+    "photo_top_5",
+    "photo_top_6",
+    "photo_top_7",
+    "photo_top_8",
+    "photo_top_9",
+    "frame_top_post",
+    "calendar_jan",
+    "snowman",
+    "quote_top",
+    "fireworks",
+    "calendar_may",
+    "photo_bottom_avatar",
+    "photo_bottom_1",
+    "photo_bottom_2",
+    "photo_bottom_3",
+    "photo_bottom_4",
+    "photo_bottom_5",
+    "photo_bottom_6",
+    "photo_bottom_7",
+    "photo_bottom_8",
+    "photo_bottom_9",
+    "frame_bottom_post",
+    "quote_bottom",
+    "camera_illustration",
+    "wine_glasses"
+  ]
+}
